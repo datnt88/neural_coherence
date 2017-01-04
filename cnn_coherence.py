@@ -30,7 +30,7 @@ x = Convolution1D(nb_filter=nb_filter, filter_length = filter_length, border_mod
 x = MaxPooling1D(pool_length=pool_length)(x)
 x = Dropout(dropout_ratio)(x)
 x = Dense(hidden_size, activation='relu')(x)
-x = Dropout(dropout_ratio)(x)
+out_x = Dropout(dropout_ratio)(x)
 
 # add latent cohernece score
 # out_x = Dense(1, activation='linear')(x)
