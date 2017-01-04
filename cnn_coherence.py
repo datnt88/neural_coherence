@@ -34,7 +34,6 @@ x = Dropout(dropout_ratio)(x)
 
 # add latent cohernece score
 # out_x = Dense(1, activation='linear')(x)
-
 shared_cnn = Model(sent_input, out_x)
 
 
@@ -47,13 +46,16 @@ pos_branch = shared_cnn(pos_input)
 neg_branch = shared_cnn(neg_input)
 
 # adding latent coherence score
-pos_model = Dense(1, activation='linear')(pos_model)
-neg_model = Dense(1, activation='linear')(neg_model)
+pos_model = Dense(1, activation='linear')(pos_branch)
+neg_model = Dense(1, activation='linear')(neg_branch)
 
 concatenated = merge([pos_model, neg_model], mode='concat')
+# output by two latent coherence score
+predictions = Dense(2, activation='relu')(concatenated)
 
+final_model = Model([pos_input, neg_input], predictions)
 
-
+final_model.compile(loss='ranking_loss', optimizer='adam')
 
 
 
