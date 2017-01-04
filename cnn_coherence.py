@@ -13,7 +13,7 @@ nb_filter = 150
 filter_length = 3
 pool_length = 4
 dropout_ratio = 0.5
-hiden_size = 250
+hidden_size = 250
 
 # first, define a CNN model for sequen of entities §
 # input of sequences of X,O,S,-,P between 1 and 5
@@ -29,12 +29,11 @@ x = Convolution1D(nb_filter=nb_filter, filter_length = filter_length, border_mod
 # add max pooling layers
 x = MaxPooling1D(pool_length=pool_length)(x)
 x = Dropout(dropout_ratio)(x)
-x = Dense(hiden_size, activation='relu')(x)
+x = Dense(hidden_size, activation='relu')(x)
 x = Dropout(dropout_ratio)(x)
 
 # add latent cohernece score
 # out_x = Dense(1, activation='linear')(x)
-
 
 shared_cnn = Model(sent_input, out_x)
 
