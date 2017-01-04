@@ -51,7 +51,7 @@ neg_model = Dense(1, activation='linear')(neg_branch)
 
 concatenated = merge([pos_model, neg_model], mode='concat')
 # output by two latent coherence score
-predictions = Dense(2, activation='relu')(concatenated)
+#predictions = Dense(2, activation='relu')(concatenated)
 
 final_model = Model([pos_input, neg_input], predictions)
 
