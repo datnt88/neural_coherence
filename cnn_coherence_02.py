@@ -17,12 +17,9 @@ from keras.utils import np_utils
 
 
 #loading pos entity-gird 
-X_train_1, X_test_1, X_dev_1, E = data_helper.load_and_numberize_data(path="./data/1/", dev_train_merge=0)
-
-#loading permuted entity-gird 
-X_train_0, X_test_0, X_dev_0, E = data_helper.load_and_numberize_data(path="./data/0/", dev_train_merge=0)
-
-assert len(X_train_1) == len(X_train_0) or len(X_test_1) == len(X_test_0) or len(X_dev_1) == len(y_dev_0)
+X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid(filelist="list_of_train.txt")
+X_dev_1, X_dev_0, E = data_helper.load_and_numberize_Egrid(filelist="list_of_dev.txt") 
+X_test_1, X_test_0, E = data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt") 
 
 num_train = len(X_train_1)
 num_dev = len(X_dev_1)
@@ -49,8 +46,6 @@ X_test_0   = sequence.pad_sequences(X_test_0, 200)
 
 #y_train_1 = np_utils.to_categorical(y_train_1, 2)
 #y_train_0  = np_utils.to_categorical(y_test_0, 2)
-
-
 
 #randomly shuffle the training data
 np.random.seed(133)

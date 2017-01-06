@@ -7,6 +7,58 @@ import numpy as np
 import glob, os, csv, re
 from collections import Counter
 
+def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=None):
+    # loading entiry-grid data from list of pos document and list of neg document
+    list_of_files = [line.rstrip('\n') for line in open(filelist)]
+    
+    # process postive gird, convert each file to be a sentence
+    sentences_1 = []
+    for file in list_of_files:
+        print(file)
+        lines = [line.rstrip('\n') for line in open(file)]
+
+        tmp_str = "0 0 0 0 "
+        for line in lines:
+            # remove entity name merge them in to a single string
+            tmp_str = tmp_str + line[21:] + " 0 0 0 0 0 "
+        #print(tmp_str)
+        for i in range (0, perm_num): #stupid code
+            sentences_1.append(tmp_str)
+
+    # process permuted entity grid
+    sentences_0 = []
+    for file in list_of_files:
+        for i in range(1,perm_num+1):
+            lines = [line.rstrip('\n') for line in open(file+".perm-"+str(i)+".txt")]    
+            tmp_str = "0 0 0 0 "
+            for line in lines:
+                # remove entity name merge them in to a single string
+                tmp_str = tmp_str + line[21:] + " 0 0 0 0 0 "
+            sentences_0.append(tmp_str)
+
+    #print(len(sentences_1))
+    #print(len(sentences_0))
+    #print(sentences_0)
+    assert len(sentences_0) == len(sentences_1)
+
+    # numberize_data
+    vocab_list = ['0','S','O','X','-']
+    vocab_idmap = {}
+    for i in range(len(vocab_list)):
+        vocab_idmap[vocab_list[i]] = i
+
+     # Numberize the sentences
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_0  = numberize_sentences(sentences_0,  vocab_idmap)
+    
+    X_1 = adjust_index(X_1, maxlen=maxlen)
+    X_0  = adjust_index(X_1,  maxlen=maxlen)
+
+    # maybe we have to load a fixed embeddeings for each S,O,X,- the representation of 0 is zeros vector
+    E      = 0.01 * np.random.uniform( -1.0, 1.0, (5, 300) )
+    E[0] = 0
+    
+    return X_1, X_0, E
 
 def load_and_numberize_data(path="../data/", maxlen=None, seed=113, init_type="random", dev_train_merge=0):
 	# loading the entity-grid data
@@ -49,18 +101,11 @@ def load_and_numberize_data(path="../data/", maxlen=None, seed=113, init_type="r
 
     #assert len(X_train) == len(y_train) or len(X_test) == len(y_test) or len(X_dev) == len(y_dev)
 
-    #randomly shuffle the training data
-    #np.random.seed(seed)
-    #np.random.shuffle(X_train)
-    #np.random.seed(seed)
-    #np.random.shuffle(y_train)
-
     # we do not need to adjust the index since we already add padding in very first begining
     # but we still have to set the maxlen, remove sentences which length < MaxLen
     X_train = adjust_index(X_train, maxlen=maxlen)
     X_test  = adjust_index(X_test,  maxlen=maxlen)
     X_dev   = adjust_index(X_dev,   maxlen=maxlen)
-
 
     if dev_train_merge:
         X_train.extend(X_dev)
@@ -70,9 +115,7 @@ def load_and_numberize_data(path="../data/", maxlen=None, seed=113, init_type="r
     E      = 0.01 * np.random.uniform( -1.0, 1.0, (5, 300) )
     E[0] = 0
     
-
     return X_train, X_test, X_dev, E
-
 
 
 def numberize_sentences(sentences, vocab_idmap):  
