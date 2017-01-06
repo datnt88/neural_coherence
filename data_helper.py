@@ -14,7 +14,7 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
     # process postive gird, convert each file to be a sentence
     sentences_1 = []
     for file in list_of_files:
-        print(file)
+        #print(file)
         lines = [line.rstrip('\n') for line in open(file)]
 
         tmp_str = "0 0 0 0 "
