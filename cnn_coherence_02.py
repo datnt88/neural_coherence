@@ -28,13 +28,13 @@ num_test = len(X_test_1)
 
 #assign Y value
 y_train_1 = [1] * num_train 
-y_train_0 = [0] * num_train 
-
 y_dev_1 = [1] * num_dev 
-y_dev_0 = [0] * num_dev 
-
 y_test_1 = [1] * num_test 
-y_test_0 = [0] * num_test
+
+
+#y_train_0 = [0] * num_train 
+#y_dev_0 = [0] * num_dev 
+#y_test_0 = [0] * num_test
 
 # find the maximum length for padding
 maxlen = max(len(l) for l in X_train_1)
@@ -47,10 +47,10 @@ print("Loading grid data done...")
 print("Num of documents: ")
 print("Num of traing pairs: " + str(num_train))
 print("Num of dev pairs: " + str(num_dev))
-print("Num of permutation: ") 
-print("The maximum length of a sentence: " + str(maxlen))
+print("Num of permutation: 3") 
+print("The maximum sentence length: " + str(maxlen))
 
-
+# let say default is 500
 maxlen=500
 
 X_train_1 = sequence.pad_sequences(X_train_1, maxlen)
@@ -65,8 +65,8 @@ X_test_0   = sequence.pad_sequences(X_test_0, maxlen)
 # the output is always 1??????
 y_train_1 = np_utils.to_categorical(y_train_1, 2) 
 y_dev_1  = np_utils.to_categorical(y_dev_1, 2)
-y_dev_1[:,0] = 1
-y_train_1[:,0] = 1
+#y_dev_1[:,0] = 1
+#y_train_1[:,0] = 1
 
 #print(y_dev_1)
 
