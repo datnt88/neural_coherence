@@ -18,13 +18,13 @@ def ranking_loss(y_true, y_pred):
 
 
 #loading entity-gird for pos and neg documents
-X_train_1, X_train_0 = data_helper.load_and_numberize_Egrid(filelist="list_of_train.txt", perm_num = 3)
-X_dev_1, X_dev_0 	 = data_helper.load_and_numberize_Egrid(filelist="list_of_dev.txt", perm_num = 3)
-X_test_1, X_test_0 	 = data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
+X_train_1, X_train_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_train.txt", perm_num = 3)
+X_dev_1, X_dev_0		= data_helper.load_and_numberize_Egrid(filelist="list_of_dev.txt", perm_num = 3)
+X_test_1, X_test_0		= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
 
 num_train = len(X_train_1)
-num_dev = len(X_dev_1)
-num_test = len(X_test_1)
+num_dev   = len(X_dev_1)
+num_test  = len(X_test_1)
 
 #assign Y value
 y_train_1 = [1] * num_train 
@@ -55,11 +55,11 @@ maxlen=500
 
 X_train_1 = sequence.pad_sequences(X_train_1, maxlen)
 X_dev_1   = sequence.pad_sequences(X_dev_1, maxlen)
-X_test_1   = sequence.pad_sequences(X_test_1, maxlen)
+X_test_1  = sequence.pad_sequences(X_test_1, maxlen)
 
 X_train_0 = sequence.pad_sequences(X_train_0, maxlen)
 X_dev_0   = sequence.pad_sequences(X_dev_0, maxlen)
-X_test_0   = sequence.pad_sequences(X_test_0, maxlen)
+X_test_0  = sequence.pad_sequences(X_test_0, maxlen)
 
 
 # the output is always 1??????
@@ -67,7 +67,6 @@ y_train_1 = np_utils.to_categorical(y_train_1, 2)
 y_dev_1  = np_utils.to_categorical(y_dev_1, 2)
 #y_dev_1[:,0] = 1
 #y_train_1[:,0] = 1
-
 #print(y_dev_1)
 
 #randomly shuffle the training data
@@ -75,7 +74,6 @@ np.random.seed(133)
 np.random.shuffle(X_train_1)
 np.random.seed(133)
 np.random.shuffle(X_train_0)
-
 
 #hyper parameres
 nb_filter = 150
@@ -101,27 +99,24 @@ x = Convolution1D(nb_filter=nb_filter, filter_length = filter_length, border_mod
 # add max pooling layers
 x = MaxPooling1D(pool_length=pool_length)(x)
 x = Dropout(dropout_ratio)(x)
-
 x = Flatten()(x)
-
 x = Dense(hidden_size, activation='relu')(x)
 x = Dropout(dropout_ratio)(x)
 
-# add latent cohernece score
+# add latent coherence score
 out_x = Dense(1, activation='linear')(x)
 shared_cnn = Model(sent_input, out_x)
-
 
 # Inputs of pos and neg document
 pos_input = Input(shape=(500,), dtype='int32')
 neg_input = Input(shape=(500,), dtype='int32')
 
-# the shared cnn model will share eveything
+# these two models will share eveything from shared_cnn
 pos_branch = shared_cnn(pos_input)
 neg_branch = shared_cnn(neg_input)
 
 concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out")
-# output by two latent coherence score
+# output is two latent coherence score
 
 final_model = Model([pos_input, neg_input], concatenated)
 
