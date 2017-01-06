@@ -13,7 +13,8 @@ from keras import backend as K
 def ranking_loss(y_true, y_pred):
     pos = y_pred[:,0]
     neg = y_pred[:,1]
-    loss = -K.sigmoid(pos-neg) # use loss = K.maximum(1.0 + neg - pos, 0.0) if you want to use margin ranking loss
+    #loss = -K.sigmoid(pos-neg) # use 
+    loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
     return K.mean(loss) + 0 * y_true
 
 
@@ -120,7 +121,10 @@ concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out
 
 final_model = Model([pos_input, neg_input], concatenated)
 
-final_model.compile(loss='ranking_loss', optimizer='adam')
+#final_model.compile(loss='ranking_loss', optimizer='adam')
+
+final_model.compile(loss={'coherence_out': ranking_loss}, optimizer='adam')
+
 
 #print(shared_cnn.summary())
 #print(final_model.summary())
