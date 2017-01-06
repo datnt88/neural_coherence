@@ -16,8 +16,7 @@ from keras.utils import np_utils
 #    return K.mean(loss) + 0 * y_true
 
 
-#loading pos entity-gird 
-
+#loading entity-gird for pos and neg documents
 X_train_1, X_train_0 = data_helper.load_and_numberize_Egrid(filelist="list_of_train.txt", perm_num = 3)
 X_dev_1, X_dev_0 	 = data_helper.load_and_numberize_Egrid(filelist="list_of_dev.txt", perm_num = 3)
 X_test_1, X_test_0 	 = data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
@@ -36,19 +35,18 @@ y_dev_0 = [0] * num_dev
 y_test_1 = [1] * num_test 
 y_test_0 = [0] * num_test
 
-#padding
-# find the maximum length 
+# find the maximum length for padding
 maxlen = max(len(l) for l in X_train_1)
 maxlen_dev = max(len(l) for l in X_dev_1)
 if maxlen_dev > maxlen:
 	maxlen = maxlen_dev 
 
 print("---------------------------------------------------------")	
-print("Loading grid...")
+print("Loading grid data done...")
 print("Num of documents: ")
 print("Num of traing pairs: " + str(num_train))
 print("Num of dev pairs: " + str(num_dev))
-print("No. permutation: ") 
+print("Num of permutation: ") 
 print("The maximum length of a sentence: " + str(maxlen))
 
 
@@ -60,7 +58,7 @@ X_train_0 = sequence.pad_sequences(X_train_0, maxlen)
 X_dev_0   = sequence.pad_sequences(X_dev_0, maxlen)
 X_test_0   = sequence.pad_sequences(X_test_0, maxlen)
 
-#y_train_1 = np_utils.to_categorical(y_train_1, 2)
+#y_train_1 = np_utils.to_categorical(y_train_1, 2) 
 #y_train_0  = np_utils.to_categorical(y_test_0, 2)
 
 #randomly shuffle the training data
