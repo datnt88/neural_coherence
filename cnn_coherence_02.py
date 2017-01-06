@@ -129,8 +129,9 @@ final_model.compile(loss='ranking_loss', optimizer='adam')
 
 #print(shared_cnn.summary())
 #print(final_model.summary())
-
-final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=10)
+print("---------------------------------------------------------")	
+print("Training model...")
+final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=10, shuffle=True)
 
 
 
