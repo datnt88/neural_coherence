@@ -60,6 +60,7 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
 def load_embeddings():
     # maybe we have to load a fixed embeddeings for each S,O,X,- the representation of 0 is zeros vector
     E      = 0.01 * np.random.uniform( -1.0, 1.0, (5, 300))
+    E[0] = 0
     return E   
  
 
@@ -87,7 +88,6 @@ def adjust_index(X, maxlen=None):
                 new_X.append(x)
 
         X      = new_X
-
 
     return X
 
