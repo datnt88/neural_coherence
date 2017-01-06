@@ -1,4 +1,4 @@
-from keras.layers import Input, Embedding, LSTM, Dense, merge, Convolution1D, MaxPooling1D, Dropout
+from keras.layers import Flatten, Input, Embedding, LSTM, Dense, merge, Convolution1D, MaxPooling1D, Dropout
 from keras.models import Model
 from keras import objectives
 from keras.preprocessing import sequence
@@ -93,6 +93,9 @@ x = Convolution1D(nb_filter=nb_filter, filter_length = filter_length, border_mod
 # add max pooling layers
 x = MaxPooling1D(pool_length=pool_length)(x)
 x = Dropout(dropout_ratio)(x)
+
+x = Flatten()(x)
+
 x = Dense(hidden_size, activation='relu')(x)
 x = Dropout(dropout_ratio)(x)
 
@@ -100,6 +103,7 @@ x = Dropout(dropout_ratio)(x)
 out_x = Dense(1, activation='linear')(x)
 shared_cnn = Model(sent_input, out_x)
 
+print(shared_cnn.summary())
 
 # Inputs of pos and neg document
 pos_input = Input(shape=(500,), dtype='int32')
@@ -124,7 +128,9 @@ final_model = Model([pos_input, neg_input], concatenated)
 
 final_model.compile(loss='ranking_loss', optimizer='rmsprop')
 
-final_model.fit([X_train_1, X_train_0], np.ones(num_train), nb_epoch=10)
+print(final_model.summary())
+
+final_model.fit([X_train_1, X_train_0], [np.ones(num_train)], nb_epoch=10)
 
 
 
