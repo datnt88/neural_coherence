@@ -54,11 +54,13 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
     X_1 = adjust_index(X_1, maxlen=maxlen)
     X_0  = adjust_index(X_1,  maxlen=maxlen)
 
+    return X_1, X_0
+
+def load_embeddings():
     # maybe we have to load a fixed embeddeings for each S,O,X,- the representation of 0 is zeros vector
-    E      = 0.01 * np.random.uniform( -1.0, 1.0, (5, 300) )
-    E[0] = 0
-    
-    return X_1, X_0, E
+    E      = 0.01 * np.random.uniform( -1.0, 1.0, (5, 300))
+    return E   
+ 
 
 def load_and_numberize_data(path="../data/", maxlen=None, seed=113, init_type="random", dev_train_merge=0):
 	# loading the entity-grid data

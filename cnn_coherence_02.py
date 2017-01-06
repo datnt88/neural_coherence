@@ -17,9 +17,9 @@ from keras.utils import np_utils
 
 
 #loading pos entity-gird 
-X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid(filelist="list_of_train.txt")
-X_dev_1, X_dev_0, E = data_helper.load_and_numberize_Egrid(filelist="list_of_dev.txt") 
-X_test_1, X_test_0, E = data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt") 
+X_train_1, X_train_0 = data_helper.load_and_numberize_Egrid(filelist="list_of_train.txt")
+X_dev_1, X_dev_0 	 = data_helper.load_and_numberize_Egrid(filelist="list_of_dev.txt") 
+X_test_1, X_test_0 	 = data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt") 
 
 num_train = len(X_train_1)
 num_dev = len(X_dev_1)
@@ -57,6 +57,8 @@ print(y_train_0)
 
 
 #hyper parameres
+E = data_helper.load_embeddings()
+
 nb_filter = 150
 filter_length = 3
 pool_length = 4
