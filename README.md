@@ -1,2 +1,2 @@
-# cnn_cohernce
+# cnn_coherence
 Authors: ndat & shafiq
