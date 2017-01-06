@@ -19,8 +19,8 @@ def ranking_loss(y_true, y_pred):
 
 #loading entity-gird for pos and neg documents
 X_train_1, X_train_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_train.txt", perm_num = 3)
-X_dev_1, X_dev_0		= data_helper.load_and_numberize_Egrid(filelist="list_of_dev.txt", perm_num = 3)
-X_test_1, X_test_0		= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
+X_dev_1, X_dev_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_dev.txt", perm_num = 3)
+X_test_1, X_test_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
 
 num_train = len(X_train_1)
 num_dev   = len(X_dev_1)
