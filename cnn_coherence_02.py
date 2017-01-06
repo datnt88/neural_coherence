@@ -6,6 +6,7 @@ from keras.preprocessing import sequence
 import numpy as np
 import data_helper
 from keras.utils import np_utils
+from keras import backend as K
 
 
 # new keras version, update the loss function inside 
@@ -60,7 +61,7 @@ X_train_0 = sequence.pad_sequences(X_train_0, maxlen)
 X_dev_0   = sequence.pad_sequences(X_dev_0, maxlen)
 X_test_0   = sequence.pad_sequences(X_test_0, maxlen)
 
-#y_train_1 = np_utils.to_categorical(y_train_1, 2) 
+y_train_1 = np_utils.to_categorical(y_train_1, 2) 
 #y_train_0  = np_utils.to_categorical(y_test_0, 2)
 
 #randomly shuffle the training data
@@ -124,13 +125,13 @@ concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out
 
 final_model = Model([pos_input, neg_input], concatenated)
 
-#final_model.compile(loss={'triplet_loss_out': ranking_loss}, optimizer='rmsprop')
+final_model.compile(loss={'coherence_out': ranking_loss}, optimizer='rmsprop')
 
-final_model.compile(loss='ranking_loss', optimizer='rmsprop')
+#final_model.compile(loss='ranking_loss', optimizer='rmsprop')
 
 print(final_model.summary())
 
-final_model.fit([X_train_1, X_train_0], [np.ones(num_train)], nb_epoch=10)
+final_model.fit([X_train_1, X_train_0], y_train_1, nb_epoch=10)
 
 
 
