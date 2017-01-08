@@ -9,7 +9,6 @@ from keras.utils import np_utils
 from keras import backend as K
 
 
-# new keras version, update the loss function inside 
 def ranking_loss(y_true, y_pred):
     pos = y_pred[:,0]
     neg = y_pred[:,1]
@@ -31,11 +30,6 @@ num_test  = len(X_test_1)
 y_train_1 = [1] * num_train 
 y_dev_1 = [1] * num_dev 
 y_test_1 = [1] * num_test 
-
-
-#y_train_0 = [0] * num_train 
-#y_dev_0 = [0] * num_dev 
-#y_test_0 = [0] * num_test
 
 # find the maximum length for padding
 maxlen = max(len(l) for l in X_train_1)
@@ -64,11 +58,8 @@ X_test_0  = sequence.pad_sequences(X_test_0, maxlen)
 
 
 # the output is always 1??????
-y_train_1 = np_utils.to_categorical(y_train_1, 2) 
-y_dev_1  = np_utils.to_categorical(y_dev_1, 2)
-#y_dev_1[:,0] = 1
-#y_train_1[:,0] = 1
-#print(y_dev_1)
+y_train_1 = np.ones(num_train)
+y_dev_1  = np.ones(num_dev)
 
 #randomly shuffle the training data
 np.random.seed(133)
@@ -109,8 +100,8 @@ out_x = Dense(1, activation='linear')(x)
 shared_cnn = Model(sent_input, out_x)
 
 # Inputs of pos and neg document
-pos_input = Input(shape=(500,), dtype='int32')
-neg_input = Input(shape=(500,), dtype='int32')
+pos_input = Input(shape=(500,), dtype='int32', name="pos_input")
+neg_input = Input(shape=(500,), dtype='int32', name="neg_input")
 
 # these two models will share eveything from shared_cnn
 pos_branch = shared_cnn(pos_input)
@@ -122,12 +113,11 @@ concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out
 final_model = Model([pos_input, neg_input], concatenated)
 
 #final_model.compile(loss='ranking_loss', optimizer='adam')
-
 final_model.compile(loss={'coherence_out': ranking_loss}, optimizer='adam')
 
 
-#print(shared_cnn.summary())
-#print(final_model.summary())
+print(shared_cnn.summary())
+print(final_model.summary())
 print("---------------------------------------------------------")	
 print("Training model...")
 final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=10, shuffle=True)
