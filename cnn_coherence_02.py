@@ -18,18 +18,18 @@ def ranking_loss(y_true, y_pred):
 
 
 #loading entity-gird for pos and neg documents
-X_train_1, X_train_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_train.txt", perm_num = 3)
-X_dev_1, X_dev_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_dev.txt", perm_num = 3)
-X_test_1, X_test_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
+X_train_1, X_train_0	= data_helper.load_and_numberize_Egrid(filelist="trail.train", perm_num = 20, window_size=3)
+X_dev_1, X_dev_0	= data_helper.load_and_numberize_Egrid(filelist="trail.dev", perm_num = 20, window_size=3)
+#X_test_1, X_test_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
 
 num_train = len(X_train_1)
 num_dev   = len(X_dev_1)
-num_test  = len(X_test_1)
+#num_test  = len(X_test_1)
 
 #assign Y value
 y_train_1 = [1] * num_train 
 y_dev_1 = [1] * num_dev 
-y_test_1 = [1] * num_test 
+#y_test_1 = [1] * num_test 
 
 # find the maximum length for padding
 maxlen = max(len(l) for l in X_train_1)
@@ -46,20 +46,22 @@ print("Num of permutation: 3")
 print("The maximum sentence length: " + str(maxlen))
 
 # let say default is 500
-maxlen=500
+#maxlen=500
 
 X_train_1 = sequence.pad_sequences(X_train_1, maxlen)
 X_dev_1   = sequence.pad_sequences(X_dev_1, maxlen)
-X_test_1  = sequence.pad_sequences(X_test_1, maxlen)
+#X_test_1  = sequence.pad_sequences(X_test_1, maxlen)
 
 X_train_0 = sequence.pad_sequences(X_train_0, maxlen)
 X_dev_0   = sequence.pad_sequences(X_dev_0, maxlen)
-X_test_0  = sequence.pad_sequences(X_test_0, maxlen)
+#X_test_0  = sequence.pad_sequences(X_test_0, maxlen)
 
 
 # the output is always 1??????
-y_train_1 = np.ones(num_train)
-y_dev_1  = np.ones(num_dev)
+y_train_1 = np_utils.to_categorical(y_train_1, 2)
+y_dev_1 = np_utils.to_categorical(y_dev_1, 2)
+#y_train_1 = np.ones(num_train)
+#y_dev_1  = np.ones(num_dev)
 
 #randomly shuffle the training data
 np.random.seed(133)
@@ -79,10 +81,10 @@ E = data_helper.load_embeddings()
 
 # first, define a CNN model for sequence of entities 
 # input of sequences of X,O,S,-,P between 1 and 5
-sent_input = Input(shape=(500,), dtype='int32', name='sent_input')
+sent_input = Input(shape=(maxlen,), dtype='int32', name='sent_input')
 
 # embedding layer encodes the input into sequences of 300-dimenstional vectors. 
-x = Embedding(output_dim=300, weights=[E], input_dim=5, input_length=500)(sent_input)
+x = Embedding(output_dim=300, weights=[E], input_dim=5, input_length=maxlen)(sent_input)
 
 # add a convolutiaon 1D layer
 x = Convolution1D(nb_filter=nb_filter, filter_length = filter_length, border_mode='valid', 
@@ -100,8 +102,8 @@ out_x = Dense(1, activation='linear')(x)
 shared_cnn = Model(sent_input, out_x)
 
 # Inputs of pos and neg document
-pos_input = Input(shape=(500,), dtype='int32', name="pos_input")
-neg_input = Input(shape=(500,), dtype='int32', name="neg_input")
+pos_input = Input(shape=(maxlen,), dtype='int32', name="pos_input")
+neg_input = Input(shape=(maxlen,), dtype='int32', name="neg_input")
 
 # these two models will share eveything from shared_cnn
 pos_branch = shared_cnn(pos_input)
