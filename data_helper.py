@@ -13,9 +13,18 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
     
     # process postive gird, convert each file to be a sentence
     sentences_1 = []
+    max_entity_num = 0
+    max_sent_num = 0
     for file in list_of_files:
         #print(file)
         lines = [line.rstrip('\n') for line in open(file)]
+
+        if  len(lines) > max_entity_num:  # finding the max number of entity for the whole collection
+            max_entity_num = len(lines)
+        tmp_sent = lines[1][21:]
+        sent_num = (len(tmp_sent) + 1)/2
+        if sent_num  > max_sent_num:
+            max_sent_num = sent_num
 
         tmp_str = "0 "* window_size
         for line in lines:
@@ -54,7 +63,7 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
     X_1 = adjust_index(X_1, maxlen=maxlen)
     X_0  = adjust_index(X_1,  maxlen=maxlen)
 
-    return X_1, X_0
+    return X_1, X_0, max_entity_num, max_sent_num
 
 
 def load_embeddings():

@@ -8,18 +8,24 @@ import data_helper
 from keras.utils import np_utils
 from keras import backend as K
 
+import my_callbacks
+
 
 def ranking_loss(y_true, y_pred):
     pos = y_pred[:,0]
     neg = y_pred[:,1]
-    #loss = -K.sigmoid(pos-neg) # use 
-    loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
+    loss = -K.sigmoid(pos-neg) # use 
+    #loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
     return K.mean(loss) + 0 * y_true
+
+#parameter for data_helper
+p_num = 1;
+w_size = 3;
 
 
 #loading entity-gird for pos and neg documents
-X_train_1, X_train_0	= data_helper.load_and_numberize_Egrid(filelist="trail.train", perm_num = 20, window_size=3)
-X_dev_1, X_dev_0	= data_helper.load_and_numberize_Egrid(filelist="trail.dev", perm_num = 20, window_size=3)
+X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper.load_and_numberize_Egrid(filelist="s.trail.train", perm_num = p_num, window_size=w_size)
+X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper.load_and_numberize_Egrid(filelist="trail.dev", perm_num = p_num, window_size=w_size)
 #X_test_1, X_test_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
 
 num_train = len(X_train_1)
@@ -33,7 +39,9 @@ y_dev_1 = [1] * num_dev
 
 # find the maximum length for padding
 maxlen = max(len(l) for l in X_train_1)
+print(maxlen)
 maxlen_dev = max(len(l) for l in X_dev_1)
+print(maxlen_dev)
 if maxlen_dev > maxlen:
 	maxlen = maxlen_dev 
 
@@ -42,8 +50,10 @@ print("Loading grid data done...")
 print("Num of documents: ")
 print("Num of traing pairs: " + str(num_train))
 print("Num of dev pairs: " + str(num_dev))
-print("Num of permutation: 3") 
-print("The maximum sentence length: " + str(maxlen))
+print("Num of permutation: 20") 
+print("The maximum in length for CNN: " + str(maxlen))
+print("The maximum num of entities: " + str(max_ent_num_train))
+print("The maximum num of sentence in a doc: " + str(max_sent_num_train))
 
 # let say default is 500
 #maxlen=500
@@ -94,7 +104,7 @@ x = Convolution1D(nb_filter=nb_filter, filter_length = filter_length, border_mod
 x = MaxPooling1D(pool_length=pool_length)(x)
 x = Dropout(dropout_ratio)(x)
 x = Flatten()(x)
-x = Dense(hidden_size, activation='relu')(x)
+#x = Dense(hidden_size, activation='relu')(x)
 x = Dropout(dropout_ratio)(x)
 
 # add latent coherence score
@@ -117,12 +127,21 @@ final_model = Model([pos_input, neg_input], concatenated)
 #final_model.compile(loss='ranking_loss', optimizer='adam')
 final_model.compile(loss={'coherence_out': ranking_loss}, optimizer='adam')
 
+# setting callback
+histories = my_callbacks.Histories()
 
 print(shared_cnn.summary())
 print(final_model.summary())
 print("---------------------------------------------------------")	
 print("Training model...")
-final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=10, shuffle=True)
+final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=4,
+ 					callbacks=[histories],verbose=1, batch_size=4)
+
+print(histories.losses)
+print(histories.accs)
+
+
+
 
 
 
