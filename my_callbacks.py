@@ -18,12 +18,12 @@ class Histories(keras.callbacks.Callback):
                 y_pred = self.model.predict([self.model.validation_data[0],self.model.validation_data[1]])
                 count = 0
                 n = len(y_pred)
-                print ("\n")
-                print (y_pred)
+                #print ("\n")
+                #print (y_pred)
                 for i in range(0,n):
                     if y_pred[i][0] > y_pred[i][1]:
                         count = count +1
-		print(count/n)
+		print("\nDev accuracy: " + str(count/n))
 		self.accs.append(count/n)
 
 		return

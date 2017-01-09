@@ -95,7 +95,7 @@ def adjust_index(X, maxlen=None):
     if maxlen: # exclude tweets that are larger than maxlen
         new_X = []
         new_labels = []
-        for x, y in zip(X, labels):
+        for x in X:
             if len(x) < maxlen:
                 new_X.append(x)
 
