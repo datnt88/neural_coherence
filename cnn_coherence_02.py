@@ -14,12 +14,12 @@ import my_callbacks
 def ranking_loss(y_true, y_pred):
     pos = y_pred[:,0]
     neg = y_pred[:,1]
-    loss = -K.sigmoid(pos-neg) # use 
-    #loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
+    #loss = -K.sigmoid(pos-neg) # use 
+    loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
     return K.mean(loss) + 0 * y_true
 
 #parameter for data_helper
-p_num = 1;
+p_num = 3;
 w_size = 3;
 
 
@@ -27,6 +27,7 @@ w_size = 3;
 X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper.load_and_numberize_Egrid(filelist="s.trail.train", perm_num = p_num, window_size=w_size)
 X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper.load_and_numberize_Egrid(filelist="trail.dev", perm_num = p_num, window_size=w_size)
 #X_test_1, X_test_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
+
 
 num_train = len(X_train_1)
 num_dev   = len(X_dev_1)
@@ -134,7 +135,7 @@ print(shared_cnn.summary())
 print(final_model.summary())
 print("---------------------------------------------------------")	
 print("Training model...")
-final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=4,
+final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=10,
  					callbacks=[histories],verbose=1, batch_size=4)
 
 print(histories.losses)

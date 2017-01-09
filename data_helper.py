@@ -23,6 +23,7 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
             max_entity_num = len(lines)
         tmp_sent = lines[1][21:]
         sent_num = (len(tmp_sent) + 1)/2
+
         if sent_num  > max_sent_num:
             max_sent_num = sent_num
 
@@ -33,7 +34,7 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
         #print(tmp_str)
         for i in range (0, perm_num): #stupid code
             sentences_1.append(tmp_str)
-
+    
     # process permuted entity grid
     sentences_0 = []
     for file in list_of_files:
@@ -44,6 +45,7 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
                 # remove entity name merge them in to a single string
                 tmp_str = tmp_str + line[21:] + " " + "0 "* window_size
             sentences_0.append(tmp_str)
+    
 
     #print(len(sentences_1))
     #print(len(sentences_0))
@@ -61,7 +63,7 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
     X_0  = numberize_sentences(sentences_0,  vocab_idmap)
     
     X_1 = adjust_index(X_1, maxlen=maxlen)
-    X_0  = adjust_index(X_1,  maxlen=maxlen)
+    X_0  = adjust_index(X_0,  maxlen=maxlen)
 
     return X_1, X_0, max_entity_num, max_sent_num
 
