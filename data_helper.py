@@ -73,9 +73,9 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
     return X_1, X_0, max_entity_num, max_sent_num
 
 
-def load_embeddings():
+def load_embeddings(emb_size=300):
     # maybe we have to load a fixed embeddeings for each S,O,X,- the representation of 0 is zeros vector
-    E      = 0.01 * np.random.uniform( -1.0, 1.0, (5, 300))
+    E      = 0.01 * np.random.uniform( -1.0, 1.0, (5, emb_size))
     E[0] = 0
     return E   
  

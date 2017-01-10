@@ -23,10 +23,17 @@ p_num = 10
 w_size = 6
 maxlen=10000
 
-#loading entity-gird for pos and neg documents
+#hyper parameres
+nb_filter = 150
+filter_length = 5
+pool_length = 4
+dropout_ratio = 0.5
+hidden_size = 250
+emb_size = 80
 
-X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper.load_and_numberize_Egrid(filelist="list.train", perm_num = p_num, maxlen=10000, window_size=w_size)
-X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper.load_and_numberize_Egrid(filelist="list.dev", perm_num = 20, maxlen=10000, window_size=w_size)
+#loading entity-gird for pos and neg documents
+X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper.load_and_numberize_Egrid(filelist="s.train", perm_num = p_num, maxlen=10000, window_size=w_size)
+X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper.load_and_numberize_Egrid(filelist="s.test", perm_num = 20, maxlen=10000, window_size=w_size)
 #X_test_1, X_test_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
 
 
@@ -81,22 +88,15 @@ np.random.shuffle(X_train_1)
 np.random.seed(133)
 np.random.shuffle(X_train_0)
 
-#hyper parameres
-nb_filter = 150
-filter_length = 3
-pool_length = 4
-dropout_ratio = 0.5
-hidden_size = 250
-
 #loading embeddings
-E = data_helper.load_embeddings()
+E = data_helper.load_embeddings(emb_size)
 
 # first, define a CNN model for sequence of entities 
 # input of sequences of X,O,S,-,P between 1 and 5
 sent_input = Input(shape=(maxlen,), dtype='int32', name='sent_input')
 
 # embedding layer encodes the input into sequences of 300-dimenstional vectors. 
-x = Embedding(output_dim=300, weights=[E], input_dim=5, input_length=maxlen)(sent_input)
+x = Embedding(output_dim=emb_size, weights=[E], input_dim=5, input_length=maxlen)(sent_input)
 
 # add a convolutiaon 1D layer
 x = Convolution1D(nb_filter=nb_filter, filter_length = filter_length, border_mode='valid', 
@@ -137,7 +137,7 @@ print(final_model.summary())
 print("---------------------------------------------------------")	
 print("Training model...")
 final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=25,
- 					callbacks=[histories],verbose=1, batch_size=32)
+ 					callbacks=[histories],verbose=1, batch_size=64)
 
 print(histories.losses)
 print(histories.accs)
