@@ -26,7 +26,7 @@ maxlen=10000
 #loading entity-gird for pos and neg documents
 
 X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper.load_and_numberize_Egrid(filelist="list.train", perm_num = p_num, maxlen=10000, window_size=w_size)
-X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper.load_and_numberize_Egrid(filelist="list.test", perm_num = 20, maxlen=10000, window_size=w_size)
+X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper.load_and_numberize_Egrid(filelist="list.dev", perm_num = 20, maxlen=10000, window_size=w_size)
 #X_test_1, X_test_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
 
 
