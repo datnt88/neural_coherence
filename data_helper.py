@@ -7,6 +7,11 @@ import numpy as np
 import glob, os, csv, re
 from collections import Counter
 
+def remove_entity(sent=""):
+    x = sent.split()
+    x = x[1:]
+    return ' '.join(x)
+
 def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=None, window_size=3):
     # loading entiry-grid data from list of pos document and list of neg document
     list_of_files = [line.rstrip('\n') for line in open(filelist)]
@@ -30,7 +35,7 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
         tmp_str = "0 "* window_size
         for line in lines:
             # remove entity name merge them in to a single string
-            tmp_str = tmp_str + line[21:] + " " + "0 "* window_size
+            tmp_str = tmp_str + remove_entity(sent=line) + " " + "0 "* window_size
         #print(tmp_str)
         for i in range (0, perm_num): #stupid code
             sentences_1.append(tmp_str)
@@ -43,7 +48,7 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
             tmp_str = "0 "* window_size
             for line in lines:
                 # remove entity name merge them in to a single string
-                tmp_str = tmp_str + line[21:] + " " + "0 "* window_size
+                tmp_str = tmp_str + remove_entity(sent=line)  + " " + "0 "* window_size
             sentences_0.append(tmp_str)
     
 
