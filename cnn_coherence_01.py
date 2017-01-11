@@ -19,7 +19,7 @@ def ranking_loss(y_true, y_pred):
     return K.mean(loss) + 0 * y_true
 
 #parameter for data_helper
-p_num = 10
+p_num = 20
 w_size = 6
 maxlen=8000
 
@@ -33,9 +33,9 @@ emb_size = 80
 
 #loading entity-gird for pos and neg documents
 X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper.load_and_numberize_Egrid(filelist="s.train", 
-                perm_num = p_num, maxlen=maxlen, window_size=w_size)
+                perm_num = p_num, maxlen=maxlen, window_size=w_size, ignore=1)
 X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper.load_and_numberize_Egrid(filelist="s.test", 
-                perm_num = 20, maxlen=maxlen, window_size=w_size)
+                perm_num = 20, maxlen=maxlen, window_size=w_size,ignore=0)
 #X_test_1, X_test_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
 
 
@@ -50,9 +50,9 @@ y_dev_1 = [1] * num_dev
 
 # find the maximum length for padding
 maxlen = max(len(l) for l in X_train_1)
-print(maxlen)
+#print(maxlen)
 maxlen_dev = max(len(l) for l in X_dev_1)
-print(maxlen_dev)
+#print(maxlen_dev)
 if maxlen_dev > maxlen:
 	maxlen = maxlen_dev 
 
@@ -138,8 +138,8 @@ print(shared_cnn.summary())
 print(final_model.summary())
 print("---------------------------------------------------------")	
 print("Training model...")
-final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=25,
- 					callbacks=[histories],verbose=1, batch_size=64)
+#final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=25,
+# 					callbacks=[histories],verbose=1, batch_size=64)
 
 print(histories.losses)
 print(histories.accs)
