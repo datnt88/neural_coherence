@@ -11,7 +11,7 @@ def remove_entity(sent=""):
 
     x = sent.split()
     count = x.count('X') + x.count('S') + x.count('O') #counting the number of entities
-    if count <2: #remove lesss ferequent entities
+    if count <3: #remove lesss ferequent entities
         return ""
     x = x[1:]
     return ' '.join(x)

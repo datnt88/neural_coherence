@@ -21,7 +21,7 @@ def ranking_loss(y_true, y_pred):
 #parameter for data_helper
 p_num = 20
 w_size = 8
-maxlen=6000
+maxlen=4000
 
 #hyper paramere for cnn
 nb_filter = 150
