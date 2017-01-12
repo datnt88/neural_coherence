@@ -21,7 +21,7 @@ def ranking_loss(y_true, y_pred):
 #parameter for data_helper
 p_num = 20
 w_size = 6
-maxlen=8000
+maxlen=None
 
 #hyper parameres
 nb_filter = 150
@@ -32,9 +32,9 @@ hidden_size = 250
 emb_size = 80
 
 #loading entity-gird for pos and neg documents
-X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper.load_and_numberize_Egrid(filelist="s.train", 
-                perm_num = p_num, maxlen=maxlen, window_size=w_size, ignore=1)
-X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper.load_and_numberize_Egrid(filelist="s.test", 
+X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper.load_and_numberize_Egrid(filelist="list.train", 
+                perm_num = p_num, maxlen=maxlen, window_size=w_size, ignore=0)
+X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper.load_and_numberize_Egrid(filelist="list.test", 
                 perm_num = 20, maxlen=maxlen, window_size=w_size,ignore=0)
 #X_test_1, X_test_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
 

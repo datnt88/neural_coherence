@@ -8,7 +8,11 @@ import glob, os, csv, re
 from collections import Counter
 
 def remove_entity(sent=""):
+
     x = sent.split()
+    count = x.count('X') + x.count('S') + x.count('O') #counting the number of entities
+    if count <2: #remove lesss ferequent entities
+        return ""
     x = x[1:]
     return ' '.join(x)
 
@@ -40,19 +44,19 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
             # merge the grid of positive document 
             grid_1 = grid_1 + remove_entity(sent=line) + " " + "0 "* window_size
         	
+        p_count = 0
         for i in range(1,perm_num+1): # reading the permuted docs
             permuted_lines = [p_line.rstrip('\n') for p_line in open(file+"-"+str(i))]    
             grid_0 = "0 "* window_size
             for p_line in permuted_lines:
                 grid_0 = grid_0 + remove_entity(sent=p_line)  + " " + "0 "* window_size
-            sentences_0.append(grid_0)
+            if grid_0 != grid_1:
+                p_count = p_count + 1
+                sentences_0.append(grid_0)
 
-        for i in range (0, perm_num): #stupid code
+        for i in range (0, p_count): #stupid code
             sentences_1.append(grid_1)
     
-    print(len(sentences_1))
-    print(len(sentences_0))
-
     assert len(sentences_0) == len(sentences_1)
 
     # numberize_data
@@ -73,6 +77,7 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
 
 def load_embeddings(emb_size=300):
     # maybe we have to load a fixed embeddeings for each S,O,X,- the representation of 0 is zeros vector
+    np.random.seed(2016)
     E      = 0.01 * np.random.uniform( -1.0, 1.0, (5, emb_size))
     E[0] = 0
     return E   
