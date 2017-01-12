@@ -44,17 +44,17 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
             # merge the grid of positive document 
             grid_1 = grid_1 + remove_entity(sent=line) + " " + "0 "* window_size
         	
-        p_count = 0
+        #p_count = 0
         for i in range(1,perm_num+1): # reading the permuted docs
             permuted_lines = [p_line.rstrip('\n') for p_line in open(file+"-"+str(i))]    
             grid_0 = "0 "* window_size
             for p_line in permuted_lines:
                 grid_0 = grid_0 + remove_entity(sent=p_line)  + " " + "0 "* window_size
-            if grid_0 != grid_1:
-                p_count = p_count + 1
-                sentences_0.append(grid_0)
-
-        for i in range (0, p_count): #stupid code
+            #if grid_0 != grid_1:
+            #    p_count = p_count + 1
+            sentences_0.append(grid_0)
+        
+        for i in range (0, perm_num): #stupid code
             sentences_1.append(grid_1)
     
     assert len(sentences_0) == len(sentences_1)
