@@ -20,23 +20,23 @@ def ranking_loss(y_true, y_pred):
 
 #parameter for data_helper
 p_num = 20
-w_size = 8
-maxlen=4000
+w_size = 6
+maxlen=6000
 
 #hyper paramere for cnn
 nb_filter = 150
 filter_length = w_size
-pool_length = 7
+pool_length = 6
 dropout_ratio = 0.5
 hidden_size = 250
 emb_size = 100
 
-opt='adam'
+opt='rmsprop'
 
 #loading entity-gird for pos and neg documents
-X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper.load_and_numberize_Egrid(filelist="list.train", 
+X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper.load_and_numberize_Egrid(filelist="final_data/list.train", 
             perm_num = p_num, maxlen=maxlen, window_size=w_size, ignore=0)
-X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper.load_and_numberize_Egrid(filelist="list.test", 
+X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper.load_and_numberize_Egrid(filelist="final_data/list.dev", 
             perm_num = 20, maxlen=maxlen, window_size=w_size, ignore=0)
 #X_test_1, X_test_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
 
@@ -103,6 +103,7 @@ sent_input = Input(shape=(maxlen,), dtype='int32', name='sent_input')
 x = Embedding(output_dim=emb_size, weights=[E], input_dim=5, input_length=maxlen)(sent_input)
 
 # add a convolutiaon 1D layer
+#x = Dropout(dropout_ratio)(x)
 x = Convolution1D(nb_filter=nb_filter, filter_length = filter_length, border_mode='valid', 
             activation='relu', subsample_length=1)(x)
 
