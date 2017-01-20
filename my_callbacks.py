@@ -29,7 +29,7 @@ class Histories(keras.callbacks.Callback):
                 #print ("\n")
                 #print (y_pred)
                 for i in range(0,n):
-                    if y_pred[i][0] >= y_pred[i][1]:
+                    if y_pred[i][0] > y_pred[i][1]:
                         count = count +1
 		print("\nDev accuracy: " + str(count/n))
 		self.accs.append(count/n)
