@@ -73,8 +73,8 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
         e_count_list.append(e_count)
 
     assert len(sentences_0) == len(sentences_1)
-    with open('e_count_list_after.txt','w') as f:
-        f.write('\n'.join([str(n) for n in e_count_list])+'\n')
+#    with open('e_count_list_after.txt','w') as f:
+#        f.write('\n'.join([str(n) for n in e_count_list])+'\n')
 
     # numberize_data
     vocab_list = ['0','S','O','X','-']
