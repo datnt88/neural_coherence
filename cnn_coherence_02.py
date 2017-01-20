@@ -5,7 +5,7 @@ from keras.preprocessing import sequence
 from keras.callbacks import ModelCheckpoint
 
 import numpy as np
-import data_helper
+import data_helper02
 from keras.utils import np_utils
 from keras import backend as K
 
@@ -22,7 +22,7 @@ def ranking_loss(y_true, y_pred):
 #parameter for data_helper
 p_num = 20
 w_size = 6
-maxlen=25000
+maxlen=13910
 
 #hyper paramere for cnn
 nb_filter = 150
@@ -35,9 +35,8 @@ emb_size = 100
 opt='rmsprop'
 
 #loading entity-gird for pos and neg documents
-X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper02.load_and_numberize_Egrid(filelist="final_data/list.train", 
-            perm_num = p_num, maxlen=maxlen, window_size=w_size, ignore=0)
-X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper02.load_and_numberize_Egrid(filelist="final_data/list.test", 
+X_train_1, X_train_0 = data_helper02.load_and_numberize_Egrid(filelist="final_data/list.train", perm_num = p_num, maxlen=maxlen, window_size=w_size, ignore=0)
+X_dev_1, X_dev_0    = data_helper02.load_and_numberize_Egrid(filelist="final_data/list.test", 
             perm_num = 20, maxlen=maxlen, window_size=w_size, ignore=0)
 #X_test_1, X_test_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
 
@@ -66,8 +65,8 @@ print("Num of traing pairs: " + str(num_train))
 print("Num of dev pairs: " + str(num_dev))
 print("Num of permutation: 20") 
 print("The maximum in length for CNN: " + str(maxlen))
-print("The maximum num of entities: " + str(max_ent_num_train))
-print("The maximum num of sentence in a doc: " + str(max_sent_num_train))
+#print("The maximum num of entities: " + str(max_ent_num_train))
+#print("The maximum num of sentence in a doc: " + str(max_sent_num_train))
 
 # let say default is 500
 #maxlen=500
@@ -94,7 +93,7 @@ np.random.seed(133)
 np.random.shuffle(X_train_0)
 
 #loading embeddings
-E = data_helper.load_embeddings(emb_size=emb_size)
+E = data_helper02.load_embeddings(emb_size=emb_size)
 
 # first, define a CNN model for sequence of entities 
 # input of sequences of X,O,S,-,P between 1 and 5
