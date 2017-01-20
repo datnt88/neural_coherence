@@ -9,7 +9,7 @@ from keras.utils import np_utils
 from keras import backend as K
 
 import my_callbacks
-
+import data_helper02
 
 def ranking_loss(y_true, y_pred):
     pos = y_pred[:,0]
@@ -21,7 +21,7 @@ def ranking_loss(y_true, y_pred):
 #parameter for data_helper
 p_num = 20
 w_size = 8
-maxlen=4000
+maxlen=100000
 
 #hyper paramere for cnn
 nb_filter = 150
@@ -31,12 +31,12 @@ dropout_ratio = 0.5
 hidden_size = 250
 emb_size = 100
 
-opt='adam'
+opt='rmsprop'
 
 #loading entity-gird for pos and neg documents
-X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper.load_and_numberize_Egrid(filelist="list.train", 
+X_train_1, X_train_0, max_ent_num_train, max_sent_num_train	= data_helper02.load_and_numberize_Egrid(filelist="final_data/list.train_dev.path",
             perm_num = p_num, maxlen=maxlen, window_size=w_size, ignore=0)
-X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helper.load_and_numberize_Egrid(filelist="list.test", 
+X_dev_1, X_dev_0, max_ent_num_dev, max_sent_num_dev	= data_helpe02r.load_and_numberize_Egrid(filelist="final_data/list.dev", 
             perm_num = 20, maxlen=maxlen, window_size=w_size, ignore=0)
 #X_test_1, X_test_0	= data_helper.load_and_numberize_Egrid(filelist="list_of_test.txt", perm_num = 3)
 
