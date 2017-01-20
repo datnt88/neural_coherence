@@ -14,24 +14,19 @@ class Histories(keras.callbacks.Callback):
 
 	def on_epoch_end(self, epoch, logs={}):
 		self.losses.append(logs.get('loss'))
-	        
-                #y_train_pred = self.model.predict(self.model.x)
-                #n = len(y_train_pred)
-                #count = 0
-                #for i in range(0,n):
-                #    if y_train_pred[i][0] > y_train_pred[i][1]:
-                #        count = count + 1
-                #print("\nTrain accuracy: " + str(count/n))  
-	
                 y_pred = self.model.predict([self.model.validation_data[0],self.model.validation_data[1]])
-                count = 0
+                wins = 0
+                ties = 0
                 n = len(y_pred)
                 #print ("\n")
                 #print (y_pred)
                 for i in range(0,n):
                     if y_pred[i][0] > y_pred[i][1]:
-                        count = count +1
-		print("\nDev accuracy: " + str(count/n))
+                        wins = wins + 1
+                    elif y_pred[i][0] == y_pred[i][1]:
+                        ties = ties + 1
+                print("\nWins: " + str(wins) + " Ties: "  + str(ties))
+		print("Dev accuracy: " + str(wins/n))
 		self.accs.append(count/n)
 
 		return
