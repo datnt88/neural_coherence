@@ -98,9 +98,9 @@ for file in list_of_files:
         if k in bestPos:
             perfects = perfects + 1
 
-    totalPerf += totalPerf + perfects
-    totalIns += totalIns + doc_size
-    docAvgPerf += docAvgPerf + perfects / doc_size;
+    totalPerf = totalPerf + perfects
+    totalIns = totalIns + doc_size
+    docAvgPerf = docAvgPerf + perfects / doc_size;
     print ("Document perfect: " + str(perfects) + " of " + str(doc_size))
 
 print ("\nSummary...")  
