@@ -7,6 +7,17 @@ import numpy as np
 import glob, os, csv, re
 from collections import Counter
 
+def find_doc_size(filename=""):
+    lines = [line.rstrip('\n') for line in open(filename)]
+    doc_size = find_len(sent=lines[1])
+    return doc_size
+
+
+
+def find_len(sent=""):
+    x = sent.split()
+    return len(x) -1
+
 def remove_entity(sent=""):
     x = sent.split()
     count = x.count('X') + x.count('S') + x.count('O') #counting the number of entities
@@ -15,7 +26,8 @@ def remove_entity(sent=""):
     x = x[1:]
     return ' '.join(x)
 
-def get_ETransition(sent=""):
+#get entity transition from a row of Entity Grid
+def get_eTrans(sent=""):
     x = sent.split()
     x = x[1:]
     length = len(x)
@@ -28,7 +40,68 @@ def get_ETransition(sent=""):
             return ""
     return ' '.join(x)
 
+#get entity transition from a row of Entity Grid for insertion experiment
+def get_eTransWithPerm(sent="",perm=[]):
+    x = sent.split()
+    x = x[1:]
+    length = len(x)
+    e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of coocurence of the entity
+    if length > 80:
+        if e_occur < 3:
+            return ""
+    elif length > 20:
+        if e_occur < 2:
+            return ""
+    #need to re-order the entity meaning re-order sentence in a document
+    p_x = []
+    for i in perm:
+        p_x.append(x[i])
 
+    return ' '.join(p_x)
+
+
+def load_POS_EGrid(filename="", w_size=3, maxlen=1000):
+    lines = [line.rstrip('\n') for line in open(filename)]
+    grid_1 = "0 "* w_size
+    for line in lines:
+        # merge the grid of positive document 
+        e_trans = get_eTrans(sent=line)
+        if len(e_trans) !=0:
+            grid_1 = grid_1 + e_trans + " " + "0 "* w_size
+            #print(e_trans)
+    vocab_list = ['0','S','O','X','-']
+    vocab_idmap = {}
+    for i in range(len(vocab_list)):
+        vocab_idmap[vocab_list[i]] = i
+
+    X_1 = numberize_sentences([grid_1], vocab_idmap)
+    X_1 = adjust_index(X_1, maxlen=maxlen, ignore=0, window_size=w_size)
+
+    return X_1
+
+def load_NEG_EGrid(filename="", w_size=3, maxlen=1000, perm=[]):
+    #print(perm)
+    if perm != None:
+        lines = [line.rstrip('\n') for line in open(filename)]
+        grid_0 = "0 "* w_size
+        for line in lines:
+            e_trans_0 = get_eTransWithPerm(sent=line,perm=perm)
+            grid_0 = grid_0 + e_trans_0  + " " + "0 "* w_size
+            #print(e_trans_0)
+
+        vocab_list = ['0','S','O','X','-']
+        vocab_idmap = {}
+        for i in range(len(vocab_list)):
+            vocab_idmap[vocab_list[i]] = i
+
+        X_0 = numberize_sentences([grid_0], vocab_idmap)
+        X_0 = adjust_index(X_0, maxlen=maxlen, ignore=0, window_size=w_size)
+
+        return X_0
+
+    else:
+        print("no permuted list")
+        return ""
 
 def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=None, window_size=3, ignore=0):
     # loading entiry-grid data from list of pos document and list of neg document
