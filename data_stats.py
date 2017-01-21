@@ -7,6 +7,10 @@ import numpy as np
 import glob, os, csv, re
 from collections import Counter
 
+def find_len(sent=""):
+    x = sent.split()
+    return len(x) -1
+
 def sent_stats(sent=""):
     x = sent.split()
     count = x.count('X') + x.count('S') + x.count('O') #counting the number of entities
@@ -49,13 +53,13 @@ def do_stats(filelist="list_of_grid.txt"):
         lines = [line.rstrip('\n') for line in open(file)]
         
         e_num = len(lines)
-        sent_num = (len(lines[1][21:]) + 1)/2
+        sent_num = find_len(sent=lines[1])
 
         e_num_list.append(e_num)
         sent_num_list.append(sent_num)
 
         e_1 = ""
-        e_0 = ""
+        
         for line in lines:
             # do something here
             word, e_trans_1, count = sent_stats(sent=line)
@@ -80,21 +84,23 @@ def do_stats(filelist="list_of_grid.txt"):
         p_count = 0
         for i in range(1,21): # reading the permuted docs
             permuted_lines = [p_line.rstrip('\n') for p_line in open(file+"-"+str(i))]    
-            
+            e_0 = "" 
             for p_line in permuted_lines:
                 word, e_trans_0, count = sent_stats(sent = p_line)
                 e_0 = e_0 + e_trans_0 + " "
             
             if e_0 != e_1:
                 p_count = p_count + 1
-
+            else:
+                print (file + "-" + str(i))
+        
         p_all = p_all + p_count   
         
     
-    with open('sent_num_list.txt','w') as f:
+    with open(filelist + '.sent_num_list','w') as f:
          f.write('\n'.join([str(n) for n in sent_num_list])+'\n')
 
-    with open('e_num_list.txt','w') as f:
+    with open(filelist + '.e_num_list','w') as f:
         f.write('\n'.join([str(n) for n in e_num_list])+'\n')
         
 
