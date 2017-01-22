@@ -147,7 +147,7 @@ def load_all(filelist="list_of_grid.txt"):
 
         for idx, line in enumerate(lines):
             # merge the grid of positive document 
-            e_trans = get_eTrans_with_Feats(sent=line,feats=f_lines[idx])
+            e_trans = get_eTrans_with_Feats(sent=line,feats=f_lines[idx],f1=2,fn=4)
             # need to update the dictionary here
             if len(e_trans) !=0:
                 for wrd in e_trans.split():
