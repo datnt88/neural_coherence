@@ -121,7 +121,7 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
         e_count = 0
         for line in lines:
             # merge the grid of positive document 
-            e_trans = get_ETransition(sent=line)
+            e_trans = get_eTrans(sent=line)
             if len(e_trans) !=0:
                 grid_1 = grid_1 + e_trans + " " + "0 "* window_size
                 e_count = e_count + 1
@@ -131,7 +131,7 @@ def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=N
             permuted_lines = [p_line.rstrip('\n') for p_line in open(file+"-"+str(i))]    
             grid_0 = "0 "* window_size
             for p_line in permuted_lines:
-                e_trans_0 = get_ETransition(sent=p_line)
+                e_trans_0 = get_eTrans(sent=p_line)
                 if len(e_trans_0) !=0:
                     grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
 
