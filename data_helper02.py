@@ -13,8 +13,6 @@ def find_doc_size(filename=""):
     doc_size = find_len(sent=lines[1])
     return doc_size
 
-
-
 def find_len(sent=""):
     x = sent.split()
     return len(x) -1
@@ -42,7 +40,7 @@ def get_eTrans(sent=""):
     return ' '.join(x)
 
 #get entity transition from a row of Entity Grid
-def get_eTrans_with_Feats(sent="",feats=""):
+def get_eTrans_with_Feats(sent="",feats="",f1=0,fn=9):
     x = sent.split()
     
     length = len(x)
@@ -66,7 +64,7 @@ def get_eTrans_with_Feats(sent="",feats=""):
     for sem_role in x:
         new_role = sem_role;
         if new_role != '-':
-            for i in range(0,len(f)):
+            for i in range(f1,fn):
                 k = i + 1
                 new_role = new_role + "F" + str(k) + f[i]
         x_f.append(new_role)
@@ -183,7 +181,7 @@ def load_and_numberize_Egrid_with_Feats(filelist="list_of_grid.txt", perm_num = 
         grid_1 = "0 "* window_size
 
         for idx, line in enumerate(lines):
-            e_trans = get_eTrans_with_Feats(sent=line,feats=f_lines[idx]) # merge the grid of positive document 
+            e_trans = get_eTrans_with_Feats(sent=line,feats=f_lines[idx],f1=2,fn=4) # merge the grid of positive document 
             if len(e_trans) !=0:
                 grid_1 = grid_1 + e_trans + " " + "0 "* window_size
         #print(grid_1)
@@ -194,7 +192,7 @@ def load_and_numberize_Egrid_with_Feats(filelist="list_of_grid.txt", perm_num = 
             grid_0 = "0 "* window_size
 
             for idx, p_line in enumerate(permuted_lines):
-                e_trans_0 = get_eTrans_with_Feats(sent=p_line, feats=f_lines[idx])
+                e_trans_0 = get_eTrans_with_Feats(sent=p_line, feats=f_lines[idx],f1=2,fn=4)
                 if len(e_trans_0) !=0:
                     grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
 
