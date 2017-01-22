@@ -40,7 +40,7 @@ opt='rmsprop'
 
 
 #loading entity-gird for pos and neg documents
-X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.dev.docs", 
+X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.train.docs", 
             perm_num = p_num, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size)
 X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.dev.docs", 
             perm_num = p_num, maxlen=maxlen, window_size=w_size, E=E ,vocab_list=vocab, emb_size=emb_size)
