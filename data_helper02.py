@@ -65,10 +65,10 @@ def get_eTrans_with_Feats(sent="",feats=""):
     x_f = []
     for sem_role in x:
         new_role = sem_role;
-
-        for i in range(0,len(f)):
-            k = i + 1
-            new_role = new_role + "F" + str(k) + f[i]
+        if new_role != '-':
+            for i in range(0,len(f)):
+                k = i + 1
+                new_role = new_role + "F" + str(k) + f[i]
         x_f.append(new_role)
 
     return ' '.join(x_f)
