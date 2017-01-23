@@ -12,6 +12,8 @@ from keras import backend as K
 
 import my_callbacks
 
+import optparse
+import sys
 
 
 def ranking_loss(y_true, y_pred):
@@ -21,142 +23,198 @@ def ranking_loss(y_true, y_pred):
     loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
     return K.mean(loss) + 0 * y_true
 
-#parameter for data_helper
-p_num = 20
-w_size = 6
-maxlen=15000
 
-#hyper paramere for cnn standard is: 150, 6, 250, 100
-nb_filter = 150
-filter_length = w_size
-pool_length = 6
-dropout_ratio = 0.5
-hidden_size = 250
-emb_size = 100 #100, best performacen, 
-
-opt='rmsprop'
+if __name__ == '__main__':
 
 
-#loading vocab, enity and embedding
-fn = [2,3,4] #using feature
-vocab = data_helper02.load_all(filelist="final_data/list.all.docs",fn=fn)
+    # parse user input
+    parser = optparse.OptionParser("%prog [options]")
+
+    #file related options
+    parser.add_option("-g", "--log-file",   dest="log_file", help="log file [default: %default]")
+    parser.add_option("-d", "--data-dir",   dest="data_dir", help="directory containing list of train, test and dev file [default: %default]")
+    parser.add_option("-m", "--model-dir",  dest="model_dir", help="directory to save the best models [default: %default]")
+
+    parser.add_option("-t", "--max-length", dest="maxlen", type="int", help="maximul length (for fixed size input) [default: %default]") # input size
+    parser.add_option("-f", "--nb_filter",         dest="nb_filter",     type="int",   help="nb of filter to be applied in convolution over words [default: %default]") 
+    #parser.add_option("-r", "--filter_length",     dest="filter_length", type="int",   help="length of neighborhood in words [default: %default]") 
+    parser.add_option("-w", "--w_size",         dest="w_size", type="int",   help="window size length of neighborhood in words [default: %default]") 
+    parser.add_option("-p", "--pool_length",       dest="pool_length",   type="int",   help="length for max pooling [default: %default]") 
+    parser.add_option("-e", "--emb-size",          dest="emb_size",      type="int",   help="dimension of embedding [default: %default]") 
+    parser.add_option("-s", "--hidden-size",       dest="hidden_size",   type="int",   help="hidden layer size [default: %default]") 
+    parser.add_option("-o", "--dropout_ratio",     dest="dropout_ratio", type="float", help="ratio of cells to drop out [default: %default]")
+
+    parser.add_option("-a", "--learning-algorithm", dest="learn_alg", help="optimization algorithm (adam, sgd, adagrad, rmsprop, adadelta) [default: %default]")
+    parser.add_option("-b", "--minibatch-size",     dest="minibatch_size", type="int", help="minibatch size [default: %default]")
+    parser.add_option("-l", "--loss",               dest="loss", help="loss type (hinge, squared_hinge, binary_crossentropy) [default: %default]")
+    parser.add_option("-n", "--epochs",             dest="epochs", type="int", help="nb of epochs [default: %default]")
+    parser.add_option("-P", "--permutation",        dest="p_num", type="int", help="nb of permutation[default: %default]")
+
+    parser.set_defaults(
+
+        data_dir        = "./final_data/"
+        ,log_file       = "log"
+        ,model_dir      = "./saved_models/"
+
+        ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
+        ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
+        ,minibatch_size = 32
+        ,dropout_ratio  = 0.5
+
+        ,maxlen         = 15000
+        ,epochs         = 30
+        ,emb_size       = 100
+        ,hidden_size    = 250
+        ,nb_filter      = 150
+        ,w_size         = 6 
+        ,pool_length    = 6 
+        ,p_num          = 20
+    )
+
+    opts,args = parser.parse_args(sys.argv)
+
+    print('Loading vocab of the whole dataset...')
+    fn = [1,2,3,4] #using feature
+    vocab = data_helper02.load_all(filelist= opts.data_dir + "list.all.docs",fn=fn)
+
+    print("loading entity-gird for pos and neg documents...")
+    X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir +"test.train", #list.train.docs", 
+            perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
+
+    X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.dev", #list.dev.docs", 
+            perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
+
+    X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.test" , # "list.test.docs.final", 
+            perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
+
+    num_train = len(X_train_1)
+    num_dev   = len(X_dev_1)
+    num_test  = len(X_test_1)
+    #assign Y value
+    y_train_1 = [1] * num_train 
+    y_dev_1 = [1] * num_dev 
+    y_test_1 = [1] * num_test 
+
+    print('.....................................')
+    print("Num of traing pairs: " + str(num_train))
+    print("Num of dev pairs: " + str(num_dev))
+    print("Num of test pairs: " + str(num_test))
+    print("Num of permutation in train: " + str(opts.p_num)) 
+    print("The maximum in length for CNN: " + str(opts.maxlen))
+    print('.....................................')
+
+    # the output is always 1??????
+    y_train_1 = np_utils.to_categorical(y_train_1, 2)
+    y_dev_1 = np_utils.to_categorical(y_dev_1, 2)
+    y_test_1 = np_utils.to_categorical(y_test_1, 2)
+
+    #randomly shuffle the training data
+    np.random.seed(2017)
+    np.random.shuffle(X_train_1)
+    np.random.seed(2017)
+    np.random.shuffle(X_train_0)
 
 
-#loading entity-gird for pos and neg documents
-X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.train.docs", 
-            perm_num = p_num, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size, fn=fn)
-X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.dev.docs", 
-            perm_num = p_num, maxlen=maxlen, window_size=w_size, E=E ,vocab_list=vocab, emb_size=emb_size, fn=fn)
-X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.test.docs.final", 
-            perm_num = p_num, maxlen=maxlen, window_size=w_size, E=E ,vocab_list=vocab, emb_size=emb_size, fn=fn)
+    # first, define a CNN model for sequence of entities 
+    sent_input = Input(shape=(opts.maxlen,), dtype='int32', name='sent_input')
 
-num_train = len(X_train_1)
-num_dev   = len(X_dev_1)
-num_test  = len(X_test_1)
-#assign Y value
-y_train_1 = [1] * num_train 
-y_dev_1 = [1] * num_dev 
-y_test_1 = [1] * num_test 
+    # embedding layer encodes the input into sequences of 300-dimenstional vectors. 
+    x = Embedding(output_dim=opts.emb_size, weights=[E], input_dim=len(vocab), input_length=opts.maxlen)(sent_input)
 
-print("---------------------------------------------------------")	
-print("Loading grid + features data done...")
-print("Num of traing pairs: " + str(num_train))
-print("Num of dev pairs: " + str(num_dev))
-print("Num of test pairs: " + str(num_test))
-print("Num of permutation in train: " + str(p_num)) 
-print("The maximum in length for CNN: " + str(maxlen))
-
-
-# the output is always 1??????
-y_train_1 = np_utils.to_categorical(y_train_1, 2)
-y_dev_1 = np_utils.to_categorical(y_dev_1, 2)
-y_test_1 = np_utils.to_categorical(y_test_1, 2)
-
-#randomly shuffle the training data
-np.random.seed(113)
-np.random.shuffle(X_train_1)
-np.random.seed(113)
-np.random.shuffle(X_train_0)
-
-
-# first, define a CNN model for sequence of entities 
-sent_input = Input(shape=(maxlen,), dtype='int32', name='sent_input')
-
-# embedding layer encodes the input into sequences of 300-dimenstional vectors. 
-x = Embedding(output_dim=emb_size, weights=[E], input_dim=len(vocab), input_length=maxlen)(sent_input)
-
-# add a convolutiaon 1D layer
-#x = Dropout(dropout_ratio)(x)
-x = Convolution1D(nb_filter=nb_filter, filter_length = filter_length, border_mode='valid', 
+    # add a convolutiaon 1D layer
+    #x = Dropout(dropout_ratio)(x)
+    x = Convolution1D(nb_filter=opts.nb_filter, filter_length = opts.w_size, border_mode='valid', 
             activation='relu', subsample_length=1)(x)
 
-# add max pooling layers
-#x = AveragePooling1D(pool_length=pool_length)(x)
-x = MaxPooling1D(pool_length=pool_length)(x)
-x = Dropout(dropout_ratio)(x)
-x = Flatten()(x)
-#x = Dense(hidden_size, activation='relu')(x)
-x = Dropout(dropout_ratio)(x)
+    # add max pooling layers
+    #x = AveragePooling1D(pool_length=pool_length)(x)
+    x = MaxPooling1D(pool_length=opts.pool_length)(x)
+    x = Dropout(opts.dropout_ratio)(x)
+    x = Flatten()(x)
+    #x = Dense(hidden_size, activation='relu')(x)
+    x = Dropout(opts.dropout_ratio)(x)
 
-# add latent coherence score
-out_x = Dense(1, activation='linear')(x)
-shared_cnn = Model(sent_input, out_x)
+    # add latent coherence score
+    out_x = Dense(1, activation='linear')(x)
+    shared_cnn = Model(sent_input, out_x)
 
-# Inputs of pos and neg document
-pos_input = Input(shape=(maxlen,), dtype='int32', name="pos_input")
-neg_input = Input(shape=(maxlen,), dtype='int32', name="neg_input")
+    # Inputs of pos and neg document
+    pos_input = Input(shape=(opts.maxlen,), dtype='int32', name="pos_input")
+    neg_input = Input(shape=(opts.maxlen,), dtype='int32', name="neg_input")
 
-# these two models will share eveything from shared_cnn
-pos_branch = shared_cnn(pos_input)
-neg_branch = shared_cnn(neg_input)
+    # these two models will share eveything from shared_cnn
+    pos_branch = shared_cnn(pos_input)
+    neg_branch = shared_cnn(neg_input)
 
-concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out")
-# output is two latent coherence score
+    concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out")
+    # output is two latent coherence score
 
-final_model = Model([pos_input, neg_input], concatenated)
+    final_model = Model([pos_input, neg_input], concatenated)
 
-#final_model.compile(loss='ranking_loss', optimizer='adam')
-final_model.compile(loss={'coherence_out': ranking_loss}, optimizer=opt)
+    #final_model.compile(loss='ranking_loss', optimizer='adam')
+    final_model.compile(loss={'coherence_out': ranking_loss}, optimizer=opts.learn_alg)
 
-# setting callback
-histories = my_callbacks.Histories()
+    # setting callback
+    histories = my_callbacks.Histories()
 
-print(shared_cnn.summary())
-print(final_model.summary())
+    print(shared_cnn.summary())
+    print(final_model.summary())
 
-print("---------------------------------------------------------")	
-print("Training model...")
+    print("------------------------------------------------")	
+    print("Training model...")
 
-for i in range(1,50):
-    saved_model = "./ext_cnn_saved_models/ext-CNN-maxlen" + str(maxlen) + "-w_size" + str(w_size) + "_MaxPool" + str(pool_length) + "-epoch-" + str(i) +".h5"
-    final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
- 					verbose=1, batch_size=32, callbacks=[histories])
-    final_model.save(saved_model)
+    #writing the feature
+    f_ = ""
+    for f in fn:
+        f_ =f_ + "_" + str(f)
 
-    y_pred = final_model.predict([X_test_1, X_test_0])
+    model_name = opts.model_dir + "ext_CNN." + str(opts.p_num) + "." + str(opts.maxlen) + "." + str(opts.w_size) + "." \
+        + str(opts.nb_filter) + "." + str(opts.pool_length) + ".F" + f_ + "." + str(opts.minibatch_size)
+
+    bestAcc = 0.0
+    patience = 0 
+    for ep in range(1,opts.epochs):
         
-    ties = 0
-    wins = 0
-    n = len(y_pred)
-    for i in range(0,n):
-        if y_pred[i][0] > y_pred[i][1]:
-            wins = wins + 1
-        elif y_pred[i][0] == y_pred[i][1]:
-            ties = ties + 1
-    print("Perform on test set after Epoch: " + str(i))    
-    print(" -Wins: " + str(wins) + " Ties: "  + str(ties))
-    loss = n - (wins+ties)
-    recall = wins/n;
-    prec = wins/(wins + loss)
-    f1 = 2*prec*recall/(prec+recall)
+        final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
+ 					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
 
-    print(" -Test acc: " + str(wins/n))
-    print(" -Test f1 : " + str(f1))
+        curAcc =  histories.accs[0]
+        if curAcc >= bestAcc:
+            bestAcc = curAcc
+            patience = 0
+            final_model.save(model_name)
+        else:
+            patience = patience + 1
 
 
-print("Loss information:...")
-print(histories.losses)
-print(histories.accs)
+        #doing classify the test set
+        y_pred = final_model.predict([X_test_1, X_test_0])        
+        ties = 0
+        wins = 0
+        n = len(y_pred)
+        for i in range(0,n):
+            if y_pred[i][0] > y_pred[i][1]:
+                wins = wins + 1
+            elif y_pred[i][0] == y_pred[i][1]:
+                ties = ties + 1
+        print("Perform on test set after Epoch: " + str(ep) + "...!")    
+        print(" -Wins: " + str(wins) + " Ties: "  + str(ties))
+        loss = n - (wins+ties)
+        recall = wins/n;
+        prec = wins/(wins + loss)
+        f1 = 2*prec*recall/(prec+recall)
+
+        print(" -Test acc: " + str(wins/n))
+        print(" -Test f1 : " + str(f1))
+
+        #stop the model whch patience = 8
+        if patience > 5:
+            print("Model reachs the best after: " + str(ep) + "epochs")
+            break
+
+    print("Loss information:...")
+    print(histories.losses)
+    print(histories.accs)
 
 
 
