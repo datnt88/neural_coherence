@@ -40,7 +40,7 @@ def get_eTrans(sent=""):
     return ' '.join(x)
 
 #get entity transition from a row of Entity Grid
-def get_eTrans_with_Feats(sent="",feats="",f1=0,fn=9):
+def get_eTrans_with_Feats(sent="",feats="",fn=range(1,10)):
     x = sent.split()
     
     length = len(x)
@@ -64,9 +64,8 @@ def get_eTrans_with_Feats(sent="",feats="",f1=0,fn=9):
     for sem_role in x:
         new_role = sem_role;
         if new_role != '-':
-            for i in range(f1,fn):
-                k = i + 1
-                new_role = new_role + "F" + str(k) + f[i]
+            for i in fn:
+                new_role = new_role + "F" + str(i) + f[i-1] # num feat = idx + 1
         x_f.append(new_role)
 
     return ' '.join(x_f)
@@ -136,9 +135,10 @@ def load_NEG_EGrid(filename="", w_size=3, maxlen=1000, perm=[]):
         print("no permuted list")
         return ""
 
-def load_all(filelist="list_of_grid.txt"):
-    list_of_files = [line.rstrip('\n') for line in open(filelist)]
+def load_all(filelist="list_of_grid.txt",fn=range(1,10)):
 
+    list_of_files = [line.rstrip('\n') for line in open(filelist)]
+    print("Using features: " + str(fn))
     vocab = Counter()
 
     for file in list_of_files:
@@ -148,7 +148,7 @@ def load_all(filelist="list_of_grid.txt"):
 
         for idx, line in enumerate(lines):
             # merge the grid of positive document 
-            e_trans = get_eTrans_with_Feats(sent=line,feats=f_lines[idx],f1=2,fn=4)
+            e_trans = get_eTrans_with_Feats(sent=line,feats=f_lines[idx],fn=fn)
             # need to update the dictionary here
             if len(e_trans) !=0:
                 for wrd in e_trans.split():
@@ -162,7 +162,7 @@ def load_all(filelist="list_of_grid.txt"):
     return vocab_list
 
 #loading grid with features
-def load_and_numberize_Egrid_with_Feats(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300):
+def load_and_numberize_Egrid_with_Feats(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=range(1,10)):
     # loading entiry-grid data from list of pos document and list of neg document
     if vocab_list is None:
         print("Please input vocab list")
@@ -175,7 +175,7 @@ def load_and_numberize_Egrid_with_Feats(filelist="list_of_grid.txt", perm_num = 
     sentences_0 = []
     
     for file in list_of_files:
-        
+        print(file) 
 
         lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
         f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
@@ -183,7 +183,7 @@ def load_and_numberize_Egrid_with_Feats(filelist="list_of_grid.txt", perm_num = 
         grid_1 = "0 "* window_size
 
         for idx, line in enumerate(lines):
-            e_trans = get_eTrans_with_Feats(sent=line,feats=f_lines[idx],f1=2,fn=4) # merge the grid of positive document 
+            e_trans = get_eTrans_with_Feats(sent=line,feats=f_lines[idx],fn=fn) # merge the grid of positive document 
             if len(e_trans) !=0:
                 grid_1 = grid_1 + e_trans + " " + "0 "* window_size
         #print(grid_1)
@@ -194,7 +194,7 @@ def load_and_numberize_Egrid_with_Feats(filelist="list_of_grid.txt", perm_num = 
             grid_0 = "0 "* window_size
 
             for idx, p_line in enumerate(permuted_lines):
-                e_trans_0 = get_eTrans_with_Feats(sent=p_line, feats=f_lines[idx],f1=2,fn=4)
+                e_trans_0 = get_eTrans_with_Feats(sent=p_line, feats=f_lines[idx],fn=fn)
                 if len(e_trans_0) !=0:
                     grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
 

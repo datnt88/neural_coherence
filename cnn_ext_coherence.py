@@ -13,8 +13,6 @@ from keras import backend as K
 import my_callbacks
 
 
-#loading vocab, enity and embedding
-vocab = data_helper02.load_all(filelist="final_data/list.all.docs")
 
 def ranking_loss(y_true, y_pred):
     pos = y_pred[:,0]
@@ -39,19 +37,22 @@ emb_size = 100 #100, best performacen,
 opt='rmsprop'
 
 
+#loading vocab, enity and embedding
+fn = [2,3,4] #using feature
+vocab = data_helper02.load_all(filelist="final_data/list.all.docs",fn=fn)
+
+
 #loading entity-gird for pos and neg documents
 X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.train.docs", 
-            perm_num = p_num, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size)
+            perm_num = p_num, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size, fn=fn)
 X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.dev.docs", 
-            perm_num = p_num, maxlen=maxlen, window_size=w_size, E=E ,vocab_list=vocab, emb_size=emb_size)
-X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.test.docs", 
-            perm_num = p_num, maxlen=maxlen, window_size=w_size, E=E ,vocab_list=vocab, emb_size=emb_size)
-
+            perm_num = p_num, maxlen=maxlen, window_size=w_size, E=E ,vocab_list=vocab, emb_size=emb_size, fn=fn)
+X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.test.docs.final", 
+            perm_num = p_num, maxlen=maxlen, window_size=w_size, E=E ,vocab_list=vocab, emb_size=emb_size, fn=fn)
 
 num_train = len(X_train_1)
 num_dev   = len(X_dev_1)
 num_test  = len(X_test_1)
-
 #assign Y value
 y_train_1 = [1] * num_train 
 y_dev_1 = [1] * num_dev 
@@ -61,8 +62,8 @@ print("---------------------------------------------------------")
 print("Loading grid + features data done...")
 print("Num of traing pairs: " + str(num_train))
 print("Num of dev pairs: " + str(num_dev))
-print("Num of dev pairs: " + str(num_test))
-print("Num of permutation: " + str(p_num)) 
+print("Num of test pairs: " + str(num_test))
+print("Num of permutation in train: " + str(p_num)) 
 print("The maximum in length for CNN: " + str(maxlen))
 
 
