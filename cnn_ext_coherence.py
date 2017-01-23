@@ -13,7 +13,7 @@ import my_callbacks
 
 
 #loading vocab, enity and embedding
-vocab = data_helper02.load_all(filelist="final_data/list.train_dev.docs")
+vocab = data_helper02.load_all(filelist="final_data/list.all.docs")
 
 def ranking_loss(y_true, y_pred):
     pos = y_pred[:,0]
@@ -44,22 +44,27 @@ X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(file
             perm_num = p_num, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size)
 X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.dev.docs", 
             perm_num = p_num, maxlen=maxlen, window_size=w_size, E=E ,vocab_list=vocab, emb_size=emb_size)
+X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.test.docs", 
+            perm_num = p_num, maxlen=maxlen, window_size=w_size, E=E ,vocab_list=vocab, emb_size=emb_size)
+
+
 
 
 
 num_train = len(X_train_1)
 num_dev   = len(X_dev_1)
-#num_test  = len(X_test_1)
+num_test  = len(X_test_1)
 
 #assign Y value
 y_train_1 = [1] * num_train 
 y_dev_1 = [1] * num_dev 
-#y_test_1 = [1] * num_test 
+y_test_1 = [1] * num_test 
 
 print("---------------------------------------------------------")	
 print("Loading grid + features data done...")
 print("Num of traing pairs: " + str(num_train))
 print("Num of dev pairs: " + str(num_dev))
+print("Num of dev pairs: " + str(num_test))
 print("Num of permutation: " + str(p_num)) 
 print("The maximum in length for CNN: " + str(maxlen))
 
@@ -67,11 +72,12 @@ print("The maximum in length for CNN: " + str(maxlen))
 # the output is always 1??????
 y_train_1 = np_utils.to_categorical(y_train_1, 2)
 y_dev_1 = np_utils.to_categorical(y_dev_1, 2)
+y_test_1 = np_utils.to_categorical(y_test_1, 2)
 
 #randomly shuffle the training data
-np.random.seed(133)
+np.random.seed(113)
 np.random.shuffle(X_train_1)
-np.random.seed(133)
+np.random.seed(113)
 np.random.shuffle(X_train_0)
 
 
@@ -119,17 +125,38 @@ histories = my_callbacks.Histories()
 
 print(shared_cnn.summary())
 print(final_model.summary())
+
 print("---------------------------------------------------------")	
 print("Training model...")
 
-
-
 for i in range(1,25):
-    saved_model = "./ext_cnn_saved_models/cnn-egrid-epoch-" + str(i) +".h5"
-    #checkpointer = ModelCheckpoint(filepath="./tmp/weights-" + str(i) +".hdf5", verbose=1, save_best_only=True)
+    saved_model = "./ext_cnn_saved_models/ext-CNN-maxlen" + str(maxlen) + "-w_size" + str(w_size) + "_pool" + str(pool_length) + "-epoch-" + str(i) +".h5"
     final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
  					verbose=1, batch_size=32, callbacks=[histories])
     final_model.save(saved_model)
+
+    y_pred = final_model.predict([X_test_1, X_test_0])
+        
+    ties = 0
+    wins = 0
+    n = len(y_pred)
+    for i in range(0,n):
+        if y_pred[i][0] > y_pred[i][1]:
+            wins = wins + 1
+        elif y_pred[i][0] == y_pred[i][1]:
+            ties = ties + 1
+    
+    print("\n -Wins: " + str(wins) + " Ties: "  + str(ties))
+    loss = n - (wins+ties)
+    recall = wins/n;
+    prec = wins/(wins + loss)
+    f1 = 2*prec*recall/(prec+recall)
+
+    print(" - Test acc: " + str(wins/n))
+    print(" - Test f1 : " + str(f1))
+
+
+
 print(histories.losses)
 print(histories.accs)
 

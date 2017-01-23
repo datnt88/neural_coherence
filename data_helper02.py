@@ -142,6 +142,7 @@ def load_all(filelist="list_of_grid.txt"):
     vocab = Counter()
 
     for file in list_of_files:
+        print(file)
         lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
         f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
 
@@ -174,7 +175,8 @@ def load_and_numberize_Egrid_with_Feats(filelist="list_of_grid.txt", perm_num = 
     sentences_0 = []
     
     for file in list_of_files:
-        #print(file)
+        
+
         lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
         f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
 
