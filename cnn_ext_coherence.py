@@ -1,3 +1,4 @@
+from __future__ import division
 from keras.layers import AveragePooling1D, Flatten, Input, Embedding, LSTM, Dense, merge, Convolution1D, MaxPooling1D, Dropout
 from keras.models import Model
 from keras import objectives
@@ -25,18 +26,17 @@ def ranking_loss(y_true, y_pred):
 #parameter for data_helper
 p_num = 20
 w_size = 6
-maxlen=13910
+maxlen=15000
 
-#hyper paramere for cnn
+#hyper paramere for cnn standard is: 150, 6, 250, 100
 nb_filter = 150
 filter_length = w_size
 pool_length = 6
 dropout_ratio = 0.5
 hidden_size = 250
-emb_size = 300
+emb_size = 300 #100, best performacen, 
 
 opt='rmsprop'
-
 
 
 #loading entity-gird for pos and neg documents
@@ -46,9 +46,6 @@ X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filel
             perm_num = p_num, maxlen=maxlen, window_size=w_size, E=E ,vocab_list=vocab, emb_size=emb_size)
 X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.test.docs", 
             perm_num = p_num, maxlen=maxlen, window_size=w_size, E=E ,vocab_list=vocab, emb_size=emb_size)
-
-
-
 
 
 num_train = len(X_train_1)
@@ -93,8 +90,8 @@ x = Convolution1D(nb_filter=nb_filter, filter_length = filter_length, border_mod
             activation='relu', subsample_length=1)(x)
 
 # add max pooling layers
-x = AveragePooling1D(pool_length=pool_length)(x)
-#x = MaxPooling1D(pool_length=pool_length)(x)
+#x = AveragePooling1D(pool_length=pool_length)(x)
+x = MaxPooling1D(pool_length=pool_length)(x)
 x = Dropout(dropout_ratio)(x)
 x = Flatten()(x)
 #x = Dense(hidden_size, activation='relu')(x)
@@ -129,8 +126,8 @@ print(final_model.summary())
 print("---------------------------------------------------------")	
 print("Training model...")
 
-for i in range(1,25):
-    saved_model = "./ext_cnn_saved_models/ext-CNN-maxlen" + str(maxlen) + "-w_size" + str(w_size) + "_pool" + str(pool_length) + "-epoch-" + str(i) +".h5"
+for i in range(1,50):
+    saved_model = "./ext_cnn_saved_models/ext-CNN-maxlen" + str(maxlen) + "-w_size" + str(w_size) + "_MaxPool" + str(pool_length) + "-epoch-" + str(i) +".h5"
     final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
  					verbose=1, batch_size=32, callbacks=[histories])
     final_model.save(saved_model)
@@ -145,18 +142,18 @@ for i in range(1,25):
             wins = wins + 1
         elif y_pred[i][0] == y_pred[i][1]:
             ties = ties + 1
-    
-    print("\n -Wins: " + str(wins) + " Ties: "  + str(ties))
+    print("Perform on test set..."    
+    print(" -Test Wins: " + str(wins) + " Ties: "  + str(ties))
     loss = n - (wins+ties)
     recall = wins/n;
     prec = wins/(wins + loss)
     f1 = 2*prec*recall/(prec+recall)
 
-    print(" - Test acc: " + str(wins/n))
-    print(" - Test f1 : " + str(f1))
+    print(" -Test acc: " + str(wins/n))
+    print(" -Test f1 : " + str(f1))
 
 
-
+print("Loss information:...")
 print(histories.losses)
 print(histories.accs)
 

@@ -25,7 +25,7 @@ class Histories(keras.callbacks.Callback):
                         wins = wins + 1
                     elif y_pred[i][0] == y_pred[i][1]:
                         ties = ties + 1
-                print("\n -Wins: " + str(wins) + " Ties: "  + str(ties))
+                print("\n -Dev Wins: " + str(wins) + " Ties: "  + str(ties))
                 loss = n - (wins+ties)
                 recall = wins/n;
                 prec = wins/(wins + loss)
