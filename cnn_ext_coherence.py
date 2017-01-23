@@ -166,8 +166,8 @@ if __name__ == '__main__':
     for f in fn:
         f_ =f_ + "_" + str(f)
 
-    model_name = opts.model_dir + "ext_CNN." + str(opts.p_num) + "." + str(opts.dropout_ratio) + "."+ str(opts.emb_size) + "."+ str(opts.maxlen) + "." + str(opts.w_size) + "." \
-        + str(opts.nb_filter) + "." + str(opts.pool_length) + ".F" + f_ + "." + str(opts.minibatch_size) + ".h5"
+    model_name = opts.model_dir + "Ext_CNN." + str(opts.p_num) + "." + str(opts.dropout_ratio) + "."+ str(opts.emb_size) + "."+ str(opts.maxlen) + "." + str(opts.w_size) + "." \
+        + str(opts.nb_filter) + "." + str(opts.pool_length) + "." + str(opts.minibatch_size) + ".F" + f_  + ".h5"
 
     bestAcc = 0.0
     patience = 0 
@@ -183,7 +183,6 @@ if __name__ == '__main__':
             final_model.save(model_name)
         else:
             patience = patience + 1
-
 
         #doing classify the test set
         y_pred = final_model.predict([X_test_1, X_test_0])        
