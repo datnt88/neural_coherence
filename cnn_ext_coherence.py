@@ -25,8 +25,6 @@ def ranking_loss(y_true, y_pred):
 
 
 if __name__ == '__main__':
-
-
     # parse user input
     parser = optparse.OptionParser("%prog [options]")
 
@@ -74,7 +72,7 @@ if __name__ == '__main__':
     opts,args = parser.parse_args(sys.argv)
 
     print('Loading vocab of the whole dataset...')
-    fn = [1,2,3,4] #using feature
+    fn = [2,3,4,8] #using feature
     vocab = data_helper02.load_all(filelist= opts.data_dir + "list.all.docs",fn=fn)
 
     print("loading entity-gird for pos and neg documents...")
@@ -169,7 +167,7 @@ if __name__ == '__main__':
         f_ =f_ + "_" + str(f)
 
     model_name = opts.model_dir + "ext_CNN." + str(opts.p_num) + "." + str(opts.maxlen) + "." + str(opts.w_size) + "." \
-        + str(opts.nb_filter) + "." + str(opts.pool_length) + ".F" + f_ + "." + str(opts.minibatch_size)
+        + str(opts.nb_filter) + "." + str(opts.pool_length) + ".F" + f_ + "." + str(opts.minibatch_size) + ".h5"
 
     bestAcc = 0.0
     patience = 0 
