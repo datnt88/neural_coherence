@@ -72,17 +72,17 @@ if __name__ == '__main__':
     opts,args = parser.parse_args(sys.argv)
 
     print('Loading vocab of the whole dataset...')
-    fn = [2,3,4,8] #using feature
+    fn = [2,3,4] #using feature
     vocab = data_helper02.load_all(filelist= opts.data_dir + "list.all.docs",fn=fn)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir +"test.train", #list.train.docs", 
+    X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir +"list.train.docs", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.dev", #list.dev.docs", 
+    X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.dev.docs", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.test" , # "list.test.docs.final", 
+    X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.test.docs.final", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)
@@ -166,7 +166,7 @@ if __name__ == '__main__':
     for f in fn:
         f_ =f_ + "_" + str(f)
 
-    model_name = opts.model_dir + "ext_CNN." + str(opts.p_num) + "." + str(opts.maxlen) + "." + str(opts.w_size) + "." \
+    model_name = opts.model_dir + "ext_CNN." + str(opts.p_num) + "." + str(opts.emb_size) + "."+ str(opts.maxlen) + "." + str(opts.w_size) + "." \
         + str(opts.nb_filter) + "." + str(opts.pool_length) + ".F" + f_ + "." + str(opts.minibatch_size) + ".h5"
 
     bestAcc = 0.0
