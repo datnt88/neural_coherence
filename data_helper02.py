@@ -142,7 +142,7 @@ def load_all(filelist="list_of_grid.txt"):
     vocab = Counter()
 
     for file in list_of_files:
-        print(file)
+#        print(file)
         lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
         f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
 

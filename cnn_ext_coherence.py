@@ -34,7 +34,7 @@ filter_length = w_size
 pool_length = 6
 dropout_ratio = 0.5
 hidden_size = 250
-emb_size = 300 #100, best performacen, 
+emb_size = 100 #100, best performacen, 
 
 opt='rmsprop'
 
