@@ -32,7 +32,7 @@ class Histories(keras.callbacks.Callback):
                 f1 = 2*prec*recall/(prec+recall)
 
                 print(" -Dev acc: " + str(wins/n))
-                print(" -Dev f1 : " + str(f1))
+                #print(" -Dev f1 : " + str(f1))
 
 		self.accs.append(prec)
 

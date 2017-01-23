@@ -107,9 +107,9 @@ if __name__ == '__main__':
     y_test_1 = np_utils.to_categorical(y_test_1, 2)
 
     #randomly shuffle the training data
-    np.random.seed(2017)
+    np.random.seed(113)
     np.random.shuffle(X_train_1)
-    np.random.seed(2017)
+    np.random.seed(113)
     np.random.shuffle(X_train_0)
 
 
@@ -166,7 +166,7 @@ if __name__ == '__main__':
     for f in fn:
         f_ =f_ + "_" + str(f)
 
-    model_name = opts.model_dir + "ext_CNN." + str(opts.p_num) + "." + str(opts.emb_size) + "."+ str(opts.maxlen) + "." + str(opts.w_size) + "." \
+    model_name = opts.model_dir + "ext_CNN." + str(opts.p_num) + "." + str(opts.dropout_ratio) + "."+ str(opts.emb_size) + "."+ str(opts.maxlen) + "." + str(opts.w_size) + "." \
         + str(opts.nb_filter) + "." + str(opts.pool_length) + ".F" + f_ + "." + str(opts.minibatch_size) + ".h5"
 
     bestAcc = 0.0
