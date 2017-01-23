@@ -142,7 +142,7 @@ for i in range(1,50):
             wins = wins + 1
         elif y_pred[i][0] == y_pred[i][1]:
             ties = ties + 1
-    print("Perform on test set..."    
+    print("Perform on test set...")    
     print(" -Test Wins: " + str(wins) + " Ties: "  + str(ties))
     loss = n - (wins+ties)
     recall = wins/n;
