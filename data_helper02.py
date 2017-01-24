@@ -65,7 +65,18 @@ def get_eTrans_with_Feats(sent="",feats="",fn=range(1,10)):
         new_role = sem_role;
         if new_role != '-':
             for i in fn:
-                new_role = new_role + "F" + str(i) + f[i-1] # num feat = idx + 1
+                if i ==0 : #adding salience
+                    if e_occur == 1:
+                        new_role = new_role + "F01"
+                    elif e_occur == 2:
+                        new_role = new_role + "F02"
+                    elif e_occur == 3:
+                        new_role = new_role + "F03"
+                    elif e_occur >3 :
+                        new_role = new_role + "F04"
+                else:
+                    new_role = new_role + "F" + str(i) + f[i-1] # num feat = idx + 1
+  
         x_f.append(new_role)
 
     return ' '.join(x_f)
@@ -158,6 +169,8 @@ def load_all(filelist="list_of_grid.txt",fn=range(1,10)):
     vocab_list = sorted (vocab.keys())
     vocab_list.append('0')
     print "Total vocabulary size in the whole dataset: " + str (len(vocab))        
+
+    print(vocab)
 
     return vocab_list
 

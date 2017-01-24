@@ -72,7 +72,7 @@ if __name__ == '__main__':
     opts,args = parser.parse_args(sys.argv)
 
     print('Loading vocab of the whole dataset...')
-    fn = [2,3,4] #using feature
+    fn = [0] #using feature
     vocab = data_helper02.load_all(filelist= opts.data_dir + "list.all.docs",fn=fn)
 
     print("loading entity-gird for pos and neg documents...")
@@ -159,17 +159,16 @@ if __name__ == '__main__':
     print(final_model.summary())
 
     print("------------------------------------------------")	
-    print("Training model...")
-
     #writing the feature
     f_ = ""
     for f in fn:
-        f_ =f_ + "_" + str(f)
+        f_ =f_ + "." + str(f)
 
-    model_name = opts.model_dir + "Ext_CNN." + str(opts.p_num) + "." + str(opts.dropout_ratio) + "."+ str(opts.emb_size) + "."+ str(opts.maxlen) + "." + str(opts.w_size) + "." \
-        + str(opts.nb_filter) + "." + str(opts.pool_length) + "." + str(opts.minibatch_size) + ".F" + f_  + ".h5"
+    model_name = opts.model_dir + "Ext_CNN." + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
+    + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + f_  + ".h5"
+    print("Model name: " + model_name)
 
-    print(model_name)
+    print("Training model...")
     bestAcc = 0.0
     patience = 0 
     for ep in range(1,opts.epochs):
