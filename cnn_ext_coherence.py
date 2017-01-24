@@ -76,13 +76,13 @@ if __name__ == '__main__':
     vocab = data_helper02.load_all(filelist= opts.data_dir + "list.all.docs",fn=fn)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir +"list.train.docs", 
+    X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir +"test.train", #list.train.docs", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.dev.docs", 
+    X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.dev", #list.dev.docs", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.test.docs.final", 
+    X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.test", #list.test.docs.final", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)
@@ -169,6 +169,7 @@ if __name__ == '__main__':
     model_name = opts.model_dir + "Ext_CNN." + str(opts.p_num) + "." + str(opts.dropout_ratio) + "."+ str(opts.emb_size) + "."+ str(opts.maxlen) + "." + str(opts.w_size) + "." \
         + str(opts.nb_filter) + "." + str(opts.pool_length) + "." + str(opts.minibatch_size) + ".F" + f_  + ".h5"
 
+    print(model_name)
     bestAcc = 0.0
     patience = 0 
     for ep in range(1,opts.epochs):
@@ -197,21 +198,21 @@ if __name__ == '__main__':
         print("Perform on test set after Epoch: " + str(ep) + "...!")    
         print(" -Wins: " + str(wins) + " Ties: "  + str(ties))
         loss = n - (wins+ties)
-        recall = wins/n;
+        #recall = wins/n;
         prec = wins/(wins + loss)
-        f1 = 2*prec*recall/(prec+recall)
+        #f1 = 2*prec*recall/(prec+recall)
 
         print(" -Test acc: " + str(wins/n))
-        print(" -Test f1 : " + str(f1))
+        #print(" -Test f1 : " + str(f1))
 
         #stop the model whch patience = 8
         if patience > 5:
-            print("Model reachs the best after: " + str(ep) + "epochs")
+            print("Model reachs the best performance on Dev set: " + str(curAcc) + " after: " + str(ep) + "epochs")
             break
 
-    print("Loss information:...")
-    print(histories.losses)
-    print(histories.accs)
+    print("Finish training and testing...")
+    #print(histories.losses)
+    #print(histories.accs)
 
 
 
