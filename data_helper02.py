@@ -335,7 +335,7 @@ def adjust_index(X, maxlen=None, window_size=3):
         for x in X:
 
             if len(x) > maxlen:
-                
+                #print("************* Maxlen of whole dataset: " + str(len(x)) )
             	tmp = x[0:maxlen]
             	tmp[maxlen-window_size:maxlen] = ['0'] * window_size
             	new_X.append(tmp)

@@ -59,7 +59,7 @@ if __name__ == '__main__':
         ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 15000
+        ,maxlen         = 14000
         ,epochs         = 30
         ,emb_size       = 100
         ,hidden_size    = 250
@@ -79,10 +79,10 @@ if __name__ == '__main__':
 
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir +"test.train", #ilist.train.docs", 
+    X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir +"list.train.0001.docs", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.dev", #list.dev.docs", 
+    X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.dev.0001.docs", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.test", #list.test.docs.final", 
