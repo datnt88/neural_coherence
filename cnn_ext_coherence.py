@@ -71,18 +71,21 @@ if __name__ == '__main__':
 
     opts,args = parser.parse_args(sys.argv)
 
+    
+
     print('Loading vocab of the whole dataset...')
-    fn = [0] #using feature
+    fn = [1,3,7] #using feature
     vocab = data_helper02.load_all(filelist= opts.data_dir + "list.all.docs",fn=fn)
 
+
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir +"test.train", #list.train.docs", 
+    X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir +"list.train.docs", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.dev", #list.dev.docs", 
+    X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.dev.docs", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.test", #list.test.docs.final", 
+    X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.test.docs.final", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)
@@ -164,8 +167,8 @@ if __name__ == '__main__':
     for f in fn:
         f_ =f_ + "." + str(f)
 
-    model_name = opts.model_dir + "Ext_CNN." + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
-    + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + f_  + ".h5"
+    model_name = opts.model_dir + "ext_CNN." + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
+    + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + f_  
     print("Model name: " + model_name)
 
     print("Training model...")
@@ -176,11 +179,13 @@ if __name__ == '__main__':
         final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
  					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
 
+        final_model.save(model_name + "_ep." + str(ep) + ".h5")
+
         curAcc =  histories.accs[0]
         if curAcc >= bestAcc:
             bestAcc = curAcc
             patience = 0
-            final_model.save(model_name)
+    
         else:
             patience = patience + 1
 
