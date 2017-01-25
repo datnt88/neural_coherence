@@ -18,8 +18,6 @@ class Histories(keras.callbacks.Callback):
                 wins = 0
                 ties = 0
                 n = len(y_pred)
-                #print ("\n")
-                #print (y_pred)
                 for i in range(0,n):
                     if y_pred[i][0] > y_pred[i][1]:
                         wins = wins + 1
