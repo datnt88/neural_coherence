@@ -170,7 +170,7 @@ def load_all(filelist="list_of_grid.txt",fn=range(1,10)):
     vocab_list.append('0')
     print "Total vocabulary size in the whole dataset: " + str (len(vocab))        
 
-    print(vocab)
+    print(vocab_list)
 
     return vocab_list
 
