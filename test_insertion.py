@@ -24,20 +24,33 @@ def ranking_loss(y_true, y_pred):
     loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
     return K.mean(loss) + 0 * y_true
 
-w_size = 6
-maxlen=10676
+
+
 # loading our cohernce model
 saved_model = sys.argv[1]
 final_model = load_model(saved_model)
 
 
+#parameter for data_helper
+p_num = 20
+w_size = 6
+maxlen=14000
+emb_size = 100
+fn = [3,8]    #fn = range(0,10) #using feature
+
+    
+print('Loading vocab of the whole dataset...')
+vocab = data_helper.load_all(filelist= "final_data/test.test",fn=fn)
+print(vocab)
+
+
 #find the maximum coherence score when inserting the sentence at position k
-def insert(filename="",k = 0,w_size=3,maxlen=maxlen):
+def insert(filename="", k = 0, w_size=3, maxlen=maxlen, vocab_list=vocab):
     lines = [line.rstrip('\n') for line in open(filename)]
     doc_size = data_helper02.find_len(sent=lines[1])
 
     X_1 =  data_helper.load_POS_EGrid(filename=filename,w_size=w_size)
-    X_1 =  sequence.pad_sequences(X_1, maxlen)
+    
     
     #the lowest coherence score of a document
     bestScore = -999999.999999
@@ -52,10 +65,8 @@ def insert(filename="",k = 0,w_size=3,maxlen=maxlen):
     for pos in range(0,doc_size):
         #compute coherence score for permuated         
         X_0 =  data_helper.load_NEG_EGrid(filename=filename, perm=perm, w_size=w_size)
-        X_0 = sequence.pad_sequences(X_0, maxlen)
         
         y_pred = final_model.predict([X_1, X_0])
-
         score_pos = y_pred[0][0]
         score_neg= y_pred[0][1]
  
