@@ -35,7 +35,7 @@ p_num = 20
 w_size = 6
 maxlen=14000
 emb_size = 100
-fn = [3,8]    #fn = range(0,10) #using feature
+fn = [0,3,4]    #fn = range(0,10) #using feature
 
     
 print('Loading vocab of the whole dataset...')
@@ -45,8 +45,9 @@ vocab = data_helper.load_all(filelist= "final_data/list.all.0001.docs",fn=fn)
 
 #find the maximum coherence score when inserting the sentence at position k
 def insert(filename="", k = 0, w_size=3, maxlen=14000, vocab_list=None, fn=None):
-    lines = [line.rstrip('\n') for line in open(filename)]
+    lines = [line.rstrip('\n') for line in open(filename+ ".EGrid")]
     doc_size = data_helper.find_len(sent=lines[1])
+    #print(doc_size)
 
     X_1 =  data_helper.load_POS_EGrid(filename=filename, w_size=w_size, maxlen=maxlen , vocab_list=vocab_list, fn=fn )
     
@@ -64,7 +65,7 @@ def insert(filename="", k = 0, w_size=3, maxlen=14000, vocab_list=None, fn=None)
     for pos in range(0,doc_size):
         #compute coherence score for permuated         
         X_0 =  data_helper.load_NEG_EGrid(filename=filename, w_size=w_size , maxlen=maxlen , vocab_list=vocab_list, fn=fn, perm=perm)
-        
+        print(perm)
         y_pred = final_model.predict([X_1, X_0])
         score_pos = y_pred[0][0]
         score_neg= y_pred[0][1]
@@ -98,7 +99,7 @@ list_of_files = [line.rstrip('\n') for line in open("final_data/list.test.docs.f
 totalPerf = 0
 for file in list_of_files:
     # process each test document
-    doc_size = data_helper.find_doc_size(file);
+    doc_size = data_helper.find_doc_size(file+".EGrid");
     print("------------------------------------------------------------")    
     print(str(file))    
     

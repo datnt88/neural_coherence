@@ -15,6 +15,7 @@ def find_doc_size(filename=""):
 
 def find_len(sent=""):
     x = sent.split()
+    #print(x)
     return len(x) -1
 
 def remove_entity(sent=""):
@@ -87,7 +88,10 @@ def get_eTrans_with_Feats(sent="",feats="",fn=None):
 
 
 #get entity transition from a row of Entity Grid for insertion experiment
-def get_eTrans_With_Perm(sent="",fn=None, perm=[]):
+def get_eTrans_With_Perm(sent="",feats="",fn=None, perm=[]):
+    #print(feats)
+    #print(perm)
+
     x = sent.split()
     x = x[1:]
     length = len(x)
@@ -105,6 +109,10 @@ def get_eTrans_With_Perm(sent="",fn=None, perm=[]):
 
     if fn==None: #coherence model without features
        return ' '.join(p_x)
+
+
+    f = feats.split()
+    f = f[1:]
 
     p_x_f = []
     for sem_role in p_x: # extended coherence model without features
@@ -129,15 +137,17 @@ def get_eTrans_With_Perm(sent="",fn=None, perm=[]):
 
 
 def load_POS_EGrid(filename="", w_size=3, maxlen=1000, vocab_list=None , fn=None ):
-    lines = [line.rstrip('\n') for line in open(filename)]
+    lines = [line.rstrip('\n') for line in open(filename + ".EGrid")]
+    f_lines = [line.rstrip('\n') for line in open(filename + ".Feats")]
+
     grid_1 = "0 "* w_size
-    for line in lines:
+    for idx, line in enumerate(lines):
         # merge the grid of positive document 
-        e_trans = get_eTrans_with_Feats(sent=line, fn=fn)
+        e_trans = get_eTrans_with_Feats(sent=line, feats=f_lines[idx], fn=fn)
         if len(e_trans) !=0:
             grid_1 = grid_1 + e_trans + " " + "0 "* w_size
             #print(e_trans)
-    
+    #print(grid_1)
     vocab_idmap = {}
     for i in range(len(vocab_list)):
         vocab_idmap[vocab_list[i]] = i
@@ -148,16 +158,21 @@ def load_POS_EGrid(filename="", w_size=3, maxlen=1000, vocab_list=None , fn=None
 
     return X_1
 
-def load_NEG_EGrid(filename="", w_size=3, maxlen=1000,  vocab_list=None, fn=None, perm=[]):
+def load_NEG_EGrid(filename="", w_size=3, maxlen=1000,  vocab_list=None, fn=None, perm=None):
     #print(perm)
     if perm != None:
-        lines = [line.rstrip('\n') for line in open(filename)]
+        lines = [line.rstrip('\n') for line in open(filename + ".EGrid")]
+        f_lines = [line.rstrip('\n') for line in open(filename + ".Feats")]
+
+
         grid_0 = "0 "* w_size
-        for line in lines:
-            e_trans_0 = get_eTrans_With_Perm(sent=line,fn=fn, perm=perm) # need to include features
+        for idx, line in enumerate(lines):
+            #print(line)
+            e_trans_0 = get_eTrans_With_Perm(sent=line,feats=f_lines[idx],fn=fn, perm=perm) # need to include features
             grid_0 = grid_0 + e_trans_0  + " " + "0 "* w_size
             #print(e_trans_0)
         
+        #print(grid_0)
         vocab_idmap = {}
         for i in range(len(vocab_list)):
             vocab_idmap[vocab_list[i]] = i
