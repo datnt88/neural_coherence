@@ -48,7 +48,7 @@ def insert(filename="", k = 0, w_size=3, maxlen=maxlen, vocab_list=vocab, fn=fn)
     lines = [line.rstrip('\n') for line in open(filename)]
     doc_size = data_helper.find_len(sent=lines[1])
 
-    X_1 =  data_helper.load_POS_EGrid(filename=filename,w_size=w_size,vocab_list=vocab, fn=fn ):
+    X_1 =  data_helper.load_POS_EGrid(filename=filename,w_size=w_size,vocab_list=vocab, fn=fn )
     
     
     #the lowest coherence score of a document
