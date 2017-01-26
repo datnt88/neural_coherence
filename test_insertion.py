@@ -40,7 +40,7 @@ fn = [3,8]    #fn = range(0,10) #using feature
     
 print('Loading vocab of the whole dataset...')
 vocab = data_helper.load_all(filelist= "final_data/list.all.0001.docs",fn=fn)
-print(vocab)
+#print(vocab)
 
 
 #find the maximum coherence score when inserting the sentence at position k
@@ -48,7 +48,7 @@ def insert(filename="", k = 0, w_size=3, maxlen=maxlen, vocab_list=vocab, fn=fn)
     lines = [line.rstrip('\n') for line in open(filename)]
     doc_size = data_helper.find_len(sent=lines[1])
 
-    X_1 =  data_helper.load_POS_EGrid(filename=filename,w_size=w_size,vocab_list=vocab, fn=fn )
+    X_1 =  data_helper.load_POS_EGrid(filename=filename, w_size=w_size, vocab_list=vocab, fn=fn )
     
     
     #the lowest coherence score of a document
@@ -94,7 +94,7 @@ totalIns = 0
 docAvgPerf = 0.0
 
 #main function here
-list_of_files = [line.rstrip('\n') for line in open("final_data/list.test.0001.docs.final")
+list_of_files = [line.rstrip('\n') for line in open("final_data/list.test.docs.final")]
 totalPerf = 0
 for file in list_of_files:
     # process each test document
