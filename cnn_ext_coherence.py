@@ -6,7 +6,7 @@ from keras.preprocessing import sequence
 from keras.callbacks import ModelCheckpoint
 
 import numpy as np
-import data_helper02
+import data_helper
 from keras.utils import np_utils
 from keras import backend as K
 
@@ -47,6 +47,7 @@ if __name__ == '__main__':
     parser.add_option("-l", "--loss",               dest="loss", help="loss type (hinge, squared_hinge, binary_crossentropy) [default: %default]")
     parser.add_option("-n", "--epochs",             dest="epochs", type="int", help="nb of epochs [default: %default]")
     parser.add_option("-P", "--permutation",        dest="p_num", type="int", help="nb of permutation[default: %default]")
+    parser.add_option("-F", "--feats",        dest="f_list", help="semantic features using in the model, separate by . [default: %default]") 
 
     parser.set_defaults(
 
@@ -67,25 +68,31 @@ if __name__ == '__main__':
         ,w_size         = 6 
         ,pool_length    = 6 
         ,p_num          = 20
+        ,f_list         = ""
     )
 
     opts,args = parser.parse_args(sys.argv)
-
+    #print(opts.f_list)
+    fn = []
+    if opts.f_list !="":  #stupid arge parsing, do it latter
+        for i in opts.f_list.split("."):
+            fn.append(int(i))
+    else:
+        fn = None
     
-
     print('Loading vocab of the whole dataset...')
-    fn = range(0,10) #using feature
-    vocab = data_helper02.load_all(filelist= opts.data_dir + "list.all.0001.docs",fn=fn)
 
+    #fn = range(0,10) #using feature
+    vocab = data_helper.load_all(filelist= opts.data_dir + "list.all.0001.docs",fn=fn)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir +"list.train.0001.docs", 
+    X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.train" , #"list.train.0001.docs", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.dev.0001.docs", 
+    X_dev_1, X_dev_0, E    = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.dev", #list.dev.0001.docs", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0, E    = data_helper02.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.test", #list.test.docs.final", 
+    X_test_1, X_test_0, E    = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.test", #list.test.docs.final", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)
@@ -159,16 +166,13 @@ if __name__ == '__main__':
     histories = my_callbacks.Histories()
 
     print(shared_cnn.summary())
-    print(final_model.summary())
+    #print(final_model.summary())
 
     print("------------------------------------------------")	
-    #writing the feature
-    f_ = ""
-    for f in fn:
-        f_ =f_ + "." + str(f)
-
+    
+    
     model_name = opts.model_dir + "Ext_CNN." + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
-    + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + f_  
+    + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + opts.f_list  
     print("Model name: " + model_name)
 
     print("Training model...")
@@ -211,9 +215,10 @@ if __name__ == '__main__':
 
         #stop the model whch patience = 8
         if patience > 5:
-            print("Model reachs the best performance on Dev set: " + str(curAcc) + " after: " + str(ep) + "epochs")
+            print("Early stopping at epoch: "+ str(ep))
             break
 
+    print("Model reachs the best performance on Dev set: " + str(bestAcc))
     print("Finish training and testing...")
     #print(histories.losses)
     #print(histories.accs)

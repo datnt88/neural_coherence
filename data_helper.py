@@ -40,7 +40,7 @@ def get_eTrans(sent=""):
     return ' '.join(x)
 
 #get entity transition from a row of Entity Grid
-def get_eTrans_with_Feats(sent="",feats="",fn=range(1,10)):
+def get_eTrans_with_Feats(sent="",feats="",fn=None):
     x = sent.split()
     
     length = len(x)
@@ -52,6 +52,9 @@ def get_eTrans_with_Feats(sent="",feats="",fn=range(1,10)):
         if e_occur < 2:
             return ""
     
+    if fn==None: #coherence model without features
+        x = x[1:]
+        return ' '.join(x)     
 
     f = feats.split()
     #print(x[0] + " -- " + f[0])
@@ -146,7 +149,7 @@ def load_NEG_EGrid(filename="", w_size=3, maxlen=1000, perm=[]):
         print("no permuted list")
         return ""
 
-def load_all(filelist="list_of_grid.txt",fn=range(1,10)):
+def load_all(filelist="list_of_grid.txt",fn=None):
 
     list_of_files = [line.rstrip('\n') for line in open(filelist)]
     print("Using features: " + str(fn))
@@ -175,7 +178,7 @@ def load_all(filelist="list_of_grid.txt",fn=range(1,10)):
     return vocab_list
 
 #loading grid with features
-def load_and_numberize_Egrid_with_Feats(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=range(1,10)):
+def load_and_numberize_Egrid_with_Feats(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
     # loading entiry-grid data from list of pos document and list of neg document
     if vocab_list is None:
         print("Please input vocab list")
