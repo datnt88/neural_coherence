@@ -48,7 +48,7 @@ def insert(filename="", k = 0, w_size=3, maxlen=14000, vocab_list=None, fn=None)
     lines = [line.rstrip('\n') for line in open(filename)]
     doc_size = data_helper.find_len(sent=lines[1])
 
-    X_1 =  data_helper.load_POS_EGrid(filename=filename, w_size=w_size, vocab_list=vocab_list, fn=fn )
+    X_1 =  data_helper.load_POS_EGrid(filename=filename, w_size=w_size, maxlen=maxlen , vocab_list=vocab_list, fn=fn )
     
     
     #the lowest coherence score of a document
@@ -63,7 +63,7 @@ def insert(filename="", k = 0, w_size=3, maxlen=14000, vocab_list=None, fn=None)
 
     for pos in range(0,doc_size):
         #compute coherence score for permuated         
-        X_0 =  data_helper.load_NEG_EGrid(filename=filename, w_size=w_size ,vocab_list=vocab_list, fn=fn, perm=perm)
+        X_0 =  data_helper.load_NEG_EGrid(filename=filename, w_size=w_size , maxlen=maxlen , vocab_list=vocab_list, fn=fn, perm=perm)
         
         y_pred = final_model.predict([X_1, X_0])
         score_pos = y_pred[0][0]
