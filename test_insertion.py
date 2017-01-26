@@ -39,7 +39,7 @@ fn = [3,8]    #fn = range(0,10) #using feature
 
     
 print('Loading vocab of the whole dataset...')
-vocab = data_helper.load_all(filelist= "final_data/test.test",fn=fn)
+vocab = data_helper.load_all(filelist= "final_data/list.all.0001.docs",fn=fn)
 print(vocab)
 
 
@@ -94,11 +94,11 @@ totalIns = 0
 docAvgPerf = 0.0
 
 #main function here
-list_of_files = [line.rstrip('\n') for line in open(sys.argv[1])]
+list_of_files = [line.rstrip('\n') for line in open("final_data/list.test.0001.docs.final")
 totalPerf = 0
 for file in list_of_files:
     # process each test document
-    doc_size = data_helper02.find_doc_size(file);
+    doc_size = data_helper.find_doc_size(file);
     print("------------------------------------------------------------")    
     print(str(file))    
     
