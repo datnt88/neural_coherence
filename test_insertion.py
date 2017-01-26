@@ -7,7 +7,6 @@ from keras.preprocessing import sequence
 from keras.callbacks import ModelCheckpoint
 
 import numpy as np
-import data_helper02
 from keras.utils import np_utils
 from keras import backend as K
 
@@ -45,11 +44,11 @@ print(vocab)
 
 
 #find the maximum coherence score when inserting the sentence at position k
-def insert(filename="", k = 0, w_size=3, maxlen=maxlen, vocab_list=vocab):
+def insert(filename="", k = 0, w_size=3, maxlen=maxlen, vocab_list=vocab, fn=fn):
     lines = [line.rstrip('\n') for line in open(filename)]
-    doc_size = data_helper02.find_len(sent=lines[1])
+    doc_size = data_helper.find_len(sent=lines[1])
 
-    X_1 =  data_helper.load_POS_EGrid(filename=filename,w_size=w_size)
+    X_1 =  data_helper.load_POS_EGrid(filename=filename,w_size=w_size,vocab_list=vocab, fn=fn ):
     
     
     #the lowest coherence score of a document
@@ -64,7 +63,7 @@ def insert(filename="", k = 0, w_size=3, maxlen=maxlen, vocab_list=vocab):
 
     for pos in range(0,doc_size):
         #compute coherence score for permuated         
-        X_0 =  data_helper.load_NEG_EGrid(filename=filename, perm=perm, w_size=w_size)
+        X_0 =  data_helper.load_NEG_EGrid(filename=filename, w_size=w_size ,vocab_list=vocab, fn=fn, perm=perm)
         
         y_pred = final_model.predict([X_1, X_0])
         score_pos = y_pred[0][0]
