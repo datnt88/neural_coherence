@@ -148,7 +148,7 @@ def load_POS_EGrid(filename="", w_size=3, maxlen=1000, vocab_list=None , fn=None
 
     return X_1
 
-def load_NEG_EGrid(filename="", w_size=3, maxlen=1000,  vocab_list=vocab_list, fn=None, perm=[]):
+def load_NEG_EGrid(filename="", w_size=3, maxlen=1000,  vocab_list=None, fn=None, perm=[]):
     #print(perm)
     if perm != None:
         lines = [line.rstrip('\n') for line in open(filename)]
