@@ -128,7 +128,7 @@ def get_eTrans_With_Perm(sent="",fn=[], perm=[]):
     return ' '.join(p_x_f)
 
 
-def load_POS_EGrid(filename="", w_size=3, maxlen=1000, vocab_list=[] , fn=None ):
+def load_POS_EGrid(filename="", w_size=3, maxlen=1000, vocab_list=None , fn=None ):
     lines = [line.rstrip('\n') for line in open(filename)]
     grid_1 = "0 "* w_size
     for line in lines:

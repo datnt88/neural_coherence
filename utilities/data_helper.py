@@ -87,7 +87,7 @@ def get_eTrans_with_Feats(sent="",feats="",fn=None):
 
 
 #get entity transition from a row of Entity Grid for insertion experiment
-def get_eTransWithPerm(sent="",perm=[]):
+def get_eTrans_With_Perm(sent="",fn=None, perm=[]):
     x = sent.split()
     x = x[1:]
     length = len(x)
@@ -103,51 +103,74 @@ def get_eTransWithPerm(sent="",perm=[]):
     for i in perm:
         p_x.append(x[i])
 
-    return ' '.join(p_x)
+    if fn==None: #coherence model without features
+       return ' '.join(p_x)
+
+    p_x_f = []
+    for sem_role in p_x: # extended coherence model without features
+        new_role = sem_role;
+        if new_role != '-':
+            for i in fn:
+                if i ==0 : #adding salience
+                    if e_occur == 1:
+                        new_role = new_role + "F01"
+                    elif e_occur == 2:
+                        new_role = new_role + "F02"
+                    elif e_occur == 3:
+                        new_role = new_role + "F03"
+                    elif e_occur >3 :
+                        new_role = new_role + "F04"
+                else:
+                    new_role = new_role + "F" + str(i) + f[i-1] # num feat = idx + 1
+  
+        p_x_f.append(new_role)
+
+    return ' '.join(p_x_f)
 
 
-def load_POS_EGrid(filename="", w_size=3, maxlen=1000):
+def load_POS_EGrid(filename="", w_size=3, maxlen=1000, vocab_list=None , fn=None ):
     lines = [line.rstrip('\n') for line in open(filename)]
     grid_1 = "0 "* w_size
     for line in lines:
         # merge the grid of positive document 
-        e_trans = get_eTrans(sent=line)
+        e_trans = get_eTrans_with_Feats(sent=line, fn=fn)
         if len(e_trans) !=0:
             grid_1 = grid_1 + e_trans + " " + "0 "* w_size
             #print(e_trans)
-    vocab_list = ['0','S','O','X','-']
+    
     vocab_idmap = {}
     for i in range(len(vocab_list)):
         vocab_idmap[vocab_list[i]] = i
 
     X_1 = numberize_sentences([grid_1], vocab_idmap)
-    X_1 = adjust_index(X_1, maxlen=maxlen, ignore=0, window_size=w_size)
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=w_size)
+    X_1 =  sequence.pad_sequences(X_1, maxlen)
 
     return X_1
 
-def load_NEG_EGrid(filename="", w_size=3, maxlen=1000, perm=[]):
+def load_NEG_EGrid(filename="", w_size=3, maxlen=1000,  vocab_list=vocab_list, fn=None, perm=[]):
     #print(perm)
     if perm != None:
         lines = [line.rstrip('\n') for line in open(filename)]
         grid_0 = "0 "* w_size
         for line in lines:
-            e_trans_0 = get_eTransWithPerm(sent=line,perm=perm)
+            e_trans_0 = get_eTrans_With_Perm(sent=line,fn=fn, perm=perm) # need to include features
             grid_0 = grid_0 + e_trans_0  + " " + "0 "* w_size
             #print(e_trans_0)
-
-        vocab_list = ['0','S','O','X','-']
+        
         vocab_idmap = {}
         for i in range(len(vocab_list)):
             vocab_idmap[vocab_list[i]] = i
 
         X_0 = numberize_sentences([grid_0], vocab_idmap)
-        X_0 = adjust_index(X_0, maxlen=maxlen, ignore=0, window_size=w_size)
+        X_0 = adjust_index(X_0, maxlen=maxlen, window_size=w_size)
+        X_0 = sequence.pad_sequences(X_0, maxlen)
 
         return X_0
 
     else:
         print("no permuted list")
-        return ""
+        return None
 
 def load_all(filelist="list_of_grid.txt",fn=None):
 
@@ -172,8 +195,6 @@ def load_all(filelist="list_of_grid.txt",fn=None):
     vocab_list = sorted (vocab.keys())
     vocab_list.append('0')
     print "Total vocabulary size in the whole dataset: " + str (len(vocab))        
-
-    print(vocab_list)
 
     return vocab_list
 
