@@ -27,7 +27,7 @@ def ranking_loss(y_true, y_pred):
 w_size = 6
 maxlen=10676
 # loading our cohernce model
-saved_model = "./saved_models/cnn-egrid-epoch-4.h5"
+saved_model = sys.argv[1]
 final_model = load_model(saved_model)
 
 
@@ -36,8 +36,8 @@ def insert(filename="",k = 0,w_size=3,maxlen=maxlen):
     lines = [line.rstrip('\n') for line in open(filename)]
     doc_size = data_helper02.find_len(sent=lines[1])
 
-    X_1 =  data_helper02.load_POS_EGrid(filename=filename,w_size=w_size)
-    X_1 = sequence.pad_sequences(X_1, maxlen)
+    X_1 =  data_helper.load_POS_EGrid(filename=filename,w_size=w_size)
+    X_1 =  sequence.pad_sequences(X_1, maxlen)
     
     #the lowest coherence score of a document
     bestScore = -999999.999999
@@ -51,7 +51,7 @@ def insert(filename="",k = 0,w_size=3,maxlen=maxlen):
 
     for pos in range(0,doc_size):
         #compute coherence score for permuated         
-        X_0 =  data_helper02.load_NEG_EGrid(filename=filename, perm=perm, w_size=w_size)
+        X_0 =  data_helper.load_NEG_EGrid(filename=filename, perm=perm, w_size=w_size)
         X_0 = sequence.pad_sequences(X_0, maxlen)
         
         y_pred = final_model.predict([X_1, X_0])

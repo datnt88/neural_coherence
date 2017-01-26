@@ -7,13 +7,14 @@ from keras.preprocessing import sequence
 from keras.callbacks import ModelCheckpoint
 
 import numpy as np
-import data_helper02
 from keras.utils import np_utils
 from keras import backend as K
 
 from utilities import data_helper
 from utilities import my_callbacks
 
+
+import sys
 
 def ranking_loss(y_true, y_pred):
     pos = y_pred[:,0]
@@ -31,12 +32,11 @@ fn = []    #fn = range(0,10) #using feature
 
     
 print('Loading vocab of the whole dataset...')
-vocab = data_helper.load_all(filelist= opts.data_dir + "list.all.0001.docs",fn=fn)
+vocab = data_helper.load_all(filelist= "final_data/list.all.0001.docs",fn=fn)
 print(vocab)
 
 X_test_1, X_test_0, E = data_helper.load_and_numberize_Egrid_with_Feats(filelist="final_data/list.test.docs.final", 
             perm_num = p_num, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size, fn=fn)
-
 
 num_test = len(X_test_1)
 y_test_1 = [1] * num_test
