@@ -171,7 +171,7 @@ if __name__ == '__main__':
     print("------------------------------------------------")	
     
     #writing model name
-    if len(fn) > 0:
+    if opts.f_list != "":
         ff = opts.f_list
     else:
         ff = "None"
