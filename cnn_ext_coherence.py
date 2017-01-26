@@ -86,13 +86,13 @@ if __name__ == '__main__':
     vocab = data_helper.load_all(filelist= opts.data_dir + "list.all.0001.docs",fn=fn)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.train" , #"list.train.0001.docs", 
+    X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.train.docs", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0, E    = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.dev", #list.dev.0001.docs", 
+    X_dev_1, X_dev_0, E    = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.dev.docs", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0, E    = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "test.test", #list.test.docs.final", 
+    X_test_1, X_test_0, E    = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.test.docs.final", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)
@@ -172,7 +172,7 @@ if __name__ == '__main__':
     
     #writing model name
     if len(fn) > 0:
-        ff = f_list
+        ff = opts.f_list
     else:
         ff = "None"
 
