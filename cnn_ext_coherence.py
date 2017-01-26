@@ -1,17 +1,17 @@
 from __future__ import division
+
 from keras.layers import AveragePooling1D, Flatten, Input, Embedding, LSTM, Dense, merge, Convolution1D, MaxPooling1D, Dropout
 from keras.models import Model
 from keras import objectives
 from keras.preprocessing import sequence
 from keras.callbacks import ModelCheckpoint
-
-import numpy as np
-import data_helper
 from keras.utils import np_utils
 from keras import backend as K
 
-import my_callbacks
 
+import numpy as np
+from utilities import my_callbacks
+from utilities import data_helper
 import optparse
 import sys
 

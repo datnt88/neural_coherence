@@ -38,11 +38,10 @@ for ratio in ${dr_ratios[@]}; do
 					for maxlen in ${max_lengths[@]}; do
 						for emb_size in ${emb_sizes[@]}; do
 
-							echo "INFORMATION: dropout_ratio=$ratio filter-nb=$nb_filter w_size=$w_size pool_len=$pool_len \
-							minibatch-size=$mb maxlen=$maxlen emb_size=$emb_size feats=$feat">> $log;
+							echo "INFORMATION: dropout_ratio=$ratio filter-nb=$nb_filter w_size=$w_size pool_len=$pool_len batch-size=$mb maxlen=$maxlen emb_size=$emb_size feats=$feat">> $log;
 							echo "----------------------------------------------------------------------" >> $log;
 
-							THEANO_FLAGS=device=gpu$1,floatX=float32 python $CNN_SCR --data-dir=$data --model-dir=$MODEL_DIR \
+							THEANO_FLAGS=device=gpu,floatX=float32 python $CNN_SCR --data-dir=$data --model-dir=$MODEL_DIR \
 							--dropout_ratio=$ratio --minibatch-size=$mb --emb-size=$emb_size\
 							--nb_filter=$nb_filter --w_size=$w_size --pool_length=$pool_len\
 							--max-length=$maxlen --feats=$feat >>$log
