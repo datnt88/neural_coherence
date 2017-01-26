@@ -44,11 +44,11 @@ vocab = data_helper.load_all(filelist= "final_data/list.all.0001.docs",fn=fn)
 
 
 #find the maximum coherence score when inserting the sentence at position k
-def insert(filename="", k = 0, w_size=3, maxlen=maxlen, vocab_list=vocab, fn=fn):
+def insert(filename="", k = 0, w_size=3, maxlen=14000, vocab_list=None, fn=None):
     lines = [line.rstrip('\n') for line in open(filename)]
     doc_size = data_helper.find_len(sent=lines[1])
 
-    X_1 =  data_helper.load_POS_EGrid(filename=filename, w_size=w_size, vocab_list=vocab, fn=fn )
+    X_1 =  data_helper.load_POS_EGrid(filename=filename, w_size=w_size, vocab_list=vocab_list, fn=fn )
     
     
     #the lowest coherence score of a document
@@ -63,7 +63,7 @@ def insert(filename="", k = 0, w_size=3, maxlen=maxlen, vocab_list=vocab, fn=fn)
 
     for pos in range(0,doc_size):
         #compute coherence score for permuated         
-        X_0 =  data_helper.load_NEG_EGrid(filename=filename, w_size=w_size ,vocab_list=vocab, fn=fn, perm=perm)
+        X_0 =  data_helper.load_NEG_EGrid(filename=filename, w_size=w_size ,vocab_list=vocab_list, fn=fn, perm=perm)
         
         y_pred = final_model.predict([X_1, X_0])
         score_pos = y_pred[0][0]
@@ -105,7 +105,8 @@ for file in list_of_files:
     perfects = 0;
     for k in range(0, doc_size):
         print ("Insert sent " + str(k) + "...")
-        bestPos = insert(file, k, w_size=w_size, maxlen=maxlen)
+        bestPos = insert(file, k, w_size=w_size, maxlen=maxlen,vocab_list=vocab, fn=fn)
+
         print ("==> Having best coherrent positions: " + str(bestPos))
         if k in bestPos:
             perfects = perfects + 1
