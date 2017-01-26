@@ -169,7 +169,8 @@ def load_NEG_EGrid(filename="", w_size=3, maxlen=1000,  vocab_list=None, fn=None
         for idx, line in enumerate(lines):
             #print(line)
             e_trans_0 = get_eTrans_With_Perm(sent=line,feats=f_lines[idx],fn=fn, perm=perm) # need to include features
-            grid_0 = grid_0 + e_trans_0  + " " + "0 "* w_size
+            if len(e_trans_0) !=0:
+                grid_0 = grid_0 + e_trans_0  + " " + "0 "* w_size
             #print(e_trans_0)
         
         #print(grid_0)

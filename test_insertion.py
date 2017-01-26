@@ -32,7 +32,7 @@ final_model = load_model(saved_model)
 
 #parameter for data_helper
 p_num = 20
-w_size = 6
+w_size = 5
 maxlen=14000
 emb_size = 100
 fn = [0,3,4]    #fn = range(0,10) #using feature
@@ -65,7 +65,7 @@ def insert(filename="", k = 0, w_size=3, maxlen=14000, vocab_list=None, fn=None)
     for pos in range(0,doc_size):
         #compute coherence score for permuated         
         X_0 =  data_helper.load_NEG_EGrid(filename=filename, w_size=w_size , maxlen=maxlen , vocab_list=vocab_list, fn=fn, perm=perm)
-        print(perm)
+        #print(perm)
         y_pred = final_model.predict([X_1, X_0])
         score_pos = y_pred[0][0]
         score_neg= y_pred[0][1]
@@ -95,7 +95,7 @@ totalIns = 0
 docAvgPerf = 0.0
 
 #main function here
-list_of_files = [line.rstrip('\n') for line in open("final_data/list.test.docs.final")]
+list_of_files = [line.rstrip('\n') for line in open("final_data/test.test")]
 totalPerf = 0
 for file in list_of_files:
     # process each test document
