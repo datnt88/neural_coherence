@@ -170,9 +170,14 @@ if __name__ == '__main__':
 
     print("------------------------------------------------")	
     
-    
+    #writing model name
+    if len(fn) > 0:
+        ff = f_list
+    else:
+        ff = "None"
+
     model_name = opts.model_dir + "Ext_CNN." + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
-    + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + opts.f_list  
+    + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + ff  
     print("Model name: " + model_name)
 
     print("Training model...")
