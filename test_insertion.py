@@ -11,7 +11,9 @@ import data_helper02
 from keras.utils import np_utils
 from keras import backend as K
 
-import my_callbacks
+from utilities import data_helper
+from utilities import my_callbacks
+
 import sys
 
 
