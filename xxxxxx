@@ -1,433 +1,0 @@
-Training...!
-INFORMATION: dropout_ratio=0.5 filter-nb=150 w_size=6 pool_len=6 batch-size=32 maxlen=200 emb_size=100 feats=0
-----------------------------------------------------------------------
-Loading vocab of the whole dataset...
-Using features: [0]
-Total vocabulary size in the whole dataset: 13
-['-', 'OF01', 'OF02', 'OF03', 'OF04', 'SF01', 'SF02', 'SF03', 'SF04', 'XF01', 'XF02', 'XF03', 'XF04', '0']
-loading entity-gird for pos and neg documents...
-.....................................
-Num of traing pairs: 59
-Num of dev pairs: 39
-Num of test pairs: 19
-Num of permutation in train: 20
-The maximum in length for CNN: 200
-.....................................
-____________________________________________________________________________________________________
-Layer (type)                     Output Shape          Param #     Connected to                     
-====================================================================================================
-sent_input (InputLayer)          (None, 200)           0                                            
-____________________________________________________________________________________________________
-embedding_1 (Embedding)          (None, 200, 100)      1400        sent_input[0][0]                 
-____________________________________________________________________________________________________
-convolution1d_1 (Convolution1D)  (None, 195, 150)      90150       embedding_1[0][0]                
-____________________________________________________________________________________________________
-maxpooling1d_1 (MaxPooling1D)    (None, 32, 150)       0           convolution1d_1[0][0]            
-____________________________________________________________________________________________________
-dropout_1 (Dropout)              (None, 32, 150)       0           maxpooling1d_1[0][0]             
-____________________________________________________________________________________________________
-flatten_1 (Flatten)              (None, 4800)          0           dropout_1[0][0]                  
-____________________________________________________________________________________________________
-dropout_2 (Dropout)              (None, 4800)          0           flatten_1[0][0]                  
-____________________________________________________________________________________________________
-dense_1 (Dense)                  (None, 1)             4801        dropout_2[0][0]                  
-====================================================================================================
-Total params: 96,351
-Trainable params: 96,351
-Non-trainable params: 0
-____________________________________________________________________________________________________
-None
-------------------------------------------------
-Model name: saved_models/Ext_CNN.20_0.5_100_200_6_150_6_32_F0
-Training model...
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.9995
- -Dev Wins: 11 Ties: 0
- -Dev acc: 0.282051282051
-59/59 [==============================] - 1s - loss: 0.9958 - val_loss: 1.0008
-Perform on test set after Epoch: 1...!
- -Wins: 8 Ties: 0
- -Test acc: 0.421052631579
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.9978
- -Dev Wins: 17 Ties: 0
- -Dev acc: 0.435897435897
-59/59 [==============================] - 0s - loss: 0.9870 - val_loss: 1.0013
-Perform on test set after Epoch: 2...!
- -Wins: 16 Ties: 0
- -Test acc: 0.842105263158
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.9759
- -Dev Wins: 16 Ties: 0
- -Dev acc: 0.410256410256
-59/59 [==============================] - 0s - loss: 0.9608 - val_loss: 1.0009
-Perform on test set after Epoch: 3...!
- -Wins: 12 Ties: 0
- -Test acc: 0.631578947368
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.9237
- -Dev Wins: 15 Ties: 0
- -Dev acc: 0.384615384615
-59/59 [==============================] - 0s - loss: 0.9280 - val_loss: 1.0069
-Perform on test set after Epoch: 4...!
- -Wins: 12 Ties: 0
- -Test acc: 0.631578947368
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.8791
- -Dev Wins: 17 Ties: 0
- -Dev acc: 0.435897435897
-59/59 [==============================] - 0s - loss: 0.8732 - val_loss: 1.0109
-Perform on test set after Epoch: 5...!
- -Wins: 12 Ties: 0
- -Test acc: 0.631578947368
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.7940
- -Dev Wins: 18 Ties: 0
- -Dev acc: 0.461538461538
-59/59 [==============================] - 0s - loss: 0.7781 - val_loss: 1.0060
-Perform on test set after Epoch: 6...!
- -Wins: 12 Ties: 0
- -Test acc: 0.631578947368
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.6193
- -Dev Wins: 14 Ties: 0
- -Dev acc: 0.358974358974
-59/59 [==============================] - 0s - loss: 0.6444 - val_loss: 1.0240
-Perform on test set after Epoch: 7...!
- -Wins: 16 Ties: 0
- -Test acc: 0.842105263158
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.5493
- -Dev Wins: 15 Ties: 0
- -Dev acc: 0.384615384615
-59/59 [==============================] - 0s - loss: 0.4811 - val_loss: 1.0233
-Perform on test set after Epoch: 8...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.3570
- -Dev Wins: 13 Ties: 0
- -Dev acc: 0.333333333333
-59/59 [==============================] - 0s - loss: 0.3267 - val_loss: 1.0336
-Perform on test set after Epoch: 9...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.1955
- -Dev Wins: 14 Ties: 0
- -Dev acc: 0.358974358974
-59/59 [==============================] - 0s - loss: 0.1936 - val_loss: 1.0405
-Perform on test set after Epoch: 10...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.1248
- -Dev Wins: 14 Ties: 0
- -Dev acc: 0.358974358974
-59/59 [==============================] - 0s - loss: 0.1406 - val_loss: 1.0469
-Perform on test set after Epoch: 11...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.1028
- -Dev Wins: 13 Ties: 0
- -Dev acc: 0.333333333333
-59/59 [==============================] - 0s - loss: 0.0720 - val_loss: 1.0511
-Perform on test set after Epoch: 12...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Early stopping at epoch: 12
-Model reachs the best performance on Dev set: 0.461538461538
-Finish training and testing...
-----------------------------------------------------------------------
-INFORMATION: dropout_ratio=0.5 filter-nb=150 w_size=6 pool_len=6 batch-size=32 maxlen=200 emb_size=100 feats=0.1
-----------------------------------------------------------------------
-Loading vocab of the whole dataset...
-Using features: [0, 1]
-Total vocabulary size in the whole dataset: 25
-['-', 'OF01F10', 'OF01F11', 'OF02F10', 'OF02F11', 'OF03F10', 'OF03F11', 'OF04F10', 'OF04F11', 'SF01F10', 'SF01F11', 'SF02F10', 'SF02F11', 'SF03F10', 'SF03F11', 'SF04F10', 'SF04F11', 'XF01F10', 'XF01F11', 'XF02F10', 'XF02F11', 'XF03F10', 'XF03F11', 'XF04F10', 'XF04F11', '0']
-loading entity-gird for pos and neg documents...
-.....................................
-Num of traing pairs: 59
-Num of dev pairs: 39
-Num of test pairs: 19
-Num of permutation in train: 20
-The maximum in length for CNN: 200
-.....................................
-____________________________________________________________________________________________________
-Layer (type)                     Output Shape          Param #     Connected to                     
-====================================================================================================
-sent_input (InputLayer)          (None, 200)           0                                            
-____________________________________________________________________________________________________
-embedding_1 (Embedding)          (None, 200, 100)      2600        sent_input[0][0]                 
-____________________________________________________________________________________________________
-convolution1d_1 (Convolution1D)  (None, 195, 150)      90150       embedding_1[0][0]                
-____________________________________________________________________________________________________
-maxpooling1d_1 (MaxPooling1D)    (None, 32, 150)       0           convolution1d_1[0][0]            
-____________________________________________________________________________________________________
-dropout_1 (Dropout)              (None, 32, 150)       0           maxpooling1d_1[0][0]             
-____________________________________________________________________________________________________
-flatten_1 (Flatten)              (None, 4800)          0           dropout_1[0][0]                  
-____________________________________________________________________________________________________
-dropout_2 (Dropout)              (None, 4800)          0           flatten_1[0][0]                  
-____________________________________________________________________________________________________
-dense_1 (Dense)                  (None, 1)             4801        dropout_2[0][0]                  
-====================================================================================================
-Total params: 97,551
-Trainable params: 97,551
-Non-trainable params: 0
-____________________________________________________________________________________________________
-None
-------------------------------------------------
-Model name: saved_models/Ext_CNN.20_0.5_100_200_6_150_6_32_F0.1
-Training model...
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 1.0004
- -Dev Wins: 3 Ties: 0
- -Dev acc: 0.0769230769231
-59/59 [==============================] - 1s - loss: 0.9985 - val_loss: 1.0024
-Perform on test set after Epoch: 1...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.9972
- -Dev Wins: 0 Ties: 0
- -Dev acc: 0.0
-59/59 [==============================] - 0s - loss: 0.9961 - val_loss: 1.0051
-Perform on test set after Epoch: 2...!
- -Wins: 12 Ties: 0
- -Test acc: 0.631578947368
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.9870
- -Dev Wins: 0 Ties: 0
- -Dev acc: 0.0
-59/59 [==============================] - 0s - loss: 0.9800 - val_loss: 1.0077
-Perform on test set after Epoch: 3...!
- -Wins: 15 Ties: 0
- -Test acc: 0.789473684211
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.9476
- -Dev Wins: 1 Ties: 0
- -Dev acc: 0.025641025641
-59/59 [==============================] - 0s - loss: 0.9298 - val_loss: 1.0123
-Perform on test set after Epoch: 4...!
- -Wins: 16 Ties: 0
- -Test acc: 0.842105263158
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.9061
- -Dev Wins: 7 Ties: 0
- -Dev acc: 0.179487179487
-59/59 [==============================] - 0s - loss: 0.8952 - val_loss: 1.0137
-Perform on test set after Epoch: 5...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.8470
- -Dev Wins: 5 Ties: 0
- -Dev acc: 0.128205128205
-59/59 [==============================] - 0s - loss: 0.8171 - val_loss: 1.0185
-Perform on test set after Epoch: 6...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.8002
- -Dev Wins: 13 Ties: 0
- -Dev acc: 0.333333333333
-59/59 [==============================] - 0s - loss: 0.7384 - val_loss: 1.0187
-Perform on test set after Epoch: 7...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.5814
- -Dev Wins: 10 Ties: 0
- -Dev acc: 0.25641025641
-59/59 [==============================] - 0s - loss: 0.5031 - val_loss: 1.0289
-Perform on test set after Epoch: 8...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.4329
- -Dev Wins: 10 Ties: 0
- -Dev acc: 0.25641025641
-59/59 [==============================] - 0s - loss: 0.4140 - val_loss: 1.0353
-Perform on test set after Epoch: 9...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.3983
- -Dev Wins: 10 Ties: 0
- -Dev acc: 0.25641025641
-59/59 [==============================] - 0s - loss: 0.3170 - val_loss: 1.0424
-Perform on test set after Epoch: 10...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.1731
- -Dev Wins: 11 Ties: 0
- -Dev acc: 0.282051282051
-59/59 [==============================] - 0s - loss: 0.1712 - val_loss: 1.0447
-Perform on test set after Epoch: 11...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.1494
- -Dev Wins: 13 Ties: 0
- -Dev acc: 0.333333333333
-59/59 [==============================] - 0s - loss: 0.1588 - val_loss: 1.0488
-Perform on test set after Epoch: 12...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.1378
- -Dev Wins: 14 Ties: 0
- -Dev acc: 0.358974358974
-59/59 [==============================] - 0s - loss: 0.1365 - val_loss: 1.0451
-Perform on test set after Epoch: 13...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0861
- -Dev Wins: 13 Ties: 0
- -Dev acc: 0.333333333333
-59/59 [==============================] - 0s - loss: 0.0939 - val_loss: 1.0456
-Perform on test set after Epoch: 14...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0604
- -Dev Wins: 15 Ties: 0
- -Dev acc: 0.384615384615
-59/59 [==============================] - 0s - loss: 0.0660 - val_loss: 1.0418
-Perform on test set after Epoch: 15...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0064
- -Dev Wins: 11 Ties: 0
- -Dev acc: 0.282051282051
-59/59 [==============================] - 0s - loss: 0.0110 - val_loss: 1.0532
-Perform on test set after Epoch: 16...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0837
- -Dev Wins: 15 Ties: 0
- -Dev acc: 0.384615384615
-59/59 [==============================] - 0s - loss: 0.0565 - val_loss: 1.0509
-Perform on test set after Epoch: 17...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0284
- -Dev Wins: 12 Ties: 0
- -Dev acc: 0.307692307692
-59/59 [==============================] - 0s - loss: 0.0393 - val_loss: 1.0554
-Perform on test set after Epoch: 18...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0286
- -Dev Wins: 15 Ties: 0
- -Dev acc: 0.384615384615
-59/59 [==============================] - 0s - loss: 0.0221 - val_loss: 1.0510
-Perform on test set after Epoch: 19...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0137
- -Dev Wins: 16 Ties: 0
- -Dev acc: 0.410256410256
-59/59 [==============================] - 0s - loss: 0.0161 - val_loss: 1.0490
-Perform on test set after Epoch: 20...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0000e+00
- -Dev Wins: 15 Ties: 0
- -Dev acc: 0.384615384615
-59/59 [==============================] - 0s - loss: 0.0135 - val_loss: 1.0519
-Perform on test set after Epoch: 21...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0126
- -Dev Wins: 14 Ties: 0
- -Dev acc: 0.358974358974
-59/59 [==============================] - 0s - loss: 0.0089 - val_loss: 1.0594
-Perform on test set after Epoch: 22...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0182
- -Dev Wins: 14 Ties: 0
- -Dev acc: 0.358974358974
-59/59 [==============================] - 0s - loss: 0.0171 - val_loss: 1.0605
-Perform on test set after Epoch: 23...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0000e+00
- -Dev Wins: 15 Ties: 0
- -Dev acc: 0.384615384615
-59/59 [==============================] - 0s - loss: 0.0152 - val_loss: 1.0527
-Perform on test set after Epoch: 24...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0173
- -Dev Wins: 15 Ties: 0
- -Dev acc: 0.384615384615
-59/59 [==============================] - 0s - loss: 0.0181 - val_loss: 1.0554
-Perform on test set after Epoch: 25...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Train on 59 samples, validate on 39 samples
-Epoch 1/1
-32/59 [===============>..............] - ETA: 0s - loss: 0.0122
- -Dev Wins: 15 Ties: 0
- -Dev acc: 0.384615384615
-59/59 [==============================] - 0s - loss: 0.0099 - val_loss: 1.0546
-Perform on test set after Epoch: 26...!
- -Wins: 19 Ties: 0
- -Test acc: 1.0
-Early stopping at epoch: 26
-Model reachs the best performance on Dev set: 0.410256410256
-Finish training and testing...
-----------------------------------------------------------------------
