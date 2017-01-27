@@ -41,7 +41,6 @@ def do_stats(filelist="list_of_grid.txt"):
     dict_4 = {}
     dict_x = {}
             
-
     count_1 = 0
     count_2 = 0
     count_3 = 0

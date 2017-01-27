@@ -26,11 +26,7 @@ class Histories(keras.callbacks.Callback):
                 print("\n -Dev Wins: " + str(wins) + " Ties: "  + str(ties))
                 loss = n - (wins+ties)
                 prec = wins/(wins + loss)
-                #recall = wins/n;
-                #f1 = 2*prec*recall/(prec+recall)
-
                 print(" -Dev acc: " + str(wins/n))
-                #print(" -Dev f1 : " + str(f1))
 		self.accs.append(prec)
 
 		return
