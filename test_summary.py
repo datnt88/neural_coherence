@@ -53,14 +53,14 @@ if __name__ == '__main__':
 
         data_dir        = "./final_data/"
         ,log_file       = "log"
-        ,model_dir      = "./saved_models/"
+        ,model_dir      = "./model_4_sums/"
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
         ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 14000
+        ,maxlen         = 1400
         ,epochs         = 30
         ,emb_size       = 100
         ,hidden_size    = 250
@@ -83,16 +83,16 @@ if __name__ == '__main__':
     print('Loading vocab of the whole dataset...')
 
     #fn = range(0,10) #using feature
-    vocab = data_helper.load_all(filelist= opts.data_dir + "list.all.0001.docs",fn=fn)
+    vocab = data_helper.load_all("./final_data/duc03.list.all",fn=fn)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.train.docs", 
+    X_train_1, X_train_0, E , max_1 = data_helper.load_summary_data(filelist=opts.data_dir + "duc03.pairs.train", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0, E    = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.dev.docs", 
+    X_dev_1, X_dev_0, E, max_2   = data_helper.load_summary_data(filelist=opts.data_dir + "duc03.pairs.dev", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0, E    = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.test.docs.final", 
+    X_test_1, X_test_0, E , max_3 = data_helper.load_summary_data(filelist=opts.data_dir + "duc03.pairs.test.EXP", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)
@@ -108,7 +108,8 @@ if __name__ == '__main__':
     print("Num of dev pairs: " + str(num_dev))
     print("Num of test pairs: " + str(num_test))
     print("Num of permutation in train: " + str(opts.p_num)) 
-    print("The maximum in length for CNN: " + str(opts.maxlen))
+    print("The length for CNN: " + str(opts.maxlen))
+    print("The actual length: " + str(max_1) + "-" + str(max_2) + str(max_3)  )
     print('.....................................')
 
     # the output is always 1??????
@@ -188,7 +189,7 @@ if __name__ == '__main__':
         final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
  					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
 
-        final_model.save(model_name + "_ep." + str(ep) + ".h5")
+        #final_model.save(model_name + "_ep." + str(ep) + ".h5")
 
         curAcc =  histories.accs[0]
         if curAcc >= bestAcc:

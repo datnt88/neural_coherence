@@ -281,6 +281,80 @@ def load_and_numberize_Egrid_with_Feats(filelist="list_of_grid.txt", perm_num = 
 
     return X_1, X_0, E 
 
+#===================================================
+#loading data for summary experiment task 
+def load_summary_data(filelist="list_of_paris", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
+    # loading entiry-grid data from list of pos document and list of neg document
+    if vocab_list is None:
+        print("Please input vocab list")
+        return None
+
+    list_of_pairs = [line.rstrip('\n') for line in open(filelist)]
+    
+    # process postive gird, convert each file to be a sentence
+    sentences_1 = []
+    sentences_0 = []
+    
+    maxLEN_ = 0
+
+    for pair in list_of_pairs:
+
+        print(pair) 
+        #loading pos document
+        lines = [line.rstrip('\n') for line in open("./final_data/summary/" +  pair.split()[0] + ".parsed.ner.EGrid")]
+        f_lines = [line.rstrip('\n') for line in open("./final_data/summary/" +  pair.split()[0] + ".parsed.ner.Feats")]
+        grid_1 = "0 "* window_size
+        for idx, line in enumerate(lines):
+            e_trans = get_eTrans_with_Feats(sent=line,feats=f_lines[idx],fn=fn) # merge the grid of positive document 
+            if len(e_trans) !=0:
+                grid_1 = grid_1 + e_trans + " " + "0 "* window_size
+        
+
+        #loading neg document
+        neg_lines = [line.rstrip('\n') for line in open("./final_data/summary/" + pair.split()[1] + ".parsed.ner.EGrid")]
+        neg_f_lines = [line.rstrip('\n') for line in open("./final_data/summary/"  +pair.split()[1] + ".parsed.ner.Feats")]
+        grid_0 = "0 "* window_size
+        for idx, p_line in enumerate(neg_lines):
+                #print(p_line)
+                e_trans_0 = get_eTrans_with_Feats(sent=p_line, feats=neg_f_lines[idx],fn=fn)
+                if len(e_trans_0) !=0:
+                    grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
+
+        #find max length for the copus
+        if len(grid_1) > maxLEN_:
+            maxLEN_ = len(grid_1)
+
+        if len(grid_0) > maxLEN_:
+            maxLEN_ = len(grid_0)
+
+
+        sentences_1.append(grid_1)        
+        sentences_0.append(grid_0)
+        
+
+    assert len(sentences_0) == len(sentences_1)
+
+    vocab_idmap = {}
+    for i in range(len(vocab_list)):
+        vocab_idmap[vocab_list[i]] = i
+
+    # Numberize the sentences
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_0  = numberize_sentences(sentences_0,  vocab_idmap)
+    
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
+    X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=window_size)
+
+    X_1 = sequence.pad_sequences(X_1, maxlen)
+    X_0 = sequence.pad_sequences(X_0, maxlen)
+
+    if E is None:
+        E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocab_list), emb_size))
+        E[len(vocab_list)-1] = 0
+
+    return X_1, X_0, E, maxLEN_
+#===================================================
+
 
 #loading the grid with normal CNN
 def load_and_numberize_Egrid(filelist="list_of_grid.txt", perm_num = 3, maxlen=None, window_size=3, ignore=0):

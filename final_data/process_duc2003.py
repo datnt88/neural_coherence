@@ -26,18 +26,19 @@ pair_list = []
 
 for id in docID:
 	idxs = [i for i, x in enumerate(docs) if x == id ]
-	print(idxs)
-	#if score[idxs[4]] > score[idxs[3]]:
-	#	pair_list.append(getString(docs, clusID, score, idxs[4], idxs[3]))
+	#print(idxs)
 
-	#if score[idxs[4]] > score[idxs[2]]:
-	#	pair_list.append(getString(docs, clusID, score, idxs[4], idxs[2]))
+	if score[idxs[4]] > score[idxs[3]]:
+		pair_list.append(getString(docs, clusID, score, idxs[4], idxs[3]))
+
+	if score[idxs[4]] > score[idxs[2]]:
+		pair_list.append(getString(docs, clusID, score, idxs[4], idxs[2]))
 		
-	#if score[idxs[4]] > score[idxs[1]]:
-	#	pair_list.append(getString(docs, clusID, score, idxs[4], idxs[1]))
+	if score[idxs[4]] > score[idxs[1]]:
+		pair_list.append(getString(docs, clusID, score, idxs[4], idxs[1]))
 		
-	#if score[idxs[4]] > score[idxs[0]]:
-	#	pair_list.append(getString(docs, clusID, score, idxs[4], idxs[0]))
+	if score[idxs[4]] > score[idxs[0]]:
+		pair_list.append(getString(docs, clusID, score, idxs[4], idxs[0]))
 		
 	if score[idxs[3]] > score[idxs[2]]:
 		pair_list.append(getString(docs, clusID, score, idxs[3], idxs[2]))
