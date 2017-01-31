@@ -298,8 +298,7 @@ def load_summary_data(filelist="list_of_paris", perm_num = 20, maxlen=15000, win
     maxLEN_ = 0
 
     for pair in list_of_pairs:
-
-        print(pair) 
+        #print(pair) 
         #loading pos document
         lines = [line.rstrip('\n') for line in open("./final_data/summary/" +  pair.split()[0] + ".parsed.ner.EGrid")]
         f_lines = [line.rstrip('\n') for line in open("./final_data/summary/" +  pair.split()[0] + ".parsed.ner.Feats")]

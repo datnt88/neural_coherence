@@ -57,18 +57,18 @@ if __name__ == '__main__':
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
-        ,minibatch_size = 32
-        ,dropout_ratio  = 0.5
+        ,minibatch_size = 16
+        ,dropout_ratio  = 0.1
 
-        ,maxlen         = 1400
+        ,maxlen         = 2000
         ,epochs         = 30
-        ,emb_size       = 100
-        ,hidden_size    = 250
-        ,nb_filter      = 150
-        ,w_size         = 6 
-        ,pool_length    = 6 
+        ,emb_size       = 200
+        ,hidden_size    = 150
+        ,nb_filter      = 100
+        ,w_size         = 5
+        ,pool_length    = 3 
         ,p_num          = 20
-        ,f_list         = ""
+        ,f_list         = "0"
     )
 
     opts,args = parser.parse_args(sys.argv)
@@ -109,7 +109,7 @@ if __name__ == '__main__':
     print("Num of test pairs: " + str(num_test))
     print("Num of permutation in train: " + str(opts.p_num)) 
     print("The length for CNN: " + str(opts.maxlen))
-    print("The actual length: " + str(max_1) + "-" + str(max_2) + str(max_3)  )
+    print("The actual length: " + str(max_1) + "-" + str(max_2) + "-" + str(max_3)  )
     print('.....................................')
 
     # the output is always 1??????
@@ -166,7 +166,7 @@ if __name__ == '__main__':
     # setting callback
     histories = my_callbacks.Histories()
 
-    print(shared_cnn.summary())
+    #print(shared_cnn.summary())
     #print(final_model.summary())
 
     print("------------------------------------------------")	
@@ -192,7 +192,7 @@ if __name__ == '__main__':
         #final_model.save(model_name + "_ep." + str(ep) + ".h5")
 
         curAcc =  histories.accs[0]
-        if curAcc >= bestAcc:
+        if curAcc > bestAcc:
             bestAcc = curAcc
             patience = 0    
         else:
