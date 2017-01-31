@@ -25,10 +25,10 @@ def ranking_loss(y_true, y_pred):
 
 #parameter for data_helper
 p_num = 20
-w_size = 6
+w_size = 5
 maxlen=14000
 emb_size = 100
-fn = []    #fn = range(0,10) #using feature
+fn = [0,3,4]    #fn = range(0,10) #using feature
 
     
 print('Loading vocab of the whole dataset...')
