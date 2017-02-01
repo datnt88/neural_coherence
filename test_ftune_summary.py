@@ -176,8 +176,10 @@ if __name__ == '__main__':
     #writing model name
     if opts.f_list != "":
         ff = opts.f_list
+        m_type = "Ext_CNN."
     else:
         ff = "None"
+        m_type = "CNN."
 
     model_name = opts.model_dir + "fine-tune.Ext.CNN." + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
     + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + ff  
