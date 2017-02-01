@@ -437,7 +437,7 @@ def numberize_sentences(sentences, vocab_idmap):
             if wrd in vocab_idmap:
                 wrd_id = vocab_idmap[wrd]  
             else:
-                wrd_id = 0
+                wrd_id = len(vocab_idmap) -1
             tmp_list.append(wrd_id)
 
         sentences_id.append(tmp_list)
