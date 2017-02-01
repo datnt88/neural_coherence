@@ -1,5 +1,6 @@
 from __future__ import division
 
+from keras.models import load_model
 from keras.layers import AveragePooling1D, Flatten, Input, Embedding, LSTM, Dense, merge, Convolution1D, MaxPooling1D, Dropout
 from keras.models import Model
 from keras import objectives
@@ -65,10 +66,10 @@ if __name__ == '__main__':
         ,emb_size       = 100
         ,hidden_size    = 150
         ,nb_filter      = 150
-        ,w_size         = 3
-        ,pool_length    = 5 
+        ,w_size         = 6
+        ,pool_length    = 5
         ,p_num          = 20
-        ,f_list         = "0"
+        ,f_list         = "0.3.4"
     )
 
     opts,args = parser.parse_args(sys.argv)
@@ -83,7 +84,8 @@ if __name__ == '__main__':
     print('Loading vocab of the whole dataset...')
 
     #fn = range(0,10) #using feature
-    vocab = data_helper.load_all("./final_data/duc03.list.all",fn=fn)
+    vocab = data_helper.load_all("./final_data/list.all.0001.docs",fn=fn)
+    print(vocab)
 
     print("loading entity-gird for pos and neg documents...")
     X_train_1, X_train_0, E , max_1 = data_helper.load_summary_data(filelist=opts.data_dir + "duc03.pairs.train", 
@@ -177,9 +179,32 @@ if __name__ == '__main__':
     else:
         ff = "None"
 
-    model_name = opts.model_dir + "ext.CNN." + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
+    model_name = opts.model_dir + "fine-tune.Ext.CNN." + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
     + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + ff  
     print("Model name: " + model_name)
+
+
+
+    saved_model = sys.argv[1]
+    final_model = load_model(saved_model)
+    y_pred = final_model.predict([X_test_1, X_test_0])
+
+
+    ties = 0
+    wins = 0
+    n = len(y_pred)
+
+    for i in range(0,n):
+        if y_pred[i][0] > y_pred[i][1]:
+            wins = wins + 1
+        elif y_pred[i][0] == y_pred[i][1]:
+            ties = ties + 1
+    
+    print("\n -Pretrained -> Wins: " + str(wins) + " Ties: "  + str(ties))
+    print(" - Pretrained -> Test acc: " + str(wins/n))
+
+
+
 
     print("Training model...")
     bestAcc = 0.0

@@ -83,7 +83,7 @@ if __name__ == '__main__':
     print('Loading vocab of the whole dataset...')
 
     #fn = range(0,10) #using feature
-    vocab = data_helper.load_all(filelist= opts.data_dir + "list.all.0001.docs",fn=fn)
+    vocab = data_helper.load_all(filelist= opts.data_dir + "list.all.0001.duc03.docs",fn=fn)
 
     print("loading entity-gird for pos and neg documents...")
     X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.train.docs", 
