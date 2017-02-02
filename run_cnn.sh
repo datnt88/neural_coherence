@@ -6,7 +6,7 @@ data="./final_data/"
 
 CNN_SCR="cnn_ext_coherence.py"
 #EXP_DIR="saved_exp/"
-MODEL_DIR="saved_models/"
+MODEL_DIR="saved_4_summary/"
 
 mkdir -p $MODEL_DIR
 #mkdir -p $EXP_DIR
@@ -17,15 +17,15 @@ mb_sizes=(32) #minibatch-size
 
 ### <- set CNN settings ->
 nb_filters=(150) #no of feature map
-w_sizes=(6)
-pool_lengths=(6)
-max_lengths=(200)
+w_sizes=(3)
+pool_lengths=(3)
+max_lengths=(2000)
 emb_sizes=(100)
 
 
 
 
-log="xxxxxx"
+log="log.saved4summary"
 echo "Training...!" > $log
 
 

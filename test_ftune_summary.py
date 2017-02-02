@@ -1,5 +1,6 @@
 from __future__ import division
 
+from keras.models import load_model
 from keras.layers import AveragePooling1D, Flatten, Input, Embedding, LSTM, Dense, merge, Convolution1D, MaxPooling1D, Dropout
 from keras.models import Model
 from keras import objectives
@@ -53,22 +54,22 @@ if __name__ == '__main__':
 
         data_dir        = "./final_data/"
         ,log_file       = "log"
-        ,model_dir      = "./saved_models/"
+        ,model_dir      = "./model_4_sums/"
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
         ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 14000
+        ,maxlen         = 2000
         ,epochs         = 30
         ,emb_size       = 100
-        ,hidden_size    = 250
+        ,hidden_size    = 150
         ,nb_filter      = 150
-        ,w_size         = 6 
-        ,pool_length    = 6 
+        ,w_size         = 6
+        ,pool_length    = 5
         ,p_num          = 20
-        ,f_list         = ""
+        ,f_list         = "0.3.4"
     )
 
     opts,args = parser.parse_args(sys.argv)
@@ -83,16 +84,17 @@ if __name__ == '__main__':
     print('Loading vocab of the whole dataset...')
 
     #fn = range(0,10) #using feature
-    vocab = data_helper.load_all(filelist= opts.data_dir + "list.all.0001.duc03.docs",fn=fn)
+    vocab = data_helper.load_all("./final_data/list.all.0001.docs",fn=fn)
+    print(vocab)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.train.docs", 
+    X_train_1, X_train_0, E , max_1 = data_helper.load_summary_data(filelist=opts.data_dir + "duc03.pairs.train", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0, E    = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.dev.docs", 
+    X_dev_1, X_dev_0, E, max_2   = data_helper.load_summary_data(filelist=opts.data_dir + "duc03.pairs.dev", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0, E    = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.test.docs.final", 
+    X_test_1, X_test_0, E , max_3 = data_helper.load_summary_data(filelist=opts.data_dir + "duc03.pairs.test.EXP", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)
@@ -108,7 +110,8 @@ if __name__ == '__main__':
     print("Num of dev pairs: " + str(num_dev))
     print("Num of test pairs: " + str(num_test))
     print("Num of permutation in train: " + str(opts.p_num)) 
-    print("The maximum in length for CNN: " + str(opts.maxlen))
+    print("The length for CNN: " + str(opts.maxlen))
+    print("The actual length: " + str(max_1) + "-" + str(max_2) + "-" + str(max_3)  )
     print('.....................................')
 
     # the output is always 1??????
@@ -165,7 +168,7 @@ if __name__ == '__main__':
     # setting callback
     histories = my_callbacks.Histories()
 
-    print(shared_cnn.summary())
+    #print(shared_cnn.summary())
     #print(final_model.summary())
 
     print("------------------------------------------------")	
@@ -178,9 +181,32 @@ if __name__ == '__main__':
         ff = "None"
         m_type = "CNN."
 
-    model_name = opts.model_dir + m_type + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
+    model_name = opts.model_dir + "fine-tune.Ext.CNN." + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
     + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + ff  
     print("Model name: " + model_name)
+
+
+
+    saved_model = sys.argv[1]
+    final_model = load_model(saved_model)
+    y_pred = final_model.predict([X_test_1, X_test_0])
+
+
+    ties = 0
+    wins = 0
+    n = len(y_pred)
+
+    for i in range(0,n):
+        if y_pred[i][0] > y_pred[i][1]:
+            wins = wins + 1
+        elif y_pred[i][0] == y_pred[i][1]:
+            ties = ties + 1
+    
+    print("\n -Pretrained -> Wins: " + str(wins) + " Ties: "  + str(ties))
+    print(" - Pretrained -> Test acc: " + str(wins/n))
+
+
+
 
     print("Training model...")
     bestAcc = 0.0
@@ -193,10 +219,9 @@ if __name__ == '__main__':
         final_model.save(model_name + "_ep." + str(ep) + ".h5")
 
         curAcc =  histories.accs[0]
-        if curAcc >= bestAcc:
+        if curAcc > bestAcc:
             bestAcc = curAcc
-            patience = 0
-    
+            patience = 0    
         else:
             patience = patience + 1
 

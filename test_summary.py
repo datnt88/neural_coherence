@@ -57,16 +57,16 @@ if __name__ == '__main__':
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
-        ,minibatch_size = 16
-        ,dropout_ratio  = 0.1
+        ,minibatch_size = 32
+        ,dropout_ratio  = 0.5
 
         ,maxlen         = 2000
         ,epochs         = 30
-        ,emb_size       = 200
+        ,emb_size       = 100
         ,hidden_size    = 150
-        ,nb_filter      = 100
-        ,w_size         = 5
-        ,pool_length    = 3 
+        ,nb_filter      = 150
+        ,w_size         = 3
+        ,pool_length    = 5 
         ,p_num          = 20
         ,f_list         = "0"
     )
@@ -174,10 +174,12 @@ if __name__ == '__main__':
     #writing model name
     if opts.f_list != "":
         ff = opts.f_list
+        m_type = "Ext_CNN."
     else:
         ff = "None"
+        m_type = "CNN."
 
-    model_name = opts.model_dir + "Ext_CNN." + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
+    model_name = opts.model_dir + "ext.CNN." + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
     + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + ff  
     print("Model name: " + model_name)
 
@@ -189,7 +191,7 @@ if __name__ == '__main__':
         final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
  					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
 
-        #final_model.save(model_name + "_ep." + str(ep) + ".h5")
+        final_model.save(model_name + "_ep." + str(ep) + ".h5")
 
         curAcc =  histories.accs[0]
         if curAcc > bestAcc:
