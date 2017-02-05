@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
-        ,minibatch_size = 32
+        ,minibatch_size = 8
         ,dropout_ratio  = 0.5
 
         ,maxlen         = 2000
@@ -67,9 +67,9 @@ if __name__ == '__main__':
         ,hidden_size    = 150
         ,nb_filter      = 150
         ,w_size         = 6
-        ,pool_length    = 5
+        ,pool_length    = 6
         ,p_num          = 20
-        ,f_list         = "0.3.4"
+        ,f_list         = ""
     )
 
     opts,args = parser.parse_args(sys.argv)
@@ -84,7 +84,7 @@ if __name__ == '__main__':
     print('Loading vocab of the whole dataset...')
 
     #fn = range(0,10) #using feature
-    vocab = data_helper.load_all("./final_data/list.all.0001.docs",fn=fn)
+    vocab = data_helper.load_all("./final_data/list.all.0001.duc03.docs",fn=fn)
     print(vocab)
 
     print("loading entity-gird for pos and neg documents...")
@@ -246,9 +246,9 @@ if __name__ == '__main__':
         #print(" -Test f1 : " + str(f1))
 
         #stop the model whch patience = 8
-        if patience > 5:
-            print("Early stopping at epoch: "+ str(ep))
-            break
+        #if patience > 5:
+        #    print("Early stopping at epoch: "+ str(ep))
+        #    break
 
     print("Model reachs the best performance on Dev set: " + str(bestAcc))
     print("Finish training and testing...")

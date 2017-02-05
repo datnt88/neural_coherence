@@ -254,6 +254,8 @@ def load_and_numberize_Egrid_with_Feats(filelist="list_of_grid.txt", perm_num = 
             if grid_0 != grid_1: #check the duplication
                 p_count = p_count + 1
                 sentences_0.append(grid_0)
+            #else:
+            #    print(file+ ".EGrid" +"-"+str(i)) // print duplicates permuted docs with original
         
         for i in range (0, p_count): #stupid code
             sentences_1.append(grid_1)
@@ -437,7 +439,7 @@ def numberize_sentences(sentences, vocab_idmap):
             if wrd in vocab_idmap:
                 wrd_id = vocab_idmap[wrd]  
             else:
-                wrd_id = len(vocab_idmap) -1
+                wrd_id = 0
             tmp_list.append(wrd_id)
 
         sentences_id.append(tmp_list)

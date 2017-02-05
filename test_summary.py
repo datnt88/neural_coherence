@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
-        ,minibatch_size = 32
+        ,minibatch_size = 8
         ,dropout_ratio  = 0.5
 
         ,maxlen         = 2000
@@ -65,8 +65,8 @@ if __name__ == '__main__':
         ,emb_size       = 100
         ,hidden_size    = 150
         ,nb_filter      = 150
-        ,w_size         = 3
-        ,pool_length    = 5 
+        ,w_size         = 5
+        ,pool_length    = 6 
         ,p_num          = 20
         ,f_list         = "0"
     )
