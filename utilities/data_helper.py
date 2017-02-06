@@ -45,7 +45,7 @@ def get_eTrans_with_Feats(sent="",feats="",fn=None):
     x = sent.split()
     
     length = len(x)
-    e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of entities
+    e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
     if length > 80:
         if e_occur < 3:
             return ""

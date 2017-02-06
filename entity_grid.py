@@ -1,6 +1,7 @@
 from __future__ import absolute_import
 from __future__ import division
 
+import pickle
 from six.moves import cPickle
 import gzip
 import random
@@ -12,7 +13,9 @@ import itertools
 import collections
 
 from sklearn import svm, linear_model
-
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import classification_report
+from sklearn.svm import SVC
 
 def get_transition(line="", w_size=2):
 	x = line.split()
@@ -129,7 +132,7 @@ def loading_data(filelist="", perm_num=20, w_size=2):
 
 print("----------------------------------------------------")
 print("Loading training data...!")
-X_train_1, X_train_0 = loading_data(filelist="final_data/list.train.0001.docs")
+X_train_1, X_train_0 = loading_data(filelist="final_data/list.train_dev.0001.docs")
 n_sample = len(X_train_1)
 print("Number of train: " + str(n_sample))
 np.random.seed(113)
@@ -160,16 +163,34 @@ np.random.shuffle(yp)
 
 
 print("Start to traing the model...!")
-clf = svm.SVC(kernel='linear', C=.1)
-clf.fit(Xp, yp)
+tuned_parameters = [{'kernel': ['rbf'], 'gamma': [1e-3, 1e-4],
+                     'C': [1, 10, 100]},
+                    {'kernel': ['linear'], 'C': [0.1, 1, 10, 100], 'gamma': [1e-3, 1e-4]}]
 
-pickle.dump(clf, open( "clf.p", "wb" ))
+#tuned_parameters = [{'kernel': ['rbf'], 'gamma': [1e-3, 1e-4],
+#                     'C': [1]},
+#                    {'kernel': ['linear'], 'C': [0.1, 1], 'gamma': [1e-4]}]
 
-print("Training done...!")
+
+
+clf = GridSearchCV(SVC(C=1), tuned_parameters, cv=10, scoring='precision_macro')
+clf.fit(Xp, yp) 
+
+print("Best parameters set found on development set:")
+print(clf.best_params_)
+print("\n")
+print("Grid scores on development set:")
+means = clf.cv_results_['mean_test_score']
+stds = clf.cv_results_['std_test_score']
+for mean, std, params in zip(means, stds, clf.cv_results_['params']):
+	print(" --> %0.3f (+/-%0.03f) for %r" % (mean, std * 2, params))
+	
+
+#pickle.dump(clf, open( "clf_c1.p", "wb" ))
+print("Training with gridSearch done...!")
 
 print("Loading test data...!")
-
-X_test_1, X_test_0 = loading_data(filelist="final_data/test.test")
+X_test_1, X_test_0 = loading_data(filelist="final_data/list.test.docs.final")
 n_test = len(X_test_1)
 print("Number of test: " + str(n_test))
 Xp_test = []
@@ -182,8 +203,18 @@ assert len(Xp_test) == n_test
 y_predict = clf.predict(Xp_test)
 y_predict = list(y_predict)
 
-print(' - Wins: ' +  str(y_predict.count(1)))
-print(' - Loss: ' +  str(y_predict.count(0)))
+total = 20411 
+wins = y_predict.count(1)
+loss = y_predict.count(0)
+ties = total - n_test
+
+
+print(' - Wins: ' +  str(wins))
+print(' - Loss: ' +  str(loss))
+print(' - Ties: ' +  str(ties))
+
+print(' - Accuracy: ' +  str(wins/total))
+
 
 #print(len(X_test_1))
 
