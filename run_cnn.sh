@@ -6,7 +6,7 @@ data="./final_data/"
 
 CNN_SCR="cnn_ext_coherence.py"
 #EXP_DIR="saved_exp/"
-MODEL_DIR="saved_4_summary/"
+MODEL_DIR="saved_4_w3c/"
 
 mkdir -p $MODEL_DIR
 #mkdir -p $EXP_DIR
@@ -17,15 +17,15 @@ mb_sizes=(32) #minibatch-size
 
 ### <- set CNN settings ->
 nb_filters=(150) #no of feature map
-w_sizes=(3)
-pool_lengths=(3)
-max_lengths=(2000)
+w_sizes=(5)
+pool_lengths=(6)
+max_lengths=(14000)
 emb_sizes=(100)
 
 
 
 
-log="log.saved4summary"
+log="log.w3c"
 echo "Training...!" > $log
 
 
@@ -42,7 +42,7 @@ for ratio in ${dr_ratios[@]}; do
 							echo "INFORMATION: dropout_ratio=$ratio filter-nb=$nb_filter w_size=$w_size pool_len=$pool_len batch-size=$mb maxlen=$maxlen emb_size=$emb_size feats=$feat">> $log;
 							echo "----------------------------------------------------------------------" >> $log;
 
-							THEANO_FLAGS=device=gpu,floatX=float32 python $CNN_SCR --data-dir=$data --model-dir=$MODEL_DIR \
+							THEANO_FLAGS=device=gpu2,floatX=float32 python $CNN_SCR --data-dir=$data --model-dir=$MODEL_DIR \
 							--dropout_ratio=$ratio --minibatch-size=$mb --emb-size=$emb_size\
 							--nb_filter=$nb_filter --w_size=$w_size --pool_length=$pool_len\
 							--max-length=$maxlen  >>$log
