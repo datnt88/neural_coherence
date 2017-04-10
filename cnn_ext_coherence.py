@@ -83,16 +83,16 @@ if __name__ == '__main__':
     print('Loading vocab of the whole dataset...')
 
     #fn = range(0,10) #using feature
-    vocab = data_helper.load_all(filelist= opts.data_dir + "list.all.0001.duc03.docs",fn=fn)
+    vocab = data_helper.load_all(filelist="dataset/list.w3c",fn=fn)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.train.docs", 
+    X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid_with_Feats("dataset/list.train", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0, E    = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.dev.docs", 
+    X_dev_1, X_dev_0, E    = data_helper.load_and_numberize_Egrid_with_Feats("dataset/list.dev", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0, E    = data_helper.load_and_numberize_Egrid_with_Feats(filelist=opts.data_dir + "list.test.docs.final", 
+    X_test_1, X_test_0, E    = data_helper.load_and_numberize_Egrid_with_Feats("dataset/list.test", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)
