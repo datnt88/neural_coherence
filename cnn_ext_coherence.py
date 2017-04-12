@@ -83,16 +83,16 @@ if __name__ == '__main__':
     print('Loading vocab of the whole dataset...')
 
     #fn = range(0,10) #using feature
-    vocab = data_helper.load_all(filelist="dataset/list.w3c",fn=fn)
+    vocab = data_helper.load_all(filelist="dataset/CNET/list.cnet",fn=fn)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid_with_Feats("dataset/list.train", 
+    X_train_1, X_train_0, E = data_helper.load_and_numberize_Egrid_with_Feats("dataset/CNET/list.cnet.train", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0, E    = data_helper.load_and_numberize_Egrid_with_Feats("dataset/list.dev", 
+    X_dev_1, X_dev_0, E    = data_helper.load_and_numberize_Egrid_with_Feats("dataset/CNET/list.cnet.dev", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0, E    = data_helper.load_and_numberize_Egrid_with_Feats("dataset/list.test", 
+    X_test_1, X_test_0, E    = data_helper.load_and_numberize_Egrid_with_Feats("dataset/CNET/list.cnet.test", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)

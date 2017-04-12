@@ -13,18 +13,18 @@ mkdir -p $MODEL_DIR
 
 ###<- Set general DNN settings ->
 dr_ratios=(0.5) #dropout_ratio
-mb_sizes=(32 64) #minibatch-size
+mb_sizes=(64) #minibatch-size
 
 ### <- set CNN settings ->
 nb_filters=(150) #no of feature map
-w_sizes=(3 4 5)
-pool_lengths=(5 6)
-max_lengths=(14000 8000)
+w_sizes=(5)
+pool_lengths=(6)
+max_lengths=(14000)
 emb_sizes=(100)
 features=(0.3.4)
 
 
-log="xxxxxx"
+log="log.ext.CNET"
 echo "Training...!" > $log
 
 
