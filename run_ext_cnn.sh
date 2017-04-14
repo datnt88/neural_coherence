@@ -21,10 +21,10 @@ w_sizes=(5)
 pool_lengths=(6)
 max_lengths=(14000)
 emb_sizes=(100)
-features=(0.3.4)
+features=(0)
 
 
-log="log.ext.CNET"
+log="log.ext.CNET.F0"
 echo "Training...!" > $log
 
 
