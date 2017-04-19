@@ -92,8 +92,7 @@ if __name__ == '__main__':
     X_train_1, X_train_0, E = email_helper.load_and_numberize_with_Tree_Structure("dataset/CNET/m_cnet.train", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    print "======================"
-
+    
     X_dev_1, X_dev_0, E    = email_helper.load_and_numberize_Egrid_with_Feats("dataset/CNET/m_cnet.dev", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
