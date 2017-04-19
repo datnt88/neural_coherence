@@ -94,18 +94,25 @@ def get_eTrans_with_Tree_Structure(sent="",feats="",fn=None,tree_levels=None):
             return ""
 
     x = x[1:]
+    
     sent_idxs = range(len(x))
 
     final_sent = ""; #final sentnce
 
-    for lv in range(max(tree_levels)):
+    for lv in range(max(tree_levels)+1):
         indexes = [i for i,idx in enumerate(tree_levels) if idx == lv]
-        for i in indexes:
+        #print indexes
+        for i, idx in enumerate(indexes):
+            #print i
             if i < 2:  # pick the first two gramatical role
-                final_sent = final_sent + x[i]
-        final_sent = final_sent + " "    
+                #print x[i]
+                final_sent = final_sent + x[idx]
 
-    #print ' '.join(x)
+        final_sent = final_sent + " "    
+        #print final_sent
+
+    #print final_sent
+   # print ' '.join(x)
     #print final_sent
 
     return final_sent
