@@ -80,7 +80,12 @@ if __name__ == '__main__':
             fn.append(int(i))
     else:
         fn = None
-    
+
+
+    #tmp = " SXX-OS"
+    #tmp = email_helper.get_right_encode(vb=tmp)
+    #print tmp
+
     print('Loading vocab of the whole dataset...')
 
     #fn = range(0,10) #using feature

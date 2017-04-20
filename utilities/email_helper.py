@@ -103,17 +103,20 @@ def get_eTrans_with_Tree_Structure(sent="",feats="",fn=None,tree_levels=None):
 
     for lv in range(max(tree_levels)+1):
         indexes = [i for i,idx in enumerate(tree_levels) if idx == lv]
-        #print indexes
-        for i, idx in enumerate(indexes):
-            #print i
-            if i < 3:  # pick the first two gramatical role
-                #print x[i]
-                final_sent = final_sent + x[idx]
 
-        final_sent = final_sent + " "    
-        #print final_sent
+        #for i, idx in enumerate(indexes):
+        #    if i < 3:  # pick the first two or 3 gramatical role
+        #        final_sent = final_sent + x[idx]
+        tmp = ""
+        for idx in indexes:
+            tmp = tmp + x[idx]
 
-    #print final_sent
+        if len(tmp) > 3:
+            # pick up the highest grammarical role
+            tmp = get_right_encode(vb=tmp)
+
+        final_sent = final_sent + tmp + " "    
+    
    # print ' '.join(x)
     #print final_sent
 
@@ -152,7 +155,41 @@ def get_eTrans_with_Tree_Structure(sent="",feats="",fn=None,tree_levels=None):
 
     return ' '.join(x_f)
 
+def get_right_encode(vb="S---XOS"):
+    
+    priority_list = []
+    for ch in vb:
+        if ch == 'S':
+            priority_list.append("4")
+        elif ch =='O':
+            priority_list.append("3")
+        elif ch =='X':
+            priority_list.append("2")
+        else:
+            priority_list.append("1")
 
+    x = list(itertools.combinations(priority_list, 3))
+    combs = []
+    for tupl in x:
+        combs.append(int(''.join(tupl)))
+
+    x_vb = str(max(combs))
+    
+    right_vb = ""
+    for ch in x_vb:
+        if ch == '4':
+            right_vb = right_vb + "S" 
+        elif ch =='3':
+            right_vb = right_vb + "O" 
+        elif ch =='2':
+            right_vb = right_vb + "X" 
+        else:
+            right_vb = right_vb + "-" 
+
+
+    return right_vb
+
+#initilize basic vocabulary for cnn, this will change when using features
 def init_vocab():
     vocab =['0','S','O','X','-']
 
@@ -163,7 +200,6 @@ def init_vocab():
     v2s = list(itertools.product('SOX-', repeat=2))
     for tupl in v2s:
         vocab.append(''.join(tupl))
-
 
     return vocab
 
@@ -194,11 +230,6 @@ def compute_vocab(filelist="list_of_grid.txt",fn=None):
     print "Total vocabulary size in the whole dataset: " + str (len(vocab))        
 
     return vocab_list
-
-
-
-
-
 
 
 
