@@ -8,6 +8,8 @@ import glob, os, csv, re
 from collections import Counter
 from keras.preprocessing import sequence
 
+import itertools
+
 
 def load_and_numberize_with_Tree_Structure(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
     # loading entiry-grid data from list of pos document and list of neg document
@@ -104,7 +106,7 @@ def get_eTrans_with_Tree_Structure(sent="",feats="",fn=None,tree_levels=None):
         #print indexes
         for i, idx in enumerate(indexes):
             #print i
-            if i < 2:  # pick the first two gramatical role
+            if i < 3:  # pick the first two gramatical role
                 #print x[i]
                 final_sent = final_sent + x[idx]
 
@@ -151,7 +153,19 @@ def get_eTrans_with_Tree_Structure(sent="",feats="",fn=None,tree_levels=None):
     return ' '.join(x_f)
 
 
+def init_vocab():
+    vocab =['0','S','O','X','-']
 
+    v3s = list(itertools.product('SOX-', repeat=3))
+    for tupl in v3s:
+        vocab.append(''.join(tupl))
+
+    v2s = list(itertools.product('SOX-', repeat=2))
+    for tupl in v2s:
+        vocab.append(''.join(tupl))
+
+
+    return vocab
 
 def compute_vocab(filelist="list_of_grid.txt",fn=None):
 

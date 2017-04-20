@@ -16,6 +16,7 @@ import optparse
 import sys
 
 
+
 def ranking_loss(y_true, y_pred):
     pos = y_pred[:,0]
     neg = y_pred[:,1]
@@ -84,9 +85,11 @@ if __name__ == '__main__':
 
     #fn = range(0,10) #using feature
     #vocab = email_helper.compute_vocab(filelist="dataset/CNET/test.train",fn=fn)
-    vocab = ['SS','SO','SX','S-','OS','OO','OX','O-','XS','XO','XX','X-','-S','-O','-X','--','S','O','X','-','0'] 
     #get vocab for the first time
 
+    vocab = email_helper.init_vocab()
+    print vocab
+    print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
     X_train_1, X_train_0, E = email_helper.load_and_numberize_with_Tree_Structure("dataset/CNET/test.train", 
