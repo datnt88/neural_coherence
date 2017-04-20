@@ -97,7 +97,7 @@ if __name__ == '__main__':
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = email_helper.load_and_numberize_with_Tree_Structure("dataset/CNET/test.train", 
+    X_train_1, X_train_0, E = email_helper.load_and_numberize_with_Tree_Structure("dataset/CNET/m_cnet.train", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     
