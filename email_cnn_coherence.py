@@ -101,10 +101,10 @@ if __name__ == '__main__':
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     
-    X_dev_1, X_dev_0, E    = email_helper.load_and_numberize_Egrid_with_Feats("dataset/CNET/m_cnet.dev", 
+    X_dev_1, X_dev_0, E    = email_helper.load_and_numberize_with_Tree_Structure("dataset/CNET/m_cnet.dev", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0, E    = email_helper.load_and_numberize_Egrid_with_Feats("dataset/CNET/list.cnet.test", 
+    X_test_1, X_test_0, E    = email_helper.load_and_numberize_with_Tree_Structure("dataset/CNET/list.cnet.test", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)

@@ -11,6 +11,80 @@ from keras.preprocessing import sequence
 import itertools
 
 
+def load_and_numberize_with_Tree_Structure02(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
+    # loading entiry-grid data from list of pos document and list of neg document
+    if vocab_list is None:
+        print("Please input vocab list")
+        return None
+
+    list_of_files = [line.rstrip('\n') for line in open(filelist)]
+    
+    # process postive gird, convert each file to be a sentence
+    sentences_1 = []
+    sentences_0 = []
+    
+    for file in list_of_files:
+        #print(file) 
+        lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
+        f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
+        # here is to generate a branch as a document by using .depth file
+        tree_levels = [int(line.rstrip('\n')) for line in open(file + ".depth")]
+
+        for sent_id, lv_id in enumerate(tree_levels):
+            print sent_id
+
+        grid_1 = "0 "* window_size
+
+        for idx, line in enumerate(lines):
+            e_trans = get_eTrans_with_Tree_Structure(sent=line,feats=f_lines[idx],fn=fn, tree_levels=tree_levels) # merge the grid of positive document 
+            if len(e_trans) !=0:
+                grid_1 = grid_1 + e_trans + " " + "0 "* window_size
+        #print(grid_1)
+                
+        p_count = 0
+        for i in range(1,perm_num+1): # reading the permuted docs
+            permuted_lines = [p_line.rstrip('\n') for p_line in open(file+ ".EGrid" +"-"+str(i))]    
+            grid_0 = "0 "* window_size
+
+            for idx, p_line in enumerate(permuted_lines):
+                e_trans_0 = get_eTrans_with_Tree_Structure(sent=p_line, feats=f_lines[idx],fn=fn, tree_levels=tree_levels)
+                if len(e_trans_0) !=0:
+                    grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
+
+            if grid_0 != grid_1: #check the duplication
+                p_count = p_count + 1
+                sentences_0.append(grid_0)
+            #else:
+            #    print(file+ ".EGrid" +"-"+str(i)) // print duplicates permuted docs with original
+        
+        for i in range (0, p_count): #stupid code
+            sentences_1.append(grid_1)
+
+
+    assert len(sentences_0) == len(sentences_1)
+
+
+    vocab_idmap = {}
+    for i in range(len(vocab_list)):
+        vocab_idmap[vocab_list[i]] = i
+
+    # Numberize the sentences
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_0  = numberize_sentences(sentences_0,  vocab_idmap)
+    
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
+    X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=window_size)
+
+    X_1 = sequence.pad_sequences(X_1, maxlen)
+    X_0 = sequence.pad_sequences(X_0, maxlen)
+
+    if E is None:
+        E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocab_list), emb_size))
+        E[len(vocab_list)-1] = 0
+
+    return X_1, X_0, E 
+
+
 def load_and_numberize_with_Tree_Structure(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
     # loading entiry-grid data from list of pos document and list of neg document
     if vocab_list is None:
@@ -186,12 +260,15 @@ def get_right_encode(vb="S---XOS"):
         else:
             right_vb = right_vb + "-" 
 
-
     return right_vb
 
 #initilize basic vocabulary for cnn, this will change when using features
 def init_vocab():
     vocab =['0','S','O','X','-']
+
+    v4s = list(itertools.product('SOX-', repeat=4))
+    for tupl in v4s:
+        vocab.append(''.join(tupl))
 
     v3s = list(itertools.product('SOX-', repeat=3))
     for tupl in v3s:
@@ -202,38 +279,6 @@ def init_vocab():
         vocab.append(''.join(tupl))
 
     return vocab
-
-def compute_vocab(filelist="list_of_grid.txt",fn=None):
-
-    list_of_files = [line.rstrip('\n') for line in open(filelist)]
-    print("Using features: " + str(fn))
-    vocab = Counter()
-
-    for file in list_of_files:
-#        print(file)
-        lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
-        f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
-        tree_levels = [int(line.rstrip('\n')) for line in open(file + ".depth")]
-
-        for idx, line in enumerate(lines):
-            # merge the grid of positive document 
-            e_trans = get_eTrans_with_Tree_Structure(sent=line,feats=f_lines[idx],fn=fn, tree_levels=tree_levels)
-            
-            # need to update the dictionary here
-            if len(e_trans) !=0:
-                for wrd in e_trans.split():
-                    vocab[wrd] += 1
-
-    vocab = dict (vocab)
-    vocab_list = sorted (vocab.keys())
-    vocab_list.append('0')
-    print "Total vocabulary size in the whole dataset: " + str (len(vocab))        
-
-    return vocab_list
-
-
-
-
 
 
 
