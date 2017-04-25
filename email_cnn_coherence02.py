@@ -61,7 +61,7 @@ if __name__ == '__main__':
         ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 2000
+        ,maxlen         = 200
         ,epochs         = 30
         ,emb_size       = 100
         ,hidden_size    = 250
@@ -89,15 +89,17 @@ if __name__ == '__main__':
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = email_helper.load_and_numberize_with_Tree_Structure("dataset/CNET/m_cnet.train", 
+    X_train_1, X_train_0, E , train_f_tracks= email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/m_cnet.train", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
-    
-    X_dev_1, X_dev_0, E    = email_helper.load_and_numberize_with_Tree_Structure("dataset/CNET/m_cnet.dev", 
+    print("loading train data done...")
+    X_dev_1, X_dev_0, E , dev_f_tracks   = email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/m_cnet.dev", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
+    print("loading dev data done...")
 
-    X_test_1, X_test_0, E    = email_helper.load_and_numberize_with_Tree_Structure("dataset/CNET/list.cnet.test", 
+    X_test_1, X_test_0, E , test_f_tracks   = email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/list.cnet.test", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
+    print("loading test data done...")
 
     num_train = len(X_train_1)
     num_dev   = len(X_dev_1)

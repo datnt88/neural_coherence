@@ -13,52 +13,49 @@ import itertools
 
 def load_and_numberize_with_Tree_Structure02(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
     # loading entiry-grid data from list of pos document and list of neg document
-    if vocab_list is None:
-        print("Please input vocab list")
-        return None
-
     list_of_files = [line.rstrip('\n') for line in open(filelist)]
     
     # process postive gird, convert each file to be a sentence
     sentences_1 = []
     sentences_0 = []
+    f_track = [] # tracking branch
     
-    for file in list_of_files:
-        #print(file) 
+    for file_id, file in enumerate(list_of_files):
+        print(file) 
+        
+        branches = [line.rstrip('\n') for line in open(file + ".d.branch")]
         lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
-        f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
-        # here is to generate a branch as a document by using .depth file
-        tree_levels = [int(line.rstrip('\n')) for line in open(file + ".depth")]
-
-        for sent_id, lv_id in enumerate(tree_levels):
-            print sent_id
+        #f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
 
         grid_1 = "0 "* window_size
 
-        for idx, line in enumerate(lines):
-            e_trans = get_eTrans_with_Tree_Structure(sent=line,feats=f_lines[idx],fn=fn, tree_levels=tree_levels) # merge the grid of positive document 
-            if len(e_trans) !=0:
-                grid_1 = grid_1 + e_trans + " " + "0 "* window_size
-        #print(grid_1)
+        for branch in branches:   #reading branch, each branch is considered as a document
+            f_track.append(file_id)
+
+            for idx, line in enumerate(lines):
+                e_trans = get_eTrans_with_Branch(sent=line, branch=branch) # merge the grid of positive document 
+
+                if len(e_trans) !=0:
+                    #print e_trans
+                    grid_1 = grid_1 + e_trans + " " + "0 "* window_size
+
                 
-        p_count = 0
-        for i in range(1,perm_num+1): # reading the permuted docs
-            permuted_lines = [p_line.rstrip('\n') for p_line in open(file+ ".EGrid" +"-"+str(i))]    
-            grid_0 = "0 "* window_size
+            p_count = 0
+            for i in range(1,perm_num+1): # reading the permuted docs
+                permuted_lines = [p_line.rstrip('\n') for p_line in open(file+ ".EGrid" +"-"+str(i))]    
+                grid_0 = "0 "* window_size
 
-            for idx, p_line in enumerate(permuted_lines):
-                e_trans_0 = get_eTrans_with_Tree_Structure(sent=p_line, feats=f_lines[idx],fn=fn, tree_levels=tree_levels)
-                if len(e_trans_0) !=0:
-                    grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
+                for idx, p_line in enumerate(permuted_lines):
+                    e_trans_0 = get_eTrans_with_Branch(sent=p_line, branch=branch)
+                    if len(e_trans_0) !=0:
+                        grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
 
-            if grid_0 != grid_1: #check the duplication
-                p_count = p_count + 1
-                sentences_0.append(grid_0)
-            #else:
-            #    print(file+ ".EGrid" +"-"+str(i)) // print duplicates permuted docs with original
-        
-        for i in range (0, p_count): #stupid code
-            sentences_1.append(grid_1)
+                if grid_0 != grid_1: #check the duplication
+                    p_count = p_count + 1
+                    sentences_0.append(grid_0)
+            
+            for i in range (0, p_count): #stupid code
+                sentences_1.append(grid_1)
 
 
     assert len(sentences_0) == len(sentences_1)
@@ -82,9 +79,31 @@ def load_and_numberize_with_Tree_Structure02(filelist="list_of_grid.txt", perm_n
         E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocab_list), emb_size))
         E[len(vocab_list)-1] = 0
 
-    return X_1, X_0, E 
+    return X_1, X_0, E , f_track
 
 
+def get_eTrans_with_Branch(sent="p_line", branch="1 2 3 4"):
+    x = sent.split()
+    
+    length = len(x)
+    e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
+    if length > 80:
+        if e_occur < 3:
+            return ""
+    elif length > 20:
+        if e_occur < 2:
+            return ""
+
+    x = x[1:]
+    final_sent = []
+
+    idxs = [int(id) for id in branch.split(',')]
+    for idx in idxs:
+        final_sent.append(x[idx-1])  #id in file starts at 1
+
+    return ' '.join(final_sent)
+
+#=====================================================================
 def load_and_numberize_with_Tree_Structure(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
     # loading entiry-grid data from list of pos document and list of neg document
     if vocab_list is None:
@@ -172,15 +191,10 @@ def get_eTrans_with_Tree_Structure(sent="",feats="",fn=None,tree_levels=None):
     x = x[1:]
     
     sent_idxs = range(len(x))
-
-    final_sent = ""; #final sentnce
-
+    final_sent = [] #final sentence
     for lv in range(max(tree_levels)+1):
         indexes = [i for i,idx in enumerate(tree_levels) if idx == lv]
 
-        #for i, idx in enumerate(indexes):
-        #    if i < 3:  # pick the first two or 3 gramatical role
-        #        final_sent = final_sent + x[idx]
         tmp = ""
         for idx in indexes:
             tmp = tmp + x[idx]
@@ -189,12 +203,12 @@ def get_eTrans_with_Tree_Structure(sent="",feats="",fn=None,tree_levels=None):
             # pick up the highest grammarical role
             tmp = get_right_encode(vb=tmp)
 
-        final_sent = final_sent + tmp + " "    
+        final_sent.append(tmp)
     
    # print ' '.join(x)
     #print final_sent
 
-    return final_sent
+    return ' '.join(final_sent)
 
     #below is processing with feature
     if fn==None: #coherence model without features
@@ -266,16 +280,16 @@ def get_right_encode(vb="S---XOS"):
 def init_vocab():
     vocab =['0','S','O','X','-']
 
-    v4s = list(itertools.product('SOX-', repeat=4))
-    for tupl in v4s:
+    v2s = list(itertools.product('SOX-', repeat=2))
+    for tupl in v2s:
         vocab.append(''.join(tupl))
 
     v3s = list(itertools.product('SOX-', repeat=3))
     for tupl in v3s:
         vocab.append(''.join(tupl))
 
-    v2s = list(itertools.product('SOX-', repeat=2))
-    for tupl in v2s:
+    v4s = list(itertools.product('SOX-', repeat=4))
+    for tupl in v4s:
         vocab.append(''.join(tupl))
 
     return vocab
