@@ -11,6 +11,73 @@ from keras.preprocessing import sequence
 import itertools
 
 
+
+def load_testing_data(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
+    # loading entiry-grid data from list of pos document and list of neg document
+    list_of_files = [line.rstrip('\n') for line in open(filelist)]
+    
+    # process postive gird, convert each file to be a sentence
+    sentences_1 = []
+    sentences_0 = []
+    f_track = [] # tracking branch
+    pair_id = 0
+
+    for file_id, file in enumerate(list_of_files):
+        #print(file) 
+        
+        branches = [line.rstrip('\n') for line in open(file + ".d.branch")]
+        lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
+        #f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
+
+        for i in range(1,perm_num+1): # reading the permuted docs
+            
+            permuted_lines = [p_line.rstrip('\n') for p_line in open(file+ ".EGrid" +"-"+str(i))]    
+
+            
+            for branch in branches:   #reading branch, each branch is considered as a document
+                f_track.append(pair_id)
+
+                grid_1 = "0 "* window_size
+                for idx, line in enumerate(lines):
+                    e_trans = get_eTrans_with_Branch(sent=line, branch=branch) # merge the grid of positive document 
+                    if len(e_trans) !=0:
+                        #print e_trans
+                        grid_1 = grid_1 + e_trans + " " + "0 "* window_size
+
+                grid_0 = "0 "* window_size
+                for idx, p_line in enumerate(permuted_lines):
+                    e_trans_0 = get_eTrans_with_Branch(sent=p_line, branch=branch)
+                    if len(e_trans_0) !=0:
+                        grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
+                
+                sentences_0.append(grid_0)
+                sentences_1.append(grid_1) 
+
+            pair_id +=1
+
+    assert len(sentences_0) == len(sentences_1)
+
+    vocab_idmap = {}
+    for i in range(len(vocab_list)):
+        vocab_idmap[vocab_list[i]] = i
+
+    # Numberize the sentences
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_0  = numberize_sentences(sentences_0,  vocab_idmap)
+    
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
+    X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=window_size)
+
+    X_1 = sequence.pad_sequences(X_1, maxlen)
+    X_0 = sequence.pad_sequences(X_0, maxlen)
+
+    if E is None:
+        E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocab_list), emb_size))
+        E[len(vocab_list)-1] = 0
+
+    return X_1, X_0, E , f_track
+
+
 def load_and_numberize_with_Tree_Structure02(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
     # loading entiry-grid data from list of pos document and list of neg document
     list_of_files = [line.rstrip('\n') for line in open(filelist)]
@@ -19,19 +86,18 @@ def load_and_numberize_with_Tree_Structure02(filelist="list_of_grid.txt", perm_n
     sentences_1 = []
     sentences_0 = []
     f_track = [] # tracking branch
+    pair_id = 0
     
     for file_id, file in enumerate(list_of_files):
-        print(file) 
+        #print(file) 
         
         branches = [line.rstrip('\n') for line in open(file + ".d.branch")]
         lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
         #f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
 
-        grid_1 = "0 "* window_size
-
+        
         for branch in branches:   #reading branch, each branch is considered as a document
-            f_track.append(file_id)
-
+            grid_1 = "0 "* window_size
             for idx, line in enumerate(lines):
                 e_trans = get_eTrans_with_Branch(sent=line, branch=branch) # merge the grid of positive document 
 
@@ -52,12 +118,12 @@ def load_and_numberize_with_Tree_Structure02(filelist="list_of_grid.txt", perm_n
 
                 if grid_0 != grid_1: #check the duplication
                     p_count = p_count + 1
-                    sentences_0.append(grid_0)
+                    sentences_0.append(grid_0)        
             
             for i in range (0, p_count): #stupid code
                 sentences_1.append(grid_1)
 
-
+        
     assert len(sentences_0) == len(sentences_1)
 
 
@@ -79,7 +145,7 @@ def load_and_numberize_with_Tree_Structure02(filelist="list_of_grid.txt", perm_n
         E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocab_list), emb_size))
         E[len(vocab_list)-1] = 0
 
-    return X_1, X_0, E , f_track
+    return X_1, X_0, E
 
 
 def get_eTrans_with_Branch(sent="p_line", branch="1 2 3 4"):
