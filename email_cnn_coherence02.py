@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
         ,maxlen         = 200
         ,epochs         = 30
-        ,emb_size       = 100
+        ,emb_size       = 50
         ,hidden_size    = 250
         ,nb_filter      = 150
         ,w_size         = 6 
@@ -89,17 +89,23 @@ if __name__ == '__main__':
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E , train_f_tracks= email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/m_cnet.train", 
+    X_train_1, X_train_0, E , train_f_tracks= email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/test.train", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     print("loading train data done...")
-    X_dev_1, X_dev_0, E , dev_f_tracks   = email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/m_cnet.dev", 
+    X_dev_1, X_dev_0, E , dev_f_tracks   = email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/test.train", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
     print("loading dev data done...")
 
-    X_test_1, X_test_0, E , test_f_tracks   = email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/list.cnet.test", 
+    X_test_1, X_test_0, E , test_f_tracks   = email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/test.train", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
     print("loading test data done...")
+
+    print test_f_tracks
+
+
+            
+
 
     num_train = len(X_train_1)
     num_dev   = len(X_dev_1)
@@ -207,15 +213,28 @@ if __name__ == '__main__':
             patience = patience + 1
 
         #doing classify the test set
-        y_pred = final_model.predict([X_test_1, X_test_0])        
+        y_pred = final_model.predict([X_test_1, X_test_0])  
         ties = 0
         wins = 0
-        n = len(y_pred)
-        for i in range(0,n):
-            if y_pred[i][0] > y_pred[i][1]:
+ 
+        for docId in range(0, max(test_f_tracks) + 1):
+            indexes = [i for i,idx in enumerate(test_f_tracks) if idx == docId]
+
+            pos_score = 0.0
+            neg_score = 0.0
+            for i in indexes:
+                pos_score += y_pred[i][0]
+                neg_score += y_pred[i][1]
+            
+            if pos_score > neg_score:
                 wins = wins + 1
-            elif y_pred[i][0] == y_pred[i][1]:
+            elif pos_score == neg_score:
                 ties = ties + 1
+
+        # number of test set
+        n = max(test_f_tracks) + 1
+ 
+            
         print("Perform on test set after Epoch: " + str(ep) + "...!")    
         print(" -Wins: " + str(wins) + " Ties: "  + str(ties))
         loss = n - (wins+ties)
