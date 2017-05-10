@@ -11,7 +11,6 @@ from keras.preprocessing import sequence
 import itertools
 
 
-
 def load_testing_data(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
     # loading entiry-grid data from list of pos document and list of neg document
     list_of_files = [line.rstrip('\n') for line in open(filelist)]
@@ -24,7 +23,6 @@ def load_testing_data(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, 
 
     for file_id, file in enumerate(list_of_files):
         #print(file) 
-        
         branches = [line.rstrip('\n') for line in open(file + ".d.branch")]
         lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
         #f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
