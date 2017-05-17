@@ -23,7 +23,7 @@ def load_testing_data(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, 
 
     for file_id, file in enumerate(list_of_files):
         #print(file) 
-        branches = [line.rstrip('\n') for line in open(file + ".d.branch")]
+        branches = [line.rstrip('\n') for line in open(file + ".branch")]
         lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
         #f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
 

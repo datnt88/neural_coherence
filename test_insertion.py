@@ -23,23 +23,21 @@ def ranking_loss(y_true, y_pred):
     loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
     return K.mean(loss) + 0 * y_true
 
-
-
 # loading our cohernce model
 saved_model = sys.argv[1]
-final_model = load_model(saved_model)
+final_model = load_model(saved_model, custom_objects={'coherence_out': ranking_loss})
 
 
 #parameter for data_helper
 p_num = 20
-w_size = 5
-maxlen=14000
+w_size = 4
+maxlen=10000
 emb_size = 100
-fn = [0,3,4]    #fn = range(0,10) #using feature
+fn = []    #fn = range(0,10) #using feature
 
     
 print('Loading vocab of the whole dataset...')
-vocab = data_helper.load_all(filelist= "final_data/list.all.0001.docs",fn=fn)
+vocab = data_helper.load_all(filelist= "dataset/CNET/m_cnet.all",fn=fn)
 #print(vocab)
 
 
@@ -63,7 +61,7 @@ def insert(filename="", k = 0, w_size=3, maxlen=14000, vocab_list=None, fn=None)
             perm.append(i)
 
     for pos in range(0,doc_size):
-        #compute coherence score for permuated         
+        #compute coherence score for permuated
         X_0 =  data_helper.load_NEG_EGrid(filename=filename, w_size=w_size , maxlen=maxlen , vocab_list=vocab_list, fn=fn, perm=perm)
         #print(perm)
         y_pred = final_model.predict([X_1, X_0])
@@ -95,7 +93,7 @@ totalIns = 0
 docAvgPerf = 0.0
 
 #main function here
-list_of_files = [line.rstrip('\n') for line in open("final_data/test.test")]
+list_of_files = [line.rstrip('\n') for line in open("dataset/CNET/list.cnet.test")]
 totalPerf = 0
 for file in list_of_files:
     # process each test document
@@ -121,5 +119,3 @@ print ("\nSummary...")
 print (" -Perfect: " + str(totalPerf)) 
 print (" -Perfect by line: " + str(totalPerf/totalIns))    
 print (" -Perfect by doc: " + str(docAvgPerf/len(list_of_files)))    
-
-

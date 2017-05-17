@@ -58,15 +58,15 @@ if __name__ == '__main__':
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
-        ,minibatch_size = 32
+        ,minibatch_size = 64
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 200
+        ,maxlen         = 14000
         ,epochs         = 30
         ,emb_size       = 50
         ,hidden_size    = 250
         ,nb_filter      = 150
-        ,w_size         = 6 
+        ,w_size         = 5 
         ,pool_length    = 6 
         ,p_num          = 20
         ,f_list         = ""
@@ -89,15 +89,15 @@ if __name__ == '__main__':
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, E = email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/test.train", 
+    X_train_1, X_train_0, E = email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/m_cnet.train", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
 
     print("loading train data done...")
-    X_dev_1, X_dev_0, E   = email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/test.train", 
+    X_dev_1, X_dev_0, E   = email_helper.load_and_numberize_with_Tree_Structure02("dataset/CNET/m_cnet.dev", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
     print("loading dev data done...")
 
-    X_test_1, X_test_0, E , test_f_tracks   = email_helper.load_testing_data("dataset/CNET/m_cnet.dev", 
+    X_test_1, X_test_0, E , test_f_tracks   = email_helper.load_testing_data("dataset/CNET/m_cnet.test", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocab, emb_size=opts.emb_size, fn=fn)
     print("loading test data done...")
 

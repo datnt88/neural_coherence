@@ -1,0 +1,20 @@
+Using Theano backend.
+Using gpu device 2: GeForce GTX TITAN X (CNMeM is disabled, cuDNN not available)
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/afs/csail.mit.edu/u/s/sjoty/venv/local/lib/python2.7/site-packages/theano/gof/cmodule.py", line 1466, in _on_atexit
+  File "/afs/csail.mit.edu/u/s/sjoty/venv/local/lib/python2.7/site-packages/theano/gof/cmodule.py", line 1277, in clear_old
+  File "/afs/csail.mit.edu/u/s/sjoty/venv/local/lib/python2.7/site-packages/theano/gof/cmodule.py", line 764, in refresh
+  File "/afs/csail.mit.edu/u/s/sjoty/venv/local/lib/python2.7/site-packages/theano/gof/cmodule.py", line 327, in last_access_time
+OSError: [Errno 13] Permission denied: '/afs/csail.mit.edu/u/s/sjoty/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp0Ah8xz/fa5e41d326aa5b85357f4ee055f7c275.so'
+Error in sys.exitfunc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/afs/csail.mit.edu/u/s/sjoty/venv/local/lib/python2.7/site-packages/theano/gof/cmodule.py", line 1466, in _on_atexit
+  File "/afs/csail.mit.edu/u/s/sjoty/venv/local/lib/python2.7/site-packages/theano/gof/cmodule.py", line 1277, in clear_old
+  File "/afs/csail.mit.edu/u/s/sjoty/venv/local/lib/python2.7/site-packages/theano/gof/cmodule.py", line 764, in refresh
+  File "/afs/csail.mit.edu/u/s/sjoty/venv/local/lib/python2.7/site-packages/theano/gof/cmodule.py", line 327, in last_access_time
+OSError: [Errno 13] Permission denied: '/afs/csail.mit.edu/u/s/sjoty/.theano/compiledir_Linux-3.13--generic-x86_64-with-Ubuntu-14.04-trusty-x86_64-2.7.6-64/tmp0Ah8xz/fa5e41d326aa5b85357f4ee055f7c275.so'
