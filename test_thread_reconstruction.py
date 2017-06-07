@@ -45,15 +45,15 @@ count = 0
 for file in list_of_files:
     #procee each test
     print file
-    X_org, E = email_helper.load_original_tree(file=file, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size, fn=fn)
+    X_org = email_helper.load_original_tree(file=file, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size, fn=fn)
     #compute the coherence score cor the original tree
     y_pred = final_model.predict([X_org, X_org])
     gold_score = 0.0
     for i in range(len(X_org)):
         gold_score += y_pred[i][0]
         
-    gold_score = gold_score/len(X_org)
-    print gold_score
+    #gold_score = gold_score/len(X_org)
+    print "Gold score: " + str(gold_score)
     
 
     #processing each possible tree candidate
@@ -85,15 +85,15 @@ for file in list_of_files:
         for i in range(len(X_perm)):
             p_score += y_pred[i][0]
         
-        p_score = p_score/len(X_perm)
+        #p_score = p_score/len(X_perm)
         if p_score > max_score:
             max_score = p_score
 
-        #print max_score
+        print p_score
 
     if gold_score >= max_score:
         count +=1
-        
+
     print str(gold_score)
     print str(max_score)
     print "-------------------------------------"

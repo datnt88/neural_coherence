@@ -63,7 +63,7 @@ def get_eTrans_with_Branch_New(sent="p_line", idxs=[]):
 
 
 
-def load_original_tree(file="list_of_grid.txt", maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
+def load_original_tree(file="list_of_grid.txt", maxlen=15000, window_size=3, vocab_list=None, emb_size=300, fn=None):
     
     #loading original entity grid
     sentences_1 = []
@@ -88,18 +88,10 @@ def load_original_tree(file="list_of_grid.txt", maxlen=15000, window_size=3, E=N
 
     # Numberize the sentences
     X_1 = numberize_sentences(sentences_1, vocab_idmap)
-    
-    
     X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
-    
-
     X_1 = sequence.pad_sequences(X_1, maxlen)
     
-    if E is None:
-        E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocab_list), emb_size))
-        E[len(vocab_list)-1] = 0
-
-    return X_1, E 
+    return X_1 
 
 
 def load_testing_data(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):

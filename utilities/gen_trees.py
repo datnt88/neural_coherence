@@ -57,16 +57,16 @@ def gen_Tree3():
 def gen_Tree4():
 	x = gen_Tree3() 
 	tree_4 = insert_node(x=x,node="4")
-	tree_4_x = swap(x=tree_4,n1="3",n2="4")
+	#tree_4 = swap(x=tree_4,n1="3",n2="4")
 
-	return tree_4_x
+	return tree_4
 
 def gen_Tree5():
 	x = gen_Tree4() 
 
 	tree_5 = insert_node(x=x,node="5")
-	tree_5 = swap(x=tree_5,n1="3",n2="5")
-	tree_5 = swap(x=tree_5,n1="4",n2="5")
+	#tree_5 = swap(x=tree_5,n1="3",n2="5")
+	#tree_5 = swap(x=tree_5,n1="4",n2="5")
 
 	return tree_5
 
@@ -74,27 +74,30 @@ def gen_Tree6():
 	x = gen_Tree5() 
 
 	tree_6 = insert_node(x=x,node="6")
-	tree_6 = swap(x=tree_6,n1="3",n2="6")
-	tree_6 = swap(x=tree_6,n1="4",n2="6")
-	tree_6 = swap(x=tree_6,n1="5",n2="6")
+	#tree_6 = swap(x=tree_6,n1="3",n2="6")
+	#tree_6 = swap(x=tree_6,n1="4",n2="6")
+	#tree_6 = swap(x=tree_6,n1="5",n2="6")
 
 	return tree_6
 
 def gen_tree_branches(n=3):
 	if n == 3:
 		return [["123"],["12","13"]]
-
 	if n == 4:
 		return gen_Tree4()
 	if n == 5:
 		return gen_Tree5()
-	
 	if n == 6:
 		return gen_Tree6()
-
 	if n >6:
 		print "Have not supported larger threads (num of commnet > 6) yet...!"
 		return None
+
+#x = gen_tree_branches(n=6)
+
+#for i in x:
+#	print i
+
 	
 
 
