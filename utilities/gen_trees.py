@@ -57,26 +57,18 @@ def gen_Tree3():
 def gen_Tree4():
 	x = gen_Tree3() 
 	tree_4 = insert_node(x=x,node="4")
-	#tree_4 = swap(x=tree_4,n1="3",n2="4")
-
+	
 	return tree_4
 
 def gen_Tree5():
 	x = gen_Tree4() 
-
 	tree_5 = insert_node(x=x,node="5")
-	#tree_5 = swap(x=tree_5,n1="3",n2="5")
-	#tree_5 = swap(x=tree_5,n1="4",n2="5")
-
+	
 	return tree_5
 
 def gen_Tree6():
 	x = gen_Tree5() 
-
 	tree_6 = insert_node(x=x,node="6")
-	#tree_6 = swap(x=tree_6,n1="3",n2="6")
-	#tree_6 = swap(x=tree_6,n1="4",n2="6")
-	#tree_6 = swap(x=tree_6,n1="5",n2="6")
 
 	return tree_6
 
