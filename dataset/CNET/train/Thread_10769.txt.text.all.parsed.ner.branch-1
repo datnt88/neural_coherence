@@ -1,0 +1,10 @@
+8322	0	559810	5293825	nr	mccfrank	4/1/12 5:39 pm	1.33330194e12	one computer has one adddress in the router..another has 3	my computer running linux and my wifes running xp are connected to a dlink router to share a cable internet connection. today i noticed in the router status her machine has 3 connections to the internet, while mine has only one. can someone explain why?
+8322	1	559810	5293826	5293825	r. proffitt	4/1/12 5:41 pm	1.33330206e12	screen shot please.	it's possible that it used a few in the past but so far, xp would only use one ip.
+8322	2	559810	5293829	5293826	mccfrank	4/1/12 6:41 pm	1.33330566e12	here it is	[url=  [/img][/url]
+8322	3	559810	5293840	5293829	mccfrank	4/1/12 6:47 pm	1.33330602e12	please disregard previous link	try this one:  you'll see my computer (sid) has one address...her xp machine has 3
+8322	4	559810	5293882	5293840	r. proffitt	4/1/12 9:23 pm	1.33331538e12	unreadable.	i can't check the mac i can't tell if this is the old lease issue. sorry i can't see enough to tell if there is any issue here. i'm going with it's just an old lease. bob
+8322	5	559810	5293980	5293882	mccfrank	4/2/12 6:14 am	1.33334724e12	rest assured, here mac address are the same	i just checked again, and all 3 of her connections show the same mac address. i can do another screenshot if that would help.
+8322	6	559810	5294061	5293980	r. proffitt	4/2/12 10:42 am	1.33336332e12	then reboot the router and see if it renews.	again i see nothing wrong here. i know on my linux box i can get more than one ip. it doesn't mean anything is broke. bob
+8322	7	559810	5294324	5293980	sunwatcher	4/2/12 7:29 pm	1.33339494e12	checked network settings on pc?	have you checked her pc to see if all those addresses are active at once? check her network adapter settings, and try ipconfig from a command prompt. maybe there are some virtual adapters in use.
+8322	8	559810	5294340	5294324	mccfrank	4/2/12 9:17 pm	1.33340142e12	i'll check that when i get a moment.	i am much more familiar with linux than xp but i will take a look tomorrow. more to satisfy my curiosity than anything else should have thought of that myself.
+! ! ! ! ! ! 

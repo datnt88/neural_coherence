@@ -1,0 +1,5 @@
+8938	0	271649	2628587	nr	fredts	11/12/07 11:59 pm	1.19491194e12	printspooler and printers	my printer worked fine until i did 'dir&gt;prn'. i get error: 'printspooler not running' and no printer activity or even recognition of printer. am using xp and brother hl-1440 laser printer, microsoft's 'automatic' suggestions don't help. please help! thanks
+8938	1	271649	2628602	2628587	kees bakker	11/13/07 12:02 am	1.19491212e12	things to try ...	1. reboot. solves most of this problems, unless it's a hardware issue. 2. printer selftest (if possible from the printer) 3. install on another pc and see if it works there. kees
+8938	2	271649	2628604	2628587	v_2vinch	11/13/07 12:04 am	1.19491224e12	printspooler service	go to start&gt; run &gt; cmd and press enter, then type 'net start spooler' i guess the print spooler service stopped for some reason, try the above steps and let us know if it works ... vc
+8938	3	271649	2638723	2628587	fredts	11/25/07 7:29 pm	1.19601894e12	printspooler	finally got solution: called brother(printer mfg) and got following faq: faq000539_000 (spent ~30 min on phone) installed this and my printer works! thanks everyone for your help! stanx3
+! ! 
