@@ -41,8 +41,6 @@ def swap(x=[],n1="3",n2="4"):
 		res.append(new_tree)
 	return res
 
-
-
 def find(s="",n1="3", n2="4"):
 	if s.find(n1) <0:
 		return False
@@ -50,25 +48,43 @@ def find(s="",n1="3", n2="4"):
 		return False
 	return True
 	
+x = ['12', '13', '145']
+k = swap(x=x,n1="4",n2="5")
+
 
 def gen_Tree3():
 	return [["123"],["12","13"]]
 
 def gen_Tree4():
-	x = gen_Tree3() 
-	tree_4 = insert_node(x=x,node="4")
-	
+	x3 = gen_Tree3() 
+	tree_4 = insert_node(x=x3,node="4")
+	tree_4.append(['123', '124'])
 	return tree_4
 
 def gen_Tree5():
-	x = gen_Tree4() 
-	tree_5 = insert_node(x=x,node="5")
-	
+
+	x4 = gen_Tree4() 
+	tree_5 = insert_node(x=x4,node="5")
+
+	tree_5.append(['123', '124', '125'])
+	tree_5.append(['1234', '125'])
+	tree_5.append(['1234', '1235'])
+ 	
+
+	#print ['1234','1235'] in tree_5
+
 	return tree_5
 
 def gen_Tree6():
 	x = gen_Tree5() 
 	tree_6 = insert_node(x=x,node="6")
+	tree_6.append(['123', '124', '125','126'])
+	tree_6.append(['1234', '1235','1236'])
+	tree_6.append(['12345', '126'])
+	tree_6.append(['12345', '1236'])
+	tree_6.append(['12345', '12346'])
+	
+	#print ['1246', '1245','1234'] in tree_6
 
 	return tree_6
 
@@ -85,10 +101,12 @@ def gen_tree_branches(n=3):
 		print "Have not supported larger threads (num of commnet > 6) yet...!"
 		return None
 
-#x = gen_tree_branches(n=6)
+x = gen_tree_branches(5)
 
-#for i in x:
-#	print i
+for i in x:
+	print i
+print "-----------------\n"
+print len(x)
 
 	
 
