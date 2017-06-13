@@ -1,6 +1,8 @@
 (TOP (S (NP (PRP i)) (VP (AUX have) (NP (DT a) (JJ asus) (JJ p4p800-se) (ADJP (JJ motherboard) (CC and) (JJ serial)) (JJ ata) (JJ hard) (NN drive))) (. .)) )
 (TOP (SBARQ (WHADVP (WRB how)) (SQ (MD would) (NP (PRP i)) (VP (NN hook) (PRT (RP up)) (NP (DT an) (JJ extra) (NN ide) (NN drive)) (ADVP (RB up) (PP (TO to) (NP (DT the) (NN motherboard)))) (S (VP (VP (TO to) (VP (VB use) (NP (PRP it)) (PP (IN as) (NP (DT a) (NN slave))))) (CC and) (VP (CC or) (VP (TO to) (VP (VB transfer) (NP (DT the) (NNS files)) (PP (IN off) (PP (IN of) (NP (PRP it))))))))))) (. .)) )
 (TOP (S (NP (JJ asus) (JJ p4p800-se) (JJ motherboard) (NNP prescott) (date (CD 3200)) (NN processor) (NNS windows)) (ADJP (RB xp) (JJ pro))) )
+(TOP (S (SBAR (IN if) (S (NP (PRP you)) (VP (AUX are) (VP (VBG booting) (PP (IN from) (NP (DT the) (NN sata))))))) (, ,) (VP (VB set) (NP (DT the) (NN boot) (NN order)) (S (VP (TO to) (VP (VB represent) (NP (DT that) (NN drive)) (ADVP (RB first)))))) (. .)) )
+(TOP (S (S (VP (VB attach) (NP (DT the) (JJ ide) (NN drive)) (PP (TO to) (NP (NP (DT an) (JJ available) (NN port)) (PRN (-LRB- -LRB-) (S (NP (JJ single) (CC or) (NNP cs)) (VP (MD will) (VP (AUX do)))) (-RRB- -RRB-)))))) (, ,) (CC and) (S (NP (NNS xp)) (VP (MD should) (VP (VB assign) (NP (DT a) (NN drive) (NN letter))))) (. .)) )
 (TOP (FRAG (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NN os)) (VP (AUX is) (VP (VBN stored))))) (. .)) )
 (TOP (S (NP (NP (DT all) (JJ other) (NNS interfaces)) (PRN (-LRB- -LRB-) (NP (NN ide) (, ,) (NN usb) (, ,) (NN network)) (-RRB- -RRB-))) (VP (MD can) (VP (VB follow))) (. .)) )
 (TOP (S (NP (NP (DT a) (JJ lone) (NN drive)) (PP (IN on) (NP (DT an) (JJ ide) (NN channel)))) (VP (MD should) (VP (AUX be) (VP (VBN set) (SBAR (IN as) (S (VP (VBN suggested))))))) (. .)) )

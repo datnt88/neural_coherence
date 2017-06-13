@@ -24,7 +24,7 @@ def main():
         
         
         
-        #procee each test
+        #process each test
         file_name = "./dataset/CNET/threads/" + file  + ".txt.text.all.parsed.ner"
         print file_name
         X_org = email_helper.load_original_tree(file=file_name, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size, fn=fn)

@@ -4,3 +4,7 @@
 (TOP (FRAG (SBAR (WHADVP (WRB where)) (S (NP (DT the) (NN os)) (VP (AUX is) (VP (VBN stored))))) (. .)) )
 (TOP (S (NP (NP (DT all) (JJ other) (NNS interfaces)) (PRN (-LRB- -LRB-) (NP (NN ide) (, ,) (NN usb) (, ,) (NN network)) (-RRB- -RRB-))) (VP (MD can) (VP (VB follow))) (. .)) )
 (TOP (S (NP (NP (DT a) (JJ lone) (NN drive)) (PP (IN on) (NP (DT an) (JJ ide) (NN channel)))) (VP (MD should) (VP (AUX be) (VP (VBN set) (SBAR (IN as) (S (VP (VBN suggested))))))) (. .)) )
+(TOP (S (VP (AUX do) (RB not) (VP (VB use) (NP (JJ master/slave) (NNS configurations)))) (. .)) )
+(TOP (S (NP (QP (RB only) (CD one))) (VP (VBP drive) (PP (IN per) (NP (NN channel)))) (. .)) )
+(TOP (S (VP (VB move) (NP (PRP$ your) (NN sata)) (ADVP (RB up)) (PP (TO to) (NP (DT the) (JJ first) (NN boot) (NN position)))) (. .)) )
+(TOP (S (S (PP (IN in) (NP (JJS most) (NN default) (NNS scenarios))) (, ,) (NP (PRP$ your) (NN system) (NNS bios)) (VP (MD will) (VP (VB look) (PP (IN for) (NP (DT an) (JJ ide) (NN device))) (ADVP (RB first))))) (, ,) (NP (DT this)) (VP (VBZ needs) (S (VP (TO to) (VP (AUX be) (VP (VBN changed)))))) (. .)) )

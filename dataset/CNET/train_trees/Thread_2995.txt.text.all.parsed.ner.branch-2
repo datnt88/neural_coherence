@@ -2,5 +2,6 @@
 (TOP (S (NP (NNP computer)) (VP (AUX was) (VP (VBN supplied) (PP (IN by) (NP (DT a) (NN vendor))))) (. .)) )
 (TOP (FRAG (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB findout) (SBAR (IN whether) (S (NP (PRP$ my) (JJ new) (NN computer)) (VP (AUX has) (NP (NP (JJ new) (NNS parts)) (CC or) (NP (JJ used) (NNS ones)))))))))) (. ?)) )
 (TOP (S (VP (VB thank) (NP (PRP you)) (, ,) (NP (NN guru)))) )
-(TOP (S (NP (NP (NN way)) (PP (IN for) (NP (NP (DT any)) (PP (IN of) (NP (PRP us)))))) (VP (TO to) (VP (VB form) (NP (DT an) (NN opinion)))) (. .)) )
-(TOP (NP (NNP vapcmd)) )
+(TOP (SBARQ (WHNP (WP what) (NN computer)) (SQ (VP (VB model))) (. ?)) )
+(TOP (SBARQ (WHNP (WP what) (NN vendor)) (. ?)) )
+(TOP (SBARQ (WHNP (WP what)) (SQ (VP (VBZ makes) (S (NP (PRP you)) (VP (VBP sense) (SBAR (IN that) (S (NP (EX there)) (VP (AUX are) (NP (NP (JJ old) (NNS parts)) (PP (IN in) (NP (DT the) (NN computer))))))))))) (. ?)) )
