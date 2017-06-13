@@ -77,11 +77,11 @@ def gen_tree_branches(n=3):
 	if n == 3:
 		return [["123"],["12","13"]]
 	if n == 4:
-		return gen_Tree4()
+		return remove_duplication(x=gen_Tree4())
 	if n == 5:
-		return gen_Tree5()
+		return remove_duplication(x=gen_Tree5())
 	if n == 6:
-		return gen_Tree6()
+		return remove_duplication(x=gen_Tree6())
 	if n >6:
 		print "Have not supported larger threads (num of commnet > 6) yet...!"
 		return None
@@ -100,21 +100,14 @@ def remove_duplication(x=[]):
 	return res
 
 
-'''
+
 x = gen_tree_branches(int(sys.argv[1]))
-#for i in x:
-#	print i
-#print "-------------------------------"
-#print len(x)
-
-print "-------------------------------"
-
-final = remove_duplication(x=x)
-for i in final:
+for i in x:
 	print i
+#print "-------------------------------"
+print len(x)
+
 print "-------------------------------"
-print len(final)
-'''
 
 
 
