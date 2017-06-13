@@ -100,7 +100,7 @@ def remove_duplication(x=[]):
 	return res
 
 
-
+'''
 x = gen_tree_branches(int(sys.argv[1]))
 for i in x:
 	print i
@@ -108,7 +108,7 @@ for i in x:
 print len(x)
 
 print "-------------------------------"
-
+'''
 
 
 
