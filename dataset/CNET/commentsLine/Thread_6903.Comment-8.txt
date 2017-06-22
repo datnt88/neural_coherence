@@ -1,0 +1,11 @@
+can access both the source and target disks and run the restore function of the software that created the image.
+so, yes, you can do a complete recovery of an entire partition in this manner.
+it's very quick as compared to restoring from scratch with your software and backups...minutes versus hours.
+just to clarify the cloning vs imaging methods.
+cloning requires free space.
+the cloning software does not copy files from place to place.
+it copies the raw ones and zeros from the drive sectors and creates the formatted partition in the process.
+such is why it destroys other partition data.
+it may clone to unpartitioned space on a drive with an existing primary partition but that method would be useless to use to restore another drive.
+one advantage of a hard drive image is that it's compressed to about 1/2 the size as all the used space on the drive.
+you can place many complete hard drive images on another drive this way.

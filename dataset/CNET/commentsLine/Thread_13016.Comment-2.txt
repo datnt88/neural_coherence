@@ -1,0 +1,12 @@
+if things are working correctly mtu is &quot;discovered&quot; when the session is initiated.
+mtu can change anyplace in the path.
+there is so much equipment there is no way to know for sure.
+the one place that mtu size has a large impact is when the do not fragment flag is set.
+normally a device that cannot pass it will return a messages via icmp that says fragmentation required but the flag is set and drop the packet.
+the client then resends it with a smaller mtu.
+when a firewall blocks this message (some people do not know icmp is not always ping) you get very strange and hard to debug issues.
+packet fragmentation used to be a much larger issue.
+depends what device is doing the reassembly of the packet.
+pcs now days have plenty of power and so do most routers and firewalls.
+there is also the issue of extra overhead for the tcp header on the fragments but bandwidth is huge so that also makes little difference.
+the only mtu settings that make a large performance difference is when you can run jumbo frames but this is limited to equipment that can support this.

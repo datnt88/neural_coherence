@@ -1,0 +1,5 @@
+&quot;if i only reformat the drive (after backing up what i've got), would answering &quot;yes&quot; to &quot;maximum space?&quot; still allow me to create 4 partitions (including part.
+of logic) using fdisk?&quot; remember that formatting is done with format and has nothing to do with partitioning.
+partioning is done with fdisk (in your case and os) so the &quot;true&quot; answer is no.
+but tossing out being technically correct, you may use fdisk to create the partition sizes as you see fit (answering yes to large disk support) and then format as you want.
+i know this sounds confusing, but computers are rather unforgiving in that formatting will not change the size of a partition... bob

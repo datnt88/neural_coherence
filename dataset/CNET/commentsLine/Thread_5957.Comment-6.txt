@@ -1,0 +1,6 @@
+i was trying to simplify my question and put it in a format that i would understand the answers.
+which i believe is what has happened so thank you.
+the top and bottom is that i am trying to configure a number of tcp/ip devices that all need to talk to each other.
+one of the devices a remote telemetary unit (rtu) has 2 ports which i have found out need to be configured on different subnets (i didn't know this before, hence no router), these need to communicate up to other pieces of equipment which must be configured on the same subnet.
+i have tried numerous combinations of ip addresses and subnets to get this to work without success, basically all the items ping round the system to check the other bits are alive, when/if they don't get a reply an alarm is generated.
+i can't clear the alarm because the items on one subnet (192.168.1.x)can not communicate to the one on the other subnet (192.168.2.x), when i used one of the many subnet calculators available on the net they came up with 255.255.255.128, i never got subnet 255.255.0.0, guess i'll give this a go on monday when i get to work thanks for the interest, any further comments or advise are welcome, cheers,

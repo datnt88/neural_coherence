@@ -1,0 +1,3 @@
+why would he have to route, he could just copy the data and pass it to the actual mac address of the real router at layer 2. when you get into doing some of the man in the middle attacks and you need to modify the content then you may need to route but even then why would you not just adjust the ttl also.
+still in most cases the only place you can do this is on user segments which are not protected.
+the ones servers are on generally use advanced switch features like 802.1x to authenticate devices and private vlans to prevent compromised servers from attacking other servers.

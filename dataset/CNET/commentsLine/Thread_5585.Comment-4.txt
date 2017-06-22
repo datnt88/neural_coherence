@@ -1,0 +1,6 @@
+you cannot clock ram independantly to gain speed.
+your mb clocking determines this.
+you might have some control over this clock through bios or jumper settings but change such with extreme caution.
+go into your bios by interrupting the boot process and look for ram settings.
+see if you find anything about spd and set your system to use the information from this.
+if you set such things as wait states and latency manually and these are not within the performance range of the memory modules, you may wind up with an unstable system.

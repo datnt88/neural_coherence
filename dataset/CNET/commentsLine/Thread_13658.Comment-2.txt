@@ -1,0 +1,8 @@
+i have seen windows install an generic driver for hard disk controllers that does not recognize large hd's.
+download the latest driver for your hd controller from your website and install it.
+if this is a homebuilt machine, download the driver from the motherboard mfg.
+if the controller is a pci add-in card, download the driver from the card's website.
+the description of the driver should say something to the effect that it supports large hard disks or 48-bit lba.
+for troubleshooting in this forum please provide the following: - computer make & model - does the drive data cable connect directly to the motherboard or to a pci card?
+- if a pci card, what is the name of the card?
+(look in device manager under scsi & raid controllers.)

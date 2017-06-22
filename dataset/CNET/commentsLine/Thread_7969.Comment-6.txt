@@ -1,0 +1,7 @@
+i tried turning of the dhcp, did a hard reboot of the router did a 'netsh int ip reset' and an 'ipconfig flushdns' on all three units and still...nada.
+if i type in the ip of the router in the browser, i can see and use the router config on both clients.
+i've tried both dynamic and pppoe(?).
+on the router web-based config window on internet status it says no connection which i expect since it's a dial-up (only thing available).
+on internet connection lan settings i've tried both 'automatically detect' and 'use a proxy server' both together and individually.
+in advanced proxy settings i used the ip of my host for the proxy address and ports 6588 for http and secure, 110 at ftp and 21 for socks.
+i left gopher blank.

@@ -1,0 +1,14 @@
+i'd suggest running spinrite from gibson research.
+it will really get down and dirty with the drive, refresh all data and sector formatting, and look for cross-sector bit pattern interactions.
+by reading the log, you'll see how the drive is behaving, and whether there are bad sectors that were either recoverable, or that had to be mapped out.
+my experience with clicking in hard drives is that there are low-level (servo) problems that are causing the drive controller to re-seek because either the heads are out of alignment or the servo patterns are weak.
+after all, the user data, formatting data, low-level format, as well as the servo (location) data are all stored magnetically on the disk surface.
+hard drive disk surfaces can grow defects.
+they typically start off as point defects, and owing to galvanic interactions expand over time.
+if the defect is large enough, the drive's ecc won't be able to correct the data any longer - or the drive won't be able to find the sector, or ... you get the point.
+after running spinrite, if it still clicks - as in multiple seeks per read - that's incipient failure no matter how you slice it, and no drive price bargain compensates for the loss of important data, or for that matter, the loss of time spent futzing with the thing reformatting, reinstalling os, apps, data, yadda yadda.
+do you work for $2.00/hour?
+count how long you spend rebuilding a hard drive and you'll realize that a few dollars saved on a bogus hard drive are gone in a puff when it goes toes up.
+after spinrite ( if it still clicks, send it back.
+at least you'll have a spinrite log to prove to maxtor what's going on.
+hope this helps.

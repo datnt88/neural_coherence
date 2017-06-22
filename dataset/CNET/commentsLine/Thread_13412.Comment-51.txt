@@ -1,0 +1,8 @@
+you don't need a switch between the cable/dsl modem and the router.
+just string one router after the other.
+go from the modem to the customer router, and then plug the internal router into a port on the customer router.
+from the point of view of the internal roter, the customer router is part of the wild, wild internet, and not to be trusted.
+if you set up different ip ranges (192.168.0.x vs 192.168.1.x) you can even log in to administer the customer router from a computer within the internal network.
+routers are so cheap that i've done that at my house.
+that way, if one of my friends has a virus on their system that goes looking for a machine on the internal network i'll be protected from it while still giving them access to the 'net.
+drake

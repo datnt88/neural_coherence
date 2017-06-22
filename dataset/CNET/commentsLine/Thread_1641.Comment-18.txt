@@ -1,0 +1,17 @@
+the problem is occurring in my pc running windows xp pro.
+my network consists of an airport extreme wifi, 1 imac (admin), 1 old mac, and my pc.
+both macs are able to connect the internet without problem.
+in my pc i am using the asus wifi-ap solo, that came with the motherboard to connect to the network.
+story: last night i wanted to watch 'the prisoner' on amctv.com, however, i live in the uk so could not watch it.
+i downloaded anchorfree's hotspot shield to hide my real ip so that i could watch it.
+[when i installed it, my pc appeared to re-discover my wireless connection, although maybe that was supposed to happen].
+when i quit hotspot shield, my computer said i was still fully connected to the network and internet, however no pages were loading, or email, msn etc.
+this morning i reset my network and modem to try and fix this issue.
+the 2 macs connected back fine instantly, but my pc showed the &quot;network did not assign a network address&quot; error.
+i have done countless reboots, ran winsock xp fix, ran resettcpip.msi, set up my network again, and i must say i am stumped i called my isp and they said they cant do anything if its just 1 computer on the network that isnt working, fair enough.
+tcp/ip properties set to automatic.
+dhcp is enabled.
+auto-configuration is enabled.
+when i repair the connection and it fails, i go to status and get this: ip: 169.254.71.9 subnet mask: 255.255.0 default gateway: 169.254.71.9 dns: [blank] wins: [blank] from the help section on my isp's website i found that the 169 in my ip address means that my pc failed to contact the dhcp server.
+it has worked fine up until now.
+this has been driving me nuts all day, any help will be greatly appreciated.

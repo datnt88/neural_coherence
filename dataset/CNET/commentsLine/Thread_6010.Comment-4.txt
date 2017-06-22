@@ -1,0 +1,15 @@
+what is happening is pretty normal for this situation, as has been stated.
+you didn't say that you had checked the jumpers on the hard drive.
+the first clue that you haven't is that the bios doesn't see the drive.
+this means to me that you have not set the 250 gb drive to the proper setting for the drive position in the data chain.
+if you have a drive set to slave but the bios can't find a master first, then the bios won't see the slave.
+the quick and easy way to boot from your 250 drive is to change the boot sequence in the bios settings with both drives connected as normal.
+if you cannot change this, then you will need to remove the 40 gb drive and install the 250 drive in the same cable position as the 40 was, and make sure that the 250 drive jumper is set to single or master.
+if the drive is not marked, you will have to do research to find the correct setting.
+on western digital drives, a single drive doesn't need a jumper.
+if the drive is set to master with a slave present, the jumper is in the middle of the 5 sets of pins.
+the slave setting isto the right side, if i remember correctly.
+the jumper should always be vertical.
+if you have the jumper set correctly and you still have problems, double check the cables.
+if this still doesn't help, then do a repair install on the 250 drive with the drive installed as a single drive and that will replace the boot sector information.
+i hope this helps.

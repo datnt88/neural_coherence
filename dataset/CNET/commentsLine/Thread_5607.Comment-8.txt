@@ -1,0 +1,13 @@
+hp's have a recovery partition that gives you the option to re-pair or re-install windows.
+generally using the f10 or 12 key allows access.
+also some hp's have the recovery consul installed.
+on boot watch for boot optioin menu.
+if it is their select recovery consul via arrow keys and press enter.
+at prompt to select os #1 (not the correct wording, but you will understand when you see the prompt), press enter.
+at the next prompt for admin password press enter.
+at the prompt type chkdsk /p /r .
+generally this fixes windows kernal files allowing system to boot to windows.
+and last, using the f8 key to access the boot option menu, select turn off auto re-start, press entry.
+this will stop the loop giving the bsod error message.
+luck bill last thoughts never end ..... if you have a dial-up account remove modem.
+i've seen damaged modems create some wierd issues ....

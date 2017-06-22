@@ -1,0 +1,4 @@
+first and foremost, i highly, highly recommend that you consider the distinct advantages to switching over to dedicated server hosting, as the hodge-podge of components you have are not nearly enterprise grade in comparison to the functions you expect and the configuration you are trying to make work.
+that being said, the hub idea would not work, usb does not work the same way as a network, and all 3 servers cannot access the usb device at the same time.
+the only proper way to do this with external drives is to have 3 separate external drives, one for each server.
+if you are worried about redundancy you can network those shares and then back them up to a central san.

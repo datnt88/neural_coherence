@@ -1,0 +1,12 @@
+i've recently made hard drive image backups of school pcs.
+one set of pcs had 500 gb drives and the other 1tb hard drives.
+both sets had about the same amount of hard drive space in use...or about 40-50 gb.
+creating the image of the 500 gb drives required less than 15 minutes but the image creation of the 1 tb drives took over 2 hours.
+as well, the image created of the larger drives was about 3x the size of that of the smaller drives.
+why?.
+the answer seems to be that imaging utility (acronis true image) defaults to the sector by sector mode of operation at some drive size threshold.
+this means that, rather than ignoring the free space, it copies that as well.
+my version of the utility (2010) is not current, however.
+that being said, anyone who uses drive imaging in their backup scheme might want to take note of this finding.
+personally, i think it's foolish to buy a larger drive just because the cost per gb is less.
+who buys a 20 room house but only has 2 rooms of furniture for it?

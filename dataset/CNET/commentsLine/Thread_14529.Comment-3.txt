@@ -1,0 +1,13 @@
+first issue is if the proxy runs in transparent mode or not.
+if your browser settings are set to no proxy but you know you run via a proxy then it is transparent and as the name implies you will not be able to easily detect it.
+assuming it is not transparent about all you can do as a user is see if you can ping the proxy itself.
+if it pings then you know it is not your machine or your connection to the proxy.
+when it comes to internet in a large corporate environment most installations are impossible to troubleshoot from the user side.
+since most large companies have multiple internet connections the first challenge is to even find the ip of the proxy.
+this is done via the proxy pac setting in the browser.
+so after you get the proxy from that you now have a ip but that does not really mean it is the proxy.
+normally you place a load balancer on that ip and place multiple proxy behind it for performance and redundancy.
+then you come into the issue that some traffic will not even run though a proxy so there are multiple devices depending on the protocol.
+so ping may work and it means nothing.
+you could be pinging a load balancer or your ping traffic could go via a firewall and the web traffic go via a proxy.
+of course the easiest way to see if it is your machine or the network is to ask you co workers if they too have a issue.

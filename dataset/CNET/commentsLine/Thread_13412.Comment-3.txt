@@ -1,0 +1,8 @@
+you might want to look at blocking everything, then opening up ports for services you wish to allow.
+i don't believe this is an exhaustive list by any means, but it's a starting point.
+to allow the following, unblock the associated port: general web browsing: ports 80, 8080 and 443 general email usage, various devices/clients: ports 25, 26, 110, 143, 465, 587, 993, 995 network time services: port 123 instant messaging: ports 1863, 5050, 5061, 5190, 6667, 7001 see if you can find out what the regulars use, then you can find out those program requirements and add them to the white list if you approve.
+plan b is similar, but involves a proxy or hot spot gateway to manage all that for you.
+the computer doesn't have to that powerful, just nimble - an itx sized computer with a fusion apu at its core would capable and cost effective.
+set it up right, and it won't even need any moving parts.
+this should ideally be sitting between the access point and your internet connection so it monitors everything from the access point, which will mean dual network ports.
+best of luck, flirkann

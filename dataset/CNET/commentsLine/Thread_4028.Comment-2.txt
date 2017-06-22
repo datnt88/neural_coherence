@@ -1,0 +1,10 @@
+if it works i would leave it alone.
+the problem with double nat is mostly related when you need a incoming session into a local pc.
+if all the traffic outbound then it doesn't matter.
+pretty much depends on the ip for the modem and the router are on the same subnet.
+if they are on different ones then you have a double nat.
+running dhcp on both will work well in most cases but again it depends if you need to map ports to a pc.
+the outside address of the router could technically change so mapping would change.
+if there is no mapping of ports then it can change all it wants and the user pc does not care.
+there is nothing wrong with double nat it tends to be confusing for people to get setup and to debug when there are issues.
+once it is works it works

@@ -1,0 +1,5 @@
+windows has no concept of ecmp (equal cost multi path) routing.
+using 2 different isps is also a bad choice.
+this typically requires using bgp and obtaining an autonomous system number.
+you would be better off dumping one isp and upgrading the other.
+skrall

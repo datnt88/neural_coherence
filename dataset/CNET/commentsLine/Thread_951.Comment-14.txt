@@ -1,0 +1,6 @@
+not only can you partition your new drive, but i recommend that you do partition it.
+you may make some partitions ntfs and others fat32.
+if you are using something like symantec's ghost to make images of your other machines, then i would suggest a fat32 partition for each machine.
+remember that if a system fails, and this is an external drive, you will need some way of booting the system with access to this external drive.
+you will also need the software to restore the original drive.
+when partitioning the new drive, using gdisk (also from symantec) is much more friendly than fdisk.

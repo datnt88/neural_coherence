@@ -1,0 +1,11 @@
+not quite understanding the situation.
+is your system fine now, or have you tried to partion with bad results and now your restore won't work.
+if your system won't boot you should be able to delete your current partions then create a new primary partion, use the full size available, make just the one partion.
+then your restore disk should work.
+after you restore i see no reason that partion magic will not work to create new logical partions.
+just be sure to leave enough room on the original primary partion when you resize it so that windows will have 25 percent free space.
+i have repartionioned countless system, including notebooks using partion magic 8 and have never had a problem.
+to eliminate the restore problem in the future use a disk imaging software such as acronis true image or symantecs disk image 7 to image your system drive and save it to one of the other partions.
+also change the default location of your my documents folder to one of the other partions so that the next time your system dumps, and it will soner or later, you won't lose any data.
+words of wisdom for the day.
+never have anything on the system drive but the system and the installed programs.

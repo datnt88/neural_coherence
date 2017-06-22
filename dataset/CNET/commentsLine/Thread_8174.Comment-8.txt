@@ -1,0 +1,39 @@
+as luck would have it....here's something directly from kim komando at komando.com on raid &quot;using raid to backup data q. i've lost two hard drives and had to rebuild stuff twice in a year, so the concept of raid is starting to sound appealing.
+i only know enough about raid to be dangerous, so can you explain it?
+is this a good way to back up my computer?
+a. i have a definite position on your question: maybe, but probably not!
+before i explain that, let's talk about raid.
+that's an acronym for redundant array of independent disks.
+there are a number of ways to set up raid.
+i won't bore you with that.
+you're talking about raid1, or mirroring, so let's focus on that.
+mirroring simply means that you have two drives, and they have exactly the same things on them.
+when you save a document, it is saved on both hard drives.
+if the primary drive fails, you switch to the other.
+mirroring has long been used in internet servers.
+with it, a company doesn't have to worry about its web site going down if a drive fails.
+the secondary drive immediately takes over.
+that could be helpful to you if you suffer drive failures.
+however, i don't think raid works well for backups.
+when you establish a backup routine, you should back up your data day after day.
+that way, you can go back in time to find uncorrupted data, if necessary.
+let me give you an example.
+say you have an important database file.
+one day, the file will not open.
+something has happened, and the file is corrupted.
+the data in that file is no longer available.
+if you have a raid mirror setup, the file on the backup drive will probably be in exactly the same shape.
+instead of being able to go to a backup from last week or last month, which is presumably uncorrupted, you have only a current, corrupted file.
+so, although mirroring has its benefits, they pertain more to commercial situations.
+(some computers, including my office machine, have raid0, or striping.
+this divides data between two hard drives, supposedly making read and write operations faster.
+again, i think the benefit is marginal on the desktop.)
+you should have a backup routine for your data.
+at home, i copy my data to a second hard drive; at work, to the server.
+you could combine your backup routine with an imaging program, such as norton ghost.
+an imaging program allows you to take a picture of the hard drive, which you can use if your hard drive fails.
+but the image is static.
+so you need regular backups as you change or add files.
+i considered installing a raid setup when i built my home computer two years ago.
+i intended to use it for backups, but i decided raid was inadequate.
+my advice is: don't bother.&quot;

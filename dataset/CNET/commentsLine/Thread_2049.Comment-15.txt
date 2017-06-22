@@ -1,0 +1,4 @@
+your posting has two issues, the message you are getting refers to virtual memory and the answers supplied apply to that.
+the fact that the system reports 3.25gb of ram when 4gb is fitted is because you are running 32bit windows and it is limited to seeing only 3.25gb of real physical ram.
+32 bits will only represent addreses up to 4gb (4,294,967,295) and if all this was attrbuted to ram there would be no addresses left in the max range for graphics card memory or any other peripheral equipment with it's own memory, all of which has to be mapped within that maximum range if you want to use all of your installed ram you need to switch to 64 bit windows.
+hth

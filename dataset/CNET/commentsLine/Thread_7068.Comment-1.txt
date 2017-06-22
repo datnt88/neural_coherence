@@ -1,0 +1,10 @@
+i have a gateway&lt;-&gt;gateway ipsec vpn running between 2 offices and the first gateway (bipac 7404vgo) will also host pptp vpn connections as well.
+i need to be able to route pptp traffic with a destination to the second gateway through the gateway vpn to services in that second network.
+at this stage no routing occurs when trying to access the second office subnet from the pptp vpn.
+all clients are using windows xp or above and there is an sbs2003 server on the first subnet attached to the first gateway.
+at this point i have a choice of using sbs2003 pptp termination or router pptp termination for incoming client connections.
+at the moment i have the router as the pptp endpoint.
+i suspect that where it is falling down is the routing on the client itself.
+i think i need to let each client know when they connect that they need to send traffic for the second subnet through the pptp vpn so it can be routed to that subnet.
+i don't want to use the pptp connection as the default gateway as this would have large performance issues.
+is there a way to dynamically allocate a static route on the client when they establish a pptp connection to the router (or sbs server) so traffic can be routed correctly?

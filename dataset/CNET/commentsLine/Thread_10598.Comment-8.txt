@@ -1,0 +1,7 @@
+well, after 2 and 1/2 hours on the phone with dell tech support (canada), the problem is finally solved.
+it wasn't working because of the way the devices were installed in the pci slots.
+the initial (bad) setup was: slot 1 ---&gt; d-link wifi card slot 2 ---&gt; firewire card slot 3 ---&gt; 56k modem after some mixing and matching, the configuration that finally worked was: slot 1 ---&gt; firewire card slot 2 ---&gt; empty slot 3 ---&gt; d-link wifi card i never use the 56k modem (who does?)
+so we got rid of that.
+we figure the modem had some kind of conflict with something else.
+before doing this, we updated the bios, chipset drivers and installed a patch from microsoft that had to with enabling 1394 enumeration.
+the system is a dell dimension 2400.

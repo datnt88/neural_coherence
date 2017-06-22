@@ -1,0 +1,5 @@
+hi all, i need to use an ericsson 4425 voip phone over a cisco switched network.
+the switch i'm presently testing with is a catalyst 3550. i have created an access and a voice vlan for data and voice respectively... on the switch access port.
+although the traffic from the voip phone could have straightaway gone into the voice vlan in case of cisco phone ... with ericsson , it doesn't seem to be happening that way.
+the voip phone still takes an ip from the access vlan dhcp.
+pls suggest the ideal way to segreggate traffic into voice and access vlans at the ingress switchport.

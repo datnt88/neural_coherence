@@ -1,0 +1,11 @@
+the first thing to try as bob pointed out is a corded phone.
+i assume if you travel with the box you have something to plug into it.
+if you have the software loaded you could also try to make a call from your pc ... pretty much eliminates everything but your connection and your modem.
+although if your modem is not a router then both devices have their own ip.
+noise on voip calls is mostly caused by packet loss but unlike data it cannot retransmit the information.
+voip also will drop packets that arrive too late ...ie jitter.
+this is fairly involved to test but if you would ping from your pc to the first address within your isp network you could check your connection.
+you want to see little or no loss and the the time to be consistent, difference between the numbers is jitter and voice does not like much over 100ms but even 50ms can be heard.
+if you see a issue maybe you can get your isp to fix it.
+lingo uses a protocol called 729 to encode the voice this does a good job of compression but is much less tolerant of packet loss than say vontage which uses g711 which send 4 times the data on average.
+i use skype and it use its own secret encoding which seems to work even on very bad connection.

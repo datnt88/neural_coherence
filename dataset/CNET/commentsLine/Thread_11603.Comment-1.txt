@@ -1,0 +1,27 @@
+hi, i'm having a problem with my hard drive.
+i'm running an xp pro sp2 machine with an 80gb maxtor as the master, a 250gb samsung as the primary slave, and a 250gb maxtor on an ultra133 tx2 ide controller card.
+the issue is with the 250 on the controller card.
+in the process of writing files to the drive, several messages popped up saying that different system volume information files were corrupt.
+the drive was no longer readable/writable but still showed up in both my computer and disk management as an ntfs drive.
+solution attempt 1: i attempted to run chkdsk /r without success.
+i rebooted my machine and the drive still appeared in disk management and my computer, but no longer as ntfs.
+also, no volume information such as disk space, etc were available.
+it now read as a raw drive.
+i tried chkdsk /r and /f once again, now only in safe mode with command prompt.
+this was still unsuccsessful.
+solution attempt 2: i thought this may be a windows exclusive issue, so i grabbed my handy bactrack security suite live linux cd (slax).
+i explored a bit with konquerer and the shell and found that /mnt/hdg1 (the hd in question) was there, but again, i was having the same issues as in windows.
+frustrated to no wnd at this point, i tried a diferent tactic.
+solution attempt 3: i finally caved and bought recover my files  as this program showed the most promise and seemingly had the best reviews.
+i would have gone the linux route and used the forensic utilities backtrack has, but my unfamiliartity with the shell and linux in general lead me to the decision to go a windows oriented route.
+well, there's both good and bad news.
+recover my files found all of the files on the disk, and even in their native directories.
+however, it wouldn't repair the system volume information files, and would only recover the data to another drive or dvd.
+worse, it will only recover them as recovered_file_01.*.
+* being the file extension of what i'm trying to recover.
+i've been on google and microsoft knowledge base, as well as others and i'm stuck.
+i can't find a solution to this anywhere, and don't have another drive to back these files up to.
+i'm also positive that there is a way to fix this, i'm just not sure how.
+would someone please help me?
+i'll give you all the info i can.
+thanks.

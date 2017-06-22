@@ -1,0 +1,12 @@
+vipergg's suggestions will work (and i especially agree with the recommendation that you not use the usb devices, as usb networking is a real kludge, developed back in the days when nearly all new computers had usb ports for printers, but only corporate-class machines had ethernet ports; now, nearly all computers have ethernet ports, so usb for networking is unnecessary), however i would suggest that at least one system on your network should be wired to the router rather than an entire wireless network.
+when you first set up the router, it will default to no security, no encryption, and default identification and password.
+this will be fine at first.
+your wireless client devices will automatically find the nearest access point and connect.
+however, once you start locking down the security (and you absolutely must do this, it is not an option), you introduce the opportunity for minor errors in typing the encryption key or client mac addresses, and boom, you are locked out of the router because the client has the wrong key.
+if you have one system that is wired, you can log into the router and straighten things out so both ends of the transmission are on the same wavelength (pun intended...).
+furthermore, some routers will allow you to disable wireless access to the configuration screens to prevent a war-driving hacker who happens to find your access point from being able to break in to it and change any settings from afar.
+in your initial question, you didn't say whether the desktop system and the router would be located near each other.
+if they are close, i'd skip the pci card wireless client and keep it wired to the router.
+if your arrangement doesn't allow for that, then you should temporarily use your laptop wired via ethernet cable to the router for setup while you configure the desktop in wireless mode, and then learn how your laptop would flip back and forth between wired and wireless mode.
+now you can move the laptop away and configure it for wireless, but still be able to quickly connect by wire should you need to.
+just some ideas to consider... dw

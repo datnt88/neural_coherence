@@ -1,0 +1,10 @@
+the root of your issue is you have no way to get an ip address on your pcs without doing it manually.
+so, you do it just that way.
+you give each a &quot;static&quot; address.
+they must both be withing a compatible range and you don't need a gateway address.
+the most simple way would be to use the old ms convention for lan use.
+set one to ip 192.168.0.1 and the other to ip 192.168.0.2. set the subnet mask for both to 255.255.255.0. your pcs should now happily connect.
+this doesn't mean you can access or move files yet.
+you need to set up file sharing and create at least one user one both pcs that share their username and password.
+it's also best if these are in the admin group.
+good luck.

@@ -1,0 +1,23 @@
+the verizon terms of service for the east coast (going back to bellatlantic) has always been one ip address per customer account.
+if we had more than one computer, we had to install a router or use some form of proxy sharing.
+in the west (i.e., exgte, which actually includes a few east coast areas...), you have long had dhcp (though that is slowly being transformed to pppoe, and in the next year or two you may be involuntarily converted, so the tech rumor mill sez...) and the terms of service at one time made no mention of limits on the number of ip addresses that could be pulled.
+customers with more than one system used a simple hub or switch and pulled as many ip addresses as needed.
+several years ago they conformed the tos for all regions, and on paper forbid more than one ip per customer.
+they didn't start enforcing that until recently.
+there were lots of surprised customers like you.
+so what can you do?
+get a router.
+in addition to the corporate benefit to verizon with a more efficient use of the finite number of ip addresses, you get lots of benefits from a router too.
+it costs you $20-30, but everybody is better off for it.
+that's a different discussion, but now you know what happened to you.
+the 15 minute rule was another piece of all that.
+for certain west coast states that were being assigned addresses in the 71. range, they tried to recover and then reuse addresses as soon as customers turned off their systems so they set a 15 minute lease.
+theoretically, a router or system that complies with the dhcp standards is supposed to begin renewal proceedings at mid-lease (which would be 7.5 minutes) and that would keep the address as long as needed.
+in practice, it was a disaster, and customers were being dropped every 15 minutes, their routers would automatically reconnect, but they'd get whatever new address was coming up in rotation.
+whether 2 hours is a viable easy solution or whether they (vz) need get their act together and develop a better system from the ground up is an open debate for another time, but again, now you know what happened to you, you weren't alone.
+i'm not familiar with the media connect.
+if it is designed to work only with internal networks of non-public ip addresses (or in corporate situations where a block of contiguous public addresses are held by the network owner), then you should be fine on a home network that is set up behind a router.
+that takes us back to discussion #1 above, one of the many reasons a router is good for you.
+and so there you are, trying to make it all work right with a new modem/router/wifi and you just get the door slammed on your fingers because the modem piece of it won't work.
+it's a kick in the head, and i feel your pain.
+dw

@@ -1,0 +1,20 @@
+one of the interesting things that i have found out is the behavior of a machine when you have two disks installed and both disk have bootable operating systems installed, one disk having 98 fat32 while the other disk has xp in ntfs.
+you can have the ntfs xp system as the master drive and the 98 fat32 system as the slave drive, and the system will always boot to the 98 fat32 system first and establish the defined slave drive as the c: drive and the defined master drive as the next drive.
+it always defers to the fat32 drive.
+the same applies to fat16.
+there seems to be a hierarchy.
+if you have w2000 and xp, both as ntfs, then it defaults to w2000.
+if the xp is fat32, then it defaults to the fat32 system.
+if both 98 and xp have fat 32 systems then, the boot sequence follows the bios set sequence.
+even if you have the two drives jumpered as cs,(cable select) the 98 disks will always boot first.
+and make the xp drive the second drive, regardless of where you have them positioned on the cable.
+the key is the ntfs or fat32 system.
+if you have two drives on a cs chain that are both xp drives ntfs, then the middle chain is the master and the end of the chain is slave, and the machine will always boot from the middle disk, regardless if you have them defined in the bios as the end disk as master and the middle disk as slave.
+(this test was done with a 120g drive as slave and a 160g drive as master).
+note that the standard is for the end of the cs chain to be master and the middle is to be slave, but it seems that the cables that come with the newer drives, the 80 pin cables can double as a cs cable or a jumpered master slave.
+make the cable do its master slave installation by setting the correct jumpers.
+this will allow you to put the master anywhere on the chain, but if you mix fat32 and ntfs, then fat32 prevails.
+this will only occur if both drives are bootable.
+i do not know if this is a function of the bios (suspect), or of microsoft windows, but it causes a lot of confusion.
+i have run across this in three machines that i have tested.
+norm

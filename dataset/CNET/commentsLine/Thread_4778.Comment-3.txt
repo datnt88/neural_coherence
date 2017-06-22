@@ -1,0 +1,17 @@
+well i'm not quite sure what you mean when you say that my &quot;ip plan&quot; needs to be good.
+i have read so many forum posts and tried most all of them i think at this point and i know i'm probably just doing one little silly thing wrong.
+trouble is, so many of the posts (even with the same hardware and isp) give different account.
+i'm not able to single out a pattern and thus where i'm going wrong.
+i looked at the sticky as well and it didn't help me much.
+this is where i am.
+i reset the modem and router, powered down everything and am now sitting with a xp laptop connected directly to the westell 6100 set in pppoe configuration and i have a connection.
+now then, what's my next move?
+some have said change to bridge protocol with &quot;routed bridge&quot;, set to private lan and disable all dchp on the modem.
+next i was told to fire up the linksys (wrt54g v2 with the latest firmware) and set it to dchp, letting it automatically assign ip addresses (i assume).
+still nothing.
+when i run ipconfig/release and then /renew i get the gateway as 192.168.1.1 with the ip being 192.168.1.15 (the ip i instructed it to begin with).
+so based on all of this i gather that its only looking at the lan and not getting anything from the wan (and by extension, the modem).
+after this i try changing the (linksys) router to pppoe mode but when i try to connect it tells me the pppoe server cannot assign an ip.
+i know you are without a doubt a busy person who takes a great deal of what i can only assume is your personal time to respond to strangers' forum queries.
+i thank you for that as well as any assistance you can offer me in resolving my troubles.
+best, alex

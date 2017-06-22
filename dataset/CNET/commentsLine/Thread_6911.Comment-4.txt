@@ -1,0 +1,12 @@
+first of all, if you have a firewall of any kind, this usually blocks the immediate connection.
+you should first of all, run the network setup wizard on both pc's, making one the primary.
+when asked to do so, insert the floppy disk, or cd from the pc you use as main and then put the floppy\cd in the other pc and reboot both.
+now, you have to make sure winxp firewall is disabled.
+you go to :my network places and open it.
+then go to view network connection, click on it, got to the right and your connection will be there (should) , right click, properties, advanced, and you will see windows firewall connections, make sure file and printer sharing are not checked, then click the settings tab, advanced, uncheck local area connection.
+apply or ok, and exit.
+now, if you have other firewalls like zone alarm, you will need to enter the ip address manually, of the other pc, on each pc, to allow both to communicate.
+also what i have run in to a lot, is zone alarm will still block if manually entered and had to look at the log file and then add the ip to safety zone.
+which you may have to put safety zone setting to medium.
+rarely but this happens, you may have to go to your network connection and right click properties again and do a repair on the connection, sometimes this takes out little bugs but i would check the above first.
+any more probs, let me know, paul

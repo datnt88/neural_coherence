@@ -1,0 +1,5 @@
+your motherboard has onboard ac97 sound which requires a driver from the manufacturer to make it available to windows.
+because you're booting the ubcd no drivers on the hard drive are available to the version of windows on the cd - the ubcd boots independently of anything on your hdd (it can be even be unformatted or absent altogether) as the cd creates a ramdrive for its own use.
+the manufacturer's ac97 sound driver needs to be added to the cd's plugins and a script written to install it in the bartpe environment and then the whole package rebuilt with pebuilder which requires some expertise.
+if successful, chances are that the new cd will not enable sound on every motherboard.
+just do as i do and enjoy the silence, after all it is an emergency boot cd (say for cleaning an infected system of viruses and malware or repairing damaged protected os files on the hdd) and not intended for everyday use (in fact it has (or had) some limitations to prevent you running it 24/7 as the main os like auto-restarting every 24 hours, a limit on the number of running programs/processes and a severe restriction on the size of the ramdrive.

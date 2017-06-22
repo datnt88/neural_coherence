@@ -1,0 +1,12 @@
+your issue just sounds just like the one i had, so unless there is hardware failure someone along the line, it should work.
+and it sounds like youve done all this and more, so i dont know if this will make any matter like i said, before, i did not set the router as an access point, and it sounds like youve tried it both ways.
+you are correct that there will be no internet connection present on the router status screenthats not an issue.
+againi could not get the internet shared with the router set as an access point, but that may have been before i scrapped using dns.
+found out that would not work properly with ics in my situation.
+i disabled dns and assigned 192.168.2.0 to the desktop machine connected to the internet with the modem.
+installed the internet connection sharing software on this machine.
+as i recall, i may have had to install it, remove and install it again more than once for it to work.
+now this is an older winme machine, but it works ok for the ics process.
+assigned the router 192.168.2.1. assigned the additional wireless and wired machines 192.168.2.2 and 192.168.2.3 respectively.
+i used 192.168.2.0 as the default gateway for the other machines so they would use the desktop machines to find the internet.
+good luck mark

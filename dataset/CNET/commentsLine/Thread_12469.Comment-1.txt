@@ -1,0 +1,15 @@
+i have a ethernet enabled device that i would like to connect to my wireless network.
+i cannot add a wireless nic to this device (e.g.
+pci, pcmcia, usb, etc), so i purchased a wireless bridge (morotola we800g).
+i configured this from a laptop and then connected it to the device.
+the device can connect to other devices on my network, but nothing on the network can connect to the device behind the bridge.
+i tested this with two laptops.
+laptop a connected to network with either builtin wireless, or wired directly to router (3com officeconnect adsl firewall wireless router - 3crwdr100a-72), and laptop b connected to the bridge.
+b can connect fine to a (e.g.
+ping, ftp, etc), but a cannot connect to b. sometimes when doing a &quot;ping -t&quot;, i might get 1 response in 10, but generally i get timeouts.
+i found some comments on web of similar problems with the we800g, so i got a netgear wge101 bridge, but i'm having same problems with that one.
+neither of the laptops have a firewall running, and i've also tried turning off the wep encryption on the network.
+also, two laptops on the network (one with builtin wireless, and one with pcmcia wireless card) can connect to each other fine.
+one other point to note: when using the motorola bridge, only the computer behind it turns up on the network (as reported by the assigned ip list in the router), but when using the netgear, both the bridge and the computer get assigned ips.
+anyone have any idea?
+thanks.

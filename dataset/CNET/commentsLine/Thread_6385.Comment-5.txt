@@ -1,0 +1,6 @@
+if so, you're fine.
+for future reference, you should fill the same colored slots with the same type of ram to enable dual channel operation.
+(so dimm_a1 and dimm_b1 should be filled with a matched pair.)
+but so long as dimm_a1+a2 have the same capacity as dimm_b1+b2, dual channel will still be enabled.
+since your ram has different timings, the slowest timings (5-5-5-15) will be selected.
+you can try to manually set 4-4-4-15 timings, but the performance difference won't be noticeable except in benchmarks.

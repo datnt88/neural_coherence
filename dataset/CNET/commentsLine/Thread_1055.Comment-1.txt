@@ -1,0 +1,109 @@
+for about two years now, i have been struggling with nat and dsl problems with my at&t service.
+some issues have been more or less resolved or dealt with, but nevertheless, some have persisted despite all of my working against them.
+for the longest time, i can recall having severe nat problems with devices such as my pair of xbox 360 consoles when connecting to online services such as xbox live.
+ever since i replaced both my modem and my router a year ago, i assumed that all the networking gear was fully functional and that the dsl line was the cause of any problems, but if my technician is correct, this is now no longer the case.
+yesterday, he confirmed that after all of the work he did the last time he visited, the line is supposedly clean and up to speed.
+but, my gaming devices continued to report strict nats across the board.
+a week or two ago, in order to accommodate some new speakers i had, i spent an entire night rearranging my computer desk.
+i had to move all of my hard drives and both my 2wire gateway and my belkin n wireless router, requiring me to disconnect all of my cables and power adapters.
+clearly, everything had to be powered off in order to be moved about.
+this took place after all repairs had been made to my internet service.
+alright?
+everything had been rebooted, or power-cycled.
+after reconnecting and setting up everything, i still noticed no change in nat settings, not that i was looking for any problems specifically, but rather, because i was used to their presence.
+my router has upnp enabled, nat enabled, and the proper trio of ports opened for xbox live, etc., so there is no apparent reason as to why the nat readings did not register as open to begin with.
+this happened with the d-link router i used to use many moons ago as well (it no longer works, so i can't test it).
+this past week, i noticed that my wired xbox was having more trouble connecting to parties, games, and the live service entirely.
+i know live was taken down completely on tuesday for maintenance, but that did little to help me at all.
+yesterday, the xbox i have connected to my hdtv in a separate media room began to disconnect frequently from the internet, but not from my wireless network.
+the live profile we use on it failed to sign in online, an then both consoles repeatedly reported a strict nat setting.
+the wired xbox continued to function throughout all of this.
+since i ran out of options long ago, i decided to just try what the machine told me to do (although i know i have tried some of the steps before with no luck).
+the first step on microsoft's suggested path was to restart either your modem or router.
+i did both, powering off my router and then the modem a few seconds after.
+i waited around 30 seconds or so before reconnecting the power on the router first, and the modem last just as before.
+i ran the nat test on both machines, once they were fully functional, and lo and behold!, they reported no errors .
+open nat.
+i was a bit surprised, but excited nonetheless.
+knowing that the test has ignored the strict nat in the past, i retested the connections several times.
+no problems.
+i signed in on both machines, and no problems.
+i watched the online performance and i saw no nat problems.
+all day, no problems.
+if i popped in halo 3, no longer did i get a message in the game about a closed nat.
+i was thrilled.
+i will still check my results in order to further validate them in the meantime, of course.
+so that was mostly the story for now, and i am hoping i relayed it clearly.
+but, i am still having some issues in which i could really use any help at all, so i hope i am able to explain myself well enough.
+now for some questions: 1. i don't truly understand why this power-cycling worked.
+maybe the xbox nat test somehow configured the router for it?
+i can't tell how/if that's what transpired.
+the networking gear was off for a longer period of time when i rearranged the room, and as i mentioned, was still after the repairs made to my line some time ago.
+unless at&t did something to my line since then or when i called my technician, i don't see how this simple power-cycling alleviated my long standing nat/firewall problem.
+i had not modified any modem or router settings.
+what could have happened?
+now on a more general, less related note: 2. lately my router's coverage and signal strength has been noticeably diminishing.
+my macbook pro can establish a connection of 130 megabits per second while in the same room as the router.
+i have a sony vaio fw vista notebook in the kitchen on the opposite of the house, no more than a couple of dozen feet.
+it reports a 36 megabits per second link.
+both read a strong signal and are using 802.11n.
+in contrast, the hp, quad-core elite desktop i have in the media room down the hall (same room as the wireless xbox), registers a 135 megabits per second link with an excellent signal.
+there are more walls between the media room and my so called office than between the kitchen with the vaio, and yet the desktop is getting the quickest link.
+some specs: these three computers are using 802.11n and report excellent signals.
+the macbook pro is a 2007 model with a 2.4ghz core 2 duo processor while the sony vaio is a model from last year and features a slower, 2.0ghz chip.
+both have 4gb of ram.
+the mac has the latest version of os x leopard (10.5.7), the vaio has vista home premium sp2.
+the quad-core hp runs at 2.66ghz, has 6gb of ram, and runs vista ultimate.
+it is getting the fastest connection while being the farthest away from the router.
+this could either be because of different wireless card manufacturers, but i think not.
+every mobile, handheld device i own reports weak signals in the same room as the router.
+my iphone 3g can't pick up the network if i ventured outside, next to my kitchen and my first-generation ipod touch registers a single bar in the same room as the router.
+the iphone is on os 3.0 as of this week, but i have yet to upgrade the touch from os 2.2.1. i recently tried scanning for networks on my old sony psp device, using its latest firmware, and in the same room as the router (this does get repetitive), it registered a signal strength of 14% while the neighbors across the streets had a signal of over 50% entering my home.
+now i think that portable gaming device only uses 802.11b, but my router is set up to allow b, g, and n traffic.
+what other tests can i run or perform in order to correct this poor signal and coverage problem?
+i tried using ap grapher on my mac, but it has been crashing continuously and hasn't provided me with any useful information yet.
+this is very bothersome.
+i think these observations, at the very least, do show how poor the coverage of my belkin router is.
+this appears to be the official product page for it .
+i think it should have better penetration around the house.
+my neighbors have an older netgear or linksys router that may only run up to 802.11g, and yet it spreads out much further.
+i know that some routers are just better overall when handling coverage and throughput, but this looks abnormal.
+i have already thought of using a range booster, but considering that i am getting very mixed results in the same room as the router, that may not help me so much.
+thoughts on that?
+3. i know this is very long, but please, bear with me.
+as i have posted in previous threads before in the macintosh-related forums, my macbook pro has reported errors in regards to wpa encryption on my wireless network.
+it only occurs with my macbook in my house.
+when i have taken it with me to visit others, their wpa networks operated absolutely fine.
+according to this apple discussion thread you can see that some others have seen similar problems, but have believed that these errors in os x's network utility are merely showing that some packets are being retransmitted and lost.
+i mean, the network can operate on wpa of course, but give it a little bit, and the errors both sent and received by the macbook increase more than exponentially.
+even if this is harmless as i have been told before here, on this link i have, and from some observations, i would like it to stop.
+considering that my nat problem is absent for the moment, i want to knock all of these issues out of the park for good.
+how can i go about fixing this?
+--- now, i am considering replacing the belkin router with a new airport extreme base station and possibly adding in an airport express unit for good measure this weekend.
+i also intend to replace all of my networking cables, for new gigabit ethernet wires just to be safe.
+if i see no major improvements, there's a good chance i'll return the apple networking gear (if i can make it to an apple store with all of this iphone madness going around).
+if that fails, i will once again investigate settings on my 2wire gateway, which is one thing that is a very time consuming task over here.
+it is currently bridged to disable its routing functions since the belkin should be faster with is 802.11n capabilities.
+so its firewall should be off and should have no effect on anything, but you never know... i hate working with it as it has two separate interfaces, one only accessible when it's functioning as a router.
+to get out of bridge mode, i have to reset the entire thing and set it up as if i just got it out of the box.
+getting into bridge mode, according to a dslreports guide, is much easier for me.
+i think i've done that properly.
+but since i have had so many nat problems, i wonder: if i restored my 2wire's routing capabilities, disabled its wifi, and connected the belkin, what results would i get?
+i did this before long ago, but i was getting double nat interference.
+my mac noticed this and didn't agree with it at all.
+but, if i disable the firewall on the belkin while still using it as an external router, will my network still function?
+more importantly, is this safe?
+the belkin would then broadcast a signal, but it would not provide any protection save that from the firewall on the 2wire, the separate device.
+this could work, but i have yet to try it out.
+i think i already tried the reverse at one point, but decided it was not working any better than bride mode.
+i'll have to see.
+sounds simple enough, but i never seem to have enough time to dedicate to work on any of this thoroughly.
+plus, i always worry about breaking something in the 2wire's functionality.
+it's not easy to work with.
+please, any suggestions or feedback would really help me.
+again, if anyone could provide some counsel or references that i could work with, i would really appreciate it.
+i'm making this my weekend project, and i intend to succeed.
+i am prepared to either troubleshoot or replace the entire modem and/or router.
+if i need to clarify any other details, i can and i will if asked.
+many, many thanks.
+-bmf

@@ -1,0 +1,8 @@
+it's only purpose would become to enter it's web interface to configure it.
+you'd probably want to put it within the same range as the linksys but outside of the dhcp allocation range so what you're suggesting is correct.
+i suspect you cannot log into the d-link because your pc is out of it's range.
+what you can do is disconnect your pc from the rest of the network and connect it to the d-link only.
+if it's still dhcp enabled, it will give you an ip address and you can access its web interface.
+if it's not dhcp enabled, you just give your pc a static address within the range of what you've assigned to the d-link.
+this should allow you to configure it and save the settings.
+of course, you only get to do this once until you re-enable dhcp and put both your pc and the d-link back on the lan.

@@ -1,0 +1,13 @@
+in a home environment nat does almost as much to protect you as a firewall.
+the primary job of a firewall is to prevent unauthorized traffic from getting to your machine.
+when you have only a single real ip address the router has to be told where to send the traffic.
+it is smart enough that if you talk to a site on the internet it will allow the traffic to come back in.
+for traffic that comes in without you asking first the router is stupid and throws it away since it dose not know where to send it.
+not a lot different than if you put a rule in the firewall.
+if you run dmz type configuration that tells the router to send everything by default to a machine then you need a firewall more since unknown traffic will come into a machine.
+there are ways to place a hardware firewall in your setup but it gets messy since the wan link is wireless and you still want to use wireless on your lan.
+you could always buy one of the usb things for the verizon and buy a aftermarket router that has a firewall if you really wanted.
+i suspect you will be fine with just the pc firewall, just do not setup the dmz or port forwarding unless you absolutely need it.
+make sure you test this before you commit to a 2 year contract.
+if you cannot get lte (4g) coverage in the house it will be very slow compared to anything else you have used.
+3g coverage is fine for phone surfing but is painful when used with a computer.

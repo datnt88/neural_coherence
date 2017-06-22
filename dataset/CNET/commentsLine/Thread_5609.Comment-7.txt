@@ -1,0 +1,3 @@
+ok, that model is not a router, so it is already bridged and passes everything through to your netgear.
+have you tried to reduce the mtu size in the wan setup of your router configuration menu?
+if mtu size says 1500, drop it to 1492. if it is already at 1492, try dropping it to 1472.

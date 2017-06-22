@@ -1,0 +1,6 @@
+scandisk scans the hdd sector by sector and it has a better and more rigid testing parameters than checkdisk.
+if it finds a bad sector, it tries to recover the data written on that defective sector then transfer it elsewhere to a non-defective sector.
+scandisk thereafter patches or marks that defective sector as bad so that any data will not be written on it later on.
+if bad sectors had been reported in your hdd, then you have to prepare yourself for hdd replacement.
+back-up all the files.
+don't re-format it (i am referring to the defective hdd) , erase important personal files so you can show the defect to the shop where you bought it, of course, if it is still under warranty, else, you need to buy a new unit.

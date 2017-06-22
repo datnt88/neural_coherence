@@ -1,0 +1,5 @@
+to boot from a nas would mean it would have to be running some piece of software that would send out a &quot;magic packet&quot; or some such thing.
+nas devices tend to be rather passive.
+booting over the network is usually done by &quot;wake on lan&quot; (wol) through the network interface device.
+it's done by broadcasting the &quot;magic packet&quot; to specified mac addresses that you want to start.
+i don't think a nas can do that, but i could be wrong.

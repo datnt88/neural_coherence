@@ -1,0 +1,15 @@
+i'm having lots of grief in configuring my wireless network.
+last week, before i moved, everything was working fine.
+i had cable internet, my desktop pc was connected directly to my wireless router, and my laptop used wireless to connect to the network.
+on the weekend i moved, changed isps, added a voip terminal, and am now trying to configure both my pc and laptop with wireless cards.
+here's my layout: cable -&gt; cable modem -&gt; voip terminal -&gt; wireless router after experimenting a long while last night, i was able to get either my laptop or my desktop connected, but not both!
+both pcs are running win xp sp2.
+here's what i know for sure: - the internet connection itself is working.
+i can connect to wherever at one of the computers.
+- the restriction doesn't have to do with the acl on the wireless router (as i've disabled it and still have the problem) - the problem doesn't appear to be security related, as i can remove all security on the router and still have the same problem - i reserved two ips on the router, one for the desktop, one for the laptop, and configured their wireless cards to use these ips.
+this doesn't seem to be the problem, but i could be wrong.
+- the pc that can't connect is getting dns information, but not much else.
+if i ping google.com, it resolves to an ip, but i never get a response.
+also, from this pc i can't ping other pcs on the network or the router.
+- both pcs are connecting to the wireless network, but one of them can't connect to the internet or to anything else on the network.
+does anyone have any thoughts on what might be wrong, or what else i could do to diagnose and fix the problem?

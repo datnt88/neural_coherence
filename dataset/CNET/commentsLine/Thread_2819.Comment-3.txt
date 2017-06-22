@@ -1,0 +1,5 @@
+should have reported bad sectors and locked them out as part of the full format.
+analyze the disk using disk management and see if it reports a bad sector or locked sectors.
+you can as you stated swap out memory modules to test those besides memtest (but still a good idea).
+running disk diagnostics is limited if it not allowed to actually write to all sectors, such as to your disk.
+if in doubt get a new drive copy everything over (ghost or new drives utilities), reformat the old one and use it for backup unless its bad.

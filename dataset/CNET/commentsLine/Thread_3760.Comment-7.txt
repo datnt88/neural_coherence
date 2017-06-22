@@ -1,0 +1,15 @@
+before we start to dig into your router and it's settings let's try one more check.... on your desktop go to control panel &gt; hardware and sound &gt; printers &gt; right click on canon ip4300 &gt; left click properties &gt; click &quot;ports&quot; tab and verify: -printer is connected to correct usb port click &quot;advanced&quot; tab and verify the following is selected: -always available -priority = 1 -driver = canon ip4300 -spool print documents so program finishes printing faster -start printing immediately -print spooled documents first -enable advanced printing features click &quot;security&quot; tab under &quot;group or user names -printer is available to everyone should be highlighted under permissions for everyone -print = allow click &quot;share&quot; here i'm going to make a few assumptions... #1 share this printer box is already checked #2 you have a name entered to identify the printer for sharing.
+now here's the tricky part.
+i know that you are running vista on your laptop.
+however, i don't know what os you are running on the desktop i'll assume it's not vista?
+you'll notice that there is a &quot;drivers&quot; box located in this tab (share) as well.
+read the explanation in the box and you'll get my meaning.
+i'm gonna go out on a limb here an make an assumption that your laptop in downloading the vista compatible drivers each time it prints to the shared printer.
+that's why you continually see the drivers being installed.
+so, the data is being sent to the printer cue, the drivers are being installed and by the time you reboot (your laptop) the document has printed.
+the following link better explains my point.
+in effect your desktop is acting as a &quot;server&quot; and your laptop is the &quot;client&quot;.
+the article is a little dated but the principle is the same.
+click ok after downloading the correct print drivers.
+on your laptop open the ip4300 properties &gt; click port tab &gt; make sure it points to the &quot;shared printer name and its location&quot;.
+verify what i've just given you and if you agree let me know and i can provide a network print solution that ignores the os of the computer for faster printing.

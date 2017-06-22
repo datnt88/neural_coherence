@@ -1,0 +1,17 @@
+hi.
+here is what is happening.
+intranet = network 1 - n1 - 192.168.1.x access point + router + isp = network 2 - n2 - 172.16.1.x 1. your intranet is a separate network.
+lets say - 192.168.1.x.
+2. it can access all other networks by connecting to the access points interface that is directly within this network - access points first ip - 192.168.1.1 3. to access all other networks and gain access to them, the packets have to go through the access points second interface - 172.16.1.x.
+4. problem - access point, acting as a router, will allow only common ports to transfer data from one interface to another.
+common ports 80, 21* etc.
+5. now my question is - how are you transferring files?
+if you are using ftp then this problem seems queer.
+do you use ftp and try to connect to server using the ip address or the name?
+if you are using default file sharing, this might happen as ports used for file sharing are 135 to 139 and are blocked by default - rerouted through isp.
+6. so i need this information: a. method used by you to transfer files.
+b. direction of file access - server to clients or clients to server?
+c. function of the server.
+if it is a server on the internet, then all that you have said makes sense.
+please elaborate.
+navneet.

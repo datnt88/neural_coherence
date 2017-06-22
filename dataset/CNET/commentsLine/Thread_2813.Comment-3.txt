@@ -1,0 +1,8 @@
+usb1 and usb2 cables are wired exactly the same.
+the usb2 cables are shielded better, and thus can be spec'ed for higher signal speed than the older usb1 cables.
+however, depending upon the environment (how &quot;rf noisy&quot;) and cable length, a very short run of usb1 cable should be able to handle the higher speed of usb2.
+usb1 (actually usb1.1) or otherwise called &quot;usb full-speed&quot; interface is supposed to go 12 mbps (mega bits per second) and usb2, or otherwise called &quot;usb hi-speed&quot;, is supposed to go 480 mbps.
+12 mbps is approximately 1.5 mbps (mega bytes per second) and 480 mbps is approximately 60 mbps.
+but that does not provide for any protocol overhead, and other loss.
+so far, neither interface is yet living up to the hype.
+i think, on a good day, usb1 interface is typically getting about half of its promise, around 0.8 mbps, and usb2 is typically getting much less than a third of its promise, at about 8 to 20 mbps.

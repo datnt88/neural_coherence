@@ -1,0 +1,22 @@
+hey everyone this is my first post here.
+i am not a networking expert and i need some help and possible clarification.
+first let me start off by saying i currently am switching from hughes net broadband internet service.
+(satellite) i will be replacing it with the basic dsl service from at&t.
+now, i have two offices currently networked (wired) together and because i am on the basic dsl service plan (will upgrade when available) i would like for each office to have its own connection to the internet to lighten the load.
+yet, i still want them to be networked for file sharing.
+this is what i envision: office one: modem 1 router 1 -will be given the address of 192.168.1.1 -will not be set as a dhcp server -will allow ip connections from 192.168.1.2-50 hey everyone this is my first post here.
+i am not a networking expert and i need some help and possible clarification.
+first let me start off by saying i currently am switching from hughes net broadband internet service.
+(satellite) i will be replacing it with the basic dsl service from at&t.
+now, i have two offices currently networked (wired) together and because i am on the basic dsl service plan (will upgrade when available) i would like for each office to have its own connection to the internet to lighten the load.
+yet, i still want them to be networked for file sharing.
+this is what i envision: office one: modem 1 router 1 -will be given the address of 192.168.1.1 -will not be set as a dhcp server -will allow ip connections from 192.168.1.2-50 -will be connected to the switch clients -will have a manually configured ip from 192.168.1.2-50 -will have a gateway of 192.168.1.1 -will be on the network called dasilveira switch office two: modem 2 router 2 -will be given the address of 192.168.2.1 -will not be set as a dhcp server -will allow ip connections from 192.168.2.2-50 -will be connected to the switch clients -will have a manually configured ip from 192.168.2.2-50 -will have a gateway of 192.168.2.1 -will be on the network called dasilveira my question is will this work.
+even though i have two separate routers, which will be connected by a switch will, the computers still connect on the same network.
+will i have to use the rip feature?
+if so how exactly does this work?
+will my routers recognize one another and now that the clients are on the same network and allow them to communicate?
+(my switch does not have the option to change any settings.)
+i know about dual wan routers but have never worked with them.
+also, from my understanding the second wan is for back-up purposes only.
+unless, you can specifiy on a dual wan router which computers use what connection i do not think it would be helpful.
+thanks, tommy

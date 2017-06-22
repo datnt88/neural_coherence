@@ -1,0 +1,7 @@
+hello, your bios may not recognize a 160 gig hard drive.
+due to bios limitations as well as those unique to windows, partitioning and formatting drives larger than 137 gigabytes without proper driver or controller support will result in data loss when storing data to the drive beyond the 137 gb barrier.
+in order for you system to recognize more than 137 gb you will need to utilize one of the following recommended solutions: if you have a motherboard that has a intel chipset (810, 810e, 810e2, 815, 815, 815e, 815ep, 815p, 820, 820e, 830m, 830mp, 830mg, 840, 845, 850, or 860) please visit intel's web site and download the intel application accelerator.
+intel's application accelerator supports the full capacity of drives larger than 137 gb.
+if you do not have a motherboard that has a intel chipset then it is recommended that you purchase an ultra ata 133 pci card that supports 48 bit logical block addressing (lba).
+you can purchase the maxtor ultra ata 133 pci card, which supports drives that are larger than 137 gb, directly from us or your local distributor.
+if you do not follow either of the above steps, and you attempt to use a drive that exceeds 137 gb and/or that relies on 48-bit logical block addressing by attempting to &quot;tweak&quot; the system even though your ata controller, chipset drivers and/or system bios do not properly support 48-bit logical block addressing, data loss will occur when storing data to the drive beyond the barrier.

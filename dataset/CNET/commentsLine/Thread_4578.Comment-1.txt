@@ -1,0 +1,23 @@
+i have a dsl router/modem actiontec m1000 from qwest.
+it has a wifi dongle-bopper, and a single lan port that i have connected to a tp tl-r860 router, to which i have connected all my hard wired devices.
+i need to be able to network the wireless devices connected to the actiontec m1000 and the wired devices on the tplink subnet.
+details: actiontec m1000 (with wifi dongle) wan address assigned by pppoe, irrelevant.
+lan address 192.168.0.1 wireless devices are on this 192.168.0.0 subnet.
+there is no way to assign ip addresses to specific devices, i.e.
+no dhcp reservations with this firmware.
+tplink tl-r860 (no wifi) wan address assigned by m1000, 192.168.0.2 lan address 192.168.1.1 hard wired devices are on this 192.168.1.0 subnet i can reserve dhcp addresses by mac address.
+questions: 1) i need to allow the wireless devices (laptops, tablet) on the m1000 network to access printers (jetdirect networked hp 1320n) and devices (pogoplug, roku, desktops, etc.)
+i have added this route to the m1000: 192.168.1.0/255.255.255.0/192.168.0.2 but cannot connect from the wireless devices (192.168.0.0 subnet) to the wired devices (192.168.1.0) subnet.
+is it even possible with my configuration?
+if so, what am i missing?
+2) since i cannot assign ip addresses on the m1000, can i set the dhcp ip range to say, 192.168.0.3-100, and set my tplink router with a static wan ip of 192.168.0.2?
+(so that ip is not assigned to another devices, and mess up the m1000 routing table.)
+would the m1000 be &quot;aware&quot; of this setting?
+can i add an entry to the routing table to make it aware?
+notes of some relevance: i do not have the firewall or any security enabled on the tplink router.
+i have no problem connecting to the internet with any devices.
+i previously have set the m1000 as a transparent bridge, and it worked fine and would continue to be so if not for the need of the wifi capability of the m1000.
+the tplink router is wired-only.
+i have considered disabling dhcp on the tplink router, having it act like a switch and getting addresses from the m1000, but i sorta need static, assignable addresses for my wired network.
+(specifically for setting up a web server for roksbox and roku.)
+and, like i said, the m1000 is not capable of reserving dhcp addresses with this firmware.

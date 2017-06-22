@@ -1,0 +1,11 @@
+i am still working on this but i see a couple of things.
+for one, when i installed xp pro i received a blue screen error because the hp recovery partition on the second drive had a listing in the mbr.
+the &quot;fixmbr&quot; and &quot;fixboot&quot; command failed to fix this so i deleted that partition and i no longer received the blue screen and could boot into windows.
+(i did create the recovery cd's) upon doing this, the drive letter changed from c:\ to e:\ in which windows was installed.
+despite the fact that it boots perfectly, when accessing the boot.ini file i receive the error &quot;windows cannot open c:\boot.ini&quot; yet it still boots!!
+and even more confusing, when i enter setup after booting from the (&quot;educationally discounted&quot; non-pirated) xp cd, setup sees the 2 100gb hard drives seperately but with the same identification.
+e.g they both read: 95394 mb disk(0) at id(0) on bus(0) on atapi [mbr].
+it is if it sees the 2 hd as 1 logical disk yet lists them seperatley.
+windows will not let me create a boot.ini file and i am afraid to alter the registry to force a change in drive letters for the primary system volume.
+i am still really confused but i think you nailed where the problem lies and i appreciate it.
+james

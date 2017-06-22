@@ -1,0 +1,9 @@
+matx is microatx.
+bigger boards are usually more expensive to manufacture so many desktop boards are now microatx.
+microatx mobos still have the features that most people use (8 usb, firewire, 4 sata ports, 8 channel sound, etc)... full size atx boards usually add things like on-board wi-fi, additional sata/ide ports, dual ethernet nics, dual graphics slots, etc.
+if you're interested in raid, the ga-g33m-ds2r (the next step up) has raid support built-in.
+all you need is add a second hard drive.
+the ds2r uses intel matrix raid which allows you mix raid levels without only 2 drives.
+so for $210 (dual 500gb drives) you could have a mirrored (raid-1) 200gb boot drive to store the os and important files (e.g.
+final masters), and striped (raid-0) 550gb to house the pagefile, temp/scratch areas, and work-in-progress.
+ga-g33m-ds2r, $142:

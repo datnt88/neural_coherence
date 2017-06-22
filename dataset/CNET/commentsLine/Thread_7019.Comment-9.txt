@@ -1,0 +1,12 @@
+intel's built-in raid controllers on their server boards are pretty good (but a bit feature starved).
+your backup strategy (like most people's) doesn't appear to include image backups.
+so, if either drive fails, you'll have to reinstall the os and all of your software.
+even if you ghost a bare install to the replacement drive(s), you'll still lose a day or two.
+if you don't do image backups and daily incrementals, then i recommend a mirror for the os and apps.
+the difference between 7200rpm and 10000rpm drives for app loading/interaction is minimal.
+(for a server, the faster access time raptors provide is a big benefit, but for a workstation you won't see that much improvement in your daily activities.)
+the raptors speed will be seen in pagefile/scratchfile performance and reading/writing large datasets (like video editting, big photoshop images, etc.).
+that same speed benefit can be achieved with 2 7200rpm drives in a stripe set.
+as for relying on the network as your main backup method, the wisdom of that all depends on the backup policy of your network.
+aslo, simply copying files to the network is not a good backup strategy.
+some type of full backup (at least for your data files tree) along with incrementals/differentials is essential.

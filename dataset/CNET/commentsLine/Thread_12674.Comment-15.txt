@@ -1,0 +1,14 @@
+please remember that the original poster said that he or she was relatively new to this issue and so simplifying a complex subject is appropriate.
+what you are forgetting is dispatcher time - that cpu power used for no useful purpose than task switching.
+in fact, just loading up the four applications i mentioned fires up 48 processes, i.e.
+12 per core on a quad core cpu or 24 on a dual (on average - another over simplification).
+assuming you didn't start the applications just for the sake of it and you want to actually use them, it is very easy to saturate a processor even allowing for the gross inefficiency of the ia and windows designs.
+if all applications are actually doing something, the dispatcher will be making frequent task switches as tasks enter wait states and interrupts to request restart.
+in principle, you are halving these dispatcher actions as you double the number of cores.
+clearly, if you are idling your machine at anything less than 25% busy (mine work for a living), a uniprocessor will probably do the job assuming a reasonably low degree of serialization.
+between 25% and 50%, a dual processor would be indicated and anything over 50% will benefit from a quad core.
+these numbers, again, err on the side of simplicity, the level of serialization and the performance of the peripherals can apply a significant variation.
+your suggestion that 4 computers would do the job is flawed, if the aggregate capacity is that of a single core machine.
+the benefit of a quad core over 4 single cores of equal capacity is that it is unlikely that all four cores will peak at the same time, so a busy core, given an average level of parallelism (like the case above) can &quot;borrow&quot; additional capacity from an idle core, which can't be done in the separate ia machine environment.
+now, if you were to move up to ibm z series mainframes in a parallel sysplex, then your argument would be valid - a tad expensive for most of us, though!
+have a good weekend!

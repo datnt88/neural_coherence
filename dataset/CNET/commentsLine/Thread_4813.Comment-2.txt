@@ -1,0 +1,12 @@
+i stress i have no knowledge of this, but your question interested me so i did a little research.
+have a look at proxy and the windows hosts file .
+it says; &quot;using a remote proxy server which basically does the dns requesting for you does prevent the hosts file from being considered.
+in other words ...your browser will route its request through your proxy server before your machine looks up an entry in hosts.&quot; that said, another article seems to say this is a setting in the browser on each machine connected to the server.
+look at  then scroll down to section 4, &quot; (4.)
+if you have a proxy server: &quot; &quot; in ie - choose tools:internet options:connections and choose your connection.
+if you are using a proxy server, make sure the box called &quot;bypass proxy server for local addresses&quot; is checked.
+in netscape - go to edit: preferences: advanced: proxies and click the manual setting.
+then click on view and type &quot;127.0.0.1&quot; into the exceptions box at the bottom &quot; i think that is saying, check ie on each machine and remove the tick for &quot;bypass proxy server for local addresses&quot;.
+and the same for other browser types.
+does that help?
+mark

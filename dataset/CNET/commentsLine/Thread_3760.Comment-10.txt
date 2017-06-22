@@ -1,0 +1,21 @@
+the benefits of this setup are: - ip4300 resides on your network - ip4300 is available to any computer connected to your network (wired/wireless) - no need to have multiple drivers loaded on each computer ----- laptop = vista drivers for the ip4300 ----- desktop (melanie) = xp drivers for the ip4300 long story shorti could bring a laptop running windows 2000 to your home, download compatible drivers for the ip4300, setup a standard tcp/ip port for the ip4300, connect to your network (with your permission) and print!
+heres a real world example: my girlfriend connects to my network with her laptop running xp and prints to my hp officejet pro l7680.
+i connect to her network with my laptop running vista ultimate and print to her cannon mp730 (which by the way is an older model than your ip4300).
+this solution will require you to invest in a print server and ethernet cable.
+i recommend the trendnet te100-p1u printer server because its inexpensive and easy to install.
+it may be ordered on-line from.... trendnet  for $55.99 dell  for $49.99 office depot  for $47.95 i found one locally at microcenter for a friend.
+youll need an ethernet cable long enough to run from the print server to a lan port on your router (you do have an open port?)
+connection sequence would be: ip4300 &gt; usb &gt; print server &gt; ethernet cable &gt; router.
+things you want to do first: - install xp sp3 on desktop computer (highly recommended) - download appropriate ip4300 drivers for the os installed on the specific computer store them on the desktop of each computer for easy access (* see note) - access your router's online admin and enable dhcp.
+dhcp enablement is usually under the basic setup tab in router admin.
+you should select automatic configuration for dhcp.
+enabling dhcp will automatically assign an ip address for the print server/ip4300 or any other device you connect to your router.
+be sure to save the settings and exit router admin.
+after you make the above connections youll want to obtain the ip address of the print server/ip4300 by going online again to your routers admin and look for the dhcp client table which will list the ip address for your print server/ip4300 write it down youll need it later.
+i have a linksys router and my dhcp client table is located under: - status tab &gt; dhcp server &gt; dhcp client table assuming everything thus far has gone without a hitch youre now ready to setup the ip4300 on your computersone at a time.
+heres how: control panel &gt; priners &gt; add a printer &gt; add local printer &gt; create new port &gt; standard tcp/ip port click next &gt; select auto detect (if available) &gt; host name/ip address (type the ip address you wrote down youll notice that the port name field populates automatically as you type) click next &gt; install printer driver here you can select canon on the left and ip4300 on the right (* see note) click next &gt; follow instructions from this point on its simple when you are asked if you want to set the ip4300 as default select yes when asked to print a test page select yes.
+if everything went as planned, you can click o.k.
+after the test page prints and start printing normally.
+if everything works as it should you can delete the icons for the previous ip4300 installations via control panel &gt; printers on each computer.
+keep me informed as to your decision.
+* note: if your ip4300 is not listed when you are asked to install print drivers - select &quot;have disk&quot; (browse to location where the drivers are located, select the file, click &quot;ok&quot; - follow instructions from this point.

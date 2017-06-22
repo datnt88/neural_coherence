@@ -1,0 +1,13 @@
+hi scott, the easiest solution would be to install a vpn/firewall at the nj site and allow users to vpn in.
+the vpn/firewall would serve as the vpn termination and once the clients sucessfully authenticate to it, have them get the files from the vista pc.
+(server) vista business and ultimate can handle 10 concurrent connections so you're okay there at least for now.
+i understand price is an issue as we're all hurting.
+if you can swing it, my preferance would be to use a sonicwall firewall as they can be easily set up and running with ipsec vpn access in no time.
+sonicwall has their own vpn client software so all you need is a downloaded vpn policy file from the firewall, import it and you're done!
+second choice would be the progear series vpn/firewall from netgear.
+they are cheaper, but not a solid as sonicwall.
+i've had a netgear vpn/firewall literally take a dive already.
+if i use sonicwall as an example, the tz190 can handle site-to-site vpn's as well as client-to-site vpn's.
+buy additional client vpn licenses as you go.
+and in either case, (sonicwall or netgear) you'll really only need 1 public ip.
+hope that helps...

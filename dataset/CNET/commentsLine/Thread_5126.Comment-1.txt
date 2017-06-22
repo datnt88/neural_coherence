@@ -1,0 +1,8 @@
+i am getting first these errors (3) and then these (2) warnings in the windows system log about ssl on each boot event id 15021 (error) an error occurred while using ssl config for socket address 151.24.100.42:6331. the error status code is contained within the returned data.
+ditto (160.254.2.2:6331.)
+ditto (192.1168.1.34:6331) event id 15300 (warning) ssl certificate settings deleted for port: 192.168.1.34:6331 event id 15301 (warning) ssl certificate settings created by an admin process for port: 192.168.1.34:6331 ive found the solution here:  but i am stuck at step 3 because i am not that techno-savvy when i type & enter &lt;netsh http delete sslcert&gt; i read the following: one or more essential parameters were not entered.
+verify the required parameters, and reenter them.the synthax supplied for this command is not valid .
+check help for the correct synthax.
+usage: delete sslcert [ipport=]&lt;ip address:port&gt; parameters: tag value ipport - the ipv4 or ipv6 address and port for which the ssl certificate bindings will be deleted remarks: deletes ssl server certificate bindings and corresponding client certificate policies for an ip address and port.
+examples: delete sslcert ipport=1.1.1.1:443 delete sslcert ipport=0.0.0.0:443 delete sslcert ipport=[ :: ]:443 i am not sure but it all started when onecare was updated to v.2 (could it be involved?)
+i would greatly hope/appreciate if someone out there could help me further.

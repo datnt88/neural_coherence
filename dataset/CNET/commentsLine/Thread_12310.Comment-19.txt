@@ -1,0 +1,23 @@
+you are in an environment with many signals coming from neighbors.
+try the following: 1. reset your router to factory settings and establish that you have rock solid wired connectivity from the computer through to isp, ie.
+leave computer on for 24hrs and check connectivity occasionally.
+if you are patient enough, try it with the router's radio on and off for 24hrs each.
+2. test for wireless signal: change the router ssid to a unique name different from factory setting or neighboring ssids.
+enable ssid broadcast.
+turn on router radio and disconnect the ethernet cable to laptop.
+can your laptop detect your router's wireless signal?
+never mind if you can't get an ip yet.
+make sure there is no conflict between the laptop's wireless software utility, if it exists, and xp's wireless zero configuration (wzc).
+disable one or the other when testing.
+some mfr's wireless software conflict with wzc but recent wireless adapter chips & utilities are cooperative.
+3. after detecting your wireless signal, select your ssid to connection to.
+if you then get an ip but lose it after a while, try changing the channel.
+4. if you still lose ip after trying different channels, turn on the mac filter in your router and enable only your laptop's mac.
+this should prevent neighboring signals from connecting to your router.
+5. make sure your ssid on your laptop is the uppermost in priority if you are also receiving neighboring ssids.
+6. if you still lose ip, the dhcp server in your router is probably flaking out when there is interference from neighboing wireless signals.
+try the router in another location with isp service (friend's house?)
+that is away from your complex to see if it makes any difference.
+if you still lose ip at your complex but not elsewhere, buy and try different wireless routers.
+btw, pre-n is not good enough yet; better to use mimo or plain 54g with dual antennas.
+good luck.

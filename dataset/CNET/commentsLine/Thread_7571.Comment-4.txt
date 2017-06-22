@@ -1,0 +1,6 @@
+what will happen when you format the drives as 146gb is that you will have your extra 8gb on the side.
+i believe that if you wanted you could actually use that extra 8gb as storage; but that is dependent on the controller and i dont know which adaptec you're using.
+once again; yes, if you repartition your 154gb array to 146gb and use your 3rd hdd as a hotspare; it will work!
+write-cache is a feature that will enable you to get better performance from your drives; once again, how this works is dependent on your controller, but for the most part it is based in the controllers ram.
+what it does is it stores the read write operations for the disks in the ram until it can more effeciently do that operation.
+hence; if you want better performance off your raid; i assume you do, then go ahead and enable it.

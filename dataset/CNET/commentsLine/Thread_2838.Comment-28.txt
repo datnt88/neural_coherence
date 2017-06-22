@@ -1,0 +1,6 @@
+the computer industry has defined a binary gb as 2^30 bytes (1,073,741,824 bytes).
+1,073,741,824 bytes = binary gb 1,000,000,000 bytes = decimal gb so you can make this equation: (1,000,000,000 bytes / decimal gb) = (1,073,741,824 bytes / binary gb) the equation shows that one decimal gb = 0.931322575 binary gb.
+this means that any hard drive size reported in binary gb will be shown as about 93% of the decimal gb total indicated on the hard drive's retail packaging.
+another way of stating this is that windows (and other os'es) will report the total gb as about 7% less than what you expect.
+for our 320gb hard drive example: 320 decimal gb * 0.93132 binary gb / decimal gb = 298 binary gb (approximately) * * * * * you have defined a decimal gb as 2^8 * 1,000,000. see below: 1024 * 1,000,000 = 1,024,000,000 bytes = binary gb (incorrect definition) obviously 1,024,000,000 does not equal 1,073,741,824, so we are going to see a difference in our results.
+carrying out the math... 1,000,000,000/1,024,000,000 = 0.9765625 320gb * 0.9765625 = 312.5gb (your figure) this gives the incorrect result when calculating binary gb.

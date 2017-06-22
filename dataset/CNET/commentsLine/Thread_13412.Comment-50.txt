@@ -1,0 +1,32 @@
+i have read through a good number of the posts above, although not all, and have the following thoughts: first, a constantly/daily changing password will annoy your regulars.
+how much?
+i don't know, but it may cost you business.
+i think your best solution would be to first, post your expectations to customers.
+make sure they know that the service is not intended for high bandwidth use.
+second, configuring your local network.
+as noted by some, you need two separate networks: one for your business and one for your customers.
+this does not require two connections.
+assuming your current bandwidth can handle all the traffic of both, you would probably want to go with a switch or router as the first point of connection which has no other services going, beyond basic routing activity.
+not even a firewall.
+connected to that are two separate routers, one for your business and one for your customers.
+if you have a powerful (expensive) enough business router, this can be done with just the one appliance.
+i am assuming you don't have some high-end cisco or such appliance.
+on the router for customer use, it would need to have the ability to perform bandwidth throttling on individual connections.
+decide how much bandwidth you want to allow any given user to pull at any given time, set the throttling to that amount and all is taken care of.
+you might want to consider a second, secure connection for &quot;regulars&quot; and special cases to whom you wish to provide more bandwidth.
+the first customer connection would have no security beyond initial direction to a tos agreement.
+this will pretty much eliminate any need of support.
+if you enable security, you will almost certainly regularly have problems with customers connecting and needing help.
+you don't want that.
+any type of firewall will cause a reduction in available bandwidth, so beyond the inherent nat firewall, you probably don't want one.
+as you move to increasingly costly and advanced routers, requiring more advanced and expensive technical skills to configure and operate, there are ways to allow users brief periods of high bandwidth but then fall back to a slower bandwidth after some period of time.
+this would allow the casual users higher performance while making life not so nice for the big file down-loaders/media users.
+you have to balance things like a $2000 router and a $100 an hour network person to setup and maintain against the cost of higher customer bandwidth use and possibly having to increase the bandwidth to your business.
+i like the one suggestion given regarding a farady cage using chicken wire, but i'd have to question what that might do to things like cell phones and devices operating along those lines?
+would that kill my phones 4g reception?
+... as others have pointed out however, the availability of the internet at such places is likely a significant draw to your business, providing you with additional customers who stay longer and probably purchase more so you have to carefully consider the advantages and disadvantages to any given approach.
+you might consider establishing some means of simply monitoring the bandwidth used by any given connection.
+as others have also pointed out, the customer router/network should be off when the business is closed.
+check around and see if there are any roi studies covering this topic.
+i expect that someone has done such and let that be your guide: what is the return on investment by providing various types of access?
+with best wishes for your success, mike

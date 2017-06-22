@@ -1,0 +1,9 @@
+effective with the recent daylight savings time change (just coincidence, i'm sure!
+), three of the four computers on a linksys wireless b (infrastructure) network lost access.
+the rf signal level was great, but the router would not assign ip addresses to three computers.
+a chat with the 24/7 help guy at linksys (probably in calcutta!
+), was to no avail.
+i tried the usual soft and hard resets, channel changes, etc., but finally got the system working again by increasing the maxinum number of ip address that the dhcp utility of the router can assign, from 50 to 100. now the router assigns x.x.x.101 to the computer that always worked, but x.x.x.151, x.x.x.152 and x.x.x.153 to the other three.
+none of the intermediate values show up on the router's list of assigned ips, so why the big gap in assignments?
+the network is not encrypted, but mac addresses are filtered to keep the casual snoopers out.
+i am back in business, but really wonder what's going on here.

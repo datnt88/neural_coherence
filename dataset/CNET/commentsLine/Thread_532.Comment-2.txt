@@ -1,0 +1,10 @@
+not sure what you are asking.
+you can only plug a single cable into each sfp .
+it has 1 strand for transmit and 1 strand for receive.
+you want to cross transmit to receive, most cables you can very carefully swap the pair at the end.
+what you need is a dual strand lc-lc cable the proper length.
+i assume even though you have lx sfp you are going a short distance so you can use multimode cable.
+if your question is do you buy 4 sfp and run 2 connections between the switches for redundancy then you get even more questions since you must have configurations to allow for it.
+if you are running a fiber within a building it is very unlikely it will ever fail.
+the failure for fiber is that someone physically breaks it.
+when you look at fiber redundancy you must run the fibers in different paths since things that break 1 fiber tend to break all at the same time.

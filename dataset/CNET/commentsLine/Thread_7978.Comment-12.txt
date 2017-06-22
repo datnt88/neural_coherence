@@ -1,0 +1,21 @@
+your system can't resolve the names you type in.
+somehow, its not connecting to the dns server to resolve.
+here's the place to start to diagnose the problem...  here what i would do: 1. if you have another computer, connect to the same router and get on the internet.
+if that works, that means the dns server on your isp side is not the problem.
+the config on the computer experiencing the dns error is the problem.
+1a.
+find out the ip of the dns server by going into your router's utility page (usually 192.168.0.1), go to the status, device info and wan (or something similar to this).
+you should see dns and a couple of ipaddresses.
+take one of these no.
+and go to the cmd window and ping it.
+if you can't ping it, then something in your computer is preventing it.
+1b.
+go to your cmd window.
+type ipconfig /all.
+if these setting were automatic, you should see an ipaddress for the router like 192.168.0.1. so when you type a name and your computer doesn't know the ipaddress, the request goes to the router and the router sends it to the dns server and it comes back to your computer with the right ipaddress.
+if the settings on these are wrong, then your going to have a problem.
+1c.
+if your computer thinks it knows the ipaddress to a name such as google, but it's corrupt, then the problem is probably with the hostfile or dns cache.
+2. if it shows the same error as the other computer, that may mean that there's a dns server problem.
+either your not connecting to it or possible the dns server is down.
+i would call your isp to see if they are having dns server issues.

@@ -1,0 +1,14 @@
+when i look at games and such i'll want to avoid smearing so let's use a little math to find out what milliseconds could be needed.
+remember that all the numbers are from on to half way off.
+so a super white dot to black on your average 8 ms lcd is actually not black at 8 ms but half way there.
+and in another 8 about half way again.
+another factor is the screen temperature or more accurately the room temperature.
+a very cold room, say 55f will result in smears and it gets better as the display warms up.
+many makers don't reveal at what temperature they do the tests.
+it does matter.
+ok let's see what milliseconds we need to start with a common 60 hz display.
+i get 16.67 ms per frame.
+so 8 ms should be our goal.
+any faster and you must be a fighter pilot in his prime to spot the dot.
+hope this helps.
+bob

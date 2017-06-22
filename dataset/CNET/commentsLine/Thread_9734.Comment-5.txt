@@ -1,0 +1,12 @@
+the older all-in-ones connect to a host computer via usb.
+the programs on the host computer which control the scan and fax aspects (copying is actually nothing more than a combination of ''scan this and then print it'') require direct communication between the device and the host because there is a lot of data and control information coming back from the device to the host, which the host then acts on, possibly including addtional instructions to the device for whatever is to happen next.
+the manufacturers designed those communications to occur over the usb port.
+they did not include a means for the communications to occur any other way.
+networked printing is simpler.
+you need the appropriate printer driver to send the appropriate instructions for page formatting, etc., but basically it is nothing more that a one-way dump of data out to the printer and then the printer deals with it.
+indeed, there is a fair amount of information returned to the host for the user's benefit (job progress, paper-out, ink quantity, etc.)
+but not much interactive device control information is involved in plain printing.
+thus an older all-in-one will continue to respond to print jobs when the usb connector is plugged into a network print server, but the other features stop working because the intended communications channel for interaction between the device and the host is now missing.
+nowadays, everybody has home networks, and so the printer manufacturers have stepped up to the market with redesigned control software that is network-centric rather that usb port-centric.
+unfortunately all that requires the device hardware to have been designed with that in mind, so you can't just update the firmware of an old printer and bingo you have new functionality.
+dw

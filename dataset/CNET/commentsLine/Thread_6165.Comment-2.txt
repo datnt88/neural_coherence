@@ -1,0 +1,5 @@
+pci at 66mhz is for a 32bit pci bus or roughly 264 million bytes per second.
+there are web sites that cover this in gory detail so the average ata133 drive is all of 133 megabytes per second in a burst.
+the slow pci bus you write can burst at over 2x an ata drive and sata drives are not much faster.
+think this one over since usb 2.0 is just some 480 mega bits per second and that pales in comparison to both sata and pci speeds.
+bob

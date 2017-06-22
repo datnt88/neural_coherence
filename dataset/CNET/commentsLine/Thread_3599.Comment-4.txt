@@ -1,0 +1,5 @@
+hades3o13: the below method works for a few machines.
+1: make an &quot;a&quot; boot disk, one that you can use to boot your machine into the c:\ prompt 2: at the c:\ prompt type , debug and the machine shifts into the debug program and presents a - prompt with the blinking cursor.
+3: opposite the -, type o (&quot;oh&quot; not zero), a space, then 70 (7+zero), a space, then 2e so that it looks -o 70 2e 4: hit enter to go to a new line with a - and type o (&quot;oh&quot; not zero), space, 71, space 0 (zero), hit enter.
+5: a new - shows up, so you type q and hit enter, which dismisses debug and brings back your c:\windows prompt.
+when you look back you have a little typed program that looks like: -o 70 2e -o 71 0 -q norm

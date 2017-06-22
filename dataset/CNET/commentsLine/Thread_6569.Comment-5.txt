@@ -1,0 +1,30 @@
+plug the power cable into the secondary router, at this point no pc's or other network devices should be plugged into the router.
+press and hold the reset button on the router for 10-30 seconds, this will return the router to its factory settings and avoid any complications from the set-up you might have had when the router was being used as a primary router.
+connect a pc that is going to be on the second network into one of the numbered ports using standard straight-through ethernet cable (you'd have to ask specifically for 'cross-over' eithernet so don't worry to much about the name), i suggest you plug it in to port 1 but any will do.
+now restart or turn on the pc you just connected.
+a light should appear on the router correlating to the port you used to plug the pc into the router (e.g.
+if the pc is plugged into port 1, the light for port 1 on the front of the router should now be illuminated).
+when the computer has finished its start-up process, open your web browser.
+type 192.168.1.1 into the address bar and press enter.
+if this address fails to open a web page consult the router manual, as different manufacturers use different 'start' ip addresses (e.g.
+belkin use 192.168.2.1).
+a dialogue box should appear asking for a username/password.
+again you may have to consult your router manual for this.
+linksys tend to use 'linksys' for their password and belkin tend to use 'admin', neither of these use any username.
+however, if neither of these work then you will have to consult your router manual for the default password.
+when you have it, type it in and click ok. once you have accessed the routers adminstration/set-up page, find the page/area that allows you to change &quot;local ip&quot; and/or &quot;dchp&quot; (typically this page is called &quot;setup&quot; or something to that effect).
+first change the local ip to 192.168.1.2 - you will probably now be asked to re-type this new ip into the address bar of your web browser.
+next you need to disable dchp on the secondary router and ensure you save the settings.
+with all this done, your secondary router is configured - but don't forget to change the password that lets you access the adminstration settings for the router!!
+plug in the pc's and any other devices that are going to be connected to the secondary router (ensure 1 port is left free, e.g.
+if you have a 4 port router you can only connect 3 pc's or network devices - one port must be left for connecting the main router and this cannot be the wlan port).
+at this point switch off all the pc's and network devices (e.g.
+network printers), so that you can connect the secondary router to the main router.
+connecting the two routers together: unplug the power to both the primary and secondary routers - you actually don't have to do this step with the main router, essentially you need it to drop the network and come back 'up' again and if you know what you're doing this can be done via the main routers admin web page.
+the quick route though is just to unplug the power to both of the routers.
+using striaght-through ethernet cable, connect one end to the main router and the other to port 4 of the secondary router.
+now plug the power cables back into the routers, power up the main router and then the secondary router your two routers are now connected together.
+power up the pc's connected to the two networks respectively and check that they all have web-access etc.
+troubleshooting if your main router is a belkin router or other manufacturer that doesn't use 192.168.1.1 as their local ip, then you may need to adapt your settings on the secondary router.
+for example if your main router is a belkin router, which use 192.168.2.1, then you may find that your secondary router needs to be configured to local ip 192.168.2.2 always remember to restart your pc's, dchp probably won't spring into life on the first occasion of you plugging the wires in and hoping everything to be networked.
+upon connecting the two routers, its best to reset all the pc's before coming to the conclusion that something has gone wrong.

@@ -1,0 +1,11 @@
+we are in the process of migrating from small business server 4.5 to small business server 2003. we have quite a range among the 20 or so workstations in our company; a couple of laptops with 512 mb ram and 2.0-2.5 ghz processors, a slew of workstations in the 600mhz - 1.4 ghz range with 256 mb of ram, and 4 windows 98 se computers with 400-600 mhz and 96 or 128 mb ram (all the other computers are win xp pro sp2).
+we had the network setup and the emails migrated and started to convert the workstations to the new domain.
+we were very surprised to see how long it took to login.
+some of the computers took up to 10 minutes to log in, hanging on things like &quot;computer settings&quot; and &quot;personal settings&quot;.
+it was not totally a function of speed and ram, which the 2 laptops did come in the fastest, it still took about 3-5 minutes.
+surprisingly the win 98 computers were next, at about 5-7 minutes (though they would also crash a lot after using the network a bit), then the rest of the win xp machines.
+when we reverted the machines back to the old domain they logged in quickly like they used to.
+the guy who helped me setup the network thinks simply getting all the computers to 512mb of ram (and replacing the 4 win 98 computers, which was being planned anyway) will magically fix this, but i'm somewhat skeptical.
+could it be something about the new network/server?
+or 2 sbs machines running at once?
+any thoughts on what to look for are welcome, thanks.

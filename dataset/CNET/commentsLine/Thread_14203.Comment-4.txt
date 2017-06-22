@@ -1,0 +1,13 @@
+you need to know which of the many options the gateway is using.
+it is unlikely it is the client since it works without the router so reinstall is most likely a waste of time.
+the latest verison of the client would always be best but unless you have a service contract on your gateway you will not be allowed to download it from the cisco site.
+i really can only provide general guidance since it is impossible to know the details of every router out there.
+almost all routers have the ability to forward ports or place a pc in a dmz but exactly how you do it varies widely.
+still even if i or someone else on this board had your exact router you need to know what options the gateway expects.
+i suspect you are going to have to call your it department and ask them how they have configured the vpn gateway.
+they should be able to tell you which gateway option they are using which will tell you which ports you must deal with in your router.
+hopefully they have some recommended router configuration to help.
+unfortunately they may tell you that they do not support your router and you need to buy one that is on their list.
+more than likely you can get your router to work but unless it can give you the configuration you are going to have to learn how things like ipsec really work.
+this cost to it to support end users is the key reason many companies toss these old vpn solutions in the trash and pay big money to replace the gateways.
+the reduction of the end user support cost quickly save money.

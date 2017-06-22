@@ -1,0 +1,6 @@
+you said you are running in raid 0. this means the two drives are joined as one continuous drive and would only have one drive letter.
+as such, they cannot operate independently.
+is it possible you meant they were on raid capable channels on the mb but configured as basic sata?
+in this case, you normally can just connect them to an sata channel of another pc and see if it's recognized and readable.
+don't try to boot from a bootable partition, however if your os is xp.
+it won't work.

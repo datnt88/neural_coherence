@@ -1,0 +1,6 @@
+did you run just chkdsk, or did you use chkdsk /f/r?
+chkdsk by itself will only check the disk, with /f or /r, or both will move the info to good sectors.
+depending on the size of disk it may take awhile.
+also it may only happen on a reboot cause it needs exclusive rights to the drive.
+sfc command will take you to original values, you will need to go to microsoft update after the sfc was run.
+hope this helps.

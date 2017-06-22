@@ -1,0 +1,13 @@
+if you can download an older bios file, just reinstall that.
+however, i would try to keep the new bios, as it probably fixes some bugs in older versions and adds capabilities.
+please clarify the following: how many total physical hard drives do you have in this computer?
+how many logical partitions and on what physical drive do they reside?
+where are all the drives located?
+motherboard primary ide master motherboard primary ide slave motherboard secondary ide master motherboard secondary ide master pci ide controller card primary master pci ide controller card primary slave pci ide controller card secondary master pci ide controller card secondary slave other?
+what are the names of your hd controllers?
+what is the name and version of the hd controller driver?
+i have had your same exact problem.
+my solution involved uninstalling the hd controller driver and installing a different one.
+you might be able to resolve this problem by downloading and reinstalling the latest ide controller/chipset driver from the computer mfg.
+if this is a homebuilt system, get it from your motherboard mfg.
+drivers sometimes have to be reinstalled after a bios update.

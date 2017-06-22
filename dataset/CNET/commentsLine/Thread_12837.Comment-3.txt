@@ -1,0 +1,10 @@
+there a few items to be aware of.
+dhcp is designed to never change your ip address as long as the device never turns off.
+it all tied to the ip lease time.
+the easiest way to fix all the issues would be (if you can) set the lease to very very long interval, like 30 days.
+thats not the best way.
+i didn't look up the router( though i did look up the printer...nice)so i don't kow if you can do tjis with it, but there may aslo be an ip reservation setting were you look at the current ips installed and then tell the dhpc server that those ips are tied to the mac addresses of those devices and to always give them those ips.
+i am big fan of reserved leases since you leverage both the strength of static ips with the versitility of a single point of management via dhcp.
+now for static.
+***use a private ip adress range, usually 192.168.x**** to set your printer up with a staic ip addres see this article.
+to set a windows pc static

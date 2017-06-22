@@ -1,0 +1,5 @@
+is that the maximum memory bandwidth that the cpu can handle is acheived by using pc3200 in dual channel mode.
+intel does not use the memory clock as the device to make the fsb clock.
+they generate it internally [called quad pumping] and can have 800 mhz fsb using pc 2700, however with pc 2700 the memory bandwidth would be less than the cpu can use, thus not perform quite as well.
+seems that they have backed down on the 1033 fsb for the dual core p4's because of heat problems.
+this is all said without regard for overclocking considerations which, obviously could change things.

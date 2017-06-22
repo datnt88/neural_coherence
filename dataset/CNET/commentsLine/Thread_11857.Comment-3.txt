@@ -1,0 +1,12 @@
+i.e.
+, writing to the two drives simultaneously, is a hardware matter -- you need a raid controller, and it must be configured as raid 1.
+(raid 0 is striping, which is faster but without redundancy and with a greater chance of failure.)
+bob's workaround is, in essence, backup; this does have some advantages.
+a major disadvantage, however, is that backups take time.
+if i were going that route i would, as bob recommends, choose acronis true image.
+to save time, those important things needing frequent backup -- mainly data & documents -- in a separate partition, and then do partition imaging.
+imho, the same idea applies to a raid 1 system.
+in my case the single c drive contains the os, program files, relatively unimportant data, and other items that do not change frequently.
+this drive is backed up only as needed.
+my d drive, which is a pair of drives i raid 1 configuration, gets the more important and changable data.
+hope this helps frank

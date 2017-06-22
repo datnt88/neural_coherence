@@ -1,0 +1,14 @@
+this is what you should have for dsl.
+[dsl modem]-----[router]----(pc) wan port lan ports 192.168.0.1 pppoe?
+dhcp server 192.168.0.x public ip as soon as you plug your pc into the lan, you should get an ip address.
+check using ipconfig in a dos window.
+if you have an ip, then you can log into the router with the web browser.
+put the &quot;default gateway&quot; ip address from ipconfig above in the url section of the browser.
+you should get prompted for a user name and password.
+you should already know these.
+now check the status page on the router.
+the wan port should have an ip address and mask and dns info.
+if it does not you probably need to configure the wan port.
+if the isp uses pppoe, you need to enter the username and the password and set the connection method to pppoe.
+if your isp uses dhcp to assign addresses then it should be working.
+skrall

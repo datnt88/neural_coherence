@@ -1,0 +1,32 @@
+you mention a usb modem.
+usb modems were invented by the dsl/cable industry to provide universal connectivity to computers back in the days when nearly all had usb ports, but most consumer-grade computers did not have ethernet ports (that was a corporate feature, not a home feature).
+with the explosion of broadband, nearly all computers have ethernet now.
+as you have discovered, all broadband routers are based on ethernet (both outbound to the modem/internet and inbound to the inside network).
+there are no routers that accept usb input from the modem (and only a few have a usb output, and that is a very specialized print server port solely for shared printing on the now-ubiquitous usb printers).
+so you have put together a kludge consisting of usb input to one computer which then uses windows ics to perform the routing functions followed by distribution through the switching portion of a broadband router while (you think) leaving the router portion of said broadband router to just twist idlely in the wind.
+you got away with it with the linksys, 'til it broke.
+the new d-link is less docile.
+it keeps messing with your carefully balanced house of cards.
+so what, where, and why?
+first, let me cut to the chase and tell you what i think you should do - which is not what you asked us to help you do.
+i think you should ditch that usb-based modem.
+it was a work-around developed expressly to avoid having to deal with the problem of getting clueless customers to install an ethernet port.
+it's still a work-around, which may seem to work in the most simplistic settings but really just introduces a whole new list of problems.
+can you call your cable or dsl provider and see if you can get a suitable replacement modem that is ethernet based.
+once you have an ethernet connection from the modem, all your problems go away.
+the ethernet modem will connect directly to the d-link and the d-link will do everything.
+now, if that's not possible, here is what i think is happening inside your current setup.
+the modem is passing an ip address to your ics system, which then translates it to 192.168.0.101. the ics system then uses its internal dhcp server to establish more ip addresses for all the other clients using 192.168.0.102 through 192.168.0.whatever.
+though you aren't intending for the d-link to do anything except distribute (by wire through its 4-port switch and wirelessly as needed) the connection, in reality it is desparately trying to carry out its programmed role of dhcp services using some other range of addresses.
+and it is succeeding at that in bits and pieces.
+sometimes it kicks one of its addresses up to a client, and sometimes your ics system wins.
+with the hodgepodge of address ranges, sometimes communications from one system to another or out to the internet work, and sometimes not.
+if you were go around and very carefully plot the assigned ip address of every system and what was working and when, you'd probably see a pattern of incompatible addressing.
+so what to do?
+the easiest thing might be go into the setup page of the d-link and 1) turn its dhcp server off, and 2) hard code its address as 192.168.0.200. you may need to do this starting with all systems turned off.
+reboot the d-link, and then boot one of the wired systems that is not the ics system.
+this way you get a clean assignment from the d-link with no confusion from the ics system.
+turning dhcp off in the router stops it from issuing conflicting addresses, and then hard coding it to 192.168.0.200 will put it in the same subnet as the ics is using, and thus you will be able to access it's configuration page from any other system that has an issued address in the 192.168.0.xxx range.
+but plugging it at 200, you simply put it in a known place far above the dynamic range that your ics system is likely to ever issue.
+try some of this and let us know how it comes out.
+dw

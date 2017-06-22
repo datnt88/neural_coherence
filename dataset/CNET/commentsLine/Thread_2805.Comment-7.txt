@@ -1,0 +1,4 @@
+one thing to check is that you don't have an irq conflict.
+device manager, system, view by resource connection.
+it could be each disk access is causing an interrupt on the same address as the sound card.
+just my thought but i tend to make hard drives masters on each ide and let the less used devices be secondary.

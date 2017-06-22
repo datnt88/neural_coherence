@@ -1,0 +1,9 @@
+i rang my cousin who took me through a lot of things, pinging various things (external, gateway etc.)
+and he thought it was a nat error and since i'd run the network wizard and it hadn't made a difference installing a router was the only way to go.
+i was all ready to do that when taking a look at the list of services i noticed one called dns client was disabled.
+i enabled it, and the internet worked!
+restarted computer, internet doesn't work.
+i checked to see if this service was still enabled, and it was, i checked other services but found nothing of consequence.
+now when i attempt to repair network it runs through fine (used to stop saying it can't clear dns cache) but the msn messenger troubleshoot diagnostic still flags up a dns error (and it's not a localised msn messenger problem becuase i can't get web pages either).
+i find it really odd that even after supposedly fixing the problem it doesn't work again on start up even though i had fixed (at least i though i had) what was wrong.
+any ideas?

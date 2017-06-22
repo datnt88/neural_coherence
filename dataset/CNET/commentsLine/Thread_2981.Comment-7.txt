@@ -1,0 +1,9 @@
+ok, so you've got this huge log file, now what?
+you need something specific to search for in the file.
+for me it was a key that kept changing on it's own (apparently).
+hkey_current_user\control panel\desktop\wheelscrolllines was my problem.
+i'd set it in regedit, then reboot and it wouldn't be the value that i had just set it to before the reboot.
+if this is your problem, the search that log file for hkey_current_user\control panel\desktop\wheelscrolllines.
+you might even try just wheelscrolllines, as there shouldn't be too many registry keys with that name.
+best of luck.
+dog.

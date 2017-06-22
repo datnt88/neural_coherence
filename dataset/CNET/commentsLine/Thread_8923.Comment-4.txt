@@ -1,0 +1,29 @@
+if you use acronis, you use their true image product.
+disk director deals mostly with partitioning.
+you could use acronis true image to create a full backup image of your existing drive but you'd want to be sure that the restoration process would go smoothly.
+you'd be moving to raid-0 which means windows needs the raid drivers that go with your motherboard.
+those should come on the cd.
+you'd need to enable the ports you want to use for raid and let windows detect the change so you could get the drivers in place.
+then you'd create the disk image.
+next you'd connect the two drives to the raid designated ports and boot into the raid bios to configure the drives.
+you'll be asked which drives to use and the two should already show.
+you'll be asked whether raid-1 or raid-0 but it may not be phrased that way.
+you select raid-0.
+it may say &quot;performance&quot; and not mirror.
+once done, you let the bios configure the array and all data will be lost on your old drive.
+once the array is created, you boot from the acronis disk while the hd with the image you created is present on another hd.
+it could be an external.
+you have acronis restore the entire image to the raid array and you may alter the size of the partition at this time.
+once done, you remove the acronis disk and restart the pc.
+you re-enter the bios and set the raid array as the first hd in the boot sequence.
+cross your fingers and restart.
+if all goes well, you're golden.
+if not, you troubleshoot.
+personally, i don't recommend doing this.
+you're going to need a good backup plan.
+the array will eventually fail.
+it's not a matter of &quot;if&quot; but &quot;when&quot;.
+you do want to be sure the hds you use are specified for raid use.
+some newer drives have sophisticated re-alignment cycles that cause problems with raid.
+you're on your own.
+good luck.

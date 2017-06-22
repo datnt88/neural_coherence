@@ -1,0 +1,15 @@
+i guess i'll weigh in on how secure wpa/wpa2 is.
+at present the only effective attack against wpa/wpa2, is an offline dictionary attack.
+if you use a paasphrase for your psk that consists of a word found in the dictionary, then you are extremely vulnerable.
+in one demonstation the word sausages was used.
+i took a little over 3 minutes to retrieve the psk.
+when precomputed hashes were used it took only 0.2 seconds.
+to mitigate this threat, complex random psk's must be used.
+ideally, you want to use a 64 digit hexidecimal.
+using a hex of this size negates the offline dictionary attack, since a hex is not going to be in a dictionary file, and a 64 digit hex is used as the pairwise master key, avoiding the hashing procces that creates the vulnerability.
+this leaves an attacker with one optio, a good old fashion brute force attack.
+if a 64 digit hex is use then each of the 2^256 possibilities must be check.
+that comes out to 1.1579208923731619542357098500869x10^77 possibilities.
+if you could produce a device that could check a billion billion possibilities (no such device exists at present), then it would take you 3.671x10^51 years to check each possibility.
+needless to say, this make the brute force method computationally infeasable.
+if you do not have a tool to produce such a value, simply go to:  while there is no such thing as forever secure, (once upon a time it was computationally infeasable to brute force des) with a little effort you can make wpa/wpa2 reasonably secure.

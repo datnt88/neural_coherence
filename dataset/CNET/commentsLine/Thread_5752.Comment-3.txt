@@ -1,0 +1,12 @@
+as bob say, make sure your system supports raid.
+here's what you can try.
+enable raid on your mb's ports that support it and install the proper drivers on your current hd and make sure they show as functioning properly.
+next, make a complete hd image using software capable of doing such on another hd...and preferably one that will restore from dos.
+put your two wd drives on the raid channel, boot and create the array as you desire.
+once the array is created, connect the hd with the full image on it to the system and restore that to the raid array.
+set the array as the first hd in the boot order and fire it up.
+if all goes well, it will start just fine but windows could be unhappy about the hardware changes and require re-activation.
+if all doesn't go well, you still have the full image available to restore as it worked before.
+as for your question about backing up to an external, that should work fine.
+a raid array is seen as a single drive and has a single drive letter.
+what you probably cannot do is back up a full image to an external and restore it to a non-raid drive.

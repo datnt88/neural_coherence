@@ -1,0 +1,7 @@
+have you checked what the load on the system is when this happens?
+more than likely this deterioration is caused by the new windows indexing utility.
+go into the services panel under administrative tools and disable this.
+this utility is constantly polling the drive(s) to index directories & files and seems to suck up a lot of the system resources.
+unless you really need an indexing utility of this depth, disable it - most folks don't need it.
+better yet, uninstall it and the next time this utility pops up in an update, uncheck it.
+like i said, most people have no real use for it.

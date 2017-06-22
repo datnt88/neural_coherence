@@ -1,0 +1,22 @@
+its one run, from a to b about 150 feet.
+at the termination is the problem.
+i will describe the run.
+it starts at the router (a), then goes to a wall jack (1), then from the wall jack to a switch (2), from the switch to a rj45 connector to another switch (3) from that switch to a wall jack (4), here lies the problem, after checking the cable for connection, everything is green up to the last wall jack (4), i added another short cat5 cable to go to the computer and i checked the cable for green.
+everything is great.
+however, when connected to the computer it did not work.
+now, first thing i did was recheck my lines again and again, all good.
+the second thing was to bypass each section starting at the end (b).
+so, i tried other cables with no luck, then i ran a cable from switch 3 directly to the computer and it worked.
+my thought was something wrong with the last part of the run.
+i rechecked and redid the line, no luck.
+i disconnected at (b) the wall jack.
+i connected an rj45 to it instead, retested and ok. i then put on a coupler to extend the reach to the computer, still did not work.
+the coupler is good and works great.
+so my next step was to connect the computer directly to the last rj45 at the wall and see what happens.
+it works!!!!!
+so, at the termination end, no matter if it is a wall jack or an rj45, it won't allow me to add another cable from the 45 or the wall jack.
+however, i was able to hook up another switch to the end point and connect a cable from the switch to the computer.
+no problems at all.
+so, what is wrong, does anyone have any idea.
+all the cables are working the connections are good, i just cannot go from the wall jack to the computer.
+allen

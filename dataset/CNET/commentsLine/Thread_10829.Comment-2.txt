@@ -1,0 +1,19 @@
+it sounds like you could have a virus or other malware.
+get your antivirus program up to date and boot into safe mode.
+note that some viruses can hide themselves from your antivirus program in normal mode, so you really need to scan in safe mode.
+to get into safe mode when you first power up, hit f8 about once a second until you get the menu and select safe mode.
+then run a full system scan.
+- microsoft has suggestions and offerings at  - ms forum moderator keith has some suggestions along this line at  - if that fixes it, fine.
+if not, use system restore to go back to a date prior to the beginning of the problem.
+to run system restore, click start -&gt; programs -&gt; accessories -&gt; system tools -&gt; system restore.
+click the box that says show more restore points.
+- you can check for corrupted system files.
+open an administrator command prompt and run sfc if the above doesn't help.
+click start, then type cmd in the search box, right-click cmd.exe and click run as administrator.
+then from the command prompt type sfc /scannow.
+- finally if all else fails, you can check the rather cryptic system event log.
+to do that click start -&gt; control panel -&gt; administrative tools -&gt; event viewer.
+once in event viewer click on the system log and scroll through the entries looking for those flagged &quot;error&quot; to see if you can find hints as to where the problem could be.
+` when you get your system back in good working order, i urge you to back your system up to an external hard drive and make regular periodic updates to it.
+- i hope this helps.
+good luck.

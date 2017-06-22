@@ -1,0 +1,9 @@
+as far as your os is concerned, you'll only have 1 hard drive attached.
+the biggest downside is reduced reliability (a 2 drive stripe-set is twice as likely to fail as a single drive).
+you'll also lose smart monitoring capability at the os level unless your raid controller provides monitoring software.
+you'll need to do some research and determine the optimum chunk size for your controller and disk combination.
+generally its 32k (with 4k ntfs clusters) but some controllers differ.
+once set, you typically can't change it without reinitializing the array and the wrong setting can hinder performance.
+raid 0 can also sometimes increase your disk access time on 'dumb' controllers and thus decrease performance.
+lastly, some manufacturers (like western digital) offer drives fine-tuned for raid use.
+check them out and see if they're worth the premium.

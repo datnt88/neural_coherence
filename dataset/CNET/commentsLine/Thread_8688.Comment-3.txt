@@ -1,0 +1,13 @@
+spinrite is a great program ...i've been using it since it first came out.
+it runs at various levels to make minimal hdd checks and repairs, level 1, through thorough scrubs and recovery... level 4. spinrite is not something you normally need to run very often...perhaps every year or two.
+it's often helpful in putting a hard disk drive back to optimal condition to read and write to the disk in it's current condition...as opposed to how it was when it was brand new.
+as years go by...the original electronic markings on the disk platters begin to weaken and eventually the disk data will become unreadable.
+spinrite takes the disk 'as is' and starts reading the data to memory, checking surface where the data was written.
+it reformats the area and if the disk surface is ok...the data is written back to that location ...and spinrite goes on to the next location.
+if the spinrite reads the data but cannot correct and restore the corresponding disk location ...the cluster is marked bad and the data written to another disk area.
+the file allocatio table is corrected to show the new data location.
+i've never had it fail or corrupt data on any disk i've used it on.
+as always...backup, backup and backup.
+when spinrite first came out ...it took no time at all to run on 10-20mb hard disk.
+but now with hdds at 200, 300, 400 and 500gbs...it takes a long time to run spinrite at level 4. hope this helps.
+vapcmd

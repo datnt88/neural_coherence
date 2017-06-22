@@ -1,0 +1,6 @@
+to do this right you need a load balancer.
+still that is only the network side.
+the servers themselves have to be able keep track of each others status and detect any failure.
+this gets very complex very fast since you have issue like open files and databases to deal with and that does not even start to think about open sessions to a end users that you would want to fail over.
+if you are good with linux you can most likely get most this done for free.
+if you do not have the skills you are better off paying a hosting company.

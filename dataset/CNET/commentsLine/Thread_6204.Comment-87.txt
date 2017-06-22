@@ -1,0 +1,23 @@
+be aware that dropbox has tons of bugs which means you need to back up all your files somewhere else as they may disappear off of dropbox without one of the users deleting them.
+also, sharing can suddenly be removed, meaning you can no longer share files and have to go reset the settings (which can cause it's own problems).
+since the documentation is very poor, support is very slow and takes a quick look and sends out a standard reply (often missing what really happened/is going on) and there are tons of problems being reported in the forum so good luck searching through them to get an answer or getting your problem replied to, it will take you a lot of time to resolve the issue.
+but if you want a free product, that you can share files to (not caring if you have to put in extra time when it doesn't work) and you keep copies of all files somewhere secure, then dropbox is useful.
+we had a problem, checked their forum and found tons of people with problems.
+the software is created so that if one person deletes or changes a file, dropbox does the same thing on all locations.
+but many people report that files were deleted when they didn't do any delete.
+at times dropbox support said they found an event that showed someone deleted the files, but about 25% of the time the answer was yes the file was deleted and we didn't see [an event that indicated] anyone delete the file.
+so make sure everything is backed up, do no rely on dropbox to backup the files for you.
+the problem we had was sharing all of a sudden stopped.
+we didn't know why.
+in debugging the problem (dropbox replies quickly with standard simple answers, but it takes them 24 hours or much longer to respond when they can't spit out on of the simple answers that might have caused your problem.
+note the simple answers do not necessarily apply to your situation, just standard ones they have available - like someone must have deleted the file, go look at the events to see if someone deleted the file.
+there was no event saying anyone had unshared the folder.
+we were doing our own debugging while waiting for dropbox, and found there was sharing issues.
+each user's webpage for dropbox showed files that matched their computer, but the two webpages didn't show the same list of files.
+we noticed that sharing had stopped.
+there was a rejoin button, so we clicked it.
+but instead of restarting the sharing, it created a new copy of the files and synced it to the other account.
+now we had a bigger problem, two sets of files that didn't match and oh, we now exceeded our dropbox account size (which the dropbox support person nicely pointed out was a way that sharing stopped, rather than checking the events to see that sharing had stopped before we tried a rejoin).
+end note - back everything, don't trust that dropbox is really doing sharing or keeping your files.
+from what i saw, about 3/4 of the problems people listed in dropbox were from people who had not set it up correctly (e.g.
+their antivirus was stopping dropbox from working), but about 1/4 of the problems with deleted files and sharing problems were dropbox bugs.

@@ -1,0 +1,12 @@
+hi.
+you should know that the default fsb for the e6750 is 333mhz.
+when seeing the clock speed of a processor, multiply the fsb (333mhz) by the multiplier, which is 8x in this case.
+8 x 333 = 2,666mhz.
+if the fsb is still 333mhz, that means the multiplier has changed.
+that shouldn't happen without intervention, unless you have c1e/eist enabled in the bios.
+this is a power-saving feature which will lower the multiplier of the cpu during low-cpu usage.
+this feature in the bios was probably set back to its default setting (enabled) when you updated your bios.
+go into your bios (delete/f-key[f1, f2, etc.])
+and look for this option.
+ensure that it is disabled to keep your pc running at full speed at all times.
+thanks and good luck!

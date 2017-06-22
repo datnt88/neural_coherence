@@ -1,0 +1,17 @@
+finished installing the lg gsa-4166b internal dl dvd/cd rewrite drive & maxtor l01r300)ultra16 300gb 7200rpm ultra ata/133 internal hd.
+a few minor glitches here and there (no manual came with the lg drive and no support on their website for that model) but all in all, a success.
+started with the lg drive so i could backup the hd, install went well and easy enough and comes with nero software.
+i did run into some problems while backing up the hd - namely not having enough hd space left (less than 4.5 gb on c: ) for the (included) nero backup software to function properly.
+i had to move a bunch of non-essential programs to the d: drive and then perform the backup again.
+with that completed, i moved onto the maxtor hd.
+i set the hd to cable select along with the old hd and installed the drives in the case using the original ata cable.
+i freaked when it wouldn't recognize the old hd and thought i had damaged it only to realize the ata cable had loosened up on the motherboard connection during the replacement.
+with the cables properly in place and the old hd now being recognized, i proceeded to set the bios and then install the drive with the included maxblast software.
+i partioned the new maxtor drive to 100gb/200gb and copied the old boot drive to the maxtor hd and followed the instructions to set the maxtor hd as the new boot drive.
+here is what my system now shows in bios: primary master [maxtor 6l300r0] primary slave [st390020a] secondary master [hl-dt-stdvdrrw gsa-4166b] secondary slave [hl-dt-st gce-8160b] i made sure the system was functioning properly and booting from the maxtor hd and disconnected to the old hd to check as well.
+i then installed the maxtor ata cable using the grey connector on the old hd and black connector on the maxtor hd, seems to fit a bit tighter on the motherboard than the old ata cable anyway.
+i proceeded to backup the maxtor hd and then reformatted the old hd back to a single 80gb drive and then reconfigured the drive letter assignments to the following: -drv2_vol1 ( c: ) maxtor 100gb boot drive -drv2_vol2 ( d: ) maxtor 200gb -drv3_vol1( e: ) old hd 80gb -dvd-rw drive ( g: ) -cd-rw drive ( f: ) -memory stick ( i: ) i'm considering removing the old hd completely as the two drive sit very close in the case and produce noticeably more heat than a single unit.
+i don't think i'm really going to need the extra capacity, other than maybe just using for additional backup (i know hard drives aren't reliable backup).
+so, how does all this look, anything i should consider changing?
+up next, a memory upgrade from 512mb to 1gb from crucial.
+thanks for the advice!

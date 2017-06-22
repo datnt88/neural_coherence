@@ -1,0 +1,10 @@
+the reason that you shouldn't defrag an ssd is not because it doesn't help, it is only because it uses up a lot of write cycles.
+some people think it either doesn't work on ssds but that isn't completely true.
+defragging has little to do with the hardware itself.
+it is really an ntfs issue.
+if your files are split among non-sequential clusters, you are guaranteed a multiple read or right operation (clusters = ms ntfs term).
+defrags used to be really beneficial back in the days of the old mfm disks.
+even so, what you received from dos or windows was still dealing with clusters.
+i had a third-party defragger that used cylinder alignment to really improve speed but, starting in the days of the ide drive where sectors could be relocated anywhere, that sort of defragging lost a lot of its luster.
+with ssd, even if you have to do two or three i/os to read a small file, so what.
+i personally think that the write cycle issue is more important then squeezing out a little bit of extra speed by defragging, but it is whatever works for you.

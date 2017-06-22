@@ -1,0 +1,13 @@
+where are all the drives located?.
+.
+.
+motherboard primary ide master (c:)winxp-sp2 motherboard secondary ide slave (partitioned to d: and e: 130gb and 30gb respectively) 30 gb e: partition works fine the pc is a dell dimension desktop xps 450 where can i find the names of my hd controllers and the name and version of the hd controller drivers?
+i think this is correct: i went to my computer - device manager - ide ati/atapi controllers - in this there were three listings: -intel ata storage controller -primary ide channel -secondary ide channel (i also saw each hdd listed in device manager with their own set of properties and drivers but i continued to look at the ide controllers as you are suggesting) i clicked on the properties of each channel and then the ''driver'' tab.
+i assume that the secondary ide channel is the affected one.
+is this a correct assumption?
+should i be doing something here?
+update, uninstall?
+i wish that i tried this before reinstalling the xp operating system because i might have been able to select ''roll back driver'' but now that i have obliterated the last os, there will be no record of the previous driver.
+if i uninstall - i'm thinking windows will try to locate the updated driver on next reboot - or maybe i should just click update and my guess is that win will search the web for an updated driver.
+however, i have not installed web access on that computer yet - i have been waiting to get this drive functioning properly before making any more changes.
+since i have the cd with win xp - sp2, will windows use that to search for an updated driver for this ide controller.

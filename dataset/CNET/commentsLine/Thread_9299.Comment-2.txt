@@ -1,0 +1,8 @@
+1. at  i note another file browser that shows such without explorer's issues.
+2. once you find the folder you might be able to rename it with gyula.
+3. explorer (windows) can give us the wrong error message.
+for instance i've seen the error message &quot;can't create folder xxyxx&quot; when there was no folder on the external drive.
+a little sleuthing and we found out the external drive was in a fat32 format which didn't support the directory or filenames in the directory.
+the error message was incorrect.
+go figure if that bug would ever be fixed.
+good luck, bob

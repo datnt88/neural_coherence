@@ -1,0 +1,9 @@
+is the drive a sata 150 or a 300?
+whuch of the two speeds does your mobo's sata support.
+the seagates have a jumper if it is a 3.0 gbps drive and the mobo's only 1.5 gbps.
+mostly they are shipped with the jumper to limit it to 1.5, and must be removed.
+[just the opposite for wd drives] the mobo reporting udma5 is an error according to scott mueller's book.
+upgrading and repairing pc'sa [17th edition] quote is from the book.
+hope that this does not violate copyright laws.
+&quot;note that because sata is designed to be backward-compatible with parallel ata, some confusion can result because sata drives can report speeds and modes that emulate parallel ata settings for backwards compatibility.
+this means the drive is merely lying for backwards compatibility with existing software.&quot; &quot;udma 5 is is ata 100 [parallel ata mode at 100 mbps] while the slowest serial mode [1.5 gbps] is 150 mbps and ultra dma modes simply do not apply to serial ata drives.&quot; &quot;the serial ata spec actually requires that the reply to the identify device command are to be set as indicated in ata/atapi 5.&quot;

@@ -1,0 +1,12 @@
+but it appears that odd things are happening here.
+i write about the need for the accounts to be in sync and instead of creating an account with the matching name, an account is renamed.
+this should work but given we are on xp home and mixing it with xp pro and how this all works, you are going down pathways i don't go.
+i'm sure somewhere there is a reason for this to work or not but this many posts and it's not working.
+i can't tell if the account rename is to blame here but it appears that it's time to forget all the accounts and just enable guest access since we can't seem to complete this the way i have for years.
+it is possible that this printer may have network issues and i had hoped it was networkable given epson's network and driver download.
+since we can't accomplish the account work, i suggest you just open up the network to all users and guests with the following change.
+link follows.
+bob  &quot;i believe there is a feature to allow shared folders for ananymous access as well.
+try these steps, if you are using winxp pro only!
+1. go to start-&gt; run -&gt; type &quot;gpedit.msc&quot; without the quotes.
+2. expand computer configuration 3. expand windows settings 4. expand security settings 5. expand local policies 6. click on &quot;security options&quot; 7. find the entry &quot;network access: shares that can be accessed anonymously&quot; 8. type the share name on a separte line 9. enable the guest account &quot;

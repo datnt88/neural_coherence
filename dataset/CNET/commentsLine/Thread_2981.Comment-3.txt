@@ -1,0 +1,8 @@
+i had the same problem: i'd set the registry key hkcu\control panel\desktop\wheelscrolllines to 1 and it would change to 3 on reboot.
+well, something would change it to 3 on reboot.
+the challenge is to find out what is doing this.
+the solution: load a registry monitor that will do boot-time monitoring, like sysinternals regmon (  ), and check the log to see what is changing the registry key in question.
+be sure to read about regmon's boot-time process here:  as the boot-time log can be large.
+mine was 75mb.
+my culprit was a pointing device driver for my laptop that was configured in control panel to be disabled, but was still applying some of it's settings.
+good luck.

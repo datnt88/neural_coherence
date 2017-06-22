@@ -1,0 +1,10 @@
+compaq... hmmm... what model.
+did you check compaq support on their site for and bios updates?
+don't some compaqs use a small partition on the hard drive where the setup utilities reside?
+i just don't understand how your hard drive could be identified as 'e'.
+any hard drive should get a letter allias before the cd drives.
+the only exception i know of is compact flash memory devices/readers on a pcmcia or usb, they'll be assigned 'e' or 'f' or whatever since they aren't on the bus and assigned an interrupt, they are initialized via the usb hub or pcmcia controller after the os loads.
+the master ide drive should always be assigned the allias 'c' i think.
+as far as linux they are /hd0 /hd1 etc i believe.
+is this extra drive on an ide ribbon in the pc or is this an external drive?
+is it ide-0 or ide-1?

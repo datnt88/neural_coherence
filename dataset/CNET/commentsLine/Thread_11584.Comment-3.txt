@@ -1,0 +1,8 @@
+if the controller sees inconsistency between the two volumes in a raid 1 array, it can often just rebuild it to match the two again.
+the ones i've seen offer that option while booting up but i cannot know what you're seeing.
+this doesn't usually mean data loss but it would be good to back things up.
+from what i've been reading about newer drives is that, if they were not specifically designed for raid use, they will cause problems.
+as i understand, it's due to some sort of deep cycling they do that's built into the firmware and part of their error correction routine.
+what happens is that one of the two drives may enter this function making it temporarily unavailable.
+this can break the array....or so i've read.
+make sure the drives you are using are raid capable according to the manufacturer.

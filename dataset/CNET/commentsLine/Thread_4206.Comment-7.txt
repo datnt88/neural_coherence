@@ -1,0 +1,20 @@
+i have done all of that.
+even went as far as removing the old rhapsody, then installing the vcast rhapsody.
+the issue is in the step here: 3. from the main screen on your phone, the sync music v cast mobile phone display appears.
+your phone should display the message: connected.
+it does not.
+instead i get the device saying: connect failure plus here is some additional/new info: 1) on my laptop (the one that works) i downloaded the driver from verizon but i did not download vcast for rhapsody (not yet at least).
+so on the laptop that works, it connects even without vcast rhapsody downloaded.
+now, eventually if i wanted to in turn use rhapsody application to copy subscription music then i would obviously have to download it as well, but on the laptop where it recognizes the device i have not yet done this.
+btw - the reason i just don't use my laptop and be done with this is because it is my work pc and as such i do not want to download non work related applications like rhapsody - it is against company policy.
+i need to get my home pc working 2) on my home pc (desktop) - the non working one, as i mentioned above i did uninstall old rhapsody and download vcast rhapsody just in case it mattered.
+i have used rhapsody for years and know enough that you go to rhapsody, plug in device, device should be found, then you authorize device and you are good to go.
+rhapsody allows for 3 devices to be authorized for subscription music and i only have one in use prior to the phone.
+so... it is a issue that when i connect i cannot get step 3 to work.
+now - updated info: in the mean time, i did some more investigation.
+i connected the phone to the laptop that works, and when i looked in device manager to see the driver assigned it was the following: wpdusb.sys and the device was shown under windows portable devices now, the kicker: onto my desktop (the one that does not work): when it is not trying to sync it is shown under modems, listed as lge cdma usb modem, and the driver is: lgusbmodem.sys but when i hit sync and it tries to sync for 10-15 seconds instead temporarily it refreshes and a device shows up under the unknown devices with the yellow ?.
+if i do it fast enough i am able to click on that, and it says no devices are loaded now, the real kicker when i searched cnet for the wpdusb.sys driver i think i found a thread where someone had the same thing - goes as far as saying on the 'bad' pc they don't have a driver, on the good one they have the updusb.sys driver, but i am not 1005 following the solution.
+here is the thread:  so - i think (could be wrong) i need to get the wpdusb.sys driver to be associated with the phone when i sync it.
+so how do i do that?
+i tried the install new driver, from the list or or specific location, but not sure how to find that driver, or if i did how it associates to the phone.
+i tgink i just need that driver to be associated to using my device as a windows portable device i am so sorry this post was so long, but i am trying to give as much info as i know and see if i am on the right path

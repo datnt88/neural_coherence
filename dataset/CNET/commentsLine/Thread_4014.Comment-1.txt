@@ -1,0 +1,20 @@
+hi all-- i picked up a new laptop and am trying to add it to my home wireless network.
+with much frustration.
+the network works fine; it's a belkin 7320-4 router extended with an apple airport express.
+due to the airport and my lack of neighbors, the network is unsecured.
+it's set up for dhcp, and is running in b/g mode.
+the following machines are working fine with this setup: one xp home laptop with a broadcom integrated b/g nic (circa 2003) one xp home desktop with a belkin b/g pci card (circa 2005) one xp home desktop with a belkin b/g pci card circa 2006) and has successfully allowed at least a dozen other mac and pc laptops to connect over the last two or so years it's been in place--never an issue before.
+here's where it gets weird.
+the new notebook is a compaq presario v6000 notebook running xp pro and with a broadcom b/g integrated wireless card.
+when i attempt to use this machine in my network strange things happen.
+at best, the machine has difficulty connecting to the network, either using dhcp or manually entering its ip info.
+it will show connected, but only intermittently get to the internet, and while other pcs in its workgroup can see the machine as a workgroup member, they can't get to any of its shared folders.
+running ip config shows the wireless is getting an address from the router, and it looks correct.
+if i run repair connection at this time, i may or may not get an ip via dhcp, though windows shows connected at 24mbps or better.
+stranger still, the unit will knock other pcs off the network, even though it's not trying to use a previously assigned ip address, and it seems to be causing interference with the other machines on the network.
+as soon as i turn off the radio on the presario, the network works as expected.
+i've moved the notebook around to a few different locations, and this doesn't seem to affect the problem.
+i've tried a couple different things within the advanced section of the configuration panel of the broadcom (turned off bluetooth collaboration, turned off afterburner), but this hasn't made a difference.
+stranger still, if i try the machine on my work's network, everything just seems to work fine, so it appears to not be a defective card.
+any suggestions?
+thanks.

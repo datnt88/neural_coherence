@@ -1,0 +1,8 @@
+hi all, i'm running a raid 1 on 2 160gb sataii (16mb cache) drives, the 3rd drive i have is also a 160gb sataii but with only 8mb cache.
+all western digital.
+i want to use the 3rd drive as a hotspare but it's a slightly different size to the others as it's a different model.
+this one's 146.4gb, the other two are 154.6mb.
+the adaptec raid controller lets me use the drive as a hotspare, but warns that as it's smalller that the array, some of my data could be at risk.
+so... if i partion the raid 1 array so that it's only using the first 146gb of the drives as logical drives for storage... then does that me all will be ok in the event of one drive failing... as (theoretically) there wont be any data on the remaining area of the array that's larger than the hot spare???
+(also.... should i have the write cache enabled on the array or not??)
+thanks in advance... michael.

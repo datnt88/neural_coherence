@@ -1,0 +1,2 @@
+can you see your network?
+no: ssid broadcast is turned off, wireless is disabled, check the antena yes: dhcp is disabled (i think) in any case you need to configure your router make sure you're connected (ethernet) start-&gt;run 'cmd' type in ipconfig /all and there should be 'default gateway' ip under ethernet lan (usually 192.168.0.1) type that in your browser (you'll be asked username and password for your router)

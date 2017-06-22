@@ -1,0 +1,25 @@
+while i agree with several of the comments advising you to replace your pc or upgrade to linux/windows xp, there are some things you can do to speed up your current machine without spending a lot of money and without changing your operating system.
+1. you say you have 194mb memory.
+i'm guessing that either you have two sticks of ram, one 128mb and one 64mb or you have 32mb of shared memory for onboard video.
+if the former is true, replace the 64mb stick with either another 128mb stick or a 256mb stick, depending on your financial resources.
+whatever your configuration is, upgrading ram is the most economical &quot;bang for the buck&quot; you can do to improve your net performance.
+more ram is better, but whatever memory upgrade you decide to do, do not bother going over a total of 512mb as long as you're going to keep windows me.
+2. since you have two physical hard drives, move your swap file (virtual memory) to your d:\ drive (assuming d: is your second hard drive.
+3. create a d:\temp directory and modify your autoexec.bat file with the following statements: set temp=d:\temp set tmp=d:\temp 4. move your internet temporary internet files directory to d: 5. go into the control panel-add remove programs and remove any programs you don't need, plus any windows programs you don't use or need.
+6. go to start-run, type msconfig, go to startup and disable any startup programs you don't really need to run automatically.
+examples include adobe speed launch, microsoft office startup, microsoft messenger, etc.
+all will run ok when you click their links, they just won't start quite as quickly, but if you don't use them, they're just sitting there, taking up system memory and cpu resources.
+reboot and check the box in the warning msg you'll get that says &quot;do not show this msg again&quot; (or something like that) 7. even though microsoft has officially ended support for windows 98 and me, you can still get all the available patches and security fixes.
+do not download any hardware updates unless you are having problems with your hardware.
+reboot even if they don't tell you to.
+8. run scandisk and fix any problems it reports 9. defrag your c: and d: drives.
+10. do a google search for regclean (free).
+download, install and run it.
+there are other registry cleaners, of course, and you are free to try any of them, but i'm trying to keep this as simple and low-cost as possible.
+run regclean and remember to make a backup of your current registry before you run it.
+reboot.
+that's about the end of free or low-cost things you can do to a winme system.
+windows me is probably one of the worst operating systems that microsoft came out with in recent recorded history, but if it's working for you, good.
+don't mess with it too much.
+lastly, in deference to some of the other posts, start saving your pennies for a new system.
+good luck!

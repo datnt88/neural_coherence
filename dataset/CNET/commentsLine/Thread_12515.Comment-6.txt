@@ -1,0 +1,5 @@
+the first place to look for motherboard drivers should always be the motherboard maker's website--gigabyte, in your case.
+ga-8i915p duo pro motherboard drivers:  (confirm that this is your motherboard) excerpt: c-media function driver for intel 925/915 family (note:please install microsoft uaa (universal audio architecture) bus driver first before install this function driver) after reading that, i'd uninstall the audio codec and driver that you'd previously installed, restart your computer, and then install the driver followed by the codec (the order indicated on the gigabyte link).
+result?
+btw, are you stating that you do indeed have a sb card installed, but you choose to use the onboard audio?
+is the front panel audio connected to the onboard audio or the sb card?

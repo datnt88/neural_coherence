@@ -1,0 +1,8 @@
+you may have to dive into the machine to see if the esata ports were actually connected to the mainboard.
+and if the ide emulation was enabled on the bios then i find limitations in the bios limits the sata ports to just 2 or 4 and never more than that.
+even more confusing (to those that don't write firmware or design rockets, uhh electronics) is that only the first 2 or four ports may function when that is enabled.
+changing that setting in the bios can cause the os to fail so test it and put it back if it fails.
+i'm finding this is usually enabled because many try to install windows xp and since xp knows nothing about sata the owners think the makers have given them a bum unit and return it.
+i think this is why i'm starting to see units with ide emulation enabled by default which could cause esata issues.
+sorry but there's a lot to think over and explore.
+bob

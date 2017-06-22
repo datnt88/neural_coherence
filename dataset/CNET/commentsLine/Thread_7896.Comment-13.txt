@@ -1,0 +1,14 @@
+i was thinking that your gateway computer is from gateway computer company.
+my mistake.
+so your internet gateway computer is essentially your router.
+so this is your setup?
+internet ---- cable modem ---- comp1 ---- switch ---- comp2 (comp1 is setup as a gateway) you said this worked previously; was that with the switch included in the setup?
+so comp1 is running windows internet connection sharing (ics) correct?
+1. you really dont need the switch if the above setup is correct.
+2. if your cable modem has multiple ports in the back to connect computers, then it probably is a router, too.
+if that is the case, then both computers can connect directly to the cable modem-router.
+what are the ip addresses on comp1 and comp2?
+at each computer, click start &gt; run type cmd (dont type the quotation marks) to open a command prompt window type ipconfig /all (there is a space after ipconfig) can you ping one computer from the other?
+example: if comp1 is 192.168.0.2 and comp2 is 192.168.0.3 then at the command prompt on comp1, type ping 192.168.0.3'' successful?
+try ping-ing comp1s ip address from comp2.
+successful?

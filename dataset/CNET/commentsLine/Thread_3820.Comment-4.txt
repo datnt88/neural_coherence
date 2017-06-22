@@ -1,0 +1,13 @@
+the correct information is that it is absolutely necessary that both computers have working operating systems to network them together via a crossover cable.
+it will cost you no money to put the second drive into a working computer as a slave or on a separate cable.
+instructions to install hard dive as a slave: disconnect the data and power cables from the back of your hard drive (hd1).
+pull your hard drive from your computer (comp1).
+look at for a jumper pin diagram on the back of your hd and you should see cap settings for cs, ma, sl.
+those symbols stand for cable select, master, and slave.
+place the jumper cap over the two pins that designate the drive as a slave.
+now move hd1 to another computer (comp2) and install it on the same data cable as the new computer's hard drive (hd2).
+insert the middle data connector of the cable into hd1 (the slave position).
+install any free power connector into hd1.
+boot comp2 and see if hd1 shows up in comp2's my computer.
+if you have trouble booting comp2, you will need to enter comp2's bios settings to tell comp2 explicitly to boot from hd2.
+instructions to install hard drive on usb to ide adapter: instructions included with device

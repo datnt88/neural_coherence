@@ -1,0 +1,6 @@
+this is a low-level hardware issue cause by: memory errors that may include parity or error correction code (ecc) problems cache errors in the processor or hardware translation lookaside buffers (tlb) errors in the processor other cpu-vendor specific detected hardware problems vendor-specific detected hardware problems first, you'll need bios v 0310 (a beta bios) to support your cpu and ram.
+the &quot;stock&quot; bios is not fully compatible with either.
+from asus' spec sheet: cpu: socket775 for intel pentium processor extreme edition / pentium d / pentium 4 / celeron cpu memory: dual channel memory architecture 4 x 240-pin dimm sockets support max.
+16gb ddr2 667/533 non-ecc memory you could try manually setting your ram to ddr2-667 since ddr2-800 can be problematic even on boards with explicit support.
+lastly, the p5n32 has been known to be troublesome with dual core intel cpus since its release.
+imho, you be best off exchanging the board for one based on the intel 946, 965 or 975 chipset.

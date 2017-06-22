@@ -1,0 +1,8 @@
+came with the 80gb harddrive to actually set it up and format it?
+if so, there is a possibility that you installed ezdrive/ezbios on it without realizing it.
+ezdrive/ezbios is a boot manager and can't be put on the slave drive unless the boot drive also has it installed on it.....windows won't see the slave at all if the program is installed on only that drive.
+you can check this by booting up with that boot floppy disk again, and after switching to the second harddrive (the slave one) within the program itself, see if there is an option to 'uninstall ezdrive/ezbios' and then do that.
+it won't hurt the drive by removing only that program and it will still be partitioned and formatted.
+some of the bootdisks didn't let you get to the uninstall feature until you actually chose 'install ezdrive/ezbios' first and then the option to uninstall would show up at the next screen.
+so if you don't see 'uninstall' at any of the main menu options, go that extra step to see if it shows up.
+toni

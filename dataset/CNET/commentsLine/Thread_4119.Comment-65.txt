@@ -1,0 +1,22 @@
+well i'd have to agree that the cpu and graphics card temperatures are worth checking.
+i find speedfan an invaluable tool for this.
+cpu might have become unseated, fan failed or dust has clogged the vains.
+the latter caused me severe game lag before.
+similarly if the gpu fan is not working or clogged with dust.
+speedfan should be able to probe and report the temperature of each.
+assuming that's ok what else is running on the pc in terms of processes, av, adware etc.
+some of these programs can have a pretty heavy cpu load, maybe reschedule them to run at other times ?
+worth running tak manager and sorting by cpu idle and see what are the big cpu hitters.
+also how many processes are running and do you need them all.
+finally check the health of your hard drives.
+look in the system event log for any red errors regarding bad block/disks.
+is the device running at full speed ?
+if you really want to be sure i'd download and burn a copy of ultimate boot cd (google ubcd).
+it's a bootable cd which contains all the manufacturers test tools including all the hard drives.
+you can boot from the cd and run a full read test on the hard drive.
+if it passes then it's ok, but the windows disk checker alone is not always right imho.
+three full read scans with no erroros with ubcd is a pretty certain way of telling the disk is fine.
+speedfan can also interrogate the smart data from the disk (assuming it's enabled in the bios) to see if any thresholds have been exceeded and reports the general health.
+windows will throttle back ide performance if the disk is beginning to fail.
+this can have the symptoms of slowing everything down, for example how long it takes to boot.
+some of this is covered in more detail in my blog , as i have had similar experiences.

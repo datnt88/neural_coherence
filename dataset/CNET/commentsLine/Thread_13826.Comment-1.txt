@@ -1,0 +1,8 @@
+hi there, i have a laptop (win xp sp3) which connects to the internet via wireless connection.
+configuration is as follows: laptop connects to ap1 (wireless) ap1 connects to ap2 (ethernet cable) ap2 connects to ap3 (wireless)(ap3 is somewhere in the neighbourhood, i dont know where) some of the aps or all of them may work as bridges, i dont know since i do not have access to their interfaces.
+i have a desktop, which is connected to my laptop with a crossover ethernet cable.
+wireless connection details: ip: 192.168.1.72 mask: 255.255.0.0 gateway: 192.168.3.2 dns: 192.168.3.2 lan details: laptop's ip: 10.10.10.1 desktop's ip: 10.10.10.2 mask: 255.255.255.0 i want to share the laptop's internet connection with my desktop.
+tried ics, bridging, etc.
+but nothing seems to be working.
+how do i do that?
+any ideas?

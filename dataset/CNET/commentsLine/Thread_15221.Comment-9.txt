@@ -1,0 +1,25 @@
+you still haven't said whether you are getting 'post'.
+if you are not getting post then follow the options above re the ram, hdd, etc., although there is a good chance it's either the hard drive failed, or a failure somewhere on your motherboard or processor.
+are you getting any 'beeps' ?
+- if so, how many and in what sort of frequency ?
+if you are getting post, does it get as far as the windows screen before recycling ?
+if not, then it is still likely to be a hard drive problem.
+if you are getting the windows screen, it is most likely damage to the boot sector.
+in this case, if you've nothing you need to keep, then re-install windows.
+if you do need to keep stuff, then at this stage you can decide whether to take it to a repair shop or not.
+in a repair shop, they can check your hard drive and whether the data on it is accessible.
+if it is, they can back it up and either re-install, or repair your boot manager.
+have you tried safe mode (press f8 during startup) ?
+you probably have, but it is worth asking.
+you can use safe mode to find a restore point to work from.
+if you want to try a repair yourself, then there is a way you can repair the boot manager using the windows cd to boot into the windows repair console.
+i have done several tutorials for this, but they are for php boards.
+however, i can either provide a link, or attempt to post it here.
+it goes a bit deeper than the usual 'fixmbr' and rebuilds the master boot record from scratch, using the recovery console.
+(a short series of dos commands).
+if the windows cd can't find an installtion to repair then you are back to a possibly broken hard drive.
+did you get recovery cds with the pc ?
+if so, have you tried doing a partial recovery ?
+or if it has an on-board recovery partition, have you tried using that ?
+be careful, though, because if it does not allow a partial recovery/repair option, then you will most likely wipe all your data and installed programmes.
+i'll go and look this up and look back later to see how you got on.

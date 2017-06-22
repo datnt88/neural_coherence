@@ -1,0 +1,6 @@
+thanks for the reply r. proffitt.
+so then the southbridge simply relays the request to the correct channel ?
+i don't believe that the bios has a direct trace (lines) to each channel...what i believe is that the bios has traces to the southbridge and the southbridge in turn has direct lines (traces) to the primary and the secondary channel.
+does this sound credible ?
+so then if my assumption is correct then its the sb chip that checks the primary channel if there are any ide devices there and the same check for the secondary channel.
+victor

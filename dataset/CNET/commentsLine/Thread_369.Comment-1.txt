@@ -1,0 +1,12 @@
+i have a simple problem with my network that's proving very difficult to solve.
+i want to add a 320 gb hard drive and a 500 gb hard drive to my network.
+they are both usb (normal enclosures, nothing fancy) and both work great when they are plugged directly into my pc.
+when they are shared on my network (hand holding the folder, folder showing up in my network places) and i try to access them, it gives me an error &quot;not enough server storage to process this command&quot;.
+the two popular solutions to this problem are a) increase the irp stack size by 3 and keep going until it works and b) decrease the paged poolsize to 0. on both my machines, the irp stack size is maximum (50) and the poolsize is 0. however, it is still not working for me, same error on both drives.
+my pc's are both running xp home over a linksys wrt54gl router.
+every other shared folder works like great.
+i just cannot get these hard drives to share.
+i have never installed norton (usually what causes the settings to be changed).
+i am running avg free on both computers for anti-virus and zone alarm for a firewall (both set to trusted zone on medium, which allows sharing.)
+the desktop which my hard drives are connected to is connected via ethernet, and the laptop which i'm trying to access the drives is connected via wirless g. if you need any more info, i'll be happy to provide.
+thank you for your time.

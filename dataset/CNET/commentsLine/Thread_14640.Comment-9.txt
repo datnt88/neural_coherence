@@ -1,0 +1,5 @@
+the stated power of a power supply is not the dc power available, rather it is the maximum power that the supply will draw from the ac mains not considering reactive power factor.
+if i said &quot;the ac power of a power supply is the present total load on the dc rails divided by the efficiency&quot; then i stand corrected.
+it should have read the ac power consumed by a power supply (not considering reactive power factor) dc side ((vsum x isum)* 1/efficiency of conversion)) so if all of your rails are pulling 150 watts and your conversion efficiency is 70% then your ac power draw is 150 * (*1/.7) or 150 * 1.43 or 214.5 watts.
+if your efficiency is 80% then your ac draw is 187.5 watts.
+thanks for correcting me.

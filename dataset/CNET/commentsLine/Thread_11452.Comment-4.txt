@@ -1,0 +1,17 @@
+1. diamond was absorbed by creative labs and did indeed make such a board.
+look for the m7p9 or such designation on the motherboard to find out which is yours.
+without this, i can't help much.
+has a few manuals, but which one is yours?
+2. about the ram.
+no bios can fix this issue!
+i will explain it once and only once since nothing we can do with bios or jumpers or words will fix a simple problem.
+the bx memory controller only has so many address lines running to the memory sockets.
+to get 256m support it runs two cas lines to the sockets.
+the generic 256m stick will identify as 128m and this is proper.
+if you get the dual bank 256m sticks, then it works.
+but you are unlikely to get such at the grocery store or most computer shops.
+crucial does have the right parts.
+again, there is nothing in a bios revision or anything you can do to fix this except get the right memory parts.
+with that, i will write no more about it.
+write back with which board you have if you want me to see if a bios to go past 32gb on the hard disk exists.
+bob

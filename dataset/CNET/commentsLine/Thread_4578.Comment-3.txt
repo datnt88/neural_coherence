@@ -1,0 +1,6 @@
+i agree with bob.
+you can, as you mentioned, disable dhcp on the tplink.
+connect routers lan to lan (not wan to lan).
+adjust the dhcp range on the actiontec and set manual ips on 192.168.0.x but outside the dhcp range on the devices that need it.
+all devices will then be on the same 192.168.0.x subnet.
+should be a straightforward setup with no new equipment if that's what you're after.

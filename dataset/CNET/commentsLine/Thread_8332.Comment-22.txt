@@ -1,0 +1,11 @@
+for even more resources, just google ntfs vs fat32 in more layman's terms.... in most cases, you'll want to have ntfs over fat32.
+the former allows for smaller file sizes due to the way space is allocated, encryption, better security, compression, and larger hd sizes.
+the only time a hd needs to be fat32 is if you're using an older os that doesn't allow ntfs (listed on that link).
+in other words, for example, win98 cannot be installed on a hd with ntfs.
+it just won't work.
+due to ntfs' better security, you can change from fat32 to ntfs on the fly w/o having to wipe clean your hd.
+if it's vice versa, then u gotta back up yur data first.
+i have plugged in ext hd and flash memory pen drives which were formatted for fat or fat32 into my int ntfs hd just fine and data/files were read and written just fine, so it's not a technical requirement.
+dunno if the flipside is true (ntfs ext hd plugged into a fat32 int hd).
+however, i have experimented on my 4gb micro drive that when copying large numbers of smaller files, say &lt;30mb in combined total size, it takes 5min when the microdrive was fat32, while my int hd was ntfs.
+when both were formatted for ntfs, those 30mb of 80+ photos took less than 30s to transfer over, so this is nice from a performance perspective.

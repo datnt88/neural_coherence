@@ -1,0 +1,9 @@
+well lets start with the easy stuff, my system is not hijacked; i know this because i just purchase a new hard drive and only installed windows and the updates to bring it current.
+with that being said let me explain what is going on.
+i discovered that my compaq p4 running windows xp sp3 home was sending billions of packets when it had only recieved 1000. virus software showed no virus.
+i purchased a new hd to ensure that i would not move this hidden program onto my new drive, oddly enought it is happening after just installing all the updates.
+i think it's safe to say there is no issue with getting a virus from the microsoft download site.
+today i discovered the problem is related to the power options in the control panel; if the system is set to hibernate, hd to turn off or the system set to go into standby, when it wakes up the packet count is 2 billion.
+i verified this by rebooting the system and setting the power button to move the system to standby; i recorded the packet size then pressed the power button, the system went into standby mode, i moved the mouse returning the system to normal operation; all this took place in less than 30 seconds, now my packet set is 2 billion plus, hit the button again sending it into standby and use a key to return the system to operation and the sent packets it 5 billion.
+what is going on with this?
+any idea how to correct it or stop it?

@@ -1,0 +1,9 @@
+so if i read this right desktop will only go to internet via router 1 other machines will only go to internet via router 2 desktop needs access to just the devices attached to router 2 and nothing past it.
+first you need different subnets for your 2 routers.
+ie 192.168.1.0/24 and 192.168.2.0/24... or whatever you like.
+everything is setup pretty much standard except your connection on desktop to router 2. on this network interface you want to use a hard coded ip from the subnet assigned to router 2. do not set the default gateway or the dns on that interface.
+your machine will have 2 ip addresses one on each subnet.
+since there is only a single default route it will use that to go to internet but is smart enough to know based on the subnet mask that it can talk directly to your other machines.
+if you issue the route print command from the cmd line you should see both network.
+you may have to set options in the bios on some motherboards to allow both to be active at the same time.
+if your question is the more standard one we see here of how to actually use 2 internet connections from a single machine that answer is that it is very hard to get to work effectively.

@@ -1,0 +1,15 @@
+i had this same problem.
+other web info suggested a drive failure.
+i even suspected i would need a new copy of vista or xp (it came installed on my hp/compaq).
+here's what worked for me: i started the computer and went to the diagnostic mode.
+message was that windows could not fix it.
+then went to the &quot;advanced help&quot; hotspot on the panel and selected &quot;go to system&quot; (which is a dos panel).
+i then went to the c: drive root directory with c: then typed chkdsk /f /r to force dos to try to locate and repair any bad files or clusters.
+this took about 45 minutes to complete but located quite a few orphaned files.
+btw: you will get a message about chkdsk not being able to repair because the session is held by another process, but you will get an option to disconnect it.
+tell it to disconnect it.
+then, restart the computer.
+vista will take longer to restart because it has to rebuild some tables, but eventually it came back to me just fine.
+since i had never made a restart/backup disk, i made it my first task to get this done.
+i hope this is encouraging to you and you can get it to work again.
+good luck.

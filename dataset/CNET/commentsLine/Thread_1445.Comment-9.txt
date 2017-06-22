@@ -1,0 +1,21 @@
+home routers use nat (network address translation) to share one ip address with many computers.
+this means that the router has to keep a table.
+pc1 with local address 192.168.0.50 wants to go to yahoo.
+pc2 with address 192.168.0.51 wants to go to google.
+the router keeps track of all connections.
+because these products only cost $50 and they have relatively small memory, they have a limited number of tcp connections that they can track.
+this type of product never advertises the highest number of concurrent sessions.
+at the opposite extreme are the real firewall products.
+one of their stats on the marketing brochure is the number of supported tcp sessions.
+the average user, with multiple open browser windows and other software typically generates between 10-15 tcp traffic flows at any one time.
+if you have an ftp or mail server running you can expect many more.
+another way to generate many tcp sessions is a computer virus or adware.
+the typical virus does a port scan of the internet looking for a new host to infect.
+this can generate many sessions.
+adware downloads new advertisements.
+the other aspect is the outside world.
+it typically takes less than 30 minutes for a new router or pc on the internet to get port scanned these days.
+some devices probably handle this better than others.
+check all your machines are clean.
+if that does not help, then buy a better quality router.
+skrall

@@ -1,0 +1,9 @@
+if you can, please tell me what kind of chipset you have.
+like the others mentioned, go to  to find out what kind of memory is compatible with your system and the maximum amount your motherboard can take.
+i run an old athlon t-bird slot a @ 850mhz, and it only takes 768mb of pc100 sdram, but it only took the low density type.
+higher density ram (that can take 512mb or more) would only be seen by my computer as 128mb, even if it was double that.
+if your motherboard can take up to 512mb, you might have to remove the first memory stick your originally had (hey, why don't you sell it for a little cash to someone who needs more memory for their basic computer?).
+chances are, if your motherboard only has 3 slots, it may only go to 384mb (possibly 512mb).
+when you find out if you can run more than 512mb, be sure to check out these links for some workarounds.
+- specifying amount of ram available to windows using maxphyspage  - system configuration utility advanced troubleshooting settings, limit win98/me to 512mb you can also use this tweak if you can run more than 512mb or ram.
+edit these lines in your system.ini file: [vcache] minfilecache=524288 maxfilecache=524288

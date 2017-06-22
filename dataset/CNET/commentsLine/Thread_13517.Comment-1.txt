@@ -1,0 +1,14 @@
+i have been trying for the last 2 weeks to get a vpn server going behind a router (linksys wrt100).
+the router is connected to a cable modem which is fed by comcast.
+i have signed up with no-ip.org to deal with the dynamic ip issue, and i can indeed ping my domain from anywhere and it resolved correctly to the ip i have from comcast.
+behind the router i have a win 2003 server r2, which is configured as a remote access server.
+indeed, i can use my laptop connected to the router via wifi to initiate and set up a vpn connection to the server.
+so, the server should be ok. as soon as i try this from outside, i can't get it to work.
+my vista laptop tells me that it found the domain and then that it is verifying user name and password.
+after a couple of minutes i get a message that the connection could not be established.
+no error numbers.
+given the fact that i can do that behind the router, it looks like the requests are not reaching the server.
+comcast told me that they are not blocking any ports, so the problem seems to be the router.
+i have followed all description on how to set this up (put the server in dmz, enable vpn passthrough, forward ports, etc., but no luck.
+anybody out there who has seen this and could provide some input?
+thanks.

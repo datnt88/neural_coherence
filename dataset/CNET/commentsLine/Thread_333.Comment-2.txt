@@ -1,0 +1,12 @@
+real time monitoring requires hardware in one form or another.
+you need some device to analyze the data.
+commercial routers have some ability to provide data but normally you need a add on tool.
+most these are in a class of tools meant to monitor networks and cost more than most cars.
+if you are looking for a commercial solution netscout has a lot of nice boxes that do this but priced toward large companies.
+to do this on the cheap your best bet is to use a free tool called wireshark.
+if you can load this on one of the end machines you can get some basic reports.
+if you do not have access the end machines then you will have to have hardware.
+the minimum you will need is a pc to again run wireshark and a way to tap the circuit.
+the method to tap the circuit could be as simple as a switch that has the ability to replicate &quot;mirror&quot; data second port up to commercial taps that you clamp onto fiber.
+now if you control both end devices and want to simulate thought put and test network capacity a very simple free command line tool that has been around for years called iperf works very well.
+this is a active testing tool and not a monitoring tool.

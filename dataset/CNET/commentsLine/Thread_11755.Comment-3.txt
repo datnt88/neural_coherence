@@ -1,0 +1,5 @@
+solution: a cross-over cable solved my firewall (wan port) to cisco lan port connection problem.
+the rule is simple: since a firewall and a router are &quot;like devices&quot; they require a cross-over cable to talk to each other.
+a switch and a router, or a switch and a firewall are not alike and therefore can utilize a straight through cable.
+bonus tip (albeit somewhat unrelated to the solution to this thread): you'll need a &quot;rolled cable&quot; if you want to communicate with a console on many cisco routers.
+a rolled cable has ends that are exact opposites (reversed) at each end.

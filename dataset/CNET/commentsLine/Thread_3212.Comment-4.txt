@@ -1,0 +1,11 @@
+because it has the necessary internal software to do so.
+xp needs to see the drive through the controller.
+the drivers are for the controller.
+other manufactures such as promise and via make sata and raid controllers as well and the same applies.
+xp needs the drivers for these and other devices it does not know.
+there is a workaround but it's tricky.
+you can install the os on an ide drive and then extract the drivers easily from the mb cd.
+next you need to attach the sata drive and clone it from the ide drive.
+then remove the ide drive and the sata drive should boot.
+xp will detect it as new hardware but, if it's a new installation, there is no worry about reactivating at this point.
+i have done this myself.

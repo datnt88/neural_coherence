@@ -1,0 +1,32 @@
+ok, here's the deal.
+i have 4 pc's, i'm going to number them for practical reasons: 1 - desktop, windows xp 2 - dekstop, windows xp 3 - desktop, windows vista 4 - laptop, windows xp no.
+1 is connected through usb with a level one router.
+the router is connected via ethernet cable with the linksys wireless-g access point.
+nos.
+2 and 3 both have wireless-g pci cards (also linksys) and 4 (the laptop) had its own wireless card already installed, i don't remember the brand.
+after a lot of trouble and help both from live chat and the telephone line of linksys, i managed to set up the wireless network.
+everythinkg worked great, except for pc 3 - the signal was too low, because this pc was the farthest away.
+so i decided to buy the linksys wireless-g range expander.
+i disabled my wep protection and pressed the auto config button, but nothing happened.
+the link light remained red.
+after lots of hours trying to figure it out, the technical support advised me to upgrade the firmware first, in the access point and the range expander.
+after doing that, they suggested i give the static ip of 196.168.1.10 to the access point and 192.168.1.11 to the range expander (or vice versa, 10 to the expader and 11 to the ap.
+sorry, i've done this so many times i'm not sure now).
+i did all that and yes, the wireless network worked like a charm, even in the remote pc 3. internet connection working, the range expander lights both blue, everything 100% alright.
+some time at that afternoon, i tried to do some port forwarding to get bit torrent to work, messed everything up - so i restored the factory defaults, made the ip settings again and presto - everything worked well.
+it only lasted one day.
+today the link light is again red and pc 3 (vista) detectes the wireless, but doesn't have any internet access.
+also it says something like &quot;restricted&quot; or something similar (i have greek vista).
+also, pc 2 has lost internet access as well, although it does detect the wireless and connects to it.
+finally, the pc 3's ip has changed!
+i used ipconfig and while the ip was 192.168.1.104 while everything was working, now it's a completely different number.
+i suppose the problem is in the ip's... i'd like to ask if it's best to let an auto configuration or do i have to enter specific ip addresses to the 4 pc's.
+of course, the expander worked just right the first day i made it work, and the ip's were automatically assigned.
+i don't know what changed!
+is there something i'm not doing right or anything i should check?
+i even changed the channels (in case there was interference) but nothing.
+ssid is the same everywhere, and enabled, wep is disabled again but it just won't work.
+should i enter the ip addresses manually (and if so, which ones and where) or do something else?
+thanks a lot!
+p.s.
+for some unknown reason, the setup cd won't run under vista.

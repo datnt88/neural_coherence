@@ -1,0 +1,13 @@
+you data is all on the boot drive, under &quot;users&quot;.
+your pagefile.sys (hidden) should be moved onto all three partitions.
+boot partition: 512 mb, data: 1024 mb, and the backup partition should let windows decide.
+don't use windows backup.
+i use cobian (freeware), but might look at others too.
+in window, there is a lot of rubbish.
+get a linux boot-cd, remove adobe (use foxit), games, lanuages you don't use, norton or whatever other firewalls/ anti-virus you have.
+put your &quot;program files&quot; folder onto drive data, use a good registry/ operating system cleaner (&quot;advanced system care&quot;).
+get a &quot;chkdsk /f&quot; to remove any partition & disk faults on all your drives.
+if you can, use ntfs (not fat32) on all your drives; self-healing, less waste space.
+on my bott drive, i ntfs-compress every folder on the drive.
+but do not ntfs-compress the files on the boot drive; only the folders.
+retired (medical) it consultant, australian capital territory

@@ -1,0 +1,10 @@
+create an image of the disk with your operating system and software.
+use the imaging software of your choice to do this.
+make at least two copies on two different drives.
+next, install the two 500gb disks on raid enabled ports and create the raid-0 array.
+all data will be lost on both drives during this process.
+when that is completed, restore the image to the raid array.
+windows should see it as one drive.
+with a little luck, windows will be happy.
+what you'd want to do beforehand, however, is to enable raid for the ports you plan to use and make sure drivers are installed.
+good luck

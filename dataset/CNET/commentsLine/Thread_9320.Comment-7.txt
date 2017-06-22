@@ -1,0 +1,7 @@
+was getting a similar problem - except that the printer worked fine after just starting the pc - but after a short while - nothing, with the same error message.
+if yours is the same problem i dont think it has anything to do with cables.
+instead, check if the usb port to which your printer connected does not automatically power off.
+if it does, the virtual printer port associated with usb001 port is disconnected.
+to fix this, open 'control panel &gt; system &gt; device manager' - then open 'universal serial bus controllers' - find the usb port to which the printer is connected (probably one of the 'usb root hub' connections - rt-click &gt; properties - then on the 'power management' tab - de-select &quot;allow the computer to turn off this device to save power&quot;.
+assuming yours is the same problem as i had - this should fix the problem.
+good luck to you.

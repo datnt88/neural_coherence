@@ -1,0 +1,12 @@
+you mention a linksys router, which i presume is set as the dhcp server for that location's network.
+i will further presume for the sake of discussion here that it is set to its default 192.168.1.1 internal gateway address, and further is set to issue addresses to clients starting at 192.168.1.2. yours may in fact be set to something else, but let's use these ip numbers for now.
+for any device on an inside network to reach another, it needs to have an address within the same 192.168.1.xyz range.
+the static ip that the bizhub needs would be anything from 192.168.1.2 through 192.168.1.254. under ideal circumstances, you could set the bizhub to 192.168.1.2 and the linksys, upon rebooting, would poll the network looking for devices to which it should assign dynamic addresses.
+it would discover the bizhub already has 192.168.1.2 and it would reserve that.
+dynamic devices would be assigned .3 or higher as they come and go.
+life is not perfect, the linksys could assign .2 before it learns .2 is permanently taken and then all hell breaks loose on your network with 2 devices each claiming to be the same address.
+so don't do that.
+what i have done on my small network is set the router to issue dynamic addresses starting at 192.168.1.101. of course, the router itself is 192.168.1.1, so that leaves 192.168.1.2 through 192.168.1.100 unoccupied and available for static assignment as needed.
+in my network, i have chosen to use the 90s for several print servers and the 50s for file servers.
+for awhile i had a system that needed dmz access to the wan, so i pegged that system as .45. meanwhile, the &quot;normal&quot; systems come and go as they please and always get assigned addresses in the 101+ range.
+dw

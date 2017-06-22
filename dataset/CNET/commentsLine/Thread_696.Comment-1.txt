@@ -1,0 +1,15 @@
+so the deal is that i recently bought a nas device for our office network, which is a simple windows configuration (not running windows server 2003, no domains or anything).
+as such, nobody logs into the network.
+each workstation is simply assigned to a windows network group.
+i have the nas (a western digital mybook world edition ii 1tb) connected via ethernet to our cisco catalyst 2950 router and mapped it on all the workstations without any problems.
+everything is almost perfectly.
+each of the workstations are connected on the network via the cisco router and each workstation is operating on windows xp for what it is worth.
+the drive, by the way, comes with a shared storage manager tool that allows me to create cif shares and assign rights (non, read only, or full) to network users.
+the problem i'm having is that the shared rights aren't working properly.
+i set the minimum permissions to a share as read only, for example, and everyone can read from that share just fine.
+if i assign full rights (read and write) to specific users for a particular share, they are still unable to write (only can read).
+so that is my stumbling block.
+among the 20 users, i want only three people to be able to write to a particular share and the read to be read only.
+any thoughts on where to begin diagnosing my problem and solve it?
+can i eliminate the use of western digital's shared storage manager and control rights levels to the shares via windows networking and, if so, how i would do that?
+thanks.

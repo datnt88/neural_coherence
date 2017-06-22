@@ -1,0 +1,8 @@
+window's visa, just wanted to write i worked the problem out.
+i started with the system restore problem.
+------------------------------------------- start-&gt;run type &quot;services.msc&quot;.
+enter.
+in the services window, in the right pane; please check that the following services are enabled and also note the startup type: - &quot;remote procedure call&quot; (rpcss), automatic mine (automatic) - &quot;com+ event system&quot; (eventsystem), manual mine (automatic) - &quot;system event notification service&quot; (sens) , automatic - mine (automatic) - &quot;volume shadow copy&quot; (vss), manual - mine (manual) - &quot;microsoft software shadow copy provider&quot; (swprv), manual.
+mine (manual) ---------------------------------------------------------------- i changed : these to automatic &quot;volume shadow copy&quot; (vss), manual - mine (manual) - &quot;microsoft software shadow copy provider&quot; (swprv), manual.
+mine (manual) not sure if this helped, i can't tell unless i run system restore.
+-------------------------------------------------------------------- i uninstall the picasa and still have the same problem, then i noticed the program that was opening my pictures was set to &quot;irfanview&quot; - i changed that back to &quot;microsoft window viewer&quot; reinstalled picasa, it worked!

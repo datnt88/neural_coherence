@@ -1,0 +1,5 @@
+what is the irq of the display device and what is the conflicting device?
+it may be possible to move one to another irq.
+another thing you can do is free up irqs by disabling unused devices in the bios such as serial ports.
+these can be reallocated by windows when resources get scarce.
+i might also wonder if you have a legacy device using jumpers to take a specific irq that the display card wants but this should be rare as display cards aren't usually that picky.

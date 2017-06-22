@@ -1,0 +1,7 @@
+be certain that you set the jumpers properly for the location that you are going to put it.
+twill be either a slave on the primary controller, of either a master or slave on the secondary controller.
+your new system is probably using the 80 conductor [still 40 pin] cable and using cs [cable select] jumpering.
+you should then set the jumper on the old drive to cs.
+then whether master or slave is determined by which connector on the ribbon cable it is attached to, the end connector will be a master, the middle connector will make it a slave.
+your new computer's boot drive will be the primary master [unless its a sata drive], so to be the slave on the primary, it may be a little tricky to engage the middle connector of the ribbon cable to the old drive.
+also anumber of new mobos, especially the bargin dell's, hp's, compaqs, have sata ports and thus only provide a single ide port [2 drives].

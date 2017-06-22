@@ -1,0 +1,6 @@
+i encountered this in the pc my wife uses (also an asus p4p800 series).
+one thing you do need to be sure of is that, if using front panel ports or others with cables connected to the mb, that connection hardware needs to usb2 capable or speed will scale back.
+anyway, go to your hardware list and remove all the usb devices, root hubs, etc.
+shut down/restart and let xp (make sure you have sp2) redetect them.
+windows should load the usb2 drivers this time.
+it worked for me.

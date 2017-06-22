@@ -1,0 +1,16 @@
+win xp sp3; intel 8400 dual core; 2 gig ram; have 4 hdd plus put sil image 3124 raid controller in pci slot.
+three 2 tb wd green drives connected to the raid controller, plus 4 more hdd to motherboard sata connections.
+i first formatted each 2tb drive, then connected to sil image raid controller and told it to set up a raid 5 parity array (3 ea 2tb drives should give 4tb raid 5 available).
+that took 4 days.
+finally says it completed the task.
+i boot win expecting to see it - nothing.
+doesn't show up in explore, not in disk management.
+sil image software says it's good to go, it just isn't there.
+check bios - does not show up as a drive, but interesting the raid controller card is listed as a possible boot drive???
+check system - hardware - device manager.
+it's listed under scsi and raid controllers and says it's working and driver is fine.
+it is also listed under disk drives, but volumes is blank, when i populate it says status unknown, disk unreadable, 0 available.
+using 3 each 2tb drives in a raid 5 should give me 4 tb available???
+going back to software under program, it shows up, shows is raid 5, but under raid group tab there's an option bring raid group online, but it is grayed out.
+any help?
+bios, software, windows, disk management - can't find anything to make it active or bring it online.

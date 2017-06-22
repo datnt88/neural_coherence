@@ -1,0 +1,4 @@
+1.7v is the necessary voltage to achieve ddr3-1333.
+see  &quot;tested together at 1333mhz, vdimm = 1.70v, at latency settings of 9-9-9-24&quot; you'll have to manually select ddr3-1333 and enter the 9...24 timings, otherwise it will default 1.5v (ddr3 standard voltage) and ddr3-1066 timings.
+you can try to keep the tighter 7...20 timings at ddr3-1333 but there's no guarantee it will work reliably.
+you should run some memory tests and super pi loops to ensure the system will be stable.

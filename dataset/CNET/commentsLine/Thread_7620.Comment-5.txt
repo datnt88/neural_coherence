@@ -1,0 +1,23 @@
+answers embedded with ***: you have stated that you increased the count of ip addresses the dhcp server can assign.
+in the admin page for the router, what is the starting ip address for the dhcp server?
+xxx.xxx.xxx.150 or xxx.xxx.xxx.101 or other?
+***starting address is 192.168.1.100. with number of addresses set to 100, the router gives me a range of 192.168.1.100 to 192.168.1.199.
+*** what is the subnet mask on the 101 computer?
+255.255.255.0 ?
+***the _router's_ subset mask is indeed 255.255.255.0. i looked under properties of the wireless connection on the computers, but can't find where any subset mask is called out here.
+*** do you get any error message when you enter ''ipconfig /renew'' command?
+***you've got me there.
+where would i enter this command?
+start/run?
+if i click on ''repair'' under wireless/properties, the computer turns off the usb adapter, turns it back on and waits for a new ip assignment.
+i suppose this is the same thing?
+if so, this computer still gets the x.x.x.151, and my wife's computer gets the x.x.x.101.
+*** static ip addresses shoudn't be a problem for the router.
+the router will use the static ip addresses that it discovers on the computers/network devices before it attempts to assign an ip address via dhcp.
+***does this mean that i would simply assign sequential ips under properties of my wireless connection?
+there seem multiple ways to do this, either under the general tab or the alternate configuration tab.
+these also want a subset mask specified and call for things like a default gateway and preferred and alternate dns servers.
+this is all a bit beyond me.
+however, if i was able to assign these manually, would i then disable the router's local dhcp server?
+would this give me any security advantage over auto-dhcp?
+*** many thanks for all your help.

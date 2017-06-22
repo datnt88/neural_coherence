@@ -1,0 +1,19 @@
+as you have found a router can only run b,g,n at one time.
+there are what is called dual band routers than can actually run 2 at the same time but i think one of the radio's only runs at 5g so you would need nic cards that were also dual band.
+from the radio side you will have no issues running 2 routers careful channel selection and ssid etc will make it all fine.
+the harder part is how you connect both router to internet.
+you have 2 basic options.
+in both cases you connect one of your routers to the isp.
+you then connect the second router to a lan port on the first.
+most likely you will use the wan port on the second router but it depends on the device.
+option 1 just attach it and let it learn a address.
+the second router would then treat the first router as his isp.
+this is messy because of the double nat that will take place but it is easy to configure.
+be sure to use a different ip block on the routers or they will get confused.
+it will be a challenge if you need to have a device on one router talk to a device on the other.
+option 2 set the second router in bridge mode.
+this means your first router will treat the second as a dumb accesspoint.
+the second router will do all the wireless to the device and the first router will do all the ip stuff.
+this is a little more complex to get going at first since it is a uncommon config for a home router.
+it should be a little less complex to troubleshoot client problems and place fewer restrictions on the client to client traffic.
+not the best design but it is cheap and works.

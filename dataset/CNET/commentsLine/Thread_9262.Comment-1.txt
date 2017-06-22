@@ -1,0 +1,14 @@
+hi all, here is a tough one for ya!
+i installed a seagate 400gb hard drive with a silicon image ultra-133 ata raid controller card... now what?
+my dell with windows xp system can't see the drive to format it.
+i have described the problem as best i can, please feel free to ask questions and make suggestions to get this hard drive up and running!
+device manager *can* see the drive, but i can't see it under disk management to assign a letter, format or partion the drive.
+not sure what other info is needed, i installed the card first, and the driver from the supplied cd, during start up it sees the added card as a raid, not sure this is correct, as it is only *one* extra drive, on one slot of the ata card (which has 2 places for the ribbon cable).
+i starting the computer with no jumper in the new drive, and moved the jumper to the other 3 slots (for the little black connector either for slave, master, etc.
+settings) but that didnt help, and the device manager always sees the hard drive as st340063 3a scsi disk device.
+since the hard drive is being labeled a scsi device, i am assuming one of those 4 pins might need to be set so i don't get a scsi conflict.
+is this how an internal scsi device (like my hd) is terminated?
+anyone have any clues about this?
+windows keeps saying my hard drive is ready to use (of course) but i still need to format it so the system recognizes it.
+any help would be appreciated!!
+kzincat

@@ -1,0 +1,12 @@
+gee stone, it is strange that the only athlon 64 cpu that has less than 512kb l2 cache is the 3300. that cpu is apparently a socket 754 that amd must have made specifically for hp and compaq as i can't seem to find it listed in the boxed cpu's that amd sells.
+believe bob made a good definition/relationship in his post.
+here is some info i put together from several sources: desktop processors contain two forms of cache memory level one cache (l1) and level two cache (l2).
+l1 cache is the first place the processor looks for the data it needs.
+if the data can t be found in the l1 cache, the processor next turns to the l2 cache.
+this is the second, and final line of defense for the processor.
+this is the last form of high-speed memory that the processor has access to, after the l2 cache the processor next turns to system memory, and following that, the worst case scenario: the system hard drive.
+each additional stage introduces more latency, and thus, reduces performance.
+additional cache allows the processor to hold more data internally for quick accessing.
+if the processor cannot find the data it needs in cache, it must venture out into the main system memory in order to find it, which increases latencies and dampens performance.
+adding extra cache is a fairly simple and efficient way to increase processor performance, although doing so makes the processor more expensive to create and increases the size of the processor core.
+therefore, its important that the processor s memory subsystem is capable of keeping it well fed with data (especially as clock speed rises).

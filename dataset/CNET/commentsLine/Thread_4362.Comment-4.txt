@@ -1,0 +1,4 @@
+you should get no bottlenecks directly as a result of dlink.
+in theory the only traffic that should ever pass from the linksys to the dlink would be going to the internet.
+any traffic between devices on the linksys would talk directly since they are on the same subnet and have no need to pass the traffic though the default gateway.
+i guess you could swap the routers and hook the internet to your linksys and have it be the dhcp server for 192.168.36.0 (just to avoid changing all your end devices) and then use the dlink as a switch .. ie hooks its lan port to the linksys.

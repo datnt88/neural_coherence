@@ -1,0 +1,4 @@
+cable modem router, dhcp enabled, ip: 192.168.1.1, netmask 255.255.255.0 -- client pc's are automatic ip.. (with an ip range 192.168.1.100 -&gt; 140) adsl modem/router, dhcp disabled, ip: 192.168.1.2, netmask 255.255.255.0 -- client pc's ip: 192.168.1.2xx, gateway 192.168.1.2, dns: as isp required.
+it seems to works... but did i do it correctly?
+why you stressed out the netmask of 255.255.0.0?
+tried to use fix ip under 192.168.1.140.. on adsl modem/router, but then i concern with conflicting ip when the pc's are started.. (thats the reason of ip above 200) tried using different ip on each modem/router (i.e cable ip: 192.168.1.1 and adsl ip: 192.168.2.1), it didn't work for lan(file/data share) if i could make it better or fix something, please advice.. thank you

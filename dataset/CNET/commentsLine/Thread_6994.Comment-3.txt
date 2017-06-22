@@ -1,0 +1,4 @@
+so long as it has different interface (agp, pci, pci-express) than your primary video card and you have a slot for it.
+but you're trying to clone a high-res (s-vga) image onto low-res (s-video) signal.
+that's going to be a problem unless a) you're willing to drop the res of one of the s-vga outputs or b) you're prepared to manually switch your video playback between output devices (s-vga or s-video).
+ati's video driver can automatically send video to a preferred monitor, but i don't think it can send it to two seperate monitors of different resolutions.

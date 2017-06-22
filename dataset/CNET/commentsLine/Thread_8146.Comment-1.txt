@@ -1,0 +1,31 @@
+greetings: after my #1 firewall router died recently, i bought a befvp41 so i could ''dial into'' (via vpn) my home lan while on the road.
+setting up the befvp41 at least *seemed* easy.
+getting a xp client going was another story.
+getting to see/ping/use network shares is the #1 problem now.
+the befvp41 only supports ipsec tunnels, which configuring under xp is a royal pain, after scanning a number of forums about vpn's i decided on trying a ''vpn client'' solution instead of using the built in but dreadfully painfull client support in xp.
+if you search high and low about the internet, you may find ''sshsentinel 1.3.2''.
+this vpn client is free for non-comercial use.
+it was easy to setup this client to connect to my befvp41.
+however, once setup it automaticly loads on system startup and reroutes all network traffic to the vpn (existing or not), thereby breaking network connections when you are not using a vpn.
+(i ended up uninstalling it as i'm %99 non-vpn and might use vpn %1 of the time.)
+''greenbow_vpn'' is another solution spoken about in many forums.
+this client was easy to setup to connect to my befvp41, however the public license is only for a ''30-60 day trial''.
+i uninstalled it.
+after much searching, i came across the ''draytek'' vpn client.
+written by draytek in china for their brand of vpn routers, this client loads a device driver as part of its client solution.
+the driver comes up as another ''network connection'' under xp.
+the nice part about all this is that the client program/driver will create network configuration changes ''on the fly'' thereby not breaking connections when the vpn is not in use.
+this was also easy to setup to connect to my befvp41.
+when the tunnel is active/connected, the client application will show a little ''green light'' indicator and the connection will not have a red x ontop of it in the system tray.
+pretty cool.
+so what does all this have to do with ''network shares over a vpn?''
+in all cases, while i was able to get the clients to work (connect) with my linksys vpn router, i was unable to access the vpn router or any of the network shares attached to it.
+i finally decided that my routing tables must not be setup correctly to route to&lt;=&gt;from my lan addresses through the vpn tunnel.
+1. client address &lt;=&gt; server address 65.mylaptop &lt;=&gt; 66.mylan 2. client secure group &lt;=&gt; server secure group 192.168.2.0 &lt;=&gt; 192.168.2.0 this dident work.
+i read somewhere that the lan segments on both ends needed to be different.
+3. client secure group &lt;=&gt; server secure group 192.168.4.0 &lt;=&gt; 192.168.2.0 this dident work ether.
+after much reading, i'm under the (miss)understanding that: a. the tunnel needs to have a different ip address scheme then ether of the lan segments on ether end.
+b. the tunnel needs to have a different ip address scheme then the fqdn of ether end.
+c. i have to manually setup route's on each end to direct traffic through the tunnel.
+client address &lt;=&gt; server address 65.mylaptop &lt;=&gt; 66.mylan clientsecuregroup (addr) &lt;=&gt; serversecuregroup (addr) 10.0.2.1 &lt;=&gt; 10.0.1.1 client lan segment &lt;=&gt; server lan segment 192.168.4.0 &lt;=&gt; 192.168.2.0 client side: route add 192.168.2.0 255.255.255.0 10.0.1.1 &lt;serverend&gt; route add 10.0.1.1 255.255.255.0 10.0.2.1 &lt;clientend&gt; server side (in vpn router): route add 192.168.4.0 255.255.255.0 10.0.0.2 &lt;clientend&gt; route add 10.0.2.1 255.255.255.0 10.0.1.1 &lt;serverend&gt; i'll let you all know if this works.
+in the mean time i'm sure that the readers of this forum will show me the errors of my ways.... &lt;g&gt; mark.

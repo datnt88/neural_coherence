@@ -1,0 +1,3 @@
+hmmm, i think i can help you in this regard, you have two dsl router, if you need computer behind them communicate with each other, you need to connect the two dsl devices via a twisted-pair cable , pls be aware, you are support to use one of the lan port to connect them rather than the wan port.
+before you process this procedure, you need to modify the ip of your new dsl router, you can change it to 192.168.1.254, meanwhile pls disable the dhcp function.
+the final step is manual configure your ip for your computer, set your set your ip as 192.168.1.250 and your gateway as 192.168.1.254. hope it can help your out!

@@ -1,0 +1,7 @@
+most routers have the ability to spoof the mac address.
+first set up one computer on the &quot;pipe&quot;.
+then use the router menus to tell the router to say it has the same mac address as that pc (just enter the pc's mac address into the correct field).
+now plug the pipe into the wan socket of the router and it will pretend to be that pc which does make it difficult (not impossible) for the isp to see the difference.
+ps: the ip number that the router shows to the pipe is the one assigned by the isp using dhcp.
+the ips used behind the router are invisible to the isp and usually default to the 192.168.1.x range stated in an earlier reply.
+jdenenberg

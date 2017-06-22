@@ -1,0 +1,6 @@
+to be a little more detailed on your troubleshooting you should also try the video card in a different system if you have another that is compatible with the card.
+also, if you have on-board video, try using it.
+make sure on-board video is enabled in cmos/bios setup if you have that option.
+if you dont get any video with the on-board setup, then there is just a conflict with the hard drive jumper settings.
+bios is registering both of the drives as your main(primary) drive which is a critical conflict when it comes to booting your system.
+it basically means that although your fans, led lights, and possibly on-board sound, will work, none of your other hardware will work because the conflict is preventing windows from loading and, therefore, preventing the drivers for your hardware from loading.

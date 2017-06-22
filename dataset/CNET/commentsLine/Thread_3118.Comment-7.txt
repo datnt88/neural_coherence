@@ -1,0 +1,16 @@
+bob makes some good comments.
+dns doesn't provide any masking services.
+all dns does is reconcile ip addresses to domain/host names.
+if your goal is to secure your home network, then you should physically secure any unused ports, not use wireless, and not connect to the internet.
+however, if you need to use the internet to link remote sites (say youer home office to your work office), then i would suggest you set up a vpn/tunnel.
+the tunnel connects the two sites that you control.
+with a vpn you get all of the encryption and authentication that you will probably need, unless you're james bond.
+the literature for the routers will tell you if they have this capability, and you will need one on each end of the link, unless you opt for client software.
+anything sniffed off a properly configured vpn tunnel looks like gibberish.
+but, if you are just looking at the internet itself and not a fixed site on the other end, then you are out of luck with vpn.
+if you are just looking at any old internet sites, then you cannot mask your ip, though your router/modem most likely is translating your local ip anyway.
+a good and updated antivirus package and properly configured firewall settings on your router can mitigate quite a bit on your lan, but, once the data goes onto your isp's equipment, who knows what will happen.
+the point is that there is only so much that you can control when you go onto the internet.
+if you control both ends, then you can tunnel fairly securely over the internet.
+if you only control your end, then all of the path beyond where your end stops is out of your control.
+strong passwords that are changed periodically, updated antivirus software, and appropriate firewall settings are the most overlooked steps each individual can take.

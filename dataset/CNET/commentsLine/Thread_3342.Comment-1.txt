@@ -1,0 +1,7 @@
+i'm looking to implement a single proxy server for two different vlans.
+both vlan have outgoing traffic configured through different isp i.e.
+traffic for users on vlan1 is routed through isp1 and traffic for users on vlan2 is routed through isp2.
+inter-vlan communication is enabled.
+the proxy server should route internet traffic for users in vlan1 through isp1 and for users in vlan2 traffic should be routed through isp2.
+is this setup possible?
+if yes, how?

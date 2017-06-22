@@ -1,0 +1,19 @@
+hi all, i have a linksys wrt54gh.
+the signal strength is extremely poor.
+50% after about 1 metre.
+not visible after about 5-6 metres (direct line of sight).
+have tried all standard fixes: have updated to the latest firmware, factory reset and power cycled.
+there are no other wireless networks appliances or devices that would provide interference.
+have experimented with channels, thresholds, transmit type, encrypted/open, intervals etc (every option available in standard firmware)..no luck.
+all software and drivers are up to date, and relocating the modem does not help.
+i've opened the router up and all the internal components look fine.
+no blown capacitors, scorching or breaks.
+i suspect the issue is thus due to the signal transmit strength being set low, however this is not something i can check using the standard firmware.
+the default transmit stringth is about 17mw +- 1.5 so if it's transmitting properly it should have a lot more range.
+additionally wrt custom firmware is not an option because the flash memory is only 2mb.
+on the wrt54g, you can parse a linux kernel command through ping to boost signal strength.
+the same command doesn't work on the wrt54gh however.
+i'd like to know where i can go from here.
+cisco forums suggested i post on a 3rd party site which is what i'm doing now.
+i don't consider buying a new router to be a &quot;solution&quot;.
+thanks for your help!

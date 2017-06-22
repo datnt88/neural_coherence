@@ -1,0 +1,12 @@
+1. you may want to post the output from &quot;ipconfig/all&quot; on both computers, so we have more information to go on by.
+2. do you have any other virtual or physical network cards installed on the problematic computer?
+(ie.
+vmware, vpn, etc.)
+3. have you tried using dhcp as opposed to static mapping?
+in my mixed wireless/wired home network, i do utilize dhcp and static mapping with no issues, but i've seen some funny things happen when i tried static mapping with some home nat devices -- most likely because of misconfiguration.
+4. are you able to ping your nat/router from your problem pc?
+5. how did you configure dns server entries on your computers?
+are you letting your nat/router be the gateway to your isp's dns servers?
+if you are not able to ping even the nat/router but you are able to get dns resolutions then --- errrrr --- i have to think about that... but that'll be a nice bit of info to know.
+i don't ever check these forums, the only reason why i came across this post, is because this post somehow showed up as &quot;news&quot; on my google desktop... so ehrm... good luck!
+cm

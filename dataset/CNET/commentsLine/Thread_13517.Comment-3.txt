@@ -1,0 +1,14 @@
+depends what you mean by vpn.
+if you are building something like a ipsec tunnel between your remote pc and your server and then are using that network to access resources it should work.
+if you are just tring to use remote desktop from a remote location it may or may not work.
+some of these applications will not tolerate the nat of the addresses and some isp block some of the mircosoft networking ports.
+mostly to prevent accidental sharing of drives by stupid people.
+the best way to do this is to buy a router that has vpn support in and build your tunnels between the router and the remote client.
+the router handles the issues and your remote pc appears to be on the inside network.
+to a point you can test by faking the wan port.
+since your router's wan port is etherent you can just directly plug your remote pc into with a cable.
+you of course will have to use all static ip address on both your router wan and remote pc.
+if you cannot just use ip to test you will have to use the host table for name resolution since your router will be disconnected from the internet.
+this is only good for the most basic testing but that appears to be at the state you are at.
+you can also run wireshark on the remote and server to see what it going on.
+it takes quite a bit of skill to understand this tool but most people can tell if they are getting no packets at all.

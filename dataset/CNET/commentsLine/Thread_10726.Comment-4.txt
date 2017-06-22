@@ -1,0 +1,3 @@
+i looked at manual it's nothing more than a windows pc file server.
+if you had set workgroup name on disk same as users, it should appear on network even with yourself as single user.
+(assuming you do have an always on network with switches and dhcp server; if static you'll have to assign ip and submask same as workgroup) you have to assign permissions to shares for users to map and access them.

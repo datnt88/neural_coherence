@@ -1,0 +1,13 @@
+&quot;all it takes is one bad one to misbehave and knock others off the air&quot;...not sure what this means.
+if one machine misbehaves, how would that affect the wireless network?
+unless that machine has access to configuration of that router, then there is not much that machine can do.
+based on what you said, there are a few possible reasons this isnt working, but i don't think proffitt is going to help you here...some of those answers are balogna... wireless interference is not your problem.
+this router has been configured as somewhat of an access point to your building's network, correct?
+it is always reccomended that dhcp should only be done centrally, in one place, as near to your nat device as possible.
+is your router now serving dhcp your entire network?
+having multiple dhcp servers is a horrible, horrible idea...don't offload dhcp to your extenders either.
+you want one single dhcp server, no matter how large your subnet is.
+the best way to answer your question is for you to tell us a little bit more about your company's network.
+is this router now serving as a gateway?
+or is it simply routing packets internally (which i doubt)...you mention your company has &quot;other wifi networks&quot; in other buildings, but are these buildings connected to yours?
+like i mentioned earlier, i doubt this is a physical issue (interference, overload), but a logical issue...

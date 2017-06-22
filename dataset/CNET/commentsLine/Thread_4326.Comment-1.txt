@@ -1,0 +1,26 @@
+so last month i had brought a new seagate hard disk, prepared it and transferred all the data from my old samsung hard disk (about 4 years old) to it.
+the reason for buying a new disk was, while working on my pc (old hard disk) sometimes i would hear a faint ticking noise and the the system used to freeze and then restart after a long time.
+once restarted no hard disk used to be detected and i also used to get disk boot failure error on the second screen after restart.
+but after power off and on, the system used to start working again.
+this problem troubled me for almost more than a year.
+most people i talked to advised me that the hard disk was going bad and so finally i brought a new disk.
+right now after transferring the all the data to the new drive i ran a hard disk diagnostic tool called &quot;hutil&quot; from the samsung website on my old samsung sp0802n disk.
+after completing the complete diagnostic test i got about 8 errors and the tool advised to run &quot;erase hdd&quot;.
+i then ran the &quot;low level format&quot; option in the tool.
+it gave me some error in the end but i think the process got completed.
+here is a screenshot of current disk management in windows.
+[code]  [/code] then i ran the diagnostic test again in &quot;hutil&quot; as these were the results.. --- test loop number 1/1 read dma : testing... error: sector error check m.c : testing... pass!
+check s.m.a.r.t : testing... error: s.m.a.r.t threshold exceeded.
+spin down/up : testing... pass!
+simple read/write : testing... pass!
+simple surface scan : testing... pass!
+write verify : testing... pass!
+average seek time : testing... pass!
+maximum seek time : testing... pass!
+random surface scan : testing... pass!
+read surface scan : testing... c:1039 h:0 s:962 error: ecc error c:1040 h:0 s:797 error: ecc error c:1580 h:0 s:1037 error: ecc error c:7354 h:0 s: 965 error: ecc error error : this drive has some defects.
+--- thats two less read surface scan errors than last time i think.
+the disk is no longer under warranty so no point contacting any service centers.
+now although my old disk is not very healthy, it is still usable and i was thinking of using it as a single partition storage drive.
+is there anything more i could do to the disk to remove those errors and make it more healthy.
+or should i just prepare/ntfs-format the drive and start using it.

@@ -1,0 +1,16 @@
+part iv (final chapter-the adventure begins) now back to your issue &gt;&gt; things have changed.
+now at boot time, a configurable default physical disk is used, but you have the option of selecting any other disk on the system.
+.
+get a new ide cable just for giggles (theyre cheap) and double check the drive jumper pins.
+the bios should be able to see both drives pure and simple.
+if its making your cd/rw d it doesnt know that both drives are there.
+you cant have them both jumpered as master (or both slave for that matter) well kinda not really.
+you dont need a boot disk be it c or otherwise to load an os.
+all you need to do is make sure that the bios knows where to look for the mbr that you want to use.
+i would just install each os while that hard drive was the only one connected.
+as far as using a backup to install that gets iffy.
+you can clone a good install, you can make an image of it like i do with norton ghost.
+but restore from a backup is more for data than code with many backup programs and won't cater to needs of certain files being in certain physical locations on the disk.
+you can run into some problems with some devious copy protection schemes.
+as you can tell from above i believe in lean installs ) sure you can boot the d with c disconnected, but the os will of course name it 'c'.
+give them each a volumn label... george and gracie or something so you tell them apart no matter how the os labels them but get the cable and jumper thing taken care of first.

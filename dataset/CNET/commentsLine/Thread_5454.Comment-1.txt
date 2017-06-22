@@ -1,0 +1,10 @@
+hi all, could any tell me how does an access point(without nat tables) know the clients in vicinity?
+i am not asking in terms of radio signal reception but what i want to know is, does the ap maintain a table/list structure with the ssid of clients or its mac address or its ip address?
+if yes where does it keep it?
+(in the sense, in which file system of its os?)
+also, a wireless router operates at netwok layer level maintaing nat tables and inspecting packets at that level and routing ip packets.
+i assume in both wireless router case and ap#s case they must do the client detection at the physical layer level.
+how does this detection recored before sending the packets higher up the stack in case of wireless router?
+i assume in case of ap, it just detects clients and routes the wlan packet directly to client.
+is this true?
+it is important for me to know this as we want to tweak the ap/wireless router for some security needs.

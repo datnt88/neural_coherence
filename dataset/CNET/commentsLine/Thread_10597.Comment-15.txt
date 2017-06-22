@@ -1,0 +1,5 @@
+the drive uses the reiserfs format.
+it's a linux based filesystem and please, under no circumstances, try to use it under a windows environment (as in hooking the drive directly to the ide connector).
+windows will attempt the read and after failing ~255 times, for reasons unknown, it does something to the first couple of sectors of the drive that renders it unreadable once you replace the drive in it's housing.
+you must use a *nix based system to reformat the drive, and then reinstall the drive.
+hope this helps a little.

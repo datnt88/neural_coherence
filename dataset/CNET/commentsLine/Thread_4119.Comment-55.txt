@@ -1,0 +1,14 @@
+i agree with this poster regarding windows search hogging all the system resources.
+it may not be your video card or anything else but windows indexing your computer which could take days.
+the best and only way to disable windows search is to right click on 'my computer' and select 'manage'.
+select 'services' on the left side of the dialogue.
+on the right side lists all the active services.
+find one called 'windows search' or 'wsearch', it may also go by 'mssearch'.
+right click on the service, select 'properties'.
+under 'startup type' select 'disabled' and make sure to 'stop' the process.
+additionally i would check your power supply.
+by adding a discrete video card like the one you did, it will consume more power and therefore could slowly beat up the one that came with your computer.
+you should have around a 700 watt power supply to run such a video card.
+some people will argue and say that a 450 watt should do the trick, but you are not talking about a big difference in cost and the 700 will run just about anything you put on it.
+if you notice the computer freezing or just rebooting on its own, replace the power supply.
+good luck.

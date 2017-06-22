@@ -1,0 +1,4 @@
+arp is used all the way up to the gateway, therefore ip alone is not sufficient to send data within your network.
+you can't build an ethernet frame without mac address.
+ethernet frames do not even contain an ip address.
+size of the network is not an issue either.

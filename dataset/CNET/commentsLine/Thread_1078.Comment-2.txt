@@ -1,0 +1,18 @@
+if the drive is not communicating with the cpu, it can not register with my computer.
+(1) eide cables have an orientation &quot;notch&quot; that precludes you plugging the eide cable upside down.
+some are embossed on the header.
+(2) try the above, with power, but do not connect the usb cable.
+does the drive spin?
+if not, the adapter circuit board was more than likely shorted.
+you did not say if power was on while plugging the eide cable to the controller board.
+that will short out the controller.
+(3) if the drive is spinning, then plug in the usb cable.
+(4) check device manager?
+any yellow flags on the usb controllers?
+if not, ok. if so, delete only the affected item.
+re-boot.
+go to 3.
+(5) are you using a usb hub?
+if so, use any usb port on the back.
+not the front.
+have seen some hp's with faulty front usb grounds.

@@ -1,0 +1,14 @@
+trying to figure what they are getting at... whether it is more than simply a scam to extract as much money as possible.
+if you use a nat masquarade of any type, it won't &quot;mess up their network&quot;.
+it might be that someone has attached a router to their network before and has caused problems through misconfiguration.
+make sure all dynamic routing or other &quot;chatty&quot; protocols are off - so you don't end up inadvertently adding routes to their network.
+and turn off snmp.
+can they detect it... theoretically know (other than visually!)
+but it depends on the behaviour.
+if they were really intent on detection, then it is feasible i guess.
+for example, a pc making multiple http connections will increment the source port each time.
+with masquarate nat (pat) the source ports are modified as the router is traversed.
+depending on the router used, it might use a random sequence for the source port rather than increment.
+or os finger printing techniques could be used if the two devices are different.
+but i doubt it is in the realms of reason that they would go to this trouble.
+more likely someone will wander around and ask why you have a network device plugged in.

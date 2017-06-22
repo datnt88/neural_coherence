@@ -1,0 +1,8 @@
+yes that is my laptop and i have no resolved the issue.
+it was a driver compatibility issue.
+the gateway website has 3 different drivers for the networking , but some conflict with the windows zero configuration.
+i downloaded the 9528158 driver from gateway after uninstalling the broadcom driver.
+i extracted the 9528158 driver using tugzip and once i was at the update driver at the device manager i followed the steps and looked into the 9528158 folder and clicked next but i got the message &quot;the wizard could not find the software on your computer for...&quot;... then i went ahead and re-installed the broadcom 802.11g network adapter from the folder titled &quot;bcm_rel_4_100_15_5_whql&quot; which most likely came from the driver titled &quot;bcm40100.exe from the gateway drivers website - broadcom wireless driver version 4.100.15.5&quot; and my wireless radio worked and best of all without the broadcom software conflicting with windows zero configuration software.
+once i had that working i went to control panel&gt;network and internet connections&gt;wireless network setup wizard&quot;&gt;setup a new wireless network&gt; followed the onscreen instructions and i connected to my wireless network.
+and viola!!
+my wireless internet works now :]

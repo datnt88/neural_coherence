@@ -1,0 +1,1006 @@
+i sure hope someone out there can help me out.
+here is my setup and my problem.
+i have three computers networked together; two desktops connected via ethernet running windows vista and a laptop connected wirelessly running windows xp.
+i connect to my dsl service with an actiontec gt701 dsl modem.
+the modem is connected to a linksys wireless gateway (wcg200) which is what the computers are connected to.
+all three computers can connect to each other on the network, but the laptop cannot connect to the internet whereas the desktops can.
+if i connect to the laptop with an ether net cable everything works just fine.
+i have tried power cycling the equipment in various orders, but to no avail.
+i ran ipconfig on all the computers and here are the results: computer 1 - desktop windows ip configuration host name .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: owner-pc primary dns suffix .
+.
+.
+.
+.
+.
+.
+: node type .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: hybrid ip routing enabled.
+.
+.
+.
+.
+.
+.
+.
+: no wins proxy enabled.
+.
+.
+.
+.
+.
+.
+.
+: no dns suffix search list.
+.
+.
+.
+.
+.
+: domain.actdsltmp ethernet adapter local area connection: connection-specific dns suffix .
+: domain.actdsltmp description .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: realtek rtl8139/810x family fast ethernet nic physical address.
+.
+.
+.
+.
+.
+.
+.
+.
+: 00-1b-b9-bd-6b-fb dhcp enabled.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: yes autoconfiguration enabled .
+.
+.
+.
+: yes link-local ipv6 address .
+.
+.
+.
+.
+: fe80::94e7:590c:9150:8696%8(preferred) ipv4 address.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.2(preferred) subnet mask .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 255.255.255.0 lease obtained.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: wednesday, june 25, 2008 5:46:21 pm lease expires .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: thursday, june 26, 2008 5:46:21 pm default gateway .
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 dhcp server .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 dhcpv6 iaid .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 201333689 dns servers .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 205.171.3.65 netbios over tcpip.
+.
+.
+.
+.
+.
+.
+.
+: enabled tunnel adapter local area connection* 6: connection-specific dns suffix .
+: description .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: teredo tunneling pseudo-interface physical address.
+.
+.
+.
+.
+.
+.
+.
+.
+: 02-00-54-55-4e-01 dhcp enabled.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: no autoconfiguration enabled .
+.
+.
+.
+: yes ipv6 address.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 2001:0:4137:9e50:14e5:2869:3f57:fffd(preferred) link-local ipv6 address .
+.
+.
+.
+.
+: fe80::14e5:2869:3f57:fffd%9(preferred) default gateway .
+.
+.
+.
+.
+.
+.
+.
+.
+: :: netbios over tcpip.
+.
+.
+.
+.
+.
+.
+.
+: disabled tunnel adapter local area connection* 7: connection-specific dns suffix .
+: domain.actdsltmp description .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: microsoft isatap adapter physical address.
+.
+.
+.
+.
+.
+.
+.
+.
+: 00-00-00-00-00-00-00-e0 dhcp enabled.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: no autoconfiguration enabled .
+.
+.
+.
+: yes link-local ipv6 address .
+.
+.
+.
+.
+: fe80::5efe:192.168.0.2%10(preferred) default gateway .
+.
+.
+.
+.
+.
+.
+.
+.
+: dns servers .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 205.171.3.65 netbios over tcpip.
+.
+.
+.
+.
+.
+.
+.
+: disabled ---------------------------------------------------------------------- computer 2 - desktop windows ip configuration host name .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: putarian primary dns suffix .
+.
+.
+.
+.
+.
+.
+: node type .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: hybrid ip routing enabled.
+.
+.
+.
+.
+.
+.
+.
+: no wins proxy enabled.
+.
+.
+.
+.
+.
+.
+.
+: no dns suffix search list.
+.
+.
+.
+.
+.
+: domain.actdsltmp ethernet adapter local area connection: connection-specific dns suffix .
+: domain.actdsltmp description .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: intel(r) 82562v 10/100 network connection physical address.
+.
+.
+.
+.
+.
+.
+.
+.
+: 00-1a-92-6a-27-5e dhcp enabled.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: yes autoconfiguration enabled .
+.
+.
+.
+: yes link-local ipv6 address .
+.
+.
+.
+.
+: fe80::d01d:36b7:c734:692%8(preferred) ipv4 address.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.5(preferred) subnet mask .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 255.255.255.0 lease obtained.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: wednesday, june 25, 2008 5:54:34 pm lease expires .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: thursday, june 26, 2008 5:54:34 pm default gateway .
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 dhcp server .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 dns servers .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 205.171.3.65 netbios over tcpip.
+.
+.
+.
+.
+.
+.
+.
+: enabled tunnel adapter local area connection* 6: media state .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: media disconnected connection-specific dns suffix .
+: domain.actdsltmp description .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: microsoft isatap adapter physical address.
+.
+.
+.
+.
+.
+.
+.
+.
+: 00-00-00-00-00-00-00-e0 dhcp enabled.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: no autoconfiguration enabled .
+.
+.
+.
+: yes tunnel adapter local area connection* 7: connection-specific dns suffix .
+: description .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: teredo tunneling pseudo-interface physical address.
+.
+.
+.
+.
+.
+.
+.
+.
+: 02-00-54-55-4e-01 dhcp enabled.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: no autoconfiguration enabled .
+.
+.
+.
+: yes ipv6 address.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 2001:0:4137:9e50:346a:3884:3f57:fffa(preferred) link-local ipv6 address .
+.
+.
+.
+.
+: fe80::346a:3884:3f57:fffa%9(preferred) default gateway .
+.
+.
+.
+.
+.
+.
+.
+.
+: :: netbios over tcpip.
+.
+.
+.
+.
+.
+.
+.
+: disabled -------------------------------------------------------------------- computer 3 - laptop (wireless) windows ip configuration host name .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: lappy primary dns suffix .
+.
+.
+.
+.
+.
+.
+: node type .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: unknown ip routing enabled.
+.
+.
+.
+.
+.
+.
+.
+: no wins proxy enabled.
+.
+.
+.
+.
+.
+.
+.
+: no ethernet adapter local area connection: media state .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: media disconnected description .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: broadcom 440x 10/100 integrated controller physical address.
+.
+.
+.
+.
+.
+.
+.
+.
+: 00-0d-56-a8-aa-a1 ethernet adapter wireless network connection: connection-specific dns suffix .
+: description .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: dell truemobile 1400 dual band wlan mini-pci card physical address.
+.
+.
+.
+.
+.
+.
+.
+.
+: 00-90-4b-1b-f4-28 dhcp enabled.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: yes autoconfiguration enabled .
+.
+.
+.
+: yes ip address.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.11 subnet mask .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 255.255.255.0 default gateway .
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 dhcp server .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 dns servers .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 lease obtained.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: wednesday, june 25, 2008 5:53:18 pm lease expires .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: wednesday, june 25, 2008 5:53:38 pm ---------------------------------------------------------------------- computer 3 - laptop (ethernet) windows ip configuration host name .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: lappy primary dns suffix .
+.
+.
+.
+.
+.
+.
+: node type .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: unknown ip routing enabled.
+.
+.
+.
+.
+.
+.
+.
+: no wins proxy enabled.
+.
+.
+.
+.
+.
+.
+.
+: no dns suffix search list.
+.
+.
+.
+.
+.
+: domain.actdsltmp ethernet adapter local area connection: connection-specific dns suffix .
+: domain.actdsltmp description .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: broadcom 440x 10/100 integrated controller physical address.
+.
+.
+.
+.
+.
+.
+.
+.
+: 00-0d-56-a8-aa-a1 dhcp enabled.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: yes autoconfiguration enabled .
+.
+.
+.
+: yes ip address.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.4 subnet mask .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 255.255.255.0 default gateway .
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 dhcp server .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 dns servers .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 205.171.3.65 lease obtained.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: wednesday, june 25, 2008 5:46:58 pm lease expires .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: thursday, june 26, 2008 5:46:58 pm ethernet adapter wireless network connection: media state .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: media disconnected description .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: dell truemobile 1400 dual band wlan mini-pci card physical address.
+.
+.
+.
+.
+.
+.
+.
+.
+: 00-90-4b-1b-f4-28

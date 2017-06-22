@@ -1,0 +1,13 @@
+i thank you for the link.
+i seemed perfect but somehow it did not work.
+i did what ray williams in  suggested but no go.
+he wrote: i found a fix for this problem.
+like many laptops, mine is equiped with a synaptic's touchpad.
+the touchpad driver override the wheel settings for all mouse devices.
+why?
+i have no idea.
+there isn't a wheel anywhere on my laptop.
+if you are experiencing this problem add the following dword key to you registry: hklm/software/synaptics/syntpenh/allowscrollsettings dword value of 1 after reboot, your mouse wheel settings will no longer be reset.
+is it possible that the value of '1' which he suggests means one scroll line and therefore i should be setting mine to the number of scroll lines i want?
+in my case 5?
+m

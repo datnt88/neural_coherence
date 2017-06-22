@@ -1,0 +1,17 @@
+with a defective chipset?
+i have a msi p6n sli-fi board with a p4 650 cpu and 2 - 1gb mods of ddr2-667 mem.
+that works smoothly in windows when it does boot-up.
+i've been trying to understand why the system fails to post at almost any bios value other than default.
+i can go up 0.0500 volts above default for the vcore but none above that.
+i have the memory set to recommended of 1.9...default for this board is 2.0. at 2.0 it fails to post.
+i can keep hitting the reset button and eventually it will post and boot.
+this mobo has an nvidia chipset and was told the temp...at default speeds runs at 50 degrees c. this system temp stays around 30 degrees even after playing a heavy-load game.
+the cpu temp varies but the idle temp is around 35 in bios hardware monitor and around 24 in msi in-windows utility.
+i'm thinking there might be something askew with the chipset but not enough to make the system run poorly.
+complete system specs are: winxp home w/sp2 msi p6n sli-fi mobo (not using sli) p4 650 cpu (vcore set to 0.0500 &gt;) 2 - 1gb mods of corsair twin2x ddr2-667 (1.9 volts) 2 - 160gb wd 7200rpm sata hdds in raid 0 1 - evga 7800gt co vga card corsair hx620w psu (+3.3@24a,+5v@30a,+12v1@18a,+12v2@18a,+12v3@18a,- 12v@0.8a,+5vsb@3a) 1 - lite-on dvd+-rw litescribe drive standard floppy drive 1 - 130mm case fan, 3 pin connected to mobo 1 - 120mm case fan, molex connected to psu and single yellow wire sensor lead connected to mobo.
+system idle temps: bios hardware monitor: cpu = 35 system = 26 msi in-windows utility: cpu = 23 - 24 average system = 26 avarage psu bios volts: vcore = 1.4v 3.3v.
+= 3.424v.
+5v.
+= 4.961v.
+12v.
+= 12.144 5vsb = 5.112 bios values: cpu voltage = 0.0500&gt; memory = 1.9 northbridge = 1.25 (currently set to 1.4) southbridge = 1.50 (currently set to 1.6) fsb vtt = 0% thanks

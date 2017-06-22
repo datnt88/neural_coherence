@@ -1,0 +1,10 @@
+you need to download and use their powermax diagnostic.
+powermax generates an 8 digit code if it is defective.
+this info and a link to the powermax is located here: my internal hard drive may be defective, how can i test it?
+this link will explain the use of the error code: powermax diagnostic codes - what does the error code mean and what do i do?
+you appear to have changed your jumper so you might want to look at this graphic to ensure that you now have it proper for the 3 gbits per sec (normal) configuration.
+in short, no pins jumpered together:  could also be a problem with native command queuing.
+is ncq enabled or disabled in your bios (or did the drivers you used support or not support it?)
+for the sata host controller?
+poor write speeds can also result from conflict between bios version and sata driver versions.
+since this is such a recent purchase, i personally would waste no time taking it back and letting them (whoever built it) handle the problem.

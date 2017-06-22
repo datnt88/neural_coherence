@@ -1,0 +1,16 @@
+hi, the other night i setup a new system and got it going.
+on boot it started with the installation of microsoft windows home with sp1a.
+during the installation process i was able to get windows activated and i was able to connect to the windows update site.
+automatic updates began updating the system.
+but after my first reboot i lost my network connection and i am now unable to get anywhere through the ethernet port.
+ipconfig shows either 0.0.0.0 or default system ip of 169.254.60.236/12.
+i have released and renewed, no change.
+the obvious, i have moved the system to another known working port, and replaced with a working cable, no change.
+i have link end-to-end, and i see port activity.
+when i look at the ethernet status, i see packets transmitted, but nothing received.
+i have dhcp enabled/obtain ip automatically for the &quot;local area connection&quot; (properties &gt; ip &gt; properties).
+i have a local home network with a netgear gateway providing dhcp server functions.
+i have plenty of adresses available to assign (50 total) and have five other systems working just fine over the existing network (3 pcs and 2 printers).
+i have run system restore and loaded the initial system settings, but no change.
+i am unsure what i am overlooking at this point, nothing seems to be sticking out, please help.
+thanks, todd system summary: windows xp home sp1a hush pc with a via epia m10000 motherboard with built in lan (i verified the lan drivers)

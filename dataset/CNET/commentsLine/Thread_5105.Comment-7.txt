@@ -1,0 +1,11 @@
+in outline format.
+1. i would create an image of the raid 1 array and store that on another hd.
+2. i would create the raid 5 array on a new set of hds using the bios utility to do such.
+(this will break the raid 1 array) you will also want to make sure your hd selection is designed for raid operation.
+3. i would restore the image to the new array.
+4. i would attempt to boot the pc.
+with a little luck and cooperation from the imaging software, this should work since the array is considered as one drive.
+i have used this method to move an os on a single disk to a raid 1 array and it worked fine with xp.
+i've not gone from one raid configuration to another, however.
+your mb claims to support raid 0/1/5 and jbod.
+good luck.

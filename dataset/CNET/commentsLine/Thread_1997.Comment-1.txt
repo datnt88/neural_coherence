@@ -1,0 +1,9 @@
+we have a modem connected to a cisco 506e pix firewall, connected to a 25-port cisco switch.
+we're using the pix as the dhcp server.
+one server machine (functioning as dns server, etc.)
+connected to the switch, 23 wired desktop connections, and two netgear wireless access points.
+the aps have the dhcp function turned off.
+here's the problem - i can connect multiple pcs to each ap, but only one pc per ap can be connected to the server and internet at a time.
+i need to be able to connect multiple pcs to the server/internet via these aps!
+i've configured the same wireless aps elsewhere at our remote sites with no problem - but they were connected via a router to a modem - no server or pix involved.
+any suggestions on how to troubleshoot?

@@ -1,0 +1,3 @@
+unused port, then get another sata hdd...perhaps like the wd drives below.
+if you go with pata off the mb controller, suspect you'll have a problem accessing all the disk space unless you use disk manager... i don't recommend using dm and in this case you don't have to.
+vapcmd ps...re mb slots 4/5... believe they're sharing an irq so its usually better not to use both slots for high use peripherals (like two disk controllers) if you don't have to.

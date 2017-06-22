@@ -1,0 +1,33 @@
+(i'm going to copy/paste your questions below, and answer in parentheses, ie.
+(***) - don't see any other way to do this.)
+before we start to dig into your router and it's settings let's try one more check.... on your desktop go to control panel &gt; hardware and sound &gt; printers &gt; right click on canon ip4300 &gt; left click properties &gt; click &quot;ports&quot; tab and verify: -printer is connected to correct usb port (yes) click &quot;advanced&quot; tab and verify the following is selected: -always available (yes) -priority = 1 (yes) -driver = canon ip4300 (yes) -spool print documents so program finishes printing faster (yes) -start printing immediately (yes) -print spooled documents first (yes) -enable advanced printing features (yes) click &quot;security&quot; tab (no security tab!
+- using xp-sp2 on desktop) under &quot;group or user names -printer is available to everyone should be highlighted (not seeing this here) under permissions for everyone -print = allow (not seeing this here) click &quot;share&quot; here i'm going to make a few assumptions... #1 share this printer box is already checked (yes) #2 you have a name entered to identify the printer for sharing.
+(yes) now here's the tricky part.
+i know that you are running vista on your laptop.
+however, i don't know what os you are running on the desktop i'll assume it's not vista?
+(correct- i'm using xp-sp2) you'll notice that there is a &quot;drivers&quot; box located in this tab (share) as well.
+read the explanation in the box and you'll get my meaning.
+i'm gonna go out on a limb here an make an assumption that your laptop in downloading the vista compatible drivers each time it prints to the shared printer.
+that's why you continually see the drivers being installed.
+so, the data is being sent to the printer cue, the drivers are being installed and by the time you reboot (your laptop) the document has printed.
+the following link better explains my point.
+in effect your desktop is acting as a &quot;server&quot; and your laptop is the &quot;client&quot;.
+the article is a little dated but the principle is the same.
+(you'll have to forgive me at this point, but i simply don't understand this article!
+there are too many terms being used in it that are foreign to me, and i can't get its intended points - sorry.
+but notwithstanding, i'll continue answering your questions and we'll see where that takes us - ok?)
+i think i remember installing the newest canon ip4300 vista drivers on the desktop, however, i think i simply went to canon's site, downloaded the drivers, and installed them on the desktop.
+i did not use any wizard, nor did i install them using any xp assistance linkage.
+so, i'm not sure that they are available when needed - and as i inferred, i'm really not sure that i dl'ed them onto the desktop when i dl'ed them for the laptop!)
+click ok after downloading the correct print drivers.
+(???
+- say what?
+...) on your laptop open the ip4300 properties &gt; click port tab &gt; make sure it points to the &quot;shared printer name and its location&quot;.
+(i'm not sure about your question here - when i go to control panal/printers/ the listed name of the default printer is &quot;ip4300(this is the share name) on melanie&quot;(the name of the desktop), under ip4300 properties/ports, the checked box is, &quot;usb002 - virtual printer port for usb&quot;.)
+verify what i've just given you and if you agree let me know and i can provide a network print solution that ignores the os of the computer for faster printing.
+(i hope i've answered your questions adaquately - now if i may, i've got a couple of additional questions/observations for you - i can't understand why on my laptop when i go into cp/printers/ip4300 on melanie/properties, the data is grayed-out - but this is the default printer!
+however, if i go the other installed printer (see my explanation in message # 5 above), it is not grayed-out, but there is a &quot;group&quot; designation noted for this printer, while the default printer has no &quot;group&quot; designation!
+is this part of the problem?
+what am i missing here?
+thanks ajtrek for your help - i hope i've answered your questions.)
+john

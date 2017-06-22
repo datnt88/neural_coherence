@@ -1,0 +1,5 @@
+in the era of 1gb pc's it's not really needed anymore, but it does make a big difference with 256mb machines.
+much less swapping and it gives a simple interface to tweak the cache behavior (instead of regedit fiddling).
+windows loves caching everything even if its to the detriment of new/on-demand memory needs.
+with the default parameters, the system cache can eat up all free ram, causing any mem allocations (like for the menu item you just opened or the new program you just launched) to cause pagefile access.
+since it's &quot;free&quot; you (and the poster) have nothing to lose.

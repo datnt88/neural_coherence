@@ -1,0 +1,6 @@
+hello, in our networking class, we have the following equipment: dell server running server 2008 enterprise, hosting active directory dell server running server 2003 enterprise, part of active directory dell optiplex gx620 running windows 7 dell optiplex gx620 running windows xp two sonicwall tz100 routers one cisco switch our goal is to have both servers on one router, and both desktops on the other router to be connected via the switch.
+we have a third switch so we can simulate having two outgoing connections to the internet when we really only have one.
+we need to be able to connect both servers and both desktops to the internet, as well as share specified files via the network as well.
+we are able to log in with our domain usernames and passwords on all pcs on the domain, but only the desktops are able to see each other.
+the servers cannot see each other and the desktops are unable to see the servers, and the servers are unable to see the desktops.
+the folder we are trying to share is on the server running server 2003. advice?

@@ -1,0 +1,14 @@
+thanks kees_b and vapcmd i have already seen the information on the southbridge link you have provided.
+an excellent article to be honest but it does not answer my question.
+i actually am not sure what is happening whether its the bios sends the signal for the sb to check if there is a master and slave on the drive or is the sb which is doing the work and supplying the required information to the bios?
+the issue will help me reduce some confusion that i have.
+i am starting to believe that its the bios that checks the primary channel and the sb is simply a means to an end.
+i just would like to confirm this.
+the drives are all ide.
+apparently that article does indicate thats the ide controller is rolled into the sb chipset.
+the jumper is fine it just tells the bios/sb that the drive is a master or slave on that channel.
+but then how does the bios know that its detecting a hd ide on the primary versus the secondary channel ?
+how does it know this ?
+what is the role of the sb when all of this happening ?
+hope the above clearifies anyone's question and if it does not just please ask me again.
+victor

@@ -1,0 +1,6 @@
+that motherboard only supports sata i drives.
+there is a bug in the chipset that prevents sata ii (300mbps) drives from reverting to sata i mode.
+you can make it work by manually setting the drive to sata i. most drives have a jumper or internal setting to accomplish this (for exactly this purpose).
+see the drive manufacturer's website to find out how.
+you may have to download a utility program (and find a machine to run it on) to set the drive up the way you need.
+-jimc

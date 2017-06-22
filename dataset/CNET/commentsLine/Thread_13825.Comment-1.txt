@@ -1,0 +1,5 @@
+i use motorola vt1005, befsr41 on cable modem and vonage service.
+currently i hook up as follows: cable modem - befsr41 (with 2 pcs) and- vt1005 problem is that the connection (voice) broken up when in use while browsing (no problem when no browsing) then i tried to configure port forwarding and port triggering on my befsr41 (as suggested many article) the ports that i forwarded: 5060-5063 --- udp - to vt1005 ip 69 ---------- udp - to vt1005 ip 123 --------- udp - to vt1005 ip 10000-20000 - udp - to vt1005 ip port triggering: triggered port forwarded start end start end 5060 5063 5060 5063 69 69 69 69 123 123 123 123 10000 20000 10000 20000 (i wonder if that how i supposed to do it) --- the problem remains..--- befsr41 - dhcp/nat enable, upnp disable.
+vt1005 - dhcp/nat enable (i put a static ip manualy - port forwarding/triggering need) note: i don't want to place the vt1005, in front of the router, due to security on open port (vt1005 is known as bad router) and avoiding ping attack, etc.
+are there any other thing i should/could do to eliminate the broken voice while browsing?
+thank you for any help.

@@ -1,0 +1,9 @@
+this is discussed in the forum sticky but.
+the lazy way to do this is to use your new router as a switch/ap.
+hook a cable between lan ports on both your new and old router.
+all your devices will use 192.168.36.0. you should still be able to use all the wireless capability just none of the router functions.
+mostly it would be firewall and content filter type stuff.
+the other way is to run the dual nat configuration.
+you would put your new router on the dsl and then plug the wan interface of the security router to a lan port of the new router.
+the main disadvantage to doing this is if you need to map ports from the internet to a device in your security area you have to map the ip though both routers.
+it is also much more troublesome to make machines talk between the 2 networks than if they were on the same subnet.

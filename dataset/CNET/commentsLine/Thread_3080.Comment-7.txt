@@ -1,0 +1,15 @@
+well thanks very much for the free coaching.
+it worked.
+duh, i forgot the ustair firewall!
+now i have to remember to configure the firewall on the other downstaors comp.
+well while i read every book i could find on home networking i never found a simple checklist, and i am no expert but this is what i did networking xp and 2k machines: 1) on each machine, create an identical username (that will exist as a username on each machine), with the same name and password.
+(give this name admin rights) this user must have a password, but for wake onlan etc i have another username with no password be the default startup user, with no sign-in window.
+all that matters is those common names and passwords just exist on all computers, they don;t have to be logged on apparently.
+2) in win2k, use the network wizard (sytem/ network id) to create a workgroup name.
+have each computer join this network (same name).
+3 in windows explorer, under properties allow sharing.
+use the window to turn the disk names to plain, not with $ sign as that makes it invisible.
+4 allow access to ip addresses in all firewalls on all computers.
+may not be totally correct but that's what worked i think.
+never saw this simple list anywhere.
+--fj

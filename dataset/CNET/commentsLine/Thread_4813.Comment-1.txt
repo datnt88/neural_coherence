@@ -1,0 +1,6 @@
+so i have a proxy server in my home that all the computers use to access the internet (xp pro).
+i edited the host file on the proxy to redirect traffic for various reasons (ad blocking, etc.)
+but i have noticed that it doesn't seem to affect the computers that use the proxy.
+for example one entry in the host file could be 127.0.0.1 abc123.com so that abc123.com would loopback to the localhost.
+for some reason this isn't working.
+is there anyway to get this to work without changing the host file on each individual computer?

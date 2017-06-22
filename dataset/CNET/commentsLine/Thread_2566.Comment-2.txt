@@ -1,0 +1,9 @@
+it appears you did this from your pc behind your router.
+unless you pay for it you will only get a single ip from your isp.
+that is your 71.56.46.184 address.
+since there is only 1 ip address the device you plug into the modem or other device the isp uses gets this ip.
+if you run without a router your pc will directly get the ip.
+when you use a router the router pretends all the machines at your location come from the same address.
+in effect your machine has 2 addresses.
+the 192.168.1.102 is your &quot;fake&quot; address.
+these are actually called private addresses and are used to reduce the actual number of ip used.

@@ -1,0 +1,12 @@
+any help or guidance regarding the following problem would be greatly appreciated.
+i have recently set up a broadband connection.
+i am using one origo router connected via an 8-port switch to a number of computers.
+on two of the machines an internet connection is readily available, but on a further two, when an attempt is made to access internet explorer the following message is displayed: ------------------------------------------- forbidden you were denied access because: access denied by access control list.
+------------------------------------------- i have limited knowlege on the subject but i am lead to believe that this is due to the router blocking the ip addresses of the problematic machines.
+i have been able to ping the router from the problematic machine, so it is my guess that the problem is not in the connection.
+i was informed that it may be to do with the routers 'firewall' although i have been unable to find any such settings within the router config.
+a second opinion was that the ip of the problematic computers may be outside of the range set by the router.
+i have checked this, the problematic computers have ip's 10.0.0.5 and 10.0.0.6 (those working correctly have 10.0.0.7 and 10.0.0.10) and the settings within the router config (if i am looking at the right thing) specify the dhcp user defined start address to be 10.0.0.4 and the end address to be 10.0.0.15. the problematic computers are identified on the router config screen and are listed as connected to the dhcp server.
+as i say, i have very limited knowlege and have simply been trying to decifer the all this lingo over the past days.
+if anyone could offer some guidance my way it would be greatly appreciated.
+many thanks, david.

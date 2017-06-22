@@ -1,0 +1,11 @@
+if you really want to get rid of linux the first thing to do is get hold of a win98 startup disk.
+insert into floppy drive and boot computer.
+at the command prompt c:/ type in c:/fdisk /mbr.
+this will get rid of the boot loader for linux and restore you windows loader, then type in exit at command prompt.
+remove floppy and reboot computer.
+when windows has fully loaded left click on start - all programs - administrative tools - computer management - then disk management in the window that opens showing you disks.
+right click on the drive that linux was installed on and click on format.
+you have now got rid of linux.
+reboot your computer and the drive that was linux should now be a blank drive ready for you to use.
+this may seem very simplified but i have not done this for a while and i am writing this from memory.
+good luck.

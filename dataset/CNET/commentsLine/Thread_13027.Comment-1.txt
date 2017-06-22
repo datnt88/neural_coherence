@@ -1,0 +1,7 @@
+i have a doubt regarding raid5 reorganization.
+suppose we have a raid5 group consisting of 6 disks in a storage system.
+suppose, one disk (call it d1) is unreachable i.e the disk component does not fail but some component (for example, some network cable) to reach that disk has failed.
+although the data in d1 is valid, the data in d1 is inaccessible.
+in this scenario, will the reorganization will start or some field repairperson will try to repair/replace that component?
+replacing a component seems to take less time than reorganization because reorganization is very costly with respect to time .
+also, data in d1 is valid (so just repairing that component will make everything fine).

@@ -1,0 +1,5 @@
+the first thing i would do is make sure that you are booting from the cd.
+if you get the ntldr error, you are probably attempting to boot from the drive.
+if you press f2 (usually) during the bios post, you can enter the setup menu and make sure that the cd-rom is the first boot device.
+then when you restart, you should be able to boot from the cd - make sure you watch - there should be a &quot;press any key to boot from cd&quot; message.
+once you get into the xp setup, delete the existing partition and let xp re-format using ntfs, then install xp.

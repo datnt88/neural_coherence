@@ -1,0 +1,17 @@
+your security questions have 2 facets - secure transmissions from pc to access point (wep or the newer, more secure wpa) and mac address filtering to prevent someone from picking up your access point's signal and &quot;tapping&quot; into your ap to surf the net or your pc's files.
+if you have wep enabled, but don't turn on mac filering someone can hack your pc or use your ap to surf.
+if you have mac filtering enabled, but don't have wep someone (i don't know what equipment would be needed) could &quot;read&quot; the radio signal from your pc to accesspoint.
+ideally you should have both security systems in place.
+however, i don't think too many could intercept and decipher the radio signal.
+but many more could simply tap into your access point without the mac address filtering.
+sounds like you successfully have turned this on.
+(linksys makes this easy.)
+you should also turn off your router broadcasting your ssid - it makes it easier for a someone looking for an open access point to hijack a ride on.
+you simply have to program your pcs, but you know what your ssid is so no problem.
+firewalls - zone alarm and sysgate personal firewall are both free and both work well.
+winxp sp2 - i have upgraded 5 pcs with no adverse reactions.
+i think some of the negative press comes from users not understanding the need to reconfig the new windows firewall (which is by default turned on) to allow certain applications to pass through.
+you have to do this with every firewall.
+za and spf just make this easier by popping up messages with every attempt by programs to access the internet.
+windows firewall just prevents access and you have to know enough to reconfig access.
+hope all this helps.

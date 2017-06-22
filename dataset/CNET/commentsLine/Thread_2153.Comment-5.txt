@@ -1,0 +1,26 @@
+the following describes how you can install ubuntu onto a client machine, using just its network card to boot an ubuntu installation image which will install ubuntu.
+the way this works, in summary is: you set up and configure bootp, tftp, dhcp, and internet gateway services.
+your client machine will 'netboot' via its network adapter, using pxe/bootp protocol, get passed a kernel and installer via tftp.
+it will boot into that kernel, which will run an installation of ubuntu onto your client machine.
+most of the packages installed come from latest versions from the ubuntu repositories on the internet.
+set up the servers ensure that you have a bootp server, a tftp (eg tftp-hpa) server, and access to your router/gateway.
+configure the router and its dhcp server.
+get the mac address of the new machine you will be installing ubuntu onto (the 'client machine' ).
+it is easiest if you decide on a fixed ip address for the client machine and set it into the router, as a fixed ip address, eg 192.168.1.42. note also the gateway address of the router.
+configure a bootp service on a linux host.
+the same ip address as above needs to be assigned by the bootp service to the client machine.
+install bootp.
+edit /etc/bootptab.
+here is an example.
+client:\ ha=&quot;00:00:39:2b:54:b5&quot;:\ ip=192.168.1.42:\ gw=192.168.1.1:\ sm=255.255.255.0:\ td=/: hd=/: bf=pxelinux.0 ha = the mac address of the client machine (set this to its value) ip = the ip address assigned in the router to the client machine gw = the address of the router sm = the subnet mask for your lan td = the directory on the tfptboot server where the pxe files reside, relative to the tftpboot server's root.
+hd = a further path which ends at either the pxe boot file or a link to it.
+(this is probably ok as is) bf = the pxe boot file (this is probably ok as is) for further help: man bootpd; man bootptab and also found in the etc/bootptab file itself as comments.
+if you don't know the hardware address, or which ip address the dhcp server of the router will assign, start the client machine.
+make sure its bios is set to boot first from its network adapter.
+you should then be able to get the hardware mac address as it attempts to boot via the network adapter.
+update /etc/bootptab on the bootp server with the client's mac address and the ip address for it as set in the dhcp server (eg in the router), then restart bootpd.
+start bootp: here is a wrapper to start and stop bootpd from the command line.
+vdaemon=bootpd vcd=/var/lib/tftpboot start () { echo -n &quot;starting $vdaemon: default current directory is at $vcd ... :&quot; /usr/sbin/$vdaemon -d 4 -c $vcd &gt;/tmp/$vdaemon.log 2&gt;/tmp/$vdaemon.err & sleep 1 status } stop () { echo &quot;stopping $vdaemon ...&quot; kill `pidof $vdaemon` } reload () { if [ &quot;`pidof $vdaemon`&quot; ] ; then echo &quot;reloading config file for $vdaemon ...&quot; kill -hup &quot;`pidof $vdaemon`&quot; fi status } status () { vpid=&quot;`pidof $vdaemon`&quot; if [ &quot;$vpid&quot; ] ; then echo &quot;$vdaemon running, pid=$vpid&quot; else echo &quot;$vdaemon not running&quot; fi } case &quot;$1&quot; in start) start ;; stop) stop ;; reload) reload ;; restart) stop ; sleep 2; start ;; status) status ;; &quot;&quot;|*) echo `basename $0` parameter: start stop status reload or restart ;; esac preparing files for tftp net booting, section &quot;setting up bootp server&quot; has more info on bootp, including instructions for starting bootp using the inetd alternative.
+configure the tftp server: install tftpd-hpa.
+its config in /etc/default/tftpd-hpa should be run_daemon=&quot;yes&quot; options=&quot;-l -s /var/lib/tftpboot&quot; the -s parameter is your tftp server file root.
+download the netboot installer tarfile from the ubuntu archives (karmic, jaunty), and extract its contents into the tftpboot server file root as per above.

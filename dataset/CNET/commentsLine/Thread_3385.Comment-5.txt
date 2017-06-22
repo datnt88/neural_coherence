@@ -1,0 +1,46 @@
+more important than tracking the intruder, is to stop the intruder from continuing to access your network.
+the first thing you need to do is dump wep.
+wep is hiddeously insecure and can be, and (as you found out) frequently is, trivially hacked.
+in fact, the fbi did it in 3 minutes using kismet, airodump, airplay, and aircrack.
+the proccess is not very complicated, and the above listed tools are readily available.
+you really need to move to wpa2 if your equiptment will support it, or at least wpa, with a randomly generated sufficient complex passphrase.
+now the bad news, wpa/wpa2 has a vulnerability as well.
+you do not want to use a short passphrase consisting of a word found in the dictionary.
+this will leave you vulnerable to an offline dictionary attack (a type of brute force attack where words found in the dictionary are thrown against a passprase to recover the passphrase) by someone using kismac or cowpatty.
+(two popular wireless hacking tools that are also freely available) you will want to use a randomly generated complex passphrase consisting of at least 34 characters.
+most publications say 20 characters, but you get about 2.5n bits of security per character +12 bits (2.5n+12 total) in a passphrase.
+so, this would only give you 62 bits of equivelent security.
+bare minimum you want want 96 bits of security, so 34 characters will give you a total 97 bits.
+ideally, you will want to use a 64 digit hexadecimal.
+this will give you a full 256 bits of security, plus using a 64 digit hex avoids the hashing process used to create the 256 bit pairwise master key, because the hex is used directly as the key.
+it is this hashing process (specifically, the mic hash value)that leaves wpa/wpa2 vulnerable to a dictionary attack when short dictionary words are used as the passphrase.
+now the good news.
+the brute force dictionary attack is the only known effective attack against wpa/wpa2.
+if you use a 64 digit hex you will make your network reasonably secure against any sort of brute force attack in that each of the 2^256 possibilities must be tried since your passphrase can not be found in a dictionary.
+this is a huge number 1.1579208923731619542357098500 869x10^77 or in decimal format: 1,157,920,892,373,161,954,235,709,850,086,900,000,000,00 0,000,000,000,000,000,000,000,000,000,000,000,000 now the really good news.
+to check each of the 2^256 possibilities, you would have to have a device that could crack a billion billion keys per second and it would still take you 3.671x10^51 years to check every possibility.
+(3,671,743,063,080,802,746,815,416,825,491,118,336,290,905,145,409,708 years) as you can plainly see this is significantly longer than the 3 minutes it took the fbi to hack wep.
+now the best news of all.
+the des cracker deep crack (something your local wardriver is not likely to have) could only do 90 billion keys a second,and would take 4.0769221021355023274397357709461x10^58 years to exhaust all the possibilities.
+newer devices can do 256 billion keys a second these computing goliaths (something your local wardriver is even less likely to have) would still take 1.4332929265320125369905321069732x10^58 years to exhaust the possibilities.
+the two most popular tools, kismac and cowpatty (something your local wardriver is likely to have) can do 100 and 60 keys per second respectively.
+now, this can actually be subtantially increased to around 76,000 keys a second using precomputed hashes and very large dictionary files (again, readily available).
+but, 76,000 still falls way short of even the des cracker, and precomputed hashes in a dictionary attack are of no use if your ssid hash is not in the hash file, and your password is not in the dictionary file.
+but, for the sake of argument it would still take 4.8279340683183580193365292024362x10^64 years to run through all the possibilities.
+in reality at 100 possibilities per second it would take 3.6692298919219520946957621938515x10^67 years to exhaust the possibilities.
+so as you can see if you use a sufficiently complex and random passphrase, you can have a fairly secure network.
+if you use something like: toast thats exactly what you will be, and it will take anywere from 0.2 seconds to around 5 minutes to hack your network.
+however, if you use something like: de9350eb9f96d947a962e5c9d71a6f5fc3de5d006bf1340400050d30354af49f (a 64 digit hex) your would be hacker is going to be busy for quite some time trying to hack your network.
+if you don't have the means to generate these sort of passowrds, you can go to:  you'll want to get this on a computer that is wired to your network.
+hope this helps.
+p.s.
+if your equiptment does not support using a 64 digit hex, you can still use 63 character randomly generated passphrase like: &gt;66x&gt;xc'kidz^7{u(,v}*c&-x\[|hl}?
+@o&gt;kc6w6&gt;gognb**wo&quot;&quot;,0adq]x*yug or 1zuyaqp3yaqsoyjgbru0xwidktm2nwzj6izvlcarl0c4zekgyneec7zqmkrsyz6 but be aware that this will only provide 169.5 bits of equivelent security.
+so, this leaves only 1.0582402237152498756263674716231x10^51 possibilities to check.
+at a billion billion keys per second, it will take your hacker only 33,533,609,137,426,479,695,108,863.5 (3.35336091374264796951088635x10^24 years to crack your passphrase by brute force.
+by the way, the age of the universe is believed to be 15 billion years 1.5x10^10.
+so as you can see, it is possible to keep intruders at bay with a reasonable amount of effort.
+there is no such thing as bullet proof.
+remeber, it used to be computationally infeasable to brute force des, and now it can be done in hours.
+what is impossible today may be child's play tomorrow.
+but for now, use randomly generated complex passphrase (64 bit hex or 63 character ascii) with wpa/wpa2,and your would be hacker is probably only going to waste only so much time on your network, and go in search of a softer mark.

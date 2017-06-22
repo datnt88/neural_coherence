@@ -1,0 +1,18 @@
+i am also a dell owner and recently installed an ide in addition to my serial ata.
+i began receiving a similar error but only after powering off the machine.
+a restart would go cleanly so it appeared sporadic.
+you will probably be able to duplicate this after a complete shutdown.
+anyway, i will make a couple assumptions.
+1) you are installing a serial ata in addition to your primary ide hard drive.
+here is how i believe i resolved my issue.
+go into bios - press f2 for setup.
+serial ata will probably say say yes - press the space bar and turn it off.
+you should see the bios request status for two ata drives.
+under your serial ata drive 1 - set it to auto ( so that it will autodetect on bootup.)
+after rebooting, you should get a message 'new hardware found' shutdown and reboot the system.
+your f1/f2 to continue error should go away because you are forcing your system to recognize the hard drive in question and not confuse it with other.
+if this still doesn't work, a slightly riskier steup would be to set your primary ide drive in bios to auto and make sure all other ide drives (primary/secondary) are set to off.
+here is a link from western digital to look at for checking your jumper settings on your primary ide drive.
+best wishes on resolving this.
+i hope i helped a little.
+michael

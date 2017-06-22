@@ -1,0 +1,15 @@
+coming from windows 98 to windows xp, you would want to bring the old files and settings from the w98 disk to the wxp disk.
+many schemes are available to do this in the form of new software and of course windows xp file transfer.
+you could buy an upgrade version of windows xp and do the trick but you would be left with that crippled copy.
+buy a full version of windows xp and do the following.
+1. clone a copy of your windows 98 disk to another disk using ghost.
+take the ghost copy of the disk and install it in your computer.
+fire the computer up, and holding down the f8 key, go into safe mode.
+in safe mode, bring up the registry by hitting the start button, click on run and type regedit in the box and hit enter.
+this brings up the registry.
+find the enum key under hkey_local_machine.
+at the top of the box find edit and either delete the enum key or rename it.
+it is best to rename it in case you have to go back.
+this action wipes out all of the hardware knowledge of your drive, so that windows xp will find the hardware and assign the proper drivers to it.
+if you are going to use the same disk and hardware for the windows xp, then you do not need to use the enum trick.
+skip to step 2.

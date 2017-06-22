@@ -1,0 +1,14 @@
+the next time this happens you should do the following.
+1) open a dos windo and type ipconfig /all for status and info.
+2) ping the default gateway 3) ping the dns server listed in ip config.
+before this problem happens again, do a ..... tracert  or trace to your dns server.
+trace route will show you a response from every router between you and the target.
+what you are looking for is the ip address of the first isp router.
+once you know the ip address of the isp router you can add that as step 4 above.
+4) ping the isp router this should give you some clue what is wrong.
+you can also log onto the router and check the status page.
+dsl usually uses pppoe (ppp over ethernet).
+ppp uses a username/password to track usage.
+disconnected usually means your router could not authenticate with the isp serrver.
+some routers also allow you to ping from the gui.
+skrall

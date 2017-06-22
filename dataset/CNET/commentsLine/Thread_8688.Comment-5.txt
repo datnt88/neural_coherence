@@ -1,0 +1,10 @@
+from the ver 5.0 manual level 1 - examine the surfaces - this level reads the drive's surface reporting the readability of the partition's data.
+it is a very quick readonly test which never alters the data on the disk drive.
+level 2 - recover unreadable data - this level adds recovery to level one.
+if any region of the drive is unreadable, level 2 will employ the full strength of dynastat data recovery to read the data.
+once the data has been read, spinrite's deepest level of surface analysis will be called into service to determine whether the recovered data can be safely rewritten to its original location or whether it should be relocated to another safer area.
+if a defect is detected under the troubled data, that location will be marked bad to prevent future use.
+level 3 - refresh the surfaces - this level adds a complete read and rewrite operation to level 2. every sector of the drive is read and rewritten to refresh and electronically realign the data underneath the drive's read/write heads.
+level 4 - defect analysis - this is spinrite's deep surface analysis and defect scrubbing level.
+it performs full data recovery and analyzes the drive's entire surface to certify its data storage integrity.
+vapcmd

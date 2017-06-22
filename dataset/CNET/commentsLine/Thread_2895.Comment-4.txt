@@ -1,0 +1,7 @@
+well, i manually made chkdsk to run at bootup so that it can have so-called &quot;exclusive access&quot; to the harddrive.
+my os was not damaged before i ran chkdsk; it was just unstable (which i later found out to be ntune's fault).
+but after i ran chkdsk, some core system files were gone, such as msxml3r.dll, etc.
+and these files were all reported as &quot;located in bad sector and was repaired&quot; in chkdsk's log.
+even sfc /scannow did not totally recover them.
+i had to copy the dll's from my original xp cd.
+what i want to know is whether it's normal to lose data while disk utilities, such as chkdsk, are doing their job?

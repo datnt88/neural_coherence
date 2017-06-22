@@ -1,0 +1,12 @@
+sata wasn't offered when xp came out.
+thus you need the driver provided by the hd maker.
+visit the wd support website and get it or check your wd cd and see if its there.
+if so, expand it and make a bootable floppy(usually) or access by another bootable means.
+thus, when you use your restore cd when it asks, &quot;outside drivers needed/required&quot; or similar wording during the xp install.
+a restore cd should offer small menu to supply whatever to continue the install process.
+fyi, the making of xp install on another system just won't work when swapped to the end system.
+on top of the sata issue you will have a xp blank screen or blinking cursor as a result.
+review the bios setting so sata is active and/or both sata+ eide if you plan to use eide too.
+you will need also to make the boot order, if sata is going to be the primary boot device, enable it.
+you may need to play with it for best results as it varies from bios to bios and mtrbds.
+tada -----willy

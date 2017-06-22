@@ -1,0 +1,8 @@
+depends what you mean url.
+the sitename-ip resolution will be made by the pc before the request is sent thought the router so it will never see the actual a packet with the dns name of the site they will always only have ip.
+some of the routers that claim to block url really just block the dns name.
+they will have to do a dns lookup to actually block anything.
+now if what you want is a router that can say block &quot; but allow &quot; you need one that read the content of the http request.
+this takes a lot of cpu power to do and really i only know of commercial ones that do this... but there are new routers every day so maybe someone has seen one.
+you might try the dd-wrt firmware load on a router.
+it has the ability to filter keywords so it may work.

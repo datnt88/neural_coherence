@@ -1,0 +1,7 @@
+this is often an ip address issue.
+but there is also another thing to check.
+on the server, open network connections folder, r-click the incoming connections icon and choose properties.
+in the incoming connections properties dialog box, click the networking tab, select tcp/ip and click properties.
+the top check box,&quot;allow callers to access my local area network&quot; should be ticked.
+below this are the 3 options for assigning ip addresses: assign automatically using dhcp; specify an address; allow calling computer to specify its own ip address.
+the method your server is using needs to be matched by the client computer.

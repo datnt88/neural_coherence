@@ -1,0 +1,8 @@
+i assume you run everything through a router (or switch and server (acting as the router)) now the question, are the users local adminstrators, as well as adminstrators of the domain?
+sometimes this can be overlooked and is worth asking.
+if they are, in fact, local admins, then possibly checking the adapters on the affected computers for the status of ipx/spx protocol and toggling the status would help.
+make sure that ipx/spx is either completely enabled on every computer or completely disabled and see if that changes anything.
+the way a shared printer should work is when you find it in your network places, double-clicking it should create a connection that is relatively permanent without asking for a username or password.
+make sure in the sharing and security settings that the group everyone has full access to the printer.
+hope that helps a little.
+chris

@@ -1,0 +1,5 @@
+cisco has the best networking device but it is not within reach of every organization.
+i have mentioned upfront to my client that nobody would be able to provide sla on wifi connectivity.
+i am not sure if my idea of using lb and firewall are the best but these are the requirements: - ability to lb between multiple wan lines from different isp for performance and redundancy.
+- ability to limit b/w per user to prevent abuse - ability to block/filter web content/torrent and etc.
+- very high network uptime (99%) my initial recommendation would be: wan --&gt; lb --&gt; firewall --&gt; core switch/wlan controller --&gt; 8 x aps

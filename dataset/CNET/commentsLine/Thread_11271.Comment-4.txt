@@ -1,0 +1,7 @@
+hi, i find this topic very interesting as i am trying to solve a bit similar problem.
+i am a new/test user too and i need to log every file upload into a sql database (ms sql to be more specific).
+my goal is to create a simple solution that will archive/delete all files over certain age where the age is based on file upload date.
+i found out how to log file transfer to a text file using event which is basically what i need, but to be able to log directly into a sql table would be much better.
+can you please point me to a solution on how to insert data direcly to ms sql server using batch file?
+i need to log the following information: direction (upload, download) username client ip address file name file name incl.
+path date datetime which translates to this event configuration when i log to the text file: /c echo &quot;fileupload&quot;,&quot;$name&quot;,&quot;$ip&quot;.&quot;$localfilename&quot;,&quot;$localpathname&quot;,&quot;$day.$month.$year&quot;,&quot;$day.$month.$year $time&quot; &gt;&gt; d:\data\ftplog1.txt thanks, petr

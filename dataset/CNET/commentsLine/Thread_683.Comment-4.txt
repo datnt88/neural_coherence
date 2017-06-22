@@ -1,0 +1,6 @@
+if a program only consists out of a single thread and cannot be broken into multiple threads, only one core of your cpu can be used and it won't enjoy the full potential of the cpu.
+if you run multiple programs, then each can be ran on a different core and they'll all run at full speed.
+if you have one program that is made to be able to work in multiple threads, that program can be ran on all cores at once and will enjoy the full potential of the cpu.
+this is not matured yet, but more and more software and algorithms are now ready for multithreading, which will result in more speed on those new multicore cpus.
+basically, dual core or quad core is a good deal.
+go for it

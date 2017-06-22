@@ -1,0 +1,15 @@
+i'll do my best to explain.
+i spoke to a networking person i know and they said the problem was with the way i initially setup my home network.
+my desktop computer was initially setup without a router.
+a direct connect to the cable modem.
+when i later added a router, everything seemed to work fine.
+i did, however, have trouble seeing other computers and drives on the desktop machine.
+i worked around this by accessing the desktop from the other computers.
+i should have paid more attention to this problem because it was an indication that my network was in a somewhat limited configuration.
+this is the part i do not explain too well... if i ran ipconfig from the command prompt, it would show 192.168.0.0 as the ip address of my computer.
+but the router's ip address was also 192.168.0.0. i am not sure how this happened, but it had something to do with the initial configuration (before the router).
+when i added \\bigdrive to the router, it grabbed an ip address and was only visible to other, newer machines added to the router.
+the desktop could not see it.
+what i did to fix it: i forced the ip address of the router up to another number: 192.168.0.1 made sure the desktop was another number: 192.168.0.150 also, i made sure that \\bigdrive was yet another number: 192.168.0.101. after that (and a number of restarts of the desktop, router and \\bigdrive, and suddenly everything was available.
+i hope my somewhat weak explanation helps!
+terry

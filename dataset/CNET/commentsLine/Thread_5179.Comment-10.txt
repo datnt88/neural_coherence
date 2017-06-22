@@ -1,0 +1,16 @@
+1. is the firmware in the router current?
+--yes super!
+2. is there some firewall is said router?
+--the router (netgear rp614 v.2) does have some kind of built-in firewall.
+it can interfere.
+be aware that turning it off is not a bad thing.
+you still get the benefits of the nat firewall feature.
+3. did you put the mac address of your pc into the router?
+(check the manual...) --no, everything was auto-configured, totally plug and play.
+that's what bothers me; i made no changes to the router before the problem started.
+i'm not even sure how to manually input a mac address (or what it is exactly -- please forgive my ignorance!
+).&quot; i'd have to read your manual about this.
+what can confound us is that &quot;we&quot; didn't change a thing... but that nat address can be seen in windows xp if we open a command window (start, run, cmd, enter...) and type... arp -a here's mine.
+c:\&gt;arp -a interface: 192.168.0.110 --- 0x2 internet address physical address type 192.168.0.1 00-0f-3d-00-4d-39 dynamic that physical mac address may be required in your router, but i can't know this since i am not your isp.
+but it is one of the things i always set.
+bob

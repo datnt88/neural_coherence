@@ -1,0 +1,6 @@
+i am trying to set up a wireless network at home which will also let me connect wirelessly with my work laptop using vpn.
+the laptop has to go through a cisco pix firewall but i do not want other devices going through that, though i still want other devices to be able to connect wirelessly.
+i set it up the following way and it connected successfully, but the problem is all wireless traffic is going through the pix and i only want the laptop to go through the pix: qwest dsl modem---cisco pix 501---belkin play n600 n+ wireless router---laptop with windows 7. i also have a home computer that i want to connect to the wireless without going through the pix, and at some point to connect other devices as well...(tv, etc).
+however, i can't figure out how to configure it so this will work.
+if i set it up: modem---router---pix how can i make the laptop connect wirelessly but still go through the pix in order to enable the vpn connection, but not force other wireless connections to go through the pix?
+do i need a second router attached somewhere in order to do this or is there some other way?

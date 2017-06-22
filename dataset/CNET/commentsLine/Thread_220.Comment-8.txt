@@ -1,0 +1,5 @@
+computer, i always (hope this has a floppy drive) disconnect the sata booting 'c' drive, connect the new hd to an ide channel, cable select, boot the computer with the manufacturers floppy (maybe cd like some of them come with nowadays.)
+use the create option, format, check disk, make active (or not- that's a whole other set of questions to be debated), then shut down, reconnect the sata booting drive, during boot press whatever key to get to setup menu (del, or f2, or f1, whatever) verify the first hard drive in boot sequence is the sata drive, let the computer boot, most likely the drive will appear as &quot;e&quot; (if all you have is the sata c drive, an optical drive, and your new one.
+if it's still not showing, go to diak management and look for it, assign it a letter, change the path, whatever.
+inside xp booted you can then be sure the formatted file system is what you wanted (ntfs or fat32).
+bingo, you should be there.

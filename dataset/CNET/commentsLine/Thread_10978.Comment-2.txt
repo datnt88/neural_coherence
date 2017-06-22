@@ -1,0 +1,8 @@
+unless the os is running on the remote pc, it's not going to be able to respond automatically to a print command but i'm not sure what you mean by power saving mode.
+anything like standby or hibernate is not going to work.
+it might be possible use a wol (wake on lan) scheme but these are rather tricky and, in my limited experience with them, a bit flaky too...that's the best i can describe these as i've only used them with nas hardware.
+you can certainly just turn off the monitor and leave the pc running...perhaps even allow the hd to power down, but i have to wonder if another option might be just to use a network print server.
+the downside of these is finding compatibility between printer and server.
+they don't all work gracefully.
+but, if that's an option, you can leave the other pc off and it will still have access to the printer when you do turn it on.
+good luck.

@@ -1,0 +1,11 @@
+if w98/98se/me there was a scandisk command you could use to unmark a bad sector if it was marked by accident by scandisk.
+not sure about xp since it doesn't use the same scandisk program.
+however, usually one bad sector doesn't interfere with programs being accessed.
+the only problem i've run into with a bad sector is with installing windows if the bad sector is at the front of the drive where windows would normally install itself.
+w95 would plow right over the top of the bad sector and skip it completely, but all versions after that will halt during an installation when it got to that spot.
+if this is what's happening to you and the drive is formatted already and you can't install windows because of it, you can contact the mfr of the harddrive about getting it replaced if it's still under warranty.
+if the drive has data on it, scandisk or chkdisk for xp would normally move that data to another area of the drive and mark the sector bad so nothing else gets written to it.
+if this is the case, you can purchase another drive, get it set up with your windows installation and then hook up the second drive as a slave and copy all important data on it to the new harddrive.
+or you could back up that data to a cd/dvd and replace the drive then copy the data back from the cd/dvd to the new drive.
+more information would be helpful....including the mfr of the drive as the mfr site, such as western digital, has a tool available at their website that can check all harddrives for you no matter who the mfr was and can tell you if the drive is ok or going south on you.
+toni

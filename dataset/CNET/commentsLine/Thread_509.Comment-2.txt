@@ -1,0 +1,14 @@
+the short answer is yes.
+my bet is that asus has a last hurrah bios upgrade (which is free), that will (i bet!)
+give you support for up to the 127 gb size or there abouts.
+as to adding memory, the discussion at  missed the real issue.
+the bx chipset requires double-sided memory and the usual stuff you get from off the rack or shelf is single sided.
+i'll write what the real electronic issue is and let you digest it.
+the bx chipset only supplied enough address lines for 128m of ram on a slot using a single chip enable signal.
+to get 256m support, a second chip enable is used for the other bank of ram on the memory stick.
+hence, double-sided.
+one bank of ram verses two.
+if you get some 256m stick of ram and it works as 128m, then you got the wrong memory.
+better vendors like crucial will ship you the right part if you look it up and supply that make/model board.
+i don't see any real show-stopper.
+bob

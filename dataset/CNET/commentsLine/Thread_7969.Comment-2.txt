@@ -1,0 +1,7 @@
+i had the same issue, but the wired vs. wireless shouldn't be an issue.
+i have one machine as my gateway, and the other machines use the static ip of the machine with the modem and the dial-up connection as the &quot;default gateway&quot; to access the internet.
+the only difference is i did not set my router as an access point.
+i don't know if that is the difference, but i did try it that way and had the same issue where my wireless machines couldn't get to the internet via the gateway.
+so i changed back the settings on the router so it was not an access point, assigned it a static ip as well, and all started working.
+make sure the internet connection sharing is set up properly on the machine with the modem and land line, and that all remote machines have the ip of the gateway in their ip settings for default gateway.
+since the pcs can see each other already, it sounds like the network is functioning ok. mark

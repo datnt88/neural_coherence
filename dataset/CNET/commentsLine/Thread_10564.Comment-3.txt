@@ -1,0 +1,12 @@
+if you're running windows 2000 or xp on the machines, you can pull up the command prompt by choosing &quot;run...&quot; from the start menu, typing &quot;cmd&quot; and clicking &quot;ok&quot;.
+from the command prompt you can type &quot;ipconfig&quot; to view the computer's ip address, or &quot;ping &lt;address&gt;&quot; to ping another computer.
+first, use ipconfig to determine the ip address of each system, and write them all down (the ip address should begin with &quot;10.&quot; or &quot;192.168.&quot; - as a side note, your default gateway should begin with the same digits and generally end in &quot;.1&quot;).
+the ip addresses of the computers should be the same except for the last octet, i.e.
+192.168.1.2, 192.168.1.3, etc.
+if they're different (192.168.0.2, 192.168.1.3, 10.0.100.2) then you have a configuration problem.
+if any computer has an ip address beginning with &quot;169.&quot;, this is a default windows-assigned address which indicates that the system can't talk to your router to get an ip address.
+provided all the ips are correct, go to each computer and try to ping all the other computers; for example, if computer b is &quot;192.168.1.3&quot;, you would go to computer a and type &quot;ping 192.168.1.3&quot; and hit enter.
+you should get four lines beginning with &quot;reply from 192.168.1.3:&quot; - if you get &quot;request timed out&quot;, &quot;destination net unreachable&quot;, or another error, either something's not connected, or one of the computers isn't configured properly.
+if you are getting &quot;request timed out&quot;, it may indicate the windows firewall or another security program is active - check the security center in each computer's control panel, &quot;windows firewall&quot; should be off (even though it will complain that it's not recommended... your router is acting as a firewall and makes the windows firewall redundant and next to useless).
+please reply and let me know if these tips helped.
+if you still aren't able to connect, let me know what your ping responses/error messages were and i can try to help you out some more

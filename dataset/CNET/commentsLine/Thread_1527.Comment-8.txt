@@ -1,0 +1,19 @@
+you say you upgraded your ram.
+did you do this yourself?
+if not, and you are not comfortable with opening your case and removing a module, the step by step instruction will not help you.
+but, you can do this.
+as i said, allow display of system and hidden files.
+here's how.
+from the desktop, click on &quot;my computer&quot;.
+go to tools/folder options/view.
+check the option to show hidden files and folders and uncheck one that says t to hide protected operating system files.
+click ok and exit.
+now, go to your boot drive which is usually c: and click on that.
+you should see a file called &quot;pagefile.sys&quot;.
+it will display the size in kilobytes.
+write down that number and note if it's approximately 1 1/2 time the amount of ram you have.
+i'll guess about 115000kb but it won't be exact.
+now, if you remove one of your ram modules (power off of course) and recheck the size of the pagefile, you may find it to be smaller by a similar ratio to the math you just performed.
+what this means is that, when you added ram, windows expanded the size of this file.
+i'll guess it to be about 3/4 of a gig smaller now.
+hope this makes some sense.

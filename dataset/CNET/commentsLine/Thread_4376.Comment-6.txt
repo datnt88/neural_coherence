@@ -1,0 +1,13 @@
+checklist - 1) both computers are listed for the same workgroup: mshome 2) disabled icf in windows (both computers).
+i have norton internet security, norton antivirus and zonealarm pro active on comp&quot;a&quot;.
+comp&quot;b&quot; has no antivirus or firewall programs yet.
+3) ip addresses are 192.168.0.1 for comp&quot;a&quot; and 192.168.0.101 for comp&quot;b&quot; subnets 255.255.255.0 and both are set to accept ips automatically.
+4) using the command prompt, i am able to ping each computer from the other.
+okay, just this afternoon, from comp&quot;b&quot;, i checked my network places, clicked on view workgroup computers and i can now see both computers.
+i can click on the comp&quot;b&quot; and see the shared files and such.
+i click on comp&quot;a&quot; and get this message: \\compb is not accessible.
+you might not have permission to use this network resource.
+contact the administrator of this server to find out if you have access permissions.
+the network path was not found.
+i went back to comp&quot;a&quot; and disabled zonealarm and nis and i still get this error.
+on comp&quot;a&quot; when i click view workgroup computers, i takes about 30-45 seconds and then i get an error saying it's not available (or something to that effect).

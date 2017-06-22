@@ -1,0 +1,6 @@
+at 800x600 the video processor must process 480,000 separate pixels.
+at 1024x768 you get 786,432 pixels.
+that is almost double the number of pixels.
+but the only thing i couldn't figure out was why the performance wasn't along the same lines as the number of pixels.. how can my friend run at 1600x1200 with only a 20fps difference?
+the effect is negated by the number of textures, the number of objects and the number of polygons in the game.
+since these are a constant that take up a majority of the processing power, the number of pixels has a smaller but still noticeable effect.

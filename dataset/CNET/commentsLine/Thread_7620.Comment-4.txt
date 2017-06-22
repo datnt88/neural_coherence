@@ -1,0 +1,8 @@
+you have stated that you increased the count of ip addresses the dhcp server can assign.
+in the admin page for the router, what is the starting ip address for the dhcp server?
+xxx.xxx.xxx.150 or xxx.xxx.xxx.101 or other?
+what is the subnet mask on the 101 computer?
+255.255.255.0 ?
+do you get any error message when you enter ''ipconfig /renew'' command?
+static ip addresses shoudn't be a problem for the router.
+the router will use the static ip addresses that it discovers on the computers/network devices before it attempts to assign an ip address via dhcp.

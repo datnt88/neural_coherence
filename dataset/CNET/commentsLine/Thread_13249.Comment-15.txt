@@ -1,0 +1,8 @@
+regardless of whether the printer is shared (connected directly to a computer) or networked (connected directly to a switch, router, wap, etc.
+), the problem is usually a personal firewall issue (software on each computer).
+the firewalls need to permit the ip addresses of all computers, printers, and other devices that need talk to one another.
+the problem is that many don't even know that a firewall is running on their computers; and if they do know one is running, they have no idea that the firewall needs to be configured to permit such communication.
+some newer firewalls autodetect the range of ip addresses of the local network and permit those by default.
+other firewalls have to be told what specific ip addresses or range of ip addresses are permitted or to be trusted.
+* * * * * the computer that hosts a shared printer doesn't care (or even know) how other computers connect (wired or wireless) to the the network.
+also, it doesn't matter if the printer is connected via parallel, usb, or other method.

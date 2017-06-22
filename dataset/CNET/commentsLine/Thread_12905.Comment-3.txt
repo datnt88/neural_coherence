@@ -1,0 +1,9 @@
+from a dos window type ipconfig.
+it should be 192.168.x.y.
+x is usually 0 or 1. if you see an ip address of 0.0.0.0 or 169.x.y.z then your laptop failed to get an ip address.
+did you configure wep?
+maybe the keys are mismatched.
+you can also try assigning a static address to the wireless card.
+make sure the first 3 octets of the address are the same as the router and pick an ip address that is not in use or in the dhcp address pool.
+then see if you can ping the router.
+skrall

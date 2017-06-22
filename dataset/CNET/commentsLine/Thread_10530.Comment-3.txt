@@ -1,0 +1,7 @@
+did you install any mfg supplied drivers when installing winxp (f6)?
+see if you have an ahci device in device manager; check your bios and see if ahci or hot-swapping is enabled.
+if your drives are configured to allow hot swapping, they'll appear in the &quot;safely remove hardware&quot; list just like a usb drive.
+when i first installed an sata drive, i installed the cable backwards.
+one end just has a plug, but the other has a plug and a clip/lock.
+the cable works either way but is loose if reversed.
+perhaps you did the same thing?

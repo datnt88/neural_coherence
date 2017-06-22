@@ -1,0 +1,7 @@
+open the device manager program, then plug in the problem usb device.
+check the usb section then in device manager, see if you can find any info about what's going on there.
+i've seen problem where newer fast flash memory cards wouldn't read in a slow reader and maybe the same happens with some of the newer fast usb flash thumbdrives.
+windows sees it on bootup, but ignores it if plugged later.
+that's odd, but maybe due to bios settings.
+while in device manager, look under the computer part (right at the top) and see if it says an acpi computer, which would mean windows takes over for bios when it boots.
+set bios to be shadowed.

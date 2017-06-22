@@ -1,0 +1,12 @@
+first even if the proxy would respond to a ping it means little.
+our proxys will respond to a ping on the inside even if you unplug the cables that go to the internet routers.
+most this depends on your skill level and understanding of protocols.
+i will stay at a high level and leave it to you to google.
+what you will see in a normal connection is a three way tcp handshake followed by a http get for the url you are trying to reach.
+if your machine sends out syn packets and gets nothing back you may suspect a network issue.
+if it gets a response even if it is a rst you know your machine can talk to the proxy.
+past this point it gets very hard to tell if the proxy server itself is messed up or the internet is broken when it does not work.
+proxy vary in how they handle no response to a request.
+some give you a page saying the host did not respond and some just reset the session.
+a broken proxy will many times do the same.
+only way to learn this stuff is to get a copy of wireshark and watch good packet captures and compare them to captures when it does not work.

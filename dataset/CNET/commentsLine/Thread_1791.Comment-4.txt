@@ -1,0 +1,15 @@
+it's probably best to make that parallel installation as you outlined.
+disconnect the old ide (pata) hd.
+connect the new sata hd.
+boot to system bios.
+enable sata autodetection.
+set sata hd as primary boot hd.
+set cd drive as first boot device.
+boot to xp cd.
+tap the f6 key when prompted, so yo may feed the sata/raid driver to the xp installation program.
+do you have the sata/raid driver on a floppy yet?
+after xp installs and you get it fully updated, reconnect the pata hd and boot to bios.
+ensure the sata hd is still the primary boot hd.
+exit bios and start windows.
+pata hd should appear as a secondary hd in my computer.
+if you have permission problems when accessing any folders or files, you need to take owenership .

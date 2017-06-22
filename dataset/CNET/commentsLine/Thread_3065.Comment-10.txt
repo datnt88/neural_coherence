@@ -1,0 +1,22 @@
+this system is woefully underpowered for xp, but it should be a bit faster than what you are describing.
+the 48mg of missing memory is an attention getter, but it may be the video reserve making the difference.
+if you have any extra compatible memory, even in a different system, use it to temporarily check out this possible issue by installing it in the same slot now occupied and seeing what is reported.
+then move it to the adjacent slot and check again.
+do the same with the old memory and compare.
+this will tell you if you have a bad memory stick or a bad slot.
+i believe that belarc reports all system memory and where it is installed.
+also make sure that the hard drive is not on the same ide ribbon as any optical drive.
+the ide channel will adjust itself to the slowest hardware on the ribbon, matching the hard drive to the (probably 33) speed of the optical drive.
+when you are using the page file at the rate that this system does you can really bottleneck things this way.
+this is something often overlooked, or not known, to someone doing upgrading or adding a second optical drive.
+many think that transfer is faster if both optical and hard drive are on the same ribbon, missing the synchronization issue.
+this system obviously needs to be pared down to the bare essentials for running processes at any time.
+things like smartcard and ups are probably not needed.
+look over the processes for any fluff and set to manual or disable.
+you can also apply a simple tweak to speed up the file search time.
+from the start menu click &quot;run&quot;.
+type &quot;cmd&quot; and hit enter.
+type &quot;net stop stisvc&quot; to stop the process.
+then type &quot;sc config stisvc start= disabled&quot; to disable it at startup.
+(type them exactly as shown here without the &quot;.)
+reboot and check for any improvement.

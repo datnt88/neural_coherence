@@ -1,0 +1,8 @@
+hello, for a variety of reasons i want to replace my old verizon supplied westell c90-36r516-01 adsl modem with a zoom 5554a.
+i can configure the zoom modem and write settings to flash no problem however i have not been able to get an internet connection.
+client machines always get an ip address from the modem but the modem doesn't appear to get an ip address itself.
+in the diagnostics the modem ip address is shown as 0.0.0.0 i get a solid green adsl light on the modem and the diagnostics always pass the atm tests.
+i've tried both 1483 bridged llc and pppoe llc as the encapsualtion methods.
+i expect my circuit uses 1483 for several reasons inlcuding: -my old modem appears to be pre-pppoe -i don't use a pppoe connectoid, just a normal connection for my dlink nic -i've never needed a password to connect using the westell modem -verizon tech support told me my circuit uses dhcp (which i construe to mean 1483 bridged llc/dhcp) -the verizon online help tool also suggests that my circuit uses dhcp client machines have included an older compaq ez2600 and a newer dell dimension both running winxp home sp2.
+there are no firmware upgrades listed on the zoom website for the 5554a.
+i've also tried different phone cords, jacks and ethernet cables any additional ideas for configuring the modem or diagnosing this problem would be appreciated

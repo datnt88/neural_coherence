@@ -1,0 +1,12 @@
+i'm having troubles configuring my network.
+i'll include a link to an image of a diagram of my current network layout.
+i receive internet service from a wifi modem.
+i have a wifi adapter that recieves that internet acces, and i share that internet through &quot;lan 1&quot; on my pc.
+to share with more devices i have connected lan 1 via a crossover cable to the &quot;internet&quot; port on my wnr2000 router.
+all of the other computers and devices connected to that router can access the internet and network completely with no issues.
+my main pc, however, cannot access the network because of the way it is connected to the router.
+i have tried connecting the main pc's &quot;lan1&quot; to the router using the &quot;ethernet&quot; ports on my router (as opposed to the &quot;internet&quot; port with crossover), but i cannot share the internet that way.
+my solution was to run a connection from &quot;lan 2&quot; on my pc to &quot;ethernet 4&quot; on my router, in addition to the crossover connection.
+unfortunately when i enable this connection, windows decides that lan 2 is now the internet service, rather than the wireless connection, and i lose internet to everything in my network.
+is there a way to force my pc to acknowledge that &quot;lan2&quot; is for network acces only, &quot;lan1&quot; is for sharing internet only, and &quot;wireless network connection&quot; is for recieving internet service only?
+here is a link to a picture of my network layout on photo bucket:

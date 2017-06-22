@@ -1,0 +1,17 @@
+hi, i hope someone can help.
+everything i have was working fine until last night but now isn't.
+i have a linksys cisco wireless router, wrt54g2.
+on the other end of the house i have a d-link di-604 router that i had set up to act as a hub.
+i don't know why it stopped working and i can't get it going again.
+the linksys is set up with dhcp enabled.
+its local ip address is 192.168.1.1. the starting ip address is 192.168.1.100 and the maximum number of users is 50. as i understand it, this means the linksys will assign ips from 1.100 to 1.149. as far as i can tell, the linksys is working fine.
+it has a wired apple and a wireless windows laptop connected to it, both internet connections are working fine.
+the default ip address for the d-link is 192.168.0.1. according to what i can find, i need to change the default ip of the d-link to be in the network range of the linksys, disable dhcp in the d-link, connect a cable from a lan port on the linksys to a lan port on the d-link, and the rest of the lan ports on the d-link should simply act as if they were additional lan ports on the linksys.
+i want to be sure what my options are for changing the default d-link address.
+it can be anything from 192.168.1.2 to 1.99 or 1.150 to 1.255, correct?
+it just can't in the range the linksys dhcp assigns to its devices, 1.100 to 1.149. correct me if i'm wrong.
+i've done that several times but when i power-cycle the d-link or reboot my windows pc (different from the laptop) i can no longer log into the d-link at the address i assigned to it and i get a 'limited or no connectivity' message.
+i don't know what else i need to do.
+the wan setting on the d-link is dynamic ip, i don't know if that matters.
+i have tested the d-link by connecting it directly to my modem and it works fine so i know it's not broken.
+please help!

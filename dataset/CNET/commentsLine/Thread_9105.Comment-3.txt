@@ -1,0 +1,11 @@
+if you typically have a lot of apps open or use memory intensive apps, additional memory can noticeably improve performance.
+when you have your usual apps open and you've been using them for awhile, open task manager (right click an empty area of the task bar), select the performance tab, and compare your commit charge:total and :peak to physical memory:total.
+(these figures are in kilobytes/kb; divide by 1024 to get megabytes/mb.)
+if your commit charge:total (how much memory you're consuming currently) is more than your physical memory:total, then i'd definitely recommend more ram since you're using all your ram and spilling over into the page file.
+if your commit charge:peak (the peak memory used since windows started) is extremely high compared to your commit charge:total and exceeds physical memory:total, then some software app you've used is very memory intensive (i.e.
+: a game, photoshop, custom business software, etc.).
+additional memory will speed up that app, but if you're satisfied with the app's performance or only use it occassionally, an upgrade may not be worth while.
+if you're wondering where your memory is going, look at the processes tab in task manager.
+click mem usage to sort.
+on my pc currently, ie (6 windows) is consuming about 100mb, firefox another 70mb, and acrobat reader another 65mb.
+even common every-day apps can munch ram.

@@ -1,0 +1,10 @@
+i use a few computers with ide drives and scsi raid systems.
+i found out that, with time, one disk or another fails to boot.
+i then do a low level reformat and the disk is good for quite a while.
+what i suspect happens is that some sectors of the boot sector, being adressed everytime, get worne out.
+a low level format writes these sectors out and asssigns new one to be used as boot sectors.
+this is written in the hard disk software and is therefore safe.
+there is a table of unusable tracks and there are usually some spare tracks to compensate.
+otherwise you would see the capacity of the disk diminish by a few kb or even mb if the hard disk is quite old.
+at that point...replace it!
+michel s.

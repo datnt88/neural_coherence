@@ -1,0 +1,37 @@
+first of all, to get this out of the way, others seem to be saying that xp may simply not boot if the hardware is too different.
+i can't say one way or the other, but it's possible.
+i've moved drives with win98 between systems and it was a pain because win98 usually wanted to install new drivers for a lot of stuff.
+winxp may be pickier still, so it may just not work.
+putting that aside ... if all you're getting is a simple &quot;insert boot disk&quot; type of message, it sounds to me like you're not getting as far as booting xp.
+of course without seeing the exact message, that's just a guess.
+i don't think you said exactly what you've done.
+it sounds like you're trying to boot from the xp drive in the other computer.
+how is the xp drive connected?
+primary or secondary ide?
+master or slave?
+for the moment at least, i'd suggest disconnecting the win98 drive and making the xp drive the primary master, assuming that that's not what you're already doing.
+depending on how old these systems are, if this other computer is seeing the drive geometry differently (number of cylinders, heads, etc.
+), it may not be able to read the old data correctly, so it can't boot from it.
+for example, if one computer was using lba (logical block addressing) and the other was not.
+also, if you disconnected the win98 drive and connected the xp drive in its place, check the bios and make sure the drive information is correct there.
+if the bios is still trying to use the win98 drive information with the xp drive, that could be a problem (unless the two drives happened to be the same or equivalent models).
+if this other system is fairly &quot;old&quot;, whatever that means in computer terms, and the xp drive is fairly new, and especially if it's a large drive, it's possible that the other system just won't be able to read it correctly.
+if you just can't get it to work, you might try posting some more hardware details, like your motherboard and hard drive model numbers.
+if you can get the system to boot from the xp drive, but, as others have suggested, xp just won't work, you may still have a couple options.
+i've read that you might be able to do an xp install over top of the old xp install, so that xp can install the required drivers for the new hardware.
+if you have anything on that xp drive you need, you should probably try to back it up before trying that.
+which brings us to ... if you can't boot from that xp drive, you might be able to at least copy data from it by hooking it up as a second drive.
+xp normally uses an ntfs filesystem, which win98 doesn't know how to read, but xp can use the fat32 filesystem.
+if your winxp installation used fat32, win98 should be able to read it.
+if it's ntfs, there may be win98 programs that are capable of reading it.
+if nothing else, there is a program named &quot;ntfs reader for dos&quot; that you can find on  that can read ntfs filesystems.
+as the name implies, it's a dos program, but you can also run it from a dos window under win98.
+it's not perfect, but it might help.
+and one last thing.
+you said the &quot;xp system motherboard is fried&quot;.
+if the motherboard went, it's possible it took the drive with it.
+for that matter, the _drive_ may have died and taken the motherboard with _it_.
+either way, the xp drive may simply be broken.
+at this point there's no way to tell (at least not based on what i remember you saying so far).
+good luck.
+james

@@ -1,0 +1,7 @@
+this presumes that you did not have power to the board since you had disconnected the 20 pin ps from the board to run the test.
+if the ps internal fan spun up constantly, this prresumes that the ps is putting out the proper voltage, but the cpu fan does not have power so it does not spin up.
+the front switch just puts a short on two pins located along the edge of the motherboard where all of the front switches and lights hook up.
+if the front switch jumper cable is removed from the pins and a small screwdriver is inserted between the two pins 13,15 (see: ftp://ftp.tyan.com/manuals/a_s2466_110.pdf )to produce the short.
+this assumes that you have hooked the ps back up to the mother board to run this test.
+if the cpu fan spins up, then the switch is in trouble.
+if the cpu fan does not spin up, then the motherboard has a problem.

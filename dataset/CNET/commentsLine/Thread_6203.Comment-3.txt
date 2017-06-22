@@ -1,0 +1,20 @@
+i am going to assume you are running g on 2.4 and n on 5 on your dual band router.
+although you can set the 2.4 to g and n it will not really run both at the same time.
+that is part of the reason to run 2 radios and separate the n and g. although you can run 2 band on only n if all your equipment supports it.
+your best bet is to get rid of all your g stuff or make sure all your equipment that is going to run n can run at 5g which almost always means it is dual band.
+be careful what you buy a bridge is just that it converts the ethernet port to wireless and allows it to connect to another router.
+they in general do not allow wireless client pc to connect to them.
+you could place a second router behind.
+there are things called wireless extenders that are wireless in and out.
+they tend to be a challenge to setup because of all the radio bands and wpa keys.
+if you are transferring wireless to wireless do not expect any great performance.
+having a gig port does not mean a lot when you look at n running 300m.
+the 300m number is some lab thing that nobody gets.
+then if both machines are on the same frequency the 300m is divided by 2 since the it is shared so you are down to 150m.
+even then it is nowhere close to 150m.
+the only way to get wireless to wireless speed is to transfer one machine on 5g and another on 2.4 and then in a lab you might get 300m.
+gig ports are mostly just marketing garbage on consumer routers.
+even if you go ethernet to ethernet with cable you will get nowhere near 1g.
+you have to use a feature called jumbo frames to make it work which is not supported on most consumer routers.
+also the gig port in most pc's is built into the chipsets and have a limit of 400m.
+you need a motherboard than is designed with a port to really run gig and these are mostly used for servers.

@@ -1,0 +1,4 @@
+yes https will encrypt data, but even if your browser encrypts the data it is by far less then what the server encryption is.
+basically, if your browser does encrypt the data that means it must recieve a encryption key or generate one.
+both of these can be caught durring the transmission.
+if the encryption key is generated via algorithm and you are sent the algorithm then all you need is to procure the algorithm and inplement the propper variables.

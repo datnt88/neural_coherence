@@ -1,0 +1,4 @@
+assuming that the printer you want to share is just a printer (meaning not an aio because with this solution you may lose scanning capability) you can place the printer on your network via a usb print server and connect it directly to your router via ethernet cable.
+any desktop/laptop connected to the network (wired or wireless) can share the printer using the ip address of the printer during printer setup on each computer.
+if your router is configured to do so it will generate an ip address automatically; or you can assign one yourself.
+of course, each desktop/laptop on the network must register with the proper wep, wpa or wpa2 security, unless your network is unsecured

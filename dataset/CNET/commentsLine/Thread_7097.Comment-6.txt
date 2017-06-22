@@ -1,0 +1,10 @@
+ray according to compaq, the 7598 uses the intel 810 chipset.
+you will have to install a pci video card as there is no agp slot on a 810 chipset motherboard.
+every 810 chipset motherboard that i have upgraded lets you disable the old display adapter in the device manager.
+bring up the device manager and click on the + next to display adapter.
+highlight your old video adapter and click properties.
+look near the bottom of the properties window and find a square box labeled exists in all hardware profiles.
+un-check this box.
+that will disable the old video adapter.
+click ok. make sure that you have installed your new pci video card before you do this.
+and after you install your new pci video card, be sure to move the monitor cable to the new card.

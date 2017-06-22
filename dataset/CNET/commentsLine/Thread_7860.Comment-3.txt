@@ -1,0 +1,12 @@
+more than likely they do not allow ipsec though their gateway.
+this is the &quot;old&quot; way to do vpn client.
+the new way is to use ssl since that passes though anything since it runs on the https port.
+ipsec either runs on udp 4500 or using native ipsec on protocol 50 and udp 500. a lot of providers of wireless are not technically competent enough to allow ipsec or they choose not to avoid the support headache.
+cisco new client is called anyconnect but you really don't need any software preload on clients if you don't want to.
+the appliance will download the correct version of the client when you log on.
+this is so much easier to use and maintain than the ipsec based clients.
+the big but here is that you must have new enough &quot;appliances&quot; to support anyconnect.
+cisco has changed the way they do their vpn licenses since many people where &quot;stealing&quot; the client and connecting to a non cisco vpn concentrator.
+if you are going to have to replace your vpn appliance to run ssl you may want to also look at juniper (netscreen) vpn appliance at least get bids to use against each other.
+if you want to play with the anyconnect product the smaller routers (ie cisco 2800) have a built in free 2 license version of cisco ssl vpn appliance.
+if your company is very small using a router rather than a asa box is much cheaper.

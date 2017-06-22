@@ -1,0 +1,13 @@
+i suspect you have a issue at the wireless level not related to dhcp.
+the simple way to test this would be to use a static configured ip and see if you still lose connectivity after a time.
+if you do then its going to be in the wireless part related to which access point you are connected to.
+it takes a fairly advanced access point to allow you to switch between access point and keep all you encryption stuff correct.
+now if the the hardcoded ip works then you do have a dhcp issue.
+first be sure that the bridged access points actually bridge the dhcp request.
+dhcp is a very special broadcast that the router can intercept so you have to be sure it bridges these too.
+what is strange is that after you have a dhcp address off the main router it does not use broadcast or bridging to keep it active.
+it send dhcp keepalive type requests directly to the ip of the dhcp server.
+maybe when the laptop is in sleep mode maybe it does not contact the dhcp server to keep the address active and therefore must start again with broadcast.
+so it could still be a blocking of broadcast dhcp requests on your bridged routers.
+setting the lease time on the dhcp server very high would prevent timeout while your pc is asleep but not really fix your problem.
+still it all comes down to do the bridged routers really bridge the initial broadcast dhcp requests, not going to be simple unless you have some way to see the traffic coming in and going out each device.

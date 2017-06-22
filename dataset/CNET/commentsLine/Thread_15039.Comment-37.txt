@@ -1,0 +1,10 @@
+i work as a dst and hold multiple tech certs and there are some good ideas in this thread.
+a few things to keep in mind... there are viruses and malware which can reside in the boot sectors.
+kaspersky has a free tool for getting rid of these which a standard format cannot remove.
+after running this, check the integrity of the drive bygoing into a command line and run: chkdsk /r /f reboot as needed.
+after chkdsk completes, reboot the system.
+you are now ready to wipe the drive.ccleaner can do this but not recommended as wiping a drive while it's in use may not fully wipe everything especially the mbr records.
+it's best to use a bootable flash drive with a wipe program.
+i prefer wipedrive.
+the pro version does a dod level wipe.
+however, the free version is fine for standard users, especially if you are planning to reuse them again.

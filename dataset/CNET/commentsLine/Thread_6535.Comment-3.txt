@@ -1,0 +1,9 @@
+a couple of notes on the 4400n, first i have found that the speed is certainly adequate, but i tend to get quite a few dropped connections.
+i'm not 100% positive whether it is the router or the wpc4400n cards.
+you will have to get n cards or as a previous respondent indicated, you will only connect at g speeds.
+one security note, since you are using this in a business environment, i presume you will be using wpa-enterprise.
+if so, you will want to use wzc and not linksys network monitor to configure the cards.
+the reason for this is that lnm does not give you the option of validating the server certificate, and this would leave you vulnerable to a type of man in the middle attack referred to as a validation failure attack.
+while this attack rather sophisticated, and is quite hard to mount, it is a concern nonetheless.
+i hpe this helps.
+rob

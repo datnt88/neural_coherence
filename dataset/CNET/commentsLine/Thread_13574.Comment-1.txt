@@ -1,0 +1,16 @@
+firstly, i'm not a network engineer just a volunteer but i've done the majority of the hardware installation at this school.
+the current and growing need is for school parents, guests, presenters, etc.
+to have access to the wireless network but without access to the lan.
+the network not a domain but simple peer-to-peer with device access controlled via firewalls and/or user/passwords.
+the best i can find on the web is the use of some vlan capability and think we might already have most of, if not all, the needed hardware.
+here's what we have: eight 3com model # crwe7760/75 aps connected to a 3com model # 3cdsg10pwr managed switch.
+i have access to all these devices.
+this poe switch connects to one of 5 (it has 24) active ports on a cisco layer 3 switch.
+that router is managed remotely and i've no way to get to it.
+the aps can handle 4 ssids and have the ability to individually assign vlan ports to each.
+the poe switch has the ability to configure vlans for all ports.
+all that is desired is enable select aps in certain parts of the school to allow guest access to the internet only.
+if possible we'd like to do this without purchasing new hardware at this time.
+i can tinker with it but, for now, i'd like to know if this can be done without involving the cisco router.
+if the router is definitely...and i suspect it might be...a party to the plan, we can contact the person who handles that end.
+thanks in advance

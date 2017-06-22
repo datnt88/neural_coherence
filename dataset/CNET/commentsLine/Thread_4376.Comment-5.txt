@@ -1,0 +1,2 @@
+1) both computers are on the same workgroup name 2) disable icf or any other firewall programs 3) check the ip addresses of each nic, they should be in the 192.168.1.xxx range with subnets of 255.255.255.0. set there ips to be obtained automatically, if the router is set to act as a dhcp server.
+4) try to ping each computers ip from the other, without a successful response you will never have a working lan.

@@ -1,0 +1,9 @@
+the first question you need to ask yourself is : q - what changed(no matter how seemingly minor) after i(you) installed the driver initially and it was working fine??
+typically it will be here that you will find the answer to the issue.
+my first area of interest would be the fixes(enhancements) you installed from microsoft.
+have you - subsequent to installing the agp card - installed/updated the xp 'miniport' driver.
+or ........ did you install the fix ms09-65: vulnerabilities in windows kernel-mode drivers....etc.. if so there is a statement here :  now although the statement only mentions hd 2400 series this does not mean that it is only this series which is affected.
+it merely means that this is the only series they have looked into.
+all ati/radeon 'hd' cards could quite possibly be similarly affected/vulnerable.
+it is fairly common that if a microsoft update disrupts one or more of your drivers 'post' an update, and you attempt to correct the issue, by updating to a newer driver/package(in your case the hd3850) will not resolve the problem.
+often the only course of action is to remove the whole product(via 'add/remove programmes), and re-installing.

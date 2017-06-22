@@ -1,0 +1,4 @@
+i dont know where this belongs exactly but i figured it went in hardware.
+this is what im getting while playin america's army.
+no label os: windows xp 5.1 (build: 2600) cpu: authenticamd pentiumpro-class processor @ 996 mhz with 383mb ram video: nvidia geforce fx 5900xt (5672) general protection fault!
+history: fsortedindexbuffer::getcontents &lt;- fd3ddynamicindexbuffer::addindices &lt;- fd3drenderinterface::setdynamicindexbuffer &lt;- renderstaticmesh_type2 &lt;- renderstaticmesh &lt;- fdynamicactor::render &lt;- fdynamicactor::render &lt;- renderlevel &lt;- flevelscenenode::render &lt;- fplayerscenenode::render &lt;- ugameengine::draw &lt;- uwindowsviewport::repaint &lt;- uwindowsclient::tick &lt;- clienttick &lt;- ugameengine::tick &lt;- updateworld &lt;- mainloop any ideas?

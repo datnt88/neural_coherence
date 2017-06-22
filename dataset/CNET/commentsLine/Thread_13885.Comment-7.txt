@@ -1,0 +1,10 @@
+robert explained level 0 and 1; each of these require 2 (or 4 for more space) drives.
+raid 0+1 is a combination of striping and mirroring and requires at least 4 drives -- two for the striping and two more to mirror the first two.
+some mobos only support these choices.
+raid levels 2, 3, and 4 are seldom used today, so i will not discuss them.
+raid 5 is very popular; it is striping with distributed parity, and requires at least 3 drives.
+raid 10 is another combo of striping and mirroring, but far superior to rsid 0+1.
+personally, i would stay away from raid 0 -- the chance of a disk crash is doubled, and there is virtually no chance or data recovery.
+i do not think the increase is speed is worth the risk.
+although i use raid 1, be aware that it is not foolproof and is no substitute for regular backups.
+this site provides excellent discussions of the various raid levels hope this helps frank

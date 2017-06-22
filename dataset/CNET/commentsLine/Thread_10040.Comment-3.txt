@@ -1,0 +1,13 @@
+the problem lies in that each system board uses a different chipset and subsequently, different ide controller and hardware logic.
+the a7v system board uses one of the via kx-133 chipset, but the m2n32-sli uses a nvidia nforce 590 sli mcp chipset, which is entirely different.
+unfortunately, when windows sets up the os, it bases the boot sequence on the hardware that you have at present and sometimes when you upgrade, the new hardware isn't common enough to allow the os to make the transition to the new hardware.
+the only thing that can be done is to put the old system board and components back in, transfer all the necessary data to cd or dvd media (don't forget your favorites folder), then replace the old board with the new board and re-install from scratch.
+a couple things you might want to try first before you have to swap everything out again.
+try booting from the xp cd to see if the new board will even be recognized by the os.
+if the cd will boot and you can get to the point where you can see the hard drives and partitions on the hard drive, then you know that the new system board is working fine.
+at this point, you should press f3 and exit the install process.
+if the system doesn't boot properly, then you know that something is wrong.
+it could be that you have a bad system board (i've see fresh out-of-the-box system boards have bad ide controllers), possibly bad ram, or possibly (but not likely) the bios needs to be updated (usually not the case, but it's always good to check).
+anyway, that's the reason and the possible solutions to the problem.
+good luck!
+timothy

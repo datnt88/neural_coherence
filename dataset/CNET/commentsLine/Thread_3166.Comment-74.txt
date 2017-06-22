@@ -1,0 +1,9 @@
+i didn't read your question about windows system restore problems until just now but what i have found to work when windows says after a attempted restore that your computer could not be restored is.
+open msconfig.
+go to services.
+check mark &quot;hide all microsoft services&quot;.
+than select &quot;disable all services&quot;.
+restart the computer and run system restore again.
+the problem is that a number of programs have a file locker built into them and a locked file prevents system restore from working.
+this is a simple solution that works well.
+but still doesn't work if the problem is caused by malware that has been on the computer for a few days

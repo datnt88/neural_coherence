@@ -1,0 +1,15 @@
+i'll try to shed some light on your questions: #1: with mimo technology you must use multiple antennas.
+if you truly want to achieve 600-700 ft range (radius) from the ap then i would recommend upgrading the antennas to low gain 8dbi (greatly improves the range).
+also, if you walk 600 ft from the ap your signal strength will be very low, if you connect at all, and your connection speed will be about 5mbps.
+this is because with draft-n the further from the ap/router you go, the more the speed decreases.
+the beauty of draft-n is that it does support a larger range than g, as well as speeds up to 300 mbps.
+#2: if you are attempting to setup a mesh wifi then i would recommend one other thing.
+use a router/ap that utilizes both 2.4ghz and 5ghz frequencies.
+in a mesh scenario, all of the routers & aps are continuously communicating to each other.
+if the aps are talking to each other on the same frequency that you are trying to send and receive data on, you will notice a large decrease in your speed.
+#3: when you setup just a simple router, have you ever noticed where it says &quot;choose one: wireless a, mixed mode:b,g,n, wireless n&quot;?
+when most people see this selection, they go with mixed mode.
+when in mixed mode, if someone walks on your network with a palm pilot that uses wireless b, then yes, your whole network will slow down to the speeds of wireless b, the range is not affected.
+it is best to just set whatever router/ap you are using to wireless n. then you can achieve your maximum speeds.
+i hope some of this info.
+was helpful for you, or anyone interested in mesh networking in the future!

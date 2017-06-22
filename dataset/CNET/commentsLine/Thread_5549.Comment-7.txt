@@ -1,0 +1,13 @@
+i agree that the best way to protect the internal network is to put a real firewall with different segments allowing only known traffic between the segments.
+one of the easier(free) firewalls to set up (linux based but transparent to the user) is ipcop - download the iso, cut a cd and boot the spare machine from the cd to install.
+i haven't tried monowall but i imagine it is similar.
+the problem with any real firewall is the skill level needed to set it up.
+i worked in a large corporate it organisation for 19 years and found the average user has no clue about tcp/ip and security.
+the other problem is that most wireless internet solutions have a wireless access point built into the router.
+this means that although you firewall behind the access point, the wireless access point itself may be open to abuse (even though your internal machines are safe).
+this could be a costly exercise if someone uses your wireless access point to get a free connection to the internet(depending on whether you pay for excess bandwidth or not) or could cause your connection to slow down because someone has sucked your bandwidth allocation.
+when i set up my wireless network, i immediately picked up several usable connections in my neighborhood.
+in general, people do not either understand or underestimate the implications of security.
+my attitude to network security at home is to only turn on my router when i need to use the internet and only activate my wireless connection when i need to use it.
+that at least limits any hacking attempt to the same time as when i am using the connection.
+leaving a connection on 24/7 allows a hacker a larger window of opportunity (i actually unplug my line to the splitter - also protects my router from lightning).
