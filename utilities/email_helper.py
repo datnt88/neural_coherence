@@ -11,6 +11,15 @@ from keras.preprocessing import sequence
 import itertools
 from utilities import gen_trees
 
+def get_tree_struct(cmtIDs=[],tree=[]):
+    x_tree = []
+    for branch in tree:
+        sentIDs = []
+        for cmtID in branch:   
+            sentIDs += [ i for i, id_ in enumerate(cmtIDs) if id_ == int(cmtID)]
+        x_tree.append(sentIDs)    
+
+    return x_tree
 
 def load_permuted_tree(file=[], tree=[], maxlen=15000, window_size=2, vocab_list=None, emb_size=300, fn=None):
     #load data with tree representation
@@ -62,45 +71,14 @@ def get_eTrans_with_Branch_New(sent="p_line", idxs=[]):
 
     return ' '.join(final_sent)
 
-def load_original_tree_new(file="list_of_grid.txt", maxlen=15000, window_size=3, vocab_list=None, emb_size=300, fn=None):
-    
-    #loading original entity grid
-    sentences_1 = []
-
-    branches = [line.rstrip('\n') for line in open(file + ".orgTree")]
-    lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
-        
-    for branch in branches:  
-        grid_1 = "0 "* window_size
-        for idx, line in enumerate(lines):
-            e_trans = get_eTrans_with_Branch(sent=line, branch=branch) # merge the grid of positive document 
-            if len(e_trans) !=0:
-                        #print e_trans
-                grid_1 = grid_1 + e_trans + " " + "0 "* window_size
-
-        sentences_1.append(grid_1) 
-
-
-    vocab_idmap = {}
-    for i in range(len(vocab_list)):
-        vocab_idmap[vocab_list[i]] = i
-
-    # Numberize the sentences
-    X_1 = numberize_sentences(sentences_1, vocab_idmap)
-    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
-    X_1 = sequence.pad_sequences(X_1, maxlen)
-    
-    return X_1 
-
 
 def load_original_tree(file="list_of_grid.txt", maxlen=15000, window_size=3, vocab_list=None, emb_size=300, fn=None):
     
     #loading original entity grid
     sentences_1 = []
-
     branches = [line.rstrip('\n') for line in open(file + ".branch")]
     lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
-        
+
     for branch in branches:  
         grid_1 = "0 "* window_size
         for idx, line in enumerate(lines):

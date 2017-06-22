@@ -27,6 +27,9 @@ def ranking_loss(y_true, y_pred):
     loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
     return K.mean(loss) + 0 * y_true
 
+
+
+
 #parameter for data_helper
 p_num = 20
 w_size = 5
@@ -50,6 +53,7 @@ for file in list_of_files:
     #procee each test
     print "=========================================================================="
     print "Processing: " + file
+    '''
     X_org = email_helper.load_original_tree(file=file, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size, fn=fn)
     #compute the coherence score cor the original tree
     y_pred = final_model.predict([X_org, X_org])
@@ -58,31 +62,37 @@ for file in list_of_files:
         gold_score += y_pred[i][0]
         
     avg_score = gold_score/len(X_org)
-
+    '''
+    
     #processing each possible tree candidate
     cmtIDs  = [line.rstrip('\n') for line in open(file + ".commentIDs")]
     cmtIDs = [int(i) for i in cmtIDs] 
-    p_trees =  gen_trees.gen_tree_branches(max(cmtIDs))
     
+    #check the tree struction
+    org_tree = [line.rstrip('\n') for line in open(file + ".orgTree")][0]
+    org_tree  = org_tree.split("-")
+
+    x_tree = email_helper.get_tree_struct(cmtIDs = cmtIDs, tree=org_tree)
+    X_org = email_helper.load_permuted_tree(file=file, tree=x_tree, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size, fn=fn)
+
+    y_pred = final_model.predict([X_org, X_org])
+    gold_score = 0.0
+    for i in range(len(X_org)):
+        gold_score += y_pred[i][0]
+        
+    avg_score = gold_score/len(X_org)
+    
+    #working which candidate trees
+    p_trees =  gen_trees.gen_tree_branches(max(cmtIDs))
     max_score = -999999999999.999
     max_avg_score = -999999999999.999
     best_tree = []
     best_avg_tree = []
 
     for p_tree in p_trees:
-
-        x_tree = [] # tree with sentence ID
         #print cmtIDs
-        for branch in p_tree:
-            #print branch
-            #then compare to the original one
-            #print list(branch)
-            sentIDs = []
-            for cmtID in list(branch):   
-                sentIDs += [ i for i, id_ in enumerate(cmtIDs) if id_ == int(cmtID)]
-            x_tree.append(sentIDs)
-
-        #print x_tree#
+        x_tree = email_helper.get_tree_struct(cmtIDs = cmtIDs, tree=p_tree)
+        #print x_tree
         X_perm = email_helper.load_permuted_tree(file=file, tree=x_tree, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size, fn=fn)
 
         #compute the cohenrence score for the permutation tree
@@ -116,6 +126,7 @@ for file in list_of_files:
         avg_count +=1
         avg_check = "WIN"
 
+    print file.split("/")[3] + " Org Tree: " + str(org_tree)
     print file.split("/")[3] + " SUM -> gold: " + my_format(gold_score) +  "\tbest: " + my_format(max_score) + "\tSUM-" + check + "\t" + str(best_tree)
     print file.split("/")[3] + " AVG -> gold: " + my_format(avg_score) +  "\tbest: "  + my_format(max_avg_score) + "\tAVG-" + avg_check + "\t" + str(best_avg_tree)
 
