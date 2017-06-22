@@ -101,13 +101,13 @@ def remove_duplication(x=[]):
 
 
 
-x = gen_tree_branches(int(sys.argv[1]))
-for i in x:
-	print i
+#x = gen_tree_branches(int(sys.argv[1]))
+#for i in x:
+#	print i
 #print "-------------------------------"
-print len(x)
+#print len(x)
 
-print "-------------------------------"
+#print "-------------------------------"
 
 
 
