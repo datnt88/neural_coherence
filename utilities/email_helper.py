@@ -11,6 +11,9 @@ from keras.preprocessing import sequence
 import itertools
 from utilities import gen_trees
 
+
+
+
 def get_tree_struct(cmtIDs=[],tree=[]):
     x_tree = []
     for branch in tree:
@@ -259,6 +262,136 @@ def get_eTrans_with_Branch(sent="p_line", branch="1 2 3 4"):
     return ' '.join(final_sent)
 
 #=====================================================================
+#def load_sentene_depth()
+def load_tree_N01(file="", sent_levels=[], maxlen=15000, window_size=2, vocab_list=None, emb_size=300, fn=None):
+    #load data with tree representation
+    
+    sentences_1 = []
+    lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
+    grid_1 = "0 "* window_size
+    for idx, line in enumerate(lines):
+        e_trans = get_eTrans_with_Tree_Structure(sent=line, sent_levels=sent_levels) # merge the grid of positive document 
+        if len(e_trans) !=0:
+            grid_1 = grid_1 + e_trans + " " + "0 "* window_size
+
+    sentences_1.append(grid_1)    
+
+    #print len(sentences_1)
+
+    vocab_idmap = {}
+    for i in range(len(vocab_list)):
+        vocab_idmap[vocab_list[i]] = i
+
+    # Numberize the sentences
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
+    X_1 = sequence.pad_sequences(X_1, maxlen)
+    
+    return X_1
+
+def get_sentences_depth(cmtIDs=[],tree=[]):
+    branches = get_tree_struct(cmtIDs=cmtIDs,tree=tree) # get branches with sentID
+    level_dict = {}
+    
+    for branch in branches:
+        for i,j in enumerate(branch):
+            level_dict[j] = i
+
+    sentDepths = level_dict.values()
+        
+    return sentDepths
+
+def load_task_X(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
+    if vocab_list is None:
+        print("Please input vocab list")
+        return None
+
+    list_of_files = [line.rstrip('\n') for line in open(filelist)]
+
+    sentences_1 = []
+    sentences_0 = []
+    
+    for file in list_of_files:  
+        #print "---------------------------------------"
+        #print file
+    
+        cmtIDs  = [line.rstrip('\n') for line in open(file + ".commentIDs")]
+        cmtIDs = [int(i) for i in cmtIDs] 
+        x_tree = [line.rstrip('\n') for line in open(file + ".orgTree")]
+        org_tree = []
+        for i in x_tree:
+            org_tree += [''.join(i.split("."))]
+        #print org_tree
+
+
+        sentDepths = get_sentences_depth(cmtIDs=cmtIDs,tree=org_tree)
+        #print sentDepths
+        #print "---------"
+
+        lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
+        #f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
+
+        grid_1 = "0 "* window_size
+        for idx, line in enumerate(lines):
+            e_trans = get_eTrans_with_Tree_Structure(sent=line, sent_levels=sentDepths) # merge the grid of positive document 
+            if len(e_trans) !=0:
+                grid_1 = grid_1 + e_trans + " " + "0 "* window_size
+
+
+        #loading possible tree
+
+        nPost = max(cmtIDs)
+        if nPost > 5:
+            nPost = 5
+
+        p_trees = gen_trees.gen_tree_branches(n=nPost)
+        p_count = 0
+        for p_tree in p_trees:
+            p_sentDepths = get_sentences_depth(cmtIDs=cmtIDs,tree=p_tree)
+            #print p_tree
+            #print p_sentDepths
+
+            grid_0 = "0 "* window_size
+            for idx, line in enumerate(lines):
+                e_trans_0 = get_eTrans_with_Tree_Structure(sent=line, sent_levels=p_sentDepths)
+                if len(e_trans_0) !=0:
+                    grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
+            #print grid_0
+
+            if grid_0 != grid_1: #check the duplication
+                p_count = p_count + 1
+                sentences_0.append(grid_0)
+        
+    
+        #addding more positive data
+        for i in range (0, p_count): #stupid code
+            sentences_1.append(grid_1)
+
+    assert len(sentences_0) == len(sentences_1)
+
+
+    vocab_idmap = {}
+    for i in range(len(vocab_list)):
+        vocab_idmap[vocab_list[i]] = i
+
+    # Numberize the sentences
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_0  = numberize_sentences(sentences_0,  vocab_idmap)
+    
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
+    X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=window_size)
+
+    X_1 = sequence.pad_sequences(X_1, maxlen)
+    X_0 = sequence.pad_sequences(X_0, maxlen)
+
+    if E is None:
+        E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocab_list), emb_size))
+        E[len(vocab_list)-1] = 0
+
+    return X_1, X_0, E 
+
+
+
 def load_and_numberize_with_Tree_Structure(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
     # loading entiry-grid data from list of pos document and list of neg document
     if vocab_list is None:
@@ -272,17 +405,35 @@ def load_and_numberize_with_Tree_Structure(filelist="list_of_grid.txt", perm_num
     sentences_0 = []
     
     for file in list_of_files:
+        #print "--------------------------------"
         #print(file) 
-        lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
-        f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
-        # here is the tree level file
-        tree_levels = [int(line.rstrip('\n')) for line in open(file + ".depth")]
+        
+        #loading tree level in diffent ways
+        cmtIDs  = [line.rstrip('\n') for line in open(file + ".commentIDs")]
+        cmtIDs = [int(i) for i in cmtIDs] 
+        org_tree = [line.rstrip('\n') for line in open(file + ".orgTree")]
+        x_tree = []
+        for i in org_tree:
+            x_tree += [''.join(i.split("."))]
 
+        branches = get_tree_struct(cmtIDs=cmtIDs,tree=x_tree) # get branches with sentID
+
+        level_dict = {}
+        for branch in branches:
+            for i,j in enumerate(branch):
+                level_dict[j] = i
+
+        sentDepths = level_dict.values()
+
+        #print sentDepths
+        
+        #loading entity
+        lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
+        #f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
 
         grid_1 = "0 "* window_size
-
         for idx, line in enumerate(lines):
-            e_trans = get_eTrans_with_Tree_Structure(sent=line,feats=f_lines[idx],fn=fn, tree_levels=tree_levels) # merge the grid of positive document 
+            e_trans = get_eTrans_with_Tree_Structure(sent=line, sent_levels=sentDepths) # merge the grid of positive document 
             if len(e_trans) !=0:
                 grid_1 = grid_1 + e_trans + " " + "0 "* window_size
         #print(grid_1)
@@ -293,7 +444,7 @@ def load_and_numberize_with_Tree_Structure(filelist="list_of_grid.txt", perm_num
             grid_0 = "0 "* window_size
 
             for idx, p_line in enumerate(permuted_lines):
-                e_trans_0 = get_eTrans_with_Tree_Structure(sent=p_line, feats=f_lines[idx],fn=fn, tree_levels=tree_levels)
+                e_trans_0 = get_eTrans_with_Tree_Structure(sent=p_line, sent_levels=sentDepths)
                 if len(e_trans_0) !=0:
                     grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
 
@@ -331,10 +482,10 @@ def load_and_numberize_with_Tree_Structure(filelist="list_of_grid.txt", perm_num
     return X_1, X_0, E 
 
 
-def get_eTrans_with_Tree_Structure(sent="",feats="",fn=None,tree_levels=None):
+def get_eTrans_with_Tree_Structure(sent="",sent_levels=None):
     x = sent.split()
     
-    length = len(x)
+    length = len(x) - 1 
     e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
     if length > 80:
         if e_occur < 3:
@@ -344,19 +495,23 @@ def get_eTrans_with_Tree_Structure(sent="",feats="",fn=None,tree_levels=None):
             return ""
 
     x = x[1:]
-    
+    #print x
+    #print sent_levels
+
     sent_idxs = range(len(x))
     final_sent = [] #final sentence
-    for lv in range(max(tree_levels)+1):
-        indexes = [i for i,idx in enumerate(tree_levels) if idx == lv]
+
+    for lv in range(max(sent_levels)+1):
+        indexes = [i for i,idx in enumerate(sent_levels) if idx == lv]
 
         tmp = ""
         for idx in indexes:
             tmp = tmp + x[idx]
 
-        if len(tmp) > 3:
-            # pick up the highest grammarical role
-            tmp = get_right_encode(vb=tmp)
+        #TODO; maybe cut off the token latter on
+        #if len(tmp) > 3:
+        #    # pick up the highest grammarical role
+        #    tmp = get_right_encode(vb=tmp)
 
         final_sent.append(tmp)
     
@@ -364,8 +519,8 @@ def get_eTrans_with_Tree_Structure(sent="",feats="",fn=None,tree_levels=None):
     #print final_sent
 
     return ' '.join(final_sent)
-
-    #below is processing with feature
+    '''
+    #TODO: below is processing with feature
     if fn==None: #coherence model without features
         x = x[1:]
         return ' '.join(x)     
@@ -397,6 +552,7 @@ def get_eTrans_with_Tree_Structure(sent="",feats="",fn=None,tree_levels=None):
         x_f.append(new_role)
 
     return ' '.join(x_f)
+    '''
 
 def get_right_encode(vb="S---XOS"):
     
