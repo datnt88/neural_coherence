@@ -1,0 +1,63 @@
+<s> I serve as a one-man IT shop for our medium-sized family business and I don't have the time to learn, much less understand, all of the intricacies of networking, although I've managed to keep everyone connected, working and secured for about ten years now. </s>
+<s> One of our little 5-person office networks utilizes cable broadband and a mix of wired and wireless connections using DHCP on the router and clients. </s>
+<s> Now we've purchased a networked BizHub for which the installation techs say they will need a static IP. </s>
+<s> How does one use dynamic and static addressing at the same time?? </s>
+<s> If I provide one static IP address for the BizHub will I have to assign all of our clients static IPs? </s>
+<s> And how will that affect our mobile clients that travel to other company locations where DHCP is also the rule? </s>
+<s> Would anyone out there have a walk through for a Linksys WRT54GS router that would help with the necessary config changes? </s>
+<s> Lastly, how does one determine the appropriate static IP(s) to use in these cases? </s>
+<s> TIA </s>
+<s> a static IP address can be configured through it's Network properties page (assuming Windows). </s>
+<s> Simply create the address in the same IP range of the dynamically assigned units and point it to the defauly gateway address of the router. </s>
+<s> Subnet numbers should also be the same. </s>
+<s> &quot;Now we've purchased a networked BizHub for which the installation techs say they will need a static IP.&quot; What device is this and why are the techs telling you this? </s>
+<s> one of those all-in-one copier, scanner, printer, etc., etc. </s>
+<s> devices (on a very large scale) that has the ability to be incorporated with an existing network. </s>
+<s> In this case, however, I'm completely unfamiliar with how the machine gets configured to talk on the network. </s>
+<s> Obviously it uses TCP/IP but it must not have the ability to acquire and use a dynamic IP as a Windows client would, thus the tech's request for a static IP. </s>
+<s> You mention a Linksys router, which I presume is set as the DHCP server for that location's network. </s>
+<s> I will further presume for the sake of discussion here that it is set to its default 192.168.1.1 internal gateway address, and further is set to issue addresses to clients starting at 192.168.1.2. </s>
+<s> Yours may in fact be set to something else, but let's use these IP numbers for now. </s>
+<s> For any device on an inside network to reach another, it needs to have an address within the same 192.168.1.xyz range. </s>
+<s> The static IP that the BizHub needs would be anything from 192.168.1.2 through 192.168.1.254. </s>
+<s> Under ideal circumstances, you could set the BizHub to 192.168.1.2 and the Linksys, upon rebooting, would poll the network looking for devices to which it should assign dynamic addresses. </s>
+<s> It would discover the BizHub already has 192.168.1.2 and it would reserve that. </s>
+<s> Dynamic devices would be assigned .3 or higher as they come and go. </s>
+<s> Life is not perfect, the Linksys could assign .2 before it learns .2 is permanently taken and then all hell breaks loose on your network with 2 devices each claiming to be the same address. </s>
+<s> So don't do that. </s>
+<s> What I have done on my small network is set the router to issue dynamic addresses starting at 192.168.1.101. </s>
+<s> Of course, the router itself is 192.168.1.1, so that leaves 192.168.1.2 through 192.168.1.100 unoccupied and available for static assignment as needed. </s>
+<s> In my network, I have chosen to use the 90s for several print servers and the 50s for file servers. </s>
+<s> For awhile I had a system that needed DMZ access to the WAN, so I pegged that system as .45. </s>
+<s> Meanwhile, the &quot;normal&quot; systems come and go as they please and always get assigned addresses in the 101+ range. </s>
+<s> dw </s>
+<s> The reason you would need a static IP address for a networked printer is because each client that prints to it needs a specific address to send their print jobs. </s>
+<s> Dynamic addressing, which can change at each power cycle of the device or router, would defeat this. </s>
+<s> Any other machines on the network can stick with dynamic addressing. </s>
+<s> So you would use the software that comes with the BizHub to establish a static IP for it, pointing back to the router's IP as the default gateway. </s>
+<s> The rest (adding the printer to each PC) should be explained in the manual. </s>
+<s> Many thanks for the thorough explanations. </s>
+<s> I have our router set to provide dynamic addressing in the range 192.168.1.100-119. </s>
+<s> Does this mean that I can use addresses from 192.168.1.120-254 (and/or .1.2-99 for that matter) for static addressing and the devices at those addresses will also be seen on the network? </s>
+<s> Thanks again. </s>
+<s> Howard </s>
+<s> You can configure the Bizhub to have a static IP address through the menu on the printer itself. </s>
+<s> It is like this with every single network printer we have in my office (around 35 right now). </s>
+<s> We have a bizhub 350 and it did come w/ software but you need to assign the static IP via the menu ON the printer (should have a little LCD screen or touch screen). </s>
+<s> Set it to whatever IP you would like (so long as it is not conflicting w/ another IP address on the network). </s>
+<s> Wait a few minutes then try to ping the IP address you just manually assigned the bizhub. </s>
+<s> Any address from 192.168.1.1 through 192.168.1.254 will be visible to each other. </s>
+<s> The router will reserve 192.168.1.1 for itself as the gateway to the outside world, so that number is now spoken for. </s>
+<s> You've given permission for the router to assign 100 through 119 to DHCP cliet requests. </s>
+<s> You don't want to do anything with that range for fear of causing conflicts when it tries to do something of its own accord. </s>
+<s> That leaves you complete freedom to assign any address above or below for a device that needs an unwavering address. </s>
+<s> Personally, I think I'd use the 2 - 99 group for fixed addresses. </s>
+<s> That's nearly 100 devices - ain't no way you're ever going to need all of them, but you've got that range to work with. </s>
+<s> Don't use the 120+ range unless you start way up, say 200+. </s>
+<s> That way if you later find you have more than 20 computers and other devices requesting dynamic addresses, you can simply exand the range allowed to the router and know that nothing was assigned nearby. </s>
+<s> dw </s>
+<s> With all of your help the new BizHub is off and running as a new networked color printer/scanner. </s>
+<s> Works great! </s>
+<s> Thanks again all. </s>
+<s> Glad it worked, glad I could help, and thanks for letting us know. </s>
+<s> dw </s>

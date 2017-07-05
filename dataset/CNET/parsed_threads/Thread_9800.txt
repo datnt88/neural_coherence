@@ -1,0 +1,27 @@
+<s> Hi all, Can u any one help me to solve this problem, Our setup is to connect 23 stations to the central point . </s>
+<s> They already laid the OFC cables and terminated using one tejas mux and nemd it as the OFC room . </s>
+<s> so we had started our setup from the point where they have terminated their OFC in each stations using the Microtech media converter , which converts OFC to copper link. </s>
+<s> From there we laid OFC to one of the Booking counter in one station. </s>
+<s> Each Station has two booking counter one is nearer to the OFC room, i.e, where they have terminated their OFC link . </s>
+<s> From there we have connected one of the booking counter with the OFC and again we are using one Media converter to connect the switch ( DAX DX-5026MGV-AC) then from this switch another OFC is running to the other switch placed in the other booking counter.the OFC link between the two stations are connected using the transceiver. </s>
+<s> this is the setup in all the 23 stations. </s>
+<s> each booking counter has two switch they are interconnected by Patch cord each station is one VLAN. </s>
+<s> MY problem is that , Some times the OFC link goes down between two booking counters.after all the basic level troubleshooting i have removed the transceiver and found that its very heat and then i have placed the transceiver in the same port by connectin the OFC link. </s>
+<s> then I manually restart the switch. </s>
+<s> After that the link goes up and there is no issue . </s>
+<s> A little confusing since it appears to be rather complex. </s>
+<s> I am guessing you think your problem resided in the SFP modules you insert into the switches. </s>
+<s> These modules seldom fail. </s>
+<s> I suspect it is a software issue with the negotiation between the switches. </s>
+<s> I would first when you get a failure log into your switches and see if you have error messages of any kind in the log. </s>
+<s> A actual failed module should produce a different error than you would see if it detected a issue with the light coming from the remote device. </s>
+<s> I would then disable and re-enable the port on each end. </s>
+<s> This will in effect reboot just that one port. </s>
+<s> If this resolves it I would look at things like speed/duplex/ flow control settings. </s>
+<s> Sometimes the AUTO option do not work correctly. </s>
+<s> To rule out a hardware failure you could of course swap out the module with a spare, you want to try this without rebooting the switch. </s>
+<s> These modules are hot swappable in most equipment. </s>
+<s> It is unlikely these devices themselves would get hot. </s>
+<s> You could in theory put too much light into one but that mostly just breaks it not overheats it. </s>
+<s> Just be sure you are using the correct modules for the distance you are going. </s>
+<s> You do not want to use the extended range ones on short fiber runs. </s>

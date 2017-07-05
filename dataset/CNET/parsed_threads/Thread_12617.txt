@@ -1,0 +1,188 @@
+<s> I want to move a lot of stuff from my old G3 to my new Mac Mini. </s>
+<s> I was told that I could do this via ethernet. </s>
+<s> Problem is, I've never networked two computers before and don't know where to start. </s>
+<s> I've got the cable, but am ignorant of basics like do I need both monitors, a step by step instruction, etc. </s>
+<s> All help much appreciated, particularly a step by step targeted at the slow. </s>
+<s> TIA </s>
+<s> Make sure that the cable you have is a CROSS-OVER cable. </s>
+<s> A length of regular ethernet cable will NOT work. </s>
+<s> If your old G3 has Firewire, all you will need is a Firewire cable. </s>
+<s> Firewire steps first. </s>
+<s> Attach the firewire cable from the Mini to the G3. </s>
+<s> Boot the Mini. </s>
+<s> Once booted, on the G3, hold down the &quot;T&quot; key and boot the G3. </s>
+<s> Release the &quot;T&quot; when you see the Firewire icon. </s>
+<s> G3 appears on the Desktop of the Mini. </s>
+<s> Drag everything you need off the drive. </s>
+<s> Of course, life is never that simple. </s>
+<s> You are going to tell me that the G3 does not have Firewire. </s>
+<s> So, connect the CROSS-OVER cable from the ethernet port on the mini to the ethernet port on the G3. </s>
+<s> 1. </s>
+<s> Boot the G3 and turn on File Sharing. </s>
+<s> Make sure tha the computer has a name, in the File Sharing Control Panel. </s>
+<s> 2. </s>
+<s> Go to Users and Groups and set the Guest Access to &quot;Allow Guests to Access this computer&quot; Close the window when done. </s>
+<s> 3. </s>
+<s> Single click on the HD icon on the desktop 4. </s>
+<s> Go to &quot;Get Info&quot;, select Sharing and in the window, check &quot;Share this item and its contents&quot; and alongside the Everyone line, select Read/Write. </s>
+<s> 5. </s>
+<s> Click the Copy button to do what it says and then, when it is finished, close the window 6. </s>
+<s> Boot the mini. </s>
+<s> 7. </s>
+<s> On the G3, go to the AppleTalk control panel and set AppleTalk to via Ethernet. </s>
+<s> (You cannot do this step before the mini is booted as the G3 will return an error when it fails to see any activity on the Ethernet port and default to the Printer port. </s>
+<s> Booting the mini produces activity at the port) If you have the correct cable, the G3 should appear in the Network window of the mini. </s>
+<s> Double click it and choose to log on as a Guest. </s>
+<s> The G3 mounts on the desktop and is fully accessible to you. </s>
+<s> Do NOT bother moving any applications from the G3 to the mini. </s>
+<s> They almost certainly will NOT work. </s>
+<s> Just copy the stuff you created. </s>
+<s> The File Sharing instructions are based on OS 9.x.x but they apply to earlier Systems. </s>
+<s> File Sharing and Users & Groups are separate control panels is versions earlier than 9.0 The instructions on what to do with them remain the same. </s>
+<s> That should keep you going for a while. </s>
+<s> If you get stuck, let us know. </s>
+<s> Remember, it has to be a CROSS-OVER cable. </s>
+<s> Sorry to press this but I have seen numerous failures and frustrations from using the wrong type of cable. </s>
+<s> Hope this all helps P </s>
+<s> Many thanks, Mrmacfixit! </s>
+<s> I have printed your instructions and will exchange the ethernet cable for the crossover cable. </s>
+<s> This is going to take a couple of days due to other commitments, but I will report back on the results. </s>
+<s> Have a good weekend! </s>
+<s> NIL </s>
+<s> I've got a cross-over cable, as directed. </s>
+<s> I followed the other instructions, but the G3 doesn't show up in the network window of the Mini, nor does a &quot;Connected User&quot; show up in the File Sharing window of the G3. </s>
+<s> I'm fairly sure I'm doing something wrong, but what? </s>
+<s> TIA </s>
+<s> I'm fairly sure I didn't miss anything but.... Make sure that the File Sharing CP on the G3 has a Name for the Computer. </s>
+<s> Any name will do, as will any password. </s>
+<s> In the Users and Groups, make sure that Guest Access is enabled. </s>
+<s> Make sure that File Sharing is On. </s>
+<s> If all of those things are correct AND the cable you have is a cross-over cable, AND, when the two machines are connect together you have gone to the Apple Talk CP and set the output to Ethernet, AND you have shared the HD, then the G3 &quot;should&quot; appear in the Network window of the Go/Network menu on the Mini. </s>
+<s> One other point, or two, go to the System Preferences/Network and in the drop down menu, select Ethernet. </s>
+<s> Click on AppleTalk and check the Make Active box. </s>
+<s> If you are running OS 9 on the G3, there should be an option in File Sharing, to Allow users to connect using TCP/IP. </s>
+<s> Turn it on if it is there. </s>
+<s> Check all the above again, especially the AppleTalk section You can do this Good Luck P </s>
+<s> Got it done! </s>
+<s> Here's where I got lost: &quot;then the G3 &quot;should&quot; appear in the Network window of the Go/Network menu on the Mini.&quot; Having never networked, I was unaware of the Go/Network command. </s>
+<s> In any case it's a done deal, and I owe you a huge debt. </s>
+<s> Many thanks!!! </s>
+<s> Oh, an interesting sidebar: About 5 minutes into the transfer, the G3 flipped up a &quot;bus error&quot; bomb, which I assumed meant the end of the world. </s>
+<s> Didn't, though--I was able to keep happily downloading stuff from it til I was done. </s>
+<s> Cool! </s>
+<s> Thanks again, --Tim </s>
+<s> Glad it all worked for you. </s>
+<s> Now you might want to consider keeping the G3, for extra storage and, if you have broadband internet, setting your machines up to share the connection and to remain networked. </s>
+<s> But that's another adventure. </s>
+<s> Glad I could help P </s>
+<s> Thanks for the great &quot;how to&quot; but I have the exact same set up (old beige G3 and a new mac mini) and I bought a router and set up my network to allow internet access to both computers via a cable modem link. </s>
+<s> Works great but actually being able to share files from the G3 to the mini does not appear to work. </s>
+<s> Do I need to play with IP addresses or the router settings? </s>
+<s> I have not begun to play but hope to have internet access as well as file (and printer) sharing as well. </s>
+<s> The G3 is running OS9 while the mini is OSX if that matters. </s>
+<s> Thanks in advance! </s>
+<s> Ken </s>
+<s> is exactly the same as the one already described. </s>
+<s> I have a feeling that you may have missed a step, either on the G3 or the mini. </s>
+<s> You do not say what actually happens or what you see in either the Chooser/Appleshare(Talk) (G3) or the Network Window (mini) There is no need to change any IP addresses and probably nothing to set up on the router. </s>
+<s> If both machines can access the internet, via the router, then they are already connected in a local area network by virtue of being plugged into the same switch. </s>
+<s> You just have to make them talk nicely to each other. </s>
+<s> Take another look at all the posts here and it should work for you. </s>
+<s> If it doesn't, come back and tell us exactly what happened. </s>
+<s> Have a good 4th P </s>
+<s> I followed the &quot;procedure&quot; exactly as written. </s>
+<s> When I click on the &quot;network&quot; on my mac mini, I see an alias for &quot;Servers&quot;. </s>
+<s> When I click there, I get a &quot;the name of my computer.local&quot;. </s>
+<s> When I click this, it just reverts to my mac mini hard drive. </s>
+<s> I am sure I have a crossover cable. </s>
+<s> I have internet access on both computers. </s>
+<s> I am using a D-Link router with built in switching. </s>
+<s> My G3 is really old (233mHz) that I added a few things (upgraded CD-RW, PCI card for Firewire/USB, lots of RAM). </s>
+<s> It is not critical that they talk to each other but would save me the time to burn a CD of data I want to move. </s>
+<s> I love the Firewire ploy but I have to get a long firewire cable and I am told that is not cheap. </s>
+<s> I do find it odd that it isn't working. </s>
+<s> My thought is to have the G3 apple talk set from &quot;ethernet&quot; to &quot;printer&quot; and reboot. </s>
+<s> Then boot the mac mini and then switch the apple talk on the G3 to &quot;ethernet&quot;. </s>
+<s> I have done the above but NOT rebooted the G3. </s>
+<s> I have set the apple talk on the G3 from &quot;ethernet&quot; to &quot;printer&quot; (and saved) and then booted the mac mini and then switched the G3 to &quot;ethernet&quot; via the apple talk. </s>
+<s> Again, thanks in advance. </s>
+<s> Ken </s>
+<s> You do NOT need a cross-over cable if you are using a switch or router. </s>
+<s> Switching AppleTalk on the G3 from Ethernet to Printer will not help in the slightest. </s>
+<s> All that will do is put the output of the AppleTalk protocol, down the printer port. </s>
+<s> You will then be unable to connect to the router. </s>
+<s> Assuming that you have internet access on the G3 and the Mini, we can rule out a bad ethernet port. </s>
+<s> On the G3, what do you see when you go to the Chooser window and select AppleShare? </s>
+<s> If all is set correctly on the Mini, you should see it in the righthand window. </s>
+<s> You do not have to connect from each of the machines at the same time. </s>
+<s> If the G3 can see the mini, and connect, you can &quot;push&quot; the data to the mini rather than &quot;pull&quot; it from the G3. </s>
+<s> For the G3 not to see the Mini, and vice versa, there is either a connectivity problem (X-over cable instead of straight through)or one of the File Sharing settings on either machine is incorrect. </s>
+<s> On the G3, are you sharing just one folder or are you trying to share the entire drive? </s>
+<s> If it is just one folder, is there anything special about the icon for that folder? </s>
+<s> P </s>
+<s> On the G3, if I go to &quot;Chooser&quot; all I have are printers to choose from. </s>
+<s> There is NO Apple Share. </s>
+<s> Apple talk says conneted to &quot;ethernet&quot; No zones specified. </s>
+<s> As for the G3, yes, I am trying to share the entire drive. </s>
+<s> Also, yes both computers hook into the net. </s>
+<s> Should I remove the crossover cable and use a straight cable? </s>
+<s> I didn't think that would matter. </s>
+<s> Fun, fun, huh? </s>
+<s> Thanks again for the patience and persistance. </s>
+<s> Ken </s>
+<s> I was unable to post directly from your last post, which is why we are over here. </s>
+<s> Ok, Now we have a minor problem. </s>
+<s> Without the File Sharing extensions in the extension folder, you will not get an AppleShare/AppleTalk icon in the Chooser. </s>
+<s> Without this icon, you will not be able to network correctly. </s>
+<s> First, change out the X-over cable for a straight thru one. </s>
+<s> Next, go into the Exentions Manager and set the Extension set to OS 9.x.x ALL. </s>
+<s> Restart the machine, check in the Chooser for an AppleShare/AppleTalk icon. </s>
+<s> If it's there, click on it. </s>
+<s> The AppleTalk control panel is only to control where the communications will be be sent & received. </s>
+<s> The File Sharing control panel is the one that controls all the sharing. </s>
+<s> Get back with me with the results. </s>
+<s> P </s>
+<s> The trick- check the &quot;network&quot; control panel and make sure that Apple Talk is turned on at the mini! </s>
+<s> I Turned this on and, presto, hit apply and there was the G3 waiting to be mounted. </s>
+<s> I assumed that the Apple Talk was on at the mini but apparently not. </s>
+<s> Thanks!!! </s>
+<s> ! </s>
+<s> able to sort it out. </s>
+<s> Now watch how fast you can suck that stuff across! </s>
+<s> Well done P </s>
+<s> I too have a beige G3 (purchased 1/98 running OS 9.2.2) and want to transfer many files from it to my new Mac Mini (OS 10.4.7). </s>
+<s> Your instructions worked great. </s>
+<s> I could see the named G3 in my Network window of the Mac Mini. </s>
+<s> However, when I clicked on the named G3 icon I got an AFP Protocol error &quot;This file server uses an incompatible version of the AFP protocol. </s>
+<s> You cannot connect to it.&quot; What's this mean? </s>
+<s> Is there some way to get rid of or fix the error? </s>
+<s> Thanks. </s>
+<s> It might work. </s>
+<s> Instead of trying to PULL data off the G3 from the Mac Mini, try PUSHING the data from the G3 to the Mac Mini. </s>
+<s> ie. </s>
+<s> Instead of trying to connect the Mini to the G3, trying connecting the G3 to the Mini. </s>
+<s> On the G3, make sure &quot;allow connections via TCP/IP&quot; is checked and on the Mini, make sure that AppleTalk is on. </s>
+<s> (this should really not make a difference but it cannot hurt) Let us know how you got on P </s>
+<s> HELLO: I read down through these posts and then went back and re-read the first post. </s>
+<s> Am I to assume from your directions that the Fire Wire transfers are simpler to perform and have faster transfer rates? </s>
+<s> I'm getting ready to do the same thing with my Mac Mini. </s>
+<s> JG </s>
+<s> the Firewire (Target Mode) is much faster and a whole lot easier to set up and run. </s>
+<s> However, be aware that the new mini has a Firewire 800 port while you older machine may only have a Firewire 400 port. </s>
+<s> If this is the case, you will need a different Firewire cable to the one you probably had with the old machine. </s>
+<s> The connectors are completely different. </s>
+<s> P </s>
+<s> P Once again, THANKS! </s>
+<s> I did look at the Firewire ports earlier and they were different. </s>
+<s> I figured I would have to pull up some arcane Tech Report on these, gut, you have it right here. </s>
+<s> I'll have to see what a Fire Wire cable for the odd connection will run. </s>
+<s> Time I have, money is scarce these days! </s>
+<s> Thanks again for your help! </s>
+<s> JG </s>
+<s> check this place out http://eshop.macsales.com/Search/Search.cfm?Ntk=Category&Ns=P_Popularity%7c1&Ne=5000&N=7574&Ntt=firewire+1394+cables P </s>
+<s> I had the same intent for moving files from my old flat panel G4 iMac. </s>
+<s> I had backed up this iMac previously and it took two days of doing the job to completiojn. </s>
+<s> I bought a Fire Wire cable to take care of transferring the files to my new Mac Mini and it took about 2 1/2 hours total for the same type of job - transferring files from one disk to another. </s>
+<s> It was great! </s>
+<s> I just wiped the Mini disk - since it was new I didn't have much there - and the instructions when I reinstalled were very simple and straight forward. </s>
+<s> JESSE </s>

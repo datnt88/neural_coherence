@@ -1,0 +1,34 @@
+<s> I recently purchased a Netgear RangeMax wireless router, model WPN824. </s>
+<s> After connecting it to my RoadRunner cable modem I ran the wizard and it keeps telling me a static ip is needed? </s>
+<s> I've used Dlink routers before switching over and never run into messages like this..they normally detect and connect to RoadRunner with no issues. </s>
+<s> Any suggestions? </s>
+<s> The connection I get into my home for the Internet is not a static ip.. </s>
+<s> Thanks guys! </s>
+<s> Bill </s>
+<s> properties page and look for the option to set it to automatically configure. </s>
+<s> I am experiencing the same problem. </s>
+<s> I have an old netgear router (614) which is set up identically to the new one, but the new one doesn't work. </s>
+<s> The internet light continues to stay amber instead of green. </s>
+<s> The &quot;wizard&quot; insists on a static IP even though roadrunner insists it's dynamic. </s>
+<s> This new router's a pain since it requires an internet connection for troubleshooting. </s>
+<s> That's like having to start a car to find out why it won't start... </s>
+<s> I downloaded the firmware update, but now the power light is blinking green and amber as well as not having a good internet connection. </s>
+<s> If you know what the problem is, please let me know. </s>
+<s> Thanks! </s>
+<s> Many cable modems are configured to provide only one IP address. </s>
+<s> So when they learn a MAC address from a router they will not release a new IP to another device. </s>
+<s> The modem may have to be reset by you or your cable company. </s>
+<s> Then it should serve up an IP address for the router. </s>
+<s> It says if the power light blinks amber and green, firmware's corrupt. </s>
+<s> The knowledgbase says to use tftp -1 192.168.1.1 put &lt;filename&gt;. </s>
+<s> But when you do that, it never transfers successfully. </s>
+<s> It gives the little help prompt and the only thing I can figure out is that it wants a destination to put the file in. </s>
+<s> If you call them, they insist on walking you through the whole ipconfig and ping procedures, but never tell you what's wrong with the tftp procedure. </s>
+<s> He kept referring to 192.168.1.1/basicsetting.htm which times out every time! </s>
+<s> I am SO disappointed in WNR834B because my old 614 was practically plug and play! </s>
+<s> You need to download the firmware from Netgear and save it someplace like C:\Temp WNR834B_FW1035.img is the actual file name that I downloaded from Netgear. </s>
+<s> 1. change your PCs IP address to 192.168.1.10, subnet mask 255.255.255.0, gateway 192.168.1.1, Preferred DNS 192.168.1.1 2. from the command prompt ''cd\temp'' then from C:\TEMP&gt; type ''tftp -i 192.168.1.1 put WNR834B_FW1035.img'' the Netgear documentation states it will take 3 minutes but just wait for the lights to look normal. </s>
+<s> If it takes 3 minutes it is beyond fried. </s>
+<s> 3. </s>
+<s> If it works, change your PCs IP settings back to obtain. </s>
+<s> I hope this helps. </s>

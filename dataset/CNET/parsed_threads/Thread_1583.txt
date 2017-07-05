@@ -1,0 +1,43 @@
+<s> I would like to install ATI 9550 256 agp video card into new computer.I have Asus p4s533-mx mother board.There is a built-in SIS graphics.Do I need to go into device manager and remove it first, before I install new card? </s>
+<s> Can I just use device manager to turn off device? </s>
+<s> after that shut down and install the card and windows should detect it on start up. </s>
+<s> repost if u have any problems. </s>
+<s> tom </s>
+<s> I tried that.after I attemped to change monitor settings,screen when dark and would not display.Once in the safe mode, I found in device manager,onboard graphics were enabled.I disabled and rebooted.monitor was back on,but not as good as original.When back into device manager and noticed that the new card was not there.the onboard graphics had an X, indicated it was turned off. </s>
+<s> Decided to pull card and return computer to original status. </s>
+<s> everything is as before and no added graphics card.Should I go into device manager and remove onboard graphics or will I make matters worse? </s>
+<s> as its soldered onto your motherboard and windows will always find it again. </s>
+<s> u are suppose to disable it only. </s>
+<s> try going into your bios and changing your graphics option to use agp slot that might be the problem...and are u sure u are installing it correctly? </s>
+<s> as windows should have been able to detect the card on startup...more info on your system plz... </s>
+<s> I will try again.I have gone into the bios and I will made sure agp slot is primary source for graphics and adjust paremeters to match the card.My computer is custom built with p4 2.66ghz running in asus p4s533mx motherboard.I have 512mb of ram and 80g hard drive.I'm running windows Xp sp1 home edition. </s>
+<s> thanks for suggestions. </s>
+<s> You have to go into the BIOS switch to AGP. </s>
+<s> Plug your new Card in. </s>
+<s> But leave the moniter attached to the onboard graphics. </s>
+<s> Boot windows, then go to the display properties, then to the settings tab there will be two graphic cards listed. </s>
+<s> Highlight the one you want to use and then check the Use this device as my primary display check box. </s>
+<s> That should solve your problem. </s>
+<s> You dont even need to disable the old graphics card, although you can but it wont hurt anything. </s>
+<s> NIL </s>
+<s> Finally,Card was installed first.went into BIOS and comfirmed agp slot was operational and the rest of settings were set.Once the agp slot was activated monitor went dark. </s>
+<s> I switched monitor cable to the new card and monitor came back on.The new card now appears in device manager window and everything appears to be working. </s>
+<s> Thanks to everyone who contributed to this question. </s>
+<s> Im sure you know how to disbale the device from device manager but if you dont or either someone else viewing this Post i have listed a step by step instructions on how to disbale your onboard Vid card i couldent past the pictures but i have listed a url for the images under the steps before starting this process i recommend that you install your video card software/drivers(if any) before begining this process. </s>
+<s> Step 1 Go to your start button and left click on my computer and select properties http://www.electronixeshop.com/HelpArchive/OnboardVidcard/Step1.JPG Step 2 When a window pops up showing you your comp info select the Hardware Tab http://www.electronixeshop.com/HelpArchive/OnboardVidcard/Step2.JPG step 3 select device manager http://www.electronixeshop.com/HelpArchive/OnboardVidcard/Step3.JPG Step 4 click the drop down icon beside Display Adapter.select the integrated one and left click on the onboard card and select properties http://www.electronixeshop.com/HelpArchive/OnboardVidcard/Step4.JPG step 5 the vid card shown in my picture is not a integrated card(VGA) Its my new card i installed only reason i cant show you my integrated one is because it dosent show in device manager once disabled. </s>
+<s> http://www.electronixeshop.com/HelpArchive/OnboardVidcard/Step5.JPG Step 6 once disabled it will ask you to restart your computer click yes it is a must that you restart your computer. </s>
+<s> as it is getting ready to shutdown or startup dosent matter. </s>
+<s> plug your monitor into the new card you jsut installed. </s>
+<s> And your done your new card should be working fine without any problems. </s>
+<s> http://www.electronixeshop.com/HelpArchive/OnboardVidcard/Step6.JPG </s>
+<s> Sorry guys, don't mean to rain on anyones parade but anytime I have installed a new graphics card in a machine it is automatically set as default. </s>
+<s> The onboard graphics automatically switches off and the computer boots fine with a low resolution until the new graphics drivers are installed. </s>
+<s> I have never seen the need to disable the onboard graphics and I have never seen a conflict occur. </s>
+<s> Is there something about this particular motherboard that I don't know about? </s>
+<s> In this particular set-up,The onboard graphics cards had to be switched in the BIOS section.The asus board has 3 options for the card.pci-slot,agp-slot, or onboard graphics.Also since the agp slot was selected, the speed and memory of card had to be adjusted in the Computer Bios.Apparently each system has it's own quirks and sometimes to a beginner,the error's can be overwhelming.It's nice to know, the people who responsded to this string were thoughtful and sincere in their response. </s>
+<s> Thanks </s>
+<s> I built myself a desktop PC using a motherboard with built in SIS video. </s>
+<s> Later on, I wanted a better video setup, so I got myself an ATI card for a PCI slot (not having an AGP slot) and figured out after a bit of swearing that I had to go into the BIOS and defeat the on-board graphics before things would work correctly. </s>
+<s> However, even after succeeding at that, I would occasionally have graphics problems and once or twice actually had to pull the ATI board and reset everything. </s>
+<s> You would think at this point in the Wintel universe that you could leave the onboard graphics alive alongside a PCI video card and run a dual monitor setup, if you wanted, but there must be serious contention where the graphic routines are embedded. </s>
+<s> Also, where the motherboard carries the graphics subset built in, the usual setup is that the onboard video will draw from main system RAM for video RAM, bringing down your overall available total (a standalone card, obviously, carries its own RAM, and usually can handle a lot more of it). </s>

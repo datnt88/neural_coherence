@@ -1,0 +1,24 @@
+<s> confused ..... Too many installs w/o supplying Xp w/drivers for single non raid SATA devices if attached to the MB and the BIOS is properly set. </s>
+<s> And yet their are many posts stating that drivers are needed. </s>
+<s> SATA-10 States that &quot;Though Serial ATA will not be able to directly interface with legacy Ultra ATA hardware, it is fully compliant with the ATA protocol and thus is software compatible&quot;. </s>
+<s> At Wikipedia States that &quot;The standard interface for SATA controllers is Advanced Host Controller Interface (AHCI) and not supported by XP. </s>
+<s> Tho &quot;If AHCI is not enabled by the motherboard and chipset, SATA controllers typically operate in &quot;IDE emulation&quot; mode&quot; and &quot;Windows device drivers that are labeled as SATA are usually running in IDE emulation mode unless they explicitly state that they are AHCI&quot; If SATA devices are backwards compatible to ATA standards, the MB is running in IDE emulation mode and the device does not state they are AHCI compatible only. </s>
+<s> Should these issues be addressed first before stating that drivers are needed? </s>
+<s> Or what am I missing? </s>
+<s> Bill </s>
+<s> some mobos can expose sata devices to the operating system as ide/ata (in which case on xp drivers are needed but you won't be able to hot-swap and ncq won't be used), sata/ahci (in which case drivers are needed but hot-swap and ncq may be enabled), or some raid configuration (which always needs drivers). </s>
+<s> You begin to wonder about today's owners that try to install to SATA with this OS and run headlong in this issue. </s>
+<s> Yes, &quot;IDE emulation mode&quot; might make the need go away but given the wide range of motherboards without any standards and that &quot;IDE emulation mode&quot; would not have the need for the usual drivers you do begin to wonder if today's owners should be installing Windows at all. </s>
+<s> Even better, fewer still will make a good, complete post. </s>
+<s> Since this is all volunteer forums should we just leave such posts to sink or give them the usual fix? </s>
+<s> Bob </s>
+<s> NIL </s>
+<s> Reading the manual. </s>
+<s> (a lost art.) </s>
+<s> And some are terribly written with no section on installing XP or prior Windows versions. </s>
+<s> Since some come with the IDE Emulation by default on or off (no standard) the ones that come with it on have less support calls but the techy types can scorn such as it does induce minor speed loss. </s>
+<s> I don't see a clear exit here as PC hardware is scattered like a jawbreaker at sonic speed hitting a granite slab. </s>
+<s> Bob </s>
+<s> Thanks, Looks like I've not been looking at the entire picture. </s>
+<s> And again you've reached the heart of an issue very clearly. </s>
+<s> Again Thanks Bill </s>

@@ -1,0 +1,26 @@
+<s> I recently had a home wireless network installed by a technician. </s>
+<s> It's a Netgear router hooked to my DSL connection and has my Dell desktop hardwired to it. </s>
+<s> I also have a Dell Inspiron 9300 laptop with a WiFi card and that connects perfectly to the network. </s>
+<s> My problem is this. </s>
+<s> My son is visiting for a few weeks and is having trouble hooking his Apple Powerbook to the network. </s>
+<s> He can &quot;see&quot; the Network named &quot;Home&quot; but then he needs to enter a WEP password to connect. </s>
+<s> I do not know what password the technician used so I can't give it to my son. </s>
+<s> Unfortunately the technician is in South American for several months and I can't contact him. </s>
+<s> Does anyone know how I can figure out what password was originally set up? </s>
+<s> I presume you are trying to connect to a router or access point to do this. </s>
+<s> If the tech did not change the default, it's probably just &quot;admin&quot; (without quotes). </s>
+<s> This is typical but should be contained in your documentation. </s>
+<s> Generally you need to authenticate yourself by adding your MAC address to a listing if MAC filtering is used and enter the encription code. </s>
+<s> You can also reset everything and start over if need be. </s>
+<s> You don't want to be locked into the need for a technician to do this if you are paying him. </s>
+<s> Another thing to do is google default password for your router, some site has a huge list. </s>
+<s> Try this to connect from the wired pc (using the ip of the router) If this doesn't do it, reset the router, and try to connect to it again from the wired computer. </s>
+<s> this should allow you to access the setup for the router, and you can enter new passwords and keys </s>
+<s> I say that tongue only partly in cheek - it's the easy way out but very hard way back in. </s>
+<s> You could do a hard reset of the router (read the documentation to find where the reset pin is and whether you need to hold it in for X seconds or do a simultaneous power on while dancing nude in the front yard or what...) and that will reset the router to factory defaults - including wiping out all the current security settings. </s>
+<s> Now you just set all new passwords - and write them down in your documentation rather than leaving them solely in your tech's head. </s>
+<s> If you want to experiment a bit before doing a complete reset, you might try logging into the router's configuration menu using the manufacturer's default configuration password in the hopes that your tech left the main configuration password as it was and only configured the WEP password to something now unknown. </s>
+<s> If you can get into the main configuration page (working from a computer that is wired to the router, not from a wireless system...), just set a new WEP passphrase to whatever you like. </s>
+<s> You will now have to reset that new WEP key into your laptop so it can connect again, but you will now know what to set your son's Powerbook to. </s>
+<s> To learn the factory default login to the configuration page, read the documentation or go to the website of the manufacturer and download a copy of it from their support page. </s>
+<s> dw </s>

@@ -1,0 +1,39 @@
+<s> I need advice from someone familiar with internal technical details of the Pentium 4 CPU. </s>
+<s> The P4 has a circuit which &quot;shuts the CPU off&quot; if a very high temperature is detected. </s>
+<s> It is automatic and does not involve any software. </s>
+<s> I suspect that the bus signal THERMTRIP# causes the CPU to drop into a SLEEP or DEEP SLEEP state. </s>
+<s> My question #1: If the CPU goes into a SLEEP/DEEP-SLEEP state in the midst of normal operation, would I see the following? </s>
+<s> (1) Complete absence of any sign of activity other than continued spinning of the hard disks and fans; (2) Complete nonresponsiveness to any user action (mouse, key presses, even pressing the power-off button uinless held for 5 seconds or longer); (3) All visible indications (screen display, indicator LEDs) frozen in the exact state occupied at the instant that the SLEEP/DEEP-SLEEP state was entered - in other words, the screen continues to display desktop and application displays (frozen), not a blue, dark, or corrupted screen. </s>
+<s> Finally, what circumstances other than an extreme over-temp condition can cause such a switch to SLEEP/DEEP-SLEEP? </s>
+<s> Thanks. </s>
+<s> reduces it's clock rate well before it hits the shutdown temp. </s>
+<s> It doesn't go to sleep, simply slows down. </s>
+<s> Read at some of the gamers forums where they run into the throttling because it slows the game performance down. </s>
+<s> They then do whatever is necessary to greatly improve their cooling capability. </s>
+<s> Please be aware that one can download [PDF's] a plethora of detailed thermal design, performance analysis engineering documents, white papers on key subjects, that provides the info. </s>
+<s> Takes some wading through many pages but it is all there, except that I find no really clear explanation of quad pumping to get their 800 MHz and 10XX FSB.. </s>
+<s> go to the Intel site, download 30056401.PDF Title is Intel Pentium 4 on 90 nm Process thermal design guide. </s>
+<s> On page 26 it shows how the PROCOHT# signal modulates the Normal clock by an internal clock duty cycle resulting in an intermittent clock rate that allows the CPU to keep running at a slower rate, thus reducing the power consumption. </s>
+<s> Further on one can read about the shutdown signal. </s>
+<s> It never goes into a sleep mode. </s>
+<s> NIL </s>
+<s> when that signal trips, it tells the mobo to shut the power supply off!!! </s>
+<s> Obviously your mobo doesn't have the necessary shut down logic circuits or they have failed. </s>
+<s> This info is also discussed in the refenced document. </s>
+<s> Here's what Intel's P4 data sheet says about the THERMTRIP condition. </s>
+<s> My interpretation of this is that the system is still powered but the system clocks are stopped (or the CPU clock at least) and, probably, certain voltages lowered. </s>
+<s> Here's Intel: The processor protects itself from catastrophic overheating by use of an internal thermal sensor. </s>
+<s> This sensor is set well above the normal operating temperature to ensure that there are no false trips. </s>
+<s> The processor will stop all execution when the junction temperature exceeds approximately 135C. </s>
+<s> This is signalled to the system by the THERMTRIP# (Thermal Trip) pin. </s>
+<s> Once activated, the signal remains latched, and the processor stopped, until RESET# goes active. </s>
+<s> There is no hysteresis built into the thermal sensor itself; as long as the die temperature drops below the trip level, a RESET# pulse will reset the processor and execution will continue. </s>
+<s> If the temperature has not dropped below the trip level, the processor will continue to drive THERMTRIP# and remain stopped. </s>
+<s> I think my earlier reply didn't go through, so ... </s>
+<s> Thanks. </s>
+<s> However, my question unfortunately was not academic - I am experiencing the exact symptoms I described so the situation is not a normal clock-throttling situation. </s>
+<s> Basically, my question is: What hardware situation (and I'm 99.99% sure it is hardware)can produce these symptoms? </s>
+<s> path to. </s>
+<s> Intel expects the mobo mfr to shut the power supply off when that signal goes [true] [or whatever the shutdown state is. </s>
+<s> If that happens, what the CPU does becomes a moot point, and certainly a reset will occur at the next power up. </s>
+<s> Not at all sure what will cause the RESET# automatically. </s>

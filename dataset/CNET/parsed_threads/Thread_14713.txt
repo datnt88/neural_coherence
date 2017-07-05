@@ -1,0 +1,39 @@
+<s> Bought an XFX NDIVIA 8600GS PCI-E graphics card. </s>
+<s> Every time I power up with the graphics card installed, I get no video at all. </s>
+<s> I have tried disabling and deleting the current VGA adapter. </s>
+<s> When I try to load the driver without the graphics card installed(from the supplied CD or from the Web site) I get an error saying &quot;the detected VGA does not seem to be XFX's product.&quot; And I can't try to load the driver with the card installed since I get no video on the screen. </s>
+<s> I exchanged the graphic card with the same problem, so the card shouldn't be the problem. </s>
+<s> I'm running Windows Vista Home Basic, with an ALTUS P5GC-MX/1333 motherboard and an Intel Core2Duo E6750 (2.6GHz) CPU. </s>
+<s> Relevent BIOS settings: Plug and play - Yes PCI Latency Timer - 64 Allocate IRQ to PCI VGA - Yes Palette snooping - Disabled Boot graphic adapter priority - PCI Express/Int-VGA Internal graphic mode select - Enabled, 8MB Previously, I did not have a graphics card installed and the PCI-E slot had not been used. </s>
+<s> Any suggestions would be appreciated. </s>
+<s> I dont know a whole lot about graphics cards settings and such. </s>
+<s> But, what PSU (Power Supply) are you using. </s>
+<s> If the card is not getting enough power it will not work properly. </s>
+<s> This is a simple awnser and I dont know if its the right one but, it was worth a try. </s>
+<s> It's probably a simple answer to my problem, but I don't think it's the PSU. </s>
+<s> I also don't know much about graphics cards, but the specs say the card requires a min of 350W and my PSU is 380W. </s>
+<s> 380 is not much more than 350 and I guess it could affect the performance of the card, but I think I should still see some video on the screen if it meets the min. </s>
+<s> NIL </s>
+<s> I am running Vista home premium and after several attemps to get that card working, I gave up, took it back and re-installed my old card without any problems. </s>
+<s> Your setup should be plug and play as mine is, but it would be a good idea to check the BIOS for onboard graphics being disabled. </s>
+<s> 380watts is defenatly enough. </s>
+<s> Most of the time, graphics cards will operate with a psu under the requirements but will not perform well. </s>
+<s> But, yous didnt at all so I am stumped! </s>
+<s> make sure you follow these instructions just but the same card but a xxx series-- XFX GeForce 8600GT XXX---got it off techspot.com i've done this before, so i can tell you it's actually a lot easier than you think. </s>
+<s> ok, there is a specific order to do things in to make things easy. </s>
+<s> 1) first i'd plug the chip into the slot. </s>
+<s> make sure it is seated snugly, and tighten the screws so it doesn't move too much. </s>
+<s> 2) now, notice you have two monitor connections. </s>
+<s> one from your newly installed card, and the old one connected to your integrated graphics. </s>
+<s> for now, LEAVE IT plugged into the integrated graphics plug. </s>
+<s> this is because you haven't yet installed the software, and told your computer there's new hardware in it. </s>
+<s> 3) turn your computer on and run the cd and have it install all the drivers and stuff. </s>
+<s> 4) go into your device manager, and now disable the integrated graphics. </s>
+<s> if you dunno how to navigate there, here's how. </s>
+<s> start &gt; control panel &gt; system &gt; hardware tab &gt; device manager go into your display adapters and right click the integrated graphics chip and select disable. </s>
+<s> make sure your newly installed graphics card is in the list, and fully enabled. </s>
+<s> 5) turn off your computer. </s>
+<s> 6) plug the monitor cable into the video card plug. </s>
+<s> 7) turn it on you don't have to uninstall anything. </s>
+<s> you just have to leave it disabled. </s>
+<s> it's also better if you don't uninstall anything because you may need that integrated graphics chip to install other graphics chips, or use it for trouble shooting purposes. </s>

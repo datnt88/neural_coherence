@@ -1,0 +1,32 @@
+<s> Hi, A small business in my town recently got new IBM PCs. </s>
+<s> They then upgraded from Win98SE to WinXP Pro. </s>
+<s> They took all of there networking configuration from 98SE and entered them into XP Pro. </s>
+<s> The host PC has an IP address of 192.168.0.12. </s>
+<s> The other three are .13, .14, .11. </s>
+<s> All subnet masks are set to 255.255.255.0. </s>
+<s> Default gateway is set to 192.168.1.1. </s>
+<s> There are 3 shared folders, G,H,P. </s>
+<s> When the non-hosts try to access info on G:, a message shows that this drive is set as &quot;Read Only&quot;. </s>
+<s> H and P can be accessed with no trouble. </s>
+<s> This happens when the non-host PC users are trying to access Word Perfect files on G:. </s>
+<s> Also, when the files are edited on the host PC, the other PCs don't see the change. </s>
+<s> We have tried to remove the read- only status, but it doesn't stick. </s>
+<s> Can anyone help? </s>
+<s> Thanks, Paul </s>
+<s> &quot;192.168.0.12. </s>
+<s> The other three are .13, .14, .11. </s>
+<s> All subnet masks are set to 255.255.255.0. </s>
+<s> Default gateway is set to 192.168.1.1.&quot; Blam. </s>
+<s> The default gateway is not on the LAN. </s>
+<s> Look at the numbers and there's an error right there. </s>
+<s> You may respond &quot;it worked before&quot;, but it's still an error. </s>
+<s> As to the read-only thing, XP is a new ball game with &quot;users and permissions.&quot; The XP that is serving will have to have the users added with the same passwords as on the client machines. </s>
+<s> This and more at http://www.wown.com and http://www.practicallynetworked.com Tip: Delete this registry key to speed it back up -&gt; Disable searching for scheduled tasks This Microsoft Knowledge Base article 245800 describes a bug in Windows 2000 Professional that also exists in Windows XP. </s>
+<s> Disable searching for scheduled tasks by deleting this registry key, normally on one line, but broken here presentation. </s>
+<s> HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\ CurrentVersion\Explorer\RemoteComputer\NameSpace\{D6277990-4C6A-11CF-8D87-00AA0060F5BF} Bob </s>
+<s> I can't know this one. </s>
+<s> I can tell that without added ROUTE ADD commands, given the LAN NETMASK is 255.255.255.0 and the Lan IPs are in the 192.168.1.x range, then that gateway is that &quot;x&quot; value from 1 to 254. </s>
+<s> But I can't tell with the supplied info which machine it is. </s>
+<s> I'm only pointing out this is a flawed entry with the information supplied. </s>
+<s> My hunch is that the NEW way of NT/2000/XP/2003 and that users have to be added to each machine can be daunting until you get it all entered on each machine. </s>
+<s> Bob </s>

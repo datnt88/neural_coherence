@@ -1,0 +1,37 @@
+<s> Just as the title says. </s>
+<s> This can be a thread for overclocking noobs to learn how to overclock. </s>
+<s> 1) buy good quality components &quot;good quality&quot; doesn't mean the most expensive... just don't use the cheapest you can find. </s>
+<s> you need quality RAM, mobo, power supply, and heat sink. </s>
+<s> 2) provide good cooling overclocking increases heat and heat kills components. </s>
+<s> make sure your cpu heat sink is seated properly with a good themal paste. </s>
+<s> make sure your case has good airflow and all of your fans are working properly. </s>
+<s> 3) learn from others! </s>
+<s> there are a ton of sites that review mobos and ram and heatsinks and power supplies and many have overclocking guides. </s>
+<s> you don't need to swim in uncharted waters! </s>
+<s> If you have an Nvidia card running Forceware drivers, you may be able to unlock an integrated OC called Coolbits. </s>
+<s> I have a 5700LE OC'ed to over 100MHz from stock core and mem on stock cooling. </s>
+<s> To unlock Coolbits: 1. </s>
+<s> Open the Start\Run dialog box, and type Regedit and hit OK 2.Browse to: HKEY_LOCAL_MACHINE\SOFTWARE\NVIDIACorporation\Global\NvTweak\ 3.Then right click and go to New and choose DWORD Value 4. </s>
+<s> Rename the DWORD value the comes up to CoolBits(without quotes) 5. </s>
+<s> Right click on it to Modify it 6. </s>
+<s> And then change the value to 3 and the base to Decimal Once you do this, go back to your nVidia control panel. </s>
+<s> You should see some new options. </s>
+<s> One of these options is Clock Frequency Settings. </s>
+<s> Select this, click Manual Overclocking and then hit Detect Optimal Frequencies. </s>
+<s> Ive found this to be fairly reliable. </s>
+<s> However use this at your own discretion. </s>
+<s> Keep on eye on temperatures in your case. </s>
+<s> For ATI cards, I suggest using the lastest Omega Drivers with ATI tool or ATI Tray Tools for OCing. </s>
+<s> Check Tweakguides.com for more info. </s>
+<s> Buy a graphics card that you know has locked pipelines. </s>
+<s> Then with riva tuner or some other program from guru3d.com you can unlock it and proceed to OC'ing </s>
+<s> How can I tell if a video card has locked pipelines? </s>
+<s> NIL </s>
+<s> Research your GPU. </s>
+<s> Search enthusiast sites and forums (anandtech.com, hothardware.com, guru3d.com, beyond3d.com, etc.) </s>
+<s> since they'll be the ones with the info. </s>
+<s> Locked pipes are sometimes present in 'baby-brothers' (next-to-the-top-of-the-line products) and product line 'refreshes' since they often use scaled back versions of the same GPUs. </s>
+<s> For example, the X1800GTO (product line refresh) has locked pipes but it's the same GPU as an X1800XT. </s>
+<s> Unlocking those pipes effetively turns a cheaper video card into its bigger brother. </s>
+<s> Pipes are unlocked with a 'soft-mod' that usually consists of flashing your card's bios with either a bios from another card or a hacked bios. </s>
+<s> A bad flash/bios can sometimes render a card useless, so watch the hardware sites and let others burn their fingers and figure out how to do it right before you jump into soft modding. </s>

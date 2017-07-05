@@ -1,0 +1,10 @@
+<s> Lets say I have to Remote Desktop to a computer that my friend owns via the internet. </s>
+<s> Now of course to connect to his whole network I would have to know the IP address that is given to him by his ISP, but then how do I tell his router which uses NAT with DHCP to hand out class C (192.168) addresses, to connect me to that particular computer. </s>
+<s> You must to set &quot;mapped port&quot; 3389 (it is default for remote desktop) on his router. </s>
+<s> See in router doc and search for &quot;mapping ports&quot;, if router supports this, you must to set in it's preferences that all incoming connections to port 3389 on public IP address will be forwarded to internal private IP and port 3389. </s>
+<s> Temwy </s>
+<s> NIL </s>
+<s> Drop the connection through a NAT and get a real IP. </s>
+<s> Bob </s>
+<s> Obviously this is possible, but I am speaking in terms of a dial in through a NAT </s>
+<s> NIL </s>

@@ -1,0 +1,51 @@
+<s> I'm running an Athlon64 3000+ on an ASUS A8N5X and have four sticks of Kingston Dual-Channel DDR400 RAM installed. </s>
+<s> I updated my bios recently and also finally turned off the splash screen that appears and obstructs the actual POST screen. </s>
+<s> There I noticed my DDR 400 is being detected as only DDR 333. </s>
+<s> My question is what could be causing this? </s>
+<s> I can manually set it to DDR 400 but I would rather it automatically detect it as such. </s>
+<s> Any help/insight into this issue would be appreciated. </s>
+<s> Here's my full specs: Motherboard: ASUS A8N5X BIOS: Phoenix - AwardBIOS 6.00PG BIOS Date: 03/20/06 AwardBIOS Message: ASUS A8N5X ACPI BIOS Revision 0902 CPU: Socket 939 Athlon64 3000+ (Venice) RAM Kingston PC3200 (4x256MiB) Video: eVGA GeForce 7600GT (256MiB GDDR3) OS: Windows XP Home Edition Hard Disks: Seagate 80GiB (SATA) WD Caviar 120GiB (IDE) WD Caviar 160GiB (SATA) Optical: BenQ 1620 DVD +/- RW DL Sound: Nvidia AC97 </s>
+<s> The board only runs at 333 so it's bios tests for up to that and reports just that. </s>
+<s> The BIOS only understands up to 333. </s>
+<s> The page I read on this board didn't note 400 support with this CPU so all is proper. </s>
+<s> Bob </s>
+<s> http://vip.asus.com/forum/view.aspx?id=20060909042351446&board_id=1&model=A8N5X&page=1&SLanguage=en-us </s>
+<s> I can set the speed to 400MHz within the BIOS itself. </s>
+<s> Had I known this board only supports 333 I would never have bought it, I wasted 200 dollars on RAM I cannot make any full use of. </s>
+<s> speed settings and voltage manually. </s>
+<s> Save settings and run Memtest86 for 6-8 hours. </s>
+<s> If no errors enjoy ! </s>
+<s> If errors..might have to increase RAM voltage or change the timings. </s>
+<s> The better solution...buy 2-1GB DIMMs for 2GB total vice 4-512MBs DIMMs for 2GB total. </s>
+<s> Let us know. </s>
+<s> VAPCMD </s>
+<s> I've seen this problem in older mtrbds. </s>
+<s> and it seems hasn't gone away. </s>
+<s> What has happpened is the mtrbd. </s>
+<s> makers have at least provided a &quot;auto cure&quot; in that it slows down the system in order just to work as best as possible. </s>
+<s> Asus is more of a &quot;stable&quot; system provider rather than a &quot;over-clocker&quot; user friendly one. </s>
+<s> When all slots are used, a timing issue arises and in older models would crash or freeze. </s>
+<s> The earlier advise was to not use all slots, leave the last slot open and/or reduce the ram timing to a more slower or safe level. </s>
+<s> Basically, you allowed defaults setting, no super tweeking. </s>
+<s> I'm sure what has happened in your case is in order to operate the system, DR333 levels become the default when DR400 is used for all slots. </s>
+<s> You can test this, remove the last ram module, verify the DR400(bios setting)are saved and reboot. </s>
+<s> If it reports back to DR400, great if not, then dismiss this advise. </s>
+<s> Another cure is to use large Gb ram modules in place of what you currently use, like 1gb or 512mb vs. 256mb. </s>
+<s> Again, the above applies at limited levels if all slots are used. </s>
+<s> This is one reason why some mtrbd. </s>
+<s> makers provide 3 slots instead of 4, which is odd compared to slot history if you think about it(yeah, I'm old tech). </s>
+<s> tada -----Willy </s>
+<s> I know about the problem and brought it to the attention of some folks a good ways back. </s>
+<s> They didn't believe it until the researched their manuals and saw the tiny asterisks and footnotes. </s>
+<s> I'm under the impression it affected earlier boards and or CPUs with early versions of the AMD memory controller. </s>
+<s> Here's hoping his problem is remedied by changing the RAM settings in the BIOS. </s>
+<s> Speaking of BIOS ...maybe the problem would be cured by a BIOS update or a slight RAM voltage increase. </s>
+<s> I went with the 2-1GB DIMMs vs 4-512MB DIMMs and it runs at 400MHz with tighter than average RAM settings. </s>
+<s> VAPCMD </s>
+<s> I found that VIA chipsets were prone to the problem, however Intel too seemed to be affected but not as much if left at deafult levels. </s>
+<s> I too read on mtrbd. </s>
+<s> support websites info on this problem, usually the last paragraph or so or asterisk as you mention, what to look for. </s>
+<s> Further, if any forum is provided, the high volume Q&A on any one topic. </s>
+<s> This sure isn't &quot;ferrite core&quot; memory anymore. </s>
+<s> One modern PC ram module is equal to or far surpassed any old system memory drawer/compartment. </s>
+<s> tada -----Willy </s>

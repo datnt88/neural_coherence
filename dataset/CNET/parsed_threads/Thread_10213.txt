@@ -1,0 +1,34 @@
+<s> My setup: SBC Yahoo DSL standard Speedstream DSL modem hooked up to SMC router (router has printer-sharing USB hub, wireless capability, two antennae) two desktops, one laptop: one desktop connected by ethernet cord to the router, other desktop using a Hawking USB wireless network card, the laptop with internal wireless card; all machines run Windows XP the laptop runs a custom edition of Zonealarm software firewall (University of Chicago edition) DHCP, auto-acquire IP addresses on ... </s>
+<s> I didn't touch any of the default plug and play settings My problem: I'm plug and play right now: I installed all the relevant drivers for the hardware that came on CD, but never set up a network with Windows XP. </s>
+<s> And it works -- with a catch: every so often, the two &quot;sharing&quot; computers -- both my laptop and the desktop with a USB wireless card -- would drop the connection. </s>
+<s> Essentially, the IP would expire on my home network, and my two sharing computers would get &quot;invalid IP address&quot; through DHCP. </s>
+<s> The &quot;host&quot; desktop would still have access though, through the ethernet wire. </s>
+<s> My temporary solution so far is to pull the power plug on my ROUTER (not the DSL modem) in order to force a reset of the IP address. </s>
+<s> Can any of you experts tell me a way around this? </s>
+<s> If it requires running a formal home network setup, etc. </s>
+<s> Or, is there some app that I can run from a sharing computer to reset the host comp's IP? </s>
+<s> Because that seems to be the key problem, the IP becoming invalid after a few hours of use. </s>
+<s> BTW, I've tried once to set up a home network through the XP control panel walkthrough, but none of my comps recognized that setup. </s>
+<s> What else ... the computers aren't invisible to each other on the network; I can access shared documents, if that gives any indication of the extent to which this is a network. </s>
+<s> Much appreciated for help! </s>
+<s> This network that I have problems with is unsecured. </s>
+<s> No WEP or WPA key, nothing. </s>
+<s> I'm sure anyone in the neighborhood could hop on my network; but I'm not that worried about security since not even my own computers can manage wireless access for more than a few hours without being kicked. </s>
+<s> What is the router model name? </s>
+<s> Just to get the network working properly: - update firmware on the router - update drivers for the wired and wireless adapters After you get the network working, definitely add your security: - change default password - change default SSID name - enable WEP or WPA - enable MAC filtering - use strong passwords </s>
+<s> the router model is: SMC Barricade-G 54 mbps Wireless Broadband router. </s>
+<s> My problem is that the network setup walkthru in Windows XP does not work for me. </s>
+<s> I managed to finish it once, but it seemed to have no connection, no link, with reality. </s>
+<s> (In control panel it is obviously possible to set up devices which don't exist, i.e. </s>
+<s> printers. </s>
+<s> I think this nonexistence thing is happening to me when I do network setup.) </s>
+<s> Whoever can help, please do. </s>
+<s> Thanks. </s>
+<s> Did you: - follow the instructions in the router Quick Installation Guide? </s>
+<s> - did you use the Installation Wizard on the CD that came with the router? </s>
+<s> The router has a default IP address of http://192.168.2.1 . </s>
+<s> What happens when you enter this address into web browser? </s>
+<s> (The default password is smcadmin) </s>
+<s> There is a firmware update for that router (version 2.8 3/30/2005). </s>
+<s> What version are you running? </s>
+<s> Firmware updates usually fix many problems/bugs. </s>

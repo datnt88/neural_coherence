@@ -1,0 +1,55 @@
+<s> My current PC is a Dell Inspiron 570 running Windows 7 64-bit. </s>
+<s> I have a Western Digital WD1200JB internal hard drive from my old PC that I have fitted into an Akasa Integral External Enclosure and connected to the Inspiron via a USB port. </s>
+<s> Windows says that it has recognised a USB mass storage device and that it is installing device driver software. </s>
+<s> After a few minutes trying it gives the error message that the device driver software was not successfully installed. </s>
+<s> Windows Device Manager gives the Device Status as This device cannot start (Code 10). </s>
+<s> I have tried various jumper settings on the HD without success. </s>
+<s> Windows trouble shooting says that I have the most up to date driver. </s>
+<s> I have looked on the Western Digital site and cannot find any drivers for the WD1200JB - I believe that it uses a Windows one. </s>
+<s> Have you any suggestions on what to try next? </s>
+<s> If it's an IDE-drive, it should be configured as Master in the IDE. </s>
+<s> And drivers shouldn't be necessary. </s>
+<s> Two little experiments: 1. </s>
+<s> Find a friend, colleague or family member who has another external disk (they are quite common, nowadays). </s>
+<s> Does that work on your PC? </s>
+<s> 2. </s>
+<s> Find another PC. </s>
+<s> Does your disk work on that PC. </s>
+<s> It should. </s>
+<s> Kees </s>
+<s> Have you tried: 1) Connecting the drive to another USB port/ another computer? </s>
+<s> 2) Connecting the drive to an E-SATA port on your computer? </s>
+<s> 3) Installing the software drivers (that accompanied the enclosure)? </s>
+<s> 4) Gone to Akasa'a website to see if there is an update for that particular enclosure? </s>
+<s> 5) Made sure the E-SATA/ USB switch is switched to USB? </s>
+<s> Many thanks for your replies. </s>
+<s> Unfortunately I still can't get it to work. </s>
+<s> It's an IDE drive and at the moment it's configured as Dual (Master). </s>
+<s> I've also tried it configured as Single (Neutral Position) and Cable Select. </s>
+<s> I've tried it in another USB port. </s>
+<s> I've spoken to Akasa and they confirm that there are no Akasa drivers - it uses the Windows one. </s>
+<s> This appears to be usbstor.sys. </s>
+<s> I've tried driver update but Windows says that I have the most up to date one. </s>
+<s> The Akasa site (and the Help Line) say that it should work with Win 7. </s>
+<s> The only point here is that the manual that came with the enclosure (dated 2006) only mentions up to Win XP. </s>
+<s> Did you delete the USB drivers. </s>
+<s> Delete and reboot system. </s>
+<s> Try another USB 2 cable. </s>
+<s> Using another PC, install(as normal int. </s>
+<s> HD)prep the old HD and reformat it, etc.. </s>
+<s> When done, test it using the WD diags provided by the vendor from their support website. </s>
+<s> If OK, now install in ext. </s>
+<s> case and use Master as possible setting on HD. </s>
+<s> This way you eliminate any HD fault here, thus only the ext. </s>
+<s> case is viewed as faulty if it doesn't want to work. </s>
+<s> The ext. </s>
+<s> case vendor MUST have given some clue to proper install of HD, if not or lacking, running through the possible cures is problematic at best or worst, their fault. </s>
+<s> If it still refuses to work and known good HD, then return it. </s>
+<s> Get another brand and YES, cheap is cheap and your results are why is is so. </s>
+<s> tada -----Willy </s>
+<s> I tried the suggestion of using another USB cable and ,lo & behold, after uninstalling and starting again the installation apparently worked. </s>
+<s> Device Manager said it was OK. As it did not show up in Explorer I went to Disk Management which showed that the HD was there but with an unallocated 2044 GB - not a good sign! </s>
+<s> When I tried to Initialize the HD I got the error message &quot;The request could not be performed because of an I/O device error.&quot; I have now decided that enough is enough in trying to recover what is an old, smallish drive. </s>
+<s> I may try some time in the future the suggestion of finding another PC to try it on, but the problem is now on the back burner. </s>
+<s> However, many thanks for all the comments. </s>
+<s> It's nice to find such a helpful forum. </s>

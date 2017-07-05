@@ -1,0 +1,50 @@
+<s> Hi , i recently upgraded my HP 6710f for games. </s>
+<s> I put in a SSD, EVGA 560ti, 650watt PSU. </s>
+<s> The setup ran great for a couple of days. </s>
+<s> The stock processor was an Athlon II x 4. </s>
+<s> I had a deal on a Phenom II x 6 1045T so i grabbed it since it s the quickest CPU i can put on my mobo. </s>
+<s> Here is the link to the Mobo specs: http://h10025.www1.hp.com/ewfrf/wc/document?docname=c02560084&cc=ca&dlc=en&lc=en&product=5049513&tmp_track_link=ot_search When i installed the new CPU, on the first boot it freezed on the windows pasword screen. </s>
+<s> On second boot, i went as far as the loading of starcraft 2. </s>
+<s> After searching on forums, i went in the power management options in the control panel and put my CPU usage always at 100% even on 0%load. </s>
+<s> Since then it only freeze once every hour. </s>
+<s> (on a 3 week testing) When it freeze , only the mouse moves but the video is still. </s>
+<s> If i m in a game, the music will be stuck in an infinite loop of half a second but the mouse always work. </s>
+<s> Everytime it freeze, if a wait for about 40 seconds, it always unfreeze like nothing happenned, no error messages. </s>
+<s> I mean it NEVER really stopped working , and always the same amount of time of stopage. </s>
+<s> It does it at random times, eavy load in a game don t matter. </s>
+<s> -i updated my bios and drivers -My cpu meet the 95watt max of mobo specs -Temperature of CPU and GPU normal. </s>
+<s> -Enough power (650watt psu) Don t know what to do . </s>
+<s> AMD Support is long to answer.... </s>
+<s> Thanks in advance. </s>
+<s> If you have a discrete graphics card, did you disable the onboard one via the BIOS? </s>
+<s> Have you looked at the system event log? </s>
+<s> To do that click Start -&gt; Control Panel -&gt; Administrative Tools -&gt; Event Viewer. </s>
+<s> Once in Event Viewer click on the system log and scroll through the entries looking for those flagged &quot;error&quot; to see if you can find hints as to where the problem could be. </s>
+<s> Good luck. </s>
+<s> OEM based PCs just don't do well when they're pushed even with the right parts. </s>
+<s> Which is why many aren't user friendly and generally lack user inputted config changes. </s>
+<s> A more user friendly mtrbd. </s>
+<s> would provide a wider latitude to make subtle changes or tweaks. </s>
+<s> Since, everything seems to appear right, then I suspect some minor area is being overlooked or can't be changed to accommodate the new cpu. </s>
+<s> Plus, any new changes any gaming may need or reset to acknowledge the new cpu. </s>
+<s> Some games don't or they too need to be updated or &quot;patched&quot; so they can sync to the specs provided. </s>
+<s> You may have a catch-22 situation that you need to do this or that but really it may not allow it or not a great a change as required. </s>
+<s> The SSD may come into play if it used to cache anything, as it needs to r/w or flush it out on a constant basis. </s>
+<s> You should check if any tweaks on it are possible or further suitable s/w the maker provides. </s>
+<s> If you brought a bargain SSD, they don't handle constant I/Os demands as well. </s>
+<s> Google for the TRIM command set. </s>
+<s> Sorry, I can't provide a more direct answer. </s>
+<s> What the other poster suggested makes sense, review the &quot;event log&quot;. </s>
+<s> You may want to recheck you PC &quot;windoze experience index&quot; rating, run it and find the weak link. </s>
+<s> The low scorer is a good area to check or improve upon. </s>
+<s> tada -----Willy </s>
+<s> Thanks for your answers, i looked the event log, in Error and there is two types of error where the date and time matches the freezes. </s>
+<s> Here there are: 1: Log Name: Application Source: Microsoft-Windows-WMI Date: 2013-01-19 13:21:43 Event ID: 10 Task Category: None Level: Error Keywords: Classic User: N/A Computer: Yves-PC Description: Event filter with query &quot;SELECT * FROM __InstanceModificationEvent WITHIN 60 WHERE TargetInstance ISA &quot;Win32_Processor&quot; AND TargetInstance.LoadPercentage &gt; 99&quot; could not be reactivated in namespace &quot;//./root/CIMV2&quot; because of error 0x80041003. </s>
+<s> Events cannot be delivered through this filter until the problem is corrected. </s>
+<s> Event Xml: &lt;Event xmlns=&quot; http://schemas.microsoft.com/win/2004/08/events/event&quot; &gt; &lt;System&gt; &lt;Provider Name=&quot;Microsoft-Windows-WMI&quot; Guid=&quot;{1edeee53-0afe-4609-b846-d8c0b2075b1f}&quot; EventSourceName=&quot;WinMgmt&quot; /&gt; &lt;EventID Qualifiers=&quot;49152&quot;&gt;10&lt;/EventID&gt; &lt;Version&gt;0&lt;/Version&gt; &lt;Level&gt;2&lt;/Level&gt; &lt;Task&gt;0&lt;/Task&gt; &lt;Opcode&gt;0&lt;/Opcode&gt; &lt;Keywords&gt;0x80000000000000&lt;/Keywords&gt; &lt;TimeCreated SystemTime=&quot;2013-01-19T18:21:43.000000000Z&quot; /&gt; &lt;EventRecordID&gt;1187&lt;/EventRecordID&gt; &lt;Correlation /&gt; &lt;Execution ProcessID=&quot;0&quot; ThreadID=&quot;0&quot; /&gt; &lt;Channel&gt;Application&lt;/Channel&gt; &lt;Computer&gt;Yves-PC&lt;/Computer&gt; &lt;Security /&gt; &lt;/System&gt; &lt;EventData&gt; &lt;Data&gt;//./root/CIMV2&lt;/Data&gt; &lt;Data&gt;SELECT * FROM __InstanceModificationEvent WITHIN 60 WHERE TargetInstance ISA &quot;Win32_Processor&quot; AND TargetInstance.LoadPercentage &gt; 99&lt;/Data&gt; &lt;Data&gt;0x80041003&lt;/Data&gt; &lt;/EventData&gt; &lt;/Event&gt; Second one: Log Name: System Source: Service Control Manager Date: 2013-01-19 13:19:54 Event ID: 7006 Task Category: None Level: Error Keywords: Classic User: N/A Computer: Yves-PC Description: The ScRegSetValueExW call failed for FailureActions with the following error: Access is denied. </s>
+<s> Event Xml: &lt;Event xmlns=&quot; http://schemas.microsoft.com/win/2004/08/events/event&quot; &gt; &lt;System&gt; &lt;Provider Name=&quot;Service Control Manager&quot; Guid=&quot;{555908d1-a6d7-4695-8e1e-26931d2012f4}&quot; EventSourceName=&quot;Service Control Manager&quot; /&gt; &lt;EventID Qualifiers=&quot;49152&quot;&gt;7006&lt;/EventID&gt; &lt;Version&gt;0&lt;/Version&gt; &lt;Level&gt;2&lt;/Level&gt; &lt;Task&gt;0&lt;/Task&gt; &lt;Opcode&gt;0&lt;/Opcode&gt; &lt;Keywords&gt;0x8080000000000000&lt;/Keywords&gt; &lt;TimeCreated SystemTime=&quot;2013-01-19T18:19:54.181215400Z&quot; /&gt; &lt;EventRecordID&gt;6760&lt;/EventRecordID&gt; &lt;Correlation /&gt; &lt;Execution ProcessID=&quot;916&quot; ThreadID=&quot;2244&quot; /&gt; &lt;Channel&gt;System&lt;/Channel&gt; &lt;Computer&gt;Yves-PC&lt;/Computer&gt; &lt;Security /&gt; &lt;/System&gt; &lt;EventData&gt; &lt;Data Name=&quot;param1&quot;&gt;ScRegSetValueExW&lt;/Data&gt; &lt;Data Name=&quot;param2&quot;&gt;FailureActions&lt;/Data&gt; &lt;Data Name=&quot;param3&quot;&gt;%%5&lt;/Data&gt; &lt;/EventData&gt; &lt;/Event&gt; Maybe i should just buy a new motherboard .........at this point maybe just buy a beter cpu and mobo i m tired of spending small money and still have problems. </s>
+<s> By the way my SSD is an Intel 330 120 gb . </s>
+<s> All the parts i bought would fit as part of a beter gaming rig so i will probably get an i 5 cpu and new mobo. </s>
+<s> Just lost an 100$ phenom cpu..... </s>
+<s> It does some but for this round you'll want a fresh install to see if it's some Windows OS issue. </s>
+<s> Bob </s>

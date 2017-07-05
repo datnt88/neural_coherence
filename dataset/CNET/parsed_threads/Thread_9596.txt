@@ -1,0 +1,23 @@
+<s> I get the following message: &quot;Award Bootblock BIOS V1.0 Copyright (c) 2000, Award Software, Inc BIOS ROM checksum error Detecting floppy drive A media... Drive A error. </s>
+<s> System halt&quot; ECS PA1MVP motherboard </s>
+<s> First thing, install new CMOS battery, just do it. </s>
+<s> Then if you truly have a floppy but hardly use it, disable it in the bios area. </s>
+<s> Otherwise, its a true fault, nothing can be done. </s>
+<s> If possibble try another floppy drive. </s>
+<s> Again, if that doesn't fix it, the FD port is kaput. </s>
+<s> If you need a FD port, install a FD card for that option. </s>
+<s> Rseat or replace FD cables to test that. </s>
+<s> tada -----Willy </s>
+<s> BIOS cannot be accessed </s>
+<s> Then remove the CMOS battery for 10min. </s>
+<s> and then replace it and go from there. </s>
+<s> Again, while you're doing that, install new battery. </s>
+<s> if the problem persists, use the &quot;clearing CMOS pins&quot; to go to basics. </s>
+<s> If you boot-up then even with an error, do so. </s>
+<s> Then reboot, enter the bios and correct for proper setting. </s>
+<s> Checksum is a sign something has changed and doesn't match what was saved in the last correct bios post. </s>
+<s> If you're using a USB kybd. </s>
+<s> take it out, repeat the above steps with a plain PS/2 kybd.. </s>
+<s> If that corrects it, then return USB kybd. </s>
+<s> usage as last step. </s>
+<s> tada -----Willy </s>

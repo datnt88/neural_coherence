@@ -1,0 +1,30 @@
+<s> Hey, I was hoping someone could help me out on this. </s>
+<s> I have a PC that has a gigabyte motherboard, with on board SATA raid. </s>
+<s> It also has IDE slots to plug in CD drives and any IDE hard drives. </s>
+<s> I have 2 SATA hard drives plugged in but I hadn't set them up as raid. </s>
+<s> My OS is windows XP. </s>
+<s> Anyway, recently, I tried plugging in an IDE hard drive into one of the IDE Slots, (to transfer some files from my friends hard drive to my computer)... and when i started the comp after plugging in the the drive, it gave me a CMOS-Checksum error. </s>
+<s> So I removed the IDE drive, and switched it on again. </s>
+<s> It then said CMOS-Defaults loaded. </s>
+<s> Then it tried to detect IDE drives, found none. </s>
+<s> (this never used to happen before) Then it went on to detect 2 Sata drives. </s>
+<s> (this is normal... used to happen before) Then it gave me an option to start windows normally, or in safe mode, last known good config, blah blah... </s>
+<s> The problem is, whatever option i choose, my comp just restarts... </s>
+<s> I dun even get the Windows XP splash screen. </s>
+<s> Then the whole process is repeated again, till I reach the screen with the windows start up options and again whatever i choose, the computer restarts. </s>
+<s> If i try choosing safe mode, it does its usually stuff in loading some files, it reaches up to some point, and the screen goes blank and it restarts. </s>
+<s> There was nothing wrong with this computer before. </s>
+<s> I mean it was in tip top shape. </s>
+<s> Viruses in check, no addware, spyware. </s>
+<s> Nothing of the sort. </s>
+<s> Just plugging in my friends IDE hard drive, caused all this mess. </s>
+<s> I'm sure nothing serious happened. </s>
+<s> Probably some sort of setting somewhere messsed up. </s>
+<s> I just dunno what, and how to change it. </s>
+<s> Can anyone help me out with this? </s>
+<s> thanks. </s>
+<s> Go into the system BIOS and tell the computer where to look for the primary boot partition/primary startup drive. </s>
+<s> Hopefully when you used that EIDE drive it didn't overwrite your &quot;regular&quot; Master Boot Record. </s>
+<s> Usually by default the first IDE HD becomes the boot drive (at least on all SATA PC's I have worked on.) </s>
+<s> Regarding CMOS checksum error..if it isn't fixed by removing that IDE drive, try resetting the CMOS/BIOS to defaults by either using the special jumpers...or removing the battery. </s>
+<s> Consult your specific MOBO tech references. </s>

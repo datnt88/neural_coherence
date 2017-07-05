@@ -1,0 +1,47 @@
+<s> I just purchased an HP a1410a multimedia computer. </s>
+<s> I am trying to connect my hard drive from my old emachines computer but the new computer does not have a wide ribbon IDE cable connected to the hard drive, so I have no idea now what to do. </s>
+<s> I have installed second hard drives before on older computers but they have always had the wide ribbon IDE. </s>
+<s> The only IDE wide ribbon goes to the dvd/cd. </s>
+<s> The new computer has a narrow red data connection (at least that is what it looks like) and the power cable. </s>
+<s> Is there any way to connect my old drive at least temporarily to move my data? </s>
+<s> any advise? </s>
+<s> Thanks for your help. </s>
+<s> JP </s>
+<s> Connect the old HD to the same IDE cable as the CD/DVD cable. </s>
+<s> Make sure you get the jumper correct on the old HD. </s>
+<s> When you start the computer, you may have to enter the BIOS settings to tell the computer which HD is the boot drive. </s>
+<s> BTW, the thin red HD cable is an SATA cable. </s>
+<s> Hi, Thank you for your response. </s>
+<s> I already tried to connect it to the ide cable for the dvd/cd but it did not boot up. </s>
+<s> I do have the hard drive set to slave already. </s>
+<s> Maybe I will try it again. </s>
+<s> I am not sure I can set up the bios but I will try. </s>
+<s> Any recommendations? </s>
+<s> Did you mean to write that you have an HP Paviliona a1410n and not an ''a1410a'' ? </s>
+<s> Your SATA HD should still be the boot drive, meaning that the Windows is installed on that drive. </s>
+<s> When you install a second drive, the BIOS will look on the designated boot drive for Windows. </s>
+<s> Sometimes, when you install a second HD, the BIOS automatically will consider the second HD the primary boot drive and look for Windows there. </s>
+<s> If it doesn't have Windows installed on it, then your computer will not boot Windows. </s>
+<s> Entering the BIOS is pretty easy. </s>
+<s> You must do this to confirm that your BIOS settings have the correct drive designated as the boot drive (primary boot volume). </s>
+<s> SATA drives have nothing to do with the master/slave designation of IDE drives. </s>
+<s> If your secondary HD (the IDE drive) is connected to the end of a cable that has 2 connectors on it, then it should be a master (or CS). </s>
+<s> If the IDE cable has only a single connector (you have to remove the CD drive to attach the secondary HD), then attach the secondary drive as a master (or CS). </s>
+<s> Let me know if this is correct. </s>
+<s> My ide cable has two connectors. </s>
+<s> Right now the dvd/cd is the ''master''. </s>
+<s> I should change the HD to be the master on the HD jumpers. </s>
+<s> Then I should remove the master ide connection from the dvd and connect that to the HD and reconnect the dvd/cd to the slave connection. </s>
+<s> Is that corect? </s>
+<s> What about the bios setting? </s>
+<s> Thanks </s>
+<s> the HD has a DS master and a CS enabled setting. </s>
+<s> Which one should I use? </s>
+<s> Thanks </s>
+<s> If you just want to transfer files from the old HD, then remove the CD drive, jumper the HD as CS, attach to end of IDE cable, start computer, enter BIOS, set SATA drive as primary boot drive and transfer away! </s>
+<s> If that doesn't work, try the same config, except with the HD jumpered as MA. </s>
+<s> * * * * * If you want to keep to have the old HD installed as a second HD and still keep the CD drive installed, then you will need to spend a little more time playing with different cable placements and jumperings. </s>
+<s> With the CD drive attached to the end of the cable, you could try these HD jumperings and positions: SL, middle CS, middle With the CD drive attached to the middle of the cable (many CD drives like CS jumpering), you can try these HD settings: MA, end CS, end </s>
+<s> thank you for your help. </s>
+<s> I have tried every which way and can get the computer to boot up, but still can not access or see the secondary drive in my computer. </s>
+<s> My computer model listed is correct HP a1410n (which I think is just more/or less memory than the a1410a you mentioned)mine has 1GB. </s>

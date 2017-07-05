@@ -1,0 +1,18 @@
+<s> I have a problem with my mouse not operating. </s>
+<s> When I boot up my system I get the following error message and no control over my mouse. </s>
+<s> V x D dynamic link call: SCMOUSE (01) + 00001F32 to '000C' Service 7. </s>
+<s> It is a windows 2000 system. </s>
+<s> How do I deal with the error. </s>
+<s> I do not have the original discs as they were lost. </s>
+<s> Help SupremeGandalf </s>
+<s> VxD is a virtual device driver. </s>
+<s> Have you installed anything lately that may have caused a resource conflict? </s>
+<s> If so, look in device manager. </s>
+<s> Start in Safe Mode or navigate with the keyboard. </s>
+<s> To turn on mouse keys to navigate with the keyboard press Lft Alt+Lft Shift+NumLock. </s>
+<s> Enter sysedit in the run dialog box. </s>
+<s> Look at the Config.Sys file for Driver=. </s>
+<s> If the file is blank, look at the System.Ini file for driver=. </s>
+<s> Place a semicolon in front of Device= lines. </s>
+<s> If this doesn't solve the problem your options are limited by the lack of the original disks. </s>
+<s> You might try buying a USB mouse. </s>

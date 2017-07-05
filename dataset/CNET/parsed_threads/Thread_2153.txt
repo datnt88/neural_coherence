@@ -1,0 +1,52 @@
+<s> I have a linux/ubuntu box I built in 2008 that doesn't want to boot up now. </s>
+<s> I took the HD out of it and put it in another box that I built a couple months ago. </s>
+<s> It'll boot up in that box, so I'm assuming it's going to be something wrong with the MOBO, or the CPU, maybe both. </s>
+<s> Is there a way to isolate it to find out what it is? </s>
+<s> Here's everything I have in it excluding the optical drives. </s>
+<s> XFX MOBO, Intel Pentium D processor and a Seagate 500 GB HD. </s>
+<s> The tech looks it over for obvious burn or scorch marks, BAD CAPS (see google) and sees if it powers up. </s>
+<s> The better tech gets out the Volt meter to check the power supplies. </s>
+<s> At that point they have found it or begin to swap out the part they suspect. </s>
+<s> Bob </s>
+<s> I'm not a computer tech, I'm an HVAC technician. </s>
+<s> I just built these myself for my own personal use. </s>
+<s> Thanks for the advice, I'll check it out. </s>
+<s> There are buckets of discussions about broken PCs and here's the bottom line. </s>
+<s> There is no exact process to fix a dead PC. </s>
+<s> Sure we could take the old swap it piece by piece approach but let's upgrade that a little. </s>
+<s> 1. </s>
+<s> Some parts are not needed to boot. </s>
+<s> A keyboard, CD/DVD drive, and then one stick of ram. </s>
+<s> 2. </s>
+<s> When swapping parts and no one knows which is bad, I have advice for our techs. </s>
+<s> Ready? </s>
+<s> It's a wowser. </s>
+<s> -&gt; Change the cheapest part first. </s>
+<s> Bob </s>
+<s> The following describes how you can install Ubuntu onto a client machine, using just its network card to boot an Ubuntu installation image which will install Ubuntu. </s>
+<s> The way this works, in summary is: you set up and configure bootp, tftp, dhcp, and internet gateway services. </s>
+<s> Your client machine will 'netboot' via its network adapter, using pxe/bootp protocol, get passed a kernel and installer via tftp. </s>
+<s> It will boot into that kernel, which will run an installation of Ubuntu onto your client machine. </s>
+<s> Most of the packages installed come from latest versions from the Ubuntu repositories on the internet. </s>
+<s> Set up the servers Ensure that you have a bootp server, a tftp (eg tftp-hpa) server, and access to your router/gateway. </s>
+<s> Configure the router and its dhcp server. </s>
+<s> Get the mac address of the new machine you will be installing ubuntu onto (the 'client machine' ). </s>
+<s> It is easiest if you decide on a fixed ip address for the client machine and set it into the router, as a fixed ip address, eg 192.168.1.42. </s>
+<s> Note also the gateway address of the router. </s>
+<s> Configure a bootp service on a linux host. </s>
+<s> The same ip address as above needs to be assigned by the bootp service to the client machine. </s>
+<s> Install bootp. </s>
+<s> Edit /etc/bootptab. </s>
+<s> Here is an example. </s>
+<s> client:\ ha=&quot;00:00:39:2B:54:B5&quot;:\ ip=192.168.1.42:\ gw=192.168.1.1:\ sm=255.255.255.0:\ td=/: hd=/: bf=pxelinux.0 ha = the mac address of the client machine (set this to its value) ip = the ip address assigned in the router to the client machine gw = the address of the router sm = the subnet mask for your lan td = the directory on the tfptboot server where the pxe files reside, relative to the tftpboot server's root. </s>
+<s> hd = a further path which ends at either the pxe boot file or a link to it. </s>
+<s> (this is probably ok as is) bf = the pxe boot file (this is probably ok as is) For further help: man bootpd; man bootptab and also found in the etc/bootptab file itself as comments. </s>
+<s> If you don't know the hardware address, or which ip address the dhcp server of the router will assign, start the client machine. </s>
+<s> Make sure its bios is set to boot first from its network adapter. </s>
+<s> You should then be able to get the hardware mac address as it attempts to boot via the network adapter. </s>
+<s> Update /etc/bootptab on the bootp server with the client's mac address and the ip address for it as set in the dhcp server (eg in the router), then restart bootpd. </s>
+<s> Start bootp: Here is a wrapper to start and stop bootpd from the command line. </s>
+<s> vDaemon=bootpd vCd=/var/lib/tftpboot Start () { echo -n &quot;Starting $vDaemon: default current directory is at $vCd ... :&quot; /usr/sbin/$vDaemon -d 4 -c $vCd &gt;/tmp/$vDaemon.log 2&gt;/tmp/$vDaemon.err & sleep 1 Status } Stop () { echo &quot;Stopping $vDaemon ...&quot; kill `pidof $vDaemon` } Reload () { if [ &quot;`pidof $vDaemon`&quot; ] ; then echo &quot;Reloading config file for $vDaemon ...&quot; kill -HUP &quot;`pidof $vDaemon`&quot; fi Status } Status () { vPid=&quot;`pidof $vDaemon`&quot; if [ &quot;$vPid&quot; ] ; then echo &quot;$vDaemon running, pid=$vPid&quot; else echo &quot;$vDaemon not running&quot; fi } case &quot;$1&quot; in start) Start ;; stop) Stop ;; reload) Reload ;; restart) Stop ; sleep 2; Start ;; status) Status ;; &quot;&quot;|*) echo `basename $0` parameter: start stop status reload or restart ;; esac Preparing Files for TFTP Net Booting, Section &quot;Setting up BOOTP server&quot; has more info on bootp, including instructions for starting bootp using the inetd alternative. </s>
+<s> Configure the tftp server: Install tftpd-hpa. </s>
+<s> Its config in /etc/default/tftpd-hpa should be RUN_DAEMON=&quot;yes&quot; OPTIONS=&quot;-l -s /var/lib/tftpboot&quot; The -s parameter is your tftp server file root. </s>
+<s> Download the netboot installer tarfile from the Ubuntu Archives (karmic, jaunty), and extract its contents into the tftpboot server file root as per above. </s>

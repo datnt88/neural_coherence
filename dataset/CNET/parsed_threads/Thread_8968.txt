@@ -1,0 +1,109 @@
+<s> I have a powermac G4 dual proc, using a cable modem. </s>
+<s> It has an open port for airport connection. </s>
+<s> I Just acquired, out of necessity, a Toshiba laptop which already has a Netgear wireless card installed. </s>
+<s> I bought a Netgear Rangemax Router, only to find out after contacting Netgear support, that the install disk included does not work with Mac (although the router does work with Mac). </s>
+<s> Looked up on line and printed manual and proceeded to hook up router as instructed. </s>
+<s> It locks up my Mac upon start up. </s>
+<s> So I have discovered that there is no wireless card installed here. </s>
+<s> Looking at the Netgear card specs, I see none that are compatible with Mac OS. </s>
+<s> I have OS10 but have not been able to get it installed - it freezes when it gets to the end and says installation was unsuccessful. </s>
+<s> So I am still running OS 9.3 since I have not had a day to sit and figure it all out. </s>
+<s> My question is, what wireless card do I need to get to install in my Mac to make this all work? </s>
+<s> Any an all advice is greatly appreciated. </s>
+<s> First, what is it that has the open port for airport connection? </s>
+<s> The modem, almost certainly not, or the G4, probably not. </s>
+<s> Unless you mean the Airport card holder inside the G4. </s>
+<s> This only takes the older version of the Apple Airport card which is no longer sold by Apple. </s>
+<s> The Airport Extreme card does NOT fit in there. </s>
+<s> Currently, the G4 is connected directly to the modem via an ethernet cable? </s>
+<s> Is that correct? </s>
+<s> The only thing you need to do with the Mac is to connect the cable that is currently running to the modem, into any of the LAN ports on the router. </s>
+<s> The Wide Area Network (WAN) port on the router is connected, via the supplied ethernet cable, to the modem. </s>
+<s> The Mac is almost certainly set for DHCP, but check anyway so you should be set to go. </s>
+<s> Shut down the Modem(remove power supply), Router and Mac. </s>
+<s> Start the Modem and wait for all the lights to become normal. </s>
+<s> Start the router, wait for the lights to remain constant then boot the Mac. </s>
+<s> You should now be able to access the internet. </s>
+<s> To set up the Router, you will need to launch IE and type: http://192.168.1.1 into the address bar. </s>
+<s> This will take you to the Router home page from where you will be able to configure it for everything, including wireless. </s>
+<s> Fire up the laptop, with the wireless card installed and see what happens. </s>
+<s> You do NOT have to install a wireless card into the G4 just to use the router. </s>
+<s> What version of OS X do you have?? </s>
+<s> Hopefully NOT the one that came with the G4! </s>
+<s> Your machine is quite capable of running 10.4 P </s>
+<s> I did all you said and was able to get the wifi going between the G4 dual and the Toshiba laptop. </s>
+<s> Throughout this whole ordeal, I ended up doing a clean install of Tiger which is working great. </s>
+<s> The wifi connection exists but the internet will not connect. </s>
+<s> Spent quite a bit of time on phone and running tests with comcast. </s>
+<s> Everything turned up fine. </s>
+<s> He suggested I try a different router. </s>
+<s> What would you recommend as the best Mac compatible router? </s>
+<s> Preferably 802.11G or b/g </s>
+<s> Is the Netgear firmware updated? </s>
+<s> Most peculiar. </s>
+<s> Assuming that the answer to Bob's question is Yes, or, it will be shortly, let's move on. </s>
+<s> Could you describe exactly what this layout looks like. </s>
+<s> Start from the Cable going into the Modem and proceed from there. </s>
+<s> There is something missing from this picture that I cannot put my finger on yet. </s>
+<s> The two machines talk to each other, or at least to the router, so the problem has to be from there onward. </s>
+<s> A reinstallation of Tiger probably did nothing apart from giving Tech Support something to blame for the problem P </s>
+<s> I forgot to mention that I also bought new cables. </s>
+<s> Here is the set up. </s>
+<s> TheToshiba modem is plugged into a surge suppressor. </s>
+<s> The cable (I'm on Comcast) goes from the wall to the modem. </s>
+<s> The modem is connected to the Netgear Rangemax Router. </s>
+<s> The router is plugged into a separate wall outlet. </s>
+<s> The router is connected in port 1 (of 4) to the G4, Also tried changing the computer connection to the different open ports. </s>
+<s> When I was on the phone to Comcast, he ran all sorts of tests and we checked and confirmed the connection settings. </s>
+<s> His only suggestion after almost an hour was to go get a more compatible router. </s>
+<s> I connected and reconnected everything in the order in which he directed (several times) but could never get the internet to work. </s>
+<s> Since Netgear is not very supportive of Macs, I am in agreement at this point that I need something more Mac friendly. </s>
+<s> Further suggestions? </s>
+<s> Yes - I did that too </s>
+<s> I've used a number of routers with boxes that run Linux, embedded OSes and more non-Windows than I will admit. </s>
+<s> No router has ever required me to run their disk. </s>
+<s> I however am happy to point a browser at the router and configure it as need be. </s>
+<s> TCPIP is pretty much an universal protocol whether it be mac or other. </s>
+<s> Something is missing in this soup and I fear another router will have the same issues. </s>
+<s> -&gt; What IP did the Mac get from the router? </s>
+<s> Bob </s>
+<s> will have to get back to you on this one. </s>
+<s> I am not at home right now. </s>
+<s> Thanks </s>
+<s> With the System Preferences/Network set to Built-in Ethernet and DHCP, this is just a plug it in and it works setup. </s>
+<s> Wonder what we are missing P </s>
+<s> Using DHCP: when I hooked up the router, and configured automatically, the new IP address was 192.168.1.2 Subnet mask 255.255.255.0 Router address 192.168.1.1 I did take the router off until I can figure this out (or return it for something else) The IP address is now reading 68.53.120.118 Subnet is the same and the router address is 68.53.120.1 Will probably try to work with it again tomorrow on my day off. </s>
+<s> Is these something I need to set differently? </s>
+<s> 192.168.1.2 was presumably one of the connected machines. </s>
+<s> The other address 68.53.120.118 is based out of Rutherford Tn. </s>
+<s> This sounds like the IP address that the router is getting from the Modem. </s>
+<s> This is good. </s>
+<s> The machines connected to the router will almost certainly be 192.168.1.x because that is what the router is giving them. </s>
+<s> So, switch OFF the modem (unplug the power cord), unplug the power to the router. </s>
+<s> shut down the computers. </s>
+<s> Connect modem to WAN port of the Router, computers to the LAN ports of the router. </s>
+<s> Power up the Router. </s>
+<s> When all lights have settled down, power up the modem. </s>
+<s> When all the required lights are on, power up one computer and then the other. </s>
+<s> The IP address of the computers should be 192.168.x.x and the Router IP address should be 68.53.120.x (of similar) You will find the router IP address by going to Status or WAN. </s>
+<s> Dig for it but don't change anything. </s>
+<s> Try the internet on both computers. </s>
+<s> IF the IP addresses are different or start 169.x.x.x, try a reboot of that computer. </s>
+<s> Let us know P </s>
+<s> Again, I am now at work. </s>
+<s> Will try this tonight or tomorrow evening depending on my schedule. </s>
+<s> Am also checking into updating my modem. </s>
+<s> It was the first cable modem available in our area. </s>
+<s> Although Comcast found no issues with it, could it be possible that it cannot keep up with the speed of the router? </s>
+<s> the modem is communicating with the router at 10 Mb and can obviously keep up with the pace. </s>
+<s> You have proved this by connecting the modem directly to the computers and accessing the internet. </s>
+<s> We await the next stage in this saga with bated breath P </s>
+<s> Can you confirm that you are running OS X (Tiger) on this G4 and not OS 9 that you started off with? </s>
+<s> P </s>
+<s> NIL </s>
+<s> NIL </s>
+<s> NIL </s>
+<s> After trying everything you and Comcast and Netgear suggested and it STILL not working, I returned that router and got a Linksys instead. </s>
+<s> Can hook to internet fine on my Mac, but have not gotten a successful connection from my laptop yet. </s>
+<s> Have not had a chance to sit down and figure it out yet. </s>
+<s> Thanks for asking and thanks for your help. </s>

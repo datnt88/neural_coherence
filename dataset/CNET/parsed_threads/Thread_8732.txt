@@ -1,0 +1,50 @@
+<s> I just ordered a &quot;Western Digital My Book Home Edition External Hard Drive 500 GB, USB 2.0, FireWire 400, eSATA&quot; http://www.wdc.com/en/products/products.asp?driveid=355&language=en I want to go eSATA since I have a motherboard that supports sata - Intel Desktop Board D915GAG http://download.intel.com/support/motherboards/desktop/d915gag/sb/c6860002.pdf I currently have installed an internal 200gb sata hd. </s>
+<s> I was hoping I could just install a sata-esata adapter cable and plug in the new hd and that would be that. </s>
+<s> Something tells me it's not going to be so simple, and I have a feeling I'm going to need a pci card. </s>
+<s> So can I just install the sata-esata adapter cable or do I need a pci card ( any references/links to where I can purchase a good cable or card would be helpful ). </s>
+<s> NIL </s>
+<s> It depend on how you want things done. </s>
+<s> What data cable comes with the external drive? </s>
+<s> Internal or external? </s>
+<s> http://www.newegg.com/Product/Product.aspx?Item=N82E16812119021 VAPCMD </s>
+<s> USB cable, FireWire cable. </s>
+<s> Of course, I want to get the best performance so I guess I'll buy/put it the sata-esata bracket. </s>
+<s> Again my question is: is the bracket all I need to get the best performance or do I need a card? </s>
+<s> I deal with lost data on drives from the public and have to come down with &quot;never&quot; for firewire and a Windows PC. </s>
+<s> You are more than welcome to try it but my experiences is either it works fine then someday it just loses it all. </s>
+<s> Stick with the sata or USB plus a damage resistant file system (FAT32 is out!) </s>
+<s> Bob </s>
+<s> Thanks for replying. </s>
+<s> Maybe you can clear things up for me. </s>
+<s> I notice they sell PCIxpress cards that will give you xtrnal esata port/s. </s>
+<s> Is this for those whose motherboard/hdcontrollers don't have an xtra connector for the bracket. </s>
+<s> Or is the PCIxpress card for better hd performancs? </s>
+<s> Thanks for the tip about FAT32, the drive comes with it preformatted. </s>
+<s> I guess the first thing I'll do is reformat it into one big NTFS partition (it's a 500gb drive ) with the XP disk management utility. </s>
+<s> I'm not sure about what will be the best partition size/s. </s>
+<s> I'll be using this new xtrnl drive to keep a complete backup of my 200gb internal drive, as well as for the xtra storage. </s>
+<s> Any suggestions would be appreciated, thanks! </s>
+<s> You would really only need a PCI SATA or perhaps a PCIe SATA controller if there were't any free SATA ports on the MB or the MB SATA interface wasn't fast enough for the external HDD. </s>
+<s> Not sure you'd see a big difference either way. </s>
+<s> Some of the newer, higher-end MBs have external SATA ports. </s>
+<s> For those that don't...something like what I recommended is a great alternative. </s>
+<s> Let us know...it worked well for me. </s>
+<s> VAPCMD </s>
+<s> Well I finally got an esata bracket ( kinda hard to find ), installed the cables to the motherboard and connected the rest of the esata cables, and the bios ( and consequently XP ) doesn't see the new drive. </s>
+<s> This is the Intel bios (ver AG91510J.15A.0816.2005.0214.1818 02/14/2005). </s>
+<s> Is the bios suppose to detect the new hd automatically? </s>
+<s> Cannot figure out how to manually enter values for new hd. </s>
+<s> Drive works fine in firewire mode ( remember its a Western Digital My Book Home Edition External Hard Drive ). </s>
+<s> So power on the drive before booting the computer. </s>
+<s> Tried that, still doesn't see it. </s>
+<s> Do you think upgradeing the bios might help? </s>
+<s> ( I'm not sure if they have an upgrade ). </s>
+<s> try another another connection if you have more than 2. or maybe switch with the internal drive connection just to if it get recognize. </s>
+<s> bios doesn't see it no matter what sata mobo connector is used, even the one the internal drive is using. </s>
+<s> Any sure way to test the cable(s)? </s>
+<s> Else maybe I'll try to find a cable that connects directly from mobo to my extrnl drive, just to test things out( I tried the cable from my mobo to my internal drive but that doesn't work ) . </s>
+<s> If I install an eSata pci card ( which provide esata connections ) will the bios be forced to see it? </s>
+<s> Sounds like the problem lies with the connection, cable, or the external harddrive itself or maybe the external power supply. </s>
+<s> Of course the quickest way to test it out would be to connect the drive to another computer. </s>
+<s> The drive works fine in firewire mode. </s>
+<s> I need to find somebody near with a working esata port. </s>

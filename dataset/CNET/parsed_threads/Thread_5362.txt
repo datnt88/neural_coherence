@@ -1,0 +1,53 @@
+<s> Hello! </s>
+<s> I should probably explain my issue with more details: I have the following configuration: -Motherboard: MSI P35 NEO2-FR -RAM: Corsair 2 GB DDR2 11066 MHz CL5 Dual Channel -Video Card: Gainward Bliss 8800GT -PSU: Thermaltake W0089RE TR2 470 W I bought it in 2008. </s>
+<s> Everything worked perfectly until a few weeks ago when out of the blue the computer stopped. </s>
+<s> I tried to restart it, it never loaded BIOS or anything else, it simply started and stopped after a few seconds (sometimes not stopping at all, it kept on working but without displaying anything on the monitor and with the indicator LEDs going beserk). </s>
+<s> Anyway I managed to fix that, BIOS update did the trick. </s>
+<s> One week ago it did it again. </s>
+<s> I was not home so my mother used it, it simply stopped and refused to start again. </s>
+<s> When I returned home I was prepared to re-update the BIOS but I did not have to because the computer simply decided to work, until today. </s>
+<s> However today it did something different. </s>
+<s> BSOD for a second (I couldn't get any info out of there), it rebooted, then worked for another couple of hours and then started dumping memory (or that's how the ubuntu crash screen describet it) then stopped. </s>
+<s> I cleared the CMOS, which did the trick in the past but nothing happened. </s>
+<s> After that I read the motherboard manual to make some sense out of the LED indicators. </s>
+<s> The sequence was Red Red Green Red. </s>
+<s> The manual section for that code says: &quot;Memory Detection Set Testing onboard memory size. </s>
+<s> The D led will hang if the memory module is damaged or not installed properly&quot; After reading that I removed the DIMM_B1 module (I was using the DIMM_A1, DIMM_B1 combo so that my modules worked in dual channel). </s>
+<s> Now with only the DIMM_A1 module installed the computer works like a charm, no errors, no BSOD, no power failure, nothing. </s>
+<s> My question is: what should I do in this situation? </s>
+<s> because I cannot seem to figure out what is broked (the module or the DIMM_B memory channel). </s>
+<s> I tried to use the modules in single channel (connected the second module to DIMM_A2) and the computer failed to start again! </s>
+<s> Could it be the motherboard's fault or I simply have to replace the memory module and it will work. </s>
+<s> I sincerely appopogise for the long post and for the grammar mistakes (if any). </s>
+<s> I would really appreciate an answer to my question. </s>
+<s> I thank you in advance! </s>
+<s> Some don't understand the age issues but in short, Electrolytic Capacitors AGE and the noise levels on the board and PSU go up. </s>
+<s> Symptoms can be like your machine. </s>
+<s> Fixes include new caps, new PSU and new main boards. </s>
+<s> You convinced me it's not a BIOS issue. </s>
+<s> You didn't convince me you were not overclocking. </s>
+<s> Bob </s>
+<s> I was pretty happy with my computer's performance so I never felt the need of overclocking. </s>
+<s> I heard about about the Caps Age, I just never imagined it as a possible solution for my problem. </s>
+<s> How do I find out exactly what needs to be done? </s>
+<s> Just replace everything one by one until it works properly ? </s>
+<s> Any doming, leaked, blown bottoms, tilters and they get replaced. </s>
+<s> Most folk can't do that work. </s>
+<s> Bob </s>
+<s> So much seemed to happen or go wrong, it maybe better to simply swap the mtrbd. </s>
+<s> out. </s>
+<s> In most cases, no one can repair it and/or really the cost to repair vs. replace is mute. </s>
+<s> While, you may not have OC'ed, you may have at least accepted hi-end values for operation. </s>
+<s> regardless, for it to go all wrong suggests a basic but dependent ckt. </s>
+<s> or item is core to the fault. </s>
+<s> While, you think it maybe the ram, if you have other ram, swap them. </s>
+<s> I find it hard to think the BIOS fixed anything and you're lucky it didn't act-up during the BIOS update. </s>
+<s> Also, because it worked before the BIOS update suggests it wasn't BIOS related. </s>
+<s> While &quot;bad caps&quot; can be a cause, the usual end result is frequent reboots or no boots and not show the results you seems to state, IMO. </s>
+<s> Considering all you had in there, it maybe the result of heat stress and it finally succumbed. </s>
+<s> I would swap out the PSU, then the ram, then the video card, and last mtrbd. </s>
+<s> to see if those levels of change do anything. </s>
+<s> Yes, swapping parts is the usual attempt at a fix. </s>
+<s> Though, you can meter any voltages. </s>
+<s> You can also, reseat every cable in the case, too. </s>
+<s> tada -----Willy </s>

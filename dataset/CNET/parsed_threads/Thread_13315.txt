@@ -1,0 +1,65 @@
+<s> Wifi Mesh using Linksys WRT150N 802.11n MIMO router Im trying to setup a mesh network in an MDU so im shopping for solutions and one idea was to use the Linksys WRT150N 802.11n MIMO router and flash it using Sveasoft firmware. </s>
+<s> Im being told that if these are connected in a mesh and wireless G is in range these routers will switch to wireless G instead of wireless N anyone know if this is true? </s>
+<s> Any comments on this are very much appreciated thanks for your time! </s>
+<s> Heres a link to another discussion about this: http://forums.meraki.com/viewtopic.php?t=2482 </s>
+<s> For most of us, a repeater is all that is needed. </s>
+<s> The solutions i've checked into all use wireless G which would give roughly 200-300 feet between repeaters. </s>
+<s> The wireless N routers claim 3x the coverage of wireless G which would give 600-700 feet between repeaters. </s>
+<s> This means less equipment would be necessary to cover the same area meaning less cost to deploy, but if im spending more money on wireless N equipment that is only gonna reach 200-300 feet whats the point? </s>
+<s> Will the wireless repeaters connect to each other using wireless N or wireless G? </s>
+<s> Does anyone know the answer to this? </s>
+<s> Implement this like the old Richochet network. </s>
+<s> The moment you go off the reservation with this mesh you may as well go the extra step to the real deal. </s>
+<s> Bob </s>
+<s> I'll try to shed some light on your questions: #1: With MIMO technology you must use multiple antennas. </s>
+<s> If you truly want to achieve 600-700 ft range (radius) from the AP then I would recommend upgrading the antennas to low gain 8dbi (GREATLY improves the range). </s>
+<s> Also, if you walk 600 ft from the AP your signal strength will be very low, if you connect at all, and your connection speed will be about 5mbps. </s>
+<s> This is because with draft-N the further from the AP/Router you go, the more the speed decreases. </s>
+<s> The beauty of draft-N is that it does support a larger range than G, as well as speeds up to 300 mbps. </s>
+<s> #2: If you are attempting to setup a Mesh WIFI then I would recommend one other thing. </s>
+<s> Use a router/AP that utilizes both 2.4ghz and 5ghz frequencies. </s>
+<s> In a mesh scenario, all of the routers & APs are continuously communicating to each other. </s>
+<s> If the APs are talking to each other on the same frequency that you are trying to send and receive data on, you will notice a large decrease in your speed. </s>
+<s> #3: When you setup just a simple router, have you ever noticed where it says &quot;choose one: Wireless A, Mixed Mode:B,G,N, Wireless N&quot;? </s>
+<s> When most people see this selection, they go with Mixed Mode. </s>
+<s> When in mixed mode, if someone walks on your network with a Palm Pilot that uses wireless B, then YES, your whole network will slow down to the SPEEDS of wireless B, the range is not affected. </s>
+<s> It is best to just set whatever router/AP you are using to Wireless N. Then you can achieve your maximum speeds. </s>
+<s> I hope some of this info. </s>
+<s> was helpful for you, or anyone interested in Mesh networking in the future! </s>
+<s> While improving the wifi coverage is nice I couldn't find any answer to how to implement the mesh. </s>
+<s> -&gt; What mesh software are you proposing? </s>
+<s> Bob </s>
+<s> I was merely attempting to provide some basic guidelines as to mesh networking. </s>
+<s> I can't really get into specifics based on the information that was given at the top of the post, but I can share some info on a project I am working on in South Florida. </s>
+<s> I have been planning the implementation of wireless coverage for a small town, approximately 43 acres. </s>
+<s> I explored the setup of a mesh network for this area HOWEVER, I have decided against it. </s>
+<s> Mesh networks are mainly used for large scale wireless deployments, ie. </s>
+<s> Philadelphia's recent project. </s>
+<s> The major benefits of a mesh network, as I see it, are that the network is easily scalable, and when your bandwidth is a concern then the APs automatically re-route end-user access to different gateways (if available) to compensate (this is a very nice feature). </s>
+<s> If I were to deploy a mesh network in my scenario, I would be using the Cisco Aironet 1510 APs, a Cisco WLC (wireless lan controller, your amount of APs determines which model to go with), for the gateway I would use the Linksys WRT600N, and for the management of the network I would use the Cisco WCS software. </s>
+<s> Even though Linksys is a subdivision of Cisco, you cannot beat Cisco quality and support. </s>
+<s> The SmartNet OnSite warranty is an absolute MUST if you are going to have subscribers, or people that depend on your network. </s>
+<s> Like I said, I will not be using the mesh network. </s>
+<s> I will be using about 20 Cisco Aironet 1250 APs to create a large overlapping network. </s>
+<s> I will still be using the WLC,Linksys WRT600N , and the WCS software. </s>
+<s> The range of the 1250 and 1510 is very similar given the same antenna, approximately 500-600ft, but you will most definitely be experiencing all sorts of network interference, and will probably end up with a range of 200-300 ft of GOOD network coverage that will allow for higher speeds. </s>
+<s> I have my reasons for not going with a mesh network, but I will delve a little further into that topic. </s>
+<s> The Cisco Aironet 1510 is an outdoor mesh AP that is EXTREMELY reliable, withstands severe conditions, and provides up to 675ft coverage area. </s>
+<s> If you are going to setup a mesh network then this is what you want. </s>
+<s> Mesh networks typically are used to span across a large area, where outdoor placement is a must. </s>
+<s> Many people have now been attempting to develop little mesh networks, for their neighborhood for example. </s>
+<s> If your are operating at that level I recommend the use of MERAKI networking solutions. </s>
+<s> They have been endorsed by Google, and are MUCH cheaper than using Cisco hardware. </s>
+<s> Yes, I do like to talk a lot. </s>
+<s> So to answer your question &quot;What mesh software are you proposing?&quot;, it really all depends on your situation! </s>
+<s> I know that is not much of an answer, but there are many factors that play into the implementation of a mesh network. </s>
+<s> If you could, just provide me with some more details like; how much area are you trying to cover, are you indoor or outdoor, what price range are you working with, what is your networking experience... </s>
+<s> Even the material of the surrounding buildings, and the placement of trees (which greatly degrade the signal strength) effect which solution that I would recommend. </s>
+<s> As far as software goes, I would use the WCS for a project like mine, or for a smaller project, Meraki provides excellent free management software that should be sufficient. </s>
+<s> I have assumed that you are talking about management software, not &quot;firmware&quot;. </s>
+<s> If anyone needs any more info, I would be glad to offer my help. </s>
+<s> You can email me through my company Techspert Solution, or post a reply here. </s>
+<s> techspert@yahoo.com </s>
+<s> I could make a safe bet they wanted it for 40 bucks at CostCo. </s>
+<s> Too bad solutions like Richochet and that Zigbie (mesh networks) didn't catch on. </s>
+<s> Bob </s>

@@ -1,0 +1,82 @@
+<s> Hi members... </s>
+<s> I don't have much knowledge on computer hardware. </s>
+<s> I want to know whether NIC card is the same as the Ethernet Card or is it different. </s>
+<s> Nic and Ehternet are same thing. </s>
+<s> NIC = Network Interface Card LAN = Local Area Network ETHERNET = Ether (ghostlike) NET (net/internet) TONI </s>
+<s> NIL </s>
+<s> I wanna know whether NIC is needed to access the internet? </s>
+<s> If so. </s>
+<s> is it needed 4 a dial-up service or a broadband service? </s>
+<s> Broadband (usually cable, satellite, or dsl) uses NIC type modems to connect. </s>
+<s> If you have two or more computers networked together and they share the internet connection, NIC is used to connect those two computers (either direct connection or via router), and can then connect either via one of those computers by either dial up or broadband. </s>
+<s> Most broadband ISP's supply the external modem they use with instructions on how to connect it, if they don't do it for you. </s>
+<s> TONI </s>
+<s> You need a dial-up modem for dial up, analog service. </s>
+<s> You need a NIC to use digital service. </s>
+<s> The NIC is not a modem but an interface between the cable or DSL modem and the PC. </s>
+<s> The ISP signal is delivered to the modem (in reality an analog signal with cable and DSL) and this signal is converted to a fully digital signal with separate transmit and receive paths in the Ethernet cord (8 pin). </s>
+<s> The NIC receives this signal from the modem and delivers it to the PC, and from the PC back to the modem. </s>
+<s> The NIC can stand alone connected to the cable or DSL modem. </s>
+<s> Or the modem can be connected to a router and thus connect several PCs with NICs and all share the connection to the internet. </s>
+<s> And each PC can talk to the other PCs on your ''Home Network''. </s>
+<s> HTH, Give a person a fish and you feed them for a day; teach that person to use the Internet and they won't bother you for weeks. </s>
+<s> Click here to see the CNet faces, learn a little about telephones, internet connections, spyware, and data, and download free software. </s>
+<s> I'm on a dial-up and hence it means that I don't have a NIC. </s>
+<s> Is n't it ? </s>
+<s> If so... where does my ip address come from and how do they identify my machine on the network without a NIC ? </s>
+<s> signed up for service you were assigned an IP address by your provider. </s>
+<s> Each PC is assigned an address by each ISP. </s>
+<s> There are two basic types. </s>
+<s> Static - the IP address never changes. </s>
+<s> You pay a premium for a static address and is usually reserved for major customers and some cable. </s>
+<s> Dynamic - your IP address changes every time you log on. </s>
+<s> Do a Google search on IP address. </s>
+<s> You use a dial up modem to get to your ISP, but your account 'line' is connected to a router on THEIR ethernet/lan server connection to the internet. </s>
+<s> The router assigns the IP address to your account and that's where it comes from. </s>
+<s> You aren't connected directly to the net via your dialup modem...you have to go through the ISP to get there and they have the equipment and devices and software that keeps and assigns all that information to your specific account. </s>
+<s> TONI </s>
+<s> I want to know how the address resolution protocol play its part here ? </s>
+<s> The ARP is used to find the physical address given the logical address. </s>
+<s> If on a dial-up the ISP assigns a dynamic IP , then how still do they find my machine on the network ? </s>
+<s> the IP from your ISP. </s>
+<s> When you dial in, your ISP assigns the IP. </s>
+<s> Each time you dial in you get a new IP hence dynamic. </s>
+<s> Your ISP knows who you are and they are connected to the Internet. </s>
+<s> Here's some &quot;stuff&quot;: An identifier for a computer or device on a TCP/IP network. </s>
+<s> Networks using the TCP/IP protocol route messages based on the IP address of the destination. </s>
+<s> The format of an IP address is a 32-bit numeric address written as four numbers separated by periods. </s>
+<s> Each number can be zero to 255. </s>
+<s> For example, 1.160.10.240 could be an IP address. </s>
+<s> Within an isolated network, you can assign IP addresses at random as long as each one is unique. </s>
+<s> However, connecting a private network to the Internet requires using registered IP addresses (called Internet addresses) to avoid duplicates. </s>
+<s> The four numbers in an IP address are used in different ways to identify a particular network and a host on that network. </s>
+<s> Four regional Internet registries -- ARIN, RIPE NCC, LACNIC and APNIC -- assign Internet addresses from the following three classes. </s>
+<s> Class A - supports 16 million hosts on each of 126 networks Class B - supports 65,000 hosts on each of 16,000 networks Class C - supports 254 hosts on each of 2 million networks The number of unassigned Internet addresses is running out, so a new classless scheme called CIDR is gradually replacing the system based on classes A, B, and C and is tied to adoption of IPv6. </s>
+<s> ---------------------- Every computer that communicates over the Internet is assigned an IP address that uniquely identifies the device and distinguishes it from other computers on the Internet. </s>
+<s> An IP address consists of 32 bits, often shown as 4 octets of numbers from 0-255 represented in decimal form instead of binary form. </s>
+<s> For example, the IP address 168.212.226.204 in binary form is 10101000.11010100.11100010.11001100. </s>
+<s> But it is easier for us to remember decimals than it is to remember binary numbers, so we use decimals to represent the IP addresses when describing them. </s>
+<s> However, the binary number is important because that will determine which class of network the IP address belongs to. </s>
+<s> An IP address consists of two parts, one identifying the network and one identifying the node, or host. </s>
+<s> The Class of the address determines which part belongs to the network address and which part belongs to the node address. </s>
+<s> All nodes on a given network share the same network prefix but must have a unique host number. </s>
+<s> Class A Network -- binary address start with 0, therefore the decimal number can be anywhere from 1 to 126. </s>
+<s> The first 8 bits (the first octet) identify the network and the remaining 24 bits indicate the host within the network. </s>
+<s> An example of a Class A IP address is 102.168.212.226, where &quot;102&quot; identifies the network and &quot;168.212.226&quot; identifies the host on that network. </s>
+<s> Class B Network -- binary addresses start with 10, therefore the decimal number can be anywhere from 128 to 191. </s>
+<s> (The number 127 is reserved for loopback and is used for internal testing on the local machine.) </s>
+<s> The first 16 bits (the first two octets) identify the network and the remaining 16 bits indicate the host within the network. </s>
+<s> An example of a Class B IP address is 168.212.226.204 where &quot;168.212&quot; identifies the network and &quot;226.204&quot; identifies the host on that network. </s>
+<s> Class C Network -- binary addresses start with 110, therefore the decimal number can be anywhere from 192 to 223. </s>
+<s> The first 24 bits (the first three octets) identify the network and the remaining 8 bits indicate the host within the network. </s>
+<s> An example of a Class C IP address is 200.168.212.226 where &quot;200.168.212&quot; identifies the network and &quot;226&quot; identifies the host on that network. </s>
+<s> Class D Network -- binary addresses start with 1110, therefore the decimal number can be anywhere from 224 to 239. </s>
+<s> Class D networks are used to support multicasting. </s>
+<s> Class E Network -- binary addresses start with 1111, therefore the decimal number can be anywhere from 240 to 255. </s>
+<s> Class E networks are used for experimentation. </s>
+<s> They have never been documented or utilized in a standard way. </s>
+<s> All this from here http://www.webopedia.com/ </s>
+<s> http://computer.howstuffworks.com/web-server.htm </s>
+<s> Dear members, Thnkx a lot 4 ur help. </s>
+<s> I'm now clear with the topic. </s>
+<s> Thnkx once agn. </s>

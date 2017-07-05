@@ -1,0 +1,27 @@
+<s> Finally got my hard drives ( OEM - SAMSUNG SP2504C SATA ) Can anyone guide me as to how to install these hard drives? </s>
+<s> Do I need any firmware in order for these drives to work with my board? </s>
+<s> System specs: Mobo: Asus P5W DH Deluxe Processor: Intel D805 Dual Core RAM: 2 Gigs Power Supply: Xilence Power 600W Hard Drive: 2 x Samsung SP2504C SATA drives (250 Gigs) DVD ROM: Samsung writemaster Video Card: MSI NX7100GS </s>
+<s> for the OS install. </s>
+<s> VAPCMD </s>
+<s> Thanks a million. </s>
+<s> Wish me luck. </s>
+<s> Thanks for your help..much appreciated. </s>
+<s> I hope this post help someone else. </s>
+<s> I have my P5W DW Deluxe mobo set up with 2 Samsung 2504 250 GB hard dirves in RAID 0 (striping). </s>
+<s> No problems so far. </s>
+<s> With this mobo you can either use the Intel ICH7R SATA connectors or the EZ RAID setup. </s>
+<s> I recommend the Intel RAID setup as I originally tried the EZ RAID and found it not that easy. </s>
+<s> To use the Intel RAID setup reference your manual pg. </s>
+<s> 2-33. </s>
+<s> Assuming you haven't loaded your Windows OS yet, connect your hard drives to SATA 1 and SATA 3 connectors as shown on this page. </s>
+<s> When you initally boot your PC, go into the BIOS and select the CD ROM as the first boot device. </s>
+<s> Then reference page 5-30 of the ASUS mobo maual to set up the BIOS for RAID. </s>
+<s> Continue then to pg. </s>
+<s> 5-31 for setting up your desired RAID config using the Intel Matrix Storage Manager. </s>
+<s> Restart your PC with ASUS mobo CD so you can transfer the Intel RAID drivers to a floppy disk for whatever version of Windows OS you intend to use. </s>
+<s> After that you should be able to insert your Windows OS disk, restart your PC, and then start your Windows OS installation. </s>
+<s> Make sure to select F6 at the start of your Windows OS installation and then upload the Intel SATA drivers (those downloaded on the floppy disk)(the floppy is essential) when prompted. </s>
+<s> The rest of the OS install should go OK. Of note, if you do this RAID setup be aware that after Windows OS installation that the Intel Matirx Storage application recognizes SATA connectors 1 and 3 as 0 and 2 respectively. </s>
+<s> A slight disconnect between the Intel Matrix storage manager and how ASUS numbers their SATA ports. </s>
+<s> No big deal as the RAID config is good. </s>
+<s> Hope this helps. </s>

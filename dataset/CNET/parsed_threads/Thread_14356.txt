@@ -1,0 +1,38 @@
+<s> Hi Everyone, i really need a professional advice about delivering Local Wireles Connection with wireless N for 10-20 Clients up to 2 KM, with speed for each client 10-15 Mbps to stream my Video Files from Server... really-really need your advice - what Kind of server should i use to handle such busy service?? </s>
+<s> - what kind of acces point should i use for that many clients with such speed, and QoS Featuring?? </s>
+<s> - what kind of antenna should be installed on Server, that can handle 10-20 Client with such speed, and such distance?? </s>
+<s> really need advice. </s>
+<s> thanks before </s>
+<s> First question would be are all you clients in one location or are you looking to directly transmit to a lot of remote clients that are all at long distance. </s>
+<s> If they are all in one location you would in effect build a point to point wireless connection and then build another wireless network at the remote location to server the users. </s>
+<s> If they are all in different remote locations this is very tough to make work well. </s>
+<s> This is very similar to wireless ISP that use central towers to provide internet in rural locations. </s>
+<s> You will need to use professional equipment to get good results. </s>
+<s> One of the more popular systems is called canopy by motorola. </s>
+<s> It has many features like QoS and bandwidth sharing. </s>
+<s> Of course this all comes for a price. </s>
+<s> all my clients would be at one location,, the furthest clients should be at 2 KM. </s>
+<s> Could you recommend me all equipments needed.., </s>
+<s> What you basically need is a bridge repeater and some outdoor antenna. </s>
+<s> I use hawkins stuff as a example since they have nice diagrams. </s>
+<s> Their equipment is easy to install and easy to buy since it is sold in retail stores. </s>
+<s> The down side is they have limited options so if they do not sell what you need you will need to go to equipment marketed to the professional market. </s>
+<s> It will not cost a lot more it just requires much more knowledge to make sure it all connects together. </s>
+<s> http://www.hawkingtech.com/products/productlist.php?CatID=32&amp;FamID=105&amp;ProdID=400 If you look at their example that shows &quot;for the office&quot; It show the use of high gain antenna. </s>
+<s> You most likely will need these antenna on both ends. </s>
+<s> The main restriction with this is that you need to be able to place your external antenna so they have clear line of site and close enough to get the cable to the router in the buildings. </s>
+<s> You do not want to extend the cables since even foot reduces your signal. </s>
+<s> At least this should give you a idea whats involved. </s>
+<s> Now even if you were just running a normal access point off the local server and all the users were in the same building you are very close to the limits of wireless. </s>
+<s> 300m is one of those magic numbers you only get in a test environment. </s>
+<s> In the remote building you could place multiple access points and try to load balance your users but there is only so much wireless frequency your access point will end up interfering with each other. </s>
+<s> Your main limitation is the link between the sites. </s>
+<s> It is unlikely you can get 300m with even the best equipment. </s>
+<s> If you really need speeds like that you may have to run multiple links on different frequencies. </s>
+<s> You might get 300m using 3 links on three frequencies. </s>
+<s> You most likely could try it and see how it works. </s>
+<s> The cost to have a professional company come out and just do the design will cost as much trying it. </s>
+<s> Normally when you need very high speed you run fiber or licensed point to point microwave. </s>
+<s> In some countries no license is needed but this is the cure. </s>
+<s> What I find is that I have to give new folk plenty of time as well as let them try out less than reliable or even working solutions before they figure out they need a real solution. </s>
+<s> Bob </s>

@@ -1,0 +1,39 @@
+<s> Hi all. </s>
+<s> This is my first post so bear with me if I don't know all rules I have a web server with public IP that is connected to internal network. </s>
+<s> I would like to display content from my networked machine. </s>
+<s> The network machine can't be accessed from internet and I want to keep it that way. </s>
+<s> (it can go to web though). </s>
+<s> Web server is Ubuntu server so I get the part of working it out with ip tables. </s>
+<s> I want to display content from internal nw machine but so it can only be seen through web server. </s>
+<s> (it should be re-rendered on web server with some technology or application). </s>
+<s> To recap: show content from nw pc on web server and only visible when looking on web server, other direct connections prevented. </s>
+<s> Thank you, Mario </s>
+<s> What stopped you? </s>
+<s> While you were not clear about the setup or what is to be displayed and how, you didn't reveal your plan or design. </s>
+<s> Bob </s>
+<s> I have an html web app in &quot;internal&quot; network. </s>
+<s> I want to display it's content on web server and web server only. </s>
+<s> Is there some solution that would present my web app from internal network on my public web server, and not open it so that anyone that can look into source open it directly. </s>
+<s> If I access it via iframe, that would mean, it can be accessed from outside. </s>
+<s> is there a solution that would serve as a gateway but close any connections to network machine outside the network? </s>
+<s> Thanks, Mario </s>
+<s> You wrote &quot; not open it so that anyone that can look into source &quot;. </s>
+<s> That's a little muddy but for years folk have danced around and lost far too much time over trying to hide or obfuscate source in HTML. </s>
+<s> Sorry but it's right there in all the web browsers I use if I view source. </s>
+<s> The source code is in the clear. </s>
+<s> It's a shame that the real goal seems hidden here. </s>
+<s> Sometimes folk try to avoid revealing they want access to the files on that PC. </s>
+<s> Bob </s>
+<s> Install the usual remote access software (gotomypc, VNC) and network, password, secure as needed. </s>
+<s> As presented it's a mess. </s>
+<s> I can't tell what &quot;content&quot; is. </s>
+<s> It could be some HTML pages, maybe it's the usual &quot;I want to access my PC from home&quot; or something else. </s>
+<s> What's clear so far is that the solution is not going to happen given the current skill set. </s>
+<s> Bob </s>
+<s> I have an amazon instance that has public IP eg: 10.25.251.38 and is also connected to internal network (10.1.50.xxx) with bunch of other amazon instances running ubuntu that have a BI Web Application installed. </s>
+<s> They are also on the same internal network different subnet (10.1.51.xxx). </s>
+<s> I can start and stop those instances from web server (10.25.251.38) using amazon aws sdk. </s>
+<s> Now the tricky part: I also want to load those instances up directly in same web server. </s>
+<s> Best course of action would be to use in Iframe, but then users can easily see the address where iframe is pointing to and I want to force users to use my web app only. </s>
+<s> I agree with Bob on the subject of openness vs closeness of html, but in this particular case, I would prefer to limit access as much as possible to internal network. </s>
+<s> Hope this clarifies the question and results in an awesome response Thank you guys, Mario </s>

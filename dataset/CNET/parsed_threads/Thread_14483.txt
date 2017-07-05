@@ -1,0 +1,61 @@
+<s> On Saturday, I had Comcast High Speed Internet installed in my apartment. </s>
+<s> The modem I was given is a Motorola SURFboard SB5120 Series, connected to my system via Ethernet. </s>
+<s> A few hours after the installation, I headed out to Best Buy and purchased the Linksys Wireless-G Broadband Router, Model No. </s>
+<s> WRT54GP2A-AT. </s>
+<s> This went with this router specifically for its VoIP capabilities with AT&T CallVantage. </s>
+<s> After a weekend of tinkering, I've yet to be able to get it working. </s>
+<s> When my Cable Modem is connected to my computer, everything works fine, but when I add the router to the mix, I can not access the internet. </s>
+<s> Initially I went through the Linksys Quick Installation Guide, step by step, power cycle to power cycle to get it going, but when I was finished and it was suppose to work, I would get the same T pPage cannot be displayed' message in IE every time. </s>
+<s> Thinking I may have missed something in the process, I reset the router to its factory defaults, and tried to run the Setup Wizard provided by Linksys on CD. </s>
+<s> I get towards the end every time, and then I receive an error message that the router is not able to connect to the internet, please turn the modem on/off, etc. </s>
+<s> I tried to setup the router manually, but my network administration abilities are a bit lacking. </s>
+<s> Everything I found online seemed to indicate that for Comcast, use the 'Automatic Configuration (DHCP)', then Clone the MAC Address, and I would be good to go, but I've had no such luck. </s>
+<s> When the modem is connected to the router, and the router is connected to the computer: the Power LED, WAN LED, and Ethernet Port LED are all lit and constant. </s>
+<s> The Internet LED, however, is flashing, as is the PC/Activity LED on the modem itself. </s>
+<s> Here is my IP Configuration when the modem is connected directly to the computer: http://www.astuder.com/temp/prompt_01.gif Here is my IP Configuration after initializing the router setup: http://www.astuder.com/temp/prompt_02.gif Here is the Router Status: http://www.astuder.com/temp/router_status.gif Is there something I'm overlooking? </s>
+<s> Is this kind of configuration even possible with Comcast? </s>
+<s> I've stumbled across a few threads on different forums from last year with people having the same problems, but I was not able to get it working. </s>
+<s> I've read through both of the documents from Linksys below, but again I was unsuccessful. </s>
+<s> http://linksys.custhelp.com/cgi-bin/linksys.cfg/php/enduser/std_adp.php?p_faqid=1040&p_created=1086911813&p_sid=uGENlxqh&p_lva=&p_sp=cF9zcmNoPTEmcF9zb3J0X2J5PSZwX2dyaWRzb3J0PSZwX3Jvd19jbnQ9MiZwX3NlYXJjaF90eXBlPXNlYXJjaF9ubCZwX3Byb2RfbHZsMT0mcF9wcm9kX2x2bDI9JnBfc2NmX2xhbmc9MSZwX3BhZ2U9MSZwX3NlYXJjaF90ZXh0PWNvbWNhc3Q*&p_li= http://linksys.custhelp.com/cgi-bin/linksys.cfg/php/enduser/std_adp.php?p_faqid=199&p_created=1084206387&p_sid=uGENlxqh&p_lva=&p_sp=cF9zcmNoPTEmcF9zb3J0X2J5PSZwX2dyaWRzb3J0PSZwX3Jvd19jbnQ9MiZwX3NlYXJjaF90eXBlPXNlYXJjaF9ubCZwX3Byb2RfbHZsMT0mcF9wcm9kX2x2bDI9JnBfc2NmX2xhbmc9MSZwX3BhZ2U9MSZwX3NlYXJjaF90ZXh0PWNvbWNhc3Q*&p_li= I will be extremely grateful to anyone who can point me in the right direction... thank you. </s>
+<s> This gets new owners everyday. </s>
+<s> The wifi router may not have the latest firmware, even when new. </s>
+<s> Bob </s>
+<s> I checked on the Linksys site, but the option to download firmware for my router is 'grayed out', or in other words, not available. </s>
+<s> So I'm assuming that the firmware that was loaded straight out of the box is the most up to date... </s>
+<s> http://www.linksys.com/support/support.asp?spid=93 Some ISP's require you do this or wait some number of hours. </s>
+<s> In closing, tell what the results of this command when the linksys is installed... IPCONFIG /ALL The 192.x.x.x addresses give no secrets aways since they are not internet addresses. </s>
+<s> Bob </s>
+<s> Bob, Just wanted to say thanks for your help. </s>
+<s> After I got off work, I tried to get the router configured with no avail. </s>
+<s> Fed up, I decided to go to Best Buy and just purchase a new router, different brand. </s>
+<s> When I got the new D-Link router back home, I was having the exact same problems. </s>
+<s> Realizing that there was some kind of severe networking problem with my main machine I switched back over the Linksys router and dug out the old Pentium II from the closet, and hooked it back up. </s>
+<s> I moved the cable modem over to that machine, then ran the default Linksys router configuration program, and I nearly fell out of my chair when it worked on the first try. </s>
+<s> I re-installed my network drivers on my other computer and now everything's working beautifully. </s>
+<s> Thanks again. </s>
+<s> I had same problem 2x's,once with the b router and once with the a+g+b router.I ended up removing all hardware and software and starting over.then I called comcast and they made sure i connected when hooked up direct and then they told me turn off every thing Modem Router and Computer,also the direct hook up to my omputer,then to wait 1 min, plug modem back in,then wait 1 min and plug router back in,then wait one min and turn computer back on and wireless works fine.I also had the wireless card in my computer and installed before i did the above. </s>
+<s> Hope this helps you,if all else falls call comcast they were very HELPFULL. </s>
+<s> Dan </s>
+<s> the key is cloning your mac address and putting that into the router. </s>
+<s> that way, the router looks like your pc to the cable modem. </s>
+<s> at dos: ipconfig /all look at the physical address. </s>
+<s> that's your mac open up the router config screens by typing in the ip address of your router. </s>
+<s> forlinksys: http://192.168.1.1 setup screen - mac address - click the 'clone' button or type in your mac address. </s>
+<s> save settings unplug modem unplug router hook up modem to router (ethernet cable) plug in modem - wait 30 secs for it to sync plug in router connect your pc to router should be good to go </s>
+<s> I was just reading over your complaint and I have a client with the same problem. </s>
+<s> I can get him up and running for about a month them it drops his connection. </s>
+<s> I have found that att tech support is useless. </s>
+<s> Why he gets dropped I do not know. </s>
+<s> There has to be something in the router's configuration. </s>
+<s> T1 or such lines. </s>
+<s> The telco's charge for the more reliable connections. </s>
+<s> Then again, have you changed out the router? </s>
+<s> Bob </s>
+<s> Hi, I am experiencing the same problem. </s>
+<s> How do I reinstall the network drivers without reinstalling XP? </s>
+<s> I tried the MAC address thing and it failed. </s>
+<s> So did three hours of customer support from LinkSys. </s>
+<s> Thanks, Rudy </s>
+<s> What's your WAN config info in your router? </s>
+<s> How do I get the WAN info? </s>
+<s> Thanks, Rudy </s>

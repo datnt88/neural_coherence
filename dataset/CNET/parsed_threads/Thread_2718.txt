@@ -1,0 +1,15 @@
+<s> I have an ASUS P4P800-VM Micro ATX mainboard with 4 rear panel USB 2.0 and two internal USB 2.0 headers. </s>
+<s> I have a USB 2.0 all in one card reader (3.5 floppy, SD, SM, CF, etc...) connected to one of the internal headers and an additional two ports on the front of the case connected to the other internal header. </s>
+<s> I keep getting a balloon popping out of the toolbar (WIN XP) saying the device can perform faster, when I click on the balloon it gives me a list of available 2.0 ports but does not identify the component that &quot;can perform faster&quot; I suspect it is the media reader. </s>
+<s> Why is this happening when there is no 1.1 USB anywhere on my system? </s>
+<s> How can I identify the component that needs to perform faster? </s>
+<s> Thanks </s>
+<s> Maybe the usb2 driver need to be install. </s>
+<s> Take a look at the &quot;device manager&quot;; are the ports are all &quot;enhanced USB&quot; (it should be)? </s>
+<s> I encountered this in the PC my wife uses (also an ASUS P4P800 series). </s>
+<s> One thing you do need to be sure of is that, if using front panel ports or others with cables connected to the MB, that connection hardware needs to USB2 capable or speed will scale back. </s>
+<s> Anyway, go to your hardware list and remove all the USB devices, root hubs, etc. </s>
+<s> Shut down/restart and let XP (make sure you have SP2) redetect them. </s>
+<s> Windows should load the USB2 drivers this time. </s>
+<s> It worked for me. </s>
+<s> Steve, How do you ensure SP2 is redirecting the device, other than being at SP2 level on XP. </s>

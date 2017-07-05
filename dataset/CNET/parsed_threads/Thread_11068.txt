@@ -1,0 +1,31 @@
+<s> Hi, I have a Dell Dimension 4600 purchaed 1 1/2 years ago. </s>
+<s> About 2-3 weeks ago, I installsed a 200 GB Maxtor 7200 ATA 133 in the machine in addition to the 40GB original drive. </s>
+<s> A week later, the system acted funny by making a sound (HD) and giving me the follwoing message: Primary drive 0 not found, strike the F1 key to continue, F2 key to run the setup utility. </s>
+<s> The following morning the system worked fine. </s>
+<s> A couple of days ago it came up with the message but it did not work in the morning. </s>
+<s> I moved the controller wires around but no luck. </s>
+<s> Any idea how I can get my machine working? </s>
+<s> At this time I will be happy with having access to my original drive!! </s>
+<s> Thanks Tinman6g </s>
+<s> I am also a Dell Owner and recently installed an IDE in addition to my Serial ATA. </s>
+<s> I began receiving a similar error but only after powering off the machine. </s>
+<s> A restart would go cleanly so it appeared sporadic. </s>
+<s> You will probably be able to duplicate this after a complete shutdown. </s>
+<s> Anyway, I will make a couple assumptions. </s>
+<s> 1) You are installing a Serial ATA in addition to your Primary IDE Hard Drive. </s>
+<s> Here is how I believe I resolved my issue. </s>
+<s> Go into Bios - Press F2 for setup. </s>
+<s> Serial ATA will probably say say Yes - Press the Space Bar and turn it Off. </s>
+<s> You should see the Bios request status for two ATA drives. </s>
+<s> Under your Serial ATA Drive 1 - set it to Auto ( so that it will autodetect on bootup.) </s>
+<s> After rebooting, you should get a message 'new hardware found' Shutdown and reboot the system. </s>
+<s> Your F1/F2 to continue error should go away because you are forcing your system to recognize the hard drive in question and not confuse it with other. </s>
+<s> If this still doesn't work, a slightly riskier steup would be to set your Primary IDE Drive in Bios to Auto and make sure all Other IDE Drives (Primary/Secondary) are set to OFF. </s>
+<s> Here is a link from Western Digital to look at for checking your jumper settings on your primary IDE drive. </s>
+<s> http://wdc.custhelp.com/cgi-bin/wdc.cfg/php/enduser/std_alp.php?p_cv=1.123%3B2.u0&p_pv=&p_prods=0&p_cats=123&p_hidden_prods=&prod_lvl1=0&cat_lvl1=123&p_search_text=jumper+settings&p_new_search=1&p_search_type=answers.search_fnl Best Wishes on resolving this. </s>
+<s> I hope I helped a little. </s>
+<s> Michael </s>
+<s> I had this problem. </s>
+<s> My research leads me to believe it is a common problem take a look at this link: http://www.dataclinic.co.uk/maxtor-hard-disk-recovery.htm I rang these guys and they told me it is normally one of 2 things, if it is clicking or making a 'musical' tone it is mechanical fault, if it is quiet then it is most likely a firmware fault. </s>
+<s> No cheap way of fixing them unfortunately!! </s>
+<s> I don't know what firmware is exctly in relation to a hard disk drive but there you go! </s>

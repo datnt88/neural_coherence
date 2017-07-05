@@ -1,0 +1,41 @@
+<s> I use a Hughesnet Satellite with a D-Link DIR655 router. </s>
+<s> Hughesnet limits me to 425M per day. </s>
+<s> Once exceeded, I get knocked down to slow dialup for 24 hours. </s>
+<s> I need a router based bandwidth monitor for total traffic accumulating daily (but starting at 4AM). </s>
+<s> I need to be able to see how much bandwidth I've accumulated at any time during the day. </s>
+<s> I have two wireless clients and four wired clients constantly connected. </s>
+<s> Total bandwidth is all I absolutely need, but having the bandwidth separated out by clients would help a great deal to isolate usage problems when one of the clients runs away. </s>
+<s> I've perused the Tomato and DD WRT firmware packages but haven't found enough detail to know if they will work. </s>
+<s> Plus, my DIR655 does not appear as supported. </s>
+<s> If I need to get a new router, I need one with wireless capabilities. </s>
+<s> I had a Linksys WRT54G previously but it needed reboots off and on, plus the wireless connection was too slow (for skype - our only means of communication out in the remote Oregon Coast Range where I live). </s>
+<s> The DIR655 has never hung up and the speeds are good. </s>
+<s> So, has anyone ever addressed this issue? </s>
+<s> Is there a router that allows real time and cumulative bandwidth monitoring? </s>
+<s> If there is not, and I need to use Tomato or similar, what router might be equivalent to the DIR655? </s>
+<s> If there is a router that offers this monitoring, does anyone have personal experience with it? </s>
+<s> Thank you for your consideration. </s>
+<s> Have a great day! </s>
+<s> bob f </s>
+<s> This is now standard on most routers. </s>
+<s> Even my wrn3200 does that. </s>
+<s> http://forum.notebookreview.com/showthread.php?t=276800 notes two other very popular models which I bet do this as well. </s>
+<s> Go get the manual from the maker and read it. </s>
+<s> &quot;but having the bandwidth separated out by clients would help a great deal to isolate usage problems when one of the clients runs away.&quot; Mine doesn't report it by client. </s>
+<s> For that I suggest http://www.netlimiter.com/ Bob </s>
+<s> As noted above, I own a DIR655 (one of the two routers noted on the link you gave). </s>
+<s> It does not do it. </s>
+<s> It does give total packets for WAN, LAN and Wireless. </s>
+<s> I saw nothing in the stats for the other mentioned router either. </s>
+<s> I have been unable to download the manual from Netgear. </s>
+<s> Thanks anyway. </s>
+<s> bob f </s>
+<s> Look at http://forum1.netgear.com/showthread.php?t=43754 and other such discussions. </s>
+<s> Thanks for sharing that the 655 doesn't have it. </s>
+<s> Bob </s>
+<s> I looked a second time and no router reports on a daily basis. </s>
+<s> Looks like you are stuck with Netlimiter.com Bob </s>
+<s> Yes, the WNDR3700 would have been exactly what I was looking for, if it had daily limits! </s>
+<s> Sweet. </s>
+<s> There was the comment by Jeff Baumgartner last July ( http://www.lightreading.com/blog.asp?blog_sectionid=419&doc_id=179437&site=lr_cable ) that &quot;Cisco Systems Inc. (Nasdaq: CSCO) told AP that it's also looking at adding such a feature for its routers.&quot; May just have to suck it up and wait until this feature becomes more mainstream due to the increasing limits on total bandwidth. </s>
+<s> bob f </s>

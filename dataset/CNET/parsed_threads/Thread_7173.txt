@@ -1,0 +1,14 @@
+<s> Hiya peeps, (Happy new Year to you all). </s>
+<s> I have just installed a brand new HDD (160Gb), and it is 'seen', by the BIOS, has been totally initialised, formated etc in the Computer Management Console,(which now shows it formatted and healthy) yet it wont show up in Windows Explorer :eek: (Using XP) I have tried changing from both Cable Select to Master and Slave, with no joy. </s>
+<s> Rebooted countless times. </s>
+<s> My original HDD is still working fine (80Gb). </s>
+<s> MY SOLUTION WAS (finally): In the Computer management Console right click on the coloured bar area (i.e. </s>
+<s> your partition) and click OPEN... and Voila...it appears in explorer (folder view) well, atleast untill you open a new explorer window so if anyone has any more tips, I for one would appreciate it. </s>
+<s> Just thought I'd share it. </s>
+<s> Apparently if you make partitions less than 32Gb they automatically show up, but I read on one forum that that issue was for FAT32 format so I tried it on my NTFS and sure enough it seemed to be the same issue. </s>
+<s> All the best. </s>
+<s> 1. </s>
+<s> Use TWEAKUI (google.com) and make sure no drive letters are hidden. </s>
+<s> 2. </s>
+<s> Use Computer Management Console to remove the partition on the new drive, create it again, format and make a drive letter is noted in the Console. </s>
+<s> Bob </s>

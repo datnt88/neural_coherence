@@ -1,0 +1,69 @@
+<s> i just added 2 sticks of 256mb of pc100 ram to my computer the other day..but when i right click/properties on my computer it says i only have 383mb of ram...does anyone have any sort of help they could offer? </s>
+<s> thanks </s>
+<s> Did you check to see if your system can support more than 128meg sticks? </s>
+<s> A system that is so old it is running PC100 memory is likely to be running Win98 or ME, which both have problems with over 512meg of memory. </s>
+<s> You didn't tell us anything about hardware/software on your system, that eliminates the ability of us to give much advice. </s>
+<s> you are correct..i am running windowsME..if they have problems running over 512 does this mean i cant have 512 at all? </s>
+<s> http://support.microsoft.com/?scid=253912 The workaround essentially tells Windows 95/98/98SE/ME to limit itself to 512 MB. </s>
+<s> So there's no reason to go past that amount since you may have to tell it to curb itself at 512 MB. </s>
+<s> The MAKE/MODEL of the machine or if no make/model then the MAKE/MODEL of the motherboard is required to look at the issue. </s>
+<s> -&gt; BUT KNOW THIS! </s>
+<s> There are BX and other based boards that can't use 256MB sticks you buy at the grocery store. </s>
+<s> I can find the technical documents as to why this is so, but at the end of the story, the memory controller doesn't support the 256 MB stick you have it the stick shows up as only 128 MB. </s>
+<s> There is NO FIX to make these memory sticks work in this motherboard with this chipset. </s>
+<s> But http://www.crucial.com does sell the right 256 MB sticks for this system. </s>
+<s> Hope this helps, Bob Bob </s>
+<s> As indicated by the Moderators some computers cannot go over 512MB of RAM. </s>
+<s> In fact some should not even get up to 512MB. </s>
+<s> One of my computers is a 500MHz Win98se that came with 128MB of RAM when purchased new 4 years ago. </s>
+<s> Crucial.com indicates the maximum for this computer is 192MB of RAM and that is what I installed...runs good and with a GeForce 2 GTS AGP Video Card, runs most current (but not all) high tech video games pretty good. </s>
+<s> Stick with what Crucial suggests for your computer, and even if they indicate a max over 512MB, anything over 512 is a waste (and may cause you problems) unless you do high tech graphics or video editing work. </s>
+<s> JR </s>
+<s> perhaps a bios upgrade is needed for the mobo to be able to see it. </s>
+<s> --fj </s>
+<s> The chipsets in question can never work with todays garden variety 256 MB sticks from Best Buy and the grocery store. </s>
+<s> The address lines just are not there. </s>
+<s> Crucial has the prior flavor of 256 MB sticks for these boards. </s>
+<s> No big surcharge and cheaper than changing out the motherboard. </s>
+<s> Bob </s>
+<s> IT is probable that you have one of two problems, assuming that your comp is fairly old by the ram you are using, it may not read 512mb of ram as a lot of the older comps were limited to 256. </s>
+<s> The second possibility is that one stick is faulty and only supplying 128mb. </s>
+<s> Hope this helps Mathew </s>
+<s> The BX chipset, only supports 256MB modules, that are electrically _double banked. </s>
+<s> These use one less address line, and two 'CAS' lines to talk to the two banks. </s>
+<s> Unfortunately a lot of modern 256MB modules (as chip sizes have got larger), are 'single banked', requiring one more address line, but only a single CAS line. </s>
+<s> This is a limit of the BX chipset (applies to all boards using these), and suppliers like Crucial, have a different part number for the double banked modules, which will automatically be selected, if you specify the motherboard when using Crucial's memory selector. </s>
+<s> The issue extends to other boards and chipsets as well. </s>
+<s> NO BIOS UPGRADE CAN FIX THIS! </s>
+<s> Bob </s>
+<s> Hey Here is what I would do. </s>
+<s> I had a 440Mhz,64 RAM computer. </s>
+<s> And I found the need to update in 2003. </s>
+<s> I bought a Athlon 1600+ (1300Mhz),a new Motherboard 256 SDRAM, and a Geforce Mx 440 for under $200. </s>
+<s> I can run anything on the market. </s>
+<s> It may not be on high but I can run it. </s>
+<s> So I would take a stick of that RAM back and buy a new barebone. </s>
+<s> The motherboard is what is not letting you use all your RAM. </s>
+<s> You have more RAM then your motherboard can use. </s>
+<s> So I would get a barebone(A prosseser,case, and motherboard) then use you hard drive and other parts from you computer to finish you new/improved system!!! </s>
+<s> Hope this helps, Christian Computer Guy </s>
+<s> This is the best answer. </s>
+<s> Upgrade with a barebones. </s>
+<s> It the best and cheapest solution </s>
+<s> Mathew suggested one of the memory sticks might be faulty. </s>
+<s> A small program, fits on a floppy, that I have used recently, did show that I had faulty memory. </s>
+<s> URL for download: www.memtest86.com/ It really sorted things out for me, being struggling for ages. </s>
+<s> Bryan. </s>
+<s> I know very little about computers, but a friend of mine does and he installed another stick of memory on my now old computer (Win98se)and it wasn't recognizing it. </s>
+<s> He found that the mother board was warped and the memory wasn't making good contact. </s>
+<s> A rubber band was a temp fix for the problem till we got a new mother board 2 days later. </s>
+<s> Problem solved with the new motherboard that wasn't warped. </s>
+<s> If you can, please tell me what kind of chipset you have. </s>
+<s> Like the others mentioned, go to http://www.crucial.com to find out what kind of memory is compatible with your system and the maximum amount your motherboard can take. </s>
+<s> I run an old Athlon T-Bird Slot A @ 850mhz, and it only takes 768MB of PC100 SDRAM, but it ONLY took the low density type. </s>
+<s> Higher density RAM (that can take 512MB or more) would only be seen by my computer as 128MB, even if it was double that. </s>
+<s> If your motherboard can take up to 512MB, you might have to remove the first memory stick your originally had (hey, why don't you sell it for a little cash to someone who needs more memory for their basic computer?). </s>
+<s> Chances are, if your motherboard only has 3 slots, it may only go to 384MB (possibly 512MB). </s>
+<s> When you find out if you can run more than 512MB, be sure to check out these links for some workarounds. </s>
+<s> http://support.microsoft.com/default.aspx?scid=kb;EN-US;q181862 - Specifying Amount of RAM Available to Windows Using MaxPhysPage http://support.microsoft.com/default.aspx?scid=kb;en-us;Q181966 - System Configuration Utility Advanced Troubleshooting Settings, Limit Win98/ME to 512MB You can also use this tweak if you can run more than 512MB or RAM. </s>
+<s> Edit these lines in your system.ini file: [VCache] MinFileCache=524288 MaxFileCache=524288 </s>

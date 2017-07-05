@@ -1,0 +1,35 @@
+<s> My current hard drive is getting ready to fail. </s>
+<s> Is it possible to build the new hard drive (main OS and so forth) using another computer and then transfer the drive over to the original. </s>
+<s> I would then make the bad hard drive the slave to copy over data. </s>
+<s> I would like to do this to save downtime while building the drive. </s>
+<s> Is it possible since they are different hardware? </s>
+<s> I would be using XP Pro SP2 </s>
+<s> I personally have tried this twice. </s>
+<s> The first time was when I bought a mach speed board and all new parts after instillation it would not no matter what I did load windows xp. </s>
+<s> I at first thought the problem might be within the hard drive itself. </s>
+<s> After sometime i got fed up with it so i took the hard drive out and put it in my other system, installed xp, then put the hard drive back in the mach speed machine. </s>
+<s> It worked flawlessly. </s>
+<s> I tried this again when i was having about the same problem with another board, it would not work, all it would say was due to hardware changes the hard drive could not be acessed. </s>
+<s> Well i hope this helps, but if i was you i wouldnt do it due to that fact it may or may not work. </s>
+<s> Remove your old drive and install the new one and install your OS. </s>
+<s> After you've done all your updates and you're satisfied with your new drive, power down your computer and plug your old drive back in, making sure to have both drives' jumpers set properly, new drive=master, old drive=slave. </s>
+<s> Boot your computer, you should be able to access both drives now. </s>
+<s> Caution, if you suspect your old drive may be failing, I wouldn't store any data there and always make backups in removable storage. </s>
+<s> Cheers </s>
+<s> When you install Windows on a HD on one system, it will optimize itself for that particular system. </s>
+<s> When you move that HD to another system, Windows will try to change to accommodate the hardware of the second system, often with terrible results. </s>
+<s> Another problem is that you may encounter licensing issues with Microsoft if the copy of Windows is installed on more than one computer. </s>
+<s> What I would do: 1. </s>
+<s> Install a new HD in the computer 2. </s>
+<s> Install Windows on new HD 3. </s>
+<s> Add old HD as a slave or on the other IDE channel 4. </s>
+<s> Transfer important old files to new HD Hope this helps. </s>
+<s> Sorry about the late post. </s>
+<s> The question was what to do about a failing hard drive. </s>
+<s> If it still works get a good backup program (I use one from Paragon Software) and copy the entire drive to a new hard drive. </s>
+<s> As long as you use the same machine the seconddrive works perfectly, it is identical to the origional. </s>
+<s> Have your old drive in the master of the primary IDE Cable (0 hard drive), put the second on the master of the # Ide Cable (1 Hard Drive). </s>
+<s> Then just clone the thing. </s>
+<s> If you use Paragon Drive Backup check the setting in the software that for some reason defaults the new drive as a hidden drive. </s>
+<s> If you don't change the setting the new drive is invisible to the computer (this is probably for backup securtiy. </s>
+<s> Make sure you instruct the software to copy the whole drive and resize as needed. </s>

@@ -1,0 +1,396 @@
+<s> Question: Can you help me stop the bandwidth leeches at my pub's free Wi-Fi hot spot? </s>
+<s> I wonder if your contributors can help? </s>
+<s> We provide a free Wi-Fi connection for customers in our pub; it is meant so they can get their e-mail and find local attractions and maps, and look up the sports results or weather. </s>
+<s> It is not meant for &quot;serial downloading&quot; or watching online TV, as this will just hammer my bandwidth and my ISP will hit me with increased costs. </s>
+<s> My router will allow me to block ports or specific Web sites, but which and how many do I have to block? </s>
+<s> Are there ways to dissuade users from taking advantage of what is meant to be a service for the &quot;honest Joe's,&quot; not a resource for the bad guys.? </s>
+<s> The router does also give each user an isolated IP so they cannot see each other, but are there other security issues I should consider? </s>
+<s> --Submitted by: Andrew </s>
+<s> Hi, Andrew: If you provide some information on your current router, you may get more specific help. </s>
+<s> You didn't mention if you felt that the bandwidth usage was coming strictly from your customers, but my first recommendation would be to make sure your WiFi is password protected with WPA2 security. </s>
+<s> You or your employees can happily give out the password when a customer asks. </s>
+<s> This will avoid nearby customers (say from that business next door) from using your internet connection. </s>
+<s> Another option you may have available in your router is to set a maximum bandwidth usage (usually, in Kbps). </s>
+<s> This might allow you to set a limit that still allows casual web browsing but deters video watching because of the hiccups and buffering it would cause. </s>
+<s> To really attack the problem, you'll need to invest in a firewall. </s>
+<s> The least-expensive option would be some basic (even older) PC running Linux with free firewall software. </s>
+<s> There are a number of options that would allow blocking video/audio streaming, and they probably already have the settings ready-to-go, just needing to be enabled. </s>
+<s> The only downside is that you'll either need someone who is reasonably tech-savvy or you'll need to learn enough to install Linux and configure the firewall software. </s>
+<s> There are, of course, stand-alone firewall appliances, but they cost somewhat more than the DIY Linux solution. </s>
+<s> Once we know more about your specific setup, we may be able to help with settings your router may provide. </s>
+<s> you might want to look at blocking everything, then opening up ports for services you wish to allow. </s>
+<s> I don't believe this is an exhaustive list by any means, but it's a starting point. </s>
+<s> To allow the following, unblock the associated port: General Web Browsing: Ports 80, 8080 and 443 General Email Usage, Various Devices/Clients: Ports 25, 26, 110, 143, 465, 587, 993, 995 Network Time Services: Port 123 Instant Messaging: Ports 1863, 5050, 5061, 5190, 6667, 7001 See if you can find out what the regulars use, then you can find out those program requirements and add them to the white list if you approve. </s>
+<s> Plan B is similar, but involves a proxy or Hot Spot Gateway to manage all that for you. </s>
+<s> The computer doesn't have to that powerful, just nimble - an ITX sized computer with a Fusion APU at its core would capable and cost effective. </s>
+<s> Set it up right, and it won't even need any moving parts. </s>
+<s> This should ideally be sitting between the access point and your internet connection so it monitors everything from the access point, which will mean dual network ports. </s>
+<s> Best of luck, Flirkann </s>
+<s> First, take a look at what bandwidth you have natively. </s>
+<s> Are you using cable for your internet access? </s>
+<s> What bandwidth do they give you? </s>
+<s> Do you have DSL? </s>
+<s> Same question! </s>
+<s> Maybe it might be more beneficial to get more bandwidth but you'll have to ask your Iinternet Provider (ISP) about what is available for at what cost. </s>
+<s> The other suggestion is very important too. </s>
+<s> Even though you may not want to put any security on your router so it would be easy for your customers to use, there are TWO issues with this. </s>
+<s> First, as the signal for the WiFi is not contained within your pub, others may be stealing your bandwidth using it for downloads, movies, and streaming music. </s>
+<s> What I would do is apply WPA2 wireless security. </s>
+<s> You can post the &quot;Password&quot; (Password-of-the-Day or Password-of-the-week) somewhere in the pub where your customers can see it. </s>
+<s> Make sure that your next-door neighbors are not also your customers or you may need to change the password more often. </s>
+<s> You may be able to control the signal strenth in the WiFi to try and keep the signal contained within the pub instead of leaking out to the neighbors. </s>
+<s> By the way, even if the &quot;neighbors&quot; are businesses, it would be a LOT cheaper for them to have Internet access by using YOUR wifi then paying for their own so I would definitely use WPA2 security and change the passphrase every so often. </s>
+<s> There are also firewalls and packetshapers that would let you fine-tune what you will allow and what you will not allow. </s>
+<s> These could be pricey but maybe not. </s>
+<s> You can always do some research and see what the costs would be and what features you really need. </s>
+<s> Do you have signs posted in your pub that explain your expectations, or limits, on usage of your pub's Wi-Fi hot spot? </s>
+<s> If not, that is the first place to start. </s>
+<s> If you do have usage limits posted and some of your customers ignore them, that's one thing. </s>
+<s> On the other hand, if you do not have limits posted, I don't think you are being fair to the customers you are calling &quot;bad guys.&quot; Most people expect that a free Wi-Fi hot spot is just that, and that use is unrestricted. </s>
+<s> A very large percentage of customers at Starbucks, and other establishments that feature Wi-Fi, appear to use it constantly, the entire time they are there. </s>
+<s> I've asked managers if they have a problem with freeloaders and whether having Wi-Fi is profitable, because I am curious about business practices. </s>
+<s> They all say that it draws a lot of business and is very profitable overall. </s>
+<s> You are in a business that typically has a high profit margin. </s>
+<s> You may want to analyze your numbers before you make changes that could alienate customers. </s>
+<s> I'm assuming you use an industrial-strength router in your pub. </s>
+<s> If you don't, then get one. </s>
+<s> Don't be shy of the cost, as it will last much, much longer, and give you many more features -- like a good firewall, targeted bandwidth control and operational stability. </s>
+<s> You should be paying Aus$500-1000 for this equipment. </s>
+<s> I'm also assuming your customers supply their own computers. </s>
+<s> If you supply the machines, then have all USB ports, CD/DVD drives and floppy drives removed. </s>
+<s> Then remove all software you don't want used, and make sure user accounts do not permit installing software. </s>
+<s> One of the nice bits on decent routers is targeted bandwidth control. </s>
+<s> You can set limits here, for example give all users individual quotas, say 1 or 2 MB. </s>
+<s> OK, that sounds restrictive, but in practice it's plenty for quick browsing and casual email checks. </s>
+<s> If necessary, you can reduce that to, say, 500KB, but that's starting to get ugly. </s>
+<s> Once the quota is used, block that IP for 10 or 15 minutes. </s>
+<s> Hforman has suggested signal strength control -- if your router does not permit that (some don't, it's &quot;automatic&quot;) then a cheap solution is to cover the interior walls and ceiling of your WiFi room with chicken wire under a fresh wall-paper. </s>
+<s> This will greate a &quot;Faraday cage&quot;, which will effectively stop external leeches. </s>
+<s> I wouldn't bother with other security issues. </s>
+<s> WiFi &quot;hotspots&quot; are public access by definition, so WPA etc will only hinder and annoy your customers. </s>
+<s> People understand they use hotspots at their own risk. </s>
+<s> However, don't use this router for your personal and business machines -- get a separate account from your ISP, as the WiFi account will be comromised as soon as you set it up. </s>
+<s> Gordon. </s>
+<s> Sounds like all the ingredients for a legion of drunken phoolisness to descend upon local emergency room after needle tipped darts fly over locale to amuse citizenry or show off warbirds. </s>
+<s> No, wait, that is from a TV show. </s>
+<s> OR Buy encryped dongles to give customer(s) so they may utilize freebie. </s>
+<s> Further OR Become one with your router? </s>
+<s> ISP? </s>
+<s> Customers lappies? </s>
+<s> FINALE You can't. </s>
+<s> U lock, 'they' break. </s>
+<s> Very simple, too true. </s>
+<s> If you really want to stop MOST of the leeches, you will need to create a secured AP that only trusted customers can access with a password. </s>
+<s> Most routers are capable of multiple connections, so you can isolate your own network from the publicly accessed one with little problems. </s>
+<s> The real task will be in managing who you give the password to, and watching your usage to see if you get an out of proportion increase, indicating someone you gave the password to is one of the culprits. </s>
+<s> If that happens, change the password. </s>
+<s> Your trusted users will understand. </s>
+<s> You could keep a list of users if you care to. </s>
+<s> THE easiest way to allow customer access, and dissuade leeches in the neighborhood is a PotD! </s>
+<s> (Password of the Day!) </s>
+<s> It can be posted in a place that is not visible from the outside (through a window for example) but easy to see for customers. </s>
+<s> Or it can be a card attached to the menu, the say as the &quot;Special of the Day&quot; {SotD} there are apps (like MsDonalds and other places, that do not allow access to their free WiFi until you agree to play by the rules. </s>
+<s> and I suspect those should be easy to find if your router cannot be setup to ask for a password. </s>
+<s> This will not stop leeches within the restaurant, but if Bandwidth IS the issue, Many routers can be set with a bandwidth limit per connection. </s>
+<s> Email and the like will usually be quite fine at 50 to 100K bandwidth (although some emails can get stuffed with lotsa of graphics) but to keep VIDEO feeds to a minimum, 100k bandwidth limits will make most video (especially MOVIES) quite unwatchable, but even graphics happy webpages load relatively quickly. </s>
+<s> dd-wrt is an open source firewall that has been ported to most brands of routers. </s>
+<s> You have to make sure to get the version that matches your router, and they have a help system to point you at it. </s>
+<s> From there, it's pretty easy to flash it onto the router. </s>
+<s> Built in to dd-wrt are a few different hotspot management systems to choose from. </s>
+<s> I've never set one up myself, but they're designed for exactly the situation you're facing. </s>
+<s> So, I'd assume that at least one of them would be fairly straightforward to set up. </s>
+<s> Drake Christensen </s>
+<s> Hi! </s>
+<s> I have noticed all the hardwares comments, and many are good ideas (but more expensive). </s>
+<s> What about using software readily available from others to accomplish much the same thing? </s>
+<s> A daily new password, generated by that system, can be very effective. </s>
+<s> Then you can provide a &quot;templated&quot; access to the net, making it difficult for one to just leech from afar. </s>
+<s> Such software does not totally eliminate net access, but makes it more unlikely to be usable by non-customers. </s>
+<s> Customers with proper daily passwords would be able to by-pass the templated screen to surf anywhere (or not), and that would cut down access time. </s>
+<s> Also could provide timed sessions, tailored to their expected time online (for example, a password change after 45 minutes, etc). </s>
+<s> Sure, softwares can eventually be &quot;hacked,&quot; but NOT if a daily password is used. </s>
+<s> I used to use software like this to remotely control a pub's wifi system, and it worked very well with a minimum of new expenses. </s>
+<s> Good luck with your decision! </s>
+<s> I would suggest you make up index-sized sheets with a paragraph explaining your situation and give them to people using devises. </s>
+<s> E.g. </s>
+<s> &quot;We provide a free Wi-Fi connection for customers in our pub; it is meant so you can get e-mail , find local attractions and maps, and look up the sports results or weather. </s>
+<s> It is not meant for &quot;serial downloading&quot; or watching online TV, as this consumes huge bandwidth and our ISP will increase our costs. </s>
+<s> We appreciate you using our wi-fi service considerately.&quot; </s>
+<s> The problem with leeches is that they can do nearly everything they need to do through the Web ports, which you will need to leave open in any event. </s>
+<s> Blocking those ports will prevent other abuses, so it's still a good, albeit partial, solution. </s>
+<s> (Port 8080 is generally used for websites under development, though, where they are usually only to be viewed by the developers themselves, so you may not need to unblock it). </s>
+<s> Secure it with WPA2 and use a passkey. </s>
+<s> Provide your customers with the passkey on request. </s>
+<s> Of course, this won't address the issue of a person who has in the past been a customer becoming a leech, but you can deal with this by creating a new passkey each morning or so. </s>
+<s> As your running an open wi-fi hotspot with a business you might be better to call in a separate company to set up a wi-fi hotspot for your customers, this can be run in conjunction with your existing connection and can be set up to allow you all the internet you require and access to all the things you want, whilst allowing your customers a free basic internet service and stop them from over doing your existing broadband. </s>
+<s> In the UK we have numerous companies all offering this service, BT offer BT OpenZone and the wi-fi hotspot is set up by them for the company that has the hotspot. </s>
+<s> It is in the ISP's interest to offer these, rather then yours as like with BT they can advertise to their customers their is x number of hotspots available throughout the UK to our customers so increasing the chance of someone subscribing to their ISP service rather than a rival who doesn't have as many. </s>
+<s> There is also Fonera which is another company that supplies routers that can create proper Wi-Fi hotspots, and The Cloud all to name a few. </s>
+<s> All these companies have a system that allows them to give free internet away to their customers, and also charge non subscribers based on usage. </s>
+<s> They also have servers that are set up a lot better to monitor each individuals usage and restrict them from using specific channels, or charge them more for the privilege. </s>
+<s> This would be a much better route to follow rather than trying to do it yourself, these major business have all the structure set up to keep customers secure, and offer them a certain amount of wi-fi whilst blocking out over-usage. </s>
+<s> In addition to this many of these will also pay you for having a hotspot. </s>
+<s> Now think of this one - in your pub I bet you have some kind of fruit machine don't you? </s>
+<s> Now do you own that fruit machine or did you hire it from a third party. </s>
+<s> Chances are I know your going to say you hired it from a third party - and why? </s>
+<s> Because it would cost you more to buy that fruit machine, and to have that fruit machine maintained, and replaced every time a newer model comes out than what it does to let the lease company keep a percentage of the profits from the fruit machine, and you to be paid by them for having the fruit machine in your premises. </s>
+<s> Wi-Fi is exactly the same, don't do it on your own, call a professional company in to supply your wi-fi hotspot to your pub rather than creating your own. </s>
+<s> Boingo seems to be one of the main wi-fi hotspot suppliers in the US so maybe you might want to take a look at their website here http://www.boingo.com/partnerships/ </s>
+<s> Plus I forgot to mention many of these big firms also have a search engine for people to find their local hotspots, which can work as free advertising for you as well and increasing your customers. </s>
+<s> Hi Andrew, Just wanted to say that prior to reading your question, I hadn't realized that this might be a problem for business owners. </s>
+<s> I live in Manhattan, and used to frequently take my laptop and a DVD and go out to dinner by myself and watch a movie. </s>
+<s> Now, however, I keep a list of local restaurants that provide wi-fi, and I patronize them so I can have dinner and stream a movie to my iPad from Netflix . </s>
+<s> Am I an inadvertent &quot;bandwidth leech?&quot; Is streaming as much of a drain as downloading? </s>
+<s> I certainly don't want to cause problems for the restaurants' owners, but I patronize these establishments because they offer free wi-fi, often dining somewhere that wouldn't otherwise be my first choice. </s>
+<s> Should I rethink this? </s>
+<s> Thanks! </s>
+<s> Yes you are an inadvertent &quot;bandwidth leech&quot;. </s>
+<s> Streaming is downloading -- you have to get xxMB to watch the movie, the only diff is you don't get to keep the download. </s>
+<s> You'd do better to patronise a joint you actually like, but download a movie of your choice before you go there -- dunno how the management would treat your use of their establishments, OTOH it's none of my business! </s>
+<s> Gordon. </s>
+<s> gordon451 said: &gt; block that IP for 10 or 15 minutes You mean MAC address. </s>
+<s> I would suggest that you set up and configure a router that allows you to do what's called &quot;Captured Portal&quot; What this does is that anyone who gains access to your WiFi signal will be instantly routed to a website. </s>
+<s> You will have to write this website, but it's simple to do... You can have the website say &quot;if you need to have access to this *FREE* WiFi, please get the password from an employee of XYZ store&quot; Then you change that every week. </s>
+<s> Have a whiteboard in the back room that has that week's password and viola! </s>
+<s> you're good to go! </s>
+<s> And the great thing here is that all of this is free... grab an old computer, download Monowall to a CD, boot the computer off the CD and configure Monowall...boom, done! </s>
+<s> This is what I use at home and it's bulletproof! </s>
+<s> No.. you *DON'T* need to spend lots of money on a router. </s>
+<s> Just grab an old computer...and I do mean old...I am using an old repurposed Pentium Pro... </s>
+<s> Pop in a WiFi card (you can get these for like $15 online). </s>
+<s> Download Monowall (free) and burn it to a CD. </s>
+<s> Pop the CD into your ancient computer and boot off of the CD. </s>
+<s> Configure Monowall, set up Captive Portal, redirect all WiFi traffic to a login webpage where you control the password. </s>
+<s> Hand out the password to anyone who asks...change the password every week...leaches gone!! </s>
+<s> ! </s>
+<s> You're funny... No, for what you pay for a sitdown dinner in Manhattan you should get a free movie *grin*. </s>
+<s> I am sure the Maitre D' is perfectly aware, they'd have otherwise long since told you to take your platinum card elsewhere. </s>
+<s> But you made a very good point - free WiFi has become part of expected service, and the business owner needs to make sure he or she covers the cost. </s>
+<s> That cost is tax deductible. </s>
+<s> You might ask the manager if it's OK, but I'd do that where dinner costs $15, not where it costs $50. </s>
+<s> Would I, as a business owner, stop a poor student with only a limited Blackberry data plan from downloading stuff? </s>
+<s> I might suggest they go to the library, but then again, the student might bring in his Zuckerbuddy, who happens to own the Universum, can I predict the future? </s>
+<s> For the OP, Fonera is not a bad option, they have routers you can divvy up between public / controlled, and private, where the node sets in the router how much bandwidth is available to the public, and they may drive traffic to your pub, depending on where you are. </s>
+<s> Check it out. </s>
+<s> did you answer the question? </s>
+<s> how does PotD help here? </s>
+<s> it wont throttle nor facilitate throttle. </s>
+<s> look at the standard 802.1p please and throttle the whole pipe - PERIOD dont worry about equality: you are paying the toll for the comms pipe I was on the &quot;Internet&quot; in 1994 and I have &quot;some&quot; experience I am astounded at the poor CNET answers claiming to be fixes </s>
+<s> Andrew I can empathize with your situation having owned an ISP long ago and I had similar issues I suggest a very quick look at some smarter routers , even the wrt-DD &quot;hacked&quot; types to facilitate 802.1p Quality of Service bandwidth throttling and instead of allowing a full 8000K per second , how about a nice pinch down to 1024K for all types of allowing SNTP and POP3 and the basics 512K (in both directions)? </s>
+<s> Pinch that pipe or ask your service provider if they could limit the traffic; the problem is that it takes special &quot;appliances&quot; to do this stuff and its costly for a biz owner that must deal with drunks and waitress-shrinkage at the till and probably other things dont worry about &quot;slower pipe&quot; syndrome you are paying for the access and providing a free? </s>
+<s> service you can also configure wrt-DD router types for special pay-to-access support although its unclear in the forums on the logistics of this service and brings up the Quality of Service issues in reverse. </s>
+<s> Password of the Day suggestions provide an extra barrier but your staff now have to deal with announcing that // it may provide some control but wont limit your per-packet cost John (37 years Telecom, 9 years in ISPaccess) </s>
+<s> None of these are FREE to your customers and/or YOU! </s>
+<s> .....if they are doing it out of the kindness of their cold hearts, they must be getting profits or benefits somewhere. </s>
+<s> Others here have mentioned better options for small business, that for the most part are using Wifi Access as a come on freebie in the first place. </s>
+<s> Go to a revenue model where.... let's say they offer a percentage in return, your loyal locals will scatter and find a place they can drink a beer and check email, etc without having to pull out a Credit Cart or being a member of some Wifi Access Global Conglomerate! </s>
+<s> If we knew what router the owner was using that would help immensely. </s>
+<s> Many routers have features for timed access, with a password that can also be programmed with a bandwidth limit. </s>
+<s> You can also restrict access sites or domains, if not a full blown block of sites with porn, etc. </s>
+<s> Boingo is quite frankly a real turnoff for small businesses that are more interested in attracting customers than making their profits from Wifi Access. </s>
+<s> Most regulars would quickly find another spot in this case to have some drinks and do normal things you do in a bar. </s>
+<s> For Airports where you have non paying public that also have access. </s>
+<s> Boingo is perfect........ </s>
+<s> But not a local bar or pub where the Wifi Access is just a fringe benefit, where the owner makes his money off his main business like serving drinks! </s>
+<s> dd-wrt also has QoS throttling capability </s>
+<s> There's a place I visit often in New Hampshire called Federal Jack's. </s>
+<s> (A brew pub / restaurant - which explains why I visit often.) </s>
+<s> They have customer wireless that's actually pretty good. </s>
+<s> But they're smart enough to not have a fixed password. </s>
+<s> When you show up, the hostess will give you a unique wifi key on a printed slip that's good for a couple of hours. </s>
+<s> When you sign into their web-auth, the key will give you access, but clearly expires after the normal guest access window. </s>
+<s> I don't know which system they're using, but it struck me as the most serviceable option I've seen in public use. </s>
+<s> It's certainly not something they're administering manually - something has to be generating the keys en-masse and setting the expirations. </s>
+<s> In a nut shell the router needs to be locked down and restricked in traffice. </s>
+<s> You can always try to use the firewall and on the other persons machine, block everything other than ports 80,443,25,110,143,993,465, 995 in the router. </s>
+<s> However Http download likely go through port 80 as well as browsing so you cannot block that. </s>
+<s> But various establishment do it somehow. </s>
+<s> Pop in and as the manager as to what they using for internet filter restrictions. </s>
+<s> Open WiFI is a big NO NO. </s>
+<s> You'll want WPA/WPA2 security for sure and change the password as often as required to keep roadside thieft and connections. </s>
+<s> Power off the router at the end of the day. </s>
+<s> Maybe a proxi server will be required to handle the restrictions as well with commercial software to control users. </s>
+<s> Google for other ideas. </s>
+<s> Did you read the entire message? </s>
+<s> The opening and the 2 paragraphs. </s>
+<s> I covered both situations. </s>
+<s> Read many of the replies and they all offer good advice. </s>
+<s> It sounds that you have a pretty casual system set up there and assuming you don't have your own personal computer on this WiFi that you're trying to setup, I'd keep it simple and use either WEP or WPA and change my router password every few days. </s>
+<s> This should prevent anyone in the parking lot with a laptop or neighbors from grabbing your bandwidth. </s>
+<s> From there, I'd consider a 'terms of use' document that any of my guests needed to sign & date in exchange for a password. </s>
+<s> So far as choking down your bandwidth to keep the bandwidth hogs at bay, here's a good article on that. </s>
+<s> http://markmaunder.com/2011/01/26/how-to-reliably-limit-the-amount-of-bandwidth-your-room-mate-or-bad-office-colleague-uses/ </s>
+<s> Why not simply file a police report? </s>
+<s> They are stealing your internet. </s>
+<s> This is a crime in many places. </s>
+<s> Give them the MAC address of the offenders. </s>
+<s> You should be able to determine those by the times and days that they use your internet. </s>
+<s> Filter out the regulars and what is left over are the criminals. </s>
+<s> Press charges and sue for damages. </s>
+<s> You could babysit the router though. </s>
+<s> Each time a regular comes in you can add them to the ACL. </s>
+<s> You just need to know their MAC address. </s>
+<s> Eventually you will have only regulars on the list and the bandwidth bandits will have to go elsewhere. </s>
+<s> Just be advised that it is just a matter of time before they can gain access to your internet again. </s>
+<s> Lots of software that can do that for them. </s>
+<s> If you hired a 'white hat' hacker to write a very nasty virus and inject it into bandwidth bandits' computer.... </s>
+<s> Ya know, the kind that burns up the computer not just to software. </s>
+<s> If they use a Macintosh computer or a Linux distribution the hacker may have problems attempting to do that. </s>
+<s> If you know who is doing it you could drop them a hint that your bandwidth is being stolen and as soon as the FCC gets done pressing charges you will be suing as well. </s>
+<s> Just don't say that you are accusing anyone specifically. </s>
+<s> You see, hacking a home computer is a minor offense, but hacking a business system (or business internet) is a much higher crime. </s>
+<s> I know it doesn't do much for business but a few places I visit hand out passwords with a register receipt. </s>
+<s> That way even the leaches have to buy something. </s>
+<s> A good traffic manager could identify abusers and slowly throttle them down to frustration without affecting other users. </s>
+<s> I would change the password or string every day or weekly depending on how quickly the leeching starts. </s>
+<s> Turn off (schedule) the wireless radio at night so that people cannot tap in when the place is closed. </s>
+<s> Remind your customers, with signs and other means that the connection is NOT meant for extensive video streaming or large file downloads. </s>
+<s> Change your pass phrase every day, (this will become a PITA most likely). </s>
+<s> Consider charging a nominal fee OR a minimum purchase for use of the &quot;Free&quot; internet. </s>
+<s> Look into the Ad-served &quot;Free&quot; wifi service similar to those offered at McDonalds. </s>
+<s> Most importantly: Look into an unlimited data plan so that you can rest easy regarding anyone who abuses the service. </s>
+<s> IF you need to pay more for an unlimited plan, you can make adjustments to your prices to cover the costs. </s>
+<s> When I consider places to eat or drink, especially during the daytime, I gravitate toward places with free internet. </s>
+<s> Usually the connections are slow, but fast enough to get emails, and do some light browsing, including occasional youtube etc.. </s>
+<s> In short, having free internet is very likely adding revenue because people remember that you have it and will come back to enjoy your pub, AND some social networking etc.. </s>
+<s> I realize it's a cost, but I can virtually assure you that offering the service is Adding To Your Bottom Line! </s>
+<s> All you need to do is work out a balance of profitability and cost, and then rest easy that offering the service is adding to your profits! </s>
+<s> Good Luck! </s>
+<s> DD-WRT is a third party firmware you can flash to your router, it's linux for your router, (this way you don't have to use a completely separate pc), using this you can control the speeds at which each customer accesses your internet and what ports are accessible. </s>
+<s> And with OpenDNS you can block access (by domain) to websites of your choice (when you sign up for the service you'll see a list of different categories of websites you want to block), and if you want to unblock a website for a customer you can set a password for that too. </s>
+<s> Of course OpenDNS only blocks domains but you can monitor all traffic through DD-WRT and if you find anyone accessing websites by IP you can manually check what the IP leads to your self and block it if you decide it needs to be blocked. </s>
+<s> http://www.dd-wrt.com/wiki/index.php/Chillispot Chillispot, a hotspot service for use with dd-wrt routers. </s>
+<s> Read up! </s>
+<s> Really like some of the ideas, many very good principles from all the others.One important issue is how much time and expense you want to put into this situation. </s>
+<s> You are not hopefully running an international spy ring, so expense vs value obtained will be an issue. </s>
+<s> I hate censorship personally, but do use some Ad Blocker programs on known Troublesites, but has to be installed between users and the net. </s>
+<s> Some possible addresses are available to be added to your security software manually as lists. </s>
+<s> This is not a total answer, in fact all of the answers from everyone put together are not a full answer. </s>
+<s> As hackers learn new techniques, anything is eventually up for grabs. </s>
+<s> Encrypted Dongles would help , but would be so expensive that your customers would have to pay for them, and once 1 hacker has a dongle, and cracks it, well, start over time. </s>
+<s> Passwords changed every day would have similar issues as passwords tend to get passed around.Remember others can monitor wifi signals and collect data whenever anyone is connecting to your system. </s>
+<s> Would be a great idea to just be on the alert and be ready to act anytime including shutting down the system automatically when certain activities are encountered by security system. </s>
+<s> Knowing that you can't win, is the start of understanding the real situation, and learning how to moderate the problems. </s>
+<s> Thought of as social entropy, you then come up with the most efficient system for your needs. </s>
+<s> I run a small coffee shop, we serve about 100 meals a day mainly breakfasts and sell loads of coffee and tea. </s>
+<s> My free WifFi was made useless with the number of leachers which angered my paying customers, after all it was for them... </s>
+<s> The solution came from a regular...I began collecting e-mail addresses from regulars to send out daily specials, news, and odd bits like trivia...my regulars all get a new password every week as well as a free coffee now and then. </s>
+<s> I still have to give out the password to some who ask, or aren't regulars, but it's now a good service and a good reward for my customers. </s>
+<s> It takes three minutes to change once or twice a week and is always whatever is on special that week, this weeks password is 'scone' it's a simple thing to keep my customers happy, and even the kids who leach the signal once in a while end up having to buy something to get the password from me...and then it changes in the new e-mail flyer i send out. </s>
+<s> On the positive side, i have a great e-mail client list, they love the specials that come in the emails, i sell out of everything on special, we have developed a great trivia game through the emails, and my problem was solved in a positive way with no angry people. </s>
+<s> Hi Andrew, Simple solution to your problem. </s>
+<s> Apply parental controls to your brouser. </s>
+<s> You can limit the browser to open only the handful of sites you want. </s>
+<s> Regards Chiefnet </s>
+<s> Surely it is password protected and you have to give anyone wishing to use it that password. </s>
+<s> if not then you should do so. </s>
+<s> Just means u change the password regularly. </s>
+<s> I think the problem Andrew has is with genuine customers (who would know the password of the day) using his wi-fi for bandwidth intensive things like downloading and streaming rather than just surfing/emailing as was intended. </s>
+<s> If you want to leave it open, i.e. </s>
+<s> w/o PW, Go into the router and set the broadcast power to 10%. </s>
+<s> This usually enough for one room and has little or no leakage. </s>
+<s> Turn it up 5% at a time until you have no complaints. </s>
+<s> Ideally the router sit in the middle of the room. </s>
+<s> If you have more than one room put it in the doorway between them or the wall between them. </s>
+<s> If the router must be on an outside wall then put tin-foil behind it to block the signal to outside. </s>
+<s> I do hope you have two system in your Pub? </s>
+<s> One for business and one for customers. </s>
+<s> I agree, check your state laws. </s>
+<s> There is no real way to make wifi 100% secure. </s>
+<s> http://arstechnica.com/tech-policy/news/2007/05/michigan-man-arrested-for-using-cafes-free-wifi-from-his-car.ars </s>
+<s> Password of the day is one good answer. </s>
+<s> Just having free internet useage opens up many issues you may have to deal with, and several people have offered some decent advice, but the best answer is to understand that just by having free internet service, you ARE drawing people into your business. </s>
+<s> You can try all the other things, but be careful that you are not turning people away in the process. </s>
+<s> Changing the password with WPA2 encryption is always good. </s>
+<s> I don't know how big your pub is but consider downgrading your router because you want to decrease the range of your wifi signals to stop at the walls of your pub. </s>
+<s> I have a router with N and everybody in the neighborhood knows me. </s>
+<s> If you replaced it with B or G, the range wouldn't be as good and only people with WiFi antennas would be able to get on. </s>
+<s> There are things you can do like put the N in the basement to keep the signals muffled but you want the signals to stop at the walls of your pub so you might want to downgrade to a router with B or G. People with iPhones can get on your router so you don't want people making phone calls on your router if you have an N router unless they are coming there for the service and it is driving in business. </s>
+<s> The other thing you can do is turn the router off during non-business hours and get a different service provider where the gigabytes makes economic sense. </s>
+<s> You might want to bring your service provider into the picture to see what they can do for you. </s>
+<s> To look into buying an unlimited internet plan, so that he can get back to building his business. </s>
+<s> IF you take away the worry that leaches cause, you can focus on making your business the best it can be. </s>
+<s> This might cause an increase in internet cost, but I can just about assure you that many (or at least some) customers come because of the free internet. </s>
+<s> This results in INCREASED REVENUE. </s>
+<s> Increased revenue allows for the additional overhead of internet costs, and hopefully creates a profit that you'd otherwise not have. </s>
+<s> Consider an unlimited plan and get back to work in/on marketing your pub! </s>
+<s> Of course locking down your router at night by turning off the wifi radio and changing the login every day is also a help. </s>
+<s> A lot of this depends on willingness to spend time and a bit of money to set up a &quot;walled garden&quot; and/or other &quot;roadblocks&quot; to leeches. </s>
+<s> If you have a PC or laptop you can use that, as Tim points out, to be used as your stand alone physical firewall that you can put Astaro's home firewall on. </s>
+<s> The machine is used only for the firewall as the image takes up the whole hard drive, but you can configure it to do what Tim mentioned, throttle bandwidth, and provide some monitoring of traffic, etc, and its free. </s>
+<s> http://www.astaro.com/landingpages/en-worldwide-homeuse HTH, Good luck Andrew! </s>
+<s> I agree, considered and mentioned another solution for that problem. </s>
+<s> not throttling the entire bandwidth as some suggested, but throttling individual user bandwidth. </s>
+<s> Throttling the entire connection defeats having a larger bandwidth. </s>
+<s> Throttling individual user LOGINS allows everyone to enjoy as much internet access as their access level permits (this suggests that &quot;special access&quot; could be granted to a user for a specific situation. </s>
+<s> The thing that should be considered. </s>
+<s> Do not over complicate the affair. </s>
+<s> use what is needed and KISS!!! </s>
+<s> (Keep It Simple Stupid) This is a simple problem that only requires a simple solution. </s>
+<s> Over-complicating the thing is a flag for impassioned pioneers of Hacking. </s>
+<s> It is a challenge! </s>
+<s> something to defeat. </s>
+<s> (and most of the kids out there have some pretty good tools (Other people wrote for other GOOD purposes, as well as specialty Hacker tools) Be secure, but don't make yourself a target. </s>
+<s> Just discovered the Peerblock firewall and it's free! </s>
+<s> Very useful and flexible. </s>
+<s> I agree with the several ideas of doing a cost analysis for the pub in terms of return on the investment in an &quot;open broadband&quot; plan. </s>
+<s> It may still not be enough. </s>
+<s> This is where this firewall comes in. </s>
+<s> You have control over both ports and sites to be blocked out, no rocket science included. </s>
+<s> All you need do is get the browsing histories for the unwanted sites and block them. </s>
+<s> This may still be stick figure control, but it may help to get the wildest cards off the table. </s>
+<s> I have read through a good number of the posts above, although not all, and have the following thoughts: First, a constantly/daily changing password will annoy your regulars. </s>
+<s> How much? </s>
+<s> I don't know, but it may cost you business. </s>
+<s> I think your best solution would be to first, post your expectations to customers. </s>
+<s> Make sure they know that the service is not intended for high bandwidth use. </s>
+<s> Second, configuring your local network. </s>
+<s> As noted by some, you need two separate networks: one for your business and one for your customers. </s>
+<s> This does not require two connections. </s>
+<s> Assuming your current bandwidth can handle all the traffic of both, you would probably want to go with a switch or router as the first point of connection which has no other services going, beyond basic routing activity. </s>
+<s> Not even a firewall. </s>
+<s> Connected to that are two separate routers, one for your business and one for your customers. </s>
+<s> If you have a powerful (expensive) enough business router, this can be done with just the one appliance. </s>
+<s> I am assuming you don't have some high-end Cisco or such appliance. </s>
+<s> On the router for customer use, it would need to have the ability to perform bandwidth throttling on individual connections. </s>
+<s> Decide how much bandwidth you want to allow any given user to pull at any given time, set the throttling to that amount and all is taken care of. </s>
+<s> You might want to consider a second, secure connection for &quot;regulars&quot; and special cases to whom you wish to provide more bandwidth. </s>
+<s> The first customer connection would have no security beyond initial direction to a TOS agreement. </s>
+<s> This will pretty much eliminate any need of support. </s>
+<s> If you enable security, you will almost certainly regularly have problems with customers connecting and needing help. </s>
+<s> You don't want that. </s>
+<s> Any type of Firewall will cause a reduction in available bandwidth, so beyond the inherent NAT firewall, you probably don't want one. </s>
+<s> As you move to increasingly costly and advanced routers, requiring more advanced and expensive technical skills to configure and operate, there are ways to allow users brief periods of high bandwidth but then fall back to a slower bandwidth after some period of time. </s>
+<s> This would allow the casual users higher performance while making life not so nice for the big file down-loaders/media users. </s>
+<s> You have to balance things like a $2000 router and a $100 an hour network person to setup and maintain against the cost of higher customer bandwidth use and possibly having to increase the bandwidth to your business. </s>
+<s> I like the one suggestion given regarding a Farady cage using chicken wire, but I'd have to question what that might do to things like cell phones and devices operating along those lines? </s>
+<s> Would that kill my phones 4G reception? </s>
+<s> ... As others have pointed out however, the availability of the internet at such places is likely a significant draw to your business, providing you with additional customers who stay longer and probably purchase more so you have to carefully consider the advantages and disadvantages to any given approach. </s>
+<s> You might consider establishing some means of simply monitoring the bandwidth used by any given connection. </s>
+<s> As others have also pointed out, the customer router/network should be off when the business is closed. </s>
+<s> Check around and see if there are any ROI studies covering this topic. </s>
+<s> I expect that someone has done such and let that be your guide: what is the Return On Investment by providing various types of access? </s>
+<s> With best wishes for your success, Mike </s>
+<s> You don't need a switch between the cable/dsl modem and the router. </s>
+<s> Just string one router after the other. </s>
+<s> Go from the modem to the customer router, and then plug the internal router into a port on the customer router. </s>
+<s> From the point of view of the internal roter, the customer router is part of the wild, wild Internet, and not to be trusted. </s>
+<s> If you set up different IP ranges (192.168.0.x vs 192.168.1.x) you can even log in to administer the customer router from a computer within the internal network. </s>
+<s> Routers are so cheap that I've done that at my house. </s>
+<s> That way, if one of my friends has a virus on their system that goes looking for a machine on the internal network I'll be protected from it while still giving them access to the 'Net. </s>
+<s> Drake </s>
+<s> Why not using a FON hotspot, which comes out of the box with real security and separation between users (note: the separate IP is NOT a security, because all IPs in a classic hotspot can directly ping each other and discover themselves). </s>
+<s> FON hotspot are cheap, preconfigured, and will provide bandwidth capping for each user; there are even some admin tools to help manage the protocols you want to keep available. </s>
+<s> If ever you get extra costs from your ISP, FON will grant you additional rights because of the usage made by your customers on your hotspot. </s>
+<s> No complication: keep yout existing Wifi hotspot in private mode for your own usage, just connect the FON router on an Ethernet port of your Internet router, or on an intermediate switch. </s>
+<s> MightyDrakeC, If you notice, I mentioned the first step as a router or a switch. </s>
+<s> The point is to have something at the point of entry that allows for two separate networks and has the smallest impact upon bandwidth. </s>
+<s> This could be done with a single device for that matter. </s>
+<s> It would be possible to do this with an old computer, three network cards and Linux. </s>
+<s> Each router/firewall device has a negative impact upon data transfer. </s>
+<s> Having multiple one after the other incrementally reduces the final bandwidth available as well as increases perceived latency. </s>
+<s> Also, the type of routers you are speaking of which are so cheap are usually not really appropriate for a business network. </s>
+<s> Most of the cheap ones you mention lack decent logging tools, bandwidth controls, etc. </s>
+<s> I have been looking at the new Asus RT-56N for my home for the very reason of network controls and logging. </s>
+<s> Mike </s>
+<s> Good luck getting the police to do anything about it, much less the time involved for the business owner. </s>

@@ -1,0 +1,14 @@
+<s> I am having trouble when trying to adjust color settings from 16 to High color 16. </s>
+<s> Display properties box reporting that there's a IRQ conflict that prevents me from changing color settings. </s>
+<s> Any suggestions? </s>
+<s> Thanks in advance. </s>
+<s> P.S. </s>
+<s> When I tried to run Hardware Troubleshooter, a blank window appeared. </s>
+<s> That's not unusual if the BIOS is out of date or the owner didn't install motherboard drivers. </s>
+<s> But you didn't tell much about the host machine. </s>
+<s> Bob </s>
+<s> What is the IRQ of the display device and what is the conflicting device? </s>
+<s> It may be possible to move one to another IRQ. </s>
+<s> Another thing you can do is free up IRQs by disabling unused devices in the BIOS such as serial ports. </s>
+<s> These can be reallocated by Windows when resources get scarce. </s>
+<s> I might also wonder if you have a legacy device using jumpers to take a specific IRQ that the display card wants but this should be rare as display cards aren't usually that picky. </s>

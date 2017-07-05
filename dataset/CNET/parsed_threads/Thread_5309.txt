@@ -1,0 +1,34 @@
+<s> I'm fairly new to the world of Computer Hardware. </s>
+<s> okay, I have a m7100y that I'm trying to get to work. </s>
+<s> I think it's been modified (it's not new and it belonged to somebody else before me). </s>
+<s> I know it doesn't have a graphics card, and I know it's got more RAM then it had at first, but I'm not sure how much was done in the factory when it was order (if any) and how much was done after purchase. </s>
+<s> When I try to turn it on a text that looks like it comes from DOS (or the BIOS or whatnot) says: &quot;The CPU fan has failed&quot; and... </s>
+<s> I'd tell you the rest but I can't remember it word for word, and I do remember it said something like &quot;the CPU could break/overheat if you do not shut down now&quot; it automatically shut down after showing this message for five seconds or something. </s>
+<s> It also advised me to... </s>
+<s> I think the gist of it was that it wanted me to fix/replace the fan before I turn it on again. </s>
+<s> Okay, I don't know anything about hardware really, not anything about CPU Fans at least and my Google searches for helpful technical articles on finding a compatible one have failed. </s>
+<s> So, does anybody have any hints or know of a useful link that tells you what kind of fan you need? </s>
+<s> okay, since the fan may have been replaced, I'll give you the stuff written on the one that's on the motherboard (I'm assuming that's an efficient way of describing the one that's not on the back of the tower): intel ce D30188-001 N74110 K1 F09A-12B1S2 01AC2H3 (CX) DC 12V 0.20A NIDEC CORP I assume that's the CPU fan. </s>
+<s> Oh, and the Tower hasn't had it's cover on it for awhile and it's got dust on the motherboard and stuff, but with it being open I would think that that would help to ventilate it, and I wouldn't think that the dust would be the only cause of this. </s>
+<s> I didn't bother going to Hp.com and looking for the details (you can do that.) </s>
+<s> Since you have a Socket 775 system what usually works is your standard 775 heatsink and fan. </s>
+<s> But there are some reports that the motherboard has failed on the fan speed so you may have to ignore that on each boot since most will toss the machine when faced with a defective motherboard. </s>
+<s> Bob </s>
+<s> First of all find an air compressor and clean that out. </s>
+<s> It will make it much easier to look at. </s>
+<s> On the motherboard there should be one or two pieces of metal that look like radiators. </s>
+<s> The larger one next to the RAM at the top of the case near the power supply is the the CPU fan. </s>
+<s> Check to make sure that it is plugged in. </s>
+<s> It is a little three prong plug on the motherboard that the fan plugs into. </s>
+<s> If the fan plugs into a molex connecter (like the kind that power your hard drives) you can bypass the CPU sensor by bending the pins on cpu fan plug on the motherboard together. </s>
+<s> If the fan does not spin during the boot then just replace the fan itself with any fan you want. </s>
+<s> The fan should measure 40 mm across. </s>
+<s> You can put any fan you want in there. </s>
+<s> Okay, now I've found out that it comes up with this error every day, the first time I try to turn it on, and then if I try again about an hour later it works fine and Linux tells me that the temperature is fine, and I used it for over six hours yesterday and the temperature was still fine. </s>
+<s> So, I guess you already knew that when you said to bend the pins? </s>
+<s> But if I do bend them, wouldn't it be unable to tell me if it stopped working for real? </s>
+<s> Tachometer (Fan Speed) and thermometer (Temp). </s>
+<s> Motherboards have integrated thermal sensors and the CPUs themselves have a thermal sensor. </s>
+<s> The CPU with throttle down or purposely shut itself off to prevent damage from excessive heat and you can set shut down temps on most motherboards via BIOS. </s>
+<s> I have this exact same problem and am trying to fix it, but I am commenting about keeping the case open Keeping the case open does not help air flow at all because the fans are supposed to send the air in a specific current. </s>
+<s> Without the cover the current just goes out of the case and does not provide adequate cooling. </s>

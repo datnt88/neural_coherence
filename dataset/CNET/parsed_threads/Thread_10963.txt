@@ -1,0 +1,20 @@
+<s> I have a hard wired four computer network that needs help. </s>
+<s> The main computer ie the one that has all the files and printers, keeps dropping off the network. </s>
+<s> I boot the machine and all file and printer sharing is fine. </s>
+<s> After a period of time, 1 to 4 hours, file and printer sharing are no longer available to the other machines on the network. </s>
+<s> I have disabled the firewall on the machine but that has had no effect. </s>
+<s> All machines on the network can get to the internet and the main machine can see files on the other machines. </s>
+<s> Yesterday I was working in an application and the connection dropped while entering data. </s>
+<s> Not a good thing. </s>
+<s> Thanks for your assistance. </s>
+<s> TAM CN5@aol.com </s>
+<s> A good place to start is looking at the system/app event logs. </s>
+<s> Especially when the connection was lost. </s>
+<s> Another step would be to look at the NIC to see whether the led's blink plus check the port the PC is plugged into on your switch/router. </s>
+<s> When the PC goes offline, is there any activity? </s>
+<s> Also, does changing the port effect the dropouts? </s>
+<s> I have changed my settings on my computers and this way the computer no longers shuts down the UBS Ports. </s>
+<s> Go to device manager(right click my computer, left click properties, left click hardware, left click device manager) Go to the USB Controller section and click the + sign. </s>
+<s> Go to each USB Root Hub and right click on it, left click properties, left click power management. </s>
+<s> Uncheck the box, allow computer to turn off this device to save power. </s>
+<s> Rick </s>

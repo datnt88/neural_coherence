@@ -1,0 +1,19 @@
+<s> Currently running old P4. </s>
+<s> Since I'm over 60 and thinking this may be my last complete computer purchase I was wondering how I did having this one built? </s>
+<s> There were many variables taken into consideration on deciding where,when,cost,hardware,software etc.. </s>
+<s> The use is mainly for gaming(old folks style) and online. </s>
+<s> Current games Crysis,Red Alert3,Call of Duty 4 and World at War. </s>
+<s> System Configuration: Chassis Model: Antec Nine Hundred Two Processor: Intel Core i7 920 2.66GHz (Quad Core) Motherboard: EVGA X58 3X SLI (Intel X58 Chipset) (Supports Triple SLI or CrossFire) System Memory: 6GB DDR3 1600MHz Mushkin Power Supply: 750W PC Power & Cooling (Dual SLI Compatible) (Silencer Edition) Hard Drive Set 1: Operating System: 1x (500GB Western Digital (16MB Cache) (7200 RPM) (SATA) Set 1 Raid Options: Configure HDD Set 1 to a Raid 1 Config - Mirror Backup Hard Drive Set 2: Multimedia\Data: 1x (500GB Western Digital (16MB Cache) (7200 RPM) (SATA) Optical Drive 1: DVDR/RW/CD-R/RW (DVD Writer 20x / CD-Writer 48x) (LightScribe Edition) Internet Access: High Speed Network Port (Supports High-Speed Cable / DSL / Network Connections) Video Card(s): 1x ATI Radeon HD 4870X2 2GB Sound Card: Integrated Motherboard Audio Cooling: Asetek Liquid CPU Cooler Chassis Airflow: Standard Factory Chassis Fans Lighting: Internal Chassis Lighting System (Blue) CPU Boost:Overclock 3.2GHz Windows OS: Microsoft Windows Vista Home Premium (64-Bit Edition) Thank you to all who reply ! </s>
+<s> Get rid of Windows. </s>
+<s> Install a Linux Distro or a BSD flavor and you will be good to go. </s>
+<s> Use a solid state drive for swap. </s>
+<s> Make /etc /bin /usr /shar /sbin read only. </s>
+<s> Put those also on a solid state drive. </s>
+<s> Use a hard disk for /var /tmp /home /root. </s>
+<s> Set other directories according to use: /sys should be ro /service should be rw. </s>
+<s> Encrypt the partitions on the hard disk. </s>
+<s> Use a minimalized desktop if you are planning on doing a lot of encoding, rendering, or providing services. </s>
+<s> You won't need an anti-virus. </s>
+<s> You will need to tune SELinux or the runlevels- depends if you are using Linux or BSD. </s>
+<s> VirtualBox or Xen for emulation. </s>
+<s> You can play games. </s>

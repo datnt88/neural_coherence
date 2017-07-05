@@ -1,0 +1,30 @@
+<s> As a newbie, can anyone tell me what a parition is and why do I need them? </s>
+<s> If I don't need them, how do I get rid of them expecially if they take up memory? </s>
+<s> How can I view the paritions in my computer? </s>
+<s> Windows xp </s>
+<s> There are long discussions and old tales that are nothing but urban rumor that partitions make a machine run faster or &quot;save&quot; your files in case you have to reinstall the OS. </s>
+<s> I've found that to be false. </s>
+<s> What's the goal here? </s>
+<s> You can, with google research what a partition is but for now why change what you have? </s>
+<s> Bob </s>
+<s> I googled partition but really never understood why I need them? </s>
+<s> A blank hard disk is just a pile of &quot;sectors.&quot; There is no organization so a partition is made so a file system can be held there. </s>
+<s> There are long passages about how a file system works but I'll end with writing &quot;Yes, we need that.&quot; Bob </s>
+<s> Hi Lynn A simple way to describe it would be like... You buy a harddisk of 500GB for your computer. </s>
+<s> 1) Create one big partition will give you C: drive with 500GB 2) Create e.g. </s>
+<s> two partitions will give you C: drive with e.g. </s>
+<s> 60 GB and a D: drive with the remaining 440GB. </s>
+<s> (actual drive space will be less but its easier to understand this way). </s>
+<s> The advantage of creating partitions like in example 2), is if you only use C: for your OS and to install applications and drive D: to store all your data, you can format the C: drive and reinstall your OS, without moving your data on the D: drive. </s>
+<s> In this way your computer will get more organized (not faster nor safer). </s>
+<s> But remember. </s>
+<s> If the harddisk crash both drive C: and D: will be lost. </s>
+<s> A partition is an area of the physical disk dedicated to an operating system according to the file system/ hierarchy. </s>
+<s> What the previous person stated isn't true. </s>
+<s> Windows uses a style of partitioning that is similar to the default BSD style of &quot;slicing a disk.&quot; You are not creating partitions, you are creating dedicated areas within the partition. </s>
+<s> There is no C or D drives in the layout of the master boot record. </s>
+<s> You only have four primary; and, if you want more then you must only create three primary and have number four separated into logical sections. </s>
+<s> You cannot resize a partition from within itself and you cannot do such without permissions as the root user. </s>
+<s> You view the partitions with fdisk. </s>
+<s> If you want to resize, then use an external device such as a live CD or a usb installed OS. </s>
+<s> I suggest knoppix. </s>

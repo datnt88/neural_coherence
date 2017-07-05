@@ -1,0 +1,28 @@
+<s> After uninstalling Boot Camp (uninstalled due to incorrect xp cd), my MacBook now boots slowly than before Boot Camp was installed. </s>
+<s> Before it would boot up in around 20 seconds. </s>
+<s> Now, when I push the power button all I get is a light gray color screen for about 25 seconds and the hard drive is not being accessed during that time. </s>
+<s> Then, the apple logo appears and booting finishes normally. </s>
+<s> The whole process now takes around 50 seconds to complete. </s>
+<s> That is the only thing I can think of that would cause the problem. </s>
+<s> If anyone can help, it would be appreciated. </s>
+<s> Thanks! </s>
+<s> If you use Parallels, than you probably know that Parallels uses a partition of Boot Camp to boot Windows under the Mac OS. </s>
+<s> If you use it, which I don't know if you do, your Boot Camp files may still be intact somewhere. </s>
+<s> I doubt that my theory is correct though. </s>
+<s> I think that this could have happened: XP did not correctly install. </s>
+<s> Boot Camp modifies Macs to be able to switch from Tiger to XP or Vista upon booting up. </s>
+<s> XP did not install properly, but maybe some remnant of Boot Camp on your hard drive thinks it did, giving you extra time to choose between your operating systems. </s>
+<s> But since you uninstalled Boot Camp, you can't switch to another system. </s>
+<s> Your system still works properly afterwards because it thinks you have chosen to run the Mac OS, the default OS. </s>
+<s> In conclusion to this theory, Boot Camp has modified your Mac to think it can still run Windows when it can't. </s>
+<s> To fix it, you could try searching for hidden Boot Camp files, reinstalling Boot Camp and XP, or taking your Mac to your local Apple Store. </s>
+<s> I think that this may be the most logical answer, supposing it is true and Boot Camp files still exist somewhere on your Mac. </s>
+<s> Otherwise, it may be due to lack of usage, power, or corrupted files/viruses, all unlikely. </s>
+<s> Try these solutions and maybe you'll fix it. </s>
+<s> Good luck. </s>
+<s> -BeatleMegaFan </s>
+<s> When you removed Boot Camp, did you use the uninstaller or just drag XP off into the trash can? </s>
+<s> Use Disk Utility to see if your HD is still partitioned. </s>
+<s> One HFS+ and the other NTFS. </s>
+<s> FWIW, Boot Camp gives you the option of booting into Windows before the machine actually begins the startup process. </s>
+<s> That 25 seconds may be the period that it spends checking to see where it should go P </s>

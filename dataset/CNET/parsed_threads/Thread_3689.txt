@@ -1,0 +1,23 @@
+<s> I have an 80gb Buslink external HD. </s>
+<s> Recently my dog ate the power adapter and cable. </s>
+<s> Since then I was forced to use a different adapter with very close specs to the original. </s>
+<s> Unfortunately this adapter was extremely bulky so when I found another less-bulky adapter with what I thought were the same specs I plugged it in and since then the hard drive hasn't worked. </s>
+<s> I've since found out that while the adapter had the correct voltage and mA specs it had the opposite pos/neg flow than what the Buslink required. </s>
+<s> I contacted Buslink and they told me that the problem could either be with the hard drive enclosure or the hard drive itself but there was no way to tell without seeing it. </s>
+<s> The Buslink warranty is expired on the HD and it would likely cost more to have it repaired then to buy an equivalent new one. </s>
+<s> To see if I could remedy the problem myself, I purchased a new enclosure in the hopes that this might solve the problem. </s>
+<s> Unfortunately, while my windows XP computer initially recognizes a USB IDE device, I get an error message stating that there are problems and it may not be accessible. </s>
+<s> The external HD never shows up as an accessible drive in &quot;My Computer&quot;. </s>
+<s> Does anyone have any recommendations on how I can salvage this drive. </s>
+<s> Ideally I would like to try and save the data on the drive but if that is not possible I would settle for a reformat, I just don't know how to do this with an external drive. </s>
+<s> Thanks in advance- </s>
+<s> to temporarily connect the HD directly to an IDE port in your PC. </s>
+<s> You will need to set the jumpers properly. </s>
+<s> It may well be that the controller in the new enclosure has some different way it accesses the drive. </s>
+<s> In this case (and if the drive itself is still good) a reformat might be necessary. </s>
+<s> Connect the drive to the PC as above and see if that works. </s>
+<s> I connected it to the IDE cable as a slave drive with the jumpers set appropriately but the PC doesn't recognize the drive. </s>
+<s> Is there any way to force the PC to see the drive so that I can reformat or salvage data? </s>
+<s> Thanks- </s>
+<s> Try that then move it to the second IDE channel as master. </s>
+<s> If no detection you've pretty much proved its dead or you didn't hook up the power... Bob </s>

@@ -1,0 +1,21 @@
+<s> Can you use a USB flash drive as the page(paging) file instead of the hard drive? </s>
+<s> I'm asking because... A. I had read that if you set up your paging file on a separate hard drive that you will get some performance increases because your main hard drive can stick to the reading/writing for applications in use while the 2nd drive is used for virtual memory. </s>
+<s> B. I don't currently have a 2nd hard drive, so I wanted to see if I could use a USB flash drive thumb could be substituted for the 2nd hard drive in the scenario I laid out above as an easier/cheaper alternative. </s>
+<s> C. My PC won't accept more than 256 MB of ram (despite the fact that it should), so rather than try to continue to fight that battle, I'm hoping that if I can swing this little trick with the flash usb drive it will boost performance a bit. </s>
+<s> The computer I ultimately hope to use it on is a HP Pavilion 8756c that I had to install XP Pro on a new drive when the old OS (Windows ME) and drive died. </s>
+<s> It's a Pent. </s>
+<s> III (approx 800-900 MHz) with 256 MB of RAM. </s>
+<s> However, if it works, I'd try it at work too on more current Compaq machine running Windows 2K with a Pent. </s>
+<s> 4 (1.8 GHz)and 528 MB RAM. </s>
+<s> I don't need anyone to bust a nut trying to figure it out, but if someone could tell me if it's possible/plausible and also how to get it done. </s>
+<s> Hopefully I'll be getting a new machine in the next few months, but improving what I've got wouldn't hurt in the meantime. </s>
+<s> thanks. </s>
+<s> Yes, you can technically use a flash drive, external drive, etc for storing a paging file...it's automatically listed as an option when you go to manually adjust the settings. </s>
+<s> However, there are two things to note: 1.) </s>
+<s> Given the age of the computer it uses USB 1.0, meaning unless you add a USB 2.0 PCI card it will most likely offer worse performance than your hard drive. </s>
+<s> 2.) </s>
+<s> If you ever removed the flash drive before switching the paging file back to your hard drive you would encounter potential errors and crashes. </s>
+<s> Personally, for the limited performance increase I wouldn't bother. </s>
+<s> With Windows Vista, however, the ReadyBoost technology will perform a similar task automatically and give you a much more significant performance increase. </s>
+<s> Something to look forward to. </s>
+<s> Hope this helps, John </s>

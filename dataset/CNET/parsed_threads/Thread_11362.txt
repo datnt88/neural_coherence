@@ -1,0 +1,31 @@
+<s> I have a broad band connection DSL and Ethernet switch. </s>
+<s> My PC's and laptop can share the internet connection. </s>
+<s> I want to share certain folders and the printer from the main computer. </s>
+<s> All are running on WIN98se and have the same workgroup. </s>
+<s> I have added sharing for both files and printer in &quot;Network neighbourhood&quot;. </s>
+<s> However the computer is not available via search or &quot;Map Network Drive&quot; I have tried to give a PC the same name and it recognises that there is a computer with the same name and forbids it. </s>
+<s> Please can you help or direct me to the information. </s>
+<s> This is attempted by a few only to learn that you can't put your ADSL/Cable modem on some &quot;switch&quot; and have a LAN. </s>
+<s> It's an INVALID and DANGEROUS configuration and much like directions on how to enter a minefield, I will not help such themselves up for disaster. </s>
+<s> To make it work, you get what is called a ROUTER. </s>
+<s> The DSL/cable modem goes to the router, the router to your network switch and it works. </s>
+<s> Bob </s>
+<s> It has taken a longtime but I have the solution to the networking with LAN Ethernet and connection to the internet via ADSL modem. </s>
+<s> First the ADSL modem should have a router function even though it has a single port so as the modem I used [Zyxel Prestige 650]. </s>
+<s> Connected to this you can then have a LAN switch. </s>
+<s> I use the 5 port from Sweex. </s>
+<s> My firewall is basic Zone Alarm. </s>
+<s> The important settings are: 1. </s>
+<s> Firewall - Main - Trusted Zones - Medium 2. </s>
+<s> Firewall - Zones - Add a &quot;truted zone&quot; with an IP range to cover your home computers Your computers should all have the same workgroup name. </s>
+<s> You will find this under Network Neighborhood - Properties - Identification. </s>
+<s> Printer and folders/files have to be set to shared. </s>
+<s> Then it will work with 100MHz download speed. </s>
+<s> You don't have to worry about length of LAN connections if you have the screened cable otherwise 15 - 20 m is feasible. </s>
+<s> I wish you all much success </s>
+<s> I have got a similar set up as yours and the same problem. </s>
+<s> I can't see a computer through my network neighbourhood, although I can ping it. </s>
+<s> It used to work before, but for some reason has stopped working lately. </s>
+<s> I have tried restarting both the computers, but it still doesn't work. </s>
+<s> Each of the computers can see themselves in the network but they can't see each other. </s>
+<s> Can someone help </s>

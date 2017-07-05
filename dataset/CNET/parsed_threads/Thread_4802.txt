@@ -1,0 +1,36 @@
+<s> Win XP SP3; Intel 8400 dual core; 2 gig RAM; Have 4 HDD plus put Sil Image 3124 Raid Controller in PCI slot. </s>
+<s> Three 2 TB WD Green drives connected to the Raid controller, plus 4 more HDD to motherboard SATA connections. </s>
+<s> I first formatted each 2TB drive, then connected to Sil Image Raid controller and told it to set up a Raid 5 Parity array (3 ea 2TB drives should give 4TB Raid 5 available). </s>
+<s> That took 4 days. </s>
+<s> Finally says it completed the task. </s>
+<s> I boot Win expecting to see it - nothing. </s>
+<s> Doesn't show up in Explore, not in Disk Management. </s>
+<s> Sil Image Software says it's good to go, it just isn't there. </s>
+<s> Check BIOS - Does not show up as a drive, but interesting the Raid controller card is listed as a possible boot drive??? </s>
+<s> Check System - Hardware - Device Manager. </s>
+<s> It's listed under SCSI and Raid controllers and says it's working and driver is fine. </s>
+<s> It is also listed under Disk Drives, but Volumes is blank, when I populate it says Status Unknown, Disk Unreadable, 0 available. </s>
+<s> Using 3 each 2TB drives in a Raid 5 should give me 4 TB available??? </s>
+<s> Going back to software under Program, it shows up, shows is Raid 5, but under Raid Group tab there's an option Bring Raid Group Online, but it is grayed out. </s>
+<s> Any help? </s>
+<s> BIOS, software, Windows, Disk Management - can't find anything to make it active or bring it online. </s>
+<s> No story about how you partitioned and formatted the RAID I'm left with more questions than answers. </s>
+<s> Maybe it's back to the maker to ask them what's wrong? </s>
+<s> Bob </s>
+<s> I thought creating the Raid array was in essence formatting. </s>
+<s> Don't know as this is my first Raid endeavor. </s>
+<s> Still, I can't find it anywhere to partition (one large partition desired), and can't format if it doesn't show up on Disk Manager or anywhere. </s>
+<s> I've worked with single drives and had to Active them, then Format them, etc, but while the Raid controller shows up in several places, nothing shows up as a drive or array. </s>
+<s> I've tweaked and rebooted several times, etc. </s>
+<s> Silicone Image says they don't support consumers and Fry's didn't help. </s>
+<s> I'm usually fairly good at computer stuff and a resource for others, but this has me stumped. </s>
+<s> I may give up and just make it Pass Through, which will give me 6 TB of storage, but no backup in case of a drive failure. </s>
+<s> I tried MiniTool Data Recovery as the controller showed up there similar to a drive, but it found only a single 2TB drive and started to scan and maybe recover data. </s>
+<s> I figured that would be the one 2TB drive I started with before trying Raid and it could find some files that were on it prior to formatting. </s>
+<s> It was acting like it was pass through to a single drive instead of a Raid array. </s>
+<s> I didn't want to mess up the Raid, so I stopped the scan before it could make any changes. </s>
+<s> I would have thought the Raid array would show up as a single drive with a single name/designation - then I could Activate, Format, or do whatever necessary to use the array. </s>
+<s> But it doesn't show up anywhere useable. </s>
+<s> Or the install instructions are bad. </s>
+<s> Return the RAID controller as defective since you followed the instructions. </s>
+<s> Bob </s>

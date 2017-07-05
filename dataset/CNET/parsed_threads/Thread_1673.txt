@@ -1,0 +1,94 @@
+<s> ok so this is a long story however, I will make it as short as possible for the sake of the forum.... </s>
+<s> I've set up a VPN connection from a Doc's office to a satalite office... first using a Netgear fvs318 at one end to a fvs114 at the other... </s>
+<s> NOTHING but problems...the vpn connection would intermittently drop out for no apparent reason... one end uses a cable internet and the other uses a partial T1... so we narrows it dow the the fvs318 being old and dropping the connection...so we've changed it to using 2 fvs114's it works and just fine...however, the Doc also wants to be able to vpn from his house... the problem is that when we setup any other vpn's from the main office the additional connection will connect but you cannot access anything on the remote LAN... which defeates the point of a VPN... any suggestions on solving this problem... or is that netgear routers just can't handle simotanious VPN's as advertised? </s>
+<s> Thanks for any suggestions in advance </s>
+<s> This is often an IP address issue. </s>
+<s> But there is also another thing to check. </s>
+<s> On the server, open Network Connections folder, R-click the incoming connections icon and choose properties. </s>
+<s> In the incoming connections properties dialog box, click the Networking tab, select TCP/IP and click properties. </s>
+<s> The top check box,&quot;Allow callers to access my local area network&quot; should be ticked. </s>
+<s> Below this are the 3 options for assigning IP addresses: Assign automatically using DHCP; Specify an address; Allow calling computer to specify its own IP address. </s>
+<s> The method your server is using needs to be matched by the client computer. </s>
+<s> I'm not sure you entirely understood my problem... and at this point I do have a little more specific info as well. </s>
+<s> here is a cut from the log file now using a FVS114 and the NETGEAR VPN Client software. </s>
+<s> Keep in mind that there is already a VPN using this gateway that work properly as long as no other VPN's are enabled. </s>
+<s> That is between 2 FVS114's. </s>
+<s> Also keep in mind that I have a completely different VPN tunnel to a different office all together using the Client software and is work fantastically and the vpn setups are almost identical with the exception of the IP addresses of course. </s>
+<s> 11-24: 00:47:46.265 My Connections\acamar_test - Initiating IKE Phase 2 with Client IDs (message id: 28C55C0) 11-24: 00:47:46.265 Initiator = IP ADDR=10.1.148.2, prot = 0 port = 0 11-24: 00:47:46.265 Responder = IP SUBNET/MASK=10.1.148.1/255.255.255.0, prot = 0 port = 0 11-24: 00:47:46.265 My Connections\acamar_test - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK QM *(HASH, SA, NON, KE, ID 2x) 11-24: 00:47:46.734 My Connections\acamar_test - RECEIVED&lt;&lt;&lt; ISAKMP OAK QM *(HASH, SA, NON, KE, ID 2x) 11-24: 00:47:46.734 My Connections\acamar_test - Filter entry 4: SECURE 192.168.000.002&255.255.255.255 010.001.148.001&255.255.255.000 068.xxx.xxx.024 added. </s>
+<s> 11-24: 00:47:46.734 My Connections\acamar_test - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK QM *(HASH) 11-24: 00:47:46.750 My Connections\acamar_test - Loading IPSec SA (Message ID = 28C55C0 OUTBOUND SPI = E1FA02B6 INBOUND SPI = ABB4231A) 11-24: 00:47:46.750 11-24: 00:47:52.062 My Connections\acamar_test - RECEIVED&lt;&lt;&lt; ISAKMP OAK QM *(Retransmission) 11-24: 00:47:52.062 My Connections\acamar_test - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK QM *(Retransmission) 11-24: 00:47:57.062 My Connections\acamar_test - RECEIVED&lt;&lt;&lt; ISAKMP OAK QM *(Retransmission) 11-24: 00:47:57.062 My Connections\acamar_test - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK QM *(Retransmission) 11-24: 00:48:02.062 My Connections\acamar_test - RECEIVED&lt;&lt;&lt; ISAKMP OAK QM *(Retransmission) 11-24: 00:48:02.062 My Connections\acamar_test - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK QM *(Retransmission) 11-24: 00:48:15.343 My Connections\acamar_test - RECEIVED&lt;&lt;&lt; ISAKMP OAK QM *(HASH, SA, NON, ID 2x, KE) 11-24: 00:48:15.343 Cannot match Policy Entry for received Phase 2 IDs: 11-24: 00:48:15.343 local host=IP ADDR=10.1.148.2, prot = 0 dst_port = 0 11-24: 00:48:15.343 remote host=IP SUBNET/MASK=10.1.148.0/255.255.255.0, prot = 0 src_port = 0 11-24: 00:48:15.343 My Connections\acamar_test - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK INFO *(HASH, NOTIFY:INVALID_ID_INFO) 11-24: 00:48:15.343 My Connections\acamar_test (IP ADDR=68.xxx.xx.24) - Error validating Proxy ID 11-24: 00:48:19.421 My Connections\acamar_test - RECEIVED&lt;&lt;&lt; ISAKMP OAK QM *(HASH, SA, NON, ID 2x, KE) </s>
+<s> &quot;when we setup any other vpn's from the main office the additional connection will connect but you cannot access anything on the remote LAN..&quot; The entire concept of the VPN is to build a virtual private network. </s>
+<s> Those items on the remote LAN are not in the VPN so they don't exist. </s>
+<s> This is all proper and to break it so &quot;it works&quot; means the security of the VPN has been lost. </s>
+<s> Bob </s>
+<s> I'm not sure I fully follow what you are saying... when I have the original connection to the main it work great, as soon as there is an additional connection made by a separate VPN tunnel to the network (which NETgear says it supports up to 8 simultaneous VPN tunnels) it will connect but the LAN of the remote end is inexcusable. </s>
+<s> If the LAN was unable to be accessed by the 1st tunnel I would follow you, but the 2nd tunnel is the one that is having the problem. </s>
+<s> Sorry, I couldn't follow what you just wrote. </s>
+<s> But if I were to connect from my PC to one VPN and then try to connect to a second VPN the entire thing comes flying apart (and should.) </s>
+<s> VPNs are a bit tough to get one's head wrapped around at first but once you get the idea that your LAN vanishes and you are magically transported onto the host's VPN and must think as if you were at that office and plugged into that network then it all makes sense. </s>
+<s> Bob </s>
+<s> Thank you for the food for thought. </s>
+<s> The reason I am having such trouble grasping it is because according to NETGear, there product can support up to 8 simultaneous VPN tunnels. </s>
+<s> So are you suggesting that I try using the existing tunnel to connect from the second place? </s>
+<s> correct me if I'm wrong but shouldn't I be able to connect more then 1 VPN tunnel to one place? </s>
+<s> or is that a myth like the great white elk? </s>
+<s> lol background info: http://netgear.com/Products/VPNandSSL/WiredVPNFirewallRouters/FVS114.aspx those are the specs on the VPN router we are using to try and connect to. </s>
+<s> I guess I can't post the link... so taking your concept of the VPN into consideration; if my network is setup in a DHCP and the network I am trying to connect to is not and is set to allow the PC's to set there own IP's... could that be causing a problem? </s>
+<s> I was under the impression you were trying to establish multiple VPN connections from your one PC. </s>
+<s> This shouldn't work. </s>
+<s> As to the IP issues, one does have to be a little careful. </s>
+<s> Here's a note about that. </s>
+<s> &quot;Use default gateway on remote network&quot; on http://www.isaserver.org/tutorials/VPN_Client_Security_Issues.html Since I don't know your IP plan, I can't predict an issue there. </s>
+<s> Your IT staff should have that under control and admonish a home lan from using the same plan as the VPN lan. </s>
+<s> Bob </s>
+<s> no her is the low down... </s>
+<s> I've got a main office using an NETGear FVS114 router (which supports up to 8 VPN tunnels) I have another FVS114 router at a satellite office which is using a VPN tunnel to the &quot;Main&quot; I am trying ad another VPN tunnel to the main office using either another FVS114 router or the NETGear VPN client software.... now the satellite office and the main office VPN connection works fine... but when I try to add a new tunnel to the main office it will connect but will not be able to access any resources at the Main office. </s>
+<s> I misread some item and recant that it's an IP address issue. </s>
+<s> But if you can &quot;connect&quot; but not see things this leads me to thing the more common items are at play such as... 1. </s>
+<s> Accounts. </s>
+<s> 2. </s>
+<s> Firewalls. </s>
+<s> Many forget to configure those. </s>
+<s> Bob </s>
+<s> the subnets are all different so there should be no conflicts. </s>
+<s> The real oddity comes because the first tunnel works great and the second tunnel says it connects just fine. </s>
+<s> But as you can see from the Log file I posted. </s>
+<s> It is having some kind of problem resolving the identity of the second connection. </s>
+<s> to which accounts are you referring? </s>
+<s> since one VPN tunnel can access everything in the main offices network fine... </s>
+<s> I also have a vpn tunnel to a differnt office all together that works fine from my house </s>
+<s> Any machine on the VPN (LAN) and a shared resource must know about Jack and have an account to allow Jack to use or even see the shares. </s>
+<s> The VPN does not relieve us of basic NT/2000/XP network duties. </s>
+<s> Bob </s>
+<s> I realize that each machine must have an account to log onto in order to access the actual machine but, I should be able to see it though right? </s>
+<s> I can't ping anything in the remote network while I'm connected as of now. </s>
+<s> Accounts must be proper. </s>
+<s> &quot;I can't ping anything in the remote network while I'm connected as of now.&quot; Check your route (tracert). </s>
+<s> I wonder if you reviewed that link about using the remote's default gateway? </s>
+<s> Bob </s>
+<s> the VPN server is a NETGear FVS114...that alone should give us access to the network... since the other gateway end is the exact same thing... from my understanding all the VPN connection is done through the routers not through any PC's... then we are just using remote desktop to connect to other physical PC's and servers on the networks... they can already be accessed in this way by an already existing VPN tunnel using the FVS114 at the &quot;main office&quot; and a satellite office... Now, I have added another VPN tunnel to the FVS114 router at the main office and am trying to establish that VPN connection to my house... it should work in the same way as the original tunnel... </s>
+<s> However, it is not. </s>
+<s> Somethings amiss here or there is a bug in the firmware. </s>
+<s> Bob </s>
+<s> While it happens less and less I ran into an ISP that blocked VPN traffic. </s>
+<s> But I find this doubtful in your case since you claim the VPN connects but you can't ping the other side. </s>
+<s> -&gt; The lack to details is hampering me far too much. </s>
+<s> I know that most won't tell all the needed information since they fear for the security of the connection (why else VPN?) </s>
+<s> While I've run over the usual issues it appears we've reached the end with the clues supplied. </s>
+<s> Time to let the VPN gear maker to step in or return the equipment for one that will tell you it works. </s>
+<s> Bob </s>
+<s> I finally solved the issue... it wasn't the VPN at all...at the main office there is not a DHCP. </s>
+<s> because of that the PC's get there own IP's... the problem came in when all the PC's in the office were pulling the wrong default gateway from the network making everything unaccessible...I just had to change it to manually get the correct default gateway and everything works... the part that stumped me was that there was an already existing gateway that was working...no one knows how that was working </s>
+<s> IPCONFIG or TRACERT. </s>
+<s> Ever use those? </s>
+<s> Windows does have it's oddities about filling in numbers at times... Bob </s>
+<s> I'm not the one that set the whole thing up... </s>
+<s> I was brought in half way to figure out the rest... haha... yes something about those numbers... they were filled in just wrong and not by me...lol </s>
+<s> I get to go over VPN so infrequently that it's nice when I get to go over it. </s>
+<s> Sorry I didn't see the issue. </s>
+<s> But I wanted to write a thank you because it adds a new question for &quot;next time.&quot; Bob </s>
+<s> Hello, dragonziggy I got the same problem. </s>
+<s> Here is the log of SafeNet client 1-06: 19:03:38.656 1-06: 19:03:39.076 My Connections\New Connection - Initiating IKE Phase 1 (IP ADDR=24.97.192.177) 1-06: 19:03:40.098 My Connections\New Connection - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK AG (SA, KE, NON, ID, VID 5x) 1-06: 19:03:43.283 My Connections\New Connection - RECEIVED&lt;&lt;&lt; ISAKMP OAK AG (SA, KE, NON, ID, HASH, VID, NAT-D 3x) 1-06: 19:03:43.283 My Connections\New Connection - Peer is NAT-T draft-01 capable 1-06: 19:03:43.323 My Connections\New Connection - NAT is detected for Client 1-06: 19:03:43.873 My Connections\New Connection - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK AG *(HASH, NAT-D 2x, NOTIFY:STATUS_INITIAL_CONTACT) 1-06: 19:03:43.873 My Connections\New Connection - Established IKE SA 1-06: 19:03:43.873 MY COOKIE 3f d 19 43 ce a5 1c 3a 1-06: 19:03:43.873 HIS COOKIE 8a c9 5e 98 a8 e5 bd 9b 1-06: 19:03:43.953 My Connections\New Connection - Initiating IKE Phase 2 with Client IDs (message id: 5DBBD55E) 1-06: 19:03:43.953 Initiator = IP ADDR=192.168.11.100, prot = 0 port = 0 1-06: 19:03:43.953 Responder = IP SUBNET/MASK=192.168.1.1/255.255.255.0, prot = 0 port = 0 1-06: 19:03:43.953 My Connections\New Connection - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK QM *(HASH, SA, NON, ID 2x) 1-06: 19:03:44.074 My Connections\New Connection - RECEIVED&lt;&lt;&lt; ISAKMP OAK QM *(HASH, SA, NON, ID 2x) 1-06: 19:03:44.084 My Connections\New Connection - Filter entry 3: SECURE 192.168.011.100&255.255.255.255 192.168.001.001&255.255.255.000 024.097.192.177 added. </s>
+<s> 1-06: 19:03:44.084 My Connections\New Connection - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK QM *(HASH) 1-06: 19:03:44.084 My Connections\New Connection - Loading IPSec SA (Message ID = 5DBBD55E OUTBOUND SPI = 87D8DB1A INBOUND SPI = 86C6948B) 1-06: 19:03:44.084 1-06: 19:03:49.531 My Connections\New Connection - RECEIVED&lt;&lt;&lt; ISAKMP OAK QM *(Retransmission) 1-06: 19:03:49.531 My Connections\New Connection - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK QM *(Retransmission) 1-06: 19:03:54.629 My Connections\New Connection - RECEIVED&lt;&lt;&lt; ISAKMP OAK QM *(Retransmission) 1-06: 19:03:54.629 My Connections\New Connection - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK QM *(Retransmission) 1-06: 19:03:59.736 My Connections\New Connection - RECEIVED&lt;&lt;&lt; ISAKMP OAK QM *(Retransmission) 1-06: 19:03:59.736 My Connections\New Connection - SENDING&gt;&gt;&gt;&gt; ISAKMP OAK QM *(Retransmission) after that, i can not ping any machine in the main office. </s>
+<s> I am using NetGear FVM318 router. </s>
+<s> On the router's VPN status, evrything is fine. </s>
+<s> I am wondering how do you &quot;change it to manually get the correct default gateway and everything works...&quot;. </s>

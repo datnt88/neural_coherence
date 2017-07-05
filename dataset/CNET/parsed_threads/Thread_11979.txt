@@ -1,0 +1,19 @@
+<s> Hello, I have three computers set up to the same wireless network. </s>
+<s> The modem is an Actiontec GT701R and the router is a NetGear RangeMax Next Wireless-N Router WNR834B. </s>
+<s> Everything has previously been running fine. </s>
+<s> Last week one computer stopped accessing the web. </s>
+<s> It is running Windows XP Home Edition Version 5.1.2600 Service Pack 3 Build 2600. </s>
+<s> I have spent over three days trying to fix this and have not been able to do so. </s>
+<s> My connection speed is 130.0 Mbps. </s>
+<s> and my signal strength is very good, but I am unable to acquire a network address. </s>
+<s> I am seemingly able to receive packets, but not send them. </s>
+<s> The computer that is not working is literally sitting next to one that is and I can also place my laptop near them and it works fine. </s>
+<s> I've learned a lot over the last few days, but I am not a computer guru by any means. </s>
+<s> Through trail and error, I've done the following: LSPFIX WinsockFix Export and delete the corrupted registry subkeys Probably unsuccessfully - but tried to set up a static ip Asked the computer to renew the ip address. </s>
+<s> It never does. </s>
+<s> Enabling and Permitting All TCP/IP Filtering Ping myself with no problems, but nothing else. </s>
+<s> I don't know what else to try or do. </s>
+<s> Your help would be greatly appreciated, Misty </s>
+<s> What about NETSH RESET? </s>
+<s> -&gt; http://support.microsoft.com/kb/299357 After this I look for Norton, other security suites and uninstall those. </s>
+<s> There was an extra entry in the registry that needed deleted. </s>

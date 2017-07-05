@@ -1,0 +1,51 @@
+<s> I use cisco vpn client ver 4.6 in win XP and try to connect to VPN gateway that have public IP. </s>
+<s> My computer is connected by direct cable to a router .And this router is connected to internet by PPPoE . </s>
+<s> I use Cisco VPN client ver 4.6 and try to connect VPN gateway . </s>
+<s> But It is failure.The error is 412. </s>
+<s> But if the same computer connect to internet by PPPoE directly and the VPN client can connect the same VPN gateway without problem . </s>
+<s> Why do I cannot connect VPN gateway when there is router . </s>
+<s> How can I fix it ??? </s>
+<s> Please advice . </s>
+<s> This is one of the many reasons cisco and all other vpn vendors have gone to SSL tunneling. </s>
+<s> If your VPN device is newer it may support this and it uses activex and java so you do not need to install anything on the client. </s>
+<s> You solution mostly depends on how the VPN gateway is setup. </s>
+<s> If it only allows IPSEC then you must configure your router to pass all UDP 500 and all protocol 50 to your PC. </s>
+<s> Since 50 is not port it is a protocol you cannot just use simple port forwarding to make this work. </s>
+<s> You need to somehow forward UDP port 500 and this protocol to you virtual address. </s>
+<s> How exactly you do this really depends on the router. </s>
+<s> If your VPN gateway can run NATT you need to make sure UDP Port 4500 passes your router. </s>
+<s> Since you are having a issue I suspect your router does not support NATT by default. </s>
+<s> You should be able to map UDP port 4500 to your PC. </s>
+<s> You may have to change your VPN client to force it to run NATT but the VPN gateway must be configured to accept this also. </s>
+<s> Your last option if you are using certain cisco gateways and clients is to use IPSEC over TCP. </s>
+<s> This is a something only cisco supports. </s>
+<s> This only requires the option to be available on both the VPN gateway and the client it does not require any change on your router. </s>
+<s> If you have the option I would go to the new SSL VPN these tend to work on almost any machine and behind any router. </s>
+<s> The VPN gateway configuration cannot be changed . </s>
+<s> So, I can only change the configure in router and the computer or re-install the cisco VPN client . </s>
+<s> Any thing I can do in order to fix it ??? </s>
+<s> ?what version of vpn client I need to install and what is the configuration ??? </s>
+<s> Please advice in detailed . </s>
+<s> You need to know which of the many options the gateway is using. </s>
+<s> It is unlikely it is the client since it works without the router so reinstall is most likely a waste of time. </s>
+<s> The latest verison of the client would always be best but unless you have a service contract on your gateway you will not be allowed to download it from the cisco site. </s>
+<s> I really can only provide general guidance since it is impossible to know the details of every router out there. </s>
+<s> Almost all routers have the ability to forward ports or place a PC in a DMZ but exactly how you do it varies widely. </s>
+<s> Still even if I or someone else on this board had your exact router you need to know what options the gateway expects. </s>
+<s> I suspect you are going to have to call your IT department and ask them how they have configured the VPN gateway. </s>
+<s> They should be able to tell you which gateway option they are using which will tell you which ports you must deal with in your router. </s>
+<s> Hopefully they have some recommended router configuration to help. </s>
+<s> Unfortunately they may tell you that they do not support your router and you need to buy one that is on their list. </s>
+<s> More than likely you can get your router to work but unless IT can give you the configuration you are going to have to learn how things like IPSEC really work. </s>
+<s> This cost to IT to support end users is the key reason many companies toss these old VPN solutions in the trash and pay big money to replace the gateways. </s>
+<s> The reduction of the end user support cost quickly save money. </s>
+<s> Put that PC into the DMZ. </s>
+<s> Now a comment. </s>
+<s> VPN on some routers is broken, busted, non-functional and may contain an tar pit. </s>
+<s> You learn quickly to try the DMZ, a few settings, research the internet but limit your time to a few minutes before swapping out the router. </s>
+<s> Bob </s>
+<s> I forgot to mention that once we install PPPOE onto a PC that WINSOCK is forever suspect and may not be supportable or even repairable. </s>
+<s> It may interfere with use on a router. </s>
+<s> In one extreme case it was not repairable until we reinstalled the OS. </s>
+<s> We tried but after hours on the phone with Microsoft we knew it was time to move on. </s>
+<s> Bob </s>

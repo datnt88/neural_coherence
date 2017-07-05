@@ -1,0 +1,47 @@
+<s> My name is Scott and I could use some help. </s>
+<s> I am the IT Director for my company which is pretty small. </s>
+<s> 50 employees max. </s>
+<s> We have two offices. </s>
+<s> One in NJ (HQ) and one in NYC (Sales Office). </s>
+<s> Right now I am running a make shift &quot;file server&quot; on a higher end desktop with Windows Vista. </s>
+<s> I was able to open up access to allow a single VPN connection to this machine. </s>
+<s> (PPTP) Just your basic garden variety simple VPN tunnel with basic authentication. </s>
+<s> (I know not very secure). </s>
+<s> I was able to do this on my own but I need some help with the next step. </s>
+<s> Innate in this type of set-up, only one user can access the server from offsite at a time. </s>
+<s> In the IMMEDIATE future, I need to have at least 3-5 concurrent users being able to pull files from this server. </s>
+<s> Similarly, Ive designed a homegrown software package that will be housed on a separate application server. </s>
+<s> We will eventually need a multi-user VPN connection to this server as well. </s>
+<s> Last but not least, we have Sales and Merchandising personnel all over; including ASIA, EUROPE and CANADA. </s>
+<s> They will need access to these servers as well. </s>
+<s> I need suggestions on what type of set-up is best suited for this business model and how do I go about getting started. </s>
+<s> Unfortunately, as the economy is in shambles, I dont have a large budget. </s>
+<s> Here is some basic info for both offices. </s>
+<s> End-user base is comprised of a mixture of Mac and PC users, but mostly PC users. </s>
+<s> CH (HQ) ISP: Comcast. </s>
+<s> Bandwidth: cable (not exactly sure of the Mbps) Hardware: SMC Model 8014 NYC (Sales) ISP: Verizon Bandwidth: ADSL (not exactly sure of the Mbps) Hardware: Westell Model A90 I'm only looking at a few hundred dollars in my budget. </s>
+<s> The powers-that-be are from a different school of thought when it comes to technology and business. </s>
+<s> They want it to work for the cheapest possible price. </s>
+<s> Any suggestions. </s>
+<s> Right now we have one Public IP pointing to the one server internally. </s>
+<s> Is there a way for me to set up multiple users to access the same server using the one public? </s>
+<s> or will I need to orders separate public IPs for each user. </s>
+<s> My total knowledge of networking is limited to the basic and this is the first time I've ever done something like this. </s>
+<s> Hi Scott, The easiest solution would be to install a VPN/Firewall at the NJ site and allow users to VPN in. </s>
+<s> The VPN/Firewall would serve as the VPN termination and once the clients sucessfully authenticate to it, have them get the files from the Vista PC. </s>
+<s> (server) Vista Business and Ultimate can handle 10 concurrent connections so you're okay there at least for now. </s>
+<s> I understand price is an issue as we're all hurting. </s>
+<s> If you can swing it, my preferance would be to use a SonicWall firewall as they can be easily set up and running with IPSec VPN access in no time. </s>
+<s> SonicWall has their own VPN client software so all you need is a downloaded VPN policy file from the firewall, import it and you're done! </s>
+<s> Second choice would be the ProGear series VPN/firewall from Netgear. </s>
+<s> They are cheaper, but not a solid as SonicWall. </s>
+<s> I've had a Netgear VPN/firewall literally take a dive already. </s>
+<s> If I use SonicWall as an example, the TZ190 can handle site-to-site VPN's as well as client-to-site VPN's. </s>
+<s> Buy additional client VPN licenses as you go. </s>
+<s> And in either case, (SonicWall or Netgear) you'll really only need 1 public IP. </s>
+<s> Hope that helps... </s>
+<s> Thanks Bkirby. </s>
+<s> I appreciate the response. </s>
+<s> You've given me quite a bit of really great information and products to research. </s>
+<s> I have some homework to do!!! </s>
+<s> Thanks again buddy. </s>

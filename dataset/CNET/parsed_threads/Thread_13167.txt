@@ -1,0 +1,25 @@
+<s> My friend bought me a wireless router as a Christmas present, and I set it up in my house so everyone in the household can get access to the internet anywhere in the house. </s>
+<s> But since my son can access the internet anywhere in the house, I want to monitor what sites he had been to. </s>
+<s> Please help me on that issue </s>
+<s> Some routers have a SNMP reporting tool. </s>
+<s> As it stands you get to find it. </s>
+<s> Bob </s>
+<s> I have NetGear WGT624. </s>
+<s> Do they have SNMP reporting tool? </s>
+<s> &quot;&gt;How we will programmatically get the information of the Bandwidth of &gt;an access point. </s>
+<s> &gt;Otherwards how we will keep track of the bandwidth strength of an &gt;access point. </s>
+<s> If the access point supports SNMP, then MRTG, RRDTool, or a wide variety of SNMP based utilities will draw nice looking graphs. </s>
+<s> http://www.mrtg.org http://www.rrdtool.org However, if your access point does not support SNMP, then you can build a scripting tool that will extract the same information from a web page. </s>
+<s> For example, this Java program will extract the numbers from a WGT624. </s>
+<s> As always, it would be nice to know what you are trying to accomplish and what you have to work with. </s>
+<s> -- Jeff Liebermann &quot; </s>
+<s> But what do you mean by access point? </s>
+<s> My router? </s>
+<s> (I don't konw if my router supports SNMP or not) I went to both website that you told me and download the software from that site, but I have absolutely no idea how to work them out (since there is not a single EXE file within the archive). </s>
+<s> All I wanted to do was to monitor what sites that my son had gone to. </s>
+<s> Thank You! </s>
+<s> As you can tell, no ready to use application is ready for your make/model. </s>
+<s> Since this is true, then you have to use the noted software I linked to. </s>
+<s> If you were looking for a &quot;click here to use&quot; application, I didn't find it. </s>
+<s> However I have seen MTRG working and it would satisfy your question. </s>
+<s> Bob </s>

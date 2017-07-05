@@ -1,0 +1,33 @@
+<s> Hello, I wanted to know how, if there are any script which will send an alert once a file has reached a destination over an TCP network. </s>
+<s> For an example we would think how reliable we need this to be. </s>
+<s> For a simple affair you could send the notice if the file name and byte count were right. </s>
+<s> But for most they'll want better. </s>
+<s> Example. </s>
+<s> 1. </s>
+<s> Create the MD5SUM on the source file. </s>
+<s> 2. </s>
+<s> Create the MD5SUM on the target file. </s>
+<s> 3. </s>
+<s> If they match, send the alert. </s>
+<s> Bob </s>
+<s> Hello again, Thank you for the post. </s>
+<s> here is my current scenarion: File xxx needs to be transferred to another site. </s>
+<s> In one day there can be like 10K files (assume) which can be transferred. </s>
+<s> In this case I do not want to overload the network with MD5SUM for each file. </s>
+<s> What I found was to check if the File-copy operation was not complete. </s>
+<s> For e.g. </s>
+<s> if for any reasons file xxx could not be copied to its destination, then an alert can be instantly generated. </s>
+<s> Is there any solution to check if a file could not be copied then? </s>
+<s> I did not detail in detail all the steps and on what machines. </s>
+<s> That is, the MD5SUM was done on the local file and sent to the remote computer for comparison. </s>
+<s> It added so little overhead that we don't discuss that. </s>
+<s> My short answer is just that. </s>
+<s> The actual implementation can't be written up here. </s>
+<s> That is, it may depend on what OSes are on the servers, and of course the IT or creator's skill set. </s>
+<s> It would do no good to supply a solution in &quot;C&quot; if the person who has to do all this is not there or does not have the same compiler and more. </s>
+<s> By the way. </s>
+<s> Why isn't a transfer such as FTP being used? </s>
+<s> It emits a log file. </s>
+<s> Again we have to set the bar on how much work we can allow to be put into this. </s>
+<s> I've yet to see a FTP file not get there if the FTP log said it got there. </s>
+<s> Bon </s>

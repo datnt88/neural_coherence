@@ -1,0 +1,20 @@
+<s> I am just about to replace my hardrive and have one last question. </s>
+<s> My current Master HD is understood. </s>
+<s> However, I have a second HD that appears to not be a Slave. </s>
+<s> It is identified as an IDE Primary Master and my CD-RW as the IDE Primary Slave. </s>
+<s> Question, could I move the IDE Primary Master HD off the IDE and to the Slave and just leave the CD-RW on the IDE? </s>
+<s> Does it make a difference? </s>
+<s> You have two controllers (or more if you have RAID or SATA controllers on the motherboard, but forget these for now) on your motherboard for IDE devices. </s>
+<s> Primary and Secondary Each of those allow for two IDE devices (either harddrives, cdroms, or zip drives) The first device seen for operating system purposes is the harddrive C: drive and that is the Primary Master...anything attached to the second controller on that cable would be the Primary Slave. </s>
+<s> It doesn't matter if it's another harddrive or a cdrom. </s>
+<s> The other controller could also have a second harddrive attached to....and it would be seen during the boot as the Secondary Master and anything attached to the second controller on that cable would be seen as the Secondary Slave whether it's another harddrive or a cdrom device. </s>
+<s> So......if you state: However, I have a second HD that appears to not be a Slave. </s>
+<s> It is identified as an IDE Primary Master and my CD-RW as the IDE Primary Slave. </s>
+<s> Question, could I move the IDE Primary Master HD off the IDE and to the Slave and just leave the CD-RW on the IDE?&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; this isn't making sense to me. </s>
+<s> If you are asking how to position the second harddrive so that you can put the new one as the Primary Master (drive would have to be fdisked and formatted and get the operating system installed to it), I would then attach your second harddrive as the Primary Slave on that same cable (make sure you change the jumper on it to be slave). </s>
+<s> Then I would put your cdrom on the Secondary IDE controller and leave it jumpered as the Slave, even if nothing else is attached to the cable because most cdroms function and are seen well as the Slave. </s>
+<s> (I've jumpered a few of them to be a Master just to have the bios not be able to see it at all so now it's habit to use either Slave automatically or cable select as a choice). </s>
+<s> I hope this answers what you were asking. </s>
+<s> TONI </s>
+<s> Once again, Toni, you have straightened me out. </s>
+<s> Much appeciated. </s>

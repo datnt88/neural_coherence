@@ -1,0 +1,57 @@
+<s> I have just purchased a Power Sentry 2200va UPS with a RS-232 cable interface. </s>
+<s> I connected it all up but when I turned everything on, XP did not find any new hardware. </s>
+<s> I went to &quot;Power Options&quot; then UPS tab and set up the UPS as Generic using COM1 as the connection as per my mother board diagram but I can't seem to get any communication between my PC and the UPS. </s>
+<s> When I unplug my UPS from the wall socket and my PC starts running on battery power I can go into the UPS tab again under power options and it still tells me that I'm running off AC. </s>
+<s> Does anyone know how to get the UPS to communicate this the PC when using the RS-232 interface? </s>
+<s> Is there some special software that is required? </s>
+<s> Thanks mtree MS Windows XP Professional V2002 SP 3 AMD64X2 Dual Core </s>
+<s> It comes from the UPS maker. </s>
+<s> That is the problem. </s>
+<s> There is no contact info. </s>
+<s> The Manual just says &quot;Contact your sales reprsentative&quot; Another statement it makes is &quot;Some computers may need special UPS monitoring software. </s>
+<s> Contact your dealer for details on the various interface kits&quot;. </s>
+<s> I bought this new from a discount store and was wondering if anyone here had any knowledge on this model of UPS. </s>
+<s> I have see quite a few on sale. </s>
+<s> Power Sentry 2200VA with an RS-232 interface. </s>
+<s> thanks mtree </s>
+<s> I've seen such land in the fire or discount sales places because drivers and software were never developed. </s>
+<s> Keep in mind I didn't look for this software. </s>
+<s> You could do that on your own with google, etc. </s>
+<s> Bob </s>
+<s> Tried Google. </s>
+<s> I have been in this position before and Google has always come through for me. </s>
+<s> Not this time however, which I find surprising considering how many places seem to be selling this product. </s>
+<s> M </s>
+<s> A company crashes. </s>
+<s> This isn't the first time for such. </s>
+<s> Maybe it's good enough to just have an UPS? </s>
+<s> The fact that it uses RS-232 connection suggest this is an older model and/or discontinued one. </s>
+<s> Most newer UPS that have links to the system for s/w control are USB based. </s>
+<s> If you google and find such s/w available, it needn't be directly provided for that brand name. </s>
+<s> It *MAY* work as a generic type setup, it just needs A UPS to work. </s>
+<s> So, if you find a newer s/w it *may* work also using a RS-232 to USB adapter then again, once you get into deviated manufacturer setup, it could falter as well. </s>
+<s> tada -----Willy </s>
+<s> Ok I'm getting somewhere now. </s>
+<s> It seems that Powercom makes these UPSs. </s>
+<s> Could be one of those cases where they produce a bunch of them and then relabeled them for some reason (maybe quality or age). </s>
+<s> The whole thing is crazy. </s>
+<s> It came in a Philips box, was labeled Power Sentry, but was manufactured by Powercom. </s>
+<s> http://www.powercom-usa.com/ProductDetail.asp?ID=20 </s>
+<s> Powercom America Inc. HEADQUARTERS Tel:714-525-8889 Fax:714-525-8881 Toll-Free:800-666-8931 Service Hot-Line:714-526-5888 Address: 623 S. State College Blvd., Fullerton, CA 92831-5115 Email: contact@powercom-usa.com </s>
+<s> http://www.powercom-usa.com/techsup/techsup.html There is some s/w but it states for &quot;registered users&quot;, if you haven't and it stops you, you need to register. </s>
+<s> Contacting them seems like a good idea is all else fails or if you take too long, return product for refund. </s>
+<s> etc.. tada -----Willy </s>
+<s> I sent them an email and got the correct version of the software. </s>
+<s> Just a version of UPSMON which I already had from one of my old UPSs. </s>
+<s> Still did not interface with my main PC as it would not connect using com1,2,3,4. </s>
+<s> Had to go in the BIOS and switch the addresses to AUTO for COM1 & 2. </s>
+<s> Connects now and everything to work. </s>
+<s> Man what a headache all that was. </s>
+<s> M </s>
+<s> Ah! </s>
+<s> a serial device address problem. </s>
+<s> The same issue for many yrs. </s>
+<s> using modems and printers, etc. </s>
+<s> when serial/RS232 was popular. </s>
+<s> Glad you got it sorted out. </s>
+<s> -----Willy </s>

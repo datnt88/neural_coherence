@@ -1,0 +1,33 @@
+<s> My friend office have been setup using a WiFi for its network. </s>
+<s> Using SSID password and WEP as security, plus A MAC Address filter. </s>
+<s> Its works for all the employee... 8 of them, all using a laptop. </s>
+<s> Hardware are, Linksys WRT54G, windows XP pro-sp2. </s>
+<s> Problem is, the guess who bring their own laptop can not connect to the network and internet... unless someone type the SSID Password and inserting the Mac address manually in the router (but they don't have an IT guy...) Question is, How to give a guess an access to network/internet... (without changing the router configuration back and forth...) I thought of, having 2(TWO) Access Point, using different channel, but one of the AP is open (No security - but it will be turn ON/OFF as necessary) -- If this configuration is possible, can both AP (different channel) still share a file or printer? </s>
+<s> -- Any Information or idea is appreciated Thank You </s>
+<s> Can they share a file or printer? </s>
+<s> Yes. </s>
+<s> However, if you have an AP with no security, then you've opened up your network. </s>
+<s> Handing out your SSID and WEP keys to guest is not ideal either, from a security stand point. </s>
+<s> You could put a printer in the &quot;DMZ&quot; and have the guest come in on the DMZ side. </s>
+<s> Just keep in mind that any thing you allow guest to access from the DMZ, so can the rest of the world that is within RF range. </s>
+<s> So that makes file sharing a wee bit difficult. </s>
+<s> To keep the network secure, they will have to keep entering the MAC, WEP, and SSID. </s>
+<s> Scott http://www.AAApcMechanic.com </s>
+<s> With two different Channel, I can still share file and printer.. </s>
+<s> Right? </s>
+<s> i.e. </s>
+<s> read/write and print to a laptop that connected in different channel.. As for security, like I mention in my post, the 'open wifi network' is turn off/on as needed (when a there is a guess) As for putting or letting the guess in DMZ zone, this involving AP/router configuration everytime a guess is coming.. correct? </s>
+<s> Thank You </s>
+<s> Try not to use mac filtering in the router. </s>
+<s> Just use SSID and WEP security. </s>
+<s> So you can set up SSID and WEP for your guess without reconfig the router. </s>
+<s> This way still give you some protection, but not as good as with mac filter too. </s>
+<s> It's simple and effective. </s>
+<s> After we have the LAN/Wifi up then we can see how WEP/WAP/such works out. </s>
+<s> I wish it always worked, but some make/models don't work with all clients so we start with the MAC filtering and move up. </s>
+<s> Bob </s>
+<s> It is not clear in the description. </s>
+<s> Do you have a server network or is it all peer-to-peer. </s>
+<s> If a network server is included, the SSIS/WEP access without MAC filtering will let guests get only to the internet. </s>
+<s> No adjustments are needed for each new guest. </s>
+<s> Periodic changing of WEP key can maintain security. </s>

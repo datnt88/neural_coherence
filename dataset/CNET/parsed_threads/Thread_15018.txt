@@ -1,0 +1,37 @@
+<s> Hi, I hope someone can help. </s>
+<s> Everything I have was working fine until last night but now isn't. </s>
+<s> I have a Linksys Cisco wireless router, WRT54G2. </s>
+<s> On the other end of the house I have a D-link DI-604 router that I had set up to act as a hub. </s>
+<s> I don't know why it stopped working and I can't get it going again. </s>
+<s> The Linksys is set up with DHCP enabled. </s>
+<s> Its local IP address is 192.168.1.1. </s>
+<s> The starting IP address is 192.168.1.100 and the maximum number of users is 50. </s>
+<s> As I understand it, this means the Linksys will assign IPs from 1.100 to 1.149. </s>
+<s> As far as I can tell, the Linksys is working fine. </s>
+<s> It has a wired Apple and a wireless Windows laptop connected to it, both internet connections are working fine. </s>
+<s> The default IP address for the D-Link is 192.168.0.1. </s>
+<s> According to what I can find, I need to change the default IP of the D-Link to be in the network range of the Linksys, disable DHCP in the D-Link, connect a cable from a LAN port on the Linksys to a LAN port on the D-Link, and the rest of the LAN ports on the D-Link should simply act as if they were additional LAN ports on the Linksys. </s>
+<s> I want to be sure what my options are for changing the default D-Link address. </s>
+<s> It can be anything from 192.168.1.2 to 1.99 or 1.150 to 1.255, correct? </s>
+<s> It just can't in the range the Linksys DHCP assigns to its devices, 1.100 to 1.149. </s>
+<s> Correct me if I'm wrong. </s>
+<s> I've done that several times but when I power-cycle the D-Link or reboot my Windows PC (different from the laptop) I can no longer log into the D-Link at the address I assigned to it and I get a 'Limited or no connectivity' message. </s>
+<s> I don't know what else I need to do. </s>
+<s> The WAN setting on the D-Link is Dynamic IP, I don't know if that matters. </s>
+<s> I have tested the D-Link by connecting it directly to my modem and it works fine so I know it's not broken. </s>
+<s> Please help! </s>
+<s> It's only purpose would become to enter it's web interface to configure it. </s>
+<s> You'd probably want to put it within the same range as the Linksys but outside of the DHCP allocation range so what you're suggesting is correct. </s>
+<s> I suspect you cannot log into the D-link because your PC is out of it's range. </s>
+<s> What you can do is disconnect your PC from the rest of the network and connect it to the D-link only. </s>
+<s> If it's still DHCP enabled, it will give you an IP address and you can access its web interface. </s>
+<s> If it's not DHCP enabled, you just give your PC a static address within the range of what you've assigned to the D-link. </s>
+<s> This should allow you to configure it and save the settings. </s>
+<s> Of course, you only get to do this once until you re-enable DHCP and put both your PC and the D-link back on the LAN. </s>
+<s> Thanks for the reply. </s>
+<s> I'm sorry, I forgot to make clear that my Windows PC -is- what is connected to my D-Link. </s>
+<s> I don't understand why I can't log back into the D-Link from my Windows PC using the address I assigned to the D-Link. </s>
+<s> I -can- do that, but only until the D-Link or the Windows PC are rebooted, then it doesn't work. </s>
+<s> I noticed that the port on the Linksys my D-Link was plugged into was indicating it was under constant access (fast blinking light) so I changed the cable leading to my D-Link to a different port, ipconfig /release then /renew on my Windows PC and it came right up! </s>
+<s> (&gt;_&lt;;) Looks like that port on my Linksys is fried. </s>
+<s> Thanks anyway, all. </s>

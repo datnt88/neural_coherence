@@ -1,0 +1,25 @@
+<s> Western Digital SATA Hard Drive - 640GB Vista Home Premium - 64Bit Gateway desktop. </s>
+<s> Would someone know of any utility or method to restore a SATA hard drive's factory full capacity size? </s>
+<s> During partitioning my drive, it went from 595GB (640GB Drive) to only 32GB. </s>
+<s> Since it is a 64-Bit system, I can't find a utility to restore the drive's full capacity. </s>
+<s> The last time I did this I used the Vista's installer. </s>
+<s> Worked fine. </s>
+<s> My goal is to recover the original factory's hard drive's capacity size of 595GB and not the current 32GB. </s>
+<s> Does the Extend Volume option work: http://www.vistarewired.com/2007/02/16/how-to-resize-a-partition-in-windows-vista Kees </s>
+<s> And AFTER A BACKUP!!! </s>
+<s> Look up GPARTED. </s>
+<s> Again something odd is going on here. </s>
+<s> Was there some other than Vista tool used? </s>
+<s> NIL </s>
+<s> Okay, KUDOs to you TheDraac. </s>
+<s> I got the drive fixed. </s>
+<s> First I must have messed up the drive by using the Western Digital Lifeguard Tool on their own drive - ironic. </s>
+<s> Using the Lifeguard Utility, I did what I had to and checked the BAs. </s>
+<s> My Native MAX LBA did not match my Current MAX LBA, and I did not know how to change it. </s>
+<s> I set, in the BIOS, the drive to LBA and the system got up to 137GB. </s>
+<s> Then I ran the Acronis WD (Western Digital) Edition (free) to check the integrity of the drive. </s>
+<s> It showed me the following partitions: 32GB, 137Gb and UNUSED 144GB. </s>
+<s> I opened my Easeus Partition Master to check the drive and found all the full size - it gave me more than the factory, it gave me 610GB instead of the 595GB for a 640GB drive. </s>
+<s> Am so excited! </s>
+<s> Thanks for all your help here, I really appreciate all your help and time. </s>
+<s> You ALL have a wonderful weekend. </s>

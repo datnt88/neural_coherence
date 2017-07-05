@@ -1,0 +1,41 @@
+<s> Windows XP Home Edition Dell XPS 600 Hp deskjet 812c This HP 812c was on a Dell l800r w/Windows ME. </s>
+<s> It had a parallel connect and bidirectional communication capabilities. </s>
+<s> To connect to XP I had to change the cable to usb connection. </s>
+<s> Installed per cable instructions and also per HP instructions. </s>
+<s> Printer is identified correctly and usb port show usb001 virtual printer. </s>
+<s> When trying to configure port I get an error message: &quot;An error occured during port configuratiion.This operation not supported&quot; The check box for &quot;Enable bidirection support&quot; is greyed out you cannot check it.Installed new driver from XP. </s>
+<s> During boot of XP the add hardware wizard will open and a popup stating &quot;New hardware detected&quot; And indicates the printer is not installed. </s>
+<s> The printer will printer if you turn it on but will not turn on and print if you hit print in an application. </s>
+<s> It always printed in ME when you hit print and you had enabled bidirectional support. </s>
+<s> Did I end up with a wrong cable. </s>
+<s> Thanks for the help Ray </s>
+<s> The drivers are not correctly installed. </s>
+<s> The driver for a usb connection may be different than for a parallel connection. </s>
+<s> When the correct driver is installed, the printer should be recognized as HP 812c printer. </s>
+<s> If you no longer have the driver cd for the printer, you can visit the HP website to check for the proper usb driver for the printer. </s>
+<s> Best of Luck </s>
+<s> Thanks for the reply: I did a search of the HP website for usb drivers for XP and deskjet 812c with no success. </s>
+<s> Finally sent HP support a question about my problem. </s>
+<s> THEIR ANSWER WAS THE SAME OLD &quot;BASIC SEDIMENT AND WATER&quot; I always get from those folks: &quot;Deskjet 812c printer does not have auto on feature&quot; Why did it work for 5 years on ME as auto on mode??? </s>
+<s> There are no drivers for this printer that are specific to USB. </s>
+<s> They are saying possibly USB controller corrupt. </s>
+<s> My keyboard and mouse and connection to LCD Monitor are all working properly they are all USB ports. </s>
+<s> Too say the least I have not gained any further knowledge from HP support than from their knowledge base. </s>
+<s> Again thanks for your help Ray </s>
+<s> Purchase usb to parallel coverter, or you can install a pci card (parallel port}. </s>
+<s> This will give you the parallel port connection. </s>
+<s> Of course there's no guarantee that the bidirectional support will be available. </s>
+<s> would that get me back to lpt1 or would it still use usb001 Then would I use the driver software that came with the printer or an updated driver from HP. </s>
+<s> Not familiar with pci card with parallel port. </s>
+<s> Which would be more likely to give me bidirectional Thanks Ray </s>
+<s> I can't honestly tell you how a converter would be recognized by the computer. </s>
+<s> However a pci card would certainly be recognized as a parallel port or LPT 1, etc. </s>
+<s> I can't tell you that bidirectional support will be restored, but it will give you a parallel port to connect the printer to the computer. </s>
+<s> This is one such card: http://www.cyberguys.com/templates/searchdetail.asp?productID=4177&sk=MC51730 </s>
+<s> Was getting a similar problem - except that the printer worked fine after just starting the PC - but after a short while - nothing, with the same error message. </s>
+<s> If yours is the same problem I dont think it has anything to do with cables. </s>
+<s> Instead, check if the USB port to which your printer connected does not automatically power off. </s>
+<s> If it does, the virtual printer port associated with USB001 port is disconnected. </s>
+<s> To fix this, open 'Control Panel &gt; System &gt; Device Manager' - then open 'Universal Serial Bus controllers' - find the usb port to which the printer is connected (probably one of the 'USB Root Hub' connections - rt-click &gt; Properties - then on the 'Power Management' tab - de-select &quot;Allow the computer to turn off this device to save power&quot;. </s>
+<s> Assuming yours is the same problem as I had - this should fix the problem. </s>
+<s> Good luck to you. </s>

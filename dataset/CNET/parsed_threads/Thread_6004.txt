@@ -1,0 +1,32 @@
+<s> Can someone please tell me how to renew your ip address in Windows Vista? </s>
+<s> Thank you, Judy </s>
+<s> I am not sure about vista, but in XP. </s>
+<s> Run CMD ipconfig/renew </s>
+<s> I am not sure what your problem is or why you want to renew your IP in Vista. </s>
+<s> There are a few questions you most answer before I can help you. </s>
+<s> 1-Are you behing a personal router. </s>
+<s> 2-Are you behing a Cable/Internet modem/router. </s>
+<s> 3-Are you having problems connecting to the internet and you think that renewing your IP will solve the problem. </s>
+<s> 4-Is it just an issue of you being given say IP 4 buy you want to be number 1. </s>
+<s> I asked this question because I have set all my family's pc's but since I maintain them, each one has to accept connections from my IP and therefore I don't want my IP to keep changing. </s>
+<s> FOR INFORMATION PURPOSES: Most routers whether you bought it or was provided by Cable/Internet service provider are set to provide you the next available IP on the DHPC server. </s>
+<s> In othe words, if you turn your pc on, it will be given an IP automatically, let say IP 1, then you connect your WII and it is given the IP 2. </s>
+<s> Turning both off, and then you turn the WII first, it will assigned IP 1, and your computer IP 2. </s>
+<s> This is called DYNAMIC ASSIGNMENT. </s>
+<s> YOU COULD MAKE IT STATIC AND YOUR IP WILL NEVER CHANGE but you have to know something about routers and Windows IP assignment. </s>
+<s> I can help you but first descrive what the problem is, and what is your expertise and why do you want to Renew the IP. </s>
+<s> By the way the IP to your router from the Cable/Internet provider Renews every 3 to 4 days. </s>
+<s> Your personal IP is fresh to you everytime you turn off your pc and on again. </s>
+<s> You most likely have a Dynamic IP assignment which causes your IP to change. </s>
+<s> Is this what you are trying to change. </s>
+<s> Hope you read this. </s>
+<s> Geo </s>
+<s> Start&gt; to &quot;Help and Support&quot;, type &quot;Enable Network Adapter&quot; (no quotes), click enter. </s>
+<s> Follow the instructions found here. </s>
+<s> Disable it first then enable it again. </s>
+<s> This will totally reset your adapter not just the IP address. </s>
+<s> In short it will start your adapter over. </s>
+<s> Many things can cause this problem this will solve most of them but not all, connectivity problems can be complicated problems to solve. </s>
+<s> This thread is tracked. </s>
+<s> To change or renew your ip go to network and share center.In that you will get a option of connection & view status.Then open view status you will get a window of local network status.Go to properties in that you will get an option like Internet Protocol Version4(TCP/IPv4)and check his properties.Now you can change your IP you will get an option like use following IP.Jst write down IP 190.168.0.145 like bla bla bla... </s>
+<s> the easiest way to do it is to go to&gt; Start Orb&gt;Run...&gt;Type 'ipconfig /release'(without quotes) That should then reset the ip Then you will need to go to the internet icon on the taskbar and right-click, then select 'diagnose and repair' There you have it, IP address reset </s>

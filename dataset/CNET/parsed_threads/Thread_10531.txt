@@ -1,0 +1,33 @@
+<s> Hi all, I've recently bought a laptop and set up a wireless network at home. </s>
+<s> Both computers connect smoothly, and the PC can see the laptop's shared folders, but the laptop can't see the PC's shared folders. </s>
+<s> Any idea what might be wrong? </s>
+<s> Both computers run XP, both have home networking enabled with the same workgroup name. </s>
+<s> My suspicion is on the firewalls: I have the laptop running Norton's Personal Firewall, where I've set up the router address as a trusted computer. </s>
+<s> (But does that open me up to all Internet traffic?) </s>
+<s> The PC is running Windows Firewall. </s>
+<s> File and Printer Sharing are Excepted from the firewall, but I still can't see the laptop and don't see any other place to specify the workgroup or laptop to allow traffic. </s>
+<s> Anyone have any ideas? </s>
+<s> I'm out of 'em. </s>
+<s> Thanks - --Beth </s>
+<s> Try access home pc from Laptop using its \\IP\&lt;sharedfolder&gt; (Type the shared folder you know) . </s>
+<s> I was also having same problem. </s>
+<s> I wasn't able to see homepc in the network neighbourhood then. </s>
+<s> I guess this is the way I resolved it before. </s>
+<s> uninstall the network from laptop and resetup the network by using your xp cd. </s>
+<s> if not then uninstall the network completely from all the devices and install by the one xp cd in all divices. </s>
+<s> Is the PC XP Home or XP Pro? </s>
+<s> This is too much for me to get into here, but basically, you want to create an account for the laptop on your desktop PC. </s>
+<s> Setup an account on the PC for the laptop, example: laptop Give the account a password! </s>
+<s> Setup a user account on the laptop called ''laptop'' and give it THE SAME PASSWORD AS THE ACCOUNT ON THE PC! </s>
+<s> From the PC you will need to give ''laptop'' permission to access the folders in question. </s>
+<s> That's all I can really get into online. </s>
+<s> If you need help, invite your local 7 year old over for milk and cookies. </s>
+<s> Is the PC XP Home or XP Pro? </s>
+<s> This is too much for me to get into here, but basically, you want to create an account for the laptop on your desktop PC. </s>
+<s> Setup an account on the PC for the laptop, example: laptop Give the account a password! </s>
+<s> Setup a user account on the laptop called ''laptop'' and give it THE SAME PASSWORD AS THE ACCOUNT ON THE PC! </s>
+<s> From the PC you will need to give ''laptop'' permission to access the folders in question. </s>
+<s> That's all I can really get into online. </s>
+<s> If you need help, invite your local 7 year old over for milk and cookies. </s>
+<s> Remember; you have to enable file/print sharing on both the laptop and desktop in order to share both ways. </s>
+<s> If you only ran the Network setup wizard on the laptop, your desktop is not setup properly for sharing. </s>

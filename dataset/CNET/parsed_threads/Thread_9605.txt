@@ -1,0 +1,41 @@
+<s> My PC consistently reboots once the Windows XP load screen completes. </s>
+<s> In other words, when the logon screen should display, instead the machine restarts. </s>
+<s> This problem originated after my house lost power; I'm not sure if that has anything to do with it. </s>
+<s> I ran a memory checker based on a friend's advice and everything seems fine there. </s>
+<s> I can't boot into Safe Mode or anything else. </s>
+<s> I fear a hard drive problem but hoping its something else. </s>
+<s> Any suggested tests/remedies? </s>
+<s> Boot the XP CD and from the Recovery Console (see http://support.microsoft.com/kb/314058 ) run this CHKDSK C: /F Retest the boot. </s>
+<s> Next up? </s>
+<s> A repair install. </s>
+<s> Take your pick from this list. </s>
+<s> http://www.google.com/search?hl=en&q=XP+REPAIR+INSTALL bOB </s>
+<s> Thanks for the reply. </s>
+<s> Unfortunately, the chkdsk did not work, and when I tried to do a reinstall I got errors during the repair installation claiming &quot;Setup cannot copy the file xxxxxx.xxx&quot;. </s>
+<s> There is no file named that on the XP CD. </s>
+<s> This could mean a bad XP CD or bad CD drive or cable. </s>
+<s> The hard disk might be full. </s>
+<s> Tell me the output of the chkdsk command so I can tell what state the hard disk is in. </s>
+<s> Also it may take awhile but this could mean the hard disk couldn't be written to as in the case of SATA drives. </s>
+<s> If you have such, be sure to tell. </s>
+<s> Bob </s>
+<s> I was just using the xs as space fillers. </s>
+<s> There are multiple files that cannot be copied, probably around 20-30, mostly system files, (.dll, .xsl, etc.) </s>
+<s> When I browse for the files, they are right there on the CD where they are supposed to be, but they will not copy! </s>
+<s> I also tried copying the entire directory from the CD onto the C: drive and accessing the files that way but they still will not copy to wherever the install is trying to put them. </s>
+<s> I was able to scan my hard drive for viruses while attempting to do a reinstall*, but it came up with nothing. </s>
+<s> At this point I am considering buying a new HD, installing XP on it and using it as my primary, although I would like to avoid that if at all possible. </s>
+<s> I will re-run the chkdsk and report to you the output when I get home today. </s>
+<s> My drive is an ATA drive. </s>
+<s> Also, I do not have the chkdsk C: /f option, only /r and /p, I ran both and /p reported that it found errors if I remember correctly, but again, I will get the proper wording to you later this evening. </s>
+<s> Additionally, because the reinstall crapped out and there are system files missing, I get the dreaded Blue Screen whenever I try to boot into Windows *I was able to do this while browsing for the files that could not be copied, I navigated the Open File Window to My Computer and I was able to right-click the C: drive and scan it with McAffee VirusScan that way. </s>
+<s> If CHKDSK is fixing errors then that's telling us that something is amiss. </s>
+<s> Share the messages as to what it's fixing. </s>
+<s> I don't need the entire message but just what it's fixing. </s>
+<s> The part of chkdsk I'd like to see is the free space. </s>
+<s> Can you boot to a COMMAND PROMPT? </s>
+<s> Bob </s>
+<s> Booting to command prompt yields the same result: a reboot. </s>
+<s> Boot to the XP CD and find your way to the recovery console and there you can CHKDSK. </s>
+<s> More at http://support.microsoft.com/kb/314058 If you have a SATA drive I've omitted what extra steps are required. </s>
+<s> Bob </s>

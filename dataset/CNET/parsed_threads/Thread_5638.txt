@@ -1,0 +1,84 @@
+<s> I'm adding two access points to a primary router...my question is do/can I connect the 2nd access point to the 1st access point or it has to be connected to the primary router? </s>
+<s> I already know that I must change the IP addresses on the access points to .2 and .3. </s>
+<s> My only confusion is the question I asked. </s>
+<s> Thanks in advance for the help. </s>
+<s> The reason I would never chain or relay is that the speed/overhead of chaining defeats most of why we use said setups. </s>
+<s> Also, how are you going to deal with 802.11n's overlap issue if you use 40MHz OFDM? </s>
+<s> Bob </s>
+<s> though it could be through another switch. </s>
+<s> Static addressing or DHCP is up to you as long as your router will accommodate your choice. </s>
+<s> I find that using static addresses with some devices like printers and AP makes managing them a bit easier. </s>
+<s> Keep as much distance as you can between the APs. </s>
+<s> Some are smart enough to detect other devices nearby and will set their broadcast channel channel to avoid conflicts but, if they don't have this feature, make sure they operate on different channels. </s>
+<s> Thanks Bob and Steven.One question Steven...what kind of switch are you referring to? </s>
+<s> Ok let me break down what I think I know to do. </s>
+<s> I know i have to change the IP addresses on the two access. </s>
+<s> Im gonna change them to 192.168.1.2 and .3. </s>
+<s> I also know that i have to change the start IP address to .4 on the primary router. </s>
+<s> Plus I know to turn on DHCP off on both of the access points and let the primary router ha.nd out IP's too devices. </s>
+<s> Hope this is all correct. </s>
+<s> Like my question stated. </s>
+<s> I just needed to know if I had to connect the 2nd access point to the primary router or it can be connected to the 1st access point. </s>
+<s> I also know that i must make the channels different as you stated Steven. </s>
+<s> 1,6, and 11. </s>
+<s> Thanks again guys. </s>
+<s> I asked about how you were going to deal with 802.11n overlap and then you write about 1, 6 and 11. </s>
+<s> Channel 11 often gives you reduced power and range in most routers and sometimes you see that on channel 1. </s>
+<s> But you didn't reveal you were going to pull back to 802.11g to solve the overlap issue with 802.11n 40MHz ODFM. </s>
+<s> Here's a link in case you need to brush up on WiFi. </s>
+<s> http://en.wikipedia.org/wiki/List_of_WLAN_channels Your reply notes the common changes to using a router as a WAP so I'll stop here. </s>
+<s> Bob </s>
+<s> Ok Bob! </s>
+<s> lol. </s>
+<s> Never said I was a professional thus be asking for input. </s>
+<s> Thanks again </s>
+<s> And that's what I want them as, WAP's. </s>
+<s> I'm just trying to broaden my wifi coverage throughout my house. </s>
+<s> Multiple Ethernet ports on a router make up a switch. </s>
+<s> If you have more devices than ports, you connect another switch to the router so your APs, be they in the router or separate switch are still in a switch. </s>
+<s> You will need to connect each AP to a switch port. </s>
+<s> Again, it could be on your router or another switch connected to it. </s>
+<s> You don't connect APs to each other via Ethernet. </s>
+<s> You also want to distance them from each other to minimize signal overlap as your devices that need to connect to them can get flaky in the overlap zone. </s>
+<s> As for your addresses, you don't need to do them sequentially but it's not a bad idea. </s>
+<s> If you want to use a mix of static and DHCP addressing, what you do is set the range in your router. </s>
+<s> I've seen some that default to starting at .100 so can provide over 150 addresses. </s>
+<s> Your router will take up one static address for its web interface and it's common to see that address be number 1 so your static IP range would be from 2 to 99. </s>
+<s> Now if your APs come with discovery software that facility setting them up, you don't need static addressing. </s>
+<s> I just find it convenient when dealing with multiple APs as I can simply use a web browser and make a bookmark to each device. </s>
+<s> Hi. </s>
+<s> 1. </s>
+<s> It would help if you could provide the model number of the access points that you intend to use. </s>
+<s> 2. </s>
+<s> Both the setups are valid. </s>
+<s> 3. </s>
+<s> To make them work the basic configuration should be as follows: On 2 extra Access Points: a. DHCP - disabled b. SSID - Identical for all - router + access points. </s>
+<s> c. Channels - Separate by at least 3. d. Ip address - Access points can have any IP addess in private IP range & here is the explanation - access Points are just wireless antennas that act as wireless hubs. </s>
+<s> So the Ip address assigned to them is for their initial configuration & has no further use once they are configured. </s>
+<s> Of course if that IP is in the same range as your network, it should not be repeated. </s>
+<s> e. Security - Identical for all devices. </s>
+<s> f. On the router - DHCP on. </s>
+<s> 4. </s>
+<s> Now you can connect the access points to the router as well as daisy chain them if you want. </s>
+<s> Take care. </s>
+<s> with built in hubs. </s>
+<s> Are you sure you're not talking about routers capable of acting as APs? </s>
+<s> You mentioned disabling DHCP but APs only require configuring them to either acquire an address (from a DHCP server) or to have one manually assigned. </s>
+<s> But now this makes me wonder why the originator of the thread mentioned connecting the APs together as they typically have only one Ethernet port. </s>
+<s> Perhaps what he has is 3 routers. </s>
+<s> Hi Steven. </s>
+<s> 1. </s>
+<s> I agree with you. </s>
+<s> But I had assumed that both the 'access points' have built in hubs as it was mentioned that the APs can be connected together. </s>
+<s> 2. </s>
+<s> Again, the model numbers would be a great help. </s>
+<s> 3. </s>
+<s> Otherwise, all the 'three' solutions are valid - two as posted in the question itself, third one about using a additional switch. </s>
+<s> Take care, Navneet. </s>
+<s> My apologies for slow response... </s>
+<s> Here is the model that I will be using for the router and access points. </s>
+<s> http://www.amazon.com/Medialink-Wireless-Broadband-Internal-Compatible/dp/B00A3YN0Z0/ref=sr_1_1?s=electronics&ie=UTF8&qid=1382125074&sr=1-1&keywords=medialink+wireless+n+router </s>
+<s> Thank you Navneet </s>
+<s> the DHCP server in the ones you'll use as APs. </s>
+<s> You'll also not use the WAN ports on these. </s>
+<s> NIL </s>

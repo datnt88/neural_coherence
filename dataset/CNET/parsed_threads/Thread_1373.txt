@@ -1,0 +1,14 @@
+<s> can anybody tell me how can I allow somebody to connect to a server using the windows terminal services connection? </s>
+<s> I've never had to use this before and I'm kind of confuse with it... my operating system is windows server 2000 </s>
+<s> make sure you have the service install (not installed by default) and in terms of networking side, you'll need to open port TCP 3389 and point it to the server. </s>
+<s> without purchasing TS license, you are only allow to have max of 2 connections at the same time. </s>
+<s> I will never use it for more than 1 connection since it disconnect and kick you out sometime if you connection is not good and you'll need the 2nd logon to clear it out. </s>
+<s> if $$$ is not an issues, Citrix is the way to go. </s>
+<s> Albert </s>
+<s> Thank you I opened the ports from my router but when I try to connect from my house it says that computer is not ready, and I see here that terminal service is enable and working, what can I do? </s>
+<s> how do should I open the ports in the computer itself? </s>
+<s> First, check and see if you are able to connect from the local network. </s>
+<s> If so, the problems is on your router or the IP address you use to connect from home. </s>
+<s> If you are not able to connect from the local network, check and see if both Terminal Service and TS licensing are running. </s>
+<s> (You should be running in Remote Administration Mode if you dont plan to purchase any licenses). </s>
+<s> Unless you have install 3rd party firwall on the server, otherwise, you don't need to open any port on the server to allow this connection. </s>

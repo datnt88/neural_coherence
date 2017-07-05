@@ -1,0 +1,40 @@
+<s> Hi all. </s>
+<s> I was wondering if there was any utility within Windows XP, Windows Vista, or OS X to monitor overall network and/or Internet bandwidth distribution. </s>
+<s> More specifically, which applications are using how much of my connection to download anything. </s>
+<s> If there aren't any provided with the operating system, would there be any third-party applications? </s>
+<s> If you have only one computer and you want to determine what applications are using the most bandwidth then just load the Ethereal sniffer on that machine. </s>
+<s> It is free and provides some bandwidth and conversation analasys tools. </s>
+<s> If this is a shared connection then insert a hub between the DSL modem and the router. </s>
+<s> A cheap switch will not work. </s>
+<s> It has to be a hub or a managed switch that supports &quot;port mirroring&quot;. </s>
+<s> You can use ethereal the same as before to monitor the total bandwidth being used and which applications use the most/least. </s>
+<s> SKrall </s>
+<s> You can use the MSFT Performance Console. </s>
+<s> Control panel, Performance and Maint., Admin Tools, Dbl-click Performance. </s>
+<s> The 3 default parameters will be running. </s>
+<s> R-click the console and select Add Counter. </s>
+<s> Under Performance Object dropdown list, select Network Interface. </s>
+<s> It should show all network interfaces on the right. </s>
+<s> Scroll the list on the left to select the current bandwidth and click Add. </s>
+<s> After you add it you can R-click it in the list of counters at the bottom and select a custom display color. </s>
+<s> Try this little program called Bandwidth vista at http://www.tamarsolutions.co.uk/files/bandwidthvista.zip Its free and free of junk such as adware and spyware and I think it will do the job you need done. </s>
+<s> I use it and so does several co workers and its gotten pretty good reviews from everyone. </s>
+<s> Hope this helps. </s>
+<s> Opened Control Panel but where is Performance and Maint.? </s>
+<s> There is an Admin Tools but nothing in there that resembles what you indicate. </s>
+<s> try again. </s>
+<s> open control panel open administrative tools open performance click the + button open the performance object sub menu select network interface follow the directions from darton fury </s>
+<s> That's becaue you're in Classic View. </s>
+<s> You can still get to the same point. </s>
+<s> Just open Control Panel; then go to Administrative Tools; then Performance. </s>
+<s> After that, you can follow the earlier instructions. </s>
+<s> OK to &quot;+ button&quot;. </s>
+<s> Click on that and I get three subs: Coumter Logs (System) - Trace Logs (empty) - Alerts (empty). </s>
+<s> Where is this &quot;open the performance object sub menu select network interface&quot;? </s>
+<s> Nope - tried both views, after I click on &quot;performance&quot;, I get system monitor and the before mentioned performance logs and alerts. </s>
+<s> Nowhere is there a mention of ant type of net use. </s>
+<s> Okay, try this 3rd way: Hit CTL-ALT-DEL. </s>
+<s> Click on the Task Manager button. </s>
+<s> Click on the Networking Tab. </s>
+<s> This will give you a real-time track of your network utilization. </s>
+<s> Hope this is what you need. </s>

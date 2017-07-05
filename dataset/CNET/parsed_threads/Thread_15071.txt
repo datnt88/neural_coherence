@@ -1,0 +1,36 @@
+<s> HI guys. </s>
+<s> I bought a new system last week and got some bad advice from a shop I bought a Seagate 160GB SATA drive from. </s>
+<s> It only read as 131GB when I was installing windows, and the guy told me it must be a BIOS problem. </s>
+<s> Specs: Gigabyte GA P35 DS3R Intel Conroe Dual core 6750 Gigabyte 8600 GT 512 MB graphics (model GV-NX86T512H) 2 x 1GB 1066 PQA DDR2 650W Coolermaster PSU I have since found &lt;a href=&quot; http://www.techimo.com/forum/showthread.php?t=120793&quot; &gt;this forum&lt;/a&gt; which indicates to me that mine is not the first Seagate 160GB drive to do this Anyway, my problem now is that after upgrading the BIOS my system is running slow. </s>
+<s> Using the GB interface, it shows that CPU is now at 1979 MHz from 2665MHz, with FSB down to 333. </s>
+<s> I was using an old 15GB Seagate Barracuda to do the BIOS flash, to see if that would change the HD capacity before installing XP. </s>
+<s> I have tried rolling back the BIOS, and clearing the CMOS. </s>
+<s> Is there anything I can do to get this processor and RAM back up to their optimised settings without harming them? </s>
+<s> for got to include link to forum describing Seagate 160GB SATA drives showing reduced capacity: http://www.techimo.com/forum/showthread.php?t=120793 </s>
+<s> When exactly did the Windows XP setup tell you this? </s>
+<s> What does Disk Management say about the drive now (partitions, not-allocated space)? </s>
+<s> What version of XP (original, SP1, SP2)? </s>
+<s> Kees </s>
+<s> http://www.48bitlba.com and other sites tell why. </s>
+<s> But with SATA I've learned to use the XP SP2 CD and nothing less. </s>
+<s> Those SATA drivers often crash on the older XP CDs. </s>
+<s> Bob </s>
+<s> yeah the only version I have is the original, have to DL SP2 after installing (which I've now done) I had planned to install partition manager to check on the size. </s>
+<s> However this really isn't a problem for me right now, I'm more concerned with my brand new 6750 CPU running at less than 2GHz and 333FSB. </s>
+<s> Any ideas? </s>
+<s> Your install of the OS must be complete before it may show at full speed. </s>
+<s> http://www.gigabyte.com.tw/Support/Motherboard/CPUSupport_Model.aspx?ProductID=2543 is interesting in that FSB could be wrong as well as other things. </s>
+<s> Be sure to load the BIOS to all defaults and retest. </s>
+<s> A support link is on that page. </s>
+<s> Hi. </s>
+<s> You should know that the default FSB for the E6750 is 333MHz. </s>
+<s> When seeing the clock speed of a processor, multiply the FSB (333MHz) by the multiplier, which is 8x in this case. </s>
+<s> 8 x 333 = 2,666MHz. </s>
+<s> If the FSB is still 333MHz, that means the multiplier has changed. </s>
+<s> That shouldn't happen without intervention, UNLESS you have C1E/EIST enabled in the BIOS. </s>
+<s> This is a power-saving feature which will lower the multiplier of the CPU during low-CPU usage. </s>
+<s> This feature in the BIOS was probably set back to its default setting (enabled) when you updated your BIOS. </s>
+<s> Go into your BIOS (Delete/F-Key[F1, F2, etc.]) </s>
+<s> and look for this option. </s>
+<s> Ensure that it is disabled to keep your PC running at full speed at all times. </s>
+<s> Thanks and good luck! </s>

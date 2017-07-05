@@ -1,0 +1,137 @@
+<s> HI, Iwent ahead and replaced my linksys router with the DSL G604T .Set it up and found it detecting the inbuilt wireless in my notebook and viceversa BUT cannot connect to the internet at all. </s>
+<s> I read your FAQs and tried the option on http://203.126.164.140/FAQ/view.asp...stion=dsl+g604t but no luck. </s>
+<s> When i go into http://192.168.1.1 configuartion, I get a setup wizard which doesnt appear in the user manual at all. </s>
+<s> I kind of checked all the other options and dont know what additional ones i need to check . </s>
+<s> Do i need to put in the primary and secondary dns specifically ? </s>
+<s> The guide doesnt say. </s>
+<s> The one thing i found odd was the WAN refuses to onnect (see below) on the default option of pvc0 or on any of the others. </s>
+<s> Do I need to download another firmware upgrade ? </s>
+<s> Firmware Version : V1.00B02T02.SG.20041110 LAN MAC Address 00:11:95:948:79 IP Address 192.168.1.1 Subnet Mask 255.255.255.0 DHCP Server Enabled NAT Enabled WAN Virtual Circuit Pvc0 Status Disconnected Connection Type pppoe IP Address N/A Subnet Mask N/A Default Gateway N/A DNS Server N/A Also, do I need to activate the foll. </s>
+<s> option ? </s>
+<s> THe manual doesnt say : UPnP To enable UPnP, check Enable UPnP and then select a connection. </s>
+<s> I then checked the ipconfig and this is what comes up and thats where there seems to be aproblem. </s>
+<s> I have powered off both the notebook (which has inbuilt wireless) and the router several times for upto 10 mins but no luck. </s>
+<s> please advise. </s>
+<s> I have even reset the router to factory settings but no luck. </s>
+<s> Windows IP Configuration Ethernet adapter Local Area Connection: Connection-specific DNS Suffix . </s>
+<s> : IP Address. </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : 192.168.1.3 Subnet Mask . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : 255.255.255.0 IP Address. </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : fe80::20e:7fff:feeb:6fcb%5 Default Gateway . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : 192.168.1.1 Ethernet adapter Wireless Network Connection: Connection-specific DNS Suffix . </s>
+<s> : IP Address. </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : fe80::290:4bff:fe4a:3135%7 Default Gateway . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : Tunnel adapter Teredo Tunneling Pseudo-Interface: Connection-specific DNS Suffix . </s>
+<s> : IP Address. </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : fe80::5445:5245:444f%6 Default Gateway . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : Tunnel adapter Automatic Tunneling Pseudo-Interface: Connection-specific DNS Suffix . </s>
+<s> : IP Address. </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : fe80::5efe:192.168.1.3%2 Default Gateway . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : Any and all advise welcome ! </s>
+<s> S </s>
+<s> 1. </s>
+<s> Ask if there is newer firmware. </s>
+<s> http://support.dlink.com/SupportFAQ/default.asp?model=DSL%2DG604T 2. </s>
+<s> Since this has the ADSL modem, you'll likely be calling your ISP to see how to make it work with their system. </s>
+<s> Bob </s>
+<s> Have you try to change the PVC? </s>
+<s> HI, I had to change the properties both in network connections and the router settings under http://192.168.1.1 to WEP I dont know what it triggered but the modem connected and I was logged onto the net The mysteries of technology continue to surprise ! </s>
+<s> Thanks to both of you who responded. </s>
+<s> S </s>

@@ -1,0 +1,51 @@
+<s> Hi, all: I recently flashed my bios from A02 to A05 on a Dell L433c w/ 512MB RAM (256 in each of the two slots). </s>
+<s> Immediately after, system failed to boot because only 4MB RAM was recognized on POST. </s>
+<s> Repeated tries showed 16 or 24, but never enought to boot Win 98SE. </s>
+<s> If I remove one DIMM, system boots normally. </s>
+<s> In fact either DIMM in either slot works normally, but not both together. </s>
+<s> I took out one of the DIMMs and successfully flashed back to A02. </s>
+<s> Now boots normally. </s>
+<s> Reinstall second DIMM and have SAME PROBLEM! </s>
+<s> I guess it's not the BIOS after all. </s>
+<s> If I put either DIMM in either socket, machine works normally; if I put in both, neither A02 nor A05 BIOS will recognize more than 24 MB of RAM. </s>
+<s> Problem began immediately after the first BIOS flash. </s>
+<s> I'm starting to think about some kind of secondary chip or mobo damage. </s>
+<s> The diagnostic lights show all 4 green. </s>
+<s> Any ideas? </s>
+<s> Have you used a microscope to inspect the memory sockets for damage? </s>
+<s> Bob </s>
+<s> Hi, Bob: No, but would not the fact that each socket functions individually argue against socket damage? </s>
+<s> Thanks, as always, for your help. </s>
+<s> Ron </s>
+<s> I'm going to write no. </s>
+<s> Here's why. </s>
+<s> It's entirely possible the failed connection is a Chip-Select or &quot;other&quot; that will only make a difference when both are present. </s>
+<s> My background includes embedded controls with... various types of these sticks of memory. </s>
+<s> I'd make the visual inspection if it was my machine. </s>
+<s> My collection of tools include some small dental surgical tools that have brought back such boards. </s>
+<s> But if I didn't look at the sockets then I would have never repaired them. </s>
+<s> Bob </s>
+<s> OK, Bob. </s>
+<s> I am prepared to embark on this new level of troubleshooting. </s>
+<s> I'll presume that something on the order of 10x magnification would show something I may recognize as abnormal. </s>
+<s> I'll further presume that I may end up using the machine w/ 256MB RAM, but will advise if I make any progress...thanks again. </s>
+<s> Ron </s>
+<s> If your eyes are sharp, 10X might do. </s>
+<s> I have to use 20X today... Bob </s>
+<s> funny, I tried to reply, but it didn't seem to go through, so I'll try again. </s>
+<s> Anyway, I have the *identical* system with the *identical* problem. </s>
+<s> 128mb, 256mb - all work individually in either slot, but *NOT* together. </s>
+<s> What gives??? </s>
+<s> (also have A05 BIOS) Ran </s>
+<s> The BX chipset has limitations which will show up as noted. </s>
+<s> There is no cure except for owners to use supported sticks of RAM and to go with what works. </s>
+<s> Bob </s>
+<s> Hah! </s>
+<s> I've got somewhere! </s>
+<s> It turns out the BIOS is in fact the culprit! </s>
+<s> I started testing out different BIOS's, and when I flashed to the A00 BIOS, voila! </s>
+<s> Both 255mb sticks worked, and Memtest86 gave *no* errors!!! </s>
+<s> HAH! </s>
+<s> Now, I've got to see whether I can begin flashing &quot;upwards&quot; and determine at what point I lose the ability to use both modules!!! </s>
+<s> Pretty weird! </s>
+<s> Ran </s>

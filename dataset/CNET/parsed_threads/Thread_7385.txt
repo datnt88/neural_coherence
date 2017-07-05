@@ -1,0 +1,18 @@
+<s> Hi, I have an MSI K8N Neo2 Platinum MB. </s>
+<s> I have four bays for HDDs. </s>
+<s> 2 are used by the small, but fast, WD Raptors in RAID 0 configuration. </s>
+<s> I would like to add larger HDD(s) in the vacant bays, mainly for storage, sort of the way I use my external HDD through the USB port. </s>
+<s> Is this possible?? </s>
+<s> If so how? </s>
+<s> Many Thanks, al MSI K8N Neo2 Platinum MB AMD Athlon 64 X2 -4400+ Dual-Core Sapphire ATI RADEON X800XT PE. </s>
+<s> AGP8X 1G OCZ EL DDR PC-4000 Dual Channel Gold Rev 2 Power Supply - Antec NeoPower 480 TX640B Black Mini Tower Case OS WINXP Home </s>
+<s> Your two Raptors would be setup as Primary Master drive. </s>
+<s> You can use the larger drive as a Slave to either Primary or Secondary depending on how your cd/dvd, cdrw, dvdrw is connected. </s>
+<s> I run 2x40G in RAID 0 as Primary Master, Primary Slave is cd/dvd-rom, Secondary Master is cdrw-rom and Secondary Slave is a 46G hard drive. </s>
+<s> I assume your Raptors are attached to SATA1 and SATA2. </s>
+<s> Adding 1 or 2 additional SATA drives *recommended*: + Attach your new SATA drive(s) to SATA3 and or SATA4 (on the board's edge below the PCI slots); + Enter your BIOS and go to Integrated Peripherals; + Open SATA Devices Configuration; + Set SATA3/SATA4 RAID to Disabled; + Go back to Integrated Peripherals; + Open IDE Devices Configuration; + Ensure SATA3/4 are set to Enabled; + Save and exit the BIOS; Adding 1 or 2 IDE/ATA drives: + If you have 2 optical (CD/DVD) drives, make sure they are attached to the same cable (you may have to change the jumpers to make one a &quot;slave&quot; or both &quot;cbl sel&quot; if they're on seperate cables); + Connect your IDE/ATA hard drive(s) to an 80conducter cable (usually provided with the drive and/or mobo); + If connecting 2 hard drives, set jumpers for both to &quot;cbl sel&quot;; + Connect your hard drive cable to your vacant IDE2 port (on the board's edge below the RAM slots); + Enter your BIOS and go to Integrated Peripherals; + Open IDE Devices Configuration; + Set OnChip IDE Channel1 to Enabled; + Save and exit the BIOS; + Re-enter the BIOS and open Standard CMOS Features; + Confirm that IDE Secondary Master and Secondary Slave are set to Auto; + Save and exit the BIOS; Once this done, you'll need to partition and format your new drive(s) in Windows. </s>
+<s> For large drives (&gt;32gb) use NTFS or the manufacturer supplied drive setup software. </s>
+<s> Many thanks! </s>
+<s> I'll give it a shot! </s>
+<s> Watch out for too much heat generated from the HD's. </s>
+<s> Make sure you have some type of fan blowing over them if they are all going to be crammed into one area, or spread them out inside the case. </s>

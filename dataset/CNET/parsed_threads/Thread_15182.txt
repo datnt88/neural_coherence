@@ -1,0 +1,81 @@
+<s> We woke up one morning to find that our computer wouldn't go past the HP screen. </s>
+<s> An internet search revealed the problem was probably a bad hard drive. </s>
+<s> So we bought a new one from a computer store and I installed it. </s>
+<s> I couldn't get into BIOS to tell it to locate the new drive, though. </s>
+<s> Afterwards, I went to use the system recovery discs purchased from HP, but it's not working. </s>
+<s> I've gotten two errors: 0xc00000e9, and 0xe0ef0003. </s>
+<s> On a couple of occasions, I got to the HP recovery disc option screen, and first tried choosing to &quot;restore to factory&quot; and then, when that failed, tried telling it to check the computer. </s>
+<s> It responded that I needed to put in the first recovery disc (the one it was operating off of! </s>
+<s> ), so I removed it and reinserted it, but it refused to recognize it and the drive door became unresponsive until I'd restarted the computer. </s>
+<s> Now, I can't even get to the HP recovery screen options - the error messages shut things down. </s>
+<s> My husband and I are both students - we need this computer for our classes, and I'm completely out of ideas. </s>
+<s> I'm not an expert - this was my first shot at even installing a hard drive (I used the HP whitepaper on it, and am pretty sure things went OK with that - although this failure is demoralizing). </s>
+<s> Is there anyone out there who can give me a heads up on what to do? </s>
+<s> I read after installing the HD that HP puts a secret partition so only hard drives bought from them will boot with recovery discs - is that the problem? </s>
+<s> ARRGH!! </s>
+<s> ! </s>
+<s> may not be your hard disk. </s>
+<s> It could be your CMOS setting is corrupt, or worse, a failed chip somewhere. </s>
+<s> Try to reset the CMOS first to see if it will then boot recovery CD successfully. </s>
+<s> Consult your manual or online for how to reset CMOS. </s>
+<s> I hope you entered the bios and made the 1st boot device the CD/DVD drive in order to proceed quickly to boot from disc and saved before exiting. </s>
+<s> Otherwise, it will error or complain and try to boot from HD and then goto the restore disc(CD drive). </s>
+<s> If already done and set in the bios, then you may have a further issue. </s>
+<s> HP and other provide a 2nd partition on their HDs to access the restore/recovery process. </s>
+<s> Also, this is where the creation of making your own restore/recovery discs for you usage if needed. </s>
+<s> Replacing the HD, of course removes that option. </s>
+<s> Provided you have working restore discs, then it should the process. </s>
+<s> You say you have them but encounter problems. </s>
+<s> Excluding any other issue, &quot;do you trust the restore discs&quot;? </s>
+<s> If these are factory provided, then OK, if you made them some doubt maybe at work. </s>
+<s> Otherwise, in most cases it should have started the recovery process. </s>
+<s> The other half of this is not a recovery issue but a true h/w fault with the mtrbd., bios, or related cause. </s>
+<s> If you have warranty, then use it. </s>
+<s> You can post your query in the HP forum here and see where it leads. </s>
+<s> You maybe asked to drop this one and/or be informed of any continuation of this thread. </s>
+<s> FYI- I have found HP issues to be problematic in the last few yrs. </s>
+<s> and resolving them more hassle than encountered before. </s>
+<s> While success is at hand, too often only a new part or factory supplied one seems to resolve the problem. </s>
+<s> Basically, IMHO it seems more constricted to apply true tested fixes from the past. </s>
+<s> &lt;div&gt; tada -----Willy &lt;/div&gt; </s>
+<s> CMOS is reset by removing the button battery, yes? </s>
+<s> If so, then I have done that, both before and after replacing the drive. </s>
+<s> The discs are from the manufacturer. </s>
+<s> So, according to you guys, I can trust them. </s>
+<s> As far as changing any settings in BIOS, I can't even get to it. </s>
+<s> The computer gets as far as the HP screen, then freezes there. </s>
+<s> I've tried repeatedly pressing the button that would cause it to go to the options shown on the HP screen - not sure which one leads to BIOS, but I think it's the one that you press ESC for. </s>
+<s> Doesn't do anything - either I can't get in before it freezes, or the new drive lacks anything on it for it to go to. </s>
+<s> The computer does start to run the recovery disc and gets as far as the recovery homepage, so it knows it's there and is able to access it. </s>
+<s> But I can't get it to do anything from the disc. </s>
+<s> Any chance replacing the SATA cable would fix this? </s>
+<s> Or is this for sure something like the motherboard? </s>
+<s> (Computer is about three years old and out of warranty.) </s>
+<s> do homework, like researching and reading manufacturers instructions on paper or online, before diving in. </s>
+<s> In your case, since 'all else failed', what have you got to lose by reading the manual? </s>
+<s> Clues: the CMOS reset is usually a DIP switch but may vary by models, so read and find it! </s>
+<s> The BIOS entry is usually F10 for HP but again may vary, so read and find it! </s>
+<s> When you get to recovery CD homepage, what does it offer? </s>
+<s> Make sure kybd and mouse are ok. </s>
+<s> If USB type, plug in another port to try. </s>
+<s> Stop fixating on hard disk as root cause. </s>
+<s> And hardware does die, but less often than most owners think, unless broken by their owners. </s>
+<s> Troubleshooting and fixing a PC takes time and logic. </s>
+<s> Impatience is not a virtue. </s>
+<s> I read the manual when I first got the computer. </s>
+<s> It doesn't mention CMOS, DIP, or BIOS. </s>
+<s> Checked the HP website, which was no help on resetting CMOS, but according to what I read online in other forums, removing the button battery should've done it. </s>
+<s> No information in the manual on BIOS, but since I can't get into it, that probably wouldn't help me anyway. </s>
+<s> The keyboard is working, as is the mouse. </s>
+<s> The CD recovery homepage offers two options. </s>
+<s> One is to check the computer's functioning. </s>
+<s> The other is to restore to factory default. </s>
+<s> I've tried both. </s>
+<s> Neither of them work. </s>
+<s> Hitting the F2, F10 or F11 key during boot-up repeatedly should get you into the bios, also called CMOS. </s>
+<s> One of those keys should do it. </s>
+<s> Sometimes, HP is generic in providing info as they are similar to various HP models, so don't be too disconcerted if not directly to your model#. </s>
+<s> Below is the problem solver HP webpage: http://h10025.www1.hp.com/ewfrf/wc/documentSubCategory?tmp_task=solveCategory&amp;cc=us&amp;dlc=en&amp;lc=en&amp;product=4120042 Primary support webpage: http://h10025.www1.hp.com/ewfrf/wc/product?cc=us&amp;lc=en&amp;dlc=en&amp;product=4120042 http://h10025.www1.hp.com/ewfrf/wc/searchResults?tmp_product=HP+Pavilion+p6310y+Desktop+PC&amp;product=4120042&amp;tmp_qt=enter+bios&amp;cc=us&amp;dlc=en&amp;lc=en&amp;submit= If all fails, use the HP search button to find what you need. </s>
+<s> HP also provides an user form, query there. </s>
+<s> Sometimes, common issues are resolved or fixes pointed to. </s>
+<s> tada -----Willy </s>

@@ -1,0 +1,89 @@
+<s> hi im using windows 7 32 bit with intel pro/wireless 3945ABG wireless card on an hp dv2000 and starting from today my wireless was unable to detect any networks. </s>
+<s> wen u mouse over the icon in the lower right corner, it says &quot;not connected - no connections are available&quot; which is not true because my router is right next to me and is working cuz im using ethernet to write this right now and my ipod touch can connect to its wireless. </s>
+<s> wen i go to the properties it says the device is working properly but its obviously not, and this is what the status looks like: http://img571.imageshack.us/img571/2549/picbk.jpg now i tried uninstalling and reinstalling the driver but it didnt help either.. on the hp dv2000 there is a wireless switch which i made sure was on, the light was also blue which means its on (red means its off) but it still wouldnt detect any wireless networks.. what can i do to fix this? </s>
+<s> Your router works, because the ipod connects to it. </s>
+<s> So it's something on your laptop. </s>
+<s> The most likely thing to me is a hardware issue. </s>
+<s> Replacing the wireless card in the laptop would probably solve that. </s>
+<s> The dv6000 series has a rather bad reputation. </s>
+<s> It could well be that you have to replace the whole motherboard. </s>
+<s> But there's a small chance it's a software issue also. </s>
+<s> The means to research that aren't pleasant either: 1. </s>
+<s> Boot from a Linux Live CD and see if that connects wirelessly. </s>
+<s> 2. </s>
+<s> Back to factory settings using HP's system recovery options. </s>
+<s> I'd start with contacting HP Customer Support and see if they can talk you through their standard diagnostics. </s>
+<s> If it's a hardware issue indeed, still having warranty might make a big difference in total costs to solve this. </s>
+<s> Kees </s>
+<s> Buy and use a wireless USB-dongle. </s>
+<s> Find a local shop that lets you return it if it doesn't work for some reason and they can't fix it. </s>
+<s> An Ethernet-connectable antenna is considered better, but bigger and surely much more clumsy if you transport the laptop. </s>
+<s> Kees </s>
+<s> The internal wifi card is in a word &quot;weak.&quot; It fails but I find the owners to not accept this answer. </s>
+<s> You must give them time to reload the OS a few dozen times and wait for them to search for drivers. </s>
+<s> In about 1 to 6 months they finally cave and you can remove the internal wifi card and slip in some wifi PC-CARD to take over. </s>
+<s> Bob </s>
+<s> update: i did system restore back to last week wen it still worked, didnt help. </s>
+<s> reset bios to default, didnt help. </s>
+<s> i dont have recovery cds and my warranty is out too cuz its been almost 2 yrs.. im guessing its a hardware problem too and ive noticed my hard drive overheats sometimes. </s>
+<s> @Bob: can u elaborate a bit? </s>
+<s> who is the &quot;them&quot; you are talking about, do u mean the wireless card? </s>
+<s> and wen u say reload the os a dozen times do u mean a dozen restarts/boots? </s>
+<s> ive had this laptop for 1 yr 9 months now and this problem never happened before until yesterday wen it suddenly decided to stop working, so im inclined to think it is a hardware problem.. also, wen u say 1 to 6 months, do u mean from the time of purchase wen u start using the laptop or 1 to 6 months after it stops detecting/working that it will cave? </s>
+<s> cuz if this keeps up im not waiting 6 months to replace the wireless card ill do it like soon, but is that really necessary at this point? </s>
+<s> Having had this discussion some hundred times I can only share the story about how most will not accept the diagnosis. </s>
+<s> Many will run back home to reload the OS, post on forums and search for drivers to correct the failing card. </s>
+<s> To make it more fun the card may spring back to life for a time almost as if it is taunting the owner. </s>
+<s> I've found that all I can do is share the story and wait for the owner to give up trying to save the internal card. </s>
+<s> But you may wonder why I no longer replace the internal card. </s>
+<s> It's very simple. </s>
+<s> Ready? </s>
+<s> It only fails again and then the shop is on the hook to replace it. </s>
+<s> Since we know this we refuse to replace the card and offer only one fix. </s>
+<s> It's noted above. </s>
+<s> Bob </s>
+<s> well i mean even if u give up trying to fix the wireless card and buy an external wireless usb adapter ur still spending money as if u were replacing the wireless card but thanks anyway =) </s>
+<s> The story repeats on quite a few models so you know to give the owners time to digest the problem. </s>
+<s> Funny you write &quot;fix the wireless card&quot; as I've yet to see anyone do that. </s>
+<s> Unless you meant &quot;replacing&quot; is the same as &quot;fixing.&quot; I tend to think fixing a card means pulling it out and replacing a component or soldering a bad joint. </s>
+<s> But this issue is fairly well known and so are the cures. </s>
+<s> Bob </s>
+<s> so what do u suggest i do to be able to get on wireless? </s>
+<s> http://h10025.www1.hp.com/ewfrf/wc/document?docname=c01087277&lc=en&cc=us &quot;The following symptoms apply to Pavilion dv2000 and Presario v3000 notebooks: * The notebook does not detect wireless networks and the wireless adapter is not detected in the Device Manager. </s>
+<s> &quot; If HP will not correct this and their new bios does not help, go get an USB or wifi card and use that instead. </s>
+<s> Bob </s>
+<s> &quot;almost 2 years&quot; seems just a little bit less than the &quot;24 months&quot; HP is talking about in the link given by Bob. </s>
+<s> You might be lucky. </s>
+<s> Kees </s>
+<s> turns out my laptop is not on that list mine is a dv2700 and the p/n is not listed as one of the affected laptops </s>
+<s> I've found dv2000's not on the list with the same issue. </s>
+<s> If you want to try it, be sure the BIOS and drivers are current in that one last hope of not having to buy a wifi card. </s>
+<s> Bob </s>
+<s> wireless card on an hp dv2000 and starting from today my wireless was unable to detect any networks&quot; 1. </s>
+<s> How did you get W7 installed? </s>
+<s> Fresh onto bare metal or upgrade from Vista? </s>
+<s> 2. </s>
+<s> &quot;starting from today&quot; means it worked with W7 and then it stopped working? </s>
+<s> Or it never worked with W7 at all? </s>
+<s> 3. </s>
+<s> If original OS was Vista, did wireless work and connect properly? </s>
+<s> fyi, it seems HP does not support W7 on certain older models. </s>
+<s> Read the following carefully http://h10025.www1.hp.com/ewfrf/wc/document?docname=c01859348&tmp_track_link=ot_faqs/top_issues/en_us/c01859348/loc:1&lc=en&dlc=en&cc=us&sw_lang=&os=2093&product=3559543 </s>
+<s> thanks bob ill try to update bios rite now also wen i say it stopped working just now, that is exactly what i meant. </s>
+<s> i upgraded to 7 from vista about a month ago so it wasnt a clean install, i kept all my files from vista. </s>
+<s> and my wireless card didnt have any problems connecting on vista and even wen i first upgraded to 7 it didnt have any problems until yesterday wen it just decided to stop detecting networks </s>
+<s> your only choice is to use the add-on wireless adapter. </s>
+<s> Since HP didn't provide the W7 wireless driver, even though Intel had theirs pkg'd in W7, there's no assurance HP's BIOS can serve it reliably. </s>
+<s> Apparently it did so for awhile, then quit. </s>
+<s> i found out that the WLAN Autoconfig service isnt working! </s>
+<s> I think that this may be the problem so i tried to start the service but i get the error that says &quot;windows couldnt start wlan autoconfig on local computer. </s>
+<s> error 1068: the dependency service or group failed to start&quot; someone suggested to change the registry value of [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Ndisuio]&quot;Start&quot; to 2 which i also did and restarted but still nothings changed.. </s>
+<s> Does anyone know how to make it so i can start the WLAN Autoconfig service? </s>
+<s> update: im pretty sure i have all the dependencies started, i read somewhere that ndsuio and nativewifi filter needed to be on as well, well they arent listed under services but i went into registry editor and made sure the values for these two services were set to 2 which means started.. i restarted and tried to start the wlan autoconfig but still wouldnt work.. im running out of ideas </s>
+<s> Then loading the machine with the factory restore media will cure it. </s>
+<s> I know that may not sit well with many but today I'm running into machines that take days to repair if the OS took a hit with malware, trojan or even &quot;the user.&quot; FORGET DEPENDENCIES!!! </s>
+<s> Push all services back to default. </s>
+<s> You will lose too much time trying to cater to an owner that wanted a customized set of services running. </s>
+<s> PUSH it back to stock. </s>
+<s> Google BLACK VIPER SERVICES to find tables of the stock settings. </s>
+<s> Bob </s>

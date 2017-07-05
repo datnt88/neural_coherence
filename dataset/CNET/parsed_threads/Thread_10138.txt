@@ -1,0 +1,118 @@
+<s> Hey RProffit I have just installed the for mentioned motherboard into my computer. </s>
+<s> I put in 1 256 ddr and one 512. one in slot 1 and one in slot 3. </s>
+<s> All seems to boot ok when i first turned it on, but then it stops. </s>
+<s> It was having trouble loading windows, so i selected safe mode. </s>
+<s> Upon hitting enter, it rebooted. </s>
+<s> I set by bios to a different boot setting hdd-1 to hdd-0 still didnt do it. </s>
+<s> still reboots at windows start up. </s>
+<s> I changed the boot back, disconnected my extra hd, and now i get an error NTLDR is missing and tells me to reboot on my own. </s>
+<s> I dont know what I did wrong, and am hoping you can help me out. </s>
+<s> Thank you in advance, David Steinbacher </s>
+<s> stick in slot 1 and one in slot 3 are intended for dual channel operation. </s>
+<s> For dual channel the memory sticks must be the same size 'called matched, but don't actually have to be matched, but the same amount of memory]. </s>
+<s> Are slots 1 and 2 one color and 3 and 4 another color. </s>
+<s> Apparently Dell numbers them 1,3,2,4 so for dual channel one puts the two sticks next to each other. </s>
+<s> Most other mobos seem to use the two color system and dual channel goes into 1 and 3 then 2 and 4. </s>
+<s> Try putting them into 1 and 2, should then run single channel as 7XX MB. </s>
+<s> couldn't find it via google search. </s>
+<s> I finally gotten rid of the error, but still will not boot. </s>
+<s> It updates DMI successfully, the says to insert system disk. </s>
+<s> I removed on of the ddr chips and still have one in slot 1. </s>
+<s> I had the wrong hd hooked up earlier. </s>
+<s> Thank you for your help. </s>
+<s> David </s>
+<s> Hard to understand how you had the wrong hard drive in. </s>
+<s> If you want help, then explain the hard drive issue, the jumpering of the drives, which IDE port it/they are on, also Master with or without a slave on the same cable,the operating system. </s>
+<s> If XP, was it installed on the drive when it was in another computer?? </s>
+<s> That can cause problems. </s>
+<s> Also the name of the Hard drive mfr [affects jumpering]. </s>
+<s> Do you have a Win 98 boot floppy to get to the A prompt to see what files are on the drive. </s>
+<s> If the Op Sys was formatted with NTFS then the Win 98 boot disk will call it a non DOS partition and then you can't read the drive.. With enough info you should solve the problem in these forums. </s>
+<s> I would expect Robert to drop in soon. </s>
+<s> Maybe tell you to try Knoppix if all ealse fails. </s>
+<s> Remember that for normal , single channel use [not dual channel] you should be able to use both sticks of memory, but wait until the other problems are resolved. </s>
+<s> I have 2 hd. </s>
+<s> I just hooked up the wrong one when i started. </s>
+<s> I was trying to keep things simple for the initial startup then add the xtra drive afterwords. </s>
+<s> It is a western digital ata 100 set up as the prime master. </s>
+<s> IDE port primary (1). </s>
+<s> It is by itself right now. </s>
+<s> I have two cds hooked to the secondary (2) plug. </s>
+<s> I removed on stick of ram and that made no difference. </s>
+<s> I dont think it is reading the hd. </s>
+<s> It keeps asking for a boot disk, which i do not have. </s>
+<s> I do have windows xp installed. </s>
+<s> I installed it when I had the old mobo in the computer. </s>
+<s> I also installed a new agp card. </s>
+<s> Thank you David </s>
+<s> When NOT using CS [cable select jumpering] the drive is jumpered differently if it is a Master with no slave on that IDE controller and if there is a slave on the same controller. </s>
+<s> As master with no slave there is NO jumper, the jumper is put sideways simply as a place to save it for future use. </s>
+<s> Thus it is a PITA because when you later add the second device to that cable you have to re jumper the drive as Master with slave. </s>
+<s> THUS you should use the CS jumpering, and since it is ATA100 you are using the 80 conductor cable and the end connector is automatically set as Master. </s>
+<s> Are you seeing the hard drive in the BIOS screen at boot?? </s>
+<s> Win XP doesn't always work properly when being moved from one computer to another because of the data it stores from the Windows Product Activation that tells it the configuration has changed. </s>
+<s> Did you install XP with the FAT 32 or NTFS file system?? </s>
+<s> Also note the other post in this forum re Knoppix. </s>
+<s> I would like to thank all of you for you assistance. </s>
+<s> I ended up calling gigabyte, and they told me to do a repair windows. </s>
+<s> That was alright, except it still didnt work. </s>
+<s> So now I am trying to get back to where I was. </s>
+<s> I can at least use the computer. </s>
+<s> I had to format and reinstall. </s>
+<s> Works ok, but I am disappointed in the speed of the board. </s>
+<s> I think my other one was a little faster. </s>
+<s> I still need to do some fine tuning. </s>
+<s> Thanks again David Steinbacher </s>
+<s> It appears that the install of XP was not done fresh? </s>
+<s> Bob </s>
+<s> NIL </s>
+<s> Mr Proffit The bios is Award Bios v 6.00pg 05/27/2003-nVidia-nForce-6A61BG0DC-00 Board GA-7N400L1 F2 Running Athlon XP 1700. </s>
+<s> I also noticed that my 1700 is running at ll00Mhz. </s>
+<s> Shouldnt it be higher than that. </s>
+<s> Thank you for you help and expertise. </s>
+<s> David Steinbacher </s>
+<s> ia set to 100 rather than 133. </s>
+<s> Could happen by incorrect jumper setting, BIOS setting, or an automatic set back by the BIOS due to a &quot;bad&quot; shutdown. </s>
+<s> Normally when due to a bad shutdown, the next time you boot it opens to the BIOS page where you can reset the speed back to normal [probably 133/266 if DDR]. </s>
+<s> An AMD XP 1700+ actually runs at 14666 MHz [1.47 GHz]with 266 FSB [133 MHz DDR]. </s>
+<s> 1700 is an advertising gimmick claiming that is the speed of an Intel CPU that it performs on a par with. </s>
+<s> The fixed multiplier in that CPU is eleven and 100 times eleven gives a CPU speed of 1100 MHz [1.1GHz] that's the clue that the memory bus speed is at 100.. </s>
+<s> I have pc2700 mem. </s>
+<s> It is set to auto in the bios. </s>
+<s> Shouldnt it auto set at 133? </s>
+<s> Thanks David </s>
+<s> running at 1100 or it just happened lately. </s>
+<s> BTW, I asked who the mfr was in an earlier post so that I could go to their site and download the manual. </s>
+<s> possibly I would have found some help there. </s>
+<s> I did a google search and it came up with zero hits on the number in your subject line. </s>
+<s> You can try going into the BIOS and select manual and then step the speed up to 133 [mine did it one MHz at a time, (I just gave that one away)]. </s>
+<s> It was an older ASUS mobo and put I a 1700+ in it. </s>
+<s> The best that I could get the memory speed to run at was 125 MHz [133 memory]. </s>
+<s> Only 119 if spread spectrum was enabled. </s>
+<s> That was simply that mobo's artwork problem, it was developed long before the 1700 came out. </s>
+<s> But also, for any bad shutdown it dropped back to 100 MHz, and I then put it back up to 125 [I left it in manual mode, because it wouldn't run at 133 automatically]. </s>
+<s> A bad shutdown was anything that caused me to turn it off without doing the windows shutdown bit. </s>
+<s> To answer your post, set to auto it should run at the correct speed!! </s>
+<s> HOWEVER it isn't. </s>
+<s> Have you looked at the memory settings in the BIOS? </s>
+<s> Have you tried to set the CAS [CS]?? </s>
+<s> Should just let it use the SPD. </s>
+<s> I had it set on spd. </s>
+<s> But changed it to auto. </s>
+<s> I will change it back in a little while and see if that works . </s>
+<s> Thanks David Steinbacher What would happen if I increased the FSB? </s>
+<s> Just asking. </s>
+<s> I could set it to 333 but without help, I dont want to do it. </s>
+<s> There is a switch on the mobo that you must set to ON for CPU's above 200 MHz FSB. </s>
+<s> For 200 MHz FSB it must be set to OFF. </s>
+<s> I am fairly certain that all of the 1700's supported 266 FSB so set it to ON. </s>
+<s> It's name is CLK_SW. </s>
+<s> It is located near to the chip of the chipset that has the fan on it. </s>
+<s> Hey, thank you very much. </s>
+<s> I read it wrong. </s>
+<s> It is posting as a 1700 now. </s>
+<s> I havent tried any games yet, but that had to help it. </s>
+<s> Thanks again David Steinbacher. </s>
+<s> posted as a 1700, but only ran at 1100 MHz, which, hopefully, now will be 1.467 GHz. </s>
+<s> [the actual clock rate of the 1700+] The identification of the type is detected by the computer reading the CPUID. </s>
+<s> The memory settings normally wouldn't change that. </s>

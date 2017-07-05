@@ -1,0 +1,36 @@
+<s> I have a 500GB Seagate external hard drive (part number: 9CZ2A3-501) that I wish to partition to transfer about 6GB of files from my Windows 7 Home Premium laptop to my home built Ubuntu 10.04 desktop. </s>
+<s> However, whenever I try to shrink the 465GB (formatted) partition down 10GB to 455GB, in the Windows partitioning tool in Disk Management and other third party programs, I always get an error, and I cannot partition the drive. </s>
+<s> The Windows tool even took away 100GB of storage, which I had to gain back using Partition Wizard Home Edition. </s>
+<s> Using this program, I was going to try to shrink the volume and format as ext3. </s>
+<s> I know I have enough room; I am only using about 100-150GB for a system backup, with few other files on it, so I have about 300GB free space when formatted. </s>
+<s> I get an error (in Partition Wizard), something like 'not enough memory', and in Disk Management, something like not enough space to complete this.' </s>
+<s> Can you recommend what I could do to partition this drive? </s>
+<s> Or do you have a better (yet free) idea to transfer these files? </s>
+<s> Thanks. </s>
+<s> Why not place these files in there own folder? </s>
+<s> I do this all the time with Ubuntu. </s>
+<s> For sake of easiness. </s>
+<s> I thought that the drive, being formatted as NTFS, could only be read in Ubuntu (or any other GNU/Linux using a NTFS compatible kernel).I guess, however, even if this is true, it won't matter anyways since I won't be writing to the disk, anyways. </s>
+<s> Thanks. </s>
+<s> And what's this about read only in Ubuntu? </s>
+<s> I read and write all the time to NTFS in Ubuntu (current version.) </s>
+<s> And you don't have any third-party stuff to do this, or a custom compiled kernel? </s>
+<s> I had thought I read somewhere, I think on Wikipedia, that the GNU/Linux kernel had limited support for NTFS, only supporting reads at best. </s>
+<s> I'm probably wrong, though, since this will be my first shot at any GNU/Linux distro, or building a computer. </s>
+<s> Or maybe I read an outdated article from somewhere else. </s>
+<s> It certainly doesn't help when I'm all alone in the technological world, with only these forums and the Internet, not anyone to actually talk to. </s>
+<s> Once I'm finished my build, I'll just go ahead and try it, and post how it went. </s>
+<s> Thanks for the help and boost of confidence! </s>
+<s> http://www.ubuntu.com/ I don't think this is a custom build and right off the CD in it's live mode and even installed I am able to read and write to NTFS volumes. </s>
+<s> What version are you using? </s>
+<s> I wrote current since I forgot the exact number but it is 10.04 from http://www.ubuntu.com/ And let me share I've used this boot CD in Live CD mode to read/write XP, Vista (32&64) and Windows 7 64 bit hard disks without any fuss. </s>
+<s> Bob </s>
+<s> I'd be using Ubuntu 10.04 (Lucid). </s>
+<s> And I believe I would have been reading a very outdated article somewheres online, since I read on Wikipedia that full support is available in the kernel, for some versions already, using the NTFS-3G driver, which should be included in most distros by default. </s>
+<s> Sorry for the confusion I may have created, which could have been prevented if I just researched more carefully. </s>
+<s> I just wanted to be sure, though, anyways. </s>
+<s> Thanks for the help. </s>
+<s> Elljl </s>
+<s> Those old articles will continue to float around for years. </s>
+<s> The new distros seem fine with NTFS which is really helpful when some file won't delete in Windows and I don't feel like booting to the command prompt. </s>
+<s> Bob </s>

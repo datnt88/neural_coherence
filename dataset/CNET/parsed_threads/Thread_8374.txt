@@ -1,0 +1,28 @@
+<s> I Have a custom built pc, and it was slowing down so i restored it, but after restoring it my LB-Link 150mbps wireless adapter will not work after installing drivers. </s>
+<s> when i first plugged it in it said installing then failed, so i then put the disc in and it finished installing. </s>
+<s> i look in device management and there is a yellow triangle beside it. </s>
+<s> Windows being used is home premium 64bit adapter being used is http://www.lefen.com/index.php/Product/views/id/321 </s>
+<s> We know if the date/time is too far off, as well as motherboard drivers are not well, this happens. </s>
+<s> There's also an issue with XP, Norton and more but with so little to go on, tell more. </s>
+<s> Bob </s>
+<s> ok, so about 2 days ago i was using the computer and it was taking ages to load pages so i grabbed my windows 7 home premium 64bit and restored it, before this the adapter was working, i think the reason it stopped was becuase i didnt unplug it, anyways, when i got done restoring i installed my graphics card drivers and restarted and then tried installing the adapters drivers and it finished, i plugged the adpater in and nothing. </s>
+<s> so i tried once or twice again to install the drivers and still nothing. </s>
+<s> and i went into device managers to check if it was showing up, which it was but with the yellow sign beside it and 3 other universal serial bus things. </s>
+<s> the motherboard in the pc is a ASUS F2 A85 Series amd A85x chipset the graphics card if that matters is a evga gtx 650ti and the processor also if that matters ia an AMD quad core </s>
+<s> If so then you have all the drivers to deal with and not just this WiFi stick. </s>
+<s> Some folk forget what they did but the short list I use is motherboard, then audio, then video then other drivers. </s>
+<s> If you want to try something quick, unplug the stick and boot safe mode to remove the item in device manager. </s>
+<s> Reboot normal and then install the stick per the maker's instruction. </s>
+<s> Bob </s>
+<s> I Will try this and get back to you, thanks for the help </s>
+<s> So i booted into safe mode and went to device manager and uninstalled all of the yellow triangle things and after restart they all tried installing and failed </s>
+<s> Did you have the device unplugged on the next boot? </s>
+<s> I've lost count of it failing and then I delete/remove it in safe mode, then install the drivers on the next boot then finally plug it in. </s>
+<s> However your post seems to omit the motherboard driver install. </s>
+<s> Not much has changed with Windows installs over the years. </s>
+<s> Seems a shame MSFT never corrected this. </s>
+<s> Bob </s>
+<s> the general area you should go looking. </s>
+<s> http://www.asus.com/Motherboards/F2A85M_PRO/#support_Download_30 Find your exact board at this site and make sure you download and install the chipset drivers and USB drivers in that order. </s>
+<s> Worst case, you blow do a fresh install again but collect the ASUS drivers for your board from their web site. </s>
+<s> Chipset drivers should be the first to be installed as other drivers may depend on getting these right. </s>

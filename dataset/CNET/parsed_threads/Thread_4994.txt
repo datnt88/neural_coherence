@@ -1,0 +1,17 @@
+<s> Hey guys, i got a dilema going on here. </s>
+<s> My bro isnt allowing me to have the SSID to access the wifi on our home network (for my PSP). </s>
+<s> So i have purchased a D Link to connect my Xbox, and my PSP Wifi, since all the available ports on my current routers are used up. </s>
+<s> Question is: My bros router is a Linksys WRt54G and my one is a Dlink (54G), and i will be connecting it by connecting the network cable coming to my PC to the router. </s>
+<s> then enabling wifi and accessing it from there. </s>
+<s> But i was wondering since but Routers will both mask IPS if that will cause problems for my Xbox/PC/PSP. </s>
+<s> Heres a diagram: BR = brothers router MR = my router X = computers/Xbox/PS2 Wifi = Laptops/PSP BR -------------| -----------------X ------------X X---------- --------X Thats the current setup, but i want it to be like this: BR -----------| --------------------X ------------X X------------- -MR ------X | Wifi -- --- X How do i get this to work, and theres no point asking my brother to give the SSID (asking for a very long time) and i know i could get a switch for Xbox and PC or use my PC as a hub, but i would be more interested in getting WIFI access for my PSP as well. </s>
+<s> All your help is appreciated, thanks alot in advance. </s>
+<s> [PC] | ISP----[Linksys Router]----[PC] | | [DLink Router] | [PC] Connect the WAN port of your dlink to the LAN port of the Linksys. </s>
+<s> Configure the DLink WAN for DHCP addressing. </s>
+<s> Make sure the DLink has 2 unique IP addresses/networks. </s>
+<s> To be safe, chage the DLink LAN side to 192.168.x.1. </s>
+<s> Make x greater than 1. </s>
+<s> When you configure your wireless, pick a different channel that the Linksys. </s>
+<s> The only channels you should be using are 1, 6 and 11. </s>
+<s> Using these 3 channels you can operate 3 APs very close to each other with no interference. </s>
+<s> SKrall </s>

@@ -1,0 +1,35 @@
+<s> So I have a proxy server in my home that all the computers use to access the internet (XP Pro). </s>
+<s> I edited the host file on the proxy to redirect traffic for various reasons (ad blocking, etc.) </s>
+<s> But I have noticed that it doesn't seem to affect the computers that use the proxy. </s>
+<s> For example one entry in the host file could be 127.0.0.1 abc123.com so that abc123.com would loopback to the localhost. </s>
+<s> For some reason this isn't working. </s>
+<s> Is there anyway to get this to work without changing the host file on each individual computer? </s>
+<s> I stress I have no knowledge of this, but your question interested me so I did a little research. </s>
+<s> Have a look at Proxy and the Windows HOSTS file . </s>
+<s> It says; &quot;Using a remote proxy server which basically does the DNS requesting for you does prevent the HOSTS file from being considered. </s>
+<s> In other words ...Your browser will route its request through your proxy server before your machine looks up an entry in Hosts.&quot; That said, another article seems to say this is a setting in the browser on each machine connected to the server. </s>
+<s> Look at http://accs-net.com/hosts/how_to_use_hosts.html then scroll down to section 4, &quot; (4.) </s>
+<s> If you have a proxy server: &quot; &quot; In IE - choose tools:internet options:connections and choose your connection. </s>
+<s> If you are using a proxy server, make sure the box called &quot;bypass proxy server for local addresses&quot; is checked. </s>
+<s> In Netscape - go to Edit: Preferences: Advanced: Proxies and click the manual setting. </s>
+<s> Then click on view and type &quot;127.0.0.1&quot; into the exceptions box at the bottom &quot; I think that is saying, check IE on each machine and remove the tick for &quot;Bypass proxy server for local addresses&quot;. </s>
+<s> And the same for other browser types. </s>
+<s> Does that help? </s>
+<s> Mark </s>
+<s> Sounds like he has the reverse problem. </s>
+<s> He wants the remote machine to use his proxy for DNS lookup rather that attempt to do it themselves. </s>
+<s> Most the settings related to bypass proxy are for when you have internal servers you can get to directly. </s>
+<s> This is mostly to reduce the load on the proxy. </s>
+<s> It will do little good to set the host setting on each machine. </s>
+<s> They do not look in the host file or even query the DNS. </s>
+<s> When you set the bypass proxy stuff it will then do its own DNS query and go directly... ie bypass your proxy. </s>
+<s> When you use proxy you want to make it so all the other machine MUST pass though the proxy to get to the internet. </s>
+<s> Now assuming you force all the traffic though the proxy and the proxy is not using your host file this is a issue with the proxy software. </s>
+<s> You would think the proxy would just make a call to the OS to look up the names and the OS would use the host file. </s>
+<s> I would spend my time looking for a setting on the proxy that would cause it to bypass the host file. </s>
+<s> Also make sure that the proxy machine honors the host file when you access things directly. </s>
+<s> If all else fails you could try to use opendns rather than the host file to filter stuff... there is a small charge for the version that you can add things to </s>
+<s> That's why I said to remove that tick. </s>
+<s> If it was set, then the other machines/browsers would bypass the proxy. </s>
+<s> But like I said, I know nothing. </s>
+<s> Mark </s>

@@ -1,0 +1,24 @@
+<s> After a virus attack, network connections icon in Conttrol Panel has nothing in the folder. </s>
+<s> Thusly, must try to re-install the netowrk connection. </s>
+<s> I have disabled some of the (mostly all) of the network services since the attack as there is still an errant process popping over and over again. </s>
+<s> Now, I want to try and re-install the network services. </s>
+<s> I was able to re-install the msiexec.com file successfully with the following method.... start-&gt;run&gt; msiexec.exe /unregister start-&gt;run-&gt;msiexec.exe /regserver What I would like to know is, what would the essential filenames for the essential network services are so this approach could be taken to restart the network connection(s) servers and possibly get the network up and running again? </s>
+<s> Is this a valid approach? </s>
+<s> Thanks. </s>
+<s> Without notinh what OS, I can't see if this made any sense. </s>
+<s> Also, viral damage can run deeper than what many can repair. </s>
+<s> If it's that deep, you wipe and reinstall. </s>
+<s> Bob </s>
+<s> I will wipe and re-install, sir bob. </s>
+<s> Thanks. </s>
+<s> Thae Subject title = &quot;I understand&quot; (in Japanese):) </s>
+<s> If only the OS was noted, I could check to see if that was a valid approach. </s>
+<s> May your misfortune be short, Bob </s>
+<s> NIL </s>
+<s> 1. </s>
+<s> Remove the client and protocol from the network control panel. </s>
+<s> 2. </s>
+<s> Run SFC /SCANNOW 3. </s>
+<s> Add tcp/ip and the microsoft client in the network control panel 4. </s>
+<s> Run SFC /SCANNOW Configure and try again. </s>
+<s> Bob </s>

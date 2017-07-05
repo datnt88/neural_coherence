@@ -1,0 +1,36 @@
+<s> Hey. </s>
+<s> I have a problem with my computer. </s>
+<s> After upgrading a few things, I'm having trouble with a newish IBM hard drive and a new Samsung DVD+/-RW drive. </s>
+<s> It seems that if I have both connected up to my motherboard, the hard drive gets misreported, causing, among other things, the computer to think it needs reformated to only have 3GB on it, whereas it is close to 30GB. </s>
+<s> This problem even occurs in the BIOS. </s>
+<s> If I remove the DDV drive, the hard drive reports correctly, and I can access all my files when I boot into WinXP Home SP2. </s>
+<s> Does anyone have any ideas? </s>
+<s> Here are the full specs: Compaq Presario (I'll never get another pre-build ever!) </s>
+<s> Intel Pentium 4 - 2.66 GHz Intel i845GE chipset 256MB DDR-SDRAM Seagate 40GB U-DMA HDD 5400rpm - Main hard drive IBM-DTLA-307030 30GB U-DMA HDD - Second drive (the one with the problem) Generic DVD-ROM 16x (not connected, but has same problem) Samsung Writemaster DVD+/-RW TS-H552 Running Windows XP Home OEM + SP2 </s>
+<s> What IDE port is each on, and are they the Master or Slave on their respective cables. </s>
+<s> Sounds as if the two drives are jumpered the same on the same IDE ribbon cable and is confusing the heck out of your system. </s>
+<s> Also some mobo's don't like a DVD drive as a Master on either the Primary or the Secondary IDE port. </s>
+<s> I have my HDs on the primary controller and the opticals on the secondary. </s>
+<s> I've found that they can both be used (usually) on the primary controller with one cable if they are set to CS (cable select). </s>
+<s> It doesn't appear to be the jumper settings. </s>
+<s> Both the hard drives are on the primary controller on Cable Select, as are the 2 DVD drives on the secondary controller. </s>
+<s> It seems to be an intermittent problem, as all drives are currently connected and everything seems fine, but eventually, it could BSOD since I'm using the 2nd HDD for the page file. </s>
+<s> Other times, I'd boot and it will give me the problem. </s>
+<s> As a temporary solution, I've moved my page file back to my main drive, but are there any other solutions short of backing up my data and getting a new drive? </s>
+<s> Keep the Hds as CS jumpering but the CD drives as master/slave jumpering. </s>
+<s> Also, because you have 4 power hungary drives, they can tax the limited Compaq p/s unit. </s>
+<s> Even if capable for now, your intermit problem could be related to power as a &quot;flaky operation&quot; is common in such situations of a burdened p/s. </s>
+<s> Buying a new larger HD to replace the current HDs does two immediate things, reduce the power load and provides greater mb(80-120gb) storage and probably of 7200rpm class and just be faster overall(slightly). </s>
+<s> An option worth looking into. </s>
+<s> tada -----Willy </s>
+<s> due to problems that I have run into with trying to use a DVD drive as a Master. </s>
+<s> Make the hard drives the Master on both ports and the DVD's slaves on both ports. </s>
+<s> Actually, it turns out that it is just a problem in the HDD, it must have received some damage. </s>
+<s> This problem now happens regardless of the amout of drives that I have connected, as I BSODed on my last boot without the DVD drives connected, and the situation is degrading with each reboot. </s>
+<s> I'm just gonna backup the data and get a new HDD. </s>
+<s> It seems to be the only solution. </s>
+<s> Thanks for the help everyone, it was much appreciated. </s>
+<s> able to get a hundred dollars as part of the class action suit agains the IBM drives. </s>
+<s> This is a hand-down from a friend, but he had no problems with it...his dad just donated an 80GB HDD to him, which is why he gave this drive to me. </s>
+<s> I've had it a few months, but its only been in the last week that its given me trouble...I think the new DVD drive being installed at around the same time is just a co-incidence. </s>
+<s> No lawsuit for me =/ </s>

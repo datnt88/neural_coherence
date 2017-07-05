@@ -1,0 +1,58 @@
+<s> hello, my mother has a old computor HP pavillion 8533z with windows 98, she has a problem, when the computor boots up a message comes on the screen says &quot;unable to continue due to missing file&quot; then the message says this &quot; the message says that file zmm32.vxd is required to run windows, if this file is not in your past, you may need to re install windows 98.and when she trys to install windows it says that she needs windows update instead of the orginal windows program that she bought, this just happened, she uses the computor for teaching class and keeps alot of projects and school picture on the hard drive,she does not want to reformat the drive cause she will loose all her work. </s>
+<s> any help.... </s>
+<s> Question---can she reboot with windows 98 disk with out formatting the hard drive. </s>
+<s> Question---does she need a update for windows 98 in order to continue,.....and she is unable to find a windows 98 update program...where can she find or buy one... Question-how can she get her files off the computor so that she can re format. </s>
+<s> do a serarch on google if necessary. </s>
+<s> You should be be able to run 98 over it (just boot from cd) I was on 98 se and I recomend you upgrade at least to 2000 pro. </s>
+<s> that I loaded over 98se. </s>
+<s> That way all your files will remain in tact. </s>
+<s> Alternatively burn all your files to cd (if u can get in) or load them on to a usb memory stick. </s>
+<s> Sorry i cannot help any more. </s>
+<s> regards ....... John </s>
+<s> are u on 98 se. </s>
+<s> I don't think it will make a lot of difference 98 or 98se. </s>
+<s> Just go into the bios and set it to boot from the cd rom drive. </s>
+<s> Also on your pc just go to google search and look for booting 98 how to etc ther are 1000s of webs on that. </s>
+<s> I think if Mums pc can see the cd rom drive try booting over the current system if that works then I would think of upgrading. </s>
+<s> I did read of someone upgrading from 98 to xp but i am not sure if this is possible + plus u will need a valid copy with reg key code. </s>
+<s> Sorry that is all i can help u with regards ....... John </s>
+<s> You can fool a full Windows cd to install over an existing (older) windows by renaming c:\windows\win.com to c:\windows\win.old. </s>
+<s> Then it will happily install itself. </s>
+<s> But there's no guarantee that any application will still work; those might have to be reinstalled also. </s>
+<s> And depending on the cause of the error there isn't a guarantee that it helps either. </s>
+<s> Still, it's the first thing to try. </s>
+<s> There's no need to do a format. </s>
+<s> Just rename the windows folder and the program files folder from MS-DOS (boot into MS-DOS, then rename c:\windows winold and rename &quot;c:\program files&quot; progold , and a full Windows 98 will happily install. </s>
+<s> Or delete them if you are the adventurous type or don't have enough diskspace. </s>
+<s> The My Documents folder will be untouched by this, and she will still have all her files (in principle). </s>
+<s> If her mail is in the deleted Windows folder, it's lost, of course. </s>
+<s> Please read through http://reviews.cnet.com/5208-6121-0.html?forumID=45&threadID=122056&messageID=1385119 and the links I provided in my answer. </s>
+<s> You should be able to get all the drivers you need from HP's website, if your mother doesn't have the copies supplied originally. </s>
+<s> And don't forget to visit Windows update for all critical security patches. </s>
+<s> And to reinstall antivirus, of course. </s>
+<s> Very important: your mother has been VERY LUCKY, that she didn't lose her data if she doesn't do a regular backup (burn everything to cd or dvd, after installing a cd-burner or a dvd-burner). </s>
+<s> Old hard disks (as come in old computers) suddenly fail, a virus wipes out the hard disk, she accidentally deletes a file she needs, the FAT is corrupted by some incidents, all of that can happen. </s>
+<s> This should be the first thing to do if she's up and running again, unless she accepts the risks willingly. </s>
+<s> Just this week I was with a friend who couldn't boot her (less than 1 year old) Windows XP computer any more. </s>
+<s> It will be repaired by the shop (even Headstarts fully destructive system restore didn't help, so she gets a new motherboard and/or a new hard disks), but she already lost everything she had put on it. </s>
+<s> She had some vague ideas to copy a year of digital pictures to a dvd, sometimes when she'd time. </s>
+<s> Too late now ... </s>
+<s> It really happens. </s>
+<s> As I said, your mother is very lucky it didn't yet happen to her. </s>
+<s> Hope this helps. </s>
+<s> Kees </s>
+<s> You mentioned a file called zmm32.vxd and there is no such file.......however, windows has a critical file needed call VMM32.VXD and it's a combination file of multiple vxd files needed by windows. </s>
+<s> There are repair options available to you and I've provided a google search that you can read through to find the easiest method for you. </s>
+<s> http://www.google.com/search?hl=en&rls=GGLD,GGLD:2004-21,GGLD:en&q=vmm32&spell=1 The old school of thought for fixing that particular file had always been to reinstall windows over itself, and there are ways suggested here to get that job accomplished, but there may be simpler methods now with this google search. </s>
+<s> Please let us know if you were able to do this with any of them. </s>
+<s> Another way to maybe get this straighted out would be to boot into SAFEMODE, get to RUN/ type SFC and begin the scan that will look for changes made to system files and give options to fix it. </s>
+<s> Unfortunately, if it needs the windows cd to pull files from in order to replace a bad/corrupt/missing file, the cdrom isn't available in safemode. </s>
+<s> A way to get around this is also easy though by doing the following: Get a W98 bootdisk (create it by clicking the .exe file you download with a clean floppy disk in the drive), boot up with it, enable cdrom support when asked, and when you get to the A: prompt, type C: and press Enter, then type MD WIN98 and press enter. </s>
+<s> That gives you a new folder/directory on the C: drive. </s>
+<s> Once you have that done, change to the cdrom drive letter (probably E:) and put in the windows cd. </s>
+<s> Now type WIN98 and press Enter. </s>
+<s> Now type COPY *. </s>
+<s> * C:\WIN98 and press Enter. </s>
+<s> All the cab files required to install windows will be copied to her harddrive into that win98 folder you made. </s>
+<s> Once that is done, go back to SAFEMODE, RUN/SFC and for the SOURCE of the files you need to fix or replace, use that C:\Win98 folder instead of the cd. </s>
+<s> TONI </s>

@@ -1,0 +1,44 @@
+<s> I am using a PowerSpec external enclosure with an EIDE 250GB western digital drive and connected via USB 2.0, on my &quot;old reliable&quot; HP pavilion desktop, XP pro SP2... always updated. </s>
+<s> I use synchronization software (SyncBack) to help me manage manual back-ups from time to time. </s>
+<s> Additionally, I store all of my media on the external drive. </s>
+<s> Recently, especially when I play video files, the drive appears to spontaneously remove itself from Windows... the PC CRASHES instantly! </s>
+<s> I have to use a soft reset, and the system seems fine. </s>
+<s> I have tried several media applications. </s>
+<s> All with the same outcome. </s>
+<s> I have checked the system hardware config. </s>
+<s> All drivers are installed correctly, and all detectable hardware seems to be fully operational. </s>
+<s> I suspected that my PCI USB 2.0 card may be bad... so I installed a new one in an open slot yet the problem persists. </s>
+<s> I would be grateful if anyone has an idea for me to try... </s>
+<s> I like having all of these large files on my external, but they aren't readily viewable with this happening. </s>
+<s> Thanks! </s>
+<s> When I see that I instantly turn to investigating motherboard drivers. </s>
+<s> Tell me what make, model PC and what version driver you installed. </s>
+<s> Bob </s>
+<s> Hello, My machine is an HP pavilion xl946, AMD Athlon 1.1GHz, 512MB RAM, DVD-rom, DVDR and 2x USB 2.0 PCI cards. </s>
+<s> It has USB 1.1 fused to the motherboard ...I have no idea about the &quot;motherboard driver&quot; nor do I know where to locate it. </s>
+<s> I will happily retrieve per your instructions. </s>
+<s> Thank you! </s>
+<s> http://h10025.www1.hp.com/ewfrf/wc/product?lc=en&cc=us&dlc=en&product=61888& We can look at the specs there to discover the &quot;Chipset name VIA KT133A&quot;. </s>
+<s> This makes it easy to look up the Via4in1 driver package which is at http://www.viaarena.com/default.aspx?PageID=420&OSID=1&CatID=1070 The date of this version is Feb 28, 2007 and the version is 5.10a This is what I'd use. </s>
+<s> Bob </s>
+<s> Thank you for the helpful links. </s>
+<s> It seems that all of my drivers were current except for the VIA AGP driver. </s>
+<s> I had v4.60a now I have 4.80a... </s>
+<s> I went through the entire hyperion 4-in-1 installation anyway. </s>
+<s> Was this the culprit? </s>
+<s> Nonetheless, I tested by playing several files (.avi .mp3 .mpg2 .ogm & .wmv) The system remained stable through each! </s>
+<s> Hopefully it will remain so... </s>
+<s> Thank you! </s>
+<s> Although media seems to play stably, now it seems that my data transfer rates are poor. </s>
+<s> I tried to copy an ~800MB file from a USB flash to the external IDE. </s>
+<s> Both peripherals are connected through the same PCI, and the flash drive is on a 4port powered hub. </s>
+<s> This transfer would normally take me 3-5min and now it takes 30+... almost seems like USB1.1 rather than 2.0 This has me puzzled. </s>
+<s> Any ideas? </s>
+<s> As always, Thank you! </s>
+<s> Shutting down, moving the PCI card to another slot helps this. </s>
+<s> There are software methods to do this sort of refresh of the PCI information but I go with this since it's less work. </s>
+<s> Bob </s>
+<s> Everything seems back to expected function/performance! </s>
+<s> 802MB transfer in &lt;3min ...files still open/play from peripheral drives! </s>
+<s> Thanks so much! </s>
+<s> Have a good one, Scott </s>

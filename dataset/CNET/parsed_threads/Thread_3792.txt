@@ -1,0 +1,115 @@
+<s> My system, Gateway Solo 1450 laptop, already had Windows XP Home Edition installed with the hard drive configured as one big partition. </s>
+<s> I want to make it into three partitions. </s>
+<s> Is this not possible once Windows is installed? </s>
+<s> I have tried all the options included provided such as Disk Management, FDisk, Diskpart, and Format. </s>
+<s> None of them work. </s>
+<s> The restoration CD will not work because my current version has been updated. </s>
+<s> Currently I cannot boot from my external DVD/CD drive. </s>
+<s> But be aware that some think partitions save your data from destruction. </s>
+<s> If you read these forums, you find that's a falsehood. </s>
+<s> Bob </s>
+<s> Bob, Thanks for the advice; however, on Microsoft's forums you will find messages posted by users who tried it this way and found that it did not work. </s>
+<s> That's one odd machine. </s>
+<s> Why did you need to partition? </s>
+<s> Bob </s>
+<s> Forget partitioning and add an external usb hard drive,you will need to be sure that your system board supports this.If you can access your BIOS it should be possible to set it to boot from CD/DVD drive.CAUTION DO NOT ATTEMPT TO ACCESS YOUR BIOS IF YOU ARE UNSURE OF CORRECT PROCEDURE! </s>
+<s> Regards Eric. </s>
+<s> If you can't boot from a CD then you're pretty much sunk. </s>
+<s> Partition Magic is the only way and it costs 70$. </s>
+<s> But there is a free way if you can boot up from CD, and it's called linux. </s>
+<s> Go look up Knoppix, which is Linux that boots from CD. </s>
+<s> Download it and burn an image to a CD. </s>
+<s> Then defrag your hard drive (thuroughly. </s>
+<s> You just want one big clump of NTFS or FAT, whichever you have). </s>
+<s> Then turn off your computer and boot up in Knoppix (Make sure it's 4.0.2, otherwise it won't be able to do NTFS). </s>
+<s> And start up QTParted. </s>
+<s> It's pretty easy from there. </s>
+<s> But... without a CD drive you can boot from, Partition Magic is about your only bet. </s>
+<s> What's wrong with your CD drive that you can't boot from it? </s>
+<s> THE tool because- IT WORKS! </s>
+<s> Get PartitionMagic. </s>
+<s> I too have a system that came with XP Home installed. </s>
+<s> Using PM I partitioned the disk abd installed Linux to play with. </s>
+<s> I go back and forth regularly and have never had any problems. </s>
+<s> You need a recent version! </s>
+<s> I had a previoulsy -purchased copy of PM v3 and it didn't recognize the XP partition. </s>
+<s> I think PM version 8 is current. </s>
+<s> Partition Commander 9 works great with Winxp </s>
+<s> Naysayers who post problems with PM on winXP on M$'s forums doesn't necessary imply that no1 has been able to get it to work (or does it?). </s>
+<s> I'd imagine ppl have gotten it work just fine (excluding even the users on this board) but never bothered posting there. </s>
+<s> I could've sworn there was a way to create partitions using the default winXP tools. </s>
+<s> I guess it's only to delete partition </s>
+<s> It's freeware but BE WARNED.... </s>
+<s> BACKUP ANY VALUABLE DATA FIRST!!!! </s>
+<s> ESPECIALLY IF THIS IS THE FIRST TIME YOU'RE USING A HD PARTITION UTILITY! </s>
+<s> Altho this works, it seems ppl have inadvertly deleted partitions and asked how to get back that data when there is no way at that point. </s>
+<s> Not quite understanding the situation. </s>
+<s> Is your system fine now, or have you tried to partion with bad results and now your restore won't work. </s>
+<s> If your system won't boot you should be able to delete your current partions then create a new primary partion, use the full size available, make just the one partion. </s>
+<s> Then your restore disk should work. </s>
+<s> After you restore I see no reason that Partion Magic will not work to create new logical partions. </s>
+<s> Just be sure to leave enough room on the Original primary partion when you resize it so that windows will have 25 percent free space. </s>
+<s> I have repartionioned countless system, including notebooks using partion magic 8 and have never had a problem. </s>
+<s> To eliminate the restore problem in the future use a disk imaging software such as Acronis True Image or Symantecs Disk Image 7 to Image your system drive and save it to one of the other partions. </s>
+<s> Also change the default location of your My Documents folder to one of the other partions so that the next time your system dumps, and it will soner or later, you won't lose any data. </s>
+<s> Words of wisdom for the day. </s>
+<s> Never have anything on the system drive but the system and the installed programs. </s>
+<s> Some earlier versions of Partition Magic may not handle the newest version of NTFS partitions used by XP. </s>
+<s> Why are you wanting to partition? </s>
+<s> If it is for performance or better disk utilization, don't bother. </s>
+<s> NTFS is inherently more efficient than the older FAT or FAT32 file systems, and unlike the older FAT files, NTFS does not benefit from smaller partition sizes. </s>
+<s> If you are partitioning so you can boot multiple OSs, then Partition Magic with Boot Magic would be my first recommendation, 2nd would be Partition Commander with Boot Commander - either way, use the latest version. </s>
+<s> Before doing any re-partitioning, make sure you back up vital data, clear out all unwanted/unused files to make as much free space as possible, and defragment. </s>
+<s> If there isn't sufficient free space on the disk you cannot resize the partition, and if you cannot resize the partition you cannot get empty space for another partiton. </s>
+<s> Most often you cannot partition a hard drive that is one big partition in XP, simply because you will damage files needed to operate it. </s>
+<s> Througout the hard drive and OS, it is configured as one large drive, if you change this, it throws the system out of whack and can destroy your OS to where you need to install it again. </s>
+<s> The whole drive is considered operating \running which you cannot change a partition that is in use by the OS. </s>
+<s> When you install your OS you have to create a smaller primary partition, enough for the OS to operate. </s>
+<s> Then you can partition the hard drive from disk management since whole drive will not be in use. </s>
+<s> Most partition softwares will warn of even trying this due to the above mentioned. </s>
+<s> Most partition softwares will simply not even attempt it or give you an error message. </s>
+<s> Much like my XP, 80 gig, I had to install XP on a 20 gig portion, then partition from there after XP was installed. </s>
+<s> I could not accomplish this prior. </s>
+<s> I don't think your restoration cd is not working due to updated version so much as a problem with the update itself. </s>
+<s> ((However your system has to support booting from external devices or it won't either way.)) </s>
+<s> Paul </s>
+<s> If you don't have Ghost, it comes with Norton SystemWorks which you should have anyway. </s>
+<s> Take a Ghost image of your hard drive (makes a good backup also). </s>
+<s> Run the integrity check, and make sure you can boot into Ghost and use the backup; I have to use a floppy to boot to and the CDROM image files to make it work on my system. </s>
+<s> Then use any partition manager, I used FDISK from a Windows 98 startup floppy, to create your partitions. </s>
+<s> Ghost is capable of restoring the image to a partition if it's large enough to hold the data, it doesn't have to hold the free space. </s>
+<s> -kevinthefixer </s>
+<s> SHOULD have system works? </s>
+<s> Why? </s>
+<s> I've tried most of the optimization suites you've seen out there--nothing even comes close to Norton. </s>
+<s> Unfortunately, you have to buy their resource-hog antivirus with it. </s>
+<s> I recommend not installing the antivirus section and use something better instead. </s>
+<s> I use Avast! </s>
+<s> But Norton's registry cleaner, Windows debugger, and their defragmenter are the best I've found and very simple to use. </s>
+<s> --kevinthefixer </s>
+<s> I was wondering because on the site, ghost is a whole separate software from system works. </s>
+<s> Each are 69 dollars. </s>
+<s> Thanks, Paul </s>
+<s> I have Norton Systemworks 2003; it includes Ghost. </s>
+<s> --kevinthefixer </s>
+<s> Norton Systemworks comes in a couple of different packages. </s>
+<s> If you buy the Systemworks Professional, it comes with Ghost. </s>
+<s> Thanks for the info, will keep my eye on this one, perhaps for Xmas Paul </s>
+<s> Forgive my absence after originating this thread. </s>
+<s> My reason for repartitioning, other than the fact that it's my computer and it's a free country, was just for efficiency. </s>
+<s> As for the information on MS forums on it, finding it again is worse than the needle in the haystack. </s>
+<s> Anyway, I made the mistake of using a program called KillDisk, thinking I could restore my hard drive after repartitioning. </s>
+<s> Bad idea! </s>
+<s> But I just had to try it my way even though a Drive Fitness Test program I had available already had a means of repartitioning the drive without destroying the data. </s>
+<s> So, I had to take it in to a local repair, where Partition Magic was used. </s>
+<s> The repairman found that my internal CD drive worked intermitently and is now looking for a replacement. </s>
+<s> (It is a Gateway Solo 1450 laptop). </s>
+<s> When I took the A+ course at DeVry and copied all the tools available, I had a copy of Norton Ghost. </s>
+<s> I don't think it was up to date as it didn't recognize NTFS. </s>
+<s> XXCLONE was recommended as an alternative in the future. </s>
+<s> So, with my internal drive partitioned into three and my external drive partitioned into two, I have all the partitions that I need. </s>
+<s> Thanks for the support. </s>
+<s> Everybody leaves out the AMAZING freeware partition manager that I have NEVER had bad luck with!! </s>
+<s> EASEUS Partition Manager can be used IN Windows XP, and it reboots to resize the partition, booting from it's software stored on the HD. </s>
+<s> You can't get any better than this, trust me! </s>
+<s> Good luck! </s>

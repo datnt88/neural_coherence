@@ -1,0 +1,77 @@
+<s> Seagate sent me a new SATA drive under warranty. </s>
+<s> I created two partitions one 40 gig one(for XP)180 gig (for storage). </s>
+<s> Formatted both NTFS using partition magic. </s>
+<s> Transfered my files from bad drive to new 180 gig partition. </s>
+<s> Left 40gig blank formatted as NTFS for fresh XP install. </s>
+<s> I began installing XP but it wouldn't allow me to install onto 40 gig partition so I deleted the partition thinking I would just have XP reformat it again as NTFS. </s>
+<s> Problem is, XP only format as [New (RAW)] and doesn't give the NTFS format option. </s>
+<s> At this point I don't have an OS on the machine so I'm not sure what to do. </s>
+<s> Something else which may or may not be of interest. </s>
+<s> The drive comes up as Third IDE Master in the BIOS, Primary IDE Mater [Not Detected], Seconday IDE Master is my DVD Drive. </s>
+<s> Any suggestions are appreciated. </s>
+<s> Thanks. </s>
+<s> You noted you had XP. </s>
+<s> Those old XP CDs don't support over 127GB hard disks. </s>
+<s> You'll need the XP SP2 CD. </s>
+<s> Bob </s>
+<s> Thanks for your reply Bob. </s>
+<s> I neglected to mention. </s>
+<s> I am attempting to install XP SP2. </s>
+<s> Use the XP SP2 CD to partition then let it format the drive for you. </s>
+<s> If you format ahead of the install you can trip up XP's installer. </s>
+<s> The XP install dialog doesn't give me the option to format the partition as NTFS prior to install, it only formats as RAW. </s>
+<s> I've never seen this before when doing a fresh install. </s>
+<s> You didn't tell which diskette you use to enable XP to install to SATA. </s>
+<s> I'm not sure I know what you mean. </s>
+<s> Do I need to use XP floppies prior to CD install when doing a fresh install to new SATA drive? </s>
+<s> Writing how to install XP onto SATA drives. </s>
+<s> Here's some articles -&gt; http://www.google.com/search?hl=en&q=HOW+TO+INSTALL+XP+TO+A+SATA+DRIVE It's not you. </s>
+<s> Microsoft's XP installer just can't do this without that driver diskette or for some motherboards where we emulate IDE... </s>
+<s> Even after loading the sata drivers prior to install XP still doesn't give me any option to format the partition as anything other than RAW. </s>
+<s> Even in the XP installer we don't format the drive. </s>
+<s> All through your post I see you formatting which is not a proper thing to do. </s>
+<s> Let me put it to you one last time. </s>
+<s> 1. </s>
+<s> We have the XP SP2 CD. </s>
+<s> 2. </s>
+<s> We have the SATA driver diskette to use during the XP SP2 boot (F6) 3. </s>
+<s> We delete the partitions with the the XP installer. </s>
+<s> 4. </s>
+<s> We create the partition we need (and no others!) </s>
+<s> with the XP installer. </s>
+<s> 5. </s>
+<s> The XP install formats the volume. </s>
+<s> At no time did I format the drive. </s>
+<s> If you do this and it doesn't work then your setup/hardware is defective. </s>
+<s> Bob </s>
+<s> Bob, I have followed your instructions to no avail. </s>
+<s> By formating, I am referring to the XP installer allowing me to CREATE an NTFS partition. </s>
+<s> Which it doesn't it only creates a RAW partition which I cannot install to. </s>
+<s> I've done the following: Used an XP SP2 CD Loaded manufacturer's SATA driver during XP SP2 boot F6 Delete first partition using XP installer (2nd partion has data on it which I don't want to delete) Create partition 1 as RAW (the only option) I was using the term FORMAT because I assumed this is how XP creates the NTFS partition. </s>
+<s> I remember being given the option to format (or create) the partition as NTFS during the XP install process when completing previous installations. </s>
+<s> I am not given that option now and THAT IS THE PROBLEM. </s>
+<s> Obviously, it will not allow me to install XP on RAW Partition. </s>
+<s> This is a re-certified replacement drive from SEAGATE. </s>
+<s> Perhaps it's bad but seems unlikely. </s>
+<s> I have no reason to think the controllers on the MB are bad, as they worked fine last week. </s>
+<s> The method I noted is &quot;the way&quot; and no sarcasm was intended. </s>
+<s> Let me state that I will never rewrite a post to avoid a possible hurt feeling unless I feel it's just too harsh. </s>
+<s> Here we want to nail your issue and if you've done it my way then we are quickly approaching the bad hardware issue. </s>
+<s> Or there is a small item I have yet to notice in your posts. </s>
+<s> Details matter no matter how small. </s>
+<s> Since it looks like the hardware is DOA it's time to call it's maker and arrange returns, exchanges, etc. </s>
+<s> In parting there is a test I do on such. </s>
+<s> I try to install Linux. </s>
+<s> If that fails I sometimes gain some insight into what it was. </s>
+<s> Bob </s>
+<s> Since you partitioned the drive with another software, XP installer most likely won't let you create the Primary with an MBR. </s>
+<s> Copy the data off your second partition, then delete it and start again with a completely raw disk. </s>
+<s> I'll give it a shot and let you know what I find. </s>
+<s> Thanks for the info. </s>
+<s> Thanks for your suggestion, I wiped the drive and let XP format it then created the secondary partition after the XP install. </s>
+<s> Cheers! </s>
+<s> John </s>
+<s> Sorry if you felt that was sarcasm. </s>
+<s> I had deleted any and all words that didn't need to be in the step by step post so to not send you in the wrong direction. </s>
+<s> Again, my apology if it comes out like that but I see you tried it again and found success which is what counts. </s>
+<s> Bob </s>

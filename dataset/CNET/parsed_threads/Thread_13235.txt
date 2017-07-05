@@ -1,0 +1,11 @@
+<s> I recently bought a used compaq armada 1750 lap top with no os. </s>
+<s> It had 15gig hard drive. </s>
+<s> I installed win 98se, The hard drive now shown 7.33gig. </s>
+<s> Can I resolve this without losing my data. </s>
+<s> or will I have to start over and format the hard disk? </s>
+<s> Post the output of fdisk /status, and the output of chkdsk c: (both from the command prompt). </s>
+<s> Then do a scandisk and repeat the chkdsk. </s>
+<s> Also tell why you think it's 15 gb, and what exactly shows 7.33 Gb. </s>
+<s> Total disk space, free disk space? </s>
+<s> If it's free diskspace, and still the same amount after scandisk reports no errors, find the large file(s)! </s>
+<s> Kees </s>

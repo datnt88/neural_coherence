@@ -1,0 +1,60 @@
+<s> Hi, I hope someone can help. </s>
+<s> I'm attempting to share files and a printer between two pcs. </s>
+<s> It should be easy. </s>
+<s> I've read everything and googled everything, but cannot figure out what my problem is. </s>
+<s> Two pcs(one is Windows XP Media Edition, the other is XP Pro). </s>
+<s> The Media Edition has the printer. </s>
+<s> Both pcs are hard wired into a LINKSYS WRT54GS. </s>
+<s> This router has 4 wired connections, plus wireless, which I can use to connect with my laptop (this works great). </s>
+<s> The files and printer are &quot;shared.&quot; I've turned off the firewall, to make sure this isn't causing my problem. </s>
+<s> Both PCs are using the same WORKGROUP name. </s>
+<s> Setting up Printer: To access my printer, I click on Printers and Faxes &gt; ADD A PRINTER &gt; WIZARD ....I select &quot;A network printer&quot; &gt; then select CONNECT TO THIS PRINTER (or browse for a printer) &gt; I click on Microsoft Windows Network, which shows me the PC containing the printer. </s>
+<s> However, no printer is displayed. </s>
+<s> When I click Next, it says &quot;You need to specify a valid network printer name.&quot; So, I give the printer name that I used on the &quot;share name:&quot; on the PC with the printer. </s>
+<s> It rejects it. </s>
+<s> So, no way to view the printer? </s>
+<s> Setting up Access to Files: When I go into windows explorer, I click on My Network Places &gt; Microsoft Windows Network &gt; Workgroup &gt; and then the two pcs are listed below. </s>
+<s> When I click on the PC containing the printer, I get the following message: \\TOMSMACHINE is not accessible. </s>
+<s> You might not have permission to use this network resource. </s>
+<s> Contact the administrator of this server. </s>
+<s> The network path was not found. </s>
+<s> .....These machines are single users, admin rights on both pcs. </s>
+<s> I've started the logging for security, but do not find any error messages. </s>
+<s> Any idea on what I'm doing wrong, or forgot to do? </s>
+<s> Thanks so much in advance for your help. </s>
+<s> Tom </s>
+<s> have the same name and password? </s>
+<s> Have you tried to set up a share other than the printer? </s>
+<s> does it work? </s>
+<s> Turning on file and print sharing doesn't share individual folders or printers. </s>
+<s> Those are done separately. </s>
+<s> Does the printer have a hand under the icon for it? </s>
+<s> If not, you need to do that as well. </s>
+<s> Run the Network Setup Wizard on both machines. </s>
+<s> Turn on file and printer sharing on both. </s>
+<s> Give both the same network name. </s>
+<s> On the last step on both machines, click the (something like) &quot;Dont run on another machine, just finish&quot;. </s>
+<s> Steven, For both PCs, I only have one account...which is administrator. </s>
+<s> For example, when I hit START, the top says ADMINISTRATOR. </s>
+<s> I've tried to share files and printers....all I can see the PC name. </s>
+<s> Under files and printers, I do see a &quot;hand.&quot; From the research I've done, it appears that Windows XP Media Edition is similar to XP Home. </s>
+<s> But, I should be able to connect XP Home with XP Pro. </s>
+<s> Thanks, Tom </s>
+<s> Coryphaeus, I've done exactly what you said. </s>
+<s> There is a hand under the C drive on both machines. </s>
+<s> However, since the printer is only defined to one machine, I have this set up only on one machine. </s>
+<s> When a attempt to ADD a printer and search the network, it finds the correct machine, but doesn't list the printer. </s>
+<s> After doing some research, I noticed something.... </s>
+<s> When I'm on the machine with the printer, I can display the following: ipconfig: Connection-specific DSN suffix . </s>
+<s> : IP Address...................... : 192.168.1.100 Subnet Mask..................... : 255.255.255.0 Default Gateway................. : 192.168.1.1 C: Ping 192.168.1.101 (which is the other machine) pinging from 192.168.1.101: bytes=32 time..... </s>
+<s> But, from the other PC....here's what I get: ipconfig: Connection-specific DSN suffix . </s>
+<s> : IP Address...................... : 192.168.1.101 Subnet Mask..................... : 255.255.255.0 Default Gateway................. : 192.168.1.1 C: Ping 192.168.1.100 (which is the machine with the printer) pinging 192.168.1.100 with 32 bytes of data: request timed out. </s>
+<s> request timed out... </s>
+<s> It seems one machine can get to the other, but the other cannot get back. </s>
+<s> Any ideas? </s>
+<s> Thanks, Tom </s>
+<s> in how they can be configured. </s>
+<s> First off, I'd be creating a user account other than the administrator account. </s>
+<s> You didn't mention whether or not you used a password. </s>
+<s> Always create a username giving it a password and make sure the same is configured on both machines. </s>
+<s> If you haven't tried already, you can disable the firewall on both to see if that's part of the issue. </s>

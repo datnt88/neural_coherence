@@ -1,0 +1,51 @@
+<s> Hi, I'm having a problem with my Hard Drive. </s>
+<s> I'm running an XP Pro SP2 machine with an 80GB Maxtor as the Master, a 250GB Samsung as the Primary Slave, and a 250GB Maxtor on an Ultra133 TX2 IDE controller Card. </s>
+<s> The issue is with the 250 on the controller card. </s>
+<s> In the process of writing files to the drive, several messages popped up saying that different System Volume Information files were corrupt. </s>
+<s> The drive was no longer readable/writable but still showed up in both My Computer and Disk management as an NTFS drive. </s>
+<s> Solution Attempt 1: I attempted to run chkdsk /r without success. </s>
+<s> I rebooted my machine and the drive still appeared in Disk Management and My Computer, but no longer as NTFS. </s>
+<s> Also, no Volume information such as Disk Space, etc were available. </s>
+<s> It now read as a RAW drive. </s>
+<s> I tried chkdsk /r and /f once again, now only in Safe Mode with Command Prompt. </s>
+<s> This was still unsuccsessful. </s>
+<s> Solution Attempt 2: I thought this may be a Windows exclusive issue, so I grabbed my handy Bactrack Security Suite Live Linux CD (SLAX). </s>
+<s> I explored a bit with Konquerer and the shell and found that /mnt/hdg1 (The HD in question) was there, but again, I was having the same issues as in Windows. </s>
+<s> Frustrated to no wnd at this point, I tried a diferent tactic. </s>
+<s> Solution Attempt 3: I finally caved and bought Recover My Files http://www.recovermyfiles.com/ as this program showed the most promise and seemingly had the best reviews. </s>
+<s> I would have gone the linux route and used the Forensic Utilities Backtrack has, but my unfamiliartity with the shell and linux in general lead me to the decision to go a Windows oriented route. </s>
+<s> Well, there's both good and bad news. </s>
+<s> Recover My Files found all of the files on the disk, and even in their native directories. </s>
+<s> However, it wouldn't repair the System Volume Information files, and would only recover the data to another drive or DVD. </s>
+<s> Worse, it will only recover them as Recovered_file_01.*. </s>
+<s> * being the file extension of what I'm trying to recover. </s>
+<s> I've been on Google and Microsoft Knowledge base, as well as others and I'm stuck. </s>
+<s> I can't find a solution to this anywhere, and don't have another drive to back these files up to. </s>
+<s> I'm also positive that there is a way to fix this, I'm just not sure how. </s>
+<s> Would someone please help me? </s>
+<s> I'll give you all the info I can. </s>
+<s> Thanks. </s>
+<s> At the suggestion of a friend I also checked event viewer for errors. </s>
+<s> There are a number of errors from the time when the crsh occured, and nothing previous to that. </s>
+<s> It didnt tell me anything I didn't already know. </s>
+<s> I also swapped the it with the Primary slave. </s>
+<s> Same complications. </s>
+<s> I tried another chkdsk /f and /r: C:\Documents and Settings\wifileecher&gt;chkdsk /r G: The type of the file system is NTFS. </s>
+<s> Unable to determine volume version and state. </s>
+<s> CHKDSK aborted. </s>
+<s> C:\Documents and Settings\wifileecher&gt;chkdsk /f G: The type of the file system is NTFS. </s>
+<s> Unable to determine volume version and state. </s>
+<s> CHKDSK aborted. </s>
+<s> ontrack.com has some software you can try to see if theirs work. </s>
+<s> And drivesavers.com has their system. </s>
+<s> But what most discover is their repairs make it worse. </s>
+<s> Bob </s>
+<s> Look, I'm not looking for a piece of software to &quot;make it all better&quot;, I'm trying to find someone that actually knows how to repair the system volume information. </s>
+<s> Thanks </s>
+<s> I have a buddy that dives in and can edit file allocation tables but he's always busy and charges a few hundred per hour for his services. </s>
+<s> The ontrack software is free and would tell you if it would work. </s>
+<s> Why not? </s>
+<s> I didn't re-read the entire thread but I NEVER had to repair the system volume information (read http://www.theeldergeek.com/system_volume_information_folder1.htm ) since that's just part of Windows. </s>
+<s> I did run into a toasted OS last year and to save some of their work without reinstalling the entire system I put the drive as a slave and deleted that directory, ran chkdsk and got lucky that a repair install of XP brought it back, but the damage was quite odd. </s>
+<s> The bottom line was they were a P2P user and took a hit. </s>
+<s> Bob </s>

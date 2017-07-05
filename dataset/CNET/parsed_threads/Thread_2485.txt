@@ -1,0 +1,74 @@
+<s> My mother in law just bought an AO725. </s>
+<s> She is totally lost on Windows 8. </s>
+<s> I am attempting to install XP Pro, which is what she is familiar with. </s>
+<s> I have installed XP on many Acer Netbooks which came with Windows 7, but I cant make any progress here. </s>
+<s> The setup program always stops with error 7B. </s>
+<s> I have tried using the IDE mode for the HD (BIOS setting), and just about every AMD SATA driver I can find. </s>
+<s> Neither of these methods seem to help. </s>
+<s> I have also tried XP Pro SP1, SP2 and SP3. </s>
+<s> I thought installing the 1.05 BIOS might help (it came with 2.04), but it will not install. </s>
+<s> Using &quot;Free DOS&quot; I can run the ACER BIOS flash program ZHG105.exe. </s>
+<s> Initially the 1.05 update program would give a flash write error. </s>
+<s> I was able to reflash with the 2.04 BIOS successfully. </s>
+<s> This did not help with the XP install (no change), and after doing that, the 1.05 flash program just resets instead of showing the write fail message (at the same point). </s>
+<s> My next thought is to see if I can run a Windows PE (Preinstall environment) and use the ACER windows flash update program (ZHG105W.exe). </s>
+<s> Currently I have Ubuntu linux installed, thinking I might be able to update the bios from Ubuntu, but I cant find any appropriate file. </s>
+<s> Do you think I am on the right track with the BIOS? </s>
+<s> Any help would be appreciated, and no, she is not going to be happy with Windows 8 (I cant get back to windows 8 anyhow) Thanks all, Les </s>
+<s> A quick look does not show me that the BIOS supports that IDE MODE you need. </s>
+<s> This means not only must you find all the drivers but you'll need a floppy drive to perform the following. </s>
+<s> USE GOOGLE and type this in. </s>
+<s> -&gt; XP F6 FLOPPY SATA INSTALL. </s>
+<s> I find most folk are not ready for such an install. </s>
+<s> -&gt; If you go back to Windows 8, why not add a start button so they are not as lost? </s>
+<s> They are free now. </s>
+<s> Bob </s>
+<s> I have tried loading several different AMD SATA drivers using a floppy drive. </s>
+<s> I still get the 7B stop. </s>
+<s> I tried both the AMD SB7xx RAID Driver and the AMD SB8xx RAID Driver. </s>
+<s> Any ideas which SATA driver I should be trying? </s>
+<s> The laptop maker must tell you which one. </s>
+<s> I do not have this model to look further into. </s>
+<s> I forget something above. </s>
+<s> Sorry. </s>
+<s> You will never get &quot;XP&quot; installed on such gear. </s>
+<s> Those SATA drivers require &quot;XP SP2&quot; or later CDs. </s>
+<s> If you have XP and I have to take your word above that's all you have then it's a dead end. </s>
+<s> Don't waste your time. </s>
+<s> Bob </s>
+<s> I Have 3 CD's, XP, SP2 and SP3. </s>
+<s> The SP2 and SP3 cds were created by slip streaming the service packs into the previous versions. </s>
+<s> Acer of course says the XP is not supported, but they have said the same thing about the Intel Atom netbooks I have converted. </s>
+<s> I just replaced Vista on an HP laptop a few months back. </s>
+<s> I had to use the SP2 disc, and the XP and SP3 discs would not install. </s>
+<s> I of course always try SP3 first, as that way I don't need to install each service pack. </s>
+<s> There are base code issues with XP and XP SP1. </s>
+<s> Get the real XP SP2 or XP SP3 to avoid that issue. </s>
+<s> Good try, but after watching a tech waste days on that we know not to let them try it anymore. </s>
+<s> Too costly. </s>
+<s> Bob </s>
+<s> If you regress from Win8, you MUST be assured that any &quot;secure boot&quot; process has been disabled. </s>
+<s> Newer PCs, no matter what are becoming locked-in due to Bios/EUFI issue which in turn can use the secure boot mode. </s>
+<s> It may become an issue if you can't boot from anything other than the original HD, etc. </s>
+<s> Booting from other devices are defeated thus secured from malware attacks, even though not being done. </s>
+<s> Overall, you need to verify the secure boot is disabled. </s>
+<s> Win8 is becoming a PITA to change from. </s>
+<s> Not only that but also all the other issues of drivers can they be found for lesser OSes? </s>
+<s> Google for secure boot to find examples of the problem. </s>
+<s> This may not apply, but worth looking into. </s>
+<s> http://support.acer.com/acerpanam/netbook/2012/Acer/Aspire/AspireOneAO725/AspireOneAO725sp2.shtml http://support.acer.com/us/en/product/default.aspx?modelId=4253 When, I visited Acer, there wasn't much to garner from. </s>
+<s> Overall, it lacked much, IMO. </s>
+<s> Your best bet is to Win7 as the OS, rather than XP. </s>
+<s> I don't see much support for XP in any form. </s>
+<s> Plus, as I already stated there may not be XP based drivers. </s>
+<s> tada -----Willy </s>
+<s> That's a documented issue on some models. </s>
+<s> No mystery but rarely encountered. </s>
+<s> UEFI EFI Thanks for adding that Willy! </s>
+<s> Thanks for this information. </s>
+<s> I just ordered a SP3 CD. </s>
+<s> Les </s>
+<s> Thanks for the explanation of UEFI. </s>
+<s> I had disabled that in the BIOS. </s>
+<s> I didn't know what it was, but many other things could not be changed while UEFI was enabled. </s>
+<s> I think there are a few mentioned by others such as CLASSIC8 START8 Bob </s>

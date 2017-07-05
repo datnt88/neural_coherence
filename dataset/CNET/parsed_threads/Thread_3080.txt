@@ -1,0 +1,50 @@
+<s> hello folks, ok i have a laptop upstairs (winxp) networked to a downstars desktop (win2k). </s>
+<s> works great. </s>
+<s> now I have a second desktop in that downstairs office hooked up to the same wireless router, but while i can control it remotely via tightvnc, i can't network it via windows explorer. </s>
+<s> wires are obviously there i created an identical user and password on that computer i can see new computer's name under the collective workgroup name i configured all drives to share but when i click on it it says i don't have access to this resource ?? </s>
+<s> what am i missing? </s>
+<s> thanks - fj </s>
+<s> Have you configured the firewall correctly? </s>
+<s> Mark </s>
+<s> i didn't think of that. </s>
+<s> have freebie zone alarm, need to put the other comps in the trusted zone! </s>
+<s> will give it a try!! </s>
+<s> thanks so much! </s>
+<s> - fj </s>
+<s> there is no firewall software running on the new comp . </s>
+<s> . </s>
+<s> . </s>
+<s> again, I can access it as a remote desktop using tight vnc but no access to ANY folders, not even public ones, the network resouce is not available. </s>
+<s> is there a trick to which user ID i use to configure the workgroup name? </s>
+<s> the computer knows it's on the workgroup but won't allow any access to it. </s>
+<s> probably somthing simple i am missing --fj </s>
+<s> The firewalls on the other computers in the LAN, and, XP accounts. </s>
+<s> You also have to allow the other firewalls to let the network data through. </s>
+<s> I am told, but I haven't tried this myself, that each XP computer on a network needs an account for the other computers; eg, if 3 users use one XP computer, so they should each have their own account names. </s>
+<s> The same is true in a network that each computer needs an account on the others, but like I say, I have never done this myself, so I can't say that this is definitely so. </s>
+<s> Mark </s>
+<s> the firewall up here, i forgot! </s>
+<s> lemme try that . </s>
+<s> . </s>
+<s> . </s>
+<s> well thanks very much for the free coaching. </s>
+<s> it worked. </s>
+<s> duh, i forgot the ustair firewall! </s>
+<s> now i have to remember to configure the firewall on the other downstaors comp. </s>
+<s> well while i read every book i could find on home networking i never found a simple checklist, and i am no expert but this is what i did networking xp and 2k machines: 1) on each machine, create an identical username (that will exist as a username on each machine), with the same name and password. </s>
+<s> (give this name admin rights) this user must have a password, but for wake onlan etc i have another username with no password be the default startup user, with no sign-in window. </s>
+<s> all that matters is those common names and passwords just exist on all computers, they don;t have to be logged on apparently. </s>
+<s> 2) in win2k, use the network wizard (sytem/ network id) to create a workgroup name. </s>
+<s> have each computer join this network (same name). </s>
+<s> 3 in windows explorer, under properties allow sharing. </s>
+<s> use the window to turn the disk names to plain, not with $ sign as that makes it invisible. </s>
+<s> 4 allow access to ip addresses in all firewalls on all computers. </s>
+<s> may not be totally correct but that's what worked i think. </s>
+<s> never saw this simple list anywhere. </s>
+<s> --fj </s>
+<s> And I agree that Networking is never simple. </s>
+<s> I have my XP networked to an old Windows ME computer, and setting it up on my own was a nightmare. </s>
+<s> But at least you're up and running now, which is good. </s>
+<s> Mark </s>
+<s> that you an ME machine at all, and that you networked it too! </s>
+<s> thanks again for the advice, really helped- fj </s>

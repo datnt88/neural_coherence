@@ -1,0 +1,90 @@
+<s> I would like to know if anyone is using Iogega's 1TB StorCenter Network Hard Drive. </s>
+<s> I currently have a Netgear SC101, but it uses a proprietary file system that can only be read by installing Netgear's software on the systems using the drives. </s>
+<s> So, if I have 3 systems on my home network, then I need to install the software on each system, which is a bit of a pain. </s>
+<s> Also, there is no support of Apple Mac systems on my network. </s>
+<s> And worst of all, is the proprietary file system, which, should something happen the the SC101, I cannot remove the drive(s) from the unit and read them on another system. </s>
+<s> I would like to know if, once I install the Iomega NAS on my network: 1. what file system does it use, and it is proprietary? </s>
+<s> 2. would I be able to access data from both PCs and Macs on my network 3. do I need to install software on each system on my network in order to use the NAS on each system 4. </s>
+<s> Does it use EIDE or SATA drives in the unit And lastly, the one positive thing about the Netgear was that it could quiesce the drives if they weren't being used.. is this function available with the Iomega? </s>
+<s> Paul </s>
+<s> http://www.google.com/search?hl=en&q=linux+san+file+system+SFS&btnG=Google+Search finds it's just another file system and not exclusive to Netgear. </s>
+<s> -&gt; Are you aware why Microsoft File Systems such as FAT32, NTFS are not used in small embedded systems? </s>
+<s> That alone can lighten up your path to understand why things are the way they are. </s>
+<s> Also, where is your backup? </s>
+<s> You seem to be falling into the single location or my files are only on this thing trap. </s>
+<s> What happens when the fire, flood or thief gets that unit? </s>
+<s> As to other NAS's. </s>
+<s> There are dozens and as you find each one I see that all 4 questions can be answered without effort. </s>
+<s> So I'll share I use a simple NAS with some Linux compatible file system. </s>
+<s> I know why it can't use FAT32, NTFS or a file system that Windows can access so I know not to expect that. </s>
+<s> Bob </s>
+<s> Well Mr. Proffitt, I thought I was being very specific when I asked 4 simple questions that all required very simple and basic answers like &quot;yes&quot; or &quot;no&quot;. </s>
+<s> Unfortunately your diatribe offered no help whatsoever. </s>
+<s> Rather that waste your time and mine, it may be better in future to either answer the specific questions asked, or not answer at all. </s>
+<s> Hopefully, someone else can read questions and give proper answers without going off on a tangent. </s>
+<s> It has to do with your concerns and if I did expand to what that SFS was and why we don't see FAT32 or NTFS and that didn't appeal to you, some think it matters. </s>
+<s> -&gt; Isn't it better to know why things are the way they are? </s>
+<s> Also how about this insight -&gt; If a vendor won't answer your queries (those 4 things) why would you consider purchase of said product? </s>
+<s> I really would enjoy your answer to my second question. </s>
+<s> Bob </s>
+<s> But notice the first line of my post: &quot;I would like to know if anyone is using Iogega's 1TB StorCenter Network Hard Drive.&quot; I would take that to mean I am looking for someone who has had first hand experience with the drive, and thus looking for answers from such a person. </s>
+<s> Regarding your question: -&gt; Isn't it better to know why things are the way they are? </s>
+<s> If I wanted to know that, I would have sepecifically asked that. </s>
+<s> You are providing answers to questions not asked. </s>
+<s> Regarging vendors.. they are notorious for providing biased answers.. that is, if one can find the proper person to ask, and if they do answer at all. </s>
+<s> Thus my reason for looking for answers from someone with first hand experience with the product. </s>
+<s> Sorry about that. </s>
+<s> I use many NAS if I expand beyond office, home and lab. </s>
+<s> We just don't have that particular unit. </s>
+<s> Some think this is a tech support forum and that moderators are paid to answer questions. </s>
+<s> That is untrue. </s>
+<s> These are discussion forums and no one is paid. </s>
+<s> -&gt; More on point. </s>
+<s> I know that issue with vendors and why I won't buy if they won't answer simple (to me) questions. </s>
+<s> Why not go to iomega's web site and find the phone number then call? </s>
+<s> It's what I would have to do. </s>
+<s> And about asking for owners to know this. </s>
+<s> Even if an owner had it, most are just &quot;owners&quot; that use the product and won't be able to get this technical. </s>
+<s> I can but I don't own or have access to said unit. </s>
+<s> I also DID NOT try to research this on the internet (you can do that.) </s>
+<s> But I do know why people may ask and shared how I was able to retrieve files for what was thought to be a proprietary files system (I booted linux.) </s>
+<s> Bob </s>
+<s> 1. </s>
+<s> OS is Linux and FS is ext3 and can be read by Linux PCs 2. </s>
+<s> Data is accessible by IP from Windows, Mac and Linux PCs 3. </s>
+<s> No when you share and map the drive 4. </s>
+<s> SATA (Seagate) Factory configured stripped but you can re-format to mirror or JBOD. </s>
+<s> Web administration. </s>
+<s> FTP-able. </s>
+<s> Cheapest I have found that can work in a domain. </s>
+<s> Fan a little noisy if you place unit too close to you. </s>
+<s> Iomega (and other vendors) also have Windows-based models which cost more. </s>
+<s> Google around. </s>
+<s> Yes I know there are other solutions, it is just that I have the opportunity of getting one of these units for free, so I just wanted to see if I could use it on my home network, which includes both PCs and a Mac. </s>
+<s> I am not happy with my current Netgear solution, because like I said, it is not accessible from the Mac, and because I could not retrieve the data should the SC101 fail (not the drives within it, but the actual SC101 itself) Once again, thank for you your response. </s>
+<s> You are welcome. </s>
+<s> Hard to beat free. </s>
+<s> Enjoy! </s>
+<s> A word of caution on the Iomega Storcenter 1 TB Network Drive - I've had one of these drives for over a year now formatted in a Striped 0+1 configuration and have experienced two instances of data losses due to power issues with the unit and am currently struggling to retrieve my data from it without having to spend some big bucks at a data recovery service. </s>
+<s> The first was before placing it on a UPS Unit, but the 2nd happened when it's $30 external power supply faulted. </s>
+<s> Seems if you spike the drive controller card it will loose communication with the drives and show them as Off Line - and there is now way to get them back On Line without going through a Re-Format of the drive (thereby losing all data on it) that I have found or Iomega can provide. </s>
+<s> Their solution would be to replace the drive if it were in warranty? </s>
+<s> There is a repair utility on the Discovery software utility, but no one at Iomega can tell me what will happen if you use this and a couple of their Tech's even suggested it may just start a Re-Format on it's own? </s>
+<s> Anyone out there ever experienced this or have a solution? </s>
+<s> if so how? </s>
+<s> having the same problem, thousands of dollars worth of data. </s>
+<s> please let me know asap </s>
+<s> They can recover striped array data. </s>
+<s> But you bring up the age old issue of backup. </s>
+<s> If the files are worth thousands then why not a few hundred buck spare copy? </s>
+<s> Bob </s>
+<s> But i still have the data that I need to get back. </s>
+<s> With this NAS is it possible? </s>
+<s> or do you think i'll have to use a data recovery service? </s>
+<s> anyone have any hints on what I should do, I've already tried a data recovery tool on a single disk, but as you know the data is striped across multiple disks... </s>
+<s> To buy an identical unit and put the drives in the new unit. </s>
+<s> It was cheaper than drivesavers so I call that a success. </s>
+<s> Also look at the top post to read the Lacie Miracle. </s>
+<s> They got some files back but I forget if it was striped. </s>
+<s> The Lacie Miracle is a good read about something we should always give a try. </s>
+<s> Bob </s>

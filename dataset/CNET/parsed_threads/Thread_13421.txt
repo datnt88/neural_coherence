@@ -1,0 +1,47 @@
+<s> Hi, I have a little problem, and i've been trying to find some answers on the net, but nothing. </s>
+<s> I have put a new cpu cooler - Coolermaster Hyper 6+ in my computer. </s>
+<s> It's a 4-pin cooler connected on a 4-pin connector on the Intel D975XBXLKR Bad Axe motherboard with 975X Express Chipset. </s>
+<s> I have Intel Pentium D 930 processor. </s>
+<s> So, the problem is that the temperature of my CPU is 46 degrees with opened case, and 51-58 with closed case and the fan speed is max. </s>
+<s> 1750rpm. </s>
+<s> The cooler specif. </s>
+<s> says that the fan speed is from 1800-3600 rpm. </s>
+<s> I have installed speed fan and all the fans (front, rear and cpu-fan) are monitored and controlled trough EMC6D103 chip and as I understand, PWM function. </s>
+<s> I've tryed to change the speed with speedfan, but nothing happends. </s>
+<s> With the default processor fan i had the same temperature results, but he changed the speed normaly, from 1900-2500 rpm. </s>
+<s> Help please, if You have any idee. </s>
+<s> THX! </s>
+<s> ! </s>
+<s> http://processorfinder.intel.com/Details.aspx?sSpec=SL94R notes some 63.4C temperature and a CPU that can emit possibly 93 Watts. </s>
+<s> To drag the temperature down you'll have to work very hard to improve the cooling. </s>
+<s> But so far you are in spec. </s>
+<s> Bob </s>
+<s> As I understand it, the 4-wire fans(2nd level) only work when needed once a certain temp is reached. </s>
+<s> Once, that theshold is meant, then the higher rpm fan setting kicks in to help cool an over-heated cpu. </s>
+<s> It seems after reviewing the website Robert posted you're within std. </s>
+<s> specs. </s>
+<s> of the cpu operation. </s>
+<s> Unless, your bios has a fan setting to change, then all this is done at a h/w level and no action from you will change it. </s>
+<s> tada -----Willy </s>
+<s> you're setup is working as intended, but not as expected. </s>
+<s> intel mobo's don't consider pentium 4/Ds &quot;warm&quot; until they hit about 55C and they're not &quot;hot&quot; until they hit about 62C. </s>
+<s> that's why your cooler's fan hardly spins up beyond its minimum setting. </s>
+<s> (i've got a 650 (3.4ghz) with an artic cooler and its fan only spins about 500rpm most of the time and idle temp is about 55C. </s>
+<s> if you have intel's desktop utilities installed, open the mobo monitor and notice the green/yellow/red temp ranges.) </s>
+<s> your bios may have an option to turn off its fan management. </s>
+<s> doing so may allow speedfan to handle the management. </s>
+<s> also make sure your version of speedfan supports the 975 chipset. </s>
+<s> when i downloaded it last year it couldn't work with my D945GNT mobo. </s>
+<s> Alfredo Milani-Comparetti (speedfan's author) sent me a beta build with support for the 945 chipset. </s>
+<s> hey, thx a lot for youre answers, and, i have one more question - my defaul fans input is 0.42 A and this one 0.62 A. is it possible that my mobo doesent have enough power to run it?! </s>
+<s> and if it's so, could i connect my cooling somewhere directly to power supply (i'am working in 3ds max, bryce, autocad so i need a cold case Intel D975XBXLKR power supp. </s>
+<s> Aopen, atx2, 700w graphic card Wildcat Realizm 500 </s>
+<s> i think your cpu fan has both 4 and 3 pin connectors so you can plug it in several places. </s>
+<s> with your mobo monitor, check which fan is running fastest and swap it for your cpu fan. </s>
+<s> alternatively, you could get an $8 antec fan with speed control from cc/cUSA/bb. </s>
+<s> you should be able to pull the molex adapter off of it and use it to plug your fan directly into the power supply. </s>
+<s> then just mount the antec fan in the rear and plug it into the motherboard. </s>
+<s> That's a normal temperature for that CPU. </s>
+<s> Why not just leave it alone and live with it? </s>
+<s> well, for frst i have built my configuration for 4 months and i'd like it to work as i wanted to (i know it's impossible , and second, i hate when something is not working within specifications, or when i have some yelow ?? </s>
+<s> in my device man.and so on anyhow, the problem is not the cooling but the expectations </s>

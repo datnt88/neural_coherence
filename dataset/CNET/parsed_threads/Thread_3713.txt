@@ -1,0 +1,31 @@
+<s> I have 4 Ultra 320 SCSI drives that I want to use on my windows home server. </s>
+<s> I want to set them up as RAID 1+0 so I don't have any risk of losing my data. </s>
+<s> I have limited experience with RAIDs (SATA) and none with SCSI. </s>
+<s> The Server only has a ultra 160 controller built in so I know I will need to get a controller, but will any of them support RAID or is there a specific kind? </s>
+<s> Also once the controller card is installed with I be able to adjust the RAID settings in the bios or does it have to be done another way? </s>
+<s> TIA </s>
+<s> Raid 0+1 means that when a virus strikes or delete that directory it happens so quick you have no chance to stop the meltdown. </s>
+<s> Why not RAID 5 and a decent backup? </s>
+<s> I looked at the controller and it has no failover on the RAID 1 so RAID 5 wins there. </s>
+<s> Bob </s>
+<s> NIL </s>
+<s> The drives at 10K RPM 300GB drives. </s>
+<s> The computer is a dual 2GHZ Xeon with 2GB of RIMM. </s>
+<s> I got the computer and drives for free so I would like to use them rather than buying something else. </s>
+<s> and remember this is for a home server. </s>
+<s> it will mostly just be storing music and movies. </s>
+<s> What type of RAID would be the best? </s>
+<s> I just assumed RAID1 because with a drive failure I wouldn't lose data and if I lose 2 in the same pair I still wouldn't lose anything. </s>
+<s> With this it keeps working in spite of a drive failure. </s>
+<s> I asked the question about SCSI HDD capacity wondering if the HDDs were large enough to mess with. </s>
+<s> At 300GBs they should be worth reusing. </s>
+<s> What versions of RAID does the SCSI 160 controller support ? </s>
+<s> VAPCMD </s>
+<s> I'm not sure what the controller supports. </s>
+<s> The drives are Ultra320 so I couldn't use them with the Ultra 160 controller could I? </s>
+<s> I'll look up the MB and find out anyways. </s>
+<s> You might some lose some performance but negligible in many, most instances. </s>
+<s> Looks as if the ULTRA 320 controllers have 68-pin high-density connectors and if the drives have same ...it's likely the drives will work with the controller. </s>
+<s> Question is ...does the controller support the version(s) of RAID you want to use ? </s>
+<s> Let us know how it works. </s>
+<s> VAPCMD </s>

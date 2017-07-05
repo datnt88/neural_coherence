@@ -1,0 +1,66 @@
+<s> Hi, I have a desktop with XP64bit installed. </s>
+<s> I need to install a second OS so I can use some music creation software that doesn't support 64bit. </s>
+<s> Can I create a partition without losing any data on my hard drive? </s>
+<s> or if not, would it simply be a case of buying a second hard drive and installing a new OS on there? </s>
+<s> J </s>
+<s> install the second OS (will cost you a new license, of course) in a virtual machine inside the first OS. </s>
+<s> That's just one large file when seen from the outside, and a completely working system when seen from the inside. </s>
+<s> I think you can even switch dynamically. </s>
+<s> Kees </s>
+<s> ...nice one, how would I do such a thing? </s>
+<s> Do you know of any tutorials to do this? </s>
+<s> And of course I will be purchasing the new OS...trying to catch a deal on eBay as we speak. </s>
+<s> lol. </s>
+<s> J </s>
+<s> http://www.technibble.com/how-to-create-a-windows-xp-virtual-machine/ is an introduction to using VMware player http://www.microsoft.com/windows/products/winfamily/virtualpc/overview.mspx is an overview of Microsofts Virtual PC, free since a month or so. </s>
+<s> http://www.5starsupport.com/tutorial/install-virtual-machine.htm is a tutorial for virtual pc. </s>
+<s> You'll find much more with a google search for VIRTUAL PC TUTORIAL. </s>
+<s> I've never done this myself, but I'm being told it isn't too difficult It's quite another experience than repartitioning or adding a second hard disk. </s>
+<s> Kees </s>
+<s> ...thanks alot mate, i'll give a look. </s>
+<s> J </s>
+<s> VM Machines are nice because once you get them set up, you save the current configuration and instead of doing a huge backup, in the event of a diaster, you just restore a file from a file and Boom! </s>
+<s> you're back up and running in about 5-10 minutes. </s>
+<s> I have several computers that run two additional virtual machines so I have roughly about 10 computers, 4 physical and 6 virtual, but the virtual machines are dynamically integrated into my network and two of them are even domain controllers. </s>
+<s> Just remember that if you're going to get that extensive, don't shut the primary machine off that the virtual machine is on, otherwise nothing works! </s>
+<s> ...i had to idea you cold do this. </s>
+<s> You learns ummit new everyday. </s>
+<s> I'm reading up on it now, wish me luck, i'm giong to be completing this weekend! </s>
+<s> Thanks again peeps! </s>
+<s> Great insight! </s>
+<s> You can try using Norton's Partition Magic. </s>
+<s> It will create a new partition on your hard drive so you can install a new OS without losing any data. </s>
+<s> If you don't want to risk having two OS's on the same hard drive, then you will be better off installing the second one on another hard drive. </s>
+<s> Norton pretty much ignored Partition Magic since they purchased it. </s>
+<s> There hasn't been a new version in years and it doesn't officially support Windows Vista. </s>
+<s> If you are going to buy a partition utility I would buy one that has an actual future. </s>
+<s> I would either look towards GParted or one of the non-abandoned commercial solutions. </s>
+<s> Acronis has a decent partition management utility that you might try. </s>
+<s> Installing a secondary partition on a 64 system with a 64 bit OS already in place. </s>
+<s> Because of the difficulty the OP would have had in this task, it would have been better had you all just said, it's probably not something you want to do or would probably be something you shouldn't consider because of...... </s>
+<s> Instead ya'll are STILL throwing out solutions that won't work. </s>
+<s> Partition magic MAY work to help create the secondary partition, HOWEVER, back to the OP's desired outcome, they wanted to install a secondary OS, which because XP64 is the end OS, as the rule of thumb goes, the lower OS needs to be installed first so that the boot sector can be created correctly. </s>
+<s> Type OSL2000 at google and see if that comes close. </s>
+<s> ...I have installed the virtual PC, and created a virtual PC. </s>
+<s> How do I add a new OS to it? </s>
+<s> All the tutorials on the net say things like: &quot;Step4&quot; Just install the new os... however they don't tell me how to do it. </s>
+<s> I have setup the new virtual pc, chose xp as the OS type, changed the ram settings, added a virtual HDD and now it's in my virtual pc console as &quot;Not Running&quot;. </s>
+<s> How do I got about installing the OS on this? </s>
+<s> J </s>
+<s> I had the same problem when I did it myself. </s>
+<s> It took me almost two months and a lot of on line research and question answering before I found someone to tell me step by step how to do it. </s>
+<s> The first part of this you have already done. </s>
+<s> I've copy/pasted the information I used that worked. </s>
+<s> Hope it does the same for you. </s>
+<s> this is directily from the person I asked on line ------ you need to create a virtual machine. </s>
+<s> with virtual pc open -click new(a wizard will open) -next -create a virtual machine(i don't recommend the other 2 options) -Name the computer(Something nice/Cool EG. </s>
+<s> Skynet) -Choose the operating system you want(just pick other its better! </s>
+<s> !1) -adjust the ram(use 512 unless your ram is less then one gig the use about the default 128) -create a virtual HDD(an operating system install to this).NEW Virtual hard disk. </s>
+<s> -10000MB(or the default) should be plenty if you dont have specific plans for this machine. </s>
+<s> -Finish you should now have a new virtual computer to work with. </s>
+<s> Now you need to install an operating system to do things with it. </s>
+<s> 1) install from CD/ISO download your ISO or get your installation CD into a working CD drive. </s>
+<s> 2)start your virtual machine 3)at menu click CD choose Control physical drive if your using a CD or Capture ISO image for an ISO image 4)goto Action&gt;Reset 5)in the virtual machine tap Delete until the screen gives you a blue/grey menu 6)goto boot and get CDrom as first option. </s>
+<s> 7)hit esc 8)exit&gt;exit saving shanges this should begin the installation of whatever you have to install with *using an XP disk you won't need to worry about ISO images, but Microsoft does not like you using a windows installation on more than one PC so do not update your virtual PC with XP unless you know what your doing* </s>
+<s> For some reason my answer to a different post was placed here. </s>
+<s> I'll have to find the one it goes with and redo it. </s>

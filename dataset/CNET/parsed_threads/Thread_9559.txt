@@ -1,0 +1,80 @@
+<s> In my home we have a wireless internet connection. </s>
+<s> I'm not sure it's a network because we don't do file sharing and I'm not sure if I understand this part. </s>
+<s> Anyways, on my computer (a Dell Inspiron 600m), I have two internet icons in the lower right hand corner - a single computer that shows it's got signal strength, and the double computer icon for the LAN. </s>
+<s> When I had computer problems several months ago, I called Dell and they told me to disable the LAN connection and work with the single computer connection. </s>
+<s> My roommate/sister's connection is the same - she uses the single computer icon as well. </s>
+<s> Is this correct, first of all? </s>
+<s> Secondly, can we disable the double icon so we don't see it in the taskbar? </s>
+<s> Please forgive me if I'm asking a really basic question or not being clear. </s>
+<s> The other thing is that during our computer problems, the Dell rep told us to make our IP addresses the same. </s>
+<s> They are now, and both computers run more slowly when we are online at the same time. </s>
+<s> Is there any way to repair this? </s>
+<s> And last but not least, our router icon often pops up in the taskbar with a yellow exclamation point and says &quot;not connected&quot;. </s>
+<s> How can we fix this? </s>
+<s> Should we be using the LAN network, and can we fix the problem with the IP addresses so we both get a strong signal at the appropriate speed (cable connection)? </s>
+<s> Sorry for the long post, and thanks for any help you can offer. </s>
+<s> I'm willing to learn how to do this - I just need walked through step by step. </s>
+<s> the physical configuration of your home network. </s>
+<s> Are there 2 computers using a wireless router, the router being connected to an external modem? </s>
+<s> First, I am going to make a couple of assumptions. </s>
+<s> The &quot;lower right hand corner&quot; I am going to assume you mean the system tray, where the clock is located. </s>
+<s> Second, I am going to assume that you remember how to change a few settings on your computers and on your router. </s>
+<s> Also, that you will understand some of the terminology I use. </s>
+<s> If this is not the case, then I would suggest you hire a professional to fix your problems, as it will be cheaper in the long run, in furstration and time at least. </s>
+<s> First off, having two computers with the same IP address is a vary bad way to operate. </s>
+<s> Each computer should have its own IP address. </s>
+<s> The computers should be set to automatically retrive an IP address from your router, which should be using DHCP to distribute the IP addresses. </s>
+<s> Second - if you are not using the LAN connection, the one designated by two computers, then you should have no problems with having it disabled. </s>
+<s> Third - you do have a network. </s>
+<s> It doesn't matter if you have file sharing etc. </s>
+<s> Any two computers connected through a central point and on the same subnet mask are a network. </s>
+<s> Ok, to disable the LAN icon on your sister's computer, go Start -&gt; Control Panel -&gt; Network Connections Right click on Local Area Connection, then left click Properties. </s>
+<s> This will bring up a dialog box. </s>
+<s> At the bottom of the dialog, there are two checkboxes. </s>
+<s> Uncheck the top one and the icon will go away after you click ok to exit the dialog box. </s>
+<s> For the slow connection/not connected problem: First, open the router and confirm that you are using DHCP. </s>
+<s> I can't tell you how to do this, since I don't know what router and software you are using. </s>
+<s> You need to make sure that the router is assigning IP addresses automatically. </s>
+<s> The single computer icon you mentioned is the wireless connection. </s>
+<s> To set automatic IP for this connection, right click on the Wireless Connection (single computer with antenna) icon and left click properties. </s>
+<s> Scroll down the list under &quot;This connection uses the following items:&quot; to Internet Protocol (TCP/IP) and click once. </s>
+<s> Then click the Properties Button on the right side just below the list of items. </s>
+<s> Make sure that the General tab is active and that the two clickbuttons for automatic operation are clicked. </s>
+<s> Ok to exit and ok to exit the connection properties. </s>
+<s> Reboot, and this will set the computer to automatic IP function. </s>
+<s> You might need to do this with both computers. </s>
+<s> Post back if you have problems or need more information, if you are at all uncomfortable with doing this typle of setup on your system, I would suggest getting someone who is experienced in this area to perform the adjustments. </s>
+<s> There may also be issues that I don't know about that will cause my instructions to fail. </s>
+<s> Due to the nature of the forum discussion, without more information, this would be the best I can do. </s>
+<s> Hope this helps. </s>
+<s> First, thank you so much for your detailed and patient explanation! </s>
+<s> A few things.... </s>
+<s> I am using the Dell TrueMobile 1184 router. </s>
+<s> I can tell you my software if you tell me where to look. </s>
+<s> If you just mean my version of Windows, I use XP Pro. </s>
+<s> I went into control panel re: LAN properties and the top checkbox was already unchecked. </s>
+<s> I unchecked the lower box, to ''notify me when this connection has limited or no connectivity'' and the double computer icon was still there. </s>
+<s> Any suggestions? </s>
+<s> I know how to go in and disable it but it gets obnoxious doing it every time I turn on my computer. </s>
+<s> Secondly, I saw on the troubleshooting icon in the router that the SSID should be the same on the computers as what the router has. </s>
+<s> Well, it's titled ''Beck'' instead of ''wireless'' (Case sensitive) like the instructions say it should. </s>
+<s> When I try to change it, it wants a password and I don't know where we got that password....? </s>
+<s> We are currently looking for documentation to find the password to enable us to change the name to wireless and then we can check to see if it is using DHCP. </s>
+<s> The other thing is, both computers already had automatic settings checked for the IP address, but they both list 192.168.2.1 as the IP address. </s>
+<s> Any more ideas/suggestions? </s>
+<s> I REALLY appreciate the help. </s>
+<s> Two computers on a wireless network with the router connected to an external modem. </s>
+<s> At this point, I don't think that there is anything more I can help with. </s>
+<s> It looks to me like the problems you are experiencing are related to your router setup, and I would suggest you get someone experienced in networking to assist you in person, since the problems you are having are beyond what I think can be solved through this forum. </s>
+<s> It looks to me like your problems are in the router setup, not so much in the computers. </s>
+<s> You are correct, the SSID should be the same. </s>
+<s> If not, then you aren't even connecting to your router. </s>
+<s> If you don't know the password to get into your router, then you will have to reset it, and that is beyond my experience. </s>
+<s> I won't willingly use Dell products, so I can't be of assistance with them. </s>
+<s> You might however try a username of admin and a blank password. </s>
+<s> Also, find the documentation for the router either online or physically and try to default username and password. </s>
+<s> Also, take one of your computers, re-enable the LAN connection, and connect it physically to the router with a LAN cable. </s>
+<s> Disable the wireless connection and use this setup to do all your configuration. </s>
+<s> If you are attempting to do the setup and are connected to another router instead of your own, it will be a little difficult to do any further troubleshooting. </s>
+<s> Once you have all the settings correct with a cable, then connect with the other laptop wirelessly and make sure that everything is working. </s>
+<s> Sorry I can't be of more help. </s>

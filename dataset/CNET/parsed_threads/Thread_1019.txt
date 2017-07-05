@@ -1,0 +1,29 @@
+<s> hi guys, Straight to the point,i have a very high number of files which are over 2,000,000,000 Nos, the volume of each file is between 1 KB and 30 KB,and because of the enormous count of files,copying them into a NAS (Network Access Server which contains 8 HDDs that are in 10 RAID-resulting in a 6GB Drive) is a complicated task. </s>
+<s> copying through windows ordinary copy paste usually takes years(!!!) </s>
+<s> to even calculate the task progress,and i also have tried using following softwares : UltraCopy, TeraCopy, above softwares usually fail in the first initial minutes,the following software-which is a great one for Copy Tasks- does not hang but again takes a very long time: RichCopy also i tried using Norton Ghost, which takes a image of the source drive in a short time,but again copying from the image to the destination drive is very very slow. </s>
+<s> I'm looking for a solution which can copy the files from source HDD without worrying about dealing with every and each one of files,but only copying segments of HDD no matter how many files are located in them,perhaps this solution will result in a very faster copy. </s>
+<s> I would appreciate if you offer me any professional solution for this issue. </s>
+<s> Thank you! </s>
+<s> You can't just copy a segment of the HDD. </s>
+<s> There's the FAT and most serious, there's the directory that has to be modified for each and every file. </s>
+<s> And 2 billion directory entries is a lot. </s>
+<s> So I would go for a different solution. </s>
+<s> Store each file as a record in a database. </s>
+<s> Databases are optimised for such work. </s>
+<s> And they support multiple load tasks at the same time. </s>
+<s> And it would be easy to add metadata to each file, which greatly helps to retrieve the one from the 2 billion that you need. </s>
+<s> Selecting the right DBMS (it will be 2 to 60 Terabyte only for the data, if you don't compress them, with a comparable space for the metadata and the indexes) certainly is a job for a professional. </s>
+<s> The same goes for the technical database design, the writing of the programs to load the data and to retrieve them again and for the performance monitoring. </s>
+<s> And don't forget the backup (another X TB). </s>
+<s> So this seems a 6-digit project (somewhere between $ 100.000 and $ 1.000.000). </s>
+<s> And 6-digit projects aren't done via consumer oriented forums, but by companies. </s>
+<s> Kees </s>
+<s> There is another issue and that is the speed loss as you pass some number of entries in a folder. </s>
+<s> Kees noted why such things move from files to a DBMS. </s>
+<s> I'm only adding another reason why it slows down. </s>
+<s> Once in awhile you will encounter someone that designed a system all file based with millions of files and it works on a local HDD and is a dog over a network. </s>
+<s> About half the time they call you an idiot because you can't solve the issue and the other half already knew they were in trouble. </s>
+<s> I see you found the usual copy apps so I'll add RoadKil's Unstoppable Copier to the list as well as the command line method. </s>
+<s> Any database admin knows the command line copy functions so I won't dive into that. </s>
+<s> In my opinion, work with the company to help them figure out that 2 million files in a system is not suitable for a network app. </s>
+<s> Bob </s>

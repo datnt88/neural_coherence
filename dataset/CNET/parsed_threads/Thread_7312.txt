@@ -1,0 +1,101 @@
+<s> Its one run, from A to B about 150 feet. </s>
+<s> At the termination is the problem. </s>
+<s> I will describe the run. </s>
+<s> It starts at the Router (A), then goes to a wall jack (1), then from the wall jack to a switch (2), from the switch to a RJ45 connector to another switch (3) from that switch to a wall jack (4), Here lies the problem, after checking the cable for connection, everything is green up to the last wall jack (4), I added another short cat5 cable to go to the computer and i checked the cable for green. </s>
+<s> Everything is great. </s>
+<s> However, when connected to the computer it did not work. </s>
+<s> now, first thing i did was recheck my lines again and again, all good. </s>
+<s> The second thing was to bypass each section starting at the end (B). </s>
+<s> so, i tried other cables with no luck, then i ran a cable from switch 3 directly to the computer and it worked. </s>
+<s> My thought was something wrong with the last part of the run. </s>
+<s> I rechecked and redid the line, no luck. </s>
+<s> I disconnected at (B) the wall jack. </s>
+<s> I connected an RJ45 to it instead, retested and ok. </s>
+<s> I then put on a coupler to extend the reach to the computer, still did not work. </s>
+<s> The coupler is good and works great. </s>
+<s> So my next step was to connect the computer directly to the last RJ45 at the wall and see what happens. </s>
+<s> It works!!!!! </s>
+<s> So, at the termination end, no matter if it is a wall jack or an RJ45, it won't allow me to add another cable from the 45 or the wall jack. </s>
+<s> However, i was able to hook up another switch to the end point and connect a cable from the switch to the computer. </s>
+<s> No problems at all. </s>
+<s> So, what is wrong, does anyone have any idea. </s>
+<s> All the cables are working the connections are good, I just cannot go from the wall jack to the computer. </s>
+<s> Allen </s>
+<s> I see this happen if the installer gets the pairs wrong. </s>
+<s> That is, electrically it's proper but they didn't get the pairs right. </s>
+<s> What do you mean, i checked and rechecked, the pairs are perfect. </s>
+<s> At the end is a RJ45 plugged into a switch with no problems, however if i use a female to female adapter then to the computer, it is a no go. </s>
+<s> A similar adapter is in my kit bag. </s>
+<s> But it confuses people as it's swaps pins around. </s>
+<s> It lets others double check the work. </s>
+<s> No sharing means you miss out on the double check. </s>
+<s> What exactly do you mean by share your pairing. </s>
+<s> I thought you were talking about the color code. </s>
+<s> ow, o, gw, b,bw,g,brownw,brown I am not sure if that is what you want. </s>
+<s> it is just standard setup. </s>
+<s> the coupler is a straight through and i already tested it on other lines and works great. </s>
+<s> female to female. </s>
+<s> The same colours do not connect in a straight through the coupler. </s>
+<s> That's why there are 2 types of this coupler. </s>
+<s> I did test that with the cable tester, it was all good, this coupler is a straight thru shot. </s>
+<s> I also used another wall jack as well. </s>
+<s> Still the same results. </s>
+<s> It just seems to be very difficult. </s>
+<s> The only other thing i can think of is that the cable tester has gone bad. </s>
+<s> but i have been using it for some time with no problems. </s>
+<s> Just wired up an entire office with it, and everything was a go. </s>
+<s> No problems at all. </s>
+<s> If I use a straight FF I have to check that my colors match on both sides. </s>
+<s> Do they? </s>
+<s> I haven't referenced any web pages because they are plentiful. </s>
+<s> I wanted to share the easiest thought possible. </s>
+<s> Here it is: Pick up a factory made cable. </s>
+<s> Match the colors on one end and then maintain that throughout that cable run and end with the same as the factory cable at the other end. </s>
+<s> IF you have a coupler you have to be sure the colors match up proper. </s>
+<s> Bob </s>
+<s> You mentioned switch to switch. </s>
+<s> Are these auto-sensing types or have an &quot;uplink&quot; port? </s>
+<s> If not, you need to link them with a crossover cable. </s>
+<s> I did as you suggested. </s>
+<s> I have factory short cables. </s>
+<s> I tried that as well with no luck. </s>
+<s> I really thought like you as to the pairing but I have not found any link. </s>
+<s> I have wired hundreds places of the years and have never had this problem. </s>
+<s> That is why i am lost. </s>
+<s> all new auto sensing units. </s>
+<s> I thought of that one as well. </s>
+<s> But I can get through all the switches with no problems </s>
+<s> is there a way to post a jpg. </s>
+<s> i have a diagram that shows what i have done. </s>
+<s> and have made just about every mistake one could make. </s>
+<s> I'm sure you've looked into the T-568a and b schemes may have noted some variances in which colored pairs are used in some CAT5 that still works. </s>
+<s> As well, if testing, you can't just to the xmit rcv pairs because the non-used ones must also be connected and connected properly. </s>
+<s> If you've done your own punch downs for the wall outlets, you will want to pay very close attention if they show both the &quot;a&quot; and &quot;b&quot; schemes. </s>
+<s> You'll want &quot;b&quot; and don't think you can just lay them straight across like what you'll see in the cable ends as these are designed to minimize the amount of untwisting you need to do....and do keep the untwisted wire as short as possible. </s>
+<s> If you have a DVM, it's real easy to make a loopback connector to check cable continuity yourself rather than use your tester. </s>
+<s> That could be a good way to get a second opinion. </s>
+<s> I've got one I need to check myself in a school I wired where the connection at the switch shows a 10mb rather than 100mb connection. </s>
+<s> It's about 150 foot run from a room outlet to a patch panel and I'm suspecting one of the unused wires might have become detached at one end and hoping it's not due to a mouse bite somewhere in the ceiling. </s>
+<s> I want a crossover cable. </s>
+<s> Since the issue only appears to be when the FF connector is used why isn't that the &quot;bad thing&quot;? </s>
+<s> however, as for the pairing, its a no brainer. </s>
+<s> I have gigabit throughout the network. </s>
+<s> everything is on and perfect. </s>
+<s> am running full duplex and no problems. </s>
+<s> Even with my current hookup bypassing the wall jack and going to a switch and then to the computer, it is full duplex and green all the way. </s>
+<s> This is why it is so confusing. </s>
+<s> I can terminate right at the wall jack without the jack, once the jack is hooked up, it goes dead. </s>
+<s> I have tried 4 different wall jacks with no luck. </s>
+<s> The funny part is that if i put a coupler on the end in place of the wall jack, it won't work, so i figured it was the wiring. </s>
+<s> That only makes sense. </s>
+<s> But i reran another wire and the same results. </s>
+<s> I am with you about the wiring, I still believe it is that, however I cannot seem to find it anywhere. </s>
+<s> I also had another person take a look and he gave up. </s>
+<s> I have been through several wall jacks, 4 couplers, my own cables, store bought cables. </s>
+<s> My pair testing is right on, my resistance testing is perfect. </s>
+<s> Other then running a third wire from the last run, that is the best i can come up with. </s>
+<s> The only other thought is that something is interfering with the last leg of the run. </s>
+<s> I am not sure but maybe some wiring in the walls or ceiling that i didn't catch. </s>
+<s> I'll share a buddy lost a day over a similar setup. </s>
+<s> Turns out when I tested the cable with my OHM METER I found a short between the wires. </s>
+<s> His tester didn't look for that! </s>

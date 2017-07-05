@@ -1,0 +1,23 @@
+<s> I have a sony vio that have blutooth stack for windows by Toshiba. </s>
+<s> I connect thru it to GPS dongle after connecting to the device ,when I click on detail button I see the MAC address of device, also I can type in Application-path dialog box a file to be run automatically after connecting to dongle. </s>
+<s> does anybody know in which file the infornmatin of detail window (MAC address and application path) are saved? </s>
+<s> But if I was to research this I'd find REGMON from Sysinternals to watch what registry keys are being written. </s>
+<s> Bob </s>
+<s> Sepassgozaram(Thanks) Bob, I saw those parameters and where they are saved. </s>
+<s> Perhaps I will need to have your guide about how to access them and change. </s>
+<s> Bob, I connected thru ProcessMon and saw where they are saved. </s>
+<s> Toshiba establish a stack and save those variable there. </s>
+<s> also it refers to a log file but i did not see its content change. </s>
+<s> could you guide me how can i read and change these information? </s>
+<s> by windows explorer I can go up to a directory that has log file, but I cannot see the stack, however thru processmonitor there are three level deeper directory as well. </s>
+<s> This is what they call REVERSE ENGINEERING and has too much downside for me to do more than note the tools to find where the items are stored. </s>
+<s> Now that you have your tools you get to REVERSE ENGINEER what all this means and how they use those settings. </s>
+<s> Maybe there's something supported that you want to do but I don't see this in this discussion. </s>
+<s> Let me reveal that I am programming apps that use Bluetooth which is partly why I shared. </s>
+<s> Bob </s>
+<s> Bob, what I am doing simply is as following: I have a software and thru it I call thirdparty exe file named ECCENTER.exe that is BT setting application in my VAIO laptop. </s>
+<s> in ECCENTER app there is an option called Application path that we can enter another exe/app-file to be run automaytically after connecting to a BT device, what i am trying to achieve is that I insert the exe/app-file in application path dynamically inside my software and then call ECCENTER. </s>
+<s> There is no need to play with the entries of the bluetooth registry. </s>
+<s> Let me share again that I also have apps that use bluetooth and looked into automatic pairing and more. </s>
+<s> I now know what it takes to do that but if you maintain there is no reverse engineering required, then we have no more to discuss? </s>
+<s> Bob </s>

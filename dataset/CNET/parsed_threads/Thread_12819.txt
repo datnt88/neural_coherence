@@ -1,0 +1,19 @@
+<s> Im helping a person set up a business where people with &quot;subscriptions&quot; can come in and work. </s>
+<s> We plan to have wireless as part of it. </s>
+<s> However, we want a system whereby we can give them accounts with passwords that, when the subscription ends, we can disable. </s>
+<s> Ive used vpns that had this functionality in a corporation I worked at, but Im at a loss as to what would work best for a small business. </s>
+<s> Any help would be GREATLY appreciated. </s>
+<s> Mark </s>
+<s> I would still recommend VPN and they make many small routers that can now do vpn well and cheap. </s>
+<s> Most so called security systems that allow dynamic access protect only at a ip level. </s>
+<s> They really can't prevent sharing of ip's or even everyone sharing a userid/password. </s>
+<s> A hotel system that intercepts and asks for a password is a example. </s>
+<s> A VPN you know every machine is who they say they are. </s>
+<s> These are fairly standard now days and if you use SSL VPN rather than IPSEC you have to set nothing up on the user machine. </s>
+<s> SSL VPN routers do cost more though. </s>
+<s> If you want to go the other method you need some system to intercept and another to authenticate the users. </s>
+<s> Most systems need a radius server but if you already have AD servers it can do radius too and share. </s>
+<s> The interception part is not as standard as vpn but if you want to do it cheap any old cisco router can do this. </s>
+<s> It is a feature cisco calls &quot;lock and key&quot; and has been around for many years. </s>
+<s> It is a little tricky to get setup ... mostly if you want to load dynamic rules from the radius server. </s>
+<s> In either case since I suspect you are going to run a mix of wired and wireless networks I would setup a outside network that everyone it attached to and place whatever solution you choose between this network and your servers. </s>

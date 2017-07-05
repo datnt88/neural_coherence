@@ -1,0 +1,52 @@
+<s> I'd like to know what I need to do to wire my home. </s>
+<s> I'd like each room of my house to have an ethernet jack where I can plug into my local network AND connect to the Internet. </s>
+<s> A standard router only has 4 ports and I need many more ports (i.e. </s>
+<s> 20) than that. </s>
+<s> A switch has many more ports, but I've read that switches are only good to connect to a network; they aren't good to connect the devices to the Internet. </s>
+<s> My internet comes from a cable modem. </s>
+<s> Ideally I would like to connect all the wires to a central (1000Mbps capable) switch/hub/router in my basement (so all the wires are kept out of sight). </s>
+<s> Whatever is used as the central hub, I'd like to connect my cable modem to that device. </s>
+<s> (I don't want to use a computer has a gateway.) </s>
+<s> I'd also like to make sure my wireless router (used for my laptop and other wireless devices) is kept on the 1st floor for easy access and better reception. </s>
+<s> So what combination of routers, hubs, switches, cable modem, etc do I need to wire my home? </s>
+<s> p.s. </s>
+<s> the wired devices I would like to connect are: 2 or more desktop computers, 2 networked HDHomerun dual TV tuners (potentially more), printers, game consoles, Media Center Extenders, Internet capable TVs potentially in the future, maybe a home server in the future, possibly more devices that have yet to be created at this time. </s>
+<s> Thanks in advance for the help. </s>
+<s> I'd say you may need a switch, router and an AP. </s>
+<s> This depends on where your cable enters the house and your modem is placed. </s>
+<s> The basic connection sequence will be PC to switch to router to modem to outside cable. </s>
+<s> The switch will connect to one LAN port on the router and all wired devices can connect to it or other free ports on the router. </s>
+<s> IP addressing from the router can pass through the switch. </s>
+<s> Since you want the major hardware in the basement, your wireless radio device should probably be an AP. </s>
+<s> The AP can connect to the switch or a free port on the router. </s>
+<s> In this case, your router doesn't need to be of the wireless type but might be handy if you bring a laptop into the basement. </s>
+<s> Two wireless radios do add extra steps, however. </s>
+<s> You said you need 20 ports. </s>
+<s> You'll find switches that offer 16 and 24 ports so you'll go with 24. </s>
+<s> The four on your router add two more for a total of 26 possible terminal connections as one switch port and router port will be connected. </s>
+<s> If you want to go gigabit capable, you'll need to make sure that your switch and wiring are proper. </s>
+<s> In wall wiring should be Cat6 (though Cat5e may work) and so must patch cables to all devices capable of that speed. </s>
+<s> The router speed won't matter and neither will the AP as these only provide WAN connections and you won't see gigabit to/from there. </s>
+<s> Hope this helps. </s>
+<s> Can the AP (Wireless Access Point) instead be a wireless router. </s>
+<s> Is there a problem connecting 2 routers together? </s>
+<s> What I have read and at least understand is that anything connected to the switch will NOT be connected to the Internet. </s>
+<s> Is that not true if the switch is connected to a router which is connected to the Internet? </s>
+<s> Many wireless routers can be used as bridges or APs. </s>
+<s> You'd need to check your manual to see if yours can do such. </s>
+<s> I believe there in information in the forum &quot;sticky&quot; about. </s>
+<s> It's often cited as the first place to go before posting questions but I've not read the entirety of it. </s>
+<s> A wireless router may be a combination of several devices. </s>
+<s> A router which connects to another network, a DHCP server, a switch and a wireless radio can all be integrated into one box. </s>
+<s> A router wired router with multiple ports can serve as just a switch. </s>
+<s> It's a matter of not using the WAN port and turning off the DHCP server function. </s>
+<s> What you don't want is two DHCP servers on your network. </s>
+<s> Well, you can but you'll only be able to connect one device. </s>
+<s> You connect the router to the modem and then the switch to the router. </s>
+<s> All of your other devices go to the switch or additional LAN ports on the router. </s>
+<s> The switch keeps some sort of MAC address table (magic to me) and controls traffic to and from individual devices in an efficient manner that avoids the collisions common with dumb hubs. </s>
+<s> These hubs toss the data up for grabs and let the receiving devices determine what's meant for them. </s>
+<s> Smart hubs, switches, whatever, don't do that. </s>
+<s> You want a good switch but I don't see too many dumb hubs out there anymore. </s>
+<s> In any event, traffic meant for the internet (WAN) will be directed by the switch to the router and then to the modem which is connected to your ISP server. </s>
+<s> Your ISP takes it from there. </s>

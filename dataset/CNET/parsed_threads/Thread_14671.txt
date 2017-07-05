@@ -1,0 +1,9 @@
+<s> I have two usb drives used for backups that have the same files. </s>
+<s> When checking properties the capacities are identical as well as the size of the files and directories. </s>
+<s> However the used space on one drive is 300 mg higher than the other. </s>
+<s> Any reason for this and can the used space made the same as the other? </s>
+<s> Sadly one has to dive deep with analysis of exact byte counts. </s>
+<s> Try comparing a sorted list of DIR *. </s>
+<s> * /S/A (redirected to a file and sorted.) </s>
+<s> Then use a file comparer to track down what differs. </s>
+<s> Bob </s>

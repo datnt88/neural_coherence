@@ -1,0 +1,29 @@
+<s> Hello, world. </s>
+<s> I just bought a used, 120gb WD passport on eBay. </s>
+<s> The seller was a Vista user and didn't reformat the drive before sending it to me. </s>
+<s> I tried the HDD on my XP PC, and though the power light came on and the computer recognized it, I couldn't see it in Explorer. </s>
+<s> When I go into Disk Management, I can see it there, but when I right click on it all the options - including Format - are greyed out. </s>
+<s> The drive works fine on my Vista laptop though. </s>
+<s> When I went into Disk Management there with the drive connected, I could see it and reformat it. </s>
+<s> So I did, but when I plugged it back into my PC it still didn't appear in Explorer. </s>
+<s> I've also tried a fix I read in some other forum - disabling my 1394 connection and rebooting, but that didn't work either. </s>
+<s> I need the drive to work on both systems so I can transfer files from my PC to my laptop. </s>
+<s> I'd appreciate any help. </s>
+<s> Use DISK MANAGEMENT to remove the partitions on that drive (in XP) and then create it anew, format it and it will likely work. </s>
+<s> I'll leave it to you to research how Vista can do this. </s>
+<s> Bob </s>
+<s> I can't interact with the external HDD at all when it's plugged into my XP pc. </s>
+<s> The &quot;delete partition&quot; option and all others are greyed out in Disk Management when I right click on it. </s>
+<s> But, unlike my two internal hard drives, this one has little diagonal grey lines through it's section of the lower right pane, and it reads &quot;Healthy (GPT Protective Partition)&quot; instead of &quot;Healthy (Active).&quot; </s>
+<s> Use google.com and catch up what &quot;GPT Protective Partition&quot; is and how to deal with it. </s>
+<s> Googling! </s>
+<s> Why didn't I think of that! </s>
+<s> Actually I think I found a fix - HDDGuru's HDD Low Level format tool. </s>
+<s> http://hddguru.com/content/en/software/2006.04.12-HDD-Low-Level-Format-Tool/ I'm reformatting the drive right now. </s>
+<s> There are a number of such free formatters but I can never tell anyone which to use. </s>
+<s> It's why I try to help others find out about the issues and what words to use at Google or search bars. </s>
+<s> Bob </s>
+<s> Actually, it turned out that program didn't work for me. </s>
+<s> But I did find another fix - http://blog.paulgu.com/2008/01/06/how-to-delete-gpt-protective-partition/ - that showed me how to use DOS commands to completely wiped the drive, and that worked. </s>
+<s> ^_^ </s>
+<s> Once again, another example that goes to show ya, DOS'll never die! </s>

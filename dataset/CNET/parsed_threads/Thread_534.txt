@@ -1,0 +1,47 @@
+<s> I have a dell desktop with segate 80g hd running xp. </s>
+<s> I bought wd 320g hd. </s>
+<s> I installed it as a slave using cable select so i could copy everything over from old drive. </s>
+<s> when i ran software (data lifeguard) it asked to copy old drive and make new one boot drive said yes after hours of copying seemed like everything was fine but it doesen't boot off new drive. </s>
+<s> if i take out old drive and use new one as solo drive it doesn't recognize drive and looks for other bootable drive. </s>
+<s> with both drives in device manager show it healthy active and the old drive as healthy system. </s>
+<s> any ideas how to make the new one system? </s>
+<s> and RAID requires two matching drives. </s>
+<s> I maybe wrong but I think your trying to copy the small drive to the large. </s>
+<s> Nope. </s>
+<s> You'll need to back up your data to CD, DVD or USB from the small drive then reinstall the OS to the new drive then reformat the small drive NTFS and use it as a slave to the larger drive. </s>
+<s> Making sure you get the jumpers/shunts right. </s>
+<s> You could try this but I found it wanting. </s>
+<s> http://www.acronis.com/ This thread is tracked </s>
+<s> If PATA, how are they jumpered ? </s>
+<s> If PATA try jumpering both drives as CS and place the 320GB HDD at the end of the cable and the 80GB at the middle cable connector. </s>
+<s> If you look at the drive under Windows 'Disk Management' exactly what does it show ? </s>
+<s> Does it show as 'Active' ? </s>
+<s> VAPCMD </s>
+<s> There could be lots of things stopping the drive booting - I don't know anything about Data Lifeguard but I presume it works in the smae way as other drive cloning utilities so you should have a perfect copy of the old drive on the new with the software having given an option of using the extra space as a new partition or as extra space on one larger drive? </s>
+<s> Are the drives both using the drive headers on the MB with a ribbon cable or are they SATA drives with small plugs - a bit like a USB plug - on the drive cables - or a mixture of both? </s>
+<s> The software should have set the partition as active and bootable - so assuming it's working OK you need to tell the BIOS which drive to boot from. </s>
+<s> When the PC starts the screen should tell you what key to hit to get to the bios settings - often it's &quot;Del&quot; or &quot;F2&quot; Once in there look at the boot settings and see if there is a way to change the boot order and bring the new disk up to the top of the pile. </s>
+<s> That might be all you need to do. </s>
+<s> If not - there might be something wrong with the new drives boot sector or the software has failed to make the drive bootable. </s>
+<s> Windows sometimes doesn't like you making another disk bootable if it thinks there's another system on the disk so if you can't make the changes in the Disk Manager you'll need to download a disk utiility which will let you create a boot disk (either floppy or CD) and run a quick utility to set the disc correctly. </s>
+<s> Google for disk repair utilities and see what you find, make the boot disk then back to the bios to make the system boot from floppy or CD to run the repair software. </s>
+<s> Make sure you know which disk is which! </s>
+<s> The old master disk is often disk 0 with the slave disk reported as disk 1 but the different sizes should be a good clue. </s>
+<s> It's probably a good idea to remove the plug from the original disk while you play around with disk repair software - then at least you still have the option of going back to a working system and starting over. </s>
+<s> Problem is that you are using Data Lifeguard tools which is a WD product not Seagate. </s>
+<s> I am assuming you are using a new SATA drive which has no jumpers - it assumes CS. </s>
+<s> Put the new drive in a secondary interface slot on your MOBO You may be required to run the seagate setup disk. </s>
+<s> I prefer to run the setup disk with only the new drive in the system to ensure no accidental data loss. </s>
+<s> After setup put your 80GB drive back in play as Master and the 320 as slave. </s>
+<s> You need to use Norton Ghost or Acronis software to image the old drive to the new one. </s>
+<s> Acronis will cost you $49.95 and it is worth it. </s>
+<s> You can get a free copy of Barts tools by download which includes Norton Ghost. </s>
+<s> You can boot to Barts Universal Boot Disk and run Ghost. </s>
+<s> When it is complete- take the old drive out after shutting the system down and reboot. </s>
+<s> The new drive should boot. </s>
+<s> If my assumption is not correct and you are using IDE connections- the same procedure applies. </s>
+<s> The position of the drive on the cable will determine master or slave. </s>
+<s> Use the same procedure after completion. </s>
+<s> Disconnect the 80 GB drive and put the 320 in master position and reboot. </s>
+<s> You should have a 320 GB C drive. </s>
+<s> Be safe </s>

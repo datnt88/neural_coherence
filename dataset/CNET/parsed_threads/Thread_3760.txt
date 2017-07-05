@@ -1,0 +1,147 @@
+<s> Inspiron 1521 AMD Turion, 1.80 GHz 1918 mb ram Vista, Home Premium Zyxel P-330-W Router Cannon ip4300 Printer (on network) Yo! </s>
+<s> Back again with my continuing saga of networking woes - some days good, some days not so good! </s>
+<s> Newest issue is that if I want to print something on the laptop (using the networked Canon ip4300), it will only do so if I have recently rebooted or powered up the laptop. </s>
+<s> If the laptop has been on for more than a few hours, the print command just doesn't seem to take - most of the time, if I open the active printer, the command hasn't even registered with the printer yet. </s>
+<s> But if I restart Vista on the laptop, by the time my settings have loaded, the document I was trying unsuccessfully to print will have finished printing! </s>
+<s> There's obviously some conflict at work here, or some setting I've overlooked - any suggestions? </s>
+<s> I'm getting closer to having this thing working properly - I can feel it! </s>
+<s> Thanks for your response, john </s>
+<s> There are a number of things that could be causing your problem it's really a matter of trouble shooting. </s>
+<s> Here are two painless solutions you can try if you haven't already done so: #1 -Download and install Vista SP1 (Highly Recommended) #2 -Right click on your Network Icon in the systray. </s>
+<s> -Left click on Network and Sharing Center&quot; or -Click &quot;Start&quot; &gt; Control Panel &gt; Network & Internet &gt; Network & Sharing Center -Under &quot;Sharing and Discovery&quot; make sure that &quot;Network Discovery&quot; is turned &quot;On&quot; If the above don't solve your problem (or you've already done them) we can look at other options. </s>
+<s> Network Discovery is &quot;On&quot;, and I remember going through a long download of Vista SP1 recently, but I also remember that d/l had some problems - how do you know that V. SP1 installed properly? </s>
+<s> Thanks ajtrek, john </s>
+<s> To verify installation of Vista SP1 do the following; Click Start &gt; Programs &gt; Accessories &gt; Systems Tools &gt; System Information You will see the following information with the version indicating installation of SP1 right after your OS. </s>
+<s> OS Name </s>
+<s> Used your suggested route, and it tells me that my system has, Version 6.0.6001 Service Pack 1 Build 6001 So, I guess we're OK there. </s>
+<s> Here's my network hookup info: Desktop is cabled to LAN port on Router Modem (Fujitsu Speedport DSL) is cabled to WAN port on Router Printer is USB cabled to Desktop Laptop is using a Dell Wireless 1490 Dual Band WLAN Mini-Card There are never any problems with internet connections. </s>
+<s> In the interest of giving you what may/or may not be good info up front, I need to let you know that I have two printers installed on my laptop (same printer - Canon ip4300, but installed on two different ports; both as local ports - one titled &quot;usb002&quot;, and the other titled with the address of the resident printer on the desktop). </s>
+<s> Both were installed per kaufmanmoore: http://forums.cnet.com/5208-7589_102-0.html?forumID=62&threadID=264135&messageID=2612091#2612091 . </s>
+<s> I did not intentionally install the two printers, but this was the result of many attempts to get Printer Sharing &quot;on&quot; in Network and Sharing Center. </s>
+<s> I worked on this for a long time and one day I looked and surprise, Printer Sharing was &quot;on&quot;! </s>
+<s> I then noticed the two printers being installed, but I thought maybe that was the reason why Printer Sharing had gone ON. </s>
+<s> So I left them there. </s>
+<s> Sorry about the long story, but I thought it may be meaningful, and if so, you should know asap. </s>
+<s> Thanks for your assistance, ajtrek. </s>
+<s> john </s>
+<s> wall &gt; Fujitsu Speedport DSL &gt; wireless router &gt; wired/wireless Desktop using ethernet connection numbered port in wireless router. </s>
+<s> Canon ip4300 connected to Desktop via USB cable. </s>
+<s> Update the firmware in your wireless router. </s>
+<s> Broadcast SSID Use WPA PSK(TKIP) Security(Most wireless devices work best with this type of security) Mixed b and g mode(n if available) Use channels 1, 6 or 11. </s>
+<s> Most wireless devices work best on these channels. </s>
+<s> While you're in your wireless router, see what your LAN ip range is. </s>
+<s> If you can, set the ip address of the printer around the upper part of the range so a computer doesn't try to get the ip address of the printer. </s>
+<s> You need to have a network. </s>
+<s> Identical accounts on both computer with identical passwords. </s>
+<s> Example: you need to have a drfugawe account on both computers. </s>
+<s> On the computer the printer is connected to, try this. </s>
+<s> Disconnect the printer. </s>
+<s> Un-install the printer. </s>
+<s> Restart your computer. </s>
+<s> Download and install the latest drivers from here . </s>
+<s> Post back what your results are. </s>
+<s> Rick </s>
+<s> Before we start to dig into your router and it's settings let's try one more check.... On your Desktop Go to Control Panel &gt; Hardware and Sound &gt; Printers &gt; Right Click on Canon iP4300 &gt; Left Click Properties &gt; Click &quot;Ports&quot; tab and verify: -Printer is connected to correct USB Port Click &quot;Advanced&quot; tab and verify the following is selected: -Always Available -Priority = 1 -Driver = Canon iP4300 -Spool print documents so program finishes printing faster -Start printing immediately -Print spooled documents first -Enable advanced printing features Click &quot;Security&quot; tab Under &quot;Group or User Names -Printer is available to everyone should be highlighted Under Permissions for Everyone -Print = Allow Click &quot;Share&quot; Here I'm going to make a few assumptions... #1 Share This Printer box is already checked #2 You have a name entered to identify the printer for sharing. </s>
+<s> Now here's the tricky part. </s>
+<s> I know that you are running Vista on your laptop. </s>
+<s> However, I don't know what OS you are running on the desktop I'll assume it's not Vista? </s>
+<s> You'll notice that there is a &quot;Drivers&quot; box located in this tab (Share) as well. </s>
+<s> Read the explanation in the box and you'll get my meaning. </s>
+<s> I'm gonna go out on a limb here an make an assumption that your laptop in downloading the Vista compatible drivers each time it prints to the shared printer. </s>
+<s> That's why you continually see the drivers being installed. </s>
+<s> So, the data is being sent to the printer cue, the drivers are being installed and by the time you reboot (your laptop) the document has printed. </s>
+<s> The following link better explains my point. </s>
+<s> In effect your desktop is acting as a &quot;Server&quot; and your laptop is the &quot;Client&quot;. </s>
+<s> The article is a little dated but the principle is the same. </s>
+<s> http://www.ss64.com/ntsyntax/printing.html Click OK after downloading the correct print drivers. </s>
+<s> On your Laptop open the iP4300 properties &gt; click Port Tab &gt; make sure it points to the &quot;Shared printer name and its location&quot;. </s>
+<s> Verify what I've just given you and if you agree let me know and I can provide a network print solution that ignores the OS of the computer for faster printing. </s>
+<s> (I'm going to copy/paste your questions below, and answer in parentheses, ie. </s>
+<s> (***) - don't see any other way to do this.) </s>
+<s> Before we start to dig into your router and it's settings let's try one more check.... On your Desktop Go to Control Panel &gt; Hardware and Sound &gt; Printers &gt; Right Click on Canon iP4300 &gt; Left Click Properties &gt; Click &quot;Ports&quot; tab and verify: -Printer is connected to correct USB Port (yes) Click &quot;Advanced&quot; tab and verify the following is selected: -Always Available (yes) -Priority = 1 (yes) -Driver = Canon iP4300 (yes) -Spool print documents so program finishes printing faster (yes) -Start printing immediately (yes) -Print spooled documents first (yes) -Enable advanced printing features (yes) Click &quot;Security&quot; tab (No Security Tab! </s>
+<s> - using XP-SP2 on desktop) Under &quot;Group or User Names -Printer is available to everyone should be highlighted (not seeing this here) Under Permissions for Everyone -Print = Allow (not seeing this here) Click &quot;Share&quot; Here I'm going to make a few assumptions... #1 Share This Printer box is already checked (yes) #2 You have a name entered to identify the printer for sharing. </s>
+<s> (yes) Now here's the tricky part. </s>
+<s> I know that you are running Vista on your laptop. </s>
+<s> However, I don't know what OS you are running on the desktop I'll assume it's not Vista? </s>
+<s> (correct- I'm using XP-SP2) You'll notice that there is a &quot;Drivers&quot; box located in this tab (Share) as well. </s>
+<s> Read the explanation in the box and you'll get my meaning. </s>
+<s> I'm gonna go out on a limb here an make an assumption that your laptop in downloading the Vista compatible drivers each time it prints to the shared printer. </s>
+<s> That's why you continually see the drivers being installed. </s>
+<s> So, the data is being sent to the printer cue, the drivers are being installed and by the time you reboot (your laptop) the document has printed. </s>
+<s> The following link better explains my point. </s>
+<s> In effect your desktop is acting as a &quot;Server&quot; and your laptop is the &quot;Client&quot;. </s>
+<s> The article is a little dated but the principle is the same. </s>
+<s> http://www.ss64.com/ntsyntax/printing.html (You'll have to forgive me at this point, but I simply don't understand this article! </s>
+<s> There are too many terms being used in it that are foreign to me, and I can't get its intended points - Sorry. </s>
+<s> But notwithstanding, I'll continue answering your questions and we'll see where that takes us - OK?) </s>
+<s> I think I remember installing the newest Canon iP4300 Vista drivers on the desktop, however, I think I simply went to Canon's site, downloaded the drivers, and installed them on the desktop. </s>
+<s> I did not use any wizard, nor did I install them using any XP assistance linkage. </s>
+<s> So, I'm not sure that they are available when needed - and as I inferred, I'm really not sure that I dl'ed them onto the desktop when I dl'ed them for the laptop!) </s>
+<s> Click OK after downloading the correct print drivers. </s>
+<s> (??? </s>
+<s> - say what? </s>
+<s> ...) On your Laptop open the iP4300 properties &gt; click Port Tab &gt; make sure it points to the &quot;Shared printer name and its location&quot;. </s>
+<s> (I'm not sure about your question here - when I go to Control Panal/Printers/ the listed name of the default printer is &quot;ip4300(this is the share name) on Melanie&quot;(the name of the desktop), under iP4300 Properties/Ports, the checked box is, &quot;usb002 - Virtual printer port for usb&quot;.) </s>
+<s> Verify what I've just given you and if you agree let me know and I can provide a network print solution that ignores the OS of the computer for faster printing. </s>
+<s> (I hope I've answered your questions adaquately - now if I may, I've got a couple of additional questions/observations for you - I can't understand why on my laptop when I go into CP/Printers/ip4300 on Melanie/Properties, the data is grayed-out - but this is the default printer! </s>
+<s> However, if I go the other installed printer (see my explanation in message # 5 above), it is NOT grayed-out, but there is a &quot;group&quot; designation noted for this printer, while the default printer has no &quot;group&quot; designation! </s>
+<s> Is this part of the problem? </s>
+<s> What am I missing here? </s>
+<s> Thanks ajtrek for your help - I hope I've answered your questions.) </s>
+<s> john </s>
+<s> But please allow me to follow along with ajtrek's recs, etc., and then I'll get back to your suggestions. </s>
+<s> I'm afeared that if I try to make changes from both of you at the same time, we risk getting messed up even more than I am right now. </s>
+<s> So, thank you very much, and I'll soon be answering your message. </s>
+<s> Talk at you soon, john </s>
+<s> The benefits of this setup are: - iP4300 resides on your network - iP4300 is available to any computer connected to your network (wired/wireless) - No need to have multiple drivers loaded on each computer ----- Laptop = Vista drivers for the iP4300 ----- Desktop (Melanie) = XP drivers for the iP4300 Long story shortI could bring a laptop running Windows 2000 to your home, download compatible drivers for the iP4300, setup a Standard TCP/IP port for the iP4300, connect to your network (with your permission) and print! </s>
+<s> Heres a real world example: My girlfriend connects to my network with her laptop running XP and prints to my HP Officejet Pro L7680. </s>
+<s> I connect to her network with my laptop running Vista Ultimate and print to her Cannon MP730 (which by the way is an older model than your iP4300). </s>
+<s> This solution will require you to invest in a print server and Ethernet cable. </s>
+<s> I recommend the TrendNet TE100-P1U printer server because its inexpensive and easy to install. </s>
+<s> It may be ordered on-line from.... Trendnet http://trendnet.com/products/proddetail.asp?prod=130_TE100-P1U&cat=46 for $55.99 Dell http://accessories.us.dell.com/sna/productdetail.aspx?sku=A0968623&cs=19&c=us&l=en&dgc=SS&cid=30322&lid=680414 for $49.99 Office Depot http://www.officedepot.com/ddSKU.do?level=SK&id=485015&cm_mmc=TLShopping-_-Shopzilla-_-Networking-_-485015%20TRENDnet%201PORT%20PRINT%20SERVER%20USB%2010%2F100%20WPERP for $47.95 I found one locally at MicroCenter for a friend. </s>
+<s> Youll need an Ethernet cable long enough to run from the print server to a LAN port on your router (you do have an open port?) </s>
+<s> Connection sequence would be: iP4300 &gt; USB &gt; Print Server &gt; Ethernet Cable &gt; Router. </s>
+<s> Things you want to do first: - Install XP SP3 on desktop computer (HIGHLY RECOMMENDED) - Download appropriate iP4300 drivers for the OS installed on the specific computer store them on the desktop of each computer for easy access (* see note) - Access your router's online admin and enable DHCP. </s>
+<s> DHCP enablement is usually under the Basic Setup tab in router admin. </s>
+<s> You should select Automatic Configuration for DHCP. </s>
+<s> Enabling DHCP will automatically assign an IP address for the print server/iP4300 or any other device you connect to your router. </s>
+<s> Be sure to save the settings and exit router admin. </s>
+<s> After you make the above connections youll want to obtain the IP address of the print server/iP4300 by going online again to your routers admin and look for the DHCP Client Table which will list the IP address for your print server/iP4300 write it down youll need it later. </s>
+<s> I have a Linksys router and my DHCP Client Table is located under: - Status tab &gt; DHCP Server &gt; DHCP Client Table Assuming everything thus far has gone without a hitch youre now ready to setup the iP4300 on your computersone at a time. </s>
+<s> Heres how: Control Panel &gt; Priners &gt; Add a Printer &gt; Add Local Printer &gt; Create New Port &gt; Standard TCP/IP Port Click Next &gt; Select Auto Detect (if available) &gt; Host Name/IP Address (type the IP Address you wrote down youll notice that the Port Name field populates automatically as you type) Click Next &gt; Install Printer Driver here you can select Canon on the left and iP4300 on the right (* see note) Click Next &gt; Follow instructions from this point on its simple when you are asked if you want to set the iP4300 as default select yes When asked to print a test page select yes. </s>
+<s> If everything went as planned, you can click O.K. </s>
+<s> after the test page prints and start printing normally. </s>
+<s> If everything works as it should you can delete the icons for the previous iP4300 installations via Control Panel &gt; Printers on each computer. </s>
+<s> Keep me informed as to your decision. </s>
+<s> * Note: If your iP4300 is not listed when you are asked to Install Print Drivers - Select &quot;Have Disk&quot; (Browse to location where the drivers are located, Select the file, click &quot;OK&quot; - follow instructions from this point. </s>
+<s> Yes, I'm sure this is a more immediate fix than the route I'm currently following - But, it discounts the fact that I am an old, obstinent, bull-headed codger with an intense desire to work out the bugs from my current buggy setup. </s>
+<s> If the current setup just flatout did nothing, then I'd sure look for an alternate solution such as a print server, or even Network Magic (which I also know will solve this as well), but each of those would require an investment which I simply don't have - $50 may be inexpensive from your perspective, but from mine, it'd require a budget adjustment I'd be hard pressed to make! </s>
+<s> It's as simple as that. </s>
+<s> So, I am very thankful for your willingness to assist in my quest, and if you have any additional insight into how we might tweek it a bit more, I'd love to hear your ideas - In the meantime, I'm going to continue looking for answers to my frustration. </s>
+<s> Much appreciation, ajtrek. </s>
+<s> john </s>
+<s> I still believe the problem may be caused by driver installation. </s>
+<s> So here's a link to Canon to get the latest drivers for your iP4300. </s>
+<s> Guess what...these drivers support Windows/XP/Vista/2000!!! </s>
+<s> There's no need to do a separate download specific to the OS installed on each computer...just download and install on both. </s>
+<s> You may have to setup the iP4300 again on both systems with the new drivers. </s>
+<s> The instructions will ask you to select an OS. </s>
+<s> It doesn't matter if you select XP or Vista, as the download is the same. </s>
+<s> http://www.usa.canon.com/consumer/controller?act=ModelInfoAct&tabact=DownloadDetailTabAct&fcategoryid=357&modelid=13528 However, before you download drivers or do anything...update the XP system with SP3...disregard that it says for IT Professionals and Developers. </s>
+<s> Here's the link: http://www.microsoft.com/downloads/details.aspx?FamilyId=5B33B5A8-5E76-401F-BE08-1E1555D4F3D4&displaylang=en Let me know your results. </s>
+<s> Good luck! </s>
+<s> I used these guys to help resolve a fax issue with my HP Officejet Pro L7680. </s>
+<s> I spent over 3 hours with various levels of HP tech support only to have them tell me that faxing was not capable with my Internet phone service. </s>
+<s> Live Chat with FixYa resolved my issue in 1-1/2 hours, which includes the time it took to move back and forth between my laptop and the HP to try suggested solutions, type my response, and perform two-way test faxing. </s>
+<s> There are 3 levels of support: - Live Chat @ $14.95 (My choice) - Premium @ $9.95 (Email response) - Post on Forum Of course, a credit card is required for the first two, but according to their policy, you dont pay unless you are satisfied with the results. </s>
+<s> Heres the link if you are interested: http://www.fixya.com/ I did some research on your router the ZyXel Prestige 330W (assuming its the one listed in your CNET profile). </s>
+<s> It has several configurations depending upon how you intend to use it. </s>
+<s> The configuration used may cause it to generate rotating IP Addresses, which can be a problem for clients on the network, and their attached peripherals (i.e. </s>
+<s> networked printer sharing). </s>
+<s> Its not a flaw with the router and Im not saying thats the cause, but its a thought. </s>
+<s> In addition, Id recommend updating the firmware to v1.8. </s>
+<s> Heres the link: http://us.zyxel.com/web/support_download_list.php?indexflag=20040906164737 As a sidebar, FixYa has specific solutions regarding issues others have had with the ZyXel Prestige 330W. </s>
+<s> This only means that FixYa is familiar with the product, which is a good thing. </s>
+<s> They may be your best bet to resolve your issue, if none of what has been suggested works. </s>
+<s> I still recommend updating your XP with SP3, as it makes the OS more network friendly. </s>
+<s> Good luck and keep me posted. </s>

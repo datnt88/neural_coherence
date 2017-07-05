@@ -1,0 +1,50 @@
+<s> I have an old 80GB hard drive with loads of old files on is there anyway I can access my private files from it? </s>
+<s> I still have my password for the user account that owned them... </s>
+<s> EFS required you backup the certificates. </s>
+<s> If not, the company at http://www.lostpassword.com has a cheap solution. </s>
+<s> Bob </s>
+<s> i have the certs and the SAM file i think..now what should I do? </s>
+<s> &quot;Restoring your EFS Private Key If you lose your Encrypting File System (EFS) private key (for example, your computer installation is destroyed, or you have reformatted), a designated EFS recovery agent must restore the files. </s>
+<s> The designated recovery agent uses his or her EFS recovery agent private key to decrypt the files so they can be recovered. </s>
+<s> To Restore the Designated Recovery Agent's EFS Private Key on Another Windows 2000 or Windows XP Installation: 1. </s>
+<s> Log on to your computer using the local Administrator account, or an account that is a designated EFS recovery agent. </s>
+<s> 2. </s>
+<s> Browse to the path and file name of the .pfx file to which you exported the EFS recovery agent's private key, and then right-click the file. </s>
+<s> 3. </s>
+<s> Click Install PFX to start the Certificate Import wizard. </s>
+<s> 4. </s>
+<s> Click Next and confirm the file location and name. </s>
+<s> 5. </s>
+<s> Click Next. </s>
+<s> Type the password for the private key, and then click Next. </s>
+<s> 6. </s>
+<s> Click Place all certificates in the following store, and then click Browse. </s>
+<s> 7. </s>
+<s> Click Personal, and then click OK . </s>
+<s> 8. </s>
+<s> Click Finish, click Yes to add the certificate, and then click OK. After you successfully import the certificate, you should be able to use the local Administrator account or the recovery agent account to decrypt the files on the computer that failed. </s>
+<s> To confirm this, open one of the encrypted files (it should be accessible). </s>
+<s> If you want to make the file accessible to a new user or the original user, you must decrypt the file by removing the advanced properties encryption attribute. </s>
+<s> The new user can then re-encrypt the files using the new private key. </s>
+<s> The following is the list of standard practices: # Encrypt the &quot;My Documents&quot; folder for all users (User_profile\My Documents). </s>
+<s> This will ensure that the personal folder, where most Office documents are stored, will be encrypted by default. </s>
+<s> # Encrypt the %Temp% folder, as programs will create copies of encrypted files to work on here. </s>
+<s> These copies are unencrypted and can still be retrieved after they have been deleted, with the necessary tools. </s>
+<s> # Teach users to never encrypt individual files, but only folders. </s>
+<s> Programs work on files in various ways. </s>
+<s> Encrypting files consistently at the folder level will ensure that files do not get decrypted unexpectedly. </s>
+<s> # The private keys associated with recovery certificates are extremely sensitive. </s>
+<s> They should be generated either on a computer that is physically secured, or their certificates should be completely exported to a PFX file, protected under a strong password, and stored on a secure floppy disk. </s>
+<s> # Recovery agent certificates should be assigned to special recovery agent accounts that are not used for any other purpose. </s>
+<s> # Do not destroy recovery certificates or private keys when recovery agents are changed (which should occur periodically). </s>
+<s> Keep all of them, until all files that may have been encrypted with them are updated. </s>
+<s> # Designate two or more recovery agent accounts per Organizational Unit (OU), depending on the size of the OU. </s>
+<s> Designate two or more computer for recovery, one for each designated recovery agent account, and give permissions to appropriate administrators to use the recovery agent accounts. </s>
+<s> # Implement a recovery agent archive program to ensure that encrypted files can be recovered using obsolete recover keys. </s>
+<s> Recovery certificates and private keys must be exported and stored in a controlled and secure manner. </s>
+<s> Ideally, as with all secure data, archives should be stored in a controlled access vault and you should have two archives: a master and a backup. </s>
+<s> The master is kept on-site, while the backup is located in a secure off-site location. </s>
+<s> # Avoid using print spool files in your print server architecture, or ensure that print spool files get generated in an encrypted folder. </s>
+<s> # The Encryting File System does take some CPU overhead every time a user encrypts and decrypts a file. </s>
+<s> Plan servers wisely on a server where many clients will be using EFS. </s>
+<s> For more information, please see the following articles: How to Encrypt Data Using EFS in Windows 2000 HOW TO: Back Up Your Encrypting File System Private Key HOW TO: Restore an Encrypting File System Private Key for Encrypted Data Recovery Best Practices for Encrypting File System Transferring Encrypted Files That Need To Be Recovered FAT32 vs NTFS&quot; </s>

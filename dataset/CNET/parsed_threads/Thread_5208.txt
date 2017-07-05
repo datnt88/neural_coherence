@@ -1,0 +1,87 @@
+<s> Hello, I recently upgraded my Dell Dimension 2350 to Windows Vista Ultimate. </s>
+<s> Unfortunately, the Intel integrated graphics (82845 G\GL\GV) is only recognized as &quot;standard VGA graphics&quot; which only allows the monitor to run at 800x600 resolution. </s>
+<s> I've looked for an updated driver without success. </s>
+<s> Anybody know where I could find one or know any other tricks to fix this problem? </s>
+<s> Thanks, J-Law </s>
+<s> http://www.intel.com/support/graphics/intel915g/sb/CS-011363.htm </s>
+<s> Sorry to bother you. </s>
+<s> It seems the problem has fixed itself. </s>
+<s> After a couple restarts Vista recognized the adapter. </s>
+<s> Thanks for your help though. </s>
+<s> -John </s>
+<s> I have a dimension 2350, pentium 4 2.5gb, 1gb ram and have installed vista ultimate. </s>
+<s> However i am also getting a resolution problem, it will not allow the resolution to be increased to 1024x756 and wont let the colour to go up to 32bit. </s>
+<s> I have attempted to download several drivers, vista says it is up to date, intel drivers will not install becuase they say the system is not supported,ie vista. </s>
+<s> and a dell driver had no effect. </s>
+<s> Fter several restarts vista has not 'recognised' and changed it... Help would be appreciated. </s>
+<s> On xp the graphics chip was known as an intel chip but now they only information i can get it that it is a standard VGA graphics adapter. </s>
+<s> I believe it is: Intel 82845G Graphics Controller. </s>
+<s> Thanks </s>
+<s> We seem to have had the same exact problem. </s>
+<s> Maybe yours will fix itself soon, I don't know. </s>
+<s> Anyways, you could try installing the driver under compatibility mode. </s>
+<s> To do this, right click the icon, click properties then goto the &quot;Compatibility&quot; tab in the properties windows and check the box and select &quot;Windows XP.&quot; That might help. </s>
+<s> I'm not sure, but anyways, there ya go. </s>
+<s> I m having similar problemssss.. . </s>
+<s> which I hate it. </s>
+<s> I m not using Dell pc... but, my case is even worse.... </s>
+<s> I m using ZPC from Iwill... which is all in one system. </s>
+<s> can't upgrade the VGA.. too bad isn't it..... O well, it is a lovely very small PC, just about two CD size back to topic.. </s>
+<s> I m using RTM 6000 Vista, can't see any driver from the DVD which contain the 82845 intel driver, can't update it, search intel website and no help, not supported, had try the old XP driver... but it wounld not work. </s>
+<s> so, I use the lowest intel driver which provide from VISTA DVD, I think is 82852.... somthing.... after install it, the hardware acceleration works,, which I feel please from it, at least I can now watch moive smoothly......... but the direct 3D still not working... . </s>
+<s> I think........ well, that system is for my sister.... so no GAME need...... since I like some function from Vista, otherwise i will not install it. </s>
+<s> and i have similar problem with my toshiba laptop... R100... which also the grahic problem....... . </s>
+<s> HATE it. </s>
+<s> well. </s>
+<s> i don't need the areo thingggy.. well would like to have it. </s>
+<s> but, at least allow me watch moive smoothly .... please........ PS.. </s>
+<s> I really want to know, how do u manger to get the right driver for your 82845.. chipest.... </s>
+<s> Please tell me. </s>
+<s> It HELPs THank You... .. . </s>
+<s> . </s>
+<s> Microsoft........... please do something... = = </s>
+<s> I have extracted the drivers from the original Dell CD and pointed Vista to the folder I put it in. </s>
+<s> It recognizes the drivers and installs them but then cannot install soft bios drivers. </s>
+<s> I am still running on 640x480. </s>
+<s> If anybody can figure out about the soft bios thing please help. </s>
+<s> @Law_John: How did you install the drivers. </s>
+<s> I really want Vista to work because I bought Ultimate... </s>
+<s> Hey guys I too am having the exact same problem with my little eMachine. </s>
+<s> Same controller and adapter and platform (softBIOS).I got vista home edition and now I only get 16 bit and 640x480. </s>
+<s> I can't play any games or even view things right. </s>
+<s> I really hope we get this solved one day. </s>
+<s> I've been looking all over and I don't think intel's site has been updated since 95 so forget those guys. </s>
+<s> I don't know but if I do ill post what I find. </s>
+<s> -The group of heroes must fight their way to the top of a steep and ominous mountain, in hopes that its peek will hold the answers to their video problems... TheDisciple </s>
+<s> I always need to figure out which Intel GMA was used. </s>
+<s> (hint: that graphic chipset.) </s>
+<s> Then I can offer you a link to the driver I would install. </s>
+<s> Bob </s>
+<s> Not Sure if this is the GMA or not but For the Display Adapter Im using the Intel(R) 82845G/GL Graphics Controller. </s>
+<s> In the device manager it says code 43 problem. </s>
+<s> Hope this helps. </s>
+<s> http://downloadcenter.intel.com/Product_Filter.aspx?ProductID=865 </s>
+<s> I use Vista tho. </s>
+<s> I've been through this very page but I cant pick my OS from their list. </s>
+<s> I'm sorry but all the little details seem missing from your posts. </s>
+<s> If you notice, some words in red ask for such things so to avoid extra back and forths. </s>
+<s> This is your choice to share or not. </s>
+<s> It appears this controller is not for Vista but try the XP driver in case it works. </s>
+<s> Bob </s>
+<s> hit me with an unknown error. </s>
+<s> Smack... </s>
+<s> I'll try another one. </s>
+<s> download the 845G driver from intel: http://downloadcenter.intel.com/Detail_Desc.aspx?agr=N&ProductID=865&DwnldID=9034&strOSs=44&OSFullName=Windows*%20XP%20Professional&lang=eng -extract zip file from intel -go to device manager -select standard vga graphics... -right click and select update driver -don't search for the drivers on windows update -install from specific location -don't search for the drivers, select your own -click have disk -browse to zip file location -select the driver from the Win2000 folder -install and reboot hope this helps </s>
+<s> I have been researching on how to resolve the same issues as in this post. </s>
+<s> I followed the instructions that m1keusher gave and it worked perfectly! </s>
+<s> Thanks m1keusher for you time in helping out! </s>
+<s> To new Vista users on the dimension 2350: Take the advice, it works! </s>
+<s> JUST CLICK ON THIS LINK AND CAREFULLY FOLLOW THE INSTRUCTIONS. </s>
+<s> INCREASE YOUR RAM TO MORE THAN 512 MB. </s>
+<s> INTEL 82845 GRAPHIC CONTROLLER FOR VISTA AVAILABLE. </s>
+<s> ALL OTHER ISSUES LIKE DIRECT DRAW ACCELERATIONS ALSO AVAILABLE. </s>
+<s> http://bestoftheinternet.spaces.live.com/ </s>
+<s> Hello, I'm trying on Windows 7 RC1 (Build 7100) and this driver will get the display going if you follow the instructions m1keusher posted. </s>
+<s> I've been fighting this problem for days...tried everything. </s>
+<s> THIS WORKS! </s>
+<s> Thanks so much. </s>

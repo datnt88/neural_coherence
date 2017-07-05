@@ -1,0 +1,26 @@
+<s> Terabytes of NAS are great for backing up lots of stand-alone PCs on the network... but what about backing up the NAS? </s>
+<s> Say I'm using the MyBook (with it's vast storage) for a central network data warehouse. </s>
+<s> RAID will help with redundancy inside the MyBook box, so if one drive fails, the other will have a copy of the data. </s>
+<s> But what happens if the whole WD MyBook unit burns in a fire? </s>
+<s> I need another unit just like it somewhere else. </s>
+<s> But terabytes of data don't transfer quickly on a 100Mb network. </s>
+<s> Do you have a suggestion for how to maintain a replica of this huge drive somewhere else? </s>
+<s> &quot;terabytes of data don't transfer quickly on a 100Mb network.&quot; There is really no need to transfer such quickly. </s>
+<s> What matters is that whatever you do, it should withstand and be able to help you recover from the disaster you plan for. </s>
+<s> That is, if your building goes down in flames, is whisked away by hurricane or is submerged by flood whatever you do withstands those disasters. </s>
+<s> Many forget the disaster plan. </s>
+<s> This means that at some point you have to consider off site storage of what you can't lose. </s>
+<s> Bob </s>
+<s> good points... but what is the solution to large backups on a (relatively) slow backbone network? </s>
+<s> If the hardware only supports transfers of 5MB/sec (40mbps) you're looking at 18GB/hr (432GB/day), not exactly zipping along - and certainly not enough to backup a TB drive every night. </s>
+<s> Am I thinking about this wrong? </s>
+<s> Is there technology that helps? </s>
+<s> Differential backups maybe? </s>
+<s> But you still need full archives from time to time, eh? </s>
+<s> Help! </s>
+<s> ! </s>
+<s> It will eventually get there. </s>
+<s> It's not as if you are creating 1TB a day so your sync or backup program should someday catch up. </s>
+<s> Look at SYNCBACK for example. </s>
+<s> It will only transfer the changed files. </s>
+<s> Bob </s>

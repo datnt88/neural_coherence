@@ -1,0 +1,18 @@
+<s> I have physical access to a network printer working fine on a network but when I add my notebook to a cat5 connection and try to find the printer it cant. </s>
+<s> When I check other workstations control panel printer is &quot;IBM 1145 on MYSERVER01&quot; and I even have a printer name (&quot;LXK485DC8&quot;) and an IP address but nothing helps find it in the printer find window after selecting the server name to find. </s>
+<s> Other info states I need to specify (e.g. </s>
+<s> &quot;server.host1.printer/LXK485DC8&quot;) but that doesnt work either. </s>
+<s> I also try searching under the share name &quot;IBM1145&quot; and that doesnt work. </s>
+<s> Again, I have printed the printers network configuration info. </s>
+<s> and have access to printer setup GUI from the notebook but dont know how else to setup. </s>
+<s> The reason it can't find it is simple. </s>
+<s> It can't resolve the name. </s>
+<s> Ask your IT staffer to check if the DNS has this entry. </s>
+<s> Bob </s>
+<s> I simply created a port with identical information (ip, name, etc) to the functioning workstations, extracted the oem drivers to a directory, created a dummy printer then changed its port to the new one and did a &quot;driver update&quot; to the driver directory. </s>
+<s> I realize this has to be the most hassel-filled way to do it but it worked fine. </s>
+<s> BTW, on printer, a DNS address was specified but enable DHCP was unchecked...may mean nothing. </s>
+<s> Thanks again </s>
+<s> Only those grizzly IT staff use assigned addresses today. </s>
+<s> Have the IT staffer show you the DNS record (I use NSLOOKUP) for server.host1.printer. </s>
+<s> Bob </s>

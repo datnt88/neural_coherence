@@ -1,0 +1,33 @@
+<s> My husband's cousin came over and messed with our Netgear wireless router's settings, and to make a long story short, now our Dell laptop cannot connect to the wireless network. </s>
+<s> He doesn't remember what he did, so now we are stuck. </s>
+<s> Before we call Netgear and pay per minute for service, is there anything we can try? </s>
+<s> The wireless network shows up when you view the Network Connections, but we are unable to successfully connect to it. </s>
+<s> Can anyone help? </s>
+<s> Thanks in advance, Jen </s>
+<s> log into the Netgear router and use the settings like the Forum Sticky suggests. </s>
+<s> Make sure NOT to use Mac Address filtering with those settings. </s>
+<s> Rick </s>
+<s> 1. </s>
+<s> Find the router's manual specific to your router model. </s>
+<s> If you can't find it, here a site that might give you general help... http://74.125.155.132/search?q=cache:FTL0xUkDCwkJ:kb.netgear.com/app/answers/detail/a_id/1907+netgear+router+manual&cd=1&hl=en&ct=clnk&gl=us#15 2. </s>
+<s> Reset the router to it's default factory setting. </s>
+<s> One the back of the router, there should be a pinhole size hole. </s>
+<s> Take a paper clip and press the default button for about 20 seconds while it's on. </s>
+<s> 3. </s>
+<s> Go to the laptop's control panel, local area network connection, details and check to make sure the ipv4 is 196.168.1.? </s>
+<s> (some number other than 1) and that the ipv4 dhcp server is 196.168.1.1. </s>
+<s> If you feel comfortable using the CMD window, type ipconfig /all and it should give you the same thing. </s>
+<s> 4. </s>
+<s> Open the utility page for you laptop network adapter and find the network associated with your router whose SSID is probably &quot;NETGEAR&quot;. </s>
+<s> There should be nothing on the security settings. </s>
+<s> Connect to that Network. </s>
+<s> 5. </s>
+<s> Once you're connected to the network, go to the Router's Configuration Page. </s>
+<s> On your browser's address bar, type 192.168.1.1 or &quot;routerlogin.com&quot; or &quot;routerlogin.net&quot;. </s>
+<s> Type the username: admin, and the password: password. </s>
+<s> 6. </s>
+<s> Configure the router's security setup and do likewise to the laptop's wireless utility page. </s>
+<s> But you will have to read the manual for this because there are a number of options. </s>
+<s> Steps 1-5 gets your laptop talking to the router and should give you internet access. </s>
+<s> Go slow and get familiar with the router's config page and the wireless utility page. </s>
+<s> Good Luck! </s>

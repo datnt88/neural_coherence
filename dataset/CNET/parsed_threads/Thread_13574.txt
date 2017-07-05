@@ -1,0 +1,32 @@
+<s> Firstly, I'm not a network engineer just a volunteer but I've done the majority of the hardware installation at this school. </s>
+<s> The current and growing need is for school parents, guests, presenters, etc. </s>
+<s> to have access to the wireless network but without access to the LAN. </s>
+<s> The network not a domain but simple peer-to-peer with device access controlled via firewalls and/or user/passwords. </s>
+<s> The best I can find on the web is the use of some VLAN capability and think we might already have most of, if not all, the needed hardware. </s>
+<s> Here's what we have: Eight 3Com model # CRWE7760/75 APs connected to a 3Com model # 3CDSG10PWR managed switch. </s>
+<s> I have access to all these devices. </s>
+<s> This POE switch connects to one of 5 (it has 24) active ports on a Cisco layer 3 switch. </s>
+<s> That router is managed remotely and I've no way to get to it. </s>
+<s> The APs can handle 4 SSIDs and have the ability to individually assign VLAN ports to each. </s>
+<s> The POE switch has the ability to configure VLANs for all ports. </s>
+<s> All that is desired is enable select APs in certain parts of the school to allow guest access to the internet only. </s>
+<s> If possible we'd like to do this without purchasing new hardware at this time. </s>
+<s> I can tinker with it but, for now, I'd like to know if this can be done without involving the Cisco router. </s>
+<s> If the router is definitely...and I suspect it might be...a party to the plan, we can contact the person who handles that end. </s>
+<s> Thanks in advance </s>
+<s> Since 3Com is no more and HP rarely answered the question just forget it. </s>
+<s> If folk want the internet they'll bring their smart phone or personal wifi hot spot. </s>
+<s> Bob </s>
+<s> and probably a better idea to wait until the current hardware (and lack of trained IT staff) is no longer serving well. </s>
+<s> Of course, $$$$ is always the barrier. </s>
+<s> I can't share the full details but the school would be blasted if they were able to get pron over the guest network. </s>
+<s> Not a fun way to get de-funded. </s>
+<s> Bob </s>
+<s> All schools in the diocesan system route through a school which is home to a tightly managed firewall. </s>
+<s> Teachers complain it's too tight as you can't even access youtube within the building. </s>
+<s> I'm guessing that a proxy server is part of the control. </s>
+<s> IT people at the server location also manage the router that's in the local school and they don't hand out admin passwords. </s>
+<s> As for allowing guest access, I'd be more concerned about losing bandwidth during times of peak need by students. </s>
+<s> Leaching from the system after hours isn't a problem as, because the APs are POE, we can just flip a toggle to the switch dedicated to the wireless side. </s>
+<s> No one can sit in the parking lot and surf once the tech coordinator locks up and goes home. </s>
+<s> Eventually, as needs grow and a more complex system is needed, they'll need a way to find money to hire or contract real IT services but I'm sure some jaws would drop at such a sales presentation. </s>

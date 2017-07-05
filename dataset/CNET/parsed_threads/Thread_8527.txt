@@ -1,0 +1,60 @@
+<s> Anyone know where i might find a new motherboard for my Dell XPS Gen-2. </s>
+<s> Motherboard has P4 and Intel Chipset 875p </s>
+<s> But some that have the real XP CD can use other motherboards and replace the case if need be to rebuild the machine. </s>
+<s> How sure are you it's the mainboard? </s>
+<s> Bob </s>
+<s> thus search for that type mobos. </s>
+<s> Not very many top line types available anymore. </s>
+<s> I just ordered one from newegg and the next time I looked they were out of stock. </s>
+<s> I don't use eBay, but apparently there are some there. </s>
+<s> Almost all available are MicroATX. </s>
+<s> Then you have the problem with Dell. </s>
+<s> Change the mobo to another type [even if it fits in and the power supply is compatible] the Operating system will not work because it does not see the hardware that Dell shipped it with. </s>
+<s> Have had the hard drive and memory completely tested. </s>
+<s> Even bought a new hard drive. </s>
+<s> Installed a fresh copy of XP Pro. </s>
+<s> Everything running along smooth. </s>
+<s> Do all the Windows &quot;Critical updates&quot; etc. </s>
+<s> I connect a jump drive one time and everything loads fine. </s>
+<s> 5 minutes later I put the same jump drive back in the same usb slot or even a diff. </s>
+<s> usb slot and it just hangs or I get device not recognized. </s>
+<s> Tried to find and update the Intel Chipset 875P. </s>
+<s> Found one update. </s>
+<s> When it hangs or gives not recognized message I of course find the error in the device manger under bus controllers. </s>
+<s> Have uninstalled and reinstalled all USB universal host controllers. </s>
+<s> A few weeks ago I was getting the dreaded blue screen stop error which is why I had the HDD and Memory tested. </s>
+<s> Can't find any other updated drivers and any other possbile sollutions and even with new HDD and fresh install of OS 30 to 45 minutes into installation the hang or error messages begin. </s>
+<s> Thing is I never have had this problem in the past 3 years I have had the cpu so I figure it has to be the motherboard. </s>
+<s> Dell refurb with tax/shipping is about $185 </s>
+<s> &quot;I put the same jump drive back in the same usb slot or even a diff. </s>
+<s> usb slot and it just hangs or I get device not recognized.&quot; I just helped someone cure that in this XP Forum discussion. </s>
+<s> Read http://forums.cnet.com/5208-6142_102-0.html?forumID=5&threadID=235635&messageID=2414328 But for the 875P I'd use Intel.com's offerings such as: http://downloadfinder.intel.com/scripts-df-external/filter_results.aspx?strTypes=all&ProductID=816&OSFullName=Windows*+XP+Home+Edition&lang=eng&strOSs=45&submit=Go%21 Item 1 is dated 11/21/2006 plus there may be some Dell BIOS update that addresses the issue. </s>
+<s> -&gt; One last thing is that bum USB devices can hang Windows. </s>
+<s> I have no cure for that one but to test the USB drive on the rear USB ports and on another machine. </s>
+<s> Bob </s>
+<s> have been to Intel.com and searched for hours and installed or attempted to install anything that might have been an update. </s>
+<s> In all it updated one thing and I think that was the PCI Bridge but no updates for USB universal host controllers. </s>
+<s> In my research I stumbled across this info. </s>
+<s> Chipset Intel 82875P (North Bridge) Intel ICH5R (South Bridge). </s>
+<s> I have some experience and some training but North Bridge / South Bridge. </s>
+<s> HUH?? </s>
+<s> Also I have tried multiple USB devices on the computer including the front and back, jump drives, external hard drives, etc. </s>
+<s> and once the first problem occurs nothing newly plugged into a USB port will load properly. </s>
+<s> Now if I unplug everything but mouse and keyboard and uninstall every USB Universal Host Controller and then reboot and let the auto detect reinstall and then one by one reconnect USB devices they sometimes will load properly and I have thought great I have solved the problem and then 30 minutes later or whatever I try a jump drive or an external hard drive that previously loaded with no problem and it detects then freezes or I sometimes would end up with device not recognized. </s>
+<s> Also I have D/L every update from Dell including BIOS update. </s>
+<s> Sound like a defective motherboard to you. </s>
+<s> Any chance its the cpu. </s>
+<s> If I spend $200 on a refurb motherboard and the cpu is defective I am going to be a very unhappy camper. </s>
+<s> Dan </s>
+<s> As my final test I boot my LiveCD of PCLinuxOS and see if the USB device works or not. </s>
+<s> It would be a shame to see another person replace a board over driver issues. </s>
+<s> I also didn't read you testing the USB device on another machine. </s>
+<s> &quot;30 minutes later&quot;.... That can point to a heat issue. </s>
+<s> Tell me the case cover is off and you dusted it out plus left the cover off to check the fans. </s>
+<s> Bob </s>
+<s> I have checked the fans, there working, I have left the door open it's on a hinge and swings open. </s>
+<s> But that reminds me &quot;heat issue&quot; I have noticed an occassional slight umm lets call it &quot;hot&quot; odor as oppossed to a &quot;burning&quot; odor especially with frequent reboots as I was trying to trouble shooot the usb errors. </s>
+<s> Seems the possible cause of the problems now are, heating/cooling ie. </s>
+<s> fans, heat sink, excessive dust, or motherboard, or simply a possible driver issue..... wow think I might just have to order a new desktop and then as money and time permitts take all the woking parts of my XPS and use them to add to a barebones system if I can find one that uses the same memory etc. </s>
+<s> the two chips of the chipset have had for at least ten years. </s>
+<s> Intel renamed them Hubs, the IOMCH [memory controller hub], and and the IOCH [input output controller Hub]. </s>

@@ -1,0 +1,19 @@
+<s> My cd rom in my laptop is not registering and I can't add one in new hardware. </s>
+<s> WIN98 was installed with this drive so I know it worked. </s>
+<s> I have checked to make sure it is securely attached. </s>
+<s> It spins when I put a disk in but no recognition. </s>
+<s> Any ideas? </s>
+<s> &quot;WIN98 was installed with this drive so I know it worked.&quot; You may have left out part of the story. </s>
+<s> Was this install recent? </s>
+<s> If so, did you install some OS other than what came with the laptop? </s>
+<s> If so, you then have to install what MOTHERBOARD or IDE DRIVERS this laptop requires. </s>
+<s> This is true for desktops as well, but in laptops, they usually supply a restore CD that does it all for you. </s>
+<s> When a person installs the Windows OS from Microsoft, they learn about drivers... Other items are: - Set the IDE controller to BOTH in Device Manager - NO CDROM items are allowed in Config.sys or the CDROM will vanish. </s>
+<s> - Test the CDROM with a BOOTABLE CD or with a combo of boot diskette and CD. </s>
+<s> Bob </s>
+<s> Thanks, yes to recent install, yes to new OS, 95 to 98se. </s>
+<s> I have tried reinstalling WIN98 with a boot disk and got NO DRIVES FOUND when it wanted CDROM support. </s>
+<s> I attempted to load drivers, screwed up config.sys, had to go back into DOS to change back to previous config.bak Not a skilled worker here. </s>
+<s> Microsoft does not install these for you. </s>
+<s> You may have to fish around the Toshiba web site for them. </s>
+<s> Be sure to check that setting (BOTH) in the IDE controller (device manager) as well as sharing the content of CONFIG.SYS Bob </s>

@@ -1,0 +1,47 @@
+<s> My ASUS P4p800-se MB has four memory slots. </s>
+<s> I purchased a gig of Kingston HyperX(2x512) for the blue slots. </s>
+<s> I received a gig of Crucial Ballistic ram for Xmas for the other two slots.(2X512). </s>
+<s> The computer seems to run fine most of the time except for a few little annoyances sometimes. </s>
+<s> Lately I have noticed that it takes for ever for my machine to POST. </s>
+<s> ( I'm talking around 90 sec. </s>
+<s> or more just to count the ram)! </s>
+<s> At first I thought it was hung on the ASUS/Intel splash screen because I have to press Tab or Del to see what is going on behind it, which usually doesn't work. </s>
+<s> Come to find out, I just wasn't waiting long enough. </s>
+<s> It never does give the POST beep btw. </s>
+<s> Then it goes into Windows XP Pro SP2 just fine. </s>
+<s> I happened to run CheckIt Diagnostics and found that there are &quot;memory allocation errors&quot;. </s>
+<s> The only way I can get rid of the errors is to remove the second 2 sticks. </s>
+<s> I've swapped the sticks around and I even tried a gig of generic ram but I still get the error if the second pair of sticks are installed. </s>
+<s> What does this mean and will it cause any problems or can I just ignore it and use all 2 gigs of hotrod (ie expensive) ram? </s>
+<s> Thanks: Mark MB- ASUS P4P800-se, Processor-P4 3.2 gig Windows XP Pro sp2 Memory- 2 sticks Crucial ballistic(2x512) and 2 sticks of Kingston HyperX (2x512) to fill all slots. </s>
+<s> Hd -2 internal and 1 external. </s>
+<s> Video- ATI Radeon X700 Pro, 256mb Sound- Creative Audigy 2 ZS Platinum Liteon DVD burner Liteon CD burner </s>
+<s> checkit's &quot;memory allocation error&quot; is a software problem in checkit... it is not an indication of a hardware problem. </s>
+<s> try downloading everest ( http://www.lavalys.com/ ) and use its memory tester. </s>
+<s> it takes a while to count and test 2gb of ram. </s>
+<s> you can skip the mem test by enabling &quot;quick boot&quot; in the bios boot menu. </s>
+<s> &quot;for ever for my machine to POST&quot; Since this is fully controlled by the BIOS, it means that either the memory is incompatible or the BIOS may have an update to recognise or fix the startup issue. </s>
+<s> I'd check for a BIOS update. </s>
+<s> Bob </s>
+<s> The memory must be compatible or it wouldn't boot or add up right? </s>
+<s> Both types of ram were suggested by the manufacturer's ( both Crucial and Kingston) Ram advisors. </s>
+<s> All four sticks appear to match up exactly accept for brand name. </s>
+<s> Thanks: Mark </s>
+<s> &quot;The memory must be compatible or it wouldn't boot or add up right?&quot; Sorry. </s>
+<s> No. </s>
+<s> I'll not dive into the deep reasons why this is so. </s>
+<s> Bob </s>
+<s> This website no longer supports or provides the free ver. </s>
+<s> of their software. </s>
+<s> I downloaded the trial ver. </s>
+<s> but almost everything useful is disabled. </s>
+<s> If the Memory allocatation error is software related then why is it always only on the same 2 slots and not all? </s>
+<s> Thanks: Mark </s>
+<s> Benchmarks are the last item. </s>
+<s> If the read/write benches run successfully, then your RAM is fine. </s>
+<s> As for the error, your version of CheckIt simply may not know how to handle more than 2GB of RAM. </s>
+<s> Bottom line: I don't think there's anything wrong with your RAM. </s>
+<s> As suggested go into the BIOS and under BOOT... make sure &quot;Quick Boot&quot; is ENABLED. </s>
+<s> Re the RAM....I'd get a current version of Memtest86+ and run it for several hours and see what results you get. </s>
+<s> If that doesn't work...you might consider a BIOS update...but try 1 and 2 first. </s>
+<s> VAPCMD </s>

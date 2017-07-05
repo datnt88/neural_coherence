@@ -1,0 +1,96 @@
+<s> I've got a fairly new Dell XPS 8000 (i7-860 tri-channel 8gb ram 1TB hd 2.8ghz nvidia GTS 240) running Windows 7 Ultimate 64bit. </s>
+<s> I just got a new Lacie d2 quadra 1TB drive. </s>
+<s> It works fine with USB and I formatted it while connected to USB. </s>
+<s> But with the esata cable that came with it, the computer does not see it in Disk Management or My Computer. </s>
+<s> I'm not sure what to look for in Device Manager. </s>
+<s> Under DevMgr.DiskDrives there is just the one ATA device which must be the internal one. </s>
+<s> Doing research, I see many similar problems where the solution was the bios needed to have the detection enabled. </s>
+<s> (seems silly, why wouldn't it come that way???) </s>
+<s> But in any case, my bios had no such setting switch, unless I missed it, but I looked at every menu. </s>
+<s> One configuration page showed as &quot;esata not-detected&quot;, but there was nothing there to be modified. </s>
+<s> What else can I check or do? </s>
+<s> (keep it simple, non-techie) I hate calling mfr support, so hoping you experts can spare me that grief. </s>
+<s> -Wendy </s>
+<s> 1. </s>
+<s> Ask dell. </s>
+<s> 2. </s>
+<s> I just fixed one esata. </s>
+<s> It was simple. </s>
+<s> The owner thought it was powered by the esata connection. </s>
+<s> Changed the case to a powered unit and it spun up and worked. </s>
+<s> 3. </s>
+<s> Esata may or may not work on all machines. </s>
+<s> Be sure that the drive spins. </s>
+<s> If not, call the drive maker. </s>
+<s> If it spins, the next call is dell. </s>
+<s> Bob </s>
+<s> 1. trying to avoid call to mfr. </s>
+<s> 2. its powered. </s>
+<s> I even gave it a precious slot in UPS. </s>
+<s> 3. why would PC come with esata port that cannot be used??? </s>
+<s> trying to avoid call to mfr. </s>
+<s> You may have to dive into the machine to see if the ESATA ports were actually connected to the mainboard. </s>
+<s> AND if the IDE EMULATION was enabled on the BIOS then I find limitations in the BIOS limits the SATA ports to just 2 or 4 and never more than that. </s>
+<s> Even more confusing (to those that don't write firmware or design rockets, uhh electronics) is that only the first 2 or four ports may function when that is enabled. </s>
+<s> Changing that setting in the BIOS can cause the OS to fail so test it and put it back if it fails. </s>
+<s> I'm finding this is usually enabled because many try to install Windows XP and since XP knows nothing about SATA the owners think the makers have given them a bum unit and return it. </s>
+<s> I think this is why I'm starting to see units with IDE emulation enabled by default which could cause esata issues. </s>
+<s> Sorry but there's a lot to think over and explore. </s>
+<s> Bob </s>
+<s> Not me....I won't be diving into the machine. </s>
+<s> I would rather go USB! </s>
+<s> I thought I might try the supplied firewire cable just to see. </s>
+<s> Your other thoughts are appreciated but over my head. </s>
+<s> I see more people lose files over firewire than USB under WINDOWS. </s>
+<s> I can't explain why. </s>
+<s> My thought is that MSFT and Apple's bickering is part of that since Linux and Apple OSes don't seem to have the issue. </s>
+<s> If you use firewire be sure that you run it for a long time in your TESTING state of mind. </s>
+<s> That is, don't rely on it. </s>
+<s> In fact, given this forum (read it if you dare) and how externals are not STORAGE but devices we must backup more often than internals I suggest you head straight to USB and use the thing. </s>
+<s> Bob </s>
+<s> not all eSATA are hot-swappable, so was this unit power on before bootup? </s>
+<s> Also don't connect both usb and sata cables at the same time. </s>
+<s> If it still won't work..then there maybe a cable/connector problem. </s>
+<s> re: &quot;...not all eSATA are hot-swappable, so was this unit power on before bootup?...&quot; what exactly is the desired sequence? </s>
+<s> I tried a couple of times, thinking along those lines, but not quite sure what my objective was. </s>
+<s> The Lacie documentation says they are, but I have little faith in the drive documentation. </s>
+<s> its been pretty bad so far. </s>
+<s> One thing I did notice on the drive that may be of interest is that the ON/OFF switch is actually a 3-way rocker switch with &quot;AUTO&quot; being the middle position. </s>
+<s> With USB, the auto position causes the light to be blue. </s>
+<s> With esata, only the ON position will put the blue light on. </s>
+<s> I read that AUTO means it will hibernate when not in use. </s>
+<s> sounds like an ok feature, but maybe not true for esata cnx. </s>
+<s> thx for the heads-up on firewire warnings. </s>
+<s> well, I bit the bullet and called PC mfr. </s>
+<s> After 2 looooooooong hours on the phone (you know the drill..let me talk to my supervisor...), they are sending a tech to my house to swap out the mobo. </s>
+<s> At least I don't have to ship it back or return it to retailer and be without it. </s>
+<s> Glad its brand new. </s>
+<s> (moral of the story: try out all ports and features within warranty period!) </s>
+<s> I couldn't get them to admit it was a known problem or anything along those lines, but they assured me that would fix the problem. </s>
+<s> One of the times while I was holding for a long time (and anticipating that they might blame it on the hard drive itself), I discovered that my laptop had an eSata port. </s>
+<s> So I quickly tried it out there and it worked perfectly. </s>
+<s> It was plug and play. </s>
+<s> That kinda narrowed the options. </s>
+<s> resolution. </s>
+<s> VAPCMD </s>
+<s> I have exactly the same problem, and I'm using exactly the same configuration (XPS 8000 running W7 64 bit, 8GB, trying to use a Lacie D2 Quadra 1.5TB external drive). </s>
+<s> After several tries, I actually got the computer to recognize the drive once somehow after a reboot--it was there, and I was able to format it and access it. </s>
+<s> After the next reboot it was gone and I haven't seen it since. </s>
+<s> Haven't even tried connecting by USB yet--I'm not keen on accomodating a brand new system that doesn't work properly. </s>
+<s> Was hoping to avoid a motherboard swap but I see here and on a thread on Dell's support site ( http://en.community.dell.com/forums/p/19262626/19593704.aspx ) that this seems to be the main fix. </s>
+<s> Come on, Dell. </s>
+<s> Did you format using the included software/setup assistant? </s>
+<s> I did (w/USB connection). </s>
+<s> But then I re-did formatting native, but it still didn't help. </s>
+<s> Most likely you have the same motherboard as I did. </s>
+<s> The sad part is that you may have to go through the hoops with support until they are convinced any software or bios settings were tried. </s>
+<s> And they do suggest some pretty crazy things that I knew wouldn't make a difference, but if you don't &quot;cooperate&quot;, you lose. </s>
+<s> If you do get a new mobo, there is some fallout that I found out. </s>
+<s> itunes licenses get broken. </s>
+<s> my system tray was messed up. </s>
+<s> I got a new MSN startup service to track to down and shut off. </s>
+<s> My desktop wallpaper was screwed up. </s>
+<s> But worst of all my Windows O/S got de-activated!!! </s>
+<s> I think the latter was because I upgraded to Ultimate on top of the pre-installed Home Premium. </s>
+<s> I think if O/S remains the same, it is okay. </s>
+<s> Or at least easier to re-activate. </s>

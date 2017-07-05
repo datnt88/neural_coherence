@@ -1,0 +1,24 @@
+<s> I realize that this is not exactly a computer issue but here goes. </s>
+<s> I'm using an old computer power supply to power quiet 12 V cooling fans for electronic equipment in an entertainment unit. </s>
+<s> I am running 3 120 mm fans that draw 1.4 W max. </s>
+<s> with a 200 W power supply. </s>
+<s> I have 2 old PS's, the oldest has a switch that will turn it on and off but has a noisy cooling fan. </s>
+<s> The newer PS has a quieter fan but won't turn on (I'm guessing) without a signal from the motherboard; it worked OK before I removed it from a computer. </s>
+<s> My question is two part; can I disconnect the cooling fan in the older PS since I'll be using less than 5 W of power total without overheating the PS? </s>
+<s> Alternatively is there a way to &quot;jump&quot; the newer power supply so that it will turn on without the motherboard connection? </s>
+<s> Thanks </s>
+<s> can I disconnect the cooling fan in the older PS since I'll be using less than 5 W of power total without overheating the PS? </s>
+<s> YOUR CHOICE!! </s>
+<s> But from what I see in most designs the heat output at low loads is still too much for the PSUs to run without a fan. </s>
+<s> Bob </s>
+<s> I'd think the newer supply fan could just be powered by the same 12v used for the others with a little rewiring. </s>
+<s> My guess is this one might be thermally controlled and that's the reason it doesn't come on when the 12v comes up. </s>
+<s> Unless you just want to use what you have and not spend a few extra bucks, I'd look into something like this. </s>
+<s> http://www.trcelectronics.com/12-volt-power-supplies-low-external.1.shtml You can get 12v dc supplies that are small and can handle a few light duty fans. </s>
+<s> You still need a little creativity to adapt them but it sounds like you're not short on that. </s>
+<s> To power up an ATX or ATX-2 PSU for testing, short pin 14 (PS_ON) with one of the grounds. </s>
+<s> See here: http://pinouts.ru/Power/atxpower_pinout.shtml </s>
+<s> Thanks for the help. </s>
+<s> That seems to work well </s>
+<s> I just read your post and this also worked for me. </s>
+<s> I need to take a power supply and use it to run my fans in a cabinet that houses my network equipment thank Jeff ACS </s>

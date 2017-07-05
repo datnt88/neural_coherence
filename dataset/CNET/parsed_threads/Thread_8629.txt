@@ -1,0 +1,51 @@
+<s> Hi, I have an external WD Passport with 120GB of storage, formatted as FAT32. </s>
+<s> Somewhere on this forum I heard that FAT32 storage is bad because it can break more easily then NTFS. </s>
+<s> Should I reformat the WD passport as NTFS, what exactly is the difference. </s>
+<s> To do this I'm guessing you Right Click --&gt; format --&gt;OK? </s>
+<s> Thanks </s>
+<s> You can use disk managment to convert FAT32 to NTFS, (it does not work in reverse!) </s>
+<s> Apart from being more reliable, if my old memory serves me correctly, FAT32 uses 32kb clusters and NTFS uses 4kb. </s>
+<s> What that means to you is, if you have a file in FAT32 1kb in size it actually uses 32kb of hdd space, whereas an NTFS file of the same size would only use 4kb. </s>
+<s> If the above is not correct, no doubt Bob or someone else will give the correct figures. </s>
+<s> In advance, I claim old age for my memory deficiancies. </s>
+<s> the only advantage of fat32 is the disk can be moved between systems easier. </s>
+<s> sometimes ntfs volumes have to be imported (they're considered foreign). </s>
+<s> a fat32 disk can be moved to practically any pc or os without issue. </s>
+<s> and it seems to caution against NTFS because: * Data cannot easily be recovered * File system structure cannot be manually checked and repaired * Malware cannot be scanned for and cleaned http://cquirke.mvps.org/ntfs.htm </s>
+<s> Every week I have someone at the office show up with a corrupted Fat32 volume. </s>
+<s> It's too prone to damage. </s>
+<s> Just do this. </s>
+<s> Copy a file to it and then yank the USB cord. </s>
+<s> Our NTFS volumes survive and I can kill the Fat32 volumes on demand. </s>
+<s> Yes we can format them and start over but where's the fun in that? </s>
+<s> Bob </s>
+<s> formatting have an effect on how stable the data is? </s>
+<s> Is this just your experience or is this because of the new technology of NTFS? </s>
+<s> I leave it to you to research file systems but let's highlight the basic issue. </s>
+<s> NTFS is damage resistant (not damage proof.) </s>
+<s> Fat32 is very compatible but suffers from not having any resiliency to most damage. </s>
+<s> Hey, it's YOUR choice here. </s>
+<s> I will not spend 20 posts telling you all the reasons and duplicating web pages. </s>
+<s> How important is your data and your time? </s>
+<s> Bob </s>
+<s> I plan on reformating the drive as ntfs, the problem is that I need to transfer the data temporarily to another drive, and the other external drive looks like it is failing, so I am just going to buy another external hd and use that as a dual backup. </s>
+<s> Also people on this forum have convinced me that backing up to a dvd is also a good idea. </s>
+<s> you can convert to ntfs on-the-fly. </s>
+<s> How to convert a FAT16 volume or a FAT32 volume to an NTFS file system in Windows XP </s>
+<s> I deleted your post. </s>
+<s> Sorry, no advertising in these forums. </s>
+<s> Mark </s>
+<s> Is it true that a hard drive formatted in FAT32 can only hold files that are 4GB or less? </s>
+<s> I've experienced this in the past when transferring videos and have changed my external drives to NTFS. </s>
+<s> That is correct. </s>
+<s> The FAT32 filesystem only supports files 4GB or smaller (4GB less 2 bytes if you want to be technical). </s>
+<s> Why do they make it so that the new tvs pretty much have to use hdd in fat32 or wont load sometimes / freeze etc... when I want to play saved dvd, blue-ray, and personally recorded game vids that trump the file size ... Is there some better way I am suppose to go about this or suffer without a, larger files or b, not being able to get to data 1/4 the time...? </s>
+<s> There are TWO hurdles to get support for such file systems. </s>
+<s> 1. </s>
+<s> Microsoft Licensing and fees. </s>
+<s> It's not cheap, and may not be easy. </s>
+<s> 2. </s>
+<s> Microsoft has been pretty tip lipped about NTFS over the years. </s>
+<s> Most of what was created in Linux was done via reverse engineering. </s>
+<s> And while the other file systems do exist, if you used them on the TV the users would blow up at you for using them. </s>
+<s> Bob </s>

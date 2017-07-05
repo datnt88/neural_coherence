@@ -1,0 +1,27 @@
+<s> One of my hard drives is failing - diagnostic tests came up with message error code 7. </s>
+<s> It's Dell and the warranty expired last month (why am I not surprised). </s>
+<s> Anyway, I've got two hard drives and one is working properly. </s>
+<s> My question is, can I separate the two and reinstall windows on just the one working disk? </s>
+<s> I don't want to spend money on a new disk plus the fee for the technician to come install it(this is the second time a disk has failed) for this computer and I don't really want to buy a new computer yet. </s>
+<s> I'd prefer not to have to open the case and manually removing the offending disk as I'm not very tech savvy at all and may do more damage but if that's the only way... Or can anyone suggest something else? </s>
+<s> Funny thing is, the failing disk is seated in the same position as the one that failed before. </s>
+<s> But, unfortunately, it's still best to disconnect the other drive and not let Windows see it. </s>
+<s> You'll need to open the case and remove the power and data cables. </s>
+<s> Save what you can to an external if you have one. </s>
+<s> The reason you don't want the dying on in there with a fresh installation is that Windows will still be accessing it and probably begin complaining about read errors and such. </s>
+<s> Thank you. </s>
+<s> Any idea how I can do that? </s>
+<s> I've got a Dell dimension 9150 and I opened up the case last night. </s>
+<s> There are two disks sitting side by side. </s>
+<s> How can I tell which is the faulty one? </s>
+<s> You didn't go much into detail about your 2 disk system. </s>
+<s> If it's not a RAID array, one will have the operating system and the other will be for storage. </s>
+<s> Each will have a drive letter but, unfortunately, that doesn't locate the physical drive. </s>
+<s> If they are not the same capacity, you can use Windows to display the drive's properties and then look at the labels on the drives to determine which is which. </s>
+<s> Of course you'd have to open it. </s>
+<s> I've only opened a couple of old Dells and it can be a pain to figure out how to get into the darned things. </s>
+<s> Now, if the disks are the same size, just unplug power to one of them. </s>
+<s> If the machine boots, the unplugged drive is the secondary one. </s>
+<s> If your diagnostics disk is bootable, I'd just run the utility with one drive attached at a time. </s>
+<s> If you're lucky, your Windows disk is OK and the secondary is giving the errors. </s>
+<s> Chances are 50-50 with either. </s>

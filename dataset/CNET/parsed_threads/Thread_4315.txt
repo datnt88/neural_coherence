@@ -1,0 +1,36 @@
+<s> All computers at this location access the Internet wirelessly through an 802.1g wireless router, which is cabled directly to a DSL modem. </s>
+<s> The wireless network is not encrypted, and frequently interlopers can be found camped-onto my Internet connection. </s>
+<s> Usually MAC filtering fixes this, but what I would like to do is to log traffic to and from the Internet. </s>
+<s> Can this be done from the router or by bridging the hard-wired connection between the router and the DSL modem? </s>
+<s> How difficult can this be? </s>
+<s> Thanks! </s>
+<s> There are very simple hack tools that let others use WEP and MAC filtered networks. </s>
+<s> To solve this issue is very very simple. </s>
+<s> Enable WPA, broadcast the SSID and no MAC filters. </s>
+<s> Done. </s>
+<s> Yes, I realize this, but a couple of the computers here are older and won't do WPA. </s>
+<s> Anyhow, I'd sincerely like to hack/embarrass these nefarious campers! </s>
+<s> Turn off the wifi when you can. </s>
+<s> Remember that WEP, even with MAC filtering is cracked in about 2 minutes with the right software. </s>
+<s> Hopefully you can get the old gear wired and off the air soon. </s>
+<s> Bob </s>
+<s> If your router has a mirror/monitor option then you can do that but most consumer routers do not. </s>
+<s> First you need a packet capture program and a PC you can leave running to capture it. </s>
+<s> Wireshark is your best bet since its free and works very well The harder problem will be getting into the data stream. </s>
+<s> A old hub if they still make those would work between the router and the dsl modem. </s>
+<s> They make real ethernet taps but they are rather expensive. </s>
+<s> The most common way to do this is with a switch that has the ability to &quot;mirror&quot; traffic. </s>
+<s> You will need a switch is manageable ie 'you can log into'. </s>
+<s> They are some consumer ones but the cheapest way to buy a old cisco or 3com on ebay. </s>
+<s> Even the very old switches can do this. </s>
+<s> You still have the issue of knowing which traffic is valid and which is not. </s>
+<s> All traffic will appear to come from the address on the router so it will be more difficult to know if it is your traffic or your intruders traffic. </s>
+<s> To a point it will be obvious if they are visiting sites you do not. </s>
+<s> Just the answer I was looking for, thanks very much. </s>
+<s> I'll initiate a search for that 'old hub' and see what I can find. </s>
+<s> I already have Wireshark; this ought to be fun. </s>
+<s> Hi as for me I used ProteMac Meter for monitoring traffic...I liked </s>
+<s> Download a free trial & discover how SolarWinds flagship network monitoring software simply manages networks of all sizes. </s>
+<s> Orion Network Performance Monitor (NPM) delivers powerful fault & performance management at an affordable price. </s>
+<s> Monitors and analyzes real-time, in-depth, network performance statistics for routers, switches, wireless access points, servers, and any other SNMP-enabled devices. </s>
+<s> www.SolarWinds.com provide Network Monitoring Software with good results. </s>

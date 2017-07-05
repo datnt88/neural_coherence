@@ -1,0 +1,44 @@
+<s> How can I expand the 2-Gig primary partition on my HDD without re-formatting it beforehand? </s>
+<s> I've already installed Win 98SE (and it took over 8 hours to update it)on it and plan to soon install Win 2K and Win XP on the 2nd and 3rd partitions. </s>
+<s> When running fdisk, I didn't choose the max size for the 1st partition and it gave me a limit of no more than 2 gigs for drive C:. </s>
+<s> My HDD is 40GB and I chose 25% each for drives D and E. </s>
+<s> In your case, no. </s>
+<s> The initial FDISK setup was answered incorrectly when it asked &quot;Large Disk Support&quot; so you have a FAT16 boot partition. </s>
+<s> You can't expand such. </s>
+<s> If you have Partition Magic, you can convert it to FAT32, then extend it. </s>
+<s> Bob </s>
+<s> If I only reformat the drive (after backing up what I've got), would answering &quot;yes&quot; to &quot;Maximum Space?&quot; still allow me to create 4 partitions (including part. </s>
+<s> of logic) using fdisk? </s>
+<s> &quot;If I only reformat the drive (after backing up what I've got), would answering &quot;yes&quot; to &quot;Maximum Space?&quot; still allow me to create 4 partitions (including part. </s>
+<s> of logic) using fdisk?&quot; Remember that formatting is done with format and has nothing to do with partitioning. </s>
+<s> Partioning is done with FDISK (in your case and OS) so the &quot;true&quot; answer is no. </s>
+<s> But tossing out being technically correct, you may use FDISK to create the partition sizes as you see fit (answering yes to large disk support) and then format as you want. </s>
+<s> I know this sounds confusing, but computers are rather unforgiving in that formatting will not change the size of a partition... Bob </s>
+<s> When I said &quot;If I only reformat the drive (after backing up what I've got)&quot;, I was referring to saving a backup of Drive C's files (on CD-RWs) instead of expanding the partition's size while its contents stay in place. </s>
+<s> Since you said that after I OK large disk support I can still specify the size of other partitions, I plan to backup Drive C's contents, use &quot;format /s c:&quot; to reformat the partition, and repartition the HDD. </s>
+<s> Should I delete the secondary and logic partitions before formatting the HDD, or would it be best to format the drive before repartitioning? </s>
+<s> I still plan to install Win 98SE, Win 2K-Pro, and Win XP-Pro for a multi-boot. </s>
+<s> I wish to set 2K as my default OS. </s>
+<s> Does the C drive always have to be the primary partition, or can I choose Win 2K's partition as the primary? </s>
+<s> &quot;Since you said that after I OK large disk support I can still specify the size of other partitions, I plan to backup Drive C's contents, use &quot;format /s c:&quot; to reformat the partition, and repartition the HDD.&quot; The order of execution is incorrect. </s>
+<s> Go ahead, but the order is FDISK then FORMAT. </s>
+<s> If you want to format, the run fdisk, then go right ahead. </s>
+<s> I find it best to let people do that if they want. </s>
+<s> &quot;Should I delete the secondary and logic partitions before formatting the HDD, or would it be best to format the drive before repartitioning?&quot; Formatting and partitioning are different procedured and effect. </s>
+<s> I think you need to ponder this. </s>
+<s> But in a nutshell, you can't create a bigger partition if there is another beyong that and &quot;in the way.&quot; &quot;I still plan to install Win 98SE, Win 2K-Pro, and Win XP-Pro for a multi-boot. </s>
+<s> I wish to set 2K as my default OS. </s>
+<s> Does the C drive always have to be the primary partition, or can I choose Win 2K's partition as the primary?&quot; This all depends on if you are going to use just Microsoft's supplied tools and methods. </s>
+<s> Since you gave no indication of any other boot manager, then the procedure is simple. </s>
+<s> For Windows 98, use FDISK and only create the partition you need for 98. </s>
+<s> FORMAT C:/S that, then install 98. </s>
+<s> Do not partition or format anything for 2000 or XP to avoid small issues. </s>
+<s> I only share this and you can ignore that advice. </s>
+<s> For Windows 2000, boot that CD and use it's supplied method to create a partition and install to that place. </s>
+<s> It will format it during the install. </s>
+<s> For XP, the same menu allows for its creation of partition and its install formats the space as it installs. </s>
+<s> In closing, I only share what I (and &quot;tech&quot;) do so we don't have to deal with issues we don't want to deal with. </s>
+<s> &quot;Does the C drive always have to be the primary partition, or can I choose Win 2K's partition as the primary?&quot; Using the Microsoft method and tools, you have no choice in the matter. </s>
+<s> Bob </s>
+<s> http://fdisk.radified.com/ should be all you ever need to know about fdisk. </s>
+<s> Bob </s>

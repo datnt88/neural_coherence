@@ -1,0 +1,27 @@
+<s> I have been trying to get information on the computers in my network (software installed, OS,things like that) by using programs utilizing SNMP. </s>
+<s> not quite sure what that is, but it was getting me the information i needed, but not on all of my computers. </s>
+<s> The software that i was using would do somting like ping, but looking for smnp and said that it couldnt make the connection, but it could get the IP. </s>
+<s> anyway.. my question is there a way to turn on snmp? </s>
+<s> or is there some way i can find all of these computer's information(they are all on a LAN) using somthing else.. </s>
+<s> Thanks! </s>
+<s> SNMP is a protocol for network monitoring. </s>
+<s> There are 3 versions available. </s>
+<s> SNMPv1 and SNMPv2 are the most common. </s>
+<s> First you need an SNMP management station which it seems you already have. </s>
+<s> Then you need to make sure your devices support SNMP. </s>
+<s> SNMP has a concept of public variable and private variables. </s>
+<s> There is usually a password associated with the Public & Private &quot;Community Strings&quot;. </s>
+<s> Public Community string is usually &quot;read only&quot;. </s>
+<s> The Private community string allows read and write access. </s>
+<s> So you can actually configure some devices by SNMP. </s>
+<s> There is a linux program called MRTG that is free and does SNMP monitoring and nice graphs. </s>
+<s> So you need to set the community strings on the device and you need to let the SNMP management station know the passwords as well in order to connect and query the information. </s>
+<s> SKrall </s>
+<s> You can use msinfo32 /computerName from a command prompt to view system info for any computer on your network. </s>
+<s> is there another way to see the information about the computers without having to set all of that on all of the computers. </s>
+<s> I do not have access to all of the computers, yet i still need to see what is on them. </s>
+<s> Basically is there a way to retreive this information with out using SNMP? </s>
+<s> is that the right command? </s>
+<s> I am not familiar with Command Prompt, but what is the actual command. </s>
+<s> when i type in msinfo32/computer name it says that it is not a vaid command. </s>
+<s> nevermind, the reason was that I am running wnin 2k, and the command is winmsd, it does the same thing that msinfo32 should do. </s>

@@ -1,0 +1,83 @@
+<s> Hi all This is my first post on this site so can I start off by saying hello to everyone and please be gentle! </s>
+<s> Ok I have a bit of PC knowledge from messing about over the years but sure you guys will have a lot more! </s>
+<s> I have bought Pc shuttle which I am trying to repair! </s>
+<s> The system I bought as spare and repairs and is Shuttle XPC SN85G4 Athlon64 3000+ 200GB Hard disk 1GB DDR 400 ATI 9800Pro The system would post but that was it. </s>
+<s> Just a inservet system disk etc Tried to install windows etc but nothing would go on just a black screen after you boot from cd. </s>
+<s> So I have started to figure out what is up! </s>
+<s> Tried a few different versions of windows 7 xp etc but nothing would boot. </s>
+<s> Had a quick look in the BIOS and changed a few settings such as disabling BIOS caching and changing halt on none but nothing would get it to boot windows I changed the setting to disable RAID and tried to run win 98 which it started to load (very slow) and got all the way to the blue screen where it checks the free space, file system etc you know where it ticks all the boxes but it crashes out and resterts then it tries to run check disk but cant reapir so you have to FDISK again but I was happy as I had got something to half load.. </s>
+<s> I downloaded hirence boots cd and did some various hard disk test which it said there were bad sectors and read errors on the hard disk. </s>
+<s> So I have swapped this out for an old 40gig drive. </s>
+<s> Ran the test again and there was no errors. </s>
+<s> I noticed when the PC was posting but when it says detecting IDE it hangs for about 40seconds then finds the drives, this is with the CD and HD set on master but there on separate IDE cables. </s>
+<s> I changed the HD to slave and the system post fine with no hangs! </s>
+<s> I thought this was little strange. </s>
+<s> I tried to run a mem test from Hirens boot cd but it just crashes out with some funny symbols on the screen (Can you recommend a mem test utility to boot from) I figured this means there is a problem with the Ram or the Graphics card isnt compatible. </s>
+<s> I swapped out the 1GB DDR 400 for some 1GB DDR 333mhz but still the test wouldnt run. </s>
+<s> Any how I have messed on and managed to get XP to Install but this took at least 5 hours !! </s>
+<s> So there is something still wrong with it. </s>
+<s> could be old HD or the fact its slave etc I tried windows last night at 1am ! </s>
+<s> and its supper slow etc So im after some advice now on what to try next ? </s>
+<s> I feared it was the Mother board but since I have managed to install on it can I rule this out ? </s>
+<s> Could it be the PSU not giving the correct output? </s>
+<s> I have a 120gig I can try but not sure how to fix the Master/Slave situation I have a few diff versions of XP I could try. </s>
+<s> Is there any programme I can run while I have xp installed that will detect any problems etc? </s>
+<s> Now I am hoping you can help so please point me in the right direction lol Thanks in Advance Ian </s>
+<s> 1. </s>
+<s> An old CD drive that works sometimes. </s>
+<s> Try a new drive. </s>
+<s> 2. </s>
+<s> BAD CAPS. </s>
+<s> http://webcache.googleusercontent.com/search?q=cache:5K8ssTvn0p8J:www.badcaps.net/forum/showthread.php%3Ft%3D8877+SN85G4+bad+caps&cd=1&hl=en&ct=clnk&gl=us&client=mozilla That model is known for the BAD CAP PLAGUE. </s>
+<s> Bob </s>
+<s> Hi thank's for the quick reply are you saying a faulty CD drive could makeit hang? </s>
+<s> even though it isnt used when windows has loaded up etc ? </s>
+<s> i do have one to try or i could un plug it from the IDE ? </s>
+<s> ian </s>
+<s> Sorry but why not try it? </s>
+<s> And why not inspect for BAD CAPS to see if you are wasting your time? </s>
+<s> No i was saying i willl try 1st thing tonight will inspect CAP for buldges or leaks etc willl let you know mate </s>
+<s> HI all just a update have taken the battery out and left the sytem without power for 5min power up and it said error on Cmos so i hit F1 to contiunie and now it wornt boot. </s>
+<s> i have taken the CD drive out so there is only the HD connected but the thing still wont boot tried CS MASTER AND SLAVE but it just hangs with a black screen after post. </s>
+<s> Started changing setting in the BIOS the only way it will boot is if i DISABLE &quot;SIL3512A SATA RAID ROM&quot; ??? </s>
+<s> i have tried the HD on CS and Master but unless its on SLAVE it wont boot and its the only drive connected to i IDE Any ways loaded windows super slow installed all the driver etc and its still slow egg timer etc open task manager and the CPU is sitting 5% is soon as i move the task bar window the CPU goes to 100% for a second and then idles i have ran the WD hardisk tool and it past all the S.M.A.R.T test so don't think its the HD I am about to run MEMTEST and see what that says Also checked for any blow CAPS and i cant see any leaks or swelling etc </s>
+<s> HI all just a update have taken the battery out and left the sytem without power for 5min power up and it said error on Cmos so i hit F1 to contiunie and now it wornt boot. </s>
+<s> i have taken the CD drive out so there is only the HD connected but the thing still wont boot tried CS MASTER AND SLAVE but it just hangs with a black screen after post. </s>
+<s> Started changing setting in the BIOS the only way it will boot is if i DISABLE &quot;SIL3512A SATA RAID ROM&quot; ??? </s>
+<s> i have tried the HD on CS and Master but unless its on SLAVE it wont boot and its the only drive connected to i IDE Any ways loaded windows super slow installed all the driver etc and its still slow egg timer etc open task manager and the CPU is sitting 5% is soon as i move the task bar window the CPU goes to 100% for a second and then idles i have ran the WD hardisk tool and it past all the S.M.A.R.T test so don't think its the HD I am about to run MEMTEST and see what that says Also checked for any blow CAPS and i cant see any leaks or swelling etc Checked temps from BIOS CPU V 1.53 RAM V 2.6V AGP V 1.45V 3.3V VIN 3.34 +5V VIN 4.91 +12V VIN 11.71 - 12V VIN (-) 12.03 5V SBVIN 4.81V VOLT BATTERY 3.20V PWM TEMP 61C CPU TEMP 48C SYSTEM TEMP 47C </s>
+<s> Is that the SATA RAID item. </s>
+<s> Wouldn't the manual cover when to use or not use that? </s>
+<s> If you don't have sata drives why would we enable this? </s>
+<s> Just thinking out loud. </s>
+<s> It's sounding as if there is a motherboard flaw. </s>
+<s> Any chance of using some SATA hard drive? </s>
+<s> Bob </s>
+<s> Hi bob the Raid is enables as default so i have to diable it to get it to boot! </s>
+<s> verys starnge i have disconected the IDE cable that the cd drives was on &quot;WHITE port on Mobo&quot; im running the HD and cd off the &quot;blue&quot; IDE cable with the HD master and CD slave and its booted !! </s>
+<s> but i would say its a littel slower now ! </s>
+<s> bloddy thing </s>
+<s> While you could ask why the default doesn't work maybe it's to force the system builder to go in and set it up? </s>
+<s> I have a socket 754 HTPC box and it's almost as bad. </s>
+<s> If you don't change the BIOS you can't use the keyboard in Windows. </s>
+<s> Very strange default! </s>
+<s> Bob </s>
+<s> So how do i get this system working ? </s>
+<s> Ran mem test and found zero faults so whats next ? </s>
+<s> how does the voltage look shal i change the PSU ? </s>
+<s> Can i use a normal PSU i only have a 400WATT kicking about of a old ATX board will this be to much for a Micro ATX board? </s>
+<s> I can try reinstall on a 120 gig i have also chnage the IDE channel ? </s>
+<s> Thanks </s>
+<s> Bum IDE cable, port or drives. </s>
+<s> It's possible you didn't follow some IDE jumper or cable rules but that's easy enough for you to check on the internet. </s>
+<s> Such as blue to the board and black to the drive and cable select for 80 conductor cables. </s>
+<s> I find many are still wrestling with the IDE basics. </s>
+<s> At least there is plenty of free content to work with now. </s>
+<s> Another item worth noting is a few builders that have some XP from their HP machine and learn that doesn't work. </s>
+<s> Sorry but if there is a fault it looks like a bum ide part. </s>
+<s> Why not find a SATA drive? </s>
+<s> Bob </s>
+<s> i Think i have cracked it Removed USB front pannel Put the HD as CS and on a diffrent IDE cable in the White slot (secondary channel)and now its very quick Switched it to Pirmary channel and its fine so its not the MOBO phewww So i just need to figure out if it was the cable or conficks between the IDE as you have said will update soon </s>
+<s> Right got the system all working again but then i have broke it lol had everything up and running just about to put case back on but thought id try the front usb so i pulled mouse out the back pushed it in the front and nothing! </s>
+<s> put it back in the rear usb still nothing !! </s>
+<s> restarted still nothing ! </s>
+<s> keyboard was working on USB did the same and got the same result so now i dont have any USB back or front whats going on this sytem is jinxed lol sure its a easy fix </s>

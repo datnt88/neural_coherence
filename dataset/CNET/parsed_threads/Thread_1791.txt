@@ -1,0 +1,45 @@
+<s> I'm getting a new sata hd. </s>
+<s> It is going to be my master. </s>
+<s> What I want to know is that if I connect my older ide hd which has Xp and my files on it, will I get any error from having two hd's with xp on it connected to the motherboard. </s>
+<s> Also will I have any problems transferring the files to my master sata. </s>
+<s> Thank you. </s>
+<s> BACKUP YOUR DATA. </s>
+<s> Make sure you can read the data from the CDs or DVDs you use for the DATA backup. </s>
+<s> Then no matter what happens...you'll be able to restore/transfer the data to the new HDD. </s>
+<s> VAPCMD </s>
+<s> I understand what you mean, but I have over 80 gb worth of videos and music. </s>
+<s> Also I have a single layer dvd burner. </s>
+<s> Putting them on disk will take time and money and be a pain. </s>
+<s> Any suggestions? </s>
+<s> I've already thought of an external hd. </s>
+<s> But what I said in my previous post should work, Right? </s>
+<s> What if I put the files on a hd that does not have xp on it but is formatted in ntsf. </s>
+<s> It's probably best to make that PARALLEL INSTALLATION as you outlined. </s>
+<s> Disconnect the old IDE (PATA) HD. </s>
+<s> Connect the new SATA HD. </s>
+<s> Boot to system BIOS. </s>
+<s> Enable SATA autodetection. </s>
+<s> Set SATA HD as primary boot HD. </s>
+<s> Set CD drive as first boot device. </s>
+<s> Boot to XP CD. </s>
+<s> Tap the F6 key when prompted, so yo may feed the SATA/RAID driver to the XP installation program. </s>
+<s> Do you have the SATA/RAID driver on a floppy yet? </s>
+<s> After XP installs and you get it fully updated, reconnect the PATA HD and boot to BIOS. </s>
+<s> Ensure the SATA HD is still the primary boot HD. </s>
+<s> Exit BIOS and start windows. </s>
+<s> PATA HD should appear as a secondary HD in My Computer. </s>
+<s> If you have permission problems when accessing any folders or files, you need to TAKE OWENERSHIP . </s>
+<s> After you transfer your important files from the old HD to the new one, go to XP's Disk Management to delete all partitions on the old HD and format it with NTFS. </s>
+<s> I have the raid driver that I downloaded from abit's website. </s>
+<s> Does it have to be on a floppy? </s>
+<s> Can I install the driver using a usb key? </s>
+<s> it has to be on a floppy. </s>
+<s> VAPCMD </s>
+<s> This is the link to my motherboards drivers website. </s>
+<s> I guessed that the raid driver was what he was talking about. </s>
+<s> http://www.abit-usa.com/products/mb/drivers.php?categories=1&model=147 </s>
+<s> The SATA driver is frequently called a &quot;SATA/RAID&quot; driver. </s>
+<s> From the link you provided, you want to download the &quot;Sil3112 Sil3114 Intel VIA Installation Disk.&quot; It is a &quot;.exe&quot; file. </s>
+<s> Double-click on it and it should create a &quot;abitsata_v1.33&quot; folder. </s>
+<s> Copy the entire *contents* of that folder (not the folder itself) to a floppy disk. </s>
+<s> Thank you for your help. </s>

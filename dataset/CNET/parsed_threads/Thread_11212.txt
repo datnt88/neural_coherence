@@ -1,0 +1,63 @@
+<s> I should connect apartment 2 network to ap1 network and provide it with internet. </s>
+<s> Equipment is as on drawing, wep is disabled, ap router from ap1 and ap client from ap2 are properly connected via channel 13, 54mbps. </s>
+<s> Signal is 70db. </s>
+<s> Problem is that computers from ap2 cannot ping anything beyond 192.168.1.131. </s>
+<s> Where did I do wrong? </s>
+<s> How should be DHCP config? </s>
+<s> [IMG] http://img148.imageshack.us/img148/2904/copyofnetwork.jpg [/IMG]By [URL=http://profile.imageshack.us/user/zedochok]zedochok[/URL] at 2011-07-28 </s>
+<s> It looks like you've bridged from one network to another. </s>
+<s> I can't think of a reason for a second router. </s>
+<s> The one in apt #1 should be able to provide DHCP addresses to PCs in both locations. </s>
+<s> I dont quite understand you, wireless router 192.168.1.1 is now DHCP enabled, rest of them are dhcp disabled. </s>
+<s> Basic problem is that I san not acess 192.168.1.130 from ap#2 computers, and 192.168.1.131 from ap#1 computers. </s>
+<s> Not even with ping. </s>
+<s> Both APs are TP-link tl-wr543g with latest firmware, one set in router mode, another in client mode, connected properly, dhcp disabled on both. </s>
+<s> Those should be from the DHCP pool dispensed from the router that does DHCP for the entire complex. </s>
+<s> Also there can be issues with what you used for GATEWAY entries all around. </s>
+<s> I don't see the NETMASK, GATEWAY and more in the diagram. </s>
+<s> I am guessing this is new ground for you. </s>
+<s> Bob </s>
+<s> I don't know those brands/models but what I've done is use two APs in bridge mode. </s>
+<s> As I recall, I needed to enter their MAC addresses from each to the other. </s>
+<s> In bridge mode, however, clients cannot connect so you'd need another AP to broadcast the signal. </s>
+<s> My I've only needed to do this once and the remote bridge went to a switch and the that end of the network was wired. </s>
+<s> In any event...and from the drawing...you're connecting two network legs via a wireless bridge so I'm presuming that copper is not an option. </s>
+<s> Here is screenshot from ap-s web interface, I can enter several AP-s mac adresses to bridge, howewer on the other side (client) there is only connecting without entering mac-s [URL=http://imageshack.us/photo/my-images/696/bridgea.jpg/][IMG] http://img696.imageshack.us/img696/1763/bridgea.jpg [/IMG][/URL]Uploaded with [URL=http://imageshack.us]ImageShack.us[/URL] I presume problem here lies in settings of one of theese routers, or both. </s>
+<s> Hi Bob, this is not really new ground for me, I have some experience on it. </s>
+<s> Dhcp server is 192.168.1.1 and ap2 cannot reach it so it has problem obtaining adresses automatically. </s>
+<s> Gateway is 192.168.1.1/24. </s>
+<s> Any information you request will be added to diagram, I would really appreciate help on this one </s>
+<s> Sorry but the make, model of the devices are eluding me. </s>
+<s> Without them I can't check if they block or don't bridge the DHCP. </s>
+<s> Bob </s>
+<s> Both APs are TP-link tl-wr543g with latest firmware, </s>
+<s> Nothing in the manual tells me the bridge mode will do what you want. </s>
+<s> Unless the maker tells more, I'd get my money back or try other modes. </s>
+<s> Bob </s>
+<s> Any chance for using copper? </s>
+<s> If they're not physically attached, I'd go underground and use the proper type for that purpose. </s>
+<s> If you can DIY, it could be cheaper than using all this wireless hardware and definitely more reliable. </s>
+<s> Yes you are right, all options are drained. </s>
+<s> I will try to get at least one AP more for testing. </s>
+<s> Thank you for your time Bob! </s>
+<s> When I need to extend my range I've used a common router but set it up as a WAP. </s>
+<s> This is covered in the CNET Networking Forum sticky as well as GOOGLE &quot;How to use a router as a WAP.&quot; With that out of the way, I place this WAP where it gets the best shot at reaching my other location. </s>
+<s> Now on the other side I can use a GAMING BRIDGE or a bridge that I used many times as a WIFI CLIENT is the WGPS606 The GAMING BRIDGE or WGPS606 is also placed where it has the best shot at connecting to the WAP (which I used a common router) and at that point I can test connectivity by plugging into the bridge's ethernet ports. </s>
+<s> If I want to get wifi coverage in that area I add one more router as a WAP and I'm done. </s>
+<s> That's my formula that I've used too many times. </s>
+<s> Due to failures of those &quot;bridges&quot; I had to come up with something that I could make work. </s>
+<s> Bob </s>
+<s> I have read what you suggested me, and I did all like people wrote there, thing is still not working. </s>
+<s> Maybe this is problem, it is my final guess: [IMG] http://img97.imageshack.us/img97/3973/opmode.jpg [/IMG] This router has only these two modes, there is not regular Client mode? </s>
+<s> no way for wires Apt1 and Apt2 are not so close to each other... </s>
+<s> other physical barriers, you may also have problems getting a good wireless signal from one to the other. </s>
+<s> You'll probably need directional outdoor antennas. </s>
+<s> Good luck </s>
+<s> And you're right. </s>
+<s> Maybe these are not the right parts. </s>
+<s> After all this I thought it best to share my old setup that I've used ... too many times. </s>
+<s> Bob </s>
+<s> Yes that is the problem, few minutes ago I replaced router TP-link tl-wr543g from Apt2 with regular AP with regular Client mode, and in a few minutes internet is in Apt2!! </s>
+<s> Modes of LevelOne AP:[img] http://img824.imageshack.us/img824/2509/levelone.jpg [/img] Thank you all for your time and efforts, and remember (because I will) that TP-link tl-wr543g CANNOT be used as regular Client AP! </s>
+<s> And right or wrong I find the maker's support lines for this sort of setup to be quite poor. </s>
+<s> Bob </s>

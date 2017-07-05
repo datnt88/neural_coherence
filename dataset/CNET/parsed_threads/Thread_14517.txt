@@ -1,0 +1,39 @@
+<s> When attempting to install windows XP on a recently built computer, i get the message that the hard disk and BIOS are not installed. </s>
+<s> I can access the BIOS without any problem, but how do i tell if the HDD is installed properly? </s>
+<s> The HDD is connected and powered on, so why is it not recognized by windows? </s>
+<s> Any help would be appreciated. </s>
+<s> Thanks in advance. </s>
+<s> While you didn't share the message about the bios not installed, there is a common message like that but it is not a failure but informational. </s>
+<s> I often disable the message so the owner isn't confused by it. </s>
+<s> Many don't know a new drive will have to be prepared for use. </s>
+<s> With XP we use the DRIVE MANAGEMENT tool noted in XP's Start, Help and Support. </s>
+<s> This preperation is not optional. </s>
+<s> Bob </s>
+<s> The XP Drive management whatever you said probably won't help since XP won't install. </s>
+<s> I believe the problem is that a RAID Driver needs to be installed from a supplied CD, but the computer in question has only one CD drive. </s>
+<s> When the XP cd is taken out, it won't continue with installation, even to install the drivers from the supplied CD. </s>
+<s> It looks like another CD drive is going to be in order. </s>
+<s> I was under the misimpression this was a new drive added to a working system. </s>
+<s> -&gt; Here's the deal. </s>
+<s> With your new information it appears you have some custom machine that you placed a hard disk on a nonstandard RAID IDE connection. </s>
+<s> Since you don't have multiple drives this is a mistake in setup. </s>
+<s> Also your post is void of all makes and models so I can only offer the best move is to move the drive to the normal first IDE channel and attempt a normal setup. </s>
+<s> Bob </s>
+<s> i'm not the one building this computer, i'm just posting questions since the builder can't. </s>
+<s> (obviously) is there a good guide that will take us through installing a hard drive, including both physical installation and partitioning and formatting the drive? </s>
+<s> I would like to go back and double check that everything has been done correctly up to this point. </s>
+<s> If possible, i would like a guide that goes into detail about some problems we might encounter (like the current one) as well. </s>
+<s> thanks again. </s>
+<s> There are hundreds of sites on how to build a PC, none could cover what could go wrong. </s>
+<s> I've learned that going with the plain setups is best for new builders. </s>
+<s> That is, using the plain IDE port the first time. </s>
+<s> RAID, in this case is not called for since we have one drive. </s>
+<s> Best of luck, Bob </s>
+<s> If so, you may indeed need to install a third party driver to get XP to recognize the drive. </s>
+<s> This is usually done by hitting F6 when prompted during initial installation and then installing the driver from a floppy. </s>
+<s> I would check with the motherboard manufacturer and see if they provide SATA/RAID drivers that you can put on a floppy, or perhaps copy them from the provided CD. </s>
+<s> There should be instructions either in the mobo manual or online. </s>
+<s> this is the conclusion i have come to as well, after looking through a few guides and such. </s>
+<s> unfortunately, the builder had decided not to put in a flopy drive at all. </s>
+<s> that will obviously be changing. </s>
+<s> i will post an answer if this turns out to be the problem. </s>

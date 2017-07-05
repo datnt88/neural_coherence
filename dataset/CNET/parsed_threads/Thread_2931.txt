@@ -1,0 +1,18 @@
+<s> Forumsters, i've just installed A 2nd hard drive and set it as slave.However,i can't access it as there's no icon in explorer. </s>
+<s> It is showing up in device manager ,so i know it has installed ok. </s>
+<s> Anyone know how i can access it?I'm using WIN98SE. </s>
+<s> If it's new, it need to be partitioned before it shows up in My Computer. </s>
+<s> It then has to be formatted before you can use it. </s>
+<s> It's not new.I took it out my other computer that has WIN2000 as the operating system.It was working fine.There's about 8gb on it. </s>
+<s> You didn't tell that in your first post so here's the next response. </s>
+<s> Windows 2000 likely formatted it in NTFS and Windows 98 doesn't do NTFS. </s>
+<s> There are two solutions if the data is intact. </s>
+<s> 1. </s>
+<s> Boot a KNOPPIX CD and copy the files you want off. </s>
+<s> 2. </s>
+<s> Look up NTFSDOS and see if that works. </s>
+<s> A maybe on this one. </s>
+<s> Bob </s>
+<s> It was indeed because it was in NTFS format.I used WIN2000 to reformat the hard drive to FAT32 and all is well.Thanks for the responses. </s>
+<s> If you have Tweak UI installed, be sure the second drive is checked (probably &quot;D&quot; in your case), otherwise your system won't recognize it. </s>
+<s> Check in the My Computer tab. </s>

@@ -1,0 +1,29 @@
+<s> I built a new system with an intel core 2 duo cpu. </s>
+<s> The opening screen on bootup shows the processor and says 2 cores. </s>
+<s> Xp home only shows a single screen for cpu under task manager, performance. </s>
+<s> Using the cpuz program shows only one core. </s>
+<s> I installed the hotfix 896256, edited the registry, and added /usepmtimer to boot.ini. </s>
+<s> I also uninstalled the processor from device manager and rebooted. </s>
+<s> I see from reading the web that xp home should support dual core. </s>
+<s> service packs 1 and 2? </s>
+<s> yes, both service packs. </s>
+<s> If I go to the BIOS and disable ACPI and something else I get a single core. </s>
+<s> The BIOS still reports dual but Windows doesn't. </s>
+<s> Hint? </s>
+<s> Take the BIOS defaults. </s>
+<s> Also another owner had replaced the motherboard but needed to change the HAL. </s>
+<s> Here's an example how that's done. </s>
+<s> -&gt; http://support.microsoft.com/kb/309283 Which HAL are you loading? </s>
+<s> Bob </s>
+<s> I don't know. </s>
+<s> How do I find this out? </s>
+<s> And how do I know which is the right one to put in? </s>
+<s> It says advanced configuration and power interface pc. </s>
+<s> NIL </s>
+<s> I did a repair install using the F5 technique to change the hal. </s>
+<s> I changed it from advanced configuration and power interface to acpi multiprocessor pc but xp home still shows a single core. </s>
+<s> There are at least 2 multiprocessor HALs so try the other. </s>
+<s> Also if this fails it could be a BIOS or motherboard fault. </s>
+<s> Time to ask them about that. </s>
+<s> I'm taking it that you have never tinkered with the Task Manager or other settings or had a virus/trojan damage the OS. </s>
+<s> Bob </s>

@@ -1,0 +1,76 @@
+<s> I can no longer boot from both my hard drives. </s>
+<s> The first error message said: Intel Boot Agent: no boot filename received. </s>
+<s> I disabled the IBA in my BIOS. </s>
+<s> Now when I try to boot the message says:cannot read from drive due to hardware configuration problem. </s>
+<s> I tried changing disc order and boot device order in BIOS. </s>
+<s> I also tried disconnecting all drives except for the one I want,still no luck. </s>
+<s> The BIOS does not list the hard drive I want in boot device order, but it does list it in hard disc drives, and Windows says both drives are healthy. </s>
+<s> Any suggestions? </s>
+<s> I am on a new Gateway with XP Pro, my hard drives are from Maxtor. </s>
+<s> I also have a CD drive and floppy. </s>
+<s> My motherboard is from Intel. </s>
+<s> I also tried upgrading my BIOS from the Gateway site. </s>
+<s> Thanks. </s>
+<s> 1. </s>
+<s> &quot;The first error message said: Intel Boot Agent: no boot filename received.&quot; This is typical for many Intel Ethernet cards. </s>
+<s> It is not the cause of your main issue. </s>
+<s> 2. </s>
+<s> &quot;I disabled the IBA in my BIOS. </s>
+<s> Now when I try to boot the message says:cannot read from drive due to hardware configuration problem. </s>
+<s> I tried changing disc order and boot device order in BIOS. </s>
+<s> I also tried disconnecting all drives except for the one I want,still no luck. </s>
+<s> The BIOS does not list the hard drive I want in boot device order, but it does list it in hard disc drives, and Windows says both drives are healthy. </s>
+<s> Any suggestions?&quot; At this point I am a bit confused. </s>
+<s> If Windows is booting, then all is right in the world and what the issue may be is that you have moved a hard disk from another machine and the contents are not readable or the contents have become &quot;scrambled.&quot; A longer history (story) could be helpful. </s>
+<s> 3. </s>
+<s> &quot;I am on a new Gateway with XP Pro, my hard drives are from Maxtor. </s>
+<s> I also have a CD drive and floppy. </s>
+<s> My motherboard is from Intel. </s>
+<s> I also tried upgrading my BIOS from the Gateway site. </s>
+<s> Thanks.&quot; I'm seeing a picture of where hard disks are being swapped around and you've lost a boot record somewhere. </s>
+<s> No mention of what OS may have been on the drives, but so far, all I see is a learning experience about moving drives and how data loss will occur. </s>
+<s> Bob </s>
+<s> Thanks for responding. </s>
+<s> Here is the order in which things occured. </s>
+<s> First I installed the new drive, it worked fine. </s>
+<s> After about a month, I erased,formatted and upgraded my OS on my old drive. </s>
+<s> After doing that I can no longer boot to my new drive. </s>
+<s> The very first error message that appeared immediately after doing this was &quot;NTLDR missing&quot;. </s>
+<s> Can you recommend a tutorial on boot records as I am not familiar with the term. </s>
+<s> The original OS on my box was XP Home, I then bought the new drive and installed Pro on it. </s>
+<s> After a month I upgraded my original drive to Pro also. </s>
+<s> Both drives have been in this box the entire time, however, I have tried using Maxtor's drive-to-drive copier, it did'nt work well and that is when I formatted and started over. </s>
+<s> Take a moment and put these phrases into http://www.google.com to learn about XP's Recovery Console and fixing boot issues. </s>
+<s> XP FIXBOOT But I wonder about that LBA change in the BIOS. </s>
+<s> If I do this, the drive that had data may become scrambled on the very next boot as the drive geometry has been altered. </s>
+<s> Booting an OS like NT, 2000, XP (most Windows) will write to said drive and since the geometry changed, writes to such a drive may really scramble the contents. </s>
+<s> Please excuse me as I ask why you would make this change? </s>
+<s> Bob </s>
+<s> Thanks for the link, I will study the contents. </s>
+<s> The IBA change in BIOS refers to the Intel Boot Agent pre-installed on my box. </s>
+<s> From what I have learned it is a tool that the computer reads as a drive that can be used to remote boot a machine. </s>
+<s> I assume it was installed so the Gateway techs can help people like me. </s>
+<s> I disabled it in BIOS because no matter the configuration I came up with, this little tool tried to boot, and I thought it was preventing my other drives from being read first. </s>
+<s> Either way, the IBA makes no difference on my ability to boot to the drive I want, I have enabled and disabled it and tried to boot both ways. </s>
+<s> Sorry, but lba and Iba are just some pixels about on the screen, much like the 0 and O characters. </s>
+<s> That's a zero (0) and a letter 'O'. </s>
+<s> Changing the Intel boot setting is as you and I know, not the issue. </s>
+<s> Can I ask in the future you take care with the acronyms since it can lead many astray. </s>
+<s> This one is just too close to LBA (Large Block Addressing) which is a hard disk addressing method which can cause data loss if played with. </s>
+<s> Bob </s>
+<s> Thanks for the advice, I will be more careful in the future. </s>
+<s> I think I figured out that somehow I am using one drive to boot from and using the other drive's system resources, which is why I need both drives to boot up and no matter the configuration, it always boots to the same drive. </s>
+<s> Basically, I am using the drives in conjunction. </s>
+<s> In disc management, it lists one drive as Healthy(boot) and the other drive as Healthy(system). </s>
+<s> I believe the second drive should read: Healthy(active). </s>
+<s> Any ideas on how I can make both drives able to boot independently of each other? </s>
+<s> &quot;Any ideas on how I can make both drives able to boot independently of each other?&quot; Please excuse me as I can't &quot;get the picture&quot; yet. </s>
+<s> In you are NOT swapping drives around, it is possible to install various OSes and use a BOOT MANAGER. </s>
+<s> Some BIOS's offer a boot to some drive and this is PANS or Pretty Amazing New Stuff that you won't find a lot of support for. </s>
+<s> Great for booting a CD and not having to change the BIOS for that. </s>
+<s> But booting a hard disk may be problematic. </s>
+<s> OK. We've covered some ground to this point, but with the picture still being fuzzy, I can share that XP (and all the Windows OSes) do not survive movement from Slave to Master, channels and vice-versa. </s>
+<s> When I find a dual-boot setup and XP is on the slave drive, there is NO SUPPORTED METHOD to move the drive to the primary boot position and &quot;FIX&quot; it so that it operates properly. </s>
+<s> There are some web pages about this, but in about 1/2 the attempts (or higher) I know about the drive contents just vanish and a full install is performed. </s>
+<s> Write a bit more? </s>
+<s> Bob Tip: The forum software may write &quot;no more replies.&quot; When you see this, just make a reply to an entry up higher in the chain. </s>

@@ -1,0 +1,51 @@
+<s> I had built my computer with a WD 640 Black as my boot drive. </s>
+<s> I decided I wanted to add a VelociRaptor 300 as my boot drive. </s>
+<s> I had the 640 Black partitioned in three even splits. </s>
+<s> I added the VR300 and ran the Acronis True Image program and did the clone disk. </s>
+<s> I let it do the auto thing and even though the &quot;C&quot; partition at 79gb on it and one partition had 121gb on it and one had only 5gb on it and this was less then 300gb. </s>
+<s> So I did not think then it would matter that I was cloning a larger drive to a smaller drive. </s>
+<s> It cloned it and then I went in and reformated the 121gb part as I did not need that data cloned, just the operating system. </s>
+<s> Now how do I get the system to boot off the new drive? </s>
+<s> I still want to use the 640 Black and so I will remove the OP from it when I get this to work. </s>
+<s> I tried just having only the new drive plugged in and got a NTRDL is missing. </s>
+<s> So I plugged them all back in and it would not boot at all. </s>
+<s> So I left the new one unplugged and it boots up like normal. </s>
+<s> But if I plug the new one in now it won't boot and I get the same error. </s>
+<s> At first it would not try and boot off the new one. </s>
+<s> Now if it is plugged in it tries and gets the error. </s>
+<s> I can't even boot up to reformat the new drive. </s>
+<s> What the heck have I done? </s>
+<s> What should I do now? </s>
+<s> I would have avoid Acronis altogether. </s>
+<s> All this partitioning and more seems to have ended badly. </s>
+<s> What I learned years ago is to learn the native tools, use simpler setups so repairs could be done without calling Acronis. </s>
+<s> If I had to deal with this I would install just the new drive, clean it off by booting my XP/other CD and installing the OS and drivers. </s>
+<s> Then I'd add the old drive and recover my stuff. </s>
+<s> Bob </s>
+<s> The Win 7 save image, restore image did not work either. </s>
+<s> Can't understand as my computer is no different then anyone elses. </s>
+<s> I ended up just backing up my other &quot;C&quot; hard drive and then totally re-installing the OS on the WDVR like you said. </s>
+<s> Did all the updates and did the backup restore and it works. </s>
+<s> I want to first say I am a loyal WD user. </s>
+<s> I have nothing but on 4 systems. </s>
+<s> Not sure what is on my wife's laptop. </s>
+<s> None have ever failed me. </s>
+<s> But the reason I was adding the Velociraptor drive was to increase my Windows Experience rating, like it was going to matter. </s>
+<s> My processor was at 7.3. </s>
+<s> My memory was at 7.5. </s>
+<s> My graphics was at 7.6+7.6. </s>
+<s> But my harddrive was only at 5.9. </s>
+<s> That was the WD 640 Black. </s>
+<s> Well the Velociraptor is at 5.9 also. </s>
+<s> So all that and I did not improve a bit. </s>
+<s> So now my plan is to pull it back out and go back to my 640 Black and put this one in my kids which has a 5.4 rating on his harddrive. </s>
+<s> Like I said I like WD and still will continue to build WD. </s>
+<s> But this was a little disheartening. </s>
+<s> The &quot;media speed&quot; of the drives is at or about SATA 1.x speeds. </s>
+<s> While a few per cent points can be gained by going to 3.0 and 6.0 Gb speeds the &quot;media speed&quot; appears to be unchanged. </s>
+<s> &quot;Linear transfer rates&quot; seem to be governed by this too. </s>
+<s> More RPMs help a little but not the media speed as it gets the needed sectors under the heads faster. </s>
+<s> I'm sure there is a paper/web page about this but the lesson is expensive as you figure out that windows scores are not a good measure of a machine and could have folk chasing rainbows (or other things.) </s>
+<s> Hope this helps, Bob </s>
+<s> partition ...after successfully creating the boot partition...then manually create the other partitions and copy the applicable data to them. </s>
+<s> VAPCMD </s>

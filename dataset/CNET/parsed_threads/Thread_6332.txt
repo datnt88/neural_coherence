@@ -1,0 +1,44 @@
+<s> As I was using the computer, it suddenly froze (happening a lot lately), I couldnt do anything but pressed the restart button as usual. </s>
+<s> After restarting, I was prompted that a new hardware was found. </s>
+<s> Surprisingly, it was my Ethernet Controller. </s>
+<s> I followed whatever it said to try update the driver, though it should have had already, for I have been using the computer on ADSL for over a year now. </s>
+<s> But the update didnt workout. </s>
+<s> And when I check the property of my Ethernet Controller in Device Manager, it said this The drivers for this device are not installed. </s>
+<s> (Code 28) So I went google, (btw, Im now using a dial up connection which doesnt require the use of Ethernetwishing my ADSL back of coz), and found this article, http://support.microsoft.com/kb/310123 . </s>
+<s> after doing what it said, I rebooted, hoping for a working Ethernet.. </s>
+<s> But, things didnt turn out smooth, now I get the error message This device is not configured correctly. </s>
+<s> (Code 1), which now means I have to install the driver for it. </s>
+<s> The problem is, I dont know where I can find the driver for my Ethernet, though I think it came with my motherboard Gigabyte 8I875. </s>
+<s> And after downloading the LAN driver from this page http://www.gigabyte.com.tw/Support/Motherboard/Driver_Model.aspx?ProductID=1715 and running the file - MSIEXEC.EXE, and rebooting. </s>
+<s> STILL isnt fixed.. Now Im getting very worried, please, can someone give some idea of how to fix this. </s>
+<s> I assume alot here, but correct me if I'm wrong. </s>
+<s> During boot get into the bios area and verify the ethernet port is active or enabled, if so exit out, if not then check it or do what's required to enable. </s>
+<s> Now, upon booting into the system, if the new h/w message appears(have your orginal system/mtrbd. </s>
+<s> CD) follow prompts. </s>
+<s> Just point to the dir. </s>
+<s> on the CD if possible by manually &quot;browsing&quot; to the driver section. </s>
+<s> Otherwsie, exit out and cancel the driver install. </s>
+<s> Under the same CD, run it and find whatever section allows to install the drivers, it maybe more than one or the ethernet by itself. </s>
+<s> Once done, reboot and check results. </s>
+<s> If you don't have the orginal mtrbd. </s>
+<s> CD then via thier support website for your mtrbd. </s>
+<s> or system model# proceed there. </s>
+<s> Verify, that you are getting the *right driver* for your ethernet port, otherwise, it will get confused or not install properly. </s>
+<s> If none of this seems to work, you may have a bad h/w or truly corrupted pgm/driver(improper). </s>
+<s> To get away from all this, buy another ethernet card($10-20) 10/100mb models and install, make sure to uninstall the old ethernet port and/or disable, before you install new one. </s>
+<s> tada -----Willy </s>
+<s> from the control panel and then follow the previous post instructions with your original driver CD or download the correct driver from the mobo website and install it. </s>
+<s> Should not be an issue in the BIOS except whether you want it or not. </s>
+<s> If you don't need it you can disable it in the BIOS and it won't give you any more messages. </s>
+<s> 1. </s>
+<s> Microsoft doesn't have a clue about drivers. </s>
+<s> Do not rely on it's driver update or check buttons. </s>
+<s> 2. </s>
+<s> When I need to fix this issue I look to install not one driver but two. </s>
+<s> Here's what I look for. </s>
+<s> a. Motherboard chipset support drivers. </s>
+<s> b. Ethernet driver. </s>
+<s> 3. </s>
+<s> Where do I get these? </s>
+<s> Usually from the motherboard maker's website. </s>
+<s> Bob </s>

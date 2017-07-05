@@ -1,0 +1,46 @@
+<s> My desktop, running XP Pro, has the above mentioned video card. </s>
+<s> I've had it for about a year without any problems, everything updated fine from the installation CD and from Windows Update there after. </s>
+<s> A week ago however, I decided to reformat my PC, something I've done a few times, again without any big problems. </s>
+<s> This time however, the video drivers (and monitor drivers as well as a result of this) fail to install. </s>
+<s> I've tried using the CD again, but after installation and restart, my pc will freeze during Windows loading screen (at the agp40 or similar loadup command). </s>
+<s> I went online to get the latest drivers, but installation fails as it does not recognize any valid hardware. </s>
+<s> There's a hotfix on AMD's website for this series, which I've tried, but it's the same result as the CD. </s>
+<s> I've also tried using generic VGA drivers as some troubleshooting guides recommend, but this again will only lead to my screen freezing at loadup. </s>
+<s> Finally, Windows Update itself does not recognize the hardware either, so I'm not getting any updates for it, nor is the Automatic Driver search working on it. </s>
+<s> Any help on is appreciated. </s>
+<s> and it went OK the previous time you did exactly the same, I'm thinking of a hardware failure. </s>
+<s> Try once more from the start. </s>
+<s> If no luck again, see if you still can find another AGP card. </s>
+<s> Kees </s>
+<s> Yes, the only difference I can think of was that I had an older ATI card before, with its drivers and catalyst. </s>
+<s> But even then, I had to install the drivers from the CD. </s>
+<s> I tried it again, this time using the ATI driver found on this site, but the same thing happens. </s>
+<s> Windows freezes at the same command line. </s>
+<s> I just went through some boxes and I found my old ATI, so I'll load it up again and see if I can get those drivers to work. </s>
+<s> Would there be any issues if I then try to load the HD2400 again as an upgrade to see if it'll be recognized then? </s>
+<s> prior to the reformat, there weren't any apparent problems with my video. </s>
+<s> The main reason for doing it was that my system performance was being slowed down by a number of programs that I didn't use any more and I prefer full cleanup when there are a lot of these programs rather than just uninstalling them and encountering errors later on. </s>
+<s> install the mobo chipset driver first BEFORE installing the VGA driver? </s>
+<s> If you have the mfr provided driver CD, they usually have it autostart and then you follow the installation sequence from top to bottom. </s>
+<s> I did a clean windows install when I reformatted, don't have a chipset driver. </s>
+<s> I did check for available bios updates, but the only one available was for the pc series I have, but not for the model itself (it mentioned 'specific for...'. </s>
+<s> I've never had to reinstall those particular drivers before, so I might be missing something there. </s>
+<s> How would I go about finding this information? </s>
+<s> I read your post twice and missed the make, model of the machine so I can't offer a link to that driver. </s>
+<s> But that message also happens if you download the ATI drivers. </s>
+<s> For AGP you have to find the AGP HOTFIX drivers from ATI. </s>
+<s> The ones you find are only for PCIE so be sure you get the AGP HOTFIX and absolutely get that motherboard package installed first. </s>
+<s> It's a Compaq 7000 7RPM11. </s>
+<s> As for the AGP hotfix, yea found those and they cause the freeze at startup, same with any older or generic drivers. </s>
+<s> The PCIe were the ones that failed to recongnize the hardware (as mentioned in the hotfix) and would not install at all. </s>
+<s> http://h10025.www1.hp.com/ewfrf/wc/softwareList?os=228&lc=en&dlc=en&cc=us&product=240442&lang=en I see this used the Intel chipset. </s>
+<s> If so, this is a link to a Compaq driver required. </s>
+<s> http://download.cnet.com/sp25336-exe/3000-2122_4-111586.html Sorry but the model DID NOT tell what I needed to know to find the Intel.com drivers I would install. </s>
+<s> Let me ask this. </s>
+<s> -&gt; Which Intel chipset did this machine use? </s>
+<s> Bob </s>
+<s> has nVidia UMA onboard http://h10025.www1.hp.com/ewfrf/wc/softwareList?os=228&lc=en&dlc=en&cc=us&product=240442 so your ATI is an upgrade. </s>
+<s> Do a clean XP install without the ATI inserted, then insert the ATI to let PnP detect it, then install the ATI driver. </s>
+<s> Sorry, haven't dealt with chipset info, I think it's the firmware that you are asking for, but just in case I listed the rest of the info: Intel 82801BA LPC Interface Controller -2440 82801BA/BAM SMBus Controller -2443 82801BA/CA PCI Bridge -244E 82802 Firmware Hub Device 82850 Processor to I/O Controller -2530 82850/82860 Processor to AGP Controller -2532 Even if I have to reinstall without the HDcard, I'd appreciate this info, as I'm thinking it'll be a good idea to update whatever's outdated anyways. </s>
+<s> Thanks. </s>
+<s> http://www.intel.com/support/chipsets/sb/cs-009238.htm Go get em. </s>

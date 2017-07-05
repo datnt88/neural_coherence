@@ -1,0 +1,22 @@
+<s> I dont know what happened but I have no sound coming out my speakers. </s>
+<s> No volume is muted. </s>
+<s> I phsyically checked my cables to see. </s>
+<s> I then used a boot cd that has a gui called ubcd and used the interent to hear sound but nothing. </s>
+<s> Its an onboard sound ac97. </s>
+<s> Check device manager to find out if your sound card has proper drivers. </s>
+<s> because my windows is formatted and Im going to reinstall it. </s>
+<s> Right now im using the internet from a boot disk called ubcd4win and im using firefox and I dont hear nothing and a video is being played. </s>
+<s> The speakers are working because I plugged them into a radio and they worked. </s>
+<s> The sound on the pc dont work. </s>
+<s> I tried to see if the connections are a problem but theyre not. </s>
+<s> Sound is enabled in the bios and I have latest drivers installed. </s>
+<s> But the driver could have been corrupted anyway! </s>
+<s> Uninstall and get the latest from : http://www.softwarepatch.com/utilities/ac97.html Good Luck! </s>
+<s> Because I used another os on here and the sound still dont work. </s>
+<s> The mobo is bad probably. </s>
+<s> Well Im getting a new mobo so I shouldnt worry too long. </s>
+<s> Your motherboard has onboard AC97 sound which requires a driver from the manufacturer to make it available to windows. </s>
+<s> Because you're booting the UBCD no drivers on the hard drive are available to the version of windows on the CD - the UBCD boots independently of anything on your HDD (it can be even be unformatted or absent altogether) as the CD creates a ramdrive for its own use. </s>
+<s> The manufacturer's AC97 sound driver needs to be added to the CD's plugins and a script written to install it in the BARTPE environment and then the whole package rebuilt with pebuilder which requires some expertise. </s>
+<s> If successful, chances are that the new CD will not enable sound on every motherboard. </s>
+<s> Just do as I do and enjoy the silence, after all it IS an emergency boot CD (say for cleaning an infected system of viruses and malware or repairing damaged protected OS files on the HDD) and not intended for everyday use (in fact it has (or had) some limitations to prevent you running it 24/7 as the main OS like auto-restarting every 24 hours, a limit on the number of running programs/processes and a severe restriction on the size of the ramdrive. </s>

@@ -1,0 +1,18 @@
+<s> Hey, well we just had our internet upgraded today and I am also trying to simplify the wiring. </s>
+<s> Right now it is connected like this: http://i72.photobucket.com/albums/i162/hawkeye_042/router1.jpg . </s>
+<s> To make it less confusing I would like to configure the second router as an access point and have everything else directly to the modem/router like this: http://i72.photobucket.com/albums/i162/hawkeye_042/router2.jpg . </s>
+<s> I plugged my computer to the modem/router and it won't recieve the correct ip address info. </s>
+<s> I know what the router IP is and the DHCP is turned on. </s>
+<s> When we plugged in the second router we set the connection to &quot;dynamic&quot; and it got the IP information just fine. </s>
+<s> When I plug my computer in it only recieves an IP and Subnet Mask which are both incorrect. </s>
+<s> For an ip it lists 169.254.25.224 and subnet mask is 255.255.255.0. </s>
+<s> It should have been 192.168.50.101 and 255.255.255.0. </s>
+<s> It also says computer has limited or no connectivity. </s>
+<s> -Appreciate any help! </s>
+<s> something doesn't look right or sound right in your drawing and explanation. </s>
+<s> I'm presuming you want the modem/router to be the IP address server. </s>
+<s> As such, your laptops need to get through the AP with their request for an address. </s>
+<s> It would seem to me that your AP...which you said is actually a router configured as one...should have the IP address server feature turned off. </s>
+<s> My first thought is, because you have just a few devices to deal with, assign static address across the board and plug in your modem/router address as the gateway on all connected devices. </s>
+<s> If any device you have needs DHCP, you should be able to define a range of address it can give out and keep the rest as static. </s>
+<s> Personally, I've always had better luck using static addressing. </s>

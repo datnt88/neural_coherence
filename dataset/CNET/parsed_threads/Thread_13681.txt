@@ -1,0 +1,33 @@
+<s> I have 2 windows XP Pro SP3 systems, &quot;A&quot; is connected to the net through a router to a switch to the cable modem, &quot;B&quot; is connected via a crossover cable to &quot;A&quot; and connects out to the internet via ICS in &quot;A&quot; just fine. </s>
+<s> I need to be able to RDC to both of them because they are going to another house where there is only the cable modem, no hub, no router, just the cable modem and I don't want to spend any more of their money then I have to. </s>
+<s> Now here is the strange part, I have two static IP's, two separate Internet connections so I can easily test across the net. </s>
+<s> I can RDC into &quot;A&quot; just fine, but not to &quot;B&quot; through the ICS connection. </s>
+<s> I can RDC to &quot;A&quot; and in &quot;A&quot; start another RDC to &quot;B&quot; from within &quot;A&quot; and voila, I have connection across the net to &quot;B&quot;, but only by running one remote desktop connection from within another one. </s>
+<s> That works OK but it is inelegant and I know I should be able to RDC directly to &quot;B&quot; through the ICS connection in &quot;A&quot;. </s>
+<s> I changed the listening port for RDC in &quot;A&quot; and &quot;B&quot; and believe I have the router and NAT set correctly. </s>
+<s> Both of my IP's come out of my cable modem to a switch and I can't make this work even when I connect &quot;A&quot; to the switch and let it get a dynamic address and just bypass the router entirely. </s>
+<s> I also believe that I have the firewalls set properly also but even when I turn them off I can only RDC to &quot;A and then RDC again in &quot;A&quot; to &quot;B&quot;. </s>
+<s> I can get to &quot;B&quot; for future needs on the part of my friends (The &quot;B&quot; machine is for their 11 year old who destroyed the &quot;A&quot; machine by using P2P software and getting many viruses, I had to wipe and reload from scratch.) </s>
+<s> This is driving me nuts!!! </s>
+<s> There is an ICS bug in XP Pro SP3 that there is a hot-fix for and I installed that on &quot;A&quot; but supposedly do not need to on &quot;B&quot;. </s>
+<s> Can anyone tell me if I am wrong there? </s>
+<s> I do not want to do anything to destroy the connections I have managed to achieve. </s>
+<s> I would appreciate anyone who could tell me how to RDC directly to the &quot;B&quot; machine without having to nest RDP connections, even though that works. </s>
+<s> Thank you very much and I apologize for the long post but this is pretty complicated. </s>
+<s> Thank you in advance. </s>
+<s> MeadMaker. </s>
+<s> 1. </s>
+<s> Can they afford $30 for a router? </s>
+<s> Less problem 'cuz you won't have to have ICS and have it on everytime you want to access internet. </s>
+<s> From the standpoint of remote control, this layout would be a lot easier to work with. </s>
+<s> 2. </s>
+<s> Try logmein. </s>
+<s> It's free but you have to install a client application on the the two computers. </s>
+<s> https://secure.logmein.com/products/free/ </s>
+<s> Just today I saw a few go across Freecycle. </s>
+<s> So it appears there are a glut of routers making the rounds. </s>
+<s> So price may not be the issue since Freecycle things are free. </s>
+<s> I will not help with your ICS routing issues. </s>
+<s> No offense but it's not a supportable position. </s>
+<s> But I will tell you that for the second hop you may want to tinker with VNC (see google.) </s>
+<s> Bob </s>

@@ -1,0 +1,15 @@
+<s> Hello, I have a WSN, as applied part for BSc dregree .. and I need some advices please:),and I mention that I don't know very much about this subject (even if I am at a faculty with such profile ..) but I want to &quot;struggle&quot; .. for this degree and until this mom. </s>
+<s> , I read something on the net, in some books ..so , I have an idea of what I want to do: Wireless Network (WSN) will be composed of four sensors that detect smoke .. placed in two adjacent rooms, besides the four sensors I need a gateway = node (which in this case I don't know what it can be(Access Point or Router Wireless or smth else)) to the four sensors that transmit ... and the gateway node will be wired to the PC . </s>
+<s> Now, questions would be more .. but currently I am sticking to what could be the devices for this kind of wireless network? </s>
+<s> And what type of network will be? </s>
+<s> ad hoc, LAN .. .. or something else? </s>
+<s> Thanks in </s>
+<s> Mostly your question should be what do the sensors devices support. </s>
+<s> Most these type of devices use a proprietary communication method even if they use 2.4g. </s>
+<s> You have to remember these do not run intel/AMD type processors. </s>
+<s> These processors are very limited but cost more than the general PC ones, not sure why the cost. </s>
+<s> There really is no need to run a full IP stack and then wireless much less WEP,WPA etc etc for a device that sends very little data. </s>
+<s> The overhead in the IP packets will be more than the data. </s>
+<s> So if we assume such devices exist and support wireless. </s>
+<s> The application is hub and spoke since it is unlikely the devices need to talk to each other. </s>
+<s> You could run adhoc but a simple AP will be easiest. </s>

@@ -1,0 +1,37 @@
+<s> I just hooked up a Wireless Access Point (WAP) I got from a friend to my home network & it works. </s>
+<s> Now, I've go to enable the security freatures. </s>
+<s> Unfortunatley, I have no clue what its IP address is. </s>
+<s> I've gotten to the Manufacturer's web site and their utility to connect to the WAP does not connect and the &quot;reset to default settings&quot; procedure as described in the user manual does not work. </s>
+<s> I've tried a bevy of network tools like Look@LAN but none of them discover the WAP. </s>
+<s> I can only assume the WAP has an IP addresss that does not live within 192.168.0.n I only have the MAC address printed on the serial number sticker attached to the bottom of the WAP. </s>
+<s> Is there a utility that wil allow me to ping by MAC Address to find out what the IP address is? </s>
+<s> You said that 'it works' and concluded that you now need to set up the security. </s>
+<s> I assume you mean you can currently get out to the internet, but you cannot get connected to the router itself. </s>
+<s> If this is the case, just use the default gateway IP in your ipconfig output. </s>
+<s> It is the IP assigned to the router. </s>
+<s> The answer to the question is you cannot ping by a MAC address unless the device is running reverse ARP. </s>
+<s> Recommend if you are not getting a lease, reset the router device to factory defaults - it is easier than anything else, usually. </s>
+<s> Sorry I did not make myself cleearer. </s>
+<s> I've had the D-Link router for ages and I alredy know its IP address, what I need to find is the IP address of the WAP so that I can setup the key. </s>
+<s> That's my dilema. </s>
+<s> I don't know the IP address of the WAP as it is not in the 192.168.0.xxx range </s>
+<s> I've got the same problem. </s>
+<s> Find a solution yet? </s>
+<s> No one seems to know how - I've tried several versions of network tools and none appear to be able to help - all want to set upper and lower boundary IP Addresses adn that's what I do not have ALL I WANT TO DO IS &quot;MACPING 0006F404D35A&quot; and have it come back and tell me the IP address. </s>
+<s> Maybe I'm naive but is that too difficult? </s>
+<s> http://groups.google.com/groups?hl=en&q=PING%20MAC%20ADDRESS </s>
+<s> that the web based IP address for D-link... </s>
+<s> You set your address to something in the 192.x.x.x range with a netmask of 255.0.0.0 and then run something like this to scan the entire 192. block? </s>
+<s> http://www.angryziber.com/ipscan/ </s>
+<s> This is a seriously old thread and should have been taken down years ago since there is no answer to the original question. </s>
+<s> When I was searching for information on MAC addresses this came up in the first page of results on google. </s>
+<s> People pay good money to get on the first page of a google search and I wonder how an old piece of CRUFT like this persists. </s>
+<s> I think the answer is that people keep clicking on it and going to it and get disappointed with the thread ending without a solution... so here's a solution: I am assuming that you plugged your WAP into your D-Link router. </s>
+<s> When you switch the WAP on, it will request an IP address from your router's DHCP server. </s>
+<s> From a computer connected to your wired network, you then go into your D-link router's admin utility and look at the DHCP client table and the WAP IP address will be listed along with all the other connected devices. </s>
+<s> Enter the WAP IP address in the URL field of your browser and you should be prompted with a password screen. </s>
+<s> If you have reset your WAP to factory specs (as you have said) then you enter the default username and password and you are in. </s>
+<s> If you want any security at all you will not run applications from the web directly to &quot;help&quot; you with security concerns as suggested above. </s>
+<s> For basic security you should rename the SSID, reset the password, enable MAC address filtering, and enable encription (WPA/WPA2) using a strong passphrase. </s>
+<s> There are of course many other things you can do with your network to increase security, but it has been said that having locks on your home only keeps the polite people out. </s>
+<s> This seems to apply to networks also... </s>

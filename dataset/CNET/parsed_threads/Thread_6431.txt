@@ -1,0 +1,60 @@
+<s> Hi Guys/Gals, My wireless connection is not working and i cannot log on to it, I have connected a Netgear WGT624 V3 Wireless Router to my Motorola SurfBoard SB5101E Modem which is connected to Telewest Cable Broadband (internet works fine if i access directly through the modem), on the router the power light is lit and also the internet light flashes rapidly but the wireless light comes on for a couple of seconds and then goes out - i think this is the problem? </s>
+<s> I have tried logging on to the router to check the wireless settings but cannot access it, i have also tried connecting directly via LAN but cannot get this to work either although i am not sure if i have connected it correctly? </s>
+<s> Any ideas/comments/advice is very much appreciated!! </s>
+<s> Thanks in advance, BigG2. </s>
+<s> Any ideas - anyone? </s>
+<s> Cheers, BigG2. </s>
+<s> What computer make & model? </s>
+<s> What computer OS? </s>
+<s> If XP, is it SP2 and fully updated? </s>
+<s> Use a working Internet connection to download and install ALL the latest drivers from the PC maker's website. </s>
+<s> If you purchased the wireless adapter separately, download and install the wireless adapter drivers from the adapter maker's website. </s>
+<s> Make a wired connection to a numbered port on the back of the router. </s>
+<s> Can you log in to the routers admin page now? </s>
+<s> * * * * * Ultimately, you need to follow the procedure to install the latest firmware on the router: http://kbserver.netgear.com/products/WGT624v3.asp The REFERENCE MANUAL is there, too. </s>
+<s> I have exactly the same problem as this and is connected in the same way, i have a degree in Networking, and cant resolve this problem, Im thinking it must be a fault with the product and will have to contact netgear. </s>
+<s> Before this however, I will try to login using a different Ip address; 192.168.0.1 as opposed to the 192.168.0.2 as it says in the manual. </s>
+<s> If anyone else had this problem can you tell me what you did to resolve it?? </s>
+<s> Jon </s>
+<s> Hi mate, Well it is now sorted, what i did is connect the router to the modem as stated (make sure your modem is on when you power it back up as some go in to standby). </s>
+<s> Then i connected a LAN cable to the modem and logged in to it that way, then i ran the wizard and hey presto it works!! </s>
+<s> Maybe this will work for you as well! </s>
+<s> Regards, BigG..... </s>
+<s> Login is http://www.routerlogin.net/ The manual for me Netgear WGR614v6 says http://192.168.1.1/basicsetting.htm But I use http://www.routerlogin.com/basicsetting.htm I would try these and see if you can login. </s>
+<s> Probably the last one will work. </s>
+<s> Rick </s>
+<s> I bought a refurbished router. </s>
+<s> Netgear indicated that the installation guide and software can be downloaded from their website, but I could only find firmware. </s>
+<s> Anyone know where I can find installation software? </s>
+<s> ftp://downloads.netgear.com/files/wgt624_install_guide.zip But I don't see it tell us to use any install software. </s>
+<s> Go figure why since it's a web browser interface? </s>
+<s> Bob </s>
+<s> Here is the manual http://kbserver.netgear.com/pdf/wgt624v3_ref_manual_25Apr05.pdf Follow the instructions. </s>
+<s> Rick </s>
+<s> Okay, I'm having pretty much the same problem, with the exception that I have no Wireless or Internet light activity. </s>
+<s> All computers connected to the router still have internet, but I can't log into the router at all with routerlogin or IP Addresses. </s>
+<s> And I can't connect to the router wirelessly at all. </s>
+<s> Any suggestions? </s>
+<s> Please check this link too. </s>
+<s> -&gt; http://forums.cnet.com/5208-6142_102-0.html?forumID=5&threadID=300621&messageID=2808407 </s>
+<s> Unfortunately I don't have ZoneAlarm so that didn't help at all, but thanks for trying. </s>
+<s> I'm reading reports of it breaking Norton and more. </s>
+<s> Since I don't see what you use, uninstall the KB noted at http://forums.cnet.com/5208-6142_102-0.html?forumID=5&threadID=300621&messageID=2808407 </s>
+<s> Have your computer connect. </s>
+<s> Start, run or hit the Windows Key and the R key at the same time. </s>
+<s> typr cmd hit enter type ipconfig /all (space between the g and /) hit enter look for the default gateway. </s>
+<s> Might look something like 192.168.1.1 What ever the default gateway is, Open your browser and type the default gateway in the browser. </s>
+<s> It will then prompt you for your username and password. </s>
+<s> Hope this helps. </s>
+<s> Rick </s>
+<s> You should know that if router is not set up to allow wireless login then it will deny you. </s>
+<s> Try to login to the router by directly connecting your computer (preferably the one you used on initial setup)to it. </s>
+<s> Normally, as others have pointed out, you just type in 192.168.1.1 to connect to the router via a web browser. </s>
+<s> If this fails then you may have to reset the router so that you can login using the default username & password. </s>
+<s> Netgear's official support page: http://kbserver.netgear.com/products/WGT624v3.asp </s>
+<s> Set computer to DHCP and let it get IP from switch Based on PudgyOne's response I flashed on the fact I hard set my laptop's IP to 192.168.1.2 which should have worked just fine with 198.162.1.1 but the web page would not load. </s>
+<s> Setting the laptop to DHCP it got the same Ip !92.168.1.2 from the netgear switch but the page loaded. </s>
+<s> what a wonderful way to kill a day so much fun. </s>
+<s> I consider this a bug as the ipconfig /all returned the same thing for my setting whether I hard set the IP mask and gateway or I let DHCP do it. </s>
+<s> Yet one works and one doesn't. </s>
+<s> I mistyped the ip in the post should have typed I hard set my laptop's IP to 192.168.1.2 which should have worked just fine with 198.168.1.1 but the web page would not load. </s>

@@ -1,0 +1,75 @@
+<s> I want to share some files on the network. </s>
+<s> I am in City 1, and have a buddy in City 2 that I want to share a drive with. </s>
+<s> I want him to have read only access for most of the files, but want to designate one folder in which he can write files. </s>
+<s> My main system is a desktop using Windows XP Pro, and I am behind a Dlink firewall/router. </s>
+<s> I also have a wireless notebook running XP Home on the same router, and of course I myself also want to have full access the files from that computer as well. </s>
+<s> Another possibility I am looking at is to make some folders and files on the shared drive publicly read-only, so that I can sort of use it as a server to host some larger files that I make available via my blog. </s>
+<s> I have two scenarios I am considering.. the first is one of those new network drives that I can plug into my router. </s>
+<s> Can this be done, so that my friend in City 2 can have access to the drive, even though I am behind the firewall? </s>
+<s> This would be the preferred method, since I would not have to leave my systems powered up, just my router. </s>
+<s> The downside of this solution is that I would need to buy a network drive. </s>
+<s> The other scenario, is to share an existing external HD on my Desktop system (XP Pro), but of course, this would mean I need to leave the system on in order for him to access the drive. </s>
+<s> The upside of this solution is that I already have several external drives available to share, and would not need to buy a network drive. </s>
+<s> Can either of these solutions be done, and if so, specifically how? </s>
+<s> If this has already been addressed and answered, just point me to the the link.. thanks! </s>
+<s> Paul </s>
+<s> Hi Pilaar, The short answer to your questions is: yes, both solutions can be done. </s>
+<s> However, they may require some serious security considerations. </s>
+<s> Concerning solution 1, you can indeed hook up a network drive and set up shares with different privileges. </s>
+<s> Depends on the drive, though. </s>
+<s> For instance, the Iomega StorCenter does everything you've described at the blink of an eye, without even having to install extra software on your PC's. </s>
+<s> Furthermore, it has Foldershare installed (c.f. </s>
+<s> www.foldershare.com), which allows you to sync your data even if you're not at home. </s>
+<s> So what's the drawback? </s>
+<s> First, if you want to provide your friend access to the drive without syncback, you're going to have to open up some ports on your router by configuring NAT. </s>
+<s> This exposes your drive to the rest of the world, and there *are* tools out there to crack passwords in reasonably fast time. </s>
+<s> Assuming an intruder gets into your network drive, he/she could easily upload a plethora of nasty stuff for you and your friend to discover (worms, trojans etc). </s>
+<s> Second, if you want to go for the FolderShare option on your computer, you're going to have to consider the fact that you cannot synchronize more than 10,000 files on the network drive. </s>
+<s> (You can still upload over 10,000 files and share them on Foldershare, but you need direct access to the drive for this). </s>
+<s> I wouldn't do solution two if I were you. </s>
+<s> By exposing your computer to the 'net, you run the same risks as in solution 1), except that this time it's your computer that is on the line. </s>
+<s> As you said before, you also have the problem of leaving your computer on 24/7. </s>
+<s> One more thing to consider is: this thing is running on your home LAN. </s>
+<s> That means that, if your friend wants to download a big file, it'll only have a private user's bandwidth to play with (maybe 600-700 kbps if you're lucky... More like 100-200 kbps). </s>
+<s> There are other solutions: for instance, get some storage space on the Internet. </s>
+<s> The price is affordable and you don't have to worry about security and connectivity problems. </s>
+<s> Another solution is, get yourselves Foldershare and set up a common space in such a manner that you both have a synched copy of your files. </s>
+<s> You can also exert fairly tight control of other data without too much trouble. </s>
+<s> Hope this helps, Red. </s>
+<s> Well, thanks for the reply. </s>
+<s> Regarding syncing the data.. </s>
+<s> I am not sure I have a need for this. </s>
+<s> The idea is that I put some files on the drive and my buddy can have access to them. </s>
+<s> In most cases, these will be large files, so the idea was that I simply place them on my HD here, and all he has to do is access the drive to get them. </s>
+<s> Saves me from uploading or sending to him. </s>
+<s> Similarly, he can copy his files to my HD and I can access locally here. </s>
+<s> Our internet connection is much slower than my local lan.. internet connection is about 4 to 5 Mbps, whereas the transfer via the router is 108 (optimum) Mbps (but probably more likely 54 Mbps I am guessing). </s>
+<s> So, I would think moving the files from my computer to the shared HD would be much faster than me sending over the net. </s>
+<s> Hence, the slowest link in the chain would be him downloading from the HD over the net. </s>
+<s> I am not familiar with foldershare, and the site seems to be down at the moment, but I will check it out later. </s>
+<s> Maybe if you have a moment, you can explain &quot;syncback&quot; to me, as you seem to indicate that without using it, I may expose my drive to the world. </s>
+<s> Actually, one of the other uses of the shared drive was exactly that.. ie, putting photos and movies on the drive, linking to them from my blog - thus making them available to others.. however, in a read-only mode. </s>
+<s> The interent space solution is what I am trying to avoid, not only because of the cost, but also because it would take twice as long.. ie, I would need to upload the files, and he would need to download them. </s>
+<s> And uploading files using my ISP is dreadfully slow compared to downloading them. </s>
+<s> So, moving them to a local shared HD would be much faster. </s>
+<s> The majority of the sharing would be in one direction.. ie, him downloading. </s>
+<s> If you want to be able to setup access and permissions for a shared folder as if you and the remote computer were on your home network, use Hamachi, a free, easy-to-install software-only VPN solution. </s>
+<s> Hamachi (www.hamachi.cc)has the endorsement of well-known security expert Steve Gibson (see http://www.grc.com/sn/SN-018.pdf ) If you are sharing large files, and you want to have access to them even if the remote system is turned off, you'll want a solution that duplicates the files on each machine (to avoid waits when you access them) and keeps those duplicates synchronized. </s>
+<s> Use: Folderhare (www.foldershare.com, acquired by Microsoft). </s>
+<s> Note that a foldershared folder allows you to set very basic permissions, unlike Hamacchi. </s>
+<s> For example, if you are sharing a folder &quot;Folder1&quot; containing files &quot;A,B,C&quot; to users X,Y,and Z. Hamacchi will allow you to use standard Windows file sharing to: Allow user X to only see A,B,and C Allow user Y to see and change all the files. </s>
+<s> Allow user Z to see or change file A and B, but only see file C. In contrast, when you share the folder through foldershare, if you permit a user to change any file in the folder, you must grant him the ability to change ALL of the files in the folder. </s>
+<s> Thux, you can Allow user X to only see A,B,and C Allow user Y to see and change all the files. </s>
+<s> Allow user Z to see or change file A and B, but you cannot prohibit him from changing C. Finally, when a file has been changed on a system that has been offline (and therefore not immediately synchronized), you can have version conflicts which will be flagged to you. </s>
+<s> This is not the case with Hamachi, where one computer is accessing the file across the network on another computer. </s>
+<s> Ok, thanks for the reply. </s>
+<s> I think this is getting overly complicated. </s>
+<s> Let's forget about the ability of other users to write or modify files on the shared HD. </s>
+<s> Let's just assume I want to put some files onto a HD and give read and download access to another user, and maybe even public read-only access to specific files or folders. </s>
+<s> This latter requirement is not absolute.. it would just make it easier to share photos, movies, flash files, etc, that I can link to externally,, ie, from a blog. </s>
+<s> thus, I can give my buddy complete read only access to the entire drive (or the majority of folders on it), and specific read-only access to everyone for specific files. </s>
+<s> Can this be easily achieved? </s>
+<s> Should I use a network drive, or use XP file sharing to accomplish this? </s>
+<s> Can I also set it so that only I can write to the drive (any file, or folder) from either my desktop system, or my notebook (both behind the Dlink firewall) In such a case, there is no need for &quot;synchronization&quot;. </s>
+<s> Right? </s>
+<s> Or maybe I am misunderstanding what synchronization is all about? </s>

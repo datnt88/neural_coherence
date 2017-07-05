@@ -1,0 +1,29 @@
+<s> I know similar questions have been posted, buy my situation is a little different, so I will explain it here. </s>
+<s> A couple of days ago, I had a new wireless home security system installed. </s>
+<s> With it, they provided a new router (D-Link DIR-601), replacing an existing LInksys E-3000 that I owned. </s>
+<s> This didn't hurt my feelings because I was having major issues with the E-3000 and was going to replace it anyway. </s>
+<s> As a part of the security system set-up, they had to assign a new IP address to the router (192.168.36.1) so all of the home security components can access it. </s>
+<s> As I said, I planned on replacing the Linksys - and in fact had ordered a new ASUS RT-N56U dual band the day before. </s>
+<s> I like the dual band capabilities because of all of the streaming devices that are used in my house (X-box, TV's, Netflix, etc). </s>
+<s> Well, it arrived today and I want to install it. </s>
+<s> My question is.....how do I make the ASUS my primary router for all of my computers and multimedia components, but still use the D-Link with it's IP address for my home security network. </s>
+<s> We are totally wireless (no hardwired connections) with only 1 DSL line. </s>
+<s> Any help is greatly appreciated. </s>
+<s> Ross </s>
+<s> This is discussed in the forum sticky but. </s>
+<s> The lazy way to do this is to use your new router as a switch/AP. </s>
+<s> Hook a cable between LAN ports on both your new and old router. </s>
+<s> All your devices will use 192.168.36.0. </s>
+<s> You should still be able to use all the wireless capability just none of the router functions. </s>
+<s> Mostly it would be firewall and content filter type stuff. </s>
+<s> The other way is to run the dual NAT configuration. </s>
+<s> You would put your new router on the DSL and then plug the WAN interface of the security router to a LAN port of the new router. </s>
+<s> The main disadvantage to doing this is if you need to map ports from the internet to a device in your security area you have to map the IP though both routers. </s>
+<s> It is also much more troublesome to make machines talk between the 2 networks than if they were on the same subnet. </s>
+<s> My only concern with the &quot;lazy&quot; way is: won't I lose the benefit of the 801.11n transfer rates because it will bottle neck at the D-Link router? </s>
+<s> Because of that, I'm thinking that setting it up with the dual NAT config would be the better of the two options. </s>
+<s> Don't think I would need to map anything to the security system - but won't know until I set it up I guess. </s>
+<s> You should get no bottlenecks directly as a result of dlink. </s>
+<s> In theory the only traffic that should ever pass from the linksys to the dlink would be going to the internet. </s>
+<s> Any traffic between devices on the linksys would talk directly since they are on the same subnet and have no need to pass the traffic though the default gateway. </s>
+<s> I guess you could swap the routers and hook the internet to your linksys and have it be the DHCP server for 192.168.36.0 (just to avoid changing all your end devices) and then use the DLINK as a switch .. ie hooks its lan port to the linksys. </s>

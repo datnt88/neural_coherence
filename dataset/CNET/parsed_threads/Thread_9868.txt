@@ -1,0 +1,92 @@
+<s> Hi, My set up: 550w PSU - new Mobo - gigabyte 7N400 Pro 2 - new 3 x 256DDR AMD XP1800 I have just bought a new mobo (gigabyte 7n400 pro 2) and am trying to rebuild my PC. </s>
+<s> I have installed the minimum - mobo, floppy, 1 stick of ram, video and the processor. </s>
+<s> When I powered on the psu, ram LED, and the CPU fan all came on. </s>
+<s> But I got no beeps and no signal to the monitor at all. </s>
+<s> So I removed the CPU and powered on - still no beeps, then i removed the floppy - still no beeps. </s>
+<s> I do not want to belive that this motherboard is dead - its new. </s>
+<s> Is there any way I can test the CPU? </s>
+<s> My old mobo died and took my old PSU with it - could it have killed the CPU as well? </s>
+<s> Please help!! </s>
+<s> Thanks Cat </s>
+<s> Hi, Just a quick add-on to say that i have now been to a store and tested my CPU and ram, they all work ok. </s>
+<s> Thanks Cat </s>
+<s> Does your mobo have on-board video and you installed a separate card and you have the monitor plugged into the wrong connector? </s>
+<s> I've done this and by not getting any beeps, the mobo is fine and won't beep a video error (three short beeps)because the on-board is enabled by default in the bios. </s>
+<s> If this is not the case, try reseating the video card firmly by taking it out completely and then reseating. </s>
+<s> Then check for bent pins at the connector for the monitor to the card. </s>
+<s> One long beep would be ram not seated firmly or incorrect ram for the mobo....but since you have three sticks, take two out and start with just one, and keep replacing that one with the other two one at a time in the 0 or 1 slot to see if it will boot up. </s>
+<s> If it does, then you know that one of your sticks isn't seated correctly or isn't matched up with the other two correctly or you might even have a bad slot for ram on the mobo (warranty item for ram or mobo). </s>
+<s> I would also disconnect the floppy drive and only plug in a keyboard to begin.....KISS is the key and you've done well with your troubleshooting so far. </s>
+<s> TONI </s>
+<s> give beeps due to it's absence or failure in the POST. </s>
+<s> However, a bad video card should. </s>
+<s> Of course to get beeps, the speaker has to be connected. </s>
+<s> Seems as if Toni may be on the right track. </s>
+<s> A video card conflicting with onboard video. </s>
+<s> Don't know what a RAM LED is, but probably matters not. </s>
+<s> had preceeded it, often results in a shorted mobo IF one left behind one of the hex standoffs that does not line up with a mounting hole in the new mobo. </s>
+<s> Rather common happening. </s>
+<s> Possibly simply grounding an artwork signal line or two and not causing permanent damage. </s>
+<s> Hi, Thanks for your advice everyone. </s>
+<s> I am not sure what caused my original problem, but I decided to try the slightly unorthodox approach of just putting the whole lot together and turning it on. </s>
+<s> It now works!! </s>
+<s> (I will never understand) Only now I am having another problem (its always something lol). </s>
+<s> My gigabyte mobo has a raid function, there are 2 non-raid IDE ports + 2 raid IDE ports. </s>
+<s> As I dont want to loose the contents of the HDD'S (1X 80, 1X 160) so I put them into one of the non raid IDE ports, with the cd in the other. </s>
+<s> My BIOS recognises both but the RAID keeps kicking in to force me to configure them into some kind of array. </s>
+<s> I have tried to disable the raid in the bios, but then the bios doesnt recognise either drive. </s>
+<s> So i decided to re-enable the raid in bios, then put both drives in the raid ide ports and then configure them to 'normal' which means the raid does not alter them. </s>
+<s> However the raid configuration will not let me do that either. </s>
+<s> Ive tried every type of bios configuration/port combinations I can think of, Ive got to the windows xp screen a few times, but a blue screen (Ive never had the blue screen of death before - is this it?) </s>
+<s> with some white letters come up and then it crashes and all starts again aggh! </s>
+<s> Any help is appreciated. </s>
+<s> Thanks Cat </s>
+<s> simply misinterpreting the BIOS settings. </s>
+<s> They are confusing as heck re RAID. </s>
+<s> Usually the RAID controller is also used for IDE/ATA/ SATA, whatever drives, so the controller is enabled and the settings for normal IDE use still have the word RAID after them. </s>
+<s> Try carefully studying the various BIOS settings for the RAID controller. </s>
+<s> If you can't get it figured out, I'll download your manual and see if I can help. </s>
+<s> Gigabyte manuals are terrible in the use iof half arsed pidgen english statements [I prefer Giga mobos but their manual, FAQ's and email support stinks]. </s>
+<s> Abit has the most well written manuals I have seen. </s>
+<s> Not perfect but good. </s>
+<s> Iwent through this nonsense with a Giga for a computer that I built for my Granddaughter. </s>
+<s> Even had to remove an overall shield connection for front USB ports to put the SATA drive on the controller that I wanted. </s>
+<s> UNBELIEVABLE, but true. </s>
+<s> which rev do you have. </s>
+<s> Then describe exactly what drives are where [and their type], what's seen in the BIOS boot screen. </s>
+<s> I have downloaded the earlier rev manual, and can look at that to see if I can help, after you explain exactly what is happening. </s>
+<s> TWO different RAID controllers. </s>
+<s> One is part of the Nvidia chipset and the other is the GIGA RAID controller. </s>
+<s> Confusing as heck as to which one you set for what in the BIOS. </s>
+<s> Hi, Thanks for your reply - Im sure you are probably right - ive tried so many ways I dont know whether im coming or going!! </s>
+<s> I havent even gone near the nvida as far as i know. </s>
+<s> Heres a few things ive tried, My BIOS has the following in the bios: 1.Onboard H/W serial ATA - default - enabled chip function 2.serial ata function - default - function as raid 3.onboard h/w raid - default - enable onboard gigaRAID chip function. </s>
+<s> 4.gigaRAID function - default - chip function as raid (not ATA) I have numbered them for ease of explanantion. </s>
+<s> I have tried 2 as ATA function, with 3 & 4 disabled & the hdd's in the standard port - this resulted in a huge continuous loud grinding type beep, although did allow me to change the bios back. </s>
+<s> Ive tried 2 as raid, with 3 & 4 disabled. </s>
+<s> The computer wouldnt recognise the second HDD. </s>
+<s> Ive tried to have the default settings with both the hdd in the standard port - the raid kept on kicking in. </s>
+<s> Ive tried to have the default settings with the hdd's both in the raid ports, this resulted in the raid configuration not allowing me to have the hdd's as 'normal'. </s>
+<s> I also tried to configure them into a 'JBOD' array, this resulted in the blue screen. </s>
+<s> I then tries to do a 'JBOB' array, but with the boot set to cd, the computer then booted from the windows cd, (i had accepted that i would have to loose the contents of the hdd's atthis point) but then setup could not continue due to there being no hdd's in the standard ports. </s>
+<s> I have tried a few other things too but I just cant remember exactly what. </s>
+<s> I hope this helps you be able to help me! </s>
+<s> Thanks very much Cat </s>
+<s> the Primary IDE controller, your items 2, 3, & 4 should all be DISABLED. </s>
+<s> You are using none of these. </s>
+<s> You don't even want the boot to check for drives in them during the boot process. </s>
+<s> What order of booting have you set? </s>
+<s> You didn't possibly err by setting one of the unused functions in the boot sequence. </s>
+<s> That could confuse things. </s>
+<s> For detection of your hard drives in the BIOS, simply set the Primary Master and Primary slave to AUTO. </s>
+<s> That way the drives get redetected at each boot. </s>
+<s> Don't enter any paramaters for the drives. </s>
+<s> I hope that you have jumpered them properly. </s>
+<s> You should have the 80 conductor ribbon cable, and the mobo cetainly supports Cable Select, so jumper both drives as CS and plug the drive you want as Master into the end connector of the 80 conductor [40 pin] cable, the other into the middle connector of the ribbon cable. </s>
+<s> Hi, They were all jumpered and booted and cabled etc correctly. </s>
+<s> The only thing is when i tried to boot from my master drive a windows32 seup file was missing so I had to change my bios to boot from my win xp pro cd. </s>
+<s> Windows has now almost finished installing itself, and I expect it means i will have lost everything on the master drive - but im hoping that everything on the slave is intact as this was my main storage drive. </s>
+<s> Fingers crossed. </s>
+<s> (But then i suppose even if i did loose it all that would serve me right for not backing up for about a year! </s>
+<s> lol) Thanks so much for your help, I really appreciate it - i would have been trying to figure this out for days, even weeks if you hadnt been here!! </s>
+<s> Take care & thanks again Cat </s>

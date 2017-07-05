@@ -1,0 +1,111 @@
+<s> A few weeks ago, while using my beloved desktop, it crashed to &quot;blue screen error&quot;. </s>
+<s> *** STOP: 0x0000007B (0x81482E50, 0xC0000032, 0x00000000, 0x00000000) INACCESSIBLE_BOOT_DEVICE I am completely new to the 'seriously crashed machine' scene. </s>
+<s> And really shaken-up, I tried a Norton Recovery diskette (which went and wrote a Windows Millenium &quot;boot block&quot; onto my hard drive, by way of &quot;system recovery&quot;). </s>
+<s> Then I tried to boot my system: Windows reported an &quot;invalid disk array&quot;. </s>
+<s> Then with my heart in my mouth ( 'cos things seemed to have gotten worse) I learnt from the internet that Norton (System) Recovery Diskettes are made to recover Win9x and WinME systems -- Ouch! </s>
+<s> So, what could cause Windows to suddenly change its mind about a set of Seagate Barracuda disk running off a HighPoint HPT370A RAID controller (processor), in RAID 0 configuration ? </s>
+<s> Or, more accurately, what is an &quot;inaccessible boot device&quot;? </s>
+<s> My Norton Anti-virus guard had the latest virus definitions and was operational. </s>
+<s> And one day or so before, I had done a full system virus check which found no viruses. </s>
+<s> I also have a fully working firewall, which also was operational. </s>
+<s> And, and I had my Windows service packs installed and up-to-date. </s>
+<s> The Resulting situation: a) My desktop could no longer boot-up through to the Windows desktop. </s>
+<s> b) BIOS could &quot;see&quot; my hard drive and the HighPoint RAID Controller RAID 0). </s>
+<s> c) BIOS could boot my system up to: &quot;invalid disk&quot; &quot;please insert disk and press any key&quot; d) The &quot;posting&quot; process for BIOS boot-up allows boot-up from: i) floppy, on drive A: ii) CD, on drive D: I then attempted Windows Recovery from the Windows CD-ROM. </s>
+<s> The result of this was: i) Windows Setup kept needing to be supplied with the driver for the HighPoint RAID controller. </s>
+<s> ii) Windows Setup could not do an &quot;emergency&quot; system repair -- it needs a previously prepared &quot;Emergency Diskette&quot; to be able to do that. </s>
+<s> And I never knew about this. </s>
+<s> I never made one. </s>
+<s> iii) Windows Setup said that it couldn't find the &quot;existing Windows operating system&quot; iiii) Windows Setup said that it was unable to format my hard drives (which have one large partition (38MB) and one small partition (4MB). </s>
+<s> [I never new that my drives were set up this way. </s>
+<s> My desktop was factory assembled. </s>
+<s> I bought it complete. </s>
+<s> That company went bust this January gone!) </s>
+<s> Really, I wanted to recover three years worth of my work which I had on my hard drive (and I still want to). </s>
+<s> When I consulted one of the tech support guys over at a Microsoft technical support center (70 per hour), the guy there said to me: &quot;There is no way that the work and information on the hard drive can be saved (recovered)&quot; He then strongly advised that I &quot;reformatted&quot; my drives for the purpose of doing a &quot;fresh install of Windows&quot;. </s>
+<s> I asked him again if there was another way to recover my system so that I would not loose my precious work. </s>
+<s> He repeated: &quot;No.There isn't.&quot; As I am new to the innards of a computer -- and frankly, I was panic striken -- I went with his advice. </s>
+<s> The formatting process proceeded for some minutes (and, it formatted over 80% of drive C), then Windows 2000 Professional Setup program stopped and reported that: &quot;Setup was unable to format drive C. The hard disk may be damaged. </s>
+<s> Make sure the disk is on and properly connected to your computer. </s>
+<s> If the disk is a SCSI disk, make sure your SCSI devices are PROPERLY TERMINATED. </s>
+<s> See your computer or SCSI adapter documentation for more information. </s>
+<s> setup cannot continue. </s>
+<s> To quit Setup, press F3.&quot; v) Windows Setup said that it was unable to (do anything) and I quit it. </s>
+<s> Another Questions: Did the format process wipe any of my data? </s>
+<s> It aborted before completing whatever it was doing. </s>
+<s> Can I rescue my data? </s>
+<s> B. I then tried the Windows Console tool: i) Windows Console's CHKDSK /R reported that: &quot;... unrecoverable errors&quot; Well, what does that mean? </s>
+<s> While you are all scratching your heads, here is the current state of play: ........................................................................................................................................ 1. </s>
+<s> I contacted HighPoint and asked for a bootable diagnostic software tool. </s>
+<s> I got this, used it and sent the results back to HighPoint Technologies. </s>
+<s> This is their reply: &quot;Dear Sir/Madam, Testing UDMA 5 on ST320414A: fail --- the hard disks can't work with ATA100 normally. </s>
+<s> The verification is OK---It means that the hard disks doesn't have bad sectors. </s>
+<s> &quot;Invalid partition table. </s>
+<s> Setup cannot continue .. Error loading operating system. </s>
+<s> Setup cannot continue... &quot; You can ignore the above information. </s>
+<s> Each logical hard disk will have this information. </s>
+<s> All ZEROS from word address [000] through to word address [1F0] As you create RAID0 with the hard disk. </s>
+<s> And this hard disk is the second member of the RAID0. </s>
+<s> So you can't see the &quot;Invalid partition table. </s>
+<s> Setup cannot continue&quot; We think your hard disks can't work normally. </s>
+<s> You had better not plug them into the HPT370 controller and create RAID with them. </s>
+<s> Regards, HighPoint Technologies Inc.&quot; Now, I nowadays find that I have to ask this question: &quot;Do these guys know what they are talking about?&quot; And: &quot;What does it mean -- what they have said. </s>
+<s> What does it mean?&quot; Anybody know? </s>
+<s> and 2. </s>
+<s> Take a look at this from Seagate Technologies: &quot;Mr (xxxxxxxx), The reason Seatools is not seeing the drives is because of the Highpoint RAID controller. </s>
+<s> Seatools can not test the drives on a RAID controller other than the Generic mode. </s>
+<s> I would suggest running a Windows 2000 Repair. </s>
+<s> What are the results. </s>
+<s> Best Regards, Stefan M. Seagate Technical Support&quot; Okay guys, what's he saying? </s>
+<s> Just so you guys know: only one of the software tools on the SeaTools software package failed. </s>
+<s> Six other software tools worked. </s>
+<s> And they correctly identified the HPT370A controller, and the two hard disks. </s>
+<s> I need and want to restore my system to full workability, just as fast as possible. </s>
+<s> With my data recovered and a RAID hard drive setup -- I want the speed of RAID. </s>
+<s> Any ideas -- anybody? </s>
+<s> Good, workable advice and instruction will be especially welcome. </s>
+<s> Thanks --------------------------------------------------------------------------------------- Motherboard: EPoX 8KTA3+ with HighPoint IDE RAID CPU: Socket A AMD Athlon 1.2GHz 266 FSB Memory: 128MB SDRAM PC133 Hard disk (Master: Channel 1): 20GB UDMA (RAID 0) Seagate Barracuda ATA ST320414A Hard disk (Slave: Channel 2): 20GB UDMA (RAID 0) Seagate Barracuda ATA ST320414A Graphics Card: 32MB GE-Force II MX -- HER Sound Card: Video Logic Sonic Fury (Turtle Beach) CD Drive: 16x 10x 40 OEM Mirai BurnProof CD-RW DVD/CD Drive: 16x Pioneer Slot Loading drive </s>
+<s> &quot;There is no way that the work and information on the hard drive can be saved (recovered)&quot; He then strongly advised that I &quot;reformatted&quot; my drives for the purpose of doing a &quot;fresh install of Windows&quot;. </s>
+<s> I asked him again if there was another way to recover my system so that I would not loose my precious work. </s>
+<s> He repeated: &quot;No.There isn't.&quot; As I am new to the innards of a computer -- and frankly, I was panic striken -- I went with his advice.&quot; That in a nutshell is at the heart of this issue plus you were handed a HIGH MAINTENANCE machine with a timebomb till it went pwoof. </s>
+<s> I can safely bet that no one ever told you that HARD DISKS ARE TEMPORARY STORAGE. </s>
+<s> With all I've read in your post, the formattiong, partitioning and more that has been done has moved your data recovery to only where PROFESSIONAL RECOVERY SERVICES and about 4 figures will get this back. </s>
+<s> Before we go one step further, is there a backup of what you can't lose? </s>
+<s> Bob </s>
+<s> No. </s>
+<s> There is no back up (Gulp !) </s>
+<s> JayC </s>
+<s> http://www.drivesavers.com/ and http://www.ontrack.com/ Bob </s>
+<s> I see ... Data recovery firms are my only option now for recovering my data. </s>
+<s> As for my computer system -- what do you recommend? </s>
+<s> Do I go buy a whole new computer now? </s>
+<s> Or do I patch up the one I have which is kaput just now? </s>
+<s> Thanks. </s>
+<s> JayC </s>
+<s> I recall offering advice that what you may have spent on phone support could buy a new 40 to 120GB drive that is likely as fast as that 20GB drive. </s>
+<s> RAID would be debateable since installation methods are quite diverse so what I know may not apply. </s>
+<s> In fact, I prefer boring stable and fast setups over faster and unsupportable any day of the week. </s>
+<s> If this was my machine, I wouldn't have the dataloss issues, but would move the 20GB drives to normal ATA ports, and just plow ahead. </s>
+<s> DVD writers fell below 80 dollars and 40+GH of DVD-RW disks were all of 20 bucks. </s>
+<s> That's one backup set and if the data wasn't worth that much, then what can be written? </s>
+<s> Bob </s>
+<s> have you tried any third party raid tools? </s>
+<s> specificly one that would reload the system boot up files?. </s>
+<s> it would be like sys.exe in the dos days!. </s>
+<s> what has happened is the mbr was modified. </s>
+<s> most likely missing IO.sys and MSDOS.sys you can try buy coping command.com to the root directory of c:\windows. </s>
+<s> This may sound silly but if you are using a Windows operating system that uses DOS as the underlying software .. as in Win 95,Win 98, Win 2000 ..etc.. using the old DOS commands may help you in copying your data to another drive or discs formatted in DOS.. just a suggestion. </s>
+<s> DOS works very slowly but it does work . </s>
+<s> For your info DOS is the original Operating software using Command.com that is present in most Windows products.. </s>
+<s> I am not sure whether this is true however for Windows XP. </s>
+<s> good luck </s>
+<s> Going to a data recovery firm is a little late, once you have tried to recover and reformatted/partitioned it is extremely unlikely you can get anything back. </s>
+<s> I have clients that have paid Ontrack and others to get their data back, and it has been successful, but it has cost $1500-$120000, and getting back data from a RAID array is in the higher priced range because of the complexity involved. </s>
+<s> In your case you posted your questions for help too late. </s>
+<s> your responses to the replies I will simply suggest that you can sit down with the discs and a good sector editor and recover what you can sector by sector. </s>
+<s> (You have mentioned limited funds so professional recovery is out and RAID 0 recovery is EXPENSIVE!) </s>
+<s> Here are a couple and you can use this link to find others: http://www.google.com/search?sourceid=navclient&ie=UTF-8&oe=UTF-8&q=%22sector+editor%22 BreakPoint Software offers the HEX Workshop at http://www.hexworkshop.com/ X-Ways Software offers several forensic tools including WinHex at http://www.x-ways.net/index-m.html &quot;Roadkils&quot; offers another here http://www.filehungry.com/index.php?action=viewitemdetails&id=10047 Another would be DISKEDIT (find it here http://www.clinch.ch/CLINCH/DownLoad.htm ) and this site will help with your editing project http://www.geocities.com/thestarman3/DOS/bd98/bd98NDE.html For getting back up and running the advice to skip the RAID and start with a single good IDE drive to keep things simple is something you should really consider. </s>
+<s> The alternative is to take your problem to a professional and pay for the fix. </s>
+<s> Good luck. </s>
+<s> I have the same problem and I'm currently looking for solution. </s>
+<s> PLEASE ADVICE THANKS, EUGENE </s>

@@ -1,0 +1,94 @@
+<s> I want to network two XP 9main PC HOST, and laptop GUEST) (XP Home, and XP pro), the main PC Host is pro, and the laptop (home XP), I have a Switch and DSL Internet. </s>
+<s> What IP address should I use?, when I have the IP on auto I can use the internet, when I use this IP192.168.0.1 address I cant log onto the net. </s>
+<s> When I use my laptop (Guest) I can see the host PC when I use this IP 192.168.0.1 I can see the host But can see icon on the host PC but it wont communicate </s>
+<s> I see 2 PC's a switch and a DSL modem. </s>
+<s> Where's the router? </s>
+<s> Bob </s>
+<s> Hi Bob Do you need a router? </s>
+<s> Looks like a part is missing from your network. </s>
+<s> Bob </s>
+<s> if you want toe manually set up the TCP info and keep it static, just go to a command prompt while it is set to auto and type &quot; ipconfig /all &quot; copy that info down and that is what you want to use to set up your static IP. </s>
+<s> this will ensure that you have it exactly as your dynamic settings that work are. </s>
+<s> so you need to change one or the other. </s>
+<s> i.e. </s>
+<s> IP Address (Host pc) 192.168.1.1 .. and the other is 192.168.1.2 in ipconfig /all Physical Address. </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : xx-xx-xx-xx-xx-xx (this is your mac address) Dhcp Enabled. </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : NO Autoconfiguration Enabled . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : Yes/no (you might not see this) IP Address. </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : 192.168.1(should be the same). </s>
+<s> (should be different) the following should be the same. </s>
+<s> Subnet Mask . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : 255.255.255.0 Default Gateway . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : 192.168.xxx.xxx DHCP Server . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : 192.168.xxx.xxx DNS Servers . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : xxx.xxx.xxx.xxx </s>

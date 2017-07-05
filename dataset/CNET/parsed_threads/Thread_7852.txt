@@ -1,0 +1,23 @@
+<s> Hi all. </s>
+<s> I'm having problems accessing the configuration utility of the *second* router in my daisy chain. </s>
+<s> Here's my setup. </s>
+<s> I have one router (router 1) on ground floor which gets internet from the modem. </s>
+<s> That router is then plugged into the LAN port of a wireless router upstairs (router 2). </s>
+<s> My laptop is then plugged into another LAN port on router 2. </s>
+<s> This allows me internet access as intended. </s>
+<s> But I'd like to log into the the configuration utility of router 2. </s>
+<s> But when I type the IP address of router 2 into my browser (192.168.1.1), it takes me to the configuration utility of router 1. </s>
+<s> Router 2 is out of the box--I haven't done any configuration to it (for example, changing its static IP address). </s>
+<s> Thanks in advance for any help. </s>
+<s> The story is incomplete or I missed where the second router's WAN port is UNUSED. </s>
+<s> Google HOW TO USE A ROUTER AS A WAP to find out how I get this to work. </s>
+<s> Bob </s>
+<s> Yes, the WAN port on router 2 is unused. </s>
+<s> Router 1 is connected to one of the LAN ports on router 2. </s>
+<s> This is how various articles described this setup, and it works. </s>
+<s> To be precise, the articles also said that I had to set the IP address of router 2 to something outside router 1's range, and I had to disable DHCP management on router 2. </s>
+<s> I did not do either of those, and everything works. </s>
+<s> I won't worry about it until I encounter problems. </s>
+<s> Anyway I solved my problem. </s>
+<s> Like a bonehead, I had the LAN connection disabled on my computer. </s>
+<s> When I re-enabled it, I was then able to log in to router 2 and configure it. </s>

@@ -1,0 +1,32 @@
+<s> I have three wireless routers configured using the same SSID. </s>
+<s> Two of the routers are bridged off the main one and act simply as wireless access points. </s>
+<s> This allows me to wander around my house and always get a strong signal. </s>
+<s> The bridged routers have their DHCP turned off. </s>
+<s> I've found that when I try to access the LAN from my laptop after it's gone to asleep, I occasionally end up with just a self-appointed IP address and no amount of turning off Airport or renew the DHCP gets me a new address. </s>
+<s> I have to turn off Airport, go to a spot where I'm fairly close to the main router, get an IP address assigned, and then I'm fine.&#8232;Anything I should look out for in terms of router settings? </s>
+<s> As it turns out, all three routers are from different manufacturers: D-Link, NetGear, and ActionTec (the latter being the default device you get with Verizon FIOS and it's the &quot;main&quot; router in my network). </s>
+<s> To have the same SSID. </s>
+<s> I bet windows is confused. </s>
+<s> Actually, Windows has nothing to do with it. </s>
+<s> Using the same SSID is common (think of when you're using a wireless service in a large hotel. </s>
+<s> They have multiple wireless access points with same SSID. </s>
+<s> Otherwise they'd have to publish the name of every single one). </s>
+<s> I'm just not sure if I need to do something else since I'm using routers instead of dedicated wireless access points. </s>
+<s> Many get stuck on trying it their way and end up upset. </s>
+<s> Try it with different ssid and setup per this forums sticky. </s>
+<s> And &quot;bridge&quot;? </s>
+<s> Is that the same setup at post 18 or so in this forum's sticky post? </s>
+<s> Bob </s>
+<s> I suspect you have a issue at the wireless level not related to DHCP. </s>
+<s> The simple way to test this would be to use a static configured IP and see if you still lose connectivity after a time. </s>
+<s> If you do then its going to be in the wireless part related to which access point you are connected to. </s>
+<s> It takes a fairly advanced access point to allow you to switch between access point and keep all you encryption stuff correct. </s>
+<s> Now if the the hardcoded IP works then you do have a DHCP issue. </s>
+<s> First be sure that the bridged access points actually bridge the DHCP request. </s>
+<s> DHCP is a very special broadcast that the router can intercept so you have to be sure it bridges these too. </s>
+<s> What is strange is that after you have a DHCP address off the main router it does not use broadcast or bridging to keep it active. </s>
+<s> It send DHCP keepalive type requests directly to the IP of the DHCP server. </s>
+<s> Maybe when the laptop is in sleep mode maybe it does not contact the DHCP server to keep the address active and therefore must start again with broadcast. </s>
+<s> So it could still be a blocking of broadcast DHCP requests on your bridged routers. </s>
+<s> Setting the lease time on the DHCP server very high would prevent timeout while your PC is asleep but not really fix your problem. </s>
+<s> Still it all comes down to do the bridged routers really bridge the initial broadcast DHCP requests, not going to be simple unless you have some way to see the traffic coming in and going out each device. </s>

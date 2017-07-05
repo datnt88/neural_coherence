@@ -1,0 +1,100 @@
+<s> Im tring to install a Radeon 7500 series Graphics card to my HP Pavilion 700 mhz , on board graphics is 82810 Intel graphics controller Intel chipset says it supports Radeon series . </s>
+<s> I have tried multiple options with no luck in disableing old graphics nothing shows up in add/remove relating to it. </s>
+<s> I have tried Device manager unclicking exists in all hardware(old onboard graphics) then rebooting with new card Radeon software will not install properly What is the exact procedure needed to sucessfully install this card im exhausted!! </s>
+<s> ! </s>
+<s> disable it in the bios </s>
+<s> How do I enter bios? </s>
+<s> What do I look for to disable it in bios? </s>
+<s> When do I disable? </s>
+<s> The i810 may not have a disable. </s>
+<s> And if you read the HP Forums you find you've selected a problematic combo. </s>
+<s> But let us try anyway. </s>
+<s> Since we don't disable the i810 video, we just set the AGP or PCI to be the primary display and then connect the display to the card/connection we want. </s>
+<s> Then we install the ATI drivers. </s>
+<s> NO! </s>
+<s> We don't uninstall the i810 video drivers. </s>
+<s> bob </s>
+<s> Can u put it in a step by step format please. </s>
+<s> I have tried so many combonations its rediclus thanks </s>
+<s> For me, my step by step is... 1. </s>
+<s> Power off. </s>
+<s> 2. </s>
+<s> Cover off. </s>
+<s> 3. </s>
+<s> Install card per manual. </s>
+<s> 4. </s>
+<s> Power up. </s>
+<s> Connect monitor to connection that works. </s>
+<s> 5. </s>
+<s> Set BIOS to PCI if I added a PCI card, or AGP if I installed an AGP card. </s>
+<s> Save and reboot. </s>
+<s> 6. </s>
+<s> Move monitor connection if need be. </s>
+<s> 7. </s>
+<s> Let windows boot. </s>
+<s> 8. </s>
+<s> Just ok all the errors. </s>
+<s> 9. </s>
+<s> Install the drivers. </s>
+<s> Best of luck. </s>
+<s> If that doesn't do it, then it's likely you are like many other owners and need to try a Nvidia card. </s>
+<s> Bob </s>
+<s> per manual meaning put in the right PCI slot because manual says to first disable old graphics card which is what brought me here! </s>
+<s> So can we still do this wihthout going by the manual.It doesnt give good details. </s>
+<s> Step 4 Do you mean connect to onboard monitor port or new Radeon monitor port that works. </s>
+<s> Step 5 Can u explain how to access BIOS Im installing PCI card. </s>
+<s> Step 6 Switch monitor ports if needed? </s>
+<s> &quot;per manual meaning put in the right PCI slot because manual says to first disable old graphics card which is what brought me here! </s>
+<s> So can we still do this wihthout going by the manual.It doesnt give good details.&quot; And that is what throws HP owners with i810 chipsets for a loop. </s>
+<s> Some don't have a disable. </s>
+<s> But I already noted this. </s>
+<s> So we get to leave it alone and trudge forward. </s>
+<s> Some get stuck at this step for a very long time. </s>
+<s> &quot;Step 4 Do you mean connect to onboard monitor port or new Radeon monitor port that works.&quot; You use the one that works. </s>
+<s> &quot;Step 5 Can u explain how to access BIOS Im installing PCI card.&quot; If the Radeon is the boot display, we don't need to do this. </s>
+<s> &quot;Step 6 Switch monitor ports if needed?&quot; Use the one that works. </s>
+<s> Since it's the Radeon, we're done. </s>
+<s> Bob </s>
+<s> 1. </s>
+<s> Power off. </s>
+<s> OK 2. </s>
+<s> Cover off. </s>
+<s> OK 3. </s>
+<s> Install card. </s>
+<s> OK 4. </s>
+<s> Connect monitor to connection that works.Power up DO I Connect to new Radeon card ? </s>
+<s> 5. </s>
+<s> (Set BIOS to PCI if I added a PCI card, or AGP if I installed an AGP card. </s>
+<s> Save and reboot.) </s>
+<s> Do I NEED to check if my BIOS is set for PCI I recall seeing a message saying no pci slots filled when Radeon was in. </s>
+<s> Plus I only have PCI slots in my PC . </s>
+<s> 6. </s>
+<s> Move monitor connection if need be.OK 7. </s>
+<s> Let windows boot. </s>
+<s> OK 8. </s>
+<s> Just ok all the errors. </s>
+<s> Hmmm OK 9. </s>
+<s> Install the drivers. </s>
+<s> OK </s>
+<s> You wrote that the video appeared on the new Radeon card so we have no reason to &quot;check&quot; the BIOS. </s>
+<s> As I previously wrote, your selection of card and machine is not assured to work. </s>
+<s> You can read many horror stories about it, but I have supplied what I do to get the ones that will work to install. </s>
+<s> If it doesn't, then you won't see any magic fix from me. </s>
+<s> Bob </s>
+<s> Well i appretiate all the input. </s>
+<s> i found out that disabling graphics and installing new is no easy task for a beginer like myself. </s>
+<s> You did mention the HP forums http://h10025.www1.hp.com/ewfrf/wc/document?product=81921&lang=en&lc=en&cc=us&dlc=en&docname=bph06273 This is very helpful but still confusing I have installed the card with those steps mentioned and still having unsure doubts weather or not its installed right One thing is when i open Device manager under Display adapters RADEON 7500 SERIES this seems to be right But then I see this new catagory called ? </s>
+<s> Other devices ? </s>
+<s> PCI VGA-Compatible Display Adapter with red X in it Does this also have to be woking properly should i reinstall it Ive tried playing the game and its working ok not great Also in Control panel/systems/properties says this Memory 511 system res 60% free File Sys 32-bit Virt Mem 32-bit Disk Comp not installed PC Cards{PCMCIA} No PC Card sockets are installed system conf optimal perfomance </s>
+<s> If your new card is working, then enjoy it. </s>
+<s> If you must have a &quot;clean&quot; device manager, I'd have to visit the machine. </s>
+<s> By forum its tough since some will do odd things that I don't know about. </s>
+<s> I did write that I don't uninstall the old drivers, but some try anyway and that's where the items will show on i810 based systems. </s>
+<s> ATI makes instructions that work for 98% or better of the machines out there. </s>
+<s> For you, you need better. </s>
+<s> Hope this helps, Bob </s>
+<s> Where do I check to see if the new card has been installed and recognized for sure? </s>
+<s> What will tell me for sure that its even being used? </s>
+<s> You would run that 3D game you installed this card for... Bob </s>
+<s> Yes I am running the game and everythings seems to be working so far. </s>
+<s> Last install i thought the game was running fine then i was bombarded with errors like INS5576,OLEAUT32dll and would only start in safe mod Also ATI has informed me not to pay any attention to thier so called PC Check has a few bugs in it http://64.4.53.250/cgi-bin/linkrd?_lang=EN&lah=346a15a8c7ac13bd4eec067ac83dcd79&lat=1097193960&hm___action=http%3a%2f%2fwww%2eati%2ecom%2fsupport%2finfobase%2f4068%2ehtml </s>

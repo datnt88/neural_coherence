@@ -1,0 +1,51 @@
+<s> Hello, I am looking for the best router wireless Access Points that allows me to create a white list with Internet addresses and not IP addresses. </s>
+<s> I found the Dlink DIR-615... but is it the best for this? </s>
+<s> Thank you </s>
+<s> I could put in IP addresses as well as URLs so it fails your specification,. </s>
+<s> Why must the router exclude the ability to put in the IP address? </s>
+<s> Just curious. </s>
+<s> Bob </s>
+<s> Dear Bob, Why? </s>
+<s> it's because everybody give me a good way, but it's only working with IP and I want to make it with URL without to configuring iptable... Well I want to know if this kind of wireless router exists. </s>
+<s> Thank you </s>
+<s> Depends what you mean URL. </s>
+<s> The sitename-ip resolution will be made by the PC before the request is sent thought the router so it will never see the actual a packet with the DNS name of the site they will always only have IP. </s>
+<s> Some of the routers that claim to block URl really just block the DNS name. </s>
+<s> They will have to do a DNS lookup to actually block anything. </s>
+<s> Now if what you want is a router that can say block &quot;www.site1.com/photos&quot; but allow &quot;www.site1.com/text&quot; you need one that read the content of the HTTP request. </s>
+<s> This takes a lot of cpu power to do and really I only know of commercial ones that do this... but there are new routers every day so maybe someone has seen one. </s>
+<s> You might try the DD-WRT firmware load on a router. </s>
+<s> It has the ability to filter keywords so it may work. </s>
+<s> Since the router allowed both, isn't that good enough? </s>
+<s> Or is there a reason you want it to never allow the IP entry? </s>
+<s> Bob </s>
+<s> It's because I'm not very good with admin, iptable.... that's why at first I want URL adress... both is ok. </s>
+<s> Thank you Somebody tell me that :RB951-2n of mikrotik.... Do you know? </s>
+<s> Thank you but with DD-WRT, Tomato, OpenWRT, it's not possible without extensive work on the configuration. </s>
+<s> No, the router has to say in whitelist allow &quot;www.site1.com/texts&quot; allow &quot;www.site1.com/texta&quot; allow &quot;www.site1.com/texti&quot; allow &quot;www.site1.com/texto&quot; allow &quot;www.site1.com/textu&quot; allow &quot;www.site1.com/tex&quot; and block all other URL in the world You says &quot; but there are new routers every day so maybe someone has seen one &quot; yes it is that's why I ask to all wireless forum I can find. </s>
+<s> Somebody speaks me about Mikrotik... </s>
+<s> I have to try. </s>
+<s> Thank you. </s>
+<s> How much URLS can you enter in the white list of the 615? </s>
+<s> For example if I enter &quot;www.site1.com&quot; is it valided for all pages of this address? </s>
+<s> or should I enter in any pages... www.site1.com/tex1 www.site1.com/tex2 www.site1.com/tex3 thank you </s>
+<s> If you recall your IP network classes the web browser does not actually look at a site by name. </s>
+<s> It does a DNS lookup then heads to that IP address. </s>
+<s> Here's a refresher course -&gt; http://www.howstuffworks.com/dns.htm So the bad news is that no router does what you ask. </s>
+<s> Bob </s>
+<s> If this stuff was engineered to be user-friendly, a router would support a list of blacklisted and whitelisted domain names that the user could type in, and there'd be a Big Friendly Button called something like &quot;Refresh&quot;. </s>
+<s> The user would press the &quot;refresh&quot; button when they've finished compiling the list (or just click &quot;OK&quot; or hit the Return key), and the router would scurry off and run a set of DNS lookups to build a corresponding IP-based table somewhere in the background that the user doesn't need to see. </s>
+<s> That way, if a blocked or allowed site changed DNS address, and something stopped working, all the user would have to do is open and close the URL list, or click the refresh button again, and the background table would be updated with the new addresses. </s>
+<s> Otherwise, if you had a list of a hundred whitelisted addresses, and one stopped working, what would you be expected to do - wade through a sea of anonymous looking IP addresses manually trying each one in turn? </s>
+<s> Write your own script? </s>
+<s> This is a simple and common need: If a parent or a small business wants to set up a blacklist/whitelist system, they shouldn't need a degree in computer science and scripting experience. </s>
+<s> And if it's really true that nobody makes a router or software that can hang off a router to do this, then that's says something slightly damning about the industry. </s>
+<s> It's not user friendly except to those that do this all the time and write scripts and such. </s>
+<s> Your comment about the degree is interesting. </s>
+<s> Are you saying that you want this technology but without the need for folk that dive in or take the courses? </s>
+<s> I have run into companies that ask for that but that's a long discussion. </s>
+<s> Look up and you see the usual OpenWRT item but there are companies that make firewall appliances. </s>
+<s> Maybe you are dismissing those as well? </s>
+<s> -&gt; And why post this a year later? </s>
+<s> Not much has changed. </s>
+<s> Bob </s>

@@ -1,0 +1,35 @@
+<s> AMD 2000 A techie partitioned my hard drive, leaving me with XP on one side and Vista on the other. </s>
+<s> I've been using Vista exclusively for two years. </s>
+<s> Recently it got stuck in a boot loop (right after AVG detected a trojan it said it couldn't repair). </s>
+<s> It got to the screen with the green loading bar, then back to the fast-moving set-up option screens (&quot;Press F2 for setup&quot;, etc. </s>
+<s> ), and would stay in that cycle forever while the PC was on. </s>
+<s> So I started using the other drive (XP), which I could choose at one of the early set-up screens. </s>
+<s> It booted fine. </s>
+<s> Then I got &quot;smart&quot; and tried to repair the Vista drive. </s>
+<s> Inserted CD, pressed F2 during boot, set boot priority to CD drive as number one. </s>
+<s> Now when I turn on the PC the hard drive buzzes to life, but the CD drive does not seem to kick in (though its light blinks as if thinking) and nothing happens on screen (it says &quot;no signal&quot; and goes to standby). </s>
+<s> How can I boot from hard drive again? </s>
+<s> Any ideas on course of action? </s>
+<s> Thanks </s>
+<s> What happens if you go into the BIOS setup again (via F2) and set it to boot from the hard disk? </s>
+<s> From your story it's still set to boot from that DVD-drive (Vista doesn't come on CD, it comes on DVD). </s>
+<s> If that doesn't work, it should try the second option, but for some reason it seems it doesn't. </s>
+<s> The hard drive turning is just hardware. </s>
+<s> Doesn't say anything about booting. </s>
+<s> Just changing the boot sequence shouldn't harm the hard disk in any way. </s>
+<s> That's why I think (hope) that everything will be fine if you switch that setting back. </s>
+<s> Kees </s>
+<s> Thanks for responding. </s>
+<s> Actually I couldn't get that far for a while (no screens ever came up so F2 didn't do anything). </s>
+<s> After a few tries I got back into bios and changed the boot preference back to hard drive. </s>
+<s> However, now when the screen comes up asking me to choose which drive I want to run, I get Vista or &quot;a previous version of windows&quot; whereas I used to get Vista or XP as my choices. </s>
+<s> But worse, the arrow keys don't work on that screen, so the Vista option is highlighted and I can't change it, so after 25 seconds it tries to boot Vista automatically, triggering the loop. </s>
+<s> Also on this screen is an option to press F8, however doing so also does nothing. </s>
+<s> So at this point Vista is looping and I am no longer able to choose XP, which I had been doing for a week or so. </s>
+<s> I'd prefer not to take it in for repair because where I live that means a week. </s>
+<s> Before you make changes to your machine, save a copy of the HDD to some external drive. </s>
+<s> I use CLONEZILLA and while it takes hours (I let it backup overnight) it beats the pain when I want to try something dangerous. </s>
+<s> Fixing a tech's custom hack installed XP after Vista job needs a lot of explaining how they did that. </s>
+<s> Also you have to have the XP CD used to install XP as well as the Vista DVD for some boot repairs. </s>
+<s> If there is no other choice and you are willing to risk it all, go get EasyBCD from http://neosmart.net/dl.php?id=1 and see if you can repair the boot manager. </s>
+<s> Bob </s>

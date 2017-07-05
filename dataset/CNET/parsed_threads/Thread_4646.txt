@@ -1,0 +1,83 @@
+<s> I am not sure exactly what would be the problem here. </s>
+<s> I can connect to an open wireless network, with a perfect signal and no encryption of any type. </s>
+<s> However, when I try to access the internet, using either firefox or IE, It acts as if there is no connection. </s>
+<s> This makes no sense to me. </s>
+<s> Why, with a perfect connection, do I not have internet access? </s>
+<s> Is there anything that could be happening on my end to cause this problem? </s>
+<s> Ask the owner of the Wireless Access point. </s>
+<s> They may use Mac address filtering... </s>
+<s> that would mean that i could not connect at all? </s>
+<s> I have had the exact same problem and I assumed it was the MAC address thing. </s>
+<s> My wireless manager says that there is no IP assigned which I think is the MAC addres thing. </s>
+<s> Despite what ordinary day-to-day logical thinking by us mere mortals might suggest, the idea of a connection vs. passing data through that connection are 2 separate events. </s>
+<s> The wireless devices will announce a connection whenever two of them discover each other somewhere up there in the air. </s>
+<s> If the security settings on both ends are the same (e.g., none, as so many fools are set; or encryption where both parties know the password; or MAC filtering, where the serial number of the client adapter is on a &quot;pre-approved&quot; list of authorized users) the two devices will begin to communicate and pass data. </s>
+<s> But otherwise, if the client can't demonstrate to the access point that it has acceptable credentials, the access point will sit there unresponsive. </s>
+<s> dw </s>
+<s> The MAC address is a unique serial number assigned to every network adapter of any type by its manufacturer. </s>
+<s> The IP address is the &quot;street address&quot; on the internet information highway that your connection must have in order for data packets to be delivered to the proper recipient under the rules of TCP/IP networking protocols. </s>
+<s> MAC address filtering is when the owner of a wireless access point sets up a list of the MAC numbers of wireless adapters that will be authorized to use the services of that access point. </s>
+<s> If the MAC number of your wireless card is not on the list, that access point simply won't do any business with you. </s>
+<s> Assignment of an IP address is something which a DHCP server will do whenever a system enters a TCP/IP network. </s>
+<s> Your ISP issues one to your cable modem when you turn it on. </s>
+<s> Your router will issue one to your computer when it boots. </s>
+<s> But if the router is a secured wireless one, an unauthorized intruder will not be given an IP address and no data will be passed. </s>
+<s> The intruder will get that &quot;no IP address assigned&quot; message in their wireless client manager dialog. </s>
+<s> dw </s>
+<s> I will have to talk to the network admin and see if that is the problem. </s>
+<s> I suspect that it is not, since the network is supposedly &quot;open&quot; but that is a starting place. </s>
+<s> Would there be anything else that might create a similar problem? </s>
+<s> issues where the wireless adapter driver was installed incorrectly (bad file copy, munged registry entry, not necessarily anything you did wrong...) which were resolved by deleting the adapter in device manager with a reboot for XP to redetect it and reinstall the driver. </s>
+<s> All of sudden it worked the way it should. </s>
+<s> Have you tried this system at another location and it worked there but not here? </s>
+<s> And yes, continue your conversation with the network tech guys. </s>
+<s> Often if you show a sincere interest in learning yourself how this stuff works, they'll spend a little extra time and show you more about it rather than just clicking the right stuff they know about and giving it back to you with the &quot;Here, idiot, it works now&quot; attitude. </s>
+<s> dw </s>
+<s> so thats fixed the problem. </s>
+<s> thanks for the help. </s>
+<s> Hi, I know that this post may not be totally related to the topic. </s>
+<s> But I hava a MacBook Pro and at home I can connect to my wireless network I setup which doesn't require a password and the internet speed is exceptionally quick. </s>
+<s> But for my work's wireless network, it's a password protected wireless network and my question is why the internet speed is noticeably slower when both use ADSL internet? </s>
+<s> Network traffice being the most likely, but there is also possibility that it is due to the type of encryption that is being used. </s>
+<s> For instance the 128 bit WEP encryption is known to sacrifice speed. </s>
+<s> I get a message to contact the person who manages my network...what does that mean? </s>
+<s> &quot;...if the router is a secured wireless one (which it is), an unauthorized intruder will not be given an IP address and no data will be passed. </s>
+<s> The intruder will get that &quot;no IP address assigned&quot; message in their wireless client manager dialog.&quot; So what can I do? </s>
+<s> Wireless network shows strong connection. </s>
+<s> &quot;Not connected...Security - enabled wireless network...This network requires a network key (which I have). </s>
+<s> You are currently connected to this network.&quot; Installed D-Link Wireless G USB 2.0 Adapter on Dell Dimension 4600C. </s>
+<s> The D-Link software included free CA Anti Virus and Anti Spyware. </s>
+<s> I had McAfee installed on it - last update was 4/2/07. </s>
+<s> This desktop computer hasn't been online for almost 2 years. </s>
+<s> My laptop connects with no problem. </s>
+<s> I get a message to contact the person who manages my network...what does that mean? </s>
+<s> &quot;...if the router is a secured wireless one, an unauthorized intruder will not be given an IP address and no data will be passed. </s>
+<s> The intruder will get that &quot;no IP address assigned&quot; message in their wireless client manager dialog.&quot; So what can I do? </s>
+<s> Okay, good info on this discussion. </s>
+<s> Very likely my situation. </s>
+<s> So, how do I add a MAC number for my wireless card to the list? </s>
+<s> There is an issue with WEP which some might call &quot;secured wireless&quot; in that even the MAC can be spoofed, the WEP key busted in 60 seconds. </s>
+<s> Your post didn't give the exact settings so I'll leave you with this. </s>
+<s> Try it like we ask in this forum's sticky. </s>
+<s> For brevity that is, stock settings, SSID Broadcasting and WPA. </s>
+<s> Bob </s>
+<s> It adds no security today. </s>
+<s> This is why we don't use that. </s>
+<s> Okay, I found out that the router doesnt have MAC address filtering turned on. </s>
+<s> I think I'll try removing the security software and see if that let's me connect. </s>
+<s> Dell Dimension 4600 C Windows XP McAfee Security: Virus Scan, Firewall, Security Center (V 7.2 last update 3/22/07) D-Link Wireless Adaptor </s>
+<s> I deleted the wireless card on my laptop, then rebooted and reinstalled the wireless card and voila, I was back on the net. </s>
+<s> hey i have a problem with windows 7, i can't connect to internet at my place, we just bought a broadband router i connect to my wireless but then it says no internet access with that stupid exclamation sign on my wireless, can anyone please help me? </s>
+<s> i'm getting depressed over this, please reply to my email, simbi80@yahoo.fr i would really be grateful. </s>
+<s> You connect to your wireless: how? </s>
+<s> It says no internet access: what exactly is &quot;it&quot; and what exactly is the message? </s>
+<s> Where's that exclamation sign exactly? </s>
+<s> And, no, we don't communicate via mail. </s>
+<s> But now you've been so friendly to publish it here, be assured the usual spam bots will pick it up, so you might receive a lot of spam in the future. </s>
+<s> Kees </s>
+<s> so we recently bought a broadband router and when i connect to the name of wireless it requires me a password, after filling it, there is near the clock a sign that it is connected, but on that connection sign there is again that exclamation sign saying no internet access. </s>
+<s> it is clear that the network is connected cause it even gives me the option of saying if it is home, public or work, but then after that it says no internet connection! </s>
+<s> Note: run it from the command prompt. </s>
+<s> Kees </s>
+<s> control panel network and internet network connections select Internet ex. </s>
+<s> Local area connection and Wireless network connection right click select Bridge connection automatically create new icon network bridge IF you can not bridge read error massege Right click internet icon (Local Area connection ) Propatie remove obstacke may be there are right side tab. </s>

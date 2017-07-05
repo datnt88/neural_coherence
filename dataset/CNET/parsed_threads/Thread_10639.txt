@@ -1,0 +1,67 @@
+<s> Hi, This is a new drive. </s>
+<s> Works fine unless connected via eSATA. </s>
+<s> New controller card. </s>
+<s> Bios upgrades on motherboard and controller card. </s>
+<s> WD has replaced drive three times and the result is always the same. </s>
+<s> Controller card has also been replaced as have the eSATA cables. </s>
+<s> Drive only acts up when using eSATA. </s>
+<s> Delayed write error appears when computer is sitting idle and it locks up the machine requiring a re-boot. </s>
+<s> Running Windows XP SP2; 3GB memory; 3.2 GHz Processor. </s>
+<s> Any ideas would be appreciated. </s>
+<s> Chris </s>
+<s> That is, no one seems to be willing to give free machine support today why not just go with the connection that works? </s>
+<s> I would just like to take advantage of the speed boost that comes with eSATA. </s>
+<s> It has become a challenge at this point. </s>
+<s> NIL </s>
+<s> Hi, I have no other machine available to me to test that theory. </s>
+<s> That is the only thing I have not been able to eliminate. </s>
+<s> Chris </s>
+<s> Another sata controller. </s>
+<s> The problem I'm finding is support doesn't come with the products anymore. </s>
+<s> And owners are asked to find the 10 or more drivers for their machines. </s>
+<s> Example 10 at http://forums.cnet.com/5208-7587_102-0.html?forumID=69&threadID=271360&messageID=2699006#2699006 They forget one I get for the AMD which is a CPU driver. </s>
+<s> Bob </s>
+<s> I have done that already too. </s>
+<s> Started with a new SIIG and applied the latest firmware and drivers when it produced the Delayed Write Failure to K:\$Mft error. </s>
+<s> Then with guidance from SIIG tech support, returned the controller card and purchased a new LaCie controller and upgraded it. </s>
+<s> Same result. </s>
+<s> I am assuming it is a simple setting on my machine that is escaping me. </s>
+<s> Chris </s>
+<s> I offered that 10+ driver issue as an example of what I work for the drivers lists today. </s>
+<s> I have to check each and every one of them with each maker. </s>
+<s> It's possible it's some power or other issue. </s>
+<s> Did you try a plain old SATA drive, power connection from the desktop? </s>
+<s> Bob </s>
+<s> No. </s>
+<s> I'm afraid the My Book is the only such drive I have. </s>
+<s> Chris </s>
+<s> What good is external if it doesn't play for you? </s>
+<s> Also I know the driver issues too well. </s>
+<s> If we include those BIOS versions that's an even dozen items for many machines to work. </s>
+<s> Bob </s>
+<s> I was searching that error message and found this old 23MAR08 post of yours ... on the face of it, it doesn't look like you resolved the DWF issue(s). </s>
+<s> I'm having that error message within the BartPE 3.1.10a operating environment while connected via eSATA (BartPE is like XP 32-bit, only it is a self-contained OS booted from a USB thumb drive as a troubleshooting tool when the HDD-installed OS on a given machine won't boot ... for whatever reason). </s>
+<s> I'd be interested to know if you ever resolved your eSATA DWF issue(s). </s>
+<s> I suspect a f/w upgrade (REV_1034 [from REV_1028]) I did on my drives (I own 4 My Book Home HDDs) in MAR of this year may have precipitated this same DWF issue, but seemingly only in the BartPE environment. </s>
+<s> Thanks, Kevin </s>
+<s> There is no one solution but here's the list. </s>
+<s> 1. </s>
+<s> Updated the firmware of the HDD. </s>
+<s> 2. </s>
+<s> Put the drive into a desktop and let windows chkdsk it on startup. </s>
+<s> 3. </s>
+<s> Replaced the HDD. </s>
+<s> 4. </s>
+<s> Deleted the partitions, created new partition and formatted it in a suitable format for the host OS. </s>
+<s> Hope this helps, bob </s>
+<s> I thought this was Chris1331's issue ... Bob, did you wind up resolving matters for Chris? </s>
+<s> As to your list Bob ... thanks for helping out ... 1. f/w upgrade ... done that (REV_1034) ... am now wondering if I can roll-back to REV_1028 2. chkdsk ... was able to do that up in a normal OS (Win XP Pro 32-bit SP3) with the WD as an externally-connected non-system drive from: Properties &gt; Tools &gt; Error-checking - Check Now (plus, if connected [externally] on a normal XP boot and errors are present, chkdsk will run on that drive anyways) 3. replacement ... not an option (due out-of-warranty, NLA & not really neccessary as the drive is only acting up in the BartPE environment with large file Writes) 4. reformatting ... not an option ... </s>
+<s> I have nowhere I can immediately move the existing 400~GB of data already on this single partition NTFS drive (my other 3 1TB WD's are all full of good stuff), plus, as for final comment in 3. </s>
+<s> I'm focusing on the possibility that BartPE is loading an inappropriate driver for my eSATA controller - even though the appropriate driver (Si3112.sys - v1.3.65.2, 23-Aug-06) is configured properly in my BartPE build, is the latest from the controller vendor (Vantec UGT-ST350CB, seen by XP devmgmt.msc as 'Silicon Image SiI 3512 SATALink Controller') and is presumably matched to the BIOS of the controller. </s>
+<s> The trick is to be able to bring an appropriate tool to bear within the BartPE environment to examine the actual driver being loaded. </s>
+<s> Thanks, Kevin </s>
+<s> The forum has bottomed out and you had replied to my post if I ever fixed this. </s>
+<s> I can't answer if Chris found an answer but you asked me so I gave a quick list of the things I've run into over the past few months. </s>
+<s> Interesting comment however about not being able to move the files out to start over. </s>
+<s> Are you telling us that there is no backup copy? </s>
+<s> Bob </s>

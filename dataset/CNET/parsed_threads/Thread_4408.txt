@@ -1,0 +1,23 @@
+<s> Hello, I never had this problem before and I can't find any possible settings that would be causing it. </s>
+<s> I have a Motorola Surfboard Modem that is connected to my DD-WRT 54G Wireless Router. </s>
+<s> If I put in my external IP address in the browser while connected to my wireless network, It directs me to the correct Local IP that I have it set to. </s>
+<s> If I try to access it outside my network it just times out and says &quot;Response Error. </s>
+<s> Technical Description: 502 Bad Gateway - Response error, a bad response was received from another proxy server or the destination origin server&quot; Any ideas of what I can look for? </s>
+<s> Thanks! </s>
+<s> You didn't share what you mean by access so I can't tell if this is a FTP, Telnet or other type of access. </s>
+<s> Because of problems that occur with &quot;users&quot; many ISPs now block network sharing ports. </s>
+<s> Bob </s>
+<s> Thank you for your quick reply. </s>
+<s> I am connecting for browser access. </s>
+<s> It is going to my Raspberry Pi that I have running Raspbmc (XBMC). </s>
+<s> I have tried using different ports because like you said they block access certain ports. </s>
+<s> I wonder why I am able to connect within my network using my external IP though, that seems strange to me. </s>
+<s> By browser access I mean I am literally entering my external IP into the browser window. </s>
+<s> Ok I just changed it to port forward to another web server I have and it will connect to that in the browser outside the network no problem. </s>
+<s> This leads me to believe it's an issue with the PI and not the network. </s>
+<s> I will have to do more research. </s>
+<s> I can connect to the pi by it's internal IP address however so I am not sure why I can't connect by port forwarding. </s>
+<s> Turns out that by default raspbmc on Rasperry Pi refuses any connection from any port outside the network. </s>
+<s> Something to do with IP tables. </s>
+<s> Something I will have to look into another day. </s>
+<s> I take it that you put the Pi into the DMZ if you have a router? </s>

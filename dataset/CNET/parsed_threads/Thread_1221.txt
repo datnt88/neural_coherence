@@ -1,0 +1,29 @@
+<s> I recently intall windows 7 beta on my second hard drive, which use to be the slave. </s>
+<s> the 1st one is windows xp. </s>
+<s> It duals boot every time, giving me a option on OS. </s>
+<s> I try to remove the dual boot by using D Ban (erase the secondary drive), didn't stop it. </s>
+<s> then i went to the Device Manager and right click uninstall the hard drive (didn't stop the dual boot), but now there is no OS in secondary, but still dual boot. </s>
+<s> But now i cannot see the hard drive in my computer or device manager anymore. </s>
+<s> And it still dual boot in the begining, just no OS in the 2nd Hard drive. </s>
+<s> I read your post twice and can't tell if this is that age old XP and SATA drive issue or 'I forgot how to use disk management.' </s>
+<s> The device manager may not show SATA drives in XP! </s>
+<s> What is it? </s>
+<s> Not a word about the machine, drives, make, model and more and then we have the BIG ISSUE. </s>
+<s> What's that. </s>
+<s> 7 is beta. </s>
+<s> You try that on machines you can wipe out and start over. </s>
+<s> Why not do that? </s>
+<s> Bob </s>
+<s> Both are IDE hard drive. </s>
+<s> I have two Hard drive partition, Master drive is Windows XP and other is the windows 7 beta that just released(slave drive). </s>
+<s> I wiped out the second hdd with Darik's Boot And Nuke http://www.dban.org/ to stop the dual boot. </s>
+<s> It didn't work. </s>
+<s> So i right click my computer -&gt; Manage -&gt; device manager -&gt; Disk Drive -&gt; right click -&gt; Uninstall the hdd still didn't stop the dual boot but now i cannot see the 2nd hdd in my computer anymore. </s>
+<s> I just want the second Hdd to become the slave and not another dual boot? </s>
+<s> it is dell optiplex GX260 Small mini tower. </s>
+<s> http://www.austincc.edu/cloud/manuals/Dell/GX260/index.htm </s>
+<s> Since this is just IDE all that I can suspect is that the BIOS is not showing the drive either. </s>
+<s> More about popping in the old XP Boot Manager at http://www.google.com/search?hl=en&q=REINSTALL+XP+BOOTLOADER I agree with the command set of: bootcfg /rebuild fixboot fixmbr Be at the ready with a backup clone of that hard disk as there was a BETA OS installed so all may just vanish without notice. </s>
+<s> Bob </s>
+<s> Hi boyien03, I work with the Windows Outreach Team and would like to offer point you to a link to a great guide on how to uninstall your Windows 7 delete the drive partition. </s>
+<s> Click this link and Follow the instructions and you should be able to resolve your issue: http://www.sevenforums.com/tutorials/2668-partition-volume-delete.html Rick, Windows Outreach Team </s>

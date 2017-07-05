@@ -1,0 +1,49 @@
+<s> I was just wondering what the experts think of a server machine I'm about to build. </s>
+<s> This machine will be a web server. </s>
+<s> I expect an average load of 1,500 users at it's heaviest, and perhaps a user base of about 1 mil. </s>
+<s> There will be database searches, and image downloads happening concurrently. </s>
+<s> The website will also have a one-on-one chat (php+mysql) app. </s>
+<s> Each open chat window will check for new messages about every 3 seconds (just simple SELECT COUNT() queries). </s>
+<s> Here are the machine specs: EPOX 9NPA+Ultra mobo. </s>
+<s> Supports NCQ. </s>
+<s> AMD Athlon 64 3500 90nm, Ll 128 KB, L2 512 KB Seagate ST3120827AS SATA hdd, 7200 rpm. </s>
+<s> Supports NCQ. </s>
+<s> 4GB OCZ Premier/Micron Technology RAM 184-Pin DDR 400 (PC 3200) GigaBit LAN Hard drive config will be SATA2 RAID 0 (3 disks). </s>
+<s> Based on the load average above, the chat, the db searches, etc, should I go with this machine, or should I consider a multiprocessor machine? </s>
+<s> BTW, OS will be Fedora core. </s>
+<s> Thanks. </s>
+<s> Richie. </s>
+<s> The last server you built. </s>
+<s> How did it turn out? </s>
+<s> Bob </s>
+<s> The last server has similar specs (but only 2BG ram) as this new machine I'm planning. </s>
+<s> It works great with about 30 domains on it. </s>
+<s> However, there isn't any chat app, or sustained neck-breaking traffic like I expect for the new machine. </s>
+<s> If anybody has an experience with a high-traffic website comparable to my pending website, I would like to know what hardware is used there. </s>
+<s> They use &quot;farms.&quot; Long ago it was found out that mega-machines were not the answer. </s>
+<s> Too much CPU time is eaten in the task switching alone. </s>
+<s> Both RED HAT and SUN Computer can discuss this in detail why single CPUs are usually not the answer for such applications. </s>
+<s> Bob </s>
+<s> Thanks Robert, What you said makes a lot of sense. </s>
+<s> I've considered the server farm approach too, and that'll be the eventual port of call. </s>
+<s> For now, I think I'll launch the site with a single cpu machine, while I educate myself about what building a server farm entails. </s>
+<s> Also most servers have dual NICs in them. </s>
+<s> I assume that you have a T1 line. </s>
+<s> You could upgrade to an AMD64 dual core later on. </s>
+<s> Yes a dual processor would be better. </s>
+<s> Check out server boards at newegg.com http://www.newegg.com/ProductSort/SubCategory.asp?SubCategory=302 Maybe a Dual Processor MB and add the second processor later. </s>
+<s> If I were doing this I would put the OS on a seprate HD from the raid data drives, but thats just me. </s>
+<s> John </s>
+<s> Hello John, &gt;Also most servers have dual NICs in them. </s>
+<s> The number of NICs in a machine depends on what you're doing with it. </s>
+<s> Sometimes all you need is one. </s>
+<s> &gt;I assume that you have a T1 line. </s>
+<s> My connection will be 758K upstream initially. </s>
+<s> That should suffice for the first year or so. </s>
+<s> &gt;You could upgrade to an AMD64 dual core later on. </s>
+<s> Yes a dual processor would be better. </s>
+<s> I'm contemplating setting up a server farm as suggested by Rob. </s>
+<s> I'll see if my budget can support multiprocessor machines. </s>
+<s> &gt;If I were doing this I would put the OS on a seprate HD from the raid data drives, but thats just me. </s>
+<s> Please shed more light on this. </s>
+<s> What are the advantages of doing this? </s>

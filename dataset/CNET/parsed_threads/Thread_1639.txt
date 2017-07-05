@@ -1,0 +1,83 @@
+<s> I appologize if these questions seem trivial, but I have no experience with RAID and I was not able to find the answers by searching. </s>
+<s> I have a 13&quot; Macbook Pro running OSX Snow Leopard with a 250 GB internal hard drive. </s>
+<s> I have a 500 GB external WD My Passport Studio with two partitions, Time Machine and Storage, which I connect using Firewire 800. </s>
+<s> I keep all my large files on the Storage partition, and do not have room to back these files up. </s>
+<s> The drive is almost full, and I am interested in setting up a 2 TB Raid-1 configuration (2 x 2TB drives mirrored). </s>
+<s> I only connect my external hard drive periodically for Time Machine backups. </s>
+<s> If I need something from the external drive I just connect and transfer it when needed. </s>
+<s> I do not leave my hard drive connected most of the time. </s>
+<s> 1. </s>
+<s> What is the difference between hardware RAID and software RAID? </s>
+<s> What is best for my application? </s>
+<s> 2. </s>
+<s> Should I use a single enclosure or two separate external hard drives? </s>
+<s> 3. </s>
+<s> What is Network Attached Storeage, and is it right for my application? </s>
+<s> (I only have an Airport Express router so I guess I would need to connect it using a hardwire ethernet cable) 4. </s>
+<s> Can you please suggest specific hardware that I will need to accomplish your recommended solution? </s>
+<s> Thank you all in advance, any advice you can give is appreciated even if you can not answer all of my questions. </s>
+<s> RAID 1 mirrors so if the user deletes a pack of files then both are gone. </s>
+<s> If a trojan or OOPS happens, both are gone. </s>
+<s> This is NOT ABOUT SAFETY or avoiding backup. </s>
+<s> I strongly suggest you tell what the goal is since it can't be about safety of the files. </s>
+<s> Bob </s>
+<s> My goal is to replace my current 500 GB external hard drive because it is getting full. </s>
+<s> I feel that 2 TB will be sufficient and I would like any connection type faster than USB 2.0. </s>
+<s> I need this external storage to do 2 things (2 partitions): store time machine backups, and store my large files that would clog up my laptop's hard drive. </s>
+<s> I would like to have RAID 1 so that I have a backup for the large files which are only saved on the external storage, in case one external drive failed. </s>
+<s> Like I said, I have no experience with RAID. </s>
+<s> If you know of another way to accomplish these goals please let me know. </s>
+<s> Edit: I know having RAID 1 for Time Machine is redundant. </s>
+<s> I am only worried about the other partition. </s>
+<s> &quot;I would like to have RAID 1 so that I have a backup for the large files which are only saved on the external storage, in case one external drive failed.&quot; I know this is hard to process but here goes. </s>
+<s> With RAID 1, that is not a backup system for many common scenarios. </s>
+<s> The most common reason for loss is the old delete key. </s>
+<s> RAID 1 automatically deletes both copies so no backup there. </s>
+<s> If there is file corruption RAID 1 automatically corrupts both copies. </s>
+<s> RAID 1 does not seem to address your goals. </s>
+<s> What could address your goal is a simple second volume that on some schedule is sync'd with the first volume. </s>
+<s> That way any delete takes time to propagate to the backup rather than instant deletions. </s>
+<s> As presented, RAID 1 is not of any use here. </s>
+<s> Bob </s>
+<s> Ok.. </s>
+<s> I like that idea. </s>
+<s> What is the best way to accomplish a periodic backup? </s>
+<s> Do I just copy the entire HD over to the 'backup HD' once in a while? </s>
+<s> Or can you suggest another way? </s>
+<s> Also, is there a way to connect directly from HD-to-Backup-HD? </s>
+<s> I only have one Firewire 800 port and would prefer to avoid transferring files from one HD through firewire to computer then from computer through USB to the backup HD. </s>
+<s> There are many software sync solutions out there. </s>
+<s> The RAID 1 solution is very narrow in what it solves and after watching it fail the owners over the years I have to ask questions about the goals and what they are trying to solve. </s>
+<s> I think you have thought it over and see where RAID 1 fails us. </s>
+<s> For the PC we have sync software solutions aplenty so you can do more research on that. </s>
+<s> I use SYNCBACK and since only the changes get copied, it's not a lot of work. </s>
+<s> For the Apple there is fSync, Folder Sync, and the list never seems to end such as http://lifehacker.com/372175/free-ways-to-synchronize-folders-between-computers Now that's a backup. </s>
+<s> If you have a drive fail, the other is ready with its copy. </s>
+<s> If you delete a file, the spare is still there. </s>
+<s> If I save a Word document on top of another with the wrong name, I'm covered. </s>
+<s> Now that's backup. </s>
+<s> Bob </s>
+<s> Thanks for all your help, Bob. </s>
+<s> I really appreciate it. </s>
+<s> RAID 1 is definitely not the best solution for what I want to accomplish. </s>
+<s> It sounds like I have no choice but to connect both HD's to my laptop (meaning one Firewire and one USB). </s>
+<s> Is this correct? </s>
+<s> Today we have more choices and each has speeds matching the connections but we have USB , Firewire, Ethernet, Wifi and what else? </s>
+<s> Since even a simple server could autosync these I'll share I tried that and now have settled to a netbook as a server. </s>
+<s> I tried various computers over the years but most would draw 100+ Watts. </s>
+<s> Today I have a simple netbook and it runs under 10 Watts after the screen goes out. </s>
+<s> How do I know? </s>
+<s> I put it on a Watt meter. </s>
+<s> So here's my home grown solution. </s>
+<s> A netbook with a big for today 1.5TB USB hard drive over wifi and in a remote place of the house then syncback to that from the work machine. </s>
+<s> Bob </s>
+<s> I was looking at this: http://www.tigerdirect.com/applications/searchtools/item-details.asp?EdpNo=3952307&SRCCODE=LINKSHARE&cm_mmc_o=-ddCjC1bELltzywCjC-d2CjCdwwp&AffiliateID=NKa3hZyYoHA-toMiJ08VH4nDJ9dcrfZ00w It looks like the &quot;standard&quot; configuration would work for my application where it creates two separate hard drives. </s>
+<s> This is probably a stupid question, but can i connect directly from my laptop to the enclosure with an ethernet cable? </s>
+<s> My airport express does not have an available RJ-45 port. </s>
+<s> And while someone might get this to work, the trouble of setup has me write I'd just get some USB case. </s>
+<s> Bob </s>
+<s> I'm just looking for higher transfer speeds. </s>
+<s> I can live with USB, but when transferring files even Firewire 800 seems slow. </s>
+<s> BUT the setup headache is one I would not place on the average user. </s>
+<s> And we all know how much support you get for a 99 buck unit. </s>
+<s> Bob </s>

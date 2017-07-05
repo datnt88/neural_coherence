@@ -1,0 +1,52 @@
+<s> this is a transfer from the msi google group. </s>
+<s> not many people there, so i am hoping the good folks here can bring the expertise and help me out of a bind i may have put myself in. </s>
+<s> hello. </s>
+<s> i installed a 2nd hard drive and now my homemade PC has a boot issue. </s>
+<s> upon 1st hard power-on and then soft power-on, it gets through post, but then a black screen instead of XP pro. </s>
+<s> i then have to hard power off. </s>
+<s> heres the strange part: i can then turn the PC on and boot Just Fine! </s>
+<s> (after selecting &quot;start windows normally&quot;) the new drive is: Samsung HD753LJ 750GB SATA2 7200rpm 32mb HARD DRIVE. </s>
+<s> it is auto going to third master. </s>
+<s> my main HD is the secondary master (IDE). </s>
+<s> there is no primary master. </s>
+<s> i have formatted and used the drive already in windows when it boots. </s>
+<s> i have some vital info on there because i am unwise. </s>
+<s> the mainboard is: MSI K8N Neo with a AMD athalon 3000+ -no overclocking to my knowledge. </s>
+<s> during the 1st attempt at boot , if i try to enter BIOS. </s>
+<s> something in the pc makes a crazy buzzing. </s>
+<s> then the whole thing freezes during IDE detection. </s>
+<s> also during the 1st attempt at boot, once frozen, soft power button may not work. </s>
+<s> and soft resets do not cause the PC to boot porperly. </s>
+<s> only HARD power-off and then on. </s>
+<s> later.. hi again. </s>
+<s> i thought i had it licked but the issue slowly came back. </s>
+<s> -eliminated some components in the pc to free up power -removed the jumper from my ide (boot drive) -changed the sata channel -the sata drive is on its own power cable -windows xp still does not boot sometimes. </s>
+<s> -sometimes windows will hang WHILE the splash screen is fading in. </s>
+<s> -tonight while using the pc and working off the ide drive, windows flashed a delayed write error for the sata drive. </s>
+<s> the computer slowed down quite a bit. </s>
+<s> we turned it off to reboot. </s>
+<s> and then the sata drive would make clicking and high whirring noises and cause the pc to lock up during post. </s>
+<s> several hard off-ons later it still did not start. </s>
+<s> i am hoping tomorrow it will so i can save some data. </s>
+<s> i saw some reviewers said that this sata drive has compatibility issues with nvidia chipsets. </s>
+<s> i am having trouble finding info about this. </s>
+<s> can someone help? </s>
+<s> i saw someone Disabled NCQ with the the 15.08 nforce drivers. </s>
+<s> what does that mean? </s>
+<s> will that help me? </s>
+<s> how do i do this? </s>
+<s> also, someone told me to try clearing the bios. </s>
+<s> does that mean restoring defaults? </s>
+<s> would clearing the cmos help? </s>
+<s> Its not uncommon to have a &quot;black screen&quot; just before you see windoze display booting. </s>
+<s> During that black screen time it is working but may not appear so. </s>
+<s> You will notice that with only 1 HD present as before but the time will be short. </s>
+<s> One cure, just let it take the time it needs and check results after 2-5 added minutes. </s>
+<s> If no go, then verify you have proper jumpers/setting for a dual(multiple) HD setup. </s>
+<s> You may have a psu issue. </s>
+<s> Under a cold start of initial boot-up where it has to get things going, there isn't enough &quot;phummff/power&quot; to spin in a timely fashion all devices, etc.., a warm reboot or on/off cycle gets you there. </s>
+<s> In this case, you have to replace the psu with a higher wattage unit to better handle this. </s>
+<s> Also, usage of IDE&SATA drives causes windoze abit longer anyways as it sorts things out during, it just does. </s>
+<s> Also, be sure you're using the latest bios update. </s>
+<s> In this light you should verify you entered the proper SATA driver to use in windoze. </s>
+<s> Try all that.. tada -----Willy </s>

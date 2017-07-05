@@ -1,0 +1,19 @@
+<s> I am looking for an inexpensive router that can push output to a Barracuda Networks appliance. </s>
+<s> I have a cluster of Access points that get DHCP from a router/switch. </s>
+<s> Traffic then goes through the router to the Internet. </s>
+<s> I want to push traffic through a router to the proxy appliance and have had little luck finding routers that list being capable of anything related to proxied Internet ports. </s>
+<s> It may be wishful thinking but I don't want to spend the money on a high end router with a good IOS, and ACLS. </s>
+<s> Any suggestions would be appreciated. </s>
+<s> Since I've never heard of a port being used as such for the gateway (gateways are usually just the IP address) I've subscribed to see how this plays out. </s>
+<s> Bob </s>
+<s> The feature you want cisco calls WCCP. </s>
+<s> I am not real sure but I bet your proxy appliance supports this depends on the exact model. </s>
+<s> It will dynamically intercept the traffic from the router. </s>
+<s> Of course you can do policy routing based on ports but it is a pain. </s>
+<s> To go cheap your best bet is a older cisco router. </s>
+<s> Something like a 2621 has 2 fast ethernet and are well under $100. </s>
+<s> The wccp feature is in ios 12.2 and later. </s>
+<s> Now a 2621 will not pass anywhere near 100m so you may need larger but it is the same software. </s>
+<s> There are linux based routers that can do a lot of this too. </s>
+<s> It is the cheap way to do it if you are the hacker type. </s>
+<s> Thanks bill012, that definitely looks like the route to go after reading up on WCCP </s>

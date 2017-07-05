@@ -1,0 +1,15 @@
+<s> I have a MSI P6N SLI-FI board and a P4 650 CPU installed. </s>
+<s> The BIOS shows a default vcore of 1.23. </s>
+<s> I also have a system with a Asus P5ND2-SLI and a P4 630 installed. </s>
+<s> The default vcore for it is 1.39. </s>
+<s> Whenever I try to raise the vcore of the MSI system to 1.36 - 1.39, it hangs at POST during morning start-up after having been off overnight. </s>
+<s> It won't load. </s>
+<s> BIOS won't even display. </s>
+<s> My question is: is it normal for the vcore to be different on different boards? </s>
+<s> I would figure a particular CPU would create a default vcore value consistent through all brands and models of boards. </s>
+<s> Thanks </s>
+<s> ftp://download.intel.com/design/Pentium4/datashts/30638203.pdf writes: From 1.20 to 1.40 Volts. </s>
+<s> But this is deceiving since part of it's low power modes it can cut Vid to save even more power. </s>
+<s> Finer details are at the tables 2-9 and nearby. </s>
+<s> Bob </s>
+<s> http://processorfinder.intel.com/List.aspx?ProcFam=483&sSpec=&OrdCode= VAPCMD </s>

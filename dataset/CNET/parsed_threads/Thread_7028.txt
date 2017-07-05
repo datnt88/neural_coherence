@@ -1,0 +1,45 @@
+<s> OK - not a new issue, but can't figure this out after reading postings. </s>
+<s> SimpleDrive 320GB USB - installed & works fine, backed up my MacBook Lepeord OS with Time Machine -no problems. </s>
+<s> Used SimpleTech instructions for Windows & Mac users - all well. </s>
+<s> Hooked it up to my Dell Dimension 4600 with XP. </s>
+<s> Checked the Device manager - it says it's working properly. </s>
+<s> Tried rolling back the driver - it says it's fine. </s>
+<s> Tried replacing the USB cord - nothing. </s>
+<s> Tried 5 different USB ports - still not showing in &quot;My Computer&quot; Finally - tried it on a new Dell Inspirion 1525 with Vista - same issue. </s>
+<s> But i did manage to get it to partition part of the drive - but only 128megs. </s>
+<s> And it still isn't recognized back on my Dell 4600. </s>
+<s> One problem is that this Dell won't let me partition it. </s>
+<s> The only thing i can choose from &quot;Disk Management&quot; is properties or help. </s>
+<s> From all I've read, the only thing i can guess is that i need to partition it, but neither windows program will let me do that. </s>
+<s> FYI - i also have another External drive (seagate) which i use on the Dell 4600 and never had a problem - have tried unplugging it, using it's port, etc. </s>
+<s> to no avail. </s>
+<s> What now? </s>
+<s> They installed &quot;MacFuse.&quot; </s>
+<s> Thanks to a response from SimpleDrive, I figured it out (but thanks for the macfuse tip). </s>
+<s> Here was the fix - seems i had to return to the Mac to fix it. </s>
+<s> Here you go for other Mac & Windows users: To format the drive on your Mac, follow the steps below. </s>
+<s> Notes: All data on external will be destroyed during formatting process! </s>
+<s> 1. </s>
+<s> Connect and power the drive. </s>
+<s> 2. </s>
+<s> Open MacHD on your desktop 3. </s>
+<s> Open Applications 4. </s>
+<s> Open Utilities 5. </s>
+<s> Open Disk Utility 6. </s>
+<s> On the left you should see the hard drive listed. </s>
+<s> It should show the size with a second indented line beneath that says simpledrive or untitled. </s>
+<s> Highlight the line with the size. </s>
+<s> 7. </s>
+<s> Click erase at the top of the screen 8. </s>
+<s> Select the format you want in the volume format box. </s>
+<s> MS-Dos if you want to use the drive between Mac and Windows. </s>
+<s> 9. </s>
+<s> Change the name of the drive if desired. </s>
+<s> 10. </s>
+<s> Click erase at the bottom of the screen, you will get a warning where you will click erase again. </s>
+<s> When the partitioning is completed then the drive will be ready for use. </s>
+<s> That format is FAT32 and such volumes have gone missing on accidently unplugs during a write. </s>
+<s> I strongly suggest you look again at MacFuse which will add NTFS support. </s>
+<s> Bob </s>
+<s> Except when I follow the instructions to reformat the drive in disk utility, the &quot;Volume format&quot; dropbox and the &quot;Disc name&quot; entry field are grayed out, and won't let me select a format for the drive. </s>
+<s> When I click the info button regarding the drive, it has a line that says the drive can't be reformatted, even though all of the literature provided with the drive says it will work as MS-DOS thanks for any help you can provide! </s>

@@ -1,0 +1,10 @@
+<s> Ok i have a HP Proliant DL380 with RAID 1. </s>
+<s> What i need to do is take one of the Mirrored HD and remove it to keep it as a backup copy. </s>
+<s> And do some test on the HD that is still running. </s>
+<s> My question is : When i want my original copy ( backup ) back what do i need to do to get my backup copy to mirror over the test HD ??? </s>
+<s> The way i see it... i just can shut down the server, remove the TEST HD, put back the Backup HD, boot the server on, Then insert the TEST HD back into the server so this way the BACKUP HD will copy over the TEST HD ???? </s>
+<s> Is that True ??? </s>
+<s> Thanks -Mike </s>
+<s> From memory there is a software that you tell it you will be replacing the drive in the RAID and then on the next boot you use the same software to add the new drive into the RAID. </s>
+<s> http://h10010.www1.hp.com/wwpc/us/en/ss/WF05a/15351-241434-241475-241475-f79-1121516.html Since this is some business server, if you've lost the manuals it's time to call HP for replacements. </s>
+<s> Bob </s>

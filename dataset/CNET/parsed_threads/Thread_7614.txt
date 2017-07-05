@@ -1,0 +1,56 @@
+<s> Hi I have a new (to me) 6 months old computer. </s>
+<s> It was built by a friend of a friend. </s>
+<s> It has a Asus mainboard and as I say the main drive shows as removable hardware. </s>
+<s> It works fine I'm just worried I accidentally hit remove device! </s>
+<s> Would I then be in loads of trouble trying to start my PC.Also I would like to know why it shows like this. </s>
+<s> Many Thanks J J </s>
+<s> Look in Device Manager&gt; harddrive&gt; Properties&gt; policies. </s>
+<s> If there two choices available there try Opimize for performance. </s>
+<s> This may make the drive disappear from the tray. </s>
+<s> Bob </s>
+<s> Hi Bob, thanks for your answer. </s>
+<s> I have checked as you suggested and it is already set to &quot;optimize for performance&quot; so no good. </s>
+<s> But is this a thing with sata drives? </s>
+<s> Should I just ignore it? </s>
+<s> Thanks JJ </s>
+<s> I won't define what those are since you can research such but since it can be so, it could be removable. </s>
+<s> Look around for any checkbox with the word &quot;removeable&quot; for that drive. </s>
+<s> Bob PS. </s>
+<s> Not an issue so far, just annoying to some. </s>
+<s> windows will not install on a device that it thinks is removeable. </s>
+<s> (it can be fooled into doing so, but then i would question the legality of the install. </s>
+<s> you typically have to install it onto a fixed drive then clone that onto a removeable drive.) </s>
+<s> I had hoped that simple research about ESATA would be fine here. </s>
+<s> This is a new area and predates XP so XP could label it as removable. </s>
+<s> This is not a registry error. </s>
+<s> It's an option. </s>
+<s> Bob </s>
+<s> Wow complicated eh! </s>
+<s> I will just put up with it and be careful not click on &quot;remove hardware&quot; for that drive. </s>
+<s> Thanks everybody though. </s>
+<s> http://www.google.com/search?q=HideFromSafelyRemoveHardware YOUR CHOICE HERE. </s>
+<s> There is no bug, it's just something that is related to the new SATA interface and you can fix it if you want. </s>
+<s> Bob </s>
+<s> Thanks, think I'm just going to leave it alone. </s>
+<s> J J </s>
+<s> no version of windows will install (from official media) on a device that windows detects is removeable. </s>
+<s> it matters not if it's usb or firewire or esata or scsi hot-plug. </s>
+<s> if windows detects the device is removeable it will not install to it. </s>
+<s> that's an immutable fact. </s>
+<s> so the install could have been done to a fixed device and then somehow migrated to the removeable device. </s>
+<s> that's why i question the legality of the install. </s>
+<s> also, HKLM\SYSTEM\CurrentControlSet\Enum registry entries contain device descriptors which identify the characteristics of a drive. </s>
+<s> this is done so drive capabilities don't have to be fully re-enumerated when booting. </s>
+<s> an error (or manipulation) in the registry can make a fixed drive appear to be removeable. </s>
+<s> copying an install from one drive to another can have the same effect. </s>
+<s> Hi I think I got what you are saying I'm not knowledgeable about computing but I have looked inside the PC and it is all connected up in the normal way and it is a fixed hard drive the OS (XP Pro) is legal and updates via Microsoft. </s>
+<s> But if as you say a copy has been copied from one drive to another it's still a hard drive and not removable. </s>
+<s> Please forgive me if I'm sounding stupid to you but I am in the land of fog,mud and whats that burning smell at the moment, but many thanks for your responses. </s>
+<s> J J </s>
+<s> That here we have windows installed and the boot drive is marked removable as it's in the tray. </s>
+<s> I've seen this often with XP, SATA connected drives and Windows installs just fine. </s>
+<s> Vista seems to understand SATA much better and will not mark the boot drive as removable. </s>
+<s> After a few hundred installs you just gotta wonder what is immutable and what is not. </s>
+<s> Bob </s>
+<s> Thanks for your comments Bob I'm just going to leave all alone. </s>
+<s> Many thanks JJ </s>

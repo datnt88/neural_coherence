@@ -1,0 +1,27 @@
+<s> hi I have a Windows Vista buissness edtion Desktop with two printers plugged in and I heve enabled printer sharing both on the firewall in windows liveone care and on the network settings. </s>
+<s> when i try to connect to the printer through the add new printer on my windows xp laptops which are in the same work group it show the work group but no printers if I type in the printer name it asks for password does Anyone know if i can fix this thanks </s>
+<s> I found a workaround here: http://forums.microsoft.com/TechNet/ShowPost.aspx?PostID=1216076&SiteID=17 Posted by: Melonhead Posts 6 Answer Re: &quot;Windows cannot connect to the printer. </s>
+<s> Access is denied&quot; -please help. </s>
+<s> Answer Was this post helpful ? </s>
+<s> Reply Quote I had the same problem. </s>
+<s> I found a solution. </s>
+<s> Logically it makes no sense to me, but it worked so... Go to Control Panel. </s>
+<s> Choose printer. </s>
+<s> Then choose Add Printer. </s>
+<s> ChooseAdd a local printer. </s>
+<s> Click on Create a new port. </s>
+<s> The default in the drop down box is Local Port. </s>
+<s> Do not change that. </s>
+<s> Click Next. </s>
+<s> A dialogue box will appear asking for you to enter a port name. </s>
+<s> Type in the \\computer name\printer name ie. </s>
+<s> My computer's name is basement and the printer name is EpsonSty so I typed in \\basement\epsonsty Yahoo! </s>
+<s> It worked. </s>
+<s> Go figure! </s>
+<s> I guess Microsoft thinks printers on a intranet are local. </s>
+<s> Hope this helps someone else so they don't spend the hours I did on it! </s>
+<s> // It worked for me. </s>
+<s> Great fix - thanks for the work around. </s>
+<s> This worked the first time for me too </s>
+<s> You should have read that first. </s>
+<s> Rick </s>

@@ -1,0 +1,17 @@
+<s> I am running XP OS and I installed a Airlink model AWLH3026. </s>
+<s> It recognizes my wireless network but it will not connect to the internet. </s>
+<s> If I try to launch a browser, I get the message &quot;Page can not be displayed.&quot; Is there something that needs to be set on my router? </s>
+<s> My router is a Linksys model BEFW11S4. </s>
+<s> Thanks in advance. </s>
+<s> Verify that there is a default gateway assigned. </s>
+<s> Your network will function fine without one but, it is required to access the Internet. </s>
+<s> From a DOS window type ipconfig. </s>
+<s> It should be 192.168.x.y. </s>
+<s> x is usually 0 or 1. </s>
+<s> If you see an IP address of 0.0.0.0 or 169.x.y.z then your Laptop failed to get an IP address. </s>
+<s> Did you configure WEP? </s>
+<s> Maybe the keys are mismatched. </s>
+<s> You can also try assigning a static address to the wireless card. </s>
+<s> Make sure the first 3 octets of the address are the same as the router and pick an IP address that is not in use or in the DHCP address pool. </s>
+<s> Then see if you can ping the router. </s>
+<s> SKrall </s>

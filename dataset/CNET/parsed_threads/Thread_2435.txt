@@ -1,0 +1,50 @@
+<s> I am using W7 on a wireless network with two computers. </s>
+<s> Although I can see both computers in the network map, I cannot acess one from the other unless I connect using the explicit ip address. </s>
+<s> But when I try to connect to a named computer, I get the 0x8007035 error. </s>
+<s> What is my problem? </s>
+<s> Are both PCs using Win7? </s>
+<s> Workgroups or homegroups? </s>
+<s> Tell about common usernames and passwords. </s>
+<s> Shares? </s>
+<s> Both computers use w7 home premium, workgroup, not Homegroup. </s>
+<s> Each has its own user name, same as computer name. </s>
+<s> No passwords. </s>
+<s> Sharing &quot;My documents&quot;, and 2 printers. </s>
+<s> I made a shortcut with the ip address, which is reserved, and that connects to the computer, and shares, flawlessly. </s>
+<s> Its only when I try to connect to the named computer, which is displayed under &quot;Network&quot;, that I am told that &quot;the network path cannot be found&quot;. </s>
+<s> I found the suggestion for the shortcut on another message board. </s>
+<s> I can ping the other computer, as well, with the ip adress. </s>
+<s> The name just doesn't seem to ring a bell. </s>
+<s> All PCs should have at least one common account by username and share the same password if passwords are used. </s>
+<s> It's best if that is an admin account and that the account is given access permission to the share(s). </s>
+<s> There's also the sometimes issue with firewalls and especially third party types. </s>
+<s> Some AV programs are known to mess with networks. </s>
+<s> My experience had been with Symantec products blocking traffic. </s>
+<s> You did mention a username being the same as the computer name. </s>
+<s> I can't say that could cause a problem but it is something I'd never do and it won't suffice as a common user because each PC needs a unique name. </s>
+<s> Two PCs with the same name will conflict on your network </s>
+<s> not working. </s>
+<s> Enable NetBIOS over TCP/IP or do LMHOSTS. </s>
+<s> Google those. </s>
+<s> I still don't understand why I can access the other computer, and all of its shares, using an explicit IP address, but not using the name listed in my network list. </s>
+<s> I can do that even though I do not have a common user account on both computers. </s>
+<s> I guess I'm looking for a configuration item here. </s>
+<s> I can, of course, create the common user account, and I will give that a try. </s>
+<s> NetBios over TCP/IP is enabled. </s>
+<s> I will try LMhosts if it is necessary </s>
+<s> I've used the hosts file before but what you noted was something we used over a decade ago and no longer. </s>
+<s> http://windows7forums.com/windows-7-networking/2443-windows-cannot-access-network-error-code-0x8007035.html If nothing there, I'd create that common user. </s>
+<s> I've made a habit of always using passwords with all accounts...except guest, of course...and never a mix of password protected and non-password protected users. </s>
+<s> It's all or none. </s>
+<s> that shouldn't happen. </s>
+<s> I suppose you cannot ping the target too using computer name. </s>
+<s> If that is the case, name resolution in broken in your W7 configuration. </s>
+<s> If you can afford to experiment, change networking to homegroup to see if it fixes. </s>
+<s> If you don't want to do that or if you don't want to re-install the OS, live with your IP method. </s>
+<s> The addition of an LMHosts file did the trick! </s>
+<s> Thank you to all who posted. </s>
+<s> I didn't change anything else. </s>
+<s> This was a problem that developed slowly. </s>
+<s> When I first set up the network, everything worked fine. </s>
+<s> My network slowly lost the ability to resolve computer names. </s>
+<s> Perhaps this will help someone else. </s>

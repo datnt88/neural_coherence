@@ -1,0 +1,33 @@
+<s> I am using a wireless connection from my desktop PC (USB wireless) to a Netgear GR614. </s>
+<s> I have been this way for 6-8 months. </s>
+<s> I started having internet connection problems so I created a continuous running ping to 192.168.1.1 I do get 99% connectivity but I lose packets in groups of 6-10 ping attempts. </s>
+<s> I can repair the wireless connection and it repairs OK or if I wait long enough, the PC will self reconnect. </s>
+<s> The problem is that I lose the connection to my remote server applications. </s>
+<s> I also (although not sure if related) started getting blocked attempts outbound on port 110 which just happens to be my inbound email port. </s>
+<s> Neither my ISP or the host ISP are blocking. </s>
+<s> And a reboot of the PC solves the problem. </s>
+<s> I am trying to determine if the issue is 1) using a USB wireless; 2) the wireless device itself or 3) the router. </s>
+<s> The problems do appear more often when the PC is under load (e.g., running a Citrix desktop) so that there is continuous data flowing. </s>
+<s> So I am open to suggestions as I am at loss. </s>
+<s> I also want to add that the failure is also more prominent when viewing streaming video. </s>
+<s> I tried changing the wireless connector at the PC level and same problem. </s>
+<s> Both were USB connections. </s>
+<s> Nothing shows in the Netgear logs either. </s>
+<s> Our forum members seem to agree that we should start with these basics. </s>
+<s> 1. </s>
+<s> Latest router firmware. </s>
+<s> 2. </s>
+<s> Defaults such as SSID broadcasting. </s>
+<s> 3. </s>
+<s> WPA for security. </s>
+<s> What's different for your setup? </s>
+<s> Bob </s>
+<s> I NEVER get disconnected, except during a thunderstorm. </s>
+<s> Firmware update can be found here http://kbserver.netgear.com/products/wgr614v6.asp I broadcast SSID use WPA Personal security just like Bob said. </s>
+<s> Rick </s>
+<s> WPA Security Firmware updated SSID Broadcasting is not disabled but the logs show no one else on my network I am bringing home a 35 ft CAT 5 form work to see if wired cuases any drops </s>
+<s> wall &gt; isp modem/router &gt; Netgear WGR614v6 &gt; wired/wireless Also you didn't tell us your isp. </s>
+<s> If it's verizon and you have a Westell modem/router, then the ip addresses conflict with each other and you need to change the ip address in the Netgear router. </s>
+<s> Read this post for instructions http://forums.cnet.com/5208-7589_102-0.html?forumID=62&threadID=221209&messageID=2336356 Remember that cordless phones 2.4gh use the same frequencies as the wireless router and may disconnect you. </s>
+<s> Rick </s>
+<s> ISP is Comcast cable and these events are new </s>

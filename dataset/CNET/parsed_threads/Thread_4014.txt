@@ -1,0 +1,53 @@
+<s> Hi all-- I picked up a new laptop and am trying to add it to my home wireless network. </s>
+<s> With much frustration. </s>
+<s> The network works fine; it's a Belkin 7320-4 router extended with an apple airport express. </s>
+<s> Due to the Airport and my lack of neighbors, the network is unsecured. </s>
+<s> It's set up for DHCP, and is running in B/G mode. </s>
+<s> the following machines are working fine with this setup: one XP home laptop with a broadcom integrated b/g NIC (circa 2003) one XP home desktop with a belkin b/g pci card (circa 2005) one XP home desktop with a belkin b/g pci card circa 2006) and has successfully allowed at least a dozen other mac and PC laptops to connect over the last two or so years it's been in place--never an issue before. </s>
+<s> Here's where it gets weird. </s>
+<s> The new notebook is a compaq presario v6000 notebook running xp pro and with a broadcom b/g integrated wireless card. </s>
+<s> When I attempt to use this machine in my network strange things happen. </s>
+<s> At best, the machine has difficulty connecting to the network, either using DHCP or manually entering its IP info. </s>
+<s> It will show connected, but only intermittently get to the internet, and while other pcs in its workgroup can see the machine as a workgroup member, they can't get to any of its shared folders. </s>
+<s> Running IP config shows the wireless is getting an address from the Router, and it looks correct. </s>
+<s> If I run repair connection at this time, I may or may not get an IP via DHCP, though windows shows connected at 24MBps or better. </s>
+<s> Stranger still, the unit will knock other PCs off the network, even though it's not trying to use a previously assigned IP address, and it seems to be causing interference with the other machines on the network. </s>
+<s> As soon as I turn off the radio on the presario, the network works as expected. </s>
+<s> I've moved the notebook around to a few different locations, and this doesn't seem to affect the problem. </s>
+<s> I've tried a couple different things within the advanced section of the configuration panel of the broadcom (turned off bluetooth collaboration, turned off afterburner), but this hasn't made a difference. </s>
+<s> Stranger still, if I try the machine on my work's network, everything just seems to work fine, so it appears to not be a defective card. </s>
+<s> Any suggestions? </s>
+<s> Thanks. </s>
+<s> Also I assume your network is something like WORKGROUP, and all the machines have this in common. </s>
+<s> yes, all have the same workgroup assigned, and all machines have unique names. </s>
+<s> Try to only enable 802.11g on the router and all computers/labtops. </s>
+<s> If you have a mixed network, the network throughput might be dropped to half or more if there are 802.11g and 802.11b wireless clients in the network. </s>
+<s> Try to tune the wireless adapter settings on that Compaq computer and see how it works. </s>
+<s> Also the wireless bandwidth is shared among wireless clients, the more clients you have the slower the network. </s>
+<s> Hope this helps.. :o) picoHat http://www.home-network-help.com </s>
+<s> thanks for the suggestions...I tried changing the base station and repeater to g only, but this made no difference to the performance of the laptop. </s>
+<s> I'm beginning to think there's an incompatibility between my base station (belkin f5d7230-4, revision a) and my laptop's card, a broadcom 4311 mini pci-e card. </s>
+<s> Same one as is used by dell under the name 1410 (if memory serves). </s>
+<s> At this stage, no communication takes place between the two devices. </s>
+<s> I cannot get an IP via dhcp, and no activity occurs on the WLAN light on the Belkin when I try to 'repair connection' via windows. </s>
+<s> The broadcom does see the belkin though, at 5 bars / 54Mbps strength, and a different machine using an older broadcom chip wirelessly is connected via dhcp, and is screaming. </s>
+<s> Should also add that the troubled machine has no issues whatsoever connecting via ethernet, and is also fine wirelessly in another network. </s>
+<s> Thanks! </s>
+<s> Been a while, thought I'd post a followup.... </s>
+<s> I've been using the laptop wired for a couple weeks with what I thought were no issues...turns out I'd just not been using it at the same time as my wife. </s>
+<s> It seems, even with the radio switched off, just having the laptop powered up was knocking her machine off the wireless network. </s>
+<s> To make matters more surreal, I physically removed the wireless card from the machine--just having it powered up knocks her off the network. </s>
+<s> To be fair, the laptop is only a couple feet from the wireless AP, and is probably causing some interference; when I get a chance to try relocating things I'll give it another go. </s>
+<s> Wanted to ask if anybody's seen this kind of behavior before. </s>
+<s> I know things like microwaves/flourescent lights/cordless phones can all mess with 802.11x traffic, so I suppose a CPU could too if its chassis were poorly shielded, and its clock were close to the 2.4gHz range. </s>
+<s> Again, this is a dual-core amd machine running at a 1.6gHz clock speed. </s>
+<s> If you've seen this kind of behavior before, what did you do to resolve the issue? </s>
+<s> (will also try changing channels on the router and repeater) </s>
+<s> I would focus on the router and extender as most probable cause. </s>
+<s> First, ensure you have the latest router firmware. </s>
+<s> Reset the router to factory default config and shut off the airport extender to see if problem still exists. </s>
+<s> you were right, it's the laptop interfering with the router...I had reset the router and updated firmware, to no avail....when I realized I didn't even need to have the wireless card in the unit to cause the problem, interference as the source of the problem came clear. </s>
+<s> So, and this hurts, the easy fix: I changed channels to 11 from 1 on the AP and extender and it solved the problem. </s>
+<s> Looks like the combination of 1.6 Ghz cpu clocking + the lot of 'other' clocking in the laptop generates hash into the 2.4gHz signal of the AP. </s>
+<s> Moving the network signal moving higher into the spectrum took care of it. </s>
+<s> Let's hope none of my neighbors go gung ho on channel 11 Thanks to everybody! </s>

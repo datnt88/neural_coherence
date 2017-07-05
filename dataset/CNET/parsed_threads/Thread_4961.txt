@@ -1,0 +1,130 @@
+<s> My operating system is Windows XP Pro (SP2). </s>
+<s> BIOS is up to date. </s>
+<s> This is what went on. </s>
+<s> I have a 200GB (Western Digital HD) drive with partition C and D. I was using PartitionMagic 8 to resize partition D when I decided to stop the operation. </s>
+<s> I did not know it had already started the process. </s>
+<s> Since now this partition (D) is messed up, I had to use Knoppix 5.1 CD to boot this computer, and rescue all the data from this partition D. After that, I decided to delete all partitions with PartitionMagic and reformat the whole drive I have Ghost backup for my main OS drive (drive C). </s>
+<s> Now, I have only 33GB of hard drive space limit on this 200GB drive. </s>
+<s> I have used the Western Digital Tool v11.2 to setup the drive, Write-To-Zero still I cannot go beyond the 32GB size. </s>
+<s> My BIOS is fine since I have been using this drive on this machine all along. </s>
+<s> 1. </s>
+<s> What can I do to regain my drive to its about 185GB size (after formatting)? </s>
+<s> 2. </s>
+<s> When using Knoppix boot CD, I had to use one of its tools called NTFSFIX to be able to unmount the drive before I could copy the files to another drive. </s>
+<s> Do you think this tool might have rattled the drives size limit? </s>
+<s> Just a thought! </s>
+<s> Though after using Knoppix, the drives size was fine. </s>
+<s> 3. </s>
+<s> The drives size was fine when I opened it in PartitionMagic 8, so do you think my problem started with Partitionmagic? </s>
+<s> I could not fine help in Symantec site on my issue. </s>
+<s> All I found would not fix the drive 33GB size limit. </s>
+<s> 4. </s>
+<s> Any utility I can use to restore the size of my drive? </s>
+<s> Thanks all for your time. </s>
+<s> can you expand the drive to it's limit? </s>
+<s> That WD tool may do something odd or bad. </s>
+<s> Why not try GPARTED to delete that partition, make a big NTFS one? </s>
+<s> You can also try GPARTED to resize the drive but it should fail if any whiff of FAT32 or odd DOS boot manager exists. </s>
+<s> Bob </s>
+<s> NIL </s>
+<s> Never heard of &quot;GPARTED&quot;. </s>
+<s> Just Googled and found some links. </s>
+<s> I will download and try and keep you posted. </s>
+<s> Thanks </s>
+<s> If it's PATA ...check the jumpers for CLJ ... if the drive is set to CLJ, the drive looks like a 32GB no matter how you try to change it thru software like PM. </s>
+<s> It's designed so that users can use large capacity HDDs with older systems where the MB would not recognize a drive that size. </s>
+<s> VAPCMD </s>
+<s> I tried Windows 98 boot disk, PartitionMagic8 (Windows & DOS), XP Disk Manager, FDISK (Windows & Linux), Trinity Rescue Disk, Western Digital Tool, but the closest I got to see the whole drive was GPARTED. </s>
+<s> I could not tell what to delete to for the drive. </s>
+<s> I ran through the process, from the instruction steps. </s>
+<s> When I got to the part to enter a number for the ENDING parameters (Cylinder-Head-Sectors) I don't know what to input. </s>
+<s> When I entered, in the Partition 2, a way-off number, the drive size showed as 198+GB. </s>
+<s> The drive is 200GB and it's parameters are Cylinders-16383, Head-16, Sectors-63. </s>
+<s> The tutorial showed an example on how to change the parameters, but I could not understand it good enough, so I was scared to save the entries I already made. </s>
+<s> I will Goggle GPARTED to get more information on how to use it. </s>
+<s> If you would have more inputs, please pass it along. </s>
+<s> I really appreciate your help. </s>
+<s> Thanks. </s>
+<s> Western Digital Drive Model #: WD2000JB Head: 16 Sectors: 63 Since it was the only drive during the tests, I do not have any jumper on it. </s>
+<s> some space is saved for instructions to use the drive by the OS. </s>
+<s> In fact that sounds like to much available space. </s>
+<s> You such have even less. </s>
+<s> 198+ was the utility number, but I am sure after formation, it will be in the range of 185+. </s>
+<s> If I can get it to see the &quot;whole&quot; drive, that will be great. </s>
+<s> Just need to know how to ue the utility properly. </s>
+<s> GPARTED DOS was what I used. </s>
+<s> The LiveCD only showed the 33GB limit. </s>
+<s> http://wdc.custhelp.com/cgi-bin/wdc.cfg/php/enduser/std_adp.php?p_faqid=723&p_created=1037288235 Sorry, there is only one option for no jumpers and it's not one I'd ever use today. </s>
+<s> Bob </s>
+<s> The Recommended Setup Parameters for my drive says 10-Pin type. </s>
+<s> The jumper you see in the diagram is from the OEM as parked (OFF). </s>
+<s> The jumper on pins 1 and 2 for 99.999% of the systems I setup. </s>
+<s> Good luck with anything else. </s>
+<s> The next idea is to use WDC's software. </s>
+<s> Some of their drives have the limit setting done via software. </s>
+<s> Bob </s>
+<s> I just finished asking the Western Digital Technician about my jumper setting. </s>
+<s> He said, for my drive, as a single drive, there should be NO jumper on the drive for the ONLY drive on the system. </s>
+<s> Again we still look to see if WDC software can set limits. </s>
+<s> I wrote the Write-To-Zero, still it won't pass the 33GB limit. </s>
+<s> This afternoon, I will try the GPARTED again. </s>
+<s> That gave me more information. </s>
+<s> I got more Goggle infor on the use. </s>
+<s> Will keep you posted. </s>
+<s> Thanks. </s>
+<s> Maybe your BIOS has some limitation. </s>
+<s> Did you post the host PC's specs and details? </s>
+<s> Bob </s>
+<s> In my earlier post, I mentioned the drive was in use in the machine before, the problem started when I stop PartitionMagic function (which I should not have done) during a proccess, which messed up the partion struction. </s>
+<s> The board is a &quot;modern&quot; board and I have already installed a Seagate 200GB drive. </s>
+<s> The second computer also has a 200GB drive now. </s>
+<s> So the machines are capable of handling larger drives. </s>
+<s> Also, I use a 500GB external USB drives on both for backup. </s>
+<s> I am just looking for something that will be able to restructure the architecture of the drive, so I can redo it. </s>
+<s> for the drive in question. </s>
+<s> If your system can't see 200GB ...you won't be able to access, partition, format or use 200GB. </s>
+<s> Also...are you using and 80-wire, 40-pin cable or an old 40-wire, 40 pin cable ? </s>
+<s> VAPCMD BTW...What MB and BIOS version do you have ? </s>
+<s> mfgs software (WDC) or any other drive wipe program. </s>
+<s> Then partition and format. </s>
+<s> VAPCMD </s>
+<s> http://wdc.custhelp.com/cgi-bin/wdc.cfg/php/enduser/std_adp.php?p_faqid=723&p_created=1037288235&p_sid=56Ac*WMi&p_accessibility=0&p_redirect=&p_lva=&p_sp=cF9zcmNoPTEmcF9zb3J0X2J5PSZwX2dyaWRzb3J0PSZwX3Jvd19jbnQ9MSwxJnBfcHJvZHM9MCZwX2NhdHM9MTg1JnBfcHY9JnBfY3Y9MS4xODUmcF9zZWFyY2hfdHlwZT1hbnN3ZXJzLnNlYXJjaF9mbmwmcF9wYWdlPTEmcF9zZWFyY2hfdGV4dD13ZDIwMDBqYg**&p_li=&p_topview=1 This drive has been in use for two years on the same machine, with correct jumper setting adn all. </s>
+<s> I called the manufacturer for information (fron India) but counld not tell me more than I already know. </s>
+<s> This should have been solved or called a defect in about 10 minutes at our office. </s>
+<s> You've had a week or more so my thought is either you haven't done what was proposed and if you did then the drive is truly defective. </s>
+<s> It does NOT matter it worked before. </s>
+<s> Today is what counts. </s>
+<s> Bob </s>
+<s> The cable is what came with the drive when I purchased it in late 2005. </s>
+<s> It has been in use since then. </s>
+<s> Yes the BIOS can't see the full size because the drive is not set right. </s>
+<s> This &quot;newer&quot; board does not have the capability to set the Cylinder, Head and Sector sizes. </s>
+<s> The Western Digital's software used to &quot;Wipe-To-Zero&quot; to a drive did not make a difference. </s>
+<s> This wipes the drive to its original form when newly purchased. </s>
+<s> If OK....try downloading-running KILLDISK to wipe the drive VAPCMD </s>
+<s> I will try the KillDisk. </s>
+<s> Thanks. </s>
+<s> Will keep you posted. </s>
+<s> If that doesn't work....you could also try HDDErase or Zerofill. </s>
+<s> VAPCMD </s>
+<s> Could not get Zerofill, the Google sites kepet taking me to invalid different links. </s>
+<s> I will try the HDDErase. </s>
+<s> http://gleba.gotdns.com/users/WebPublic/files/util-cd-copy/harddisktools/ </s>
+<s> I tried ZeroFill but it still could not find the whole drive. </s>
+<s> The only software that could find the whole drive is Partman (Ranish Partition Manager), but I don't know how exactly to apply the numbers for my drive. </s>
+<s> While playing with begining and ending Cylinder-Head-Sector number, I was able to see the whole size of the drive. </s>
+<s> I did not want to save the setting since I was not sure and did not want to mess up my drive for good. </s>
+<s> I will go to the maker's site tho ask question. </s>
+<s> I could not understand the user instructions enough. </s>
+<s> I attached another 200GB hard drive to the system (so the BIOS is OK). </s>
+<s> I really appreciate all your help. </s>
+<s> I will keep you posted on any achievement. </s>
+<s> Thanks </s>
+<s> I can't help but think there's something corrupted (firmware ?) </s>
+<s> that's not showing up in the mfg's DIAG. </s>
+<s> Still under warranty ? </s>
+<s> VAPCMD </s>
+<s> Warranty is over. </s>
+<s> Though I won't give up since I am sure the sysetem and the BIOS are fine. </s>
+<s> I am still searching for solution. </s>
+<s> Thanks </s>

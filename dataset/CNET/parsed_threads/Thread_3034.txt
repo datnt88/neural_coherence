@@ -1,0 +1,31 @@
+<s> I've just bought a new barebone ($100 TigerDirect): Biostar M7NCG 400 nForce2 Socket A Motherboard AMD Sempron 3300+ Socket A CPU The mobo supports FSB of 400MHz (also supports dual channel). </s>
+<s> The RAM I got is PC3200 1GB (2x512MB) dual channel and is identified correctly by BIOS - it says Dual channel status. </s>
+<s> PC3200 is 400MHz. </s>
+<s> The processor speed and the RAM ammount in Windows is showing correctly too (2.2GB and 1GB or RAM). </s>
+<s> However, in the BIOS settings it says that my FSB is only 200Mhz! </s>
+<s> It should be 400Mhz.. </s>
+<s> I tried to manually change that but FSB only goes to 250Mhz!? </s>
+<s> So, there's a % option.. </s>
+<s> So I tried 200Mhz x 200% = 400Mhz.. </s>
+<s> But the CL became 3.0 instead of 2.5 and the PC would not boot.. </s>
+<s> I pulled the CMOS battery and am ready to try again How do I get my RAM to run at 400MHz speed? </s>
+<s> As you can see I'm a bit new to 'Advanced' BIOS settings, so please explain this as you would to a ten year old.. </s>
+<s> Thanks! </s>
+<s> the actual clock rate of the memory and memory bus. </s>
+<s> HOWEVER because it is DDR SDRAM it reads/writes on both the leading and trialing edge of the clock, THUS 2 read/writes at 200 MHz = 400 MHz effectively. </s>
+<s> It is simply a terminology issue. </s>
+<s> I doubt if your CPU supports Dual Channel, HOWEVER understand that Dual Channel IS NOT a memory characteristic. </s>
+<s> Dual Channel is a mobo, chipset, and CPU function the memory used is simply standard DDR memory. </s>
+<s> Just uses a pair of the same size and type. </s>
+<s> If you run the memory bus up to 250 MHz you may fry something. </s>
+<s> The mobo is simply giving you a capability to overclock your memory bus. </s>
+<s> That is usually done in 1 MHz steps until the system becomes unstable and then back down a MHz or two. </s>
+<s> Lot more to it than that and you risk frying things. </s>
+<s> Sweet Speaking of overclocking, I've overclocked my AthlonXP 1.73Ghz to 1.8Ghz [very slightly] and the box is already starting to act irresponsively + the temperature goes way up. </s>
+<s> Is overclocking really worth it! </s>
+<s> ? </s>
+<s> The big time avid gamers use it, however they are students of the subject and buy all of the needed protection devices and are willing to accept losing a CPU along the way to acheive a few more FPS. </s>
+<s> For a simple CPU slight clock speed increase, you will never detect any process improvement. </s>
+<s> A lot of o'clocking novices do not realize that as they increase the memory bus speed the PCI bus and the AGP bus increase their speed proportionately. </s>
+<s> Thus any device plugged into those slots may not respond kindly to the higher speed. </s>
+<s> Tis not a simple subject. </s>

@@ -1,0 +1,15 @@
+<s> Hello Everyone, The following link explains how to calculate the maximum throughput on 802.11b: http://www.cisco.com/univercd/cc/td/doc/product/voice/c_ipphon/english/wip7920/7920ddg/wrlapdxi.pdf Summarizing the article, it proposes the following equation: Theoretical Maximum Throughput = (Packet Length * 8 * 1000000) / (Preamble + Header + ((Packet Length + 28) * 8 / Rate) + SIFS + Preamble + Header + (ACK * 8 / Rate) + DIFS + ((Backoff / 2) * Slot)) I understand almost all of the equations components, but I'm not sure about it ((Backoff / 2 ) * Slot)), I know that this time it is necessary because of the backoff algorithm of CSMA/CA, but I don't know why is it necessary the division by 2. </s>
+<s> Does anyone know why the division by 2 is necessary?? </s>
+<s> How can I know if the correct number is 2 or 3 or ...?? </s>
+<s> Hernn. </s>
+<s> All drivers don't implement it. </s>
+<s> Read http://madwifi.org/ticket/852 Bob </s>
+<s> Thank you Bob, but it doesn't answer my question. </s>
+<s> H. </s>
+<s> Since it's not (or may not be) implemented you may discard it's effect. </s>
+<s> You may have a bigger goal in mind but between this post and your other post I can't see what you are attempting to figure out that a simple link test couldn't answer. </s>
+<s> Maybe you are trying to figure out what the maximum transfer rate is but given &quot;reality&quot; items such as the client or host ACK time is variable then I can write that I've yet to find the mathematical models to match the real world. </s>
+<s> Most of the error is the delay in the acks. </s>
+<s> Bob </s>
+<s> FYI - A Test I ran last year Transfer 28.0 megabyte file from my server to my wireless laptop located 14 feet away and indicating excellent signal strength. </s>
+<s> Wireless B = 70 sec Wireless G = 47 sec (router set in mixed Mode) Wireless G = 36 sec (router set in G Mode only) Wireless N = 12 sec (Belkin Pre N hardware) Wired NIC = 4 sec (Wired 10/100 ethernet) </s>

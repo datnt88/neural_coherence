@@ -1,0 +1,29 @@
+<s> Dell Dimension 4500S, WinXP Home, 256mb ddr ram, Maxtor 20gb hdd. </s>
+<s> onboard video & sound, Intel 845 MB w/1.8 Celeron cpu. </s>
+<s> This machine suddenly stopped recognizing the cdrw drive. </s>
+<s> I checked inside to find the cd drive is on channel two by itself, jumpered at cable select. </s>
+<s> When I change the jumper to master and reboot, the drive is recognized normally. </s>
+<s> However, when I reboot again, it isn't recognized. </s>
+<s> The drive works, until I reboot. </s>
+<s> I get the same results when I change the jumper back to CS. </s>
+<s> Does anyone have a clue why this is? </s>
+<s> The hdd is also set at CS. </s>
+<s> I have set both as master, Windows will boot at either setting. </s>
+<s> I have installed a new 80 pin cable to replace the original, but it seems to have no affect. </s>
+<s> My first thought was that the drive was failing, but when it is recognized, it works just fine. </s>
+<s> Do I toss the drive, or just reset the jumper each time? </s>
+<s> Any thoughts are appreciated. </s>
+<s> gives a way to give more time for the drive to be detected at boot. </s>
+<s> Stop playing master/slave vs CS. </s>
+<s> Stay with CS. </s>
+<s> When the drives are set to AUTO in the BIOS they get redetected at each boot. </s>
+<s> Possibly timing out once in a while before the CD is detected and skips it. </s>
+<s> http://reviews.cnet.com/5208-6122-0.html?forumID=44&threadID=63892&messageID=763383 </s>
+<s> Those are great tips. </s>
+<s> I'll check to see what's going on in the bios. </s>
+<s> I'll let you know. </s>
+<s> I applied the changes in the bios, at least the ones that were available. </s>
+<s> I was able to change the boot order as suggested, but the other options weren't available. </s>
+<s> Not even the Floppy Seek option. </s>
+<s> Long story short, I plugged in a new drive and it was recognized properly. </s>
+<s> Lesson learned. </s>

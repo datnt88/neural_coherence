@@ -1,0 +1,28 @@
+<s> My laptop is hooked up to our office lan wirelessly. </s>
+<s> I want to connect an ethernet device (not wireless but IP addressing fully configurable) to my laptop so that i can then see the device elsewhere in my office. </s>
+<s> Is this possible? </s>
+<s> I have been playing with IP addresses with no luck so far. </s>
+<s> A printer or NAS drive perhaps? </s>
+<s> Maybe if you explain what you're wanting to do. </s>
+<s> You can certainly connect an Ethernet cable to your NIC jack and to another device. </s>
+<s> To get them working together, they both need IP addresses which you will probably need to do statically. </s>
+<s> Hi Steven, I have a VSD which has an inbuilt http page which i can bring up on my laptop. </s>
+<s> However from other stations on my network it is not accessible. </s>
+<s> If I bridge(using XP) my wireless and local are connection (broadcom) then the device is pingable, but not accessible by my laptop or the broader network. </s>
+<s> Is help from your IT dept. </s>
+<s> an option? </s>
+<s> I would think it could be wirelessly bridged directly to the network. </s>
+<s> If your network's router has some addresses reserved for static assignment, I'd think you could configure it that way and create a link to it in your browser. </s>
+<s> We are a small automation company (4 people). </s>
+<s> If i crack this we can implement the concept more broadly on our systems. </s>
+<s> Bridging seems like a route to take but when i do this it my wireless indicates it is connected, but is unable to connect(to the other network computers and the internet). </s>
+<s> Is this an ip addressing issue of the bridge that I have now created? </s>
+<s> Wire would be best but you lose portability of that's of importance. </s>
+<s> I'm not sure that bridging through your laptop can be easily done. </s>
+<s> Frankly, I've never tried that other than to create an AP from another PC. </s>
+<s> It would seem best to connect it directly to the whole network than require a dependency on another machine. </s>
+<s> Bridging to router should not be that hard. </s>
+<s> You need two capable devices and create an association between them. </s>
+<s> You can set up your DHCP server (generally your router) to provide some addresses dynamically but reserve a range for those that need fixed addresses. </s>
+<s> I'll be limited in what I can offer in the way of specifics as I've only done this (minimally) with printers as single devices. </s>
+<s> It works with these. </s>

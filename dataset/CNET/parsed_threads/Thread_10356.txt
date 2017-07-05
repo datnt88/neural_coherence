@@ -1,0 +1,85 @@
+<s> Yo--I new here and need some advice on streaming netflix wireless to Sammy BD6500 blu ray or Sammy UN60D7000VF tv. </s>
+<s> I do fine till about 45 minutes into movie. </s>
+<s> No stutters etc. </s>
+<s> Then router shuts off and a reset needed. </s>
+<s> My set up Linksys WRT 300N with 2 yagi 9db antennae. </s>
+<s> (router is across the street in my office). </s>
+<s> My download speed (measured 300 feet away in my residence is down 26.6 mbps and up is 2.6 mbps. </s>
+<s> Great signal and noise readings. </s>
+<s> The problem only occurs when streaming through the TV or Blu Ray at HD. </s>
+<s> Anything less is fine. </s>
+<s> Streaming same movie to laptop is fine (however laptop needs better video hardware as stutters occur). </s>
+<s> Fix for router or new router suggesions would be appreciated. </s>
+<s> If new, the router needs to have external antennae so I can hook up to outdoor yagis. </s>
+<s> Really your only option on a router problem that you have to reset the hardware is to patch it and hope. </s>
+<s> All routers have some limit on how much traffic they can pass but most when you exceed that limit most just slow down to almost unusable but as soon as you stop they recover. </s>
+<s> If they lockup then you have some kind of bug. </s>
+<s> Not sure which wrt300n you have some you can load dd-wrt firmware. </s>
+<s> Since it is different firmware it may not have the same issue and since it has more debugging option maybe it would give you a idea. </s>
+<s> Still it does not run on all model of 300n. </s>
+<s> Routers that accept external antenna are hard to find. </s>
+<s> Way to many people worry about the appearance of the router rather than how well it technically works and they think antenna are ugly. </s>
+<s> The best solution I have found it to use a AP and hook it to you favorite router. </s>
+<s> The router does not even need to be wireless. </s>
+<s> The nice thing about many AP is that these are designed to mount outdoor with the antenna solving many of the cable loss issues. </s>
+<s> Bill---Thank you for your thoughts. </s>
+<s> The router in question was obtained used from ebay--already flashed with dd-wrt. </s>
+<s> Perhaps its time I move on to something more reliable at higher transmission rates. </s>
+<s> (Could be reason ebay seller unloaded the router) External Antenna ---- yep I agree--I was hoping to not have to add a repeater/extender/bridge. </s>
+<s> the increase of complexity of the wifi network something i wish to avoid. </s>
+<s> Aggravation=Blood pressure issues. </s>
+<s> I've done to research on new routers looking for something with higher CPU speeds, strong radio, and more memory. </s>
+<s> What it comes down to is they are out there but not without firmware issues out of the box. </s>
+<s> I've also heard success stories and failure in flashing dd-wrt etc. </s>
+<s> With my limited geekyness (a word?) </s>
+<s> , I am a 59 year old farmer, I would like to keep it fairly simple. </s>
+<s> Pperhaps my expectations of simple are too elevated?? </s>
+<s> A gentle nudge toward a functional KISS router probably ? </s>
+<s> I used to like all the hawkins stuff since they sell lots of product designed for outdoor use and it is targeted at the consumer market. </s>
+<s> This stuff is sold in retail stores so most people can find it. </s>
+<s> It concerns me they have not offered a dual band router or newer product in a while. </s>
+<s> Maybe because they don't want to deal with the questions about difference in 5g antenna. </s>
+<s> It has been a long while since I bought a router and used a external antenna. </s>
+<s> Because the cost of waterproof AP has come down so low I now directly mount these to the antenna and use ethernet cable into the house. </s>
+<s> This saves both the cost of the microwave cable as well as the significant lose you get in this cable between the device and the antenna. </s>
+<s> The challenge with any router that has external antenna is first to make sure you can remove them and second that they have the connector you need. </s>
+<s> In general there are 2 types you will see on consumer routers. </s>
+<s> Of course they make adapters but they sure want a lot for a simple metal thing. </s>
+<s> Sorry can't pick a brand maybe someone else who has recent experience with routers with external antenna knows. </s>
+<s> I really suspect like most wireless routers the radio part will be exactly the same and you could buy based on the other feature you need. </s>
+<s> So bite the bullet and put up AP. </s>
+<s> Models. </s>
+<s> weather proof for sure then connect with CAT 5. </s>
+<s> Actually might not be bad idea. </s>
+<s> Come from outside with a bridge (wireless to Cat 5). </s>
+<s> Plug the Cat 5 inside to a cheap netgear N I have acquired. </s>
+<s> From there Cat 5 to tv and BluRay. </s>
+<s> Then maybe with some tweeking I can get the netgear to also broadcast in house wireless. </s>
+<s> Would mean I would have to make sure channels do not clash between two networks? </s>
+<s> Sounds like an afternoon's work. </s>
+<s> Suppose is ok as my Packers melted in front of the NY Giants I feel your pain on connectors. </s>
+<s> RP-SMA is what i have now. </s>
+<s> On farm I've got multiple radio and each seems to require its own style connector. </s>
+<s> Strange choice of words... </s>
+<s> I just helped someone setup a wireless extension using a product they call &quot;bullet&quot;. </s>
+<s> Mostly we used them because they were cheap . </s>
+<s> We use some huge 24db gain antenna on both ends (very much overkill since we only were going about 700ft). </s>
+<s> We ran them in bridge mode for his requirement but they can run in ap mode. </s>
+<s> This is a link to a site that sells them. </s>
+<s> http://www.wlanparts.com/category/wlan.ubiquiti.24ghz-wireless/ I have purchased things from this company before but this link is more because this site sells many type and brands of devices. </s>
+<s> Some things are cheaper and some more expensive. </s>
+<s> So far I have not had issues with the bullet products. </s>
+<s> Because you can run them in so many modes they tend to require a little more reading. </s>
+<s> For your case you may want to run them in extender mode although I have not run them in that exact configuration. </s>
+<s> http://wiki.ubnt.com/AirOS_Wireless_Repeater_Configuration Be aware these use the standard N connectors used on professional equipment. </s>
+<s> You will need adapters to attach your antenna. </s>
+<s> Also notice the really cheap ones run only b and g. If you look around the first link you will see there are many many option to solve this issue. </s>
+<s> ok ---will try to get a look at info tonite---see what you mean by bullet </s>
+<s> Thanks for the help----I will be looking for an AP to boost the signal throughout my house. </s>
+<s> I just streamed Netflix movie Tron 2 through my laptop which was connected to my Sammy TV joining the two with a HDMI cable. </s>
+<s> Got full HD and surround sound x 5 speakers with no glitches. </s>
+<s> Gotta love those Klipsh speakers. </s>
+<s> Now if I can get Dish or Netflix to supply 3D format!!!!!! </s>
+<s> Ours is not to question why---ours is to do or die. </s>
+<s> Pretty easy fix. </s>
+<s> A bluejean company 8 foot HDMI cable and Viola, Eureka, Huzza, and cheers. </s>

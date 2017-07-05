@@ -1,0 +1,36 @@
+<s> Hello, We all know the drill: Install a new HDD, go to Disk Management, the Convert Disk wizard pops up. </s>
+<s> In another thread, a user recommended not to convert disks if given the option. </s>
+<s> I have never clearly understood the difference between Dynamic and Basic disks, and have always chosen Basic as the drive type. </s>
+<s> I believe a drive needs to be Dynamic to become a part of a Windows-controlled array, but all the disks I've formatted for all the arrays I have built were formatted as Basic, albeit all are/were controlled by third-party RAID cards. </s>
+<s> I am really curious as to what the actual nuts-and-bolts differences are between Basic and Dynamic drives, and when/why to use each. </s>
+<s> Thanks all. </s>
+<s> Tony </s>
+<s> I suggest avoiding it unless there is no other solution available. </s>
+<s> It's a SW solution to circumvent the BIOS hard drive size limit. </s>
+<s> Problem is if DDO becomes corrupt, you lose access to the disk and can run into real problems getting to the data stored on the disk. </s>
+<s> Below is an excerpt from the web... Microsoft Windows XP, Windows 2000 and Windows Server 2003 offer two types of disk storage: basic and dynamic. </s>
+<s> Basic Disk Storage Basic storage uses normal partition tables supported by MS-DOS, Microsoft Windows 95, Microsoft Windows 98, Microsoft Windows Millennium Edition (Me), Microsoft Windows NT, Microsoft Windows 2000, Windows Server 2003 and Windows XP. </s>
+<s> A disk initialized for basic storage is called a basic disk. </s>
+<s> A basic disk contains basic volumes, such as primary partitions, extended partitions, and logical drives. </s>
+<s> Additionally, basic volumes include multidisk volumes that are created by using Windows NT 4.0 or earlier, such as volume sets, stripe sets, mirror sets, and stripe sets with parity. </s>
+<s> Windows XP does not support these multidisk basic volumes. </s>
+<s> Any volume sets, stripe sets, mirror sets, or stripe sets with parity must be backed up and deleted or converted to dynamic disks before you install Windows XP Professional. </s>
+<s> Dynamic Disk Storage Dynamic storage is supported in Windows XP Professional, Windows 2000 and Windows Server 2003. </s>
+<s> A disk initialized for dynamic storage is called a dynamic disk. </s>
+<s> A dynamic disk contains dynamic volumes, such as simple volumes, spanned volumes, striped volumes, mirrored volumes, and RAID-5 volumes. </s>
+<s> With dynamic storage, you can perform disk and volume management without the need to restart Windows. </s>
+<s> Note: Dynamic disks are not supported on portable computers or on Windows XP Home Edition-based computers. </s>
+<s> You cannot create mirrored volumes or RAID-5 volumes on Windows XP Home Edition, Windows XP Professional, or Windows XP 64-Bit Edition-based computers. </s>
+<s> However, you can use a Windows XP Professional-based computer to create a mirrored or RAID-5 volume on remote computers that are running Windows 2000 Server, Windows 2000 Advanced Server, or Windows 2000 Datacenter Server, or the Standard, Enterprise and Data Center versions of Windows Server 2003. </s>
+<s> Storage types are separate from the file system type. </s>
+<s> A basic or dynamic disk can contain any combination of FAT16, FAT32, or NTFS partitions or volumes. </s>
+<s> A disk system can contain any combination of storage types. </s>
+<s> However, all volumes on the same disk must use the same storage type. </s>
+<s> NIL </s>
+<s> Dynamic disk provide more features than basic disk. </s>
+<s> You will clear about it after you visit the website I linked below. </s>
+<s> http://www.dynamic-disk.com/difference-between-basic-and-dynamic-disk.html I think, considering the advantages of the dynamic disk, maybe you will convert basic disk to basic disk. </s>
+<s> This operation can be realized by the built-in disk management. </s>
+<s> http://www.dynamic-disk.com/basic-disk-convert-to-dynamic-disk.html But you should know the risk of this operation, convert basic to dynamic is simple. </s>
+<s> But when you want to convert dynamic disk back to basic disk, the big problem appears--delete all the dynamic volumes through the built-in disk management. </s>
+<s> So, I think this information ( convert dynamic disk to basic disk ) can help you. </s>

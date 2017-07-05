@@ -1,0 +1,19 @@
+<s> Hi! </s>
+<s> Recently we are thinking of investing on a fixed IP address. </s>
+<s> So am I right to say that if I want people outside of our network, from the Internet to access to our computer, we just do some modification at the router's Network Address Translation (NAT), to map the internal IP of the computer to the fixed IP? </s>
+<s> Then if people want to access this computer through the Internet, they just type the IP address in their browser? </s>
+<s> NIL </s>
+<s> You will need to setup something like 'virtual server' or 'DMZ' at your router. </s>
+<s> Most modern router should support these. </s>
+<s> If you setup your service(s) at the DMZ, you will need to be careful as you expose the machine on the internet. </s>
+<s> ... We have a computer installed with a software application by our CCTV vendor. </s>
+<s> This software application allows other computers in our LAN to open a browser, enter this computer's internal IP address, and then we will see a login screen. </s>
+<s> Once logged in, we can view all the CCTVs installed in our company. </s>
+<s> I don't know how the software application works though. </s>
+<s> So my manager is thinking of mapping this internal IP with an external IP such that my boss can log in from home through his Internet to watch. </s>
+<s> Is it really difficult? </s>
+<s> Should I pay some experts to help me do this? </s>
+<s> Or can we handle this by ourselves just by the mapping at the router? </s>
+<s> But your post lead off with NAT and not the issue you wanted to solve. </s>
+<s> In short, port forward as need be and at worst place the CCTV PC in the DMZ. </s>
+<s> Bob </s>

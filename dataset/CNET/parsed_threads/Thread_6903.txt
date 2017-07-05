@@ -1,0 +1,107 @@
+<s> without damaging existing data. </s>
+<s> I wish to clone entire hard drive, and store on external drive, choosing destination warning, all data will be erased on existing destination drive I assume partition will solve this any ideas Will </s>
+<s> The clone software appears to want to write the entire image from drive to drive. </s>
+<s> Better clone or &quot;imaging&quot; software like ACRONIS, G4U and others allow you to save the image to a FILE then there is no issue. </s>
+<s> Since you didn't share the title you tried no one can comment if there is a misstep here. </s>
+<s> Bob </s>
+<s> Avanquest is the software on HP Pavilion XP MCE 2002 with removable 2nd hard drive, so if I partitioned removable hard drive, A) would it damage existing data B) Accept clone of main drive Thanks Will </s>
+<s> Cloning will destroy existing data on the target drive. </s>
+<s> No way to get around it, by it's nature it formats the target drive. </s>
+<s> Imaging is creating a file (disk image from existing drive) to be put on the target drive. </s>
+<s> Since the image is specifically a file (albeit a very large one) it's still just a file. </s>
+<s> &quot;Cloning will destroy existing data on the target drive. </s>
+<s> &quot;... </s>
+<s> If I create a image of the entire hard drive on external hard drive would I be able (if I had to do a complete reinstall) boot this and restore the entire image and basically be where I was before drive failure. </s>
+<s> IE OS OE settings Software, internet settings etc, sorry if this question seems basic but try as I might I can not seem to get my head around this question Will </s>
+<s> Cloning (vice copying) for most part implies 'cloning or replicating the complete content one hard disk to another hard disk. </s>
+<s> In such cases, the destination or target drive is overwritten. </s>
+<s> If there were were 50 directories and 50,000 files on drive 1, cloning drive 1 would put 50 directories and 50,000 files on disk 2. </s>
+<s> When you use product like Ghost or True Image ....you can clone the source drive to the target drive or alternatively image one hard drive (or partition on a hard drive) to another hard drive. </s>
+<s> The difference is . </s>
+<s> . </s>
+<s> instead of the 50 directories and 50,000 files you get with cloning, imaging might give you say 15-20 image files which contain the 50 directories and 50,000 files. </s>
+<s> And if you compress the image files during creation, you might end up with only 12-15 files using less disk space and not overwriting files on the target drive. </s>
+<s> Assuming there was sufficient disk space, you could create another image next week and the week after too. </s>
+<s> Hope this helps. </s>
+<s> VAPCMD </s>
+<s> can access both the source and target disks and run the restore function of the software that created the image. </s>
+<s> So, yes, you can do a complete recovery of an entire partition in this manner. </s>
+<s> It's very quick as compared to restoring from scratch with your software and backups...minutes versus hours. </s>
+<s> Just to clarify the cloning vs imaging methods. </s>
+<s> Cloning requires free space. </s>
+<s> The cloning software does not copy files from place to place. </s>
+<s> It copies the raw ones and zeros from the drive sectors and creates the formatted partition in the process. </s>
+<s> Such is why it destroys other partition data. </s>
+<s> It may clone to unpartitioned space on a drive with an existing primary partition but that method would be useless to use to restore another drive. </s>
+<s> One advantage of a hard drive image is that it's compressed to about 1/2 the size as all the used space on the drive. </s>
+<s> You can place many complete hard drive images on another drive this way. </s>
+<s> for all replies, its hard to get your head around but I know can see differences between both processes, will image rather than clone. </s>
+<s> Will </s>
+<s> I bought an external harddrive from the local store myself, and want to put the entire contents of my computer on to it to store in case of my computer crashing. </s>
+<s> The directions were written in broken Chinese/English, and didn't make much sense. </s>
+<s> Can someone tell me step by step how to do this? </s>
+<s> I've got Windows XP Pro and 33.1 gb to copy. </s>
+<s> It's a Dell desktop, too. </s>
+<s> Like someone mentioned, is it possible to copy everything so that if it crashed I could use it to boot up and restore everything if I had to reinstall Windows and lost it all? </s>
+<s> I never did see anything about &quot;partitioning&quot; using the directions they gave, but I did see the command to Format the external F Drive and did that. </s>
+<s> After that, I was lost... </s>
+<s> Thanks for any help... Jan </s>
+<s> a second internal HDD. </s>
+<s> Harder to boot and access an external HDD to get the data need for the restore. </s>
+<s> Most end up buying SW like Ghost or True Image to accomplish this. </s>
+<s> It isn't quite as simple as 1, 2 and 3. </s>
+<s> VAPCMD </s>
+<s> While using the second internal HD solves the problem with booting from another HD, it makes the clone copy vulnerable to the same atacks as the first HD (theft, fire, mechanical damage of the pc, overvoltage etc.) </s>
+<s> so it is generally safer to use external disk - and store it separately. </s>
+<s> You naturally won't be able to boot a working windows system from your external cloned HD, unless you physically replace it for the original one in its place. </s>
+<s> But the cloning software you used for creating the copy (I myself prefer HDClone, after trying Acronis and Norton first) will of course allow you to restore the original contents onto original/replaced HD. </s>
+<s> The cloning soft can be booted as stand-alone system to accomplish this. </s>
+<s> It is also advisable to divide your internal HD into at least two partitions, for the system and data, because a cloning soft enables you to clone just a partition. </s>
+<s> So you can clone the complete HD at the beginning and later replace only that part of image (partition) which has significantly changed. </s>
+<s> Additionaly, since cloning is usually very tim-consuming action, it can save you a lot of waiting . </s>
+<s> A good cloning software is hard to get free of charge, but price of individual cloning systems is so low and its role in data security so high that I didn't hesitate to spend those few bucks for it. </s>
+<s> for the last 6 to 8 years and the system runs 24-7-365. </s>
+<s> When using Ghost, I boot from a simple floppy disk that runs Ghost and helps me restore a partition image to the existing HDD or to a new HDD should that be necessary. </s>
+<s> Restoring C takes about 15 minutes and D takes about 45 minutes. </s>
+<s> Much much faster restoring from a second internal HDD. </s>
+<s> While there are some vulnerabilities using a second internal HDD, like you I partition the primary HDD (to separate the OS-APPs on C and DATA on D). </s>
+<s> The system is protected by a surge suppressor, a heavy duty UPS, and multiple images of both C and D are copied to an external HDD..just in case. </s>
+<s> Too many posts here and elsewhere on external HDD hiccups and failures to rely on them as the only source data for a system restore. </s>
+<s> Sounds like we're following a similar path...except for the internal HDD which has been successful for me for many years. </s>
+<s> Knock on wood, I've never had to use the images stored on the external HDDs but they're there if needed. </s>
+<s> And I agree...good cloning/imaging SW is worth it's weight in GOLD. </s>
+<s> I don't want to spend days finding CDs and serial numbers, loading the OS, the drivers, the apps, reregistering SW, setting preferences, running updates. </s>
+<s> Makes me tired thinking of it. </s>
+<s> VAPCMD </s>
+<s> If you already have a 6-month old file backup on an unpartitioned external drive, can you then impose a partition structure on that external drive and direct your new source disk image to be copied to the newly created (empty) partition on the external drive? </s>
+<s> If it's possible, what software packages can accomplish this? </s>
+<s> (I'll be using Macrium Reflect to produce the disk image under Vista SP1.) </s>
+<s> Cloning a drive should wipe out your partitions and make an exact image so look again over this discussion and see where we tell that plus how &quot;imaging&quot; might be a better idea. </s>
+<s> I never used the words &quot;clone&quot; or &quot;cloning&quot; - I explicitly said &quot;disk image&quot; because I didn't want to muddy the waters here. </s>
+<s> All this was covered above and no partitions are needed for imaging to a file. </s>
+<s> If you must partition then it's likely you're cloning. </s>
+<s> Well, it's very clear that &quot;Image&quot; is better than &quot;Clonig&quot;. </s>
+<s> But, please if you explain this again I'll be gratefull. </s>
+<s> Once I do an HDD Image to my external drive (MY BOOK 1T) , how or what do I have to do to &quot;Boot&quot; my computer from the external drive. </s>
+<s> Is it posible?? </s>
+<s> Or do I have to redo an &quot;Image&quot; from my &quot;External drive&quot; to the HDD ?? </s>
+<s> I have Acronis True Image, do I have to Boot from the &quot;Acronis Boot Disk&quot;, to get my computer to Boot from my External Drive?? </s>
+<s> I hope you can understand me...... HP Pressario Elite-Windows Vista 64 </s>
+<s> &quot;I have to Boot from the &quot;Acronis Boot Disk&quot;, to get my computer to Boot from my External Drive?? </s>
+<s> &quot; I never replace the manual since such methods can change with versions. </s>
+<s> But here I boot my Acronis Boot CD and I can restore from a selected image file. </s>
+<s> Then again, I read the supplied manual. </s>
+<s> Bob </s>
+<s> Up to you but I used free (recommended) software- I'm a bit of a communist/socialist at heart. </s>
+<s> 1. </s>
+<s> Back-up with drive image XML- Giving you a file (that you can move if you want) of around 20 Gb- you can compress if you want. </s>
+<s> 2. </s>
+<s> Next create a Windows installation environment cd. </s>
+<s> This will let you boot into windows if your drive crashes. </s>
+<s> I used BartPE, search for it and you can include an add-on for drive image xml. </s>
+<s> This program uses your windows cd and the add-ons you want to make a version of windows that runs from the cd drive- so you can restore windows. </s>
+<s> 3. </s>
+<s> That's it there are no more steps. </s>
+<s> This took me 4 days to work out and do- from a pc that booted okay after I had backed up my c drive- last month (docs on separate drive) but then ghost swapped my drive letters around and I lost all my programs, basically started again. </s>
+<s> Used my disc and recovered everything. </s>
+<s> If you do this you will be very confident that you can sort out issues. </s>

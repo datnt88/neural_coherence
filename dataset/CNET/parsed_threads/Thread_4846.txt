@@ -1,0 +1,86 @@
+<s> Alright. </s>
+<s> I have an old Gateway desktop with AMD Athlon 800 MHz processor. </s>
+<s> Only 320 MB RAM. </s>
+<s> Onboard video and sound cards, etc. </s>
+<s> Everything is out-of-the-box from 1998. </s>
+<s> The &quot;out of the box&quot; hard drive is a 15GB drive. </s>
+<s> I have a second computer and a notebook that are nice, but I'm so proud that this old thing is still running. </s>
+<s> The small hard drive has been wiped and various versions of Windows have been reinstalled. </s>
+<s> I've tried all sorts of dual-boot combos with various versions of Linux and Windows. </s>
+<s> Every year or so, I wipe the drives and clean install a new experiment. </s>
+<s> I have added new hard drives and partitioned them in all sorts of ways. </s>
+<s> This is my play computer. </s>
+<s> I currently have a CD-RW and the original CD-ROM drive in the computer. </s>
+<s> This combination has worked for years. </s>
+<s> At some point (and I don't know when), both drives stopped working. </s>
+<s> They're recognized in My Computer, Device Manager, etc, but when are selected, error msg says, &quot;please insert disc into drive.&quot; I put a DVD-ROM, another CD-ROM and another CD-RW in here, with all sorts of combos, and the same thing happens with ALL the drives, and several different data ribbons. </s>
+<s> None of the drives/cables work. </s>
+<s> At one point recently, my drives weren't recognized at all in My Computer, but after one reboot that changed. </s>
+<s> I have un-installed and re-installed the drivers, Windows drivers and the manufacturers' drivers. </s>
+<s> I have confirmed the secondary IDE channel IRQ is set to 15. </s>
+<s> I have confirmed that the drives are enabled in BIOS (and settings are config'd to &quot;autoselect.&quot;) I have set the jumpers to cable select and the correct master/slave config. </s>
+<s> I checked that config.sys has &quot;lastdrive=z,&quot; but my last drive letter is E: so that doesn't matter anyway. </s>
+<s> I have reseated the power and data cables numerous times in the tower. </s>
+<s> I may have tried other things that I cannot remember now. </s>
+<s> I cannot figure this out, someone please help. </s>
+<s> Thing that bothers me is, I currently have reinstalled Windows and have 1 hard drive with two logical partitions (ME, 2K) and one drive with XP. </s>
+<s> Is there anyway that there are conflicts in the OS? </s>
+<s> Could it be that the controller on the motherboard is just bad? </s>
+<s> Is it exhausted? </s>
+<s> There are no broken/missing pins, it appears okay. </s>
+<s> Any help is greatly appreciated. </s>
+<s> If Win 2K or XP....what does disk management show ? </s>
+<s> How about the CD firmware...up to date ? </s>
+<s> Sure the CDs are on a 80-wire, 40-pin cable ? </s>
+<s> If not might go back to master and slave. </s>
+<s> And try one drive at a time. </s>
+<s> If possible make sure their working on another PC to be sure. </s>
+<s> VAPCMD </s>
+<s> http://www.pcworld.com/article/id,109710/article.html </s>
+<s> You did try a new shiny 80 conductor cable? </s>
+<s> Please check both your autoexec.bat and config.sys files if using this with win98 or later versions of windows and make sure there are no references to mscdex or any device driver for a cd drive in either of them. </s>
+<s> I have tried the drives in a working computer, and all four of my drives DO work. </s>
+<s> I re-installed the firmware on two of my drives when I reinstalled the drivers. </s>
+<s> I also unplugged everything but one hard drive and one cd-rom, to see if I had a power supply going bad, but it still didn't work. </s>
+<s> I put a cd-rom drive as slave behind my hard drive (on primary IDE channel), and it still didn't work, so I'm guessing it isn't the controller. </s>
+<s> I am using 40-pin cables. </s>
+<s> I just checked the config.sys and autoexec.bat and there's no reference to mscdex. </s>
+<s> But... </s>
+<s> I put the files from my XP cd on my usb jump drive, and copied them to c: Then, I formatted one hard drive and clean-installed XP on it, using the copy. </s>
+<s> When I booted from the clean drive, one of my cd-rom drives works!!! </s>
+<s> I haven't tried the other three yet, but I'm guessing that it is an OS issue, which has been fixed. </s>
+<s> I'll post again if I find solution or if it breaks again. </s>
+<s> Thank you all for the suggestions. </s>
+<s> I've learned more than I ever cared to know about IDE connections! </s>
+<s> Another thing...test each CD separately to make sure they both work and then jumper them to work on the same cable. </s>
+<s> Believe the cable select setting (CS) requires an 80-wire, 40-pin cable (as opposed to the 40-wire, 40-pin cable) ... the link below clearly illustrates the difference. </s>
+<s> http://www.mikeshardware.com/howtos/howto_connect_ide_hd.html VAPCMD </s>
+<s> Because of the difference between 40 and 80 pin cable this ONLY works, when it works, to solve CD drive conflicts using 40 pin cables. </s>
+<s> Drives to master/slave settings, then plug the MIDDLE plug to the motherboard and each end to a drive. </s>
+<s> Of course placement of the drives may not allow the shorter end to reach. </s>
+<s> It gives both drives direct access to the port on the mobo and cuts down on any cross cable electrical interference between the drives. </s>
+<s> How to enable the second ide in two steps. </s>
+<s> 1. </s>
+<s> Install the motherboard chipset drivers. </s>
+<s> 2. </s>
+<s> Turn on the secondary IDE channel in the device manager. </s>
+<s> Since you've been using this for 10 years I hope these are all the clues you need. </s>
+<s> Bob </s>
+<s> I didn't know that about 80-wire v 40-wire cables. </s>
+<s> Also, I never thought about using the &quot;slave&quot; connector directly into the mobo and the ends of the cable for the drives. </s>
+<s> But it's working now, so I won't play with it anymore. </s>
+<s> I got a cd-rom and cd-rw working together. </s>
+<s> I usually only use cable select, but I used master/slave. </s>
+<s> Once it was all working, I replaced the cd-rom with a dvd-rom drive, and I had problems booting the computer. </s>
+<s> Instead of trying to fix it, I just unplugged the dvd-rom, and it booted fine. </s>
+<s> May be a power issue. </s>
+<s> But I'm not concerned with getting the dvd-rom working on this computer, I don't use it on this old p.o.s. </s>
+<s> Thank you for all your help. </s>
+<s> This was my first ever posting to a forum, and honestly, I didn't want to have to post - I wanted to figure it out myself. </s>
+<s> Thank you! </s>
+<s> I get it now, I wasn't thinking! </s>
+<s> 80-wire, like the hard drive cables, duh! </s>
+<s> I didn't realize that's what you were talking about - I didn't use an 80-wire cable for the cd drive, I never even considered it. </s>
+<s> I do think I was having conflicts in the OS, but now that I've wiped the hard drives and re-installed, everything is great. </s>
+<s> there is no need to connect it to the drive. </s>
+<s> Invest in a couple cables &gt; $10.00 a piece. </s>

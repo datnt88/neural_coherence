@@ -1,0 +1,50 @@
+<s> Hi all. </s>
+<s> I hope someone can help me out here, I've been scratching my head over this for two months now. </s>
+<s> I Bought a gigabyte 6600GT silentpipe because a) it's quiet and b) it has VIVO. </s>
+<s> When I fit it into my machine (spec below)with an Epox 8HDA3+ mobo, it will not even post. </s>
+<s> The lights come on, the fans spin, but no action. </s>
+<s> If I try it in my other machine which has an Abit NF7S2 board, all is well. </s>
+<s> If I put the XFX6800LE out of the Abit system into the EPOX, all is well. </s>
+<s> This is the way things are at the moment, although I would like the gigabyte in the more powerful system as I have a lot of old videos that I want to convert. </s>
+<s> If anyone can offer any pointers or a solution, I will be most grateful. </s>
+<s> Thanks for looking. </s>
+<s> system: Epox 8HDA3+ motherboard. </s>
+<s> AMD64 3000+ processor 1 gig of no-name ram HiperPower type R 480 watt psu 200 gig Seagate barracuda sata x2 NEC 3250 DVD-RW XFX 6800LE (all pipes and shaders open, bless you Rivatune) </s>
+<s> on page 41 of the manual you will find the information on changing this setting Bill </s>
+<s> are the newest out there, I would also assume that the voltage for both is compatible.....however, that assumption got me into trouble with a 'new' video card by Nvidia that actually WASN'T compatible and the only way I knew was because the video on screen actually was doing weird things that I didn't expect to see after booting up and even using the newest drivers for it. </s>
+<s> A friend I mentioned it to hit on the problem immediately and when I swapped the card for a different one, I had no problems anymore. </s>
+<s> So check the manual for both the card and the mobo to make sure they actually match up in that direction. </s>
+<s> Something else, since I'm not familiar with your video card.....are there separate fans on it that need to be hooked up to the motherboard or power supply? </s>
+<s> If there are and you didn't plug them in, the card may have a setting internally to not fire up without cooling in place in order to protect itself. </s>
+<s> Also...is your card a regular AGP or is it AGP-Pro type? </s>
+<s> There is an extra little notch at the end of the slot for an AGP-Pro that has a coverplate over it, and if you remove it and your card is an AGP type instead, it doesn't use that notch, but the card won't work until you cover that notch up again, so check to make sure the coverplate hasn't fallen off and you just didn't notice it. </s>
+<s> TONI </s>
+<s> Hi and thanks for replying. </s>
+<s> The card has a heatpipe so there are no fans involved.The slot on the mobo is AGP 3 type at 1.5 volt, The video card is a 1.5 volt as well. </s>
+<s> There is no notch at the end of the slot that I can see. </s>
+<s> As I said earlier, my 6800LE works fine, this is why I thought there may have been an incompatibility. </s>
+<s> this system is in the corner of my living room, so the card being silent was a big decision in it's purchase. </s>
+<s> grrr. </s>
+<s> I have found a bios update on the Epox site and reflashed this morning before coming to work, so I'll check again tonight and let you know if that cures it. </s>
+<s> Hi Bill, I downloaded the manual to see if it is the same as the one I got with the mobo. </s>
+<s> Page 41, do you mean the 41st page? </s>
+<s> I'm sorry, but the page numbering is done by sections. </s>
+<s> Page 41 is marked as 4-3. </s>
+<s> Page 4-1 is just an intro to the bios. </s>
+<s> I'm sorry to appear thick, but 4-3 has the bit about initialising PCI or AGP first. </s>
+<s> That is set to AGP. </s>
+<s> Have I got hold of the wrong end of the stick? </s>
+<s> As I said in the other reply, I've updated the mobo bios this morning, so I'll check the cards again tonight when I get home and let you know the result. </s>
+<s> thanks for helping. </s>
+<s> and yes the page number may be different. </s>
+<s> If your card is APG you are set correctly. </s>
+<s> Mentioned this as I've changed out Video cards and failed to change this setting with the same issue that you have. </s>
+<s> Hopefully someone else may help you find the answer. </s>
+<s> Bill </s>
+<s> many times the online manual has additional information that the printed manual didn't include at the time as new issues arise for their products. </s>
+<s> As long as you are at the manufacturer sites (both mobo and video card), check for any updates to the hardware that there might be available such as newer drivers or patches that correct issues and problems they have discovered since the hardware was first sold. </s>
+<s> TONI </s>
+<s> Damn. </s>
+<s> The bios update didn't work either. </s>
+<s> Well, I'm at a loss here. </s>
+<s> Anyone got any other ideas? </s>

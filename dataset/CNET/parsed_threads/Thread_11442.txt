@@ -1,0 +1,35 @@
+<s> Maybe I am just doing something slightly wrong, but I am trying to make it so that I can be on my laptop and print to the printer that is in my home office, and also have a shared folder that I can transfer files from my laptop over to onto my office PC. </s>
+<s> Here is my setup: -Motorola Cable Modem which goes into a -Linksys WRT54GS Router From this point I have the Office PC plugged into 1 port and a Vonage Phone Adaptor plugged into another port. </s>
+<s> I am able to get the internet access on both the office PC and on my laptop when I connect wirelessly. </s>
+<s> I also have 2 printers connected to the Office PC. </s>
+<s> I figured it would as easy as choosign to SHARE the Printers from that machine, but I guess not. </s>
+<s> Do I need a print server? </s>
+<s> Do I need to send the Cable modem into the comptuer first and then out to the router? </s>
+<s> (I don't want to do this becasue I use the router for QoS) I would also like to be able to share a folder on the office PC so that if I work on a document on the laptop I can just copy it over to that machine for storage because I also backup everything on the office PC to off-site storage. </s>
+<s> any advice on my setup? </s>
+<s> thanks Tucker </s>
+<s> First you have to make sure that the firewall is either disabled or if it is enabled that you have all the available ports open to the machine. </s>
+<s> Secondly, you have to make sure that they are part of the same workgroup. </s>
+<s> For some reason I've found that they have problems when you don't keep them in the same workgroup and do basic file sharing. </s>
+<s> Maybe I am not understanding this perfectly. </s>
+<s> You said check the firewall and the ports. </s>
+<s> Are you saying on the router or on the computer and on which computer? </s>
+<s> Is this to share the printer? </s>
+<s> Also, what ports do I need to open? </s>
+<s> Do I allow these in the router or in the firewall? </s>
+<s> (I use McAfee Firewall by the way on the Office PC and Symantec on my laptop since it is a work PC). </s>
+<s> Also, how do I make sure it is part of the same workgroup? </s>
+<s> If this is more info then this forum can provide, is there someplace I can go to get this info? </s>
+<s> thanks </s>
+<s> the Network Setup Wizard on all computers and choose &quot;enable file and printer sharing.&quot; This is also where you specify the name for your workgroup. </s>
+<s> Hopefully all of your computers are running XP to simplify things? </s>
+<s> You will need to configure non microsoft firewalls. </s>
+<s> will running thw windows network setup be a problem becasue the laptop is my work computer? </s>
+<s> I don't want to mess it up by adding a new &quot;workgroup&quot; but that could also be why the shared printing isn't working. </s>
+<s> advice? </s>
+<s> Sorry I neglected to understand that this is a work laptop and therefore a member of a different workgroup. </s>
+<s> But it's still simple to join your home workgroup when needed. </s>
+<s> Hold down the Windows Logo key and press the Pause/Break key. </s>
+<s> On the system properties box select the Computer Name tab and click the change button. </s>
+<s> Select the workgroup option and enter the name of the workgroup you want to join. </s>
+<s> You will have to restart the computer. </s>

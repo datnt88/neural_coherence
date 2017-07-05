@@ -1,0 +1,51 @@
+<s> Hi, I'm trying to trouble-shoot a desktop computer that won't boot. </s>
+<s> It's a Gateway 700x. </s>
+<s> Motherboard is an Intel D850MV. </s>
+<s> When I turn it on, I get 3 long beeps, and that's it. </s>
+<s> No video. </s>
+<s> The PSU and CPU fans are running, and the hard drive spins too, so there is some power. </s>
+<s> According to docs, 3 long beeps mean &quot;memory error&quot;. </s>
+<s> However, I assume if the motherboard isn't getting enough power, perhaps the memory is good, but no power is going to it. </s>
+<s> Might also explain why there's no video. </s>
+<s> So, I narrowed the problem down to PSU, motherboard, or memory. </s>
+<s> The motherboard has a 20-pin ATX connector, and I happen to have a multimeter, so I probed each wire while the computer is running. </s>
+<s> All of the wires seem to be in acceptable range, except for the blue wire. </s>
+<s> I got a reading of -30V. </s>
+<s> The specs say the blue wire should be -12V. </s>
+<s> For people who regularly test PSUs, does -30V sound strange? </s>
+<s> What components of the motherboard use the -12V line? </s>
+<s> If you're getting a &quot;memory error&quot; then this usually means that one of your memory sticks is bad; power down your computer, unplug the power cord and pull out all the sticks, replace one by one. </s>
+<s> Meaning; put one stick in and boot your PC, if it boots fine, then power down, pull that one out (label that stick &quot;good&quot;), replace it with the next stick, and reboot again...repeat this process with all your memory sticks until you find the one that is dead (or dying). </s>
+<s> Thanks, but I don't think that would work with this Pentium4 motherboard. </s>
+<s> The docs say it only accepts memory sticks in pairs. </s>
+<s> And that doesn't explain why I'm getting -30V or no video. </s>
+<s> Is it possible to get incorrect POST beeps if PSU is bad? </s>
+<s> Generally when the computer beeps 3 times during post, it means that it reading a memory error, which in turn means that one (if not both) of the memory sticks are bad. </s>
+<s> If you post your motherboard model number we may be able to dig a bit deeper into troubleshooting your problem. </s>
+<s> It's a Intel D850MV: http://www.intel.com/support/motherboards/desktop/d850mv/ And it's specifically &quot;Three long beeps&quot;. </s>
+<s> But as I mentioned, I don't trust the POST beeps. </s>
+<s> Would really like to know if a bad PSU can cause bad POST beeps. </s>
+<s> A failing PSU will cause error beeps; but if the PSU is indeed bad (or on its last legs), your computer wouldn't post at all, let alone give you error beeps. </s>
+<s> I don't understand why you wouldn't trust error code beeps from your computer in first place, as these errors are coming directly from the source...your motherboard. </s>
+<s> And if you can't trust what your motherboard is trying to convey to you, I really don't have a solution for you. </s>
+<s> for your motherboard; as quoted directly from the link: &quot;3 beeps - Base 64 K memory failure Reseat the memory. </s>
+<s> Make sure that the contacts on the memory and the socket are clean. </s>
+<s> Try removing one bank of memory modules at a time. </s>
+<s> Note: Some systems might need to have a memory module in Bank 0. </s>
+<s> Try using memory modules from the same manufacturer with the same part number and speed. </s>
+<s> Check for a faulty memory module by trying the memory in a known good system. </s>
+<s> Trying known good memory in the system. </s>
+<s> Check the power supply and check for power fluctuations. </s>
+<s> If the steps above do not resolve the problem, the desktop board may be defective. </s>
+<s> Try a different desktop board&quot; Yes, it does state that you should check your power supply, and if you really think that may be the root of your problem, then it doesn't hurt anything to buy another (reputable make) power supply to test your theory. </s>
+<s> Sorry, what I mean is, can a failing PSU cause incorrect POST beeps? </s>
+<s> Failing as in, providing voltage outside normal ranges? </s>
+<s> Not necessarily totally dead. </s>
+<s> If a PSU can't properly power a motherboard, then I have no reason to believe the memory is bad. </s>
+<s> Unless someone with experience can offer more details. </s>
+<s> The source, in my opinion, starts with a good power supply. </s>
+<s> Pop in another PSU. </s>
+<s> There are PSU testers but for years when I head 3 beeps it was a dead board or incompatible ram or bad sockets or the chip that interfaces with the RAM (still means a dead motherboard.) </s>
+<s> I've seen techs lose months on boards like that. </s>
+<s> I learned to get them out of the shop fast to save us from wasting hours trying to recover the dead boards. </s>
+<s> Bob </s>

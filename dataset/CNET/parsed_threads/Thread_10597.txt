@@ -1,0 +1,67 @@
+<s> Maxtor Shared Storage Drives&gt; I have one of these that I need to replace the hard drive in and it is out of warranty. </s>
+<s> Has anyone had success with doing this? </s>
+<s> All I get is a solid yellow light and the Maxtor software will not find it on the network. </s>
+<s> I've tried resetting the drive and that doesn't work either. </s>
+<s> I've also tried formatting the with NTFS and with no partitioning at all and still no go. </s>
+<s> Suggestions? </s>
+<s> http://maxtor.custhelp.com/cgi-bin/maxtor.cfg/php/enduser/std_adp.php?p_faqid=2233&p_created=1106802555&p_sid=eJi5TTfi&p_lva=&p_sp=cF9zcmNoPTEmcF9zb3J0X2J5PSZwX2dyaWRzb3J0PSZwX3Jvd19jbnQ9OCZwX3Byb2RzPTE5NCwwJnBfY2F0cz0wJnBfcHY9MS4xOTQ7Mi51MCZwX2N2PSZwX3NlYXJjaF90eXBlPWFuc3dlcnMuc2VhcmNoX25sJnBfcGFnZT0xJnBfc2VhcmNoX3RleHQ9Zm9ybWF0&p_li=&p_topview=1 about holding the power button. </s>
+<s> Also try updating the flash software. </s>
+<s> If not, the unit is dead. </s>
+<s> Bob </s>
+<s> I already tried holding the power button for 5 seconds and resetting it. </s>
+<s> Does anyone know if there is something that needs to be reset if the cover is removed? </s>
+<s> I didn't write about it. </s>
+<s> Can you connect to it's web server and do that step? </s>
+<s> I don't recall you telling. </s>
+<s> Bob </s>
+<s> Well, when you run the maxtor setup program and it searches the network for the drive, it never finds it. </s>
+<s> And this is just a simple home network with a linksys router/switch and DHCP enabled. </s>
+<s> I'm assuming it has to be formatted in some fashion for the box to recognize the drive...maybe fat32? </s>
+<s> It's either that or the box is dead. </s>
+<s> What happened to make you replace the drive? </s>
+<s> Bob </s>
+<s> Just wanted to upgrade the drive. </s>
+<s> It was working fine until I put the new (known good) drive in. </s>
+<s> I've replaced the drives on a lot of the maxtor external drives and never had a problem before. </s>
+<s> Just this time on the shared storage drive. </s>
+<s> The only thing I can guess is that the internal OS needs the drive in a specific format before it will recognize it. </s>
+<s> With the old drive, see what format that was in. </s>
+<s> I would use RANISH PARTITION MANAGER to look at it. </s>
+<s> Or even to create the new drive in the same partition type and format. </s>
+<s> I wonder if you duplicated the jumper settings? </s>
+<s> In closing, some of these boxes have strict limits on hard disk sizes such as 127GB limits or others. </s>
+<s> The makers rarely reveal exactly what these are but we can take clues if they never offered over 127GB. </s>
+<s> Bob </s>
+<s> I have the same issue. </s>
+<s> I have put the drive into my PC and it saw it as unallocated space. </s>
+<s> I then mounted it. </s>
+<s> And so far I have tried everything to fix it with no luck. </s>
+<s> It just will not take again. </s>
+<s> Maxtor said it had to be an EXT3 partition so I put it into Linux and formatted it back. </s>
+<s> Then placed it into the drive and still it will not recognize the drive even after a reset. </s>
+<s> Can someone help I know I must be able to get it back to life. </s>
+<s> I tried this http://www.idevelopment.info/data/Unix/Linux/LINUX_PartitioningandFormattingSecondHardDrive_ext3.shtml </s>
+<s> Im having same problem. </s>
+<s> Anyone figure a way? </s>
+<s> If the drive won't reinit it's either back to Maxtor or we replace the drive housing. </s>
+<s> I have Data still on my drive, I wanted to make a clone backup of the drive so I put the drive in a Computer which had nothing but another blank drive tried to boot up with a drive cloning program which wouldn't recognize the drive anyway and ended up shutting it down. </s>
+<s> From there the drive nolonger want to boot. </s>
+<s> The drive pass all diagnosis test, and spins up ok. </s>
+<s> I now trying to find a way that I can plug this drive into a OS that will recognize the data on it. </s>
+<s> Just incase anyone asks it was Norton's Ghost I tried to use. </s>
+<s> -&gt; Look up G4U Also did you try Linux to see if it recognizes the file system? </s>
+<s> Bob </s>
+<s> The drive uses the REISERFS format. </s>
+<s> It's a linux based filesystem and please, under no circumstances, try to use it under a Windows environment (as in hooking the drive directly to the IDE connector). </s>
+<s> Windows will attempt the read and after failing ~255 times, for reasons unknown, it does something to the first couple of sectors of the drive that renders it unreadable once you replace the drive in it's housing. </s>
+<s> You must use a *nix based system to reformat the drive, and then reinstall the drive. </s>
+<s> Hope this helps a little. </s>
+<s> Yes have tried a few linux systems now, Knoppix, suse, and kubuntu. </s>
+<s> Closes I can get is an error of permission accesses denied. </s>
+<s> Linux States you do not have enough permission to read file :///dev/disk/by-id/ata-Maxtor_6B300R0_B61ZDSBH Unsure how to bypass this </s>
+<s> reckon this may have been a contributor, most likely something microsoft incorporated to drives that don't follow Microsoft ways that basically says if i cant read you, noone will. </s>
+<s> I call it a Microspit. </s>
+<s> I couldn't tell exactly what the &quot;error message&quot; was. </s>
+<s> These forums don't have great formatting so help us out by putting such in quotes. </s>
+<s> Also, I wonder what happens if you google that error. </s>
+<s> Bob </s>

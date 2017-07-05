@@ -1,0 +1,26 @@
+<s> Hi, The other night I setup a new system and got it going. </s>
+<s> On boot it started with the installation of Microsoft Windows Home with SP1a. </s>
+<s> During the installation process I was able to get Windows activated and I was able to connect to the Windows update site. </s>
+<s> Automatic updates began updating the system. </s>
+<s> But after my first reboot I lost my network connection and I am now unable to get anywhere through the Ethernet port. </s>
+<s> IPCONFIG shows either 0.0.0.0 or default system IP of 169.254.60.236/12. </s>
+<s> I have released and renewed, no change. </s>
+<s> The obvious, I have moved the system to another known working port, and replaced with a working cable, no change. </s>
+<s> I have link end-to-end, and I see port activity. </s>
+<s> When I look at the Ethernet status, I see packets transmitted, but nothing received. </s>
+<s> I have DHCP enabled/Obtain IP automatically for the &quot;Local Area Connection&quot; (properties &gt; IP &gt; properties). </s>
+<s> I have a local home network with a Netgear gateway providing DHCP server functions. </s>
+<s> I have plenty of adresses available to assign (50 total) and have five other systems working just fine over the existing network (3 PCs and 2 printers). </s>
+<s> I have run system restore and loaded the initial system settings, but no change. </s>
+<s> I am unsure what I am overlooking at this point, nothing seems to be sticking out, please help. </s>
+<s> Thanks, Todd System Summary: Windows XP home SP1a Hush PC with a VIA EPIA M10000 motherboard with built in LAN (I verified the LAN drivers) </s>
+<s> Microsoft doesn't supply drivers for that board. </s>
+<s> If you let Windows Update supply a DRIVER then you get to remove it or start over. </s>
+<s> Best of luck, Bob </s>
+<s> OK, your right and thank you. </s>
+<s> I thought I had updated the LAN driver last night, but I just ran through the process again and updated ALL of the drivers included on the original driver utilities CD and now it is working beautifully. </s>
+<s> Thanks again </s>
+<s> If you have the encryption set try turning it off to see if this works. </s>
+<s> I had to do this in two steps (I am not sure why) first all the numbers were set to 0 (zero), then I went back to delete them. </s>
+<s> After that, everything worked fine. </s>
+<s> Good Luck </s>

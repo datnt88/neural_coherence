@@ -1,0 +1,55 @@
+<s> I'm trying to format a large capacity HD (100G+), but Windows XP will only allow partitions of ~32G in FAT32. </s>
+<s> I have an old 100G HD that I've been using as a secondary drive for a longggg time that is in FAT32. </s>
+<s> Unfortunately, I don't remember how I did it! </s>
+<s> I've search through CNET but was unable to find any methods to do so. </s>
+<s> Can anyone help? </s>
+<s> NIL </s>
+<s> I usually did this with a tool from the HD manufacturer. </s>
+<s> Most only work for the mfg's own products. </s>
+<s> Here are couple: Maxtor's Maxblast Western Digital's Data Lifeguard Tools </s>
+<s> But was unable to get a partition bigger than 32G. </s>
+<s> Will try both yours & R Profitt's suggestions when I get home. </s>
+<s> Thanks. </s>
+<s> Before any utility will work, the hard drive controller MUST have a driver that supports FAT32 drives larger than 137GB (48-bit LBA). </s>
+<s> SOLUTION: 1. </s>
+<s> You need to get controller's name from the ''SCSI and RAID controllers'' in the Device Manager. </s>
+<s> 2. </s>
+<s> Go to the controller mfg's website to download a Windows XP driver that supports hard drives &gt; 137GB. </s>
+<s> Since you mentioned Seagate, I am assuming you have a Seagate drive. </s>
+<s> Seagate describes the problem HERE and also provides links to some controller mfg's at the bottom of the page. </s>
+<s> If you need help, just post the names of your hard drive controllers in this thread. </s>
+<s> The exe file needs to install on a floppy, but I do not have a floppy drive. </s>
+<s> Any suggestions? </s>
+<s> Windows XP recognize my drive, but still only allow me to partition 32G in FAT32. </s>
+<s> The drive I'm currently trying to format fully in FAT32 is Western Digital 120G. </s>
+<s> I've tried using their software as well as Seagate's, but still cannot pass the 32G barrier in XP. </s>
+<s> I used Nero to turn the boot diskette into a boot CD. </s>
+<s> Works great. </s>
+<s> Did you look around on bootdisk.com to see if they have a ready to use .ISO file? </s>
+<s> I didn't do this for you. </s>
+<s> Bob </s>
+<s> ranish partition manager recommend version 2.43 http://www.ranish.com/part/ </s>
+<s> I get a message that it's trying to access AUTOEXEC.NT &quot;The system file is not suitable for running MS-DOS and Microsoft Windows applications.&quot; </s>
+<s> When I launched the exe file, a window popped up requesting a diskette. </s>
+<s> I can't even generate an iso image to burn on a CD. </s>
+<s> I was able to use an old Maxtor bootable CD, but it was not able to recognize my drive. </s>
+<s> I should mention that I'm trying to format a USB external HD. </s>
+<s> Have a friend make this boot CD if you don't have the equipment. </s>
+<s> But with the external USB HD, the expert level just went up a notch. </s>
+<s> Try LINUX and other partitioning programs or find a Windows 98se machine. </s>
+<s> Bob </s>
+<s> Follow this guide and download the very small prog at the end. </s>
+<s> http://www.ridgecrop.demon.co.uk/fat32format.htm I used it to format my 40gb usb drive as fat32 in a few seconds. </s>
+<s> checked it with chkdsk and all is well. </s>
+<s> Read http://www.google.com/search?hl=en&lr=&safe=off&q=autoexec.nt to find solutions and consider running your machine without spyware. </s>
+<s> Bob </s>
+<s> the way it's written, it only works when you're trying to format the main drive? </s>
+<s> . </s>
+<s> Did you actually try the program? </s>
+<s> It would be pretty useless if it only formatted the &quot;main&quot; drive,i.e. </s>
+<s> the one with your OS on it. </s>
+<s> It will format any drive you follow the instructions for and map a drive letter to. </s>
+<s> for HDs larger than 137GB, u need at least SP2+ for winXP. </s>
+<s> For win2k, i think it's SP3+ To format a HD brand new w/o windows, as u install windows, u'll be asked to choose a file system. </s>
+<s> Choose the file system u want. </s>
+<s> If it's a slave drive, right click it in My Comoputer and choose format, and the file system u want to format in </s>

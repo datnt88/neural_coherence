@@ -1,0 +1,31 @@
+<s> I have an extremely annoying delay of 30 seconds following the display of the Windows XP boot screen. </s>
+<s> System completes POST fine, displays the graphic then chills for half a minute. </s>
+<s> There is NO disk or processor activity (checked using BOOTVIS). </s>
+<s> Also played with various BIOS settings and BOOT.INI params, however it ALWAYS appears to pause for 30 before the disk starts the &quot;propper&quot; boot? </s>
+<s> ASUS A7N8X D MOBO, AMD 2200, Maxtor SATA disk. </s>
+<s> Anyone with a suggestion? </s>
+<s> I found one machine that when the BIOS was set to boot from CD first... it delayed for about that long. </s>
+<s> To speed it up, we set it to boot from the hard disk. </s>
+<s> Lucky for us the bios has a BOOT FROM menu that pops up if you press some key so we don't need to set the BIOS to boot from CD if that's required. </s>
+<s> Bob </s>
+<s> Are you using any usb external hard drives? </s>
+<s> They can sometimes cause a delay such as this. </s>
+<s> Sounds like a Windows problem. </s>
+<s> Thanks for the suggestion .... checked the BIOS and boot order is Floppy&gt;SCSI (System Disk)&gt;HDD. </s>
+<s> Tried SCSI&gt;Floppy&gt;HDD and SCSI&gt;SCSI&gt;SCSI No change. </s>
+<s> ;-( </s>
+<s> Hmmm ... no external disks and yes ... definately a Windows problem! </s>
+<s> Thanks, you did open another avenue of investigation, it's a SATA system disk and has a RAID controller associated (although it's not RAIDED) and there is an error with XMASSCSI in the event log on startup. </s>
+<s> This does seem to occur AFTER the 30 second delay in the startup sequence of events but is worth some experimentation I guess. </s>
+<s> Oh for another 30 seconds! </s>
+<s> Thanks again. </s>
+<s> I'm having a similar problem. </s>
+<s> After the post info leaves and the Win logo comes up, I get a 30 sec. </s>
+<s> flashing cursor. </s>
+<s> I believe mine is also related to a RAID (Asus A8V) problem; even though I'm not using SATA ot RAID. </s>
+<s> Like old age, I don't like it but I'm learning to live with it. </s>
+<s> Check back to this post occasionally 'cause if I find a fix for my problem, I'll post it here. </s>
+<s> SCSI takes a long time to do it's controller thing. </s>
+<s> You've found out why you get the delay. </s>
+<s> If you want a faster boot, remove the SCSI and use some IDE drive. </s>
+<s> Bob </s>

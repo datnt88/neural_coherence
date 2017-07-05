@@ -1,0 +1,86 @@
+<s> I have a Gateway ELP 500S (originally a 1.5 ghz) that died on me a few weeks ago. </s>
+<s> It just wouldn't start - no response at all when I pressed the power on button, it was like it wasn't plugged in. </s>
+<s> A brief history here - a little over a year ago, I had SPORADIC problems of a similar nature. </s>
+<s> I'm very mechanically inclined and love to take things apart (don't always get them to go back together though!). </s>
+<s> I messed around with everything at that time, memory & cards seating, borrowed a power supply, and eventually removed the CPU and HS. </s>
+<s> Having never done this before, I believed they were glued together, so when I went to replace it I couldn't use the ZIF socket level, and just placed the CPU on top (thinking it would force it's way in with the clips). </s>
+<s> While the machine would then at least attempt to start (vs before it did nothing), it wouldn't fully boot. </s>
+<s> Ray Harinec educated me and I finally got the CPU installed correctly and the machine working (THANKS RAY), although it burnt a few of the pins on the CPU. </s>
+<s> Still, I thought it would have a very short life, but it lasted over a year until last month. </s>
+<s> Again, the same problems - acting as if there were no power. </s>
+<s> My suspecions at this time made me think the CPU finally gave up, due to the burnt pins. </s>
+<s> I messed around with a few things, but eventually ordered a used 1.8 ghz from ebay and anxiously awaited to get my PC back up and running, with a slight upgrade to the 1.8. </s>
+<s> Well, I plugged in the CPU (the right way this time! </s>
+<s> ), but still no response when I try to start it. </s>
+<s> I've jumped the start button - no luck. </s>
+<s> The power supply has a test button on it, and pressing it forced the PS fan to run (don't remember if it caused the CPU fan to run before, but now that I've got the machine working again this test button does cause both the CPU fan and PS fan to run). </s>
+<s> This made me believe the PS was fine. </s>
+<s> I also had the green LED on the M/B lit, more belief that the PS was working. </s>
+<s> I've reset all the cards and memory. </s>
+<s> All this made me believe it was the CPU or motherboard, and since I messed up re-installing the original CPU a year ago, I thought it just gave out. </s>
+<s> But even after replacing the CPU, still the same issue. </s>
+<s> I had been looking up similar issues on the net, and had seen a few posts that replacing the cmos battery solved their problem of not booting (this was after I had ordered the new CPU, but not yet received it). </s>
+<s> I didn't think much about this, as I didn't believe that could make a difference. </s>
+<s> Well, after I replaced the CPU and it didn't start, I thought what the heck and popped out the battery and put it back in. </s>
+<s> SURE ENOUGH, the machine started on the first press of the start button!!!!!! </s>
+<s> I also received an error message that the battery was low and that the CMOS date wasn't set. </s>
+<s> I went through setup and set the date, and was able to successfully start the machine probably a dozen times that night. </s>
+<s> I used the machine few times before I got a new CMOS battery, but as soon as I got a new battery installed, it still responded with a low CMOS battery warning the next time I booted it (and set the date). </s>
+<s> On the next start it didn't do that - I'm assuming the error message is also triggered when I take out the battery since it's done that twice now. </s>
+<s> I left the side panel off the case for a few days, but after a few good days of being able to put the machine to use, I put the side panel on - and the first time I tried to use the machine, again it acted like it wasn't plugged in. </s>
+<s> I subsequently swapped in a good known power supply, with no difference. </s>
+<s> I then popped out the battery again, and it booted on the first attempt. </s>
+<s> Where I need help: Since I got the low CMOS battery warning even with a new battery, I believe it was the removal that triggered the message. </s>
+<s> Do you think removing the battery is what is allowing me to boot on the next attempt? </s>
+<s> I think this is somehow clearing something that is in memory that keeps the machine from responding to the start button. </s>
+<s> Someone at work mentioned clearing the CMOS. </s>
+<s> How do I do this, and are there any risks? </s>
+<s> The only other item that should be causing this is the MB. </s>
+<s> Anyone disagree? </s>
+<s> Any other suggestions are welcome? </s>
+<s> well, to bad sound like you killed it the motherboard is no good and the prossesor is gone YOU NEED A NEW PC BOB </s>
+<s> The PC isn't dead, yet anyway. </s>
+<s> I'm on it now. </s>
+<s> As soon as I replaced the CMOS battery I was able to get it to boot again (and have done so several times), but I'm leaving it on for now rather than turning it off when I'm done for a session. </s>
+<s> It just seems like it got stuck in a &quot;mode&quot; of not allowing a boot (no response at all, not even fans twitching when I hit the switch), but that's just my suspicion - my post is trying to confirm that. </s>
+<s> OK, I messed around with it this weekend, and made it even worse - it would hardley boot at all, even after taking out the battery for extended periods of time. </s>
+<s> I dicided since the removing the battery previously would cause it to boot, that updating the BIOS couldn't hurt. </s>
+<s> But then I couldn't get it to boot. </s>
+<s> I finally removed all the RAM and tried to boot, and since it detected a change it must have tried to restart. </s>
+<s> I had problems getting the BIOS update to load off a floppy (I had to create the floppy off a Win 98 machine), but eventually got it to take. </s>
+<s> I've booted the machine several times now, both off a single power session (restart and reboot, never removing the power to the Motherboad), and once after unplugging the machine for a few minutes, all with good luck (vs 1 out of 20 times working before that). </s>
+<s> Will let it sit for a few hours then overnight and report back my findings, but I suspect all along it was the CMOS being corrupted. </s>
+<s> I think the battery just facilitated the restart. </s>
+<s> NIL </s>
+<s> Here I've been using the PC for nearly a week now, normal boot up and shut down. </s>
+<s> Last night I shut it down, and this morning I come in to boot it up and no response again. </s>
+<s> I popped the battery out again, but no luck on that trick anymore - even leaving it out for 30 minutes provided no system response. </s>
+<s> Even temp swapped the power supply and pulled memory trying to trigger a boot. </s>
+<s> No luck whatsoever!!! </s>
+<s> At this point I'm thinking it has to be the motherboard. </s>
+<s> I've swapped the powersupply and cpu's with good known ones, pulled memory, reseated cards, etc. </s>
+<s> Is there anyway to know for sure it's the motherboard? </s>
+<s> Can anyone give me a warm fuzzy before I go spend $$ on a board? </s>
+<s> It's a gateway board 400742 El Paso. </s>
+<s> I can find a few on ebay for $40 - $60 after shipping, but obviously hate to spend that if I don't need to. </s>
+<s> Any help will be appreciated. </s>
+<s> Im sorry I dont have a warm fuzzy for you, but I can confirm its most likely a motherboard issue. </s>
+<s> I had a custom laptop give me the same problems, a few months ago. </s>
+<s> Would turn on, give me Hard Disk error messages, then shut down. </s>
+<s> I replaced the hard drive, and had a couple of decent days. </s>
+<s> Then received the same message on the new hard drive too. </s>
+<s> After a couple of reboots like that, it just stopped booting altogether. </s>
+<s> A friend suggested the CMOS battery trick, and I too had one good day of booting and normal usage. </s>
+<s> Next morning, no luck yet again. </s>
+<s> Since it was 18 months old and beat up anyway, I just ditched it and got a new one, since replacing the laptop MoBo on this model is pretty much unpossible. </s>
+<s> Since you tested the PS, the card seating, replaced the CMOS battery, etc etc etc, I'd think you've covered everything else... Good luck, and R.I.P. </s>
+<s> to your Motherboard </s>
+<s> Just got my new motherboard yesterday in the mail. </s>
+<s> The Gateway was a model 4000742 El Paso motherboard. </s>
+<s> I thought I got lucky when researching on the web, because the Intel D845HV is the same board, or 99.5% the same (had to change out the CPU bracket and one other item). </s>
+<s> Got it installed, booted, and then it stated that I had to authenticate my windows product. </s>
+<s> No big deal, I thought, I've heard of this before. </s>
+<s> But now it sounds like since it wasn't an exact replacement board, and since it was an OEM version of Window XP, vs a retail (normal install) version, I'm up the creek! </s>
+<s> I think I can get a cheap copy of XP Pro through school, so I'm looking into that, but any other suggestions welcomed! </s>
+<s> i had the bad luck of having to replace 3 motherboards one fan and i stick of ram i also had TO CALL MICROSOFT to re authenticate windows. </s>
+<s> was up and running in minutes! </s>

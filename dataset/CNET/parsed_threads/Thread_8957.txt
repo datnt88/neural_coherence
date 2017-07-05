@@ -1,0 +1,58 @@
+<s> I am using Windows XP P4 2Ghz 736 Ram. </s>
+<s> I purchased a USB 2 external enclosure and put an old 10gig hard dive in it. </s>
+<s> ( I want to image my current hard drive and to do that I must plug it directly into USB on computer.. ) I plugged it into a hub which I forgot was USB 1 and windows found hard drive and told me I was plugging high speed drive into low speed port and to unplugg it and plug it into on of 4 high speed ports listed. </s>
+<s> ( the enclosure operates perfectly when plugged into the hub, I can read and write to the drive). </s>
+<s> When I plug enclosure directly into usb port on the computer xp does not find it. </s>
+<s> I have unplugged hub and used same port. </s>
+<s> I only have two ports on computer even though xp says I have 4. </s>
+<s> (Maybe two more in case?) </s>
+<s> I have used system restore, uninstalled hub, etc. </s>
+<s> When I plug in hub xp find hub no problem but not the enclosure. </s>
+<s> I am lost.. Can anyone please help?? </s>
+<s> Thanks </s>
+<s> http://www.usbman.com fielded a few questions on this one. </s>
+<s> Turned out the XP was not patched up to what Microsoft was offering (SP1 and such.) </s>
+<s> The issue of motherboard drivers is also an issue. </s>
+<s> Many still rely on Microsoft. </s>
+<s> But without knowing what motherboard you have, I can't tell if such is needed. </s>
+<s> In short, things may just need: a. </s>
+<s> Windows Update to latest. </s>
+<s> b. Motherboard drivers (sorry, can't tell with your supplied info.) </s>
+<s> Bob </s>
+<s> Motherboard is ECS P4VXASD2+ . </s>
+<s> I think I have all pertinent Windows updates. </s>
+<s> Scanner plugged into other USB on back of computer works. </s>
+<s> &quot;Motherboard is ECS P4VXASD2+ . </s>
+<s> I think I have all pertinent Windows updates. </s>
+<s> Scanner plugged into other USB on back of computer works.&quot; http://www.ecsusa.com/products/p4vxasd2_v5_plus.html reveals this is a VIA based board. </s>
+<s> While USB 1.1 fuctionality is working, you may need to install the Via or USB 2.0 drivers that ECS or Via supplies. </s>
+<s> Many are not aware that Microsoft will, most of the time get the machine to the point to install the rest of the drivers, but final touches are left to the OS installer. </s>
+<s> http://www.usbman.com has notes about this. </s>
+<s> Bob </s>
+<s> I installed VIAUSB 2 drivers, (could not find any at ECS).Uninstalled USB in safe mode, they reinstalled etc. </s>
+<s> still no change. </s>
+<s> Any more ideas? </s>
+<s> The computer knows it is a USB 2 device when I plug it into the hub so even if port was Usb 1 it should still find it and give same message, right? </s>
+<s> Why would port find hub and not the enclosure?? </s>
+<s> I do not understand. </s>
+<s> &quot;Why would port find hub and not the enclosure?? </s>
+<s> I do not understand.&quot; I vaguely understand since the hub eats a bit here or there and it's not the same device at the end of the chain now. </s>
+<s> Have you read the USBMAN Via article? </s>
+<s> Bob </s>
+<s> I installed VIAUSB 2 drivers, (could not find any at ECS).Uninstalled USB in safe mode, they reinstalled etc. </s>
+<s> still no change. </s>
+<s> Any more ideas? </s>
+<s> The computer knows it is a USB 2 device when I plug it into the hub so even if port was Usb 1 it should still find it and give same message, right? </s>
+<s> Why would port find hub and not the enclosure?? </s>
+<s> I do not understand. </s>
+<s> 1. http://www.usbman.com/Guides/VIA%20Tips%20and%20Tricks.htm USB 2.0 drivers are not supplied by Microsoft due to license issues. </s>
+<s> You seem to have fallen into this trap. </s>
+<s> 2. </s>
+<s> &quot;Cleanup Device Manager while in Safe Mode * Ghost Devices can cause untold USB problems.&quot; Follow its advice. </s>
+<s> Sorry to read your posting, but it seems to be a lesson too often repeated. </s>
+<s> Bob </s>
+<s> Yes I've been looking at USBMan, that's why I deleted in safe mode and checked IRQ's , which were ok. </s>
+<s> I can not find any pertinent bios upgrades(they say to check release notes before installing.) </s>
+<s> At the bitter end of the guide is where the advice is to just install a PCI USB card. </s>
+<s> I bail out fast on that in the shop and office since those cards are 10 bucks and service costs more than that. </s>
+<s> Bob </s>

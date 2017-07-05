@@ -1,0 +1,72 @@
+<s> Beyond just the data transfer rate, what are the other advantages of using a SATA hard drive over an UltraATA one? </s>
+<s> Many years ago before SATA was available I attended an Intel design conference. </s>
+<s> SATA was being forwarded as a way to reduce cable and setup costs. </s>
+<s> Bob </s>
+<s> The cables are only 8mm wide, it goes 250MBps, basically way better than ATA/IDE </s>
+<s> If we look at tomshardware.com, current drives duke it out and you see SATA and IDE trade for the lead positions. </s>
+<s> Please share some web links on the 250 MBPs drives. </s>
+<s> Bob </s>
+<s> Along that field, I don't know any sites, but I do know that SATA-II does support the 250MBps, but it might have been megabits instead of megabytes. </s>
+<s> Not 100% sure, but more 85% sure. </s>
+<s> The original idea was put together in the late 1980s based on &quot;links&quot; - high speed serial interconnect used by the transputer. </s>
+<s> Inmos even made a disk processor for the prupose. </s>
+<s> The second generation links eventually had the basic technology adopted and it became Firewire and the standard version was standardised as Spacewire (IEEE1355). </s>
+<s> The original idea was to cut down the cable size and connectors - if you know anything about reliability, reliability is approximately imversely proportional to the number of connections. </s>
+<s> It used to be that over 50% of car breakdowns were due to electrical faults, and most of these were connector problems. </s>
+<s> I have never seen one that says 250 MB/s yet. </s>
+<s> Do you have a link? </s>
+<s> Aside from wire and speed (which is controversial since real-world performance is similar between the two), there are other things that SATA has hot-swapping and native command queueing. </s>
+<s> First of all, the 133Mb/s vs 150Mb/s is the burst rate. </s>
+<s> Average data rates are atleast half of this, so the speed difference right now is not that big. </s>
+<s> Some of the best advantages come with the cables themselves. </s>
+<s> The cables are small allowing better airflow in the case. </s>
+<s> Also when connecting more than one drive, SATA doesn't share cables and has seperate connection for each drive. </s>
+<s> With UltraATA, connected drives share cables and have to configured as master or slave. </s>
+<s> This can cause some speed issues when accessing both drives. </s>
+<s> The SATA cables have better noise canceling and can be of longer length. </s>
+<s> There are several other improvements that make SATA more scalable than UltraATA. </s>
+<s> As a result you won't see any new standards for UltraATA. </s>
+<s> SATA will be used in the future. </s>
+<s> The bottom line is if you have a good UltraATA drive that meets your storage needs, there is need to upgrade. </s>
+<s> Otherwise, I'd recommend getting a SATA. </s>
+<s> I just built a PC with SATA. </s>
+<s> It has a thiner wire and is quiet. </s>
+<s> It is the way to go. </s>
+<s> With the default drivers etc. </s>
+<s> it had a weird look in &quot;Device Manager&quot;. </s>
+<s> It had some kind of crosslinked thing. </s>
+<s> The speed of data transfer was unbelievably fast. </s>
+<s> Then I updated everything. </s>
+<s> The BIOS, the motherboard chipset, and everything else I could find. </s>
+<s> It looks normal now in &quot;device manager&quot; but now I'm lucky to get above ATA66 speeds out of it. </s>
+<s> That's my expectation, not something I know for sure. </s>
+<s> Even if you're not using RAID for redundancy, it can help with future data migration. </s>
+<s> Modern motherboards often have both IDE and SATA controllers, so with SATA disks you are more likely to find a way to get all your devices connected within the reach of cables. </s>
+<s> If you really want performance why not use 15,000 RPM SCSI U320 drives, maybe with either RAID 0 or RAID 5. </s>
+<s> Should blow the socks off of SATA </s>
+<s> Here are a few advantages to SATA over IDE 1. </s>
+<s> SATA Cables are thinner and can be longer, thus effectively improving airflow and ease of handling/neatness/flexibility in computer. </s>
+<s> 2. </s>
+<s> SATA drives do NOT have jumper cables, meaning no fussing with Master/slave/cable select settings. </s>
+<s> 3. </s>
+<s> SATA transfer rates are generally higher (more speed) 4. </s>
+<s> SATA handles RAID better 5. </s>
+<s> MOST important: SATA drives are supposedly Hot-plugging (or Hot-swapping), meaning that you can plug-and-unplug them while computer is running. </s>
+<s> Most motherboards that support SATA provide you with external connectors (Power and Data) so, if need be, you can use a SATA drive on different computers just like any USB or other external drives (provided it is not the main drive that has the system installed, of course). </s>
+<s> 6. </s>
+<s> Which brings us to a SATA advantage over external drives: you don't need a separate power supply to use them on different computers. </s>
+<s> I'm sure that the list can be longer, but it is definitely long enough for me; SATA is the way to go. </s>
+<s> regards </s>
+<s> With solid mobo support, SATA HD's in a RAID 5 give the best of both worlds--without the greater chance of failure. </s>
+<s> Performance is as good as those with high spindle speed rates. </s>
+<s> A 15K hd generates more heat which of course needs to be dissipated, more noise which can be annoying, and uses more electricity which 'll show up on your bill as well as require you to ensure your PSU can handle it. </s>
+<s> SATA also has its own pros too alr mentioned. </s>
+<s> Else price may be that other factor that may steer you away from SATA. </s>
+<s> Yeah, many modern mobos provide SATA and IDE connections. </s>
+<s> At first, SATA only offered marginal performance increase over IDE. </s>
+<s> But i hear SATA tech is getting better and better so that'll be the way to go. </s>
+<s> However, if you only have IDE as of now... stick with it. </s>
+<s> It really ain't worth upgrade JUST THAT fo SATA. </s>
+<s> Instead, switch to it when you do a major upgrade. </s>
+<s> Many months ago, i had the choice to get a 120GB SATA hd over a 160GB IDE for the same price. </s>
+<s> Posters overwhelmingly suggested the latter citing the extra capacity would do me more good. </s>

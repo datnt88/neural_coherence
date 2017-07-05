@@ -1,0 +1,43 @@
+<s> My daughters laptop (Fujitsu Siemens Amili Pi 1505) suddenly stopped working while she was busy with Internet and MS Word. </s>
+<s> Reboot says Operating system not found. </s>
+<s> BIOS recognises Fujitsu MHV2080BH SATA1 drive, shown as IDE (80 Gb). </s>
+<s> Things I tried: - Reboot from original recovery disk (Windows XP SP2). </s>
+<s> Loads all drivers. </s>
+<s> After that there's only a black screen with with a cursor in the upper left corner. </s>
+<s> Disc access LED loops: 7 seconds burning, 1 second off. </s>
+<s> - Locate a Fujitsu hard drive diagnostic on http://www.fujitsu.com/us/services/computing/storage/hdd/support/utilities.html . </s>
+<s> They only have one for IDE. </s>
+<s> However, it needs to be run from a DOS bootable device and the laptop has no diskette drive. </s>
+<s> I wonder if it's worth the trouble to make a bootable CD or a bootable USB. </s>
+<s> - Download a general hard disk diagnostic (mhdd - comes with iso for a bootable cd). </s>
+<s> That finds only the DVD/RW and no trace of the hard disk. </s>
+<s> Any other option than going to the repair shop and ask them to check the cables and then put a new hard disk in (and check it by installing Windows XP)? </s>
+<s> It's not something I'd like to do myself. </s>
+<s> And yes, I happened to make a backup last week. </s>
+<s> And explained about the need to store files on a USB-stick or in her gmail. </s>
+<s> Kees </s>
+<s> even if you need a USB floppy or CD ROM to run it. </s>
+<s> It can uncover fatal media damage. </s>
+<s> I'd try that right away to either confirm or rule out the drive as the problem. </s>
+<s> You could always try doing a live-USB Linux boot, go in the partition settings and check your 80GB hard drive. </s>
+<s> You can still see your hard drive of 80GB in your partition.. </s>
+<s> It just won't be mounted. </s>
+<s> I doubt you'll need help doing that (live-usb) but if you do I suggest Debian Live... That's where I do my partition work. </s>
+<s> &quot;unetbootin&quot; is a very useful program to push .ISO images to your USB to make it bootable. </s>
+<s> p.s. </s>
+<s> At my old school, when we had those &quot;OS not found&quot; errors.. we had to refresh the RAM by taking the sticks out then putting it back in.. sometimes it would work. </s>
+<s> So... Make sure your RAM is properly connected and the hinges are properly securing it so it's not shaky. </s>
+<s> Hope that helped. </s>
+<s> To happen so suddenly suggest either a component failed or heat damage. </s>
+<s> Laptops tend to get hot and when run in such a condition sooner or later they poop-out. </s>
+<s> To test the HD, I've used ADA-2020 adapter to a desktop and access the HD that way. </s>
+<s> You can then run whatever HD tests, etc. </s>
+<s> to help eliminate the HD as a problem. </s>
+<s> If no problem, return it to the laptop and try again. </s>
+<s> You can get your hands on the UBCD, Ultimate Boot Disk and get the .ISO file and make a bootable CD disk. </s>
+<s> That way you can test other componets, etc. </s>
+<s> w/o the HD or FD. </s>
+<s> http://www.ultimatebootcd.com/ If you can inspect&verify any laptop fans are working to include the cpu one(if applicable). </s>
+<s> I found some laptops so hot, they burp the heatsink compound(expelled) to the sides yet work until it eventually dries out. </s>
+<s> In these cases, the cpu has fried or become too unstable to re-use. </s>
+<s> tada -----Willy </s>

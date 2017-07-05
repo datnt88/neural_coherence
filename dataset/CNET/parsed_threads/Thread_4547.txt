@@ -1,0 +1,19 @@
+<s> hello I have this line FTP 21 21 TCP 21 21 192.168.1.150 on the DSL-2640B for port forwarding and the router is still not forwarding to the FTP server serv-u administrator in the corresponding computer with internal ip 192.168.1.150 Firewalls are not enabled in the computer 192.168.1.150 either in win xp or in the Eset antivirus which is currently installed. </s>
+<s> So, I do not know what the problem might be. </s>
+<s> I do want to use ftp from the internet to connect to the PC 192.168.1.150 What I know is that the FTP server is working locally if i do ftp 192.168.1.150 but it is not working when I use the router's static ip address. </s>
+<s> Any idea? </s>
+<s> Thanks </s>
+<s> This is well discussed. </s>
+<s> The bad news is that such is well discussed. </s>
+<s> Let's dive in. </s>
+<s> 1, I see you list port 21 but what did you do for port 20? </s>
+<s> 2, Can you SET PASV I know some don't want to dive in and get technical but this technical. </s>
+<s> Sorry if this upsets you but all kinds of folk come here. </s>
+<s> If I make it too simple the advanced user flames about being treated like a newbie. </s>
+<s> If I use the terms I use with my office workers on a newbie they might feel slighted. </s>
+<s> Sorry if I don't get that right. </s>
+<s> Bob </s>
+<s> There was no problem. </s>
+<s> The problem is that i was tring to ftp the router's external wan ip address from inside of the LAN and that's why it failed. </s>
+<s> Now i tested it from the outside and it worked fine. </s>
+<s> Thanks </s>

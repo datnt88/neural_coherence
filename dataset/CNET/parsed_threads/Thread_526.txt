@@ -1,0 +1,10 @@
+<s> Question: how do I change the IP address of a network printer with Windows XP Home or 2k? </s>
+<s> Details: we had a network consisting of 3 PCs and 1 network printer (Nashuatec D420, using Ricoh Aficio 200/250 drivers) in the 195.195.195.x IP address range. </s>
+<s> After installing broadband I had to set the IP addresses to be dynamically obtained by DHCP (in range 192.168.1.2 - 192.168.1.253). </s>
+<s> The printer does not have the ability to change the IP address via it's control panel. </s>
+<s> I know the MAC address and tried to allocate an IP address using arp (with and without DHCP reserving that address) without any success, using 192.168.1.x and 195.195.195.x on the PC running arp. </s>
+<s> Thanks for any help! </s>
+<s> All network printers I have seen have the ability to obtain an IP adress via DHCP or can be set to user a static IP. </s>
+<s> I would look at the documentation of the printer and set the printer with a static IP. </s>
+<s> Thanks, but unfortunately I have no documentation for the printer and couldn't find anything via Google or Nashuatec. </s>
+<s> The printer doesn't provide the option to change the IP address on it's menu, thus I'm forced to do it with software. </s>

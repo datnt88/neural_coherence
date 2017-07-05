@@ -1,0 +1,27 @@
+<s> Hello all. </s>
+<s> I have 3 roommates and between us, there are 6 computers: 1 Windows 7 Desktop (Chris) 1 Windows 7 Laptop (Eric-laptop) 1 Windows Vista Laptop (Oposossafran) 1 Windows XP Acer Netbook (Christwo) 2 Windows XP Desktops (Eric, Mallory) I setup a network on one of the XP machines called MSHOME and changed the workgroup name on all 5 other machines to MSHOME. </s>
+<s> I've disabled Simple File Sharing. </s>
+<s> All 6 computers can see each other (i.e. </s>
+<s> In Network/My Network Places, all computer names are listed) Most computers have folders that are shared. </s>
+<s> When I try to click on any computer name on my Windows 7 machine, it gives me the error &quot;Windows cannot access \\Eric, Check the spelling of the name. </s>
+<s> Otherwise, there might be a problem with your network. </s>
+<s> To try and identify and resolve network problems, click Diagnose.&quot; When I click diagnose, I get the message &quot;Make sure the computer or device is turned on and connected to the network. </s>
+<s> Windows can't find &quot;ERIC&quot;. </s>
+<s> If the computer or device you are trying to reach is nearby, make sure it is turned on and connected to the network. </s>
+<s> Otherwise, contact your network administrator for assistance.&quot; Eric's computer is on and connected to the Internet and likewise can see all 5 other computers as well, though unable to access anything on them. </s>
+<s> Please help. </s>
+<s> Let me know what other information you may need. </s>
+<s> The computers Chris and Christwo were originally on the same network at a different location and HAD a different workgroup name. </s>
+<s> They were able to open and view all files on all shared folders on their previous network and could be viewed by all as well. </s>
+<s> Still now, they are the only 2 that can access each other. </s>
+<s> -Chris </s>
+<s> **Update** I've now changed the name of the network to Taco, because I was told not to leave it at the default. </s>
+<s> I also researched how to unblock several ports from the firewall. </s>
+<s> Now Opossofran's Vista machine can ironically access everybody, but Chris and Christwo can access each other, Eric and Mallory can access each other, but Chris/Christwo cannot access Eric/Mallory. </s>
+<s> I know this is a convuluted mess, but I need some advice. </s>
+<s> Someone help. </s>
+<s> Thanks in advance! </s>
+<s> -Chris </s>
+<s> It would be best to create a username and password common to all PCs that need to access shares. </s>
+<s> Create a specific share that includes that common username and password in its permissions. </s>
+<s> I've one other thought having to do with Windows 7 only that deals with some new SMB security changes that were made but won't get into that yet if you're not having problems with Win7 only. </s>

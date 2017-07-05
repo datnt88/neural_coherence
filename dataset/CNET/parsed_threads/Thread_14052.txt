@@ -1,0 +1,10 @@
+<s> how do I open the port 3389 or any port for that matter on windows 2000 adn xp pro? </s>
+<s> NIL </s>
+<s> The only area you'll need to &quot;open&quot; up TCP 3389 is your router. </s>
+<s> You do not need to &quot;open&quot; anything on your server UNLESS you have a 3rd party firewall software installed on your server. </s>
+<s> And for the router part, depending on the brand and model of your router, it should be in area that said &quot;Port Forwarding&quot;, &quot;Pinhole&quot;, &quot;Services&quot;...etc. </s>
+<s> For business class firewall, you'll have to add the services and define the rules. </s>
+<s> check the firewall maker web site support section on how to setup port forward. </s>
+<s> To connect from the internet, you'll need to know your public IP address as well (www.dslreports.com/whois) Open this web site from you local network and you'll see your public IP address. </s>
+<s> For more information on how to configure TS, follow this link http://support.microsoft.com/default.aspx?scid=kb;en-us;300847 Hope this will help. </s>
+<s> I didn't know that the opening and closing of ports depended on the software (firewall) I was using... thank you for the knowledge </s>

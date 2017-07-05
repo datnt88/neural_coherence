@@ -1,0 +1,105 @@
+<s> Ok so this whole thing started a week ago. </s>
+<s> First though heres my system: Dell Dimension E510 Windows XP Proffesional Intel Pentium 4 CPU 3.00GHz (2 CPUs) 2 gigs RAM Nvidia Geforce 8600 GTS Phoenix ROM BIOS PLUS Version 1.10 A02 So i ordered the 8600 a week ago. </s>
+<s> When i first got it I tried installing it but realized my power supply (which was only 305 watts at the time) did not have the right plug to connect to the card. </s>
+<s> So i took it to a local computer store and they managed to hook it up. </s>
+<s> I brought it home and it worked fine until i started a game. </s>
+<s> Basically when i boot up a game i hear the cards fan start up and then the screen goes black and then either stays like that or it reboots itself. </s>
+<s> I had this problem with all my games. </s>
+<s> I thought it could've been my drivers or something so ive uninstalled and reinstalled them multiple times but no luck. </s>
+<s> I emailed Nvidia support and they said i needed at least a 450 watt PS so i went out and got a 500w one. </s>
+<s> I installed it and everything worked fine except the games again, it did the same thing. </s>
+<s> Ive called Dell support, Nvidia, gone to my local computer store twice now and asked on many different forums, but to no avail. </s>
+<s> I would really appreciate any help. </s>
+<s> Thanks. </s>
+<s> That's rarely a stock install so the drivers for motherboard, audio, video and the rest may be out of date. </s>
+<s> I don't bother checking versions but start with the motherboard (in your case I use the latest from intel.com) and then the other drivers. </s>
+<s> If that fails I head to the EVENT VIEWER to see if I can find a clue to the failure. </s>
+<s> Bob </s>
+<s> Ok, well i tried uninstalling the video drivers then using Driver Cleaner, and then reinstalling the drivers again, but still no luck. </s>
+<s> I went to the intel website but when i searched Intel Pentium 4 they didn't have any updated drivers for it, do you know what chipset family it is in? </s>
+<s> That's pretty fresh. </s>
+<s> http://downloadfinder.intel.com/scripts-df-external/filter_results.aspx?strTypes=all&ProductID=816&OSFullName=Windows*+XP+Professional&lang=eng&strOSs=44&submit=Go%21 I can't tell what you are using but if you missed this one... </s>
+<s> Well, that didn't help. </s>
+<s> I installed the driver updater you linked to, and now everytime i boot up it asks to run in either safe mode or normal mode or whatever but which ever one i pick it gives me a blue screen that says something like An error occured and windows has shut down, please search for virus etc.. </s>
+<s> But the problem is i cant start windows up now. </s>
+<s> I really need help i dont want to spend another $50 bringing this thing to the computer shop in town. </s>
+<s> You seem to need someone to step you through the entire driver set and maybe more. </s>
+<s> I only give &quot;guidance.&quot; For step by step or maybe more you may have to get a geeksquad call or some consultant. </s>
+<s> I noted the usual issues but you missed the driver altogether on the first try (looked for a P4 driver) and didn't tell me if you were going after the next drivers or about the repair install of XP. </s>
+<s> Why not move ahead and get the rest of your drivers? </s>
+<s> Bob </s>
+<s> OK. </s>
+<s> Sounds like you could use a little help. </s>
+<s> If you have your old video card, I suggest you re-install the card and boot up your computer with the Windows XP disc. </s>
+<s> This should allow you to reinstall Windows XP and not lose all of your programs, files, etc. </s>
+<s> Once you get your machine back to a stable mode then we can work through the installation of the new graphics card. </s>
+<s> Nvidia drivers are a pain so you are not alone in your frustration. </s>
+<s> Getting the better power supply is a good step. </s>
+<s> The card you have will pull more juice than you think the moment you get going in a 3D game. </s>
+<s> The &quot;blue screen of death&quot; can occur for lots of reasons but I'm guessing that the video card failure is causing a basic memory dump. </s>
+<s> The good news is that it should not be a permanent problem...just a pain. </s>
+<s> Before you install the new card you will want to seach out the latest drivers for the video card. </s>
+<s> You should also do a google seach for the latest Bios for your motherboard. </s>
+<s> http://www.esupport.com ...can help you find the latest bios for your MB. </s>
+<s> Follow their software update directions exactly. </s>
+<s> Remember to save the old bios versions as &quot;Old Bios&quot; in case you need to go backwards. </s>
+<s> Before you install any new drivers go ahead and delete out the old video driver files from whatever directory you put them in. </s>
+<s> Old drivers can sometimes conflict with the new stuff. </s>
+<s> Also try to contain your downloads into on file folder so you can view dates, versions etc. </s>
+<s> Send a reply message and I will help you through the issue the best I can. </s>
+<s> Regardless, you will need to get your system back to a stable mode so that if/when you call a Geek Squad service they will have a fighting chance to tweak your machine. </s>
+<s> -Landshark </s>
+<s> The Dell came preloaded with Windows XP so i don't have a disc, is there some way to do it without the disc. </s>
+<s> Whenever i looked at the system info and went to display drivers, it claimed the drivers for the card was version 6.14.1. etc and i remember this was the number of the driver for my old ATI card. </s>
+<s> But no matter how many times i uses Driver Cleaner it would not change this, and i installed the latest Nvidia drivers multiple times. </s>
+<s> XP Pro in the full retail package is 299 bucks. </s>
+<s> You can't beat the 35 buck or less charge from Dell. </s>
+<s> Also the units I get from Dell that don't have a CD have a &quot;make restore CD&quot; feature. </s>
+<s> Once in awhile I run into people who won't do that. </s>
+<s> OK, onto your other drivers. </s>
+<s> Once we have the motherboard driver proper we can also use the OLD FASHIONED method of driver removal. </s>
+<s> Either in Safe Mode and XP's driver uninstall or ATI's uninstaller from http://support.ati.com/ics/support/default.asp?deptID=894&task=knowledge&questionID=20561 Now don't fret about the odd VGA driver and such. </s>
+<s> Any old Windows hand will tell you to cancel and move forward. </s>
+<s> Someday we hope Microsoft will correct that. </s>
+<s> So that's get's us to the motherboard drivers updated, the ATI dusted off and ready for the Nvidia drivers. </s>
+<s> A very important issue is the motherboard drivers are required so other drivers can interact proper with the hardware. </s>
+<s> As a side note some find it overwhelming to do all this and that's why Geeksquad is doing so well. </s>
+<s> Bob </s>
+<s> I have tried unintalling the drivers with XP driver uninstaller but with no luck. </s>
+<s> I wonder if you should take it to the shop? </s>
+<s> You seem to skip supplied links and more. </s>
+<s> Don't feel bad here. </s>
+<s> If there is one area that is arcane and from a time long ago is how drivers are done in Windows. </s>
+<s> Nothing in my view has improved since Windows 3.0 in this area. </s>
+<s> Bob </s>
+<s> Well, i would use the links, if i could start the computer up at all. </s>
+<s> The fastest and cheapest option right now is to bring it into a shop. </s>
+<s> I would rather not wait a couple weeks for a windows CD. </s>
+<s> Also, there are no Geeksquads in my area, and the nearest Best Buy is an hour away. </s>
+<s> HP took a little longer at 7 days. </s>
+<s> At the costs of retail XP, these are bargains. </s>
+<s> How are you able to get to the forum? </s>
+<s> Bob </s>
+<s> ok.. u have the same issue i got a year ago. </s>
+<s> There is no driver related, windows related or software related. </s>
+<s> Your problem is with power, cuz ur able to run windows (may not) or start your machine but now u hve a power hungry machine. </s>
+<s> Yes you bought a 500watts PSU but it doesnt mean those watts are REAL WATTS. </s>
+<s> Cheap PSU tell you it may handle 600W but those arent real Watts so if u got it for less than $50 USD u got cheated. </s>
+<s> You may need a SLI certified Power Supply to let your machine run properly. </s>
+<s> I suggest you to go online stores and get a SLI certified PSU. </s>
+<s> cya laterz and wish ya luck. </s>
+<s> The LG. </s>
+<s> but for future reference I had a little trouble with my video drivers too when I first got my card. </s>
+<s> And the thing that seemed to work best for me was to let windows update provide the drivers for my card. </s>
+<s> When you go to windows update, instead of the express button hit the custom button and when its done searching it'll show you windows provided drivers to install as optional. </s>
+<s> I've always found that the drivers provided by windows always seem to work better than the ones from the card manufacturer. </s>
+<s> The card manufacturers always stick in these fancy programs that do nothing but slow you down and mess you up. </s>
+<s> But the windows drivers are just the basic drivers. </s>
+<s> first of all, i think you are using the wrong video card. </s>
+<s> you should not have any problems with it, what os system are you using?? </s>
+<s> some times you need updates from the manufacturer and drivers, sometimes 3rd party vendors have the updates also. </s>
+<s> but you should be able to plug it into the pci slot and use the new hardware wizard. </s>
+<s> there should have been a cd that came with the video card. </s>
+<s> maybe you need to update the bios on your system, look into the pnp(plug n play) see if it has the pnp on or off. </s>
+<s> i use the ati video cards and have never had a problem. </s>
+<s> ow much ram does the card have and how much does your system have, it all does make a difference in how your system plays. </s>

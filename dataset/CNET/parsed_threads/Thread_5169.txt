@@ -1,0 +1,23 @@
+<s> Hi! </s>
+<s> When trying to play &quot;Age of Conan&quot; or &quot;FreeRealms&quot;, or the Star Trek online beta after a few minutes I get a crash, which according to Win7 is being caused by ATIKMAG.... Just upgraded drivers and Catalyst control center to 09.12 (also tried removing the catalyst control center because a post on the web said that might be the problem (it wasn't). </s>
+<s> Tried switching off Aero, tried 9.12 hotfix, tried re-seating memory (ran windows &quot;memory diagnostics utility&quot; showed no problems) nothing doing any good... Help please! </s>
+<s> H/W diagnostics info: Windows 7 RC Version 6.1.7100 Manufacturer: Gigabyte Technology Co., Ltd. Board model: X48-DQ6 Version: x.x BIOS vendor: Award Software International, Inc. BIOS version: F7, Release date: 07/17/2008 Chipset: Intel X48 Vendor ID: 50001458 SouthBridge: 29168086 SMB port used: 0500 CPU:Intel(R) Core(TM)2 Duo CPU E8400 @ 3.00GHz CPUId:0-6-7-6 Cores:2 Internal Freq=2999.0 MHz External Freq=499.83 MHz Multiplier=6.0 SystemBus Freq=1999.3 MHz QDR Thermo control configuration: Full Throttle:100.0% AMD Low Power mode:Disabled Win 95/98 Idle Control:Disabled Device:None Throttle:25.0% Enable at:70.0C Disable at:65.0C Main Sensor: IT8718F Monitored data values: Mainboard=26.0C (0,Diode,0.0C) CPU=35.0C (1,Thermistor,0.0C) Temp3=xx.xC (0,Thermistor,0.0C) CPU0 Core=49.0C (0,CoreTemp,0.0C) Chassis=514 rpm CPU1=xxxx rpm CPU2=1097 rpm Power=1214 rpm Core=+0.94V Aux=+1.89V +3.3V=+3.28V +5V=+5.05V +12V=+12.35V -12V=-xx.xxV -5V=-x.xxV HDD1 temp=28.0C WDC WD3200AAKS-00B3A0 01.03A01 VGA device: ATI Radeon HD 4800 Series VGA Device ID: 94421002,05021002.00 VGA driver: ATI Technologies Inc. Radeon DirectX Universal Driver 8.14.10.0716 Catalyst Version: 09.12 VGA sensor: Catalyst VGA GPU=37.0C VGA Env=xx.xC VGA Fan=xxxx rpm (xx%) VGA Core=+x.xxV VGA Bus=+x.xxV </s>
+<s> http://processorfinder.intel.com/details.aspx?sSpec=SLAPL notes this CPU to have a system bus speed of 1333 MHz and yours is 1993. </s>
+<s> Is this overclocked? </s>
+<s> Hint: Don't. </s>
+<s> Bob </s>
+<s> Here are a few troubleshooting items which you may have overlooked. </s>
+<s> Sometimes a small problem can cause so much chain reaction. </s>
+<s> Right now we've got a lot on our plate if we go at it one by one, but here's are some places to start: Insufficient Power Bad Memory Modules Over Clocking Motherboard/Memory Compatibility Overheating Defective Motherboard </s>
+<s> I don't really know how it got set that way, I couldn't even find how to change it directly in Bios - ended up changing general settings to low-safe (can't remember what it called it). </s>
+<s> This changed it to 1333, haven't had a chance to see if it did any good. </s>
+<s> Did notice that a hardware monitor program showed something in red zone heat right after re-booting (after one of these crashes), unfortunately I'm not sure exactly what it's telling me is the particular heat problem... </s>
+<s> It lists Mainboard (ok), CPU (ok), temp 3 (which has no sensor), and CPU0 Core (which is where the red showed up). </s>
+<s> why it shows CPU ok, and CPU0 Core as a problem, I don't know what it's listing as this CPU0 Core that i need to address.... </s>
+<s> Ok that you changed it to stock which may help but have the machine's builder pull the heatsink off the CPU and drop some fresh heatsink paste there. </s>
+<s> Then have them make sure the heatsink is in solid contact and fans to working. </s>
+<s> For heat issues it's very important to clear those up as it ages parts and machine quickly. </s>
+<s> A 5 year machine will see trouble after the first year. </s>
+<s> Bob </s>
+<s> I don't understand what I'm seeing here, I'm seeing 22C for the CPU, 41C for both core 0, and Core 1. </s>
+<s> That you can't trust the temperature sensors or software. </s>

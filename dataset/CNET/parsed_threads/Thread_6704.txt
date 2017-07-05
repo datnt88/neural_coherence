@@ -1,0 +1,135 @@
+<s> Six year old PC XP with three packs,P4,X1300/1550 series video card, has been working fine until recently, out of the blue the USB would not work to use my printer, Epson photo stylus 340, It works with other computer. </s>
+<s> Got in touch with the computer supplier firm in Yorkshire,UK. </s>
+<s> They build and sell. </s>
+<s> By a remote session he helped me to put the software disc and reload the drivers. </s>
+<s> After all that, he assumed the problem solved and went off. </s>
+<s> I restarted the computer : Well, it still did not solve the problem. </s>
+<s> I went on the Video card manufacturers website to download more recent stuff re.the card but no joy. </s>
+<s> Apart from going back to the supplier, any suggestions, The device manager shows yellow question marks on the video controller and PCI. </s>
+<s> Stumped for the moment. </s>
+<s> Shafiq </s>
+<s> Well video and USB are two different items, so what do you really need fixed? </s>
+<s> Afterall, fixing one will not fix the other. </s>
+<s> Though you will be using the same method to fix either at least for now. </s>
+<s> I suggest you return to the device mgr. </s>
+<s> and point to the item in question and click on it and then reload the driver. </s>
+<s> The driver source should be known so when reloading it knows where to seek it out. </s>
+<s> Once, that's done, reboot and check your work. </s>
+<s> I also suggest when it comes to USB, remove all USB devices,even the kybd. </s>
+<s> and mouse if so equipped. </s>
+<s> If they mouse or kybd. </s>
+<s> use the old PS/2 for then and reload the USB driver if supplied. </s>
+<s> I hope you have the driver disc an/or the maker's latest driver for XP and allow it to be loaded. </s>
+<s> I take for granted you the know the method to retrieve from the support maker website. </s>
+<s> If the process fails, then you have other issues, please report back results. </s>
+<s> tada -----Willy </s>
+<s> Thank you Willy. </s>
+<s> I did not know the first bit you pointed out. </s>
+<s> i.e. </s>
+<s> both are different entities. </s>
+<s> You in essence I knew but I followed the pathway as suggested by the supplier. </s>
+<s> However I know the difference but still I failed to fix the problem. </s>
+<s> In the device manager,under &quot;other Devices.&quot; there are three items.1. </s>
+<s> PCI Modem. </s>
+<s> 2. </s>
+<s> Video controller. </s>
+<s> 3. </s>
+<s> Video controller(vga compatable.) </s>
+<s> I have gone through the procedure you described once again. </s>
+<s> Now I am sure the disc I thought had the (ATI ver. </s>
+<s> 3.5) which came with the video card Rad... 1300/1550 series )driver is not the right one. </s>
+<s> All these have yellow question marks. </s>
+<s> Lower down in the USB list there are eight entries. </s>
+<s> 4 sis7001 PCI to USB open Host controller and four USB Root Hub. </s>
+<s> In the middle there is n &quot;unknown Device&quot;. </s>
+<s> Since I have six USBs 4 in the back and two in front. </s>
+<s> It is the two in front (i believe) damaged. </s>
+<s> I tried a restore system, it looked OK but soon got the the fault situation. </s>
+<s> Now the problem seems to be the two front ones. </s>
+<s> My key board and the mouse is on the USB, I assume it is the back four that are working fine. </s>
+<s> The solution you suggested re. </s>
+<s> taking all the USB attached devices off leaves me up the creek without a paddle, so to speak. </s>
+<s> How do I use the computer without the key board?? </s>
+<s> Where to find the drivers? </s>
+<s> I do not believe I have USB driver discs. </s>
+<s> I fear I used to be able to recall all, but with advancing years it is a touch dicy. </s>
+<s> No I am not quite altogether gone yet. </s>
+<s> Please forgive me if I am posing questions you have already answered.I thank you for your generosity of spirit. </s>
+<s> The USB drivesr are usually supplied by the &quot;mtrbd. </s>
+<s> chipset&quot; driver set. </s>
+<s> It may or not actually show as USB driver, but it is as the chipsets is obviously suppling the USB ports. </s>
+<s> Since, it seems you think the frt. </s>
+<s> USB ports are bad, be 100% sure that the cable that is supplied to the frt. </s>
+<s> panel is properly seated and in the right place. </s>
+<s> At least reseat that wire harness, you have to open case and inspect and verify. </s>
+<s> There is the chance if you had a bad USB device, you blew the USB ports to include static(ESD) damage. </s>
+<s> Improper plugging in/out can also dirty the ports, so be sure they're clean as well also any physical damage. </s>
+<s> As for video, you need to verify what video card, just what is it. </s>
+<s> Installing driver for another or mis-ID'ed video card is going to cause issues. </s>
+<s> If those OEM(vendor supplied) discs are improper or wrong driver then having the true video model#, etc. </s>
+<s> to get the driver from the maker's support website is a must to know. </s>
+<s> Download those and install the proper driver. </s>
+<s> I can't explain any better than that. </s>
+<s> Though, in many cases you maybe getting the driver install suite which supports a class of products using ?-video chip whatever. </s>
+<s> rather than installing from the device mgr., you allow the .EXE file to do all and follow the procedure to better install. </s>
+<s> tada -----Willy </s>
+<s> Thank you for the post. </s>
+<s> I have opened the case and looked at the USB ,but there does not appear to be any physical damage . </s>
+<s> I have used the compressed air to clean the area. </s>
+<s> The situation at the moment: The front usb does not work. </s>
+<s> The device manager shows all USB controllers and USB root hubs OK. Only the &quot;Other Devices&quot; has a yellow question mark over it. </s>
+<s> Only a &quot; MCI Modem&quot; is listed in the devices with yellow mark on it, and as it is, I do not use Modem ,I have a router which presumably has a Modem in it. </s>
+<s> My Internet on the broadband works fine. </s>
+<s> During my physical examination I found it difficult to reach the front USB because the front of the computer case and the m/board area is partitioned by the wall where the hard drive and other dvd writer devices are housed. </s>
+<s> There is only a couple of inches of space in between. </s>
+<s> I could have a clear view of it but could not have handling access to the USB cables or the card on which the USB circuit is printed. </s>
+<s> To this extent I am saying that it appeared OK. </s>
+<s> If nothing else then I shall try to open this area to have a closer look. </s>
+<s> I am sorry the issue seems intractable though I am not so worried if this is not solved, but I would not rest unless I understand the problem.Obviously there is the inconvenience of using my printer with my laptop which is often based in a different room. </s>
+<s> With case open, find the USB wire harness that connects the USB frt. </s>
+<s> panel to mtrbd. </s>
+<s> and reseat it a few times(Power-OFF). </s>
+<s> Now retry using the frt. </s>
+<s> USB again. </s>
+<s> if it doesn't work, even though the device mgr. </s>
+<s> says, it's OK, it really can't test the full USB port status(complete circuit). </s>
+<s> If you have anything else connected to that USB frt. </s>
+<s> panel, disconnect use only 1 device to check. </s>
+<s> No need to check the USB frt. </s>
+<s> PCB, unless it shows a broken wire or shorted. </s>
+<s> If you have access to other USB panels, try using that. </s>
+<s> A used USB panel from a broken PC can be swapped(hanging out) just connect the wire harness to that mtrbd. </s>
+<s> connection. </s>
+<s> This not test the USB header but the panel itself. </s>
+<s> I offer that as a possible test. </s>
+<s> Otherwise, you can buy a PCI or PCI-e card and mount it to serve extra USB ports if nothing seems to correct the frt. </s>
+<s> panel connection. </s>
+<s> If you check your mtrbd. </s>
+<s> manual you *MAY* have an extra un-used USB header, swap wire harness to that location. </s>
+<s> Look closely at mtrbd. </s>
+<s> and find USB locations, they maybe labeled as USB1, USB2, etc.. if in doubt check the manual. </s>
+<s> tada -----Willy &lt;div&gt; &lt;/div&gt; </s>
+<s> I just found out that the USB (front)are not quite dead. </s>
+<s> I used a flash drive to upload a file as well as to download a file using the same USB (front). </s>
+<s> The USB lead used to printer is ok as it works with another computer. </s>
+<s> Printer is OK as it works with another computer. </s>
+<s> My M/B is an old one, although it shows 'Pci' along with other capabilities on the cardboard box it came in, but I used only AGP bus so far I knew it did not have PCI capabilities. </s>
+<s> It is a 'matsonic' series MS9327E+(USB). </s>
+<s> I have the video card ATi Radean video card series 1300/1500 AGP. </s>
+<s> I am not sure if my M/B will be compatable with the PCI or PCI-e !I am not sure how to find out if it is compatable with PCI-e bus. </s>
+<s> I am game for trying anything, I am grateful for your continued interest. </s>
+<s> Thank you. </s>
+<s> Any suggestions will be received with appreciation. </s>
+<s> Avoid those front ports if you want it to be more reliable. </s>
+<s> Thank you for the suggestion. </s>
+<s> I still need some way of connecting my Printer! </s>
+<s> I have looked at the M/B manual and it has a PCI facility. </s>
+<s> I shall try and add a PCI card .It has given me some added confidence . </s>
+<s> Thanks to people like you. </s>
+<s> shafiq </s>
+<s> On my last desktop I used a simple USB HUB to the rear port and mounted it so I could use it from the front area. </s>
+<s> Just an idea if you are running low on ports. </s>
+<s> bob </s>
+<s> As always you are helpful, and resourseful. </s>
+<s> Thank you. </s>
+<s> Shafiq </s>

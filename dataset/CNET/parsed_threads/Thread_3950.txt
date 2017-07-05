@@ -1,0 +1,91 @@
+<s> I am not sure how can I set up Wirless network within my home as my situation is a little different from the regular networking setup. </s>
+<s> Here is my situation, I receive my internet connection from the local ISP using LAN without any cable modems. </s>
+<s> The LAN pin is plugged into one of the 2 D-Link Ethernet 10/100 cards in my Desktop PC. </s>
+<s> The local ISP along with the internet connection provides a Windows Login Client Application. </s>
+<s> Unless I do not login into that client (which works only on my desktop) the internet will not work. </s>
+<s> In such a scenario where I just HAVE TO login to the desktop PC, how can I set up home wifi? </s>
+<s> To get a better picture I have made a mockup of the scenario which can be found at http://hiren.kayako.org/scenario.gif Here are mt details: Desktop PC: Windows SP2 with 2 D-Link Ethernet 10/100 Adapter Cards of which 1 is currently being used to access internet Laptop: Windows SP2 with D-Link DWL-650 802.11b Wireless Card Router: D-link AirPlus G 802.11g and 4-P Lan Wireless Router Any help provided shall be highly appreciated. </s>
+<s> Regards, Hiren Mehta </s>
+<s> your networking needs, along with ICS from the Internet enabled PC. </s>
+<s> Shouldn't be too hard. </s>
+<s> Hi, I forgot to track the discussion hence was not aware of a reply being posted. </s>
+<s> Is it possible to set up WiFi using the attached picture scenario, if yes then how do I set it up? </s>
+<s> Any help would be appreciated. </s>
+<s> Possible solution scenario - http://hiren.kayako.org/scenario1.png (solution written in red text) Regards, Hiren Mehta </s>
+<s> it would not work. </s>
+<s> Unless...... you set the router to act as a router and not a gateway (same function as a WAP). </s>
+<s> Should be in the manual. </s>
+<s> ICS would appear to still be needed on the Internet connected PC. </s>
+<s> Hi, Thanks for your help so far. </s>
+<s> I sincerely appreciate it. </s>
+<s> The manual provided with the router does not cover the option to setup a router as a router and not as a gateway. </s>
+<s> The manual infact points me to set up the router by opening IE as http://192.168.0.1 Can you please help me as to how do I setup as router as a router and not as a gateway on Win XP? </s>
+<s> ICS is enabled on the Desktop PC. </s>
+<s> I am not a networking guy so I am not sure how it completely works. </s>
+<s> Thank You again for your help so far. </s>
+<s> Regards, Hiren Mehta </s>
+<s> D-Link router you have, I picked one of the popular models. </s>
+<s> http://d-link.com/products/support.asp?pid=316&pv=63&sec=0 This manual shows the point at which DHCP is disabled on page 17. </s>
+<s> NIL </s>
+<s> use one of the LAN ports of the router rather then the WAN port for the connection to the PC. </s>
+<s> Hi, Thanks for your help so far. </s>
+<s> I do have the very same router: DI-524. </s>
+<s> The initial part of the manual suggest, I have to configure the router by running the URL http://192.168.0.1 in the browser. </s>
+<s> Which does not seem to be working. </s>
+<s> Without being able to access the config panel how can I setup DHCP? </s>
+<s> This is what I did, please point me out if I did anything wrong: - Internet Ethernet Cable is plugged into a 10/100 Ethernet Adapter card on the desktop PC: Internet Protocal for this card are: IP: 172.16.100.7 Subnet Mask: 255.255.255.0 Gateway: 172.16.100.1 Preferred DNS: 202.63.164.17 - ICS is enabled from this adapter. </s>
+<s> - I plugged a ethernet cable from the 2nd 10/100 Ethernet Adapter card from the PC to the routers WAN port. </s>
+<s> - The Intenet Protocal for this (2nd) card are: IP: 192.168.0.1 Subnet Mask: 255.255.255.0 Gateway: blank Preferred DNS: 202.63.164.17 I hope this information is enough for my issue to be resolved. </s>
+<s> I sincerely appreciate your help so far, thanks again! </s>
+<s> Regards, Hiren Mehta </s>
+<s> The DI-524 has a very recent firmware update. </s>
+<s> Did you get it? </s>
+<s> Bob </s>
+<s> Hi Bob, Thank You for pointing it out to me. </s>
+<s> I have not updated the firware but I cannot set up the basic router to work which is the issue here. </s>
+<s> Regards, Hiren Mehta </s>
+<s> It was very annoying to say the least. </s>
+<s> Bob </s>
+<s> Hi Bob, My bad that I did not have alook at it properly. </s>
+<s> The router shows to have Firmware 1.05 installed which to the site seems to be latest version. </s>
+<s> Regards, Hiren Mehta </s>
+<s> It cured a few issues I had encountered. </s>
+<s> Best of luck. </s>
+<s> Bob </s>
+<s> is the same as the default IP of the router. </s>
+<s> This explains why you cannot reach the routers setup page. </s>
+<s> Take this cable out of the WAN port and put it in one of the LAN ports. </s>
+<s> Then cycle the power of the router and reboot the PC. </s>
+<s> See what IP you now get on the 2nd NIC. </s>
+<s> It should be 192.168.0.100 or so. </s>
+<s> If this is the IP, you can now enter the routers setup page by typing 192.168.0.1. </s>
+<s> Hi Michael, You have been of brilliant help so far. </s>
+<s> I cant thank you enough. </s>
+<s> I have managed to get the access point up as you suggested and LAN works like a charm. </s>
+<s> The problem now is with the internet connection. </s>
+<s> As soon as I plug in the router, the internet connection on the desktop PC stops working (the main line). </s>
+<s> As soon as I disable the second ethernet 10/100 connection (which is connected) to the laptop, the internet connection starts working again: My internet connection 10/100 Adapter IP settings are: IP Address: 172.16.100.7 Subnet Mask: 255.255.255.0 Gateway: 172.16.100.1 Preferred DNS: 202.63.164.17 One more thing, when I enable WEP security for Wireless connection, my laptop fails to connect to the browser. </s>
+<s> On requesting a connection to the router, it does ask for the network key. </s>
+<s> When I insert and try to connect to the router, it does not connect. </s>
+<s> Last 2 issues and I should be good to go. </s>
+<s> Thank You again for your help so far. </s>
+<s> Regards, Hiren Mehta </s>
+<s> Here: =-=-=-= One more thing, when I enable WEP security for Wireless connection, my laptop fails to connect to the browser -=-=-=- I meant: =-=-=-= One more thing, when I enable WEP security for Wireless connection, my laptop fails to connect to the router -=-=-=- </s>
+<s> Hi, Thanks for all your help. </s>
+<s> I have finally managed the internet to work on the laptop. </s>
+<s> The only issue now left is WEP authentication. </s>
+<s> Thanks for all the help is received till date. </s>
+<s> Regards, Hiren Mehta </s>
+<s> Hi, This set up worked amazingly well on my old PC. </s>
+<s> Now I have a new computer - AMD Athlon 2400+ with Windows XP Media Edition installed on it. </s>
+<s> When I now try connecting from AMD to the D-Link Wireless Router (I used the same PC Network Adapter from the old pc), Win XP Media Edition crashes as soon as plug Network cable into the Router. </s>
+<s> Router is using the latest firmware. </s>
+<s> What can be the reason? </s>
+<s> I am totally confused. </s>
+<s> Regards, Hiren Mehta </s>
+<s> That's a new machine so you can have them fix it this time. </s>
+<s> Bob </s>
+<s> Never mind, I got this resolved as well. </s>
+<s> The issue was with the Zone Alarm Security Suite installed. </s>
+<s> It was crashing Win XP. </s>
+<s> Thanks for all your help Regards, Hiren Mehta </s>

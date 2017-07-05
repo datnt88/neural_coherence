@@ -1,0 +1,19 @@
+<s> I'm having trouble setting up my home wired network and was wondering if anyone had experience this. </s>
+<s> I have the cable modem connected to the router (Belkin N+) in the living room and there is a wall ethernet jack. </s>
+<s> I connected the router to the ethernet jack and that goes to my wire closet and is connected to a 5 port switch (Linksys 10/100). </s>
+<s> The switch is then connected to 4 other ethernet lines that goes to other wall jacks in the house. </s>
+<s> The problem is that when I plug in a computer to the wall jack, it recognize that there's a signal but no internet or assigning of IP address. </s>
+<s> Any help would be appreciated. </s>
+<s> Power off the router, switch, and PC. </s>
+<s> With all devices connected, power back up in this order: Router - wait for the lights to stabilize. </s>
+<s> Switch - wait for the lights to stabilize. </s>
+<s> PC. </s>
+<s> If you decide to move the PC, you may have to do the above steps again. </s>
+<s> For some reason, some systems and routers do not take well to disconnects and reconnects. </s>
+<s> The key word is &quot;may&quot; as once the PC is assigned an IP address, it may be able to move around as needed. </s>
+<s> You have Ethernet to a 5 port switch. </s>
+<s> So, essentially, you have two switches. </s>
+<s> If these are not of the &quot;auto-sensing&quot; type or the Linksys doesn't have a dedicated or switchable uplink, you need to use a crossover cable to connect the two. </s>
+<s> I tried to plug the ethernet to the uplink port on the linksys switch but no dice. </s>
+<s> Haven't tried it with a cross over cable yet </s>
+<s> and will have something like MDIX silk screened by the button. </s>

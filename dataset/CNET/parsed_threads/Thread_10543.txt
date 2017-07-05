@@ -1,0 +1,75 @@
+<s> I just purchased an 80gig/ Seagate7200.7 Barracuda ultraATA, shunted for cable select out of box. </s>
+<s> My dell 8200 already has a master 40 gig HD most likely Cable select setting and the 80 gig new, was recommended by Dell as replacement. </s>
+<s> I want to install the 80gig HD new as a slave. </s>
+<s> My two questions are: Can I do this as simply as installing hardware and turning on the comp? </s>
+<s> Would it be better to make the old 40gig HD, the slave? </s>
+<s> ARe slave drives slower to access or something? </s>
+<s> Both internal drives also and I have the right mountings and plugs, for two inside. </s>
+<s> YAY first person to reply I feel special First if your computer is less than a year old just leave it on cable select and plug it in, your computer will set it as slave automatically, same applies if your using windows XP If your using 98 get your hard drive and adjust the little white block on the back (it's near the pin coinnectors) your hard drive should have a diagram telling you where to put the jumper (the block) for slave setting And don't worry Slave drives are any slower to access than the master drive, it simply tells your computer which drive to look for the OS on first, and on older computers stops the 2 hard drives using the connector cable at the same time (stops data colliding) </s>
+<s> You can follow the steps at this link (printer friendly page icon at the bottom that takes out background graphics) for a slave drive. </s>
+<s> Simple stuff since the drive is empty. </s>
+<s> The speed of the drives won't be a factor just because one is larger than the other so I would recommend leaving the 40GB drive as the Master with the new drive as the Slave rather than trying to copy one drive to the other and then have to switch the positioning. </s>
+<s> The instructions here are for W98/ME using FAT32 and if that's what you have on the Master 40GB drive, you will have to partition and format the drive separately as seen in the pictures in the link. </s>
+<s> This will prepare the drive for data. </s>
+<s> If you have XP, it will partition and format it for you by using the Disk Management program. </s>
+<s> http://www.pcwarfare.com/hdds/fdisk-format.slave.hdd.htm TONI </s>
+<s> if it is plugged into the middle connector. </s>
+<s> The other drive, if jumpered as Master could be plugged into the middle cable for convenience. </s>
+<s> never know with these proprietary systems. </s>
+<s> Also, why would using Win 98 have any effect on whether or not to use cable select??? </s>
+<s> ? </s>
+<s> system is 3 1/2 years old. </s>
+<s> WinXP/SP2 When I bought my Dell8200, I also purchased the work station mobo, I think it is supposed to have lots of room. </s>
+<s> I know nothing about MoBo's, but it has 6 AGP's and 4 PCI's? </s>
+<s> I think anyways. </s>
+<s> Shouldn't be hard, change the new hd jumper setting from single to slave, the old hd from single to master, and connect them. </s>
+<s> Don't touch the bios, you might mess it up... ^_^ Why would you need 6 AGP slots? </s>
+<s> o_O </s>
+<s> I really am just asking, I have no idea, unless he meant USB ports. </s>
+<s> I will count them when I install the drive. </s>
+<s> I will report back once I have decided on this install. </s>
+<s> I do very graphic intensive work and may need to make my new drive the master, which would change everything. </s>
+<s> Mainly that is what I am trying to really find out: If I make my new drive the slave, then install adobe illustrator to it; will all files for Illustrator install to the slave, even the sys files? </s>
+<s> This is important; that my CGI work and apps, stay on one drive, the new drive. </s>
+<s> Windows since about 1995 will not allow what you are asking to happen. </s>
+<s> And there is no sign this will ever change. </s>
+<s> You can keep your data files where you want, but few applications will run from your drive as you change the host or what master drive you move to. </s>
+<s> Bob </s>
+<s> It has nothing to do with master/slave. </s>
+<s> Nothing whatsoever. </s>
+<s> The only thing that matters is which drive your OS is installed on. </s>
+<s> System files for programs will always run from that drive no matter wether it's master or slave, so it doesn't matter. </s>
+<s> Thanks Bob. </s>
+<s> That is exactly what I needed to know. </s>
+<s> You know, that kind of sucks about the OS. </s>
+<s> I Am sure of my decision now: Installing new drive as master and fresh OS install. </s>
+<s> That's the way I'll feel most comfy. </s>
+<s> I can copy all my graphics to CD and erase the old drive. </s>
+<s> My art is the only important thing. </s>
+<s> First no matter what version of windows is installed, a single harddrive will hold the operating system and unless you have some reason to reformat this drive or double boot then I would suggest that you keep it as is .... </s>
+<s> Note: .... before you start .... </s>
+<s> Pull the power cord out...its a must as the motherboard still has power to it even when shut off!!!!! </s>
+<s> Next; ground yourself and the computer case to ground to avoid electrostatic discharge, before touching any internal components try to keep contact to the metal chassic to equilize your body potential which can rise to 2500 volts or more just by body movements I,ve measured them, leather soled shoes would be better but constant chassic contact is best....... </s>
+<s> Installed harddrive; change the jumper to master or leave, if installing new HD on the secondary channel New harddrive; strap as a slave or install on the secondary channel as master or cable select Bios recognition may be automatic but if its not you may have to go into setup, I believe f2 at boot. </s>
+<s> Now just install on the cables.... </s>
+<s> Note: the cable has a polarity ie. </s>
+<s> there is a pin 1 and an end pin .. you have to put pin 1 to pin 1, the power cable connector has a specific shape. </s>
+<s> look befor you jump ok... Now use partition magic or another partitioning tool to set partitions on the drives you have.... why? </s>
+<s> well if your operating system is on one partition when you encounter a operating system failure via a virus or inadvertant driver loss then rebuilding wont mean the loss of all of you computer data ... eg. </s>
+<s> partitions examples Apps, Data, Downloads, Temporary, Video, Music anything you want ..... think of it as a large file cabinet with specific drawers .... old addage &quot;don't put all your eggs in 1 basket&quot; if it drops what happens.... Hope Thats of some help have fun </s>
+<s> I installed, HD and OS in less than 3 hours. </s>
+<s> all was painless and automatic! </s>
+<s> It also helps; to have security updates from Microsoft, on a CD via snail mail. </s>
+<s> You can get SP2 this way, for free, no postage. </s>
+<s> I also took the opportunity to; dust out the works and removed the cooling fan, cleaned it and re-installed. </s>
+<s> Only a slight increase in performance. </s>
+<s> I expected this however, Since my files were well managed on the old HD and I already had near peak performance with it.-----My thanks, go out to the above folks, for all the help and suggestions. </s>
+<s> Cnet Rules!! </s>
+<s> ! </s>
+<s> that is all I have inside? </s>
+<s> I was sure there were more than that. </s>
+<s> Never trust your own eyes(so they say). </s>
+<s> The PCI EXPRESS video card slot is PCI X16. </s>
+<s> There are also X4 and X8, but usually only seen in servers. </s>
+<s> Some mobos have both an AGP slot and a PCI 16X slot. </s>
+<s> Just trying to point out that simply saying PCI Express may not be a complete statement. </s>

@@ -1,0 +1,19 @@
+<s> Can I have my PC connected to two modem/routers at the same time (motherboard offers 2 LAN ports) but only setup so that it connects to the internet through one of them? </s>
+<s> The reason is the following: I have 2 DSL lines, and 2 modem/routers. </s>
+<s> I want to have one DSL providing access to the internet to my desktop PC (through modem/router 1), and the second DSL line providing internet to laptop, PS3 and other secondary devices (through modem/router 2). </s>
+<s> However, I still want to have everything connected in a home network, so in order to do that I need to have my desktop PC also connected to the modem/router 2. </s>
+<s> How can I do that? </s>
+<s> I am running Windows 7 x64. </s>
+<s> Thanks! </s>
+<s> So if I read this right Desktop will ONLY go to internet via router 1 Other machines will ONLY go to internet via router 2 Desktop needs access to just the devices attached to router 2 and nothing past it. </s>
+<s> First you need different subnets for your 2 routers. </s>
+<s> Ie 192.168.1.0/24 and 192.168.2.0/24... or whatever you like. </s>
+<s> Everything is setup pretty much standard except your connection on desktop to router 2. </s>
+<s> On this network interface you want to use a hard coded IP from the subnet assigned to router 2. </s>
+<s> Do not set the default gateway or the DNS on that interface. </s>
+<s> Your machine will have 2 ip addresses one on each subnet. </s>
+<s> Since there is only a single default route it will use that to go to internet but is smart enough to know based on the subnet mask that it can talk directly to your other machines. </s>
+<s> If you issue the ROUTE PRINT command from the cmd line you should see both network. </s>
+<s> You may have to set options in the bios on some motherboards to allow both to be active at the same time. </s>
+<s> If your question is the more standard one we see here of how to actually use 2 internet connections from a single machine that answer is that it is very hard to get to work effectively. </s>
+<s> Thank you, that was exactly what I was looking for </s>

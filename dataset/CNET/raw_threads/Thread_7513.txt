@@ -1,6 +1,6 @@
-9117	0	273277	2638637	NR	StargateFan	11/25/07 5:21 PM	1.19601126E12	how connect through nat	lets say remote desktop computer friend owns via internet course connect his whole network ip address given him his isp how tell his router uses nat dhcp hand class addresses connect particular computer
-9117	1	273277	2638949	2638637	temwy	11/26/07 6:25 AM	1.1960583E12	connecting private network through nat	must set mapped port default remote desktop his router router doc search mapping ports router supports must set preferences incoming connections port public ip address forwarded internal private ip port temwy
-9117	2	273277	2641761	2638949	StargateFan	11/29/07 8:30 PM	1.1963682E12	nt great thanks anyway else	NIL
-9117	3	273277	2641958	2641761	R. Proffitt	11/30/07 6:03 AM	1.19640258E12	internet	drop connection through nat real ip bob
-9117	4	273277	2642324	2641958	StargateFan	11/30/07 1:56 PM	1.19643096E12	obviously	obviously possible speaking terms dial through nat
-9117	5	273277	2642342	2642324	R. Proffitt	11/30/07 2:10 PM	1.1964318E12	nt were back mapping ports	NIL
+9117	0	273277	2638637	NR	StargateFan	11/25/07 5:21 PM	1.19601126E12	How To Connect Through NAT	Lets say I have to Remote Desktop to a computer that my friend owns via the internet. Now of course to connect to his whole network I would have to know the IP address that is given to him by his ISP, but then how do I tell his router which uses NAT with DHCP to hand out class C (192.168) addresses, to connect me to that particular computer.
+9117	1	273277	2638949	2638637	temwy	11/26/07 6:25 AM	1.1960583E12	Connecting to private network through NAT	You must to set &quot;mapped port&quot; 3389 (it is default for remote desktop) on his router. See in router doc and search for &quot;mapping ports&quot;, if router supports this, you must to set in it's preferences that all incoming connections to port 3389 on public IP address will be forwarded to internal private IP and port 3389. Temwy
+9117	2	273277	2641761	2638949	StargateFan	11/29/07 8:30 PM	1.1963682E12	(NT) Great Thanks! But is there anyway else to do this?	NIL
+9117	3	273277	2641958	2641761	R. Proffitt	11/30/07 6:03 AM	1.19640258E12	Be on the internet.	Drop the connection through a NAT and get a real IP. Bob
+9117	4	273277	2642324	2641958	StargateFan	11/30/07 1:56 PM	1.19643096E12	Obviously	Obviously this is possible, but I am speaking in terms of a dial in through a NAT
+9117	5	273277	2642342	2642324	R. Proffitt	11/30/07 2:10 PM	1.1964318E12	(NT) Then we're back to mapping ports.	NIL

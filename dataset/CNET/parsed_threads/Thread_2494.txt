@@ -1,0 +1,22 @@
+<s> Re: Presario S5100NX Boots on USB Drive This S5100NX hangs on boot up when the USB Flash Drive 1 GIG is inserted into the front panel USB slot. </s>
+<s> It boots perfect wihout the USB drive. </s>
+<s> The F1 setup has the boot order as; 1. </s>
+<s> CD DVD 2. </s>
+<s> HD 3. </s>
+<s> Floppy 4. </s>
+<s> Network If the USB is not in the list why does the PC hang? </s>
+<s> What can be changed to have it bootup with the USB drive left in the USB slot at all times? </s>
+<s> Thanks from Gary in New Orleans, Enjoy your Cracklins Compaq Presario S5100NX Desktop PC Motherboard P4G533LA ASUSTeK Award Modular BIOS v6.0 Intel(R) Celeron(R) CPU 2.60GHz Current Memory Type DIMM SDRAM 512 Maxtor 6Y060L0 Creative Labs Audigy SE Monitor Envision ENVISION Wireless DSL </s>
+<s> NIL </s>
+<s> None it is used to store tech files and photos. </s>
+<s> an IRQ conflict. </s>
+<s> With the PC on and the drive plugged in, go to Device Manager. </s>
+<s> Open the USB controllers and find the drive. </s>
+<s> This from memory, navigate around the Properties and find the interrupt assigned. </s>
+<s> Change it. </s>
+<s> The Device mgr only lists my 75 G Ext Usb HD for backups. </s>
+<s> It does not list the USB flash drive, even removing and re-inserting it. </s>
+<s> The USB flash drive gets its volts from the MB. </s>
+<s> Could that be a problem? </s>
+<s> The Ext Usb HD has its own power suply. </s>
+<s> Thanks. </s>

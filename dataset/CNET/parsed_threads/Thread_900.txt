@@ -1,0 +1,20 @@
+<s> Hello, I have a node with one physical wireless interface and I need it to offer AP service to other nodes, connect to an existed AP, and connect to other nodes in ad hoc mode. </s>
+<s> If I create 3 logical wireless interfaces of that interface and configure each one respectively to the modes above, would this work? </s>
+<s> do they use the same MAC address or each needs to be configured a different one? </s>
+<s> And what is the disadvantages of this approach? </s>
+<s> Thanks! </s>
+<s> Hanibra </s>
+<s> Problem is if you really only have one radio it is this unit that has to run in the different modes. </s>
+<s> This is similar to the radios that can run B,G,N but not at the same time. </s>
+<s> They attempt to switch back and forth but are only somewhat successful. </s>
+<s> Same with routers that claim to be dual band but only have a single radio that switches between 5g and 2.4g If you were to work for a chipset manufacture maybe you could integrate this type of switching function. </s>
+<s> Trying to do it with software external to the chipset would be quite the challenge. </s>
+<s> The last time I was digging at that level you had to actually reinitialize the radio to change it from AP mode to client mode. </s>
+<s> I have seen some newer devices that claim easy changing of these mode but I would suspect they don't mean changing back and forth trying to emulate both devices at the same time. </s>
+<s> I came across a situation like that and their IT staffer lost their job over it. </s>
+<s> They had spent months trying to solve it and the owner came to me out of desperation since the trade show was looming and they had to have it working. </s>
+<s> The IT staffer was put to other work and we jerry-rigged a solution using multiple APs and routers. </s>
+<s> Their IT staffer exploded and quit the next day and the show went off without a hitch. </s>
+<s> Be sure you are not restricting your options here as they were. </s>
+<s> They were trying to do this with a single box. </s>
+<s> Bob </s>

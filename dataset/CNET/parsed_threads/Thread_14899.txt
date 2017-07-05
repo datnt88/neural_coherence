@@ -1,0 +1,36 @@
+<s> AV8 Deluxe mobo 120gb SATA HD CD/DVD floppy I am building a new system (my first). </s>
+<s> I have assembled the system but have not attempted the install. </s>
+<s> Question: How do I install the HD and win2000 OS without the CD or the floppy? </s>
+<s> Remember this is a new system. </s>
+<s> HELP!! </s>
+<s> ! </s>
+<s> or the floppy??? </s>
+<s> Is there a floppy drive and a CD-drive installed in the system??? </s>
+<s> If so, be sure that the boot sequence in the BIOS is A then C or CD-ROM. </s>
+<s> Then get a Win98 boot floppy disk and with the boot floppy in the drive, power up. </s>
+<s> When you get asked if you want to boot with CD-ROM support, simply elect yes and wait until you get to the A prompt. </s>
+<s> Then, from the A prompt type D: and hit enter. </s>
+<s> It is possible that the floppy would have but a ROM file on as the D drive and the CD drive will be E. At the CD drive prompt, probably type setup, but I've never used Win 2K so not totally sure. </s>
+<s> Remember the boot floppy has DOS files on it and they execute from the floppy. </s>
+<s> They don't need another operating sytem. </s>
+<s> [DOS is one]. </s>
+<s> The system is completely new. </s>
+<s> The cd and floppy are not yet work. </s>
+<s> I have not installed any software because I am unsure how to since the HD is new the floppu and cd are new. </s>
+<s> How do I get to the bios when a system is new? </s>
+<s> C </s>
+<s> the cdrom drive and the floppy disk to the motherboard and power cables as well as the harddrive to the SATA controller. </s>
+<s> Then you have to enter your bios as you boot up (press the DEL key to get in there), and make sure you have the SATA enabled. </s>
+<s> Make sure you change the boot sequence to be CDROM, SATA (or other), A Put your W2K cd into the drive just before you Save and Exit from the bios, and the computer will reboot by itself and start reading from the cd in the drive. </s>
+<s> Use the screens to FDISK and FORMAT the harddrive and install W2K Once you have W2K installed to the drive completely, you can go back into the bios as you boot up, change the boot sequence to be A, SATA (or other), CDROM Now when you Save and Exit, the computer will reboot again, and this time it will get to the desktop area where the New Hardware Found wizard will be trying to install your drivers for things. </s>
+<s> Let it install as much as it can on its own from its own database, such as PCI controllers, etc. </s>
+<s> so that it will install your cdrom drivers and most of your motherboard drivers. </s>
+<s> Cancel out of things such as printer, modem, audio, etc. </s>
+<s> because you can install those yourself later from your install disks. </s>
+<s> What you want to do first is to get the cdrom loaded so you can use the motherboard cd to install the drivers for everything on the motherboard before anything else gets installed so make sure you have it handy. </s>
+<s> TONI </s>
+<s> Go to this site and read, good info. </s>
+<s> John http://www.build-your-own-computer-tips.com/index.html </s>
+<s> Appreciate the help. </s>
+<s> I am just about ready to do the install. </s>
+<s> I have to buy the DDR 400 now and off I go. </s>

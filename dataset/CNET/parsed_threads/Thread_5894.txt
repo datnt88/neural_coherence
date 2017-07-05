@@ -1,0 +1,53 @@
+<s> Hi everyone! </s>
+<s> So, I pulled a LED out of an old case of mine just to realize it is a p led hook up. </s>
+<s> Normally, I would experiment a bit. </s>
+<s> However, as this is my only computer at the moment I don't really want to take the chances of messing too much up hardware wise. </s>
+<s> Question: Could I use a 3 pin connector to hook up a + and - p led? </s>
+<s> Or is there a more simple way? </s>
+<s> Any way at all? </s>
+<s> Splicing wires? </s>
+<s> (the p led slots on my mobo are already filled) I've tried google but nothing is really pinpointing what I need to know. </s>
+<s> I would love to find a site that explains the current from the psu a bit. </s>
+<s> At the moment I really have no clue what the red/black/and yellow wires of my 3-pins mean specifically but I would love to (I am just now starting to mess with wiring. </s>
+<s> I normally just strayed from that). </s>
+<s> Thanks in advance all! </s>
+<s> But if you mean &quot;power&quot; LED, I'd say there's not a problem if you get the polarity mixed up. </s>
+<s> You've got a 50-50 chance of getting it right. </s>
+<s> If plug these into a circuit designed for LED use, they are current limited. </s>
+<s> An LED, being a diode, will block current flow in one direction and conduct in the other after reaching some voltage threshold. </s>
+<s> But you'd really have to try hard to damage something. </s>
+<s> As far as color codes and voltages, you'll want the +5v to ground. </s>
+<s> This will be red to black. </s>
+<s> Yellow is 12v. </s>
+<s> It would be good if you had a DVM to verify these, however. </s>
+<s> If this doesn't help, maybe you can explain what you're trying to use this LED for. </s>
+<s> Thanks for the response! </s>
+<s> Well what I have now is a LED light with the connectors being 1 + pled and 1 - LED on a green and black wire respectively. </s>
+<s> My problem is that the motherboard power led slots are filled. </s>
+<s> I'm more or less just wondering if there is another way I could still hook them up. </s>
+<s> Possibly with a 3-pin connector? </s>
+<s> Were you saying I could hook the + power led up to the red wire of a 3 pin for +5v? </s>
+<s> I was wondering what the LED was intended to do. </s>
+<s> This is why I asked if it was a &quot;power&quot; LED or some other indicator. </s>
+<s> I know some folks just use them for lighting effects but you didn't mention that. </s>
+<s> I've not heard of MB &quot;power led slots&quot; but I know of fan ports which use 3 wires...the third being for auto speed control. </s>
+<s> I do know how to make LEDs light up and it only needs the two lead wires and a power source and current limiter. </s>
+<s> The current limiter is just a resistor in series with the LED. </s>
+<s> You can either use an LED resistor calculator or trial and error. </s>
+<s> Of course an LED is polarized so only works when properly biased. </s>
+<s> You need to figure out which is + and - but you can also do that by just applying a very small voltage from some standard 1.5 v battery to see what orientation works. </s>
+<s> Awesome, I'll play around with that. </s>
+<s> Sorry I misunderstood you. </s>
+<s> I'm trying to use it as just a case light till I can get my other one in. </s>
+<s> I like to repeat Steven's ?, what is that LED suppose to do? </s>
+<s> I assume you have all connections already present that may go to some LED now, so any actual spare LED connection is not present, unless its not used or no place to be used. </s>
+<s> You can use a 9V battery to test the leads of a LED provided a connection can be made. </s>
+<s> I would assume you plan to use some wiring from the mtrbd. </s>
+<s> to attach an LED or make wiring to attach LED. </s>
+<s> This in turn suggests what that connection is suppose to do. </s>
+<s> Your mtrbd. </s>
+<s> manual should explain any connection provided what they do. </s>
+<s> If provided it may dwell into actual pin-to-pin what each does or its value. </s>
+<s> If unknown but does explain its an audio type connection, like SPIF, then look-up(google) SPIF for its standard configuration, same for USB, etc. </s>
+<s> Please further explain your quest as to what the final need for the LED usage. </s>
+<s> tada -----Willy </s>

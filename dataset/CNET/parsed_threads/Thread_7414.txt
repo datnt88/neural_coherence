@@ -1,0 +1,82 @@
+<s> I set up a network, with Windows XP, 2000 Prof., and 98SE, using a Linksys router and a Netgear hub. </s>
+<s> I have an Adelphia cable modem. </s>
+<s> I am able to access the internet with all three pc's now. </s>
+<s> BUT, I am unable to receive email using Outlook express or Outlook, I always used both O. </s>
+<s> Express and Outlook before, but now I can only send using them. </s>
+<s> I am still able to receive emails if I go to Adelphia's website, and I put my emails forwarded to my gmail account, and I can receive my email thru gmail as well as my gmail, I just cannot receive thru OE or Outlook. </s>
+<s> I get a failed error mess. </s>
+<s> {Protocol POP3, Port-995, Secure (SSL) no, Socket error 10060, error #0X800CCCOE} message. </s>
+<s> No setting with OE or Outlook were changed. </s>
+<s> Gmail was forwarded to OE, and will not receive there either. </s>
+<s> Neither Linsys cust. </s>
+<s> serv. </s>
+<s> nor Netgear were able to help, and Adelphia won't. </s>
+<s> Some email issues were noted with off the shelf routers and the firmware that was in them. </s>
+<s> Hint: linksys.com has the update. </s>
+<s> Bob </s>
+<s> didn't do any good. </s>
+<s> Thanks tho. </s>
+<s> There are many discussions about this on google, but 1492 seems to be needed for this to work. </s>
+<s> -&gt; Please supply what you've tried so that I'll know to not duplicate your efforts. </s>
+<s> If you firewalled it off, installed an email virus scanner or more, this has not been shared so I have not mentioned any solution that involved those products. </s>
+<s> Bob </s>
+<s> Lynksys tech's had me set it to that, then reduce it in increments of 20. </s>
+<s> If I remember right, I also increased it. </s>
+<s> I still had no luck. </s>
+<s> This was several weeks ago, then I got busy again with work, and had no time to work on it, just worked around the issue, thus I found out that I could forward to my gmail account and receive my Adelphia account emails there. </s>
+<s> I really like using Outlook and O Express tho, and would like to go back to using them, not to mention it makes me crazy trying to figure this out. </s>
+<s> I have AVG installed on all three pc's, and use Sygate for my firewalls. </s>
+<s> I have tried shutting everything off even, but didn't make a differance. </s>
+<s> I'll keep asking for the revision number you're at if you don't mind since it matters. </s>
+<s> -&gt; What revision firmware is in the router? </s>
+<s> Review http://www.tiscali.co.uk/help/email/oe_errors_0x800ccc0e.html on how to telnet to your email server to see if that works. </s>
+<s> Bob </s>
+<s> Hi Bob, Went to Linksys tech site. </s>
+<s> Decided to update firmware again (just in case I didn't last time, tho I thought I did.) </s>
+<s> The Lynksys tech's had me doing a lot of differant things. </s>
+<s> I downloaded the firmware file (1.46.2) , but when I try to upgrade, it begins to load, then stops, and tells me {upgrade action is not finished. </s>
+<s> Upgrade file pattern error}. </s>
+<s> It then gives me the option to browse for the d/l firmware file again. </s>
+<s> Could this be because I already upgraded the firware a few weeks ago? </s>
+<s> Also, went to the link you provided regarding the OE error. </s>
+<s> After typing in the telnet pop.tiscali.co.uk 110 and clicking enter, it says connecting to telnet pop.tiscali.co.uk 110, and then it says {Couldn't open connection to the host or port, 23: Connect Failed. </s>
+<s> Using my xp pc, I tried resetting the TCP/IP stack, but that didn't do anything either. </s>
+<s> Thanks for any help you have given so far, or that you may still give. </s>
+<s> Diane </s>
+<s> http://www.yccc.org/Resources/DXCluster/images/telnet3.gif shows how to run telnet and get that port number but 23 is incorrect and that effort needs a retry. </s>
+<s> As it stands I'm not convinced it's your machine at issue. </s>
+<s> My question is what firmware is in your BEFRS11. </s>
+<s> Which I may have missed your answer. </s>
+<s> Can you tell me again? </s>
+<s> -&gt; As to resetting the TCPIP stack, that's not a feature of XP. </s>
+<s> However WINSOCKXPFIX does help recover from some malware. </s>
+<s> But given I haven't seen the last 2 items completed, it's a hit or miss whether that would help. </s>
+<s> Cheers, Bob </s>
+<s> I'm sorry Bob, guess I keep misunderstanding your questions. </s>
+<s> How would I go about finding out what firmware is in my BEFSR11 now? </s>
+<s> As I said, I tried to upgrade to 1.46.2 since I was unsure if I had already done that when Linsys's tech's were trying to help me. </s>
+<s> I don't know what firmware is there currently, nor do I know how to go about finding out. </s>
+<s> Diane </s>
+<s> From linksys... &quot;Linksys- A division of Cisco Systems, Inc. Firmware Date : Aug 3, 2004 Current Firmware : Version 1.46.2 Product PartNo : BEFSR41 ver. </s>
+<s> 1 & ver. </s>
+<s> 2.x/BEFSR11/BEFSRU31 Ver #. </s>
+<s> Date Description -------------------------------------------------------------------------------- 1.46.2 Aug 3, 2004 </s>
+<s> So, that is why I ws unable to update, I already had. </s>
+<s> Now what next? </s>
+<s> Diane </s>
+<s> It's what I have to do next to see if the mail server is up. </s>
+<s> Bob </s>
+<s> When I type in the password, I get ERR no domain specified or invalid domain specified. </s>
+<s> Does this mean that possibly my password has become corrupt? </s>
+<s> humm??? </s>
+<s> ?lol </s>
+<s> But I have to work now and then and I just saw your post. </s>
+<s> Cheers on getting to the password but since you didn't get past that, I'm of the mind the issue is not with OL/OE quite yet. </s>
+<s> Have your ISP reset your password for that account. </s>
+<s> Bob </s>
+<s> What!, they don't pay you for all your hard work and advice here? </s>
+<s> lol. </s>
+<s> Just kidding with you. </s>
+<s> I will have my ISP reset my password, tho it probably won't be till this weekend or so. </s>
+<s> I too have to work and make money, to buy Gas for my auto, or course. </s>
+<s> Diane </s>

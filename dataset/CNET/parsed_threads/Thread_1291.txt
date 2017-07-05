@@ -1,0 +1,42 @@
+<s> I'm doing a community service project at a local nature center, and it involves installing network storage into their computer network. </s>
+<s> I'm not sure of the details yet, but they have told me that they have an &quot;old&quot; desktop computer that I could use to convert to a network storage device. </s>
+<s> Their computer network consists of around 4 or 5 computers, and is a peer-to-peer network. </s>
+<s> If I had to guess I would say the desktop I would be converting is running Win 98 or ME. </s>
+<s> Does anyone know a way to convert a desktop into a network storage device? </s>
+<s> I would greatly appreciate any help. </s>
+<s> P.S.- I'll have more details on this soon. </s>
+<s> set the PC on the LAN with file and print sharing enabled. </s>
+<s> Share a folder. </s>
+<s> Not the fastest way, but with old hardware, the most cost effective. </s>
+<s> Alright, I'll try that. </s>
+<s> Can you do that with Win 98 and ME, or does the computer have to be running XP? </s>
+<s> NIL </s>
+<s> The smaller the OS is, the more HD space you have for data. </s>
+<s> If security is not an issue, Win98 will be better than WinXP since the OS is smaller. </s>
+<s> WinME crashes all the time so I dont recommend it. </s>
+<s> Hi, sorry for the long delay, I had to get my project approved first. </s>
+<s> I finally got the specifications of the network situation and computers at the center. </s>
+<s> The network is composed of one DSL connection (1 Mb/Sec Bandwidth) connected to one router with five host computers (directly connected). </s>
+<s> The router has WLAN capabilities. </s>
+<s> The center's director had no idea what kind of cables or router he was using, evidently he had contracted a computer company to install it. </s>
+<s> I'm guessing they're your standard Cat5e cables. </s>
+<s> The host computers are relatively outdated- they're P III 500 MHz machines with 256 MB's of RAM and 6 GB Hard disks running Windows 98 SE. </s>
+<s> The system I will be converting into a server also has these specifications. </s>
+<s> Obviously, I will need to upgrade the hard drive. </s>
+<s> I'm thinking two 80 GB Hard Disks ( http://www.newegg.com/Product/Product.asp?Item=N82E16822135106? ) </s>
+<s> should probably do the trick. </s>
+<s> Is 7200 RPM good for access speed? </s>
+<s> The data will be lots of small files (power point presentations, documents, membership access information). </s>
+<s> If I am to use the limited RAID on one hard drive and a backup on the other hard drive, will I need to buy a specialized hardware controller? </s>
+<s> Should any other components of the server computer be upgraded too (Ram, OS)? </s>
+<s> I'm trying to compile a list of all needed equipment and its costs so I can see how much fund raising I'll need for the project. </s>
+<s> Also, would it be possible to password-proect the folders on the server? </s>
+<s> Thanks for your help. </s>
+<s> -Isaac </s>
+<s> Most NAS will be connected with 100 megabit ethernet. </s>
+<s> When a new to server design talks about RAID for file servers it's time to do a little review of transfer speeds involved. </s>
+<s> We know that most people will connect with 100 megabit ethernet. </s>
+<s> So will your slowest IDE hard disks that you can buy keep up? </s>
+<s> -&gt; An ATA100 IDE drive can burst some 100 megabytes per second so the bottleneck is surely not on the hard disk since it's burst speed is some 8 times that of your connection speed. </s>
+<s> Think over your basics before complicating your server. </s>
+<s> Bob </s>

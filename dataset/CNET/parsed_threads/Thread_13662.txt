@@ -1,0 +1,51 @@
+<s> Hi I have a toshiba tablet laptop and lost my software modem (agere). </s>
+<s> It intially had com3 but wasn't working working after loading (I think) bluetooth stacking software so I thought I would just uninstall and delete the modem for it to auto find itself again. </s>
+<s> No such luck. </s>
+<s> I downloaded the modem software with drivers from toshiba-used their delete program and reinstalled. </s>
+<s> Still no modem. </s>
+<s> I tried to add 56k standard modem but there were no com ports in the dialog box. </s>
+<s> I have a usb printer on com4 that works fine. </s>
+<s> Any help is greatly appreciated. </s>
+<s> Alan </s>
+<s> I am using XP. </s>
+<s> alan </s>
+<s> What shows on Com 3 now? </s>
+<s> Another option if Windows won't auto-detect and you have the correct driver is to use the &quot;have disk&quot; option to add new hardware. </s>
+<s> Thanks for responding. </s>
+<s> This is a laptop and I believe the modem is a software modem (agere) and is part of the motherboard. </s>
+<s> I would say it is a hardware problems except it was there saying it wasn't attached to a com port. </s>
+<s> I deleted it thinking it would refind itself but it didn't. </s>
+<s> Now it doesn't show anything when I look in the control panel-phone and modems. </s>
+<s> I reloaded the driver for the modem. </s>
+<s> I tried to add a com port and it picked com3 which leads me to think it was also removed. </s>
+<s> I got a yellow exclamation even though I changed the resources to reflect no conflicts. </s>
+<s> Any help is appreciated. </s>
+<s> Alan </s>
+<s> Put the driver files in a folder of your choice. </s>
+<s> Call it &quot;modem&quot; if you wish. </s>
+<s> Go to add/remove hardware but don't let windows search for new devices but use the &quot;have disk&quot; option. </s>
+<s> Point to the driver in the folder you used. </s>
+<s> It should display the modem. </s>
+<s> Sometimes driver utils cover several models so you need to have an idea of what it is. </s>
+<s> Select the right model. </s>
+<s> Windows will alert you if it doesn't match any of your hardware. </s>
+<s> If it's a match, install it and see what happens. </s>
+<s> I have the driver in a folder. </s>
+<s> Wen I use have disk it shows an inf file but doesn't show any modems. </s>
+<s> I think the problem may lay with having no com port. </s>
+<s> When I add a port com3 comes up, which means maybe it wasn't there. </s>
+<s> Unfortunately, I get a yellow exclamation even after I remove all conflicts. </s>
+<s> Any help is appreciated. </s>
+<s> Disable an unused com port in the BIOS if possible. </s>
+<s> If your modem is actually still there and functional, you might be able to put it on that port. </s>
+<s> You did mention something in your first post about a Bluetooth device installation. </s>
+<s> Did that coincide with this problem? </s>
+<s> If so, backtracking to a point before that might offer clues. </s>
+<s> I deleted the driver in the system32/driver and it reloaded on com11. </s>
+<s> However, I now get a message saying the port modem attached to couldn't be opened. </s>
+<s> Any thoughts. </s>
+<s> alan </s>
+<s> Sounds like a virtual port. </s>
+<s> In my other post I suggested you try backing out of the bluetooth software you seemed to suggest was related to the modem going missing. </s>
+<s> If it worked before the new software but not afterwards, it would make sense to verify the suspicion by removing that software and seeing what would happen. </s>
+<s> In fact, remove it and see if you don't have a restore point available that's prior to that time. </s>

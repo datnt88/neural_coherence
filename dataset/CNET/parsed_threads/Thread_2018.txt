@@ -1,0 +1,50 @@
+<s> Hello, I am trying to print a document using a Zebra LP 2844 printer that happens to be two pages in length. </s>
+<s> I was able to get the first page to print without issue, but then after the first page prints, the printer feeds a length of paper and then the status light turns solid red. </s>
+<s> If I ever turn off the printer and then turn it back on from that state, it'll go through the same reprint process. </s>
+<s> To further test this oddity, I went into Microsoft Word and created a two page document (via a page break). </s>
+<s> Each page had one small sentence each. </s>
+<s> With that test, I got the same printing issue. </s>
+<s> Is it possible that the Zebra LP2844 printer is just incapable of printing out multiple page documents? </s>
+<s> Has anyone else encountered this issue? </s>
+<s> (I also sent out an email to Zebra support to see if I can get an answer there.) </s>
+<s> I see in Google that the Zebra LP 2844 printer prints labels from paper rolls. </s>
+<s> Is that right? </s>
+<s> There's a manual here; http://www.zebra.com/id/zebra/na/en/index/resource_library/manuals.results.html And in case you need drivers, there are drivers available here; http://www.zebra.com/id/zebra/na/en/index/products/printers/desktop/lp2844.html But if it only prints labels off rolls, then personally I wouldn't see this as a normal sheet paper printer. </s>
+<s> Mark </s>
+<s> It would appear that a main function of this printer is to print labels, although currently it has a large roll of regular thermal paper on it. </s>
+<s> I guess the printer just throws an error when presented with a &quot;next page&quot; command. </s>
+<s> I wonder if Zebra has a non-ruggedized version of a thermal printer that would print multiple pages? </s>
+<s> Thermal printer... What are Thermal printers used for? </s>
+<s> shows me that this type of printer is not one that I would use for printing documents onto normal paper. </s>
+<s> My own printer uses ink cartdridges and is a an InkJet printer with a single sheet feeder. </s>
+<s> I would also consider a Laser Printer, but I don't know if laser printers can print in color or just black and white. </s>
+<s> If you have no option but to use this printer for printing documents, then try a workaround. </s>
+<s> Don't use Page Breaks, but instead set the printer layout as &quot;Continuous Paper&quot; if that option is available in the Printer Setup option in your word processor. </s>
+<s> Then, if you need individual pages, create your own page break after a set number of lines for each page by typing in either a continuous line or some other marker at the virtual page break position. </s>
+<s> Then when printed, cut the pages to size. </s>
+<s> I hope that helps. </s>
+<s> Mark </s>
+<s> Let me suggest a work around. </s>
+<s> First print the first page. </s>
+<s> Then when you've got that in your hand, print the second page. </s>
+<s> In fact, since you already have the first page, only print the second page. </s>
+<s> It's a little bit of a nuisance, so I would consider buying another printer (with the obvious advantage that normal paper is cheaper than thermal paper and has a better print quality) if you have to print such a document often. </s>
+<s> Kees </s>
+<s> It appears you have a &quot;label printer&quot; which in turn is best used as that way. </s>
+<s> Just as important is the required s/w to best use this printer. </s>
+<s> Plus, how was this installed? </s>
+<s> I ask, because if you didn't use any install s/w or point to the model# as that installed, it may default to a generic one, which is quite different from what is expected for the LP-2844. </s>
+<s> Otherwise, if you plan to use Word, then your page length and width must be that of a label, unless I miss something here. </s>
+<s> -OR- point to the output as Avery label/media. </s>
+<s> Please supply full details in order to reply an answer. </s>
+<s> tada -----Willy </s>
+<s> Thermal paper is a continuous roll with no breaks, etc.? </s>
+<s> if so, then this isn't label media which in turn supplies a sensor break showing or returns status showing what it is. </s>
+<s> If it doesn't sense a break, then it treats it as one label or form and defaults to 8.5x11in. </s>
+<s> or similar. </s>
+<s> The red light is an error condition and if it blinks may supply what error. </s>
+<s> tada -----Willy </s>
+<s> It took nearly a day and a half of tinkering with it, but I found a solution!!! </s>
+<s> I was tinkering around with the printer settings and I changed the media type from &quot;Label with marks&quot; to &quot;Continuous&quot; and IT WORKS!!!! </s>
+<s> It's printing out both pages without issue (and using the cutter too which is cool). </s>
+<s> NIL </s>

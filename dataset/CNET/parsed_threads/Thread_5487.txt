@@ -1,0 +1,38 @@
+<s> Hi I have a Dell server configured as follows. </s>
+<s> On my Perc 6i controller I have 2 virtual disks made up of 6 physical disks (4 on connector 0 and 2 on connector 1). </s>
+<s> Disk 0 and Disk 1 both 136.12gb making up virtual disk 0. </s>
+<s> Virtual disk 0 is RAID 1. </s>
+<s> This is my OS system drive in windows. </s>
+<s> Disk 2 3 4 and 5 all 278.88gb making up virtual disk 1. </s>
+<s> Virtual disk 1 is RAID 5. </s>
+<s> This is my data drive in windows. </s>
+<s> These are my issues. </s>
+<s> I have no hot spare. </s>
+<s> The virtual disk 1, my data drive (RAID 5) is 836.61gb and has just 40gb of data rattling around in it. </s>
+<s> I have no spares to slot in should disaster happen. </s>
+<s> Now I personally think the RAID 5 is overkill for my data drive because its backed up daily and I have weekly acronis images of it. </s>
+<s> My main concern is my system drive (I have an acronis image of this too) because as I dont have any spares I dont have anything to restore my image to if both disks fell over. </s>
+<s> I also do not have any means of testing the image works. </s>
+<s> I'm worried that if both disks corrupted I'll have to sit and rebuild the server from scratch. </s>
+<s> Now this is the important bit. </s>
+<s> My options. </s>
+<s> The system drive will remain as it is. </s>
+<s> All the following relates to my Data drive where all the company files sit. </s>
+<s> What I want to do is remove the RAID 5 and simply have normal standalone disks NON RAID or RAID 1. </s>
+<s> This would mean I would have 4 disks to distribute as follows. </s>
+<s> Without RAID configured on the Data drive = 1 hot spare, 1 data drive, 2 spares for emergencies. </s>
+<s> With RAID 1 Configured on the Data Drive = 2 disks for the RAID, one global hot spare and one spare for emergencies. </s>
+<s> - does that sound feasible? </s>
+<s> - if I go with the NON RAID option do I need to change the disks over to the SCSI connection or do they stay under the Perc connector? </s>
+<s> - do I need to format all disks after i've removed the RAID 5? </s>
+<s> - How do I go about removing the RAID 5 and reconfiguring the system back to working order i.e. </s>
+<s> I boot up and peopel work as they do now accessing a D:\Data drive for their files? </s>
+<s> Any advice much appreciated. </s>
+<s> I need to get rid of the RAID 5 asap so I can get the disks configured the new way and set up the hot spare/spare emergency disks. </s>
+<s> Thanks Dan </s>
+<s> If you get the SERVICE TAG off the machine you can go to dell.com and put that in and see if the manuals for your machine cover this. </s>
+<s> What you propose should be in the manuals. </s>
+<s> That is, it was the last time I read them for another Dell server. </s>
+<s> In short, we pulled out the raid 5 set noting where they all were and the RAID BIOS settings. </s>
+<s> We slipped in the new drive and used the manual on how to configure the RAID BIOS for just a data set. </s>
+<s> Bob </s>

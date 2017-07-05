@@ -1,0 +1,98 @@
+<s> What is the difference between pci and agp is one significantly better than the other? </s>
+<s> Would the same video card perform better on pci or agp? </s>
+<s> PCI is old, agp is newer. </s>
+<s> I forget, but i remember pci is serial or something, i can't remember, too technical. </s>
+<s> SOmething to do with bandwidth, but pci has a lot less. </s>
+<s> AGP is different than PCI. </s>
+<s> PCI-express is even better than either. </s>
+<s> ROger </s>
+<s> AGP is way better than PCI. </s>
+<s> AGP = 2.2 Gigabytes per second. </s>
+<s> PCI = 133 megabytes per second. </s>
+<s> PCI runs at 33MHZ and AGP runs at 66MHZ. </s>
+<s> As for the interface, they are both parallel. </s>
+<s> That means data can be sent only one way at a time. </s>
+<s> PCI-X fixes this by implanting lanes and a 4 Gigabyte per second transfer. </s>
+<s> to the CPU while the PCI bus is shared with all of the PCI slots. </s>
+<s> As said, the next generation is the PCI Express slot [16X], but you must have a mobo with such a slot. </s>
+<s> The best right now is PCI-E. ATI's Radeon x800xl has 256MB uses 16 pipe lines @ 4GB/sec compared to AGP @ 2.1 GB/sec. </s>
+<s> It requires a motherboard that accepts PCI Express (like ASUS A8NSLI Deluxe). </s>
+<s> Otherwise use AGP. </s>
+<s> WHAT ARE YOU ALL TALKING ABOUT?! </s>
+<s> A) yes AGP is better than PCI AGP 1x is the same bandwidth as PCI for the most part PCI shares bandwidth over the entire bus, if you have 5 slots with 5 devices their sharing bandwidth B) AGP is direct, as was said, and operates at 2.1-2.2GB/s, it's half duplex (parallel is capable of full duplex/bi-directional, so shove that information back to wherever you got it) half-duplex means that it cannot send and recieve at the same time C) PCIE x16 has 16 lanes of full duplex, the x## means how many lanes that PCIE slot has, x4 = 4 lanes D) the Radeon X800XL information is A) un called for and B) amazingly stupid and horribly presented.... </s>
+<s> The ATi Radeon X800XL operates on a 16x1 pipeline architecture, meaning the GPU has 16 pixel processing units and 1 texturing unit per pixel processing unit (&quot;pixel pipe&quot;) It is avliable both in AGP 8x and PCIE x16 interface NOTHING IN THE THE GAMING WORLD CAN TAKE ADVANTAGE OF PCIE x16!!! </s>
+<s> Doom 3 scratches the surface of AGP 8x and pushes it almost to it's limit, which is why on a PCIE system Doom 3 (and only Doom 3 at this point in time) scores around 3% faster Also, 16x1 configurations are nothing special, all of the following GPU's feature 16x1 configurations: nVidia: GeForce 6800GT GeForce 6800 Ultra ATi: Radeon X800XL Radeon X800XT Radeon X800XT PE Radeon X850XT Radeon X850XT PE the 6800, X800Pro, and X850Pro are all 12x1 configurations GeForce 7800GTX is a 24x1 configuration and speculation surrounds it's potential of being truly a 32x1 configuration with an in-built defect to compensate for manfacturing yield issues that would be associated with the production of a 32x1 rendering solution on the 110nm process in addition to that the entire Radeon X line up is a waste of money at this point in time because it only supports 24-bit FP precision and SM2.0+ which means upcoming games are going to either not run, not run at full settings, or have major issues while this doesn't seem like a bad thing to not run at full settings, do you really want to pay $250+ for a GPU that will not run everything you want? </s>
+<s> I know I sure don't, that's wasting $250 nVidia's current product line in the form of GeForce 6 and GeForce 7 is MUCH BETTER offereing FP32 and SM3.0 or better (GeForce 7 performance wise is not a huge leap from GeForce 6, BUT it offers loads of features, some of which we can't use until Longhorn is releasd (correction, Vista)) so after that lengthy explination, to answer the original question A video card would perform significantly better in AGP There is nothing I can think of that would make traditional PCI better for any application and currently the only things that make PCIE better are A) professional application (and none of the GPU's discussed here are capable of said application) and B) future proof-ability B is a big enough reason on it's own to get PCIE and 6800GT's are dropping in price like rocks currently at around $315 (which is not a bad price) in addition, PCIE for video cards uses 16 lanes, just to clarify and just in general disregard asus_mb's post, it confuses me how he even would be lead to post that, but it will confuse lots of people that read it as well, asus_mb i'm not trying to attack you, i'm just trying to keep the confusion level down </s>
+<s> the X800XL is avliable with either 256MB of 512MB of GDDR3 and it's onboard bandwidth is over 30GB/s (That's bandwidth between the GPU and VRAM) the interface between the card and the system is used to recieve data to process and to offload data when VRAM is full (which is why all high end cards have 256MB+ of VRAM, to handle A) the high res images that their GPU's are dealing with (1600x1200 in 3D takes up a lot of space) and B) to help prevent offloading to the system RAM) even with PCIE x16 using system RAM is amazingly slow when your going from DDR in a 32 or 64-bit interface (64-bit is dual channel DDR) clocked at say 400MHZ that's 6.4GB/s of bandwidth that's dual channel PC 3200 while the card is using a 256-bit interface clocked 1100MHZ (that's a 6800 Ultra's RAM, and it's 8 channels wide in total) here is a more technical look at the X800XL for those interested: http://www.beyond3d.com/misc/chipcomp/?view=chipdetails&id=76&orderby=release_date&order=Order&cname= and here is an NV40 for comparison: http://www.beyond3d.com/misc/chipcomp/?view=chipdetails&id=62&orderby=release_date&order=Order&cname= and here is G70: http://www.beyond3d.com/misc/chipcomp/?view=chipdetails&id=106&orderby=release_date&order=Order&cname= </s>
+<s> ''...i'm not trying to attack you, i'm just trying to keep the confusion level down'' The guy just asked a simple question about PCI & AGP. </s>
+<s> Your reply may ring a bell possibly directed to high end competition gamers, but is gobble-de-goop IMO for ordinary people who do regular gaming. </s>
+<s> Down to the wire, there is nothing wrong with x800XL for ordinary gamers, except for maybe an extremely high tech competition gamer. </s>
+<s> There is nothing wrong with AGP or PCI-e for ordinary gamers. </s>
+<s> The plain PCI video card for PCI bus can only go as high as the Nvidia 5700LE. </s>
+<s> PCI is the only available route for someone who's motherboard does not have an AGP or PCI-e slot. </s>
+<s> ''i'm not trying to attack you, i'm just trying to keep the confusion level down'' JR </s>
+<s> i'm not even talking about competition gaming you obviously don't understand the content of that post basically what i'm saying is that if you wish to be replacing your graphics card in the next 6 months because it cannot play upcoming games, buy a Radeon X most serious gamers do not use the best hardware, as they play with reduced settings to get the game to run as fast as possible, it's not about IQ to them, it's about the game itself in addition i'm talking about futureproof ability, not gaming speed ALSO as I don't know GWD means, I will have to refer to www.urbandictionary.com it gives me the following http://www.urbandictionary.com/define.php?term=GWD John, neither of those definitions seems appropriate to me and i'll take my quote back thankyou, as I really am not trying to attack you, just trying to (still) keep the confusion level down </s>
+<s> I'm not up to speed on urban dictionary slang and surely didn't mean it as defined therein...news to me. </s>
+<s> I meant to say GAWD which in my definition... a substitute for 'GOD' in an attempt to not use the lord's name in vain. </s>
+<s> Something like some people saying 'Got Dammit'. </s>
+<s> My understanding is quite well. </s>
+<s> i'm not even talking about competition gaming you obviously don't understand the content of that post basically what i'm saying is that if you wish to be replacing your graphics card in the next 6 months because it cannot play upcoming games, buy a Radeon X most serious gamers do not use the best hardware, as they play with reduced settings to get the game to run as fast as possible, it's not about IQ to them, it's about the game itself in addition i'm talking about futureproof ability, not gaming speed ALSO as I don't know GWD means, I will have to refer to www.urbandictionary.com it gives me the following http://www.urbandictionary.com/define.php?term=GWD John, neither of those definitions seems appropriate to me and i'll take my quote back thankyou, as I really am not trying to attack you, just trying to (still) keep the confusion level down </s>
+<s> so, a 4x agp card is better than a pci(not pcie) card? </s>
+<s> im askin cuz i have 2 computers one with only pci slots and the other with a 4x AGP slot. </s>
+<s> I'm not up to speed on urban dictionary slang and surely didn't mean it as defined therein...news to me. </s>
+<s> I meant to say GAWD which in my definition... a substitute for 'GOD' in an attempt to not use the lord's name in vain. </s>
+<s> Something like some people saying 'Got Dammit'. </s>
+<s> My understanding is quite well. </s>
+<s> Guess I should have said something in my other post. </s>
+<s> Yes, a 4x AGP card is better than a PCI card. </s>
+<s> AGP 4x Raw bus speed = 266 MHz (1066 MB/s) Bandwidth dedicated to individual AGP slot PCI Raw bus speed = 33 MHz (133 MB/s) Bandwidth = Shared by all PCI devices, may starve them PCI 2.2 = 133mb/sec AGP 1.0 = 266mb/sec AGP 2x = 533 mb/sec AGP 4x = 1.06gb/sec AGP 8x = 2.1 gb/sec I have a 4x AGP video card running in one of my computers where the mobo is 1x, so the card is running at 1x without any problems. </s>
+<s> Some old tests: http://pcbuyersguide.com/hardware/graphics/benchmarks/ </s>
+<s> the CPU in the AGP system is better and it's using better RAM than the other system, yes, it would be superior however your non-AGP system maybe has overall more power and just lacks in the graphics segment, but you didn't provide any specs so i'm not really sure which is better in your instance but AGP 4x is much faster than PCI </s>
+<s> yes, my non agp is very much more powerful than 4x agp. </s>
+<s> thnx everyone for their help </s>
+<s> If you have a computer without an AGP slot, a PCI slot video card is probably going to be a lot better than your onboad graphics. </s>
+<s> You at the least will not be sharing system memory to run your graphics and can get directX 9 if your onboard doesn't support it, 2 very good reasons to use a video card. </s>
+<s> If you have a phone modem, a sound card and or an ethernet card(s)in your other PCI slots you'll be sharing the limited bandwidth with them. </s>
+<s> So if any of these other cards can be taken out, if, say your on-board sound is OK for your listening needs, and or your phone modem or ethernet card can be removed and on board used instead (if your motherboard has what you need) then you will have even more bandwidth for your video and it will be better. </s>
+<s> As was suggested, the NVIDIA 5700LE is about the &quot;best&quot; PCI card available...try to find one with 256 MB. </s>
+<s> of ram if you can,but 128 MB cards are easier to find and I think in Radeon the 9250 is about as high as you can go with PCI still have Direct X 9 with it, (several other cards have it also, check their specifications, but you're better off with a card that supports it)Also be careful, some of these cards don't list being compatible with Win98 or WinME if you have it running on those computers. </s>
+<s> The 4X AGP slot in your other computer can be used to run some of the later cards out as long as they are able to be &quot;backward&quot; compatible from 8X to 4X....I think most are. </s>
+<s> Just be aware some of the higher end cards require a separate power connection to the AGP card so make sure you have one and your power supply is capable of running it...I'm not sure, but I don't think you'll gain much going with a higher end card that requires a power connection though on a 4X AGP slot, I could be wrong, but it being only 4X might be a bottle neck. </s>
+<s> You'll probably need external power for anything higher than the NVIDIA 5700 series and Radeon 9600 series, and higher may be &quot;overkill&quot; for a AGP 4X slot. </s>
+<s> I hope my information is for the most part correct and helps you! </s>
+<s> It can be a little complicated and confusing, but I think you can upgrade all of your machines if you do some checking....that egg place..LOL can't advetise has probably the best deals, tiger has some good deals too, and I'm sure some other sites do also. </s>
+<s> Good luck and I hope this helps you. </s>
+<s> To make it simple... it is a lot better to use an AGP graphic card then it is to use a PCI graphic card. </s>
+<s> The AGP connection operates faster because it is the only thing uisng that power unlike the PCI sharing all of its power. </s>
+<s> Unless you are considering building a new computer do not concern yourself with PCI Express or (PCI-E). </s>
+<s> I would recommend the NVidia 5700 LE AGP as high an upgrade for your AGP connection. </s>
+<s> Some people have forgotten the KISS, (keep it simple stupid) rule. </s>
+<s> I like My 2 cents reply because it is simple. </s>
+<s> if you want to go into the bandwidth question 4x AGP is perfectly fine it will only be a slight bottleneck in Doom 3, in everything else it's easily sufficient for any game you could run and the external power connector is found on some 5700's (just as a note) the external power connector is a &quot;port&quot; on the back of the grpahics card, simmilar to that on a hard drive, and it connects the card to the PSU to get it the extra power it needs most cards only require 1, but there are a few that require 2 (XGI's Volari Duo V8 Ultra, nVidia's 6800 Ultra) personally i'd suggest a GeForce 6600 for the AGP 4x system http://www.newegg.com/Product/Product.asp?Item=N82E16814121197 not only does that card support DirectX 9, it also supports SM3.0 (which Radeon 9 and Radeon X series cards do not) and it sports FP32 (Radeon 9 and Radeon X only have FP24) not the fastest card on the block but it should handle any game this is on sale for a little while http://www.newegg.com/Product/Product.asp?Item=N82E16814122212 it should work fine in your system, assuming it has a power supply able to handle it it says AGP 8x, while all of the cards based on the same processor say they are AGP 4x/8x cross compatable given that it could be a Leadtek unique thing i'd suggest not buying that 6800LE unless your ok with the possibility of returning it and i'll look into that card a little more </s>
+<s> after looking at Leadtek's website they list all 6800 series cards as strictly AGP 8x If it were me personally, i'd try it, but I'm guesing you want it in the KISS (keep it stupid simple) format so i'd say get the 6600 </s>
+<s> PCI has a significantly lower bandwidth, so you might encouter some framerate problems. </s>
+<s> I brought a 9200SE for my sis' desktop since the Intel &quot;Extreme&quot; Graphics was failing. </s>
+<s> It's a PCI card and not an AGP. </s>
+<s> I started to notice some bandwidth issues when testing it out. </s>
+<s> In Aquamark the frames would be good and then stop for a second and continue on. </s>
+<s> Lack of bandwidth causes that. </s>
+<s> In 3D Mark 2001SE, it gets only a score of 3200. </s>
+<s> Even when it's overclocked 50%. </s>
+<s> I'd like to say thanks for both the KISS answers and the technical answers. </s>
+<s> I find both usefull. </s>
+<s> And I'd be loosing something if either wasn't here. </s>
+<s> And IDing any bottle neck proccess is very key. </s>
+<s> Thanks again </s>
+<s> It looks like you know a bit about AGP , so could you please tell me why everytime I set my 9800pro to AGPX4 in catalyst settings it resets to Off after rebooting I have a P4PE asus m/board , Pentium 4 2.66gig.I have the latest bios and drivers and the bios setting is AGPX4. </s>
+<s> but it will not accept the setting . </s>
+<s> I would be very gratefull if you could help me . </s>
+<s> Thanks </s>
+<s> hey i didnt know beter but i started out with a agp 4x (msi radeon 9250 128mb) card it always crashed when i tried to play battle field 2 so i went and got a radeon x1300 pci 256 mb card and it lagged so badon my games i didnt know what to do. </s>
+<s> but now i know thanx for the posting cause i had no idea i just made a big mistake my new comp supports a pci xpress card and i bought the pci so i stuck it in my 4yo sons comp and it runs like a charm thanx again </s>
+<s> Simplest way is to first install a PCI card. </s>
+<s> Then run your favourite programs. </s>
+<s> Time them and check for smoothness. </s>
+<s> Then remove the PCI and try an AGP. </s>
+<s> Then run your favourite programs. </s>
+<s> Time them and check for smoothness. </s>
+<s> You will soon find which card is best for you. </s>

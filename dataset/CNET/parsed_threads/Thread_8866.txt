@@ -1,0 +1,55 @@
+<s> Hi all, I googled &quot;Networking forums&quot; and this is what I found. </s>
+<s> I hope you can help me. </s>
+<s> I'm trying to set up a small office with 7 workstations and a media server which is a desktop PC with a few JBOD arrays. </s>
+<s> I purchased a GS108 8-port gigabit switch and the equivalent 5 port gigabit switch. </s>
+<s> I plugged in 4 of the workstations to test it out to the 8-port and all 4 came up with the wonderful &quot;Limited or no connectivity&quot; error. </s>
+<s> They are also not automatically assigned IPs. </s>
+<s> I assigned them static IPs of 10.0.0.2-5 to test. </s>
+<s> I can not ping half of the computers, nor can I access shared files. </s>
+<s> I can ping the other half and access their shared dirs. </s>
+<s> So far it is just the 4 computers on a network without access to the internet, but eventually I am going to plug in the modem as well. </s>
+<s> I can ping computer A from computer B, but not vice versa and same goes for file access. </s>
+<s> Windows firewall is up on all computers as a &quot;group policy&quot; and I don't know how to change that. </s>
+<s> My question is how do I make this all work. </s>
+<s> It is an unmanaged switch, so how do I get all the computers to recognize all the other computers? </s>
+<s> 3 of the computers are desktops running XP sp3 and the 4th is a laptop also with xp sp3. </s>
+<s> There are also 2 vista machines that will soon be connected and a couple other xp sp3 desktops. </s>
+<s> Thanks everyone! </s>
+<s> Make sure the local area network is an exception on all PCs. </s>
+<s> Third party firewalls, if you have them, need a similar visit. </s>
+<s> Of course you have all of these assigned the same workgroup name and a unique computer name. </s>
+<s> You said XP so I will assume XP pro. </s>
+<s> Do you know if you have simple file sharing enabled on some and not others. </s>
+<s> They should be the same. </s>
+<s> I prefer to have it disabled as it gives greater control over permissions. </s>
+<s> Set up permissions by individual user or select &quot;everyone&quot; if all will have access. </s>
+<s> Make sure that all PCs set up with accounts having the same usernames and passwords. </s>
+<s> Make sure, as well, the built in administrator account also has a password. </s>
+<s> I don't think this will solve you ping issue, however. </s>
+<s> That's more likely firewall, hardware or setting issue. </s>
+<s> The ping attempt should return a reply. </s>
+<s> Sometimes the message gives clues as to the problem . </s>
+<s> I don't see a Server in the group. </s>
+<s> Time and time again you find people try to use XP or a desktop OS as a server. </s>
+<s> Read http://forums.cnet.com/5208-6126_102-0.html?threadID=355103&tag=forums06;forum-threads as an example. </s>
+<s> About those IP problems. </s>
+<s> Again &quot;Where's the server?&quot; comes up as what is managing the IP assignments? </s>
+<s> I read where you hard assigned the numbers but without a DNS and matched DHCP server most of these setups will be tedious and failure prone. </s>
+<s> Bob </s>
+<s> You said you're just trying to connect the PCs together to get them networked first and then will add a modem. </s>
+<s> Presuming the modem is for internet access, you're going to also need a router. </s>
+<s> The router can assign the IP addresses you missed the first time around but you'll need to change your IP addressing from static to DHCP and DNS to automatic assignment too. </s>
+<s> I think the media server, which is not connected to my mini-network yet, is running Windows Server 2003. </s>
+<s> Once I connect that machine will that help solve my problems? </s>
+<s> I absolutely do not understand networking. </s>
+<s> I can do most other forms of PC repair and the like, but networking and network admin stuff boggles me. </s>
+<s> Is there a good beginner's tutorial? </s>
+<s> Get your server in the mix fast and also if there is to be internet access that router with it's DHCP, DNS could have solved the IP morass. </s>
+<s> Nothing is horribly wrong yet, just not a complete system. </s>
+<s> Don't give up. </s>
+<s> You're close. </s>
+<s> Bob </s>
+<s> I got the problem all sorted. </s>
+<s> Soon as I plugged in my modem which has a router function built in it solved all my problems. </s>
+<s> We knew you were close. </s>
+<s> Just missing a vital part of the system. </s>

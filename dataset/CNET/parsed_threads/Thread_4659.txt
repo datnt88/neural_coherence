@@ -1,0 +1,26 @@
+<s> Need some help please. </s>
+<s> O/S is XP-SP-2 fully patched. </s>
+<s> Printer is HP Deskjet660C, with parallel port. </s>
+<s> Printer was OK until 2 days ago and then stopped printing altogether. </s>
+<s> I get 'print error'. </s>
+<s> Properties for printer show it connected to LPT-1. </s>
+<s> Device Manager shows COM Ports 1& 2 but no LTP Port. </s>
+<s> Tried to add a port in Control Panel and got LTP-3 with yellow exclamation mark. </s>
+<s> Went to driver update and message was 'driver is current'. </s>
+<s> Went to safe mode and looked at it and found yellow mark gone. </s>
+<s> Deleted it anyway. </s>
+<s> What do I need to do to get LTP Ports back into Device Manager? </s>
+<s> Any help is appreciated. </s>
+<s> Thank You. </s>
+<s> Most mtrbds. </s>
+<s> have LPT and COM ports build-in. </s>
+<s> Under the bios area, upon boot-up get into the area. </s>
+<s> Once there check to see if the LPT port is enabled or active and what the IRQ is, usually IRQ7. </s>
+<s> If it is enabled and still no action at the LPT port, then more than likely the LPT port has bit the dust, kaput. </s>
+<s> To continue using the LPT driven printer, go back into the bios and disable the LPT port. </s>
+<s> Get your hands on LPT based I/O card, either solo or dual, it may have extra COM port(s) too, just be sure to have only the LPT1 active following whatever instructions they give, install it and follow prompts. </s>
+<s> You can later swap printer cable to new LPT port. </s>
+<s> Remove or disable any old LPT ports you had before doing the new LPT card install. </s>
+<s> tada -----Willy </s>
+<s> works good now, thank you. </s>
+<s> David </s>

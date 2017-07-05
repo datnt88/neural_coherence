@@ -1,0 +1,74 @@
+<s> First off,specs: Athlon XP 2400+ Epox 8k5A2+ GeForce Nvidia 7600GS AGP PowerMagic 350w PS Sony Dru-84A DVD-Burner CD-4x4x32 CD-Burner At the moment, I'm back to XP Pro SP3. </s>
+<s> I ran for about 2yrs on XP with 1GB of PC2100 DDR DIMMS configured so:1x512MB/PC2100_2x256MB/PC2100 and XP was happy. </s>
+<s> I installed Vista Ultimate and it grunted a bit so I ordered a 1GB PC2100 chip online. </s>
+<s> It arrived and I installed it. </s>
+<s> Configuration is now this:1GB 1st bank-512MB 2nd bank-256Mb 3rd bank. </s>
+<s> Now to the techy stuff. </s>
+<s> During the day, my machine would die. </s>
+<s> No warning, no shutting down, dead. </s>
+<s> Sometimes it would boot right back up, sometimes not. </s>
+<s> When it wouldn't, the post codes would not read either. </s>
+<s> My best guess was (with my limited knowlege) was it had to be memory related. </s>
+<s> I pulled both the 256MB chip and the 512MB chip then booted to a disk with Windows Memtest v3.3. </s>
+<s> All tests passed. </s>
+<s> (I think this problem was just poor contact with one or more of the chips.) </s>
+<s> Fired Vista up, and ran Everest Ultimate. </s>
+<s> Surprise!! </s>
+<s> Field Value Memory Module Properties Serial Number None Module Size 1 GB (2 ranks, 4 banks) Module Type Unbuffered Memory Type DDR SDRAM Memory Speed PC3200 (200 MHz) Module Width 64 bit Module Voltage SSTL 2.5 Error Detection Method None Refresh Rate Reduced (7.8 us), Self-Refresh Memory Timings @ 200 MHz 3.0-3-3-8 (CL-RCD-RP-RAS) / 11-14-2 (RC-RFC-RRD) @ 166 MHz 2.5-3-3-7 (CL-RCD-RP-RAS) / 10-12-2 (RC-RFC-RRD) @ 133 MHz 2.0-2-2-6 (CL-RCD-RP-RAS) / 8-10-2 (RC-RFC-RRD) Memory Module Features Early RAS# Precharge Not Supported Auto-Precharge Not Supported Precharge All Not Supported Write1/Read Burst Not Supported Buffered Address/Control Inputs Not Supported Registered Address/Control Inputs Not Supported On-Card PLL (Clock) Not Supported Buffered DQMB Inputs Not Supported Registered DQMB Inputs Not Supported Differential Clock Input Supported Redundant Row Address Not Supported It's 1GB PC3200! </s>
+<s> The Epox mobo will only support up to PC2700. </s>
+<s> XP PRO SP3 is running fat an sassy on this 1GB PC3200. </s>
+<s> How? </s>
+<s> Was the combination of PC3200 and PC2100 the problem? </s>
+<s> Is leaving this PC3200 chip in going to be a problem? </s>
+<s> To find Vista doing that. </s>
+<s> Let's call it not ready for primetime on homebuilt machines. </s>
+<s> For instance it can be picky about the BIOS and all the drivers. </s>
+<s> Is it worth the time? </s>
+<s> This is not about Vista. </s>
+<s> This is a hardware forum and my questions are about memory chips. </s>
+<s> And you wrote about Vista Ultimate. </s>
+<s> If the issue is not about Vista, then that is lost in your posting. </s>
+<s> However there is an damming issue with those boards and when you fill all the slots. </s>
+<s> The memory timing must be relaxed (slowed) for it to work. </s>
+<s> The owners are miffed about that and there is nothing you can do for them since it's a design flaw. </s>
+<s> They usually take a few weeks to look into it and they discover the truth. </s>
+<s> Keep those old boards with just 2 sticks to steer around the issue. </s>
+<s> Bob </s>
+<s> You truly need to check the specs/details of your mtrbd.. Just what it does support. </s>
+<s> If you find no mention of PC3200, then it doesn't support it(fully). </s>
+<s> If you ordered PC2100 and got a PC3200 which can be used in SOME systems, only because they are better capable. </s>
+<s> You have a Epox mtrbd. </s>
+<s> which is more of a beginning/entry type system. </s>
+<s> Its chipset and others become limited in supporting &quot;fully populated&quot; ram slots as a timing issue arises. </s>
+<s> Not only that, but you have 3-different ram sizes and RAS/CAS reports, this isn't ideal. </s>
+<s> Your results are to be expected or arise sooner or later. </s>
+<s> Basically, nothing you can do, other than get another new module like you've received, remove the others(256&512mbs) and/or order 2-1gb of PC2700(return the PC3200). </s>
+<s> Use only 2 ram slots to help resolve this issue as well. </s>
+<s> Some have regressed the ram timing, etc. </s>
+<s> to get it to work, but that basically forces it to be slower and what's the point of having fast ram. </s>
+<s> tada -----Willy </s>
+<s> Yes and no...... Vista is creating some strange hardware issues. </s>
+<s> As with win9x dissimilar memory would pass diagnostic tests in DOS but fail in Windows using NSW memory test utility(Norton System Works. </s>
+<s> Your original memory configuration proves this to be true using a single stick of RAM. </s>
+<s> Or with dissimilar memory the system would not boot due to the MB support. </s>
+<s> Couple of other items I have seen: Client added 4 gigs of RAM to his system, Vista 32 bit, for a total of 6 gigs of RAM. </s>
+<s> Task Manager reported 2 gigs (no switch on Boot.Ini)of Physical RAM, 4 gigs of virtual memory. </s>
+<s> Upgraded laptops to 1 gig of memory pulled from the shelfs at (you know who). </s>
+<s> These systems run doggy and strange, re-order/install the correct RAM no issues. </s>
+<s> In closing Vista is going to force us to re-evaluate what we know of Hardware/OS relationships. </s>
+<s> To answer your first question No Vista will run w/1 gig of RAM. </s>
+<s> 2 would be better. </s>
+<s> Luck Bill </s>
+<s> As I bought the board new a few years back. </s>
+<s> I have the manuals and stuff so specs are avialable and state that this board with Via chipset KT333 supports PC1600/PC2100/PC2700 DDR.Right now it is running fat and sassy with 1GB of PC3200. </s>
+<s> How is that happening and will it cause any harm in the long run? </s>
+<s> If not, I'll buy another stick of PC3200. </s>
+<s> If you research this you find you are not alone in finding that all slots full fails. </s>
+<s> Feel free to pester the board's maker. </s>
+<s> Here I just move to 2 sticks... </s>
+<s> You open yourself to a possible glitch as it wasn't intended to support PC3200 ram. </s>
+<s> However, keeping it to 2 slots of ram and equivalent types will help keep the problems at bay. </s>
+<s> There's no guarantee on this as your manual already states it doesn't support PC3200. </s>
+<s> If possible and available, see if the bios has an update that may address this issue, but be sure what that updates does, as you may not need it or benefit from it. </s>
+<s> PC3200 is nothing more than faster ram and keeps the same voltage requirements, so its up to you. </s>
+<s> tada -----Willy </s>

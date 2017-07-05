@@ -1,0 +1,29 @@
+<s> I have a Wide Open West internet connection. </s>
+<s> The modem I have is a TM402G/110 The Linksys router I'm using is a BEFSR41. </s>
+<s> I'm trying to connect two computers to the internet via my router... One computer is using Windows XP Pro, the other computer is using Windows Vista. </s>
+<s> Here are some screenshots of my router config page when I access it. </s>
+<s> Its not obtaining an IP address for either PC. </s>
+<s> http://www.uploadgeek.com/uploads456/0/one.JPG http://www.uploadgeek.com/uploads456/0/two.JPG http://www.uploadgeek.com/uploads456/0/three.JPG http://www.uploadgeek.com/uploads456/0/four.JPG When I use the release/renew buttons it appears to go through some process but I'm still not getting an IP on either computer. </s>
+<s> The &quot;Link&quot; light on the modem which is normally lit up when I'm connected to the internet is not lit up at all. </s>
+<s> Ive tried unplugging everything and resetting the modem multiple times as well as releasing and renewing the ips on both computers via the router admin page as well as using ipconfig /release and ipconfig /renew in the cmd prompt in windows. </s>
+<s> My router has a battery backup so I cannot turn it completely off, I can only reset it using the recessed reset button on the back of it. </s>
+<s> Its also got our phone connection plugged into it. </s>
+<s> Please help! </s>
+<s> NIL </s>
+<s> Will that work OK? </s>
+<s> As RP mentioned the cable might be the problem, so try it using that cable direct from modem to PC. </s>
+<s> If that doesn't work either RP is right about the cable and you can try another, or possible the broadband service isn't recognizing your modem, or the modem isn't working correctly. </s>
+<s> As always in such situations, power off everything for a couple minutes, then power back up. </s>
+<s> Many problems often resolve simply by doing a power cycle. </s>
+<s> If you can see the router program then you must have an internal IP number assigned. </s>
+<s> You can check that by looking in that Status section and clking on the Local Network and should be able to view a list of the DHCP clients, which would be your computers. </s>
+<s> What you lack is ISP contact by the router from the modem. </s>
+<s> Under the Setup page go to the MAC address clone and do it. </s>
+<s> Your problem may be as simple as being refused service due to an unregistered MAC being reported. </s>
+<s> Other suggestions; 1)cut number of addresses down to maybe one or two more than computers you expect to have connected by wire and wireless. </s>
+<s> If you run an open system you won't supply more than one or two neighbors with free internet service. </s>
+<s> 2)change the starting IP to something different than that default setting. </s>
+<s> Adds some in security if you are targeted by a hacker. </s>
+<s> 3)change your local IP address to something other than default and WRITE IT DOWN somewhere. </s>
+<s> 4)Turn off ability to control the router through wireless, allow only hardwire connection for router control. </s>
+<s> You gotta get that working right first. </s>

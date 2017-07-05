@@ -1,0 +1,31 @@
+<s> I have a simple problem with my network that's proving very difficult to solve. </s>
+<s> I want to add a 320 GB hard drive and a 500 GB hard drive to my network. </s>
+<s> They are both USB (normal enclosures, nothing fancy) and both work great when they are plugged directly into my PC. </s>
+<s> When they are shared on my network (hand holding the folder, folder showing up in My Network Places) and I try to access them, it gives me an error &quot;Not enough server storage to process this command&quot;. </s>
+<s> The two popular solutions to this problem are A) increase the IRP stack size by 3 and keep going until it works and B) decrease the Paged Poolsize to 0. </s>
+<s> On both my machines, the IRP stack size is maximum (50) and the Poolsize is 0. </s>
+<s> However, it is still not working for me, same error on both drives. </s>
+<s> My PC's are both running XP Home over a Linksys WRT54GL router. </s>
+<s> Every other shared folder works like great. </s>
+<s> I just cannot get these hard drives to share. </s>
+<s> I have never installed Norton (usually what causes the settings to be changed). </s>
+<s> I am running AVG Free on both computers for anti-virus and Zone Alarm for a firewall (both set to trusted zone on medium, which allows sharing.) </s>
+<s> The desktop which my hard drives are connected to is connected via Ethernet, and the laptop which I'm trying to access the drives is connected via wirless G. If you need any more info, I'll be happy to provide. </s>
+<s> Thank you for your time. </s>
+<s> 1. </s>
+<s> You have an account on the machine with the share that matches what you login as on the client machine? </s>
+<s> 2. </s>
+<s> Did you try it with the LAN added to the trusted zone? </s>
+<s> 3. </s>
+<s> Did you check to see if a firewall was in the router? </s>
+<s> Bob </s>
+<s> Both the machines have an account running on them that matches. </s>
+<s> All the other shared folders and files work great, just not the two hard drives. </s>
+<s> The LAN is in the trusted zone on both computers. </s>
+<s> The firewall is on, but wouldn't that stop the sharing of all files and folders? </s>
+<s> I will try sharing without the firewall on. </s>
+<s> http://www.uwe-sieber.de/usbdlm_e.html It resolved a few issues for people out there. </s>
+<s> If you installed the NETWARE protocol, I have other news. </s>
+<s> Bob </s>
+<s> I disabled my router firewall and I tried that program you suggested. </s>
+<s> The firewall wasn't blocking the sharing and the letter of the drives is not a huge issue (the drives are usually connected in the order they go so that Windows doesn't assign them the wrong drive name [I turn on E first, then F]. </s>

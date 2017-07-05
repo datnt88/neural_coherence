@@ -1,0 +1,31 @@
+<s> Hi, I have a Netgear Wireless Router MR814AU connected to a Westell DSL Router/Modem (Model C90-610015-06) provided to me by Verizon Online. </s>
+<s> I'm connecting these to my Windows XP SP2 computer. </s>
+<s> I am able to access the web from my local PC, and am also able to access the web from my Pocket PC via wireless connection using the Netgear router. </s>
+<s> The problem I'm having is that I am unable to access my personal computer via VPN over the web. </s>
+<s> I get to the point where it finds my computer and tries to validate the username/password, but no matter what I do I get the error ''The username and/or password is not valid on the domain''. </s>
+<s> I have never set up a domain, and checked, double-checked, triple-checked, and even reset my username and password on my PC, but can't get around this. </s>
+<s> Here's some info about my setup: WESTELL ROUTER SETUP IP = 192.168.1.1 The Westell is set up basically with the factory defaults. </s>
+<s> The only changes I made to connect to Verizon Online was I changed VCI 35 to ''PPPoE'' (was ''Bridge''). </s>
+<s> I also added PPTP as a service, pointing to my local PC (192.168.0.2). </s>
+<s> Once I had the Westell Router set up and running, I installed the Netgear Wireless Router. </s>
+<s> NETGEAR WIRELESS ROUTER IP = 192.168.0.1 I used the provided setup CD to add the Netgear router to the mix. </s>
+<s> The only changes I made to the setup are (1) I added wireless Security Encryption (WEP); (2) I added Port Forwarding for PPTP to my local PC (192.168.0.2); (3) I disabled the SPI Firewall. </s>
+<s> LOCAL PC SETUP (WINDOWS XP) I added an Incoming connection for VPN's. </s>
+<s> My computer is assigned to a workgroup, not a Domain. </s>
+<s> I am also using the No-IP web service to be able to VPN into my PC over the internet without having to worry about the dynamic IP of my PC. </s>
+<s> I was able to establish a successful VPN connection over the web prior to introducing the Netgear router. </s>
+<s> Any other info you might need, please let me know. </s>
+<s> I am completely stuck, and would really like to get this figured out. </s>
+<s> Thanks! </s>
+<s> Brian </s>
+<s> The problem obviously lies in the use of the second, Wireless router. </s>
+<s> Therefore why not install a Wi-Fi card in the desktop, bridge the Wi-Fi and Ethernet connections to do away with the second router. </s>
+<s> Then enable Internet Connection Sharing on the desktop and create a VPN. </s>
+<s> Darton, Thank you for the reply. </s>
+<s> I suppose as a last resort I may do that, but if there's any way to get it working with my current setup, I'd like to. </s>
+<s> I feel like I'm so darn close, like I'm missing just one little step. </s>
+<s> Brian </s>
+<s> Try turning off DHCP server in the netgear and let the Westell assign addresses to the computers for you. </s>
+<s> The wireless will still work, as long as it is enabled. </s>
+<s> It will just get it's IP from the Westell. </s>
+<s> As long as you have port fowarding, and PPTP configured correctly, this should work. </s>

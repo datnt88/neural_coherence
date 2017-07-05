@@ -1,0 +1,8 @@
+<s> Hello, Where exactly would you add a switch on my network? </s>
+<s> Dedicated firewall? </s>
+<s> http://i40.tinypic.com/vnh1uf.jpg I believe: cable modem -&gt; firewall -&gt; switch If my server is connected to the switch, it can still let me RDP to upstairs thin client from upstairs computer, right? </s>
+<s> of the Ethernet ports on the LAN side of your router. </s>
+<s> Connect the switch to an available port on the router. </s>
+<s> You router is already a firewall to the WAN side. </s>
+<s> If you wanted an additional one, you'd connect it from the router to the switch and all devices you wanted the additional firewall protection for would connect to the switch and not a router port. </s>
+<s> Anything that currently works on your LAN now won't be affected by adding a switch moving devices from the router ports to it. </s>

@@ -1,0 +1,84 @@
+<s> On booting up my computer today the internet refused to work, I tried all the normal procedures and on Repairing the connections it comes up with the error: Cannot Clear DNS Cache. </s>
+<s> I write to you from the gateway PC which works fine. </s>
+<s> Have tried all normal fixes such as re-establishing network, system restore. </s>
+<s> Help please! </s>
+<s> Both PC's are using Windows Xp and have worked fine (mostly) for almost 2 years </s>
+<s> Network hardware and model names (router, broadband modem)? </s>
+<s> Wired or wireless connections? </s>
+<s> 1. </s>
+<s> What do the blinking/solid lights on your router and/or modem tell you? </s>
+<s> Reboot modem, reboot router. </s>
+<s> 2. </s>
+<s> Is your router fimrmware up to date? </s>
+<s> Using latest driver for newtwork adapter? </s>
+<s> 3. </s>
+<s> Firewall, Antivurus, and Antispyware up to date and recent scans? </s>
+<s> 1: all lights are lit(which is normal) 2: Dont think firmware has ever been updated, but would that explain such a sudden and unexpected crash? </s>
+<s> 3: Yes on both comps </s>
+<s> Download latest router firmware from router mfg. </s>
+<s> and install it; you need to do this regardless of your problem. </s>
+<s> Try: ipconfig /flushdns </s>
+<s> Download latest router firmware from router mfg. </s>
+<s> and install it; you need to do this regardless of your problem. </s>
+<s> Try: ipconfig /flushdns </s>
+<s> thanks for your help so far. </s>
+<s> flushing DNS didnt work, forgive me for my ignorance but I can;t find firmware upgrades on the web, I am using a PCL NW100 Switch (made by PC Line) </s>
+<s> DNS flushes fine on the working PC, just says its worked etc. </s>
+<s> but on not working PC comes up with this error: could not flush DNS resolver cache: function failed during execution Don't know if that narrows it down or what </s>
+<s> OK, let's step back a little. </s>
+<s> You mentioned a ''switch.'' </s>
+<s> Normally a switch is placed between computers and a router. </s>
+<s> The switch connects computers together to make a network. </s>
+<s> A router connects your network to another network (the Internet). </s>
+<s> Did you fail to mention the model name of your router? </s>
+<s> Typical setup: Internet ---- broadband modem ---- router ---- switch(es) ---- computers For two computers, a switch usually is not necessary in that setup. </s>
+<s> What is your setup? </s>
+<s> What type of Internet service do you use (cable, DSL, satellite, other)? </s>
+<s> I'm trying to get at how your computers are supposed to find a DNS server. </s>
+<s> Is the DNS server supposed to be assigned automatically by your ISP, or do you enter this data into the TCP/IP properties of each computer? </s>
+<s> The router model is needed if you are to update its firmware and possibly fix this problem. </s>
+<s> ok yea I get you I was wokring undet the impression router was same as hub/switch (not too hot on networks). </s>
+<s> Got a cable modem from NTL. </s>
+<s> We have a set top TV cable box, which also contains a cable modem. </s>
+<s> the Ethernet cable goes from that box to the gateway PC, the gateway PC goes to the switch which the client PC also plugs in to. </s>
+<s> This may sound totally stupid, but I'm told by my Dad (who set up the network originally but is as clueless as I as to how to fix this) that we don't have a router and I have no memory of ever dealing with one. </s>
+<s> I'm not really sure, I understand so little about DNS but in everything I've looked at everything relating to DNS has checkboxes saying &quot;assign DNS automatically&quot; or something along those lines. </s>
+<s> I rang my cousin who took me through a lot of things, pinging various things (external, gateway etc.) </s>
+<s> and he thought it was a NAT error and since I'd run the network wizard and it hadn't made a difference installing a router was the only way to go. </s>
+<s> I was all ready to do that when taking a look at the list of services I noticed one called DNS Client was disabled. </s>
+<s> I enabled it, and the internet worked! </s>
+<s> Restarted computer, internet doesn't work. </s>
+<s> I checked to see if this service was still enabled, and it was, I checked other services but found nothing of consequence. </s>
+<s> Now when I attempt to repair network it runs through fine (used to stop saying it can't clear DNS cache) but the MSN Messenger Troubleshoot diagnostic still flags up a DNS error (and it's not a localised MSN Messenger problem becuase I can't get web pages either). </s>
+<s> I find it really odd that even after supposedly fixing the problem it doesn't work again on start up even though I had fixed (at least I though I had) what was wrong. </s>
+<s> any ideas? </s>
+<s> I was thinking that your gateway computer is from Gateway Computer Company. </s>
+<s> My mistake. </s>
+<s> So your internet gateway computer is essentially your router. </s>
+<s> So this is your setup? </s>
+<s> Internet ---- cable modem ---- COMP1 ---- switch ---- COMP2 (COMP1 is setup as a gateway) You said this worked previously; was that with the switch included in the setup? </s>
+<s> So COMP1 is running Windows Internet Connection Sharing (ICS) Correct? </s>
+<s> 1. </s>
+<s> You really dont need the switch if the above setup is correct. </s>
+<s> 2. </s>
+<s> If your cable modem has multiple ports in the back to connect computers, then it probably is a router, too. </s>
+<s> If that is the case, then both computers can connect directly to the cable modem-router. </s>
+<s> What are the IP addresses on COMP1 and COMP2? </s>
+<s> At each computer, click Start &gt; Run Type cmd (dont type the quotation marks) to open a command prompt window Type ipconfig /all (there is a space after ipconfig) Can you ping one computer from the other? </s>
+<s> Example: If COMP1 is 192.168.0.2 and COMP2 is 192.168.0.3 Then at the command prompt on COMP1, type ping 192.168.0.3'' Successful? </s>
+<s> Try ping-ing COMP1s IP Address from COMP2. </s>
+<s> Successful? </s>
+<s> Sounds like COMP2 is trying to get the DNS address from your gateway, COMP1. </s>
+<s> I'm still not sure that COMP2 is even making a good connection to COMP1. </s>
+<s> That is why I suggested the ping test. </s>
+<s> Any results? </s>
+<s> Your cousin is on the right track--the router allows you to do away with all this ICS junk. </s>
+<s> I prefer routered networks. </s>
+<s> yea I get reply's across the network when I ping comp1 from comp2 the switch has been there all the time while the network was working, no hardware changes have been made and no significant software changes that I know about. </s>
+<s> One interesting thing was Zone Alarm bringing up 2 prompts of new networks, both were accepeted (this was on the host PC about 8 or so hours before the client was turned on and didnt work) but I've tried turning zone alarm off to no avail &quot;Sounds like COMP2 is trying to get the DNS address from your gateway, COMP1.&quot; If I'm understanding that right I think we tried to resolve that by taking the public DNS server address from the host PC and inputting them in to the client (comp2) manually instead of the client automatically assigning DNS servers but it didn't work </s>
+<s> So what were the respective IP addresses of GATEWAY and CLIENT? </s>
+<s> client local address: 192.164.0.30 gateway local: 192.164.0.1 gateway public: 80.3.48.1 </s>
+<s> For anyone else who has this or similiar problems: First I installed a program called TreewalkDNS ( http://treewalkdns.com ) which replaces Windows XP DNS structure or something like that. </s>
+<s> I found it recommended in PC advisor for anyone with DNS problems or even anyone using a Windows XP network. </s>
+<s> Secondly, I disabled Zone Alarm on the host PC. </s>
+<s> (I had tried this previously without the tree walk program so I'm thinking its a combination of both) I don't really know what was wrong with Zone Alarm, I think something wrong with port forwarding but of course disabling it is only a temporary solution so I'm going to have to sort that now. </s>

@@ -1,0 +1,37 @@
+<s> System config: Chaintech CT-7NIL1 motherboard, AMD Athlon XP 2200+ 1.8GHz, originally had 128Mb PC2100/266 DDR SDRAM CL2.5, located in 3rd DDR slot, slots 1 and 2 empty. </s>
+<s> Purchased Kingston 512Mb (2x256) PC3200 2.6V pair. </s>
+<s> P/N KVR400X64C3AK2/512. </s>
+<s> Chaintech manual indicates the board will support speeds from PC2100 up to PC3200 DDR SDRAM, up to 3Gb, 1Gb per slot. </s>
+<s> Goal was to remove the PC2100 128Mb stick, and use this new pair. </s>
+<s> Manual also indicates that modules can be located in any of the three available slots, OK to mix densities and speeds within stated limits. </s>
+<s> Problem is - could not get the PC to boot up using the 2x256Mb pair alone. </s>
+<s> I have tried every combination possible with the three modules (using only new module pair, using only one new 256Mb module, using all three modules, using original 128Mb and one of the 256Mb modules, switched locations, etc) and can at best get the system booted recognizing 384Mb RAM: the 128 and one of the 256's. </s>
+<s> Other combinations, PC just won't boot (still OK with original 128Mb alone) Once I have PC running with the original 128 and one of the 256's, then I add the 2nd 256 module, and PC won't boot. </s>
+<s> Suggestions? </s>
+<s> How is the BIOS set for the memory timing? </s>
+<s> Is it &quot;by SPD&quot; [uses the data in the PROM on the memory stick to set timings]. </s>
+<s> Unfortunately I do not know how the system will handle different settings provided by the 3200 vs the 2100 stick. </s>
+<s> Remember that the the 128 is slower memory and if it is in the slot whose SPD is read it will set the lower clock speed for all slots. </s>
+<s> If the 3200 SPD is read then the system would set the memory speed too fast for the 128 MB stick. </s>
+<s> As I noted this is a wild arsed guess and doesn't explain the results of all the options that you tried. </s>
+<s> Try going into the BIOS and set don't use &quot;BY SPD&quot; and set the timings to the lowest speed possible and try one stck at a time. </s>
+<s> I have seen on some mobos, that when all slots are full the system drops the memory clock down to the next lower. </s>
+<s> BIOS options are &quot;Auto Detect DIMM/PCI Clk&quot; either enabled or disabled. </s>
+<s> Original setting was disabled; I had changed to enabled part way thru all the module swapping; it remains on &quot;enabled&quot; with my current config, 128Mb in slot 1, slot 2 open, 256 Mb in slot 3. </s>
+<s> Another interesting tidbit: With (1) 128Mb and (1) 256Mb module, ran www.crucial.com/systemscanner; it recognizes the 128 correctly as DDR PC2100, and the 256Mb correctly as DDR PC3200. </s>
+<s> I was then able to get the PC to boot up with both 256's installed, as well as the 128, although it still only recognized 384Mb total (didn't see the second 256, but was able to boot - this hasn't always been the case, go figure). </s>
+<s> Then, ran systemscanner again, now it reports both the 128 and the 256 as DDR PC3200 (didn't detect the other 256 module either). </s>
+<s> This was all done with the BIOS setting &quot;Auto Detect DIMM/PCI Clk&quot; enabled. </s>
+<s> One stick at a time in the same slot ... Something like Memtest86+, DocMem or even Microfsofts RAM Diag BTW...what the RAM voltage set to ? </s>
+<s> VAPCMD </s>
+<s> One stick at a time in the same slot ... Something like Memtest86+, DocMem or even Microfsofts RAM Diag BTW...what the RAM voltage set to ? </s>
+<s> VAPCMD </s>
+<s> Check with ChainTech's support website to see what if any bios updates are avaialble and what they do. </s>
+<s> Next, are those new ram modules double or single sided populated? </s>
+<s> Often times mixng high or low density ram causes problems(single or double-sided). </s>
+<s> regardless, of what they stated, it does make a difference when you mix it up too much or its just not compatible enough. </s>
+<s> Play with the ram setting in bios for the default or *safe* level for now. </s>
+<s> In some cases, you can tweek it abit to the next level of CAS and see if that works better, plus if voltage tweekable, up it a notch. </s>
+<s> Last, Chaintech, IMHO is not a good mtrbd. </s>
+<s> though it seems to give you past good service, its a cheapie. </s>
+<s> tada -----Willy </s>

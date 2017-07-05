@@ -1,0 +1,76 @@
+<s> So begins an unusual build. </s>
+<s> Put together a custom PC for a buddy of mine. </s>
+<s> During OS install got several errors regarding memory stops and could not read sections. </s>
+<s> After several reboots. </s>
+<s> Was able to install OS and use it normally. </s>
+<s> Next day, started it up cold and OS would not load, start-up recovery manager did. </s>
+<s> Ran Memtest86 found a stick was erroring out every single test. </s>
+<s> Took the stick out. </s>
+<s> System booted fine and OS ran smooth. </s>
+<s> Next day, cold started the machine, OS would not load. </s>
+<s> Ran Memtest86, found errors. </s>
+<s> Took stick out of slot A and put it into slot B, ran Memtest86 again, no errors. </s>
+<s> OS loads fine. </s>
+<s> Operates fine. </s>
+<s> Shut system down for an hour. </s>
+<s> Started it back up. </s>
+<s> Tested Ram again, found errors. </s>
+<s> Swapped the stick slot, booted fine. </s>
+<s> Ran a Burnin test on the RAM in OS and it found errors every time, but far less then Memtest86. </s>
+<s> -My guess. </s>
+<s> The motherboard is a Gigabyte GA-P55-USB3 r1.0 and the RAM is Corsair VS2 1333. </s>
+<s> The RAM is not on the approved list so I ordered RAM that was. </s>
+<s> Have not received it yet, but the results I have been getting would lead me to believe it could be the motherboard as well. </s>
+<s> I have already condemned the RAM and sending it back. </s>
+<s> However, I would be wasting RMA time if the mobo is bad. </s>
+<s> Nutshell question- What does it mean when the RAM tests bad after a cold boot, but after swapping slots, tests fine? </s>
+<s> Any help would be greatly appreciated. </s>
+<s> Did you check the BIOS Settings for timing, voltage, etc., ? </s>
+<s> Did you contact the RAM mfg ? </s>
+<s> VAPCMD </s>
+<s> The bios settings are set to default, except gigabyte by default enables RAM &quot;turbo&quot; mode. </s>
+<s> So I set it to off. </s>
+<s> So everything in Bios is set to defaults, no overclocking. </s>
+<s> I have read on several forums about cold boot issues with gigabyte boards and commonly Corsair RAM. </s>
+<s> Like I said before, I got &quot;approved&quot; RAM coming. </s>
+<s> Followup Question- If it were the motherboard, wouldn't it not work at all? </s>
+<s> Can it be intermittent? </s>
+<s> If it were mine I'd contact the MB mfg and the RAM mfg to get their recommendations. </s>
+<s> Perhaps increasing the RAM voltage might help. </s>
+<s> I'd might also try another RAM test just to be sure. </s>
+<s> Let us know how it turns out. </s>
+<s> VAPCMD </s>
+<s> The tests are still coming up bad after a cold boot. </s>
+<s> The OS is most likely not booting due to the Memory errors. </s>
+<s> After a DIMM swap the memory will pass a 15 minute test. </s>
+<s> I use Memtest86 to test my RAM and I trust it's results. </s>
+<s> However, if a RAM tests bad, it could still be the MB. </s>
+<s> I have contacted Gigabyte Last Thursday and they have not wrote back. </s>
+<s> (way to go 24 hour rule). </s>
+<s> Will let you know when the new (approved) RAM gets here. </s>
+<s> Here are some other tests....all I'll say is they're worth trying http://pcsupport.about.com/od/toolsofthetrade/tp/memorytest.htm VAPCMD </s>
+<s> I terminate the test after 15 minutes of no errors. </s>
+<s> I still have to configure this machine for a friend. </s>
+<s> I also used Burnin test in the OS to test RAM and CPU functions. </s>
+<s> The Burnin Test finds issues with the RAM in the OS within 15 minutes. </s>
+<s> The issue has now presumably become where the issue actually is. </s>
+<s> The RAM or the Mobo? </s>
+<s> We will find out soon enough, I have the New Ram coming and if that flunks, I will RMA the board. </s>
+<s> NIL </s>
+<s> Got the New RAM today. </s>
+<s> Threw it in before first boot. </s>
+<s> System came up and booted right into Memtest86. </s>
+<s> Tested for 1 hour and found no errors. </s>
+<s> Booted into OS right after, Ran BurnIn Tests on RAM, found no errors. </s>
+<s> With the other RAM I would get an error by now. </s>
+<s> So I am confident the RAM is good and not an issue. </s>
+<s> Like I said, this is preliminary testing, any errors popping up in the next 36 hours will prompt an RMA of the motherboard. </s>
+<s> I speculate the errors came from the other RAM, not that the RAM was bad, but it could have been a compatibility issue. </s>
+<s> Voltages are often brought up when researching this issue. </s>
+<s> It is just possible the Corsair was not getting what it was supposed to. </s>
+<s> However all tests at this time report 0 errors. </s>
+<s> brand/model did work? </s>
+<s> Posting that specific info might really help someone in future. </s>
+<s> To make sure....run the RAM test overnight....you want more than 1 hours worth of testing if possible and better now than later. </s>
+<s> VAPCMD </s>
+<s> NIL </s>

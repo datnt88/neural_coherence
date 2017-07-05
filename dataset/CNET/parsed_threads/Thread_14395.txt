@@ -1,0 +1,153 @@
+<s> Hi everyone. </s>
+<s> I wonder if I can get some expert advice here - keep in mind this is somewhat greek to me. </s>
+<s> I currently have a Belkin 4-port wireless G router hooked up to 4 computers (wired) and a 5th laptop wirelessly. </s>
+<s> I just got a Rosewill RNX-Easy N4 wireless N router which I am going to replace the Belkin with. </s>
+<s> Nothing wrong with the Belkin, except that it constantly loses the wireless signal and I have to keep unplugging it - really a pain. </s>
+<s> The current setup has a printer locally attached to each computer, and printer sharing across the network. </s>
+<s> The problem with this, of course, is that to use a particular printer, the computer it is attached to has to be on. </s>
+<s> I've got a Dell 3100n color laser now and I want to get rid of all these other printers (well, almost all of them - there are 2 I will keep). </s>
+<s> The 3100n is network capable, but not wireless capable. </s>
+<s> So I was wondering: 1. what's the &quot;ideal&quot; way to do this, and 2. can it be done somehow utilizing the Belkin so I don't have to buy anymore equipment? </s>
+<s> Thanks for the help. </s>
+<s> Keep wired what you can keep wired and... </s>
+<s> Please set up per this forum's top post or sticky. </s>
+<s> Bob </s>
+<s> Thanks Bob. </s>
+<s> I have setup the Belkin router, as well as updated the firmware - it's been running like this for a year....every day I have to unplug it at least once to get my wireless signal back. </s>
+<s> So, I won't use it anymore for the wireless networking; I'll replace it with the Rosewill. </s>
+<s> But I need to hardwire 4 of the 5 computers, and I want to put 3 printers on the network in such a way that I don't have to connect them directly to a computer, and have that computer &quot;on&quot; so that I can print from any other computer. </s>
+<s> I just thought that I might be able to do something with the Belkin router to accomplish this, instead of buying a print server? </s>
+<s> Every print server I've seen handles 1 printer - so I need one for each printer? </s>
+<s> Then I need an ethernet switch because all my ports on the wireless router are already used up by computers? </s>
+<s> Do you see how lost I am? </s>
+<s> LOL </s>
+<s> That the issue of daily boots has been cured too many times by using our forum sticky. </s>
+<s> About your want to network printers without a PC as the server. </s>
+<s> -&gt; Go get a printer server. </s>
+<s> Even a wifi one is fine. </s>
+<s> As to ports, POST 17 can save you bucks as you don't need to buy a switch. </s>
+<s> Bob PS. </s>
+<s> If you ask me what post 17 is, that means you have not read the forum sticky. </s>
+<s> that the USB ports are being turned off in the device manager to save power. </s>
+<s> Try this and see if it helps the problem. </s>
+<s> Go to device manager(right click my computer, left click properties, left click hardware, left click device manager) Go to the USB Controller section and click the + sign. </s>
+<s> Go to each USB Root Hub and right click on it, left click properties, left click power management. </s>
+<s> Uncheck the box, allow computer to turn off this device to save power. </s>
+<s> Restart your computer. </s>
+<s> Rick </s>
+<s> Thank you Bob. </s>
+<s> Yes, I have read all the stickys - especially post #2 (by Pudgy)? </s>
+<s> I have set up the router, established WPA-2 PSK, I have updated the firmware, I have been on the phone with Belkin tech support, etc, etc.... </s>
+<s> The wired computers have no problems with the internet connection - it's the wireless laptop signal I have the problem with. </s>
+<s> It will, I don't know, fade, or disappear, or I don't know how to explain it - I had to configure 3 different connections in the Vista laptop settings, so when the signal goofs up, I can connect using a second or third one - does that make sense? </s>
+<s> Probably not. </s>
+<s> Sometimes I get a good strong connection with my workgroup name showing. </s>
+<s> Other times, I can only get local + internet access, but no workgroup. </s>
+<s> (it says &quot;identifying......mynetwork&quot; forever, and will not give me a network map, as it doesn't recognize the network as private, even though it is.) </s>
+<s> It's terribly difficult for me to explain because I'm not sure how to explain this properly. </s>
+<s> I had a LinkSys wireless B router before this, and never experienced this problem - matter of fact, I've never seen this problem on any wireless network I've configured for anyone! </s>
+<s> But, back to the question at hand: You think it would be best if I go ahead and get a print server. </s>
+<s> Okay, any suggestions? </s>
+<s> Every one I saw on the web is a single connection (for one printer?) </s>
+<s> - does that mean I need 3 of them? </s>
+<s> I had a read of sticky 17 - good info and I will utilize it! </s>
+<s> Thank you Rick for your suggestion. </s>
+<s> But the wired computers do not exhibit a connection problem, only the wireless laptop. </s>
+<s> I wonder if removing the power control for the wireless adapter might resolve the issue - I'll have to try that. </s>
+<s> The wireless card also has one of those settings. </s>
+<s> Go to device manager(right click my computer, left click properties, left click hardware, left click device manager). </s>
+<s> Click on Network and then right click on your wireless adapter, left click properties, power management. </s>
+<s> Uncheck the box, allow computer to turn off this device to save power. </s>
+<s> Rick </s>
+<s> There's a reason. </s>
+<s> It's because some routers don't like that. </s>
+<s> Issues such as routers that run slowly or lockup are common. </s>
+<s> I had hoped that you would reveal your settings. </s>
+<s> Then I could comment directly about them. </s>
+<s> In one sentence try all defaults, broadcast SSID, WPA and latest firmware. </s>
+<s> -&gt; About the printer server. </s>
+<s> I picked up a 26 dollar printer server with 2 ports. </s>
+<s> It's this one. </s>
+<s> But I have yet to run 2 printers and will not vouch for it. </s>
+<s> But I do own 2 of them as I am running a NAS on one. </s>
+<s> Here's the link to it and if they are out of stock, look at other sites. </s>
+<s> http://www.geeks.com/details.asp?invtid=GMFPSU22W6&cat=PRN There must be similar units for similar prices. </s>
+<s> Bob </s>
+<s> You know, thinking back, I had this router with the current configuration, using a WinXP laptop with a Netgear card. </s>
+<s> I never, ever had a problem with the connection. </s>
+<s> It only happened when I upgraded to a new laptop with Vista Home Premium with an internal Realtek G network adapter. </s>
+<s> hmmm..... Well, thank you very much for the print server suggestion. </s>
+<s> I see it is OOS, so I'll have a look around and see if I can find it any place else. </s>
+<s> But, for the Dell 3100n laser, (which is network capable), can I just plug it into a router port (using sticky 17 setup)with an ethernet cable and assign it an IP address somehow? </s>
+<s> Then I would only need 1 print server, I think? </s>
+<s> Thanks! </s>
+<s> ...thank you! </s>
+<s> We cover that later but that entry needs a rewrite. </s>
+<s> Let me share DIRECTLY what we want to disable in Vista. </s>
+<s> Ready? </s>
+<s> Google this-&gt; DHCP BROADCAST FLAG Hint? </s>
+<s> (strong one) Disable that. </s>
+<s> Bob </s>
+<s> Oh Bob, I was just reading something about that last night and wondering if that would be something I should try!!! </s>
+<s> You ROCK! </s>
+<s> ;-D </s>
+<s> In the registry editor, I see 4 different {GUID}s? </s>
+<s> i.e. </s>
+<s> in locating: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{GUID} I find 4 different {GUID} lines - should I make the change to all 4? </s>
+<s> HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{0642EFCB-8E53-40C6-82BB-3788A1190ACD} HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{119F5D9F-849E-4F97-A960-89FF63AFD6EE} HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{1419D93C-0050-46A7-AB08-331ABAECF716} HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\{3a539854-6a70-11db-887c-806e6f6e6963} I'm guessing that 3 of them are probably the connections I set up trying to get this machine to connect to my network, and the 4th is probably my neighbor's, whom I assist with various computer issues on a regular basis and therefore connect to his network on occasion. </s>
+<s> So I should modify all 4 of them, correct? </s>
+<s> Wow, would it be nice to have a proper connection!!!!! </s>
+<s> LOL </s>
+<s> &quot;Wipe them all out.&quot; And thanks for doing research on your own. </s>
+<s> Some members expect nothing but full answers for each new discussion. </s>
+<s> We need to leverage our forum sticky because it would be far too tiring to copy, paste the usuals. </s>
+<s> If you fall back to the suggested settings, WPA for now and kick Vista in the teeth once (I can't imagine how MS didn't know what they were turning on would not have any bad effects in the real world) then you may discover you have a nice stable wifi network. </s>
+<s> Bob </s>
+<s> Bob, I always research things - People come to me for help with their systems & networks....I repair/refurb computers on the slide....I almost always find what I need by researching, and when I get stuck, I ask. </s>
+<s> I had even posted in the Vistaheads forum - NO ONE had a clue what my problem was! </s>
+<s> I should have come here a year ago!! </s>
+<s> wow, a stable wifi network....I don't know what to do with myself now! </s>
+<s> LOL I'll tell you, I have yet to be satisfied with Vista and all the annoying things MicroSoft have done with it. </s>
+<s> The only reason I have it on this laptop is so I could get intimately acquainted with it enough to be able to assist others. </s>
+<s> When Windows 7 comes out, if anyone needs help with it, they will probably have to start paying at the local computer shop, because I don't think I can put myself through any more torture! </s>
+<s> KUDOS for Bob. </s>
+<s> Man, you rock. </s>
+<s> I have stable wifi for the first time in a year! </s>
+<s> I owe you one! </s>
+<s> That forum sticky and what's there is HARD WON KNOWLEDGE. </s>
+<s> Thanks to a kind member for helping craft the posts there and a few others that I found useful. </s>
+<s> That content is hard to argue with but I find some that want to enable WPA2 plus MAC filters plus hiding SSID and what else then complain. </s>
+<s> These basic settings seem to pay off all over. </s>
+<s> Glad it helped you out. </s>
+<s> Bob </s>
+<s> In my house I have comcast internet with linksys modem, linksys wrt54g router with 4 pcs, 1 hardwired 3 wireless. </s>
+<s> Also Hardwired to the router is a linksys wap54g set as access pt. </s>
+<s> I have a garage with a Linksys WRE54 repeater and 2 pc's wireless . </s>
+<s> In the garage the pcs (one or the other,sometimes both) will associate with ap but not the internet.If I reboot modem,router,ap then they will connect..PIA to have to do that most of the time..What do I need to do to make the remote pcs more stable? </s>
+<s> I have gone over settings and all seems to be set up right.. All PC's are running xp.. TIA, Ted O. </s>
+<s> You see where we used the forum suggested settings. </s>
+<s> I think you dismissed this early on. </s>
+<s> Do you want to try them? </s>
+<s> Bob </s>
+<s> Yes,I want to see the settings,, sorry, I did not dismiss, I'm just not sure where to look . </s>
+<s> I read all the post in the second sticky, Thanks, Ted O. </s>
+<s> Let's use a new post or if you have an ongoing post, tell what settings you are using. </s>
+<s> I never duplicate the forum sticky content. </s>
+<s> It's a small rule to make sure people don't just write &quot;yes, I did that.&quot; See you in your own discussion. </s>
+<s> Bob </s>
+<s> IS this whats needed .. WAP54G (access pt.) </s>
+<s> -------------------------------------------------------------------------------- Automatic Configuration - DHCP Static IP -------------------------------------------------------------------------------- IP Address : 192. </s>
+<s> 168. </s>
+<s> 1. </s>
+<s> 101 Subnet Mask : 255. </s>
+<s> 255. </s>
+<s> 255. </s>
+<s> 0 Default Gateway : 192. </s>
+<s> 168. </s>
+<s> 1. </s>
+<s> 1 mode = mixed SSID Broadcast: enabled Security Mode: disabled mac filter = off WRT54G (Router) autoconfig = DHCP MTU = AUTO Local IP Address:192.168.1.1 Subnet Mask:255.255.255.0 DHCP Server: Enable DDNS Service: Disabled MAC ADDRESS CLONE User Defined Entry:00:50:DA:B7:DE:32 </s>
+<s> To save everyone a lot of lost time please move to how we ask such things to be setup in posts 2, 3 and 17 of this forums top sticky post. </s>
+<s> I see no reason for the settings you supplied to work well. </s>
+<s> Bob </s>
+<s> You have your own discussion. </s>
+<s> Please use that. </s>

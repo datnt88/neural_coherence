@@ -1,0 +1,30 @@
+<s> Ok, so I just finally finished building a server. </s>
+<s> Installed FreeNAS, and set up software RAID 5 on it. </s>
+<s> My PC is running Win7, and I can see the server, and transfer files. </s>
+<s> The only problem is that file transfer is painfully slow. </s>
+<s> I just transferred a 700MB file... </s>
+<s> It took almost exactly 11 minutes (roughly 1MB/s) Now, my setup is simple right now. </s>
+<s> I have the server with FreeNAS and my PC. </s>
+<s> Each of them are connected directly to my router (3800HGV-B Gateway from AT&T U-Verse). </s>
+<s> Both the PC and the server I built myself. </s>
+<s> Bot systems are using the motherboards internal NIC (both are 10/100/1000 cards). </s>
+<s> The mobo in my server lists its card as a Realtek 8111C card, and Windows recognizes my PCs card to be &quot;Realtek RTL8168C(P)/8111C(P)&quot;. </s>
+<s> So it looks like they are virtually both the same card (8111C), so I cant think of any reason why they wouldnt be able to communucate well!!! </s>
+<s> After a bit of research, it looks like the router has a limit of 100MB/sec, so that sucks... but it would still be 100 times faster than what I am getting right now! </s>
+<s> As far as troubleshooting, all I have tried so far is tweaking with auto-communication. </s>
+<s> I have tried both NICs being set to auto-communication, both NICs set to 1000mbps full duplex, and both NICs set to 100mbps full duplex. </s>
+<s> Regardless of the setup, slow transfer speeds persist with each configuration. </s>
+<s> What can I do??? </s>
+<s> Or, what am I doing wrong??? </s>
+<s> Is this a configuration issue? </s>
+<s> Or is it hardware? </s>
+<s> Maybe its the router? </s>
+<s> Should I disconnect my PC from the router, and attempt a direct connection with the server? </s>
+<s> Do I need to buy a network switch? </s>
+<s> I really have no idea what my next step needs to be...!!! </s>
+<s> ! </s>
+<s> So I finally realized that my transfer rate is around 1 megaBYTE/sec, but my actual transfer speed was about 8.5 megaBITS/sec. </s>
+<s> So using my router, I could only go about 10x faster. </s>
+<s> With a direct connection, I should be able to transfer more than 100x faster. </s>
+<s> So I am planning on trying a direct connection to the server, but I need to know how to connect my PC to both the router and the server with just one network card. </s>
+<s> I have been doing file transfers to the server using samba, and plan to try using FTP, after hearing that it is usually faster. </s>

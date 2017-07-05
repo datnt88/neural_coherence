@@ -1,0 +1,32 @@
+<s> I acquired an older Dell Optiplex GX520 desktop version computer and decided to ramp it up a bit. </s>
+<s> I put in a Samsung SSD and started to upgrade the RAM. </s>
+<s> I put 4gb (2gbx2) but the computer started to freeze on boot-up. </s>
+<s> I have Windows 7 Ultimate 64bit. </s>
+<s> If I take out one ram and put in a different one 1gb total of 3gb, it starts up no problem. </s>
+<s> I have just dealt with the 3gb. </s>
+<s> Now I wanted to upgrade the video card since the on-board graphics were crappy. </s>
+<s> I put in an HIX 5450 since it is the best PCI only card out there (this motherboard doesn't have a PCI express). </s>
+<s> Now I am encountering the same problem with this as the RAM upgrade where it freezes on the windows start-up screen. </s>
+<s> Any help would be great. </s>
+<s> Operating System Windows 7 Ultimate (x64) Service Pack 1 (build 7601) Install Language: English (United States) System Locale: English (United States) Installed: 5/31/2013 9:45:20 AM Processor a 3.40 gigahertz Intel Pentium 4 16 kilobyte primary memory cache 2048 kilobyte secondary memory cache 64-bit ready Hyper-threaded (2 total) Drives 119.93 Gigabytes Usable Hard Drive Capacity 74.57 Gigabytes Hard Drive Free Space ELBY CLONEDRIVE SCSI CdRom Device [Optical drive] HL-DT-ST DVD+-RW GWA4164B ATA Device [Optical drive] TSSTcorp CDRWDVD TS-H492C ATA Device [Optical drive] Samsung SSD 840 Series [Hard drive] (120.03 GB) -- drive 0, s/n S19HNEAD393987Z, rev DXT07B0Q, SMARTStatus: Healthy Marks a disabled account; Marks a locked account Controllers ATA Channel 0 [Controller] (2x) Intel(R) ICH7 Family Ultra ATA Storage Controllers - 27DF Intel(R) N10/ICH7 Family Serial ATA Storage Controller - 27C0 Bus Adapters Virtual CloneDrive Intel(R) N10/ICH7 Family USB Universal Host Controller - 27C8 Intel(R) N10/ICH7 Family USB Universal Host Controller - 27C9 Intel(R) N10/ICH7 Family USB Universal Host Controller - 27CA Intel(R) N10/ICH7 Family USB Universal Host Controller - 27CB Intel(R) N10/ICH7 Family USB2 Enhanced Host Controller - 27CC Virus Protection [Back to Top] Microsoft Security Essentials Version 4.2.0223.0 Scan Engine Version 1.1.9506.0 Virus Definitions Version 6/5/2013 Rev 1.151.1661.0 Last Disk Scan on Wednesday, June 05, 2013 1:56:00 AM Realtime File Scanning On Communications Broadcom NetXtreme 57xx Gigabit Controller Connection Speed: 1 Gbps Microsoft ISATAP Adapter Teredo Tunneling Pseudo-Interface Networking Dns Server: 192.168.1.254 System Model Dell Inc. OptiPlex GX520 System Service Tag: 5HYQH91 (support for this PC) Chassis Serial Number: 5HYQH91 Enclosure Type: Mini-Tower Main Circuit Board b Board: Dell Inc. 0WG233 Serial Number: ..CN137405CM021O. </s>
+<s> Bus Clock: 800 megahertz BIOS: Dell Inc. A06 02/20/2006 Memory Modules c,d 3064 Megabytes Usable Installed Memory Slot 'DIMM_1' has 1024 MB (serial number 75346711) Slot 'DIMM_3' has 2048 MB Local Drive Volumes c: (NTFS on drive 0) </s>
+<s> I find it reasonable before attempting anything with a Dell as in upgrades to be sure of the bios level. </s>
+<s> More often that not, there can be quite a difference. </s>
+<s> So, if you check and find A06 present and A11 available, do upgrade the bios and correctly follow instructions. </s>
+<s> Next, exactly what are your Dell specs for your model# plus its SN# or use the service tag# to truly ID the product. </s>
+<s> In other words don't settle for the Dell badge, know exactly what you have. </s>
+<s> Then review the specs of your model# found. </s>
+<s> The info can vary if an user simply accepts model# across the board does this and that and the model# can vary as model# -A is different from model# -D even though both are Dell model123. </s>
+<s> There can be a major difference, so be 100% sure. </s>
+<s> http://www.dell.com/support/Manuals/us/en/19/product/optiplex-gx520 http://www.dell.com/support/troubleshooting/us/en/19/Product/optiplex-gx520 I would for testing, disable or remove the virtual clonedrive. </s>
+<s> upgrade the bios, and verify your GX520 actually can use 2gb ram per slot. </s>
+<s> Also ram is best as in matched pairs. </s>
+<s> Yes, Win7x64 can use above 4gb and/or can the intel P4(single core) really keep-up, if i suspect all of what your doing is pushing the cpu to its limits. </s>
+<s> It maybe a &quot;bottleneck&quot; sort of problem. </s>
+<s> tada -----Willy </s>
+<s> I figured out the issue with the RAM and the new video card. </s>
+<s> I needed to update my BIOS to work with them. </s>
+<s> Once I upgraded to A11 it worked perfect!! </s>
+<s> I had a little interesting time flashing the BIOS since I had window 7 x64. </s>
+<s> But I had an extra HDD that had 32 bit windows xp, plugged it in, ran the flash and perfecto, it worked. </s>
+<s> Today is going to be a good day, I can feel it. </s>

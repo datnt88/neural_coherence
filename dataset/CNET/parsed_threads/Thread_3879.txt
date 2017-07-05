@@ -1,0 +1,22 @@
+<s> I'm thinking of getting a new computer. </s>
+<s> While back-up is important, I'm thinking that the best approach is to get a fast HD settup with backup to an external HD as this stuff is getting bigger and cheaper everyday. </s>
+<s> I suspect we'll be able to get USB flash storage in the 20-30 GB size very cheap over the next year or two - so why buy and loadup my new desktop with expensive HD's. </s>
+<s> Anyway, I'm thinking of the 160 GB - 10K rpm in a RAID 0 settup (for a total of 320 GB storage). </s>
+<s> My question is how will I work with a RAID 0 settup? </s>
+<s> Will it &quot;appear&quot; to me as a single HD, such as the C drive? </s>
+<s> If I want to dump copies to an external HD, is there anything complicated doing that from a RAID 0 settup? </s>
+<s> Anybody know of downsides of a RAID 0 settup? </s>
+<s> Thanks in advance. </s>
+<s> The only caveat is that GHOST until later versions couldn't backup or restore to most RAID systems. </s>
+<s> Try Acronis for that. </s>
+<s> RAID is nice but don't count it as &quot;storage&quot; since drives last about 5 years and the storage aspect until some error happens. </s>
+<s> Bob </s>
+<s> as far as your os is concerned, you'll only have 1 hard drive attached. </s>
+<s> the biggest downside is reduced reliability (a 2 drive stripe-set is twice as likely to fail as a single drive). </s>
+<s> you'll also lose SMART monitoring capability at the OS level unless your raid controller provides monitoring software. </s>
+<s> you'll need to do some research and determine the optimum chunk size for your controller and disk combination. </s>
+<s> generally its 32k (with 4k ntfs clusters) but some controllers differ. </s>
+<s> once set, you typically can't change it without reinitializing the array and the wrong setting can hinder performance. </s>
+<s> raid 0 can also sometimes increase your disk access time on 'dumb' controllers and thus decrease performance. </s>
+<s> lastly, some manufacturers (like western digital) offer drives fine-tuned for raid use. </s>
+<s> check them out and see if they're worth the premium. </s>

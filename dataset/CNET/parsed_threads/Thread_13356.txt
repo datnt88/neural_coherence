@@ -1,0 +1,33 @@
+<s> Hi I'm a student at university in the UK, and three of us share a house and broadband internet connection. </s>
+<s> We have 2 PCs and a laptop between us, all running Windows XP. </s>
+<s> We had no problems last year, until we came back a week ago after the christmas/new year break. </s>
+<s> The modem we use (Motorola SB5100) is located in one of the bedrooms. </s>
+<s> When the guy who sleeps in there got home, he plugged his PC in to act as a server like we had before. </s>
+<s> The modem was connected to his PC via USB, and then his PC was connected to a hub via ethernet cables. </s>
+<s> The two remaining computers (one laptop, one PC) were then connected to the hub also via ethernet. </s>
+<s> As soon as he did this, all the other computers got a 'Limited or no connectivity' icon appearing in their system tray, and could no access the internet, but could use the network to share files with each other. </s>
+<s> The server computer could do both. </s>
+<s> We tried a host of fixes for this, including the KB884020 Hotfix, WinsockxpFix, fixing the registery, checking for spyware and I even uninstalled SP2 from my PC, but it made no difference. </s>
+<s> HOWEVER, when we brought the laptop downstairs and plugged it in as a server, the whole network worked fine, and everyone had access to both the internet and file sharing. </s>
+<s> As my PC had been used once in the past as a server (I moved it into the room with the modem once the guy who sleeps in there had gone home early for christmas), I knew that mine would also work in this way. </s>
+<s> As the USB cable is far too short, and the coax cable is also, the only viable thing to do was to use the ethernet connection from the modem to my PC. </s>
+<s> We also bought a second NIC for my PC. </s>
+<s> After about 12 hours of messing around, we eventually overcame problems with the resetting of the modem, so that my computer is now connected directly to the modem via ethernet cable. </s>
+<s> Which leads us to the problem. </s>
+<s> Using the second NIC I now have, we linked an ethernet cable from my PC to the hub, and then from the hub to the other two computers. </s>
+<s> Then we were pretty annoyed to find the same 'Limited Or No Connectivity' icon pop up. </s>
+<s> Once again, only the server computer can access the internet, but everyone can share files. </s>
+<s> We have been dealing with this problem for 5 days now. </s>
+<s> We have exams coming up (starting tomorrow), and a new semester. </s>
+<s> We've had enough. </s>
+<s> We have no idea why the network worked fine before, and no for no apparent reason, does not now. </s>
+<s> Please please please... any help would be greatly appreciated. </s>
+<s> We're at the end of out collective tether. </s>
+<s> Get a router with one ethernet port. </s>
+<s> Put it between the modem and the hub. </s>
+<s> This way no one PC is dependent on any other's connection or setup, but you can still file share. </s>
+<s> It's fast, easy, and not terribly expensive. </s>
+<s> I think you'll need to bridge the two NIC's in the network connections page so that your PC knows to route traffice between the two connections. </s>
+<s> Could be a number of reasons why the original server PC stopped working but you should check the Internet Sharing is turned on and look at the XP Firewall settings on both (SP2 made these much tighter). </s>
+<s> Have you tried a system restore on the original server back to when it was working?? </s>
+<s> Good Luck </s>

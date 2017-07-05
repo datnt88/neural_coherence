@@ -1,0 +1,211 @@
+<s> I have four IDE drives. </s>
+<s> A CD-Rom drive, DVD RW, Zip drive, and a hard disk drive. </s>
+<s> The motherboard is a PC Chips T18 Intel 915P. </s>
+<s> It has three IDE slots. </s>
+<s> If i plug two into my first it will recognize the two drives. </s>
+<s> However, the other two will not recognize anything. </s>
+<s> The Instruction manuel says those two are optional, but nothing in the CMOS setup will get me going with them. </s>
+<s> can someone help me, please? </s>
+<s> the BIOS for the IDE ports set properly. </s>
+<s> I note that the second and third ATA ports are for a RAID setup. </s>
+<s> They can also POSSIBLY be set up for normal ATA, but it is usually confusing as heck to set them properly. </s>
+<s> manual. </s>
+<s> There is a setting to make to use the RAID ports as normal IDE. </s>
+<s> Also some limits if using Win98 or ME </s>
+<s> I'm pretty sure you are right about the RAID. </s>
+<s> Is there any way around this? </s>
+<s> Or can I convert that to SATA? </s>
+<s> I hope I'm not screwed </s>
+<s> the RAID manual also?? </s>
+<s> It confuses me totally. </s>
+<s> Would take a little time to digest. </s>
+<s> A couple things to think of; SATA drives are also called IDE. </s>
+<s> Optical drives are ATAPI drives. </s>
+<s> I had one computer where the RAID controller could be set to run hard drives in the normal mode, but it would not accept ATAPI drives on those ports. </s>
+<s> My guess is that getting the bIOS set up properly could be the issue. </s>
+<s> Remember the second and third IDE ports are controlled from the separate SIS controller, not the Intel. </s>
+<s> I was able to change the RAID to ATA/ATAPI and I got the cd/dvd drives detected. </s>
+<s> I went to load windows and it stopped due to an error with the hard drive. </s>
+<s> Said check for corruption or viruses, but everything is brand new. </s>
+<s> Does it need to be formatted or something? </s>
+<s> So far you've been a great help. </s>
+<s> As far as a RAID manuel there was none. </s>
+<s> The windows will take care of formatting;enter BIOS setup and disable virus check.Save the configuration, reboot and you should be able to install windows </s>
+<s> In the BIOS there is no mention of anything virus. </s>
+<s> Is this a brand new unformatted drive. </s>
+<s> What Operating system are you going to use?? </s>
+<s> If it is Win XP it will let you do all of that during the installation from the CD. </s>
+<s> The XP CD is bootable. </s>
+<s> Before starting, go into the BIOS and set boot from the CD as the first item in the boot sequence in the bIOS. </s>
+<s> It could be second as long as you don't accidently leave a floppy disk in the floppy drive. </s>
+<s> LOL The comment by lions is that in most BIOSs there is a setting to enable virus protection. </s>
+<s> It is for the sole purpose of letting youi know if something tries to write to you MBR [Master Boot Recrd} most people leave it disabled. </s>
+<s> There are some legitimate actions that write to the MBR, so the notice can be annoying [or confusing]. </s>
+<s> a copy of it from the PC Chips site.. No use getting it if you are not going to use RAID. </s>
+<s> I assume that you will install the operating system on the PIDE drive [P = parallel, as opposed to SATA IDE]. </s>
+<s> If that is so you can wait to install the mobo drivers that will allow you to use the SATA ports when you get s SATA drive. </s>
+<s> If you were going to install to a SATA there is a step in the XP installation that allows you to install the SATA/RAID/SCSI et al drivers.Otherwise you can install all of the mobo drivers after XP is installed. </s>
+<s> The XP Cd will allow you to Partiton the drive, format the partitons, choose to format in FAT32 or NTFS. </s>
+<s> If you use FAT 32 and format using mthe XP CD you are limited to a 32 GB partition for each logical drive in FAT 32. </s>
+<s> If you have a large drive and want a FAT32 partiton larger than 32 GB you then format using a boor floppy abd FDISK and format. </s>
+<s> You can then install XP on the partition when the install CD sees the partiton. </s>
+<s> I'm using Windows XP. </s>
+<s> When windows was starting up after it loads a little it comes up with a blue screen. </s>
+<s> Mentions it had to stop due to error in the hard drive, may have virus or maybe corrupted. </s>
+<s> It says to take it out and check it. </s>
+<s> It also says something about run chkdsk/ F. I have no idea what that means </s>
+<s> this specific aspect, because I think that since you haven't fully installed XP, I'm not sure how you run chkdsk. </s>
+<s> The slash F means to fix any problems found by chkdsk [without asking you]. </s>
+<s> I think what you need to do is start the install again and see if it offers to let you get to the Recovery console. </s>
+<s> If you can get into that, you will type the command in that they gave [space before the slash] and hit enter.. Recovery console looks a lot like DOS, but doesn't have as much capability as DOS had. </s>
+<s> Check to make sure the drive is properly configurated and terminated. </s>
+<s> After if loads up all the hardware stuff at the bottom of the screen it will say starting windows and then the error page occurs. </s>
+<s> I haven't see it say anything about recovery mode. </s>
+<s> to a SCSI drive, but the cable would be different. </s>
+<s> Possibly you have the drive jumpered improperly. </s>
+<s> What make of drive is it. </s>
+<s> If Western Digital, jumpering is confusing, unless you have it set for cable select {CS}. </s>
+<s> If it is set to CS and you are using the 80 conductor cable, you must have the cables connected properly there is only one correct configuration, the Blue to the mobo, the grey [middle one as the slave and the end one black must be the master. </s>
+<s> the hard drive is a hitachi 7200 rpm 250GB. </s>
+<s> I'm pretty sure the Jumper is on Master. </s>
+<s> I'm gonna check my IDE cables though cause its possible I have the middle on my hard drive. </s>
+<s> Which if its master than I would need the end. </s>
+<s> It seems that it may have gotten far enough so that if you start it again you may get the repair option, I think then if you elect repair, one option will be recovery console, but not sure. </s>
+<s> I have installed XP in six computers and never had a problem, so I haven't done any of these things. </s>
+<s> People in the XP forum should be able to help. </s>
+<s> Actually Robeert Proffitt would be a big help, but he may thing that I have things under control in this thread. </s>
+<s> I'll ask him to check in but he's an east coaster so may have gone for the night. </s>
+<s> If using Master and slave jumpering having the master on the middle connector should be OK. </s>
+<s> But under no conditions should you have nothing on the end connector. </s>
+<s> [Not a critical item, but the unterminated end can cause reflections] [just realized that it mentioned termination]. </s>
+<s> Your drive is probably ATA 100 or 133. </s>
+<s> Probably best to set it to CS and put the boot drive on the end of the ribbon cable. </s>
+<s> I moved the IDe cable around the hard drive was using the middle. </s>
+<s> Now it is on the end of the cable, but i still get the same error. </s>
+<s> colors. </s>
+<s> I just looked at my stock. </s>
+<s> All of the round ones are the colors mentioned. </s>
+<s> However, I have three 80 conductor ribbon cables and they are different colors. </s>
+<s> However it is easy to tell which should go on the mobo, and the middle is always the slave and the end the master. </s>
+<s> Pretty simple in that on the slave pin 24 has no wire connected to it, while on the master pin 24 does have a wire connected. </s>
+<s> and what is on the slave ??? </s>
+<s> They should both be jumpered as cable select. </s>
+<s> cable???? </s>
+<s> Very important for that drive. </s>
+<s> Usually he mobo will complain in writing if you are not using the 80 conductor cable. </s>
+<s> I switched it to Cable Select. </s>
+<s> there is two different diagrams on the back of the Hard drive though. </s>
+<s> One for 15 head and one for 16. </s>
+<s> Either way it has 9 pins on the back. </s>
+<s> I'm not sure what an 80 conductor is but I'm using the cable that came with the mobo. </s>
+<s> One also came with the Hard drive. </s>
+<s> I could switch those two around if it would help? </s>
+<s> The one with the hard drive is a flat ribbon cable while the one that came with the mobo is round. </s>
+<s> Does it have SP1 on it, SP2?? </s>
+<s> Can you start the install again and have it remove all partitons and then start the install again. </s>
+<s> Normally it will check the quality of the partiton that it will install itself on before it actually writes to the drive. </s>
+<s> Do you have a Win 98 boot floppy? </s>
+<s> Maybe you can use that to remove any partitions on the drive to start over. </s>
+<s> Of course it won't be able to see the NTFS partition if one was created. </s>
+<s> Can you go to the Hitachi site and download their diagnostic tools? </s>
+<s> Put them on a floppy and they should thoroughly check the drive. </s>
+<s> I'm pretty sure no partitions were created at all. </s>
+<s> It's just a blue screen that says Windows setup in the top left corner and the bottom just reads off all the files it loads and when it is done loading files it says Starting Windows Setup... a couple seconds later I get the error screen. </s>
+<s> I don't have anything of floppy. </s>
+<s> Also if I put something on floppy off of Hitachi's website then I don't think I would be able to run that. </s>
+<s> have handled the 40 conductor ribbon cable recently you may not note the difference. </s>
+<s> They both use the 40 pin connector. </s>
+<s> They added 40 ground wires spaced between the signal wires to approximate a ground plane. </s>
+<s> This is to reduce noise, crosstalk and reflections due to the faster rates that data moves to and from these drives. </s>
+<s> The individual wires in the ribbon cable are obviously smaller in diameter ids the 80 conductor. </s>
+<s> Trying the ribbon may be worth a try. </s>
+<s> I had heard reports that some of the round ones are not as good as the ribbons with the fast drives. </s>
+<s> I have a friend that was having problems, and changed back from round to ribbon and the problems seemed to have gone away [they had been intermittent bad data]. </s>
+<s> Mayvbe you could temporarily hook the drive up to that one, and use a Win 98 boot floppy or the Hitachi diagnostics?? </s>
+<s> I made a post asking Robert Proffitt to check this thread. </s>
+<s> You probably won't hear from him until tomorrow eastern time. </s>
+<s> I work tomorrow, but will look in a little from there but have not much to offer. </s>
+<s> I have one that I would like call to check with, but she has gone to bed. </s>
+<s> I don't remember if a WIN98 boot disk has scandisk on it and whether you could run a thorough scan from it [if you had a computer with a floppy]. </s>
+<s> Seems that things are pointing to some kind of drive problem. </s>
+<s> This is one of the times that a floppy drive can be a big help, even though they are virtually not used anymore. </s>
+<s> But one can get them for $10 and they sure can come in handy at a time like this. </s>
+<s> the computer I'm using right now has a floppy drive. </s>
+<s> I work tomorrow until 7 eastern time so around 4 your time? </s>
+<s> I'll check back in then. </s>
+<s> I don't have a Win98 disk. </s>
+<s> The only Diagnostics I could find wasn't for the model hard drive I have. </s>
+<s> Only Ultrastar. </s>
+<s> I have Deskstar. </s>
+<s> I'm pretty sure its 7K250 also. </s>
+<s> However there was Drive Fitness Test. </s>
+<s> Though it says that it can only be used with x86 processors. </s>
+<s> I'm running pentuim 3 on the one I'm using now. </s>
+<s> Thank you for all your help I appreciate it. </s>
+<s> All PC [IBM compatibles] are. </s>
+<s> I was wondering who IBM sold their drives to I couldn't remember whether it was Hitachi or Fujitsu. </s>
+<s> The &quot;STAR&quot; bit sounds like IBM. </s>
+<s> I remember them for the class action suit against them for the poor performance of their 75 GB et al drives. </s>
+<s> Forgot the model names but it did have star in it. </s>
+<s> Of course IBM vehemently denied that the drives failed earlier than any other type drives. </s>
+<s> But they did sell the business, now the PC's to the Chinese. </s>
+<s> I hope that your drive is not defective. </s>
+<s> I'm eastern time. </s>
+<s> NE PA. </s>
+<s> With all the trouble your having it might be easer to cut back to just the basics. </s>
+<s> One HD only as master drive on the the primary IDE channel. </s>
+<s> No other drives A CD drive only as master on the secondary channel. </s>
+<s> No other drives. </s>
+<s> And boot from the XP cd. </s>
+<s> Have the install program delete all paritions, then create a parition, format and then install XP. </s>
+<s> If the install goes ok, and reboots after you get to the normial desktop, then insatall the MB drivers. </s>
+<s> IF all goes well then shut down-power off an hook up your other drives. </s>
+<s> John </s>
+<s> better understanding of the jumpering of the Hitachi drive. </s>
+<s> Explain the nine pins please. </s>
+<s> Western digital drives were confusing because they used different jumpering if a drive was the Master with No drive on the slave, versus Master with a drive on the slave. </s>
+<s> Be certain of the jumpering. </s>
+<s> I believe that Robert thinks that you bought this as a system, thus return it under warranty. </s>
+<s> If you bought the stuff separately then you probably need to figure out what is wrong. </s>
+<s> To me, the drive jumpering is a possibility or the drive is defective. </s>
+<s> You should be able to test with the floppy system. </s>
+<s> No need to install the drive. </s>
+<s> Just use the cables power & ribbon from the Master to the Hitachi, laying on a piece of cardboard, or standing on edge. </s>
+<s> If the test is executing from the floppy it doesn't need the systems normal hard drive, just the CPU and Memory. </s>
+<s> there are 5 pins on top and 4 on the bottom. </s>
+<s> Then there is two different jumper diagrams for Master, Slave, and Cable Select. </s>
+<s> One says 15 head and the one says 16 Head. </s>
+<s> Read Heads, you got beaucoup platters. </s>
+<s> I'm going to the Hitachi site to see what they say. </s>
+<s> The correct model number? </s>
+<s> ? </s>
+<s> what type XXXXstar drive is it?? </s>
+<s> ? </s>
+<s> 3 read heads for the 160 GB version and 4 heads for the 250 GB. </s>
+<s> For the 250 therefore it stores data on both side of both platters. </s>
+<s> Have no idea about the other number, but I would choose the even number for the 250 based on the 3 fro the 160 and the 4 for the 250. </s>
+<s> Its a Deskstar. </s>
+<s> 250 GB 7200 rpm </s>
+<s> Quick installation guide for the TK750 and K750. </s>
+<s> both say for jumepring master, with or without a slave on the same cable a to B and G to H. Is that what you have. </s>
+<s> It never discusses the 15 head vs 16 head in the manula. </s>
+<s> BTW I'm peed at you. </s>
+<s> I had some ham frying and forgot it to search Hitachi. </s>
+<s> Fried to a charcoal crisp. </s>
+<s> LOL </s>
+<s> I'm pretty sure I have the 7k250. </s>
+<s> for the 16 head it is a-b and g-h where 15 head a-c and g-h. </s>
+<s> I've tried them both for the master drive. </s>
+<s> what does the boot screen show as the hard drive??? </s>
+<s> Model, location et al. </s>
+<s> I'm sure that you know that if you hit the &quot;Pause&quot; button when the boot screen comes up you can read it at your leisure. </s>
+<s> The lack of a floppy drive really limits any further troubleshooting to take a look at what is on the drive to find what may be the cause of the problem. </s>
+<s> Probably, two other things to try, get a floppy drive, or get/make a Knoppix CD. </s>
+<s> I'm not exactly certain how to use the Knoppix for the situation that the hard drive is in, put it may always come in handy. </s>
+<s> Here's a link to it. </s>
+<s> Robert is somewhat an expert in its use. </s>
+<s> http://www.knopper.net/knoppix/index-en.html I have no other ideas, except to check all connections over again. </s>
+<s> But please keep us informed with any progress or whatever. </s>
+<s> This is a very interesting case. </s>
+<s> http://www.knopper.net/knoppix/index-en.html </s>
+<s> i have a t18 mobo and i have the exact same problem, ive tried jumpers, switching the placement of the drives on the cables and switching up bios settings i cant get any other channels to work either </s>

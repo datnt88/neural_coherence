@@ -1,0 +1,64 @@
+<s> I have an intel p4 processesor, 512mb ram and i am using asrock 775vm800 motherboard. </s>
+<s> i want to implement raid-1 on my computer. </s>
+<s> the motherboard manual says this motherboard has built in support for raid-0 and raid-1. </s>
+<s> what does this mean? </s>
+<s> Does it mean that i do not have to buy a seperate raid controller card to implement raid-1 on my computer? </s>
+<s> if so how do i go about it. </s>
+<s> Baically what this means is that the output ports on your motherboard are configured for RAID - I know, mine are. </s>
+<s> All you need is a normal IDE or ATA or SATA cable to conncect to your hard drives, and you're away. </s>
+<s> By the way, if you can, add extra RAM, XP takes 512Mb on it's own, you really need iGb or better. </s>
+<s> RAID-0 is ''stripping'' data between 2 or more hard drives. </s>
+<s> It gives you more speed, but no security. </s>
+<s> RAID-1 is mirroring data between 2 hard drives. </s>
+<s> It gives you a backup in case one of your hard drives fails. </s>
+<s> You should be able to configure it in BIOS setup w/o any extra hardware. </s>
+<s> Motherboard manuals usually have detailed instructions on how to implement RAID for that MB. </s>
+<s> If you can't find the manual you can download it from the motherboard manufacturer. </s>
+<s> You've explained Raid-0 and Raid-1 fairly well. </s>
+<s> I've seen some differ other numbers as well (I believe up to Raid-5) What are all these other specifications? </s>
+<s> I'm build a new system. </s>
+<s> The part's have been ordered. </s>
+<s> I spent a bunch of time at the Agus site tonight reading the manual for the MB. </s>
+<s> I'm still confused as to the Raid 0,1,1+0 and JBOD. </s>
+<s> This is a Agus A8N-E MB 2- Seagate 80G ST380013AS SATA/150 7200RPM </s>
+<s> Robert explained level 0 and 1; each of these require 2 (or 4 for more space) drives. </s>
+<s> Raid 0+1 is a combination of striping and mirroring and requires at least 4 drives -- two for the striping and two more to mirror the first two. </s>
+<s> Some mobos only support these choices. </s>
+<s> RAID levels 2, 3, and 4 are seldom used today, so I will not discuss them. </s>
+<s> RAID 5 is very popular; it is striping with distributed parity, and requires at least 3 drives. </s>
+<s> RAID 10 is another combo of striping and mirroring, but far superior to RSID 0+1. </s>
+<s> Personally, I would stay away from RAID 0 -- the chance of a disk crash is doubled, and there is virtually no chance or data recovery. </s>
+<s> I do not think the increase is speed is worth the risk. </s>
+<s> Although I use RAID 1, be aware that it is not foolproof and is no substitute for regular backups. </s>
+<s> This site provides excellent discussions of the various RAID levels Hope this helps Frank </s>
+<s> Thank You Frank, I am currently using a program called Avronis's True Image. </s>
+<s> This is on a 3rd HD in my current computer. </s>
+<s> Each Fri after a full virus scan, it automatically run's to take a snapshot of my ''C'' drive for a backup. </s>
+<s> So the mirror feature would not be needed. </s>
+<s> With that in mind, do you have suggestion's as to the way to set the Raid on the new computer? </s>
+<s> I cant make any really definitive suggestion because I dont know the details of your system. </s>
+<s> What are the drives and what is stored on each? </s>
+<s> Some RAID configurations require almost identical drives; others permit drives of different sizes, but then they operate at the size of the smallest. </s>
+<s> The general recommendation for multi-drive systems is to put the OS, program files, transient data and perhaps some relatively unimportant files on the C drive. </s>
+<s> As these items do not change much and/or are not so important, this drive does not need to be backed up very frequently just when there is a major change. </s>
+<s> Important data in newly generated or modified files needs to be backed up much more frequently; all this should be stored on drive(s) separate from the C drive so that backups are faster and simpler. </s>
+<s> You say that since you image your C drive weekly you dont need mirroring. </s>
+<s> Your backup scheme is good, except that it should be your data drive, not your system drive that you are backing up (unless you are storing your data on the system drive). </s>
+<s> But now lets consider this scenario: It is the morning of Friday April 14, 2006, and the scheduled backup has not yet occurred. </s>
+<s> Like a million or so Americans, you have spent the past several days gathering your financial data for the year and putting it into spreadsheets to consolidate it and calculate the totals and subtotals, etc. </s>
+<s> etc., needed for Federal and State income tax forms. </s>
+<s> Suddenly, your disk crashes badly so that there is no way to recover the data in a hurry. </s>
+<s> Your last backup was last Friday, so none of your work for the week is on it you must start all over, and the deadline is tomorrow. </s>
+<s> Had you had RAID 1 (mirroring) it is unlikely that both of the drives would have failed, so all your data would be intact on the good drive; you could recover it and proceed in filing your 1040 and state forms. </s>
+<s> This is, I think, is the proper role for RAID 1 to provide automatic redundancy for important data generated between regularly scheduled backups. </s>
+<s> With RAID 5, I might rely more heavily on it and reduce the frequency of scheduled backups -- but not eliminate them. </s>
+<s> These are, of course, my ideas and how I tend to operate; I know that not everyone agrees with me. </s>
+<s> I do suggest you go to the link I provided in my last post for more detailed information on RAID and its advantages and disadvantages. </s>
+<s> Hope this helps. </s>
+<s> Frank </s>
+<s> It was very imformative. </s>
+<s> I did go and read the link you posted + several more that I found. </s>
+<s> You point about the Tax deal made perfect sence, but alas I don't use my computer in that fashion. </s>
+<s> It's mostly consumed with pix's, movies and a bunch of bookmark's. </s>
+<s> The computer I'm asking this about is not built yet. </s>
+<s> Asus A8N-E MB Muskin 1G [1 strip] PC 3200 184 pin 2-Seagate 80G ST380013AS SATA/150 7200RPM - </s>

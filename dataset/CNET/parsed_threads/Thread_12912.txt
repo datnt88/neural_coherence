@@ -1,0 +1,89 @@
+<s> I have two monitors off a HD2400Pro and I want to install a third monitor on my system. </s>
+<s> As I have unused PCI slots I assumed the best way to do this was install an old 7000 series PCI I had to run the third monitor. </s>
+<s> I installed the card and on reboot Windows recognizes a Radeon 7000 series and reboots but as Windows is restarting the XP splash screen pauses for a second and the system just restarts again, now requiring safe mode or last known good config to proceed (which of course does not properly install the 7000). </s>
+<s> When I remove the 7000 everything's AOK and the system functions normally. </s>
+<s> I've updated the motherboard BIOS to the latest version, set the BIOS to initilise the PCI-E or PCI graphics first and I even moved the card into every PCI slot systematically to see if that would work, but it achieves the same result. </s>
+<s> I have verified that the PCI card works AOK in another PC. </s>
+<s> My system specs are: Processor: Intel Core2 Duo E8400 Mainboard: Gigabyte GA-P35-S3G with 1x PCI-E 1, 1x PCI-E 16 and 5x PCI slots (no onboard VGA) Main GPU: Sapphire Radeon HD2400 PRO PSU: Seasonic 12v 500w, OS: Win XP SP2 I'm currently using the ATi drivers that were installed with the HD2400Pro (8.512.0.0). </s>
+<s> I hope someone can help me or advise me about a new PCI card assuming it's just a case that the 7000 can't work with drivers for the HD2400 installed. </s>
+<s> Thanks in advance </s>
+<s> Got the motherboard driver package right. </s>
+<s> Can you share what version they used? </s>
+<s> And what's in the EVENT VIEWER? </s>
+<s> I'm not sure what to check to determine the version of the motherboard drivers, but installed them myself from the supplied DVD. </s>
+<s> There are two errors shown in Event Viewer one is linked to &quot;ati2mtag&quot; Event Type: </s>
+<s> the oldest supported gpu is the radeon 9500. </s>
+<s> (note, the 9250 is no longer supported either.) </s>
+<s> your best bet is to boot into safe mode and force the card to use a standard vga driver but you'll probably be limited to 1024x768. </s>
+<s> you could also add an nvidia geforce based card, but both ati and nvidia drivers are pretty fat. </s>
+<s> if you want a new card, this x1550 is the cheapest pci card that works with the current drivers ($81): http://www.newegg.com/Product/Product.aspx?Item=N82E16814161227 this x1550 uses the pci-express x1 slot but is a bit more at $107: http://www.newegg.com/Product/Product.aspx?Item=N82E16814161197 you could also try to find an old ati rage or mach 32 pci card. </s>
+<s> they're still supported by the 8.x drivers. </s>
+<s> http://www.geeks.com/details.asp?invtid=ATI-RAGEXL-8M&cat=VCD </s>
+<s> The I SQUARED C driver which is a motherboard driver issue looks to need work. </s>
+<s> -&gt; WHAT MOTHERBOARD DRIVER PACKAGE (name, version please) did you use? </s>
+<s> How to tell which? </s>
+<s> Fish out the DVD and look at it with explorer, right click, properties. </s>
+<s> But given this failure I'd go get the latest from the motherboard maker. </s>
+<s> HOWEVER this is an INTEL CHIPSET so why not get the newest from them? </s>
+<s> Maker's link -&gt; http://www.gigabyte.com.tw/Support/Motherboard/Driver_Model.aspx?ProductID=2729 Intel's latest -&gt; http://downloadcenter.intel.com/Product_Filter.aspx?ProductID=816 Bob </s>
+<s> No newer chipset drivers available. </s>
+<s> Thank you for the suggestion. </s>
+<s> That seems VERY new and your reply is what some Microsoft &quot;udpate driver&quot; would say. </s>
+<s> Tell me exactly what date driver you are using. </s>
+<s> Date: December 12 2007 </s>
+<s> NIL </s>
+<s> --&gt;catalyst 8.x drivers don't support radeon 7000 series the oldest supported gpu is the radeon 9500. </s>
+<s> (note, the 9250 is no longer supported either) The the previous system I had the third monitor on had an X800Pro so the Catalyst drivers for that probably supported the 7000 which is why there was no issue there. </s>
+<s> What I don't get is how the 7000 is no longer supported but a Rage card is!!! </s>
+<s> Didn't I have one of those like 10 years ago? </s>
+<s> I'm sure of it! </s>
+<s> --&gt; your best bet is to boot into safe mode and force the card to use a standard vga driver but you'll probably be limited to 1024x768. </s>
+<s> The monitor is a 15-inch and will only support that resolution so that'd work for me. </s>
+<s> Thing is: I can get the card installed with the windows default &quot;Video Controller (VGA Compatible)&quot; mode but when I click on drivers it says: &quot;No driver files are required or have been loaded for this device.&quot; It even boots up in normal mode so long as it's kept as a standard VGA and I don't update driver to an ATi, however the monitor attached to it isn't detected and only my two other monitors show up in the Windows display properties. </s>
+<s> The VGA adapter doesn't show up in the display tab either. </s>
+<s> Is the Standard VGA driver you refer to a physical driver in the sense it will show up as a driver in the driver properties? </s>
+<s> Is there a file somewhere I can download of find in the CABS that will show up as a physical generic VGA driver as opposed to the &quot;phantom&quot; default VGA driver? </s>
+<s> --&gt;you could also add an nvidia geforce based card, but both ati and nvidia drivers are pretty fat. </s>
+<s> I always assumed they would interfere with each other, I may try the Rage first, should be able to pick one up for pennies. </s>
+<s> Thanks for the help. </s>
+<s> If you do have 2 graphics cards now i think it wont work because you have to have a crossfire-compatible motherboard and i dont think and old radeon 7000 has that. </s>
+<s> i might be wrong but im pretty sure that 2 graphics cards cant go crossfire like that especially with one soo old </s>
+<s> No mate, I know Crossfire is impossible in my situation, I just want to have a third monitor working independently of the other two, even it worked in 256 @ 800x600 I'd be happy. </s>
+<s> It's mainly to see if we can address that I2C error. </s>
+<s> If not then you need to get a card that is supported by drivers as noted below. </s>
+<s> you don't need drivers for standard vga. </s>
+<s> it seems the video card is working but windows is refusing to use it. </s>
+<s> have you tried switching the bios to make the pci adapter the primary/startup adapter? </s>
+<s> I focused on that since it's something I've dealt with before. </s>
+<s> It's a simple matter to get the latest Intel motherboard chipset drivers but some don't get the connection from that to the error. </s>
+<s> If we could get that installed then it's crossed off the list and we look deeper at card to driver support issues like you are doing. </s>
+<s> in safe mode are you? </s>
+<s> if so, try it in regular mode. </s>
+<s> http://64.233.169.104/search?q=cache:EIwArxdnnocJ:www.motherboardpoint.com/t159512-ati2mtag-gives-blue-screens.html+ati2mtag+i2c&hl=en&ct=clnk&cd=4&gl=us&client=mozilla I'd like to see that Intel driver installed then you may have to repeat the above chore of driver (hell) testing. </s>
+<s> that's an issue with the ati drivers, not necessarily the motherboard drivers. </s>
+<s> the 8.x catalyst drivers do not support the radeon 7000 so that error from when he was trying to apply those drivers to that card. </s>
+<s> The motherboard drivers tell the drivers how to do that. </s>
+<s> It's a small step along the way. </s>
+<s> It's also showing two instances of a new error Event Type: </s>
+<s> (with an unsigned driver 6.14.10.6517) and it's even configurable in Catalylst Control. </s>
+<s> The I2C error is still appearing in even viewer but is not halting or restarting the system which makes me think it was the other error that was doing that. </s>
+<s> I do have 2 instance of a new error related to ati2mtag: Event Type: </s>
+<s> It altered nothing apart from showing the post and BIOS screens in the third monitor but once it booted into windows the primary display adapter (the HD2400) took over. </s>
+<s> The properties of the &quot;VGA Compatible&quot; remained unchanged. </s>
+<s> I just had the one. </s>
+<s> The ATi driver gets swiched off anyway once in safe mode and you're left with basic functionality. </s>
+<s> Sorry but CPLIB is something of an ATI driver bugaboo. </s>
+<s> I've cured this but it's not nearly so easy. </s>
+<s> I have to wipe the drivers, install a version, try, if not go down a version (wipe, install, test) till I get it. </s>
+<s> I think you cleared up one error at least. </s>
+<s> Bob </s>
+<s> Sorry, I should have been clearer, I still have the I2c and 2 CPLIB errors so that's 3 errors in total. </s>
+<s> The I2C is still attached to ati2mag but it doesn't seem to effect either adapter in any way I can discern. </s>
+<s> It's not preventing the system from starting normally: Event Type: </s>
+<s> What I learned a long time ago was that I can't just install video drivers. </s>
+<s> I had to clean them out then install ONE version. </s>
+<s> Otherwise some silly piece is left behind and does &quot;that.&quot; If it works, move on. </s>
+<s> Bob </s>
+<s> Many thanks to you Bob and those who helped a distraught Irishman with his problem. </s>
+<s> I'm gonna quit while I'm ahead with 2 working graphics cards and let those non-intrusive event errors alone. </s>
+<s> Many thanks again. </s>

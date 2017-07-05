@@ -1,0 +1,16 @@
+<s> I have a doubt regarding RAID5 reorganization. </s>
+<s> Suppose we have a RAID5 group consisting of 6 disks in a storage system. </s>
+<s> Suppose, one disk (call it d1) is unreachable i.e the disk component does not fail but some component (for example, some network cable) to reach that disk has failed. </s>
+<s> Although the data in d1 is valid, the data in d1 is inaccessible. </s>
+<s> In this scenario, will the reorganization will start or some field repairperson will try to repair/replace that component? </s>
+<s> Replacing a component seems to take less time than reorganization because reorganization is very costly with respect to time . </s>
+<s> Also, data in d1 is valid (so just repairing that component will make everything fine). </s>
+<s> Adaptec did this for years. </s>
+<s> The better systems send you an alert and then you hot swap in the new drive and it's very automatic. </s>
+<s> HOWEVER you see folk today try to do this with software and it's not that good. </s>
+<s> Bob </s>
+<s> you mean &quot;reorganization&quot;. </s>
+<s> But, replacing the failed component by a new one seems to be more easy when the disk component i.e data is valid. </s>
+<s> Because RAID5 reorganization may take long time and there is chance of experiencing latent-sector error during reorganization. </s>
+<s> All this occurs on-the-fly and with no loss of access. </s>
+<s> I can only guess you are using some PC Software RAID? </s>

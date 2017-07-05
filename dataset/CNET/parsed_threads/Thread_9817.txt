@@ -1,0 +1,31 @@
+<s> hi Everyone, I have a Netgear router connected to my desktop, and then I have a laptop wirelessly connected to the router. </s>
+<s> At random times i will run into a scenario where the laptop has an internet connection, but the desktop does not. </s>
+<s> Very weird... </s>
+<s> I called Netgear support, and at first they had me change to static IP address on the desktop, and that seemed to work for a few days. </s>
+<s> But today the same thing happened, where i have internet on the laptop, but not on the desktop. </s>
+<s> After rebooting the desktop, the internet connection came back on it. </s>
+<s> Anyone know what's going on? </s>
+<s> by the way i also have Vonage connected to the router, but i don't think that matters. </s>
+<s> Netgear basically told me they think something's wrong with my desktop. </s>
+<s> But my desktop never used to drop the internet until the router was hooked up. </s>
+<s> please help, thank you </s>
+<s> Not with the supplied information. </s>
+<s> But with today's pests I never discount that issue. </s>
+<s> I scan with EWIDO, Housecall and toss what it finds out. </s>
+<s> I also install the latest FIRMWARE in the router and try once again. </s>
+<s> But nothing in your post gives up a clue that this will help but it's a common first response to make sure the usual items are not the cause. </s>
+<s> Bob </s>
+<s> The next time this happens you should do the following. </s>
+<s> 1) open a DOS windo and type ipconfig /all for status and info. </s>
+<s> 2) Ping the default gateway 3) Ping the DNS server listed in IP config. </s>
+<s> Before this problem happens again, do a ..... tracert www.yahoo.com Or trace to your DNS server. </s>
+<s> Trace Route will show you a response from every router between you and the target. </s>
+<s> What you are looking for is the IP address of the first ISP router. </s>
+<s> Once you know the IP address of the ISP router you can add that as step 4 above. </s>
+<s> 4) Ping the ISP router This should give you some clue what is wrong. </s>
+<s> You can also log onto the router and check the status page. </s>
+<s> DSL usually uses PPPoE (PPP over Ethernet). </s>
+<s> PPP uses a username/password to track usage. </s>
+<s> Disconnected usually means your router could not authenticate with the ISP serrver. </s>
+<s> Some routers also allow you to ping from the GUI. </s>
+<s> SKrall </s>

@@ -1,0 +1,34 @@
+<s> I am putting together an old computer from parts and have an old ISA SB 16 sound card. </s>
+<s> Running under Win ME it works BUT in SYSTEM in the control panel there is an unknown device and under that is an unsupported device. </s>
+<s> When I delete the unsupported device and reboot the computer finds the SB 16 and unsupported device and installs them. </s>
+<s> I've tried drivers and deleting the sound card but it always comes back. </s>
+<s> If I leave the sound card out, it is fine, so I know it is the SB 16. </s>
+<s> The problem is that when this happens my Linksys USB100TX responds during the Windows start up screen and shuts off before it gets to my desktop. </s>
+<s> Thus no network log on and I have to re-install the USB100TX causing me to have to reboot and start the cycle again. </s>
+<s> Any suggestions? </s>
+<s> Two areas may confound old hardware users. </s>
+<s> 1. </s>
+<s> The ISA IRQ would have to be set in the BIOS for the SB 16 in question. </s>
+<s> The IRQ is either 5 or 7 depending on the make of the SB16 or its jumpers. </s>
+<s> The setting in the BIOS would either be &quot;LEGACY&quot; or &quot;Non-PCI/PnP&quot;. </s>
+<s> 2. </s>
+<s> The motherboard drivers are not supplied by Microsoft so that is great fun to find. </s>
+<s> 3. </s>
+<s> The lack of USB stability is likely item #2 or some other USB issue noted at http://www.usbman.com Too bad you didn't reveal what make/model motherboard. </s>
+<s> 4. </s>
+<s> Let's be absolutely crystal clear on a very important point. </s>
+<s> If it works, don't fix it. </s>
+<s> There is NO REASON to fix a device manager item if your sound card and all is working! </s>
+<s> Bob </s>
+<s> Motherboard: VA-503+ Ver. </s>
+<s> 1.1 USB VIA 2.0 PCI board </s>
+<s> IRQ for sound card: 7 </s>
+<s> Thanks for any help that you can give me! </s>
+<s> I will check back later. </s>
+<s> I must take the wife out for Valentine's dinner and a movie. </s>
+<s> 1. </s>
+<s> You know the IRQ to set in the PCI PNP/LEGACY in the BIOS, so do that. </s>
+<s> 2. </s>
+<s> Links http://www.caprok.net/dave/ http://www.caprok.net/dave/FAQ.html The second link notes the IRQ Mini-port router. </s>
+<s> 3. </s>
+<s> Read the 4 hits with this: http://www.google.com/search?&q=VA-503%2B++usbman Have a great Valentine's outing. </s>

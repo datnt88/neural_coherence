@@ -1,0 +1,50 @@
+<s> Over the past few days, My computer has started running sluggishly. </s>
+<s> I had installed a few games, and then uninstalled them after the problem began, thinking they were the cause, and that they may have installed spyware or something else, but now that they're gone (I uninstalled them using &quot;Add and Remove Programs&quot;), the problem remains: When I run either Norton Disk Doctor, or Windows XP's Error Checking, and the error checking gets to the &quot;Index Status&quot; area, I receive varying forms of the following messages: The 'Fix errors' checkbox was not checked. </s>
+<s> Corrective actions indicated below were not written to the disk. </s>
+<s> Deleting index entry 00065051.MAP in index $I30 of file 12073. </s>
+<s> Deleting index entry 00065052.MAP in index $I30 of file 12073. </s>
+<s> Deleting index entry INDEX.MAP in index $I30 of file 26689. </s>
+<s> Deleting index entry OBJECTS.MAP in index $I30 of file 26689. </s>
+<s> When I elect to &quot;Fix Errors&quot;, and it supposedly does so upon restarting the computer (the chkdsk /f program apparently runs when the computer restarts), the errors remain, althought the &quot;index entries&quot;, vary each time. </s>
+<s> I am at a loss as to what to do to fix these errors--is my hard disk failing? </s>
+<s> I wouldn't think so, aside from being a little sluggish at times, the computer and all programs seem to be running fine, and the HD is not making any unusual noise, as some HDs have done in the past in my experience when failing, or about to fail. </s>
+<s> Any help would be greatly appreciated! </s>
+<s> Norton antivirus can't protect the machines against the MSBlaster and Nachi worms. </s>
+<s> Use http://housecall.trendmicro.com/housecall/start_corp.asp and make sure your machine is free from these worms. </s>
+<s> As to Norton's tools, you have to ask Symantec why they don't fix the errors, but chkdsk will correct many non-fatal file system errors. </s>
+<s> Fix them and then watch. </s>
+<s> If you are looking for a perfect OS, this isn't it. </s>
+<s> I can find a nice reference about Security Descriptors always needing fixing by chksdsk and why this is so, but let's focus on: 1. </s>
+<s> Get the worm/virus scan done. </s>
+<s> 2. </s>
+<s> Run the CHKDSK and get those errors out of the file system. </s>
+<s> Bob </s>
+<s> Thanks Bob--I'll give the worm scan a try. </s>
+<s> I've already used chkdsk quite a few times, and although I think it works initially, the problem always seems to come back, or it's not being fixed at all by chkdsk. </s>
+<s> I even tried re-installing XP, and uninstalling, then re-installing my firewall software (ZoneAlarm Pro). </s>
+<s> That's what made me think of a failing hard disk. </s>
+<s> Do you think that may be possible? </s>
+<s> Thanx, Scott </s>
+<s> http://www.jsiinc.com/SUBE/tip2200/rh2217.htm writes: &quot;When you remove a file or folder that had 'custom' permissions, the ACL is not deleted, it is cached. </s>
+<s> Chkdsk /f removes ACLs that are no longer used.&quot; Seems like this is &quot;by design&quot; and it disturbs people. </s>
+<s> Wish you the best in understand the ways of Microsoft. </s>
+<s> Your issue may be quite similar or you are mixing tools like Symantec which thinks one thing and CHKDSK which thinks another way. </s>
+<s> So far, I don't see a failing hard disk issue. </s>
+<s> Bob </s>
+<s> Hi Bob, Well, I tried the online virus/worm scan, and my system came up clean. </s>
+<s> I also ran chkdsk a few more times, and although it runs and supposedly fixes the errors (although there's no indication from chkdsk that the errors were indeed repaired), the errors remain to varying degrees--each time I check for errors using Norton Utilities, the &quot;Deleting index entry&quot; line changes. </s>
+<s> I even went so far as to install Spybot Search & Destroy, thinking it might be spyware or adware screwing things up, and that didn't work either. </s>
+<s> &lt;sigh&gt;. </s>
+<s> I guess I'll live with it for now. </s>
+<s> I appreciate your suggestions, though, and I would welcome any others you might have THANKS AGAIN! </s>
+<s> Scott </s>
+<s> &quot;-each time I check for errors using Norton Utilities, the &quot;Deleting index entry&quot; line changes.&quot; I've noted that Symantec has had issues in the past and you may be covering the same grounds. </s>
+<s> Just my advice... Stop using the Symantec item, use CHKDSK to fix it (again) and see if the problem vanishes. </s>
+<s> If it does, put in a web report to Symantec about it. </s>
+<s> Ask for a free update when it comes out. </s>
+<s> Bob </s>
+<s> AAAaauuugghhh!!! </s>
+<s> I just read your post and I am having the SAME proble...Did you ever get it resolved? </s>
+<s> Please say yes and please tell me how! </s>
+<s> I have just getting the same thing at start up with WinXp....and cant think of a good reason for it. </s>
+<s> Did you read it? </s>

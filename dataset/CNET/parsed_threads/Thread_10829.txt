@@ -1,0 +1,31 @@
+<s> Hi guys, I have recently gotten a Lenovo Ideapad S206, as I was looking for a cheap, lightweight laptop. </s>
+<s> However, it seems to have problems with Windows - several times when I've put the machine into sleep mode, Windows won't restart afterwards, and I've had a few blue screen crashes in the last few days as well. </s>
+<s> Does anyone know if these machines are prone to crashing a lot? </s>
+<s> Or might the problem be due to something else? </s>
+<s> I've tried doing a system restore, but it won't let me - I keep getting error messages. </s>
+<s> Any tips gratefully received! </s>
+<s> Thanks. </s>
+<s> It sounds like you could have a virus or other malware. </s>
+<s> Get your antivirus program up to date and boot into Safe Mode. </s>
+<s> Note that some viruses can hide themselves from your antivirus program in normal mode, so you really need to scan in Safe Mode. </s>
+<s> To get into Safe Mode when you first power up, hit F8 about once a second until you get the menu and select Safe Mode. </s>
+<s> Then run a full system scan. </s>
+<s> - Microsoft has suggestions and offerings at http://windows.microsoft.com/en-US/windows7/how-do-I-remove-a-computer-virus - MS forum moderator Keith has some suggestions along this line at http://answers.microsoft.com/en-us/windows/forum/windows_7-performance/windows-explorer-has-stopped-working/6ab02526-5071-4dcc-895f-d90202bad8b3 - If that fixes it, fine. </s>
+<s> If not, use System Restore to go back to a date prior to the beginning of the problem. </s>
+<s> To run System Restore, click Start -&gt; Programs -&gt; Accessories -&gt; System Tools -&gt; System Restore. </s>
+<s> Click the box that says Show more restore points. </s>
+<s> - You can check for corrupted system files. </s>
+<s> Open an administrator command prompt and run SFC if the above doesn't help. </s>
+<s> Click START, then type CMD in the search box, right-click CMD.EXE and click Run as administrator. </s>
+<s> Then from the command prompt type sfc /scannow. </s>
+<s> - Finally if all else fails, you can check the rather cryptic system event log. </s>
+<s> To do that click Start -&gt; Control Panel -&gt; Administrative Tools -&gt; Event Viewer. </s>
+<s> Once in Event Viewer click on the system log and scroll through the entries looking for those flagged &quot;error&quot; to see if you can find hints as to where the problem could be. </s>
+<s> ` When you get your system back in good working order, I urge you to back your system up to an external hard drive and make regular periodic updates to it. </s>
+<s> - I hope this helps. </s>
+<s> Good luck. </s>
+<s> There are a lot of reasons for these issues beyond a bad product. </s>
+<s> The last few 399 buck laptops are doing fine so what you have is a warranty issue or some malware has gotten into this one. </s>
+<s> Your post doesn't tell much but a recent owner was complaining of crashes and they were leaving the laptop on the bed. </s>
+<s> Oops. </s>
+<s> Bob </s>

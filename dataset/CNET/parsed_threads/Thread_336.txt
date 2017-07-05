@@ -1,0 +1,33 @@
+<s> I am running an Athlon 64X2 dual core processor 6400+ 3.2 Ghz with 4 gig ram on a Gigabyte GA-M52S-S3P motherboard.I have a dual boot set up with the main hard drive on a SATA connection and the secondary hard drive on IDE, both are running XP SP2. </s>
+<s> About 50% of the time the screen freezes on boot up just after the single beep tells me that the BIOS is OK and about halfway through the screen listing the hardware. </s>
+<s> After several attempts the system will boot OK. </s>
+<s> I have updated the BIOS, but cannot find any reason for the freezing. </s>
+<s> Any suggestions would be welcome. </s>
+<s> Thanks, </s>
+<s> This sounds defective. </s>
+<s> Can you RMA it? </s>
+<s> NIL </s>
+<s> I am looking for possible causes to avoid having to return the unit halfway across Australia, and I have reset and upgraded the cmos. </s>
+<s> Thanks for responding. </s>
+<s> A new annoyance is if you built it yourself you must check the RAM VOLTAGE, settings and more to see if they match the RAM &quot;specifications&quot; as well as never overtax the power supply. </s>
+<s> As it stands you have a defective machine but so few details (such as I built it myself) that my first thought is the warranty. </s>
+<s> Bob </s>
+<s> I have several suggestions. </s>
+<s> First try re-seating any additional cards you are using; i.e. </s>
+<s> video card, network card, sound card. </s>
+<s> If no help, go to device manager. </s>
+<s> (in control panel|system properties| hardware tab) and check for any yellow question marks next to each hardware item. </s>
+<s> If any found, you need to get the proper device driver. </s>
+<s> If all hardware drivers properties say &quot;this device is working properly&quot; time to try something else. </s>
+<s> Re-boot into Safe Mode (Hit F8 key after post beep) and see if the boot process hangs after a certain driver is loaded. </s>
+<s> If it hangs, the last driver listed is the last driver that was successfully loaded. </s>
+<s> Take note of that listing and reboot again. </s>
+<s> If the system boots successfully (without hang) note the driver that was loaded after the previous hang spot. </s>
+<s> You may try updating that driver. </s>
+<s> Your case is difficult because it sometimes boots correctly. </s>
+<s> Try removing all extra cards and just boot with video card, keyboard, mouse,and hard drives. </s>
+<s> If no hang, you may have a bad device preventing boot. </s>
+<s> Go into the BIOS and check that the setting &quot;Plug and Play OS&quot; is enabled. </s>
+<s> You may have a bad motherboard. </s>
+<s> I had one once that would take 2 or three minutes to boot, but would never hang! </s>
+<s> I soon got tired of that and canned it! </s>

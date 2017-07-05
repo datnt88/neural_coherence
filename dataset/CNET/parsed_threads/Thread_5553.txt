@@ -1,0 +1,85 @@
+<s> I bought a Maxtor ATA 160 Gig hard drive to use in a USB enclosure as a receptacle for video files to make DVD's. </s>
+<s> I was able to format the drive thru accessories/system tools but am unable to gain the full 160 gigs. </s>
+<s> I know there is a 137 gig limit unless one has XP service pack one which I do have installed. </s>
+<s> The most I can get out of the new drive is about 39 gigs. </s>
+<s> Any suggestions to find the other 121 gigs? </s>
+<s> Joe </s>
+<s> Some USB enclosures have a 127GB limit. </s>
+<s> You didn't supply make/model number as well as the web site/manual for the enclosure so I can only share that some had this limit. </s>
+<s> Others try to use FAT32 on the volumes and a nuisance seems to crop up with the 137Gb limit. </s>
+<s> Try this. </s>
+<s> Once you are sure your SP1 XP is all proper, use the Drive Management tool to remove all partitions from the drive. </s>
+<s> Reboot and use the Drive Management tool to create the new partition and try again. </s>
+<s> My bet is you have the older USB enclosures. </s>
+<s> Bob </s>
+<s> Bob, the drive enclosure is by Manhattan and is a USB 2.0 enclosure. </s>
+<s> Their documentation is nearly non-existant and it does automatically format as FAT 32. </s>
+<s> There was no option to use it as an NTFS drive. </s>
+<s> I will use the tools you recommend and, if no luck I'll add it as a second drive in the computer. </s>
+<s> Thanks, Joe </s>
+<s> There are six listed at http://www.manhattan-support.com/driver-usb-enclosures.shtml A model number would be handy. </s>
+<s> As to formating in FAT32, that's very odd. </s>
+<s> 1. </s>
+<s> Why wasn't XP's drive management tool used? </s>
+<s> 2. </s>
+<s> I strongly advice against FAT32. </s>
+<s> Here's why. </s>
+<s> CHKDSK seems to not work on many (most or all?) </s>
+<s> USB 2.0 drives. </s>
+<s> FAT32 will develop errors and you won't have a way to resolve them. </s>
+<s> Bob </s>
+<s> There are two limit which you may encounter. </s>
+<s> One is the firmware limit (bios), the other is software limit (the OS). </s>
+<s> Because you are using USB (something else may come into play here); can't place my fingures on it but it may be there. </s>
+<s> As software goes, XP has a fix for it; maxtor also has fix for the other OS...check their website. </s>
+<s> If it's the firmware problem, possible solution would be to check for bios update or get a bios interface card (mine came with the maxtor drive). </s>
+<s> In your case, I don't know if it's worthwhile or not (for that extra 35GB). </s>
+<s> But anyway, good luck. </s>
+<s> I was all confused, my mistake. </s>
+<s> You hit the 40G limit, not the 137G. </s>
+<s> limit. </s>
+<s> The problem here is that we're not even sure if the hard (bios) can detect the whole drive or a potion of it. </s>
+<s> I might also add that with fat32 you will also run into the 4G. </s>
+<s> file size limit as well; so ntfs is the way to go when working with video because the size get BIG very quickly. </s>
+<s> XP limits partitions of FAT32 to 32GB each. </s>
+<s> That's more than 32 billion bytes which may be your 39 billion byte number (I haven't done the math.) </s>
+<s> You need to use the Drive Management tool to remove that and create the NTFS partition you want. </s>
+<s> bob </s>
+<s> Do you think I will be limited to the 137 GB and, if so, would it be partionable to two separate partitions approaching the 160 GB? </s>
+<s> Thanks, Joe </s>
+<s> I have an external USB 2.0 hard drive case and an 160GB drive in it. </s>
+<s> I used drive management and made a single 160GB NTFS partition. </s>
+<s> But I offered this advice. </s>
+<s> Have you tried it? </s>
+<s> Bob </s>
+<s> Not as of this writing but it shall be done this evening. </s>
+<s> Many thanks, Joe </s>
+<s> Bob, the model number of my enclosure is Manhatan 701594. </s>
+<s> Using the Disk Management Tool last evening, after reloading XPO SP1, I formatted the 160 Gig disk under NTFS and it would only format to 39.4 Gb. </s>
+<s> Am I still missing something? </s>
+<s> Thanks, Joe </s>
+<s> Many just need a gentle reminder that formatting just formats a partition and that doesn't change the size of the partition. </s>
+<s> What happens if you use Drive Management to delete the partition, create a new big one and format that? </s>
+<s> Bob </s>
+<s> Drive Management would only give one partition and it ran out to only 39.4 Gb, I deleted the partition, started over several times but could not find any options other than FAT or NTFS and the one partition which formatted at 39.4. </s>
+<s> Do I need to make any changes in my BIOS? </s>
+<s> This is a new Dell 2400 running Pentium 4, 256 memory and Windows XP. </s>
+<s> As I indicated, this is not a boot drive, only for bulk storage. </s>
+<s> So close... Time to examine those drive jumpers again. </s>
+<s> Bob </s>
+<s> Many HD vendors including Maxtor provide a &quot;helpguide&quot; or manual in order to help you install the HD. </s>
+<s> If you didn't get one, then visit the Maxtor support website and d/l it. </s>
+<s> While there review the limitations of the OS, or what's required for the full install. </s>
+<s> Understand also, once you get beyond the 39gb+ you seem to only get that the remianing gb's aren't going to ge 100% available, meaning some HD is loss to FAT/NTFS handling and such, a small amount compared to the HD true gb size. </s>
+<s> This is all explained at the support website. </s>
+<s> If you haven't already, visit the Dell support website as well, they too provide info ont his topic and probably rehash all said before on this thread. </s>
+<s> Here is Dell's link... http://service.dell.com/dell/cl/1,,33732+26+35994,00.html locate what you need, naviagte abit, its PITA, but its worth it. </s>
+<s> good luck -----Willy </s>
+<s> You could put it internally in the system, format it with NTFS to the full size, then put it back in the encolsure. </s>
+<s> That would almost definitely work. </s>
+<s> Bob.. </s>
+<s> I feel really stupid. </s>
+<s> The jumper was set to restrict the size. </s>
+<s> When I re-jumpered it for a master, it easily formatted for 152 GB. </s>
+<s> Thanks for being so patient, as usual. </s>
+<s> Joe </s>

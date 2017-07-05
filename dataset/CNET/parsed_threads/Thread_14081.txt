@@ -1,0 +1,67 @@
+<s> I am not really sure what I did. </s>
+<s> I formatted a new hard drive that is suppose to be 250 gb, but all I can see is 31.4 gb. </s>
+<s> I can't even see the extra 220 unallocated gb with any programs. </s>
+<s> Any one know what's wrong? </s>
+<s> Internal or external HD? </s>
+<s> What HD make and model name? </s>
+<s> What computer make and model? </s>
+<s> What operating system? </s>
+<s> If XP, what service pack? </s>
+<s> If you formated it using FAT32, then try repartitioning and formatting as NTFS. </s>
+<s> A link: http://www.seagate.com/support/kb/disc/capacity/index.html </s>
+<s> i think you might have to upgrade your BIOS cuz when i got a new hard drive 160gb my BIOS could only read 32gbs so when i upgraded i had the extra 100plus gb i was looking for. </s>
+<s> it often happens then there are some limitations on bios. </s>
+<s> u should unset them, or f u bios is quite old uprgrade it. </s>
+<s> My Viglen would only handle 40GB total so I couldn't even split my 80GB drive into two. </s>
+<s> I went here... http://www.unicore.com/ and ran their BIOS info program and ordered an upgrade - quite reasonably priced - they will issue you with a guarantee list of what the new BIOS will do for you. </s>
+<s> I can now see 137GB but my PC is still too old to see any more. </s>
+<s> You may be able to see more of your new HDD but you may be looking at a PC upgrade before seeing all of it. </s>
+<s> Good luck. </s>
+<s> First go into your bios (press del to enter setup when your pc is starting up). </s>
+<s> See if the hard drive is detected correctly there. </s>
+<s> If it comes up as the right size then the problem is with windows. </s>
+<s> If it comes up as the wrong size update your bios by going to the motherboard manufacturers website. </s>
+<s> If the problem is with windows firstly make sure you have windows updated, SP2 and all that (assuming you have xp). </s>
+<s> Then go to the hard drive manufacturers website and there should be a downloadable utility on there that allows windows to detect large hard disks (called big drive enabler or some such...) Hope this helps Tim </s>
+<s> This depends on which windows operating system you have. </s>
+<s> if 9x,either 95 or 98 you'll get 20gb,Me or 2000 is up to 32 gb, and XP home is up to 250gb. </s>
+<s> You may need to purchase Vcom Partition Commander(external program) to get use of the 250gb. </s>
+<s> When win XP formats a hard drive it sets aside a small portion for boot. </s>
+<s> Also if you don't tell winXP to format it all it won't. </s>
+<s> Hope this helps. </s>
+<s> Some hard drives come with a 32gig jumper to limit the drive for older computer. </s>
+<s> Check instruction sheet (or online) for proper jumper settings. </s>
+<s> Hi, First You need to know what Manufacture made the hard drive. </s>
+<s> You can try and go to the hard drives website and see if they have a small hard drive program that will automatically setup your hard drive for you to run on your system. </s>
+<s> Most of the hard drive companies have a program for this. </s>
+<s> Also check to make sure your System Bios is up to date. </s>
+<s> Many system Bios are not up to date, by the time you get the new pc up and running an update is already out. </s>
+<s> Hopefully your system is new enough to run large hard drives. </s>
+<s> If you submit more info as to the name of your hard drive, with model,the name of your PC (compaq 4300, IBM , ect. </s>
+<s> )name and model I can get you the info you need. </s>
+<s> JMH TRPost </s>
+<s> the prob is more than likely the 32 gig limit jumper on the back,will assume u have changed the jumpers and placed it in the wrong place that is all; Common mistake to make on new SATA drives Failing that do a full bios reset on your motherboard (check your manual how to short the jumper needed to do this) Then check that when you format the HD you use NTFS format </s>
+<s> you can NOT format a HD larger than 160gb into more than 1 partition it will mess up the HD, you will need to take the drive back and exchange it. </s>
+<s> I had the same thing happen to me when I was helping my dad build a new computer LAST year and that was the only way to fix the problem. </s>
+<s> Formatting largr HD's into more than one partition is done all the time. </s>
+<s> I posted a link with many of the causes and solutions in the first reply to this thread. </s>
+<s> From that point onward, everyone has duplicated that information in one way or another. </s>
+<s> Some more info: http://www.seagate.com/support/kb/disc/capacity/index.html http://www.48bitlba.com/ http://www.48bitlba.com/issues.htm http://support.microsoft.com/default.aspx?scid=kb;EN-US;q314463 </s>
+<s> ''Formatting largr HD's into more than one partition is done all the time.'' </s>
+<s> It is much better to write that partitioning larger HD's into more than one partition is done all the time. </s>
+<s> The formatting, of course, comes after that. </s>
+<s> 90% says that you messed up the partition and didn't know how to fix it. </s>
+<s> Partitions are mearly folder, yeah, folders on your hard drive, all you are doing is separating data. </s>
+<s> They should only be preformed in the utmost need... you see there is a chance that when you upgrade your bios that the flash transpher will be corrupt and if your bios does not have an backup copy of the original you are seriously screwed. </s>
+<s> If you cant see it, your computer cant find it because it might be too old but if it is not old , well............. you got rob. </s>
+<s> i think it could be because u partition it and there may be a hidden partition whereby u cannot see </s>
+<s> Recently I read an article about the same. </s>
+<s> I think this solution would help you know what exactly is wrong. </s>
+<s> It happens due to mother board of jumper setting. </s>
+<s> You may check out more about this here: http://www.techpavan.com/2009/04/29/hard-disk-capacity-limits-to-32-gb-solution/ </s>
+<s> any help I'm afraid. </s>
+<s> And according to your reference ..which is consistent with my experience, the limitation pertains to a jumper on the hard disk drive as indicated below...not the MB 2. </s>
+<s> Jumper Setting limiting Hard Drive Space A minimal mistake of inserting the jumper into hard disk jumper block will result in limiting the hard disk capacity to 32GB if HDD is of higher capacity or 2.1GB otherwise. </s>
+<s> The first and last jumper block confusion will lead to such problem. </s>
+<s> The first placement will be for Master, and last for limiting, users confuse it and find their hard drives limited to 32 GB. </s>
+<s> Refer to this diagram which illustrates the jumper usage in hard drives. </s>

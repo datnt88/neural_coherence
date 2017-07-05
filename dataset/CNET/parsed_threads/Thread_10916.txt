@@ -1,0 +1,23 @@
+<s> Every time I have to re-start my computer I lose the connection to one of the computers on our network. </s>
+<s> Can somebody help me fix this? </s>
+<s> We are currently running Windows XP on all computers. </s>
+<s> Thanks! </s>
+<s> what is it you mean? </s>
+<s> Is this a peer-to-peer network and you cannot see this one in &quot;Network Places&quot;? </s>
+<s> is it a mapped drive that doesn't show up each time? </s>
+<s> Is this the only one of several with which this happens? </s>
+<s> If so, I'd look at that computer and your own. </s>
+<s> I should have been more specific, I apologize. </s>
+<s> It's a peer to peer and yes I keep losing it from my Network Places whenever I have to restart my computer for any reason. </s>
+<s> We also have a mapped netork drive that keeps dropping from some of our other computers as well whenever they have to restart byut thats a whole other issue =) Thanks! </s>
+<s> With peer-to-peer networks, there is some sort of an &quot;election&quot; process that takes place and one PC is designated to keep track of all the shares. </s>
+<s> So, when you go to view your network places, it's through that one device....or so I understand. </s>
+<s> There is some sort of &quot;pecking order&quot; that can determine which PC is most fit to be the &quot;master browser&quot;. </s>
+<s> PCs that drop off and come back on (are reset) or are added later, trigger some sort of polling activity to rebuild the list of network shares. </s>
+<s> Of course if the master browser is reset, the whole voting process needs to be repeated. </s>
+<s> This will probably account for temporary absences or devices that are slow to show up. </s>
+<s> I don't understand this process very well and I'm sure someone here can explain it better. </s>
+<s> You can google &quot;master browser&quot; for more reading. </s>
+<s> But, one thing that will affect this and might have something to do with your problem is which network services are running on each PC. </s>
+<s> Of course firewalls are a factor. </s>
+<s> I'm assuming you've already made your local network and exception in any firewall settings. </s>

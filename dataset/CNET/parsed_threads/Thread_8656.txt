@@ -1,0 +1,74 @@
+<s> I have a Dell Inspiron 8600 running Windows XP SP2 with a TSSTcorp DVD+RW TS-L632D optical drive installed. </s>
+<s> This is a replacement for a similar NEC drive. </s>
+<s> When I insert a CD or a DVD, the drive thinks it is a new blank disc. </s>
+<s> This is the same behavior that caused me to replace the NEC drive. </s>
+<s> The drive is able to write files to the disc. </s>
+<s> Occasionally, if I go to the device manager and inspect the drive's properties, the drive will start spinning very fast and if I then double click the drive's icon in My Computer, it will read the files. </s>
+<s> This is what I have tried so far: Windows reinstall repair (booting from the DVD!) </s>
+<s> Uninstalling the drive and rebooting. </s>
+<s> Uninstalling CloneDVD and rebooting. </s>
+<s> It's not a dirty lens or a failing drive since both drives exhibit the same behavior. </s>
+<s> I think I've stumped every Dell technician in New Delhi (and they have really tried to solve this). </s>
+<s> Any suggestions would be much appreciated. </s>
+<s> Removed the usual registry entries named UPPERFILTERS and LOWERFILTERS? </s>
+<s> If you don't know what these are or if your Dell support didn't do this there is some hope. </s>
+<s> Cheers, Bob </s>
+<s> Wow, thanks for the prompt reply! </s>
+<s> I checked HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Class/{4D36E965-E325-11CE-BFC1-08002BE10318} and found no UpperFilter or LowerFilter entries. </s>
+<s> I believe the techs did remove those when they were trying to fix the problem. </s>
+<s> I also checked ControlSet002 and ControlSet003 under HKEY_LOCAL_MACHINE/SYSTEM just in case they are relevant. </s>
+<s> They had no filter entries either. </s>
+<s> NIL </s>
+<s> I haven't found a ControlSet001, only CurrentControlSet, 002, and 003. </s>
+<s> Looks to be there. </s>
+<s> Next time just search for UPPERFILTERS and share what keys you find as well as the LOWERFILTERS ones. </s>
+<s> Since no 2 windows machines are the same, you get to help us help you. </s>
+<s> Bob </s>
+<s> Had the same prob they are right try to remove the upper and lower filters But it kept coming back to me!!!!!!!!!!!! </s>
+<s> I found out that the back up feature of norton 360 was causing it, I have since stopped using the back up and it had never happened again </s>
+<s> When I searched on UpperFilters, I came across numerous entries for other devices and then came across an entry in the following key: HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Enum\CdRom_NEC_DVD+RW_ND-5100A___________10AC____\5&1517b2fe&0. </s>
+<s> I'm not sure how many underscores are in the key name. </s>
+<s> If I try to delete the UpperFilters entry here I get an error message box titled &quot;Error Deleting Values&quot; with the message &quot;Unable to delete all specified values.&quot; I also found an UpperFilters entry under the key HKEY_LOCAL_MACHINE\SYSTEM\ControlSet002\Control\Class\{4D36E965-E325-11CE-BFC1-08002BE10318}. </s>
+<s> This was the key that the Dell tech asked me to look in along with ControlSet001 and ControlSet002. </s>
+<s> I thought that I had deleted it but it was there. </s>
+<s> I've deleted it and will now restart and see if it made any difference. </s>
+<s> After rebooting, the first data CD I put in was read correctly. </s>
+<s> After that, it went back to the same old behavior thinking every disc I put in was blank. </s>
+<s> I rechecked the registry but the UpperFilter entries were still gone. </s>
+<s> I think I may be ready to reinstall Windows. </s>
+<s> Is that my best course of action at this point? </s>
+<s> How old? </s>
+<s> How long since you used a CD/DVD lens cleaner? </s>
+<s> Be aware that many would rather reload the OS ten times than replace a possibly bad drive. </s>
+<s> I can't figure out why. </s>
+<s> Bob </s>
+<s> I purchased a replacement drive at Dell's suggestion and it displays the same symptoms. </s>
+<s> I don't think it is the drive. </s>
+<s> Also, When I did a repair reinstall of Windows the computer read the CD just fine. </s>
+<s> You didn't tell. </s>
+<s> Also I can't tell what CD/DVD software you use. </s>
+<s> Some is out of date (or you have the Norton) or you have some combo of software that is toxic. </s>
+<s> Such details are not here. </s>
+<s> Bob </s>
+<s> I am running Norton Security Center, but I don't use it for backups. </s>
+<s> For that I use Bounce Back by CMS. </s>
+<s> I used to use Easy CD Creator Platinum 5 but it started causing an error some months ago and I no longer attempt to use it. </s>
+<s> However, I haven't yet uninstalled it. </s>
+<s> I also recently tried out CloneDVD but it didn't meet my needs so I uninstalled it. </s>
+<s> Any clues there? </s>
+<s> Robert </s>
+<s> If you want to test it, do your repair install and carefully test when it breaks by using said software titles. </s>
+<s> Then complain to that title's maker for an update. </s>
+<s> Bob </s>
+<s> Hi i am using a acer aspire sa90 an appear to not have the ablity to read info in a disc which was burnt in win xp and i am rinning win xp and other discs are read proprerly by my dvd rom and the same kodak disc works awesomly in my dvd player(home theater) tell me how to read the files please!! </s>
+<s> ! </s>
+<s> Now make a PROPER closed session data CD. </s>
+<s> I can use CDBURNERXP for this. </s>
+<s> that dosnt work either </s>
+<s> This issue always comes down the above issues PLUS one more. </s>
+<s> Install this http://www.download.com/Autorun-Eater/3000-2239_4-10752777.html then reboot. </s>
+<s> I won't detail why this is needed. </s>
+<s> We have lenghty discussions about it. </s>
+<s> -&gt; Next up. </s>
+<s> Tell me about what happens when you put in a FACTORY made data CD or game CD and not one you made. </s>
+<s> Bob </s>

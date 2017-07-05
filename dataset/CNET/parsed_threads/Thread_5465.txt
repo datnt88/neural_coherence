@@ -1,0 +1,26 @@
+<s> Hi all, Running WinXP Pro. </s>
+<s> Computer has been running fine. </s>
+<s> Then installed SP3. </s>
+<s> After that, at every startup I got 2 error messages. </s>
+<s> The first error message said: AirGCFG.exe - Entry Point Not Found. </s>
+<s> The procedure entry point apsGetInterfaceCount could not be located in the dynamic link library wlanapi.dll When I clicked 'ok' on that message, a second error message came up that said: WZCSLDR2.exe - Entry Point Not Found. </s>
+<s> The procedure entry point apsInitialize could not be located in the dynamic link library wlanapi.dll I have since learned that the 2 error messages could have been removed by simply updating the Dlink wireless driver. </s>
+<s> Before I discovered that fix, I did the following. </s>
+<s> I put the PC in Safe Mode, and I checked C:\Windows\SYSTEM32\wlanapi.dll to see if the SP3 install had added a second wlanapi.dll file. </s>
+<s> I thought that might be causing the problem based on some suggestions I found in a google search. </s>
+<s> Then I deleted another file that's almost identical. </s>
+<s> It was the file: WlanApi.dll. </s>
+<s> The W and A are capitalized and the file size was larger than the wlanapi.dll file that I didn't touch. </s>
+<s> Within a second or two after deleting the WlanApi.dll file, the monitor froze. </s>
+<s> I hit the soft reboot and now when the computer comes on, the monitor stays completely blank, nothing on it, no post, nothing. </s>
+<s> I turn the pc off and on and there are no beeps, all pc led's come on, the fans are on, the dvd led's light up for a moment, but monitor is blank. </s>
+<s> Any ideas on what I can do to get the pc up and running again would be greatly appreciated. </s>
+<s> If you can start in Safe Mode try to restore to an earlier date. </s>
+<s> Pick Last known good configuration. </s>
+<s> I'm not aware of any file on a HD that will block the machine from POST. </s>
+<s> If the machine &quot;did&quot; beep after POST and now does not....make it smaller. </s>
+<s> Work with the bios....get the machine to beep. </s>
+<s> You don't need for a beep. </s>
+<s> HD's Floppies Optical Other Unplug that stuff.....get the machine to beep. </s>
+<s> Thanks for your input, I followed the steps in the &quot;No POST&quot; guide, and now my pc is working good. </s>
+<s> http://www.techspot.com/vb/showthread.php?p=667161 </s>

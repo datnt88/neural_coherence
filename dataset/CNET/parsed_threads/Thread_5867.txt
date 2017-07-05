@@ -1,0 +1,130 @@
+<s> I hope someone can help me make sense of this. </s>
+<s> I seemingly lost four external hard drives within hours of eachother. </s>
+<s> For simplicity, will limit the scenario to two for the moment: Lacie #1 and Lacie #2. </s>
+<s> Initial Event: Lacie #1 External: I accidently used a different power supply adapter when trying to start Lacie #1 External. </s>
+<s> The one I used had slightly different amp output. </s>
+<s> Stupid mistake... </s>
+<s> The Lacie #1 External power light flickered for just a moment, then went out. </s>
+<s> The drive never spun up, nor made a sound. </s>
+<s> Result: Lacie #1 External would not turn on. </s>
+<s> *** I had an identical Lacie external - Lacie #2 - so I thought I might try using that to recover data from the failed Lacie #1 drive. </s>
+<s> *** Secondary Event: Lacie #2 External I tested Lacie #2 external with proper power adapter. </s>
+<s> It powered up normally. </s>
+<s> so I removed the hard drive from Lacie #1 housing and installed it into Lacie #2 housing. </s>
+<s> Then I tested Lacie #2 external with proper power adapter. </s>
+<s> Lacie #2 light flickered, then went out. </s>
+<s> Why? </s>
+<s> I assumed it failed to read drive #1, which must be corrupted. </s>
+<s> so Removed hard drive #1 from Lacie #2 housing, and reinstalled drive #2 into it's original Lacie #2 housing. </s>
+<s> Tested Lacie #2 again, with proper power adapter. </s>
+<s> Now Lacie #2 would not power up at all, where it just worked fine two steps ago. </s>
+<s> Final Result: Lacie #2 failure. </s>
+<s> What happened here? </s>
+<s> I understand how the initial event for Lacie #1 could cause failure in both drive #1 and/or the Lacie housing #1. </s>
+<s> But how could that lead to the second event failure in Lacie #2? </s>
+<s> Is it possible that the bad drive from #1 somehow corrupted the Lacie #2 housing power? </s>
+<s> How is that possible? </s>
+<s> And since drive #2 was outside of it's housing when the failure occurred in Lacie #2, does that mean drive #2 is most likely healthy? </s>
+<s> Any advice is much appreciated. </s>
+<s> But look at the top of this forum sticky &quot;Lost and Found&quot; for the LaCie miracle. </s>
+<s> Too bad they didn't standardize power plugs in this industry. </s>
+<s> Bob </s>
+<s> It is my guess that, at the least, I fried the logic board of the drive. </s>
+<s> At this point, it does not seem to respond to power, period. </s>
+<s> So I am buying a used drive - same model, same firmware - and going to try and swap that logic board onto my Lacie #1 drive. </s>
+<s> Question though... what should I hook it up to from there? </s>
+<s> Can I simply plug the drive into an ATA Ultra compatible PC, and let the computer try to recognizie it? </s>
+<s> Because it was a standalone drive in the LaCie, is there any kind of boot/partitions configurations on the drive for the LaCie, that might cause the PC to not recognize it? </s>
+<s> This is beyond my pay grade, but I want to give it a shot, and save the $$$ of having some recovery firm do the work. </s>
+<s> Thank you! </s>
+<s> Explains how they got the data out. </s>
+<s> As to hooking up drives to PCs that has to be something we see on too many web pages. </s>
+<s> Try reading a few more. </s>
+<s> Bob </s>
+<s> Thanks Bob. </s>
+<s> Stayed up late last night and worked it out. </s>
+<s> Here's what most likely happened. </s>
+<s> 1. </s>
+<s> When powering on Lacie #1 with the the bad adapter, it instantly fried BOTH the #1 housing logic board as well as the installed #1 hard drive logic board. </s>
+<s> 2. </s>
+<s> When I swapped in bad #1 drive into Lacie #2 housing, and tried to power it up, the bad drive somehow fed-back it's power failure into the Lacie #2 logic board, frying it as well. </s>
+<s> (I still don't understand why this was the case - why didn't it just fail to read the bad drive. </s>
+<s> Talkin bout a widow-maker) For anyone counting, that's 3 logic boards down. </s>
+<s> 3. </s>
+<s> My hunch was correct about drive #2 being healthy. </s>
+<s> It was out of the housing when Lacie #2 housing fried. </s>
+<s> When I reinstalled #2 drive back into the #2 housing, the housing logic board was dead, so could not pass on any further failures to the #2 drive. </s>
+<s> 4. </s>
+<s> In answer to my own question about how to get a PC/WXP box to read the former Lacie #2 ATA drive, all I had to do was remove a jumper on the drive, making it a slave drive. </s>
+<s> Once I did that, my PC read the disc 100%, with all the old Lacie formatting, partitions, etc. </s>
+<s> 5. </s>
+<s> As previously posted, my drive #1 was not running when it fried, it just failed to power-up, so I was almost certain all my data, physical disc, and heads were healthy. </s>
+<s> It was just the power. </s>
+<s> I stumbled upon a great website: http://www.deadharddrive.com/ - can swapping logic boards be that easy? </s>
+<s> - and just so happens I had a Torx socket sitting in my mini computer kit, unused for the last 20 years - so I popped off the healthy #2 drive logic board and installed it on the #1 drive, plugged that into my PC/WXP box and... WOOHOO - there's all my 320gb of data. </s>
+<s> I had recovered my own hard drive! </s>
+<s> The local data recovery shakedown joint was ready to charge me over a grand per drive (I'm sure they would have too, despite it actually being an easy fix, especially for experts in the field, this would have been nothing.) </s>
+<s> 6. </s>
+<s> I found a matching model/firmware drive on Ebay cheap - sectors are bad - but all I need from it is the healthy logic board - so I will swap that in for the burnt out board on drive #1. </s>
+<s> Recall, I actually had four total drives go down, so still have to find another cheap matching logic board for drive #3. </s>
+<s> 7. </s>
+<s> That leaves me sitting with four worthless LaCie housing shells, all apparently with burt out logic boards of their own. </s>
+<s> Plus I have to find permanent, networked new housing for the four hard drives. </s>
+<s> I don't want a whole new PC just for that. </s>
+<s> What to buy?? </s>
+<s> ? </s>
+<s> Can I call it a game? </s>
+<s> Well it is a puzzle which is a game so let's share what I tried in the past. </s>
+<s> 1. </s>
+<s> SERVER. </s>
+<s> Any old PC can be a server. </s>
+<s> Upside - Many are free. </s>
+<s> Downside - All of them seem to draw 100 Watts. </s>
+<s> 2. </s>
+<s> A simple server like http://www.iogear.com/product/GMFPSU22W6/ Upside - Found for 25 bucks. </s>
+<s> Downside - Not too speedy. </s>
+<s> Lesson - Not a single small NAS is what I call fast. </s>
+<s> The issue is the link. </s>
+<s> It's all of 100 megabit, usb 2 is 480 and sata is 1500 megabit. </s>
+<s> 3. </s>
+<s> Next up. </s>
+<s> A netbook. </s>
+<s> Walmart has a 228 buck netbook. </s>
+<s> Might be the cure to item 1. </s>
+<s> Bob </s>
+<s> 1. </s>
+<s> As long as the &quot;old&quot; bios supports drives in the 300gb range, yes? </s>
+<s> I imagine most would. </s>
+<s> 2. </s>
+<s> This would be more for long-term storage rather than speedy serve-backs. </s>
+<s> Soooooo, I could live with those slower speeds. </s>
+<s> I actually have a new (unpacked) HP EX495 - intended to be used as a media server for music, video, etc to my networked home devices. </s>
+<s> I quickly glanced at the manual last night - says it wants to reformat any new drive to become part of the server. </s>
+<s> Will it really not let me add a pre-formatted drive with content? </s>
+<s> I should take a second look. </s>
+<s> 3. </s>
+<s> Netbook - I'm confused. </s>
+<s> How will my four raw drives fit into that housing? </s>
+<s> Are you suggesting I buy new individual/external housing for the drives, and cable them in via USB/FW? </s>
+<s> http://www.geeks.com/search.asp?QUERY=freegene I have the black unit and it can do a JOBD RAID (read http://www.pcguide.com/ref/hdd/perf/raid/levels/jbod.htm ) Mine has a pair of 50 buck 750GB drives. </s>
+<s> Upside - Cheap 1.5GB USB drive. </s>
+<s> Downside - A little noisy. </s>
+<s> Bob </s>
+<s> That looks promising. </s>
+<s> All four existing disks are stuffed full of content, and if possible, I want them to stay that way... Reformatting into an JBOD RAID or other array is not mandatory with that hardware is it? </s>
+<s> I will take a closer look. </s>
+<s> Appreciate the tips Bob! </s>
+<s> J. </s>
+<s> I like the Freegene concept. </s>
+<s> Have a $25 NewEgg gift card burning a whole in my pocket however, so will try out the Eagle branded version. </s>
+<s> http://www.newegg.com/Product/Product.aspx?Item=N82E16817193040&cm_re=3.5_external_disk_enclosure-_-17-193-040-_-Product </s>
+<s> The drive arrived with almost zero documentation and in the dual drive, two drive letters show up mode. </s>
+<s> Since I wanted it to be a clone of another 1.5TB drive (for cheap) this is why I moved the jumper. </s>
+<s> Now I'm back to the my 3 copies to achieve some reliable backup system. </s>
+<s> Bob </s>
+<s> Newegg survey says the fan on that Eagle is worthless - will die in a matter of months. </s>
+<s> Any issues like that w/ the Freegene? </s>
+<s> So I can't speak about longevity. </s>
+<s> It runs about 2 hours when I sync the systems and then it's back to the storage bin for safety. </s>
+<s> I read the newegg review and since I'm handy with drill presses, wires, solder and more I think it is fixable. </s>
+<s> Or like one wrote they leave the cover off. </s>

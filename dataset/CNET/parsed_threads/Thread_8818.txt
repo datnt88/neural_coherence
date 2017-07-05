@@ -1,0 +1,27 @@
+<s> Hello everyone, I purchased a new video card yesterday &quot;SAPPHIRE ATI RADEON HD5770&quot;. </s>
+<s> I placed it on the 16x slot. </s>
+<s> And thought everything was going to be fine after, was I wrong. </s>
+<s> My problem is my Integrated Video card, won't uninstall (NVIDIA GeForce 6150). </s>
+<s> I uninstalled its drivers and used DriverSweeper to clean the display, but it just returns back after a restart. </s>
+<s> Does anyone know how to disable the integrated video card? </s>
+<s> PC Specs (HP Pavilion model# a6110n): AMD Athlon 64 X2 Dual-Core Processor 4400+ 2GB of Ram NVIDIA GeForce 6150 / nForce 430 Windows Vista Home Premium 32bit. </s>
+<s> Also is it normal for my new card (ATI RADEON HD5770) to be really loud? </s>
+<s> Thank you for your help. </s>
+<s> I never uninstall the old integrated card. </s>
+<s> I just set it &quot;don't use this device&quot; in the device manager of Windows. </s>
+<s> Bob </s>
+<s> You can't &quot;uninstall&quot; an embedded device such as an on-board video card. </s>
+<s> Go to Device Manager and use the option to disable this device. </s>
+<s> Choose PCI&lt;typeX&gt; F10 or whatever to save. </s>
+<s> Boot. </s>
+<s> Video cards have nothing to do with sound. </s>
+<s> That's separate. </s>
+<s> If the display is using the new driver then you need to follow the above advice and also manually remove the driver. </s>
+<s> If the display is using the old driver, install the new. </s>
+<s> Sometimes motherboards with built-in video have a setting in the BIOS to disable the integrated video and/or to set which video to run first. </s>
+<s> That should do it. </s>
+<s> .bh. </s>
+<s> you're forgetting one thing: the GPU fan GPU fans can be loud, especially if they're uber cheap. </s>
+<s> I had a client one time whose GPU fan ran decently quiet for a long time, and then the bearings in the fan gave out, causing a shriekingly loud screech whenever the fan spun. </s>
+<s> Because she didn't need a high-end video card anyway, I swapped it out for a fanless, lower-end model. </s>
+<s> If your fan is making more noise than you think it should and you just bought it, you may want to consider taking it back, or perhaps asking a techy friend what they think about the noise. </s>

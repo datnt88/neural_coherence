@@ -1,0 +1,78 @@
+<s> We have 3 identical (hardware) networked computers, with a Laser printer directly connected to the 2nd computer. </s>
+<s> 2 computers cannot gain access to the Laser, it says they don't have permission. </s>
+<s> I thought I had covered all the permissions by granting admin priveleges to all 3 (there are no security worries here) but have missed something very important when it comes to this printer. </s>
+<s> All 3 computers do have successful, easy access to a 4th data repsoitory server box also with 2000, as well as a huge networked Canon Color printer. </s>
+<s> Does anyone have a suggestion as to what to try or where to get some detailed information on assigning rights on a peer 2 peer 2000 network? </s>
+<s> Thanks royala </s>
+<s> Did they have an account on the machine with the laser printer (same name and password?) </s>
+<s> Did you install a firewall and forget about it? </s>
+<s> &quot;Does anyone have a suggestion as to what to try or where to get some detailed information on assigning rights on a peer 2 peer 2000 network?&quot; There is this tome called the Microsoft Windows 2000 Service Resource Kit. </s>
+<s> Very complete and applies to what you need to know. </s>
+<s> Also, www.ora.com has oodles of books on Windows 2000 still. </s>
+<s> Bob </s>
+<s> There are no firewalls...with dialup and the type of internet use implemented, they aren't critical. </s>
+<s> If I am on PC1 and want to use the Laser on PC2, I access the Laser in Network Places, it asks for login and password, I enter the name PC1 (machine name), no password, and I have access to the laser. </s>
+<s> Rebooting takes that access away and re-logging in needs to be done. </s>
+<s> If I don't use the access method above, the &quot;access denied&quot; error appears with no alternatives. </s>
+<s> There must be something I missed in the permissions' setup to make PC2 have to ask for the login to gain access, I just can't find what it is. </s>
+<s> I have the resource Kit for W2K Servers, so I know how much these Resource kits cost, and I'm not going to buy another one, not for a few, nearly outdated O/S's. </s>
+<s> Same goes for any books covering W2K. </s>
+<s> Vista, yes. </s>
+<s> With all the knowledge and suggestions available on the good sites on the 'net, I was hoping some one could help with this a bit. </s>
+<s> Thanks for your reply. </s>
+<s> royala </s>
+<s> I assume you run everything through a router (or switch and server (acting as the router)) Now the question, are the users Local Adminstrators, as well as adminstrators of the domain? </s>
+<s> Sometimes this can be overlooked and is worth asking. </s>
+<s> if they are, in fact, local admins, then possibly checking the adapters on the affected computers for the status of IPX/SPX protocol and toggling the status would help. </s>
+<s> Make sure that IPX/SPX is either completely enabled on every computer or completely disabled and see if that changes anything. </s>
+<s> The way a shared printer SHOULD work is when you find it in your network places, double-clicking it should create a connection that is relatively permanent without asking for a username or password. </s>
+<s> Make sure in the sharing and security settings that the group Everyone has full access to the printer. </s>
+<s> Hope that helps a little. </s>
+<s> Chris </s>
+<s> Thanks for the reply, Chris. </s>
+<s> I don't have access to the PC's until this coming week, and will check on the Local Administrator user settings. </s>
+<s> I have been over it too many times, but I don't believe that Local Admin is setup. </s>
+<s> Good suggestion. </s>
+<s> I do know that the printer is shared, and Everyone has full access, but I will check again since looking at it so much may have affected my minds eye!! </s>
+<s> I will also check (ping?) </s>
+<s> the adapters and their status, and see if there is a difference if enabled or disabled. </s>
+<s> I'm hoping to allow PC1 and PC3 to have the Laser printer on PC2 as an option in FILE, PRINT, just like the Big Canon Color Copier/Printer. </s>
+<s> Thanks for the advice and possible solutions, and I will let you know as soon as I can get to the machines next week. </s>
+<s> Have a wonderful New Year! </s>
+<s> royala </s>
+<s> While I dropped the hint, you did not answer my question. </s>
+<s> &quot;Everyone&quot; to this OS is everyone with an account on the server PC. </s>
+<s> Enabling the Guest account is a dumb thing to do since it opens to the doors to disaster. </s>
+<s> Bob </s>
+<s> Bob, I'm sorry I didn't answer your question...I probably misunderstood. </s>
+<s> But there are no guest accounts except default, and there is no server, per se. </s>
+<s> The 'server' box is a W2k workstation in a locked closet so it can't be used by anyone but me. </s>
+<s> All databases and documents simply reside there for ease of use and as a central depository. </s>
+<s> The other 3 PC's have full permissions/access to it. </s>
+<s> The 3 PC's access the Internet (dial-up, only method available) through a 3Com modem/router and Hub. </s>
+<s> This is a very simplistic &quot;network&quot;, no permission or access limits for anyone. </s>
+<s> That is what is so frustrating at this point...the old HP LaserJet 2100 worked just fine for all users. </s>
+<s> I've supposedly granted full permissions to the entire list....from Administrator to Backup Operator to Users. </s>
+<s> I'll check Everyone again next week. </s>
+<s> I have not configured or changed configurations somewhere and can't find my error. </s>
+<s> But now I am ADMINISTRATIVE TOOLed out. </s>
+<s> That's why I'm turning to you experts for help. </s>
+<s> Thanks royala </s>
+<s> In a Microsoft world, &quot;Everyone&quot; is only those with accounts on that server (even if a fake one). </s>
+<s> The repeating mistake is that the account &quot;JoeUser&quot; while it is on the workstation was not on the server. </s>
+<s> A post like yours will happen and the dance begins about &quot;Everyone&quot; having access. </s>
+<s> The definition of &quot;Everyone&quot; is key to understanding the issue. </s>
+<s> ALSO, those accounts could EXPIRE unless you change that setting. </s>
+<s> Bob </s>
+<s> I think (I may be wrong) you have to create a user account for everyone, on that pc (the one with windows 2k and the printer...) make sure anyone or everyone can access each other .. or atleast to the pc with the printer ... and usually, you connect a printer to a pc, install a driver, enable files and printer sharing, add printer to the other pc (install driver if needed)... .. your way of accessing the printer via network places .. is common on a printer server environment (where the printer is connected to a printer server) Again I may be wrong... Merry Christmas and Happy New Year... </s>
+<s> This is where some miscommunication occurs. </s>
+<s> The word &quot;Everyone&quot; is found on the configuration screens and unless you define the word &quot;Everyone&quot;, the person with the issue may not create Joe, Jane, and Sally accounts that belong to the Everyone account. </s>
+<s> Bob </s>
+<s> Melati, As far as I'm concerned, you are right. </s>
+<s> Your step-by-step is how I set up this new Laser, or any printer...that's how I had the old laser set up. </s>
+<s> I agree with not accessing the printer via network places, I'd rather they just choose their printer in the print function of Word, Excel, Quickbooks, Act, Photoshop, etc. </s>
+<s> But the ACCESS DENIED message appears using this method. </s>
+<s> So by going into network places, the ENTER USER appears, the computer name is typed in , and access is granted until a reboot. </s>
+<s> I thought I had set up this Laser identical to the other. </s>
+<s> But I guess not. </s>
+<s> Thanks royala </s>

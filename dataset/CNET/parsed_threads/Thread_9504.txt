@@ -1,0 +1,59 @@
+<s> Hello. </s>
+<s> I recently decided to try to hook up two monitors to my Dell Dimension 5100C. </s>
+<s> I had been using my ATI Radeon x600 SE with one monitor, but the system also has integrated graphics on the motherboard. </s>
+<s> I thought I could simply hook up a second monitor to the integrated graphics VGA output, but it seems that my motherboard keeps the integrated graphics card disabled so long as my ATI card is connected to its PCI slot. </s>
+<s> I tried going into the BIOS to enable the onboard graphics, but it isn't an option; the only way I can enable it is by removing my ATI card. </s>
+<s> Does anyone know of a way to stop my on-board graphics card from being disabled automatically? </s>
+<s> this is probably a BIOS setting. </s>
+<s> I don't know of a way to get around this. </s>
+<s> Most of the new graphics cards have 2 connectors on the back. </s>
+<s> The information I am finding on the Radeon X600 SE is saying it is a mobile chipset for laptops. </s>
+<s> You sure you have the right info? </s>
+<s> You can check in the device manager to see if you see 2 ATI Radeon video cards too. </s>
+<s> If there are 2 listed there, you can use both connectors on the card. </s>
+<s> There should be an adapter with the stuff that came with your card. </s>
+<s> Give us an update. </s>
+<s> Usually this is a BIOS feature that can be ENABLED or DISABLED. </s>
+<s> Since you indicate not finding that...perhaps there's a jumper on the MB ? </s>
+<s> You are sure about having a separate PCI video card right ? </s>
+<s> a graphics card that supports dual monitors. </s>
+<s> two co-existing cards (that support dual monitors)? </s>
+<s> or must it be done with one card ?? </s>
+<s> ? </s>
+<s> I have two options for video in my BIOS: 'auto' and 'PEG/On-board'. </s>
+<s> The former is described as using whatever PCIe graphics card is installed. </s>
+<s> The second says it will use the on-board graphics UNLESS there is a graphics card in the PCIe slot, in which case it will use that and disable the onboard graphics. </s>
+<s> I was hoping there be a simple 'On/Off' choice for the onboard graphics. </s>
+<s> I don't know if there is a jumper. </s>
+<s> It had crossed my mind, but I haven't had the time to find out. </s>
+<s> The deal with my graphics card is that my computer has a compact chasis and therefore requires a half-height PCIe card. </s>
+<s> My ATI card has two hookups, but they are DVI and S-video. </s>
+<s> The card does show up twice in the Device Manager, though, so thanks for that tip. </s>
+<s> is a PCIe 1x, and at the moment I only know of one available graphics card that has been developed for it, by Matrox. </s>
+<s> I think the PEG/On-Board is for a pass through cable. </s>
+<s> It was just bypassing the graphics card processing from the onboard to the video card. </s>
+<s> If I remember correctly, it would push all of the processing to an optional video card. </s>
+<s> You still only got one signal for a monitor. </s>
+<s> This system is too new though fir a connector from the board to the video card. </s>
+<s> I am a little puzzled by some of the information below though. </s>
+<s> This is interesting - right from the cNet review of your computer: http://reviews.cnet.com/Dell_Dimension_5100C/4505-3118_7-31429802-2.html?tag=nav The new Intel GMA 950 integrated graphics provides a step up from the older GMA 900 graphics core, but it still can't compete with today's dedicated 3D graphics cards. </s>
+<s> We didn't expect earth-shattering 3D performance from the 5100C and rightly so; it isn't geared toward gamers. </s>
+<s> A score of 66.2 frames per second on our Unreal Tournament 2003 tests means you'll be able to play some older games, but many of today's graphics-intensive 3D titles will bring this system to its knees. </s>
+<s> The system wouldn't run our Half-Life 2 and Doom 3 benchmarks, but for an extra $80, you can add a half-height version of ATI's 128MB Radeon X600 SE card. </s>
+<s> It won't help your 3D scores that much, but it will make the 5100C a stronger system for Photoshop and Media Center features in general. </s>
+<s> http://support.dell.com/support/edocs/video/P97737/en/specs.htm It looks like this might share some system memory. </s>
+<s> http://support.dell.com/support/edocs/video/P97737/en/displays.htm It looks like it has multiple displays. </s>
+<s> Unless the second display does not enable, and the third display would be the S-Video. </s>
+<s> External Connections 15-pin D-shell (female) VGA output. </s>
+<s> DVI-I output. </s>
+<s> S-Video output. </s>
+<s> * HYPERMEMORY is the total of local and available shared system memory used by the GPU for the processing and creation of 3D and other images. </s>
+<s> Local on-board video memory is 128MB. </s>
+<s> http://www.compatible-parts.com/product_info.php?products_id=745?ad_Comp_Froogle I wonder if there is an optional bracket for your video card. </s>
+<s> You might want to talk to ATI about that. </s>
+<s> I'll look into it. </s>
+<s> Thanks. </s>
+<s> NIL </s>
+<s> You need to replace your current graphics card to one that supports dual monitors. </s>
+<s> I just discovered there is a way to hook a second monitor via your USB port. </s>
+<s> http://www.pcworld.com/howto/article/0,aid,120707,pg,1,00.asp </s>

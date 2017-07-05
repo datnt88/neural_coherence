@@ -1,0 +1,24 @@
+<s> Hoping some clever folk can give me some advice on a problem that has developed recently. </s>
+<s> Powered down to install an audigy4 sound card and when i rebooted the seagate sata drive was not recognised. </s>
+<s> No bios settings were changed and the only change i made before shutting down was removing the onboard Realtec AC97. </s>
+<s> I have read up on different forums to try and solve but have had little luck. </s>
+<s> Each time i boot up get the following 'Reboot and select proper boot device' I have checked in bios setup that onboard sata controller is enabled and checked all leads etc. </s>
+<s> and that 1st boot device is Hard Drive. </s>
+<s> I have made a floppy driver diskette from the mobo cd and rebooted with xp disc in and hit F6. </s>
+<s> Installed diskette and ran through the system setup Obviously i do not want to install xp and so went to repair option this then recognised the sata partitioned hard drive! </s>
+<s> Problem is when i reboot its back to square one and the hard drive is not recognised. </s>
+<s> I have downloaded seagate diskwizard and made two diskettes to install on bootup. </s>
+<s> This does not recognise the drive either. </s>
+<s> Not sure if this is correct from IDE configuration in bios setup Onboard IDE controller - both Onboard sata controller - enabled Primary IDE master - not detected Primary IDE slave - not detected Secondary IDE master - not detected Secondary IDE slave - not detected Other than reinstalling xp and loosing my existing c drive on the sata I am at a loss Appreciate any help with this OS Xp Home Edition SP2 Asrock K8Upgrade-1689 bios P1.20 AMD Athlon 64 Processor 3000+ 80G Seagate SATA HDD 7200/8M </s>
+<s> NIL </s>
+<s> NIL </s>
+<s> I obviously was not looking hard enough!! </s>
+<s> Went into BIOS Bios-boot-hard disk drives. </s>
+<s> This only detailed IDE I disabled IDE (no sata shown?) </s>
+<s> and rebooted. </s>
+<s> Then if i hit Ctrl+A I go to all sorts of settings for the sata drive-I did not have a clue on this and did not want to mess with settins as i do not understand raid etc and so I rebooted. </s>
+<s> Went into BIOS Bios-boot-hard disk drives IDE detailed Sata serial No. </s>
+<s> Enabled this and changed boot up to hard disk 1st device. </s>
+<s> Hey presto Windows starts up! </s>
+<s> Now more than happy that I have all files etc but can you explain to a novice what I have done? </s>
+<s> Thanks for your reply </s>

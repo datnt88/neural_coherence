@@ -1,0 +1,90 @@
+<s> Installed a new DVD burner to replace a worn-out CD burner, and I'm tired of tossing CDs and DVDs in the trash after a failed burn. </s>
+<s> Nero burned and read a test disk OK, so I'm pretty sure the hardware is fine, but any attempt to burn anything else (music, data, etc.) </s>
+<s> gives me an error message and another wasted disk. </s>
+<s> Nero Express 6.6.0.6 Aopen DUW 1608 12X DVD Burner (replaced Mitsumi CR-485 FTE CD-R/RW) Sony DVD-Rom DDU 1621 XP Pro 512 MB RAM 80 GB HD P4 2.6 Ghz HTT on PC Chips M906 MB with Intel 845 Chipset. </s>
+<s> I made sure I have the latest version of Nero, and used Nero's cleaning utility to completely uninstall/reinstall. </s>
+<s> I updated the IDE controller drivers from Intel website (as suggested on Nero's help page - and by the way, Nero doesn't seem to respond to service requests), and made sure there wasn't a newer driver available from Aopen. </s>
+<s> Yesterday I tried CDBurner XP Pro, and got the exact same results - another wasted disk. </s>
+<s> Media: Maxell CD-R (worked great with Mitsumi) and Intenso DVD+R. </s>
+<s> I think it may be the old driver for the Mitsumi, but I have no idea how to remove it. </s>
+<s> Any ideas? </s>
+<s> Didn't your new burner come with it's own software? </s>
+<s> When I got my burner, it came with a Nero disc that was, supposedly, only for that particular burner. </s>
+<s> Do you know what burn engine is being used? </s>
+<s> Just a couple of ideas: 1 Check out TaskManager and see if InCD is running 2 If know what the old burn engine is called goto run in your start menu and type msconfig and edit your startup menu. </s>
+<s> You might have a whole bunch of things running that aren't really needed. </s>
+<s> 3 Failing that get a startup Editor like GeekSuperhero, or TuneUp Utilities, or Spybot or anything you can find on the net to edit which burn engines start when you boot up your PC. </s>
+<s> 4 Try other CD/DVD burning programs. </s>
+<s> Good Luck! </s>
+<s> Is it possible you might have had other burning utilities, specially from other vendors like Roxio. </s>
+<s> If so, you might also need their specific cleaning tools. </s>
+<s> I had similar problems as you, then when I contacted my burner's tech support, I found out Nero's tools aren't enough. </s>
+<s> Wal Mart. </s>
+<s> Get the memorex 25 pack colorful 8x DVD blanks. </s>
+<s> They are actually Ritek, I have burned over 150 and not one bad disc. </s>
+<s> If you get a chance and are familiar with dos, check for firmware updates, not driver updates. </s>
+<s> If not sure read up and prepare yourself so you can do a firmware update with no problems. </s>
+<s> good link for info.... http://www.digitalfaq.com/authorburn/authoringfaq.htm </s>
+<s> Install the burner as master on secondary Ide channel. </s>
+<s> And do set jumper. </s>
+<s> First, let me take back what I said about Nero - their tech support finally contacted me, and their comments were similar to what I'm reading here. </s>
+<s> Many thanks to those who replied here. </s>
+<s> Jimbob: thanks, I'm using the OEM Nero disc that came with the burner. </s>
+<s> I did edit the start menu, but since Nero makes InCD I don't believe that would conflict with Nero Express. </s>
+<s> Nevertheless, I disabled it. </s>
+<s> No change. </s>
+<s> Yesterday I installed CDBurner XP Pro 3 and got the exact same result. </s>
+<s> G: as I told Nero, their's is the only software that has run on this machine (until yesterday when I installed CDBurner XP Pro 3). </s>
+<s> Before installing Nero 6 I uninstalled Nero 5.5. </s>
+<s> After having trouble, I used Nero's clean utility to wipe out all Nero files and do a clean install. </s>
+<s> No luck. </s>
+<s> OilTan: I'm getting the same failure with CD or DVD, and the CDs I'm using are from the same pack that I've burned many from with the old Mitsumi burner, so I'm pretty sure it's not the media. </s>
+<s> Nevertheless, if nothing else works I'll order some new discs. </s>
+<s> Also, I'm not ready to tear into the machine just yet - I'll try a few more things topside before I tear it apart again. </s>
+<s> Thanks everyone - I'll let you know if & when I get a good burn. </s>
+<s> If you have recently upgraded to SP2, there was an issue with some drivers. </s>
+<s> Oak Technologies has a driver that will fix that problem, and it is a universal driver. </s>
+<s> If that doesn't help, I am clueless. </s>
+<s> If you have NEVER had a successful burn with the new burner,,,take it back and get another one. </s>
+<s> Once in great while, you get a bad one. </s>
+<s> In the mean time, use a CDRW, and just reformat it if the burn goes bad. </s>
+<s> leopold102, Having the exact same problem have trashed at least 20 CD's so far. </s>
+<s> Have you had any luck fixing.... </s>
+<s> If I find a solution I will post here. </s>
+<s> I have the same problem with this error, and when i stop using udma mode 2 (UDMA33), and start using Multi-word dma mode 2, the problem was solved. </s>
+<s> I hope that this will work for you too. </s>
+<s> The &quot;Buffer Too Large&quot; and the &quot;Communication Error&quot; errors in Nero are likely caused by VIA IDE controllers having, get this... TOO NEW a driver. </s>
+<s> I went back to the original, version 5.1.2600.2180 and voila! </s>
+<s> I can burn DVD's again! </s>
+<s> This really needs to be addressed. </s>
+<s> The system is way slower now, but... </s>
+<s> I can burn DVD's. </s>
+<s> WILL MICROSOFT EVER GET IT RIGHT??? </s>
+<s> I am running Windows XP SP2, VIA-based Abit board, Rosewill 16x DVD-R Dual Layer, yadda yadda. </s>
+<s> The &quot;Buffer Too Large&quot; and the &quot;Communication Error&quot; errors in Nero are likely caused by VIA IDE controllers having, get this... TOO NEW a driver. </s>
+<s> I went back to the original, version 5.1.2600.2180 and voila! </s>
+<s> I can burn DVD's again! </s>
+<s> This really needs to be addressed. </s>
+<s> The system is way slower now, but... </s>
+<s> I can burn DVD's. </s>
+<s> WILL MICROSOFT EVER GET IT RIGHT??? </s>
+<s> I am running Windows XP SP2, VIA-based Abit board, Rosewill 16x DVD-R Dual Layer, yadda yadda. </s>
+<s> Also Nero 6.6.0.8a. </s>
+<s> ASPI layer is 4.60 too... </s>
+<s> does fine. </s>
+<s> But, when I burn a +R disk, I get the &quot;finished disk&quot;, yet the lead out is just starting. </s>
+<s> Using Nero express. </s>
+<s> Nero and the Via drivers are ... not written by Microsoft. </s>
+<s> Quite an odd question from my view. </s>
+<s> Bob </s>
+<s> Get this. </s>
+<s> For some reason now I can not burn CD's, but can burn DVD's fine on the same drives. </s>
+<s> I was using Nero 6.6. </s>
+<s> Upgraded to 7.0, still doesn't work. </s>
+<s> I verified drivers and that DMA is turned on. </s>
+<s> The Nero people told me the Intel IAA is causing the problem, but it's only installed for the SATA drives. </s>
+<s> Any ideas? </s>
+<s> Dave </s>
+<s> Sorry, but Intel's accelerators do such and are known to do such. </s>
+<s> You received some great advice about that software, so try it. </s>
+<s> Bob </s>

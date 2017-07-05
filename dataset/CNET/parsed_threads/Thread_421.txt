@@ -1,0 +1,48 @@
+<s> I've got an HP Pavillion ZT1175 that eats batteries. </s>
+<s> This machine worked great for more than a year on its first &quot;factory&quot; battery. </s>
+<s> The operating time on that battery eventually got down to minutes, at which time I ordered a new battery from one of the large www supply places. </s>
+<s> That battery worked fine at first, charging and discharging normally. </s>
+<s> After about a month, however, the computer just completely shut down in the middle of a task while working on a partly charged battery. </s>
+<s> After that, the battery would not charge at all. </s>
+<s> The orange light came on when the charger was re-connected and remained orange for about 12 hours, indicating that the battery was charging, but the light eventually turned red, indicating that the battery was no good. </s>
+<s> Though it worked find on the charger/power supply, the computer never ran on the battery, even briefly. </s>
+<s> I returned the new battery under warranty and got another, which almost exactly duplicated the behavior of the first replacement. </s>
+<s> The battery manufacturer reluctantly supplied a THIRD replacement, with a strong statement that the problem must not be in the battery but in the laptop and a refusal to provide another battery. </s>
+<s> The third replacement, of course, has followed exactly the same pattern as the first two. </s>
+<s> The charging circuit on the laptop appears to be working correctly. </s>
+<s> As noted, the orange light comes on when the battery is installed and stays on for a normal charging period (~12 hours). </s>
+<s> Then, however, the light turns red, indicating a bad battery. </s>
+<s> After the first month of normal operation, the machine will not operate on the battery under any circumstances. </s>
+<s> It works fine on the regular power supply, but the battery doesn't appear to charge at all. </s>
+<s> The machine gets normally warm when it's operating, but the battery does not get warm at all. </s>
+<s> It appears to me and the local gurus I've talked to that I've just gotten three bad batteries and that a good battery will solve the problem. </s>
+<s> Since the manufacturer refuses to provide another under warranty, I'd like some assurance that the problem isn't in the laptop. </s>
+<s> I've cleaned the battery contacts, which look fine, with all kinds of super contact cleaners, with no improvement at least with the remaining apparently dead battery. </s>
+<s> In order to check further, I need the &quot;pinout&quot; for the battery connector. </s>
+<s> None of our local computer shops have been able to find that info and I haven't found it on the web either. </s>
+<s> Previous experience with HP help (their only answer to this problem is, of course, replace the battery) has led me to conclude that I'm more likely to get a source for the pinout and a possible real answer to the problem by submitting the question to your online gurus. </s>
+<s> I welcome suggestions!! </s>
+<s> Aloha from Kona. </s>
+<s> Your model might be newer, and thus, the batteries don't need to be recalibrated, but some do. </s>
+<s> This is necessary when the battery has a large charge, but the computer thinks the battery has little or none life left. </s>
+<s> An excerpt from HP's manual for that computer: ''To maintain maximum battery capacity and accuracy of the battery gauge, perform this calibration procedure every few months: 1. </s>
+<s> Click Start, Programs (or All Programs), Hewlett-Packard, Notebook, HP Battery Optimizer. </s>
+<s> 2. </s>
+<s> Follow the displayed instructions to test and condition your battery. </s>
+<s> The process could take 4-6 hours or more per battery. </s>
+<s> You can use the computer during the process. </s>
+<s> If you interrupt the process, the battery might be left with a low charge.'' </s>
+<s> Also, sometimes this battery recalibration option is found in the system BIOS menu. </s>
+<s> Thanks for the suggestion, but I already tried the calibration. </s>
+<s> When I go to the &quot;HP Battery Optimizer&quot; in the &quot;Power Options&quot; menu, I get an initial message that &quot;the selected battery is not supported or is not working properly&quot;. </s>
+<s> If I click &quot;OK&quot; and then click on &quot;battery details&quot;, the resulting table says that the &quot;static data&quot; are &quot;not available&quot;, the &quot;historic data&quot; are &quot;cycle count=9; Max error=100;Full charge capacity=4000 mah&quot; and the &quot;Dynamic Data&quot; are &quot;current = 0 ma; voltage = 11264 mv; Remaining capacity = 250 mah&quot;. </s>
+<s> It won't let me test or calibrate the battery, I presume since it's &quot;not supported&quot;. </s>
+<s> Since the system is apparently reading a voltage on the battery, I took the battery out of the computer and checked with a small-probe DVOM. </s>
+<s> Sure enough, there IS about 11.4 V between what I assume is the ground pin (separated on the right from the others) and the fourth pin to the left of the separation (logically, these might be pins 1 and 5??). </s>
+<s> I guess I'll now try to find if I can draw some current from the battery through a suitable resistor. </s>
+<s> The strange thing is that the computer has not worked using this remaining battery for several months, so I had just assumed that the battery is bad - as indicated by the red light on the charging circuit. </s>
+<s> Maybe it is just a bad battery/charger connector - either on the computer or on the battery, or maybe just the connection between them, though I cleaned them pretty carefully, which usually would solve such a problem at least enough to give some intermittent indication of an improvement - and that hasn't happened. </s>
+<s> Sure would help to have a schematic of the charging/monitoring circuit including a pinout of the connector! </s>
+<s> Thanks again for the help! </s>
+<s> Still seeking! </s>
+<s> Aloha! </s>

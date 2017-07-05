@@ -1,0 +1,38 @@
+<s> I was on the verge of buying a new PSU for my HP XW6000 Workstation when I read on several forums that they may not work as some manufacturers use motherboards designed to be compatible with proprietary PSUs only. </s>
+<s> Is there a converter plug or something I can use to make them compatible? </s>
+<s> I dont want to have to fork out on another standard PSU when I could get a higher quality, less noisy, more efficient PSU. </s>
+<s> Btw, I am considering changing my PSU as the computer emits an annoying high pitched whine. </s>
+<s> I have exhausted other reasons: not the monitor, cleaned the inside of dust and put the CPU on the floor away from speakers. </s>
+<s> The whine comes on when I boot and stays all the time...not intermittent. </s>
+<s> I read it could be due to failing capacitors and a PSU change is called for...apparently those bundled in CPU packages tend to be less than top quality. </s>
+<s> If I am barking up the wrong tree, then some advice would be appreciated! </s>
+<s> Did you inspect your machine to see if it was not an ATX? </s>
+<s> I no longer run into such PSUs, even in the brand names. </s>
+<s> Bob </s>
+<s> My machine is a WTX ( http://en.wikipedia.org/wiki/WTX ) But the link above hinted WTXs are backwards compatible with ATXs, so thought this means standard ATX PSU would work... </s>
+<s> I just came across some blogs/threads which hint Dell and HP alter the wiring on the 24 pin atx of their proprietary PSUs to make standard ones incompatible... </s>
+<s> Reference to pinouts are at http://www.hardwarebook.info/WTX_Main_%28P1%29 and http://www.hardwarebook.info/ATX_v2.2_Power_Supply http://www.google.com/search?hl=en&q=wtx+atx+adapter&btnG=Google+Search finds discussions about adapters and rewiring your ATX PSU. </s>
+<s> Bob </s>
+<s> okay, i thought mine was ATX, HP says 'minitower form factor', the model no for the OEM PSU is WTX460-3505, implying WTX... </s>
+<s> thanks bob for those links...i did come across those but wasnt sure if the colour coding for wires used by manufacturers are universal...otherwise i would end up really messing up the mobo. </s>
+<s> Or check google.com for pictures of an ATX standard connection and compare to yours. </s>
+<s> Bob </s>
+<s> 'why didnt i think of that' google...print...shut down...open... getting that done now, cheers, bob! </s>
+<s> Most psu should work older power supplies have the conventional 8 (not for sure on the number of pin\wires) pin power supple plug that won't work on the newer 12 pin (not sure again). </s>
+<s> Newer boards have to compensate for PCIE and Cpu Core power plugs. </s>
+<s> On very rare occassions there are psu that aren't the normal dimension of ATX power supplies but the pins should be the same regardless. </s>
+<s> So unless u have an Ultra Small Form Factor HP or Dell computer (or anything) You should be fine. </s>
+<s> Following more inspection, here is what ive found: 1-The connector is indeed white and of a similar width to standard ATXs.i havent taken it out yet, but when i do, ill match the order of the wires with standard ATXs to determine if HP did something. </s>
+<s> 2-I found that there is a mild high pitched electrical buzz when i plug the PSU into the mains with the system off...that cant be normal, can it? </s>
+<s> I probably cant hear it when i boot as the other noise is louder... 3-I used a toothpick in all the fans, booted, removed them one by one to see if any one of them was the source...but the high pitched noise was already there with the fans jammed off. </s>
+<s> 4-I then decided to systematically try all the drives...took all the 4-pin molexes out and put them in one by one....with just the DVD drive, theres a near silent running. </s>
+<s> With just the IDE hard drive theres a slight hum.....but with the SCSI, theres the high pitched annoyance thats been driving me crazy! </s>
+<s> So i mustve misdiagnosed.......its the scsi main C drive, not the PSU.........although that slight electrical buzz when i plug the PSU into the mains is worrying.... </s>
+<s> I know SCSIs have a higher rpm so may make more noise...but surely something this loud is unnatural....ive mounted it using the four screws into the rail system, theres no room for vibration.... Time for a new hard drive? </s>
+<s> 2-I found that there is a mild high pitched electrical buzz when i plug the PSU into the mains with the system off...that cant be normal, can it? </s>
+<s> I probably cant hear it when i boot as the other noise is louder... Actually that is normal for some designs. </s>
+<s> If the machine is in a very quiet place and you have good ears today's PC PSUs (your wtx, atx, etc.) </s>
+<s> produces a 5 volt or other standby voltage to power up the motherboard power control circuit. </s>
+<s> If you were an electronics type person you might disassemble the PSU and shellac the components that could buzz. </s>
+<s> Coils for example are a prime candidate for such a coating. </s>
+<s> Bob </s>

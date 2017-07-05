@@ -1,0 +1,90 @@
+<s> I have a Pentium 4 with Win xp home and a AMD Athlon also with Win xp home on it and both are connected directly to high speed internet through a Speedstream 6300 router/modem using the proper cables. </s>
+<s> I am trying to set up my home network so that I can use the same printer for both computers. </s>
+<s> I ran the win xp network setup wizard and made the network disk as requested and ran it on the second computer. </s>
+<s> I can view both computers as being shared in my network groups but when I try to access either one from the other computer I get a message saying that I do not have permission to access that server. </s>
+<s> I have set both up to share their hard drives and have even tried to reconfigure my router assuming that it might not recognize them. </s>
+<s> They both show up in my router settings as being on the same network. </s>
+<s> What can I do to gain permission to access the other computer? </s>
+<s> What could be preventing it? </s>
+<s> I have searched for help but most is for wireless, I am not using a wireless system. </s>
+<s> Both computers have ethernet cards also. </s>
+<s> I have redone the setup several times and still have the same error. </s>
+<s> What could the problem be and could you please help? </s>
+<s> Thanks a lot. </s>
+<s> Don't share the whole HD, just share a folder. </s>
+<s> Both computers have the same WORKGROUP NAME? </s>
+<s> What are the IP addresses for each computer? </s>
+<s> Can you PING one from the other? </s>
+<s> What FIREWALL is running on each computer (you should have only one running per computer). </s>
+<s> A firewall can disallow sharing. </s>
+<s> on the Tools/Folder Options/View tab of Windows Explorer. </s>
+<s> Then set some folders to be shared. </s>
+<s> yes, I have the same workgroup name and I can ping each computer. </s>
+<s> The IP addresses are 192.168.2.12 and 192.168.2.10 we are using a Speedstream 6300 and I think that is why we have those IP addresses instead of the usual ones. </s>
+<s> I have tried to shut off the windows firewalls on both computers but I think that the router itself has a firewall and I don't know how to shut that off. </s>
+<s> I have tried to setup the permissions on both computers using the computer manager and it won't allow me to access the shared files. </s>
+<s> It appears that it doesn't recognize me at the administator, however in the control panel under &quot;users&quot; I am the administrator. </s>
+<s> I am the only one on this computer. </s>
+<s> I have the same problem with both computers. </s>
+<s> Could it be a setting in my windows? </s>
+<s> I even created a user account on both computers assigning myself as administrator..still won't work. </s>
+<s> I am stumped. </s>
+<s> I don't have that specific option but I set the &quot;my documents&quot; folder to allow sharing by other computers on the network and it still doesn't work. </s>
+<s> Thanks..any other ideas? </s>
+<s> I can ping each computer using the IP addreses assigned to each computer by my router and I can see the other computer's shared files in my network group but when I go to open them I get a message stating &quot;access denied, I don't have permission to access those files&quot; My computer doesn't seem to recognize me at the administrator when I go into the computer management section and try to share from there. </s>
+<s> I am the only one on this computer and when it starts up and I check the &quot;users&quot; section I am designated at the administrator... </s>
+<s> I don't have that specific option but I set the ''my documents'' folder to allow sharing by other computers on the network and it still doesn't work. </s>
+<s> Thanks..any other ideas? </s>
+<s> I can ping each computer using the IP addreses assigned to each computer by my router and I can see the other computer's shared files in my network group but when I go to open them I get a message stating ''access denied, I don't have permission to access those files'' My computer doesn't seem to recognize me at the administrator when I go into the computer management section and try to share from there. </s>
+<s> I am the only one on this computer and when it starts up and I check the ''users'' section I am designated at the administrator... </s>
+<s> At this point I will create a user account on the &quot;shared folder&quot; machine by the same name as the machine wishing to access those folders. </s>
+<s> make sure you are logging on using a password and that both PCs are set up this way...same user....same password. </s>
+<s> Make sure the Windows firewall, if enabled, has the &quot;file and print sharing&quot; and the &quot;local area connection settings&quot; checked in the Exceptions and Advanced sections. </s>
+<s> Do you have any other firewalls installed by any chance? </s>
+<s> These can be a factor as well. </s>
+<s> It is possible to set up permissions manually while logged in as an adminstrator in safe mode if that becomes necessary but it usually is not. </s>
+<s> Hi Steve; Thanks for you tips but I have tried them and set both computers up that way, also made sure that the &quot;file and print sharing&quot; and the &quot;local area connection settings&quot; were checked in both computers and still no access allowed. </s>
+<s> I set myself up as the administrator using my computer name on the other computer and still can't gain permission to open the shared files on that computer. </s>
+<s> I have tried to find a way to set the permission for file sharing in my &quot;computer management&quot; section but there doesn't seem to be an option to select the shared files folder/permissions...any other ideas? </s>
+<s> I have a McAfee on one of the computers but I always shut it off before trying to access the network and I have shut off both computer firewalls. </s>
+<s> I also have the adaware program on my computer...would that cause a problem? </s>
+<s> Thanks a lot for any help you can give, I really appreciate it..I am determined to beat this silly thing, I don't think setting up a &quot;simple&quot; home network should be this complicated. </s>
+<s> I am sure it is some little setting somewhere that needs to be checked if I only knew where. </s>
+<s> is to look at your security settings and permissions. </s>
+<s> I presume your login method requires a password on both PCs. </s>
+<s> Because you are using XP Home, you cannot manage permissions without going into Safe Mode and logging in as an administrator. </s>
+<s> From here you can go to your shares under Properties and look at the security settings. </s>
+<s> You should be able to find a user listing and highlight your login name. </s>
+<s> The checkbox for Full Control should be checked. </s>
+<s> If not, check it and do this for all shares on both PCs. </s>
+<s> You may also need to check advanced settings to make sure you are the owner of the shares. </s>
+<s> If not, you can take ownership of the shares you desire by name and not just as an administrator. </s>
+<s> I would try these things as well. </s>
+<s> When you browse the network neighborhood, its the network shares that should be visible and not just the PC by name. </s>
+<s> Hope that offers some clues. </s>
+<s> Stick with it and good luck. </s>
+<s> I haven't pinned this down yet, but one small Windows XP Pro network (SMC router) I worked on drove me crazy until I changed the workgroup name on all computers to something that is 8 characters or less. </s>
+<s> I know it may not have been the length of the workgroup name, but something changed or was reset when I did so because it worked!!! </s>
+<s> It just worked. </s>
+<s> McAfee Security Suite was on all computers, too. </s>
+<s> shared documents folder, (right click, sharing and security), do not shared this folder.. Then, shared it again ... and make sure you check, maximum allowed button. </s>
+<s> I hope this will works.. </s>
+<s> in the computer name will cause some network problems when mixing XP and Win 98 in peer to peer systems but haven't seen it with XP alone. </s>
+<s> It's still a good tip. </s>
+<s> Hi there - I set up a wireless network between 3 computers at work all operating on Windows XP. </s>
+<s> They were all able to access the internet and could all see each other in my network places but like you I was not able to access the other computers. </s>
+<s> I too turned off my firewalls, configured my norton antivirus to share on a network and logged in as adminstrator but still no joy. </s>
+<s> I must have phoned very IT support helpline going and worked overtime til 10 everynight for 3 weeks trying to sort the problem out and stil no joy. </s>
+<s> I then reinstalled Windows on all three machines run the network setup wizard after creating a wirless network and it all worked first time. </s>
+<s> I avoided doing this to start with due to the time it would consume but now wish I done it from the start. </s>
+<s> I have since spoken to it technicians who seem to think that because I had attempted to set up so many networks the computer was not replacing the original permission settings with the new ones - not sure if this is any help but it worked for me. </s>
+<s> Good luck </s>
+<s> i had a similar problem to you, you can even go and read my thread that says Problem with networking two XPhome laptops. </s>
+<s> i try everything u are tryin but until i disabled the Norton i was able to access the other computer and share my printer... hope it helps.. </s>
+<s> Hi. </s>
+<s> Had the same problem as you did. </s>
+<s> You may have already resolved it but if not, what worked for me was adding the IP address of the host or shared PC to the trusted computers in Norton Firewall which I am using. </s>
+<s> Access your firewall settings and try the same. </s>
+<s> Good luck. </s>
+<s> Yes -- Simple File Sharing did the trick. </s>
+<s> Thank you! </s>

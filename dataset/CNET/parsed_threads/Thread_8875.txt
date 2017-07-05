@@ -1,0 +1,44 @@
+<s> Hallo, We have a storage array arranged at as a High availability cluster (So everything I described is doubled for redundancy) consisting of a Dell PowerEdge 1950 server, 5 iSCSI disk storage Dell MD3000i + 2 Dell MD1000 extensions and sevral one and two TB SATA disks connected to the storrage array trough interposer boards. </s>
+<s> Now we want to add more storrage and I was thinking of adding Seagate Barracuda 3TB 7200RPM (ST3000DM001) disks. </s>
+<s> But I read that MD3000i drivers can't handle 3TB disks and that there is a 2TB disk limit. </s>
+<s> Does anybody have more information about this or exprience with adding 3TB disks to an MD 3000 storrage array? </s>
+<s> Certainly Dell can answer this question. </s>
+<s> I assume you have a maintenance contract with them, since the hardware seems rather critical for your company. </s>
+<s> So why not go with what Dell supports, even if it isn't a Seagate disk? </s>
+<s> Kees </s>
+<s> I'd not get too excited about 3TB drives. </s>
+<s> Backup is getting to be a chore as it is. </s>
+<s> I'd re-evaluate why the space is needed and move stuff to other storage areas. </s>
+<s> Bob </s>
+<s> I actually send a mail to Dell customer support with this question about a week ago and haven't gotten a reply yet. </s>
+<s> I am not particularity attached to Seagate disks any 3 TB 7200rpm 3.5&quot; SATAu disk is good. </s>
+<s> I just used those as a reference since a couple of the disks we bought from Dell were made by Seagate. </s>
+<s> Believe it or not the storage array is not a backup system. </s>
+<s> Its part of a NASA/ESA project in order to distribute data from the Solar Dynamic Observatory satellite. </s>
+<s> This satellite sends about 1,5 Terabite of data to the earth every day. </s>
+<s> At our site we keep about six months worth of data to distribute among scientists. </s>
+<s> Data older then six months is deleted. </s>
+<s> Adding more storage means we can keep data for a longer time period or keep more interesting events. </s>
+<s> If we were to lose data we would download it from an other site. </s>
+<s> The reason to order now is because at the end of the year the budget is either spend or lost. </s>
+<s> You may want to ask if there is firmware in the works to extend this to 3 and more TB drives. </s>
+<s> Bob </s>
+<s> 3Tb is a rather large HD that the OS has to handle, which at times can be troublesome on its own. </s>
+<s> The technical specs offer it can handle that, but you HD enclosure may have limits in how it handles any HD larger or not OEM to it. </s>
+<s> Controller(or think replacement) may require a firmware update in order to handle these 3Tb drives, so you have to review the specs or visit the maker's support website. </s>
+<s> Query there or flat out ask them as well. </s>
+<s> All this I mention is a &quot;huge assumption&quot; for even regular PC's this is a huge step. </s>
+<s> You can check Dell's &quot;upgrades site&quot; maybe accessories and see if they offer this as an option or path. </s>
+<s> -OR- see if any newer Dell servers offer a similar solution to include the 1950. </s>
+<s> On a similar topic, users of NAS type setups have not always been easy for 3Tb or simply can't be done. </s>
+<s> You have a deadend setup, however in many cases 2Tb HDs seem to work, again all the above applies. </s>
+<s> Oh! </s>
+<s> woo is the budget. </s>
+<s> Just order them, even if not used in your task, they won't sit long if they become part of stock wares. </s>
+<s> Though, I lean with 2Tb drives for now. </s>
+<s> example: http://accessories.us.dell.com/sna/category.aspx?c=us&l=en&s=bsd&cs=04&mfgpid=167752&chassisid=8743&ST=dell+poweredge+1950+server&dgc=ST&cid=256432&lid=4560128&acd=sQBb0089R&p=3 Need not buy from them, but you see what they offer. </s>
+<s> tada -----Willy </s>
+<s> I got a reply from Dell. </s>
+<s> They told me that 2TB is the maximum and since they stopped selling MD3000i controllers, it will remain the maximum. </s>
+<s> So we went with the 2TB disks Thanks for the help. </s>
+<s> NIL </s>

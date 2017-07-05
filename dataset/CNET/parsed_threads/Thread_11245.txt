@@ -1,0 +1,62 @@
+<s> How do I make sure that a disk wipe was successful? </s>
+<s> In other words, how do I know that the drive was actually overwritten? </s>
+<s> Thanks. </s>
+<s> NIL </s>
+<s> I'm not very computer savvy so I don't know how to do that. </s>
+<s> Can you explain how I would do that. </s>
+<s> Isn't there a program that would just allow me to see if the drive was indeed wiped? </s>
+<s> If I wanted to try this my thought is to boot up a linux machine and use the linux strings command on the device. </s>
+<s> Read http://www.linfo.org/strings.html This would read the entire drive and emit any text strings it finds. </s>
+<s> Usually more than enough to see if the drive was blank. </s>
+<s> Bob </s>
+<s> Sorry, but I don't have a Linux machine. </s>
+<s> Is there no other way to do this? </s>
+<s> I simply want to check if my disk was wiped. </s>
+<s> All you need is a bootable Linux Live CD. </s>
+<s> Those can be downloaded. </s>
+<s> Kees </s>
+<s> Your post didn't tell what you used to wipe the drive. </s>
+<s> For example DBAN is well known to work. </s>
+<s> But you are asking to check the results which is going to take just a little more work. </s>
+<s> Some might call that advanced. </s>
+<s> To vet the erasure we can not rely on any tool that says &quot;your drive is erased&quot; but look to existing tools that can emit something useful. </s>
+<s> This brings us to &quot;what could work?&quot; and &quot;what we can use for free?&quot; and &quot;what wouldn't tax the users too hard?&quot; For me that's almost any of the bootable linux CDs and one command called strings. </s>
+<s> -&gt; But I hear you loud and clear. </s>
+<s> I bet you want something web based with a button that is labeled &quot;Click here to verify your drive is blank.&quot; The problem is, there is no such software today. </s>
+<s> Bob </s>
+<s> Is installing a Linux OS the only way to do this? </s>
+<s> Are there other options? </s>
+<s> If so, what are those other options. </s>
+<s> By the way, I used killdisk on one drive and wipe disk on another drive. </s>
+<s> Sorry, I didn't mean wipe disk, I meant disk wipe. </s>
+<s> Many of the Linux CDs today boot and run off the CD with no install. </s>
+<s> Killdisk is known to wipe a drive just fine BUT that is not what you are asking. </s>
+<s> You asked how to tell if it worked. </s>
+<s> And to answer your next question, no install of Linux is required to get to use strings to see what might be left on the hard drive. </s>
+<s> Bob </s>
+<s> What are some other methods besides using Linux to verify that my disk was wiped? </s>
+<s> And, if I use the strings command in Linux will it tell me if any other type of media e.g. </s>
+<s> music files, pictures, etc. </s>
+<s> besides printable characters were found? </s>
+<s> Thanks. </s>
+<s> Because a jpeg file would have text inside it that strings would find. </s>
+<s> Sorry, I've given you my best answer. </s>
+<s> It requires all of a boot to the CD, open the command line and typing one line and pressing enter. </s>
+<s> I can't see it getting any easier than that outside of having it done for you. </s>
+<s> Let's see what others tell. </s>
+<s> Bob </s>
+<s> Would strings find videos, music files, etc.? </s>
+<s> Listen, if strings only works with printable characters and I have file formats which do not contain printable characters, then your method is useless to me! </s>
+<s> This is why I asked for other methods. </s>
+<s> Your systematic evasion of my questions is starting to frustrate me. </s>
+<s> Just answer my questions, please. </s>
+<s> Thanks. </s>
+<s> MP3 has tags, AVI has the CCCC or 4C code, and it continues on with each file type. </s>
+<s> So, yes, strings is a very good way to tell. </s>
+<s> I never evaded your question. </s>
+<s> I only am leaving other methods to others. </s>
+<s> Bob </s>
+<s> I just wasn't sure if strings would catch it all. </s>
+<s> Again, thanks and I appreciate your help. </s>
+<s> The forum bottoms out when the thread has so many replies so reply to your top entry or another to continue. </s>
+<s> NIL </s>

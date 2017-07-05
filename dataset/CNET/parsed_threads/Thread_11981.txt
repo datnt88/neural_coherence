@@ -1,0 +1,64 @@
+<s> After years of great performance, my laptop has suddenly given out on me. </s>
+<s> One day my wifi was working and the next day, after a shut down and reboot, it stopped working. </s>
+<s> I have the latest driver and management software for my Intel wireless wifi link 4965AGN; and while it sees all the networks and connects, I cannot get online. </s>
+<s> I checked everything I could think of and finally think I have the problem. </s>
+<s> The ping test fails every time. </s>
+<s> Any help on how to fix this would be greatly appreciated. </s>
+<s> Also, the machine is a Sony Vaio AR520E running Vista Home Premium SP2. </s>
+<s> Ok 2 things to need to check, 1st when your connected make sure you have a valid ip, by doing ipconfig (from the run box type &quot;cmd /k ipconfig&quot;)you will need to check with another machine on your network what ip your router uses it should look something like this Connection-specific DNS Suffix . </s>
+<s> : Link-local IPv6 Address . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : fe80::9574:f9ba:92cb:1777%11 IPv4 Address. </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : 192.168.0.100 Subnet Mask . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : 255.255.255.0 Default Gateway . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : 192.168.0.1 If youre not getting a good ip then try rebooting the router and then reboot your laptop. </s>
+<s> 2nd DNS settings If youre connected and have a good ip but still cant view webpages it could be your DNS Settings. </s>
+<s> From the run box type &quot;cmd /k ipconfig /all&quot; and then look for your DNS settings they should look something like this DNS Servers . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> . </s>
+<s> : 208.67.222.222 208.67.220.220 They can and properly will be different; you can use the DNS server above. </s>
+<s> Give these two things a try and see if you have any luck </s>
+<s> Do you have access to a patch cable? </s>
+<s> Take the one you're using for your desktop (I'm assuming you have one). </s>
+<s> Connect your laptop to it. </s>
+<s> If you have internet connection, then your router (wired portion of it anyway) and your laptop is not the problem. </s>
+<s> It's only your wireless stuff that's gone kaput. </s>

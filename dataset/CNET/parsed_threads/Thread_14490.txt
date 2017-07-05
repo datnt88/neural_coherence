@@ -1,0 +1,49 @@
+<s> I recently bought Belkin Pre-N router and have VOIP service through Sun Rocket. </s>
+<s> My wireless network as well as phone service keeps on getting dead. </s>
+<s> I literally have to reset the network every couple of days. </s>
+<s> Currently the set up is as follow Cable Modem &gt;&gt;&gt; Phone Adaptor &gt;&gt;&gt; Router I also tried putting the router before the Adaptor but did not work. </s>
+<s> Anyone has first had experience of this kind of issue that can help me from configration of the network stand point so that I do not have to keep on resetting. </s>
+<s> Thanks in Advance! </s>
+<s> I've always wired from cable modem to router to ... devices and computers. </s>
+<s> If the VOIP doesn't work then you need to research how and what to configure on the router for VOIP. </s>
+<s> Bob </s>
+<s> I have tested it several ways. </s>
+<s> If the RTP300 is connected directly to the modem, it crashes everyday and requires unplugging/plugging the power cord. </s>
+<s> The RTP300 can't handle alot of downloading from a computer plugged into it. </s>
+<s> The RTP300 will be more reliable if it just handles the phone calls. </s>
+<s> Connect the Belkin Pre-N to the modem, then the RTP300 to the first ethernet slot on the Belkin Pre-N router. </s>
+<s> You need to open the ports on the Belkin Pre-N Router to allow the Vonage VOIP traffic to get to the RTP300. </s>
+<s> Go into your Belkin Pre-N's setup menu 192.168.2.1 Click on the word Firewall. </s>
+<s> Click the Disable button next to Firewall Enable/Disable. </s>
+<s> Click Apply Changes button. </s>
+<s> You will need to enable QOS. </s>
+<s> Click on Channel and SSID. </s>
+<s> Next to 802.11e QoS, pick ON from the drop down menu. </s>
+<s> Click Apply Changes. </s>
+<s> Restart the Belkin Pre-N router for changes to take effect. </s>
+<s> Then, restart the RTP300. </s>
+<s> Instead of disabling the Belkin Pre-N's firewall you could do port forwarding. </s>
+<s> Otherwise, you will need a software based firewall on each of your computers. </s>
+<s> i have the belkin pre n router too, F5D8230-4 v2. </s>
+<s> I personally think belkin pre n router is the worst router that i have ever seen. </s>
+<s> The router cant go high speed. </s>
+<s> whenever i use the router to download such as BT or emule, it will be crashed, and i have to reset it. </s>
+<s> Also, I am a massive gamers, and i have to open ports for gaming. </s>
+<s> The router which has a very bad firewall options, and it is hard to config it. </s>
+<s> I have tried to flash the router with a 3rd party firmware, but it is still not working. </s>
+<s> I think it is just the poor design and structure of the router. </s>
+<s> I have no idea how the cnet editors rate and test the router, maybe they just test for range and speed, but didnt go for a crashed test. </s>
+<s> What I do: Put the router as An AP, and use the dlink 514 as a rotuer, which has never experience crash problem or slowdown. </s>
+<s> Hey I need someone to tell me whats the password for belkin F5D8230-4 v2 </s>
+<s> http://www.phenoelit.de/dpl/dpl.html </s>
+<s> that doesnt have belkin F5D8230-4 v2 </s>
+<s> Or the manual from belkin.com </s>
+<s> what do you mean manual </s>
+<s> &quot;Manual&quot; as in Belkin's documentation. </s>
+<s> I don't read manuals for people. </s>
+<s> I will look for places you might not have found. </s>
+<s> Bob </s>
+<s> the 'user manual' or 'user guide' that came with the router (on paper or on CD). </s>
+<s> If you don't have it, he suggests you can download a copy from the manufacturers site. </s>
+<s> Did you study the users guide already? </s>
+<s> Kees </s>

@@ -1,0 +1,63 @@
+<s> I just put together a PC and the thing will not Boot. </s>
+<s> I have refered to the ASUS manual and several PC guides(since yesterday I've been on this) and the connectors and wires are properly placed. </s>
+<s> The only wire that is not connected is the 4pin 'Speaker' panel connector which I am not seeing; there is no AUD, SP, SPK, connector in the case. </s>
+<s> This doesn't seem to be the problem though. </s>
+<s> When I press the I/O: - The PSU and/or CPU makes a power on sound - The PSU fan does not move, - The POWER LED light is lit, - The CPU fan moves for one second then stops, - There is no sound coming from the HardDrive - The Monitor is black and no image displays This leads me to believe there is power coming from the PSU but there is just something wrong. </s>
+<s> I have tried both PSUs I own (400/500W) and I get the same result. </s>
+<s> I had the CPU installed onto the Mobo by a technician at the store and I verified it today and it's properly installed. </s>
+<s> I really need some help and hope I can save 50$ for installation/inspection fees thanks for any advice and help in advance. </s>
+<s> ASUS A8V mobo, AMD 64 3500+ with HSF 3x 512 DDR400 A-Top Z-Alien case(comes with 500W ATX 12V PSU) PSU 400W ATX 12V Nvidia FX5700 Ultra (BIOS/Drivers etc on HDD) </s>
+<s> of the build. </s>
+<s> Did you assemble everything icluding floppy, hard drives and CD drives? </s>
+<s> If so, yjat is simply the incorrect way. </s>
+<s> The first assembley should be just enough to see if the power upply turns on anbd stays on. </s>
+<s> Disconnect all drives remove all cards wxcept video. </s>
+<s> One stick of memory, CPU/HSF. </s>
+<s> Twould be good to have a swpeaker to listen for beeps which provide fault information. </s>
+<s> Why don't you have one?? </s>
+<s> With no mouse, no keyboard, PS connected to mobo[both connectors if you also have the 4 pin 12 volts for the CPU]. </s>
+<s> Hit the power sitch, what happens??? </s>
+<s> Let's figure out what the Power LED that you are referring to, is it the one on the front panel OR the one on the mobo??? </s>
+<s> The one on the mobo is frequently the indicator that the 5 volt standby power is present on the mobo. </s>
+<s> If that is the switch on the rear of the supply, you may have just solved your problem. </s>
+<s> That is not the way to turn a system on. </s>
+<s> Yea I assembled everything at once :/ POWER LED is the one on the motherboard I have speakers/sound blasters The 'speaker' 4-PIN front panel connector is just not there I can't explain it, the case didn't even come with a manual... </s>
+<s> I'm going to try what you said. </s>
+<s> Atleast I don't have to swap the HDD and drives to do that would be a pain. </s>
+<s> I mean the power on switch on the front of the case </s>
+<s> [img] http://www.pctechguide.com/tutorials/images/MBoard/Power.jpg [/img] </s>
+<s> there is usually a small black cylindrical device that has the four pin connector attached. </s>
+<s> That is the speaker, [I have terrible opinion of them so I bought a batch of normal old fashioned case speakers. </s>
+<s> No, re drives, simply disconnect the Power AND signal [ribbon] cables. </s>
+<s> Yes some are surprised to find how little equip is needed to simply turn the power on to make a basic check of operation. </s>
+<s> To explain the power LED on your mobo. </s>
+<s> With an ATX type supply and system, there is 5 volt standby power applied to the mobo anytime that the power supply is plugged into a live 120 VAC outlet [and the switch on its rear is on]. </s>
+<s> This voltage is what is used to turn the rest of the power supply on when you hit the momentary contact switch on the front of the tower. </s>
+<s> This voltage is what allows one to use Power Mgt functions such as Wake on LAN, Wake on Modem, some sleep modes et al. </s>
+<s> That voltage is ALWAYS there, your system basically never goes fully unpowered unless you unplug it. </s>
+<s> The light basically is to remind you when you work on the system interior that there is still power present. </s>
+<s> Unplug or turn the supply off when working inside. </s>
+<s> ON before you hit the power switch, correct? </s>
+<s> [I'm just double checking] </s>
+<s> bought in the last year or so come with that little black barrel thing to use as a speaker. </s>
+<s> Very confusing for a few reasons. </s>
+<s> Some BIOSes do not give the single beep when everything is OK, some mobos have the speaker on pins 1 and 3 others use 1 and 4, and the mobo manual does not normally tell whether one will get a single beep for a good boot, so between that and the crappy little device it got frustrating. </s>
+<s> and it didn't work the same thing happened. </s>
+<s> The LED light on the mobo turned on then I pressed the front power button and the CPU fan turned and stopped. </s>
+<s> Samething as usual. </s>
+<s> If you have any old permanent magnet type speaker laying around you could jury rig that. </s>
+<s> Possibly could jury rig the soundblaster of the set that only has the two wire lead to it. </s>
+<s> any possibility that the mobo is shorted to the mounting plate [via improper connection]. </s>
+<s> The mobo does get grounded to the mounting plate through the hex standoff's that are mounted to the mounting holes with the printed circuit ring about them. </s>
+<s> Each of those holes are plated through holes and connect to each of, the layers of the mobo [usually four] and to the ground plane, thus they are connected to each other, and grounding them to the mounting plate is intended. </s>
+<s> Many times people putting a new mobo into an old case forget to remove one of the hex stadoffs that don't line up with a mounting hole and that shorts some of the printed circuitry out. </s>
+<s> Also had one case where the individual mounted the mobo directly to the mounting plate with no standoff's. </s>
+<s> The mobo survived. </s>
+<s> LOL Best test is to place the entire mobo on a large piece of cardboard to eliminate any possibility of shorts. </s>
+<s> Do NOT lay it on elctrostatic foam or sheets, they are conductors. </s>
+<s> Next is to validate that the supply has a high enough wattage rating. </s>
+<s> Just a double check, because by disconnecting so much stuff the load should have been reduced enough so that any old supply would work. </s>
+<s> If the mobo is not shorted, remove the video card [reducing the load, on the supply further] to see if the supply comes on and stays on. </s>
+<s> If the power supply is good and still shuts down you are down to mobo, memory, or CPU [disregading any possiblity of a simple misconnection, relying on you for that]. </s>
+<s> Takes quite a bit of current to shut the power supply overcurrent circuits to cause the supply to shut down, which then usually points to a fried CPU. </s>
+<s> I can tell you how to see if the power supply turns on properly [with no load] if you disconnect its leads from the mobo. </s>

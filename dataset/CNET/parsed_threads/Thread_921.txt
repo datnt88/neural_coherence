@@ -1,0 +1,14 @@
+<s> hi guys, well on my old soyo moard and my 600 mhz slot 1 cpu, windows 98SE, NEW seagate 30 gbyte hard drive, I just installed a old copy of avid cinema, and the program demanded that I set the hard drive to DMA mode. </s>
+<s> So I went into device manager/ hard drive/ properties, etc., and there is no listing or option of anything re: DMA mode. </s>
+<s> does this mean it's automatically enabled and I don't need to worry about it? </s>
+<s> I did not install any outside software or drivers on the hard drive. </s>
+<s> THANKS fj </s>
+<s> First, install Soyo's motherboard drivers. </s>
+<s> Next, look in the drive item for DMA as well as the IDE controller itself. </s>
+<s> Remember that if you load ANY real mode CDROM driver, you have to disable that (it's in config.sys) first. </s>
+<s> Bob </s>
+<s> well, gee whiz, I didn't see the disk drives in device manager, I was looking at the drive controllers-- I think I'm working too hard. </s>
+<s> all set! </s>
+<s> thanks - fj </s>
+<s> You'll be glad to know they move that piece of cheese in each version of the OS. </s>
+<s> Bob </s>

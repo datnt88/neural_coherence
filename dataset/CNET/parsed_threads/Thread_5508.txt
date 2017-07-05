@@ -1,0 +1,787 @@
+<s> Question: Please help! </s>
+<s> I cannot access my external drive. </s>
+<s> Hi, I really need help with this problem! </s>
+<s> 18 months ago I bought a Western Digial external hard drive to run with my desktop computer and laptop, both run XP. </s>
+<s> At first both machines recognized the drive as soon as I would plug the USB in, although with a warning that it would run at lower performance because my USB ports were not 2.0 ports but that was okay. </s>
+<s> I wanted it to put all my music, photos, data files etc on, to save storage on my computers, so I would plug it in and when it would ask me what I wanted to do I just select 'view files and folders' (after I had saved all my music, photos, documents etc to it) or otherwise would transfer things onto it. </s>
+<s> The past few months when I have plugged it in, my computers go through reading that there is a device, trying to open it, and I see the grey rectangular box with those green squares going left to right with words flying by on top of that, that are obviously the names of files on it being read, when it finishes doing that, the box asking me what I want to do comes up for only a second then collapses before I get to see it and select what I want to do then starts all over again. </s>
+<s> But the worst problem is the past couple of weeks when it is attached it does an appearing then disappearing 'dance' from 'My Computer' where all the drives are listed, and when it appears, instead of showing me my files etc, it comes up with a message like 'disk is not formatted, do you want to format it now?'. </s>
+<s> The first time it asked me that I clicked on Yes but then it warned me that if I continued it would wipe all the data off the drive and did I want to continue, so of course I clicked NO! </s>
+<s> and when I click on No that box disappears but there is a smaller box directly underneath it that appears and says that the drive is not available or cannot be read. </s>
+<s> Every photo I have, all my music (not just CDs that I can reinstall but music from other people and the internet etc) as well as university assignments, documents, old emails and chats are on this WD external drive so any help to figure out how to get it to operate properly and let me access my stuff would be greatly and urgently appreciated. </s>
+<s> Also since Christmas I have bought a new Lenovo laptop running Windows 7 and when I plugged the external drive into it the computer recognised that there was a new device but again only came up with something saying it wasn't formatted and asked me if I wanted to format it, so again I said No. </s>
+<s> Please Help. </s>
+<s> --Submitted by Virginia T. Here are some member answers to get you started, but please read all the advice and suggestions that our members have contributed to this question. </s>
+<s> Western Digital interface problem --Submitted by High Desert Charlie http://forums.cnet.com/7726-7588_102-5076512.html Here is what you need to do --Submitted by yasinghMD http://forums.cnet.com/7726-7588_102-5076749.html Recovering data from your hard drive --Submitted by snldavis http://forums.cnet.com/7726-7588_102-5076468.html Make sure you check the drive with another computer --Submitted by dsmeryage http://forums.cnet.com/7726-7588_102-5076581.html Thank you to all who contributed! </s>
+<s> If any of you have any additional suggestion or advice for Virginia, please click on the reply link and submit away. </s>
+<s> Please be as detailed as possible when providing a solution. </s>
+<s> Thanks! </s>
+<s> Note: This post was edited by forum moderator on 02/11/2011 on 3:24 PM PT </s>
+<s> Hi - I have run into this type of problem several times in the past. </s>
+<s> It sounds like something has happened to corrupt or damage your Master File Table or File Allocation Table, that tells your system what is on your hard drive and where. </s>
+<s> The first time I had this problem, I looked for data recovery software, and downloaded a number of trials to see if any of them could find anything. </s>
+<s> The one piece of software I found that was easy to use and saw everything on my drive was a product called GetDataBack from runtime.org. </s>
+<s> There are two versions, one for FAT and one for NTFS. </s>
+<s> You can download the trial versions and make sure whether it finds anything before you actually purchase it, but the price is reasonable. </s>
+<s> You would hook up your external drive to your PC, install this software on your internal drive, and use it to find files on the external drive. </s>
+<s> You can then copy them to another location (your internal drive, or another external drive). </s>
+<s> It can take a long time to run, depending on the size of your drive, but I have always been able to recover everything with it. </s>
+<s> As long as your system can see the external drive, the software should work. </s>
+<s> The sooner you do it the better, though - if you have a hardware problem on your external drive, it could get to the point where it would not be recoverable using this method. </s>
+<s> Good luck! </s>
+<s> Any good Disk Utility should be able to clean up the file index on this drive, unless something drastic has happened to it. </s>
+<s> I used to use Norton Utilities, but I understand that has fallen out of favor in recent years. </s>
+<s> Any computer store should be able to provide something. </s>
+<s> Since I use a Mac (Apple has their own disk Utility) I can't advise you since my PC knowledge is limited and out of date. </s>
+<s> It sounds like XP is in an autoplay loop. </s>
+<s> Right click on the USB drive under the file explorer and adjust the &quot;AutoPlay&quot; settings to &quot;Ask me what to do Every time&quot; or &quot;Take no Action&quot;. </s>
+<s> Or you can go to the USB drive under in &quot;Computer Management&quot; -&gt; &quot;Administrative Tools&quot; -&gt; &quot;Disk Management&quot; and select &quot;Do Nothing&quot; for autoplay. </s>
+<s> The USB drive may have to be inserted for it to be seen with either method. </s>
+<s> Hi Virginia, I've worked on multitudes of these Western Digital type external hard drives. </s>
+<s> In nearly every instance, it was not the Hard Drive that was corrupted, but instead, the interface that Western Digital uses inside the external backup was bad. </s>
+<s> What I mean is this. </s>
+<s> Your data is most probably still intact if you haven't accidentally deleted it. </s>
+<s> Your next step is to remove the Hard Drive from the case and hook it up directly to the computer. </s>
+<s> It's really not easy to take apart, but you can find the instructions using Google and searching for &quot;Disassemble Western Digital&quot;. </s>
+<s> Find the link that describes the type of Western Digital External you have. </s>
+<s> Follow those instructions to remove your hard drive from its cover. </s>
+<s> From here you have a couple of options. </s>
+<s> The first option is easiest and one I recommend. </s>
+<s> You can order a new USB hard drive enclosure for under $20.00 and simply and easily mount the hard drive you removed from the Western Digital rig into the new one. </s>
+<s> From there you can plug it into the USB port and you should be good to go!!! </s>
+<s> Windows 7 may ask you if you want to assign a Volume to the drive, but beyond that it should work fine. </s>
+<s> If you want to be sure the Western Digital drive is working before you spend more money on a new enclosure, you have a second option, but you'll still need a SATA cable to connect the drive to a desktop, and the desktop will have to have an available SATA connector to plug in to. </s>
+<s> In most circumstances, modern motherboards use SATA connectors. </s>
+<s> On your desktop, remove the cover door (Usually just two thumb screws on the back) and look at the motherboard to see if you have SATA connectors (just follow the cable from the existing hard drive already in the computer to the motherboard. </s>
+<s> It will be either a 3 inch wide ribbon cable or a half inch wide SATA cable. </s>
+<s> If it's a SATA cable then you're in luck, and there should be more than one. </s>
+<s> You can use an empty one that's available). </s>
+<s> You will need a SATA connector cable to connect your hard drive to the desktop motherboard, and you will need a second 1&quot; wide power connector from the power supply of your desktop as well. </s>
+<s> You can't plug these in the wrong way, so turn of and unplug your computer, connect the SATA cable to the Hard Drive, then connect the SATA cable to an available SATA connector on the motherboard (it should be right next to the one mounted in your desktop), and finally connect a SATA type power connector to the hard drive. </s>
+<s> Once you've accomplished this, turn on the desktop and it should recognize the newly installed hard drive. </s>
+<s> If your computer doesn't recognize the Hard Drive, then the Hard drive has most likely failed. </s>
+<s> If this is the case, you may be able to salvage some data using data retrieval software described it other posts. </s>
+<s> Another option (more expensive but much easier for you) is to take the Western Digital External to a small computer shop (like mine) and let them do it for you. </s>
+<s> A final word of advice. </s>
+<s> Never give up on retrieving your data before a qualified professional who you trust tells you it can't be saved. </s>
+<s> I've run into many circumstances where customers have been told their Hard Drives were trashed, and been able to completely restore the data. </s>
+<s> Good Luck Virginia </s>
+<s> If there is drivers that you installed originally, try reinstalling. </s>
+<s> Make sure that the drive itself is working. </s>
+<s> Do you hear anything when you plug it in? </s>
+<s> If it gave you the message about formatting, possible the drive itself has failed. </s>
+<s> I have one also that have the same characterized that you described. </s>
+<s> If the tips that I mention don't work, I thing that your drive is dead. </s>
+<s> Contact the manufacture if it's under warranty. </s>
+<s> Good luck. </s>
+<s> I have had the same problem whit some external drives (harddisks) . </s>
+<s> In some cases i could fix it by connekting it before i turned on the pc . </s>
+<s> if that dosn?t help . </s>
+<s> you could try to disemple the box and connekt the hard disk direktly to the pc. </s>
+<s> There is programs that claims the could save your files , but they can bee hard to use. </s>
+<s> Kindely regards Allan </s>
+<s> I have seen various WD external drives which will fail to connect to one computer but work perfectly with another. </s>
+<s> In fact, I have one. </s>
+<s> Used to work fine with my desktop machine but now is not recognized on any USB port. </s>
+<s> However, it works fine on several of my notebook computers. </s>
+<s> I suspect it is a USB driver problem on the desktop. </s>
+<s> Be sure to try another computer before taking it apart for a new interface or using any special disk software! </s>
+<s> I had the same problem. </s>
+<s> Retarting the computer with the external hard drive connected and open, seems to solve the problem. </s>
+<s> Good luck! </s>
+<s> ! </s>
+<s> I had the same problem with the same WD external drive. </s>
+<s> The answer was very simple. </s>
+<s> The battery of my laptop was too weak to operate the power for the external hard drive. </s>
+<s> But it worked perfectly with my desktop using external AC. </s>
+<s> Another solution may be the cable connecting the external hard drive. </s>
+<s> Use only the original cable supplied with the device. </s>
+<s> Alex R., AZ </s>
+<s> I'm guessing your post about the WD external drive stands for Western Digital. </s>
+<s> I had a similar experience with my WD at around 18 months. </s>
+<s> I had valuable pictures and documents on their drive. </s>
+<s> Something happened within my system whereby I could no longer access my saved files. </s>
+<s> Being the drive was under warranty I called WD. </s>
+<s> They said I had a corrputed file that messed up their entire drive. </s>
+<s> They said the solution was to reformat the drive and reload their program. </s>
+<s> But, they quickly said, that in doing so I would loose all stored data. </s>
+<s> That was the extent of their willingness to help. </s>
+<s> I called a few places that deal in file recovery. </s>
+<s> I couldn't afford their prices. </s>
+<s> I crushed the WD drive and now use jump drives or flash drives. </s>
+<s> Good luck. </s>
+<s> Yes, that happens with people who use their external disk as storage, without making a backup of the data on it. </s>
+<s> A VERY common story in this forum. </s>
+<s> Some people only learn about backup when it's too late. </s>
+<s> Sorry to read you were one of them. </s>
+<s> And no storage manufacturer is responsible for the consequences of losing data. </s>
+<s> Safeguarding that is your own responsibility. </s>
+<s> All you get is what you pay for: a one (or 2 or 3) year warranty on the hardware. </s>
+<s> Kees </s>
+<s> hi virginia, I?m from argentina, so perhaps my English is not so good but I will give it a try. </s>
+<s> I have a wd external drive too, more than that, I have two, one for each desktop pc. </s>
+<s> One of them had no problems but the other one didn?t work well, it appeared and disappeared, or nothing at all. </s>
+<s> After trying with several things (double cables, changing energy setting for usb ports, etc) I changed the &quot;energy source&quot;? </s>
+<s> I don?t know if that is the correct word for it, the one that gives energy to all the computer. </s>
+<s> After that everything worked fine. </s>
+<s> I don?t know why it doesn?t work in your laptops but I do know that it doesn?t work in less than 2.0 usb ports. </s>
+<s> I hope this was a little help. </s>
+<s> bye and good luck. </s>
+<s> fernanda. </s>
+<s> hi virginia, it?s me again. </s>
+<s> I think you must plug in your laptops to use the external drive, the battery doesn?t have enough energy. </s>
+<s> Another tip. </s>
+<s> When I bought it, they told me not to install the wd program that came in the drive. </s>
+<s> that it wasn?t necessary. </s>
+<s> bye. </s>
+<s> fernanda. </s>
+<s> I suggest that you follow the steps (from these responses so far) in this order. </s>
+<s> 1. </s>
+<s> First, DO NOT change anything on the drive until you have tried all these steps. </s>
+<s> 2. </s>
+<s> Try a different USB cable. </s>
+<s> 3. </s>
+<s> Try a different computer or a desktop 4. </s>
+<s> Try rebooting with the drive plugged in with a good USB cable. </s>
+<s> 5. </s>
+<s> Try connecting the drive without the old enclosure. </s>
+<s> I have used a kit similar to this, with success: http://www.amazon.com/Drive-Adapter-Converter-Optical-External/dp/B001OORMVQ/ref=sr_1_1?s=electronics&ie=UTF8&qid=1296920735&sr=1-1 6. </s>
+<s> If all this fails, try to retrieve the data. </s>
+<s> I have used easus with success after improperly unplugging the hard drive. </s>
+<s> http://www.easeus.com/datarecoverywizard/ Here is a free recovery utility http://www.piriform.com/recuva/download If you connect successfully, run checkdisk to repair damaged files, BEFORE making any other changes on that disk. </s>
+<s> If anyone comes up with an answer to Virginia's problem I would like to know what it is. </s>
+<s> I have the same exact problem, but mine is with a 320MB Seagate HD. </s>
+<s> Too bad her drive is a WD. </s>
+<s> I was going to buy a WD to replace the Seagate HD that went bad. </s>
+<s> Trying to obtain help from Seagate is a waste of time. </s>
+<s> I believe WD has bought them out and Seagate has become a step child that WD does not want to be bothered with. </s>
+<s> That has been my experience too. </s>
+<s> I see a lot of useful answers. </s>
+<s> Did you try all of them? </s>
+<s> But it's always possible the drive has gone south and can't be repaired. </s>
+<s> That happens with all kind of electronic and mechanical things (be it a TV or a car or a fridge or a disk drive). </s>
+<s> Then it's time to buy a new one. </s>
+<s> Kees </s>
+<s> Hi Virginia, I use external hard drives but being a bit paranoid, I have the data on each of three! </s>
+<s> I did have a disk go bad with a corrupt partition table. </s>
+<s> Eventually, Partition Table Doctor (google it, somewhere in Taiwan) fixed the disk up long enough to copy it, wipe it and discard it. </s>
+<s> There is a trial version before you buy, scans the disk and tells you what it can find - if it looks god, buy it to lock the fix in. </s>
+<s> But one method that did work for me on the data (and to be honest, I can't think of a reason why it did!) </s>
+<s> was to run a Knoppix Live CD Linux system on my PC, plug the drive in and Knoppix found the data, which I was able to copy back to the system drive. </s>
+<s> Since you can download Knoppix for free, it's worth a try. </s>
+<s> You don't really need to know any Linux if you use the GUI but you might like it! </s>
+<s> The other suggestins in the thread are good, I guess you've tried them before you got this far. </s>
+<s> If you have, still without success, it might be worth giving Kroll-Ontrack a call. </s>
+<s> They have a presence in the USA and UK and other places. </s>
+<s> They are a professional data recovery outfit and I warn you, not cheap but with the data you are trying to retrieve, you might consider it worth it. </s>
+<s> But on the initial call, they will discuss your problem and offer advice on what to do next (which may be just to send the disk to them). </s>
+<s> From other posts in the thread, it sound like this may be a common problem, which they will have seen before. </s>
+<s> Good luck and fingers crossed! </s>
+<s> Isnt the whole point of having an external hard drive to have a place to store and access your data, music, documents, text files, photos etc so you can keep them safe from computer problems, crashes etc, and be able to access all that important stuff by simply attaching and accessing the external hard drive?? </s>
+<s> If that's not the case then I and most people I know must have completely the wrong idea about what an external hard drive is for.. </s>
+<s> I ended up sending the external hard drive in to a business in town, they pulled it apart, I'm not sure what they actually did to it but when a relative of mine picked it up for me it was still in pieces (yeh they didnt even bother to put it back together after having it for about 10 days) and the only reply was that it was 'dead' and that they couldnt find any data on it that was retrievable. </s>
+<s> I wonder if it is worth taking it to someone else as I don't know whether these professionals in town actually went through the processes described by some people here of taking out the actual drive and trying it with another motherboard etc, that is to say I don't know what lengths and processes they went to to try to fix it, so I don't know if I can 'trust' them as one person who posted on here put it, suggesting I find a professional I trust to fix it </s>
+<s> An external drive is a nice way to move large amounts of data between PC's that aren't networked. </s>
+<s> And it's useful as a quick (but preferably not your only) backup medium. </s>
+<s> It's NEVER a good idea to store information on only one place, be it an internal or an external disk. </s>
+<s> If you read through two pages of this forum, moreover, you'll note that quite a few posts are about &quot;I can't access my external disk anymore&quot;, while hardly any is about &quot;My internal hard disk failed&quot;. </s>
+<s> So it can be considered a proven fact of life that external disks are more unreliable than internal disks. </s>
+<s> Your data, music, documents, text files, photos etc indeed are kept safe from computer problems. </s>
+<s> Alas, they are NOT kept safe from problems with the drive itself. </s>
+<s> And such problems for an external disk are more common than computer problems that damage data on the internal disk. </s>
+<s> And that's where your idea (and that of most people you know) fails. </s>
+<s> Having a backup (preferably: 2 backups, on different media at different places) is the preferred way to keep your data safe. </s>
+<s> Sorry, but that's the way it is. </s>
+<s> Kees </s>
+<s> I too resorted to using the Knopix Linux disk to recover most, but not all of my data. </s>
+<s> It's worth a try, and by all means do tell it to use the GUI (graphical user interface vs command line input). </s>
+<s> I had a WD drive that was both USB and a NAS device. </s>
+<s> I started having a few problems with it corrupting files, then I noticed it was getting hot so put a number of old heat sinks on it which helped a bit but eventually it died. </s>
+<s> Have you tried removing the drive and sticking it in another external drive enclosure? </s>
+<s> It would prove whether it's the drive of the enclosure, if it is the later, problem solved. </s>
+<s> I've bought them for around 10 that are both SATA and PATA. </s>
+<s> My post is not going to tell you how to fix your WD drive because I believe you have already gotten a lot of good advice in that arena. </s>
+<s> Instead I hope to give you some advice on how to best avoid the problem in the future (of course one can never be certain that a HD will not fail) and a better method of sharing a back-up drive between multiple computers. </s>
+<s> First, in reading your post it appears that you are two (2) operating systems (OS) out-of-date ?meaning XP to Vista to Windows 7. </s>
+<s> My advice is to never be more than one (1) OS behind the most current. </s>
+<s> However, I will concede that given a choice between Vista and XP you probably have the best one in XP. </s>
+<s> Windows 7 on the other hand affords you the following advantages (Note: The information listed below is cut and paste directly from Windows 7 FAQ's - The use of the word People will always refer to you): Network Discovery Network discovery is a network setting that affects whether your computer can find other computers and devices on the network and whether other computers on the network can find your computer. </s>
+<s> There are three network discovery states: ?On This state allows your computer to see other network computers and devices and allows people on other network computers to see your computer. </s>
+<s> This makes it easier to share files and printers. </s>
+<s> ?Off This state prevents your computer from seeing other network computers and devices and prevents people on other network computers from seeing your computer. </s>
+<s> ?Custom I have left information about this state intentionally blank as it adds nothing to the discussion. </s>
+<s> In Windows 7, you can share individual files and folders-and even entire libraries-with other people. </s>
+<s> Media Streaming ?When media streaming is on people and devices on the network can access pictures, music and videos on your computers Share My Computer ?You have the ability to see and interact with one computer screen while logged on to another. </s>
+<s> In the past one would have to purchase 3rd party software like PC Anywhere to have the same functionality. </s>
+<s> Hopefully, without going into a lot more explanation you can see the usefulness of the options afforded you in Windows 7 that would be of benefit given what you are trying to do with two computers. </s>
+<s> To be fair some of what I have discussed can be accomplished in XP but only with more difficulty. </s>
+<s> Maybe Windows 7 is not an option as an upgrade on one of your systems due to hardware and/or driver limitations. </s>
+<s> You can determine if your systems are capable of running Windows 7 by going to Microsoft and downloading the Windows 7 Upgrade Advisor. </s>
+<s> I know that two (2) of your systems are somewhat out of date by your admission of not having USB 2.0 compatibility and your recent purchase of a new laptop. </s>
+<s> Here again with USB 3.0 on the horizon (and already being offered on some systems) you are about to become two (2) USB driver builds behind with USB 1.0. </s>
+<s> The point I am trying to make here is that? </s>
+<s> once your systems start to fall behind two generations (and are not capable of being upgraded) it is time to give some serious consideration to purchasing a new system ---- which you have done. </s>
+<s> So, where am I going with all of this and how will it help with your HD storage issues: Start with a good home network that is Wi-Fi capable using an 802.11n or 802.11b/g/n router with at least four (4) open Ethernet ports. </s>
+<s> Use WPA or WPA2 network security. </s>
+<s> Make sure that each of your computers connects to the network securely. </s>
+<s> The laptop should connect via LAN (wired using Ethernet cable) and WLAN (wireless - Wi-Fi). </s>
+<s> Purchase an external HD that is NAS (Network Attached Storage) capable using an Ethernet cable. </s>
+<s> Once you plug in the NAS enabled HD to the back of your router it will be assigned a drive letter and appear in My Computer on each of your systems. </s>
+<s> Using a backup utility software (Windows 7 has this feature built-in) you can schedule regular back-ups of your data to the external NAS HD from each computer or you can just drag and drop the files to it. </s>
+<s> This option also best supports the use of two or more computers to share the same NAS drive. </s>
+<s> Another option is to Partition the NAS HD. </s>
+<s> Partitioning is where you divide the total capacity of the drive into (for example) half (i.e. </s>
+<s> 1TB HD drive split into two 500GB partitions). </s>
+<s> Each 500GB partition will have its own drive letter. </s>
+<s> You inturn would map Computer-A to a drive letter and Computer-B to the remaining drive letter. </s>
+<s> In My Computer on Computer-A you will only see the drive letter you mapped (assigned) to it. </s>
+<s> The same would hold true for Computer-B. </s>
+<s> You would setup the scheduled back-up of Computer-A to go to the specific NAS drive letter you assigned it and conversely the same would be true for Computer B. </s>
+<s> You would still have the ability to drag and drop. </s>
+<s> The last option is a little more involved but the end-results are the same. </s>
+<s> For simplicity I would recommend the first option (just a common External NAS HD residing on your network) The benefit is that you will not be bothered with connecting/disconnecting/reconnecting of a single HD between two (2) or three (3) computers. </s>
+<s> You probably won't see a request to &quot;format&quot; a drive again between computers. </s>
+<s> Also, more importantly if your WD is not Solid State (SS) it really wasn't designed for the connecting/disconnecting/reconnecting dance. </s>
+<s> Conversely, whether your WD is SS or not - - you should never remove a USB drive without going through the Remove Hardware icon and allowing for a proper spin-down or disconnect from the OS. </s>
+<s> My recommendation at this point is to take the WD to a Best Buy Geek Squad or similar outfit and let them transfer your data to the HD on your Lenovo laptop and to a 500GB USB flash drive. </s>
+<s> Follow one of the drive setups I have outlined above, transfer the data from your Lenovo to the NAS Drive and attach the 500GB USB flash drive to the USB port on the NAS. </s>
+<s> You can then use the 500GB flash drive as a second back-up target. </s>
+<s> If you have more than 500GB of information and it is too large for your Lenovo HD then you will have to split the data between it and a USB flash drive. </s>
+<s> Good Luck! </s>
+<s> ! </s>
+<s> Excellent suggestions Charlie. </s>
+<s> As a last resort, I would suggest trying a low-level recovery of everything on the drive using SpinRite: http://www.grc.com/sr/spinrite.htm </s>
+<s> Just to mention here - one other thing I have found works on dead drives sometimes: put it in the freezer for a couple of hours, then hook it back up directly to the computer (internally, if possible). </s>
+<s> If you can read the drive, get your data off there right away, because this fix doesn't last long. </s>
+<s> This is a very common problem. </s>
+<s> The External Power Supplies are cheaply made, and fail regularly. </s>
+<s> Replace the External Power Supply, and your problem will be solved. </s>
+<s> Just a wee note to let you know you don't need sata if you have a ide hard drive look for a ide to usb cable which will let you download all your info on the other hard drive in your pc until you can buy another or just back up all the info on the external drive to dvd's thanks ian </s>
+<s> USB/USB2 was NEVER designed to be for mass storage! </s>
+<s> Yes, it can do it, but does not mean it is safe! </s>
+<s> Best is FireWire and eSATA,if you computer does not have, it is EASY to add!! </s>
+<s> USB3 is good to, because THAT one _can_ handle mass storage. </s>
+<s> Despite the &quot;USB&quot; name, it is actually far better then USB2. </s>
+<s> Problem is, your compter will not have it, and it will be expensive. </s>
+<s> I actually used this one today on an external drive and it worked! </s>
+<s> ! </s>
+<s> I agree with Charlie. </s>
+<s> Like Lee Koo I use several external hard drives for backup. </s>
+<s> I had the unfortunate experience of loosing two external drives at once and with them all my archived photos. </s>
+<s> I did exactly as Charlie says. </s>
+<s> Mine were IDE drives so I had to be careful with the external plug but I got my computer to recognize the drives with the use of a rescue disk. </s>
+<s> I could not access the drives directly as something in the file system (FAT 32 at that time I think) was corrupt. </s>
+<s> I retrieved all my photos and much of the data. </s>
+<s> Some of the data was corrupt but I got the photos which were the important items. </s>
+<s> This might be her problem but you cannot believe how many perfectly good components I find that are needlessly tossed </s>
+<s> I've been through this enough to qualify at least as a skilled amateur and won't belabor the qualifications. </s>
+<s> I've had two dead drives owned by friends that I gave up on after trying everything listed in these collected responses and returned them with apologies. </s>
+<s> In one case after weeks, and the other after months, they both plugged the drives in as one final try and they fired up and both were able to recover all their data. </s>
+<s> No explanation, no logic because when both drives were powered down, they never fired up again. </s>
+<s> Maybe it's the water, maybe the electricity, maybe sun spots. </s>
+<s> So if you don't want to spend the money for a professional data recovery service, keep the drive around and try it occasionally and be prepared to capture the data on the wild chance that it does power up successfully. </s>
+<s> and your HD is now in pieces. </s>
+<s> I, also, have a WD external HD about 18 months old (is this the expiration date?) </s>
+<s> that disappeared. </s>
+<s> It said that I didn't have the correct drivers. </s>
+<s> I got another external HD (Seagate this time). </s>
+<s> The old drive could be read on my son't computer (newer and Vista - mine older and XP). </s>
+<s> So I got him to copy everything from one to the other. </s>
+<s> Well, he didn't get everything. </s>
+<s> I found one thing that seemed to work (it could be I just held my tongue just right) and that was to turn on the computer without the HD. </s>
+<s> After the computer had been on for a while, I connected the old HD and it showed up (sometimes - at least enough for me to finish copying old to new). </s>
+<s> Couldn't guarantee this will work. </s>
+<s> Next time I will try the freezer fix. </s>
+<s> Couldn't hurt. </s>
+<s> Diana </s>
+<s> do a system restore it has always helped me .it restores all your files in your hard drive. </s>
+<s> I had a similar problem and I had fixed it by chance. </s>
+<s> Lets try this. </s>
+<s> * First, Do not format or delete the data when it prompt. </s>
+<s> Bcos U may worsen and possibility of getting it back will be less. </s>
+<s> 2) Trying pluggin into a different machines,eg., friends laptop, desktop. </s>
+<s> Sometime it may detect. </s>
+<s> 3) Go to Mycomputer -&gt; Right click and select Manage, Goto Disk management under Storage and see whether disk is listed. </s>
+<s> If it prompts to Format, Don't do it. </s>
+<s> 4)If Drive is detected, try www.recovermyfiles.com and to get data. </s>
+<s> You can find me in FaceBk yoganandam dayalan . </s>
+<s> Send your email, I'll send more steps to try. </s>
+<s> I had the same experience with one of my WD externals. </s>
+<s> It worked fine on my new Windows 7 desktop for a year. </s>
+<s> Then about three months ago my desktop started taking an extremely long time recognizing the WD, and eventually stopped recognizing it altogether. </s>
+<s> I plugged it into my Linux computer and it recognized the drive no problem. </s>
+<s> There was nothing wrong with any of the data, so I've continued to use the drive on the Linux computer. </s>
+<s> I'm going to get another hard drive to back-up everything on the WD just in case this is an early sign of failure. </s>
+<s> But I think the next USB drive I purchase won't be a WD. </s>
+<s> I had the same issue with different brand of 500 GB external drive. </s>
+<s> Solution, after a year of fretting and being told it would cost $1700 to send it back to manufacturers data recovery service. </s>
+<s> Hubby connected it to his work system running Windows 2000 and realized the program had &quot;hid&quot; the files. </s>
+<s> Using new USB cables (as a precaution) transferred the files via his system directly to my laptop. </s>
+<s> Hope this helps. </s>
+<s> I recently had the same problem with a Toshiba 640GB drive. </s>
+<s> Tried all of the recovery software outthere, some found my data, and some did not. </s>
+<s> What I did do and restored my data was something that you already own. </s>
+<s> It is CHKDSK. </s>
+<s> As a last resort I before spent any money I tried CHKDSK, which is part of all versions of windows. </s>
+<s> First make sure you are logged in a the administrator. </s>
+<s> Then click on the start button, for windows 7 type in CMD in the search program and files window. </s>
+<s> This will bring you to the command prompt. </s>
+<s> Then type CHKDSK ?:. </s>
+<s> The ? </s>
+<s> represents the drive letter. </s>
+<s> Use the last known drive letter used. </s>
+<s> If the program runs and returns alot of data about the drive, then run it again with the /f switch. </s>
+<s> CHKDSK ? </s>
+<s> : /f. </s>
+<s> It will then fix the problem and you will now be able to see your files. </s>
+<s> Good Luck! </s>
+<s> ! </s>
+<s> My WD will NOT function with my desktop, but works perfectly fine with my laptop!! </s>
+<s> Purchased a Seagate that seems to work fine on both!!! </s>
+<s> Very odd, tried so many things to get the WD to function on my desktop, but to no avail! </s>
+<s> ! </s>
+<s> You can try setting the hard drive in plastic/baggie on ice in a cooler next to the PC, too...just be cautious of the melting ice and water! </s>
+<s> I experienced such case 3 months ago. </s>
+<s> This is what I did: 1. </s>
+<s> Make sure all hardware all OK. 2. </s>
+<s> Connect the external HD to another PC (XP may have a greater chance.) </s>
+<s> 3. </s>
+<s> Start &gt; Run &gt; type CMD to go to command mode. </s>
+<s> 4. </s>
+<s> Type chkdsk /f x: where x: is your external HD. </s>
+<s> 5. </s>
+<s> Follow the instructions from chkdsk command. </s>
+<s> That is it. </s>
+<s> Good luck. </s>
+<s> Thomas Chan </s>
+<s> Thanks, I learned that the hard way in this instance. </s>
+<s> I guess I didnt know that because this WD external hard drive was the first one I have ever had or used, and it didnt come with any real instructions, warnings, tips etc in the packaging or from the place where I bought it. </s>
+<s> I now have a Samsung external hard drive which is twice the size and it was on sale for half the money I paid for the other one. </s>
+<s> It also has warranty information and a place you can call for help. </s>
+<s> In fact having read all these posts which have been informative and helpful by the way, I'm thinking of getting a second one, just to be on the 'safe side' from now on. </s>
+<s> I find that these drives tend to overheat and have poor cooling. </s>
+<s> I routinely ventilate the cases and glue an old fan to the case and power them with a 6-12 volt plug in power cube. </s>
+<s> Seems to markedly improve reliability. </s>
+<s> Connect it to a friend's computer and perhaps a couple of others; if you can access it, then you may have a driver problem on the machines you're using. </s>
+<s> Go to your computer manufacturer's web site and look for updated or new USB or &quot;chipset&quot; drivers. </s>
+<s> Also, do you have a recovery disk? </s>
+<s> You might be able to reinstall the USB or chipset drivers from there. </s>
+<s> Get a computer-savvy friend, or &quot;friend of a friend&quot; to help you with this if you need to. </s>
+<s> If you can't access your hard drive on other computers, I'm sorry to say, your hard drive may simply have failed. </s>
+<s> It happens. </s>
+<s> It could also be that the file table has become corrupt. </s>
+<s> Whatever happened, all may not be lost: you sound like you're at or near a university. </s>
+<s> If so, check or ask around if there's some sort of hard drive or data recovery service, maybe through the computer science or IT lab. </s>
+<s> Or, maybe you can find a friend, or friend of a friend, who can do this at minimal cost, if any. </s>
+<s> I say this because commercial services do exist for recovering data of a failed hard drive, but these are often very EXPENSIVE. </s>
+<s> In the future, you should plan to use a USB Flash Drive or CD/DVD/Blu-Ray to store your most important stuff in addition to whatever drive, internal or external, you are using as a primary or backup. </s>
+<s> Why? </s>
+<s> Because hard drives, internal or external, are mechanical devices, and can, and do, fail. </s>
+<s> (And per Murphy's Law, often do at the worst time!) </s>
+<s> I would also recommend using your computer's internal drives to store as much as you can, and use the external drive as a back-up, from which you can restore your files quickly, and possibly put a full &quot;disk image&quot; backup on (Google &quot;disk image backup&quot; to read more, or read the documentation that came with your computer or Windows). </s>
+<s> Hi Virginia, Lots of good suggestions here, but one thing everyone failed to check is your level of expertise or comfort with trying any of their suggestions. </s>
+<s> To be honest, it could be the drive itself, the electronics in the external enclosure, the power supply for the external enclosure, the USB cable you use with it or even the USB connector on the external enclosure. </s>
+<s> The recovery software suggested is not going to work if any of the above issues are the problem. </s>
+<s> A good place to start would be trying a different USB cable. </s>
+<s> If that does not fix the problem, try carefully moving the USB plug around to see if it might be the connection in the drive enclosure. </s>
+<s> Do it gently and slowly and watch your monitor screen while running Windows Explorer to see if your drive becomes recognized and accessible. </s>
+<s> If this works, have someone hold the plug in the position that works and try to copy one file off the drive to your internal drive. </s>
+<s> If that works, then I would say you have a reasonable chance with purchasing a replacement enclosure and moving the drive over to it. </s>
+<s> However, here is where certain issues arise. </s>
+<s> Depending on how old the USB drive is, it may be an IDE drive and most external enclosures sold today are made for SATA drives. </s>
+<s> Your comfort level comes into play too. </s>
+<s> If you find a drive enclosure to match your hard drive, can you accomplish the transfer. </s>
+<s> Same applies to taking the drive out of the enclosure and hooking it up directly to your desktop computer. </s>
+<s> Depending on whether it is IDE or SATA dictates what kind of cables you need to accomplish that. </s>
+<s> If you found that is is the drive enclosure, one could even go so far as to permanently install the drive inside your desktop computer. </s>
+<s> As far as recovery software goes, if you cannot get a good working connection to the drive, then software is not going to help. </s>
+<s> It sounds like you really want to recover the data on the drive. </s>
+<s> That is most likely where a professional recovery service comes in. </s>
+<s> They are a choice of last resort. </s>
+<s> After you are positive that the drive is dead, they may be able to recover your files and most services don't come cheap. </s>
+<s> I would stay away from the small mom and pop stores suggested. </s>
+<s> They can't do what the professional services can and may cause more harm than good. </s>
+<s> If you are not comfortable with trying the above methods, and don't have a friend you trust to try testing them, then you could use a small computer store with the understanding that they are only to try getting the drive to work and no data recovery efforts. </s>
+<s> They should be able to test the connections to the drive enclosure, a different power supply, and hooking the drive up directly to a desktop computer so see if they can see the files you want to recover. </s>
+<s> If the drive is good, have them install it in your desktop. </s>
+<s> But take away a valuable lesson from all of this, never put extremely valuable files all in one location. </s>
+<s> Depending on how much data you have, you should have more than one external drive, use a large thumb drive, or burn your files to a CD or DVD. </s>
+<s> I would suggest as least two different kinds of backups, three is even better. </s>
+<s> And think about this, what happens if your house or apartment burns down or is broken into and your computer equipment is destroyed or stolen. </s>
+<s> Always store at least one backup somewhere else like a safe deposit box or your parents or a good friends house. </s>
+<s> You can always replace your computer, and recover your data from one of your backups. </s>
+<s> I hope the moderator makes sure you get this and if he allows, further discussion, to try and help you get your problem fixed. </s>
+<s> (What about that Lee Koo?) </s>
+<s> Good luck!!! </s>
+<s> ! </s>
+<s> Hi There! </s>
+<s> It?s been a long time! </s>
+<s> I had not recently written. </s>
+<s> I've been very busy with my job and the college. </s>
+<s> Hello Virginia, you're in a stressful and frustrating. </s>
+<s> The first thing I recommend you do before anything is calm down. </s>
+<s> Believe me, I've been there and will be easier and fun for you to resolve this in complete calm. </s>
+<s> For starters, you'll need some software. </s>
+<s> I recommend you update your drivers for Windows XP USB on you PC and Laptop. </s>
+<s> You can use the &quot;PC Chip&quot; with which downloads and installs the driver &quot;Chipset&quot; updated for your PC and Laptop, among other &quot;drivers&quot; that have outdated. </s>
+<s> While doing this, I recommend purchasing a new computer store &quot;Y&quot; cable that is compatible with your HDD. </s>
+<s> I have a LG USB HDD for some reason stopped working and discovered that the &quot;Y&quot; cable was damaged. </s>
+<s> Now I'm using the USB cable of my Nokia N-95 Cel! </s>
+<s> (I am a student and did not have enough money to buy the cable &quot;Y&quot; original.) </s>
+<s> If these steps fail to resolve the problem, then you will need additional resources. </s>
+<s> First, you need from someone you trust to provide your PC and have installed Win XP. </s>
+<s> Here you need to install and run the programs needed to backup and recover your files. </s>
+<s> There are hundreds! </s>
+<s> I used the &quot;Recuva&quot; or &quot;Recovery Toolbox for Flash.&quot; Once backed up your files, either on DVDs, or otherwise, need the utility of Windows XP &quot;checkdisk&quot;. </s>
+<s> This is completely recognizable and repair errors in your HDD. </s>
+<s> All USB HDD behave like native HDD, that is, and should also be defragmented and cleaned from time to time! </s>
+<s> Try &quot;Auslogics DiskDefrag.&quot; For the rest, I do not write, because you will need to be much more skilled. </s>
+<s> I recommend more a technician of your trust or related to the HDD manufacturer. </s>
+<s> It's all I can share with you: My experience and what little I know. </s>
+<s> I'm no technical expert or &quot;geek&quot;. </s>
+<s> I'm just a student. </s>
+<s> Long ago, I used my beloved XP Windows Server 2003 64 bit; I currently use 32-bit Windows 7 Ultimate. </s>
+<s> Soon I will be using my 64 bit Windows 7 Ultimate on my beloved Toshiba Satellite Pro A-200 Laptop with 2GB. </s>
+<s> RAM & 160GB. </s>
+<s> HDD. </s>
+<s> Thank you all for the opportunity to share knowledge. </s>
+<s> My best Regards. </s>
+<s> Lawtimes74 </s>
+<s> First, don't even try writing on the troubled drive. </s>
+<s> You will only make it worse. </s>
+<s> Focus on access first, then transfer data to another device, then play with the troubled drive and write to it all you like. </s>
+<s> Have another USB drive standing by to accept the data, because you may get access for a limited time. </s>
+<s> Second, match the USB versions. </s>
+<s> If you were able to get a 2.2 external to work in a 1.1 slot, then you were lucky and your luck has run out. </s>
+<s> Get a new USB card that meets or exceeds the external drives requirements. </s>
+<s> Third, unplug unessential USB devices (leave mice and keyboards plugged in)(unplug webcams, printers, etc.) </s>
+<s> These devices may conflict individually or in concert. </s>
+<s> Try your drive in the leanest configuration possible. </s>
+<s> Fourth, plug the drive directly into a slot on the back of the computer. </s>
+<s> a. </s>
+<s> Sometimes the front drives are unreliable for data storage devices. </s>
+<s> b. Extenders can be problems. </s>
+<s> Unpowered extenders can act differently each time a USB device is plugged in or unplugged. </s>
+<s> Powered extenders were generally not intended for data storage devices. </s>
+<s> Remember data storage devices are transferring back and forth gigabytes of information. </s>
+<s> This is high intensity use. </s>
+<s> External hard drives should be connected as close to the bus as possible. </s>
+<s> Fifth, check the manufacturer for updates. </s>
+<s> Shipping software does not always work with all systems. </s>
+<s> Make sure you are running all service packs of your operating system and any updates on the drives' driver. </s>
+<s> Sixth, find a friend with a Mac Powerbook. </s>
+<s> Most USB external drives have been created to run on Macs and PC's. </s>
+<s> Mac's have a cleaner system so even if the drive does not work on the PC, it may work on a Mac sufficiently that your data can be transferred. </s>
+<s> There are some drives that break and require data retrieval services. </s>
+<s> More often than not, a new USB slot card, removal of conflicting devices, a new cable,updated drivers and a frustrating call to a tech support person who knows less than you do, will do the trick. </s>
+<s> There is hope. </s>
+<s> JAF </s>
+<s> Well, that's a lot of wishful thinking. </s>
+<s> Seagate is nowadays the number one HD manufacturer and WD only the second. </s>
+<s> What you say is similar to Yahoo buying Google. </s>
+<s> I also have a WD external hard drive that has disappeared from windows at times. </s>
+<s> I have been burned in the past by not having adequate backups. </s>
+<s> Now I store my critical information on more than one PC, and on external hard drives, flash drives and DVD's (You never can be too careful). </s>
+<s> All that aside I haven't seen the solution that worked for me. </s>
+<s> My drive worked on my Vista desktop for an extended period of time and then suddenly did not show up in &quot;My Computer&quot; or showed up and said it was not formatted. </s>
+<s> My fist thought was to try it on other PC's. </s>
+<s> The drive worked OK on my laptop and my old XP desktop. </s>
+<s> That's when I noticed that it would show up without a drive letter assigned on the &quot;problem&quot; desktop. </s>
+<s> I went into &quot;Control Panel&quot; (in classic view) then into &quot;Administrative Tools&quot; next in to &quot;Computer Management&quot;. </s>
+<s> Once in &quot;Computer Management&quot; (There may be an easier way to get there!) </s>
+<s> Under the &quot;Storage&quot; section click on &quot;Disk Management&quot;. </s>
+<s> Once in Disk Management you should see all drives attached with drive letters (such as your C: drive) if you see what looks like a fairly large drive with no letter assigned it could be your WD drive. </s>
+<s> Right clicking an the unassigned drive will give you an option to click - &quot;Change drive letter and paths...&quot; this option will allow you to assign a letter to the drive (F,G or H - whatever letter is available or the one it used to be). </s>
+<s> Once the drive letter is assigned - presto! </s>
+<s> the drive works normally again!!! </s>
+<s> Of course your drive could be corrupted (I thought mine was). </s>
+<s> I hope that this helps someone. </s>
+<s> I am sure I cant be the only person this has happend to. </s>
+<s> I had virtually the same problem approx. </s>
+<s> 14 months after buying a WD &quot;Elements&quot; 640 gig external drive. </s>
+<s> The fault started intermittently with it not rustling up and it didn't appear to be spinning when I had a close listen. </s>
+<s> It eventually refused to work at all. </s>
+<s> I took the beast apart and installed the actual drive in an independent external housing and it's been fine ever since. </s>
+<s> Obviously a similar interface problem and the drive itself was OK. </s>
+<s> I have since heard that WD are actually quite helpful in this regard, so it may be also worth contacting them, depending on the age of the drive. </s>
+<s> Had about given up. </s>
+<s> Replaced son's laptop HD which would not boot (multiple error codes said replace). </s>
+<s> Had not done recent back up and some school project was on it. </s>
+<s> Connected it externally with docking station. </s>
+<s> Couldn't access the drive. </s>
+<s> Tried almost everything. </s>
+<s> Got to point didn't care about recovering data, just wanted to wipe it and use it for a back drive. </s>
+<s> Tried to format a couple times. </s>
+<s> Was ready to throw away. </s>
+<s> Anyhow, went to disk management, assigned new letter and deleted volume (And quick format,too I think). </s>
+<s> Recuva in advanced mode (undeleted and formatted) has now found 9550+ files and is still scanning. </s>
+<s> Looks like it will take hours and not sure if files are good or bad, but at least I have some access. </s>
+<s> Will report back tomorrow. </s>
+<s> I feel your pain, Virginia. </s>
+<s> I had a similar problem. </s>
+<s> The computer would recognize my external okay but what I didn't know until 3 rebuilds and a week later was that my external had a virus. </s>
+<s> I don't know how it got there or for sure where I got it but it went through my firewall and my antivirus software and corrupted my data files on my external. </s>
+<s> Like you, I had hundreds of pictures of my kids and data files (I write for a hobby) and none of it was backed up and every one of them was corrupt. </s>
+<s> I was devastated and vowed to never go on the Internet again not to mention I cried for a week. </s>
+<s> My husband who is a tech, was able to retrieve those files, somehow make them not corrupt and I was able to back up everything on 16 GB SD cards. </s>
+<s> It was a long process for him to get it done and took him several days. </s>
+<s> I was a tech myself for years but I'd never seen anything like it. </s>
+<s> It still blows my mind. </s>
+<s> But since then, I don't use Windows to go on the Internet except on rare occasions. </s>
+<s> I use Linux and am much happier and safer with it. </s>
+<s> I have a dual boot system with Ubuntu one one partition and Windows 7 on the other. </s>
+<s> I don't know exactly how he saved those files but I am so grateful because basically my life was on that drive. </s>
+<s> He worked while I cried. </s>
+<s> What a trade off. </s>
+<s> I hope your situation has a happy ending as mine did. </s>
+<s> I had this happen to me with a Seagate. </s>
+<s> Turns out they released a bad firmware and shipped a bunch of drives from the factory with it. </s>
+<s> The result is that, without warning, one day your drive would stop being recognized by windows, BIOS, ANYTHING. </s>
+<s> There was no recall or anything, so there was no way of knowing the REAL problem. </s>
+<s> I tried most of the solutions here, including the freezer 'trick' which I don't like due to moisture after you remove it. </s>
+<s> My plan was (don;t know if it was mentioned here) was to get a clone drive (exact make/model, etc) and swap PCBs. </s>
+<s> As I searched ebay with my make/model, I saw someone repairing only this model, which led me to more research. </s>
+<s> Eventually, I found a place buried on the Seagate site with a phone number. </s>
+<s> Long story short, they sent me a shipping label, fixed (unlocked my firmware), installed new firmware, backed up my drive, and then returned my drive in working order...all free. </s>
+<s> But the panic I endured during the process was payment enough. </s>
+<s> I NOW BACK UP EVERYTHING ON 2 DRIVES AND ALSO BURN BACKUPS TO OPTICAL MEDIA AS WELL. </s>
+<s> Its a lot cheaper than paying a company 2 grand to do a data extract to get all your children's pictures back... </s>
+<s> I </s>
+<s> A way to eliminate other problems is to connect the drive directly to the motherboard via sata cable, (by removing it from the enclosure) and then boot to your setup (BIOS) and see if the drive is recognized there. </s>
+<s> If not, don't waste time with all these other 'tricks' as you will increase the chance of damaging your drive and the data on it. </s>
+<s> You will most likely need professional help. </s>
+<s> Another backup tip is to use an external storage drive with a power switch, and always leave it off until you need to backup data, pictures whatever. </s>
+<s> Before you turn it on, scan your computer to prevent any virus from getting on there. </s>
+<s> Cheers. </s>
+<s> Hopefully one of the suggestions here in this forum will allow you to recover your data. </s>
+<s> I have found that a large majority of the time it has been the enclosure that has failed and simply removing the hard drive and installing it into another USB enclosure is the solution. </s>
+<s> If the enclosure is not the problem using GetDataBack has worked very well for me over the years. </s>
+<s> Use the freezer suggestions as an absolute last resort and with great care to avoid moisture. </s>
+<s> Try changing the drives orientation. </s>
+<s> I have found that occasionally a problem drive will suddenly start working if you turn it upside down or place it on its side. </s>
+<s> In all cases, avoid dropping or bumping the drive. </s>
+<s> In the end, the key issue here is to never use an external hard drive as your working drive and never, ever work without a backup. </s>
+<s> USB drives should only be used for transporting data, transferring data, backing up data, occasional/intermittent use and never used as your sole working drive. </s>
+<s> They are simply too unreliable and prone to physical damage, static electricity as well as overheating. </s>
+<s> The keys to using USB drives: 1. </s>
+<s> Treat all hard drives with great care and avoid bumping or dropping. </s>
+<s> They should be treated as though they were a carton of eggs. </s>
+<s> 2. </s>
+<s> Always use the &quot;Safely Remove Hardware&quot; icon before unplugging any USB drive. </s>
+<s> If this does not work then shut down the computer before unplugging the USB cable. </s>
+<s> 3. </s>
+<s> Avoid continuous running and overheating. </s>
+<s> Drives should have good circulation around them and purchase drives with built-in fans whenever possible. </s>
+<s> 4. </s>
+<s> Ground yourself to discharge static electricity before handling or plugging and unplugging drives. </s>
+<s> 5. </s>
+<s> Always have multiple backups of all data both onsite and offsite or use an online backup services such as Carbonite or Mozy as a backup to your backup. </s>
+<s> Dana Wayland Computer </s>
+<s> In future I would suggest using Backblaze, http://www.backblaze.com/partner/af0994 an online backup service. </s>
+<s> Continue backing up to your external drives but for added security use Backblaze and backup your files on all drives, it's about $5 a month. </s>
+<s> Get your 15 day trial: http://www.backblaze.com/partner/af0994 It saved my life, it will save yours. </s>
+<s> This is a very common problem. </s>
+<s> The External Power Supplies are cheaply made, and fail regularly. </s>
+<s> Replace the External Power Supply, and your problem will be solved. </s>
+<s> If yu do pretty much anything else you are going to lose your data. </s>
+<s> I agree with everything yasingMD said and would like to add another tool that has worked great for me. </s>
+<s> I would start with step 6 from his post and if that doesn't work try the link below. </s>
+<s> Personal taste. </s>
+<s> http://www.powerdatarecovery.com/power-data-recovery.html If Those two steps don't work go ahead and start with step 1 from yosingMD. </s>
+<s> A side note regarding external drives. </s>
+<s> For the future: Don't trust them! </s>
+<s> If you want safety with your storage (sorry), you need a RAID setup (Array) which is redundant drives (2-4+ Hds)with the same data automatically stored on all of them. </s>
+<s> There is RAID hardware being sold everyday. </s>
+<s> Google it. </s>
+<s> It isn't cheap. </s>
+<s> (again - sorry) </s>
+<s> You mention data retrieval software &quot;mentioned in other posts&quot; Can you recommend some, or point me to those posts? </s>
+<s> Cliff </s>
+<s> Kees hit the nail on the head. </s>
+<s> All hard drives will eventually fail be cause they are mechanical and will wear out. </s>
+<s> 1. </s>
+<s> If you use external drives for backup of your internal drive, you need to have two. </s>
+<s> Keep one in your house/office, and another identical one in an off site location ( friends house or another office in a different building. </s>
+<s> You need to think about a fire, burgulary, lightning, etc) 2. </s>
+<s> If you use an external drive for routine work ( like of your main internal drive is not big enough), then you need to have two backups of your routine external drive as above in # 1. </s>
+<s> 3. </s>
+<s> If your files are not large (1 gb or less) Online backup services are also good. </s>
+<s> I cannot use them because I do a lot of video editing and my files are so large that it would take weeks to transfer to an online service. </s>
+<s> One note that I see in this post is that external drives fail more often than internal drives. </s>
+<s> I don't understand this because I have been told that the actual drives are the same and the only difference is that the internal drives are interfaced to the computer with sata connectors while most external drives are really the same drive which is put in an enclosure that uses a USB interface to connect to the computer. </s>
+<s> ( although I just bought 3 Fantom (tm) drives that have esata ports which run about 3 times as fast as USB ) Could someone clarify this for me? </s>
+<s> I'm surprised no one mentioned this. </s>
+<s> Everyone loves the lower cost external drives, but most like to buy the units that power off the USB port. </s>
+<s> Problem is that many laptops and older desktops do not supply enough power to run them. </s>
+<s> Even newer laptops sometimes only carry 60 watt power supplies. </s>
+<s> Older desktops often only have a 200 watt power supply. </s>
+<s> If this user has an external drive that does not include it's own power source, find someone (maybe even a PC store) that has 300+Watt power PC and see if that works. </s>
+<s> He may need to replace his power supply unit. </s>
+<s> Put the drive inside your tower and connect to sata cable directly. </s>
+<s> Any other &quot;problem&quot; will be eliminated... </s>
+<s> I've often had my external USB drive's not show up in windows when checked with a disk management program (paragon) the drive is there but for some reason windows has not assigned a drive letter so right click and assign drive letter the drive re appears and works fine, Windows disk management as georgio66 states does the same thing cheers Paul </s>
+<s> I am having the same problem. </s>
+<s> Have a WD External Drive that I've been using for my Time Machine backups. </s>
+<s> All of a sudden, the drive does not exist. </s>
+<s> Any MAC experts out there? </s>
+<s> I've just migrated to a new MacBook Pro 15&quot; (so far the jury's still out). </s>
+<s> Most likey your problem is not with the hard drive but the enclosure itself. </s>
+<s> There is a circuit board inside all external hard drives that can go bad, resulting in the drive not being accessible, however your data is still intact. </s>
+<s> All you need to do is remove the hard drive from the case, which can be difficult, without damaging the hard drive. </s>
+<s> If you are lucky there will be small accessible screws. </s>
+<s> Then you can either intall the drive directly into your computer, as a slave, or buy a new external enclosure and install the hard drive into the new enclosure. </s>
+<s> I have personally done this twice, and with my Maxtor one-touch it was a pain opening the case, they are sometimes designed so they are not easily opened. </s>
+<s> Where are you looking to find the external drive. </s>
+<s> In My Computer. </s>
+<s> Try looking in Computer Management/Disk Management. </s>
+<s> You may see it as unallocated Space. </s>
+<s> Also, you may want to try a free utility call MiniTool Partition Wizard Home Edition. </s>
+<s> It can rebuild partition tables if that is the case, rebuild mbr and format. </s>
+<s> As its not a Windows program, its possible it may see the drive and you can then perfrom your actions from there. </s>
+<s> Did the external drive come with a software/driver file on it or a CD installation media. </s>
+<s> Try installing th manufacturer driver/software and see if windows will now recognize it. </s>
+<s> If there's no install media, search the internet (manufacturers site) for drivers or software. </s>
+<s> I had this problem a while back. </s>
+<s> I did everything I could (luckily I have 5 backups, so I didn't lose data, just a HDD image) but I checked Computer Management/Disk Management, but it couldn't be read. </s>
+<s> So I used partition wizard (see above) it recognize the drive, what partitions there should be and the sizes each part should be. </s>
+<s> So all I could do was format it. </s>
+<s> Using Partition wizard though as windows couldn't even see unallocated space. </s>
+<s> now it works. </s>
+<s> The point is, you may have to format first, recover later. </s>
+<s> otherwise, you may get no drive ever. </s>
+<s> I know someone who tried to recover data from unallocated space/uninitialized disk. </s>
+<s> It ****** up his drive, (don't ask me how). </s>
+<s> So think out a plan first and then decide. </s>
+<s> Maybe talk to an IT advisor. </s>
+<s> ut don't rush into it. </s>
+<s> Do what yasinghMD suggested first (recovery and different cables, enclosures e.t.c.) </s>
+<s> but before you throw away the drive, try my solutions. </s>
+<s> Also, it maybe the USB ports on th computer, Try a PCI USB2.0 card and plug it into that and try it. </s>
+<s> you should also check to make sure that your external drive is not trying to use a drive letter that is already assigned to another device </s>
+<s> Hi, and thanks to everyone for their help. </s>
+<s> I have a WD external drive I was using as a backup, and it now is not recognized at all. </s>
+<s> When I plug it in, I hear a somewhat loud clicking sound, as though something is trying to engage. </s>
+<s> I'm not sure whether the repair that Charlie recommended to Virginia would also be recommended in this case, or whether the clicking sound represents something more ominous. </s>
+<s> Please let me know. </s>
+<s> This drive has had very little use in the two years I've had it, since I have used large capacity thumb drives more frequently. </s>
+<s> However, there are some files that are on the WD drive which I would like to recover, as they are not available anyplace else. </s>
+<s> Thanks again. </s>
+<s> Some USB drives seem to require more power than others. </s>
+<s> This can sometimes be fixed by trying different ports or by buying a self-powered booster extension. </s>
+<s> Anytime you have a problem with an external device (printer, memory stick, whatever), first try it in another computer. </s>
+<s> If it works there, not only will you have a clue as to where the problem is (probably in a driver), but in the case of storage devices you will have the opportunity to retrieve your data or to copy it to another device that your computer still works with. </s>
+<s> I had the same question, and after research found that manufacturers seem to use their cheapest drives in the plug&play USB externals-profit, short warrantee Also 5 volts@.5A is REALLY not much power, especially for DC to run through such small wire with multiple connectors, both crimped and friction, usually without gold, and expect to drive 2 motors. </s>
+<s> I have a 5yr.old XP3 Media Center HP, with 4 sata ports on Asus motherboard, 2 mount positions for internal Hard Drives. </s>
+<s> Warrantee on original HD was up, so After research I bought 3 Western Digital Caviar Black 1Tb TFALS (5yr warrantee) OEM, mounted 2 internal, 1 external in a Rosewill e-sata/usb2 case which has it's own AC-DC power supply, switch and fan w/switch (Newegg $25 supersale), connected it e-sata. </s>
+<s> 1 internal-use constantly, 2nd internal-do an occasional clone to, external-usually back-up to or clone, backing up mostly photos and video to DVD along the way. </s>
+<s> Using Acronis True Image Home (could be more user-friendly) to Back-up and clone, will do 500+Gb in 45min. </s>
+<s> I use 2 registry cleaners and they are tempted to remove the 4 inactive, (not powered most of the time) but recognized drives. </s>
+<s> It is nice to be able to boot-run any of the HD's by removing side cover and switching wires. </s>
+<s> Like going back to a restore point without using system restore, and find a problem. </s>
+<s> Wish I KNEW HOW TO enter bios setup to give me the choice of which hard drive to boot???? </s>
+<s> Anyhow, cspitser, with this setup I don't see much difference between internal or external, just that one is easy to run off with! </s>
+<s> good question. </s>
+<s> This clicking sound usually indicates physical damage to the hard drive mechanism and will require expensive professional data recovery from someone like www.DiskDoctors.com. </s>
+<s> There may be no hope for it. </s>
+<s> I was once able to recover all the data on a hard drive that could not be read by windows by running Ubuntu from a live CD. </s>
+<s> You can download the live cd files from the ubuntu website, burn it on a CD and boot the computer. </s>
+<s> It is an easy and cheap method that could help without having to install any software on your computer. </s>
+<s> Two Maxtors, a WD and a Hitachi. </s>
+<s> In every instance, putting the drive in a new case worked. </s>
+<s> I've been using IcyDock USB/eSATA cases for quite a while and love them. </s>
+<s> They're a little pricey but worth every penny. </s>
+<s> The most recent ones don't even use screws - you just pop the drive in and close the hinge. </s>
+<s> I just revived a friend's drive doing the same and then used my preferred recovery software -- R-Studio -- to retrieve the files -- he only lost 6 files out of 870GB of data. </s>
+<s> If you REALLY need an external drive, buy a good drive and a good case and make your own, preferably an eSATA one. </s>
+<s> I have one I back up all my music and video files (1.6TB) to every couple of weeks and store at my office for safekeeping. </s>
+<s> In between those off-site backups, I copy the most recent files to the cloud. </s>
+<s> I use Jungle Disk, which in turn uses Amazon's S3 cloud storage. </s>
+<s> It costs a couple of bucks a month. </s>
+<s> You can map a drive to it and just copy the files. </s>
+<s> All of my non-media data files are replicated using Dropbox and are on three separate computers and the cloud (and my iPhone). </s>
+<s> SKIP THE FREEZER TRICK: the drive will likely only work for a few minutes then completely give up the ghost, and with large drives you won't be able to get any meaningful quantity of data off it before it fails again. </s>
+<s> Good luck! </s>
+<s> I have an external 1 TB WD My Book Home, on which I store much of my data. </s>
+<s> Generally it behaves well, but unaccountably and apparently randomly, it disappears from the list of disc drives. </s>
+<s> Rebooting the computer doesn't bring it back, and I have to disconnect the cable linking the drive to the computer, remove the power connection, and then re-connect and re-boot before it will reappear. </s>
+<s> So far (fingers crossed!!) </s>
+<s> nothing has happened to my data, but it is a concern. </s>
+<s> Can anyone suggest what might be causing this and how to fix it? </s>
+<s> The computer to which this drive is connected uses Vista operating system. </s>
+<s> If this is happening please be sure this data is backed up . </s>
+<s> If this is the only copy of the data you have then there is a real risk you may lose it if the drive fails. </s>
+<s> Even if this is a backup copy of your data from your computer's hard drive, if this external drive fails then you no longer have a backup. </s>
+<s> Please consider making duplicate backups so that you always have one or two other copies. </s>
+<s> Also you have asked for advice in a question and answer discussion. </s>
+<s> You might want to create your own personal discussion in these forums so that any help and advice offered is specific to you and your system. </s>
+<s> If you do, please be sure to give details and specs of your system. </s>
+<s> I hope that helps. </s>
+<s> Mark </s>
+<s> Check the System Profile (Apple &gt; About this Mac &gt; More Info). </s>
+<s> See if the enclosure shows up in the appropriate port (Firewire or USB). </s>
+<s> Then check the Drive section if it shows up there. </s>
+<s> If does not show 1 or other, drive is not working, get a new HDD, and hook it up. </s>
+<s> FireWire ONLY (USB is poor). </s>
+<s> GL! </s>
+<s> I have always heard if you put the hard drive into the freezer for awhile it will allow you to have a short amount of time to plug it in and get transfer the data you need. </s>
+<s> I have done this with an internal hard drive and would assume it would work the same with an external hard drive. </s>
+<s> I've had that problem also as you describe. </s>
+<s> It seems to be a problem with WD drives. </s>
+<s> I had a WD Book drive and used it for the same purposes as you. </s>
+<s> Frequently it would not recognized by the computer. </s>
+<s> I hooked it to a laptop, sometine it would work, other time it would not. </s>
+<s> I finally read somewhere that you should plug the power directly into a wall plug and use extension cords or the bricks we use to protect against power surges. </s>
+<s> Tried that and it worked most of the time. </s>
+<s> Finally I did a check disk on it and found it had developed bad sectors, fixed those, lost the data that was in those sectors, but was finally able to get most of the files off onto another disk. </s>
+<s> You can be sure its replacement was not a WD. </s>
+<s> Try plugging it right into a wall socket. </s>
+<s> Even then, it goes to sleep after short period of inactivity and has to be unplugged and plugged in again to access the data. </s>
+<s> To vcat: I agree with you completely. </s>
+<s> The reason I bought a WD external hard drive was to have a large-capacity back up in place of the small capacity flash drives. </s>
+<s> And since when does the ability of a hard drive to retain data become insignificant? </s>
+<s> I want my computer's hard drive to retain data; I want an external hard drive to do the same thing. </s>
+<s> we </s>
+<s> gee, no-one has mentioned to check your mother board settings. </s>
+<s> Many motherboards have a default USB setting of 1.0 to 1.5 while the external HDs have a USB 2.0 setting and may not be able to read down to the lower setting. </s>
+<s> That is exactly what happened to me. </s>
+<s> When I changed the motherboard setting to USB 2.0, everything worked fine....even the external HD that was sitting at the front door, ready to be thrown out..... </s>
+<s> How do I check the motherboard setting to make sure the default USB setting is 2.0 as you have suggested I try? </s>
+<s> Thanks. </s>
+<s> I have precisely the same problem with my WD remote drive and it's driving me around the bend. </s>
+<s> Sometimes the USB system recognizes it like it always has in the past but most times now I get the message &quot; this drive needs to be formatted&quot; Having read these excellent answers I am now on the path to fix it, thanks very much, Jeff </s>
+<s> I tried to open mine after not using it for a while. </s>
+<s> It did not prompt me for a password or anything and acted much like yours, in essence blank... </s>
+<s> I right clicked on the icon in the system tray for the wd smartware and it offered an unlock option, thinking I may have locked it, I tried it, and the drive was perfect. </s>
+<s> Not a problem... all 1.5tb was ok.... so, just a thought. </s>
+<s> I will restate what I said before. </s>
+<s> NEVER use USB / USB2 for *external* Hard Disk drive. </s>
+<s> USB was created for Mice, Keyboards, Printers, Joysticks, *NOT* for mass storage. </s>
+<s> USB will *DESTROY* HDD's due to its inefficiencies. </s>
+<s> FireWire and/or eSATA are safest way. </s>
+<s> &quot;Thunderbolt&quot; is a new connection designed for this purpose. </s>
+<s> My only exception to USB is for &quot;USB Flash&quot; drives. </s>
+<s> The solid-state nature of Flash drives can tolerate the inefficiencies of USB. </s>
+<s> I would realy suggest you install a high speed USB port card. </s>
+<s> They don't cost much & all you need is a open PCI slot. </s>
+<s> i've had the 'clicking problem' in the past, myself. </s>
+<s> i found that the drive wasn't getting enough electricity. </s>
+<s> if it has an external electric plug, you might take it out of the surge/power strip and plug it directly into the wall. </s>
+<s> if that works, you might want to buy a 'travel-type' surge protector (very small) and see if it will continue to work with that. </s>
+<s> Next to Spotmau, these are the best two data recovery products on the market. </s>
+<s> The FAT32 program is great for SD cards. </s>
+<s> I've recovered both photos and video. </s>
+<s> Even if you've reformatted the disk, you can still get most of your data back. </s>
+<s> My Android Phone, a Behold II by Samsung has erased by 4.0 Gb micro SD card twice since I received the phone as a replacement for my dead Sidekick LX from T-Mobile. </s>
+<s> After completely dying twice within one year, I didn't give them much of a choice. </s>
+<s> The NTFS version is outstanding. </s>
+<s> I recently had a volume error on my Iomega 650 Gb Super Max drive. </s>
+<s> I ran the program and it took 22 hours to recover everything. </s>
+<s> I also run a 400 Gb Iomega and 1 Tb Iomega Super Max and was able to spread the recovered data around so I didn't have to lose any of it. </s>
+<s> I then reformatted the 650 Gb drive and haven't had any problems since. </s>
+<s> I only use Iolo's System Mechanic Professional to defrag my drives. </s>
+<s> XP sucks for degrag and don't try McAfee. </s>
+<s> I also have an Iomega 650 Gb that won't turn on and have an ongoing issue with Iomega about this. </s>
+<s> Your reply was great. </s>
+<s> I recovered over 600,000 files that were on this disk that most people would have cried over when it wouldn't boot up. </s>
+<s> iTunes has also been blamed for a lot of disk drive errors and Apple has been put under the gun to keep this issue to a bare minimum. </s>
+<s> Using XP's safely remove software app works great but you have to remember to select the actual drive and not the two supporting files or you'll get a 'can't stop drive' reply. </s>

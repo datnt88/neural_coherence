@@ -1,0 +1,45 @@
+<s> On an old computer of mine the C:Drive is only around 13 GB and I'm running low on storage space, so I was trying to free up some space. </s>
+<s> That's when I noticed a big difference in the size and size on disk of a few major folders. </s>
+<s> Windows: Size - 4.89 GB , Size on Disk - 3.64 GB Program Files: Size - 2.12 GB, Size on Disk - 1.83 GB Is there anyway I can play around with this and free up some space by defragmenting the drive or something along that line, or is this simply the way file storage works? </s>
+<s> (In the Windows folder alone, there's a 1.25 gig difference between the two; and before anyone brings it up, yes I'll eventually replace it with a much bigger hard drive) </s>
+<s> No, you can't use that difference to free up space. </s>
+<s> This has to do with the minimum size allocated for any piece of data. </s>
+<s> Most files require several allocation units but some of these units are not completely used. </s>
+<s> Consider that you needed 12 ounces of water but your cups only held 10 ounces. </s>
+<s> You'd need 2 cups to hold the water. </s>
+<s> One would be full and the other have only 2 ounces if done the way data is stored on a disk. </s>
+<s> So, the size is 20 but size in cups only 12. </s>
+<s> to replace it with a larger HDD and use the old one as backup. </s>
+<s> Alternatively you could put some of the DATA onto CDs or DVDs and free up some space on the HDD. </s>
+<s> Another way to think about disk space is 'parking spaces' and 'vehicles'. </s>
+<s> The hard disk is like a big parking lot divided up into parking spaces for data, not cars. </s>
+<s> But once you park a vehicle in a space (cluster, block, etc.,), even though it doesn't fill the whole parking space.... the remainder of the space is no longer available for another car, regardless of size. </s>
+<s> The unused space is sometimes referred to as 'slack space'. </s>
+<s> Hope this helps. </s>
+<s> VAPCMD </s>
+<s> First of all... do a System Restore. </s>
+<s> You don't say which OS you are using but let's say it's XP... Click START - RUN - type CMD - OK - this brings up a Dos Box. </s>
+<s> Type CHKDSK C: /F and hit Enter. </s>
+<s> It will tell you that you have to do this on a re-boot so hit Y and Enter - then do a reboot and allow the check to take place before you do anything else. </s>
+<s> I'm also guessing that your hard drive is formatted as NTFS. </s>
+<s> I assume you have done a good Clean Up of your hard drive - if not, run CCleaner with all the boxes checked. </s>
+<s> Also run Wise DISK Cleaner Free, run the wizard at start-up and make sure you check the box to Remove Windows Update Uninstall files - I've never known anyone need to uninstall a Windows Update - just to be on the safe side, don't check any of the boxes containing LOG or TXT. </s>
+<s> Now run the registry cleaner on CCleaner and ALSO (because they all find different stuff) run Wise REGISTRY Cleaner Free as well... after the clean, you can then use this program to compress your registry. </s>
+<s> You can also download a Swap-file defrag program from CNET. </s>
+<s> You can be shocked at the gigantic amount of 'STUFF' that Windows collects - it is usually 100's or Megs and has been known to be well over a Gig. </s>
+<s> Now reduce your Browser cache size to a Max of 50 Megs. </s>
+<s> If you are running plenty of Memory, reduce your swap-file size to 200 Megs - or even switch it off if you run 2 Gigs or more of Memory. </s>
+<s> Reduce the size of your System Restore Point space. </s>
+<s> If you run Norton protection on your Recycle Bin, reduce the size or switch it off. </s>
+<s> Lastly... Uninstall everything that you don't use - then run all the clean-up programs again and run a full Defrag. </s>
+<s> PLEASE tell us how you get on - we all need feedback. </s>
+<s> (Mike) </s>
+<s> I re-read the first post, and I didn't see where the OP stated they were having problems with the system, except with hard disk space. </s>
+<s> How would System Restore solve that? </s>
+<s> CCleaner is a good idea. </s>
+<s> It can remove a lot of hidden temporary and unwanted files from the system. </s>
+<s> Mark </s>
+<s> All I meant was that the System Restore facility uses up huge amounts of HDD space. </s>
+<s> If you go to Control Panel - System - and click on the System Restore tab, you can reduce the amount of HDD space it uses up. </s>
+<s> In other words you will reduce how far back you can go on restoring your system set-up. </s>
+<s> If I set mine to maximum, it can eat up 16 Gigs of my 160 Gig HDD </s>

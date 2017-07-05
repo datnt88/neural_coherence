@@ -1,0 +1,41 @@
+<s> Got two questions for the experts here. </s>
+<s> First, when I try to share files/folders, they always are marked as read-only, even after I have granted others to modify files in the shared folders through the security tab. </s>
+<s> If I uncheck the read-only box, and apply the change, it still reverts back to being read only. </s>
+<s> This is on my desktop running WinXP Media Center edition (99% sure this is a variant of XP Pro). </s>
+<s> For the time, I have gotten around this by turning off simple file sharing and allowing full access to everybody on every shared folder. </s>
+<s> I don't really like that idea, but for now that's what I have to do. </s>
+<s> My second question is this. </s>
+<s> I can see and access my desktop files from my laptop (sometimes not until after a few minutes of being on the network), but I can not see the laptop from the desktop, nor can I see the desktop itself on the workgroup computers. </s>
+<s> The laptop has WinXP home, and WinXP Media Center (Pro?) </s>
+<s> on the desktop. </s>
+<s> I have disabled all known software firewalls, incl. </s>
+<s> Win ICF with no luck whatsoever. </s>
+<s> Any ideas? </s>
+<s> Thanks! </s>
+<s> You didn't write if Zonealarm is installed. </s>
+<s> There is no disable for that software in spite of the disable setting. </s>
+<s> As to your file permission issues, that's just something you need to read about as to ownership and permissions. </s>
+<s> Since all that is on the web for the reading, I will not duplicate the content here. </s>
+<s> Some will not research such on the web and need to go buy a book on administrating Windows. </s>
+<s> Recap: 1. </s>
+<s> Some software firewalls don't disable even if there is a checkbox to do so. </s>
+<s> 2. </s>
+<s> Ownership and permissions. </s>
+<s> That's what you need to research. </s>
+<s> Bob </s>
+<s> I do not have ZoneAlarm installed on either machine. </s>
+<s> I have googled many different word combos and tried all the suggestions I found to no avail. </s>
+<s> I'm stuck. </s>
+<s> If you had some links, it would be helpful if you could provide them. </s>
+<s> Thanks. </s>
+<s> If you can be precise about accounts, NTFS is being used and more, then we can proceed. </s>
+<s> I forgot to mention the need for NTFS since without, this will not work. </s>
+<s> Let's start with &quot;groups&quot; and &quot;owners&quot;. </s>
+<s> You could have a shared directory that is full access to some &quot;group&quot;. </s>
+<s> Or you could set the group access to read-only and some other group would have full access. </s>
+<s> Put people in each group depending on the effect you want. </s>
+<s> As you can tell, such is all in the words and understanding rights, groups, owners, ownership and some tools. </s>
+<s> One tool is CACLS or XCACLS or similar. </s>
+<s> You pick which is your cup of tea. </s>
+<s> Have you been to a book store and looked at books on administration? </s>
+<s> Bob </s>

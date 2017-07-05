@@ -1,0 +1,42 @@
+<s> Dell Dimension 4400; XPhome; P4; C: WD1200JB; D: CD-RW; E: ST340016A I did something really stupid. </s>
+<s> I overwrote the ST or E: drive with 1's and 0's. </s>
+<s> This wiped out the drive including the MBR section. </s>
+<s> This was the original drive that came with the unit. </s>
+<s> My WD drive is my primary drive. </s>
+<s> Howvever, it has bad sectors. </s>
+<s> Device Manager and BIOS boot recognize my ST drive. </s>
+<s> My Computer doesn't show the E: drive. </s>
+<s> But I haven't figured out how to write a MBR or anything else to the drive. </s>
+<s> I tried using SeaTools. </s>
+<s> But the program stops when it tells you that it doesn't work in Windows, but DOS only. </s>
+<s> I have to turn off the computer and reboot to do anything. </s>
+<s> So, what do I need to do to be able to use my ST drive? </s>
+<s> Boot to the SeaTools disk to test for damage on the 40GB Seagate drive. </s>
+<s> In the meantime, I'd use the Dell Windows XP Restoration disc to install Windows on the 120GB HD. </s>
+<s> The Windows XP installation CD will install all the necessary files to the MBR. </s>
+<s> Make sure you install all drivers after installing Windows (download the latest versions from Dell.com). </s>
+<s> It's entirely proper for it to not show up in explorer until you partition and format it with your OS. </s>
+<s> In XP, you use the disk management tool. </s>
+<s> Bob </s>
+<s> Thank you for the suggestions. </s>
+<s> I hoped I followed the advice correctly. </s>
+<s> I used Disk Management to initialize my secondary drive. </s>
+<s> This time My Computer recognized the E: drive. </s>
+<s> However, two days after I did this. </s>
+<s> I got the BSod message Unmountable_boot_volume. </s>
+<s> I was able to access the Recovery Console. </s>
+<s> When I ran chkdsk, after 21%, a messaged appeared that I have one or more unrecoverable hard drive sections. </s>
+<s> So, here is my question. </s>
+<s> Is it possible to bring up the system and access the data so that it can be put on my new computer? </s>
+<s> My XP files are on my primary drive. </s>
+<s> I usually look to my backup disks. </s>
+<s> For me that's all of 4 DVDRW disks. </s>
+<s> That cost was all of 4 bucks and worth every penny. </s>
+<s> I don't backup the OS or programs but reload those from CD or net. </s>
+<s> -&gt; Try this. </s>
+<s> Put it in some USB external case and see if some other machine sees the files. </s>
+<s> Sorry to hear your troubles are continuing. </s>
+<s> Can you tell me if you connected it with the usual 80 conductor IDE cable with the jumpers on cable select? </s>
+<s> i.e. </s>
+<s> the normal setup for hard drives. </s>
+<s> Bob </s>

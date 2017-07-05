@@ -1,0 +1,94 @@
+<s> I have a few external drives and need to find a way to **permanenently** assign drive letters to them. </s>
+<s> I have tried the windows disk mgt function that is part of the &quot;Computer Management&quot; group but it does not seems to be a ***permanent*** letter assignment. </s>
+<s> i.e., I will assign letters but then later the letters will change, which makes software that points to the drives fail. </s>
+<s> For example, on July 1 say I assign letter J:\ to ext HD #1. </s>
+<s> Over the next few weeks, HD #1 gets turned on and off, plugged and unplugged etc. </s>
+<s> Then on July 21, somehow ext HD #2 has stolen the J:\ letter and now ext HD #1 (the one that used to be J) has been given K:\...my backup software fails b/c it cant find the drive, software that references those drives fails etc. </s>
+<s> Any help appreciated! </s>
+<s> ! </s>
+<s> http://www.pcadvisor.co.uk/downloads/index.cfm?categoryid=1503&itemId=15520 There are reasons for the letters to change such as using a different USB port, etc. </s>
+<s> But the above software did list XP so good luck. </s>
+<s> Bob </s>
+<s> NIL </s>
+<s> I tried using the Letter Assigner program suggsted and it wont seem install on XP SP2 - when try to install get error &quot;This program will not run on Windows NT&quot; Anyone have any suggestions or alt programs? </s>
+<s> That was listed for XP but it's time to me to go somewhere. </s>
+<s> BRB </s>
+<s> I've seen a similar problem but as long as I can access the data, I let it go no matter what the drive letter. </s>
+<s> Look at this link: http://www.online-tech-tips.com/computer-tips/how-to-change-the-drive-letter-in-windows-xp-for-an-external-usb-stick-or-hard-drive/ This shouldn't be a problem if you access the same port and use 1 ext. </s>
+<s> drive or at least it doesn't pop-up as often. </s>
+<s> However, once you plug-in several drives it seems the linage gets hosed. </s>
+<s> I think the term, &quot;permanent&quot; maybe the falsehood here as i see it. </s>
+<s> IMHO, use your different USB hubs to better control the issue, one per. </s>
+<s> tada -----Willy </s>
+<s> I have a drive that always goes to the letter I choose. </s>
+<s> But it's letter is no where near the a to f or letters that could get bumped. </s>
+<s> and later copy the backups to an external. </s>
+<s> VAPCMD </s>
+<s> I went with Bobss suggestion and made them x y and z. lets see if it sticks. </s>
+<s> the uwe stieger (?) </s>
+<s> german guys's app looks like worth a look too but i dont like it runs always as a service...call me paranoid... </s>
+<s> It's a very old app that's been around for a very very long time. </s>
+<s> I have called it up since I ran Windows 98! </s>
+<s> I'm sure all the people here have different answers that might work or not, but please don't end up paying for something that is advertized to to correct this. </s>
+<s> I the only suggestion i will give you right now is try --- TweakUI and always skip 1 letter from C: which the next letter will be now E: You have full power with this free app. </s>
+<s> Make it work for you and always read the help if you don't understand anything. </s>
+<s> Ampyy </s>
+<s> All versions of Windows feel that they can rearrange things to suit themselves. </s>
+<s> On the other hand, Windows seems to leave things stable unless it &quot;needs&quot; to use them differently. </s>
+<s> Assigning a letter in the P, Q, R, S, T range greatly reduces the chances that Windows will &quot;need&quot; the letter for something else. </s>
+<s> Details you may not need to know: Windows leaves the A and B letters for floppy drives, regardless of whether there are any present. </s>
+<s> Windows assigns the &quot;first&quot; internal hard drive letter &quot;C&quot;. </s>
+<s> It determines &quot;first&quot; by iterating through IDE, SATA (and older) drives starting with first interface Master, then second interface master, then first interface Slave, then second interface Slaves. </s>
+<s> Then it goes through SCSI drives in SCSI number order (and yes, it uses secondary SCSI numbers as well if present). </s>
+<s> Some system BIOS software allows SCSI to be set first. </s>
+<s> Only then does it iterate through USB or firewire drives (I'm really not sure which goes first), choosing in order by USB tree (128 possible per controller, but controllers in order as set up by the system). </s>
+<s> CD or DVD drive letters are set up AFTER hard drives, also in interface order. </s>
+<s> As you can see, adding new hard drives tends to displace older ones. </s>
+<s> A complicated example: A -Floppy B - reserved for missing floppy C - IDE hard drive first master D - IDE hard drive second master E - IDE hard drive first slave F - CD drive second slave G - SCSI hard drive ID 2 H - SCSI hard drive ID 3 I - SCSI CD drive ID 5 J - USB hard drive on port 1 H - USB hard drive on port 4 I - USB CD drive on port 3 J - USB thumb drive on port 2 (note has lower priority than hard drives or CDs despite lower port number) N - networked hard drive (if it has a letter, you set it up, or the network admin did) note out of sequence lettering P - personal network share that you set up </s>
+<s> You can have your external drive mount itself into a directory whenever you plug it in -- at least in Windows xp pro. </s>
+<s> Plug the drive in. </s>
+<s> Right click &quot;My Computer&quot; and select &quot;Manage&quot; Select &quot;Storage&quot;, then &quot;Disk Management&quot; Right click the external drive and select &quot;Change Drive Letter and Paths&quot; Click the &quot;Change&quot; button Select the option &quot;Mount in the following empty NTFS folder&quot; and type in the path to the folder you want to use. </s>
+<s> (Obviously your internal drive needs to be NTFS... You're still using fat32? </s>
+<s> For shame! ) </s>
+<s> Whenever you plug in the external drive, it will mount to the selected folder. </s>
+<s> I stumbled on this by accident one day. </s>
+<s> Your drive might need to be NTFS for it to work. </s>
+<s> Any existing files in the directory will be unavailable, but should show up again after you unmount the external drive. </s>
+<s> why don't you name your external drives? </s>
+<s> I was frustrated! </s>
+<s> I have 4 external drives and had a hard time telling one from another; so I have named each drive (music, photos, movies, artwriting) and it has done the job. </s>
+<s> Misha </s>
+<s> I do this and have found that if I have a separate PORT for each drive and always plug THAT drive into THAT port and no other drive into that port, then the letters remain the same. </s>
+<s> I think the drive assignment is for the PORT (usb, firewire, whatever), not necessarily for the drive. </s>
+<s> Maggie </s>
+<s> I found this in one of my &quot;support&quot; folders. </s>
+<s> I copied it from somewhere - never tried it... Can I Assign a Drive Letter to a Removable Disk? </s>
+<s> Question: I'd like to know if it is possible to &quot;Reserve&quot; a drive letter for my removable disk. </s>
+<s> Is this possible? </s>
+<s> - David W. Answer: You can assign a permanent drive letter for a removable drive such as a flash memory drive. </s>
+<s> Here's how: Log on with an administrator account. </s>
+<s> Right click My Computer and select Manage. </s>
+<s> In the management console's left pane, expand the Storage node and click Disk Management. </s>
+<s> In the top right pane, right click the disk to which you want to assign a permanent drive letter and select Change Drive Letter and Paths. </s>
+<s> Click Change and assign the desired drive letter. </s>
+<s> Click OK. </s>
+<s> you my friend are a genius...thank you depage... much appreciated... </s>
+<s> ... and no need for extra software. </s>
+<s> I needed to get the disk containing My Documents back to F: and this worked perfectly. </s>
+<s> Did just have to unplug a device to which Windows had already assigned the letter F: so as to make that letter available, but that was all. </s>
+<s> Many thanks Anna! </s>
+<s> That's not a solution. </s>
+<s> If you unplug the external hard drive and plug in some memory reader (4-5 letters to assign), the system will ignore your previous setting and steal the letter back. </s>
+<s> If you assigned L to your external hard drive, unplug it and plug in the memory reader, and the last occupied letter was G, then it will take the next 5 letters: HIJKL. </s>
+<s> Then L will not be available for the external hard drive. </s>
+<s> Even after you unplug the memory reader. </s>
+<s> The computer will give it either M (if the memory reader is plugged in) or H. </s>
+<s> As folk learn, this area is a minefield. </s>
+<s> And if you think you knew where all the mines were, next day new mines were added. </s>
+<s> Bob </s>
+<s> My issue is the same...but different..LOL I have a cavalry ED and an Adata ED. </s>
+<s> when I try and access them both, they both assign themselves the same letters to mount each time, OK so far ( F and G) - BUT when I log in to them ( via a drive password) they both open on the Z: drive...no matter what usb ports I use, no matter the order and naturally I can only access one of them....the one I password into first. </s>
+<s> I run XP sp 3. </s>
+<s> Those hard drive security apps are like a bomb. </s>
+<s> Something I don't use or go near. </s>
+<s> Bob </s>

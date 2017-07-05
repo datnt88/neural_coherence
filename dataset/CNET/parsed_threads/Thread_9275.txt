@@ -1,0 +1,31 @@
+<s> I just upgraded about everything in my computer except the case and the hard drives. </s>
+<s> When I tried to install Windows XP it says there are no hard drives connected. </s>
+<s> When the computer boots up and does an IDE scan it finds everything, two hard drives and two optical drives, so I thought that at least the bios is seeing everything it should. </s>
+<s> However, when I go into the bios setup program it says there are none detected for primary master and slave and for secondary master and slave. </s>
+<s> So how can the bios find these drives during it's initial scan but not find them for the setup program? </s>
+<s> Also, on one of my many restarts I received an error message that said my hard drives are not configured properly. </s>
+<s> I'm guessing that if I get this problem worked out windows will then install. </s>
+<s> What can I try next? </s>
+<s> Dan </s>
+<s> Did you use the old Grey ATA ribbon cables on your HDDs with your last PC and are there the new Blue ATA ribbon cables on this one? </s>
+<s> Maybe someone reading this can help out better than I can because I still use old PCs and Win98se but I know that the new ATA HDD cables are usually used with CS (Computer Select), instead of Master and Slave settings, and have a lot more wires than the old cables. </s>
+<s> If there are the same number of pins in the cable sockets on your new motherboard, perhaps you could try your old Grey ribbon cables to see if that works. </s>
+<s> You could also try booting your new PC from a Win98 floppy disk and then run FDISK. </s>
+<s> Remove the partition on each drive and then allow XP to set them up as NTFS. </s>
+<s> It may be that the new motherboard BIOS will not recognise the set-up of the HDDs from your last PC. </s>
+<s> I'm guessing that your new motherboard doesn't take SATA cables or takes both SATA and ATA but has the SATA switched off in the BIOS if you are still using ATA hard drives. </s>
+<s> Also, does the BIOS have an Auto Detect for the Hard Drives. </s>
+<s> If they are still set-up by your old PC the new one may not like the old setting. </s>
+<s> Can anyone who is familiar with the new ATA cables help out here ? </s>
+<s> What are the spec's on your systenm? </s>
+<s> Try the following: If you MB has a Clear CMOS button, unplug the cptr, press and hold the button for 20 sec's. </s>
+<s> and reboot. </s>
+<s> Thanks for your reply, as you can see I don't have a lot of time to troubleshoot this. </s>
+<s> I did however use the new cables that came with the MB so I tried the old grey cable with no luck. </s>
+<s> What did happen was that the BIOS gave me a warning that I had just downgraded the performance of my hard drive by using the older cable. </s>
+<s> This is very weird. </s>
+<s> It's acting like only part of the BIOS recognises the hard drives. </s>
+<s> If I go into the hard drive section of the BIOS setup, they are both there. </s>
+<s> If I look at the primary and secondary master and slave, both on auto-detect, it says none detected for the hard drives and the DVD drives. </s>
+<s> Anyway, thanks for your idea, next I will look at the MB manual and see if I can clear the CMOS. </s>
+<s> Dan </s>

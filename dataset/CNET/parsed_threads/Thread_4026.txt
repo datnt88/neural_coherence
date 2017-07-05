@@ -1,0 +1,57 @@
+<s> Hi All, I just built a new rig, but have run into some strange problems. </s>
+<s> Everything I'm using is brand new, out of the box. </s>
+<s> Hardware assembly and setup went very smoothly. </s>
+<s> During Win XP's installation setup, I noticed that the full format of my hard disk drive was taking quite a long time. </s>
+<s> I decided to be patient and let it run it's course, yet the hard drive suddenly started to make VERY LOUD chirping/clicking noises. </s>
+<s> That was certainly concerning, as was the fact that the formatting process stopped at the 95% or so, and didn't budge past that mark. </s>
+<s> Assuming I'd gotten a faulty hard drive, I decided to replace it with another brand-new drive I had just purchased. </s>
+<s> The replacement drive was the same manufacturer (Seagate) but a different model drive. </s>
+<s> Here's what I can't believe -- I proceeded to install XP, and during the formatting, the SAME THING happened. </s>
+<s> Everything was okay until the formatting was about 94% done, and the drive got very noisy. </s>
+<s> Formatting hung and I was forced to reset the computer. </s>
+<s> Getting desperate and very worried, I decided to go for the &quot;Quick&quot; formatting option, which didn't cause any problems. </s>
+<s> XP was able to install successfully. </s>
+<s> However, the drive was still unusually noisy -- I've been around enough computers to know that the loud and irregular clicking sounds coming from the drive were NOT normal. </s>
+<s> Right now, XP and a game I've installed are both running just fine. </s>
+<s> However, the hard drive noise is very concerning. </s>
+<s> Even more concerning, when my computer boots up it lists the hard drive's &quot;S.M.A.R.T.&quot; status as &quot;Bad&quot;. </s>
+<s> To top it all off, I decided to run Check Disk -- and wouldn't you know it, the computer hung as Check Disk was 89% done. </s>
+<s> I had to reset then, too. </s>
+<s> So, I'm stumped as to what the problem is. </s>
+<s> The fact that Windows *seems* to be running just find has made me rule out a problem with my install CD. </s>
+<s> Based on the noises, hangs, and S.M.A.R.T status, I know this hard drive is FUBAR'd. </s>
+<s> But should I put another in? </s>
+<s> My tentative plan is to replace the current Power Supply with one I've had for about a year before putting in a new HDD -- losing three drives to whatever problem is going on would just be too much. </s>
+<s> Does anyone out there have an idea what my problem might be? </s>
+<s> First you haven't provided enough detail for us to help ... as the reminder says &quot;Note: If you're asking for technical help, please be sure to include all your system info, including operating system, model number, and any other specifics related to the problem&quot; That said what Service Pack are you starting the install with ? </s>
+<s> What the HDD size in GBs ?? </s>
+<s> VAPCMD </s>
+<s> My system is as follows - Intel Core 2 Duo E6600 Conroe Crucial Ballistix 2GB (2 x 1GB) 240-Pin DDR2 SDRAM DDR2 800 (PC2 6400) ASUS P5W DH DELUXE Motherboard (Flashed to latest BIOS) HIPER HPU-4K530-MS ATX12V v2.2 530W Power Supply Seagate Barracuda 7200.10 ST3250820AS 250GB SATA 3.0Gb/s Hard Drive Microsoft Windows XP Pro SP2b </s>
+<s> SATA drivers loaded ? </s>
+<s> SATA drive set to 1.5GBs or 3.0GBs ? </s>
+<s> VAPCMD </s>
+<s> SATA drivers are loaded; drive set to 3.0 </s>
+<s> If the tests show the HDD is OK..and the HDD is still acting up afterwards, wipe or zero-out the HDD (from the Seagate-Seatools diag) and reinstall XP. </s>
+<s> If that doesn't fix ...drop us a note here. </s>
+<s> VAPCMD </s>
+<s> SeaTools Desktop's Full Scan revealed a boatload of bad sectors, and the drive ultimately failed the test. </s>
+<s> So, it's confirmed that I have a second broken drive on my hands. </s>
+<s> The real question for me now is, what should I change in my hardware setup before putting another disk in there? </s>
+<s> I have this nagging feeling its the new power supply I just bought. </s>
+<s> RAM dosen't seem to be an issue; SeaTool's System Memory Check passed. </s>
+<s> (I'm going to run MemTest86+ later tonight, just to make sure). </s>
+<s> I'm also going to switch out the new power supply with an older one I know works well once a new drive shows up in the mail. </s>
+<s> If that drive gets fried the same way the first two did despite changing the PSU and the memory checks out okay, well, then I know it was a motherboard problem. </s>
+<s> Does this make sense, or am I forgetting about some other possible factor? </s>
+<s> the RAM with MemTest86+...just to be sure. </s>
+<s> As to the cause root cause....might be PSU ... download &quot;SensorsView&quot; by STVSOFT.COM and see what voltages are reported. </s>
+<s> Keep us posted. </s>
+<s> VAPCMD </s>
+<s> I ran MemTest for about 2 hours (did 4 passes) with no errors... </s>
+<s> I'll run it for several hours overnight, but it looks like the RAM is okay. </s>
+<s> Sensors View comes up with the following: VCoreA: 1.29 V +3.3V: 3.33V +12V: 11.90V +VBAT: 2.05V I don't really know how to read voltages/what's normal... </s>
+<s> Everest Ultimate is giving these voltage readings: CPU Core: 1.29V +3.3V: 3.34V +5V: 4.99V +12V: 10.33V +5V Standby: 4.92V </s>
+<s> Voltages look OK...VBAT should 3.0V but that wouldn't cause the HDD problem. </s>
+<s> Maybe it's just as simple as 2 bad HDDs ? </s>
+<s> Keep us posted. </s>
+<s> VAPCMD </s>

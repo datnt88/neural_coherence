@@ -1,0 +1,203 @@
+<s> MicroCenter has a special on these wireless routers, I bought two and would like to wirelessly bridge them to get a wired connection in a different room, but I can't seem to get them to talk to each other - any tips/suggestions/advice? </s>
+<s> Provide a link to the manual for members to check. </s>
+<s> Please use this link http://www.tenda.cn/downloads/show.php?itemid=690 </s>
+<s> I found one page to note this and it was awful. </s>
+<s> All I can offer is to try that LAZY mode. </s>
+<s> Bob </s>
+<s> There's a lot I don't know about networking, but can I ask what may be a couple stupid questions? </s>
+<s> I'm attempting to join these two routers with my existing wireless router - Qwest 2Wire 2701HG-D (which is also my modem). </s>
+<s> The reason I'm trying to do this is I would like my network to be connected to the entertainment center, but I can't move my Qwest router out there because there are no phone jacks in the living room. </s>
+<s> I was thinking if I could wire the 2Wire to one of the Tendas, I could wirelessly bridge to the other Tenda that would be wired to our entertainment center. </s>
+<s> I've scoured the internet looking for help everywhere I can think, from the manufacturer's website (which is about as helpful as the manual), to the MicroCenter's tech website (which was more helpful, but didn't solve the problem), to Googling all versions of this problem I can think of and following various how-tos. </s>
+<s> Either I'm overlooking something very simple, or the problem is more complex than I'm realizing. </s>
+<s> Here's a couple of my recent attempts - keep in mind, I found how-to instructions on each of these methods online, so forgive me if they are flat-out ridiculous. </s>
+<s> I've tried configuring all three routers onto the same wireless network - SSID, channel, etc. </s>
+<s> I've tried configuring the two Tenda routers onto their own wireless network that would only bridge between the two. </s>
+<s> My question now is if I assigned LAN IP addresses to each router, but all wireless settings are set to dynamic IP, would that affect the bridge? </s>
+<s> If I want to strictly bridge the two Tenda routers, would they have to be on the same channel? </s>
+<s> I've swapped MAC addresses between the two - am I missing something? </s>
+<s> Any/all help is greatly appreciated - We tried calling the Tenda US support hotline and got a busy signal. </s>
+<s> Thanks </s>
+<s> I read that manual and even armed with my knowledge from writing router software years ago I came up with no sure fire way or new instructions for you. </s>
+<s> With such a poor manual I bet the support lines are jammed. </s>
+<s> -&gt; But when I want to bridge, I never have to configure my first wifi router in any new or different way than all the usual setups. </s>
+<s> I wonder if you are tripping up yourself here. </s>
+<s> That is, set up the first wifi router just like any other wifi router then try the other as a bridge. </s>
+<s> Now if you have some other gear that was not noted, I would not know that. </s>
+<s> Bob </s>
+<s> I wouldn't put it past myself to overthink/overanalyze/overdo the setup process. </s>
+<s> I'll do a hard reset of the two new routers and give it a shot tonight. </s>
+<s> Thanks! </s>
+<s> what os are you running currently? </s>
+<s> if ts a 9x home edtion it probably wont work, sounds like to bridge the 3 together youll need to hard line 2 in 1 network then bridge that to the 3rd make sure you are running a NT os, you will have to setup groups and make sure you give all the proper exceptions, or, just setup your network using all 3 u will have to daisy chain them together. </s>
+<s> this probably your best option, you can go 90 yards between them so get cable, otherwise youll just have to run all 3 separate, and i say for what it is, i picked up the same model, idk if you can daisy chain these together, but they might not be able to communicate properly, look into. </s>
+<s> i have a question for you. </s>
+<s> have you tried to goto the website for the admin controls for this model? </s>
+<s> I have but have yet to have success finding it </s>
+<s> not90 yards lol 90 meters plus 10 for wall slack so 100 total </s>
+<s> have you tried a VPN, you MIGHT have some luck with the vpn options to bridge them </s>
+<s> I tried to keep it simple, but nothing yet. </s>
+<s> I haven't tried VPN, might as well give it a shot though. </s>
+<s> I'll post more as I try more. </s>
+<s> I found this - not my exact model, but similar problem: http://www.chasingdaydreams.com/2010/01/wds-bridging-wireless-networks/ </s>
+<s> I've got a cable running between my 2Wire (modem+wireless) and one of the Tendas, and I would like to wirelessly bridge to the other Tenda to feed ethernet cables to my entertainment center (I've got DSL and no phone jacks in this room). </s>
+<s> I've currently got an old XP desktop (my laptop's down). </s>
+<s> NIL </s>
+<s> you can set the bridge options from the ip address on the bottom of the modem, its under the menu WLAN settings\WDS settings, use the bridge mode or repeater mode and enter all the ap mac address for the other 2 routers enter your encryption types and it should work,i cant do it atm i dont have more than 1 router but thats where the option is, the ip address for your router is 192.168.0.1 then the username/password both admin, just like the sticker on the bottom is. </s>
+<s> hope that helps </s>
+<s> looked like u could add quite a few mac addresses to that just make sure if your using the mac filter to add the routers mac address in. </s>
+<s> Lemme know if you have anymore problems and if that wds setting worked i am curious to hear the results of that. </s>
+<s> theres a little more information on the usage of wds in the user manual on the cd. </s>
+<s> if interested anyways hope you were successful. </s>
+<s> ok heres how your process should got, you hard line 1 router to your modem, and do the setup process i said earlier, unless you have a wireless modem then thats the one you will need to setup the wds option. </s>
+<s> its a matter of figuring out who controls who. </s>
+<s> if your main modem from your dsl provider is a router build i,a wireless on then you should be able to slave the 2 tendas to that just do one at a time. </s>
+<s> have your other wireless modem unpluged no wires should need to go to this just your power cable, unless you hard lines something, blueray etc. </s>
+<s> after you add the ac address to the wds settings, goto the system menu i believe it is and reboot your router, then go plug in the other router and see if your man router registers in the connections menu at the bottom of the WLAN menu. </s>
+<s> i believe the repeater mode is the setting you are looking for allows firewall options to carry from the main source i think. </s>
+<s> I tried everything under the sun and can't get these routerss to bridge. </s>
+<s> I bought two 268 models and the 306/307R with no luck! </s>
+<s> I took off all security settings, activated Lazy on my main router (306/307R) and added the appropriate MAC addresses in all devices to no avial. </s>
+<s> also, my main Router, 307R keeps losing connectivity! </s>
+<s> I dunno. </s>
+<s> Done spent half the weekend playing with this stuff! </s>
+<s> The tech support number for Tenda rings forever but no one ever answers (not even an answering machine)...Sound fustrated? </s>
+<s> you betcha! </s>
+<s> I've just deleted a post from gaya1. </s>
+<s> Sorry. </s>
+<s> The post included a link to a .rar file, and without downloading and opening the file we can't tell what it is. </s>
+<s> That is considered dangerous as it puts users at risk of malware. </s>
+<s> In general, links to .rar or .zip files are treated with utmost caution because there is no safe way of knowing what they are. </s>
+<s> Mark </s>
+<s> I could not get this to work despite spending hours and hours and every setting I could think of. </s>
+<s> I finally used Google cache to read the deleted post in this tree, which said an older version of the firmware works. </s>
+<s> I couldn't find the version mentioned there, but I decided to use the one on the website (V3.2.5e-W268R): http://www.tenda.cn/downloads/list.php?catid=11&pdcatid=22 I then followed the method described here (even though it's a different model, the steps are the same): http://www.strayed.co.uk/2010/04/15/tenda-wireless-n-150-router-unboxing-setup-review/ The only difference is I left both of my WDS modes in Bridge and put the other Router's MAC address in as described for only one of the routers in his post. </s>
+<s> Lazy mode might work as he suggests, but I'm not changing mine now that it works. </s>
+<s> Also, the routers don't show up when I 'Open Scan' for them now, but that might be because they're already in the access list. </s>
+<s> If you can't find yours, you might try manually entering them. </s>
+<s> Thrilled this finally works. </s>
+<s> I can now reach the internet from my computer connected to the wireless router that isn't directly connected to the WAN port. </s>
+<s> Yay. </s>
+<s> Incidently, I'm not sure that the firmware is different between these models. </s>
+<s> I did a binary diff of one of the versions between the 311 and 286, and they were identical. </s>
+<s> I even tried updating using one of 311 firmwares on my 286, and it looked like it was working. </s>
+<s> I'd stick to the 286 3.2.5e firmware, though, as I know that one works. </s>
+<s> Such links in posts will get a delete. </s>
+<s> And usually without a note why. </s>
+<s> Try finding that on download.com or another good site. </s>
+<s> Bob </s>
+<s> Greetings- From what I've read here (thanks) as well as on the link you posted from strayed.co.uk, I know that downgrading my router firmware to 3.2.5e is the key to getting this to work. </s>
+<s> ...but I can't get the darn thing to take the firmware change. </s>
+<s> I'm connected directly between a computer and one of the yellow LAN ports, and I can navigate to the Router's web interface by browsing to 192.168.0.1 and successfully change any settings there, but when I tell it to &quot;upgrade&quot; the firmware to the 3.2.5e .bin file that I've unzipped, it appears to go through the &quot;upgrading&quot; -- &quot;rebooting&quot; process, but even after a manual reboot the thing still says it has &quot;Firmware Version H1_V3.3.6g_EN&quot;. </s>
+<s> I've tried literally half a dozen times, using two different computers, two different browsers (IE and Firefox), and even two different downloads of the firmware. </s>
+<s> Any suggestions before I tear all of my hair out? </s>
+<s> Thanks in advance. </s>
+<s> That worked on an older router. </s>
+<s> Also, some try to do this over wifi. </s>
+<s> Ugg. </s>
+<s> Bob </s>
+<s> Thanks for the reply, Bob. </s>
+<s> For the Tenda W268R, the oldest firmware they offer on their site is 3.2.5e (the one I've been trying to use). </s>
+<s> I tried a different one (3.3.6d) and again the upgrade wouldn't take -- after reboot, it still showed that it was running 3.3.6g. </s>
+<s> It's as if the router is either not willing to flash itself to another version, or something is preventing it from changing. </s>
+<s> In my frustration last night I did try it via Wi-Fi which also didn't work. </s>
+<s> As soon as the update process started it dropped the connection. </s>
+<s> The router didn't seem any worse for wear, though -- it still showed 3.3.6g after the &quot;upgrade&quot; attempt. </s>
+<s> I'm curious if anyone with one of these cheap POS Tenda routers ever encountered the issue I'm bumping up against, and how they got around it? </s>
+<s> I do not have this model so all I can offer is this. </s>
+<s> 1. </s>
+<s> Updates are done over ethernet. </s>
+<s> 2. </s>
+<s> I've encountered a few that fail to update unless I use Internet Explorer. </s>
+<s> Best of luck, Bob </s>
+<s> I have attempted numerous time downgrading to older firmware on the W268R router, still shows version originally came with. </s>
+<s> I have spent a lot of time to setup my WDS, still no luck. </s>
+<s> If anybody had upgrading/downgrading issue and resolved that would be a great help. </s>
+<s> All the trig I have applied not working, any help would be really appreciated. </s>
+<s> Next stop is the maker's support. </s>
+<s> Bob </s>
+<s> As noted in my original post (10/2/2011 at 2:54pm), I was connected directly between a LAN port on the router and my computer via an ethernet cable. </s>
+<s> After you mentioned that &quot;some try to do this over wifi&quot; did I mention that as a last resort after a number of unsuccessful attempts directly connected did I try via wi-fi, with the same unsuccessful results. </s>
+<s> I also noted that I tried using both Internet Explorer and Firefox with the same results. </s>
+<s> With the new post yesterday by Yakub1 in this thread, it further confirms to me that there is a problem trying to downgrade the firmware on this router, and that I'm not the only one who has experienced this issue. </s>
+<s> As Yakup1 said, it would be very helpful if someone who has this router and managed to downgrade their firmware would see this thread and post how they did it. </s>
+<s> Regardless, I've pretty much given up. </s>
+<s> I found an older ASUS WL-330gE 4-in-1 adapter/gateway/AP/repeater that I managed to configure in repeater mode and was able to accomplish what I've been trying unsuccessfully to do with the Tenda W268R. </s>
+<s> I really appreciate your heads up Bob. </s>
+<s> I will be sure to get in touch with the manufacturer, they have US customer support phone number listed on their website. </s>
+<s> If customer support is not helpful then I will return the device to the retailer. </s>
+<s> Update to follow.. </s>
+<s> Retailers HATE returns and if they get too many they have a hard chat with the maker/vendors about if they will continue to sell the products. </s>
+<s> I have no reservations on returning products. </s>
+<s> Bob </s>
+<s> Good news, after installing the most recent version of firmware on both routers from the tenda web site my routers are wroking in bridge and repeater mode. </s>
+<s> Firmware file name is &quot;US_W268Rv8RA_V3.2.4.02s_EN.zip&quot;. </s>
+<s> I hope this helps to those who are still having an issue. </s>
+<s> Further info about my advice to contact the maker. </s>
+<s> Makers used to issue beta or engineering releases early to folk that complained. </s>
+<s> It's rare today but still happens. </s>
+<s> Good to hear new firmware cured it. </s>
+<s> Bob </s>
+<s> Congrats on getting it to work. </s>
+<s> What version of firmware did you have on the router before? </s>
+<s> The 3.2.4.02s firmware has a warning screen on the download page that says, &quot;version V3.2.4.02 can't upgrade the firmware verson beginning with H1 or H3 -- the wrong upgrade will damage the router.&quot; I didn't want to try that on my router (which has firmware beginning with H1) for fear of bricking it. </s>
+<s> If you could post the version of firmware your router was using prior to the upgrade, that would be great. </s>
+<s> If I can actually go from H1_V3.3.6g_EN to 3.2.4.02s_EN, that would likely solve the issue. </s>
+<s> I sent them an e-mail almost a week ago about my router refusing to flash to any other firmware version -- they never replied. </s>
+<s> From what I've read on other forums, they don't answer the phone, either. </s>
+<s> You get what you pay for, I guess. </s>
+<s> Unfortunately, I can't expect a whole lot of support for a $15 router. </s>
+<s> Thanks so much Yakub1 - this firmware version actually installed into the boxes and made it work brilliantly. </s>
+<s> I wish I hadn't spent so much time last night trying to make it work when it wasn't going to. </s>
+<s> No wonder these boxes cost $15 at Micro center. </s>
+<s> but now I have brilliant speeds and no need to use the IP over electrical lines... thanks again and happy holidays! </s>
+<s> I have upgraded both my Tenda268's to US_W268Rv8RA_V3.2.4.02s_EN.zip version. </s>
+<s> What other things did you do to make it work as repeater? </s>
+<s> I have tried everything I could read in this and other threads. </s>
+<s> Unfortunately, the post from GreyWanderingRogue has a link to www.strayed.co.uk which cannot be reached. </s>
+<s> What do you set your repeater's SSID as? </s>
+<s> Does it have to be the same as the primary router? </s>
+<s> What about IP address for secondary? </s>
+<s> Should I change it to something different from primary? </s>
+<s> Please suggest. </s>
+<s> Also do I disable DHCP on secondary? </s>
+<s> Do I have to enter the MAC of secondary in the primary? </s>
+<s> If so where? </s>
+<s> Any help will be much appreciated as I have spent a couple of weekends doing this without success. </s>
+<s> Thanks in advance </s>
+<s> It's been too long since I messed around with these crappy routers for me to remember any of the setup details (I never did get it to work), but here's an archive of the text of the missing webpage referenced earlier that may help you: http://web.archive.org/web/20100827121013/http://www.strayed.co.uk/2010/04/15/tenda-wireless-n-150-router-unboxing-setup-review/ </s>
+<s> Much obliged Knagi. </s>
+<s> I will try setting up with these instructions and see if it works. </s>
+<s> initially my brother was able to setup the repeater between two Tenda routers: 1) W311R in the first place receiving signal from cat 5 to modem, with IP 192.168.0.1, DHCP server enabled (default), channels 6 and 10 for extension, LAZY MODE secured with WPA2 personal, AES encryption type and password (btw same as wireless password), firmware I think was H1_V3.3.6B-EN Mar 1 2010, ssid ATIV (a tribute to the Office Depot special that it replaced) 2) W268R H1_V3.2.5e IP 192.168.0.10, DHCP disabled (not default), REPEATER must open scan get MAC address from W311R in the list, same password and encryption as above, set up it's wireless password identically also but use a different SSID (Tenda would be fine it the other router was changed) so they are unique. </s>
+<s> Last but not least setup the same bat channels as above (although this is the last change to make... then it will stop working... unplug and replug and voila it works!) </s>
+<s> One can this way, if you are close the the first router, connect to it securely or closer to the second router, connect to it securely... </s>
+<s> Awesome. </s>
+<s> At my mom's house I can use the second router from the ground floor, while that router is in the 10th floor... </s>
+<s> I would love to be able to do this with the (actually two) W268R I just bought but it's refusing to flash to the lower firmware version known to allow WDS mode (also the very reason for buying the router). </s>
+<s> What's up Tenda? </s>
+<s> If it's not broken don't fix it... </s>
+<s> Looking for clever workarounds to the firmware dilemma. </s>
+<s> Also I believe I have the Ralink chipset not the Broadcom... Additionally Jimmy I have found no downloads for the firmware versions you mentioned initially in your post. </s>
+<s> Help? </s>
+<s> Ok, I can confirm a few things and solve a few mysteries. </s>
+<s> There are at least two versions of this router (I own two). </s>
+<s> On the outside, one has a reset button next to the wps/wlan button which is accessible with a paper clip. </s>
+<s> The other has no such reset button (but it does still have a wps/wlan button). </s>
+<s> Router 1: This is the router with a reset button. </s>
+<s> In the system status page, it reports itself as anything between hardware version 0.65 and 2.0. </s>
+<s> Nonsensically, the hardware version it reports depends on the firmware installed. </s>
+<s> Mine shipped with the V3.3.6g firmware which reports as hardware version 2.0. </s>
+<s> Router 2: This is the router with no reset button. </s>
+<s> In the system status page, it reports itself as hardware version 3.0. </s>
+<s> I do not know if that changes with firmware version as I did not change the firmware on this router (it shipped with V5.07.25) As shipped, these would not connect via WDS. </s>
+<s> I tried downgrading the firmware of router 1 to V3.2.5e, however, I experienced the same difficulties as mentioned above where the downgrade would not 'take'. </s>
+<s> After downgrading, the firmware still reported V3.3.6g and WDS still didn't work. </s>
+<s> However, after much experimentation, I found that I could get WDS working after following this firmware upgdrade/downgrade path on router 1: V3.3.6g to V3.3.6h V3.3.6g to V3.2.4.02s At that point, I attempted to upgrade to V3.2.5e, however, it gives an error saying that the firmware is too big. </s>
+<s> But, with V3.2.4.02s, it was able to connect to router 2 via WDS. </s>
+<s> Router 1 now reports itself as hardware version 0.65. </s>
+<s> Again, I did not change the firmware of router 2. </s>
+<s> Hope this helps! </s>
+<s> Firmware upgrade path was: V3.3.6g to V3.3.6h V3.3.6h to V3.2.4.02s </s>
+<s> NIL </s>
+<s> Problem solving : you may need to reset ( button on back ) press 7 sec + connect router to pc , as per detailed instructions, run software. </s>
+<s> software will pair modem, router, chose WPA personal (for some reason this worked best). </s>

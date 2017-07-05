@@ -1,0 +1,20 @@
+<s> Hi all, Could any tell me how does an access point(without NAT tables) know the clients in vicinity? </s>
+<s> I am not asking in terms of radio signal reception but what I want to know is, does the AP maintain a table/list structure with the SSID of clients or its MAC address or its IP address? </s>
+<s> If yes where does it keep it? </s>
+<s> (in the sense, in which file system of its OS?) </s>
+<s> Also, a wireless router operates at netwok layer level maintaing NAT tables and inspecting packets at that level and routing IP packets. </s>
+<s> I assume in both wireless router case and AP#s case they must do the client detection at the physical layer level. </s>
+<s> How does this detection recored before sending the packets higher up the stack in case of wireless router? </s>
+<s> I assume in case of AP, it just detects clients and routes the WLAN packet directly to client. </s>
+<s> Is this true? </s>
+<s> It is important for me to know this as we want to tweak the AP/wireless router for some security needs. </s>
+<s> But in short I set the WAP to use WPA and if possible WPA2 then use the WAP. </s>
+<s> As to how things work, you can find books on that subject. </s>
+<s> Bob </s>
+<s> A router uses 3 layers of the OSI model up to and including the network layer. </s>
+<s> This layer is where packets are router to different subnets using IP's. </s>
+<s> WAP's and/or AP's use up to and including layer 2--the data link layer. </s>
+<s> To answer your question, an AP deals with MAC addresses and it keeps them in a re-writable ROM chip (EEPROM). </s>
+<s> Each layer adds encapsulation going up the stack. </s>
+<s> then is there an ARP table/or some table with a match of SSID and MAC address stored in this ROM of WAP which tells about the clients? </s>
+<s> Much like the ARP table dynamics, there is a one to one and/or one to many relationship between SSID's and MAC's which is stored on EEPROMS in the AP. </s>

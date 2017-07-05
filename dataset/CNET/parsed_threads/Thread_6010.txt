@@ -1,0 +1,71 @@
+<s> My computer is about 5 years old. </s>
+<s> I have two hard drives. </s>
+<s> My main one is 250GB, and the other is an empty 40GB drive. </s>
+<s> Both are connected via a card taking up a slot, and the 250GB is my main drive. </s>
+<s> I want to remove the 40GB drive, but when I disconnect it, my computer thinks there aren't any drives at all and won't boot. </s>
+<s> I thought I might've confused the two, so I tried it the other way around and I got a message saying &quot;NTLDR Missing&quot;. </s>
+<s> Finally, I just reconnected both, and everything works fine again. </s>
+<s> Why won't my computer recognize my bootable hard drive without the other one? </s>
+<s> It doesn't even show up in the bios settings without the 40GB, but it does when the 40GB is connected. </s>
+<s> Many times the person installed the OS to boot from the older drive. </s>
+<s> Microsoft did not provide a way to move the OS from drive to drive (and have it function.) </s>
+<s> No one else has provided such software either. </s>
+<s> From what's been told, all is as it should be. </s>
+<s> It is possible the drives are misconfigured. </s>
+<s> Not everyone will research about the IDE cables, jumpers, BIOS settings. </s>
+<s> I can't comment further given the limiter information in your post except to note that at 5 years old, many machines did not support booting from 250GB drives. </s>
+<s> Bob </s>
+<s> It's quite possible you're right about the &quot;older drive&quot; situation. </s>
+<s> I sorta kinda see how that could be a problem. </s>
+<s> As far as 250GB hard drive is concerned, there's no doubt it was an upgrade. </s>
+<s> I put it in about 3 years ago, and it came with the controller card that both drives are now hooked up to. </s>
+<s> It wouldn't work otherwise. </s>
+<s> The 40GB had Windows XP on it at one time, but when I installed the 250GB, I made it my primary and reinstalled XP onto it. </s>
+<s> Since then, I've reformatted the 40GB and it's completely empty. </s>
+<s> If Microsoft is playing a trick on me, I don't see how they could be controlling my bios as well...but you never know with those guys. </s>
+<s> Anyway, what I'm trying to say is that I'm still confused why, alone, my 250GB won't even be recognized by my bios. </s>
+<s> What is happening is pretty normal for this situation, as has been stated. </s>
+<s> You didn't say that you had checked the jumpers on the hard drive. </s>
+<s> The first clue that you haven't is that the BIOS doesn't see the drive. </s>
+<s> This means to me that you have not set the 250 GB drive to the proper setting for the drive position in the data chain. </s>
+<s> If you have a drive set to slave but the BIOS can't find a master first, then the BIOS won't see the slave. </s>
+<s> The quick and easy way to boot from your 250 drive is to change the boot sequence in the BIOS settings with BOTH drives connected as normal. </s>
+<s> If you cannot change this, then you will need to remove the 40 GB drive and install the 250 drive in the same cable position as the 40 was, and make sure that the 250 drive jumper is set to SINGLE or MASTER. </s>
+<s> If the drive is not marked, you will have to do research to find the correct setting. </s>
+<s> On Western Digital drives, a single drive doesn't need a jumper. </s>
+<s> If the drive is set to MASTER with a slave present, the jumper is in the middle of the 5 sets of pins. </s>
+<s> The slave setting isto the right side, if I remember correctly. </s>
+<s> The jumper should always be vertical. </s>
+<s> If you have the jumper set correctly and you still have problems, double check the cables. </s>
+<s> If this still doesn't help, then do a repair install on the 250 drive with the drive installed as a single drive and that will replace the boot sector information. </s>
+<s> I hope this helps. </s>
+<s> You're right that I didn't check the jumper. </s>
+<s> I didn't need to because when I first installed it, I had set the 250GB drive's jumper to designate it as the master, and the 40GB as the slave. </s>
+<s> My cables are even conveniently labeled as master or slave, so I'm very confident I matched them up properly. </s>
+<s> Since removing the 40GB would only detach it from the slave position, the 250GB on the master position shouldn't be an issue since the jumpers would remain the same as I initially configured it. </s>
+<s> Or am I missing something? </s>
+<s> Anyway, with both drives connected, my bios clearly shows that my 250GB drive has priority over the other in boot sequence. </s>
+<s> I have gone to double-check that nothing has changed in this setting after removing the 40GB slave drive, but this is the clincher...the 250GB no longer appears as an option. </s>
+<s> NO hard drives appear as an option, so it's not even a matter of confusing them. </s>
+<s> I've double checked and triple and quadruple checked the cables to be sure they're all secure, and they are. </s>
+<s> In fact, if I reattach the cables to the 40GB and never touch the 250GB's cables, everything works just fine again. </s>
+<s> Unfortunately, a Windows repair install on the 250GB would never work because my bios has no clue that there's even a single drive there to install anything onto. </s>
+<s> The only reason I was able to install Windows on it in the first place is because the 40GB happened to be connected at the time. </s>
+<s> I'm going to find my jumper switch configuration cheat sheet and check it out. </s>
+<s> I reread your answer about &quot;master with slave present&quot;, and see now that I need to check whether there's a &quot;master&quot; and &quot;master with a slave&quot; setting. </s>
+<s> If so, I'll be eternally grateful. </s>
+<s> Hello it is probley because the windows settings is on the 40 not on the other other one. </s>
+<s> After rereading what you said about &quot;Master with slave&quot;, I choked on my reply to you and decided to check it out. </s>
+<s> Before I even went searching for my old installation instructions to figure out how to configure the jumper, I just tried removing the jumper altogether. </s>
+<s> I did that, then I disconnected the 40GB again, and all is working GREAT. </s>
+<s> Windows booted up immediately as it should have without the 40GB drive, and I'm very happy. </s>
+<s> Thank you, thank you, thank you! </s>
+<s> ! </s>
+<s> At the time you installed XP to the 250GB drive you would have to rearrange the 250GB to be the primary drive or else the boot drive would remain the older 40GB. </s>
+<s> There are NO tools to move the 250GB to the boot position and fix all that would be wrong in the registry and boot areas of that 250GB drive. </s>
+<s> Makes sense to me. </s>
+<s> Today if you removed the 40GB it would like be on the master position and most systems the now slave drive should go missing. </s>
+<s> There is little standard here but if you don't configure drives proper (I see no words that you are researching how to configure cables and jumpers) then it should go missing. </s>
+<s> -&gt; Let's' skip all this and try to determine exactly what you are trying to do. </s>
+<s> Then we can write what the fallout will be. </s>
+<s> Bob </s>

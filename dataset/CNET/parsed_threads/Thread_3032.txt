@@ -1,0 +1,21 @@
+<s> I have a router and two pcs on it. </s>
+<s> One (ethernet connected to the router) has a printer and I want to share it with the other pc. </s>
+<s> I set up the printer as shared Then I went to the other pc (wireless connection to the router) and tried to define a remote printer. </s>
+<s> The printer add wizard cannot find the printer: I tried browsing and it found nothing; I tried telling it the printer was \\pcname\printername and it couldn't find it either What am I missing? </s>
+<s> Both machines are running WinXP Home John </s>
+<s> When browsing for it try typing the following into explorer: \\ip address of pc with printer share\printer share name ie: \\192.168.1.50\hplsjet if it finds it, click on it and connect. </s>
+<s> Browse the network for the PC that hosts the printer. </s>
+<s> Click on it and see if the printer shows. </s>
+<s> It should if the sharing was set up properly. </s>
+<s> Do a right click and select &quot;Connect&quot;. </s>
+<s> I remember years ago older NT systems had an &quot;Install&quot; option from this point but not sure if this works the same. </s>
+<s> The ideal way is to use a print server but this costs a bit and not all printers and print servers work happily together. </s>
+<s> I once had a similar problem. </s>
+<s> The issue was not with the physical set-up but with the firewall software (e.g., Norton Security, Black Ice, etc.) </s>
+<s> I had installed on the machines. </s>
+<s> If you're running one of these programs, you should go into the scren that allows you to allow or add &quot;friendly&quot; IP addresses. </s>
+<s> Just type in the IP address of your printer (e.g., 192.168.1.100) and hopefully you'll set up program will now be able to &quot;see&quot; the networked printer. </s>
+<s> Good luck... </s>
+<s> the_ehrl makes a very good point. </s>
+<s> I don't know how many network problems I've pulled hair out trying to solve, only to track it back to a simple firewall block. </s>
+<s> Enough at least that now, the firewall is the FRIST place I look when a network problem rears it's ugly head. </s>

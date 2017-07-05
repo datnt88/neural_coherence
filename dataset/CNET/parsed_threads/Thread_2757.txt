@@ -1,0 +1,16 @@
+<s> I have a Netgear router which also acts as the DHCP server. </s>
+<s> Within the configuration, the IP address range is set to be 192.168.1.2 to 192.168.1.9. </s>
+<s> Until recently, there were 3 devices on the network with the router, and their IP addresses are all within that range. </s>
+<s> A netbook added recently has IP address of 192.168.1.130, and ironically, this netbook cannot communicate with other devices on the network, yet it surfs internet okay. </s>
+<s> I am blaming the problem with netbook being excluded from the network to its IP address, but I can't quite figure out how it has its IP address set outside the range by the router. </s>
+<s> Any idea? </s>
+<s> All devices within the range 192.168.1.xxx can share the LAN. </s>
+<s> Have you made sure the netbook is in the same work group? </s>
+<s> Have you run the Network Setup Wizard on the netbook? </s>
+<s> Have you turned on File and Printer Sharing on the netbook? </s>
+<s> Your router has a default range of 192.168.1 - 192.168.1.255. </s>
+<s> The default group is 192.168.1.1 - 192.168.1.199. </s>
+<s> Anything within that range is accessible. </s>
+<s> And on a more complicated note, you can change the entire range to almost anything. </s>
+<s> A friend changed his range to 10.10.10.1 - 10.10.10.20. </s>
+<s> Be prepared to troubleshoot and pull your hair out. </s>

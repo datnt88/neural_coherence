@@ -1,0 +1,71 @@
+<s> Hey there, I'm hoping someone can help me out with a decision on a purchase I'm making for a new system. </s>
+<s> Where I'm stuck is in deciding between a single 150Gb 10,000rpm SATA150 drive, and 4 7200rpm SATA 3Gb/s drives in a RAID10 array. </s>
+<s> I know that the RAID10 will give me added security due to its data redundancy, but am unsure of how performance will compare to the single 10krpm drive. </s>
+<s> Basically, if I'm looking at a dramatic performance hit with the RAID configuration, I'd be willing to sacrifice security. </s>
+<s> FWIW, I'm going to be using this in a Dual Xeon Quad-core 3D graphics/video editing machine. </s>
+<s> Thanks for any and all recommendations! </s>
+<s> -num </s>
+<s> Most data loss is due to user error, virus or outright theft. </s>
+<s> How does RAID (any version) help in light that better than 9 out of 10 times that delete key was the error? </s>
+<s> Also since that's the common cause, data recovery is nearly impossible or too costly since most getdataback tools don't work on RAID. </s>
+<s> Bob </s>
+<s> Actually, the majority (say 6 or so) data loss issues my company has had have been due soley to hardware error. </s>
+<s> Several went to data-recovery services (who confirmed the hardware-based error base), while several just ended up on a stack of &quot;bad&quot; drives. </s>
+<s> The worst case was a single external Lacie 1Tb drive. </s>
+<s> We run multiple levels of security (hardware/software firewall, site-licensed anti-virus), and our user base is extremely familiar with proper saftey protocols. </s>
+<s> The drive configurations I'm asking about will be for single-user workstations, so I'm actually leaning toward no RAID data redundancy, since the most critical data WILL be saved to our network storage (which IS data-redundant). </s>
+<s> Thanks for your input anyhow. </s>
+<s> If you go to a place like drivesavers they get mostly the hardware failures. </s>
+<s> In the real world... Bob </s>
+<s> I'm not sure I understand your post. </s>
+<s> We do use Drivesavers. </s>
+<s> They actually did the data recovery on our last drive failure. </s>
+<s> They were able to recover just over 100Gb off the drive (unfortunately lacking directory structure), and it ran just over $1200. </s>
+<s> They're convenient since they're just across the bridge in Novato (we're in SF). </s>
+<s> What exactly is your point, and how does it relate to the original question of &quot;SATA150 10Krpm vs. SATA3Gb+RAID&quot;? </s>
+<s> ?? </s>
+<s> ? </s>
+<s> We rarely find it to save anyone. </s>
+<s> Plus the more common failures are not something RAID helps on. </s>
+<s> We've seen more luck with automatic backups to other machines on the network as well as real backup systems than RAID. </s>
+<s> Just sharing what I've seen over the years. </s>
+<s> If you were looking for some speed tests or such may I suggest tomshardware.com since they recently did some comparisons of RAID chipsets. </s>
+<s> Bob </s>
+<s> combining both raid formats means extra work for the controller and some controllers are very efficient while others are not. </s>
+<s> you should check benchmarks for whichever one you're using/planning to use. </s>
+<s> personally, i don't think its neccessary to mirror everything. </s>
+<s> a mirror + a stripe set is a better choice. </s>
+<s> 2 mirrored drives for important data and OS, and 2 striped drives for pagefile, temp files, scratch area (and anything else that can be reconstructed if lost) will outperform a single raptor. </s>
+<s> all you'll need to add is a good backup strategy. </s>
+<s> Good info. </s>
+<s> The only controller I'm planning on using is the one built into the Tyan S2696A2NRF Motherboard ( http://www.newegg.com/product/product.asp?item=N82E16813151048 ). </s>
+<s> At the moment, I'm actually leaning toward using two Raptors striped (Raid 0), and relying on the network storage for really important data backup. </s>
+<s> Make sense? </s>
+<s> Thanks again! </s>
+<s> intel's built-in raid controllers on their server boards are pretty good (but a bit feature starved). </s>
+<s> your backup strategy (like most people's) doesn't appear to include image backups. </s>
+<s> so, if either drive fails, you'll have to reinstall the OS and all of your software. </s>
+<s> even if you ghost a bare install to the replacement drive(s), you'll still lose a day or two. </s>
+<s> if you don't do image backups and daily incrementals, then i recommend a mirror for the os and apps. </s>
+<s> the difference between 7200rpm and 10000rpm drives for app loading/interaction is minimal. </s>
+<s> (for a server, the faster access time raptors provide is a big benefit, but for a workstation you won't see that much improvement in your daily activities.) </s>
+<s> the raptors speed will be seen in pagefile/scratchfile performance and reading/writing large datasets (like video editting, big photoshop images, etc.). </s>
+<s> that same speed benefit can be achieved with 2 7200rpm drives in a stripe set. </s>
+<s> as for relying on the network as your main backup method, the wisdom of that all depends on the backup policy of your network. </s>
+<s> aslo, simply copying files to the network is not a good backup strategy. </s>
+<s> some type of full backup (at least for your data files tree) along with incrementals/differentials is essential. </s>
+<s> Thanks again for the insight. </s>
+<s> I think we'll probably get external drives to do nightly local-machine backups. </s>
+<s> It might help to clarify the type of work we do: We are a 3D Animation Studio, and use primarily 3D Studio Max in combination with Adobe Photoshop and After Effects. </s>
+<s> Scene/video/texture and working files all get incrementally saved to the network, with no work-related files saved on the local machines (other than temporarily). </s>
+<s> The only &quot;real&quot; things that should be on the local workstations are program files, plugins, email, and such. </s>
+<s> Sometimes large video files (several thousand frames) get copied locally in order to speed up editing. </s>
+<s> We do need to use both a lot of large static bitmaps (texure maps), as well as dynamic video files (rendering/editing HD 1080P). </s>
+<s> The machines will have QuadroFX 46000 video cards, but having done this type of work for close to 15 years now, I know that every little ounce of performance you can squeeze out of the rest of the system will help. </s>
+<s> So, I think I'm going to do a striped pair of Raptors and attach external drives for the sole purpose of nightly backups. </s>
+<s> Should do the trick, no? </s>
+<s> I'm hoping to get all the pieces this week, and will post pics once they're all together. </s>
+<s> FWIW, I've uploaded the first photo of this build. </s>
+<s> http://flickr.com/photos/numlok/499228481/ As for drives, I've settled on two 10,000rpm SATA (WD &quot;Raptor&quot;) drives in RAID0 configuration. </s>
+<s> Built for speed, with nightly external backups for the parachute. </s>
+<s> Thanks again, and wish me luck! </s>

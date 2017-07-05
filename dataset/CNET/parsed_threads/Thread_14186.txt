@@ -1,0 +1,67 @@
+<s> I changed hard drives. </s>
+<s> I had an 80 Gig and added a 160 Gig. </s>
+<s> I left the 80 Gig the master and made the 160 Gig the slave. </s>
+<s> Then, I used the Western Digital program that came with the 160, Data Lifeguard Tools (Maybe I should have used Ghost, instead! </s>
+<s> ), to copy the files from the 80 to the 160. </s>
+<s> After that I switched master and slave since I wanted the 160 as the master. </s>
+<s> I am using Norton System Works 2004 as a computer help program and have used it regularly. </s>
+<s> When I ran it after changing HD's around, it showed a lot of errors. </s>
+<s> I can run the WinDoctor and it gives me a bunch of problem areas mostly Invalid Active X/COM Entries (100 problems). </s>
+<s> Those I can automatically repair. </s>
+<s> But the one that worries me is: Drive Change from C to E. (177 problems) A removable drive has been inserted or removed, or, a director was moved to a new drive causing drive C to appear as drive E. These problems should not be fixed automatically. </s>
+<s> If I can't repair them automatically, I have no idea what to do to repair them. </s>
+<s> I did notice that when I tried to optimize, it got an error message that said it failed to open and I can't open it. </s>
+<s> I don't know if its related to all those errors or not. </s>
+<s> Also, I noticed that MS Outlook opens up but won't successfully send or receive. </s>
+<s> Also, MS Word wants to &quot;install&quot; and then gives and error message but then goes ahead and works. </s>
+<s> Anyway, can you tell me what to do to help with the drive change problem? </s>
+<s> Thank you very much. </s>
+<s> Jerry </s>
+<s> but I've never had faith in these HD utilities as cloning tools. </s>
+<s> I use Drive Image (now a Symantec product). </s>
+<s> These are not file copy utilites. </s>
+<s> They copy sector information and can deal with different drive geometries and partition sizings do to their special technologies. </s>
+<s> They cost too much for one time use but have other advantages and incorporate well into backup schemes. </s>
+<s> There are free cloning tools but I paid for mine and it's never failed me. </s>
+<s> Thanks for the response. </s>
+<s> Someone suggested Ghost would be better than what I used and that I should go back to the orginal drive and copy it and then put it on the larger drive? </s>
+<s> What do you think? </s>
+<s> Would that be any better than what I have done? </s>
+<s> I have gotten Ghost on a rebate deal so I could use it. </s>
+<s> but it's got a decent enough reputation. </s>
+<s> Symantec bought out PowerQwest who developed Drive Image and Drive Copy. </s>
+<s> They also make Partition Magic. </s>
+<s> They were pioneers in developing this sort of technology. </s>
+<s> I must admit to being disappointed when Symantec bought them out as they have had a reputation for buying and dismantling their competition. </s>
+<s> Others they took over were Central Point (PC Tools) and Quarterdeck who was big in memory management tools and held Clean Sweep for a while. </s>
+<s> They are a predatory company. </s>
+<s> I am sure Ghost is ok and will get better once they've integrated Drive Image technology into their product. </s>
+<s> It will definately be better than WD utilities. </s>
+<s> I did Ghost. </s>
+<s> Made the original disk the master again, the new larger one the slave. </s>
+<s> Made a copy to the larger one and then switched jumpers/cable but when it booted up the original still comes up as the master. </s>
+<s> I don't understand how that could be. </s>
+<s> Suggestions? </s>
+<s> I did Ghost but something isn't right. </s>
+<s> First, I notice my 160 Gig HD has only 149 Gig available even after I formatted it. </s>
+<s> Hate to lose 11 Gig to something unknown. </s>
+<s> After formatting, I ran Ghost to copy my original C: drive and then disconnected the original C: drive and connected the new drive. </s>
+<s> It went through the startup but only to the blue screen with the MS Windows XP logo and the light shine in the upper left corner. </s>
+<s> I am using XP Home SP2. </s>
+<s> I thought I could just add the new HD and make it my master and keep the other for backup, but I can't get it right yet. </s>
+<s> Suggestions? </s>
+<s> Thanks. </s>
+<s> Your 160 gig drive will format at something less and 149 sounds about right. </s>
+<s> Ghost should not, however, need a formatted drive. </s>
+<s> It should want all free space as it does not copy file by file. </s>
+<s> I cannot explain the drive letter changes. </s>
+<s> What you normally would have done is clone the drive and disconnect the old when when the new one boots up for the first time. </s>
+<s> I cannot confirm this but I have heard stories that XP may be unhappy seeing a mirror of itself on the same system and might not boot properly. </s>
+<s> If the old drive was C: the clone should be C:. </s>
+<s> XP will, however, note the hardware change and could require reactivation. </s>
+<s> As far as using the old drive for backup, you can do so for data storage by formatting it but keeping a mirror of another XP volume might be a problem. </s>
+<s> Here is what I found that worked. </s>
+<s> With the larger drive as the master and the original smaller drive as the slave, I booted into Windows (of course, I am booting into the smaller drive). </s>
+<s> From there I modified the registry by running &quot;regedit&quot; from the command line and traversing to: HKEY_LOCAL_MACHINE -&gt; SYSTEM -&gt; MountedDevices Looked for \DosDevices\C: and \DosDevices\D: I changed these names by right-clicking on the Name, choosing Rename and changing the names as follows: Renamed \DosDevices\C: to \DosDevices\X: (where X is not a disk drive that is in use). </s>
+<s> Renamed \DosDevices\D: to \DosDevices\C: Renamed \DosDeivces\X: to \DosDevices\D: After booting up, the larger drive is now correctly the C:\ drive and the original smaller drive is the D:\ drive. </s>
+<s> NIL </s>

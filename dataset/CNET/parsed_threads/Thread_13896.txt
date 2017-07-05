@@ -1,0 +1,34 @@
+<s> The problem is that when I try start up with minimum configuration: cpu, motherboard and power and case of course. </s>
+<s> The power fan and cpu fan just run 1 second then down 2 second and then run again and down again. </s>
+<s> I think the normal situation should be the fans keep running and the motherboard alert no memory found. </s>
+<s> there are 4 phase leds on board, two green down one yellow up and one yellow top. </s>
+<s> I have replace the power and cpu, it doesn't work. </s>
+<s> Now I am gonna change the motherboard. </s>
+<s> But before that, I post to see if there are some good solutions. </s>
+<s> And I wonder if there is a chance that it the case problem. </s>
+<s> cpu : i5-760 motherboard : gigabyte p55-usb3 power : corsair TX 650w power supply </s>
+<s> While you did change/swap parts it appears the bios was probably setup to &quot;reboot on error&quot; in it initial working state. </s>
+<s> This alone makes it frustrating to resolve the problem. </s>
+<s> I suggest you find the CMOS/bios clearing pins and use them to reset the bios. </s>
+<s> Then, reboot and check results. </s>
+<s> You mention no ram installed in your post as minimum configuration, well you do need ram present in order get beyond that error. </s>
+<s> Please explain fully what got you to this point. </s>
+<s> If you can, try to enter the bios setting area if the display becomes active and allows this. </s>
+<s> Are there any beeps? </s>
+<s> Do the LEDs represent any possible clue as to condition of system, do they blink or display a status??? </s>
+<s> review manual or visit support website. </s>
+<s> Because, all that's left is the mtrbd., it could well be the primary fault, replace. </s>
+<s> tada -----Willy </s>
+<s> I have tried to reset the cmos, since the motherboard is gigabyte, there no switch to reset cmos, I just short the two pins. </s>
+<s> But it is still not working, I have changed the cpu, changed the power supply, even changed a new motherboard(gigabyte UD3), changed the thermal grease, it just remains the same: after start up, all fans including, cpu fan, power fan, graphic card fan run for two seconds then stop for one second then run again for two seconds and loop in this way. </s>
+<s> I am just so mad with this and I wonder if it is possible that the problem is caused by the case? </s>
+<s> BTW: I also try to reset cmos by unplug the power and take off the battery. </s>
+<s> Is this a right way? </s>
+<s> thanks -Hui </s>
+<s> Are all the leads from the front panel connected or just the power switch ? </s>
+<s> VAPCMD </s>
+<s> just power switch </s>
+<s> I know this may seem like a dumb response; after reading through the responses, it seems that the mobo is shorting out somewhere. </s>
+<s> Have you made sure there are only the standoffs needed for securing your mobo to the case; that all mobo screws are securely fastened ( a loose mobo screw will short out your board), no extra standoffs screwed into the case (this will short out a mobo as well), nothing extra rattling around inside the case. </s>
+<s> Are the phase LED's part of the mobo (or more like a cold cathode tube, installed after the build as part of decoration) ? </s>
+<s> If they are part of the mobo; then check on Gigabyte's website/ forums for error codes for the LED's. </s>

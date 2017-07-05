@@ -1,0 +1,34 @@
+<s> My question is about how to get my os to boot properly. </s>
+<s> i have a maxtor 60gb sata that my os is installed on, and i have a 160 gb western digital ide hdd. </s>
+<s> after installing the second drive i started getting an error when i start my computer that says: &quot;Disk Boot Failure; Insert System Disk and Press Enter&quot;. </s>
+<s> i can instert a system disk and press enter, and get the same error... however if i insert a system disk and reset my comp, then wait for the &quot;press any key to boot from cd&quot; message to pass, my computer will boot just fine(only if i have the windows install disk in the drive). </s>
+<s> to top all of this off, i'm getting an automatic check disk on drive C (not the drive my os is on) just before my computer finnishes loading windows. </s>
+<s> the message tells me that there are &quot;inconsistancies&quot; on drive c. if i cancel this check disk it continues just fine with no errors, but if i let the check disk commence, it takes almost a full hour to check drive c, and then i get system hang when it finally logs into windows. </s>
+<s> my specs are listed below... thanks in advance for any help. </s>
+<s> nathan mobo: LanParty UT nf4 sli-dr cpu: AMD Athlon 64FX 57 ram: 2g ultra pc 3200 ddr (1024 x 2) hdd: Maxtor 60G SATA (6Y060M0) Western digital 160g ATA100 (WD1600LB) os: Windows XP Pro (SP2) P.S. </s>
+<s> this is the first time i have used sata... i am CLUELESS as to how to properly set a sata disk as the o.s. </s>
+<s> disk, and NO, i did not get a cd of apps and drivers with my sata drive(it was from tigerdirect, and was a refurbished drive) </s>
+<s> Your issue is simply that Microsoft's XP SP2 does not install of SATA without a lot of help from the person that installs this OS. </s>
+<s> I don't tell how to install XP since there are thousands of web sites about that so let's go quickly over the basics. </s>
+<s> We boot the XP SP2 CD and have the SATA drivers handy on diskette. </s>
+<s> At some point we tap one of the F keys to tell XP's installer we will supply drivers that Microsoft doesn't put on their CD. </s>
+<s> After all that we have a working install but with out of date drivers and possibly no sound, internet or such. </s>
+<s> We get to install a potload of drivers. </s>
+<s> If this is an add on drive and not a boot drive, then you need to check your boot order in the BIOS. </s>
+<s> Bob </s>
+<s> ok, well first off, this is a boot drive, and i have been in the bios so many times i damn neer have EVERY setting memorized by now. </s>
+<s> as for installing drivers... i've already got windows and a butload of other programs installed, so is there a way to install the necessary drivers without re-installing windows? </s>
+<s> my biggest problem with installing drivers during windows install is that of my 4 computers, i don't have one single opperational floppy drive, much less any disks to put the files on. </s>
+<s> thanks for the info bob </s>
+<s> If you can burn a CD, there are instructions for slipstreaming the driver into your copy of XP. </s>
+<s> Google: xp slipstream sata driver - or - Google: xp unattended install sata driver ALTERNATIVES: - borrow a floppy drive just for the installation - cannabalize old computer for a floppy drive - buy an internal floppy drive (USD$6 +SH) - buy a nice external USB 2.0 floppy drive (very handy) MY PREFERENCE: Beg, borrow, or buy a floppy drive </s>
+<s> ...Windows XP is already installed, then you don't need a floppy drive. </s>
+<s> Just download the proper driver (check for a non-floppy versoin) and install it. </s>
+<s> That some systems force us to supply the SATA drivers on diskette. </s>
+<s> Next year Microsoft promises to fix that but only in Vista. </s>
+<s> As to the issue of moving the OS or such, that's another lacking area. </s>
+<s> You can attempt a repair install and follow the usual steps needed to make the OS install proper. </s>
+<s> Microsoft has shown no mercy in that &quot;keep my old programs&quot; issue. </s>
+<s> There appears to be no plans for that in Vista as well. </s>
+<s> I think it's an antipiracy ploy. </s>
+<s> Bob </s>

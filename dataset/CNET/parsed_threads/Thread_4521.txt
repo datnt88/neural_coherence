@@ -1,0 +1,37 @@
+<s> Hi all, I've looked through several forums and websites about this problem but all of them were more or less out dated. </s>
+<s> Long story short: -Brand new HP slimline desktop, Win8 -has two DVI ports, DVI-D and DVI-I (came with DVI-I to VGA adapter) -TV is a Samung LED, 1080p. </s>
+<s> Bought about a year and a half ago, never any problems. </s>
+<s> PS3 is hooked up to HDMI port, no issues. </s>
+<s> TV recognizes PC via VGA adapter, but picture isn't good, so I bought a DVI to HDMI cable. </s>
+<s> While windows is booted I can unplug VGA cable/adapter, and plug in DVI/HDMI cable--will get a picture on the TV in HD, like normal. </s>
+<s> However, if I restart the PC or shut it down, then boot, while the DVI/HDMI is connected (and VGA is not) the TV displays a &quot;No signal&quot; message. </s>
+<s> In the &quot;source&quot; options of the TV, the HDMI port is shown as recognized. </s>
+<s> This leads me to think that the PC is for some reason not booting to the DVI-D port. </s>
+<s> If this is the case, how do I change this? </s>
+<s> Please help! </s>
+<s> I can't check the manual on the PC to see if there is such an option. </s>
+<s> Bob </s>
+<s> The little &quot;start up&quot; guide had images with all the cables/adapter combos you can do, and dvi/hdmi cable was one of the options there. </s>
+<s> You still need to verify the setup every time, as HDMI cycles through it has to acknowledge the setup, due to HDCP. </s>
+<s> It takes a while, but you can also recheck that inputs and outputs are good to go. </s>
+<s> If you're using a different port, you need to select that to be used, many TVs don't auto-set or reconfigure on demand or if there unique situations it all needs extra help. </s>
+<s> Also, while adpaters do works, often enough they create their own problems or issues. </s>
+<s> each TV is different as well as whatever &quot;firmware&quot; when sold. </s>
+<s> As for VGA PC-&gt;VGA, if your TV allows better resolution via an int. </s>
+<s> setting, it maybe using 720p when 1080p wasn't selected. </s>
+<s> All this is open as I stated it varys TV by TV. </s>
+<s> So Samsung model, what??? </s>
+<s> tada ------Willy </s>
+<s> I would check the user manual to see if there are settings in the BIOS to select which to use for boot. </s>
+<s> I think it should suffice that without a make/model or better yet a link to the product web support site is needed to see if this model has such a setting. </s>
+<s> Bob </s>
+<s> Manuals here: http://h10025.www1.hp.com/ewfrf/wc/manualCategory?cc=us&amp;dlc=en&amp;lang=en&amp;lc=en&amp;product=5297111&amp; Though I doubt anything there has details regarding BIOS. </s>
+<s> And the TV is a Samsung LED series 6, 6000/6050, bought a few months after LEDs hit Best Buy. </s>
+<s> The DVI/HDMI cable is a Dynex. </s>
+<s> Regardless, I found a &quot;decent&quot; solution. </s>
+<s> Willy was correct about the cycling. </s>
+<s> So basically, the only way the PC will recognize the HDMI as a display source is if the VGA cable remains plugged in to both TV and PC. </s>
+<s> This way, it will boot to HDMI, though a bit late, you won't see any windows startup screens, the first screen you will see is your login screen. </s>
+<s> You won't be able to boot to BIOS. </s>
+<s> To boot to BIOS you have to use PC sourse on your tv. </s>
+<s> The graphics card recognized both displays, but considers them as multiple displays, so you need to go thru PC source on the tv, go to control panel and change your display settings to either clone or single display, if you choose single display you need to set the primary display as &quot;Digital television&quot;(HDMI), not &quot;monitor&quot;(VGA). </s>

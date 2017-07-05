@@ -1,0 +1,70 @@
+<s> Well, here's my first post. </s>
+<s> I'm a chemical engineer by trade, over 25 years in manufacturing, and though I am not a complete techno-geek, I am fairly savvy when it comes to PC issues. </s>
+<s> I learn fast, try to research and think through my work before launching into a new project, and am eager to receive input from those with more experience than myself (i.e. </s>
+<s> home networking). </s>
+<s> Current situation: 3-level home (basement, 1st floor, and 2nd floor) Charter Internet service Typical network/internet access takes place from first and second floors of the home. </s>
+<s> No major problems with current setup, just wanting to upgrade for better access and speed. </s>
+<s> Current confirguration... wall.. cable modem...wireless router (netgear)... wired to NAS, XP-MCE desktop, & old Epson R200 printer Coax cable, modem, router, NAS, and XP-MCE desktop are all in the basement. </s>
+<s> Wireless connectivity is good throughout all three levels of the home with three different laptops and four different smart phones connecting at any given time in any given combination. </s>
+<s> Upgrade plans: 1. extend cable connection to 1st floor 2. install modem inside my 6' tall hardwood entertainment center 3. cat6a cable from modem to new Netgear 4500 Gigabit router on top of the same entertainment center 4. cat6a cable back to existing Netgear router in basement as a WAP 5. </s>
+<s> NAS, XP-MCE desktop, and Epson R200 will remain in the basement where they are today. </s>
+<s> Upgrade rationale: Since most of us access the internet from either the first or second floors of the home, I believe I can get faster network response by installing my new Gigabit router closer to where we are most likely to connect, and do not want to lose connectivity in the absement since my kids do sometimes hang out there on their laptops while studying for college. </s>
+<s> QUESTIONs... A) Are my plans OK? </s>
+<s> B) Any suggestions for improving my planned arrangement? </s>
+<s> Thanks ahead of time for your insights and suggestions. </s>
+<s> You followed the best advice I know of. </s>
+<s> That is, centrally locate the WiFi sources and use routers as a WAP to cover weak areas. </s>
+<s> The only item you might encounter is the new firewalls in some routers. </s>
+<s> It can halt use of NAS, Netflix and such. </s>
+<s> But now you know. </s>
+<s> Bob </s>
+<s> Right now, I know that the Netgear router I'm using (the one I'm planning to use as a WAP) works with the NAS I have. </s>
+<s> I'm not overly concerned about Netflix since we do not have an account and do not plan to get one. </s>
+<s> However, in the event I need a work around, is there one... in other words, is there a way to create a &quot;white list&quot; which the router would then accept for connectivity, or am I just stuck with whatever the built-in firewall is designed to allow? </s>
+<s> I understand that each router model may have a variety of options for firewall configuration, but this is &quot;new ground&quot; for me and I like to understand my potential options. </s>
+<s> Thanks again. </s>
+<s> Since NAT is a natural firewall, all inbound connections get dropped without any work from me. </s>
+<s> So to stop all the twiddling I turn off the new router firewall feature to send it back to about early 2011 when I see they started to turn this on and create more support issues. </s>
+<s> Not one seems to be very configurable so it's just another item to disable. </s>
+<s> Bob </s>
+<s> That means that my sole defense is the software firewalls in each device connected to the internet, then, right, and the extra benefit of the router's firewall is simply gone? </s>
+<s> Well, at least I know. </s>
+<s> Still, I'll dig into the configuration details on the 4500 when I get it up and running. </s>
+<s> Right now, I'm waiting on my cat6a cable to arrive. </s>
+<s> I'll probably go ahead and run the coax this weekend so that everything is almost ready to plug and play when the ethernet cable arrives. </s>
+<s> Thanks again, Bob. </s>
+<s> Pete </s>
+<s> What are you defending against? </s>
+<s> And maybe I need to repeat that NAT is a firewall in its own right. </s>
+<s> Adding another firewall is your choice but I found it to break NAS, printer and file shares and overtax the usual home networker. </s>
+<s> Since NAT is a firewall in its own right (worth repeating) can you share what the worry is? </s>
+<s> Bob </s>
+<s> My concern lies in making sure that all my private documents and data are kept well away from anyone who might wander in and try to hack my information. </s>
+<s> Anyway, what is NAT? </s>
+<s> Where does it reside? </s>
+<s> Disabling the firewall within the router does not disable NAT? </s>
+<s> I'm really showing my networking ignorance here. </s>
+<s> If you know of a source where all this is explained in non-technical terms, I'll be happy to review the information off line and not waste your time with trying to bring me up to speed on it. </s>
+<s> It's how these &quot;routers&quot; perform the internet sharing. </s>
+<s> Since an inbound connection is not routed to any machine unless you configure the router to do so, these are dropped and well, how would they get to your files? </s>
+<s> I wish I could write it in less technical terms but my bet is that this is why everyday folk gobble up this firewall feature without much research. </s>
+<s> Let's say that all old routers that didn't have this new firewall were vulnerable. </s>
+<s> You would think this would be marketed and create millions of sales to replace the old gear. </s>
+<s> Bob </s>
+<s> OK. </s>
+<s> I've skimmed some online docs which describe NATs to varying degrees, most being technically over my head, but I think I'm getting the picture. </s>
+<s> I also spent some time glancing through the user manual for the new Gigabit router I bought, and the default settings for the router's firewall are &quot;disabled&quot; for incoming and &quot;enabled&quot; for outgoing. </s>
+<s> I also have the option of establishing the NAT as either &quot;secure&quot; or &quot;open&quot;. </s>
+<s> From everything you've shared, Bob, and the little bit of understanding I've gained through additional skimming around the net, I assume that my best starting point is to accept the default firewall settings and leave teh NAT as &quot;secure&quot;. </s>
+<s> Am I correct? </s>
+<s> Thanks again for your patience and time, Bob. </s>
+<s> I am not oblivious to how much time it can take to bring someone up to speed on something they don't understand to begin with. </s>
+<s> I've done it many times myself with &quot;newbies&quot; in the automotive enthusiast forum I frequent. </s>
+<s> Pete </s>
+<s> But if you encounter troubles with your NAS, network shares, you know what to try now. </s>
+<s> Bob PS. </s>
+<s> And about automotive, my trials with my 2006 Civic Hybrid and how Honda's updates have turned a good car into a lemon, well, I'm sure you've heard about that. </s>
+<s> Diesel's have been my thing for the past 5 years, which started after purchasing my first 3/4 ton Ford diesel pickup (still driving daily at 215,000 miles) and just got more involved when my oldest son purchased a 2006 VW Jetta with the turbocharged diesel. </s>
+<s> We've had good success thus far, but the diesel technology has fascinated me so I regularly dig into those realms for efficiency gains and reliability enhancements. </s>
+<s> Thanks again for all your help. </s>
+<s> Pete </s>

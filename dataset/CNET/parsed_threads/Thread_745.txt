@@ -1,0 +1,51 @@
+<s> I have always had cable with something like a Linksys router with built in firewall. </s>
+<s> I just bought a Verizon Hotspot Samsung SCH-LC11 to use at a house that I will retire to in the future because it has no cable. </s>
+<s> The Hotspot has no firewall, of course I have windows firewall on my computers. </s>
+<s> What I want to know is how good is this to have without a hardware firewall and is there something I should do? </s>
+<s> Also I bought a WiFiRanger from 3Gstore dot com to use with the Hotspot so I can run ethernet cable to my computers. </s>
+<s> The WiFiRanger is a router but has no built in hardware firewall but does a router not help by the way it works to make like a firewall in a sense? </s>
+<s> Looking for advice and just to learn more about the setup I will be using. </s>
+<s> Thanks sly </s>
+<s> In a home environment NAT does almost as much to protect you as a firewall. </s>
+<s> The primary job of a firewall is to prevent unauthorized traffic from getting to your machine. </s>
+<s> When you have only a single real IP address the router has to be told where to send the traffic. </s>
+<s> It is smart enough that if you talk to a site on the internet it will allow the traffic to come back in. </s>
+<s> For traffic that comes in without you asking first the router is stupid and throws it away since it dose not know where to send it. </s>
+<s> Not a lot different than if you put a rule in the firewall. </s>
+<s> If you run DMZ type configuration that tells the router to send everything by default to a machine then you need a firewall more since unknown traffic will come into a machine. </s>
+<s> There are ways to place a hardware firewall in your setup but it gets messy since the WAN link is wireless and you still want to use wireless on your LAN. </s>
+<s> You could always buy one of the USB things for the verizon and buy a aftermarket router that has a firewall if you really wanted. </s>
+<s> I suspect you will be fine with just the PC firewall, just do not setup the DMZ or port forwarding unless you absolutely need it. </s>
+<s> Make sure you test this before you commit to a 2 year contract. </s>
+<s> If you cannot get LTE (4g) coverage in the house it will be very slow compared to anything else you have used. </s>
+<s> 3G coverage is fine for phone surfing but is painful when used with a computer. </s>
+<s> ok, let me see if I understand. </s>
+<s> You are saying that if I use the WiFiRanger, since it is a router it will act as a firewall even though it does not have NAT. </s>
+<s> If I am right nat is what is usually what a router has when they say it has a built in firewall, I can not remember what it stands for but it seems I remember it checks incoming packets or something like that. </s>
+<s> So if I use the WiFiRanger, I should not worry, right? </s>
+<s> What about only using the Hotspot, are you saying it is also like a router and gives protection? </s>
+<s> Sorry just learning about all this, if it seems I am not picking this up quick. </s>
+<s> Thanks for your reply sly </s>
+<s> I googled NAT and do not fully understand but can see your point. </s>
+<s> So how would I know if the WiFiRanger has nat if it does not say in its information or are you saying that all routers have nat? </s>
+<s> All routers pretty much have to run nat. </s>
+<s> You only have a single real ip address. </s>
+<s> You may or may not have multiple machines that need to share this address. </s>
+<s> NAT is the method used to share the address between machines. </s>
+<s> This sharing is the key to why being stupid protects you much like a firewall. </s>
+<s> Think of NAT as what happens if you order something and UPS ship it to a large company but don't put the name of the person. </s>
+<s> All the people share the same address. </s>
+<s> If the mailroom had a list of packages each person was expecting they could deliver it. </s>
+<s> If the package was not on the list they don't know who to deliver it to. </s>
+<s> So if some bad person sends you a UPS package it gets stuck in the mail room. </s>
+<s> NAT work like that it build a list dynamically of packets to accept. </s>
+<s> The devices that do not run NAT are called bridges in most cases.... very technically even a router does not always NAT but this happens in commercial setting where you have multiple IP assigned to you. </s>
+<s> Thank you for the reply and taking time to explain. </s>
+<s> It makes since what you are saying, that using the WiFiRanger router is all I need to do. </s>
+<s> What about when you are just using the Hotspot and connect to your computer with wi-fi, does the Hotspot also act as a router as you have explained and would have NAT? </s>
+<s> Even if you have only a single computer the hotspot assume you might have more so it will run NAT. </s>
+<s> I think this device can only run as a router. </s>
+<s> Really the only time you don't have nat involved is for people who plug directly into a cable or DSL MODEM. </s>
+<s> Still lately even these devices tend to be routers running nat even if they are called modems. </s>
+<s> You have been great, thanks for all the information. </s>
+<s> sly </s>

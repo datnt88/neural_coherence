@@ -1,0 +1,63 @@
+<s> hello, I'm looking for some advice from anyone who has a NAS enclosure kit. </s>
+<s> I have a couple of PC's in my home and would like to have a central backup place for my files as well as a Itunes server. </s>
+<s> I already have a spare hard drive and just need a good enclosure to match it with. </s>
+<s> I'd like to get the enclosure for cheap (if that's possible) but want something that's not going to die right after I get it. </s>
+<s> Any advice? </s>
+<s> i assume your spare HD is an ide drive. </s>
+<s> if so, that somewhat limits your choices since most new NASes support SATA drives. </s>
+<s> this linksys NSLU2 has no drive bays so you'd need a USB enclosure: http://www.newegg.com/Product/Product.aspx?Item=N82E16833124036 the NSLU2 has several replacement firmwares available for it that can turn it into a linux based NAS/file/streaming-music server much better than the built-in software. </s>
+<s> $20 usb case: http://www.geeks.com/details.asp?invtid=BLK-CX3501PL-1&cat=CSE nslu2 replacement firmware: google &quot;linksys nslu2 linux&quot; and http://en.wikipedia.org/wiki/NSLU2 i don't know much about this trendnet unit: http://www.newegg.com/Product/Product.aspx?Item=N82E16822708001 here's linksys' SATA NAS with 2 drive slots: http://www.buy.com/prod/linksys-nas200-network-storage-system-with-2-bays/q/loc/101/205689222.html i don't know if this ide-to-sata will fit: http://www.geeks.com/details.asp?invtid=RXD639-IDE-SATA-ADP&cat=HDD </s>
+<s> Thanks for the info. </s>
+<s> I didn't realize that the NSLU2 didn't have any drive bays. </s>
+<s> Also, what's the deal with NTFS and FAT32 format? </s>
+<s> is it just that FAT32 doesnt support over 4gb for a single file, or is it more than that? </s>
+<s> as you mentioned, ntfs vs fat32 is typically just for large file support. </s>
+<s> the firmware in most nas are too simple to take advantage of ntfs' other benefits. </s>
+<s> so less wasted space </s>
+<s> Thanks everyone, I am hoping to get everything under the same device. </s>
+<s> Is there a device that uses SATA drives and NTFS? </s>
+<s> I've seen this one off of ebay and &quot;looks&quot; like what I'm looking for. </s>
+<s> http://cgi.ebay.com/SATA-NTFS-Vista-FTP-Samba-NAS-Network-Storage-Enclosure_W0QQitemZ200167776942QQcmdZViewItem </s>
+<s> I don't mean to start a revolt here but why would I want to specify the file system for a NAS? </s>
+<s> Shouldn't the NAS use what would be best for it's own &quot;world&quot;? </s>
+<s> Bob </s>
+<s> if you want sata drives. </s>
+<s> this one is the same price as that ebay unit: http://www.buy.com/prod/linksys-nas200-network-storage-system-with-2-bays/q/loc/101/205689222.html and like the nslu2, there are replacement firmware versions that can greatly extend its capabilities. </s>
+<s> Is there a benefit from a NAS enclosure or a Hard Drive Enclosure with a built in USB 2.0 hub? </s>
+<s> I have one of those and it provides a way to put some USB memory stick or other USB hard disk on the NAS and network. </s>
+<s> I have never heard of this brand before. </s>
+<s> I'm curious to know if this model or brand is any good. </s>
+<s> http://www.meritline.com/3-5-sata-hdd-enclosure-with-cooling-fan-ed-35-lan-g-sa.html </s>
+<s> Hi all Doing some research into NAS drives, and the Linksys NAS200 looks good, but I have a question: Can the drives be formatted ntfs. </s>
+<s> I heard that you can only format fat32. </s>
+<s> As far as I understand, this would mean that you cannot assign different access rights per folder to different users or groups on the network, but can only share folders </s>
+<s> Check this out on Ebay, again I have no idea of the quality of this item but would like to know. </s>
+<s> http://cgi.ebay.com/SATA-NTFS-Vista-FTP-Samba-NAS-Network-Storage-Enclosure_W0QQitemZ360015246968QQihZ023QQcategoryZ1484QQssPageNameZWDVWQQrdZ1QQcmdZViewItem </s>
+<s> unlike external drive enclosures, NASes have a OS and manage the drive and its security. </s>
+<s> although you can manage some settings from your PC, the NAS OS implements the security so the underlying file system of the drive is not important. </s>
+<s> Thanks for the feedback, Ramarc. </s>
+<s> Do you know where I can find a little more info on this. </s>
+<s> Can one set access rights on the drive, per folder/file and per user/group? </s>
+<s> Even in Linux we have such permissions. </s>
+<s> You need to get your goals stated since those linux based NAS can use a file system that has permissions, ownership and such. </s>
+<s> But let's skip all that. </s>
+<s> Most don't want to know what the file system is but want &quot;features.&quot; Bob </s>
+<s> &lt;&lt;Most don't want to know what the file system is but want &quot;features.&quot;&gt;&gt; Altho I've been tempted by NAS (affordable types), I have resisted for two reasons: 1. </s>
+<s> Almost all cheap NASs uses Linux SMB-CIFS and if the enclosure dies, I've got to either get a replacement (compatibility may/maynot be easy to find) or use some translator to access with a Windows PC or boot a distro. </s>
+<s> Not exactly instant recovery! </s>
+<s> 2. </s>
+<s> Even with GbE, thruput continues to be low. </s>
+<s> Nothing yet beats a stripped down PC with direct attached SATA for a highly manageable, cost effective SOHO solution. </s>
+<s> I can see that issue become a biggy fast for those that haven't lost it all a few times. </s>
+<s> http://www.linksys.com/servlet/Satellite?c=L_CASupport_C2&childpagename=US%2FLayout&cid=1175233467604&pagename=Linksys%2FCommon%2FVisitorWrapper&lid=6760442294B11&displaypage=nodata#versiondetail </s>
+<s> since SOHOs can't afford. </s>
+<s> I hope it isn't too late! </s>
+<s> The device is OK for archive purposes, but you don't want to use it for daily work. </s>
+<s> It's slow as molasses (with 7200 rpm SATA drives) and there's no way to prevent the drives from going to sleep every 30 minutes. </s>
+<s> Not only that, but if you want to back up your data, the NAS200 ACTIVELY PREVENTS the archive bit from being reset, which means that you cannot do an incremental or differential backup. </s>
+<s> You have to do a full backup every time. </s>
+<s> When I called Linksys, I spoke to some genius in India who only read canned statements and refused to take any action. </s>
+<s> She told me to update the firmware, but the problems persisted. </s>
+<s> It's the last Linksys product I will buy. </s>
+<s> Did you pack it up and return it as defective? </s>
+<s> I find most won't. </s>

@@ -1,0 +1,61 @@
+<s> Hi. </s>
+<s> I have a laptop which is the only computer I use. </s>
+<s> I get internet via unsecured wireless connection from my friend who lives next to my house. </s>
+<s> It's been working just fine over months. </s>
+<s> But about a week ago I started to get error: &quot;There is ip address conflict with another system on the network&quot;. </s>
+<s> As I mentioned I don't have any routers. </s>
+<s> I tried to renew ip address via ipconfig, reinstalled drivers for all network cards, and finally decided to reinstall windows. </s>
+<s> I erased all info and formatted all drives. </s>
+<s> In the middle of windows installation I got exactly the same message. </s>
+<s> It finished installing, and needles to say I have the same issue. </s>
+<s> I tried to connect via another laptop - it works just fine. </s>
+<s> Please help! </s>
+<s> Simple someone else is using the same address as you and all you know is that it is another person who is also using the same unsecured connection. </s>
+<s> Part of the reason you do not use unsecured stuff. </s>
+<s> There is no way to really tell where the machine is your friend might be able to but you won't. </s>
+<s> Get your friend to change his DHCP server to give you a different address but someone maybe duplicating your address on purpose to steal something or maybe just to mess with you. </s>
+<s> Best solution is to have your freind turn on security and provide you with a userid and password. </s>
+<s> resetting his connection would be was my first step, but he is out the city till middle March and I just cannot wait that long. </s>
+<s> couple notes - if another laptop worked - can I do something to my laptop to make it work again? </s>
+<s> such as change that ip address manually? </s>
+<s> - I'm just guessing, if you can really change ip address manually - please guide me on how to do it. </s>
+<s> And the last thing - as I mentioned I've erased and reformatted all drives- and i got the same message in the middle of windows installation. </s>
+<s> In the middle! </s>
+<s> meaning I didn't even do any set up or search for any wireless connections. </s>
+<s> Can that be a conflict within my computer, like my wireless card is conflicting with ethernet network card (just guessing again)? </s>
+<s> Disable the onboard ethernet card as a test? </s>
+<s> did that and also tried to reinstall drivers - didn't help </s>
+<s> The issue with no security is that any child can interfere. </s>
+<s> When you change to this forum's advised settings (which is WPA) then the interfering users are removed. </s>
+<s> I've seen folk lose weeks, months, hundreds of bucks over this one lone setting. </s>
+<s> They'll load drivers, post on forums, reinstall the OS and even buy a new machine. </s>
+<s> Bob </s>
+<s> thanks for words of wisdom but they don't help to solve the problem. </s>
+<s> my buddy is out of city till middle march and i can't do anything until he comes back. </s>
+<s> other laptops still work on his connection and it means something is wrong with my pc. </s>
+<s> i appreciate any ideas on the matter of the problem </s>
+<s> Be nice if you could set the IP with a command line but windows says gui is better. </s>
+<s> It is trivial to set the IP but it is so hard to describe in words. </s>
+<s> It is in the tcpip properties for the wireless card. </s>
+<s> There are a number of sites that show screen caps of how to set the IP if you search. </s>
+<s> A wireless lan interface is configured exactly the same as any other. </s>
+<s> Just google how to set a static ip. </s>
+<s> Someone else hardcoded their IP is more than likely how they are interfering with you. </s>
+<s> There is no way to know for sure the new IP you pick is not already assigned to another machine since it may be turned off. </s>
+<s> That is why DHCP exists but you will eventually find on e that will work. </s>
+<s> You should be able to find the gateway address which should give you somewhat of an idea of the address range that might be available. </s>
+<s> You just set a static address and hope it's not in use. </s>
+<s> If it is, try another. </s>
+<s> That's been a dead end solution since the child that hijacks the connection often uses SMAC or similar (google that!) </s>
+<s> to spoof the connection and interfere with your connection. </s>
+<s> You can write I didn't have an answer today over and over but the lesson is simple. </s>
+<s> Get a secure link. </s>
+<s> Bob </s>
+<s> who made the suggestion but your response isn't under my post. </s>
+<s> If it was meant for me, I'll say I'm not offering this as a cure but a temporary work around if he feels it necessary to try something. </s>
+<s> Personally, I'd never connect to a neighbors wireless network for my own internet use. </s>
+<s> There are other reasons that he could be experiencing this difficulty than a deliberate act of mischief. </s>
+<s> It could well be that some schmuck is just using the static address method to swipe the connection for their own use. </s>
+<s> If that's a risk one's willing to take, IMO, that's theirs to deal with. </s>
+<s> They get to clean up any damage done or pay someone to assist. </s>
+<s> In time or dollars! </s>

@@ -1,0 +1,41 @@
+<s> Winxp SP3, RAM 2GB,HD 160GB When I first time put my memory stick of my Camcorder into the slot of the case of my computer it jolly well recognizes it and the contents get displayed very well. </s>
+<s> I use 'safely remove hardware' icon and then remove the stick from the slot. </s>
+<s> Now supposing I want to use the memory stick again the slot does not recognize it. </s>
+<s> I have to reboot the PC and then it gets recognized. </s>
+<s> This cycle ---remove reboot -- remains the only solution to me at the moment. </s>
+<s> This is true for all the memory sticks I do have here. </s>
+<s> Kindly guide if this problem could be solved? </s>
+<s> Thanks in advance. </s>
+<s> I used to Safely remove hardware all the time then I was told if it is USB 2.0 don't bother. </s>
+<s> So I stopped. </s>
+<s> Is it true?, not sure but I have never had a problem. </s>
+<s> So try that first as you may be turning off your USB port each time Also make sure that you are not having conflicting drives. </s>
+<s> I had a mapped drive set to E and everytime I plugged in a memory stick I never knew if it was going to recognise it. </s>
+<s> Hope that helps </s>
+<s> There is a simple solution for this in the case of windows. </s>
+<s> Just do a &quot;regedit&quot; for StorageDevicePolicies key. </s>
+<s> . </s>
+<s> Get into the Registry - Press Start -&gt;Run, enter regedit, press Ok Click on My Computer. </s>
+<s> Then press File Export, give some file name to backup the registry. </s>
+<s> Just in caseyou ever need to rollback. </s>
+<s> Navigate to HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/StorageDevicePolicies . </s>
+<s> In the right pane select &quot;writeprotect&quot; . </s>
+<s> RESET the value to '0' Repeat the same for ControlSet001 and ControlSet002 incase they exist. </s>
+<s> Now plug in your USB drives and it should work. </s>
+<s> Else just reboot the machine and try. </s>
+<s> I'm running Windows XP Pro, with SP3 and have noticed some problems removing USB devices, even when I use Microsoft's &quot;Safely Remove&quot; option. </s>
+<s> I came across a program called &quot;USB Safely Remove&quot; which monitors each of your USB devices that you put into use. </s>
+<s> This program sits in your tool bar when it is running. </s>
+<s> If you want to remove a USB item, you just &quot;mouse-over&quot; the icon and a window pops up showing all of your USB items that are connected. </s>
+<s> To disconnect one of the USB drives, just click on it and it will safely remove it for you. </s>
+<s> If it has problems stopping the device, it will pop-up a window and show you the program that is keeping it from &quot;un-mounting&quot; in a safe manner. </s>
+<s> This program comes in handy when I use a flash card reader that can read about 12 different types of flash cards. </s>
+<s> When I plug it in, about 6 different letters show up. </s>
+<s> Using USB Safely Remove, I don't have a problem trying to decide which letter I need to stop to safely remove my flash card reader. </s>
+<s> Hope this helps! </s>
+<s> Here is the link for the website: http://www.safelyremove.com/?ver=3.3.0.613 Cheers! </s>
+<s> I was having this same issue. </s>
+<s> What I figured out was by using &quot;safely remove hardware&quot;, I was basically turning off that drive. </s>
+<s> Problem was it didn't come back until I rebooted. </s>
+<s> My work around was to skip the &quot;safely remove&quot; and just wait a few minutes for the memory card to finish it's work before removing from the slot. </s>
+<s> That took care of the problem. </s>

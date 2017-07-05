@@ -1,0 +1,26 @@
+<s> am wondering if anyone has ever had a problem with a PC taking ten minutes or longer to boot up with a HP printer attached to the USB port. </s>
+<s> I have a Dell Dimension 2400 series PC running Windows XP Home. </s>
+<s> It is a year old. </s>
+<s> I also have a HP 2175 or something on that order. </s>
+<s> It is an all in one. </s>
+<s> Here is the problem. </s>
+<s> First, without the printer attached to the PC through a USB port the PC boots up just fine. </s>
+<s> But if I have the Printer plugged in The POST runs fine but just before the OS loads the computer hangs for about 10 minutes and has just a cursor blinking in the upper left hand corner. </s>
+<s> Eventually it will boot into windows but it takes forever. </s>
+<s> I never get any warnings from the system saying that there is anything bad with the printer or the USB port but when I look in the device manager in Windows with the printer plugged in I have a &quot;USBnull HPO08&quot; by the USB ports??? </s>
+<s> If I look in the &quot;show printers&quot; window on the system I can see the printer and it says it is online and ready?? </s>
+<s> Does anyone have any idea why this is happening? </s>
+<s> ? </s>
+<s> Just kidding, but when I found you were usingXP I remebered that there are three great tools available to see what is possibly causing the problems. </s>
+<s> They are: Event Viewer, Bootlogtext file and Boot ini log. </s>
+<s> I have only used event viewer. </s>
+<s> One way to get there is go to DStart Run type eventvwr and hit OK. </s>
+<s> This gives a list of all of the events that have been occuring with the system. </s>
+<s> You can clear them and get a new set the next time that you turn the system on. </s>
+<s> I'll try to find a link to how to use the other two. </s>
+<s> http://reviews.cnet.com/5208-6142-0.html?forumID=5&threadID=26794&messageID=301001 </s>
+<s> Thanks again for the help. </s>
+<s> I will try the second 2. </s>
+<s> I did look at the event log and did not see anything out of the ordinary. </s>
+<s> But maybe there is a way to get the information I need from the boot.ini file or the boot log text file. </s>
+<s> Thanks again, Loren </s>

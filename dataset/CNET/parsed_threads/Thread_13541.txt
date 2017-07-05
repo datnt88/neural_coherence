@@ -1,0 +1,64 @@
+<s> Hello all I'm getting some random system freeze / crash after running any apps. </s>
+<s> Please advice: hardware: Intel Quad Core Q8200 with stock fan/heat sink Asus P5QL/EPU motherboard Kingston 2G DDR-800 x 2 Galaxy GTX 260+ video card (896MB vmemory) some 500G HD Antec 500W power supply (came with the case) all of them are brand new. </s>
+<s> I assembled them myself (third time, first time for myself) symptoms: 1. crash randomly in windows xp 32 bit 2. crashed twice in windows 7 64 bit 3. crash within 5 mins when playing TimeShift 4. does not crash that often when playing need for speed carbon 5. when crashing/freezing, either the system reboots itself, or the screen shows weird patterns and stays there forever. </s>
+<s> things I've tried: 1. temperatures of the CPU, video card, northbridge don't even go over 60C during summer time. </s>
+<s> 2. in XP, all drivers are up to date 3. updated motherboard bios, and tried the nvidia stock bios for video card 4. </s>
+<s> I tried a power consumption calculator. </s>
+<s> it told me the expected watts should be around 300. </s>
+<s> 5. </s>
+<s> I tried re-wiring everything, I don't think it's connect problem 6. </s>
+<s> I tried giving NB an extra .1V and problem still persists </s>
+<s> Just now, I was running the windows 7 memory test and I noticed something interesting: when 2 sticks in dual channel mode, mem test reboots or freezes when trying each stick separately, both cause the system to crash / freeze... And I tried different slots too. </s>
+<s> (it always had problem getting pass 15% for the standard test) any suggestions are welcome </s>
+<s> The &quot;Kingston 2G DDR-800 x 2&quot; has not one but a few models with various settings for this and that. </s>
+<s> I won't detail this yet but wonder how you arbitrated or selected your memory settings to match the RAM maker's specifications. </s>
+<s> Yes I am asking how you did that. </s>
+<s> Bob </s>
+<s> emm, I put everything to auto in the BIOS config. </s>
+<s> when I bought the memory sticks, I just picked DDR800 and didn't bother with the clock cycles and other stuff that I didn't really care. </s>
+<s> I was assuming my mother board (P5QL/EPU) is fine with any thing from DDR667 to DDR1066. </s>
+<s> Here is the model number on the memory stick in case needed: KVR800D2N6/2G 2GB PC2-6400 CL6 240 pin DIMM thanks </s>
+<s> Then I can match that up with http://www.valueram.com/datasheets/KVR800D2N6_2G.pdf </s>
+<s> using CPU-Z, I saw: Channels: Dual DC Mode: Symmetric in the memory tab: Frequency 401.3MHz FSB:DRAM: 5:6 CL 6 tRCD 6 tRP 6 tRAS 18 rRFC 52 CR 2T in the SPD tab: for the timings table, JEDEC1-3 are: (freq, CAS, RAS to CAS, RAS, tRAS, tRC) 266MHz 4-4-4-12-16 333MHz 5-5-5-15-20 400MHz 6-6-6-18-24 </s>
+<s> and I just went to a computer store to ask a guy doing a memory test on my RAM. </s>
+<s> It didn't pass the test, so I bought a pair of Mushkin DDR2 800 RAM (996587). </s>
+<s> The same problem persists. </s>
+<s> (even after I set the clocks to 5-4-4-12 as shown on the package manually) </s>
+<s> The RAM voltage and timing? </s>
+<s> Not all BIOS will show this so sometimes I'll use the ram's &quot;spec&quot; and set it manually. </s>
+<s> for the voltage part, for both kinston and murshkin, it's 1.8V as labeled on the RAM for the cycles, I tried manually setting the cycles to whatever that's listed in the CPU-Z info and the problem remains. </s>
+<s> I'm starting to think if there is something wrong with the motherboard. </s>
+<s> The chance of getting stucking at exactly the same place during windows memeory test due to RAM is really low I think. </s>
+<s> Also, as I noticed, when I turned the sound chip off in BIOS, the frequency of crash reduced significantly in windows and in some of the games... </s>
+<s> I'm going to see if I can get hold of a similar motherboard and have a try. </s>
+<s> thanks </s>
+<s> I find that some boards need just a tad more. </s>
+<s> Beats changing ram, boards, etc. </s>
+<s> I added to 1.9V and the problem still remains (using the mushkin RAM) </s>
+<s> Look at http://www.tweaktown.com/reviews/1800/galaxy_geforce_gtx_260_oc_graphics_card/index17.html That's your card in a stripped system running 317 REAL MEASURED WATTS. </s>
+<s> &quot;The other thing to remember is that our test system is bare minimum only a 7,200RPM SATA-II single hard drive is used without CD ROM or many cooling fans.&quot; I had to reserve commenting on this till we got the memory timing out of the way but at this point I'd consider beefing up the PSU as well as considering using the board and drivers they used if you can. </s>
+<s> -&gt; Today, for zero cost, try the drivers they used for the test at http://www.tweaktown.com/reviews/1800/galaxy_geforce_gtx_260_oc_graphics_card/index4.html or &quot;Drivers: ForceWare 182.06, Catalyst 9.2&quot; And let's get something nasty up on the table. </s>
+<s> If you are running torrents or such, all bets are off. </s>
+<s> Bob </s>
+<s> I'm going to download 3DMark and run it as a soak testing on my graphics card. </s>
+<s> My power supply is labeled 500W with a max of 408W on the +12V output. </s>
+<s> As you mentioned in the earlier test, this power supply does look like a bit under the bar. </s>
+<s> I&quot;ll see if I can try with a 650W power supply. </s>
+<s> However, when running memtest, I'd assume the video card is running at lower power comsumption. </s>
+<s> Also, stucking at exactly the same place everytime is not really a sign of under geared power supply. </s>
+<s> Morever, I tried with my old Ati x800 card as well, the problem remains. </s>
+<s> I have this old other machine that did the same. </s>
+<s> After much going around in circles I got lucky and a Nvidia card was freed up at the office. </s>
+<s> For that machine it cured it. </s>
+<s> But look at power supplies like your car. </s>
+<s> Your car might go 120MPH but let's say you go 100. </s>
+<s> Now while it can go faster you will experience issues at 100 and the occasional failure much sooner than say at 65 over the same number of miles. </s>
+<s> Some don't get that the same thing happens with power supplies. </s>
+<s> My longest lasting and least trouble machines had about double to more Watts than what they needed at any time. </s>
+<s> I'd still head for the driver version they did those tests at because its ATI... Bob </s>
+<s> On my free time I like to search the net, and search for different games to play. </s>
+<s> I came across a nice site called http://www.gamestreamer.com the games on there are AMAZING!! </s>
+<s> yall should check it out. </s>
+<s> err, I finally found it. </s>
+<s> It was the motherboard. </s>
+<s> When I tried it on a P5Q Turbo board everything was fine. </s>

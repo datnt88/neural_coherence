@@ -1,0 +1,79 @@
+<s> I cannot figure out, for the life of me, how to get the WEP encryption to work with windows XP. </s>
+<s> I'm using a Thinkpad T42. </s>
+<s> I type in the password, and it generates the numbers, but when I plug them into the notebook, it doesn't seem to work. </s>
+<s> I don't know a lot about wireless. </s>
+<s> What am I doing wrong? </s>
+<s> If I have not given enough info, please let me know. </s>
+<s> Lots of links here: http://www.google.com/search?sourceid=navclient&ie=UTF-8&q=enable+WEP+linksys for what you ask. </s>
+<s> Myself I just enable MAC filtering to keep out any onlookers. </s>
+<s> It's enough for me. </s>
+<s> Here's my checklist... 1. </s>
+<s> Firmware is latest in all devices. </s>
+<s> 2. </s>
+<s> The WAP make is the same as the Client device. </s>
+<s> Bob </s>
+<s> The firmware is all updated, but I'm not quite sure what your second statement means, as I am quite new to all this. </s>
+<s> Is enabling the MAC stuff, like the previous poster good enough? </s>
+<s> Or should I definitely use some sort of WAP settings. </s>
+<s> Thanks again, and sorry for my newbieness. </s>
+<s> -Plink- </s>
+<s> Oh, also, I don't see anything called WAP, just WEP. </s>
+<s> Again, I have no idea what I'm talking about, so any help at all is useful. </s>
+<s> Thanks again. </s>
+<s> WAP= wireless access point, aka your router WEP= wireless encryption protocol, it scrambles your wireless transmissions A WAP can be set to use WEP. </s>
+<s> Aren't acronyms fun. </s>
+<s> I would start slow with MAC filtering until you get used to the routers security features. </s>
+<s> Okay. </s>
+<s> I figured out how to enable the MAC filtering. </s>
+<s> Thanks a lot guys. </s>
+<s> That should be just fine for now. </s>
+<s> Okay, one last thing. </s>
+<s> On Windows XP Pro, it still says that this connection is not secure. </s>
+<s> Is it? </s>
+<s> Should it still say that? </s>
+<s> I went and did an automatic MAC address update in the MAC filter. </s>
+<s> It found the connection on it's own, and added it. </s>
+<s> Is that how it should have been done? </s>
+<s> Thanks again. </s>
+<s> Sorry for all the questions. </s>
+<s> In MAC filtering you can enable the feature to only allow the wireless devices you want. </s>
+<s> Although this does not close the door completely on would be snoopers it is a good start. </s>
+<s> Okay. </s>
+<s> I seriously doubt there is anyone who is computer savvy around here. </s>
+<s> This isn't exactly the best neighborhood. </s>
+<s> I'm not too worried that it isn't secure enough, I was just curious if it was actually working or not, since XP still says that it's not a protected connection. </s>
+<s> Thanks again. </s>
+<s> The issue that XP boots and declares the connection unsafe is noted as a bug. </s>
+<s> It's been discussed. </s>
+<s> To be safe, enable the firewall and add another firewall. </s>
+<s> Read... http://reviews.cnet.com/4520-10166_7-5507759-1.html Bob </s>
+<s> Will I have to purchase something to get the security I need? </s>
+<s> I'm a poor college student! </s>
+<s> Seriously! </s>
+<s> I would use the XP SP2, but am a little wary about installing the SP2. </s>
+<s> I have a Thinkpad T42, and I have heard that it is not quite supported yet. </s>
+<s> Is there another free firewall that would be useful for me? </s>
+<s> Thanks for that link. </s>
+<s> I'll try to look around some more, so I can finally stop bothering you. </s>
+<s> Thanks again. </s>
+<s> Zonealarm has a free version and so there's no need to part with the cash today... Bob </s>
+<s> Your security questions have 2 facets - secure transmissions from PC to Access Point (WEP or the newer, more secure WPA) and MAC address filtering to prevent someone from picking up your access point's signal and &quot;tapping&quot; into your AP to surf the Net or your PC's files. </s>
+<s> If you have WEP enabled, but don't turn on MAC filering someone can hack your PC or use your AP to surf. </s>
+<s> If you have MAC filtering enabled, but don't have WEP someone (I don't know what equipment would be needed) could &quot;read&quot; the radio signal from your PC to AccessPoint. </s>
+<s> Ideally you should have both security systems in place. </s>
+<s> However, I don't think too many could intercept and decipher the radio signal. </s>
+<s> But many more could simply tap into your access point without the MAC address filtering. </s>
+<s> Sounds like you successfully have turned this on. </s>
+<s> (Linksys makes this easy.) </s>
+<s> You should also turn off your router broadcasting your SSID - it makes it easier for a someone looking for an open access point to hijack a ride on. </s>
+<s> You simply have to program your PCs, but you know what your SSID is so no problem. </s>
+<s> Firewalls - Zone Alarm and Sysgate Personal Firewall are both free and both work well. </s>
+<s> WinXP SP2 - I have upgraded 5 PCs with no adverse reactions. </s>
+<s> I think some of the negative press comes from users not understanding the need to reconfig the new Windows Firewall (which is by default turned on) to allow certain applications to pass through. </s>
+<s> You have to do this with every firewall. </s>
+<s> ZA and SPF just make this easier by popping up messages with every attempt by programs to access the internet. </s>
+<s> Windows Firewall just prevents access and you have to know enough to reconfig access. </s>
+<s> Hope all this helps. </s>
+<s> When talking security WAP= WiFi Protocol Access (WPA) encryption. </s>
+<s> The latest firmware for the Linksys G Router lets you choose this protocl instead of WEP </s>
+<s> CALL THE HELP DESK FOR LINKSY AT 1800 326 7114 AND THEY WILL WALK YOU THROUGH IT, FREE OF CHARGE </s>

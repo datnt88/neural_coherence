@@ -1,0 +1,86 @@
+<s> I would like to wirelessly bridge 2 or 3 wired switches/hubs, plus have normal wireless access. </s>
+<s> (New house, and I don't want to snake wires between floors.) </s>
+<s> I have a large collection of hubs, wired and wireless routers and a wireless access points, but no &quot;bridge&quot; (they are never on sale). </s>
+<s> Can I get this project done with what I have? </s>
+<s> And if so, how? </s>
+<s> Will I have to utilize more than one channel? </s>
+<s> Different network names? </s>
+<s> Help! </s>
+<s> What you want to accomplished? </s>
+<s> How many PC, you are talking about? </s>
+<s> How many wireless router you have? </s>
+<s> In general, you just put everything together in one place.. and connect using wireless. </s>
+<s> Place one wireless router in other location... configured it as a different wireless accesspoint. </s>
+<s> using different channel, different SSID name, WPA/WEP and password. </s>
+<s> Connect your PC's to those Switches and to the router (hardwired) Or get a wireless network adapter (they are on sale too).. for all the PC's or laptop you have.. </s>
+<s> I don't think you can connect your switches and hub wirelessly... </s>
+<s> I need a wireless bridge because I have a few network appliances that cannot use wireless in that fashion(like a wired network camera). </s>
+<s> I have four or five wireless routers (all are configurable as access points, also), plus one regular access point. </s>
+<s> Also, I have a few wired routers and a few switches/hubs. </s>
+<s> Just no bridge. </s>
+<s> Also, I do not want to use a wireless-equipped computer as my bridge, which I have heard of. </s>
+<s> Mainly, I just want to use a wired network camera with as little equipment as possible (camera, hub, bridge) to watch over my baby's room. </s>
+<s> can you list all the wireless routers, access points, switch, hub here so i can see if your equipments can do what you want? </s>
+<s> Belkin 54g access point; Belkin 802.11 router; Motorola 54g access point; Netgear 802.11 router; Belkin wired router; Netgear wired router; no-name switches and hubs. </s>
+<s> Offhand, I don't know the exact product numbers of all of them, but these companies usually only have one product in each category - nothing is more than a few years old. </s>
+<s> I'm positive that the Belkin and Motorola wireless routers are configurable as access points, since they have that option right there on their HTML-based setup dialogs. </s>
+<s> The Netgear, I'm not so sure about, and I haven't played with that one in a year or so. </s>
+<s> Since i dont know the exact model that you have, i'll have to assume a few facts here. </s>
+<s> Base on your information, you can use 2 access points as bridge (assuming the belkin 54g ap and the motorola 54g ap are the model i saw on the web). </s>
+<s> And from there, you can setup the remaining 802.11 routers as the wirless ap for your laptop computer(s) (one on each side of the bridge). </s>
+<s> Make sure you use different SSID and channel for the bridges and Access Points. </s>
+<s> For example: Belkin 54g access point, SSID=bridge_ID, channel=11 Motorola 54g access point, SSID=bridge_ID, channel=11 Belkin 802.11, SSID=client_ID, channel=6 netgear 802.11, SSID=client_ID, channel=6 the belkin 54g will connect with the belkin 802.11 via wire and the same goes for the Motorola 54g and netgear. </s>
+<s> Now you have 2 network that bridge together and still able to roam your laptop between 2 networks. </s>
+<s> Here is a PDF file so you can see how it work. </s>
+<s> http://www.speakeasy.net/~acheung/bridge_example.pdf Hope this will help. </s>
+<s> Thanks for all the help. </s>
+<s> I have successfully bridged two wired networks wirelessly, but I cheated - I bought a Belkin 54G wireless router ($20 after rebates) that had bridging capability built in. </s>
+<s> It only works together with the Belkin 54G access point, but the setup is fairly easy, and Belkin's owner's manual for the router is very good. </s>
+<s> I have been trying to do this bridge thing, on and off, for quite some time. </s>
+<s> To me, it seemed logical that if you had any old access point connected to your remote wired network, you should be able to make a wireless bridge between it and any wireless router. </s>
+<s> But apparently, this is not the case - or, if it can be done, it must take more networking expertise than the average guy has. </s>
+<s> The products that would do this easily (bridges and game adapters) were, and still are, expensive. </s>
+<s> Happily for us cheapskates, Belkin put this new feature into their routers, which you can always find for $20-$30. </s>
+<s> (Their access point also has a range expander mode, which replaces another notoriously expensive piece of equipment.) </s>
+<s> Setup: Cable modem---Belkin 54G wireless router &lt;-wireless-&gt; Belkin 54G wireless access point----Belkin wired router----computer. </s>
+<s> In your latest configuration.. you drop the Switch/Hub you have... and change it to a 'Router' Switch/Hub doesn't have the bridging capability(its only a simple connection devices) while Router is more advance device and can be bridge... </s>
+<s> I'm not sure I see the problem. </s>
+<s> There was always a wireless router at the front end (with the cable modem). </s>
+<s> On the back end (with the wireless access point), it should not matter if it is a switch, hub, or a router, should it? </s>
+<s> In fact, in their owner's manual, Belkin shows the access point being wired to a &quot;switch/hub&quot; on the back end. </s>
+<s> I think it may even be better, because you don't have to worry about configuring Router #2 so it does not interfere. </s>
+<s> Now that I have bought a few newer networking products, it seems that built-in bridging capability is a new feature that my old routers did not have. </s>
+<s> After getting some feedback from a few of these forums, I think there is the (mistaken?) </s>
+<s> belief out there, even among knowledgable people, that most or all wireless routers and access points can be easily configured into bridges. </s>
+<s> But I have never been able to make any of those suggestions work. </s>
+<s> That does not mean they are wrong, of course. </s>
+<s> But I think those solutions might be beyond the ken of 99% of the people who fiddle around with home networks. </s>
+<s> There are just too many configuration pitfalls that can stop these things from working. </s>
+<s> The newer router and access point have what I needed - a &quot;make a bridge&quot; button in their setup screens. </s>
+<s> I understand most of the logic in your diagram, but is it really necessary to have a router and a switch on both ends? </s>
+<s> Can't you still hook up your wired computers to the ports on the routers? </s>
+<s> Also, does Router #2 have to be configured so as not to interfere with the main router's function? </s>
+<s> Do you have to disable the DHCP function of router #2? </s>
+<s> Do you have to change the default local address? </s>
+<s> Can't you just use a switch in that position? </s>
+<s> Not necessary to have a switch on both ends as long as you have enought ports to use. </s>
+<s> But I placed the wireless router for you on both ends to allow your laptop (or any WiFi Devices) to roam between two location. </s>
+<s> Routing function should NOT be use on router #2 (WAN Port should not be plugged in at all). </s>
+<s> DHCP should be DISABLE. </s>
+<s> The purpose of wireless router #2 is to provide wirless access to your network for all your WiFi devices. </s>
+<s> That's what I thought. </s>
+<s> Actually, it's working right now, but the DHCP on router #2 is not disabled - for some reason, it did not work for me when I disabled it. </s>
+<s> What I did was manually change the default addresses on router #2 and the access point to 192.168.2.99 and .100 - all other settings are default, except WEP security, which matches router #1. </s>
+<s> I can't get my switch to work in that spot, either. </s>
+<s> That makes no sense to me, but this blind squirrel has found his nut, so that's OK. </s>
+<s> I'm not going to change it now that it's working, but I know it's not perfect. </s>
+<s> When router #2 and the access point are on, I can't log into router #1's configuration dialog. </s>
+<s> Turn them off, and I can. </s>
+<s> I just chalk that up to networking voodoo. </s>
+<s> are the same, the default is 192.168.1.1 (if I'm not mistaken) When both of them are ON, then you only have (#1) router available... To be able to access both router, change one of the router IP address to something different. </s>
+<s> As I wrote in my last message, I had changed the address of (wired) Router #2 to 192.168.2.100, and the access point to 192.168.2.99 - that is the strange thing. </s>
+<s> I checked it - with a wired connection into router #2 - and those addresses are correct. </s>
+<s> But turning them on somehow makes it impossible to log into router #1 at 192.168.2.1. </s>
+<s> A minor matter, since things work, but a mystery nonetheless. </s>
+<s> My main goal, accessing a (wired) network-addressable camera attached to (wired) router #2, works. </s>
+<s> Thanks again for your time. </s>

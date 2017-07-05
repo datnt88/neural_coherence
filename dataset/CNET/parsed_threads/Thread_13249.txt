@@ -1,0 +1,77 @@
+<s> One of my computers is a (hpmx70 with a lexmarkx6150 printer), the other computer on my wireless network is a (dell 8400 with a canon ip6000d printer). </s>
+<s> I can access the internet via each computers but cannot do any printer or file sharing. </s>
+<s> I have managed to make the printers (SHARED) on each computer, but when I run the (Add Printer Wizard) and browse for other printers on my network, the wizard cannot find any. </s>
+<s> All it finds is (Microsoft windows network). </s>
+<s> All firewall are off. </s>
+<s> Please help. </s>
+<s> thanks. </s>
+<s> whpoteat. </s>
+<s> I've found ZoneAlarm to have no true off setting. </s>
+<s> I've tested it in the off setting and it still was working. </s>
+<s> In this case I uninstall the firewall and try again. </s>
+<s> Bob </s>
+<s> Thanks for the reply, but I don't have (zonealarm) on my conputer. </s>
+<s> any other suggestion will be happily noted. </s>
+<s> I can't guess what firewall you have disabled. </s>
+<s> Best of luck, Bob </s>
+<s> What OS are you running on the PC with the shared printer? </s>
+<s> You might want to make sure the WORKGROUP name is the same on all your machines. </s>
+<s> This is an easy one to forget. </s>
+<s> Edward Fox </s>
+<s> Sorry,. </s>
+<s> Mcafee firewall. </s>
+<s> I an running windows XP, also the workgroup name is the same on both computers. </s>
+<s> I've disabled far too many and they all still work or can interfere. </s>
+<s> Except that MS XP one. </s>
+<s> Go figure. </s>
+<s> Sorry that I can't list all the names, but I shared the Zonealarm issue in hopes you can work with the clues. </s>
+<s> Cheers, Bob </s>
+<s> You said you were able to share the printers so... Go through the &quot;add printer wizard&quot; and add a network printer. </s>
+<s> For the printer name put the computer share name followed by the printer share name (e.g. </s>
+<s> \\my-computer\my-printer). </s>
+<s> Then point it to a print driver and !viola. </s>
+<s> You can also browse to the share and install it that way as well. </s>
+<s> The easiest way to do this is Start&gt;Run...in the Open box type in the computer name you are trying to connect to \\my-computer then click OK. </s>
+<s> The whack-whack bars are needed for the computer to understand you are looking for a network name. </s>
+<s> This should open the shares on the \\my-computer. </s>
+<s> You should notice the printer that you shared by the name you have given it. </s>
+<s> Double-click the printer and it should prompt you for installation. </s>
+<s> Hope this helps a bit. </s>
+<s> Edward Fox </s>
+<s> I had the same problem. </s>
+<s> Make sure you have a user account with permission granted that is the same name you use to sign in on the other computer. </s>
+<s> If your sign in name is John Smith, create a user account with that name on the other computer and grant full access. </s>
+<s> Worked for me. </s>
+<s> Good luck. </s>
+<s> How is the printer connected to the network? </s>
+<s> Is it connected to the main PC (the one with the router) or is it connected to an access point on the network? </s>
+<s> I don't think that a printer with a parallel connection to the main PC can print jobs from other PCs connected wirelessly. </s>
+<s> As far as I know, the printer must be on an access point which is part of the wireless network. </s>
+<s> Someone please correct me if I'm wrong because I had the same problem and was never able to share the printer with my wireless PCs. </s>
+<s> I currently have one PC connected via ethernet and I can print from that one. </s>
+<s> I have a computer with Windows XP. </s>
+<s> On line system is thru cable broadband and AOL. </s>
+<s> Also hooked up to a Linksys Wireless-G Broadband Router. </s>
+<s> The printer is a HP Desk Jet 932C. </s>
+<s> The other Computer is hooked up to Linksys Wireless-G Ntework Adapter with Windows Me. </s>
+<s> I am able to get on line thru both computers. </s>
+<s> The computer with windows XP and connected printer work fine. </s>
+<s> I have gone thru the steps outlined on another site for sharing printers but cannot get the Me computer to print to the printer attached to the xp computer. </s>
+<s> I would appreciate any help you can give me. </s>
+<s> I have the same problem. </s>
+<s> How do i set &quot;permission granted&quot; on my host computer and &quot;grant full access&quot; on my laptop which you mention? </s>
+<s> Thanks </s>
+<s> Do this on the host computer (computer that has printer directly connected to it) and all computers that wish to use that shared printer. </s>
+<s> http://ts.mcafeehelp.com/faq3.asp?docid=407002 (Follow the directions after &quot;Add a Trusted Network for the ICS client&quot;) Steps: Disable printer sharing on the host computer. </s>
+<s> Add the Trusted Network (trusted range of IP Addresses) to all computers. </s>
+<s> Share the printer. </s>
+<s> Restart all computers. </s>
+<s> Now, try to find the shared printer when you Add Printer to non-host computers. </s>
+<s> Regardless of whether the printer is SHARED (connected directly to a computer) or NETWORKED (connected directly to a switch, router, WAP, etc. </s>
+<s> ), the problem is usually a personal firewall issue (software on each computer). </s>
+<s> The firewalls need to permit the IP ADDRESSES of all computers, printers, and other devices that need talk to one another. </s>
+<s> The problem is that many don't even know that a firewall is running on their computers; and if they do know one is running, they have no idea that the firewall needs to be configured to permit such communication. </s>
+<s> Some newer firewalls autodetect the range of IP addresses of the local network and permit those by default. </s>
+<s> Other firewalls have to be told what specific IP addresses or range of IP addresses are permitted or to be trusted. </s>
+<s> * * * * * The computer that hosts a shared printer doesn't care (or even know) how other computers connect (wired or wireless) to the the network. </s>
+<s> Also, it doesn't matter if the printer is connected via parallel, USB, or other method. </s>

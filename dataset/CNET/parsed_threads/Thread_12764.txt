@@ -1,0 +1,34 @@
+<s> Hi -- I'm having some real problems with my Soundblaster PCI128 - I had problems installing it initially, and it was all down to the PCI Legacy Device that it was trying to install. </s>
+<s> Eventually, it just didn't install the device, and, since I don't use it, it wasn't missed. </s>
+<s> I rejigged the guts of my PC yesterday, and moved the soundcard to a different PCI slot. </s>
+<s> It redetected on Windows load, and it locks up -mouse, keyboard - everything - as soon as it detects the 'Soundblaster PCI128 Legact device' - I've removed all references in Device manager and rebooted - same problem. </s>
+<s> Any ideas? </s>
+<s> Try booting up into safemode and go back to Device Mgr. </s>
+<s> Go to the Sound category, click the plus mark if it's not already opened up, right click the Legacy Device, and choose Properties. </s>
+<s> Once there, look for the box that says Disable In All Hardware Profiles and put a check mark in it. </s>
+<s> Click OK, and then reboot to see if the problem persists or if it fixes it. </s>
+<s> TONI </s>
+<s> Thanks for the advice, but I already removed the legacy device in Safe Mode, so it no longer exists. </s>
+<s> I did however disable the soundblaster's main driver in Safe Mode, then rebooted, and attempted to enable it. </s>
+<s> It detected the legacy device again, and hung the system. </s>
+<s> Any other ideas? </s>
+<s> Thanks again. </s>
+<s> I've seen that hangup when the motherboard drivers were not installed. </s>
+<s> When you dive into such issues, the make/model of the motherboard is important. </s>
+<s> Bob </s>
+<s> Hi - It's an ASROCK K7S8x Does that help, or would you need more? </s>
+<s> All I can do is offer you clues. </s>
+<s> I noted it, so what do you do next? </s>
+<s> Bob </s>
+<s> You don't mention the version of Windows, without that it really is difficult to assist anyone. </s>
+<s> 1. </s>
+<s> You did not mention the Version of Windows. </s>
+<s> If it is WindowsXP then it normally detects & installs the Card (Eacept if it is not XP compatible certified in which case you need to have proper drivers) while Win9X needs the proper drivers. </s>
+<s> 2. </s>
+<s> The version & model of the card? </s>
+<s> There are quite a number of models & Vers of this name. </s>
+<s> Vibra, WDM etc. </s>
+<s> 3. </s>
+<s> Drivers can be found @ www.driverguide.com which needs registration or the manufacturers' sites: Creative Creative Technology Ltd. </s>
+<s> Product &lt; http://www.soundblaster.com/products/audigy2 &gt; Driver &lt; http://www.soundblaster.com/support/drivers &gt; or ESS ESS Technology, Inc. </s>
+<s> Product &lt; http://www.esstech.com/products/products.shtm &gt; Driver &lt; http://www.esstech.com/techsupp/drivers.shtm &gt; Files are: v128w9x.exe or ct5880_9x.exe or es1373_9x.exe es1373_wdm.exe for Windows 9X, & SBPCI128Setupus_w2k.exe for win2000, </s>
