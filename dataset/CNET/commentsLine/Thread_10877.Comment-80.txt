@@ -1,9 +1,0 @@
-i should've mentioned, if you have two or more physical drives installed in your computer, you might want to move the page/swap/hiber files to a partition residing on a different drive.
-this will alleviate your concern about wearing out the ssd with paging activity.
-it should also help balance the workload and improve performance on systems without any ssd.
-particularly if the different drive you specify is also on a different channel.
-this will save valuable storage space on your ssd as well, since these files can be quite large.
-look at your drive's hardware properties, and the sata port layout for your motherboard.
-the bios settings you can access during boot will also be most helpful and show you the drive and channel information.
-you may find that you would have to plug one of your drives into a different sata port on the motherboard to get them to be on separate bus channels, but it is all easy to do.
-r.

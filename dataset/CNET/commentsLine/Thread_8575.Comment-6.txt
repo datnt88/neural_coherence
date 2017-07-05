@@ -1,5 +1,0 @@
-you need to download the firmware from netgear and save it someplace like c:\temp wnr834b_fw1035.img is the actual file name that i downloaded from netgear.
-1. change your pcs ip address to 192.168.1.10, subnet mask 255.255.255.0, gateway 192.168.1.1, preferred dns 192.168.1.1 2. from the command prompt ''cd\temp'' then from c:\temp&gt; type ''tftp -i 192.168.1.1 put wnr834b_fw1035.img'' the netgear documentation states it will take 3 minutes but just wait for the lights to look normal.
-if it takes 3 minutes it is beyond fried.
-3. if it works, change your pcs ip settings back to obtain.
-i hope this helps.

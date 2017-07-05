@@ -1,8 +1,0 @@
-- disconnect the router (repeater) from the 1st router and power cycle.
-- connect a computer to a lan port on the router (repeater) in order to configure it.
-if you can't log in, you may need to reset to factory defaults.
-- under &quot;advanced&quot; and &quot;lan setup&quot;, uncheck &quot;use router as dhcp server&quot;.
-then select &quot;apply&quot; and reset router.
-- connect the lan port from the first router to a lan port on the second router (don't use the wan or internet port).
-power cycle both devices.
-- you should be able to reconnect all devices with no ip conflict, since all devices will get an ip address via dhcp from the first router.

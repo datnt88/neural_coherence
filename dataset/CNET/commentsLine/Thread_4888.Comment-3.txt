@@ -1,8 +1,0 @@
-most likely your 320gb drives are striped (raid-0) into a single device.
-if so, you'd have to backup/restore the entire device since any changes will reinitialize (erase) the existing drives.
-also, most raid-0 implementations require drives of the same size or they will only use the size of the smallest drive.
-so adding a 1tb drive would result in a 900+gb raid device with 600+gb inaccessible on the 1tb drive.
-intel's matrix raid would allow you to access the 'leftover' space.
-if you're using jbod, then you could add the 1tb drive but the question would be 'why'?
-it would offer no performance benefit and unless you've filled the existing drives it wouldn't be used.
-you'd be better off using the 1tb drive seperately and doing some spindle management (moving apps/data to different drives to avoid contention).

@@ -1,5 +1,0 @@
-typically non-volatileram is used to store the bios code itself, as well as your bios settings.
-checking nvram generally consists of running a checksum on the nvram contents to determine if the contents have changed.
-i have no idea why your bios is running a self check now where it seems it hasn't before, but it certainly should be harmless to let it run.
-if the nvram is being held by the battery, it may be that your battery is low.
-(although that is not usually the kind of nvram used for the bios)

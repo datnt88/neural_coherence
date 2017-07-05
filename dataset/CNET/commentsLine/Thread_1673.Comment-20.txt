@@ -1,2 +1,0 @@
-i finally solved the issue... it wasn't the vpn at all...at the main office there is not a dhcp.
-because of that the pc's get there own ip's... the problem came in when all the pc's in the office were pulling the wrong default gateway from the network making everything unaccessible...i just had to change it to manually get the correct default gateway and everything works... the part that stumped me was that there was an already existing gateway that was working...no one knows how that was working

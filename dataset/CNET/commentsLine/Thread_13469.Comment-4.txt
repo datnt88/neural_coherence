@@ -1,6 +1,0 @@
-svhost.exe is a helper app which is called up by some other application.
-since killing svchost is incorrect from the gitgo, it would be proper for all versions of xp to logout or reboot if you killed it.
-do a deeper inspection with the command line tool called tasklist (i won't write deeply about this since you can research with google.com.)
-next look at the output of tasklist /svc to see what called svchost.
-nothing appears amiss here that a little more knowledge can't cure.
-bob

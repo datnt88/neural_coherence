@@ -1,9 +1,0 @@
-go into the status tab on the router and release then renew the dhcp, and see if you can access the net again.
-comcast may have gliched the cable signals, and caused your modem to lose the ip address it was using.
-comcast makes the modem get a new ip and gateway address on their end of the system.
-but until the router does the approx.
-weekly release/renew process, it will continue to use the 'old' ip addresses that you 'use to' have.
-so that causes the router to stop working, but when you hook a computer straight up to the modem it works because the modem is using the new ip addresses.
-while the router is still using the old 'released/invalid' ip address it has stored in its memory.
-so your router is trying to use ip addresses that are not 'valid' for your modems access settings.
-(on comcasts end).

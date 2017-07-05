@@ -1,5 +1,0 @@
-some earlier versions of partition magic may not handle the newest version of ntfs partitions used by xp.
-why are you wanting to partition?
-if it is for performance or better disk utilization, don't bother.
-ntfs is inherently more efficient than the older fat or fat32 file systems, and unlike the older fat files, ntfs does not benefit from smaller partition sizes.
-if you are partitioning so you can boot multiple oss, then partition magic with boot magic would be my first recommendation, 2nd would be partition commander with boot commander - either way, use the latest version.

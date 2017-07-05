@@ -1,7 +1,0 @@
-no, you can't use that difference to free up space.
-this has to do with the minimum size allocated for any piece of data.
-most files require several allocation units but some of these units are not completely used.
-consider that you needed 12 ounces of water but your cups only held 10 ounces.
-you'd need 2 cups to hold the water.
-one would be full and the other have only 2 ounces if done the way data is stored on a disk.
-so, the size is 20 but size in cups only 12.

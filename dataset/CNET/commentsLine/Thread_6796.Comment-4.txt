@@ -1,2 +1,0 @@
-afetr several hours of effort i had discovered that the zip drive driver is not authorised / signed by ms so to resolve.... you can use run followed from &quot;cmd&quot; then type ..... bcdedit /set loadoptions disable_integrity_checks then reboot the read /write and eject functions should then work as on my system watch for any ms updates kb 932596 and kb938979 which are integrity updates will counteract this adjustment and should be removed first.
-anyone please advise if ok for you

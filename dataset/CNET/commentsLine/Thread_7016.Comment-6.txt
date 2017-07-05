@@ -1,7 +1,0 @@
-i have an amazon instance that has public ip eg: 10.25.251.38 and is also connected to internal network (10.1.50.xxx) with bunch of other amazon instances running ubuntu that have a bi web application installed.
-they are also on the same internal network different subnet (10.1.51.xxx).
-i can start and stop those instances from web server (10.25.251.38) using amazon aws sdk.
-now the tricky part: i also want to load those instances up directly in same web server.
-best course of action would be to use in iframe, but then users can easily see the address where iframe is pointing to and i want to force users to use my web app only.
-i agree with bob on the subject of openness vs closeness of html, but in this particular case, i would prefer to limit access as much as possible to internal network.
-hope this clarifies the question and results in an awesome response thank you guys, mario

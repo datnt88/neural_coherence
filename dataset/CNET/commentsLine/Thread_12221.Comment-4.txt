@@ -1,9 +1,0 @@
-if you want to be able to setup access and permissions for a shared folder as if you and the remote computer were on your home network, use hamachi, a free, easy-to-install software-only vpn solution.
-hamachi ( the endorsement of well-known security expert steve gibson (see  ) if you are sharing large files, and you want to have access to them even if the remote system is turned off, you'll want a solution that duplicates the files on each machine (to avoid waits when you access them) and keeps those duplicates synchronized.
-use: folderhare ( acquired by microsoft).
-note that a foldershared folder allows you to set very basic permissions, unlike hamacchi.
-for example, if you are sharing a folder &quot;folder1&quot; containing files &quot;a,b,c&quot; to users x,y,and z. hamacchi will allow you to use standard windows file sharing to: allow user x to only see a,b,and c allow user y to see and change all the files.
-allow user z to see or change file a and b, but only see file c. in contrast, when you share the folder through foldershare, if you permit a user to change any file in the folder, you must grant him the ability to change all of the files in the folder.
-thux, you can allow user x to only see a,b,and c allow user y to see and change all the files.
-allow user z to see or change file a and b, but you cannot prohibit him from changing c. finally, when a file has been changed on a system that has been offline (and therefore not immediately synchronized), you can have version conflicts which will be flagged to you.
-this is not the case with hamachi, where one computer is accessing the file across the network on another computer.

@@ -1,9 +1,0 @@
-ordinate pin-1 to pin-1, striped side of hd cable??
-?then you need to tell the system bios, that no hd is present for the scsi to be used, *if* no other hd is present, otherwise leave as is for the current hds.
-next, address the scsi hd as #1 on its jumpers or what is called #1, but not #0, if it has it.
-you will need a &quot;terminator plug&quot; to either place on the last device of the scsi chain or on the hd itself, provided it has a place for it.
-further info should be gotten from the scsi card maker/vendor as to how to use thier device.
-quatum is now owned by the maxtor hd makers, check there and look-up your model hd.
-the above info is generic in terms, but it should get you in the right direction, i'm sure it a simple step overlooked.
-understand also, the hd has to readidied for use once acknowleged, etc., format, os loaded if its the primary loading hd.
-good luck -----willy

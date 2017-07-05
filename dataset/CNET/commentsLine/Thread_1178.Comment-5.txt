@@ -1,5 +1,0 @@
-the reason you would need a static ip address for a networked printer is because each client that prints to it needs a specific address to send their print jobs.
-dynamic addressing, which can change at each power cycle of the device or router, would defeat this.
-any other machines on the network can stick with dynamic addressing.
-so you would use the software that comes with the bizhub to establish a static ip for it, pointing back to the router's ip as the default gateway.
-the rest (adding the printer to each pc) should be explained in the manual.

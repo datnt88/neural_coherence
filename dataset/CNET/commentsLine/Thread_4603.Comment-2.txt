@@ -1,5 +1,0 @@
-what os are you using?
-windows 7 has stuff scheduled to run automatically, like disk defragmentation and updates.
-have a look at task scheduler and see if there are things there scheduled to run in the middle of the night.
-also, if you open a command prompt to run as administrator and type in powercfg - lastwake it might tell you what woke your computer (mine always says it doesn't know, but theoretically it should tell you) or if you put in powercfg -waketimers it should tell you what is scheduled to wake your computer up.
-i'm no computer expert, but try googling info about the task scheduler or the powercfg command and it might help you find out what's going on.

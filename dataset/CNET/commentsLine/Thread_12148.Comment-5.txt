@@ -1,7 +1,0 @@
-thanks, kees, i read:  then i realized that while i had added a local port to the xp's local printer (there is no printer attached locally, though, as the local installation [add printer on printers and faxes window] was originally done just to get the driver on the xp system and accessible), i had called the port printer_name instead of //server_name/printer_name.
-i got the server name and printer name from my network places, microsoft windows network.
-the server is my vista x64 and the printer is the one attached to the vista machine.
-i would guess that no ports are needed on the vista printer unless i was trying to connect to this machine.
-adding the port to the local printer installation on the client-side local printer (despite the fact that there is no attached printer to the client xp x86 machine) with the correct syntax successfully resolved this issue.
-it should be noted that the box next to the added port should be checked and that a box for spooling below the listed ports must be checked to have more than one port box checked at a time.
-thank you very much for your help.

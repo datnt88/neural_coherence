@@ -1,7 +1,0 @@
-yes, the wan port on router 2 is unused.
-router 1 is connected to one of the lan ports on router 2. this is how various articles described this setup, and it works.
-to be precise, the articles also said that i had to set the ip address of router 2 to something outside router 1's range, and i had to disable dhcp management on router 2. i did not do either of those, and everything works.
-i won't worry about it until i encounter problems.
-anyway i solved my problem.
-like a bonehead, i had the lan connection disabled on my computer.
-when i re-enabled it, i was then able to log in to router 2 and configure it.

@@ -1,6 +1,0 @@
-let's remind ourselves that in public key encryption, the encryption keys are never exchanged directly between the parties.
-the keys are generated with a combination of information that is indeed exchanged plus information that is generated locally and kept secret by each party.
-so even if a &quot;man in the middle&quot; attack sniffs out the info that is traded between the two parties, the keys still cannot be guessed because the eavesdropper cannot determine what info is being held back in secret.
-that's the miraculous part of the whole affair: that locally-held secret info, together with the info exchanged, can still generate identical keys.
-of course if someone hacks your machine and installs a keystroke sniffer, then you're in trouble.
-but let's not forget how public-key encryption works: that's the standard for secure browsing.

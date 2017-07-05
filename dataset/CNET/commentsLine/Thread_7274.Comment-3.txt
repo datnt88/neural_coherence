@@ -1,6 +1,0 @@
-those are two things to consider.
-if there's a way for you to test that card in another pc- that would eliminate one variable.
-another possibility would be a conflict with another device.
-go into device manager & see what irq is assigned by going to view&gt;devices by resource.
-sometimes changing slots or even removing the one pci device that's sharing the irq, installing your card, then reinstalling the first device- can get it recognized properly (shutting down & restarting for each).
-tracy

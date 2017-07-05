@@ -1,7 +1,0 @@
-don't know if this problem is old news, but i had the same problem today and discovered very simple explanation.
-my dell truemobile wireless utility showed multiple wireless networks, but my windows wireless network connection utility showed none.
-so my wireless card seemed to be working fine, except that i could not sign onto any networks, and ipconfig showed &quot;media disconnected&quot;.
-after updating the driver, deleting from the device manager and rebooting, and several others of the &quot;usual&quot; fixes, i discovered that the dell wireless utility was checked to &quot;let this tool manage your wireless settings&quot;.
-turns out the windows utility was also checked to be in control.
-i unchecked the dell utility and everything immediately worked fine.
-a quick and logical fix that should be checked before (like me) you try all the other fixes.

@@ -1,6 +1,0 @@
-mostly it is a router feature and is platform independent.
-depend on the exact router model, some routers have this in the base and some you need firewall features.
-lets say your 4 example addresses are actually public routable ip the normal way to do this is to put in firewall rules or access lists that says these 4 addresses can only send or receive traffic from each other.
-now if you are using private addresses and nating them it is a little different.
-you of course could just prevent these addresses from being natted.
-it just makes the firewall rules a little more tricky because you have to worry about both the real and the virtual addresses.

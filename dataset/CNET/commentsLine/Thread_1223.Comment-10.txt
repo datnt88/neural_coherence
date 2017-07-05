@@ -1,9 +1,0 @@
-take the hd out of the chain of events by either the bios or removing the power from the drive.
-this in effect says you can only boot from your floppy.
-test the floppy by using a boot disk (98 bootdisk?)
-this will indicate the hd is inoperative because the volumn serial no.
-(vsn) has indicated to the operating system that something is wrong with the installation.
-the vsn is one of the ten or so items that if change can cause the disk not to boot and i suspect that it locks all other boot paths (just my hunch).
-the vsn is recorded on the hd's first sector or boot sector.
-the only way around this is to rewrite the exact information that was recorded in the windows installation back to the first sector.
-this is why i make an exact clone of my disk(two hds) and remove it and place it on standby in case i get a virus or any other disaster that will alter this boot disk information (this essentially is what happens when you try and take one hd from one machine to another machine along with ten or more other secret recorded footprints.

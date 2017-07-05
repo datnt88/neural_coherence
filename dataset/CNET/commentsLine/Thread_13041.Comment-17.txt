@@ -1,3 +1,0 @@
-i found out that the wlan autoconfig service isnt working!
-i think that this may be the problem so i tried to start the service but i get the error that says &quot;windows couldnt start wlan autoconfig on local computer.
-error 1068: the dependency service or group failed to start&quot; someone suggested to change the registry value of [hkey_local_machine\system\currentcontrolset\services\ndisuio]&quot;start&quot; to 2 which i also did and restarted but still nothings changed.. does anyone know how to make it so i can start the wlan autoconfig service?

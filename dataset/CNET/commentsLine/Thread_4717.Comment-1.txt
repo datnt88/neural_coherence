@@ -1,9 +1,0 @@
-hello, i need to find a way to password-protect an external hard drive in a way that is cross-platform compatible, and find a way to add meta data or tags to the files on that hard drive that are also cross-platform searchable.
-i have been digging around the internet looking for a solution for a day now, here's what i've tried and the issues i've run into: 1) truecrypt comes up as a suggestion a lot.
-nice because it's cross-platform compatible (downside being that it must be installed on any machine you want to access files from).
-the downside is that there is some bug between windows search and truecrypt such that files on the encrypted drive don't show up in search results (i did find a thread somewhere with a very complicated workaround for this, but i'd rather avoid it).
-2) folder lock - nice because it allows you to just password protect without encryption (i've seen a bunch of threads that say &quot;but you really need encryption for security!&quot; - i'm not concerned about anyone attempting to hack or steal the data, the need for a password is a formality i have to meet, don't need to go into the details), and it runs from a .exe stored on the external drive, so you do not need folder lock installed on a machine to access the file.
-the problem here is that mac's don't run .exes so there goes my cross-platform compatibility.
-while i'm at it, i need some way to add these tags to video files - would be great if they would then show up in the native mac and windows os search applications without some third party software.
-in windows i can right click a media file, go to properties -&gt; details and add tags that are recognized in windows search (unless they're on an encrypted truecrypt drive), but i don't believe they show up in mac.
-any suggested solutions (preferably something simple, like another program besides truecrypt or folder lock that will do all this and not a complicated workaround) would be greatly appreciated.

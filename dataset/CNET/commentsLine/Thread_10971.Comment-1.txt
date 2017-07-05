@@ -1,8 +1,0 @@
-this is on even the netgear support people can't solve.
-i cannot map network drives or use intranet or remote desktop for resources behind my company''s firewall using cisco vpn client 4.6.04.0043 and a netgear wgr614v6 wireless router.
-vpn connection works if i bypass the router and connect directly to dsl modem.
-here is what i''ve already tried: turned off firewall on my laptop (running windows xp sp2) here''s what i''ve tried so far on my router and nothing has worked: used port forwarding for udp ports 50, 51, 500, 4001 and 1723 for my laptops ip disabled the spi firewall checked &quot;respond to ping on internet port&quot; upgraded firmware to v1.0.11_1.0.7na disabled access control disabled all security (normally wpa-psk) set mtu to 1300 on both cicso vpn client and wgr615 set mtu to 1430 on both cisco vpn client adn wgr615 added laptop''s ip to dmz server tried both ipsec over udp and ipsec over tcp on cisco vpn client reset router to factory defaults still no go on vpn.
-can someone suggest something else for this router other than what we already know which is this vpn client and router combination are incompatable.
-perhaps a setting in the laptops intel pro/wireless 2200 that i can tweak?
-one post i read said the user tries a cisco systems aironet pci wireless lan adapter and got it to work.
-thanks

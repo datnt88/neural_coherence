@@ -1,7 +1,0 @@
-if this stuff was engineered to be user-friendly, a router would support a list of blacklisted and whitelisted domain names that the user could type in, and there'd be a big friendly button called something like &quot;refresh&quot;.
-the user would press the &quot;refresh&quot; button when they've finished compiling the list (or just click &quot;ok&quot; or hit the return key), and the router would scurry off and run a set of dns lookups to build a corresponding ip-based table somewhere in the background that the user doesn't need to see.
-that way, if a blocked or allowed site changed dns address, and something stopped working, all the user would have to do is open and close the url list, or click the refresh button again, and the background table would be updated with the new addresses.
-otherwise, if you had a list of a hundred whitelisted addresses, and one stopped working, what would you be expected to do - wade through a sea of anonymous looking ip addresses manually trying each one in turn?
-write your own script?
-this is a simple and common need: if a parent or a small business wants to set up a blacklist/whitelist system, they shouldn't need a degree in computer science and scripting experience.
-and if it's really true that nobody makes a router or software that can hang off a router to do this, then that's says something slightly damning about the industry.

@@ -1,5 +1,0 @@
-after more coffee, it occurred to me that only 1/2 or less of the client machines and just one dsl/cable needs work.
-1. select which router has the most users or which one you want to set to dhcp.
-2. disable dhcp in the router that you will not want dhcp.
-3. alter the router that remains a dhcp server to hand out the netmask 255.255.0.0 4. on the lan with no dhcp, change all the clients to static ip addressing using what they got as a template and change the netmask to 255.255.0.0 5. connect the two lans.
-bob

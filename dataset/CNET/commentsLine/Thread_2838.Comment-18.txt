@@ -1,9 +1,0 @@
-the problem is the external case.
-if you check whatever passed for documentation included in the external box's packaging, i'll wager it has some information on how that case handles drives and partitions.
-the specific problem you're experiencing here is the bios chip that's built into the external case that translates pata or sata to usb.
-many cheaper external cases don't support large drives very well, if at all.
-case in point: a few years back, i bought an external drive box for a laptop drive i had laying around collecting dust.
-the drive box's rather sparse information sheet said that it had to be formatted in a specific way - no partition could be over 20 gb in size and had to be formatted with fat32 or the whole thing would not work.
-the drive was 40 gb - so the only way to make it work was to create two 20 gb partitions and format them to fat32.
-i'll wager your external case has similar limitations.
-if you still want to use your 400 gb drive as an external drive, you probably will want to do a bit of research and find another external case that will specifically support huge partitions.

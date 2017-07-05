@@ -1,9 +1,0 @@
-a partition is an area of the physical disk dedicated to an operating system according to the file system/ hierarchy.
-what the previous person stated isn't true.
-windows uses a style of partitioning that is similar to the default bsd style of &quot;slicing a disk.&quot; you are not creating partitions, you are creating dedicated areas within the partition.
-there is no c or d drives in the layout of the master boot record.
-you only have four primary; and, if you want more then you must only create three primary and have number four separated into logical sections.
-you cannot resize a partition from within itself and you cannot do such without permissions as the root user.
-you view the partitions with fdisk.
-if you want to resize, then use an external device such as a live cd or a usb installed os.
-i suggest knoppix.

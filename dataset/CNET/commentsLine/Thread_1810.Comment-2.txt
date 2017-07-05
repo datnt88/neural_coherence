@@ -1,6 +1,0 @@
-hello, since the 192.168 ip scheme is non routable i don't know if this will work but its worth a shot.
-1. connect your router's internet port to the hotel's network.
-verify the internet port light showing a physical connection.
-2. connect to your router (lan side) and login.
-3. set the internet port to static and enter the info as given by the hotel (verify that it is a class c subnet) 4. modify the lan side of the router to a different subnet; ex: hotel ip 192.168.1.18 class c router lan ip range 192.168.2.1 class c 5. save this configuration and test.
-let me know if this works

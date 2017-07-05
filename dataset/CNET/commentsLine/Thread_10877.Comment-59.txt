@@ -1,7 +1,0 @@
-when you install an ssd into an existing system, there are bios settings (for example ahci), that need to be changed to take advantage of the ssd capabilities.
-note, there are a few good &quot;how-to&quot; web pages that detail the settings needed, both in a new setup and in an existing set up.
-also note: ahci must be set for ssd to be fully utilized, and this is not done automatically in an existing set up.
-also, of course there are settings in windows that also need to be changed, for example the page file, and how the os &quot;indexes&quot; its files.
-there is no real need to index or have a page/swap file, because access is already as fast or faster than the equivalent spinning drive.
-for me personally, i'd install a new ssd and reinstall the os.
-newer motherboards will adjust accordingly, as well when the os is installed, will make the appropriate ahci settings, trim and so forth.

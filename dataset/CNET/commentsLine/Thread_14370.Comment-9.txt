@@ -1,7 +1,0 @@
-the bx chipset, only supports 256mb modules, that are electrically _double banked.
-these use one less address line, and two 'cas' lines to talk to the two banks.
-unfortunately a lot of modern 256mb modules (as chip sizes have got larger), are 'single banked', requiring one more address line, but only a single cas line.
-this is a limit of the bx chipset (applies to all boards using these), and suppliers like crucial, have a different part number for the double banked modules, which will automatically be selected, if you specify the motherboard when using crucial's memory selector.
-the issue extends to other boards and chipsets as well.
-no bios upgrade can fix this!
-bob

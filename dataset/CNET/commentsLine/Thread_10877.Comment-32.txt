@@ -1,8 +1,0 @@
-you can use the junction command to effectively relocate any directory on one drive to any directory on a different drive.
-for example you want to keep your music on a different drive.
-say the normal path might be c:\users\whomever\music and you want to actually store your music on a drive assigned letter m. simply follow these steps... go to drive m with m: cd \ mkdir music then run the following command junction c:\users\whomever\music m:\music now copy your music to m:\music whenever an application including windows itself looks at c:\users\whomever\music it will look at m:\music and it will be transparent that the data physically resides somewhere else.
-dir c:\users\whomever\music\*.
-* returns the same as dir m:\music\*.
-* here is the hepl usage verbiage.
-p:\&gt;junction /?
-junction v1.05 - windows junction creator and reparse point viewer copyright (c) 2000-2007 mark russinovich systems internals -  the first usage is for displaying reparse point information, and the second usage is for creating or deleting a ntfs junction point: usage: junction [-s] [-q] &lt;file or directory&gt; -q don't print error messages (quiet) -s recurse subdirectories usage: junction [-d] &lt;junction directory&gt; [&lt;junction target&gt;] -d delete the specified junction example: junction d:\link c:\winnt

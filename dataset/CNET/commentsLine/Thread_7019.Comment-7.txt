@@ -1,6 +1,0 @@
-combining both raid formats means extra work for the controller and some controllers are very efficient while others are not.
-you should check benchmarks for whichever one you're using/planning to use.
-personally, i don't think its neccessary to mirror everything.
-a mirror + a stripe set is a better choice.
-2 mirrored drives for important data and os, and 2 striped drives for pagefile, temp files, scratch area (and anything else that can be reconstructed if lost) will outperform a single raptor.
-all you'll need to add is a good backup strategy.

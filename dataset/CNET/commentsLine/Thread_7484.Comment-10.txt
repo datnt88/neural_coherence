@@ -1,8 +1,0 @@
-that was his original point that he need a n router and a g router that he could not run both on the same device.
-those instructions for the bridge mode are pretty close.
-in effect you just turn it on bridge mode.
-you want your n router to do nothing other than convert the wireless signal to ethernet and pass it to your current internet router.
-the issue i had doing this was it took me a while to figure out how to get back into the router.
-your n router will learn a management address from your g router over the copper.
-make sure you set the n router to be able to be managed from the wan port which is normally disabled.
-they you will need to either dig though the dhcp table on the g router and find the address you assigned to the n router or just guess until you get the address.

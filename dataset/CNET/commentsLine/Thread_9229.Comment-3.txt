@@ -1,6 +1,0 @@
-the pci bus has made this easier than it used to be, because it allows multiple vga cards to co-exist in one machine.
-you need a special driver to let windows see them as a single display, and since the drivers come from the video card's manufacturer, that means that all the cards must be identical (the matrox millenium has been mentioned as one, but there may be others).
-all of the cards except one must have vga emulation turned off (the system needs one vga card to boot, but more than one would cause conflicts).
-there are also video cards that have more than one vga chipset and come with special drivers that make them behave like a single vga card, but they may be expensive and hard to find.
-brands that have been mentioned include stb, colorgraphics, and appian graphics.
-check card models listed in the chipsets list (distributed with this faq) for multiple (usually 2 or 4) monitor support.

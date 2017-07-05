@@ -1,5 +1,0 @@
-the simplist solution is to just drop dhcp and hardcode the ip address all around.
-use the same ip, gateway, dns entries and change the netmask to 255.255.0.0 and it will work fine with internet traffic still going to each respective dsl and cable box.
-if this isn't a solution for you, then you will have loads of fun with net route commands and another (real) router.
-but i won't be doing that because it's too much for this small space.
-bob

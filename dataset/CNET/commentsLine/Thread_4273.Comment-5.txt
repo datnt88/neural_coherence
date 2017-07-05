@@ -1,4 +1,0 @@
-mobo's/chipsets that allow the fsb and the memory bus run asynchronously.
-the system processing is slower [maybe not noticeably] becase when the &quot;next&quot; clock arrives for the fs bus, the data is not avauble until the next clock of the memory bus.
-the northbridge compensates by introducing &quot;wait&quot; states.
-these are states where the memory process has to wait for a clock time very frequently, resulting in slower speed overall..

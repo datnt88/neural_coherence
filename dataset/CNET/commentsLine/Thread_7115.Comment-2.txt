@@ -1,9 +1,0 @@
-you do not buy a cable modem, you let your connection provider supply it and connect your router to that.
-you need to set fixed ip's on the 2 desktops and the laptop and see if you can ping the ip of the other systems while connected.
-if you can ping then you can get the internet working, file sharing will also be possible.
-when you connect up to the router select start/run type cmd and hit enter or ok. then type ipconfig on each system.
-what ip does it show your network card using on each system?
-you should get a different ip for each system, in the 192.168.x.x range.
-if you don't get that then the router is not handing out addresses.
-you can hard code the address by going to tcp/ip properties for the network connection and specifying the ip.
-once you do that you can then ping the ip of the other system to see if you can see it on the network.
