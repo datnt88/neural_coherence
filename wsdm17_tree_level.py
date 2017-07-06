@@ -16,6 +16,7 @@ import optparse
 import sys
 
 
+
 def ranking_loss(y_true, y_pred):
     pos = y_pred[:,0]
     neg = y_pred[:,1]
@@ -53,16 +54,16 @@ if __name__ == '__main__':
 
         data_dir        = "./final_data/"
         ,log_file       = "log"
-        ,model_dir      = "./wsdm17/"
+        ,model_dir      = "./saved_task_X_cutOFF6/"
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
-        ,minibatch_size = 64
+        ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
         ,maxlen         = 10000
         ,epochs         = 30
-        ,emb_size       = 50
+        ,emb_size       = 100
         ,hidden_size    = 250
         ,nb_filter      = 150
         ,w_size         = 5 
@@ -72,28 +73,30 @@ if __name__ == '__main__':
     )
 
     opts,args = parser.parse_args(sys.argv)
+    #print(opts.f_list)
+    fn = []
+    if opts.f_list !="":  #stupid arge parsing, do it latter
+        for i in opts.f_list.split("."):
+            fn.append(int(i))
+    else:
+        fn = None
+
+    #fn = range(0,10) #using feature
+    opts,args = parser.parse_args(sys.argv)
     print('Loading vocabs for the whole dataset...')
     vocabs, E = cnet_helper.init_vocab(opts.emb_size)
     #print vocab
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0 = cnet_helper.load_pairs_data("final_data/CNET/x_cnet.train", 
-            maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
+    X_train_1, X_train_0 = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.train_tmp", 
+            perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
-    print("loading train data done...")
-    X_dev_1, X_dev_0  = cnet_helper.load_pairs_data("final_data/CNET/x_cnet.dev", 
-            maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
-    print("loading dev data done...")
+    X_dev_1, X_dev_0    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
+            perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0  = cnet_helper.load_pairs_data("final_data/CNET/x_cnet.test", 
-            maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
-    print("loading test data done...")
-
-    #print test_f_tracks
-    #get embedinga
-
-
+    X_test_1, X_test_0    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.test_tmp", 
+            perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)
     num_dev   = len(X_dev_1)
@@ -107,7 +110,8 @@ if __name__ == '__main__':
     print("Num of traing pairs: " + str(num_train))
     print("Num of dev pairs: " + str(num_dev))
     print("Num of test pairs: " + str(num_test))
-    print("Maximum length in CNN: " + str(opts.maxlen))
+    print("Num of permutation in train: " + str(opts.p_num)) 
+    print("The maximum in length for CNN: " + str(opts.maxlen))
     print('.....................................')
 
     # the output is always 1??????
@@ -172,12 +176,12 @@ if __name__ == '__main__':
     #writing model name
     if opts.f_list != "":
         ff = opts.f_list
-        m_type = "Ext_CNN."
+        m_type = "ExtCNN_"
     else:
         ff = "None"
-        m_type = "CNN."
+        m_type = "CNN_"
 
-    model_name = opts.model_dir + m_type + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
+    model_name = opts.model_dir + m_type +  str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
     + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + ff  
     print("Model name: " + model_name)
 
@@ -188,29 +192,27 @@ if __name__ == '__main__':
         
         final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
  					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
-
+        
         final_model.save(model_name + "_ep." + str(ep) + ".h5")
 
         curAcc =  histories.accs[0]
         if curAcc >= bestAcc:
             bestAcc = curAcc
             patience = 0
-    
         else:
             patience = patience + 1
 
         #doing classify the test set
-        y_pred = final_model.predict([X_test_1, X_test_0])  
+        y_pred = final_model.predict([X_test_1, X_test_0])        
         ties = 0
         wins = 0
-
         n = len(y_pred)
         for i in range(0,n):
             if y_pred[i][0] > y_pred[i][1]:
                 wins = wins + 1
             elif y_pred[i][0] == y_pred[i][1]:
                 ties = ties + 1
-        
+
         print("Perform on test set after Epoch: " + str(ep) + "...!")    
         print(" -Wins: " + str(wins) + " Ties: "  + str(ties))
         loss = n - (wins+ties)
@@ -222,7 +224,7 @@ if __name__ == '__main__':
         #print(" -Test f1 : " + str(f1))
 
         #stop the model whch patience = 8
-        if patience > 5:
+        if patience > 10:
             print("Early stopping at epoch: "+ str(ep))
             break
 

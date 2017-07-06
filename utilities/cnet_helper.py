@@ -22,9 +22,15 @@ def init_vocab(emb_size):
     v3s = list(itertools.product('SOX-', repeat=3))
     for tupl in v3s:
         vocabs.append(''.join(tupl))
-    #v4s = list(itertools.product('SOX-', repeat=4))
-    #for tupl in v4s:
+
+    v4s = list(itertools.product('SOX-', repeat=4))
+    for tupl in v4s:
+        vocabs.append(''.join(tupl))
+
+    #v5s = list(itertools.product('SOX-', repeat=5))
+    #for tupl in v5s:
     #    vocabs.append(''.join(tupl))
+
 
     np.random.seed(2017)
     E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocabs), emb_size))
@@ -32,6 +38,140 @@ def init_vocab(emb_size):
 
     return vocabs, E
 
+
+#load tree pair to train the tree level model
+def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
+    if vocab_list is None:
+        print("Please input vocab list")
+        return None
+
+    list_of_files = [line.rstrip('\n') for line in open(filelist)]
+
+    sentences_1 = []
+    sentences_0 = []
+    
+    for file in list_of_files:  
+        #print "---------------------------------------"
+        #print file
+    
+        cmtIDs  = [line.rstrip('\n') for line in open(file + ".commentIDs")]
+        cmtIDs = [int(i) for i in cmtIDs] 
+        x_tree = [line.rstrip('\n') for line in open(file + ".orgTree")]
+        org_tree = []
+        for i in x_tree:
+            org_tree += [''.join(i.split("."))]
+
+        sentDepths = get_sentences_depth(cmtIDs=cmtIDs,tree=org_tree)
+        #print sentDepths
+        #print "---------"
+
+        lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
+        
+        grid_1 = "0 "* window_size
+        for idx, line in enumerate(lines):
+            e_trans = get_eTrans_with_Tree_Structure(sent=line, sent_levels=sentDepths) # merge the grid of positive document 
+            if len(e_trans) !=0:
+                grid_1 = grid_1 + e_trans + " " + "0 "* window_size
+
+        #loading possible tree
+        nPost = max(cmtIDs)
+        if nPost > 5:
+            nPost = 5
+
+        p_trees = gen_trees.gen_tree_branches(n=nPost)
+        
+        for p_tree in p_trees:
+            p_sentDepths = get_sentences_depth(cmtIDs=cmtIDs,tree=p_tree)
+            #print p_tree
+            #print p_sentDepths
+
+            grid_0 = "0 "* window_size
+            for idx, line in enumerate(lines):
+                e_trans_0 = get_eTrans_with_Tree_Structure(sent=line, sent_levels=p_sentDepths)
+                if len(e_trans_0) !=0:
+                    grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
+            
+            if grid_0 != grid_1: #check the duplication
+                #addding more pos/neg data        
+                sentences_0.append(grid_0)
+                sentences_1.append(grid_1)
+            
+
+    assert len(sentences_0) == len(sentences_1)
+    vocab_idmap = {}
+    for i in range(len(vocab_list)):
+        vocab_idmap[vocab_list[i]] = i
+
+    # Numberize the sentences
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_0  = numberize_sentences(sentences_0,  vocab_idmap)
+    
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
+    X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=window_size)
+
+    X_1 = sequence.pad_sequences(X_1, maxlen)
+    X_0 = sequence.pad_sequences(X_0, maxlen)
+
+    return X_1, X_0
+
+
+def get_eTrans_with_Tree_Structure(sent="",sent_levels=None):
+    x = sent.split()
+    length = len(x) - 1 
+    e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
+    if length > 80:
+        if e_occur < 3:
+            return ""
+    elif length > 20:
+        if e_occur < 2:
+            return ""
+
+    x = x[1:]
+    #print x
+    #print sent_levels
+
+    sent_idxs = range(len(x))
+    final_sent = [] #final sentence
+
+    for lv in range(max(sent_levels)+1):
+        indexes = [i for i,idx in enumerate(sent_levels) if idx == lv]
+        tmp = ""
+        for idx in indexes:
+            tmp = tmp + x[idx]
+
+        #TODO; maybe cut off the token latter on
+        #if len(tmp) > 3:
+        #    # pick up the highest grammarical role
+        #    tmp = get_right_encode(vb=tmp)
+
+        final_sent.append(tmp)
+
+    return ' '.join(final_sent)
+   
+def get_sentences_depth(cmtIDs=[],tree=[]):
+    branches = get_tree_struct(cmtIDs=cmtIDs,tree=tree) # get branches with sentID
+    level_dict = {}
+    
+    for branch in branches:
+        for i,j in enumerate(branch):
+            level_dict[j] = i
+
+    sentDepths = level_dict.values()
+        
+    return sentDepths
+
+def get_tree_struct(cmtIDs=[],tree=[]):
+    x_tree = []
+    for branch in tree:
+        sentIDs = []
+        for cmtID in branch:   
+            sentIDs += [ i for i, id_ in enumerate(cmtIDs) if id_ == int(cmtID)]
+        x_tree.append(sentIDs)    
+
+    return x_tree
+
+
+#===================================================================
 def compute_pair_score(trained_model=None, file="", pairs=[], maxlen=1000, w_size=5, vocabs=[], emb_size=50):
 
     postIDs = [line.rstrip('\n') for line in open(file + ".commentIDs")]
@@ -63,7 +203,8 @@ def compute_pair_score(trained_model=None, file="", pairs=[], maxlen=1000, w_siz
 
     return y_pred[0][0]
 
-
+#==================================================================
+#loading training for pair of post
 def load_pairs_data(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=None, vocabs=None, emb_size=300):
     # loading entiry-grid data for each pair of post in a thread
     list_of_files = [line.rstrip('\n') for line in open(filelist)]
@@ -184,15 +325,6 @@ def get_original_and_permuted_pairs(file): # get every pair from a thread
 
 
 #=====================================================================================
-def get_tree_struct(cmtIDs=[],tree=[]):
-    x_tree = []
-    for branch in tree:
-        sentIDs = []
-        for cmtID in branch:   
-            sentIDs += [ i for i, id_ in enumerate(cmtIDs) if id_ == int(cmtID)]
-        x_tree.append(sentIDs)    
-
-    return x_tree
 
 def load_permuted_tree(file=[], tree=[], maxlen=15000, window_size=2, vocab_list=None, emb_size=300, fn=None):
     #load data with tree representation
@@ -459,17 +591,6 @@ def load_tree_N01(file="", sent_levels=[], maxlen=15000, window_size=2, vocab_li
     
     return X_1
 
-def get_sentences_depth(cmtIDs=[],tree=[]):
-    branches = get_tree_struct(cmtIDs=cmtIDs,tree=tree) # get branches with sentID
-    level_dict = {}
-    
-    for branch in branches:
-        for i,j in enumerate(branch):
-            level_dict[j] = i
-
-    sentDepths = level_dict.values()
-        
-    return sentDepths
 
 def load_task_X(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
     if vocab_list is None:
@@ -652,77 +773,7 @@ def load_and_numberize_with_Tree_Structure(filelist="list_of_grid.txt", perm_num
     return X_1, X_0, E 
 
 
-def get_eTrans_with_Tree_Structure(sent="",sent_levels=None):
-    x = sent.split()
-    
-    length = len(x) - 1 
-    e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
-    if length > 80:
-        if e_occur < 3:
-            return ""
-    elif length > 20:
-        if e_occur < 2:
-            return ""
 
-    x = x[1:]
-    #print x
-    #print sent_levels
-
-    sent_idxs = range(len(x))
-    final_sent = [] #final sentence
-
-    for lv in range(max(sent_levels)+1):
-        indexes = [i for i,idx in enumerate(sent_levels) if idx == lv]
-
-        tmp = ""
-        for idx in indexes:
-            tmp = tmp + x[idx]
-
-        #TODO; maybe cut off the token latter on
-        #if len(tmp) > 3:
-        #    # pick up the highest grammarical role
-        #    tmp = get_right_encode(vb=tmp)
-
-        final_sent.append(tmp)
-    
-   # print ' '.join(x)
-    #print final_sent
-
-    return ' '.join(final_sent)
-    '''
-    #TODO: below is processing with feature
-    if fn==None: #coherence model without features
-        x = x[1:]
-        return ' '.join(x)     
-
-    f = feats.split()
-    #print(x[0] + " -- " + f[0])
-    assert f[0] == x[0] # checking working on the same entity 
-    #print(x[0] + " -- " + f[0])
-
-    x = x[1:]
-    f = f[1:]
-    x_f = []
-    for sem_role in x:
-        new_role = sem_role;
-        if new_role != '-':
-            for i in fn:
-                if i ==0 : #adding salience
-                    if e_occur == 1:
-                        new_role = new_role + "F01"
-                    elif e_occur == 2:
-                        new_role = new_role + "F02"
-                    elif e_occur == 3:
-                        new_role = new_role + "F03"
-                    elif e_occur >3 :
-                        new_role = new_role + "F04"
-                else:
-                    new_role = new_role + "F" + str(i) + f[i-1] # num feat = idx + 1
-  
-        x_f.append(new_role)
-
-    return ' '.join(x_f)
-    '''
 
 def get_right_encode(vb="S---XOS"):
     
