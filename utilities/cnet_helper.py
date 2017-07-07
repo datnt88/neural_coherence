@@ -38,6 +38,33 @@ def init_vocab(emb_size):
 
     return vocabs, E
 
+#def load_sentene_depth()
+def load_one_tree_only(file="", sent_levels=[], maxlen=15000, window_size=2, vocab_list=None, emb_size=300, fn=None):
+    #load data with tree representation
+    
+    sentences_1 = []
+    lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
+    grid_1 = "0 "* window_size
+    for idx, line in enumerate(lines):
+        e_trans = get_eTrans_with_Tree_Structure(sent=line, sent_levels=sent_levels) # merge the grid of positive document 
+        if len(e_trans) !=0:
+            grid_1 = grid_1 + e_trans + " " + "0 "* window_size
+
+    sentences_1.append(grid_1)    
+
+    #print len(sentences_1)
+
+    vocab_idmap = {}
+    for i in range(len(vocab_list)):
+        vocab_idmap[vocab_list[i]] = i
+
+    # Numberize the sentences
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
+    X_1 = sequence.pad_sequences(X_1, maxlen)
+    
+    return X_1
+
 
 #load tree pair to train the tree level model
 def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
@@ -50,6 +77,8 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
     sentences_1 = []
     sentences_0 = []
     
+    max_l = 0
+
     for file in list_of_files:  
         #print "---------------------------------------"
         #print file
@@ -74,6 +103,7 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
                 grid_1 = grid_1 + e_trans + " " + "0 "* window_size
 
         #loading possible tree
+
         nPost = max(cmtIDs)
         if nPost > 5:
             nPost = 5
@@ -95,7 +125,15 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
                 #addding more pos/neg data        
                 sentences_0.append(grid_0)
                 sentences_1.append(grid_1)
+
+                if len(grid_1)/2 > max_l:
+                    max_l = len(grid_1)/2
+
+                if len(grid_0)/2 > max_l:
+                    max_l = len(grid_0)/2
+
             
+    print "Max length for CNN: ", max_l
 
     assert len(sentences_0) == len(sentences_1)
     vocab_idmap = {}
@@ -106,8 +144,7 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
     X_1 = numberize_sentences(sentences_1, vocab_idmap)
     X_0  = numberize_sentences(sentences_0,  vocab_idmap)
     
-    print(X_1.shape())
-    print(X_2.shape())
+    
 
     X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
     X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=window_size)
@@ -563,32 +600,6 @@ def get_eTrans_with_Branch(sent="p_line", branch="1 2 3 4"):
     return ' '.join(final_sent)
 
 #=====================================================================
-#def load_sentene_depth()
-def load_tree_N01(file="", sent_levels=[], maxlen=15000, window_size=2, vocab_list=None, emb_size=300, fn=None):
-    #load data with tree representation
-    
-    sentences_1 = []
-    lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
-    grid_1 = "0 "* window_size
-    for idx, line in enumerate(lines):
-        e_trans = get_eTrans_with_Tree_Structure(sent=line, sent_levels=sent_levels) # merge the grid of positive document 
-        if len(e_trans) !=0:
-            grid_1 = grid_1 + e_trans + " " + "0 "* window_size
-
-    sentences_1.append(grid_1)    
-
-    #print len(sentences_1)
-
-    vocab_idmap = {}
-    for i in range(len(vocab_list)):
-        vocab_idmap[vocab_list[i]] = i
-
-    # Numberize the sentences
-    X_1 = numberize_sentences(sentences_1, vocab_idmap)
-    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
-    X_1 = sequence.pad_sequences(X_1, maxlen)
-    
-    return X_1
 
 
 def load_task_X(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
