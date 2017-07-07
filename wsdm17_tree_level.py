@@ -54,7 +54,7 @@ if __name__ == '__main__':
 
         data_dir        = "./final_data/"
         ,log_file       = "log"
-        ,model_dir      = "./saved_task_X_cutOFF6/"
+        ,model_dir      = "./M.p5_s_cnet/"
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
@@ -192,7 +192,7 @@ if __name__ == '__main__':
         
         final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
  					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
-        
+
         final_model.save(model_name + "_ep." + str(ep) + ".h5")
 
         curAcc =  histories.accs[0]

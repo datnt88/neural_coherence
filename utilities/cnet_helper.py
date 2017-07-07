@@ -106,6 +106,9 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
     X_1 = numberize_sentences(sentences_1, vocab_idmap)
     X_0  = numberize_sentences(sentences_0,  vocab_idmap)
     
+    print(X_1.shape())
+    print(X_2.shape())
+
     X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
     X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=window_size)
 
@@ -319,10 +322,6 @@ def get_original_and_permuted_pairs(file): # get every pair from a thread
     p_pairs = [i for i in all_pairs if i not in o_pairs]
 
     return o_pairs, p_pairs, nPost
-
-
-
-
 
 #=====================================================================================
 
