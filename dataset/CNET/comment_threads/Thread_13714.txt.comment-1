@@ -1,0 +1,22 @@
+Help!
+No ping responses in simple 2-node Mac&lt;-&gt;PC wired LAN I've been trying for weeks , but I just cannot get even the simplest Ethernet two-node LAN working under Mac OS 8.6 (or 8.5.x either) and Windows XP Home SP2.
+This is a direct, wired Ethernet LAN with only two nodes.
+There is no router or gateway present, and Internet connection sharing is NOT desired.
+I'm using Miramar's PC MacLAN v 8 software for intercompatible file sharing.
+Current problem: NO pings get responses in either direction from either side.
+On the Mac side: Direct Ethernet connection to PC via D-Link 10/100 Switch All link and activity lights on switch flash in reponse to ping, and all show speed is 100, full duplex IP address hard, manually assigned to Ethernet NIC: 192.168.0.4 / 255.255.255.0 Correctly formatted OT Hosts file used for all local LAN addresses, no DNS No gateway or DNS IP addresses associated with that NIC/connection No routers present No direct connection to modem, broadband or otherwise.
+Self-pings by both name and IP address are fine.
+All pings to the PC fail (timeout without any response).
+On the PC side: Windows XP Home SP2 Direct Ethernet connection to Mac via D-Link 10/100 Switch All link and activity lights on switch flash in reponse to ping, and all show speed is 100, full duplex IP address hard, manually assigned to Ethernet NIC: 192.168.0.2 / 255.255.255.0 Hosts file used for all local LAN addresses, no DNS No gateway or DNS IP addresses associated with that NIC/connection No routers present No direct connection to modem, broadband or otherwise.
+XP's tray and related displays show NIC is active and connected.
+Self-pings by both name and IP address are fine.
+All pings to the Mac fail (timeout without any response).
+Mac Hardware Configuration: Power Computing PowerBase PPC Macintosh with ATA disks and 3 PCI slots, running Mac OS 8.6 and Open Transport 2.0.3.
+NIC is Daynaport 10/100 PCI Ethernet Card.
+I've tried it on two different Ethernet hubs, and it's currently connected to my Windows XP PC via a D-Link 10/100 Switch.
+The latest driver compatible with MacOS 8.6 is installed and running and reports no error.
+And I know the PCI slot in question is working (it worked fine with a SCSI HBA there).
+Now, here's a possibly telling but puzzling fact: On the Windows side, there is a display showing the connection status and other details of the Ethernet NIC connection, and it consistently shows that zero packets have been recieved.
+However, when I ping the PC from the Mac (Mac -&gt; PC), the count of packets the PC has SENT increments for each ping!
+Unfortunately, the Mac still reports all pings have failed.
+I desperately need help, please.

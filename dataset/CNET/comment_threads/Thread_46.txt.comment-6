@@ -1,0 +1,11 @@
+but I'll presume you do mean the crossover type.
+I'd not mess with domains because, between 2 PCs, you don't really have one.
+You have a work group.
+What you need to do is manually give each PC an IP address within the same network range.
+This, if no firewalls exist to block traffic, should at least return a &quot;ping&quot;.
+A standard MS home network would start with 192.168.0.1 and a subnet of 255.255.255.0.
+You would not mess with the subnet mask but increment the IP address by 1 for each device until you reached the maximum number allowed.
+You don't need a gateway number because you have no gateway.
+Your second PC should work as 192.168.0.2 just fine.
+Assign the addresses, reboot if necessary, give the two a little time to negotiate and then ping one with the other.
+See if you get a reply.

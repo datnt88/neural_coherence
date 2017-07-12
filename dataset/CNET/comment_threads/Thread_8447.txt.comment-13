@@ -1,0 +1,10 @@
+I think you might be getting confused with 64-bit.
+As long as the operating system deals with dual-core processors correctly, the applications don't need to do anything extra to support them.
+Win XP Pro can take two threads of a normal application and run them through seperate cores.
+Mac OS X does the same thing.
+The Linux SMP kernel does it too.
+Some programs might crash if run on a multi-core machine on a system which supports it, but that's something different.
+64-bit support, on the other hand, needs to be coded into applications.
+----------- May I just add that dual-core processors are good for thin-client situations?
+On Linux, you can have all tasks performed by a server, and have many thin clients which just transmit key presses and mouse movements, and recieve screen image in return (well, it's not actually a screen image, but that's just the easiest way to describe it).
+A multiple-core processor works wonders in these servers, as programs can then run in each core.

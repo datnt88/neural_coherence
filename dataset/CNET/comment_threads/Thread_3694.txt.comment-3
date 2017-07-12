@@ -1,0 +1,4 @@
+You need to know exactly what video card you have and install the ME driver for it.
+One way to find out is to issue these commands Hit START then RUN and type COMMAND and hit enter At the black screen type DEBUG and hit enter then type -d c000:0 -d -d Way out to the right it will show text that will probably tell you what video card type you have plugged in.
+type -Q to exit Debug.
+Type exit and hit enter to close the window

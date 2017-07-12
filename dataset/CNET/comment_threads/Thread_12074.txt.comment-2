@@ -1,0 +1,17 @@
+All consumer grade routers have 2 sides, LAN & WAN.
+The LAN side is typically a 4 port switch with a virtual IP address that applies to all switch ports.
+This interface also acts as a DHCP server.
+The WAN side gets the Public IP address from the ISP using PPPoE or DHCP typically.
+The WAN interface runs NAT (Network address translation).
+It convrts your LAN addresses into the one public IP address and keeps track of the sessions.
+NAT is what allows you to share the internet connection with multiple computers.
+One side effect of NAT is security.
+The NAT implemented in consumer routers is referred to as Many to one NAT.
+Outbound from the LAN has no issues.
+But incomming traffic can only return to the proper computer if an outbound session was already created.
+If I try to connect to your network then my session will terminate on your router.
+Your router has no idea where to forward the traffic.
+You could direct FTP traffic to a specific machine or Telnet traffic but this is good for only one PC.
+If you can turn off NAT you may get this to work.
+or replace the router with a switch if you can.
+SKrall

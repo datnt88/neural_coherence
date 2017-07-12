@@ -1,0 +1,17 @@
+Problem is that you are using Data Lifeguard tools which is a WD product not Seagate.
+I am assuming you are using a new SATA drive which has no jumpers - it assumes CS.
+Put the new drive in a secondary interface slot on your MOBO You may be required to run the seagate setup disk.
+I prefer to run the setup disk with only the new drive in the system to ensure no accidental data loss.
+After setup put your 80GB drive back in play as Master and the 320 as slave.
+You need to use Norton Ghost or Acronis software to image the old drive to the new one.
+Acronis will cost you $49.95 and it is worth it.
+You can get a free copy of Barts tools by download which includes Norton Ghost.
+You can boot to Barts Universal Boot Disk and run Ghost.
+When it is complete- take the old drive out after shutting the system down and reboot.
+The new drive should boot.
+If my assumption is not correct and you are using IDE connections- the same procedure applies.
+The position of the drive on the cable will determine master or slave.
+Use the same procedure after completion.
+Disconnect the 80 GB drive and put the 320 in master position and reboot.
+You should have a 320 GB C drive.
+Be safe

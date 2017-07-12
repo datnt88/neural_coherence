@@ -1,0 +1,8 @@
+So while I can offer ideas, no one is there to fix it for us.
+Having said that... Be sure to use TRACEROUTE on the host (XP) machine to see if there is a 10.10.10.x or 10.x.x.x in the route.
+This could cause your NAT (ICS) to fail.
+Fix?
+Use that other 168.x.x.x private IP range for ICS.
+Also, many are firewalling beyond reason and while you are setting up you must have a firm grasp on the firewall.
+For my testing I often turn it off and if it's a third party firewall I often find they break ICS so I uninstall it.
+Bob

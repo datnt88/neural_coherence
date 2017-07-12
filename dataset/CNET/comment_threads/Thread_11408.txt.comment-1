@@ -1,0 +1,6 @@
+I am seeing an interesting phenomenon with my wireless network.
+I have a w2k box set up to perform 802.1x authentication for my wireless network, using EAP-TLS.
+For authentication type I have use smart card or certificate, and have both the user cert and to Root CA cert installed.
+When I check the Validate server certificate option the connection fails, and I get an entry in event viewer on the w2k boc idicating an invalid user name or password.
+When I leave the box unchecked I connect just fine.
+Any thoughts?

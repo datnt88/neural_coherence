@@ -1,0 +1,15 @@
+&quot; I think there is also may be some lack of understanding here.
+The changes between PCI 2.1 and PCI 2.2 are very minor: www.pcisig.com/specifications/conventi..
+The main thing people have been making a big deal about is 4.3.4.1, were 3.3V is now required on a 2.2 slot.
+That has no contribution to the random lockup sort of problem.
+If the slot didn't have 3.3, the card wouldn't work *at all*.
+Very few motherboards with 2.1 compliance didn't hook up 3.3V to the slots.
+In fact, motherboards that were designed for 2.1 could almost always just say &quot;now we support 2.2&quot; with no work, since the spec changes were mostly for 64 bit concerns or clarifications.
+I think the comment by IQ179 about AMD motherboards not implementing a standard is kind of more lore than fact.
+There's really not anything you could do wrong implementation-wise that would cause these sort of hangs.
+There would be more generic problems with other PCI boards, or the boards would not work at all.&quot; http://www.pcisig.com/specifications/conventional/conventional_pci/2_2sum1215.pdf http://www.dslreports.com/forum/remark,9086546~mode=flat~days=120~start=100 If your machine does not hang on boot with that card, the real issue is likely to be zip-zero-noway-nohow support of Windows 95.
+In fact, the 200 to 512 byte leak on each socket open/close was NEVER resolved by Microsoft.
+Reference ... &quot;Windows 95 leaks about 200 bytes of main memory for each thread creation.
+Each connection in MySQL creates a new thread, so you shouldn't run mysqld for an extended time on Windows 95 if your server handles many connections!
+Other versions of Windows don't suffer from this bug.&quot; http://dev.mysql.com/doc/mysql/en/Windows_vs_Unix.html I don't expect any BIOS to solve your issues.
+Bob

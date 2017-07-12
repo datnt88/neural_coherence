@@ -1,0 +1,13 @@
+You can OC using this.
+I have a 5700LE OC'ed to over 100MHz from stock core and mem.
+o unlock Coolbits: 1.
+Open the Start\Run dialog box, and type Regedit and hit OK 2.Browse to: HKEY_LOCAL_MACHINE\SOFTWARE\NVIDIACorporation\Global\NvTweak\ 3.Then right click and go to New and choose DWORD Value 4.
+Rename the DWORD value the comes up to CoolBits(without quotes) 5.
+Right click on it to Modify it 6.
+And then change the value to 3 and the base to Decimal Once you do this, go back to your nVidia control panel.
+You should see some new options.
+One of these options is Clock Frequency Settings.
+Select this, click Manual overclocking and then hit Detect Optimal Frequencies.
+Ive found this to be fairly reliable.
+However use this at your own discretion.
+Keep on eye on temperatures in your case.

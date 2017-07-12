@@ -1,0 +1,6 @@
+This is a low-level hardware issue cause by: Memory errors that may include parity or Error Correction Code (ECC) problems Cache errors in the processor or hardware Translation Lookaside Buffers (TLB) errors in the processor Other CPU-vendor specific detected hardware problems Vendor-specific detected hardware problems First, you'll need bios v 0310 (a beta bios) to support your CPU and RAM.
+http://support.asus.com/download/download.aspx?SLanguage=en-us&model=P5N32-SLI%20Deluxe The &quot;stock&quot; bios is not fully compatible with either.
+From ASUS' spec sheet: CPU: Socket775 for Intel Pentium Processor Extreme Edition / Pentium D / Pentium 4 / Celeron CPU Memory: Dual channel memory architecture 4 x 240-pin DIMM sockets support max.
+16GB DDR2 667/533 non-ECC memory You could try manually setting your RAM to DDR2-667 since DDR2-800 can be problematic even on boards with explicit support.
+Lastly, the p5n32 has been known to be troublesome with dual core intel CPUs since its release.
+IMHO, you be best off exchanging the board for one based on the intel 946, 965 or 975 chipset.

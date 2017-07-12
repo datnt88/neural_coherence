@@ -1,0 +1,10 @@
+You would need either a router designed with that capability or a compatible adapter kit that can provide the DC input your router needs.
+Baring that, you get creative and fashion your own.
+You need to add the DC from some area near your modem.
+The device used is called an &quot;injector&quot;.
+You then need to split the data and power signals at the router.
+Typically injectors produce DC at a higher voltage than that which is required for the device they power.
+This is the hangup you'll run into.
+If your router gets 6v from it's external PS and your injector produces the typical 48v, you may fry something.
+Have you checked to see what the DC requirements are of your router and if a kit is available to match?
+While I've no real experience with such fabrications, I do suspect there is a reason for PoE to need the higher voltage and that is to ensure delivery of enough current over longer distances such as one encounters over longer wiring runs.

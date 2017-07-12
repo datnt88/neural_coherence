@@ -1,0 +1,12 @@
+After much Google Searching for &quot;Toshiba SD-R2002 the device, \Device\CDRom0, has a bad block&quot; I found: &quot;You will need to go to the Device Manager and open the 'DVD\CD-ROM Drives' listing.
+You will Right click on the &quot;SD-R5002 DVD-ROM Drive&quot; and select 'Un-install' from the Drop Down Menu.
+Do this for all listed drives.
+Do not re-boot on this step.
+Next you will need to open the &quot;IDE ATA\ATAPI Controllers&quot; listing.
+You will need to right click on the Bus Master IDE Controller and select 'Un-install' from the drop down menu.
+You will be prompted to re-boot, so do so.
+It will need to re-detect the devices and will take longer to boot.
+Once it finishes it will prompt for a second re-boot.
+After that finishes, try the drive again.&quot; My Event Viewer showed the error &quot;the device, \Device\CDRom0, has a bad block&quot; which led to the above search and apparent fix for an older Compaq Presario laptop.
+It all started when I tried to run Acronis True Image and it failed.
+The problem has probably existed for several years because I could never &quot;burn&quot; a CD at faster than 2X.

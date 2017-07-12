@@ -1,0 +1,17 @@
+OK, so I recently purchased a Belkin N+ wireless router, which I hooked up to my modem and connected to my wireless laptop (running Windows Vista Home Premium SP2).
+Previously, I had a Linksys wireless router, and I would run my desktop (running Windows XP Pro SP3) through a LAN cable into my laptop and connect through the internet like that with no changes to internet settings (except &quot;Allow Users to Connect to the Internet Through this Computer&quot; on my laptop internet options).
+After I setup the new Belkin router though, my desktop LAN connection through my laptop would not connect to the internet.
+Finally, I got it to work by setting up a &quot;home network&quot; on my desktop, with the laptop as a gateway.
+This was brand new, I didn't have to do this before for the desktop to connect to the internet.
+Now my desktop shows the laptop as a gateway, in &quot;Network Connections&quot; it specifies the wireless laptop connection as the internet connection.
+The laptop IPv4 address on the LAN connection also needs to be 192.168.0.1 (the same as the router default) in order for the desktop to connect to the web, not &quot;Automatically detect IP&quot;.
+The problem is this, many webpages will not load (CNN.com, Java.com, etc.
+), they get locked halfway through loading, and programs cannot access the internet to update/communicate (BOINC communication doesn't work, JAVA updates won't download, PC Tools Spyware Dr. won't update).
+Some will load (google.com, news.google.com).
+Where is the problem here?
+Why wouldn't my desktop connect to the internet through my laptop the way it did before the new router?
+Is the &quot;home network&quot; complicating things?
+Is this a firewall issue?
+Why now if it is?
+Something is blocking full internet access on my desktop, and I have a feeling it's tied to the network settings but can't pinpoint it.
+I've already tried loosening program allowances in my McAfee firewall, but that doesn't seem to have helped.

@@ -1,0 +1,9 @@
+As stated before, you have to enter the setup (post/pre-boot/bios) usually via delete or an F (function key).
+In the menus will be an enable/disable onboard sound.
+It is probably mapped to PCI, even though it is onboard.
+Step 1 will be to disable the device before you power down.
+Install a new PCI sound card.
+Probably need to move the CDROM sound connector to the new board, from the onboard connector.
+Then power-on, enter the setup, disable the onboard sound, save the settings and when the system comes up it will see the new device and ask you to load the drivers (supplied with your new sound card).
+Remember to move your external connections to the new card.
+If you have a manual for your machine it should show you examples of the bios setup functions.

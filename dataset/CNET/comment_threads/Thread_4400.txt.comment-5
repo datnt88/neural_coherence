@@ -1,0 +1,39 @@
+Hi there, I've got a similar problem, but my computer is totally different from yours.
+Here are my specs.
+Purchased new: December 2004 Dell Precision 670 Intel Xeon 3.0 GHz, Dual processor (Not dual core.)
+XP Pro with 4GB RAM NVidia Quadro FX 3400 256MB, Dual DVI Dual Dell 2001FP flat panel monitors Blinking Characteristics: -My blinking is sporadic, though not entirely unpredictable.
+-Ive had this problem for more than a year.
+-It happens only on one monitor.
+On my system it is always monitor 2 that blinks.
+I use this monitor with extended desktop.
+-I agree a blink seems to last the same amount of time as a monitor re-sync, as though something in the system causes a disturbance or change in the graphics, triggering a re-sync.
+I just retested this by resetting the resolution on one monitor and the duration of the blink was identical to that of the problem blink.
+-After a blink the monitor appears ever so slightly fuzzier, as though it has switched to a different mode.
+Fonts that were razor sharp become dithered.
+Turning the monitor off momentarily sharpens it back up.
+-Sometimes it's just one or a few blinks, seconds or minutes apart.
+Sometimes it's a ferocious blink-storm with less than a second between blinks.
+I can go for days with no blinks, and other times it happens several times a day.
+Causes/Triggers: -On my system it is always triggered, though sporadically, by various software applications: --ArcGIS (Mapping software) Here I have a specific map that always triggers a blink.
+--Microsoft Outlook Occasionally causes blinks, possibly related to specific e-mails with specific graphic objects.
+--Cox Webmail Occasionally causes blinks, possibly related to web-pages or e-mails with specific graphic objects.
+--Occasional web pages.
+Occasionally causes blinks, possibly related to web page content with specific graphic objects.
+-It is not related to monitor hardware failure.
+I've swapped my monitors and swapped my blinking monitor with a coworker's identical monitor, and the problem still occurs.
+The problem is in the PC.
+-It does not appear to be caused by heat/electrical problem or length of time that the PC has been running.
+-By the way, without going into too much detail here, other weird things sometimes happen with dual monitors, indicating that some software doesnt really know how to deal with dual monitor systems, or exactly what to do when its window is in the second monitor on the extended desktop.
+For example, sometimes pop-ups for apps whose windows are in monitor 2 show up in monitor 1.
+-Its possible that a piece of the monitor 2 circuitry on the graphics card has a problem, and that, combined with demanding software, could be a trigger.
+However, my intuition is that this isnt the problem, since software by itself is able to cause so many other problems with dual monitor systems.
+Work-around/Treatment: -The treatment is always to use the mouse to grab the window with the offending software and move it to the non-blinking monitor.
+This stops the blinking immediately with 100% success.
+-Ive tried updating my graphics drivers more than once, but with no change, improvement or worsening of the problem.
+-My computer is under warranty with Dell, so I suppose I could have them replace the card, but I hate to have them replace the card if the problem has another cause.
+(On the other hand, even if its not directly their fault, theyre making money off of selling these systems, and if there are major generic problems like this then they should play a role in working with the industry to get through this, and if that means replacing the graphics cards in an effort to determine where the problem lies, then that seems fitting.)
+Explanation?
+It would appear that some graphic objects of the software that Ive mentioned do something to trigger this problem.
+I would bet that they use components of commonly used graphics libraries or subsystems, like DirectX, OpenGL, etc, and that it is here that the problem lies.
+Someone who knows more than I do should address this issue.
+David

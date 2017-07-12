@@ -1,0 +1,16 @@
+try booting the pc without any video card (new or old).
+did you get the same number/sequence of beeps?
+if so, the mobo isn't happy with the card.
+try clearing the cmos (page 13 of your manual) using the procedure below.
+1.
+Turn off the system and unplug the AC power.
+2.
+Remove ATX power cable from connector PWR2.
+3.
+Locate JP14 and short pins 2-3 for a few seconds.
+4.
+Return JP14 to its normal setting by shorting pins 1-2.
+5.
+Connect ATX power cable back to connector PWR2.
+now try booting with the new card.
+hope this helps.

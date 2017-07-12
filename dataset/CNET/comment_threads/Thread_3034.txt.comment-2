@@ -1,0 +1,10 @@
+the actual clock rate of the memory and memory bus.
+HOWEVER because it is DDR SDRAM it reads/writes on both the leading and trialing edge of the clock, THUS 2 read/writes at 200 MHz = 400 MHz effectively.
+It is simply a terminology issue.
+I doubt if your CPU supports Dual Channel, HOWEVER understand that Dual Channel IS NOT a memory characteristic.
+Dual Channel is a mobo, chipset, and CPU function the memory used is simply standard DDR memory.
+Just uses a pair of the same size and type.
+If you run the memory bus up to 250 MHz you may fry something.
+The mobo is simply giving you a capability to overclock your memory bus.
+That is usually done in 1 MHz steps until the system becomes unstable and then back down a MHz or two.
+Lot more to it than that and you risk frying things.

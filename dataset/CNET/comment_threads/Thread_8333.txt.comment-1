@@ -1,0 +1,29 @@
+My name is Scott and I could use some help.
+I am the IT Director for my company which is pretty small.
+50 employees max.
+We have two offices.
+One in NJ (HQ) and one in NYC (Sales Office).
+Right now I am running a make shift &quot;file server&quot; on a higher end desktop with Windows Vista.
+I was able to open up access to allow a single VPN connection to this machine.
+(PPTP) Just your basic garden variety simple VPN tunnel with basic authentication.
+(I know not very secure).
+I was able to do this on my own but I need some help with the next step.
+Innate in this type of set-up, only one user can access the server from offsite at a time.
+In the IMMEDIATE future, I need to have at least 3-5 concurrent users being able to pull files from this server.
+Similarly, Ive designed a homegrown software package that will be housed on a separate application server.
+We will eventually need a multi-user VPN connection to this server as well.
+Last but not least, we have Sales and Merchandising personnel all over; including ASIA, EUROPE and CANADA.
+They will need access to these servers as well.
+I need suggestions on what type of set-up is best suited for this business model and how do I go about getting started.
+Unfortunately, as the economy is in shambles, I dont have a large budget.
+Here is some basic info for both offices.
+End-user base is comprised of a mixture of Mac and PC users, but mostly PC users.
+CH (HQ) ISP: Comcast.
+Bandwidth: cable (not exactly sure of the Mbps) Hardware: SMC Model 8014 NYC (Sales) ISP: Verizon Bandwidth: ADSL (not exactly sure of the Mbps) Hardware: Westell Model A90 I'm only looking at a few hundred dollars in my budget.
+The powers-that-be are from a different school of thought when it comes to technology and business.
+They want it to work for the cheapest possible price.
+Any suggestions.
+Right now we have one Public IP pointing to the one server internally.
+Is there a way for me to set up multiple users to access the same server using the one public?
+or will I need to orders separate public IPs for each user.
+My total knowledge of networking is limited to the basic and this is the first time I've ever done something like this.

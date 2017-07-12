@@ -1,0 +1,8 @@
+I see our posts overlaped I did see this one.
+A device on a switch cannot directly sniff traffic on another port.
+A port is only sent traffic destined for a mac address on that port and any broadcast traffic.
+You would have to use a special feature in the switch to get it to replicate the traffic.
+Now in theory a compromised machine can do mac spoofing attacks to overflow that table of the switch so that all traffic is broadcast to all ports.
+Not sure how effect that really is but it is a known attack method.
+You really should always assume your traffic is being sniffed.
+This is why almost all sensitive stuff is run over HTTPS.

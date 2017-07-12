@@ -1,0 +1,5 @@
+Go to Start/Administrative Tools/Services.
+Find the Wireless Zero Config Service and DISABLE it.
+Reinstall your F5D7011 software and it should work fine.
+The problem is that Windows tries to configure the card and screws it up.
+Thanks to Bruce Finch, Wireless Guru at Symbol Technologies for the tip.

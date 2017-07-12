@@ -1,0 +1,6 @@
+Bill, thanks for your explanation.
+It taught me enough that I was able to do a helpful search.
+mDNSResponder provides Bonjour service usnig UDP Port 53.
+When that doesn't answer, it uses a random port to offer the service.
+Since that application is reading port 53, it is safe to open it.
+Now I've done that and the message is gone.

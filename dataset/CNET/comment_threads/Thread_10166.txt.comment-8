@@ -1,0 +1,3 @@
+SOLVED (for me, anyway): I also was having the &quot;Delayed Write Failed&quot; issue on XP Pro SP2 with my new Buffalo DriveStation Duo 1TB system.
+I tried it in both Fat32 and NTFS modes as well as in RAID1 and as two independent drives, but would continue to randomly get this error message - mostly on writing large (&gt;500MB) files but occasionally on reads as well.
+Finally - due to the suggestion in this thread about the USB wire - I switched the connection of this unit from a USB wire to a 1394 wire (fortunately my laptop had this port) and the errors finally cleared up.

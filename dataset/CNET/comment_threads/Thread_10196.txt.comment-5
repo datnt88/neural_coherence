@@ -1,0 +1,12 @@
+Do you have XP Home or Pro?
+If Pro, it should partition as NTFS by default.
+Right click on the HD and check Properties.
+Under the &quot;General&quot; tab, it should show your file system and it will be FAT32 or NTFS.
+If FAT32, it can be converted to NTFS.
+If NTFS, Bob is correct about unchecking simple file sharing.
+Now, if you have XP Home, it basically uses simple file sharing and you cannot change that anywhere.
+However, you can set permissions for users by starting in &quot;Safe Mode&quot;.
+I have not tried this with printers, however, so you would need to check this yourself.
+You would want permission granted to yourself and administrators only.
+You would make sure no one not authorized such permissions was given them by user name or group.
+You may post back your finding if more specific instruction is needed.

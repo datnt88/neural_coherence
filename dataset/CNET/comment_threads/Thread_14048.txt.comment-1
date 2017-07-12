@@ -1,0 +1,147 @@
+Hi All!
+I recently had my wireless network go down and haven't been able to get it back up in several days, so I'm hoping someone might have some suggestions here.
+Two things happened around the time the problem seemed to occur: 1) Downloaded and installed an audioscrobbler plugin for foobar2000.
+The network went down very shortly after the first successful scrobble.
+This might be coincidence.
+2) Several Windows updates were applied.
+My setup is: Cable Service Provider &gt; Cable Modem &gt; Linksys Wireless-B Broadband Router (BEFW11S4) One Windows XP Home machine is connected via ethernet cable.
+Two Windows XP Home machines are connected via Linksys Wireless USB Network Adapter (WUSB11).
+The WUSB11 NICs seemed to be working OK, as I can see other local wireless networks (five of them).
+I can also connect to my neighbours network and access the internet via that.
+Wired connection also works fine.
+The router IS broadcasting our custom SSID, has DHCP enabled (I was previously using static IP addresses with no problems), currently has security disabled (WEP is all that it supports and we were using that before with no problems) and I'm NOT using MAC filters (again, I was using this before and had no problems).
+All other setting are at the defaults.
+The router has the latest firmware and both wirelessly connected machines have the latest drivers for the NIC.
+When the wireless went down, both wirelessly connected machines lost internet, so it's difficult to pin down to one particular machine - I'm assuming it was my machine due to the two things mentioned above that happened at about the right time.
+I've since uninstalled foobar2000 and the audioscrobbler plugin and the last few Windows updates, but this made no difference.
+Running 'ipconfig /all' previously resulted in a 'media disconnected' message in relation to the wireless NIC.
+I applied the 'DisableDHCPMediaSense' registry fix mentioned in a Microsoft knowledge base article, and now 'ipconfig /all' results in: Windows IP Configuration Host Name .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: deadbox Primary Dns Suffix .
+.
+.
+.
+.
+.
+.
+: Node Type .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: Unknown IP Routing Enabled.
+.
+.
+.
+.
+.
+.
+.
+: No WINS Proxy Enabled.
+.
+.
+.
+.
+.
+.
+.
+: No Ethernet adapter Linksys: Connection-specific DNS Suffix .
+: Description .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: Instant Wireless USB Network Adapter ver.2.6 #4 Physical Address.
+.
+.
+.
+.
+.
+.
+.
+.
+: 00-06-25-19-06-BA Dhcp Enabled.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: Yes Autoconfiguration Enabled .
+.
+.
+.
+: Yes IP Address.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 0.0.0.0 Subnet Mask .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 0.0.0.0 Default Gateway .
+.
+.
+.
+.
+.
+.
+.
+.
+: DHCP Server .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 255.255.255.255 These IP addresses certainly don't match those I used when configuring the machines with static IP addresses.
+The router has been reset twice in the last few days, I've tried the WinsockXPFix download, and spent several days googling similar problems with no success.
+I'm completely out of ideas on how to fix this situation, and also puzzled as to why this would affect two computers if the problem is only with one of them.
+I've tried to provide as much info as I can, but I'm not terribly knowledgable about networking stuff, so if you need more info please ask

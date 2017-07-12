@@ -1,0 +1,16 @@
+I have a small office network (8 workstations) with an ancient server (Dual pentium pro 200's, Intel mobo w/ native SCSI, 512MB EDO Ram, 10GB SCSI HDD, Win NT 4.0 Service Pack 6, Microsoft Exchange & Backoffice Server).
+The AIWA DAT tape backup drive finally gave up the ghost, I purchased a Sony 11000 20/40 GB SCSI DAT drive to replace it.
+First problem: 50 pin on the AIWA, 68 pin on the Sony.
+The AIWA is currently driven by a separate PCI 50-pin SCSI adapter.
+I am preparing to swap out the drives and want to experience minimal down time so here I am looking for advice from serious SCSI users familiar w/ vintage 1999 hardware only.
+Please don't advise to upgrade everything, that's impossible financially.
+I have prepared myself for every eventuality (I hope).
+I have a spare Adaptec 2940 series SCSI adapter w/ driver floppy, a spare 68-pin three-device cable w/ terminator.
+I have already installed Veritas Backup Exec 9.1 which has the drivers for the Sony drive.
+My question is: What is the safest, easiest way to install the new backup tape drive?
+Separate adpter card or chain w/ the HDD?
+What about setting the SCSI jumpers on the Sony drive?
+They are currently set to &quot;parity&quot;.
+Please note I eventually plan to replace the HDD too.
+I follow directions very well, and am familiar w/ most hardware terms.
+Thanks in advance!

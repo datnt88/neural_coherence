@@ -1,0 +1,5 @@
+There are 3 USB pin headers on your mobo.
+Each pin header can be responsible for 2 USB ports.
+In your manual, the headers are labeled USB78, USB56, and USB910.
+It doesn't matter which one you choose, so let's use USB78 USB pin header * * * * * &lt;--row1 * * * * &lt;--row2 Keep all 4 USB front panel connectors in one row, such as row1.
+Connect as follows: CASE -- MOBO VCC -- USB+5V DATA+1 -- USB_P8+ DATA-1 -- USB_P8- GROUND 1 -- GND

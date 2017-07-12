@@ -1,0 +1,13 @@
+It has taken a longtime but I have the solution to the networking with LAN Ethernet and connection to the internet via ADSL modem.
+First the ADSL modem should have a router function even though it has a single port so as the modem I used [Zyxel Prestige 650].
+Connected to this you can then have a LAN switch.
+I use the 5 port from Sweex.
+My firewall is basic Zone Alarm.
+The important settings are: 1.
+Firewall - Main - Trusted Zones - Medium 2.
+Firewall - Zones - Add a &quot;truted zone&quot; with an IP range to cover your home computers Your computers should all have the same workgroup name.
+You will find this under Network Neighborhood - Properties - Identification.
+Printer and folders/files have to be set to shared.
+Then it will work with 100MHz download speed.
+You don't have to worry about length of LAN connections if you have the screened cable otherwise 15 - 20 m is feasible.
+I wish you all much success

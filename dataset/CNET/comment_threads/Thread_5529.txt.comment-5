@@ -1,0 +1,8 @@
+if so, ensure media center is configured without TV support and get the latest catalyst drivers from http://ati.amd.com/support/driver.html if you're running xp, also get the catalyst 7.4 drivers.
+after you've installed them, turn off the the right-hand monitor and reboot.
+next, open catalyst control center's advanced view and select &quot;displays manager&quot;, ensure you only have 1 monitor detected, and set your desired resolution and color depth.
+select &quot;digital panel properties&quot; and enable &quot;alternate dvi operational mode&quot;.
+now turn on the right-hand monitor, go back to &quot;displays manager&quot;, and click &quot;detect displays.&quot; click the 2nd monitor and set your desired resolution and color depth.
+go to the 2nd &quot;digital panel properties&quot; and enabled &quot;reduce dvi frequency on high-resolution displays&quot;.
+if that doesn't work, enable &quot;reduce dvi frequency&quot; on the first digital panel also.
+as a last resort, you could use the dvi-vga converter and use your 2nd monitor with a vga input.

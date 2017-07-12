@@ -1,0 +1,35 @@
+There really isnt enough information about your needs for a definitive answer to your basic question NAS or Server.
+Do you need password management, roaming profiles, software distribution, etc.?
+If so, a server may be indicated, with or without NAS.
+If you only want file storage, then one or more NAS units may be OK. My gut feeling, from what you have said so far is that a couple of NAS units would suffice.
+You talked about several things with respect to your proposed network speed and redundancy being two important ones.
+Lets talk about speed first.
+Your plan to install Cat6 cable is necessary for Gigabit (1000Base-T) Ethernet, but not necessarily sufficient.
+For one thing, Base-T Ethernet cabling is limited to runs of 100 meters.
+Also, the devices in the system NICs, switches, file server(s), etc.
+must also be Gigabit-capable to achieve this speed.
+You must not even consider a hub; you will need a Gigabit Ethernet Switch for your LAN.
+Whether it should be a managed or unmanaged switch depends on questions not addressed in your post.
+If you have any cable run switch to workstation of over 100 meters, including all patch cables, it should be optical cable.
+This will, of course involve some other devices for the conversions.
+Will all workstations need to access all files?
+If not, you possibly could gain some speed, at the expense of cost, by breaking the LAN into segments, with workstations having the same file needs on a segment with its own NAS.
+You could still communicate across segments, but activity within a segment should be somewhat faster.
+You mentioned a desire for redundancy.
+This is indeed the function of some of the six RAID configurations.
+Bob and Dick downplay RAID because their mindset was on speed -- RAID 0 (striping) which almost doubles the disk access speed; this they feel you do not need.
+You, however, asked about redundancy, which is an entirely different matter.
+You will want RAID 1 (mirroring); this will not increase speed, but does provide something like automatic backup of data.
+For your purpose this is the way to go.
+But be sure you get a system with hot switching of the drives, so that if one does crash, you can pull it out and replace it without shutting down the file server and interrupting any actvity.
+The good drive of the pair will then regenerate the files on the replacement and you will regain your redundancy.
+(I mentioned there are other RAID configurations these are combinations of striping and mirroring, with or without error checking.
+I doubt that you would need any of these.)
+You also mentioned having some wireless connections.
+These will not even come close to your Gigabit Ethernet speed.
+In fact, even the new 802.11n standard will barely keep up with 100Base-T, if at all.
+There are many more factors that must be considered in designing your LAN.
+For instance, will you want internet access for any or all workstations?
+What about network printers?
+You will need network devices for things such as these.
+Hope this helps some Frank

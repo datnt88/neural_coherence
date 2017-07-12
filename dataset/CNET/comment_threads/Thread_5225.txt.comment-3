@@ -1,0 +1,8 @@
+The word &quot;same&quot; (IP, Gateway, DNS entries and NETMASK to 255.255.0.0), confused me a little.
+Currently both LAN/Network are separated physically.
+Can I just plug in both modem (Cable and ADSL) in one Switch (Cable + ADSL Modem -&gt; Switch --&gt; PC's) and make the IP, Gateway, DNS entries and NETMASK to 255.255.0.0, configuration as you suggested?
+If I understand it correctly then: For the Cable modem I set the IP: 192.168.1.1 For the ADSL modem I set the IP: 192.168.1.2 Disable DHCP Set DNS (as per ISP (cable/ADSL requirement?)
+Set Gateway (192.168.1.1 and 192.168.1.2) Set Netmask (255.255.0.0 on both modem?)
+For the PC's, I configure each PC's accordingly.
+Does it matter if they use different workgroup name?
+Please advice, Thank You

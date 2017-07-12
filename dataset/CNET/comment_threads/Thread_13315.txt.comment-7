@@ -1,0 +1,31 @@
+I was merely attempting to provide some basic guidelines as to mesh networking.
+I can't really get into specifics based on the information that was given at the top of the post, but I can share some info on a project I am working on in South Florida.
+I have been planning the implementation of wireless coverage for a small town, approximately 43 acres.
+I explored the setup of a mesh network for this area HOWEVER, I have decided against it.
+Mesh networks are mainly used for large scale wireless deployments, ie.
+Philadelphia's recent project.
+The major benefits of a mesh network, as I see it, are that the network is easily scalable, and when your bandwidth is a concern then the APs automatically re-route end-user access to different gateways (if available) to compensate (this is a very nice feature).
+If I were to deploy a mesh network in my scenario, I would be using the Cisco Aironet 1510 APs, a Cisco WLC (wireless lan controller, your amount of APs determines which model to go with), for the gateway I would use the Linksys WRT600N, and for the management of the network I would use the Cisco WCS software.
+Even though Linksys is a subdivision of Cisco, you cannot beat Cisco quality and support.
+The SmartNet OnSite warranty is an absolute MUST if you are going to have subscribers, or people that depend on your network.
+Like I said, I will not be using the mesh network.
+I will be using about 20 Cisco Aironet 1250 APs to create a large overlapping network.
+I will still be using the WLC,Linksys WRT600N , and the WCS software.
+The range of the 1250 and 1510 is very similar given the same antenna, approximately 500-600ft, but you will most definitely be experiencing all sorts of network interference, and will probably end up with a range of 200-300 ft of GOOD network coverage that will allow for higher speeds.
+I have my reasons for not going with a mesh network, but I will delve a little further into that topic.
+The Cisco Aironet 1510 is an outdoor mesh AP that is EXTREMELY reliable, withstands severe conditions, and provides up to 675ft coverage area.
+If you are going to setup a mesh network then this is what you want.
+Mesh networks typically are used to span across a large area, where outdoor placement is a must.
+Many people have now been attempting to develop little mesh networks, for their neighborhood for example.
+If your are operating at that level I recommend the use of MERAKI networking solutions.
+They have been endorsed by Google, and are MUCH cheaper than using Cisco hardware.
+Yes, I do like to talk a lot.
+So to answer your question &quot;What mesh software are you proposing?&quot;, it really all depends on your situation!
+I know that is not much of an answer, but there are many factors that play into the implementation of a mesh network.
+If you could, just provide me with some more details like; how much area are you trying to cover, are you indoor or outdoor, what price range are you working with, what is your networking experience...
+Even the material of the surrounding buildings, and the placement of trees (which greatly degrade the signal strength) effect which solution that I would recommend.
+As far as software goes, I would use the WCS for a project like mine, or for a smaller project, Meraki provides excellent free management software that should be sufficient.
+I have assumed that you are talking about management software, not &quot;firmware&quot;.
+If anyone needs any more info, I would be glad to offer my help.
+You can email me through my company Techspert Solution, or post a reply here.
+techspert@yahoo.com

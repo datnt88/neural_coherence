@@ -1,0 +1,12 @@
+The speed will seldom change on a ethernet port but the duplex causes all kinds of issues.
+The default if it cannot figure it out is to run at half duplex which causes all kinds of errors when you try to run a lot of traffic.
+I suspect the only way you will get it to work is to leave it on AUTO.
+The description of why gets complex but what happens if you set yours to FULL and they leave theirs on AUTO you get your end on full and their end on half.
+The worst possible case.
+A error like this causes huge loss so it is easy to test.
+Just run a continuous ping to the default gateway with a packet size of say 1300.
+I would do it with a directly connected PC first.
+Even if you have other errors running a ping to the default gateway of the ISP tests the connection to your house.
+If that is clean but you still have issues it is further into their network and does not just affect you.
+Note the ISP can also ping from their device to your house.
+You need to call them when it is happening so they can see it, they do not need to come to your house to test.

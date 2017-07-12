@@ -1,0 +1,5 @@
+Hi, yes, that's what I had found on the net and what I had done, but it didn't work.
+I don't know if it is because the OS are not the same, or because the laptop (and the network card in it) are a bit old (about 5 years).
+If you connect the two computers with the crossover cable and then try ipconfig /all (I think that's what it was, I found this info on the net too) you will find out the automatic IP address assigned by the crossover cable.
+(It won't appear if you just try ncpa.cpl, but it is there...) I also tried those IP addresses you mention + the subnet masks, but the only thing that worked was adding the IP address of the other computer in the default gateway...
+I found this solution &quot;hidden&quot; in a thread, so obviously not a well-known solution, but it worked!

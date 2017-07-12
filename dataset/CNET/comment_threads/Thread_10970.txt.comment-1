@@ -1,0 +1,15 @@
+In 802.11 and 802.11e.
+1.
+PC STA1 STA2 STA3 2.
+HC STA1 STA2 STA3 The above are two scenarios 1.
+AP is configured as PC and consider one CBR application is present between 1 and 3.
+2.
+AP is configured as HC and consider one CBR application is present between 1 and 3.
+In scenario 1 if PC has polled to STA1 then STA1 will start sending packets to STA3.
+Here my doubt is that the packets will go via PC(AP) or directly to STA3, If the packets are going via PC then what is the need of sending via PC.
+Because POLLING to STA1 means giving right to STA1 to send the packets.
+In scenario 2 if HC has send CF-poll to STA1 then STA1 will start sending packets to STA3.
+Here my doubt is that the packets will go via HC(AP) or directly to STA3, If the packets are going via HC then what is the need of sending via PC.
+Because POLLING to STA1 means giving right to STA1 to send the packets.
+If any one haven't understood the scenario, please ask your doubts.
+If any one have any idea regarding this please post your reply?

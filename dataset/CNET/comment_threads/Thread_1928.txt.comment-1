@@ -1,0 +1,16 @@
+Old PC: Dell 8200, 2 HDD's (1 Maxtor 80GB for OS and apps, 1 WD 80GB for misc files), Intel III 1.8GHz, 512KB RAM.
+Win XP Pro.
+New PC: eMachines T6212, 1 HDD (Seagate Barracuda 160MB), AMD 3200+, 1GB RAM.
+Win XP Home.
+I ghosted my Maxtor drive to the Seagate NTFS partition wihtout a problem.
+However, the Seagate drive shows two partitions with two logical drive letters (F: (FAT32) and G: (NTFS) ).
+I tried booting up the new drive in the new machine and I either get a missing hal.dll error or the machine goes straight into the RECOVERY mode (which is resident on the FAT32 partition).
+When I put the old drive in the new PC, it comes up fine (BTW: this was after I changed the IDE interface to standard).
+So, I ghosted the FAT partition from the old drive to the FAT(32) partition of the new drive which would then make everything the same, right?
+Nope.
+The new PC says something like &quot;booting from partition&quot; or something like that.
+It doesn't make sense to me that the old drive works in the new PC but the new drive doesn't work even though they are identical now.
+I don't have the original Win XP Pro CD, so I have had to restore the new drive using the emachines restore CD's and therefore, I am back at square one.
+I really don't want to put an older drive in a new machine especially when I should be able to use the new drive which has double the capacity in the new PC.
+Any ideas on how I can get my OS, apps, settings, and everything from my old drive to the new drive for the new PC?
+(w/p a Win XP Pro CD).

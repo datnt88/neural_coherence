@@ -1,0 +1,4 @@
+80GB hard drive = UDMA5 = ATA/100 = 100MB/second 20GB hard drive = UDMA2 = ATA/33 = 33MB/second Other speed factors: - amound of disk cache (512K vs 8MB, larger is better) - rotation speed (4500rpm vs 7200rpm, faster/higher is better) You want the OS to be on the fastest hard drive (80GB), on the lowest IDE channel (usually labeled channel 0), and as a master.
+Use an 80 wire (40 pin) Ultra ATA cable that is rated for ATA/100 or ATA/133.
+I'd put the 20GB HD as a slave on whatever channel it likes.
+Some older HD's and optical drives don't cooperate in certain positions on the same channel as other drives.

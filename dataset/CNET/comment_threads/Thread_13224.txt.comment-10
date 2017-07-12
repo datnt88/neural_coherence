@@ -1,0 +1,8 @@
+that the mobo power turn on logic circuit has failed.
+The main rails of an ATX supply are turned on when the mobo puts a logic low on pin 14 of the power supply to mobo connector [pin 16 on a 24 pin power connector].
+Thus, I would suspect that the circuit in the mobo has failed in the low state [or of course, a failure of the supply's control circuit inside the supply could fail and cause the same indications].
+The ATX power supply can be turned on while sitting on a table in its box by simply plugging the supply into a hot outlet and connecting pin 14 of its mobo connector to any one of the pins in the same connector that has a black wire [ground, common, return, you name it].
+Thus if the power supply had the failure internally the supply would turn on by simply plugging it in to a hot outlet [the connector to the mobo unplugged].
+If it doesn't turn on under that condition the problem is the mobo connection to pin 14.
+When not connected to the mobo the fact that the supply turned on is noted simply by noting that its' fan is rotatiing.
+Seems that this simple problem has been around way too long.

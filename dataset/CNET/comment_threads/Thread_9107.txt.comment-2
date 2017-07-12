@@ -1,0 +1,8 @@
+Window's Visa, Just wanted to write I worked the problem out.
+I started with the System Restore problem.
+------------------------------------------- Start-&gt;Run Type &quot;services.msc&quot;.
+Enter.
+In the Services Window, in the right pane; Please check that the following services are enabled and also note the Startup Type: - &quot;Remote Procedure Call&quot; (RPCSS), Automatic mine (Automatic) - &quot;COM+ Event System&quot; (EventSystem), Manual mine (Automatic) - &quot;System Event Notification Service&quot; (SENS) , Automatic - mine (Automatic) - &quot;Volume Shadow Copy&quot; (VSS), Manual - Mine (Manual) - &quot;Microsoft Software Shadow Copy Provider&quot; (SWPRV), Manual.
+mine (Manual) ---------------------------------------------------------------- I CHANGED : THESE TO AUTOMATIC &quot;Volume Shadow Copy&quot; (VSS), Manual - Mine (Manual) - &quot;Microsoft Software Shadow Copy Provider&quot; (SWPRV), Manual.
+mine (Manual) NOT SURE IF THIS HELPED, I CAN'T TELL UNLESS I RUN SYSTEM RESTORE.
+-------------------------------------------------------------------- I UNINSTALL THE PICASA AND STILL HAVE THE SAME PROBLEM, THEN I NOTICED THE PROGRAM THAT WAS OPENING MY PICTURES WAS SET TO &quot;IRFANVIEW&quot; - I CHANGED THAT BACK TO &quot;MICROSOFT WINDOW VIEWER&quot; REINSTALLED PICASA, IT WORKED!

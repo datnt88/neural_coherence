@@ -1,0 +1,4 @@
+I was trying to fix my scanner when I noticed the SCSI/RAID Host Controller was conflicting with the Direct memory access controller.
+Here is what the Conflicting device list says: Input/Output Range 0000 - 0002 used by: Direct memory access controller I tried removing the SCSI controller and restarting windows in hopes that it would choose a different IO range but it went back to the way it was.
+I would appreciate any help.
+Win2k MSI MS-6330 VIA KT133/A Chipset

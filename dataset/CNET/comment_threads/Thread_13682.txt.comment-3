@@ -1,0 +1,5 @@
+I dont have any issues to migrate from class C address to class B address.
+In fact we have 10 ADSL lines and 5 of them goes in the load balancer (One gateway) and the rests are used as default gateways for internet access.
+We use ADSL routers as access points, but those routers should be part of our network and should be given an address in order for them to act as default gateways for internet access.
+I'm facing a real prob with the ADSL routers Linksys WAG54G2 because they doesnt support a subnet mask 255.255.0.0 Any recommendation for an ADSL router model that support a netmask 255.255.0.0 ?
+to have a better view : My cisco router interface configuration ip address: 172.20.0.1 255.255.254.0 Load balancer output lan ip address: 172.20.0.5 My ADSL routers will be in the following range : 172.20.0.6 - 172.20.0.10 These IP addresses will be used as default gateways for hosts on my only one subnet.

@@ -1,0 +1,6 @@
+For the ISA modem, the system builder knows what to set in the BIOS such as the IRQ for PnP or &quot;Legacy&quot; or ISA.
+The system owner will also know to try COM2/IRQ3 and disable the onboard serial port 2 as well as the IRQ settings in the BIOS.
+It would have been nice to use the PCI modem, but without a current BIOS, you may be &quot;stuck&quot; in the old bad ways where we must know all about how to set BIOS settings and more.
+After the modem com/IRQ is set, the BIOS configured, a real hardware modem may not require a driver, but it may be a good idea to load one for your selected OS.
+I can't tell you how to do this since there are two bazillion ISA modem models, so just follow their instructions.
+Bob

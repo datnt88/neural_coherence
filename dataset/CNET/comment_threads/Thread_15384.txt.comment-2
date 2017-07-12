@@ -1,0 +1,4 @@
+If you have not enabled floppy seek in the BIOS, enable it.
+What you need to do is &quot;stall&quot; for time during the reboot for the drive to come up to speed to be detected.
+Any delay in the boot sequence that you can add, that runs before it tries to find the drive could help.
+Although, I must admit that the problem usually happens during a cold rather than a warm boot if this is the cause.

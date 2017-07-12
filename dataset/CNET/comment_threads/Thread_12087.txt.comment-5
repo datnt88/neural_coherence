@@ -1,0 +1,7 @@
+worked with another on a school network without problems but that network was not complex.
+I don't know how yours was set up but we used static addressing rather DHCP.
+The print server needs a fixed address and that address must also be configured on the TCP/IP port that was created on each PC.
+I presume this was done.
+However, we later had a similar problem with another network printer that installed and configured ok but wouldn't print.
+It turned out to be a TCP/IP address conflict and XP didn't warn us about it.
+I wonder if you are using DHCP and the print server's address isn't in a reserved range.

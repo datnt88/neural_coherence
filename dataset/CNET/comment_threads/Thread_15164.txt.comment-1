@@ -1,0 +1,21 @@
+'Installed a new Brookstone Photo Scanner (Model No.
+SKU634394) on my iMac7,1 running Mac OS X 10.6.5.
+For this install, I connected the scanner directly to the iMac using the provided USB cable.
+For software, I used the provided CD to install the iConnect driver and utilities called DigiPhoto version 1.0.
+The software installed successfully until the very end when an error message appeared.
+The error message window was titled &quot;postflight&quot;.
+The body of the error message stated: &quot;chmod: Unable to change file on /Library/Application Support/Brookstone: Operation not permitted&quot;.
+Clicking the &quot;OK&quot; button on this window closed the window.
+At this point the install seemed to be complete.
+I then restarted the computer as instructed and, upon restart, the DigiPhoto software started and instructed that calibration of the scanner be undertaken.
+I proceeded to insert a provided calibration sheet (4x6&quot; white card) into the scanner with the side with printing facing up.
+By pressing a button on the DigiPhoto window on the iMac desktop, the scanner proceeded to pull the sheet through and creating a file from the scan.
+This file, &quot;Image0001.jpg&quot;, was placed in a special folder, &quot;DigiPhoto&quot;, that was created inside the iMac's documents folder.
+The scanner's printed instruction booklet then indicates that the fourth step in calibrating the scanner is as follows: &quot;Follow the on-screen instructions to complete the scanner calibration.&quot; I saw no such instructions on the screen of the iMac.
+The instruction booklet then goes on to state in bold text: &quot;Note: If the scanner installation is not started and displayed automatically on the screen, click 'Start', select 'Run' and type in [d:\setup].&quot; In the window of the running DigiPhoto application, I saw no &quot;Start&quot;.
+There was an &quot;OK&quot; button there, which, when clicked, seems to do nothing except close the window, but not quit the application.
+When I quitted the application, the application crashed.
+I would be happy to supply the content of the crash log, but there is not the room here to attach it.
+I tried deleting the application files (that I could find) and reinstall software from the CD but get the same results.
+I must admit that I did not delete the files at /Library/Application Support/Brookstone when I attempted the software reinstall so I suppose they could be corrupted.
+Any ideas what I should try to get this scanner calibrated and functioning properly?

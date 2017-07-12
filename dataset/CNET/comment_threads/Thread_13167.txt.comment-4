@@ -1,0 +1,7 @@
+&quot;&gt;How we will programmatically get the information of the Bandwidth of &gt;an access point.
+&gt;Otherwards how we will keep track of the bandwidth strength of an &gt;access point.
+If the access point supports SNMP, then MRTG, RRDTool, or a wide variety of SNMP based utilities will draw nice looking graphs.
+http://www.mrtg.org http://www.rrdtool.org However, if your access point does not support SNMP, then you can build a scripting tool that will extract the same information from a web page.
+For example, this Java program will extract the numbers from a WGT624.
+As always, it would be nice to know what you are trying to accomplish and what you have to work with.
+-- Jeff Liebermann &quot;

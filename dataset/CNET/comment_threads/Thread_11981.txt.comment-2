@@ -1,0 +1,52 @@
+Ok 2 things to need to check, 1st when your connected make sure you have a valid ip, by doing ipconfig (from the run box type &quot;cmd /k ipconfig&quot;)you will need to check with another machine on your network what ip your router uses it should look something like this Connection-specific DNS Suffix .
+: Link-local IPv6 Address .
+.
+.
+.
+.
+: fe80::9574:f9ba:92cb:1777%11 IPv4 Address.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.100 Subnet Mask .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 255.255.255.0 Default Gateway .
+.
+.
+.
+.
+.
+.
+.
+.
+: 192.168.0.1 If youre not getting a good ip then try rebooting the router and then reboot your laptop.
+2nd DNS settings If youre connected and have a good ip but still cant view webpages it could be your DNS Settings.
+From the run box type &quot;cmd /k ipconfig /all&quot; and then look for your DNS settings they should look something like this DNS Servers .
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+: 208.67.222.222 208.67.220.220 They can and properly will be different; you can use the DNS server above.
+Give these two things a try and see if you have any luck

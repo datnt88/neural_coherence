@@ -1,0 +1,14 @@
+I wonder why you have so much partitions in one HDD.
+If you use FDISK from the DOS prompt in partiotioning your hard disk, I presume that you formatted all those partitions and you used only one partition with an operating system in it.
+The problem may had been caused by too many a partition in one hard disk.
+FDISK partitions drives accordingly as such: 1.
+Creation of a logical drive 2.
+Creation of an extended dos partition 3.
+Creation of a logical drive in an extended dos partition.
+4.
+Settting the active partition The discussion in the use of disk partitioning is endless, but in my case, to prevent some problems in disk partitioning like formatting multiple partitions, invisibility of some created logical drives in disk partitioning, I stick to a rule of: 1.
+Creating a primary DOS partition and setting it active, and; 2.
+Creating an extended DOS partition 3.
+Displaying the disk information to check how much space I had reserved for the partitions and to check if I did the right partitioning procedure, if not, I go back to the disk partition menu, i.e., deleting the partitions again...
+The use of FDISK destroys all data in the hard disk, so if you want to partition, re-partition or delete unwanted partitions in your hard disk, do use PARTITION MAGIC, it is a program that will partition your hard disk but it will not destroy existing data.
+Do read the help me file before you proceed.

@@ -1,0 +1,7 @@
+Since most flash drives come in FAT32 format, some glitches apply.
+How big is the file being tried to save?
+Even, if the file is smaller than 4Gb, it may allocate a larger size in order to fulfill the final total of needs.
+Save, all your data and try this.
+once that is done, reformat the flash drive to NTFS format and that should help greatly handle large files or data transfers to storage.
+I found even 3gb+ sizes can cause problems.
+tada ------Willy

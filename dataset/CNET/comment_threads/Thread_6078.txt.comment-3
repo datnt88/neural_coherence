@@ -1,0 +1,10 @@
+Reverify that the bios video port was disabled.
+Check the Nvidia setting pgm.
+for any selection of video ports or displays, swap if need be.
+Boot into safe mode and goto the device mgr.
+and delete all reference of video ports/cards, exit out and shut down.
+Attach cable to new video card, reboot and enter the bios, reverify video port disabled, if correct OK, no, correct it, save and exit out.
+Allow it to continue booting, hopefully it sees new h/w and you proceed with install then or its a plain video connection, now start the install after finish of boot.
+This all becomes a &quot;catch-22 situation&quot; if it keeps defaulting to build-in port, that a bios glitch, see if eMachines has any new bios patches that may address this.
+Are you sure any extra video power plugs are attached on the video acrd itself(if required)?
+tada -----Willy

@@ -1,0 +1,5 @@
+The Intel chipset artificially creates the FSB, however it might not use 800 when the memory is only PC 2100.
+Intel still clocks the memory at its rated speed but the quad clock function creates additional clocks.
+However, if at the next clock the there is no new data available from the slower memory it is just a wait state.
+Only way to get the maximum memory bandwidth to satisfy a P4 is with Dual Channel memory and PC3200.
+Find out from SIS what FSB it supports for that CPU and that slow a memory.

@@ -1,0 +1,11 @@
+I see and most companies will rig the pix so you cannot change the configuration.
+Although there are routers that can run multiple networks most are commercial.
+You could look at the firmware DD-WRT that is linux based that can add many features to routers.
+I am not sure if your router is supported mostly they are linksys.
+The easiest way would be modem --Belkin----pix ---- new wireless router---pc + +------ other wireless stuff.
+The new router could be very simple you are going to want to run it as a access point anyway.
+You would plug the LAN port of this router to the pix.
+The key is to run the 2 wireless on 2 different SSID and 2 different channels.
+A note on PIX behind a router.
+They are more than likely using IPSEC your belkin should by default support what is called NAT-T which mean running IPSEC over UDP port 4500.
+Check with you IT to be sure that is what they are doing, if they are running IPSEC not over UDP you will need a special configuration on your router.... You can hope your company soon goes to the new method of remote user access using SSL VPN since there is no hardware just a little activex plugin to load.

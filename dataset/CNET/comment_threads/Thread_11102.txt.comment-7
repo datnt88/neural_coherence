@@ -1,0 +1,9 @@
+Found out some stuff for ya.
+Turns out, when you see the location of the Video Card as &quot;PCI bus 1&quot;, that is OK.
+If you want to make sure, download the latest drivers for your video card from NVidia's website (www.nvidia.com), or use Gainward's own drivers from their website.
+Also, if you are able to edit your registry (regedit.exe), go to the following key: HKEY_LOCAL_MACHINE\SOFTWARE\NVIDIA Corporation\Global\NVTweak Right-click the right side of the two &quot;sides&quot;, then click on &quot;New/DWORD Value&quot;.
+Name the value &quot;CoolBits&quot;, then set it as &quot;ffffffff&quot;.
+This will enable all the &quot;secret&quot; pages in the video properties page.
+Right-click on the desktop and then on &quot;properties&quot;.
+Under the NVIDIA properties, go to where it (should) says &quot;AGP Settings&quot;.
+On that tab, there is a slider that enables you to change from &quot;PCI&quot; to &quot;AGP&quot;.

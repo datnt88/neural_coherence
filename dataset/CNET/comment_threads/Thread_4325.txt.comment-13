@@ -1,0 +1,12 @@
+Hi everyone, I had this same extremely annoying problem on a GeForce FX5200 card running under Win XP and tried fixing it by installing the latest Nvidia drivers but it just seemed to make matters much worse.
+I finally fixed it by uninstalling the nvidia drivers, and then running Driver Sweep to remove ALL trace of the nvidia drivers - and then the subsequent reboot everything worked perfectly - no monitor problems whatsoever!
+Checking in Hardware Manager there was a warning next to the Display Adapter representing the FX5200 and when I clicked on properties it showed that there were no drivers.
+Yet everything was working fine!!
+So I decided not to bother reinstalling the nvidia drivers!
+It would appear that removing the drivers, and just letting Win XP sort out the plug and play capabilities of the card and monitor is the best option to fix this issue.
+(For Win XP at least!!).
+Please note that I only use my PC for office type functions and don't do any gaming - so this approach may not work if you want to use all the funcionality of your graphics card - certainly for all the basic windows stuff it works just fine without the nvidia drivers!!!
+This problem appeared gradually - finally culminating in rapid on/off and flickering screens with distorted graphics and then the constant standby state of the monitor and on occasion BSOD's.
+If you need any more background on how this problem manifested itself on my PC then let me know.
+Hope this helps everyone!
+Cheers Eddie

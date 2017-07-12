@@ -1,0 +1,6 @@
+PCs have multiple usb root hubs.
+there are usually two or more ports per hub and each port must share the usb power output of that hub.
+the hubs are shown in device manager under &quot;Universal Serial Bus controllers.&quot; you need to locate two ports which are on different controllers so each port will be delivering full power.
+plug in any usb device (a flash drive is ideal) and double click each &quot;USB Root Hub&quot; and check the &quot;Power&quot; tab until you find the usb device.
+then plug the device into other ports until it shows up under a different hub.
+but if you're worried, a powered usb hub will definitely give you enough juice.

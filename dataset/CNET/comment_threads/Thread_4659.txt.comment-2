@@ -1,0 +1,10 @@
+Most mtrbds.
+have LPT and COM ports build-in.
+Under the bios area, upon boot-up get into the area.
+Once there check to see if the LPT port is enabled or active and what the IRQ is, usually IRQ7.
+If it is enabled and still no action at the LPT port, then more than likely the LPT port has bit the dust, kaput.
+To continue using the LPT driven printer, go back into the bios and disable the LPT port.
+Get your hands on LPT based I/O card, either solo or dual, it may have extra COM port(s) too, just be sure to have only the LPT1 active following whatever instructions they give, install it and follow prompts.
+You can later swap printer cable to new LPT port.
+Remove or disable any old LPT ports you had before doing the new LPT card install.
+tada -----Willy

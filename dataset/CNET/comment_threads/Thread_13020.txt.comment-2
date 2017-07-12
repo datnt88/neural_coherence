@@ -1,0 +1,9 @@
+Ordinate pin-1 to pin-1, striped side of HD cable??
+?Then you need to tell the system bios, that no HD is present for the SCSI to be used, *IF* no other HD is present, otherwise leave as is for the current HDs.
+Next, address the SCSI HD as #1 on its jumpers or what is called #1, but not #0, if it has it.
+You will need a &quot;terminator plug&quot; to either place on the last device of the SCSI chain or on the HD itself, provided it has a place for it.
+Further info should be gotten from the SCSI card maker/vendor as to how to use thier device.
+Quatum is now owned by the Maxtor HD makers, check there and look-up your model HD.
+The above info is generic in terms, but it should get you in the right direction, I'm sure it a simple step overlooked.
+Understand also, the HD has to readidied for use once acknowleged, etc., format, OS loaded if its the primary loading HD.
+good luck -----Willy

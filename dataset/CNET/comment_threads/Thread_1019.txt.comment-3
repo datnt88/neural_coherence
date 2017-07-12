@@ -1,0 +1,9 @@
+There is another issue and that is the speed loss as you pass some number of entries in a folder.
+Kees noted why such things move from files to a DBMS.
+I'm only adding another reason why it slows down.
+Once in awhile you will encounter someone that designed a system all file based with millions of files and it works on a local HDD and is a dog over a network.
+About half the time they call you an idiot because you can't solve the issue and the other half already knew they were in trouble.
+I see you found the usual copy apps so I'll add RoadKil's Unstoppable Copier to the list as well as the command line method.
+Any database admin knows the command line copy functions so I won't dive into that.
+In my opinion, work with the company to help them figure out that 2 million files in a system is not suitable for a network app.
+Bob

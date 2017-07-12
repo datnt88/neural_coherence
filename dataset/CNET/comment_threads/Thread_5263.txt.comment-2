@@ -1,0 +1,14 @@
+First, you said you upgraded from 256Mb to 1Gb, but you didn't state the configuration of the modules ie.
+1x512 and 2x256.
+You also stated that the ram is in good working order.
+At this stage I'm not entirely sure we can make that determination.
+You're problemis definitely symtomatic of bad ram, but don't panic yet, it may just be an installation problem.
+The first thing to try, is to reseat the ram (assuming of course you feel competent enough to do this, and making sure you're grounded from static by touching the chasis of the computer while it's plugged into the wall and not running) often newly installed ram can be seated a little off and cause problems due to a poor connection, it happens to the best of us.
+The other thing to try is to switch dimm slots on the board if you reseat in the original slot and the problem persists.
+It may just be that slot doesn't like that chip but would work fine with other chips.
+It's a pavillion, so it doesn't have a high end motherboard in it.
+Last but not least, to test the memory, go to http://www.memtest86.com/ and download the floppy of bootable cd version of this free tool (the standard in the industry amongst techs) and it'll run when you boot the computer with the disk in.
+Most of it may look like greek to you, but what you're looking for is in the bottom potion of the left hand side of the screen... badmem= (hex value here) hex value being an address on one or more of the modules you have installed.
+Note: If you have more than one module installed, I recommend testing each one individually to determine the culprit if the initial test shows bad memory addresses.
+To answer your question... no ram doesn't need drivers, no you're not barking up the wrong tree, and please post back if the bios is correctly identifying the amount of installed ram.
+Have a great day!

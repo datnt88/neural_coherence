@@ -1,0 +1,9 @@
+I spent the weekend adding all my static IP addresses on my network to the routing table, checking the box to make them publicly available.
+Then I moved all of the servers from the WAN switch, to the DMZ switch.
+My config is that I have a LAN switch for desktops, a DMZ switch for servers, and a WAN switch for those machines that I have not yet moved behind a firewall.
+Now that those machines are moved behind the DMZ I basically have an empty WAN switch that connects one port to the carrier managed CISCO 1800 Router plugged into it's FE 0/0 port.
+My firewall WAN switch is plugged into the WAN switch that is connected to the CISCO FE 0/0 port.
+The problem: When I unplug the switch from the FE 0/0 port and plug the D-Link DFL-700 Firewall directly into the FE 0/0 port I get NO lights.
+The connection is dead.
+When I go back to plugging the D-Link DFL-700 directly into the switch I get normal connectivity.
+Why am I required to plug my WAN into a switch and why does the CISCO 1800 FE 0/0 port require a switch instead of a WAN port from my Firewall?

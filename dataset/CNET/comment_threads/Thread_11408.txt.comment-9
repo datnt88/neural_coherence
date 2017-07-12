@@ -1,0 +1,7 @@
+That's a slick little device.
+The attack I was specifically a type of MITM attack against EAP-TLS and PEAP where an attacker gets between the client and the AP.
+During the initial phases, the attacker sends the client a bogus cert.
+If the client is not required to validate the cert, then it blindly accepts the cert and authenticates with the bogus set up.
+The attacker can then relay to the actual server and authenticate on to the wireless network.
+The attacker is now in a position to intercept and decrypt all traffic between the client, and the real AP.
+This is a fairly sophisticated attack that would be difficult to mount against a setup like mine, and there are ways to ensure that you are on the right network, but in an environment where you have a wireless network spanning multiple buildings, this could be a cause for concern.

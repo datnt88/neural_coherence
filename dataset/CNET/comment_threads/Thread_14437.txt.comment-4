@@ -1,0 +1,12 @@
+right click my computer -&gt; properties -&gt; click devices -&gt; click device manager.
+open the network cards icon (green) you'll see a red x on both your wireless cards click on each one and delete them one at a time, except your lan card, just delete the wireless cards.
+now restart the computer and windows should detect and auto install the drivers, if it can't find the drivers then click the cancel button and reinstall the linksys driver setup.
+once installed if you need to reboot then reboot.
+now click start -&gt; settings -.
+control panel -.
+network connections.
+right click the wireless card -.
+click properties -.
+click the advanced tab -.
+click the checkbox next to windows firewall to uncheck the box.
+this will disable the windows firewall and should allow your wireless to communicate.

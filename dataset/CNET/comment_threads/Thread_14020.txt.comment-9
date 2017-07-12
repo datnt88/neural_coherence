@@ -1,0 +1,9 @@
+&quot;Many motherboards lose the dual channel benefit if more than two matching slots are filled, so your question may be moot.&quot; I meant that the dual channel benefit (not necessarily dual channel mode) may be lost if a slot or slots are used beyond the two matching slot minimum (one in each channel) for dual channel operation.
+It has been my understanding that adding a third module to a typical four slot motherboard may eliminate dual channel mode if all modules have the same density.
+Thus, the dual channel benefit is lost.
+An example is if you populate the two slots of the channel A with 256MB modules (totaling 512MB), but only put a 256MB module in either slot of channel B.
+In that case, channel A has a total of 512MB and channel B has a non matching total of 256MB.
+Intel's explanation: http://www.intel.com/support/motherboards/desktop/sb/cs-011965.htm * * * * * Adding a fourth module to a dual channel capable motherboard may cause the memory to clock down in speed.
+Dual channel mode is still realized, but the dual channel benefit is lost.
+Dual channel bandwidth increase of up to 10% http://www.crucial.com/kb/answer.asp?qid=3751 - versus - Memory clock speed loss of more than 10% when slowing from 400MHz to 333MHz as a result of having all four slots populated.
+While those percentages are not &quot;overall speed&quot; indicators, they do give an indication of something lost for something gained.

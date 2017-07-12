@@ -1,0 +1,10 @@
+Thanks for the reply, Kees.
+I was over-simplifying, I think.
+My homework states that my company needs to receive blueprint files from a customer securely.
+I was thinking using a secure website as an interface for the file transfer.
+The customer would upload the files to the website and my company would retrieve the files.
+I was assuming that since it was a company sending me the files, that it would be one IP address because they should upload them from their work, which I would think would have one static IP for all outgoing traffic.
+My idea was to only allow the customer's static IP to have access to the website.
+I was thinking that the firewall rule would block all other IP addresses from accessing it.
+Am I going about this in the entirely wrong way?
+My only experience with this sort of thing is that my (real, current) work receives marketing data from a vendor monthly, and the vendor has set up a website that we use to receive the files.

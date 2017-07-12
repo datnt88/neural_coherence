@@ -1,0 +1,9 @@
+I think i already have some idea why it doesn't work in windows.
+I do not have the RAID controller driver for my chipset installed on my system.
+It is from VIA.
+Actually there is some problem as reported by many other users due to which the VIA raid controller driver for my chipset starts throwing BSODs.
+The only workaround for the problem is, if you do not have a raid configuration then don't install the RAID driver.
+Thats what i have done.
+And that may be the reason why WD diagnostics doesn't work in windows.
+But since my system is working fine, i really don't care about the RAID driver.
+By the DOS diagnostics, i am atleast assured that my HD is fine.

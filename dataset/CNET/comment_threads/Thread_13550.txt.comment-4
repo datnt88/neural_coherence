@@ -1,0 +1,11 @@
+If you can be precise about accounts, NTFS is being used and more, then we can proceed.
+I forgot to mention the need for NTFS since without, this will not work.
+Let's start with &quot;groups&quot; and &quot;owners&quot;.
+You could have a shared directory that is full access to some &quot;group&quot;.
+Or you could set the group access to read-only and some other group would have full access.
+Put people in each group depending on the effect you want.
+As you can tell, such is all in the words and understanding rights, groups, owners, ownership and some tools.
+One tool is CACLS or XCACLS or similar.
+You pick which is your cup of tea.
+Have you been to a book store and looked at books on administration?
+Bob

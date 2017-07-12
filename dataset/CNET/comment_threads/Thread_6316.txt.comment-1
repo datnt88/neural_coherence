@@ -1,0 +1,6 @@
+Believing that the sector map is used by the operating system to determine where (track & sector) to put a block of data I would suspect that RAID-1 should be able to be moved as the controller was &quot;just&quot; writing each block to two disks at the same time.
+Putting either disk in a new system and recreating the mirror should be straight forward.
+When it comes to RAID-0 the game gets complicated as there are 'stripe width&quot; issues as well as track & sector assignments to be considered.
+Is there standardization among implementations?
+Will a 250G 2 disk RAID-0 array from an Intel mobo be readable in an AMD system?
+(I'm looking for some lost legal document images on dead systems with on board PATA RAID controllers).

@@ -1,0 +1,24 @@
+So let me sort this out.
+You had a previous setup that worked.
+With the DSL that then went into your wireless router, and then you had your Win98 machine directly into the router, and your main computer elsewhere using wireless?
+And then you got a new cable connection (w/ new modem) and that is now plugged into your wireless router with everything else the same as before, but the internet does not work?
+If this is the situation.
+Then I would first make sure everything is physically setup correctly.
+Your modem should be connected to the &quot;Internet&quot; port on your router.
+And then your other machine should be connected to one of the other ports on the router.
+I will assume the cable modem/internet works if you plug into the modem directly?
+If the cable internet works, and you did not change anything else with your setup, then it has to be the link between your router and the cable modem.
+If your setup worked previously then you should not need to run any setup CD's for your router, so you kind of lost me there.
+Normally you would log into your router via a web browser.
+Usually a 192.168.1.1 address.
+If you are not aware of any settings you had to change when you originally setup your router, I would first try cycling your router as I described before, and perhaps doing the same to the modem as well.
+I do mean just to power them on and off.
+Usually you just have to disconnect the power.
+I would not 'reset' them, as you pointed out you would lose your settings.
+Your ISP should have indicated if there was any special settings you needed to use the connection.
+Most use DCHP to send you (your router) and IP address automatically.
+So be sure your router is set to do this, OR has the information provided by your ISP.
+I would make sure your PCs are the same as well.
+You may want to perform an ipconfig /release and then ipconfig /renew from a DOS prompt to be sure they have cleared out their settings as well.
+If it still doesn't work, you will need to get into your router and see what settings there are.
+After you do that, perhaps you can provide more information and we can be more helpful.

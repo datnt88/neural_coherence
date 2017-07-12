@@ -1,0 +1,14 @@
+Hi, all: I recently flashed my bios from A02 to A05 on a Dell L433c w/ 512MB RAM (256 in each of the two slots).
+Immediately after, system failed to boot because only 4MB RAM was recognized on POST.
+Repeated tries showed 16 or 24, but never enought to boot Win 98SE.
+If I remove one DIMM, system boots normally.
+In fact either DIMM in either slot works normally, but not both together.
+I took out one of the DIMMs and successfully flashed back to A02.
+Now boots normally.
+Reinstall second DIMM and have SAME PROBLEM!
+I guess it's not the BIOS after all.
+If I put either DIMM in either socket, machine works normally; if I put in both, neither A02 nor A05 BIOS will recognize more than 24 MB of RAM.
+Problem began immediately after the first BIOS flash.
+I'm starting to think about some kind of secondary chip or mobo damage.
+The diagnostic lights show all 4 green.
+Any ideas?

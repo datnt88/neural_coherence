@@ -1,0 +1,13 @@
+Aha, now we have some info.
+You are connecting a wide (16-bit) drive to a narrow (8-bit) controller.
+In this one drive configuration, you MUST jumper the drive to terminate the bus at himself.
+Moreover you must (probably thru SCSI BIOS setup or on board jumpers) terminate the bus on the Symbios board.
+Then you may have a shot at it working, but technically it's an illegal configuration.
+Bob is probably right, however before you spend your $50 on an ide drive, consider buying a Wide SCSI controller (68 pins) (the adaptec aha2940uw is available at around that price).
+This plus a wide (68 pin cable) s/b all you need.
+The disk ID can be anywhere EXCEPT 7 since that is reserved for the controller board.
+If the 68-pin cable you get has more than 2 connectors, you will need a cable terminator for the last connector on the the cable, in which case drive termination s/b turned off.
+Benefits: legal configuration, double the bus speed of the single 8-bit card you now have, room for expansion if desired.
+SCSI is challenging, but rewarding.
+More useful for servers than PC's (in general).
+Usually more expensive due to a lower volume market.

@@ -1,0 +1,12 @@
+Hi guys and girls.
+I can't seem to figure this one out.
+Here is my setup: Speedtouch 536 DSL Modem, Nexxt 4 Port Wireless Router, CNET CIC 920W Wireless IP Camera.
+The camera is set up in wireless mode and any computer on the wireless or local area network can see the camera and access the video.
+The setup went perfect for the internal network.
+But I cannot for the life of me see why the configurations I have set to see the camera externally are not working.
+Here are some of the things I have done: The IP of the DSL internally is 10.0.0.1 and the gateway is 10.0.0.138.
+The router is being assigned an IP 192.168.1.1 and the gateway is set to 10.0.0.138 (the WAN of the router is connected to the DSL).
+The IP of the camera is fixed to 192.168.1.100 and has a gateway and dns set to 192.168.1.1 The NAPT on the Speedtouch was modified so that any outside IP accessing port 80 would be mapped internally to 192.168.1.1 Also, the Virtual Server on the wireless router was set to put anything accessing port 80 to 192.168.1.100 which is the IP of the camera.
+I was unable to access the camera using the external IP of the DSL while at home so I tried going to another location.
+Still did not work.
+Can someone please tell me where I went wrong?

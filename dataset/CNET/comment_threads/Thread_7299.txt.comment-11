@@ -1,0 +1,6 @@
+Why wasn't this revealed earlier?
+As it stands, it sounds as if you assigned some IP to the wired connection.
+If so, for instance 192.168.1.5 (for argument since you didn't tell) would be on the wired interface with a netmask of 255.255.255.0 With the IP assigned to the wired interface, the wireless (WIFI) will never work since the route is &quot;occupied&quot;.
+I find it interesting you are doling out the needed information to find what's going on.
+That's your choice, but it may explain why support for your setup is problematic.
+Bob

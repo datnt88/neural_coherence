@@ -1,0 +1,56 @@
+&gt;i burned the iso (image) using nero and it took 35 min&lt; You burned an ISO image of what, exactly?
+Looking at the Log file you attached, it looks like you burned 4464MB or about 4.2 GB of data.
+At 8X, or about 11Mb/s, that would take 406 seconds or about 6.75 minutes.
+That's pretty fast.
+Without knowing how the data was structured, I'd assume the difference in time was consumed in caching the files and building the ISO image on the hard disk.
+If you were writing a CD, which can hold just 1/7 of the DVD data, it would have completed in about 1/7 of the time.
+Is that why 38 minutes seems so long?
+You want to write 4.2 GB of data in 5 minutes?
+You'll have to wait a few years, or spend a lot more money on equipment and you'll still run into some physical constraints.
+Using a faster DVD writer, and higher speed disks MIGHT halve your WRITE time, saving 200 seconds off the 38 minute creation time.
+Is it worth the higher price of the medium and the risk of a failed write operation?
+You assume that just writing files to DVD is the only factor.
+Creating an image means reading every byte, structuring the image, creating the image track layout and header, writing the data to the hard disk, then transferring it to the DVD.
+That's a CPU and disk intensive process.
+Nero is pretty danged fast already, but the only way to speed the process more, is a to write dedicated, optimized code and run it on a high speed, dedicated system, maybe running a few GB of RAM, dual processors and a nice quad SATA 300 RAID in striped mode.
+Nero tests your system, and determines the practical maximum data rate.
+That includes system bottlenecks you might not recognize as the bus waits for disk I/O and RAM.
+Yes, some people might be able to write disks at 12x or 16 x, but that means the hardware, system and medium are all capable of supporting that speed.
+There is no ''cheat'' to enable higher speeds.
+Nero is designed to give you RELIABLE data writing, which means it selects the SAFE option, not the FAST option.
+The Memorex 8X medium is fine.
+BTW - the vendor ''marks'' the maximum reliable speed on the disk.
+The DVD writer and Nero read that code and respect it.
+Trying to write to a disk at speeds higher than rated is a recipe for data loss.
+It's not worth saving a few seconds at the cost of re-doing the work or losing data.
+Besides, faster media may not be the issue.
+Also, there is a concern that faster disks use a more ''volitile'' dye because it can be written to with a briefer laser pulse.
+That may mean that long term exposure to heat or other light sources might degrade the data.
+I tend to buy and use the most stable media I can get, rather than the fastest.
+Different manufacturers will certify there disks for longevity, as well as max write speed.
+Just a thought to consider.
+Other speed options?
+If you don't know about On-the-fly writing and the potential issues, you probably should trust Nero's choices.
+Instead, prep your layout, save the parameters and do your disk writes when the machine is idle, like during lunch hour.
+&gt;writing at 16x cav.
+what does the cav stand for?&lt; Don't confuse CD speeds and DVD speeds.
+A CD reads data at 150kB/s at 1X, sufficient for an audio stream.
+A DVD reads at about 1.3 MB/s (1,352kB/s) or about 9x faster, to accomodate the base video data rate.
+If you are burning a DVD at 16x CAV, that's around 21.6 MB/s, which is faster than many hard disks ran, just a few years ago.
+CAV means Constant Angular Velocity.
+That means it spins at a constant rotational speed.
+Some devices vary the speed so they maintain a Constant Linear Velocity (CLV) as the head's radius position changes.
+For more info, please see OSTA.org http://www.osta.org/technology/dvdqa/dvdqa4.htm or see CDRinfo for guides, faqs & reviews http://www.cdrinfo.com/Sections/Reviews/Specific.aspx?ArticleId=13809 and read the Nero DVD Faqs at Nero.com or http://www.cdrinfo.com/Sections/Reviews/Specific.aspx?ArticleId=8392 Hope this helps -- TomS ------------------------------------------ BURNING SPEED am newbie to burning dvds.
+i just bought the nec nd3550a burner.
+so far i have burned 6 cds and dvds with no coasters.
+i have been burning a iso image to memorex 8x disks.
+i know i must get better quality discs but i am just learning about burning and media.
+now i burned the iso using nero and it took 35 min.
+i wanted to try to burn at 12x or 16x but i could not.
+i have read on the net that people using 8x media can burn at 12x and 16x.
+the highest nero will let me burn the disc is 8x.
+on top of the spec sheet for my burner it says ide/atapi ultra mode compatible.
+then it states dvd+r,-r writing at 16x cav.
+what does the cav stand for?
+here is my log from the burn.
+thanks for any help i get.

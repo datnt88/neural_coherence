@@ -1,0 +1,7 @@
+Hard to answer generic problems like this.
+The short answer is you have to read the manual and configure you r470.
+There is no standard solution for load balancing, each vendor does it their own way.
+I suspect you need to make sure your IP addresses blocks are not overlapping.
+As general comment...internet speed will not increase just because you use this.
+The only thing it can fix is if you were at 100% utilization of your primary link and you were going to offload traffic to the neighbors.
+You cannot combine the circuits to increase the bandwidth just by placing a box on one end.

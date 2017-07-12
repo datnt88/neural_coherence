@@ -1,0 +1,8 @@
+I am looking for a schematic for an older Compaq 5BW12 or at least a detailed sequence of what components are tested before permission is granted (via PS On) for the switching supply to power up.
+The computer has a 600MHZ Celeron CPU.
+The power supply bench tests ok with all voltages ok.
+In the machine the +5 volt standby voltage is present and one wire to the front panel switch is at a logic HIGH (+3.66 volts) the other side of the switch is at logic LOW (0 volts) pushing the switch makes both sides of the switch 0 volts.
+But the PS On pin going from the MOBO to the PS always remains high (+4.98V) and permission is never given for the switching supply to power up the main board.
+Removing the CPU and CPU fan, or the Memory sticks does not change any thing.
+Any information or Ideas for additional checks would be appreciated.
+Thank you Tom R.

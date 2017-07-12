@@ -1,0 +1,5 @@
+Are you using the 80 conductor cables?
+Since you are not using SATA devices I'd disable that and the RAID in the bios to avoid that issue about IDE emulation or where some of these boards (badly documented!)
+reserve the Primary IDE Master to the IDE or SATA RAID port.
+Why it does that is a very long explanation which I'll not be doing in this small space.
+Bob

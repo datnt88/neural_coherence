@@ -1,0 +1,4 @@
+Another interesting tidbit: With (1) 128Mb and (1) 256Mb module, ran www.crucial.com/systemscanner; it recognizes the 128 correctly as DDR PC2100, and the 256Mb correctly as DDR PC3200.
+I was then able to get the PC to boot up with both 256's installed, as well as the 128, although it still only recognized 384Mb total (didn't see the second 256, but was able to boot - this hasn't always been the case, go figure).
+Then, ran systemscanner again, now it reports both the 128 and the 256 as DDR PC3200 (didn't detect the other 256 module either).
+This was all done with the BIOS setting &quot;Auto Detect DIMM/PCI Clk&quot; enabled.

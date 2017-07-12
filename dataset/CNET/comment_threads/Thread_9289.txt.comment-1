@@ -1,0 +1,30 @@
+On our Jobsite we have a GSM Broadband Router with WiFi.
+It also has 4 Wired Ports.
+Due to the location of the GSM router some users cannot establish a WiFi connection to the router so I have installed a Linksys Router which is cabled to the GSM router.
+5 users are directly cabled via Cat5, and 3 users connect via WiFi.
+Here is the breakdown: User 1 connects via WiFi directly to the GSM Router.
+User 2 and 3 connect via WiFi to the Linksys router which passes data through to the GSM router via a Cat5 Patch cable.
+User 4,5,6 are connected via Cat5 Cables to the GSM Router User 7 and 8 are connected via Cat5 Cable to the LinkSys Router.
+A few days ago 4 of my &quot;Wired Users&quot; and 1 of my Wireless users lost the ability to load webpages.
+They all have active connections, Skype and other Voip and messaging applications work fine.
+DNS is working properly, I can perform DNS lookups from the command line, traceroutes and can access POP3 server via telnet connection from the command line.
+Webpages will not load in any browser (IE, Chrome, Firefox or Safari), even if I enter a valid IP address instead of a hostname.
+The users are mixed on both routers.
+My laptop connected to their Wired Connections works fine, my laptop connected via WiFi to either router works fine.
+All PC's are running XP Pro SP3 with all current updates.
+Here is where it gets strange, If I connect one of the problem PC's to the internet using a dialup connection, it loads pages just fine, only on the broadband connection does it fail.
+I've tried disabling the Firewall, I've booted in Safe Mode with Networking, I've done a clean boot, and I've done a system restore to a date when it was working.
+On these PC's if the Lan connection and the Dialup connection are both active it loads the pages through the dialup connection.
+All firewall and security settings appear to be identical on both connections.
+It seems like a TCP port issue with specific ports only, namely port 80, however without different firewall settings for the two connections it doesn't make sense that port 80 works on dialup and not on LAN connection.
+I don't even have to close the browser to get the page the load, just connect the dialup connection and refresh then voila'.
+The Huawei GSM Router and Linksys Router have been operational for 7 months.
+I installed and configured the network and I'm the only one with access to them, there have been no changes to either router.
+As stated the 4 Wired users work fine on Dialup but not on LAN, the 1 Wireless user that's having the same problem works fine on a Wired Connection (LAN) but cannot load pages on his wireless connection (SKYPE works though)as do MSN messenger.
+DNS is also working on this machine.
+The problem started on all 5 machines simultaneously this Past Saturday.
+All PC's show a system restore point with a single entry &quot;Software Distribution Service 3.0&quot; none of the unaffected PC's have this entry.
+All 5 PC's have (had) automatic updates on, the unaffected PC's did not.
+Restoring to a date prior to the entry does not fix the problem.
+Any ideas??
+?

@@ -1,0 +1,7 @@
+Make sure that all the devices are of a similar protocol.
+If you have an odd 802.11b device (like a built-in wireless on an older laptop) lurking in the mix, that could slow things down on the whole network.
+Furthermore, the security encryption takes a small toll.
+If the transfer is between two wireless links, the available bandwidth is divided between them, e.g., a 54mbs nominal network will spend half its time communicating to system A and the other half its time to system B, so only 27mbs can move in either direction.
+Add to that the crosstalk for operating system error checking, etc.
+and pretty soon it slows to a crawl.
+dw

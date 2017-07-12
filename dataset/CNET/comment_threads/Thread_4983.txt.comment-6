@@ -1,0 +1,33 @@
+it sounds like you have a Recycle Bin which has become detached from the host machine's Recycle Bin.
+Whatever is in it is now unavailable and will NOT appear in the host machine's Recycle Bin.
+The space will never be recovered from the external drive.
+One solution to this problme is this: 1.
+Do NOT do this unless you are technical and/or very sure of what you are doing.
+First ensure you are an adminstrator user.
+2.
+Bring up File Explorer (Windows Key + E).
+In the Menus, go to Tools - Folder Options - View.
+Scroll down and select &quot;Show hidden files and folders&quot;, and also un-select &quot;Hide operating system files&quot;.
+3.
+Now click on the external drive in the left panel &quot;Folders&quot;.
+You should see at least one or both of these: $RECYCLE.BIN and RECYCLER.
+They will contain one or more subfolders which cannot be viewed while windows is running called something like: &quot;S-1-5-21-3173086387-2615592467-1408983588-1000&quot;.
+4.
+For each of the two top level folders the process to remove them completely is the same.
+a. Right-Click each top level folder and select properties.
+Un-select &quot;Read-Only&quot; and click OK, then click OK to do same to all sub-folders.
+Wait til done.
+b.
+Do same for each sub-folder inside each top-level folder.
+c. Delete each top level folder and click OK to do same to all.
+5.
+Bring up File Explorer (Windows Key + E).
+In the Menus, go to Tools - Folder Options - View.
+Scroll down and select &quot;Do not show hidden files and folders&quot;, and also select &quot;Hide operating system files&quot;.
+Now you will have all that unused space clogging up a useless Recycle Bin available again.
+Hope this resolves your problem.
+I've just run into this problem myself on a 750Gb drive and recovered 38GB of wasted space.
+==================================================== You may then want to consider your options with your external drive's Recycle Bin: i) Right-Click on the main Recycle Bin and select Properties.
+On the Global Tab you can select &quot;Configure drives independently&quot;.
+If you do you will then be able to set the Maximum size of the Recycle Bin on each logical drive (partition).
+You may also set files to bypass the Recycle Bin altogeter for that logical drive.

@@ -1,0 +1,28 @@
+Logon to the pc as an Administrator.
+Open My Compter and select Tools / Folder options / View and then deselect Simple file sharing,,, apply the changes and restart.
+Attach the DSL modem to the pc with **XP PRO** Configure each pc to be on the same Workgroup(you can give the workgroup any name, must be the same on each pc) To do this right click on MY Computer and select Properties and then Computer name, then select Change.
+In Member of, select Workgroup and change the name.
+Save the settings and restart your pc's to initialized the change.
+Now, on the pc that has the modem connected you must Add (if it isn't installed you can add ICS thru Add/Remove Windows components from Control Panel) or apply the ICS (internet connection sharing)and select the ethernet adapter that is Directly connected to the DSL modem).
+To do this select Network Connections and select Create a new connection.
+Chose Connect to the Internet and then select Setup my connection Manually,,, select Connect using a broadband that requires user ID and password,,, follow the step by step instructions and enter the requested information,,, at some point you will be asked to share files and printers, select YES.
+Configure the dialup settings for your DSL connection.
+Set to redial and chose an appropriate number.
+Change the Idle time to NEVER.
+Change the redial time to 10seconds or less.
+Save the changes.
+Open the browser and select Always dial my default connection, this is located in Internet Explorer/Internet Options.
+DO NOT use the software supplied by your ISP.
+Connect the cat5 cable of this pc to the second port on the 2216 switch.
+Configure your other network pc's to the Never Dial setting available in the Internet Options/Connections.
+Windows will automatically search for an available internet connection thru the network.
+DO NOT disable DHCP on any of the pc's.
+The 2216 will supply appropriate IP addresses.
+The default gateway IP should be 192.168.0.1 There is really nothing else required except that the pc with the modem connected MUST be on and connected to the internet in order for the ICS to function for the other pc's.
+Don't forget to apply firewall settings within WIndows XP.
+It really isn't necessary to use a 3rd party firewall software.
+If you want to share files and printers you must apply the File and Printers Sharing option that is avavlable in the Network Connections.
+To share a drive or device you must right click on that displayed device and select Sharing.
+You can also apply permissions and users which are appropriate to your network.
+Default WIndows shares created cannot be adjusted, yu will need to create NEW shares and make the appropriate adjustments.
+Good luck if you haven't already achieved your goal before this message is posted.

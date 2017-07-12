@@ -1,0 +1,17 @@
+I've built a number of PCs without ever experiencing this common problem, here's what happened and how I fixed it.
+I built a micro-ATX machine for my wife, all moderate components.
+I researched their power requirements and figured a 150-watt Antec power supply should do the job.
+After installing Win 2K, I always install chipset drivers first, then ZoneAlarm, then Norton AV and hit the 'Net for updates.
+When I tried to open IE, spontaneous crash & reboot.
+Hmmm.
+After several repeats, I booted into Safe Mode, all was well, but when I booted normally and tried to run an app the crashes returned.
+Figuring the machine was underpowered, I schlepped off to Fry's to get a 350W ATX PSU.
+After shoehorning it into the case, imagine my surprise when the same incident occurred.
+I had purchased the mobo with the CPU installed and figured the assembler might have messed up the install, but before I went to that extreme (there was a piece of tape saying Warranty Void if Removed) I re-traced my steps and realized my problems started when I installed NAV.
+I re-booted into Safe Mode, removed Norton, and voila!
+Problem solved.
+I re-installed Norton and updated, machine ran SiSoft Sandra's burn-in routine with no problems.
+I guess there was some conflict between ZoneAlarm and Norton, or just a bad software install, for whatever reason.
+I've heard of bad drivers, bad PSUs & bad CPU installation causing this problem, never a bad install of software.
+Keep this info in the back of your head for the future.
+Anyone wanna buy a PSU?

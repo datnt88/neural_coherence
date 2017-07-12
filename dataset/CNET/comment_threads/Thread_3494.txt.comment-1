@@ -1,0 +1,19 @@
+The suggestion to get a real XP SP3 cd did the trick, mostly.
+I was able to install XP using the BIOS IDE mode, no SATA driver was required.
+My only outstanding issue is the sound driver.
+When I have sound working, I have two sound devices: The AMD HMDI sound device, and the Realtek sound device.
+The Realtek sound device handles the internal speaker.
+The problem is that when I reboot, the Realtek device disappears, leaving only the AMD HDMI audio device.
+There are two &quot;Microsoft UAA&quot; devices shown in the control panel.
+The first seems to be associated with the AMD audio device, and the second seems to be associated with the Realtek device.
+I have to delete the second UAA device and then &quot;scan for hardware changes&quot; to activate the Realtek audio.
+This works until I reboot, then the Realtek device goes away.
+I have tried the following things: 1) Set the Realtek device as the default sound card.
+On reset it is missing again.
+2) Disable the AMD device.
+On reset it is enabled again.
+3) Disable the first UAA device.
+This results in no sound devices being detected at all.
+Any ideas?
+Thanks all.
+Les

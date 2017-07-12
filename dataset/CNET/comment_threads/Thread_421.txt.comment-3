@@ -1,0 +1,13 @@
+Thanks for the suggestion, but I already tried the calibration.
+When I go to the &quot;HP Battery Optimizer&quot; in the &quot;Power Options&quot; menu, I get an initial message that &quot;the selected battery is not supported or is not working properly&quot;.
+If I click &quot;OK&quot; and then click on &quot;battery details&quot;, the resulting table says that the &quot;static data&quot; are &quot;not available&quot;, the &quot;historic data&quot; are &quot;cycle count=9; Max error=100;Full charge capacity=4000 mah&quot; and the &quot;Dynamic Data&quot; are &quot;current = 0 ma; voltage = 11264 mv; Remaining capacity = 250 mah&quot;.
+It won't let me test or calibrate the battery, I presume since it's &quot;not supported&quot;.
+Since the system is apparently reading a voltage on the battery, I took the battery out of the computer and checked with a small-probe DVOM.
+Sure enough, there IS about 11.4 V between what I assume is the ground pin (separated on the right from the others) and the fourth pin to the left of the separation (logically, these might be pins 1 and 5??).
+I guess I'll now try to find if I can draw some current from the battery through a suitable resistor.
+The strange thing is that the computer has not worked using this remaining battery for several months, so I had just assumed that the battery is bad - as indicated by the red light on the charging circuit.
+Maybe it is just a bad battery/charger connector - either on the computer or on the battery, or maybe just the connection between them, though I cleaned them pretty carefully, which usually would solve such a problem at least enough to give some intermittent indication of an improvement - and that hasn't happened.
+Sure would help to have a schematic of the charging/monitoring circuit including a pinout of the connector!
+Thanks again for the help!
+Still seeking!
+Aloha!

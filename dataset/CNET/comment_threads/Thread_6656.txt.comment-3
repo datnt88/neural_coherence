@@ -1,0 +1,18 @@
+Below is an excerpt from the web... Microsoft Windows XP, Windows 2000 and Windows Server 2003 offer two types of disk storage: basic and dynamic.
+Basic Disk Storage Basic storage uses normal partition tables supported by MS-DOS, Microsoft Windows 95, Microsoft Windows 98, Microsoft Windows Millennium Edition (Me), Microsoft Windows NT, Microsoft Windows 2000, Windows Server 2003 and Windows XP.
+A disk initialized for basic storage is called a basic disk.
+A basic disk contains basic volumes, such as primary partitions, extended partitions, and logical drives.
+Additionally, basic volumes include multidisk volumes that are created by using Windows NT 4.0 or earlier, such as volume sets, stripe sets, mirror sets, and stripe sets with parity.
+Windows XP does not support these multidisk basic volumes.
+Any volume sets, stripe sets, mirror sets, or stripe sets with parity must be backed up and deleted or converted to dynamic disks before you install Windows XP Professional.
+Dynamic Disk Storage Dynamic storage is supported in Windows XP Professional, Windows 2000 and Windows Server 2003.
+A disk initialized for dynamic storage is called a dynamic disk.
+A dynamic disk contains dynamic volumes, such as simple volumes, spanned volumes, striped volumes, mirrored volumes, and RAID-5 volumes.
+With dynamic storage, you can perform disk and volume management without the need to restart Windows.
+Note: Dynamic disks are not supported on portable computers or on Windows XP Home Edition-based computers.
+You cannot create mirrored volumes or RAID-5 volumes on Windows XP Home Edition, Windows XP Professional, or Windows XP 64-Bit Edition-based computers.
+However, you can use a Windows XP Professional-based computer to create a mirrored or RAID-5 volume on remote computers that are running Windows 2000 Server, Windows 2000 Advanced Server, or Windows 2000 Datacenter Server, or the Standard, Enterprise and Data Center versions of Windows Server 2003.
+Storage types are separate from the file system type.
+A basic or dynamic disk can contain any combination of FAT16, FAT32, or NTFS partitions or volumes.
+A disk system can contain any combination of storage types.
+However, all volumes on the same disk must use the same storage type.

@@ -1,0 +1,10 @@
+Essentially all popular non-SATA hard drives today are Parallel ATA (PATA) hard drives with an ATA/100 or ATA/133 interface.
+This means that they are designed to work with an 80 wire data cable (Ultra ATA cable) and can connect to a slot that is operated by an Ultra ATA controller.
+The Ultra ATA controllers are backwards compatible, i.e, you can put an ATA/100 HD on an ATA/133 controller.
+You also could put an ATA/133 HD on an ATA/100 controller, but you won't get the minor benefit of 133MB/s burst speeds (no big deal).
+It would be nice to know the make & model of your mother's computer.
+Because her old HD is 5400rpm, it may be an ATA/66 HD.
+It also may be connected to an ATA/66 controller on the motherboard, or even conected to an ATA/66 controller on a PCI card (popular on some older PIII models).
+So, placing the 80GB ATA/100 drive on the ATA/66 controller (with an Ultra ATA cable) will still work, but you won't get the full speed benefit.
+Still, it should be an improvement.
+If the 80GB drive, for some reason, doesn't like the Ultra ATA controller in you mother's computer, then you can always install a cheapo ATA/100 PCI HD contrloller card to use with that HD.

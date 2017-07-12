@@ -1,0 +1,2 @@
+http://msdn2.microsoft.com/en-us/library/aa366778.aspx writes &quot;User-mode virtual address space for each 32-bit process 2 GB Up to 3 GB with IMAGE_FILE_LARGE_ADDRESS_AWARE and 4GT&quot; You can edit boot.ini and add the /3GB switch but the application must be compiled with a special switch to use more than 2GB.
+Bob

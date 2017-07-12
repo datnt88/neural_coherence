@@ -1,0 +1,23 @@
+D-Link is the first to come out with a Gigabit wireless router/switch (the switch is Gigabit the wireless part is, as Dick suggested, not really Gigabit).
+I suspect others will now also come out with competitive products Dick said that your switch should have room for expansion, and he is absolutely right.
+I dont think I have yet seen a network that wasnt eventually expanded.
+In your case, I think a 16-port switch would be too small.
+You will have 10 computers, 2 print servers, an internet access point, a wireless router (these last two might be combined), and at least one NAS connection.
+This is at least 14 connections, leaving little for the future.
+A Gigabit router/switch could add four more, which might be adequate; the alternative would be a 20- or 24-port switch.
+One other item not yet mentioned is the patch panel where your premises wiring terminates in your server closet.
+Like the switch, it should certainly be larger than currently needed, and I prefer larger than the number of switch ports.
+You never know what the future will bring.
+With respect to the NAS, there are still some things to consider.
+The manufacturers that I know, Broadberry, Buffalo, and Digiliant, all use 400 GB (max) SATA drives.
+Thus, for 4.8 TB, you would need a system with 24 drives.
+I would also want 4 spare drives (2 minimum) for hot-swapping in event of crashes.
+Buffalo is a good company, but I believe their largest system is 1.6 TB non-RAID, 0.8 TB RAID (Dick can correct me if Im wrong), so you would need six such systems to meet your desire.
+Others make larger systems, so you could get the entire NAS in one box.
+However, as I mentioned before, there could be advantages in dividing the load among more than one NAS; while six, as required by Buffalo, seems overkill, you might consider two or three.
+BTW, with regard to the implication that the increased speed of striping RAID is virtually useless because of the limitation of the LAN: do you really think that all NAS manufacturers would incorporate this option if it were truly of no value?
+First, there is a difference between the potential buffer transfer rate, which does exceed the Gigabit rate, and the internal, or sustained transfer rate, which is how fast the disk itself can physically transfer data.
+Currently this peaks at about 600 Mbps, and is oten less.
+This is slower than Gigabit Ethernet, and is where striping can be advantageous if you do need maximum speed.
+Second, Some NAS systems have the capability of using multiple NICs, thus multiplying their effective network throughput.
+Hope this helps Frank

@@ -1,0 +1,18 @@
+hard drive in the old computer.
+It probabably has an operating system on it.
+You may want to delete that, but you can wait to make that decision.
+You should find out what file system the old drive is formatted with.
+Easy to find, just go to My Computer, right click on the drive and left click properties.
+It will either be FAT 32 or NTFS.
+Then you should find out what file system the new computers drive will be formatted with.
+You should know that NTFS can read FAT 32 but FAT 32 cannot read NTFS.
+So if the old drive is FAT 32, then it won't matter what file system the new computer will use.
+Next thing is when you get the new system to find out if there is an unused IDE port available.
+You should be able to find out from HP before buying it.
+Also, if they give an option for a little higher wattage power supply, take the option because you will be adding an additional load to the new computer.
+Very likely the new computer will use the new 80 conductor ribbon cable and the drive will be jumpered as CS or CSL [cable select] With CS, the connector at the end is always the Master drive and the connector in the middle is always the slave.
+You should change the jumper on your old drive to CS and plug it into the middle connector.
+Unfortunately this is not always easy with ribbon cables because the two drives must be mounted so that the connectors can be plugged into each drive.
+Also some of the newer systems use mobo that favor SATA drives and only have one IDE connector on the mobo [for two IDE drives].
+So you really need to know a little about the configuration of the new system that you intend to buy.
+One way tother there will be a way to use the old drive, as long as the case is too small to mount another drive inside it.

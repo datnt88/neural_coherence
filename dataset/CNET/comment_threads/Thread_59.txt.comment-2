@@ -1,0 +1,4 @@
+Yes it can, provided that you first install the driver for the SATA controller-card which should be supplied with it on a floppy.
+This driver needs to be installed before the OS installed.
+Boot from the XP CD, and while your setup is booting, at the bottom of screen you will get a message to ''press F6 if you want to load hard disk controller drivers'', so press F6, then you will need your floppy with the driver, at that pint you should be able to load the driver.
+XP should then see the SATA disk attached to the controller card and you can proceed with install of XP.

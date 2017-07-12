@@ -1,0 +1,4 @@
+Here is what I found that worked.
+With the larger drive as the master and the original smaller drive as the slave, I booted into Windows (of course, I am booting into the smaller drive).
+From there I modified the registry by running &quot;regedit&quot; from the command line and traversing to: HKEY_LOCAL_MACHINE -&gt; SYSTEM -&gt; MountedDevices Looked for \DosDevices\C: and \DosDevices\D: I changed these names by right-clicking on the Name, choosing Rename and changing the names as follows: Renamed \DosDevices\C: to \DosDevices\X: (where X is not a disk drive that is in use).
+Renamed \DosDevices\D: to \DosDevices\C: Renamed \DosDeivces\X: to \DosDevices\D: After booting up, the larger drive is now correctly the C:\ drive and the original smaller drive is the D:\ drive.

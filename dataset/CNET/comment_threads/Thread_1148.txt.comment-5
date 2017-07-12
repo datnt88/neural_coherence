@@ -1,0 +1,15 @@
+You mentioned a file called zmm32.vxd and there is no such file.......however, windows has a critical file needed call VMM32.VXD and it's a combination file of multiple vxd files needed by windows.
+There are repair options available to you and I've provided a google search that you can read through to find the easiest method for you.
+http://www.google.com/search?hl=en&rls=GGLD,GGLD:2004-21,GGLD:en&q=vmm32&spell=1 The old school of thought for fixing that particular file had always been to reinstall windows over itself, and there are ways suggested here to get that job accomplished, but there may be simpler methods now with this google search.
+Please let us know if you were able to do this with any of them.
+Another way to maybe get this straighted out would be to boot into SAFEMODE, get to RUN/ type SFC and begin the scan that will look for changes made to system files and give options to fix it.
+Unfortunately, if it needs the windows cd to pull files from in order to replace a bad/corrupt/missing file, the cdrom isn't available in safemode.
+A way to get around this is also easy though by doing the following: Get a W98 bootdisk (create it by clicking the .exe file you download with a clean floppy disk in the drive), boot up with it, enable cdrom support when asked, and when you get to the A: prompt, type C: and press Enter, then type MD WIN98 and press enter.
+That gives you a new folder/directory on the C: drive.
+Once you have that done, change to the cdrom drive letter (probably E:) and put in the windows cd.
+Now type WIN98 and press Enter.
+Now type COPY *.
+* C:\WIN98 and press Enter.
+All the cab files required to install windows will be copied to her harddrive into that win98 folder you made.
+Once that is done, go back to SAFEMODE, RUN/SFC and for the SOURCE of the files you need to fix or replace, use that C:\Win98 folder instead of the cd.
+TONI

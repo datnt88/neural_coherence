@@ -1,0 +1,12 @@
+http://support.microsoft.com/?kbid=293078 writes: &quot;RESOLUTION To resolve this issue, obtain and install the most current driver for your video adapter or replace your video card.
+WORKAROUND To work around this issue: 1.
+Click Start, click Control Panel, and then double-click Display.
+2.
+On the Settings tab, click Advanced, and then click the Troubleshoot tab.
+3.
+Move the Hardware Acceleration slider to None, and then click to clear the Enable Write Combining check box.
+4.
+Click OK, and then click OK.
+NOTE: This procedure prevents the display driver from programming the hardware incorrectly, but results in a loss of some display functionality and performance.
+Although you can increase the hardware acceleration settings to a point above None to regain functionality and performance, this increases the chances of the issue reoccurring.
+For maximum stability, ...&quot; Bob

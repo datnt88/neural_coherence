@@ -1,0 +1,6 @@
+After you set RegMon to monitor during a reboot, reboot the system, bring up RegMon again and click the stop collecting option.
+Then open it's log file and search for the registry key in question.
+It may appear multiple times.
+It should show what program changed the key.
+Then look for that program.
+It's probably a pointer driver for the laptop.

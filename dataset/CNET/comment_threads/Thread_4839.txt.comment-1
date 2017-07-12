@@ -1,0 +1,9 @@
+External HD: Cavalry 500GB Started using: around early April Used: 120GB out of 500GB(would like to save if at all possible) A week ago, started to have the problem of not able to access the drive, with a warning message saying the drive is not accessible, and that the file or directory is corrupted and unreadable.
+When I go to the Properties for the drive, it shows 0 byte for everything and format is shown as RAW.
+Yesterday, I finally got around to try to fix it.
+I first went to the Properties for the drive and tried to run check disk from there, the dialog window disappeared as soon as it started checking.
+Then I went to the DOS prompt to use chkdsk /f /r from there, that actually worked.
+It fixed a number of indexes as well as the MFT.
+After that is complete, my correct volume is shown under properties again for this drive, and the format is back to NTFS.
+But the weird part is none of the files and folders is showing up, even though it said I used up around 120GB of space.
+Could anyone help me here?

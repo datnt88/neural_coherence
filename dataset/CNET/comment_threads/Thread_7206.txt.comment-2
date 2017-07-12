@@ -1,0 +1,17 @@
+You pretty much have the 2 options you mentioned and only running with the pix connected to the modem will actually meet your needs.
+If would be nice if your belkin had true routing ability so you could have multiple subnets behind it but from a small look at the manual it does not appear to have it.
+Been a while since I used a real pix since cisco has end of lifed all these.
+I assume you are forming the vpn tunnel to using the pix and not vpn software on your home laptop.
+Next I assume you want the vast majority of your traffic to go directly to the internet and only a small subset of traffic to go into your VPN.
+First thing is to let allow the pix to be able to differentiate between the machines.
+First plug the LAN port of your belikin into the pix.
+This will make it run as a switch and not a router.
+This means the pix will control all the DHCP pools and addresses.
+Next in the VPN configuration of the pix configure it so that it only sends the traffic you want to the tunnel and the rest it just sends directly to the internet.
+Depending on how complex you want to make it.
+You could just force all the traffic into the tunnel that comes from your PC address or you could send only certain ports that come from your PC.
+I think the pix uses a access list to do this like the new ASA firewalls but I forget.
+You could add another wireless router just for your VPN wireless and plug the pix into the belkin and the new router into the pix.
+You would then run 2 wireless networks in your house and use the SSID to select between them.
+Kinda complex to setup.
+Then again it depends how much knowledge of pix configuration you have.

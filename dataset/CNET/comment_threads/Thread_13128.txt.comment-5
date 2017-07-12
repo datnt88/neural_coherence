@@ -1,0 +1,12 @@
+...crud wireless on the Crudbooks, at least partly.
+It's only recently I've started using a new black Crudbook intensively, but I've been a Crudbook Pro user since release and generally speaking, wireless across the entire Apple range seems to lean on the sucky side with the Crudbook Air being the worst I've had to date, but with all the Crudbook Pros I've had following a close second.
+Fixed IP addresses on wireless set on the Mac itself as advised above is kind of a pain if you're moving around a lot.
+You have to define locations and if you've forgotten to switch back from fixed to DHCP or vice versa it can take a few seconds for you to realise why you're not getting Internet.
+Instead, most routers allow the setting of a static IP address by MAC address.
+This means you don't need to set a static address on your Mac, but it will be assigned a static address by the router.
+A MAC address is an (almost) unique identifier for each network card that your device has.
+So a Crudbook would have three MAC addresses - one for the Bluetooth, one for the wireless and one for the Ethernet.
+The MAC addresses are listed in the battery compartment or in System Profiler.
+To set this, look somewhere in the DHCP Server Setting of your Linksys router.
+You should be able to see a setting for 'DHCP Reservation'.
+In that screen, you should be able to assign addresses to specific MAC addresses.

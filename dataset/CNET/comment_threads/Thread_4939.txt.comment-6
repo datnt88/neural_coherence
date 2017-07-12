@@ -1,0 +1,9 @@
+Here's what Intel's P4 data sheet says about the THERMTRIP condition.
+My interpretation of this is that the system is still powered but the system clocks are stopped (or the CPU clock at least) and, probably, certain voltages lowered.
+Here's Intel: The processor protects itself from catastrophic overheating by use of an internal thermal sensor.
+This sensor is set well above the normal operating temperature to ensure that there are no false trips.
+The processor will stop all execution when the junction temperature exceeds approximately 135C.
+This is signalled to the system by the THERMTRIP# (Thermal Trip) pin.
+Once activated, the signal remains latched, and the processor stopped, until RESET# goes active.
+There is no hysteresis built into the thermal sensor itself; as long as the die temperature drops below the trip level, a RESET# pulse will reset the processor and execution will continue.
+If the temperature has not dropped below the trip level, the processor will continue to drive THERMTRIP# and remain stopped.

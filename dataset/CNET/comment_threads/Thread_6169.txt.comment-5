@@ -1,0 +1,13 @@
+Coryphaeus, I've done exactly what you said.
+There is a hand under the C drive on both machines.
+However, since the printer is only defined to one machine, I have this set up only on one machine.
+When a attempt to ADD a printer and search the network, it finds the correct machine, but doesn't list the printer.
+After doing some research, I noticed something....
+When I'm on the machine with the printer, I can display the following: ipconfig: Connection-specific DSN suffix .
+: IP Address...................... : 192.168.1.100 Subnet Mask..................... : 255.255.255.0 Default Gateway................. : 192.168.1.1 C: Ping 192.168.1.101 (which is the other machine) pinging from 192.168.1.101: bytes=32 time.....
+But, from the other PC....here's what I get: ipconfig: Connection-specific DSN suffix .
+: IP Address...................... : 192.168.1.101 Subnet Mask..................... : 255.255.255.0 Default Gateway................. : 192.168.1.1 C: Ping 192.168.1.100 (which is the machine with the printer) pinging 192.168.1.100 with 32 bytes of data: request timed out.
+request timed out...
+It seems one machine can get to the other, but the other cannot get back.
+Any ideas?
+Thanks, Tom

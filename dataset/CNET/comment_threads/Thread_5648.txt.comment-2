@@ -1,0 +1,9 @@
+Mike, I recently ran into the same problem here at my company.
+We use Cisco Systems VPN Client.
+Logon to the computer and open up the VPN.
+Go to options and then click on &quot;Windows Logon Properties&quot;.
+A new box will open...select &quot;Enable Start Before Logon&quot;.
+Essentially this will cause the VPN to start right when the user hits Ctrl+Alt+Del.
+This should resolve the drive mapping issue.
+Hope this helps!
+Eric.

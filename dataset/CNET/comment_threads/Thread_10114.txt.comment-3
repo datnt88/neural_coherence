@@ -1,0 +1,18 @@
+Thank you for the reply and suggestion.
+I know the router's WAN address because I can display the assigned address (DHCP).
+I know another address which is the default gateway provided which is probably the other end.
+However, I didn't think I needed to get an address on that network because I am only sniffing packets and not (I hope) transmitting anything.
+I should be able to grab packets passively without actually having a valid IP address.
+Good news.
+Problem solved.
+(And I'm embarrassed.)
+The problem was with the monitoring PC.
+It was running a firewall.
+Since I was seeing ARPs and DHCP traffic and not running any filters, I thought I was getting everything.
+The firewall (ZoneAlarm) was allowing the ARPs, etc through but blocking all the TCP and UDP packets.
+By lowering the security on the firewall, I was able to see everything.
+From this first attempt to look at the packets between the router and cable modem, I can see this educational exercise is going to significantly difficult.
+(At least for me.
+I spent days getting past a firewall problem!)
+I didn't recognize much of anything in the 200MB I've looked at so far.
+This education is going to be time comsuming.

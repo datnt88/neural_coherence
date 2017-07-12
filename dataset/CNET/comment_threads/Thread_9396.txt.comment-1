@@ -1,0 +1,18 @@
+I have an old (4-6ish I think) Dell desktop that I use mostly for messing around with various Linux distributions (I use Ubuntu normally).
+Everything was working fine with a 1GB stick of RAM (which I purchased as an upgrade) that had tested fine with memtest when I first put it in.
+I tried installing Windows 7 Public Beta just as a test.
+The installation went fine, but then I was unable to boot the computer.
+I put in a Linux Live CD (I can't remember what distro) and restored GRUB so that I could boot the existing Ubuntu installation.
+That too, though, didn't boot, so I put in an Ubuntu Live CD to reinstall.
+This is where things get weird.
+Bits of the screen were blacked out and I could not click on anything.
+This reminded me of a memory error, so I tried memtest again.
+Sure enough, it showed up with an error after a couple of passes.
+I then replaced the existing stick of RAM with an identical piece (from the same kit) and tried memtest.
+It passed.
+Then I tried to boot Ubuntu again from the computer (it didn't boot) and then tried booting Ubuntu from the Live CD.
+Once again, I got the black marks.
+I tried memtest and it now fails.
+In other words, the same stick of RAM passed memtest before attempting to boot Ubuntu/Windows and then failed after.
+This was true of two sticks of RAM.
+What is going on?

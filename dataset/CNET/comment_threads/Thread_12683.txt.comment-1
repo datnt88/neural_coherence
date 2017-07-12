@@ -1,0 +1,15 @@
+I was just wondering what the experts think of a server machine I'm about to build.
+This machine will be a web server.
+I expect an average load of 1,500 users at it's heaviest, and perhaps a user base of about 1 mil.
+There will be database searches, and image downloads happening concurrently.
+The website will also have a one-on-one chat (php+mysql) app.
+Each open chat window will check for new messages about every 3 seconds (just simple SELECT COUNT() queries).
+Here are the machine specs: EPOX 9NPA+Ultra mobo.
+Supports NCQ.
+AMD Athlon 64 3500 90nm, Ll 128 KB, L2 512 KB Seagate ST3120827AS SATA hdd, 7200 rpm.
+Supports NCQ.
+4GB OCZ Premier/Micron Technology RAM 184-Pin DDR 400 (PC 3200) GigaBit LAN Hard drive config will be SATA2 RAID 0 (3 disks).
+Based on the load average above, the chat, the db searches, etc, should I go with this machine, or should I consider a multiprocessor machine?
+BTW, OS will be Fedora core.
+Thanks.
+Richie.

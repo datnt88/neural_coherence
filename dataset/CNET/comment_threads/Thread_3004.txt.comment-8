@@ -1,0 +1,16 @@
+Try Malwarebytes Anti-malware from http://www.malwarebytes.org/mbam.php Install this, update it, then close down.
+Start the system again after a minute or so then boot up again into Safe Mode.
+Run MBAM from there.
+Let the scan finish.
+Then whilst still in Safe Mode head over to MSCONFIG, the System Configuration Editor to search for Startup files.
+To do that, goto Start &gt; Run, and type in msconfig then click OK.
+When the System Configuration Editor opens go to the Startup tab.
+Look down the list for any suspect entries and remove the tick.
+For this exercise I would keep the startup entries to the bare minimum, eg retain all Microsoft entries and your AVG and Firewall, (if that is a separate one).
+I can't be more specific as all machines are different, and I don't know what is normal for your system, but items that are not particularly needed are media players, Instant Messengers, Quicktime, RealPlayer, Adobe, Google and Java updaters, and any browsers that may 'load at startup'.
+Then click Apply then OK. Reboot back into normal mode and test.
+A note.
+When you reboot into normal mode Windows will tell you that you have chosen &quot;Selective Startup&quot;.
+This is a normal advisory and this message can be suppressed from within the window itself.
+See if that works, and good luck.
+Mark

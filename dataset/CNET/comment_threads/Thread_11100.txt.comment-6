@@ -1,0 +1,8 @@
+Since i dont know the exact model that you have, i'll have to assume a few facts here.
+Base on your information, you can use 2 access points as bridge (assuming the belkin 54g ap and the motorola 54g ap are the model i saw on the web).
+And from there, you can setup the remaining 802.11 routers as the wirless ap for your laptop computer(s) (one on each side of the bridge).
+Make sure you use different SSID and channel for the bridges and Access Points.
+For example: Belkin 54g access point, SSID=bridge_ID, channel=11 Motorola 54g access point, SSID=bridge_ID, channel=11 Belkin 802.11, SSID=client_ID, channel=6 netgear 802.11, SSID=client_ID, channel=6 the belkin 54g will connect with the belkin 802.11 via wire and the same goes for the Motorola 54g and netgear.
+Now you have 2 network that bridge together and still able to roam your laptop between 2 networks.
+Here is a PDF file so you can see how it work.
+http://www.speakeasy.net/~acheung/bridge_example.pdf Hope this will help.

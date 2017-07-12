@@ -1,0 +1,14 @@
+You can't just copy a segment of the HDD.
+There's the FAT and most serious, there's the directory that has to be modified for each and every file.
+And 2 billion directory entries is a lot.
+So I would go for a different solution.
+Store each file as a record in a database.
+Databases are optimised for such work.
+And they support multiple load tasks at the same time.
+And it would be easy to add metadata to each file, which greatly helps to retrieve the one from the 2 billion that you need.
+Selecting the right DBMS (it will be 2 to 60 Terabyte only for the data, if you don't compress them, with a comparable space for the metadata and the indexes) certainly is a job for a professional.
+The same goes for the technical database design, the writing of the programs to load the data and to retrieve them again and for the performance monitoring.
+And don't forget the backup (another X TB).
+So this seems a 6-digit project (somewhere between $ 100.000 and $ 1.000.000).
+And 6-digit projects aren't done via consumer oriented forums, but by companies.
+Kees

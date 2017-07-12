@@ -1,0 +1,12 @@
+If your router has a mirror/monitor option then you can do that but most consumer routers do not.
+First you need a packet capture program and a PC you can leave running to capture it.
+Wireshark is your best bet since its free and works very well The harder problem will be getting into the data stream.
+A old hub if they still make those would work between the router and the dsl modem.
+They make real ethernet taps but they are rather expensive.
+The most common way to do this is with a switch that has the ability to &quot;mirror&quot; traffic.
+You will need a switch is manageable ie 'you can log into'.
+They are some consumer ones but the cheapest way to buy a old cisco or 3com on ebay.
+Even the very old switches can do this.
+You still have the issue of knowing which traffic is valid and which is not.
+All traffic will appear to come from the address on the router so it will be more difficult to know if it is your traffic or your intruders traffic.
+To a point it will be obvious if they are visiting sites you do not.

@@ -1,0 +1,10 @@
+I suspect it is 6.5, the multiplier.
+Thus you are set for the CPU to run at 6.5 times the memory speed [166 MHz].
+The one confusion with these settings are that the memory is DDR, thus 2 clocks per cycle.
+Thus it is either 6.5 time 166 = 1.079 GHz or 2 times that = 2.158.
+I suspect that your problem is that you only have PC2100 memory [your words].
+By trying to run at 200 MHz my guess is that the mobo has defaulted to prevent you from not working because there is know way that your memory can run that fast.
+PC2100 is DDR266, 133/266 MHz times 6.5 = either 0.8645 or 1.729.
+So what speed is the sytem reporting???
+Again you need to find out from SIS what that chipset does re that memory speed and quad clocking.
+If it were an Intel chipset it would be easy to find out.

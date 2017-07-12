@@ -1,0 +1,10 @@
+Manuals here: http://h10025.www1.hp.com/ewfrf/wc/manualCategory?cc=us&amp;dlc=en&amp;lang=en&amp;lc=en&amp;product=5297111&amp; Though I doubt anything there has details regarding BIOS.
+And the TV is a Samsung LED series 6, 6000/6050, bought a few months after LEDs hit Best Buy.
+The DVI/HDMI cable is a Dynex.
+Regardless, I found a &quot;decent&quot; solution.
+Willy was correct about the cycling.
+So basically, the only way the PC will recognize the HDMI as a display source is if the VGA cable remains plugged in to both TV and PC.
+This way, it will boot to HDMI, though a bit late, you won't see any windows startup screens, the first screen you will see is your login screen.
+You won't be able to boot to BIOS.
+To boot to BIOS you have to use PC sourse on your tv.
+The graphics card recognized both displays, but considers them as multiple displays, so you need to go thru PC source on the tv, go to control panel and change your display settings to either clone or single display, if you choose single display you need to set the primary display as &quot;Digital television&quot;(HDMI), not &quot;monitor&quot;(VGA).

@@ -1,0 +1,14 @@
+Two areas may confound old hardware users.
+1.
+The ISA IRQ would have to be set in the BIOS for the SB 16 in question.
+The IRQ is either 5 or 7 depending on the make of the SB16 or its jumpers.
+The setting in the BIOS would either be &quot;LEGACY&quot; or &quot;Non-PCI/PnP&quot;.
+2.
+The motherboard drivers are not supplied by Microsoft so that is great fun to find.
+3.
+The lack of USB stability is likely item #2 or some other USB issue noted at http://www.usbman.com Too bad you didn't reveal what make/model motherboard.
+4.
+Let's be absolutely crystal clear on a very important point.
+If it works, don't fix it.
+There is NO REASON to fix a device manager item if your sound card and all is working!
+Bob

@@ -1,0 +1,67 @@
+A few weeks ago, while using my beloved desktop, it crashed to &quot;blue screen error&quot;.
+*** STOP: 0x0000007B (0x81482E50, 0xC0000032, 0x00000000, 0x00000000) INACCESSIBLE_BOOT_DEVICE I am completely new to the 'seriously crashed machine' scene.
+And really shaken-up, I tried a Norton Recovery diskette (which went and wrote a Windows Millenium &quot;boot block&quot; onto my hard drive, by way of &quot;system recovery&quot;).
+Then I tried to boot my system: Windows reported an &quot;invalid disk array&quot;.
+Then with my heart in my mouth ( 'cos things seemed to have gotten worse) I learnt from the internet that Norton (System) Recovery Diskettes are made to recover Win9x and WinME systems -- Ouch!
+So, what could cause Windows to suddenly change its mind about a set of Seagate Barracuda disk running off a HighPoint HPT370A RAID controller (processor), in RAID 0 configuration ?
+Or, more accurately, what is an &quot;inaccessible boot device&quot;?
+My Norton Anti-virus guard had the latest virus definitions and was operational.
+And one day or so before, I had done a full system virus check which found no viruses.
+I also have a fully working firewall, which also was operational.
+And, and I had my Windows service packs installed and up-to-date.
+The Resulting situation: a) My desktop could no longer boot-up through to the Windows desktop.
+b) BIOS could &quot;see&quot; my hard drive and the HighPoint RAID Controller RAID 0).
+c) BIOS could boot my system up to: &quot;invalid disk&quot; &quot;please insert disk and press any key&quot; d) The &quot;posting&quot; process for BIOS boot-up allows boot-up from: i) floppy, on drive A: ii) CD, on drive D: I then attempted Windows Recovery from the Windows CD-ROM.
+The result of this was: i) Windows Setup kept needing to be supplied with the driver for the HighPoint RAID controller.
+ii) Windows Setup could not do an &quot;emergency&quot; system repair -- it needs a previously prepared &quot;Emergency Diskette&quot; to be able to do that.
+And I never knew about this.
+I never made one.
+iii) Windows Setup said that it couldn't find the &quot;existing Windows operating system&quot; iiii) Windows Setup said that it was unable to format my hard drives (which have one large partition (38MB) and one small partition (4MB).
+[I never new that my drives were set up this way.
+My desktop was factory assembled.
+I bought it complete.
+That company went bust this January gone!)
+Really, I wanted to recover three years worth of my work which I had on my hard drive (and I still want to).
+When I consulted one of the tech support guys over at a Microsoft technical support center (70 per hour), the guy there said to me: &quot;There is no way that the work and information on the hard drive can be saved (recovered)&quot; He then strongly advised that I &quot;reformatted&quot; my drives for the purpose of doing a &quot;fresh install of Windows&quot;.
+I asked him again if there was another way to recover my system so that I would not loose my precious work.
+He repeated: &quot;No.There isn't.&quot; As I am new to the innards of a computer -- and frankly, I was panic striken -- I went with his advice.
+The formatting process proceeded for some minutes (and, it formatted over 80% of drive C), then Windows 2000 Professional Setup program stopped and reported that: &quot;Setup was unable to format drive C. The hard disk may be damaged.
+Make sure the disk is on and properly connected to your computer.
+If the disk is a SCSI disk, make sure your SCSI devices are PROPERLY TERMINATED.
+See your computer or SCSI adapter documentation for more information.
+setup cannot continue.
+To quit Setup, press F3.&quot; v) Windows Setup said that it was unable to (do anything) and I quit it.
+Another Questions: Did the format process wipe any of my data?
+It aborted before completing whatever it was doing.
+Can I rescue my data?
+B. I then tried the Windows Console tool: i) Windows Console's CHKDSK /R reported that: &quot;... unrecoverable errors&quot; Well, what does that mean?
+While you are all scratching your heads, here is the current state of play: ........................................................................................................................................ 1.
+I contacted HighPoint and asked for a bootable diagnostic software tool.
+I got this, used it and sent the results back to HighPoint Technologies.
+This is their reply: &quot;Dear Sir/Madam, Testing UDMA 5 on ST320414A: fail --- the hard disks can't work with ATA100 normally.
+The verification is OK---It means that the hard disks doesn't have bad sectors.
+&quot;Invalid partition table.
+Setup cannot continue .. Error loading operating system.
+Setup cannot continue... &quot; You can ignore the above information.
+Each logical hard disk will have this information.
+All ZEROS from word address [000] through to word address [1F0] As you create RAID0 with the hard disk.
+And this hard disk is the second member of the RAID0.
+So you can't see the &quot;Invalid partition table.
+Setup cannot continue&quot; We think your hard disks can't work normally.
+You had better not plug them into the HPT370 controller and create RAID with them.
+Regards, HighPoint Technologies Inc.&quot; Now, I nowadays find that I have to ask this question: &quot;Do these guys know what they are talking about?&quot; And: &quot;What does it mean -- what they have said.
+What does it mean?&quot; Anybody know?
+and 2.
+Take a look at this from Seagate Technologies: &quot;Mr (xxxxxxxx), The reason Seatools is not seeing the drives is because of the Highpoint RAID controller.
+Seatools can not test the drives on a RAID controller other than the Generic mode.
+I would suggest running a Windows 2000 Repair.
+What are the results.
+Best Regards, Stefan M. Seagate Technical Support&quot; Okay guys, what's he saying?
+Just so you guys know: only one of the software tools on the SeaTools software package failed.
+Six other software tools worked.
+And they correctly identified the HPT370A controller, and the two hard disks.
+I need and want to restore my system to full workability, just as fast as possible.
+With my data recovered and a RAID hard drive setup -- I want the speed of RAID.
+Any ideas -- anybody?
+Good, workable advice and instruction will be especially welcome.
+Thanks --------------------------------------------------------------------------------------- Motherboard: EPoX 8KTA3+ with HighPoint IDE RAID CPU: Socket A AMD Athlon 1.2GHz 266 FSB Memory: 128MB SDRAM PC133 Hard disk (Master: Channel 1): 20GB UDMA (RAID 0) Seagate Barracuda ATA ST320414A Hard disk (Slave: Channel 2): 20GB UDMA (RAID 0) Seagate Barracuda ATA ST320414A Graphics Card: 32MB GE-Force II MX -- HER Sound Card: Video Logic Sonic Fury (Turtle Beach) CD Drive: 16x 10x 40 OEM Mirai BurnProof CD-RW DVD/CD Drive: 16x Pioneer Slot Loading drive

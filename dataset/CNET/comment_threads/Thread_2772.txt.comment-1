@@ -1,0 +1,5 @@
+My college has a network, their dhcp will allot us a xx.xx.67.xx ip (Wifi), i found that in their lab they use a different proxy that is restricted for our ip range(Squid) (xx.xx.1.xx is their ip range).
+when i am manually configure my network interface to their ip range it doesn't ping to the both proxy, but in default dhcp i can ping both.
+Is there any emulators that can emulate my ip address to their range of ip ?
+so that i can fool squid ?
+Thanks in advance.

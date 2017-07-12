@@ -1,0 +1,10 @@
+will the laptop connect to?
+Does the wired PC have a wireless card?
+If so, you simply bridge wired and wireless within that PC.
+You make that PC an AP for the wireless laptop.
+I don't think I can sort out our ICS settings.
+The gateway should definitely be the router's IP in any case.
+My old recollection of ICS was that the hosting PC needed 192.168.0.1 and the other addresses were to be within that range.
+XP could have changed that but I'm not sure.
+In any event, your wireless laptop needs to connect to something and, if the PC has both a wired and wireless NIC, the easy way is to bridge these and connect the laptop to that bridge.
+Hope this helps.

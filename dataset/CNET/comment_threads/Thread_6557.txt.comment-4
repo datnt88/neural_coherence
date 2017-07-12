@@ -1,0 +1,5 @@
+I know that some cable modems can act as routers and distribute IP addresses, but I do not know if the same is true of DSL modems, in which case a connection to more than one computer via a HUB would be impossible becuase both computers would try to use the same IP address.
+that being said, does the other computer work if the only things connected to the hub are it and the modem?
+If so, scrap the hub and get a router.
+The deal is, DSL requires a PPPoE connection that has to be initialized, a router can intialize this connection permanently when configured to do so through its WAN port.
+Hubs, in short, have no such capability and would be a poor choice in this instance.

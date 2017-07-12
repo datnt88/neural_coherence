@@ -1,0 +1,14 @@
+You have done most the easier things to do.
+Most the tools that monitor utilization on a PC work fairly well and unless you are running virtual machines they see all the traffic.
+This means it is most likely something you are not running there tools on.
+The only common point all this has is your router.
+Most consumer routers do not have any ability to keep historic data on traffic and most cannot even tell you what is running right this instant.
+You have to get a data collection device in the path.
+What you want is a feature that is generally part of a traffic shaper or intrusion detection device.
+Most are extremely expensive hardware devices but free user written linux versions exist.
+You still would be placing a device into your network.
+I think you are on the right track with the tomato or dd-wrt method.
+This is the ever changing world of user developed software but they had a version of netflow that would track session information as well as some tools used for security logging.
+There are also lots of commands that let you see whats going on in the router live so you may get lucky and see you bad guy.
+Been a while since I played with this.
+Like most &quot;free&quot; things you are trading your time figuring it out instead of paying money to the companies who make the appliances to do this.

@@ -1,0 +1,6 @@
+This may sound very dumb but I think I will just exonerate myself for asking this by claiming that I'm a novice.
+So routers have actually been programmed to automatically &quot;unwrap&quot; EVERY single data frame that it receives so as to read the IP address &quot;underneath&quot; it (or should I say &quot;above&quot; since the network layer is on top) and then re-encapsulate them and send them away?
+So I think the reason for the MAC address (data link layer) being necessary even though the IP addresses themselves are already unique is because when relaying a message from point A to point B to point C, and that point A and point C are actually not in direct contact (viz cannot communicate node to node) and must go through point B so must use the MAC address to make sure the message has gone to the correct middleman/men.
+I think I've got it!!
+But maybe if we're deploying IPv6, where every networking hardware can be allocated its unique IP address, then having this MAC address may not be really necessary?
+I mean theoretically we can modify the protocol to something like this: Source IP address Destination IP address IP address on the next relay &lt;-- this plays the role of MAC address But maybe that'd be too much work.

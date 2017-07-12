@@ -1,0 +1,15 @@
+This is one of the many reasons cisco and all other vpn vendors have gone to SSL tunneling.
+If your VPN device is newer it may support this and it uses activex and java so you do not need to install anything on the client.
+You solution mostly depends on how the VPN gateway is setup.
+If it only allows IPSEC then you must configure your router to pass all UDP 500 and all protocol 50 to your PC.
+Since 50 is not port it is a protocol you cannot just use simple port forwarding to make this work.
+You need to somehow forward UDP port 500 and this protocol to you virtual address.
+How exactly you do this really depends on the router.
+If your VPN gateway can run NATT you need to make sure UDP Port 4500 passes your router.
+Since you are having a issue I suspect your router does not support NATT by default.
+You should be able to map UDP port 4500 to your PC.
+You may have to change your VPN client to force it to run NATT but the VPN gateway must be configured to accept this also.
+Your last option if you are using certain cisco gateways and clients is to use IPSEC over TCP.
+This is a something only cisco supports.
+This only requires the option to be available on both the VPN gateway and the client it does not require any change on your router.
+If you have the option I would go to the new SSL VPN these tend to work on almost any machine and behind any router.

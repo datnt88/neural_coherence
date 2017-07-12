@@ -1,0 +1,9 @@
+You've hit the nail on the head - every computer connected to the internet must have a unique IP address, sort of like your home address - without your own house number and street (or rural box), the postal carrier wouldn't know where to deliver your advertisements and bills (now wouldn't that be nice;-) ).
+The notion of a simple split cable (or plug-together connector) does not work for internet service.
+There has to be some means of issuing and controlling unique addresses for each computer.
+Typically that is managed either by a broadband router device installed immediately behind the cable or ADSL modem, with all the internal computers connected to it; or by software running on the first computer connected to the modem with all the other internal computers connected to that first one (such as your configuration with MS ICS).
+Note that some newer ADSL modems have routing capability built into them so the modem by itself can logically support numerous internal computers using just the one public IP address issued by the ISP, but the got'cha is that the modem manufacturers don't put more than one output jack on the back of the modem so you can only connect one physical device to it.
+The way around that is to buy a simple 4-port ethernet switch ($20) and then the modem connects to one of the switch ports leaving three available physical connections for computers.
+However, before getting too excited about this simple solution, you must be certain that your friend's ADSL modem is capable of this - if you aren't sure how to diagnose this in the field, just get us the exact brand and model number of the modem and the name of the ISP and somebody here can look up the specs on the manufacturer's website and tell you if that modem is a likely candidate.
+If not, then the next best solution is a common broadband router.
+dw

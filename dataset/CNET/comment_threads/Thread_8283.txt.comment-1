@@ -1,0 +1,23 @@
+I recently began to put together a PC for a friend of mine.
+All parts were brand new although they were all purchased from seperate vendors.
+I used an AsRock MB (maybe my first mistake) only because it was economical and I built a PC on one earler this year without a problem.
+Everything seemed to go alright except for some reason it doesn't seem to want to boot when all my IDE components are hooked up (2 Maxtor HD's and Sony DVD-RW drive).
+The fans spin but it refuses to boot.
+The only way I could boot it was to hit the power with the DVD Drive not connected and then quickly plug it in before the bootstrap.
+If I do this the BIOS will read the drive perfectly.
+I went ahead and installed the OS (XP) and setup the computer as if nothing was wrong.
+Any warm boots return without a problem but a cold boot takes me back to square one (fans spin, no POST) and I have to unplug the DVD drive to start it again.
+I tried a few other drives and cables however I received the same result.
+Unfortunately, once in a while, if I unhook the DVD drive it still doesn't boot.
+I'm forced to also unhook the slave HD before I can get a boot.
+This drive isn't as stubborn however as if I turn the computer off and on a few times I can generally get the computer to POST whereas with the DVD drive i've never been that lucky.
+I don't know what's up, it's like the BIOS is unable to &quot;save&quot; the drive specs.
+Bad IDE controller?
+Defective board?
+Any ideas would be appreciated.
+Drives are set up as master/slave.
+HD's are set into IDE 0 as primary master/slave.
+DVD-RW Drive is set to primary master on IDE 1.
+Power supply is a brand new Altec 430.
+I'm not sure about the IDE setup although I would assume if one was set to off then the DVD drive would fail to run at all.
+Hardware: Sony 16X DVD+/-RW /DW-D22A VGA ATIOEM|RADEON 9800SE 128M 8X 512MB (2x256) Dual Channel PC3200 DDR 32x8 Barebones Kit w/ P4 3.2GHz - 1MB Cache (800 FSB) ASRock P4S61 MB ATX 300w Mini-Mid Tower (Replaced with 430w Altec) Basic / Generic Fan/Heatsink (40mm) (2) Maxtor 80GB HD

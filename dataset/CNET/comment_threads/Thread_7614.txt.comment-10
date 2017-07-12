@@ -1,0 +1,10 @@
+no version of windows will install (from official media) on a device that windows detects is removeable.
+it matters not if it's usb or firewire or esata or scsi hot-plug.
+if windows detects the device is removeable it will not install to it.
+that's an immutable fact.
+so the install could have been done to a fixed device and then somehow migrated to the removeable device.
+that's why i question the legality of the install.
+also, HKLM\SYSTEM\CurrentControlSet\Enum registry entries contain device descriptors which identify the characteristics of a drive.
+this is done so drive capabilities don't have to be fully re-enumerated when booting.
+an error (or manipulation) in the registry can make a fixed drive appear to be removeable.
+copying an install from one drive to another can have the same effect.

@@ -1,0 +1,13 @@
+Here's what I'm finding.
+These externals arrive is FAT32 format.
+That's not a bad thing since the drive will work on Apple, most versions of Windows without having to do a thing.
+However FAT32 is fragile and if you do something that is 'hard work' or the cable comes unplugged at the wrong moment the files or the entire drive can become corrupt.
+Fixes?
+1.
+For most Windows use NTFS.
+It's a journaled file system and damage resistant (not damage proof.)
+2.
+If there are ANY issues with the drive, connections, power, PC don't defragment it.
+Even a machine with bad ram will nicely corrupt internal drives.
+Sorry it's too late so start over and don't defrag unless you have to and you are ready with a backup plan.
+Bob

@@ -1,0 +1,7 @@
+Because yours is RAID 1 (mirror) you could get lucky as long as the BIOS removal did not state all data would be lost.
+What you might try is to remove one drive (they'd both be identical), and change the the BIOS to allow standard drive use rather than RAID.
+If it would not boot, you could try to fix the MBR.
+I can say I've had better luck with RAID on SATA than IDE ports when it comes to fixing broken RAID arrays.
+I stopped using these a while back and never used RAID 0 as it's an accident waiting to happen.
+RAID 1 is slightly more forgiving.
+Good luck.

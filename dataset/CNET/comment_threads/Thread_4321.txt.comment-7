@@ -1,0 +1,11 @@
+Four drive capability.
+One is called the Primary and one is called the secondary.
+Each can have a Master and a Slave drive connected to its ribbon cable.
+[they may use round cables, not sure].
+First, you need to determine what port that the other drives are connected to.
+The boot hard drive will be the Master on the Primary IDE controller.
+Very likely jumpered as Cable Select [CS].
+That cable will likely be an 80 conductor cable, which means that when the drives are jumpered to use cable select, the Master drive MUST be connected to the end connector of the cable.
+The &quot;slave&quot; drive gets connected to the middle connector.
+[its also jumpered as CS, which simply means that the cable decides what drive is the Master and which is the slave].
+In your case we need to know what other drives [burners etc] there are and what IDE port they are connected to.

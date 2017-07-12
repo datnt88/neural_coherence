@@ -1,0 +1,36 @@
+I have a Diamond WR300N repeater that I cannot get to work in conjunction with any of our Windows 7 computers.
+We have two Windows 7 laptops trying to connect via WiFi, and the main Windows 7 desktop connected with Ethernet to the Belkin router.
+When the computers boot up, the network connection icon toggles between saying &quot;no internet connection&quot; and &quot;unidentified network.&quot; Now if I unplug the repeater, the computers will connect almost immediately.
+If I plug the repeater back in after they connect, there is no more issue until the next time the computers reboot.
+The strange part is we have two Windows XP desktop computers down in the basement where the Diamond repeater is located, and they connect to the network with no trouble via WiFi.
+So I am finding it odd that this seems to be something with Windows 7.
+I followed Diamond's setup procedures exactly.
+I have tried resetting the router back to its factory default settings.
+I have looked at the DHCP list, and see no devices with duplicate IPs, even though I have had this error popup on the Windows 7 desktop.
+I called Diamond's tech support, and after 20 minutes they told me it's my router's problem and not their device, because my iphone and my Windows XP computers downstairs are getting a strong signal from the repeater with no issues downstairs.
+Now I have posted this question on a couple other forums, and I just don't seem to be getting any definitive answers.
+If I Google search the internet for this problem, I have come across a couple of threads describing my exact problem, with other repeaters, and only on Windows 7 as this other thread stated their Windows XP computers worked with no issue, but the Windows 7 computers did not.
+Based on one suggestion on another forum, someone told me to make sure my MHZ setting for the router was set to 20mhz, and not the 20/40mhz option.
+My router was set for 20/40, so I changed it.
+As soon as I did that, and rebooted the desktop, the issue seemed to be fixed!
+I even rebooted the computer about 10 times and each time it successfully connected.
+Later that night I fire up the desktop and the Windows 7 laptop, and boom, won't connect again.
+So how did my network go from working earlier in the day, to all of a sudden giving us problems again?
+One of the Windows 7 laptops that isn't working is my mother-in-law's laptop that she uses for both work and home.
+My mother-in-law ran the network troubleshooter on her computer, and it fixed the issue and she was able to log on.
+I did the same thing on the desktop, and the troubleshooter came back with &quot;Problems Found: Local Area Connection doesn't have a valid IP configuration: fixed&quot; So then I shut down the computer, and tried it again.....couldn't connect once again.
+This time I tried the ipconfig /release and /renew in the command prompt.
+I got this message back.
+&quot;An error occurred while renewing interface local area connection: The DHCP client has obtained an IP address that is already in use on the network.
+The local interface will be disabled until the DHCP client can obtain a new address.&quot; A few second later I look down at my internet connection icon, and it says I'm connected......strange.
+So I restart the computer once again.....can't connect once again....this time I try the troubleshooter again.
+This time I get a popup message about duplicate IP addresses.
+I run the troubleshooter I get the same &quot;local area connection doesn't have a valid ip configuration: not fixed.&quot; This time it clearly says &quot;not fixed&quot; but then I look down and low and behold I have internet connection again.
+I cannot wrap my head around this.
+The whole notion of a duplicate IP I can't even comprehend because isn't the routers job to prevent this from happening?
+I even went into the router's setup page, and looked at the DHCP client list, and all the devices listed I saw no duplicate IPs being displayed.
+Now one thing I did try with success was just to set each device to its own static IP.....I didn't have to do this with the Windows XP computers however, as they seem to be working with dynamic IPs just fine.
+But the problem is this: My mother-in-law's laptop she needs to connect to the WiFi network at her work which uses a dynamic setup.
+So ultimately I would like to know why the dynamic IPs are not working with our Windows 7 computers, but if nothing else I would like to know the easiest way to be able to have my mother-in-law's laptop be able to work dynamically on her work's network, but then be able to switch to a fixed IP on the home network if that proves to be the only way we can get this repeater to work with Windows 7.
+I keep reading something about the Alternate Configuration tab that sounds like this might be possible, but I'm not sure if this is the best approach.
+Thank you.

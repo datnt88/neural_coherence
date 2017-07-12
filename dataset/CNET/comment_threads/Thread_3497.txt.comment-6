@@ -1,0 +1,12 @@
+First write a batchfile with the right xcopy-command(s).
+Something like: xcopy &quot;c:\documents and settings\&lt;myusername&gt;\my documents&quot; e:\backup /m /s /y This copies all files in your My documents folder to the e:\backup folder including all files in subfolders (/s).
+It only copies new and changed files (that have the archive bit set) and resets the archive so the file is copied only once (/m).
+And it doesn't ask questions (/y).
+First time run it without /m to copy everything to have a base for the &quot;incremental backup&quot;.
+Then use the task scheduler in your OS to run a batchfile at a certain time each day.
+This is the Windows XP version: http://support.microsoft.com/kb/308569 Or activate the job via a shortcut on the desktop if you want to do it at other times.
+All of this comes with Windows, and is totally free.
+It might take 15 minutes to set it up, and that's your whole investment.
+You can use My Computer or Windows Explorer to get files back, if needed on any Windows PC: the files aren't encrypted or packed into archives.
+Hope this helps.
+Kees

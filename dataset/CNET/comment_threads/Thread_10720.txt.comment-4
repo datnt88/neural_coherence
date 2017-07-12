@@ -1,0 +1,10 @@
+As I look at the Speedtouch's &quot;specs&quot; we see it is also a router.
+http://www.speedguide.net/broadband-view.php?hw=31 So you have your combo DSL ROUTER wired to a SECOND ROUTER (with wifi).
+You are now performing a double NAT and have quadrupled the work to get your camera on the internet since you have to port forward not once but twice and hope it all works.
+I make no offer to write how to forward ports.
+But in POST 17 of this forum's sticky we note how to use common wifi routers as a WAP.
+If you had done this then only one the first DSL ROUTER would have to be configured for forwarding the needed ports.
+You can also turn on the &quot;bridge mode&quot; of the DSL ROUTER so you configure the WIFI ROUTER to do the PPPOE login and you have the same issue of PORT FORWARDING.
+This is no offer to write a tutorial about such as the internet is full of articles about this.
+You also have an issue that your ISP may block inbound port 80 so besides the issues you created with dual routers you have to see if your ISP is thwarting your efforts.
+Good luck, Bob

@@ -1,0 +1,7 @@
+&quot;have 290.41GB on my WD MyBook and when copied over it is only showing 283.44 on my Seagate&quot; That difference is most likely due to differences in the file systems.
+FAT32's &quot;slack space&quot; or large clusters (sorry but I decline to write a dissertation on file systems) is assuredly larger and therefore I can safely bet that a FAT32 system would report more used space than HFS+ even if the same files were on each.
+To dissect this more we've need to spend a few weeks reading and learning about file systems but I hope the short answer works.
+Try the other way to compare.
+Let's say the old drive has 2,010 files.
+If the new drive has 2,010 files and the space used is that close, I bet we're done.
+Bob

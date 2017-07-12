@@ -1,0 +1,6 @@
+Do this on the host computer (computer that has printer directly connected to it) and all computers that wish to use that shared printer.
+http://ts.mcafeehelp.com/faq3.asp?docid=407002 (Follow the directions after &quot;Add a Trusted Network for the ICS client&quot;) Steps: Disable printer sharing on the host computer.
+Add the Trusted Network (trusted range of IP Addresses) to all computers.
+Share the printer.
+Restart all computers.
+Now, try to find the shared printer when you Add Printer to non-host computers.

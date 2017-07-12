@@ -1,0 +1,4 @@
+First, install Soyo's motherboard drivers.
+Next, look in the drive item for DMA as well as the IDE controller itself.
+Remember that if you load ANY real mode CDROM driver, you have to disable that (it's in config.sys) first.
+Bob

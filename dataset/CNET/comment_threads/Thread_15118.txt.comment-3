@@ -1,0 +1,11 @@
+All depends on the IP addresses and the subnet masks.
+Very technically it is the devices themselves that know they are on the same subnet and talk to each other directly using the mac address rather than the IP, the switch just carries the traffic.
+To a point it is surprising this works.
+Most cable companies will only allow a single device behind the modem.
+If both machines are on the same subnet it should work as is you need to check the arp entries so ensure they are mapped.
+If you can get into the switch you should also be able see what mac is learned on what port.
+If they are on different subnets you can sometimes trick device into talking to each other by putting static arp entries in to map the ip to the mac.
+Some router think they are smarter than you and give errors but many work.
+Just a huge guess if it is working as you say I would say the cable company is running PPP.
+This is a point to point protocol and assumes that all addresses are inside this PPP virtual interface and not on the real interface.
+This means that even if the devices are on the same subnet the switch will not see the ARP messages because they are encapsulated inside of PPP.

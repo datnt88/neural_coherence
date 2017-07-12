@@ -1,0 +1,21 @@
+Hi.
+1.
+It is based on a requirement for a larger network.
+2.
+With in a small network IP address would alone be sufficient.
+3.
+However they would not be able to help if the message / data was to be transferred from one network to another, as from your home PC to the internet.
+4.
+Example:- Computer 1- IP.
+1.1.1.1 (MAC-11) (Lets say, your home PC) Router IP1 - connected to Computer 1 - 1.1.1.2 (MAC-12) Router IP2 - connected to Computer 2 - 2.1.1.1 (MAC-21) (Broadband router - it has two connections, just as a modem does) Computer 2 - IP.
+2.1.1.2 (MAC-22) (Lets say Google.com) If a message were to be sent to 'google.com' from 'home PC' this is how it would go:- Step1- At computer1 from ip - 1.1.1.1 (Computers IP) from mac - 11 (Computers MAC) to ip - 2.1.1.2 (Googles IP) to mac - 12 (Connected Routers interface) Note - data can be transferred to connected interface only.
+If destination MAC in the above was '22', then the message would have got nowhere as there is no MAC-22 connected to 'computer 1' Step2 - At the routers first interface the complete rebuild takes place.
+from ip - 1.1.1.1 (Computers IP) from mac - 12 (Routers 1st Interface) to ip - 2.1.1.2 (Googles IP) to mac - 21 ( Routers second interface) Step3 - At routers second interface.
+The data is transferred to second interface at the router and address are again modified.
+from ip - 1.1.1.1 from mac - 21 (Routers second interface) to ip - 2.1.1.2 to mac - 22 (Googles Interface) Same process is reversed on sending the data back to 'computer 1'.
+IP address are required to identify the original originating and destination devices, else the data would be lost in the network.
+It would be clearer if you drew the diagram on a page.
+The essential part to remember is that the information required is: 1.
+Senders IP and Destination IP 2.
+Senders MAC and connected MAC.
+Take care.

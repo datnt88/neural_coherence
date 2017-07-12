@@ -1,0 +1,13 @@
+That's 7% and that's exactly what's expected between the two definitions of Gb.
+If there's a &quot;New partition&quot; option in your right click, can't you use that to create a new partition (f:) in the unallocated space.
+Then you've got 3 partitions of about 100 Gb each.
+The right sequence is first make the partition, then format.
+&quot;Formatting to use as a new partition&quot;, as you say, is plainly wrong and impossible.
+That might be part of your problem.
+It's unclear to me why 'half' of a 300 Gb would become 100 Gb.
+Maybe your BIOS doesn't handle such a big drive correctly?
+Do you have reasons to partition the disk?
+It's not necessary.
+Windows XP SP2 can easily handle a 300 Gb partition.
+It might save you some troubles if you redo the install, delete all current partitions and use just one.
+Kees

@@ -1,0 +1,7 @@
+Check the wireless symbol in system notication area for a status like &quot;Limited or no connectivity&quot;.
+The symbol changes also.
+That has nothing to do with the signal strength, but everything with not being given an IP-address by the wireless DHCP-server.
+You can check that with IPCONFIG or, usually, on the router management page.
+The usual cause is a non-matching encryption mode or encryption key or the MAC-address not passing the MAC-filtering on the router.
+Hope this helps.
+Kees

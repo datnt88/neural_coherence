@@ -1,0 +1,6 @@
+unless you're using some individual midspan devices.
+You'll need to know the power requirements in voltage and watts that the cameras will require if you want your switch to work with them.
+Cameras can need more power than APs.
+You'll probably be looking for either 802.3af or 802.3at in the camera requirements specs.
+You'll may also want to make sure your switch is managed in such a way that you can enable or disable POE on each port as needed.
+Many POE switches only have a few of the total capable of powering a device anyway.

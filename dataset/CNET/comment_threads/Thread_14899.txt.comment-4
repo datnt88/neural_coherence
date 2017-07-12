@@ -1,0 +1,10 @@
+the cdrom drive and the floppy disk to the motherboard and power cables as well as the harddrive to the SATA controller.
+Then you have to enter your bios as you boot up (press the DEL key to get in there), and make sure you have the SATA enabled.
+Make sure you change the boot sequence to be CDROM, SATA (or other), A Put your W2K cd into the drive just before you Save and Exit from the bios, and the computer will reboot by itself and start reading from the cd in the drive.
+Use the screens to FDISK and FORMAT the harddrive and install W2K Once you have W2K installed to the drive completely, you can go back into the bios as you boot up, change the boot sequence to be A, SATA (or other), CDROM Now when you Save and Exit, the computer will reboot again, and this time it will get to the desktop area where the New Hardware Found wizard will be trying to install your drivers for things.
+Let it install as much as it can on its own from its own database, such as PCI controllers, etc.
+so that it will install your cdrom drivers and most of your motherboard drivers.
+Cancel out of things such as printer, modem, audio, etc.
+because you can install those yourself later from your install disks.
+What you want to do first is to get the cdrom loaded so you can use the motherboard cd to install the drivers for everything on the motherboard before anything else gets installed so make sure you have it handy.
+TONI

@@ -1,0 +1,27 @@
+XP Home SP3 P4 2.8 2 GB RAM 30 GB ide C drive, 100 ide GB Slave drive (F), CD-ROM RW ide master (D), DVD-ROM RW SATA master (E), floppy drive installed.
+BIOS version is A12.
+Original was A7.
+Spring cleaning arrived, so I took system apart and canned air cleaned, put fresh paste on cpu (original paste), and opened the PSU and canned air in there.
+Since I updated the BIOS about a year ago, I had both ROM drives as bootable.
+(Lucky me) Something changed about two months ago, as the CD-ROM stopped booting as before.
+The DVD still booted but I wanted to restore this functionality, so I disconnected the SATA ROM and the 100 GB ide drive (to prevent a drive letter change) as part of this project.
+What prompted the cleaning was a change in power-on light behavior.
+It recently started to flash a quick yellow for just a moment, then solid green power light.
+Computer ran perfectly until yesterday.
+I also lost the DVD drive yesterday.
+It would not see a disc when inserted any more.
+Nero said it lost communication with the light-scribe DVD drive and produced a window text error only.
+Disconnecting the two drives caused the A12 BIOS to start very slowly, normal operation POST was done in seven seconds, now three minutes.
+I removed the CMOS battery to clear the settings and reinserted.
+No change, except time and date had to be set.
+Boot order would not stick, default was HDD, floppy, CD-ROM, no matter how many times I tried to reset as CD-ROM, floppy, HDD.
+Would not work.
+Time and date did stick, though.
+Downloaded a new A12 BIOS patch from Dell, ran it in Windows, it restarted and waited an hour for it to finish.
+Never completed flash, so I powered down.
+Before I flashed the BIOS, the diagnostic lights A, B, C, in back of unit were green, D light was yellow (with the DVD and 100 GB HDD disconnected.)
+I checked all drive connections, found ok. Windows was still coming up, but the POST was inordinately long.
+Now have a solid yellow power light and no POST, no video, no beeps.
+CD-ROM does flash a couple of times, as does the HDD light, then stops, but then with all peripherals disconnected just a solid yellow power light.
+(Sigh) What happened?
+Can this be fixed?

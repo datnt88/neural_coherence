@@ -1,0 +1,13 @@
+Still sounds like a firewall setting, it could be using a different firewall setting for the different connections.
+Does it only block 80 or is 443 blocked also (ie https).
+Can you open the management web page on the routers from these PC?
+Used to be very easy to rule out the browse before microsoft decided we couldn't trust ourselves.
+The simple way to test if you can see a server is with the telnet command.
+For example telnet www.cnn.com 80 GET You should see some garbage when you type in GET.
+Now vista and 7 have disabled telnet by default you have to go into the control panel and turn the feature on.
+Basically if you get a response from telnet then the browser is the issue if you do not then something more fundamental is blocking the port.
+Although unlikely I would check for firewall settings in one of the routers.
+Since it works for some users it is unlikely.
+There should be log entries for any traffic that is blocked.
+This is not a easy one since it would be hard to intentionally configure it to operate as you say it does.
+I still bet its the software firewall on the client but then I have had so many issues with it I use a hardware firewall and disable the software one on my PC's

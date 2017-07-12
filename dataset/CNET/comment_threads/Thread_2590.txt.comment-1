@@ -1,0 +1,34 @@
+Summary - Windows XP Pro SP3 will not install when APIC is enabled in bios.
+Hardware - Asus M4A785-M (flashed to latest BIOS version of 1006), 2 sticks of 1GB DDR2 800 from G.SKILL, GeForce 8400GS 512MB video card in the PCIe 2.0X16 slot, Athlon II X4 640 3.0 GHz 95W processor, hard drive connected via SATA, 480W power supply.
+Details - I originally had this system running with a Sempron processor without any problems.
+I then upgraded to the Athlon II Quad Core.
+Everything seemed to be okay for a while (although I never did check to see if all 4 cores were running).
+I got a BSOD one day and the system would not boot (even into safe mode) without a BSOD.
+I noticed that the hard drive reported some bad sectors, so I backed up what I could and re-formatted and did a clean install of XP Pro SP3.
+When the system did its first re-boot during install, I got a BSOD of No_More_IRP_Stack_Locations.
+I get this error no matter what I have tried, except for turning off APIC in the bios.
+When I turn off APIC, XP will install correctly, but of course it installs as a Standard PC and only one core is active.
+What I've Tried - I originally thought this was a hard drive problem, since bad sectors were being reported.
+However, I've checked the hard drive with the manufacturer's testing program and all was well.
+I also have tried using a completely different drive with no luck.
+That rules out a problem with the hard drive.
+I also suspected bad RAM.
+I've tried moving the two sticks around into different slots with no success.
+I also ran Memtest overnight without any errors.
+That seems to rule out bad RAM as a problem.
+I then turned my attention to the other hardware, and I've tried removing all peripherals and the video card before installing XP Pro.
+I had no success there, either.
+I suspect the hardware is fine, as I can run a LiveCD of Ubuntu without any problems, and with all four cores running.
+I tinkered around with various BIOS settings, which is how I discovered it was related to the ACIP setting.
+The first thing I did was flash to the latest BIOS version (1006), but no luck there.
+I've read that people have tried disabling legacy USB support and APM before install, but that did not work for me.
+I tried using the setup defaults, and also turning off ACPI and PnPOS, but nothing helped.
+The only setting that changed anything was to disable APIC.
+I even tried forcing XP Pro to choose a different HAL during install.
+I disabled ACPI and tried to force the MPS Multiprocessor HAL.
+That gave me a different BSOD (Bad_Pool_Header), but it did not fix my problem.
+Overall, I've tried installing XP Pro at least a dozen times trying different settings.
+This has been the most frustrating computer issue I've had, and I'm out of ideas.
+Right now I'm running XP Pro with only one core of my quad core active, which is a big hit on performance.
+I'm also starting to get some random lock-ups, but I don't know if they are related to the APIC issue or not.
+If anyone has any ideas on how to get XP Pro to communicate with this motherboard when APIC is activated, please let me know.

@@ -1,0 +1,13 @@
+SNMP is a protocol for network monitoring.
+There are 3 versions available.
+SNMPv1 and SNMPv2 are the most common.
+First you need an SNMP management station which it seems you already have.
+Then you need to make sure your devices support SNMP.
+SNMP has a concept of public variable and private variables.
+There is usually a password associated with the Public & Private &quot;Community Strings&quot;.
+Public Community string is usually &quot;read only&quot;.
+The Private community string allows read and write access.
+So you can actually configure some devices by SNMP.
+There is a linux program called MRTG that is free and does SNMP monitoring and nice graphs.
+So you need to set the community strings on the device and you need to let the SNMP management station know the passwords as well in order to connect and query the information.
+SKrall

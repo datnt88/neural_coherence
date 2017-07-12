@@ -1,0 +1,26 @@
+Hi.
+This post is meant to clarify the concept of ARP: 1.
+ARP or address resolution protocol is meant to map the IP address to its interface MAC address.
+Period.
+2.
+For example: Computer-1 has an IP address 1.1.1.1 and MAC address 11 Router intface-1 has an IP address 1.1.1.2 and MAC address 12 Router intface-2 has an IP address 2.1.1.1 and MAC address 21 Computer-2 has an IP address 2.1.1.2 and MAC address 22 ARP cache: IP-1.1.1.1 MAC-11 IP-1.1.1.2 MAC-12 IP-2.1.1.1 MAC-21 IP-2.1.1.2 MAC-22 3.
+The process of transmitting data from Computer-1 to Computer-2 all over again: At Computer-1:- Stage-1 Source-IP 1.1.1.1 Source-MAC 11 Destination-IP 2.1.1.2 Destination-MAC - ?
+Stage-2 Now the computer will check its interface settings to clear up a question Where should I send the Data packets meant for other networks?
+The answer is the gateway information set up at the interface.
+Note Data packets, as they still do not have required MAC information attached, to qualify them as Frames Next the computer will query the MAC address from the ARP cache or send an ARP request to the gateway IP 1.1.1.2 for its MAC address.
+Stage-3 Now a frame will be built as follows and forwarded to router interface-1 Source-IP 1.1.1.1 Source-MAC 11 Destination-IP 2.1.1.2 Destination-MAC 12 Stage-4 At the router interface-1, a question needs to be answered.
+Where to send the data meant for network 2.0.0.0 ?
+as the final destination lies in the network 2.0.0.0.
+The answer will be in the routers routing table which will inform it that the data should be forwarded to IP-2.1.1.1.
+Next question is - what is the MAC address of IP-2.1.1.1?
+This is answered using ARP and built into a new frame with the original packet.
+Packet has the IP and TCP information with the Data.
+Frame has additional MAC information which is stripped and renewed at each passing interface.
+And so on.
+4.
+For a small network any protocol based on single address scheme would suffice.
+But that would limit the size of the network to the address available within that protocol.
+The design of the TCP/IP protocol has been structured so as to support segments of networks and ability to interconnect them with each other using the process known as routing.
+If the above requirements were redundant, then, theoretically, a small network would definitely function on IP address alone.
+I hope that it is understood, about the preceding statement, that TCP/IP would have to be redesigned to work without MAC address support for such a specific scenario.
+Take care.

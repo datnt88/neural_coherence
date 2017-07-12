@@ -1,0 +1,10 @@
+1) with the p35 chipset, if you stick with fast ddr2-800 dimms and run them at their standard rated timings (cl4), all 4 slots should run the same without issue.
+if you're overclocking (or using memory with especially aggressive timings) you'll have to drop back to 2T and you may have to increase your ram voltage (compared to 2 dimms).
+2) overclocking won't affect any of the sata ports from the intel ich9 hub.
+as for any 'extra' sata ports you'll have to check the mobo manual.
+3) there are 5 jedec 'standard' speeds for ddr2: 400, 533, 667, 800, and 1066. all the mobos you listed will work with ddr2-1066.
+those that only list official support for ddr2-800 will not auto-configure ddr2-1066 but you can do that yourself in the bios.
+other numbers (like ddr2-1200) indicate the fastest memory that the manufacturer will support.
+4) the 1600(OC) fsb and 1200(OC) mem does refer to overclocking.
+those are targets that the mobo manufacturer will support.
+if you exceed them, you're on your own.

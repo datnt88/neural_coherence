@@ -1,0 +1,14 @@
+If you don't want to read the full post, I made a summary at the bottom.
+I have 2 hard drives in this sytem.
+The master is a 20GB drive, and the slave is a 180 GB drive that had 2 partitions, 1 NTFS and the other FAT32.
+I was using Windows XP Pro (SP2) just fine; I was booting from the 20 gig and using the 180 to store media (music, video, games, installers, an image of the 20 gig drive, backups, etc).
+Because the 20 was upgraded from 98SE to XP and converted to NTFS, it was using 512b clusters, and I wanted the 4kb standard for some reason, so I decided to reformat and reinstall.
+After reformatting the 20 gig and doing a clean XP Pro install, I found that the 180 gig drive registered as an unpartitioned 128 gig drive.
+I did not format the 180 during installation, though I did notice that it registered as unformatted during installation (at the point where you choose where to install Windows) .
+I popped in Knoppix to see if the data was still there.
+Knoppix read the data just fine.
+How can I make Windows recognize my drive?
+SUMMARY: Was working perfectly.
+Reformated and reinstalled WinXP on master, slave shows up as unformatted.
+Linux can read slave just fine.
+How do I make Windows detect my drive and data?

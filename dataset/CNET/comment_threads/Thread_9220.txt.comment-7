@@ -1,0 +1,15 @@
+Yep.
+And for Darton Fury.
+Roughly data is built and transferred from one computer to another as in stages 1 to 4 and rebuilt 4 to 1.
+1.
+Segment - 'TCP + DATA' 2.
+Packet - 'IP + TCP + DATA' 3.
+Frame - 'LH + IP + TCP + DATA + LT' 4.
+Transmit bits.
+( Stuff/Electrical signal transferred over the Ethernet cable) TCP = TCP information IP = IP related information (IP addresss) LH = Link header LT = Link Trailer LH and LT refer to data link layer header and trailer (MAC info) Source of reference - CCNA Intro by Wendell Odom - Cisco press (CCIE no.
+1624) page 30.
+TCP /IP is a very large concept in itself.
+Different components play a different role for supporting and maintaining connectivity.
+ARP is a part of that but not relevant to the question asked.
+Take care.
+Both of you.

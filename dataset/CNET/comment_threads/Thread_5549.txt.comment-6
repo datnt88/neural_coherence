@@ -1,0 +1,13 @@
+This response requires a little bit of time and effort but it gives you corporate-class security with SoHo usability.
+This is what I did to separate the networks, have security, and still allow some parts of the networks to be able to communicate between eachother: 1) Find an old machine.
+This can be used to install m0n0wall on.
+[www.m0n0.ch] This is a very user friendly web-based firewall that is based on FreeBSD.
+[Don't be scared, it's very easy to use even if you're a non-BSD person] 2) Either install a wifi pci card or connect a Wireless Access point to the m0n0wall.
+This will take care of your wireless connectivity.
+3) Configure the m0n0wall to use 2 different subnets.
+[ie 10.0.0.0/24 and 10.1.1.0/24]for your LAN and your Wireless Network and then restrict access between those networks using the rules wizard to only allow traffic from your wife's computer to the printers and whatever other communications you may need between the networks.
+That should take care of the requirements.
+Security, wireless, and interconnectivity.
+If you live in NYS, you should look at Captive Portal functionality because here, it is legal to use any WAP unless there is a huge warning before hand.
+Hope this puts you into the right direction.
+Cheers ~Tree

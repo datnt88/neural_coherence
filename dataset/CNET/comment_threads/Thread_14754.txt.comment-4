@@ -1,0 +1,11 @@
+using ethernet cable directly to the Modem or Router, then the problem is not in the Airport.
+You have to establish a connection to the internet first to rule out all the variables.
+Shut down everything, modem/router/switches/airport/computer.
+Connect the computer directly to the modem.
+Make sure the computer is set to expect an IP address via DHCP or if you are using PPPoE, that everything in that section is correct.
+Connect should be via Built-in Ethernet.
+Bring them back up in the same order, waiting for each one to become ready before firing up the next one.
+Once the modem and computer are back up, try to get on-line.
+Take a look at the Network Preferances pane and see if the computer has an IP address.
+If it starts with 169, shut it all down and try again.
+P

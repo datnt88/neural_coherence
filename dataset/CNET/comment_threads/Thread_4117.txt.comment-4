@@ -1,0 +1,13 @@
+Thank you for your reply.
+I am sure you are correct about the non-availability of schematics.
+The power supply functions out of the unit with P-on forced and loaded into an old hard drive.
+The PS also works in another unit.
+I checked out the battery and it checks 3 volts in circuit.
+The owners manual I have on this machine does not indicate if the MOBO has a CMOS jumper but since the system had been working and suddenly refused to power up I would not suspect a jumper missing or in the wrong place.
+I pulled the battery overnight in an attempt to reset the CMOS: Nothing I have tried makes any change.
+I cut the green wire (P- on) and by using a 10 K resistor to common did a thevenin calculation looking into the Power supply and then into the MOBO.
+The PS has a pull up to V standby that equates to 2.5K (that sounds reasonable); but the mother board is pulling up the P-on line very hard, it theveninizes out as 66 ohms between V standby and P-on, that seems to be an adnormally low impedance to me.
+It would appear that some component on the board has broken down and is overdriving the P-on signal line to the power down condition.
+Now the decision is whether to retrofit with a new board or toss the whole thing as upgrading this unit may cost more than the purchase of a complete computer package.
+Thanks again for your input.
+Tom R

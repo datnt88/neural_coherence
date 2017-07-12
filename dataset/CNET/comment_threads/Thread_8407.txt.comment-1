@@ -1,0 +1,14 @@
+Hi all.
+I just built a new PC (Asus A8N, Athlon 64 3200, Corsair Value Ram, Msi NX 6600GT and my old 200Gb Maxtor).
+Already while installing, I encountered problems : the &quot; Error loading operating system&quot; message was resolved by switching translation method used to access the hard drive from the default setting &quot;Auto&quot; to &quot;Large&quot;.
+After that, I installed XP, without problems.
+Even though I was able to restart that install, as soon as I changed anything in XP (drivers, added SP1, ...), and was unable to reboot the OS: the message &quot; Windows XP could not start because the following file is missing or corrupt: \WINDOWS\SYSTEM32\CONFIG\SYSTEM&quot;.
+This apparently means that the registry is corrupt.
+If http://support.microsoft.com/default.aspx?scid=kb;en-us;307545 explains how to repair windows, it is useless, since there is something causing the corruption of the reg (I formatted and installed XP 3 times).
+But what ?
+Apparently, there is an issue with the HDD (see problem 1), which is a partitioned (50 Gb &quot;system&quot;, and 150 Gb &quot;files&quot;, NTFS).
+At the first install, windows sait that it had to check the files on the HDD, which lasted maybe 15 min (some where corrupt), something which I had never seen... (no probs with old PC) Another little issue is the 12 V supply which goes under normal value (at 11.45, in red in BIOS, which sometines causes the PC to stop at boot).
+Supply is 380 Watt Asus, which should suffice.
+I checked many forums about that 2nd error message; but no one seems to have an idea where it comes from (virus, spyware, memora issues, MB issues, ...).
+I already spent many hours on that machine, and I'd appreciate if anybody could help...
+Thanks a lot, Claus

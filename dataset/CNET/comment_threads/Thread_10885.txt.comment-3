@@ -1,0 +1,10 @@
+WPA has a number of improvements over WEP, the most significant being the use of Temporal Key Integrity Protocol (TKIP), which dynamically changes keys as the system is used.
+This provides greatly improved protection against, and effectively defeats, the well-known key recovery attacks on WEP.
+Your question suggests you will be using Personal WPA, which utilizes pre-shared key (PSK) mode.
+This is where every allowed computer is given the same passphrase.
+In PSK mode, security depends on the strength and secrecy of the passphrase.
+The passphrase may be from 8 to 63 printable ASCII characters or 64 hexadecimal digits (256 bits).
+However, the weak passphrases that users typically employ are vulnerable to password cracking attacks.
+To protect against a brute force attack, a truly random passphrase of at least 20 characters should be used, and 33 characters or more is recommended.
+In summary the more random your WPA preshared key, the safer it is to use.
+Telindus Technical Support UK

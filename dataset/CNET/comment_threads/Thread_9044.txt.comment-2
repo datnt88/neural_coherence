@@ -1,0 +1,5 @@
+your performance issues are to be expected since it's a very low-end gpu with 64bit memory using a pci slot.
+(agp or pci-express cards would run a lot faster.)
+you should only use the drivers bundled with the card -- *don't* use ati/amd's latest drivers.
+your power supply is probably not an issue since the card draws all of its power from the pci slot.
+the amount of current in a pci slot can deliver is fixed and does not change based on the power supply.

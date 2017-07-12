@@ -1,0 +1,5 @@
+Hmmm ... no external disks and yes ... definately a Windows problem!
+Thanks, you did open another avenue of investigation, it's a SATA system disk and has a RAID controller associated (although it's not RAIDED) and there is an error with XMASSCSI in the event log on startup.
+This does seem to occur AFTER the 30 second delay in the startup sequence of events but is worth some experimentation I guess.
+Oh for another 30 seconds!
+Thanks again.

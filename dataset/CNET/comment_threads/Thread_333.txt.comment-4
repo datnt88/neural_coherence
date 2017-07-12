@@ -1,0 +1,15 @@
+To a point it will.
+It has a number of reports that will work against the open collection buffer.
+Simple I/O rate graph seem ok. You can build filters for each address pair and graph I think up to 5 at the same time.
+If you work at you could graph different protocols as well as IP addresses.
+The issue with using wireshark as a live protocol analyzer is that it really a packet capture tool designed to look at data after it is captured.
+The only live data it can look at is in the capture buffer.
+Although the size of this buffer can be made large when you capture on path that has a lot of traffic the buffer will wrap over itself and if you make the buffer too large you will bog the machine down.
+The method I use is to let it capture for a few minutes to a file and then stop and look at the file.
+Although not real time the more advanced reports are more accurate.
+The reports that show jitter in VoIP calls only seem to work on non live data.
+On paths that are running huge amounts of data I use 2 machines.
+One to capture the data since it can do little else and another to look at the data.
+You can set wireshark to write the data to files at a set interval of set byte count.
+I share the drive it writes to and open the files using another copy of wireshark.
+Not truly live data but only a couple minutes old.

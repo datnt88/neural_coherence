@@ -1,0 +1,7 @@
+I built a little project awhile ago.
+It is a solar garden LED lights powered with single LiON 1000mAh battery.
+PIC microcontroller is monitoring battery voltage and prevents it to drop below 3V, as well to rise above 4,10V.
+Charging current is 50mA at max., meaning 0.05C.
+Maximum discharge current is about 0,02C.
+My question is, how will forementioned conditions affect battery lifespan.
+I read somewhere that when charging LiON battery below 0.18C, battery voltage of 4,2V means that the battery is virtually full, is this true?

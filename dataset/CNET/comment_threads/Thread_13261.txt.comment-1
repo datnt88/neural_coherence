@@ -1,0 +1,4 @@
+Hello Everyone, The following link explains how to calculate the maximum throughput on 802.11b: http://www.cisco.com/univercd/cc/td/doc/product/voice/c_ipphon/english/wip7920/7920ddg/wrlapdxi.pdf Summarizing the article, it proposes the following equation: Theoretical Maximum Throughput = (Packet Length * 8 * 1000000) / (Preamble + Header + ((Packet Length + 28) * 8 / Rate) + SIFS + Preamble + Header + (ACK * 8 / Rate) + DIFS + ((Backoff / 2) * Slot)) I understand almost all of the equations components, but I'm not sure about it ((Backoff / 2 ) * Slot)), I know that this time it is necessary because of the backoff algorithm of CSMA/CA, but I don't know why is it necessary the division by 2.
+Does anyone know why the division by 2 is necessary??
+How can I know if the correct number is 2 or 3 or ...??
+Hernn.

@@ -1,0 +1,5 @@
+the IP configuration.
+Command prompt, ipconfig /all.
+If the default gateway is not present or different than your other computers, try ipconfig /release followed by ipconfig /renew commands.
+If the computer will connect by IP addresses but not by names, it's a name resolution issue.
+Try ipconfig /flushdns command.

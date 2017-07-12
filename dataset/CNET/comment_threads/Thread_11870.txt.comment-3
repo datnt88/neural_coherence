@@ -1,0 +1,7 @@
+ok thanks Bob, my device has telnet server software(wrtten in vb6).
+it can access succesfully using assigned port number and IP address(ipconfig shown when i connect internet through dongle ) at same computer.
+i dont knw about DMZ.
+pls look at following steps, 1.when we connect another computer's telnet server software through public internet,and that computer should belong to some network.
+2. that computer's ethernet port should have private range ip like 192.168.10.3 3. that whole network has one ip which should be public ip(in router 120.10.10.5 23 or some thing) and that ip connect with internet.
+4. when we access from internet that 192.168.10.3 computer and port 23, we should go that network's public Ip address(120.10.10.5 23 ) and that router should forward my access to that 192.168.10.3 computer's port 23.
+5. when we enter telnet client that 120.10.10.5 23, how that router forword my request to 192.168.10.3 23computer..// pls expalin this scenario..... thank you.

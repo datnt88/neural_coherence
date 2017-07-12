@@ -1,0 +1,10 @@
+pjhansman, Try booting with the Windows rescue floppy.When you boot up, what is the sequence of beeps that you here.If you know the BIOS version, look up the chart that tells what the beeps mean (I.E.
+for AWARD BIOS 1 long and 2 short means the video card is bad..I just ran into this yesterday).If its an older PC, theres little jumpers or switches that set the CPU &quot;multipler&quot; and &quot;voltage&quot;.
+Newer Bios lets you change these in the BIOS setup.
+The multiplier takes the motherboards speed (i.e.if motherboards speed is 66mhz, you need a multiplier of 3 to get a CPU speed of 200mhz (198 rounds off to 200).
+Maybe one of these were changed.If the voltage switch or setup config is off, DON'T BOOT ANYMORE TILL YOU FIX IT (unless ofcourse you have to to enter BIOS setup and reset it)It cound fry the CPU.
+If the voltage/multiplier is OK, try starting in Safe Mode (hold F5 when booting)and go into control panel/systen and look for any problems.Go to Start/Run and load Dr Watson (Drwtsn32.exe for WinXP, Drwatson.exe for Win98)then try to reboot.
+Dr Watson will log exactly what happens during the boot and will show whats happening (as far as software goes).
+It actually reminds me of a power cable disconnected from the hard drive (or the data cable) Check all cables.
+Let us know what happens.
+DCO

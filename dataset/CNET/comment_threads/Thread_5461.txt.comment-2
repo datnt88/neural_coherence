@@ -1,0 +1,7 @@
+is extend partition 3 to include the free space at the end of partition 3.
+Then I'd shrink/reduce partition 3 starting at the beginning of the partition (between partitions 2-3) by roughly the amount you want to add to partition 2.
+Then I'd expand partition 2 by the free space created.
+You can do each step indivdually or build a batch.
+I prefer to do each step and check the results before going on.
+Let us know.
+VAPCMD

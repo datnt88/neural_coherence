@@ -1,0 +1,7 @@
+If I understand you correctly, you want to a) hook an external drive to each of your windows machines, and copy files to the external drive b) move those files from the external drive to your new iMac c) use the drive as the backup drive for Time Machine The mac can read FAT32 formatted drives, but not NTFS formatted drives.
+In order to read an NTFS drive, I'm pretty sure you'll need to install MacFUSE on the iMac as Robert suggested: &lt; http://code.google.com/p/macfuse/ &gt; But before you do that, have you tried networking the iMac with the windows machines?
+Your iMac can participate in windows-based networks very easily, and there's no extra hardware or software to install.
+Just network them together (using an existing network, or just by running an ethernet cable between your iMac and the target PC), then copy the files you need over your network.
+Then, for Time Machine, you will have to first re-format the drive as HFS+ (the default for the Mac OS).
+Formatting it for HFS+ will obliterate any windows files or file systems you may have on the drive.
+HTH --Scott
