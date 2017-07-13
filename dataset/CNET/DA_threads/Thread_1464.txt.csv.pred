@@ -1,0 +1,60 @@
+1.1.1	Hello all, Yeterday I bought a Thoshiba StorE art 3 1TB external hard drive.	St
+1.1.2	It had some drivers inside(200MB) and when I checked the available space, it was showning 931GB.	St
+1.1.3	I checked with the vendor and he said &quot;the acutul and the available capacities are always different and moreover it is having some space reserved for backup&quot;.	St
+1.1.4	I do not have the access to the 1024-931=93GBs and the moment and I feel confused.	St
+1.1.5	I can see two partitions /dev/sdb and /dev/sdb1 but only one is accessible to me.	St
+1.1.6	Also I am using Fedora 13 and the speed I am getting is 1MB/s which is very low.	St
+1.1.7	Pls advice....	St
+1.1.8	Thanks in advance|adarsh	St
+1.2.1	Seems OK.	St
+1.2.2	There are 2 definitions of GB.	St
+1.2.3	They differ by 7%.	St
+1.2.4	When selling a disk generally the one giving the largest number is used.	St
+1.2.5	In the OS usually the other.	St
+1.2.6	Nothing wrong with that.	St
+1.2.7	Don't know why it's so slow (unless it's connected to a USB 1 port).	St
+1.2.8	Kees	St
+1.3.1	Hi... Can you please clarify in &quot;There are 2 definitions of GB&quot; ?	Ques
+1.3.2	Also, is Thoshiba the one holding the most space than other manufacturers ?	Ques
+1.3.3	If yes who is the most efficient ?	Ques
+1.3.4	Is 7% a standard rate ?	Ques
+1.4.1	We have decimal bytes and binary bytes.	St
+1.4.2	A megaton is ONE MILLION TONS.	St
+1.4.3	A computer MegaByte is 1048576.	St
+1.4.4	We're nearly 5 per cent off already.	St
+1.4.5	IMAGINE if you converted 1 Billion bytes to TeraBytes?	St
+1.4.6	Bob	St
+1.5.1	HD makers rate capacity based on one K-byte equals 1000 bytes.	St
+1.5.2	An OS....such as Windows...rates capacity based on one K-byte equals 1024 bytes.	St
+1.5.3	If you think about that for a moment.....and then get out paper and pencil and expand it to one T-byte.....a whole bunch of space is going to vanish.	St
+1.6.1	Already tried and sobbed about the ~90 GBs.	St
+1.6.2	If it is a case of 1000mB to 1GB, then it around 7%.	St
+1.6.3	You are right.	St
+1.6.4	But still searching for a way to make it faster.	St
+1.6.5	On windows I get 55KB/s.	St
+1.6.6	In linux it literally slept..	St
+1.6.7	But will find a way for sure	St
+1.7.1	For example the host PC make, model, where connected.	St
+1.7.2	So here it is, some front USB ports fall back to USB 1.0 speed and while it is well discussed why, after years I found one person to fix it.	St
+1.7.3	This means my advice is to use the rear ports.	St
+1.7.4	But without make and model, how can I give that advice?	St
+1.7.5	About Fedora.	St
+1.7.6	Nice but I'd try Ubuntu next.	St
+1.7.7	I find its hardware support to be a little better.	St
+1.7.8	Bob	St
+1.8.1	It is a vaio VPCEB12EN.	St
+1.8.2	It does not have USB ports on the back, but three on the right side and one usb/eSATA port on left, whcih can also used as a USB port(I did not try on that one).	St
+1.8.3	And also with windows I can see the transfer rate upto 57MB/s with the ports on the right.	St
+1.8.4	Yes I agree with that.	St
+1.8.5	Ubuntu has better support and also easy too, than Fedora.	St
+1.8.6	But I love fedora !	St
+1.8.7	!.	St
+1.9.1	site:forums.fedoraforum.org Fedora sony slow usb on google finds folk talking about that.	St
+1.9.2	Sorry but I don't write on work on Fedora (just some embedded Linux) so let's let Fedora folk address that OS.	St
+1.9.3	http://forums.fedoraforum.org/showthread.php?t=261015 seems to echo your post here.	St
+1.9.4	Bob	St
+1.10.1	Yes.	St
+1.10.2	That is my post only.	St
+1.10.3	Posted it yesterday.	St
+1.10.4	I am afraid it is not a problem with sony, because I am getting reasonably good speed while on windows.	St
+1.10.5	Seems like some driver issue in fedora.	St

@@ -1,0 +1,69 @@
+1.1.1	i just added 2 sticks of 256mb of pc100 ram to my computer the other day..but when i right click/properties on my computer it says i only have 383mb of ram...does anyone have any sort of help they could offer?	St
+1.1.2	thanks	Polite
+1.2.1	Did you check to see if your system can support more than 128meg sticks?	St
+1.2.2	A system that is so old it is running PC100 memory is likely to be running Win98 or ME, which both have problems with over 512meg of memory.	St
+1.2.3	You didn't tell us anything about hardware/software on your system, that eliminates the ability of us to give much advice.	St
+1.3.1	you are correct..i am running windowsME..if they have problems running over 512 does this mean i cant have 512 at all?	St
+1.4.1	http://support.microsoft.com/?scid=253912 The workaround essentially tells Windows 95/98/98SE/ME to limit itself to 512 MB.	St
+1.4.2	So there's no reason to go past that amount since you may have to tell it to curb itself at 512 MB.	St
+1.4.3	The MAKE/MODEL of the machine or if no make/model then the MAKE/MODEL of the motherboard is required to look at the issue.	St
+1.4.4	-&gt; BUT KNOW THIS!	St
+1.4.5	There are BX and other based boards that can't use 256MB sticks you buy at the grocery store.	St
+1.4.6	I can find the technical documents as to why this is so, but at the end of the story, the memory controller doesn't support the 256 MB stick you have it the stick shows up as only 128 MB.	St
+1.4.7	There is NO FIX to make these memory sticks work in this motherboard with this chipset.	St
+1.4.8	But http://www.crucial.com does sell the right 256 MB sticks for this system.	St
+1.4.9	Hope this helps, Bob Bob	St
+1.5.1	As indicated by the Moderators some computers cannot go over 512MB of RAM.	St
+1.5.2	In fact some should not even get up to 512MB.	St
+1.5.3	One of my computers is a 500MHz Win98se that came with 128MB of RAM when purchased new 4 years ago.	St
+1.5.4	Crucial.com indicates the maximum for this computer is 192MB of RAM and that is what I installed...runs good and with a GeForce 2 GTS AGP Video Card, runs most current (but not all) high tech video games pretty good.	St
+1.5.5	Stick with what Crucial suggests for your computer, and even if they indicate a max over 512MB, anything over 512 is a waste (and may cause you problems) unless you do high tech graphics or video editing work.	St
+1.5.6	JR	St
+1.6.1	perhaps a bios upgrade is needed for the mobo to be able to see it.	St
+1.6.2	--fj	St
+1.7.1	The chipsets in question can never work with todays garden variety 256 MB sticks from Best Buy and the grocery store.	St
+1.7.2	The address lines just are not there.	St
+1.7.3	Crucial has the prior flavor of 256 MB sticks for these boards.	St
+1.7.4	No big surcharge and cheaper than changing out the motherboard.	St
+1.7.5	Bob	St
+1.8.1	IT is probable that you have one of two problems, assuming that your comp is fairly old by the ram you are using, it may not read 512mb of ram as a lot of the older comps were limited to 256.	St
+1.8.2	The second possibility is that one stick is faulty and only supplying 128mb.	St
+1.8.3	Hope this helps Mathew	St
+1.9.1	The BX chipset, only supports 256MB modules, that are electrically _double banked.	St
+1.9.2	These use one less address line, and two 'CAS' lines to talk to the two banks.	St
+1.9.3	Unfortunately a lot of modern 256MB modules (as chip sizes have got larger), are 'single banked', requiring one more address line, but only a single CAS line.	St
+1.9.4	This is a limit of the BX chipset (applies to all boards using these), and suppliers like Crucial, have a different part number for the double banked modules, which will automatically be selected, if you specify the motherboard when using Crucial's memory selector.	St
+1.9.5	The issue extends to other boards and chipsets as well.	St
+1.9.6	NO BIOS UPGRADE CAN FIX THIS!	St
+1.9.7	Bob	St
+1.10.1	Hey Here is what I would do.	St
+1.10.2	I had a 440Mhz,64 RAM computer.	St
+1.10.3	And I found the need to update in 2003.	St
+1.10.4	I bought a Athlon 1600+ (1300Mhz),a new Motherboard 256 SDRAM, and a Geforce Mx 440 for under $200.	St
+1.10.5	I can run anything on the market.	St
+1.10.6	It may not be on high but I can run it.	St
+1.10.7	So I would take a stick of that RAM back and buy a new barebone.	St
+1.10.8	The motherboard is what is not letting you use all your RAM.	St
+1.10.9	You have more RAM then your motherboard can use.	St
+1.10.10	So I would get a barebone(A prosseser,case, and motherboard) then use you hard drive and other parts from you computer to finish you new/improved system!!!	St
+1.10.11	Hope this helps, Christian Computer Guy	St
+1.11.1	This is the best answer.	St
+1.11.2	Upgrade with a barebones.	St
+1.11.3	It the best and cheapest solution	St
+1.12.1	Mathew suggested one of the memory sticks might be faulty.	St
+1.12.2	A small program, fits on a floppy, that I have used recently, did show that I had faulty memory.	St
+1.12.3	URL for download: www.memtest86.com/ It really sorted things out for me, being struggling for ages.	St
+1.12.4	Bryan.	St
+1.13.1	I know very little about computers, but a friend of mine does and he installed another stick of memory on my now old computer (Win98se)and it wasn't recognizing it.	St
+1.13.2	He found that the mother board was warped and the memory wasn't making good contact.	St
+1.13.3	A rubber band was a temp fix for the problem till we got a new mother board 2 days later.	St
+1.13.4	Problem solved with the new motherboard that wasn't warped.	St
+1.14.1	If you can, please tell me what kind of chipset you have.	Sug
+1.14.2	Like the others mentioned, go to http://www.crucial.com to find out what kind of memory is compatible with your system and the maximum amount your motherboard can take.	St
+1.14.3	I run an old Athlon T-Bird Slot A @ 850mhz, and it only takes 768MB of PC100 SDRAM, but it ONLY took the low density type.	St
+1.14.4	Higher density RAM (that can take 512MB or more) would only be seen by my computer as 128MB, even if it was double that.	St
+1.14.5	If your motherboard can take up to 512MB, you might have to remove the first memory stick your originally had (hey, why don't you sell it for a little cash to someone who needs more memory for their basic computer?).	St
+1.14.6	Chances are, if your motherboard only has 3 slots, it may only go to 384MB (possibly 512MB).	St
+1.14.7	When you find out if you can run more than 512MB, be sure to check out these links for some workarounds.	St
+1.14.8	http://support.microsoft.com/default.aspx?scid=kb;EN-US;q181862 - Specifying Amount of RAM Available to Windows Using MaxPhysPage http://support.microsoft.com/default.aspx?scid=kb;en-us;Q181966 - System Configuration Utility Advanced Troubleshooting Settings, Limit Win98/ME to 512MB You can also use this tweak if you can run more than 512MB or RAM.	St
+1.14.9	Edit these lines in your system.ini file: [VCache] MinFileCache=524288 MaxFileCache=524288	St

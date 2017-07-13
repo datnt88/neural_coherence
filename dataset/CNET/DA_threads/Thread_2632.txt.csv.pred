@@ -1,0 +1,34 @@
+1.1.1	Hello all I have a Snow Leopard iMac with Virtualbox installed.	St
+1.1.2	On my Virtualbox i am running windows 7.	St
+1.1.3	My job has two different networks.	St
+1.1.4	I need my Mac on Network 1 and I need to have my windows 7 in Virtualbox on network 2.	St
+1.1.5	If i install a USB Ethernet port on the iMac and plug network 2 into it, how can i make it work just for Virtualbox?	St
+1.1.6	I then want to make the built in Ethernet port work on network one and be just for the iMac?	St
+1.1.7	Can it be done or am i just crazy?	St
+1.1.8	Thank you	St
+1.2.1	But I've seen such requests before so given how this works, I'm going with not going to work out for you as you planned.	St
+1.2.2	Why not connect both networks and then tell Windows to use that LAN?	St
+1.2.3	Bob	St
+1.3.1	The problem is the two subnets.	St
+1.3.2	One should not be connected to the other.How do i make the mac ignore one of them?	St
+1.4.1	The route table, netmask and more details but I only see the tip of the iceberg of information here.	St
+1.4.2	While I did write router code back in the early 1990s it appears you are trying something for reasons I can only guess at.	St
+1.4.3	At the office I have something like this but I use 3 laptops to do the work.	St
+1.4.4	Bob	St
+1.5.1	I work at a school.	St
+1.5.2	I need to be connected to the instructional network sot fix computers, monitor student usage and all around support.	St
+1.5.3	I also need to be on the administration network for the same reasons.	St
+1.5.4	I currently have two computers to do this.	St
+1.5.5	I would like to have one computer and put my other one out for student use.	St
+1.5.6	I want my Mac on the instructional and my virtual windows on the administration.	St
+1.5.7	One cannot be connected to the other.	St
+1.6.1	We have networks of hardware controls so we emulate this on our test rigs.	St
+1.6.2	Given how perilous setting up a single laptop would be and that it would be an emulation of the real thing we don't do what you propose.	St
+1.6.3	But if I was to do this I would be looking at route tables, masks and such.	St
+1.6.4	And there's the rub.	St
+1.6.5	Most folk can't alter a route table.	Sug
+1.6.6	I know it took me years to learn this.	St
+1.6.7	I mean I could issue the command but until I was on that router software dev team I didn't understand it because I didn't have to.	St
+1.6.8	Fast forward to your setup.	St
+1.6.9	It may take time for you to pound out what your Apple's route table looks like for this one.	St
+1.6.10	Bob	St

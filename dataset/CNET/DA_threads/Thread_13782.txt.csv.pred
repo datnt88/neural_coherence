@@ -1,0 +1,13 @@
+1.1.1	My Dell XPS 600 has sata hard drive is there a way to add an ide hard drive I do not find anything in the bios that will all me the change this	St
+1.2.1	But I toss old IDE drives into USB cases when I need to access them.	St
+1.2.2	Bob	St
+1.3.1	Your specs show no immediate support for PATA type(EIDE) HDs.	St
+1.3.2	Unless, the CD drives have use of an EIDE port, then you *may* install an IDE HD, but it won't be quick or as desirable other than it can be used.	St
+1.3.3	If you plan to use some old IDE HD, you may have to look at some adapter to attach on IDE drive then i/f with SATA port.	St
+1.3.4	IMO, you would be better served simply to have a SATA type drive to install.	St
+1.3.5	http://www.dell.com/content/topics/topic.aspx/global/products/dimen/topics/en/dimen_xps600_sp_specs?c=us&cs=19&l=en&s=dhs tada -----Willy	St
+1.4.1	If you have the Dell XPS 600 Motherboard nForce4 SLI XH241, it sure looks like there is an IDE connection.	St
+1.4.2	Open the case and have a look.	St
+1.5.1	You won't need to change anything, set the jumper on the IDE HD to slave.	St
+1.5.2	Just connect to existing IDE cable and reload your XP CD.	St
+1.5.3	Do a full format, it should work like any other reload.	St

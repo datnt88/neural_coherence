@@ -1,0 +1,81 @@
+1.1.1	I am having the same problem as dinadozer in the ''Cannot view computer in workgroup'' and also have tried disableing zone alarm and have logical drives setup for file/print sharing.	St
+1.1.2	My network has been functional for 2 to3 years, loss of networking has become only a very recent problem.	St
+1.1.3	I have checked for viruses, spyware, and have kept zone alarm, avg AV, ad-aware, microsoft's anti spyware, spy-bot up to date.	St
+1.1.4	I've also checked for rootkits.	St
+1.1.5	It doesn't matter which pair of 3 computers I have networked, 2 win2k computers or 1 win2k and 1 XP the target computer can not be seen in network places.	St
+1.1.6	I have tried windows help and the last step said that microsoft had done all it could to resolve the problem.	St
+1.1.7	The last step in windows networking troubleshooter deals with the tracert command.	St
+1.1.8	My network contains a satellite server, one print server, and two computers.	St
+1.1.9	The satellite has a required address of 192.168.0.1 and the print server has a required address of 192.168.0.10.	St
+1.1.10	My ''computerties'' computer has an address of 192.168.0.3, my ''soyodragon'' computer has an address of 192.168.0.4.	St
+1.1.11	(In the text below I have left out the ''documents and settings....etc'' in the command line to save typing) (Also Trace Completes after the first entry are understood) All these are distrubuted through a D-Link 5 port switcher.	St
+1.1.12	From the SOYODRAGON: C:\&gt; tracert 192.168.0.1 Tracing route to 192.168.0.1 over a maximum of 30 hops 1 6ms 5 ms 4 ms 192.168.0.1 Trace Complete C:\&gt; tracert 192.168.0.3 Tracing route to 192.168.0.3 over a maximum of 30 hops 1 &lt;10ms &lt;10 ms &lt;10 ms 192.168.0.3 C:\&gt; tracert 192.168.0.4 Tracing route to 192.168.0.4 over a maximum of 30 hops 1 &lt;10ms &lt;10 ms &lt;10 ms Soyodragon [192.168.0.4] C:\&gt; tracert 192.168.0.10 Tracing route to 192.168.0.10 over a maximum of 30 hops 1 1 ms 10 ms 1 ms 192.168.0.10 From the COMPUTERTIES C:\&gt; tracert 192.168.0.1 Tracing route to 192.168.0.1 over a maximum of 30 hops 1 5 ms 5 ms 4 ms 192.168.0.1 C:\&gt; tracert 192.168.0.3 Tracing route to 192.168.0.3 over a maximum of 30 hops 1 &lt;10ms &lt;10 ms &lt;10 ms Computerties [192.168.0.3] C:\&gt; tracert 192.168.0.4 Tracing route to 192.168.0.4 over a maximum of 30 hops 1 &lt;10ms &lt;10 ms &lt;10 ms 192.168.0.4 C:\&gt; tracert 192.168.0.10 Tracing route to 192.168.0.10 over a maximum of 30 hops 1 1 ms 10 ms 1 ms 192.168.0.10 I googled tracert and from suggested related commands tried PATHPING with the following results: ~...&gt;pathping 192.168.0.3 Tracing route to 192.168.0.3 over a maximum of 30 hops 0 Soyodragon [192.168.0.4] 1 192.168.0.3 Computing statistics for 25 seconds ...	St
+1.1.13	Source to Here This Node/Link Hop RIT Lost/Sent = Pct Lost/Sent = Pct Address 0 Soyodragon [192.168.0.4] 0/ 100 = 0% : 1 0ms 0/ 100 = 0% 0/ 100 = 0% 192.168.0.3 Trace Complete I have read MS's treatise on pathping but admit that I do not understand it as applies to the results shown above.	St
+1.1.14	What else can I try/do to re-establish network communications?	St
+1.1.15	Thank you.	St
+1.1.16	Added comment: In the start &gt; run &gt; box, I have tried http://192.168.0.1 and my direcway home page opens.	St
+1.1.17	http://192.168.0.10 opens my print server, However, http://192.168.0.3 ''Unable to connect'' ~...firefox can not eatablish a connection to 192.168.0.3. http://192.168.0.4 after entering ''administrator'' opens windows 2000 home page	St
+1.2.1	your other computer in network place...?	St
+1.3.1	Since your machines are not in some DNS (server) pathping can't resolve the names.	St
+1.3.2	No failure in my book.	St
+1.3.3	-&gt; The network neighborhood is full of issues.	St
+1.3.4	No fix is forthcoming and if you want to spend the money on the phone with support, so be it.	St
+1.3.5	However if I want to look at shares and machines I use the COMMAND LINE.	St
+1.3.6	Such as... NET VIEW And the other net commands.	St
+1.3.7	Feel free to rant that the Network Neighborhood needs work.	St
+1.3.8	Bob	St
+1.4.1	I had to go into the firewall section and put my home network range in the trusted zones and then it worked perfectly.	St
+1.5.1	Opening network places from the soyo computer shows 2 icons, 1 for the print server ps-429735-p1 and soyodragon.	St
+1.5.2	From the computerties computer shows 2 icons, 1 for the print server ps-429735-p1 and the computerties computer.	St
+1.5.3	As far as pinging the whole network from either computer that has been covered in the original post.	St
+1.5.4	Thanks for taking the time to ask the question.	St
+1.6.1	Net view from computer #1 reads: \\ps-429735 \\SOYODRAGON The command completed successfully Net view from computer #2 reads: \\COMPUTERTIES \\PS-429735 The command completed successfully As to pathping, I had never heard of the command until this afternoon and personally have no idea what it is supposed to tell me?.	St
+1.7.1	Zone alarm firewall zones include one for 192.168.0.0/255.255.255.0 and a firewall zone network range of 192.168.0.1 - 192.168.0.254.	St
+1.7.2	That I have had during the times that the network was functional.	St
+1.7.3	I have also tried temp killing zone alarm, also my av.	St
+1.7.4	To be internet safe, I did this with the satellite server de-powered.	St
+1.7.5	Thanks for the suggestion, though.	St
+1.7.6	One thing that I forgot to mention to Bob was this problem first showed up after Sony had me reatore the sony XP to its factory state.	St
+1.7.7	When I broached this subject to a Sony 2nd tier rep, he gave up and said that networking was not their expertise and that I sould hire a local &quot;networking specialist&quot; to aid me.	St
+1.7.8	Frankly the last 2 &quot;specialists&quot; created more problems that they solved.	St
+1.7.9	Well, I shall keep my fingers crossed and keep trying.	St
+1.7.10	Thanks again..Charles	St
+1.8.1	As a rule I don't duplicate web content.	St
+1.8.2	These are volunteer forums so I leave you to read about this.	St
+1.8.3	Bob	St
+1.9.1	I have made some progress.	St
+1.9.2	I checked the local area connection properties on both computers and the soyo had netbeui protocol.	St
+1.9.3	The other one did not so I added that to the other computer.	St
+1.9.4	From the ''computerties'' computer, I can now see the soyo computer.	St
+1.9.5	When I open workgroup, I get a msg that the Soyo computer is not accessible &gt; Password has expired.	St
+1.9.6	I don't use passwords, so what do I do now?	St
+1.9.7	Have resolved the network issue from the soyodragon computer.	St
+1.9.8	Opened sharing for C & D drives on both computers and removed the share names of C$ and D$ and replaced them with C-Drive and D-Drive and the soyodragon is now seeing and opening files and drives on the other computer and copying files.	St
+1.9.9	So one computer is fine now.	St
+1.9.10	Password error still not resolved as mentioned above.	St
+1.9.11	Clicking properties in workgroup of the soyodragon computer icon (in computerties windows explorer) returns the msg that I do not have proper access rights.	St
+1.9.12	Contact administrator.	St
+1.9.13	Which is I.	St
+1.10.1	You might need a same username in the win2k computer.	Sug
+1.10.2	If your pc have a username A, then you need to have a user name (A) in your win2k computer.	St
+1.10.3	Just for testing, make a username (let's say A) in all the computer.	St
+1.10.4	(when you ask for username/password, in the network plcace, use that name)	St
+1.11.1	I need a little clarification here.	St
+1.11.2	The pair of computers that I am trying to network right now are both win2k, which I will ''rename'' Old and New (for this discussion) .	St
+1.11.3	The New computer sees, opens, and transfers files to the Old.	St
+1.11.4	The Old sees,but can not open the network because of the error of expired password (?).	St
+1.11.5	Are you suggesting that I rename each computer the same name so that one computer is named ''Old'' and the other computer is named ''Old'' also??	St
+1.11.6	I will retain the different urls, though.	St
+1.11.7	A trial won't take long and if I've got you wrong then let me know.	St
+1.11.8	Thanks	Polite
+1.12.1	Does have its passwords expire.	St
+1.12.2	Fix?	St
+1.12.3	Logon as admin.. and set the password to never expire if that's your choice.	St
+1.12.4	Bob	St
+1.13.1	its only password expired.	St
+1.13.2	What I mean by having a same name..	St
+1.13.3	I mean you need to have a same USER name on the computer .. not the computer name.	St
+1.14.1	User name has been the same though most of the time I simply log in as administrator.	St
+1.14.2	Changing the password took care of the problem.	St
+1.14.3	Thanks to all.	St
+1.14.4	Charles	St

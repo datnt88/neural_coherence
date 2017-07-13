@@ -1,0 +1,232 @@
+1.1.1	I have two computers, both with XP SP3, one Home, the other Pro, and a router.	St
+1.1.2	The XP Home computer is connected directly with an ethernet cable to the router, the XP Pro is connected to the router through ethernet over the a.c. supply through two of those whatever you call them &quot;adapters&quot;.	St
+1.1.3	Both computers connect to the internet ok but they apparently can't see each other - the network which I thought I had set up doesn't appear in My Network Places, nor can the XP Pro machine use the printer which is connected to a USB port on the XP Home one.	St
+1.1.4	When I try to print something from the Pro machine, the printer's (Epson) window opens up, telling me that the &quot;Printer is not ready to print&quot;.	St
+1.1.5	I may have overlooked something, or perhaps the various instructions which I have read have not mentioned something which they should have.	St
+1.1.6	Can anyone suggest a reliable and complete set of instructions which I can consult?	Ques
+1.2.1	Have you tried the Windows help that's built into your system?	St
+1.2.2	Have you run the networking wizard from the Control Panel?	St
+1.2.3	Have you marked your printer shared?	St
+1.2.4	Have you turned on shared files and folders?	St
+1.2.5	Usually that's about all it takes.	St
+1.2.6	Good luck.	St
+1.3.1	As there is no router model noted, I can't write much more.	St
+1.3.2	Bob	St
+1.4.1	kindly provide more information on this share	St
+1.5.1	Yes, I have run the wizard (several times), the printer is marked as shared.	St
+1.5.2	I have set some folders as shared.	St
+1.5.3	How do I get access to the Help to which you refer?	St
+1.5.4	The router is an DSL-2640R.	St
+1.6.1	http://www.dlink.com/uk/en/home-solutions/connect/modems-and-gateways/dsl-2640r-wireless-g-adsl2plus-modem-router http://www.dlink.com/uk/en/support/product/dsl-2640r-wireless-g-adsl2plus-modem-router I see there are 2 versions.	St
+1.6.2	I will only check the B1 version.	St
+1.6.3	If you have the A1 version I will wait a few days before I comment again.	St
+1.6.4	Please folk, supply the details if you want the best help.	Sug
+1.6.5	http://www.dlink.com/uk/en/support/product/dsl-2640r-wireless-g-adsl2plus-modem-router?revision=deu_revb1 http://www.dlink.com/uk/en/support/product/dsl-2640r-wireless-g-adsl2plus-modem-router?revision=deu_revb1 This model does not appear to have the firewall that blocks Windows Sharing.	St
+1.6.6	As such it appears you have something else going on.	St
+1.6.7	I'll wait for you to share what web site you are using to setup your networking shares.	Sug
+1.6.8	Bob	St
+1.7.1	I've yet to find a reliable and complete set of instructions that don't include a full course in Windows and more.	St
+1.7.2	I see a lot of guides out there on how to share a printer on Windows XP but I take it those have not helped so sharing another one is not going to help.	St
+1.7.3	It took a few posts to dismiss a problem I encounter a lot today and the details are still slim.	St
+1.7.4	For example, tell the forum more about how you setup the printer share.	St
+1.7.5	Bob	St
+1.8.1	Thank you Bob.	St
+1.8.2	It has hardware version B2 and firmware version V1.18.	St
+1.8.3	I had a brief look at the advanced settings but see nothing about networking.	St
+1.8.4	I do see, though, that in a couple of those links, it says &quot; ... sometimes even the Windows firewall has to be told that you have a new trusted device on the network.&quot; Ok, how do I tell that to my firewall?	St
+1.8.5	Oh, by the way, I noticed that in their description of it they say that it has a &quot;Non-detachable diversity antenna&quot;.	St
+1.8.6	Yes, it's not detachable, but since it's on its own it ceratinaly ain't one of two or more antennas which are necessary for (space) diversity reception.	St
+1.8.7	I wonder where some of these people get their ideas from?	St
+1.9.1	When I'm trouble shooting the setting is OFF or Disabled.	St
+1.9.2	Your new techs tend to not get why we do that and stumble for days as the firewall blocks their efforts.	St
+1.9.3	-&gt; Keep in mind we are on a LAN behind a NAT ROUTER so only the new networker seems to ask why we turn off the firewall on the LAN machines.	St
+1.9.4	I'll keep trying but I'd like to read about how you set up the printer share, if the workgroup names are the same and well, in short, what web page did you consult to set up the printer share?	St
+1.9.5	Lastly, a few printers do not support printing over the LAN.	St
+1.9.6	I read EPSON but no model number so I can't check into that.	St
+1.9.7	I don't want to upset you but without the details we end up with a lot of posts.	St
+1.9.8	Try adding these details.	St
+1.9.9	1.	St
+1.9.10	How did you share the printer.	Ques
+1.9.11	2.	St
+1.9.12	What Epson.	St
+1.9.13	Npn	St
+1.10.1	Sorry, I should have been a more thorough.	St
+1.10.2	It's an Epson Stylus SX-125.	St
+1.10.3	I enabled sharing by right clicking on it in Control Panel &gt; Printers and Faxes, then clicking Sharing and then, under the Sharing tab, enabling Share this Printer.	St
+1.10.4	I also enabled &quot;Turn on file and printer sharing&quot; in the Network Setup Wizard.	St
+1.10.5	I have seen this instruction on several sites I visited, - can't remember them, there have been quite a few.	St
+1.10.6	I entered the same workgroup name on both computers.	St
+1.11.1	Having searched for advice regarding this, I have looked at Exceptions and found that &quot;File and Printer Sharing&quot; is ticked, and, in Add Program &gt; Change scope (what a strange choice of words), I have enabled &quot;My network (subset) only&quot;, but upon reurning to this window/tab I find that it is no longer enabled, the setting having reverted to the default &quot;Any computer (including those on the internet)&quot;	St
+1.12.1	Did you install the Epson Network and driver package at link?	St
+1.12.2	http://esupport.epson-europe.com/ProductHome.aspx?lng=en-GB&data=FCFfEfoyEiHyOkOBRy3hkiLnPc3ayltHK6YIIUCAR9MU003D&tc=6	St
+1.13.1	If there's a firewall, all your work could be blocked.	St
+1.13.2	Until you get it working, disable it.	St
+1.13.3	Bob	St
+1.14.1	No I didn't.	St
+1.14.2	Never heard of it before.	St
+1.14.3	Anyway, I have downloaded it.	St
+1.14.4	I would guess that it has to be installed on both computers?	St
+1.15.1	I think I shall excercise a bit more patience before resorting to that.	St
+1.16.1	This often ends up with the service techs coming in.	St
+1.16.2	Good to read as folk can't seem to grasp why a firewall on a LAN is going to make trouble.	St
+1.16.3	As I can't teach everything here, I hope you think about your discussion here.	St
+1.16.4	Bob	St
+1.17.1	I installed the Epson Network and driver package on both machines.	St
+1.17.2	It didn't seem to make any difference.	St
+1.17.3	I then disconnected the internet cable from the router and switched off the firewall on both machines.	St
+1.17.4	No change.	St
+1.17.5	I checked again, using the Network Wizard, everything ok.	St
+1.17.6	I used Microsoft's Network Troubleshooter and disovered that the workgroup name (in the Computer Name tab) was not what I had entered and was displayed in the Network Wizard.	St
+1.17.7	After changing it, I was able to see both computers through My Nertwork Places/&quot;View workgroup computers&quot;, and from each computer was able to see the files with sharing enabled on the other one.	St
+1.17.8	Remembering that my printer is on a USB port on the Upstairs computer, I tried to print a document from the Downstairs one.	St
+1.17.9	The expected windows were displayed, but, on clicking Print, the printer window's progress bar filled up very quickly and I found that the file had not been printed.	St
+1.17.10	I forget the exact sequence of the next one or two steps (having found this whole matter so frustrating, I have had a bit of a rest from it).	Sug
+1.17.11	Next time I looked, although both computers were still shown in &quot;View workgroup computers&quot;, I was unable to see anything on the Upstairs one from the Downstairs.	St
+1.17.12	I was presented with the message &quot; \\Home is not accessible.	St
+1.17.13	You might not have permission to use this network resource.	St
+1.17.14	Contact the administrator of this server to find out if you have access permissions.	St
+1.17.15	Access denied&quot;.	St
+1.17.16	Well, I am the administrator, and he doesn't know !!	St
+1.17.17	I had had quite enough again, thank you, so shut both machines off again.	St
+1.17.18	This evening, I fired them back up.	St
+1.17.19	I was able, from the Upstairs computer, to modify a file on the downstairs one, and tell the downstairs one to print a jpg file, which it did.	St
+1.17.20	Going downstairs again I was unable to see anything on this (the Upstairs one) from it again and was presented with that same message.	St
+1.17.21	Anyone got any ideas?	St
+1.18.1	Perhaps I should point out that in the message regarding lack of permission/s, &quot;Home&quot; is what the system calls the &quot;Full computer name&quot;, while &quot;Upstairs&quot; is the one I gave it for use on the network.	St
+1.19.1	&quot;\\Home is not accessible.	St
+1.19.2	You might not have permission to use this network resource.	St
+1.19.3	Contact the administrator of this server to find out if you have access permissions.	St
+1.19.4	Access denied&quot;.	St
+1.19.5	&quot; That's your clue that there are account issues.	St
+1.19.6	For example I log onto my PC as &quot;bob&quot; but if there is a shared printer on another PC I must have an account on that PC called &quot;bob&quot;.	St
+1.19.7	This is basic Windows 101 networking (not class 100) so it's quite close.	St
+1.19.8	Sounds just like the old account issues.	St
+1.19.9	Your comment about administrator is, well, read all the time.	Polite
+1.19.10	But unless the accounts are there, you get such messages.	St
+1.19.11	Sometimes after you create the accounts you have to unshare and re-share the printer or folder.	St
+1.19.12	Bob	St
+1.20.1	I never gave a name to the Downstairs default account, just accepted the default, which was, I think, &quot;User&quot;.	St
+1.20.2	Anyway, I have changed its name to be the same as the one on this machine.	St
+1.20.3	It didn't make any difference.	St
+1.20.4	Would just changing the name have been sufficient?	St
+1.20.5	I have now un-shared the printer, and then shared it again.	St
+1.20.6	Going downstairs to see if anything has changed ....	St
+1.21.1	It's an area I see a lot of stumbling around on.	St
+1.21.2	Firewalls too.	St
+1.21.3	The account area can upset folk.	St
+1.21.4	Don't know why.	St
+1.21.5	But here's a tutorial on &quot;simple file sharing&quot; which I turn off.	St
+1.21.6	http://www.tomshardware.com/forum/122870-45-shared-printer-password-connect-disable Bob	St
+1.22.1	I don't see anything in that link which helps me, quite possibly because I simply don't understand most of it.	St
+1.22.2	Can you enlighten me please?	St
+1.23.1	Simple file sharing and, well, the classic file sharing system.	St
+1.23.2	It appears we made a little progress but you are seeing why XP is fading.	St
+1.23.3	What should be simple can fall apart.	St
+1.23.4	And look up where we needed to get the firewall off during setup and you didn't want to do that.	St
+1.23.5	And then you pulled the internet out of the router which could have let XP fetch an update or driver automatically.	St
+1.23.6	I've tried here but you can see why this is good for the geek squad folk.	St
+1.23.7	Again, the router is a firewall in its stock form.	St
+1.23.8	Seems we lost time over that.	St
+1.23.9	Bob	St
+1.24.1	I can see that you are, with some justification, losing patience.	St
+1.24.2	But I do appreciate your time Bob.	Polite
+1.24.3	If you would persevere I would be grateful.	St
+1.24.4	If you can't, would you tell me where I might get further help?	St
+1.25.1	And hope you understand that I don't want to upset folk as we work networking issues.	St
+1.25.2	There's a lot to go over and something is blocking the shares.	St
+1.25.3	I FORGOT something.	St
+1.25.4	Sorry.	St
+1.25.5	After some of those changes we have to reboot.	St
+1.25.6	Again, XP is quite an old system and may not tell you need to do that.	St
+1.25.7	Let's work the clue about the access to the computer.	St
+1.25.8	That is.	St
+1.25.9	&quot; \\Home is not accessible.	St
+1.25.10	You might not have permission to use this network resource.	St
+1.25.11	Contact the administrator of this server to find out if you have access permissions.	St
+1.25.12	Access denied&quot;.	St
+1.25.13	This is almost always the accounts issue.	St
+1.25.14	You see a lot of folk try to network with guest, limited user accounts or accounts that don't match up across the PCs and end up with no network.	St
+1.25.15	Again, if I am to access \\Home, I must have an account there that matches the machine I'm logged into.	St
+1.25.16	So if I'm bob here I must have a bob account on the other PC.	St
+1.25.17	-&gt; Yes you could enable Guest Access if you want to forget all that.	Sug
+1.25.18	Your choice on that.	Sug
+1.25.19	Bob	St
+1.26.1	http://www.bleepingcomputer.com/forums/t/74903/network-only-working-in-one-direction/ I may not have been blunt enough here.	St
+1.26.2	I never use Simple File Sharing when mixing versions of Windows.	St
+1.26.3	You may discover first hand why.	St
+1.26.4	Bob	St
+1.27.1	I had already changed the account name on the downstairs computer to be the same as on the upstairs one.	St
+1.27.2	In the last post in that link you gave, the author gives a registry mod which overcomes the permissions problem.	St
+1.27.3	I made the change and now I don't get that restriction.	St
+1.27.4	Ok.	St
+1.27.5	I can now, from either computer, modify a file in the other.	St
+1.27.6	What I still can't do is print from the downstairs one, it shows the printer windown briefly as I said before, but it doesn't print.	St
+1.27.7	But I can still tell the downstairs computer, from the upstairs one, to print a file from the downstairs one and it works.	St
+1.28.1	OUCH, that walks right into issues I don't want to think about.	St
+1.28.2	I create the missing account if need be.	St
+1.28.3	So that if my pc that I use has a bob account, I create a bob account on the other PC so it knows bob.	St
+1.28.4	Changing the name?	St
+1.28.5	Tell me if that works.	St
+1.28.6	Bob	St
+1.29.1	I changed the default account name a few posts ago, the one dated 2/24/13 3:44 PM (sic).	St
+1.29.2	No it didn't make any difference.	St
+1.29.3	Neverthless, I have renamed it again to User, as it was before, and created another one with the same name as the account on the this, Upstairs, computer.	St
+1.29.4	That has made no difference either.	St
+1.29.5	I can still see the shared folders ok, but when I tried to print from downstairs I had to add the printer again.	St
+1.29.6	It still doesn't print though.	St
+1.29.7	I get the printer's progress bar filling quickly but no printing.	St
+1.30.1	But it appears that odd things are happening here.	St
+1.30.2	I write about the need for the accounts to be in sync and instead of creating an account with the matching name, an account is renamed.	St
+1.30.3	This should work but given we are on XP Home and mixing it with XP Pro and how this all works, you are going down pathways I don't go.	St
+1.30.4	I'm sure somewhere there is a reason for this to work or not but this many posts and it's not working.	St
+1.30.5	I can't tell if the account rename is to blame here but it appears that it's time to forget all the accounts and just enable Guest access since we can't seem to complete this the way I have for years.	Sug
+1.30.6	It is possible that this printer may have network issues and I had hoped it was networkable given Epson's network and driver download.	St
+1.30.7	Since we can't accomplish the account work, I suggest you just open up the network to all users and guests with the following change.	Sug
+1.30.8	Link follows.	St
+1.30.9	Bob http://forums.anandtech.com/showthread.php?t=1939178 &quot;I believe there is a feature to allow shared folders for ananymous access as well.	St
+1.30.10	Try these steps, if you are using WinXP Pro only!	St
+1.30.11	1.	St
+1.30.12	Go to start-&gt; run -&gt; type &quot;gpedit.msc&quot; without the quotes.	St
+1.30.13	2.	St
+1.30.14	Expand Computer Configuration 3.	St
+1.30.15	Expand Windows Settings 4.	St
+1.30.16	Expand Security Settings 5.	St
+1.30.17	Expand Local Policies 6.	St
+1.30.18	Click on &quot;Security Options&quot; 7.	St
+1.30.19	Find the entry &quot;Network Access: Shares that can be accessed anonymously&quot; 8.	St
+1.30.20	Type the share name on a separte line 9.	St
+1.30.21	Enable the Guest Account &quot;	St
+1.31.1	There are a few things not clear to me, Bob.	St
+1.31.2	The instructions you give at the end of your last post apply to XP Pro.	St
+1.31.3	It seems to me that those instructions imply anonymous access to files on that , i.e.	St
+1.31.4	the XP Pro, machine.	St
+1.31.5	If that is true, how will it help, since the problem is access to files (presumably that's what &quot;shares&quot; means) on the XP Home machine ( the Upstairs one)?	St
+1.31.6	And the instruction number 8. what is a/the &quot;share name&quot;?	St
+1.31.7	To comply with previous information, does enabling the Guest account on the one machine mean that I have to enable it on the other too, since you say both machines must be using identically named accounts?	St
+1.31.8	I'm sorry, but so many terms are either ill-explained or not explained at all on most, if not all, of the sites I look at.	St
+1.31.9	They all use jargon which assumes prior knowledge.	St
+1.32.1	Yes it applies to XP Pro.	St
+1.32.2	I think that it's not possible for me to fix this one.	St
+1.32.3	With most posts you came so close to performing a step but then changed it slightly.	St
+1.32.4	Drop the firewall, but unplug the internet.	St
+1.32.5	Rather than create an user you renamed one.	St
+1.32.6	At this point it's time to enable the guest account and you don't do that but want more about networking.	St
+1.32.7	Sorry but access control in the item noted is for shares whether it be files or printers.	St
+1.32.8	I'm going to be absent for a while so let's hope you find out what caused this not to work.	St
+1.32.9	I wonder why we can't accomplish steps without small changes but that's your choice.	St
+1.32.10	Next week I'll have to try that account rename but that will have to wait.	St
+1.32.11	Bob	St
+1.33.1	http://cisco-network-magic-essentials-55.soft32.com/download/file/id/699171?q=free-download/&lp=adwords&gclid=CO3Hn6DJ1bUCFQP0nAodIjMAkw I don't know if it's free or not but in the past this would fix up a lot of the issues we were working manually.	St
+1.33.2	Bob	St
+1.34.1	http://forums.cnet.com/7723-19411_102-587240/windows-7-xp-networking/?tag=contentBody;threadListing Notice the re-iteration of accounts?	St
+1.34.2	Bob	St
+1.35.1	I recently read that Magic works only with Cisco routers.	St
+1.35.2	But see my next post .....	St
+1.36.1	Don't ask me how, but I can now print from the remote computer.	Sug
+1.36.2	I have read so much and tried so many different things that I can't remember what the last thing was.	St
+1.36.3	I created a restore point and made a copy of the registry as soon as I discovered that it was all working as desired.	St
+1.36.4	I have since found that I can use my default user accounts, both now bearing the same name, one of them having had its name changed a couple of times, and everything still works as desired with Windows in-built firewalls enabled.	St
+1.36.5	In view of the latter I shall install Comodo's firewall, and possibly the other things which comes with it, on both machines.	St
+1.36.6	Some people feel that a router's firewall isn't, on its own, good enough.	St
+1.36.7	I want to thank you, Bob, for the time you have spent with me trying to solve these problems.	St
+1.36.8	Best wishes, www.davidbridgen.com aka Syncopator	St

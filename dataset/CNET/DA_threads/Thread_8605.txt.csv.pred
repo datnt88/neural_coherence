@@ -1,0 +1,114 @@
+1.1.1	I recently bought an E1200 Linksys router, I thought this was great.	St
+1.1.2	It worked perfectly for the first few days and then it started to do a disconnect... Once a day every day at around 6 PM, I thought this was odd, though I didnt care really.	St
+1.1.3	As long as it was connective.	St
+1.1.4	However, the next day it grew to 2 disconnects.. and after that 3.	St
+1.1.5	And now its just all over the place and disconnecting every single day.	St
+1.1.6	However I found a temporary fix for it, if you reset it to factory defaults it fixes it for about 3 days, sadly I want a more permanent fix for it.	St
+1.1.7	I have called Cisco tech support but they basically tell me that because I live in Canada they dont really give a crap about me, which is sad.	St
+1.1.8	I'll list what I have tried and how it hasnt worked below, I am open to any suggestions on how to fix this, However I do not have the money for a new router.	St
+1.1.9	Power Cycling Adjusting: MTU, Beacon Interval, Fragmentation Threshold, RTS Threshold, Channel, Channel Width Changing mode from N to G Disabling UPNP Disabling Firewall Enabling DMZ Factory Reset Firmware upgrade Changing the router DNS Thanks for any help I get on this matter.	St
+1.1.10	I'm really desperate for any answers.	St
+1.2.1	I'm also going to add that my connection is wireless, and just now I had trouble posting that as my nets disconnected on me, I performed another factory reset to keep it stable for now.	St
+1.2.2	I hope i'm not caused any trouble until I fix this.	St
+1.3.1	It is unclear from you post as to what you mean by disconnecting.	St
+1.3.2	Your first issue will be to see if the router is being disconnected from your ISP or you PC is being disconnected from the router.	St
+1.3.3	If you use a wired port on your router and it has issues then it is a good chance it is your ISP.	St
+1.3.4	You would then directly connect a PC to the modem or whatever that delivers your internet to prove it is not your router to the ISP... you know they will try to blame anything they can that is not theirs.	St
+1.3.5	If it turns out to be related to the wireless you can read the many post on this forum on that topic.	St
+1.3.6	They all come down to interference of one form or another.	St
+1.3.7	Resetting your router may just be a luck thing that corrects it when it is actually a neighbor router, microwave, baby monitor etc etc.	St
+1.4.1	Sorry for not responding right away.	St
+1.4.2	When I say disconnecting I dont technically mean disconnecting, it is NOT the ISP though, I can assure you that.	St
+1.4.3	What happens is, everything disconnects at once and then when I go to speedtest.net the page takes forever to load, and when it does the connection shows about 0.06 mbps.	St
+1.4.4	And i've proven that its the router itself by going to the default gateway (192.168.1.1) And even the default gateway itself takes about 5 minutes to load up.	St
+1.4.5	When wired directly to the modem my PC has absolutely no issues with the internet.	St
+1.5.1	This is covered in the forum sticky but many don't read that or want to understand it.	St
+1.5.2	I'll give the short version.	Sug
+1.5.3	1.	St
+1.5.4	Router defaults please except what the ISP needs.	Ques
+1.5.5	2.	St
+1.5.6	Simple SSID.	St
+1.5.7	Short, 8 or so characters from 0 to 9, a to z and A to Z.	St
+1.5.8	3.	St
+1.5.9	Change the RF channel if it falls on 1 or the highest channel.	St
+1.5.10	You could do some sort of site survey to find open channels but for now try channel 2.	Sug
+1.5.11	4.	St
+1.5.12	Test and see if it works with no security.	St
+1.5.13	5.	St
+1.5.14	Now secure it with WPA2 AES (personal) and use a simple short password with the same rule as step 2 This should be secure for at least 2 days given the new cracking software out there.	St
+1.5.15	If it slows down, change the password every 2 days until they give up.	St
+1.5.16	Bob	St
+1.6.1	Thank you for the information i'll try this and get back to you in a few days.	St
+1.7.1	Yes your way did not work.	St
+1.7.2	Sorry.	St
+1.7.3	I have tried changing the password but changing the password does NOTHING for me, only when I reset to factory defaults does it get fixed for 2/3 days.	St
+1.7.4	Changing the password it acts up within seconds.	St
+1.7.5	And I have set it to WEP/WPA2/WPA and many other types of encryption it does not make a difference!	St
+1.7.6	I am looking for solutions again people!	St
+1.7.7	Please help me!	St
+1.8.1	No router I know does this.	St
+1.8.2	Keep in mind there could be some person that has that crack software and when the password changes that software is started which will cause speed to drop.	St
+1.8.3	I'm not there so I can't guess this.	St
+1.8.4	My suggestion is to turn off the wifi and get wired.	St
+1.8.5	No hacker can crack it then.	St
+1.8.6	Bob	St
+1.9.1	Yeah, I replaced it TWICE.	St
+1.9.2	Over the time you've told me its a bum router.	St
+1.9.3	Changing the password does NOTHING and resetting to factory defaults fixes it for a day.	St
+1.9.4	STILL.	St
+1.9.5	Its nearly impossible for 3 routers of the same model to all be broken within the first week of buying them.	St
+1.9.6	I want somebody to tell me whats going on and please do not suggest that there are people cracking my network, because like i've said.	St
+1.9.7	I can rule it out because changing the password does nothing.	St
+1.10.1	So if you have replaced the router multiple times it may be time to look at the PC side of things.	St
+1.10.2	Since you indicated your PC works when plugged directly to the modem it implies your software and the ethernet port is good.	St
+1.10.3	The only thing different would be the wireless nic.	St
+1.10.4	Since you can get a USB wireless nic for less than $10 it is a cheap thing to try.	St
+1.10.5	If you still have problems the last test would be to prove if it was the wireless signal or something else that is causing the problem.	St
+1.10.6	If you hardwire your PC to the router for a test it would eliminate the wireless.	St
+1.10.7	If you still have issue then I would be suspecting some software on your PC that is sending traffic your router does not like.	St
+1.10.8	Could really be any application but torrents tend to be the ones that open lots of ports and may exceed open session capacities on some routers.	St
+1.10.9	If it works wired but not wireless and you have replaced both the router and the wireless nic you pretty much have proven it is some signal issue in your house.	St
+1.10.10	Now the challenge will be to find the device causing the interference without paying a fortune for equipment that can locate radio signals.	St
+1.11.1	I'll try the best I can without visiting your site.	Sug
+1.11.2	If I was there I might look at my pad with a nice app that shows me nearby routers and systems in a way that shows me what channels are open.	St
+1.11.3	I can't be right since I don't have the luxury of being there.	St
+1.11.4	But I will try anyway.	Sug
+1.11.5	As it stands it's something and if I believe your PC is fine then I have to go with what I encounter elsewhere.	St
+1.11.6	-&gt; There is a test that I use when I think others are interfering with the WiFI network and it's very simple.	St
+1.11.7	We get WIRED and turn off the WiFi in the router.	St
+1.11.8	This removes WiFi from the picture.	St
+1.11.9	Bob	St
+1.12.1	Just checking.	St
+1.13.1	Try a different brand router and see if you still have the problem.	St
+1.13.2	Also is the router running hot?	St
+1.13.3	I have changed out some of those flat linksys N routers for customers with the exact same problem you are having.	St
+1.13.4	Replaced them with Netgear N routers that set vertical and run cooler.	St
+1.13.5	That took care of the problem and was never called back.	St
+1.14.1	I cant afford any router right now so checking that is out of the question, the reason I had purchased a new router was because my D-link DIR-615 had just died on me.	St
+1.14.2	Thats the only other router I have used besides the DI-(Forgot numbers) which was really old and needed to be replaced because it didnt support wireless N. Unfortunately at this time I dont have any way to check interferences, but I highly doubt that its that because i've changed nearly all the channels.	St
+1.15.1	I've used that as a workaround to 802.11n issues.	St
+1.15.2	Bob	St
+1.16.1	As I stated in my first post I have tried switching from N to G, it made no difference.	St
+1.17.1	After all this there is only one last thing.	St
+1.17.2	Forget wifi, turn off the radio and stay wired until you can change it.	St
+1.17.3	Some wifi routers never work with some laptops.	St
+1.17.4	It's a shame that happens but it does.	St
+1.17.5	Remember I can't survey your location for other users so we try what we can.	St
+1.17.6	Bob	St
+1.18.1	This is a desktop computer using a wireless NIC internally, it has wifi capabilities though and I can confirm it isnt the single computer because it shuts off on all 3 computers connected to the network and an Iphone.	St
+1.18.2	I am incapable of wiring any devices to the router though sadly.	St
+1.18.3	So it looks like i'm screwed.	St
+1.19.1	If the router maker can't help, and all the ideas here fail, it's time to get your money back for another router.	St
+1.19.2	I've worked too many routers over the years and even was on a team that created one of the early routers.	St
+1.19.3	I'm at a disadvantage that I can't see your site or swap out the router for a test.	St
+1.19.4	That's what we do when it's a stumper like this.	St
+1.19.5	But as you can guess, such a site call costs far more than a router and why most folk opt to try other routers.	St
+1.19.6	Bob	St
+1.20.1	Well, Thanks for everybody's attempt to help I really appreciate it.	St
+1.20.2	In the end I found out that we were eligable for a 2-in-1 router and modem from our ISP, along with a 50 mbit/s upgrade for no cost whatsoever because we were on an old plan, so I expect this will be solved within the week.	St
+1.20.3	Thanks again CNET!	St
+1.21.1	The problem is indeed on the router.	St
+1.21.2	I'm having the same problem on my E1200 ver 1.	St
+1.21.3	I just turn it of and on to allow other devices to connect.	St
+1.21.4	I upgrade the firmware to no avail.	St
+1.21.5	The older WRT54GL never had this kind of issue.	St

@@ -1,0 +1,40 @@
+1.1.1	I was trying to help a friend set up his wireless router.	St
+1.1.2	He had the Geeksquad come and set it up and I have no idea what they did.	St
+1.1.3	A mess of wires.	St
+1.1.4	I noticed that I was able to log into the imbeded browser of the modem and the router from the main PC.	St
+1.1.5	I didn't think it was possible to log into the modem if it was set up in bridged ethernet mode.	St
+1.1.6	His internet is working but I was thinking that he may have problems with double NATing.	St
+1.1.7	Basically, I just want to know what options there are for setting up a router to a modem.	St
+1.1.8	I'm aware of bridged mode and setting up the router as a switch (not real knowledgable of this one).	St
+1.1.9	But before I tell him it's set up all wrong, I want to know if I'm missing something.	St
+1.1.10	Seems like DHCP is enabled on both devices.	St
+1.1.11	Please advise.	St
+1.2.1	If it works I would leave it alone.	St
+1.2.2	The problem with double nat is mostly related when you need a incoming session into a local PC.	St
+1.2.3	If all the traffic outbound then it doesn't matter.	St
+1.2.4	Pretty much depends on the IP for the modem and the router are on the same subnet.	St
+1.2.5	If they are on different ones then you have a double nat.	St
+1.2.6	Running DHCP on both will work well in most cases but again it depends if you need to map ports to a PC.	St
+1.2.7	The outside address of the router could technically change so mapping would change.	St
+1.2.8	If there is no mapping of ports then it can change all it wants and the user PC does not care.	St
+1.2.9	There is nothing wrong with double nat it tends to be confusing for people to get setup and to debug when there are issues.	St
+1.2.10	Once it is works it works	St
+1.3.1	I didn't know where to start with the print sever on this setup.	St
+1.3.2	I just knew that the modem should be in bridged mode and the router should be left to do the address translations.	Sug
+1.3.3	I've never seen a setup with double NATing before, so I thought something was wrong.	St
+1.3.4	He's trying to connect a wireless linksys print server when he already has a wireless router.	St
+1.3.5	Should just be a non-wireless print server.	St
+1.3.6	I think I may leave that one alone.	St
+1.4.1	know enough to be real dangerous.	St
+1.4.2	Your post is light on specifics such as type of connection, make and model of modem and router, and operating system.	St
+1.4.3	So here is the generic setup.	St
+1.4.4	First, you don't need to access the modem unless you're just looking around.	St
+1.4.5	Second, set both the modem and the router to default.	St
+1.4.6	If there is a software switch, use it.	St
+1.4.7	If there is a reset button use it.	St
+1.4.8	Turn everything off.	St
+1.4.9	Now, connect everything thus: modem -&gt; router -&gt; PC Power up the modem, wait for the lights to stabilize.	St
+1.4.10	Power on the router, wait for the lights.	St
+1.4.11	Power up the PC.	St
+1.4.12	On the desktop, right click Network Neighborhood, choose properties and choose to show the Networking icon in the tray.	St
+1.4.13	Only to see if traffic is moving.	St

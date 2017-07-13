@@ -1,0 +1,21 @@
+1.1.1	Hi, I have a Win XP SP2 with 2 Ethernet Cards (1 with motherboard and 1 seperately installed).	St
+1.1.2	I have 2 internet connections 256 kbps each connection hooked to the computer via ethernet cards (no router is used).	St
+1.1.3	Both connections are from 2 different ISP - 1 having dynamic IP while the other having a static IP.	St
+1.1.4	I would like to combine both the connections into 1 (512 kbps conenction -- not balance them) and the output connection should be using the static IP.	St
+1.1.5	How can I go about doing this?	St
+1.1.6	System config: AMD 3000+ with 512 MB RAM Two 100/10 Ethernet Cards (1 inbuilt in motherboad while other is seperately installed) Win XP SP2.	St
+1.1.7	Any help provided would be appreciated.	St
+1.1.8	Thank You	St
+1.2.1	Just to add, each of these connections have their respective logins without which they will not work.	St
+1.2.2	Thanks	Polite
+1.3.1	Windows has no concept of ECMP (Equal cost multi path) routing.	St
+1.3.2	Using 2 different ISPs is also a bad choice.	St
+1.3.3	This typically requires using BGP and obtaining an Autonomous System number.	St
+1.3.4	You would be better off dumping one ISP and upgrading the other.	St
+1.3.5	SKrall	St
+1.4.1	That is sad.	St
+1.4.2	Now if that is not possible, can I do load balancing so that I constantly get 256kbps connection or I cant even do that?	St
+1.4.3	Regards, Hiren Mehta	St
+1.5.1	I came across this post right now because I am trying to do some load balancing too.	St
+1.5.2	Until now I have found that you can do a load balancing with a built-in load balance router.	St
+1.5.3	To my opinion microtic OS router would be a good choice	St

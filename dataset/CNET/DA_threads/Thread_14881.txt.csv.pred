@@ -1,0 +1,5 @@
+1.1.1	hi all, well i got my newly built pc up and running, amd 2600 gigabyte 700 series and all is running well for a lil added security i added a hardware firewal, belkin f5d5231-4 router, all is working well ... i was running a WEB and FTP server and they were working.. before i installed the router, now how do i configure the virtual server on the router ..and to what address should i point my guest too, ... any help would be apprecaited	St
+1.2.1	Just go to Virtual Servers and fill in the first line, select Enable, give it a Description of FTP on one line make the inbound and outbound port the FTP port (21) and then set the Private IP address to the Fixed IP of the FTP server system (you can't use DHCP on the FTP and Web servers).	St
+1.2.2	Under private port put the same as the FTP port number....21.	St
+1.2.3	Once you save it any traffic for the FTP server will be directed to its ip.	St
+1.2.4	You do the same for the web server but assign port 80 since that is the HTTP Web port.	Ques

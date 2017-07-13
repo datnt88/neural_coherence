@@ -1,0 +1,28 @@
+1.1.1	Hi there, I have a laptop (Win XP SP3) which connects to the Internet via wireless connection.	St
+1.1.2	Configuration is as follows: Laptop connects to AP1 (wireless) AP1 connects to AP2 (ethernet cable) AP2 connects to AP3 (wireless)(AP3 is somewhere in the neighbourhood, i dont know where) Some of the APs or all of them may work as bridges, i dont know since i do not have access to their interfaces.	St
+1.1.3	I have a desktop, which is connected to my laptop with a crossover ethernet cable.	St
+1.1.4	Wireless connection details: IP: 192.168.1.72 Mask: 255.255.0.0 Gateway: 192.168.3.2 DNS: 192.168.3.2 LAN details: Laptop's IP: 10.10.10.1 Desktop's IP: 10.10.10.2 Mask: 255.255.255.0 I want to share the Laptop's internet connection with my desktop.	St
+1.1.5	Tried ICS, bridging, etc.	St
+1.1.6	but nothing seems to be working.	St
+1.1.7	How do I do that?	Ques
+1.1.8	Any ideas?	St
+1.2.1	So while I can offer ideas, no one is there to fix it for us.	St
+1.2.2	Having said that... Be sure to use TRACEROUTE on the host (XP) machine to see if there is a 10.10.10.x or 10.x.x.x in the route.	St
+1.2.3	This could cause your NAT (ICS) to fail.	St
+1.2.4	Fix?	St
+1.2.5	Use that other 168.x.x.x private IP range for ICS.	St
+1.2.6	Also, many are firewalling beyond reason and while you are setting up you must have a firm grasp on the firewall.	St
+1.2.7	For my testing I often turn it off and if it's a third party firewall I often find they break ICS so I uninstall it.	St
+1.2.8	Bob	St
+1.3.1	thank you, the firewall was causing this trouble.	Polite
+1.4.1	Is that something you've rules out?	St
+1.4.2	Internet sharing of this type is tricky, quirky and can negatively affect the internet performance of both.	St
+1.4.3	ICS uses a specific network address scheme for host and client PCs.	St
+1.4.4	Try to better define the hardware that is in your home.	St
+1.4.5	You said AP 1, 2 and 3 but the connection layout doesn't sound right.	St
+1.4.6	Might this be some sort of wireless subscriber network that's available in your neighborhood that would cost you more if you connect more than one device?	St
+1.5.1	That the usual was found and conquered.	St
+1.5.2	Bob	St
+1.6.1	My desktop computer has actually a wireless adapter.	St
+1.6.2	However, as you wrote, i would have to pay more if i wanted my desktop to connect wirelessly to the same AP.	St
+1.6.3	i know that this is not the best solution, but its free	St

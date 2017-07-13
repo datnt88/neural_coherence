@@ -1,0 +1,63 @@
+1.1.1	I should connect apartment 2 network to ap1 network and provide it with internet.	St
+1.1.2	Equipment is as on drawing, wep is disabled, ap router from ap1 and ap client from ap2 are properly connected via channel 13, 54mbps.	St
+1.1.3	Signal is 70db.	St
+1.1.4	Problem is that computers from ap2 cannot ping anything beyond 192.168.1.131.	St
+1.1.5	Where did I do wrong?	St
+1.1.6	How should be DHCP config?	St
+1.1.7	[IMG] http://img148.imageshack.us/img148/2904/copyofnetwork.jpg [/IMG]By [URL=http://profile.imageshack.us/user/zedochok]zedochok[/URL] at 2011-07-28	St
+1.2.1	It looks like you've bridged from one network to another.	St
+1.2.2	I can't think of a reason for a second router.	St
+1.2.3	The one in apt #1 should be able to provide DHCP addresses to PCs in both locations.	St
+1.3.1	I dont quite understand you, wireless router 192.168.1.1 is now DHCP enabled, rest of them are dhcp disabled.	St
+1.3.2	Basic problem is that I san not acess 192.168.1.130 from ap#2 computers, and 192.168.1.131 from ap#1 computers.	St
+1.3.3	Not even with ping.	St
+1.3.4	Both APs are TP-link tl-wr543g with latest firmware, one set in router mode, another in client mode, connected properly, dhcp disabled on both.	St
+1.4.1	Those should be from the DHCP pool dispensed from the router that does DHCP for the entire complex.	St
+1.4.2	Also there can be issues with what you used for GATEWAY entries all around.	St
+1.4.3	I don't see the NETMASK, GATEWAY and more in the diagram.	St
+1.4.4	I am guessing this is new ground for you.	St
+1.4.5	Bob	St
+1.5.1	I don't know those brands/models but what I've done is use two APs in bridge mode.	St
+1.5.2	As I recall, I needed to enter their MAC addresses from each to the other.	St
+1.5.3	In bridge mode, however, clients cannot connect so you'd need another AP to broadcast the signal.	St
+1.5.4	My I've only needed to do this once and the remote bridge went to a switch and the that end of the network was wired.	St
+1.5.5	In any event...and from the drawing...you're connecting two network legs via a wireless bridge so I'm presuming that copper is not an option.	St
+1.6.1	Here is screenshot from ap-s web interface, I can enter several AP-s mac adresses to bridge, howewer on the other side (client) there is only connecting without entering mac-s [URL=http://imageshack.us/photo/my-images/696/bridgea.jpg/][IMG] http://img696.imageshack.us/img696/1763/bridgea.jpg [/IMG][/URL]Uploaded with [URL=http://imageshack.us]ImageShack.us[/URL] I presume problem here lies in settings of one of theese routers, or both.	St
+1.7.1	Hi Bob, this is not really new ground for me, I have some experience on it.	St
+1.7.2	Dhcp server is 192.168.1.1 and ap2 cannot reach it so it has problem obtaining adresses automatically.	St
+1.7.3	Gateway is 192.168.1.1/24.	St
+1.7.4	Any information you request will be added to diagram, I would really appreciate help on this one	St
+1.8.1	Sorry but the make, model of the devices are eluding me.	St
+1.8.2	Without them I can't check if they block or don't bridge the DHCP.	St
+1.8.3	Bob	St
+1.9.1	Both APs are TP-link tl-wr543g with latest firmware,	St
+1.10.1	Nothing in the manual tells me the bridge mode will do what you want.	St
+1.10.2	Unless the maker tells more, I'd get my money back or try other modes.	St
+1.10.3	Bob	St
+1.11.1	Any chance for using copper?	St
+1.11.2	If they're not physically attached, I'd go underground and use the proper type for that purpose.	St
+1.11.3	If you can DIY, it could be cheaper than using all this wireless hardware and definitely more reliable.	St
+1.12.1	Yes you are right, all options are drained.	St
+1.12.2	I will try to get at least one AP more for testing.	St
+1.12.3	Thank you for your time Bob!	St
+1.13.1	When I need to extend my range I've used a common router but set it up as a WAP.	St
+1.13.2	This is covered in the CNET Networking Forum sticky as well as GOOGLE &quot;How to use a router as a WAP.&quot; With that out of the way, I place this WAP where it gets the best shot at reaching my other location.	St
+1.13.3	Now on the other side I can use a GAMING BRIDGE or a bridge that I used many times as a WIFI CLIENT is the WGPS606 The GAMING BRIDGE or WGPS606 is also placed where it has the best shot at connecting to the WAP (which I used a common router) and at that point I can test connectivity by plugging into the bridge's ethernet ports.	St
+1.13.4	If I want to get wifi coverage in that area I add one more router as a WAP and I'm done.	St
+1.13.5	That's my formula that I've used too many times.	St
+1.13.6	Due to failures of those &quot;bridges&quot; I had to come up with something that I could make work.	St
+1.13.7	Bob	St
+1.14.1	I have read what you suggested me, and I did all like people wrote there, thing is still not working.	St
+1.14.2	Maybe this is problem, it is my final guess: [IMG] http://img97.imageshack.us/img97/3973/opmode.jpg [/IMG] This router has only these two modes, there is not regular Client mode?	St
+1.15.1	no way for wires Apt1 and Apt2 are not so close to each other...	St
+1.16.1	other physical barriers, you may also have problems getting a good wireless signal from one to the other.	St
+1.16.2	You'll probably need directional outdoor antennas.	St
+1.16.3	Good luck	Polite
+1.17.1	And you're right.	St
+1.17.2	Maybe these are not the right parts.	St
+1.17.3	After all this I thought it best to share my old setup that I've used ... too many times.	St
+1.17.4	Bob	St
+1.18.1	Yes that is the problem, few minutes ago I replaced router TP-link tl-wr543g from Apt2 with regular AP with regular Client mode, and in a few minutes internet is in Apt2!!	St
+1.18.2	Modes of LevelOne AP:[img] http://img824.imageshack.us/img824/2509/levelone.jpg [/img] Thank you all for your time and efforts, and remember (because I will) that TP-link tl-wr543g CANNOT be used as regular Client AP!	St
+1.19.1	And right or wrong I find the maker's support lines for this sort of setup to be quite poor.	St
+1.19.2	Bob	St

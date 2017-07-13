@@ -1,0 +1,20 @@
+1.1.1	Hey.	St
+1.1.2	I've got an ancient dell (manufactured with Win98 but I installed XP on it, thats how old it is) and lately I've had problems with the display.	St
+1.1.3	When I boot up (or attempt to anyway) I see nothing on the screen.	St
+1.1.4	The monitor detects that its plugged into something because if you unplug it, it'll say &quot;check cable&quot;.	St
+1.1.5	If its plugged in, and the computer is off, the LED light will blink.	St
+1.1.6	If it's plugged in and the comp is on, normally it would be solid.	St
+1.1.7	Now when I turn it on, it blinks as if the comp is off and I get nothing.	St
+1.1.8	All of the hardware is stock (except for a dvd-drive, sound card, and a new hard drive which has been working ever since I got them).	St
+1.1.9	I never installed a new graphics card, I use the one that is built into the motherboard's chipset which I assume is now broken.	St
+1.1.10	So.. that being said, does anyone have any ideas?	St
+1.1.11	Oh and I know its not the monitor because I've tried two others and they both do the same thing.	St
+1.2.1	Does it show up at all during boot up?	St
+1.2.2	That is can you see the boot messages, Dell screen, pre-boot or anything that just uses basic VGA mode?	St
+1.2.3	If no, your suspicion might be correct.	St
+1.2.4	Since its old you probably only have an option to use a PCI video card or maybe an AGP video card.	St
+1.2.5	PCI video cards are cheap and you can put one in and use it instead of the onboard video.	St
+1.2.6	AGP a little more expensive and better, same option.	St
+1.2.7	I'd try getting a used video card from a friend to check it out.	St
+1.2.8	If it shows a screen on bootup you fixed the problem and all you have to do is disable the onboard video in the BIOS setup, uninstall the driver in the control panel and install the driver for the new video card and then go reset all your settings (right click on the screen and then properties).	St
+1.2.9	Otherwise its a more serious problem.	St

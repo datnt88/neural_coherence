@@ -1,0 +1,58 @@
+1.1.1	Hi, I have regular blue screens.	St
+1.1.2	The last 5 of 7 were ntoskrnl.exe drivers.	St
+1.1.3	found in BlueScreenView Don't know what to do from here with these dumps?	St
+1.1.4	Previously tried: changing graphics card for a new one had ram tested reinstalled w7 64-bit ran core temp with normal temps recorded throughout, (but I dont think it records temps at the precise moment of bsod) Mainboard : MSI 870-G45 (MS-7599) Chipset : AMD 770/870 Processor : AMD Phenom II X4 840 @ 3200 MHz Physical Memory : 8192 MB (2 x 4096 DDR3-SDRAM ) Video Card : NVIDIA GeForce 8600 GT Hard Disk : HDS722516VLSA80 ATA Device (165GB) Hard Disk : OCZ-VERTEX2 ATA Device (115GB) DVD-Rom Drive : Optiarc DVD RW AD-5280S Network Card : Attansic (Now owned by Atheros) AR8131 PCIe Gigabit Ethernet Controller Ace A-500BR power supply Any help appreciated Dumps attached https://docs.google.com/file/d/0B9mlFIkm4S4wUEFJb0hGeGNMMFU/edit	St
+1.2.1	All that might be interesting from that dumps: the error code, like 0x000000A2 and such.	St
+1.2.2	If yiou can tell those, tht would be nice.	St
+1.2.3	Is that nVidia 8600 the old card or the new one you replaced it with?	St
+1.2.4	And why did you think the video was the cause?	St
+1.2.5	Did those crashes happen only during games or some reason like that?	St
+1.2.6	Kees	St
+1.3.1	There are folk that use dumps and such but you won't find me looking at them when you spot the usual failing card.	St
+1.3.2	I rip the card out and try another.	St
+1.3.3	This is not to say that's it but given the clues it's my next move.	St
+1.3.4	-&gt; I can't see the PC so I can't see how clean it is.	St
+1.3.5	That is, we also see this with clogged heatsinks and old heat sink compound.	St
+1.3.6	If anything is over 2 years old we pull all the heatsinks (one at a time) to wipe off the old and apply new compound.	St
+1.3.7	I'm sure you know this drill.	St
+1.3.8	Bob	St
+1.4.1	Hi there Kees, thanks for the prompt reply I thought video was the cause, as at times the screen went all glitchy, + the problem arises ONLY when I play the Poker client pkr.com and run HoldemManager (postgres database manager) simultaneously or independently.	St
+1.4.2	I sent reports to them but they can't figure it out.	St
+1.4.3	Works fine web browsing etc.	Polite
+1.4.4	So I swapped out the 8600 graphics card for a new GeForce GT630, but the problem remains.	St
+1.4.5	Its either BSOD or 'Poker app has encountered a problem and needs to close'.	St
+1.4.6	As for the first part of your question &quot;All that might be interesting from that dumps: the error code, like 0x000000A2 and such.	St
+1.4.7	If you can tell those, tht would be nice&quot;.	St
+1.4.8	- I'm not sure what you mean here, do you require more info?	Res
+1.4.9	The attached dumps have the error codes listed do they not?	St
+1.4.10	Thanks again.	Polite
+1.4.11	Not really sure where to go from here.	St
+1.4.12	Where do I start with these codes/dumps?	Sug
+1.5.1	I was implicitely inviting you to tell the error codes.	St
+1.5.2	That's easier for me than downloading files I'm not even sure I can read.	St
+1.5.3	Maybe somebody else is willing to do more for you than I do.	St
+1.5.4	Kees	St
+1.6.1	Hey Bob!	St
+1.6.2	Thanks for taking the time to reply I swapped out the 8600 graphics card for a new GeForce GT630, but the problem remains.	St
+1.6.3	Its either BSOD or 'Poker app has encountered a problem and needs to close'.	St
+1.6.4	(I'm a semi-pro Poker player) I thought video was the cause, as at times the screen went all glitchy, + the problem arises ONLY when I play the Poker client pkr.com and run HoldemManager (postgres database manager) simultaneously or independently.	St
+1.6.5	I sent reports to them but they can't figure it out.	St
+1.6.6	Works fine web browsing etc.	Polite
+1.6.7	So as you say, I ripped it out and tried another.	St
+1.6.8	Heatsink - I never really though of cleaning them up.	St
+1.6.9	I ran core temp, but temps were normal throughout checking back through the logs.	St
+1.6.10	(having said that would core temp record a sudden spike?).	St
+1.6.11	Don't know what to do for the best Bob.	Ques
+1.6.12	Just start replacing other parts and save all this hassle?	St
+1.6.13	If ram is fine, graphics card is new, what left just processor, power supply and motherboard?	St
+1.6.14	I take it ntoskrnl.exe is a very generic term and could lead to any of those above components failing.	St
+1.7.1	OK, let's be sure the heat sink is clean and if it's been a few years since the compound was replaced, do that.	St
+1.7.2	I know it's hard on folk to look at the CPU and such temps and do the work but it's cheap and has paid off too many times.	St
+1.7.3	-&gt; But there is something else to try (as always) and that is to (google this) Disable Flash Hardware Acceleration.	St
+1.7.4	Just in case.	St
+1.7.5	If we don't see any improvement then you remove any SSDD and try a normal HDD.	St
+1.7.6	Bob	St
+1.8.1	Apologies if that came across wrong.	St
+1.8.2	I actually meant the dumps are just a link, no need to download.	St
+1.8.3	But in any case: 0x0000007f - UNEXPECTED_KERNEL_MODE_TRAP 0x0000000a - IRQL_NOT_LESS_OR_EQUAL 0x00000050 - PAGE_FAULT_IN_NONPAGED_AREA	St
+1.9.1	https://drive.google.com/folderview?id=0B9mlFIkm4S4wUVN2V0QtNHp1eUk&usp=sharing	St

@@ -1,0 +1,94 @@
+1.1.1	Hi all... My Netgear RP614 v.2 router has begun &quot;disallowing&quot; certain sites to be accessed, with no changes or input from me.	St
+1.1.2	The biggest site in question is USPS.com, which is a vital part of running my business.	St
+1.1.3	I can access the site with the router bypassed.	St
+1.1.4	I have upgraded the router's software, reset all defaults, adjusted MTU, etc., with no results.	St
+1.1.5	I spoke with Netgear and they suggested that I will need to obtain the USPS.com port number(s) and manually input them into the router.	St
+1.1.6	My question is how do I obtain such port numbers, and how do I input them into the router, &quot;forcing&quot; it to allow that site?	St
+1.1.7	Any help would be very much appreciated!	Polite
+1.2.1	Are you sure this a router issue and not some firewall preventing access?	St
+1.3.1	Michael, no other changes have been made to the network (which is really only two PCs and the router) that I can think of that would have caused this problem.	St
+1.3.2	I did install XP service pack 2 on ONE of the machines, but not the other, but both are having the problem, and had been since before the SP2 install.	St
+1.3.3	Manually turning the SP2 firewall off on the one box does not improve things.	St
+1.4.1	Some hijackers do that.	St
+1.4.2	Try Firefox to be sure.	St
+1.4.3	Bob	St
+1.5.1	Hey Bob -- same problem with Firefox.	St
+1.5.2	Again, I can access the site when I bypass the router and plug the modem directly into a machine.	St
+1.6.1	That's a lot more clues.	St
+1.6.2	You now can TRACEROUTE and PINGPATH (or is it PATHPING?)	St
+1.6.3	to see where it fails.	St
+1.6.4	Your TCPIP skills will come in handy now.	St
+1.6.5	Bob	St
+1.7.1	This is definitely an area I don't know much about... Allt the traces I ran, though, stop at srp-8-1-ur01.royaloak.mi.mich.comcast.net , which I assume is where my Comcast connection originates.	St
+1.7.2	Then I get lines with stars.	St
+1.7.3	???	St
+1.7.4	?	Ques
+1.8.1	And same results without the router?	St
+1.8.2	There may be a clue here.	St
+1.8.3	1.	St
+1.8.4	Is the firmware in the router current?	St
+1.8.5	2.	St
+1.8.6	Is there some firewall is said router?	St
+1.8.7	3.	St
+1.8.8	Did you put the MAC address of your PC into the Router?	St
+1.8.9	(check the manual...) Bob	St
+1.9.1	And same results without the router?	St
+1.9.2	--Actually, I didn't try tracing yet with the router bypassed... 1.	St
+1.9.3	Is the firmware in the router current?	St
+1.9.4	--Yes 2.	St
+1.9.5	Is there some firewall is said router?	St
+1.9.6	--The router (netgear RP614 v.2) does have some kind of built-in firewall.	St
+1.9.7	3.	St
+1.9.8	Did you put the MAC address of your PC into the Router?	St
+1.9.9	(check the manual...) --No, everything was auto-configured, totally plug and play.	St
+1.9.10	That's what bothers me; I made no changes to the router before the problem started.	St
+1.9.11	I'm not even sure how to manually input a MAC address (or what it is exactly -- please forgive my ignorance!	St
+1.9.12	).	St
+1.10.1	1.	St
+1.10.2	Is the firmware in the router current?	St
+1.10.3	--Yes SUPER!	St
+1.10.4	2.	St
+1.10.5	Is there some firewall is said router?	St
+1.10.6	--The router (netgear RP614 v.2) does have some kind of built-in firewall.	St
+1.10.7	It can interfere.	St
+1.10.8	Be aware that turning it off is not a bad thing.	St
+1.10.9	You still get the benefits of the NAT Firewall feature.	St
+1.10.10	3.	St
+1.10.11	Did you put the MAC address of your PC into the Router?	St
+1.10.12	(check the manual...) --No, everything was auto-configured, totally plug and play.	St
+1.10.13	That's what bothers me; I made no changes to the router before the problem started.	St
+1.10.14	I'm not even sure how to manually input a MAC address (or what it is exactly -- please forgive my ignorance!	St
+1.10.15	).&quot; I'd have to read your manual about this.	St
+1.10.16	What can confound us is that &quot;we&quot; didn't change a thing...	St
+1.10.17	But that NAT address can be seen in Windows XP if we open a command window (Start, Run, CMD, enter...) and type... ARP -A Here's mine.	St
+1.10.18	C:\&gt;arp -a Interface: 192.168.0.110 --- 0x2 Internet Address Physical Address Type 192.168.0.1 00-0f-3d-00-4d-39 dynamic That physical MAC address may be required in your router, but I can't know this since I am not your ISP.	St
+1.10.19	But it is one of the things I always set.	St
+1.10.20	Bob	St
+1.11.1	Take a note of your current IP address (ipconfig /all in the command prompt) -- (sometimes you will get wrong IP, dns, dns server, gateway, etc.)	St
+1.11.2	Turn it off for a day or two (to let it release the lease time) Reset the router to the default setting, usually by pressing a small button (look in the manual) Then try to connect them to the Modem and PC... check your IP again and look for any differences with your previous IP etc.	St
+1.11.3	If you still have problem, try other router IF possible, to see if your router ain't broken.	St
+1.11.4	Good Luck	St
+1.12.1	The Postal Service owns the entire 56.XX.XX.XX network and if I go to usps.com the address and port always seem to be 56.0.134.24:80 My local port that connects is always in the 1650 range and I am behind a router.	St
+1.12.2	Not sure what your ISP wants you to do.	Res
+1.13.1	Do you get the 'red on black' &quot;Blocked by Netgear&quot; screen?	St
+1.13.2	If so, there are two items in the Netgear router configuration you should check.	St
+1.13.3	After you log in to the router, check the 'Block Sites' and 'Block Services' items in the left-hand column menu.	St
+1.13.4	'Block sites' lets you block sites that contain keywords that the router administrator selects.	St
+1.13.5	For example, I block sites with 'XXX' in the site name, among others.	St
+1.13.6	If you have blocking turned on, see what domains and keywords are on your 'blocked' list and remove those you want to get to.	St
+1.13.7	You can turn off site blocking by checking the item that says 'Never', under 'Keyword Blocking'.	St
+1.13.8	You can also create exceptions to your blocking rules by putting specific PC's IP addresses in the 'trusted' list at the bottom of the 'block sites' screen center column.	St
+1.13.9	Likewise, check the 'Block Services' item to see if you have this option turned on.	Sug
+1.13.10	Either make an exception for services you want to use, or disable 'Block Services' completely.	St
+1.13.11	I have mine shut off completely.	Sug
+1.13.12	I rely on my firewall to block unwanted port activity.	St
+1.14.1	You really should dig into the manual that came with the router.	St
+1.14.2	To enter the router configuration you need to have an Internet browser window open (Internet Explorer, Netscape, Mozilla, or AOL).	St
+1.14.3	In the address space type: http://192.168.0.1 - then 'Enter'.	St
+1.14.4	You'll need the default login name and password that Netgear supplied with the router.	St
+1.14.5	Typically the username is 'Admin' and the default password is 'password'.	St
+1.14.6	You'll want to change that password on your first login.	St
+1.14.7	This would also be an excellent time to set up some security between the router and the wireless devices.	St
+1.14.8	If your PC cards accept WAP security, use it because it is the most difficult to hack.	St
+1.14.9	If not, use WEP security, preferably the 128-bit variety.	St
+1.14.10	The problem with installing setting up a wireless network by just 'plug-n-play' is that some important features like the firewall, security, etc., never get implemented.	St

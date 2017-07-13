@@ -1,0 +1,33 @@
+1.1.1	I am using a wireless connection from my desktop PC (USB wireless) to a Netgear GR614.	St
+1.1.2	I have been this way for 6-8 months.	St
+1.1.3	I started having internet connection problems so I created a continuous running ping to 192.168.1.1 I do get 99% connectivity but I lose packets in groups of 6-10 ping attempts.	St
+1.1.4	I can repair the wireless connection and it repairs OK or if I wait long enough, the PC will self reconnect.	St
+1.1.5	The problem is that I lose the connection to my remote server applications.	St
+1.1.6	I also (although not sure if related) started getting blocked attempts outbound on port 110 which just happens to be my inbound email port.	St
+1.1.7	Neither my ISP or the host ISP are blocking.	St
+1.1.8	And a reboot of the PC solves the problem.	St
+1.1.9	I am trying to determine if the issue is 1) using a USB wireless; 2) the wireless device itself or 3) the router.	St
+1.1.10	The problems do appear more often when the PC is under load (e.g., running a Citrix desktop) so that there is continuous data flowing.	St
+1.1.11	So I am open to suggestions as I am at loss.	St
+1.2.1	I also want to add that the failure is also more prominent when viewing streaming video.	St
+1.2.2	I tried changing the wireless connector at the PC level and same problem.	St
+1.2.3	Both were USB connections.	St
+1.2.4	Nothing shows in the Netgear logs either.	St
+1.3.1	Our forum members seem to agree that we should start with these basics.	Sug
+1.3.2	1.	St
+1.3.3	Latest router firmware.	St
+1.3.4	2.	St
+1.3.5	Defaults such as SSID broadcasting.	St
+1.3.6	3.	St
+1.3.7	WPA for security.	St
+1.3.8	What's different for your setup?	St
+1.3.9	Bob	St
+1.4.1	I NEVER get disconnected, except during a thunderstorm.	St
+1.4.2	Firmware update can be found here http://kbserver.netgear.com/products/wgr614v6.asp I broadcast SSID use WPA Personal security just like Bob said.	St
+1.4.3	Rick	St
+1.5.1	WPA Security Firmware updated SSID Broadcasting is not disabled but the logs show no one else on my network I am bringing home a 35 ft CAT 5 form work to see if wired cuases any drops	St
+1.6.1	wall &gt; isp modem/router &gt; Netgear WGR614v6 &gt; wired/wireless Also you didn't tell us your isp.	St
+1.6.2	If it's verizon and you have a Westell modem/router, then the ip addresses conflict with each other and you need to change the ip address in the Netgear router.	St
+1.6.3	Read this post for instructions http://forums.cnet.com/5208-7589_102-0.html?forumID=62&threadID=221209&messageID=2336356 Remember that cordless phones 2.4gh use the same frequencies as the wireless router and may disconnect you.	St
+1.6.4	Rick	St
+1.7.1	ISP is Comcast cable and these events are new	St

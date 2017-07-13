@@ -1,0 +1,1027 @@
+1.1.1	I sure hope someone out there can help me out.	St
+1.1.2	Here is my setup and my problem.	St
+1.1.3	I have three computers networked together; two desktops connected via ethernet running Windows Vista and a laptop connected wirelessly running Windows XP.	St
+1.1.4	I connect to my DSL service with an Actiontec GT701 dsl modem.	St
+1.1.5	The modem is connected to a Linksys wireless gateway (WCG200) which is what the computers are connected to.	St
+1.1.6	All three computers can connect to each other on the network, but the laptop cannot connect to the internet whereas the desktops can.	St
+1.1.7	If I connect to the laptop with an ether net cable everything works just fine.	St
+1.1.8	I have tried power cycling the equipment in various orders, but to no avail.	St
+1.1.9	I ran ipconfig on all the computers and here are the results: COMPUTER 1 - Desktop Windows IP Configuration Host Name .	St
+1.1.10	.	St
+1.1.11	.	St
+1.1.12	.	St
+1.1.13	.	St
+1.1.14	.	St
+1.1.15	.	St
+1.1.16	.	St
+1.1.17	.	St
+1.1.18	.	St
+1.1.19	.	St
+1.1.20	.	St
+1.1.21	: Owner-PC Primary Dns Suffix .	St
+1.1.22	.	St
+1.1.23	.	St
+1.1.24	.	St
+1.1.25	.	St
+1.1.26	.	St
+1.1.27	.	St
+1.1.28	: Node Type .	St
+1.1.29	.	St
+1.1.30	.	St
+1.1.31	.	St
+1.1.32	.	St
+1.1.33	.	St
+1.1.34	.	St
+1.1.35	.	St
+1.1.36	.	St
+1.1.37	.	St
+1.1.38	.	St
+1.1.39	.	St
+1.1.40	: Hybrid IP Routing Enabled.	St
+1.1.41	.	St
+1.1.42	.	St
+1.1.43	.	St
+1.1.44	.	St
+1.1.45	.	St
+1.1.46	.	St
+1.1.47	.	St
+1.1.48	: No WINS Proxy Enabled.	St
+1.1.49	.	St
+1.1.50	.	St
+1.1.51	.	St
+1.1.52	.	St
+1.1.53	.	St
+1.1.54	.	St
+1.1.55	.	St
+1.1.56	: No DNS Suffix Search List.	St
+1.1.57	.	St
+1.1.58	.	St
+1.1.59	.	St
+1.1.60	.	St
+1.1.61	.	St
+1.1.62	: domain.actdsltmp Ethernet adapter Local Area Connection: Connection-specific DNS Suffix .	St
+1.1.63	: domain.actdsltmp Description .	St
+1.1.64	.	St
+1.1.65	.	St
+1.1.66	.	St
+1.1.67	.	St
+1.1.68	.	St
+1.1.69	.	St
+1.1.70	.	St
+1.1.71	.	St
+1.1.72	.	St
+1.1.73	.	St
+1.1.74	: Realtek RTL8139/810x Family Fast Ethernet NIC Physical Address.	St
+1.1.75	.	St
+1.1.76	.	St
+1.1.77	.	St
+1.1.78	.	St
+1.1.79	.	St
+1.1.80	.	St
+1.1.81	.	St
+1.1.82	.	St
+1.1.83	: 00-1B-B9-BD-6B-FB DHCP Enabled.	St
+1.1.84	.	St
+1.1.85	.	St
+1.1.86	.	St
+1.1.87	.	St
+1.1.88	.	St
+1.1.89	.	St
+1.1.90	.	St
+1.1.91	.	St
+1.1.92	.	St
+1.1.93	.	St
+1.1.94	: Yes Autoconfiguration Enabled .	St
+1.1.95	.	St
+1.1.96	.	St
+1.1.97	.	St
+1.1.98	: Yes Link-local IPv6 Address .	St
+1.1.99	.	St
+1.1.100	.	St
+1.1.101	.	St
+1.1.102	.	St
+1.1.103	: fe80::94e7:590c:9150:8696%8(Preferred) IPv4 Address.	St
+1.1.104	.	St
+1.1.105	.	St
+1.1.106	.	St
+1.1.107	.	St
+1.1.108	.	St
+1.1.109	.	St
+1.1.110	.	St
+1.1.111	.	St
+1.1.112	.	St
+1.1.113	.	St
+1.1.114	: 192.168.0.2(Preferred) Subnet Mask .	St
+1.1.115	.	St
+1.1.116	.	St
+1.1.117	.	St
+1.1.118	.	St
+1.1.119	.	St
+1.1.120	.	St
+1.1.121	.	St
+1.1.122	.	St
+1.1.123	.	St
+1.1.124	.	St
+1.1.125	: 255.255.255.0 Lease Obtained.	St
+1.1.126	.	St
+1.1.127	.	St
+1.1.128	.	St
+1.1.129	.	St
+1.1.130	.	St
+1.1.131	.	St
+1.1.132	.	St
+1.1.133	.	St
+1.1.134	.	St
+1.1.135	: Wednesday, June 25, 2008 5:46:21 PM Lease Expires .	St
+1.1.136	.	St
+1.1.137	.	St
+1.1.138	.	St
+1.1.139	.	St
+1.1.140	.	St
+1.1.141	.	St
+1.1.142	.	St
+1.1.143	.	St
+1.1.144	.	St
+1.1.145	: Thursday, June 26, 2008 5:46:21 PM Default Gateway .	St
+1.1.146	.	St
+1.1.147	.	St
+1.1.148	.	St
+1.1.149	.	St
+1.1.150	.	St
+1.1.151	.	St
+1.1.152	.	St
+1.1.153	.	St
+1.1.154	: 192.168.0.1 DHCP Server .	St
+1.1.155	.	St
+1.1.156	.	St
+1.1.157	.	St
+1.1.158	.	St
+1.1.159	.	St
+1.1.160	.	St
+1.1.161	.	St
+1.1.162	.	St
+1.1.163	.	St
+1.1.164	.	St
+1.1.165	: 192.168.0.1 DHCPv6 IAID .	St
+1.1.166	.	St
+1.1.167	.	St
+1.1.168	.	St
+1.1.169	.	St
+1.1.170	.	St
+1.1.171	.	St
+1.1.172	.	St
+1.1.173	.	St
+1.1.174	.	St
+1.1.175	.	St
+1.1.176	: 201333689 DNS Servers .	St
+1.1.177	.	St
+1.1.178	.	St
+1.1.179	.	St
+1.1.180	.	St
+1.1.181	.	St
+1.1.182	.	St
+1.1.183	.	St
+1.1.184	.	St
+1.1.185	.	St
+1.1.186	.	St
+1.1.187	: 192.168.0.1 205.171.3.65 NetBIOS over Tcpip.	St
+1.1.188	.	St
+1.1.189	.	St
+1.1.190	.	St
+1.1.191	.	St
+1.1.192	.	St
+1.1.193	.	St
+1.1.194	.	St
+1.1.195	: Enabled Tunnel adapter Local Area Connection* 6: Connection-specific DNS Suffix .	St
+1.1.196	: Description .	St
+1.1.197	.	St
+1.1.198	.	St
+1.1.199	.	St
+1.1.200	.	St
+1.1.201	.	St
+1.1.202	.	St
+1.1.203	.	St
+1.1.204	.	St
+1.1.205	.	St
+1.1.206	.	St
+1.1.207	: Teredo Tunneling Pseudo-Interface Physical Address.	St
+1.1.208	.	St
+1.1.209	.	St
+1.1.210	.	St
+1.1.211	.	St
+1.1.212	.	St
+1.1.213	.	St
+1.1.214	.	St
+1.1.215	.	St
+1.1.216	: 02-00-54-55-4E-01 DHCP Enabled.	St
+1.1.217	.	St
+1.1.218	.	St
+1.1.219	.	St
+1.1.220	.	St
+1.1.221	.	St
+1.1.222	.	St
+1.1.223	.	St
+1.1.224	.	St
+1.1.225	.	St
+1.1.226	.	St
+1.1.227	: No Autoconfiguration Enabled .	St
+1.1.228	.	St
+1.1.229	.	St
+1.1.230	.	St
+1.1.231	: Yes IPv6 Address.	St
+1.1.232	.	St
+1.1.233	.	St
+1.1.234	.	St
+1.1.235	.	St
+1.1.236	.	St
+1.1.237	.	St
+1.1.238	.	St
+1.1.239	.	St
+1.1.240	.	St
+1.1.241	.	St
+1.1.242	: 2001:0:4137:9e50:14e5:2869:3f57:fffd(Preferred) Link-local IPv6 Address .	St
+1.1.243	.	St
+1.1.244	.	St
+1.1.245	.	St
+1.1.246	.	St
+1.1.247	: fe80::14e5:2869:3f57:fffd%9(Preferred) Default Gateway .	St
+1.1.248	.	St
+1.1.249	.	St
+1.1.250	.	St
+1.1.251	.	St
+1.1.252	.	St
+1.1.253	.	St
+1.1.254	.	St
+1.1.255	.	St
+1.1.256	: :: NetBIOS over Tcpip.	St
+1.1.257	.	St
+1.1.258	.	St
+1.1.259	.	St
+1.1.260	.	St
+1.1.261	.	St
+1.1.262	.	St
+1.1.263	.	St
+1.1.264	: Disabled Tunnel adapter Local Area Connection* 7: Connection-specific DNS Suffix .	St
+1.1.265	: domain.actdsltmp Description .	St
+1.1.266	.	St
+1.1.267	.	St
+1.1.268	.	St
+1.1.269	.	St
+1.1.270	.	St
+1.1.271	.	St
+1.1.272	.	St
+1.1.273	.	St
+1.1.274	.	St
+1.1.275	.	St
+1.1.276	: Microsoft ISATAP Adapter Physical Address.	St
+1.1.277	.	St
+1.1.278	.	St
+1.1.279	.	St
+1.1.280	.	St
+1.1.281	.	St
+1.1.282	.	St
+1.1.283	.	St
+1.1.284	.	St
+1.1.285	: 00-00-00-00-00-00-00-E0 DHCP Enabled.	St
+1.1.286	.	St
+1.1.287	.	St
+1.1.288	.	St
+1.1.289	.	St
+1.1.290	.	St
+1.1.291	.	St
+1.1.292	.	St
+1.1.293	.	St
+1.1.294	.	St
+1.1.295	.	St
+1.1.296	: No Autoconfiguration Enabled .	St
+1.1.297	.	St
+1.1.298	.	St
+1.1.299	.	St
+1.1.300	: Yes Link-local IPv6 Address .	St
+1.1.301	.	St
+1.1.302	.	St
+1.1.303	.	St
+1.1.304	.	St
+1.1.305	: fe80::5efe:192.168.0.2%10(Preferred) Default Gateway .	St
+1.1.306	.	St
+1.1.307	.	St
+1.1.308	.	St
+1.1.309	.	St
+1.1.310	.	St
+1.1.311	.	St
+1.1.312	.	St
+1.1.313	.	St
+1.1.314	: DNS Servers .	St
+1.1.315	.	St
+1.1.316	.	St
+1.1.317	.	St
+1.1.318	.	St
+1.1.319	.	St
+1.1.320	.	St
+1.1.321	.	St
+1.1.322	.	St
+1.1.323	.	St
+1.1.324	.	St
+1.1.325	: 192.168.0.1 205.171.3.65 NetBIOS over Tcpip.	St
+1.1.326	.	St
+1.1.327	.	St
+1.1.328	.	St
+1.1.329	.	St
+1.1.330	.	St
+1.1.331	.	St
+1.1.332	.	St
+1.1.333	: Disabled ---------------------------------------------------------------------- COMPUTER 2 - Desktop Windows IP Configuration Host Name .	St
+1.1.334	.	St
+1.1.335	.	St
+1.1.336	.	St
+1.1.337	.	St
+1.1.338	.	St
+1.1.339	.	St
+1.1.340	.	St
+1.1.341	.	St
+1.1.342	.	St
+1.1.343	.	St
+1.1.344	.	St
+1.1.345	: Putarian Primary Dns Suffix .	St
+1.1.346	.	St
+1.1.347	.	St
+1.1.348	.	St
+1.1.349	.	St
+1.1.350	.	St
+1.1.351	.	St
+1.1.352	: Node Type .	St
+1.1.353	.	St
+1.1.354	.	St
+1.1.355	.	St
+1.1.356	.	St
+1.1.357	.	St
+1.1.358	.	St
+1.1.359	.	St
+1.1.360	.	St
+1.1.361	.	St
+1.1.362	.	St
+1.1.363	.	St
+1.1.364	: Hybrid IP Routing Enabled.	St
+1.1.365	.	St
+1.1.366	.	St
+1.1.367	.	St
+1.1.368	.	St
+1.1.369	.	St
+1.1.370	.	St
+1.1.371	.	St
+1.1.372	: No WINS Proxy Enabled.	St
+1.1.373	.	St
+1.1.374	.	St
+1.1.375	.	St
+1.1.376	.	St
+1.1.377	.	St
+1.1.378	.	St
+1.1.379	.	St
+1.1.380	: No DNS Suffix Search List.	St
+1.1.381	.	St
+1.1.382	.	St
+1.1.383	.	St
+1.1.384	.	St
+1.1.385	.	St
+1.1.386	: domain.actdsltmp Ethernet adapter Local Area Connection: Connection-specific DNS Suffix .	St
+1.1.387	: domain.actdsltmp Description .	St
+1.1.388	.	St
+1.1.389	.	St
+1.1.390	.	St
+1.1.391	.	St
+1.1.392	.	St
+1.1.393	.	St
+1.1.394	.	St
+1.1.395	.	St
+1.1.396	.	St
+1.1.397	.	St
+1.1.398	: Intel(R) 82562V 10/100 Network Connection Physical Address.	St
+1.1.399	.	St
+1.1.400	.	St
+1.1.401	.	St
+1.1.402	.	St
+1.1.403	.	St
+1.1.404	.	St
+1.1.405	.	St
+1.1.406	.	St
+1.1.407	: 00-1A-92-6A-27-5E DHCP Enabled.	St
+1.1.408	.	St
+1.1.409	.	St
+1.1.410	.	St
+1.1.411	.	St
+1.1.412	.	St
+1.1.413	.	St
+1.1.414	.	St
+1.1.415	.	St
+1.1.416	.	St
+1.1.417	.	St
+1.1.418	: Yes Autoconfiguration Enabled .	St
+1.1.419	.	St
+1.1.420	.	St
+1.1.421	.	St
+1.1.422	: Yes Link-local IPv6 Address .	St
+1.1.423	.	St
+1.1.424	.	St
+1.1.425	.	St
+1.1.426	.	St
+1.1.427	: fe80::d01d:36b7:c734:692%8(Preferred) IPv4 Address.	St
+1.1.428	.	St
+1.1.429	.	St
+1.1.430	.	St
+1.1.431	.	St
+1.1.432	.	St
+1.1.433	.	St
+1.1.434	.	St
+1.1.435	.	St
+1.1.436	.	St
+1.1.437	.	St
+1.1.438	: 192.168.0.5(Preferred) Subnet Mask .	St
+1.1.439	.	St
+1.1.440	.	St
+1.1.441	.	St
+1.1.442	.	St
+1.1.443	.	St
+1.1.444	.	St
+1.1.445	.	St
+1.1.446	.	St
+1.1.447	.	St
+1.1.448	.	St
+1.1.449	: 255.255.255.0 Lease Obtained.	St
+1.1.450	.	St
+1.1.451	.	St
+1.1.452	.	St
+1.1.453	.	St
+1.1.454	.	St
+1.1.455	.	St
+1.1.456	.	St
+1.1.457	.	St
+1.1.458	.	St
+1.1.459	: Wednesday, June 25, 2008 5:54:34 PM Lease Expires .	St
+1.1.460	.	St
+1.1.461	.	St
+1.1.462	.	St
+1.1.463	.	St
+1.1.464	.	St
+1.1.465	.	St
+1.1.466	.	St
+1.1.467	.	St
+1.1.468	.	St
+1.1.469	: Thursday, June 26, 2008 5:54:34 PM Default Gateway .	St
+1.1.470	.	St
+1.1.471	.	St
+1.1.472	.	St
+1.1.473	.	St
+1.1.474	.	St
+1.1.475	.	St
+1.1.476	.	St
+1.1.477	.	St
+1.1.478	: 192.168.0.1 DHCP Server .	St
+1.1.479	.	St
+1.1.480	.	St
+1.1.481	.	St
+1.1.482	.	St
+1.1.483	.	St
+1.1.484	.	St
+1.1.485	.	St
+1.1.486	.	St
+1.1.487	.	St
+1.1.488	.	St
+1.1.489	: 192.168.0.1 DNS Servers .	St
+1.1.490	.	St
+1.1.491	.	St
+1.1.492	.	St
+1.1.493	.	St
+1.1.494	.	St
+1.1.495	.	St
+1.1.496	.	St
+1.1.497	.	St
+1.1.498	.	St
+1.1.499	.	St
+1.1.500	: 192.168.0.1 205.171.3.65 NetBIOS over Tcpip.	St
+1.1.501	.	St
+1.1.502	.	St
+1.1.503	.	St
+1.1.504	.	St
+1.1.505	.	St
+1.1.506	.	St
+1.1.507	.	St
+1.1.508	: Enabled Tunnel adapter Local Area Connection* 6: Media State .	St
+1.1.509	.	St
+1.1.510	.	St
+1.1.511	.	St
+1.1.512	.	St
+1.1.513	.	St
+1.1.514	.	St
+1.1.515	.	St
+1.1.516	.	St
+1.1.517	.	St
+1.1.518	.	St
+1.1.519	: Media disconnected Connection-specific DNS Suffix .	St
+1.1.520	: domain.actdsltmp Description .	St
+1.1.521	.	St
+1.1.522	.	St
+1.1.523	.	St
+1.1.524	.	St
+1.1.525	.	St
+1.1.526	.	St
+1.1.527	.	St
+1.1.528	.	St
+1.1.529	.	St
+1.1.530	.	St
+1.1.531	: Microsoft ISATAP Adapter Physical Address.	St
+1.1.532	.	St
+1.1.533	.	St
+1.1.534	.	St
+1.1.535	.	St
+1.1.536	.	St
+1.1.537	.	St
+1.1.538	.	St
+1.1.539	.	St
+1.1.540	: 00-00-00-00-00-00-00-E0 DHCP Enabled.	St
+1.1.541	.	St
+1.1.542	.	St
+1.1.543	.	St
+1.1.544	.	St
+1.1.545	.	St
+1.1.546	.	St
+1.1.547	.	St
+1.1.548	.	St
+1.1.549	.	St
+1.1.550	.	St
+1.1.551	: No Autoconfiguration Enabled .	St
+1.1.552	.	St
+1.1.553	.	St
+1.1.554	.	St
+1.1.555	: Yes Tunnel adapter Local Area Connection* 7: Connection-specific DNS Suffix .	St
+1.1.556	: Description .	St
+1.1.557	.	St
+1.1.558	.	St
+1.1.559	.	St
+1.1.560	.	St
+1.1.561	.	St
+1.1.562	.	St
+1.1.563	.	St
+1.1.564	.	St
+1.1.565	.	St
+1.1.566	.	St
+1.1.567	: Teredo Tunneling Pseudo-Interface Physical Address.	St
+1.1.568	.	St
+1.1.569	.	St
+1.1.570	.	St
+1.1.571	.	St
+1.1.572	.	St
+1.1.573	.	St
+1.1.574	.	St
+1.1.575	.	St
+1.1.576	: 02-00-54-55-4E-01 DHCP Enabled.	St
+1.1.577	.	St
+1.1.578	.	St
+1.1.579	.	St
+1.1.580	.	St
+1.1.581	.	St
+1.1.582	.	St
+1.1.583	.	St
+1.1.584	.	St
+1.1.585	.	St
+1.1.586	.	St
+1.1.587	: No Autoconfiguration Enabled .	St
+1.1.588	.	St
+1.1.589	.	St
+1.1.590	.	St
+1.1.591	: Yes IPv6 Address.	St
+1.1.592	.	St
+1.1.593	.	St
+1.1.594	.	St
+1.1.595	.	St
+1.1.596	.	St
+1.1.597	.	St
+1.1.598	.	St
+1.1.599	.	St
+1.1.600	.	St
+1.1.601	.	St
+1.1.602	: 2001:0:4137:9e50:346a:3884:3f57:fffa(Preferred) Link-local IPv6 Address .	St
+1.1.603	.	St
+1.1.604	.	St
+1.1.605	.	St
+1.1.606	.	St
+1.1.607	: fe80::346a:3884:3f57:fffa%9(Preferred) Default Gateway .	St
+1.1.608	.	St
+1.1.609	.	St
+1.1.610	.	St
+1.1.611	.	St
+1.1.612	.	St
+1.1.613	.	St
+1.1.614	.	St
+1.1.615	.	St
+1.1.616	: :: NetBIOS over Tcpip.	St
+1.1.617	.	St
+1.1.618	.	St
+1.1.619	.	St
+1.1.620	.	St
+1.1.621	.	St
+1.1.622	.	St
+1.1.623	.	St
+1.1.624	: Disabled -------------------------------------------------------------------- COMPUTER 3 - Laptop (Wireless) Windows IP Configuration Host Name .	St
+1.1.625	.	St
+1.1.626	.	St
+1.1.627	.	St
+1.1.628	.	St
+1.1.629	.	St
+1.1.630	.	St
+1.1.631	.	St
+1.1.632	.	St
+1.1.633	.	St
+1.1.634	.	St
+1.1.635	.	St
+1.1.636	: lappy Primary Dns Suffix .	St
+1.1.637	.	St
+1.1.638	.	St
+1.1.639	.	St
+1.1.640	.	St
+1.1.641	.	St
+1.1.642	.	St
+1.1.643	: Node Type .	St
+1.1.644	.	St
+1.1.645	.	St
+1.1.646	.	St
+1.1.647	.	St
+1.1.648	.	St
+1.1.649	.	St
+1.1.650	.	St
+1.1.651	.	St
+1.1.652	.	St
+1.1.653	.	St
+1.1.654	.	St
+1.1.655	: Unknown IP Routing Enabled.	St
+1.1.656	.	St
+1.1.657	.	St
+1.1.658	.	St
+1.1.659	.	St
+1.1.660	.	St
+1.1.661	.	St
+1.1.662	.	St
+1.1.663	: No WINS Proxy Enabled.	St
+1.1.664	.	St
+1.1.665	.	St
+1.1.666	.	St
+1.1.667	.	St
+1.1.668	.	St
+1.1.669	.	St
+1.1.670	.	St
+1.1.671	: No Ethernet adapter Local Area Connection: Media State .	St
+1.1.672	.	St
+1.1.673	.	St
+1.1.674	.	St
+1.1.675	.	St
+1.1.676	.	St
+1.1.677	.	St
+1.1.678	.	St
+1.1.679	.	St
+1.1.680	.	St
+1.1.681	.	St
+1.1.682	: Media disconnected Description .	St
+1.1.683	.	St
+1.1.684	.	St
+1.1.685	.	St
+1.1.686	.	St
+1.1.687	.	St
+1.1.688	.	St
+1.1.689	.	St
+1.1.690	.	St
+1.1.691	.	St
+1.1.692	.	St
+1.1.693	: Broadcom 440x 10/100 Integrated Controller Physical Address.	St
+1.1.694	.	St
+1.1.695	.	St
+1.1.696	.	St
+1.1.697	.	St
+1.1.698	.	St
+1.1.699	.	St
+1.1.700	.	St
+1.1.701	.	St
+1.1.702	: 00-0D-56-A8-AA-A1 Ethernet adapter Wireless Network Connection: Connection-specific DNS Suffix .	St
+1.1.703	: Description .	St
+1.1.704	.	St
+1.1.705	.	St
+1.1.706	.	St
+1.1.707	.	St
+1.1.708	.	St
+1.1.709	.	St
+1.1.710	.	St
+1.1.711	.	St
+1.1.712	.	St
+1.1.713	.	St
+1.1.714	: Dell TrueMobile 1400 Dual Band WLAN Mini-PCI Card Physical Address.	St
+1.1.715	.	St
+1.1.716	.	St
+1.1.717	.	St
+1.1.718	.	St
+1.1.719	.	St
+1.1.720	.	St
+1.1.721	.	St
+1.1.722	.	St
+1.1.723	: 00-90-4B-1B-F4-28 Dhcp Enabled.	St
+1.1.724	.	St
+1.1.725	.	St
+1.1.726	.	St
+1.1.727	.	St
+1.1.728	.	St
+1.1.729	.	St
+1.1.730	.	St
+1.1.731	.	St
+1.1.732	.	St
+1.1.733	.	St
+1.1.734	: Yes Autoconfiguration Enabled .	St
+1.1.735	.	St
+1.1.736	.	St
+1.1.737	.	St
+1.1.738	: Yes IP Address.	St
+1.1.739	.	St
+1.1.740	.	St
+1.1.741	.	St
+1.1.742	.	St
+1.1.743	.	St
+1.1.744	.	St
+1.1.745	.	St
+1.1.746	.	St
+1.1.747	.	St
+1.1.748	.	St
+1.1.749	.	St
+1.1.750	: 192.168.0.11 Subnet Mask .	St
+1.1.751	.	St
+1.1.752	.	St
+1.1.753	.	St
+1.1.754	.	St
+1.1.755	.	St
+1.1.756	.	St
+1.1.757	.	St
+1.1.758	.	St
+1.1.759	.	St
+1.1.760	.	St
+1.1.761	: 255.255.255.0 Default Gateway .	St
+1.1.762	.	St
+1.1.763	.	St
+1.1.764	.	St
+1.1.765	.	St
+1.1.766	.	St
+1.1.767	.	St
+1.1.768	.	St
+1.1.769	.	St
+1.1.770	: 192.168.0.1 DHCP Server .	St
+1.1.771	.	St
+1.1.772	.	St
+1.1.773	.	St
+1.1.774	.	St
+1.1.775	.	St
+1.1.776	.	St
+1.1.777	.	St
+1.1.778	.	St
+1.1.779	.	St
+1.1.780	.	St
+1.1.781	: 192.168.0.1 DNS Servers .	St
+1.1.782	.	St
+1.1.783	.	St
+1.1.784	.	St
+1.1.785	.	St
+1.1.786	.	St
+1.1.787	.	St
+1.1.788	.	St
+1.1.789	.	St
+1.1.790	.	St
+1.1.791	.	St
+1.1.792	: 192.168.0.1 Lease Obtained.	St
+1.1.793	.	St
+1.1.794	.	St
+1.1.795	.	St
+1.1.796	.	St
+1.1.797	.	St
+1.1.798	.	St
+1.1.799	.	St
+1.1.800	.	St
+1.1.801	.	St
+1.1.802	: Wednesday, June 25, 2008 5:53:18 PM Lease Expires .	St
+1.1.803	.	St
+1.1.804	.	St
+1.1.805	.	St
+1.1.806	.	St
+1.1.807	.	St
+1.1.808	.	St
+1.1.809	.	St
+1.1.810	.	St
+1.1.811	.	St
+1.1.812	: Wednesday, June 25, 2008 5:53:38 PM ---------------------------------------------------------------------- COMPUTER 3 - Laptop (Ethernet) Windows IP Configuration Host Name .	St
+1.1.813	.	St
+1.1.814	.	St
+1.1.815	.	St
+1.1.816	.	St
+1.1.817	.	St
+1.1.818	.	St
+1.1.819	.	St
+1.1.820	.	St
+1.1.821	.	St
+1.1.822	.	St
+1.1.823	.	St
+1.1.824	: lappy Primary Dns Suffix .	St
+1.1.825	.	St
+1.1.826	.	St
+1.1.827	.	St
+1.1.828	.	St
+1.1.829	.	St
+1.1.830	.	St
+1.1.831	: Node Type .	St
+1.1.832	.	St
+1.1.833	.	St
+1.1.834	.	St
+1.1.835	.	St
+1.1.836	.	St
+1.1.837	.	St
+1.1.838	.	St
+1.1.839	.	St
+1.1.840	.	St
+1.1.841	.	St
+1.1.842	.	St
+1.1.843	: Unknown IP Routing Enabled.	St
+1.1.844	.	St
+1.1.845	.	St
+1.1.846	.	St
+1.1.847	.	St
+1.1.848	.	St
+1.1.849	.	St
+1.1.850	.	St
+1.1.851	: No WINS Proxy Enabled.	St
+1.1.852	.	St
+1.1.853	.	St
+1.1.854	.	St
+1.1.855	.	St
+1.1.856	.	St
+1.1.857	.	St
+1.1.858	.	St
+1.1.859	: No DNS Suffix Search List.	St
+1.1.860	.	St
+1.1.861	.	St
+1.1.862	.	St
+1.1.863	.	St
+1.1.864	.	St
+1.1.865	: domain.actdsltmp Ethernet adapter Local Area Connection: Connection-specific DNS Suffix .	St
+1.1.866	: domain.actdsltmp Description .	St
+1.1.867	.	St
+1.1.868	.	St
+1.1.869	.	St
+1.1.870	.	St
+1.1.871	.	St
+1.1.872	.	St
+1.1.873	.	St
+1.1.874	.	St
+1.1.875	.	St
+1.1.876	.	St
+1.1.877	: Broadcom 440x 10/100 Integrated Controller Physical Address.	St
+1.1.878	.	St
+1.1.879	.	St
+1.1.880	.	St
+1.1.881	.	St
+1.1.882	.	St
+1.1.883	.	St
+1.1.884	.	St
+1.1.885	.	St
+1.1.886	: 00-0D-56-A8-AA-A1 Dhcp Enabled.	St
+1.1.887	.	St
+1.1.888	.	St
+1.1.889	.	St
+1.1.890	.	St
+1.1.891	.	St
+1.1.892	.	St
+1.1.893	.	St
+1.1.894	.	St
+1.1.895	.	St
+1.1.896	.	St
+1.1.897	: Yes Autoconfiguration Enabled .	St
+1.1.898	.	St
+1.1.899	.	St
+1.1.900	.	St
+1.1.901	: Yes IP Address.	St
+1.1.902	.	St
+1.1.903	.	St
+1.1.904	.	St
+1.1.905	.	St
+1.1.906	.	St
+1.1.907	.	St
+1.1.908	.	St
+1.1.909	.	St
+1.1.910	.	St
+1.1.911	.	St
+1.1.912	.	St
+1.1.913	: 192.168.0.4 Subnet Mask .	St
+1.1.914	.	St
+1.1.915	.	St
+1.1.916	.	St
+1.1.917	.	St
+1.1.918	.	St
+1.1.919	.	St
+1.1.920	.	St
+1.1.921	.	St
+1.1.922	.	St
+1.1.923	.	St
+1.1.924	: 255.255.255.0 Default Gateway .	St
+1.1.925	.	St
+1.1.926	.	St
+1.1.927	.	St
+1.1.928	.	St
+1.1.929	.	St
+1.1.930	.	St
+1.1.931	.	St
+1.1.932	.	St
+1.1.933	: 192.168.0.1 DHCP Server .	St
+1.1.934	.	St
+1.1.935	.	St
+1.1.936	.	St
+1.1.937	.	St
+1.1.938	.	St
+1.1.939	.	St
+1.1.940	.	St
+1.1.941	.	St
+1.1.942	.	St
+1.1.943	.	St
+1.1.944	: 192.168.0.1 DNS Servers .	St
+1.1.945	.	St
+1.1.946	.	St
+1.1.947	.	St
+1.1.948	.	St
+1.1.949	.	St
+1.1.950	.	St
+1.1.951	.	St
+1.1.952	.	St
+1.1.953	.	St
+1.1.954	.	St
+1.1.955	: 192.168.0.1 205.171.3.65 Lease Obtained.	St
+1.1.956	.	St
+1.1.957	.	St
+1.1.958	.	St
+1.1.959	.	St
+1.1.960	.	St
+1.1.961	.	St
+1.1.962	.	St
+1.1.963	.	St
+1.1.964	.	St
+1.1.965	: Wednesday, June 25, 2008 5:46:58 PM Lease Expires .	St
+1.1.966	.	St
+1.1.967	.	St
+1.1.968	.	St
+1.1.969	.	St
+1.1.970	.	St
+1.1.971	.	St
+1.1.972	.	St
+1.1.973	.	St
+1.1.974	.	St
+1.1.975	: Thursday, June 26, 2008 5:46:58 PM Ethernet adapter Wireless Network Connection: Media State .	St
+1.1.976	.	St
+1.1.977	.	St
+1.1.978	.	St
+1.1.979	.	St
+1.1.980	.	St
+1.1.981	.	St
+1.1.982	.	St
+1.1.983	.	St
+1.1.984	.	St
+1.1.985	.	St
+1.1.986	: Media disconnected Description .	St
+1.1.987	.	St
+1.1.988	.	St
+1.1.989	.	St
+1.1.990	.	St
+1.1.991	.	St
+1.1.992	.	St
+1.1.993	.	St
+1.1.994	.	St
+1.1.995	.	St
+1.1.996	.	St
+1.1.997	: Dell TrueMobile 1400 Dual Band WLAN Mini-PCI Card Physical Address.	St
+1.1.998	.	St
+1.1.999	.	St
+1.1.1000	.	St
+1.1.1001	.	St
+1.1.1002	.	St
+1.1.1003	.	St
+1.1.1004	.	St
+1.1.1005	.	St
+1.1.1006	: 00-90-4B-1B-F4-28	St
+1.2.1	I am sort of scratching my head here.	St
+1.2.2	The WCG200 is a CABLE GATEWAY, combo modem router.But unless I am mistaken you said that you were hooking up from a DSL modem, different hook up.	St
+1.2.3	The gateway is meant to hook up from a cable input, not ethernet.	St
+1.2.4	Methinks what you really need is a straight wireless router ethernet in from the DSL modem, hardwired ethernet to up to 4 systems and wireless to the laptop.	St
+1.3.1	I know that the wcg200 is not the most ideal equipment for what I'm doing, but its all I have right now because it was left over from my previous residence where I had cable internet service.	St
+1.3.2	Besides, it is functioning as a router because when connected with ethernet cables all the computers connect to each other and the internet.	St
+1.3.3	The only thing that doesn't work is when I try to connect the laptop wirelessly.	St
+1.3.4	It will connect to the network and share files and printers, but won't connect to the internet.	St
+1.3.5	Any other suggestions?	St
+1.4.1	I've seen these free on freecycle.com so cost can't be an issue.	St
+1.4.2	Bob	St
+1.5.1	You need to go to an ETHERNET hookup from a DSL modem, the CABLE input is not going to work!	St
+1.5.2	So what you need is a WIRELESS ROUTER, not a CABLE GATEWAY.	St
+1.6.1	Forgot to say that on a cable GATEWAY the LAN input is CABLE, DSL is ETHERNET you need ETHERNET from DSL modem to LAN input on router, you do NOT have that on a cable gateway, there is a difference.	St
+1.7.1	Basically what you have using the Gateway is a hardwire switch feeding off of the DSL modem but you do not have the proper signal input (LAN/WLAN) since the signal input for the gateway (cable) is totally different.	St
+1.8.1	True Bob, that's an idea but it would be cheaper to buy a wireless router and have done with it.	St
+1.9.1	Of those gotta do it for free deals.	St
+1.10.1	I thought that the linksys might be able to get the job done, but i guess its not going to work.	St
+1.10.2	thanks for the info.	Polite
+1.11.1	From connection to DNS servers mines look exactly the same but I have no default gateway.	St
+1.11.2	How am I able to obtained that and be able to connect to the internet?	St

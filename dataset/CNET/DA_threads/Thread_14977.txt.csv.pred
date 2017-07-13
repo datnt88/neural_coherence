@@ -1,0 +1,15 @@
+1.1.1	hello, win 2000 pc .	St
+1.1.2	.	St
+1.1.3	.	St
+1.1.4	I recently defragged all my hard drives, and i am doing some editing with premiere 6.5. now any video I play from the d or e drive is VERY choppy and slow, but anything played from the c drive is fine.	St
+1.1.5	also, in xferring a big mgb file to the c drive, the xfer is slow and computer function is all herky jerky.	St
+1.1.6	dma is enabled on all drives, i restarted, no help.	St
+1.1.7	any ideas on how to trouble shoot?	St
+1.1.8	thanks - fj	Polite
+1.2.1	well after some study I have learned that device #1 (not #0) on each ide channel is in PIO mode, not dma, that is, the d and e drive.	St
+1.2.2	the main c drive is in ultra dma.	St
+1.2.3	I did install some new programs recently.	St
+1.2.4	how do i get out of slow pio mode for these 2 drives?	Ques
+1.2.5	i had pio mode once before but it was a faulty drive, how can I have 2 at once fail?	St
+1.2.6	sounds like a driver/ resource conflict maybe?	St
+1.2.7	help thanks fj	Polite

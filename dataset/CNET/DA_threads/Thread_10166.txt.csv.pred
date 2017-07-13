@@ -1,0 +1,41 @@
+1.1.1	Hi there I took out the HDD(Toshiba MK1516GAP 15GB ATA-2/3/4 2.5&quot; 9.5mm Hard Drive) from an old vaio notebook and put it into a 2.5 external casing (usb) to use as portable storage.	St
+1.1.2	When all is connected windows recognizes the drive i.e as a toshiba and its size.	St
+1.1.3	Now the problem arises when i try to read from or write to the drive.	St
+1.1.4	For the first few minutes(5min) after i plug in the usb cable i seem to be able to read and write to the drive.	St
+1.1.5	Then after i keep getting the following message: Windows -Delayed Write Failed ------------------------------ Windows was unable to save all the data for the file (path of file).	St
+1.1.6	The data has been lost.	St
+1.1.7	This error may be caused by a failure of your computer hardware or network connection.	St
+1.1.8	Please try to save this file elsewhere.	Sug
+1.1.9	When i then try to access the drive i get this: I:\ is not accessible The request could not be performed because of an I/O device error Any help given would be very much appreciated	St
+1.2.1	Did you find a resolution to this problem.	St
+1.2.2	cheers Mark mcs@modnet.com.au	Polite
+1.3.1	I had a similar situation with an external HDD.	St
+1.3.2	My mobo has a USB 1x, I used a USB 2x plugin card.	St
+1.3.3	It worked fine for a few days before this problem cropped up.	St
+1.3.4	It happened on both XP and 98!	St
+1.3.5	Finally, I got rid of the plugin card and started to use the mobo USB.	St
+1.3.6	No prob, no speed.	St
+1.3.7	I think it could have been a hardware failure.	St
+1.3.8	Not sure.	St
+1.3.9	Waiting for more info ......	St
+1.4.1	I have a seagate 120 GB external hard disk in a sarotech hardbox external casing.	St
+1.4.2	I was able to access the data in my external HD yesterday and today i keep getting the Delay Write Fail error as well.	St
+1.4.3	Any idea how to resolve this problem?	St
+1.5.1	Open a command prompt to run CHKDSK.	St
+1.5.2	For me the command is... CHKDSK T: /F /X If the drive needs to be checked later, answer yes.	St
+1.5.3	-&gt; This will also occur if the drive is full to the brim.	St
+1.5.4	Remove a GB and see if that and CHKDSK helps.	St
+1.5.5	If not, find the drive fitness test and don't trust this drive.	St
+1.5.6	Bob	St
+1.6.1	turns out, the problem lies on the usb wire.	St
+1.6.2	Changed it and it works again.	St
+1.6.3	Thanks for your suggestion though.	Ques
+1.7.1	NIL	St
+1.8.1	SOLVED (for me, anyway): I also was having the &quot;Delayed Write Failed&quot; issue on XP Pro SP2 with my new Buffalo DriveStation Duo 1TB system.	St
+1.8.2	I tried it in both Fat32 and NTFS modes as well as in RAID1 and as two independent drives, but would continue to randomly get this error message - mostly on writing large (&gt;500MB) files but occasionally on reads as well.	St
+1.8.3	Finally - due to the suggestion in this thread about the USB wire - I switched the connection of this unit from a USB wire to a 1394 wire (fortunately my laptop had this port) and the errors finally cleared up.	St
+1.9.1	I'm having the same error message on my external hard drive as well, but I only have a USB2 port coming from the external case.	St
+1.9.2	Does anyone have any suggestions?	Ques
+1.9.3	Thanks	Polite
+1.10.1	Try the above fixes.	St
+1.11.1	NIL	St

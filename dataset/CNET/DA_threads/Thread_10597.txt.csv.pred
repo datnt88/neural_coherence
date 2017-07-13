@@ -1,0 +1,67 @@
+1.1.1	Maxtor Shared Storage Drives&gt; I have one of these that I need to replace the hard drive in and it is out of warranty.	St
+1.1.2	Has anyone had success with doing this?	Ques
+1.1.3	All I get is a solid yellow light and the Maxtor software will not find it on the network.	St
+1.1.4	I've tried resetting the drive and that doesn't work either.	St
+1.1.5	I've also tried formatting the with NTFS and with no partitioning at all and still no go.	St
+1.1.6	Suggestions?	St
+1.2.1	http://maxtor.custhelp.com/cgi-bin/maxtor.cfg/php/enduser/std_adp.php?p_faqid=2233&p_created=1106802555&p_sid=eJi5TTfi&p_lva=&p_sp=cF9zcmNoPTEmcF9zb3J0X2J5PSZwX2dyaWRzb3J0PSZwX3Jvd19jbnQ9OCZwX3Byb2RzPTE5NCwwJnBfY2F0cz0wJnBfcHY9MS4xOTQ7Mi51MCZwX2N2PSZwX3NlYXJjaF90eXBlPWFuc3dlcnMuc2VhcmNoX25sJnBfcGFnZT0xJnBfc2VhcmNoX3RleHQ9Zm9ybWF0&p_li=&p_topview=1 about holding the power button.	St
+1.2.2	Also try updating the flash software.	Sug
+1.2.3	If not, the unit is dead.	St
+1.2.4	Bob	St
+1.3.1	I already tried holding the power button for 5 seconds and resetting it.	St
+1.3.2	Does anyone know if there is something that needs to be reset if the cover is removed?	St
+1.4.1	I didn't write about it.	St
+1.4.2	Can you connect to it's web server and do that step?	St
+1.4.3	I don't recall you telling.	St
+1.4.4	Bob	St
+1.5.1	Well, when you run the maxtor setup program and it searches the network for the drive, it never finds it.	St
+1.5.2	And this is just a simple home network with a linksys router/switch and DHCP enabled.	St
+1.5.3	I'm assuming it has to be formatted in some fashion for the box to recognize the drive...maybe fat32?	St
+1.6.1	It's either that or the box is dead.	St
+1.6.2	What happened to make you replace the drive?	St
+1.6.3	Bob	St
+1.7.1	Just wanted to upgrade the drive.	St
+1.7.2	It was working fine until I put the new (known good) drive in.	St
+1.7.3	I've replaced the drives on a lot of the maxtor external drives and never had a problem before.	St
+1.7.4	Just this time on the shared storage drive.	St
+1.7.5	The only thing I can guess is that the internal OS needs the drive in a specific format before it will recognize it.	St
+1.8.1	With the old drive, see what format that was in.	St
+1.8.2	I would use RANISH PARTITION MANAGER to look at it.	St
+1.8.3	Or even to create the new drive in the same partition type and format.	St
+1.8.4	I wonder if you duplicated the jumper settings?	St
+1.8.5	In closing, some of these boxes have strict limits on hard disk sizes such as 127GB limits or others.	St
+1.8.6	The makers rarely reveal exactly what these are but we can take clues if they never offered over 127GB.	St
+1.8.7	Bob	St
+1.9.1	I have the same issue.	St
+1.9.2	I have put the drive into my PC and it saw it as unallocated space.	St
+1.9.3	I then mounted it.	St
+1.9.4	And so far I have tried everything to fix it with no luck.	St
+1.9.5	It just will not take again.	St
+1.9.6	Maxtor said it had to be an EXT3 partition so I put it into Linux and formatted it back.	St
+1.9.7	Then placed it into the drive and still it will not recognize the drive even after a reset.	St
+1.9.8	Can someone help I know I must be able to get it back to life.	St
+1.9.9	I tried this http://www.idevelopment.info/data/Unix/Linux/LINUX_PartitioningandFormattingSecondHardDrive_ext3.shtml	St
+1.10.1	Im having same problem.	St
+1.10.2	Anyone figure a way?	St
+1.11.1	If the drive won't reinit it's either back to Maxtor or we replace the drive housing.	St
+1.12.1	I have Data still on my drive, I wanted to make a clone backup of the drive so I put the drive in a Computer which had nothing but another blank drive tried to boot up with a drive cloning program which wouldn't recognize the drive anyway and ended up shutting it down.	St
+1.12.2	From there the drive nolonger want to boot.	St
+1.12.3	The drive pass all diagnosis test, and spins up ok.	St
+1.12.4	I now trying to find a way that I can plug this drive into a OS that will recognize the data on it.	St
+1.13.1	Just incase anyone asks it was Norton's Ghost I tried to use.	St
+1.14.1	-&gt; Look up G4U Also did you try Linux to see if it recognizes the file system?	St
+1.14.2	Bob	St
+1.15.1	The drive uses the REISERFS format.	St
+1.15.2	It's a linux based filesystem and please, under no circumstances, try to use it under a Windows environment (as in hooking the drive directly to the IDE connector).	St
+1.15.3	Windows will attempt the read and after failing ~255 times, for reasons unknown, it does something to the first couple of sectors of the drive that renders it unreadable once you replace the drive in it's housing.	St
+1.15.4	You must use a *nix based system to reformat the drive, and then reinstall the drive.	St
+1.15.5	Hope this helps a little.	St
+1.16.1	Yes have tried a few linux systems now, Knoppix, suse, and kubuntu.	St
+1.16.2	Closes I can get is an error of permission accesses denied.	St
+1.16.3	Linux States you do not have enough permission to read file :///dev/disk/by-id/ata-Maxtor_6B300R0_B61ZDSBH Unsure how to bypass this	St
+1.17.1	reckon this may have been a contributor, most likely something microsoft incorporated to drives that don't follow Microsoft ways that basically says if i cant read you, noone will.	St
+1.17.2	I call it a Microspit.	St
+1.18.1	I couldn't tell exactly what the &quot;error message&quot; was.	St
+1.18.2	These forums don't have great formatting so help us out by putting such in quotes.	St
+1.18.3	Also, I wonder what happens if you google that error.	St
+1.18.4	Bob	St

@@ -1,0 +1,30 @@
+1.1.1	I have a desktop and three laptops.	St
+1.1.2	There is a router theat takes the internet signal and puts it out to the desktop then out to another router that has my printer and three laptops going through the second router.	St
+1.1.3	I set up a network and all four of the computers are part of the same workgroup.	St
+1.1.4	The three laptops can see and access the desktop but nothing can access any of the laptops.	St
+1.1.5	I don't know how to solve this.	St
+1.2.1	All consumer grade routers have 2 sides, LAN & WAN.	St
+1.2.2	The LAN side is typically a 4 port switch with a virtual IP address that applies to all switch ports.	St
+1.2.3	This interface also acts as a DHCP server.	St
+1.2.4	The WAN side gets the Public IP address from the ISP using PPPoE or DHCP typically.	St
+1.2.5	The WAN interface runs NAT (Network address translation).	St
+1.2.6	It convrts your LAN addresses into the one public IP address and keeps track of the sessions.	St
+1.2.7	NAT is what allows you to share the internet connection with multiple computers.	Ques
+1.2.8	One side effect of NAT is security.	St
+1.2.9	The NAT implemented in consumer routers is referred to as Many to one NAT.	St
+1.2.10	Outbound from the LAN has no issues.	St
+1.2.11	But incomming traffic can only return to the proper computer if an outbound session was already created.	St
+1.2.12	If I try to connect to your network then my session will terminate on your router.	St
+1.2.13	Your router has no idea where to forward the traffic.	St
+1.2.14	You could direct FTP traffic to a specific machine or Telnet traffic but this is good for only one PC.	St
+1.2.15	If you can turn off NAT you may get this to work.	St
+1.2.16	or replace the router with a switch if you can.	Sug
+1.2.17	SKrall	St
+1.3.1	So my second router that is atatched to the three laptops is a router/switch.	St
+1.3.2	you think that is I switched this with the one accepting the internet signal and directing to the desktop that it would solve my problem.	St
+1.4.1	when using two routers to link multiple devices, would be to enable one as the DHCP server and disable DHCP on the other.	St
+1.4.2	In this scenario the router connecting to the Internet is the DHCP server.	St
+1.4.3	Many will trip over firewalls not set to allow LAN sharing.	St
+1.4.4	When this happens, I will turn them off to verify sharing can happen and then reconfigure them.	St
+1.5.1	You should have just got the one router and then an Access point for the laptops to connect through, or a combined wired/wireless router.	St
+1.5.2	You only need one Ethernet connection on the back of the wireless router, then just add a hub/switch if you need more ethernet connections for more wired computers on your network.	St

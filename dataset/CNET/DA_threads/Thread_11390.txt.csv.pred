@@ -1,0 +1,26 @@
+1.1.1	am wondering if anyone has ever had a problem with a PC taking ten minutes or longer to boot up with a HP printer attached to the USB port.	St
+1.1.2	I have a Dell Dimension 2400 series PC running Windows XP Home.	St
+1.1.3	It is a year old.	St
+1.1.4	I also have a HP 2175 or something on that order.	St
+1.1.5	It is an all in one.	St
+1.1.6	Here is the problem.	St
+1.1.7	First, without the printer attached to the PC through a USB port the PC boots up just fine.	St
+1.1.8	But if I have the Printer plugged in The POST runs fine but just before the OS loads the computer hangs for about 10 minutes and has just a cursor blinking in the upper left hand corner.	St
+1.1.9	Eventually it will boot into windows but it takes forever.	St
+1.1.10	I never get any warnings from the system saying that there is anything bad with the printer or the USB port but when I look in the device manager in Windows with the printer plugged in I have a &quot;USBnull HPO08&quot; by the USB ports???	St
+1.1.11	If I look in the &quot;show printers&quot; window on the system I can see the printer and it says it is online and ready??	St
+1.1.12	Does anyone have any idea why this is happening?	Ques
+1.1.13	?	Ques
+1.2.1	Just kidding, but when I found you were usingXP I remebered that there are three great tools available to see what is possibly causing the problems.	St
+1.2.2	They are: Event Viewer, Bootlogtext file and Boot ini log.	St
+1.2.3	I have only used event viewer.	St
+1.2.4	One way to get there is go to DStart Run type eventvwr and hit OK.	St
+1.2.5	This gives a list of all of the events that have been occuring with the system.	St
+1.2.6	You can clear them and get a new set the next time that you turn the system on.	St
+1.2.7	I'll try to find a link to how to use the other two.	Sug
+1.3.1	http://reviews.cnet.com/5208-6142-0.html?forumID=5&threadID=26794&messageID=301001	St
+1.4.1	Thanks again for the help.	St
+1.4.2	I will try the second 2.	Sug
+1.4.3	I did look at the event log and did not see anything out of the ordinary.	St
+1.4.4	But maybe there is a way to get the information I need from the boot.ini file or the boot log text file.	St
+1.4.5	Thanks again, Loren	St

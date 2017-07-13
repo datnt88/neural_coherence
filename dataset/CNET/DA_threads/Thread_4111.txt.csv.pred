@@ -1,0 +1,41 @@
+1.1.1	first off - these are not my real ip addresses.	St
+1.1.2	I have a couple of dns servers that are currently exposed to the world - no firewall in front of them and I want to get them protected.	St
+1.1.3	My internal network is protected by a Microsoft firewall where we use natting and I have ip forwarding to a few webservers also through the isa firewall, but our dns servers get a lot of traffic so I do not want to run them through the isa firewall because it's already getting beat up with all the traffic.	St
+1.1.4	so - I bought a cisco pix 501 and want to set that up and put the dns servers on that.	St
+1.1.5	I can write rules for the isa firewall just fine but the cisco pix presents a learning curve for me.	St
+1.1.6	perhaps you guys can help me.	Sug
+1.1.7	we have 128 ip addresses assigned to us by verizon (91.114.187.2 through .128 ) right now my internal network is natted out as 91.114.187.3 my isa firewall is 91.114.187.3 my dns servers are 91.114.187.4 and .5 my gateway is 91.114.187.1 and we have a voip phone system on 91.114.187.2 my webserver published ip addresses are in the 91.114.187.40 through .60 range and they're running through the isa firewall just fine.	St
+1.1.8	I want to setup the cisco pix as .10 and and leave the published ip addresses of the dns servers as .4 and .5 when I setup the cisco pix with an ip address of 91.114.187.10 with a subnet mark of 255.255.255.128 it will be set to listen to all traffic from 91.114.187.1 through .64 correct?	St
+1.1.9	????	St
+1.1.10	my question is this... can I setup my my dns servers on the 501 pix to use their external addresses?	St
+1.1.11	and if so - how do I setup my internal network on the pix?	St
+1.1.12	- can I establish an internal network of just two ip addresses so that it does not interface with the externally listened to ip address on the cisco pix?	St
+1.1.13	(.10?)	St
+1.1.14	I don't really thing so unless they're on different subnet and then I'd have to assign new ip address to the dns servers right - because they're down in a block with my other important ip addresses or am I missing something important here in terms of subneting... unless I can setup an internal network of just two ip addresses that are also using ip addresses assigned to the external network.. but that can't be done can it?	St
+1.1.15	or do I have to should I setup the dns servers on internally assigned ip address range such as 192.168.0.2 and .3 and then setup the cisco pix to forward traffic for 91.114.187.4 to let's says 192.168.0.2 and my .5 dns server to 192.168.0.3 ?	Ques
+1.1.16	I assume the cisco pix can do ip address forwarding so this way I will only open the cisco pix to udp traffic on port 53 for the two dns servers i'm protecting with it.	St
+1.1.17	does this sound like a plan?	St
+1.1.18	thanks in advance.	Polite
+1.1.19	I'm anxious for some enlightened feedback since I kind of struggle through all of this.	St
+1.2.1	Cisco still has fine engineers to help you set it up.	St
+1.2.2	Start at cisco.com to find them.	St
+1.2.3	Bob	St
+1.3.1	What is it with people like you?	Ques
+1.3.2	Don't you have anything better to than post useless drivel on forums.	St
+1.3.3	Your babble only serves to clutter up what would otherwise be great threads of information.	St
+1.3.4	Please do us all a favor and don't post a reply unless you have something really meaningful to contribute and what you posted was a true waste of time and words.	Sug
+1.3.5	I see people like you all the time and it's a shame you even have a computer because you add nothing to the body of knowledge.	St
+1.3.6	You can't contribute anything meaningful so you post drivel instead.	St
+1.3.7	Please just go away.	Sug
+1.3.8	I've already reported your post and useless.	St
+1.3.9	please just go away and let people who know what they're talking about reply.	Sug
+1.4.1	I think I misunderstood what you were looking for.	St
+1.4.2	Let's try a more focused forum.	Sug
+1.4.3	Start at https://supportforums.cisco.com/index.jspa and pick the forum that fits.	St
+1.4.4	Here we have a discussion forum which is more discussion than support.	St
+1.4.5	At times a new member gets confused about that and is looking for support.	St
+1.4.6	Sometimes you get support but there are no paid staffers which means we'll try to get you pointed to the right places.	St
+1.4.7	Bob	St
+1.5.1	Please consider that you are not in a true support forum and that baring your teeth like that may drive away those that might want to offer tech support.	St
+1.5.2	Again, no paid staffers here so why not use the other avenues?	St
+1.5.3	Bob	St

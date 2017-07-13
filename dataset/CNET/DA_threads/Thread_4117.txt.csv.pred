@@ -1,0 +1,36 @@
+1.1.1	I am looking for a schematic for an older Compaq 5BW12 or at least a detailed sequence of what components are tested before permission is granted (via PS On) for the switching supply to power up.	St
+1.1.2	The computer has a 600MHZ Celeron CPU.	St
+1.1.3	The power supply bench tests ok with all voltages ok.	St
+1.1.4	In the machine the +5 volt standby voltage is present and one wire to the front panel switch is at a logic HIGH (+3.66 volts) the other side of the switch is at logic LOW (0 volts) pushing the switch makes both sides of the switch 0 volts.	St
+1.1.5	But the PS On pin going from the MOBO to the PS always remains high (+4.98V) and permission is never given for the switching supply to power up the main board.	St
+1.1.6	Removing the CPU and CPU fan, or the Memory sticks does not change any thing.	St
+1.1.7	Any information or Ideas for additional checks would be appreciated.	St
+1.1.8	Thank you Tom R.	St
+1.2.1	Sadly, such schematics are non-existent outside of Compaq (now HP) design offices.	St
+1.2.2	The brutal reality is that service at a component level exceeds the cost of replacing the motherboard or power supply.	St
+1.2.3	You may not flame me over the state of affairs, but we could discuss that changing the power supply is a good idea or trying this power supply on some other old ATX board could reveal where the issue is.	St
+1.2.4	At the end of the day, you can keep searching for non-published schematics or decide you want the machine fixed by replacing the failed parts.	St
+1.2.5	A nuisance to some is that machines may not power up is the CMOS RESET jumper is missing or in the wrong position or if the CMOS BATTERY is missing or too low a voltage.	St
+1.2.6	Bob	St
+1.3.1	Remove all cards except monitor card and memory, remove drives, try to bring the board up with just the memory and monitor, this will indicate if the motherboard has failed, remember the Bios is the final arbiter of the power on sequence.	St
+1.3.2	It has it's instructions to look for a power good signal before allowing boot up.	St
+1.3.3	If the circuit on the motherboard failed this test it will not allow the board to post.	St
+1.3.4	Norm	St
+1.4.1	Thank you for your reply.	St
+1.4.2	I am sure you are correct about the non-availability of schematics.	St
+1.4.3	The power supply functions out of the unit with P-on forced and loaded into an old hard drive.	St
+1.4.4	The PS also works in another unit.	St
+1.4.5	I checked out the battery and it checks 3 volts in circuit.	St
+1.4.6	The owners manual I have on this machine does not indicate if the MOBO has a CMOS jumper but since the system had been working and suddenly refused to power up I would not suspect a jumper missing or in the wrong place.	St
+1.4.7	I pulled the battery overnight in an attempt to reset the CMOS: Nothing I have tried makes any change.	St
+1.4.8	I cut the green wire (P- on) and by using a 10 K resistor to common did a thevenin calculation looking into the Power supply and then into the MOBO.	St
+1.4.9	The PS has a pull up to V standby that equates to 2.5K (that sounds reasonable); but the mother board is pulling up the P-on line very hard, it theveninizes out as 66 ohms between V standby and P-on, that seems to be an adnormally low impedance to me.	St
+1.4.10	It would appear that some component on the board has broken down and is overdriving the P-on signal line to the power down condition.	St
+1.4.11	Now the decision is whether to retrofit with a new board or toss the whole thing as upgrading this unit may cost more than the purchase of a complete computer package.	St
+1.4.12	Thanks again for your input.	St
+1.4.13	Tom R	St
+1.5.1	Thanks for your suggestions I had tried the unit as a bare bones unit (mother board and CRT) this proprietary board has the sound and video built in but I removed all peripheral cards.	St
+1.5.2	The MOBO fails to issue the power on signal to power up the PS regardless of the configuration of the system.	St
+1.5.3	There is never any sign of an attempt to run the POST or any sign that the processor ever started to run or boot up.	St
+1.5.4	Unfortunately the test results are pointing toward the Motherboard.	St
+1.5.5	Thanks Tom R	St

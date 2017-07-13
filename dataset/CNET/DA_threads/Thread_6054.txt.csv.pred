@@ -1,0 +1,52 @@
+1.1.1	I am trying to write this symbol @ but my keyboard is returning &quot; symbol on the screen.	St
+1.1.2	And when I hold down the shift key and press &quot; symbol I get @ symbol instead.	St
+1.1.3	Also, I cannot get a pound sterling symbol.	St
+1.1.4	When I hold down the shift key and press the pound sterling key i get this symbol # intead.	Sug
+1.1.5	Can anyone please tell me how to fix this problem/ and what seems to be the problem here?	Ques
+1.1.6	Win2K pro: SP4 RAM=384MB: Intel Pent 3: 8GB HD.	St
+1.1.7	Thanks Guys.	St
+1.2.1	Since you posted in the PC Hardware forum, then the hardware answer is to try another keyboard.	St
+1.2.2	Also that you boot to DOS and test that keyboard for proper symbols.	St
+1.2.3	If there is an OS settings issue, it will have to wait as my Windows 2000 machine boots... Just a couple minutes... Its booting so let me also note you didn't reveal if you installed any keyboard enhancer/driver from Microsoft/Logitech or other.	St
+1.2.4	Your post is void of details that are needed.	St
+1.2.5	YES, there is a Keyboard item in the Control Panel.	St
+1.2.6	And sure enough there can be other Locales to remap the keyboard.	St
+1.2.7	Bob	St
+1.3.1	go to start - settings - control panel - keyboard Make sure you are set to US standard and not something else	Sug
+1.4.1	Thanks Bob.I tried the keyboard item on the control panel but that did not solve the problem.	St
+1.4.2	I have not installed any keyboard enhancer/driver from anywhere.	St
+1.4.3	Also you suggested I boot to DOS and test the keyboard for proper symbols.	St
+1.4.4	The thing is that you did not tell how do I actually test the keyboard after booting to DOS.	St
+1.4.5	You see, everything has been working properly on this computer until recently when this problem arose from nowhere!!.	St
+1.4.6	You also say that my post was void of details that are needed - I thought I gave all the necessary details required.	St
+1.4.7	Could you please be more specific and indicate what other details you require.	St
+1.4.8	Thanks.	St
+1.5.1	&quot;Tip: If you are asking for help to troubleshoot a computer-related problem, please be sure to include all the necessary information (ie: operating system, model number, hardware, software, etc) that will help others identify your problem for a speedy resolution.&quot; Temu, You have to write as much as you and hope some forum member sees your issue.	St
+1.5.2	This is not like a call in support where they will drag the information out of you.	St
+1.5.3	That's far too much work for me.	St
+1.5.4	If you can't boot DOS and tap the keys on the keyboard to see if they work, then I feel you need to see a service shop.	St
+1.5.5	Bob	St
+1.6.1	The quickest check is to swap kybds and check results.	St
+1.6.2	If the results are good, then your old kybd.	St
+1.6.3	is either dirty/cruddy or some other foreign object(staple?)	St
+1.6.4	is drifting around it, causing bad contacts.	St
+1.6.5	Then again, keyboards do fail, replacement is necessary.	St
+1.6.6	You should also check to see that the proper kybd.	St
+1.6.7	is installed and recognized under the control panel kybd.	St
+1.6.8	icon to be sure.	St
+1.6.9	good luck -----Willy	Polite
+1.7.1	I have two computers (Both win98SE) that have exactly the same problem as originally described.	St
+1.7.2	The problem started on the older one when I had it reconditioned with Win98 SE (fromNT4.0).	St
+1.7.3	And with the newer when I had it reconditioned from the same OS (win98SE).	St
+1.7.4	Maybe you can help with this knowledge.	St
+1.7.5	thanks older pc: pentium I win98se newer pc: Athlon 800mhz win98se	Polite
+1.8.1	hi, ive had this problem before, sometimes the computer sets the default keyboard layout so that it use english(American) rather than english(british) the option to change it to the british one is in control panel&gt;keyboard settings or control panel&gt;language and regional.	St
+1.8.2	depending on your operating system.	St
+1.9.1	Thanks to the guy above - i had the exact same problem though it is more specifically - control panel-regional language settings- languages- click on details-then from the drop-down menu - english (united kingdom) apply - if U.S version is the default remove it then apply and hurrah!	St
+1.9.2	s and @s should be the same again!	St
+1.10.1	your key board needs to be reset for UK not US The symbols &quot; above the 2 is the @ sign the @ sign is &quot; when set to US Settings When you are asked in MSN Explorer on reloading change your country to uk or go to Control Panel and change your regional language settings	St
+1.11.1	You must go to C:\Windows\config.sys, edit this file & put this lines: device=C:\Windows\Command\Ansi.sys Country=001,437,C:\Windows\Command\Country.sys and now go to the Autoexec.bat file and edit this file & put this lines: Mode Con Codepage prepare=(the next line here please!	St
+1.11.2	)((437):\WINDOWS\COMMAND\EGA.CPI) Mode Con Codepage Select=437 Keyb us,,C:\Windows\Command\Keyboard.sys	St
+1.12.1	i know that when you reformat your pc there is a menu to change your keyboard type usa or uk i clicked next when it was on usa by mistake and cant find a way to put it on uk without reformating my pc again, (do you know how to do it)i have checked in the control panel and in the dos but i cant find any way of changing it and i have just finished puting all my software back on and really dont want to reformat it again	St
+1.13.1	NIL	St
+1.14.1	try ctrl+shift: it switches between two keyboard modes...you can modify this by doing: (if your using XP, dont know about other ones..and...my OS is in dutch so i dont know how to translate some buttons): goto control panel language &gt;langauges&gt;details&gt;keysettings&gt;change keycombinations&gt; uncheck both options...then your sure you wont change your keyboard settings by accident	St

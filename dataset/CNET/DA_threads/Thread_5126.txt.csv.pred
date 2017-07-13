@@ -1,0 +1,13 @@
+1.1.1	I am getting first these errors (3) and then these (2) warnings in the windows system log about SSL on each boot Event ID 15021 (Error) An error occurred while using SSL config for socket address 151.24.100.42:6331.	St
+1.1.2	The error status code is contained within the returned data.	St
+1.1.3	Ditto (160.254.2.2:6331.)	St
+1.1.4	Ditto (192.1168.1.34:6331) Event ID 15300 (Warning) SSL Certificate Settings deleted for Port: 192.168.1.34:6331 Event ID 15301 (Warning) SSL Certificate Settings created by an admin process for port: 192.168.1.34:6331 Ive found the solution here: http://technet2.microsoft.com/windowsserver2008/en/library/687b7b8c-7546-47e0-892f-bb0b95201cbc1033.mspx?mfr=true but I am stuck at step 3 because I am not that techno-savvy when I type & enter &lt;netsh http delete sslcert&gt; I read the following: One or more essential parameters were not entered.	St
+1.1.5	Verify the required parameters, and reenter them.The synthax supplied for this command is not valid .	St
+1.1.6	Check help for the correct synthax.	St
+1.1.7	Usage: delete sslcert [ipport=]&lt;IP Address:port&gt; Parameters: Tag Value ipport - The IPv4 or IPv6 address and port for which the SSL certificate bindings will be deleted Remarks: deletes SSL server certificate bindings and corresponding client certificate policies for an IP address and port.	St
+1.1.8	Examples: delete sslcert ipport=1.1.1.1:443 delete sslcert ipport=0.0.0.0:443 delete sslcert ipport=[ :: ]:443 I am not sure but it all started when OneCare was updated to v.2 (could it be involved?)	St
+1.1.9	I would greatly hope/appreciate if someone out there could help me further.	St
+1.2.1	the IP address and port number as well?	St
+1.3.1	because I am afraid of messing things up.	St
+1.3.2	Am I to delete the three of them?	St
+1.3.3	And what about the parameters Thats what I read when I type/enter &lt;netsh http show sslcert&gt; Usage Check : Disabled Revocation Freshness Time : 0 URL Retrieval Timeout : 0 Ctl Identifier : Ctl Store Name : DS Mapper Usage : Disabled Negotiate Client certificate : Enabled IP:Port : 192.168.1.34.6331 Certificate Hash : e78f742d4a69258bd0a374f5220302287a83 Application ID : {c18569c0-0120-4782-839e-507db38788b5} Certificate Store Name : MY Verify Client Certificate Revocation : Enabled Verify Revocation Using Cached Client Certificate Only : Disabled Usage Check : : Disabled Revocation Freshness Time : 0 URL Retrieval Timeout : 0 Ctl Identifier : Ctl Store Name : DS Mapper Usage : Disabled Negotiate Client Certificate : Enabled Thank you for taking your time.	St

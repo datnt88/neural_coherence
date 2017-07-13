@@ -1,0 +1,35 @@
+1.1.1	I'm looking for the right approach on adding some devices to my home network.	St
+1.1.2	I have a dual band NETGEAR WNDR3700 router running both g and n. That router is downstairs but my son has his laptop, xbox and new desktop in his bedroom with no wired ethernet.	St
+1.1.3	At first I was just going to buy a wireless n adaptor for his desktop but then thought we'd be better off with a wireless access point and then connect each of his three devices to it with gigabit ethernet.	St
+1.1.4	Does that seem like the right solution?	St
+1.1.5	If so what access points support n and gigbit ethernet?	St
+1.1.6	If that is not viable then which Netgear wireless adaptor will give the best performance?	St
+1.1.7	Seems like a PCI card will give better performance than a USB adaptor?	St
+1.1.8	thanks.	St
+1.2.1	After some research I figured what I'm looking for is a wireless bridge.	St
+1.2.2	I'd prefer a netgear bridge because intuitively I feel like it will just &quot;work better&quot; than another brand with my netgear wireless router.	St
+1.2.3	However, the netgear WN2000RPT is only single band N and 100Mb ethernet while the LINKSYS WET610N and the D-Link DAP-1522 are both dual band N and 1Gb ethernet.	St
+1.2.4	Having 1Gb ethernet is preferable so I can blast files between the two computers connected to the bridge.	St
+1.2.5	Which do you think is a better solution?	St
+1.2.6	Any ideas welcome.	St
+1.2.7	Thanks.	St
+1.3.1	I am going to assume you are running g on 2.4 and n on 5 on your dual band router.	St
+1.3.2	Although you can set the 2.4 to g and n it will not really run both at the same time.	St
+1.3.3	That is part of the reason to run 2 radios and separate the N and G. Although you can run 2 band on only N if all your equipment supports it.	St
+1.3.4	Your best bet is to get rid of all your g stuff or make sure all your equipment that is going to run N can run at 5g which almost always means it is dual band.	St
+1.3.5	Be careful what you buy a bridge is just that it converts the ethernet port to wireless and allows it to connect to another router.	St
+1.3.6	They in general do not allow wireless client PC to connect to them.	St
+1.3.7	You could place a second router behind.	St
+1.3.8	There are things called wireless extenders that are wireless in and out.	St
+1.3.9	They tend to be a challenge to setup because of all the radio bands and WPA keys.	St
+1.3.10	If you are transferring wireless to wireless do not expect any great performance.	St
+1.3.11	Having a gig port does not mean a lot when you look at N running 300m.	St
+1.3.12	The 300m number is some lab thing that nobody gets.	St
+1.3.13	Then if both machines are on the same frequency the 300m is divided by 2 since the it is shared so you are down to 150m.	St
+1.3.14	Even then it is nowhere close to 150m.	St
+1.3.15	The only way to get wireless to wireless speed is to transfer one machine on 5g and another on 2.4 and then in a lab you might get 300m.	St
+1.3.16	Gig ports are mostly just marketing garbage on consumer routers.	St
+1.3.17	Even if you go Ethernet to Ethernet with cable you will get nowhere near 1G.	St
+1.3.18	You have to use a feature called jumbo frames to make it work which is not supported on most consumer routers.	St
+1.3.19	Also the gig port in most PC's is built into the chipsets and have a limit of 400m.	St
+1.3.20	You need a motherboard than is designed with a port to really run gig and these are mostly used for servers.	St

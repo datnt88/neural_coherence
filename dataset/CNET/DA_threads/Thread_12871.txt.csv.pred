@@ -1,0 +1,23 @@
+1.1.1	My neighbor had never downloaded updates to his Win XP - SP2 system.	St
+1.1.2	On my advice, he went through the routine to let Microsoft push updates onto his system.	St
+1.1.3	When it was all over, he not only found his system has gone remarkably slower, but also found that he had lost access to Internet using IE v6.	St
+1.1.4	His system has a direct Internet connection to a cable modem from Optimum Online.	St
+1.1.5	I peeked into his system and found that the typical icons for Local Networking and Wireless Networking have disappeared from the Network.	St
+1.1.6	- Using my laptop connected directly to his cable modem, I was able to get to Internet without problems, but not using his desktop.	St
+1.1.7	- I cannot even get IPCONFIG to release and renew and reset the IP address.	St
+1.1.8	- There are no icons in the system toolbar on bottom right to look at the TCP/IP properties settings.	St
+1.1.9	- I tried a system restore to a restore point prior to the update.	St
+1.1.10	It did not help.	St
+1.1.11	- I reinstalled the NIC card driver and even replaced with another brand new one.	St
+1.1.12	It did not help.	St
+1.1.13	Does any one have ideas on how to restore the networking icons and just connect with Internet?	Ques
+1.1.14	I certainly do not want to format and reinstall the whole darned system all over again.	St
+1.1.15	Thanks in advance for the help.	St
+1.2.1	After checking the physical connection, try pinging the localhost or 127.0.0.1 to confirm TCP/IP is installed/configured.	St
+1.2.2	Does it return 4 packets?	St
+1.2.3	If not, use the reset command, netsh int ip reset resetlog.txt.	St
+1.2.4	Try recreating the connection with the Internet Connection Wizard.	St
+1.3.1	If there is no other way to fix the problem you could use the system restore utility included in XP to restore the computer to a point before the updates were installed.	St
+1.3.2	A restore point should have been created when the updates were installed if it is enabled.	St
+1.3.3	This would eliminate the need to reformat or reinstall XP.	St
+1.3.4	Re-installing IE 6 SP1 may also be an optoin.	St

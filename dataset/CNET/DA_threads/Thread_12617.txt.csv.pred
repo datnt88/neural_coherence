@@ -1,0 +1,188 @@
+1.1.1	I want to move a lot of stuff from my old G3 to my new Mac Mini.	St
+1.1.2	I was told that I could do this via ethernet.	St
+1.1.3	Problem is, I've never networked two computers before and don't know where to start.	St
+1.1.4	I've got the cable, but am ignorant of basics like do I need both monitors, a step by step instruction, etc.	St
+1.1.5	All help much appreciated, particularly a step by step targeted at the slow.	St
+1.1.6	TIA	St
+1.2.1	Make sure that the cable you have is a CROSS-OVER cable.	St
+1.2.2	A length of regular ethernet cable will NOT work.	St
+1.2.3	If your old G3 has Firewire, all you will need is a Firewire cable.	St
+1.2.4	Firewire steps first.	St
+1.2.5	Attach the firewire cable from the Mini to the G3.	St
+1.2.6	Boot the Mini.	St
+1.2.7	Once booted, on the G3, hold down the &quot;T&quot; key and boot the G3.	St
+1.2.8	Release the &quot;T&quot; when you see the Firewire icon.	St
+1.2.9	G3 appears on the Desktop of the Mini.	St
+1.2.10	Drag everything you need off the drive.	St
+1.2.11	Of course, life is never that simple.	St
+1.2.12	You are going to tell me that the G3 does not have Firewire.	St
+1.2.13	So, connect the CROSS-OVER cable from the ethernet port on the mini to the ethernet port on the G3.	St
+1.2.14	1.	St
+1.2.15	Boot the G3 and turn on File Sharing.	St
+1.2.16	Make sure tha the computer has a name, in the File Sharing Control Panel.	St
+1.2.17	2.	St
+1.2.18	Go to Users and Groups and set the Guest Access to &quot;Allow Guests to Access this computer&quot; Close the window when done.	St
+1.2.19	3.	St
+1.2.20	Single click on the HD icon on the desktop 4.	St
+1.2.21	Go to &quot;Get Info&quot;, select Sharing and in the window, check &quot;Share this item and its contents&quot; and alongside the Everyone line, select Read/Write.	St
+1.2.22	5.	St
+1.2.23	Click the Copy button to do what it says and then, when it is finished, close the window 6.	St
+1.2.24	Boot the mini.	St
+1.2.25	7.	St
+1.2.26	On the G3, go to the AppleTalk control panel and set AppleTalk to via Ethernet.	St
+1.2.27	(You cannot do this step before the mini is booted as the G3 will return an error when it fails to see any activity on the Ethernet port and default to the Printer port.	St
+1.2.28	Booting the mini produces activity at the port) If you have the correct cable, the G3 should appear in the Network window of the mini.	St
+1.2.29	Double click it and choose to log on as a Guest.	St
+1.2.30	The G3 mounts on the desktop and is fully accessible to you.	St
+1.2.31	Do NOT bother moving any applications from the G3 to the mini.	St
+1.2.32	They almost certainly will NOT work.	St
+1.2.33	Just copy the stuff you created.	St
+1.2.34	The File Sharing instructions are based on OS 9.x.x but they apply to earlier Systems.	St
+1.2.35	File Sharing and Users & Groups are separate control panels is versions earlier than 9.0 The instructions on what to do with them remain the same.	St
+1.2.36	That should keep you going for a while.	St
+1.2.37	If you get stuck, let us know.	St
+1.2.38	Remember, it has to be a CROSS-OVER cable.	St
+1.2.39	Sorry to press this but I have seen numerous failures and frustrations from using the wrong type of cable.	St
+1.2.40	Hope this all helps P	St
+1.3.1	Many thanks, Mrmacfixit!	St
+1.3.2	I have printed your instructions and will exchange the ethernet cable for the crossover cable.	St
+1.3.3	This is going to take a couple of days due to other commitments, but I will report back on the results.	St
+1.3.4	Have a good weekend!	St
+1.4.1	NIL	St
+1.5.1	I've got a cross-over cable, as directed.	St
+1.5.2	I followed the other instructions, but the G3 doesn't show up in the network window of the Mini, nor does a &quot;Connected User&quot; show up in the File Sharing window of the G3.	St
+1.5.3	I'm fairly sure I'm doing something wrong, but what?	St
+1.5.4	TIA	St
+1.6.1	I'm fairly sure I didn't miss anything but.... Make sure that the File Sharing CP on the G3 has a Name for the Computer.	Res
+1.6.2	Any name will do, as will any password.	St
+1.6.3	In the Users and Groups, make sure that Guest Access is enabled.	St
+1.6.4	Make sure that File Sharing is On.	Res
+1.6.5	If all of those things are correct AND the cable you have is a cross-over cable, AND, when the two machines are connect together you have gone to the Apple Talk CP and set the output to Ethernet, AND you have shared the HD, then the G3 &quot;should&quot; appear in the Network window of the Go/Network menu on the Mini.	St
+1.6.6	One other point, or two, go to the System Preferences/Network and in the drop down menu, select Ethernet.	St
+1.6.7	Click on AppleTalk and check the Make Active box.	St
+1.6.8	If you are running OS 9 on the G3, there should be an option in File Sharing, to Allow users to connect using TCP/IP.	St
+1.6.9	Turn it on if it is there.	St
+1.6.10	Check all the above again, especially the AppleTalk section You can do this Good Luck P	St
+1.7.1	Got it done!	St
+1.7.2	Here's where I got lost: &quot;then the G3 &quot;should&quot; appear in the Network window of the Go/Network menu on the Mini.&quot; Having never networked, I was unaware of the Go/Network command.	St
+1.7.3	In any case it's a done deal, and I owe you a huge debt.	St
+1.7.4	Many thanks!!!	St
+1.7.5	Oh, an interesting sidebar: About 5 minutes into the transfer, the G3 flipped up a &quot;bus error&quot; bomb, which I assumed meant the end of the world.	St
+1.7.6	Didn't, though--I was able to keep happily downloading stuff from it til I was done.	St
+1.7.7	Cool!	St
+1.7.8	Thanks again, --Tim	St
+1.8.1	Glad it all worked for you.	St
+1.8.2	Now you might want to consider keeping the G3, for extra storage and, if you have broadband internet, setting your machines up to share the connection and to remain networked.	St
+1.8.3	But that's another adventure.	St
+1.8.4	Glad I could help P	St
+1.9.1	Thanks for the great &quot;how to&quot; but I have the exact same set up (old beige G3 and a new mac mini) and I bought a router and set up my network to allow internet access to both computers via a cable modem link.	St
+1.9.2	Works great but actually being able to share files from the G3 to the mini does not appear to work.	St
+1.9.3	Do I need to play with IP addresses or the router settings?	St
+1.9.4	I have not begun to play but hope to have internet access as well as file (and printer) sharing as well.	St
+1.9.5	The G3 is running OS9 while the mini is OSX if that matters.	St
+1.9.6	Thanks in advance!	St
+1.9.7	Ken	St
+1.10.1	is exactly the same as the one already described.	St
+1.10.2	I have a feeling that you may have missed a step, either on the G3 or the mini.	St
+1.10.3	You do not say what actually happens or what you see in either the Chooser/Appleshare(Talk) (G3) or the Network Window (mini) There is no need to change any IP addresses and probably nothing to set up on the router.	St
+1.10.4	If both machines can access the internet, via the router, then they are already connected in a local area network by virtue of being plugged into the same switch.	St
+1.10.5	You just have to make them talk nicely to each other.	St
+1.10.6	Take another look at all the posts here and it should work for you.	St
+1.10.7	If it doesn't, come back and tell us exactly what happened.	St
+1.10.8	Have a good 4th P	Polite
+1.11.1	I followed the &quot;procedure&quot; exactly as written.	St
+1.11.2	When I click on the &quot;network&quot; on my mac mini, I see an alias for &quot;Servers&quot;.	St
+1.11.3	When I click there, I get a &quot;the name of my computer.local&quot;.	St
+1.11.4	When I click this, it just reverts to my mac mini hard drive.	St
+1.11.5	I am sure I have a crossover cable.	St
+1.11.6	I have internet access on both computers.	St
+1.11.7	I am using a D-Link router with built in switching.	St
+1.11.8	My G3 is really old (233mHz) that I added a few things (upgraded CD-RW, PCI card for Firewire/USB, lots of RAM).	St
+1.11.9	It is not critical that they talk to each other but would save me the time to burn a CD of data I want to move.	St
+1.11.10	I love the Firewire ploy but I have to get a long firewire cable and I am told that is not cheap.	St
+1.11.11	I do find it odd that it isn't working.	St
+1.11.12	My thought is to have the G3 apple talk set from &quot;ethernet&quot; to &quot;printer&quot; and reboot.	St
+1.11.13	Then boot the mac mini and then switch the apple talk on the G3 to &quot;ethernet&quot;.	St
+1.11.14	I have done the above but NOT rebooted the G3.	St
+1.11.15	I have set the apple talk on the G3 from &quot;ethernet&quot; to &quot;printer&quot; (and saved) and then booted the mac mini and then switched the G3 to &quot;ethernet&quot; via the apple talk.	St
+1.11.16	Again, thanks in advance.	Polite
+1.11.17	Ken	St
+1.12.1	You do NOT need a cross-over cable if you are using a switch or router.	Ques
+1.12.2	Switching AppleTalk on the G3 from Ethernet to Printer will not help in the slightest.	St
+1.12.3	All that will do is put the output of the AppleTalk protocol, down the printer port.	St
+1.12.4	You will then be unable to connect to the router.	St
+1.12.5	Assuming that you have internet access on the G3 and the Mini, we can rule out a bad ethernet port.	St
+1.12.6	On the G3, what do you see when you go to the Chooser window and select AppleShare?	St
+1.12.7	If all is set correctly on the Mini, you should see it in the righthand window.	St
+1.12.8	You do not have to connect from each of the machines at the same time.	St
+1.12.9	If the G3 can see the mini, and connect, you can &quot;push&quot; the data to the mini rather than &quot;pull&quot; it from the G3.	St
+1.12.10	For the G3 not to see the Mini, and vice versa, there is either a connectivity problem (X-over cable instead of straight through)or one of the File Sharing settings on either machine is incorrect.	St
+1.12.11	On the G3, are you sharing just one folder or are you trying to share the entire drive?	St
+1.12.12	If it is just one folder, is there anything special about the icon for that folder?	St
+1.12.13	P	St
+1.13.1	On the G3, if I go to &quot;Chooser&quot; all I have are printers to choose from.	St
+1.13.2	There is NO Apple Share.	St
+1.13.3	Apple talk says conneted to &quot;ethernet&quot; No zones specified.	St
+1.13.4	As for the G3, yes, I am trying to share the entire drive.	St
+1.13.5	Also, yes both computers hook into the net.	Res
+1.13.6	Should I remove the crossover cable and use a straight cable?	St
+1.13.7	I didn't think that would matter.	St
+1.13.8	Fun, fun, huh?	St
+1.13.9	Thanks again for the patience and persistance.	St
+1.13.10	Ken	St
+1.14.1	I was unable to post directly from your last post, which is why we are over here.	St
+1.14.2	Ok, Now we have a minor problem.	St
+1.14.3	Without the File Sharing extensions in the extension folder, you will not get an AppleShare/AppleTalk icon in the Chooser.	St
+1.14.4	Without this icon, you will not be able to network correctly.	St
+1.14.5	First, change out the X-over cable for a straight thru one.	St
+1.14.6	Next, go into the Exentions Manager and set the Extension set to OS 9.x.x ALL.	St
+1.14.7	Restart the machine, check in the Chooser for an AppleShare/AppleTalk icon.	St
+1.14.8	If it's there, click on it.	St
+1.14.9	The AppleTalk control panel is only to control where the communications will be be sent & received.	St
+1.14.10	The File Sharing control panel is the one that controls all the sharing.	St
+1.14.11	Get back with me with the results.	St
+1.14.12	P	St
+1.15.1	The trick- check the &quot;network&quot; control panel and make sure that Apple Talk is turned on at the mini!	St
+1.15.2	I Turned this on and, presto, hit apply and there was the G3 waiting to be mounted.	St
+1.15.3	I assumed that the Apple Talk was on at the mini but apparently not.	St
+1.15.4	Thanks!!!	St
+1.15.5	!	St
+1.16.1	able to sort it out.	St
+1.16.2	Now watch how fast you can suck that stuff across!	St
+1.16.3	Well done P	St
+1.17.1	I too have a beige G3 (purchased 1/98 running OS 9.2.2) and want to transfer many files from it to my new Mac Mini (OS 10.4.7).	St
+1.17.2	Your instructions worked great.	St
+1.17.3	I could see the named G3 in my Network window of the Mac Mini.	St
+1.17.4	However, when I clicked on the named G3 icon I got an AFP Protocol error &quot;This file server uses an incompatible version of the AFP protocol.	St
+1.17.5	You cannot connect to it.&quot; What's this mean?	St
+1.17.6	Is there some way to get rid of or fix the error?	St
+1.17.7	Thanks.	St
+1.18.1	It might work.	St
+1.18.2	Instead of trying to PULL data off the G3 from the Mac Mini, try PUSHING the data from the G3 to the Mac Mini.	St
+1.18.3	ie.	St
+1.18.4	Instead of trying to connect the Mini to the G3, trying connecting the G3 to the Mini.	St
+1.18.5	On the G3, make sure &quot;allow connections via TCP/IP&quot; is checked and on the Mini, make sure that AppleTalk is on.	St
+1.18.6	(this should really not make a difference but it cannot hurt) Let us know how you got on P	St
+1.19.1	HELLO: I read down through these posts and then went back and re-read the first post.	St
+1.19.2	Am I to assume from your directions that the Fire Wire transfers are simpler to perform and have faster transfer rates?	St
+1.19.3	I'm getting ready to do the same thing with my Mac Mini.	St
+1.19.4	JG	St
+1.20.1	the Firewire (Target Mode) is much faster and a whole lot easier to set up and run.	St
+1.20.2	However, be aware that the new mini has a Firewire 800 port while you older machine may only have a Firewire 400 port.	St
+1.20.3	If this is the case, you will need a different Firewire cable to the one you probably had with the old machine.	St
+1.20.4	The connectors are completely different.	St
+1.20.5	P	St
+1.21.1	P Once again, THANKS!	St
+1.21.2	I did look at the Firewire ports earlier and they were different.	St
+1.21.3	I figured I would have to pull up some arcane Tech Report on these, gut, you have it right here.	St
+1.21.4	I'll have to see what a Fire Wire cable for the odd connection will run.	St
+1.21.5	Time I have, money is scarce these days!	St
+1.21.6	Thanks again for your help!	St
+1.21.7	JG	St
+1.22.1	check this place out http://eshop.macsales.com/Search/Search.cfm?Ntk=Category&Ns=P_Popularity%7c1&Ne=5000&N=7574&Ntt=firewire+1394+cables P	St
+1.23.1	I had the same intent for moving files from my old flat panel G4 iMac.	St
+1.23.2	I had backed up this iMac previously and it took two days of doing the job to completiojn.	St
+1.23.3	I bought a Fire Wire cable to take care of transferring the files to my new Mac Mini and it took about 2 1/2 hours total for the same type of job - transferring files from one disk to another.	St
+1.23.4	It was great!	St
+1.23.5	I just wiped the Mini disk - since it was new I didn't have much there - and the instructions when I reinstalled were very simple and straight forward.	St
+1.23.6	JESSE	St

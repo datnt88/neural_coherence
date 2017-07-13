@@ -1,0 +1,17 @@
+1.1.1	On my current machine I have two 500gig SATA hard drives both in working condition, one running windows 7 and the other used for storage.	St
+1.1.2	Now I also have an 80gig IDE hard drive running Ubuntu; which I have from my old machine.	St
+1.1.3	The 80gig IDE ran perfectly with a different SATA hard drive in the old machine (all I had to do was switch the boot order to use either Ubuntu on the 80gig IDE or Windows 7 on the old SATA hard drive).	St
+1.1.4	I just recently tried bringing the 80gig IDE drive over to my new computer but it doesn't seem to be working.	St
+1.1.5	The Bios recognizes it as a 2500mb drive for some absurd reason.	St
+1.1.6	Any Ideas on how to get this to work?	St
+1.1.7	Additional Info: Mother Board: Asus A8-NE Jumper settings for the IDE drive: CS	St
+1.2.1	Some Asus boards, and probably many others, have hard drive controllers that are either/or but not both SATA and IDE.	St
+1.2.2	I've seen this mainly if a RAID configuration is possible.	St
+1.2.3	If you select to use SATA, the corresponding IDE ports become unusable.	St
+1.2.4	Check your manual to see if this is the case.	St
+1.3.1	Thanks for the suggestion I double checked the manual and it appears I should be able to run both SATA and IDE concurrently.	St
+1.3.2	While browsing the manual I came across this, &quot;If the hard disk was already formatted on a previous system, the setup BIOS may detect incorrect parameters.	St
+1.3.3	Select [Manual] to manually enter the IDE hard disk drive parameters.&quot; After looking up the parameters for the hard drive, I tried to manually enter the IDE hard disk drive parameters; however, I was not able to do so.	St
+1.3.4	The Sectors, Heads, and Cylinders all had adjustable values but when I set them to the proper values and hit enter, they just reset to the incorrect values.	St
+1.3.5	Any other suggestions?	St
+1.3.6	Thanks	Polite

@@ -1,0 +1,45 @@
+1.1.1	I already have my OS as well as other software programs installed on my Western Digital hdd.	St
+1.1.2	I doubt it's possible because all the software is already installed on my current hdd, but I would like to add another of the exact same Western Digital hard drive in conjunction with my current hard drive to create a RAID 0 or stripped system.	St
+1.1.3	Does anyone know if this is possible, and, if so, how I would go about it?	Ques
+1.1.4	My second question about a RAID 0 system is if it is possible to backup all its files onto an external hdd?	St
+1.2.1	Does your raid system support such?	St
+1.2.2	Most don't.	St
+1.2.3	Item 2 is a software issue.	St
+1.2.4	I think Acronis is quite good.	St
+1.3.1	As Bob say, make sure your system supports RAID.	St
+1.3.2	Here's what you can try.	St
+1.3.3	Enable RAID on your MB's ports that support it and install the proper drivers on your current HD and make sure they show as functioning properly.	St
+1.3.4	Next, make a complete HD image using software capable of doing such on another HD...and preferably one that will restore from DOS.	St
+1.3.5	Put your two WD drives on the RAID channel, boot and create the array as you desire.	St
+1.3.6	Once the array is created, connect the HD with the full image on it to the system and restore that to the RAID array.	St
+1.3.7	Set the array as the first HD in the boot order and fire it up.	St
+1.3.8	If all goes well, it will start just fine but Windows could be unhappy about the hardware changes and require re-activation.	St
+1.3.9	If all doesn't go well, you still have the full image available to restore as it worked before.	St
+1.3.10	As for your question about backing up to an external, that should work fine.	St
+1.3.11	A RAID array is seen as a single drive and has a single drive letter.	St
+1.3.12	What you probably cannot do is back up a full image to an external and restore it to a non-RAID drive.	St
+1.4.1	the boot loader will be configured for ata/sata, and will not have the raid drivers at boottime (even if they're installed in the OS).	St
+1.4.2	if raid-0 is enabled on the motherboard, it will erase the partition tables of the existing drives.	St
+1.5.1	Sweet!	St
+1.5.2	Thanks!	St
+1.5.3	I'm kinda a computer noob though.	St
+1.5.4	How would I create a 'complete HD image using capable software' and what are some examples of the software I might use?	St
+1.6.1	You can enable RAID on the MB and XP will see the new hardware and allow you to install the driver.	St
+1.6.2	This differs from trying install XP on an existing array where you'd need to pre-install the drivers from a floppy.	St
+1.6.3	With the RAID drivers already installed, you can create the array and move the OS over to it.	St
+1.6.4	Now, I have done this with RAID 1 on an SATA set but not RAID 0.	St
+1.6.5	I presumed it would work either way but could be mistaken.	St
+1.7.1	that company has been absorbed by the evil Symantec corporation who has their own product called Norton Ghost.	St
+1.7.2	That would probably do the job.	Sug
+1.7.3	Another popular one is Acronis True Image.	St
+1.7.4	I have no experience with it but it should work also.	St
+1.7.5	After rereading here, your best bet might be to do a clean installation on a pair of new drives of the same model.	St
+1.7.6	Personally, I'd never consider RAID 0 anymore than I'd jump from a plane without a second parachute but that's your choice.	St
+1.7.7	That you're looking for backup advice is a good thing.	Polite
+1.7.8	Good luck.	St
+1.8.1	just installing the os level drivers won't change the bootloader's drivers which are part of the master boot record.	St
+1.8.2	so when the image is applied to the raid volume, xp won't boot since the bootloader will be using ata/sata drivers, not the vendor specific raid driver.	St
+1.8.3	raid 1 is often transparent to the OS since the controller makes 2 drives look like 1, but striping (and raid 5) always requires a low-level raid driver since 2+ drives are being merged.	St
+1.8.4	and, striping cannot be enable without having some drives to stripe.	St
+1.8.5	once enabled, the controller will clear the partition tables on the striped drives.	St
+1.9.1	I'd never consider RAID 0 for my own use unless going for a speed record with the intention of donating what's on it to the data black hole.	St

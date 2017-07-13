@@ -1,0 +1,43 @@
+1.1.1	My daughters laptop (Fujitsu Siemens Amili Pi 1505) suddenly stopped working while she was busy with Internet and MS Word.	St
+1.1.2	Reboot says Operating system not found.	St
+1.1.3	BIOS recognises Fujitsu MHV2080BH SATA1 drive, shown as IDE (80 Gb).	St
+1.1.4	Things I tried: - Reboot from original recovery disk (Windows XP SP2).	St
+1.1.5	Loads all drivers.	St
+1.1.6	After that there's only a black screen with with a cursor in the upper left corner.	St
+1.1.7	Disc access LED loops: 7 seconds burning, 1 second off.	St
+1.1.8	- Locate a Fujitsu hard drive diagnostic on http://www.fujitsu.com/us/services/computing/storage/hdd/support/utilities.html .	St
+1.1.9	They only have one for IDE.	St
+1.1.10	However, it needs to be run from a DOS bootable device and the laptop has no diskette drive.	St
+1.1.11	I wonder if it's worth the trouble to make a bootable CD or a bootable USB.	St
+1.1.12	- Download a general hard disk diagnostic (mhdd - comes with iso for a bootable cd).	St
+1.1.13	That finds only the DVD/RW and no trace of the hard disk.	St
+1.1.14	Any other option than going to the repair shop and ask them to check the cables and then put a new hard disk in (and check it by installing Windows XP)?	St
+1.1.15	It's not something I'd like to do myself.	St
+1.1.16	And yes, I happened to make a backup last week.	St
+1.1.17	And explained about the need to store files on a USB-stick or in her gmail.	St
+1.1.18	Kees	St
+1.2.1	even if you need a USB floppy or CD ROM to run it.	St
+1.2.2	It can uncover fatal media damage.	St
+1.2.3	I'd try that right away to either confirm or rule out the drive as the problem.	Sug
+1.3.1	You could always try doing a live-USB Linux boot, go in the partition settings and check your 80GB hard drive.	Sug
+1.3.2	You can still see your hard drive of 80GB in your partition..	St
+1.3.3	It just won't be mounted.	St
+1.3.4	I doubt you'll need help doing that (live-usb) but if you do I suggest Debian Live... That's where I do my partition work.	St
+1.3.5	&quot;unetbootin&quot; is a very useful program to push .ISO images to your USB to make it bootable.	St
+1.3.6	p.s.	St
+1.3.7	At my old school, when we had those &quot;OS not found&quot; errors.. we had to refresh the RAM by taking the sticks out then putting it back in.. sometimes it would work.	St
+1.3.8	So... Make sure your RAM is properly connected and the hinges are properly securing it so it's not shaky.	St
+1.3.9	Hope that helped.	St
+1.4.1	To happen so suddenly suggest either a component failed or heat damage.	St
+1.4.2	Laptops tend to get hot and when run in such a condition sooner or later they poop-out.	St
+1.4.3	To test the HD, I've used ADA-2020 adapter to a desktop and access the HD that way.	St
+1.4.4	You can then run whatever HD tests, etc.	St
+1.4.5	to help eliminate the HD as a problem.	St
+1.4.6	If no problem, return it to the laptop and try again.	St
+1.4.7	You can get your hands on the UBCD, Ultimate Boot Disk and get the .ISO file and make a bootable CD disk.	St
+1.4.8	That way you can test other componets, etc.	St
+1.4.9	w/o the HD or FD.	St
+1.4.10	http://www.ultimatebootcd.com/ If you can inspect&verify any laptop fans are working to include the cpu one(if applicable).	St
+1.4.11	I found some laptops so hot, they burp the heatsink compound(expelled) to the sides yet work until it eventually dries out.	St
+1.4.12	In these cases, the cpu has fried or become too unstable to re-use.	St
+1.4.13	tada -----Willy	St

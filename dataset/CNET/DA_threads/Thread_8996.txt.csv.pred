@@ -1,0 +1,13 @@
+1.1.1	Hi.	St
+1.1.2	I have a doubt.	St
+1.1.3	Here goes: When the ARP Poisoning attack has successfully taken place, a data packet is redirected to the attacker's computer and then forwarded to the original destination by the attacker.	St
+1.1.4	During this process does the data packet reach the original destination in 2 hops or a single hop?	St
+1.2.1	You must remember that this type of attack is limited to a lan segement.	St
+1.2.2	Technically the traffic always passes the attacking device.	St
+1.2.3	So there is a extra &quot;hop&quot; but since most do not modify the ttl any more than a switch would you cannot detect them by looking at the &quot;hop&quot; counts	St
+1.3.1	i read somewhere that for the attack to successfully take place the attacker has to turn on the &quot;IP Forwarding&quot; feature available in his OS.	St
+1.3.2	His machine becomes a router so wouldnt the router modify the TTL?	St
+1.4.1	Why would he have to route, he could just copy the data and pass it to the actual mac address of the real router at layer 2.	St
+1.4.2	When you get into doing some of the man in the middle attacks and you need to modify the content then you may need to route but even then why would you not just adjust the ttl also.	St
+1.4.3	Still in most cases the only place you can do this is on user segments which are not protected.	St
+1.4.4	The ones servers are on generally use advanced switch features like 802.1x to authenticate devices and private vlans to prevent compromised servers from attacking other servers.	St

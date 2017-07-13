@@ -1,0 +1,24 @@
+1.1.1	I have an external HDD assembled using a 3.5&quot; 1 TB SATA internal HDD and a casing.	St
+1.1.2	The unit was powered by the casing adapter and all worked fine until we had a power fluctuation and after that, the drive was not detected and kept creating clicking sounds.	St
+1.1.3	Going through various suggestions posted on the net, I tried freezing, heating, tapping and everything else there was to do, but to no avail.	St
+1.1.4	The clicking continued and the drive would not be recognized.	St
+1.1.5	To avoid fluctuations, I had removed the casing & adapter and had connected this HDD directly to an SMPS, but the clicking went on.	St
+1.1.6	However, as I connected another PATA external HDD to the molex connector of the SMPS, the first HDD's clicking came to a halt and the HDD came to life.	St
+1.1.7	All drives are now visible in Windows and I'm in the process of backing up the data.	St
+1.1.8	Whenever the PATA HDD is disconnected from the SMPS, the SATA HDD gets disconnected and starts clicking again.	St
+1.1.9	This is the weirdest thing I've ever encountered and have no clue what's making this happen.	St
+1.1.10	Why is the presence of another HDD connected to the SMPS making the SATA HDD not work ???	St
+1.1.11	Has anyone else come across a similar situation or have any solution ??	Ques
+1.1.12	?	Ques
+1.2.1	It was noted in old drives and we chalked it up to a drive that was going to die.	St
+1.2.2	Without an OSCILLOSCOPE you won't be able to watch the power supply closely to sniff out why more than one bothers it, but get your data out and move on.	St
+1.2.3	That's the hardest thing I find today for folk is to get away from cranky gear.	St
+1.2.4	They can't resist tinkering and risking their files on such things.	St
+1.2.5	Bob	St
+1.3.1	Thanks for the response.	St
+1.3.2	It seems that the SMPS was faulty.	St
+1.3.3	I concluded this from the fact that the clicking Sata HDD worked perfectly when attached to another SMPS.	St
+1.3.4	Anyways, I'm not relying on the HDD and a backup is in progress.	St
+1.3.5	Apart from this, I had attached another PATA HDD to the faulty SMPS to check and after being detected, it stopped spinning after 5 seconds and has now completely stopped functioning even with another SMPS.	St
+1.3.6	The &quot;Smooth&quot; chip is getting overheated in this HDD and the motor seems lifeless.	St
+1.3.7	I guess i blew the smooth chip and am now stuck with a bricked HDD	St

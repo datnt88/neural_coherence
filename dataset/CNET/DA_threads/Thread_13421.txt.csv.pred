@@ -1,0 +1,47 @@
+1.1.1	Hi, I have a little problem, and i've been trying to find some answers on the net, but nothing.	St
+1.1.2	I have put a new cpu cooler - Coolermaster Hyper 6+ in my computer.	St
+1.1.3	It's a 4-pin cooler connected on a 4-pin connector on the Intel D975XBXLKR Bad Axe motherboard with 975X Express Chipset.	St
+1.1.4	I have Intel Pentium D 930 processor.	St
+1.1.5	So, the problem is that the temperature of my CPU is 46 degrees with opened case, and 51-58 with closed case and the fan speed is max.	St
+1.1.6	1750rpm.	St
+1.1.7	The cooler specif.	St
+1.1.8	says that the fan speed is from 1800-3600 rpm.	St
+1.1.9	I have installed speed fan and all the fans (front, rear and cpu-fan) are monitored and controlled trough EMC6D103 chip and as I understand, PWM function.	St
+1.1.10	I've tryed to change the speed with speedfan, but nothing happends.	St
+1.1.11	With the default processor fan i had the same temperature results, but he changed the speed normaly, from 1900-2500 rpm.	St
+1.1.12	Help please, if You have any idee.	St
+1.1.13	THX!	St
+1.1.14	!	St
+1.2.1	http://processorfinder.intel.com/Details.aspx?sSpec=SL94R notes some 63.4C temperature and a CPU that can emit possibly 93 Watts.	St
+1.2.2	To drag the temperature down you'll have to work very hard to improve the cooling.	St
+1.2.3	But so far you are in spec.	St
+1.2.4	Bob	St
+1.3.1	As I understand it, the 4-wire fans(2nd level) only work when needed once a certain temp is reached.	St
+1.3.2	Once, that theshold is meant, then the higher rpm fan setting kicks in to help cool an over-heated cpu.	St
+1.3.3	It seems after reviewing the website Robert posted you're within std.	St
+1.3.4	specs.	St
+1.3.5	of the cpu operation.	St
+1.3.6	Unless, your bios has a fan setting to change, then all this is done at a h/w level and no action from you will change it.	St
+1.3.7	tada -----Willy	St
+1.4.1	you're setup is working as intended, but not as expected.	St
+1.4.2	intel mobo's don't consider pentium 4/Ds &quot;warm&quot; until they hit about 55C and they're not &quot;hot&quot; until they hit about 62C.	St
+1.4.3	that's why your cooler's fan hardly spins up beyond its minimum setting.	St
+1.4.4	(i've got a 650 (3.4ghz) with an artic cooler and its fan only spins about 500rpm most of the time and idle temp is about 55C.	St
+1.4.5	if you have intel's desktop utilities installed, open the mobo monitor and notice the green/yellow/red temp ranges.)	St
+1.4.6	your bios may have an option to turn off its fan management.	St
+1.4.7	doing so may allow speedfan to handle the management.	St
+1.4.8	also make sure your version of speedfan supports the 975 chipset.	Sug
+1.4.9	when i downloaded it last year it couldn't work with my D945GNT mobo.	St
+1.4.10	Alfredo Milani-Comparetti (speedfan's author) sent me a beta build with support for the 945 chipset.	St
+1.5.1	hey, thx a lot for youre answers, and, i have one more question - my defaul fans input is 0.42 A and this one 0.62 A. is it possible that my mobo doesent have enough power to run it?!	St
+1.5.2	and if it's so, could i connect my cooling somewhere directly to power supply (i'am working in 3ds max, bryce, autocad so i need a cold case Intel D975XBXLKR power supp.	St
+1.5.3	Aopen, atx2, 700w graphic card Wildcat Realizm 500	St
+1.6.1	i think your cpu fan has both 4 and 3 pin connectors so you can plug it in several places.	St
+1.6.2	with your mobo monitor, check which fan is running fastest and swap it for your cpu fan.	St
+1.6.3	alternatively, you could get an $8 antec fan with speed control from cc/cUSA/bb.	St
+1.6.4	you should be able to pull the molex adapter off of it and use it to plug your fan directly into the power supply.	St
+1.6.5	then just mount the antec fan in the rear and plug it into the motherboard.	St
+1.7.1	That's a normal temperature for that CPU.	St
+1.7.2	Why not just leave it alone and live with it?	Sug
+1.8.1	well, for frst i have built my configuration for 4 months and i'd like it to work as i wanted to (i know it's impossible , and second, i hate when something is not working within specifications, or when i have some yelow ??	Ques
+1.8.2	in my device man.and so on anyhow, the problem is not the cooling but the expectations	St

@@ -1,0 +1,34 @@
+1.1.1	Yesterday night, my house RCD tripped while I'm uploading file to internet.	St
+1.1.2	After recovered PC power, I found that my SATA HDD disappeared from windows XP HDD list - other 2 IDE HDD, FDD, DVD drives & movable drive remained.	St
+1.1.3	I opened device manager, selected drives icon and right clicked on it then forced it to scan for hardware change.	St
+1.1.4	Device manager didn't found the SATA drive.	St
+1.1.5	However, every time I rebooted the PC, BIOS reported existence of the SATA HDD.	St
+1.1.6	I tried connect that SATA HDD to SATA0 then 1 of my gigabyte GA-8S655FX(-L) motherboard (my motherboard had 2 available SATA ports).	St
+1.1.7	Each time BIOS could found the HDD drive.	St
+1.1.8	Was my SATA dead ?	Ques
+1.1.9	If no, how could I make XP to discover it again ?	Ques
+1.2.1	The point right before the accident.	St
+1.3.1	How to restore if XP couldn't see the hardware ?	Ques
+1.3.2	Only BIOS detected HDD existence but BIOS could do nothing to restore, right ?	Ques
+1.4.1	Since you have no access to System Restore (the only reason not to try this) then you'll have to reinstall the OS.	St
+1.4.2	Sorry, Bob	St
+1.5.1	I wonder if XP installation program could find out the problem disk.	St
+1.5.2	What's more important, the disk was used for data storage only.	St
+1.5.3	No OS had ever been installed there.	St
+1.5.4	I wonder if there exists software that can access the SATA HDD for those not even accessible by windows disk management utility.	St
+1.6.1	Here's why.	St
+1.6.2	XP as supplied from Microsoft has no SATA support.	St
+1.6.3	We have to supply such during F6 option.	St
+1.6.4	I think system restore is the first choice since any other choice requires sata drivers and more.	St
+1.6.5	Bob	St
+1.7.1	Right click on &quot;my computer&quot; and choose &quot;manage&quot; to get into Computer Management.	St
+1.7.2	Click on Disk Management and the drive should be there.	St
+1.7.3	1.Drive marked as &quot;raw&quot; then you'll need data recovery software to retrieve your data then repartition.	St
+1.7.4	2.Drive seems to be normal then you just need to assign a drive volume by right clicking it.	St
+1.7.5	If the drive does appear in Disk management you should try it in a different PC or get someone to look at it.	St
+1.8.1	Had the same situation.	St
+1.8.2	It was the SATA cable.	St
+1.8.3	Western Digital for example warns against using an L shaped connector on desk top machines.	St
+1.8.4	I switched it to a straight wire and it is fine.	St
+1.8.5	Don't know why but that's what it was.	St
+1.8.6	Apparently the L connector works itself loose.	St

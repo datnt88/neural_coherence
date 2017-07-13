@@ -1,0 +1,18 @@
+1.1.1	when I search through the web I always see DDR memory with some numbers assigned to them.	St
+1.1.2	For instance, 256MB DDR memory PC3200 400MHZ or PC2700 333MHZ.	St
+1.1.3	As far as I know even the motherboards supporting 333MHZ can work with 400MHZ memory but in this case the memories will function at 333MHz thus, buying memories at a higher-than-supported speed becomes useless.	St
+1.1.4	How can I understand whether my motherboard supports 400MHZ DDR memory?	St
+1.2.1	describe your motherboard as in manufacturer and model#	St
+1.3.1	The mtrbd.	St
+1.3.2	specs are provided via the manual or the support website for your model.	St
+1.3.3	Understand the memory mapping as sometimes certain conditions must be present.	St
+1.3.4	In general if the mtrbd.	St
+1.3.5	supports FSB of 333Mhz.	St
+1.3.6	though you can install DDR PC3200/400Mhz, you can use it only at 333Mhz.	St
+1.3.7	If the mtrbd.	St
+1.3.8	can in fact use PC3200 at FSB of 400Mhz in may want certain memory slot(s) used only or all are supported.	St
+1.3.9	Also, the level of the cpu class installed will determine the final setup as the mtrbd.	St
+1.3.10	using its &quot;automode&quot; setting may pick the best overall operation or at least the safest one with lack of problem(s).	St
+1.3.11	These mtrbds.	St
+1.3.12	can be in most cases be &quot;manually&quot; setup to increase its operational speed but may lock-up or outright fail if pushed too far but a default mode should recover it.	St
+1.3.13	good luck -----Willy	Polite

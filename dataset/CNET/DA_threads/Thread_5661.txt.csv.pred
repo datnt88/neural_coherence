@@ -1,0 +1,18 @@
+1.1.1	Hello!	St
+1.1.2	First of all, a rundown of all that is currently in my PC: - AMD Athlon 64 2800+ (Processor) - DFI LANParty UT (Motherboard) - ATI Fire GL-X1 (AGP 8X Video Card) - LG GSA-4040B (4X DVD Burner) - Antec SL350 (350W Power Supply) - Zalman CNPS7700-ALCU (CPU Cooler) - Infineon DDR400 512MB (256MB x 2) (RAM) - &lt;i&gt;HP NetRaid 1si (80-pin RAID Controller)&lt;/i&gt; - &lt;i&gt;IBM 18GB 68-pin SCSI (Hard Drive x 2)&lt;/i&gt; - &lt;i&gt;SCSI Cable, 80-pin with terminator&lt;/i&gt; - &lt;i&gt;80 to 68-pin conversion attachment, on both hard drives&lt;/i&gt; I am nearly ready to go with my new PC, but I've come across one hurdle - setting up my SCSI hard disks.	St
+1.1.3	I have two IBM 18GB hard drives (identical, expect one was manufactured slightly more recently), connected to two 80 to 68-pin adapters.	St
+1.1.4	The drives and the adapters both work, because the power from the power supply is routed through the adapters and into the hard drives, and the hard drives power on at boot.	St
+1.1.5	The RAID controller works, because I can access it's BIOS at boot.	St
+1.1.6	However, the NetRAID does not recognize that any physical drives are present.	St
+1.1.7	This is my dilemma..... All jumpers seem to be in proper place (one at ID1 and one at ID2, plus a jumper on Auto Power ON on both drives).	St
+1.1.8	I'm really dying to find out what is wrong!	St
+1.1.9	Please help!!!!!!	St
+1.1.10	-Robbie	St
+1.2.1	You give a good run down on your hardware, Robbie, but you do not mention your OS.	St
+1.2.2	Do you have the latest drivers for that OS properly installed?	St
+1.2.3	You can check out troubleshooting and available drivers for different operating systems for your NetRaid 1si controller at this HP site .	St
+1.2.4	Hope this helps Frank	St
+1.3.1	It turns out that the SCSI cable I was using was for &quot;LVD&quot; devices and not &quot;SE&quot;, which is what I needed.	St
+1.3.2	Hopefully this was what was keeping me from getting things done, but I have to now wait for the cable to arrive in the mail (these 68-pin SE SCSI cables cost $60 or more locally, and $15 online!).	St
+1.3.3	The OS I plan to use is SUSE Linux, but without these drives working, I can't install it.	St
+1.3.4	Thanks Frank, Robbie	St

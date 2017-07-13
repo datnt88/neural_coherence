@@ -1,0 +1,52 @@
+1.1.1	First off, my hardware: AMD Phenom XII 955 no overclock Asus M4A79T Deluxe Mobo Corsair CMPSU-650 650w PSU VisionTek Radeon HD4870 512MB LG WH08LS20K 8x BluRay burner WD Caviar Black WD7501AALS 750GB 7200RPM HD Mushkin Blackline 4GB (2x2GB) DDR3 1600 SDRAM Encore ENLWI-N PCI 2.3 Wireless Adapter Monitor Vizio VX32L Windows 7 64-bit Norton AV My computer will freeze and become totally unresponsive, mainly when watching HD video on youtube, downloading torrent files via uTorrent, or if my background is set to a photo album and rotating pictures.	St
+1.1.2	Those are the 3 most common ways it will freeze right now, though it happens very occasionally other times.	St
+1.1.3	No error messages, the screen just freezes and I get static coming through my speakers.	St
+1.1.4	All of my drivers are updated, and in the past I have reformatted my HD for a fresh install, but still getting stuck.	St
+1.1.5	I can watch full 1080P video no problem in Media Player classic and Windows Media player, but when I try to stream anything in HD, I have problems.	St
+1.1.6	No issues watching youtube at 480p or lower, but if I dare click for 720P it will play for a little bit, maybe even make it through a whole video, but the inevitable always happens.	St
+1.1.7	I have tested the memory with Memtest86+, no issues there.	St
+1.1.8	I have also ran the trial version of PCMark Vantage and got a score of 7599.	St
+1.1.9	Nothing looks fishy from that, except it says my graphics memory is 1MB.	St
+1.1.10	If needed I can try to provide a link to the online results from that test.	St
+1.1.11	I am about to run 3D Mark Vantage also(trial version) but have a hard time believing it may be my video card, since I have no issue watching HD Video any other time other than in a browser and have no issue running the Unreal Editor Kit.	St
+1.1.12	I currently am running IE8, but have had the same issues with Firefox, actually seemed to have more issues with Firefox which is why I went back to rocking IE8.	St
+1.1.13	I also thought the problem somehow might be the wireless adapter couldn't handle the bandwith of HD video, so I plugged the computer directly into the router, and still had issues.	St
+1.1.14	I have also run CC Cleaner to fix any registry errors.	St
+1.1.15	I have to restart the system to be able to use it again.	St
+1.1.16	Anyone have any ideas?	St
+1.1.17	Any other tests I can run to find the problem?	St
+1.1.18	If more info is needed, I will post it right away.	St
+1.1.19	I would greatly appreciate any help.	Polite
+1.1.20	Thanks for your time.	Polite
+1.2.1	I would add more RAM if possible just to cover 64-bit capability.	St
+1.2.2	Plus, check cooling is well maintained.	St
+1.2.3	If no error pop-up, then the system is basically trying to keep up.	St
+1.2.4	The reason I mention more RAM is it becomes a buffer in order to handle the stream.	St
+1.2.5	While, I think your video card is capable, if its not well cooled, it will start to falter.	St
+1.2.6	Freezing PCs are hard to fix as no real clue is present.	St
+1.2.7	I would at least allow it to remain in freeze state and see if it recovers giving at least 10-15min.	St
+1.2.8	more before rebooting.	St
+1.2.9	You can check your error/event log and review it.	Sug
+1.2.10	http://www.windows7update.com/Windows7-Event-Viewer.html Further, the AMD cpu maybe at fault.	St
+1.2.11	Check online and see if yours has any history or patches that may cover the issue.	St
+1.2.12	Also, heat is very critical for AMD cpus and chipsets, so its a possibility as an issue.	St
+1.2.13	Also, is this direct or wi-fi connection?	St
+1.2.14	Why, because wi-fi connection can vary for whatever reason and could be hitting a sore point.	St
+1.2.15	tada -----Willy	St
+1.3.1	Thanks Willy, I will be checking all of that out today.	St
+1.3.2	I really appreciate the help!	Polite
+1.4.1	It is a wi-fi connection most of the tikme, but I have plugged in a hard connection and still had the same issues, so I assume my wi-fi isnt the problem.	St
+1.5.1	I checked the event log, to be honest, I am not real sure what I am looking for, though I thought I would be able to spot a problem if I saw one.	St
+1.5.2	It could be &quot;user error&quot; that I didn't notice troubling though.	St
+1.5.3	I am not too sure how to check my temps on the CPU, but was able to check my GPU and it runs between 75C-77C it seems.	St
+1.6.1	In the event log, look for any obivous clue.	St
+1.6.2	Since it freezes it won't be able to report but there's a chance it may.	St
+1.6.3	As for any heat issues, run the PC with cover off and fan blowing IN and see if it lasts longer or gets further before a freeze.	St
+1.6.4	I mentioned a possible AMD issue as together with the AMD chipset could be an issue, but check the AMD forum and query there and/or review what's posted.	St
+1.6.5	Also, you may want to &quot;repaste&quot; the cpu to HSF setup using the thermo paste like Arctic Silver for better operation instead of any &quot;thermal tape setup.	St
+1.6.6	Check Arctic Silver website for such details.	St
+1.6.7	tada -----Willy	St
+1.7.1	even when minimized.	St
+1.7.2	Is that GPU temp at idle ?	Ques
+1.7.3	If yes....I'd if there's a GPU utility that will increase the GPU fan speed to reduce the heat.	St
+1.7.4	VAPCMD	St

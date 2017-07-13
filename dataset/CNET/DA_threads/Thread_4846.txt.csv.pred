@@ -1,0 +1,86 @@
+1.1.1	Alright.	St
+1.1.2	I have an old Gateway desktop with AMD Athlon 800 MHz processor.	St
+1.1.3	Only 320 MB RAM.	St
+1.1.4	Onboard video and sound cards, etc.	St
+1.1.5	Everything is out-of-the-box from 1998.	St
+1.1.6	The &quot;out of the box&quot; hard drive is a 15GB drive.	St
+1.1.7	I have a second computer and a notebook that are nice, but I'm so proud that this old thing is still running.	St
+1.1.8	The small hard drive has been wiped and various versions of Windows have been reinstalled.	St
+1.1.9	I've tried all sorts of dual-boot combos with various versions of Linux and Windows.	St
+1.1.10	Every year or so, I wipe the drives and clean install a new experiment.	St
+1.1.11	I have added new hard drives and partitioned them in all sorts of ways.	St
+1.1.12	This is my play computer.	St
+1.1.13	I currently have a CD-RW and the original CD-ROM drive in the computer.	St
+1.1.14	This combination has worked for years.	St
+1.1.15	At some point (and I don't know when), both drives stopped working.	St
+1.1.16	They're recognized in My Computer, Device Manager, etc, but when are selected, error msg says, &quot;please insert disc into drive.&quot; I put a DVD-ROM, another CD-ROM and another CD-RW in here, with all sorts of combos, and the same thing happens with ALL the drives, and several different data ribbons.	St
+1.1.17	None of the drives/cables work.	St
+1.1.18	At one point recently, my drives weren't recognized at all in My Computer, but after one reboot that changed.	St
+1.1.19	I have un-installed and re-installed the drivers, Windows drivers and the manufacturers' drivers.	St
+1.1.20	I have confirmed the secondary IDE channel IRQ is set to 15.	St
+1.1.21	I have confirmed that the drives are enabled in BIOS (and settings are config'd to &quot;autoselect.&quot;) I have set the jumpers to cable select and the correct master/slave config.	St
+1.1.22	I checked that config.sys has &quot;lastdrive=z,&quot; but my last drive letter is E: so that doesn't matter anyway.	St
+1.1.23	I have reseated the power and data cables numerous times in the tower.	St
+1.1.24	I may have tried other things that I cannot remember now.	St
+1.1.25	I cannot figure this out, someone please help.	St
+1.1.26	Thing that bothers me is, I currently have reinstalled Windows and have 1 hard drive with two logical partitions (ME, 2K) and one drive with XP.	St
+1.1.27	Is there anyway that there are conflicts in the OS?	St
+1.1.28	Could it be that the controller on the motherboard is just bad?	St
+1.1.29	Is it exhausted?	St
+1.1.30	There are no broken/missing pins, it appears okay.	St
+1.1.31	Any help is greatly appreciated.	St
+1.2.1	If Win 2K or XP....what does disk management show ?	Ques
+1.2.2	How about the CD firmware...up to date ?	Ques
+1.2.3	Sure the CDs are on a 80-wire, 40-pin cable ?	Ques
+1.2.4	If not might go back to master and slave.	St
+1.2.5	And try one drive at a time.	Sug
+1.2.6	If possible make sure their working on another PC to be sure.	St
+1.2.7	VAPCMD	St
+1.3.1	http://www.pcworld.com/article/id,109710/article.html	St
+1.4.1	You did try a new shiny 80 conductor cable?	St
+1.5.1	Please check both your autoexec.bat and config.sys files if using this with win98 or later versions of windows and make sure there are no references to mscdex or any device driver for a cd drive in either of them.	Sug
+1.6.1	I have tried the drives in a working computer, and all four of my drives DO work.	St
+1.6.2	I re-installed the firmware on two of my drives when I reinstalled the drivers.	St
+1.6.3	I also unplugged everything but one hard drive and one cd-rom, to see if I had a power supply going bad, but it still didn't work.	St
+1.6.4	I put a cd-rom drive as slave behind my hard drive (on primary IDE channel), and it still didn't work, so I'm guessing it isn't the controller.	St
+1.6.5	I am using 40-pin cables.	St
+1.6.6	I just checked the config.sys and autoexec.bat and there's no reference to mscdex.	St
+1.6.7	But...	St
+1.6.8	I put the files from my XP cd on my usb jump drive, and copied them to c: Then, I formatted one hard drive and clean-installed XP on it, using the copy.	St
+1.6.9	When I booted from the clean drive, one of my cd-rom drives works!!!	St
+1.6.10	I haven't tried the other three yet, but I'm guessing that it is an OS issue, which has been fixed.	St
+1.6.11	I'll post again if I find solution or if it breaks again.	Sug
+1.6.12	Thank you all for the suggestions.	St
+1.6.13	I've learned more than I ever cared to know about IDE connections!	St
+1.7.1	Another thing...test each CD separately to make sure they both work and then jumper them to work on the same cable.	St
+1.7.2	Believe the cable select setting (CS) requires an 80-wire, 40-pin cable (as opposed to the 40-wire, 40-pin cable) ... the link below clearly illustrates the difference.	St
+1.7.3	http://www.mikeshardware.com/howtos/howto_connect_ide_hd.html VAPCMD	St
+1.8.1	Because of the difference between 40 and 80 pin cable this ONLY works, when it works, to solve CD drive conflicts using 40 pin cables.	St
+1.8.2	Drives to master/slave settings, then plug the MIDDLE plug to the motherboard and each end to a drive.	St
+1.8.3	Of course placement of the drives may not allow the shorter end to reach.	St
+1.8.4	It gives both drives direct access to the port on the mobo and cuts down on any cross cable electrical interference between the drives.	St
+1.9.1	How to enable the second ide in two steps.	St
+1.9.2	1.	St
+1.9.3	Install the motherboard chipset drivers.	St
+1.9.4	2.	St
+1.9.5	Turn on the secondary IDE channel in the device manager.	St
+1.9.6	Since you've been using this for 10 years I hope these are all the clues you need.	St
+1.9.7	Bob	St
+1.10.1	I didn't know that about 80-wire v 40-wire cables.	St
+1.10.2	Also, I never thought about using the &quot;slave&quot; connector directly into the mobo and the ends of the cable for the drives.	St
+1.10.3	But it's working now, so I won't play with it anymore.	St
+1.10.4	I got a cd-rom and cd-rw working together.	St
+1.10.5	I usually only use cable select, but I used master/slave.	St
+1.10.6	Once it was all working, I replaced the cd-rom with a dvd-rom drive, and I had problems booting the computer.	St
+1.10.7	Instead of trying to fix it, I just unplugged the dvd-rom, and it booted fine.	St
+1.10.8	May be a power issue.	St
+1.10.9	But I'm not concerned with getting the dvd-rom working on this computer, I don't use it on this old p.o.s.	St
+1.10.10	Thank you for all your help.	St
+1.10.11	This was my first ever posting to a forum, and honestly, I didn't want to have to post - I wanted to figure it out myself.	St
+1.10.12	Thank you!	St
+1.11.1	I get it now, I wasn't thinking!	St
+1.11.2	80-wire, like the hard drive cables, duh!	St
+1.11.3	I didn't realize that's what you were talking about - I didn't use an 80-wire cable for the cd drive, I never even considered it.	St
+1.11.4	I do think I was having conflicts in the OS, but now that I've wiped the hard drives and re-installed, everything is great.	St
+1.12.1	there is no need to connect it to the drive.	St
+1.12.2	Invest in a couple cables &gt; $10.00 a piece.	St

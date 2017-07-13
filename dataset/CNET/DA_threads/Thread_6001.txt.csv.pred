@@ -1,0 +1,128 @@
+1.1.1	I have been having intermittent problems with my computer - stop errors for several different things, I uninstalled new programs that I thought might be causing the troubles, and often that solved the problem.	St
+1.1.2	Not sure if these are all related.	St
+1.1.3	I installed a demo version of stuffit to open a file someone sent me, and it created some conflicts - so I took it off.	St
+1.1.4	Then webroot began having some problems with definition updates.	St
+1.1.5	Then began doing sweeps when I didn't ask it to, and didn't log that I had already done one two days ago.	St
+1.1.6	Yesterday, my computer crashed and I got messages of address line failure and that the system memory had changed.	St
+1.1.7	Then I got cryptic message that a valid definitions file could not be located.	St
+1.1.8	I looked at the event viewer and discovered that Webroot perhaps was the culprit, so I removed it.	St
+1.1.9	The system memory error messages stopped, and it appeared that things went back to normal.	St
+1.1.10	I did scans with avast and alwil they have found no viruses or problems with the system memory.	St
+1.1.11	My computer crashed again while I was working on photoshop (the only program running other than avast and zone alarm) this morning, and in the event viewer saw that there was an ftdisk error.	St
+1.1.12	Microsoft claims that they don't have any information about it and googling the error brings up too many different fixes that involve a lot of work - I'd like to see if I can narrow it down a bit.	St
+1.1.13	There are suggestion from memory stick to power supply failure, to boot-sector viruses.	St
+1.1.14	The power supply and mother board battery were replaced within the last year.	St
+1.1.15	I am working with XP on a Dell Dimension 8200.	St
+1.1.16	I realize that it's an older model, and will be buying a new computer next year - I just can't do it right now.	St
+1.1.17	And yes, I've backed up.	St
+1.1.18	Many thanks, Adrienne	St
+1.2.1	Yesterday (didn't see this) The system failed to flush data to the transaction log.	St
+1.2.2	Corruption may occur.	St
+1.2.3	Today x2 Configuring the Page file for crash dump failed.	St
+1.2.4	Make sure there is a page file on the boot partition and that is large enough to contain all physical memory.	St
+1.3.1	The causes are many from heat, bad ram, bad motherboard, failing hard disk and of course various infections.	St
+1.3.2	You didn't tell how long it's been since you cleaned the inside of this PC so let's take a shot at the heat issue.	St
+1.3.3	Does leaving the cover off help?	St
+1.3.4	Bob	St
+1.4.1	Was cleaned about 4 months ago.	St
+1.4.2	Will try taking the cover off while I'm working today.	Sug
+1.5.1	When I googled the entire error message, Microsoft spit out a page saying to increase the virtual memory (mine was at 2000MB, and I increased it to the maximum 4000 something), and to to turn off the memory dump file.	St
+1.5.2	While increasing virtual memory doesn't seem like it would be a bad thing, I'm not sure why I have a memory dump file.	St
+1.5.3	Is there anything hurt by either?	St
+1.6.1	I guess I don't really understand about dump files and page files, in other words.	St
+1.7.1	Sadly a failing hard disk.	St
+1.7.2	Or something that is causing disk reads or writes to fail (heat does that as well as power supplies, etc.)	St
+1.7.3	The current wisdom with XP and beyond is to &quot;let Windows manage it.&quot; Read more about this at http://www.aumha.org/win5/a/xpvm.php Bob	St
+1.8.1	I opened my box as you suggested, and then decided that increasing the virtual memory at the same time would not tell me whether it's a heat problem.	St
+1.8.2	But not before I opened photoshop and did some work (I forgot I'd changed it).	St
+1.8.3	When I put the memory down to what it's been at, photoshop hung.	St
+1.8.4	No crashes, but I could barely get out of PS.	St
+1.8.5	So then the question is, for a memory-intensive program like photoshop (or running several different things like computer protection, skype, firefox, etc., is 2000 MB too little?	St
+1.8.6	Could that be the problem?	St
+1.9.1	Would that maybe point to a problem with one of the memory sticks?	St
+1.9.2	As a note, I replaced my hard drive about a year ago after it died.	St
+1.9.3	If another drive goes, I wonder if there's something going on with the mother board that could corrupt a drive?	St
+1.9.4	As I mentioned, the power supply was also replaced.	St
+1.9.5	This was a good computer for about 4 years.	St
+1.9.6	But maybe I won't go with Dell next time around.	St
+1.9.7	Golems in the gears.	St
+1.10.1	For XP, Vista we let it manage it.	St
+1.10.2	Even with your noted application.	St
+1.10.3	As to the Dell comment, ALL makers were hit with the issue noted at http://news.cbsi.com/PCs+plagued+by+bad+capacitors/2100-1041_3-5942647.html so to pan Dell for a machine past 4 years old...	St
+1.10.4	There are other issues such as fans that slow with time, etc.	St
+1.10.5	But no maker would be immune here.	St
+1.10.6	Sorry but so far the clues only point to possible heat issues.	St
+1.10.7	Bob	St
+1.11.1	No crashes yesterday!	St
+1.11.2	Yay!	St
+1.11.3	My fresh start this morning produced no errors.	St
+1.11.4	However, after about an hour Microsoft gave me updates, and I restarted.	St
+1.11.5	Got the following errors: Configuring the Page file for crash dump failed.	St
+1.11.6	Make sure there is a page file on the boot partition and that is large enough to contain all physical memory.	St
+1.11.7	The Eplpdx02 service could not be started.	St
+1.11.8	DCOM got error &quot;The service database is locked.	St
+1.11.9	&quot; attempting to start the service netman with arguments &quot;&quot; in order to run the server: {BA126AE5-2166-11D1-B1D0-00805FC1270E} DCOM got error &quot;The service database is locked.	St
+1.11.10	&quot; attempting to start the service iPod Service with arguments &quot;&quot; in order to run the server: {063D34A4-BF84-4B8D-B699-E8CA06504DDE} And actually two of the last three are driver errors that I get intermittently (dont' know what netman is).	St
+1.11.11	Although I've followed directions to try to get rid of them, I've had no luck.	St
+1.11.12	I have the computer open and still getting the ftdisk error this morning - but it could be heat related.	St
+1.11.13	Thankfully, no crashes since I opened the box, even though I've deliberately not held myself back from opening programs as I need them.	St
+1.11.14	If there is one silver lining, increasing the virtual memory has erased the problem I had with photoshop and page maker being finicky to use at the same time.	St
+1.11.15	Any ideas about the error messages being related or not?	St
+1.11.16	Many thanks.	St
+1.12.1	http://www.google.com/search?q=Eplpdx02 If you can live without iTunes I'd uninstall that till the machine issues fade.	St
+1.12.2	Bob	St
+1.13.1	Well, maybe someday they will fade.	Sug
+1.13.2	Thanks for the help - I guess I'm on the road to some sort of answer now.	St
+1.13.3	Perhaps ultimately to ditch this computer and get a new one that doesn't hiccup every time I look at a new program.	St
+1.13.4	(Though I imagine that's a perennial problem with all computers.)	St
+1.13.5	Thanks again for your help.	St
+1.13.6	At least I got the newsletter out without my computer dying - and that's a good thing!	St
+1.13.7	Adrienne	St
+1.14.1	Last night I see there were two warning messages: The system failed to flush data to the transaction log.	St
+1.14.2	Corruption may occur.	St
+1.14.3	The time service has not been able to synchronize the system time for 49152 seconds because none of the time providers has been able to provide a usable time stamp.	St
+1.14.4	The system clock is unsynchronized.	St
+1.14.5	This morning I got black screened, and upon manual shut down and restart I got the following message: Memory read/write failure at OA824364, read 8260882D expecting 826D826D.	St
+1.14.6	Decreasing available memory.	St
+1.14.7	Memory address line failure at )A380000, read 00000000 expecting 7C7C7C7C.	St
+1.14.8	Decreasing available memory.	St
+1.14.9	The amount of system memory has changed.	St
+1.14.10	When I asked it to start normally, it behaved like a computer with limited memory - working very slowly.	St
+1.14.11	I restarted and got the same message as last time: Amount of system memory has changed.	St
+1.14.12	I started normally.	St
+1.14.13	Although the computer appears to be working at normal speed again, my task bar is white and the text is another font.	St
+1.14.14	The temperature is about 75 degrees.	St
+1.14.15	I don't know if the temperature yesterday would have anything to do with it, but it was working fine when I went to bed.	St
+1.14.16	My gut is giving me a bad feeling about this - that it may indeed be the memory sticks.	St
+1.14.17	Hope you're still tracking this discussion and would be grateful for any input.	St
+1.14.18	Thanks.	St
+1.15.1	That memory failure could be the real reason for all your troubles.	St
+1.15.2	If you added memory then remove those sticks.	St
+1.15.3	The &quot;time service&quot; entry can be ignored.	St
+1.15.4	I'll decline a long explanation.	St
+1.15.5	Back to memory.	St
+1.15.6	Try this test -&gt; http://www.google.com/search?hl=en&q=MEMTEST86&btnG=Google+Search bOB	St
+1.16.1	Memtest 86 can be had for about $11 and you have to wait for it in the mail.	St
+1.16.2	Memtest86+ is free and down-loadable.	St
+1.16.3	Do they do essentially the same thing?	St
+1.17.1	They don't know how to create the boot CD or diskette.	St
+1.17.2	Bob	St
+1.18.1	You just install it to the CD or DVD.	St
+1.18.2	Or is there something I don't know?	St
+1.19.1	Remember that there are all skill levels out there.	St
+1.19.2	There are those that can't use downloads at all since it may require one to unzip, install or make a diskette or CD.	St
+1.19.3	This is why you see such for sale.	St
+1.19.4	Hope that clears that question up.	St
+1.19.5	Bob	St
+1.20.1	Thanks!	St
+1.21.1	What a great program!	Polite
+1.21.2	It was bad memory.	St
+1.21.3	I couldn't find a page that explains what all the data was (if you know of a link, I'd be interested in reading it), but it was clear enough that something was awry with 3-7000 errors per sweep and at least 20 notations of bad ram.	St
+1.21.4	Instead of trying to figure out which stick was bad though, I decided to replace.	St
+1.21.5	Given that I will not be able to buy a new computer in the next year or at worst maybe two or three, I decided after seeing the RDram prices that buying without upgrading would not be so smart.	St
+1.21.6	2.2 GHz is still a pretty decent speed for an old model, and I found a semi-okay price for a 2G set.	St
+1.21.7	Throwing $500 into an old computer might seem excessive, but I can't tell you how pleased I am - I'm working on an image-packed publication right now, and this computer sings!	St
+1.21.8	I don't have to reinstall or transfer anything, I can sit back while the rest of the world works out the Vista bugs, and I'm not adding to the mountain of discarded hardware (yet).	St
+1.21.9	God willin' (if something else doesn't go wrong), someday we can make this sweetie into a server or have an extra computer for someone else to use.	St
+1.21.10	Thanks for all your help.	St
+1.21.11	Adrienne	St

@@ -1,0 +1,38 @@
+1.1.1	Hi, I got a new Sapphire Radeon HD5670 1GB GDDR5 but it won't work.	St
+1.1.2	I wanted to upgrade my old graphic card to HD5670 but there must be some compatibility problem with my motherboard (ConRoe945g-dvi, PCIe x16).	St
+1.1.3	Would you have any advise how to solve this problem ?	Ques
+1.1.4	Do I have to change some settings in BIOS or something?	St
+1.1.5	The card seems to be ok as when the DVI cabel is connected the massage on the screen is changing from &quot;no DVI cable connected&quot; to &quot;Power saving mode&quot;( something like &quot;stanby&quot; mode).	St
+1.1.6	Nevertheless when the system starts nothing is happening, the screen stays black.The fan on the card is moving as well.	St
+1.1.7	Maybe it is not possible to use my old motherboard with this new card.	St
+1.1.8	My system spec: Motherboard: ConRoe945g-dvi Precessor: Intel 6600@ 2.40GHz Memory: 4GB DDR II 667 PSU : 400W Please help.	St
+1.1.9	Thanks a lot	St
+1.2.1	http://www.tomshardware.com/reviews/radeon-hd-5670,2533-17.html This makes me wonder if the power supply Watts or RAIL came up short on Amperes.	St
+1.2.2	Did you (a) connect that power lead?	St
+1.2.3	(b) see if all rails had enough Amperes?	St
+1.3.1	Thanks Proffitt, could you please tell me how can i check if the rails had enough ampers?	Sug
+1.4.1	Copy here and post the numbers you find on the side of the power supply.	St
+1.5.1	There is a table: ------------------------------------------------------------ +3.3V | +5V | +12V | -5V | -12V | +5VSB ------------------------------------------------------------ 20A | 30A | 20A | 0.5A | 0,8A | 2.5A ------------------------------------------------------------ 400W	St
+1.6.1	Hi I have tried 2 new PSU, first one Colors 500W: http://www.amazon.co.uk/Colors-500W-...f=pd_rhf_p_t_1 didn't make any different.	St
+1.6.2	The second one Corsair 400W: http://www.newegg.com/Product/Produc...=skim769X53352 has made significant change to my system!	St
+1.6.3	The GXF still doesn't display anything on the screen but now, the windows XP doesn't starts at all!!	St
+1.6.4	When it gets to the point where the windows xp logo appears it restarting the system again.	St
+1.6.5	When I've came back to the old PSU and the old GFX the situation is the same it gets to the point where the windows xp logo appears and it restarting the system again.	St
+1.6.6	Do you know what is wrong now?	St
+1.6.7	?	Ques
+1.7.1	Goto http://www.pcpowerandcooling.com and use their calculator to figure what they recommend.	St
+1.7.2	You needn't buy from them but get an idea of what you need.	St
+1.7.3	Offhand, if the video card needs 100W and you install a 400W PSU, don't you think among all those power demands, that its weak.	St
+1.7.4	You're installing a high-end card which wants more than a typical PSU is outputting, so get what it needs.	St
+1.7.5	I can't stress how a decent PSU is vital to a stable system for now and later.	St
+1.7.6	IMHO, you have an unbalanced power system.	St
+1.7.7	While wattage is a good indicator of PSU rating, in your case, its the raw amps that are needed check the specs.	St
+1.7.8	tada -----Willy	St
+1.8.1	&quot;Radeon HD 5670 (single GPU) * The card requires you to have a 450 Watt power supply unit at minimum if you use it in a high-end system.	St
+1.8.2	That power supply needs to have (in total accumulated) at least 35~40 Amps available on the +12 volts rails.	St
+1.8.3	&quot; http://www.guru3d.com/article/his-radeon-hd-5670-iceq-review/5 Your PSU is listed at 20 Amps so it missed it by about half.	St
+1.8.4	If your card is bad or there is a missing cable even a proper power supply won't fix this.	St
+1.8.5	But where are you shopping and why are they not pointing this out?	St
+1.8.6	Bob	St
+1.9.1	I just installed a Sapphire Radeon hd 5670 1GB DDR5 HDMI in my PC: ZT Sysytems 7391Mi Intel i7 Processor 870 (2.93GHz) 8GB DDR3RAM sataII 1.5TB HDD ati 4350 video card 350watt (400watts peak) Delta PSU Windows 7 64bit Home Edition.	St
+1.9.2	********************************************** specs from PSU voltage current frequency 115/230 10a/5a 50-60mhz +3.3 +5 12v1 12v2 18a 25a 16a 2.5 139 watts max 18a max *************************************** 3D business graphics and gaming graphics score increased from 3.9 to 7.0. the power calculator at eXtreme Power Supply Calculator Lite v2.5 http://extreme.outervision.com/PSUEngine estimate's the PC is using about 239watts and recommends a PSU of 289watts.	St

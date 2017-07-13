@@ -1,0 +1,104 @@
+1.1.1	My wife has a Compaq 2596US laptop running WIN XP Home, which came with a wireless Broadcom adapter (card?	St
+1.1.2	what do you call it?)	St
+1.1.3	built in.	St
+1.1.4	We have a D-Link DI-624 router and cable internet.	St
+1.1.5	If the laptop is connected via cable, everything is fine.	St
+1.1.6	However, if we try to use wireless connectivity, the laptop reports &quot;excellent&quot; signal strength.	St
+1.1.7	After about 2 minutes, however, it reports that there is NO signal.	St
+1.1.8	A few seconds to a minute later, it tells us &quot;Oh, look; I've detected a wireless signal with 'excellent' strength.&quot; This on-again off-again cycle is repeated until we give up and run a cable.	Sug
+1.1.9	We have the latest firmware for the NIC and the router.	St
+1.1.10	The &quot;help for idiots&quot; supplied by the ISP says the computer cannot obtain a valid IP address from the server, and says the problem might be in the cable connections, the modem, or the NIC.	St
+1.1.11	The laptop says the wireless NIC is just fine, thank you.	Polite
+1.1.12	HP/Compaq has a wireless setup wizard, which we attempted to run.	St
+1.1.13	It told us that it couldn't help us because we didn't meet the &quot;minimum configuration&quot;, but didn't mention what it found lacking.	St
+1.1.14	Via e-mail, HP takes one of three routes: either 1] download and install the patches for the wireless NIC; 2] it is the router's fault; or 3] they don't respond at all.	St
+1.1.15	D-Link says they can't see anything in the router, and suggests that we either call HP/Compaq or get another wireless device and if IT also has problems, to call them back.	St
+1.1.16	If anyone can suggest a fix, we would be very appreciative.	St
+1.1.17	Thanks!	St
+1.2.1	1.	St
+1.2.2	The router has current (latest) firmware.	St
+1.2.3	2.	St
+1.2.4	You've tried it without WEP, WAP, MAC filtering.	St
+1.2.5	3.	St
+1.2.6	You've tried another router.	St
+1.2.7	4.	St
+1.2.8	The machine has no spyware.	St
+1.2.9	Bob	St
+1.3.1	Thanks for the reply.	St
+1.3.2	I'm afraid that I need more help: 1 -- router has latest firmware 2 -- I don't understand this one: what are they and I do I try it without them?	St
+1.3.3	3 -- No: I don't have another router to try.	St
+1.3.4	4 -- Correct, per Spybot A&D and Hijack This!.	St
+1.3.5	Thanks, Mark	St
+1.4.1	These are settings in the router and ... written about in its manual.	St
+1.4.2	For a test run, I always turn such off (see manual or http://money.howstuffworks.com/wireless-network5.htm ).	St
+1.4.3	I've run into routers that don't work with all cards.	St
+1.4.4	It's becoming a fact that the person servicing such networks will &quot;have a spare&quot;.	St
+1.4.5	Bob	St
+1.5.1	Hi Mark3316, I just purchased a Compaq R3000Z laptop with the built in Broadcom wireless.	St
+1.5.2	I received it yesterday and have been having the same issue.	St
+1.5.3	I spent 2 hours on the phone with tech support tonight.	St
+1.5.4	We went thru all the normal things with no luck.	St
+1.5.5	The tech put me on hold for about 10 minutes.	St
+1.5.6	When he returned, he told me that this is a known bug with the built in Broadcom wireless and Windows XP SP2.	St
+1.5.7	Do you have SP2 installed?	St
+1.5.8	Mine came with it pre-installed.	St
+1.5.9	Unfortunatly, the tech could not find the 'patch' he wanted.	St
+1.5.10	We tried one but it did not help.	St
+1.5.11	He's going to do more research and call me tomorrow around 4pm Eastern US time.	St
+1.5.12	I'll post the results in case they help you.	St
+1.6.1	I just so happen to have 2 R3000's with the broadcom cards and ... SP2.	St
+1.6.2	It works just dandy everywhere I go.	St
+1.6.3	Very odd.	St
+1.6.4	Bob	St
+1.7.1	This is my second R3000.	St
+1.7.2	I bought one about 6 months ago and then a new one 2 days ago.	St
+1.7.3	From what I can see in the system information (Sandra), it looks like the Broadcom chips are different.	St
+1.7.4	The first R3000 has worked perfectly since I got it.	St
+1.7.5	I'm expecting a call from HP tech support around 4pm today, so we'll see if the tech knows what's talking about.	St
+1.7.6	I was suspecting a bad wireless card until I found the posting from Mike and talked to tech support.	St
+1.7.7	I'll keep you informed.	St
+1.8.1	I worked with a tech tonight who had me make a change to the boot.ini file.	St
+1.8.2	Once I did that and rebooted the machine.	St
+1.8.3	The problem seemed fixed.	St
+1.8.4	The change was to add the /execute=optin parameter.	St
+1.9.1	I've heard of such an issue, but in every case it shows faults in the driver code for the product and not a flaw in XP.	St
+1.9.2	I agree that its a valid fix till new drivers arrive.	St
+1.9.3	Bob	St
+1.10.1	I wouldn't be surprised if it was the driver.	St
+1.10.2	At one point the tech had me load the newest driver he could find which was dated March 16th,2005.	St
+1.10.3	It didn't help, but it certainly indicates that they are upgrading the drivers.	St
+1.10.4	Thanks for your help Bob.	Polite
+1.10.5	Jim	St
+1.11.1	Hi : could you tell us exactly which boot.ini file, and does that go on a line by itself or at the end of some other line?	Sug
+1.11.2	I have a new R3430US with XP SP2 and it can see the neighbor's Linsys router but not my Netgear one... Dave	St
+1.12.1	Hi Dave, I don't have the details with me right now, but I'll try and post them later.	St
+1.12.2	I can say that the parameter is on a pre-existing line that specifies the operating system also.	St
+1.12.3	The symptom I saw was that the tcpip service kept stopping and restarting.	St
+1.12.4	I could always see my router.	St
+1.12.5	I just could not stay connected to it.	St
+1.12.6	Sounds like your problem may be different.	St
+1.12.7	Is your router set to broadcast it's SSID?	Ques
+1.12.8	I found HP's support to be very good.	St
+1.12.9	This was the first time I used them, but they didn't give me the run around and got to the problem.	St
+1.12.10	I had to have them call me back because they couldn't find the solution right away, but they did have something within one day.	St
+1.12.11	Jim	St
+1.13.1	My problem probably is different: my new R3240US can see the SSID from my neighbor's Linksys router, but not the one from my own Netgear WGT634U, which I know is working with another notebook with a Netgear wireless card.	St
+1.13.2	HP did answer within an hour, but only to suggest I check the router to be sure it is compatible with the Broadcom b/g card in the notebook, which of course it is.	St
+1.13.3	I thought if your fix was easy, I'd try it.	St
+1.14.1	Gagco, thanks for the information.	Polite
+1.14.2	The folks I got hold of at HP tech support were obviously heading down the driver path, but when I told them that I [at that time] had the newest drivers, they lapsed into &quot;well, then it isn't our problem&quot; mode.	St
+1.14.3	My wife currently has the laptop and she is off giving presentations at a couple of seminars.	St
+1.14.4	She informs me that at the seminar sites and hotels she has stayed at, she has stayed connected to the various wireless networks without problem.	St
+1.14.5	Of course, at the seminar sites there has been a &quot;tech guy&quot; to get her connected, so I don't know what setup they are using.	St
+1.14.6	RProffitt, I'm sure that people whose occupation involves servicing networks have spare routers they can swap in.	St
+1.14.7	Since I don't do that for a living, I can't see going out and buying extra hardware to use as a test bench.	St
+1.14.8	It is hard for me to believe that many people would have &quot;spare&quot; routers, wireless cards, or whatever if they are just trying to get a home network set up, and I assume that from my posts you didn't mistake me for a network administrator or IT professional, so I am puzzled by the assumptions you seem to be making, and the unexplained jargon you use, in your posts.	St
+1.14.9	Regarding your first response to my original post, I did have WEP, WAP, etc turned off.	St
+1.15.1	Hi, I had exactly the same problems, due to SP2.	St
+1.15.2	What's strange is that the problem only manifested itself on certain routers.	St
+1.15.3	Ok anyway, the solution was to go to My Network Places, and on the left click &quot;Hide icons for networked UPnP devices&quot;.	St
+1.15.4	There is probably another way to disable this constant searching, but using the common task pane worked for me.	St
+1.15.5	Hope it helps someone.	St
+1.16.1	Also had to switch my router (by visiting 192.168.0.1 in the browser) to use the correct channel.	St
+1.16.2	My previous laptop wireless card was intelligent enough to switch/scan channels.	St
+1.16.3	This one kept reverting to 11 when the router was set to 10.	St

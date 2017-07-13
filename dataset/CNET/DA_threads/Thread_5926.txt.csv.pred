@@ -1,0 +1,211 @@
+1.1.1	I have four IDE drives.	St
+1.1.2	A CD-Rom drive, DVD RW, Zip drive, and a hard disk drive.	St
+1.1.3	The motherboard is a PC Chips T18 Intel 915P.	St
+1.1.4	It has three IDE slots.	St
+1.1.5	If i plug two into my first it will recognize the two drives.	St
+1.1.6	However, the other two will not recognize anything.	St
+1.1.7	The Instruction manuel says those two are optional, but nothing in the CMOS setup will get me going with them.	St
+1.1.8	can someone help me, please?	Ques
+1.2.1	the BIOS for the IDE ports set properly.	St
+1.2.2	I note that the second and third ATA ports are for a RAID setup.	St
+1.2.3	They can also POSSIBLY be set up for normal ATA, but it is usually confusing as heck to set them properly.	St
+1.3.1	manual.	St
+1.3.2	There is a setting to make to use the RAID ports as normal IDE.	St
+1.3.3	Also some limits if using Win98 or ME	St
+1.4.1	I'm pretty sure you are right about the RAID.	St
+1.4.2	Is there any way around this?	Ques
+1.4.3	Or can I convert that to SATA?	St
+1.4.4	I hope I'm not screwed	St
+1.5.1	the RAID manual also??	St
+1.5.2	It confuses me totally.	St
+1.5.3	Would take a little time to digest.	St
+1.5.4	A couple things to think of; SATA drives are also called IDE.	St
+1.5.5	Optical drives are ATAPI drives.	St
+1.5.6	I had one computer where the RAID controller could be set to run hard drives in the normal mode, but it would not accept ATAPI drives on those ports.	St
+1.5.7	My guess is that getting the bIOS set up properly could be the issue.	St
+1.5.8	Remember the second and third IDE ports are controlled from the separate SIS controller, not the Intel.	St
+1.6.1	I was able to change the RAID to ATA/ATAPI and I got the cd/dvd drives detected.	St
+1.6.2	I went to load windows and it stopped due to an error with the hard drive.	St
+1.6.3	Said check for corruption or viruses, but everything is brand new.	St
+1.6.4	Does it need to be formatted or something?	St
+1.6.5	So far you've been a great help.	St
+1.6.6	As far as a RAID manuel there was none.	St
+1.7.1	The windows will take care of formatting;enter BIOS setup and disable virus check.Save the configuration, reboot and you should be able to install windows	St
+1.8.1	In the BIOS there is no mention of anything virus.	St
+1.9.1	Is this a brand new unformatted drive.	St
+1.9.2	What Operating system are you going to use??	St
+1.9.3	If it is Win XP it will let you do all of that during the installation from the CD.	St
+1.9.4	The XP CD is bootable.	St
+1.9.5	Before starting, go into the BIOS and set boot from the CD as the first item in the boot sequence in the bIOS.	St
+1.9.6	It could be second as long as you don't accidently leave a floppy disk in the floppy drive.	St
+1.9.7	LOL The comment by lions is that in most BIOSs there is a setting to enable virus protection.	St
+1.9.8	It is for the sole purpose of letting youi know if something tries to write to you MBR [Master Boot Recrd} most people leave it disabled.	St
+1.9.9	There are some legitimate actions that write to the MBR, so the notice can be annoying [or confusing].	St
+1.10.1	a copy of it from the PC Chips site.. No use getting it if you are not going to use RAID.	St
+1.10.2	I assume that you will install the operating system on the PIDE drive [P = parallel, as opposed to SATA IDE].	St
+1.10.3	If that is so you can wait to install the mobo drivers that will allow you to use the SATA ports when you get s SATA drive.	St
+1.10.4	If you were going to install to a SATA there is a step in the XP installation that allows you to install the SATA/RAID/SCSI et al drivers.Otherwise you can install all of the mobo drivers after XP is installed.	St
+1.10.5	The XP Cd will allow you to Partiton the drive, format the partitons, choose to format in FAT32 or NTFS.	St
+1.10.6	If you use FAT 32 and format using mthe XP CD you are limited to a 32 GB partition for each logical drive in FAT 32.	St
+1.10.7	If you have a large drive and want a FAT32 partiton larger than 32 GB you then format using a boor floppy abd FDISK and format.	St
+1.10.8	You can then install XP on the partition when the install CD sees the partiton.	St
+1.11.1	I'm using Windows XP.	St
+1.11.2	When windows was starting up after it loads a little it comes up with a blue screen.	St
+1.11.3	Mentions it had to stop due to error in the hard drive, may have virus or maybe corrupted.	St
+1.11.4	It says to take it out and check it.	St
+1.11.5	It also says something about run chkdsk/ F. I have no idea what that means	St
+1.12.1	this specific aspect, because I think that since you haven't fully installed XP, I'm not sure how you run chkdsk.	St
+1.12.2	The slash F means to fix any problems found by chkdsk [without asking you].	St
+1.12.3	I think what you need to do is start the install again and see if it offers to let you get to the Recovery console.	St
+1.12.4	If you can get into that, you will type the command in that they gave [space before the slash] and hit enter.. Recovery console looks a lot like DOS, but doesn't have as much capability as DOS had.	St
+1.13.1	Check to make sure the drive is properly configurated and terminated.	St
+1.14.1	After if loads up all the hardware stuff at the bottom of the screen it will say starting windows and then the error page occurs.	St
+1.14.2	I haven't see it say anything about recovery mode.	St
+1.15.1	to a SCSI drive, but the cable would be different.	St
+1.15.2	Possibly you have the drive jumpered improperly.	St
+1.15.3	What make of drive is it.	St
+1.15.4	If Western Digital, jumpering is confusing, unless you have it set for cable select {CS}.	St
+1.15.5	If it is set to CS and you are using the 80 conductor cable, you must have the cables connected properly there is only one correct configuration, the Blue to the mobo, the grey [middle one as the slave and the end one black must be the master.	St
+1.16.1	the hard drive is a hitachi 7200 rpm 250GB.	St
+1.16.2	I'm pretty sure the Jumper is on Master.	St
+1.16.3	I'm gonna check my IDE cables though cause its possible I have the middle on my hard drive.	St
+1.16.4	Which if its master than I would need the end.	St
+1.17.1	It seems that it may have gotten far enough so that if you start it again you may get the repair option, I think then if you elect repair, one option will be recovery console, but not sure.	St
+1.17.2	I have installed XP in six computers and never had a problem, so I haven't done any of these things.	St
+1.17.3	People in the XP forum should be able to help.	St
+1.17.4	Actually Robeert Proffitt would be a big help, but he may thing that I have things under control in this thread.	St
+1.17.5	I'll ask him to check in but he's an east coaster so may have gone for the night.	Sug
+1.18.1	If using Master and slave jumpering having the master on the middle connector should be OK.	St
+1.18.2	But under no conditions should you have nothing on the end connector.	St
+1.18.3	[Not a critical item, but the unterminated end can cause reflections] [just realized that it mentioned termination].	St
+1.18.4	Your drive is probably ATA 100 or 133.	St
+1.18.5	Probably best to set it to CS and put the boot drive on the end of the ribbon cable.	St
+1.19.1	I moved the IDe cable around the hard drive was using the middle.	St
+1.19.2	Now it is on the end of the cable, but i still get the same error.	St
+1.20.1	colors.	St
+1.20.2	I just looked at my stock.	St
+1.20.3	All of the round ones are the colors mentioned.	St
+1.20.4	However, I have three 80 conductor ribbon cables and they are different colors.	St
+1.20.5	However it is easy to tell which should go on the mobo, and the middle is always the slave and the end the master.	St
+1.20.6	Pretty simple in that on the slave pin 24 has no wire connected to it, while on the master pin 24 does have a wire connected.	St
+1.21.1	and what is on the slave ???	St
+1.21.2	They should both be jumpered as cable select.	St
+1.22.1	cable????	St
+1.22.2	Very important for that drive.	St
+1.22.3	Usually he mobo will complain in writing if you are not using the 80 conductor cable.	St
+1.23.1	I switched it to Cable Select.	St
+1.23.2	there is two different diagrams on the back of the Hard drive though.	St
+1.23.3	One for 15 head and one for 16.	St
+1.23.4	Either way it has 9 pins on the back.	St
+1.23.5	I'm not sure what an 80 conductor is but I'm using the cable that came with the mobo.	Res
+1.23.6	One also came with the Hard drive.	St
+1.23.7	I could switch those two around if it would help?	St
+1.23.8	The one with the hard drive is a flat ribbon cable while the one that came with the mobo is round.	St
+1.24.1	Does it have SP1 on it, SP2??	St
+1.24.2	Can you start the install again and have it remove all partitons and then start the install again.	St
+1.24.3	Normally it will check the quality of the partiton that it will install itself on before it actually writes to the drive.	St
+1.24.4	Do you have a Win 98 boot floppy?	St
+1.24.5	Maybe you can use that to remove any partitions on the drive to start over.	St
+1.24.6	Of course it won't be able to see the NTFS partition if one was created.	St
+1.24.7	Can you go to the Hitachi site and download their diagnostic tools?	St
+1.24.8	Put them on a floppy and they should thoroughly check the drive.	St
+1.25.1	I'm pretty sure no partitions were created at all.	St
+1.25.2	It's just a blue screen that says Windows setup in the top left corner and the bottom just reads off all the files it loads and when it is done loading files it says Starting Windows Setup... a couple seconds later I get the error screen.	St
+1.25.3	I don't have anything of floppy.	St
+1.25.4	Also if I put something on floppy off of Hitachi's website then I don't think I would be able to run that.	St
+1.26.1	have handled the 40 conductor ribbon cable recently you may not note the difference.	St
+1.26.2	They both use the 40 pin connector.	St
+1.26.3	They added 40 ground wires spaced between the signal wires to approximate a ground plane.	St
+1.26.4	This is to reduce noise, crosstalk and reflections due to the faster rates that data moves to and from these drives.	St
+1.26.5	The individual wires in the ribbon cable are obviously smaller in diameter ids the 80 conductor.	St
+1.26.6	Trying the ribbon may be worth a try.	St
+1.26.7	I had heard reports that some of the round ones are not as good as the ribbons with the fast drives.	St
+1.26.8	I have a friend that was having problems, and changed back from round to ribbon and the problems seemed to have gone away [they had been intermittent bad data].	St
+1.27.1	Mayvbe you could temporarily hook the drive up to that one, and use a Win 98 boot floppy or the Hitachi diagnostics??	St
+1.27.2	I made a post asking Robert Proffitt to check this thread.	St
+1.27.3	You probably won't hear from him until tomorrow eastern time.	St
+1.27.4	I work tomorrow, but will look in a little from there but have not much to offer.	St
+1.27.5	I have one that I would like call to check with, but she has gone to bed.	St
+1.27.6	I don't remember if a WIN98 boot disk has scandisk on it and whether you could run a thorough scan from it [if you had a computer with a floppy].	St
+1.27.7	Seems that things are pointing to some kind of drive problem.	St
+1.27.8	This is one of the times that a floppy drive can be a big help, even though they are virtually not used anymore.	St
+1.27.9	But one can get them for $10 and they sure can come in handy at a time like this.	St
+1.28.1	the computer I'm using right now has a floppy drive.	St
+1.28.2	I work tomorrow until 7 eastern time so around 4 your time?	St
+1.28.3	I'll check back in then.	Sug
+1.28.4	I don't have a Win98 disk.	St
+1.28.5	The only Diagnostics I could find wasn't for the model hard drive I have.	St
+1.28.6	Only Ultrastar.	St
+1.28.7	I have Deskstar.	St
+1.28.8	I'm pretty sure its 7K250 also.	St
+1.28.9	However there was Drive Fitness Test.	St
+1.28.10	Though it says that it can only be used with x86 processors.	St
+1.28.11	I'm running pentuim 3 on the one I'm using now.	St
+1.28.12	Thank you for all your help I appreciate it.	Polite
+1.29.1	All PC [IBM compatibles] are.	St
+1.29.2	I was wondering who IBM sold their drives to I couldn't remember whether it was Hitachi or Fujitsu.	St
+1.29.3	The &quot;STAR&quot; bit sounds like IBM.	St
+1.29.4	I remember them for the class action suit against them for the poor performance of their 75 GB et al drives.	St
+1.29.5	Forgot the model names but it did have star in it.	St
+1.29.6	Of course IBM vehemently denied that the drives failed earlier than any other type drives.	St
+1.29.7	But they did sell the business, now the PC's to the Chinese.	St
+1.29.8	I hope that your drive is not defective.	St
+1.29.9	I'm eastern time.	St
+1.29.10	NE PA.	St
+1.30.1	With all the trouble your having it might be easer to cut back to just the basics.	St
+1.30.2	One HD only as master drive on the the primary IDE channel.	St
+1.30.3	No other drives A CD drive only as master on the secondary channel.	St
+1.30.4	No other drives.	St
+1.30.5	And boot from the XP cd.	St
+1.30.6	Have the install program delete all paritions, then create a parition, format and then install XP.	St
+1.30.7	If the install goes ok, and reboots after you get to the normial desktop, then insatall the MB drivers.	St
+1.30.8	IF all goes well then shut down-power off an hook up your other drives.	St
+1.30.9	John	St
+1.31.1	better understanding of the jumpering of the Hitachi drive.	St
+1.31.2	Explain the nine pins please.	St
+1.31.3	Western digital drives were confusing because they used different jumpering if a drive was the Master with No drive on the slave, versus Master with a drive on the slave.	St
+1.31.4	Be certain of the jumpering.	St
+1.31.5	I believe that Robert thinks that you bought this as a system, thus return it under warranty.	St
+1.31.6	If you bought the stuff separately then you probably need to figure out what is wrong.	St
+1.31.7	To me, the drive jumpering is a possibility or the drive is defective.	St
+1.31.8	You should be able to test with the floppy system.	St
+1.31.9	No need to install the drive.	St
+1.31.10	Just use the cables power & ribbon from the Master to the Hitachi, laying on a piece of cardboard, or standing on edge.	St
+1.31.11	If the test is executing from the floppy it doesn't need the systems normal hard drive, just the CPU and Memory.	St
+1.32.1	there are 5 pins on top and 4 on the bottom.	St
+1.32.2	Then there is two different jumper diagrams for Master, Slave, and Cable Select.	St
+1.32.3	One says 15 head and the one says 16 Head.	St
+1.33.1	Read Heads, you got beaucoup platters.	St
+1.33.2	I'm going to the Hitachi site to see what they say.	St
+1.34.1	The correct model number?	St
+1.34.2	?	Ques
+1.35.1	what type XXXXstar drive is it??	St
+1.35.2	?	Ques
+1.36.1	3 read heads for the 160 GB version and 4 heads for the 250 GB.	Sug
+1.36.2	For the 250 therefore it stores data on both side of both platters.	St
+1.36.3	Have no idea about the other number, but I would choose the even number for the 250 based on the 3 fro the 160 and the 4 for the 250.	St
+1.37.1	Its a Deskstar.	St
+1.37.2	250 GB 7200 rpm	St
+1.38.1	Quick installation guide for the TK750 and K750.	St
+1.38.2	both say for jumepring master, with or without a slave on the same cable a to B and G to H. Is that what you have.	St
+1.38.3	It never discusses the 15 head vs 16 head in the manula.	St
+1.38.4	BTW I'm peed at you.	St
+1.38.5	I had some ham frying and forgot it to search Hitachi.	St
+1.38.6	Fried to a charcoal crisp.	St
+1.38.7	LOL	St
+1.39.1	I'm pretty sure I have the 7k250.	St
+1.39.2	for the 16 head it is a-b and g-h where 15 head a-c and g-h.	St
+1.39.3	I've tried them both for the master drive.	St
+1.40.1	what does the boot screen show as the hard drive???	St
+1.40.2	Model, location et al.	St
+1.40.3	I'm sure that you know that if you hit the &quot;Pause&quot; button when the boot screen comes up you can read it at your leisure.	Sug
+1.40.4	The lack of a floppy drive really limits any further troubleshooting to take a look at what is on the drive to find what may be the cause of the problem.	St
+1.40.5	Probably, two other things to try, get a floppy drive, or get/make a Knoppix CD.	St
+1.40.6	I'm not exactly certain how to use the Knoppix for the situation that the hard drive is in, put it may always come in handy.	St
+1.40.7	Here's a link to it.	St
+1.40.8	Robert is somewhat an expert in its use.	St
+1.40.9	http://www.knopper.net/knoppix/index-en.html I have no other ideas, except to check all connections over again.	St
+1.40.10	But please keep us informed with any progress or whatever.	Sug
+1.40.11	This is a very interesting case.	Polite
+1.40.12	http://www.knopper.net/knoppix/index-en.html	St
+1.41.1	i have a t18 mobo and i have the exact same problem, ive tried jumpers, switching the placement of the drives on the cables and switching up bios settings i cant get any other channels to work either	St

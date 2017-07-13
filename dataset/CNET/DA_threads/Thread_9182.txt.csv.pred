@@ -1,0 +1,26 @@
+1.1.1	Terabytes of NAS are great for backing up lots of stand-alone PCs on the network... but what about backing up the NAS?	St
+1.1.2	Say I'm using the MyBook (with it's vast storage) for a central network data warehouse.	St
+1.1.3	RAID will help with redundancy inside the MyBook box, so if one drive fails, the other will have a copy of the data.	St
+1.1.4	But what happens if the whole WD MyBook unit burns in a fire?	St
+1.1.5	I need another unit just like it somewhere else.	St
+1.1.6	But terabytes of data don't transfer quickly on a 100Mb network.	St
+1.1.7	Do you have a suggestion for how to maintain a replica of this huge drive somewhere else?	Ques
+1.2.1	&quot;terabytes of data don't transfer quickly on a 100Mb network.&quot; There is really no need to transfer such quickly.	St
+1.2.2	What matters is that whatever you do, it should withstand and be able to help you recover from the disaster you plan for.	St
+1.2.3	That is, if your building goes down in flames, is whisked away by hurricane or is submerged by flood whatever you do withstands those disasters.	St
+1.2.4	Many forget the disaster plan.	Sug
+1.2.5	This means that at some point you have to consider off site storage of what you can't lose.	St
+1.2.6	Bob	St
+1.3.1	good points... but what is the solution to large backups on a (relatively) slow backbone network?	St
+1.3.2	If the hardware only supports transfers of 5MB/sec (40mbps) you're looking at 18GB/hr (432GB/day), not exactly zipping along - and certainly not enough to backup a TB drive every night.	St
+1.3.3	Am I thinking about this wrong?	St
+1.3.4	Is there technology that helps?	St
+1.3.5	Differential backups maybe?	St
+1.3.6	But you still need full archives from time to time, eh?	St
+1.3.7	Help!	St
+1.3.8	!	St
+1.4.1	It will eventually get there.	St
+1.4.2	It's not as if you are creating 1TB a day so your sync or backup program should someday catch up.	St
+1.4.3	Look at SYNCBACK for example.	St
+1.4.4	It will only transfer the changed files.	St
+1.4.5	Bob	St

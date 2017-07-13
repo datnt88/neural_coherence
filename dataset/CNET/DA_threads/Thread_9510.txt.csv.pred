@@ -1,0 +1,86 @@
+1.1.1	I have an ancient scanner Genius Colorpage Vivid Pro II (Parallel Port) and it worked fine until my PC burned, so I was wondering how to make it work with my new configuration.	St
+1.1.2	In the past, I had a problem until I made it work in XP, but somehow I succeeded.	St
+1.1.3	I can't remember how to recreate that.	Ques
+1.1.4	It was like: a) I downloaded some drivers b) Or I used it's installation CD (which had drivers for Win98, not for XP) After my previous PC burned, I replaced almost everything: the MB, the RAM etc.	St
+1.1.5	The installation CD is lost since then.	St
+1.1.6	I'm now desperatly trying to make it work with my new configuration.	St
+1.1.7	I'm using XP again.	St
+1.1.8	I downloaded the drivers from the official site.	St
+1.1.9	There are no XP drivers available, only Win 98/ME and Win 2000.	St
+1.1.10	Google didn't help me much, the same drivers are all over the net.	St
+1.1.11	I installed the Win 2000 drivers.	St
+1.1.12	Now the scanner doesn't show in Corel Photopaint, ACDSEE, MS Paint or Irfanview.	St
+1.1.13	Also, its not displayed in the hardware manager.	St
+1.1.14	However, it shows signs of life in the test utility that comes with the drivers.	St
+1.1.15	This gives me hope that I can make it work again.	St
+1.1.16	When I press &quot;check scanner&quot; in the test utility it responds to the commands and it starts to work.	St
+1.1.17	But that's just a test, a preview.	St
+1.1.18	Though this is a 15 y.o.	St
+1.1.19	scanner, I would not like to throw it in the junk just because of a minor software problem.I dont use the pc for demanding tasks, so this scanner is good enough for me.	St
+1.1.20	I also tried a trick by adding a path to C:/Windows/Twain_32/Vivid in System Properties&gt; Advanced&gt;Enviroment Variables but it didnt work.	St
+1.1.21	Thats the path to the Twain driver.	St
+1.1.22	There's also a wiatwain.ds file in the Twain_32 folder if that helps.	St
+1.1.23	Thank you for your opinions.	St
+1.1.24	I would be also thankful if someone has the original installation CD, maybe that could help.	St
+1.1.25	OS: MS Win XP Pro Version 5.1.2600 Service Pack 3 Build 2600 CPU: Intel P G850 2.90 Ghz LGA1155 RAM: Kingston 2.048,00 MB MB: Gigabyte H61M-S2PV BIOS: American Megatrends Inc. FE, 21.06.2012 Graphics: NVIDIA GeForce 210 PCI	St
+1.2.1	http://drivers.softpedia.com/get/SCANNER-Digital-CAMERA-WEBCAM/GENIUS/GENIUS-ColorPage-Vivid-Pro-II-2k-XP-Driver.shtml OK, fixing this in Windows appears to be not possible since the instructions and CD are lost.	St
+1.2.2	You owned this so I won't write further about this or anything more about Windows.	St
+1.2.3	-&gt; http://manpages.ubuntu.com/manpages/raring/man5/sane-geniusvp2.5.html OK, that's good news.	St
+1.2.4	This scanner appears to have Linux Sane support.	St
+1.2.5	That means you can create a dual boot XP and Linux OS setup and get SANE to drive the scanner in Linux then put the scans in some common folder so when you boot XP, you can use the scans.	St
+1.2.6	Bob	St
+1.3.1	R. Proffitt, thanx for your quick reply.	St
+1.3.2	The driver that you linked does not work: http://drivers.softpedia.com/get/SCANNER-Digital-CAMERA-WEBCAM/GENIUS/GENIUS-ColorPage-Vivid-Pro-II-2k-XP-Driver.shtml I've already tried it and now I gave it one last try to make sure, but it wont work.	St
+1.3.3	You can find that same archive vp2w2k.exe all over the net on various drivers' sites.	St
+1.3.4	It's Win2000 driver, not XP.	St
+1.3.5	I understood your suggestion about the dual boot XP/Linux but Im not familiar with using Linux, so I'd preffer XP.	St
+1.3.6	As I said before, this scanner CAN work in XP.	St
+1.3.7	I made it work before, I just don't remember how.	St
+1.3.8	Now it responds to commands in the test utility that comes with the drivers, so I believe this is some minor issue.	St
+1.3.9	I'd be very thankful if someone keeps the original installation CD from 1999.	St
+1.3.10	It was green and beside the drivers it also had some Photosuite application.	St
+1.3.11	Maybe that'd work, I dunno.	St
+1.4.1	But since I owned a few parallel port scanners years ago I too can't remember all the steps.	St
+1.4.2	However I don't know Linux.	St
+1.4.3	I use it.	St
+1.4.4	But then again I'm fibbing a little here.	St
+1.4.5	While I know a lot about Linux nothing I know would be required to use Ubuntu and SANE to scan in images for use later.	St
+1.4.6	Bob PS.	St
+1.4.7	Be sure to post in more visited forums like the CNET Computer Help forum and other forums since the hunt for a CD will be quite the hunt.	St
+1.4.8	I'm sure you looked worldwide on ebay too.	St
+1.5.1	I made it work!	St
+1.5.2	I told you this scanner CAN work in XP!	St
+1.5.3	I took the following steps: 1.	St
+1.5.4	I unistalled the drivers, deleted all the files that remained after the unistall and I cleaned the registry from all the references to the scanner that I could find (some of them manually, some of them by using CCleaner).	St
+1.5.5	2.	St
+1.5.6	I updated my mainboard's BIOS (&lt;--maybe this step was crucial) 3.	St
+1.5.7	In BIOS, new options appeared which were not there previously.	St
+1.5.8	I turned on the Enhanced Parallel Port (EPP) option.	St
+1.5.9	Though the scanner CAN work in the standard SPP mode, its better like this.	St
+1.5.10	4.	St
+1.5.11	I uninstalled several programs, cause I assumed that they can interfere with the scanner.	St
+1.5.12	I unistalled: Corel Draw X13, virtual dvd drive, my mobile phone's software etc.	St
+1.5.13	(now I dont think that this step was necesary, but I wanted to achieve a more-less &quot;clean&quot; situation).	St
+1.5.14	5.	St
+1.5.15	After achieving what I considered a more-less &quot;clean&quot; situation, I installed the scanner's drivers.	St
+1.5.16	6.	St
+1.5.17	After the installation, I opened the ACDSee program, clicked import and the scanner was there!	St
+1.5.18	It worked!	St
+1.5.19	7.	St
+1.5.20	I re-installed Corel Draw and the scanner is there!	St
+1.5.21	Again, it worked!	St
+1.5.22	8.	St
+1.5.23	Now I will reinstall my other programs I dont know which of these steps was crucial, but I assume that the BIOS update helped.	St
+1.5.24	The conclusion is: This scanner CAN definetly work in Windows XP!	St
+1.5.25	No need for dual-boot, linux or such solutions	St
+1.6.1	I didn't know where the parallel port was but a long time ago I remember having to set the mode and on a few LAVA EPP PCI boards you had to set the I/O Address as well.	St
+1.6.2	As you know, the addresses for LPT 1, 2 and 3 are carved in silicon but as time went on, they could move.	St
+1.6.3	However I found old software hardcoded rather than picking up the address from a BIOS API call.	St
+1.6.4	Good to read.	St
+1.6.5	Bob	St
+1.7.1	When the P4 home built unit failed and the printer and scanner on the parellel port were not up to par for any other PCs, I dug up an old wired router that supported a parellel port and added it to the WAN port on the WIFI router with a CAT5e cable.	St
+1.7.2	The other wired ports helped fill an overflow on the WIFI wired ports, like the DTV sat box and a server behind a firewall.	St
+1.7.3	A $20.	St
+1.7.4	investment originally.	St
+1.7.5	but sidelined for the WIFI.	St
+1.7.6	Now reclaimed for duty.	St

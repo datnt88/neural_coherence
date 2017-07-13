@@ -1,0 +1,165 @@
+1.1.1	Hi All!	St
+1.1.2	I recently had my wireless network go down and haven't been able to get it back up in several days, so I'm hoping someone might have some suggestions here.	St
+1.1.3	Two things happened around the time the problem seemed to occur: 1) Downloaded and installed an audioscrobbler plugin for foobar2000.	St
+1.1.4	The network went down very shortly after the first successful scrobble.	St
+1.1.5	This might be coincidence.	St
+1.1.6	2) Several Windows updates were applied.	St
+1.1.7	My setup is: Cable Service Provider &gt; Cable Modem &gt; Linksys Wireless-B Broadband Router (BEFW11S4) One Windows XP Home machine is connected via ethernet cable.	St
+1.1.8	Two Windows XP Home machines are connected via Linksys Wireless USB Network Adapter (WUSB11).	St
+1.1.9	The WUSB11 NICs seemed to be working OK, as I can see other local wireless networks (five of them).	St
+1.1.10	I can also connect to my neighbours network and access the internet via that.	St
+1.1.11	Wired connection also works fine.	St
+1.1.12	The router IS broadcasting our custom SSID, has DHCP enabled (I was previously using static IP addresses with no problems), currently has security disabled (WEP is all that it supports and we were using that before with no problems) and I'm NOT using MAC filters (again, I was using this before and had no problems).	St
+1.1.13	All other setting are at the defaults.	St
+1.1.14	The router has the latest firmware and both wirelessly connected machines have the latest drivers for the NIC.	St
+1.1.15	When the wireless went down, both wirelessly connected machines lost internet, so it's difficult to pin down to one particular machine - I'm assuming it was my machine due to the two things mentioned above that happened at about the right time.	St
+1.1.16	I've since uninstalled foobar2000 and the audioscrobbler plugin and the last few Windows updates, but this made no difference.	St
+1.1.17	Running 'ipconfig /all' previously resulted in a 'media disconnected' message in relation to the wireless NIC.	St
+1.1.18	I applied the 'DisableDHCPMediaSense' registry fix mentioned in a Microsoft knowledge base article, and now 'ipconfig /all' results in: Windows IP Configuration Host Name .	St
+1.1.19	.	St
+1.1.20	.	St
+1.1.21	.	St
+1.1.22	.	St
+1.1.23	.	St
+1.1.24	.	St
+1.1.25	.	St
+1.1.26	.	St
+1.1.27	.	St
+1.1.28	.	St
+1.1.29	.	St
+1.1.30	: deadbox Primary Dns Suffix .	St
+1.1.31	.	St
+1.1.32	.	St
+1.1.33	.	St
+1.1.34	.	St
+1.1.35	.	St
+1.1.36	.	St
+1.1.37	: Node Type .	St
+1.1.38	.	St
+1.1.39	.	St
+1.1.40	.	St
+1.1.41	.	St
+1.1.42	.	St
+1.1.43	.	St
+1.1.44	.	St
+1.1.45	.	St
+1.1.46	.	St
+1.1.47	.	St
+1.1.48	.	St
+1.1.49	: Unknown IP Routing Enabled.	St
+1.1.50	.	St
+1.1.51	.	St
+1.1.52	.	St
+1.1.53	.	St
+1.1.54	.	St
+1.1.55	.	St
+1.1.56	.	St
+1.1.57	: No WINS Proxy Enabled.	St
+1.1.58	.	St
+1.1.59	.	St
+1.1.60	.	St
+1.1.61	.	St
+1.1.62	.	St
+1.1.63	.	St
+1.1.64	.	St
+1.1.65	: No Ethernet adapter Linksys: Connection-specific DNS Suffix .	St
+1.1.66	: Description .	St
+1.1.67	.	St
+1.1.68	.	St
+1.1.69	.	St
+1.1.70	.	St
+1.1.71	.	St
+1.1.72	.	St
+1.1.73	.	St
+1.1.74	.	St
+1.1.75	.	St
+1.1.76	.	St
+1.1.77	: Instant Wireless USB Network Adapter ver.2.6 #4 Physical Address.	St
+1.1.78	.	St
+1.1.79	.	St
+1.1.80	.	St
+1.1.81	.	St
+1.1.82	.	St
+1.1.83	.	St
+1.1.84	.	St
+1.1.85	.	St
+1.1.86	: 00-06-25-19-06-BA Dhcp Enabled.	St
+1.1.87	.	St
+1.1.88	.	St
+1.1.89	.	St
+1.1.90	.	St
+1.1.91	.	St
+1.1.92	.	St
+1.1.93	.	St
+1.1.94	.	St
+1.1.95	.	St
+1.1.96	.	St
+1.1.97	: Yes Autoconfiguration Enabled .	St
+1.1.98	.	St
+1.1.99	.	St
+1.1.100	.	St
+1.1.101	: Yes IP Address.	St
+1.1.102	.	St
+1.1.103	.	St
+1.1.104	.	St
+1.1.105	.	St
+1.1.106	.	St
+1.1.107	.	St
+1.1.108	.	St
+1.1.109	.	St
+1.1.110	.	St
+1.1.111	.	St
+1.1.112	.	St
+1.1.113	: 0.0.0.0 Subnet Mask .	St
+1.1.114	.	St
+1.1.115	.	St
+1.1.116	.	St
+1.1.117	.	St
+1.1.118	.	St
+1.1.119	.	St
+1.1.120	.	St
+1.1.121	.	St
+1.1.122	.	St
+1.1.123	.	St
+1.1.124	: 0.0.0.0 Default Gateway .	St
+1.1.125	.	St
+1.1.126	.	St
+1.1.127	.	St
+1.1.128	.	St
+1.1.129	.	St
+1.1.130	.	St
+1.1.131	.	St
+1.1.132	.	St
+1.1.133	: DHCP Server .	St
+1.1.134	.	St
+1.1.135	.	St
+1.1.136	.	St
+1.1.137	.	St
+1.1.138	.	St
+1.1.139	.	St
+1.1.140	.	St
+1.1.141	.	St
+1.1.142	.	St
+1.1.143	.	St
+1.1.144	: 255.255.255.255 These IP addresses certainly don't match those I used when configuring the machines with static IP addresses.	St
+1.1.145	The router has been reset twice in the last few days, I've tried the WinsockXPFix download, and spent several days googling similar problems with no success.	St
+1.1.146	I'm completely out of ideas on how to fix this situation, and also puzzled as to why this would affect two computers if the problem is only with one of them.	St
+1.1.147	I've tried to provide as much info as I can, but I'm not terribly knowledgable about networking stuff, so if you need more info please ask	St
+1.2.1	Bumping this because I'm still stuck	St
+1.3.1	The reason I asked is my dad's BEFW11S4 died so I sent him mine.	St
+1.3.2	That was over 3 years ago.	St
+1.3.3	Since then I visited and we went to the office store to get another router.	St
+1.3.4	He told me he gifted out the two BEFW11S4's and given the age, maybe it's time for a new router.	St
+1.3.5	Bob	St
+1.4.1	Hi Bob, The router is definitely getting on a bit now - maybe 6 or 7 years old.	St
+1.4.2	I can still access it from the wired PC and it seems to be working OK for the most part.	St
+1.4.3	I realise I probably need to upgrade now anyway - I was just hoping to get maybe another year out of it...	St
+1.4.4	I'm thinking that the fact that there are so many other networks in the neighbourhood is a strong contender for the problem.	St
+1.4.5	I see lot of WPA and WPA2 networks floating around, which means their gear is a lot newer than ours and therefore (?)	St
+1.4.6	probably stronger signal...	St
+1.4.7	It just seems a weird coincidence that everything went pear-shaped at around the time of the two items mentioned in my first post happened...	St
+1.5.1	The old router stopped doing wifi so he went hardline.	St
+1.5.2	Later that failed and he was lucky mine still worked which saved him from learning a new router setup.	St
+1.5.3	Bob	St
+1.6.1	Sounds like it's time to retire the hardware then... Just wanted to make sure I wasn't missing anything obvious before I did, but the more I look into it and cross potential problems off the list, the more I realise I'm probably trying to save something not really worth saving...	St
+1.6.2	Thanks for the replies	St

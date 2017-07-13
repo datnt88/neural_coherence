@@ -1,0 +1,46 @@
+1.1.1	My HP hard drive just went splat (i'm at the library now).	St
+1.1.2	The hard drive I have is an IDE drive, but the PC I am about to buy has an SATA drive.	St
+1.1.3	I'm told I can not put the IDE drive in the new PC with the SATA drive, as my current PC wont even boot up how can I get the info on the IDE hard drive off & somehow on to the new PC with SATA drive?	St
+1.1.4	PLEASE PLEASE HELP Thanks	St
+1.2.1	This can be done as the MB will have 2 IDE channels.	St
+1.2.2	Depending on how the new system is configured you should have one IDE port open.	St
+1.2.3	Attach the IDE drive to the open IDE port, on boot access the BIOS primary boot device setting.	St
+1.2.4	Make sure that the SATA HDD is the primary boot drive.	St
+1.2.5	The issue may be XP not recognizing the drive and its data properly.	St
+1.2.6	You say the drive went splat .... meaning?	St
+1.2.7	Bill	St
+1.3.1	The PC shut down & tried to reboot but seems to be stuck in a re-boot loop.	St
+1.3.2	I was told by a computer savvy friend that the HD has sort of crashed or the operating system part of it anyway.	St
+1.3.3	So now it wont load up anything.	St
+1.3.4	It gets to the windows loading screen, flicks then reboots again but very very slowly the does that same thing.	St
+1.3.5	It is a 4 year old HP which up until now no similar problems.	St
+1.4.1	If it'll boot in SM, the problem is probably fixable.	St
+1.5.1	Boot with a bootable floppy or cd and try using windows to access the drive.	St
+1.5.2	There may be a way to put the IDE drive into your new computer with a connector card.	St
+1.5.3	Take a look at CompUSA or Best Buy stores in your area for such devices.	St
+1.6.1	I have tried in safe mode but still does the same thing	St
+1.7.1	I dont have a bootable disk, is there a website or link where I can get it from on another computer then put this disk in mine & try that.	St
+1.7.2	I tried asking at the store and they looked at me kind of funny & said I could not put the IDE drive in the PC with the SATA drive then tried to see me a new SATA drive.	St
+1.8.1	Hp's have a recovery partition that gives you the option to re-pair or re-install Windows.	St
+1.8.2	Generally using the F10 or 12 key allows access.	St
+1.8.3	Also some Hp's have the Recovery Consul installed.	St
+1.8.4	On boot watch for boot optioin menu.	Sug
+1.8.5	If it is their select Recovery Consul via arrow keys and press enter.	St
+1.8.6	At prompt to select OS #1 (not the correct wording, but you will understand when you see the prompt), press enter.	St
+1.8.7	At the next prompt for admin password press enter.	St
+1.8.8	At the prompt type chkdsk /p /r .	St
+1.8.9	Generally this fixes Windows kernal files allowing system to boot to Windows.	St
+1.8.10	And last, using the F8 key to access the boot option menu, select turn off auto re-start, press entry.	St
+1.8.11	This will stop the loop giving the BSOD error message.	St
+1.8.12	Luck Bill Last thoughts never end .....	St
+1.8.13	If you have a dial-up account remove modem.	St
+1.8.14	I've seen damaged modems create some wierd issues ....	St
+1.9.1	I would like to know what Windows Operating System you are using.	St
+1.9.2	If it is windows XP then you can use your XP CD to boot up with.	St
+1.9.3	Hope this helps.	St
+1.10.1	When I boot up I see the blue screen with the F1 & F10 options but when I hit F10 it does nothing at all.	St
+1.11.1	I am using XP but it came pre-insatalled & I have no disk	St
+1.12.1	HP and others will ship you CDs for some small fee.	St
+1.12.2	Much cheaper than buying another copy of XP.	St
+1.12.3	Typical is 35 buck (or less) which beats the 199 buck retail price of XP.	St
+1.12.4	Bob	St

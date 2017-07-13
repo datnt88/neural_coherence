@@ -1,0 +1,86 @@
+1.1.1	Not sure what causes this.	St
+1.1.2	I have an abit nf7s2.0 mb, 512mb 2 hard drives, xp 2500 processor.	St
+1.1.3	350W antec psu.	St
+1.1.4	A couple weeks ago, the computer started making weird noises, like clunking sounds, after it shut down windows xp.	St
+1.1.5	I haven't made any hardware changes, no lightning storms recently or any real obvious changes to the machine.	St
+1.1.6	Its worked fine the past 3 years.	St
+1.1.7	I was thinking it's the psu, but all the voltages look acceptable when checking the bios.	St
+1.1.8	Boots ok, will go to s1 standby ok and wake up, checked the smart on the drives, they both passed.	St
+1.1.9	looked at the mb no leaking caps.	St
+1.1.10	All the connections seem ok.	St
+1.1.11	The thing behaves as if power was bleeding off the psu to the mb and &quot;pulsing&quot; the drives and the fans until it bleeds down low enough to stop (the hd lights continue to flicker and i get a faint &quot;clicking&quot; on the pc speakers.)	St
+1.1.12	Any suggestions on where to start troubleshooting?	St
+1.1.13	I don't want to fry something unnecessarily!	St
+1.1.14	Thanks!	St
+1.2.1	Get your flashlight and start here.... http://www.badcaps.net/ VAPCMD	St
+1.3.1	The system when shutting down does &quot;house keeping&quot; chores in order to better keep track and *cleanly* shutdown pgms..	St
+1.3.2	If you never did use any pgms.	St
+1.3.3	that in general do all this while system is in use or you manually, then expect a longer shutdown even if no logo is shown.	St
+1.3.4	This does however exclude any possible h/w fault.	Ques
+1.3.5	If the HD itself is starting to falter it maybe in early stages and recovering from soft errors but finally gets the shutdown done.	St
+1.3.6	The fan simply is running because power is still present and cooling is required.	St
+1.3.7	In 3yrs.	St
+1.3.8	if you hadn't already clean the system of dust bunnies.	St
+1.3.9	Use the HD makers own diags.	St
+1.3.10	to test it, get at support website for your model HD.	St
+1.3.11	As for standby and hiberation modes you may want to disable so no XP setting effect that at least during your testing.	St
+1.3.12	The sounds, just follow your ear, maybe a fan is getting flaky or starting to fail.	St
+1.3.13	As always, do a back-up while you can or at least for important data.	Ques
+1.3.14	Again, 3yrs.	St
+1.3.15	is a wear%tear period when something may falter, so leave open case and see if heat is an issue too and problems seems to go away during that time.	St
+1.3.16	Look into that... tada -----Willy	St
+1.4.1	Thanks, Definitely not housekeeping, its easy to tell when its doing that, and this is not shutdown program cleanup stuff.	St
+1.4.2	When you flip the switch off and then on on the psu, it runs the fans/drives for like 30 sec!!	St
+1.4.3	When I first built the thing, it would kick the fans for about 1/2 second, 30 seconds is not normal.	St
+1.4.4	Now, the mobo leds blink, the lan lights blink, everything looks like its getting repeated momentary power.	St
+1.4.5	I looked at the caps, they all look ok. no bulging or tilting or leaking, even on the video card, modem (yup, good for faxing).	St
+1.4.6	When the computer is shut down, it just pulses power.	St
+1.4.7	I started disconnecting power to each hard drive and turned the hard switch on the back on to see if it bled/pulsed power.	St
+1.4.8	Then the dvd drives, then the floppy, then pulled the graphics card then the modem and then the case fan.	St
+1.4.9	All that was left was a psu, mobo, and processor.	St
+1.4.10	powered up and the led's on the board flickered and the fan on the processor/psu spun and slowly (60 seconds) came to a stop.	St
+1.4.11	I pulled the power connections off the mobo (figured I've been beating the crap out of it enough) and flipped the psu on.	St
+1.4.12	The fans spun and slowly came to a stop (60 to 90 sec).	St
+1.4.13	Hmm, bad psu?	Polite
+1.4.14	I checked the 12v going to the board with an auto circuit tester (just a 12 v lamp and a couple of probes.	St
+1.4.15	The power going to the board would flicker about 2-3 times/second!!	St
+1.4.16	Guess its a bad psu.	St
+1.4.17	Anyone ever have one die like this?	St
+1.4.18	Works fine as long as its NOT shut off??!!??	St
+1.4.19	Anyways, going to get a new one and start there.	St
+1.4.20	Thanks for your time	St
+1.5.1	The ATX type psu is a &quot;logical&quot; power circuit loop.	St
+1.5.2	That simply means there's no direct on/off to direct power as would have been for older AT type psus.	St
+1.5.3	Swapping the psu is the next step but beware that a 2nd half of the problem maybe the mtrbd.	St
+1.5.4	as well.	St
+1.5.5	The start ckt.	St
+1.5.6	for on/off cycle may have been damaged for whatever reason.	St
+1.5.7	I would however, reseat the actual on/off harness for the frt.	St
+1.5.8	panel.	St
+1.5.9	I have found bad frt.	St
+1.5.10	panel on/off sw.(rare it seems) that have weaken contacts and/or broken int.	St
+1.5.11	contacts.	St
+1.5.12	Remove the harness to on/off pins at mtrbd.	St
+1.5.13	and see if problem changes.	St
+1.5.14	Only a monetary contact with same pins provide the initial on/off start/shutdown.	St
+1.5.15	Look around closely the immediate area of the pins the componets for obvious damage that suggest the start ckt.. Last, in your bios, if applicable there maybe a &quot;time frame&quot; of on/off action, most default to 5-6sec.	St
+1.5.16	but can be longer(verify it), changed somehow?	St
+1.5.17	I hope this helps.	St
+1.5.18	tada -----Willy	St
+1.6.1	Yeah, I pulled the pins for the front panel switch, flipped the ps on and had same behavior.	St
+1.6.2	There's nothing around the pins to suggest damage.	St
+1.6.3	Its a normally open contact i imagine, so if it was that switch getting &quot;stuck&quot; on, it should have behaved properly.	St
+1.6.4	I still think the PS ate itself	St
+1.7.1	Well, I replaced the PSU (a lot more involved than just 4 screws and some cables) and that seems to have done the trick.	St
+1.7.2	I guess the on/off logic on the old one went kaput after 3.5 yrs of service.	St
+1.7.3	Thanks for the help though.	Ques
+1.8.1	NIL	St
+1.9.1	I've had the same problem happen to me, but the pulsing lasts much longer, (generally would pulse all day and all night after shutdown if I didn't shut off the PS's power switch.)	St
+1.9.2	I too had not changed the PC's configuration and checked to see if a cap had blown or if something else was amiss with the MoBo.	St
+1.9.3	I found nothing.	St
+1.9.4	I have an AMD 3200+ w/ a Soltek MoBo, 2GB of memory, two WD IDE HDs, NEC DVD/RW drive, ATI AGP graphics card, Soundblaster live PCI card and a USRobotics 56k modem card.	St
+1.9.5	It has held it's own for several years now without an issue, until a month and a half ago when the pulsing started.	St
+1.9.6	All diagnostics show there is no problem with the CPU or it's components.	St
+1.9.7	The one thing you and I have in common is an Antec 350W PS (model:SL350S) which came standard with my Antec Solution Series SLK3700-BQE case.	St
+1.9.8	After reading this thread, I'm going to follow through with my initial thought and replace the Power Supply and see if that fixes the problem.	St
+1.9.9	I hope you have continued success after replacing your Antec 350W power supply which solved your problem.	St

@@ -1,0 +1,65 @@
+1.1.1	Wifi Mesh using Linksys WRT150N 802.11n MIMO router Im trying to setup a mesh network in an MDU so im shopping for solutions and one idea was to use the Linksys WRT150N 802.11n MIMO router and flash it using Sveasoft firmware.	St
+1.1.2	Im being told that if these are connected in a mesh and wireless G is in range these routers will switch to wireless G instead of wireless N anyone know if this is true?	St
+1.1.3	Any comments on this are very much appreciated thanks for your time!	Polite
+1.1.4	Heres a link to another discussion about this: http://forums.meraki.com/viewtopic.php?t=2482	St
+1.2.1	For most of us, a repeater is all that is needed.	St
+1.3.1	The solutions i've checked into all use wireless G which would give roughly 200-300 feet between repeaters.	St
+1.3.2	The wireless N routers claim 3x the coverage of wireless G which would give 600-700 feet between repeaters.	St
+1.3.3	This means less equipment would be necessary to cover the same area meaning less cost to deploy, but if im spending more money on wireless N equipment that is only gonna reach 200-300 feet whats the point?	St
+1.3.4	Will the wireless repeaters connect to each other using wireless N or wireless G?	St
+1.3.5	Does anyone know the answer to this?	Ques
+1.4.1	Implement this like the old Richochet network.	St
+1.4.2	The moment you go off the reservation with this mesh you may as well go the extra step to the real deal.	St
+1.4.3	Bob	St
+1.5.1	I'll try to shed some light on your questions: #1: With MIMO technology you must use multiple antennas.	Sug
+1.5.2	If you truly want to achieve 600-700 ft range (radius) from the AP then I would recommend upgrading the antennas to low gain 8dbi (GREATLY improves the range).	St
+1.5.3	Also, if you walk 600 ft from the AP your signal strength will be very low, if you connect at all, and your connection speed will be about 5mbps.	St
+1.5.4	This is because with draft-N the further from the AP/Router you go, the more the speed decreases.	St
+1.5.5	The beauty of draft-N is that it does support a larger range than G, as well as speeds up to 300 mbps.	St
+1.5.6	#2: If you are attempting to setup a Mesh WIFI then I would recommend one other thing.	St
+1.5.7	Use a router/AP that utilizes both 2.4ghz and 5ghz frequencies.	St
+1.5.8	In a mesh scenario, all of the routers & APs are continuously communicating to each other.	St
+1.5.9	If the APs are talking to each other on the same frequency that you are trying to send and receive data on, you will notice a large decrease in your speed.	St
+1.5.10	#3: When you setup just a simple router, have you ever noticed where it says &quot;choose one: Wireless A, Mixed Mode:B,G,N, Wireless N&quot;?	St
+1.5.11	When most people see this selection, they go with Mixed Mode.	St
+1.5.12	When in mixed mode, if someone walks on your network with a Palm Pilot that uses wireless B, then YES, your whole network will slow down to the SPEEDS of wireless B, the range is not affected.	St
+1.5.13	It is best to just set whatever router/AP you are using to Wireless N. Then you can achieve your maximum speeds.	St
+1.5.14	I hope some of this info.	St
+1.5.15	was helpful for you, or anyone interested in Mesh networking in the future!	St
+1.6.1	While improving the wifi coverage is nice I couldn't find any answer to how to implement the mesh.	St
+1.6.2	-&gt; What mesh software are you proposing?	St
+1.6.3	Bob	St
+1.7.1	I was merely attempting to provide some basic guidelines as to mesh networking.	St
+1.7.2	I can't really get into specifics based on the information that was given at the top of the post, but I can share some info on a project I am working on in South Florida.	St
+1.7.3	I have been planning the implementation of wireless coverage for a small town, approximately 43 acres.	St
+1.7.4	I explored the setup of a mesh network for this area HOWEVER, I have decided against it.	St
+1.7.5	Mesh networks are mainly used for large scale wireless deployments, ie.	St
+1.7.6	Philadelphia's recent project.	St
+1.7.7	The major benefits of a mesh network, as I see it, are that the network is easily scalable, and when your bandwidth is a concern then the APs automatically re-route end-user access to different gateways (if available) to compensate (this is a very nice feature).	St
+1.7.8	If I were to deploy a mesh network in my scenario, I would be using the Cisco Aironet 1510 APs, a Cisco WLC (wireless lan controller, your amount of APs determines which model to go with), for the gateway I would use the Linksys WRT600N, and for the management of the network I would use the Cisco WCS software.	St
+1.7.9	Even though Linksys is a subdivision of Cisco, you cannot beat Cisco quality and support.	St
+1.7.10	The SmartNet OnSite warranty is an absolute MUST if you are going to have subscribers, or people that depend on your network.	St
+1.7.11	Like I said, I will not be using the mesh network.	St
+1.7.12	I will be using about 20 Cisco Aironet 1250 APs to create a large overlapping network.	St
+1.7.13	I will still be using the WLC,Linksys WRT600N , and the WCS software.	St
+1.7.14	The range of the 1250 and 1510 is very similar given the same antenna, approximately 500-600ft, but you will most definitely be experiencing all sorts of network interference, and will probably end up with a range of 200-300 ft of GOOD network coverage that will allow for higher speeds.	St
+1.7.15	I have my reasons for not going with a mesh network, but I will delve a little further into that topic.	St
+1.7.16	The Cisco Aironet 1510 is an outdoor mesh AP that is EXTREMELY reliable, withstands severe conditions, and provides up to 675ft coverage area.	St
+1.7.17	If you are going to setup a mesh network then this is what you want.	St
+1.7.18	Mesh networks typically are used to span across a large area, where outdoor placement is a must.	St
+1.7.19	Many people have now been attempting to develop little mesh networks, for their neighborhood for example.	St
+1.7.20	If your are operating at that level I recommend the use of MERAKI networking solutions.	St
+1.7.21	They have been endorsed by Google, and are MUCH cheaper than using Cisco hardware.	St
+1.7.22	Yes, I do like to talk a lot.	St
+1.7.23	So to answer your question &quot;What mesh software are you proposing?&quot;, it really all depends on your situation!	St
+1.7.24	I know that is not much of an answer, but there are many factors that play into the implementation of a mesh network.	St
+1.7.25	If you could, just provide me with some more details like; how much area are you trying to cover, are you indoor or outdoor, what price range are you working with, what is your networking experience...	St
+1.7.26	Even the material of the surrounding buildings, and the placement of trees (which greatly degrade the signal strength) effect which solution that I would recommend.	St
+1.7.27	As far as software goes, I would use the WCS for a project like mine, or for a smaller project, Meraki provides excellent free management software that should be sufficient.	St
+1.7.28	I have assumed that you are talking about management software, not &quot;firmware&quot;.	St
+1.7.29	If anyone needs any more info, I would be glad to offer my help.	Polite
+1.7.30	You can email me through my company Techspert Solution, or post a reply here.	St
+1.7.31	techspert@yahoo.com	St
+1.8.1	I could make a safe bet they wanted it for 40 bucks at CostCo.	Sug
+1.8.2	Too bad solutions like Richochet and that Zigbie (mesh networks) didn't catch on.	St
+1.8.3	Bob	St

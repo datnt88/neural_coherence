@@ -1,0 +1,31 @@
+1.1.1	I have a simple problem with my network that's proving very difficult to solve.	St
+1.1.2	I want to add a 320 GB hard drive and a 500 GB hard drive to my network.	St
+1.1.3	They are both USB (normal enclosures, nothing fancy) and both work great when they are plugged directly into my PC.	St
+1.1.4	When they are shared on my network (hand holding the folder, folder showing up in My Network Places) and I try to access them, it gives me an error &quot;Not enough server storage to process this command&quot;.	St
+1.1.5	The two popular solutions to this problem are A) increase the IRP stack size by 3 and keep going until it works and B) decrease the Paged Poolsize to 0.	St
+1.1.6	On both my machines, the IRP stack size is maximum (50) and the Poolsize is 0.	St
+1.1.7	However, it is still not working for me, same error on both drives.	St
+1.1.8	My PC's are both running XP Home over a Linksys WRT54GL router.	St
+1.1.9	Every other shared folder works like great.	St
+1.1.10	I just cannot get these hard drives to share.	St
+1.1.11	I have never installed Norton (usually what causes the settings to be changed).	St
+1.1.12	I am running AVG Free on both computers for anti-virus and Zone Alarm for a firewall (both set to trusted zone on medium, which allows sharing.)	St
+1.1.13	The desktop which my hard drives are connected to is connected via Ethernet, and the laptop which I'm trying to access the drives is connected via wirless G. If you need any more info, I'll be happy to provide.	St
+1.1.14	Thank you for your time.	St
+1.2.1	1.	St
+1.2.2	You have an account on the machine with the share that matches what you login as on the client machine?	St
+1.2.3	2.	St
+1.2.4	Did you try it with the LAN added to the trusted zone?	St
+1.2.5	3.	St
+1.2.6	Did you check to see if a firewall was in the router?	St
+1.2.7	Bob	St
+1.3.1	Both the machines have an account running on them that matches.	St
+1.3.2	All the other shared folders and files work great, just not the two hard drives.	St
+1.3.3	The LAN is in the trusted zone on both computers.	St
+1.3.4	The firewall is on, but wouldn't that stop the sharing of all files and folders?	St
+1.3.5	I will try sharing without the firewall on.	Sug
+1.4.1	http://www.uwe-sieber.de/usbdlm_e.html It resolved a few issues for people out there.	St
+1.4.2	If you installed the NETWARE protocol, I have other news.	St
+1.4.3	Bob	St
+1.5.1	I disabled my router firewall and I tried that program you suggested.	St
+1.5.2	The firewall wasn't blocking the sharing and the letter of the drives is not a huge issue (the drives are usually connected in the order they go so that Windows doesn't assign them the wrong drive name [I turn on E first, then F].	St

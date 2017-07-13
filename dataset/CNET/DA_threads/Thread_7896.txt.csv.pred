@@ -1,0 +1,84 @@
+1.1.1	On booting up my computer today the internet refused to work, I tried all the normal procedures and on Repairing the connections it comes up with the error: Cannot Clear DNS Cache.	St
+1.1.2	I write to you from the gateway PC which works fine.	St
+1.1.3	Have tried all normal fixes such as re-establishing network, system restore.	St
+1.1.4	Help please!	St
+1.1.5	Both PC's are using Windows Xp and have worked fine (mostly) for almost 2 years	St
+1.2.1	Network hardware and model names (router, broadband modem)?	St
+1.2.2	Wired or wireless connections?	St
+1.2.3	1.	St
+1.2.4	What do the blinking/solid lights on your router and/or modem tell you?	Ques
+1.2.5	Reboot modem, reboot router.	St
+1.2.6	2.	St
+1.2.7	Is your router fimrmware up to date?	St
+1.2.8	Using latest driver for newtwork adapter?	St
+1.2.9	3.	St
+1.2.10	Firewall, Antivurus, and Antispyware up to date and recent scans?	St
+1.3.1	1: all lights are lit(which is normal) 2: Dont think firmware has ever been updated, but would that explain such a sudden and unexpected crash?	St
+1.3.2	3: Yes on both comps	St
+1.4.1	Download latest router firmware from router mfg.	St
+1.4.2	and install it; you need to do this regardless of your problem.	St
+1.4.3	Try: ipconfig /flushdns	St
+1.5.1	Download latest router firmware from router mfg.	St
+1.5.2	and install it; you need to do this regardless of your problem.	St
+1.5.3	Try: ipconfig /flushdns	St
+1.6.1	thanks for your help so far.	Polite
+1.6.2	flushing DNS didnt work, forgive me for my ignorance but I can;t find firmware upgrades on the web, I am using a PCL NW100 Switch (made by PC Line)	St
+1.7.1	DNS flushes fine on the working PC, just says its worked etc.	St
+1.7.2	but on not working PC comes up with this error: could not flush DNS resolver cache: function failed during execution Don't know if that narrows it down or what	St
+1.8.1	OK, let's step back a little.	St
+1.8.2	You mentioned a ''switch.''	St
+1.8.3	Normally a switch is placed between computers and a router.	St
+1.8.4	The switch connects computers together to make a network.	St
+1.8.5	A router connects your network to another network (the Internet).	St
+1.8.6	Did you fail to mention the model name of your router?	St
+1.8.7	Typical setup: Internet ---- broadband modem ---- router ---- switch(es) ---- computers For two computers, a switch usually is not necessary in that setup.	St
+1.8.8	What is your setup?	St
+1.8.9	What type of Internet service do you use (cable, DSL, satellite, other)?	St
+1.9.1	I'm trying to get at how your computers are supposed to find a DNS server.	St
+1.9.2	Is the DNS server supposed to be assigned automatically by your ISP, or do you enter this data into the TCP/IP properties of each computer?	St
+1.9.3	The router model is needed if you are to update its firmware and possibly fix this problem.	St
+1.10.1	ok yea I get you I was wokring undet the impression router was same as hub/switch (not too hot on networks).	St
+1.10.2	Got a cable modem from NTL.	St
+1.10.3	We have a set top TV cable box, which also contains a cable modem.	St
+1.10.4	the Ethernet cable goes from that box to the gateway PC, the gateway PC goes to the switch which the client PC also plugs in to.	St
+1.11.1	This may sound totally stupid, but I'm told by my Dad (who set up the network originally but is as clueless as I as to how to fix this) that we don't have a router and I have no memory of ever dealing with one.	St
+1.11.2	I'm not really sure, I understand so little about DNS but in everything I've looked at everything relating to DNS has checkboxes saying &quot;assign DNS automatically&quot; or something along those lines.	St
+1.12.1	I rang my cousin who took me through a lot of things, pinging various things (external, gateway etc.)	St
+1.12.2	and he thought it was a NAT error and since I'd run the network wizard and it hadn't made a difference installing a router was the only way to go.	St
+1.12.3	I was all ready to do that when taking a look at the list of services I noticed one called DNS Client was disabled.	St
+1.12.4	I enabled it, and the internet worked!	St
+1.12.5	Restarted computer, internet doesn't work.	St
+1.12.6	I checked to see if this service was still enabled, and it was, I checked other services but found nothing of consequence.	St
+1.12.7	Now when I attempt to repair network it runs through fine (used to stop saying it can't clear DNS cache) but the MSN Messenger Troubleshoot diagnostic still flags up a DNS error (and it's not a localised MSN Messenger problem becuase I can't get web pages either).	St
+1.12.8	I find it really odd that even after supposedly fixing the problem it doesn't work again on start up even though I had fixed (at least I though I had) what was wrong.	St
+1.12.9	any ideas?	St
+1.13.1	I was thinking that your gateway computer is from Gateway Computer Company.	St
+1.13.2	My mistake.	St
+1.13.3	So your internet gateway computer is essentially your router.	Polite
+1.13.4	So this is your setup?	St
+1.13.5	Internet ---- cable modem ---- COMP1 ---- switch ---- COMP2 (COMP1 is setup as a gateway) You said this worked previously; was that with the switch included in the setup?	St
+1.13.6	So COMP1 is running Windows Internet Connection Sharing (ICS) Correct?	St
+1.13.7	1.	St
+1.13.8	You really dont need the switch if the above setup is correct.	St
+1.13.9	2.	St
+1.13.10	If your cable modem has multiple ports in the back to connect computers, then it probably is a router, too.	St
+1.13.11	If that is the case, then both computers can connect directly to the cable modem-router.	St
+1.13.12	What are the IP addresses on COMP1 and COMP2?	Ques
+1.13.13	At each computer, click Start &gt; Run Type cmd (dont type the quotation marks) to open a command prompt window Type ipconfig /all (there is a space after ipconfig) Can you ping one computer from the other?	St
+1.13.14	Example: If COMP1 is 192.168.0.2 and COMP2 is 192.168.0.3 Then at the command prompt on COMP1, type ping 192.168.0.3'' Successful?	St
+1.13.15	Try ping-ing COMP1s IP Address from COMP2.	St
+1.13.16	Successful?	St
+1.14.1	Sounds like COMP2 is trying to get the DNS address from your gateway, COMP1.	St
+1.14.2	I'm still not sure that COMP2 is even making a good connection to COMP1.	St
+1.14.3	That is why I suggested the ping test.	St
+1.14.4	Any results?	St
+1.14.5	Your cousin is on the right track--the router allows you to do away with all this ICS junk.	St
+1.14.6	I prefer routered networks.	St
+1.15.1	yea I get reply's across the network when I ping comp1 from comp2 the switch has been there all the time while the network was working, no hardware changes have been made and no significant software changes that I know about.	St
+1.15.2	One interesting thing was Zone Alarm bringing up 2 prompts of new networks, both were accepeted (this was on the host PC about 8 or so hours before the client was turned on and didnt work) but I've tried turning zone alarm off to no avail &quot;Sounds like COMP2 is trying to get the DNS address from your gateway, COMP1.&quot; If I'm understanding that right I think we tried to resolve that by taking the public DNS server address from the host PC and inputting them in to the client (comp2) manually instead of the client automatically assigning DNS servers but it didn't work	St
+1.16.1	So what were the respective IP addresses of GATEWAY and CLIENT?	St
+1.17.1	client local address: 192.164.0.30 gateway local: 192.164.0.1 gateway public: 80.3.48.1	St
+1.18.1	For anyone else who has this or similiar problems: First I installed a program called TreewalkDNS ( http://treewalkdns.com ) which replaces Windows XP DNS structure or something like that.	St
+1.18.2	I found it recommended in PC advisor for anyone with DNS problems or even anyone using a Windows XP network.	St
+1.18.3	Secondly, I disabled Zone Alarm on the host PC.	St
+1.18.4	(I had tried this previously without the tree walk program so I'm thinking its a combination of both) I don't really know what was wrong with Zone Alarm, I think something wrong with port forwarding but of course disabling it is only a temporary solution so I'm going to have to sort that now.	St

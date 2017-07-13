@@ -1,0 +1,48 @@
+1.1.1	My current computer is a Dell Dimension XPS T500 with a 12G Hard Drive, OS is Windows 98SE.	St
+1.1.2	I am running out of space on my HD and am seriously considering upgrading to a bigger one.	St
+1.1.3	How does one do this properly?	Ques
+1.1.4	Thanks for any help.	Polite
+1.2.1	Since installing a new hdd would require a re-install of the operating system, I would proceed with caution.	St
+1.2.2	The Dell is a proprietary system.	St
+1.2.3	If you plan to use the reinstall disk that came with the computer to reinstall windows, check with Dell support for their guidance.	St
+1.2.4	It may work, then maybe not.	St
+1.2.5	Hardware changes to the system may cause the OS to balk on installing.	St
+1.2.6	A workaround could be an external usb hdd.	St
+1.2.7	Note: If you have an original Windows cd, (not Dell reinstall disk), you won't have a problem.	St
+1.2.8	Best of Luck	St
+1.3.1	You can install a new larger HD on that computer, but you may have to install a hard disk controller on a PCI card if the drive is larger than 127GB (detailed explanation: 48bitLBA.com or Seagate.com ).	St
+1.3.2	Does your current HD plug directly into your motherboard or into a PCI card?	St
+1.3.3	If a PCI card, what is the name of the PCI hard disk controller card?	St
+1.3.4	BOTTOM LINE: Get a &lt; 127GB ATA/100 or ATA/133 hard drive if you stick with Windows98SE.	St
+1.3.5	You might want to consider upgrading to Windows XP to avoid some complications and have a more stable OS, in general.	St
+1.4.1	even with W98 can be used but the drive would have to be partitioned using partitions no larger than 127 (I use 125GB partitions and end up having one last drive usually smaller than the others, or just stick with a drive that is 250GB in size and split it into only two partitions equally) You could also make an exact copy of your current harddrive to the new one and when you hook up the new one as the boot drive and remove the old one, it will boot right up with no problems.	St
+1.4.2	Now.....the only thing you have to make sure of from Dell (you can make a phone call to their 800 number or ask them ahead of time in an email).	St
+1.4.3	Some vendor's restore/recovery disks are hardwired/hardcoded to specific hardware that was used to build the system, and that included the harddrive itself which meant that if you replaced any of the hardware, the restore/recovery disk wouldn't work anymore.	St
+1.4.4	If that is the case with your system, you can keep the 12GB drive installed as your boot drive, but install the new harddrive as a slave and use it for storage only and then you can move some items from the C: drive (your current 12GB drive) such as the My Documents, My Pictures etc to the new drive and free up space on the current drive.	St
+1.4.5	If Dell tells you that the harddrive can be replaced with no problems out of their restore/recovery disk, follow the instructions below, and you shouldn't have to reinstall any of your programs or windows.	St
+1.4.6	The largest problem I can see with the Dell system you might run into is that they put restore/recovery information on a separate and usually hidden partition of your current harddrive, and I'm not sure how or if at all that information will copy over to the new drive, so make sure you ask them about this as it could be vital information to have so you will have all information ahead of time in order to make the proper decision about keeping the 12GB intact as the boot drive or being able to copy it over and using the new drive as the boot drive.	St
+1.4.7	************* DUPLICATE YOUR HARDDRIVE NOTE: THIS DOES NOT WORK WITH XP If you want partitions on your new drive, install it first as a slave and using the Fdisk command from your bootdisk, use the menu choice to CHANGE DRIVES AND CHOOSE DRIVE 2 (this will be the new harddrive), first create a Primary Dos Partition using part of the drive (make it equal to or larger than your C: drive on the current drive), and then create the Extended Partition and then the Logical Drives.	St
+1.4.8	Reboot to make it take effect and then with the bootdisk, use the Format command for each of the drive letters that you created.	St
+1.4.9	Reboot without the bootdisk and get to the current drive's desktop and do the following: From the START - RUN command in Windows type XCOPY C:\ D:\/h/i/c/k/e/r/y/s There is a space between XCOPY and C:\ and a space between C:\ and D:\ but NO spaces anywhere else.	St
+1.4.10	(it might look on your screen as if the \/ is a &quot;V&quot; but it is actually a backslash and a forward slash next to each other) OR You can add a space between the drives and the switches for the xcopy command if wanted for easier appearance and to avoid that V look, or even put them all immediately after the xcopy command followed by space and then the drives as such: XCOPY /h/i/c/k/e/r/y/s C:\ D:\ After the copy is done, shut down, jumper the new drive to make it the master (or Master with Slave), and the old one the slave...if you plan on keeping it; otherwise, remove the old drive completely.	St
+1.4.11	Then run FDISK from a boot disk, and make the new drive active.	St
+1.4.12	Be sure you change the BIOS if you need to to match the new setup.	St
+1.4.13	It should then have a complete copy of your old drive, and act just like it.	St
+1.4.14	If you have more than one partition on your old drive and you have new partitions on the new harddrive, you can right drag and drop the old partitioned drive letters to the new ones and choose COPY HERE...just make sure that each new partition is equal to or larger than the old partitions.	St
+1.4.15	TONI	St
+1.5.1	The subject limit is 137 GB.	St
+1.5.2	I'm at work and bored.LOL	St
+1.6.1	Your system is pretty dated.	St
+1.6.2	In that regard you should at least verify that any bios updates have been applied as at least one may pertain to HD sizing issues in what you can install.	St
+1.6.3	Your best bet for ease of install, is to get a &quot;HD kit&quot; that will contain the s/w and h/w plus the install guide, etc.. Further, you consider a &quot;pci controller card&quot; to make better use of the larger HD and bypass possible hassles if your bios doesn't support large HDs.	St
+1.6.4	All this is explained at the major HD makers support website.	St
+1.6.5	While you may find 30-40gb HDs out there, usually there is sale(more bang as see bigger vs smaller) online/local of HDs and 80gb and above is normal so be sure your system can support that.	St
+1.6.6	If so, the controller solution is valid or even part of the HD kit.	St
+1.6.7	tada -----Willy	St
+1.7.1	While you are correct in stating the 28-bit limit is 137GB, there are Windows 98 utilities that are limited to 127GB.	St
+1.7.2	That's Windows fer ya!	St
+1.7.3	Here's a fairly concise reference .	St
+1.8.1	be careful i had to put one in acer pc i had at the time, i had to take it in as the pc will look for the old drive and its serial number!	St
+1.9.1	keep the 12 gb hd and install another HD.	St
+1.9.2	it is very easy to install another hd just put the 2nd HD set to slave and use a Twin IDE data cable this will save you alot of time and you will not loose the data you have on your 12GB hd(which is the Master).	St
+1.9.3	hope this info helped you have any more question dont hesatate to reply back http://www.electronixeshop.com helping the computer community	St

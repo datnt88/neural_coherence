@@ -1,0 +1,23 @@
+1.1.1	My esk top runs on windows vista 64 bit have internet explorer 8 I want to know how can i shut off any programs running in the background and how to find out if there is anything running in background.	St
+1.2.1	For example http://forums.cnet.com/7723-10149_102-308311/how-do-i-disable-unnecessary-programs-running-in-my-pcs-background/ has over 200 answers on this.	St
+1.2.2	I think there's usually little to be gained here.	St
+1.2.3	You are running Vista 64 so the only thing I will offer is that it was a bit of a slug (the OS) and if you had less than 4GB RAM almost nothing you could do would make it respond faster.	St
+1.2.4	Bob	St
+1.3.1	you need to gather information from various sources.	St
+1.3.2	The best source, perhaps, is yourself.	St
+1.3.3	When you install software the install/setup process will often ask if you want to &quot;Allow {this software} to load on Startup&quot; or similar option.	St
+1.3.4	Sadly that option is normally already selected and you actually have to 'opt out' by de-selecting it.	St
+1.3.5	If the option was to 'opt in', then even if we don't watch the setup process step by step, we wouldn't have any unwanted software loading at startup.	St
+1.3.6	The other options are; 1] The Start menu &gt; All programs &gt; Startup folder.	St
+1.3.7	Any entries in there means that application will load at startup.	St
+1.3.8	You can delete that shortcut but it would also be advisable to open the application itself and check its options as it maybe set always to load at startup 2] MSCONFIG - Goto Start then type msconfig in the search box and select the first entry in the list.	St
+1.3.9	This opens the &quot;Startup Configuration Editor&quot;.	St
+1.3.10	Head over to the Startup tab and look down the list to see what is set to run at startup.	St
+1.3.11	You can disable those from there.	Sug
+1.3.12	any entries you are not sure about you cans search for in Google or your favorite search engine.	St
+1.3.13	3] The Task Manager - Open the Task Manager, (right click the Taskbar, select Task Manager), and in the new window select the Processes tab.	St
+1.3.14	be sure to select the option at the bottom of the window to &quot;Show processes for all users&quot;.	St
+1.3.15	This lists the processes for all the software that is currently running on your computer.	St
+1.3.16	Some may be processes from applications that have loaded at startup and which are not listed in the steps 1 and 2, but to be sure you would have to open the applications that use those processes to double check.	St
+1.3.17	Google will help you identify the list of processes.	St
+1.3.18	Mark	St

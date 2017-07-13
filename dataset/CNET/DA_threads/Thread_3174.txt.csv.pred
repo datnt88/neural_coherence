@@ -1,0 +1,41 @@
+1.1.1	Hello, I am using a Gateway laptop (Windows XP) with Realtek RTL8185 wireless.	St
+1.1.2	I use my laptop in 2 situations.	St
+1.1.3	#1) At home -- We use a cheap linksys router, I am about 20 feet away through 3 walls and I have a strong, constant connection.	St
+1.1.4	#2) At school - I use my laptop in class and around the library at school.	St
+1.1.5	The school has a network set up with many access points.	St
+1.1.6	All access points share the same SSID (Jayhawk).	St
+1.1.7	I notice when I see the access points (I am using a wireless connection monitor to troubleshoot) that my laptop sees the access points operating on 1, 6 and 11 channels.	St
+1.1.8	Where I am at right now, I see two with channel 6.	St
+1.1.9	Problem: My connection randomly disconnects for a few seconds.	St
+1.1.10	The connection will be good, and then bam!	St
+1.1.11	Disconnect.	St
+1.1.12	Immediately (within seconds) it will reconnect.	St
+1.1.13	This happens in many different spots.	St
+1.1.14	Things I have tried: -This is not a matter of distance from AP's.	St
+1.1.15	Some are as close as 10 feet.	St
+1.1.16	Other students (one even with exact same model) sit around me in class and do not have the same problem.	St
+1.1.17	This problem is specific to this laptop.	St
+1.1.18	-I have uninstalled/reinstalled the drivers.	St
+1.1.19	I have re-formatted the computer.	St
+1.1.20	-I have downloaded a wireless monitoring utility.	St
+1.1.21	This is where I am getting the channel information.	St
+1.1.22	I am including links to two different screenshots of information about AP's from two different spots in the building.	St
+1.1.23	I have problems with both.	St
+1.1.24	[IMG] http://i12.tinypic.com/4z9cspi.jpg [/IMG] [IMG] http://i11.tinypic.com/4lng0mu.jpg [/IMG] -------------------------------------------------------- Below here, I am attaching a summary of my connection and a log.	St
+1.1.25	You can clearly see in the log where I am losing my connection.	St
+1.1.26	Any help would be greatly appreciated.	St
+1.1.27	I am an advanced user, so technical babble is alright.	St
+1.1.28	---------------------------------------------------------- Summary Tab Information _________________________ Current Ssid: JAYHAWK AccessPoint Mac Address: 00 11 20 a8 b5 50 Threshold: 2432 Authorization Type: Open Numbers of Antenna: 1 Packet Fragmentation Threshold: 2432 Tx Power: 100 mw Channel: 6 Channel(Hz): N/A Statistics Tab Information _________________________ TransmitttedFrameCount: N/A MulticastTransFrameCount: N/A Failed Count: N/A Retry Count: N/A Multiple Retry Count: N/A RTS Success Count: N/A RTS Failure Count: N/A Frame Duplicate Count: N/A Received Fragment Count: N/A ACK Failure Count: N/A MulticastRecFrameCount: N/A FCS Error Count: N/A Sent OK: 5882 RCV OK: 7643 Sent Error: N/A RCV Error: N/A Directed Bytes Sent: N/A Directed Frames Sent: N/A Multicast Bytes Sent: N/A Multicast Frames Sent: N/A Broadcast Bytes Sent: N/A Broadcast Frames Sent: N/A Directed Bytes RCV: N/A Directed Frames RCV: N/A Multicast Bytes RCV: N/A Multicast Frames RCV: N/A Broadcast Bytes RCV: N/A Broadcast Frames RCV: N/A IP Tab Information _________________________ Adapter Mac Adress: 00 c0 a8 bc 53 7f Adapter Detail Entry: {DC9B0B5D-69FF-448B-B92E-AC88A2FDBC00} Adapter IP Address: 42.255.200.110 Current GateWay: 42.255.200.109 DHCP Enabled: Yes DHCP Server: 42.0.0.1 DHCP Lease Start at: 18:29:14 30/04/2007 DHCP Lease End at: 00:29:14 01/05/2007 DNS Server: ----------------------------------------------------- ndex,Time,Percentage(%),Strength(dBm) 0,13:39:52:828 30-Apr-2007,57,-49 1,13:39:55:828 30-Apr-2007,40,-64 2,13:39:58:828 30-Apr-2007,40,-64 3,13:40:01:828 30-Apr-2007 4,13:40:04:828 30-Apr-2007 5,13:40:07:828 30-Apr-2007 6,13:40:10:828 30-Apr-2007,40,-64 7,13:40:13:828 30-Apr-2007,57,-49 8,13:40:16:828 30-Apr-2007,57,-49 9,13:40:19:828 30-Apr-2007,41,-63 10,13:40:22:828 30-Apr-2007,42,-62 11,13:40:25:828 30-Apr-2007,42,-62 12,13:40:28:828 30-Apr-2007,42,-62 13,13:40:31:828 30-Apr-2007,40,-64 14,13:40:34:828 30-Apr-2007,42,-62 15,13:40:37:828 30-Apr-2007,42,-62 16,13:40:40:828 30-Apr-2007,58,-48 17,13:40:43:828 30-Apr-2007,42,-62 18,13:40:46:828 30-Apr-2007,57,-49 19,13:40:49:828 30-Apr-2007,41,-63 20,13:40:52:828 30-Apr-2007,57,-49 21,13:40:55:828 30-Apr-2007,41,-63 22,13:40:58:828 30-Apr-2007,40,-64 23,13:41:01:828 30-Apr-2007,42,-62 24,13:41:04:828 30-Apr-2007,57,-49 25,13:41:07:828 30-Apr-2007,42,-62 26,13:41:10:828 30-Apr-2007,40,-64 27,13:41:13:828 30-Apr-2007,40,-64 28,13:41:16:828 30-Apr-2007,57,-49 29,13:41:19:828 30-Apr-2007,57,-49 30,13:41:22:828 30-Apr-2007,40,-64 31,13:41:25:828 30-Apr-2007 32,13:41:28:828 30-Apr-2007 33,13:41:31:828 30-Apr-2007 34,13:41:34:828 30-Apr-2007 35,13:41:37:828 30-Apr-2007 36,13:41:40:828 30-Apr-2007,41,-63 37,13:41:43:828 30-Apr-2007,40,-64 38,13:41:46:828 30-Apr-2007,42,-62 39,13:41:49:828 30-Apr-2007,42,-62 40,13:41:52:828 30-Apr-2007,57,-49 41,13:41:55:828 30-Apr-2007,41,-63 42,13:41:58:828 30-Apr-2007,41,-63 43,13:42:01:828 30-Apr-2007,41,-63 44,13:42:04:828 30-Apr-2007,41,-63 45,13:42:07:828 30-Apr-2007,42,-62 46,13:42:10:828 30-Apr-2007,40,-64 47,13:42:13:828 30-Apr-2007,41,-63 48,13:42:16:828 30-Apr-2007,41,-63 49,13:42:19:828 30-Apr-2007,40,-64 50,13:42:22:828 30-Apr-2007,57,-49 51,13:42:25:828 30-Apr-2007,41,-63 52,13:42:28:828 30-Apr-2007,57,-49 53,13:42:31:828 30-Apr-2007,41,-63 54,13:42:34:828 30-Apr-2007,41,-63 55,13:42:37:828 30-Apr-2007,40,-64 56,13:42:40:828 30-Apr-2007,57,-49 57,13:42:43:828 30-Apr-2007,41,-63 58,13:42:46:828 30-Apr-2007,42,-62 59,13:42:49:828 30-Apr-2007,42,-62 60,13:42:52:828 30-Apr-2007,57,-49 61,13:42:55:828 30-Apr-2007,42,-62 62,13:42:58:828 30-Apr-2007,39,-65 63,13:43:01:828 30-Apr-2007,41,-63 64,13:43:04:828 30-Apr-2007,41,-63 65,13:43:07:828 30-Apr-2007,40,-64 66,13:43:10:828 30-Apr-2007,58,-48 67,13:43:13:828 30-Apr-2007,58,-48 68,13:43:16:828 30-Apr-2007,42,-62 69,13:43:19:828 30-Apr-2007,42,-62 70,13:43:22:828 30-Apr-2007,41,-63 71,13:43:25:828 30-Apr-2007,57,-49 72,13:43:28:828 30-Apr-2007,41,-63 73,13:43:31:828 30-Apr-2007 74,13:43:34:828 30-Apr-2007 75,13:43:37:828 30-Apr-2007 76,13:43:40:828 30-Apr-2007 77,13:43:43:828 30-Apr-2007 78,13:43:46:828 30-Apr-2007 79,13:43:49:828 30-Apr-2007 80,13:43:52:828 30-Apr-2007 81,13:43:55:828 30-Apr-2007 82,13:43:58:828 30-Apr-2007 83,13:44:01:828 30-Apr-2007,41,-63 84,13:44:04:828 30-Apr-2007,57,-49 85,13:44:07:828 30-Apr-2007,41,-63 86,13:44:10:828 30-Apr-2007,27,-75 87,13:44:13:828 30-Apr-2007,39,-65 88,13:44:16:828 30-Apr-2007,40,-64 89,13:44:19:828 30-Apr-2007,41,-63 90,13:44:22:828 30-Apr-2007,58,-48 91,13:44:25:828 30-Apr-2007,40,-64 92,13:44:28:828 30-Apr-2007,42,-62 93,13:44:31:828 30-Apr-2007,40,-64 94,13:44:34:828 30-Apr-2007,39,-65 95,13:44:37:828 30-Apr-2007,57,-49 96,13:44:40:828 30-Apr-2007,57,-49	St
+1.2.1	They need to rethink the design.	St
+1.2.2	It's a bad thing to see 2 APs on the same channel.	St
+1.2.3	While 1 6 and 11 are nice idea if you see 2 on the same channel that area needs tuning.	St
+1.2.4	Bob	St
+1.3.1	I was thinking the same thing about this spot.	St
+1.3.2	However, what would explain the same problem happening in the classroom where I only get AP on channel 6?	St
+1.4.1	From a 2.4GHz interfering signal like a cordless phone to an AP that has a firmware bug that no one attended to.	St
+1.4.2	Here's a widely known one.	St
+1.4.3	We see a lot of complaints now of drops when P2P software is used.	St
+1.4.4	Here's a link about why that can cause router/AP issues.	St
+1.4.5	&quot;The default firmware for Linksys (and all replacement firmwares except for the latest DD-WRT and HyperWRT Thibor) have a severe problem where they track old connections for FIVE days, which causes the router to hang when ...&quot; And this bug has been spotted in access points.	St
+1.4.6	Since your system is not well designed or cared for I only can offer commiseration.	St
+1.4.7	Bob	St

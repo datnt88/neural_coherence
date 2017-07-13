@@ -1,0 +1,24 @@
+1.1.1	I currently have a few users from my company using Cisco VPN client 5.0.06.	St
+1.1.2	Sometimes when they're away, they can not connect to the hotel or airport wireless network using the Cisco VPN Client.	St
+1.1.3	I have investigated and it seems that sometimes the router they are trying to connect to is not compatible with Cisco VPN Client protocols.	St
+1.1.4	( well..most of the times ) My question is: is there a better solution that Cisco VPN Client, one that will allow them to connect to any type of router that airports and hotels are using?	St
+1.1.5	Thanks!	St
+1.2.1	But I'm getting ahead of myself here.	St
+1.2.2	This is not an answer to how to get VPN to work across routers that don't do VPN but what I see companies do for the mobile troops.	St
+1.2.3	Ready?	St
+1.2.4	They put what is needed up on a web server with a https:// interface.	St
+1.2.5	Secure http is the next step and your company moves from VPN to web interfaces for the workflow.	St
+1.2.6	Bob	St
+1.3.1	More than likely they do not allow IPSEC though their gateway.	St
+1.3.2	This is the &quot;old&quot; way to do VPN client.	St
+1.3.3	The new way is to use SSL since that passes though anything since it runs on the HTTPS port.	St
+1.3.4	IPSEC either runs on udp 4500 or using native IPSEC on protocol 50 and UDP 500.	St
+1.3.5	A lot of providers of wireless are not technically competent enough to allow IPSEC or they choose not to avoid the support headache.	St
+1.3.6	Cisco new client is called anyconnect but you really don't need any software preload on clients if you don't want to.	St
+1.3.7	The appliance will download the correct version of the client when you log on.	St
+1.3.8	This is so much easier to use and maintain than the ipsec based clients.	St
+1.3.9	The big BUT here is that you must have new enough &quot;appliances&quot; to support anyconnect.	St
+1.3.10	Cisco has changed the way they do their vpn licenses since many people where &quot;stealing&quot; the client and connecting to a non cisco vpn concentrator.	St
+1.3.11	If you are going to have to replace your vpn appliance to run SSL you may want to also look at juniper (netscreen) vpn appliance at least get bids to use against each other.	St
+1.3.12	If you want to play with the anyconnect product the smaller routers (ie cisco 2800) have a built in free 2 license version of cisco ssl vpn appliance.	St
+1.3.13	If your company is very small using a router rather than a ASA box is much cheaper.	St

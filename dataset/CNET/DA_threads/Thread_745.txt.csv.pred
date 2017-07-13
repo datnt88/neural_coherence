@@ -1,0 +1,51 @@
+1.1.1	I have always had cable with something like a Linksys router with built in firewall.	St
+1.1.2	I just bought a Verizon Hotspot Samsung SCH-LC11 to use at a house that I will retire to in the future because it has no cable.	St
+1.1.3	The Hotspot has no firewall, of course I have windows firewall on my computers.	St
+1.1.4	What I want to know is how good is this to have without a hardware firewall and is there something I should do?	St
+1.1.5	Also I bought a WiFiRanger from 3Gstore dot com to use with the Hotspot so I can run ethernet cable to my computers.	St
+1.1.6	The WiFiRanger is a router but has no built in hardware firewall but does a router not help by the way it works to make like a firewall in a sense?	St
+1.1.7	Looking for advice and just to learn more about the setup I will be using.	St
+1.1.8	Thanks sly	St
+1.2.1	In a home environment NAT does almost as much to protect you as a firewall.	St
+1.2.2	The primary job of a firewall is to prevent unauthorized traffic from getting to your machine.	St
+1.2.3	When you have only a single real IP address the router has to be told where to send the traffic.	St
+1.2.4	It is smart enough that if you talk to a site on the internet it will allow the traffic to come back in.	St
+1.2.5	For traffic that comes in without you asking first the router is stupid and throws it away since it dose not know where to send it.	St
+1.2.6	Not a lot different than if you put a rule in the firewall.	St
+1.2.7	If you run DMZ type configuration that tells the router to send everything by default to a machine then you need a firewall more since unknown traffic will come into a machine.	St
+1.2.8	There are ways to place a hardware firewall in your setup but it gets messy since the WAN link is wireless and you still want to use wireless on your LAN.	St
+1.2.9	You could always buy one of the USB things for the verizon and buy a aftermarket router that has a firewall if you really wanted.	Sug
+1.2.10	I suspect you will be fine with just the PC firewall, just do not setup the DMZ or port forwarding unless you absolutely need it.	St
+1.2.11	Make sure you test this before you commit to a 2 year contract.	St
+1.2.12	If you cannot get LTE (4g) coverage in the house it will be very slow compared to anything else you have used.	St
+1.2.13	3G coverage is fine for phone surfing but is painful when used with a computer.	St
+1.3.1	ok, let me see if I understand.	St
+1.3.2	You are saying that if I use the WiFiRanger, since it is a router it will act as a firewall even though it does not have NAT.	St
+1.3.3	If I am right nat is what is usually what a router has when they say it has a built in firewall, I can not remember what it stands for but it seems I remember it checks incoming packets or something like that.	St
+1.3.4	So if I use the WiFiRanger, I should not worry, right?	St
+1.3.5	What about only using the Hotspot, are you saying it is also like a router and gives protection?	St
+1.3.6	Sorry just learning about all this, if it seems I am not picking this up quick.	St
+1.3.7	Thanks for your reply sly	Polite
+1.4.1	I googled NAT and do not fully understand but can see your point.	St
+1.4.2	So how would I know if the WiFiRanger has nat if it does not say in its information or are you saying that all routers have nat?	St
+1.5.1	All routers pretty much have to run nat.	St
+1.5.2	You only have a single real ip address.	St
+1.5.3	You may or may not have multiple machines that need to share this address.	St
+1.5.4	NAT is the method used to share the address between machines.	St
+1.5.5	This sharing is the key to why being stupid protects you much like a firewall.	St
+1.5.6	Think of NAT as what happens if you order something and UPS ship it to a large company but don't put the name of the person.	St
+1.5.7	All the people share the same address.	St
+1.5.8	If the mailroom had a list of packages each person was expecting they could deliver it.	St
+1.5.9	If the package was not on the list they don't know who to deliver it to.	St
+1.5.10	So if some bad person sends you a UPS package it gets stuck in the mail room.	St
+1.5.11	NAT work like that it build a list dynamically of packets to accept.	St
+1.5.12	The devices that do not run NAT are called bridges in most cases.... very technically even a router does not always NAT but this happens in commercial setting where you have multiple IP assigned to you.	St
+1.6.1	Thank you for the reply and taking time to explain.	St
+1.6.2	It makes since what you are saying, that using the WiFiRanger router is all I need to do.	St
+1.6.3	What about when you are just using the Hotspot and connect to your computer with wi-fi, does the Hotspot also act as a router as you have explained and would have NAT?	St
+1.7.1	Even if you have only a single computer the hotspot assume you might have more so it will run NAT.	St
+1.7.2	I think this device can only run as a router.	St
+1.7.3	Really the only time you don't have nat involved is for people who plug directly into a cable or DSL MODEM.	St
+1.7.4	Still lately even these devices tend to be routers running nat even if they are called modems.	St
+1.8.1	You have been great, thanks for all the information.	Polite
+1.8.2	sly	St

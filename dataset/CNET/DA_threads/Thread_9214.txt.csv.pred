@@ -1,0 +1,45 @@
+1.1.1	We are getting this message - more often on Mondays, but we got it today (Wed) on a system when trying to access a network resource.	St
+1.1.2	We have 5 computers, 1 of which sits idle and acts as a &quot;server.&quot; Some client computers get turned off at night, others do not.	St
+1.1.3	All are running both ZoneAlarm and NAV.	St
+1.1.4	We are using a DSL modem, Netgear switch and Linksys router.	St
+1.1.5	About 3 weeks ago, we found that we were getting the above message when trying to access shared folders on the server.	St
+1.1.6	Not all computers misbehave - the problem occurs on different ones on different mornings.	St
+1.1.7	When a system does have the problem, it can still access other shared resources (on other client computers) with no problem.	St
+1.1.8	It can also ping the &quot;server&quot; with no problem.	St
+1.1.9	The clients which fail are both XP and W2K systems.	St
+1.1.10	The ONLY way we have found to get these connections restored is to reboot the server system.	St
+1.1.11	Rebooting the problem clients does nothing.	St
+1.1.12	I've read that this may have something to do with &quot;renewing IP addresses&quot;.	St
+1.1.13	Any suggestions (in plain English)?	St
+1.1.14	Thanks a ton in advance, John	Polite
+1.2.1	If the server is the one handing out the DHCP information, rebooting it may be a sign the server needs attention.	St
+1.2.2	Nothing in your post tells any other clue.	St
+1.2.3	I'd look at what is the DHCP server.	St
+1.2.4	But as lightwieght your post is, all I can write is where the issue appears to be and nothing more.	St
+1.2.5	bob	St
+1.3.1	Sorry for the lack of tech info.	St
+1.3.2	Our router is the one acting as the DHCP server.	St
+1.3.3	That Linksys was replaced with a new, wireless Linksys and that didn't solve a thing.	St
+1.4.1	A new product doesn't mean the device has the latest firmware.	St
+1.4.2	And something else... For example, I picked up a new Dlink.	St
+1.4.3	It would not connect to the ISP or hand out Wifi DHCP information.	St
+1.4.4	At first I thought &quot;what a piece of junk&quot;.	St
+1.4.5	But then I remembered to check the firmware and sure enough there was new firmware.	St
+1.4.6	Said device is now just fine all around.	St
+1.4.7	Next, since you are using the linksys as the DHCP server, is it on the UPS so you know it's not subject to brownouts and odd power outages?	St
+1.4.8	In closing, if some other DHCP server is on the network, then you could have a design issue to deal.	St
+1.4.9	And finally, when I see this, I take a laptop to the linksys (or other) and jack right into it's ports to see if I can get a DHCP linkup.	St
+1.4.10	If not, I power cycle the linksys to see if that was the issue.	St
+1.4.11	So far only one replacement due to that.	St
+1.4.12	Bob	St
+1.5.1	Bob, Thanks for the suggestions.	St
+1.5.2	Unfortunately, none of these issues is of concern (they have all already been addressed).	St
+1.5.3	Since it is only this one computer that is inaccessible at times, I lean towards something having changed on it - like a Windows Update or ZoneAlarm update which is aggravating things.	St
+1.5.4	Pain in the butt.	St
+1.5.5	J	St
+1.6.1	In that case, look to see if they let Windows Update install a driver.	St
+1.6.2	If so, you've found it.	St
+1.6.3	As to Zone Alarm, you are on your own.	St
+1.6.4	I have to remove it and use the native NT/2000/XP/2003 firewall when I see such.	St
+1.6.5	Zonelabs had support for such.	St
+1.6.6	Bob	St

@@ -1,0 +1,23 @@
+1.1.1	Hmmm.	St
+1.1.2	I have a small home wireless network.	St
+1.1.3	I have three computers.	St
+1.1.4	A desktop which has a broadband router connected to it and to the phone line.	St
+1.1.5	Inside the desktop is a wireless NIC.	St
+1.1.6	Two laptops roaming around the house with wireless cards.	St
+1.1.7	All three computers can see each other and the folders athat are shared with out any trouble at all.	St
+1.1.8	However the machine that can see the internet is the Box with the broadband router connected to it.	St
+1.1.9	If I set ICS to share it drops the internet connection.	St
+1.1.10	Help what am I doing wrong??	St
+1.1.11	All machines get a DHCP address from a wireless AP both the broadband router and all the computers are in the same subnet 192.168.etc.etc, 255.255.255 Help	St
+1.2.1	&quot;If I set ICS to share it drops the internet connection.&quot; when a DHCP enabled router is being used.	St
+1.2.2	Either the router distributes the LANs IP addresses or ICS does, not both.	St
+1.3.1	I see that you are trying to share your internet connection from your first box to your two laptops.	St
+1.3.2	I'm assuming you have windows xp and you're using a dsl router/gateway that assigns an address that says &quot;192.168.0.x&quot; and if that's the case, then you must realize that windows, by default, also assigns a &quot;192.168.0.x&quot; address when you enable ICS.	St
+1.3.3	This will not work causing the two networks conflict with eachother.	St
+1.3.4	You may solve this problem by changing the address on the dsl router/gateway to &quot;192.168.1.x&quot; but it will make your first &quot;box&quot; a part of the &quot;192.168.1.x&quot; network and all the other computers a part of the &quot;192.168.0.x&quot; thus eliminating the ability of the computer using ICS to share files with the other computers.	St
+1.3.5	Since you have an access point, you don't have to eliminate your first box from sharing files to your other computers.	St
+1.3.6	If you have a dsl router/gateway or cable modem with only one ethernet port, you can connect it to the internet/WAN side of your wireless router - I call it a router because you say you can enable DHCP on it.	St
+1.3.7	Be sure to change the IP address on the wireless router so that it's not the same as the dsl/cable modem kinda like the addresses above.	St
+1.3.8	Once you have that established, none of your computers need to be plugged into wireless router and all should have access to the internet via the wireless router.	St
+1.3.9	If it's truely just a plain old access point with no routing capabilities, then plug the ethernet port on the dsl/cable modem to the (it probably only has one if it's just an AP) ethernet port on the access point and you'll get DHCP from the dsl/cable modem.	St
+1.3.10	hope that helped.	St

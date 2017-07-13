@@ -1,0 +1,31 @@
+1.1.1	Hi guys, I have recently gotten a Lenovo Ideapad S206, as I was looking for a cheap, lightweight laptop.	St
+1.1.2	However, it seems to have problems with Windows - several times when I've put the machine into sleep mode, Windows won't restart afterwards, and I've had a few blue screen crashes in the last few days as well.	St
+1.1.3	Does anyone know if these machines are prone to crashing a lot?	St
+1.1.4	Or might the problem be due to something else?	St
+1.1.5	I've tried doing a system restore, but it won't let me - I keep getting error messages.	St
+1.1.6	Any tips gratefully received!	Polite
+1.1.7	Thanks.	St
+1.2.1	It sounds like you could have a virus or other malware.	St
+1.2.2	Get your antivirus program up to date and boot into Safe Mode.	St
+1.2.3	Note that some viruses can hide themselves from your antivirus program in normal mode, so you really need to scan in Safe Mode.	St
+1.2.4	To get into Safe Mode when you first power up, hit F8 about once a second until you get the menu and select Safe Mode.	St
+1.2.5	Then run a full system scan.	St
+1.2.6	- Microsoft has suggestions and offerings at http://windows.microsoft.com/en-US/windows7/how-do-I-remove-a-computer-virus - MS forum moderator Keith has some suggestions along this line at http://answers.microsoft.com/en-us/windows/forum/windows_7-performance/windows-explorer-has-stopped-working/6ab02526-5071-4dcc-895f-d90202bad8b3 - If that fixes it, fine.	St
+1.2.7	If not, use System Restore to go back to a date prior to the beginning of the problem.	St
+1.2.8	To run System Restore, click Start -&gt; Programs -&gt; Accessories -&gt; System Tools -&gt; System Restore.	St
+1.2.9	Click the box that says Show more restore points.	St
+1.2.10	- You can check for corrupted system files.	St
+1.2.11	Open an administrator command prompt and run SFC if the above doesn't help.	St
+1.2.12	Click START, then type CMD in the search box, right-click CMD.EXE and click Run as administrator.	St
+1.2.13	Then from the command prompt type sfc /scannow.	St
+1.2.14	- Finally if all else fails, you can check the rather cryptic system event log.	St
+1.2.15	To do that click Start -&gt; Control Panel -&gt; Administrative Tools -&gt; Event Viewer.	St
+1.2.16	Once in Event Viewer click on the system log and scroll through the entries looking for those flagged &quot;error&quot; to see if you can find hints as to where the problem could be.	St
+1.2.17	` When you get your system back in good working order, I urge you to back your system up to an external hard drive and make regular periodic updates to it.	St
+1.2.18	- I hope this helps.	St
+1.2.19	Good luck.	St
+1.3.1	There are a lot of reasons for these issues beyond a bad product.	St
+1.3.2	The last few 399 buck laptops are doing fine so what you have is a warranty issue or some malware has gotten into this one.	St
+1.3.3	Your post doesn't tell much but a recent owner was complaining of crashes and they were leaving the laptop on the bed.	Sug
+1.3.4	Oops.	St
+1.3.5	Bob	St

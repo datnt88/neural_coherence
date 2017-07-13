@@ -1,0 +1,15 @@
+1.1.1	I have no local C: or D: drives visible in Disk Management, nor Nero BackitUp 3 nor Ghost 14.	St
+1.1.2	But I boot okay and they are visible in Windows Explorer.	St
+1.1.3	I have an XP SP3 HP MediaCenter 3.2 Ghz, 2 GB RAM, Raid 1 230 GB hard drives.	St
+1.1.4	Interestingly enough, when I boot up in Safe Mode Diskmanager shows C: & D:!	St
+1.1.5	Thank you.	St
+1.2.1	Check out this recent discussion at http://forums.techarena.in/windows-xp-support/809098.htm	St
+1.3.1	Thank you very much - it was indeed the Logical Disk Manager Administrative Service that wasn't started.	St
+1.3.2	Unfortunately Nero BackItUp 3 doesn't show any local drive and Ghost 14 is still having trouble seeing C:.	St
+1.3.3	Here's a sample: -Cannot create a virtual volume image of the selected drive.	St
+1.3.4	--Error E0BC0002: Object SME~Computer~BgMCAB10BEERegion-0~VMCAB10BEERegion-0-1 not found.	St
+1.4.1	Since that service is not disabled by default, are there any clues as to how it got turned off?	St
+1.4.2	For example a recent machine I worked on had the usual trojan attack and what we finally had to do was save files and start over.	St
+1.4.3	Not that we couldn't fix it but at what price?	St
+1.4.4	Just like most of us when we take it to the shop there is a price per hour of work and at 4 hours just to get things all cleaned up and almost back to a normal Windows the remaining items would take a call to Microsoft and &quot;please hold&quot; and &quot;credit card please.&quot; I can't tell how the machine get to be this way.	St
+1.4.5	Bob	St

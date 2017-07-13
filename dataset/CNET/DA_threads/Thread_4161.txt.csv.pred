@@ -1,0 +1,63 @@
+1.1.1	Last week I bought a new PC (compaq CQ5700F-OS Windows 7).	St
+1.1.2	I am using it with my old monitor (eMachines E17T4W) Problem-there is about a 2 inch strip of black from top to bottom on the right hand side.	St
+1.1.3	I ran through the monitor menu, nothing fixed the problem though &quot;Auto&quot; made the black space smaller by a couple of inches.	St
+1.1.4	I did a chat with a compaq tech who could not identify and fix the problem.	St
+1.1.5	eMachines web site offered no help either.	St
+1.1.6	So I turn to you techies hoping someone might have an idea what is going on and have a possible solution.	St
+1.1.7	Note-monitor worked perfectly with old PC (eMachines), it never had this problem.	St
+1.1.8	Old PC has been taken to recyclers so there is no way to plug it back in and see if it would still work correctly with that PC.	St
+1.2.1	I see that a lot when the monitor driver is not installed, I'm unsure why but many need this setup at the shop.	St
+1.2.2	Bob	St
+1.3.1	I did consider it might be a driver issue but did not feel comfortable trolling the web looking for a needle in a haystack-correct driver.	St
+1.3.2	I did check out the Windows 7 compatibility center.	St
+1.3.3	They listed 2039 monitors/TV's that are compatible with windows 7.	St
+1.3.4	They listed only 3 eMachines monitors.	St
+1.3.5	My eMachines monitor wasn't listed.	St
+1.3.6	I don't have the money to take it to a tech and have them fix the problem.	St
+1.3.7	So I think I will live with the black bar on my screen since it is not really a distraction.	St
+1.3.8	Just thought I'd try and fix it if I could.	St
+1.4.1	We have the two name brands and the model numbers but the driver would be the monitor driver.	St
+1.4.2	This is not so much a driver but a file called monitor.inf that let's Windows know what settings to show for that monitor.	St
+1.4.3	You can google MONITOR.INF if you want to learn what these files do.	Sug
+1.4.4	As I noted, I find many don't want to install these so a trip to a good shop is often the cure.	St
+1.4.5	Then again, you just bought the machine from who?	St
+1.4.6	Maybe they'll fix this for you.	St
+1.4.7	Bob	St
+1.5.1	Found this driver updater on CNET site.	St
+1.5.2	It was just added 6/8/11.	St
+1.5.3	I'd like to think this would be a safe download that wouldn't cause my PC to get the wrong drivers and thus create problems only a PC tech could fix.	St
+1.5.4	Do you have any opinions about this software?	St
+1.5.5	http://download.cnet.com/SlimDrivers-Free/3000-18513_4-75279940.html?tag=contentMain;contentBody;1d Also to answer your inquiry about returning item to place purchased to have drivers updated, that is not an option.	St
+1.5.6	I ordered the PC online from Target and had it shipped to me.	St
+1.6.1	I'm never had to use such.	St
+1.6.2	I'd head to e4me.com or whatever the emachines site is to find the monitor driver.	St
+1.6.3	I've yet to see driver packs include monitor.inf files.	St
+1.6.4	Bob	St
+1.7.1	The first place I checked for monitor drivers was at eMachines website.	St
+1.7.2	For my monitor there are no driver updates available.	St
+1.7.3	I think since the monitor is four years old they don't bother to offer driver updates.	St
+1.7.4	Thanks for the info about driver packs not including monitor.inf files, I did not know that.	St
+1.8.1	http://webcache.googleusercontent.com/search?q=cache:GnknDGno75AJ:www.talkcomputer.com/homebuilt/Wide-Screen-help-from-Windows-guru-needed-16245-.htm+Westinghouse+17&quot;+monitor.inf+download&amp;cd=9&amp;hl=en&amp;ct=clnk&amp;gl=us&amp;client=mozilla&amp;source=www.google.com That notes the hide feature and you can try other settings there.	St
+1.8.2	However it's possible that since the monitor is PnP (more praying?)	St
+1.8.3	that you'll have fun trying video card drivers too.	St
+1.8.4	Bob PS.	St
+1.8.5	Yes, it was sold with the Westinghouse label and maybe other names.	St
+1.9.1	So I went to the link you provided and read about how to find what graphic resolutions the graphic adapter supports.	St
+1.9.2	But because I have windows 7 (I think directions were for vista) it took me a little bit of time to find access to the list (under control panel, change display settings, advanced settings).	St
+1.9.3	Then I went to my monitor menu, and under advanced went to information.The monitor info reads &quot;1280 X 720 60 Hz&quot;.	St
+1.9.4	Then I went back to supported graphics resolutions and switched it from where it was set, &quot;1280 X 720 True Color (32 bit) 59 Hz&quot; to the same but at 60Hz.	St
+1.9.5	instead of 59Hz.	St
+1.9.6	Clicked apply and now I have full use of the screen.	St
+1.9.7	One strange note.	St
+1.9.8	When I first changed the setting from 59Hz to 60Hz I encountered a wavy screen problem.	St
+1.9.9	So I went back into the supported resolutions list and tried a few of the other 1280 X 720 choices.	St
+1.9.10	Those did not solve the problem.	St
+1.9.11	So I decided to go back to the above 60Hz setting.	St
+1.9.12	And for whatever reason the wavy screen problem was gone.	St
+1.9.13	Thank you for all your help	St
+1.10.1	59Hz was indeed a little strange as almost all LCD panels are 60Hz things.	St
+1.10.2	Sorry but it's quite odd to find such a number today in the video settings.	St
+1.10.3	Makes you wonder how that happened.	St
+1.10.4	My theory is that it had some CRT display as default.	St
+1.10.5	Good you sorted it out.	St
+1.10.6	Bob	St

@@ -1,0 +1,28 @@
+1.1.1	Hi, I am trying to understand something about IP addresses and subnets, say I have 3 computers,,,, all attached to a switch......The first has a static IP address of 192.168.1.10 the second an IP address of 192.168.2.10 and the third an IP address of 192.168.1.11, all have the subnet set as 255.255.255.0, If I use the 192.168.1.10 machine as a master and ping the other 2 machines I have no problem getting a reply from 192.168.1.11 but I can not get a reply from 192.168.2.10, i either get host unreachable or a time out message, depending on what I enter as a gateway IP address (either 0.0.0.0 or 192.168.1.1).	St
+1.1.2	Without any other hardware and without changing IP addresses, (subnets can change) is it possible for me to ping both boxes from the master and get a reply.	St
+1.1.3	If not what hardware would I need to use to make this possile.	St
+1.1.4	Thanks a lot,	St
+1.2.1	If I want to ping a x.x.2.x.	St
+1.2.2	machine from the x.x.1.x machine I change the mask to 255.255.0.0 or in the ROUTER set that up.	St
+1.2.3	Since you didn't share what router I'll go with easy.	St
+1.2.4	There is no need to ask about subnet calculations given we have google.	St
+1.3.1	Thank you, Which machine will I need to put the subnet 255.255.0.0 into, would I just put it on all 3?	St
+1.3.2	What should I have the default gateway set to?	Ques
+1.3.3	I have no router just a hub that all 3 machines plug into!	St
+1.3.4	Isn't 255.255.0.0 a class B mask which would mean that the IP address starts with something different to 192?	St
+1.3.5	Thanks again,	St
+1.4.1	You do not have a router to route the packets around the subnets so in your case the subnet is simply 255.255.0.0 for any machine that needs to get from here to there.	St
+1.4.2	Don't over analyze this.	St
+1.4.3	Do read up about it.	St
+1.4.4	Let me be clear I am not offering any tutorial.	St
+1.4.5	Just what netmask I'd use to get the ping and more to work.	St
+1.4.6	Bob	St
+1.5.1	for what reason?	St
+1.6.1	I was trying to simplify my question and put it in a format that I would understand the answers.	St
+1.6.2	Which I believe is what has happened so thank you.	Polite
+1.6.3	The top and bottom is that I am trying to configure a number of TCP/IP devices that all need to talk to each other.	St
+1.6.4	One of the devices a remote telemetary unit (RTU) has 2 ports which I have found out need to be configured on different subnets (I didn't know this before, hence no router), these need to communicate up to other pieces of equipment which must be configured on the same subnet.	St
+1.6.5	I have tried numerous combinations of IP addresses and subnets to get this to work without success, basically all the items ping round the system to check the other bits are alive, when/if they don't get a reply an alarm is generated.	St
+1.6.6	I can't clear the alarm because the items on one subnet (192.168.1.x)can not communicate to the one on the other subnet (192.168.2.x), when I used one of the many subnet calculators available on the net they came up with 255.255.255.128, I never got subnet 255.255.0.0, guess I'll give this a go on Monday when I get to work Thanks for the interest, any further comments or advise are welcome, Cheers,	St
+1.7.1	Thanks for the help.	St
+1.7.2	This all works with a subnet of 255.255.0.0 Much appreciated,	St

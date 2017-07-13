@@ -1,0 +1,26 @@
+1.1.1	Hi all, Running WinXP Pro.	St
+1.1.2	Computer has been running fine.	St
+1.1.3	Then installed SP3.	St
+1.1.4	After that, at every startup I got 2 error messages.	St
+1.1.5	The first error message said: AirGCFG.exe - Entry Point Not Found.	St
+1.1.6	The procedure entry point apsGetInterfaceCount could not be located in the dynamic link library wlanapi.dll When I clicked 'ok' on that message, a second error message came up that said: WZCSLDR2.exe - Entry Point Not Found.	St
+1.1.7	The procedure entry point apsInitialize could not be located in the dynamic link library wlanapi.dll I have since learned that the 2 error messages could have been removed by simply updating the Dlink wireless driver.	St
+1.1.8	Before I discovered that fix, I did the following.	St
+1.1.9	I put the PC in Safe Mode, and I checked C:\Windows\SYSTEM32\wlanapi.dll to see if the SP3 install had added a second wlanapi.dll file.	St
+1.1.10	I thought that might be causing the problem based on some suggestions I found in a google search.	St
+1.1.11	Then I deleted another file that's almost identical.	St
+1.1.12	It was the file: WlanApi.dll.	St
+1.1.13	The W and A are capitalized and the file size was larger than the wlanapi.dll file that I didn't touch.	St
+1.1.14	Within a second or two after deleting the WlanApi.dll file, the monitor froze.	St
+1.1.15	I hit the soft reboot and now when the computer comes on, the monitor stays completely blank, nothing on it, no post, nothing.	St
+1.1.16	I turn the pc off and on and there are no beeps, all pc led's come on, the fans are on, the dvd led's light up for a moment, but monitor is blank.	St
+1.1.17	Any ideas on what I can do to get the pc up and running again would be greatly appreciated.	St
+1.2.1	If you can start in Safe Mode try to restore to an earlier date.	St
+1.2.2	Pick Last known good configuration.	St
+1.3.1	I'm not aware of any file on a HD that will block the machine from POST.	St
+1.3.2	If the machine &quot;did&quot; beep after POST and now does not....make it smaller.	St
+1.3.3	Work with the bios....get the machine to beep.	St
+1.3.4	You don't need for a beep.	St
+1.3.5	HD's Floppies Optical Other Unplug that stuff.....get the machine to beep.	St
+1.4.1	Thanks for your input, I followed the steps in the &quot;No POST&quot; guide, and now my pc is working good.	St
+1.4.2	http://www.techspot.com/vb/showthread.php?p=667161	St

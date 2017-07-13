@@ -1,0 +1,20 @@
+1.1.1	hi everyone, good day.	Polite
+1.1.2	I 2 have 3com 5500g switch and I installed new transceiver which is 1000BASE-LX SFP 3CSFP92.	St
+1.1.3	How many LC connector do I need to buy?	St
+1.1.4	is it recommended to have 2 for transmitter and receiver or it is being fused?	St
+1.1.5	please guide me.	Sug
+1.1.6	thank you.	Polite
+1.2.1	Not sure what you are asking.	Res
+1.2.2	You can only plug a single cable into each SFP .	St
+1.2.3	It has 1 strand for transmit and 1 strand for receive.	St
+1.2.4	You want to cross transmit to receive, most cables you can very carefully swap the pair at the end.	St
+1.2.5	What you need is a dual strand LC-LC cable the proper length.	St
+1.2.6	I assume even though you have LX SFP you are going a short distance so you can use multimode cable.	St
+1.2.7	If your question is do you buy 4 SFP and run 2 connections between the switches for redundancy then you get even more questions since you must have configurations to allow for it.	St
+1.2.8	If you are running a fiber within a building it is very unlikely it will ever fail.	St
+1.2.9	The failure for fiber is that someone physically breaks it.	St
+1.2.10	When you look at fiber redundancy you must run the fibers in different paths since things that break 1 fiber tend to break all at the same time.	St
+1.3.1	Ok rereading I see what you are asking.	St
+1.3.2	You can buy 2 single strand cables but it is a pain.	St
+1.3.3	Buy what you call a fused cable which is called dual strand in most sites.	St
+1.3.4	The ends can be unsnapped and swapped very easy if the orientation is not correct... generally most companies they are crossed on short cables just like you need.	St

@@ -1,0 +1,16 @@
+1.1.1	I ran chkdsk /r on a Windows drive that detected a couple bad sectors.	St
+1.1.2	(Windows was freezing) It notified that it found and fixed all errors successfully.	St
+1.1.3	My question is, how long could this fix work for?	St
+1.1.4	What are people's success rates with this when ALL bad sectors ARE fixed?	St
+1.1.5	Because my understanding is that bad sectors could spread causing even more drive failure.	St
+1.1.6	Alternatively could a bad shutdown or power outage cause bad sectors, therefor causing the drive to still be good in all other areas?	St
+1.1.7	In which case a chkdsk /r would be a permanent fix.	St
+1.2.1	We can't know the future for this drive.	St
+1.2.2	Today's drives are made to have zero bad sectors as the drives map in spares and more.	St
+1.2.3	I must avoid a deeper discussion about how that works but when a drive fails to the point it is showing bad sectors to the OS then you know to not trust it.	St
+1.2.4	That is, backup now or don't complain later.	Ques
+1.2.5	Bob	St
+1.3.1	you might consider downloading and running the HD manufacturer's diagnostics utility and do a thorough read/write analysis.	St
+1.3.2	If the utility finds errors in media integrity, it may be able to remap the bad allocation units to spares.	St
+1.3.3	If any such repairs are needed, it's time to get a replacement HD on hand ASAP.	St
+1.3.4	Backup or, better yet, create a full image of the drive on another one while waiting for arrival of the new drive.	St

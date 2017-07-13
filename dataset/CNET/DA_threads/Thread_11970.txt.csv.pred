@@ -1,0 +1,35 @@
+1.1.1	I just installed a simple wireless network using: 1) Netgear RangeMax router (WPN824) connected to Toshiba cable modem.	St
+1.1.2	2) PC#1 - Dell Dimension 4300, Win XP Home Edition SP2, Windows firewall disabled, EZArmor firewall on with network identified for sharing, specific folder identified, connected to router via ethernet cable.	St
+1.1.3	3) PC#2 - Dell Dimension 3000, Win XP Home Edition (not sure of SP#), Windows firewall exceptions set to allow sharing, specific folder identified, connected via Netgear RangeMax Wireless PCI adapter (WPN311) I updated the security settings on the router to use WPA encryption & MAC addresses.	St
+1.1.4	Added MAC address of PC#2 to list - did not add PC#1 because it did not come up as connected (that's how I entered MAC address for PC#2 - the router config site identified who was connected at the time I updated the security).	St
+1.1.5	PC#1 - Internet works.	St
+1.1.6	Network Places only shows shared folders from PC#1 itself.	St
+1.1.7	Workgroup computers shows both PC#1 & PC#2, but PC#2 gives error when I try to open/explore (... not accessible.	St
+1.1.8	You may not have permission to access this network resource ... path not found.)	St
+1.1.9	PC#2 - Internet works.	St
+1.1.10	Wireless signal say 'Excellent.'	St
+1.1.11	Network Places shows nothing.	St
+1.1.12	Workgroup computers shows nothing.	St
+1.1.13	Any thoughts on why PC#1 cannot get into PC#2?	St
+1.1.14	...why PC#2 does not see either computer (not even itself) under the workgroup or Network Places?	St
+1.2.1	by accessing the number through ipconfig/all from a command prompt.	St
+1.2.2	Firewalls are one of the main reasons people fail to network their machines.	St
+1.2.3	For this reason I would turn them off until a viable network has been established.	St
+1.2.4	Then I would : 1) check the workgroup names 2) check the IP/subnet ranges for each machine 3) search for each computer by IP and then by name	Sug
+1.3.1	All of the searches & areas where I can enter an address for a computer that I can find ask for the name of the computer rather than the IP.	St
+1.4.1	Start/Search/for Files or Folders/Computers or People/Computer on the Network/Computer name or you may enter an IP address.	St
+1.5.1	Turned off all firewalls (realized my son's computer, PC#2)had Norton Internet Security firewall on - thought he only had Windows firewall and Norton Antivirus.	St
+1.5.2	Anyway, turned all off, and voila - we could both see & access each other's computers.	St
+1.5.3	I then configured my EZArmor firewall to allow my network as a trusted zone for sharing info and configured his Norton firewall to allow the network as well.	St
+1.5.4	Turned them on and still had access both ways.	St
+1.5.5	I even printed through his printer.	St
+1.5.6	But...	St
+1.5.7	I put my PC (#1) on standby and went out - in the meantime, he shut his down to rearrange his computer desk.	St
+1.5.8	When I came off standby and he turned his on - back to the same problem as before for me - his PC shows in my Workgroup view but tells me I don't have access when I try to view shared folders/printers, etc.	St
+1.5.9	He can still use my shared folders in his Network Places but goes back to previous error saying he does not have permission to access the Workgroup when he tries to view the computers through there.	St
+1.5.10	I turned all firewalls back off but no luck.	St
+1.5.11	Any thoughts on these developments?	Polite
+1.6.1	guarding the gates can lead to confusion as to which program is blocking the way.	St
+1.6.2	Personally I use one or the other (actually only XPs firewall).	St
+1.6.3	I find Security Suites to be overly resource hungry and invasive.	St
+1.6.4	As a test, try uninstalling Norton/EZ Armor and use only XPs firewall making sure you enable File and Print Sharing on the Exceptions tab.	St

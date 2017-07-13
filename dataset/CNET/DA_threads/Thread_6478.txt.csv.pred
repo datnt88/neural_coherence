@@ -1,0 +1,31 @@
+1.1.1	Hello All, I would like to create multi-WLAN for personal communications, and gaming purposes.	St
+1.1.2	Each WLAN (is located in seperate house) and consists of a wireless AP wirely- connected to wireless router.	St
+1.1.3	The computers in each of these WLANs are connected wirelessly to the router.	St
+1.1.4	The houses (containing the WLANs) are locates within the region of a central wireless internet AP tower antenna.	St
+1.1.5	I managed to utilize this central AP to make the connection, and make multiplayer gaming on two computers (in different houses and without using the internet services), each computer is connected to the central AP by a USB witrless adapter.	St
+1.1.6	My question is what are the necessary configurations that I need to make on the routers and APs?	St
+1.1.7	If it helps, I have a number of different TP-Link routers (wr1043, wr743, wr543), micronet APs.	St
+1.1.8	Please note that wr743 and 543 have AP client mode that can be used to simultaneously connecting wirelessly to central AP and to attaced computers.	St
+1.1.9	I'll appreciate any advice..	Polite
+1.2.1	In your situation, you are going to require a Wireless LAN Controller which is very expensive.	St
+1.2.2	Though one controller can manage and control up to 25 Access Points.	St
+1.2.3	Here at Honda I manage 2 controlers with 22 access points and I do load balancing on both and have the extra one for fault tollerence.	St
+1.2.4	These controlers push out to the Access Points a number of things.	St
+1.2.5	They broadcast 3 different networks that we have set up for wireless.	St
+1.2.6	A guest network, a non secret network, and a confidentail network.	St
+1.2.7	All three wirelss and using the same Access Points set up through the controller.	St
+1.2.8	In your case for home use, I don't think it would be cost effective to go this route.	St
+1.2.9	Though if you could find a Wireless LAN controller for cheap, then by all means go for it.... ~SpyderZ	St
+1.3.1	Thank you for the reply.	St
+1.3.2	Actually I need a simpler solution.	St
+1.3.3	WLAN controllers cost arround $1500.	St
+1.3.4	I don't to put that much for this project.	St
+1.3.5	I think it can be done with the available simple routers and APs.	St
+1.3.6	As I said, there were no problem in connecting as client using USB wireless adapters.	St
+1.3.7	But this works only for one user per house.	St
+1.3.8	To enable more than a user in each house, a router and AP (or two APs) are needed.	St
+1.3.9	I think one AP (in client mode connected to the central AP) connected to second router/AP can do the task (or my be not).	St
+1.3.10	I'm using tedious trial and error procedure, and there is some progress in the APs way.	St
+1.3.11	But no luck in the router in AP client mode.	St
+1.3.12	Are there any suggestions about router configurations?	Ques
+1.3.13	Thanks again..	St

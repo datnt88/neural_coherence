@@ -1,0 +1,27 @@
+1.1.1	Hi, I have 2 (1 old, 1 new) computers (The old one running Windows XP Professional and the new one running Windows XP Professional SP2) that are sharing the same cable net connection through a Linksys WRT54GC router.	St
+1.1.2	This configuration worked for a couple of years but now, only the new computer will connect to the internet.	St
+1.1.3	The old computer doesn't connect at all.	St
+1.1.4	I have already tried: 1) Restarting the Computer 2) Powercycling the Modem and Router That didn't fix it.	St
+1.1.5	Also, I notice that when I restart the old computer, in IPCONFIG, everything seems correct, but the internet connection doesn't work.	St
+1.1.6	Here are the settings: Connection-specific DNS suffix: ok.shawcable.net IP Address: 192.168.1.101 Subnet Mask: 255.255.255.0 Default Gateway: 192.168.1.1 Then, I enter the command ipconfig /release and I get this Connection-specific DNS suffix: IP Address: 0.0.0.0 Subnet Mask: 0.0.0.0 Default Gateway: Then, I enter ipconfig /renew and I get this error: An error ocurred when renewing interface Local Area Connection : unable to contact your DHCP server.	St
+1.1.7	Request has timed out.	St
+1.1.8	Then, I enter the command IPCONFIG again and I see this configuration: Connection-specific DNS suffix: Autoconfiguration IP Address: 169.254.78.32 Subnet Mask: 255.255.0.0 Default Gateway: ---------------------------------------------------------------------- I just think its weird how one computer can connect to the net and one cant.	St
+1.1.9	Thanks in advance	St
+1.2.1	is to update the old one to SP2.	St
+1.2.2	There are enhanced networking applications in SP2.	St
+1.2.3	Second thing is to update the router firmware.	St
+1.2.4	Third - move the Ethernet cable to another port on the router.	St
+1.2.5	One port may have gone bad.	St
+1.2.6	Fourth - replace the NIC.	St
+1.2.7	Or just for grins, swap it with the working one, see if the problems moves.	St
+1.2.8	That oddball IP address 169.254.78.32 comes up when the NIC cannot access the LAN.	St
+1.2.9	Wayne Click here to see the CNet faces, learn a little about analog and digital data, internet connections, spyware removal, and download free software.	St
+1.2.10	5 dB hot.	St
+1.3.1	First of all, I can't update the older one to SP2 because last time I attempted to install SP2 on the computer, the computer locked up in the middle of installation and wouldn't boot and the OS had to be reinstalled.	St
+1.3.2	I'll try and update the router firmware and see what happens.	Sug
+1.3.3	I'l also try plugging the cable into another port on the router.	Sug
+1.3.4	I really don't want to replace or move the NIC.	St
+1.3.5	Thanx for the help	St
+1.4.1	trading connections and see if one works or both.	St
+1.4.2	Could make your guesswork easier in narrowing down the problem.	St
+1.4.3	Rick	St

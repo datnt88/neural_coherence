@@ -1,0 +1,18 @@
+1.1.1	I spent the weekend adding all my static IP addresses on my network to the routing table, checking the box to make them publicly available.	St
+1.1.2	Then I moved all of the servers from the WAN switch, to the DMZ switch.	St
+1.1.3	My config is that I have a LAN switch for desktops, a DMZ switch for servers, and a WAN switch for those machines that I have not yet moved behind a firewall.	St
+1.1.4	Now that those machines are moved behind the DMZ I basically have an empty WAN switch that connects one port to the carrier managed CISCO 1800 Router plugged into it's FE 0/0 port.	St
+1.1.5	My firewall WAN switch is plugged into the WAN switch that is connected to the CISCO FE 0/0 port.	St
+1.1.6	The problem: When I unplug the switch from the FE 0/0 port and plug the D-Link DFL-700 Firewall directly into the FE 0/0 port I get NO lights.	St
+1.1.7	The connection is dead.	St
+1.1.8	When I go back to plugging the D-Link DFL-700 directly into the switch I get normal connectivity.	St
+1.1.9	Why am I required to plug my WAN into a switch and why does the CISCO 1800 FE 0/0 port require a switch instead of a WAN port from my Firewall?	St
+1.2.1	Sometimes I have to use a cross over network cable as some gear is not AUTO MDX.	St
+1.3.1	SOLUTION: A cross-over cable solved my firewall (WAN port) to CISCO LAN port connection problem.	St
+1.3.2	The rule is simple: Since a firewall and a router are &quot;like devices&quot; they require a cross-over cable to talk to each other.	St
+1.3.3	A switch and a router, or a switch and a firewall are not alike and therefore can utilize a straight through cable.	St
+1.3.4	BONUS TIP (albeit somewhat unrelated to the solution to this thread): You'll need a &quot;rolled cable&quot; if you want to communicate with a console on many CISCO routers.	St
+1.3.5	A rolled cable has ends that are exact opposites (reversed) at each end.	St
+1.4.1	As gear makers got flooded with support calls about this and the price of adding AUTO MDX dropped to pennies or nothing you will find newer gear to work without the cross over cable.	St
+1.4.2	Yes, this is the old rule but it's not longer what I would call a hard rule.	St
+1.4.3	Bob	St

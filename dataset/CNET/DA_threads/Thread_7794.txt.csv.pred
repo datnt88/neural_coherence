@@ -1,0 +1,34 @@
+1.1.1	I have an WD 80 GB hd and only 74 GB IDE is useable.	St
+1.1.2	When reformatting and partitioning, can the 6 GB be reclaimed?	St
+1.1.3	Thanks Ben	St
+1.2.1	Keep in mind that the drive is 80 billion bytes and not 80 gigabytes.	St
+1.2.2	Let's convert that 74 GB to billions and see what we get?	St
+1.2.3	1 GB = 1,073,741,824 so 74 time 1,073,741,824 is... 79,456,894,976 bytes or very close to the drives capacity.	St
+1.2.4	The remaining &quot;loss&quot; could be some fraction you didn't note or space consumed by the format which is correct.	St
+1.2.5	There.	St
+1.2.6	We've reclaimed the missing space.	St
+1.2.7	Bob	St
+1.3.1	Are you sure that you aren't getting 6 GB lost by converting from bytes to Gigabytes?	St
+1.3.2	If 1024 Bytes = 1 Kilobyte, 1024 Kilobytes = 1 Megabyte, and 1024 Megabytes = 1 Gigabyte, then 1,073,741,824 bytes = 1 Gigabyte and so, 80,000,000,000 bytes = 74.50580596923828125 GB which is where you are getting 74 GB from as I have a couple machines with similar drives.	St
+1.3.3	Regards, JB	St
+1.4.1	CP / Disk Management shows &quot;C&quot; with 34.18 GB NTFS, and &quot;D&quot; with 40.34 GB NTFS (both show healthy) Note, this is in GB, referring to an 80 GB drive.	St
+1.4.2	I think I found the answer on Google.	St
+1.4.3	Following taken from Google hit... &quot;Because your system reserves 5% for root.	St
+1.4.4	Even when the filesystem is full there is some space to root fix the things.	St
+1.4.5	This extra space can be used only by root.&quot; Thanks Ben p.s.	St
+1.4.6	Just curious... could the 5% space be recovered if wanted?	St
+1.4.7	?	Ques
+1.5.1	It's an 80 billion byte drive.	St
+1.5.2	Tell me the make and model number of the drive so we can confirm that.	St
+1.5.3	Bob	St
+1.6.1	Belarc advisor shows WCD WD800JB-00JJC0 (80.02 GB) Ben	St
+1.7.1	http://www.westerndigital.com/en/products/products.asp?DriveID=32 Look closely at User Sectors Per Drive	St
+1.8.1	NIL	St
+1.9.1	Googling Western Digital on another subject, I found this.	St
+1.9.2	http://www.winxpfix.com/NEWS/06-28-06/Western-Digital-settles-capacity-dispute.htm You know your computers!!!	St
+1.9.3	Thanks again, Ben	St
+1.10.1	Only in computers is there a discrepency.	St
+1.10.2	And it was not WD (or others) that caused this.	St
+1.10.3	It was a short cut by programmers.	St
+1.10.4	I could find no document that claimed this drive to be 80 GB (binary.)	St
+1.10.5	Bob	St

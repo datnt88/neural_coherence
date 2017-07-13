@@ -1,0 +1,23 @@
+1.1.1	Hi, I am thinking of purchasing a BFG nVidia 7300 GT OC graphics card and it needs a 350 watt power supply, will it still work if I disable some enhanced graphics capabilities?	St
+1.1.2	Thanks!	St
+1.2.1	It turns out that card is very hungry and in their case the machine would not boot.	St
+1.2.2	Bob	St
+1.3.1	Is there any way I can use that card without buying a new power supply?	Ques
+1.4.1	If i disable everything in the device manager that i do not use will it work?	St
+1.5.1	If i did try it could it cause damage to the card or any other components?	St
+1.6.1	NIL	St
+1.7.1	NIL	St
+1.8.1	i know several people who've put 7600gs (the next step up in the nvidia lineup) in machines with 300W power supplies and they're working fine.	St
+1.8.2	if the card doesn't need an external pci-e power connector (and 7300gt's don't), it doesn't draw that much power.	St
+1.8.3	nvidia 7000 series GPUs are very power frugal and simply do not need a huge power supply.	St
+1.8.4	if you don't believe me, believe these figures: http://www.anandtech.com/video/showdoc.aspx?i=2717&p=4 http://www.xbitlabs.com/articles/video/display/power-noise_6.html a normal PC with a 7600gt (2 steps up from a 7300gt) at full load only draws 205W so a good 300W power supply is certainly sufficient in a typical pc (one hard drive, one optical drive, non-overclocked cpu).	St
+1.8.5	with that sadi, the manufacturer's suggested power supply is a &quot;rule of thumb&quot; and based on a somewhat &quot;full&quot; pc.	St
+1.8.6	nvidia recommends 18A on the 12V rail.	St
+1.8.7	if your power supply doesn't list the amperage of the 12V rail, all is not lost.	St
+1.8.8	good power supplies are usually conservative in their ratings; conversely, bad ones typically overstate their figures.	St
+1.8.9	just buy it and plug it in.	Sug
+1.8.10	if it posts, you're in good shape for the 2nd test: play a game (or a benchmark like 3dmark05 from here: http://www.futuremark.com/download/ ).	St
+1.8.11	if the game/benchmark plays without issue, you're fine.	St
+1.8.12	if the boot fails, then the power supply is probably *already bad*.	St
+1.8.13	if the pc crashes during the benchmark, or the graphics are corrupted during the game, then the powersupply is being overtaxed.	St
+1.8.14	if either of these fails, *then* get a new powersupply.	St

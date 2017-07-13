@@ -1,0 +1,28 @@
+1.1.1	My new broadband provider has sent me a Netgear DG834GT (108Mbs), but I already have a DG834G (54Mbs).	St
+1.1.2	My house has no wired ethernet, my wireless router just plugs straight into the phone line via the filter.	St
+1.1.3	We have three laptops and currently we don't get wireless reception in one part of the house.	St
+1.1.4	I was wondering whether I could use my spare router (my old one) to create an access point somewhere in the trouble spot (which, obviously, is at the opposite end of the house to the main router).	St
+1.1.5	My understanding of the difference between Access Point, Repeater and Wireless Bridge is really really vague.	St
+1.1.6	Any help would be greatly appreciated.	St
+1.2.1	&quot;my wireless router just plugs straight into the phone line via the filter&quot; On DSL the DSL modem does not get a filter.	St
+1.2.2	Are you on DSL?	St
+1.2.3	See this link -&gt; http://www.rkssoftware.com/mightyfax/dslhookup.html http://www.netgear.com/Products/RoutersandGateways/GWirelessRouters/DG834G.aspx does not appear to be configurable as an access point.	St
+1.2.4	Bob	St
+1.3.1	Could I plug both routers into two phone sockets and have them both connect to my broadband provider, or is that not possible (only one log-in per line)	St
+1.4.1	DSL doesn't work like that.	St
+1.4.2	Dead end.	St
+1.4.3	I'll guess you are having issues such as coverage or such.	St
+1.4.4	The 2 items I check when I see that is... 1.	St
+1.4.5	Change the channel to 1, 6 or 11 and retest.	St
+1.4.6	2.	St
+1.4.7	Make sure the router firmware is the latest.	Res
+1.4.8	Bob	St
+1.5.1	I'm not sure.	St
+1.5.2	But that photo is pretty much my set-up.	St
+1.5.3	My router and regular phone plug into a 'micro-filter', which I guess is the line-splitter thing, and that plugs into the phone line on the wall.	St
+1.6.1	OK, thanks.	St
+1.6.2	I'll give that a go.	St
+1.6.3	Seems like that's the only option, without buying something new - like a repeater.	St
+1.7.1	I just came across this Netgear page: http://kbserver.netgear.com/kb_web_files/n101496.asp My DG834G is a modem/router/switch/access point/firewall in one, and I've seen from the router admin page that I can switch off its DHCP assigning function.	St
+1.7.2	If I disabled its auto-configuration to a network, gave it a static IP outside the range of my main router (DG834GT), gave my laptops static IPs, and if I made sure the router(GT) and access point(G) were broadcasting the same SSID on different channels... wouldn't that work?	St
+1.7.3	The GT would now be a modem & wireless router; the G would be an access point.	St

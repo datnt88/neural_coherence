@@ -1,0 +1,35 @@
+1.1.1	AMD 2000 A techie partitioned my hard drive, leaving me with XP on one side and Vista on the other.	St
+1.1.2	I've been using Vista exclusively for two years.	St
+1.1.3	Recently it got stuck in a boot loop (right after AVG detected a trojan it said it couldn't repair).	St
+1.1.4	It got to the screen with the green loading bar, then back to the fast-moving set-up option screens (&quot;Press F2 for setup&quot;, etc.	St
+1.1.5	), and would stay in that cycle forever while the PC was on.	St
+1.1.6	So I started using the other drive (XP), which I could choose at one of the early set-up screens.	St
+1.1.7	It booted fine.	St
+1.1.8	Then I got &quot;smart&quot; and tried to repair the Vista drive.	St
+1.1.9	Inserted CD, pressed F2 during boot, set boot priority to CD drive as number one.	St
+1.1.10	Now when I turn on the PC the hard drive buzzes to life, but the CD drive does not seem to kick in (though its light blinks as if thinking) and nothing happens on screen (it says &quot;no signal&quot; and goes to standby).	St
+1.1.11	How can I boot from hard drive again?	St
+1.1.12	Any ideas on course of action?	St
+1.1.13	Thanks	Polite
+1.2.1	What happens if you go into the BIOS setup again (via F2) and set it to boot from the hard disk?	St
+1.2.2	From your story it's still set to boot from that DVD-drive (Vista doesn't come on CD, it comes on DVD).	St
+1.2.3	If that doesn't work, it should try the second option, but for some reason it seems it doesn't.	St
+1.2.4	The hard drive turning is just hardware.	St
+1.2.5	Doesn't say anything about booting.	St
+1.2.6	Just changing the boot sequence shouldn't harm the hard disk in any way.	St
+1.2.7	That's why I think (hope) that everything will be fine if you switch that setting back.	St
+1.2.8	Kees	St
+1.3.1	Thanks for responding.	St
+1.3.2	Actually I couldn't get that far for a while (no screens ever came up so F2 didn't do anything).	St
+1.3.3	After a few tries I got back into bios and changed the boot preference back to hard drive.	St
+1.3.4	However, now when the screen comes up asking me to choose which drive I want to run, I get Vista or &quot;a previous version of windows&quot; whereas I used to get Vista or XP as my choices.	St
+1.3.5	But worse, the arrow keys don't work on that screen, so the Vista option is highlighted and I can't change it, so after 25 seconds it tries to boot Vista automatically, triggering the loop.	St
+1.3.6	Also on this screen is an option to press F8, however doing so also does nothing.	St
+1.3.7	So at this point Vista is looping and I am no longer able to choose XP, which I had been doing for a week or so.	St
+1.3.8	I'd prefer not to take it in for repair because where I live that means a week.	St
+1.4.1	Before you make changes to your machine, save a copy of the HDD to some external drive.	St
+1.4.2	I use CLONEZILLA and while it takes hours (I let it backup overnight) it beats the pain when I want to try something dangerous.	St
+1.4.3	Fixing a tech's custom hack installed XP after Vista job needs a lot of explaining how they did that.	St
+1.4.4	Also you have to have the XP CD used to install XP as well as the Vista DVD for some boot repairs.	St
+1.4.5	If there is no other choice and you are willing to risk it all, go get EasyBCD from http://neosmart.net/dl.php?id=1 and see if you can repair the boot manager.	St
+1.4.6	Bob	St

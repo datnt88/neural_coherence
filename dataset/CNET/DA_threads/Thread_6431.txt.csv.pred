@@ -1,0 +1,60 @@
+1.1.1	Hi Guys/Gals, My wireless connection is not working and i cannot log on to it, I have connected a Netgear WGT624 V3 Wireless Router to my Motorola SurfBoard SB5101E Modem which is connected to Telewest Cable Broadband (internet works fine if i access directly through the modem), on the router the power light is lit and also the internet light flashes rapidly but the wireless light comes on for a couple of seconds and then goes out - i think this is the problem?	St
+1.1.2	I have tried logging on to the router to check the wireless settings but cannot access it, i have also tried connecting directly via LAN but cannot get this to work either although i am not sure if i have connected it correctly?	St
+1.1.3	Any ideas/comments/advice is very much appreciated!!	St
+1.1.4	Thanks in advance, BigG2.	St
+1.2.1	Any ideas - anyone?	St
+1.2.2	Cheers, BigG2.	St
+1.3.1	What computer make & model?	St
+1.3.2	What computer OS?	St
+1.3.3	If XP, is it SP2 and fully updated?	St
+1.3.4	Use a working Internet connection to download and install ALL the latest drivers from the PC maker's website.	St
+1.3.5	If you purchased the wireless adapter separately, download and install the wireless adapter drivers from the adapter maker's website.	St
+1.3.6	Make a wired connection to a numbered port on the back of the router.	St
+1.3.7	Can you log in to the routers admin page now?	St
+1.3.8	* * * * * Ultimately, you need to follow the procedure to install the latest firmware on the router: http://kbserver.netgear.com/products/WGT624v3.asp The REFERENCE MANUAL is there, too.	St
+1.4.1	I have exactly the same problem as this and is connected in the same way, i have a degree in Networking, and cant resolve this problem, Im thinking it must be a fault with the product and will have to contact netgear.	St
+1.4.2	Before this however, I will try to login using a different Ip address; 192.168.0.1 as opposed to the 192.168.0.2 as it says in the manual.	St
+1.4.3	If anyone else had this problem can you tell me what you did to resolve it??	Ques
+1.4.4	Jon	St
+1.5.1	Hi mate, Well it is now sorted, what i did is connect the router to the modem as stated (make sure your modem is on when you power it back up as some go in to standby).	St
+1.5.2	Then i connected a LAN cable to the modem and logged in to it that way, then i ran the wizard and hey presto it works!!	St
+1.5.3	Maybe this will work for you as well!	St
+1.5.4	Regards, BigG.....	St
+1.6.1	Login is http://www.routerlogin.net/ The manual for me Netgear WGR614v6 says http://192.168.1.1/basicsetting.htm But I use http://www.routerlogin.com/basicsetting.htm I would try these and see if you can login.	St
+1.6.2	Probably the last one will work.	St
+1.6.3	Rick	St
+1.7.1	I bought a refurbished router.	St
+1.7.2	Netgear indicated that the installation guide and software can be downloaded from their website, but I could only find firmware.	St
+1.7.3	Anyone know where I can find installation software?	St
+1.8.1	ftp://downloads.netgear.com/files/wgt624_install_guide.zip But I don't see it tell us to use any install software.	St
+1.8.2	Go figure why since it's a web browser interface?	St
+1.8.3	Bob	St
+1.9.1	Here is the manual http://kbserver.netgear.com/pdf/wgt624v3_ref_manual_25Apr05.pdf Follow the instructions.	St
+1.9.2	Rick	St
+1.10.1	Okay, I'm having pretty much the same problem, with the exception that I have no Wireless or Internet light activity.	St
+1.10.2	All computers connected to the router still have internet, but I can't log into the router at all with routerlogin or IP Addresses.	St
+1.10.3	And I can't connect to the router wirelessly at all.	St
+1.10.4	Any suggestions?	St
+1.11.1	Please check this link too.	Sug
+1.11.2	-&gt; http://forums.cnet.com/5208-6142_102-0.html?forumID=5&threadID=300621&messageID=2808407	St
+1.12.1	Unfortunately I don't have ZoneAlarm so that didn't help at all, but thanks for trying.	Polite
+1.13.1	I'm reading reports of it breaking Norton and more.	St
+1.13.2	Since I don't see what you use, uninstall the KB noted at http://forums.cnet.com/5208-6142_102-0.html?forumID=5&threadID=300621&messageID=2808407	St
+1.14.1	Have your computer connect.	St
+1.14.2	Start, run or hit the Windows Key and the R key at the same time.	St
+1.14.3	typr cmd hit enter type ipconfig /all (space between the g and /) hit enter look for the default gateway.	St
+1.14.4	Might look something like 192.168.1.1 What ever the default gateway is, Open your browser and type the default gateway in the browser.	St
+1.14.5	It will then prompt you for your username and password.	St
+1.14.6	Hope this helps.	St
+1.14.7	Rick	St
+1.15.1	You should know that if router is not set up to allow wireless login then it will deny you.	St
+1.15.2	Try to login to the router by directly connecting your computer (preferably the one you used on initial setup)to it.	St
+1.15.3	Normally, as others have pointed out, you just type in 192.168.1.1 to connect to the router via a web browser.	St
+1.15.4	If this fails then you may have to reset the router so that you can login using the default username & password.	St
+1.15.5	Netgear's official support page: http://kbserver.netgear.com/products/WGT624v3.asp	St
+1.16.1	Set computer to DHCP and let it get IP from switch Based on PudgyOne's response I flashed on the fact I hard set my laptop's IP to 192.168.1.2 which should have worked just fine with 198.162.1.1 but the web page would not load.	St
+1.16.2	Setting the laptop to DHCP it got the same Ip !92.168.1.2 from the netgear switch but the page loaded.	St
+1.16.3	what a wonderful way to kill a day so much fun.	St
+1.16.4	I consider this a bug as the ipconfig /all returned the same thing for my setting whether I hard set the IP mask and gateway or I let DHCP do it.	St
+1.16.5	Yet one works and one doesn't.	St
+1.17.1	I mistyped the ip in the post should have typed I hard set my laptop's IP to 192.168.1.2 which should have worked just fine with 198.168.1.1 but the web page would not load.	St

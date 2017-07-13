@@ -1,0 +1,46 @@
+1.1.1	I am trying to set up a wireless network at home which will also let me connect wirelessly with my work laptop using vpn.	St
+1.1.2	The laptop has to go through a cisco pix firewall but I do not want other devices going through that, though I still want other devices to be able to connect wirelessly.	St
+1.1.3	I set it up the following way and it connected successfully, but the problem is all wireless traffic is going through the pix and I only want the laptop to go through the pix: qwest dsl modem---cisco pix 501---belkin Play N600 N+ wireless router---Laptop with windows 7.	St
+1.1.4	I also have a home computer that I want to connect to the wireless without going through the pix, and at some point to connect other devices as well...(tv, etc).	St
+1.1.5	However, I can't figure out how to configure it so this will work.	St
+1.1.6	If I set it up: modem---router---pix how can I make the laptop connect wirelessly but still go through the pix in order to enable the vpn connection, but not force other wireless connections to go through the pix?	St
+1.1.7	Do I need a second router attached somewhere in order to do this or is there some other way?	St
+1.2.1	You pretty much have the 2 options you mentioned and only running with the pix connected to the modem will actually meet your needs.	St
+1.2.2	If would be nice if your belkin had true routing ability so you could have multiple subnets behind it but from a small look at the manual it does not appear to have it.	St
+1.2.3	Been a while since I used a real pix since cisco has end of lifed all these.	St
+1.2.4	I assume you are forming the vpn tunnel to using the pix and not vpn software on your home laptop.	St
+1.2.5	Next I assume you want the vast majority of your traffic to go directly to the internet and only a small subset of traffic to go into your VPN.	St
+1.2.6	First thing is to let allow the pix to be able to differentiate between the machines.	St
+1.2.7	First plug the LAN port of your belikin into the pix.	St
+1.2.8	This will make it run as a switch and not a router.	St
+1.2.9	This means the pix will control all the DHCP pools and addresses.	St
+1.2.10	Next in the VPN configuration of the pix configure it so that it only sends the traffic you want to the tunnel and the rest it just sends directly to the internet.	St
+1.2.11	Depending on how complex you want to make it.	St
+1.2.12	You could just force all the traffic into the tunnel that comes from your PC address or you could send only certain ports that come from your PC.	Sug
+1.2.13	I think the pix uses a access list to do this like the new ASA firewalls but I forget.	St
+1.2.14	You could add another wireless router just for your VPN wireless and plug the pix into the belkin and the new router into the pix.	Sug
+1.2.15	You would then run 2 wireless networks in your house and use the SSID to select between them.	St
+1.2.16	Kinda complex to setup.	St
+1.2.17	Then again it depends how much knowledge of pix configuration you have.	St
+1.3.1	Hmm well let me add some more info here to clarify.	Sug
+1.3.2	The pix is setup to connect to a vpn tunnel as you mentioned, but I didn't configure it myself (it and the laptop are from my office, and I don't really want to mess with them if I can help it, or run my other traffic through it, for that reason).	St
+1.3.3	Yes, the majority of my wireless traffic will by my home setup, but it would be really convenient to be able to connect the vpn through it, if I could figure out how the pix fits in without routing everything else through it.	St
+1.3.4	As you mentioned the Belkin does not have an ability to do different subnets... is there another router that does that would enable me to set up this network a little more simply?	St
+1.3.5	I did just get this and it got good reviews of range, etc (and seems to work fine) but I am considering returning it if it doesn't solve my problem without buying a 2nd router anyway, if something else exists that will work in this scenario.	St
+1.3.6	Is there any way to associate the pix on the other side of the router?	St
+1.3.7	(I can plug it into one of the other ports on the belkin and it connects, and plug the laptop to it and get to the vpn tunnel, but then the laptop isn't wireless).	St
+1.3.8	Or with the other type or router you are describing, are there basically two lines coming from the modem to the router, and one goes through the pix and the other does not?	St
+1.3.9	I'm having trouble visualizing that but it sounds promising.	St
+1.4.1	I see and most companies will rig the pix so you cannot change the configuration.	St
+1.4.2	Although there are routers that can run multiple networks most are commercial.	St
+1.4.3	You could look at the firmware DD-WRT that is linux based that can add many features to routers.	St
+1.4.4	I am not sure if your router is supported mostly they are linksys.	Res
+1.4.5	The easiest way would be modem --Belkin----pix ---- new wireless router---pc + +------ other wireless stuff.	St
+1.4.6	The new router could be very simple you are going to want to run it as a access point anyway.	St
+1.4.7	You would plug the LAN port of this router to the pix.	St
+1.4.8	The key is to run the 2 wireless on 2 different SSID and 2 different channels.	St
+1.4.9	A note on PIX behind a router.	St
+1.4.10	They are more than likely using IPSEC your belkin should by default support what is called NAT-T which mean running IPSEC over UDP port 4500.	St
+1.4.11	Check with you IT to be sure that is what they are doing, if they are running IPSEC not over UDP you will need a special configuration on your router.... You can hope your company soon goes to the new method of remote user access using SSL VPN since there is no hardware just a little activex plugin to load.	St
+1.5.1	Well my attempt at forum diagrams did not go as planned.	St
+1.5.2	The &quot;other wireless stuff&quot; line should connect to the Belkin and not the modem.	St

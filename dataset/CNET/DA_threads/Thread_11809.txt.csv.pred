@@ -1,0 +1,14 @@
+1.1.1	I keep getting a timeout page every time I try to access a domain I recently purchased ( www.ledotax.com).	St
+1.1.2	I assume that since the first time I tried to access the domain it was unresolved the router cache the domain as being unassigned and so this is a simple issue of clearing the DNS cache, but I cannot figure out how to clear it.	St
+1.1.3	I have tried resetting to factory defaults, updating firmware, and telnetting into the router (which apparently is not an option with this router), I even tried using a hacked DI-624 firmware because it supposedly gives you more options in the control panel than the 524, but I still can't find anything useful.	St
+1.1.4	Removing the the router and connecting directly to the modem yields no problems at all so I am positive the error lies with the router.	St
+1.1.5	Below is my set-up.	St
+1.1.6	Any help would be appreciated.	St
+1.1.7	Comcast 1.5 Mb Cable Internet Service Arris Touchstone Telephony Modem D-Link DI-524 Rev C Wireless Router (Firmware v3.23) System Specs: Asus P5N32-e SLi Intel Core 2 Duo 6700 2.66MHz 5GB OCZ DDR2 800 RAM 250GB Western Digital 7200RPM HDD BFG GeForce 7950 GTO Windows Vista Home Premium 64-Bit	St
+1.2.1	It may be possible that your computer connects to your routers DNS address.	St
+1.2.2	When you plug into your cable modem you of course get a different DNS server.	St
+1.2.3	Your router may not be updating but it should in time.	St
+1.2.4	Your computer may also play a roll in that.	St
+1.2.5	In the mean time you can manually edit your host file on your computer Your host file is located: C:\WINDOWS\system32\drivers\etc open the file HOSTS in notepad and make your changes.	St
+1.2.6	Example configuration 74.125.95.104 www.google.com #Comment google.com 74.125.95.104 google.com #your own comment	St
+1.3.1	I don't think that would fix the problem because I have tried directly accessing the IP address of the site and I encounter the same problem.	St

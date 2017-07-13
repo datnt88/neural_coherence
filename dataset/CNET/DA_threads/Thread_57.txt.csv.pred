@@ -1,0 +1,18 @@
+1.1.1	I have physical access to a network printer working fine on a network but when I add my notebook to a cat5 connection and try to find the printer it cant.	St
+1.1.2	When I check other workstations control panel printer is &quot;IBM 1145 on MYSERVER01&quot; and I even have a printer name (&quot;LXK485DC8&quot;) and an IP address but nothing helps find it in the printer find window after selecting the server name to find.	St
+1.1.3	Other info states I need to specify (e.g.	St
+1.1.4	&quot;server.host1.printer/LXK485DC8&quot;) but that doesnt work either.	St
+1.1.5	I also try searching under the share name &quot;IBM1145&quot; and that doesnt work.	St
+1.1.6	Again, I have printed the printers network configuration info.	St
+1.1.7	and have access to printer setup GUI from the notebook but dont know how else to setup.	St
+1.2.1	The reason it can't find it is simple.	St
+1.2.2	It can't resolve the name.	Sug
+1.2.3	Ask your IT staffer to check if the DNS has this entry.	St
+1.2.4	Bob	St
+1.3.1	I simply created a port with identical information (ip, name, etc) to the functioning workstations, extracted the oem drivers to a directory, created a dummy printer then changed its port to the new one and did a &quot;driver update&quot; to the driver directory.	St
+1.3.2	I realize this has to be the most hassel-filled way to do it but it worked fine.	St
+1.3.3	BTW, on printer, a DNS address was specified but enable DHCP was unchecked...may mean nothing.	St
+1.3.4	Thanks again	St
+1.4.1	Only those grizzly IT staff use assigned addresses today.	St
+1.4.2	Have the IT staffer show you the DNS record (I use NSLOOKUP) for server.host1.printer.	St
+1.4.3	Bob	St

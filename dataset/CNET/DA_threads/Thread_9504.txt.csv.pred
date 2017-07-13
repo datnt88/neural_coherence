@@ -1,0 +1,59 @@
+1.1.1	Hello.	St
+1.1.2	I recently decided to try to hook up two monitors to my Dell Dimension 5100C.	St
+1.1.3	I had been using my ATI Radeon x600 SE with one monitor, but the system also has integrated graphics on the motherboard.	St
+1.1.4	I thought I could simply hook up a second monitor to the integrated graphics VGA output, but it seems that my motherboard keeps the integrated graphics card disabled so long as my ATI card is connected to its PCI slot.	St
+1.1.5	I tried going into the BIOS to enable the onboard graphics, but it isn't an option; the only way I can enable it is by removing my ATI card.	St
+1.1.6	Does anyone know of a way to stop my on-board graphics card from being disabled automatically?	Ques
+1.2.1	this is probably a BIOS setting.	St
+1.2.2	I don't know of a way to get around this.	St
+1.2.3	Most of the new graphics cards have 2 connectors on the back.	St
+1.2.4	The information I am finding on the Radeon X600 SE is saying it is a mobile chipset for laptops.	St
+1.2.5	You sure you have the right info?	Res
+1.2.6	You can check in the device manager to see if you see 2 ATI Radeon video cards too.	St
+1.2.7	If there are 2 listed there, you can use both connectors on the card.	St
+1.2.8	There should be an adapter with the stuff that came with your card.	St
+1.2.9	Give us an update.	St
+1.3.1	Usually this is a BIOS feature that can be ENABLED or DISABLED.	St
+1.3.2	Since you indicate not finding that...perhaps there's a jumper on the MB ?	Ques
+1.3.3	You are sure about having a separate PCI video card right ?	Ques
+1.4.1	a graphics card that supports dual monitors.	St
+1.5.1	two co-existing cards (that support dual monitors)?	St
+1.5.2	or must it be done with one card ??	Ques
+1.5.3	?	Ques
+1.6.1	I have two options for video in my BIOS: 'auto' and 'PEG/On-board'.	St
+1.6.2	The former is described as using whatever PCIe graphics card is installed.	St
+1.6.3	The second says it will use the on-board graphics UNLESS there is a graphics card in the PCIe slot, in which case it will use that and disable the onboard graphics.	St
+1.6.4	I was hoping there be a simple 'On/Off' choice for the onboard graphics.	St
+1.6.5	I don't know if there is a jumper.	St
+1.6.6	It had crossed my mind, but I haven't had the time to find out.	St
+1.6.7	The deal with my graphics card is that my computer has a compact chasis and therefore requires a half-height PCIe card.	St
+1.6.8	My ATI card has two hookups, but they are DVI and S-video.	St
+1.6.9	The card does show up twice in the Device Manager, though, so thanks for that tip.	St
+1.7.1	is a PCIe 1x, and at the moment I only know of one available graphics card that has been developed for it, by Matrox.	St
+1.8.1	I think the PEG/On-Board is for a pass through cable.	St
+1.8.2	It was just bypassing the graphics card processing from the onboard to the video card.	St
+1.8.3	If I remember correctly, it would push all of the processing to an optional video card.	St
+1.8.4	You still only got one signal for a monitor.	St
+1.8.5	This system is too new though fir a connector from the board to the video card.	St
+1.8.6	I am a little puzzled by some of the information below though.	St
+1.8.7	This is interesting - right from the cNet review of your computer: http://reviews.cnet.com/Dell_Dimension_5100C/4505-3118_7-31429802-2.html?tag=nav The new Intel GMA 950 integrated graphics provides a step up from the older GMA 900 graphics core, but it still can't compete with today's dedicated 3D graphics cards.	St
+1.8.8	We didn't expect earth-shattering 3D performance from the 5100C and rightly so; it isn't geared toward gamers.	St
+1.8.9	A score of 66.2 frames per second on our Unreal Tournament 2003 tests means you'll be able to play some older games, but many of today's graphics-intensive 3D titles will bring this system to its knees.	St
+1.8.10	The system wouldn't run our Half-Life 2 and Doom 3 benchmarks, but for an extra $80, you can add a half-height version of ATI's 128MB Radeon X600 SE card.	St
+1.8.11	It won't help your 3D scores that much, but it will make the 5100C a stronger system for Photoshop and Media Center features in general.	St
+1.8.12	http://support.dell.com/support/edocs/video/P97737/en/specs.htm It looks like this might share some system memory.	St
+1.8.13	http://support.dell.com/support/edocs/video/P97737/en/displays.htm It looks like it has multiple displays.	St
+1.8.14	Unless the second display does not enable, and the third display would be the S-Video.	St
+1.8.15	External Connections 15-pin D-shell (female) VGA output.	St
+1.8.16	DVI-I output.	St
+1.8.17	S-Video output.	St
+1.8.18	* HYPERMEMORY is the total of local and available shared system memory used by the GPU for the processing and creation of 3D and other images.	St
+1.8.19	Local on-board video memory is 128MB.	St
+1.9.1	http://www.compatible-parts.com/product_info.php?products_id=745?ad_Comp_Froogle I wonder if there is an optional bracket for your video card.	St
+1.9.2	You might want to talk to ATI about that.	Sug
+1.10.1	I'll look into it.	St
+1.10.2	Thanks.	St
+1.11.1	NIL	St
+1.12.1	You need to replace your current graphics card to one that supports dual monitors.	St
+1.13.1	I just discovered there is a way to hook a second monitor via your USB port.	St
+1.13.2	http://www.pcworld.com/howto/article/0,aid,120707,pg,1,00.asp	St

@@ -1,0 +1,68 @@
+1.1.1	greetings all.	St
+1.1.2	i'm starting this topic because i have a baffling problem, and couldn't seem to find any answers around to get out of this fix.	St
+1.1.3	here's the situation: i'm trying to network two WinXP machines through direct CAT-5 connection (not going through a router, that is), and somehow i can't seem to make them communicate with each other.	St
+1.1.4	they're both on the same domain (169.254.11.x), and pinging doesn't work; now the odd thing is that i'm trying to do this in order to be able to share files between the two computers, and the computer names DO show up under the proper workgroup -- i just can't seem to do anything with them.	St
+1.1.5	i'm really stumped... i turn to the experts for assistance.	St
+1.2.1	Now go set it up manually to a proper range.	Sug
+1.3.1	you cannot use a regular Ethernet cable.	St
+1.3.2	It needs to be of the crossover type.	St
+1.3.3	You didn't mention anything about that.	Ques
+1.3.4	Crossover cables just reverse the transmit and receive wires going from one connector to the other.	St
+1.4.1	apologies for omitting these bits of information.	St
+1.4.2	yeah, i'm using a patch cable, and oddly enough that same domain works with my laptop; that's what puzzles me the most, it doesn't want to work under seemingly the same conditions.	St
+1.4.3	i also tried different domains to verify if that was really the problem, but i still don't get a response.	St
+1.5.1	Don't rely on self assigned addresses.	Sug
+1.6.1	but I'll presume you do mean the crossover type.	St
+1.6.2	I'd not mess with domains because, between 2 PCs, you don't really have one.	St
+1.6.3	You have a work group.	St
+1.6.4	What you need to do is manually give each PC an IP address within the same network range.	St
+1.6.5	This, if no firewalls exist to block traffic, should at least return a &quot;ping&quot;.	St
+1.6.6	A standard MS home network would start with 192.168.0.1 and a subnet of 255.255.255.0.	St
+1.6.7	You would not mess with the subnet mask but increment the IP address by 1 for each device until you reached the maximum number allowed.	St
+1.6.8	You don't need a gateway number because you have no gateway.	St
+1.6.9	Your second PC should work as 192.168.0.2 just fine.	St
+1.6.10	Assign the addresses, reboot if necessary, give the two a little time to negotiate and then ping one with the other.	St
+1.6.11	See if you get a reply.	St
+1.7.1	NIL	St
+1.8.1	i figured out the problem, there's something wrong with one of the network adapters (stuff works by using other machines).	St
+1.8.2	i can't quite figure out what tho', i know it's not broken since the OS detects when i plug the cable in and out... back to the drawing board for me.	St
+1.9.1	I have followed your information pc-to-pc connection with cat-5 cable LAN.	St
+1.9.2	The cable is ok sincce I have a cable tester.	St
+1.9.3	I am using Windows XP p2 I have configured the IP addesses and connected two computers with a cross wire.	St
+1.9.4	192.168.0.1 (dell8300) 192.168.0.2 (dell3000) When the computers are switched on the Local Area Connection icon on the tool bar status becomes connected but I can not see the other computer.	St
+1.9.5	I have tried to ping other computer but no avail.	St
+1.9.6	Is there something else I need to do?	St
+1.9.7	I wouls appreciate for your help kthy2003	Polite
+1.10.1	especially Norton (Symantec).	St
+1.10.2	Of course you've made certain that the workgroup name is the same and that each PC has a unique name.	St
+1.10.3	You will need to set up a &quot;share&quot; in each machine and allow file sharing.	St
+1.10.4	You can try to take down any firewalls just as a test and see if that works.	Sug
+1.10.5	If so, you can re-enable the firewall but make the local network an exception.	St
+1.10.6	Good luck.	St
+1.11.1	Yes, each PC was given a unique name but the work group name is the same.	St
+1.11.2	Norton was totally turned off and the PC restarted without Norton, but the problem did not go away.	St
+1.12.1	from the command line.	St
+1.12.2	Go to Start/Run and type &quot;command&quot; (without quotes).	St
+1.12.3	In the box that pops up, type &quot;ipconfig&quot; (again, without quotes).	St
+1.12.4	Confirm that each PC shows the address you gave.	St
+1.12.5	As well, and just to be sure, check the subnet mask to be see that they are the same...usually 255.255.255.0.	St
+1.12.6	Now, ping each PC in turn.	St
+1.12.7	If it doesn't work, you should get a return message.	St
+1.12.8	It will say something like either &quot;reply timeout&quot; or that the remote device is unreachable.	St
+1.12.9	A reply timeout means the address is valid for that network but if it's unreachable that means there is no path to that device.	St
+1.12.10	Which is it?	St
+1.13.1	I've not tried this but it's possible to boot up XP in safe mode with networking.	St
+1.13.2	You restart each PC and press F8 just before Windows loads.	St
+1.13.3	You'll be presented with a menu of boot options.	St
+1.13.4	Select safe mode with networking.	St
+1.13.5	Do this for both machines and try the ping command from there.	St
+1.13.6	If it works, we have something loading that's blocking the connection.	St
+1.13.7	If not, we get to look elsewhere.	St
+1.14.1	Absolutely, Safe mode with networking made a difference Ipconfig _ do not show all ip addresses Ping_ I was able to ping each computer and it was successful.	St
+1.14.2	On dell8300 I was able to have access to dell300 shared files.	St
+1.14.3	So where do we go from here?	St
+1.14.4	?	Ques
+1.15.1	Safe mode was succesful but starting with the normal mode, problem still remains.	St
+1.15.2	Something is blocking the LAN in normal start up.	St
+1.15.3	So where do we go from here??	St
+1.15.4	I would be grateful for your ideas.	Polite

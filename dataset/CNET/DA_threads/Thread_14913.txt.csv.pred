@@ -1,0 +1,15 @@
+1.1.1	I've got a drive in a RAID array that's failing (or so says SMART data and Samsung's diagonostic tool).	St
+1.1.2	It forms part of a RAID 0 array with another drive, and a third drive that is not in the array has Windows XP installed on it.	St
+1.1.3	I obviously want to remove the drive before it fails completely.	St
+1.1.4	(I have backed up all my important data.)	St
+1.1.5	If I remove the failing drive and install a replacement, then re-create the RAID array, will the install of WinXP on the non-RAID drive be wiped?	St
+1.1.6	I believe I've read somewhere that on creation of a new RAID array, all data on all drives attached the same controller will be lost; is this the case?	St
+1.1.7	If this *is* the case, will the following process work: 1) Create a complete-system Windows backup and rescue disk 2) Remove SATA cable for HDD with Windows installed on it 3) Remove old failing drive, put new drive in place 4) Create RAID array on new drive and existing matching drive 5) Re-attach Windows non-RAID drive and use the rescue disk to restore the backed-up contents of the RAID array.	St
+1.2.1	A proper RAID 5 is simply power down, pull the failed drive out of the 3 or more drive array and then power up.	St
+1.2.2	The RAID contoller will note the new drive and begin an automatic recovery.	St
+1.2.3	The RAID manager software I use would note it as in recovery mode.	St
+1.2.4	RAID 0 is far less automatic.	St
+1.2.5	In RAID 0 you have to ... do exactly what you did before to create the RAID and then copy all the files back in.	St
+1.2.6	If your boot drive is not part of the RAID, the OS should not be affected.	St
+1.2.7	Hope this helps.	St
+1.2.8	Bob	St

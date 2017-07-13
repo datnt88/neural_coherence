@@ -1,0 +1,53 @@
+1.1.1	i have 3 machines.	St
+1.1.2	1 desktop with vista.	St
+1.1.3	1 desktop with xp 1 laptop with xp.	Sug
+1.1.4	the two xp'x are wireless.	St
+1.1.5	i can see and transfer files from the vista pc to the xp machines.	St
+1.1.6	however, i can not see nor transfer files from the xp machines to the vista pc.	St
+1.1.7	the vista pc is my main pc.	St
+1.1.8	with the router attached.	St
+1.1.9	steve	St
+1.2.1	The issues are usually firewalls in the OS, the router, ACCOUNTS, and shares.	St
+1.2.2	I don't see where you addressed all these areas in your post.	St
+1.2.3	Bob	St
+1.3.1	the firewall on the vista pc is off.	St
+1.3.2	the router not sure what i would be looking for.	St
+1.3.3	since i can get files to the xp pc's.	St
+1.3.4	plus i can get to the internet from the xp's.	Ques
+1.3.5	accounts, what involment do they have in this.. sharing of files.	St
+1.3.6	the following is what i see: network discovery is on.	St
+1.3.7	file sharing shows custom.	St
+1.3.8	under which i see, turn on file sharing which i can click.	St
+1.3.9	turn off file sharing is grayed out.	St
+1.3.10	i have clicked turn on .	St
+1.3.11	but when i relook it still show custom and the turn on button is not clicked.	St
+1.3.12	the turn off is grayed.	St
+1.3.13	under public folder sharing it show off.	St
+1.3.14	the turn off sharing button is click.	St
+1.3.15	when i click on of the other buttons is get &quot;the RPC is unavailable.	St
+1.3.16	printer sharee is on password protected sharing is off media sharing is on.	St
+1.3.17	steve	St
+1.4.1	Type in... NET VIEW Press return.	St
+1.4.2	What happens?	St
+1.5.1	Microsoft Windows [Version 6.0.6000] Copyright (c) 2006 Microsoft Corporation.	St
+1.5.2	All rights reserved.	St
+1.5.3	C:\Users\STEVE&gt;net view Server Name Remark ------------------------------------------------------------------------------- \\CHRISTOFER1 christofer1 \\STEVEN-AVAKJ44B steve The command completed successfully.	St
+1.5.4	C:\Users\STEVE&gt;	St
+1.6.1	NET VIEW \\CHRISTOFER1 and NET VIEW \\STEVEN-AVAKJ44B There is a lesson about machine names.	St
+1.6.2	Keep them simple, nothing but letters and numbers and 14 or less characters.	St
+1.6.3	Sure you can dismiss this nugget but it's a lesson I've learned.	St
+1.6.4	Also, are those the machines you want to see in Network Neighborhood?	St
+1.6.5	Bob	St
+1.7.1	Microsoft Windows [Version 6.0.6000] Copyright (c) 2006 Microsoft Corporation.	St
+1.7.2	All rights reserved.	St
+1.7.3	these are the ones.	St
+1.7.4	christofer1 is a desktop.	St
+1.7.5	sharon is the laptop.	St
+1.7.6	the other one steve is old and will not be on the network.	St
+1.7.7	C:\Users\STEVE&gt;net view Server Name Remark ------------------------------------------------------------------------------- \\CHRISTOFER1 christofer1 \\SHARON sharon The command completed successfully.	St
+1.7.8	C:\Users\STEVE&gt;	St
+1.8.1	Tried the command NET VIEW \\CHRISTOFER1 And changed the machine name to something short with alphabetic only characters.	St
+1.8.2	Be sure to try NETWORK MAGIC too.	St
+1.8.3	Bob	St
+1.9.1	network magic worked.	St
+1.9.2	thanks	Polite

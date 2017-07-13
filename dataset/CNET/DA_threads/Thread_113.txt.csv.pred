@@ -1,0 +1,14 @@
+1.1.1	I have a cisco 1941 ISR router and I am trying to configure a router to allow a modem for &quot;Offband or Out of band&quot; access.	St
+1.1.2	Below is the configuration on Aux port on Line (n): line aux 0 login local modem InOut transport input all speed 115200 flowcontrol hardware I have US Robotics 56k Faxmodem which is connected to aux port of router and I am using USB dialup modem with my laptop to dailin to the router which is connected to a US Robotics Faxmodem.	St
+1.1.3	Then I have accessed my USB dialup modem throught HyperTerminal and I can issue all &quot;at&quot; commands and to dialin to the modem I have used the following command atdt914011111111 (atdt followed by country code, area code and landline number) Once I issue the above command it give me message &quot;Connected&quot; and after this I just get a flashing cursor.	St
+1.1.4	I cannot do anything nor will it display a username login prompt.	St
+1.2.1	You need to make sure you are using the correct cisco cable.	St
+1.2.2	I think they send black cables with a DB 25 on it.	St
+1.2.3	If you are using a normal rj45 roll cable you need to make sure the adapter on the end is designed to convert a cisco roll cable to the proper db25/db9 pinout.	St
+1.2.4	You could try to test from the router itself to see if the modem will talk to you.	Sug
+1.2.5	I think you telnet to the router address on port 2001 on a 1900 but you need to check the port number.	St
+1.2.6	The modem should respond OK when you hit enter.	St
+1.2.7	You also need to check before you dial in that on the show line display there is not a * before the aux port.	Sug
+1.2.8	Sometime it will get confused and think the aux port is in use but it is not.	St
+1.2.9	You need to clear the line and see if tha corrects it.	St
+1.2.10	Most the time I have better luck using the console port rather than the aux.	St

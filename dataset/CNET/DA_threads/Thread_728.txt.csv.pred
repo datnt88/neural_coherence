@@ -1,0 +1,37 @@
+1.1.1	Hi, I have a HDD of 300 GB.	St
+1.1.2	I installed Windows XP Pro and when I checked the size, I got 195.22 GB usable HD capacity and 192.29 GB HD free space.	St
+1.1.3	Any idea how I recover the rest?	St
+1.1.4	Thanks	Polite
+1.2.1	The original, SP1, SP2 or SP3?	St
+1.2.2	Some other questions: - What does Disk Manager C say about the drive?	St
+1.2.3	It should say there's 100 Gb unallocated if it really is a 300 Gb drive - What did you tell the partition during the setup of Windows?	St
+1.2.4	To use the whole disk?	St
+1.2.5	- What does Belarc advisor (free download) say about the disk?	St
+1.2.6	Kees	St
+1.3.1	The original SP2.	St
+1.3.2	During installation, I partitioned the disc in half.	St
+1.3.3	Here is what Belarc advisor says: 104.86 GB Usable Hard Drive Capacity 102.00 GB Hard Drive free space Now I'm using the Disk Manager of XP, created a second partition of 90 GB from the unallocated space, formatted, but still have unallocated space which I cannot format to use as a third partition (the only options right-click gives are &quot;New Partition, Properties and Help&quot;.	St
+1.3.4	Here is what I have right now (from Disk Manager) 1- C: 97.66 GB 2- E: 87.89 GB 3- Unallocated space : 93.94 GB.	St
+1.3.5	Still have about 20 GB missing (Windows XP should not take that much).	St
+1.4.1	That's 7% and that's exactly what's expected between the two definitions of Gb.	St
+1.4.2	If there's a &quot;New partition&quot; option in your right click, can't you use that to create a new partition (f:) in the unallocated space.	St
+1.4.3	Then you've got 3 partitions of about 100 Gb each.	St
+1.4.4	The right sequence is first make the partition, then format.	St
+1.4.5	&quot;Formatting to use as a new partition&quot;, as you say, is plainly wrong and impossible.	St
+1.4.6	That might be part of your problem.	St
+1.4.7	It's unclear to me why 'half' of a 300 Gb would become 100 Gb.	St
+1.4.8	Maybe your BIOS doesn't handle such a big drive correctly?	St
+1.4.9	Do you have reasons to partition the disk?	St
+1.4.10	It's not necessary.	St
+1.4.11	Windows XP SP2 can easily handle a 300 Gb partition.	St
+1.4.12	It might save you some troubles if you redo the install, delete all current partitions and use just one.	Sug
+1.4.13	Kees	St
+1.5.1	Thanks for your answer.	St
+1.5.2	This is exactly what I was going to do.	St
+1.5.3	I'll just delete all the partitions and redo the install.	Sug
+1.5.4	The reason why I want to partition the HD, is I want to use XP on one partition (C), Windows Server 2003 on the second and Ubuntu on the third.	St
+1.5.5	I'll do a quick wipe out with DBAN and reinstall XP.	St
+1.5.6	Thanks again.	Polite
+1.6.1	I just partitioned the last unallocated space.	St
+1.6.2	Now I have 3 partitions: C: 97.66 GB E: 87.89 GB F: 93.94 GB I think everything is ok now.	St
+1.7.1	NIL	St

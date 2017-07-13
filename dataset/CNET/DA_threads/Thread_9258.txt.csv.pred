@@ -1,0 +1,49 @@
+1.1.1	Hi all (I just signed up here), I'm considering adding a second drive for data/documents, but I'm seeking clarification on a few technical details.	St
+1.1.2	First, relevant specs: Motherboard: Tyan Tiger 100 (don't laugh, I know it's old) CPU: dual Pentium III @ 600 MHz (yes, I know, old old old) Expansion bus: 32-bit PCI @ 33 MHz System drive: WD Velociraptor (on Promise SATA 3.0 Gb/s PCI card) Yes, I could simply add another SATA drive to the Promise card.	St
+1.1.3	However, given that the Velociraptor alone is nearly fast enough to saturate the PCI bus, I'm leaning towards getting WD's 500-GB PATA drive and connecting it to one of the motherboard's EIDE ports (UDMA/33) instead.	St
+1.1.4	My rationale is that for a data/documents drive, I really don't need the speed of SATA (or even a faster UltraDMA mode), and I'd rather let my fast system drive keep its free reign over the SATA card and PCI bus (along with some lesser competition from a network card and a USB card, but what are ya gonna do).	St
+1.1.5	What I'm wondering, however, is if that's how it would really work.	St
+1.1.6	(Oh, and I'm assuming the UDMA/100 WD will sync down to UDMA/33 mode without difficulty...) The motherboard specs ( http://www.tyan.com/archive/products/html/tiger100.html ) describe the drive controllers as &quot;Two UltraDMA/33 PCI Bus-Master EIDE Ports.&quot; Hmm, they're PCI?	St
+1.1.7	Does that mean they're on the same bus as my PCI slots and would share the same 133 MB/sec bandwidth with those slots, thereby defeating my whole purpose?	St
+1.1.8	From the documentation, I am pretty sure I have at least two PCI buses (one is for AGP), so maybe the EIDE ports are their &quot;own thing&quot; too, but the documentation is not helpful on that point.	St
+1.1.9	I called Tyan support, and they said the EIDE ports do NOT compete for bandwidth with the PCI slots.	St
+1.1.10	But some of the things they told me sounded a bit dubious and made me wonder if their own internal documentation for such an old board might be a little fuzzy.	St
+1.1.11	For instance, they said PCI slots 4 and 5 are &quot;tied together,&quot; and I don't know if that means bandwidth or IRQ sharing or something else, but the BIOS IRQ priority settings seem to group slots 1 & 5, not 4 & 5.	St
+1.1.12	This discrepancy is confusing.	St
+1.1.13	Further, I've read that AGP usually shares an IRQ with PCI slot 1, but according to Device Manager, right now my AGP card is sharing an IRQ with the cards in slots 3 and 4 (unless those numbers are meaningless artifacts of ACPI).	St
+1.1.14	In any case, I'm getting a lot of conflicting information about how my board's resources and bandwidth are divided up, and as such I'm really not sure how best to distribute my hardware internally.	St
+1.1.15	I'm *assuming* slots 1 through 3 don't each have their own 133-MB/sec bandwidth, while slots 4 and 5, being &quot;tied together,&quot; share another 133-MB/sec bandwidth -- I don't *think* that's how it works, at least.	St
+1.1.16	(If anybody has any input/clarification on any of the above, I'd be glad to hear it.)	St
+1.1.17	Given all that, the bottom line is: if OS/apps drive performance is my top priority, am I better off adding a PATA drive for data/documents to the onboard port versus adding another SATA drive to the PCI card, which already has its hands full with a super-fast drive?	St
+1.1.18	Second part of question: I believe my BIOS has a 32-GB drive limit, and I'm aware that Windows XP prior to SP2 has the 137-GB limit.	St
+1.1.19	WinXP setup recognizes my entire 300-GB Velociraptor, of course, since it's on the Promise card and I load the drivers from floppy during setup.	St
+1.1.20	Assuming I'm understanding correctly, if I add the 500-GB PATA as a data/documents drive and reformat/reinstall Windows at some point in the future, the worst case scenario is that I won't be able to access my data/documents drive until I reach the SP2 portion of the process (assuming I don't use an SP2 setup CD or slipstream one myself).	St
+1.1.21	The BIOS 32-GB limitation shouldn't affect this, right?	St
+1.1.22	Because if I understand correctly, XP bypasses the BIOS anyway, and I'd care about the BIOS only if I was using something like DOS.	St
+1.1.23	Then the only problem would be that I might need to rearrange drive letters once SP2 is installed and Windows suddenly finds the 500-GB drive.	St
+1.1.24	Is this all correct?	St
+1.1.25	Thanks in advance for any insight on all this.	St
+1.1.26	I know it's a long and detailed query, but I wanted to make sure I didn't exclude any pertinent bits.	St
+1.1.27	I look forward to receiving wisdom from the knowledge cloud	St
+1.2.1	If it's for boot drive, I would use pata.	St
+1.2.2	If it's for data then I would go for sata.	St
+1.2.3	As for speed, on the surface, sata might have the advantage; but in reality I am not sure.	St
+1.3.1	unused PORT, then get another SATA HDD...perhaps like the WD drives below.	St
+1.3.2	http://www.newegg.com/Product/Product.aspx?Item=N82E16822136319 http://www.newegg.com/Product/Product.aspx?Item=N82E16822136218 If you go with PATA off the MB controller, suspect you'll have a problem accessing all the disk space unless you use DISK MANAGER...	St
+1.3.3	I don't recommend using DM and in this case you don't have to.	St
+1.3.4	VAPCMD PS...Re MB slots 4/5... believe they're sharing an IRQ so its usually better not to use both slots for high use peripherals (like two disk controllers) if you don't have to.	St
+1.4.1	Thank you for the input.	St
+1.4.2	Funny you should mention it, because if I were to end up going the SATA route, I'd already planned on going with the WD Black series (the 1 TB variant is widely available in electronics store near me).	St
+1.4.3	I definitely would not want to have to use disk manager software to access the whole disk, but I was under the impression that would be an issue only if I wanted the BIOS to recognize the entire drive, and that WinXP (SP2 and later) bypasses the BIOS and can recognize large drives on its own.	St
+1.4.4	At least I think that's how it works, but am I missing something?	St
+1.4.5	Since the drive would be for data only, I don't need it to boot, so I don't care whether the BIOS recognizes it.	St
+1.4.6	If that's true, then my main concern is whether I'd get better performance from my main drive if my data drive is on the MB PATA controller, instead of being on the SATA card along with said main drive.	St
+1.4.7	I'm planning to move my cards around to make sure I'm not using the IRQ-sharing slots if possible.	St
+1.4.8	I just hope Tyan wasn't confused, and that it really is slots 4&5 and not 1&5.	St
+1.4.9	That &quot;PCI Slot 1&5 IRQ Priority&quot; setting in my BIOS has me questioning that.	St
+1.4.10	I'm wondering if there's a &quot;usual&quot; IRQ pairing of two particular slots on motherboards of that type and era (haven't had any luck Googling an answer to that one yet, but I do keep seeing mentions of AGP sharing with a PCI slot, yet another thing to be concerned about).	St
+1.5.1	new.	St
+1.5.2	The prices are very attractive and considering the performance you have versus what they offer ...	St
+1.5.3	I think you'd be very pleased.	St
+1.5.4	Re the IRQ sharing...you might look in the BIOS to see what it shows.	St
+1.5.5	VAPCMD	St

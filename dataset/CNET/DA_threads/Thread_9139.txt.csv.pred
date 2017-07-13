@@ -1,0 +1,12 @@
+1.1.1	What is the best way I can monitor the browsing on my home network.	Ques
+1.1.2	For example: I would like to see what sites other people in my family are going to.	St
+1.1.3	Thanks, jk111	St
+1.2.1	NIL	St
+1.3.1	And some routers can forward such to a certain PC then that PC runs a logging program.	St
+1.3.2	This is not something easy to setup and those that can't find such logging software usually can't set it up.	St
+1.3.3	Sorry if it seems hard but it is.	St
+1.3.4	Again, look for SYSLOG http://en.wikipedia.org/wiki/Syslog Now that you have SYSLOG on your PC, your router can forward messages to that and you have your monitoring.	St
+1.3.5	Bob	St
+1.4.1	You can check the DNS Resolver cache to see what sites have been visited.	St
+1.4.2	Simply open a command prompt and enter, ipconfig /displaydns.	St
+1.4.3	Some browsers also leave a list of Typed URLs in the registry.	St

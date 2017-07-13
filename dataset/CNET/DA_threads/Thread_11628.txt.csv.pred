@@ -1,0 +1,27 @@
+1.1.1	I have a 64GB microSD.	St
+1.1.2	I try to transfer folders from my PC to the SD card, and it does.	St
+1.1.3	However, when I open a folder, there are no files inside.	St
+1.1.4	I formatted my sd card to fat32.	St
+1.2.1	Many PC card readers are only good to 2GB, then 32GB and beyond that it gets to be a support headache.	St
+1.2.2	http://www.tomshardware.com/answers/id-1726154/format-64gb-card-exfat-fat32.html notes the other big issue.	St
+1.2.3	Bob	St
+1.3.1	I already formatted my micro SD from exFAT to FAT32.	St
+1.3.2	I'll transfer folders to my SD card and from there the majority of files in the folder is not there.	St
+1.4.1	In your first post you write &quot;However, when I open a folder, there are no files inside.&quot; Now you write &quot; the majority of files in the folder is not there.&quot; FAT32 on 64GB cards is not a good idea.	St
+1.4.2	You may be repeating what others have learned.	St
+1.4.3	My example link is where they didn't tell why they did that.	St
+1.4.4	Bob	St
+1.5.1	Okay well I re-formatted my micro sd to exFAT.	St
+1.5.2	I'm trying to add about 20gb worth of data onto my SD card.	St
+1.5.3	It'll transfer about 4.10gb but the rest won't get transferred.	St
+1.5.4	I've done chkdsk, and it tells me that nothing is wrong with my card.	St
+1.6.1	I've run into this with deep folders, too many files in the root folder and the old FAT vs NTFS file name issue.	St
+1.6.2	Now that we are back to exFAT that should remove the filename issue.	St
+1.6.3	Reference http://www.ntfs.com/ntfs_vs_fat.htm As it stands it should work baring issues with permissions on the source.	St
+1.6.4	Try SycnBack to copy instead.	St
+1.6.5	It will report what failed to copy and maybe why.	St
+1.6.6	-&gt; Example.	St
+1.6.7	A new user tried to copy C: (all files) to an external.	St
+1.6.8	They were perplexed at the missing files.	St
+1.6.9	For that copy, yes, there is going to be a lot of missing files.	St
+1.6.10	Bob	St

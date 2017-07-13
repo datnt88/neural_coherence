@@ -1,0 +1,64 @@
+1.1.1	New custom built PC.	St
+1.1.2	MSI P965 Neo motherboard (SATA, Core 2 Duo).	St
+1.1.3	DVD/CD-burner via IDE.	St
+1.1.4	Shop installed XP Media Center Edition and Nero.	St
+1.1.5	Problems: 1.	St
+1.1.6	Playing an audio CD gives ticks and cracks, like a heavily damaged LP.	St
+1.1.7	No problems at all playing streaming audio or mp3's from the hard disk.	St
+1.1.8	2.	St
+1.1.9	No obvious problems with installing programs from CD's.	St
+1.1.10	3.	St
+1.1.11	Very strange behaviour when burning a CD: - time to read the CD (700 Mb data or audio) is rather long: about 5 minutes - time to write CD at 40x (6 Mb/sec) is about 20 minutes in stead of 2 - Task Manager&gt;Processes tabs is normal: idle 99%, Nero: 1%, as expected - Task Manager&gt;Performance however shows one of the cores alternating between 0 and 80% use, and that's absurd - this practically slows other programs on the computer (like MS Word) to a crawl and totally unworkable (why doesn't the other core do it's job?)	St
+1.1.12	- Nero reports some 600 buffer underruns avoided on a machine doing nothing else as this burning, and that's absurd also The sales assistant in the shop suspected BIOS settings (which I didn't touch).	St
+1.1.13	I don't have any idea except that it seems like a hardware issue to me, but I can't even guess if it's the burner or the motherboard.	St
+1.1.14	Of course I've got warranty and I'll bring it in for repair when I leave for a 1 week holiday in May (don't do so much burning).	St
+1.1.15	And I expect that the tech will have the resources to find the problem.	St
+1.1.16	I didn't dare yet to try to burn a DVD or install another burning program; I leave that to the tech.	St
+1.1.17	Does anybody have any ideas about a possible cause?	Ques
+1.1.18	Kees	St
+1.2.1	Link about -&gt; http://winhlp.com/WxDMA.htm Then again I've lost count on how many times I see shop installed Windows that are &quot;not done yet.&quot; Most will just use what CDs came with the motherboard.	St
+1.2.2	Some won't bother with even that.	St
+1.2.3	Also noteworthy is a recurring speed issue on CDR media.	St
+1.2.4	The bulk back of CDR is marked 52X but if you examine the media with tools you find it's only 16X media.	St
+1.2.5	When you confront the seller they note it's &quot;compatible with 52X recorders.&quot; If you have Alcohol 120% you can record at full speed then get a graph of the speed achieved during the burn.	St
+1.2.6	Bob	St
+1.3.1	The motherboard has 6 SATA connections, and 1 ATA IDE supporting one master and one slave.	St
+1.3.2	In Device Manager, under IDE-controllers, there's the 2 port SATA, then the 4 port SATA, then 3 primary IDE channels, then 3 secondary IDE channels, and then the Standard Dual Channel PCI IDE Controller.	St
+1.3.3	All 6 IDE channels but the third primary can be 'disabled' (red cross).	St
+1.3.4	All 3 primary channels are UDMA mode 6.	St
+1.3.5	All 3 secondary channels are &quot;DMA, if available&quot;, which isn't applicable for the first 2 (apparently not connected to anything) and results in PIO-mode for the third (which is the CD-drive, because if I disable that the cd-drive disappears from Windows Explorer).	St
+1.3.6	So the CD is PIO indeed, I'd say.	St
+1.3.7	The tech may find out why there 3 are instances of each of the channels in stead of 1, why the CD is secondary in stead of primary, and why apparently DMA isn't available.	St
+1.3.8	After all, he installed it like this.	St
+1.3.9	That is, of course, if it's really a PIO-DMA problem.	St
+1.3.10	But you could very well be right.	St
+1.3.11	Thanks for the help thus far.	St
+1.3.12	Kees	St
+1.4.1	Maybe go in there and waggle it while the thing is playing.	St
+1.4.2	Obviously the ripped music to the harddrive plays ok, right?	St
+1.5.1	Bob, It definitely was a PIO-DMA problem on the IDE DVD-drive.	St
+1.5.2	Later on I noticed I couldn't even view a DVD movie on it: it went stuttering on half speed.	St
+1.5.3	The tech checked everything, and all was fine, but she found the SATA hard disk highly unreliable with &quot;several blue screens during the Repair&quot;.	St
+1.5.4	I never had any problems with it.	St
+1.5.5	A clean install of Windows on that hard disk didn't help.	St
+1.5.6	So she put in another hard disk, and after a clean install of Windows on that one everything was fine.	St
+1.5.7	She even backed up and copied the full contents of my old hard disk to the new one ($ 40 for half an hour work), not really necessary, because I had most of it backed up myself, of course.	St
+1.5.8	All I have to do now is reinstall all my programs, apply some 50 hot fixes, make new users and in all of them redo all changed settings and all Firefox extensions, clean the desktop, reorganise the Start menu, that's $0 for 2 evenings work.	St
+1.5.9	I don't understand why replacing a SATA drive would make any difference for the workings of IDE on this motherboard (MSI P965 Neo).	St
+1.5.10	The old one was a SATA2 Samsung SP2504C, the new one an SATA Hitachi HDS721616PLA380 SCSI drive, and Belarc's description of the DVD-drive suddenly got &quot;SCSI&quot; inside it also.	St
+1.5.11	I really don't understand the hardware details (SATA2 versus SATA, and why SCSI), but it seems to be effective: the IDE details in Device Manager do look different and the DVD movie is playing full speed.	St
+1.5.12	I suddenly had a RAID driver icon in the system tray, that was a surprise I'll have to evaluate.	St
+1.5.13	The new hard disk even shows itself in the &quot;safely remove hardware&quot; dialog together with the USB-stick and the memory card reader.	St
+1.5.14	That's another surprise.	St
+1.5.15	Any idea what will happen if I try to remove it with Windows running?	St
+1.5.16	Unluckily, the old drive was 250 Gb, and the new one 164 Gb.	St
+1.5.17	That's clear even to a hardware layman like me, so it's back to the shop again.	St
+1.5.18	All the sales lady (I think she's the owners wife) could say was &quot;sorry&quot;, and it will be the first thing to redo for the tech on Monday.	St
+1.5.19	But the prospects are rather good now.	St
+1.5.20	Kees	St
+1.6.1	But the reasons why Windows takes a dive is fairly well discussed.	St
+1.6.2	The repeating issues I encounter are motherboard chipset drivers and that setting.	St
+1.6.3	You may have seen me write about the DMA FLIP many times.	St
+1.6.4	It's a simple procedure and one that must be done even if you see XP report &quot;DMA.&quot; Why?	St
+1.6.5	It lies.	St
+1.6.6	Bob	St

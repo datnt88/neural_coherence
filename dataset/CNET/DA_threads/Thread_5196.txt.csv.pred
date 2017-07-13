@@ -1,0 +1,92 @@
+1.1.1	Here is the problem.	St
+1.1.2	Occasionally, my computer will not boot.	St
+1.1.3	When this happens, it appears to be caused by the boot hard drive not being recognized.	St
+1.1.4	When this occurs, if I restart it several times, the drive will get recognized and then I can boot to XP Professional SP2.	St
+1.1.5	When I am in XP, I can work for a while but then the PC freezes.	St
+1.1.6	I can still see the display on the monitor, but everything is completely frozen.	St
+1.1.7	I have to reboot.	St
+1.1.8	When I reboot, most of the time the boot hard drive isn't recognized and (as mentioned above), I have to reboot several times.	St
+1.1.9	Sometimes, I just have to let it sit over night.	St
+1.1.10	I originally thought it could be a heat issue.	St
+1.1.11	However, it happens on a fresh boot after sitting all day.	St
+1.1.12	Here are some specs: - Windows XP Pro SP2 - 2 Seagate SATA drives (&lt; 2 years old) - No Raid, just connected via SATA - 1.5 gigs of DDR RAM What I have done: - Ran Windows Defender - came up clean - Ran AVG Antivirus scan - came up clean - Recently reformatted boot drive	St
+1.2.1	I forgot to mention I also ran the Seagate drive diagnostics (full scan) - came up clean.	St
+1.3.1	dito.	St
+1.3.2	its not the hdd.	St
+1.3.3	is your computer a dell?	St
+1.3.4	mine still does it.i have no idea	St
+1.4.1	...your hard drive or IDE controller is failing and needs to be replaced.	St
+1.4.2	I would start with the replacing the hard drive, since that will be the easiest part to replace.	St
+1.4.3	You can install the new hard drive and test out the OS to see if it still locks up.	St
+1.4.4	If it does, then it's possible that the IDE controller is failing and you'll need to replace the system board (presuming it's an on-board controller like other system boards).	St
+1.4.5	A less likely, but still possible, cause is that the memory is faulty, which is easy enough to fix, but the odds that this is the problem is highly unlikely.	St
+1.4.6	Good luck!	St
+1.4.7	Timothy	St
+1.5.1	This has been a problem for me, until I discovered that a magnetic field was affecting my hard drive.	St
+1.5.2	Solution: 1)Remove all speakers, phones and DSL modems from closeness to the motherboard; 2) Demagnatize the hard drive by disconnecting the cable at both ends that go to the drive and to the motherboard for approximately 15 seconds: 3) Reconnect, plug in power and reboot.	St
+1.5.3	This will happen several more times as long as that field is somewhere inside of your PC circuits.	St
+1.5.4	However, a repeat of the above procedure always rescued me.	St
+1.6.1	My friend had a similar problem.	St
+1.6.2	The problem is your hard drive.	St
+1.6.3	When your HDD is working, backup all your files, and then reinstall OS on a new HDD.	St
+1.6.4	They're really cheap now a days.	St
+1.6.5	Almost always on sale.	St
+1.6.6	About $40-60 for 160GB	St
+1.7.1	Hi, I happend to have enjoyed and extremely similar issue with my Dell Latitude 600 laptop, running XP Pro+SP2.	St
+1.7.2	At boot time I could capture a &quot;IO Read error: cannot read/find ArcBoot signature&quot; (or something pretty close to this) before the message is wiped away and it ends up saying there is no bootable disk.	St
+1.7.3	Problem was repeating and insisting on trying to boot wouldn't help (in which this seems to differ from your description).	St
+1.7.4	It turned out that after bringing the laptopto a friend's place where XP StartupCDs were available (I thought I'd to reinitialise the system completely), the boot suddenly worked.	St
+1.7.5	Back home it failed again.	St
+1.7.6	I suspected a false contact between the disk controller connector and the (removable) C: drive.	St
+1.7.7	So, I kind of gently shook the (powered-off) laptop a couple of times in several directions, after which the system booted again...	St
+1.7.8	Even though I initially thought it might have been a disk surface problem with the boot area, it would seem it was something completely different.	St
+1.7.9	I hope something as easy as this is happening to your own laptop...	St
+1.7.10	Success!	St
+1.7.11	Arnie	St
+1.8.1	been ther done that	St
+1.9.1	Thanks for all of your input.	St
+1.9.2	This drive is still under warranty.	St
+1.9.3	It is a 200 GB SATA Seagate drive.	St
+1.9.4	I am first going to open the case up and reseat everything.	St
+1.9.5	I am also going to swap the SATA cables to eliminate a cable issue.	St
+1.9.6	I am going to attempt to run the drive diagnostics again.	St
+1.9.7	After that, I'll see what happens.	St
+1.9.8	I suppose then I will have to install my OS in my other drive.	St
+1.9.9	I'll see if the problem goes with the drive or not.	St
+1.9.10	I guess that will then tell me if my MB is FUBAR.	St
+1.9.11	I have a replacement board picked out at Newegg for under $50.	St
+1.9.12	Can anyone see any issues w/ my plan?	Ques
+1.9.13	Thanks again, Jason	St
+1.10.1	I had a similiar problem with a fairly new tower.	St
+1.10.2	What I found out was a faulty power plug that was giving intermitten voltage to the hard drive.	St
+1.10.3	You might try and change to another power plug and see if that works.	Sug
+1.10.4	Let me know how it works out.	St
+1.10.5	radiotech950@sbcglobal.net	St
+1.11.1	There can be multiple causes that leads to problem such as this.	St
+1.11.2	I had similar problem on my laptop (an IBM Thnkpad)before.	St
+1.11.3	Just FYI.	St
+1.11.4	This was what I did: I took out the seemd problematic hard drive and replace it with a new hard drive and tried to install Winodws XP on it.	St
+1.11.5	It wouldn't install .Then I knew the problem was probablly with the Motherboard.	St
+1.11.6	I took it to IBM service to have them check it out for me.	St
+1.11.7	The service engineer told me that the problem can bee either with chipset(Hardware) on the board or the that drived the chipset.	St
+1.11.8	In my case,lucky enough, it turned out that the firmware was out of date and wouldn't work with the level of Windows on the hard drive.	St
+1.11.9	He downloaded the latest firmware from IBM site installed it and the hard drive booted properly.	St
+1.11.10	And I wasn't charged for that.	St
+1.11.11	Hope this helps.	St
+1.11.12	Good luck.God bless.	St
+1.11.13	May the force be with you :-)) Jacob	St
+1.12.1	I had a similar problem.	St
+1.12.2	It was due to installing and later uninstalling downloaded programs from the net over a period of time.	St
+1.12.3	They had left a lot of junk in the registry.	St
+1.12.4	I got a Registry cleaner program mine was System Cleaner (4 in 1) that also gets rid of other junk, but there are free ones about.	St
+1.12.5	Now when I uninstall programs, I go into the registry to thoroughly remove all junk files belonging to the programs left behind... Back up registry first.	St
+1.12.6	(XP/Me - create a system-restore point).	St
+1.12.7	Go to Start &gt; Run - type in ''regedit'' (without '''') Press F3 start the search facility.	St
+1.12.8	Type in name of deleted program.	St
+1.12.9	When I find an old entry with the program name, I delete it.	St
+1.12.10	I know one has to be careful when making changes to the registry, but I've never had a problem with this method and I am careful only to delete those files that have the name of the deleted program.	St
+1.12.11	If I am not sure, I leave it alone.	St
+1.12.12	Hope this helps.	St
+1.12.13	Derek	St
+1.13.1	i have the newest bios and I installed a new hdd and loaded xp.	St
+1.13.2	not because of the startup just wanted a bigger hdd thought it would fix that problem but it still wont see my drive if the computer is on i can restart all i want but if its off for a while i have to reboot 3 or 4 times	St

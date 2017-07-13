@@ -1,0 +1,89 @@
+1.1.1	Hi everyone,I'm so glad I found this forum.	St
+1.1.2	I have been pulling my hair out trying to figure out a solution to my problem and so far haven't gotten anywhere.My setup is this:I have a D-Link DIR-655 router connected to my 2Wire DSL modem.	St
+1.1.3	The DIR-655's IP address is 192.168.1.1 and it is the DHCP server.	St
+1.1.4	It has wireless turned on and the SSID is Home Net.	St
+1.1.5	I then have another router, a Netgear WNDR3700v2 setup as an access point.	St
+1.1.6	It has a static IP (192.168.1.3) which is outside of the DHCP range of the DIR-655 router and has its own DHCP turned off.	St
+1.1.7	I have it connected to the DIR-655 via a Belkin Gigabit Powerline adapter.	St
+1.1.8	The wire goes from LAN to LAN ports so the Netgear does not have anything in its WAN port.	St
+1.1.9	The Netgear's SSID is the same as the DIR-655's (Home Net) so that my parents don't have to constantly change which network their phones or computers are connected to based upon where they are.Ok, so now my problem is this:If I connect to my DIR-655 (the router) via WiFi and then go out of that router's WiFi range and into the range of the Netgear's (the AP) WiFi range, and try to connect, I am able to connect to the WiFi network but the AP has trouble getting a DHCP for the client from the DIR-655 (the router) and therefore browsing from the AP doesn't work at all.	St
+1.1.10	It doesn't just stop working on that single phone, it stops working completely on all wireless clients.	St
+1.1.11	I thought at first that maybe my PowerLine adapters are messing up and I found that if I unplug the adapter from the wall and then plug it back in, all of a sudden, the AP's able to work perfectly, hand out IP addresses from the router's DHCP, and anyone connected to the AP can surf the web.	St
+1.1.12	So I started thinking the Powerline just keeps messing up and constantly needs to be powercycled.But then, I thought what if I don't powercycle the Powerline adapter but instead just unplug the ethernet cable that goes from the powerline to the DIR-655's LAN port and then plug it back in again after a few seconds.	St
+1.1.13	As soon as I did this, once again the AP's internet started working again and it was able to contact the DIR-655 router and a wireless client connected to the AP could now ping the DIR-655 router.Thank you for reading so far.	St
+1.1.14	My question is, why is this happening?	St
+1.1.15	What happens when I momentarily unplug the ethernet cable that connects the router and the AP?	St
+1.1.16	How can I make my setup so that this doesn't happen?	St
+1.1.17	Any help would really be appreciated.	St
+1.1.18	Thank you!	St
+1.2.1	All I can offer is I would not setup or support such a system.	St
+1.2.2	I will offer that I might consider using the more accepted &quot;use a router as a access point&quot; noted in this forum's sticky are at http://kb.netgear.com/app/answers/detail/a_id/965/~/using-wpn824,-wgr614,-or-wgt624-routers-as-an-access-point There are routers that do lock up when a Vista machine is near but that's an old issue cured with firmware or if not, replacing the bad router.	St
+1.2.3	As to &quot;why is this happening?&quot; I can't tell you but I do see the problem and have had to cure far too many with firmware, replacements or revamping the network., Bob	St
+1.3.1	I would try to run your same configuration without the powerline adapter.	St
+1.3.2	You could take a long cable and see it works.	St
+1.3.3	You could also move your &quot;AP&quot; closer and use short cable and simulate only being able to see the &quot;AP&quot; by turning the radio off in the router.	Sug
+1.3.4	As mentioned it could be firmware in the routers or the powerline.	St
+1.3.5	I would load the latest versions on all.	St
+1.3.6	A number of years ago I used a different brand of power extenders and it had a very low limit of mac addresses.	St
+1.3.7	I tried to hook a switch at the far end it would just stop when I connected more than 3 machines.	St
+1.3.8	You could test for this by using the WAN port on the remote &quot;AP&quot; and enabling the DHCP for a different range that your main router is using.	St
+1.3.9	I would recommend you only use this to test since running router behind a router tends to make file/printer sharing a challenge to configure.	St
+1.4.1	Thank you for the reply.	St
+1.4.2	I do have a correction to make to my original post -- it seems as if only the device (iPhone in this example) that roams is the one whose internet stops working.	Ques
+1.4.3	If the iPhone goes from router's wifi zone to AP's wifi zone, the iPhone's wifi stops working.	St
+1.4.4	Getting an auto-assigned IP address takes quite a while, but eventually an IP address is assigned, yet the router is still not pingable nor is there internet access on the phone.	St
+1.4.5	However, another client that has not been moved from the AP's wifi zone, can continue to access the internet with no problems.	St
+1.4.6	So do you think the problem is the Powerline adapters or do you think this has something to do with the iPhone hardware or do you think this has something to do with my router setup?	St
+1.4.7	I am definitely going to try running a long cable and isolating out the variable of the Powerline.	St
+1.4.8	Also I tried changing the Netgear WNDR3700v2 router that I am using as the AP with another router running DD-WRT and had the same issue, making me think either its the iPhone hardware or the powerline adapter that is causing the issue.	St
+1.4.9	Another question I have is, is roaming generally issue-free when doing this kind of setup or am I just running into a &quot;normal&quot; problem?	St
+1.4.10	By this setup I mean a router connecting to an AP via ethernet, with both router and AP wifi SSID's being the same.	St
+1.4.11	Thank you again.	Polite
+1.5.1	If I was tasked with fixing that, I would populate the installation Apple's own routers for a test.	St
+1.5.2	Having the same SSID proved to be problematic and I found some gear confused (some call that a bug!)	St
+1.5.3	by this.	St
+1.5.4	I moved to SSID names like ZONE1, ZONE2 etc.	St
+1.5.5	and told the devices to autoconnect when needed.	St
+1.5.6	Let me be clear that seamless roaming is not implemented today.	St
+1.5.7	It's a wish they would do that.	St
+1.5.8	Bob	St
+1.6.1	The ability to move from one access point to another with no delay and no disruption is quite the challenge.	St
+1.6.2	The largest issue is how to quickly transfer the security credentials and keys between access points without compromising security.	St
+1.6.3	The main implementation I have done uses special cell phones that will switch from access point to access point using VoIP and then switch to the cell network if you walk out of range.	St
+1.6.4	It does this all with no disruption.	St
+1.6.5	Very complex and very expensive.	St
+1.6.6	It is the preferred implementation to use the same SSID.	St
+1.6.7	It appears you would be more than happy to wait the couple of seconds it takes to renegotiate the security if the network part would work.	St
+1.6.8	I would bet one of your devices has the MAC address of your iphone on the wrong port.	St
+1.6.9	If we take a common layer 2 switch it will add any mac address it sees coming in to a port, when it sees the same mac address coming in a different port it is support to add it to that one and remove it from the other.	St
+1.6.10	The switch will also remove the mac address from a port if it does not see traffic, generally 5 minutes but it varies.	St
+1.6.11	There is no way to say for sure if your equipment combination follows these standards, to save money they may cut corners.	St
+1.6.12	It all going to depend if there are commands on your equipment that will let you see these tables.	St
+1.6.13	If you can ask it to display the list of mac addresses it knows and which ports it has learned them on it would help.	St
+1.6.14	The other thing that could get you is if any of the mac or IP addresses are changing.	St
+1.6.15	Then you have ARP type issues.	St
+1.6.16	If the mac address of your iphone or the mac address of the gateway would change you could have ARP table issues.	St
+1.6.17	The timeout for a ARP entry is generally 4 hrs.	St
+1.6.18	If you can force clear the ARP tables with a command it should relearn it.	St
+1.6.19	In theory you should only be worried about arp tables on the main router and on the phone itself.	St
+1.6.20	I am still going to bet the powerline stuff is doing something to you.	St
+1.6.21	Many people run with 2 devices like you are and have no issues.	St
+1.7.1	Thank you again for all of the help.	St
+1.7.2	I tried running a cat6 cable directly between the router to the AP without the Powerline adapters and it started working perfectly.	St
+1.7.3	If I walk around the house while running a constant ping to the main router's IP, it times out only for 1-2 seconds while it seamlessly switches between the router and the AP's wifi zones!	St
+1.7.4	It seems as if the Powerlines really cannot handle the auto-sensing feature when a cable is being used for a LAN-to-LAN connection.	St
+1.7.5	What's weird is that with the Powerline the internet still would work, it just wouldn't work if I left that zone and then returned back to that zone (after having connected to the router's wifi zone).	St
+1.7.6	I'm so glad I got this working, but now the nerdy side of me is wondering about the how's and why's of why it wasn't working before.	St
+1.7.7	Do you experts think it was just the powerline not being able to auto-sense the cable or did it have something to do with arp tables and ports?	St
+1.7.8	Thank you!	St
+1.8.1	It is unlikely it is the autosense part since it works for other machine.	St
+1.8.2	Since nothing physically changes between your routers and the powerline equipment when you move your laptop around the duplex/speed part should be fine.	St
+1.8.3	Unplugging the ethernet cable may fix it because it is flushing other tables in its memory, sort of a partial reboot.	St
+1.8.4	I am pretty sure the powerline runs as a kind of switch.	St
+1.8.5	It should have no concept of IP addresses and ports.	St
+1.8.6	(not 100% sure I have not used your model).	St
+1.8.7	It should use only mac addresses.	St
+1.8.8	I would investigate the number of total mac addresses the powerline can have and what the timeout values are.	St
+1.8.9	The tricky part about these powerline devices is that they are designed to run more than just 2 units.	St
+1.8.10	I have little knowledge of how this actually works.	St
+1.8.11	Unlike a real switch these devices seem to use the mac address of the powerline units themselves to direct other traffic.	St

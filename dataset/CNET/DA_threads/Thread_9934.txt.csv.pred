@@ -1,0 +1,62 @@
+1.1.1	I just bought a Samsung HD204UI, which is a 2 Terabyte hard drive.	St
+1.1.2	When I plugged it all in my computer installed a driver for it.	St
+1.1.3	I run Windows 7 on a Dell XPS Gen 5.	St
+1.1.4	It's been updated with a few more hard drives as well as 4 gigs of ram and a new graphics card.	St
+1.1.5	It seems to me that it, for whatever reason, thought it was a blu-ray player and installed the blu-ray player driver.	St
+1.1.6	I looked on the Samsung site for a driver specific to this hard drive but to no avail.	St
+1.1.7	Does anyone know what I should do or where I should look?	Ques
+1.1.8	Should I call Samsung or Microsoft?	St
+1.1.9	Will either of them actually help me?	St
+1.1.10	Thanks a lot.	St
+1.2.1	Typical HD install doesn't require a driver, though the system should be ready for it.	St
+1.2.2	I suggest you check the Dell support website and verify what bios updates maybe present for your model#.	Sug
+1.2.3	While there query their support forum on this topic.	St
+1.2.4	If bios status is behind, do the update it *may* address the problem.	St
+1.2.5	If possible see what the bios update actually addresses.	St
+1.2.6	But since, you have a 2.1Tb HD, that alone makes it somehow unique.	St
+1.2.7	To add further all the other devices just stacks on the issue if they are related at all.	St
+1.2.8	It maybe treating the HD as a BR drive only because the capacity issues or is close to what BR is and defaults to it.	St
+1.2.9	Samsung may offer a FAQ on this topic, query or review their support website.	St
+1.2.10	How is it treated as a BR player, is there an actual message/error/display to that effect?	St
+1.2.11	tada -----Willy	St
+1.3.1	Typical HD install doesn't require a driver, though the system should be ready for it.	St
+1.3.2	I suggest you check the Dell support website and verify what bios updates maybe present for your model#.	Sug
+1.3.3	While there query their support forum on this topic.	St
+1.3.4	If bios status is behind, do the update it *may* address the problem.	St
+1.3.5	If possible see what the bios update actually addresses.	St
+1.3.6	But since, you have a 2.1Tb HD, that alone makes it somehow unique.	St
+1.3.7	To add further all the other devices just stacks on the issue if they are related at all.	St
+1.3.8	It maybe treating the HD as a BR drive only because the capacity issues or is close to what BR is and defaults to it.	St
+1.3.9	Samsung may offer a FAQ on this topic, query or review their support website.	St
+1.3.10	How is it treated as a BR player, is there an actual message/error/display to that effect?	St
+1.3.11	edited from WWW... -- Start your computer and enter the BIOS.	St
+1.3.12	-- Get your motherboard manual and check sections -- Do you see the Blu-ray and the HDD on your computer screen?	St
+1.3.13	If not, try changing your SATA configuration - open screen in your BIOS.	St
+1.3.14	-- Configure SATA as AHCI(if present) -- Save and exit the BIOS.	St
+1.3.15	tada -----Willy	St
+1.4.1	Thanks a lot for the advice.	St
+1.4.2	I will let you know what happens when I get the chance to try it.	Sug
+1.5.1	I wonder if the BR player software was set for that drive letter and when you added this new drive it thought &quot;aha!&quot;	St
+1.6.1	How would I go about checking that?	St
+1.6.2	Because my computer says that I have 3 CD drives (I only have two) and 4 Hard Drives.	St
+1.6.3	It see the new one, but it won't come up in &quot;My Computer&quot; and it also won't let me into it.	St
+1.6.4	Also, within Device Manager it says Disk: Disk 3 Type: Unknown Status: Not Initialized Partition Style: Not Applicable Capacity 1907729 MB Unallocated Space: 0 MB Reserved Space: 0 MB The &quot;Type&quot;, &quot;Status&quot; and &quot;Unallocated Space&quot; ones seem wrong to me.	St
+1.6.5	Do you know how to fix these?	St
+1.6.6	or change which drive letter it is?	St
+1.6.7	I figured it out once but have since completely forgeten how also, the drive is 2.0 TB not 2.1 Thank you again.	St
+1.7.1	I re-read this post and can't tell where you prepared this drive.	St
+1.7.2	A new drive is often BLANK and will do as you have written.	St
+1.7.3	Tell the forum how you partition and format a new drive.	St
+1.7.4	I do this with the OS's tools.	St
+1.7.5	For Windows this might be Disk Management.	St
+1.7.6	Bob	St
+1.8.1	Well, I fixed it.	St
+1.8.2	Many thanks to R. Proffitt for pointing me to Disk Management.	Polite
+1.8.3	I just sort of poked around in there for a bit and my computer all of a sudden recognized that the hard drive was there.	St
+1.8.4	What I did in Disk Management was tell it to create a new volume within the disk that was going to be the entire thing.	St
+1.8.5	I told it to go ahead and do a not quick format, which seemed to be taking forever, so I stopped it.	St
+1.8.6	Then, my &quot;My Computer&quot; found the hard drive, and decided that it wasn't formatted and that I should format it, which I did.	St
+1.8.7	Quick this time.	St
+1.8.8	My computer still however thinks that there is a shiny new blue ray player, but I suppose apart from not being able to use Disk Letter &quot;H&quot; it's not really an inconvenience.	St
+1.8.9	Thanks to everyone for the help!	St
+1.8.10	Sorry it got fixed just by me messing around.	St

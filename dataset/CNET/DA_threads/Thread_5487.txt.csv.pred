@@ -1,0 +1,38 @@
+1.1.1	Hi I have a Dell server configured as follows.	St
+1.1.2	On my Perc 6i controller I have 2 virtual disks made up of 6 physical disks (4 on connector 0 and 2 on connector 1).	St
+1.1.3	Disk 0 and Disk 1 both 136.12gb making up virtual disk 0.	St
+1.1.4	Virtual disk 0 is RAID 1.	St
+1.1.5	This is my OS system drive in windows.	St
+1.1.6	Disk 2 3 4 and 5 all 278.88gb making up virtual disk 1.	St
+1.1.7	Virtual disk 1 is RAID 5.	St
+1.1.8	This is my data drive in windows.	St
+1.1.9	These are my issues.	St
+1.1.10	I have no hot spare.	St
+1.1.11	The virtual disk 1, my data drive (RAID 5) is 836.61gb and has just 40gb of data rattling around in it.	St
+1.1.12	I have no spares to slot in should disaster happen.	St
+1.1.13	Now I personally think the RAID 5 is overkill for my data drive because its backed up daily and I have weekly acronis images of it.	St
+1.1.14	My main concern is my system drive (I have an acronis image of this too) because as I dont have any spares I dont have anything to restore my image to if both disks fell over.	St
+1.1.15	I also do not have any means of testing the image works.	St
+1.1.16	I'm worried that if both disks corrupted I'll have to sit and rebuild the server from scratch.	St
+1.1.17	Now this is the important bit.	St
+1.1.18	My options.	St
+1.1.19	The system drive will remain as it is.	St
+1.1.20	All the following relates to my Data drive where all the company files sit.	St
+1.1.21	What I want to do is remove the RAID 5 and simply have normal standalone disks NON RAID or RAID 1.	St
+1.1.22	This would mean I would have 4 disks to distribute as follows.	St
+1.1.23	Without RAID configured on the Data drive = 1 hot spare, 1 data drive, 2 spares for emergencies.	St
+1.1.24	With RAID 1 Configured on the Data Drive = 2 disks for the RAID, one global hot spare and one spare for emergencies.	St
+1.1.25	- does that sound feasible?	St
+1.1.26	- if I go with the NON RAID option do I need to change the disks over to the SCSI connection or do they stay under the Perc connector?	St
+1.1.27	- do I need to format all disks after i've removed the RAID 5?	St
+1.1.28	- How do I go about removing the RAID 5 and reconfiguring the system back to working order i.e.	St
+1.1.29	I boot up and peopel work as they do now accessing a D:\Data drive for their files?	St
+1.1.30	Any advice much appreciated.	Polite
+1.1.31	I need to get rid of the RAID 5 asap so I can get the disks configured the new way and set up the hot spare/spare emergency disks.	St
+1.1.32	Thanks Dan	Polite
+1.2.1	If you get the SERVICE TAG off the machine you can go to dell.com and put that in and see if the manuals for your machine cover this.	St
+1.2.2	What you propose should be in the manuals.	St
+1.2.3	That is, it was the last time I read them for another Dell server.	St
+1.2.4	In short, we pulled out the raid 5 set noting where they all were and the RAID BIOS settings.	St
+1.2.5	We slipped in the new drive and used the manual on how to configure the RAID BIOS for just a data set.	St
+1.2.6	Bob	St

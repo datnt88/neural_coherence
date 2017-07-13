@@ -1,0 +1,16 @@
+1.1.1	Hi, I have a DVR which requires a static IP address to be assigned to it.	St
+1.1.2	How do I find one?	Ques
+1.1.3	It is being hooked up to our network in the office which uses Windows NT 4.0 on the server.	St
+1.1.4	All the workstations are Windows 98SE.	St
+1.1.5	We use a D link router and a cable modem.	St
+1.1.6	Thanks	Polite
+1.2.1	Your IP PLAN.	St
+1.2.2	For instance if your IP PLAN is 192.168.0.1 to 192.168.0.254 then you pick one of those unused numbers.	St
+1.2.3	You'll also want to copy the DNS, Default Gateway and Netmask.	St
+1.2.4	Nothing in your post reveals your IP PLAN.	St
+1.2.5	Bob	St
+1.3.1	You'll need to provide more description about your DVR.	St
+1.3.2	That's what you'll need to figure out, how (on your DVR) you can access a setup page to set a static ip.	St
+1.3.3	For a temporary fix, if you have other computers on your network, give them all static IPs.	St
+1.3.4	Then tell your router to only give out 1 ip for the dhcp network, and your dvr will always have the same IP.	Sug
+1.3.5	For instance, set your IP range for the DHCP to 192.168.1.2 - 192.168.1.2	St

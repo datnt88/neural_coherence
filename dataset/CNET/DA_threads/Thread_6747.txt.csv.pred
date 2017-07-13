@@ -1,0 +1,25 @@
+1.1.1	Hi guys, I am having problem with a Dell laptop having WinXP Sp3,and when I plug in my ethernet cable into this laptop ,the local area network connection icon in my laptop stays busy geting tcp/ip configuration but doesnot get it and then it gets a messege of &quot;limited and no connectivity&quot;.But this same ethernet cable is working fine on my dell dekstop computer having WinXP.	St
+1.1.2	Why am I having problem with this ethernet cable on my laptop?	St
+1.1.3	Could it be an issue of virus or spyware?	St
+1.1.4	I have already scanned my laptop using Avast and found no threat.	St
+1.1.5	Can you guys please help me.	Ques
+1.2.1	Sorry,their is one more thing I wanted to add, I am using Avast on my dell desktop computer but still the ethernet cable is working fine on it,but not on the dell laptop.	St
+1.2.2	I hope my question is clear.	St
+1.3.1	It is not the cable.	St
+1.3.2	If you get a light then the cable is good, the cable only know about electrical voltages.	St
+1.3.3	You need to compare the tcpip settings on the network connection between the one that works and the one that does not.	St
+1.3.4	In general it means that the PC is not being given a IP address by the router or you are using manually assigned addresses and this machine is setup for DHCP.	St
+1.3.5	If both machines are setup the same and use DHCP it is more than likely a router setting.	St
+1.4.1	Hi , Yes I do understand,its not the problem of ethernet cable.	St
+1.4.2	Well the ethernet cable is connected to the RJ45 port of the ISP Modem directly and that ISP Modem has a DHCP enabled.I am connecting the other end of the ethernet cable to the laptop or to the desktop,but it is only the LAN connection on laptop which is having problem, not the desktop.	St
+1.4.3	I have checked the TCP/IP settings on the LAN connection on the laptop ,it is all set to dynamic ,not to static.You would be surprised to know that I used this same laptop and connected it to the ethernet cable which was connected to a at home and it works fine their.	St
+1.4.4	Sometimes even anti-viruses or firewalls block these connections but my winxp firewall is turned of and avast is not blocking any connections from DHCP.	St
+1.4.5	So what could really be the problem?	St
+1.5.1	Depends on what the &quot;modem&quot; device is.	St
+1.5.2	If it is truly just a modem then the ISP equipment on the far end will give out the IP's Many only allow one per connection and will restrict them via mac address for a period of time.	St
+1.5.3	You may be able to turn off/on the modem and see if it allows your laptop to work.	St
+1.5.4	You can also manually set the MAC address under the advanced tab of the NIC device on your laptop to the same as your desktop.	St
+1.5.5	There are many detailed guide you can search for so I will not repeat it here.	St
+1.5.6	Changing the MAC should only be considered a test tool not a solution.	St
+1.5.7	This is the main reason people buy a router, it allows you to have multiple machine on the same connection.	St
+1.5.8	If the &quot;modem&quot; is actually a router then it is that device you need to check	St

@@ -1,0 +1,52 @@
+1.1.1	I recently purchased a computer with 2GB of ram.	St
+1.1.2	I purchased 2 additional 1GB sticks.	St
+1.1.3	I installed them both, but my computer wouldn't start.	St
+1.1.4	After the BIOS screen windows never starts to load.	St
+1.1.5	My computer works fine with 3GB, but as soon as I install the final stick of ram... same thing every time, comp won't start.	St
+1.1.6	Any ideas?	St
+1.1.7	I'm using 32 bit vista.	St
+1.2.1	I've seen problems were populating all RAM slots do this if the installed RAM exceeds what the MB will support.	St
+1.2.2	As well, with the 3 GBs installed does the OS show all of it?	St
+1.2.3	MB and RAM specs might help get a better answer.	St
+1.3.1	My system specs: Intel Core 2 CPU 6700 @ 2.66ghz System Ram: 3070MB System Type: 32 Bit operating system (vista premium) anyone else have any ideas?	St
+1.3.2	i dont have much time to type right now i can give more details later.	St
+1.3.3	I am not sure of MB atm , just got the comp.	St
+1.4.1	Sorry but there are far too many reports of issues at 4GB.	St
+1.4.2	From BIOS to Windows.	St
+1.4.3	Try it with just 2GB until your machine's maker fesses up to why it bombs.	St
+1.4.4	Bob	St
+1.5.1	Why 32bit version!...	St
+1.5.2	32 bit processors can only use up to 2G of RAM.	St
+1.5.3	I also bought 4 pieces of Corsair 1Ghz FSB speed memory and it turned out a piece was bad.	St
+1.5.4	And of course, my computer is a 64 bit machine that was running XP/64 and even though 4Gig is there, the computer will only tell you that there's 3Gig on the My Computer/System Properties/General Tab	St
+1.6.1	http://support.microsoft.com/kb/929777	St
+1.7.1	How does one install this patch?	Ques
+1.7.2	Vista won't install so we can't patch Vista.	St
+1.7.3	-&gt; Shouldn't Microsoft re-issue the DVD?	St
+1.7.4	Bob	St
+1.8.1	All 32 bit versions support only up to 3 gigabytes.	St
+1.8.2	To get 4 you have to upgrade vista.	St
+1.8.3	I dont think their is 32 bit home premium so you would have to go ultimate or something to use 4 gigs.	St
+1.9.1	Until you go to 64-Vista it's going to be limited to 3 to 3.5 Gigs.	St
+1.9.2	http://www.microsoft.com/windows/products/windowsvista/editions/64bit.mspx does write the 64-bit is in the box but many OEM installs are... the 32 bit version due to driver issues.	Ques
+1.9.3	Bob	St
+1.10.1	install patch, put the other 2GB back in.	St
+1.11.1	Correct me if I'm wrong but I don't care what the operating system is, a 32bit processor can only write to 2Gig of memory!	St
+1.11.2	End of story.	St
+1.12.1	Hi Everyone Here's something I copied from microsofts website The virtual address space of processes and applications is still limited to 2 GB unless the /3GB switch is used in the Boot.ini file.	St
+1.12.2	When the physical RAM in the system exceeds 16 GB and the /3GB switch is used, the operating system will ignore the additional RAM until the /3GB switch is removed.	St
+1.12.3	This is because of the increased size of the kernel required to support more Page Table Entries.	St
+1.12.4	The assumption is made that the administrator would rather not lose the /3GB functionality silently and automatically; therefore, this requires the administrator to explicitly change this setting.	St
+1.12.5	The /3GB switch allocates 3 GB of virtual address space to an application that uses IMAGE_FILE_LARGE_ADDRESS_AWARE in the process header.	St
+1.12.6	This switch allows applications to address 1 GB of additional virtual address space above 2 GB.	St
+1.12.7	The virtual address space of processes and applications is still limited to 2 GB, unless the /3GB switch is used in the Boot.ini file.	St
+1.12.8	The following example shows how to add the /3GB parameter in the Boot.ini file to enable application memory tuning:	St
+1.13.1	Alright, I think one of the sticks of RAM was jacked.	St
+1.13.2	I would blue screen constantly after anywhere from 5-30 minutes of playing Counter-Strike.	St
+1.13.3	I was able to get my computer to start ONCE with all four sticks of RAM, and you are correct, it was maxed out at 3.5 GB.	St
+1.13.4	After I restarted, my computer wouldn't start again so I removed a stick of RAM and it worked again.	St
+1.13.5	I updated my BIOS and im using the beta version of NVIDIA's forceware drivers now, which seem to work much better than the ones I was using.	St
+1.13.6	I haven't had a blue screen since I pulled out the crappy piece of ram and updated bios and video card drivers.	St
+1.13.7	I think it also might be because I have 2 sticks of nice Corsair ram, and the other 2 sticks are K-BYTE cheap ass ram..	St
+1.14.1	firstly, you need make sure that your computer motherboard support to 4Gb RAM, If ok, you have two methods to install 4Gb RAM.	St
+1.14.2	use 64 bit OS or Change physical RAM info( see microsoft website for detail)	St

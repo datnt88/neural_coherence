@@ -1,0 +1,61 @@
+1.1.1	Hi all.	St
+1.1.2	Not sure if this is in the right forum.	Res
+1.1.3	Feel free to move it.	St
+1.1.4	My computer (Win 7) is behind a proxy server at work.	St
+1.1.5	They have disabled the ping service.	St
+1.1.6	They told me it is disabled for security reasons, and everytime I try to ping a host, the connection times out.	St
+1.1.7	However I normally use ping as a good diagnostic to check if I have an internet connection or not.	St
+1.1.8	We experience frequent network problems, and I'd like to be able to at least narrow down the problem each time.	St
+1.1.9	Are there any other diagnostic tools/utilities I can use to test internet access?	Ques
+1.1.10	When I lose my internet connection, I'd like to be able to test if it is because my computer has lost its connecton to the proxy server, or if the proxy server has lost connection to the outside world.	St
+1.1.11	Thanks in advance	St
+1.2.1	Assuming you could narrow down the problem by pinging, could you solve it also?	St
+1.2.2	If the IT-staff (you call &quot;they&quot;) is the only one who can solve it, then let &quot;them&quot; diagnose it also.	St
+1.2.3	Just call the helpdesk if there are connection problems and they will research the cause.	St
+1.2.4	Maybe, if you call 10 times a day, they come to the conclusion that they prefer you calling 6 times a day with an issue about the proxy server and 4 times with an issue about the outside connection.	St
+1.2.5	Did you try tracert?	St
+1.2.6	Kees	St
+1.3.1	First issue is if the proxy runs in transparent mode or not.	St
+1.3.2	If your browser settings are set to no proxy but you know you run via a proxy then it is transparent and as the name implies you will not be able to easily detect it.	St
+1.3.3	Assuming it is not transparent about all you can do as a user is see if you can ping the proxy itself.	St
+1.3.4	If it pings then you know it is not your machine or your connection to the proxy.	St
+1.3.5	When it comes to internet in a large corporate environment most installations are impossible to troubleshoot from the user side.	St
+1.3.6	Since most large companies have multiple internet connections the first challenge is to even find the IP of the proxy.	St
+1.3.7	This is done via the proxy pac setting in the browser.	St
+1.3.8	So after you get the proxy from that you now have a IP but that does not really mean it is the proxy.	St
+1.3.9	Normally you place a load balancer on that ip and place multiple proxy behind it for performance and redundancy.	St
+1.3.10	Then you come into the issue that some traffic will not even run though a proxy so there are multiple devices depending on the protocol.	St
+1.3.11	So ping may work and it means nothing.	St
+1.3.12	You could be pinging a load balancer or your ping traffic could go via a firewall and the web traffic go via a proxy.	St
+1.3.13	Of course the easiest way to see if it is your machine or the network is to ask you co workers if they too have a issue.	St
+1.4.1	&gt;&gt; Assuming you could narrow down the problem by pinging, could you solve it also?	St
+1.4.2	Maybe.	St
+1.4.3	I obviously can't answer that question until I determine the problem.	St
+1.4.4	I could at least help solve it.	St
+1.4.5	&gt;&gt; If the IT-staff (you call &quot;they&quot;) is the only one who can solve it, then let &quot;them&quot; diagnose it also They're not the only ones who can solve it.	St
+1.4.6	I have not tried tracert.	St
+1.4.7	I will give that a shot next time I'm in the office.	St
+1.5.1	My proxy is not transparent.	St
+1.5.2	I have to enable proxy settings in my browser.	St
+1.5.3	Furthermore, I know *an* IP name and address of my proxy server (not necessarily *the* name and address).	St
+1.5.4	&gt;&gt; all you can do as a user is see if you can ping the proxy itself This is my reason for writing though.	St
+1.5.5	Ping is disabled.	St
+1.5.6	Whenever I ping a host, I get a timeout.	St
+1.5.7	This occurs even when I ping the proxy server and the network is working fine.	St
+1.5.8	I'm wondering if there are any other little diagnostic tests like ping I can try.	St
+1.6.1	First even if the proxy would respond to a ping it means little.	St
+1.6.2	Our proxys will respond to a ping on the inside even if you unplug the cables that go to the internet routers.	St
+1.6.3	Most this depends on your skill level and understanding of protocols.	St
+1.6.4	I will stay at a high level and leave it to you to google.	St
+1.6.5	What you will see in a normal connection is a three way tcp handshake followed by a HTTP GET for the url you are trying to reach.	St
+1.6.6	If your machine sends out SYN packets and gets nothing back you may suspect a network issue.	St
+1.6.7	If it gets a response even if it is a RST you know your machine can talk to the proxy.	St
+1.6.8	Past this point it gets very hard to tell if the proxy server itself is messed up or the internet is broken when it does not work.	St
+1.6.9	Proxy vary in how they handle no response to a request.	St
+1.6.10	Some give you a page saying the host did not respond and some just reset the session.	St
+1.6.11	A broken proxy will many times do the same.	St
+1.6.12	Only way to learn this stuff is to get a copy of wireshark and watch good packet captures and compare them to captures when it does not work.	St
+1.7.1	Definitely over my head, but I enjoy learning about these things so I'll do some Googling and see what I can dig up.	St
+1.7.2	Maybe I'll start by playing with Wireshark.	St
+1.7.3	I'll post separate questions as I run into them.	St
+1.7.4	Thanks all.	St

@@ -1,0 +1,72 @@
+1.1.1	Beyond just the data transfer rate, what are the other advantages of using a SATA hard drive over an UltraATA one?	St
+1.2.1	Many years ago before SATA was available I attended an Intel design conference.	St
+1.2.2	SATA was being forwarded as a way to reduce cable and setup costs.	St
+1.2.3	Bob	St
+1.3.1	The cables are only 8mm wide, it goes 250MBps, basically way better than ATA/IDE	St
+1.4.1	If we look at tomshardware.com, current drives duke it out and you see SATA and IDE trade for the lead positions.	St
+1.4.2	Please share some web links on the 250 MBPs drives.	St
+1.4.3	Bob	St
+1.5.1	Along that field, I don't know any sites, but I do know that SATA-II does support the 250MBps, but it might have been megabits instead of megabytes.	St
+1.5.2	Not 100% sure, but more 85% sure.	St
+1.6.1	The original idea was put together in the late 1980s based on &quot;links&quot; - high speed serial interconnect used by the transputer.	St
+1.6.2	Inmos even made a disk processor for the prupose.	St
+1.6.3	The second generation links eventually had the basic technology adopted and it became Firewire and the standard version was standardised as Spacewire (IEEE1355).	St
+1.6.4	The original idea was to cut down the cable size and connectors - if you know anything about reliability, reliability is approximately imversely proportional to the number of connections.	St
+1.6.5	It used to be that over 50% of car breakdowns were due to electrical faults, and most of these were connector problems.	St
+1.7.1	I have never seen one that says 250 MB/s yet.	St
+1.7.2	Do you have a link?	St
+1.7.3	Aside from wire and speed (which is controversial since real-world performance is similar between the two), there are other things that SATA has hot-swapping and native command queueing.	St
+1.8.1	First of all, the 133Mb/s vs 150Mb/s is the burst rate.	St
+1.8.2	Average data rates are atleast half of this, so the speed difference right now is not that big.	St
+1.8.3	Some of the best advantages come with the cables themselves.	St
+1.8.4	The cables are small allowing better airflow in the case.	St
+1.8.5	Also when connecting more than one drive, SATA doesn't share cables and has seperate connection for each drive.	St
+1.8.6	With UltraATA, connected drives share cables and have to configured as master or slave.	St
+1.8.7	This can cause some speed issues when accessing both drives.	St
+1.8.8	The SATA cables have better noise canceling and can be of longer length.	St
+1.8.9	There are several other improvements that make SATA more scalable than UltraATA.	St
+1.8.10	As a result you won't see any new standards for UltraATA.	St
+1.8.11	SATA will be used in the future.	St
+1.8.12	The bottom line is if you have a good UltraATA drive that meets your storage needs, there is need to upgrade.	St
+1.8.13	Otherwise, I'd recommend getting a SATA.	Sug
+1.9.1	I just built a PC with SATA.	St
+1.9.2	It has a thiner wire and is quiet.	St
+1.9.3	It is the way to go.	St
+1.9.4	With the default drivers etc.	St
+1.9.5	it had a weird look in &quot;Device Manager&quot;.	St
+1.9.6	It had some kind of crosslinked thing.	St
+1.9.7	The speed of data transfer was unbelievably fast.	St
+1.9.8	Then I updated everything.	St
+1.9.9	The BIOS, the motherboard chipset, and everything else I could find.	St
+1.9.10	It looks normal now in &quot;device manager&quot; but now I'm lucky to get above ATA66 speeds out of it.	St
+1.10.1	That's my expectation, not something I know for sure.	St
+1.10.2	Even if you're not using RAID for redundancy, it can help with future data migration.	St
+1.10.3	Modern motherboards often have both IDE and SATA controllers, so with SATA disks you are more likely to find a way to get all your devices connected within the reach of cables.	St
+1.11.1	If you really want performance why not use 15,000 RPM SCSI U320 drives, maybe with either RAID 0 or RAID 5.	St
+1.11.2	Should blow the socks off of SATA	St
+1.12.1	Here are a few advantages to SATA over IDE 1.	St
+1.12.2	SATA Cables are thinner and can be longer, thus effectively improving airflow and ease of handling/neatness/flexibility in computer.	St
+1.12.3	2.	St
+1.12.4	SATA drives do NOT have jumper cables, meaning no fussing with Master/slave/cable select settings.	St
+1.12.5	3.	St
+1.12.6	SATA transfer rates are generally higher (more speed) 4.	St
+1.12.7	SATA handles RAID better 5.	St
+1.12.8	MOST important: SATA drives are supposedly Hot-plugging (or Hot-swapping), meaning that you can plug-and-unplug them while computer is running.	St
+1.12.9	Most motherboards that support SATA provide you with external connectors (Power and Data) so, if need be, you can use a SATA drive on different computers just like any USB or other external drives (provided it is not the main drive that has the system installed, of course).	St
+1.12.10	6.	St
+1.12.11	Which brings us to a SATA advantage over external drives: you don't need a separate power supply to use them on different computers.	St
+1.12.12	I'm sure that the list can be longer, but it is definitely long enough for me; SATA is the way to go.	St
+1.12.13	regards	St
+1.13.1	With solid mobo support, SATA HD's in a RAID 5 give the best of both worlds--without the greater chance of failure.	St
+1.13.2	Performance is as good as those with high spindle speed rates.	St
+1.14.1	A 15K hd generates more heat which of course needs to be dissipated, more noise which can be annoying, and uses more electricity which 'll show up on your bill as well as require you to ensure your PSU can handle it.	St
+1.14.2	SATA also has its own pros too alr mentioned.	St
+1.14.3	Else price may be that other factor that may steer you away from SATA.	St
+1.15.1	Yeah, many modern mobos provide SATA and IDE connections.	St
+1.15.2	At first, SATA only offered marginal performance increase over IDE.	St
+1.15.3	But i hear SATA tech is getting better and better so that'll be the way to go.	St
+1.15.4	However, if you only have IDE as of now... stick with it.	St
+1.15.5	It really ain't worth upgrade JUST THAT fo SATA.	St
+1.15.6	Instead, switch to it when you do a major upgrade.	St
+1.15.7	Many months ago, i had the choice to get a 120GB SATA hd over a 160GB IDE for the same price.	St
+1.15.8	Posters overwhelmingly suggested the latter citing the extra capacity would do me more good.	St

@@ -1,0 +1,38 @@
+1.1.1	I'm sorry if my question may be redundant.	Polite
+1.1.2	I'm just short of time to study every thread in forums.I'm a soldier currently deployed in Iraq.	St
+1.1.3	I've been able to get internet access through one of the contractors here for some of our soldiers.	St
+1.1.4	We have a couple of ip addresses.	St
+1.1.5	We have the main line coming from the contractor going into a router with lines going to a couple of computers and one line going to linksys router.	St
+1.1.6	I have one of the ip addresses in the linksys router(model befsr41 v2), so we could connect up some more computers.	St
+1.1.7	Most of the laptops hooked to the linksys work fine by just setting the tcp/ip to obtain ip and obtain dns automatically.	St
+1.1.8	I have a couple of computers that get the error message limited or no connectivity, when hooked to the linksys.	St
+1.1.9	I can hook these same computers on the lines where we just assign static ip's and they work fine.	St
+1.1.10	I've tried setting these up with the appropriate ips given in the owners manual but that hasn't worked either.	St
+1.1.11	I also have another computer that will work if I give it a static ip address but if I go through any router to obtain ip automatically it just sits and displays acquiring network address.	St
+1.1.12	I've read in some stuff that xp sp2 causes problems, and some winsock stuff, but I'm not sure if that applies since these will connect using a static ip and not through a router.	St
+1.1.13	Any help would be greatly appreciated and this problem is not just with a linksys routers because I've been asked to help out with a couple of computers in our personel office, but they just get the acquiring nework address bug, while they have other pc's that work fine.	St
+1.1.14	sorry about the length, but I tried to explain the best I could.	Polite
+1.1.15	thanks in advance.	Polite
+1.1.16	mb	St
+1.2.1	Set the linksys to hand out more ip addresses?	St
+1.2.2	You didn't say what number of DHCP items you have it set to.	St
+1.3.1	I have the router set to hand out 10 ip addresses.	St
+1.3.2	The most computers I have hooked up at a time is 3 because we have only 3 cables.	St
+1.3.3	As for the problems our personel office is having, it could be that they don't have enough ip's set in the router they are coming off of.	St
+1.3.4	The computers they can't get to connect always gets acquiring network address.	St
+1.3.5	Thanks I'll look into that for them.	St
+1.3.6	Do you suggest anything else it could be.	Ques
+1.3.7	mb	St
+1.4.1	intermittent swapping of a few cables around amongst many client systems on the network can cause exactly the problem you are seeing.	St
+1.4.2	Unfortunately, it's not quite as easy as sharing an electric outlet - you plug your shaver in and shave for a bit and then after you're done I plug mine in.	St
+1.4.3	When a modestly intelligent router is turned on, it polls all the ports to learn who is out there and where.	St
+1.4.4	It builds a little table in its memory of the MAC addresses (serial numbers) of the client adapters it finds, assigns an IP address to a port through its DHCP server, and then uses that information to send data out the appropriate port as needed.	St
+1.4.5	When a client system is shutdown normally, it will release from the network and the router will remove it from the routing table.	St
+1.4.6	However, if you just unplug the cable from one and connect it to another, the router won't recognize the new connection; it still is expecting the old client MAC address at that port.	St
+1.4.7	When you rearrange the physical layout of the network, you will have to at least go through a full shutdown of the exiting system, change the cable to a powered down system, and then boot the new client system normally so that it registers itself with the router.	St
+1.4.8	In an extreme situation you may even need to reboot the switch.	St
+1.4.9	That means everybody goes down for a few minutes while one cable is swapped and then everybody comes back up together with the one new partner in the dance.	St
+1.4.10	dw	St
+1.5.1	thanks, that helps with what problems we have been having.	St
+1.5.2	I appreciate it.	Polite
+1.5.3	mb	St

@@ -1,0 +1,30 @@
+1.1.1	Hey, I was hoping someone could help me out on this.	St
+1.1.2	I have a PC that has a gigabyte motherboard, with on board SATA raid.	St
+1.1.3	It also has IDE slots to plug in CD drives and any IDE hard drives.	St
+1.1.4	I have 2 SATA hard drives plugged in but I hadn't set them up as raid.	St
+1.1.5	My OS is windows XP.	St
+1.1.6	Anyway, recently, I tried plugging in an IDE hard drive into one of the IDE Slots, (to transfer some files from my friends hard drive to my computer)... and when i started the comp after plugging in the the drive, it gave me a CMOS-Checksum error.	St
+1.1.7	So I removed the IDE drive, and switched it on again.	St
+1.1.8	It then said CMOS-Defaults loaded.	St
+1.1.9	Then it tried to detect IDE drives, found none.	St
+1.1.10	(this never used to happen before) Then it went on to detect 2 Sata drives.	St
+1.1.11	(this is normal... used to happen before) Then it gave me an option to start windows normally, or in safe mode, last known good config, blah blah...	St
+1.1.12	The problem is, whatever option i choose, my comp just restarts...	St
+1.1.13	I dun even get the Windows XP splash screen.	St
+1.1.14	Then the whole process is repeated again, till I reach the screen with the windows start up options and again whatever i choose, the computer restarts.	St
+1.1.15	If i try choosing safe mode, it does its usually stuff in loading some files, it reaches up to some point, and the screen goes blank and it restarts.	Sug
+1.1.16	There was nothing wrong with this computer before.	St
+1.1.17	I mean it was in tip top shape.	St
+1.1.18	Viruses in check, no addware, spyware.	St
+1.1.19	Nothing of the sort.	St
+1.1.20	Just plugging in my friends IDE hard drive, caused all this mess.	St
+1.1.21	I'm sure nothing serious happened.	St
+1.1.22	Probably some sort of setting somewhere messsed up.	St
+1.1.23	I just dunno what, and how to change it.	St
+1.1.24	Can anyone help me out with this?	Ques
+1.1.25	thanks.	St
+1.2.1	Go into the system BIOS and tell the computer where to look for the primary boot partition/primary startup drive.	St
+1.3.1	Hopefully when you used that EIDE drive it didn't overwrite your &quot;regular&quot; Master Boot Record.	St
+1.3.2	Usually by default the first IDE HD becomes the boot drive (at least on all SATA PC's I have worked on.)	St
+1.3.3	Regarding CMOS checksum error..if it isn't fixed by removing that IDE drive, try resetting the CMOS/BIOS to defaults by either using the special jumpers...or removing the battery.	St
+1.3.4	Consult your specific MOBO tech references.	St

@@ -1,0 +1,24 @@
+1.1.1	Windows 98 SE, HP Pavilion.	St
+1.1.2	I added a hard drive yesterday, and it shows up and everything works fine as long as I go into the BIOS when I start it up.	St
+1.1.3	If I don't go into the BIOS, (I don't even have to do anything in there, I just go into it, and exit, and the 2nd hard drive works 100%) then the hard drive won't show up in My Computer, and it shows up in control panel under add new hardware that my 2nd hard &quot;This device is either not present, not working correctly, or does not have all the drivers installed properly.	St
+1.1.4	(Code 10) What am I doing wrong, I know its probably something dumb.	St
+1.2.1	First, have the drive detected and defined in the BIOS and not set to &quot;Auto&quot; where it will detect with each restart.	St
+1.2.2	Next, consider whether your power supply is adequate.	St
+1.2.3	It's possible the drive is not spinning up quickly enough.	St
+1.2.4	You might also disable any &quot;fast detect&quot; options in the BIOS or such that does only a quick memory check.	Sug
+1.2.5	It might mean that your entering the BIOS and doing nothing just adds enough delay time for the drive to get ready in time before Windows starts.	St
+1.3.1	I tried changing the settings around, I changed it from Auto to HDD, and its still only working sometimes.	St
+1.3.2	I don't see any option saying anything about Fast Detect.	St
+1.3.3	The computer was already set up to have an extra hard drive, so I don't think its the power, but it could be I guess.	St
+1.4.1	...is the hard drive?	St
+1.4.2	What is the computer model?	St
+1.4.3	What is the hard drive model number?	St
+1.5.1	This is usually how comprehensive the memory check is done.	St
+1.5.2	Some have a setting that does a quick check but will allow a slower more thorough test.	St
+1.5.3	I can't say whether this feature is in your system or tell you where to find it.	St
+1.5.4	But using the full mem test will slow the boot process and possibly let the HD get up to speed before the BIOS goes looking for it.	St
+1.5.5	If the problem is that the POST outruns the hardware readiness state, a device might not show.	St
+1.6.1	Windows 98 SE, HP Pavilion M70, Pentium 3, my primary hard drive is about 30 gig, Quantum Fireball lct 15 30 My slave is a 6 gig Seagate Medalist, it says Model ST36450A on it.	St
+1.6.2	No idea what any of that means really, but I'm gonna guess that you do since you asked for it.	St
+1.7.1	I have no idea how to change any of that, I looked through everything in my BIOS and I couldn't find anything, I found a Hardware Diagnostic Tool in there, and that didn't help me any.	St
+1.7.2	They probably changed the BIOS a lot in the last 5 years to make up for things like this, but thats what I get for having a BIOS that was made over 5 years ago	St

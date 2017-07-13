@@ -1,0 +1,68 @@
+1.1.1	I am running XP.	St
+1.1.2	My desktop has two internal hard drives.	St
+1.1.3	I have two Seagate FreeAgent USB/eSATA 500 GB external hard drives.	St
+1.1.4	I am currently connecting them, one at a time, with USB2 cables.	St
+1.1.5	The problem is that my computer will read only one of the external drives at a time.	St
+1.1.6	I can plug both in, but the computer will not recognise both.	St
+1.1.7	A friend in Europe says that he plugs all his ext hds into a usb hub, which then goes into a computer usb port.	St
+1.1.8	I have one of these hubs, but am not currently using it.	St
+1.1.9	The Seagate technician told me that, indeed, my computer would not recognise both external hard drives at once: that connecting them both could corrupt them.	St
+1.1.10	This doesn't make sense to me.	St
+1.1.11	I still have the firewire cable for one (probably both.)	St
+1.1.12	I did not connect with the firewire cable because I don't need the speed.	St
+1.1.13	These drives are for safety backup of what is already on the internal hard drive and for access to an internet sharing hub.	St
+1.1.14	It is necessary for me to access both external drives in one session.	St
+1.1.15	Would I blow something up if I connected one drive to the next via usb2, then the second one to the desktop?	St
+1.1.16	Would firewire cables work this way?	St
+1.1.17	Would ext hds of different brands or sizes be read at the same time?	St
+1.1.18	I blew up a maxtor some months ago, and don't know if it happened because I plugged it into the wrong voltage adaptor, or tried to connect two Maxtors at once.	St
+1.1.19	Obviously, I have since learned that Maxtor is the second line of WD.	St
+1.1.20	Not much was lost except one very important folder of data which cannot be duplicated.	St
+1.1.21	Good lesson.	St
+1.1.22	But that is history.	St
+1.1.23	I just don't want to do it again If I could get a 1 TB Seagate, then I would, but I have not found them yet.	St
+1.1.24	And even so, I wouldn't want to waste the 500 gb drives if they could all be connected.	St
+1.1.25	I hope I have not worded this problem in too complicated a way.	St
+1.2.1	yes, you can break something.	St
+1.2.2	Are the drive cases USB powered or do they have their own external power supply?	St
+1.2.3	BTW, here is the Seagate Terabyte unit.	St
+1.2.4	http://www.seagate.com/www/en-us/products/desktops/barracuda_hard_drives/barracuda_7200.11/	St
+1.3.1	I was just asking a question in a post above and saw this so I figured I'd drop in...	St
+1.3.2	I run 2 Seagate externals along with a Maxtor external into 5 different USB onboard ports, the 2 Maxtors into the box directly and the Seagate into a hub that also has a printer, an Ipod, a digital camera and a housed laptop HD for carting around stuff bigger than my flash drive will handle...the HD maker shouldn't be an issue, the OS should see them as separate entities..	St
+1.3.3	I've found that an external USB hub with its own power supply helps because sometimes the amperage draw from the external drives collapses the onboard USB feed.	St
+1.3.4	Also, there's USB cables to be had with one connector on one end and 2 on the other for hookups that need more power.	St
+1.3.5	Depending upon the onboard current availability of the system, this has always worked for me...	St
+1.3.6	I've never run 2 drives in series, it's an interesting thought if you can provide them the power they need...but please don't take that as an endorsement, I really don't know...and on my machine the Firewire bus is it's own boss so I also plug stuff in there from time to time.	St
+1.3.7	If your machine has a separate amperage source for USB and Firewire it's an easy answer... And in reality, Maxtor is the second line of Seagate.	St
+1.3.8	Happened a few years ago.	St
+1.3.9	WD is a stand alone who bought the company who developed SATA technology...and in general, 1TB drives are 2 500s slaved in the same housing...hmm, if they share a partition I guess your thoughts or ganging them could be a good one...	St
+1.3.10	So I hope that helps, if for no other reason than to say I run different brands of HDs all the time and have never had a problem, except the weird thing I posted before... Good luck!	St
+1.3.11	Wayne	St
+1.4.1	Both your messages have helped clarify--and caution me!	St
+1.4.2	Both of the ext drives do have their own power supplies.	St
+1.4.3	Is is at all possible that, because the two ext drives are the same size, and the same brand and model no, that the C drive cannot distinguish?	St
+1.4.4	What if I hooked up one via firewire, and left the other alone with the usb2.	St
+1.4.5	It just now occurs to me that my usb hub is not usb 2, so that might make a difference in capabilities--maybe only speed, which, as I said, is not a problem.	St
+1.4.6	thank you again for your help and for any more someone or you can give.	Polite
+1.5.1	Alright, you are having a drive conflict, so here's what you need to do: 1.)	St
+1.5.2	Click START, and then right click on MY COMPUTER.	St
+1.5.3	Select MANAGE -- this will bring up the COMPUTER MANAGEMENT WINDOW.	St
+1.5.4	2.)	St
+1.5.5	On the pane furthest to the left in the COMPUTER MANAGEMENT window, there should be an option for DEVICE MANAGER.	St
+1.5.6	Click on DEVICE MANAGER.	St
+1.5.7	3.)	St
+1.5.8	Now, the DEVICE MANAGER should open in the middle pane of the COMPUTER MANAGEMENT window.	St
+1.5.9	Click on the arrow next to the DISK DRIVES option in the middle pane.	St
+1.5.10	Make sure that both External Hard Drives.	St
+1.5.11	4.)	St
+1.5.12	With the DISK DRIVES option selected, back over on the left hand pane of the COMPUTER MANAGEMENT window, select DISK MANAGEMENT.	St
+1.5.13	DISK MANAGEMENT will now open up in the middle pane of the COMPUTER MANAGEMENT window.	St
+1.5.14	5.)	St
+1.5.15	In the DISK MANAGEMENT window, scroll down until you see your unrecognized EXTERNAL HARD DRIVE.	St
+1.5.16	It will be showing a status of OFFLINE.	St
+1.5.17	You need to right click on this option and select GO ONLINE.	St
+1.5.18	I have the same problem and seen this solution on another website.	St
+1.5.19	It fixed it.	St
+1.5.20	Hopefully it will fix yours also.	St
+1.6.1	This discussion is now over 4 years old, so no more replies needed.	St
+1.6.2	Mark	St

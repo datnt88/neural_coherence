@@ -1,0 +1,73 @@
+1.1.1	Well, I wouldn't exactly say that I am a computer whiz-but I do know my fair share of what's going on inside these beautiful little life-leeching boxes ;P I recently took up the challenge of figuring out what's wrong with a friends' computer.	St
+1.1.2	His words were: &quot;it stays on for like 5 seconds and shuts itself off&quot;.	St
+1.1.3	I immediately knew this was an overheating issue (happened to me a million times).	St
+1.1.4	So I began troubleshooting this issue, reset everything into their little nooks and crannys, checked the cpu grease, bought some arctic silver and all that.	St
+1.1.5	That issue is now solved!	St
+1.1.6	I have run into another problem!	St
+1.1.7	:S The computer is on, it posts...everything.	St
+1.1.8	The only issue is every monitor that I try is still not responding; ranging from old to brand new out of the box.	St
+1.1.9	I first thought maybe it was previously set to a video card, tried that and nothing.	St
+1.1.10	I am more than positive it is just simply a BIOS setting that needs to be tweaked, but I cannot get the screen to respond so I can see if my keystrokes are working to enter BIOS.	St
+1.1.11	Keyboard works correctly, so does the ps-2 jack.......	St
+1.1.12	Anyone have any clue what is happening?	St
+1.1.13	The most info I have been able to figure out is that it is obviously a self-built rig: Gigabyte ga-k8vm800m, AMD processor...not sure about the make..grease is all over....	St
+1.2.1	I have a few machines that when the battery gets too low, it does that.	St
+1.2.2	Also try reseating that video card.	Sug
+1.2.3	(unplug, plug it back in and watch to see if it slides nicely home.)	St
+1.2.4	Bob	St
+1.3.1	Well I also thought might have been a dead battery....replaced that with a brand new one....not sure if maybe BIOS is dead....I get all the right beeps as usual.	St
+1.3.2	Vid card was mine from home, I was just using to see if the machine had happened to have been set to use that slot before.	St
+1.3.3	But no dice.	St
+1.4.1	More than the one singular beep is usually the video card was not found or the ram.	St
+1.4.2	If it has onboard video I pull the video card, reset the CMOS and try again.	St
+1.4.3	Bob	St
+1.5.1	AMD cpus aren't all that friendly to &quot;overtemp&quot; conditions.	St
+1.5.2	Once found in such a state they tend to be unstable even after correcting it.	St
+1.5.3	You seemed to cover all bases.	St
+1.5.4	I would return system to original state and enter the bios and be sure if any on board video is disabled.	St
+1.5.5	Reboot and check results.	St
+1.5.6	Be sure the video card is fully seated, etc..	St
+1.5.7	If possible try another capable AMD cpu.	St
+1.5.8	If the problem persists I would try a &quot;bootable Linux version&quot;, I like Ubuntu.	St
+1.5.9	Get the .ISO file and then make a bootable CD.	St
+1.5.10	Be sure the CD drive is the 1st bootable device.	St
+1.5.11	Install Ubuntu CD in drive and try to boot.	St
+1.5.12	If it works then, you have some probable s/w issue.	St
+1.5.13	A Ubuntu bootable CD relies totally on itself and doesn't need alot other than the system being present.	St
+1.5.14	This way you can test the operation w/o any windoze OS, etc.	St
+1.5.15	and all its issues.	St
+1.5.16	if it fails, you got the cpu bad or possible mtrbd., all that due to heat failure.	St
+1.5.17	tada -----Willy	St
+1.6.1	Sorry yeah it is justt he one POST beep.	St
+1.6.2	So everything apparently is ok.	St
+1.6.3	I had already tried a few times with the integrated video, (since that was the state it was in when I began my trials), and just now tried the video card instead.	St
+1.7.1	I thought I had also covered all the bases...I still think this is the simplest of issues: an altered BIOS setting of some type, but I cannot seem to enter it.	St
+1.7.2	I researched the combination of keystrokes to enter on this motherboard and it is just SUPPOSED to be the 'del' button.	St
+1.7.3	I have attempted this a couple of times already and still no data being transferred to the screen.	St
+1.7.4	I have also used a couple of different monitor cables.	St
+1.7.5	I haven't actually changed anything as far as layout goes, all I did wass reseat everything and clean it up.	St
+1.7.6	Does anyone know if maybe there is a different keystroke to enter the BIOS?	St
+1.7.7	I should be able to see what I am accessing since it isn't even running the drivers and such right?	St
+1.7.8	OMG!	St
+1.7.9	I am so frustrated lol.	St
+1.7.10	Thanks so much for the help so far, fellas.	St
+1.8.1	If the &quot;DEL&quot; key is the one to enter the bios is correct then it should work.	St
+1.8.2	You have to be 100% sure, no guessing here.	St
+1.8.3	I suggest you see that the clearing pins/pads are clear or how the jumpering is done.	St
+1.8.4	Often, they need to be in non-clearing(default) jumpered as to not effect system, opposite in order to clear setting.	St
+1.8.5	If you're entering the correct bios entry key and still no entry, then either the kybd.	St
+1.8.6	is broke or another failure at work here.	St
+1.8.7	Be sure you are using a std.	St
+1.8.8	PS/2 kybd.	St
+1.8.9	not a USB one.	St
+1.8.10	USB devices won't work until the system is up and running, so return to a plain PS/2 class kybd., same for mouse.	St
+1.8.11	Also, you may want to remove all USB devices as well to lessen their interference as an issue.	St
+1.8.12	tada -----Willy	St
+1.9.1	Alrighty, I will give this a shot pretty soon-unfortunately I don't have the computer here with me now.	St
+1.9.2	Keep your eye on this, if you can, so I can figure this out	St
+1.10.1	Ok so I gave up on that other one, I dunno quite know what is wrong out of the many things I spotted lol.	St
+1.10.2	Broken seating for the CPU, heat sink cracked, motherboard has random scratches....anyway.	St
+1.10.3	I moved on to another older machine they had sitting around they thought was broken because it had something rattling around and it wouldn't stay on for more than like 60 seconds....once again I cleaned her out and reseated the heat sink(which was completely off, was rattling around) and now she is golden....the only problem is some tard decided to run xp on this poor machine with only 64mb of ram!!!!	St
+1.10.4	XD I laughed so hard...	St
+1.10.5	So long story short-I am getting prepared to reinstall probably just Win2k and upgrade to 256m of ram.	St
+1.10.6	The only other issue I will have is that i cannot tell any evidence of a manufacturer on the mobo; probably a home-made knock off from Malaysia or something, so i will not be able to find drivers... Any ideas?	St

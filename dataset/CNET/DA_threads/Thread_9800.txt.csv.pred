@@ -1,0 +1,27 @@
+1.1.1	Hi all, Can u any one help me to solve this problem, Our setup is to connect 23 stations to the central point .	Ques
+1.1.2	They already laid the OFC cables and terminated using one tejas mux and nemd it as the OFC room .	St
+1.1.3	so we had started our setup from the point where they have terminated their OFC in each stations using the Microtech media converter , which converts OFC to copper link.	St
+1.1.4	From there we laid OFC to one of the Booking counter in one station.	St
+1.1.5	Each Station has two booking counter one is nearer to the OFC room, i.e, where they have terminated their OFC link .	St
+1.1.6	From there we have connected one of the booking counter with the OFC and again we are using one Media converter to connect the switch ( DAX DX-5026MGV-AC) then from this switch another OFC is running to the other switch placed in the other booking counter.the OFC link between the two stations are connected using the transceiver.	St
+1.1.7	this is the setup in all the 23 stations.	St
+1.1.8	each booking counter has two switch they are interconnected by Patch cord each station is one VLAN.	St
+1.1.9	MY problem is that , Some times the OFC link goes down between two booking counters.after all the basic level troubleshooting i have removed the transceiver and found that its very heat and then i have placed the transceiver in the same port by connectin the OFC link.	St
+1.1.10	then I manually restart the switch.	St
+1.1.11	After that the link goes up and there is no issue .	St
+1.2.1	A little confusing since it appears to be rather complex.	St
+1.2.2	I am guessing you think your problem resided in the SFP modules you insert into the switches.	St
+1.2.3	These modules seldom fail.	St
+1.2.4	I suspect it is a software issue with the negotiation between the switches.	St
+1.2.5	I would first when you get a failure log into your switches and see if you have error messages of any kind in the log.	St
+1.2.6	A actual failed module should produce a different error than you would see if it detected a issue with the light coming from the remote device.	Sug
+1.2.7	I would then disable and re-enable the port on each end.	St
+1.2.8	This will in effect reboot just that one port.	St
+1.2.9	If this resolves it I would look at things like speed/duplex/ flow control settings.	St
+1.2.10	Sometimes the AUTO option do not work correctly.	St
+1.2.11	To rule out a hardware failure you could of course swap out the module with a spare, you want to try this without rebooting the switch.	St
+1.2.12	These modules are hot swappable in most equipment.	St
+1.2.13	It is unlikely these devices themselves would get hot.	St
+1.2.14	You could in theory put too much light into one but that mostly just breaks it not overheats it.	St
+1.2.15	Just be sure you are using the correct modules for the distance you are going.	St
+1.2.16	You do not want to use the extended range ones on short fiber runs.	St

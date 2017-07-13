@@ -1,0 +1,36 @@
+1.1.1	Please help our networking nightmare.	Sug
+1.1.2	I am a virtual newbie to networking and do not have the technical expertise to set up what is needed on this network.	St
+1.1.3	We have had several &quot;experts&quot; working on it and we still cannot get it to do what we originally intended it to do.	St
+1.1.4	When the network was set up,we understood that any of the stations could access the files on the server and update the files.	St
+1.1.5	So far, what we have is one administrator that can access all our files, but the other stations cannot access any common files.	St
+1.1.6	Our server's operating system is Microsoft Windows 2000 server.	St
+1.1.7	What we want to do is this: We want to set up a database of our customers on the server, so that all stations can access it and add data to it.	St
+1.1.8	That way it can be up to date and easily accessed by all work stations.	St
+1.1.9	We presently have 4 stations hooked to the server and use a Linksy router and a Linksy Hub for our internet.	St
+1.1.10	We have DSL through the local phone company.	St
+1.1.11	We can all access the internet from our work stations, but we cannot share any information without e-mailing each other or using outlook express to inner-office memo.	St
+1.1.12	What is the problem?	St
+1.1.13	Is it in the way the server was set up?	St
+1.1.14	How do we correct the problem?	St
+1.1.15	We each have seperate IP addresses and we each have to sign on to the network with our names and a password.	St
+1.1.16	We have to save any of our work to the F-drive (which is on the server), but we cannot access any other files, except our own.	St
+1.1.17	I have set up a database using Microsoft Access and when I saved it to the server, no one else could access it or add any data to it.I then set up the individual stations with the same database, but could not retrieve any information from them and they did not allow me to download the info from their computer or even add it to my workstation program.	St
+1.1.18	Did I do something wrong?	St
+1.1.19	Do I have to install Access on the server?	St
+1.1.20	Is there a program that needs to be purchased and placed on the server?	St
+1.1.21	We have a billing program on the server that each station can access, so why can't we do a database the same way?	St
+1.2.1	&quot;I have set up a database using Microsoft Access and when I saved it to the server, no one else could access it or add any data to it.I then set up the individual stations with the same database, but could not retrieve any information from them and they did not allow me to download the info from their computer or even add it to my workstation program.&quot; I'm not going to dive into Access programming or file permissions.	St
+1.2.2	Any IT staffer can do that.	St
+1.2.3	However Access is a poorman's database.	St
+1.2.4	It's single user and too easy to corrupt in a multi-user environment.	St
+1.2.5	Let me share I install MySQL on the server then create the tables and then via MyODBC or my custom application allow what you are asking.	St
+1.2.6	MySQL, MyODBC are free and easy to find at google.com I've seen a few expend thousands (hours or dollars) in Access but again I share I don't use it anymore.	St
+1.2.7	I found it too expensive.	St
+1.2.8	Bob	St
+1.3.1	I don't want to appear computer illiterate, but what is ODBC?	St
+1.3.2	We have my SQL Control Center on the server, but we do not have it on our individual work stations.	St
+1.3.3	Can we download it to our individual work stations and then work off the server with it?	Sug
+1.4.1	I can't duplicate web content.	St
+1.4.2	(forum rules) MySQL and MyODBC are just a google.com away and are freely available along with too much documentation.	St
+1.4.3	I'm only sharing my solution to a common problem.	St
+1.4.4	Bob	St

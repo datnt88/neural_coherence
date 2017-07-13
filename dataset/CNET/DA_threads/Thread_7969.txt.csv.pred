@@ -1,0 +1,58 @@
+1.1.1	I have 2 desktops and a laptop I would like to network.	St
+1.1.2	All are running XP Pro.	St
+1.1.3	The two desktops have ethernet cards, plus one has dial-up internet access with a dedicated phone line via an internal modem.	St
+1.1.4	(we're lucky we even have dial up in my area).	St
+1.1.5	The laptop has a wireless card.	St
+1.1.6	I have a Belkin wireless G router that can be used as either a router or an access point.	St
+1.1.7	I've played with this a little, hooked the router up, played a little more with ICS, was able to establish a &quot;Residential Gateway&quot; on the client desktop and laptop but cannot for the life of me get internet on any compter other than the host.	St
+1.1.8	On the client computers, I've given them static IP's with the host ip used as the gateway.	St
+1.1.9	I've been researching on the net for weeks now and always end up with one place saying use automatic assigning only, and the other saying you have to manually set up.	St
+1.1.10	I don't have anything plugged into the router except the 2 ethernet cables from the desktops.	St
+1.1.11	Should I set my router to be an access point only?	St
+1.1.12	Am I going about this all wrong?	St
+1.1.13	Any advice is greatly appreciated as I've tried everything I can think of as I am not an IT person.	Polite
+1.1.14	All 3 computers can see each other and share files, printers, even the wireless laptop, I just can't get internet on anything except the host.	St
+1.1.15	Any and all help appreciated!	St
+1.1.16	(PS I'm using a router because it was given to me for free and it's brand new)	St
+1.2.1	I had the same issue, but the wired vs. wireless shouldn't be an issue.	St
+1.2.2	I have one machine as my gateway, and the other machines use the static IP of the machine with the modem and the dial-up connection as the &quot;Default Gateway&quot; to access the internet.	St
+1.2.3	The only difference is I did not set my router as an access point.	St
+1.2.4	I don't know if that is the difference, but I did try it that way and had the same issue where my wireless machines couldn't get to the internet via the gateway.	St
+1.2.5	So I changed back the settings on the router so it was not an access point, assigned it a static IP as well, and all started working.	St
+1.2.6	Make sure the Internet Connection Sharing is set up properly on the machine with the modem and land line, and that all remote machines have the IP of the gateway in their IP settings for Default Gateway.	St
+1.2.7	Since the PCs can see each other already, it sounds like the network is functioning OK. Mark	St
+1.3.1	I've tried just about everything now.	St
+1.3.2	Tried using the router as just an access point to no avail.	St
+1.3.3	I uninstalled everything and started from scratch.	St
+1.3.4	Ended up back at the same place.	St
+1.3.5	Everything's networked, just can't get to the internet on the client computers.	St
+1.3.6	Made sure all the router info was correct, made sure internet connection sharing was on and turned off every firewall I could find.	St
+1.3.7	All gateways seem to be working, just not the internet.	St
+1.3.8	I'm just stumped!	St
+1.4.1	I'm even able to connect and disconnect my internet connection via the client computers, I just can't browse or email.	St
+1.5.1	at your IP and DNS addressing scheme.	St
+1.5.2	Dynamic addressing is the usual for this type of set up and the routers DHCP function needs to be turned off if ICS is being used.	St
+1.6.1	I tried turning of the DHCP, did a hard reboot of the router did a 'netsh int ip reset' and an 'ipconfig flushdns' on all three units and still...nada.	St
+1.6.2	If I type in the ip of the router in the browser, I can see and use the router config on both clients.	St
+1.6.3	I've tried both dynamic and pppoe(?).	St
+1.6.4	On the router web-based config window on internet status it says No connection which I expect since it's a dial-up (only thing available).	St
+1.6.5	On internet connection LAN settings I've tried both 'automatically detect' and 'use a proxy server' both together and individually.	St
+1.6.6	In advanced proxy settings I used the ip of my host for the proxy address and ports 6588 for http and secure, 110 at FTP and 21 for Socks.	St
+1.6.7	I left Gopher blank.	St
+1.7.1	Your issue just sounds just like the one I had, so unless there is hardware failure someone along the line, it should work.	St
+1.7.2	And it sounds like youve done all this and more, so I dont know if this will make any matter Like I said, before, I did not set the router as an access point, and it sounds like youve tried it both ways.	St
+1.7.3	You are correct that there will be no internet connection present on the router status screenthats not an issue.	St
+1.7.4	AgainI could not get the internet shared with the router set as an access point, but that may have been before I scrapped using DNS.	St
+1.7.5	Found out that would not work properly with ICS in my situation.	St
+1.7.6	I disabled DNS and assigned 192.168.2.0 to the desktop machine connected to the internet with the modem.	St
+1.7.7	Installed the Internet Connection Sharing software on this machine.	St
+1.7.8	As I recall, I may have had to install it, remove and install it again more than once for it to work.	St
+1.7.9	Now this is an older WinMe machine, but it works OK for the ICS process.	St
+1.7.10	Assigned the router 192.168.2.1.	St
+1.7.11	Assigned the additional wireless and wired machines 192.168.2.2 and 192.168.2.3 respectively.	St
+1.7.12	I used 192.168.2.0 as the default gateway for the other machines so they would use the desktop machines to find the internet.	St
+1.7.13	Good luck Mark	Polite
+1.8.1	Turns out I had everything set up exactly correct.	St
+1.8.2	My problem was the &quot;&quot;technician&quot;&quot; I spoke with at my ISP gave me the wrong DNS server addresses!	St
+1.8.3	Had it working 1 minute after calling them to re-check the numbers.	St
+1.8.4	Thanks to everyone for all your help, I learned quite a few thing trying to figure this one out.	St

@@ -1,0 +1,28 @@
+1.1.1	We are on the verge of migrating from Small Business Server 4.5 to Small Business Server 2003.	St
+1.1.2	The new server and accounts are all setup.	St
+1.1.3	Both servers (the old 4.5 and the new 2003) exist on the network with unique domain names for now so I can test without disrupting others.	St
+1.1.4	To test if individual workstations get changed without problems, we want to be able to have the ability to log into either domain at signup.	St
+1.1.5	With the few Windows 98 SE computers we have left, this is easy, you can change the domain name and type in whatever you want at login and I can easily test them.	St
+1.1.6	But with the Windows XP Pro computers, it is much more complicated it seems.	St
+1.1.7	At logon, you have the option of logging into ''ComputerName (this computer)'' where 'ComputerName' would be replaced with the name for the computer or to a single domain.	St
+1.1.8	When I do the XP process of adding the computer to a new domain, after the reboot, I only have the option of ''this computer'' or the new domain, not the old domain anymore.	St
+1.1.9	So when my test is done, to have it re-link back to the old domain, I have to go through the whole process all over again.	St
+1.1.10	Besides being a chore to go back and forth like this, it has proven a bit dangerous.	St
+1.1.11	On one computer I tried it on a couple of times, there eventually was an error generated when trying to connect to the new domain for a 2nd test.	St
+1.1.12	After that, the computer refused to log into anything (even into just itself, insisted on a password for Administrator even though one wasn't required for it before) and we eventually had to get the data off this computer's C: drive (we were able to) and then do a reformat/reinstall of Win XP since we couldn't log in.	St
+1.1.13	On another computer after doing this a couple of times, it wouldn't boot anymore because it said that HAL.DLL became corrupted.	St
+1.1.14	I was able to fix this with Recovery Console, but it was rather onerous.	St
+1.1.15	So I have two questions: 1) Is there any way to make the XP computers so I can choose at logon one or the other domain?	St
+1.1.16	2) Why would problems like the HAL.DLL issue occur?	St
+1.1.17	Is it bad to keep joining back and forth between 2 domains (we wouldn't do this once the new server is &quot;live&quot; but I don't want to just change all the workstations one night and if there are immediate unforeseen problems the next morning people can't work for awhile because it is long and problematic to &quot;go back&quot;)?	St
+1.1.18	Any help would be much appreciated, thanks.	St
+1.2.1	1.	St
+1.2.2	I'd try out netswitcher.com to see if that helps.	St
+1.2.3	2.	St
+1.2.4	I'll write yes.	St
+1.2.5	Your posts seem to indicate you have a lot of home made machines.l You don't want to know how many I see the OS installed proper.	St
+1.2.6	Bob	St
+1.3.1	I'll try netswitcher.	Sug
+1.3.2	Someone else I talked to recommended starting over using what's at sbsmigration.com as well.	St
+1.3.3	We'll see.	St
+1.3.4	Thanks again!	St

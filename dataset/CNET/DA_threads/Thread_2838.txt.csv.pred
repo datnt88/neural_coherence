@@ -1,0 +1,202 @@
+1.1.1	I have a 400gb seagate hard drive and I'm installing it into an external USB case, the Vantec NexStar 3.	St
+1.1.2	When I first installed and turn it on it only showed up as 32GB in windows no matter how I set the jumper.	St
+1.1.3	I contacted segate and was told to install it internally and use their DiskWizard to reset the drive volume.	St
+1.1.4	Well...I finally managed to get it to format at 400gb and actually ended up installing windows xp on the drive at the same time.	St
+1.1.5	I checked my computer and it shows at 400gb.	St
+1.1.6	I then took the drive out of the pc and put it back in the external case and it still comes up as 32gb and windows says it's not formatted.	St
+1.1.7	I'm pulling my hair out!	St
+1.1.8	Any idea what the issue could be?	St
+1.1.9	Thanks for any insight.	St
+1.1.10	Dan	St
+1.2.1	...go to XP's Disk Management, delete all partitions, and create one NTFS (not FAT32) partition?	St
+1.2.2	Also, ensure your XP has SP2 and is fully updated.	St
+1.2.3	Use the latest motherboard/chipset drivers, too.	St
+1.3.1	I go into the disk management and tried deleting and creating a new partition, it will only allow me to create a 32gb partition...even using NTFS.	St
+1.3.2	I have a laptop with XP fully updated and that is where I'm trying to connect the drive.	St
+1.3.3	I used my old PC to connect the drive internally and format the full 400gb so I know there is a 400gb partition and that it is formatted and contains a full install of XP..also with SP2.	St
+1.3.4	After completing the format and windows install on my old computer and then moving the drive to the USB case and only seeing 32gb of unpartitioned space, I put the drive back into the old pc and it started up into XP and shows 400gb drive.	St
+1.3.5	I'm wondering if there isn't a problem with my encloser...has anyone ever heard of such a strange issue?	St
+1.4.1	There's also the possibility that you have something other than a BASIC partition scheme.	St
+1.4.2	Tell a few more details but be assured that moving from internal to USB case is never a sure thing.	St
+1.4.3	I've run into situations/cases that I have prepare the drive in the case.	St
+1.4.4	Bob	St
+1.5.1	&gt;&gt; has anyone ever heard of such a strange issue?	St
+1.5.2	Sure.	St
+1.5.3	Some external enclosures just don't work with certain hard drive models or sizes.	St
+1.5.4	Some enclosures malfunction or arrive DOA.	St
+1.5.5	That's when I return it for a different enclosure model.	St
+1.6.1	The drive was partitioned during windows XP installation, I didn't do anything special to it or try to create multiple partitions.	St
+1.6.2	Like I said, if I put it into my old PC it works fine.	St
+1.6.3	My brother has an external USB case so I guess I'll go try to put it in his and see what happens...at least then I'll know if it's the case or not.	Sug
+1.6.4	Thanks for all your help folks...this has been a real frustration for me and at least now I have some direction...thanks again.	St
+1.7.1	Thanks for the info...going to try it in my brother's Bytech enclosure and see what happens.	St
+1.7.2	I also emailed tech support on the case and see if they have any insight.	St
+1.7.3	Thanks everyone.	St
+1.8.1	Try using DBAN or KILLDISK to wipe the HD by writing zeros to it.	St
+1.8.2	You may have to do this while the HD is installed internally.	St
+1.8.3	Once wiped, install the HD in your external enclosure, and then use Disk Management to format it with NTFS.	St
+1.9.1	On the hard disk there shold be a jumper setting to limit the hard drive to 32GB, just make sure your using the correct jumper configuartion.	St
+1.9.2	ILMV	St
+1.10.1	The external case you are using, is most likely, limiting the drive because, it cannot handle a 400gb hard drive.	St
+1.10.2	Only new external cases, that are (designed and say) handle up to 500gb drives or more, will work.	St
+1.10.3	Most older external cases, can only handle up to 300gb drives or less.	St
+1.10.4	Check with the manufacturer, on how much it can handle, or buy a new case that can handle it.	St
+1.10.5	Hope this helps.	St
+1.11.1	I just bought the case from TigerDirect.	St
+1.11.2	It's a NexStar 3.	St
+1.11.3	I'm pretty sure it's just the drive is messed up somehow.	St
+1.11.4	I took it to my brother's house and put the drive in his external case and windows wouldn't even recognize that a drive was there and it kept locking up the disk managment in My Computer.	St
+1.11.5	Then I tried his drive in my case and it worked like a champ.	St
+1.11.6	I even tried the KILLDISK tool to completely reset the drive to zeros and that didn't help any either.	St
+1.11.7	I guess I've just got a 400gb paperweight at this point.	St
+1.11.8	I know one thing...I'll never buy another Seagate drive...this thing as been nothing but trouble.	St
+1.12.1	According to http://en.wikipedia.org/wiki/File_Allocation_Table Windows XP can not format a disk in FAT32 format greater the 32 GBytes.	St
+1.12.2	Try formatting the disk using NTFS formatting	St
+1.13.1	It's a good idea to make sure it's not jumpered to the 32GB limit, but I'm not sure that is consistent with the fact that dprudlow is able to partition and jumper the HD to 400GB outside the enclosure.	St
+1.13.2	Worth checking, anyway.	St
+1.14.1	I bought a 500GB iomega external drive and it has never failed me but I know of two other people with Seagate's and they don't have any issues with them.	St
+1.14.2	Sounds like something other than the drive so don't give up on Seagate just yet.	St
+1.14.3	400GB may make a great paperweight but it's not likely to be cost effective and you do NOT wanna toss that kind of cash if you can help it.	St
+1.15.1	Checked out, the case has a capacity of 750gb, excellent.	St
+1.15.2	So, like others have stated before, and after me then, you must be formatting it in Fat32.	St
+1.15.3	You have to format in NTFS and this should cure your problem.	St
+1.15.4	Delete the existing partition from the Disk Management section of Computer Management in Administrative Tools.	St
+1.15.5	Then, Format the drive from the same section.	St
+1.15.6	Settings should be saying, File System = NTFS and Allocation Unit Size = Default.	St
+1.15.7	No check marks in the boxes and format.	Sug
+1.15.8	Should be good to go then.	St
+1.15.9	Good Luck.	St
+1.16.1	&quot;Format It From Your Laptop&quot; that its being plugged into.	St
+1.17.1	I will be interested to know what your final solution is, Having had the same type trouble with a seagate large capacity drive.	St
+1.17.2	I even looked at MS and done all they recommended.	St
+1.17.3	I gave up on mine.	St
+1.18.1	The problem is the external case.	St
+1.18.2	If you check whatever passed for documentation included in the external box's packaging, I'll wager it has some information on how that case handles drives and partitions.	St
+1.18.3	The specific problem you're experiencing here is the BIOS chip that's built into the external case that translates PATA or SATA to USB.	St
+1.18.4	Many cheaper external cases don't support large drives very well, if at all.	St
+1.18.5	Case in point: A few years back, I bought an external drive box for a laptop drive I had laying around collecting dust.	St
+1.18.6	The drive box's rather sparse information sheet said that it had to be formatted in a specific way - no partition could be over 20 GB in size AND had to be formatted with FAT32 or the whole thing would NOT work.	St
+1.18.7	The drive was 40 GB - so the only way to make it work was to create two 20 GB partitions and format them to FAT32.	St
+1.18.8	I'll wager your external case has similar limitations.	St
+1.18.9	If you still want to use your 400 GB drive as an external drive, you probably will want to do a bit of research and find another external case that will specifically support huge partitions.	St
+1.19.1	I have formatted the drive in NTFS and when I select NTFS in disk management to format it will not let me change the default size of 32GB.	St
+1.19.2	Like I said before, I formatted the drive on my old pc and it formatted to 400gb and installed Windows XP SP2 and worked fine on that computer but when I put it in my drive case it only shows up as 32GB and says it's not formatted, did the same thing on my brother's computer and his is a brand new Dell.	St
+1.19.3	I also tried his external case and had no luck.	St
+1.19.4	It's mind boggling but I don't know what else to do at this point.	St
+1.19.5	I've check the jumper settings, tried different cases, tried on different computers, and have formatted in NTFS.	St
+1.19.6	The drive has NEVER been formatted in FAT32.	St
+1.20.1	Well said Wolfie.	St
+1.20.2	Dprudlow, try putting smaller partitions on it.	Sug
+1.20.3	Like 295gb or less.	St
+1.20.4	The case can handle 750gb but, Windows XP can only handle less than 300gb partitions.	St
+1.20.5	I have a Seagate 320gb and the most XP will let me partition on it is, 298gb plus cache.	St
+1.20.6	Anything over that is a new partition.	St
+1.20.7	Good Luck.	St
+1.21.1	XP supports partitions well over 300GB.	St
+1.21.2	There are two different ways of counting the same number of bits on the hard drive.	St
+1.21.3	See the following discussion: http://forums.cnet.com/5208-6142_102-0.html?forumID=68&threadID=235308&messageID=2412530&tag=mcnt#2412530	St
+1.22.1	Sorry, I was misunderstood by you Linkit.	St
+1.22.2	In an external drive, not as a internal drive.	St
+1.22.3	Hope this clarifies this for you.	St
+1.23.1	Whether internal or external, a 320GB hard drive (1GB = 1,000,000 bits by definition) is equal to a 298GB hard drive (GB = 1,073,741,824 bits by definition).	St
+1.23.2	A 320GB hard drive is expected to show as 298GB hard drive in many places in XP.	St
+1.23.3	This is not an issue of the hard drive's own controller, a motherboard controller, or a controller in an external enclosure.	St
+1.23.4	It is a matter counting the total number of bits using different scales.	St
+1.23.5	The total number of bits on the hard drive does not change--the definition of &quot;GB&quot; does change.	St
+1.24.1	Meant to write: Whether internal or external, a 320GB hard drive (1GB = 1,000,000,000 bits by definition) is equal to a 298GB hard drive (GB = 1,073,741,824 bits by definition).	St
+1.25.1	Want to explain this to Dprudlow and how this will help him to fix his problem with his external case only reading 32gb and saying its unformatted, when its a 400gb hard drive?	St
+1.25.2	Please read the prior posts.	Sug
+1.25.3	I made a suggestion to try smaller partitions and nothing more.	St
+1.25.4	It backs what I said in an earlier post about most external cases only being able to handle 300gb.	St
+1.25.5	Good Luck Dprudlow.	St
+1.25.6	Hope you figure it out.	St
+1.26.1	Actually, I think it would work out to somewhere around 312 gig.	St
+1.26.2	1024 per K would be 320000000000 div by 1024, I think I'm right	St
+1.27.1	But that doesn't explain, nor fix DUP..... problem.	St
+1.27.2	I've had the same type problem with Seagates myself and gave up on them, and would really like to know the solution.	St
+1.28.1	The computer industry has defined a binary GB as 2^30 bytes (1,073,741,824 bytes).	St
+1.28.2	1,073,741,824 bytes = Binary GB 1,000,000,000 bytes = Decimal GB So you can make this equation: (1,000,000,000 bytes / Decimal GB) = (1,073,741,824 bytes / Binary GB) The equation shows that one Decimal GB = 0.931322575 Binary GB.	St
+1.28.3	This means that any hard drive size reported in Binary GB will be shown as about 93% of the Decimal GB total indicated on the hard drive's retail packaging.	St
+1.28.4	Another way of stating this is that Windows (and other OS'es) will report the total GB as about 7% less than what you expect.	St
+1.28.5	For our 320GB hard drive example: 320 Decimal GB * 0.93132 Binary GB / Decimal GB = 298 Binary GB (approximately) * * * * * You have defined a Decimal GB as 2^8 * 1,000,000.	St
+1.28.6	See below: 1024 * 1,000,000 = 1,024,000,000 bytes = Binary GB (incorrect definition) Obviously 1,024,000,000 does not equal 1,073,741,824, so we are going to see a difference in our results.	St
+1.28.7	Carrying out the math... 1,000,000,000/1,024,000,000 = 0.9765625 320GB * 0.9765625 = 312.5GB (your figure) This gives the incorrect result when calculating Binary GB.	St
+1.29.1	I have a brand new NexStar 3 case that supports up to 750gb drives.	St
+1.29.2	It's an IDE drive, not PATA or SATA.	St
+1.29.3	I know the case supports partitions over 32gb because I put my brother's 100gb Western Digital drive in my case and it works fine.	St
+1.29.4	For the person suggesting using smaller partitions like 295gb...that won't work because like I said before...Windows will NOT let me increase the partition size beyond 32gig.	St
+1.29.5	I can create one 32gig partition and that is it...no more.	St
+1.29.6	It's like it doesn't know it's a 400gb drive...it only sees 32gig...should I say it again...32gig...that's it...doesn't see any more...no matter what jumper setting is used.	St
+1.29.7	Even unformatted it only sees 32gig.	St
+1.29.8	I downloaded KILLDISK and reset the drive back to zeros and when I initialized the drive in My Computer is shows up as 32gig.	St
+1.29.9	So...if anyone has any new suggestions let me know but if you are going to tell me to format different partition sizes or use NTFS vs FAT32 or tell me to get a new case because my case doesn't support large drives or tell me that XP only supports 320gig external or whatever...don't bother becasue I've tried it all.	Ques
+1.29.10	I'd be more than happy to see 320gig come up but it just doesn't work...32gig and that's it.	St
+1.29.11	Let's face it...Seagate drives SUCK and I'll never buy one again.	St
+1.30.1	Pretty much at this point the solution is to take the drive out and smash it with a hammer because it's nothing but a piece of crap.	St
+1.30.2	I called seagate and they told me I had to hook it up internally and run their disk wizard and reset the drive capacity...yeah that didn't work for anything.	St
+1.30.3	I installed it internally, got it formatted to 400gb, itstalled XP on it, took it out of that PC and put it in my case and it said 32gb unformatted, put it right back in the other PC and started right into windows and shows 400gb...I'm just going to find a new drive...most likely a Western Digital...now that I see Maxtor info on Seagates website they must one company now...nothing but a big piece of garbage...what a waste.	St
+1.31.1	I agree--it is a different subject, but since your brought it up when you wrote that &quot;Windows XP can only handle less than 300gb partitions,&quot; it needed to be addressed as erroneous information and corrected.	St
+1.31.2	Also erroneous was your stating that you &quot;have a Seagate 320gb and the most XP will let me partition on it is, 298gb plus cache.	St
+1.31.3	Anything over that is a new partition.&quot; The fact is that it is impossible for any operating system (with or without an external enclosure) to partition that hard drive to more than 298 binary GB because there are a maximum of 298 binary GB on that hard drive (even though the label indicates that there are 320 decimal GB).	St
+1.31.4	I have indeed read all posts and have been following this discussion form the beginning, including providing the first reply.	St
+1.31.5	I did touch upon the size incompatibility issue in post #6 and others have as well.	St
+1.31.6	I don't mind that others repeat or expand on ideas; I just want to correct misinformation and not allow it to spread.	St
+1.31.7	Many enclosures will specify a max capacity because there were only smaller sizes of hard drives available for QC testing of the enclosure before it hit the market.	St
+1.31.8	The enclosure's controller will actually support more than the specified max in many instances.	St
+1.31.9	Another of my earlier points is that even though the enclosure is supposed to support up to 750GB drives, some enclosure models are faulty, and some controller chips in certain enclosures don't handle certain hard drive models very well.	St
+1.31.10	(An example is the the Maxtor SATA II hard drives that required a firmware upgrade to function properly with nForce3/4 chipsets.)	St
+1.31.11	As I wrote earlier, that's when I return it for a functional/compatible model.	St
+1.31.12	Bear in mind that I'm not completely discounting a quirky enclosure that has nonstandard limitations.	St
+1.31.13	I wonder what would happen if DPRUDLOW tried to make a 120GB partition or a 200GB partition.	St
+1.31.14	I will also note that I saw many reviews at NewEgg.com and elsewhere with 320GB drives, one 400GB drive, and a 500GB drive successfully formatted on a NexStar 3 model.	St
+1.31.15	Since there is more than one model of Vantec NexStar 3, maybe DPRUDLOW can provide us with the exact model number?	St
+1.32.1	I wonder if Seagate or Vantec has a &quot;known issue&quot; of incompatibility?	St
+1.32.2	Some hard drives makers have issued a firmware upgrade for certain hard drive models that are incompatible with popular chipsets.	St
+1.32.3	Maybe it's worth contacting Seagate and/or Vantec to see what they know.	St
+1.32.4	Maybe it's not worth it the time and trouble, and it's time to consider starting the return process to exchange it for an enclosure known to be compatible with your Seagate model family.	St
+1.32.5	I wish you all the best!	St
+1.33.1	You are probably right as it's been many years since I first started in DP.	St
+1.33.2	At that time 1024 was 1 K But, let's look at my personal drives.	St
+1.33.3	I have one 130 Gig drive, it formats to 127 gig.	St
+1.33.4	Your calcs would put it at 121.?????	St
+1.33.5	My calc says it's 127 (what it shows) This is a seagate drive.	St
+1.33.6	I have a 120 gig Maxtor drive, it formats to 114 gig.	St
+1.33.7	Your calcs would put it at 111.?????	St
+1.33.8	My puts it at 117. this is a Maxtor drive.	St
+1.33.9	So, neither one comes up with what is actually formatted in reality.	St
+1.33.10	I never have been able to fully understand the difference.	St
+1.33.11	I concede though, things have changed drastically.	St
+1.34.1	the enclosure I have is the NexStar 3 model number NST-360U2-BK.	St
+1.34.2	I did try to contact Vantech tech support (only could find an email address for tech help) and of course they never responded...big shock...I don't know why these companies even have email for tech help or whatever...they never respond...worthless.	St
+1.34.3	Anyway, like I said many times, I can't try smaller partitions or anything like that because when I go into disk management it only shows up as 32gb of unformatted space and if I try to format the drive it won't let me enter a number higher than 32gb.	St
+1.35.1	Were other cases tried?	St
+1.35.2	I researched this Vantec and found different maximum GB sizes on each site that offered it.	St
+1.35.3	This screams something is wrong here.	St
+1.35.4	Bob	St
+1.36.1	I did try it in my brother's Bytech external case and when we put the drive in his case it would not show up in My Computer and when we went into Disk Managment it would just hang up and never show the drive but as soon as we turned the power to the case off...Disk Managment would start working again.	St
+1.36.2	Also his case has an activity light that flashes green when his drive is in it but when we tried my drive it would light up red/orange and just be solid...no flashing at all.	St
+1.36.3	Also when I put his drive in my case it worked fine.	St
+1.36.4	His drive is a WD 100gb.	St
+1.36.5	Another thing...when my drive is in the case and you turn it on Windows says &quot;USB Mass Storage device&quot; down by the system tray...but when I put my brother's drive it my case it actaully had info about the drive like &quot;WD 100GB USB...&quot; I guess I'll try to contact Vantech again to see what they have to say before I try to return it.	St
+1.36.6	It just seems odd that another drive would work fine and this stupid Seagate piece of junk won't work.	St
+1.36.7	I just Don't Get it.	St
+1.37.1	Sorry, but I've used many drives but no one has that case and I won't buy it to try.	St
+1.37.2	Since the drive works in a PC, maybe that's where it should live.	St
+1.37.3	Bob	St
+1.38.1	perhaps an Adaptec....I've got several and they work with any hard disk drive and any capacity up to 1TB.	St
+1.38.2	They've discontinued selling them but they're still available at retail shops....suggest starting with Froogle to get a good price...	St
+1.38.3	Here's the Adaptec WEB where you can get the model numbers: http://www.adaptec.com/en-US/products/_eol/consstor/enclosures/ Exactly what Seagate model is it...assume its PATA ?	Ques
+1.38.4	VAPCMD	St
+1.39.1	Sometimes I get too involved in my posts and assert my position without regard to keeping the conversation pleasant.	St
+1.39.2	Sorry about that.	St
+1.39.3	There is an explanation that involves variation in total bytes among different hard drive makers.	St
+1.39.4	It's difficult to get those densities exact.	St
+1.39.5	The advertised total of &quot;120GB&quot; may actually be 120.238GB or 123.061GB.	St
+1.39.6	That can explain the difference between 111.xxGB and 114.xxGB.	St
+1.39.7	It took me a while to accept that a GB is not necessarily a GB, and that hard drive makers did a very poor job of explaining this.	St
+1.39.8	(This was after I finally spent all that time and effort in switching my brain to metric.)	St
+1.39.9	It even resulted in a lawsuit!	St
+1.39.10	http://www.google.com/search?hl=en&q=western+digital+capacity+lawsuit&btnG=Search	St
+1.40.1	I wrote that 2^8 = 1024.	St
+1.40.2	Should be 2^10 = 1024.	St
+1.40.3	Don't let me count the money anymore!	Sug

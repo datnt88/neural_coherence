@@ -1,0 +1,46 @@
+1.1.1	My desktop, running XP Pro, has the above mentioned video card.	St
+1.1.2	I've had it for about a year without any problems, everything updated fine from the installation CD and from Windows Update there after.	St
+1.1.3	A week ago however, I decided to reformat my PC, something I've done a few times, again without any big problems.	St
+1.1.4	This time however, the video drivers (and monitor drivers as well as a result of this) fail to install.	St
+1.1.5	I've tried using the CD again, but after installation and restart, my pc will freeze during Windows loading screen (at the agp40 or similar loadup command).	St
+1.1.6	I went online to get the latest drivers, but installation fails as it does not recognize any valid hardware.	St
+1.1.7	There's a hotfix on AMD's website for this series, which I've tried, but it's the same result as the CD.	St
+1.1.8	I've also tried using generic VGA drivers as some troubleshooting guides recommend, but this again will only lead to my screen freezing at loadup.	St
+1.1.9	Finally, Windows Update itself does not recognize the hardware either, so I'm not getting any updates for it, nor is the Automatic Driver search working on it.	St
+1.1.10	Any help on is appreciated.	St
+1.2.1	and it went OK the previous time you did exactly the same, I'm thinking of a hardware failure.	St
+1.2.2	Try once more from the start.	St
+1.2.3	If no luck again, see if you still can find another AGP card.	St
+1.2.4	Kees	St
+1.3.1	Yes, the only difference I can think of was that I had an older ATI card before, with its drivers and catalyst.	St
+1.3.2	But even then, I had to install the drivers from the CD.	St
+1.3.3	I tried it again, this time using the ATI driver found on this site, but the same thing happens.	St
+1.3.4	Windows freezes at the same command line.	St
+1.3.5	I just went through some boxes and I found my old ATI, so I'll load it up again and see if I can get those drivers to work.	St
+1.3.6	Would there be any issues if I then try to load the HD2400 again as an upgrade to see if it'll be recognized then?	St
+1.4.1	prior to the reformat, there weren't any apparent problems with my video.	St
+1.4.2	The main reason for doing it was that my system performance was being slowed down by a number of programs that I didn't use any more and I prefer full cleanup when there are a lot of these programs rather than just uninstalling them and encountering errors later on.	St
+1.5.1	install the mobo chipset driver first BEFORE installing the VGA driver?	St
+1.5.2	If you have the mfr provided driver CD, they usually have it autostart and then you follow the installation sequence from top to bottom.	St
+1.6.1	I did a clean windows install when I reformatted, don't have a chipset driver.	St
+1.6.2	I did check for available bios updates, but the only one available was for the pc series I have, but not for the model itself (it mentioned 'specific for...'.	St
+1.6.3	I've never had to reinstall those particular drivers before, so I might be missing something there.	St
+1.6.4	How would I go about finding this information?	St
+1.7.1	I read your post twice and missed the make, model of the machine so I can't offer a link to that driver.	St
+1.7.2	But that message also happens if you download the ATI drivers.	St
+1.7.3	For AGP you have to find the AGP HOTFIX drivers from ATI.	St
+1.7.4	The ones you find are only for PCIE so be sure you get the AGP HOTFIX and absolutely get that motherboard package installed first.	St
+1.8.1	It's a Compaq 7000 7RPM11.	St
+1.8.2	As for the AGP hotfix, yea found those and they cause the freeze at startup, same with any older or generic drivers.	St
+1.8.3	The PCIe were the ones that failed to recongnize the hardware (as mentioned in the hotfix) and would not install at all.	St
+1.9.1	http://h10025.www1.hp.com/ewfrf/wc/softwareList?os=228&lc=en&dlc=en&cc=us&product=240442&lang=en I see this used the Intel chipset.	St
+1.9.2	If so, this is a link to a Compaq driver required.	St
+1.9.3	http://download.cnet.com/sp25336-exe/3000-2122_4-111586.html Sorry but the model DID NOT tell what I needed to know to find the Intel.com drivers I would install.	St
+1.9.4	Let me ask this.	St
+1.9.5	-&gt; Which Intel chipset did this machine use?	St
+1.9.6	Bob	St
+1.10.1	has nVidia UMA onboard http://h10025.www1.hp.com/ewfrf/wc/softwareList?os=228&lc=en&dlc=en&cc=us&product=240442 so your ATI is an upgrade.	St
+1.10.2	Do a clean XP install without the ATI inserted, then insert the ATI to let PnP detect it, then install the ATI driver.	St
+1.11.1	Sorry, haven't dealt with chipset info, I think it's the firmware that you are asking for, but just in case I listed the rest of the info: Intel 82801BA LPC Interface Controller -2440 82801BA/BAM SMBus Controller -2443 82801BA/CA PCI Bridge -244E 82802 Firmware Hub Device 82850 Processor to I/O Controller -2530 82850/82860 Processor to AGP Controller -2532 Even if I have to reinstall without the HDcard, I'd appreciate this info, as I'm thinking it'll be a good idea to update whatever's outdated anyways.	St
+1.11.2	Thanks.	St
+1.12.1	http://www.intel.com/support/chipsets/sb/cs-009238.htm Go get em.	St

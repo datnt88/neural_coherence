@@ -1,0 +1,60 @@
+1.1.1	processor: AMD athlon64 3200+ 2.0ghz memory (ram): pqi pc400 1023mb (512mbx2) system type: 32 bit motherboard: epox 9NPA3 Ultra bios: phoenix - award worrkstation operating system: windows vista ultimate edition a few weeks ago,my os needed reformating but i didnt have extra hard disk to back up my files(since i wanted a complete re4mat including partitions).	St
+1.1.2	my old hard disk was a seagate barracuda 160gb SATA.	St
+1.1.3	i was able to borrow an external maxtor 40gb PATA from a friend.	St
+1.1.4	since d enclosure was broken, i took out the hard disk and connected it manually through an IDE cable.	St
+1.1.5	i also borrowed a seagate 160gb PATA and everything went well.	St
+1.1.6	ive backed up all my important files.	St
+1.1.7	few days later, i was bought a new seagate barracuda 250 gb SATA and installed it.	St
+1.1.8	i now have a -seagate 160gb SATA (the one that needs to be reformated) -maxtor 40gb PATA (where most of my files are backed up) -seagate 160gb PATA (few important files backed up) -seagate 250 gb SATA (the new hard disk) now that i want to restore my backed up files, im now having trouble detecting the maxtor PATA hd while the seagate PATA hdd is going well.	St
+1.1.9	i was able to restore my files from the seagate ata hdd but not from the maxtor.	St
+1.1.10	i already checked maxtor's website and reviewed the jumper settings http://eshop.macsales.com/Tech/manuals/idehdsettings/Maxtor72.pdf i also checked the IDE cables and the power cables and they're all properly connected.	St
+1.1.11	i also tried disconnecting my working dvd rom's IDE and used it on the maxtor drive but nothing changed.	St
+1.1.12	my bios just cant detect the maxtor hdd, not even disk management.	St
+1.1.13	the weird thing is when i connect the seagate PATA, it detects it easily but when i connect the maxtor PATA with the same IDE cable and power supply, nothing happens.	St
+1.1.14	actually sometimes, when the maxtor PATA is connected, windows boots slowly or sometimes it hangs on the bios information screen.	St
+1.1.15	what should i do?	St
+1.1.16	could be the hdd broken or damaged?	St
+1.1.17	i cant feel the disk spinning but the whole hard disk is getting warm while it is connected to my mobo.	St
+1.1.18	is there any way to correct this problem?	St
+1.1.19	and if the drive is broken, how can i recover my IMPORTANT files since it cant be detected?	St
+1.2.1	1.	St
+1.2.2	We use 80 conductor IDE cables.	St
+1.2.3	2.	St
+1.2.4	Cable Select or Master (I never use Master but we are in crisis mode.)	St
+1.2.5	3.	St
+1.2.6	Put the drive on the master connection of the ide cable.	St
+1.2.7	4.	St
+1.2.8	Put it on the known working IDE port (unplug the DVD).	St
+1.2.9	5.	St
+1.2.10	Check that power is connected.	St
+1.2.11	Does the BIOS see it with either CS or Master?	St
+1.2.12	Is the cable no good?	St
+1.2.13	Try it as Master on the cable the DVD uses.	St
+1.2.14	Next?	St
+1.2.15	Data recovery houses like drivesavers.com Bob	St
+1.3.1	1) i used an IDE cable.	St
+1.3.2	2) connected it to the 2nd IDE slot since the dvd drive is using the first slot.	St
+1.3.3	i set the jumper and the IDE cable to master settings but nothing happens.	St
+1.3.4	3) now i tried all the connections to slave settings and same happens.	St
+1.3.5	4) i unplugged the IDE cable from the dvd drive and used it on my hard drive but nothing happens.	St
+1.3.6	5) i always check the power cables and it is very noticeable because i used the same line of power cables connected to the case fan.	St
+1.3.7	i mean if there is no power, the case fans shouldnt also be running.	St
+1.3.8	6) BIOS cannot detect the drive with either slave or master setting.	St
+1.3.9	now this is my latest observation: if i disconnect the maxtor hard disk and let my windows boot everything is fine.	St
+1.3.10	i logged on to windows and connected the maxtor hard disk, i then went to device manager and tried &quot;scanning for hardware changes&quot;, my screen turned to blank and blue for a millisecond then restarted.	St
+1.3.11	and this time, while the maxtor hard drive is connected to my mobo, my windows cannot boot or start.	St
+1.3.12	it hangs or lags during the loading of bios or the part where the IDE is being detected.	St
+1.3.13	i mean the part wherein when you press DEL you can access bios configuration.	St
+1.3.14	but if i disconnect the maxtor hard disk again, everything comes to normal.	St
+1.3.15	what should i do now?	St
+1.3.16	the files on the hard disk are too important to me and the hard disk itself isnt mine.	St
+1.3.17	is the hard disk broken?	St
+1.3.18	is there any other way to save the hard disk and my files?	Ques
+1.3.19	please tell me what to do.	Ques
+1.3.20	i really need to restore my files.	St
+1.3.21	thanks!	St
+1.4.1	&quot;he part where the IDE is being detected.	St
+1.4.2	i mean the part wherein when you press DEL you can access bios configuration.	St
+1.4.3	but if i disconnect the maxtor hard disk again, everything comes to normal.&quot;... All that means is that something is wrong with the drive.	St
+1.4.4	If it's worth saving, get a quote from drivesavers.com or ontrack.com Not to bother you but why is what you can't lose only on hard disks?	St
+1.4.5	Bob	St

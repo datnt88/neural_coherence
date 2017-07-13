@@ -1,0 +1,64 @@
+1.1.1	Hi, Using Windows XP Pro SP3.	St
+1.1.2	How do I get rid of an &quot;Unknown Device&quot; with a Yellow question mark in my Device Manager?	St
+1.1.3	By process of elimination, I believe it to be my UPS by American Power Systems.	St
+1.1.4	Attaching it to the computer was an optional step and it does not need to be there to function, and in addition I am unable to find the software to reinstall it.	St
+1.1.5	I have tried deleting the device in the device manager but it always returns, and I get the old &quot;Windows XP has found new Hardware do you wish to etc.	St
+1.1.6	etc.&quot; Thanks in advance for any help offered,	St
+1.2.1	Read http://support.microsoft.com/kb/314464 and you find the answer is to install the driver for it.	St
+1.2.2	There is no issue for speed, performance if you don't fix it.	St
+1.2.3	This can be cosmetic and as such I'll just leave it as-is, where-is and use the machine without fixing.	St
+1.2.4	Bob	St
+1.3.1	have you tried disconnecting the USB/parallel connector?	St
+1.3.2	Most UPS software is Bulldog.	St
+1.4.1	Hi Bob, Thanks for the reply and MS link.	St
+1.4.2	As I said in my post I don't have the software for the device with the drivers on it.	St
+1.4.3	Jakeman97	St
+1.5.1	Hi Coreyphaeus, Thanks for the reply.	St
+1.5.2	I did disconnect the USB cable to device.	St
+1.5.3	I should have mentioned that in my post.	St
+1.5.4	Thanks, Jakeman97	St
+1.6.1	The item in device manager is purely cosmetic and should not be causing any glitches.	St
+1.7.1	Hi R.Proffitt, Right you are.	St
+1.7.2	Not causing any glitches; but it bugs me 'cause it's there.	St
+1.8.1	Note what it is exactly then boot SAFE MODE.	St
+1.8.2	Remove it in Safe Mode.	St
+1.8.3	Sorry if that works or not because I should have noted this old trick above.	St
+1.8.4	Bob	St
+1.9.1	Bob's right just leave it alone.	St
+1.9.2	You could however right click it and attempt to up date it's driver from device manager.	St
+1.9.3	If this does the trick (sometimes this works, sometimes it doesn't) then just plug it back in.	St
+1.9.4	You might look for events concerning this device in event viewer.	St
+1.9.5	If there are then you might wish to take extra efforts to re-install it.	St
+1.9.6	No events, no problems.	Res
+1.9.7	I hate it when that happens.	St
+1.9.8	Those annoying false alarms.	Polite
+1.9.9	They drive me crazy.	St
+1.10.1	The Yellow shield is there to tell you your product isn't working, or communicating with your computer, to take instuctions on how to act and respond.	St
+1.10.2	So connect your USB cable.	St
+1.10.3	If you don't have the software,it's ok. Windows navtive work just fine.	St
+1.10.4	You just look on the UPS tab on your power properties and match the probable UPS model.	St
+1.10.5	You can usually find the model number on the back of the UPS.	St
+1.10.6	Even that isn't as important as telling the UPS what to do during a power outage, how long to stay on during power outage, whether to go to hibernation.	St
+1.10.7	Hope some of this helps	St
+1.11.1	Oh your right!	St
+1.11.2	Never thought of that when I disconnect all the cables to clean inside of computer / fans / etc.	St
+1.11.3	live in a very dusty, damp environment and it's a once a month chore at least.	St
+1.11.4	I'm going to try what the OP suggested in the thread and update the drivers from Windows Base...I found out that Microsoft supplied the software for this product originally.	St
+1.11.5	Thanks to all for your suggestions.	St
+1.11.6	I all else fails, I'll just leave well enough alone.	St
+1.11.7	Jakeman	St
+1.12.1	Will you please help me on how to install the Conexant amc 3d enviromental audio to my laptop a Compaq Presario f767 nr .I originally purchase this unit at Best buy and had a Vista Home premium factory installed by HP, but I decided to run XP proff.	Ques
+1.12.2	sp2 and so far HP does not allowed to Intall it.I tried to download a UAA driver from Microsoft and using Driver Agent, I had installed all the other drivers,I will settle to have at least any generic drive for this notebook.Compaq Presario F767 or F700 Amd Turion 64x2 Mobile Technology TL-60 ,Nvidia Geforce 7000M/nforce 610M display drivers,Bios date 2007.12.07,chipset athlon 1100 rev o,Thanks for your help,Tony,vall1656@bellsouth.net	St
+1.13.1	Reading http://forums.cnet.com/5208-7587_102-0.html?forumID=69&threadID=271360&messageID=2699006#2699006 it appears you can't guess what drivers to use or what order to install them.	St
+1.13.2	Notice the &quot;Note: It is strongly recomended to install ths driver before you install the audio driver.	St
+1.13.3	If you do not install this driver the audio will not work.&quot; when they hit the MS UAA driver?	St
+1.13.4	Did you get your plan from HP?	St
+1.13.5	Bob	St
+1.14.1	You need to unplug the device from your computer before you uninstall the driver in device manager.	St
+1.14.2	As long as the device is plugged into your computer, it will continue to appear in device manager, even if you try to delete it from there.	St
+1.14.3	Or you can try looking for the device in the &quot;Safely Remove Hardware&quot; area in the system tray and uninstall it from there.	St
+1.14.4	If you still get the &quot;found new hardware&quot; message after you try these methods, then you should allow Windows to go ahead and install the driver again.	Sug
+1.14.5	After that, you should be able to see the device in device manager instead of seeing &quot;unknown device&quot; with a question mark.Once the device has been restored to the device manager without that error message, you can then go ahead and uninstall the driver for good.	St
+1.15.1	If you have narrowed the device down to the APC UPS, why not install the correct driver from www.apc.com ?	Ques
+1.15.2	Try the following link and download the appropiate UPS software for your particular UPS.	St
+1.15.3	https://www.apcc.com/tools/download/	St

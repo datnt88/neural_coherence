@@ -1,0 +1,34 @@
+1.1.1	Hi guys/gals: Don't ask me why, but what I am trying to do is have two network connections on my PC - one wired and one wireless - balance internet requests based on type.	St
+1.1.2	They each have local static IP addesses.	St
+1.1.3	For example, my wireless connection 192.168.1.11 is my default - it goes to the web as my default connection.	St
+1.1.4	What I would like to do is use this in most cases, but say when I am attempting to get an mp3 file (for example), the wired connection is used.	St
+1.1.5	Environment - Windows XP Pro I know this may seem silly to do, but I was hoping there were some great minds out there that might have some ideas on how this could work.	St
+1.1.6	Also - the ability to do this at the Application Layer would be ideal.	St
+1.1.7	Changing a bunch of Windows settings can be tedious and would need repeated on each different machine.	St
+1.1.8	Either way, I am open to any ideas or suggestions.	St
+1.1.9	Thanks!	St
+1.1.10	Nick	St
+1.2.1	Mind you are probably using Windows so that means the only adjustment you can make is to establish a route to one or the other network based on the IP address.	St
+1.2.2	Tell me you understand routing and then we'll move to the next step.	St
+1.2.3	This will never &quot;bond&quot; the 2 channels.	St
+1.2.4	Bob	St
+1.3.1	Hi Bob, Yea I know a bit about IP routing.	St
+1.3.2	What I can't get my mind wrapped around is intercepting the HTTP GET requests and being able to change the interface it goes out on.	St
+1.3.3	I read a good deal about &quot;bonding&quot; and not sure if thats what I am looking for.	St
+1.3.4	I want to be able to, effectively, choose which interface I use on each request.	St
+1.3.5	Most talk about bonding or this type of thing leads into a reply with - you should just by a better router with load balancing.	Sug
+1.3.6	I am not looking for this.	St
+1.3.7	I want to write an application that filters the request and chooses an interface based on the content type.	St
+1.3.8	I appreciate your fast response.	Polite
+1.3.9	Let me know what you think.	St
+1.3.10	Thanks, Nick	St
+1.4.1	We can only establish subnet the internet to give differing routes for which subnet we wish to send it to which gateway.	Ques
+1.4.2	If you want to bond the interfaces you can't do it native.	St
+1.4.3	Bob	St
+1.5.1	thats alright, i dont really want to bond them.	St
+1.5.2	i want to create some sort of NAT, one that lies on the client side and chooses which interface to use.	St
+1.5.3	do you have any suggestions?	Ques
+1.6.1	ICS, routes and such.	St
+1.6.2	The NAT we do with ICS is only going to thoroughly dismiss what you asked to do in your first post.	St
+1.6.3	-&gt; So is subnetting the internet going to accomplish your goal?	St
+1.6.4	Bob	St

@@ -1,0 +1,21 @@
+1.1.1	I have 2 computers running Windows XP.	St
+1.1.2	One is Pro, one is home.	St
+1.1.3	Trying to set up your usual file / printer sharing...simple nothing advanced... they are on the same network..at&t uverse router.... the problem I am having is that they simply do not see each other...	St
+1.1.4	I have enabled sharing on both computers, I have set them on the same Workgroup, firewalls are off, and I used the network setup wizard to setup both with the same options.	St
+1.1.5	Now usually this has worked for me on just about every computer I have worked on in the past.. for some reason, it won't work on these 2. when I go to &quot;add network place&quot; and input the local IP's, it just says &quot;the folder you entered does not appear to be valid.	St
+1.1.6	please choose another&quot;.	Sug
+1.1.7	when I navigate to the workgroup in my network places, neither computer sees the other one.	St
+1.1.8	I am able to ping them through CMD.. so I know it is not a hardware problem...	St
+1.1.9	It was working fine until I sent one of the computers out to have some spyware removed, when it got back I started having this issue... Could it be that something was deleted along with the spyware, which is keeping that computer from having the ability to be on a network?	St
+1.1.10	any ideas?	St
+1.1.11	thank you	Polite
+1.2.1	http://www.sbbala.com/uverse/ for example and many other documentations lead me to want a check of the firewall in the (which one?)	St
+1.2.2	uverse router.	St
+1.2.3	Bob	St
+1.3.1	First thing to do is to make sure they see each other on the same workgroup.	St
+1.3.2	I'm assuming you pinged both ways.	St
+1.3.3	Try changing to another workgroup name.	St
+1.3.4	If they still can't see each other, I would reinstall the nic drivers and fix tcpip-- http://support.microsoft.com/kb/811259 .	St
+1.3.5	Try this first on the computer that is suspect.	St
+1.4.1	the following commands fixed my problem; Reset TCP/IP stack to installation defaults, type: netsh int ip reset reset.log Reset WINSOCK entries to installation defaults, type: netsh winsock reset catalog thank you for your help	St
+1.5.1	Nice work!	St

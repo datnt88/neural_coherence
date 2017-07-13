@@ -1,0 +1,33 @@
+1.1.1	Hi guys, I have been using a Netgear DG834G wireless ADSL router successfully for some years.	St
+1.1.2	We have recently moved house and are now in an apartment block.	St
+1.1.3	I have never made the router 'secure' as nobody was in range.	St
+1.1.4	Now they are and I feel performance is now variable, maybe because others are accessing it.	St
+1.1.5	How can I make it secure?	St
+1.1.6	Be gentle with me , I am not very technical!	St
+1.1.7	Colin	St
+1.2.1	- In your web browser's address bar, type in 192.168.0.1 - You will be asked for a login ID and password.	St
+1.2.2	If not set by your ISP to something different, it should be &quot;admin&quot; for login and &quot;password&quot; for the password - On the left side of the screen, go to the Setup section and choose &quot;Wireless Settings&quot; - On the wireless page, you can rename your network (SSID) if you'd like, but to add security choose at minimum WPA, but preferably WPA2 with AES if available.	St
+1.2.3	Below that, enter your own wireless password.	St
+1.2.4	- Once you choose &quot;Apply&quot;, you will lose access to the router since it you have made it secure.	St
+1.2.5	You will need to reconnect all of your wireless devices with the SSID and password that you created.	St
+1.2.6	On PC's, you will probably need to remove the existing wireless network name since PCs will try to connect to the same SSID with the old settings, and your connection will fail.	St
+1.3.1	Thanks for a detailed reply.	St
+1.3.2	I havn't done it yet as I need to move phone lines first, then I can hard wire the router to the desktop.	St
+1.3.3	But I have another issue with the wireless connection.	St
+1.3.4	I connect at 54mbps but it can disappear down to 1mbps.	St
+1.3.5	It is currently at 36.	St
+1.3.6	Is someone hijacking my router?	St
+1.3.7	How can I tell if that is happening?	St
+1.3.8	Thanks guys.	St
+1.3.9	Colin	St
+1.4.1	And with that done you run into channel overlap faster than you can blink an eye.	St
+1.4.2	Look at the channel overlap at http://en.wikipedia.org/wiki/List_of_WLAN_channels and if you, like others have a 802.11n router that's all of TWO channels available without overlap.	St
+1.4.3	Since those spill over, even if you set your router to 802.11g, you still see the problems.	St
+1.4.4	Best bet is to wire what you can and keep the distances in the 20 foot range in crowded buildings.	St
+1.4.5	Bob	St
+1.5.1	It's very possible that someone is connecting wirelessly to your router and causing issues with your connection.	St
+1.5.2	Anyone can connect wirelessly if your router is not secured.	St
+1.5.3	Being in an apartment, you are likely to have several people connecting without your knowledge.	St
+1.5.4	You can access the web interface for your router (at 192.168.0.1) to see what devices are connected.	St
+1.5.5	It should be under a section labeled &quot;connected devices&quot; or similar.	St
+1.5.6	I would strongly urge you to enable wireless security immediately, as it would not be difficult for others to access your devices and do something malicious with your wireless open.	St

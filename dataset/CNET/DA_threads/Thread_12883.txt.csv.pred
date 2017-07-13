@@ -1,0 +1,79 @@
+1.1.1	I have a dual Athlon MP 2100+ with 1.5 GB RAM (registered memory, 266 MHz), one 18k and one 36k Cheetah 15k SCSI drives, an IDE Pioneer A04, an externally powered SCSI Plextor 12/24/32 CD/RW (with a separate SCSI card), and a media card (also PCI) on a Tyan Tiger MPX 2466 motherboard.	St
+1.1.2	It is powered by an Enermax 465 power supply and previously had stock fans on each of the two CPUs as well as a Matrox Parhelia 128 MB graphics card.	St
+1.1.3	In addition to the monitor, which is self-powered (of course), I swapped the fans with the 80mm MassCool fans (sparingly used the included Silver grease) and replaced the Parhelia with the PCI 4x/8x (in 4x mode as capped by the motherboard) XFX GeForce 6800 128 MB dual DVI card (using one DVI channel and it has its own Molex plugged in).	St
+1.1.4	Although the media drive is not hooked up (nor is the printer or scanner), everything else is described as above).	St
+1.1.5	I did this over the weekend.	St
+1.1.6	No overclocking whatsoever.	St
+1.1.7	Everything ran great!	St
+1.1.8	Then, I left on Tuesday.	St
+1.1.9	I have small children.	St
+1.1.10	To the best of my knowledge, the 1 yr old likely did turn it on and off, but I'm guessing.	St
+1.1.11	The 5 yr old knows not to.	St
+1.1.12	On the enermax, there is a 120/240v switch (or thereabouts).	St
+1.1.13	I do not believe that the youngest one could have switched it (physical strength) and it is in the 115/120v position.	St
+1.1.14	When you press the power on button, nothing happens...at all.	St
+1.1.15	It does not begin to boot in the slightest.	St
+1.1.16	This leads me to believe that the enermax has likely bit the dust despite my belief that it should have been able to support the load.	St
+1.1.17	Other than being turned on and off (again, I am guessing), I seriously doubt they subjected it to any significant load.	St
+1.1.18	It functioned fine through Tuesday morning...I have backup software that runs wirelessly (802.11G) though I am still working out some kinks with it.	St
+1.1.19	A complete backup (just a few gigs) occurred on the 20th and an incremental backup successfully completed on Wednesday, the 23rd.	St
+1.1.20	I tried plugging in just the Enermax by itself for signs of life but it did not yield any.	St
+1.1.21	That may be an invalid way of determining whether or not it is dead.	St
+1.1.22	It does NOT smell burnt in any way.	Ques
+1.1.23	How can I confirm whether or not this is the source of my problem and, if so, how much juice do I need?	St
+1.1.24	I know with the XFX, they recommend at least 300w, so I figured on the dual MP 2100+ with my specs, the Enermax would suffice.	St
+1.1.25	Perhaps it did not...	St
+1.1.26	If that is not (or may not) be the problem, how can I test the Enermax, which I have removed?	St
+1.1.27	Additionally, if it isn't that, what else might it be?	St
+1.1.28	I do not get even a millisecond of life from the computer/motherboard, etc...and I do recall that under normal operation, an LED glows on the Tyan Tiger MPX 2466 motherboard...green, I believe.	St
+1.1.29	In the event that I do need a new power supply, am I able to merely plug it in to the wall to confirm it operates (something my enermax is definitely not doing)?	St
+1.1.30	Thanks!	St
+1.1.31	Ross	St
+1.2.1	Ross: You could buy a tester, about twelve bucks on the internet.	Sug
+1.2.2	I have a shelf full of blown power supplies.	St
+1.2.3	Some died, some died from power surges, some died from my own carelessness.	St
+1.2.4	Plug the power supply into a 110V power.	St
+1.2.5	Locate pin 14 on the connector plug.	St
+1.2.6	It is a green wire.	St
+1.2.7	next to it on both sides are black wires.	St
+1.2.8	The green wire is the PS lead, (power Start) the black wire is ground.	St
+1.2.9	short the green wire and the black wire momentarily and see if the fan starts.	St
+1.2.10	If it does not then the PS is probably dead.	St
+1.2.11	If it starts (fan runs, then it most likely is the motherboard.	St
+1.2.12	The mother board has a chip on it that takes a short signal from the switch and connects to the PS_signal line (green pin 14 Connector) This in turn activates another chip inside of the power supply that connects the ac power to the main conversion circuit.	St
+1.2.13	The first test checks out the PS chip, the second test checks out the motherboard chip.	St
+1.2.14	Of course the mechanical switch on the front of the case could be bad so that you would have to manually short the two pins on your motherboard to test this out.	St
+1.2.15	Look in your manual and it should indicate where these two pins are located.	St
+1.2.16	Be careful if you do this, not to short anything else.	St
+1.2.17	Norm	St
+1.3.1	When I short either of the two pairs (green-adjacent black), the fan on the bottom will spin as long as it is held down (brief touch to several seconds).	St
+1.3.2	However, in no case did the fan adjacent to the power plug spin (intake?).	St
+1.3.3	Only the one facing within the box spun up.	St
+1.3.4	Does this indicate a functioning or defective PS?	St
+1.3.5	With regard to the second test, am I to plug it in and create a short at the site of the on-off switch?	St
+1.3.6	From what I recall several years ago when I did have a defective 2466 mobo, the board lit green upon having a connection to electricity, prior to starting...there is no lit-up LCD when I have it hooked up.	St
+1.3.7	Furthermore, I don't know if I'm wrong about the light...I &quot;think&quot; it was that motherboard which lit up, but am not certain.	St
+1.3.8	I know the 6800 would have added the additional stress that is causing either the PS or mobo to fail, but since one fan of two spun up, I'm not sure if that was a pass or fail on the PS.	St
+1.3.9	BTW, I truly appreciate your very detailed reply...you are being of fantastic help to me.	Polite
+1.3.10	I look forward to your response.	St
+1.3.11	Thanks, Ross	St
+1.4.1	This presumes that you did not have power to the board since you had disconnected the 20 pin PS from the board to run the test.	St
+1.4.2	If the PS internal fan spun up constantly, This prresumes that the PS is putting out the proper voltage, but the CPU fan does not have power so it does not spin up.	St
+1.4.3	The front switch just puts a short on two pins located along the edge of the motherboard where all of the front switches and lights hook up.	St
+1.4.4	If the front switch jumper cable is removed from the pins and a small screwdriver is inserted between the two pins 13,15 (See: ftp://ftp.tyan.com/manuals/a_s2466_110.pdf )to produce the short.	St
+1.4.5	This assumes that you have hooked the PS back up to the mother board to run this test.	St
+1.4.6	If the CPU fan spins up, then the switch is in trouble.	St
+1.4.7	If the CPU fan does not spin up, then the motherboard has a problem.	St
+1.5.1	The addendum manual sheet also indicates that an error was produced in the original manual in which the pins appear backward.	St
+1.5.2	ftp://ftp.tyan.com/manuals/a_s2466_110.pdf Front Panel Connector (J12) The following connectors have been reversed in the opposite direction.	St
+1.5.3	The manual indicates that Pin 1 starts from the right side.	St
+1.5.4	Pin 1 on the board begins from the left.	St
+1.5.5	Could you have hooked the front panel connector up in reverse?	St
+1.5.6	Norm	St
+1.6.1	I am truly perplexed, but upon reconnecting the power cables, etc., I had everything spinning up as it should....so I proceeded to hook everything back up and it is working like a charm.	St
+1.6.2	What's so odd is that when I first began, prior to doing the short test, the switch (which I never reseated at all) would not invoke the slightest bit of life.	St
+1.6.3	I verified that the two box fans, the two cpu fans, and the graphic card fan all spun up, the scsi devices are all correctly recognized, etc...behavior normal.	St
+1.6.4	I am totally perplexed but very, very happy!	St
+1.6.5	I still have no clue what happened but this appears to be a happy ending to the story.	St
+1.6.6	Thanks!	St
+1.6.7	Ross	St

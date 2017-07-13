@@ -1,0 +1,94 @@
+1.1.1	I'm setting up a Lacie Etherdisk 1Tb NAS for a school that needs to be accessed a network divided into several workgroups in a peer-to-peer setting.	St
+1.1.2	The NAS has Windows XP embedded with a very spartan environment.	St
+1.1.3	All the school PCs use XP Pro and members from other workgroups will also use the storage device.	St
+1.1.4	The problem is that the NAS isn't visible in &quot;network places&quot; without other members of it's workgroup turned on.	St
+1.1.5	I do believe this is normal.	St
+1.1.6	While I know how to search for it by name and map shares as needed, other users do not so those who come in after school hours do not know how to connect to the NAS when the browser function isn't working.	St
+1.1.7	I know it's possible for a workgroup of 1 PC to broadcast itself and be displayed in network places so I'm thinking this NAS has been stripped of a browser service, NetBIOS setting, etc.	St
+1.1.8	I can connect a keyboard, mouse and monitor but the desktop is just a shell I can't figure out how to get underneath.	St
+1.1.9	Not expecting much here but maybe someone knows if it's possible to get this thing display itself on the network when it's other workgroup members are turned off.	St
+1.1.10	I'm thinking what's missing is a master browser and this NAS can't be one so this thought could be doomed.	St
+1.1.11	Ideas?	St
+1.1.12	Thanks.	St
+1.2.1	To peek under the hood and find out what they did you'll have to ask it's maker.	St
+1.2.2	Unlike open source there's not much to do here.	St
+1.2.3	&quot;if it's possible to get this thing display itself on the network when it's other workgroup members...&quot; Why are you not in it's workgroup?	St
+1.3.1	&quot;Why are you not in it's workgroup?&quot; We've divided the PCs into workgroups with the intention of simplifying network browsing.	St
+1.3.2	Rather than have a single group for the entire school, we separate the teaching staff and administration from the PCs primarily used by students.	St
+1.3.3	We actually have another similar NAS but an older model that's for student use only.	St
+1.3.4	This gets complicated because it's a parochial school that gets some public money and that money can only be spent on hardware that's for student use.	St
+1.3.5	We cannot connect the teaching staff to this NAS and have purchased a separate one with school funds for school staff.	St
+1.3.6	Because the &quot;student&quot; NAS always has other PCs on within it's workgroup during school hours, we don't run into this browsing issue.	St
+1.3.7	The new unit will be used after school hours when the rest of the school PCs are off.	St
+1.3.8	I do have a few options but was hoping it would be possible to get this NAS device to broadcast its identity as a stand alone.	St
+1.3.9	No luck with this one.	Polite
+1.3.10	Eventually we hope to have it available using ftp/http from staff while at home but this I can't do myself because it's hardware firewalled and I have no access to this device.	St
+1.3.11	For the time being, we'll just need to map shares to PCs as requested.	St
+1.3.12	If there's one real advantage to volunteer work, it's the job security.	St
+1.4.1	I looked at manual it's nothing more than a Windows PC file server.	St
+1.4.2	If you had set workgroup name on disk same as users, it should appear on network even with yourself as single user.	St
+1.4.3	(Assuming you do have an always on network with switches and DHCP server; if static you'll have to assign IP and submask same as workgroup) You have to assign permissions to shares for users to map and access them.	St
+1.5.1	I can change the workgroup name of the NAS to that of my home network and it appears right away.	St
+1.5.2	When I change the workgroup to the one it will be in at the school it disappears.	St
+1.5.3	Coincidently, I had the school secretary's PC at home for some work and placed it on the my home network.	St
+1.5.4	It's also XP Pro.	St
+1.5.5	The secretary's PC displayed itself (workgroup/computername) just fine.	St
+1.5.6	When I added the NAS, they were both there in that workgroup.	St
+1.5.7	Disconnecting the secretaries PC caused loss of the NAS.	St
+1.5.8	I've had every one of the school's PCs at my home at one time or another for repair or general maintenance.	St
+1.5.9	These, individually, will display their workgroup name though it sometimes takes a while for them to appear.	St
+1.5.10	The NAS is, and will be using a static address so we can use the http function and bookmark it in the browser.	St
+1.5.11	Almost all administration of it is done through its web interface.	St
+1.5.12	This is no problem.	St
+1.5.13	I'm not an IT guy and learn this stuff on the fly.	St
+1.5.14	Perhaps I'm all wet here but my thinking is that this stripped down OS is short on a service or two that's included with the full XP package.	St
+1.5.15	I cannot get into the network settings other than basic addressing and windows firewall.	St
+1.5.16	I have to wonder if this has something to do with being on a peer-to-peer network and needing a master browser to collect the network shares.	St
+1.5.17	I get lost trying to understand that concept, however.	St
+1.5.18	Anyway, I know both of these Lacie devices exhibit the same behavior.	St
+1.5.19	If I've set on up wrong, I've done same to both.	St
+1.5.20	But, I've got several dozen PCs and laptops humming along just fine so I don't think I'm completely ignorant...just a little bit.	St
+1.6.1	to find out if two disks can coexist on same net with different workgroup names.	St
+1.6.2	Maybe their embedded XP is hardened for security reasons.	St
+1.7.1	They can both be on the network just fine.	St
+1.7.2	It's just that they won't openly display their presence as stand alone devices as other PCs can be made to do.	St
+1.7.3	Lacie already says that modifications to the NAS void the warranty.	St
+1.7.4	I'm sure that if I could figure a way to change the configuration outside of what the shell and browser offer Lacie won't offer support.	Res
+1.7.5	This isn't the end of the world.	St
+1.7.6	I can make it work just fine for me but those who will use it have grown accustomed to simply browsing for what they want and not playing hide and seek.	St
+1.7.7	Thanks.	St
+1.8.1	&quot;They can both be on the network just fine.	St
+1.8.2	It's just that they won't openly display their presence as stand alone devices as other PCs can be made to do.&quot; &quot;fine&quot; means their NetBIOS can be resolved, which it can't in this case, unless I'm misunderstanding your issue.	St
+1.8.3	Finally, do you mean to say you've already reported this issue to LaCie and all they can offer is no useful advice on setting up in a multi-workgroup environment but just a warning about warranty?	St
+1.8.4	If a device won't fill your need, you shouldn't mess with the internals.	St
+1.8.5	Just move on.	St
+1.9.1	The devices can reside on the network and can be accessed.	St
+1.9.2	They just cannot be accessed by simply browsing the network unless another PC in its workgroup is also on.	St
+1.9.3	But, I know how to find the device by using its name or address and can map the drive or shares, create desktop links, etc.	St
+1.9.4	Other users in the school won't know how to do this.	Ques
+1.9.5	I don't care to visit every PC in the school that might need access to this NAS.	St
+1.9.6	Anyone can browse a network and click on what shows up.	St
+1.9.7	Not everyone knows about drive mapping.	St
+1.9.8	Since both devices exhibit this same behavior, I'm thinking its and issue with a service or some network setting causing this but the device doesn't have Windows Explorer installed.	St
+1.9.9	It has a very limited shell.	St
+1.9.10	I'm not unhappy with it.	St
+1.9.11	It works quite well and is fairly simple to configure via a web browser.	St
+1.9.12	Perhaps you have a better understanding than I do of what a master browser is in a peer-to-peer network.	St
+1.9.13	For some reason I'm thinking this hiccup is related to that need.	St
+1.10.1	Maybe this might explain it http://www.comptechdoc.org/os/windows/ntwsguide/ntwsnfinding.html I'm thinking the NAS is a non-browser and I cannot configure it as one.	St
+1.10.2	Therefore it cannot maintain a list of workgroup shares...even it's own.	St
+1.10.3	It relies on another PC to do so.	St
+1.10.4	Make sense?	St
+1.10.5	?	Ques
+1.11.1	Anyhow, re-read your original post and yep, doomed!	St
+1.11.2	One PC must be the Samba server.	St
+1.11.3	I misread your intention as making the staff new workgroup members and reacted &quot;what is his problem?&quot; I don't suppose you'd volunteer to install HOSTS and LMHOSTS file on every PC.	St
+1.12.1	and installing something on another PC is counter to what I am attempting because I'm only wanting the NAS to be viewed in the network neighborhood when the rest in that workgroup are off .	St
+1.12.2	Obviously that's not going to happen without changing it.	St
+1.12.3	I do appreciate any offers of help or advice.	Polite
+1.12.4	Even if it doesn't suit my particular purpose it can be added to other learning experiences.	St
+1.12.5	I've posted here before with problems for which I've not found solutions but have gained plenty of knowledge just by reading other posts.	St
+1.12.6	I chose this piece of hardware for a number of reasons...not all of which might be sound.	St
+1.12.7	It comes at a reasonable price, fits neatly in the 19&quot; relay rack, accommodates an adequate number of users and is fairly easy to configure.	St
+1.12.8	It does offer ftp and http web access so the next project will be how to get that function to work.	St
+1.12.9	At least with that, users can make their own bookmarks without help...er...most of them anyway.	St

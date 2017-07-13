@@ -1,0 +1,58 @@
+1.1.1	Hey there guys.	St
+1.1.2	I've had this problem for a while now, I can't seem to permanently fix it.	St
+1.1.3	It's extremely aggrivating.	St
+1.1.4	With making no changes, my CPU runs at 1.2 GHZ instead of 2.4 GHZ, it's normal operating speed.	St
+1.1.5	Is there ANYTHING common about this issue?	St
+1.1.6	Any help is very widely accepted.	Polite
+1.1.7	Aside from that I also have another question: Is it worth enabling the CPU's featured Hyperthreading function in BIOS?	St
+1.1.8	Specs: 120 GB 7200 RPM HD 1 GIG of PC2100 (I think, it's rather bad memory, getting new memory soon) nVidia GeForce 6800 GT OC'd to 420 mHZ core 1.15 gHZ memory Windows XP Home Edition SP2 If you don't feel like posting here or would rather have a dynamic discussion please use one of these contacts Thanks a lot I would LOVE your help!	St
+1.1.9	MSN: nwfndh8red@hotmail.com (not on all the time) AIM: nwfndh8red (always on)	St
+1.2.1	My EMAIL is nwfndh8red@yahoo.com Just in case someone prefers that instead, thanks again.	Polite
+1.3.1	The usual cause is clock speed or fsb set incorrectly in bios.	St
+1.3.2	Tell what motherboard and bios you have.	St
+1.3.3	Also tell what you did to fix it before.	St
+1.3.4	Someone will be happy to help.	St
+1.3.5	One other thing, it's not a good idea to post your email address in the forum.	St
+1.3.6	Click on Edit Profile at the upper left corner and enable your email.	St
+1.3.7	That way your address is hidden from all.	St
+1.3.8	If you start to be deluged with spam email, you'll know the cause.	St
+1.4.1	I believe this CPU it supposed at have an 800 MHZ FSB Here are some detailed specs about the chipset/bios Chipset: SiS 661 FX/GX 964 Southbridge via MuTIOL 1(g)r Bus Bios: AMI 686-HiFlex-BIOS V1.00	St
+1.5.1	Umm...I already posted this earlier, and I came back just now to check on what you had to say, and my post isn't here...	St
+1.5.2	I'll re-post my detailed specs about my motherboard/bios Motherboard: Vendor/Model: ELITEGROUP COMPUTER CO., LTD. Chipset: SIS 661FX/GX Chipset + 964 Southbridge via MuTIOL 1G(r) Bus Bus Type: PCI L2 Cache: 512KB Unified Cache Bios: Name: AMI 686-HiFlex-Bios V01.00 BIOS Date: 09/09/04	St
+1.6.1	Not sure, but believe, your cpu only runs at 533 or 400fsb.	St
+1.6.2	And as the multiplier is forever locked, try 400mhz first, than 533 to get the speed.	St
+1.6.3	HT won't lower your clock speed or increase it.	St
+1.6.4	Roger	St
+1.7.1	The Intel chipset artificially creates the FSB, however it might not use 800 when the memory is only PC 2100.	St
+1.7.2	Intel still clocks the memory at its rated speed but the quad clock function creates additional clocks.	St
+1.7.3	However, if at the next clock the there is no new data available from the slower memory it is just a wait state.	St
+1.7.4	Only way to get the maximum memory bandwidth to satisfy a P4 is with Dual Channel memory and PC3200.	St
+1.7.5	Find out from SIS what FSB it supports for that CPU and that slow a memory.	St
+1.8.1	Well I went into BIOS and I got to a screen that showed the CPU frequency at 200 and underneath that it had a ratio of 6:5 to RAM of 166 MHZ I couldn't find anything that said &quot;FSB&quot; or &quot;Front Side Bus&quot; anywhere.	St
+1.8.2	Where in BIOS am I supposed to find it?	St
+1.8.3	Is it the RAM setting underneath that needs to be higher?	St
+1.9.1	I suspect it is 6.5, the multiplier.	St
+1.9.2	Thus you are set for the CPU to run at 6.5 times the memory speed [166 MHz].	St
+1.9.3	The one confusion with these settings are that the memory is DDR, thus 2 clocks per cycle.	St
+1.9.4	Thus it is either 6.5 time 166 = 1.079 GHz or 2 times that = 2.158.	St
+1.9.5	I suspect that your problem is that you only have PC2100 memory [your words].	St
+1.9.6	By trying to run at 200 MHz my guess is that the mobo has defaulted to prevent you from not working because there is know way that your memory can run that fast.	St
+1.9.7	PC2100 is DDR266, 133/266 MHz times 6.5 = either 0.8645 or 1.729.	St
+1.9.8	So what speed is the sytem reporting???	St
+1.9.9	Again you need to find out from SIS what that chipset does re that memory speed and quad clocking.	St
+1.9.10	If it were an Intel chipset it would be easy to find out.	St
+1.10.1	just too slow.	St
+1.10.2	Get PC3200 when you get the new memory.	St
+1.10.3	Does your mobo support Dual Channel memory??	St
+1.10.4	If yes, get a &quot;matched set&quot; and run Dual Memory mode to get maximum memory bandwidth.	St
+1.10.5	Two 256's in Dual Channel is better than one 512 in single channel.	St
+1.11.1	I'm getting a new motherboard before I get the memory so that it can support the 1 GIG of DDR2 Dual Channel PC 4200 (I think) memory.	St
+1.12.1	or is that meant to be PC3200??	St
+1.12.2	They are getting close to 4200 I know, but think that may not happen untill DDR2.	St
+1.12.3	IMHO, if running an Intel CPU use an Intel chipset, BUT not an Intel mobo.	St
+1.12.4	Intel mobo's offer nothing to help with overclocking or any other of the features that ASUS, ABIT, et al offer.	St
+1.13.1	I did say I was getting DDR2 memory a few posts back It's official, I'm getting: 1GB (2 x 512MB) 240-Pin DDR2 SDRAM Unbuffered DDR2 533 (PC2 4200) Dual Channel	St
+1.14.1	Dude, its up to DDR2 can run up to 800Mhz already.lol.	St
+1.14.2	Even higher, but i don't keep up with that stuff.	St
+1.14.3	Roger	St
+1.15.1	standard for DDR2 is PC 5400 which is DDR2 667 (it's seeming to be the PC 3200 of DDR2) 6:5 is a ratio it's the FSB/DRAM ratio the motherboard set a ratio to keep the RAM running at stock speeds and the CPU at stock speeds it shouldn't be doing 1.2GHZ though... 200 for the CPU's clock factor, or bus, or whatever you'd like to call it would in turn result in an 800MHZ FSB (due to the way Pentium 4's are designed) i'm guessing however that it's not running 200/166 but instead 166/133 or 166/100 (PC 2100 - 133MHZ/ 266 DDR) see if you can raise the CPU's FSB/frequency and set that ratio to auto so the ratio that says 6:5 see if you can change that setting to &quot;Auto&quot; and then see if you can change CPU's clock factor (not sure what it's labeling it, but it's the CPU bus speed) to the correct setting (depending on what your chip's correct setting is, if the chip was bought retail boxed it should include documentation to show what is correct)	St

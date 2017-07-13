@@ -1,0 +1,109 @@
+1.1.1	Can i use my windows xp hard drive on my older pc that i have windows 98 on?	St
+1.1.2	I just want to use the xp equipped drive into the old pc not at the same time.	St
+1.2.1	Is the OS on that drive?	St
+1.2.2	Are you going to replace the drive or add it?	St
+1.2.3	Is the drive NTFS?	St
+1.2.4	It won't work if you're adding a non OS NTFS drive to a computer using Windows 98.	St
+1.3.1	installing XP writes to the hard disk information about your computer hardware, everytime you boot up, it checks the hardware in the computer against the list, if it differs by too much, it won't boot.... hope this helps jonah .	St
+1.4.1	It will boot, no matter how different the hardware is.	St
+1.4.2	Windows will just detects the list of new devices and try to install drivers for it.	Sug
+1.5.1	that you don't really know what you're talking about, you're doing a great job.... .	St
+1.6.1	If you intent to use the XP HDD as an additional 'storage', AND if the free space you wish to use is is formatted in FAT32, Yes, you can.	St
+1.6.2	Only make sure that the XP HDD is not used as a Primary Master.	St
+1.6.3	If you wish to run XP from the XP HDD, the answer is in all probablities, NO.	St
+1.7.1	You might as well use the Windows XP as OS.	St
+1.7.2	Since Windows XP formats the disk with NTFS as the first/default option.	St
+1.7.3	Chances are your disk is NTFS.	St
+1.7.4	Windows 98 won't be able to read it.	St
+1.7.5	Besides, why use 98 when there is XP?	St
+1.8.1	If you don't know what you're talking about, don't say anything.	St
+1.9.1	this ---&gt; It will boot, no matter how different the hardware is.	St
+1.9.2	Windows will just detects the list of new devices and try to install drivers for it is wrong... take a HD from XP machine #1 put it in XP machine #2 and only if you are VERY VERY lucky will it boot up to desktop!	Sug
+1.9.3	(and even then, you may possibly have problems with display/sound/modem etc) take that same HD and put it in a win98 machine, and i will wager it will never boot up... .	St
+1.10.1	It will, I've swapped harddisks between different machines many times.	St
+1.10.2	Stop making assumptions.	St
+1.11.1	Please give yourself some time to learn more.	Sug
+1.11.2	Bob	St
+1.12.1	People will correct you.	Sug
+1.12.2	I agree this is bad advice you have given.	Polite
+1.12.3	Bob	St
+1.13.1	Stop acting like that.	St
+1.13.2	I've swapped harddisks before, and it will work.	St
+1.13.3	Sound cards don't work without a driver, but you don't need sound to get into the system.	St
+1.13.4	Graphic cards will always work without a driver, even though very inefficiently, usually at only 256 or even 16 colors.	St
+1.13.5	When Windows doesn't detect the existing hardware, it'll simply try to detect and install the new hardware.	St
+1.13.6	It'll work, it has always worked.	St
+1.13.7	Trust me.	St
+1.13.8	When you try, you'll see.	St
+1.14.1	My xp system motherboard is fried but i want ot run xp on my other machine but I tried it and it gets to ''Insert disk to boot''	St
+1.15.1	If your old system is a vendor system do not expect to use XP.	St
+1.15.2	If your OS disk is an OEM you may get lucky.	St
+1.15.3	You will have to make the XP disk the master, the 98 disk a slave.	St
+1.15.4	In BIOS set the CD-Rom as first boot device.	St
+1.15.5	Insert the XP OS cd, save changes and reboot.	St
+1.15.6	Follow the prompts to format the XP drive and install the OS.	St
+1.15.7	This will create a dual boot system and will work with the OEM OS disk.	St
+1.15.8	The problem...Windows activation .	St
+1.15.9	Do a google on dual boot.	Sug
+1.15.10	Items to note: Xp needs 256MB memory min.	St
+1.15.11	5 MB of H/D space.	St
+1.15.12	Last note, 9x would at times allow H/D to be swapped from system to system.	St
+1.15.13	60% at the time it worked not so with XP.	St
+1.15.14	Xp takes a snap shot of all the hwd on the system.	St
+1.15.15	If the hwd profile does not match the system will not boot to Windows.	St
+1.15.16	Dagger is in denial and a danger.	St
+1.15.17	Follow Bob's and Johan's advice.	St
+1.16.1	First of all, to get this out of the way, others seem to be saying that XP may simply not boot if the hardware is too different.	St
+1.16.2	I can't say one way or the other, but it's possible.	St
+1.16.3	I've moved drives with Win98 between systems and it was a pain because Win98 usually wanted to install new drivers for a lot of stuff.	St
+1.16.4	WinXP may be pickier still, so it may just not work.	St
+1.16.5	Putting that aside ...	St
+1.16.6	If all you're getting is a simple &quot;insert boot disk&quot; type of message, it sounds to me like you're not getting as far as booting XP.	St
+1.16.7	Of course without seeing the exact message, that's just a guess.	St
+1.16.8	I don't think you said exactly what you've done.	St
+1.16.9	It sounds like you're trying to boot from the XP drive in the other computer.	St
+1.16.10	How is the XP drive connected?	St
+1.16.11	Primary or secondary IDE?	St
+1.16.12	Master or slave?	St
+1.16.13	For the moment at least, I'd suggest disconnecting the Win98 drive and making the XP drive the primary master, assuming that that's not what you're already doing.	St
+1.16.14	Depending on how old these systems are, if this other computer is seeing the drive geometry differently (number of cylinders, heads, etc.	St
+1.16.15	), it may not be able to read the old data correctly, so it can't boot from it.	St
+1.16.16	For example, if one computer was using LBA (Logical Block Addressing) and the other was not.	St
+1.16.17	Also, if you disconnected the Win98 drive and connected the XP drive in its place, check the BIOS and make sure the drive information is correct there.	St
+1.16.18	If the BIOS is still trying to use the Win98 drive information with the XP drive, that could be a problem (unless the two drives happened to be the same or equivalent models).	St
+1.16.19	If this other system is fairly &quot;old&quot;, whatever that means in computer terms, and the XP drive is fairly new, and especially if it's a large drive, it's possible that the other system just won't be able to read it correctly.	St
+1.16.20	If you just can't get it to work, you might try posting some more hardware details, like your motherboard and hard drive model numbers.	Sug
+1.16.21	If you can get the system to boot from the XP drive, but, as others have suggested, XP just won't work, you may still have a couple options.	St
+1.16.22	I've read that you might be able to do an XP install over top of the old XP install, so that XP can install the required drivers for the new hardware.	St
+1.16.23	If you have anything on that XP drive you need, you should probably try to back it up before trying that.	St
+1.16.24	Which brings us to ...	St
+1.16.25	If you can't boot from that XP drive, you might be able to at least copy data from it by hooking it up as a second drive.	St
+1.16.26	XP normally uses an NTFS filesystem, which Win98 doesn't know how to read, but XP can use the FAT32 filesystem.	St
+1.16.27	If your WinXP installation used FAT32, Win98 should be able to read it.	St
+1.16.28	If it's NTFS, there may be Win98 programs that are capable of reading it.	St
+1.16.29	If nothing else, there is a program named &quot;NTFS Reader for DOS&quot; that you can find on www.ntfs.com that can read NTFS filesystems.	St
+1.16.30	As the name implies, it's a DOS program, but you can also run it from a DOS window under Win98.	St
+1.16.31	It's not perfect, but it might help.	St
+1.16.32	And one last thing.	St
+1.16.33	You said the &quot;xp system motherboard is fried&quot;.	St
+1.16.34	If the motherboard went, it's possible it took the drive with it.	St
+1.16.35	For that matter, the _drive_ may have died and taken the motherboard with _it_.	St
+1.16.36	Either way, the XP drive may simply be broken.	St
+1.16.37	At this point there's no way to tell (at least not based on what I remember you saying so far).	St
+1.16.38	Good luck.	St
+1.16.39	James	St
+1.17.1	it wouldnt seem to me that 98 would be able to read the ntfs format.	St
+1.17.2	i know xp can raed fat32 but that's more a sort of backwards compatability deal where ntfs didnt really reach common place usage til xp hit the market.	St
+1.18.1	I have to agree with this.	St
+1.18.2	Ive taken my old hard drive out of my old computer, and put it into a freshly built computer, and it ran just fine.	St
+1.18.3	Sure some programs had problems but that was complelty cause of things i installed.	St
+1.18.4	Other than that the drivers installed for the new hardware, except for a few i had to add through a cd.	St
+1.19.1	If what they have been saying about not being able to change too much of the hardware, then consider this.	St
+1.19.2	If that was the case you would not be able to do serious updates to your hardware like i have done, and i know many others have to.	St
+1.19.3	For a friend, who had XP installed on a Gigabyte k7 triton motherboard, with an amd athlon 2000+ cpu, 512mb ddr2700 ram, and a gainward gnvidia geforce fx 5200, to a amd athlon 3000+, 3 sticks of ddr3200 512mb ram, and an nvidia geforce fx 5600 on his b-day.	St
+1.19.4	The harddrive had no problems.	St
+1.19.5	Sure he had to install alot of new drivers, but other than that it was just fine.	St
+1.19.6	Like i said in my last post as well, i have moved a hard drive from one system to another, one with completly diffrent parts.	St
+1.19.7	XP does build a list of hardware, but it doesnt stop working when those go away.	St
+1.19.8	If that were the case you wouldnt be able to upgrade.	St
+1.19.9	Saying it only happens if, &quot;too much&quot; of the hardware is upgraded would be even worse coding than microsft is known to make.	St

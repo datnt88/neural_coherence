@@ -1,0 +1,46 @@
+1.1.1	I'm using a Compaq-Presario SR5130NX desktop computer with Vista Home Premium 32 bit.	St
+1.1.2	It came with a TSSTcorp CD/DVDW TS-H653L SCSI CdRom Device (CD-ROM drive).	St
+1.1.3	The only problem I have is when I insert a CD with photos on it, and open the folder, the thumbnails appear for a brief instant then turn into the Generic Icon.	St
+1.1.4	That is the only problem, everything else runs normally.	St
+1.1.5	I have installed every update, all checks of the drive with pc doctor, trouble shooter show &quot;this device is working properly&quot;.	St
+1.1.6	Thinking perhaps the CD/DVD Rom was defective I installed another device (Memorex double layer 16x cd internal cd burner) Vista recognized it and installed it using the same drive as the TSST corp cd Rom.	St
+1.1.7	I have the same results, a brief appearance of the thumbnails then the generic icon.	St
+1.1.8	When I transfer the folder to my C:drive and open the folder the thumbnails appear normally.	St
+1.1.9	I have made sure that the option for &quot;show icons only&quot; is unchecked.	St
+1.1.10	I have uninstalled and reenstalled the drive to no avail.	St
+1.1.11	I've used system restore but that goes back only 2 days.	St
+1.1.12	One other thing, when I use my Photo Suite program and open photos from the CD thumbnails show up as they should.	St
+1.1.13	Now I have both cd/dvd devices installed and recognized by vista and the problem exists with both of them and both are using the same drive provided by Microsoft dated 6/21/2006, version 6.0.6001.18000.	St
+1.1.14	Once again, the problem does not exist in the C:drive.TIA	St
+1.2.1	But that's normal.	St
+1.2.2	To figure it out how this works, research THUMBS.DB and don't put that file on the CD.	St
+1.2.3	Let's be clear there is no hardware issue here.	St
+1.2.4	You have a complaint about Windows and what it is doing.	St
+1.2.5	Bob	St
+1.3.1	Where do I find this THUMBS.DB?	St
+1.3.2	I assumed it was a windows problem.	St
+1.3.3	But how do I correct that?	St
+1.3.4	I know the cd roms are fine because I installed them in another computer and they worked fine.	St
+1.3.5	It's only in my computer and thats why I thoughts it is a corrupted drive.	St
+1.3.6	The computer worked fine for over a year.. Bob	St
+1.4.1	Type THUMBS.DB on google.com Remember it does not matter it worked before.	St
+1.4.2	Microsoft and who else updates software on your PC and without notice you may find stuff stop working.	St
+1.4.3	I don't duplicate web content about THUMBS.DB but point out that's where the thumbnails are cached.	St
+1.4.4	There is a setting in Explorer to turn that off and maybe, just maybe it will help.	St
+1.4.5	To find that setting (remember you are in a hardware forum) I'd google this -&gt; Windows Explorer Thumbnail Cache Setting There's another fun issue that happens in Windows where the temporary internet files cache gets so many entries.	St
+1.4.6	What some don't know is the interaction of IE and Explorer.	St
+1.4.7	But let's skip to that cure.	St
+1.4.8	Clear the TIF.	St
+1.4.9	Bob	St
+1.5.1	&quot;Thinking perhaps the CD/DVD Rom was defective I installed another device&quot; There is a possible connection with this and that.	St
+1.5.2	Let's think over how the THUMBS.DB, icon caching in Explorer works and files on a CDR or CDRW could work.	St
+1.5.3	Let's say our old CDRW drive supported and we use DRAG AND DROP capability.	St
+1.5.4	The THUMBS.DB file could be updated and the view of the CDR/W would behave just like on the hard disk.	St
+1.5.5	Change the CDRW drive and we could break the drag and drop or &quot;cdr/w media behaves like a drive&quot; and the THUMBS.DB can't be written on the fly and you see your issue again.	St
+1.5.6	It's a shame that no one writes a good article about how this all works but nothing in your post would lead me to suspect bad drives.	St
+1.5.7	Bob	St
+1.6.1	Thanks Bob I'm starting to learn somthing.	St
+1.6.2	Microsoft, bless their evil hearts are trying to send me solutions, but every cure they send me are for the C:drive.	St
+1.6.3	I'm going to check out what you've sent me and I'll get back and keep you posted.	St
+1.6.4	Bob	St
+1.7.1	Explorer Thumbnail cache setting -&gt; http://win-regedit.blogspot.com/2008/05/disable-thumbnail-caching-explorer.html	St

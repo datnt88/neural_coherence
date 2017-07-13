@@ -1,0 +1,36 @@
+1.1.1	HI guys.	St
+1.1.2	I bought a new system last week and got some bad advice from a shop I bought a Seagate 160GB SATA drive from.	St
+1.1.3	It only read as 131GB when I was installing windows, and the guy told me it must be a BIOS problem.	St
+1.1.4	Specs: Gigabyte GA P35 DS3R Intel Conroe Dual core 6750 Gigabyte 8600 GT 512 MB graphics (model GV-NX86T512H) 2 x 1GB 1066 PQA DDR2 650W Coolermaster PSU I have since found &lt;a href=&quot; http://www.techimo.com/forum/showthread.php?t=120793&quot; &gt;this forum&lt;/a&gt; which indicates to me that mine is not the first Seagate 160GB drive to do this Anyway, my problem now is that after upgrading the BIOS my system is running slow.	St
+1.1.5	Using the GB interface, it shows that CPU is now at 1979 MHz from 2665MHz, with FSB down to 333.	St
+1.1.6	I was using an old 15GB Seagate Barracuda to do the BIOS flash, to see if that would change the HD capacity before installing XP.	St
+1.1.7	I have tried rolling back the BIOS, and clearing the CMOS.	St
+1.1.8	Is there anything I can do to get this processor and RAM back up to their optimised settings without harming them?	St
+1.2.1	for got to include link to forum describing Seagate 160GB SATA drives showing reduced capacity: http://www.techimo.com/forum/showthread.php?t=120793	St
+1.3.1	When exactly did the Windows XP setup tell you this?	St
+1.3.2	What does Disk Management say about the drive now (partitions, not-allocated space)?	St
+1.3.3	What version of XP (original, SP1, SP2)?	St
+1.3.4	Kees	St
+1.4.1	http://www.48bitlba.com and other sites tell why.	St
+1.4.2	But with SATA I've learned to use the XP SP2 CD and nothing less.	St
+1.4.3	Those SATA drivers often crash on the older XP CDs.	St
+1.4.4	Bob	St
+1.5.1	yeah the only version I have is the original, have to DL SP2 after installing (which I've now done) I had planned to install partition manager to check on the size.	St
+1.5.2	However this really isn't a problem for me right now, I'm more concerned with my brand new 6750 CPU running at less than 2GHz and 333FSB.	St
+1.5.3	Any ideas?	St
+1.6.1	Your install of the OS must be complete before it may show at full speed.	St
+1.6.2	http://www.gigabyte.com.tw/Support/Motherboard/CPUSupport_Model.aspx?ProductID=2543 is interesting in that FSB could be wrong as well as other things.	St
+1.6.3	Be sure to load the BIOS to all defaults and retest.	St
+1.6.4	A support link is on that page.	St
+1.7.1	Hi.	St
+1.7.2	You should know that the default FSB for the E6750 is 333MHz.	St
+1.7.3	When seeing the clock speed of a processor, multiply the FSB (333MHz) by the multiplier, which is 8x in this case.	St
+1.7.4	8 x 333 = 2,666MHz.	St
+1.7.5	If the FSB is still 333MHz, that means the multiplier has changed.	St
+1.7.6	That shouldn't happen without intervention, UNLESS you have C1E/EIST enabled in the BIOS.	St
+1.7.7	This is a power-saving feature which will lower the multiplier of the CPU during low-CPU usage.	St
+1.7.8	This feature in the BIOS was probably set back to its default setting (enabled) when you updated your BIOS.	St
+1.7.9	Go into your BIOS (Delete/F-Key[F1, F2, etc.])	St
+1.7.10	and look for this option.	St
+1.7.11	Ensure that it is disabled to keep your PC running at full speed at all times.	St
+1.7.12	Thanks and good luck!	Polite

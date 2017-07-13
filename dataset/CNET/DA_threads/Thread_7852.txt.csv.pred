@@ -1,0 +1,23 @@
+1.1.1	Hi all.	St
+1.1.2	I'm having problems accessing the configuration utility of the *second* router in my daisy chain.	St
+1.1.3	Here's my setup.	St
+1.1.4	I have one router (router 1) on ground floor which gets internet from the modem.	St
+1.1.5	That router is then plugged into the LAN port of a wireless router upstairs (router 2).	St
+1.1.6	My laptop is then plugged into another LAN port on router 2.	St
+1.1.7	This allows me internet access as intended.	St
+1.1.8	But I'd like to log into the the configuration utility of router 2.	St
+1.1.9	But when I type the IP address of router 2 into my browser (192.168.1.1), it takes me to the configuration utility of router 1.	St
+1.1.10	Router 2 is out of the box--I haven't done any configuration to it (for example, changing its static IP address).	St
+1.1.11	Thanks in advance for any help.	St
+1.2.1	The story is incomplete or I missed where the second router's WAN port is UNUSED.	St
+1.2.2	Google HOW TO USE A ROUTER AS A WAP to find out how I get this to work.	St
+1.2.3	Bob	St
+1.3.1	Yes, the WAN port on router 2 is unused.	St
+1.3.2	Router 1 is connected to one of the LAN ports on router 2.	St
+1.3.3	This is how various articles described this setup, and it works.	St
+1.3.4	To be precise, the articles also said that I had to set the IP address of router 2 to something outside router 1's range, and I had to disable DHCP management on router 2.	St
+1.3.5	I did not do either of those, and everything works.	St
+1.3.6	I won't worry about it until I encounter problems.	St
+1.3.7	Anyway I solved my problem.	St
+1.3.8	Like a bonehead, I had the LAN connection disabled on my computer.	St
+1.3.9	When I re-enabled it, I was then able to log in to router 2 and configure it.	St

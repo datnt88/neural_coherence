@@ -1,0 +1,40 @@
+1.1.1	Hey everyone this is my first post here.	St
+1.1.2	I am not a networking expert and I need some help and possible clarification.	St
+1.1.3	First let me start off by saying I currently am switching from Hughes Net broadband internet service.	Sug
+1.1.4	(Satellite) I will be replacing it with the Basic DSL service from AT&T.	St
+1.1.5	Now, I have two offices currently networked (wired) together and because I am on the Basic DSL service plan (will upgrade when available) I would like for each office to have its own connection to the internet to lighten the load.	St
+1.1.6	Yet, I still want them to be networked for file sharing.	St
+1.1.7	This is what I envision: Office One: Modem 1 Router 1 -Will be given the address of 192.168.1.1 -Will not be set as a DHCP Server -Will allow IP connections from 192.168.1.2-50 Hey everyone this is my first post here.	St
+1.1.8	I am not a networking expert and I need some help and possible clarification.	St
+1.1.9	First let me start off by saying I currently am switching from Hughes Net broadband internet service.	Sug
+1.1.10	(Satellite) I will be replacing it with the Basic DSL service from AT&T.	St
+1.1.11	Now, I have two offices currently networked (wired) together and because I am on the Basic DSL service plan (will upgrade when available) I would like for each office to have its own connection to the internet to lighten the load.	St
+1.1.12	Yet, I still want them to be networked for file sharing.	St
+1.1.13	This is what I envision: Office One: Modem 1 Router 1 -Will be given the address of 192.168.1.1 -Will not be set as a DHCP Server -Will allow IP connections from 192.168.1.2-50 -Will be connected to the SWITCH Clients -Will have a manually configured IP from 192.168.1.2-50 -Will have a gateway of 192.168.1.1 -Will be on the Network called DASILVEIRA SWITCH Office Two: Modem 2 Router 2 -Will be given the address of 192.168.2.1 -Will not be set as a DHCP Server -Will allow IP connections from 192.168.2.2-50 -Will be connected to the SWITCH Clients -Will have a manually configured IP from 192.168.2.2-50 -Will have a gateway of 192.168.2.1 -Will be on the Network called DASILVEIRA My question is will this work.	St
+1.1.14	Even though I have two separate routers, which will be connected by a SWITCH will, the computers still connect on the same network.	St
+1.1.15	Will I have to use the RIP feature?	St
+1.1.16	If so how exactly does this work?	St
+1.1.17	Will my routers recognize one another and now that the clients are on the same network and allow them to communicate?	Sug
+1.1.18	(My SWITCH does not have the option to change any settings.)	St
+1.1.19	I know about Dual WAN routers but have never worked with them.	St
+1.1.20	Also, from my understanding the second WAN is for back-up purposes only.	St
+1.1.21	Unless, you can specifiy on a Dual WAN router which computers use what connection I do not think it would be helpful.	St
+1.1.22	Thanks, Tommy	St
+1.2.1	Okay I am thinking that if I set both modem RIP Directions to &quot;Both&quot; then they will recognize what host (client) is where and that should ensure they stay on the same network.	St
+1.2.2	Is this correct?	St
+1.3.1	1.)	St
+1.3.2	One DSL modem per DSL line.	St
+1.3.3	Period.	St
+1.3.4	2.)	St
+1.3.5	You cannot put a switch in front of a modem.	St
+1.3.6	Period.	St
+1.3.7	(And expect it to work.)	St
+1.3.8	Possible resolution.	St
+1.3.9	DSL line -&gt; DSL modem -&gt; Wireless router -&gt; various computers connected via Ethernet cable and/or wireless.	St
+1.3.10	Set File and Printer Sharing on all PCs.	St
+1.4.1	It will be DSL Modem 1 --- &gt; Router 1 ---&gt; Switch &lt;---- Router 2 &lt;--- DSL Modem 2 | | Clients 1 Clients 2 The switch is only necessary to connect the two Routers as they will be a block away from one another.	St
+1.4.2	I believe if I have the RIP feature on each Router set to &quot;Both&quot; then they will communicate.	St
+1.4.3	Hopefully, this makes more sense.	St
+1.4.4	I have two seperate DSL Lines.	St
+1.4.5	I know that is a necessity.	St
+1.4.6	This is my current setup with my Satellite Modem: Modem ---&gt; Router ---&gt; Switch ---&gt; All Clients Thanks, Tommy	St

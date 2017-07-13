@@ -1,0 +1,35 @@
+1.1.1	I have a geforce2 mx400 and I can only get into safe mode because when I go into the normal settings the windows loading screen locks up..this doesn't happen with my pci video card..	St
+1.2.1	What's in the rest of the machine?	St
+1.2.2	Just like we read at http://www.tomshardware.com/howto/20040122/ many change video cards, add this or that as well as the power supply ages and then they are caught in a vicious spiral of blaming drivers, reloading windows or more.	St
+1.2.3	In short, the number of 1+GHz machines I've fixed by simply upsizing the power supply is nothing short of amazing.	St
+1.2.4	There is no reason to shortchange the power since 450 Watt PSUs are 15 to 30 bucks.	St
+1.2.5	Bob	St
+1.3.1	thanks for replying.	Polite
+1.3.2	i guess i can try replacing my power supply since its just 90 watts lol..its a relatively old computer with a pentiumII.	St
+1.4.1	A P2 isn't very hungry, but that video card is still 25 or so Watts.	St
+1.4.2	You can try a few other things to see if you can EEK by.	Sug
+1.4.3	Unplug an extra CDROM, remove the case cover and if it's AGP set the AGP rate to 1X.	St
+1.4.4	But 90 is just too slender to put much more than what the machine came with...	St
+1.5.1	hmmm.. i just put in a new 300watt antec in and its doing the same thing.. but i have figured out what the main problem is, i just don't know how to fix it.	St
+1.5.2	i can only load up windows if the driver isn't installed..and when its not installed, the first 3d image that comes up makes my monitor go in standby mode and wont come back..and then i have to restart.. i've tried 4 different drivers already..	St
+1.6.1	Try puting back the old card, booting up, go to system properties and uninstall the old card.	St
+1.6.2	Turn off your computer and take out the old card and put in the new.	St
+1.6.3	On bootup the system should recognize the new and ask for the drivers.	St
+1.6.4	Your problem is a common one if you do not uninstall the old card first and then put the new one in.	St
+1.6.5	Hope this works for you	St
+1.7.1	Be carefull!	St
+1.7.2	If your old machine is not plug and play or if your operating system does not have the right drivers, and you uninstall the old card you may have some trouble finding a driver for your new card, unless you have the disk that came with the new card.	St
+1.8.1	I have like 5 different drivers downloaded..but when i install one of them it still does the same thing.	St
+1.8.2	I've tried everything.. uninstalling my s3pci card, taking it out and puting the gforce in and installing the driver in safe mode..but still when i boot in normal mode it freezes up on the load screen.. this was my first and last time buying an nvidia card..prolly just gonna scrap this one and go out and buy a ati card	St
+1.9.1	I have the same Video card you have, and you need to go to the Nvidia site and get the correct driver which can solve your problem, I had a similar problem and it took me a while to find and get the right driver, but when I was finished, my screen looked great!Dont give up on Nvidia......	St
+1.10.1	The clue for me is &quot;i can only load up windows if the driver isn't installed..and when its not installed, the first 3d image that comes up makes my monitor go in standby mode and wont come back..and then i have to restart..&quot; The new card can produce a video signal outside the capability of the monitor.	St
+1.10.2	In fact, it may start off at 800x600 and beyond 72Hz.	St
+1.10.3	To fix this...	St
+1.10.4	Install the driver and on the last reboot, boot to SAFE MODE.	St
+1.10.5	Go to the display properties and set the video size to 640x480 and that should work on the next boot.	St
+1.10.6	Then you can play with size and refresh rate to see what you can get on your monitor.	St
+1.10.7	Bob	St
+1.11.1	i had the same problem it was not the power supply i upgraded to a 500w and that was the same, my problem was solved by updateing my bios i read that xp is very sensitive to correct bios i have a g force 4 440 and a pcchips motherboard if you have a pcchips m/board look for a post from maimer titled &quot;graphic problems bucket loads of them&quot; a guy replyed to me and gave a link to a good forum which helped me loads hope this helps	St
+1.12.1	In addition to what he said, you should STAY AWAY from PSUs that are below $30, especially when you're talking of ones that are 350W and up.	St
+1.12.2	They're a waste of time.	St
+1.12.3	I bought one for under $20 and I sent the PSU back 4 times and EVERY one of them burnt out within a matter of DAYS.	St

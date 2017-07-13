@@ -1,0 +1,94 @@
+1.1.1	Win 98, ECS K7S5A motherboard, Xtasy G2 Vid card, 2 13 gig WD HDDs, 1 DVD optical drive, 1 12X Iomega burner, 1.4 Ghz AMD cpu and 1 256 meg stick no-name pc2100 ram.	St
+1.1.2	Last night, my wife shut down the computer, but it was hanging waiting for a program to end.	St
+1.1.3	After about 2 mins.	St
+1.1.4	and no shutdown, she called me over, and I could smell an electrical burning kinda smell, so I powered everything off from the surge protector.	St
+1.1.5	This morning, I opened up the case and tried to power on and could see the G2 vid card fan wasn't spinning- smelled the card and could smell that stinky electrical smell.	St
+1.1.6	Powered off from power strip, as I can't by hitting the computer's power button in front, can power off PSU from rear on/off switch.	St
+1.1.7	Replaced vid card with my old ti4200, and could see the led light and the fan was spinning.	St
+1.1.8	Reasonably sure the old vid card is dead.	St
+1.1.9	No scorch marks near cpu, as I've seen from other fried chips.	St
+1.1.10	Now, I still can't bootup.	St
+1.1.11	I pulled all hardware from their pci slots and all ide cables; had to leave the 256 meg pc2100 ram stick in, and vid card for video- did this to see if I could get into BIOS, no go.	St
+1.1.12	So it's down to this: The 400 watt power supply seems to be working; all fans spin, and when hardware was installed, where there were led lights, they were lit.	St
+1.1.13	So I took out all hardware except the vid card and ram, hoping to get into BIOS;I cleared the BIOS by shorting the CMOS jumper caps, fwiw.	St
+1.1.14	The cpu seems is OK; the original AMD heatsink and fan are cool as a cucumber to the touch, and the fan spins.	St
+1.1.15	So that leads me to believe it's the 1 stick of ram that went bad.	St
+1.1.16	I don't have another stick to test with.	St
+1.1.17	Changed monitors also just to be sure.	St
+1.1.18	No beeps, no nothing.	St
+1.1.19	Oh,I did find one stick of 32 meg pc100 168 pin (well, it fit, there were no markings on the chip to tell me exactly what type of ram, only how many megs; *think* it was pc100, could have been 66MHz for all I know); still no go getting into BIOS.	St
+1.1.20	The board supports 168 & 184 pin ram; pulled the 256 pc2100 for this test.	St
+1.1.21	So my feeling is the ram is shot (hopefully, but I'm not sure since I couldn't get into BIOS with the 32 meg stick).	St
+1.1.22	Haven't ruled out the board being blown, nor the chip & PSU.	St
+1.1.23	Just want to know if people agree with my assessment at the moment (being optimistic.)	St
+1.1.24	Never had a problem with this system except for the normal Win '98 probs.	St
+1.1.25	TIA.	St
+1.2.1	That CPU was not known to survive much...	St
+1.2.2	But you should go for beeps.	St
+1.2.3	Just four parts.	St
+1.2.4	PSU, CPU/HSF, motherboard and speaker.	St
+1.2.5	No beeps= you are looking at the bad parts.	St
+1.2.6	Another issue is that the boards with SDRAM or DDRAM support required a lot of configuration.	St
+1.2.7	If one did unplug one type of RAM and instll the other type without changing the jumpers, my bet is that you could fry something on the motherboard.	St
+1.2.8	I hope you configured it proper.	St
+1.2.9	Bob	St
+1.3.1	knew how to use it.	St
+1.3.2	LOL {they're cheap, get one from Radio Shack.]	St
+1.3.3	Only possible info for me would be related to beeps.	St
+1.3.4	Did you normally get a beep when booting up??	St
+1.3.5	Then you should get lots of beeps with all of the stuff removed AND removing the video card physically.	Sug
+1.3.6	I'll post this and then read your post again to see if I can glean anythinh else.	St
+1.3.7	If you have to replace the mobo I hope that you get something better than el cheapo ECS.	St
+1.3.8	LOL Just kidding	St
+1.4.1	The ECS board is a pretty basic cheapo board built for stability.	St
+1.4.2	Double checked manual just to be sure.	St
+1.4.3	Forgot to mention pulled vid card also to see if I could get *any* beeps.	St
+1.4.4	Think getting NO beeps are worse than getting error beeps.	St
+1.4.5	NOT how I wanted to spend my Labor Day Weekend!	St
+1.4.6	Thanks.	St
+1.5.1	yet.	St
+1.5.2	The various X's of AGP cards used different voltags.	St
+1.5.3	Wondering if yours used the 3.3 volts that the memory also uses.	St
+1.5.4	Power Supply failure [high][ of the 3.3 volts could have damaged lots of things, including the CPU].	St
+1.5.5	Hopefully the on mobo regulators for the CPU didn't let the overvoltage get to the CPU.	St
+1.5.6	I'm talking as if it was the supply.	St
+1.5.7	Not really intending that.	St
+1.5.8	An internal supply failure could let the voltages come up but not release the Power Go signal to let the system start the boot process.	Sug
+1.5.9	So many possibilities.	St
+1.6.1	And NO, I wouldn't know how to use it anyway.	St
+1.6.2	Did pull vid card also, as mentioned in response to Bob.	St
+1.6.3	Yes, I always got the the single beep before.	St
+1.6.4	And YES, this ECS board bites big-time!	St
+1.6.5	I HATE this board!	St
+1.6.6	All hardware is back in place, triple checked the seating.	St
+1.6.7	Didn't pull the HDD power/reset connectors, but they're seated well; if you recall, when I first got this board, I had to post how to connect the cables to the headers?	St
+1.6.8	10 pin connectors, 9 pins onboard.	St
+1.6.9	I'd like to shoot the designer of this board.	St
+1.6.10	Biggest complaint about this board on the 'net.	St
+1.6.11	Can't even remember how I figured it out.	St
+1.6.12	Well, my guys in Chinatown are open today.	St
+1.6.13	I'm so fed up, I just may go and get a barebones Shuttle!	St
+1.7.1	Good Luck whatever you choose.	St
+1.8.1	just being hopeful.	St
+1.8.2	I see somewhere on my PSU &quot;3.3 volts&quot; but can't honestly say what the heck it refers to,lol.	St
+1.8.3	Well, I guess I can call myself lucky after all these years of my home-made systems.	St
+1.8.4	About the only piece of hardware that's ever failed on me was FDD- twice.	St
+1.8.5	Never a psu, optical drive, or anything else for that matter that I can recall.	St
+1.8.6	The time I had my case open with the case fan sharing the power via a Y cable falling over and ripping out the ciruit board from my brand new 80 gig HD doesn't count, I think, lol.	St
+1.8.7	This has NOT been a fun day.	St
+1.8.8	All I need is rain, lol.	St
+1.9.1	&quot;Poor turn off technique&quot; LOL and then come home with a 939 64 bit XP barebones.	St
+1.9.2	LOL	St
+1.10.1	Unfortunately, among all my old computers laying around, no PSU will fit properly into my daughter's case.	St
+1.10.2	It's a PSU that mounts with a hinge and 2 screws.	St
+1.10.3	I could prob.	St
+1.10.4	rig it so that an old psu could hang by 2 screws, but I'd probably set the place on fire.	St
+1.10.5	Will let ya know how it goes.	St
+1.10.6	I have 1/2 mind of simply dragging the whole thing to the shop, but the owners aren't there where they'd prob fix the thing for nothing.	St
+1.10.7	Will let ya know how it goes.	St
+1.10.8	Thanks for input, Ray.	St
+1.11.1	I've told her time and again, that the '98 system hangs at shutdown and to just power EVERYTHING off!	St
+1.11.2	But nooooo, she wakes me up in the middle of the night to tell me that the pc wont shut off.	St
+1.11.3	Ya'd think a BURNING ELECTRICAL smell might signal, &quot;DANGER, DANGER!&quot;.	St
+1.11.4	Oy!	St
+1.12.1	NIL	St

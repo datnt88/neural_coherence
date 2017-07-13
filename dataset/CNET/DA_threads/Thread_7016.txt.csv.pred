@@ -1,0 +1,39 @@
+1.1.1	Hi all.	St
+1.1.2	This is my first post so bear with me if I don't know all rules I have a web server with public IP that is connected to internal network.	St
+1.1.3	I would like to display content from my networked machine.	St
+1.1.4	The network machine can't be accessed from internet and I want to keep it that way.	St
+1.1.5	(it can go to web though).	St
+1.1.6	Web server is Ubuntu server so I get the part of working it out with ip tables.	St
+1.1.7	I want to display content from internal nw machine but so it can only be seen through web server.	St
+1.1.8	(it should be re-rendered on web server with some technology or application).	St
+1.1.9	To recap: show content from nw pc on web server and only visible when looking on web server, other direct connections prevented.	St
+1.1.10	Thank you, Mario	St
+1.2.1	What stopped you?	Ques
+1.2.2	While you were not clear about the setup or what is to be displayed and how, you didn't reveal your plan or design.	St
+1.2.3	Bob	St
+1.3.1	I have an html web app in &quot;internal&quot; network.	St
+1.3.2	I want to display it's content on web server and web server only.	St
+1.3.3	Is there some solution that would present my web app from internal network on my public web server, and not open it so that anyone that can look into source open it directly.	St
+1.3.4	If I access it via iframe, that would mean, it can be accessed from outside.	St
+1.3.5	is there a solution that would serve as a gateway but close any connections to network machine outside the network?	St
+1.3.6	Thanks, Mario	St
+1.4.1	You wrote &quot; not open it so that anyone that can look into source &quot;.	St
+1.4.2	That's a little muddy but for years folk have danced around and lost far too much time over trying to hide or obfuscate source in HTML.	St
+1.4.3	Sorry but it's right there in all the web browsers I use if I view source.	St
+1.4.4	The source code is in the clear.	St
+1.4.5	It's a shame that the real goal seems hidden here.	St
+1.4.6	Sometimes folk try to avoid revealing they want access to the files on that PC.	St
+1.4.7	Bob	St
+1.5.1	Install the usual remote access software (gotomypc, VNC) and network, password, secure as needed.	St
+1.5.2	As presented it's a mess.	St
+1.5.3	I can't tell what &quot;content&quot; is.	Sug
+1.5.4	It could be some HTML pages, maybe it's the usual &quot;I want to access my PC from home&quot; or something else.	St
+1.5.5	What's clear so far is that the solution is not going to happen given the current skill set.	St
+1.5.6	Bob	St
+1.6.1	I have an amazon instance that has public IP eg: 10.25.251.38 and is also connected to internal network (10.1.50.xxx) with bunch of other amazon instances running ubuntu that have a BI Web Application installed.	St
+1.6.2	They are also on the same internal network different subnet (10.1.51.xxx).	St
+1.6.3	I can start and stop those instances from web server (10.25.251.38) using amazon aws sdk.	St
+1.6.4	Now the tricky part: I also want to load those instances up directly in same web server.	St
+1.6.5	Best course of action would be to use in Iframe, but then users can easily see the address where iframe is pointing to and I want to force users to use my web app only.	St
+1.6.6	I agree with Bob on the subject of openness vs closeness of html, but in this particular case, I would prefer to limit access as much as possible to internal network.	St
+1.6.7	Hope this clarifies the question and results in an awesome response Thank you guys, Mario	St

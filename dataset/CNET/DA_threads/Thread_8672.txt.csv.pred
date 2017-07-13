@@ -1,0 +1,37 @@
+1.1.1	I just hooked up a Wireless Access Point (WAP) I got from a friend to my home network & it works.	St
+1.1.2	Now, I've go to enable the security freatures.	Sug
+1.1.3	Unfortunatley, I have no clue what its IP address is.	St
+1.1.4	I've gotten to the Manufacturer's web site and their utility to connect to the WAP does not connect and the &quot;reset to default settings&quot; procedure as described in the user manual does not work.	St
+1.1.5	I've tried a bevy of network tools like Look@LAN but none of them discover the WAP.	St
+1.1.6	I can only assume the WAP has an IP addresss that does not live within 192.168.0.n I only have the MAC address printed on the serial number sticker attached to the bottom of the WAP.	St
+1.1.7	Is there a utility that wil allow me to ping by MAC Address to find out what the IP address is?	St
+1.2.1	You said that 'it works' and concluded that you now need to set up the security.	St
+1.2.2	I assume you mean you can currently get out to the internet, but you cannot get connected to the router itself.	St
+1.2.3	If this is the case, just use the default gateway IP in your ipconfig output.	St
+1.2.4	It is the IP assigned to the router.	St
+1.2.5	The answer to the question is you cannot ping by a MAC address unless the device is running reverse ARP.	St
+1.2.6	Recommend if you are not getting a lease, reset the router device to factory defaults - it is easier than anything else, usually.	St
+1.3.1	Sorry I did not make myself cleearer.	St
+1.3.2	I've had the D-Link router for ages and I alredy know its IP address, what I need to find is the IP address of the WAP so that I can setup the key.	St
+1.3.3	That's my dilema.	St
+1.3.4	I don't know the IP address of the WAP as it is not in the 192.168.0.xxx range	St
+1.4.1	I've got the same problem.	St
+1.4.2	Find a solution yet?	St
+1.5.1	No one seems to know how - I've tried several versions of network tools and none appear to be able to help - all want to set upper and lower boundary IP Addresses adn that's what I do not have ALL I WANT TO DO IS &quot;MACPING 0006F404D35A&quot; and have it come back and tell me the IP address.	St
+1.5.2	Maybe I'm naive but is that too difficult?	St
+1.6.1	http://groups.google.com/groups?hl=en&q=PING%20MAC%20ADDRESS	St
+1.7.1	that the web based IP address for D-link...	St
+1.8.1	You set your address to something in the 192.x.x.x range with a netmask of 255.0.0.0 and then run something like this to scan the entire 192. block?	St
+1.8.2	http://www.angryziber.com/ipscan/	St
+1.9.1	This is a seriously old thread and should have been taken down years ago since there is no answer to the original question.	St
+1.9.2	When I was searching for information on MAC addresses this came up in the first page of results on google.	St
+1.9.3	People pay good money to get on the first page of a google search and I wonder how an old piece of CRUFT like this persists.	St
+1.9.4	I think the answer is that people keep clicking on it and going to it and get disappointed with the thread ending without a solution... so here's a solution: I am assuming that you plugged your WAP into your D-Link router.	St
+1.9.5	When you switch the WAP on, it will request an IP address from your router's DHCP server.	St
+1.9.6	From a computer connected to your wired network, you then go into your D-link router's admin utility and look at the DHCP client table and the WAP IP address will be listed along with all the other connected devices.	St
+1.9.7	Enter the WAP IP address in the URL field of your browser and you should be prompted with a password screen.	St
+1.9.8	If you have reset your WAP to factory specs (as you have said) then you enter the default username and password and you are in.	St
+1.9.9	If you want any security at all you will not run applications from the web directly to &quot;help&quot; you with security concerns as suggested above.	St
+1.9.10	For basic security you should rename the SSID, reset the password, enable MAC address filtering, and enable encription (WPA/WPA2) using a strong passphrase.	St
+1.9.11	There are of course many other things you can do with your network to increase security, but it has been said that having locks on your home only keeps the polite people out.	St
+1.9.12	This seems to apply to networks also...	St

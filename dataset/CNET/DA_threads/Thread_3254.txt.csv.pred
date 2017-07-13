@@ -1,0 +1,63 @@
+1.1.1	I have a GT5238E Gateway computer with a duo core 1.86, 250 gb hdd, 1 gb memory and a DG965LV (DG965MQ) motherboard and I have a high heat reading in the ICH area (IO controller chip)of between 63 to 105C.	St
+1.1.2	The Intel vague specifications for this area is 65C and I suspect I have a fault sensor because I can hold my finger on the chip and it is hot but I am in no danger of burning myself.	St
+1.1.3	I would like to attach a heat sink with thermal tape as there are no mounting holes and would like to know if this can be done.	St
+1.1.4	This is one of the heat sinks I have been looking at: http://www.ncix.com/products/index.php?sku=24670&vpn=CNB-S1&manufacture=EnzoTech This is gateways picture of my motherboard: http://support.gateway.com/s/MOTHERBD/Intel2/4006153R/4006153Rmv.shtml This is an Intel page on overheating that also shows a diagram of the motherboard heat areas.	St
+1.1.5	http://www.intel.com/support/motherboards/desktop/sb/cs-012552.htm The MCH area (memory controller chip)already has a heat sink attached and does not have this heat problem.	St
+1.1.6	My system heat readings are normally CPU-39C, MB-39C, ICH- 63C to 105C, MCH-49C, ambient-42C, fan intake speed 830rpm outlet 800rpm	St
+1.2.1	but before I'd replace the existing ...	St
+1.2.2	I'd try adding a small fan 40mm, 50mm or whatever size fits to provide active cooling blowing downward over the HS.	Sug
+1.2.3	Another option might be a case fan located to move outside air directly onto the ICH.	St
+1.2.4	VAPCMD	St
+1.3.1	The results have been that regardless of computer use (at least so far) the indicated temperature of ICH has not budged from 63C I believe that the sensor is not accurate as the temperature indicates 63C even when the computer is first started Do you think that the Thermal tape will work OK for this application if I add a heat sink?	St
+1.3.2	I would rather be safe than sorry and got really worried when I saw the temp at 105C.	St
+1.3.3	I then ran the computer with the side off and an external fan blowing on the MB until I added the 60mm fan.	St
+1.3.4	The temp I gave you is with the case buttoned up and running normally now	St
+1.4.1	The inlet fan also blows over the processor and is quite a good design however I wish there was a way to adjust the rpms of these fans.	St
+1.4.2	I believe a 100 rpm increase or less would make a substantial difference From what I have read in the Intel site the fans stay pretty much constant until the processor gets to 72C and then goes to full throttle which seems like a poor design to me If you or anyone knows of a way to incrementally increase the (either) fan rpm please let me know, thanks	Sug
+1.5.1	http://www.anitec.ca/product/8045/antec_spot_cool_system_cooler/ You might also consider adding a couple of RAM heat sinks as well.	St
+1.5.2	http://www.compusa.com/products/product_info.asp?pfp=srch1&Ntt=ram+heat&N=0&Dx=mode+matchall&Nty=1&D=ram+heat&Ntk=All&product_code=50858863	St
+1.6.1	If the tape isn't sufficient there are other thermal compounds like Arctic Alumina that would easily do the job.	St
+1.6.2	http://www.arcticsilver.com/arctic_alumina_thermal_adhesive.htm#aaerev If you need special items like speed controlled fan, fan controllers, CPU heatsinks, etc., there are lots of specialty web sites like Xoxide.com, FrozenCPU.com, CrazyPC.com, Coolerguys.com, etc., Let us know how it works.	St
+1.6.3	VAPCMD	St
+1.7.1	http://www.intel.com/design/motherbd/software/idu/index.htm Also SpeedFan is good software for monitoring your fans and temperatures.	St
+1.7.2	http://www.almico.com/speedfan.php I think when this is all said and done your going to have to take it into a shop and get it checked out.	St
+1.7.3	If your truly running over 100C then your having some serious problems sooner or later somethings going to give.	St
+1.7.4	If this isn't an equipment malfunction then I think the heat is trapped in that corner of the motherboard.	St
+1.7.5	Increase air flow in corner.	St
+1.7.6	RAM(s) maybe a factor possibly a big one.	St
+1.8.1	I appreciate the help and although I have a temporary fan in place to cool this chip I have orderd the fan you recommended.	St
+1.8.2	It is available at NCIX.com and very reasonable see link: http://www.ncix.com/products/index.php?sku=21935 I have already installed the heatsink and the lowest temperature I can get is still 63C, I suspect there's a problem with the heat sensor, because it is not too hot to touch I already have coolers on my RAM sticks, but appreciate the advice.	St
+1.8.3	Thank you so much for the help	St
+1.9.1	I ordered some thermal glue That's a great idea, thanks for the advice and the link	Polite
+1.10.1	The desktop utilitie is how I monitor my temperatures as I said before, I suspect I have a sensor problem.	St
+1.10.2	The temperature is not been over 63C since I installed the fan, the heatsink did nothing to reduce the temperature any further.	St
+1.10.3	Hopefully I'm not looking at failure down the road.	St
+1.10.4	I am looking into replacement temperature sensors, just to be sure I appreciate all your help, thanks again	St
+1.11.1	The temprature might go up if you remove the heat sink.	Sug
+1.11.2	Seems you had a HotPocket How does that fan mount to the motherboard, tower?	St
+1.12.1	You should be able to pick up something at Radio Shack that could help you get a sense of the temp accuracy.	St
+1.12.2	What kind of thermal compound did you end up using ?	Ques
+1.12.3	Any way to afix a fan directly on the heatsink ?	Ques
+1.12.4	VAPCMD	St
+1.13.1	jeff, did you ever solve your temp problem (or figure out if it is a problem)..I have a similar gateway system..same processor, different MB i think GT5436..and noticed i'm getting 92.42 on the ICH....wondered if it was cause for concern..my CPU is 56.18 at near idle...wondered if that was ok..have you seen any links with more definitive acceptable temperatures?	St
+1.13.2	thanks	Polite
+1.14.1	the problem is fixed.	St
+1.14.2	If your having a similar problem read this forum.	St
+1.14.3	If your not having the same problem then consider starting a new thread.	St
+1.14.4	Good luck.	St
+1.15.1	check out this page http://www.intel.com/support/motherboards/desktop/sb/CS-012552.htm which shows the temps in the 60 to 75C range but if you check on Google you will find others with similar ranges to mine 63 to 105C.	Sug
+1.15.2	What I did was to mount a heat-sink on the ICH chip but noticed little difference except the temp now never goes over 63C.	St
+1.15.3	I used a remote sensor to confirm the temp sensor heat and it showed 45C where as my machine was showing 75C at that time I believe the problem to be a defective sensor which was confirmed by two separate remote sensors.	St
+1.15.4	Check for DG965MQ board temp problems in Google and you will see we are not alone.	St
+1.15.5	I am happy with the heat-sink and fan I installed which evened out my eratic readings	St
+1.16.1	I contacted Intel customer support regarding a high CPU temperature problem I was having, I implemented all of there recommendations and was disappointed with all but one.	St
+1.16.2	I have added a hard drive cooler and installed it in a spare CD/DVD slot I have and run it with the door propped open.	St
+1.16.3	http://www.compusa.com/products/product_info.asp?pfp=SEARCH&Ntt=hard+drive+coolers&N=0&Dx=mode+matchall&Nty=1&D=hard+drive+coolers&Ntk=All&product_code=288618 This dropped my CPU/system temperature by four degrees Centigrade.	St
+1.16.4	All the other recommendations failed entirely.	St
+1.16.5	It does make a bit of noise.	St
+1.16.6	It took about 10 minutes to install and required no tools to install, just plug and play.	St
+1.16.7	This may not be your experience, however.	St
+1.17.1	The only area I had a problem with was the ICH area The processor is showing well within tolerance but I would like to be able to change the speeds on the inlet (cpu) and exhaust fans but no one has an answer short of changing the fans or installing separate fan controllers	St
+1.18.1	http://www.coolerguys.com/840556081609.html VAPCMD	St
+1.19.1	simple.	St
+1.19.2	up grade too the lates bios.. problem fixed.. i had it for years finally took the time read the bios update install and did it from 63c to 46c just like that....	St

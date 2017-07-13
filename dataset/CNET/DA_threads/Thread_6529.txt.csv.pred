@@ -1,0 +1,121 @@
+1.1.1	Hey everyone.	St
+1.1.2	First off, I know some tech stuff, but not much.	St
+1.1.3	Please forgive me if Im wrong about anything.	Sug
+1.1.4	Well, my computer just died.	St
+1.1.5	I had a friend check it, he said the power supply was shot (only certain things getting power).	St
+1.1.6	When I turn the computer on only the floppy drive turns on and nothing else.	St
+1.1.7	Its an HP Pavilion 743c and almost 4 years old.	St
+1.1.8	I think a storm/lightning strike nearby caused this problem.	St
+1.1.9	Do you think its worth it to try to fix the computer?	St
+1.1.10	Or should I just wait and get a new one?	Sug
+1.1.11	If I dont fix it I was hoping to be able to put the hard drive on this computer (this is my parents computer).	St
+1.1.12	As a second hard drive.	St
+1.1.13	Can I do this?	St
+1.1.14	What would it be like?	St
+1.1.15	Could I make it like it was two different computers (like logging on to our seperate hard drives)?	St
+1.1.16	I have attached the hard drive to this computer (replacing the hard drives) and it acted like it was going to boot up, but on the screen it said something about something missing.	St
+1.1.17	I know I need to configure it somehow.	St
+1.1.18	But I want to do it as a second drive.	St
+1.1.19	Can anyone explain how to do this or point me in the right direction on instructions and information?	Ques
+1.1.20	I just didnt know where to start looking.	St
+1.1.21	Sorry thats so long and jumbled up.	St
+1.1.22	Thank you for your time!	St
+1.1.23	Tiffanie	St
+1.2.1	Tiffanie you can attach the drive from your computer as a secondary drive to your parents computer.	St
+1.2.2	Does the ribbon cable that attaches the drive have a second connector?	St
+1.2.3	That is where you would attach it.	St
+1.2.4	You also have to attach the white connector with four wires like on the other drive, but you probably know that because you already attached it.	St
+1.2.5	That is the power cable.	St
+1.2.6	There may be a tiny connector with now wires near the power connector that allows you to set it to Slave or Master.	St
+1.2.7	You should set it to Slave.	St
+1.2.8	The setting for this should be shown on the hard drive near the little connector (called a DIP jumper).	St
+1.2.9	When you install it as the secondary drive you will be able to acces your files, but not the programs that you installed on your computer.	St
+1.2.10	You will be able to find mp3's, pictures, Word documents, and other files in D:\Documents and Settings\(yourusername)\My Documents folder where D is the drive letter the computer assigns you.	St
+1.2.11	Good luck and remember you can always do a search for the file you are looking for.	St
+1.3.1	The first is that power supplies are pretty inexpensive (under $50) and relatively easy to replace....the most complicated part being which pins on the motherboard to attach the front panel connectors (power, reset, spkrs, etc).	St
+1.3.2	The easiest way to do that is to remove one connector at a time with a small drawing next to you that you can mark what they are so you can attach the new power supply the same way.	St
+1.3.3	A total of about ten pins near the bottom right corner of the motherboard and one or two may or may not stay 'naked' with no connector attached.	St
+1.3.4	I personally would start there to see if it's the power supply and not the motherboard itself that got fried.	St
+1.3.5	As for hooking your harddrive to your parents' computer...the reason it said something was missing when you hooked it up, is probably because you still had your drive jumpered as a Master and it was trying to boot from it rather than see the drive as just an extra slave for storage purposes and drivers, etc.	St
+1.3.6	didn't match up since it still has your operating system (windows) on it and has the HP drivers still in residence in the registry.	St
+1.3.7	In order to hook it up as a slave instead, make sure the jumper in between the power supply and the cable connector on the back of the drive is either jumpered as a slave and your parents' harddrive jumpered as a Master or Master with Slave or jumper them both as CS (cable select) and hook the end of the cable to your parents' harddrive and the middle connector to yours.	St
+1.3.8	The cable will then sort out which is which and boot correctly.	St
+1.3.9	There will be some kind of etching in the drive itself right above the pins or a diagram on the label attached to the drive to show you the proper pin settings for the jumper.	St
+1.3.10	The only problem you might run into will be if your parents are using W98 and you have XP on your harddrive because XP usually is formatted for NTFS whereas W98 is FAT32 and FAT32 drives can't see data on an NTFS drive.	St
+1.3.11	If the situation is reversed, and you have W98 and your parents have XP, there's no problem because XP will be able to see a FAT32 drive easily.	St
+1.3.12	TONI	St
+1.4.1	Tiffanie, Sorry to hear of your troubles.	St
+1.4.2	Power supplies are fairly easy to replace & relatively inexpensive.	St
+1.4.3	But first lets test it & see if we can narrow things down.	St
+1.4.4	Follow this link & you will learn how to ''hotwire'' the PS.	St
+1.4.5	http://www.duxcw.com/faq/ps/ps4.htm Whatever you do, DO NOT disassemble the power supply.	St
+1.4.6	If it fails the test, follow this link to replace the PS.	St
+1.4.7	http://www.fonerbooks.com/r_power.htm From the description you give, i doubt that it is the power supply.	St
+1.4.8	Does the CPU cooler fan spin?	St
+1.4.9	Any beeps?	St
+1.4.10	Explain further about what you did with the HD.	St
+1.4.11	You got a message to display that you were missing the OS, or non system disk?	St
+1.4.12	If you got a message, that means that you got the system to boot & your PS is OK. Give us more details & good luck.	St
+1.4.13	BD	St
+1.5.1	Adding a second hard drive to a computer is easy.	St
+1.5.2	Follow this link http://www.ehow.com/how_6030_install-second-hard.html .	St
+1.5.3	Make sure to set the jumper on the drive to &quot;slave&quot; .	St
+1.5.4	I suspect that you may have a hard drive problem.	St
+1.5.5	You need to give us some more information.	St
+1.5.6	Let us know what you find out & we will try to help as much as possible.	St
+1.6.1	Yes, the ribbon has a second connector.	St
+1.6.2	Thank you for the instructions.	St
+1.6.3	I havent done it yet but those were very clear, I appreciate it!	St
+1.6.4	Would I be able to access the files of the programs and stransfer them onto this computer so then I could use the programs?	St
+1.6.5	That was mostly the reason I wanted to attach the HD to this computer.	St
+1.6.6	Thanks again!	St
+1.7.1	Thank you for the information on the power supply!	St
+1.7.2	Im a little timid to spend the money replacing it, to find out thats not the problem, you know?	St
+1.7.3	Fifty dollars is a lot to a teen with no job (yet).	St
+1.7.4	Your right about hooking up the HD to this computer.	St
+1.7.5	I thought of that, so I figured.	St
+1.7.6	I was just testing to see if my HD was still working, to see if that was the problem.	St
+1.7.7	Thank you for the info too on hooking up a slave drive.	St
+1.7.8	No problem with the OS, its the same on both computers.	St
+1.7.9	Thanks again for your reply and information!	St
+1.7.10	I really appreciate the help.	Polite
+1.8.1	Thanks so much for the links and the info!	St
+1.8.2	I really appreciate it.	Polite
+1.8.3	No, when I try to boot up my computer, nothing happens with the fans, and no beeps.	St
+1.8.4	The only thing that happens is the floppy drive turns on, and I can here it a little bit, and the power button lights up green, and the light below it is amber, and then turns off.	St
+1.8.5	I had hooked up my hard drive to another (this) computer, just to see if it was the problem or not.	St
+1.8.6	But it spun, and of course was not configured to this computer.	St
+1.8.7	So no problems there.	St
+1.8.8	Thanks again!	St
+1.9.1	OK, so the computer is not completely dead.	St
+1.9.2	The computer will start up, but then shuts down.	St
+1.9.3	Right?	St
+1.9.4	1st thing you should do is configure the hard drive as a slave & install it in the second PC.	St
+1.9.5	Back up all your critical files.	St
+1.9.6	Then, breath a deep sigh of relief that you didn't loose all your data.	St
+1.9.7	Now back to your PC.	St
+1.9.8	Does the monitor display anything during the short time that the computer tries to start?	St
+1.9.9	The only thing you need for the PC to boot is: Motherboard, CPU, Memory, Video card & Power Supply.	St
+1.9.10	So the next step is to disconnect or remove anything else.	St
+1.9.11	I'm not familiar with your exact computer, so these will be general instructions.	St
+1.9.12	Unplug everything from the computer, except power cord, monitor, keyboard & mouse.	St
+1.9.13	Make sure that you remove any USB devices, jump drives, etc.	St
+1.9.14	Try to boot.	St
+1.9.15	Yes/no?	St
+1.9.16	If no, unplug KB & Mouse & try again.	St
+1.9.17	If no, continue on... Unplug the floppy & IDE cables from the motherboard.	St
+1.9.18	Be sure to note where they came from, so that you can reassemble them later.	St
+1.9.19	Next, remove all expansion cards, except the video card.	St
+1.9.20	These may include a modem, NIC, sound card, etc.	St
+1.9.21	So, now you should have a mothreboard, CPU, memory, video card & power supply.	St
+1.9.22	Leave the small wires connected for all the fans & the front panel switches & lights, etc.	St
+1.9.23	Now, fire it up & let us know exactly what happens.	St
+1.9.24	What do you see on the monitor?	St
+1.9.25	What fans turn?	Sug
+1.9.26	What beeps do you hear?	St
+1.9.27	What lights come on?	St
+1.9.28	How long do these items stay on?	St
+1.9.29	Anything & everything.	St
+1.9.30	Details, details, details.	St
+1.9.31	Get back to us & we will go from there.	St
+1.9.32	Good Luck - Darren	St

@@ -1,0 +1,127 @@
+1.1.1	1 Terabyte hard drive, Going into XP machine.	St
+1.1.2	For myself- should I partition it into say two 465 pieces and be happy or split into even more parts, or - leave it alone.	St
+1.1.3	Reason I ask is client machine ten or eleven weeks ago I installed one (After formatting by itself, only drive connected, using Partition Magic-NTFS-etc- single partition.)	St
+1.1.4	I could tell a slowing down of the overall running of the computer.	St
+1.1.5	(XP all patches-sp3-etc) They needed it for movie and audio storage.	St
+1.1.6	They didn't seem to notice the reduction in speed, have had no problems with it.	St
+1.1.7	About to have myself one and can't seem to find a definite yea or nay on the impact or the slow down of that large of a drive.	St
+1.1.8	(Machine = Asus P5VDX mb, P4D @3.4, 2gb ram, Nvidia 7600 gs graphics.	St
+1.2.1	all data on D: ...makes backups and restores quicker, easier and safer.	St
+1.2.2	I add a second HDD for the compressed images of C and D: It works well for me and has for years.	St
+1.2.3	VAPCMD.	St
+1.3.1	The benefit of partitions is the HD has huge folders of sorts.	St
+1.3.2	You can better control where the data resides.	St
+1.3.3	You separate the OS and its files from work data or results/storage elsewhere.	St
+1.3.4	If the system fails you can more readily access the data in some form.	St
+1.3.5	Why, because all too often its the OS and and/or some work pgm.	St
+1.3.6	at fault when s/w related.	St
+1.3.7	As you've noticed a minor performance increase as the system knows where to go and not fiddle through a huge cache or amount of files to access something.	St
+1.3.8	Remember its what the user wants or desires.	St
+1.3.9	However, if it works OK allow it to proceed until it bletches.	St
+1.3.10	If you can remember in days past, having partitions was still common but the amount of storage for data has increased thus the lost will too.	St
+1.3.11	There is a big difference in 120gb vs 1tb.	St
+1.3.12	for storage loss.	St
+1.3.13	IMHO, that's my story -----Willy	St
+1.4.1	File storage only- just like the client machine that I noticed the SLOW down on.	St
+1.4.2	I verified it after first installing their 1Tb drive- most things seemed to drag a little.	St
+1.4.3	about like the differenc when you have fresh loaded xp and run it a while then use the performance tune app to 'Adjust for best Performance' then turn on mouse shadows and a couple of other preferences but not that whole sack of stuff MS wants you to have.	St
+1.4.4	Remove the 1TB and things were back to lickety quickety.	St
+1.4.5	I guess to really know I'd need to partition it and then fill it up and see if things slowed down.	St
+1.5.1	NIL	St
+1.6.1	The info I mentioned is still valid, minus the OS part.	St
+1.6.2	Having a huge HD is best controlled when partitioned.	St
+1.6.3	If you divided into 2x500gb partitions those are still huge partitions but it is stiller smaller than 1tb.	St
+1.6.4	When HDs get that huge the benefits may diminish abit but it holds true smaller is better.	St
+1.6.5	FYI, the need for backups, etc., will benefit as insurance against any data lost for any size HD.	St
+1.6.6	tada -----Willy	St
+1.7.1	Used partition magic 8 to create partitions (Booted from cd) set it up with three, one primary, 2 logical-etc.	St
+1.7.2	Drive seen properly in Winxp, etc.	St
+1.7.3	Just for Compulsive Obsessive reasons rebooted with Partition Magic- Get 'Partition Table Error 110 detected' Searched a lot on this 110 error, downloaded Testdisk, ran it, tried recreating after using the 'Delete Partition table Data' option.	St
+1.7.4	Multiple times of different variations- always get the 110 error.	St
+1.7.5	Checked two more 1tb hard drives- same thing.	St
+1.7.6	What is the deal?	St
+1.7.7	Looked at Samsung Disk setup software and DO NOT want to use some kind of overlay software they want you to use.	St
+1.7.8	Anyone know if 1Tb hard drives just do this because they are so big?	St
+1.8.1	them using disk management ?	Ques
+1.8.2	VAPCMD	St
+1.9.1	Up with the Partition table error, even if I nuke the drive with something like ZAP, then create the partitions with WinXP.	St
+1.10.1	NIL	St
+1.11.1	Error 110 explained... http://www.computergripes.com/PartitionMagic.html I found Samsung lacking in s/w support and in support in general.	St
+1.11.2	I usually don't use PM in any form if I can avoid it.	St
+1.11.3	I use the HD makers s/w which in many cases is just fine and more to the point.	St
+1.11.4	However, Samsung is outside of this group of good HD s/w providers.	St
+1.11.5	As for PM, it tends to create an extra layer for its use and recovery process.	St
+1.11.6	I suggest contact PM support and see what they offer in reply, I believe they too have a public forum to post.	Sug
+1.11.7	tada ------Willy	St
+1.12.1	out the HDD ?	Ques
+1.12.2	VAPCMD	St
+1.13.1	At anything resembling a corporate website-but I did find a lot of instances of the error- a LOT!	St
+1.13.2	After looking at Samsung software I wished for something as good as the old, old Maxtor setup discs.	St
+1.13.3	I wound up using the Samsung 'Hutil' to clear the PBR, Mbr, etc then booted with it connected and used XP's disc initialize and split function.	St
+1.13.4	Seems to be working ok. Now to fill it up and see if the speed is any better.	St
+1.13.5	(Three equal sized partitions-btw)	St
+1.14.1	the final report.	St
+1.14.2	VAPCMD	St
+1.15.1	I know there was PM forum and/or a more direct tech support.	St
+1.15.2	I guess Norton pretty much killed that.	St
+1.15.3	However, with PM v8 now a shareware type of pgm.	St
+1.15.4	it gets very limited support and hasn't been really improved, IMHO since purchased.	St
+1.15.5	Glad things got settled down.	St
+1.15.6	adios -----Willy	St
+1.16.1	Questions previously posed- I used the Samsing 'Hutil' software to clear the drive to as near nothing as they would let you-then used Zap63 (on the MES disk I've had forever) booted into winxp (WD 160 that is basic OS and some stash of setup backups.	St
+1.16.2	Used winxp to initialize, format, divide, etc etc.	St
+1.16.3	Recognition is perfect- works fine in four computers (Checked this morning) loaded all the stash video and audio stuff onto the partitions and installed into the computer where it's going to live from now on.	St
+1.16.4	And - YES - its much faster with partitions.	St
+1.16.5	I have no idea what the ideal split would be but I can live with thirds no problem.	Res
+1.16.6	I wonder what the &quot;Data Books&quot; with 1 and 2 tera bytes use for setup and so on?	St
+1.17.1	Tcantrelln ...	St
+1.17.2	If you're still having worries regarding slow performance on this hard drive in your XP system, my recommendation is to check whether you need Intel's Application Accelerator.	St
+1.17.3	See this link for info: http://www.intel.com/support/chipsets/iaa/sb/cs-009293.htm You may not need it at all, but your description of your slower performance immediately reminded me of my experience with this issue.	St
+1.17.4	Here's what happened to me.	St
+1.17.5	.	St
+1.17.6	.	St
+1.17.7	At the time, my system was a Dell XP2 box with just one internal ATA hard drive.	St
+1.17.8	I had been using an external drive connected via USB 2 to do my backups; the backups used to take about 25 minutes to complete.	St
+1.17.9	However, I added a second internal ATA hard drive with a capacity of 250 GBytes.	St
+1.17.10	I used the Seagate setup utility that came with the drive and the setup &quot;complained&quot; that my system, as it was then configured, could not handle a drive that big.	St
+1.17.11	However, the setup utility offered to fix that for me by merely selecting an option it offered (I cannot recall what it did).	St
+1.17.12	I selected that option and successfully formatted the entire drive to function as one 250 GByte partition.	St
+1.17.13	All seemed okay, but I soon realized something must be wrong when I decided to do one of those backups of my primary drive and I wrote the image onto the new second hard drive instead of the external USB drive.	St
+1.17.14	The problem was that the backups that used to take just 25 minutes on the external drive now took more than THREE HOURS to complete when writing the image to the new secondary internal drive.	St
+1.17.15	&quot;How could that be,&quot; I wondered.	St
+1.17.16	How could an internal drive be so much slower than an external drive?	St
+1.17.17	I looked around and that's when I learned about the Intel Application Accelerator.	St
+1.17.18	After installing their &quot;accelerator&quot; (which is really a replacement for your system's ATA drivers), that immediately fixed the slow performance problem and full backups to the new hard drive were taking just under 25 minutes again.	St
+1.17.19	Big difference, huh?	St
+1.17.20	Over three hours vice 25 minutes.	St
+1.17.21	Check to see whether you need these ATA drivers and perhaps that will fix your performance issues.	St
+1.17.22	Good luck and tell us how it turns out.	Polite
+1.17.23	Tony	St
+1.18.1	In place- the performance has been so much better with the 1Tb split that I'm going to do that to every one over 500Gb in the future.	St
+1.18.2	Like I said -there may be some optimal ratio, or size numbers, but for me-for now, thirds is fine.	St
+1.19.1	Is there an advantage to creating more than two partitions?	St
+1.19.2	For example, having one for the OS, another for programs, and a third for data?	St
+1.19.3	Maybe even a 4th for backup of the other three?	St
+1.19.4	Is this related to RAID?	St
+1.20.1	But some thought they could save APPLICATIONS from needing a reinstall by putting them on their own partition.	St
+1.20.2	Sadly they learn that doesn't work.	St
+1.20.3	Let's be clear.	St
+1.20.4	Reinstalling the OS destroys install applications.	St
+1.20.5	And while some thought that putting their personal files on it's own partition, our forums are filled with pleas on how to recover their files.	St
+1.20.6	So with that all I can offer is we only backup what we can't lose.	St
+1.20.7	Bob	St
+1.21.1	partition D: for all DATA....downloads, docs, pics, e-mail...everything.	St
+1.21.2	I use a 2nd internal hard disk drive just for separate comp-ressed backup images of C: and D: ...so if the need arises I could restore C: from a compressed image without affecting the data on D: .	St
+1.21.3	If drive 0 dies ....I just replace it and restore the images from the 2nd HDD.	St
+1.21.4	Has really worked well for me.	St
+1.21.5	I also have copies of the compressed images on an external and hopefully I'll never have to use them.	St
+1.21.6	VAPCMD PS...RAID not part of the equation.	St
+1.22.1	every week do a 10meg partition !	St
+1.22.2	THAT WiLL produce 100,000 partitions !	St
+1.22.3	so the drive will last 2,000 years almost !	St
+1.23.1	or 100 disk cd dvd changer and put all files to be read from the specific cd or dvd archive THAT WILL SAVE THE HARDDRIVE FOR A GOOD LONG TIME !	St
+1.24.1	...making an image do removable disk of a new install of the OS and apps as a &quot;just in case?&quot;	St
+1.25.1	Which is offered as a sermon every day.	St
+1.25.2	But there is a fire and brimstone reading for those that don't save more than one copy of what they can't lose.	St
+1.26.1	I received that sermon years ago, and took it to heart.	St
+1.26.2	You'd be preaching to the choir were you to repeat it to me...	St

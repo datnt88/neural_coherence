@@ -1,0 +1,21 @@
+1.1.1	I currently am using comcast.net to network 4 home PCs: 1 desktop pc (that is connected via ethernet to the router) 3 laptops (that are connected via wireless to the router) Whenever the desktop PC is used to do anything that requires any internet bandwidth (e.g.	Ques
+1.1.2	download files, etc.	St
+1.1.3	), the other three PCs connection to the Internet slows to a crawl.	St
+1.1.4	This does not make sense as comcast *claims* that we have a 6mbit connection and the desktop PC uses only a small portion of that bandwidth - (between 30kbits to a peak of less than 200kbits) Is there any way to ensure that the laptops can continue running at &quot;full speed&quot; while the desktop PC can do its thing?	St
+1.1.5	This has been the source of many arguments with my housemates and I and I know that there has to be a way for all of us to use this connection regardless of what each person is doing.	St
+1.1.6	Thanks!	St
+1.2.1	in some wireless routers, the wired connection dominates the wireless channels causing the situation you describe.	St
+1.2.2	http://www.tomsnetworking.com/index.html has reviews of many popular routers.	St
+1.2.3	to test your connection, go to http://www.dslreports.com/stest or http://www.bandwidthplace.com/speedtest/ or http://reviews.cnet.com/7004-7254_7-0.html these tests won't reflect your true upper limit but you should see at least 1mbps.	Sug
+1.2.4	the best way to check your true limit is to kick off some newsgroup downloads from comcast's news servers.	Sug
+1.2.5	since those servers are 'local', they should be able to fill your pipeline.	St
+1.2.6	i use roadrunner any peg my connection at 7.1mbps with 2 simutaneous transfers.	St
+1.3.1	I too believe that this is likely a problem related to your router.	St
+1.3.2	It would be nice if you were to tell us what brand/model router you own.	St
+1.3.3	Some routers have a function that allows you to limit the amount of bandwidth each computer (or IP address) on your network.	St
+1.3.4	You may also consider upgrading your router as well.	St
+1.4.1	It is possible that your software firewall on each of the laptops is limiting your speed.	St
+1.4.2	I used Computer Associates Firewall with my RoadRunner and it slowed my speed down to a crawl [700 k].	St
+1.4.3	When I turned off that firewall and used windows firewall my speed was okay [at least 5mb].	St
+1.4.4	You could probably do without a software firewall simply because the router has it's own firewall built-in but I personally use window's version anyway in addition the the router's.	St
+1.5.1	always check all networking devices for any settings that change the duplex mode(on most equipment anyways) which basically limits to how much bandwith can be sent and received at a given time, always make your your equipment has the newest stable drivers and/or firmware for routers/switches since new firmware might create new custom settings or have easier control of your bandwith, also don;t forget ethernet (wired portion) of your network will always exceed wireless since wireless can't handle ethernet speeds yet, check firewalls and check wireless coverage since maybe you got a weak signal	Sug

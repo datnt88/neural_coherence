@@ -1,0 +1,31 @@
+1.1.1	Hello, I installed a couple of PCI 2.2 compliant devices (ADSL modem and Ethernet adapter) on my old Win95 PC and I can't make them work.	St
+1.1.2	I'm sure drivers are right for my OS, so I think it's because my PCI slots are 2.1 compliant.	St
+1.1.3	Now, I'm looking for a BIOS upgrade.	St
+1.1.4	Here are informations about my mobo and BIOS BIOS Type: Award BIOS Date: 01/16/98 BIOS ID String: 01/16/98-I430TX-ALI5135-2A59ITJAC OEM Signon: IT-586TX1 Ver:1.31N FIGHTER TX ITALIANA TECHNOLOGIE Chipset: INTEL TRITON 430TX REV 1 Super I/O: ALI M5133 REV 0 FOUND AT PORT 3F0H I know my mobo was produced by Totem but their website ( http://www.totem.com.tw ) is no more online.	St
+1.1.5	So I asked a BIOS upgrade to eSupport.com ( http://www.esupport.com ) and they told me they have the right one for $24.95.	St
+1.1.6	Could any of you please answer my questions: - will the BIOS upgrade make my PCI 2.2 devices work with my mobo?	Ques
+1.1.7	- have I any other way to get the right BIOS upgrade without paying money for it?	St
+1.1.8	Thanks in advance Andrea	St
+1.2.1	&quot; I think there is also may be some lack of understanding here.	St
+1.2.2	The changes between PCI 2.1 and PCI 2.2 are very minor: www.pcisig.com/specifications/conventi..	St
+1.2.3	The main thing people have been making a big deal about is 4.3.4.1, were 3.3V is now required on a 2.2 slot.	St
+1.2.4	That has no contribution to the random lockup sort of problem.	St
+1.2.5	If the slot didn't have 3.3, the card wouldn't work *at all*.	St
+1.2.6	Very few motherboards with 2.1 compliance didn't hook up 3.3V to the slots.	St
+1.2.7	In fact, motherboards that were designed for 2.1 could almost always just say &quot;now we support 2.2&quot; with no work, since the spec changes were mostly for 64 bit concerns or clarifications.	St
+1.2.8	I think the comment by IQ179 about AMD motherboards not implementing a standard is kind of more lore than fact.	St
+1.2.9	There's really not anything you could do wrong implementation-wise that would cause these sort of hangs.	St
+1.2.10	There would be more generic problems with other PCI boards, or the boards would not work at all.&quot; http://www.pcisig.com/specifications/conventional/conventional_pci/2_2sum1215.pdf http://www.dslreports.com/forum/remark,9086546~mode=flat~days=120~start=100 If your machine does not hang on boot with that card, the real issue is likely to be zip-zero-noway-nohow support of Windows 95.	St
+1.2.11	In fact, the 200 to 512 byte leak on each socket open/close was NEVER resolved by Microsoft.	St
+1.2.12	Reference ... &quot;Windows 95 leaks about 200 bytes of main memory for each thread creation.	St
+1.2.13	Each connection in MySQL creates a new thread, so you shouldn't run mysqld for an extended time on Windows 95 if your server handles many connections!	St
+1.2.14	Other versions of Windows don't suffer from this bug.&quot; http://dev.mysql.com/doc/mysql/en/Windows_vs_Unix.html I don't expect any BIOS to solve your issues.	St
+1.2.15	Bob	St
+1.3.1	Using your: BIOS ID String: 01/16/98-I430TX-ALI5135-2A59ITJAC goto http://www.wimsbios.com and find the required match and then proceed to a support website.	St
+1.3.2	While you mention the &quot;orginal&quot; support is no longer online, some friendly website many have your bios update.	St
+1.3.3	Also, beware to properly follow update procedure and whenever, save you're old bios info as a possible safe bet.	St
+1.3.4	IMHO, if all this is too much, etc.	St
+1.3.5	and since you're trying to update an old system, please understand in the long run you maybe too far gone as older mtrbds.	St
+1.3.6	just don't cut it.	St
+1.3.7	The PCI2.1 complaintancy should be a build-in feature and not really a bios issue, other than what is possible.	St
+1.3.8	In other words, if it doesn't work even after a bios update, there is no cure, just get a newer mtrbd.. good luck -----Willy	St

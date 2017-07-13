@@ -1,0 +1,74 @@
+1.1.1	Hi, My 40G laptop HD has some bad sectors.	St
+1.1.2	By trial and error I have been able to isolate the bad area.	St
+1.1.3	I have partitioned off the good sector (25G) and left the bad part (15G) unallocated using XP's disk management tool and reinstalled XP on the 25GB partition.	St
+1.1.4	So far its working well.	St
+1.1.5	My question is will the bad part spill over to the good part over time and cause problem?	St
+1.1.6	Thanks in advance.	St
+1.2.1	NIL	St
+1.3.1	Don't think I've ever heard of a hard disk drive with that large a percent of the space bad If that were mine...I'd be looking to replace it ASAP.	St
+1.3.2	Did you test it with the nfgs diags ?	Ques
+1.3.3	Goof Luck	St
+1.4.1	Well, probably not.	St
+1.4.2	Here's what I did.	St
+1.4.3	I first tried to format the entire disk.	St
+1.4.4	XP stalled at the very start (no 1% even).	St
+1.4.5	So I created two partitions, 5GB and 35GB and tried to format the 35GB partition.	St
+1.4.6	XP stalled again at the very start.	St
+1.4.7	Then I did 10+30.	St
+1.4.8	same result.	St
+1.4.9	Then when I did 15+25, XP quickly showed 1%, and finished formatting the 25GB on time.	St
+1.4.10	Thats what I meant trial and error.	St
+1.4.11	I am not a geek and don't have the time to be.	St
+1.4.12	This how I do things .	St
+1.4.13	If I could do it better in a non-geeky way (without a third party SW, specially non-freeware) I would appreciate letting me know.	St
+1.4.14	Thanks	Polite
+1.5.1	The point is you got a &quot;failing HD&quot; even if it works, enjoy it while you can.	St
+1.5.2	The HD will sooner or later entirely fail.	St
+1.5.3	I belive you got &quot;soft errors&quot; or hard error in a certain spot(s) that's not good but confined.	St
+1.5.4	The point is, it just isn't good news.	St
+1.5.5	Prepare to replace the HD.	St
+1.5.6	Far too often a HD dies for one of these reasons, drops or heat damage.	St
+1.5.7	Physical drop of laptop(ouch!)	St
+1.5.8	or prolonged usage in hot(not well cooled) laptop, the HD actaully works for a time but drift starts to phase in and data becomes corrupted and/or the HD heads actually touch the media due to swelling/expansion of media.	St
+1.5.9	You may want to try Spinrite to correct or check into it, its about the best recovery HD s/w out ther for the price, if it doesn't work, then the HD is a goner for sure.	St
+1.5.10	Or save that Spinrite cost and apply to new HD.	St
+1.5.11	tada -----Willy	St
+1.6.1	Hi, It is almost impossible to have that many faulty sectors on a HD and still being able to use it.	St
+1.6.2	If it is working is is totally unreliable and I would replace it at once before you loose your data.	St
+1.6.3	If you know sombody who own's &quot;spinrite&quot; you could run that to see what's going on.	St
+1.6.4	If you have to buy spinrite, skip that and and spent the money on the new HD.	St
+1.6.5	Cheers, Joseph.	St
+1.7.1	I fully agree that the HDD is on its way to the big scrap bin in the sky - Incinerate it if you can, to destroy your personal data, or smash it flat with a heavy hammer.	St
+1.7.2	Spinrite has got to be the absolute best in surface recovery.	St
+1.7.3	If you don't know about it - it is a sort of non-destructive low-level formatter.	St
+1.7.4	It low-level formats, high-level formats, pattern tests and then, only if the sector passes all tests does it put the data back.	St
+1.7.5	If it fails, the data is transferred to a safe area on the HDD.	St
+1.7.6	I've revived loads of drives with it.	St
+1.7.7	Ideal for rejuvenating sectors Before they fail.	St
+1.7.8	It can also recover data.	St
+1.8.1	When using Win2000ProSp4 Always get back to same problem: At bootup, blackpage comes up with Win can not start because xxxx/missing files (name of file) But at each restart the name of missing file changes..	St
+1.8.2	Adds: you can repair this file usiing Win2000 CD-Rom.	St
+1.8.3	NOW is this Related to BAD SECTORS or is it simply a current bug with that OS?	St
+1.9.1	1.	St
+1.9.2	Run Scandisk-Thorough and see how many bad sectors are actually there.	St
+1.9.3	2.	St
+1.9.4	Go to Hdd's Mfg website and download an Hdd floppy that can check for same and might allow zero-fill.	St
+1.9.5	But that wipes the whole Hdd and you'd have to reinstall.	St
+1.9.6	As with SpinRite, I've recovered many bad sectors and more of Hdd that way, as the Hdd wasn't failing.	St
+1.9.7	The bad sectors got made by data hard errors and sudden power-off.	St
+1.10.1	Well, first i think you should download HD Tune from http://www.hdtune.com/ So you can throughly check your hard drive for problems and the SMART Status if your Hard Drive supports it.	Sug
+1.10.2	Bad Sectors do tend to spread over time.	St
+1.10.3	YOU CAN fix bad sectors if you really want to save your drive, and the software i recommend for that is HDD Regenerator @ http://www.dposoft.net/ however it is shareware but it can repair the first bad sector it finds.	St
+1.10.4	If you have alot of bad sectors like you think you might have then it probably can restore your drive back to good working form if you buy the software, or better yet buy a New Hard Drive as they are not expensive nowadays.	St
+1.11.1	Also worth checking using the drive manufacturers software becuase if it is new enough, they will replace it for free if their software says it is bad.	St
+1.11.2	Also, usually when you get a drive RMA'd, they don't make the same drive anymore, so it will usually be replaced with a larger faster better one.	St
+1.12.1	Hi, For whatever reason your disk has lost some clusters the same,aside from accident damage eg dropping,is likely to be ongoing.So the drive over a few months more use will prob get worse.	St
+1.12.2	Lost clusters are serious stuff since the os cannot read across them and a crash or freeze results.That crash usually means more data loss or software damage which in turn causes yet more probs.	St
+1.12.3	Even when clusters can be restored and got working or at least isolated they can still cause probs eg slow to read/write or the area has got to be skipped by the os,not good !.	St
+1.12.4	So on a drive of mine any bad clusters and the drive is from then on is suspect,back ups are taken quick.If they cannot be repaired or any more deteriation is suspected then the drive is scrapped and back ups applied to a new one.	St
+1.12.5	Best wishes Chris.	St
+1.13.1	I had a laptop hdd I was using in my old PC that would do this or lose the bootstrap from time to time, that drive failed about a month after I upgraded.	St
+1.13.2	I never found out why it did this but it only lasted 4 months, occuring more frequently as time passed, then no more HDD.	St
+1.13.3	HDDs really should be replaced as soon as errors appear as their engineering doesn't leave much time between the first error and a failure that will stop you retrieving your data.	St
+1.14.1	Go to the next Computer Fair, you will usually find someone with the proper software needed to isolate just the bad sectors, you most likely don't have 15 GB bad.	St
+1.14.2	But truthfully, the drive is going and you can lose everything, buy a new HD.	St

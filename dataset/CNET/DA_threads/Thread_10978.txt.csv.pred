@@ -1,0 +1,31 @@
+1.1.1	I posted this on a different forum and then came across the networking forum- any help would be appreciated thanks: &quot;I have two computers, and I use Linksys B wireless broadband router to connect Computer #2 to the internet from Computer #1.	St
+1.1.2	Comp #1 is my primary cpu and I do not use Comp #2 that often.	St
+1.1.3	I am going to be purchasing a new printer primarily for photos and will connect it to Comp #1 and take my old printer and use it with Comp #2.	St
+1.1.4	Now, Comp #2 is on a different level on the house.	St
+1.1.5	I plan on networking the two computers, so I can send a print job (documents etc.)	St
+1.1.6	to the comp #2 printer.	St
+1.1.7	Here is my question- is it possible to have the computer in power save mode and still send a print job to the computer?	St
+1.1.8	By sending a print job, will the computer wake up and then print??	St
+1.1.9	My printer turns on by itself when a print job is sent to the printer.	St
+1.1.10	Since I use Comp #2 very infrequently, I don't want to keep it on all the time- I would prefer to leave it on powersave mode.	St
+1.1.11	Is what I am suggesting on doing feasible???	St
+1.1.12	I've never really networked computers except for internet access so I am very naive in this area.	St
+1.1.13	Thanks for any help and suggestions!&quot;	Ques
+1.2.1	Unless the OS is running on the remote PC, it's not going to be able to respond automatically to a print command but I'm not sure what you mean by power saving mode.	St
+1.2.2	Anything like standby or hibernate is not going to work.	St
+1.2.3	It might be possible use a WOL (wake on LAN) scheme but these are rather tricky and, in my limited experience with them, a bit flaky too...that's the best I can describe these as I've only used them with NAS hardware.	St
+1.2.4	You can certainly just turn off the monitor and leave the PC running...perhaps even allow the HD to power down, but I have to wonder if another option might be just to use a network print server.	St
+1.2.5	The downside of these is finding compatibility between printer and server.	St
+1.2.6	They don't all work gracefully.	St
+1.2.7	But, if that's an option, you can leave the other PC off and it will still have access to the printer when you do turn it on.	St
+1.2.8	Good luck.	St
+1.3.1	By power saving mode, I really meant sleep mode.	St
+1.3.2	If this doesn't work, can I send a print job to the computer when it is off, or in sleep mode and then print it when I wake or turn the computer on?	St
+1.3.3	I am still not even sure how I network computers so I am probably jumping the gun here- but this is the reason why i want to network- so I would want to make sure it is possible before I go through the work of trying to figure out how to network.	St
+1.3.4	Thanks for your help!	St
+1.4.1	It may remain as a pending print job from the originating PC and keep trying but this might tie up other print processes.	St
+1.4.2	So, no, sending a print job to a sleeping PC isn't going to work.	St
+1.4.3	It needs to be on and ready to act as a print server.	St
+1.4.4	Again, a network type print server is another option but you need to check printer compatibility with these first.	St
+1.4.5	If you put together a network and want to share printers, having the printers on the network via servers (external or internal) is really the best way to go.	St
+1.4.6	BTW, you'd still need to have your printer turned on using the remote PC as a server and it would be consuming a small bit of power anyway.	St

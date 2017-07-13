@@ -1,0 +1,50 @@
+1.1.1	Greetings: After my #1 firewall router died recently, I bought a BEFVP41 so I could ''dial into'' (via VPN) my home LAN while on the road.	St
+1.1.2	Setting up the BEFVP41 at least *seemed* easy.	St
+1.1.3	Getting a XP client going was another story.	St
+1.1.4	Getting to see/ping/use network shares is the #1 problem now.	St
+1.1.5	The BEFVP41 only supports IPSec tunnels, which configuring under XP is a ROYAL PAIN, after scanning a number of forums about VPN's I decided on trying a ''VPN Client'' solution instead of using the built in but dreadfully painfull client support in XP.	St
+1.1.6	If you search HIGH and LOW about the internet, you may find ''SSHSentinel 1.3.2''.	St
+1.1.7	This VPN client is free for non-comercial use.	St
+1.1.8	It was easy to setup this client to connect to my BEFVP41.	St
+1.1.9	However, once setup it automaticly loads on system startup and reroutes all network traffic to the VPN (existing or not), thereby breaking network connections when you are not using a VPN.	St
+1.1.10	(I ended up uninstalling it as I'm %99 NON-VPN and might use VPN %1 of the time.)	St
+1.1.11	''Greenbow_VPN'' is another solution spoken about in many forums.	St
+1.1.12	This client was easy to setup to connect to my BEFVP41, however the public license is only for a ''30-60 day trial''.	St
+1.1.13	I uninstalled it.	St
+1.1.14	After much searching, I came across the ''Draytek'' VPN client.	St
+1.1.15	Written by Draytek in China for their brand of VPN routers, this client loads a device driver as part of its client solution.	St
+1.1.16	The driver comes up as another ''network connection'' under XP.	St
+1.1.17	The NICE part about all this is that the client program/driver will create network configuration changes ''on the fly'' thereby NOT breaking connections when the VPN is not in use.	St
+1.1.18	This was also easy to setup to connect to my BEFVP41.	St
+1.1.19	When the tunnel is active/connected, the client application will show a little ''green light'' indicator and the connection will not have a RED X ontop of it in the system tray.	St
+1.1.20	Pretty cool.	St
+1.1.21	So what does all this have to do with ''network shares over a VPN?''	St
+1.1.22	In all cases, while I was able to get the clients to work (connect) with my Linksys VPN router, I was unable to access the VPN Router or any of the network shares attached to it.	St
+1.1.23	I finally decided that my routing tables must not be setup correctly to route to&lt;=&gt;from my LAN addresses through the VPN tunnel.	St
+1.1.24	1.	St
+1.1.25	Client Address &lt;=&gt; Server Address 65.mylaptop &lt;=&gt; 66.mylan 2.	St
+1.1.26	Client Secure Group &lt;=&gt; Server Secure group 192.168.2.0 &lt;=&gt; 192.168.2.0 This dident work.	St
+1.1.27	I read somewhere that the LAN segments on both ends needed to be different.	St
+1.1.28	3.	St
+1.1.29	Client Secure Group &lt;=&gt; Server Secure group 192.168.4.0 &lt;=&gt; 192.168.2.0 This dident work ether.	St
+1.1.30	After much reading, I'm under the (miss)understanding that: A.	St
+1.1.31	The tunnel needs to have a different IP address scheme then ether of the LAN segments on ether end.	St
+1.1.32	B.	St
+1.1.33	The tunnel needs to have a different IP address scheme then the FQDN of ether end.	St
+1.1.34	C. I have to manually setup ROUTE's on each end to direct traffic through the tunnel.	St
+1.1.35	Client Address &lt;=&gt; Server Address 65.mylaptop &lt;=&gt; 66.mylan ClientSecureGroup (addr) &lt;=&gt; ServerSecuregroup (addr) 10.0.2.1 &lt;=&gt; 10.0.1.1 Client LAN Segment &lt;=&gt; Server LAN Segment 192.168.4.0 &lt;=&gt; 192.168.2.0 Client Side: Route add 192.168.2.0 255.255.255.0 10.0.1.1 &lt;serverend&gt; Route add 10.0.1.1 255.255.255.0 10.0.2.1 &lt;clientend&gt; Server Side (in VPN Router): Route add 192.168.4.0 255.255.255.0 10.0.0.2 &lt;clientend&gt; Route add 10.0.2.1 255.255.255.0 10.0.1.1 &lt;serverend&gt; I'll let you all know if this works.	St
+1.1.36	In the mean time I'm sure that the readers of this forum will show me the errors of my ways.... &lt;g&gt; mark.	St
+1.2.1	I have found www.logmein.com free and paid editions to be much easier to use for connecting remotely.	St
+1.2.2	The free edition is great.	St
+1.2.3	When using a BEFVP41 and VPN, I opted to use a software VPN on a server in the other LAN to get to network shares.	St
+1.2.4	Also, using two BEFVP41s to connect the two LANs together all of the time works well.	St
+1.2.5	Good luck.	St
+1.2.6	Jeff	St
+1.3.1	Greetings: A quick look at &quot;logmein&quot; appears to be a PAID service.	St
+1.3.2	Not what I was looking for at all or any HELP at all.	St
+1.3.3	(did not see any &quot;free &quot; options other than &quot;free trial&quot;=Not FREE.)	St
+1.3.4	I have a number of FREE VPN clients already and have a VPN router that I paid good $$ for.	St
+1.3.5	I'm connecting via: LAPTOP=&gt;CellPhone=&gt;Internet=&gt;BEFVP41=&gt;LAN	St
+1.4.1	If you've found that the CNET forums are lacking on help with more complicated configurations: &quot;Broadbandreports.com&quot; has forums for all the major network hardware manufacturers as well as most of the big ISP's.	St
+1.4.2	&quot;linksysinfo.com&quot; has a bunch of information for Linksys routers.	St
+1.4.3	Mark.	St

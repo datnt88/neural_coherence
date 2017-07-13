@@ -1,0 +1,109 @@
+1.1.1	Here's my problem: My internet connection keeps failing on me every 10mins.	St
+1.1.2	I'm still connected to my network but I can't access any sites at all unless I right-click and use the 'Repair' function.	St
+1.1.3	It started happening a couple of weeks ago and it's still happening even after I formatted my disk.	St
+1.1.4	There are other computers connected to this network and all of them seem to work properly.	St
+1.1.5	My laptop's connection is excellent when I use it on the same room and with the same wireless connection.	St
+1.1.6	I already tried using Microsoft's FixIt but it's still the same.	St
+1.1.7	Help, anyone?	St
+1.1.8	This is getting very annoying.	St
+1.2.1	While it could be malware, is the security and wifi settings like this forum's top posts?	St
+1.2.2	And let's try Grif's ideas at http://forums.cnet.com/7726-6122_102-5004482.html Bob	Sug
+1.3.1	I have had problems like this on the sad occasions that I tried to use a netbook to access my Apple home network running 802.11n.	St
+1.3.2	I could use my FIOS router but prefer the Apple managers constant monitoring and simplicity.	St
+1.3.3	I worked for 25 years in networking and so I know my answers are basic but first of all if the repair works then dumps you out it sounds like the network is revvoking your IP either at the SP or at the front end router that is unhappy with a physical channel you may be accidentally SHARING with another PC--when the other and you try to use that same channel collision occurs and its not dialing down to another WIFI channel--802.11g and n have channel numbers that can be hard assigned in your PC when you manage your front end router so I always allow the router to choose the channels not the PC to hard configure it..--its not likely you could get on for 10 minutes though without validation or DHCP ruinning again and then being admitted to the network and then for some reason you get the boot from the WLAN perhaps some security protocol decides you are not allowed--do you have any type of other IP protocols running on top of the WLAN??	St
+1.3.4	I could do a lot of guessing so let me just say what I would try....	St
+1.3.5	I would first connect the PC with an ethernet cable driectly to your front end router that is either you cable DSL or FIOS modem or the router that you used that fronts this router--such as an AIRPORT in a MAC network.	St
+1.3.6	his assure your basic DHCP stuff is working right and your network passwords were are correct (although going via wire you will not be participating in your wifi net).	St
+1.3.7	and eliminates a SP glitch on your PC causing the rejection If you keep getting bounced then your SP does not like this particular devices configuration and MAC address when it issues a DHCP request.....not likely but worth checking to be sure its not the basic network.	St
+1.3.8	Next if the PC works with ethernet then assure that your configurations are correct by comparing 2 or 3 of your other working PCs or MAcs.	St
+1.3.9	I doubt this could ever occur on a MAC network--which is all I use.	St
+1.3.10	The problem I had with an HP netbook not connecting was simply that it had stupid tabs that if not turned to the right position disabled WIFI USAGE!	St
+1.3.11	LOL!	St
+1.3.12	MAN STUPID!	St
+1.3.13	Anyway, when conparing PCs if you for some reason hard coded your 802.11g or 802.11n network channels be sure you are not using the same channel hard coded for 2 devices-_I would never hard code a channel but have put one on the high end on an interference problem from a microwave.	St
+1.3.14	And you may want to consider your location vs. others if you are at a far distance...	St
+1.3.15	Some times also if you have an extended WLAN with repeaters or other routers that are alaves to the master head end the PC can be hard coded to be served only by the remote node--For example I have an 80211.n head end and an 802.11g in office and when I am upstairs in bedroom I force my Remote slower 802.11g to serve my connection r rrather than having it go straight to the head end.	St
+1.3.16	This is often done via access control lists that only allow a specific router to service given MAC (not macintosh) addresses.	St
+1.3.17	This could be your problem if someone configured your router to explicitly serve each PC as it was added but forgot to add yours.	St
+1.3.18	Finally, I doubt you are using different encryption methods but you know there is WEP, WEP13l, WAP which is what you should likely be using etc., Turn off encryption until you resolve this issue as well.	St
+1.3.19	Finally, cannot hurt to be sure if you have 2 routers at front end they are not both configured for NAT/PAT which maps your local IP network to local IP numbers like 10l.0.0.1, 10.0.0.2 etc.	St
+1.3.20	if you have it one your PC needs to be given a NAT IP ADDRES AND THE FRONT END ROUTERS NEED TO BE SURE NOT TO RUN NAT TWICE---BUT then likely you would have more problems than just one PC going in the crapper every 10 minutes.	St
+1.3.21	Sorry this is not beter but there are at least 2 ideas hear that might help.	St
+1.3.22	Checking the Ethernet direct, checking the Topology of your WLAN if its a multinde to see if you are put on a remote router etc.and as ha he configurations for the wireless net are all similar and not conflicting on other PCs etc.	St
+1.3.23	That is all I got without a total explanation of the problem...you can also turn on the IP Monitor function on your PC closes or direct connected to the front end and watch what IP packet is killing your connection but that requires you to know the protocols and look up error code you are likely getting not sure what PC debug faclities they provide but Macintosh's have IP Monitor tools and network tools however almost all configuration errors on the WLAN are detected by the FINALLY FIXED configuration manager--sounds like Mac is again ahead of PC...my best advice switch to an all MAC network LOL.	St
+1.3.24	tired SO, I would start with testing over an ethernet wire direct to router-- then check all the IP addresses assigned to your working PCs or MACS.	St
+1.4.1	R. Proffitt, all of my definitions are according to the topics on the top of this board and I tried using all the Anti Spyware and Malware software you suggested.	St
+1.4.2	After running all the software in the thread you linked me to my internet connection actually got slower and my signal got weaker, after I ran it.	St
+1.4.3	As for PeachBlues, like I said, any computer in the same room as this one gets a stable internet connection.	St
+1.4.4	The IP problem could be a possibility, but then again, I did use Microsoft's FixIt, which should have fixed the IP problem, right?	St
+1.4.5	If my IP is hard coded, like you said it can be, how do I check it and how do I change it so that any possible IP interferences can stop occuring?	St
+1.4.6	Also, I'd like to note once more, I formatted my computer 2 days ago so all files are fresh new.	St
+1.4.7	I've only installed MS Office, NOD and all the drivers.	St
+1.4.8	Could the problem really be IP related or does it have another source?	St
+1.5.1	I've been running ipconfig /all on all computers I have in my house.	St
+1.5.2	All IPs are different.	St
+1.5.3	The only thing that's the same for every computer is the Deafult Gateway, DNS Servers, DHCP Server and Subnet Mask.	St
+1.5.4	Here's what I get after running ipconfig /all in this computer: Connection specific DNS suffix: home Description : Atheros AT5005GS Wireless Network Adapter Physical Address: 00-0E-2E-A0-4A-B6 DHCP Activated: Yes Autoconfig activated: Yes IP Address: 192.168.1.88 Subnet Mask: 255.255.255.0 Default Gateway: 192.168.1.1 DHCP Server: 192.168.1.1 DNS Servers: 192.168.1.1 Incase I haven't stated yet, I'm running on Windows XP SP3 and my modem is a Hitron Technologies Voice Wireless Gateway BVW-3653.	St
+1.6.1	I can't tell.	St
+1.6.2	Bob	St
+1.7.1	I have never encountered a poster who is so entitled and not willing to do the minimum research.	St
+1.7.2	I have told you to simply add an additional router to extend your wife network-this is discussed all over Apple forums and simple as can be--and Aiirport Extreme and an Airport Express to extend the endpoint out to the correct distance.	St
+1.7.3	You have not even stated if you have an 802.11g or n router nor indicated you even know the difference.	St
+1.7.4	You come on expecting people to specify a brand and tell you how it will fix your problem but have not even looked at the minimum details to determine what is wrong.	St
+1.7.5	You say absurd things that show not the minimum understanding of your network implying that REFORMATTING YOUR COMPUTER DISK-say what?	St
+1.7.6	Should fix your problems-I assume you mean restoring to a working version of your PC that you backed up to a simple external hard drivel.	St
+1.7.7	You say I told you to pay for an aplple computer for 900- I only said that an Apple would eliminate arguably the stupidest and least informative panel on networking that is made to date-the damn MSFT networking interfaccs-as an engineer they never told me a darn thing about what might be causing intermrittant failure-and you say it fails riight next to the wifi connection.	St
+1.7.8	Likely you have a losose or misconfigured wifi card or an incompatible configuration--why not simplyu copy over field for field the net settings from your working PCs-if that does not work than obviously its your PC that has the problem-worked before?	St
+1.7.9	Big deal means nothing.	St
+1.7.10	You insult my earnest attempt with a BLAH comment on my lengthy but obviously too much information for you.	St
+1.7.11	THe gentlemen Bob has been kind in telling you he needs details and I am not sure you have replied buit I doubt it and I am not willing to waste any time on a person who wants people to divine by ESP what the problem is.	St
+1.7.12	Call MSFT and ask for support--they are a WONDERFUL company for support--a joke of course.	St
+1.7.13	MSFT is garbage for network configuration-if I had problems with it with CCIE in networking in wireless than I don;t know why you think that I could possibly do anything but recommend simple fixes such as simply upgrading to 802.11n Even LINKSYS darn router-cheap but 802.11n ANY FREAKING ROUTER extends distance from like 300 feet to 900 feet;; Just look at the bars on the signal.	St
+1.7.14	You are also asking to fix a problem which is basic network config error--obviously reformatting the &quot;disk&quot; messed something up if ti worked before or it is simply not configuring the net passwords interface and head end router.	St
+1.7.15	It would be as simple as using WA2P instead of WEP 13-13 bytes time 8 bits is not 128 bits but 114.	St
+1.7.16	WEP basic is 5 bytes of 40 bits.	St
+1.7.17	I also told you to turn off encryption on al your PCs to eliminate encryption as a possible problem.	St
+1.7.18	I told you to assure you are not using the same channel on 802.11 which on any good router will allow you to select a channel 1 -32 for basic wifi so you can isolate a troublesome connection to move it to the highest channel away from other PC Wifi interfaces.	St
+1.7.19	I told you to try connecting via ethernet directly.	St
+1.7.20	I have not hear ANY effort from you to educate yourself on the MINIMUM of understanding basic wifi.	St
+1.7.21	Basically you are the worst type of entitled problem solver blaming people trying to help you for your own lack of providing a detailed parameter list of config for people who know more than I about PCs--hitting a damn repair button is the hight of the stupidity of MSFT desire to not teach you anything about how your net works.	St
+1.7.22	I will not reply to you again and told you a MAC airport extreme and extpress would work for about 200 bucks total.	St
+1.7.23	You want to go cheap get a Linksys for 80 bucks 802.11n--nada.	St
+1.7.24	Good luck trying to figure stuff out that you have not a clue on decribing.	St
+1.7.25	ANTENNAS to solve this--a total joke--i mean really.	St
+1.7.26	Who is your SP--call them they can probably debug this for you--get real man CNET is not a free service.	St
+1.7.27	the answers are.	St
+1.8.1	Try resetting your modem at the DSL or cable interface-or FIOS.	St
+1.8.2	then Power up your router beyond that if you have one.	St
+1.8.3	Again make sure that you do not have NAT enabled tiwce if you have another router after the DSL cable router.	St
+1.8.4	Auto-config?	St
+1.8.5	Well fine if it works but maybe trying manual might be smart.	St
+1.8.6	I do not see that this info tells you much other than you know your cable or DSL IPS for gateway and DHCP server.	St
+1.8.7	Try reneiwing DHCP on all your PCs especially the one with problem.	St
+1.8.8	IF all configured the same in same room there is obviously a problem with your PCs network configuration- You do not list the name of your WLAN, the type of password, WEP5 WEP 13 (yes it is called 128 bytes and very easy to goon the password so be sure to show the password when you type it in to be sure its the correct one--very easy to make a 1 byte mistake--you obviously configure an ASCIII PASSWORD for WEP13 like JonDoePassword.	St
+1.8.9	For WEP5 JIMBO.	St
+1.8.10	For WAP2 you can use any length like JonDoe.	St
+1.8.11	But you n eed to be sure to configure it for the head end router and your PCs.	St
+1.8.12	The problem is do you have access to the head end router--that is do you read out the configuration of the DSL/Cable modem or do you have a head end after your cablleDSL.	St
+1.8.13	It might seem stupid but I prefer to have.	St
+1.8.14	The info you provided is a start but it does not tell the configuration of the router and does not say if all the PCs are on the list--it could be a DHCP fail that works for a time but disconnects it--some nwtowrks are wierd and decide for some reason to disconnect a PC that is sending something it does not like---like if it does not like the MAC address or some simple param got gooned when you formatted the &quot;DRIVE&quot; of your PC.	St
+1.8.15	You also did not indicate you did a full re-install of all the winblows SW. Are you running multi[le varaiants of WINDOWs.	St
+1.8.16	I hate PCs and find they provide little if any help on WIFI--they are set up to have an enterprise support guy for problems.	St
+1.8.17	There are countless halp pages you could be reading and figure this out quickly as they tell you what to look for you but you want the answers handed to you and continue to gripe about lack of specific equipment-blame people trying to h help you.	St
+1.8.18	ITs likely the simplest stupidest thing imagineable and a plug and playu item that is anything but--MSFT is just not plug and play equipment- Im a PC---say no more--Priveleged Character.	St
+1.8.19	If you went on an Apple forum with the info asking for help and griped at your responders like this I think you would have gotten no help after your first few replies.	St
+1.8.20	Wish you good luck.	St
+1.8.21	I understand how frustrating a stupid problem like this is but on MSFT--I am not an APPLE EMPLOYEE but found them 10 time s easier and have had zero problems configuring and fixing wifi issues on MAC nets for over 5 years..they have it all plug and play and idiot proof.	St
+1.8.22	What can I say.. you can use MAC routers and a PC will work with it.	St
+1.8.23	Sorry if you find my &quot;tough love&quot; approach insulting but go on the help forums and READ--its something simple right in front of your nodes.	St
+1.8.24	Set up with ehernet and NO encryption........if it works for that then go one step at a time and eventually you willl reach the falure point.	St
+1.8.25	Probablly the most basic interface to the network.	St
+1.8.26	Finally you indicate that you are using global IP addressing.	St
+1.8.27	As you add more and more PCs tp your local subnet running NAT/PAt is recommended as you may simply be using more than your alloable IP addressee that are configured globallh rather than tranlated--sorry thats all I got-gtood luck and when you do get it working please post what was wrong as I will bet something simple but usefull to otthers.	St
+1.8.28	Hasta La vista baby!	St
+1.9.1	That seems to be an odd modem---why a modem---you should have a wifi router and a wifi interface NIC....voice wireless gateway?	St
+1.9.2	Maybe if you are running voice applications mixed with data but why for a PC that you just want WLAN interrace connectiviity--is this on your PC?	St
+1.9.3	A modem--who runs a modem?	St
+1.9.4	You need your WIC/NIC cards to assure 802.11t o4 n= modem should not be involved unless you are running dial up?	St
+1.9.5	ON high speed wifi?	St
+1.9.6	Confusing the crap out of me...	St

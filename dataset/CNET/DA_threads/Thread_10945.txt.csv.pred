@@ -1,0 +1,18 @@
+1.1.1	I have a ASUS P4P800-SE motherboard and serial ATA hard drive.	St
+1.1.2	How would I hook up an extra IDE drive up to the motherboard to use it as a slave and or to transfer the files off of it.	St
+1.1.3	ASUS P4P800-SE motherboard prescott 3200 Processor windows XP pro	St
+1.2.1	if you are booting from the SATA, set the boot order to represent that drive first.	St
+1.2.2	Attach the IDE drive to an available port (Single or CS will do), and XP should assign a drive letter.	St
+1.3.1	I tried that a while back and it no longer could see my operating system on the serial ata drive and would not boot.	St
+1.3.2	I will try it again.	Sug
+1.3.3	When you say &quot;(Single or CS will do)&quot; I set mine to slave is that ok?	St
+1.4.1	where the OS is stored.	St
+1.4.2	All other interfaces (IDE, USB, Network) can follow.	St
+1.4.3	A lone drive on an IDE channel should be set as suggested.	St
+1.5.1	I must not have set up the sata right as now when I hook a ide up to use as a slave the computer will not boot.	St
+1.5.2	When I look in the bios it says the sata is the 4th primary Am I missing somthing?	St
+1.5.3	The jumpers on the hard drive are set to use it as a slave	St
+1.6.1	do not use Master/Slave configurations.	St
+1.6.2	Only one drive per channel.	St
+1.6.3	Move your SATA up to the first boot position.	St
+1.6.4	In most default scenarios, your system Bios will look for an IDE device first, this needs to be changed.	St

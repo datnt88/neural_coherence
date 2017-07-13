@@ -1,0 +1,65 @@
+1.1.1	I got two laptops running XPHome (computer A and computer B) I got COmputer A hooked up to the routher with an ethernet cable, and Computer B is wireless.	St
+1.1.2	They both got internet connection just fine..	St
+1.1.3	I ran the Create small home network wizard on both computers just as the instructions tell me...(the ones in weekend project) The problem is that in Computer B when i go to My Network Places and click on view my Workgroup Computers i get this message: Home( which is my workgroup name) is not accesible.	St
+1.1.4	You might not have permission to use this network resource.	St
+1.1.5	Contact the administrator of this server to find out if you have access permissions.	St
+1.1.6	The list of servers of this workgroup is currently unavailable.	St
+1.1.7	Also when i try to add my shared printer to Computer B i cant find it, it wont even find my workgroup... so when I go to Computer A, i click on View workgroup computers, I can see them both there, but..if i try to click on Computer B i get this message: You might not have permission to use this network resource.	St
+1.1.8	Contact the administrator of this server to find out if you have access permissions.	St
+1.1.9	network path was not found I followed the exact instructions so I dont know wats goin on, maybe cuz is XPHome and not XPpro... (my printer is connected to COmputer A, so i dont need to add it, but if i got add printer and look in network i do see my workgroup there, is only in Computer B where is not finding my workgroup)	St
+1.2.1	be shared?	St
+1.2.2	And what about those firewalls?	St
+1.3.1	The problem could lay on the fact that you need user accounts set in both computers.	St
+1.3.2	This is for networking Authentication reasons.	St
+1.3.3	Try this: Go to computer A and set up a user.	St
+1.3.4	To do this go to Control Panel and select User Accounts and then Create a new user.	St
+1.3.5	The user name being &lt;xxxx&gt; and password being &lt;yyyy&gt;.	St
+1.3.6	Then go to computer B and repeat the same step as in computer A.	St
+1.3.7	The user name and password must be the same in both computers, so be carefull so you dont mistype it.	St
+1.3.8	After this has been completed restart both computers and try to connect to each other through windows explorer.	St
+1.3.9	Remember the Workgroup name should be the same in both computers.	St
+1.3.10	Let me know if it works or if you have any other problems.	St
+1.3.11	//X-tra TIP: Make sure all the firewalls are turned off even Microsoft firewall.	St
+1.3.12	Once you have achieved a connection then you can troubleshoot the firewalls if there are any problems.	St
+1.3.13	//More Tips at: //pacific_link@gmail.com End Sub	St
+1.4.1	I did exactly as you said.	St
+1.4.2	And i still get the same message.	St
+1.4.3	The firewalls are turned off on both laptops... the Workgroup name is HOME on both computers but from Computer A for some reason it says Home is not accessible.. thanks for helping me	St
+1.5.1	I had the same problem.	St
+1.5.2	I finally disabled Norton Internet Security and then I could access either computer.	St
+1.5.3	I then changed the settings in Personal Firewall to allow for the local Ports and Subports and everything worked fine and my Internet Security is turned back on.	St
+1.5.4	Hope this helps.	St
+1.6.1	The issue with the printer seems similar to what I experienced when I added my new laptop to my wireless network.	St
+1.6.2	It couldn't find the printer connected to the desktop even though sharing was enabled.	St
+1.6.3	Finally, I just typed the printer's network path into the box in the ''install new printer'' wizard instead of trying to browse for it (ex: \\DELL\Epsonsty) and it worked.	St
+1.6.4	There were also a couple of other network resources I had to enter the path for instead of browsing.	St
+1.6.5	I have no idea why.	St
+1.6.6	This may have nothing to do with your problem, and I'm not awake enough to address the bigger network access issue, but it may prove useful to you or to someone following this post who has similar issues.	St
+1.6.7	Christa	St
+1.7.1	Okay, I just went to the Dell desktop and tried to browse the network and got the same error message that you did, even though all the network resources (which are on or connected to the desktop only) are still accessible.	St
+1.7.2	So I guess now I'll sit back and watch this thread along with you.	St
+1.7.3	Christa	St
+1.8.1	I had a desktop and a wireless laptop on my network both running xp pro and had a perfect inter connection for a long time, even other wireless / wired laptops (XP Homes) could see and browse the network.	St
+1.8.2	Then one fine day I started getting the same problem as you had, ( I guess I messed up with some settings ) my laptop couldnt acsess the desktop though the desktop could acsess the laptop.	St
+1.8.3	I couldnt solve the problem and lived wth it.	St
+1.8.4	(its easy... just drop files from pc A to pc B, because pc A can see pc B and not viceversa) Then one day I decided to try linux on my desktop and installed FC4 linux and removed windows.... but after a couple of months I realised that I couldnt live with linux (I am not a techie, I am a MD )so I reinstalled XP pro again on my desktop and to my surprise the home network worked perfect as it always had.	St
+1.8.5	What I am trying to suggest is if you have the time and are desparate to have a network, do what I did (even though there must be a much much simpler way!!	St
+1.8.6	)back up, format your hard drive, and reinstall windows xp!!	St
+1.8.7	I cant assure this will work but it did for me.	St
+1.8.8	Besides reinstalling windows will make your pc like a new one that works as fast as it did the day you bought it!	St
+1.9.1	http://www.security-forums.com/ I have found several answers to problems on this site in the past.	St
+1.9.2	Maybe it will help all of you.	St
+1.10.1	yeah i know wat u mean, i have try just typin the printers path but nope it wont find it... and Computer A sees computer B but when i try to get on Computer from Computer A it wont let me access it.	St
+1.10.2	Computer just doenst even see Computer A i can live wit this problem but it would be nice to have my lil network at home.	St
+1.10.3	thanks for ur help	Polite
+1.11.1	yeah it would be nice to install windows again but.. Computer A is not mine and it has a bunch of accounts and Computer B is brand new.. thanks for ur help.	Polite
+1.12.1	ill go check it out!	Sug
+1.13.1	i went into Computer B and disabled Norton and that was it, now i gotta figure out how to configure Norton to let me access the computer cuz when Norton is on again it wont let me access it.	St
+1.13.2	Thanks a lot for the help.	St
+1.14.1	Hi there, I dont think setting up user names and passwords really matter, the network and workgroups you created are standards with xp for connection purposes only.	St
+1.14.2	i.e shared internet.	St
+1.14.3	If you want to acces files to and from different machines be they wireless or not, you have to share the folders, then right click your LAN icon / open network connections right click then open properties.	St
+1.14.4	Now you should see the name of your ethernet card and the services its running / allows.	St
+1.14.5	click install / protocols choose TCP IP version 6.	St
+1.14.6	You can also istall services Qos packet shedule.	St
+1.14.7	You should be good to go now.	St

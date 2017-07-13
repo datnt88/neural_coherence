@@ -1,0 +1,14 @@
+1.1.1	i am running 2 320 gb sata hardrives in a raid(not sure which raid it is i just kno that it shows the system one big disc consisting of 640gb).	St
+1.1.2	I want to add a new drive to my system ( a 1tb sata).	St
+1.1.3	Can i add this to the raid?	St
+1.1.4	how do i do this?	St
+1.2.1	Where is that?	St
+1.2.2	Give a link please.	St
+1.3.1	most likely your 320gb drives are striped (raid-0) into a single device.	St
+1.3.2	if so, you'd have to backup/restore the entire device since any changes will reinitialize (erase) the existing drives.	St
+1.3.3	also, most raid-0 implementations require drives of the same size or they will only use the size of the smallest drive.	St
+1.3.4	so adding a 1tb drive would result in a 900+gb raid device with 600+gb inaccessible on the 1tb drive.	St
+1.3.5	intel's matrix raid would allow you to access the 'leftover' space.	St
+1.3.6	if you're using JBOD, then you could add the 1tb drive but the question would be 'why'?	St
+1.3.7	it would offer no performance benefit and unless you've filled the existing drives it wouldn't be used.	St
+1.3.8	you'd be better off using the 1tb drive seperately and doing some spindle management (moving apps/data to different drives to avoid contention).	St

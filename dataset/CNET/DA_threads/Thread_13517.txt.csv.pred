@@ -1,0 +1,45 @@
+1.1.1	I have been trying for the last 2 weeks to get a VPN server going behind a router (linksys WRT100).	St
+1.1.2	The router is connected to a cable modem which is fed by comcast.	St
+1.1.3	I have signed up with no-ip.org to deal with the dynamic IP issue, and I can indeed ping my domain from anywhere and it resolved correctly to the IP I have from Comcast.	St
+1.1.4	Behind the router I have a Win 2003 Server R2, which is configured as a remote access server.	St
+1.1.5	Indeed, I can use my laptop connected to the router via WiFi to initiate and set up a VPN connection to the server.	St
+1.1.6	So, the server should be OK. As soon as I try this from outside, I can't get it to work.	St
+1.1.7	My Vista laptop tells me that it found the domain and then that it is verifying user name and password.	St
+1.1.8	After a couple of minutes I get a message that the connection could not be established.	St
+1.1.9	No error numbers.	St
+1.1.10	Given the fact that I CAN do that behind the router, it looks like the requests are not reaching the server.	St
+1.1.11	Comcast told me that they are not blocking any ports, so the problem seems to be the router.	St
+1.1.12	I have followed all description on how to set this up (put the server in DMZ, enable VPN passthrough, forward ports, etc., but no luck.	St
+1.1.13	Anybody out there who has seen this and could provide some input?	St
+1.1.14	Thanks.	St
+1.2.1	Also, testing this is a nightmare.	St
+1.2.2	To change the settings on any of the devices I have to physically be there, but for testing I have to go outside of my network, which essentially requires me to drive to some place that has wifi.	St
+1.2.3	and then back if I need to change something on a device, and then out again to test it....	St
+1.2.4	Does anybody know of a better way to test this?	St
+1.2.5	Finally, is there a log file somewhere on my laptop or the server that I could inspect for more clues about this problem?	Ques
+1.2.6	Thanks.	St
+1.2.7	Thanks	Polite
+1.3.1	Depends what you mean by VPN.	St
+1.3.2	If you are building something like a IPSEC tunnel between your remote PC and your server and then are using that network to access resources it should work.	St
+1.3.3	If you are just tring to use remote desktop from a remote location it may or may not work.	St
+1.3.4	Some of these applications will not tolerate the NAT of the addresses and some ISP block some of the mircosoft networking ports.	St
+1.3.5	Mostly to prevent accidental sharing of drives by stupid people.	St
+1.3.6	The best way to do this is to buy a router that has VPN support in and build your tunnels between the router and the remote client.	Sug
+1.3.7	The router handles the issues and your remote PC appears to be on the inside network.	St
+1.3.8	To a point you can test by faking the wan port.	St
+1.3.9	Since your router's wan port is etherent you can just directly plug your remote PC into with a cable.	St
+1.3.10	You of course will have to use all static IP address on both your router wan and remote PC.	St
+1.3.11	If you cannot just use IP to test you will have to use the HOST table for name resolution since your router will be disconnected from the internet.	St
+1.3.12	This is only good for the most basic testing but that appears to be at the state you are at.	St
+1.3.13	You can also run wireshark on the remote and server to see what it going on.	St
+1.3.14	It takes quite a bit of skill to understand this tool but most people can tell if they are getting no packets at all.	St
+1.4.1	Thanks.	St
+1.4.2	Ill check out wireshark.	Sug
+1.4.3	My goal is to set up a server that a few people can share to exchange files and information.	St
+1.4.4	I envision a bit down the road to use a file server and perhaps an application server.	St
+1.4.5	But in order for the people to connect securely, they would have to sign into a domain server and to set up a VPN connection to that server.	St
+1.4.6	By the way, A friend of mine has set this up and it works for him (also with comcast).	St
+1.4.7	I have tried to duplicate his setup, and the only differences really are the hardware the server runs on, and the router.	St
+1.4.8	We have tried together to figure out why his setup works and mine doesn't, but we have not found anything obvious.	St
+1.4.9	In essence, that takes out the cable company and the cable modem (works on another setup), as well as my laptop and the server itself (can setup VPN connection behind the router) as culprits.	St
+1.4.10	I was hoping that someone here might have had similar problems with the WRT100 and can shed some light on it.	St

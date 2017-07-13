@@ -1,0 +1,50 @@
+1.1.1	I have an old 80GB hard drive with loads of old files on is there anyway I can access my private files from it?	St
+1.1.2	I still have my password for the user account that owned them...	St
+1.2.1	EFS required you backup the certificates.	St
+1.2.2	If not, the company at http://www.lostpassword.com has a cheap solution.	St
+1.2.3	Bob	St
+1.3.1	i have the certs and the SAM file i think..now what should I do?	St
+1.4.1	&quot;Restoring your EFS Private Key If you lose your Encrypting File System (EFS) private key (for example, your computer installation is destroyed, or you have reformatted), a designated EFS recovery agent must restore the files.	St
+1.4.2	The designated recovery agent uses his or her EFS recovery agent private key to decrypt the files so they can be recovered.	St
+1.4.3	To Restore the Designated Recovery Agent's EFS Private Key on Another Windows 2000 or Windows XP Installation: 1.	St
+1.4.4	Log on to your computer using the local Administrator account, or an account that is a designated EFS recovery agent.	St
+1.4.5	2.	St
+1.4.6	Browse to the path and file name of the .pfx file to which you exported the EFS recovery agent's private key, and then right-click the file.	St
+1.4.7	3.	St
+1.4.8	Click Install PFX to start the Certificate Import wizard.	St
+1.4.9	4.	St
+1.4.10	Click Next and confirm the file location and name.	St
+1.4.11	5.	St
+1.4.12	Click Next.	St
+1.4.13	Type the password for the private key, and then click Next.	St
+1.4.14	6.	St
+1.4.15	Click Place all certificates in the following store, and then click Browse.	St
+1.4.16	7.	St
+1.4.17	Click Personal, and then click OK .	St
+1.4.18	8.	St
+1.4.19	Click Finish, click Yes to add the certificate, and then click OK. After you successfully import the certificate, you should be able to use the local Administrator account or the recovery agent account to decrypt the files on the computer that failed.	St
+1.4.20	To confirm this, open one of the encrypted files (it should be accessible).	St
+1.4.21	If you want to make the file accessible to a new user or the original user, you must decrypt the file by removing the advanced properties encryption attribute.	St
+1.4.22	The new user can then re-encrypt the files using the new private key.	St
+1.4.23	The following is the list of standard practices: # Encrypt the &quot;My Documents&quot; folder for all users (User_profile\My Documents).	St
+1.4.24	This will ensure that the personal folder, where most Office documents are stored, will be encrypted by default.	St
+1.4.25	# Encrypt the %Temp% folder, as programs will create copies of encrypted files to work on here.	St
+1.4.26	These copies are unencrypted and can still be retrieved after they have been deleted, with the necessary tools.	St
+1.4.27	# Teach users to never encrypt individual files, but only folders.	St
+1.4.28	Programs work on files in various ways.	St
+1.4.29	Encrypting files consistently at the folder level will ensure that files do not get decrypted unexpectedly.	St
+1.4.30	# The private keys associated with recovery certificates are extremely sensitive.	St
+1.4.31	They should be generated either on a computer that is physically secured, or their certificates should be completely exported to a PFX file, protected under a strong password, and stored on a secure floppy disk.	St
+1.4.32	# Recovery agent certificates should be assigned to special recovery agent accounts that are not used for any other purpose.	St
+1.4.33	# Do not destroy recovery certificates or private keys when recovery agents are changed (which should occur periodically).	Sug
+1.4.34	Keep all of them, until all files that may have been encrypted with them are updated.	St
+1.4.35	# Designate two or more recovery agent accounts per Organizational Unit (OU), depending on the size of the OU.	St
+1.4.36	Designate two or more computer for recovery, one for each designated recovery agent account, and give permissions to appropriate administrators to use the recovery agent accounts.	St
+1.4.37	# Implement a recovery agent archive program to ensure that encrypted files can be recovered using obsolete recover keys.	St
+1.4.38	Recovery certificates and private keys must be exported and stored in a controlled and secure manner.	St
+1.4.39	Ideally, as with all secure data, archives should be stored in a controlled access vault and you should have two archives: a master and a backup.	St
+1.4.40	The master is kept on-site, while the backup is located in a secure off-site location.	St
+1.4.41	# Avoid using print spool files in your print server architecture, or ensure that print spool files get generated in an encrypted folder.	St
+1.4.42	# The Encryting File System does take some CPU overhead every time a user encrypts and decrypts a file.	St
+1.4.43	Plan servers wisely on a server where many clients will be using EFS.	St
+1.4.44	For more information, please see the following articles: How to Encrypt Data Using EFS in Windows 2000 HOW TO: Back Up Your Encrypting File System Private Key HOW TO: Restore an Encrypting File System Private Key for Encrypted Data Recovery Best Practices for Encrypting File System Transferring Encrypted Files That Need To Be Recovered FAT32 vs NTFS&quot;	St

@@ -1,0 +1,52 @@
+1.1.1	200 MHz P55C Intel Pentium MMX CPU, 64Mb SIMM 72pin EDO RAM, Asus SP97-V motherboard,Win98se OS, 245watt AT power supply, 2 Western Digital 2.5Gb & 8Gb(8Gb partitioned into 4 logic drives) hard drives, Sony CDROM drive, AT mini-tower case, 5.25 & 3.5 floppy drives, ISA modem, PCI S3 Stealth V64 video card, and a ISA SB16 sound card.	St
+1.1.2	Put this system together by parting out of 3 win95 based computers.	St
+1.1.3	System will be used for retro games, Office 97 applications, out-going email, and faxing.	St
+1.1.4	I have the system running stable, that means restarts from win98 shut down menu cause freeze on shut down screen and soft boot during startup(pre windows loading) cause freeze.	St
+1.1.5	I configured the hard drives to be on the same primary IDE cable, 0 as master, 1 as slave, and put the CDROM on its own secondary cable as a slave.	St
+1.1.6	The system would boot showing the drives as present and working on the next boot the slave drive failed to be recognized.	St
+1.1.7	The pattern was hard drives okay, good boot, and the next boot, bad boot, un-recognized slave drive with reduced computer speed.	St
+1.1.8	I re-configured the CDROM to be on the same primary IDE cable as the master hard drive, and put the slave drive on its own secondary cable.	St
+1.1.9	The boot with un-recognized slave hard drive went away and the system is stable.	St
+1.1.10	What is going on here?	St
+1.1.11	Why cant I get a stable system with the hard drives located on the same IDE cable?	St
+1.2.1	1.	St
+1.2.2	This was a known issue with some older systems.	St
+1.2.3	The cause was most commonly tracked down to a BIOS issue.	St
+1.2.4	See if you can find if it has been updated.	St
+1.2.5	2.	St
+1.2.6	Another trick I use is to use 80 conductor cables and follow the jumper rules to the letter.	St
+1.2.7	There are some that will try non-standard jumpering ideas but I leave them to experiment.	St
+1.2.8	Bob	St
+1.3.1	I will check on the BIOS version and update if I need to.	Sug
+1.3.2	I will try the 80 wire cable.	Sug
+1.3.3	Is this a fix?	St
+1.3.4	On top of the WD 8Gb drive (jumpered as slave) there is a note about if used with a 2Gb drive a special jumper settings maybe needed and the diagram shows an additional jumper placed on the pins beside the slave pins.	St
+1.3.5	Ill get the drive model numbers and see if WD has any info on this.	St
+1.4.1	Get rid of Windows 98 - unless your that nostalgic.	St
+1.4.2	Worn-out W98 installation CDs will cause this because you never get a clean reinstall.	St
+1.4.3	The exact same thing happened to me.	St
+1.4.4	Also, reconfigure your jumpers to original setups.	St
+1.4.5	Just how old is that CPU?	St
+1.5.1	I have resolved the problem,thanks to you.	St
+1.5.2	I decided to use an 80 wire cable instead of the 40 wire IDE cable, as you indicated.	St
+1.5.3	When I pulled the drives out I found a black jumper (not visible while drive was in computer) as well as the white jumper I installed to set the drive to master.	St
+1.5.4	The additional jumper must have been from previous installation of the drive in another computer where the alternate jumper setting was needed.	St
+1.5.5	I pulled the jumper off and re-installed the drives using the 80 wire IDE cable.	St
+1.5.6	The drives are working fine now and seem quieter.	St
+1.6.1	You gotta say it or the magic won't stick.	St
+1.6.2	Thanks for the report back and best of continued self made luck.	St
+1.6.3	Bob	St
+1.7.1	Well it shipped with Win95 & Win3.1 drivers.	St
+1.7.2	My guess is 1997 date of manufacture.	St
+1.7.3	It was a Win95 system when I got it(donated as a pen2, later learned it was a pen MMX).	St
+1.7.4	I put in a used drive, just to see if the system worked at all.	St
+1.7.5	5 years later, fix or part out time.	St
+1.7.6	So Im rebuilding it as Retro System.	St
+1.7.7	I couldnt get a stable system with the additional drive in the location I wanted.	St
+1.7.8	I pulled the drives out I found a black jumper (not visible while drive was in computer) as well as the white jumper I installed to set the drive to master.	St
+1.7.9	I decided to use the 80 wire cable because I wanted to see if it would work.	St
+1.7.10	I pulled the jumper off and re-installed the drives using the 80 wire IDE cable.	St
+1.7.11	The drives are working fine now and seem quieter.	St
+1.7.12	The system is stable.	St
+1.7.13	As to the use of win98se, I cant install ME because the CPU is below 250 MHz.	St
+1.7.14	I have a Linux live CD I will try, but if you can think of another OS please feel free to post.	St

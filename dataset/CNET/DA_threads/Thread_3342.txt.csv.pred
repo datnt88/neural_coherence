@@ -1,0 +1,32 @@
+1.1.1	I'm looking to implement a single proxy server for two different VLANs.	St
+1.1.2	Both VLAN have outgoing traffic configured through different ISP i.e.	St
+1.1.3	traffic for users on VLAN1 is routed through ISP1 and traffic for users on VLAN2 is routed through ISP2.	St
+1.1.4	Inter-VLAN communication is enabled.	St
+1.1.5	The proxy server should route internet traffic for users in VLAN1 through ISP1 and for users in VLAN2 traffic should be routed through ISP2.	St
+1.1.6	Is this setup possible?	St
+1.1.7	If yes, how?	St
+1.2.1	Because all I would ever need to do is set the default gateway for each LAN.	St
+1.2.2	I've seen this discussion before and maybe you didn't detail enough to show why a proxy is needed.	St
+1.2.3	But for now, it's a bit simple.	St
+1.2.4	Just a common IP setting.	St
+1.2.5	Your new networker tends to use a proxy where none is required.	St
+1.2.6	Bob	St
+1.3.1	Bob, Thanks for your response.	St
+1.3.2	Can you please elaborate more on this.	Sug
+1.3.3	What do you mean by common IP setting?	Ques
+1.3.4	The two VLAN are different subnets and their internet traffic is routed through different WAN networks (ISP).	St
+1.3.5	What hardware/software/TCP-IP configurations does this require?	St
+1.3.6	How can we configure the proxy server to route traffic from different VLAN to different gateways?	St
+1.4.1	I wrote the basic entry and with that I told it all.	St
+1.4.2	Your goal here is unclear as everything seems to be up and running.	St
+1.4.3	A router may do what you want, but I see no reason given for a proxy server.	St
+1.4.4	Bob	St
+1.5.1	-&gt; http://en.wikipedia.org/wiki/Proxy_server Your question sounds more like something I do with routing.	St
+1.6.1	My goal is to use proxy server is for content filtering.	St
+1.6.2	Also i do not want to procure hardware separately for different subnets.	St
+1.6.3	That makes me to think of configuring a single proxy server for different VLAN.	St
+1.7.1	Hardware is cheap.	St
+1.7.2	IT staff is expensive.	St
+1.7.3	A first cut at this would be some box with enough ethernet ports for the job and running the proxy servers in their own virtual machines on say Linux.	St
+1.7.4	At no time would we connect the LANs to each other because of the havoc that would ensue with DHCP.	St
+1.7.5	Bob	St

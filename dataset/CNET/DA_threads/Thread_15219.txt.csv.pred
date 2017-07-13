@@ -1,0 +1,85 @@
+1.1.1	I just got a second monitor, plug and play worked and was fine even though my main (laptop) was 1280 x 800 and the second screen is 1024 x 768.	St
+1.1.2	It went to sleep.	St
+1.1.3	I woke up my laptop, and both screens showed the waking up loading windows, then the second screen went black.	St
+1.1.4	Before, it still let me use the second screen even though I couldn't see anything, now I can't extend to the second screen through display settings.	St
+1.1.5	If I try now, the laptop seems to get set to the lowest display settings possible, and the second screen stays dark.	St
+1.1.6	Help?	St
+1.2.1	When this happens to me, it's always the drivers.	St
+1.2.2	Since it's a laptop your choices are limited but make sure you make a warranty claim if they don't support it by some driver on their web site.	St
+1.3.1	i just restarted my computer with the monitor unplugged, plugged it back in after it was started, and now the second monitor works fine again.	St
+1.3.2	But I feel like as soon as it falls asleep and I try to wake it up, it's going to not want to wake up again.	St
+1.3.3	So it's not that it's not supported I think, since it does work, but it doesn't wake up after falling asleep.	St
+1.3.4	I've seen other forum posts like this but there weren't answers to those either.	St
+1.4.1	Laptops (which you didn't give make or model) are proprietary.	St
+1.4.2	You can make this a warranty claim now.	St
+1.4.3	I have no answers since there is so little to work with in your post.	St
+1.4.4	Thus I only can share what it was for me, most of the time.	St
+1.4.5	Bob	St
+1.5.1	I have a gateway MT6840, and it says the display adapter is 945gm express chipset family.	St
+1.5.2	When the laptop went to sleep, the second monitor could turn on again, but when it hibernated, the second monitor stayed off, but was still there, ie I could move my mouse onto it, as well as other windows.	St
+1.5.3	Thanks for your help.	Polite
+1.5.4	Also, I'm out of warranty since I got it over a year ago.	St
+1.6.1	I'm always wondering why people leave out the make, model in posts.	St
+1.6.2	Why is that.	St
+1.6.3	-&gt; But tell me what date driver you are using.	St
+1.6.4	I see the drivers at http://www.intel.com/support/chipsets/sb/CS-022034.htm and the date looks to be 2/15/2008.	St
+1.6.5	Again, for completeness I'll install the latest chipset and graphics drivers when I see this issue.	St
+1.6.6	Your posts never revealed if you did that.	St
+1.6.7	Bob	St
+1.7.1	So I tried downloading the driver update (from 6/28/2008) from the intel site for my computer, Windows Vista Home Premium 32bit edition.	St
+1.7.2	The first page of the installer said the drivers the installer updated, and the 945GM Express Chipset family was included on the list.	St
+1.7.3	Then setup quits saying &quot;The driver being installed is not validated for this computer.	St
+1.7.4	Please obtain the appropriate driver from the computer's manufacturer.&quot; Hm...	St
+1.7.5	But it says my driver is from 12/12/2006, and when I try to update it from the device manager and tell it to search the internet to find the upgrade, it says that I already have the most up to date version.	St
+1.8.1	You have a very outdated driver.	St
+1.8.2	12/12/2006 predates Vista's release.	St
+1.8.3	I see we've found the most likely cause.	St
+1.8.4	In closing, UAC can block drivers.	St
+1.8.5	I know to shut that down during driver installs.	St
+1.8.6	Also I didn't see Vista mentioned till this last post.	St
+1.8.7	Since you are making incomplete posts, it's unlikely that anyone can guess what the issue is but given that date I'd say you found it.	St
+1.8.8	Bob	St
+1.9.1	I have UAC completely disabled because it's annoying, and when I try to install the update it gives the error message I copied into my last response.	St
+1.9.2	Any insight on why that would happen?	St
+1.9.3	Since I downloaded the 945GM express chipset update, and that's the chipset I have, I don't know why it's giving me that error message.	St
+1.9.4	But I agree that's probably it.	Res
+1.9.5	Thanks for the help again	Ques
+1.10.1	That your BIOS is current and you have the i945gm VIDEO.	St
+1.10.2	I have not checked your work here.	St
+1.10.3	There's a reason I haven't and it's because the details are being slowed given out.	St
+1.10.4	When you post, everytime you post there is a note asking you to give out details.	St
+1.10.5	Without such I am left to wait for the details or just give general responses.	St
+1.10.6	You found the most likely cause of the issue.	St
+1.10.7	Bob	St
+1.11.1	http://support.gateway.com/s/Mobile/2007/Oasis/1014554R/1014554Rsp2.shtml &quot;Video controller Intel Graphics Media Accelerator 950 Up to 224 MB of shared video memory (when 512 MB or more system memory present)&quot; Now let's find the i950 drivers.	St
+1.11.2	http://www.intel.com/products/chipsets/gma950/index.htm is a start and the i945GM is NOT LISTED!!!	St
+1.11.3	http://support.gateway.com/support/drivers/search.asp?st=pn&param=7515416 is interesting as they show NO VISTA DRIVERS!!!	St
+1.11.4	Are you sure this laptop is supposed to be running Vista?	St
+1.11.5	Let's take this one step at a time.	St
+1.11.6	Try the 4 drivers listed at http://www.intel.com/support/chipsets/sb/CS-020683.htm for vista Bob	St
+1.12.1	I took a screen shot of the device manager: http://i469.photobucket.com/albums/rr58/theblackred/Capture.jpg I bought this laptop from the gateway site last summer, August 2007, it came with vista.	St
+1.12.2	It had a harddrive problem so they sent me another with factory defaults this past winter, 1/2008, so it's even more strange the driver is from 2006.	St
+1.12.3	I googled my installation error &quot;The driver being installed is not validated for this computer&quot; and it seems like other people with gateway laptops have this error.	St
+1.13.1	In my previous post I meant it seemed like a lot of people who were trying to download intel driver updates had the same error I'm getting	St
+1.14.1	I see no less than FOUR possible drivers.	St
+1.14.2	Using the i945gm should have failed.	St
+1.14.3	Again, you have a warranty issue.	St
+1.14.4	It's been defective since day one it seems.	St
+1.14.5	Bob	St
+1.15.1	Oh lol.	St
+1.15.2	Found the solution on some european world of warcraft forum.	St
+1.15.3	Apparently there's some glitch with the .exe file intel's update uses that makes vista unhappy.	St
+1.15.4	So I had to download the zip file for the 945gm driver, and then tell the driver to update from a disk, but actually find the place where i extracted the zip file to and say that's where it should update from.	St
+1.15.5	Specifically a .inf file in the extracted updater.	St
+1.15.6	Tricky.	St
+1.15.7	So yeah nothing wrong with driver or hardware or anything.	St
+1.15.8	Just vista + intel = stupid.	St
+1.15.9	The forum was http://forums.wow-europe.com/thread.html;jsessionid=88F7ED8ED983C57E193885AE8CD10C02.app03_04?topicId=254595484&sid=1 if anyone wants to read up on it more.	St
+1.15.10	So yay happy ending.	St
+1.15.11	My video driver is now up-to-date.	St
+1.15.12	Thanks for your effort and patience Rob.	St
+1.16.1	There are some million machines out there.	St
+1.16.2	I know the issue, the usual cure and have never had to go to that extreme (yet.)	St
+1.16.3	Thanks for keeping at it and sharing what you found.	St
+1.16.4	I value such feedback since &quot;now I know&quot; and will do better next time around thanks to you!	St
+1.16.5	Bob	St

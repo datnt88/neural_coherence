@@ -1,0 +1,109 @@
+1.1.1	I have a powermac G4 dual proc, using a cable modem.	St
+1.1.2	It has an open port for airport connection.	St
+1.1.3	I Just acquired, out of necessity, a Toshiba laptop which already has a Netgear wireless card installed.	St
+1.1.4	I bought a Netgear Rangemax Router, only to find out after contacting Netgear support, that the install disk included does not work with Mac (although the router does work with Mac).	St
+1.1.5	Looked up on line and printed manual and proceeded to hook up router as instructed.	St
+1.1.6	It locks up my Mac upon start up.	St
+1.1.7	So I have discovered that there is no wireless card installed here.	St
+1.1.8	Looking at the Netgear card specs, I see none that are compatible with Mac OS.	St
+1.1.9	I have OS10 but have not been able to get it installed - it freezes when it gets to the end and says installation was unsuccessful.	St
+1.1.10	So I am still running OS 9.3 since I have not had a day to sit and figure it all out.	St
+1.1.11	My question is, what wireless card do I need to get to install in my Mac to make this all work?	St
+1.1.12	Any an all advice is greatly appreciated.	St
+1.2.1	First, what is it that has the open port for airport connection?	St
+1.2.2	The modem, almost certainly not, or the G4, probably not.	St
+1.2.3	Unless you mean the Airport card holder inside the G4.	St
+1.2.4	This only takes the older version of the Apple Airport card which is no longer sold by Apple.	St
+1.2.5	The Airport Extreme card does NOT fit in there.	St
+1.2.6	Currently, the G4 is connected directly to the modem via an ethernet cable?	St
+1.2.7	Is that correct?	St
+1.2.8	The only thing you need to do with the Mac is to connect the cable that is currently running to the modem, into any of the LAN ports on the router.	St
+1.2.9	The Wide Area Network (WAN) port on the router is connected, via the supplied ethernet cable, to the modem.	St
+1.2.10	The Mac is almost certainly set for DHCP, but check anyway so you should be set to go.	St
+1.2.11	Shut down the Modem(remove power supply), Router and Mac.	St
+1.2.12	Start the Modem and wait for all the lights to become normal.	St
+1.2.13	Start the router, wait for the lights to remain constant then boot the Mac.	Sug
+1.2.14	You should now be able to access the internet.	St
+1.2.15	To set up the Router, you will need to launch IE and type: http://192.168.1.1 into the address bar.	St
+1.2.16	This will take you to the Router home page from where you will be able to configure it for everything, including wireless.	St
+1.2.17	Fire up the laptop, with the wireless card installed and see what happens.	St
+1.2.18	You do NOT have to install a wireless card into the G4 just to use the router.	St
+1.2.19	What version of OS X do you have??	St
+1.2.20	Hopefully NOT the one that came with the G4!	St
+1.2.21	Your machine is quite capable of running 10.4 P	St
+1.3.1	I did all you said and was able to get the wifi going between the G4 dual and the Toshiba laptop.	St
+1.3.2	Throughout this whole ordeal, I ended up doing a clean install of Tiger which is working great.	St
+1.3.3	The wifi connection exists but the internet will not connect.	St
+1.3.4	Spent quite a bit of time on phone and running tests with comcast.	St
+1.3.5	Everything turned up fine.	St
+1.3.6	He suggested I try a different router.	St
+1.3.7	What would you recommend as the best Mac compatible router?	Ques
+1.3.8	Preferably 802.11G or b/g	St
+1.4.1	Is the Netgear firmware updated?	St
+1.5.1	Most peculiar.	St
+1.5.2	Assuming that the answer to Bob's question is Yes, or, it will be shortly, let's move on.	St
+1.5.3	Could you describe exactly what this layout looks like.	St
+1.5.4	Start from the Cable going into the Modem and proceed from there.	St
+1.5.5	There is something missing from this picture that I cannot put my finger on yet.	St
+1.5.6	The two machines talk to each other, or at least to the router, so the problem has to be from there onward.	St
+1.5.7	A reinstallation of Tiger probably did nothing apart from giving Tech Support something to blame for the problem P	St
+1.6.1	I forgot to mention that I also bought new cables.	St
+1.6.2	Here is the set up.	St
+1.6.3	TheToshiba modem is plugged into a surge suppressor.	St
+1.6.4	The cable (I'm on Comcast) goes from the wall to the modem.	St
+1.6.5	The modem is connected to the Netgear Rangemax Router.	St
+1.6.6	The router is plugged into a separate wall outlet.	St
+1.6.7	The router is connected in port 1 (of 4) to the G4, Also tried changing the computer connection to the different open ports.	St
+1.6.8	When I was on the phone to Comcast, he ran all sorts of tests and we checked and confirmed the connection settings.	St
+1.6.9	His only suggestion after almost an hour was to go get a more compatible router.	St
+1.6.10	I connected and reconnected everything in the order in which he directed (several times) but could never get the internet to work.	St
+1.6.11	Since Netgear is not very supportive of Macs, I am in agreement at this point that I need something more Mac friendly.	St
+1.6.12	Further suggestions?	St
+1.7.1	Yes - I did that too	St
+1.8.1	I've used a number of routers with boxes that run Linux, embedded OSes and more non-Windows than I will admit.	St
+1.8.2	No router has ever required me to run their disk.	St
+1.8.3	I however am happy to point a browser at the router and configure it as need be.	St
+1.8.4	TCPIP is pretty much an universal protocol whether it be mac or other.	St
+1.8.5	Something is missing in this soup and I fear another router will have the same issues.	St
+1.8.6	-&gt; What IP did the Mac get from the router?	St
+1.8.7	Bob	St
+1.9.1	will have to get back to you on this one.	St
+1.9.2	I am not at home right now.	Res
+1.9.3	Thanks	Polite
+1.10.1	With the System Preferences/Network set to Built-in Ethernet and DHCP, this is just a plug it in and it works setup.	St
+1.10.2	Wonder what we are missing P	St
+1.11.1	Using DHCP: when I hooked up the router, and configured automatically, the new IP address was 192.168.1.2 Subnet mask 255.255.255.0 Router address 192.168.1.1 I did take the router off until I can figure this out (or return it for something else) The IP address is now reading 68.53.120.118 Subnet is the same and the router address is 68.53.120.1 Will probably try to work with it again tomorrow on my day off.	St
+1.11.2	Is these something I need to set differently?	St
+1.12.1	192.168.1.2 was presumably one of the connected machines.	St
+1.12.2	The other address 68.53.120.118 is based out of Rutherford Tn.	St
+1.12.3	This sounds like the IP address that the router is getting from the Modem.	St
+1.12.4	This is good.	St
+1.12.5	The machines connected to the router will almost certainly be 192.168.1.x because that is what the router is giving them.	St
+1.12.6	So, switch OFF the modem (unplug the power cord), unplug the power to the router.	St
+1.12.7	shut down the computers.	Sug
+1.12.8	Connect modem to WAN port of the Router, computers to the LAN ports of the router.	St
+1.12.9	Power up the Router.	St
+1.12.10	When all lights have settled down, power up the modem.	St
+1.12.11	When all the required lights are on, power up one computer and then the other.	St
+1.12.12	The IP address of the computers should be 192.168.x.x and the Router IP address should be 68.53.120.x (of similar) You will find the router IP address by going to Status or WAN.	St
+1.12.13	Dig for it but don't change anything.	St
+1.12.14	Try the internet on both computers.	St
+1.12.15	IF the IP addresses are different or start 169.x.x.x, try a reboot of that computer.	St
+1.12.16	Let us know P	St
+1.13.1	Again, I am now at work.	St
+1.13.2	Will try this tonight or tomorrow evening depending on my schedule.	St
+1.13.3	Am also checking into updating my modem.	St
+1.13.4	It was the first cable modem available in our area.	St
+1.13.5	Although Comcast found no issues with it, could it be possible that it cannot keep up with the speed of the router?	St
+1.14.1	the modem is communicating with the router at 10 Mb and can obviously keep up with the pace.	St
+1.14.2	You have proved this by connecting the modem directly to the computers and accessing the internet.	St
+1.14.3	We await the next stage in this saga with bated breath P	St
+1.15.1	Can you confirm that you are running OS X (Tiger) on this G4 and not OS 9 that you started off with?	St
+1.15.2	P	St
+1.16.1	NIL	St
+1.17.1	NIL	St
+1.18.1	NIL	St
+1.19.1	After trying everything you and Comcast and Netgear suggested and it STILL not working, I returned that router and got a Linksys instead.	St
+1.19.2	Can hook to internet fine on my Mac, but have not gotten a successful connection from my laptop yet.	St
+1.19.3	Have not had a chance to sit down and figure it out yet.	St
+1.19.4	Thanks for asking and thanks for your help.	Polite

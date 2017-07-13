@@ -1,0 +1,41 @@
+1.1.1	We are in the process of migrating from Small Business Server 4.5 to Small Business Server 2003.	St
+1.1.2	We have quite a range among the 20 or so workstations in our company; a couple of laptops with 512 MB RAM and 2.0-2.5 GHz processors, a slew of workstations in the 600MHz - 1.4 GHz range with 256 MB of RAM, and 4 Windows 98 SE computers with 400-600 MHz and 96 or 128 MB RAM (all the other computers are Win XP Pro SP2).	St
+1.1.3	We had the network setup and the emails migrated and started to convert the workstations to the new domain.	St
+1.1.4	We were very surprised to see how long it took to login.	St
+1.1.5	Some of the computers took up to 10 minutes to log in, hanging on things like &quot;computer settings&quot; and &quot;personal settings&quot;.	St
+1.1.6	It was not totally a function of speed and RAM, which the 2 laptops did come in the fastest, it still took about 3-5 minutes.	St
+1.1.7	Surprisingly the Win 98 computers were next, at about 5-7 minutes (though they would also crash a lot after using the network a bit), then the rest of the Win XP machines.	St
+1.1.8	When we reverted the machines back to the old domain they logged in quickly like they used to.	St
+1.1.9	The guy who helped me setup the network thinks simply getting all the computers to 512MB of RAM (and replacing the 4 Win 98 computers, which was being planned anyway) will magically fix this, but I'm somewhat skeptical.	St
+1.1.10	Could it be something about the new network/server?	St
+1.1.11	Or 2 SBS machines running at once?	St
+1.1.12	Any thoughts on what to look for are welcome, thanks.	St
+1.2.1	You will find that as versions go up, so does the hardware requirements.	St
+1.2.2	Nothing new here.	St
+1.2.3	If you must keep old hardware you don't want the new OS.	St
+1.2.4	The machines that crash are telling however.	St
+1.2.5	Crashing machines can be murder on your bottom line.	St
+1.2.6	Moreso than a new non-crashing machine.	St
+1.2.7	Repairs on such (here) cost more than a new machine.	St
+1.2.8	Bob	St
+1.3.1	The fact that even the laptops had some amount of delay makes me think it's more than that (though upgrading would certainly help)?	St
+1.3.2	I saw one forum that mentioned something about setting DNS for your local server vs. that of your ISP being part of the problem.	St
+1.3.3	Again, while the Win 98 computers were definitely set for replacement anyway, just want to make sure; we don't want to buy upgrade everything else and still have the same issue, thanks.	St
+1.4.1	If you see a lot of local hard disk access, then more RAM may help.	St
+1.4.2	Then again, it's quite rare to see Windows machines with up to date BIOS and drivers.	St
+1.4.3	The crash is abnormal and a clue that something is wrong.	St
+1.4.4	Our old machines never crashed on boot like that.	St
+1.4.5	We had to push them very hard.	St
+1.4.6	I would not upgrade a crashing machine.	St
+1.4.7	Adding ram will not stop the crash.	St
+1.4.8	Bob	St
+1.5.1	Wow, that was fast!	St
+1.5.2	Anyway, I'm thinking more of what in our company are the &quot;middle&quot; machines; I'm pretty sure with the 4 crashing computers they are too slow for the new network.	St
+1.5.3	Thanks!	St
+1.6.1	Something is amiss with those machines.	St
+1.6.2	We didn't crash even on 98se connecting to 2003 server.	St
+1.6.3	But then again we we pretty in tune with BIOS, drivers, no spyware, pests etc.	St
+1.6.4	Bob	St
+1.7.1	2 of the 4 machines had problems (not nearly as severe) on the old network.	St
+1.7.2	And as I said, I had plans to replace them not long after the network upgrade, so now I'll just replace them before.	St
+1.7.3	But again, I'm wondering what the issue is with the Win XP Pro machines.....	St

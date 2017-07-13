@@ -1,0 +1,76 @@
+1.1.1	So begins an unusual build.	St
+1.1.2	Put together a custom PC for a buddy of mine.	St
+1.1.3	During OS install got several errors regarding memory stops and could not read sections.	St
+1.1.4	After several reboots.	St
+1.1.5	Was able to install OS and use it normally.	St
+1.1.6	Next day, started it up cold and OS would not load, start-up recovery manager did.	St
+1.1.7	Ran Memtest86 found a stick was erroring out every single test.	St
+1.1.8	Took the stick out.	St
+1.1.9	System booted fine and OS ran smooth.	St
+1.1.10	Next day, cold started the machine, OS would not load.	St
+1.1.11	Ran Memtest86, found errors.	St
+1.1.12	Took stick out of slot A and put it into slot B, ran Memtest86 again, no errors.	St
+1.1.13	OS loads fine.	St
+1.1.14	Operates fine.	St
+1.1.15	Shut system down for an hour.	St
+1.1.16	Started it back up.	St
+1.1.17	Tested Ram again, found errors.	St
+1.1.18	Swapped the stick slot, booted fine.	St
+1.1.19	Ran a Burnin test on the RAM in OS and it found errors every time, but far less then Memtest86.	St
+1.1.20	-My guess.	St
+1.1.21	The motherboard is a Gigabyte GA-P55-USB3 r1.0 and the RAM is Corsair VS2 1333.	St
+1.1.22	The RAM is not on the approved list so I ordered RAM that was.	St
+1.1.23	Have not received it yet, but the results I have been getting would lead me to believe it could be the motherboard as well.	St
+1.1.24	I have already condemned the RAM and sending it back.	St
+1.1.25	However, I would be wasting RMA time if the mobo is bad.	St
+1.1.26	Nutshell question- What does it mean when the RAM tests bad after a cold boot, but after swapping slots, tests fine?	St
+1.1.27	Any help would be greatly appreciated.	St
+1.2.1	Did you check the BIOS Settings for timing, voltage, etc., ?	Ques
+1.2.2	Did you contact the RAM mfg ?	Ques
+1.2.3	VAPCMD	St
+1.3.1	The bios settings are set to default, except gigabyte by default enables RAM &quot;turbo&quot; mode.	St
+1.3.2	So I set it to off.	St
+1.3.3	So everything in Bios is set to defaults, no overclocking.	St
+1.3.4	I have read on several forums about cold boot issues with gigabyte boards and commonly Corsair RAM.	St
+1.3.5	Like I said before, I got &quot;approved&quot; RAM coming.	St
+1.3.6	Followup Question- If it were the motherboard, wouldn't it not work at all?	St
+1.3.7	Can it be intermittent?	St
+1.4.1	If it were mine I'd contact the MB mfg and the RAM mfg to get their recommendations.	St
+1.4.2	Perhaps increasing the RAM voltage might help.	St
+1.4.3	I'd might also try another RAM test just to be sure.	Sug
+1.4.4	Let us know how it turns out.	St
+1.4.5	VAPCMD	St
+1.5.1	The tests are still coming up bad after a cold boot.	St
+1.5.2	The OS is most likely not booting due to the Memory errors.	St
+1.5.3	After a DIMM swap the memory will pass a 15 minute test.	St
+1.5.4	I use Memtest86 to test my RAM and I trust it's results.	St
+1.5.5	However, if a RAM tests bad, it could still be the MB.	St
+1.5.6	I have contacted Gigabyte Last Thursday and they have not wrote back.	St
+1.5.7	(way to go 24 hour rule).	St
+1.5.8	Will let you know when the new (approved) RAM gets here.	St
+1.6.1	Here are some other tests....all I'll say is they're worth trying http://pcsupport.about.com/od/toolsofthetrade/tp/memorytest.htm VAPCMD	St
+1.7.1	I terminate the test after 15 minutes of no errors.	St
+1.7.2	I still have to configure this machine for a friend.	St
+1.7.3	I also used Burnin test in the OS to test RAM and CPU functions.	St
+1.7.4	The Burnin Test finds issues with the RAM in the OS within 15 minutes.	St
+1.7.5	The issue has now presumably become where the issue actually is.	St
+1.7.6	The RAM or the Mobo?	St
+1.7.7	We will find out soon enough, I have the New Ram coming and if that flunks, I will RMA the board.	St
+1.8.1	NIL	St
+1.9.1	Got the New RAM today.	St
+1.9.2	Threw it in before first boot.	St
+1.9.3	System came up and booted right into Memtest86.	St
+1.9.4	Tested for 1 hour and found no errors.	St
+1.9.5	Booted into OS right after, Ran BurnIn Tests on RAM, found no errors.	St
+1.9.6	With the other RAM I would get an error by now.	St
+1.9.7	So I am confident the RAM is good and not an issue.	St
+1.9.8	Like I said, this is preliminary testing, any errors popping up in the next 36 hours will prompt an RMA of the motherboard.	St
+1.9.9	I speculate the errors came from the other RAM, not that the RAM was bad, but it could have been a compatibility issue.	St
+1.9.10	Voltages are often brought up when researching this issue.	St
+1.9.11	It is just possible the Corsair was not getting what it was supposed to.	St
+1.9.12	However all tests at this time report 0 errors.	St
+1.10.1	brand/model did work?	St
+1.10.2	Posting that specific info might really help someone in future.	St
+1.10.3	To make sure....run the RAM test overnight....you want more than 1 hours worth of testing if possible and better now than later.	St
+1.10.4	VAPCMD	St
+1.11.1	NIL	St

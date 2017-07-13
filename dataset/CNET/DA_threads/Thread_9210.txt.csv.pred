@@ -1,0 +1,54 @@
+1.1.1	I am trying to set up a network for my parents.	St
+1.1.2	My mom just bought a new laptop and wants to be able to network it to the desktop for transfering files and printer usage.	St
+1.1.3	I have now spent the last 4 hours fighting it and could use some help.	St
+1.1.4	I have gotten both computers on the 'net by way of a Linksys router and SBC DSL.	St
+1.1.5	That end works fine.	St
+1.1.6	For the networking part tho, I get a inaccessable error.	St
+1.1.7	The laptop is an Acer using wireless.	St
+1.1.8	The desktop is an older Compaq which is wired to the router.	St
+1.1.9	Both are running XP home.	St
+1.1.10	I have run the XP network setup wizard on both computers.	St
+1.1.11	I can see the Compaq from the Acer.	St
+1.1.12	I can see the Acer and all shared folders from the Compaq.	St
+1.1.13	I cannot move files or folders from or to either computer.	St
+1.1.14	Both are running Windows firewall.	St
+1.1.15	I have checked the exceptions list to make sure that file and print sharing is allowed on both comps.	St
+1.1.16	I have tried disabling the firewall on both comps to eliminate that as a possibility (didnt matter).	St
+1.1.17	I am sure that I am missing something simple (and prolly stupid) but I am stuck.	St
+1.1.18	Any help would be greatly appreciated.	St
+1.1.19	Thanks in advance!	St
+1.2.1	Did you right click the folders and click on the sharing tab then enable them to be shared?	St
+1.2.2	Did you right click MY computer and click properties, click computer name tab, click change and click on Workgroup button and the workgroup NAME has same name on each pc?	St
+1.2.3	Also make sure both pcs have different names for the PC name....Workgroup same, PC different.	Sug
+1.2.4	Are you running any other firewalls like ZoneAlarm?	St
+1.2.5	If so, do away with windows firewall and manually enter the ips into the trusted zone on both pcs.	St
+1.2.6	Paul	St
+1.3.1	I have shared the my documents folders, and a couple of others, on both computers.	St
+1.3.2	The workgroup name is the same for both as well (MSHOME).	St
+1.3.3	The only firewall being used is the Windows firewall, and I have tried disabling it to no avail.	St
+1.3.4	As I mentioned, both computers can ''see'' each other.	St
+1.3.5	The Compaq can also see the shared folders on the Acer.	St
+1.3.6	The Acer can only see the Compaq computer name.	St
+1.3.7	Shared printers can not be seen.	St
+1.3.8	Thanks again.	Polite
+1.4.1	The printer has to be installed on the pc trying to share it.	St
+1.4.2	If you are having file sharing problems then it still may not see the printer but you can take your printer driver disk and install it on the &quot;assume laptop&quot; and then it will be able to share the printer.	St
+1.4.3	Paul	St
+1.5.1	Just had someone else who said they had to reset the Linksys router and it cleared everything up, there is a reset button on it so perhaps give it a try.	St
+1.5.2	Paul	St
+1.6.1	Went by my moms this evening to try a few things I read about on the web.	St
+1.6.2	Just for giggles, I connected my personal laptop to the network (wirelessly) to see which computer I could connect to and so on.	St
+1.6.3	I was immediately able to access my moms laptop (the Acer) and she was able to access mine.	St
+1.6.4	The desktop (Compaq) was able to see and access all shared folders on BOTH laptops.	St
+1.6.5	It was also able to transfer files and folders between the 3.	St
+1.6.6	Neither of the 2 laptops were able to access any files or folders on the Compaq (desktop).	St
+1.6.7	You can see the desktop on both laptops, but if you try to access it, you get the error &quot;Network Path Not Found&quot;.	St
+1.6.8	Also, fwiw, the icon for the Compaq is dimmed on both laptops.	St
+1.6.9	thanks	Polite
+1.7.1	http://support.microsoft.com/?kbid=318030 let me know.	Sug
+1.8.1	thanks for all the help.	Polite
+1.8.2	As it turns out, the problem was an old Cisco VPN that was set up on the desktop.	St
+1.8.3	Uninstalling the VPN immediately fixed the problem and got the communication back.	St
+1.8.4	Thanks again Craig	St
+1.9.1	Thanks for posting back and glad it worked out.	St
+1.9.2	Paul	St

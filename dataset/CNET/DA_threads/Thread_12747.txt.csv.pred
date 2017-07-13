@@ -1,0 +1,44 @@
+1.1.1	I have an Intel 915GEV motherboard that appears to be operating normally.	St
+1.1.2	It detects some cards just fine, but not my Linksys PCI wireless network adapter.	St
+1.1.3	At first I thought the Linksys card was dead, so I returned it and got a new one.	St
+1.1.4	Well this one doesn't work either.	St
+1.1.5	I've tried it in multiple PCI slots (including one that I know works for another card), and I get nothing.	St
+1.1.6	The card does not show up in the device manager, even when I tell it to search for new hardware.	St
+1.1.7	The install software won't run without the card detected.	St
+1.1.8	A) is there any sort of known problem with these newer Intel boards and Linksys cards?	St
+1.1.9	B) what are the odds that I got two defective cards in a row??	St
+1.1.10	C) is there any sort of manual way to force this thing to work without relying on the autodetect?	St
+1.2.1	Odds of 2 bad cards, very low.	St
+1.2.2	You did use static protection didn't you?	Ques
+1.2.3	If not, then you could have blown the boards, admittedly unlikely, but still possible - especially in winter when the humidity is lower, and less likely to &quot;bleed off&quot; the static buildup.	St
+1.2.4	Check for BIOS updates for your Motherboard, plug and play may not recognize the board if it came out after the BIOS (for configuration purposes).	St
+1.2.5	However, I'm reasonably certain that it should show up in the PCI scan that flashes by late in the boot sequence.	St
+1.2.6	There can be voltage compatibility problems in the PCI bus.	St
+1.2.7	Older PCI boards used +5 volts, newer ones use +3.3v.	St
+1.2.8	(some will auto sense, and use either) There is a slot key that prevents plugging in the &quot;wrong&quot; board, but since it was a late breaking add-on I'm believe that it won't prevent all cases of incorrect installation.	St
+1.2.9	Likewise for the 66Mhz key.	St
+1.3.1	interesting ideas.	Polite
+1.3.2	I tried updating the bios.	St
+1.3.3	Didn't help, but probably good thing to have done anyway.	St
+1.3.4	The card wants 3.3V, but I can't find a spec on what voltage the PCI bus is trying to source.	St
+1.3.5	How can I tell?	St
+1.3.6	I went through Intel's web site and literature with no luck ... can you tell by looking at the board???	St
+1.3.7	?	Ques
+1.4.1	I'm afraid my concern about voltages was a red herring in this case.	St
+1.4.2	It's a new MotherBoard, so it certainly should provide 3.3v, and you said thats what the card wants, therefore voltage is probably not the problem.	St
+1.4.3	Of course, if all your other PCI boards used +5...	St
+1.4.4	But I wouldn't chase it very hard.	St
+1.4.5	Sorry, but I'm out of ideas.	St
+1.4.6	You don't have another system to try it in do you?	St
+1.5.1	Ok ya know whats crazy?	St
+1.5.2	I'm having the same problem...	St
+1.5.3	I have an old Aptiva though PII 350 512megs of ram, 40 gig running Windows XP PRo.	St
+1.5.4	I've installed regular NIC's no problem, but I actully have 4 different kinds of Wireless NIC's (I'm a PC TECH) And the PC/WINXP won't detect ANY of them!	St
+1.5.5	It picks up all the regular NIC's no problem, but when it comes to the wireless... forget about it!	St
+1.5.6	I'm lost...	St
+1.5.7	I'm updating BIOS now, if that doesn't work i'm out of Idea's!	St
+1.6.1	I quit.	St
+1.6.2	I returned the card to the retailer (Thanks again Dell for your forgiving return policy!).	St
+1.6.3	I'm planning on taking it into my local PC repair joint and make them put in a card.	St
+1.6.4	I tried updating bios, by the way.	St
+1.6.5	I got nuthin.	St

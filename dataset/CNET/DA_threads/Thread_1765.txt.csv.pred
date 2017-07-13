@@ -1,0 +1,36 @@
+1.1.1	Inspiron 1521 AMD Turion, 1.80 GHz 1918 mb ram Vista, Home Premium Zyxel P-330-W Router Cannon ip4300 Printer (on network) OK guys - I've been kicking around here ever since I first got my router back in late '07 - some days I think I'm getting it, and others - like today - I'm lost again.	St
+1.1.2	Admittedly, I have more lost days than getting it days.	St
+1.1.3	But I think I can verbalize my current confusion so that ya'll know that I'm a complete 'puter illiterate or I have one of my rare good questions - OK, here's why I'm confused.	St
+1.1.4	If I want to print from my laptop, most days I can do so - however there are days when no matter what I do, I can't get anything to print from the laptop - The network printer has a USB connection to a Dell Dimension 2400, and there is never a problem printing from that machine.	St
+1.1.5	What I don't understand is on the very best days for laptop printing, my Network and Sharing Center settings on the laptop say that there are no printers installed on that machine - that just don't seem right to me (seems to me that somewhere along the way in my research/learning, I thought I heard that you HAD to have the newest Vista print drivers installed in order for the network printer to function - isn't that a part of installing a printer?).	St
+1.1.6	And yet, the very best functioning for my network printing come when there are no printers installed on my laptop.	St
+1.1.7	I really don't like doing stuff that I don't understand, just because that's the only way it'll work - so I'd sure appreciate it if someone could explain to me why my laptop print function works best when there is no printer installed on the laptop - or if the truth is that I have just not yet discovered how to properly install the network printer on my laptop.	St
+1.1.8	Many thanks to all (and I hope this was not a dumb-ass question!).	Polite
+1.1.9	john	St
+1.2.1	&quot;my Network and Sharing Center settings on the laptop say that there are no printers installed on that machine - that just don't seem right to me (seems to me that somewhere along the way in my research/learning, I thought I heard that you HAD to have the newest Vista print drivers installed in order for the network printer to function - isn't that a part of installing a printer?).	St
+1.2.2	And yet, the very best functioning for my network printing come when there are no printers installed on my laptop.&quot; 1.	St
+1.2.3	Yes, that's part of installing the printer so do that.	St
+1.2.4	2.	St
+1.2.5	About the network not showing the printer.	St
+1.2.6	Let me summarize the reasons network shares do not show in rapid fire mode.	St
+1.2.7	Ask for more detail if you wish.	St
+1.2.8	a.	St
+1.2.9	The user does not have an account on the machine they are trying to connect to.	St
+1.2.10	b.	St
+1.2.11	They are on Vista and connecting to a XP machine and didn't install the responder we note in our forum sticky.	St
+1.2.12	c. The firewall is blocking MS networking.	St
+1.2.13	d. The USB is set to power save and its in power save mode at the time of connection.	St
+1.2.14	Bob	St
+1.3.1	Hi Bob, Thanks for your response I started by checking off your list under #2 as so: a.	St
+1.4.1	c. Checked the firewall exceptions list on both units saw no reference to MS networking would it be listed as something else?	St
+1.4.2	I can't be more specific without knowing which firewall you are using.	St
+1.4.3	d. Tried to track down where one changes USB settings did not find anything where do I find this?	St
+1.4.4	Try this -&gt; http://www.google.com/search?hl=en&q=DISABLE+USB+POWER+SAVING Just so you know, some just give up and try out a really nice piece of software called NETWORK MAGIC.	St
+1.4.5	It does this all for us without having to know it all.	St
+1.4.6	Bob	St
+1.5.1	Again, much thanks - with your added info, I checked the USB hubs - none set to power save.	Polite
+1.5.2	Sorry, I'm using the internal Windows Firewall on each unit.	St
+1.5.3	And on your last point, Yes, I know of Network Magic - it came with my router, and for the 1st month of the router's operation, N M did it's thing very well - but I guess I'm one of those nuts who consider problems to be challenges, and I figure that if there's a way to make this work w/o N M, then that's the way I'd rather it be.	St
+1.5.4	Some would say that's just being a stubborn fool, but in my heart I know it's the way I learn the few things I do.	St
+1.5.5	And besides, I no longer have the resourses to support the economy the same way I once did.	St
+1.6.1	http://www.google.com/search?hl=en&q=WINDOWS+FIREWALL+ALLOW+NETWORKING At STEP 7 of http://www.microsoft.com/windowsxp/using/networking/security/winfirewall.mspx we want to allow File and Printer sharing.	St

@@ -1,0 +1,93 @@
+1.1.1	I hope this is the right forum for this question & please forgive the fact that I KNOW NOT of what I post..... Sys Info In Profile.	St
+1.1.2	Internet via Cable modem with d-link hard wired router.	St
+1.1.3	Basically I have a 2 computer set-up at home.	St
+1.1.4	1)XPPRO SP1/ Intel p4 Desktop with Intel Pro 100 VE network connection.	St
+1.1.5	This is Master machine and is working fine, normal behavior in all aspects.	St
+1.1.6	When I connect to my LAN connection to go on net, it takes less than 10 seconds and says enabled at 10 MBps.	St
+1.1.7	This is what it's always said.	St
+1.1.8	It shares router with only 2) HP Laptop DV 110ca Celeron 1.6 which recently has has software problems (conflicts between AVG AV & Spybot & AdawareSE protectors.	St
+1.1.9	I finally have that straightened out & have got working.	St
+1.1.10	Ended up with sys restore back 1 month & new install of AAW.	St
+1.1.11	Conflict appears to have involved latest engine update to #446.	St
+1.1.12	Have gone back to #441 and all seems well except....	St
+1.1.13	Normally when I connect to LAN with laptop, to go on net, connection takes about 10 seconds and (if I'm not mistaken) also was connected @ 10MBps.	St
+1.1.14	Worked just fine.	St
+1.1.15	I have used the right click &quot;repair connect&quot; function several times to solve this but it reports OK as at that point I am connected.	St
+1.1.16	It says repair successful and contact Admin (me) for further help!	St
+1.1.17	Normally, if I click the repair, it just says repair completed but NOW it pops up a box showing the steps it is taking :4 or 5 items.	St
+1.1.18	Don't know if this is a hint for you.	St
+1.1.19	NOW when I connect, it takes up to a minute + and shows connected @100.0 MBps!!!	St
+1.1.20	I often think it's &quot;hung&quot; and right click to &quot;enable&quot; and get reply &quot;connection attempt is already in progress&quot; and when I click OK the connection opens instantly (at 100.0MBps).	St
+1.1.21	I believe this to be problem source.	St
+1.1.22	When I go to CP&gt;Network connections on Laptop, it has 3 connections (but I have disabled all but LAN).	St
+1.1.23	This shows Realtek as source of connection & When I look further properties&gt;advanced&gt;config for link speed/duplex, I see the enabled is auto negotiate (apparently @ 100.0 MBps) I also see offered various half-duplex/full duplex at 10.0 MBps and suspect one of those is the formerly correct one.	St
+1.1.24	The router is set up as Duplex mode if I recall d-links support comment from 1 year ago.	St
+1.1.25	When I try to check on Desktop Computer what it would show (as a hint), when I click Configure on the Intel VE 100, I get message: &quot;You have made changes to this connection, I you proceed these changes will be lost!	St
+1.1.26	Do you wish to proceed?	St
+1.1.27	Having no idea what should be there, I of course click NO since it's working normally and don't want to compound what is now only the laptops problem.	St
+1.1.28	It doesn't say what or WHEN the &quot;changes&quot; were done (certainly not by me.	St
+1.1.29	I haven't changed anything there since initial set-up by pro's at install).	St
+1.1.30	I guess the final question becomes: Given this set-up, what would seem to be the normal setting in the laptop for 10.0MBps that I should be seeing/using??	St
+1.1.31	Is there another route to take for this?	St
+1.1.32	NOTE: When in same room as Desktop machine, Laptop's on battery as power supply is in living room and power bar is full already with main machine.	St
+1.1.33	Sorry for length of post but tried to include as much as I thought helpful.	St
+1.1.34	Ask for what else you need.	St
+1.1.35	Thanks for patience & ideas!	St
+1.1.36	!	St
+1.2.1	NIL	St
+1.3.1	All laptops have a power saving mode that drops power on most peripherals when on battery power.	St
+1.3.2	Lower power means slower speed.	St
+1.3.3	What does it do when plugged into the power supply?	St
+1.4.1	Normal setting should be &quot;Automatic&quot; or &quot;Autodetect.&quot; If that doesn't work, then select &quot;100Mbps.&quot; Make sure your router has the latest firmware version.	St
+1.5.1	always been connected in the computer room for net use and always on battery power.	St
+1.5.2	I have all the power saving features disabled as net work only takes max of 10-15 minutes (strictly updating protectors) all other times when active it's on power supply where ever.	St
+1.5.3	I don't know if this is of interest as far as half/full duplex goes, but other than to share router to cable to net, the two machines do not inter-react with each other.	St
+1.5.4	I don't transfer files or share printer etc.	St
+1.5.5	In fact most of those abilities are disabled as best as I can for security reasons.	St
+1.5.6	Any transfer is done via USB storage drives.	St
+1.5.7	AV/AS scanned before transfer of course.	St
+1.5.8	The funny part, I think, is that 'tho I sys restored back 1 month, one or 10 months ago the matter of the LAN net connection would have been the same (&lt;10 seconds at(?)	St
+1.5.9	10 mbps).	St
+1.5.10	Perhaps it was 100 mbps & I never noticed but I certainly would have noticed this kind of slowness.	St
+1.5.11	Laptop other functions seem at normal speeds and scans (perpetually) as clean of all malware.	St
+1.5.12	I did do a &quot;compress old files&quot; via disk clean up about 2 weeks ago to gain back some HD space (gained about 8% to 63% free) along with defrag & checkdisk/ R for good measure.	St
+1.5.13	Could the compress have included the LAN file since it hadn't changed in year?	St
+1.5.14	Could this create slow down in enabling?	St
+1.5.15	I appreciate your thoughts !	Polite
+1.5.16	Sandy	St
+1.6.1	&quot;Auto Negotiate&quot; is the same as auto detect/ Automatic then I guess that setting is not likely the problem.	St
+1.6.2	Thanks again!	St
+1.7.1	when, on EITHER computer I click CP&gt;Network Connections&gt;My Network Places or View Work group, I have nothing in the responding screen.	St
+1.7.2	To best of my knowledge, this has always been the case.	St
+1.7.3	Thought it might make or clear some possible question.	St
+1.8.1	to computer room, booted up on battery, plugged in the cable to the router and decided to update AVG,Spybot & AdawareSE and the connection started up PERFECTLY NORMALLY!!!	St
+1.8.2	Now seems to be working exactly as it always has including &lt; 10 sec connection (@ 100.0 mbps thanks)!	St
+1.8.3	Dam_ Wayne, your telepathic skills are amazing!!LOL!	St
+1.8.4	Thanks to all for viewing & considering my plight!	St
+1.8.5	Guess it's time to create a few more restore points!	St
+1.8.6	Sandy	St
+1.9.1	STEP ONE: Before you do anything else, make sure that you are using the latest network adapter driver and the router's firmware is the latest version.	St
+1.9.2	STEP TWO: Did you take care of the driver and firmware yet?	St
+1.9.3	HERE'S THE REST: If your router is capable of 100Mbps connections, then that's the connection speed you want to use.	St
+1.9.4	Specifically, you want 100Mbps/full duplex.	St
+1.9.5	I Googled your Intel network adapter on your desktop, and it comes up as a 10/100 model.	St
+1.9.6	That means that it is capable of 10Mbps mode and also 100Mbps mode.	St
+1.9.7	I will assume that your notebook also has a 10/100 network adapter (I couldn't find your model at HP.com).	St
+1.9.8	In the properties for the network adapter, you can set the &quot;link speed&quot; to Autodetect.	St
+1.9.9	That means that it will detect the router's max speed and try to match it.	St
+1.9.10	If Autodetect doesn't get you the 100Mbps/full duplex connection that is desired, then you can try to force that connection speed by setting the link speed to &quot;100Mbps/full duplex&quot; instead of Autodetect.	St
+1.9.11	Autonegotiate (different from Autodetect) may work, but it can be troublesome if the router also set to Autonegotiate, (and if it even supports it).	St
+1.9.12	I'd avoid Autonegotiate for now.	St
+1.9.13	Note that a poor quality or damaged network cable can cause a 100Mbps connection to downgrade to 10Mbps.	St
+1.9.14	Try a different network cable--one that is known to be good.	St
+1.9.15	Other issues can cause problems, but I think that you now have enough settings play with at this point.	St
+1.10.1	Lots of useful information.	St
+1.10.2	Since problem seemed to have solved itself (I can't believe I've had anything to do with it), I'm going to save your post to a text file in my Fix & Clean Computer file for future reference.	St
+1.10.3	Very good to have.	Polite
+1.10.4	Strangely(?	St
+1.10.5	), I don't have an &quot;auto detect&quot; or &quot;Automatic&quot; offered in the drop down list of options ONLY &quot;auto-negotiate&quot; (probably a cheap import from Compaq used by HP since the take over).	St
+1.10.6	Sorry about that: The HP is Model &quot;DV1010CA&quot;.	St
+1.10.7	Canadian specific model.	St
+1.10.8	Guess my eyes were overly tired or I'm just going blind (either is equally likely!).	St
+1.10.9	Thanks again for the help!	St
+1.11.1	NIL	St

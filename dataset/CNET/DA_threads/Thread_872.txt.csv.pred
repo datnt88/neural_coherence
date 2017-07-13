@@ -1,0 +1,39 @@
+1.1.1	Equipment: Netgear 2200 modem / router Vivotek SD8311E camera Windows XP pro IP Camera is wired to router.	St
+1.1.2	IP cam has static local IP.	St
+1.1.3	I can see the IP cam on my *wired* laptop and wired PCs.	St
+1.1.4	I am unable to connect to IP cam when I use my laptop *wirelessly*.	St
+1.1.5	As soon as I plug in the CAT5 cable between the laptop and router, IP cam connects again (I connect by typing the local IP cam address into a browser window).	St
+1.1.6	I am able to see the wireless HP printer.	St
+1.1.7	I am also able to connect to the IP cam from outside the LAN since I have forwarded the appropriate ports - just fyi.	St
+1.1.8	What do I need to do to connect to the local IP cam from my local wireless laptop?	Ques
+1.1.9	Thanks!	St
+1.2.1	Many routers have firewalls today so you have to know your router.	St
+1.2.2	Bob	St
+1.3.1	Bob, I went through all the menus in the router multiple times and couldn't find anything that could be related to the issue.	St
+1.3.2	Do you have any suggestions under which menu item to look?	St
+1.4.1	And could not find the make/model of the router so could you put that in your post?	Sug
+1.4.2	If you disliked my answer, I can remove it for you too.	St
+1.4.3	Bob	St
+1.5.1	First four lines in the post :-)) Equipment: Netgear 2200 modem / router - updated to latest firmware Vivotek SD8311E camera Windows XP pro Thanks!	St
+1.6.1	Sometimes I wonder how I miss such things.	St
+1.6.2	But the 2200 might be the DGN2200 which is why I asked.	St
+1.6.3	http://www.netgear.com/home/products/wirelessrouters/work-and-play/dgn2200.aspx Keep in mind that Netgear's latest may not be their best version (research their iPad connect issues.)	St
+1.6.4	As Netgear does not publish an user manual I won't be able to provide an exact answer.	St
+1.6.5	Again, I see you may dislike this but in the future be sure to select routers that have a manual.	St
+1.6.6	Bob	St
+1.7.1	You are correct, it is the DGN2200v1.	St
+1.7.2	I am hoping this link will get you to the manual: http://www.downloads.netgear.com/files/GDC/DGN2200/DGN2200_UM_3Feb11.pdf Thank you so much for your effort!	St
+1.7.3	Tom	St
+1.8.1	&quot;Your modem router has a firewall that blocks unauthorized access to your wireless network and permits authorized inbound and outbound communications.	St
+1.8.2	Authorized communications are established according to inbound and outbound rules.	St
+1.8.3	The firewall has the following two default rules.	St
+1.8.4	You can create custom rules to further restrict the outbound communications or more widely open the inbound communications: &#8226; Inbound.	St
+1.8.5	Block all access from outside except responses to requests from the LAN side.	St
+1.8.6	&#8226; Outbound.	St
+1.8.7	Allow all access from the LAN side to the outside&quot; Notice how an inbound access from WiFi is blocked?	St
+1.8.8	You'll want to change that.	St
+1.8.9	Page 44 (using the page counter in the PDF viewer) shows the default is BLOCK ALWAYS.	St
+1.8.10	Again, firewalls like this are a cause for many of these issues.	St
+1.8.11	Your choice to allow communication.	St
+1.8.12	Sorry it took this many tries but the thumbs down on my first reply looks uncalled for.	St
+1.8.13	Bob	St

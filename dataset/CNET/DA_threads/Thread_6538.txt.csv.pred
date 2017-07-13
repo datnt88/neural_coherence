@@ -1,0 +1,27 @@
+1.1.1	Hey, I'm having some trouble in internet connection sharing.	St
+1.1.2	My current setup is like this: I have a wireless router in the living room.	St
+1.1.3	It is connected to a cable modem and an xbox through a wired connection.	St
+1.1.4	In my room I have a computer with a wireless adapter, and it's working .. so i'm recieving wireless internet.	St
+1.1.5	However the problem is this, my computer is connected to another computer via crossover cable.	St
+1.1.6	This is what i want to do: The internet is accessed on the first computer via wireless and the second computer recieves internet through the first computer via ICS.	Ques
+1.1.7	I've tried setting it up, but it the setup keeps telling me that the IP is already in use on the LAN ???	St
+1.1.8	Just for some extra information I'm using XP the ip of my router is 192.168.0.5 the ip of the first computer is 192.168.0.1 i can't seem to setup the ip of the second computer Any help is appreciated!	St
+1.1.9	thanks!	St
+1.2.1	If you must use ICS and the crossover, you need to set ICS to use a different IP address range than the router, such as 198.168.1.xxx.	St
+1.2.2	However, you could save yourself all kinds of headaches if you simply got another wireless adapter for the other computer.	Sug
+1.2.3	dw	St
+1.3.1	within the same network segment is an exercise in futility.	St
+1.3.2	Use another wireless device and ditch ICS.	St
+1.4.1	thanks for the help!	Polite
+1.4.2	Well just to follow up on what i did in the end: i moved the wireless router, and got an cat5 extention so the second computer and the xbox were wired, while the first computer recieved internet wirelessly.	St
+1.4.3	Everything was working fine - until - i went to the next step of my wireless journey - security.	St
+1.4.4	I decided to use the WPA-PSK method of security.	St
+1.4.5	After installing it, everything seemed to be working fine..except when i started MSN messenger.	St
+1.4.6	For some reason, when i have WPA-PSK activated, signing onto msn causes the wireless signal to disconnect.	St
+1.4.7	Everything else works, (internet explorer ect.	St
+1.4.8	), just MSN doesn't.	St
+1.4.9	After turing off security, everything went back to normal.	St
+1.4.10	Any ideas on what the problem could be?	St
+1.4.11	.. thanks in advance!	Polite
+1.5.1	can cause agita in a lot a home networking scenarios.	St
+1.5.2	I prefer to enable MAC filtering for the PCs/devices and leave encryption turned off.	St

@@ -1,0 +1,77 @@
+1.1.1	I used GParted in Ubuntu to shrink my Ubuntu partition and enlarge my windows partition.	St
+1.1.2	Halfway through enlarging the Windows partition, the windows partition was mounted for some reason, and the resize process stopped.	St
+1.1.3	Now I've got this discrepancy: [img] http://i116.photobucket.com/albums/o20/ninjahero/partition.jpg [/img] How do I get Windows to read this partition as the 62.5 GB partition it should be?	St
+1.2.1	Bow to the inevitable purchase of Partition Magic.	St
+1.2.2	Bob	St
+1.3.1	Well I've certainly learned my lesson.	St
+1.3.2	But is there no way to fix it besides a Windows reinstall/restore?	St
+1.4.1	Partition resizing, even with PM is never a sure thing so everyone usually tells everyone to backup.	St
+1.4.2	Since it sounds like you must start over why not just partition from the getgo?	St
+1.4.3	Bob	St
+1.5.1	Well I'm thinking Linux probably isn't worth the trouble anyway, so I'll just figure out what to do with my HP recovery partition (didn't shell out extra for actual vista install disks) and start over.	St
+1.5.2	I'm not trying to insult you, but just to make sure, you do understand that the partition in question, the windows partition, is completely usable, in fact I'm on it right now, but windows doesn't recognize its size correctly?	St
+1.6.1	I reread your post, looked at the picture and can't see why I'd repair this.	St
+1.6.2	-&gt; Let's be clear about what you want to do here.	St
+1.6.3	If it's working, why fix this?	St
+1.6.4	If you want to add that 5.12GB to the &quot;winblows&quot; partition, I think only a few simple steps might be needed.	St
+1.6.5	Now I have to repeat the &quot;backup first&quot; everytime we write about such things but my thoughts are this.	St
+1.6.6	1.	St
+1.6.7	In disk management, delete the 5.12GB parition.	St
+1.6.8	(maybe the other one too?)	St
+1.6.9	2.	St
+1.6.10	We want to have UNALLOCATED SPACE.	St
+1.6.11	I can't explain why so many times people can't or won't do this step.	St
+1.6.12	They continually make a partition rather than leaving it unallocated.	St
+1.6.13	Now we might be ready for GPARTED to grow the winblows partition.	St
+1.6.14	You would also be ready for a nearly painless install of most Linux distros.	St
+1.6.15	Bob	St
+1.7.1	Nothing here shows me this issue.	St
+1.7.2	From the posts so far and the picture all looks exactly as it should be.	St
+1.7.3	Bob	St
+1.8.1	Notice that &quot;winblows&quot; partition in the top pane has a listed capacity of 44.46 GB.	St
+1.8.2	This was it's original size (before I attempted to resize it).	St
+1.8.3	In the lower pane, the &quot;winblows&quot; partition is listed as 62.5 GB.	St
+1.8.4	This is the size that I was resizing it to.	St
+1.8.5	If I look at the drive in explorer, it also tells me the partition is 44.46 GB.	St
+1.8.6	So basically I'm missing the ~18 GB.	St
+1.8.7	44.46 + the sizes of my other partitions do not add up to an 80 GB HDD.	St
+1.8.8	And thanks for all your help so far, Bob.	Polite
+1.9.1	http://gparted.sourceforge.net/larry/resize/resizing.htm And other readings tells me that you are in the MIDDLE of the resize operation.	St
+1.9.2	The shrink is now about 1/2 done.	St
+1.9.3	Look at this link and use GPARTED to grow the partition back to full size.	St
+1.9.4	About Disk Management.	St
+1.9.5	It's a dunce at this partition feature and can't pull off this trick of having a partition be 60GB but set the capacity to lower.	St
+1.9.6	Sorry that you have to lead me around to the error but I didn't see it till you pointed right at it.	St
+1.9.7	And again, we always are ready for a total wipeout when we do these things.	St
+1.9.8	Bob	St
+1.10.1	Booting off the Ubuntu Live CD, it looks like I don't have any room to grow the partition.	St
+1.10.2	http://i116.photobucket.com/albums/o20/ninjahero/ss.jpg I think the partition resizing process died right before the filesystem could be grown to fill the partition.	St
+1.10.3	The screenshot above shows that Gparted says the partition is 62.5 GiB, but the system monitor says the file system is only 44.5 GB.	St
+1.10.4	Should I do something to grow the filesystem?	St
+1.10.5	I'll be out of town for a week without access to the internet.	St
+1.10.6	I'll get back on this when I'm back.	St
+1.10.7	Thanks again for the help so far, Bob!	St
+1.11.1	I'd shrink it by .1 GB and grow it back.	St
+1.11.2	The idea here is to help it fix the issue.	St
+1.11.3	You could also dust off /dev/sda3?	St
+1.11.4	Bob	St
+1.12.1	I meant dust off the areas between winblows and the hp recovery partition.	St
+1.12.2	What I do is to do all the shrinking and growing first.	St
+1.12.3	Then when that's all settled down I create the new partitions for Linux.	St
+1.12.4	Many try to do it all at one time, but I don't.	Sug
+1.12.5	I can only guess that I'm dodging the bullet.	St
+1.12.6	Bob	St
+1.13.1	I fixed my MBR and deleted my linux partitions.	St
+1.13.2	Whenever I try to grow the windows partition, that partition is mounted at some point in the process, even though I unmounted it right before I began the resize process.	St
+1.13.3	How can I keep it from mounting the partition?	St
+1.14.1	Trying it again, it worked, and everything went back to normal, despite the fact that it failed before resizing the filesystem.	St
+1.14.2	I'm not sure how that works, but whatever...	Res
+1.15.1	windows is confused as there is a registry entry which records partion information.	St
+1.15.2	it may update itself after a few restarts but if not it needs to be reset/deleted.	St
+1.15.3	after a restart all should be well.	St
+1.15.4	the key that needs to be deleted is: hkey_local_machine\system\mounted devices	St
+1.16.1	So, you can choose the Partition Manager, I used to use this 3rd software to resize partition.	St
+1.16.2	Work well.	St
+1.16.3	And it is free for use absolutely.	St
+1.16.4	Worth to try.	St
+1.16.5	http://www.extend-partition.com/help/how-to-resize-partition.html	St

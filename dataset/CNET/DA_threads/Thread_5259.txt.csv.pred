@@ -1,0 +1,98 @@
+1.1.1	Ok, here is a weird one.	St
+1.1.2	When I boot my machine in the morning, it takes 6 to 7 minutes to boot.	St
+1.1.3	The box goes through the POST and then hangs, nothing on the display, the only indication I get that the box is even working is the disk drive light remains active and flickers occassionally.	St
+1.1.4	Now here is the twist, once the box boots for the first time in the morning it boots normally all day after a power down usually under 1 minute.	St
+1.1.5	I have ruled out anything to do with XP since it reboots fine.	St
+1.1.6	I have swapped out the RAM, the power supply, the video card, reset the CMOS, and replaced the battery, No Joy.	St
+1.1.7	I can't figure out what would be effected by an extended period of no power.	St
+1.1.8	My next step is to replace the drive, its the only thing left that I haven't swapped out.	St
+1.1.9	Has anyone else had this issue or know what the root cause is.	Ques
+1.1.10	Thanks in advance.	St
+1.2.1	I find XP based systems will lag after they been in use for yrs.	St
+1.2.2	Users, report just as you.	St
+1.2.3	The only cure, if you want to call it that is to reload the OS and restart all over again.	St
+1.2.4	The main reason the results are like this is because all the XP updates, etc.. will strangle the system over time to include any past installs, etc.. You may want to try some registry cleaner, etc., but that's up to you.	St
+1.2.5	Point blank, there is no easy fix other than what I offered in the beginning, start afresh.	St
+1.2.6	Of course, back-up critical data, etc.	St
+1.2.7	beforehand.	St
+1.2.8	If you have access to a new HD or cleaned HD, you swap data over or clonezilla it.	St
+1.2.9	Doing so will remove any noncontinuous data segments, etc.. tada -----Willy	St
+1.3.1	I have ruled out any software related issues because it boots in less than 60 seconds if I power down and reboot.	St
+1.3.2	If it were software related it would boot slowly everytime I power down and reboot.	St
+1.3.3	BTW, I keep my registry cleaned up on a regular basis and defrag my drive once a week.	St
+1.3.4	Once I get past that first slow boot up in the morning, it is lightining fast for the rest of the day.	St
+1.3.5	I think the disk drive is the cause of the problem.	St
+1.3.6	I think the drive is slow to come up to speed.	St
+1.3.7	Once it is warmed up it works fine.	St
+1.4.1	The symptom is consistent with BAD CAPS.	St
+1.4.2	Did you research BAD CAPS and inspect for same?	St
+1.4.3	Bob	St
+1.5.1	A bad capacitor has crossed my mind but this is usually accompanied with a noisy ground which can cause all kinds of wicked symptoms and the system is very stable once it boots up.	St
+1.5.2	Since all power coming out of the power supply is DC, all the capacitors on the MB are for ground isolation, filtering, or DC stibilization.	St
+1.5.3	I am impressed with troubleshooting skills however, not many people know the symptoms of a bad capacitor.	St
+1.5.4	A bad capacitor is still a possiblitity, as you may already know, the symptoms of a bad capacitor can vary greatly.	St
+1.6.1	Have a very common symptom.	St
+1.6.2	&quot;Problem starting in the morning.&quot; If you google BAD CAPS you learn about a botched formula and 2 million dead PCs and now we see these BAD CAPS all over in HDTVs, cars, motor control circuits and more.	St
+1.6.3	This is not a cap that has gone bad, but was made bad!	St
+1.6.4	Bob	St
+1.7.1	Bad caps can be a problem.	St
+1.7.2	Also, understand a bad solder joint(s) as well.	Polite
+1.7.3	What could be happening is minor swelling after heat-up makes contact and is able to boot.	St
+1.7.4	With your problem, usually you may not actually find the problem until it truly fails.	St
+1.7.5	tada -----Willy	St
+1.8.1	Interesting, I'll give the MB a good visual inspection this evening and see if there are any bulging caps, next I'm going to try imaging a new disk drive to see if that fixes the problem.	St
+1.8.2	Next step after that is to strip it down to barebones and see how it performs, if the problem persists I'm going to shitcan the motherboard and start from scratch.	St
+1.9.1	i just wanna get a sec hand hard ware,can you offer me some ways to get it?	St
+1.10.1	Download the free CrystalDiskInfo, it will show you the health of your hard drive.	St
+1.10.2	I would think that your soft reboots should be as slow as the first one, but since you did say that the hard drive light is going while the system is hanging does point to a hard drive issue.	St
+1.10.3	Sounds like some data are on iffy sectors and the drive head has to read them more than once just to get what it needs.	St
+1.10.4	You may need to replace the drive or at best, back up and reinstall Windows.	St
+1.10.5	Even making a disk image and restoring should work since, hopefully, the drive already knows not to use those sectors and will put your data on good ones.	St
+1.11.1	I was having the same problem and found the Windows XP Search was the issue.	St
+1.11.2	On the FIRST boot of the day my computer was Indexing everything.	St
+1.11.3	I removed Windows Search and marked it as &quot;Don't show this update again&quot; I have had no more issures with the slow first boot issue.	St
+1.12.1	The symptoms are inline with your suggestions.	St
+1.12.2	Lately it has been intermittent, this morning it booted in less then 60 seconds.	St
+1.12.3	Also, CHKDSK occassionally reports index issues, it repairs the index but it doesn't seem to have any effect on the boot time.	St
+1.12.4	I'm going to image a new drive and see what happens.	St
+1.13.1	HP printer drivers can be HORRENDOUSLY slow to boot, particularly for their AIOs from a few years ago (like the OfficeJet L7680, f'rinstance).	St
+1.13.2	Other things, like pre-2010 Norton, can slow your initial boot to a crawl.	St
+1.13.3	This is highly unlikely to be a hardware issue of any kind.	St
+1.13.4	Have you tried running a system file check (sfc /scannow)?	St
+1.14.1	Ok, I re-imaged a new drive yesterday.	St
+1.14.2	I upsized my drive from a 250 to a 320.	St
+1.14.3	So far so good.	St
+1.14.4	This morning it booted in 65 seconds, a few seconds longer than before but I attribute this to a larger drive size.	St
+1.14.5	If it goes a week without a long boot I will consider it fixed.	St
+1.14.6	When all of this started I was having three major issues; 1.	St
+1.14.7	Occassional Blue screens of Death.	St
+1.14.8	2.	St
+1.14.9	Intermittent freeze ups requiring a power down, and 3.	Sug
+1.14.10	Long bootup times.	St
+1.14.11	I suspected a virus but my AV scan was clean.	St
+1.14.12	I bought a registry clean-up tool and cleaned up the registry (1490 errors in the registry).	St
+1.14.13	Updated the device drivers, 5 were out of date including the Display Adapter.	St
+1.14.14	And replaced my C drive.	St
+1.14.15	The system seems to be very stable.....finally.	St
+1.15.1	Something similar happened with my desktop recently and mind you a techy thought there was corrupted file; reset to factory defaults; turns out there was a short in the dvd drive causing power fluctuations, actually zapped and killed my external back up drive; so new dvd burner/drive was all that was needed; wasted time, lost files, photos.	St
+1.16.1	This was a strange problem and after months of troubleshooting I finally found it.	St
+1.16.2	I tried replacing and swapping out everything.	St
+1.16.3	The answer is...THE MONITOR.	St
+1.16.4	Hard to believe, but the monitor ( ViewSonic VX2245 ) had a bad power supply that was not only causing problems with the PC power supply but the monitor ( thru the DVI plug ) took forever to send a 'Ready' signal to the video card.	St
+1.16.5	Once the monitor finally powered up everything worked fine.	St
+1.16.6	The root cause of the power supply problem in the monitor was ....BAD CAPACITORS.	St
+1.16.7	So the guy that responded to this thread stating BAD CAPS as the source of the problem wins the PRIZE !!!	St
+1.16.8	Good Call.	St
+1.16.9	I replaced the monitor with the same model ( VX2245 ) and my system has been super stable for 2 weeks.	St
+1.16.10	Boots right up everytime.	St
+1.17.1	You win the PRIZE.	St
+1.17.2	See the thread for the cause of the problem.	St
+1.18.1	Just read through all this and all can say is great work.	St
+1.18.2	I can't say I would 'ever' have thought of a monitor causing slow boot up.	St
+1.18.3	Thanks for letting us know.	St
+1.18.4	Mark	St
+1.19.1	&quot;From there to here, from here to there, funny things are everywhere!&quot; &#8212; Dr. Seuss Glad you checked &quot;everywhere.&quot; The big clue was the symptom.	St
+1.19.2	It only is the symptom but never tells us where.	St
+1.19.3	Good sleuthing on your part too.	St
+1.19.4	Many will never believe how bad this plague is.	St
+1.19.5	Bob	St

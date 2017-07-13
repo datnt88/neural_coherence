@@ -1,0 +1,64 @@
+1.1.1	Help!	St
+1.1.2	Ok, simple PC-PC network for file sharing and maybe internet access.	St
+1.1.3	My old WINME is set up fine and is connected to the same workgroup as my new WINXP machine.	St
+1.1.4	The underlying connection is fine, since a steady green light indicates this with both NIC cards and WINXP says it is &quot;Connected&quot; in the &quot;Network Connections&quot; screen.	St
+1.1.5	However, when trying to ping test, the &quot;Request timed out&quot; is shown.	St
+1.1.6	Both have unique IP ADDRESSES, tried 10.10.0.1 and 10.10.0.2 and tried the other 192.168.0.1 and 192.168.0.2 but no success.	St
+1.1.7	The computer names are unique, workgroups identical, including CAPS.	St
+1.1.8	What is weird is that the ME machine shows the shared files in the Workgroup, but the XP machine gives me an error, like &quot;(workgroup) not available..check with your system admin if you have rights..&quot;.	St
+1.1.9	This doesn't make sense, I'm the only one and I am a system admin.	St
+1.1.10	Also, I'm connecting via a CAT6 crossover cable, since a hub is not necessary for PC-PC.	St
+1.1.11	I thought this would be the quickest and cheapest way to access, but it looks like it is causing more headaches.	St
+1.1.12	Any suggestions?	St
+1.1.13	Thanks.	St
+1.1.14	Also, note that I have another ethernet connection (on-board connector, not another NIC card) to my DSL which works fine and is set up to auto configure IP address and there does not seem to be any conflicts between the two devices.	St
+1.2.1	Still the number one gaffe is the firewall is installed or if the XP Firewall, enabled.	St
+1.2.2	Zonealarm has no true disable.	Res
+1.2.3	Bob	St
+1.3.1	Well, I turned off the Windows Firewall and still would not connect.	St
+1.3.2	I'm using Norton, not ZoneAlarm.	St
+1.3.3	Any other suggestions?	St
+1.3.4	Unless the Win Firewall is still on.	St
+1.3.5	How do I check for sure?	Ques
+1.3.6	I believe it is in the control panel, but I'll have to check later.	St
+1.3.7	Thanks.	St
+1.4.1	Still remains the number one cause of this issue.	St
+1.4.2	I offer no support for the Norton product since... that's their job and my choice.	St
+1.4.3	All I can do is note the issue.	St
+1.4.4	Look over these site for more clues -&gt; http://www.networkmagic.com/ http://www.practicallynetworked.com and http://www.wown.com Bob	St
+1.5.1	Makes sense.	St
+1.5.2	I'll try pinging to each computer itself using the loopback address to see which one is the culprit.	Sug
+1.5.3	But, was wondering if NetBios over TCP/IP should be disabled or if that setting doesn't matter for this connection type?	St
+1.6.1	The firewall blocks sharing or browsing so you have to rip the firewall out or learn how to allow/trust your network.	St
+1.6.2	NBT or Netbios over TCP/IP should be enabled by default.	St
+1.6.3	If you research how the stock sharing over TCP/IP works, you'll run into this.	St
+1.6.4	Bob	St
+1.7.1	XP Pro on standard install does not include PTP networking.	St
+1.7.2	Go to the control panel, add windows components and add the PTP.	St
+1.7.3	On the XP, Run... CMD to get a DOS window.	St
+1.7.4	Enter IPCONFIG /ALL and ensure that your dsl is not on the same IP subnet.	St
+1.8.1	I didn't add this to some hundred machines this year... and it works without me doing such a step for XP, home/pro and more.	St
+1.8.2	Why?	St
+1.8.3	Bob	St
+1.9.1	Well, thanks for all the help guys ...	Polite
+1.9.2	The firewall was modified to only allow my two computers to be in the trusted zone.	St
+1.9.3	I attempted pinging each to the other PC and it was successful.	St
+1.9.4	However, now, I can see only my workgroup computer for the ME machine ONLY on the ME machine and the shared folders I set up.	St
+1.9.5	But, on XP, no folders at all when I try to view the workgroup, not even the XP machine is shown.	St
+1.9.6	Instead, I get an error like &quot;Can't access, not allowed to see computers on this network..&quot; or something like that.	St
+1.9.7	Is that due to not allowing PTP networking?	St
+1.9.8	If so, should I try the above fix?	Sug
+1.9.9	Thanks.	St
+1.10.1	is when you try to share the the internet connection, your computers become a part two totally different networks.	St
+1.10.2	You may share folders when you are on the same network.	St
+1.10.3	I believe one of your computers is getting its address from your dsl connection on one nic, and the other nic crossed over to the other computer, when internet connection sharing is enabled, is setting a default address of 192.168.0.1 which is typical of windows.	St
+1.10.4	Your computer with two nics is a part of the dhcp enabled network and your other computer is a part of another network created when you enabled ICS.	St
+1.10.5	Two totally different networks, but your second computer can now have internet access.	St
+1.10.6	You just sacrifice the sharing abilities.	St
+1.10.7	Get a router with a four port switch and your problems are solved.	St
+1.10.8	Both will share printer and files and internet connection and the router becomes additional defense to others attempting to access or &quot;see&quot; your local network and computers.	St
+1.10.9	A kind of hardware firewall.	St
+1.11.1	First: In two NIC and ICS running, usually there is a configuration for each NIC (in IE, Tools, Internet Options, Connections, LAN Setting) one for file sharing and the other for internet access...You have to know which NIC for each.	St
+1.11.2	Second: prior to windows XP days, you might have to uninstall and reinstall ICS and remove and add TCP/IP protocol.	St
+1.11.3	Third: Check your TCP/IP binding.. (in windows ME, tcp/ip should be 'binding' to client microsoft network and file and printer sharing)-- (in stand alone win 9x/me, this should be unbind).	St
+1.11.4	Again its only a few thought...	St

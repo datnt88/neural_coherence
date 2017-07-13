@@ -1,0 +1,34 @@
+1.1.1	I am putting together an old computer from parts and have an old ISA SB 16 sound card.	St
+1.1.2	Running under Win ME it works BUT in SYSTEM in the control panel there is an unknown device and under that is an unsupported device.	St
+1.1.3	When I delete the unsupported device and reboot the computer finds the SB 16 and unsupported device and installs them.	St
+1.1.4	I've tried drivers and deleting the sound card but it always comes back.	St
+1.1.5	If I leave the sound card out, it is fine, so I know it is the SB 16.	St
+1.1.6	The problem is that when this happens my Linksys USB100TX responds during the Windows start up screen and shuts off before it gets to my desktop.	St
+1.1.7	Thus no network log on and I have to re-install the USB100TX causing me to have to reboot and start the cycle again.	St
+1.1.8	Any suggestions?	St
+1.2.1	Two areas may confound old hardware users.	St
+1.2.2	1.	St
+1.2.3	The ISA IRQ would have to be set in the BIOS for the SB 16 in question.	St
+1.2.4	The IRQ is either 5 or 7 depending on the make of the SB16 or its jumpers.	St
+1.2.5	The setting in the BIOS would either be &quot;LEGACY&quot; or &quot;Non-PCI/PnP&quot;.	St
+1.2.6	2.	St
+1.2.7	The motherboard drivers are not supplied by Microsoft so that is great fun to find.	St
+1.2.8	3.	St
+1.2.9	The lack of USB stability is likely item #2 or some other USB issue noted at http://www.usbman.com Too bad you didn't reveal what make/model motherboard.	St
+1.2.10	4.	St
+1.2.11	Let's be absolutely crystal clear on a very important point.	St
+1.2.12	If it works, don't fix it.	St
+1.2.13	There is NO REASON to fix a device manager item if your sound card and all is working!	St
+1.2.14	Bob	St
+1.3.1	Motherboard: VA-503+ Ver.	St
+1.3.2	1.1 USB VIA 2.0 PCI board	St
+1.4.1	IRQ for sound card: 7	St
+1.5.1	Thanks for any help that you can give me!	Polite
+1.5.2	I will check back later.	Sug
+1.5.3	I must take the wife out for Valentine's dinner and a movie.	St
+1.6.1	1.	St
+1.6.2	You know the IRQ to set in the PCI PNP/LEGACY in the BIOS, so do that.	St
+1.6.3	2.	St
+1.6.4	Links http://www.caprok.net/dave/ http://www.caprok.net/dave/FAQ.html The second link notes the IRQ Mini-port router.	St
+1.6.5	3.	St
+1.6.6	Read the 4 hits with this: http://www.google.com/search?&q=VA-503%2B++usbman Have a great Valentine's outing.	St

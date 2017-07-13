@@ -1,0 +1,53 @@
+1.1.1	For the past two months I have been searching the web for an application/software that I can use to auto upload files to a server on a schedule bases.	St
+1.1.2	Originally I thought this would be a simple matter but turns out I was wrong.	St
+1.1.3	There are many software available for this but the issues is how they all function.	St
+1.1.4	Example: One software Synchronized FTP allows you to set a local/remote folder and sync files between them.	St
+1.1.5	What was never disclosed is that you need Windows Task Scheduler to run the synchronization , and you do not see a progress indicator.	St
+1.1.6	I also tried TurboFTP but it felt like landing a space shuttle.	St
+1.1.7	I don't need all that stuff, just a simple interface.	St
+1.1.8	To shorten this message, I have tried too many to count.	St
+1.1.9	What I need is something clean, uncluttered, straightforward and can be automated.	St
+1.1.10	Example: Set it to grab a file at 2:00am and place to server.	St
+1.1.11	All I need is an application to grab a file from a local folder via SFTP/SSH and place it in a remote server folder .	St
+1.1.12	I need something that I can automate (set it and forget it).	St
+1.1.13	Have you tried anything that is robust, works every time, automated and shows you the file is there?	St
+1.1.14	I just need to upload a file.	St
+1.1.15	Thank everyone!	St
+1.2.1	&quot;I need something that I can automate&quot; I've automated such a thing too many times but I fear the real issue is that I'm over the top as to what I do.	St
+1.2.2	I write apps in languages ranging from assembler to many high level languages so what you are asking for is not what can work but something you can type in English or click around a mouse and make it go.	St
+1.2.3	I can't find that app.	St
+1.2.4	Do you have staff that can do this for you?	St
+1.2.5	Bob	St
+1.3.1	Not necessarily, I also write languages but I have never written anything for SFTP/SSH automation.	St
+1.3.2	You can still write languages in an uncluttered, straightforward environment.	St
+1.3.3	I am sure there are great applications out there but that's why I am here, maybe someone can recommend.	St
+1.3.4	Thanks for the input.	St
+1.4.1	Since most OSes have a scheduler it seems that all we need is to write the script to do the work then put it in the scheduler.	St
+1.4.2	That could be as simple as one line of script and one scheduled event.	St
+1.4.3	-&gt; Why would we turn this into some app with GUI and maybe add some skeuomorphism on top?	St
+1.4.4	That's why I think this is something of an app you may want to have written just for you.	St
+1.4.5	Bob	St
+1.5.1	That would be in your spec to the software author.	Ques
+1.5.2	Could get costly.	St
+1.5.3	One of my apps had to implement that so to avoid any copyright issues I had to get the spec for the protocol then write the transfer myself.	St
+1.5.4	This allowed me to put in a progress bar as required in the spec.	St
+1.5.5	But they pay so we write it.	St
+1.5.6	Bob	St
+1.6.1	What I am saying is it was never disclosed that the program needed Task scheduler to run.	St
+1.6.2	If you have used it you will noticed that there is an auto button which can seem like that's all you need.	St
+1.6.3	I have no problems using task scheduler but at least I need to know that it is required.	St
+1.6.4	Any other thoughts?	St
+1.7.1	However I did run into a client that demanded it not use a task scheduler.	St
+1.7.2	So we changed the words to placate the client.	St
+1.7.3	I don't know why they were so adverse to the scheduler word but phobias abound out there and as an author you learn to sing along.	St
+1.7.4	-&gt; Sorry but is there some issue beyond the norm here?	St
+1.7.5	Bob	St
+1.8.1	Based on your professional opinion and what you have done.	St
+1.8.2	Is there any application you can recommend?	Ques
+1.8.3	FYI, I am not using this to upload files from NASA to the Rover or INT'l Space station, just a very basic upload.	St
+1.9.1	Here I would have written the one line copy command (sftp and such is available on the command line with added command line apps.)	St
+1.9.2	Then scheduled it after testing.	St
+1.9.3	I could expand the script to send me the results via email or such.	Sug
+1.9.4	But it appears your spec needs to be written up and then put to some programmer to create it.	St
+1.9.5	If you don't want them to use the native task scheduler for what ever reason, tell them.	St
+1.9.6	Bob	St

@@ -1,0 +1,51 @@
+1.1.1	I use cisco vpn client ver 4.6 in win XP and try to connect to VPN gateway that have public IP.	St
+1.1.2	My computer is connected by direct cable to a router .And this router is connected to internet by PPPoE .	St
+1.1.3	I use Cisco VPN client ver 4.6 and try to connect VPN gateway .	St
+1.1.4	But It is failure.The error is 412.	St
+1.1.5	But if the same computer connect to internet by PPPoE directly and the VPN client can connect the same VPN gateway without problem .	St
+1.1.6	Why do I cannot connect VPN gateway when there is router .	St
+1.1.7	How can I fix it ???	Ques
+1.1.8	Please advice .	Sug
+1.2.1	This is one of the many reasons cisco and all other vpn vendors have gone to SSL tunneling.	St
+1.2.2	If your VPN device is newer it may support this and it uses activex and java so you do not need to install anything on the client.	St
+1.2.3	You solution mostly depends on how the VPN gateway is setup.	Sug
+1.2.4	If it only allows IPSEC then you must configure your router to pass all UDP 500 and all protocol 50 to your PC.	St
+1.2.5	Since 50 is not port it is a protocol you cannot just use simple port forwarding to make this work.	St
+1.2.6	You need to somehow forward UDP port 500 and this protocol to you virtual address.	St
+1.2.7	How exactly you do this really depends on the router.	St
+1.2.8	If your VPN gateway can run NATT you need to make sure UDP Port 4500 passes your router.	St
+1.2.9	Since you are having a issue I suspect your router does not support NATT by default.	St
+1.2.10	You should be able to map UDP port 4500 to your PC.	St
+1.2.11	You may have to change your VPN client to force it to run NATT but the VPN gateway must be configured to accept this also.	St
+1.2.12	Your last option if you are using certain cisco gateways and clients is to use IPSEC over TCP.	St
+1.2.13	This is a something only cisco supports.	St
+1.2.14	This only requires the option to be available on both the VPN gateway and the client it does not require any change on your router.	St
+1.2.15	If you have the option I would go to the new SSL VPN these tend to work on almost any machine and behind any router.	St
+1.3.1	The VPN gateway configuration cannot be changed .	St
+1.3.2	So, I can only change the configure in router and the computer or re-install the cisco VPN client .	St
+1.3.3	Any thing I can do in order to fix it ???	St
+1.3.4	?what version of vpn client I need to install and what is the configuration ???	St
+1.3.5	Please advice in detailed .	St
+1.4.1	You need to know which of the many options the gateway is using.	St
+1.4.2	It is unlikely it is the client since it works without the router so reinstall is most likely a waste of time.	St
+1.4.3	The latest verison of the client would always be best but unless you have a service contract on your gateway you will not be allowed to download it from the cisco site.	St
+1.4.4	I really can only provide general guidance since it is impossible to know the details of every router out there.	St
+1.4.5	Almost all routers have the ability to forward ports or place a PC in a DMZ but exactly how you do it varies widely.	St
+1.4.6	Still even if I or someone else on this board had your exact router you need to know what options the gateway expects.	St
+1.4.7	I suspect you are going to have to call your IT department and ask them how they have configured the VPN gateway.	St
+1.4.8	They should be able to tell you which gateway option they are using which will tell you which ports you must deal with in your router.	St
+1.4.9	Hopefully they have some recommended router configuration to help.	St
+1.4.10	Unfortunately they may tell you that they do not support your router and you need to buy one that is on their list.	St
+1.4.11	More than likely you can get your router to work but unless IT can give you the configuration you are going to have to learn how things like IPSEC really work.	St
+1.4.12	This cost to IT to support end users is the key reason many companies toss these old VPN solutions in the trash and pay big money to replace the gateways.	St
+1.4.13	The reduction of the end user support cost quickly save money.	St
+1.5.1	Put that PC into the DMZ.	St
+1.5.2	Now a comment.	St
+1.5.3	VPN on some routers is broken, busted, non-functional and may contain an tar pit.	St
+1.5.4	You learn quickly to try the DMZ, a few settings, research the internet but limit your time to a few minutes before swapping out the router.	St
+1.5.5	Bob	St
+1.6.1	I forgot to mention that once we install PPPOE onto a PC that WINSOCK is forever suspect and may not be supportable or even repairable.	St
+1.6.2	It may interfere with use on a router.	St
+1.6.3	In one extreme case it was not repairable until we reinstalled the OS.	St
+1.6.4	We tried but after hours on the phone with Microsoft we knew it was time to move on.	St
+1.6.5	Bob	St

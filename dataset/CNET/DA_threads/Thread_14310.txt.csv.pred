@@ -1,0 +1,32 @@
+1.1.1	I have a Compaq Presario with an 1.4GHz Intel Celeron Processor.	St
+1.1.2	It is equipped with a Realtek Ethernet and a Broadcom 802.11b/g WLAN.	St
+1.1.3	Until yesterday I was able to connect to any available network but now the system fails to connect and gives the following message: &quot;make sure the wireless switch on your computer is on&quot;.	St
+1.1.4	I heard this problem is not uncommon but I have no idea what to do.	St
+1.1.5	Can anybody help, please?	St
+1.2.1	Hey there augusto1940, At this point it could be one of many things.	St
+1.2.2	Let's start with a few questions, going from most obvious to least obvious -- you never know what it might be: 1) Does your Compaq have a wireless on/off button?	St
+1.2.3	Typically there are two types: a toggle switch (which could have been toggled merely by friction in your laptop case), or a function key (usually activated by pressing the Fn key plus one of the F keys).	St
+1.2.4	2) Have you tried right-clicking on the wireless network icon and hitting &quot;Repair&quot;?	St
+1.2.5	3) Has your laptop been dropped, bumped, or suffered any other kind of impact?	St
+1.2.6	4) Have you recently installed driver updates, via MS Automatic Updates or otherwise?	St
+1.2.7	5) Has your wireless card been disabled?	St
+1.2.8	You can check by looking at the &quot;Network Connections&quot; section in Start &gt; Settings.	St
+1.2.9	6) Does your Compaq have any kind of &quot;smart features&quot;, such as automatic deactivation of the ethernet and/or wireless card when the machine goes on battery power?	St
+1.2.10	This is a rather troublesome feature that I've seen on Dell laptops... HTH, Red.	St
+1.3.1	Thanks for the reply.	St
+1.3.2	I have tried most of what you are recommending.	St
+1.3.3	I toggled the Fn key with F2 with no result.	St
+1.3.4	I also tried the repair process but the outcome is still the same message.	St
+1.3.5	I have not run the windows update recently since I have no internet connection.	St
+1.3.6	The laptop has suffered no bumping or other damage.	St
+1.3.7	Any other suggestions?	St
+1.4.1	Hi again augusto, Looks like it's time to roll up the ol' sleeves and get dirty.	St
+1.4.2	Here are a couple more things you can try: 1) Check out the Device Manager under the Hardware tab of your System settings (Right-click ''My Computer'' and hit Properties).	St
+1.4.3	2) Check if there are any pre-existing diagnostic tools on your compaq.	St
+1.4.4	If there are, they may be useful to detect a hardware failure.	St
+1.4.5	If you do not have diagnostic tools on your system, you may want to check the compaq website from another computer, download them to a USB disk and try them out from your laptop.	Sug
+1.4.6	3) If those two things check out, one thing you could try is to use a portal operating system to see if the problems are software- or hardware-related.	St
+1.4.7	Using slax or Bart PE, try connecting to the wireless network.	St
+1.4.8	You can get them by googling for them (from another PC, of course).	St
+1.4.9	Just thought of one more possibility: do you have iPass on your computer?	St
+1.4.10	I have a user who had just recently downloaded an update of the iPass client and, when he'd try to connect to his home LAN, would be unable to do so because iPass taking precedence over his wireless zero config... Take care, Red.	St

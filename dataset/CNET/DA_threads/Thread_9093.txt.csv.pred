@@ -1,0 +1,20 @@
+1.1.1	I need to add some extra IDE discs to my server but already have 3 and a CD drive in it.	St
+1.1.2	If I buy a seperate PCI IDE controller, will it work alongside the existing one in the motherboard allowing me another 4 drives or will there be a conflict?	St
+1.1.3	I've had a look around various web sites but can't find anything that answers this question.	St
+1.1.4	Thanks,	St
+1.2.1	&quot;I've had a look around various web sites but can't find anything that answers this question.&quot; The question is a little unclear to me.	St
+1.2.2	Maybe you want some controller that will &quot;just work&quot; without all the hoopla of drivers and more.	St
+1.2.3	The short answer is that there was no standard in the basic design for this so you step off into drivers and more.	St
+1.2.4	You also may have skipped the usual suspect of Promise Technology which has the cards, and you can read the manuals.	St
+1.2.5	Here's their web site http://www.promise.com http://www.promise.com/support/file/manual/FT66_Manual_En.pdf for example is a manual for one of the products.	St
+1.2.6	As you can tell, you can't put CDROM type devices on it.	St
+1.2.7	But that's not a big deal since the hard disks (4) can go on the Promise and the CDROM (4) units can be on your motherboard.	St
+1.2.8	When allocating Watts for each drive, use about 30 Watts per drive.	St
+1.2.9	http://www.tomshardware.com/howto/20021021/powersupplies-02.html can get you some other numbers so you don't overtax the PSU.	St
+1.2.10	Bob Bob	St
+1.3.1	You need to give a lot more info to get this right.	St
+1.3.2	What brand/model server do you have?	St
+1.3.3	Is it a brand name or a clone?	St
+1.3.4	Is there even room inside for more drives?	St
+1.3.5	Are the existing drives SCSI or IDE (many servers use SCSI drives).	St
+1.3.6	You might consider adding a Snap Server to the network to add disk space instead of adding more drives to the system.	St

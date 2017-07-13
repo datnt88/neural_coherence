@@ -1,0 +1,41 @@
+1.1.1	http://www.infoworld.com/print/152263 Not that a user can't erase something and continue to use the SSD, its that data really isn't quite gone.	St
+1.1.2	Yes, the data can overwrite a previous file but unlike plater media(discs) the data can possibility be retrieved.	St
+1.1.3	So, anyone planning on donating or passing on an used SSD, beware typical erasure routine are NOT 100% secure.	Ques
+1.1.4	However, someone wanting that data would have to be pretty savvy to get it.	St
+1.1.5	The article though explains what is going on.	St
+1.1.6	Best method, use hammer the old stand-by.	St
+1.1.7	tada -----Willy	St
+1.2.1	My example would be a failed sector that was replaced with SMART reallocation.	St
+1.2.2	It appears no mechanism is provided for full erasure there is possible except for hammers, grinders and furnaces.	St
+1.2.3	Bob	St
+1.3.1	If you recall, I was looking into SSD on other matters.	St
+1.3.2	I though this article somewhat enlightening.	St
+1.3.3	To add to my current knowledge of &quot;leveling&quot; or the SSD refraining from using the same area over and over again.	St
+1.3.4	Pointed in the article how they(makers) jump all over the SSD in order to balance the allocation of data from hitting the same place especially after a R/W so it doesn't get worn out.	St
+1.3.5	Because its nature is different from discs, the process varies.	St
+1.3.6	As such, the end result won't be so complete of erasure.	St
+1.3.7	What, I found interesting, they took out the ram chips themselves and extracted data, that's more than I could do.	St
+1.3.8	It would be a step above the &quot;solder of broken lands&quot; fix with flash drives.	St
+1.3.9	The complexity of SSD makes repair not typical for a home user, excluding some hot tips that get out there over time.	St
+1.3.10	So, if you can't erase under normal that well, it may have recovery process more successful than I thought with a workshop involved.	St
+1.3.11	-----Willy	St
+1.4.1	I've just moved away from SSDs because of this very problem.	St
+1.4.2	SSD's degrade very quickly because the OS is continuously deleting from and writing to the disk.	St
+1.4.3	However, SSDs do not delete correctly in the way HDDs do.	St
+1.4.4	SSDs store data in Blocks within Pages.	St
+1.4.5	If data in a block needs overwriting then the whole page needs to be copied to some other location, the original page wiped clean, and the original data minus the data to be deleted is returned.	St
+1.4.6	This should all be done by the SSD software, but as I understand it, that is not being done.	St
+1.4.7	So the blocks remain undeleted and the SSD software therefore marks those blocks as unavailable for further use.	St
+1.4.8	That mounts up until disk space begins to be a problem.	St
+1.4.9	That is why TRIM is so important.	St
+1.4.10	http://www.makeuseof.com/tag/why-trim-important-to-solid-state-hard-drives/ Trim limits the amount of writing to disk that the OS does by preventing processes like Superfetch, Prefetch, Shadow Copying, Indexing, and similar.	St
+1.4.11	Windows 7 supports TRIM but earlier OSes do not.	St
+1.4.12	However, even TRIM cannot prevent writing to disk and deleting from disk.	St
+1.4.13	That's a very simplified view of course, and very amateurish from me, but it shows the problems even of using SSD technology in Windows.	St
+1.4.14	Personally I feel this big push in the Retail Market towards SSD systems is a time bomb waiting to blow up.	St
+1.4.15	I know Intel are working on a controller that will manage SSD deletion properly, but I don't know how close to market they are with it.	St
+1.4.16	My own Vista system had two SSDs in RAID 0 format.	St
+1.4.17	It was experimental but the experiment failed for me.	St
+1.4.18	The SSDs failed very quickly, and so I moved to the more traditional HDD.	St
+1.4.19	I'm not ready for SSD yet.	St
+1.4.20	Mark	St

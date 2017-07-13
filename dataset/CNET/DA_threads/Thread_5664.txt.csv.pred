@@ -1,0 +1,43 @@
+1.1.1	Dell Dimension 4100 running XP SP2 This is really odd... sometime in the last week, the two DVD burners on my system have downgraded themselves to CD.	St
+1.1.2	When I look at my system on Windows Explorer it shows my two drives as DVD-RW drives.	St
+1.1.3	But if I put a DVD in either one, I get the message &quot;No disk in Drive&quot; and now Explorer says the drive is a CD-RW.	St
+1.1.4	If I put a CD in, everything looks fine, and indeed I have burned a couple of CD-RWs with no problem.	St
+1.1.5	Control Panel - System says my two drives are working properly.	St
+1.1.6	I haven't installed any software or hardware lately, but just in case, I restored my XP to two weeks ago ... still no help.	St
+1.1.7	Is it possible I have a problem with my IDE channel?	St
+1.1.8	Any Ideas or suggestions?	St
+1.1.9	Thanks in advance Perry B	St
+1.2.1	XP knows nothing about DVD recording and this issue is widely reported.	St
+1.2.2	The good thing is that CD/DVD recording works fine even if the drive type is not right according to Windows.	St
+1.2.3	There is however another failure here.	St
+1.2.4	Try the usual hardware removal in the device manager and remove the upper and lowerfilters (see google.)	St
+1.2.5	Bob	St
+1.3.1	I want to be clear about your advice, since I haven't played with this kind of problem before.	St
+1.3.2	(I should mention that my burner definitely will not burn a DVD.	St
+1.3.3	The burn software detects that there is no DVD blank present, and terminates.	St
+1.3.4	It burns CDs just fine) By 'the usual hardware removal', do you mean remove the device in device manager, or physically remove the device, or both?	St
+1.3.5	Then I think I can navigate the upper/lower filters thing.	St
+1.3.6	Although, should I try that first, and see if the problem clears?	St
+1.3.7	Thanks again for your help Perry B	St
+1.4.1	2.	St
+1.4.2	Example about those registry entries -&gt; http://support.microsoft.com/kb/270008 In closing, I can't count how many will reply the error message doesn't show on their machine and fail to remove the noted registry entries.	St
+1.4.3	I won't explain further that I use the articles for how/what to remove.	St
+1.4.4	Bob	St
+1.5.1	I will proceed as you advise.	St
+1.5.2	Perry B	St
+1.6.1	NIL	St
+1.7.1	The advice above is what should be a first response given the symptoms.	St
+1.7.2	There are other symptoms which change the answer but this one is fairly safe (as safe as can be!)	St
+1.7.3	so we always give it a shot with these symptoms.	St
+1.7.4	Bob	St
+1.8.1	but can not figure out how to remove the upper and lower filters.	St
+1.8.2	Any guidance would be appreciated.	St
+1.8.3	Thanks, Guy	St
+1.9.1	Find a friend that knows about this to help you.	St
+1.9.2	The instructions are there but not everyone should be doing this so it's ok to get help locally at times.	St
+1.9.3	Bob	St
+1.10.1	when I rum regeidt and look at the key in the MS article you posted I don't see anything called upper or lower filters.	St
+1.11.1	This paper has the procedure for changing the registry.	St
+1.11.2	http://support.microsoft.com/kb/314060 Perry B	St
+1.12.1	&quot;&quot;SYMPTOMS When you select the Burn CD/DVD option in Microsoft Windows XP Media Center Edition 2005, you receive the following error message: CD/DVD RECORDER REQUIRED Ensure that you have a CD or DVD recorder installed, and select Create CD/DVD Additionally, the following Error event is logged in the Application log: Event Type: Error Event Source: SonicMCEBurnEngine CAUSE This issue occurs if the Sonic Solutions burn engine that is included in Windows XP Media Center Edition 2005 is not correctly registered on the computer.	St
+1.12.2	RESOLUTION	St

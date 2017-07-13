@@ -1,0 +1,71 @@
+1.1.1	Greetings, I am having BSODs with what seems to be increasing frequency.	St
+1.1.2	The BSODs are not software specific and occur idle, in Word, and using Internet Explorer.	St
+1.1.3	They started on 1/17/2010 and continue to this day.	St
+1.1.4	I have used several programs scanning for malware/viruses and everything is good there.	St
+1.1.5	I am running an HP desktop w/32-bit Vista.	St
+1.1.6	I have included one of the latest BSOD minidump reports for reviewing in hopes it will help pinpoint a problem.	St
+1.1.7	I see &quot;memory corruption&quot; in it and ran memtest and it passed with 0 errors and also performed a memory stress test which was successful as well.	St
+1.1.8	Any help would be MUCH appreciated!!	St
+1.1.9	Microsoft Windows Debugger Version 6.11.0001.404 X86 Copyright Microsoft Corporation.	St
+1.1.10	All rights reserved.minidump report Loading Dump File [C:\Windows\Minidump\Mini041510-11.dmp] Mini Kernel Dump File: Only registers and stack trace are available WARNING: Whitespace at end of path element Symbol search path is: SRV*c:\symbols* http://msdl.microsoft.com/download/symbols Executable search path is: Windows Server 2008/Windows Vista Kernel Version 6002 (Service Pack 2) MP (2 procs) Free x86 compatible Product: WinNt, suite: TerminalServer SingleUserTS Personal Built by: 6002.18209.x86fre.vistasp2_gdr.100218-0019 Machine Name: Kernel base = 0x8281d000 PsLoadedModuleList = 0x82934c70 Debug session time: Thu Apr 15 23:10:40.587 2010 (GMT-5) System Uptime: 0 days 0:01:42.259 Loading Kernel Symbols ............................................................... ................................................................ ........................ Loading User Symbols Loading unloaded module list ..... ******************************************************************************* * * * Bugcheck Analysis * * * ******************************************************************************* Use !analyze -v to get detailed debugging information.	St
+1.1.11	BugCheck 1000008E, {c0000005, 82862fbc, 817cc28b, 0} Unable to load image \SystemRoot\System32\Drivers\aswFsBlk.SYS, Win32 error 0n2 *** WARNING: Unable to verify timestamp for aswFsBlk.SYS *** ERROR: Module load completed but symbols could not be loaded for aswFsBlk.SYS Probably caused by : memory_corruption Followup: memory_corruption --------- 1: kd&gt; !analyze -v ******************************************************************************* * * * Bugcheck Analysis * * * ******************************************************************************* KERNEL_MODE_EXCEPTION_NOT_HANDLED_M (1000008e) This is a very common bugcheck.	St
+1.1.12	Usually the exception address pinpoints the driver/function that caused the problem.	St
+1.1.13	Always note this address as well as the link date of the driver/image that contains this address.	St
+1.1.14	Some common problems are exception code 0x80000003.	St
+1.1.15	This means a hard coded breakpoint or assertion was hit, but this system was booted /NODEBUG.	St
+1.1.16	This is not supposed to happen as developers should never have hardcoded breakpoints in retail code, but ...	St
+1.1.17	If this happens, make sure a debugger gets connected, and the system is booted /DEBUG.	St
+1.1.18	This will let us see why this breakpoint is happening.	St
+1.1.19	Arguments: Arg1: c0000005, The exception code that was not handled Arg2: 82862fbc, The address that the exception occurred at Arg3: 817cc28b, Trap Frame Arg4: 00000000 Debugging Details: ------------------ EXCEPTION_CODE: (NTSTATUS) 0xc0000005 - The instruction at 0x%08lx referenced memory at 0x%08lx.	St
+1.1.20	The memory could not be %s.	St
+1.1.21	FAULTING_IP: nt!memmove+bc 82862fbc 3086829023d1 xor byte ptr [esi-2EDC6F7Eh],al TRAP_FRAME: 817cc28b -- (.trap 0xffffffff817cc28b) ErrCode = 00000002 eax=00000000 ebx=85278d22 ecx=00000000 edx=00000002 esi=acc9bc4a edi=85279d5c eip=82862fbc esp=817cc2ff ebp=817cc308 iopl=0 nv up ei ng nz ac pe nc cs=0008 ss=0010 ds=0023 es=0023 fs=0030 gs=0000 efl=00010296 nt!memmove+0xbc: 82862fbc 3086829023d1 xor byte ptr [esi-2EDC6F7Eh],al ds:0023:7ded4ccc=??	St
+1.1.22	Resetting default scope CUSTOMER_CRASH_COUNT: 11 DEFAULT_BUCKET_ID: CODE_CORRUPTION BUGCHECK_STR: 0x8E PROCESS_NAME: Mcshield.exe CURRENT_IRQL: 0 UNALIGNED_STACK_POINTER: 817cc2ff LAST_CONTROL_TRANSFER: from 8285a9f7 to 82862fbc STACK_TEXT: 817cc308 8285a9f7 85279d22 acc9bc10 0000002c nt!memmove+0xbc 817cc328 807b5ee3 85279ce0 0000003c 00000000 nt!RtlAppendUnicodeStringToString+0x43 817cc34c 807b6721 8526c850 8526c840 817cc378 fltmgr!FltpGetFileNameFromFileObject+0x1cf 817cc35c 807b3a08 8526c850 89e46bb0 8526c850 fltmgr!FltpGetOpenedFileName+0x49 817cc378 807b419d 8526c850 89e46bb0 8526c850 fltmgr!FltpCallOpenedFileNameHandler+0x8a 817cc390 8079ee3b 8526c850 00000000 8526c850 fltmgr!FltpCreateFileNameInformation+0x79 817cc3b0 8079ef88 87a058dc 00000000 00000000 fltmgr!HandleStreamListNotSupported+0x125 817cc3e0 8079f654 c00000ab 88cee0a8 89de8388 fltmgr!FltpGetFileNameInformation+0xc6 817cc408 9009f898 00e46bb8 00000102 817cc428 fltmgr!FltGetFileNameInformation+0x120 817cc424 807b39cd 88b763e8 89eb8f80 89e46bb8 luafv!LuafvGenerateFileName+0x55 817cc454 807b6760 89de8388 89e46bb0 89de8388 fltmgr!FltpCallOpenedFileNameHandler+0x4f 817cc470 807b6f0b 89de8388 89e46bb0 8a182144 fltmgr!FltpGetNormalizedFileNameWorker+0x6 817cc488 807b41a5 89de8388 89e46bb0 89de8388 fltmgr!FltpGetNormalizedFileName+0x19 817cc4a0 8079ee3b 89de8388 00000000 89de8388 fltmgr!FltpCreateFileNameInformation+0x81 817cc4c0 8079ef88 87a058c0 00000000 00000000 fltmgr!HandleStreamListNotSupported+0x125 817cc4f0 8079f654 c00000ab 817cc540 817cc584 fltmgr!FltpGetFileNameInformation+0xc6 817cc518 900dda34 00e46bb8 00000101 817cc52c fltmgr!FltGetFileNameInformation+0x120 WARNING: Stack unwind information not available.	St
+1.1.23	Following frames may be wrong.	St
+1.1.24	817cc560 900dd7e5 817cc5a0 89e46bb8 817cc584 aswFsBlk+0x1a34 817cc590 80799809 00120181 817cc5b0 817cc5d0 aswFsBlk+0x17e5 817cc5ec 8079bff8 817cc62c 00000000 88de0dbc fltmgr!FltpPerformPreCallbacks+0x2e5 817cc600 807aefc0 817cc62c 807ad88c 00000000 fltmgr!FltpPassThroughInternal+0x32 817cc614 807af621 817cc62c 88de0c08 89893c64 fltmgr!FltpCreateInternal+0x24 817cc658 828619c6 87a01160 87a055d0 89eb8fdc fltmgr!FltpCreate+0x27f 817cc670 82a5c195 62a8de03 89db2394 8704ec18 nt!IofCallDriver+0x63 817cc684 828593a5 110f4a1f 817cc6a8 00000000 nt!IopParseDevice+0xf61 00000000 00000000 00000000 00000000 00000000 nt!PfLogFileDataAccess+0xf4 STACK_COMMAND: kb CHKIMG_EXTENSION: !chkimg -lo 50 -db !nt 2 errors : !nt (82862ed8-82862fb8) 82862ed0 90 90 90 90 90 90 90 90 *80 90 90 90 90 90 90 90 ................ ... 82862fb0 02 83 f9 08 72 a6 f3 a5 *ef 24 95 4c 30 86 82 90 ....r....$.L0... MODULE_NAME: memory_corruption IMAGE_NAME: memory_corruption FOLLOWUP_NAME: memory_corruption DEBUG_FLR_IMAGE_TIMESTAMP: 0 MEMORY_CORRUPTOR: STRIDE FAILURE_BUCKET_ID: MEMORY_CORRUPTION_STRIDE BUCKET_ID: MEMORY_CORRUPTION_STRIDE Followup: memory_corruption	St
+1.2.1	post; it occurs to me that the source of your troubles lies in the memory, as it is stated throughout the debugging as 'Memory Corruption'.	St
+1.2.2	You state that you have run a memory stress test, but do not state which one, here is a link for memtest86+ which will definitely show where your memory is corrupted.	St
+1.2.3	http://memtest86.en.softonic.com/	St
+1.3.1	Sorry for long post, wanted to get all the info I had out there.	St
+1.3.2	Yes, I used memtest86+ and it found 0 errors.	St
+1.3.3	I used the Hardware Diagnostics Tool in Windows Vista for the stress test.	St
+1.4.1	Sorry, but it doesn't really take a tech wizard to see that your memory is at fault; all reports show that there is corrupted memory in the system, therefore resulting in BSOD.	St
+1.5.1	You paid dearly for that OS.	St
+1.5.2	Now talk to the machine's maker and Microsoft about getting your money's worth.	St
+1.5.3	I'd comment about the failure but look at what you posted.	Polite
+1.5.4	It's incomplete but when I saw Windows Server 2008 I thought what a lucky person you were to have paid so much for that system.	St
+1.5.5	Bob	St
+1.6.1	What additional information would you like?	St
+1.6.2	I have about 30 BSOD Minidumps since 1/17/10 that I could provide.	St
+1.6.3	Would a system restore to factory settings be worth a shot?	St
+1.6.4	I guess that if things still are haywire it would pretty much cingle out the memory, right?	St
+1.6.5	I just can't beleive that the memory passed the memtest86+ and a stress test if it is faulty.	St
+1.6.6	Is that possible?	St
+1.6.7	Thank you!	St
+1.7.1	Why then does my memory pass ever test I have put it through?	St
+1.7.2	I am perplexed by this and my your snideness as well.	St
+1.8.1	Windows Server 2008 is a many thousand buck investment on Server Grade machines.	St
+1.8.2	You should be hammering the supplier of the machine to get your SERVER up and stable.	St
+1.8.3	Bob	St
+1.9.1	didn't mean to come across as being 'snide'.	St
+1.9.2	You should heed the advice of Mr. Proffit though, and contact both the supplier of your computer AND Microsoft and get the rest of your SERVER programs sorted out.	Sug
+1.9.3	This could be the point of your troubles as well...having at least 1 incomplete program installed on your system.	St
+1.10.1	I see AVAST in that log.	St
+1.10.2	http://forum.avast.com/index.php?topic=41382.0 noted this and they issued some fix/patch.	St
+1.10.3	Avast must have cost quite the pile of cash for WINDOWS SERVER 2008.	St
+1.10.4	I see it's 399 US DOLLARS so here's my advice.	St
+1.10.5	FOLLOW THE MONEY.	St
+1.10.6	Get the folk you paid for all this to support you.	St
+1.10.7	Bob	St
+1.11.1	I see Mcshield.exe in that dump.	St
+1.11.2	That's McAfee, not Avast.	St
+1.11.3	While aswFsBlk.SYS is from Avast.	St
+1.11.4	Could it be these programs don't like each other running?	St
+1.11.5	Kees	St
+1.12.1	Yes I think that should be explored.	St
+1.12.2	I started investigating the antivirus issue last night and will continue again after returning home.	St
+1.12.3	I uninstalled Avast and will be uninstalling McAfee this evening.	St
+1.12.4	I will then reinstall Avast and see what happens and report back.	St
+1.13.1	If there is a lesson here it's not to put more than one antivirus on such a machine.	St
+1.13.2	I'd still want to hear what all those folk/companies have to tell you have spending a few thousand in Server 2008, and those many hundred buck antivirus packages.	St
+1.13.3	You are out a lot of money here.	St
+1.13.4	Bob	St

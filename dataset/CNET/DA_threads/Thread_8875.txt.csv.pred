@@ -1,0 +1,44 @@
+1.1.1	Hallo, We have a storage array arranged at as a High availability cluster (So everything I described is doubled for redundancy) consisting of a Dell PowerEdge 1950 server, 5 iSCSI disk storage Dell MD3000i + 2 Dell MD1000 extensions and sevral one and two TB SATA disks connected to the storrage array trough interposer boards.	St
+1.1.2	Now we want to add more storrage and I was thinking of adding Seagate Barracuda 3TB 7200RPM (ST3000DM001) disks.	St
+1.1.3	But I read that MD3000i drivers can't handle 3TB disks and that there is a 2TB disk limit.	St
+1.1.4	Does anybody have more information about this or exprience with adding 3TB disks to an MD 3000 storrage array?	St
+1.2.1	Certainly Dell can answer this question.	St
+1.2.2	I assume you have a maintenance contract with them, since the hardware seems rather critical for your company.	St
+1.2.3	So why not go with what Dell supports, even if it isn't a Seagate disk?	Sug
+1.2.4	Kees	St
+1.3.1	I'd not get too excited about 3TB drives.	St
+1.3.2	Backup is getting to be a chore as it is.	St
+1.3.3	I'd re-evaluate why the space is needed and move stuff to other storage areas.	St
+1.3.4	Bob	St
+1.4.1	I actually send a mail to Dell customer support with this question about a week ago and haven't gotten a reply yet.	St
+1.4.2	I am not particularity attached to Seagate disks any 3 TB 7200rpm 3.5&quot; SATAu disk is good.	St
+1.4.3	I just used those as a reference since a couple of the disks we bought from Dell were made by Seagate.	St
+1.5.1	Believe it or not the storage array is not a backup system.	St
+1.5.2	Its part of a NASA/ESA project in order to distribute data from the Solar Dynamic Observatory satellite.	St
+1.5.3	This satellite sends about 1,5 Terabite of data to the earth every day.	St
+1.5.4	At our site we keep about six months worth of data to distribute among scientists.	St
+1.5.5	Data older then six months is deleted.	St
+1.5.6	Adding more storage means we can keep data for a longer time period or keep more interesting events.	St
+1.5.7	If we were to lose data we would download it from an other site.	St
+1.5.8	The reason to order now is because at the end of the year the budget is either spend or lost.	St
+1.6.1	You may want to ask if there is firmware in the works to extend this to 3 and more TB drives.	St
+1.6.2	Bob	St
+1.7.1	3Tb is a rather large HD that the OS has to handle, which at times can be troublesome on its own.	St
+1.7.2	The technical specs offer it can handle that, but you HD enclosure may have limits in how it handles any HD larger or not OEM to it.	St
+1.7.3	Controller(or think replacement) may require a firmware update in order to handle these 3Tb drives, so you have to review the specs or visit the maker's support website.	St
+1.7.4	Query there or flat out ask them as well.	St
+1.7.5	All this I mention is a &quot;huge assumption&quot; for even regular PC's this is a huge step.	St
+1.7.6	You can check Dell's &quot;upgrades site&quot; maybe accessories and see if they offer this as an option or path.	Sug
+1.7.7	-OR- see if any newer Dell servers offer a similar solution to include the 1950.	St
+1.7.8	On a similar topic, users of NAS type setups have not always been easy for 3Tb or simply can't be done.	St
+1.7.9	You have a deadend setup, however in many cases 2Tb HDs seem to work, again all the above applies.	St
+1.7.10	Oh!	St
+1.7.11	woo is the budget.	St
+1.7.12	Just order them, even if not used in your task, they won't sit long if they become part of stock wares.	St
+1.7.13	Though, I lean with 2Tb drives for now.	St
+1.7.14	example: http://accessories.us.dell.com/sna/category.aspx?c=us&l=en&s=bsd&cs=04&mfgpid=167752&chassisid=8743&ST=dell+poweredge+1950+server&dgc=ST&cid=256432&lid=4560128&acd=sQBb0089R&p=3 Need not buy from them, but you see what they offer.	St
+1.7.15	tada -----Willy	St
+1.8.1	I got a reply from Dell.	St
+1.8.2	They told me that 2TB is the maximum and since they stopped selling MD3000i controllers, it will remain the maximum.	St
+1.8.3	So we went with the 2TB disks Thanks for the help.	St
+1.9.1	NIL	St

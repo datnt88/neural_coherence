@@ -1,0 +1,29 @@
+1.1.1	HEy everyone, I'm running a Dell Dimension 4700 PC and I have recently just bought a MSI 7600gs graphics card to replace onboard graphics.	St
+1.1.2	I plug it into my PCI-E slot and everything is fine, the fan spins and it seems alright.	St
+1.1.3	However, I un-installed and disabled the onboard drivers and plugged my monitor into the card.	St
+1.1.4	I get nothing, my monitor doesn't even recognize a new device in the system.	St
+1.1.5	I went into the BIOS and made sure it was set on 'AUTO' to read new devices, and it was set.	St
+1.1.6	This is the first time I am using the PCI-E slot, is there anything I have to do to activate the slot?	St
+1.1.7	Any help would be greatly appreciated.	St
+1.1.8	Thank You	St
+1.2.1	The version of motherboard driver package you used.	St
+1.2.2	Also try setting the &quot;Init display&quot; to PCIe or others.	Sug
+1.2.3	Sorry if that isn't the right words for your BIOS but there is no standard so I just look to see if it's an option.	St
+1.2.4	Also, some of these boards need a power supply connection.	St
+1.2.5	I note this in case yours did and you forgot.	St
+1.2.6	Bob	St
+1.3.1	No power supply connection needed.	Polite
+1.3.2	Did you let the generic windows driver install before installing new drivers?	St
+1.4.1	it does not notice the card at all, it notices the onboard graphics after i uninstalled the drivers, but not the new card.	St
+1.4.2	and the BIOS says nothing about any pci-e slot.	St
+1.5.1	According to the Dell site that computer has 2 PCIe slots.	St
+1.5.2	one is a x16 the other a x1.	St
+1.5.3	I know that card (as I have the same card) is a x16 and I don't know what putting it in the x1 slot would do.	St
+1.5.4	It also takes a minimum 300 watt power supply and I couldn't find what the 4700 comes with.	St
+1.5.5	It also mentions that you have to tell what slot you are putting the card into for it to work.	St
+1.5.6	Hope that helps.	St
+1.5.7	Wayne	St
+1.6.1	http://downloadcenter.intel.com/filter_results.aspx?strTypes=all&ProductID=816&OSFullName=Windows*+XP+Home+Edition&lang=eng&strOSs=45&submit=Go%21 See item 2 &quot;	St
+1.7.1	I only see one pcie slot in the system.	St
+1.7.2	And it is right over what appears to be pci slots, i'm not sure though.	St
+1.7.3	I don't see a second pci-e slot	St

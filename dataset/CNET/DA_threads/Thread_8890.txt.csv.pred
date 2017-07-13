@@ -1,0 +1,19 @@
+1.1.1	I've been tasked with giving users in our main office the ability to print to our other buildings.	St
+1.1.2	Right now the external offices connect via Citrix to access our database and files, but I'm assuming I want to leave Citrix out of this.	St
+1.1.3	The external offices already have a static ip address for the cable internet connection and the printer is connected to the router in that external office.	St
+1.1.4	I'm having a difficult time finding solutions online.	St
+1.1.5	What do I need?	St
+1.1.6	Print Servers at the external locations?	St
+1.1.7	Some sort of VPN voodoo?	St
+1.1.8	Any assistance would be greatly appreciated.	St
+1.1.9	This is an all windows environment, all workstations are XP and the servers at the main office are Windows Server 2000 (for Citrix) and Server 2003 for everything else.	St
+1.2.1	It seemed like magic to some but we had no interest in putting a printer on a print server or &quot;share&quot; or other solution because the printer drivers would kill our support staff and budget.	St
+1.2.2	Here's how we solved it.	St
+1.2.3	We created a network share and if you put a .PDF file there it gets printed then deleted from that directory.	St
+1.2.4	This is not an offer to write in detail about the batch file that runs this print job but to share we knew the pitfalls of attempting a printer share.	St
+1.2.5	Bob	St
+1.3.1	What I did to enable this was installed the printer at each external office as a network printer (via ethernet cable to the router).	St
+1.3.2	Then I went into the router settings and set up port forwarding for Port 9100 to go to the printer's IP address.	St
+1.3.3	From my main office I used the Add Printer Wizard, selected Local Printer, created a TCP/IP port, and put in the static IP address for the external office.	St
+1.3.4	I had to have the drivers at the main office to install them easily.	St
+1.3.5	This works fine now.	St

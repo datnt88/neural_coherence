@@ -1,0 +1,46 @@
+1.1.1	Hey Guys, I not a wiz with computers but I know a little bit.	St
+1.1.2	The issue I'm having is with my USB ports.	St
+1.1.3	Since I had to change my motherboard I can't get anything to work when I plug it into the usb ports.	St
+1.1.4	Everytime I plug something in it it comes up with the &quot;This is new hardware lets search for drivers&quot; and even if it finds some drivers on the system it still doesn't work.	St
+1.1.5	Have tried going into devices and uninstalling usb ports but when it reboots it asks for drivers for the ports then doesn't work again.	St
+1.1.6	This is even with things like simple usb flash drives.	St
+1.1.7	I looked on the bios and everything seems to be enabled.	St
+1.1.8	I don't know about IRQ setting they could be wrong.	St
+1.1.9	Could someone help please?	St
+1.1.10	Thanks	Polite
+1.2.1	needs the USB drivers.	St
+1.2.2	Did you install them?	St
+1.3.1	the motherboard was done at a pc store.	St
+1.3.2	Don't know if they installed usb drivers but in bios it's enabled.	St
+1.3.3	How would I check and where would I go to get drivers?	St
+1.4.1	Right click My Computer.	St
+1.4.2	Click Properties, click the Hardware tab, then Device Manager.	St
+1.4.3	Scroll down to the Universal Serial Bus controllers and click the plus sign.	St
+1.4.4	If the drivers are installed all the USB ports will be listed.	St
+1.4.5	If USB-2 is installed there will be an entry for Enhanced Host Controller.	St
+1.5.1	In the device manager under universal serial bus controllers there are 3x SiS 7001 PCI to USB Open Host Controller, 1x SiS PCI to USB Enhanced Host Controller and 4x USB Root Hub.	St
+1.5.2	Thank You everyone for your help	Polite
+1.6.1	Have you installed a SIS motherboard driver package?	St
+1.6.2	If you had supplied the make/model of the machine or maybe the make/model of the motherboard I would have supplied a link to the drivers but your posts are ignoring the forum note.	St
+1.6.3	Bob	St
+1.7.1	The M/Board type is ECS Elite Group 661FX-M7 FSB 800.	St
+1.7.2	I went to the ECS site and downloaded the USB 2.0 drivers.	St
+1.7.3	When I tried to install it it said that I had the latest SiS USB Driver and to rescan for hardware changes in device manager.	St
+1.7.4	Thanks for your help	St
+1.8.1	&quot;Overclocking * Overclocking can produce serious, negative effects.	St
+1.8.2	Overclocking advances the PCI bus beyond 33Mhz.	St
+1.8.3	The resulting increased (odd) values can adversely effect the operation of the Universal Serial Bus.	St
+1.8.4	Return the FSB (Front Side Bus) to default values before you do anything else.	St
+1.8.5	&quot; Frome http://www.usbman.com/Guides/SiS%20USB%20Tips%20and%20Tricks.htm http://www.sis.com/support/index.htm has the latest drivers but at this point it's probably &quot;something else&quot; or you skipped a step on the OS install (motherboard driver, BIOS enable the USB or miswired ports.)	St
+1.8.6	&quot; Product Identification The SiS Online Chipset Identification System helps you to identify the chipset model of your SiS-based system.	St
+1.8.7	By using this tool, it will direct you to download the correct driver for your needs.	St
+1.8.8	&quot; After you identify your chipset, then you grab the latest MOTHERBOARD DRIVER PACKAGE (not the USB), install that then the USB.	St
+1.8.9	One day we hope Microsoft stops pushing these drivers as the responsibility of the owner.	St
+1.8.10	-&gt; Final thought.	St
+1.8.11	Why isn't this a warranty issue?	St
+1.8.12	Bob	St
+1.9.1	this problem seems very similiar to mine I fixed it by: 1.	St
+1.9.2	Entering my award bios setup (pressing del on startup) 2.	St
+1.9.3	Select Intergrated perepherals (press enter) 3.	St
+1.9.4	Select sis onchip pci device (press enter) 4. select USB 2.0 supports disabled 5.	St
+1.9.5	F10 to save and restart I Dont why it worked but it did	St

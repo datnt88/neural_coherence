@@ -1,0 +1,73 @@
+1.1.1	I have a Dell Dimension 2400, running XP, with 512KB of memory and an 80 gig hard drive.	St
+1.1.2	I added a second Hard Drive (160 gig) as the Slave on the Primary IDE Channel.	St
+1.1.3	It works fine in every respect except speed -- which I discovered when trying to record and play back .avi files, which are badly fractured in both sound and vision.	St
+1.1.4	Thanks to help elsewhere on these forums, I think I've identified the problem: Although the Device is set to &quot;Ultra DMA where possible&quot; it sticks to PIO Mode.	St
+1.1.5	The other three devices (main hard drive and two cd-rom drives) are all operating in Ultra DMA mode with no problems.	St
+1.1.6	I don't think there's anything more I can do through Device Manager, and it appears that BIOS is the next step.	St
+1.1.7	I'm way out of my depth there without any advice.....so I'd welcome some.	St
+1.1.8	Thanks.	St
+1.1.9	FYI, here's the earlier post http://reviews.cnet.com/5208-6122-0.html?forumID=44&threadID=42259&messageID=495454	St
+1.2.1	There are many items you didn't tell in your post.	St
+1.2.2	Such as what jumper setting you used, the cable type, why you didn't have Dell walk you through the BIOS update, what XP Service Pack is installed and most important if you followed Microsoft's instructions to set it to PIO, Ok your way out and then go set it back to DMA if available.	St
+1.2.3	Why?	St
+1.2.4	Because it's broken.	St
+1.2.5	Read http://www.microsoft.com/whdc/device/storage/IDE-DMA.mspx and read CAREFULLY how Microsoft tells you to flip it to PIO then back.	St
+1.2.6	I repeat... it's busted.	St
+1.2.7	Bob	St
+1.3.1	Bob (M) I read your response CAREFULLY several times, and decided I don't need help badly enough to get it from you.	St
+1.3.2	I think you need to go and lie down.	St
+1.3.3	Why?	St
+1.3.4	Because if anything's busted, it's one of your blood vessels.	St
+1.4.1	I can only point it out, many will just LOOK at the settings and miss the clue that Microsoft wrote to set it to PIO, OK it and then go back to change it again.	St
+1.4.2	I'm more than willing to help, but I've found it necessary to PRESSURE people to read the note because when I didn't, then just looked at the setting.	St
+1.4.3	Bob	St
+1.5.1	I appreciate your attempt to help, and I'm sure that technique works well with some people.	Polite
+1.5.2	It doesn't with me, and neither, regrettably, did Microsoft's Change-OK-Change directions.	St
+1.6.1	When I boot this machine (not a DELL) in one of the POST screens that flash by I get a display of the BIOS settings for the IDE ports.	St
+1.6.2	If your machine does the same that might give you a way to determine if the bios has this port set to PIO.	St
+1.7.1	It's still important to know what jumper setting and other items I asked about.	St
+1.7.2	Here's why.	St
+1.7.3	While it may &quot;work&quot; for some drives to be set to Slave on an 80 conductor IDE cable, some systems will balk and do as you note until its set to Cable Select and repeat the Microsoft procedure.	St
+1.7.4	The service pack of XP is important since over 127GB support is only in SP1 and later.	St
+1.7.5	The machine's motherboard drivers are necessary since Microsoft doesn't update such for us.	St
+1.7.6	I really can't read minds so I can't tell what works for you but I know the issue.	St
+1.7.7	You can deal with it or just ignore me.	St
+1.7.8	Bob	St
+1.8.1	Steelfixer, If you have VIA chipsets in your motherboard then try downloading the latest VIA Hyperion 4-in-1 drivers for example from this site http://www.fileflash.com/?action=info&program=213 .	St
+1.8.2	Maybe there's a later version to it, but you could do a search.	St
+1.8.3	Then install the drivers and click Enable DMA in one of the questions, then reboot your PC.	St
+1.8.4	Swisse	St
+1.9.1	I had the very same problem a few months ago with a seagate drive.	St
+1.9.2	their support told me over and over again that this was a &quot;system problem.&quot; I tried everything, finally returned the drive for an exchange, and the new one worked perfectly out of the box.	St
+1.9.3	the moral is, it's quite possible that the hardware is just plain busted.	St
+1.9.4	might not be, but, .	St
+1.9.5	.	St
+1.9.6	.	St
+1.9.7	--fj	St
+1.10.1	I'm sorry -- I took your &quot;Best of luck&quot; heading as a sign-off.	Polite
+1.10.2	-- I have Service Pack 2.	St
+1.10.3	-- I'm using the second plug on the IDE cable already connected to the factory installed hard drive.	St
+1.10.4	-- Jumper setting is per the drive manufacturer's instruction manual for a slave.	St
+1.10.5	-- I checked for an updated driver for the disk, but there's no newer one available.	St
+1.10.6	Let me know if you need more.	St
+1.10.7	Thanks for your help.	Polite
+1.11.1	Thanks for the suggestion -- I'll wait to see if there's a non-BIOS fix suggested, but it may be where I end up.	Sug
+1.12.1	Thanks -- how can I check if I have VIA drivers?	St
+1.13.1	Hmmm.......entirely possible, especially since mine is a Seagate, too....	St
+1.14.1	&quot;Jumper setting is per the drive manufacturer's instruction manual for a slave.&quot; I'd use cable select.	St
+1.14.2	These 80 conductor cables set that for us and right or wrong some machines get odd when we use the slave or master on 80 conductor cables.	St
+1.14.3	It's a safe thing to change, then I'd triple check that my motherboard drivers are current (NO Microsoft tools for this one I fear) and then I'd do the DMA to PIO and back to DMA again...	St
+1.14.4	Here's hoping.	St
+1.14.5	Bob	St
+1.15.1	Thanks -- I'm not familiar with Cable Select, nor how to check the motherboard drivers (via Device Manager, I assume, but what might the motherboard be called?	St
+1.15.2	).	St
+1.16.1	Click Start, right-click My Computer, then click Properties.	St
+1.16.2	Once in System Properties click Hardware, then click Device Manager.	St
+1.16.3	Once in Device Manager double-click the entry System Devices.	St
+1.16.4	If VIA drivers are installed in your system it should be listed there.	St
+1.16.5	Then you could download the latest Hyperion drivers, otherwise if VIA drivers are not installed then other chipsets are installed.	St
+1.16.6	Swisse	St
+1.17.1	Thanks for the tip, but no such luck -- no VIA drivers listed there.	St
+1.18.1	...thanks to a friend.	St
+1.18.2	In bcase anyone else has the same problem: It was pretty straightforward, as it turned out -- perhaps something I missed in the Seagate instruction manual.	St
+1.18.3	- Went into the BIOS - Went into Drive Configuration - Selected Primary Slave - Reset from OFF to AUTO - Rebooted - Drive was now set to Ultra DMA Thanks to everyone who offered help.	St

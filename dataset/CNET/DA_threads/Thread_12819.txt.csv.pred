@@ -1,0 +1,19 @@
+1.1.1	Im helping a person set up a business where people with &quot;subscriptions&quot; can come in and work.	St
+1.1.2	We plan to have wireless as part of it.	St
+1.1.3	However, we want a system whereby we can give them accounts with passwords that, when the subscription ends, we can disable.	St
+1.1.4	Ive used vpns that had this functionality in a corporation I worked at, but Im at a loss as to what would work best for a small business.	St
+1.1.5	Any help would be GREATLY appreciated.	St
+1.1.6	Mark	St
+1.2.1	I would still recommend VPN and they make many small routers that can now do vpn well and cheap.	St
+1.2.2	Most so called security systems that allow dynamic access protect only at a ip level.	St
+1.2.3	They really can't prevent sharing of ip's or even everyone sharing a userid/password.	St
+1.2.4	A hotel system that intercepts and asks for a password is a example.	St
+1.2.5	A VPN you know every machine is who they say they are.	St
+1.2.6	These are fairly standard now days and if you use SSL VPN rather than IPSEC you have to set nothing up on the user machine.	St
+1.2.7	SSL VPN routers do cost more though.	St
+1.2.8	If you want to go the other method you need some system to intercept and another to authenticate the users.	St
+1.2.9	Most systems need a radius server but if you already have AD servers it can do radius too and share.	St
+1.2.10	The interception part is not as standard as vpn but if you want to do it cheap any old cisco router can do this.	St
+1.2.11	It is a feature cisco calls &quot;lock and key&quot; and has been around for many years.	St
+1.2.12	It is a little tricky to get setup ... mostly if you want to load dynamic rules from the radius server.	St
+1.2.13	In either case since I suspect you are going to run a mix of wired and wireless networks I would setup a outside network that everyone it attached to and place whatever solution you choose between this network and your servers.	St

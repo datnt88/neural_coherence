@@ -1,0 +1,23 @@
+1.1.1	I just purchased VoIP service and added their phone port router to my existing network.	St
+1.1.2	Original router is wireless D-Link DI 624 802.11G router.	St
+1.1.3	The VoIP phone router (Linksys RT41P2-AT) is hooked to the cable modem, then to the the wireless router.	St
+1.1.4	The wireless D-Link router broadcasts wireless signal fine, but with it's own static IP range, which is different than the Linksys phone router.	St
+1.1.5	The wired/wireless pc's can't talk to each other.	St
+1.1.6	Also, the hardwire ports on the wireless won't work (just broadcasts) and I have tried an 8 port 3com hub from the phone router and that won't work either!	St
+1.1.7	I was so glad to save money with the VoIP but this has mucked up my network.	St
+1.1.8	I can't pass data between the wireless nodes and the wired.	St
+1.1.9	Any suggestions?	St
+1.1.10	P.S.	St
+1.1.11	I can ping host pc from wireless and connect with Terminal Services but this does not help me with data transfers.	St
+1.1.12	Please help!	St
+1.1.13	Thanks, Linksys Phone router: 192.168.15.1 - All IP's are 15.xxx D-Link 802.11G Wireless: 192.168.0.1 - All IP's are 0.xxx	St
+1.2.1	I'm not sure about the VoIP equipment, but I think I would put the VoIp at the end of the line (cable modem, then Wireless router, then VoIP router).	St
+1.2.2	Secondly, you need to match the subnet ID's on both routers, all 192.168.15.xxx OR 192.168.0.xxx.	St
+1.2.3	If you have both 15's and 0's, there isn' any way PC's on separate routers to have two way sharing with you setup.	St
+1.2.4	Example: the VoIP may 'see' the wirelss PC's, but not the other way.	St
+1.2.5	Check out my answer for a similar problem at http://home.comcast.net/~larbel1/ .	St
+1.2.6	You may be able to come up with the solution for your problem.	St
+1.2.7	The CNET forms wouldn't format my simple text drawing correctly, so I did it on my web page.	St
+1.2.8	It will be up for some time.	St
+1.2.9	Good luck.	St
+1.2.10	LB	St

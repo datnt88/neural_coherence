@@ -1,0 +1,41 @@
+1.1.1	I use a Hughesnet Satellite with a D-Link DIR655 router.	St
+1.1.2	Hughesnet limits me to 425M per day.	St
+1.1.3	Once exceeded, I get knocked down to slow dialup for 24 hours.	St
+1.1.4	I need a router based bandwidth monitor for total traffic accumulating daily (but starting at 4AM).	St
+1.1.5	I need to be able to see how much bandwidth I've accumulated at any time during the day.	St
+1.1.6	I have two wireless clients and four wired clients constantly connected.	St
+1.1.7	Total bandwidth is all I absolutely need, but having the bandwidth separated out by clients would help a great deal to isolate usage problems when one of the clients runs away.	St
+1.1.8	I've perused the Tomato and DD WRT firmware packages but haven't found enough detail to know if they will work.	St
+1.1.9	Plus, my DIR655 does not appear as supported.	St
+1.1.10	If I need to get a new router, I need one with wireless capabilities.	St
+1.1.11	I had a Linksys WRT54G previously but it needed reboots off and on, plus the wireless connection was too slow (for skype - our only means of communication out in the remote Oregon Coast Range where I live).	St
+1.1.12	The DIR655 has never hung up and the speeds are good.	St
+1.1.13	So, has anyone ever addressed this issue?	Ques
+1.1.14	Is there a router that allows real time and cumulative bandwidth monitoring?	St
+1.1.15	If there is not, and I need to use Tomato or similar, what router might be equivalent to the DIR655?	St
+1.1.16	If there is a router that offers this monitoring, does anyone have personal experience with it?	Ques
+1.1.17	Thank you for your consideration.	St
+1.1.18	Have a great day!	Polite
+1.1.19	bob f	St
+1.2.1	This is now standard on most routers.	St
+1.2.2	Even my wrn3200 does that.	St
+1.2.3	http://forum.notebookreview.com/showthread.php?t=276800 notes two other very popular models which I bet do this as well.	St
+1.2.4	Go get the manual from the maker and read it.	St
+1.2.5	&quot;but having the bandwidth separated out by clients would help a great deal to isolate usage problems when one of the clients runs away.&quot; Mine doesn't report it by client.	St
+1.2.6	For that I suggest http://www.netlimiter.com/ Bob	St
+1.3.1	As noted above, I own a DIR655 (one of the two routers noted on the link you gave).	St
+1.3.2	It does not do it.	St
+1.3.3	It does give total packets for WAN, LAN and Wireless.	St
+1.3.4	I saw nothing in the stats for the other mentioned router either.	St
+1.3.5	I have been unable to download the manual from Netgear.	St
+1.3.6	Thanks anyway.	Polite
+1.3.7	bob f	St
+1.4.1	Look at http://forum1.netgear.com/showthread.php?t=43754 and other such discussions.	St
+1.4.2	Thanks for sharing that the 655 doesn't have it.	St
+1.4.3	Bob	St
+1.5.1	I looked a second time and no router reports on a daily basis.	St
+1.5.2	Looks like you are stuck with Netlimiter.com Bob	St
+1.6.1	Yes, the WNDR3700 would have been exactly what I was looking for, if it had daily limits!	St
+1.6.2	Sweet.	St
+1.6.3	There was the comment by Jeff Baumgartner last July ( http://www.lightreading.com/blog.asp?blog_sectionid=419&doc_id=179437&site=lr_cable ) that &quot;Cisco Systems Inc. (Nasdaq: CSCO) told AP that it's also looking at adding such a feature for its routers.&quot; May just have to suck it up and wait until this feature becomes more mainstream due to the increasing limits on total bandwidth.	St
+1.6.4	bob f	St

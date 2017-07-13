@@ -1,0 +1,32 @@
+1.1.1	Hi, I just recently purchased two Western Digital 10k rpm 74 gig raptor drives and set them up on my ASUS SK8V mobo...	St
+1.1.2	They show up in the VIA RAID tool and I configured them for RIAD 0 which the &quot;VIA RAID TOOL&quot; acknowledges...	St
+1.1.3	However I cannot access their storage.	St
+1.1.4	I'm used to going to &quot;My Computer&quot; and double clicking on a regular IDE drive and being able to access its storage, however these drives are not located in the &quot;My computer&quot; area.	St
+1.1.5	Also when I restart my computer I get the &quot;Promise Fast Track 378&quot; message that says &quot;No controller detected by fast track, the BIOS is not installed.&quot; Or something very similar, my memory isn't the greatest right now.	St
+1.1.6	So basically I'd like to know what you think I may have to do in order to access the 148 gigs of memory I have in these two drives.	St
+1.1.7	Because right now they're just hanging out in my rig doing nothing.	St
+1.1.8	Any help is appreciated...	St
+1.1.9	Thanks for your time	St
+1.2.1	What is happening to them?	St
+1.2.2	Why haven't they helped you?	St
+1.2.3	Why buy from such people?	St
+1.2.4	From what I read, you need to scour the PROMISE manuals again.	St
+1.2.5	Bob	St
+1.3.1	Ok i found something on the net about installing SATA harddrives on an ASUS mobo and found out that VIA and Promise are both raid controllers and that you should disable the promise controller in bios since it doesn't run as effectively with the mobo's chip set as the VIA does.	St
+1.3.2	However I'm still clueless as to how to make use of my SATA drives...	St
+1.3.3	I still can't access their storage...WTF !!!	St
+1.3.4	Their hard drives right?	St
+1.3.5	Why can't I use them like i use my normal IDE hard drive?	St
+1.3.6	They're listed in the Device manager but not in the &quot;Hard Drive&quot; section of the &quot;My computer&quot; folder...	St
+1.3.7	I'm lost and very frustrated...	St
+1.4.1	You do this with the Disk Management tool in the Control Panel under Administrative Tools/Computer Management.	St
+1.4.2	You need to find the drive showing unallocated space, right click and select your options for partition/formatting.	St
+1.4.3	Only then will Windows give them a drive letter and make these visible in My Computer.	St
+1.5.1	Going off what you have said there are a few questions that must be asked.	St
+1.5.2	1.	St
+1.5.3	Have you installed the O/S drivers for the RAID controller?	St
+1.5.4	2.	St
+1.5.5	Have you partitioned and formatted the drives?	St
+1.5.6	If you haven't installed the drivers Windows will nnot recognise the controller in many cases.	St
+1.5.7	if you haven't formatted the drives Windows will not recognise the logical volume.	St
+1.5.8	You should be able to see the disks within Disk Management if the RAID controller drivers are installed, from here you can format the disks!	St

@@ -1,0 +1,45 @@
+1.1.1	So last month I had brought a new Seagate hard disk, prepared it and transferred all the data from my old Samsung hard disk (about 4 years old) to it.	St
+1.1.2	The reason for buying a new disk was, while working on my PC (old hard disk) sometimes I would hear a faint ticking noise and the the system used to freeze and then restart after a long time.	St
+1.1.3	Once restarted no hard disk used to be detected and I also used to get disk boot failure error on the second screen after restart.	St
+1.1.4	But after power off and on, the system used to start working again.	St
+1.1.5	This problem troubled me for almost more than a year.	St
+1.1.6	Most people I talked to advised me that the hard disk was going bad and so finally I brought a new disk.	St
+1.1.7	Right now after transferring the all the data to the new drive I ran a hard disk diagnostic tool called &quot;HUTIL&quot; from the Samsung website on my old Samsung SP0802N disk.	St
+1.1.8	After completing the complete diagnostic test I got about 8 errors and the tool advised to run &quot;ERASE HDD&quot;.	St
+1.1.9	I then ran the &quot;Low Level Format&quot; option in the tool.	St
+1.1.10	It gave me some error in the end but I think the process got completed.	St
+1.1.11	Here is a screenshot of current disk management in windows.	St
+1.1.12	[code] http://i91.photobucket.com/albums/k292/abs724/Screencaps/DiskM4-3-2009-40119AM.jpg [/code] Then I ran the diagnostic test again in &quot;HUTIL&quot; as these were the results.. --- Test Loop Number 1/1 Read DMA : Testing... Error: Sector error Check M.C : Testing...	St
+1.1.13	Pass!	St
+1.1.14	Check S.M.A.R.T : Testing... Error: S.M.A.R.T Threshold Exceeded.	St
+1.1.15	Spin Down/Up : Testing...	St
+1.1.16	Pass!	St
+1.1.17	Simple Read/Write : Testing...	St
+1.1.18	Pass!	St
+1.1.19	Simple Surface Scan : Testing...	St
+1.1.20	Pass!	St
+1.1.21	Write Verify : Testing...	St
+1.1.22	Pass!	St
+1.1.23	Average Seek Time : Testing...	St
+1.1.24	Pass!	St
+1.1.25	Maximum Seek Time : Testing...	St
+1.1.26	Pass!	St
+1.1.27	Random Surface Scan : Testing...	St
+1.1.28	Pass!	St
+1.1.29	Read Surface Scan : Testing... C:1039 H:0 S:962 Error: Ecc error C:1040 H:0 S:797 Error: Ecc error C:1580 H:0 S:1037 Error: Ecc error C:7354 H:0 S: 965 Error: Ecc error Error : This drive has some defects.	St
+1.1.30	--- Thats two less read surface scan errors than last time I think.	St
+1.1.31	The disk is no longer under warranty so no point contacting any service centers.	St
+1.1.32	Now although my old disk is not very healthy, it is still usable and I was thinking of using it as a single partition storage drive.	St
+1.1.33	Is there anything more I could do to the disk to remove those errors and make it more healthy.	St
+1.1.34	Or should I just prepare/NTFS-format the drive and start using it.	St
+1.2.1	This is a drive with issues.	St
+1.2.2	I can't count how many try to keep using such and call it proof that they can keep using it.	St
+1.2.3	It's like a bald tire.	St
+1.2.4	It works but is out of spec and you never know when...	St
+1.3.1	So can nothing be done about these errors.. Read DMA : Testing... Error: Sector error Check S.M.A.R.T : Testing... Error: S.M.A.R.T Threshold Exceeded.	St
+1.3.2	Read Surface Scan : Testing... C:1039 H:0 S:962 Error: Ecc error C:1040 H:0 S:797 Error: Ecc error C:1580 H:0 S:1037 Error: Ecc error C:7354 H:0 S: 965 Error: Ecc error In the &quot;Hutil&quot; HDD diagnostic tool apart from &quot;Low Level Format&quot; option there was an &quot;Erase MBR&quot; option too which I haven't run till now since I don't know what it means.	St
+1.3.3	Do you thin running it might help.	St
+1.3.4	Or anything else..	St
+1.4.1	But just like rebuilding a bald tire it takes specialized gear, a new platter or head assembly.	St
+1.4.2	At today's costs a drive is cheaper to replace than fix.	St
+1.4.3	Bob	St

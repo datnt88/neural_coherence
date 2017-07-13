@@ -1,0 +1,25 @@
+1.1.1	ASUS M2N32-SLI Deluxe AM2 motherboard, AMD 64 X2 3800+ CPU / 1 stick of 1 gb Corsair pro 800 ddr2 ram / 500 watt Antec PSU .	St
+1.1.2	I have Windows XP home sp2 that is installed on a IDE drive that was running fine on a older Asus A7V 133 system .	St
+1.1.3	I have installed the new components and windows won't boot even in safe mode .	St
+1.1.4	The system goes through POST fine with standard 1 beep , I can access BIOS and all components and memory are recognized without problems .	St
+1.1.5	My skill level is a novice at these problems , any input would be helpful .	St
+1.1.6	Thanks .	Polite
+1.2.1	Windows for many versions and years will cease to boot after we change the motherboard.	St
+1.2.2	Look up XP REPAIR INSTALL and see if that fixes it.	St
+1.2.3	Remember to install all those motherboard drivers after you get it booting.	St
+1.2.4	Bob	St
+1.3.1	The problem lies in that each system board uses a different chipset and subsequently, different IDE controller and hardware logic.	St
+1.3.2	The A7V system board uses one of the VIA KX-133 chipset, but the M2N32-SLI uses a NVIDIA nForce 590 SLI MCP chipset, which is entirely different.	St
+1.3.3	Unfortunately, when Windows sets up the OS, it bases the boot sequence on the hardware that you have at present and sometimes when you upgrade, the new hardware isn't common enough to allow the OS to make the transition to the new hardware.	St
+1.3.4	The only thing that can be done is to put the old system board and components back in, transfer all the necessary data to CD or DVD media (don't forget your Favorites folder), then replace the old board with the new board and re-install from scratch.	St
+1.3.5	A couple things you might want to try first before you have to swap everything out again.	St
+1.3.6	Try booting from the XP CD to see if the new board will even be recognized by the OS.	St
+1.3.7	If the CD will boot and you can get to the point where you can see the hard drives and partitions on the hard drive, then you know that the new system board is working fine.	St
+1.3.8	At this point, you should press F3 and exit the install process.	St
+1.3.9	If the system doesn't boot properly, then you know that something is wrong.	St
+1.3.10	It could be that you have a bad system board (I've see fresh out-of-the-box system boards have bad IDE controllers), possibly bad RAM, or possibly (but not likely) the BIOS needs to be updated (usually not the case, but it's always good to check).	St
+1.3.11	Anyway, that's the reason and the possible solutions to the problem.	St
+1.3.12	Good luck!	St
+1.3.13	Timothy	St
+1.4.1	Thats the only solution!	St
+1.4.2	Another reson to use Linux!	St

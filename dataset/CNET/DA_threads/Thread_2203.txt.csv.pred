@@ -1,0 +1,27 @@
+1.1.1	Finally got my hard drives ( OEM - SAMSUNG SP2504C SATA ) Can anyone guide me as to how to install these hard drives?	Ques
+1.1.2	Do I need any firmware in order for these drives to work with my board?	St
+1.1.3	System specs: Mobo: Asus P5W DH Deluxe Processor: Intel D805 Dual Core RAM: 2 Gigs Power Supply: Xilence Power 600W Hard Drive: 2 x Samsung SP2504C SATA drives (250 Gigs) DVD ROM: Samsung writemaster Video Card: MSI NX7100GS	St
+1.2.1	for the OS install.	St
+1.2.2	VAPCMD	St
+1.3.1	Thanks a million.	St
+1.3.2	Wish me luck.	St
+1.4.1	Thanks for your help..much appreciated.	St
+1.4.2	I hope this post help someone else.	St
+1.4.3	I have my P5W DW Deluxe mobo set up with 2 Samsung 2504 250 GB hard dirves in RAID 0 (striping).	St
+1.4.4	No problems so far.	St
+1.4.5	With this mobo you can either use the Intel ICH7R SATA connectors or the EZ RAID setup.	St
+1.4.6	I recommend the Intel RAID setup as I originally tried the EZ RAID and found it not that easy.	St
+1.4.7	To use the Intel RAID setup reference your manual pg.	St
+1.4.8	2-33.	St
+1.4.9	Assuming you haven't loaded your Windows OS yet, connect your hard drives to SATA 1 and SATA 3 connectors as shown on this page.	St
+1.4.10	When you initally boot your PC, go into the BIOS and select the CD ROM as the first boot device.	St
+1.4.11	Then reference page 5-30 of the ASUS mobo maual to set up the BIOS for RAID.	St
+1.4.12	Continue then to pg.	St
+1.4.13	5-31 for setting up your desired RAID config using the Intel Matrix Storage Manager.	St
+1.4.14	Restart your PC with ASUS mobo CD so you can transfer the Intel RAID drivers to a floppy disk for whatever version of Windows OS you intend to use.	St
+1.4.15	After that you should be able to insert your Windows OS disk, restart your PC, and then start your Windows OS installation.	Sug
+1.4.16	Make sure to select F6 at the start of your Windows OS installation and then upload the Intel SATA drivers (those downloaded on the floppy disk)(the floppy is essential) when prompted.	St
+1.4.17	The rest of the OS install should go OK. Of note, if you do this RAID setup be aware that after Windows OS installation that the Intel Matirx Storage application recognizes SATA connectors 1 and 3 as 0 and 2 respectively.	St
+1.4.18	A slight disconnect between the Intel Matrix storage manager and how ASUS numbers their SATA ports.	St
+1.4.19	No big deal as the RAID config is good.	St
+1.4.20	Hope this helps.	St

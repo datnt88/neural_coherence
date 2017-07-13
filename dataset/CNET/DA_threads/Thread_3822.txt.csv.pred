@@ -1,0 +1,76 @@
+1.1.1	Here's the dilemma.	St
+1.1.2	I've got a 3Com 10 port managed POE switch were using to connect to wireless APs in a school I give some volunteer support to.	St
+1.1.3	We've 8 ports in use with APs and one is used to link with the router.	St
+1.1.4	We have a potential need to add 2 more APs but, with 9 in use, we're one port short.	St
+1.1.5	I have POE injectors but would prefer to connect to this switch because we turn it on and off separately from the other network devices.	St
+1.1.6	This POE switch has an SFP port.	St
+1.1.7	BTW, the model # is 3CDSG10PWR-US.	St
+1.1.8	Can I buy a module to fit this port that allow me to plug the Ethernet cable from the router into it and gain use of all 10 POE ports?	St
+1.1.9	These modules come in many forms and some are quite pricey.	St
+1.1.10	The manual for the switch doesn't get into this sort of detail.	St
+1.1.11	I guess they expect folks who buy these to know how to use them.	St
+1.1.12	TIA	St
+1.2.1	Or they expect us to call the maker.	St
+1.2.2	I know Cisco.	St
+1.2.3	I know they have engineers and a better level of technicians standing by to answer technical questions.	St
+1.2.4	Did you call and ask?	St
+1.3.1	NIL	St
+1.4.1	Cisco offices seem abundant here in New England.	St
+1.4.2	They make a technical product and while I know a little about Cisco gear when it comes down to specific part numbers and does it work with this or that I always call them.	St
+1.4.3	Bob	St
+1.5.1	Had to check this worked the same as most other vendors.	St
+1.5.2	Stupid forum will not cleanly let me post the specs on your switch so.	Sug
+1.5.3	You only have 9 ports.	St
+1.5.4	The last port is shared with the SFP module.	St
+1.5.5	This is very common trick vendors do when counting ports.	St
+1.5.6	The 10th port can either be the built in port or the SFP.	St
+1.5.7	Both are not active.	St
+1.5.8	In your case the last port is not even POE so should put your router in port 10 In general I do not think I have seen a SFP that can do PoE itself.	Sug
+1.5.9	They can do copper 10/100/1000 but not the PoE.	St
+1.5.10	Many times in switches like this they do not support the copper SFP module since its silly to do it since the built in port is already 10/100/1000 copper.	St
+1.5.11	I think you are out of luck you are going to have to daisy chain another switch to make this work.	St
+1.6.1	10 seemed like a strange number...some sort of 4-4-2 arrangement.	St
+1.6.2	We also have a 50 port switch.	St
+1.6.3	40 are standard 10/100, and 2 are 10/100/1000.	St
+1.6.4	It also has an SFP port that, I believe, is shared with one of the gigabit ports.	St
+1.6.5	I'll re-read the spec sheet on the POE switch.	St
+1.6.6	We originally only expected to need 4 or 5 APs so bought a smaller switch.	St
+1.6.7	That became 8 APs very quickly do to some amateur miscalculations on my part.	St
+1.6.8	Hey, I'm just a guy off the street and not an IT wizard.	St
+1.6.9	We'd now like to add more coverage.	St
+1.6.10	We use the management capabilities minimally...mainly to enable/disable ports as needed.	St
+1.6.11	You can also enable/disable power to any port.	St
+1.6.12	I enabled 1-8 so can easily check to see if I can get power to the other 2.	St
+1.6.13	Otherwise, the APs we bought came with injectors and we can use those as needed.	St
+1.6.14	You just lose some remote management ability though but that's not critical.	St
+1.6.15	Thanks for pointing that out.	St
+1.6.16	I'll check to see if you're correct that only 9 ports will available for POE.	Sug
+1.7.1	This is the switch http://www.3cbsi.com/other/pdfs/products/en_US/3com_401049.pdf 3Com does list accessories for its products.	St
+1.7.2	I should be able to find what I need from them.	St
+1.7.3	The SFP port shows as dual purpose...copper or fiber.	St
+1.7.4	I need copper and it should work as desired if I just find the right module.	St
+1.7.5	Thanks again.	Polite
+1.8.1	Says it's dual purposed with one of the 10/100/1000 ports.	St
+1.8.2	It doesn't say shared or which port but I remember that trick with 5 port hubs.	St
+1.8.3	The 5th was just an extension of #4 to be used as an uplink without needing a crossover cable.	St
+1.8.4	I suppose that all I need to do is enable the SFP and see if another port gets lost.	St
+1.8.5	So much for that idea.	St
+1.9.1	The 3com one is sure confusing.	St
+1.9.2	This is a link that has the tech specs I was looking at.	St
+1.9.3	All the sites that sell these seem to have a similar listing.	St
+1.9.4	http://www.buy.com/prod/3com-officeconnect-managed-gigabit-ethernet-switch-with-poe-9-x-10-100/q/loc/101/204860509.html The SFP you would need is 3CSP93 The 2 sfp the have listed are mm and single mode fiber.	St
+1.9.5	I suspect since it is not listed it will not take the 93.	St
+1.10.1	It shows the SFP 91 and 92 as options.	St
+1.10.2	These aren't dirt cheap and I don't see what would be the purpose of having 10 POE ports when one obviously has a need for some sort of uplink that won't need power.	St
+1.10.3	The only SFP connector we have now links the fiber optic broadband system to the LAN and that part is owned by Time Warner.	St
+1.10.4	I can see using these for fiber or longer distances than Ethernet but all I'd want is to use it to uplink to the router to gain one more port.	St
+1.10.5	That doesn't, at this point, look to be an economical solution.	St
+1.10.6	This is only a small K-8 school.	St
+1.10.7	We installed wireless for the laptop/netbook use in the upper grade classrooms, library, and common areas.	St
+1.10.8	It's been working wonderfully for that purpose and don't want to make trouble.	St
+1.10.9	I doubt this is a good idea now but was worth a shot.	St
+1.10.10	Thanks again	St
+1.11.1	Whether I could find a copper SFP module or not isn't going to matter.	St
+1.11.2	Port #10 is shared as earlier noted.	St
+1.11.3	Thanks for the response.	St
+1.11.4	Nothing learned is ever wasted.	St

@@ -1,0 +1,101 @@
+1.1.1	Hi all, Until yesterday, our main PC downstairs had AOL DSL (with our WRTG54 Linksys router connected) and I used my Linksys adapter on my PC upstairs for wireless internet.	St
+1.1.2	At times, the connection was fine, but it was mostly inconsistent (and not all that fast at 300-400kpbs).	St
+1.1.3	So you can imagine my joy when our Optimum Online cable modem equipment arrived yesterday.	St
+1.1.4	Again, the main PC downstairs is the one being set up for this and in the process of setting up the router, we could not get an internet connection - it simply would not work.	St
+1.1.5	That computer is still running Windows 98SE, but we were told that should not be the problem.	St
+1.1.6	Connecting the stuff directly into the PC isn't an option as we need to use the router so that I can get my internet wirelessly upstairs.	St
+1.1.7	So as I sit here writing in from work, we no longer have any working internet access at home.	St
+1.1.8	I am determined to get this thing working properly because IT SHOULD.	St
+1.1.9	That's where you guys come in.	St
+1.1.10	I really need your help with this.	St
+1.1.11	I am not in front of the computer at home right now, obviously, so I'll do my best to answers any questions.	Ques
+1.1.12	If there are any solutions you think may fix the problem, something perhaps I have not thought of, please let me know.	St
+1.1.13	I would like to resolve this when I get home tonight.	St
+1.1.14	Best, Jason	St
+1.2.1	Have you tried cycling your router (turn it off for a few seconds then powering it back on)?	St
+1.2.2	It may just need to clear itself out and grab the updated information.	St
+1.2.3	You did not indicated if you were able to log into your router to check it's settings.	St
+1.2.4	If you have any static addresses in the router, these would have to be changed to use your new connection.	St
+1.2.5	Most of the time things are left to configure automatically, but with out knowing your setup it is possible you had static information inputed at some point.	St
+1.2.6	I think I would need more information to provide any detailed help.	St
+1.3.1	So, might you suggest I reset my router settings (not back to factory condition, per se, so as not to lose all of the firmware updates) once everything is hooked up?	St
+1.3.2	Because once everything was hooked up and we had the router setup CD in telling us no connection could be detected, we just reconnected our old DSL and left it.	St
+1.3.3	I didn't check the router setup page (although the setup screen was full screen, so not sure I would have been able to minimize it).	St
+1.3.4	Let me know as I can try this later.	St
+1.3.5	Jason	St
+1.4.1	So let me sort this out.	Sug
+1.4.2	You had a previous setup that worked.	St
+1.4.3	With the DSL that then went into your wireless router, and then you had your Win98 machine directly into the router, and your main computer elsewhere using wireless?	St
+1.4.4	And then you got a new cable connection (w/ new modem) and that is now plugged into your wireless router with everything else the same as before, but the internet does not work?	St
+1.4.5	If this is the situation.	St
+1.4.6	Then I would first make sure everything is physically setup correctly.	St
+1.4.7	Your modem should be connected to the &quot;Internet&quot; port on your router.	St
+1.4.8	And then your other machine should be connected to one of the other ports on the router.	St
+1.4.9	I will assume the cable modem/internet works if you plug into the modem directly?	St
+1.4.10	If the cable internet works, and you did not change anything else with your setup, then it has to be the link between your router and the cable modem.	St
+1.4.11	If your setup worked previously then you should not need to run any setup CD's for your router, so you kind of lost me there.	Sug
+1.4.12	Normally you would log into your router via a web browser.	St
+1.4.13	Usually a 192.168.1.1 address.	St
+1.4.14	If you are not aware of any settings you had to change when you originally setup your router, I would first try cycling your router as I described before, and perhaps doing the same to the modem as well.	St
+1.4.15	I do mean just to power them on and off.	St
+1.4.16	Usually you just have to disconnect the power.	St
+1.4.17	I would not 'reset' them, as you pointed out you would lose your settings.	St
+1.4.18	Your ISP should have indicated if there was any special settings you needed to use the connection.	Ques
+1.4.19	Most use DCHP to send you (your router) and IP address automatically.	St
+1.4.20	So be sure your router is set to do this, OR has the information provided by your ISP.	St
+1.4.21	I would make sure your PCs are the same as well.	St
+1.4.22	You may want to perform an ipconfig /release and then ipconfig /renew from a DOS prompt to be sure they have cleared out their settings as well.	St
+1.4.23	If it still doesn't work, you will need to get into your router and see what settings there are.	St
+1.4.24	After you do that, perhaps you can provide more information and we can be more helpful.	St
+1.5.1	Josh, allow me to express my gratitude for all your help.	Ques
+1.5.2	It turns out they (being my mother and younger sibling) did not go beyond putting in the router setup CD.	St
+1.5.3	As you said, that sounded a bit fishy since everything was set up properly before.	St
+1.5.4	I went to the router setup page and noticed the Internet connection type was still listed as PPPoE (with my mother's AOL username still listed as we were previously using AOL's DSL service).	St
+1.5.5	I changed that to Automatic Configuration - DHCP and voila!	St
+1.5.6	Both computers are connected to the internet and it's working like a charm.	St
+1.5.7	There is a noticeable increase in speed.	St
+1.5.8	I know there are lots of mitigating factors that determine one's connection speed and that it will fluctuate, but are there any settings (perhaps at the router setup page) that can be tweaked to increase my speed even more?	St
+1.5.9	I'm happy to be connected at around 1mbps as opposed to 400kpbs, but the service is capable of exceeding 10mpbs and I can't help but feel there is something else I can be doing.	St
+1.5.10	In any event, thanks again for helping me with my main problem and with very little info.	Polite
+1.5.11	to go on.	St
+1.5.12	Jason	St
+1.6.1	I am glad I was able to help, although it sounds like you were able to figure most of it out on your own.	St
+1.6.2	When you are dealing with wireless connections there are a lot of variables that can cause a slow connection.	St
+1.6.3	My guess would be that you are just not getting a real strong signal, which is not that surprising if you computer is in a basement (you mentioned was downstairs) and your router is upstairs.	St
+1.6.4	Depending on the structure of your house, you can get a lot of interference as it travels through the walls/floors.	St
+1.6.5	There could also be other appliances in the house that can interfere such as wireless phones and etc.	St
+1.6.6	You can try relocating your router and/or computer a little to try and get a better signal, try different channels, re-position your antennas, or try to upgrade to a higher gain antenna.	Sug
+1.6.7	I probably should back up first though, and ask if the computer connected directly into the router is getting better speed?	St
+1.6.8	If it is getting closer to the advertised speed, then you know it is probably being bottle necked by the wireless.	St
+1.6.9	If you are not getting very good speed connected directly to the router then there could be something else going on.	St
+1.6.10	To answer your question though, there is not really any magic settings to get a lot more speed out of it.	St
+1.6.11	But you can tweak a few things as I mentioned above and try to get a little more out of it.	St
+1.7.1	Thanks, Josh.	St
+1.7.2	To clarify, the main PC (which is connected directly to the router) is in the living room.	St
+1.7.3	My PC (connected via wireless adapter) is up a very small flight of stairs and down a corridor, so the distance between them is not quite *THAT* dramatic.	St
+1.7.4	But I do see your point.	St
+1.7.5	Right now, it is set on channel 6, so I am wondering is switching over to channel 11 might make a difference?	St
+1.7.6	FYI, the speed appears to be pretty much the same on both computers.	St
+1.7.7	My bigger concern is the fact that, previously, I have tried to enable WEP protection for our network, only to have problems when I would then try to enter the passcode when prompted on my PC.	St
+1.7.8	I have yet to try this again since we got the cable internet working, but I am wondering if the same thing might happen?	St
+1.7.9	I would like to have *SOME* level of protection, but it was not allowing me to do so before.	St
+1.8.1	You could try switching to a different channel, but if you are getting relatively the same internet speed on both machines then it may not be a problem with the wireless.	Sug
+1.8.2	Did you try running your computer straight off the cable modem just to see what the speed was?	St
+1.8.3	If you were getting significantly higher speeds straight from the modem, then you can determine it is a problem with the router.	St
+1.8.4	It is not uncommon to lose a little speed when you run something trough the router as there is additional overhead, but it should not be that dramatic.	St
+1.8.5	If you are still not getting that much speed straight from the modem, then you may want to contact your ISP.	St
+1.8.6	With the security questions.	St
+1.8.7	Off the top of my head I do not see any reason why you should not be able to setup WEP on your network.	St
+1.8.8	If your equipment supports it, I would probably use WPA as it is more secure; WEP is relatively easy to crack.	St
+1.8.9	To do this, you just have to be sure that they are using the same encryption WEP or WPA and that they are both using the same level of encryption, 64 or 128 bit etc.	St
+1.8.10	And then make sure you input the key exactly the same on all devices.	Sug
+1.8.11	You can also go one step father and apply a MAC filter list, and I would also turn off the broadcasting of your SSID.	St
+1.8.12	If you are broadcasting that, it just makes you a target.	St
+1.8.13	I would also make sure I changed the default password on my router if you haven't already.	St
+1.8.14	The default passwords are posted all over the internet, so make sure you pick something strong.	St
+1.8.15	And if you are really worried, you can turn off remote admin of your router as well.	St
+1.8.16	So that might be more then you wanted to know.	St
+1.8.17	But I would try to at least setup your WEP again, and turn off your SSID broadcast.	St
+1.8.18	If you try this and get errors, then you could share those, and perhaps we can help trouble shoot the problem.	Sug
+1.9.1	Well, I tried the WEP again and this time, I wasn't even prompted for a passcode, I was simply unable to use the internet.	St
+1.9.2	Weird this is that it recognized me as being connected to the network, but I was unable to access the net.	St

@@ -1,0 +1,6 @@
+1.1.1	My CTRL key was not working the last time on my old keyboard, so I did the registry change by doing this by swapping CTRL with Caps Lock : Windows Registry Editor Version 5.00 [HKEY_LOCAL_MACHINESYSTEMCurrentControlSetControlKeyboard Layout]; &quot;Scancode Map&quot;=hex:00,00,00,00,00,00,00,00,03,00,00,00,3A,00,1D,00,1D,00,3A,00,00,00,00,00 But now I can't switch it back, I bought a new computer and I have to press the keys the other way round [Caps Lock is CTRL and vice versa] I also changed the registry by adding this : Windows Registry Editor Version 5.00 [HKEY_LOCAL_MACHINESYSTEMCurrentControlSetControlKeyboard Layout]; It still didn't work.	St
+1.1.2	So I need urgent help.	St
+1.1.3	I'm currently using a Logitech NewTouch 100 now.	St
+1.1.4	~Brandon	St
+1.2.1	to before you made the changes?	St
+1.3.1	Create and use the un-caps2ctrl.reg at http://vim.wikia.com/wiki/Swap_caps-lock_and_control_keys_using_MS_Windows_Registry Notice that minus sign?	St

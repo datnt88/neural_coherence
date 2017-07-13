@@ -1,0 +1,24 @@
+1.1.1	After a virus attack, network connections icon in Conttrol Panel has nothing in the folder.	St
+1.1.2	Thusly, must try to re-install the netowrk connection.	Sug
+1.1.3	I have disabled some of the (mostly all) of the network services since the attack as there is still an errant process popping over and over again.	St
+1.1.4	Now, I want to try and re-install the network services.	St
+1.1.5	I was able to re-install the msiexec.com file successfully with the following method.... start-&gt;run&gt; msiexec.exe /unregister start-&gt;run-&gt;msiexec.exe /regserver What I would like to know is, what would the essential filenames for the essential network services are so this approach could be taken to restart the network connection(s) servers and possibly get the network up and running again?	St
+1.1.6	Is this a valid approach?	St
+1.1.7	Thanks.	St
+1.2.1	Without notinh what OS, I can't see if this made any sense.	St
+1.2.2	Also, viral damage can run deeper than what many can repair.	St
+1.2.3	If it's that deep, you wipe and reinstall.	St
+1.2.4	Bob	St
+1.3.1	I will wipe and re-install, sir bob.	St
+1.3.2	Thanks.	St
+1.3.3	Thae Subject title = &quot;I understand&quot; (in Japanese):)	St
+1.4.1	If only the OS was noted, I could check to see if that was a valid approach.	St
+1.4.2	May your misfortune be short, Bob	St
+1.5.1	NIL	St
+1.6.1	1.	St
+1.6.2	Remove the client and protocol from the network control panel.	St
+1.6.3	2.	St
+1.6.4	Run SFC /SCANNOW 3.	St
+1.6.5	Add tcp/ip and the microsoft client in the network control panel 4.	St
+1.6.6	Run SFC /SCANNOW Configure and try again.	St
+1.6.7	Bob	St

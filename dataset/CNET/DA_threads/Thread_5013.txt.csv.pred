@@ -1,0 +1,37 @@
+1.1.1	Hi, I am trying to do a software upgrade on my dad's old computer (bought on 2007).	St
+1.1.2	It came with Windows Vista x32bit Home Edition installed on it, and my father has been complaining for quite a while that it's annoyingly slow and buggy so I thought I'd finally upgrade it for him.	St
+1.1.3	So I run the Windows 7 Upgrade advisor, and it tells me that I'm good to go and everything is compatible (yaaay!).	St
+1.1.4	I have an original copy of Windows 7 x32bit and I wanted for starters to install it, not on C, but on another insternal Hard Drive the computer has, just so he can see the interface and all before making the change.	St
+1.1.5	So I boot from CD, it loads the files and before even getting to the installation screen I get this: http://img7.imageshack.us/img7/7888/jxfl.jpg So all this seems gibberish to me and I really have no clue of what to do exactly..	St
+1.1.6	Roughly the System Specification are these: OS: Microsoft Windows Vista Home Edition x32bitCPU: Intel Pentium Dual CPU E2160 @ 1.80GHz 1.79 GHzGPU: NVIDIA GeForce 8400 GSRAM: 2gb If needed, I can also provide you with a txt file that has a hardware report exported by the Everest application.	St
+1.2.1	or a retail version of Windows 7.	St
+1.2.2	If it's an upgrade you have to install it on C over Vista.	St
+1.2.3	If it's a retail version and you want to let your dad view it, why not install it in a Virtual Box on C?	St
+1.2.4	....Digger	St
+1.3.1	I've already tried installing on C but I still get the same blue screen message.	St
+1.3.2	I don't think that's the issue.	St
+1.3.3	The version of Windows 7 is an official original download from my university's offer.	St
+1.3.4	It's not just an upgrade but it also has the option to upgrade from Vista to 7.	St
+1.3.5	I'll try updating my BIOS and attempt the install again.	Sug
+1.3.6	Any further suggestions are welcome.	St
+1.3.7	Thank you in advance	St
+1.4.1	Here at c/net help you out with this one.	St
+1.4.2	My abilities are limited as yet.	St
+1.4.3	Digger	St
+1.5.1	While I don't have an answer, this might be a case where a thorough hardware diagnostics would be a good place to start.	St
+1.5.2	You want to test your RAM and the hard drive using proper tools.	St
+1.5.3	Memtest86 for memory and the vendors utility for the hard drive.	St
+1.5.4	It could also be that the PC you're trying to upgrade isn't compatible with Windows 7 or you need to set BIOS to some failsafe settings first.	St
+1.5.5	Here's more people who've had your problem.	St
+1.5.6	https://www.google.com/#q=acpi.sys+blue+screen+during+windows+7+install	St
+1.6.1	How much RAM does the PC have?	St
+1.6.2	I'd not think of putting Windows 7 on with less than 2 gb as bare minimum.	St
+1.6.3	Also, make sure nothing is plugged into any USB ports during the installation or anything like odd card readers are attached.	St
+1.6.4	Now when looking at the CPU specs on that one, I'd not expect Windows 7 to turn it from a spark to a lightening bolt.	St
+1.6.5	Vista and Win7 aren't that much different in performance when setup on the same hardware.	St
+1.7.1	...is to go to the MS web site and put in the error code.	St
+1.7.2	Having done that, I found this at the following link: http://answers.microsoft.com/en-us/windows/forum/windows_vista-system/blue-screen-stop0x0000007e/8cdec261-0b54-4de3-ae11-674e9b4b5d5b?auth=1 .	St
+1.7.3	It says &quot; This error is usually a driver issue and display adapter (video) driver is the most suspect though it could be others.	St
+1.7.4	Antivirus/antispyware/security programs, hardware (heat) and major software issues can also cause the error.	St
+1.7.5	When you get to the driver section of the troubleshooter use my generic methods in the next message and then return to the troubleshooter if needed.	St
+1.7.6	&quot; There're other write-ups on this error at: http://search.microsoft.com/en-US/results.aspx?q=0x0000007e+vista&amp;x=0&amp;y=0 &lt;span&gt;` &lt;span&gt; Good luck.	St

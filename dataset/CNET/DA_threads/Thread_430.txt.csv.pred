@@ -1,0 +1,28 @@
+1.1.1	one purchase an ISA or PCI card to run an internal floppy??	St
+1.1.2	?	Ques
+1.2.1	But the sad truth is that I don't see such a card.	St
+1.2.2	The issue here is that a motherboard could cost about the same.	St
+1.2.3	What motherboard is this?	St
+1.2.4	What CPU and such parts do you need to move over?	St
+1.2.5	Bob	St
+1.3.1	Ray, check this out.	Sug
+1.3.2	Looks as it is for an ISA slot.	St
+1.3.3	http://www.jdr.com/interact/item.asp?itemno=MCT-FDC-HD4	St
+1.4.1	.	St
+1.5.1	Ray: Try some WD-40 on the micro switches just inside the flip door.	St
+1.5.2	the one on the right looking in is the write protect, and the one on the left is the media sensor switch.	St
+1.5.3	What i have found in many cases is that those switches get gummy from the atmosphere and do not actuate properly when you insert a floppy, particularly, the media sensor.	St
+1.5.4	If this stays down in a stuck position, the drive thinks it has a 720 disk, but your command has told it that it was a 1.44, therefore you may get a message &quot;cannot read, disk not formatted etc.&quot; A little WD-40 on the finger nubs with working a disk in and out frees up these switches, and often puts the drive back in service.	St
+1.5.5	Its worth a try, I fixed one this past weekend for a friend.	St
+1.5.6	Norm	St
+1.6.1	Also check the mother board floppy plug slot to see if a pin is bent down against another pin, sometimes these slots are not indexed (missing a pin) and some one uses a indexed cable (blank space on the cable connector) bending the pin down while forcing the cable in the slot.	Sug
+1.6.2	Norm	St
+1.7.1	This idiot was building a new computer and setting up the old one for another user.	St
+1.7.2	The old one was using an LS120 [IDE] drive as the floppy.	St
+1.7.3	This was needed for the new computer which had the old hard drive with Quickbooks on it.	St
+1.7.4	Used it to back up Quickbooks.	St
+1.7.5	Now two years ago, this same idiot disabled the Floppy controller because at that time the system didn't have a floppy drive.	St
+1.7.6	Guess what happened when i enabled the floppy controller in the BIOS.	St
+1.7.7	Now I have an ISA controller that can handle a bunch of floppies.	St
+1.7.8	Anyone need it?	St
+1.7.9	?	Ques

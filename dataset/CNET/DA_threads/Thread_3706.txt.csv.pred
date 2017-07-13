@@ -1,0 +1,87 @@
+1.1.1	I have purchased a new Seagate 400GB Ultra ATA/100 internal HD and an Adaptec USB/Firewire enclosure.	St
+1.1.2	I have followed the installation directions to the letter.	St
+1.1.3	Here's the problem: when I plug in the enclosure to my computer (by USB or Firewire), the computer thinks that it is a different drive (one with only 80GB of space).	St
+1.1.4	I can format it and partition it and use it satisfactorily, but I am limited to 80 GB.	St
+1.1.5	I have checked device manager and its properties, and everything refers to this other drive.	St
+1.1.6	It makes no difference as to whether I have the jumper on Master, Slave or Cable Select.	St
+1.1.7	Seagate's support speaks of many different capacity issues - usually refering to the Bios.	St
+1.1.8	But, they specify certain GBs and 80GB is not one of them.	St
+1.1.9	I don't think that this is the problem as my computer is not very old and is running XP with SP2.	St
+1.1.10	Any suggestions?	St
+1.2.1	NIL	St
+1.3.1	NIL	St
+1.4.1	http://accessories.us.dell.com/sna/productdetail.aspx?sku=A0517936&cs=19&c=us&l=en	St
+1.5.1	NIL	St
+1.6.1	NIL	St
+1.7.1	NIL	St
+1.8.1	NIL	St
+1.9.1	Many people have damaged OSes or use non-standard methods or the list goes on and on.	St
+1.9.2	So far the clues are not there to pinpoint what's going on for you.	St
+1.9.3	Bob	St
+1.10.1	But, should it?	Sug
+1.10.2	The new HD is connected by USB.	St
+1.11.1	The question is, where is the system coming up with the value that just happens to correspond to the size of the old HDD which has been removed ..right??	St
+1.11.2	And when you look at it under disk management, the drive shows no unallocated space ?	Ques
+1.11.3	Are you using any utilities like Tweak UI ?	Ques
+1.11.4	?	Ques
+1.12.1	I still have the original internal HD in the system.	St
+1.12.2	The new HD is an additional internal HD but in an external enclosure, connected by USB.	St
+1.12.3	The system is coming up with a completely different HD (one that I have never owned!).	St
+1.12.4	It is made by Seagate, the same manufacturer of the new HD that I am trying to use.	St
+1.12.5	Yes, there is no unallocated space.	St
+1.12.6	No, I am not using Tweak UI.	St
+1.13.1	NIL	St
+1.14.1	NIL	St
+1.15.1	Did you install the drive or did someone else do it ?	Ques
+1.15.2	What does it say about the drive under properties ... under the Hardware tab ??	Ques
+1.15.3	It should show you the Seagate model #.	St
+1.16.1	I installed the drive.	St
+1.16.2	Later, I will test it on a friend's computer.	St
+1.16.3	For now...	St
+1.16.4	Under properties or in the device manager, the drive is listed as ST380011A.	St
+1.16.5	Seagate's website describes this as Barracuda 7200.7 with 80 GB.	St
+1.16.6	Cylinders 1023, Heads 256, Sectors 63.	St
+1.16.7	On the drive itself, there is a sticker from Seagate stating that it is model # ST3400632A.	St
+1.16.8	Barracuda 7200.8 with 400GB.	St
+1.16.9	Interestingly, I can find the drive on Seagate's warranty validation section.	St
+1.16.10	However, when I search for the drive from the main page, it does not come up.	St
+1.16.11	There is a drive with model # ST3400633A.	St
+1.16.12	It is described as Barracuda 7200.9 with 400 GB.	St
+1.16.13	Cylinders 1024, Heads 256, Sectors 63.	St
+1.16.14	When I use Seagate's formatting/partioning software that came with the drive, under drive info it states: Cylinder = 9729, Heads 255, Sectors=63.	St
+1.16.15	Notice that it says cylinder not cylinders.	St
+1.16.16	Does all of this info indicate what the problem might be?	St
+1.17.1	I tried the drive on 2 other computers running XP with SP2.	St
+1.17.2	They also identified the drive as the 80 GB model.	St
+1.18.1	Just to confirm...what other hard drives ...make, model number, etc.	St
+1.18.2	do you have in the system ??	Ques
+1.18.3	What model number does the Seagate diagnostic SW indicate ?	Ques
+1.18.4	Where did you buy the drive ?	Ques
+1.19.1	The internal HD that came with the system is a Toshiba 60 GB with model #: MK6026GAX I have another external drive (designed to be external!)	St
+1.19.2	that is a Western Digital 120 GB with model #: WD1200B015-RNN The Seagate online diagnostic tools identify it as ST380011A.	St
+1.19.3	I bought it on-line through E-Bay (I'm beginning to regret that decision!!!)	St
+1.20.1	It could be a simple mistake by the mfg where they applied the wrong label to the drive or installed the wrong logic board on the drive in the mfg process.	St
+1.20.2	Alternatively ... it could be a case where someone is buying quantities of small HDDs at low prices, duplicating labels for the bigger drives, putting the new labels on the older, smaller drives and reselling them to unwary vendors.	St
+1.20.3	Better get in touch with vendor quick and maybe Seagate too so they can resolve the problem.	St
+1.20.4	Did you buy with a credit card ?	Ques
+1.20.5	If yes...you might be able to dispute the charge until it's resolved.	St
+1.20.6	Was the price much lower than other sources ?	Ques
+1.20.7	If you get prices lower than NewEgg or ZipZoomFly ... something's wrong.	St
+1.20.8	PLEASE let us know how this turns out.	St
+1.20.9	VAPCMD	St
+1.21.1	Well, you could never guess how this turned out.	St
+1.21.2	It seems that someone, either my vendor or his distributor, was pulling a fast one.	St
+1.21.3	The drive was, in fact, an 80GB HD instead of the 400GB that was on the packaging.	St
+1.21.4	Further, the label turned out to be suspicious.	St
+1.21.5	An expert suggested that it was counterfeit.	St
+1.21.6	I notified my vendor and he agreed to exchange it.	St
+1.21.7	But, he sent me a new HD with the exact same issue!	St
+1.21.8	80GB with a suspicious label.	St
+1.21.9	Finally, I spoke in person to the vendor and, after threatening all kinds of action, he agreed to exchange it again.	St
+1.21.10	This time, he &quot;tested&quot; the drive before sending it.	St
+1.21.11	The drive arrived and was as described.	St
+1.21.12	Finally!	St
+1.21.13	So, 2 months and two additional shipping charges later (to get the 2 imposters back to him), I finally have what I initially was promised.	St
+1.21.14	Lesson to be learned - don't buy computer hardware through e-bay.	St
+1.21.15	Especially when the price is lower than anywhere else.	St
+1.21.16	Thank you for pushing me in the right direction!	St

@@ -1,0 +1,50 @@
+1.1.1	i have recently bought a scsi drive and card, win xp finds the 'symbios logic'(compaq) card fine but once the drive is put on it wont find it in the bios and windows just wont start.... i have tryed to find drivers for the 'quantum atlas 10k3 72 wls' scsi drive but there isnt any also im not sure where the jumpers are supposed to go on this thing... please someone help!!	St
+1.1.2	!	St
+1.2.1	Ordinate pin-1 to pin-1, striped side of HD cable??	St
+1.2.2	?Then you need to tell the system bios, that no HD is present for the SCSI to be used, *IF* no other HD is present, otherwise leave as is for the current HDs.	St
+1.2.3	Next, address the SCSI HD as #1 on its jumpers or what is called #1, but not #0, if it has it.	St
+1.2.4	You will need a &quot;terminator plug&quot; to either place on the last device of the SCSI chain or on the HD itself, provided it has a place for it.	St
+1.2.5	Further info should be gotten from the SCSI card maker/vendor as to how to use thier device.	St
+1.2.6	Quatum is now owned by the Maxtor HD makers, check there and look-up your model HD.	St
+1.2.7	The above info is generic in terms, but it should get you in the right direction, I'm sure it a simple step overlooked.	St
+1.2.8	Understand also, the HD has to readidied for use once acknowleged, etc., format, OS loaded if its the primary loading HD.	St
+1.2.9	good luck -----Willy	Polite
+1.3.1	I see little hope for waking you up.	St
+1.3.2	Most of the Symbios SCSI cards I've seen in over 10 years were discount affairs and some never found support in today's operating systems.	St
+1.3.3	Your post didn't supply make and model numbers so I can't wake you up from the nightmare.	Sug
+1.3.4	Best of luck, maybe it's just jumpers or termination?	St
+1.3.5	Bob	St
+1.4.1	To add Start here http://www.pcguide.com/ref/hdd/if/scsi/cables.htmhttp://www.pcguide.com/ref/hdd/if/scsi/cables.htm	St
+1.5.1	ok i found a driver update for the scsi card and i now get into windows (after a long wait) it doesent find the drive but displays it in device manager under the drives bit.	St
+1.5.2	i cant seem to get it recognised to format it or anything at all yet, so really im back at square one (i take this time to say that this is my first scsi experience so im verry much at sea on this one:) to respond to bob: i have found a website to get drivers for this card but it doesent show my one (or im not giving the right info) http://www.lsilogic.com/downloads/selectDownload.do;jsessionid=A7202CDA9D2C6D02D04C8F0BA47D487D#a all i have on this board is :fcc id # cnt75mxz33 its a compaq card with a symbios logic (do the numbers on the chip mean anything?	St
+1.5.3	53c875j 609-0392654 dp06945 9821r ... from the card is a 50 pin connector ribbon to a 50 -68 pin comnnector pluging straight into the drive (no other connectors on the ribbon) i have put the jumpers onto scsi id 1 but i still dont know what the jumpers all mean and what to do with them?	St
+1.5.4	if i have to get a different card, what type do i need and does it have to match the drive?	St
+1.5.5	my head is starting to hurt;(	St
+1.6.1	That's a little more info.	St
+1.6.2	From what I recall this is the Compaq SCSI card that required Compaq's drivers and not the lsilogic drivers.	St
+1.6.3	But you might be past that.	St
+1.6.4	But the part I don't get is your reference to 50 and 68 pin connections or such.	St
+1.6.5	The 50 pin connections tested SCSU GURUs all the time since termination is not optional.	St
+1.6.6	You haven't written one word about termination.	St
+1.6.7	Also, if this was the only drive, I use SCSI ID 0.	St
+1.6.8	Not 1.	St
+1.6.9	Is there a reason to invest more time or money into this setup?	St
+1.6.10	Be brutal about it with the price of some 120 GB IDE drive spotted at 50 bucks!	St
+1.6.11	Bob	St
+1.7.1	Aha, now we have some info.	St
+1.7.2	You are connecting a wide (16-bit) drive to a narrow (8-bit) controller.	St
+1.7.3	In this one drive configuration, you MUST jumper the drive to terminate the bus at himself.	St
+1.7.4	Moreover you must (probably thru SCSI BIOS setup or on board jumpers) terminate the bus on the Symbios board.	St
+1.7.5	Then you may have a shot at it working, but technically it's an illegal configuration.	St
+1.7.6	Bob is probably right, however before you spend your $50 on an ide drive, consider buying a Wide SCSI controller (68 pins) (the adaptec aha2940uw is available at around that price).	St
+1.7.7	This plus a wide (68 pin cable) s/b all you need.	St
+1.7.8	The disk ID can be anywhere EXCEPT 7 since that is reserved for the controller board.	St
+1.7.9	If the 68-pin cable you get has more than 2 connectors, you will need a cable terminator for the last connector on the the cable, in which case drive termination s/b turned off.	St
+1.7.10	Benefits: legal configuration, double the bus speed of the single 8-bit card you now have, room for expansion if desired.	St
+1.7.11	SCSI is challenging, but rewarding.	St
+1.7.12	More useful for servers than PC's (in general).	St
+1.7.13	Usually more expensive due to a lower volume market.	St
+1.8.1	If you bought a SCSI drive because you wanted the higher speed the drive provides you are not going to get it unless you spend some more money.	St
+1.8.2	You are going to need a WIDE SCSI 2 controller that will cost more than an IDE drive to get this drive to work at optimal speed.	St
+1.8.3	Do you want to run, ro do you want it to run right?	St
+1.9.1	http://www.maxtor.com/_files/maxtor/en_us/documentation/installation_guides/atlas_10k_iii_installation_guide.pdf Hope this helps some.	St

@@ -1,0 +1,41 @@
+1.1.1	Winxp SP3, RAM 2GB,HD 160GB When I first time put my memory stick of my Camcorder into the slot of the case of my computer it jolly well recognizes it and the contents get displayed very well.	St
+1.1.2	I use 'safely remove hardware' icon and then remove the stick from the slot.	St
+1.1.3	Now supposing I want to use the memory stick again the slot does not recognize it.	St
+1.1.4	I have to reboot the PC and then it gets recognized.	St
+1.1.5	This cycle ---remove reboot -- remains the only solution to me at the moment.	St
+1.1.6	This is true for all the memory sticks I do have here.	St
+1.1.7	Kindly guide if this problem could be solved?	St
+1.1.8	Thanks in advance.	St
+1.2.1	I used to Safely remove hardware all the time then I was told if it is USB 2.0 don't bother.	St
+1.2.2	So I stopped.	St
+1.2.3	Is it true?, not sure but I have never had a problem.	St
+1.2.4	So try that first as you may be turning off your USB port each time Also make sure that you are not having conflicting drives.	St
+1.2.5	I had a mapped drive set to E and everytime I plugged in a memory stick I never knew if it was going to recognise it.	St
+1.2.6	Hope that helps	St
+1.3.1	There is a simple solution for this in the case of windows.	St
+1.3.2	Just do a &quot;regedit&quot; for StorageDevicePolicies key.	Ques
+1.3.3	.	St
+1.3.4	Get into the Registry - Press Start -&gt;Run, enter regedit, press Ok Click on My Computer.	St
+1.3.5	Then press File Export, give some file name to backup the registry.	St
+1.3.6	Just in caseyou ever need to rollback.	St
+1.3.7	Navigate to HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/StorageDevicePolicies .	St
+1.3.8	In the right pane select &quot;writeprotect&quot; .	St
+1.3.9	RESET the value to '0' Repeat the same for ControlSet001 and ControlSet002 incase they exist.	St
+1.3.10	Now plug in your USB drives and it should work.	Sug
+1.3.11	Else just reboot the machine and try.	St
+1.4.1	I'm running Windows XP Pro, with SP3 and have noticed some problems removing USB devices, even when I use Microsoft's &quot;Safely Remove&quot; option.	St
+1.4.2	I came across a program called &quot;USB Safely Remove&quot; which monitors each of your USB devices that you put into use.	St
+1.4.3	This program sits in your tool bar when it is running.	St
+1.4.4	If you want to remove a USB item, you just &quot;mouse-over&quot; the icon and a window pops up showing all of your USB items that are connected.	St
+1.4.5	To disconnect one of the USB drives, just click on it and it will safely remove it for you.	St
+1.4.6	If it has problems stopping the device, it will pop-up a window and show you the program that is keeping it from &quot;un-mounting&quot; in a safe manner.	St
+1.4.7	This program comes in handy when I use a flash card reader that can read about 12 different types of flash cards.	St
+1.4.8	When I plug it in, about 6 different letters show up.	St
+1.4.9	Using USB Safely Remove, I don't have a problem trying to decide which letter I need to stop to safely remove my flash card reader.	St
+1.4.10	Hope this helps!	St
+1.4.11	Here is the link for the website: http://www.safelyremove.com/?ver=3.3.0.613 Cheers!	St
+1.5.1	I was having this same issue.	St
+1.5.2	What I figured out was by using &quot;safely remove hardware&quot;, I was basically turning off that drive.	St
+1.5.3	Problem was it didn't come back until I rebooted.	St
+1.5.4	My work around was to skip the &quot;safely remove&quot; and just wait a few minutes for the memory card to finish it's work before removing from the slot.	St
+1.5.5	That took care of the problem.	St

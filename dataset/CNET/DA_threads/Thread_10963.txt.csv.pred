@@ -1,0 +1,20 @@
+1.1.1	I have a hard wired four computer network that needs help.	St
+1.1.2	The main computer ie the one that has all the files and printers, keeps dropping off the network.	St
+1.1.3	I boot the machine and all file and printer sharing is fine.	St
+1.1.4	After a period of time, 1 to 4 hours, file and printer sharing are no longer available to the other machines on the network.	St
+1.1.5	I have disabled the firewall on the machine but that has had no effect.	St
+1.1.6	All machines on the network can get to the internet and the main machine can see files on the other machines.	St
+1.1.7	Yesterday I was working in an application and the connection dropped while entering data.	St
+1.1.8	Not a good thing.	Polite
+1.1.9	Thanks for your assistance.	St
+1.1.10	TAM CN5@aol.com	St
+1.2.1	A good place to start is looking at the system/app event logs.	St
+1.2.2	Especially when the connection was lost.	St
+1.2.3	Another step would be to look at the NIC to see whether the led's blink plus check the port the PC is plugged into on your switch/router.	St
+1.2.4	When the PC goes offline, is there any activity?	St
+1.2.5	Also, does changing the port effect the dropouts?	St
+1.3.1	I have changed my settings on my computers and this way the computer no longers shuts down the UBS Ports.	St
+1.3.2	Go to device manager(right click my computer, left click properties, left click hardware, left click device manager) Go to the USB Controller section and click the + sign.	St
+1.3.3	Go to each USB Root Hub and right click on it, left click properties, left click power management.	St
+1.3.4	Uncheck the box, allow computer to turn off this device to save power.	St
+1.3.5	Rick	St

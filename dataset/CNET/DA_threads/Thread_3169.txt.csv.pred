@@ -1,0 +1,24 @@
+1.1.1	I realize that this is not exactly a computer issue but here goes.	St
+1.1.2	I'm using an old computer power supply to power quiet 12 V cooling fans for electronic equipment in an entertainment unit.	St
+1.1.3	I am running 3 120 mm fans that draw 1.4 W max.	St
+1.1.4	with a 200 W power supply.	St
+1.1.5	I have 2 old PS's, the oldest has a switch that will turn it on and off but has a noisy cooling fan.	St
+1.1.6	The newer PS has a quieter fan but won't turn on (I'm guessing) without a signal from the motherboard; it worked OK before I removed it from a computer.	St
+1.1.7	My question is two part; can I disconnect the cooling fan in the older PS since I'll be using less than 5 W of power total without overheating the PS?	St
+1.1.8	Alternatively is there a way to &quot;jump&quot; the newer power supply so that it will turn on without the motherboard connection?	St
+1.1.9	Thanks	Polite
+1.2.1	can I disconnect the cooling fan in the older PS since I'll be using less than 5 W of power total without overheating the PS?	St
+1.2.2	YOUR CHOICE!!	St
+1.2.3	But from what I see in most designs the heat output at low loads is still too much for the PSUs to run without a fan.	St
+1.2.4	Bob	St
+1.3.1	I'd think the newer supply fan could just be powered by the same 12v used for the others with a little rewiring.	St
+1.3.2	My guess is this one might be thermally controlled and that's the reason it doesn't come on when the 12v comes up.	St
+1.3.3	Unless you just want to use what you have and not spend a few extra bucks, I'd look into something like this.	St
+1.3.4	http://www.trcelectronics.com/12-volt-power-supplies-low-external.1.shtml You can get 12v dc supplies that are small and can handle a few light duty fans.	St
+1.3.5	You still need a little creativity to adapt them but it sounds like you're not short on that.	St
+1.4.1	To power up an ATX or ATX-2 PSU for testing, short pin 14 (PS_ON) with one of the grounds.	St
+1.4.2	See here: http://pinouts.ru/Power/atxpower_pinout.shtml	St
+1.5.1	Thanks for the help.	St
+1.5.2	That seems to work well	St
+1.6.1	I just read your post and this also worked for me.	St
+1.6.2	I need to take a power supply and use it to run my fans in a cabinet that houses my network equipment thank Jeff ACS	St

@@ -1,0 +1,16 @@
+1.1.1	I have a Netgear router which also acts as the DHCP server.	St
+1.1.2	Within the configuration, the IP address range is set to be 192.168.1.2 to 192.168.1.9.	St
+1.1.3	Until recently, there were 3 devices on the network with the router, and their IP addresses are all within that range.	St
+1.1.4	A netbook added recently has IP address of 192.168.1.130, and ironically, this netbook cannot communicate with other devices on the network, yet it surfs internet okay.	St
+1.1.5	I am blaming the problem with netbook being excluded from the network to its IP address, but I can't quite figure out how it has its IP address set outside the range by the router.	St
+1.1.6	Any idea?	St
+1.2.1	All devices within the range 192.168.1.xxx can share the LAN.	St
+1.2.2	Have you made sure the netbook is in the same work group?	St
+1.2.3	Have you run the Network Setup Wizard on the netbook?	St
+1.2.4	Have you turned on File and Printer Sharing on the netbook?	St
+1.2.5	Your router has a default range of 192.168.1 - 192.168.1.255.	St
+1.2.6	The default group is 192.168.1.1 - 192.168.1.199.	St
+1.2.7	Anything within that range is accessible.	St
+1.2.8	And on a more complicated note, you can change the entire range to almost anything.	St
+1.2.9	A friend changed his range to 10.10.10.1 - 10.10.10.20.	St
+1.2.10	Be prepared to troubleshoot and pull your hair out.	St

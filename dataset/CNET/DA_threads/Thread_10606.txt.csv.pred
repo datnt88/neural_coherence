@@ -1,0 +1,62 @@
+1.1.1	so one day my pc froze and I turned it off with the power on/off button, than i tried to turn it back on, but it wont properly start.	St
+1.1.2	there`s the first image that says HP events or smth, than a black screen with a white '' - '' glowing on the edge of the screen.	St
+1.1.3	Btw i`ve tried booting it from a cd and usb flash - nothing.	St
+1.1.4	- Ive got an HP pavillion dv2000	St
+1.2.1	Be sure to unplug all USB things and try again.	St
+1.2.2	No go?	St
+1.2.3	Try the generic reset.	St
+1.2.4	Power off, remove AC, the battery, press hold the power button for 60 seconds, release, slip in the battery, apply AC and try again.	St
+1.2.5	Bob	St
+1.3.1	still nothing.	St
+1.4.1	HP support website has a t/s routine that you can do.	St
+1.4.2	Goto the HP website and enter your model# and look for it.	St
+1.4.3	I believe the user needs to hit F1 or F10(depends on bios level), or some key(instructions on website) then follow repairs.	St
+1.4.4	If a recent bios update or system upgrade and/or power status change, it could generate your problem.	St
+1.4.5	tada -----Willy	St
+1.5.1	Go get the service manual and power off, remove ac and battery (that's in the service manual) then remove the hard drive.	St
+1.5.2	At this point, if it's the usual failed HDD the boot from USB and CD should work.	St
+1.5.3	Bob	St
+1.6.1	so i actually got it to boot from usb, but startup repair couldnt fix it and when i tried to re-install vista an error showed up.	St
+1.7.1	That might be interesting.	St
+1.7.2	What error?	St
+1.7.3	And what did you use as a source to reinstall it?	Ques
+1.7.4	Usually Windows Vista doesn't come on flash.	St
+1.7.5	Kees	St
+1.8.1	start up error or atleast smth like this.	St
+1.8.2	: &lt;div&gt;Problem Event Name: StartupRepairV2Problem Signature 01: AutoFailoverProblem Signature 02: 6.0.6000.16386.6.0.6000.16386Problem Signature 03: 6Problem Signature 04: 1507351Problem Signature 05: CorruptFileProblem Signature 06: CorruptFileProblem Signature 07: 3221226017Problem Signature 08: 1Problem Signature 09: WrpRepairProblem Signature 10: 0OS Version: 6.0.6000.2.0.0.256.1Locale ID: 1033 &lt;/div&gt; vista re-install error.	St
+1.8.3	: Windows cannot open the file required C:\Sources\install.wim.	St
+1.8.4	The file does not exist.	St
+1.8.5	Make suure all files required for installation are available and restart the installation.	St
+1.8.6	Error Code: 0x80070002.	St
+1.8.7	well yeah, i downloaded vista recovery cd.	St
+1.9.1	If you can't install from an original OEM System Recovery disk or an original Microsoft holographed Vista install DVD after a total erase of the hard disk (use free DBAN for that) something is wrong with the hardware.	St
+1.9.2	Better have that repaired.	St
+1.9.3	If you install from a non-original copy, there's a good chance something is wrong with the copy.	St
+1.9.4	In that case, contact HP and order that recovery disk.	St
+1.9.5	Kees	St
+1.10.1	the recovery cd isnt original - its downloaded from the internet.	St
+1.10.2	how do i contact hp.	Ques
+1.10.3	?	Ques
+1.11.1	How to reach their customer service should be in the documentation that came with the machine.	St
+1.11.2	If you can't find it, go to www.hp.com and find it for your country.	St
+1.11.3	Should be possible.	St
+1.11.4	Kees	St
+1.12.1	they dont send to my country.	St
+1.13.1	It's a pity they don't send to your country.	St
+1.13.2	Maybe the shop where you bought this machine help you to find something that works.	St
+1.13.3	There might be a recovery partition on the hard disk.	St
+1.13.4	If no help from the shop or the local tech, see if http://www.google.com/search?q=&quot;Sources\install.wim&quot; leads to a solution.	St
+1.13.5	If not, better buy an original DVD.	St
+1.13.6	be sure you have or can download from hp.com all needed drivers for the OS you choose.	St
+1.13.7	That might be difficult.	St
+1.13.8	Kees	St
+1.14.1	Many of those don't work.	St
+1.14.2	If I needed to install an OS and get my machine up on the net today I'd look again at UBUNTU (see google) Bob	St
+1.15.1	HP offers from their support website to order the recovery/restore disc(s).	St
+1.15.2	They are for a small cost though but definitively cheaper than anything else and made for your PC.	St
+1.15.3	Just goto the HP website, find support, enter your model# and check for the ordering hyperlink.	St
+1.15.4	Provided they still have Vista available, its worth the wait.	St
+1.15.5	As for any recovery via the WWW source, they usually is only for minor recovery possibilities.	St
+1.15.6	Its a generic source of recovery so it won;t be capable to fix either true h/w faults or anything other than the basic Vista OS footprint.	St
+1.15.7	I would also do this from disc rather than a flash drive if I assume you got the .ISO file.	St
+1.15.8	good luck tada -----Willy	Polite

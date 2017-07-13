@@ -1,0 +1,91 @@
+1.1.1	Now that I seem to have wiped my (IDE)hard drive with DBAN...I need to get my DVR, to recognize it.	St
+1.1.2	First I need to get a look at it, and try formatting it to NTFS.	St
+1.1.3	So far, its no go, trying straight from DBAN erase, then into the DVR.	St
+1.1.4	I have 2 computers at my disposal.	St
+1.1.5	One is the old computer, the erased drive came from(also IDE plarform) that now has no hard drive or OS.	St
+1.1.6	The other, is a newer working computer(SATA platform).	St
+1.1.7	I am now trying to read the IDE(erased drive) with my SATA computer that is fully functional.	St
+1.1.8	I got a cable that plugs into the USB drive of the SATA computer, and then has a plug to fit the IDE connection on the erased drive.	St
+1.1.9	I then powered the tethered drive, from the old computer power supply beside it.	St
+1.1.10	Ugly, but best I can do under the circumstance.	St
+1.1.11	The drive on the end of the cable runs, and shows up on the SATA computer, under device manager.	St
+1.1.12	It does not show up under &quot;Computer&quot; or in Windows Explorer menu.	St
+1.1.13	I ran HP diagnostics(PC doctor) and notification came up that SATA disc management or something; could not recognize the drive firmware.	St
+1.1.14	It allowed me to run a test from the notification window on the erased drive; and it failed pretty quick.	St
+1.1.15	Perhaps DBAN erased the firmware, and I need to re-instal the firmware?	St
+1.1.16	When I looked under the drive properties in device manager; there was no firmware showing in the box next to firmware.	St
+1.1.17	This is why I am thinking firmware.	St
+1.1.18	I have the discs for the drive I am working with; but nothing seems to want to install anywhere.	St
+1.1.19	Neither the working computer, or the tethered drive.	St
+1.1.20	I went to Western digital sight, searched the drive model number; and can't seem to find anything that looks like a firmware update, or firmware.	St
+1.1.21	I might just be too dumb to figure out the sight.	St
+1.1.22	Maybe I am completely off track here.	St
+1.1.23	Any ideas how to get this erased drive recognized, so I may attempt to format it, and or, scan it.	St
+1.1.24	I suspect if I can get it recognized by my working computer and format it FTSC; I can get the DVR to recognize it.	St
+1.1.25	Please help.	St
+1.1.26	Any ideas here.	St
+1.1.27	Anyone who has used a tether across platforms like this.	St
+1.1.28	I don't have another IDE computer with drive and operating system; or I would put the erased drive on there.	St
+1.1.29	I am stuck with the old computer drive(IDE) and New computer(SATA).	St
+1.1.30	I don't have another IDE drive to put the OS on, and run the old computer.	St
+1.1.31	Or I would not be working across platforms.	St
+1.1.32	The one other long shot, is trying to put the old DVR hard rive that still seems to work, in with the erased drive I am trying to format; and see if the DVR might erase and format them both.	St
+1.1.33	This probably won't work if firmware is missing either.	St
+1.1.34	Does DBAN wipe the firmware?	St
+1.2.1	Many DVRs don't take a PC formatted drive.	St
+1.2.2	We do that in the service depot or if the DVR accepts drives, it's in a menu.	St
+1.2.3	But all that you put here and you missed the detail that folk can use.	St
+1.2.4	Make, model?	St
+1.2.5	Bob	St
+1.3.1	Everything I have read on forums, says it will recognize NTSC standard format, most computers use.	St
+1.3.2	This does not mean it will, but is the assumption going in.	St
+1.3.3	If I could get this erased drive back to useable, and at least be able to see the drive on my good working computer; then I could assume it is a problem with the DVR recognition.	St
+1.3.4	You are probably right with many DVR's, but this one is a bit more open format....	St
+1.3.5	I think.	St
+1.3.6	I realize I am not going to be able to read stuff off the DVR back to the computer, and don't intend to do any of that.	St
+1.3.7	I just want to be able to run the DVR with a bit more capacity, same as it ran before.	St
+1.3.8	Other's claim to just stick a WD drive up to 320gig in, and off it goes.	St
+1.3.9	I have yet to get a clean formatted drive to offer the DVR.	St
+1.3.10	I nuked the older computer drive with DBAN.	St
+1.3.11	Now I need to get the computer to recognize it, before I even try the DVR again.	St
+1.3.12	Someone mentioned cloning; but I am not sure if I am at that step yet.	St
+1.3.13	Cloning will not do the firmware and format I don't think???	St
+1.3.14	If I get the drive recognized on the computer, and it still won't take on the DVR; I think then I may try a clone.	St
+1.3.15	The DVR has a format option in its menus; but I have not gotten the menu to come up with the erased drive here.I have not tried putting both drives on a single harness cable(into the DVR) and trying that way.	St
+1.3.16	That might be my next step.	St
+1.3.17	I just need to get this drive back to the way it might come from a store.	St
+1.3.18	Firmware, and formated.	St
+1.3.19	Thank You moderator!	St
+1.3.20	I am open for suggestions here.	St
+1.4.1	Let me tip my hand a little.	St
+1.4.2	I have worked over the years in the design of Surveillance DVRs.	St
+1.4.3	That format is the video format and has little to do with the HDD format.	St
+1.4.4	http://www.ehow.com/how_6320578_upgrade-hard-drive-polaroid-drm_2001g.html It appears you may only need to pop in a new drive but given what I read above I wonder if you set the jumpers on the new drive the same as the old drive.	St
+1.4.5	Bob	St
+1.5.1	I did check the jumpers.	St
+1.5.2	They were the same.	St
+1.5.3	I had some other problems.	St
+1.5.4	Apparently the unit had been dropped years ago, and a corner of the power board was cracked, and the dvd carriage was rigged to work, do to a broken tooth on the carriage.	St
+1.5.5	It always worked screwy; and I had to boot from a wall switch, because the on/off did not work.	St
+1.5.6	Anyway, after fixing a dead fan, blown capcitor on the power board, and soldering a jumper across the broken trace.	St
+1.5.7	I got it back the way it should have run.	St
+1.5.8	It now says hello on start up, and the on/off works.	St
+1.5.9	Still took some work getting the new bigger drive, to boot up.	St
+1.5.10	I ended up having to do a hot swap.	St
+1.5.11	On top of the hot swap; it seems the burner has to be plugged in to the board; for the hard drives to boot.	St
+1.5.12	At first I thought my repairs had failed; but when I got desperate and tried to run a movie from disk, just to see if I could get anything to work; the hard drive booted right up.	St
+1.5.13	I then entered the setup menu-did a hot swap for the erased drive I have been trying to install-then erased it; and now it reboots on its own.	St
+1.5.14	No matter which drive I put in; when I pull the burner, then reboot; the menus won't load nor will either hard drive boot.	St
+1.5.15	It took a hot swap, and complete harness hook-up to boot.	St
+1.5.16	I think the hot swap, was key, to get the menus to load; and allow me to erase the other drive I am trying to install.	St
+1.5.17	Once I ran the erase, perhaps it also formatted; because it rebooted after that.	St
+1.5.18	With the original drive completely removed.	St
+1.5.19	Now I have a harness quandary.	St
+1.5.20	It looks like I am going to have to leave the flaky burner in the DVR to get the hard drive to boot, not entirely sure yet.	St
+1.5.21	The IDE ribbons that supply data, to both the hard drive and burner; are different than the standard IDE (master slave) ribbon in most computers.	St
+1.5.22	Unlike the regular computer IDE ribbons; the ribbons feeding the drives in the DVR, have all their pin sockets open for male pins.	St
+1.5.23	The standard master/slave ribbons seem to have the one dead pin socket.	St
+1.5.24	Does anyone know, what to call these ribbon cables in the DVR.	Ques
+1.5.25	They are exactly the same as the IDE, just no blank pin in the middle.	St
+1.5.26	I need to know what to call it; so I can hunt for them on line.	St
+1.5.27	Thank You.	St

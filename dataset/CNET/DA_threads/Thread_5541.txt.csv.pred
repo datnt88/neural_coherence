@@ -1,0 +1,39 @@
+1.1.1	I would like to add a second hard drive to my computer.	St
+1.1.2	I have an old hard drive that used to be in my computer which I replaced with a faster bigger one.	St
+1.1.3	When I removed it I never removed the operating system or any of the information on it.	St
+1.1.4	I just took it out.	St
+1.1.5	I would like to use it as a storage drive for my machine.	St
+1.1.6	The same copy of XP is on both drives.	St
+1.1.7	What do I need to do to install it?	Ques
+1.1.8	Kay	St
+1.2.1	be certain that you set the jumpers properly for the location that you are going to put it.	St
+1.2.2	Twill be either a Slave on the Primary Controller, of either a Master or Slave on the secondary controller.	St
+1.2.3	Your new system is probably using the 80 conductor [still 40 pin] cable and using CS [cable select] jumpering.	St
+1.2.4	You should then set the jumper on the old drive to CS.	St
+1.2.5	Then whether Master or Slave is determined by which connector on the ribbon cable it is attached to, The end connector will be a Master, the Middle connector will make it a slave.	St
+1.2.6	Your new computer's Boot drive will be the Primary Master [unless its a SATA drive], so to be the Slave on the primary, it may be a little tricky to engage the middle connector of the ribbon cable to the old drive.	St
+1.2.7	Also anumber of new mobos, especially the bargin Dell's, HP's, Compaqs, have SATA ports and thus only provide a single IDE port [2 drives].	St
+1.3.1	I am okay about that part.	St
+1.3.2	What about formatting the drive I am adding?	St
+1.3.3	I would like to erase all the info on the drive.	St
+1.3.4	Possibly install Windows 98 on it.	St
+1.3.5	Would I do this in disk managrment?	St
+1.3.6	Will the drive automatically be assigned a drive letter when I reboot?	St
+1.3.7	Will it change the drive letters of my other drives?	St
+1.3.8	That may affect the file paths of things that are already in my computer.	St
+1.3.9	My new drive uses cable select.	St
+1.4.1	because once you have a drive with XP installed on it first (as your current Master drive has), even if you install W98 on the second drive, you won't have the ability to dual boot to 'either/or'.	St
+1.4.2	The only way that works is if both drives are NTFS, such as W2K and then XP or XP and then W2K (and even the second option for dual booting would be 'iffy') or if you start with W98 installed on the first bootable drive.	St
+1.4.3	This is because the boot.ini file gets altered during the second operating system installation to include the dual boot option screen as you boot up.	St
+1.4.4	You can easily format the second drive you want to install and just use it as storage instead and save all that harddrive space by not installing an operating system on it.	St
+1.4.5	It will definitely change the drive letter sequence initially because it probably has a Primary Dos Partition on it already so it will become the D: drive letter.	St
+1.4.6	However, with XP, once you boot up, you can go into Administrative Tools\Drive Management and give that drive letter whatever letter you want, including the last one in line so it falls into line behind all others except for cdroms.	St
+1.4.7	For example...if you have C,D,E,F now..you could make this drive G and all your programs, etc.	St
+1.4.8	will continue to use the drive letters they originally were assigned for the shortcuts you use.	St
+1.4.9	You could also format that drive to also be NTFS so it matches up with the rest of the drives/partitions by just right clicking it once it's installed and assigned a drive letter you choose.	St
+1.4.10	TONI	St
+1.5.1	I've found that a little program called seagate works really well for working with hard drives	St
+1.6.1	Does the Seagate utility that you mention enable you to add a second HDD as only an capacity increase on the drive I currently use?	St
+1.6.2	IOW, can this app help users (in a simplified manner) put 2 or more drives together to possibly just build a large drive?	St
+1.6.3	For example, I'm considering turning my 40GB and 20GB drives into a 60.	St
+1.6.4	--David	St

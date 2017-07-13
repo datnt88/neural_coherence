@@ -1,0 +1,25 @@
+1.1.1	Hi all, I have a old, 2000, gateway desktop with no USb 2.0 ports.	St
+1.1.2	I have bought a ALI 6 port USB 2.0 pci card hoping that it would be easy peasy but no way... the ports are showing in my hardware device but every thing i connect to the pci card ports wont be recognized or work properly... if i connect to the mainboard USB 1.1 ports everything is fine... installed SP2 windoes XP professional, upgraded my BIOS, did everything I could but the pci card, though showing the ports, wont recognize external hdd's, cameras etc... any help id much appreciated.	St
+1.1.3	cheers fernando	Polite
+1.2.1	Sometimes it's the motherboard drivers.	St
+1.2.2	But your post didn't reveal what motherboard chipset you have, the exact model of the machine and .. details.	St
+1.2.3	Review http://www.usbman.com and hope you find it.	St
+1.2.4	Bob	St
+1.3.1	Those are two things to consider.	St
+1.3.2	If there's a way for you to test that card in another PC- that would eliminate one variable.	St
+1.3.3	Another possibility would be a conflict with another device.	St
+1.3.4	Go into device manager & see what IRQ is assigned by going to view&gt;devices by resource.	St
+1.3.5	Sometimes changing slots or even removing the one PCI device that's sharing the IRQ, installing your card, then reinstalling the first device- can get it recognized properly (shutting down & restarting for each).	St
+1.3.6	Tracy	St
+1.4.1	Any question mark or yellow exclaimation point?	St
+1.4.2	Do you see enhance 2.0 usb there?	St
+1.5.1	Have you checked to see if the USB card manufacturer has updated drivers available for it?	St
+1.5.2	I installed a CompUSA USB card a while back and was having some weird problems with it at first.	St
+1.5.3	I d/l'ed and installed some new drivers for it from a CompUSA Web site and since then it seems to be working better (although I don't use the USB ports that much, so the apparent increased stability could just be coincidence or luck).	St
+1.5.4	Worth a look.	St
+1.5.5	Also, you might consider disabling the built-in USB ports if you can.	St
+1.5.6	I mean disable them in the BIOS, not in Windows (Or at least, not just in Windows.	St
+1.5.7	I'm not sure if disabling them just in Windows would help).	Res
+1.5.8	Disabling them in the BIOS should free up some resources (most notably, one or more IRQ's), which should then be available for the USB card to use.	Sug
+1.5.9	If your problem is due to IRQ sharing or is in some other way related to a lack of resources, that may solve the problem.	St
+1.5.10	James	St

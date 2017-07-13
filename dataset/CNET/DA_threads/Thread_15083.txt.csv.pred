@@ -1,0 +1,76 @@
+1.1.1	I can no longer boot from both my hard drives.	St
+1.1.2	The first error message said: Intel Boot Agent: no boot filename received.	St
+1.1.3	I disabled the IBA in my BIOS.	St
+1.1.4	Now when I try to boot the message says:cannot read from drive due to hardware configuration problem.	St
+1.1.5	I tried changing disc order and boot device order in BIOS.	St
+1.1.6	I also tried disconnecting all drives except for the one I want,still no luck.	St
+1.1.7	The BIOS does not list the hard drive I want in boot device order, but it does list it in hard disc drives, and Windows says both drives are healthy.	St
+1.1.8	Any suggestions?	St
+1.1.9	I am on a new Gateway with XP Pro, my hard drives are from Maxtor.	St
+1.1.10	I also have a CD drive and floppy.	St
+1.1.11	My motherboard is from Intel.	St
+1.1.12	I also tried upgrading my BIOS from the Gateway site.	St
+1.1.13	Thanks.	St
+1.2.1	1.	St
+1.2.2	&quot;The first error message said: Intel Boot Agent: no boot filename received.&quot; This is typical for many Intel Ethernet cards.	St
+1.2.3	It is not the cause of your main issue.	St
+1.2.4	2.	St
+1.2.5	&quot;I disabled the IBA in my BIOS.	St
+1.2.6	Now when I try to boot the message says:cannot read from drive due to hardware configuration problem.	St
+1.2.7	I tried changing disc order and boot device order in BIOS.	St
+1.2.8	I also tried disconnecting all drives except for the one I want,still no luck.	St
+1.2.9	The BIOS does not list the hard drive I want in boot device order, but it does list it in hard disc drives, and Windows says both drives are healthy.	St
+1.2.10	Any suggestions?&quot; At this point I am a bit confused.	St
+1.2.11	If Windows is booting, then all is right in the world and what the issue may be is that you have moved a hard disk from another machine and the contents are not readable or the contents have become &quot;scrambled.&quot; A longer history (story) could be helpful.	St
+1.2.12	3.	St
+1.2.13	&quot;I am on a new Gateway with XP Pro, my hard drives are from Maxtor.	St
+1.2.14	I also have a CD drive and floppy.	St
+1.2.15	My motherboard is from Intel.	St
+1.2.16	I also tried upgrading my BIOS from the Gateway site.	St
+1.2.17	Thanks.&quot; I'm seeing a picture of where hard disks are being swapped around and you've lost a boot record somewhere.	St
+1.2.18	No mention of what OS may have been on the drives, but so far, all I see is a learning experience about moving drives and how data loss will occur.	St
+1.2.19	Bob	St
+1.3.1	Thanks for responding.	St
+1.3.2	Here is the order in which things occured.	St
+1.3.3	First I installed the new drive, it worked fine.	St
+1.3.4	After about a month, I erased,formatted and upgraded my OS on my old drive.	St
+1.3.5	After doing that I can no longer boot to my new drive.	St
+1.3.6	The very first error message that appeared immediately after doing this was &quot;NTLDR missing&quot;.	St
+1.3.7	Can you recommend a tutorial on boot records as I am not familiar with the term.	Sug
+1.3.8	The original OS on my box was XP Home, I then bought the new drive and installed Pro on it.	St
+1.3.9	After a month I upgraded my original drive to Pro also.	St
+1.3.10	Both drives have been in this box the entire time, however, I have tried using Maxtor's drive-to-drive copier, it did'nt work well and that is when I formatted and started over.	St
+1.4.1	Take a moment and put these phrases into http://www.google.com to learn about XP's Recovery Console and fixing boot issues.	St
+1.4.2	XP FIXBOOT But I wonder about that LBA change in the BIOS.	St
+1.4.3	If I do this, the drive that had data may become scrambled on the very next boot as the drive geometry has been altered.	St
+1.4.4	Booting an OS like NT, 2000, XP (most Windows) will write to said drive and since the geometry changed, writes to such a drive may really scramble the contents.	St
+1.4.5	Please excuse me as I ask why you would make this change?	Polite
+1.4.6	Bob	St
+1.5.1	Thanks for the link, I will study the contents.	St
+1.5.2	The IBA change in BIOS refers to the Intel Boot Agent pre-installed on my box.	St
+1.5.3	From what I have learned it is a tool that the computer reads as a drive that can be used to remote boot a machine.	St
+1.5.4	I assume it was installed so the Gateway techs can help people like me.	St
+1.5.5	I disabled it in BIOS because no matter the configuration I came up with, this little tool tried to boot, and I thought it was preventing my other drives from being read first.	St
+1.5.6	Either way, the IBA makes no difference on my ability to boot to the drive I want, I have enabled and disabled it and tried to boot both ways.	St
+1.6.1	Sorry, but lba and Iba are just some pixels about on the screen, much like the 0 and O characters.	St
+1.6.2	That's a zero (0) and a letter 'O'.	St
+1.6.3	Changing the Intel boot setting is as you and I know, not the issue.	St
+1.6.4	Can I ask in the future you take care with the acronyms since it can lead many astray.	St
+1.6.5	This one is just too close to LBA (Large Block Addressing) which is a hard disk addressing method which can cause data loss if played with.	St
+1.6.6	Bob	St
+1.7.1	Thanks for the advice, I will be more careful in the future.	St
+1.7.2	I think I figured out that somehow I am using one drive to boot from and using the other drive's system resources, which is why I need both drives to boot up and no matter the configuration, it always boots to the same drive.	St
+1.7.3	Basically, I am using the drives in conjunction.	St
+1.7.4	In disc management, it lists one drive as Healthy(boot) and the other drive as Healthy(system).	St
+1.7.5	I believe the second drive should read: Healthy(active).	St
+1.7.6	Any ideas on how I can make both drives able to boot independently of each other?	St
+1.8.1	&quot;Any ideas on how I can make both drives able to boot independently of each other?&quot; Please excuse me as I can't &quot;get the picture&quot; yet.	St
+1.8.2	In you are NOT swapping drives around, it is possible to install various OSes and use a BOOT MANAGER.	St
+1.8.3	Some BIOS's offer a boot to some drive and this is PANS or Pretty Amazing New Stuff that you won't find a lot of support for.	St
+1.8.4	Great for booting a CD and not having to change the BIOS for that.	St
+1.8.5	But booting a hard disk may be problematic.	St
+1.8.6	OK. We've covered some ground to this point, but with the picture still being fuzzy, I can share that XP (and all the Windows OSes) do not survive movement from Slave to Master, channels and vice-versa.	St
+1.8.7	When I find a dual-boot setup and XP is on the slave drive, there is NO SUPPORTED METHOD to move the drive to the primary boot position and &quot;FIX&quot; it so that it operates properly.	St
+1.8.8	There are some web pages about this, but in about 1/2 the attempts (or higher) I know about the drive contents just vanish and a full install is performed.	St
+1.8.9	Write a bit more?	St
+1.8.10	Bob Tip: The forum software may write &quot;no more replies.&quot; When you see this, just make a reply to an entry up higher in the chain.	St

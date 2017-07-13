@@ -1,0 +1,52 @@
+1.1.1	I have a linksys wrt 330n router, I have the desktop connected via ethernet cable and a laptop that connects wirelessly.	St
+1.1.2	There is also a renter in the basement who has a laptop which connects wirelessly.	St
+1.1.3	In the past week or two (renter has been here for a month)my connection drops randomly on my desktop and laptop and i have to reset my router to make it work again.	St
+1.1.4	Just unplug the router and immediatly plug it back in and both will connect right up.	St
+1.1.5	The renter has said she is also having issues with connectivity.	St
+1.1.6	I have wondered if the connection goes down when she logs on as it seems to happen around the time she wakes up and when she is at home at night.	St
+1.1.7	Can anyone tell me what they think the problem could be.	Ques
+1.1.8	I have had this particular network set up for about 3 months with no issues and have had the router with no issues for about 3 years.	St
+1.1.9	Any ideas?	St
+1.1.10	I checked my router setup and it isn't limiting the amount of users.	St
+1.1.11	It is broadcasting in wireless N-mixed with WEP because my old HP printer can't do the the new stuff.	St
+1.1.12	When the laptop drops the signal the network doesn't even show up in the list of available wireless networks.	St
+1.1.13	I don't know what is relevant info so here's a hodgepodge list of some settings.	St
+1.1.14	Dynamic DNS is disabled Mac cloning is disabled Dynamic routing is disabled SSID broadcast is enabled Mac filter is disabled Wireless QOS is enabled (no rules saved) That's all I can think of.	Ques
+1.1.15	Help?	St
+1.2.1	When you get a failure can you access the router from your hardwire PC.	St
+1.2.2	If you cannot get into the management screens then the router has a large issue.	St
+1.2.3	If you can get in you need to dig around and see if there are any interesting messages in the log or if any of the tables look overloaded.	St
+1.2.4	Things like getting the NAT table full or DHCP errors.	St
+1.2.5	If it was only your wireless then I would look at different stuff.	St
+1.2.6	Even though you have a N router if you connect B or G devices the router will slow down.	St
+1.2.7	Some routers will attempt to switch back and forth and get locked up but they fixed that with firmware on the model I know did that.	Sug
+1.2.8	Still you should lock your router to the slowest device you intend to support.	Sug
+1.2.9	To use N you need to upgrade everything and lock it to N only.	St
+1.3.1	I updated the firmware and the system doesn't drop connectivity like used to.	St
+1.3.2	Now it will lose the connection momentarily but I don't have to reset the router to get it to reconnect it will do it on it's own.	St
+1.3.3	It is pretty quick, windows live signs out put skype never shows that it is disconnected and the internet will kinda &quot;hang&quot; when it happens and I usually have to refresh the screen or hit the back button.	St
+1.3.4	The internet in general is also running a lot slower and jumpy than it has before I updated, it has a hard time with videos which was never the case before.	St
+1.3.5	I'm going to try and switch to wireless g only as you suggeseted by my renter has a wireless N laptop, will this affect her connectivity if I'm just broadcasting in G?	St
+1.3.6	The prior issues seemed to happen with the most frequency at night with my laptop which is upstairs and the desktop and router are in the basement.	St
+1.3.7	The logs don't have any dhcp errors, it does show quite a few blocked incoming TCP packets with a &quot;ACK recieved but there is no active connection&quot;.	St
+1.3.8	I don't know what NAT tables are to see if they are full or overloaded.	St
+1.4.1	Good to know it was mostly firmware.	St
+1.4.2	To tell if it is the internet or your network you can run a continuous ping between your machines and then a ping to something like 4.2.2.2.	St
+1.4.3	If both numbers vary at the same time it is your network, if it is only the internet then its most likely a ISP load issue.	St
+1.4.4	If you set your connection to only G her machine will just drop down to G. This has most likely been happening all along you just did see it.	St
+1.4.5	If only she was using the wireless then it would run N as soon as you activated you G machine it would force her to run G... or it may jump back and forth depends on the router and what threshold is set for the switching.	St
+1.4.6	Still G is much much faster than your internet so it should not run worse and if you are lucky it will run a little better.	St
+1.4.7	Hard to say what would be cause of the short hangs.	St
+1.4.8	If it is only the wireless machines it could be intermittent interference.	St
+1.5.1	So, last night the router sort of wigged out.	St
+1.5.2	While I was on the laptop upstairs and the renter was on her laptop downstairs the connection would go in and out over and over again with like 10-45sec between lost connections.	St
+1.5.3	Then it was like the router won the battle and all connectivity was lost.	St
+1.5.4	I went down to the desktop and tried to see if I could access the router settings and I wouldn't connect to them.	St
+1.5.5	Now the connection was down and I couldn't get on the internet so I tried to access the settings from my favorites page and it didn't work, then I tried hard typing in the address and it didn't work either.	St
+1.5.6	It was mentioned that my router has deeper issues if this was undoable.	St
+1.5.7	It's an old router at this point, 3years, is it just going out?	St
+1.5.8	Also, I would like to thank you for sharing your tech knowledge with those of us with less:) Thanks bill012!	Polite
+1.6.1	I read you updated the firmware which is part of the forum advice.	St
+1.6.2	The rest is simply router defaults, simple SSID broadcasting and WPA PSK.	St
+1.6.3	I can't find what settings you are using.	St
+1.6.4	Bob	St

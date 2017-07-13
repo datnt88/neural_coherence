@@ -1,0 +1,109 @@
+1.1.1	I am planning on installing some sort of network in my house/home office and the most important thing to me is being able to transfer files between computers quickly and STORAGE.	St
+1.1.2	like 5TB of storage... Ok 5TB might be more than I need but I want alot of space for home movies, pictures, music, and work related files.	St
+1.1.3	I was going to wire the house with Cat6 as well as have wireless in some areas.	St
+1.1.4	But really I don't know what I should do about the storage?	St
+1.1.5	Do I need a server?	St
+1.1.6	I know there will probably be no more than 6 computers running most of the time but there can be times when that will jump to maybe 10 computers...	St
+1.1.7	I'm not really sure how a server works but, every computer on the network will have it's own software... the only thing I want to store centrally is files to share, and I am looking for something with a very fast data transfer speed so more than one video can be streamed through the network quickly and with no delay...	St
+1.1.8	I also am looking for full redundancy so if anything dies I have a backup available right away, I believe that's called RAID right?	St
+1.1.9	I have both Macs and PC's to put on the network.	St
+1.1.10	Can anyone help me with ideas or what I really need to get?	Ques
+1.1.11	Thanks	Polite
+1.2.1	If not, then the bottleneck is the 100 megabit ethernet.	St
+1.2.2	100 Mb networking is some 10 MB a second and a directly attached hard disk can often burst some 133 MB a second.	St
+1.2.3	All that RAID and more is a waste of time and effort if you don't remove the bottlenecks.	St
+1.2.4	Bob	St
+1.3.1	I thought Cat6 wires were for gigabit?	St
+1.3.2	But yes I was planning on going for Gigabit to get the fastes data transfer rate... That means I will have to get Gigabit harware also I assume.	St
+1.3.3	But I figured everything new would now have Gigabit.	St
+1.4.1	To not bother with RAID or other speedups if your network can't move it at speed.	St
+1.4.2	In fact, you may learn that simple ATA133 IDE drives can deliver more data than a 1Gb network can push... Hope this helps, Bob	St
+1.5.1	Yes CAT6 wires do gigabit, and yes you'd need gigabit network devices all around - switches, network adapters on the client machines, etc.	St
+1.5.2	The hardware is becoming more commonplace now, so that shouldn't be a stumbling block.	St
+1.5.3	Buffalo now has a new line of NAS boxes with gigabit connections.	St
+1.5.4	Capacities from 100-400G.	St
+1.5.5	Plug and play installation, firmware and drives already loaded, Mac and PC compatible (actually uses a Linux variant in the firmware), and includes a utility that when 2 of them are present, they will mirror for backup security.	St
+1.5.6	As Bob has noted, the RAID idea doesn't really wash, but this automatic mirroring may give you the backup copy you want.	St
+1.5.7	The only real issue with that mindset is true data backup and disaster recovery includes offsite storage of a backup copy too.	St
+1.5.8	That way if your household wiring took a hit and you lost both drives to the same lightning bolt, you'd have to buy a lot of new hardware, but a copy of your data was somewhere else for safekeeping.	St
+1.5.9	You decide what you want for that, but the Buffalo Linkstation is probably what you are looking for.	St
+1.5.10	dw	St
+1.6.1	There really isnt enough information about your needs for a definitive answer to your basic question NAS or Server.	St
+1.6.2	Do you need password management, roaming profiles, software distribution, etc.?	St
+1.6.3	If so, a server may be indicated, with or without NAS.	St
+1.6.4	If you only want file storage, then one or more NAS units may be OK. My gut feeling, from what you have said so far is that a couple of NAS units would suffice.	St
+1.6.5	You talked about several things with respect to your proposed network speed and redundancy being two important ones.	St
+1.6.6	Lets talk about speed first.	St
+1.6.7	Your plan to install Cat6 cable is necessary for Gigabit (1000Base-T) Ethernet, but not necessarily sufficient.	St
+1.6.8	For one thing, Base-T Ethernet cabling is limited to runs of 100 meters.	St
+1.6.9	Also, the devices in the system NICs, switches, file server(s), etc.	St
+1.6.10	must also be Gigabit-capable to achieve this speed.	St
+1.6.11	You must not even consider a hub; you will need a Gigabit Ethernet Switch for your LAN.	St
+1.6.12	Whether it should be a managed or unmanaged switch depends on questions not addressed in your post.	St
+1.6.13	If you have any cable run switch to workstation of over 100 meters, including all patch cables, it should be optical cable.	St
+1.6.14	This will, of course involve some other devices for the conversions.	St
+1.6.15	Will all workstations need to access all files?	St
+1.6.16	If not, you possibly could gain some speed, at the expense of cost, by breaking the LAN into segments, with workstations having the same file needs on a segment with its own NAS.	St
+1.6.17	You could still communicate across segments, but activity within a segment should be somewhat faster.	St
+1.6.18	You mentioned a desire for redundancy.	St
+1.6.19	This is indeed the function of some of the six RAID configurations.	St
+1.6.20	Bob and Dick downplay RAID because their mindset was on speed -- RAID 0 (striping) which almost doubles the disk access speed; this they feel you do not need.	St
+1.6.21	You, however, asked about redundancy, which is an entirely different matter.	St
+1.6.22	You will want RAID 1 (mirroring); this will not increase speed, but does provide something like automatic backup of data.	St
+1.6.23	For your purpose this is the way to go.	St
+1.6.24	But be sure you get a system with hot switching of the drives, so that if one does crash, you can pull it out and replace it without shutting down the file server and interrupting any actvity.	St
+1.6.25	The good drive of the pair will then regenerate the files on the replacement and you will regain your redundancy.	St
+1.6.26	(I mentioned there are other RAID configurations these are combinations of striping and mirroring, with or without error checking.	St
+1.6.27	I doubt that you would need any of these.)	St
+1.6.28	You also mentioned having some wireless connections.	St
+1.6.29	These will not even come close to your Gigabit Ethernet speed.	St
+1.6.30	In fact, even the new 802.11n standard will barely keep up with 100Base-T, if at all.	St
+1.6.31	There are many more factors that must be considered in designing your LAN.	St
+1.6.32	For instance, will you want internet access for any or all workstations?	St
+1.6.33	What about network printers?	St
+1.6.34	You will need network devices for things such as these.	St
+1.6.35	Hope this helps some Frank	St
+1.7.1	Thank you for the input.	St
+1.7.2	I don't think I will need any password management, profiles, software distribution or anything else...	St
+1.7.3	Since it is a Home Office I pretty much know everyone who will be on the network... Just the NAS is probably right for me.	St
+1.7.4	I am looking for Just Speed and Storage, and being that I'm not an expert in networking I want to keep it as simple as possible.	St
+1.7.5	I think I will try to look into those Buffalo Boxes, they might be exactly what I need.	St
+1.7.6	My only concern with just having the NAS would be keeping it off the Internet so the rest of the world can't access it.	St
+1.7.7	I need to look into Firewalls.	St
+1.7.8	I will do my home work before I buy and set anything up... Just off the top of my head I think all I need, along with the computers I set up, would be a Router/Switch of some type to plug my cable modem into.	St
+1.7.9	2 or more of those NAS Boxes.	St
+1.7.10	and about 2 printers.	St
+1.7.11	I understand the Wireless would not be as fast as a wired connection, but Wireless is nice too have outside of the ''office''.	St
+1.7.12	From what you have said I don't think I need a server for anything... Just make sure everything is Gigabit and my needs should be met.	St
+1.7.13	Unless I misunderstood everything you all told me.	St
+1.7.14	lol.	St
+1.7.15	Thanks Again.	St
+1.8.1	You're on the right track I think.	St
+1.8.2	Your broadband modem should connect to a standard wireless router, your choice of brand (I have a Buffalo for that too...).	Sug
+1.8.3	The router, though labeled &quot;wireless&quot;, will have 4 switched wired ports on the back too.	St
+1.8.4	I don't know if the router mass market has rolled over to gigabit yet, but for incoming internet, that's not gigabit speed anyway.	St
+1.8.5	Uplink the router to one port of a healthy-sized gigabit switch (i.e., enough ports to cover all the wired needs plus more for the future inevitable expansion) and then let'er rip.	St
+1.8.6	dw	St
+1.9.1	D-Link is the first to come out with a Gigabit wireless router/switch (the switch is Gigabit the wireless part is, as Dick suggested, not really Gigabit).	St
+1.9.2	I suspect others will now also come out with competitive products Dick said that your switch should have room for expansion, and he is absolutely right.	St
+1.9.3	I dont think I have yet seen a network that wasnt eventually expanded.	St
+1.9.4	In your case, I think a 16-port switch would be too small.	St
+1.9.5	You will have 10 computers, 2 print servers, an internet access point, a wireless router (these last two might be combined), and at least one NAS connection.	St
+1.9.6	This is at least 14 connections, leaving little for the future.	St
+1.9.7	A Gigabit router/switch could add four more, which might be adequate; the alternative would be a 20- or 24-port switch.	St
+1.9.8	One other item not yet mentioned is the patch panel where your premises wiring terminates in your server closet.	St
+1.9.9	Like the switch, it should certainly be larger than currently needed, and I prefer larger than the number of switch ports.	St
+1.9.10	You never know what the future will bring.	St
+1.9.11	With respect to the NAS, there are still some things to consider.	St
+1.9.12	The manufacturers that I know, Broadberry, Buffalo, and Digiliant, all use 400 GB (max) SATA drives.	St
+1.9.13	Thus, for 4.8 TB, you would need a system with 24 drives.	St
+1.9.14	I would also want 4 spare drives (2 minimum) for hot-swapping in event of crashes.	St
+1.9.15	Buffalo is a good company, but I believe their largest system is 1.6 TB non-RAID, 0.8 TB RAID (Dick can correct me if Im wrong), so you would need six such systems to meet your desire.	St
+1.9.16	Others make larger systems, so you could get the entire NAS in one box.	St
+1.9.17	However, as I mentioned before, there could be advantages in dividing the load among more than one NAS; while six, as required by Buffalo, seems overkill, you might consider two or three.	St
+1.9.18	BTW, with regard to the implication that the increased speed of striping RAID is virtually useless because of the limitation of the LAN: do you really think that all NAS manufacturers would incorporate this option if it were truly of no value?	St
+1.9.19	First, there is a difference between the potential buffer transfer rate, which does exceed the Gigabit rate, and the internal, or sustained transfer rate, which is how fast the disk itself can physically transfer data.	St
+1.9.20	Currently this peaks at about 600 Mbps, and is oten less.	St
+1.9.21	This is slower than Gigabit Ethernet, and is where striping can be advantageous if you do need maximum speed.	St
+1.9.22	Second, Some NAS systems have the capability of using multiple NICs, thus multiplying their effective network throughput.	St
+1.9.23	Hope this helps Frank	St

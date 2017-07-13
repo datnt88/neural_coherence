@@ -1,0 +1,31 @@
+1.1.1	I have a netgear mr814 v2 router.	St
+1.1.2	I have DSL.	St
+1.1.3	I am connecting at around 200kbs with my router and around 500kbs with just my modem.	St
+1.1.4	I have tried everything I know of to get it to be as fast as the modem alone but can't.	St
+1.1.5	Also sometimes it is even below 100 kbs.	St
+1.1.6	It is not connected to another computer right now.	St
+1.1.7	Trying to get it to work correctly before adding the other comp.	St
+1.1.8	Thnaks David	St
+1.2.1	then try another router to test against.	Sug
+1.3.1	Some DSL modems are actually modem/routers and have to be put in bridge mode if you want it to work correctly with another router.	St
+1.3.2	For example, I'm using a Westell 2200 that was provided with my Verizon DSL service that needs to be bridged to work properly with my router (which is, coincidentally, an MR814 V2).	St
+1.4.1	I also have a Westell modem but not sure what model.	St
+1.4.2	I do know it is an older one.	St
+1.4.3	Our phone company had to upgrade it for me awhile back when they upgraded the system here.	St
+1.4.4	How would I know if I have the type modem you are talking about?	St
+1.5.1	Well, mine shows the model number right on front.	St
+1.5.2	Look at the label on the bottom or back and it should say what model it is.	St
+1.6.1	It is a westell model number C90-36R516-01	St
+1.7.1	OK, that model is not a router, so it is already bridged and passes everything through to your Netgear.	St
+1.7.2	Have you tried to reduce the MTU size in the WAN setup of your router configuration menu?	St
+1.7.3	If MTU size says 1500, drop it to 1492.	St
+1.7.4	If it is already at 1492, try dropping it to 1472.	St
+1.8.1	What OS do you have, Win 2K and Win 98 you can tweek try going to speedguide.com and using the utilites there to tweek your settings	St
+1.9.1	My MTU was at 1492 and I went to 1472 and it didn't make a difference.	St
+1.9.2	I am running Win xp just in case you are wondering.	St
+1.9.3	I appreciate your help.	Polite
+1.10.1	Sorry, David, I'm out of ideas.	St
+1.10.2	Maybe it's time to borrow/buy another router and see if that helps?	St
+1.10.3	That Westell modem is also quite dated and has been discontinued.	St
+1.10.4	Perhaps an upgrade here, too?	St
+1.11.1	Thanks for your help and I think I will try to borrow a friends router and see what happens.	St

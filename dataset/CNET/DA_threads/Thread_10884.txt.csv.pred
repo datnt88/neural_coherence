@@ -1,0 +1,72 @@
+1.1.1	Ok...	St
+1.1.2	I haven't worked on it for this yet.	St
+1.1.3	(Gateway, 933mhz, 128 ram, 40gig hdd.)	St
+1.1.4	2 weeks ago I worked on my sisters gateway replacing the modem and cd/rw drive that were bad as well as removing a lot of spyware and adware.	St
+1.1.5	I ended up just reformatting and reinstalling windows.	St
+1.1.6	She couldn't do anything with the computer as it was.	St
+1.1.7	She called me last night saying the pc won't start now?	St
+1.1.8	She says she doesn't hear anything, the power start light comes on she says, and the 3 keyboard lights flash and that's it.	St
+1.1.9	I guess by that, I'm leaning towards power supply, without seeing it yet, going to do that tomorrow.	St
+1.1.10	Is there a way to test the PS, I have a voltmeter and am very good with figuring things out.	St
+1.1.11	Wondering if anyone here could offer anything?	St
+1.1.12	Any help with this issue would be appreciated.	St
+1.2.1	It's also windows ME, I'll check on this post in the morning.	Sug
+1.2.2	Then after checking the computer, I'll add anything sles I find.	St
+1.2.3	Duane	St
+1.3.1	Observe the fans when you turn on the PC.	St
+1.3.2	IF they just twitch and stop, the PS has tried to start but has shut down.	St
+1.3.3	This is usually a detected overload.	St
+1.3.4	It could be in the PC or the PS.	St
+1.3.5	Disconnecting the PS from the PC will not help troubleshoot it.	St
+1.3.6	You cannot easily start an ATX supply without it being connected to a load.	St
+1.3.7	Even if you can jump the start switch connectors, it will refuse to start if no load is attached.	St
+1.3.8	If the above symptom is true, strip the MB connections of add in cards, RAM CPU etc.	St
+1.3.9	and disconnect the drives.	St
+1.3.10	Turn on the PC and see if the fans will run.	St
+1.3.11	If so, the PS has started.	St
+1.3.12	You can measure voltages if you can find a diagram showing where to read them.	St
+1.3.13	If the PS starts, you can reconnect things to see if it continues to shut down.	St
+1.3.14	If it does, the connected device might be bad or the PS has reached its load limit.	St
+1.3.15	If the PS never starts even with just the MB attached, you are probably looking at a bad MB or PS.	St
+1.3.16	It's a matter of logically ruling things out.	St
+1.3.17	Good luck.	St
+1.4.1	with real thin/sharp test leads, you can probe the voltages from the rear of the molex connector on the mobo from the power supply.	St
+1.4.2	The voltages of interest are the Main 5 volts, the 3.3 volts, and the +12 volts.	St
+1.4.3	The minus voltages are of no interest.	St
+1.4.4	The 5 volt standby voltage should be there anytime that the power supply is plugged into a live outlet [and the switch on the rear of the supply is on].	St
+1.4.5	This voltage is what allows the logic circuits to turn on the main voltages by a momentary contact power switch.	St
+1.4.6	I'm accusing you of being a human being, LOL and 30 plus years of troubleshooting taught me that 95% of the time the trouble was caused by a human being having been working inside the equipment.	St
+1.4.7	First simply recheck evcery possible connection et al that might have gotten disturbed whether intended or not.	St
+1.4.8	BTW, I include myself as a human being that can screw things up unintentionally.	St
+1.5.1	I powered it up with all hooked up and got nothing but lights.	St
+1.5.2	I disconnected the floppy, cd/rw drivesall cards except video and after starting it up about less than a minute later the cpu fan started and then stopped like 2 seconds later.	St
+1.5.3	So I took the memory out and restarted it, well same thing with the cpu fan but this time it stayed running, although I did have to manually spin the fan for the PS to get it going.	St
+1.5.4	They stayed running without booting up until I reconnected the cd/rw drive then I heard the cpu fan gradually start to slow, it stopped then I heard 6 loud beeps, and 3 more beeps sefore it shut down.	St
+1.5.5	Voltage at yellow wires is 1 V, red is 11 V. PS is a newton power ltd. model nps-250CB A 250W max.	St
+1.5.6	If it is determined that it is bad How do I know it is an ATX type?	St
+1.5.7	Being that the computer is already 4 years old, already having put in a new cd/rw drive and a new modem, is it worth it to keep going on parts?	St
+1.5.8	Being as cheap as you can get PC's now?	St
+1.5.9	Thanks for all y'alls help on this.	St
+1.5.10	Duane Miller	St
+1.6.1	It was actually .01 volts and .11 volts..	St
+1.6.2	So I put everything back together and the computer started up and the right voltages are there 5 and 12. this time... hmm...	St
+1.6.3	But I still have to manually turn the fan for the power supply, so could this issue have possibly have caused the PS to go intermittently bad?	St
+1.6.4	It also is not booting up all the way.	St
+1.6.5	ok I hear the HHD spinning, but there is no Display.	St
+1.6.6	I don't know where to go with this now.	St
+1.6.7	Duane Miller	St
+1.7.1	fan, or the Power Supply as most prefer.	St
+1.7.2	PS's are not expensive.	St
+1.7.3	If the tower shuts off automatically after using the normal Windows shutdown, it is an ATX type supply and mobo [system].	St
+1.7.4	If an AT type there is a bundle of heavy wires from the power supply to the power switch.	St
+1.7.5	This is the AC Power going up to the switch and return as the way an AT supply gets turned on.	St
+1.7.6	It's your [your Sister's} judgement as to buying a new system.	St
+1.8.1	Works in computers also, he loaned me an extra tower, (functioning computer) so that I could swap out hardware to eliminate issues.	St
+1.8.2	Ends up his good power supply would boot her system.	St
+1.8.3	But no video (his video card didn't work in it either)(bad MB problem there) Although her HDD, and Video card worked fine in his.	St
+1.8.4	Her PS wouldn't boot up his working PC.	St
+1.8.5	So looks like her PS and MB are bad.	St
+1.8.6	Thanks for all the help, unless y'all have anything else to add, I appreciate the help on this issue.	St
+1.9.1	Check the mobo for bad capacitors [leaking electrolyte or bulging] and if it is an ABIT mobo read the posts about the class action suit and possibly get the mobo repaired/replaced free.	St
+1.10.1	anything that shows what type of motherboard it is, I see markings but nothing comes up on a search, although I don't see anything visibly wrong with the capacitors either.	St
+1.10.2	Thanks again Mr. Harinec	St

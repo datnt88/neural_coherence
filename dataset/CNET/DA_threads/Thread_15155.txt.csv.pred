@@ -1,0 +1,29 @@
+1.1.1	Dell Dimension 4500S, WinXP Home, 256mb ddr ram, Maxtor 20gb hdd.	St
+1.1.2	onboard video & sound, Intel 845 MB w/1.8 Celeron cpu.	St
+1.1.3	This machine suddenly stopped recognizing the cdrw drive.	St
+1.1.4	I checked inside to find the cd drive is on channel two by itself, jumpered at cable select.	St
+1.1.5	When I change the jumper to master and reboot, the drive is recognized normally.	St
+1.1.6	However, when I reboot again, it isn't recognized.	St
+1.1.7	The drive works, until I reboot.	St
+1.1.8	I get the same results when I change the jumper back to CS.	St
+1.1.9	Does anyone have a clue why this is?	Ques
+1.1.10	The hdd is also set at CS.	St
+1.1.11	I have set both as master, Windows will boot at either setting.	St
+1.1.12	I have installed a new 80 pin cable to replace the original, but it seems to have no affect.	St
+1.1.13	My first thought was that the drive was failing, but when it is recognized, it works just fine.	St
+1.1.14	Do I toss the drive, or just reset the jumper each time?	St
+1.1.15	Any thoughts are appreciated.	Polite
+1.2.1	gives a way to give more time for the drive to be detected at boot.	St
+1.2.2	Stop playing master/slave vs CS.	St
+1.2.3	Stay with CS.	St
+1.2.4	When the drives are set to AUTO in the BIOS they get redetected at each boot.	St
+1.2.5	Possibly timing out once in a while before the CD is detected and skips it.	St
+1.2.6	http://reviews.cnet.com/5208-6122-0.html?forumID=44&threadID=63892&messageID=763383	St
+1.3.1	Those are great tips.	Polite
+1.3.2	I'll check to see what's going on in the bios.	St
+1.3.3	I'll let you know.	Sug
+1.4.1	I applied the changes in the bios, at least the ones that were available.	St
+1.4.2	I was able to change the boot order as suggested, but the other options weren't available.	St
+1.4.3	Not even the Floppy Seek option.	St
+1.4.4	Long story short, I plugged in a new drive and it was recognized properly.	St
+1.4.5	Lesson learned.	St

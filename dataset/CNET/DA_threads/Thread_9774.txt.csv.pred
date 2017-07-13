@@ -1,0 +1,127 @@
+1.1.1	I currently have an AMD Athlon 1.4Ghz, ALi ALiMagiK 1 chipset, IWill Award Bios, 128MB Nvidia AGP video card, 512MB DDR ram, 2HD, CDR, DVD.	St
+1.1.2	I am running Windows XP Pro.	St
+1.1.3	I've had this computer for almost 2 years or so wIthout any issues.	St
+1.1.4	A few months ago it looked like the lithium battery on the MB was starting to go.	St
+1.1.5	On every reboot it asked if I wanted to update the iWill smart settings in the BIOS.	St
+1.1.6	A few weeks ago, the computer started to randomly reboot.	St
+1.1.7	Sometimes it would reboot in repeatedly and then remain stable.	St
+1.1.8	I recently rebooted the machine to reset some setting on my router and now it keeps rebooting after startup.	St
+1.1.9	Usually within 10-15 seconds of seeing my desktop, it will reboot again...and again.	St
+1.1.10	I've had some success working in Safe Mode, but even there it has rebooted a couple of times.	St
+1.1.11	I then replaced the litium battery on the MB... still rebooting.	St
+1.1.12	I checked my error log while in safe mode and it gave the following mesaage: AMLI: ACPI BIOS is attempting to write an illegal IO Port Address (0x70), which lies in the 0x70-0x71 protected address range..	St
+1.1.13	I checked with the Microsoft website and it said the solution is to update you BIOS.	St
+1.1.14	After going to the IWILL website, it looks like that I am already up to date with the most recent version.	St
+1.1.15	I checked for any ACPI setting in the BIOS and couldn't find any mention of it there.	St
+1.1.16	Does anyone have an idea what is causing this error or what I could do to solve it?	Ques
+1.1.17	I even switched out each RAM to see if either of them were bad.	St
+1.1.18	Any suggestions or advice would be greatly appreciated!!	Ques
+1.1.19	Thanks!	St
+1.2.1	Tip: If you are asking for help to troubleshoot a computer-related problem, please be sure to include all the necessary information (ie: operating system, model number, hardware, software, etc) that will help others identify your problem for a speedy resolution.	St
+1.2.2	You supplied a very short list of what's in that machine.	St
+1.2.3	Such items as BAD MOTHERBOARD CAPACITORS can be a factor as well as the usual OVERTAXED POWER SUPPLY THAT HAS FINALLY BEGUN TO FAIL.	St
+1.2.4	I'd test fit a 450 Watt power supply and look for the bad capacitor issue as well as try the heat test.	St
+1.2.5	Remove the cover and point a fan at the machine.	St
+1.2.6	If the problem subsides, then you either have a failing fan/heatsink or a heat sensitive component.	St
+1.2.7	Such heat sensitive components are often on a card or even a motherboard and are great fun to track down.	St
+1.2.8	The end user is often upset that the motherboard or card is replaced.	St
+1.2.9	Bob Bob	St
+1.3.1	Here's some more info on the CPU, hopefully it will be more helpful: KA266-R MB, Antec 400w PS model#PP403X.. HP CD-R.	St
+1.3.2	I've booted the CPU with with the tower open and checked the system temperature in the BIOS, the PC health doesn't seem to be close to any &quot;red zone&quot;	St
+1.4.1	It means ZIP when trying to find a board or other chip that is heat sensitive.	St
+1.4.2	It also can't look at the boards for the bad cap issue or a fading power supply.	St
+1.4.3	1. http://www.badcaps.net/ident/ &quot; Here are some functionality symptoms and issues your system might display if your capacitors are failing.	St
+1.4.4	Please note that these symptoms can occur even if your capacitors are not showing the physical signs demonstrated above.	St
+1.4.5	This is a rare occurrence, but it does happen.	St
+1.4.6	Most of the time, there will be physical signs of failure.	St
+1.4.7	System Faults: Motherboard fails to POST.	St
+1.4.8	Memory Test Fails.	St
+1.4.9	Fails to fully boot (or even install) Operating System.	St
+1.4.10	System randomly and frequently freezes.	St
+1.4.11	Random & frequent 'Blue Screens of Death' BSoD or hard freeze under heavy drive activity (Either RAID, SCSI, or standard ATA)&quot; 2.	St
+1.4.12	Power Supply Unit (PSU) capacity degrades with heat and time.	St
+1.4.13	I test fit a new 450 Watt PSU to see if that's it.	St
+1.4.14	Bob	St
+1.5.1	You are spamming the board with multiple posts.	St
+1.5.2	It gets distracting and people may not respond to you.	St
+1.6.1	Thanks for advice, I really appreciate it.	Polite
+1.6.2	I'll check into the power supply.	Sug
+1.6.3	All of my caps look pretty good.	St
+1.6.4	One question.... Why would a defective power supply cause the ACPI BIOS error?	St
+1.6.5	Thanks again.	Polite
+1.7.1	It becomes clear that heat and power issues can cause any number of errors.	St
+1.7.2	I can't discern if that's it yet, but let's hear what your tests with cover off, fans and such are revealing.	St
+1.7.3	Bob	St
+1.8.1	The reboot is likely because you have XP to reboot on a crash.	St
+1.8.2	Your choice to change that so you can witness the Blue Screen Of Death so the clues can be revealed OR to look in the EVENT VIEWER to see why it crashed.	St
+1.8.3	HINT: Use Start, Help and Support to learn about the EVENT VIEWER.	St
+1.8.4	Armed with the EventID, I would go to www.eventid.net for more clues on the issue.	St
+1.8.5	Worth noting is if you are not at SP1 plus more patches, the MS Blaster or varient worms can invade your system and do such mayhem.	St
+1.8.6	It's also your choice to make to be Pest and Parasite free.	St
+1.8.7	I note the tools at http://reviews.cnet.com/5208-6132-0.html?forumID=32&threadID=1313&start=0	St
+1.9.1	1.	St
+1.9.2	Load the BIOS defaults.	St
+1.9.3	2.	St
+1.9.4	Set the FSB from 133 to 100 MHz.	St
+1.9.5	3.	St
+1.9.6	Set the AGP rate to 1X Usually that helps.	St
+1.9.7	If the user complains about the speed loss, I set it back and if it reboots spontaneously, we just agree that as least it does it fast.	St
+1.9.8	Bob	St
+1.10.1	I bought a new power supply and replaced the old one...	St
+1.10.2	It's still rebooting.	St
+1.10.3	Is it possible that my RAM could be corrupted?	St
+1.10.4	Should I try replacing my RAM before messing with the BIOS?	St
+1.10.5	Thanks!	St
+1.11.1	Is the BIOS the latest?	St
+1.11.2	Bob	St
+1.12.1	After checking with iWill's site, it looks like my BIOS is the most up to date.	St
+1.12.2	I also turned off my option in Windows to have the system reboot whenever there's an error in order to get the Blue Screen of Death...	St
+1.12.3	It noted that I should check my RAM...... could it be my memory is bad?	St
+1.12.4	I'm still deciding whether I should buy some new RAM...	St
+1.12.5	Thanks!	St
+1.13.1	Until you move to safer, slower BIOS settings I can't tell.	St
+1.13.2	Bob	St
+1.14.1	I can't find anywhere in the BIOS that will allow me to change FSB or AGP speed...	St
+1.15.1	1.	St
+1.15.2	In your original post &quot; ALi ALiMagiK 1 chipset, IWill Award Bios, 128MB Nvidia AGP video card, 512MB DDR ram, 2HD, CDR, DVD.	St
+1.15.3	I am running Windows XP Pro.&quot; The EXACT MAKE/MODEL of the motherboard would be helpful.	St
+1.15.4	2.	St
+1.15.5	&quot;A few weeks ago, the computer started to randomly reboot.	St
+1.15.6	Sometimes it would reboot in repeatedly and then remain stable.&quot; &quot;AMLI: ACPI BIOS is attempting to write an illegal IO Port Address (0x70), which lies in the 0x70-0x71 protected address range..&quot; This is at the crux of the problem.	St
+1.15.7	While I can suggest you try other settings, you appear to not be able to find them.	St
+1.15.8	So I'm left to tell you the BAD NEWS.	St
+1.15.9	I've avoided calling it DOA, but now I have to.	St
+1.15.10	The machine has a XP incompatible BIOS and unless your motherboard maker has a BIOS update to cure this item #2, then you have the WRONG OS for this motherboard.	St
+1.15.11	XP has doomed a few motherboards to the scrap pile.	St
+1.15.12	At least you can fix it for not too much money.	St
+1.15.13	Bob	St
+1.16.1	MB is iWill KA266-R v1.3 I/ve been running the PC for over a year w/ no probs....	St
+1.16.2	I just ordered new RAM to see if it will help...	St
+1.16.3	Thanks	Polite
+1.17.1	As Microsoft patches the OS, you may find it go unstable.	St
+1.17.2	The warning was issued about this issue and now you get to fix it.	St
+1.17.3	http://www.iwillusa.com/supports/BIOSResult.asp?vID=32 may or not work, but let's ask: Do you have the latest BIOS?	St
+1.17.4	Bob	St
+1.18.1	OK... My BIOS has the date of 10/17/2001...	St
+1.18.2	The latest iWill update has a file name of kar1017b.exe Ist that the same BIOS version as mine, or does the &quot;b&quot; mean that it is newer?	St
+1.18.3	Let's say it is a newer version, how do I actually update the BIOS?	St
+1.18.4	iWill's site has instructions that look rather complicated..... Is there an &quot;easy&quot; way or will I be playing with batch files for a while..	St
+1.18.5	Thanks!	St
+1.19.1	But in almost every case, I make a boot diskette ( http://www.bootdisk.com ), place the AWBFLASH.EXE (fake name, you use what they tell you) and the NUBIOS.BIN file (again fake, use what they supply) and then boot that diskette The method is so simple that I never read the instructions more than once.	St
+1.19.2	Either you do a AWBFLASH NUBIOS.BIN on the command line or you type AWBFLASH and answer it with the NUBIOS.BIN answer and off you go.	St
+1.19.3	If you cut power to the board before it's done, then the board may never work again.	St
+1.19.4	So don't do that.	St
+1.19.5	---------------------- Part 2.	St
+1.19.6	Be aware that not all board makers resolved that I/O error.	St
+1.19.7	In that case, you replace the motherboard.	St
+1.19.8	Bob	St
+1.20.1	Just a quick update.....	St
+1.20.2	I bought new RAM and installed it.	St
+1.20.3	The computer is still rebooting.	St
+1.20.4	I've been trying to avoid messing with the BIOS, but I guess I now have no choice..	St
+1.20.5	Here are the instructions on updating the BIOS from Iwill's site, does that look right to you??	St
+1.20.6	http://www.iwillusa.com/supports/bios_1.asp?vID=136&SID=32&MID=26 The last thing I want to do is mess up during the update and make matters worse.	St
+1.20.7	Thanks again!	St
+1.21.1	It's nice they put it into so many pictures.	St
+1.21.2	Bob	St
+1.22.1	Hi - I got this error (same numbers) & googled it, found this Microsoft page : http://support.microsoft.com:80/support/kb/articles/q283/6/49.asp&NoWebContent=1&NoWebContent=1 Explains the numbers & helped me to fix mine (I needed a BIOS update).	St

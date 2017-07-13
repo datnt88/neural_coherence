@@ -1,0 +1,15 @@
+1.1.1	I have 4 PCs at home and they are as follows: Larry -- XP Pro SP2; main system (used most often); located in basement; Moe -- XP Pro SP2; secondary system (has Outlook on it for my email); located in basement; Curly -- XP Pro SP2; 3rd system (used sporadically during the day); located upstairs; Shemp -- Win2K build 2195 (unsure which SP it has); laptop used by my wife everyday; located upstairs; I have Comcast HSI w/external modem, and D-Link DI-604 Broadband Router w/built-in 4-port switch, setup to use Static DHCP.	St
+1.1.2	Larry gets on the internet just fine, as well as Shemp (Win2K laptop).	St
+1.1.3	However, Curly and Moe have problems staying on the internet - they will lose connectivity after not being used for a while.	St
+1.1.4	On the LAN side, Larry can get to Moe's and Shemp's shared drives, but not Curly's.	St
+1.1.5	Moe can get to the shared printer on Larry, but it can't ACCESS Larry's shared drives (but it CAN see them).	St
+1.1.6	Curly can't even get onto the workgroup.	St
+1.1.7	Shemp can see all systems on workgroup (HOME), and get to printer on Larry, but gets &quot;not accessible&quot; error, along with &quot;not enough server storage to process command&quot;.	St
+1.1.8	I thought I had all but Curly working before after installing XP on Larry and Moe (I know they were all working with Win2K).	St
+1.1.9	Any suggestions would be great.	St
+1.1.10	P.S.	St
+1.1.11	I already checked that file sharing is on, I made sure my username is setup on each system with the same password, and that ZoneAlarm allows connections from the IP range given by the router.	St
+1.2.1	setup.	St
+1.2.2	Then turn off ZA temporarily, reboot everything and see if those missing shares show up.	St
+1.2.3	As far as dropped Internet connections, I just ran resolved this on my PC by putting a check mark in: Internet Properties/Connections tab/LAN Settings/Automatically detect settings.	St
+1.2.4	Apply and OK	St

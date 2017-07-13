@@ -1,0 +1,14 @@
+1.1.1	I was trying to fix my scanner when I noticed the SCSI/RAID Host Controller was conflicting with the Direct memory access controller.	St
+1.1.2	Here is what the Conflicting device list says: Input/Output Range 0000 - 0002 used by: Direct memory access controller I tried removing the SCSI controller and restarting windows in hopes that it would choose a different IO range but it went back to the way it was.	St
+1.1.3	I would appreciate any help.	Polite
+1.1.4	Win2k MSI MS-6330 VIA KT133/A Chipset	St
+1.2.1	Did the scanner ever work?	St
+1.2.2	Did you try the SCSI controller in a different slot?	St
+1.3.1	1.	St
+1.3.2	The BIOS is out of date.	St
+1.3.3	2.	St
+1.3.4	The person who installed the OS didn't install the motherboard driver package or check for latest version of that package.	St
+1.3.5	It's a repeating problem since many expected Microsoft to install such.	St
+1.3.6	Bob	St
+1.4.1	The scanner actually connects through the LPT port, and that is built into the motherboard.	St
+1.4.2	The scanner did work before, but I haven't used it in months (updated lots of drivers since) and I don't know if this conflict is the culprit.	St

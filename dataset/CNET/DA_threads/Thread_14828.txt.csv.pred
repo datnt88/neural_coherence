@@ -1,0 +1,19 @@
+1.1.1	Can i connect two computers directly with a regular ethernet cable?	St
+1.1.2	or would it work if i connected both of them to a modem?	St
+1.1.3	i know ive done it before somehow but i cant remember	St
+1.2.1	...connect them directly.	St
+1.2.2	But it requires a special ethernet crossover cable.	St
+1.2.3	This is the ethernet version of the good old serial / parallel null modem cable.	St
+1.2.4	In effect the cross over connects one ethernet's out to the other's in, and vice versa.	St
+1.2.5	A normal ethernet cable won't work.	St
+1.2.6	If you connected them both to a modem (router) they can both connect to the internet, but not to each other.	St
+1.2.7	Network hubs are what form small LAN's for connecting computers.	St
+1.2.8	Plug modems, printers (but not fingers), into a hub for complete connectivity and multi-user fun and games.	St
+1.2.9	GeeBee.	St
+1.3.1	NIL	St
+1.4.1	I use a four port Modem Router and you just have to enable Sharing on each pc to allow other PCs on the same LAN (Local Area Network) to see them UNLESS... you run a firewall (like Zonealarm).	St
+1.4.2	If you do use one, go to Start - Run - then enter winipcfg and hit the enter button.	St
+1.4.3	Select the network card you use and it will tell you the IP address (like 10.16.0.23 or something).	St
+1.4.4	Go into your firewall on the other computer(s) and tell it that it is OK to allow that IP address access.	St
+1.4.5	Don't forget to enter the other PC(s) IP address(s) into the first PC's firewall as well.	Sug
+1.4.6	If you do use a Modem Router, they sometimes come with a built-in firewall which will protect the whole LAN.	St

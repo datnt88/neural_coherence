@@ -1,0 +1,45 @@
+1.1.1	The suggestion to get a real XP SP3 cd did the trick, mostly.	St
+1.1.2	I was able to install XP using the BIOS IDE mode, no SATA driver was required.	St
+1.1.3	My only outstanding issue is the sound driver.	St
+1.1.4	When I have sound working, I have two sound devices: The AMD HMDI sound device, and the Realtek sound device.	St
+1.1.5	The Realtek sound device handles the internal speaker.	St
+1.1.6	The problem is that when I reboot, the Realtek device disappears, leaving only the AMD HDMI audio device.	St
+1.1.7	There are two &quot;Microsoft UAA&quot; devices shown in the control panel.	St
+1.1.8	The first seems to be associated with the AMD audio device, and the second seems to be associated with the Realtek device.	St
+1.1.9	I have to delete the second UAA device and then &quot;scan for hardware changes&quot; to activate the Realtek audio.	St
+1.1.10	This works until I reboot, then the Realtek device goes away.	St
+1.1.11	I have tried the following things: 1) Set the Realtek device as the default sound card.	St
+1.1.12	On reset it is missing again.	St
+1.1.13	2) Disable the AMD device.	St
+1.1.14	On reset it is enabled again.	St
+1.1.15	3) Disable the first UAA device.	St
+1.1.16	This results in no sound devices being detected at all.	St
+1.1.17	Any ideas?	St
+1.1.18	Thanks all.	St
+1.1.19	Les	St
+1.2.1	That's proper for HD Audio and I will stop there since the reset of why is on the internet.	St
+1.2.2	As to disabling that, no.	St
+1.2.3	Don't do that.	St
+1.2.4	Read this link and if your driver install order was wrong, sound can go missing.	St
+1.2.5	There is no known quick fix.	St
+1.2.6	I start over.	St
+1.2.7	Maybe the web has better ideas.	St
+1.2.8	And I make a big assumption you got the drivers from the laptop maker too.	St
+1.2.9	-&gt; http://forums.cnet.com/7726-7587_102-2699006.html notes the audio driver anomaly.	St
+1.2.10	Order matters.	St
+1.2.11	Bob	St
+1.3.1	That points me down the correct path.	Sug
+1.3.2	I found the following links: http://support.microsoft.com/kb/115486 http://www.wilderssecurity.com/archive/index.php/t-192426.html I suspect you are correct that installed the drivers in the wrong order.	St
+1.3.3	It looks like there are registry entries I can add / modify to control the order in which the drivers get loaded.	St
+1.3.4	Thanks for the pointer.	St
+1.3.5	Les	St
+1.4.1	It is kinda troublesome.... That I have to update driver every time when I reboot the computer... Plz....let me know if you successfully solve the problem..	St
+1.4.2	If you did...could you plz share your solution....?	St
+1.4.3	Thank you.	St
+1.5.1	My bet is you got the install order wrong.	St
+1.5.2	It's a real common and annoying issue.	St
+1.5.3	My question is simply this.	St
+1.5.4	Given how much arcane knowledge you need to install XP, is it game over for XP?	St
+1.5.5	Bob	St
+1.6.1	No I didn't.	St
+1.6.2	I bought an external USB speaker.	St

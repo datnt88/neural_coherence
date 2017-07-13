@@ -1,0 +1,35 @@
+1.1.1	Hello.	St
+1.1.2	we recently bought a new hp computer (m9515y)Pavilion Elite running vista.	St
+1.1.3	Monitor 1 is an hp wide screen (hp2770w) connected through the vga plug, monitor 2 is a projector and connected through the dvi/vga.	St
+1.1.4	I don't always turn on the projector, but all the inital boot info comes up on the projector.	St
+1.1.5	In windows and in the nvidia, the HP is monitor 1 and the projector is monitor 2.	St
+1.1.6	HP support said this was the generic setup for the projector to come up first, but wouldn't offer any solution to change the hp monitor to come up first.	St
+1.1.7	Maybe there isn't one but with our old &quot;put together&quot; machine running XP, it was never an issue.	St
+1.1.8	I just would like to know if there is anything I can change to make sure all the inital boot info comes up on the moniter so I don't have to turn on the projector and try to debug from there.	St
+1.1.9	Thanks in advance!!	St
+1.1.10	Stacy	St
+1.2.1	the dvi has precedence in the video card.	St
+1.2.2	whatever's connected to it is considered the primary display.	St
+1.2.3	if the projectors off, won't the the boot process be shown on the widescreen monitor?	St
+1.2.4	and why not just swap the monitor and projector cables?	St
+1.3.1	It doesn't matter if the projector is on or off.	St
+1.3.2	The reason I know is I turned on the computer, went off to do things, came back and the monitor wasn't up.	St
+1.3.3	I turned on the projector, and the computer was waiting for a respond for safe mode.	St
+1.3.4	I originally had the monitor connected with a HDMI and the projector with the VGA.	St
+1.3.5	I thought maybe the VGA loaded first and that was why the projector came up first.	St
+1.3.6	I changed the monitor to VGA and got a DVI/VGA adapter for the projector.	St
+1.3.7	That didn't change anything either.	St
+1.3.8	I have no problem switching the cables and will try that.	St
+1.3.9	What is the priority?	St
+1.3.10	DVI, VGA, HDMI?	St
+1.3.11	Stacy	St
+1.4.1	they go into a standby mode and the pc still detects a monitor is attached to the port.	St
+1.4.2	i recommend you boot the pc, delete both monitors in Device Manager, then shutdown.	Sug
+1.4.3	disconnect the projector cable and move the monitor to the DVI port.	St
+1.4.4	now boot up and then shutdown.	St
+1.4.5	now add the projector and reboot.	St
+1.4.6	the monitor should be your primary display while booting and the primary display in windows.	Sug
+1.5.1	Thanks!	St
+1.5.2	That was the fix.	St
+1.5.3	I really appreciate your help.	Polite
+1.5.4	Stacy	St

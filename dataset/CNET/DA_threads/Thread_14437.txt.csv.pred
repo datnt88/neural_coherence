@@ -1,0 +1,36 @@
+1.1.1	I bought a wireless card a few weeks ago (Linksys Wireless G PCI card WMP54GS) and it worked perfectly right out of the box.	St
+1.1.2	I have two networks that I connect to.	St
+1.1.3	One is wired and the other wireless.	St
+1.1.4	I would just disable the one I wasn't using and enable the other.	St
+1.1.5	For some reason though this morning when I tried to enable the wireless network connection the computer froze (Windows XP Pro SP2).	St
+1.1.6	I restarted and the same thing happened.	St
+1.1.7	I tried reseating the card and installing the latest drivers.	St
+1.1.8	Windows detects the new hardware but then I get an error that says the device was unable to start (Code 10).	St
+1.1.9	The Linksys tech support reps weren't very helpful.	St
+1.1.10	The only suggestion they had was that there was an IRQ conflict and they couldn't help me with it.	St
+1.1.11	Everything else on the computer is working fine.	St
+1.1.12	I haven't made any hardware or major software changes.	St
+1.1.13	What can I do about this?	Ques
+1.1.14	Another small thing I noticed was that when I reinstalled the drivers it labels the card as &quot;#2.&quot; This leads me to believe that it still thinks there is another card installed from my first installation.	St
+1.1.15	How do I get rid of this?	St
+1.1.16	Thanks, Kevin	St
+1.2.1	IRQ conflicts are technically impossible in PCI systems.	St
+1.2.2	Your post didn't get much indication of the host machine so any input I can give is going to be generic.	Sug
+1.2.3	-&gt; Use system restore to when it worked.	St
+1.2.4	Bob	St
+1.3.1	I would start by removing the Linksys card from the device manager in Start&gt;Control Panel&gt;Administrative Tools&gt;Computer Management&gt;Device Manager&gt;Network Adapters.	St
+1.3.2	Remove both instances of the card in this area.	St
+1.3.3	Reboot your computer next and let the operating system detect and set up the card.	St
+1.3.4	My bet is that this will resolve your conflict.	St
+1.4.1	right click my computer -&gt; properties -&gt; click devices -&gt; click device manager.	St
+1.4.2	open the network cards icon (green) you'll see a red x on both your wireless cards click on each one and delete them one at a time, except your lan card, just delete the wireless cards.	St
+1.4.3	now restart the computer and windows should detect and auto install the drivers, if it can't find the drivers then click the cancel button and reinstall the linksys driver setup.	St
+1.4.4	once installed if you need to reboot then reboot.	St
+1.4.5	now click start -&gt; settings -.	St
+1.4.6	control panel -.	St
+1.4.7	network connections.	St
+1.4.8	right click the wireless card -.	St
+1.4.9	click properties -.	St
+1.4.10	click the advanced tab -.	St
+1.4.11	click the checkbox next to windows firewall to uncheck the box.	St
+1.4.12	this will disable the windows firewall and should allow your wireless to communicate.	St

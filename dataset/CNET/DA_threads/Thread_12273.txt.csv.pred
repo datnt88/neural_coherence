@@ -1,0 +1,89 @@
+1.1.1	I have an old computer that I occasionally use and today I found that the CMOS battery is now dead.	St
+1.1.2	I opened the case and thought I'd find a small 3 volt battery that's common to so many motherboards but I didn't find that.	St
+1.1.3	I'm very sure that the motherboard is a Shuttle Hot 541.	St
+1.1.4	But when I checked the internet for info on where the battery is and how to replace it, I found nothing.	St
+1.1.5	Here is a photo of the board http://mail.lipsia.de/~enigma/neu/pics/mainboard_i430fx66.jpg I'd appreciate any help in changing it out.	St
+1.1.6	Thanks	Polite
+1.2.1	You can google for datasheets but the ds1287a device has a battery in it.	St
+1.2.2	These should be good for over 10 years.	St
+1.2.3	That board looks familiar.	St
+1.2.4	You might see a sticker with make and model on one of the slot connectors.	St
+1.2.5	Bob	St
+1.3.1	http://www.motherboards.org/forums/viewtopic.php?p=98659&sid=3c2783b396c2c7a77dad273c3e12d559	St
+1.4.1	I actually found this page earlier this afternoon, but I wasn't sure about that post until I read the one from Bob.	St
+1.4.2	Putting them together helped clear it up.	St
+1.5.1	I did find the datasheet and I looked on the internet for Dallas Semiconductor.	St
+1.5.2	I checked their website for this product and it came up with no hits, because it looks like the ds12887a is a replacement for the ds1287a.	St
+1.5.3	I Googled it and got a number of hits.	St
+1.5.4	Since I've never bought anything like this before I'm a little unsure of where to go.	St
+1.5.5	One of the hits was Amazon and there were several different prices.	St
+1.5.6	I'll speak to a person I work with, but if you have a place that you'd recommend I'll check it out.	St
+1.5.7	This seemed so much easier when I thought I'd be changing a 3 volt battery.	St
+1.6.1	http://compare.ebay.com/like/160701082412?var=lv&ltyp=AllFixedPriceItemTypes&var=sbar	St
+1.7.1	NIL	St
+1.8.1	This device was put out because there was pressure to reduce parts and costs in those models of the PC.	St
+1.8.2	Folk back then were getting upset about yearly battery replacements and back then some makers were using proprietary battery packs or making it non-user serviceable.	St
+1.8.3	So Dallas Semiconductor saw an opening for a RTC that included it's own battery and could work without external power for over 10 years.	St
+1.8.4	In those models there is no battery to replace.	St
+1.8.5	It's a shame the make/model and documentation on this board is not supplied as I may be able to check if there is a way to add a battery.	St
+1.8.6	Are you sure this board works?	St
+1.8.7	It's way past it's shelf life and socket 7 boards were twitchy even back then.	St
+1.8.8	Bob	St
+1.9.1	very well until yesterday when I noticed the time on the clock was wrong and then I saw that the computer no longer knew it had an A drive.	St
+1.9.2	I figured this was a symptom of the CMOS battery going bad.	St
+1.9.3	On my newer computer when the CMOS battery went bad I noticed the computer did some odd things, but they went away once the battery was changed.	St
+1.9.4	This old computer is 17 years old, but it doesn't get used very often which is likely why it's lasted so long.	St
+1.9.5	I wish I had more detailed documentation on the motherboard.	St
+1.9.6	I dug up the receipt that listed all the parts that went into the computer, but didn't see anything which would give more details.	St
+1.9.7	Although in my searching yesterday I found this diagram which appears to match my system http://stason.org/TULARC/pc/motherboards/S/SHUTTLE-COMPUTER-INTERNATIONAL-INC-Pentium-HOT-541.html#.UauUAthwe6E I want to make sure I understand, I should be able to buy an RTC and replace it on my own and hopefully fix all of this?	St
+1.10.1	These boards have been out of production for a very long time.	St
+1.10.2	In fact, in a move to reduce costs that part is usually soldered in.	St
+1.10.3	I can't answer if you will find the part and have the tools and skills to replace it.	St
+1.10.4	If there is a chance, close JP11 and then remove JP11's jumper.	St
+1.10.5	Maybe it will reset and work for a bit longer.	St
+1.10.6	I don't see the old option of another battery to stand in.	St
+1.10.7	Bob	St
+1.11.1	at it and tried pulling on the RTC, it didn't seem to budge, so it probably is soldered in.	St
+1.11.2	As for the JP11, I thought I located it, but the item I was looking at seems to be soldered to the board too.	St
+1.11.3	I noticed on the board were some other things with JP's so I looked for JP11 on the board.	St
+1.11.4	I saw that printed next to the RTC and the BIOS chip.	St
+1.11.5	The item next to the print &quot;JP11&quot; is two pieces of metal pointing straight up.	St
+1.11.6	I know that's not the right technical jargon but it's the best I can do.	St
+1.11.7	I'm not sure what I can or can't do from this point on.	Res
+1.11.8	It is odd that last night when I was looking for the RTC to check on prices, I got the idea that anyone could buy one and replace it like it was RAM or something else, but I guess that's not true.	St
+1.12.1	I get the feeling this maybe too much for you.	St
+1.12.2	You can try and all that, but according to your answers it will be rather new experience.	St
+1.12.3	You're getting to do techie type stuff for the real fix, though it maybe simple techie fix.	St
+1.12.4	I mention that as anything you may try could cause further issues or problems.	St
+1.12.5	i will part with a possible fix, provided you can do it and if you really want that PC to work again.	St
+1.12.6	Understand, if there is any data on that old PC you want you can swap the HD into an adapter or ext.	St
+1.12.7	USB case to retrieve data.	St
+1.12.8	If on the other hand, that PC is specific to some task, then maybe my fix will do.	St
+1.12.9	You need to be absolutely sure of the specs of that DS12887A chip.	St
+1.12.10	From two(2) legs that are part of it will be the +/- voltage outputs.	St
+1.12.11	There you solder on some small wire leads, to be +/- then attach to battery harness or cradle.	St
+1.12.12	You now have fresh batteries and apparatus to exchange those when dead.	St
+1.12.13	Otherwise, you would need a new DS12887A replacement chip for old one.	St
+1.12.14	Yours is probably soldered-in and thus you need to unsolder and place a IC socket in its place.	St
+1.12.15	Then mount new chip ordinated properly and set it up as usual.	St
+1.12.16	As you can see it gets complicated if your talents don't match the task.	St
+1.12.17	Some techs may simply solder an IC socket over the old DS12887A, making sure of no shorts and mount the new chip on top or battery setup.	St
+1.12.18	-OR- Looking at the spec sheet I see pin 24 is Vcc(voltage +) and pin 12 is ground(-) this is where I attach +/- wires if done that way.	St
+1.12.19	The battery setup is supplying ext.	St
+1.12.20	power directly to the chip as the old int.	St
+1.12.21	RTC one is weak or dead.	St
+1.12.22	The spec sheet Vbat reference is for the int.	St
+1.12.23	RTC battery.	St
+1.12.24	*NOTE* anyone can correct me if i got the pins wrong here.	Ques
+1.12.25	http://www.datasheetcatalog.org/datasheet/maxim/DS12887A.pdf http://pdfserv.maximintegrated.com/arpdf/Packages/24pin700milmodule.pdf http://www.mouser.com/Search/Refine.aspx?Keyword=700-DS12887A If too much, get another newer, faster, powerful all you ever wanted mtrbd.	St
+1.12.26	to replace old one.	St
+1.12.27	Your old setup is at least 10yrs.	St
+1.12.28	old and not much can be had from it unless you deem otherwise.	St
+1.12.29	tada -----Willy	St
+1.13.1	It's not to be removed but a jumper block placed over it, the machine powered up, then down then remove the jumper block then power up and set the CMOS settings and hope they hold.	St
+1.13.2	These models were built for a purpose to avoid adding what folk were gripping about back then and had a 10 or so built in life span.	St
+1.13.3	As I noted, the socket was unusual to find because that's added cost so again, not much for me to add here.	St
+1.13.4	Your replies tell me that you must have inherited or found this old gear.	Polite
+1.13.5	I'm sure there are socket 7 boards for sale out there.	St
+1.13.6	But more current machines are under 99 bucks now so it's rare to see anyone try to save such an old PC.	St
+1.13.7	Bob	St

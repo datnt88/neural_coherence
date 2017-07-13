@@ -1,0 +1,39 @@
+1.1.1	I've just installed a new Western Digital internal SATA harddrive on my Dell E520,which is running XP.	St
+1.1.2	The problem is the computer doesn't seem to recognize it.	St
+1.1.3	When I right click on MY COMPUTER, then click on manage, then click on DISK MANAGEMENT in the left hand pane, a listing of all my drives opens.	St
+1.1.4	My C and a partition, D are there as well as my external G, and my CD and DVD drives, E and F. I have two card readers listed as drives H and I.	St
+1.1.5	No where does the new Internal show up.	St
+1.1.6	When I installed the new drive, I connected it to the spare power plug from the existing internal harddrive.	St
+1.1.7	I had to purchase a new SATA cable which was plugged into the new harddrive on one end, and the socket on the motherboard on the other end.	St
+1.1.8	Since it's a SATA drive, I assumed the installation would be easy with no jumpers to contend with ; no decisions as to which would be the MASTER and which would be the Slave.	St
+1.1.9	I'm kinda at a loss.	St
+1.1.10	Do any of you more gifted, brilliant folks out there have any ideas for me?	St
+1.2.1	Not only that but the motherboard SATA chipset is not supported by XP.	St
+1.2.2	You should have been buried in complaints and ideas if you researched this but there are dangers here for some.	St
+1.2.3	For example if you install drivers and this is just XP, boom.	St
+1.2.4	XP crashes.	St
+1.2.5	If you had installed SP2 or later, the right motherboard drivers might give you access to the space but folk panic when the drive goes missing on a XP reinstall.	St
+1.2.6	Lesson?	St
+1.2.7	Know your machine and OS.	St
+1.2.8	And keep a backup.	St
+1.2.9	The other fix was to enable IDE mode for the SATA in the BIOS.	St
+1.2.10	Not all do that and I will read a manual if you supply it to see if this is support HOWEVER there is an issue the the SATA could take priority over IDE and you won't be able to boot the old XP.	St
+1.2.11	Some panic at this and start trying recovery software which is like struggling in quick sand.	St
+1.2.12	Lesson?	St
+1.2.13	Undo that BIOS setting.	St
+1.2.14	That's all for the primer but all is as it should be.	St
+1.2.15	Bob	St
+1.3.1	If you haven't already make sure you are running the latest XP SP(patches) noticeably up to SP3.	St
+1.3.2	Once all that is done, do you have the disc that came with the new HD?	St
+1.3.3	If yes, load whatever maybe needed, hopefully the SATA driver or required s/w.	St
+1.3.4	As posted to you, you may need to reset the bios to accept SATA drives, it maybe listed as SATA, legacy or EIDE ext,.	St
+1.3.5	mode or something similar.	St
+1.3.6	Check the bios 1st to see how it reacts to the new setup.	St
+1.3.7	Of course all this is better explained at the WD support website for XP installs.	St
+1.3.8	Also, you didn't state what capacity the new HD is, if its one of the 2Tb or better, you should definitively review the manual or instructions on the XP capacity topic.	St
+1.3.9	If the total storage space of your PC exceeds 3Tbs, you have OS issues, again review the specs on the topic.	St
+1.3.10	Also, you should install the to the 1st SATA port, labeled either 0 or 1, depends on how lD'ed.	St
+1.3.11	Alas, I suggest you verify what if any bios updates maybe needed.	Sug
+1.3.12	If yours is low, like A05, and A08 is current, update.	St
+1.3.13	Follow instructions and take your time, allow the PC to update using all the time it needs, don't rush it, it can be slow.	St
+1.3.14	tada -----Willy	St

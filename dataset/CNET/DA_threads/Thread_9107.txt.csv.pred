@@ -1,0 +1,25 @@
+1.1.1	I use windows Vista Can not open Google Piscasa without this error message: CBlockFile: Restore err=2, album_index.db All other programs seems to be working fine.	St
+1.1.2	I tried searching the net only found one no answer for it.	St
+1.1.3	I tried System Restore - Got this message -There was an unexpected error: The Volume Shadow Copy service used by System Restore is not working.	St
+1.1.4	For more information view the event Log.	St
+1.1.5	(0x81000202) ?	Ques
+1.1.6	do I have 2 problems now?	St
+1.1.7	Google Piscasa is my favorite Photo program would it work it I uninstall and reinstall the program if I can not restore the computer to a later date?	St
+1.1.8	What's up with my System Restore?	St
+1.1.9	I ran a check for error's + ran a malware program everything is fine.	St
+1.1.10	Appreciate any help	St
+1.2.1	Window's Visa, Just wanted to write I worked the problem out.	St
+1.2.2	I started with the System Restore problem.	St
+1.2.3	------------------------------------------- Start-&gt;Run Type &quot;services.msc&quot;.	St
+1.2.4	Enter.	St
+1.2.5	In the Services Window, in the right pane; Please check that the following services are enabled and also note the Startup Type: - &quot;Remote Procedure Call&quot; (RPCSS), Automatic mine (Automatic) - &quot;COM+ Event System&quot; (EventSystem), Manual mine (Automatic) - &quot;System Event Notification Service&quot; (SENS) , Automatic - mine (Automatic) - &quot;Volume Shadow Copy&quot; (VSS), Manual - Mine (Manual) - &quot;Microsoft Software Shadow Copy Provider&quot; (SWPRV), Manual.	St
+1.2.6	mine (Manual) ---------------------------------------------------------------- I CHANGED : THESE TO AUTOMATIC &quot;Volume Shadow Copy&quot; (VSS), Manual - Mine (Manual) - &quot;Microsoft Software Shadow Copy Provider&quot; (SWPRV), Manual.	St
+1.2.7	mine (Manual) NOT SURE IF THIS HELPED, I CAN'T TELL UNLESS I RUN SYSTEM RESTORE.	St
+1.2.8	-------------------------------------------------------------------- I UNINSTALL THE PICASA AND STILL HAVE THE SAME PROBLEM, THEN I NOTICED THE PROGRAM THAT WAS OPENING MY PICTURES WAS SET TO &quot;IRFANVIEW&quot; - I CHANGED THAT BACK TO &quot;MICROSOFT WINDOW VIEWER&quot; REINSTALLED PICASA, IT WORKED!	St
+1.3.1	Hi, have, I have exactly same problem like what you described here.	St
+1.3.2	I just followed everything you wrote here and almost solve the problem.	St
+1.3.3	Only I am not sure that how I change to &quot;Micrsoft widow viewer&quot;?	St
+1.3.4	Would you like to explain to me?	St
+1.3.5	thanks!	St
+1.3.6	Carrie	St
+1.4.1	http://forums.cnet.com/7723-6122_102-568286/picasa-problem-cblockfile-restore-err-2-album-index-db/?messageId=5336849&tag=rb_content;contentBody#message5336849 Please continue there.	St

@@ -1,0 +1,21 @@
+1.1.1	Hi and I would really appreciate your help on this I have a notebook connected to the internet through wired lan and I want to share this over the wireless lan to another notebook.	St
+1.1.2	Both notebooks have XP home SP2.	St
+1.1.3	The Host computer has the following: Wired lan (has ICS setting) IP: 10.0.15.	St
+1.1.4	*** Subnet Mask: 255.255.254.0 Gateway: 10.0.15.254 Wireless SSID(***) has been set to ad hoc with automatic IP and dns etc but shows as not connected Client setting Shows as connected to the SSID(***) with IP: 169.254.240.179 Subnet Mask: 255.255.0.0 Gateway: 169.254.240.179 Now I don't know much but I definitely know that I shouldn't have the gateway as same as the clients IP and I'm thinking that the host should show connection... Any idea what I need to do?	St
+1.2.1	will the laptop connect to?	St
+1.2.2	Does the wired PC have a wireless card?	St
+1.2.3	If so, you simply bridge wired and wireless within that PC.	St
+1.2.4	You make that PC an AP for the wireless laptop.	St
+1.2.5	I don't think I can sort out our ICS settings.	St
+1.2.6	The gateway should definitely be the router's IP in any case.	St
+1.2.7	My old recollection of ICS was that the hosting PC needed 192.168.0.1 and the other addresses were to be within that range.	St
+1.2.8	XP could have changed that but I'm not sure.	St
+1.2.9	In any event, your wireless laptop needs to connect to something and, if the PC has both a wired and wireless NIC, the easy way is to bridge these and connect the laptop to that bridge.	St
+1.2.10	Hope this helps.	St
+1.3.1	The host laptop is connected to a hub used by the whole apt building...	St
+1.3.2	I just can't figure out why the host laptop won't show the connection whereas the client laptop will.	St
+1.3.3	I've tried bridging the connection but XP won't let me as the host laptop's wireless connection is not connected apparently...	St
+1.4.1	But if you must try it, firewalls, protection software must be set by you to allow all this and you can see if this article helps -&gt; http://www.microsoft.com/windowsxp/using/networking/expert/bowman_02april08.mspx I will not write at length here since ICS is now consider a tarpit.	St
+1.4.2	Not many escape so I don't go there anymore.	St
+1.5.1	Thanks.. Actually, the article you are suggesting was the first thing I found when trying this... and hence I have done exactly as the article that you have pointed to... Perhaps its easier that I give up??	St
+1.5.2	?	Ques

@@ -1,0 +1,28 @@
+1.1.1	How can i have a smoothly transition from wireless network to Cellular network?	St
+1.1.2	The following always happens with any cellular enabled device.	St
+1.1.3	- Wireless Device (Tablet, cell phone, etc.)	St
+1.1.4	functions properly on wireless router.	St
+1.1.5	- Walk around with it and wireless signal gets weak.	St
+1.1.6	- Device slows down and experiences lost network packets.	St
+1.1.7	- After moving far enough away from wireless router, device will finally connect to cellular internet (3G / 4G) Problem is extremely bad when I get in my car, because wireless device barely has a signal from the router and I get almost no internet connection.	St
+1.1.8	I have to manually turn off Wifi to get the internet working properly.	St
+1.2.1	To fix this we'll have to create an entirely new communication system.	St
+1.2.2	As it stands you see how the current systems work.	St
+1.2.3	To really fix this we'll have to have 2 radios or more and an entire rewrite done of how IP works.	St
+1.2.4	For now I hope you have your basic grasp of how the IP stack works and we can't leave an open TCP/IP connection and move it from one interface to another.	Sug
+1.2.5	And your apps will need a complete overhaul as well.	St
+1.2.6	That is, if my app could buffer more than the transition could be less apparent to the user.	St
+1.2.7	In fact, that's how it seems on the Kindle Fire HD if I can mark a video for play later.	St
+1.2.8	It's buffer is huge.	St
+1.2.9	Bob	St
+1.3.1	An iPad will sit on a wireless router with 1 bar of connection, slow as molasses.	St
+1.3.2	Why can't it just connect to 4G cellular internet.	Ques
+1.3.3	This is the same for every device.	St
+1.3.4	What is the excuse that it doesn't even try to connect to an internet that will work better?	St
+1.4.1	If you look back at the days before IP networking became the accepted norm, you found all networking was proprietary.	St
+1.4.2	You had Microsoft, 3Com, Novell, Sun and about a dozen others so when TCP/IP or Internet Protocal went public it looked to be a front runner and here we are.	St
+1.4.3	I can't duplicate the history here.	St
+1.4.4	So why are we here?	St
+1.4.5	Dough, clams, moola, greenbacks, etc.	St
+1.4.6	The other reason it can't just connect is the code behind it all doesn't do that.	St
+1.4.7	Bob	St

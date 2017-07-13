@@ -1,0 +1,41 @@
+1.1.1	Three main questions.	St
+1.1.2	1) I'm upgrading some peripherals...drives, RAM, HD...how can I know how much power my system requires now and how much it will after the upgrades?	St
+1.1.3	2) I'm limited (very) in my CPU upgrade.	St
+1.1.4	I have a P4 1.4GHz and specs allow for 1.8.	St
+1.1.5	I came across some kits that state they can upgrade to higher processors (2.8) with the use of an adapter.	St
+1.1.6	What are the benefits/problems of using such kits?	St
+1.1.7	3) Finally, again regarding my CPU, which is supposed to have a 400Hz BUS.	St
+1.1.8	I recently ran a utility test and the results were that it was running at 100.	St
+1.1.9	What can cause this difference?	St
+1.1.10	If anyone can help with any of these I'd appreciate it.	Ques
+1.2.1	To run at 400 MHz FSB you need DDRSDRAM [DDR 200].	St
+1.2.2	Are you sure what the 100 MHz report REALLY means.	St
+1.2.3	The DDR 200 is actually 100 MHz memory that gets double clocked.	St
+1.2.4	[=200], then gets quad clocked as the FSB from the MCH to the CPU [=400].	St
+1.2.5	Then, of course, the multiplier in the CPU multiplies that up to run the CPU at its rated speed.	St
+1.2.6	What speed is the CPU reporting.	St
+1.2.7	If you were not actually acheiving the 400 MHz FSB the CPU would be running less than 1.4 GHz.	St
+1.2.8	I don't think that DDR came any less than 100 MHz, so think that it simply the reporting scheme being confusing.	St
+1.2.9	Now there were some mobos that would take either SDRAM or DDRSDRAM [different physical sockets] and could not be mixed.	St
+1.2.10	If perchance you are running with PC 100 SDRAM that would actually be only 100 MHz.	St
+1.2.11	Many BIOSes will give the basic memory speed [100 MHz in this case] as the setting to get the 400 MHz FSB.	St
+1.2.12	It varies by mobo/BIOSes.	St
+1.2.13	Do you have the manual???	St
+1.2.14	?	Ques
+1.3.1	I guess I should've included this, but I'm running PC800 RDRAM in my system.	St
+1.3.2	Because it was a custom order they left out several of the hardware manuals.	St
+1.3.3	It's now that I'm upgrading some things that I've been looking into the specifics.	St
+1.3.4	And your responce gave me an idea, so I found a new tool that showed my speed back at 400.	St
+1.3.5	The one that was giving me 100 was from Compaq's (HP) site.	St
+1.3.6	I contacted them as well, and by their lack of information and knowledge in their responce, I think that their tool was more of a basic preconfigured automated responce for standard prebuilt units (which carry the regular RAM like you mentioned).	St
+1.3.7	Since mine was custom, it didn't fit the profile that was given.	St
+1.3.8	Thanks for your help.	Polite
+1.4.1	I agree with the other replys, that your reported 100mhz buss speed is not something to worry about.	St
+1.4.2	It is a multiple of 400 , and 800, so you are probably doing just fine.	St
+1.4.3	It does get doubled then quad pumped to the memory buss on most motherboards.	St
+1.4.4	On the cpu upgrade, make sure you have enough power supply, 350 watt will be good.	St
+1.4.5	400 watt is even better if you want to overclock.	St
+1.4.6	The newer processor will generate more heat, so be sure you have a good cooling fan and a well vented case.	St
+1.4.7	Additional case fans are good if you have the space to add them.	St
+1.4.8	They are cheap insurance against component failure.	St
+1.4.9	No advice on the cpu adapter kits....use caution.	St

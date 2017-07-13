@@ -1,0 +1,32 @@
+1.1.1	Router: Netgear WGR614 Number of computers: 2 desktops (1 Dell and 1 Gateway) 1 laptop (Acer) Operating System: All have Windows XP home edition I've been pulling my hair out for a week trying to get this to work.	St
+1.1.2	The 2 desktops have been networked for a long time now.	St
+1.1.3	I am trying to add a laptop wirelessly to share files and a printer Computer A (dell) can not find the laptop on the network but can find the other desktop (computer b) Computer B (gateway) can find both laptop and computer A but when I click on laptop it says \\laptopname is not accessible.	St
+1.1.4	Laptop can not find any of the other two computers.	St
+1.1.5	When I click on the network name it says that network is inaccessible......	St
+1.1.6	I have disabled all the firewalls.	St
+1.1.7	In fact, when I started trying to set this up the laptop didn't have any virus scan at the time.	St
+1.1.8	Computer A has AVG free on it, as does the laptop now.	St
+1.1.9	Did not find any sign of a firewall with that virus scan.	St
+1.1.10	All computers have guest account as active.	St
+1.1.11	All computers have a folder set as having permission to be shared.	St
+1.1.12	All computers can ping each other using their IP addresses.	St
+1.1.13	I'm stumped.	St
+1.1.14	I don't know what to do.	St
+1.1.15	I don't know how I got computer b to find the laptop but it can't access it anyways.	St
+1.1.16	Please help and thanks in advance.	Polite
+1.1.17	Tracy	St
+1.2.1	Presumably you are fighting your way through XP's Add A Network Place enigma.	St
+1.2.2	Sometimes it works instantly even without the complete computer name, sometimes it just refuses to work unless everything is just so.	St
+1.2.3	How Microsoft imagined that the average consumer could use this is beyond me.	St
+1.2.4	I would suggest that you check that all firewalls are off (especially if your have 3rd party ones).	St
+1.2.5	Don't attempt to set up wirelessly -- use ethernet cable between the computers until things are working.	St
+1.2.6	Try running the Network Wizard on the new machine.	St
+1.2.7	Other than that just stick at it and eventually it will work.	St
+1.3.1	Didn't see any mention of this in your post, but have you checked that the laptop belongs to the same workgroup as your two desktops?	St
+1.3.2	(Right click My Computer &gt; Properties &gt; Computer Name tab)	St
+1.4.1	Thanks for the help guys but I actually got it.	St
+1.4.2	I had to install the NWLink IPXSPXNetBIOS Compatible Transport Protocol on the laptop.	St
+1.4.3	As soon as I did that, they all found each other and they were all able to &quot;talk&quot; to each other.	St
+1.4.4	Once I found that, it took me 10 seconds to fix it.	St
+1.4.5	Pretty frustrating when it is something that simple and I was looking for the answer for a week, but at least it's fixed and so far it seems to be working well.	St
+1.4.6	Thanks again, Tracy	St

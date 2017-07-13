@@ -1,0 +1,9 @@
+1.1.1	I am looking for a network monitor for a network between a router(UT-300R2U)and 2 computers,because the 2 computers are not in the same room and i want to control,or,if not possible,at least see the bandwidth used by that computer.The computers are not connected directly one to each other,each of them is connected at the router(one by ethernet and one by USB).	St
+1.2.1	Open the performance console -system monitor should be default display.	St
+1.2.2	R-click the system monitor screen and select &quot;Add Counters.&quot; Select, &quot;Select counters from computer&quot; and specify the computer you want to monitor.	St
+1.2.3	Choose the performance object (Network Interface) and counters (Current Bandwidth) you want to use.	St
+1.2.4	After you add it, you can right click and select properties to change the display color.	St
+1.3.1	It doesn't work because my computers are not directly connected(i can't see the other one in my network places,network connections,etc.	St
+1.3.2	).They are just using the same router...anyone got another idea?	St
+1.4.1	sharing the same router, I would enable file and printer sharing via the network setup wizard.	St
+1.4.2	Then you will be able to accomplish what you want.	St

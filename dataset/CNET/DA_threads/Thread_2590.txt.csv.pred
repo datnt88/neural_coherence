@@ -1,0 +1,108 @@
+1.1.1	Summary - Windows XP Pro SP3 will not install when APIC is enabled in bios.	St
+1.1.2	Hardware - Asus M4A785-M (flashed to latest BIOS version of 1006), 2 sticks of 1GB DDR2 800 from G.SKILL, GeForce 8400GS 512MB video card in the PCIe 2.0X16 slot, Athlon II X4 640 3.0 GHz 95W processor, hard drive connected via SATA, 480W power supply.	St
+1.1.3	Details - I originally had this system running with a Sempron processor without any problems.	St
+1.1.4	I then upgraded to the Athlon II Quad Core.	St
+1.1.5	Everything seemed to be okay for a while (although I never did check to see if all 4 cores were running).	St
+1.1.6	I got a BSOD one day and the system would not boot (even into safe mode) without a BSOD.	St
+1.1.7	I noticed that the hard drive reported some bad sectors, so I backed up what I could and re-formatted and did a clean install of XP Pro SP3.	St
+1.1.8	When the system did its first re-boot during install, I got a BSOD of No_More_IRP_Stack_Locations.	St
+1.1.9	I get this error no matter what I have tried, except for turning off APIC in the bios.	St
+1.1.10	When I turn off APIC, XP will install correctly, but of course it installs as a Standard PC and only one core is active.	St
+1.1.11	What I've Tried - I originally thought this was a hard drive problem, since bad sectors were being reported.	St
+1.1.12	However, I've checked the hard drive with the manufacturer's testing program and all was well.	St
+1.1.13	I also have tried using a completely different drive with no luck.	St
+1.1.14	That rules out a problem with the hard drive.	St
+1.1.15	I also suspected bad RAM.	St
+1.1.16	I've tried moving the two sticks around into different slots with no success.	St
+1.1.17	I also ran Memtest overnight without any errors.	St
+1.1.18	That seems to rule out bad RAM as a problem.	St
+1.1.19	I then turned my attention to the other hardware, and I've tried removing all peripherals and the video card before installing XP Pro.	St
+1.1.20	I had no success there, either.	St
+1.1.21	I suspect the hardware is fine, as I can run a LiveCD of Ubuntu without any problems, and with all four cores running.	St
+1.1.22	I tinkered around with various BIOS settings, which is how I discovered it was related to the ACIP setting.	St
+1.1.23	The first thing I did was flash to the latest BIOS version (1006), but no luck there.	St
+1.1.24	I've read that people have tried disabling legacy USB support and APM before install, but that did not work for me.	St
+1.1.25	I tried using the setup defaults, and also turning off ACPI and PnPOS, but nothing helped.	St
+1.1.26	The only setting that changed anything was to disable APIC.	St
+1.1.27	I even tried forcing XP Pro to choose a different HAL during install.	St
+1.1.28	I disabled ACPI and tried to force the MPS Multiprocessor HAL.	St
+1.1.29	That gave me a different BSOD (Bad_Pool_Header), but it did not fix my problem.	St
+1.1.30	Overall, I've tried installing XP Pro at least a dozen times trying different settings.	St
+1.1.31	This has been the most frustrating computer issue I've had, and I'm out of ideas.	St
+1.1.32	Right now I'm running XP Pro with only one core of my quad core active, which is a big hit on performance.	St
+1.1.33	I'm also starting to get some random lock-ups, but I don't know if they are related to the APIC issue or not.	St
+1.1.34	If anyone has any ideas on how to get XP Pro to communicate with this motherboard when APIC is activated, please let me know.	Ques
+1.2.1	Unless this XP Pro is some odd ball hacked version I have to take the errors as the sign they are.	St
+1.2.2	Some hardware issue.	St
+1.2.3	The 8400 video card is a known bad thing.	St
+1.2.4	Try another card.	St
+1.2.5	And also try Linux.	Sug
+1.2.6	If linux fails we know... Bob	St
+1.3.1	Thanks for the reply.	St
+1.3.2	As I mentioned in my post, I don't think it is a hardware issue.	St
+1.3.3	I have removed the video card from the system and used the on-board video with the same results.	St
+1.3.4	I also mentioned that I've tried Linux - I can run Ubuntu with no problems whatsoever.	St
+1.3.5	Any other ideas?	St
+1.4.1	I should also mention that the XP Pro SP3 disk is the real deal.	St
+1.4.2	No hacked versions here.	St
+1.5.1	You will be in an endless loop.	St
+1.5.2	XP installs without such drama on good machines.	St
+1.5.3	Sorry but this lesson is a hard one for some.	St
+1.5.4	That is, there are folk that feel that Windows XP has some flaw that causes the above issue.	St
+1.5.5	Yes there is that SATA hard drive support item but here, we are looking for something amiss with the machine.	St
+1.5.6	Now that you've declared it's not hardware, I have to unsubscribe and wait.	St
+1.5.7	bob	St
+1.6.1	Bob, I'm not necessarily blaming XP.	St
+1.6.2	I just think that the processor, chipset, and XP aren't communicating when it comes to APIC.	St
+1.6.3	It could be a hardware issue that Ubuntu ignores and XP doesn't.	St
+1.6.4	Maybe I have a flaky chipset or processor.	St
+1.6.5	I don't usually have this much trouble tracking down problems, but this one has me stumped.	St
+1.7.1	Is not hard, just can cost us some coin.	St
+1.7.2	For years I've fixed these by swapping out the parts (CPU, board, etc) until we find the bad part.	St
+1.7.3	But that's the rough lesson for some new techs.	St
+1.7.4	Once in a while you encounter the new tech that thinks it's some bug in XP.	St
+1.7.5	If it was, then what would you do?	St
+1.7.6	You found a workaround for the hardware so there are choices to either replace the parts or just let it stay with APIC disabled.	St
+1.7.7	Bob	St
+1.8.1	While you point out the APIC issue is the root of your problem.	St
+1.8.2	That in turn suggests the mtrbd, which supports this feature maybe less than it should be.	St
+1.8.3	Further, since it all worked before and now you have a new cpu of quad-core the chipset or mtrbd.	St
+1.8.4	is lacking in its output.	St
+1.8.5	You've basically have found a Achilles heel or glitch because at the time of the initial release the cpu wasn't supported or full support has fallen.	St
+1.8.6	That mtrbd, if replaced(with newer) would probably resolve the problem and/or reduce the cpu core(s) and or demand less from it.	St
+1.8.7	It boils down from your results, that the mtrbd.	St
+1.8.8	just isn't as capable.	St
+1.8.9	Of course, if it is some XP related issue, then going with Win7 install to see if that resolves it provided you want to go that route.	St
+1.8.10	I also don't recall XP supporting multiple cpu cores other than XP 64-bit version.	St
+1.8.11	Even then the 64-bit versions had issues as well.	St
+1.8.12	The 32-bit version would acknowledge multiple cores but used only 1, again if I recall right.	St
+1.8.13	That info was based on just dual-core, maybe quad-core is too much.	St
+1.8.14	Add it all up and a glitch is found, IMO.	St
+1.8.15	tada -----Willy	St
+1.9.1	I think XP Pro supports multiple cores, at least with SP3.	St
+1.9.2	Otherwise, why would there be multiprocessor HALs included?	St
+1.9.3	I tried to force both the APCI Multiprocessor and MPS Multiprocessor HALs, but no luck.	St
+1.9.4	You are probably right about the motherboard not fully supporting the X4 processor, or at least not supporting it enough for XP's comfort.	St
+1.9.5	So far I haven't been able to get anything out of Asus about it, though.	St
+1.10.1	Not an issue here.	St
+1.10.2	I think you are looking at a hardware issue or a bios one but the only new thought I have is the RAM speed seems low.	St
+1.10.3	Bob	St
+1.11.1	Bob, what do you mean by RAM speed?	St
+1.11.2	The RAM is rated DDR2 800, and I have it set to the SPD settings in BIOS.	St
+1.11.3	Do you think it should be set at 1066, even though it isn't rated for it?	St
+1.12.1	There's another clue (sort of like the sound of a shoe dropping.)	St
+1.12.2	If you are manually setting memory timing it makes me think the BIOS is daft or the memory speed is not in sync with the new CPU.	St
+1.12.3	The links I skimmed over seem to note 1066 as the bottom end speed to fit with this CPU?	St
+1.12.4	Bob	St
+1.13.1	I'm not setting the memory timings manually.	St
+1.13.2	They are set at the automatic SPD detect.	St
+1.13.3	Are you saying that you think my memory is too slow for the CPU?	St
+1.14.1	When I read &quot;and I have it set to the SPD settings in BIOS&quot; I thought you were entering in the timing.	St
+1.14.2	Yes, it sounds a notch too low according to what I read.	St
+1.14.3	Try this.	St
+1.14.4	Head to the BIOS and enter the slowest settings for the ram possible.	St
+1.14.5	I don't hold much hope for that but all the above points to some odd BIOS+CPU issue.	St
+1.14.6	XP does fine on quad core machines here and has for years.	St
+1.14.7	While I've lost count of how many I installed, the HP d4999t and d5000 we have at home ran XP without such loopiness.	St
+1.14.8	Now they run 7 64 bit.	St
+1.14.9	Bob	St

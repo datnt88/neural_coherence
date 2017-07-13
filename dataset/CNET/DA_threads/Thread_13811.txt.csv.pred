@@ -1,0 +1,31 @@
+1.1.1	I have an extremely annoying delay of 30 seconds following the display of the Windows XP boot screen.	St
+1.1.2	System completes POST fine, displays the graphic then chills for half a minute.	St
+1.1.3	There is NO disk or processor activity (checked using BOOTVIS).	St
+1.1.4	Also played with various BIOS settings and BOOT.INI params, however it ALWAYS appears to pause for 30 before the disk starts the &quot;propper&quot; boot?	St
+1.1.5	ASUS A7N8X D MOBO, AMD 2200, Maxtor SATA disk.	St
+1.1.6	Anyone with a suggestion?	St
+1.2.1	I found one machine that when the BIOS was set to boot from CD first... it delayed for about that long.	St
+1.2.2	To speed it up, we set it to boot from the hard disk.	St
+1.2.3	Lucky for us the bios has a BOOT FROM menu that pops up if you press some key so we don't need to set the BIOS to boot from CD if that's required.	St
+1.2.4	Bob	St
+1.3.1	Are you using any usb external hard drives?	St
+1.3.2	They can sometimes cause a delay such as this.	St
+1.3.3	Sounds like a Windows problem.	St
+1.4.1	Thanks for the suggestion .... checked the BIOS and boot order is Floppy&gt;SCSI (System Disk)&gt;HDD.	St
+1.4.2	Tried SCSI&gt;Floppy&gt;HDD and SCSI&gt;SCSI&gt;SCSI No change.	St
+1.4.3	;-(	St
+1.5.1	Hmmm ... no external disks and yes ... definately a Windows problem!	St
+1.5.2	Thanks, you did open another avenue of investigation, it's a SATA system disk and has a RAID controller associated (although it's not RAIDED) and there is an error with XMASSCSI in the event log on startup.	St
+1.5.3	This does seem to occur AFTER the 30 second delay in the startup sequence of events but is worth some experimentation I guess.	St
+1.5.4	Oh for another 30 seconds!	St
+1.5.5	Thanks again.	Polite
+1.6.1	I'm having a similar problem.	St
+1.6.2	After the post info leaves and the Win logo comes up, I get a 30 sec.	St
+1.6.3	flashing cursor.	St
+1.6.4	I believe mine is also related to a RAID (Asus A8V) problem; even though I'm not using SATA ot RAID.	St
+1.6.5	Like old age, I don't like it but I'm learning to live with it.	St
+1.6.6	Check back to this post occasionally 'cause if I find a fix for my problem, I'll post it here.	St
+1.7.1	SCSI takes a long time to do it's controller thing.	St
+1.7.2	You've found out why you get the delay.	St
+1.7.3	If you want a faster boot, remove the SCSI and use some IDE drive.	St
+1.7.4	Bob	St

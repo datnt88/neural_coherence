@@ -1,0 +1,48 @@
+1.1.1	I decided (from some reason) to upgrade my Firmware on my Light-ON DVDRW SHM-165H6S.	St
+1.1.2	I went to Light-On's site and found the only Firmware version there.	St
+1.1.3	Downloaded and installed just fine.	St
+1.1.4	No problems at all.	St
+1.1.5	It told me to re-boot so I did.	St
+1.1.6	Now after I reboot Windows XP Pro says it found new hardware (the Light-On Drive that has been installed for over a year).	St
+1.1.7	I tried both options (To let Windows Find the driver, or me specify the location).	St
+1.1.8	Both ways Windows Doesn't find any Driver.	St
+1.1.9	If I try to select a driver I get &quot;DVD/CD-ROM Drive Filter&quot; It says this Driver is not digitally signed.	St
+1.1.10	I still try to install it.	St
+1.1.11	(after a couple of warnings that Windows can't verify the driver) Then it asks for PxHelp20.sys file.	St
+1.1.12	I find it in my Windows/System32/Drivers directory and install.	St
+1.1.13	Then it finish and says &quot;There was a problem installing this hardware.&quot; I end up doing the same thing again next time I reboot?	St
+1.1.14	Any idea what I need to do?	St
+1.1.15	My only worry is that I plan to re-install windows here in about two weeks.	St
+1.1.16	And I need this drive to work?	St
+1.1.17	My computer is a Asus P800-Deluxe P4 1gb of RAM?	St
+1.2.1	Driver or use a system restore for the same.	St
+1.2.2	Why update the driver if the old one works OK?.	St
+1.3.1	Whenever the firmware on a DVD drive is updated, the OS will call it &quot;New Hardware&quot; when you reboot.	St
+1.3.2	There should be no different drivers needed just because of a firmware update.	St
+1.4.1	There should be no different drivers needed just because of a firmware update.	St
+1.4.2	------------- Perhaps that's true for a dvd??	St
+1.4.3	What I've seen with other hardware is the firmware update seems to change the device type/ID.	St
+1.4.4	When windows goes looking for a driver to match the type/ID there is no match.	St
+1.4.5	Now it's back to the maker's site to find a driver that supports the new firmware.	St
+1.5.1	&gt;&gt;&gt;Why update the driver if the old one works OK?.	St
+1.5.2	Usually to help boost performance some, and so forth.	St
+1.5.3	&gt;&gt;&gt;&gt;There should be no different drivers needed just because of a firmware update.	St
+1.5.4	I agree that is what so surprising.	Res
+1.5.5	Also I have another (older) DVD burner that works just fine, no driver problems.	St
+1.5.6	&gt;&gt;&gt;&gt;Now it's back to the maker's site to find a driver that supports the new firmware.	St
+1.5.7	The site doesnt have any drivers for its CD/DVD Drives.	St
+1.5.8	As far as I have seen, they want us to use the Windows XP Driver.	St
+1.5.9	I dont know if I have some newer driver that Windows Thinks it should install or what?	St
+1.5.10	I cant find the right *.INF file to get this to install properly.	St
+1.6.1	If you can, reinstall your old driver.	St
+1.6.2	Afterwards, make sure all is working OK. Then reinstall the new driver.	St
+1.6.3	DO NOT REBOOT!	St
+1.6.4	Shut off the computer and unplug it.	St
+1.6.5	Wait for about 15 seconds for the 5 volts to bleed down; plud it back in and boot as normal.	St
+1.6.6	Hope it helps!	St
+1.7.1	Did you mean Driver or Firmware?	St
+1.7.2	I never changed the driver, just for some reason Windows XP can't seem to find the correct driver.	St
+1.7.3	For Firmwware, I actually wish I could go back to an old version but there aren't any listed on Light-ON's site.	St
+1.7.4	Only the version I currently have.	St
+1.7.5	I did find one on a different site (I don't know how old it was) but when I tried to install it, it already knew I had the latest version?	St
+1.8.1	They are talking about the problem you have here: http://www.file.net/process/pxhelp20.sys.html Also as you read down the list, there is a post that says go here: http://www.theeldergeek.com/restore_missing_cd_or_dvd_drive.htm Give it a try to see if that will fix the problem.	St

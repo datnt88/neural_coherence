@@ -1,0 +1,44 @@
+1.1.1	As I was using the computer, it suddenly froze (happening a lot lately), I couldnt do anything but pressed the restart button as usual.	St
+1.1.2	After restarting, I was prompted that a new hardware was found.	St
+1.1.3	Surprisingly, it was my Ethernet Controller.	St
+1.1.4	I followed whatever it said to try update the driver, though it should have had already, for I have been using the computer on ADSL for over a year now.	St
+1.1.5	But the update didnt workout.	St
+1.1.6	And when I check the property of my Ethernet Controller in Device Manager, it said this The drivers for this device are not installed.	St
+1.1.7	(Code 28) So I went google, (btw, Im now using a dial up connection which doesnt require the use of Ethernetwishing my ADSL back of coz), and found this article, http://support.microsoft.com/kb/310123 .	St
+1.1.8	after doing what it said, I rebooted, hoping for a working Ethernet..	St
+1.1.9	But, things didnt turn out smooth, now I get the error message This device is not configured correctly.	St
+1.1.10	(Code 1), which now means I have to install the driver for it.	St
+1.1.11	The problem is, I dont know where I can find the driver for my Ethernet, though I think it came with my motherboard Gigabyte 8I875.	St
+1.1.12	And after downloading the LAN driver from this page http://www.gigabyte.com.tw/Support/Motherboard/Driver_Model.aspx?ProductID=1715 and running the file - MSIEXEC.EXE, and rebooting.	St
+1.1.13	STILL isnt fixed.. Now Im getting very worried, please, can someone give some idea of how to fix this.	St
+1.2.1	I assume alot here, but correct me if I'm wrong.	St
+1.2.2	During boot get into the bios area and verify the ethernet port is active or enabled, if so exit out, if not then check it or do what's required to enable.	St
+1.2.3	Now, upon booting into the system, if the new h/w message appears(have your orginal system/mtrbd.	St
+1.2.4	CD) follow prompts.	St
+1.2.5	Just point to the dir.	St
+1.2.6	on the CD if possible by manually &quot;browsing&quot; to the driver section.	St
+1.2.7	Otherwsie, exit out and cancel the driver install.	St
+1.2.8	Under the same CD, run it and find whatever section allows to install the drivers, it maybe more than one or the ethernet by itself.	St
+1.2.9	Once done, reboot and check results.	St
+1.2.10	If you don't have the orginal mtrbd.	St
+1.2.11	CD then via thier support website for your mtrbd.	St
+1.2.12	or system model# proceed there.	St
+1.2.13	Verify, that you are getting the *right driver* for your ethernet port, otherwise, it will get confused or not install properly.	St
+1.2.14	If none of this seems to work, you may have a bad h/w or truly corrupted pgm/driver(improper).	St
+1.2.15	To get away from all this, buy another ethernet card($10-20) 10/100mb models and install, make sure to uninstall the old ethernet port and/or disable, before you install new one.	St
+1.2.16	tada -----Willy	St
+1.3.1	from the control panel and then follow the previous post instructions with your original driver CD or download the correct driver from the mobo website and install it.	St
+1.3.2	Should not be an issue in the BIOS except whether you want it or not.	St
+1.3.3	If you don't need it you can disable it in the BIOS and it won't give you any more messages.	St
+1.4.1	1.	St
+1.4.2	Microsoft doesn't have a clue about drivers.	St
+1.4.3	Do not rely on it's driver update or check buttons.	St
+1.4.4	2.	St
+1.4.5	When I need to fix this issue I look to install not one driver but two.	St
+1.4.6	Here's what I look for.	St
+1.4.7	a. Motherboard chipset support drivers.	St
+1.4.8	b. Ethernet driver.	St
+1.4.9	3.	St
+1.4.10	Where do I get these?	St
+1.4.11	Usually from the motherboard maker's website.	St
+1.4.12	Bob	St

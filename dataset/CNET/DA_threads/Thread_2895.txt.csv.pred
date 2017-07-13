@@ -1,0 +1,69 @@
+1.1.1	Recently because of serious system instability, I ran chkdsk to see if the problem was related to bad clusters.	St
+1.1.2	Of course Chkdsk found a string of errors, reporting things such as &quot;deleting corrupt attribute record...&quot;, &quot;deleting index entry...&quot;, and so on.	St
+1.1.3	After a long wait, the system rebooted, but I found my system even more unstable.	St
+1.1.4	Later I found out through the Event Viewer that Chkdsk did 'something' to numerous files in attempt to repair them.	St
+1.1.5	Among those were Windows core system dll's.	St
+1.1.6	When I tried to look for those files, they did not exist anywhere on the hard drive.	St
+1.1.7	I am afraid that maybe Chkdsk didn't do a good job repairing the flies.	St
+1.1.8	Perhaps what Chkdsk did was just overwriting the bad sectors?	St
+1.1.9	I thought at least Chkdsk could move the file segments on that specific sector to another healthy sector to maintain file integrity.	St
+1.1.10	I dare not to use Chkdsk again in the future, lest it should delete files by accident, rendering software, personal data, or even Windows useless.	St
+1.1.11	My question is: should I expect Chkdsk to repair the hard drive while also maintaining data integrity?	St
+1.1.12	Or is there any other way to do exactly the tasks mentioned above?	Ques
+1.2.1	I'm going to decline writing what CHKDSK does and note it won't repair damaged files or a damages OS.	St
+1.2.2	For that the tools vary with the OS.	St
+1.2.3	Sometimes it's SFC /SCANNOW and for other OSes it's something else.	St
+1.2.4	With all the malware out there, CHKDSK is only a minor tool in the kit.	St
+1.2.5	Bob	St
+1.3.1	Did you run just chkdsk, or did you use chkdsk /f/r?	St
+1.3.2	Chkdsk by itself will only check the disk, with /f or /r, or both will move the info to good sectors.	St
+1.3.3	Depending on the size of disk it may take awhile.	St
+1.3.4	Also it may only happen on a reboot cause it needs exclusive rights to the drive.	St
+1.3.5	SFC command will take you to original values, you will need to go to Microsoft update after the sfc was run.	St
+1.3.6	Hope this helps.	St
+1.4.1	Well, I manually made CHKDSK to run at bootup so that it can have so-called &quot;exclusive access&quot; to the harddrive.	St
+1.4.2	My OS was not damaged before I ran CHKDSK; it was just unstable (which I later found out to be nTune's fault).	St
+1.4.3	But AFTER I ran CHKDSK, some core system files were gone, such as msxml3r.dll, etc.	St
+1.4.4	And these files were all reported as &quot;located in bad sector and was repaired&quot; in CHKDSK's log.	St
+1.4.5	Even SFC /scannow did not totally recover them.	St
+1.4.6	I had to copy the dll's from my original XP cd.	St
+1.4.7	What I want to know is whether it's normal to lose data while disk utilities, such as CHKDSK, are doing their job?	St
+1.5.1	It's all about backup.	St
+1.5.2	But let's tackle MSXML3 since last week I ran into that and it was annoying that REGSVR32 MSXML3.DLL fails but if you download MSXML3.MSI and install that then all is well.	St
+1.5.3	Go figure why.	St
+1.5.4	Here's the MSXML3.MSI I used to correct this one.	St
+1.5.5	Bob	St
+1.6.1	It might be worth trying 'system file checker'.	St
+1.6.2	You will need your XP CD handy (or if on your harddrive as a partition it will find any files itself) Click Start &gt; Run &gt; type CMD press ok.	St
+1.6.3	This will bring up a Command Prompt Type in: SFC /scannow (make sure you have a space after SFC) Hopefully this should repair or replace any corrupt or missing system files.	St
+1.6.4	Tigger	St
+1.7.1	Well then I guess it's prime time for me to make a backup of my drive.	St
+1.7.2	It seems that I can't totally rely on CHKDSK.	St
+1.7.3	Hopefully the bad sectors won't spread any faster.	St
+1.7.4	Thanks.	St
+1.8.1	CHKDSK is a little boy sent out to do a big man's job.	St
+1.8.2	There are several utilities that 'claim' to do this job, but only 1 that I know really does the job.	St
+1.8.3	SPINRITE from Steve Gibson http://www.grc.com	St
+1.9.1	&gt; CHKDSK is a little boy sent out to do a big man's job.	St
+1.9.2	Actually, it's an old man.	St
+1.9.3	It's been around since the boot-from-floppy days.	St
+1.9.4	Someone mentioned the need to do a backup.	St
+1.9.5	I do this twice a year (should do it more often) and my irreplaceable files, such as the pictures I've taken, are additionaly backed up onto a dvd and far away in my brother's safe.	St
+1.10.1	Yes, It's old but it's been updated for NTFS.	St
+1.10.2	And backups are nice but they can be nothing if you get bad copies.	St
+1.10.3	I've had this happen with floppies, tapes, cds and dvds.	St
+1.10.4	I make 2 or 3 copies of data files and have not lost data.	St
+1.10.5	(YET!!!)	St
+1.10.6	But I have had to use all 3 copies to recover data, some files.	St
+1.11.1	well lets start off with the basics.	Sug
+1.11.2	the hard drive is a thin mettallic layer of magnetic material.	St
+1.11.3	this magnetic material is divided into clusters, pipes, sectors and all that fun jazz.	St
+1.11.4	what chkdsk is checking for is imperfections in this magnetic layer, namely the clusters.	St
+1.11.5	when chkdsk finds these errors on the platter (the term for the hard drive) it will attempt to fix these.	St
+1.11.6	it will not go through your files and fix them.	St
+1.12.1	'this magnetic material is divided into clusters, pipes, sectors' Pipes???	St
+1.12.2	I don't think so!	St
+1.12.3	'what chkdsk is checking for is imperfections in this magnetic layer' Again I don't think so.	St
+1.12.4	One thing it is looking for is &quot;lost clusters&quot;, clusters that are marked as in use but they are not.	St
+1.12.5	Another thing it is looking at is the &quot;indexes&quot;.	St
+1.12.6	I could go on but I won't.	Sug

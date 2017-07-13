@@ -1,0 +1,31 @@
+1.1.1	Greetings all.	St
+1.1.2	Second time here to the forums.	St
+1.1.3	I posted a question on one of the other forums and I have to say that the help that I received was wonderful, so I thought I'd post this question in the hopes of finding an answer.	St
+1.1.4	I'm a newbie with regards to building or upgrading a computer.	St
+1.1.5	So please forgive me if my question seems a little dumb.	Sug
+1.1.6	I've decided to upgrade a computer by adding a new hard drive & additional memory.	St
+1.1.7	My mobo is an Asus P3B-F.	St
+1.1.8	It is a Pentium II, 350Mhz.	St
+1.1.9	My question is this.	St
+1.1.10	Taking into account that my Prossesor speed is 350MHz, does that restrict me in the size of hard drive & rpm's that I choose or in the amount of memory that I add?	St
+1.1.11	I'd like to add a 80Gb hard drive at 7200rpm's and 256MB of Ram.	St
+1.1.12	I'm already aware of the capability issues as far as connection-IDE etc., but as for the above question I'm a little confused.	St
+1.1.13	With thanks	Polite
+1.2.1	The short answer is yes.	St
+1.2.2	My bet is that ASUS has a last hurrah BIOS upgrade (which is free), that will (I bet!)	St
+1.2.3	give you support for up to the 127 GB size or there abouts.	St
+1.2.4	As to adding memory, the discussion at http://hardwareanalysis.com/content/topic/4434/ MISSED the real issue.	St
+1.2.5	The BX chipset requires double-sided memory and the usual stuff you get from off the rack or shelf is single sided.	St
+1.2.6	I'll write what the real electronic issue is and let you digest it.	St
+1.2.7	The BX chipset only supplied enough address lines for 128M of RAM on a slot using a single Chip Enable signal.	St
+1.2.8	To get 256M support, a second Chip Enable is used for the other bank of RAM on the memory stick.	St
+1.2.9	Hence, double-sided.	St
+1.2.10	One bank of ram verses two.	St
+1.2.11	If you get some 256M stick of RAM and it works as 128M, then you got the wrong memory.	St
+1.2.12	Better vendors like Crucial will ship you the right part if you look it up and supply that make/model board.	St
+1.2.13	I don't see any real show-stopper.	St
+1.2.14	Bob	St
+1.3.1	Your system is 5 years old now, and at the end stages of it's useful life, you could start having serious hardware problems with it any time now, so don't overinvest....but if you think you want to extend its life you should really consider getting a faster processor, they are quite cheap and an 800Mhz processor would definitely make a bigger difference than 256meg more memory (unless you only only 64meg now).	St
+1.3.2	Memory for your older system is more expensive than for current systems, costs almost 2 times what it costs for a new system.	St
+1.3.3	Adding more than 256meg of memory is unlikely to make any noticeable difference , how much do you have now, adding 128meg might make more sense, you probably won't be able to tell the difference unless you only have 64meg now, and in that case adding 256meg more would help if you are running XP, but probably won't help at all if you have Win98 or Windows ME.	St
+1.3.4	Your motherboard was not originally configured for an 80GB drive, but will support it, you may need a BIOS update, unless you have updated it since you bought it.	St

@@ -1,0 +1,22 @@
+1.1.1	I have server 2003 and Win XP pro work stations.	St
+1.1.2	I've created a policy that I want to enforce on a user that will change the work station for that individual.	St
+1.1.3	I created a work station policy but want different user's to have different rights.	St
+1.1.4	When I attach the server policy it does'nt restrict the work station as it should.	St
+1.1.5	I must be missing something ?	Ques
+1.2.1	Can you provide more information as to what it is not doing that it should?	St
+1.2.2	Have you setup group policies for your users as well?	St
+1.3.1	Yes I have set up group policy's and when they log-in to the work station its not restricting them.	St
+1.3.2	I currently run a VT program in a Federal Prison.	St
+1.3.3	So I have certain inmates I wanna restrict from certain things.	St
+1.3.4	I also have tutors which are inmates and want them to have more flexability.	St
+1.3.5	When I create a user and attach the group policy to them.	St
+1.3.6	When they log in to the work station they are'nt restricted.	St
+1.3.7	I can put a work station policy and restict everyone.	St
+1.3.8	But I thought a group policy would follow with the inmates account to any computer he would log in on.	St
+1.3.9	Hope this helps you understand better.	St
+1.4.1	To be more secure, and to prevent the &quot;trusted&quot; inmates from forgetting to log off, thereby leaving the system in an exposed state, it would be much better if the &quot;trusted&quot; inmates used the Run As command instead.	St
+1.4.2	In that way, when they close the current window they are working in, the computer will be automatically returned to the locked down state.	St
+1.5.1	But how do I enforce a group policy to the inmates log-in account.	St
+1.6.1	Well lets see if I can get this right: Build 2 groups - one trusted inmates, one regular inmates Place all trusted inmates in the new group and assign all permissions necessary Build policy and assign to trusted group, all users in group will automatically inherent poilicy If I recall correctly those are the proper steps.	St
+1.7.1	Come on C.R., don't make me ask Ray S. to fix it for you!!!	St
+1.7.2	!	St

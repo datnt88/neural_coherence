@@ -1,0 +1,14 @@
+1.1.1	Hi,I've had a problem several times in the past where I'm trying to move or save files to my freecom ext hard drive and I get the message &quot;disc full&quot;.When checking this I find I have in fact still got 32gb of free space.	St
+1.1.2	Can anyone help me shed some light on this please,thanks-John	Ques
+1.2.1	If so, the top directory can be full.	St
+1.2.2	Fix?	St
+1.2.3	Use subdirectories.	St
+1.2.4	Also, a FAT32 drive can't hold a file over 4GB in size.	St
+1.2.5	No fix is planned.	St
+1.2.6	Bob	St
+1.3.1	Thanks for the reply Bob,no its ntfs,though I dont really understand that.	St
+1.3.2	What I did in the end was to transfer everything on that drive to another then format the drive in question and now it seems to hold whatever I put in(up to its capacity of course) It really puzzles me that this should happen so thanks for any input--John	St
+1.4.1	Even though NTFS sidesteps that number, some applications can't handle too many files in the root or top directory.	St
+1.4.2	But it looks like it was corrupted somehow.	St
+1.4.3	Did you try CHDKSK on it?	St
+1.4.4	Bob	St

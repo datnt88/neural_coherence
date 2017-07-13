@@ -1,0 +1,21 @@
+1.1.1	I just finished building a system with an Ultra Tower case, an Intel D975XBX mobo, a Pentium D processor, and an MSI Radeon 1300 video card.	St
+1.1.2	Everything works fine, except for the audio.	St
+1.1.3	I cannot get any sound our of the back panel ports.	St
+1.1.4	Aditionally, the Front Panel audio cables that came with the case are seven cables independently labeled Mic Power, Mic In, Ear R, Ear R, Ear L, Ear L, and GND.	St
+1.1.5	Because they are inidvidual cables, I don't know how they would map onto the motherboard's audio headers, which are label differently: (Pin 1) Port1L, (2) GND, (3)Port1R, (4)Presence#, (5) Port2R, (6) Sense1_Ret, (7) Sense_send, (8) Key (no pin), (9) Port2L and (10) Sense2_ret.	St
+1.1.6	No help from either Ultra or Intel, can someone help?	St
+1.1.7	Thank you.	St
+1.2.1	http://www.hhicc.org/byo_workshop.pdf see page 65	St
+1.3.1	Pin 1 = Port1L = Mic In/Mic2 Pin 2 = Ground = Ground/AGnd Pin 3 = Port1R = MicPower/Mic1 Pin 4 = Presence# = Not Used Pin 5 = Port2R = Right Output/Speaker Pin 6 = Sense1_Ret = Right Output/Speaker/jumper ---------------------------together w/pin5 Pin 7 = Sense_Send = Not Used No Pin 8 Pin 9 = PortL = Left Output/Speaker Pin 10= Sense2_Ret = Left Output/Speaker/ jumper ---------------------------together w/pin9	St
+1.4.1	Thank you very much.	St
+1.4.2	This is just the info I was looking for.	St
+1.4.3	Right on the money!	St
+1.5.1	Does your microphone work OK?	St
+1.5.2	Typically I have used a boom mic placed on the desktop.	St
+1.5.3	With this mobo I had to hold the boom mic next to my lips to get any pick up at all.	St
+1.5.4	Tried switching to headset and attached microphone and still can only just get faint pickup.	St
+1.5.5	Same problem with front panel and rear panel connectors.	St
+1.5.6	Adjusted everything than I can see and can make it no better.	St
+1.5.7	Machines is multi boot with xp pro and xp pro x64.	St
+1.5.8	Same problems on both.	St
+1.5.9	Wonder if it is some issue with the Intel supplied audio software but there is no way to uninstall that I can find so short of re-installing whoile OS that can't be done - close to doing that as I am a Skype user and this machine cannot be used for that the way it is Any ideas?	St

@@ -1,0 +1,33 @@
+1.1.1	Hi all.	St
+1.1.2	I have 2 x 1GB of Patriot DDR3 1333 RAM, and 2 x 1GB of Corsair DDR3 1333 RAM.	St
+1.1.3	My motherboard (ASUS P5E3 WS Professional) has the latest BIOS, and I'm running 64-bit Vista Ultimate.	St
+1.1.4	Both of these dual channel memory modules work fine as a pair.	St
+1.1.5	However, when I try to have both pairs running for a total of 4 GB, Windows won't boot.	St
+1.1.6	Are there any steps I could take to get these modules to work together, or should I RMA one?	St
+1.1.7	Any help is greatly appreciated.	St
+1.1.8	Thanks	Polite
+1.2.1	Is the voltage the same for both ?	Ques
+1.2.2	Better choice...2-2GB DIMMs vice 4-1GB DIMMs.	St
+1.2.3	Let us know.	St
+1.2.4	VAPCMD	St
+1.3.1	Get the latest BIOS for the motherboard and try again.	St
+1.3.2	Then get all the same make and try again.	St
+1.3.3	Be sure the motherboard maker tells you the DDR3 brand/model is supported.	St
+1.3.4	Bob	St
+1.4.1	voltages for ddr3-1333 can range from 1.5v to 1.8v.	St
+1.4.2	the bios may be choosing a low voltage if the sticks differ.	St
+1.4.3	the bios may also be choosing timings that are too aggressive for one of the pairs.	St
+1.4.4	you can try to drop your memory speed, use relaxed timings, disable the Ai Transaction Booster, or manually set DRAM voltage.	Sug
+1.4.5	you can do all of these from the Ai Tweaker BIOS menu.	St
+1.4.6	to drop your memory speed, set DRAM Frequency=DDR3-1111/DDR3-1066 (whichever is available).	St
+1.4.7	to use relaxed timings, set DRAM Timing Control= 9-9-9-24 (or the first settings with CAS Latency = 9).	St
+1.4.8	to disable the booster, set Ai Transaction Booster=Disabled and Relax Level=5 .	St
+1.4.9	to manually set the voltages, set Ai Overclock Tuner=Manual .	St
+1.4.10	then scroll down and set DRAM Voltage=1.74/1.75 (or the highest voltage of your sticks + 0.08).	St
+1.4.11	if one of the sticks requires 1.8V, do not use this tweak -- drop the memory speed instead.	St
+1.4.12	all of these options except the voltage tweak will result in slightly lower performance.	St
+1.5.1	Okay, I'll try tweaking the settings in the BIOS.	Sug
+1.5.2	The sticks are all the same voltage I believe, but the timings might be different.	St
+1.5.3	Thanks	Polite
+1.6.1	That didn't work at all.	St
+1.6.2	Now the motherboard won't boot; I'm gonna clear the CMOS and probly just end up RMAing the Patriot RAM and just go with 4 Corsair.	St

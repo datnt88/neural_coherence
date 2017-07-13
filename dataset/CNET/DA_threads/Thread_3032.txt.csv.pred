@@ -1,0 +1,21 @@
+1.1.1	I have a router and two pcs on it.	St
+1.1.2	One (ethernet connected to the router) has a printer and I want to share it with the other pc.	St
+1.1.3	I set up the printer as shared Then I went to the other pc (wireless connection to the router) and tried to define a remote printer.	St
+1.1.4	The printer add wizard cannot find the printer: I tried browsing and it found nothing; I tried telling it the printer was \\pcname\printername and it couldn't find it either What am I missing?	St
+1.1.5	Both machines are running WinXP Home John	St
+1.2.1	When browsing for it try typing the following into explorer: \\ip address of pc with printer share\printer share name ie: \\192.168.1.50\hplsjet if it finds it, click on it and connect.	St
+1.3.1	Browse the network for the PC that hosts the printer.	St
+1.3.2	Click on it and see if the printer shows.	St
+1.3.3	It should if the sharing was set up properly.	St
+1.3.4	Do a right click and select &quot;Connect&quot;.	St
+1.3.5	I remember years ago older NT systems had an &quot;Install&quot; option from this point but not sure if this works the same.	St
+1.3.6	The ideal way is to use a print server but this costs a bit and not all printers and print servers work happily together.	St
+1.4.1	I once had a similar problem.	St
+1.4.2	The issue was not with the physical set-up but with the firewall software (e.g., Norton Security, Black Ice, etc.)	St
+1.4.3	I had installed on the machines.	St
+1.4.4	If you're running one of these programs, you should go into the scren that allows you to allow or add &quot;friendly&quot; IP addresses.	St
+1.4.5	Just type in the IP address of your printer (e.g., 192.168.1.100) and hopefully you'll set up program will now be able to &quot;see&quot; the networked printer.	St
+1.4.6	Good luck...	St
+1.5.1	the_ehrl makes a very good point.	St
+1.5.2	I don't know how many network problems I've pulled hair out trying to solve, only to track it back to a simple firewall block.	St
+1.5.3	Enough at least that now, the firewall is the FRIST place I look when a network problem rears it's ugly head.	St

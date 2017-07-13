@@ -1,0 +1,30 @@
+1.1.1	Hallo,i've got a HP XW6600 and i'm having a problem to start the system after Win 7 installation.It goes to the windows logo and shuts down.I had the same problem Win XP pro and Vista business every time i've installed graphichs driver it did hang at the log in screen and hibernates after that.I've tried it with Nvidia quadro NVS 285 128Mb,Sapphire Radeon 5450 1GB and EVGA Geforce GTX 560 2GB.I have the same issue with XW6400.	St
+1.1.2	No start up repair or fresh install helped.I'm at the end of my knowledge.	St
+1.1.3	Could anybody help Thanks	Ques
+1.2.1	But I'm finding folk mis-diagnose the hibernate issue.	St
+1.2.2	That is, some are looking at the monitor that is displaying a sleep message and thinking the PC is sleeping or hibernating which is not the case at all.	St
+1.2.3	I find that a boot to safe mode and setting a compatible resolution can help if there are no other hardware issues.	St
+1.2.4	That step is not in your post so maybe it's the usual.	St
+1.2.5	Bob	St
+1.3.1	Hallo,but the XW6400 has been working fine before with the Quadro NVS285 on full resolution	St
+1.4.1	Now, it isn't working.	St
+1.4.2	It maybe a buss/PCIe-16 issue as in the slot can' take it or related chipset.	St
+1.4.3	The video loading gets to a point where its drivers are too much for whatever reason.	St
+1.4.4	It maybe a bridge chipset or cpu level failing.	St
+1.4.5	If it works in safe mode but not in higher final mode, that's suggests some h/w issue or failure.	St
+1.4.6	Basically, you need a mtrbd.	St
+1.4.7	replacement to test further.	St
+1.4.8	It hibernates because it never got what it needed, so it times out to hibernate mode.	St
+1.4.9	Since this is also HP type workstation, it may have a narrower support range other than its own products or similar.	St
+1.4.10	If this ever worked(does currently too) go back to that h/w setup and see if a bios update helps at all(last resort).	St
+1.4.11	You may want to try Hiren's CD, google for it and play with the many pgms.	St
+1.4.12	to see if it can boot to that.	St
+1.4.13	Also, using the bootable Ubuntu &quot;live version&quot; CD, if it can load those hi-end video drivers, it offers yet another clue, if NOT, then the h/w fault is really there.	St
+1.4.14	Clean the video slot as another area to check.	St
+1.4.15	tada -----Willy	St
+1.5.1	It worked before means it worked before.	St
+1.5.2	Hardware does fail or degrade.	Ques
+1.5.3	It's also known that folk will install drivers from MSFT and my advice is never do that.	St
+1.5.4	Again, try safe mode and set a lower resolution.	Sug
+1.5.5	Only a very new PC owner or tech won't do this.	St
+1.5.6	Bob	St

@@ -1,0 +1,31 @@
+1.1.1	hello, I just recently purchased a new samsung 80 gig hard drive and did a clean win 2000 install on it, however once I was done and checked in my computer and looked at the c: drive it says it only has a capactiy of 7.82 gigs, also when I did the install I chose to use ntfs but it says im using fat file system, is this a reason for the missing size?	St
+1.1.2	the computer is an hp x86 with 32 kb ram.	St
+1.2.1	your using the old fat 16 format.	St
+1.2.2	You must choose to use the large file system.	St
+1.2.3	which will be fat32 or ntfs.	St
+1.2.4	Also, 2000 requires at least 128 megs of ram.	St
+1.3.1	your using the fat 16 file system.	St
+1.3.2	you must choose to use large file system in the beginning.	St
+1.3.3	Which would be fat32 or ntfs.	St
+1.3.4	You also need at least 128 megs of ram for 2000.	St
+1.4.1	is there a way to change this now or do I have to do a complete reinstall?	St
+1.4.2	btw I didi choose to use ntfs so I have no clue to what happened	St
+1.5.1	is to start over.	St
+1.5.2	did you use a disk to format your drive besides 2000?	St
+1.5.3	you should of recieved another disk with your new drive.	St
+1.5.4	You can also use a old 98 or ME startup disk and boot to dos and type fdisk.	St
+1.5.5	choose large disk format, delete partition then make new.	St
+1.5.6	you would need to go into your bios first and change to floppy boot first.	St
+1.6.1	File system issue: Fat16 has a hard limit of 2gb in 9x and 4 Gb in NT based oses.	St
+1.6.2	It is not fat 16.	St
+1.6.3	Probably fat32.	St
+1.6.4	from a run line type &quot;convert c:&quot;(or d: or whatever)&quot; /fs:ntfs&quot; to convert to ntfs.	St
+1.6.5	Size: Is it 7.82 or 78.2 ?	Ques
+1.6.6	Computers think in a base 2 system, so where we think 1000 MBs to a GB they think 1024.	St
+1.6.7	So reporting is usally off because that.	St
+1.7.1	after I make new partition what do I do, I trie to format from dos but couldnt so I used win 98 cd because I do not have enough memory to run win 2000 and the hard drive still only came up showing 7.82 gig's.	St
+1.7.2	btw the option i was to choose when it was time to make new partition was make primary dos partition correct?	St
+1.8.1	ok I have figured out the formatting and partitioning issues...(thx for the help) but no matter what I do and I chose large disk support and everything as instructed but it still is only showing as it's an 8 gig hard ddrive instead of 80, im at wits end and dont know what to do to get it to use all of my disk space	St
+1.9.1	From what I can tell you have a many year old machine with a BIOS that may not understand large drives.	St
+1.9.2	You'll want to try some 32GB drive, then under 64GB drive to see where its limit is.	St
+1.9.3	Bob	St

@@ -1,0 +1,8 @@
+1.1.1	I have a LinkSys WRT54G router on IP 192.168.6.27 My laptop and desktop are set to automatically get an IP address from the router.	St
+1.1.2	However, I have noticed lately that the two computers cannot communicate using their friendly names but I can ping them and do filesharing by their IP addresses.	St
+1.1.3	Upon doing an ipconfig /all on both machines, I think I have discovered the problem.	St
+1.1.4	The computers each have two DNS servers, but neither is my router.	St
+1.1.5	I could manually tell my machines to use 192.168.6.27 as my DNS server, but because I travel with my laptop it would be much easier if I could just leave it on autoconfig.	Sug
+1.1.6	How, then, can I get my router to tell my machines that it is the DNS server they should use and have the router handle all requests to my ISP's external DNS servers?	St
+1.2.1	You could put those names in your HOSTS file.	Sug
+1.2.2	Look up what the HOSTS file does...	St

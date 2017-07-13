@@ -1,0 +1,51 @@
+1.1.1	Jetway 866 AS motherboard failed to boot yesterday, with no post or beep at all, and blank screen.	St
+1.1.2	There is power on all optical and hard drives, but machine will not post.	St
+1.1.3	Fitted new 400W power supply, reseated all cards and memory, and removed Athlon XP 1800 CPU, then reseated using Arctic Silver on heat sink contact surface.	St
+1.1.4	Also fitted new 3v CMOS battery.	St
+1.1.5	Still no beep at all, although HDD spins up.	St
+1.1.6	Also monitor screen black, with seemingly no signal.	St
+1.1.7	Can I assume that the mother board has collapsed, or the CMOS chip fried, or somesuch?	St
+1.1.8	I read where one user said that he downloaded a BIOS retrieval disk onto a floppy, powered on with it in the drive and after a pause, everything fired up as normal.	St
+1.1.9	Does anyone have any knowledge of this process, please?	Ques
+1.2.1	Since you're getting a blank screen, a bios flash probably won't work since the bios isn't even getting to the phase where it realizes you have a floppy drive.	St
+1.2.2	It can't hurt to try, though.	Polite
+1.2.3	Your motherboard site can give you instructions on how to update your bios here: http://210.201.178.76/evisn/download/update.htm This is where you can download Award Flash: http://210.201.178.76/evisn/download/bios/Awdflash.exe And this is where you can download the bios bin file: http://216.185.128.200/temp/jetway0c/downloads/bios/868as/868ASA05.BIN &lt;-- *that bin file is for the 866AS so if you have the pro, ultra, or ultra raid versions DON'T download that file... you can find the bin files for the other versions at http://210.201.178.76/evisn/download/bios/download1.htm * If that doesn't work, there's a nifty little tool called the bios savior you can buy that can help you fix your bios *think of it as a clone of your bios that can load your bios files back into your bios even if it's corrupted*.	St
+1.2.4	That can be found here: http://www.ioss.com.tw/web/English.html If you don't want to put out the cash for that though, there's another option called hot flashing your bios.	St
+1.2.5	It's a bit on the risky side, but as long as you're careful you should be fine.	St
+1.2.6	Do a search in Google for the keywords *hot flash bios &quot;how to&quot;* minus the astricks.	St
+1.2.7	The basics involve getting a Windows based flash utility *NOT a DOS based utility* on the working computer along with a copy of your bios bin file, booting the working computer up into Windows, taking the CMOS chip out, replacing it with your bad CMOS chip *the CMOS is only utilized at startup, which is why this can be done*, flashing your bad CMOS chip, and then shutting down the computer and putting your now good CMOS chip back into its motherboard.	St
+1.2.8	As long as your bad CMOS chip is the same type as your working computer's CMOS chip *i.e.	St
+1.2.9	as long as it can fit into the working computer's CMOS slot*, you're good to go.	St
+1.3.1	A bios update maybe too deep or to even try at this point, since you can't see anything(display) it would be pointless.	St
+1.3.2	I suggest at the bios level, try a CMOS clearing of setting.	St
+1.3.3	Find the pins or pads to help clear the CMOS(bios) of current setting and it defaults to basic setting.	St
+1.3.4	If you get back the display, then re-enter the bios to reset to what it was before for best operation of the system.	St
+1.3.5	If you can't get a display, then the mtrbd.	St
+1.3.6	is done in or the cpu itself has failed.	St
+1.3.7	You can simply remove the cpu entirely, apply power then and see if it &quot;beeps away&quot; if it doesn't then you got a mtrbd.	St
+1.3.8	problem.	St
+1.3.9	If it does, then replace cpu.	St
+1.3.10	Inspect closely all componets on the mtrbd.	St
+1.3.11	for anything remotely looking damaged, leaky, burnt, discolored, buldged, etc.	St
+1.3.12	as a clue.	St
+1.3.13	If you had this system for awhile, it maybe just showing its age and 1 or more componets have degraded or failed.	St
+1.3.14	Even though you have power to drives, that doesn't suggest all power voltages are present, thus keep that in mind or meter for such.	St
+1.3.15	tada -----Willy	St
+1.4.1	I thought that removing the CMOS lithium battery reset the BIOS to default, but I will ascertain which jumper to swing to ensure this.	St
+1.4.2	I closely inspected the board when I had the cards and the CPU removed; it appeared pristine, with no bulging, domed, discolored, or leaking capacitors.	St
+1.4.3	I should add that this problem occured when attempting to restart after I told my son to move a few megabytes of his music from C partition to E partition (C,D and E) on my 120 Gig hard drive.	St
+1.4.4	It was also a hot day.	St
+1.4.5	(41 degrees C.) He later said that the computer had stopped itself, and rebooted a couple of times.	St
+1.4.6	Oh, and all malware and spyware measures were in place.	St
+1.4.7	None of the stockists here in South Australia still carry Socket A boards, or older Athlon XP processors, so I may need to trash this 4 year old machine.	St
+1.4.8	Great pity.	St
+1.4.9	However, I will post back if I come up with a fix.	St
+1.5.1	Duh!, replacing battery would reset the CMOS, dooh, I should have known that.	St
+1.5.2	A sore point with AMD cpus is that they belly-up quickly if loss of cooling, mainly the cpu fan.	St
+1.5.3	The system bios should be set to shutdown or off in this event as it reaches overtemp range setting.	St
+1.5.4	But, if this was too high or simply a case of bad luck, the cpu can fry in secs.. What better excuse to upgrade that to get a better system, consider 4yrs.	St
+1.5.5	is a lengthy time for a system for practical usage.	St
+1.5.6	As for the capacitors, they can be *slightly* budgled on top, very slight and that can be enough if more than one, it can happen.	St
+1.5.7	As a last resort, if the bios was set to boot from FD, then HD, place any bootable floppy in there and see what it does.	St
+1.5.8	tada -----Willy	St
+1.6.1	NIL	St

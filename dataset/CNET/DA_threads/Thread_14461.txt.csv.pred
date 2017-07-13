@@ -1,0 +1,74 @@
+1.1.1	First off,specs: Athlon XP 2400+ Epox 8k5A2+ GeForce Nvidia 7600GS AGP PowerMagic 350w PS Sony Dru-84A DVD-Burner CD-4x4x32 CD-Burner At the moment, I'm back to XP Pro SP3.	St
+1.1.2	I ran for about 2yrs on XP with 1GB of PC2100 DDR DIMMS configured so:1x512MB/PC2100_2x256MB/PC2100 and XP was happy.	St
+1.1.3	I installed Vista Ultimate and it grunted a bit so I ordered a 1GB PC2100 chip online.	St
+1.1.4	It arrived and I installed it.	St
+1.1.5	Configuration is now this:1GB 1st bank-512MB 2nd bank-256Mb 3rd bank.	St
+1.1.6	Now to the techy stuff.	St
+1.1.7	During the day, my machine would die.	St
+1.1.8	No warning, no shutting down, dead.	St
+1.1.9	Sometimes it would boot right back up, sometimes not.	St
+1.1.10	When it wouldn't, the post codes would not read either.	St
+1.1.11	My best guess was (with my limited knowlege) was it had to be memory related.	St
+1.1.12	I pulled both the 256MB chip and the 512MB chip then booted to a disk with Windows Memtest v3.3.	St
+1.1.13	All tests passed.	St
+1.1.14	(I think this problem was just poor contact with one or more of the chips.)	St
+1.1.15	Fired Vista up, and ran Everest Ultimate.	St
+1.1.16	Surprise!!	St
+1.1.17	Field Value Memory Module Properties Serial Number None Module Size 1 GB (2 ranks, 4 banks) Module Type Unbuffered Memory Type DDR SDRAM Memory Speed PC3200 (200 MHz) Module Width 64 bit Module Voltage SSTL 2.5 Error Detection Method None Refresh Rate Reduced (7.8 us), Self-Refresh Memory Timings @ 200 MHz 3.0-3-3-8 (CL-RCD-RP-RAS) / 11-14-2 (RC-RFC-RRD) @ 166 MHz 2.5-3-3-7 (CL-RCD-RP-RAS) / 10-12-2 (RC-RFC-RRD) @ 133 MHz 2.0-2-2-6 (CL-RCD-RP-RAS) / 8-10-2 (RC-RFC-RRD) Memory Module Features Early RAS# Precharge Not Supported Auto-Precharge Not Supported Precharge All Not Supported Write1/Read Burst Not Supported Buffered Address/Control Inputs Not Supported Registered Address/Control Inputs Not Supported On-Card PLL (Clock) Not Supported Buffered DQMB Inputs Not Supported Registered DQMB Inputs Not Supported Differential Clock Input Supported Redundant Row Address Not Supported It's 1GB PC3200!	St
+1.1.18	The Epox mobo will only support up to PC2700.	St
+1.1.19	XP PRO SP3 is running fat an sassy on this 1GB PC3200.	St
+1.1.20	How?	St
+1.1.21	Was the combination of PC3200 and PC2100 the problem?	St
+1.1.22	Is leaving this PC3200 chip in going to be a problem?	St
+1.2.1	To find Vista doing that.	St
+1.2.2	Let's call it not ready for primetime on homebuilt machines.	St
+1.2.3	For instance it can be picky about the BIOS and all the drivers.	St
+1.2.4	Is it worth the time?	St
+1.3.1	This is not about Vista.	St
+1.3.2	This is a hardware forum and my questions are about memory chips.	St
+1.4.1	And you wrote about Vista Ultimate.	St
+1.4.2	If the issue is not about Vista, then that is lost in your posting.	St
+1.4.3	However there is an damming issue with those boards and when you fill all the slots.	St
+1.4.4	The memory timing must be relaxed (slowed) for it to work.	St
+1.4.5	The owners are miffed about that and there is nothing you can do for them since it's a design flaw.	St
+1.4.6	They usually take a few weeks to look into it and they discover the truth.	St
+1.4.7	Keep those old boards with just 2 sticks to steer around the issue.	St
+1.4.8	Bob	St
+1.5.1	You truly need to check the specs/details of your mtrbd.. Just what it does support.	Sug
+1.5.2	If you find no mention of PC3200, then it doesn't support it(fully).	St
+1.5.3	If you ordered PC2100 and got a PC3200 which can be used in SOME systems, only because they are better capable.	St
+1.5.4	You have a Epox mtrbd.	St
+1.5.5	which is more of a beginning/entry type system.	St
+1.5.6	Its chipset and others become limited in supporting &quot;fully populated&quot; ram slots as a timing issue arises.	St
+1.5.7	Not only that, but you have 3-different ram sizes and RAS/CAS reports, this isn't ideal.	St
+1.5.8	Your results are to be expected or arise sooner or later.	St
+1.5.9	Basically, nothing you can do, other than get another new module like you've received, remove the others(256&512mbs) and/or order 2-1gb of PC2700(return the PC3200).	St
+1.5.10	Use only 2 ram slots to help resolve this issue as well.	St
+1.5.11	Some have regressed the ram timing, etc.	St
+1.5.12	to get it to work, but that basically forces it to be slower and what's the point of having fast ram.	St
+1.5.13	tada -----Willy	St
+1.6.1	Yes and no...... Vista is creating some strange hardware issues.	St
+1.6.2	As with win9x dissimilar memory would pass diagnostic tests in DOS but fail in Windows using NSW memory test utility(Norton System Works.	St
+1.6.3	Your original memory configuration proves this to be true using a single stick of RAM.	St
+1.6.4	Or with dissimilar memory the system would not boot due to the MB support.	St
+1.6.5	Couple of other items I have seen: Client added 4 gigs of RAM to his system, Vista 32 bit, for a total of 6 gigs of RAM.	St
+1.6.6	Task Manager reported 2 gigs (no switch on Boot.Ini)of Physical RAM, 4 gigs of virtual memory.	St
+1.6.7	Upgraded laptops to 1 gig of memory pulled from the shelfs at (you know who).	St
+1.6.8	These systems run doggy and strange, re-order/install the correct RAM no issues.	St
+1.6.9	In closing Vista is going to force us to re-evaluate what we know of Hardware/OS relationships.	St
+1.6.10	To answer your first question No Vista will run w/1 gig of RAM.	St
+1.6.11	2 would be better.	St
+1.6.12	Luck Bill	St
+1.7.1	As I bought the board new a few years back.	St
+1.7.2	I have the manuals and stuff so specs are avialable and state that this board with Via chipset KT333 supports PC1600/PC2100/PC2700 DDR.Right now it is running fat and sassy with 1GB of PC3200.	St
+1.7.3	How is that happening and will it cause any harm in the long run?	St
+1.7.4	If not, I'll buy another stick of PC3200.	St
+1.8.1	If you research this you find you are not alone in finding that all slots full fails.	St
+1.8.2	Feel free to pester the board's maker.	St
+1.8.3	Here I just move to 2 sticks...	St
+1.9.1	You open yourself to a possible glitch as it wasn't intended to support PC3200 ram.	St
+1.9.2	However, keeping it to 2 slots of ram and equivalent types will help keep the problems at bay.	St
+1.9.3	There's no guarantee on this as your manual already states it doesn't support PC3200.	St
+1.9.4	If possible and available, see if the bios has an update that may address this issue, but be sure what that updates does, as you may not need it or benefit from it.	St
+1.9.5	PC3200 is nothing more than faster ram and keeps the same voltage requirements, so its up to you.	St
+1.9.6	tada -----Willy	St
