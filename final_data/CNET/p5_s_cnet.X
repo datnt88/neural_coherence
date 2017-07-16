@@ -1,0 +1,10 @@
+final_data/CNET/threads/Thread_13074.txt.text.all.parsed.ner
+final_data/CNET/threads/Thread_14956.txt.text.all.parsed.ner
+final_data/CNET/threads/Thread_2850.txt.text.all.parsed.ner
+final_data/CNET/threads/Thread_11223.txt.text.all.parsed.ner
+final_data/CNET/threads/Thread_5767.txt.text.all.parsed.ner
+final_data/CNET/threads/Thread_7262.txt.text.all.parsed.ner
+final_data/CNET/threads/Thread_5080.txt.text.all.parsed.ner
+final_data/CNET/threads/Thread_8479.txt.text.all.parsed.ner
+final_data/CNET/threads/Thread_1373.txt.text.all.parsed.ner
+final_data/CNET/threads/Thread_5134.txt.text.all.parsed.ner

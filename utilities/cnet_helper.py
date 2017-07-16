@@ -10,6 +10,8 @@ from keras.preprocessing import sequence
 
 import itertools
 from utilities import gen_trees
+from zss import simple_distance, Node
+
 
 #initilize basic vocabulary for cnn, this will change when using features
 def init_vocab(emb_size):
@@ -31,14 +33,67 @@ def init_vocab(emb_size):
     #for tupl in v5s:
     #    vocabs.append(''.join(tupl))
 
-
     np.random.seed(2017)
     E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocabs), emb_size))
     E[0] = 0
 
     return vocabs, E
 
-#def load_sentene_depth()
+# compute tree edit distance
+def compute_tree_edit_dist(tree1, tree2):
+
+    x = ''.join(tree1)
+    
+    tree1_nodes = {}
+    tree2_nodes = {}
+
+    for i in x:
+        tree1_nodes[i] = Node(i)
+        tree2_nodes[i] = Node(i)
+
+    # extract edges for each tree
+    def get_edges(tree):
+        edges = []
+        
+        for br in tree:
+            for i in range(0,len(br)-1):
+                edges.append(br[i:i+2])
+        #print "---------"
+        #print tree
+        #print edges
+
+        edges = sorted(list(set(edges)))
+        #print edges
+        return edges
+
+    
+    tree1_edges = get_edges(tree1)
+    tree2_edges = get_edges(tree2)
+
+    tree11 = tree1_nodes['1'].addkid(tree1_nodes['2']) 
+    tree22 = tree2_nodes['1'].addkid(tree2_nodes['2']) 
+
+    #print "-----------------"
+    #print x
+    #print tree1_nodes
+    #print tree2_nodes
+    #print tree1_edges
+    #print tree2_edges
+
+    for edge in tree1_edges:
+        n1 = edge[0]
+        n2 = edge[1]
+        tree1_nodes[n1].addkid(tree1_nodes[n2])
+    #adding children for each tree
+
+    for edge in tree2_edges:
+        n1 = edge[0]
+        n2 = edge[1]
+        tree2_nodes[n1].addkid(tree2_nodes[n2])
+    
+    return simple_distance(tree11,tree22)
+
+
 def load_one_tree_only(file="", sent_levels=[], maxlen=15000, window_size=2, vocab_list=None, emb_size=300, fn=None):
     #load data with tree representation
     
@@ -53,7 +108,6 @@ def load_one_tree_only(file="", sent_levels=[], maxlen=15000, window_size=2, voc
     sentences_1.append(grid_1)    
 
     #print len(sentences_1)
-
     vocab_idmap = {}
     for i in range(len(vocab_list)):
         vocab_idmap[vocab_list[i]] = i
@@ -76,25 +130,26 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
 
     sentences_1 = []
     sentences_0 = []
-    
+    dists = []
     max_l = 0
 
     for file in list_of_files:  
-        #print "---------------------------------------"
-        #print file
+        print "---------------------------------------"
+        print file
     
         cmtIDs  = [line.rstrip('\n') for line in open(file + ".commentIDs")]
         cmtIDs = [int(i) for i in cmtIDs] 
         x_tree = [line.rstrip('\n') for line in open(file + ".orgTree")]
         org_tree = []
+        print x_tree
+
+        cmtIDs02 = []
         for i in x_tree:
             org_tree += [''.join(i.split("."))]
+            cmtIDs02 += [int(j) for j in i.split(".")]
 
-        sentDepths = get_sentences_depth(cmtIDs=cmtIDs,tree=org_tree)
-        #print sentDepths
-        #print "---------"
-
-        lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
+        sentDepths = get_sentences_depth(cmtIDs=cmtIDs,tree=org_tree) #load sentence depths
+        lines = [line.rstrip('\n') for line in open(file + ".EGrid")] #load entity grid
         
         grid_1 = "0 "* window_size
         for idx, line in enumerate(lines):
@@ -103,10 +158,8 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
                 grid_1 = grid_1 + e_trans + " " + "0 "* window_size
 
         #loading possible tree
-
-        nPost = max(cmtIDs)
-        if nPost > 5:
-            nPost = 5
+        nPost = max(cmtIDs02)
+        print nPost
 
         p_trees = gen_trees.gen_tree_branches(n=nPost)
         
@@ -126,6 +179,11 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
                 sentences_0.append(grid_0)
                 sentences_1.append(grid_1)
 
+                #comput tree-edit distance here
+                dists.append(compute_tree_edit_dist(org_tree,p_tree))
+                #print compute_tree_edit_dist(org_tree,p_tree)
+
+
                 if len(grid_1)/2 > max_l:
                     max_l = len(grid_1)/2
 
@@ -133,9 +191,9 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
                     max_l = len(grid_0)/2
 
             
-    print "Max length for CNN: ", max_l
-
     assert len(sentences_0) == len(sentences_1)
+    assert len(dists) == len(sentences_1)
+
     vocab_idmap = {}
     for i in range(len(vocab_list)):
         vocab_idmap[vocab_list[i]] = i
@@ -152,7 +210,15 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
     X_1 = sequence.pad_sequences(X_1, maxlen)
     X_0 = sequence.pad_sequences(X_0, maxlen)
 
-    return X_1, X_0
+    
+    dists = np.array(dists, dtype='int32').ravel()
+
+    #print type(distances)
+    #print distances.shape
+    #print X_1.shape
+    
+
+    return X_1, X_0 , dists
 
 
 def get_eTrans_with_Tree_Structure(sent="",sent_levels=None):

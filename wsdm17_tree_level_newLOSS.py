@@ -16,11 +16,16 @@ import optparse
 import sys
 
 
+
+
 def ranking_loss(y_true, y_pred):
+
     pos = y_pred[:,0]
     neg = y_pred[:,1]
+    dist = y_pred[:,2]
+
     #loss = -K.sigmoid(pos-neg) # use 
-    loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
+    loss = K.maximum(dist + neg - pos, 0.0) #if you want to use margin ranking loss
     return K.mean(loss) + 0 * y_true
 
 
@@ -53,14 +58,14 @@ if __name__ == '__main__':
 
         data_dir        = "./final_data/"
         ,log_file       = "log"
-        ,model_dir      = "./saved_models/"
+        ,model_dir      = "./M.p5_s_cnet.New_LOSS/"
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
         ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 10000
+        ,maxlen         = 14000
         ,epochs         = 30
         ,emb_size       = 100
         ,hidden_size    = 250
@@ -88,13 +93,13 @@ if __name__ == '__main__':
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0 = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
+    X_train_1, X_train_0, train_dis  = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.train_tmp", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
+    X_dev_1, X_dev_0, dev_dis     = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.test_tmp", 
+    X_test_1, X_test_0 , test_dis    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.test_tmp", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)
@@ -155,11 +160,13 @@ if __name__ == '__main__':
     # these two models will share eveything from shared_cnn
     pos_branch = shared_cnn(pos_input)
     neg_branch = shared_cnn(neg_input)
+    
+    dist_input  = Input(name='dist_input', shape=(1,) , dtype='int32')
 
-    concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out")
+    concatenated = merge([pos_branch, neg_branch, dist_input], mode='concat',name="coherence_out")
     # output is two latent coherence score
 
-    final_model = Model([pos_input, neg_input], concatenated)
+    final_model = Model([pos_input, neg_input, dist_input], concatenated)
 
     #final_model.compile(loss='ranking_loss', optimizer='adam')
     final_model.compile(loss={'coherence_out': ranking_loss}, optimizer=opts.learn_alg)
@@ -167,8 +174,8 @@ if __name__ == '__main__':
     # setting callback
     histories = my_callbacks.Histories()
 
-    print(shared_cnn.summary())
-    #print(final_model.summary())
+    #print(shared_cnn.summary())
+    print(final_model.summary())
 
     print("------------------------------------------------")	
     
@@ -189,7 +196,7 @@ if __name__ == '__main__':
     patience = 0 
     for ep in range(1,opts.epochs):
         
-        final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
+        final_model.fit([X_train_1, X_train_0, train_dis], y_train_1, validation_data=([X_dev_1, X_dev_0, dev_dis], y_dev_1), nb_epoch=1,
  					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
 
         final_model.save(model_name + "_ep." + str(ep) + ".h5")
@@ -202,7 +209,7 @@ if __name__ == '__main__':
             patience = patience + 1
 
         #doing classify the test set
-        y_pred = final_model.predict([X_test_1, X_test_0])        
+        y_pred = final_model.predict([X_test_1, X_test_0, test_dis])        
         ties = 0
         wins = 0
         n = len(y_pred)

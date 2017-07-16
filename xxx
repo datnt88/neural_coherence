@@ -8,6 +8,7 @@ from keras.callbacks import ModelCheckpoint
 from keras.utils import np_utils
 from keras import backend as K
 
+from keras.layers import Reshape, Lambda
 
 import numpy as np
 from utilities import my_callbacks
@@ -16,7 +17,24 @@ import optparse
 import sys
 
 
+# the actual loss calc occurs here despite it not being
+# an internal Keras loss function
+def ranking_loss_with_penalty(args):
+
+    y_pred, distance= args
+    
+    pos = y_pred[:][0]
+    neg = y_pred[:][1]
+
+    loss = K.maximum(distance + neg - pos, 0.0) #using distance to prelize different trees
+
+    return K.mean(loss) 
+
+
 def ranking_loss(y_true, y_pred):
+
+    #print (self.model.inputs)
+
     pos = y_pred[:,0]
     neg = y_pred[:,1]
     #loss = -K.sigmoid(pos-neg) # use 
@@ -60,7 +78,7 @@ if __name__ == '__main__':
         ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 10000
+        ,maxlen         = 2000
         ,epochs         = 30
         ,emb_size       = 100
         ,hidden_size    = 250
@@ -88,13 +106,13 @@ if __name__ == '__main__':
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0 = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
+    X_train_1, X_train_0, train_dis = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.X", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
+    X_dev_1, X_dev_0 , dev_dis   = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.X", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.test_tmp", 
+    X_test_1, X_test_0 , test_dis   = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.X", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)
@@ -118,11 +136,13 @@ if __name__ == '__main__':
     y_dev_1 = np_utils.to_categorical(y_dev_1, 2)
     y_test_1 = np_utils.to_categorical(y_test_1, 2)
 
+    #print y_train_1.shape
+
     #randomly shuffle the training data
-    np.random.seed(113)
-    np.random.shuffle(X_train_1)
-    np.random.seed(113)
-    np.random.shuffle(X_train_0)
+    #np.random.seed(113)
+    #np.random.shuffle(X_train_1)
+    #np.random.seed(113)
+    #np.random.shuffle(X_train_0)
 
 
     # first, define a CNN model for sequence of entities 
@@ -159,15 +179,21 @@ if __name__ == '__main__':
     concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out")
     # output is two latent coherence score
 
-    final_model = Model([pos_input, neg_input], concatenated)
+    # input distance for new loss
+    distance_input  = Input(name='distance_input', shape=(1,) , dtype='int32')
+
+    loss_out = Lambda(ranking_loss_with_penalty, output_shape=(1,), name='new_loss')([concatenated, distance_input])
+
+
+    final_model = Model([pos_input, neg_input, distance_input], loss_out)
 
     #final_model.compile(loss='ranking_loss', optimizer='adam')
-    final_model.compile(loss={'coherence_out': ranking_loss}, optimizer=opts.learn_alg)
+    final_model.compile(loss={'new_loss': lambda y_true, y_pred: y_pred}, optimizer=opts.learn_alg)
 
     # setting callback
     histories = my_callbacks.Histories()
 
-    print(shared_cnn.summary())
+    print(final_model.summary())
     #print(final_model.summary())
 
     print("------------------------------------------------")	
@@ -189,7 +215,7 @@ if __name__ == '__main__':
     patience = 0 
     for ep in range(1,opts.epochs):
         
-        final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
+        final_model.fit([X_train_1, X_train_0, train_dis], y_train_1, validation_data=([X_dev_1, X_dev_0, dev_dis], y_dev_1), nb_epoch=1,
  					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
 
         final_model.save(model_name + "_ep." + str(ep) + ".h5")
