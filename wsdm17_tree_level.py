@@ -160,7 +160,7 @@ if __name__ == '__main__':
     # these two models will share eveything from shared_cnn
     pos_branch = shared_cnn(pos_input)
     neg_branch = shared_cnn(neg_input)
-
+    
     dist_input  = Input(name='dist_input', shape=(1,) , dtype='int32')
 
     concatenated = merge([pos_branch, neg_branch, dist_input], mode='concat',name="coherence_out")
@@ -174,8 +174,8 @@ if __name__ == '__main__':
     # setting callback
     histories = my_callbacks.Histories()
 
-    print(shared_cnn.summary())
-    #print(final_model.summary())
+    #print(shared_cnn.summary())
+    print(final_model.summary())
 
     print("------------------------------------------------")	
     
