@@ -114,7 +114,7 @@ if __name__ == '__main__':
     print("Num of traing pairs: " + str(num_train))
     print("Num of dev pairs: " + str(num_dev))
     print("Num of test pairs: " + str(num_test))
-    print("Num of permutation in train: " + str(opts.p_num)) 
+    #print("Num of permutation in train: " + str(opts.p_num)) 
     print("The maximum in length for CNN: " + str(opts.maxlen))
     print('.....................................')
 
@@ -128,7 +128,8 @@ if __name__ == '__main__':
     np.random.shuffle(X_train_1)
     np.random.seed(113)
     np.random.shuffle(X_train_0)
-
+    np.random.seed(113)
+    np.random.shuffle(train_dist)
 
     # first, define a CNN model for sequence of entities 
     sent_input = Input(shape=(opts.maxlen,), dtype='int32', name='sent_input')
