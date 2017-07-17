@@ -58,12 +58,7 @@ def compute_tree_edit_dist(tree1, tree2):
         for br in tree:
             for i in range(0,len(br)-1):
                 edges.append(br[i:i+2])
-        #print "---------"
-        #print tree
-        #print edges
-
         edges = sorted(list(set(edges)))
-        #print edges
         return edges
 
     
@@ -72,13 +67,6 @@ def compute_tree_edit_dist(tree1, tree2):
 
     tree11 = tree1_nodes['1'].addkid(tree1_nodes['2']) 
     tree22 = tree2_nodes['1'].addkid(tree2_nodes['2']) 
-
-    #print "-----------------"
-    #print x
-    #print tree1_nodes
-    #print tree2_nodes
-    #print tree1_edges
-    #print tree2_edges
 
     for edge in tree1_edges:
         n1 = edge[0]
@@ -94,7 +82,7 @@ def compute_tree_edit_dist(tree1, tree2):
     return simple_distance(tree11,tree22)
 
 
-def load_one_tree_only(file="", sent_levels=[], maxlen=15000, window_size=2, vocab_list=None, emb_size=300, fn=None):
+def load_one_tree_only(file="", sent_levels=[], maxlen=15000, w_size=2, vocabs=None, emb_size=300, fn=None):
     #load data with tree representation
     
     sentences_1 = []
@@ -124,7 +112,7 @@ def load_one_tree_only(file="", sent_levels=[], maxlen=15000, window_size=2, voc
 
 
 #load tree pair to train the tree level model
-def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
+def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, w_size=3, E=None, vocabs=None, emb_size=300, fn=None):
     if vocab_list is None:
         print("Please input vocab list")
         return None
@@ -139,7 +127,6 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
     for file in list_of_files:  
         #print "---------------------------------------"
         #print file
-    
         cmtIDs  = [line.rstrip('\n') for line in open(file + ".commentIDs")]
         cmtIDs = [int(i) for i in cmtIDs] 
         x_tree = [line.rstrip('\n') for line in open(file + ".orgTree")]
@@ -182,17 +169,13 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
                 sentences_0.append(grid_0)
                 sentences_1.append(grid_1)
 
-                #comput tree-edit distance here
-                dists.append(compute_tree_edit_dist(org_tree,p_tree))
-                #print compute_tree_edit_dist(org_tree,p_tree)
-
+                dists.append(compute_tree_edit_dist(org_tree,p_tree)) #compute tree-edit distance here
 
                 if len(grid_1)/2 > max_l:
                     max_l = len(grid_1)/2
 
                 if len(grid_0)/2 > max_l:
                     max_l = len(grid_0)/2
-
             
     assert len(sentences_0) == len(sentences_1)
     assert len(dists) == len(sentences_1)
@@ -273,6 +256,9 @@ def get_tree_struct(cmtIDs=[],tree=[]):
 
 
 #===================================================================
+# this part for compute local coherence model
+# consider coherence at edge level
+#===================================================================
 def compute_pair_score(trained_model=None, file="", pairs=[], maxlen=1000, w_size=5, vocabs=[], emb_size=50):
 
     postIDs = [line.rstrip('\n') for line in open(file + ".commentIDs")]
@@ -306,16 +292,18 @@ def compute_pair_score(trained_model=None, file="", pairs=[], maxlen=1000, w_siz
 
 #==================================================================
 #loading training for pair of post
-def load_pairs_data(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=None, vocabs=None, emb_size=300):
+def load_edge_pairs_data(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=None, vocabs=None, emb_size=300):
     # loading entiry-grid data for each pair of post in a thread
     list_of_files = [line.rstrip('\n') for line in open(filelist)]
         
     sentences_0 = []
     sentences_1 = []
+    dists = []
 
     for file in list_of_files:
         #print "-------------------------------"
         #print file
+        
         postIDs = [line.rstrip('\n') for line in open(file + ".commentIDs")]
         postIDs = [int(i) for i in postIDs]         
         o_pairs, p_pairs, nPost = get_original_and_permuted_pairs(file)
@@ -324,15 +312,15 @@ def load_pairs_data(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=None,
         lines = [line.rstrip('\n') for line in open(file + ".EGrid")]  # Entity grid tranmistion 
 
         for p in o_pairs:
+
             sentIDs = [i for i,j in enumerate(postIDs) if str(j) in p.split('.')]
             grid_1 = "0 "* w_size
             for e_trans in lines:
                 x= get_entity_tran(e_trans,sentIDs)
-                if len(x) !=0:
-                    #print e_trans
-                    grid_1 += x + " " + "0 "* w_size
-                    #print x
 
+                if len(x) !=0:
+                    grid_1 += x + " " + "0 "* w_size
+                    
 
             neg_pairs = get_pemuted_pairs(p,p_pairs)
             if len(neg_pairs) == 0:
@@ -352,7 +340,13 @@ def load_pairs_data(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=None,
                         sentences_0.append(grid_0)
                         sentences_1.append(grid_1) 
 
+                        def compute_edge_dist(edge1,edge2):
+                            return int(edge1[2]) - int(edge2[2])
+                        dists.append(1) # using not use any discatnce for pelanize now
+
+
     assert len(sentences_0) == len(sentences_1)
+    assert len(dists) == len(sentences_1)
 
     vocab_idmap = {}
     for i in range(len(vocabs)):
@@ -368,7 +362,9 @@ def load_pairs_data(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=None,
     X_1 = sequence.pad_sequences(X_1, maxlen)
     X_0 = sequence.pad_sequences(X_0, maxlen)
 
-    return X_1, X_0
+    dists = np.array(dists, dtype='int32').ravel()
+
+    return X_1, X_0, dists
 
 
 def get_pemuted_pairs(pair,p_pairs):
@@ -378,7 +374,6 @@ def get_pemuted_pairs(pair,p_pairs):
         if parent == p.split('.')[0]:
             res.append(p) 
     return res
-
 
 def get_entity_tran(e_trans,sentIDs):
     x = e_trans.split()
@@ -407,19 +402,46 @@ def get_original_and_permuted_pairs(file): # get every pair from a thread
         for i in range(0,n-1):
             o_pairs.append(branch[i] + "." +  branch[i+1])
             tmp = int(branch[i+1])
-
             if tmp > nPost:
                 nPost = tmp
 
-    o_pairs = list(set(o_pairs))
+    o_pairs = sorted(list(set(o_pairs)))
 
     all_pairs = []
     for i in range(1,nPost):
         all_pairs += [str(i)+ "." +str(j) for j in range(i+1,nPost+1) ]
 
-    p_pairs = [i for i in all_pairs if i not in o_pairs]
+    p_pairs = sorted([i for i in all_pairs if i not in o_pairs])
 
     return o_pairs, p_pairs, nPost
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #=====================================================================================
 

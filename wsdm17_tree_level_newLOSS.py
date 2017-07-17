@@ -94,13 +94,13 @@ if __name__ == '__main__':
 
     print("loading entity-gird for pos and neg documents...")
     X_train_1, X_train_0, train_dist  = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.train_tmp", 
-            perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
+            perm_num = opts.p_num, maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size, fn=fn)
 
     X_dev_1, X_dev_0, dev_dist     = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
-            perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
+            perm_num = opts.p_num, maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size, fn=fn)
 
     X_test_1, X_test_0 , test_dist    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.test_tmp", 
-            perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
+            perm_num = 20, maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)
     num_dev   = len(X_dev_1)

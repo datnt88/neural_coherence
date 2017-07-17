@@ -20,6 +20,16 @@ import sys
 def my_format(x):
     return str("{0:.4f}".format(x))
 
+def ranking_loss_with_penalty(y_true, y_pred):
+    pos = y_pred[:,0]
+    neg = y_pred[:,1]
+    dist = y_pred[:,2]
+
+    #loss = -K.sigmoid(pos-neg) # use 
+    loss = K.maximum(dist + neg - pos, 0.0) #if you want to use margin ranking loss
+    return K.mean(loss) + 0 * y_true
+
+
 def ranking_loss(y_true, y_pred):
     pos = y_pred[:,0]
     neg = y_pred[:,1]
@@ -40,7 +50,7 @@ def compute_score(trained_model=None, file="", tree=[], maxlen=1000, w_size=5, v
     sentDepths = level_dict.values()
     #print sentDepths
 
-    X, dist = cnet_helper.load_one_tree_only(file=file, sent_levels=sentDepths, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size, fn=None)
+    X, dist = cnet_helper.load_one_tree_only(file=file, sent_levels=sentDepths, maxlen=maxlen, w_size=w_size, vocabs=vocab, emb_size=emb_size, fn=None)
     y_pred = trained_model.predict([X, X, dist])
     
     return y_pred[0][0]

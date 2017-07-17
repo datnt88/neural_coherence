@@ -16,11 +16,16 @@ import optparse
 import sys
 
 
-def ranking_loss(y_true, y_pred):
+
+
+def ranking_loss_with_penalty(y_true, y_pred):
+
     pos = y_pred[:,0]
     neg = y_pred[:,1]
+    dist = y_pred[:,2]
+
     #loss = -K.sigmoid(pos-neg) # use 
-    loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
+    loss = K.maximum(dist + neg - pos, 0.0) #if you want to use margin ranking loss
     return K.mean(loss) + 0 * y_true
 
 
@@ -53,16 +58,16 @@ if __name__ == '__main__':
 
         data_dir        = "./final_data/"
         ,log_file       = "log"
-        ,model_dir      = "./wsdm17/"
+        ,model_dir      = "./Edge.M.p5_s_cnet.New_LOSS/"
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
-        ,minibatch_size = 64
+        ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 10000
+        ,maxlen         = 14000
         ,epochs         = 30
-        ,emb_size       = 50
+        ,emb_size       = 100
         ,hidden_size    = 250
         ,nb_filter      = 150
         ,w_size         = 5 
@@ -72,28 +77,30 @@ if __name__ == '__main__':
     )
 
     opts,args = parser.parse_args(sys.argv)
+    #print(opts.f_list)
+    fn = []
+    if opts.f_list !="":  #stupid arge parsing, do it latter
+        for i in opts.f_list.split("."):
+            fn.append(int(i))
+    else:
+        fn = None
+
+    #fn = range(0,10) #using feature
+    opts,args = parser.parse_args(sys.argv)
     print('Loading vocabs for the whole dataset...')
     vocabs, E = cnet_helper.init_vocab(opts.emb_size)
     #print vocab
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0 = cnet_helper.load_edge_pairs("final_data/CNET/x_cnet.train", 
+    X_train_1, X_train_0, train_dist  = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.train_tmp", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
 
-    print("loading train data done...")
-    X_dev_1, X_dev_0  = cnet_helper.load_edge_pairs_data("final_data/CNET/x_cnet.dev", 
+    X_dev_1, X_dev_0, dev_dist     = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.dev_tmp", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
-    print("loading dev data done...")
 
-    X_test_1, X_test_0  = cnet_helper.load_pairs_data("final_data/CNET/x_cnet.test", 
+    X_test_1, X_test_0 , test_dist    = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.test_tmp", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
-    print("loading test data done...")
-
-    #print test_f_tracks
-    #get embedinga
-
-
 
     num_train = len(X_train_1)
     num_dev   = len(X_dev_1)
@@ -107,7 +114,8 @@ if __name__ == '__main__':
     print("Num of traing pairs: " + str(num_train))
     print("Num of dev pairs: " + str(num_dev))
     print("Num of test pairs: " + str(num_test))
-    print("Maximum length in CNN: " + str(opts.maxlen))
+    #print("Num of permutation in train: " + str(opts.p_num)) 
+    print("The maximum in length for CNN: " + str(opts.maxlen))
     print('.....................................')
 
     # the output is always 1??????
@@ -120,7 +128,8 @@ if __name__ == '__main__':
     np.random.shuffle(X_train_1)
     np.random.seed(113)
     np.random.shuffle(X_train_0)
-
+    np.random.seed(113)
+    np.random.shuffle(train_dist)
 
     # first, define a CNN model for sequence of entities 
     sent_input = Input(shape=(opts.maxlen,), dtype='int32', name='sent_input')
@@ -152,20 +161,22 @@ if __name__ == '__main__':
     # these two models will share eveything from shared_cnn
     pos_branch = shared_cnn(pos_input)
     neg_branch = shared_cnn(neg_input)
+    
+    dist_input  = Input(name='dist_input', shape=(1,) , dtype='int32')
 
-    concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out")
+    concatenated = merge([pos_branch, neg_branch, dist_input], mode='concat',name="coherence_out")
     # output is two latent coherence score
 
-    final_model = Model([pos_input, neg_input], concatenated)
+    final_model = Model([pos_input, neg_input, dist_input], concatenated)
 
     #final_model.compile(loss='ranking_loss', optimizer='adam')
-    final_model.compile(loss={'coherence_out': ranking_loss}, optimizer=opts.learn_alg)
+    final_model.compile(loss={'coherence_out': ranking_loss_with_penalty}, optimizer=opts.learn_alg)
 
     # setting callback
     histories = my_callbacks.Histories()
 
-    print(shared_cnn.summary())
-    #print(final_model.summary())
+    #print(shared_cnn.summary())
+    print(final_model.summary())
 
     print("------------------------------------------------")	
     
@@ -177,7 +188,7 @@ if __name__ == '__main__':
         ff = "None"
         m_type = "CNN_"
 
-    model_name = opts.model_dir + m_type + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
+    model_name = opts.model_dir + m_type +  str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
     + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + ff  
     print("Model name: " + model_name)
 
@@ -186,7 +197,7 @@ if __name__ == '__main__':
     patience = 0 
     for ep in range(1,opts.epochs):
         
-        final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
+        final_model.fit([X_train_1, X_train_0, train_dist], y_train_1, validation_data=([X_dev_1, X_dev_0, dev_dist], y_dev_1), nb_epoch=1,
  					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
 
         final_model.save(model_name + "_ep." + str(ep) + ".h5")
@@ -195,22 +206,20 @@ if __name__ == '__main__':
         if curAcc >= bestAcc:
             bestAcc = curAcc
             patience = 0
-    
         else:
             patience = patience + 1
 
         #doing classify the test set
-        y_pred = final_model.predict([X_test_1, X_test_0])  
+        y_pred = final_model.predict([X_test_1, X_test_0, test_dist])        
         ties = 0
         wins = 0
-
         n = len(y_pred)
         for i in range(0,n):
             if y_pred[i][0] > y_pred[i][1]:
                 wins = wins + 1
             elif y_pred[i][0] == y_pred[i][1]:
                 ties = ties + 1
-        
+
         print("Perform on test set after Epoch: " + str(ep) + "...!")    
         print(" -Wins: " + str(wins) + " Ties: "  + str(ties))
         loss = n - (wins+ties)
@@ -222,7 +231,7 @@ if __name__ == '__main__':
         #print(" -Test f1 : " + str(f1))
 
         #stop the model whch patience = 8
-        if patience > 5:
+        if patience > 10:
             print("Early stopping at epoch: "+ str(ep))
             break
 
