@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
         ,maxlen         = 14000
         ,epochs         = 30
-        ,emb_size       = 100
+        ,emb_size       = 50
         ,hidden_size    = 250
         ,nb_filter      = 150
         ,w_size         = 5 
