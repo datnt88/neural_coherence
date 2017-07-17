@@ -56,14 +56,14 @@ if __name__ == '__main__':
 
         data_dir        = "./final_data/"
         ,log_file       = "log"
-        ,model_dir      = "./saved_models/"
+        ,model_dir      = "./M.p5_s_cnet/"
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
         ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 10000
+        ,maxlen         = 14000
         ,epochs         = 30
         ,emb_size       = 100
         ,hidden_size    = 250
@@ -91,7 +91,7 @@ if __name__ == '__main__':
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, train_dist = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
+    X_train_1, X_train_0, train_dist = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.train_tmp", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
     X_dev_1, X_dev_0, dev_dist    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
