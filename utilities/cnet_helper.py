@@ -79,6 +79,7 @@ def compute_tree_edit_dist(tree1, tree2):
         n2 = edge[1]
         tree2_nodes[n1].addkid(tree2_nodes[n2])
     
+    #print simple_distance(tree11,tree22)
     return simple_distance(tree11,tree22)
 
 
