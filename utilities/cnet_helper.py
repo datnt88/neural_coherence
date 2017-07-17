@@ -259,7 +259,8 @@ def get_tree_struct(cmtIDs=[],tree=[]):
 # this part for compute local coherence model
 # consider coherence at edge level
 #===================================================================
-def compute_pair_score(trained_model=None, file="", pairs=[], maxlen=1000, w_size=5, vocabs=[], emb_size=50):
+
+def load_one_edge_only(file="", pairs=[], maxlen=1000, w_size=5, vocabs=[], emb_size=50):
 
     postIDs = [line.rstrip('\n') for line in open(file + ".commentIDs")]
     postIDs = [int(i) for i in postIDs]         
@@ -286,9 +287,10 @@ def compute_pair_score(trained_model=None, file="", pairs=[], maxlen=1000, w_siz
     X_1 = adjust_index(X_1, maxlen=maxlen, window_size=w_size)
     X_1 = sequence.pad_sequences(X_1, maxlen)
     
-    y_pred = trained_model.predict([X_1, X_1])  
+    #need to return edit distance
+    dists = np.array([0], dtype='int32').ravel()
 
-    return y_pred[0][0]
+    return X_1, dists
 
 #==================================================================
 #loading training for pair of post

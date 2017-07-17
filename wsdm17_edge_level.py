@@ -65,7 +65,7 @@ if __name__ == '__main__':
         ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 10000
+        ,maxlen         = 2000
         ,epochs         = 30
         ,emb_size       = 100
         ,hidden_size    = 250
@@ -93,13 +93,13 @@ if __name__ == '__main__':
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, train_dist  = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.train_tmp", 
+    X_train_1, X_train_0, train_dist  = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.X", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
 
-    X_dev_1, X_dev_0, dev_dist     = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.dev_tmp", 
+    X_dev_1, X_dev_0, dev_dist     = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.X", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
 
-    X_test_1, X_test_0 , test_dist    = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.test_tmp", 
+    X_test_1, X_test_0 , test_dist    = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.X", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
 
     num_train = len(X_train_1)
@@ -188,8 +188,10 @@ if __name__ == '__main__':
         ff = "None"
         m_type = "CNN_"
 
-    model_name = opts.model_dir + m_type +  str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
+     model_name = opts.model_dir + m_type +  str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
     + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + ff  
+   
+
     print("Model name: " + model_name)
 
     print("Training model...")
