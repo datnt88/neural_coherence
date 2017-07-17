@@ -17,8 +17,11 @@ import sys
 
 
 def ranking_loss(y_true, y_pred):
+    #ranking_loss without tree distance
     pos = y_pred[:,0]
     neg = y_pred[:,1]
+    dist = y_pred[:,2]
+
     #loss = -K.sigmoid(pos-neg) # use 
     loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
     return K.mean(loss) + 0 * y_true
@@ -88,13 +91,13 @@ if __name__ == '__main__':
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0 = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
+    X_train_1, X_train_0, train_dis = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
-    X_dev_1, X_dev_0    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
+    X_dev_1, X_dev_0, dev_dis    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.dev_tmp", 
             perm_num = opts.p_num, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
-    X_test_1, X_test_0    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.test_tmp", 
+    X_test_1, X_test_0, test_dis    = cnet_helper.load_tree_pairs("final_data/CNET/p5_s_cnet.test_tmp", 
             perm_num = 20, maxlen=opts.maxlen, window_size=opts.w_size, vocab_list=vocabs, emb_size=opts.emb_size, fn=fn)
 
     num_train = len(X_train_1)

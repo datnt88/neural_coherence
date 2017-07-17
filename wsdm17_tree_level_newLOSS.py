@@ -18,7 +18,7 @@ import sys
 
 
 
-def ranking_loss(y_true, y_pred):
+def ranking_loss_with_penalty(y_true, y_pred):
 
     pos = y_pred[:,0]
     neg = y_pred[:,1]
@@ -169,7 +169,7 @@ if __name__ == '__main__':
     final_model = Model([pos_input, neg_input, dist_input], concatenated)
 
     #final_model.compile(loss='ranking_loss', optimizer='adam')
-    final_model.compile(loss={'coherence_out': ranking_loss}, optimizer=opts.learn_alg)
+    final_model.compile(loss={'coherence_out': ranking_loss_with_penalty}, optimizer=opts.learn_alg)
 
     # setting callback
     histories = my_callbacks.Histories()
@@ -196,7 +196,7 @@ if __name__ == '__main__':
     patience = 0 
     for ep in range(1,opts.epochs):
         
-        final_model.fit([X_train_1, X_train_0, train_dis], y_train_1, validation_data=([X_dev_1, X_dev_0, dev_dis], y_dev_1), nb_epoch=1,
+        final_model.fit([X_train_1, X_train_0, train_dist], y_train_1, validation_data=([X_dev_1, X_dev_0, dev_dist], y_dev_1), nb_epoch=1,
  					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
 
         final_model.save(model_name + "_ep." + str(ep) + ".h5")
@@ -209,7 +209,7 @@ if __name__ == '__main__':
             patience = patience + 1
 
         #doing classify the test set
-        y_pred = final_model.predict([X_test_1, X_test_0, test_dis])        
+        y_pred = final_model.predict([X_test_1, X_test_0, test_dist])        
         ties = 0
         wins = 0
         n = len(y_pred)

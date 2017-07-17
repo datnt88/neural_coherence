@@ -134,8 +134,8 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
     max_l = 0
 
     for file in list_of_files:  
-        print "---------------------------------------"
-        print file
+        #print "---------------------------------------"
+        #print file
     
         cmtIDs  = [line.rstrip('\n') for line in open(file + ".commentIDs")]
         cmtIDs = [int(i) for i in cmtIDs] 
@@ -159,7 +159,7 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
 
         #loading possible tree
         nPost = max(cmtIDs02)
-        print nPost
+        #print nPost
 
         p_trees = gen_trees.gen_tree_branches(n=nPost)
         
@@ -200,23 +200,15 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
 
     # Numberize the sentences
     X_1 = numberize_sentences(sentences_1, vocab_idmap)
-    X_0  = numberize_sentences(sentences_0,  vocab_idmap)
-    
-    
+    X_0  = numberize_sentences(sentences_0,  vocab_idmap)    
 
     X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
     X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=window_size)
 
     X_1 = sequence.pad_sequences(X_1, maxlen)
     X_0 = sequence.pad_sequences(X_0, maxlen)
-
     
     dists = np.array(dists, dtype='int32').ravel()
-
-    #print type(distances)
-    #print distances.shape
-    #print X_1.shape
-    
 
     return X_1, X_0 , dists
 
