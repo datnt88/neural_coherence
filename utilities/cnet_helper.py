@@ -113,7 +113,7 @@ def load_one_tree_only(file="", sent_levels=[], maxlen=15000, w_size=2, vocabs=N
 
 #load tree pair to train the tree level model
 def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, w_size=3, E=None, vocabs=None, emb_size=300, fn=None):
-    if vocab_list is None:
+    if vocabs is None:
         print("Please input vocab list")
         return None
 
@@ -141,11 +141,11 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, w_
         sentDepths = get_sentences_depth(cmtIDs=cmtIDs,tree=org_tree) #load sentence depths
         lines = [line.rstrip('\n') for line in open(file + ".EGrid")] #load entity grid
         
-        grid_1 = "0 "* window_size
+        grid_1 = "0 "* w_size
         for idx, line in enumerate(lines):
             e_trans = get_eTrans_with_Tree_Structure(sent=line, sent_levels=sentDepths) # merge the grid of positive document 
             if len(e_trans) !=0:
-                grid_1 = grid_1 + e_trans + " " + "0 "* window_size
+                grid_1 = grid_1 + e_trans + " " + "0 "* w_size
 
         #loading possible tree
         nPost = max(cmtIDs02)
@@ -158,11 +158,11 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, w_
             #print p_tree
             #print p_sentDepths
 
-            grid_0 = "0 "* window_size
+            grid_0 = "0 "* w_size
             for idx, line in enumerate(lines):
                 e_trans_0 = get_eTrans_with_Tree_Structure(sent=line, sent_levels=p_sentDepths)
                 if len(e_trans_0) !=0:
-                    grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
+                    grid_0 = grid_0 + e_trans_0  + " " + "0 "* w_size
             
             if grid_0 != grid_1: #check the duplication
                 #addding more pos/neg data        
@@ -181,15 +181,15 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, w_
     assert len(dists) == len(sentences_1)
 
     vocab_idmap = {}
-    for i in range(len(vocab_list)):
-        vocab_idmap[vocab_list[i]] = i
+    for i in range(len(vocabs)):
+        vocab_idmap[vocabs[i]] = i
 
     # Numberize the sentences
     X_1 = numberize_sentences(sentences_1, vocab_idmap)
     X_0  = numberize_sentences(sentences_0,  vocab_idmap)    
 
-    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
-    X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=window_size)
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=w_size)
+    X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=w_size)
 
     X_1 = sequence.pad_sequences(X_1, maxlen)
     X_0 = sequence.pad_sequences(X_0, maxlen)
