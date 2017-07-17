@@ -16,8 +16,6 @@ import optparse
 import sys
 
 
-
-
 def ranking_loss(y_true, y_pred):
     #ranking_loss without tree distance
     pos = y_pred[:,0]

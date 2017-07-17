@@ -305,38 +305,34 @@ def load_edge_pairs_data(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=
 
     for file in list_of_files:
         #print "-------------------------------"
-        #print file
-        
+        #print file        
         postIDs = [line.rstrip('\n') for line in open(file + ".commentIDs")]
         postIDs = [int(i) for i in postIDs]         
         o_pairs, p_pairs, nPost = get_original_and_permuted_pairs(file)
+
+        #print postIDs
+        #print o_pairs
+        #print p_pairs
 
         #loading additional data
         lines = [line.rstrip('\n') for line in open(file + ".EGrid")]  # Entity grid tranmistion 
 
         for p in o_pairs:
-
-            sentIDs = [i for i,j in enumerate(postIDs) if str(j) in p.split('.')]
             grid_1 = "0 "* w_size
             for e_trans in lines:
-                x= get_entity_tran(e_trans,sentIDs)
-
+                x= get_entity_trans(e_trans,postIDs,p)
                 if len(x) !=0:
                     grid_1 += x + " " + "0 "* w_size
                     
-
             neg_pairs = get_pemuted_pairs(p,p_pairs)
             if len(neg_pairs) == 0:
                 continue
             else: 
                 for neg_p in neg_pairs:
-                    sentIDs = [i for i,j in enumerate(postIDs) if str(j) in neg_p.split('.')]
                     grid_0 = "0 "* w_size
-
                     for e_trans in lines: #get trainsition for permutead papr
-                        x= get_entity_tran(e_trans,sentIDs)
+                        x = get_entity_trans(e_trans,postIDs, neg_p)
                         if len(x) !=0:
-                        #print e_trans
                             grid_0 += x + " " + "0 "* w_size
                     
                     if grid_0 !=grid_1:
@@ -378,20 +374,38 @@ def get_pemuted_pairs(pair,p_pairs):
             res.append(p) 
     return res
 
-def get_entity_tran(e_trans,sentIDs):
+
+
+def get_entity_trans(e_trans,postIDs,p):
+    #consider entity just appears in the parent    
+    p1_sentIDs = [i for i,j in enumerate(postIDs) if str(j) == p[0]]
+    p2_sentIDs = [i for i,j in enumerate(postIDs) if str(j) == p[2]]
+
     x = e_trans.split()
     x = x[1:]
     
-    length = len(x)
-    e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
-    if length > 80:
-        if e_occur < 3:
-            return ""
-    elif length > 20:
-        if e_occur < 2:
-            return ""
+    e_p1 = [x[i] for i in p1_sentIDs]
+    e_p2 = [x[i] for i in p2_sentIDs]
+    
+    e_occur = e_p1.count('X') + e_p1.count('S') + e_p1.count('O') #counting occurent in parent post
+    #print e_occur
 
-    return ' '.join([x[i] for i in sentIDs])
+    if e_occur > 0:
+        return ' '.join(e_p1 + e_p2)
+
+    return ""
+
+    #length = len(x)
+    #e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
+    #if length > 80:
+    #    if e_occur < 3:
+    #        return ""
+    #elif length > 20:
+    #    if e_occur < 2:
+    #        return ""
+
+    #return ' '.join([x[i] for i in sentIDs])
+
 
 
 def get_original_and_permuted_pairs(file): # get every pair from a thread
