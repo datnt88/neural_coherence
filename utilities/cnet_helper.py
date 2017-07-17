@@ -116,8 +116,11 @@ def load_one_tree_only(file="", sent_levels=[], maxlen=15000, window_size=2, voc
     X_1 = numberize_sentences(sentences_1, vocab_idmap)
     X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
     X_1 = sequence.pad_sequences(X_1, maxlen)
-    
-    return X_1
+
+    #need to return edit distance
+    dists = np.array([0], dtype='int32').ravel()
+
+    return X_1, dists
 
 
 #load tree pair to train the tree level model

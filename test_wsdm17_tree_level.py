@@ -40,8 +40,8 @@ def compute_score(trained_model=None, file="", tree=[], maxlen=1000, w_size=5, v
     sentDepths = level_dict.values()
     #print sentDepths
 
-    X = cnet_helper.load_one_tree_only(file=file, sent_levels=sentDepths, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size, fn=None)
-    y_pred = trained_model.predict([X, X])
+    X, dist = cnet_helper.load_one_tree_only(file=file, sent_levels=sentDepths, maxlen=maxlen, window_size=w_size, vocab_list=vocab, emb_size=emb_size, fn=None)
+    y_pred = trained_model.predict([X, X, dist])
     
     return y_pred[0][0]
     
@@ -82,14 +82,17 @@ for file in list_of_files:
     #get original tree
     x_tree = [line.rstrip('\n') for line in open(file + ".orgTree")]
     org_tree = []
+    cmtIDs02 = []
+
     for i in x_tree:
         org_tree += [''.join(i.split("."))]
+        cmtIDs02 += [int(j) for j in i.split(".")]
 
     gold_score = compute_score(trained_model=final_model, file=file, tree=org_tree, maxlen=maxlen, w_size=w_size, vocab=vocabs, emb_size=emb_size)
 
     #working which candidate trees
     # sepcial for tree with have more than 4 coments
-    nCmt = max([int(i) for i in list(''.join(org_tree))])
+    nCmt = max(cmtIDs02)
     max_score = -10E10
     best_tree = []
     
@@ -98,10 +101,10 @@ for file in list_of_files:
     #p_trees = gen_trees.get_top_possible_trees(file=file)
 
     for p_tree in p_trees:
-            #print p_tree
+        #print p_tree
         p_score = compute_score(trained_model=final_model, file=file, tree=p_tree, maxlen=maxlen, w_size=w_size, vocab=vocabs, emb_size=emb_size)
 
-        print "\tp-score: " + my_format(p_score)  + "\tTree: " + str(p_tree)
+        print "\tp-score: " + my_format(p_score)  + " \tTree: " + str(p_tree)
         if p_score > max_score:
             max_score = p_score
             best_tree = p_tree
@@ -131,6 +134,7 @@ for file in list_of_files:
 
 k = len(list_of_files)
 
+print "--------------------------------------------"
 print "Acc Tree: " + str(count)
 print "X count : " + str(x_count)
 print "Acc edge: " , acc_edge/k 
