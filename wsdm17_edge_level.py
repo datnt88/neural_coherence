@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
         data_dir        = "./final_data/"
         ,log_file       = "log"
-        ,model_dir      = "./Edge.M.p5_s_cnet.New_LOSS/"
+        ,model_dir      = "./Edge.M.p5_s_cnet/"
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
