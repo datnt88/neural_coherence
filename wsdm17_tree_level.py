@@ -189,6 +189,7 @@ if __name__ == '__main__':
 
     model_name = opts.model_dir + m_type +  str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
     + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + ff  
+    
     print("Model name: " + model_name)
 
     print("Training model...")

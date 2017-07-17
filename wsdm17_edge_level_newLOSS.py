@@ -10,7 +10,7 @@ from keras import backend as K
 
 
 import numpy as np
-from utilities import my_callbacks_00
+from utilities import my_callbacks
 from utilities import cnet_helper
 import optparse
 import sys
@@ -18,14 +18,17 @@ import sys
 
 
 
-def ranking_loss(y_true, y_pred):
-    #ranking_loss without tree distance
+def ranking_loss_with_penalty(y_true, y_pred):
+
     pos = y_pred[:,0]
     neg = y_pred[:,1]
-    
+    dist = y_pred[:,2]
+
     #loss = -K.sigmoid(pos-neg) # use 
-    loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
+    loss = K.maximum(dist + neg - pos, 0.0) #if you want to use margin ranking loss
     return K.mean(loss) + 0 * y_true
+
+
 
 
 if __name__ == '__main__':
@@ -64,7 +67,7 @@ if __name__ == '__main__':
         ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 14000
+        ,maxlen         = 2000
         ,epochs         = 30
         ,emb_size       = 100
         ,hidden_size    = 250
@@ -92,13 +95,13 @@ if __name__ == '__main__':
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, train_dist  = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.train_tmp", 
+    X_train_1, X_train_0, train_dist  = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.X", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
 
-    X_dev_1, X_dev_0, dev_dist     = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.dev_tmp", 
+    X_dev_1, X_dev_0, dev_dist     = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.X", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
 
-    X_test_1, X_test_0 , test_dist    = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.test_tmp", 
+    X_test_1, X_test_0 , test_dist    = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.X", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
 
     num_train = len(X_train_1)
@@ -161,16 +164,18 @@ if __name__ == '__main__':
     pos_branch = shared_cnn(pos_input)
     neg_branch = shared_cnn(neg_input)
     
-    concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out")
+    dist_input  = Input(name='dist_input', shape=(1,) , dtype='int32')
+
+    concatenated = merge([pos_branch, neg_branch, dist_input], mode='concat',name="coherence_out")
     # output is two latent coherence score
 
-    final_model = Model([pos_input, neg_input], concatenated)
+    final_model = Model([pos_input, neg_input, dist_input], concatenated)
 
     #final_model.compile(loss='ranking_loss', optimizer='adam')
-    final_model.compile(loss={'coherence_out': ranking_loss}, optimizer=opts.learn_alg)
+    final_model.compile(loss={'coherence_out': ranking_loss_with_penalty}, optimizer=opts.learn_alg)
 
     # setting callback
-    histories = my_callbacks_00.Histories()
+    histories = my_callbacks.Histories()
 
     #print(shared_cnn.summary())
     print(final_model.summary())
@@ -195,7 +200,7 @@ if __name__ == '__main__':
     patience = 0 
     for ep in range(1,opts.epochs):
         
-        final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
+        final_model.fit([X_train_1, X_train_0, train_dist], y_train_1, validation_data=([X_dev_1, X_dev_0, dev_dist], y_dev_1), nb_epoch=1,
  					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
 
         final_model.save(model_name + "_ep." + str(ep) + ".h5")
@@ -208,7 +213,7 @@ if __name__ == '__main__':
             patience = patience + 1
 
         #doing classify the test set
-        y_pred = final_model.predict([X_test_1, X_test_0])        
+        y_pred = final_model.predict([X_test_1, X_test_0, test_dist])        
         ties = 0
         wins = 0
         n = len(y_pred)
