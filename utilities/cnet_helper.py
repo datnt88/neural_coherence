@@ -141,7 +141,7 @@ def load_tree_pairs(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, wi
         cmtIDs = [int(i) for i in cmtIDs] 
         x_tree = [line.rstrip('\n') for line in open(file + ".orgTree")]
         org_tree = []
-        print x_tree
+        #print x_tree
 
         cmtIDs02 = []
         for i in x_tree:
