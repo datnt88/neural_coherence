@@ -31,7 +31,7 @@ def ranking_loss_with_penalty(y_true, y_pred):
 def compute_best_tree(trained_model=None, file="", maxlen=1000, w_size=5, vocabs=[], emb_size=50):
 
     #get original tree 
-    o_pairs, p_pairs, nPost = cnet_helper.get_original_and_permuted_pairs(file) 
+    o_pairs, p_pairs, nPost = cnet_helper.get_original_and_uncoherent_pairs(file) 
 
     best_pairs = []
 

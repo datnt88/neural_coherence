@@ -328,11 +328,7 @@ def load_edge_pairs_data(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=
                 if len(x2) !=0:
                     ch_grid_1 += x2 + " " + "0 "* w_size
                 
-
-
-
             same_parent, same_child  = get_uncoherent_pairs(p,p_pairs) # get neg pair for corrent pair
-
             #print p, " - ", same_parent, same_child 
 
             if len(same_parent) > 0:
@@ -368,8 +364,6 @@ def load_edge_pairs_data(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=
                         def compute_edge_dist(edge1,edge2):
                             return int(edge1[2]) - int(edge2[2])
                         dists.append(1) # using not use any discatnce for pelanize now
-
-
 
     assert len(sentences_0) == len(sentences_1)
     assert len(dists) == len(sentences_1)
