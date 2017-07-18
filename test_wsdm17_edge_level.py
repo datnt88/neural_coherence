@@ -44,7 +44,7 @@ def compute_best_tree(trained_model=None, file="", maxlen=1000, w_size=5, vocabs
         best_prev = 1
 
         for pre in pre_posts:
-            X, dist = cnet_helper.load_one_edge_only(file=file, pairs=[i,pre], maxlen=maxlen, 
+            X, dist = cnet_helper.load_one_edge_only(file=file, pair=str(pre) + "." + str(i), maxlen=maxlen, 
                 w_size=w_size, vocabs=vocabs, emb_size=emb_size)
             
             y_pred = trained_model.predict([X,X,dist])

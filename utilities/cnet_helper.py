@@ -261,21 +261,20 @@ def get_tree_struct(cmtIDs=[],tree=[]):
 # consider coherence at edge level
 #===================================================================
 
-def load_one_edge_only(file="", pairs=[], maxlen=1000, w_size=5, vocabs=[], emb_size=50):
+def load_one_edge_only(file="", pair="", maxlen=1000, w_size=5, vocabs=[], emb_size=50):
+
 
     postIDs = [line.rstrip('\n') for line in open(file + ".commentIDs")]
     postIDs = [int(i) for i in postIDs]         
-
-    sentIDs = [i for i,j in enumerate(postIDs) if j in pairs]
 
     lines = [line.rstrip('\n') for line in open(file + ".EGrid")]  # Entity grid tranmistion 
 
     grid_1 = "0 "* w_size
     for e_trans in lines:
-        x= get_entity_trans(e_trans,sentIDs)
-        if len(x) !=0:
+        x1, x2 = get_entity_trans(e_trans,postIDs,pair)
+        if len(x1) !=0:
             #print e_trans
-            grid_1 += x + " " + "0 "* w_size
+            grid_1 += x1 + " " + "0 "* w_size
     
     sentences_1 = []
     sentences_1.append(grid_1) 
