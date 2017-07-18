@@ -93,10 +93,10 @@ if __name__ == '__main__':
     X_train_1, X_train_0, train_dist  = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.train_tmp", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
 
-    X_dev_1, X_dev_0, dev_dist     = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.dev_tmp", 
+    X_dev_1, X_dev_0, dev_dist     = cnet_helper.load_edge_pairs_data_OLD("final_data/CNET/p5_s_cnet.dev_tmp", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
 
-    X_test_1, X_test_0 , test_dist    = cnet_helper.load_edge_pairs_data("final_data/CNET/p5_s_cnet.test_tmp", 
+    X_test_1, X_test_0 , test_dist    = cnet_helper.load_edge_pairs_data_OLD("final_data/CNET/p5_s_cnet.test_tmp", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
 
     num_train = len(X_train_1)

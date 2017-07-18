@@ -308,7 +308,7 @@ def load_edge_pairs_data(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=
         #print file        
         postIDs = [line.rstrip('\n') for line in open(file + ".commentIDs")]
         postIDs = [int(i) for i in postIDs]         
-        o_pairs, p_pairs, nPost = get_original_and_permuted_pairs(file)
+        o_pairs, p_pairs, nPost = get_original_and_uncoherent_pairs(file)
 
         #print postIDs
         #print o_pairs
@@ -318,30 +318,57 @@ def load_edge_pairs_data(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=
         lines = [line.rstrip('\n') for line in open(file + ".EGrid")]  # Entity grid tranmistion 
 
         for p in o_pairs:
-            grid_1 = "0 "* w_size
+            pa_grid_1 = "0 "* w_size
+            ch_grid_1 = "0 "* w_size
+
             for e_trans in lines:
-                x= get_entity_trans(e_trans,postIDs,p)
-                if len(x) !=0:
-                    grid_1 += x + " " + "0 "* w_size
-                    
-            neg_pairs = get_pemuted_pairs(p,p_pairs)
-            if len(neg_pairs) == 0:
-                continue
-            else: 
-                for neg_p in neg_pairs:
+                x1, x2 = get_entity_trans(e_trans,postIDs,p)
+                if len(x1) !=0:
+                    pa_grid_1 += x1 + " " + "0 "* w_size
+                if len(x2) !=0:
+                    ch_grid_1 += x2 + " " + "0 "* w_size
+                
+
+
+
+            same_parent, same_child  = get_uncoherent_pairs(p,p_pairs) # get neg pair for corrent pair
+
+            #print p, " - ", same_parent, same_child 
+
+            if len(same_parent) > 0:
+                for neg_p in same_parent:
                     grid_0 = "0 "* w_size
+                
                     for e_trans in lines: #get trainsition for permutead papr
-                        x = get_entity_trans(e_trans,postIDs, neg_p)
-                        if len(x) !=0:
-                            grid_0 += x + " " + "0 "* w_size
+                        x1, x2 = get_entity_trans(e_trans,postIDs, neg_p)
+                        if len(x1) !=0:
+                            grid_0 += x1 + " " + "0 "* w_size
                     
-                    if grid_0 !=grid_1:
+                    if grid_0 != pa_grid_1:
                         sentences_0.append(grid_0)
-                        sentences_1.append(grid_1) 
+                        sentences_1.append(pa_grid_1) 
 
                         def compute_edge_dist(edge1,edge2):
                             return int(edge1[2]) - int(edge2[2])
                         dists.append(1) # using not use any discatnce for pelanize now
+
+            if len(same_child) > 0:
+                for neg_p in same_child:
+                    grid_0 = "0 "* w_size
+                
+                    for e_trans in lines: #get trainsition for permutead papr
+                        x1, x2 = get_entity_trans(e_trans,postIDs, neg_p)
+                        if len(x2) !=0:
+                            grid_0 += x2 + " " + "0 "* w_size
+                    
+                    if grid_0 != ch_grid_1:
+                        sentences_0.append(grid_0)
+                        sentences_1.append(ch_grid_1) 
+
+                        def compute_edge_dist(edge1,edge2):
+                            return int(edge1[2]) - int(edge2[2])
+                        dists.append(1) # using not use any discatnce for pelanize now
+
 
 
     assert len(sentences_0) == len(sentences_1)
@@ -366,15 +393,101 @@ def load_edge_pairs_data(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=
     return X_1, X_0, dists
 
 
-def get_pemuted_pairs(pair,p_pairs):
-    parent = pair.split('.')[0]
-    res = []
+#==================================================================
+#loading training for pair of post
+def load_edge_pairs_data_OLD(filelist="list_of_file.txt", maxlen=15000, w_size=3, E=None, vocabs=None, emb_size=300):
+    # loading entiry-grid data for each pair of post in a thread
+    list_of_files = [line.rstrip('\n') for line in open(filelist)]
+        
+    sentences_0 = []
+    sentences_1 = []
+    dists = []
+
+    for file in list_of_files:
+        #print "-------------------------------"
+        #print file        
+        postIDs = [line.rstrip('\n') for line in open(file + ".commentIDs")]
+        postIDs = [int(i) for i in postIDs]         
+        o_pairs, p_pairs, nPost = get_original_and_uncoherent_pairs(file)
+
+        #print postIDs
+        #print o_pairs
+        #print p_pairs
+
+        #loading additional data
+        lines = [line.rstrip('\n') for line in open(file + ".EGrid")]  # Entity grid tranmistion 
+
+        for p in o_pairs:
+            pa_grid_1 = "0 "* w_size
+            ch_grid_1 = "0 "* w_size
+
+            for e_trans in lines:
+                x1, x2 = get_entity_trans(e_trans,postIDs,p)
+                if len(x1) !=0:
+                    pa_grid_1 += x1 + " " + "0 "* w_size
+                if len(x2) !=0:
+                    ch_grid_1 += x2 + " " + "0 "* w_size
+                
+
+            same_parent, same_child  = get_uncoherent_pairs(p,p_pairs) # get neg pair for corrent pair
+
+            #print p, " - ", same_parent, same_child 
+
+            if len(same_parent) > 0:
+                for neg_p in same_parent:
+                    grid_0 = "0 "* w_size
+                
+                    for e_trans in lines: #get trainsition for permutead papr
+                        x1, x2 = get_entity_trans(e_trans,postIDs, neg_p)
+                        if len(x1) !=0:
+                            grid_0 += x1 + " " + "0 "* w_size
+                    
+                    if grid_0 != pa_grid_1:
+                        sentences_0.append(grid_0)
+                        sentences_1.append(pa_grid_1) 
+
+                        def compute_edge_dist(edge1,edge2):
+                            return int(edge1[2]) - int(edge2[2])
+                        dists.append(1) # using not use any discatnce for pelanize now
+
+    assert len(sentences_0) == len(sentences_1)
+    assert len(dists) == len(sentences_1)
+
+    vocab_idmap = {}
+    for i in range(len(vocabs)):
+        vocab_idmap[vocabs[i]] = i
+
+    # Numberize the sentences
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_0  = numberize_sentences(sentences_0,  vocab_idmap)
+    
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=w_size)
+    X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=w_size)
+
+    X_1 = sequence.pad_sequences(X_1, maxlen)
+    X_0 = sequence.pad_sequences(X_0, maxlen)
+
+    dists = np.array(dists, dtype='int32').ravel()
+
+    return X_1, X_0, dists
+
+
+
+def get_uncoherent_pairs(pair,p_pairs):
+
+    parent = pair[0]
+    child  = pair[2]
+    
+    same_parent  = []
+    same_child = []
+
     for p in p_pairs:
-        if parent == p.split('.')[0]:
-            res.append(p) 
-    return res
+        if parent == p[0]:
+            same_parent.append(p) 
+        if child == p[2]:
+            same_child.append(p) 
 
-
+    return same_parent, same_child
 
 def get_entity_trans(e_trans,postIDs,p):
     #consider entity just appears in the parent    
@@ -382,33 +495,26 @@ def get_entity_trans(e_trans,postIDs,p):
     p2_sentIDs = [i for i,j in enumerate(postIDs) if str(j) == p[2]]
 
     x = e_trans.split()
-    x = x[1:]
+    x = x[1:] # remove the first 
     
     e_p1 = [x[i] for i in p1_sentIDs]
     e_p2 = [x[i] for i in p2_sentIDs]
     
-    e_occur = e_p1.count('X') + e_p1.count('S') + e_p1.count('O') #counting occurent in parent post
-    #print e_occur
+    e_occur_p1 = e_p1.count('X') + e_p1.count('S') + e_p1.count('O') #counting occur in parent post
+    e_occur_p2 = e_p2.count('X') + e_p2.count('S') + e_p2.count('O') #counting occur in children post
 
-    if e_occur > 0:
-        return ' '.join(e_p1 + e_p2)
+    X1 = ""
+    X2 = ""
+    if e_occur_p1 > 0:
+        X1 = ' '.join(e_p1 + e_p2)
 
-    return ""
+    if e_occur_p2 > 0:
+        X2 = ' '.join(e_p1 + e_p2)
 
-    #length = len(x)
-    #e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
-    #if length > 80:
-    #    if e_occur < 3:
-    #        return ""
-    #elif length > 20:
-    #    if e_occur < 2:
-    #        return ""
+    return X1, X2
 
-    #return ' '.join([x[i] for i in sentIDs])
-
-
-
-def get_original_and_permuted_pairs(file): # get every pair from a thread
+    
+def get_original_and_uncoherent_pairs(file): # get every pair from a thread
     tree = [line.rstrip('\n') for line in open(file+".orgTree")]
     #print tree
     o_pairs = []
