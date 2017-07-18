@@ -47,7 +47,7 @@ def compute_best_tree(trained_model=None, file="", maxlen=1000, w_size=5, vocabs
             X, dist = cnet_helper.load_one_edge_only(file=file, pair=str(pre) + "." + str(i), maxlen=maxlen, 
                 w_size=w_size, vocabs=vocabs, emb_size=emb_size)
             
-            y_pred = trained_model.predict([X,X,dist])
+            y_pred = trained_model.predict([X,X])
             score = y_pred[0][0]
 
             if score > max_score:
