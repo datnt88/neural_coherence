@@ -272,7 +272,7 @@ def load_one_edge_only(file="", pairs=[], maxlen=1000, w_size=5, vocabs=[], emb_
 
     grid_1 = "0 "* w_size
     for e_trans in lines:
-        x= get_entity_tran(e_trans,sentIDs)
+        x= get_entity_trans(e_trans,sentIDs)
         if len(x) !=0:
             #print e_trans
             grid_1 += x + " " + "0 "* w_size
