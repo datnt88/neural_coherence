@@ -1,41 +1,41 @@
-1.1.1	I am trying to link up 3 of my computers to a 4-port hub.	St
-1.1.2	The first two computers are running Windows XP Home, (First, Dell, P4 2.4ghz 40gig, 300gig external, 512DDR, Second Compaq P4 1.8ghz 30gig, 256RAM).	St
-1.1.3	The other one is a bit older(AMD K6333, 30gig 128RAM), and is running Windows ME (Which I know from past experences is a pain in the butt to network).	St
-1.1.4	The problem is, network wizard on the Dell does nothing.	St
-1.1.5	I run it, restart, and suprise..... nothing has happened.	St
-1.1.6	On the Compaq I set it so that my main dial-up connection can be shared with my other two computers, but the other two computers dont even see the network to begin with!	St
-1.1.7	On the windows ME computer I truely dont know where to start...	St
-1.1.8	I got some advice from a friend who told me to dump the hub and get a Switch (I belive thats what its called) He said that it would be alot easier.	St
-1.1.9	Would that help?	St
-1.1.10	I'm kinda at the end of a burning rope here.	St
-1.1.11	ANY help would be good help.	St
-1.1.12	Thanks!	St
-1.2.1	Most home networking problems can be boiled down to a few things: 1) Bad hardware: including a defective hub/NIC/cable.	St
-1.2.2	If the lights on the hub/NICs are lit then the hardware is likely good 2) Incorrect software settings: a) Workgroup names are different, should be the same.	St
-1.2.3	b) File and print sharing is not enabled (more likely with ME then XP).	St
-1.2.4	c) XP built in firewall or some other firewall is enabled (likely).	St
-1.2.5	Note: switches are better then hubs, give up the make and model of such to verify that's what you have.	St
-1.3.1	All one needs to know is buried at http://www.wown.com and http://www.practicallynetworked.com .	St
-1.3.2	But worthy of note is that the top two items I see cause instant setup woes is a firewall (XP has ICF which people have difficulty locating to turn off) and others load a firewall before they get their network up.	St
-1.3.3	As to switch/hub, both would work.	St
-1.3.4	However, neither would be how to share an internet connection via a DSL/Cable modem... Bob	Ques
-1.4.1	The hub will be fine until you get a dsl or cable internet connection.	St
-1.4.2	The other computers won't be able to use the internet unless the Compaq is connected.	St
-1.4.3	Make sure the NIC's are on and are connected to the hub.	St
-1.4.4	Check your network settings on each PC.	St
-1.4.5	&quot;File and Print Sharing&quot; must be selected.	St
-1.4.6	&quot;TCP/IP Internet Protocol&quot; must be present and selected.	St
-1.4.7	Be certain file sharing on the harddrives you want to share is activated.	St
-1.4.8	Good Luck!	St
+1.1.1	I am trying to link up 3 of my computers to a 4-port hub .	St
+1.1.2	The first two computers are running Windows XP Home , ( First , Dell , P4 2.4ghz 40gig , 300gig external , 512DDR , Second Compaq P4 1.8ghz 30gig , 256RAM ) .	St
+1.1.3	The other one is a bit older ( AMD K6333 , 30gig 128RAM ) , and is running Windows ME ( Which I know from past experences is a pain in the butt to network ) .	St
+1.1.4	The problem is , network wizard on the Dell does nothing .	St
+1.1.5	I run it , restart , and suprise ... .. nothing has happened .	St
+1.1.6	On the Compaq I set it so that my main dial-up connection can be shared with my other two computers , but the other two computers dont even see the network to begin with !	St
+1.1.7	On the windows ME computer I truely dont know where to start ...	St
+1.1.8	I got some advice from a friend who told me to dump the hub and get a Switch ( I belive thats what its called ) He said that it would be alot easier .	St
+1.1.9	Would that help ?	Ques
+1.1.10	I 'm kinda at the end of a burning rope here .	St
+1.1.11	ANY help would be good help .	St
+1.1.12	Thanks !	St
+1.2.1	Most home networking problems can be boiled down to a few things : 1 ) Bad hardware : including a defective hub/NIC/cable .	St
+1.2.2	If the lights on the hub/NICs are lit then the hardware is likely good 2 ) Incorrect software settings : a ) Workgroup names are different , should be the same .	St
+1.2.3	b ) File and print sharing is not enabled ( more likely with ME then XP ) .	St
+1.2.4	c ) XP built in firewall or some other firewall is enabled ( likely ) .	St
+1.2.5	Note : switches are better then hubs , give up the make and model of such to verify that 's what you have .	St
+1.3.1	All one needs to know is buried at http : //www.wown.com and http : //www.practicallynetworked.com .	St
+1.3.2	But worthy of note is that the top two items I see cause instant setup woes is a firewall ( XP has ICF which people have difficulty locating to turn off ) and others load a firewall before they get their network up .	St
+1.3.3	As to switch/hub , both would work .	St
+1.3.4	However , neither would be how to share an internet connection via a DSL/Cable modem ... Bob	Ques
+1.4.1	The hub will be fine until you get a dsl or cable internet connection .	St
+1.4.2	The other computers wo n't be able to use the internet unless the Compaq is connected .	St
+1.4.3	Make sure the NIC 's are on and are connected to the hub .	St
+1.4.4	Check your network settings on each PC .	St
+1.4.5	& quot ; File and Print Sharing & quot ; must be selected .	St
+1.4.6	& quot ; TCP/IP Internet Protocol & quot ; must be present and selected .	St
+1.4.7	Be certain file sharing on the harddrives you want to share is activated .	St
+1.4.8	Good Luck !	St
 1.4.9	Ciao	St
-1.5.1	Have you even networked anything before?	St
-1.5.2	You don't mention the brand of hub (and model #), whether you are trying to &quot;Internet Connection Share&quot; or if you are a dial-up or broadband/DSL subscriber.	St
-1.5.3	The switch is definitely a better choice, but a combination hub/switch is even better, and provides more flexibility, especially for a new person to networking.	St
-1.5.4	Are all your computers in the same &quot;Workgrooup&quot;?	St
-1.5.5	And do you allow them to share files, folders, and printers?	St
-1.5.6	Home networking is simple, and painless, especially if you are using ethernet cabling, and not trying to do it wirelessly, which is easier with XP Professional, but can be done by a novice with some difficulty (3 out of 10 scale).	St
-1.5.7	Get your &quot;friend&quot; to bring his idea of hub/switch or switch over and start with the two computers on XP first.	St
-1.5.8	Forget about ME until you can make to two talk/intercommunicate first.	St
-1.5.9	Good luck.	St
-1.6.1	One thing I haven't seen covered- make sure that all the NICs are set at the same speed or to auto- and if auto or 100 mips, make sure that hub can handle it.	St
-1.6.2	Other than that, the # 1 cause I have seen with hubs is that each machine has to have an IP assigned and not 'get one on it's own', as IIRC that takes a DHCP server- unless the ICS proxy handles that, followed by something as simple as not typing in 'workgroup' the same way on each.	St
+1.5.1	Have you even networked anything before ?	Ques
+1.5.2	You do n't mention the brand of hub ( and model # ) , whether you are trying to & quot ; Internet Connection Share & quot ; or if you are a dial-up or broadband/DSL subscriber .	St
+1.5.3	The switch is definitely a better choice , but a combination hub/switch is even better , and provides more flexibility , especially for a new person to networking .	St
+1.5.4	Are all your computers in the same & quot ; Workgrooup & quot ; ?	Ques
+1.5.5	And do you allow them to share files , folders , and printers ?	Ques
+1.5.6	Home networking is simple , and painless , especially if you are using ethernet cabling , and not trying to do it wirelessly , which is easier with XP Professional , but can be done by a novice with some difficulty ( 3 out of 10 scale ) .	St
+1.5.7	Get your & quot ; friend & quot ; to bring his idea of hub/switch or switch over and start with the two computers on XP first .	St
+1.5.8	Forget about ME until you can make to two talk/intercommunicate first .	St
+1.5.9	Good luck .	Polite
+1.6.1	One thing I have n't seen covered- make sure that all the NICs are set at the same speed or to auto- and if auto or 100 mips , make sure that hub can handle it .	St
+1.6.2	Other than that , the # 1 cause I have seen with hubs is that each machine has to have an IP assigned and not 'get one on it 's own ' , as IIRC that takes a DHCP server- unless the ICS proxy handles that , followed by something as simple as not typing in 'workgroup ' the same way on each .	St

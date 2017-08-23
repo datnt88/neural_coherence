@@ -1,53 +1,53 @@
-1.1.1	Hi everyone!	St
-1.1.2	So, I pulled a LED out of an old case of mine just to realize it is a p led hook up.	St
-1.1.3	Normally, I would experiment a bit.	St
-1.1.4	However, as this is my only computer at the moment I don't really want to take the chances of messing too much up hardware wise.	St
-1.1.5	Question: Could I use a 3 pin connector to hook up a + and - p led?	St
-1.1.6	Or is there a more simple way?	St
-1.1.7	Any way at all?	St
-1.1.8	Splicing wires?	St
-1.1.9	(the p led slots on my mobo are already filled) I've tried google but nothing is really pinpointing what I need to know.	St
-1.1.10	I would love to find a site that explains the current from the psu a bit.	St
-1.1.11	At the moment I really have no clue what the red/black/and yellow wires of my 3-pins mean specifically but I would love to (I am just now starting to mess with wiring.	St
-1.1.12	I normally just strayed from that).	St
-1.1.13	Thanks in advance all!	St
-1.2.1	But if you mean &quot;power&quot; LED, I'd say there's not a problem if you get the polarity mixed up.	St
-1.2.2	You've got a 50-50 chance of getting it right.	St
-1.2.3	If plug these into a circuit designed for LED use, they are current limited.	St
-1.2.4	An LED, being a diode, will block current flow in one direction and conduct in the other after reaching some voltage threshold.	St
-1.2.5	But you'd really have to try hard to damage something.	St
-1.2.6	As far as color codes and voltages, you'll want the +5v to ground.	St
-1.2.7	This will be red to black.	St
-1.2.8	Yellow is 12v.	St
-1.2.9	It would be good if you had a DVM to verify these, however.	Polite
-1.2.10	If this doesn't help, maybe you can explain what you're trying to use this LED for.	St
-1.3.1	Thanks for the response!	St
-1.3.2	Well what I have now is a LED light with the connectors being 1 + pled and 1 - LED on a green and black wire respectively.	St
-1.3.3	My problem is that the motherboard power led slots are filled.	St
-1.3.4	I'm more or less just wondering if there is another way I could still hook them up.	St
-1.3.5	Possibly with a 3-pin connector?	St
-1.3.6	Were you saying I could hook the + power led up to the red wire of a 3 pin for +5v?	St
-1.4.1	I was wondering what the LED was intended to do.	St
-1.4.2	This is why I asked if it was a &quot;power&quot; LED or some other indicator.	St
-1.4.3	I know some folks just use them for lighting effects but you didn't mention that.	St
-1.4.4	I've not heard of MB &quot;power led slots&quot; but I know of fan ports which use 3 wires...the third being for auto speed control.	St
-1.4.5	I do know how to make LEDs light up and it only needs the two lead wires and a power source and current limiter.	St
-1.4.6	The current limiter is just a resistor in series with the LED.	St
-1.4.7	You can either use an LED resistor calculator or trial and error.	St
-1.4.8	Of course an LED is polarized so only works when properly biased.	St
-1.4.9	You need to figure out which is + and - but you can also do that by just applying a very small voltage from some standard 1.5 v battery to see what orientation works.	St
-1.5.1	Awesome, I'll play around with that.	St
-1.5.2	Sorry I misunderstood you.	Polite
-1.5.3	I'm trying to use it as just a case light till I can get my other one in.	St
-1.6.1	I like to repeat Steven's ?, what is that LED suppose to do?	St
-1.6.2	I assume you have all connections already present that may go to some LED now, so any actual spare LED connection is not present, unless its not used or no place to be used.	St
-1.6.3	You can use a 9V battery to test the leads of a LED provided a connection can be made.	St
-1.6.4	I would assume you plan to use some wiring from the mtrbd.	St
-1.6.5	to attach an LED or make wiring to attach LED.	St
-1.6.6	This in turn suggests what that connection is suppose to do.	St
-1.6.7	Your mtrbd.	St
-1.6.8	manual should explain any connection provided what they do.	Sug
-1.6.9	If provided it may dwell into actual pin-to-pin what each does or its value.	St
-1.6.10	If unknown but does explain its an audio type connection, like SPIF, then look-up(google) SPIF for its standard configuration, same for USB, etc.	St
-1.6.11	Please further explain your quest as to what the final need for the LED usage.	Sug
-1.6.12	tada -----Willy	St
+1.1.1	Hi everyone !	St
+1.1.2	So , I pulled a LED out of an old case of mine just to realize it is a p led hook up .	St
+1.1.3	Normally , I would experiment a bit .	St
+1.1.4	However , as this is my only computer at the moment I do n't really want to take the chances of messing too much up hardware wise .	St
+1.1.5	Question : Could I use a 3 pin connector to hook up a + and - p led ?	Ques
+1.1.6	Or is there a more simple way ?	Ques
+1.1.7	Any way at all ?	Ques
+1.1.8	Splicing wires ?	Ques
+1.1.9	( the p led slots on my mobo are already filled ) I 've tried google but nothing is really pinpointing what I need to know .	St
+1.1.10	I would love to find a site that explains the current from the psu a bit .	St
+1.1.11	At the moment I really have no clue what the red/black/and yellow wires of my 3-pins mean specifically but I would love to ( I am just now starting to mess with wiring .	St
+1.1.12	I normally just strayed from that ) .	St
+1.1.13	Thanks in advance all !	St
+1.2.1	But if you mean & quot ; power & quot ; LED , I 'd say there 's not a problem if you get the polarity mixed up .	St
+1.2.2	You 've got a 50-50 chance of getting it right .	St
+1.2.3	If plug these into a circuit designed for LED use , they are current limited .	St
+1.2.4	An LED , being a diode , will block current flow in one direction and conduct in the other after reaching some voltage threshold .	St
+1.2.5	But you 'd really have to try hard to damage something .	St
+1.2.6	As far as color codes and voltages , you 'll want the +5v to ground .	St
+1.2.7	This will be red to black .	St
+1.2.8	Yellow is 12v .	St
+1.2.9	It would be good if you had a DVM to verify these , however .	Polite
+1.2.10	If this does n't help , maybe you can explain what you 're trying to use this LED for .	St
+1.3.1	Thanks for the response !	St
+1.3.2	Well what I have now is a LED light with the connectors being 1 + pled and 1 - LED on a green and black wire respectively .	St
+1.3.3	My problem is that the motherboard power led slots are filled .	St
+1.3.4	I 'm more or less just wondering if there is another way I could still hook them up .	St
+1.3.5	Possibly with a 3-pin connector ?	Ques
+1.3.6	Were you saying I could hook the + power led up to the red wire of a 3 pin for +5v ?	Ques
+1.4.1	I was wondering what the LED was intended to do .	St
+1.4.2	This is why I asked if it was a & quot ; power & quot ; LED or some other indicator .	St
+1.4.3	I know some folks just use them for lighting effects but you did n't mention that .	St
+1.4.4	I 've not heard of MB & quot ; power led slots & quot ; but I know of fan ports which use 3 wires ... the third being for auto speed control .	St
+1.4.5	I do know how to make LEDs light up and it only needs the two lead wires and a power source and current limiter .	St
+1.4.6	The current limiter is just a resistor in series with the LED .	St
+1.4.7	You can either use an LED resistor calculator or trial and error .	St
+1.4.8	Of course an LED is polarized so only works when properly biased .	St
+1.4.9	You need to figure out which is + and - but you can also do that by just applying a very small voltage from some standard 1.5 v battery to see what orientation works .	St
+1.5.1	Awesome , I 'll play around with that .	St
+1.5.2	Sorry I misunderstood you .	St
+1.5.3	I 'm trying to use it as just a case light till I can get my other one in .	St
+1.6.1	I like to repeat Steven 's ? , what is that LED suppose to do ?	Ques
+1.6.2	I assume you have all connections already present that may go to some LED now , so any actual spare LED connection is not present , unless its not used or no place to be used .	St
+1.6.3	You can use a 9V battery to test the leads of a LED provided a connection can be made .	St
+1.6.4	I would assume you plan to use some wiring from the mtrbd .	St
+1.6.5	to attach an LED or make wiring to attach LED .	St
+1.6.6	This in turn suggests what that connection is suppose to do .	St
+1.6.7	Your mtrbd .	St
+1.6.8	manual should explain any connection provided what they do .	Sug
+1.6.9	If provided it may dwell into actual pin-to-pin what each does or its value .	St
+1.6.10	If unknown but does explain its an audio type connection , like SPIF , then look-up ( google ) SPIF for its standard configuration , same for USB , etc .	St
+1.6.11	Please further explain your quest as to what the final need for the LED usage .	Sug
+1.6.12	tada -- -- -Willy	St

@@ -1,96 +1,96 @@
-1.1.1	I have a small office network (8 workstations) with an ancient server (Dual pentium pro 200's, Intel mobo w/ native SCSI, 512MB EDO Ram, 10GB SCSI HDD, Win NT 4.0 Service Pack 6, Microsoft Exchange & Backoffice Server).	St
-1.1.2	The AIWA DAT tape backup drive finally gave up the ghost, I purchased a Sony 11000 20/40 GB SCSI DAT drive to replace it.	St
-1.1.3	First problem: 50 pin on the AIWA, 68 pin on the Sony.	St
-1.1.4	The AIWA is currently driven by a separate PCI 50-pin SCSI adapter.	St
-1.1.5	I am preparing to swap out the drives and want to experience minimal down time so here I am looking for advice from serious SCSI users familiar w/ vintage 1999 hardware only.	St
-1.1.6	Please don't advise to upgrade everything, that's impossible financially.	Sug
-1.1.7	I have prepared myself for every eventuality (I hope).	St
-1.1.8	I have a spare Adaptec 2940 series SCSI adapter w/ driver floppy, a spare 68-pin three-device cable w/ terminator.	St
-1.1.9	I have already installed Veritas Backup Exec 9.1 which has the drivers for the Sony drive.	St
-1.1.10	My question is: What is the safest, easiest way to install the new backup tape drive?	St
-1.1.11	Separate adpter card or chain w/ the HDD?	St
-1.1.12	What about setting the SCSI jumpers on the Sony drive?	St
-1.1.13	They are currently set to &quot;parity&quot;.	St
-1.1.14	Please note I eventually plan to replace the HDD too.	St
-1.1.15	I follow directions very well, and am familiar w/ most hardware terms.	St
-1.1.16	Thanks in advance!	St
-1.2.1	You need to find the NT guru that has been keeping the server alive.	St
-1.2.2	NT 4 is full of traps for new to NT people.	St
-1.2.3	It's from another time where you were expected to be trained in the ways of NT.	St
-1.2.4	My advice is that you don't do this given the information you provided.	Polite
-1.2.5	It's all too possible the tape backup software will not support your new drive as well as I know only one person that I would trust installing a new scsi controller onto NT 4 besides myself.	St
-1.2.6	Since it's a business, they need to get this done proper.	St
-1.2.7	The old machine may take a dive during the update so the disaster plan should be laid out before the changes made.	St
+1.1.1	I have a small office network ( 8 workstations ) with an ancient server ( Dual pentium pro 200 's , Intel mobo w/ native SCSI , 512MB EDO Ram , 10GB SCSI HDD , Win NT 4.0 Service Pack 6 , Microsoft Exchange & Backoffice Server ) .	St
+1.1.2	The AIWA DAT tape backup drive finally gave up the ghost , I purchased a Sony 11000 20/40 GB SCSI DAT drive to replace it .	St
+1.1.3	First problem : 50 pin on the AIWA , 68 pin on the Sony .	St
+1.1.4	The AIWA is currently driven by a separate PCI 50-pin SCSI adapter .	St
+1.1.5	I am preparing to swap out the drives and want to experience minimal down time so here I am looking for advice from serious SCSI users familiar w/ vintage 1999 hardware only .	St
+1.1.6	Please do n't advise to upgrade everything , that 's impossible financially .	Sug
+1.1.7	I have prepared myself for every eventuality ( I hope ) .	St
+1.1.8	I have a spare Adaptec 2940 series SCSI adapter w/ driver floppy , a spare 68-pin three-device cable w/ terminator .	St
+1.1.9	I have already installed Veritas Backup Exec 9.1 which has the drivers for the Sony drive .	St
+1.1.10	My question is : What is the safest , easiest way to install the new backup tape drive ?	Ques
+1.1.11	Separate adpter card or chain w/ the HDD ?	Ques
+1.1.12	What about setting the SCSI jumpers on the Sony drive ?	Ques
+1.1.13	They are currently set to & quot ; parity & quot ; .	St
+1.1.14	Please note I eventually plan to replace the HDD too .	St
+1.1.15	I follow directions very well , and am familiar w/ most hardware terms .	St
+1.1.16	Thanks in advance !	St
+1.2.1	You need to find the NT guru that has been keeping the server alive .	St
+1.2.2	NT 4 is full of traps for new to NT people .	St
+1.2.3	It 's from another time where you were expected to be trained in the ways of NT .	St
+1.2.4	My advice is that you do n't do this given the information you provided .	Polite
+1.2.5	It 's all too possible the tape backup software will not support your new drive as well as I know only one person that I would trust installing a new scsi controller onto NT 4 besides myself .	St
+1.2.6	Since it 's a business , they need to get this done proper .	St
+1.2.7	The old machine may take a dive during the update so the disaster plan should be laid out before the changes made .	St
 1.2.8	Bob	St
-1.3.1	...but don't consider myself an NT guru by any means.	St
-1.3.2	I did swap out the tape drive w/ an identical one and have been doing routine maintenance (defragging, AV update etc) but will consider your advice in this instance and locate the original assembler for advice.	St
+1.3.1	... but do n't consider myself an NT guru by any means .	St
+1.3.2	I did swap out the tape drive w/ an identical one and have been doing routine maintenance ( defragging , AV update etc ) but will consider your advice in this instance and locate the original assembler for advice .	St
 1.3.3	Thanks	Polite
-1.4.1	...that's why I bought them (drive & software) in the first place.	St
-1.4.2	Software has been successfully installed, I am using Veritas BE 9.1, the original was 7.3(!).	St
-1.4.3	I do have the NT book and have been studying it, I have been keeping the machine alive and would sure like to try to install this puppy myself.	St
-1.4.4	Maybe a brief how-to?	St
-1.5.1	1.	St
-1.5.2	The cables don't match.	St
-1.5.3	That is, 40 pin SCSI to 68 pin.	St
-1.5.4	Usually this results in installing a new SCSI controller.	St
-1.5.5	Might be easy.	St
-1.5.6	See if the new SCSI controller has NT 4.0 drivers.	St
-1.5.7	But don't count on it.	St
-1.5.8	NT 4.0 sales have been non-existant for years so be sure that you get the drivers PLUS the documentation.	St
-1.5.9	It will tell you what SCSI jumpers to set.	St
-1.5.10	I can't guess this and you must know this.	St
-1.5.11	2.	St
-1.5.12	Always fun.	St
-1.5.13	Old machines can take a dive when we work on them so the DISASTER PLAN must be ready.	St
-1.5.14	I owned a dual PPro 200MHz setup for some 5+ years so I know this machine.	St
-1.5.15	It's really not a player today.	St
+1.4.1	... that 's why I bought them ( drive & software ) in the first place .	St
+1.4.2	Software has been successfully installed , I am using Veritas BE 9.1 , the original was 7.3 ( ! ) .	St
+1.4.3	I do have the NT book and have been studying it , I have been keeping the machine alive and would sure like to try to install this puppy myself .	St
+1.4.4	Maybe a brief how-to ?	Ques
+1.5.1	1 .	St
+1.5.2	The cables do n't match .	St
+1.5.3	That is , 40 pin SCSI to 68 pin .	St
+1.5.4	Usually this results in installing a new SCSI controller .	St
+1.5.5	Might be easy .	St
+1.5.6	See if the new SCSI controller has NT 4.0 drivers .	St
+1.5.7	But do n't count on it .	St
+1.5.8	NT 4.0 sales have been non-existant for years so be sure that you get the drivers PLUS the documentation .	St
+1.5.9	It will tell you what SCSI jumpers to set .	St
+1.5.10	I ca n't guess this and you must know this .	St
+1.5.11	2 .	St
+1.5.12	Always fun .	St
+1.5.13	Old machines can take a dive when we work on them so the DISASTER PLAN must be ready .	St
+1.5.14	I owned a dual PPro 200MHz setup for some 5+ years so I know this machine .	St
+1.5.15	It 's really not a player today .	St
 1.5.16	I can write with authority since ...	St
-1.5.17	I owned one.	St
-1.5.18	I finally cast it off (gave it away) when single 1+GHz CPU machines were cheaper than the RAM I wanted to add to the old box.	St
-1.5.19	And the single (over GHz) CPU was faster and moved me off 5+ year old hardware that was beyond its service life.	St
-1.5.20	Your choice on that.	Sug
+1.5.17	I owned one .	St
+1.5.18	I finally cast it off ( gave it away ) when single 1+GHz CPU machines were cheaper than the RAM I wanted to add to the old box .	St
+1.5.19	And the single ( over GHz ) CPU was faster and moved me off 5+ year old hardware that was beyond its service life .	St
+1.5.20	Your choice on that .	St
 1.5.21	Bob	St
 1.6.1	NIL	St
-1.7.1	...and will study it intensely.	St
-1.7.2	Of course, the driver & manual floppy that came with the eBay-purchased SCSI adapter (Adaptec 2940) does not work w/ NT, so I will prepare the necessary driver CD.	St
-1.7.3	For Disaster Recovery, I have imaged the drive to multiple CD's using Norton Ghost.	St
-1.7.4	I will also burn all important files to CD before attempting installing anything, PLUS imaging the entire drive to my PC's HDD using Drive Image.	St
-1.7.5	Is that safe enough?	St
-1.7.6	If the server takes a dump it will only hasten the upgrade, we've been trying to avoid spending a jillion dollars on new software & a new server when this server actually performs quite well for what we need, right now my crisis is not being able to get a daily backup.	St
-1.7.7	Thanks for your advice.	St
-1.7.8	I will post later with an update.	St
-1.8.1	...and discovered that the native SCSI host adapter is exactly the same as the one I was planning to install on the PCI bus, Apaptec 2940W, a 68-pin output going to the HDD with an unused connector between.	St
-1.8.2	I am planning to install the new BU tape drive in the native SCSI chain, setting the SCSI ID to the proper ID I got from the server's SCSI utility and disabling termination in the tape drive.	St
-1.8.3	Thoughts?	St
-1.9.1	You're 99% there.	St
-1.9.2	Select a SCSI ID number not in use, disable termination on the tape drive and install (all power off please.)	St
-1.9.3	The hardware step would be done at that point with one minor issue in the 2940W BIOS settings.	St
-1.9.4	Some tape drives couldn't run at ultra speeds but this may be a non-issue since you don't have the 2940UW.	St
+1.7.1	... and will study it intensely .	St
+1.7.2	Of course , the driver & manual floppy that came with the eBay-purchased SCSI adapter ( Adaptec 2940 ) does not work w/ NT , so I will prepare the necessary driver CD .	St
+1.7.3	For Disaster Recovery , I have imaged the drive to multiple CD 's using Norton Ghost .	St
+1.7.4	I will also burn all important files to CD before attempting installing anything , PLUS imaging the entire drive to my PC 's HDD using Drive Image .	St
+1.7.5	Is that safe enough ?	Ques
+1.7.6	If the server takes a dump it will only hasten the upgrade , we 've been trying to avoid spending a jillion dollars on new software & a new server when this server actually performs quite well for what we need , right now my crisis is not being able to get a daily backup .	St
+1.7.7	Thanks for your advice .	Polite
+1.7.8	I will post later with an update .	St
+1.8.1	... and discovered that the native SCSI host adapter is exactly the same as the one I was planning to install on the PCI bus , Apaptec 2940W , a 68-pin output going to the HDD with an unused connector between .	St
+1.8.2	I am planning to install the new BU tape drive in the native SCSI chain , setting the SCSI ID to the proper ID I got from the server 's SCSI utility and disabling termination in the tape drive .	St
+1.8.3	Thoughts ?	Ques
+1.9.1	You 're 99 % there .	St
+1.9.2	Select a SCSI ID number not in use , disable termination on the tape drive and install ( all power off please . )	St
+1.9.3	The hardware step would be done at that point with one minor issue in the 2940W BIOS settings .	St
+1.9.4	Some tape drives could n't run at ultra speeds but this may be a non-issue since you do n't have the 2940UW .	Sug
 1.9.5	Bob	St
-1.10.1	Here are links to cables and adapters, that may be helpfull.	St
-1.10.2	I can't help with the NT part, but it looks like Bob has been helpfull.	St
-1.10.3	The 2940UW is a great card, rock solid.	Polite
-1.10.4	Is this an interal drive or an external drive.	St
-1.10.5	John http://www.computergate.com/products/item.cfm?prodcd=CSCH6C503 http://www.computergate.com/products/item.cfm?prodcd=CSC6850	St
-1.11.1	Those are some useful links.	St
-1.11.2	Bob got me going, but I still had a lot of homework!	St
-1.11.3	I think I'm comfortable w/ SCSI now.	St
+1.10.1	Here are links to cables and adapters , that may be helpfull .	St
+1.10.2	I ca n't help with the NT part , but it looks like Bob has been helpfull .	St
+1.10.3	The 2940UW is a great card , rock solid .	St
+1.10.4	Is this an interal drive or an external drive .	St
+1.10.5	John http : //www.computergate.com/products/item.cfm ? prodcd=CSCH6C503 http : //www.computergate.com/products/item.cfm ? prodcd=CSC6850	Ques
+1.11.1	Those are some useful links .	St
+1.11.2	Bob got me going , but I still had a lot of homework !	St
+1.11.3	I think I 'm comfortable w/ SCSI now .	St
 1.11.4	Tony	St
-1.12.1	Backup is running as we speak.	St
-1.12.2	I un-bundled the HDD SCSI cable to find...a female terminator plug, just like the one I just bought at Fry's for $15.	St
-1.12.3	I set the tape drive to terminate, loaded the drivers from Veritas and away we go!	St
-1.12.4	WAY faster than than the AIWA & 7.3, too.	St
-1.12.5	A couple of parting questions... 1) Should I update the Adaptec 294x drivers?	St
-1.12.6	I pulled one off the 'net last night from 2001 and put it on floppy, my feeling at this point is leave well enough alone 2) When I add my new HDD, should I use this same, native adapter or are there any benefits to using a newer, UW SCSI PCI card?	St
-1.12.7	I plan on upgrading that next.	St
-1.12.8	Thanks for all your help, I learned quite a bit too.	St
-1.12.9	I'll be back when it's time to swap out the mobo... Tony	St
-1.13.1	NEVER fix a working system.	St
-1.13.2	It's hard for me to do that, but my singed ears still ring from a bad day years ago.	St
+1.12.1	Backup is running as we speak .	St
+1.12.2	I un-bundled the HDD SCSI cable to find ... a female terminator plug , just like the one I just bought at Fry 's for $ 15 .	St
+1.12.3	I set the tape drive to terminate , loaded the drivers from Veritas and away we go !	St
+1.12.4	WAY faster than than the AIWA & 7.3 , too .	St
+1.12.5	A couple of parting questions ... 1 ) Should I update the Adaptec 294x drivers ?	Ques
+1.12.6	I pulled one off the 'net last night from 2001 and put it on floppy , my feeling at this point is leave well enough alone 2 ) When I add my new HDD , should I use this same , native adapter or are there any benefits to using a newer , UW SCSI PCI card ?	Ques
+1.12.7	I plan on upgrading that next .	St
+1.12.8	Thanks for all your help , I learned quite a bit too .	St
+1.12.9	I 'll be back when it 's time to swap out the mobo ... Tony	St
+1.13.1	NEVER fix a working system .	St
+1.13.2	It 's hard for me to do that , but my singed ears still ring from a bad day years ago .	St
 1.13.3	Bob	St
-1.14.1	to never &quot;fix a working system&quot;.	St
-1.14.2	What about the HDD upgrade?	St
-1.14.3	Add on to the chain or newer PCI-UW card?	St
-1.15.1	The UW is a nice card but can plunge you into driver updates and trying to recover NT4 and you get to stand in the corner or run outside to find some tree to beat your head against.	St
-1.15.2	Adding a drive could be easy in comparison.	St
+1.14.1	to never & quot ; fix a working system & quot ; .	St
+1.14.2	What about the HDD upgrade ?	Ques
+1.14.3	Add on to the chain or newer PCI-UW card ?	Ques
+1.15.1	The UW is a nice card but can plunge you into driver updates and trying to recover NT4 and you get to stand in the corner or run outside to find some tree to beat your head against .	St
+1.15.2	Adding a drive could be easy in comparison .	St
 1.15.3	Bob	St

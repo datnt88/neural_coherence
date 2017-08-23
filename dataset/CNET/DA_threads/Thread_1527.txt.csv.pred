@@ -1,40 +1,40 @@
-1.1.1	after i upgraded my inspiron 1100 mem from 256 to 640 i noticed when i ran a defrag.that my free space on my hard drive went down 2 % ., any reason and is this normal	St
-1.2.1	Windows will tend to adjust the size of the swap file using it's own formula...which does not make much sense to me.	St
-1.2.2	I believe it makes the file 1 1/2 times larger than physical RAM.	St
-1.2.3	It would seem that more physical RAM should reduce the size needed for virtual memory use.	St
-1.2.4	Maybe someone here knows why this happens.	St
+1.1.1	after i upgraded my inspiron 1100 mem from 256 to 640 i noticed when i ran a defrag.that my free space on my hard drive went down 2 % . , any reason and is this normal	St
+1.2.1	Windows will tend to adjust the size of the swap file using it 's own formula ... which does not make much sense to me .	St
+1.2.2	I believe it makes the file 1 1/2 times larger than physical RAM .	St
+1.2.3	It would seem that more physical RAM should reduce the size needed for virtual memory use .	St
+1.2.4	Maybe someone here knows why this happens .	St
 1.3.1	i am using winxp home ie 6.0	St
-1.4.1	Set your Tools/Folder options/View to display hidden and system files if you have not already done so.	St
-1.4.2	Look in the root folder of your boot drive (usually C: but not always with XP).	St
-1.4.3	Look for a file called &quot;Pagefile.sys&quot; and not its size.	St
-1.4.4	Now shut down and remove one stick of RAM.	St
-1.4.5	Reboot and see if the pagefile gets smaller.	St
-1.4.6	If so, that's probably where your space went.	St
-1.5.1	Displaying hidden/system files will allow you to see how much space your system restore folder occupies as well.	St
-1.5.2	Setting restore points decreases disk size but if you don't have your system set to display &quot;System Volume Information&quot;, it will show no space used.	St
-1.6.1	step by step please,how is this done	St
+1.4.1	Set your Tools/Folder options/View to display hidden and system files if you have not already done so .	St
+1.4.2	Look in the root folder of your boot drive ( usually C : but not always with XP ) .	St
+1.4.3	Look for a file called & quot ; Pagefile.sys & quot ; and not its size .	St
+1.4.4	Now shut down and remove one stick of RAM .	St
+1.4.5	Reboot and see if the pagefile gets smaller .	St
+1.4.6	If so , that 's probably where your space went .	St
+1.5.1	Displaying hidden/system files will allow you to see how much space your system restore folder occupies as well .	St
+1.5.2	Setting restore points decreases disk size but if you do n't have your system set to display & quot ; System Volume Information & quot ; , it will show no space used .	St
+1.6.1	step by step please , how is this done	St
 1.7.1	step by step please	Sug
-1.8.1	You say you upgraded your RAM.	St
-1.8.2	Did you do this yourself?	St
-1.8.3	If not, and you are not comfortable with opening your case and removing a module, the step by step instruction will not help you.	St
-1.8.4	But, you can do this.	St
-1.8.5	As I said, allow display of system and hidden files.	St
-1.8.6	Here's how.	St
-1.8.7	From the desktop, click on &quot;My Computer&quot;.	St
-1.8.8	Go to Tools/Folder Options/View.	St
-1.8.9	Check the option to show hidden files and folders and uncheck one that says t to hide protected operating system files.	St
-1.8.10	Click OK and exit.	St
-1.8.11	Now, go to your boot drive which is usually C: and click on that.	St
-1.8.12	You should see a file called &quot;pagefile.sys&quot;.	St
-1.8.13	It will display the size in kilobytes.	St
-1.8.14	Write down that number and note if it's approximately 1 1/2 time the amount of RAM you have.	St
-1.8.15	I'll guess about 115000kb but it won't be exact.	St
-1.8.16	Now, if you remove one of your RAM modules (power off of course) and recheck the size of the pagefile, you may find it to be smaller by a similar ratio to the math you just performed.	St
-1.8.17	What this means is that, when you added RAM, Windows expanded the size of this file.	St
-1.8.18	I'll guess it to be about 3/4 of a gig smaller now.	St
-1.8.19	Hope this makes some sense.	St
-1.9.1	i have a dell inspiron 1100 upgraded ram from 256 to 640 only two slots so removed 128 installed 512.	St
-1.10.1	It means you're not that much of a newbie.	St
-1.10.2	I tried to offer a reason why adding memory would lessen your available hard drive space.	St
-1.10.3	You're free to validate or invalidate that as a reason so the rest is up to you.	St
-1.10.4	Good luck.	St
+1.8.1	You say you upgraded your RAM .	St
+1.8.2	Did you do this yourself ?	Ques
+1.8.3	If not , and you are not comfortable with opening your case and removing a module , the step by step instruction will not help you .	St
+1.8.4	But , you can do this .	St
+1.8.5	As I said , allow display of system and hidden files .	St
+1.8.6	Here 's how .	St
+1.8.7	From the desktop , click on & quot ; My Computer & quot ; .	St
+1.8.8	Go to Tools/Folder Options/View .	St
+1.8.9	Check the option to show hidden files and folders and uncheck one that says t to hide protected operating system files .	St
+1.8.10	Click OK and exit .	St
+1.8.11	Now , go to your boot drive which is usually C : and click on that .	St
+1.8.12	You should see a file called & quot ; pagefile.sys & quot ; .	St
+1.8.13	It will display the size in kilobytes .	St
+1.8.14	Write down that number and note if it 's approximately 1 1/2 time the amount of RAM you have .	St
+1.8.15	I 'll guess about 115000kb but it wo n't be exact .	St
+1.8.16	Now , if you remove one of your RAM modules ( power off of course ) and recheck the size of the pagefile , you may find it to be smaller by a similar ratio to the math you just performed .	St
+1.8.17	What this means is that , when you added RAM , Windows expanded the size of this file .	St
+1.8.18	I 'll guess it to be about 3/4 of a gig smaller now .	St
+1.8.19	Hope this makes some sense .	St
+1.9.1	i have a dell inspiron 1100 upgraded ram from 256 to 640 only two slots so removed 128 installed 512 .	St
+1.10.1	It means you 're not that much of a newbie .	St
+1.10.2	I tried to offer a reason why adding memory would lessen your available hard drive space .	St
+1.10.3	You 're free to validate or invalidate that as a reason so the rest is up to you .	St
+1.10.4	Good luck .	Polite

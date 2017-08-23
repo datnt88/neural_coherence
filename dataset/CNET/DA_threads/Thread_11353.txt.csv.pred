@@ -1,21 +1,21 @@
-1.1.1	We have a small download limit every month and keep ramming into only days into our billing period.	St
-1.1.2	I am trying to identify the culprit but need to find a way to log the traffic of individual IP address (which are all static) on the network to figure out where all the bandwidth is going.	St
-1.1.3	Does anyone now a (preferably free) application that will allow me to monitor this?	St
-1.1.4	Network Infrastructure: Modem connected to NetGear N2000 (older model) Router 192.168.0.1 Family Desktop - 0.2 (Ethernet) My Desktop - 0.3 (Powerline Ethernet) Brothers Laptop - 0.5 (Wireless) My PS3 - .0.30 (Wireless) iPods - (Wireless) Router only tells me when someone is on and can track total network traffic usage not individual hardware.	St
-1.1.5	Any help will be MUCH appreciated.	St
-1.2.1	http://forums.cnet.com/7723-12549_102-528957.html?messageId=5143905#message5143905 where the OP mentioned a program networkx to install on the PC to measure it.	St
-1.2.2	http://www.softperfect.com/products/networx/ seems useful for you indeed.	St
+1.1.1	We have a small download limit every month and keep ramming into only days into our billing period .	St
+1.1.2	I am trying to identify the culprit but need to find a way to log the traffic of individual IP address ( which are all static ) on the network to figure out where all the bandwidth is going .	St
+1.1.3	Does anyone now a ( preferably free ) application that will allow me to monitor this ?	Ques
+1.1.4	Network Infrastructure : Modem connected to NetGear N2000 ( older model ) Router 192.168.0.1 Family Desktop - 0.2 ( Ethernet ) My Desktop - 0.3 ( Powerline Ethernet ) Brothers Laptop - 0.5 ( Wireless ) My PS3 - .0.30 ( Wireless ) iPods - ( Wireless ) Router only tells me when someone is on and can track total network traffic usage not individual hardware .	St
+1.1.5	Any help will be MUCH appreciated .	St
+1.2.1	http : //forums.cnet.com/7723-12549_102-528957.html ? messageId=5143905 # message5143905 where the OP mentioned a program networkx to install on the PC to measure it .	St
+1.2.2	http : //www.softperfect.com/products/networx/ seems useful for you indeed .	St
 1.2.3	Kees	St
-1.3.1	There are many tools like the one mentioned above but it must run on each PC.	St
-1.3.2	What you need is a device that can monitor all the PC.	St
-1.3.3	The only common point you have is the router or the connection to the ISP.	St
-1.3.4	You could buy what is called a tap and place it on the cable between the ISP and the router.	Sug
-1.3.5	You would then run wireshark and capture the traffic.	St
-1.3.6	Wireshark has good reporting but can be tricky since it has many option.	St
-1.3.7	Although simple to setup it is not a cheap way to do this.	St
-1.3.8	The method I would recommend even though it too is not free.	St
-1.3.9	Replace your router with a router that can run the open firmware called dd-wrt, mostly linksys.	St
-1.3.10	Then run the tool called rflow collector.	St
-1.3.11	This is very similar to a feature called netflow used in commercial routers.	St
-1.3.12	There are good instructions on how to set this up but it is still fairly complex.	St
-1.3.13	It is fairly easy to get instantaneous data and some router/firewall will display open sessions to get historic type data you need to store the information and routers cannot do that.	St
+1.3.1	There are many tools like the one mentioned above but it must run on each PC .	St
+1.3.2	What you need is a device that can monitor all the PC .	St
+1.3.3	The only common point you have is the router or the connection to the ISP .	St
+1.3.4	You could buy what is called a tap and place it on the cable between the ISP and the router .	Sug
+1.3.5	You would then run wireshark and capture the traffic .	St
+1.3.6	Wireshark has good reporting but can be tricky since it has many option .	St
+1.3.7	Although simple to setup it is not a cheap way to do this .	St
+1.3.8	The method I would recommend even though it too is not free .	St
+1.3.9	Replace your router with a router that can run the open firmware called dd-wrt , mostly linksys .	St
+1.3.10	Then run the tool called rflow collector .	St
+1.3.11	This is very similar to a feature called netflow used in commercial routers .	St
+1.3.12	There are good instructions on how to set this up but it is still fairly complex .	St
+1.3.13	It is fairly easy to get instantaneous data and some router/firewall will display open sessions to get historic type data you need to store the information and routers can not do that .	St

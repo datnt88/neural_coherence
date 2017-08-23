@@ -1,31 +1,31 @@
-1.1.1	Hi - I've done some research on this but nothing seems to be working.	St
-1.1.2	I have a wireless home network set up with one desktop and a few laptops connecting to the wireless router.	St
-1.1.3	I'm having internet connection problems with one of the laptops - all the rest work just fine.	St
-1.1.4	I've connected to the wireless network, however can't connect to the internet.	St
-1.1.5	I manually added the ip address and dns server to the network connection to access the network, but it still won't connect to the internet (although it says I'm connected to the network, supposedly).	St
-1.1.6	I'm running XP on the laptop which cannot connect (the other computers are either XP or Vista).	St
-1.1.7	The wireless router I use is DLink DI-524.	St
-1.1.8	I ran an ipconfig /all on the affected computer: DHCP is enabled IP Address is 192.168.0.1, with the Default gateway and DNS server the same as the IP address.	St
-1.1.9	I got the numbers to manually add from other computers connected to the network.	St
-1.1.10	I've tried pinging, too.	St
-1.1.11	I've gotten IP addresses to work, but not url's.	St
-1.1.12	I'm not sure what other information is needed, but let me know.	Res
-1.1.13	The laptop has previously been connected to this network, so I'm not sure why now it is not connecting to the internet and I have to manually add everything.	St
-1.1.14	I've checked hosts file, too.	St
-1.1.15	Thanks for any help you can give, as I'm at a loss for what to do next.	St
-1.2.1	your gateway and DNS server should not be the same address.	St
-1.2.2	The router LAN IP is the gateway.	St
-1.2.3	The DNS server comes from the WAN side.	St
-1.2.4	It would be your ISP server address but you don't generally need to plug that in.	St
-1.2.5	I would start by trying to connect the wired port and get it working first.	St
-1.2.6	This can help rule out some issues with the laptop.	St
-1.3.1	For wifi I rarely find that to work.	St
-1.3.2	Go back to DHCP now.	St
-1.3.3	Also let's say this is a cable modem.	St
-1.3.4	Be sure when switching to the router from a direct connection to power down the cable modem, move the ethernet to the router then power up the cable modem.	St
-1.3.5	Why this is needed is written about widely.	St
-1.3.6	I'll stop here with one more admonishment.	Sug
-1.3.7	Use our forum sticky for setup of the router.	St
+1.1.1	Hi - I 've done some research on this but nothing seems to be working .	St
+1.1.2	I have a wireless home network set up with one desktop and a few laptops connecting to the wireless router .	St
+1.1.3	I 'm having internet connection problems with one of the laptops - all the rest work just fine .	St
+1.1.4	I 've connected to the wireless network , however ca n't connect to the internet .	St
+1.1.5	I manually added the ip address and dns server to the network connection to access the network , but it still wo n't connect to the internet ( although it says I 'm connected to the network , supposedly ) .	St
+1.1.6	I 'm running XP on the laptop which can not connect ( the other computers are either XP or Vista ) .	St
+1.1.7	The wireless router I use is DLink DI-524 .	St
+1.1.8	I ran an ipconfig /all on the affected computer : DHCP is enabled IP Address is 192.168.0.1 , with the Default gateway and DNS server the same as the IP address .	St
+1.1.9	I got the numbers to manually add from other computers connected to the network .	St
+1.1.10	I 've tried pinging , too .	St
+1.1.11	I 've gotten IP addresses to work , but not url 's .	St
+1.1.12	I 'm not sure what other information is needed , but let me know .	St
+1.1.13	The laptop has previously been connected to this network , so I 'm not sure why now it is not connecting to the internet and I have to manually add everything .	St
+1.1.14	I 've checked hosts file , too .	St
+1.1.15	Thanks for any help you can give , as I 'm at a loss for what to do next .	St
+1.2.1	your gateway and DNS server should not be the same address .	St
+1.2.2	The router LAN IP is the gateway .	St
+1.2.3	The DNS server comes from the WAN side .	St
+1.2.4	It would be your ISP server address but you do n't generally need to plug that in .	St
+1.2.5	I would start by trying to connect the wired port and get it working first .	St
+1.2.6	This can help rule out some issues with the laptop .	St
+1.3.1	For wifi I rarely find that to work .	St
+1.3.2	Go back to DHCP now .	St
+1.3.3	Also let 's say this is a cable modem .	St
+1.3.4	Be sure when switching to the router from a direct connection to power down the cable modem , move the ethernet to the router then power up the cable modem .	St
+1.3.5	Why this is needed is written about widely .	St
+1.3.6	I 'll stop here with one more admonishment .	St
+1.3.7	Use our forum sticky for setup of the router .	St
 1.3.8	Bob	St
-1.4.1	I had the same problem occur before Christmas where my wireless laptop was connected to my home network but not connecting to the internet.	St
-1.4.2	I had to do the following: 1) Open Network Connections 2) Right click on 'Local Area Connection' and choose 'Properties' 3) Click on 'Advanced' tab 4) Uncheck box under 'Internet Connection Sharing' next to 'Allow other network users to connect through this computer's Internet connection' This resolved the problem since I was able to successfully ping everything.	St
+1.4.1	I had the same problem occur before Christmas where my wireless laptop was connected to my home network but not connecting to the internet .	St
+1.4.2	I had to do the following : 1 ) Open Network Connections 2 ) Right click on 'Local Area Connection ' and choose 'Properties ' 3 ) Click on 'Advanced ' tab 4 ) Uncheck box under 'Internet Connection Sharing ' next to 'Allow other network users to connect through this computer 's Internet connection ' This resolved the problem since I was able to successfully ping everything .	St

@@ -1,48 +1,48 @@
-1.1.1	I just got a Belkin F5D7321-4 125Mbps Router and Belkin F5D7011 125 Mbps Notebook PCMCIA card.	St
-1.1.2	I'm running Windows XP SP1 on a Dell Latitude D600 Centrino w/ built in Wireless-B.	St
-1.1.3	I had installed SP2, but then I found that some of the devices I use are not yet supported in SP2, so I rolled it back to SP1.	St
-1.1.4	I'll admit I am new to this and here are my problems.	St
-1.1.5	1.	St
-1.1.6	The notebook card was getting a CANNOT START (Code 10) error.	St
-1.1.7	I searched Belkin for the latest drivers and I already had it.	St
-1.1.8	My machine is recognizing it as a Dell TrueMobile 1300, so I went to Dell and downloaded their driver.	St
-1.1.9	Success, the network card started!	St
-1.1.10	However, I still can't get a connection.	St
-1.1.11	2.	St
-1.1.12	My internal Wireless-B was recognizing the router, but now I'm having issues with it.	St
-1.1.13	I've restored the router to the factory defaults and only changed the SSID back to MyWireless.	St
-1.1.14	I can hook up through a LAN cable, so I know the router is functioning, I just can't seem to get a wireless connection.	St
-1.1.15	When I run IPCONFIG it says that the Media State is &quot;Media Disconnected&quot;	St
-1.2.1	Well I figured out what the problem was for No.	St
-1.2.2	2.	St
-1.2.3	Somewhere in the process the Wireless switch in the BIOS was switched off.	St
-1.2.4	Turned it back on and the Wireless-B is working great!	St
-1.2.5	So, now I'm off to see if I can resolve the other problem.	St
-1.3.1	I get exactly the same error with this card (cannot start code 10) on an XP SP2 desktop.	St
-1.3.2	I downloaded and installed the latest drivers from the Belkin website with no result, so if anyone does know how to persuade them to work...	St
-1.4.1	Go to Start/Administrative Tools/Services.	St
-1.4.2	Find the Wireless Zero Config Service and DISABLE it.	St
-1.4.3	Reinstall your F5D7011 software and it should work fine.	St
-1.4.4	The problem is that Windows tries to configure the card and screws it up.	St
-1.4.5	Thanks to Bruce Finch, Wireless Guru at Symbol Technologies for the tip.	St
-1.5.1	Go to Start/Administrative Tools/Services.	St
-1.5.2	Find the Wireless Zero Config service and DISABLE it.	St
-1.5.3	Reinstall your software and it sould work fine.	St
-1.5.4	The problem is that Windows is trying to configure the card and it screws it up.	St
-1.5.5	Thanks to Bruce Finch, Wireless Guru of Symbol Technologies for the tip.	St
-1.6.1	I have the misfortune of getting a Belkin Wireless G USB/WiFi unit.	St
-1.6.2	I get the same Error code 10 as you.	St
-1.6.3	I called Belkin, and after trying a couple of things the lady suggested.	St
-1.6.4	She told me the unit was faulty.	St
-1.6.5	I took it back to the store, and the same happened with the exchange.	St
-1.6.6	So I called Belkin again, and I asked for Level 2 support.	St
-1.6.7	I was given the run around by some guy that could barely speak English named John or something like that.	St
-1.6.8	Anyway, I have already written Belkin and complained about the unit and their lack of understandable customer support..	St
-1.6.9	I al also throwing away about 250 dollars worth of Belkin hardware; working or not.	St
-1.6.10	I have already obtained a D-Link Router, and next I am going to try a D-Link or LinkSys WiFi unit (USB is first on the try list).	St
-1.6.11	I have no problems with getting a signal of other networks on my WiFi, but Belkin WiFi so far is unimpressive trash.	St
+1.1.1	I just got a Belkin F5D7321-4 125Mbps Router and Belkin F5D7011 125 Mbps Notebook PCMCIA card .	St
+1.1.2	I 'm running Windows XP SP1 on a Dell Latitude D600 Centrino w/ built in Wireless-B .	St
+1.1.3	I had installed SP2 , but then I found that some of the devices I use are not yet supported in SP2 , so I rolled it back to SP1 .	St
+1.1.4	I 'll admit I am new to this and here are my problems .	St
+1.1.5	1 .	St
+1.1.6	The notebook card was getting a CAN NOT START ( Code 10 ) error .	St
+1.1.7	I searched Belkin for the latest drivers and I already had it .	St
+1.1.8	My machine is recognizing it as a Dell TrueMobile 1300 , so I went to Dell and downloaded their driver .	St
+1.1.9	Success , the network card started !	St
+1.1.10	However , I still ca n't get a connection .	St
+1.1.11	2 .	St
+1.1.12	My internal Wireless-B was recognizing the router , but now I 'm having issues with it .	St
+1.1.13	I 've restored the router to the factory defaults and only changed the SSID back to MyWireless .	St
+1.1.14	I can hook up through a LAN cable , so I know the router is functioning , I just ca n't seem to get a wireless connection .	St
+1.1.15	When I run IPCONFIG it says that the Media State is & quot ; Media Disconnected & quot ;	St
+1.2.1	Well I figured out what the problem was for No .	St
+1.2.2	2 .	St
+1.2.3	Somewhere in the process the Wireless switch in the BIOS was switched off .	St
+1.2.4	Turned it back on and the Wireless-B is working great !	St
+1.2.5	So , now I 'm off to see if I can resolve the other problem .	St
+1.3.1	I get exactly the same error with this card ( can not start code 10 ) on an XP SP2 desktop .	St
+1.3.2	I downloaded and installed the latest drivers from the Belkin website with no result , so if anyone does know how to persuade them to work ...	St
+1.4.1	Go to Start/Administrative Tools/Services .	St
+1.4.2	Find the Wireless Zero Config Service and DISABLE it .	St
+1.4.3	Reinstall your F5D7011 software and it should work fine .	St
+1.4.4	The problem is that Windows tries to configure the card and screws it up .	St
+1.4.5	Thanks to Bruce Finch , Wireless Guru at Symbol Technologies for the tip .	St
+1.5.1	Go to Start/Administrative Tools/Services .	St
+1.5.2	Find the Wireless Zero Config service and DISABLE it .	St
+1.5.3	Reinstall your software and it sould work fine .	St
+1.5.4	The problem is that Windows is trying to configure the card and it screws it up .	St
+1.5.5	Thanks to Bruce Finch , Wireless Guru of Symbol Technologies for the tip .	St
+1.6.1	I have the misfortune of getting a Belkin Wireless G USB/WiFi unit .	St
+1.6.2	I get the same Error code 10 as you .	St
+1.6.3	I called Belkin , and after trying a couple of things the lady suggested .	St
+1.6.4	She told me the unit was faulty .	St
+1.6.5	I took it back to the store , and the same happened with the exchange .	St
+1.6.6	So I called Belkin again , and I asked for Level 2 support .	St
+1.6.7	I was given the run around by some guy that could barely speak English named John or something like that .	St
+1.6.8	Anyway , I have already written Belkin and complained about the unit and their lack of understandable customer support..	St
+1.6.9	I al also throwing away about 250 dollars worth of Belkin hardware ; working or not .	St
+1.6.10	I have already obtained a D-Link Router , and next I am going to try a D-Link or LinkSys WiFi unit ( USB is first on the try list ) .	St
+1.6.11	I have no problems with getting a signal of other networks on my WiFi , but Belkin WiFi so far is unimpressive trash .	St
 1.6.12	ForestRJ	St
-1.7.1	OK I tried this and nothing, same issue as before.	St
-1.7.2	Error Code 10.	St
-1.7.3	I have even tried reinstalling the driver with the unit plugged in and unplugged.	St
-1.7.4	Nothing happens.	St
+1.7.1	OK I tried this and nothing , same issue as before .	St
+1.7.2	Error Code 10 .	St
+1.7.3	I have even tried reinstalling the driver with the unit plugged in and unplugged .	St
+1.7.4	Nothing happens .	St

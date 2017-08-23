@@ -1,36 +1,36 @@
-1.1.1	Hi all, I have a Linksys WRT54GH.	St
-1.1.2	The signal strength is extremely poor.	St
-1.1.3	50% after about 1 metre.	St
-1.1.4	Not visible after about 5-6 metres (direct line of sight).	St
-1.1.5	Have tried all standard fixes: Have updated to the latest firmware, factory reset and power cycled.	St
-1.1.6	There are no other wireless networks appliances or devices that would provide interference.	St
-1.1.7	Have experimented with channels, thresholds, transmit type, encrypted/open, intervals etc (every option available in standard firmware)..No luck.	St
-1.1.8	All software and drivers are up to date, and relocating the modem does not help.	St
-1.1.9	I've opened the router up and all the internal components look fine.	St
-1.1.10	No blown capacitors, scorching or breaks.	St
-1.1.11	I suspect the issue is thus due to the signal transmit strength being set low, however this is not something I can check using the standard firmware.	St
-1.1.12	The default transmit stringth is about 17MW +- 1.5 so if it's transmitting properly it should have a lot more range.	St
-1.1.13	Additionally WRT Custom firmware is not an option because the flash memory is only 2Mb.	St
-1.1.14	On the WRT54G, you can parse a linux kernel command through Ping to boost signal strength.	St
-1.1.15	The same command doesn't work on the WRT54GH however.	St
-1.1.16	I'd like to know where I can go from here.	St
-1.1.17	Cisco forums suggested I post on a 3rd party site which is what I'm doing now.	St
-1.1.18	I don't consider buying a new router to be a &quot;solution&quot;.	St
-1.1.19	Thanks for your help!	St
-1.2.1	I assume you have tried multiple pc type devices with the router to show its the router.	St
-1.2.2	This sounds like a defective router.	St
-1.2.3	I would have guessed you could have gotten a router with the wrong country since some countries do not allow the same transmit power but when you have issues at 1 meter that's not it.	St
-1.2.4	Most routers that do not have replaceable antenna and are not trying to save power transmit at maximum signal levels and you normally cannot even think to change that.	St
-1.2.5	Most the time you load the custom firmware to REDUCE the power not increase it.	St
-1.2.6	In their quest to cut costs many new routers have dumbed everything down and only included the most basic features.	St
-1.2.7	It is unlikely there are any user accessible commands to change the radio.	St
-1.2.8	Many of these options if they exist can only be changed by solder in a jtag cable... assuming it has a jtag port in the first place.	St
-1.2.9	On a hardware side the only fixable thing would be if somehow the internal antenna was detached from the radio.	St
-1.2.10	Most these routers had a three year warranty but if you have taken it apart that may not be a option.	St
-1.3.1	Thanks for responding.	St
-1.3.2	Finally someone who knows what they're talking about Yup tried multiple devices.	St
-1.3.3	PCs, blackberries, iphones, laptops.	St
-1.3.4	The router is out of warranty so I can hack at it all I like.	St
-1.3.5	There's no Jtag port unfortunately.	St
-1.3.6	The antenna is a caltronics internal antenna, connected directly to the PCB.	St
-1.3.7	There doesn't appear to be any break in the circuitry between it and the radio.	St
+1.1.1	Hi all , I have a Linksys WRT54GH .	St
+1.1.2	The signal strength is extremely poor .	Polite
+1.1.3	50 % after about 1 metre .	St
+1.1.4	Not visible after about 5-6 metres ( direct line of sight ) .	St
+1.1.5	Have tried all standard fixes : Have updated to the latest firmware , factory reset and power cycled .	St
+1.1.6	There are no other wireless networks appliances or devices that would provide interference .	St
+1.1.7	Have experimented with channels , thresholds , transmit type , encrypted/open , intervals etc ( every option available in standard firmware ) ..No luck .	St
+1.1.8	All software and drivers are up to date , and relocating the modem does not help .	St
+1.1.9	I 've opened the router up and all the internal components look fine .	St
+1.1.10	No blown capacitors , scorching or breaks .	St
+1.1.11	I suspect the issue is thus due to the signal transmit strength being set low , however this is not something I can check using the standard firmware .	St
+1.1.12	The default transmit stringth is about 17MW +- 1.5 so if it 's transmitting properly it should have a lot more range .	St
+1.1.13	Additionally WRT Custom firmware is not an option because the flash memory is only 2Mb .	St
+1.1.14	On the WRT54G , you can parse a linux kernel command through Ping to boost signal strength .	St
+1.1.15	The same command does n't work on the WRT54GH however .	St
+1.1.16	I 'd like to know where I can go from here .	St
+1.1.17	Cisco forums suggested I post on a 3rd party site which is what I 'm doing now .	St
+1.1.18	I do n't consider buying a new router to be a & quot ; solution & quot ; .	St
+1.1.19	Thanks for your help !	St
+1.2.1	I assume you have tried multiple pc type devices with the router to show its the router .	St
+1.2.2	This sounds like a defective router .	St
+1.2.3	I would have guessed you could have gotten a router with the wrong country since some countries do not allow the same transmit power but when you have issues at 1 meter that 's not it .	St
+1.2.4	Most routers that do not have replaceable antenna and are not trying to save power transmit at maximum signal levels and you normally can not even think to change that .	St
+1.2.5	Most the time you load the custom firmware to REDUCE the power not increase it .	St
+1.2.6	In their quest to cut costs many new routers have dumbed everything down and only included the most basic features .	St
+1.2.7	It is unlikely there are any user accessible commands to change the radio .	St
+1.2.8	Many of these options if they exist can only be changed by solder in a jtag cable ... assuming it has a jtag port in the first place .	St
+1.2.9	On a hardware side the only fixable thing would be if somehow the internal antenna was detached from the radio .	St
+1.2.10	Most these routers had a three year warranty but if you have taken it apart that may not be a option .	St
+1.3.1	Thanks for responding .	St
+1.3.2	Finally someone who knows what they 're talking about Yup tried multiple devices .	St
+1.3.3	PCs , blackberries , iphones , laptops .	St
+1.3.4	The router is out of warranty so I can hack at it all I like .	St
+1.3.5	There 's no Jtag port unfortunately .	St
+1.3.6	The antenna is a caltronics internal antenna , connected directly to the PCB .	St
+1.3.7	There does n't appear to be any break in the circuitry between it and the radio .	St

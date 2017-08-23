@@ -1,33 +1,33 @@
-1.1.1	We have two laptops in our office with the same symptoms.	St
-1.1.2	Both have internal wireless cards, one a B one a G. Both will function at the respective employee's home.	St
-1.1.3	When at the office both can connect to the local network, see other computers, access files from the server and use the shared printer but can not access the internet.	St
-1.1.4	Disabling the internal NIC and using a different PCMCIA wifi card will allow access to the network and internet.	St
-1.1.5	As far as I can tell all the settings in the properties are the same.	St
-1.1.6	I have tried one of the laptops at a couple of WIFI hotspots in town with no problems.	St
-1.1.7	TCP/IP is set for automatic although I have tried assigning addresses but have the same results.	St
-1.1.8	Any ideas?	St
+1.1.1	We have two laptops in our office with the same symptoms .	St
+1.1.2	Both have internal wireless cards , one a B one a G. Both will function at the respective employee 's home .	St
+1.1.3	When at the office both can connect to the local network , see other computers , access files from the server and use the shared printer but can not access the internet .	St
+1.1.4	Disabling the internal NIC and using a different PCMCIA wifi card will allow access to the network and internet .	St
+1.1.5	As far as I can tell all the settings in the properties are the same .	St
+1.1.6	I have tried one of the laptops at a couple of WIFI hotspots in town with no problems .	St
+1.1.7	TCP/IP is set for automatic although I have tried assigning addresses but have the same results .	St
+1.1.8	Any ideas ?	Ques
 1.1.9	Thanks	Polite
-1.2.1	&quot;see other computers, access files from the server and use the shared printer but can not access the internet.&quot; Let's reduce this to just this sentence.	St
-1.2.2	To get to the internet we need a few things to work.	St
-1.2.3	1.	St
-1.2.4	The DNS (name resolving.)	St
-1.2.5	2.	St
-1.2.6	A route to the internet.	St
-1.2.7	Break down the issue to item 1 or 2. ie.	St
-1.2.8	test the DNS and then the route.	St
+1.2.1	& quot ; see other computers , access files from the server and use the shared printer but can not access the internet. & quot ; Let 's reduce this to just this sentence .	St
+1.2.2	To get to the internet we need a few things to work .	St
+1.2.3	1 .	St
+1.2.4	The DNS ( name resolving . )	St
+1.2.5	2 .	St
+1.2.6	A route to the internet .	St
+1.2.7	Break down the issue to item 1 or 2. ie .	St
+1.2.8	test the DNS and then the route .	St
 1.2.9	Bob	St
-1.3.1	I can't say I understand exactly how to test DNS but here is something I just tried.	St
-1.3.2	I am currently working with a plug in card, all items are accessed.	St
-1.3.3	Ran IPCONFIG and noted all the settings.	St
-1.3.4	Removed the card and reenabled the internal nic, again run IPCONFIG, all the information is the same except for MAC address and IP address.	St
-1.3.5	But still can not access internet.	St
-1.4.1	I don't have the details to see where the error is.	St
-1.4.2	But it appears you need some IT staffer to look over the areas I noted.	St
-1.4.3	You could ask google.com &quot;How do I test my DNS?&quot; and &quot;How do I test with traceroute?&quot; Bob	Sug
-1.5.1	I think not enough information is worse than no information at all.	St
-1.5.2	I don't believe it is DNS but hey I could be wrong.	St
-1.5.3	Running nslookup gives me the same results with either card.	St
-1.5.4	Can't quite see how DNS is related to a specific NIC.	St
-1.5.5	I'll keep looking for an acceptable answer.	St
-1.6.1	Since that step is done I'd check your route(s).	St
+1.3.1	I ca n't say I understand exactly how to test DNS but here is something I just tried .	St
+1.3.2	I am currently working with a plug in card , all items are accessed .	St
+1.3.3	Ran IPCONFIG and noted all the settings .	St
+1.3.4	Removed the card and reenabled the internal nic , again run IPCONFIG , all the information is the same except for MAC address and IP address .	St
+1.3.5	But still can not access internet .	St
+1.4.1	I do n't have the details to see where the error is .	St
+1.4.2	But it appears you need some IT staffer to look over the areas I noted .	St
+1.4.3	You could ask google.com & quot ; How do I test my DNS ? & quot ; and & quot ; How do I test with traceroute ? & quot ; Bob	Ques
+1.5.1	I think not enough information is worse than no information at all .	St
+1.5.2	I do n't believe it is DNS but hey I could be wrong .	St
+1.5.3	Running nslookup gives me the same results with either card .	St
+1.5.4	Ca n't quite see how DNS is related to a specific NIC .	St
+1.5.5	I 'll keep looking for an acceptable answer .	St
+1.6.1	Since that step is done I 'd check your route ( s ) .	St
 1.6.2	Bob	St

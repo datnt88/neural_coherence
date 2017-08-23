@@ -1,17 +1,17 @@
-1.1.1	I am trying to help a friend with his old compaq presario 4660.	St
-1.1.2	When i install a modem into one of the pci slots i get this at the bootup screen, Resource conflict - PCI bus:00 device:03 function:00 its using PheonixBios 4.0 release 6.0.13 what might be the problem, the modem is the only thing hooked up to the expansion slots, ive tried both pci slots and nothin seems to work.	St
-1.1.3	Any help would be great thx.	Polite
-1.2.1	Very old BIOS and machines will have this issue.	St
-1.2.2	While it sounds terrible, the only fixes are: 1.	St
-1.2.3	Updated BIOS (check hp.com) 2.	St
-1.2.4	Use an ISA or external modem (20 bucks out there..) 3.	St
-1.2.5	Change the motherboard.	St
+1.1.1	I am trying to help a friend with his old compaq presario 4660 .	St
+1.1.2	When i install a modem into one of the pci slots i get this at the bootup screen , Resource conflict - PCI bus:00 device:03 function:00 its using PheonixBios 4.0 release 6.0.13 what might be the problem , the modem is the only thing hooked up to the expansion slots , ive tried both pci slots and nothin seems to work .	St
+1.1.3	Any help would be great thx .	Polite
+1.2.1	Very old BIOS and machines will have this issue .	St
+1.2.2	While it sounds terrible , the only fixes are : 1 .	St
+1.2.3	Updated BIOS ( check hp.com ) 2 .	St
+1.2.4	Use an ISA or external modem ( 20 bucks out there.. ) 3 .	St
+1.2.5	Change the motherboard .	St
 1.2.6	Bob	St
-1.3.1	I just tried a isa modem (compaq presario 56k-df) but under device status it has the error: This divice is disabled because the firmware of the device did not give it the required resources.	St
-1.3.2	(code 29) thx again for the help.	St
-1.4.1	For the ISA modem, the system builder knows what to set in the BIOS such as the IRQ for PnP or &quot;Legacy&quot; or ISA.	St
-1.4.2	The system owner will also know to try COM2/IRQ3 and disable the onboard serial port 2 as well as the IRQ settings in the BIOS.	St
-1.4.3	It would have been nice to use the PCI modem, but without a current BIOS, you may be &quot;stuck&quot; in the old bad ways where we must know all about how to set BIOS settings and more.	St
-1.4.4	After the modem com/IRQ is set, the BIOS configured, a real hardware modem may not require a driver, but it may be a good idea to load one for your selected OS.	St
-1.4.5	I can't tell you how to do this since there are two bazillion ISA modem models, so just follow their instructions.	St
+1.3.1	I just tried a isa modem ( compaq presario 56k-df ) but under device status it has the error : This divice is disabled because the firmware of the device did not give it the required resources .	St
+1.3.2	( code 29 ) thx again for the help .	St
+1.4.1	For the ISA modem , the system builder knows what to set in the BIOS such as the IRQ for PnP or & quot ; Legacy & quot ; or ISA .	St
+1.4.2	The system owner will also know to try COM2/IRQ3 and disable the onboard serial port 2 as well as the IRQ settings in the BIOS .	St
+1.4.3	It would have been nice to use the PCI modem , but without a current BIOS , you may be & quot ; stuck & quot ; in the old bad ways where we must know all about how to set BIOS settings and more .	St
+1.4.4	After the modem com/IRQ is set , the BIOS configured , a real hardware modem may not require a driver , but it may be a good idea to load one for your selected OS .	St
+1.4.5	I ca n't tell you how to do this since there are two bazillion ISA modem models , so just follow their instructions .	St
 1.4.6	Bob	St

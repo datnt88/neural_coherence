@@ -1,111 +1,111 @@
-1.1.1	Greetings All, I have been experiencing some strange connectivity issues of late, my secured (WPA-PSK) wireless connection seems to 'die' without showing any obvious signs of disconnection.	St
-1.1.2	Internet traffic comes to a halt while P2P traffic either follows suit or is reduced to a trickle.	St
-1.1.3	All the while the wireless network manager is showing full connection (i.e.	St
-1.1.4	not limited) to my wireless router/gateway and I have a valid IP.	St
-1.1.5	Resetting the connection (i.e.	St
-1.1.6	manually disconnecting and then reconnecting) seems to do the trick but the problem recurs regularly, say once ever 30-60 minutes.	St
-1.1.7	I'm certain that the issue is not with my ADSL connection itself as during these little bouts of 'death' I am unable to reach the routers web interface (via a private IP).	St
-1.1.8	Also I am told that my house mates are not experiencing similar difficulties so I am leaning towards software, driver or local hardware issues (my only recent installation were two Microsoft security updates).	St
-1.1.9	Anyhow, I'll leave at that seeing as I have exhausted my list of things to say.	St
-1.1.10	Below are some technical details which my be pertinent to a diagnosis.	St
-1.1.11	I would appreciate any assistance provided.	Polite
-1.1.12	Operating System: Windows XP MCE 2005/Professional Wireless Network Adapter: Intel Pro/Wireless BG2200 (modes b & g) Wireless Router/Gateway: Netgear DG834GT (firmware version 1.02.4) Laters, Anubeon.	St
-1.2.1	If not, flip it back on.	St
-1.2.2	Do wired connections work ok?	St
-1.2.3	Does WEP work ok?	St
-1.2.4	Tell more.	St
-1.2.5	http://kbserver.netgear.com/kb_web_files/N101191.asp Bob	St
+1.1.1	Greetings All , I have been experiencing some strange connectivity issues of late , my secured ( WPA-PSK ) wireless connection seems to 'die ' without showing any obvious signs of disconnection .	St
+1.1.2	Internet traffic comes to a halt while P2P traffic either follows suit or is reduced to a trickle .	St
+1.1.3	All the while the wireless network manager is showing full connection ( i.e .	St
+1.1.4	not limited ) to my wireless router/gateway and I have a valid IP .	St
+1.1.5	Resetting the connection ( i.e .	St
+1.1.6	manually disconnecting and then reconnecting ) seems to do the trick but the problem recurs regularly , say once ever 30-60 minutes .	St
+1.1.7	I 'm certain that the issue is not with my ADSL connection itself as during these little bouts of 'death ' I am unable to reach the routers web interface ( via a private IP ) .	St
+1.1.8	Also I am told that my house mates are not experiencing similar difficulties so I am leaning towards software , driver or local hardware issues ( my only recent installation were two Microsoft security updates ) .	St
+1.1.9	Anyhow , I 'll leave at that seeing as I have exhausted my list of things to say .	St
+1.1.10	Below are some technical details which my be pertinent to a diagnosis .	St
+1.1.11	I would appreciate any assistance provided .	Polite
+1.1.12	Operating System : Windows XP MCE 2005/Professional Wireless Network Adapter : Intel Pro/Wireless BG2200 ( modes b & g ) Wireless Router/Gateway : Netgear DG834GT ( firmware version 1.02.4 ) Laters , Anubeon .	St
+1.2.1	If not , flip it back on .	St
+1.2.2	Do wired connections work ok ?	Ques
+1.2.3	Does WEP work ok ?	Ques
+1.2.4	Tell more .	St
+1.2.5	http : //kbserver.netgear.com/kb_web_files/N101191.asp Bob	St
 1.3.1	NIL	St
-1.4.1	Yes, SSID is presently enabled on the wireless router.	St
-1.4.2	Wired connections seem to work fine, at the time the router was not connected to the internet; I had connected to the router to update the firmware and there is no telephone outlet near my laptop (which is a monster so I wasn't going to move IT to the router).	St
-1.4.3	I haven't tried WEP for a while, it worked fine the last time (about 1 year ago now) though.	St
-1.4.4	It may be worth noting that WPA-PSK has been enabled on the router for approx.	St
-1.4.5	2 months now with no connectivity issues to speak of so one must assume it isn't an issue router side.	St
-1.4.6	Besides I would expect any issues regards security (specifically authentication and key exchange) to present themselves as clear cases of disconnection as opposed to this limbo where there clearly is some degree of connectivity but nothing seems to be communicating.	St
-1.4.7	Maybe I'm wrong though.	St
-1.4.8	I'm hoping that one of the recent security updates from Microsoft is having an adverse yet mild effect on wireless connectivity.	St
-1.4.9	If so the next batch of updates may fix the problem (*crosses fingers*) or perhaps an sfc scan is in order.	St
-1.4.10	(*crosses fingers tighter*) If you require any specifics (re: tell more) feel free to e-mail me or else reply to this thread and I'll happily provide as required.	St
-1.4.11	I can't think of anything else off hand.	St
-1.4.12	Laters, Anubeon (@gmail).	St
-1.5.1	If by portable phone you mean DECT enabled then yes we do have a portable phone.	St
-1.5.2	I am presently running the router on channel 5, it seemed a good channel to operate out of as the plethora of nearby wireless devices all seemed to be running on channels 11, 3 and 4.	St
-1.5.3	Again it's worth noting that we out DECT phone and router have been operating side by side (quite literally, they're located less than 30 cm from each other) for almost 8 months now with no trouble.	St
-1.5.4	I could try changing the router channel just to be sure but I suspect that interference from outer wireless devices is unlikely given the aforementioned.	Sug
-1.5.5	PS: I have just this second conducted a survey of my wireless surrounding and as suspected there are no Wi-Fi enabled devices within range operating out of channel 5.	St
-1.6.1	&quot;It may be worth noting that WPA-PSK has been enabled on the router for approx.	St
-1.6.2	2 months now with no connectivity issues to speak of so one must assume it isn't an issue router side&quot; What I've found is that other machines would work find except the one that didn't.	St
-1.6.3	(Yup!)	St
-1.6.4	And areas are muddy so we fall back to no encryption as well as a site survey to find out if there are interfering networks.	St
-1.6.5	We change the RF channel to the one with the least on it and retest.	St
-1.6.6	All this is quite costly if you don't do it yourself.	St
-1.6.7	More troubles begin when the owner points out that machine a and b work fine so we shouldn't be touching the router.	St
-1.6.8	Since &quot;Tech&quot; works by the hour we are more than willing to do this for them.	St
-1.6.9	(more hours and money for tech) Another recurring issue besides SSID and firmware are bugs in the wireless connection software.	St
-1.6.10	Sometimes I find it necessary to disable or enable Microsoft's WZC service but have yet to find a firm protocol as to why we have to do this.	St
-1.6.11	-&gt; In closing I have yet to find a Microsoft update to cause this but I'm sure other people will say it's not so.	St
+1.4.1	Yes , SSID is presently enabled on the wireless router .	St
+1.4.2	Wired connections seem to work fine , at the time the router was not connected to the internet ; I had connected to the router to update the firmware and there is no telephone outlet near my laptop ( which is a monster so I was n't going to move IT to the router ) .	St
+1.4.3	I have n't tried WEP for a while , it worked fine the last time ( about 1 year ago now ) though .	St
+1.4.4	It may be worth noting that WPA-PSK has been enabled on the router for approx .	St
+1.4.5	2 months now with no connectivity issues to speak of so one must assume it is n't an issue router side .	St
+1.4.6	Besides I would expect any issues regards security ( specifically authentication and key exchange ) to present themselves as clear cases of disconnection as opposed to this limbo where there clearly is some degree of connectivity but nothing seems to be communicating .	St
+1.4.7	Maybe I 'm wrong though .	St
+1.4.8	I 'm hoping that one of the recent security updates from Microsoft is having an adverse yet mild effect on wireless connectivity .	St
+1.4.9	If so the next batch of updates may fix the problem ( *crosses fingers* ) or perhaps an sfc scan is in order .	St
+1.4.10	( *crosses fingers tighter* ) If you require any specifics ( re : tell more ) feel free to e-mail me or else reply to this thread and I 'll happily provide as required .	St
+1.4.11	I ca n't think of anything else off hand .	St
+1.4.12	Laters , Anubeon ( @ gmail ) .	St
+1.5.1	If by portable phone you mean DECT enabled then yes we do have a portable phone .	St
+1.5.2	I am presently running the router on channel 5 , it seemed a good channel to operate out of as the plethora of nearby wireless devices all seemed to be running on channels 11 , 3 and 4 .	St
+1.5.3	Again it 's worth noting that we out DECT phone and router have been operating side by side ( quite literally , they 're located less than 30 cm from each other ) for almost 8 months now with no trouble .	St
+1.5.4	I could try changing the router channel just to be sure but I suspect that interference from outer wireless devices is unlikely given the aforementioned .	Sug
+1.5.5	PS : I have just this second conducted a survey of my wireless surrounding and as suspected there are no Wi-Fi enabled devices within range operating out of channel 5 .	St
+1.6.1	& quot ; It may be worth noting that WPA-PSK has been enabled on the router for approx .	St
+1.6.2	2 months now with no connectivity issues to speak of so one must assume it is n't an issue router side & quot ; What I 've found is that other machines would work find except the one that did n't .	St
+1.6.3	( Yup ! )	St
+1.6.4	And areas are muddy so we fall back to no encryption as well as a site survey to find out if there are interfering networks .	St
+1.6.5	We change the RF channel to the one with the least on it and retest .	St
+1.6.6	All this is quite costly if you do n't do it yourself .	St
+1.6.7	More troubles begin when the owner points out that machine a and b work fine so we should n't be touching the router .	St
+1.6.8	Since & quot ; Tech & quot ; works by the hour we are more than willing to do this for them .	St
+1.6.9	( more hours and money for tech ) Another recurring issue besides SSID and firmware are bugs in the wireless connection software .	St
+1.6.10	Sometimes I find it necessary to disable or enable Microsoft 's WZC service but have yet to find a firm protocol as to why we have to do this .	St
+1.6.11	- & gt ; In closing I have yet to find a Microsoft update to cause this but I 'm sure other people will say it 's not so .	St
 1.6.12	Bob	St
-1.7.1	Hmm, well I'm operating out of channel 5 which is unique to this locality; there are 4 -5 other wireless access points in operation nearby and all are operating out of channel 11 bar one which is operating out of channel 3.	St
-1.7.2	I've done all that I can think of regards the router; I've unplugged the router allowing to have 'a bit of rest and relaxation' for a few hours, I've updated the firmware to the latest version, I've double checked all of the configurations, I've even performed a full reset to factory default.	St
-1.7.3	So router wise I think things are fine, although as you say it could well be.	St
-1.7.4	I've already updating my wireless cards drivers to the latest version available on the toshiba website and I'll try disabling the presently active windows zero configuration software and switch to the much prettier toshiba interface (it's a bit to teletubby for my liking but meh).	St
-1.7.5	Never know it may well help.	St
-1.7.6	But before going to such drastic measures (yuk!	St
-1.7.7	teletubies) I'm going to try an sfc scan, perhaps my heavily used hard drives have corrupted a key system file associated with the WZC software itself perhaps?	St
-1.7.8	It could of course just be one of those days (or rather three days) when the gods of the Wi-Fi standard look down upon me and curse me to days of torment followed by an unexplained revival of my Wi-Fortunes.	St
-1.7.9	In other words it could fix itself as so often these things tend to do; whoever said computers only do what you tell them to do (the tech guy at my former university department) obviously has no idea what he's talking about (they have their own agenda, windows workstations the world over seek utter world domination).	St
-1.7.10	:P Again thanks for taking the time to reply, I think (unless someone with specific experience of this phenomena comes to the fore) I'll have to take a wait and see approach (*waits and sees, or rather doesn't see*).	St
-1.7.11	Anubeon (@gmail.com)	St
-1.8.1	This was exactly a scenario that was fixed by stopping the WZC service.	St
-1.8.2	It's a repeating issue so best of luck, Bob	St
-1.9.1	Well I've disabled WZC but it doesn't seem to be the issue, I really hope this isn't a router issue it's out of warranty.	St
-1.9.2	As a side note does anybody know of a decent feature packed alternative to WZC?	St
-1.10.1	Sometimes I hear this from P2P users.	St
-1.10.2	Most of them like Limewire which is always bad news.	St
-1.10.3	See my SiXPack post under our VS&A Forum sticky at http://forums.cnet.com/5208-6132_102-0.html?forumID=32&threadID=238606&messageID=2432058 The only acceptable pests are none.	St
+1.7.1	Hmm , well I 'm operating out of channel 5 which is unique to this locality ; there are 4 -5 other wireless access points in operation nearby and all are operating out of channel 11 bar one which is operating out of channel 3 .	St
+1.7.2	I 've done all that I can think of regards the router ; I 've unplugged the router allowing to have 'a bit of rest and relaxation ' for a few hours , I 've updated the firmware to the latest version , I 've double checked all of the configurations , I 've even performed a full reset to factory default .	St
+1.7.3	So router wise I think things are fine , although as you say it could well be .	St
+1.7.4	I 've already updating my wireless cards drivers to the latest version available on the toshiba website and I 'll try disabling the presently active windows zero configuration software and switch to the much prettier toshiba interface ( it 's a bit to teletubby for my liking but meh ) .	St
+1.7.5	Never know it may well help .	St
+1.7.6	But before going to such drastic measures ( yuk !	St
+1.7.7	teletubies ) I 'm going to try an sfc scan , perhaps my heavily used hard drives have corrupted a key system file associated with the WZC software itself perhaps ?	Ques
+1.7.8	It could of course just be one of those days ( or rather three days ) when the gods of the Wi-Fi standard look down upon me and curse me to days of torment followed by an unexplained revival of my Wi-Fortunes .	St
+1.7.9	In other words it could fix itself as so often these things tend to do ; whoever said computers only do what you tell them to do ( the tech guy at my former university department ) obviously has no idea what he 's talking about ( they have their own agenda , windows workstations the world over seek utter world domination ) .	Sug
+1.7.10	: P Again thanks for taking the time to reply , I think ( unless someone with specific experience of this phenomena comes to the fore ) I 'll have to take a wait and see approach ( *waits and sees , or rather does n't see* ) .	St
+1.7.11	Anubeon ( @ gmail.com )	St
+1.8.1	This was exactly a scenario that was fixed by stopping the WZC service .	St
+1.8.2	It 's a repeating issue so best of luck , Bob	Polite
+1.9.1	Well I 've disabled WZC but it does n't seem to be the issue , I really hope this is n't a router issue it 's out of warranty .	St
+1.9.2	As a side note does anybody know of a decent feature packed alternative to WZC ?	Ques
+1.10.1	Sometimes I hear this from P2P users .	St
+1.10.2	Most of them like Limewire which is always bad news .	St
+1.10.3	See my SiXPack post under our VS & A Forum sticky at http : //forums.cnet.com/5208-6132_102-0.html ? forumID=32 & threadID=238606 & messageID=2432058 The only acceptable pests are none .	St
 1.10.4	Bob	St
-1.11.1	I've just done a full virus scan via avast!	St
-1.11.2	and hey presto it would appear that my computer has a virus or two.	St
-1.11.3	I can't think where I might have picked them up though, I only ever use eMule and uTorrent for audio and video downloads.	St
-1.11.4	Oh well I'm going to run the full battery of tests (online scans and fixes) as you've recommended in your response to the quoted thread.	St
-1.11.5	I suspect that should fix my problem (I started to get some errors pointing towards viral/spyware late last night).	St
-1.11.6	Thanks for the response, those resources will come in very handy!	St
-1.11.7	Anubeon.	St
-1.12.1	Sorry to hear that.	St
-1.12.2	But I'm close to declaring P2P use over wifi to be dead.	St
-1.12.3	I'm going to check in with my cohorts but it's looking like wifi and P2P are a bad mix.	St
+1.11.1	I 've just done a full virus scan via avast !	St
+1.11.2	and hey presto it would appear that my computer has a virus or two .	St
+1.11.3	I ca n't think where I might have picked them up though , I only ever use eMule and uTorrent for audio and video downloads .	St
+1.11.4	Oh well I 'm going to run the full battery of tests ( online scans and fixes ) as you 've recommended in your response to the quoted thread .	St
+1.11.5	I suspect that should fix my problem ( I started to get some errors pointing towards viral/spyware late last night ) .	St
+1.11.6	Thanks for the response , those resources will come in very handy !	St
+1.11.7	Anubeon .	St
+1.12.1	Sorry to hear that .	St
+1.12.2	But I 'm close to declaring P2P use over wifi to be dead .	St
+1.12.3	I 'm going to check in with my cohorts but it 's looking like wifi and P2P are a bad mix .	St
 1.12.4	Bob	St
-1.13.1	maybe you need MORE POWER SCOTTY how far away are these points are they past the recommended distance are there any walls the signal has to go through \ do you live around a electrical substation or an area that has a lot of communications towers around have you tryed a wireless point expander to make sure the signal is coming through good IS YOUR SPOUSES FAT HEAD IN THE WAY ,,, joke.... you could go spend 1000 bucks on a wave meter to see where your signal is going dead but point adapters are cheaper and will bounce your signal all over your neighborhood if you use enough i would say it sounds as if something is blocking your signal path or it is weak all together and when you buy wireless adapters THEY ALL ARE NOT CREATED EQUAL meaning the more KNOWN brand names are better then say the less known names and in my view CISCO LINKSYS DLINK have been doing it TOGETHER longer then any other makers so keep that in mind when making your choice ELECTRONICS HAS CLASSES A,B,C, A more expensive(better quality of hardware componets) B(moderate hardware using more software)C(I GOT THE WHOLE LOT FOR 10 DOLLARS and we pass these savings onto to you) the consumer maybe your neighbor has a wireless setup overpowering your signal it really could be anything and like all trouble shooting COMPUTING start at A&gt; dont give up or smash your pc or any other equipment you may own till you get to Z and it STILL FAILS &gt;then its time to show that equipment just who is boss CHUCK it into the no more ICs for you BUDDY bin and purchase new equipment 1-800-33qad;	St
-1.14.1	Well you say that but I've been using both eMule and uTorrent over my wireless connection happily for years, it's only these past few weeks that I've had issues.	St
-1.14.2	I'm beginning to think that there may be an underlying hardware issue at work here.	St
-1.14.3	I would however appreciate input from more technologically inclined sources.	Polite
-1.14.4	*** WARNING: VERY LONG PASSAGE AHEAD *** I noticed some weeks ago that my display presented with a pixel width vertical line in the left hand side of the screen, this line appears only after prolonged off states and gradually fades out (through green/white colouration) after a few seconds.	St
-1.14.5	The line also appears during boot time operations so it seemed obvious that it was hardware and not software related.	St
-1.14.6	Anyhow given this information I felt that a call to technical support was in question, however knowing all to well how such calls tend to drag on I decided that I would take care of the obligatory factory reset before hand just to clarify that it wasn't software related.	St
-1.14.7	Before conducting the factory reset (using the product recovery media provided by Toshiba) I attempted to backup my many files to CD-R and DVD+R however I found that my DVD Multi-Drive (a Matshita *scoff*) no longer recognised writeable optical media for some reason (I have experienced a similar issue with a previous Matshita drive which had to be replaced) so I ended up losing many a file that day.	St
-1.14.8	After product recover completed I decided given that the laptop was going in for a service anyway (the display fault was certainly hardware) that I would bring my system back up to spec.	St
-1.14.9	(installed windows updates, driver updates and key software) and make a drive image to write to DVD+R (I had hoped that the product recovery had fixed the aforementioned drive issue).	St
-1.14.10	Using O&O DriveImage I attempted to create, you guessed it, a drive image only to find each time (twice) the software caused a BSoD.	St
-1.14.11	After analysing the respective mini-dumps I traced both instances back to ntoskrnl.exe; the first system error was identified as WINLOGON_FATAL_ERROR (c000021a) and the second as DRIVER_IRQL_NOT_LESS_OR_EQUAL (d1).	St
-1.14.12	Then it came time to write to optical media (I never got around to creating the disk image thanks to the BSoDs) and what do I find, the drive now recognises writeable optical media but it fails part way through the write process citing 'power calibration error'.	St
-1.14.13	I'm fairly certain that at the very least I have a faulty display and a faulty optical drive on my hands, but my question is thus; could faulty memory or worse still a faulty motherboard be the cause of all of my woes and if so how would I go about testing this hypothesis (remember I don't have a working CD-R drive or a floppy drive so memtest is out of the question)?	St
-1.14.14	Also if it does turn out to be a motherboard issue is it economic to replace/repair a laptop motherboard c.f.	St
-1.14.15	replacing the entire laptop?	St
-1.14.16	*** END OF VERY LONG PASSAGE, THANK YOU FOR READING :P *** Kindest Regards, Anubeon (@gmail.com).	St
-1.14.17	If anybody out there can analyze mini-dump files (beyond my poultry efforts) I can make the files available via the wonder that is e-mail.	St
-1.14.18	I would appreciate any assistance rendered, the more information I have the less time I'll have to spend on the phone convincing technical support that there is (at least one) hardware fault.	Polite
-1.15.1	...again I find myself citing precedent; my households wireless network in its present configuration has been fully operational without issue for almost two years now.	St
-1.15.2	The have been (extremely) occasional router side issues caused by overheating (a necessary evil of running P2P over a wireless network I'm told) but beyond that nothing.	St
-1.15.3	Additionally my housemates inform me that they are having no issues with the wireless network, this all suggests to me that rather than an endemic issue it is more systematic.	St
-1.15.4	More the result of diagnosable software or hardware issues than of wireless signal dampening/loss or interference.	St
-1.15.5	Of course I cannot entirely rule out the possibility that vast ground level atmospheric differentials have somehow swept into my house and caused reception issues, but I feel it unlikely seeing as it isn't raining in the living room and we haven't had a snow storm in the kitchen for at least a year now.	St
-1.15.6	:P Thanks for the reply, but to be honest I had considered and rejected everything you had said long before resorting to a support forum (for various reasons).	St
-1.15.7	Laters, Anubeon(@gmail.com)	St
-1.16.1	...Oh nearly forgot to mention that while I occasionally use eMule it has really been active these recent months.	St
-1.16.2	So While I do frequently use uTorrent, eMule is presently out of action (by choice).	St
-1.16.3	I am aware that P2P can cause wireless routers to overheat with the excessive number of connections, but I have experience this phenomena before and it usually results in windows reporting limited or no connection or disconnection in the wireless network manager.	St
-1.16.4	Furthermore such overheating usually requires that I reboot the router and/or wait a few minutes before connecting.	St
-1.16.5	As detailed above this is not the case here; the wireless connection is still reported as fully connected by windows, downstream network activity diminishes to 0.0 kbps while upstream activity remains active albeit limited to a few kbps (so there is definitely still some connectivity) and I can (usually) resolve the issue immediately by simply (manually) reconnecting.	St
-1.16.6	To be honest I've almost given up on this one, you've presented very logical arguments and valid solutions and I thank you for it but I think it's time to just hand over to the technical support guys with their spanner and hack saws and hope that the issue is resolved.	St
-1.16.7	If not I'll be back here for suggestions, after ranting down the phone line to technical support of course.	St
-1.16.8	:P	St
+1.13.1	maybe you need MORE POWER SCOTTY how far away are these points are they past the recommended distance are there any walls the signal has to go through \ do you live around a electrical substation or an area that has a lot of communications towers around have you tryed a wireless point expander to make sure the signal is coming through good IS YOUR SPOUSES FAT HEAD IN THE WAY , , , joke ... . you could go spend 1000 bucks on a wave meter to see where your signal is going dead but point adapters are cheaper and will bounce your signal all over your neighborhood if you use enough i would say it sounds as if something is blocking your signal path or it is weak all together and when you buy wireless adapters THEY ALL ARE NOT CREATED EQUAL meaning the more KNOWN brand names are better then say the less known names and in my view CISCO LINKSYS DLINK have been doing it TOGETHER longer then any other makers so keep that in mind when making your choice ELECTRONICS HAS CLASSES A , B , C , A more expensive ( better quality of hardware componets ) B ( moderate hardware using more software ) C ( I GOT THE WHOLE LOT FOR 10 DOLLARS and we pass these savings onto to you ) the consumer maybe your neighbor has a wireless setup overpowering your signal it really could be anything and like all trouble shooting COMPUTING start at A & gt ; dont give up or smash your pc or any other equipment you may own till you get to Z and it STILL FAILS & gt ; then its time to show that equipment just who is boss CHUCK it into the no more ICs for you BUDDY bin and purchase new equipment 1-800-33qad ;	St
+1.14.1	Well you say that but I 've been using both eMule and uTorrent over my wireless connection happily for years , it 's only these past few weeks that I 've had issues .	St
+1.14.2	I 'm beginning to think that there may be an underlying hardware issue at work here .	St
+1.14.3	I would however appreciate input from more technologically inclined sources .	Polite
+1.14.4	*** WARNING : VERY LONG PASSAGE AHEAD *** I noticed some weeks ago that my display presented with a pixel width vertical line in the left hand side of the screen , this line appears only after prolonged off states and gradually fades out ( through green/white colouration ) after a few seconds .	St
+1.14.5	The line also appears during boot time operations so it seemed obvious that it was hardware and not software related .	St
+1.14.6	Anyhow given this information I felt that a call to technical support was in question , however knowing all to well how such calls tend to drag on I decided that I would take care of the obligatory factory reset before hand just to clarify that it was n't software related .	St
+1.14.7	Before conducting the factory reset ( using the product recovery media provided by Toshiba ) I attempted to backup my many files to CD-R and DVD+R however I found that my DVD Multi-Drive ( a Matshita *scoff* ) no longer recognised writeable optical media for some reason ( I have experienced a similar issue with a previous Matshita drive which had to be replaced ) so I ended up losing many a file that day .	St
+1.14.8	After product recover completed I decided given that the laptop was going in for a service anyway ( the display fault was certainly hardware ) that I would bring my system back up to spec .	St
+1.14.9	( installed windows updates , driver updates and key software ) and make a drive image to write to DVD+R ( I had hoped that the product recovery had fixed the aforementioned drive issue ) .	St
+1.14.10	Using O & O DriveImage I attempted to create , you guessed it , a drive image only to find each time ( twice ) the software caused a BSoD .	St
+1.14.11	After analysing the respective mini-dumps I traced both instances back to ntoskrnl.exe ; the first system error was identified as WINLOGON_FATAL_ERROR ( c000021a ) and the second as DRIVER_IRQL_NOT_LESS_OR_EQUAL ( d1 ) .	St
+1.14.12	Then it came time to write to optical media ( I never got around to creating the disk image thanks to the BSoDs ) and what do I find , the drive now recognises writeable optical media but it fails part way through the write process citing 'power calibration error ' .	St
+1.14.13	I 'm fairly certain that at the very least I have a faulty display and a faulty optical drive on my hands , but my question is thus ; could faulty memory or worse still a faulty motherboard be the cause of all of my woes and if so how would I go about testing this hypothesis ( remember I do n't have a working CD-R drive or a floppy drive so memtest is out of the question ) ?	Ques
+1.14.14	Also if it does turn out to be a motherboard issue is it economic to replace/repair a laptop motherboard c.f .	St
+1.14.15	replacing the entire laptop ?	Ques
+1.14.16	*** END OF VERY LONG PASSAGE , THANK YOU FOR READING : P *** Kindest Regards , Anubeon ( @ gmail.com ) .	St
+1.14.17	If anybody out there can analyze mini-dump files ( beyond my poultry efforts ) I can make the files available via the wonder that is e-mail .	St
+1.14.18	I would appreciate any assistance rendered , the more information I have the less time I 'll have to spend on the phone convincing technical support that there is ( at least one ) hardware fault .	St
+1.15.1	... again I find myself citing precedent ; my households wireless network in its present configuration has been fully operational without issue for almost two years now .	St
+1.15.2	The have been ( extremely ) occasional router side issues caused by overheating ( a necessary evil of running P2P over a wireless network I 'm told ) but beyond that nothing .	St
+1.15.3	Additionally my housemates inform me that they are having no issues with the wireless network , this all suggests to me that rather than an endemic issue it is more systematic .	St
+1.15.4	More the result of diagnosable software or hardware issues than of wireless signal dampening/loss or interference .	St
+1.15.5	Of course I can not entirely rule out the possibility that vast ground level atmospheric differentials have somehow swept into my house and caused reception issues , but I feel it unlikely seeing as it is n't raining in the living room and we have n't had a snow storm in the kitchen for at least a year now .	St
+1.15.6	: P Thanks for the reply , but to be honest I had considered and rejected everything you had said long before resorting to a support forum ( for various reasons ) .	St
+1.15.7	Laters , Anubeon ( @ gmail.com )	St
+1.16.1	... Oh nearly forgot to mention that while I occasionally use eMule it has really been active these recent months .	St
+1.16.2	So While I do frequently use uTorrent , eMule is presently out of action ( by choice ) .	St
+1.16.3	I am aware that P2P can cause wireless routers to overheat with the excessive number of connections , but I have experience this phenomena before and it usually results in windows reporting limited or no connection or disconnection in the wireless network manager .	St
+1.16.4	Furthermore such overheating usually requires that I reboot the router and/or wait a few minutes before connecting .	St
+1.16.5	As detailed above this is not the case here ; the wireless connection is still reported as fully connected by windows , downstream network activity diminishes to 0.0 kbps while upstream activity remains active albeit limited to a few kbps ( so there is definitely still some connectivity ) and I can ( usually ) resolve the issue immediately by simply ( manually ) reconnecting .	St
+1.16.6	To be honest I 've almost given up on this one , you 've presented very logical arguments and valid solutions and I thank you for it but I think it 's time to just hand over to the technical support guys with their spanner and hack saws and hope that the issue is resolved .	St
+1.16.7	If not I 'll be back here for suggestions , after ranting down the phone line to technical support of course .	St
+1.16.8	: P	St

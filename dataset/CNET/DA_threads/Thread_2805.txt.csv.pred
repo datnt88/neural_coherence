@@ -1,48 +1,48 @@
-1.1.1	I just bought a new 120 gig seagate harddrive, (it is the &quot;E:&quot; drive on my machine); and I transferred bunch of .wav and .mp3 files to it from C: drive.	St
-1.1.2	when I play the files back, it's like I'm back in LP record land.	St
-1.1.3	clicks and pops all over.	St
-1.1.4	(the files sound fine when played off the c: drive.)	St
-1.1.5	anyone have any idea what is causing this?	Ques
-1.1.6	is this a defective drive?	St
-1.1.7	I tried xferring files one at a time, no help - fj	St
-1.2.1	this an 1800 AMD chip system on an MSI mobo running windows 2000. the C: drive is a 30 gb WD drive.	St
-1.2.2	the 120 gb e: drive in question is on the same cable as the C:, cable select jumpers, so it's the primary slave.	St
-1.2.3	has a soundblaster live card, never had any problem with it before.	St
-1.2.4	--fj	St
-1.3.1	well these clicks and pops are all happening at the same time the &quot;hard drive read&quot; light flashes.	St
-1.3.2	is this a dead drive?	St
-1.3.3	I just bought it from tiger direct.	St
-1.3.4	--fj	St
-1.4.1	Double click the controller for drive in Device Manager.	St
-1.4.2	See if it shows under Advanced settings that it is using Ultra DMA 5.	St
-1.4.3	If you forget to change the BIOS and set it to Auto for a new drive it will work, but it will not work at the optimal speed.	St
-1.5.1	in device manager, under IDE ATA/ATAPI controllers, clicking on properties/ advanced I see the c: drive is in ultra DMA mode BUT for the new troublesome drive, the transfer mode says &quot;DMA if available&quot; but the &quot;current transfer mode&quot; says PIO Mode.	St
-1.5.2	-- what the heck is that?	St
-1.5.3	???	St
-1.5.4	thanks for your help!	Polite
-1.5.5	(I think everything was set to auto in the BIOS but I can check again) --fj	St
-1.6.1	seagate support is sending me some diagnostics-- they think it's not the drive, they've never heard of this before.	St
-1.6.2	will try a differnt cable!	Sug
+1.1.1	I just bought a new 120 gig seagate harddrive , ( it is the & quot ; E : & quot ; drive on my machine ) ; and I transferred bunch of .wav and .mp3 files to it from C : drive .	St
+1.1.2	when I play the files back , it 's like I 'm back in LP record land .	St
+1.1.3	clicks and pops all over .	St
+1.1.4	( the files sound fine when played off the c : drive . )	St
+1.1.5	anyone have any idea what is causing this ?	Ques
+1.1.6	is this a defective drive ?	Ques
+1.1.7	I tried xferring files one at a time , no help - fj	St
+1.2.1	this an 1800 AMD chip system on an MSI mobo running windows 2000. the C : drive is a 30 gb WD drive .	St
+1.2.2	the 120 gb e : drive in question is on the same cable as the C : , cable select jumpers , so it 's the primary slave .	St
+1.2.3	has a soundblaster live card , never had any problem with it before .	St
+1.2.4	-- fj	St
+1.3.1	well these clicks and pops are all happening at the same time the & quot ; hard drive read & quot ; light flashes .	St
+1.3.2	is this a dead drive ?	Ques
+1.3.3	I just bought it from tiger direct .	St
+1.3.4	-- fj	St
+1.4.1	Double click the controller for drive in Device Manager .	St
+1.4.2	See if it shows under Advanced settings that it is using Ultra DMA 5 .	St
+1.4.3	If you forget to change the BIOS and set it to Auto for a new drive it will work , but it will not work at the optimal speed .	St
+1.5.1	in device manager , under IDE ATA/ATAPI controllers , clicking on properties/ advanced I see the c : drive is in ultra DMA mode BUT for the new troublesome drive , the transfer mode says & quot ; DMA if available & quot ; but the & quot ; current transfer mode & quot ; says PIO Mode .	St
+1.5.2	-- what the heck is that ?	Ques
+1.5.3	? ? ?	Ques
+1.5.4	thanks for your help !	Polite
+1.5.5	( I think everything was set to auto in the BIOS but I can check again ) -- fj	St
+1.6.1	seagate support is sending me some diagnostics -- they think it 's not the drive , they 've never heard of this before .	St
+1.6.2	will try a differnt cable !	Sug
 1.6.3	- fj	St
-1.7.1	One thing to check is that you don't have an IRQ conflict.	St
-1.7.2	Device manager, system, view by resource connection.	St
-1.7.3	It could be each disk access is causing an interrupt on the same address as the sound card.	St
-1.7.4	Just my thought but I tend to make hard drives masters on each IDE and let the less used devices be secondary.	St
-1.8.1	well I put the drive on the secondary IDE cable and all is fixed.	St
-1.8.2	fyi PIO mode is a really slow mode.	St
+1.7.1	One thing to check is that you do n't have an IRQ conflict .	St
+1.7.2	Device manager , system , view by resource connection .	St
+1.7.3	It could be each disk access is causing an interrupt on the same address as the sound card .	St
+1.7.4	Just my thought but I tend to make hard drives masters on each IDE and let the less used devices be secondary .	St
+1.8.1	well I put the drive on the secondary IDE cable and all is fixed .	St
+1.8.2	fyi PIO mode is a really slow mode .	St
 1.8.3	.	St
 1.8.4	.	St
-1.8.5	probably caused by faulty cable.	St
-1.8.6	time to get to microcenter!	St
+1.8.5	probably caused by faulty cable .	St
+1.8.6	time to get to microcenter !	St
 1.8.7	- fj	St
-1.9.1	Try buying a new UDMA cable.	St
-1.9.2	They're usually not that expensive.	St
-1.9.3	Search http://www.pricewatch.com for some.	St
-1.10.1	Actually the PIO mode is usually caused by not going into the BIOS and setting the drive to AUTO when you add a new drive to a system.	St
-1.10.2	Are you sure you did this when it was plugged into the other connector?	St
-1.11.1	hmm, no i didn't, but i seem to recall it was set to that anyway when i looked-- is that not the default?	St
-1.11.2	next restart I'll give it a look!	St
-1.11.3	thanks - if that's the fix you'll save me buying a new cable --fj	Polite
-1.12.1	well I set eveyrhting to auto in the bios and it still came up in PIO mode-- i think it's the cable.	St
-1.12.2	I hope it's not anything on the mobo!	St
+1.9.1	Try buying a new UDMA cable .	St
+1.9.2	They 're usually not that expensive .	St
+1.9.3	Search http : //www.pricewatch.com for some .	St
+1.10.1	Actually the PIO mode is usually caused by not going into the BIOS and setting the drive to AUTO when you add a new drive to a system .	St
+1.10.2	Are you sure you did this when it was plugged into the other connector ?	Ques
+1.11.1	hmm , no i did n't , but i seem to recall it was set to that anyway when i looked -- is that not the default ?	Ques
+1.11.2	next restart I 'll give it a look !	St
+1.11.3	thanks - if that 's the fix you 'll save me buying a new cable -- fj	Polite
+1.12.1	well I set eveyrhting to auto in the bios and it still came up in PIO mode -- i think it 's the cable .	St
+1.12.2	I hope it 's not anything on the mobo !	St
 1.12.3	- -fj	St

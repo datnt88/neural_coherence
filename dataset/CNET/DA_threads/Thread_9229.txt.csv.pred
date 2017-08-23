@@ -1,15 +1,15 @@
-1.1.1	I have two video cards in my system, controlling three displays.	St
-1.1.2	I have an XFX GeForce 8800GT controlling my primary 20&quot; display, and an XFX 7200GS controlling my secondary 19&quot; display, and my TV via S-Video.	St
-1.1.3	I want to upgrade to an AMD 4890 for the primary display, and use the 8800GT for the secondary monitor and the TV.	St
-1.1.4	My question is: can I have an AMD card and an nVidia card both running simultaneously in this configuration?	St
-1.1.5	Also, since XFX uses proprietary Forceware drivers, can I also have a non XFX nVidia card in the system?	St
-1.1.6	Here is my system configuration: Mobo: Asus Striker II Formula (nVidia 780i chipset) Primary Video Card: XFX GeForce 8800GT Secondary Video Card: XFX GeForce 7200GS Operating System: Windows 7 Ultimate 64-bit	St
-1.2.1	ati and nvidia drivers typically don't get along well.	St
-1.2.2	they may work, but you will run into problems (especially using hd decoding, video playback, etc.)	St
-1.2.3	btw, nvidia drivers will work with any nvidia card from any manufacturer... even xfx.	St
-1.3.1	The PCI bus has made this easier than it used to be, because it allows multiple VGA cards to co-exist in one machine.	St
-1.3.2	You need a special driver to let Windows see them as a single display, and since the drivers come from the video card's manufacturer, that means that all the cards must be identical (the Matrox Millenium has been mentioned as one, but there may be others).	St
-1.3.3	All of the cards except one must have VGA emulation turned off (the system needs one VGA card to boot, but more than one would cause conflicts).	St
-1.3.4	There are also video cards that have more than one VGA chipset and come with special drivers that make them behave like a single VGA card, but they may be expensive and hard to find.	St
-1.3.5	Brands that have been mentioned include STB, Colorgraphics, and Appian Graphics.	St
-1.3.6	Check card models listed in the Chipsets List (distributed with this FAQ) for multiple (usually 2 or 4) monitor support.	St
+1.1.1	I have two video cards in my system , controlling three displays .	St
+1.1.2	I have an XFX GeForce 8800GT controlling my primary 20 & quot ; display , and an XFX 7200GS controlling my secondary 19 & quot ; display , and my TV via S-Video .	St
+1.1.3	I want to upgrade to an AMD 4890 for the primary display , and use the 8800GT for the secondary monitor and the TV .	St
+1.1.4	My question is : can I have an AMD card and an nVidia card both running simultaneously in this configuration ?	Ques
+1.1.5	Also , since XFX uses proprietary Forceware drivers , can I also have a non XFX nVidia card in the system ?	Ques
+1.1.6	Here is my system configuration : Mobo : Asus Striker II Formula ( nVidia 780i chipset ) Primary Video Card : XFX GeForce 8800GT Secondary Video Card : XFX GeForce 7200GS Operating System : Windows 7 Ultimate 64-bit	St
+1.2.1	ati and nvidia drivers typically do n't get along well .	St
+1.2.2	they may work , but you will run into problems ( especially using hd decoding , video playback , etc . )	St
+1.2.3	btw , nvidia drivers will work with any nvidia card from any manufacturer ... even xfx .	St
+1.3.1	The PCI bus has made this easier than it used to be , because it allows multiple VGA cards to co-exist in one machine .	St
+1.3.2	You need a special driver to let Windows see them as a single display , and since the drivers come from the video card 's manufacturer , that means that all the cards must be identical ( the Matrox Millenium has been mentioned as one , but there may be others ) .	St
+1.3.3	All of the cards except one must have VGA emulation turned off ( the system needs one VGA card to boot , but more than one would cause conflicts ) .	St
+1.3.4	There are also video cards that have more than one VGA chipset and come with special drivers that make them behave like a single VGA card , but they may be expensive and hard to find .	St
+1.3.5	Brands that have been mentioned include STB , Colorgraphics , and Appian Graphics .	St
+1.3.6	Check card models listed in the Chipsets List ( distributed with this FAQ ) for multiple ( usually 2 or 4 ) monitor support .	St

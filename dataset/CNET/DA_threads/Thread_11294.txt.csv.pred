@@ -1,75 +1,75 @@
-1.1.1	I've searched Cnet and read a few threads but im still not sure.	St
-1.1.2	I've read that vista 32bit only recognize 2gb?	Polite
-1.1.3	and the 64bit one can recognize more.	St
-1.1.4	I'm using Window Xp Pro,And recently I've added 2x 1gb ddr2 ram to my pc.	St
-1.1.5	When i right click my computer,properties, it says there is 2.98 gb(2x 1gb,2x 512mb) installed.	St
-1.1.6	But what i don't understand is that, why some of my other programs only detect my total ram as 2gb ?	Ques
-1.1.7	I've installed some ram cleaner program(such as Ram Booster,and some other to cross check) and they says my computer ram is 2gb only.	St
-1.1.8	I've ran cpuz and it detects all 3gb,all of them have the same specification except one.	St
-1.1.9	Here's links to 4 printscreen of cpuz of my rams.	St
-1.1.10	http://static1.filefront.com/images/personal/f/frozster/125583/foeqiwtctf.thumb500.jpg http://static1.filefront.com/images/personal/f/frozster/125583/hvuqexbnqc.thumb500.jpg http://static1.filefront.com/images/personal/f/frozster/125583/pfhsxfgngl.thumb500.jpg http://static1.filefront.com/images/personal/f/frozster/125583/nszhqaovdb.thumb500.jpg Does the mis-recognize affect the actual total amount of ram that my pc runs on?	St
-1.1.11	Is there any methods i could use to make my pc recognize the other 1gb of ram?	Ques
-1.1.12	Thnks In Advance.	St
-1.2.1	http://msdn2.microsoft.com/en-us/library/aa366778.aspx writes &quot;User-mode virtual address space for each 32-bit process 2 GB Up to 3 GB with IMAGE_FILE_LARGE_ADDRESS_AWARE and 4GT&quot; You can edit boot.ini and add the /3GB switch but the application must be compiled with a special switch to use more than 2GB.	St
+1.1.1	I 've searched Cnet and read a few threads but im still not sure .	St
+1.1.2	I 've read that vista 32bit only recognize 2gb ?	Ques
+1.1.3	and the 64bit one can recognize more .	St
+1.1.4	I 'm using Window Xp Pro , And recently I 've added 2x 1gb ddr2 ram to my pc .	St
+1.1.5	When i right click my computer , properties , it says there is 2.98 gb ( 2x 1gb,2x 512mb ) installed .	St
+1.1.6	But what i do n't understand is that , why some of my other programs only detect my total ram as 2gb ?	Ques
+1.1.7	I 've installed some ram cleaner program ( such as Ram Booster , and some other to cross check ) and they says my computer ram is 2gb only .	St
+1.1.8	I 've ran cpuz and it detects all 3gb , all of them have the same specification except one .	St
+1.1.9	Here 's links to 4 printscreen of cpuz of my rams .	St
+1.1.10	http : //static1.filefront.com/images/personal/f/frozster/125583/foeqiwtctf.thumb500.jpg http : //static1.filefront.com/images/personal/f/frozster/125583/hvuqexbnqc.thumb500.jpg http : //static1.filefront.com/images/personal/f/frozster/125583/pfhsxfgngl.thumb500.jpg http : //static1.filefront.com/images/personal/f/frozster/125583/nszhqaovdb.thumb500.jpg Does the mis-recognize affect the actual total amount of ram that my pc runs on ?	Ques
+1.1.11	Is there any methods i could use to make my pc recognize the other 1gb of ram ?	Ques
+1.1.12	Thnks In Advance .	St
+1.2.1	http : //msdn2.microsoft.com/en-us/library/aa366778.aspx writes & quot ; User-mode virtual address space for each 32-bit process 2 GB Up to 3 GB with IMAGE_FILE_LARGE_ADDRESS_AWARE and 4GT & quot ; You can edit boot.ini and add the /3GB switch but the application must be compiled with a special switch to use more than 2GB .	St
 1.2.2	Bob	St
-1.3.1	there's nothing wrong with your pc.	St
-1.3.2	windows detects (and is using) 2.93gb.	St
-1.3.3	most windows programs are limited to being able to access only 2gb.	St
-1.3.4	so trust what windows says and not what your other programs say.	St
-1.4.1	Oh..i see... 1 more thing.	St
-1.4.2	i read somewhere just now that the &quot;msconfig&quot; u could set the max memory or somethign like that.but when i try to set mine to 3gb, the maximum is only 2gb(2048mb).It wont let me go higher.	St
-1.4.3	Here's a picture of what im taking about, http://static1.filefront.com/images/personal/f/frozster/125583/lgkpkeqatf.thumb500.jpg And another question,=D,my computer actually can support window xp 64bit, should i format to 64bit?	St
-1.4.4	does it affect my ram problem?	St
-1.4.5	and from the link &quot; http://msdn2.microsoft.com/en-us/library/aa366778.aspx &quot; it says that it doesn't really affect because 32bit can support up to 4gb while 64bit can support up to 128gb.so what do you recommend??	St
-1.4.6	=)	St
-1.5.1	Without the /3GB in boot.ini, it is indeed limited to 2.0GB in many apps.	St
-1.5.2	All is well but you may need to read the links.	St
+1.3.1	there 's nothing wrong with your pc .	St
+1.3.2	windows detects ( and is using ) 2.93gb .	St
+1.3.3	most windows programs are limited to being able to access only 2gb .	St
+1.3.4	so trust what windows says and not what your other programs say .	St
+1.4.1	Oh..i see ... 1 more thing .	St
+1.4.2	i read somewhere just now that the & quot ; msconfig & quot ; u could set the max memory or somethign like that.but when i try to set mine to 3gb , the maximum is only 2gb ( 2048mb ) .It wont let me go higher .	St
+1.4.3	Here 's a picture of what im taking about , http : //static1.filefront.com/images/personal/f/frozster/125583/lgkpkeqatf.thumb500.jpg And another question , =D , my computer actually can support window xp 64bit , should i format to 64bit ?	Ques
+1.4.4	does it affect my ram problem ?	Ques
+1.4.5	and from the link & quot ; http : //msdn2.microsoft.com/en-us/library/aa366778.aspx & quot ; it says that it does n't really affect because 32bit can support up to 4gb while 64bit can support up to 128gb.so what do you recommend ? ?	Ques
+1.4.6	= )	St
+1.5.1	Without the /3GB in boot.ini , it is indeed limited to 2.0GB in many apps .	St
+1.5.2	All is well but you may need to read the links .	St
 1.5.3	Bob	St
-1.6.1	I've read the link.but im not quite sure i understand completely.	St
-1.6.2	It says physical memory limits in xp ,for 32bit, is 4gb.	St
-1.6.3	but that doesnt explain my situation rite?	St
-1.6.4	hmm.. =s 1 more thing, What does loaded image and 4gt means?Where do the loaded image appear in?	St
+1.6.1	I 've read the link.but im not quite sure i understand completely .	St
+1.6.2	It says physical memory limits in xp , for 32bit , is 4gb .	St
+1.6.3	but that doesnt explain my situation rite ?	Ques
+1.6.4	hmm.. =s 1 more thing , What does loaded image and 4gt means ? Where do the loaded image appear in ?	Ques
 1.6.5	xD Mind to explain briefly ?	Ques
-1.6.6	thnks in advance.	St
-1.7.1	Noted that XP limits applications to 2GB.	St
-1.7.2	Since you are not reading the links I think we're done.	St
-1.7.3	Not that you don't have a valid question but there is nothing busted here.	St
-1.7.4	There is nothing to fix yet.	St
+1.6.6	thnks in advance .	St
+1.7.1	Noted that XP limits applications to 2GB .	St
+1.7.2	Since you are not reading the links I think we 're done .	St
+1.7.3	Not that you do n't have a valid question but there is nothing busted here .	St
+1.7.4	There is nothing to fix yet .	St
 1.7.5	Bob	St
-1.8.1	Oh...i see now..i understand.	St
-1.8.2	sorry Bob.	Polite
-1.8.3	i really did view the link.	St
-1.8.4	but i dont really understand completely so i guess i kinda asked stupid questions.. =s.	St
-1.8.5	sorry.. thanks a lot for explaining.	Polite
-1.8.6	hope i didnt make you unhappy.=s Anyways.. thank you.	Polite
-1.8.7	now that clear out my doubts.	St
-1.8.8	=) But i still have 2 more questions, if you dont mind answering.	St
-1.8.9	1.Where does my 1gb ram goes to?	St
-1.8.10	Is it like,in cases when Applications used up the 2gb of ram, Xp will use the extra 1 gb??	St
-1.8.11	2.If i turn off paging files will my pc run faster?	St
-1.8.12	since no paging into the hard disk and all of the files are kept in the ram.Would you suggest me to turn off paging files??	St
-1.8.13	=) Thnks in advance again ..	St
-1.9.1	The OS will use the extra 1GB for other than the application things.	St
-1.9.2	No, don't call any question stupid.	St
-1.9.3	If you don't ask then you won't find out.	St
-1.9.4	This issue is coming up a lot with people ordering machines with over 2GB.	St
-1.9.5	As to the paging file, just let XP manage it and all will be ok.	St
-1.9.6	There is no speed gain by changing that setting.	St
+1.8.1	Oh ... i see now..i understand .	St
+1.8.2	sorry Bob .	Polite
+1.8.3	i really did view the link .	St
+1.8.4	but i dont really understand completely so i guess i kinda asked stupid questions.. =s .	St
+1.8.5	sorry.. thanks a lot for explaining .	Polite
+1.8.6	hope i didnt make you unhappy.=s Anyways.. thank you .	Polite
+1.8.7	now that clear out my doubts .	St
+1.8.8	= ) But i still have 2 more questions , if you dont mind answering .	St
+1.8.9	1.Where does my 1gb ram goes to ?	Ques
+1.8.10	Is it like , in cases when Applications used up the 2gb of ram , Xp will use the extra 1 gb ? ?	Ques
+1.8.11	2.If i turn off paging files will my pc run faster ?	Ques
+1.8.12	since no paging into the hard disk and all of the files are kept in the ram.Would you suggest me to turn off paging files ? ?	Ques
+1.8.13	= ) Thnks in advance again ..	St
+1.9.1	The OS will use the extra 1GB for other than the application things .	St
+1.9.2	No , do n't call any question stupid .	St
+1.9.3	If you do n't ask then you wo n't find out .	St
+1.9.4	This issue is coming up a lot with people ordering machines with over 2GB .	St
+1.9.5	As to the paging file , just let XP manage it and all will be ok .	St
+1.9.6	There is no speed gain by changing that setting .	St
 1.9.7	Bob	St
-1.10.1	Oh i see.. thnks Bob.	St
-1.10.2	=) u've been lots of help.	St
-1.10.3	hehe.. ^ ^ i still got 1 last question.	St
-1.10.4	Since you say the application is limited to maximum 2gb, would my pc run any faster or will i feel any difference if i add 2 new 1gb rams to get a total of 4gb ?	Ques
-1.10.5	Froz, Darn limitations.	St
+1.10.1	Oh i see.. thnks Bob .	St
+1.10.2	= ) u 've been lots of help .	St
+1.10.3	hehe.. ^ ^ i still got 1 last question .	St
+1.10.4	Since you say the application is limited to maximum 2gb , would my pc run any faster or will i feel any difference if i add 2 new 1gb rams to get a total of 4gb ?	Ques
+1.10.5	Froz , Darn limitations .	St
 1.10.6	haha.. xD	St
-1.11.1	That we can barely measure it.	St
-1.11.2	For instance a pair of desktops we used to render DVDs gave me a good measure back then.	St
-1.11.3	We could move the ram from one to another and the one with 1GB would finish the 6 hour task 5 minutes sooner.	Sug
-1.11.4	For Vista I think 2GB is the hot spot to be.	St
-1.11.5	You can try your own benchmark to see if going over 2GB helps but you will never find 4GB listed in any usable number since part of the 32-bit memory map must leave about .5 GB open for the video card, BIOS and such.	Sug
-1.11.6	You will find common reports of 2.75 to 3.5GB reported in the tools but even with the /3GB switch XP doesn't let the apps use more... Bob	St
-1.12.1	Oh..i see.	St
-1.12.2	hehe.. thnks man.. for everything.	St
-1.12.3	=)	St
-1.13.1	i have 2*1 gb ram but my computer show only 2 gb ram i tried every thing 1 gb perfectly work and 2gb also i changed the slot but the result is still same 3GB(2GB usable) what will i do ?	Ques
-1.14.1	what is the main difference between window 32bit and 64 bit?	St
+1.11.1	That we can barely measure it .	St
+1.11.2	For instance a pair of desktops we used to render DVDs gave me a good measure back then .	St
+1.11.3	We could move the ram from one to another and the one with 1GB would finish the 6 hour task 5 minutes sooner .	Sug
+1.11.4	For Vista I think 2GB is the hot spot to be .	St
+1.11.5	You can try your own benchmark to see if going over 2GB helps but you will never find 4GB listed in any usable number since part of the 32-bit memory map must leave about .5 GB open for the video card , BIOS and such .	Sug
+1.11.6	You will find common reports of 2.75 to 3.5GB reported in the tools but even with the /3GB switch XP does n't let the apps use more ... Bob	St
+1.12.1	Oh..i see .	St
+1.12.2	hehe.. thnks man.. for everything .	St
+1.12.3	= )	St
+1.13.1	i have 2*1 gb ram but my computer show only 2 gb ram i tried every thing 1 gb perfectly work and 2gb also i changed the slot but the result is still same 3GB ( 2GB usable ) what will i do ?	Ques
+1.14.1	what is the main difference between window 32bit and 64 bit ?	Ques

@@ -1,38 +1,38 @@
-1.1.1	Is there a way to have my PC scanned to see what and recommend the maximum hardware to the motherboard I have without reverting to the origonal manufacturer for assistance?	St
+1.1.1	Is there a way to have my PC scanned to see what and recommend the maximum hardware to the motherboard I have without reverting to the origonal manufacturer for assistance ?	Ques
 1.1.2	Mikecynn	St
-1.2.1	Here's why.	St
-1.2.2	No software today can read what power supply is in use or if the AGP, PCIe sockets are installed.	St
-1.2.3	Let me be very clear here -&gt; There is no such software and if software claims it can do this, it's author lied.	St
+1.2.1	Here 's why .	St
+1.2.2	No software today can read what power supply is in use or if the AGP , PCIe sockets are installed .	St
+1.2.3	Let me be very clear here - & gt ; There is no such software and if software claims it can do this , it 's author lied .	St
 1.2.4	Bob	St
 1.3.1	your gunna have to look at your motherboard to see what it uses	St
-1.4.1	everest ultimate can detail the physical mobo slots and what (if anything) is in them.	St
-1.4.2	for a free alternative, aida32 or everest home can also detail slots but neither has been updated to handle chipsets.	St
-1.4.3	cpu-z can give a good overview, detail memory slot usage, and can detect the graphics slot technology in use.	St
-1.4.4	here's a snippet from an aida32 report.	St
-1.4.5	Motherboard: CPU Type: Intel Pentium 4A, 2800 MHz (4.75 x 589) Motherboard Name: AOpen AX4GE Max ( 6 PCI, 1 AGP, 1 CNR, 3 DIMM , Audio, Video, LAN, IEEE-1394) Motherboard Chipset: Intel Brookdale-G i845GE System Memory: 1527 MB (DDR SDRAM) &lt;snip&gt; [ System Slots / AGP ] System Slot Properties: Slot Designation AGP Type AGP 4x Usage Empty Data Bus Width 32-bit	St
-1.5.1	http://img168.imageshack.us/img168/4922/pccz0.jpg The PCIEx16 socket is missing but no software can tell if the PHYSICAL SLOT or socket is installed or not.	St
-1.5.2	If you can find software to detect that, I have a bridge for sale.	St
+1.4.1	everest ultimate can detail the physical mobo slots and what ( if anything ) is in them .	St
+1.4.2	for a free alternative , aida32 or everest home can also detail slots but neither has been updated to handle chipsets .	St
+1.4.3	cpu-z can give a good overview , detail memory slot usage , and can detect the graphics slot technology in use .	St
+1.4.4	here 's a snippet from an aida32 report .	St
+1.4.5	Motherboard : CPU Type : Intel Pentium 4A , 2800 MHz ( 4.75 x 589 ) Motherboard Name : AOpen AX4GE Max ( 6 PCI , 1 AGP , 1 CNR , 3 DIMM , Audio , Video , LAN , IEEE-1394 ) Motherboard Chipset : Intel Brookdale-G i845GE System Memory : 1527 MB ( DDR SDRAM ) & lt ; snip & gt ; [ System Slots / AGP ] System Slot Properties : Slot Designation AGP Type AGP 4x Usage Empty Data Bus Width 32-bit	St
+1.5.1	http : //img168.imageshack.us/img168/4922/pccz0.jpg The PCIEx16 socket is missing but no software can tell if the PHYSICAL SLOT or socket is installed or not .	St
+1.5.2	If you can find software to detect that , I have a bridge for sale .	St
 1.5.3	Bob	St
-1.6.1	that 'missing' slot is electrically disabled.	St
-1.6.2	everest shouldn't detect it at all and would properly omit it in its findings.	St
-1.7.1	The chipset on the board reported there was PCIEx16 support.	St
-1.7.2	There are similar boards with AGP missing connectors and yet all those software tools report incorrectly.	St
-1.7.3	What to do other than rip the lids off?	St
+1.6.1	that 'missing ' slot is electrically disabled .	St
+1.6.2	everest should n't detect it at all and would properly omit it in its findings .	St
+1.7.1	The chipset on the board reported there was PCIEx16 support .	St
+1.7.2	There are similar boards with AGP missing connectors and yet all those software tools report incorrectly .	St
+1.7.3	What to do other than rip the lids off ?	Ques
 1.7.4	Bob	St
-1.8.1	Well thanks for the help anyway.	Polite
-1.8.2	I guess I'll just have to go back to Gateway and ask them.	St
-1.8.3	Or take the BELARC Advisor print out that shows all of the PC info in it and take it to Best Buy or another place that has knowledgeable staff and see if they can tell me the optimum hardware this PC will take.	St
-1.8.4	Again Thanks for the input.	St
+1.8.1	Well thanks for the help anyway .	Polite
+1.8.2	I guess I 'll just have to go back to Gateway and ask them .	St
+1.8.3	Or take the BELARC Advisor print out that shows all of the PC info in it and take it to Best Buy or another place that has knowledgeable staff and see if they can tell me the optimum hardware this PC will take .	St
+1.8.4	Again Thanks for the input .	St
 1.8.5	Mikecynn	St
 1.9.1	NIL	St
-1.10.1	Its why I can write &quot;don't count on these to be accurate.&quot;	St
-1.11.1	http://www.cpuid.com/pcwizard.php details your hardware, post your motherboard make and model here.	St
+1.10.1	Its why I can write & quot ; do n't count on these to be accurate. & quot ;	St
+1.11.1	http : //www.cpuid.com/pcwizard.php details your hardware , post your motherboard make and model here .	St
 1.11.2	or you can use device manager	St
-1.12.1	regarding that specific pc, i've run it on quite a few and it's been very accurate.	St
-1.12.2	it may not know every possible mobo but for the vast majority of people and pcs, it tells you more than cracking open the case will.	St
-1.12.3	(like is that unknown dimm single or double-sided?)	St
-1.13.1	You want me to keep a record each time it fails.	St
-1.13.2	Right on.	St
-1.13.3	I'll do that from now on.	Ques
-1.13.4	I hope you'll do the same.	St
+1.12.1	regarding that specific pc , i 've run it on quite a few and it 's been very accurate .	St
+1.12.2	it may not know every possible mobo but for the vast majority of people and pcs , it tells you more than cracking open the case will .	St
+1.12.3	( like is that unknown dimm single or double-sided ? )	Ques
+1.13.1	You want me to keep a record each time it fails .	St
+1.13.2	Right on .	St
+1.13.3	I 'll do that from now on .	St
+1.13.4	I hope you 'll do the same .	St
 1.13.5	Bob	St

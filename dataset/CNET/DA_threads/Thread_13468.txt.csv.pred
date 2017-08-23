@@ -1,33 +1,33 @@
-1.1.1	Which of these RAM configurations will give better performance?	St
-1.1.2	(assume latency and speed cannot be changed) Case 1: Two 1 GB RAMs (DDR2 800, 5-5-5-12, 1.8V) with each RAM sold separately.	St
-1.1.3	-OR- Case 2: Two 1 GB RAMs (DDR2 800, 5-5-5-12, 1.8V) with both RAMs sold in one package under the name &quot;Dual-Channel&quot; My understanding is that as long as the motherboard is connected to two RAM slots through two different bus and if the RAM sticks have identical configuration, then what we get is a &quot;dual channel&quot; RAM system.	St
-1.1.4	So, I am not sure if buying &quot;Dual Channel&quot; RAMs (Case 2) is better than buying two RAMs with identical configuration (Case 1).	St
-1.1.5	Can you please clarify?	Sug
-1.2.1	If I was going to buy one or the other.	St
-1.2.2	I'd go for the pkg unless there is some big price diff.	St
-1.2.3	Why?....The pkg gets me darn close to a matched pair...same make/model/batch run...etc.	St
-1.3.1	The Intel motherboard (P965 express chipset) which I plan to buy comes with the following notice: &quot;Notice: Only DDR2-800 memory supporting JEDEC approved 1.8V operation with timings of 5-5-5 or 6-6-6 is supported on Intel Desktop Boards based on Intel 965 Express Chipsets.&quot; (click on SPEC tab in http://www.newegg.com/product/product.asp?item=N82E16813121035 ) The dual channel package RAMs (Case 2) I found have 2.2V, 4-4-4-12 latency and cost about $70.	St
-1.3.2	Since I could not find dual channel RAM packs with 1.8V and 5-5-5-12 latency, I was thinking of buying two individual identical RAMs which would meet the motherboard requirements.	St
-1.3.3	The two RAMs cost higher - about $97 ($48.5 apiece) I am afraid of using the dual channel RAMs since they require about 2.2V for their operation (atleast, that is what I think so) whereas the motherboard would power them up only till 1.8V.	St
-1.3.4	If you think the dual channel RAMs would still work fine, then I would be more than happy to go for them at $70.	St
-1.4.1	This is why I usually buy my RAM from crucial.com Never a worry.	St
+1.1.1	Which of these RAM configurations will give better performance ?	Ques
+1.1.2	( assume latency and speed can not be changed ) Case 1 : Two 1 GB RAMs ( DDR2 800 , 5-5-5-12 , 1.8V ) with each RAM sold separately .	St
+1.1.3	-OR- Case 2 : Two 1 GB RAMs ( DDR2 800 , 5-5-5-12 , 1.8V ) with both RAMs sold in one package under the name & quot ; Dual-Channel & quot ; My understanding is that as long as the motherboard is connected to two RAM slots through two different bus and if the RAM sticks have identical configuration , then what we get is a & quot ; dual channel & quot ; RAM system .	St
+1.1.4	So , I am not sure if buying & quot ; Dual Channel & quot ; RAMs ( Case 2 ) is better than buying two RAMs with identical configuration ( Case 1 ) .	St
+1.1.5	Can you please clarify ?	Ques
+1.2.1	If I was going to buy one or the other .	St
+1.2.2	I 'd go for the pkg unless there is some big price diff .	St
+1.2.3	Why ? ... .The pkg gets me darn close to a matched pair ... same make/model/batch run ... etc .	St
+1.3.1	The Intel motherboard ( P965 express chipset ) which I plan to buy comes with the following notice : & quot ; Notice : Only DDR2-800 memory supporting JEDEC approved 1.8V operation with timings of 5-5-5 or 6-6-6 is supported on Intel Desktop Boards based on Intel 965 Express Chipsets. & quot ; ( click on SPEC tab in http : //www.newegg.com/product/product.asp ? item=N82E16813121035 ) The dual channel package RAMs ( Case 2 ) I found have 2.2V , 4-4-4-12 latency and cost about $ 70 .	St
+1.3.2	Since I could not find dual channel RAM packs with 1.8V and 5-5-5-12 latency , I was thinking of buying two individual identical RAMs which would meet the motherboard requirements .	St
+1.3.3	The two RAMs cost higher - about $ 97 ( $ 48.5 apiece ) I am afraid of using the dual channel RAMs since they require about 2.2V for their operation ( atleast , that is what I think so ) whereas the motherboard would power them up only till 1.8V .	St
+1.3.4	If you think the dual channel RAMs would still work fine , then I would be more than happy to go for them at $ 70 .	St
+1.4.1	This is why I usually buy my RAM from crucial.com Never a worry .	St
 1.4.2	Bob	St
-1.5.1	and they're very finicky.	St
-1.5.2	many &quot;high performance&quot; kits don't work in intel boards because they need the extra voltage.	St
-1.5.3	as for dual channel operation, you could buy 2 dimms seperately, but be sure to consider the shipping cost when comparing prices.	St
-1.5.4	here's a couple of kits (2x1gb) that will work with your intel desktop board: patriot $88 shipped, http://www.newegg.com/Product/Product.aspx?Item=N82E16820220255 g.skill $90 shipped, http://www.newegg.com/Product/Product.aspx?Item=N82E16820231098 but if you're trying to economize and worried about compatibility, just get ddr2-667.	St
-1.5.5	crucial, $75 shipped, http://www.newegg.com/Product/Product.aspx?Item=N82E16820146526 kingston, $73 shipped, http://www.newegg.com/Product/Product.aspx?Item=N82E16820134046	St
-1.6.1	Given a choice....I always recommend getting the KITs as they are usually made of chips from the same batches and should be matched.	St
-1.6.2	Second recommend getting all the RAM for the target PC in 2 DIMMs (2@1GB) vice 4 DIMMs (4@512MBs).	Sug
-1.6.3	If you get one DIMM now and one DIMM 6 months from now it's unlikely they'll be exactly the same.	St
-1.6.4	Whenever you buy RAM....test the RAM with Memtest86+ as soon as you receive and install the new RAM.	St
-1.6.5	By the way...there's no such thing as DUAL CHANNEL MEMORY...there's only RAM that works in systems with DUAL CHANNEL MEMORY ARCHITECTURE.	St
+1.5.1	and they 're very finicky .	St
+1.5.2	many & quot ; high performance & quot ; kits do n't work in intel boards because they need the extra voltage .	St
+1.5.3	as for dual channel operation , you could buy 2 dimms seperately , but be sure to consider the shipping cost when comparing prices .	St
+1.5.4	here 's a couple of kits ( 2x1gb ) that will work with your intel desktop board : patriot $ 88 shipped , http : //www.newegg.com/Product/Product.aspx ? Item=N82E16820220255 g.skill $ 90 shipped , http : //www.newegg.com/Product/Product.aspx ? Item=N82E16820231098 but if you 're trying to economize and worried about compatibility , just get ddr2-667 .	St
+1.5.5	crucial , $ 75 shipped , http : //www.newegg.com/Product/Product.aspx ? Item=N82E16820146526 kingston , $ 73 shipped , http : //www.newegg.com/Product/Product.aspx ? Item=N82E16820134046	Ques
+1.6.1	Given a choice ... .I always recommend getting the KITs as they are usually made of chips from the same batches and should be matched .	St
+1.6.2	Second recommend getting all the RAM for the target PC in 2 DIMMs ( 2 @ 1GB ) vice 4 DIMMs ( 4 @ 512MBs ) .	Sug
+1.6.3	If you get one DIMM now and one DIMM 6 months from now it 's unlikely they 'll be exactly the same .	St
+1.6.4	Whenever you buy RAM ... .test the RAM with Memtest86+ as soon as you receive and install the new RAM .	St
+1.6.5	By the way ... there 's no such thing as DUAL CHANNEL MEMORY ... there 's only RAM that works in systems with DUAL CHANNEL MEMORY ARCHITECTURE .	St
 1.6.6	VAPCMD	St
-1.7.1	This would match the 1.8V and your latency requirements: http://www.ocztechnology.com/products/memory/ocz_ddr2_pc2_6400_system_elite_dual_channel This is the only memory they make that is 1.8v You can check prices at Amazon, Buy.com, dell.com I got the 2GB Kit and the 1GB Kit for about $175.	St
-1.7.2	I read several excellent reviews on this particular brand and model.	Polite
-1.8.1	DDR2 800 - 2GB Kits all 1.8V http://www.newegg.com/Product/ProductList.aspx?Submit=ENE&N=2010170147+1052416064+1259916288+1052308477&name=2GB+ (2+x+1GB) Read the buyer reviews and decide which looks best.	St
+1.7.1	This would match the 1.8V and your latency requirements : http : //www.ocztechnology.com/products/memory/ocz_ddr2_pc2_6400_system_elite_dual_channel This is the only memory they make that is 1.8v You can check prices at Amazon , Buy.com , dell.com I got the 2GB Kit and the 1GB Kit for about $ 175 .	St
+1.7.2	I read several excellent reviews on this particular brand and model .	Polite
+1.8.1	DDR2 800 - 2GB Kits all 1.8V http : //www.newegg.com/Product/ProductList.aspx ? Submit=ENE & N=2010170147+1052416064+1259916288+1052308477 & name=2GB+ ( 2+x+1GB ) Read the buyer reviews and decide which looks best .	St
 1.8.2	VAPCMD	St
-1.9.1	Thank you everyone for your suggestions.	St
-1.9.2	It helped me to narrow down my choice to buy the 'kit' RAMs.	St
-1.9.3	The deal I found from VAPCMD's link turned out to be the best: Kit dual channel RAM - 2 x 1GB, DDR2 800, 240 pin, 1.8V, 5-5-5-18 latency, heat spreader: comes to around $65 (after rebates, incl shipping).	St
-1.9.4	Here is the link: http://www.newegg.com/Product/Product.aspx?Item=N82E16820211066 Thanks again!	St
+1.9.1	Thank you everyone for your suggestions .	St
+1.9.2	It helped me to narrow down my choice to buy the 'kit ' RAMs .	St
+1.9.3	The deal I found from VAPCMD 's link turned out to be the best : Kit dual channel RAM - 2 x 1GB , DDR2 800 , 240 pin , 1.8V , 5-5-5-18 latency , heat spreader : comes to around $ 65 ( after rebates , incl shipping ) .	St
+1.9.4	Here is the link : http : //www.newegg.com/Product/Product.aspx ? Item=N82E16820211066 Thanks again !	Ques

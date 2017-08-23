@@ -1,37 +1,37 @@
-1.1.1	I am running into an issue.	St
-1.1.2	2 computers, one is xp home, one is xp media center.	St
-1.1.3	both have file and print sharing turned on.	St
-1.1.4	firewalls turned off.	St
-1.1.5	Both connect to the internet thru a telcom dsl router successfully.	St
-1.1.6	Desktop is wired (xp home), laptop is wireless( media center) It has file sharing on the directory for testing and also sharing the printer.	St
-1.1.7	I can ping the ip going both ways.	St
-1.1.8	Pinging 172.16.x.x.	St
-1.1.9	Now a couple of things... laptop has a 172.16.x.x via ipconfig desktop has a ip of 192.168.x.x via ipconfig, however via the telcom's router it shows clients of 172.16.x.x.	St
-1.1.10	I am unable to connect to the shares on either the desktop or laptop.	St
-1.1.11	I can't net use to them either.	St
-1.1.12	I can't browse.	St
-1.1.13	Any idea's?	St
-1.2.1	The machines IP ranges are such they are not on the same subnet.	St
-1.2.2	Fix that first then look at uninstalling the un-named firewall.	St
-1.2.3	Some like Mcaffee, Symanctec keep working even when disabled.	St
-1.2.4	The lack of small details mean I can't help too much or may write the wrong answer.	St
+1.1.1	I am running into an issue .	St
+1.1.2	2 computers , one is xp home , one is xp media center .	St
+1.1.3	both have file and print sharing turned on .	St
+1.1.4	firewalls turned off .	St
+1.1.5	Both connect to the internet thru a telcom dsl router successfully .	St
+1.1.6	Desktop is wired ( xp home ) , laptop is wireless ( media center ) It has file sharing on the directory for testing and also sharing the printer .	St
+1.1.7	I can ping the ip going both ways .	St
+1.1.8	Pinging 172.16.x.x .	St
+1.1.9	Now a couple of things ... laptop has a 172.16.x.x via ipconfig desktop has a ip of 192.168.x.x via ipconfig , however via the telcom 's router it shows clients of 172.16.x.x .	St
+1.1.10	I am unable to connect to the shares on either the desktop or laptop .	St
+1.1.11	I ca n't net use to them either .	St
+1.1.12	I ca n't browse .	St
+1.1.13	Any idea 's ?	Ques
+1.2.1	The machines IP ranges are such they are not on the same subnet .	St
+1.2.2	Fix that first then look at uninstalling the un-named firewall .	St
+1.2.3	Some like Mcaffee , Symanctec keep working even when disabled .	St
+1.2.4	The lack of small details mean I ca n't help too much or may write the wrong answer .	St
 1.2.5	Bob	St
-1.3.1	Bob, On the same subnet, looking via the telcom's router they are both 172.16.x.x.	St
-1.3.2	Only on a ipconfig do I see a different ip.	St
-1.3.3	However maybe I will just redo the ip's and see if that clears them up.	Sug
-1.3.4	Also remember I can ping both ip's going both ways.	St
-1.3.5	There is only the 2 machines on the network.	St
-1.3.6	We both know that sometimes ip's get hung up, so maybe that is it.	St
-1.4.1	network devices.	St
-1.4.2	Each will have a different IP address.	St
-1.4.3	This might be why you see what you see with ipconfig.	St
-1.4.4	If your laptop has some sort of network connection management software such as IBMs have and you configured your wireless network device using that, Windows ipconfig might not display it.	St
-1.4.5	You should be able to find it from the tray icon, however.	St
-1.5.1	Steve, ipconfig is a command that is run from the vdm( vertiual dos mode) it will give you the ip information of all the network connections on that machine irregardless of how they are configured.	St
-1.6.1	that on my wife's IBM that typing ipconfig or ipconfig /all in the command window does not give the ip address for the wireless connection.	St
-1.6.2	That is because she uses the IBM utility rather than Windows to configure the many connections she uses and can click on the one of choice for a specific session.	St
-1.6.3	If I let Windows set up the address, ipconfig does work as you say.	St
-1.6.4	I just tried and verified this within the last few minutes.	St
-1.6.5	It was only a thought.	St
-1.6.6	I do believe it's correct that you cannot ping or access a device on another subnet without passing through such as a router.	St
-1.6.7	In my own home, I've found static addressing to give me fewer problems and aid in troubleshooting network problems.	St
+1.3.1	Bob , On the same subnet , looking via the telcom 's router they are both 172.16.x.x .	St
+1.3.2	Only on a ipconfig do I see a different ip .	St
+1.3.3	However maybe I will just redo the ip 's and see if that clears them up .	St
+1.3.4	Also remember I can ping both ip 's going both ways .	St
+1.3.5	There is only the 2 machines on the network .	St
+1.3.6	We both know that sometimes ip 's get hung up , so maybe that is it .	St
+1.4.1	network devices .	St
+1.4.2	Each will have a different IP address .	St
+1.4.3	This might be why you see what you see with ipconfig .	St
+1.4.4	If your laptop has some sort of network connection management software such as IBMs have and you configured your wireless network device using that , Windows ipconfig might not display it .	St
+1.4.5	You should be able to find it from the tray icon , however .	St
+1.5.1	Steve , ipconfig is a command that is run from the vdm ( vertiual dos mode ) it will give you the ip information of all the network connections on that machine irregardless of how they are configured .	St
+1.6.1	that on my wife 's IBM that typing ipconfig or ipconfig /all in the command window does not give the ip address for the wireless connection .	St
+1.6.2	That is because she uses the IBM utility rather than Windows to configure the many connections she uses and can click on the one of choice for a specific session .	St
+1.6.3	If I let Windows set up the address , ipconfig does work as you say .	St
+1.6.4	I just tried and verified this within the last few minutes .	St
+1.6.5	It was only a thought .	St
+1.6.6	I do believe it 's correct that you can not ping or access a device on another subnet without passing through such as a router .	St
+1.6.7	In my own home , I 've found static addressing to give me fewer problems and aid in troubleshooting network problems .	St

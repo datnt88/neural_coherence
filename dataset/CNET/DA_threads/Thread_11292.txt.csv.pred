@@ -1,89 +1,89 @@
-1.1.1	I recently had the HD in my ibook G4 crash.	St
-1.1.2	I replaced it with a new one and now while im booting up with the OS X cd for OS installation, it wont look at the HD to install the OS on.	St
-1.1.3	So I went to disk utility and it recognizes the HD but for some reason the HD will not show up for me to select it during OS installation.	St
-1.1.4	Do I need to go threw an initiallization process to get the HD to show up for that?	St
-1.2.1	Boot from the installation CD/DVD and instead of continuing along with the installation, go to the menu bar and choose Disk Utility.	St
-1.2.2	Find your drive and Initialize it as HFS+(Journaled) .	St
-1.2.3	You may see it marked as HFS Extended(Journaled) They are both the same.	St
-1.2.4	Once you have done that, quit from DU and all should be well.	St
-1.2.5	You may have to reboot before the installer sees the results of your labor.	St
+1.1.1	I recently had the HD in my ibook G4 crash .	St
+1.1.2	I replaced it with a new one and now while im booting up with the OS X cd for OS installation , it wont look at the HD to install the OS on .	St
+1.1.3	So I went to disk utility and it recognizes the HD but for some reason the HD will not show up for me to select it during OS installation .	St
+1.1.4	Do I need to go threw an initiallization process to get the HD to show up for that ?	Ques
+1.2.1	Boot from the installation CD/DVD and instead of continuing along with the installation , go to the menu bar and choose Disk Utility .	St
+1.2.2	Find your drive and Initialize it as HFS+ ( Journaled ) .	St
+1.2.3	You may see it marked as HFS Extended ( Journaled ) They are both the same .	St
+1.2.4	Once you have done that , quit from DU and all should be well .	St
+1.2.5	You may have to reboot before the installer sees the results of your labor .	St
 1.2.6	Good Luck P	St
-1.3.1	In the past I have found I had to change the hard drive setting (tiny pins with clip) to make the drive show up.	St
-1.4.1	I wound up installing my osx on free bsd because I couldn't access the hard drive.Is this a problem and what can I do now?I tried to start a new account but it made me install on fbsd again.??	St
-1.4.2	?Needless to say I started from no where and blundered along.Everything seems to work alright except when I use add ons.All kinds of weird stuff happens every time I install something and I'm always having to reinstall passwords.	St
-1.5.1	you would be better off reinitializing the hard drive as HFS+(Journaled) or Mac OS Extended(Journaled), using Disk Utility.	St
-1.5.2	Then go ahead and install OS X again.	Sug
-1.5.3	What you have there is a hodge podge of stuff that is not working well together.	St
+1.3.1	In the past I have found I had to change the hard drive setting ( tiny pins with clip ) to make the drive show up .	St
+1.4.1	I wound up installing my osx on free bsd because I could n't access the hard drive.Is this a problem and what can I do now ? I tried to start a new account but it made me install on fbsd again. ? ?	Ques
+1.4.2	? Needless to say I started from no where and blundered along.Everything seems to work alright except when I use add ons.All kinds of weird stuff happens every time I install something and I 'm always having to reinstall passwords .	St
+1.5.1	you would be better off reinitializing the hard drive as HFS+ ( Journaled ) or Mac OS Extended ( Journaled ) , using Disk Utility .	St
+1.5.2	Then go ahead and install OS X again .	Sug
+1.5.3	What you have there is a hodge podge of stuff that is not working well together .	St
 1.5.4	P	St
-1.6.1	to Cable Select or Master(single) Disk Utility will see either of those variations, but you will note that this was not the OP's problem.	St
-1.6.2	His disk was not initialized and therefore did not have a volume on which to install.	St
+1.6.1	to Cable Select or Master ( single ) Disk Utility will see either of those variations , but you will note that this was not the OP 's problem .	St
+1.6.2	His disk was not initialized and therefore did not have a volume on which to install .	St
 1.6.3	P	St
-1.7.1	How should I go about doing this?Do I delete everything(how?	St
-1.7.2	)or just initialize,however I do that.I just bought this thing and tried to boot(do you still say boot?	St
-1.7.3	)it from the instructions.How do I set up initializing the hd?I understand it's like talking to a child for you guys but it's all new to me.I'm learning a new language here and I was a disaster in french.I have an Imac dual processor running 10 1 4.That's all I know except it's intel based.Youre right about it being a mishmash of poorly functioning software.Things are going wrong all the time.I really appreciate the help as I had no idea what a mess I'd made until I stumbled onto this site.	St
-1.8.1	1.	St
-1.8.2	Why were you formatting/initializing your drive?	St
-1.8.3	2.	St
-1.8.4	Do you still have the disks that came with your machine?	St
-1.8.5	3.	St
-1.8.6	Do you have a backup of all the stuff that you cannot bear to lose?	St
-1.8.7	This does NOT include programs that came with the computer and programs that you have installed since.	St
-1.8.8	WIth the answers to the above, we can move along P	St
-1.9.1	I downloaded my osx on free bsd because I was following written instructions and missed something.I want to load it onto my hard drive where it belongs but don't know what to do or how to do it.I have all files backed up but don't really care about if they have to go to do this right.I saw a message on this site about macs and initializing the hard drive before installing osx.Evidently I'm not alone in missing this step or not realizing it was even there.I am a complete novice and need step by step instruction as to how to proceed.Any help will be greatly appreciated as the way things are now I never know what's going to screw up next.I do have an account at a on line poker site I'd like to keep but most of what i do I back up right away.	St
-1.10.1	and put the first, only(?	St
-1.10.2	), into the optical drive.	St
-1.10.3	Restart the computer and hold down the &quot;C&quot; key until the spinning gear appears Once the installer starts, go to the Menu bar and select Disk Utility.	St
-1.10.4	Initialize the drive as HFS+(journaled) or Mac OS Extended (Journaled), whichever is the choice Once you have done that, quit Disk Utility.	St
-1.10.5	Reboot the machine, again holding down the &quot;C&quot; key and let the installer continue to run.	St
-1.10.6	Check the &quot;Customize&quot;/&quot;Options&quot; at each step and remove ALL the languages that you do not need.	St
-1.10.7	Let the installer finish and you should have a fully working version of OS X (whatever version you have) Don't forget to update the OS once you are connected to the Internet Good Luck, Let us know how you get on P	St
-1.11.1	I assume I'm to disconnect from the net to do this.Like I said,I'm new at this.From your instructions(thank you they are crystal clear even to me)I gather a disconnect must precede the process?All my backup is internalized.Should I back up on a disk before doing this to save what's necessary?	St
-1.12.1	Don't worry about anything else.	St
-1.12.2	The only thing that should be connected to your Mac is your keyboard and mouse.	St
-1.12.3	No internet; no printers; no blue-tooth; no external hard drives; no modems; no cameras; no iPods or MP3's; absolutely NOTHING!!	Res
-1.12.4	Just do as mrmacfixit just said.	St
-1.12.5	You mentioned that you are running -or want to run- OS 10.1.4 on a iMac dual processor.	St
-1.12.6	If that's correct, then it's not going to work, period.	St
-1.12.7	As stated, use ONLY the disks that came with the machine FIRST.	St
-1.12.8	Don't do anything fancy like you said earlier -free BSD, connecting to the net, etc.- just be sure you have your mouse and keyboard plugged in and you are using THE ORIGINAL DISK (grey in colour) that came with THAT Mac.	St
-1.12.9	Sorry to get on your case but as to what I can remember and to what I see, when I mounted XP and then Vista, it requested that you had an internet connection.	St
-1.12.10	That's a Windows thing; not Macs.	St
-1.12.11	If you use Windows methods, you'll develop grey hairs and wrinkles and probably go bald.	St
-1.13.1	As mentioned by Ricato, you don't need anything connected to your iMac.	St
-1.13.2	However, if it is still connected to the internet, that's not a problem.	St
-1.13.3	On completion of the install, OS X will be able to configure your Network preferences if the ethernet cable is plugged in.	St
-1.13.4	On the subject of the version of OS X you are planning on installing.	St
-1.13.5	You mentioned 10.1.4 in one of your posts.	St
-1.13.6	I missed that but assumed that you meant 10.4.x.	St
-1.13.7	This is important as 10.1.4 does not run on an Intel Mac and it you have an iMac with a dual processor so it must be an Intel powered iMac.	St
-1.13.8	I suggest that your OS is 10.4.x A look at the disks that came with the machine, you do have those?, will tell you what version of the OS they hold.	St
-1.13.9	Any &quot;backup&quot; that is &quot;internalized&quot; is NOT a backup.	St
-1.13.10	It is a disaster waiting to happen.	St
-1.13.11	For instance: You make a backup of essential data to ensure that in the event of a HD failure, you will be able to replace the drive, install the OS and restore all your missing data.	St
-1.13.12	Backing up to the ONLY drive in that machine means that when the HD fails, ALL your essential data goes with it.	St
-1.13.13	Note that I said WHEN you hard drive fails, there is not IF.	St
-1.13.14	Transfer ALL your essential data, pictures, documents, tunes, etc.	St
-1.13.15	to DVD's or CD's Before you start this process.	St
-1.13.16	ALL your data is about to be destroyed and wiped off the face of the HD.	St
-1.13.17	Do not bother transferring any of your programs (applications) to DVD/CD, as you will be able to reinstall these once the OS is installed.	St
-1.13.18	Of course, all the software that came with the machine will be replaced by the Restore process.	St
-1.13.19	Let us know when you have done the backup and have the disks that came with the computer, in hand.	St
+1.7.1	How should I go about doing this ? Do I delete everything ( how ?	Ques
+1.7.2	) or just initialize , however I do that.I just bought this thing and tried to boot ( do you still say boot ?	Ques
+1.7.3	) it from the instructions.How do I set up initializing the hd ? I understand it 's like talking to a child for you guys but it 's all new to me.I 'm learning a new language here and I was a disaster in french.I have an Imac dual processor running 10 1 4.That 's all I know except it 's intel based.Youre right about it being a mishmash of poorly functioning software.Things are going wrong all the time.I really appreciate the help as I had no idea what a mess I 'd made until I stumbled onto this site .	St
+1.8.1	1 .	St
+1.8.2	Why were you formatting/initializing your drive ?	Ques
+1.8.3	2 .	St
+1.8.4	Do you still have the disks that came with your machine ?	Ques
+1.8.5	3 .	St
+1.8.6	Do you have a backup of all the stuff that you can not bear to lose ?	Ques
+1.8.7	This does NOT include programs that came with the computer and programs that you have installed since .	St
+1.8.8	WIth the answers to the above , we can move along P	St
+1.9.1	I downloaded my osx on free bsd because I was following written instructions and missed something.I want to load it onto my hard drive where it belongs but do n't know what to do or how to do it.I have all files backed up but do n't really care about if they have to go to do this right.I saw a message on this site about macs and initializing the hard drive before installing osx.Evidently I 'm not alone in missing this step or not realizing it was even there.I am a complete novice and need step by step instruction as to how to proceed.Any help will be greatly appreciated as the way things are now I never know what 's going to screw up next.I do have an account at a on line poker site I 'd like to keep but most of what i do I back up right away .	St
+1.10.1	and put the first , only ( ?	Ques
+1.10.2	) , into the optical drive .	St
+1.10.3	Restart the computer and hold down the & quot ; C & quot ; key until the spinning gear appears Once the installer starts , go to the Menu bar and select Disk Utility .	St
+1.10.4	Initialize the drive as HFS+ ( journaled ) or Mac OS Extended ( Journaled ) , whichever is the choice Once you have done that , quit Disk Utility .	St
+1.10.5	Reboot the machine , again holding down the & quot ; C & quot ; key and let the installer continue to run .	St
+1.10.6	Check the & quot ; Customize & quot ; / & quot ; Options & quot ; at each step and remove ALL the languages that you do not need .	St
+1.10.7	Let the installer finish and you should have a fully working version of OS X ( whatever version you have ) Do n't forget to update the OS once you are connected to the Internet Good Luck , Let us know how you get on P	Sug
+1.11.1	I assume I 'm to disconnect from the net to do this.Like I said , I 'm new at this.From your instructions ( thank you they are crystal clear even to me ) I gather a disconnect must precede the process ? All my backup is internalized.Should I back up on a disk before doing this to save what 's necessary ?	Ques
+1.12.1	Do n't worry about anything else .	St
+1.12.2	The only thing that should be connected to your Mac is your keyboard and mouse .	St
+1.12.3	No internet ; no printers ; no blue-tooth ; no external hard drives ; no modems ; no cameras ; no iPods or MP3 's ; absolutely NOTHING ! !	St
+1.12.4	Just do as mrmacfixit just said .	St
+1.12.5	You mentioned that you are running -or want to run- OS 10.1.4 on a iMac dual processor .	St
+1.12.6	If that 's correct , then it 's not going to work , period .	St
+1.12.7	As stated , use ONLY the disks that came with the machine FIRST .	St
+1.12.8	Do n't do anything fancy like you said earlier -free BSD , connecting to the net , etc.- just be sure you have your mouse and keyboard plugged in and you are using THE ORIGINAL DISK ( grey in colour ) that came with THAT Mac .	St
+1.12.9	Sorry to get on your case but as to what I can remember and to what I see , when I mounted XP and then Vista , it requested that you had an internet connection .	St
+1.12.10	That 's a Windows thing ; not Macs .	St
+1.12.11	If you use Windows methods , you 'll develop grey hairs and wrinkles and probably go bald .	St
+1.13.1	As mentioned by Ricato , you do n't need anything connected to your iMac .	St
+1.13.2	However , if it is still connected to the internet , that 's not a problem .	St
+1.13.3	On completion of the install , OS X will be able to configure your Network preferences if the ethernet cable is plugged in .	St
+1.13.4	On the subject of the version of OS X you are planning on installing .	St
+1.13.5	You mentioned 10.1.4 in one of your posts .	St
+1.13.6	I missed that but assumed that you meant 10.4.x .	St
+1.13.7	This is important as 10.1.4 does not run on an Intel Mac and it you have an iMac with a dual processor so it must be an Intel powered iMac .	St
+1.13.8	I suggest that your OS is 10.4.x A look at the disks that came with the machine , you do have those ? , will tell you what version of the OS they hold .	St
+1.13.9	Any & quot ; backup & quot ; that is & quot ; internalized & quot ; is NOT a backup .	St
+1.13.10	It is a disaster waiting to happen .	St
+1.13.11	For instance : You make a backup of essential data to ensure that in the event of a HD failure , you will be able to replace the drive , install the OS and restore all your missing data .	St
+1.13.12	Backing up to the ONLY drive in that machine means that when the HD fails , ALL your essential data goes with it .	St
+1.13.13	Note that I said WHEN you hard drive fails , there is not IF .	St
+1.13.14	Transfer ALL your essential data , pictures , documents , tunes , etc .	St
+1.13.15	to DVD 's or CD 's Before you start this process .	St
+1.13.16	ALL your data is about to be destroyed and wiped off the face of the HD .	St
+1.13.17	Do not bother transferring any of your programs ( applications ) to DVD/CD , as you will be able to reinstall these once the OS is installed .	St
+1.13.18	Of course , all the software that came with the machine will be replaced by the Restore process .	St
+1.13.19	Let us know when you have done the backup and have the disks that came with the computer , in hand .	St
 1.13.20	P	St
-1.14.1	I am attempting to download wanted files on disc.Every time I download a piece,I'm told to insert a new disc.These discs are 4.7gb and should hold the whole computer on one disc.I'm really sorry about my incompetence but this is giving me a major headache.I'm trying to download my address book and the computer just won't burn it.I had 5 discs and have little bits on each.Now the computer refuses to download any more files because I used each disc?I was tempted to just start on the new download of osx but really want the addresses.What am I doing wrong?It says to drag the wanted file to the disc icon and it will then burn on command.It doesn't.It always demands a new disc.Like I said,it's like teaching a first grader phonetics.	St
-1.15.1	Make a folder on the desktop.	St
-1.15.2	Put all the files you want to save in that folder be careful with he Address book, dragging the application to that folder will not save your addresses.	St
-1.15.3	Export the addresses from Address book as an Address Book Archive.	St
-1.15.4	Check the the menu under File.	St
-1.15.5	When you have all the files you need in the folder, put a NEW BLANK DVD into the drive.	St
-1.15.6	When it mounts on the desktop, drag that folder to the disk.	St
-1.15.7	Eject the disk.	St
-1.15.8	When asked if you want to burn the disk, say yes.	St
-1.15.9	Caution.	St
-1.15.10	When burning from the Finder, you only get one burn per disk.	St
-1.15.11	So a disk with a 1k file on it is rendered completely FULL after burning.	St
+1.14.1	I am attempting to download wanted files on disc.Every time I download a piece , I 'm told to insert a new disc.These discs are 4.7gb and should hold the whole computer on one disc.I 'm really sorry about my incompetence but this is giving me a major headache.I 'm trying to download my address book and the computer just wo n't burn it.I had 5 discs and have little bits on each.Now the computer refuses to download any more files because I used each disc ? I was tempted to just start on the new download of osx but really want the addresses.What am I doing wrong ? It says to drag the wanted file to the disc icon and it will then burn on command.It doesn't.It always demands a new disc.Like I said , it 's like teaching a first grader phonetics .	St
+1.15.1	Make a folder on the desktop .	St
+1.15.2	Put all the files you want to save in that folder be careful with he Address book , dragging the application to that folder will not save your addresses .	St
+1.15.3	Export the addresses from Address book as an Address Book Archive .	St
+1.15.4	Check the the menu under File .	St
+1.15.5	When you have all the files you need in the folder , put a NEW BLANK DVD into the drive .	St
+1.15.6	When it mounts on the desktop , drag that folder to the disk .	St
+1.15.7	Eject the disk .	St
+1.15.8	When asked if you want to burn the disk , say yes .	St
+1.15.9	Caution .	St
+1.15.10	When burning from the Finder , you only get one burn per disk .	St
+1.15.11	So a disk with a 1k file on it is rendered completely FULL after burning .	St
 1.15.12	You MUST burn everything at once P	St
-1.16.1	Thanks for taking the time to explain all this to me.I have 5 discs with virtually nothing on them because I thought I knew what I was doing.I just was baffled that the computer wouldn't reload a disc with almost nothing on it.That would be something for someone to work out a program to fix.I think I should be able to get along from now on.I will keep you updated on my progress and will ask when I hit the next snag.I have apple service but I find your explanations much easier to follow.They just seem to read back what's in the manual,which is how I got here in the first place.I'll pick up some new discs tomorrow and do it properly one time.I'll get back as soon as it's done or I hit my next snag,whichever comes first.	St
-1.17.1	that allows you to burn multiple times.	St
-1.17.2	Toast is the disk burning software of choice for the Mac.	St
-1.17.3	It does all sorts of things and is much more flexible that burning from the Finder.	St
+1.16.1	Thanks for taking the time to explain all this to me.I have 5 discs with virtually nothing on them because I thought I knew what I was doing.I just was baffled that the computer would n't reload a disc with almost nothing on it.That would be something for someone to work out a program to fix.I think I should be able to get along from now on.I will keep you updated on my progress and will ask when I hit the next snag.I have apple service but I find your explanations much easier to follow.They just seem to read back what 's in the manual , which is how I got here in the first place.I 'll pick up some new discs tomorrow and do it properly one time.I 'll get back as soon as it 's done or I hit my next snag , whichever comes first .	St
+1.17.1	that allows you to burn multiple times .	St
+1.17.2	Toast is the disk burning software of choice for the Mac .	St
+1.17.3	It does all sorts of things and is much more flexible that burning from the Finder .	St
 1.17.4	P	St

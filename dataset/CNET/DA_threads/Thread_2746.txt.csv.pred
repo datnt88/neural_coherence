@@ -1,71 +1,71 @@
-1.1.1	Hello all, I just purchased a Buffalo Linkstation 250gb NAS, and one of my machines cannot map the drive.	St
-1.1.2	I connected it to my D-Link Wireless Router and installed it without an issue.	St
-1.1.3	My laptop -also running Win XP pro- can see and map the drive.	St
-1.1.4	(whether wired or wireless!)	St
-1.1.5	My desiktop cannot map the drive.	St
-1.1.6	The software included with the drive runs and shows the drive and the IP address.	St
-1.1.7	I can log-on to the drive via a browser and change any setting.	St
-1.1.8	But, when I Select Run from the Start Menu and type in \\BIGDRIVE and press enter ..	St
-1.1.9	I get &quot;The Network Path was not found&quot; I tried searching for the drive, but it was not found!	St
-1.1.10	I called Buffalo tech support and they said it was a Windows problem and I should unmap any other drives and then map this one first.	St
-1.1.11	I disconnected my card reader because that occupies drive letters, and even uninstalled my iomega zip drive, but it didn't work.	St
-1.1.12	Please help!	St
+1.1.1	Hello all , I just purchased a Buffalo Linkstation 250gb NAS , and one of my machines can not map the drive .	St
+1.1.2	I connected it to my D-Link Wireless Router and installed it without an issue .	St
+1.1.3	My laptop -also running Win XP pro- can see and map the drive .	St
+1.1.4	( whether wired or wireless ! )	St
+1.1.5	My desiktop can not map the drive .	St
+1.1.6	The software included with the drive runs and shows the drive and the IP address .	St
+1.1.7	I can log-on to the drive via a browser and change any setting .	St
+1.1.8	But , when I Select Run from the Start Menu and type in \\BIGDRIVE and press enter ..	St
+1.1.9	I get & quot ; The Network Path was not found & quot ; I tried searching for the drive , but it was not found !	St
+1.1.10	I called Buffalo tech support and they said it was a Windows problem and I should unmap any other drives and then map this one first .	St
+1.1.11	I disconnected my card reader because that occupies drive letters , and even uninstalled my iomega zip drive , but it did n't work .	St
+1.1.12	Please help !	St
 1.1.13	Terry	St
-1.2.1	Hi, I have EXACTLY the same problem.. Any help would be appreciated	St
-1.3.1	But let's share how windows finds \\BIGDRIVE.	St
-1.3.2	Windows has to resolve that name to some IP address.	St
-1.3.3	Sadly there is no detail about how you set up Windows to resolve names to addresses.	St
-1.3.4	But you could find the IP address of said drive and try... \\192.168.0.101 instead but use the IP of BIGDRIVE.	St
+1.2.1	Hi , I have EXACTLY the same problem.. Any help would be appreciated	St
+1.3.1	But let 's share how windows finds \\BIGDRIVE .	St
+1.3.2	Windows has to resolve that name to some IP address .	St
+1.3.3	Sadly there is no detail about how you set up Windows to resolve names to addresses .	St
+1.3.4	But you could find the IP address of said drive and try ... \\192.168.0.101 instead but use the IP of BIGDRIVE .	St
 1.3.5	Bob	St
-1.4.1	I'll do my best to explain.	Ques
-1.4.2	I spoke to a networking person I know and they said the problem was with the way I initially setup my home network.	St
-1.4.3	My desktop computer was initially setup without a router.	St
-1.4.4	A direct connect to the cable modem.	St
-1.4.5	When I later added a router, everything seemed to work fine.	St
-1.4.6	I did, however, have trouble seeing other computers and drives on the desktop machine.	St
-1.4.7	I worked around this by accessing the desktop from the other computers.	St
-1.4.8	I should have paid more attention to this problem because it was an indication that my network was in a somewhat limited configuration.	St
-1.4.9	This is the part I do not explain too well...	St
-1.4.10	If I ran IPCONFIG from the command prompt, it would show 192.168.0.0 as the IP address of my computer.	St
-1.4.11	But the router's IP address was also 192.168.0.0.	St
-1.4.12	I am not sure how this happened, but it had something to do with the initial configuration (before the router).	St
-1.4.13	When I added \\BIGDRIVE to the router, it grabbed an IP address and was only visible to other, newer machines added to the router.	St
-1.4.14	The desktop could not see it.	St
-1.4.15	WHAT I DID TO FIX IT: I forced the IP address of the router up to another number: 192.168.0.1 Made sure the desktop was another number: 192.168.0.150 Also, I made sure that \\BIGDRIVE was yet another number: 192.168.0.101.	St
-1.4.16	After that (and a number of restarts of the desktop, router and \\BIGDRIVE, and suddenly everything was available.	St
-1.4.17	I hope my somewhat weak explanation helps!	St
+1.4.1	I 'll do my best to explain .	St
+1.4.2	I spoke to a networking person I know and they said the problem was with the way I initially setup my home network .	St
+1.4.3	My desktop computer was initially setup without a router .	St
+1.4.4	A direct connect to the cable modem .	St
+1.4.5	When I later added a router , everything seemed to work fine .	St
+1.4.6	I did , however , have trouble seeing other computers and drives on the desktop machine .	St
+1.4.7	I worked around this by accessing the desktop from the other computers .	St
+1.4.8	I should have paid more attention to this problem because it was an indication that my network was in a somewhat limited configuration .	St
+1.4.9	This is the part I do not explain too well ...	St
+1.4.10	If I ran IPCONFIG from the command prompt , it would show 192.168.0.0 as the IP address of my computer .	St
+1.4.11	But the router 's IP address was also 192.168.0.0 .	St
+1.4.12	I am not sure how this happened , but it had something to do with the initial configuration ( before the router ) .	St
+1.4.13	When I added \\BIGDRIVE to the router , it grabbed an IP address and was only visible to other , newer machines added to the router .	St
+1.4.14	The desktop could not see it .	St
+1.4.15	WHAT I DID TO FIX IT : I forced the IP address of the router up to another number : 192.168.0.1 Made sure the desktop was another number : 192.168.0.150 Also , I made sure that \\BIGDRIVE was yet another number : 192.168.0.101 .	St
+1.4.16	After that ( and a number of restarts of the desktop , router and \\BIGDRIVE , and suddenly everything was available .	St
+1.4.17	I hope my somewhat weak explanation helps !	St
 1.4.18	Terry	St
-1.5.1	Thx for the posts.	St
-1.5.2	However, I've tried IP Changes... Treid \\IP address of my Linkstation....Any other ideas that may help?..	St
-1.5.3	Oh, and I checked to ensure I was running the correct firmware.. i.e 2.05...?	St
+1.5.1	Thx for the posts .	St
+1.5.2	However , I 've tried IP Changes ... Treid \\IP address of my Linkstation ... .Any other ideas that may help ? ..	Ques
+1.5.3	Oh , and I checked to ensure I was running the correct firmware.. i.e 2.05 ... ?	Ques
 1.5.4	?	Ques
-1.6.1	http://www.windowsitpro.com/Article/ArticleID/43166/43166.html notes the 3 ways Windows can resolve a name to an IP address.	St
-1.6.2	If you combine this article with the fact that many install a firewall you see a recipe for lookup failures.	St
+1.6.1	http : //www.windowsitpro.com/Article/ArticleID/43166/43166.html notes the 3 ways Windows can resolve a name to an IP address .	St
+1.6.2	If you combine this article with the fact that many install a firewall you see a recipe for lookup failures .	St
 1.6.3	Bob	St
-1.7.1	I had a similar problem.	St
-1.7.2	My Linkstation is plugged into a Linksys switch.	St
-1.7.3	I could ping it and open the configuration page through a web browser.	St
-1.7.4	But when I typed \\Linkstation, I got the message 'network path not found'.	St
-1.7.5	Buffalo tech support asked me to turn off my Firewall (I Use Norton) temporarily and retry.	St
-1.7.6	I was then able to access the drive.	St
-1.7.7	I then entered the IP address for the Linkstation in the trusted site tab in Norton and turned the firewall back on.	St
-1.7.8	I have not had problems since.	St
+1.7.1	I had a similar problem .	St
+1.7.2	My Linkstation is plugged into a Linksys switch .	St
+1.7.3	I could ping it and open the configuration page through a web browser .	St
+1.7.4	But when I typed \\Linkstation , I got the message 'network path not found ' .	St
+1.7.5	Buffalo tech support asked me to turn off my Firewall ( I Use Norton ) temporarily and retry .	St
+1.7.6	I was then able to access the drive .	St
+1.7.7	I then entered the IP address for the Linkstation in the trusted site tab in Norton and turned the firewall back on .	St
+1.7.8	I have not had problems since .	St
 1.7.9	Good Luck	St
-1.8.1	I'm experiencing the same problem that others have noted here ie when I try to access my Buffalo LinkStation 250gb network drive, I get the dreaded &quot;the network path was not found&quot; message.	St
-1.8.2	What's so frustrating is that my LinkStation has been installed and working on the same system for over a year, no real problems.	St
-1.8.3	This problem just cropped up in the past week or so.	St
-1.8.4	I'm able to access all the drive settings via the web interface, and the IP Configuration Utility immediately scans and finds the drive.	St
-1.8.5	I've received a couple of responsed from Buffalo Tech Support, but none of their suggestions has worked for me so far.	St
-1.8.6	I'm running XPMCE on a Dell 8400, cable modem.	St
-1.8.7	My LinkStation is attached to a D-Link 614 wireless router.	St
-1.8.8	So far I have tried: * using the \\IP method to address the drive * manually changing the IP address to a fixed value * disabling firewall software (Sygate) * disabling AV (Norton v2005) * disabling Windows Defender * renaming the drive * runing the disk scan/repair utility * moving the LinkStation away from other equipment * removing/reinstalling Client for MS Networks and File and Printer Sharing * Changing the TCP/IP WIN/Advanced setting to Enable NetBIOS I use the drive mainly as a backup source, and I don't think there is too much on there that would be lost, but not having the frequent (nightly) backups of my essential data files is causing me concern.	St
-1.8.9	Any suggestions would be greatly appreciated.	St
-1.9.1	After the 3rd round of communications from Buffalo tech support I arrived at the following solution: I turned FTP filesharing on in the Linkstation and was able to access my data folders one at a time using an explorer window and the address ftp:// &lt;ip address&gt;.	St
-1.9.2	Using this method, I backed them up to my HD.	St
-1.9.3	(took some time) I installed an updated firmware file (v1.47) from the Buffalo tech support website using the &quot; /force&quot; install parameter.	St
-1.9.4	(this also took some time).	St
-1.9.5	My original files were intact after this process was completed.	St
-1.9.6	After this was done, everything was working as it should be.	St
-1.9.7	Apparently, the binary files somehow were corrupted.	St
-1.9.8	I just wish I knew how/why this happened so it could be avoided in the future.	St
-1.9.9	The LinkStation lives a sheltered life, in a place where it doesn't receive any bumps, and is powered by a filtered, battery backed UPS of considerable capacity.	St
+1.8.1	I 'm experiencing the same problem that others have noted here ie when I try to access my Buffalo LinkStation 250gb network drive , I get the dreaded & quot ; the network path was not found & quot ; message .	St
+1.8.2	What 's so frustrating is that my LinkStation has been installed and working on the same system for over a year , no real problems .	St
+1.8.3	This problem just cropped up in the past week or so .	St
+1.8.4	I 'm able to access all the drive settings via the web interface , and the IP Configuration Utility immediately scans and finds the drive .	St
+1.8.5	I 've received a couple of responsed from Buffalo Tech Support , but none of their suggestions has worked for me so far .	St
+1.8.6	I 'm running XPMCE on a Dell 8400 , cable modem .	St
+1.8.7	My LinkStation is attached to a D-Link 614 wireless router .	St
+1.8.8	So far I have tried : * using the \\IP method to address the drive * manually changing the IP address to a fixed value * disabling firewall software ( Sygate ) * disabling AV ( Norton v2005 ) * disabling Windows Defender * renaming the drive * runing the disk scan/repair utility * moving the LinkStation away from other equipment * removing/reinstalling Client for MS Networks and File and Printer Sharing * Changing the TCP/IP WIN/Advanced setting to Enable NetBIOS I use the drive mainly as a backup source , and I do n't think there is too much on there that would be lost , but not having the frequent ( nightly ) backups of my essential data files is causing me concern .	St
+1.8.9	Any suggestions would be greatly appreciated .	Polite
+1.9.1	After the 3rd round of communications from Buffalo tech support I arrived at the following solution : I turned FTP filesharing on in the Linkstation and was able to access my data folders one at a time using an explorer window and the address ftp : // & lt ; ip address & gt ; .	St
+1.9.2	Using this method , I backed them up to my HD .	St
+1.9.3	( took some time ) I installed an updated firmware file ( v1.47 ) from the Buffalo tech support website using the & quot ; /force & quot ; install parameter .	St
+1.9.4	( this also took some time ) .	St
+1.9.5	My original files were intact after this process was completed .	St
+1.9.6	After this was done , everything was working as it should be .	St
+1.9.7	Apparently , the binary files somehow were corrupted .	St
+1.9.8	I just wish I knew how/why this happened so it could be avoided in the future .	St
+1.9.9	The LinkStation lives a sheltered life , in a place where it does n't receive any bumps , and is powered by a filtered , battery backed UPS of considerable capacity .	St

@@ -1,34 +1,34 @@
-1.1.1	I recently purchased a Netgear RangeMax wireless router, model WPN824.	St
-1.1.2	After connecting it to my RoadRunner cable modem I ran the wizard and it keeps telling me a static ip is needed?	St
-1.1.3	I've used Dlink routers before switching over and never run into messages like this..they normally detect and connect to RoadRunner with no issues.	St
-1.1.4	Any suggestions?	St
+1.1.1	I recently purchased a Netgear RangeMax wireless router , model WPN824 .	St
+1.1.2	After connecting it to my RoadRunner cable modem I ran the wizard and it keeps telling me a static ip is needed ?	Ques
+1.1.3	I 've used Dlink routers before switching over and never run into messages like this..they normally detect and connect to RoadRunner with no issues .	St
+1.1.4	Any suggestions ?	Ques
 1.1.5	The connection I get into my home for the Internet is not a static ip..	St
-1.1.6	Thanks guys!	St
+1.1.6	Thanks guys !	St
 1.1.7	Bill	St
-1.2.1	properties page and look for the option to set it to automatically configure.	St
-1.3.1	I am experiencing the same problem.	St
-1.3.2	I have an old netgear router (614) which is set up identically to the new one, but the new one doesn't work.	St
-1.3.3	The internet light continues to stay amber instead of green.	St
-1.3.4	The &quot;wizard&quot; insists on a static IP even though roadrunner insists it's dynamic.	St
-1.3.5	This new router's a pain since it requires an internet connection for troubleshooting.	St
-1.3.6	That's like having to start a car to find out why it won't start...	St
-1.3.7	I downloaded the firmware update, but now the power light is blinking green and amber as well as not having a good internet connection.	St
-1.3.8	If you know what the problem is, please let me know.	St
-1.3.9	Thanks!	St
-1.4.1	Many cable modems are configured to provide only one IP address.	St
-1.4.2	So when they learn a MAC address from a router they will not release a new IP to another device.	St
-1.4.3	The modem may have to be reset by you or your cable company.	St
-1.4.4	Then it should serve up an IP address for the router.	St
-1.5.1	It says if the power light blinks amber and green, firmware's corrupt.	St
-1.5.2	The knowledgbase says to use tftp -1 192.168.1.1 put &lt;filename&gt;.	St
-1.5.3	But when you do that, it never transfers successfully.	St
-1.5.4	It gives the little help prompt and the only thing I can figure out is that it wants a destination to put the file in.	St
-1.5.5	If you call them, they insist on walking you through the whole ipconfig and ping procedures, but never tell you what's wrong with the tftp procedure.	St
-1.5.6	He kept referring to 192.168.1.1/basicsetting.htm which times out every time!	St
-1.5.7	I am SO disappointed in WNR834B because my old 614 was practically plug and play!	St
-1.6.1	You need to download the firmware from Netgear and save it someplace like C:\Temp WNR834B_FW1035.img is the actual file name that I downloaded from Netgear.	St
-1.6.2	1. change your PCs IP address to 192.168.1.10, subnet mask 255.255.255.0, gateway 192.168.1.1, Preferred DNS 192.168.1.1 2. from the command prompt ''cd\temp'' then from C:\TEMP&gt; type ''tftp -i 192.168.1.1 put WNR834B_FW1035.img'' the Netgear documentation states it will take 3 minutes but just wait for the lights to look normal.	St
-1.6.3	If it takes 3 minutes it is beyond fried.	St
-1.6.4	3.	St
-1.6.5	If it works, change your PCs IP settings back to obtain.	St
-1.6.6	I hope this helps.	St
+1.2.1	properties page and look for the option to set it to automatically configure .	St
+1.3.1	I am experiencing the same problem .	St
+1.3.2	I have an old netgear router ( 614 ) which is set up identically to the new one , but the new one does n't work .	St
+1.3.3	The internet light continues to stay amber instead of green .	St
+1.3.4	The & quot ; wizard & quot ; insists on a static IP even though roadrunner insists it 's dynamic .	St
+1.3.5	This new router 's a pain since it requires an internet connection for troubleshooting .	St
+1.3.6	That 's like having to start a car to find out why it wo n't start ...	St
+1.3.7	I downloaded the firmware update , but now the power light is blinking green and amber as well as not having a good internet connection .	St
+1.3.8	If you know what the problem is , please let me know .	St
+1.3.9	Thanks !	St
+1.4.1	Many cable modems are configured to provide only one IP address .	St
+1.4.2	So when they learn a MAC address from a router they will not release a new IP to another device .	St
+1.4.3	The modem may have to be reset by you or your cable company .	St
+1.4.4	Then it should serve up an IP address for the router .	St
+1.5.1	It says if the power light blinks amber and green , firmware 's corrupt .	St
+1.5.2	The knowledgbase says to use tftp -1 192.168.1.1 put & lt ; filename & gt ; .	St
+1.5.3	But when you do that , it never transfers successfully .	St
+1.5.4	It gives the little help prompt and the only thing I can figure out is that it wants a destination to put the file in .	St
+1.5.5	If you call them , they insist on walking you through the whole ipconfig and ping procedures , but never tell you what 's wrong with the tftp procedure .	St
+1.5.6	He kept referring to 192.168.1.1/basicsetting.htm which times out every time !	St
+1.5.7	I am SO disappointed in WNR834B because my old 614 was practically plug and play !	St
+1.6.1	You need to download the firmware from Netgear and save it someplace like C : \Temp WNR834B_FW1035.img is the actual file name that I downloaded from Netgear .	St
+1.6.2	1. change your PCs IP address to 192.168.1.10 , subnet mask 255.255.255.0 , gateway 192.168.1.1 , Preferred DNS 192.168.1.1 2. from the command prompt ''cd\temp '' then from C : \TEMP & gt ; type ''tftp -i 192.168.1.1 put WNR834B_FW1035.img '' the Netgear documentation states it will take 3 minutes but just wait for the lights to look normal .	St
+1.6.3	If it takes 3 minutes it is beyond fried .	St
+1.6.4	3 .	St
+1.6.5	If it works , change your PCs IP settings back to obtain .	St
+1.6.6	I hope this helps .	Polite

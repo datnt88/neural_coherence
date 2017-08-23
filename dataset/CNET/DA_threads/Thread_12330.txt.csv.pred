@@ -1,56 +1,56 @@
-1.1.1	We would like to share files from access and excel and other software between our two home offices using windows 98 and xp we both have broadband dsl and cablewere 20 min.	St
-1.1.2	apart any sugestions inexpensive is the way we need to go we could booth go xp if that would make it easier.thanks God Bless, evpgwpn@yahoo.com	Sug
-1.2.1	Let me be clear that sharing a file system at the present time over the internet is perilous.	St
-1.2.2	But I do have a secure means I use to fetch files from remote places and to copy them back.	St
-1.2.3	Look at http://sshwindows.sourceforge.net/ for both server and client.	St
-1.2.4	Find WinSCP for a windows interface.	St
-1.2.5	And just like any network setup, you get to forward ports to the server in question.	St
-1.2.6	In this case, you can change the port from its default of 22 if you wish.	St
-1.2.7	All the documentation is there, and be aware I will not answer a question if the answer was in the documentation.	St
-1.2.8	I only read about two parapraphs so it must not have been too hard to setup.	St
-1.2.9	Works great and is secure.	Polite
+1.1.1	We would like to share files from access and excel and other software between our two home offices using windows 98 and xp we both have broadband dsl and cablewere 20 min .	St
+1.1.2	apart any sugestions inexpensive is the way we need to go we could booth go xp if that would make it easier.thanks God Bless , evpgwpn @ yahoo.com	St
+1.2.1	Let me be clear that sharing a file system at the present time over the internet is perilous .	St
+1.2.2	But I do have a secure means I use to fetch files from remote places and to copy them back .	St
+1.2.3	Look at http : //sshwindows.sourceforge.net/ for both server and client .	St
+1.2.4	Find WinSCP for a windows interface .	St
+1.2.5	And just like any network setup , you get to forward ports to the server in question .	St
+1.2.6	In this case , you can change the port from its default of 22 if you wish .	St
+1.2.7	All the documentation is there , and be aware I will not answer a question if the answer was in the documentation .	St
+1.2.8	I only read about two parapraphs so it must not have been too hard to setup .	St
+1.2.9	Works great and is secure .	Polite
 1.2.10	Bob	St
-1.3.1	Another thing, Bob, is he may end up HAVING to change operating systems.	St
-1.3.2	He will if his XP machines are using NTFS.	St
-1.3.3	That, or reinstall those OS's and switch it to FAT32.	St
-1.3.4	A system using FAT32 will not be able to &quot;see&quot; any system using NTFS.	St
-1.3.5	And, of course, Windows 98 cannot use NTFS.	St
-1.3.6	So, he may end up having problems anyway.	St
-1.4.1	My kid's PC runs Windows 98.	St
-1.4.2	Servers in the house run a mix of Windows 2000 Pro on NTFS, a Linux box on Ext3 and the 98 box sees those files just fine.	St
-1.4.3	I'm a little confused that you state that I would have to put the servers file systems to FAT32?	St
+1.3.1	Another thing , Bob , is he may end up HAVING to change operating systems .	St
+1.3.2	He will if his XP machines are using NTFS .	St
+1.3.3	That , or reinstall those OS 's and switch it to FAT32 .	St
+1.3.4	A system using FAT32 will not be able to & quot ; see & quot ; any system using NTFS .	St
+1.3.5	And , of course , Windows 98 can not use NTFS .	St
+1.3.6	So , he may end up having problems anyway .	St
+1.4.1	My kid 's PC runs Windows 98 .	St
+1.4.2	Servers in the house run a mix of Windows 2000 Pro on NTFS , a Linux box on Ext3 and the 98 box sees those files just fine .	St
+1.4.3	I 'm a little confused that you state that I would have to put the servers file systems to FAT32 ?	Ques
 1.4.4	Bob	St
-1.5.1	FAT32 can't read a filename of up to 255 characters like NTFS can.	St
-1.5.2	In your home, you probably don't have a file much deeper than &quot;C:\Program Files\Someprogram\something\whatever&quot; which is only about 40 characters so you WILL have no problem.	St
-1.5.3	Note this person is talking about a business.	St
-1.5.4	A whole new story.	St
-1.5.5	At my job, we have filenames over 200 characters, which isn't uncommon in a business environment.	St
-1.5.6	If you are using a Win98 machine on our network, you won't be able to access many of our files.	St
-1.5.7	Almost all of our &quot;shared&quot; files are over 150 characters.	St
-1.6.1	&quot;FAT32 can't read...&quot; I'd rewrite that to be ... &quot;The OS Windows 98 can't...&quot; It's a minor point and why the office only has a few Windows 98 machines left.	St
-1.6.2	It's decade old technology that is what it is.	St
-1.6.3	Also, MS provided 8.3 name mangling so even with your noted issue, it still works.	St
+1.5.1	FAT32 ca n't read a filename of up to 255 characters like NTFS can .	St
+1.5.2	In your home , you probably do n't have a file much deeper than & quot ; C : \Program Files\Someprogram\something\whatever & quot ; which is only about 40 characters so you WILL have no problem .	St
+1.5.3	Note this person is talking about a business .	St
+1.5.4	A whole new story .	St
+1.5.5	At my job , we have filenames over 200 characters , which is n't uncommon in a business environment .	St
+1.5.6	If you are using a Win98 machine on our network , you wo n't be able to access many of our files .	St
+1.5.7	Almost all of our & quot ; shared & quot ; files are over 150 characters .	St
+1.6.1	& quot ; FAT32 ca n't read ... & quot ; I 'd rewrite that to be ... & quot ; The OS Windows 98 ca n't ... & quot ; It 's a minor point and why the office only has a few Windows 98 machines left .	St
+1.6.2	It 's decade old technology that is what it is .	St
+1.6.3	Also , MS provided 8.3 name mangling so even with your noted issue , it still works .	St
 1.6.4	Bob	St
-1.7.1	Yeah, real good, Bob.	St
-1.7.2	Recommend a program that in approximately 75% of all cases where it is attempted it doesn't work.	St
-1.7.3	Go to a TechNet meeting and tell that to some network administrators, they could use a good laugh.	St
-1.7.4	I learned about this site from a customer.	St
-1.7.5	He was having a problem getting his router configured.	St
-1.7.6	When he called me to straighten out the mess he created, I asked him where he learned about networking, and he said he'd been reading some of the posts here.	St
-1.7.7	I thought maybe it would help having some advice from someone who has had training, but I see this place doesn't want it.	St
-1.7.8	You need to stick to your field of expertise, whatever that is.	St
-1.7.9	I won't be wasting anymore time here.	St
-1.8.1	This is an open forum.	St
-1.8.2	The only item I have an issue with is this.	St
-1.8.3	You seem to maintain that a Windows 98 machine can't use the network file services of NT/2000/XP/Linux/OTHER unless the file system on the server is FAT32.	St
-1.8.4	This is not true and is worth me noting such.	St
-1.8.5	The office ran NT 4.0 with NTFS for about 8 years (was on NT 3.51 too) and all that time, the server hard disk was NTFS and the clients were from Windows 3.1 to Windows 2000.	St
-1.8.6	When XP arrived we moved to 2000 Server as well as some Linux boxes.	St
-1.8.7	Again, the 9x clients still work and don't care if the server hard disk is not FAT32.	St
-1.8.8	Oh, please get out on the Usenet forums and ask about this.	Sug
-1.8.9	Please?	St
+1.7.1	Yeah , real good , Bob .	St
+1.7.2	Recommend a program that in approximately 75 % of all cases where it is attempted it does n't work .	St
+1.7.3	Go to a TechNet meeting and tell that to some network administrators , they could use a good laugh .	St
+1.7.4	I learned about this site from a customer .	St
+1.7.5	He was having a problem getting his router configured .	St
+1.7.6	When he called me to straighten out the mess he created , I asked him where he learned about networking , and he said he 'd been reading some of the posts here .	St
+1.7.7	I thought maybe it would help having some advice from someone who has had training , but I see this place does n't want it .	St
+1.7.8	You need to stick to your field of expertise , whatever that is .	St
+1.7.9	I wo n't be wasting anymore time here .	St
+1.8.1	This is an open forum .	St
+1.8.2	The only item I have an issue with is this .	St
+1.8.3	You seem to maintain that a Windows 98 machine ca n't use the network file services of NT/2000/XP/Linux/OTHER unless the file system on the server is FAT32 .	St
+1.8.4	This is not true and is worth me noting such .	St
+1.8.5	The office ran NT 4.0 with NTFS for about 8 years ( was on NT 3.51 too ) and all that time , the server hard disk was NTFS and the clients were from Windows 3.1 to Windows 2000 .	St
+1.8.6	When XP arrived we moved to 2000 Server as well as some Linux boxes .	St
+1.8.7	Again , the 9x clients still work and do n't care if the server hard disk is not FAT32 .	St
+1.8.8	Oh , please get out on the Usenet forums and ask about this .	Sug
+1.8.9	Please ?	Ques
 1.8.10	Bob	St
-1.9.1	Bob, God could tell this guy just what you said and he'd still argue the point.	Sug
-1.9.2	I just hope he's true to his word.	St
-1.9.3	Sitting here amongst my very mixed network (NTFS, FAT32, etc.)	St
-1.9.4	and they all are getting along with each other, sharing just fine.	St
+1.9.1	Bob , God could tell this guy just what you said and he 'd still argue the point .	Sug
+1.9.2	I just hope he 's true to his word .	St
+1.9.3	Sitting here amongst my very mixed network ( NTFS , FAT32 , etc . )	St
+1.9.4	and they all are getting along with each other , sharing just fine .	St

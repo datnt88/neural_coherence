@@ -1,59 +1,59 @@
-1.1.1	I have a broadband provider at a convention I'm attending who insists I purchase a separate IP for every computer I will be using (22 of them) and states that I can't use a router on their network or I'll screw it up.	St
-1.1.2	I know the latter is likely BS, and they just want me to pay for IPs, but I run a file server so need to run a router for the broadband connection or I can't get the computers both seeing the file server and accessing the internet.	St
-1.1.3	The connection is a shared pipe, where we lease a certain amount of bandwidth and IPs for the week.	St
-1.1.4	Can the provider detect my router if I run it anyway?	Ques
-1.2.1	Trying to figure what they are getting at... whether it is more than simply a scam to extract as much money as possible.	St
-1.2.2	If you use a nat masquarade of any type, it won't &quot;mess up their network&quot;.	St
-1.2.3	It might be that someone has attached a router to their network before and has caused problems through misconfiguration.	St
-1.2.4	Make sure all dynamic routing or other &quot;chatty&quot; protocols are off - so you don't end up inadvertently adding routes to their network.	St
-1.2.5	And turn off SNMP.	St
-1.2.6	Can they detect it... theoretically know (other than visually!)	St
-1.2.7	but it depends on the behaviour.	St
-1.2.8	If they were really intent on detection, then it is feasible I guess.	St
-1.2.9	For example, a PC making multiple http connections will increment the source port each time.	St
-1.2.10	With masquarate NAT (PAT) the source ports are modified as the router is traversed.	St
-1.2.11	Depending on the router used, it might use a random sequence for the source port rather than increment.	St
-1.2.12	Or OS finger printing techniques could be used if the two devices are different.	St
-1.2.13	But I doubt it is in the realms of reason that they would go to this trouble.	St
-1.2.14	More likely someone will wander around and ask why you have a network device plugged in.	St
-1.3.1	Hi, yes your ISP can detect of you're using a router because all router IP's are 192.168.1.1 BUT!	Res
-1.3.2	they are lying about it messing with they're network.	St
-1.3.3	They just want you to buy more IP's.	St
-1.3.4	I know all this cause I went threw that same exactthing with my ISP.	St
-1.3.5	Needless to say I won thAt battle.	St
-1.3.6	There's no way legally they can stop you from using a router	St
-1.4.1	Not really true.	St
-1.4.2	Most router come with 192.168.1.1/0.1 as a preset IP address, but almost all routers will allow you to change the address.	St
-1.4.3	Also, with NAT, it should be impossible for anything outside the router to see which internal IP orginated the request.	St
-1.4.4	They could check MAC addresses, if they require you to register your computers MAC address, then the Routers MAC address will be different, but good routers will allow you to change their mac address to your computers instead.	Sug
-1.4.5	As was said before, apart from OS fingerprinting, or checking the MAC address, there really should be no way to tell that you are using a router.	St
-1.4.6	And, even if there is, set up a computer, with two network cards, and use bog standard microsoft ICS, and you have the network shared between as many computers as you need.	St
+1.1.1	I have a broadband provider at a convention I 'm attending who insists I purchase a separate IP for every computer I will be using ( 22 of them ) and states that I ca n't use a router on their network or I 'll screw it up .	St
+1.1.2	I know the latter is likely BS , and they just want me to pay for IPs , but I run a file server so need to run a router for the broadband connection or I ca n't get the computers both seeing the file server and accessing the internet .	St
+1.1.3	The connection is a shared pipe , where we lease a certain amount of bandwidth and IPs for the week .	St
+1.1.4	Can the provider detect my router if I run it anyway ?	Ques
+1.2.1	Trying to figure what they are getting at ... whether it is more than simply a scam to extract as much money as possible .	St
+1.2.2	If you use a nat masquarade of any type , it wo n't & quot ; mess up their network & quot ; .	St
+1.2.3	It might be that someone has attached a router to their network before and has caused problems through misconfiguration .	St
+1.2.4	Make sure all dynamic routing or other & quot ; chatty & quot ; protocols are off - so you do n't end up inadvertently adding routes to their network .	St
+1.2.5	And turn off SNMP .	St
+1.2.6	Can they detect it ... theoretically know ( other than visually ! )	St
+1.2.7	but it depends on the behaviour .	St
+1.2.8	If they were really intent on detection , then it is feasible I guess .	St
+1.2.9	For example , a PC making multiple http connections will increment the source port each time .	St
+1.2.10	With masquarate NAT ( PAT ) the source ports are modified as the router is traversed .	St
+1.2.11	Depending on the router used , it might use a random sequence for the source port rather than increment .	St
+1.2.12	Or OS finger printing techniques could be used if the two devices are different .	St
+1.2.13	But I doubt it is in the realms of reason that they would go to this trouble .	St
+1.2.14	More likely someone will wander around and ask why you have a network device plugged in .	St
+1.3.1	Hi , yes your ISP can detect of you 're using a router because all router IP 's are 192.168.1.1 BUT !	St
+1.3.2	they are lying about it messing with they 're network .	St
+1.3.3	They just want you to buy more IP 's .	St
+1.3.4	I know all this cause I went threw that same exactthing with my ISP .	St
+1.3.5	Needless to say I won thAt battle .	St
+1.3.6	There 's no way legally they can stop you from using a router	St
+1.4.1	Not really true .	Res
+1.4.2	Most router come with 192.168.1.1/0.1 as a preset IP address , but almost all routers will allow you to change the address .	St
+1.4.3	Also , with NAT , it should be impossible for anything outside the router to see which internal IP orginated the request .	St
+1.4.4	They could check MAC addresses , if they require you to register your computers MAC address , then the Routers MAC address will be different , but good routers will allow you to change their mac address to your computers instead .	Sug
+1.4.5	As was said before , apart from OS fingerprinting , or checking the MAC address , there really should be no way to tell that you are using a router .	St
+1.4.6	And , even if there is , set up a computer , with two network cards , and use bog standard microsoft ICS , and you have the network shared between as many computers as you need .	St
 1.4.7	Craig	St
-1.5.1	Most routers have the ability to spoof the MAC address.	Sug
-1.5.2	First set up one computer on the &quot;pipe&quot;.	St
-1.5.3	Then use the router menus to tell the router to say it has the same MAC address as that pc (just enter the pc's MAC address into the correct field).	St
-1.5.4	Now plug the pipe into the WAN socket of the router and it will pretend to be that PC which does make it difficult (not impossible) for the ISP to see the difference.	St
-1.5.5	ps: the IP number that the router shows to the pipe is the one assigned by the ISP using DHCP.	St
-1.5.6	The IPs used behind the router are invisible to the ISP and usually default to the 192.168.1.x range stated in an earlier reply.	St
+1.5.1	Most routers have the ability to spoof the MAC address .	Sug
+1.5.2	First set up one computer on the & quot ; pipe & quot ; .	St
+1.5.3	Then use the router menus to tell the router to say it has the same MAC address as that pc ( just enter the pc 's MAC address into the correct field ) .	St
+1.5.4	Now plug the pipe into the WAN socket of the router and it will pretend to be that PC which does make it difficult ( not impossible ) for the ISP to see the difference .	St
+1.5.5	ps : the IP number that the router shows to the pipe is the one assigned by the ISP using DHCP .	St
+1.5.6	The IPs used behind the router are invisible to the ISP and usually default to the 192.168.1.x range stated in an earlier reply .	St
 1.5.7	jdenenberg	St
-1.6.1	ISP offers a dedicated line for $2300 for the week, vs the shared line for $1200 and will allow a router on the dedicated line, but still require $150 &quot;machine charge&quot; per machine using the broadband after the first two.	St
-1.6.2	Can you believe the nerve!	St
-1.6.3	Because their tone seems like they might well do onsite inspection, I'm going with the dedicated and just not paying for the additional machines.	St
-1.6.4	No way for them to augue that the other machines are 'using' the broadband.	St
-1.6.5	I'll just say they're not.	St
-1.6.6	Crooks.	St
-1.6.7	Would be one thing if they just said they charge for the IPs to make money, but to charge double for the dedicated so I can use a router THEN try to bleed me for $150 per machine is criminal.	St
-1.6.8	Should run a free hotspot and screw them out of some of their wifi income in the convention center as well.	St
-1.6.9	Thanks again.	Polite
-1.7.1	This is truly bizarre.	St
-1.7.2	I know that per machine charges are typical if you get real internet addresses for each machine but I've never seen such a charge when we use a NAT ROUTER and have the usual single internet IP address.	St
-1.7.3	Even a business connection here is well under 1,000 a month with no machine charges.	St
-1.7.4	What country are you in?	St
+1.6.1	ISP offers a dedicated line for $ 2300 for the week , vs the shared line for $ 1200 and will allow a router on the dedicated line , but still require $ 150 & quot ; machine charge & quot ; per machine using the broadband after the first two .	St
+1.6.2	Can you believe the nerve !	St
+1.6.3	Because their tone seems like they might well do onsite inspection , I 'm going with the dedicated and just not paying for the additional machines .	St
+1.6.4	No way for them to augue that the other machines are 'using ' the broadband .	St
+1.6.5	I 'll just say they 're not .	St
+1.6.6	Crooks .	St
+1.6.7	Would be one thing if they just said they charge for the IPs to make money , but to charge double for the dedicated so I can use a router THEN try to bleed me for $ 150 per machine is criminal .	St
+1.6.8	Should run a free hotspot and screw them out of some of their wifi income in the convention center as well .	St
+1.6.9	Thanks again .	St
+1.7.1	This is truly bizarre .	Polite
+1.7.2	I know that per machine charges are typical if you get real internet addresses for each machine but I 've never seen such a charge when we use a NAT ROUTER and have the usual single internet IP address .	St
+1.7.3	Even a business connection here is well under 1,000 a month with no machine charges .	St
+1.7.4	What country are you in ?	Ques
 1.7.5	Bob	St
-1.8.1	Unfortunately, the line being rented is in a convention center in the US, and these places make their own rules.	St
-1.8.2	Lucky they are not making me pay the local union crew to carry my router in for me!	St
-1.8.3	Have kept costs down somewhat in the past by paying $400 for a dry-pair to the broadband company that owns the lines in the cenvention center just so I could then pay a local DSL outfit to provide the bandwidth at a much cheaper rate and the local DSL guys don't care about a router or number of machines.	St
-1.8.4	Don't really have the time to find a trustworthy ISP for DSL before this convention though.	St
-1.9.1	Just like renting a car vs. car payments (short vs. long term commitment) the rates skyrocket for such venues.	St
-1.9.2	Have a great show!	Polite
+1.8.1	Unfortunately , the line being rented is in a convention center in the US , and these places make their own rules .	St
+1.8.2	Lucky they are not making me pay the local union crew to carry my router in for me !	St
+1.8.3	Have kept costs down somewhat in the past by paying $ 400 for a dry-pair to the broadband company that owns the lines in the cenvention center just so I could then pay a local DSL outfit to provide the bandwidth at a much cheaper rate and the local DSL guys do n't care about a router or number of machines .	St
+1.8.4	Do n't really have the time to find a trustworthy ISP for DSL before this convention though .	St
+1.9.1	Just like renting a car vs. car payments ( short vs. long term commitment ) the rates skyrocket for such venues .	St
+1.9.2	Have a great show !	St
 1.9.3	Bob	St

@@ -1,23 +1,23 @@
-1.1.1	I have a ethernet enabled device that I would like to connect to my wireless network.	St
-1.1.2	I cannot add a wireless nic to this device (e.g.	St
-1.1.3	PCI, PCMCIA, USB, etc), so I purchased a wireless bridge (Morotola WE800g).	St
-1.1.4	I configured this from a laptop and then connected it to the device.	St
-1.1.5	The device can connect to other devices on my network, but nothing on the network can connect to the device behind the bridge.	St
-1.1.6	I tested this with two laptops.	St
-1.1.7	Laptop A connected to network with either builtin wireless, or wired directly to router (3Com OfficeConnect ADSL Firewall Wireless Router - 3CRWDR100A-72), and laptop B connected to the bridge.	St
-1.1.8	B can connect fine to A (e.g.	St
-1.1.9	ping, ftp, etc), but A cannot connect to B.	St
-1.1.10	Sometimes when doing a &quot;ping -t&quot;, I might get 1 response in 10, but generally I get timeouts.	St
-1.1.11	I found some comments on web of similar problems with the WE800g, so I got a Netgear WGE101 bridge, but I'm having same problems with that one.	St
-1.1.12	Neither of the laptops have a firewall running, and I've also tried turning off the WEP encryption on the network.	St
-1.1.13	Also, two laptops on the network (one with builtin wireless, and one with PCMCIA wireless card) can connect to each other fine.	St
-1.1.14	One other point to note: when using the Motorola bridge, only the computer behind it turns up on the network (as reported by the assigned IP list in the router), but when using the Netgear, both the bridge and the computer get assigned IPs.	St
-1.1.15	Anyone have any idea?	St
-1.1.16	Thanks.	St
+1.1.1	I have a ethernet enabled device that I would like to connect to my wireless network .	St
+1.1.2	I can not add a wireless nic to this device ( e.g .	St
+1.1.3	PCI , PCMCIA , USB , etc ) , so I purchased a wireless bridge ( Morotola WE800g ) .	St
+1.1.4	I configured this from a laptop and then connected it to the device .	St
+1.1.5	The device can connect to other devices on my network , but nothing on the network can connect to the device behind the bridge .	St
+1.1.6	I tested this with two laptops .	St
+1.1.7	Laptop A connected to network with either builtin wireless , or wired directly to router ( 3Com OfficeConnect ADSL Firewall Wireless Router - 3CRWDR100A-72 ) , and laptop B connected to the bridge .	St
+1.1.8	B can connect fine to A ( e.g .	St
+1.1.9	ping , ftp , etc ) , but A can not connect to B .	St
+1.1.10	Sometimes when doing a & quot ; ping -t & quot ; , I might get 1 response in 10 , but generally I get timeouts .	St
+1.1.11	I found some comments on web of similar problems with the WE800g , so I got a Netgear WGE101 bridge , but I 'm having same problems with that one .	St
+1.1.12	Neither of the laptops have a firewall running , and I 've also tried turning off the WEP encryption on the network .	St
+1.1.13	Also , two laptops on the network ( one with builtin wireless , and one with PCMCIA wireless card ) can connect to each other fine .	St
+1.1.14	One other point to note : when using the Motorola bridge , only the computer behind it turns up on the network ( as reported by the assigned IP list in the router ) , but when using the Netgear , both the bridge and the computer get assigned IPs .	St
+1.1.15	Anyone have any idea ?	Ques
+1.1.16	Thanks .	Polite
 1.2.1	maybe your ''ethernet enabled device '' is broken..	St
-1.3.1	I know this is pretty obvious but have you tried a cross over Ethernet cable?	St
-1.4.1	When I found that it didnt work on the ethernet enabled device, I tried a number of differnet setups using two laptops.	St
-1.5.1	Do you mean from device to bridge, or just connecting a computer to the device using a crossover cable?	St
-1.5.2	With the first bridge (Motorola WE800g), I got it second hand and there was no cable with it, I've mostly been using a standard patch cable, but tried once or twice with a crossover cable (but have not tested this extensively).	St
-1.5.3	With the second bridge (Netgear WGE101), I've been using the cable provided with it.	St
-1.5.4	If you mean connecting a computer to the device with a crossover cable: that's what I have been doing to transfer stuff to / from it (and works fine), but for convenience I would like to simply have it on the wireless network.	St
+1.3.1	I know this is pretty obvious but have you tried a cross over Ethernet cable ?	Ques
+1.4.1	When I found that it didnt work on the ethernet enabled device , I tried a number of differnet setups using two laptops .	St
+1.5.1	Do you mean from device to bridge , or just connecting a computer to the device using a crossover cable ?	Ques
+1.5.2	With the first bridge ( Motorola WE800g ) , I got it second hand and there was no cable with it , I 've mostly been using a standard patch cable , but tried once or twice with a crossover cable ( but have not tested this extensively ) .	St
+1.5.3	With the second bridge ( Netgear WGE101 ) , I 've been using the cable provided with it .	St
+1.5.4	If you mean connecting a computer to the device with a crossover cable : that 's what I have been doing to transfer stuff to / from it ( and works fine ) , but for convenience I would like to simply have it on the wireless network .	St

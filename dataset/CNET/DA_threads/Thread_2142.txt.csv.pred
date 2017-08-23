@@ -1,78 +1,78 @@
-1.1.1	We have 3 identical (hardware) networked computers, with a Laser printer directly connected to the 2nd computer.	St
-1.1.2	2 computers cannot gain access to the Laser, it says they don't have permission.	St
-1.1.3	I thought I had covered all the permissions by granting admin priveleges to all 3 (there are no security worries here) but have missed something very important when it comes to this printer.	St
-1.1.4	All 3 computers do have successful, easy access to a 4th data repsoitory server box also with 2000, as well as a huge networked Canon Color printer.	St
-1.1.5	Does anyone have a suggestion as to what to try or where to get some detailed information on assigning rights on a peer 2 peer 2000 network?	Ques
+1.1.1	We have 3 identical ( hardware ) networked computers , with a Laser printer directly connected to the 2nd computer .	St
+1.1.2	2 computers can not gain access to the Laser , it says they do n't have permission .	St
+1.1.3	I thought I had covered all the permissions by granting admin priveleges to all 3 ( there are no security worries here ) but have missed something very important when it comes to this printer .	St
+1.1.4	All 3 computers do have successful , easy access to a 4th data repsoitory server box also with 2000 , as well as a huge networked Canon Color printer .	St
+1.1.5	Does anyone have a suggestion as to what to try or where to get some detailed information on assigning rights on a peer 2 peer 2000 network ?	Ques
 1.1.6	Thanks royala	St
-1.2.1	Did they have an account on the machine with the laser printer (same name and password?)	St
-1.2.2	Did you install a firewall and forget about it?	St
-1.2.3	&quot;Does anyone have a suggestion as to what to try or where to get some detailed information on assigning rights on a peer 2 peer 2000 network?&quot; There is this tome called the Microsoft Windows 2000 Service Resource Kit.	Ques
-1.2.4	Very complete and applies to what you need to know.	St
-1.2.5	Also, www.ora.com has oodles of books on Windows 2000 still.	St
+1.2.1	Did they have an account on the machine with the laser printer ( same name and password ? )	Ques
+1.2.2	Did you install a firewall and forget about it ?	Ques
+1.2.3	& quot ; Does anyone have a suggestion as to what to try or where to get some detailed information on assigning rights on a peer 2 peer 2000 network ? & quot ; There is this tome called the Microsoft Windows 2000 Service Resource Kit .	Ques
+1.2.4	Very complete and applies to what you need to know .	St
+1.2.5	Also , www.ora.com has oodles of books on Windows 2000 still .	St
 1.2.6	Bob	St
-1.3.1	There are no firewalls...with dialup and the type of internet use implemented, they aren't critical.	St
-1.3.2	If I am on PC1 and want to use the Laser on PC2, I access the Laser in Network Places, it asks for login and password, I enter the name PC1 (machine name), no password, and I have access to the laser.	St
-1.3.3	Rebooting takes that access away and re-logging in needs to be done.	St
-1.3.4	If I don't use the access method above, the &quot;access denied&quot; error appears with no alternatives.	St
-1.3.5	There must be something I missed in the permissions' setup to make PC2 have to ask for the login to gain access, I just can't find what it is.	St
-1.3.6	I have the resource Kit for W2K Servers, so I know how much these Resource kits cost, and I'm not going to buy another one, not for a few, nearly outdated O/S's.	St
-1.3.7	Same goes for any books covering W2K.	St
-1.3.8	Vista, yes.	St
-1.3.9	With all the knowledge and suggestions available on the good sites on the 'net, I was hoping some one could help with this a bit.	St
-1.3.10	Thanks for your reply.	St
+1.3.1	There are no firewalls ... with dialup and the type of internet use implemented , they are n't critical .	St
+1.3.2	If I am on PC1 and want to use the Laser on PC2 , I access the Laser in Network Places , it asks for login and password , I enter the name PC1 ( machine name ) , no password , and I have access to the laser .	St
+1.3.3	Rebooting takes that access away and re-logging in needs to be done .	St
+1.3.4	If I do n't use the access method above , the & quot ; access denied & quot ; error appears with no alternatives .	St
+1.3.5	There must be something I missed in the permissions ' setup to make PC2 have to ask for the login to gain access , I just ca n't find what it is .	St
+1.3.6	I have the resource Kit for W2K Servers , so I know how much these Resource kits cost , and I 'm not going to buy another one , not for a few , nearly outdated O/S 's .	St
+1.3.7	Same goes for any books covering W2K .	St
+1.3.8	Vista , yes .	Res
+1.3.9	With all the knowledge and suggestions available on the good sites on the 'net , I was hoping some one could help with this a bit .	St
+1.3.10	Thanks for your reply .	Polite
 1.3.11	royala	St
-1.4.1	I assume you run everything through a router (or switch and server (acting as the router)) Now the question, are the users Local Adminstrators, as well as adminstrators of the domain?	St
-1.4.2	Sometimes this can be overlooked and is worth asking.	St
-1.4.3	if they are, in fact, local admins, then possibly checking the adapters on the affected computers for the status of IPX/SPX protocol and toggling the status would help.	St
-1.4.4	Make sure that IPX/SPX is either completely enabled on every computer or completely disabled and see if that changes anything.	St
-1.4.5	The way a shared printer SHOULD work is when you find it in your network places, double-clicking it should create a connection that is relatively permanent without asking for a username or password.	St
-1.4.6	Make sure in the sharing and security settings that the group Everyone has full access to the printer.	St
-1.4.7	Hope that helps a little.	St
+1.4.1	I assume you run everything through a router ( or switch and server ( acting as the router ) ) Now the question , are the users Local Adminstrators , as well as adminstrators of the domain ?	Ques
+1.4.2	Sometimes this can be overlooked and is worth asking .	St
+1.4.3	if they are , in fact , local admins , then possibly checking the adapters on the affected computers for the status of IPX/SPX protocol and toggling the status would help .	St
+1.4.4	Make sure that IPX/SPX is either completely enabled on every computer or completely disabled and see if that changes anything .	St
+1.4.5	The way a shared printer SHOULD work is when you find it in your network places , double-clicking it should create a connection that is relatively permanent without asking for a username or password .	St
+1.4.6	Make sure in the sharing and security settings that the group Everyone has full access to the printer .	St
+1.4.7	Hope that helps a little .	St
 1.4.8	Chris	St
-1.5.1	Thanks for the reply, Chris.	St
-1.5.2	I don't have access to the PC's until this coming week, and will check on the Local Administrator user settings.	St
-1.5.3	I have been over it too many times, but I don't believe that Local Admin is setup.	St
-1.5.4	Good suggestion.	St
-1.5.5	I do know that the printer is shared, and Everyone has full access, but I will check again since looking at it so much may have affected my minds eye!!	St
-1.5.6	I will also check (ping?)	St
-1.5.7	the adapters and their status, and see if there is a difference if enabled or disabled.	St
-1.5.8	I'm hoping to allow PC1 and PC3 to have the Laser printer on PC2 as an option in FILE, PRINT, just like the Big Canon Color Copier/Printer.	St
-1.5.9	Thanks for the advice and possible solutions, and I will let you know as soon as I can get to the machines next week.	St
-1.5.10	Have a wonderful New Year!	Polite
+1.5.1	Thanks for the reply , Chris .	St
+1.5.2	I do n't have access to the PC 's until this coming week , and will check on the Local Administrator user settings .	St
+1.5.3	I have been over it too many times , but I do n't believe that Local Admin is setup .	St
+1.5.4	Good suggestion .	St
+1.5.5	I do know that the printer is shared , and Everyone has full access , but I will check again since looking at it so much may have affected my minds eye ! !	St
+1.5.6	I will also check ( ping ? )	Sug
+1.5.7	the adapters and their status , and see if there is a difference if enabled or disabled .	St
+1.5.8	I 'm hoping to allow PC1 and PC3 to have the Laser printer on PC2 as an option in FILE , PRINT , just like the Big Canon Color Copier/Printer .	St
+1.5.9	Thanks for the advice and possible solutions , and I will let you know as soon as I can get to the machines next week .	St
+1.5.10	Have a wonderful New Year !	St
 1.5.11	royala	St
-1.6.1	While I dropped the hint, you did not answer my question.	St
-1.6.2	&quot;Everyone&quot; to this OS is everyone with an account on the server PC.	St
-1.6.3	Enabling the Guest account is a dumb thing to do since it opens to the doors to disaster.	St
+1.6.1	While I dropped the hint , you did not answer my question .	St
+1.6.2	& quot ; Everyone & quot ; to this OS is everyone with an account on the server PC .	St
+1.6.3	Enabling the Guest account is a dumb thing to do since it opens to the doors to disaster .	St
 1.6.4	Bob	St
-1.7.1	Bob, I'm sorry I didn't answer your question...I probably misunderstood.	Polite
-1.7.2	But there are no guest accounts except default, and there is no server, per se.	St
-1.7.3	The 'server' box is a W2k workstation in a locked closet so it can't be used by anyone but me.	St
-1.7.4	All databases and documents simply reside there for ease of use and as a central depository.	St
-1.7.5	The other 3 PC's have full permissions/access to it.	St
-1.7.6	The 3 PC's access the Internet (dial-up, only method available) through a 3Com modem/router and Hub.	St
-1.7.7	This is a very simplistic &quot;network&quot;, no permission or access limits for anyone.	St
-1.7.8	That is what is so frustrating at this point...the old HP LaserJet 2100 worked just fine for all users.	St
-1.7.9	I've supposedly granted full permissions to the entire list....from Administrator to Backup Operator to Users.	St
-1.7.10	I'll check Everyone again next week.	Sug
-1.7.11	I have not configured or changed configurations somewhere and can't find my error.	St
-1.7.12	But now I am ADMINISTRATIVE TOOLed out.	St
-1.7.13	That's why I'm turning to you experts for help.	Sug
+1.7.1	Bob , I 'm sorry I did n't answer your question ... I probably misunderstood .	Polite
+1.7.2	But there are no guest accounts except default , and there is no server , per se .	St
+1.7.3	The 'server ' box is a W2k workstation in a locked closet so it ca n't be used by anyone but me .	St
+1.7.4	All databases and documents simply reside there for ease of use and as a central depository .	St
+1.7.5	The other 3 PC 's have full permissions/access to it .	St
+1.7.6	The 3 PC 's access the Internet ( dial-up , only method available ) through a 3Com modem/router and Hub .	St
+1.7.7	This is a very simplistic & quot ; network & quot ; , no permission or access limits for anyone .	St
+1.7.8	That is what is so frustrating at this point ... the old HP LaserJet 2100 worked just fine for all users .	St
+1.7.9	I 've supposedly granted full permissions to the entire list ... .from Administrator to Backup Operator to Users .	St
+1.7.10	I 'll check Everyone again next week .	Sug
+1.7.11	I have not configured or changed configurations somewhere and ca n't find my error .	St
+1.7.12	But now I am ADMINISTRATIVE TOOLed out .	St
+1.7.13	That 's why I 'm turning to you experts for help .	St
 1.7.14	Thanks royala	St
-1.8.1	In a Microsoft world, &quot;Everyone&quot; is only those with accounts on that server (even if a fake one).	St
-1.8.2	The repeating mistake is that the account &quot;JoeUser&quot; while it is on the workstation was not on the server.	St
-1.8.3	A post like yours will happen and the dance begins about &quot;Everyone&quot; having access.	St
-1.8.4	The definition of &quot;Everyone&quot; is key to understanding the issue.	St
-1.8.5	ALSO, those accounts could EXPIRE unless you change that setting.	St
+1.8.1	In a Microsoft world , & quot ; Everyone & quot ; is only those with accounts on that server ( even if a fake one ) .	St
+1.8.2	The repeating mistake is that the account & quot ; JoeUser & quot ; while it is on the workstation was not on the server .	St
+1.8.3	A post like yours will happen and the dance begins about & quot ; Everyone & quot ; having access .	St
+1.8.4	The definition of & quot ; Everyone & quot ; is key to understanding the issue .	St
+1.8.5	ALSO , those accounts could EXPIRE unless you change that setting .	St
 1.8.6	Bob	St
-1.9.1	I think (I may be wrong) you have to create a user account for everyone, on that pc (the one with windows 2k and the printer...) make sure anyone or everyone can access each other .. or atleast to the pc with the printer ... and usually, you connect a printer to a pc, install a driver, enable files and printer sharing, add printer to the other pc (install driver if needed)... .. your way of accessing the printer via network places .. is common on a printer server environment (where the printer is connected to a printer server) Again I may be wrong... Merry Christmas and Happy New Year...	St
-1.10.1	This is where some miscommunication occurs.	St
-1.10.2	The word &quot;Everyone&quot; is found on the configuration screens and unless you define the word &quot;Everyone&quot;, the person with the issue may not create Joe, Jane, and Sally accounts that belong to the Everyone account.	St
+1.9.1	I think ( I may be wrong ) you have to create a user account for everyone , on that pc ( the one with windows 2k and the printer ... ) make sure anyone or everyone can access each other .. or atleast to the pc with the printer ... and usually , you connect a printer to a pc , install a driver , enable files and printer sharing , add printer to the other pc ( install driver if needed ) ... .. your way of accessing the printer via network places .. is common on a printer server environment ( where the printer is connected to a printer server ) Again I may be wrong ... Merry Christmas and Happy New Year ...	St
+1.10.1	This is where some miscommunication occurs .	St
+1.10.2	The word & quot ; Everyone & quot ; is found on the configuration screens and unless you define the word & quot ; Everyone & quot ; , the person with the issue may not create Joe , Jane , and Sally accounts that belong to the Everyone account .	St
 1.10.3	Bob	St
-1.11.1	Melati, As far as I'm concerned, you are right.	St
-1.11.2	Your step-by-step is how I set up this new Laser, or any printer...that's how I had the old laser set up.	Ques
-1.11.3	I agree with not accessing the printer via network places, I'd rather they just choose their printer in the print function of Word, Excel, Quickbooks, Act, Photoshop, etc.	Res
-1.11.4	But the ACCESS DENIED message appears using this method.	St
-1.11.5	So by going into network places, the ENTER USER appears, the computer name is typed in , and access is granted until a reboot.	St
-1.11.6	I thought I had set up this Laser identical to the other.	St
-1.11.7	But I guess not.	St
+1.11.1	Melati , As far as I 'm concerned , you are right .	St
+1.11.2	Your step-by-step is how I set up this new Laser , or any printer ... that 's how I had the old laser set up .	St
+1.11.3	I agree with not accessing the printer via network places , I 'd rather they just choose their printer in the print function of Word , Excel , Quickbooks , Act , Photoshop , etc .	St
+1.11.4	But the ACCESS DENIED message appears using this method .	St
+1.11.5	So by going into network places , the ENTER USER appears , the computer name is typed in , and access is granted until a reboot .	St
+1.11.6	I thought I had set up this Laser identical to the other .	St
+1.11.7	But I guess not .	Res
 1.11.8	Thanks royala	St

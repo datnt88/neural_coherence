@@ -1,60 +1,60 @@
-1.1.1	I have two computers hooked up to a 4-port hub, which has a internet hooked up to the uplink.	St
-1.1.2	Both computers access the internet fine, but neither can share files or printers.	St
-1.1.3	I know that more needs to be stated for anyone to help me, so here it is.	St
-1.1.4	Both are running McAfee Personal Firewall Plus in which I have made sure that all traffic on the LAN is trusted, as well since I've noticed each computers IP's are not within the same range, I've added them in as a rule to accept traffic from each's specific IP.	St
-1.1.5	Windows Firewall has been turned off on both as well.	St
-1.1.6	Now almost certain the problem lies in the fact that the IP's that were given from my ISP are not within the same range, but I'm not an expert on the subject though I am quite knowledgable in terms of computers.\ So with that said, the IP numbers given would be: computer1 - A .	St
+1.1.1	I have two computers hooked up to a 4-port hub , which has a internet hooked up to the uplink .	St
+1.1.2	Both computers access the internet fine , but neither can share files or printers .	St
+1.1.3	I know that more needs to be stated for anyone to help me , so here it is .	St
+1.1.4	Both are running McAfee Personal Firewall Plus in which I have made sure that all traffic on the LAN is trusted , as well since I 've noticed each computers IP 's are not within the same range , I 've added them in as a rule to accept traffic from each 's specific IP .	St
+1.1.5	Windows Firewall has been turned off on both as well .	St
+1.1.6	Now almost certain the problem lies in the fact that the IP 's that were given from my ISP are not within the same range , but I 'm not an expert on the subject though I am quite knowledgable in terms of computers.\ So with that said , the IP numbers given would be : computer1 - A .	St
 1.1.7	B .	St
 1.1.8	C .	St
 1.1.9	D computer2 - A .	St
 1.1.10	B .	St
 1.1.11	E .	St
-1.1.12	F So the first two sets of numbers are identical, the third and fourth are not.	St
-1.1.13	My understanding is that to work when using a hub the IP's must be within the same range.	St
+1.1.12	F So the first two sets of numbers are identical , the third and fourth are not .	St
+1.1.13	My understanding is that to work when using a hub the IP 's must be within the same range .	St
 1.1.14	A .	St
 1.1.15	B .	St
 1.1.16	C .	St
-1.1.17	anything; is this correct?	St
-1.1.18	or is there anyway for me to get this working?	St
-1.1.19	P.S.	St
-1.1.20	Upon setting up internet access in the XP wizard I selected the 3rd option - 'directly or through a network hub' and printer and file sharing was selected.	St
-1.2.1	in the same ballpark for file sharing to occur.	St
-1.2.2	192.168.1.XXX is the usual address range, and 255.255.255.0 is the usual subnet.	St
-1.2.3	This can change depending on the DHCP server own configuration but must remain constant among sharing devices.	St
-1.3.1	Sharing on you Internet IP address is a very bad idea.	St
-1.3.2	How bad?	St
-1.3.3	You can't imagine how bad.	Ques
-1.3.4	Even adding netbeui would be a bad idea since you are leaving yourself wide open to attacks.	St
-1.3.5	-&gt; If you don't believe me, I'll just wait till you find out when the bad people find your machine with a share... Bob	St
-1.4.1	for your excessive vulnerability.	St
-1.4.2	If you are drawing separate addresses from your ISP for the two computers, you are probably being charged extra for the second address.	St
-1.4.3	The technical truth is that you only need one public IP address from your ISP.	St
-1.4.4	Replace that hub with a common broadband router.	St
-1.4.5	The physical connections will be similar - uplink to the cable modem through the WAN port and there will be 4 inside network ports to choose from for the computers.	St
-1.4.6	The router will draw the one public IP and then reissue internal private addresses to all the inside computers.	St
-1.4.7	The router will automatically sort out who gets what from the internet.	St
-1.4.8	The internal addresses will all be in the same range, so the internal computers will be able to share files and printers.	St
-1.4.9	And the address translation between the public IP and the private IP serves as a basic hardware firewall at the network level.	St
-1.4.10	Then you can make your own choice of additional security features in a software firewall for the the individual systems.	St
+1.1.17	anything ; is this correct ?	Ques
+1.1.18	or is there anyway for me to get this working ?	Ques
+1.1.19	P.S .	St
+1.1.20	Upon setting up internet access in the XP wizard I selected the 3rd option - 'directly or through a network hub ' and printer and file sharing was selected .	St
+1.2.1	in the same ballpark for file sharing to occur .	St
+1.2.2	192.168.1.XXX is the usual address range , and 255.255.255.0 is the usual subnet .	St
+1.2.3	This can change depending on the DHCP server own configuration but must remain constant among sharing devices .	St
+1.3.1	Sharing on you Internet IP address is a very bad idea .	St
+1.3.2	How bad ?	Ques
+1.3.3	You ca n't imagine how bad .	St
+1.3.4	Even adding netbeui would be a bad idea since you are leaving yourself wide open to attacks .	St
+1.3.5	- & gt ; If you do n't believe me , I 'll just wait till you find out when the bad people find your machine with a share ... Bob	St
+1.4.1	for your excessive vulnerability .	St
+1.4.2	If you are drawing separate addresses from your ISP for the two computers , you are probably being charged extra for the second address .	St
+1.4.3	The technical truth is that you only need one public IP address from your ISP .	St
+1.4.4	Replace that hub with a common broadband router .	St
+1.4.5	The physical connections will be similar - uplink to the cable modem through the WAN port and there will be 4 inside network ports to choose from for the computers .	St
+1.4.6	The router will draw the one public IP and then reissue internal private addresses to all the inside computers .	St
+1.4.7	The router will automatically sort out who gets what from the internet .	St
+1.4.8	The internal addresses will all be in the same range , so the internal computers will be able to share files and printers .	St
+1.4.9	And the address translation between the public IP and the private IP serves as a basic hardware firewall at the network level .	St
+1.4.10	Then you can make your own choice of additional security features in a software firewall for the the individual systems .	St
 1.4.11	dw	St
-1.5.1	I found your message when I was searching the forum.	St
-1.5.2	I am planning to sign up a Cox cable TV and internet package (Cox is the monopoly provider in my area of northern Virginia) and I am confused by their web offerings.	St
-1.5.3	Their site talks about extra charges for adding more computers.	St
-1.5.4	I plan to buy the cable modem myself and not rent from them at $15/month.	St
-1.5.5	One of the &quot;approved&quot; modems is a Motorola Surfboard which has buit-in wireless capability.	St
-1.5.6	From your comments, it sounds like I would not need to pay Cox so additional computers could access the internet.	St
-1.5.7	I would just register one IP address with Cox (i.e.	St
-1.5.8	the Surfboard) and then add other computers any time I want without paying extra.	St
-1.5.9	Does that sounds correct?	St
-1.6.1	The extra charge for the additional computer occurs only when you install another cable modem in a different room.	St
-1.6.2	Two modems, two IP addresses, but maybe not twice the usage (sort of like husband and wife having two cars on the same insurance policy... premium is higher than one car, but not twice as high...).	St
-1.6.3	Your proposed setup of one cable modem and internal networking (whether wired or wireless) is only one connection to Cox.	St
-1.6.4	Therefore only one charge.	St
-1.6.5	What you do with it behind the cable modem is not a business concern of Cox.	St
+1.5.1	I found your message when I was searching the forum .	St
+1.5.2	I am planning to sign up a Cox cable TV and internet package ( Cox is the monopoly provider in my area of northern Virginia ) and I am confused by their web offerings .	St
+1.5.3	Their site talks about extra charges for adding more computers .	St
+1.5.4	I plan to buy the cable modem myself and not rent from them at $ 15/month .	St
+1.5.5	One of the & quot ; approved & quot ; modems is a Motorola Surfboard which has buit-in wireless capability .	St
+1.5.6	From your comments , it sounds like I would not need to pay Cox so additional computers could access the internet .	St
+1.5.7	I would just register one IP address with Cox ( i.e .	St
+1.5.8	the Surfboard ) and then add other computers any time I want without paying extra .	St
+1.5.9	Does that sounds correct ?	Ques
+1.6.1	The extra charge for the additional computer occurs only when you install another cable modem in a different room .	St
+1.6.2	Two modems , two IP addresses , but maybe not twice the usage ( sort of like husband and wife having two cars on the same insurance policy ... premium is higher than one car , but not twice as high ... ) .	St
+1.6.3	Your proposed setup of one cable modem and internal networking ( whether wired or wireless ) is only one connection to Cox .	St
+1.6.4	Therefore only one charge .	St
+1.6.5	What you do with it behind the cable modem is not a business concern of Cox .	St
 1.6.6	dw	St
-1.7.1	The missing piece of info do you have a router???	St
-1.7.2	If not get one, it will solve your problem.	St
+1.7.1	The missing piece of info do you have a router ? ? ?	Ques
+1.7.2	If not get one , it will solve your problem .	St
 1.7.3	John	St
-1.8.1	Thanks for all your replies.	St
-1.8.2	After further researching, I should have merely asked, &quot;To setup a home network must I use a router, or is there a way to accomplish it using a hub?&quot; To which the answer would be no, you need a router.	St
-1.8.3	Thanks again, - Boon	St
+1.8.1	Thanks for all your replies .	Polite
+1.8.2	After further researching , I should have merely asked , & quot ; To setup a home network must I use a router , or is there a way to accomplish it using a hub ? & quot ; To which the answer would be no , you need a router .	St
+1.8.3	Thanks again , - Boon	St

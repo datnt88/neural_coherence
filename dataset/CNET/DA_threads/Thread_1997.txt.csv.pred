@@ -1,23 +1,23 @@
-1.1.1	We have a modem connected to a Cisco 506E PIX firewall, connected to a 25-port Cisco switch.	St
-1.1.2	We're using the PIX as the DHCP server.	St
-1.1.3	One server machine (functioning as DNS server, etc.)	St
-1.1.4	connected to the switch, 23 wired desktop connections, and two Netgear wireless access points.	St
-1.1.5	The APs have the DHCP function turned off.	St
-1.1.6	Here's the problem - I can connect multiple PCs to each AP, but only one PC per AP can be connected to the server and internet at a time.	St
-1.1.7	I need to be able to connect multiple PCs to the server/internet via these APs!	St
-1.1.8	I've configured the same wireless APs elsewhere at our remote sites with no problem - but they were connected via a router to a modem - no server or PIX involved.	St
-1.1.9	Any suggestions on how to troubleshoot?	Ques
-1.2.1	I assume these are true AP and not routers.	St
-1.2.2	This would mean that each device would pass its own mac address up the path.	St
-1.2.3	First I would check the firewall logs to make sure you are not getting anything denied via rule.	St
-1.2.4	Since I assume your wired PC work I doubt this is the problem.	St
-1.2.5	Just a guess but I would suspect a port security setting on the switch.	St
-1.2.6	One of the many option in cisco is to allow only a single mac on a port.	St
-1.2.7	The switch should produce error messages into the log.	St
-1.2.8	You can also do a show mac-address command on the ports you are having issues with.	St
-1.2.9	You should see multiple macs assigned to that port.	St
-1.3.1	Thanks, Bill - I've checked the firewall and there don't seem to be issues there; and as far as the APs - one is a true AP, the other a router configured as an AP.	St
-1.3.2	I've spent lots of time chasing my tail on the router configuration, but I'm pretty sure it's solid.	St
-1.3.3	I think you've got me pointed in the right direction with switch configuration, which I haven't checked out at all.	St
-1.3.4	The company that installed the switch (before my time) never set up an interface for it, so I'll do that over the weekend and see if there are settings that will fix the problem.	St
-1.3.5	I'm an accidental techie working for a nonprofit with serious budget constraints, so really appreciate your help.	St
+1.1.1	We have a modem connected to a Cisco 506E PIX firewall , connected to a 25-port Cisco switch .	St
+1.1.2	We 're using the PIX as the DHCP server .	St
+1.1.3	One server machine ( functioning as DNS server , etc . )	St
+1.1.4	connected to the switch , 23 wired desktop connections , and two Netgear wireless access points .	St
+1.1.5	The APs have the DHCP function turned off .	St
+1.1.6	Here 's the problem - I can connect multiple PCs to each AP , but only one PC per AP can be connected to the server and internet at a time .	St
+1.1.7	I need to be able to connect multiple PCs to the server/internet via these APs !	St
+1.1.8	I 've configured the same wireless APs elsewhere at our remote sites with no problem - but they were connected via a router to a modem - no server or PIX involved .	St
+1.1.9	Any suggestions on how to troubleshoot ?	Ques
+1.2.1	I assume these are true AP and not routers .	St
+1.2.2	This would mean that each device would pass its own mac address up the path .	St
+1.2.3	First I would check the firewall logs to make sure you are not getting anything denied via rule .	St
+1.2.4	Since I assume your wired PC work I doubt this is the problem .	St
+1.2.5	Just a guess but I would suspect a port security setting on the switch .	St
+1.2.6	One of the many option in cisco is to allow only a single mac on a port .	St
+1.2.7	The switch should produce error messages into the log .	St
+1.2.8	You can also do a show mac-address command on the ports you are having issues with .	St
+1.2.9	You should see multiple macs assigned to that port .	St
+1.3.1	Thanks , Bill - I 've checked the firewall and there do n't seem to be issues there ; and as far as the APs - one is a true AP , the other a router configured as an AP .	St
+1.3.2	I 've spent lots of time chasing my tail on the router configuration , but I 'm pretty sure it 's solid .	St
+1.3.3	I think you 've got me pointed in the right direction with switch configuration , which I have n't checked out at all .	St
+1.3.4	The company that installed the switch ( before my time ) never set up an interface for it , so I 'll do that over the weekend and see if there are settings that will fix the problem .	St
+1.3.5	I 'm an accidental techie working for a nonprofit with serious budget constraints , so really appreciate your help .	St

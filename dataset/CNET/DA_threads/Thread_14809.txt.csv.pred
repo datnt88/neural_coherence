@@ -1,30 +1,30 @@
-1.1.1	Hi, I'm running Windows XP SP2 Pro with 2 hard drives.	St
-1.1.2	The OS is on the smaller 40GB drive and I have storage on the second Seagate 200GB drive.My MB is ASUS A7V ata100 Via VT8363 (KT133) + VT82c686A Award Bios.	St
-1.1.3	My problems started after a copy of XP became corrupted, I think from a virus, but I'm not sure.	St
-1.1.4	In any case, I did a clean install and have had my system running for a number of weeks and have tried to do some troubleshooting around this problem when I get time.	St
-1.1.5	Explorer won't recognize my 200 GB drive as being more than the 137GB limit, but I've updated all the drivers I'm aware of and the bios and have checked atapi.sys and the registry but the sytem still doesn't see the extra space.	St
-1.1.6	Could this be a master boot record problem?	St
-1.1.7	I have installed all the drivers that I used before in the old setup when I previously had no problems.	St
-1.1.8	Also when I go into disk management through control panel, the entire 186GB drive is seen, but the last 45GB is listed as free space, and explorer doesn't list it at all.	St
-1.1.9	Any ideas of what I can / should do next?	St
-1.1.10	Thanks in advance, this one has me stumped on my own, so I need help.	St
-1.2.1	If you are sure your XP is SP2 and you have installed the latest BIOS version for that motherboard, then I would install a hard disk drive controller card in one of your PCI slots.	St
-1.2.2	Under $20 in the USA.	St
-1.2.3	...or just make TWO PARTITIONS on the 200GB drive with no one partition being larger than 137GB.	St
-1.2.4	This solution is free.	St
-1.3.1	Use the disk management tool to delete those partitions and create new ones then format such?	St
+1.1.1	Hi , I 'm running Windows XP SP2 Pro with 2 hard drives .	St
+1.1.2	The OS is on the smaller 40GB drive and I have storage on the second Seagate 200GB drive.My MB is ASUS A7V ata100 Via VT8363 ( KT133 ) + VT82c686A Award Bios .	St
+1.1.3	My problems started after a copy of XP became corrupted , I think from a virus , but I 'm not sure .	St
+1.1.4	In any case , I did a clean install and have had my system running for a number of weeks and have tried to do some troubleshooting around this problem when I get time .	St
+1.1.5	Explorer wo n't recognize my 200 GB drive as being more than the 137GB limit , but I 've updated all the drivers I 'm aware of and the bios and have checked atapi.sys and the registry but the sytem still does n't see the extra space .	St
+1.1.6	Could this be a master boot record problem ?	Ques
+1.1.7	I have installed all the drivers that I used before in the old setup when I previously had no problems .	St
+1.1.8	Also when I go into disk management through control panel , the entire 186GB drive is seen , but the last 45GB is listed as free space , and explorer does n't list it at all .	St
+1.1.9	Any ideas of what I can / should do next ?	Ques
+1.1.10	Thanks in advance , this one has me stumped on my own , so I need help .	St
+1.2.1	If you are sure your XP is SP2 and you have installed the latest BIOS version for that motherboard , then I would install a hard disk drive controller card in one of your PCI slots .	St
+1.2.2	Under $ 20 in the USA .	St
+1.2.3	... or just make TWO PARTITIONS on the 200GB drive with no one partition being larger than 137GB .	St
+1.2.4	This solution is free .	Sug
+1.3.1	Use the disk management tool to delete those partitions and create new ones then format such ?	Ques
 1.3.2	Bob	St
-1.4.1	I already have 5 partitions showing up, and that I am able to use on the 200GB drive, but the last 2 partitions (of 7 total) are not showing up except as free space in disk management.	St
-1.4.2	I don't want to delete or reformat these partitions because that was where I had all my mp3's stored.	St
-1.4.3	In fact the whole hard drive was full of needed data but I'm only having problems seeing those last two partitions.	St
-1.4.4	Even though I have loaded the same drivers as I used before part of me questions whether it is still related to the drivers.	St
-1.4.5	Is there a way of verifying that the latest drivers are all installing correctly or is there a program that would detect a faulty driver in this situation?	St
-1.4.6	I'm asking also because I did have a few problems with installing some of the VIA drivers crashing the system before and causing conflicts in device manager, even though they are supposed to be the standard updated drivers to use.	St
-1.4.7	My other line of thinking goes towards the master boot record being corrupted, but I know very little about that area of expertise.	St
-1.4.8	Thanks again.	Polite
-1.4.9	A.	St
-1.5.1	1.	St
-1.5.2	127GB limits are thoroughly documented at http://www.48bitlba.com A link about USB drives and limits is also there.	St
-1.5.3	2.	St
-1.5.4	If the space is marked as &quot;free space in disk management&quot; then I could change such into a partition, format and begin to use them.	St
-1.5.5	In closing, a lesson some learn is that hard disks make poor &quot;storage&quot; since it's only a matter of time till... Bob	St
+1.4.1	I already have 5 partitions showing up , and that I am able to use on the 200GB drive , but the last 2 partitions ( of 7 total ) are not showing up except as free space in disk management .	St
+1.4.2	I do n't want to delete or reformat these partitions because that was where I had all my mp3 's stored .	St
+1.4.3	In fact the whole hard drive was full of needed data but I 'm only having problems seeing those last two partitions .	St
+1.4.4	Even though I have loaded the same drivers as I used before part of me questions whether it is still related to the drivers .	St
+1.4.5	Is there a way of verifying that the latest drivers are all installing correctly or is there a program that would detect a faulty driver in this situation ?	Ques
+1.4.6	I 'm asking also because I did have a few problems with installing some of the VIA drivers crashing the system before and causing conflicts in device manager , even though they are supposed to be the standard updated drivers to use .	St
+1.4.7	My other line of thinking goes towards the master boot record being corrupted , but I know very little about that area of expertise .	St
+1.4.8	Thanks again .	St
+1.4.9	A .	St
+1.5.1	1 .	St
+1.5.2	127GB limits are thoroughly documented at http : //www.48bitlba.com A link about USB drives and limits is also there .	St
+1.5.3	2 .	St
+1.5.4	If the space is marked as & quot ; free space in disk management & quot ; then I could change such into a partition , format and begin to use them .	St
+1.5.5	In closing , a lesson some learn is that hard disks make poor & quot ; storage & quot ; since it 's only a matter of time till ... Bob	St

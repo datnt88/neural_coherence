@@ -1,19 +1,19 @@
-1.1.1	Hi!	St
-1.1.2	Recently we are thinking of investing on a fixed IP address.	St
-1.1.3	So am I right to say that if I want people outside of our network, from the Internet to access to our computer, we just do some modification at the router's Network Address Translation (NAT), to map the internal IP of the computer to the fixed IP?	St
-1.1.4	Then if people want to access this computer through the Internet, they just type the IP address in their browser?	St
+1.1.1	Hi !	St
+1.1.2	Recently we are thinking of investing on a fixed IP address .	St
+1.1.3	So am I right to say that if I want people outside of our network , from the Internet to access to our computer , we just do some modification at the router 's Network Address Translation ( NAT ) , to map the internal IP of the computer to the fixed IP ?	Ques
+1.1.4	Then if people want to access this computer through the Internet , they just type the IP address in their browser ?	Ques
 1.2.1	NIL	St
-1.3.1	You will need to setup something like 'virtual server' or 'DMZ' at your router.	St
-1.3.2	Most modern router should support these.	Sug
-1.3.3	If you setup your service(s) at the DMZ, you will need to be careful as you expose the machine on the internet.	St
-1.4.1	... We have a computer installed with a software application by our CCTV vendor.	St
-1.4.2	This software application allows other computers in our LAN to open a browser, enter this computer's internal IP address, and then we will see a login screen.	St
-1.4.3	Once logged in, we can view all the CCTVs installed in our company.	St
-1.4.4	I don't know how the software application works though.	St
-1.4.5	So my manager is thinking of mapping this internal IP with an external IP such that my boss can log in from home through his Internet to watch.	St
-1.4.6	Is it really difficult?	St
-1.4.7	Should I pay some experts to help me do this?	St
-1.4.8	Or can we handle this by ourselves just by the mapping at the router?	St
-1.5.1	But your post lead off with NAT and not the issue you wanted to solve.	St
-1.5.2	In short, port forward as need be and at worst place the CCTV PC in the DMZ.	St
+1.3.1	You will need to setup something like 'virtual server ' or 'DMZ ' at your router .	St
+1.3.2	Most modern router should support these .	Sug
+1.3.3	If you setup your service ( s ) at the DMZ , you will need to be careful as you expose the machine on the internet .	St
+1.4.1	... We have a computer installed with a software application by our CCTV vendor .	St
+1.4.2	This software application allows other computers in our LAN to open a browser , enter this computer 's internal IP address , and then we will see a login screen .	St
+1.4.3	Once logged in , we can view all the CCTVs installed in our company .	St
+1.4.4	I do n't know how the software application works though .	St
+1.4.5	So my manager is thinking of mapping this internal IP with an external IP such that my boss can log in from home through his Internet to watch .	St
+1.4.6	Is it really difficult ?	Ques
+1.4.7	Should I pay some experts to help me do this ?	Ques
+1.4.8	Or can we handle this by ourselves just by the mapping at the router ?	Ques
+1.5.1	But your post lead off with NAT and not the issue you wanted to solve .	St
+1.5.2	In short , port forward as need be and at worst place the CCTV PC in the DMZ .	St
 1.5.3	Bob	St

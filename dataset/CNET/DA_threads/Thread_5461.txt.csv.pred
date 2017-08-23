@@ -1,29 +1,29 @@
-1.1.1	Hi all, Just after some advice.	St
-1.1.2	I have 3 partitions + some unallocated space.	St
-1.1.3	In partition magic it shows my 3 partitions adjacent to eachother with the final partition next to the unallocated space.	St
-1.1.4	I want to give all the unallocated space to the partition in the middle.	St
-1.1.5	So I went to resize partition on the menu and selected the middle partition and went through the wizard, increased the size etc.... After clicking okay and looking at the operations pending items bit it said it was going to &quot;move partition X [the partition next to the unallocated space] up by [amount I wanted to give to the middle partition] and then resize the middle partition with the ammount I wanted to increase it by.	St
-1.1.6	My question is that is this the correct way of doing this?	St
-1.1.7	Should I perhaps reszie the partiton next to the unallocated space to the max then give this free space to the middle partition?	St
-1.1.8	Any help appreciated.	St
-1.1.9	Thanks.	St
-1.2.1	is extend partition 3 to include the free space at the end of partition 3.	St
-1.2.2	Then I'd shrink/reduce partition 3 starting at the beginning of the partition (between partitions 2-3) by roughly the amount you want to add to partition 2.	St
-1.2.3	Then I'd expand partition 2 by the free space created.	St
-1.2.4	You can do each step indivdually or build a batch.	St
-1.2.5	I prefer to do each step and check the results before going on.	St
-1.2.6	Let us know.	St
+1.1.1	Hi all , Just after some advice .	St
+1.1.2	I have 3 partitions + some unallocated space .	St
+1.1.3	In partition magic it shows my 3 partitions adjacent to eachother with the final partition next to the unallocated space .	St
+1.1.4	I want to give all the unallocated space to the partition in the middle .	St
+1.1.5	So I went to resize partition on the menu and selected the middle partition and went through the wizard , increased the size etc ... . After clicking okay and looking at the operations pending items bit it said it was going to & quot ; move partition X [ the partition next to the unallocated space ] up by [ amount I wanted to give to the middle partition ] and then resize the middle partition with the ammount I wanted to increase it by .	St
+1.1.6	My question is that is this the correct way of doing this ?	Ques
+1.1.7	Should I perhaps reszie the partiton next to the unallocated space to the max then give this free space to the middle partition ?	Ques
+1.1.8	Any help appreciated .	Polite
+1.1.9	Thanks .	Polite
+1.2.1	is extend partition 3 to include the free space at the end of partition 3 .	St
+1.2.2	Then I 'd shrink/reduce partition 3 starting at the beginning of the partition ( between partitions 2-3 ) by roughly the amount you want to add to partition 2 .	St
+1.2.3	Then I 'd expand partition 2 by the free space created .	St
+1.2.4	You can do each step indivdually or build a batch .	St
+1.2.5	I prefer to do each step and check the results before going on .	St
+1.2.6	Let us know .	St
 1.2.7	VAPCMD	St
-1.3.1	Thanks for the reply, how about I move partition 3 past the unallocated so the unallocated is inbetween partition 2 and 3.	St
-1.3.2	Then give the space to partition 2.	St
-1.3.3	Are there any other programs I could use to do this?	St
+1.3.1	Thanks for the reply , how about I move partition 3 past the unallocated so the unallocated is inbetween partition 2 and 3 .	St
+1.3.2	Then give the space to partition 2 .	St
+1.3.3	Are there any other programs I could use to do this ?	Ques
 1.3.4	or is partition magic pretty reliable ?	Ques
-1.3.5	Any further help and advise will be gratefully appreciated.	St
-1.3.6	Thanks.	St
-1.4.1	time you're doing something like this ...it pays to be backed up, just in case.	St
-1.4.2	Re which way to do it...your call.	St
-1.4.3	Even though it says 'move'.... my guess it actually does it in sequence the way I suggested.	St
-1.4.4	If you're not 100% sure of the other way ...	St
-1.4.5	I'd try the one I suggested or else why ask for help ?	Ques
-1.4.6	Let us know how it turns out.	St
+1.3.5	Any further help and advise will be gratefully appreciated .	St
+1.3.6	Thanks .	Polite
+1.4.1	time you 're doing something like this ... it pays to be backed up , just in case .	St
+1.4.2	Re which way to do it ... your call .	St
+1.4.3	Even though it says 'move ' ... . my guess it actually does it in sequence the way I suggested .	St
+1.4.4	If you 're not 100 % sure of the other way ...	St
+1.4.5	I 'd try the one I suggested or else why ask for help ?	Ques
+1.4.6	Let us know how it turns out .	St
 1.4.7	VAPCMD	St

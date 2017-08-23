@@ -1,35 +1,35 @@
-1.1.1	So I have a proxy server in my home that all the computers use to access the internet (XP Pro).	St
-1.1.2	I edited the host file on the proxy to redirect traffic for various reasons (ad blocking, etc.)	St
-1.1.3	But I have noticed that it doesn't seem to affect the computers that use the proxy.	St
-1.1.4	For example one entry in the host file could be 127.0.0.1 abc123.com so that abc123.com would loopback to the localhost.	St
-1.1.5	For some reason this isn't working.	St
-1.1.6	Is there anyway to get this to work without changing the host file on each individual computer?	St
-1.2.1	I stress I have no knowledge of this, but your question interested me so I did a little research.	St
+1.1.1	So I have a proxy server in my home that all the computers use to access the internet ( XP Pro ) .	St
+1.1.2	I edited the host file on the proxy to redirect traffic for various reasons ( ad blocking , etc . )	St
+1.1.3	But I have noticed that it does n't seem to affect the computers that use the proxy .	St
+1.1.4	For example one entry in the host file could be 127.0.0.1 abc123.com so that abc123.com would loopback to the localhost .	St
+1.1.5	For some reason this is n't working .	St
+1.1.6	Is there anyway to get this to work without changing the host file on each individual computer ?	Ques
+1.2.1	I stress I have no knowledge of this , but your question interested me so I did a little research .	St
 1.2.2	Have a look at Proxy and the Windows HOSTS file .	St
-1.2.3	It says; &quot;Using a remote proxy server which basically does the DNS requesting for you does prevent the HOSTS file from being considered.	St
-1.2.4	In other words ...Your browser will route its request through your proxy server before your machine looks up an entry in Hosts.&quot; That said, another article seems to say this is a setting in the browser on each machine connected to the server.	St
-1.2.5	Look at http://accs-net.com/hosts/how_to_use_hosts.html then scroll down to section 4, &quot; (4.)	St
-1.2.6	If you have a proxy server: &quot; &quot; In IE - choose tools:internet options:connections and choose your connection.	St
-1.2.7	If you are using a proxy server, make sure the box called &quot;bypass proxy server for local addresses&quot; is checked.	St
-1.2.8	In Netscape - go to Edit: Preferences: Advanced: Proxies and click the manual setting.	St
-1.2.9	Then click on view and type &quot;127.0.0.1&quot; into the exceptions box at the bottom &quot; I think that is saying, check IE on each machine and remove the tick for &quot;Bypass proxy server for local addresses&quot;.	St
-1.2.10	And the same for other browser types.	St
-1.2.11	Does that help?	St
+1.2.3	It says ; & quot ; Using a remote proxy server which basically does the DNS requesting for you does prevent the HOSTS file from being considered .	St
+1.2.4	In other words ... Your browser will route its request through your proxy server before your machine looks up an entry in Hosts. & quot ; That said , another article seems to say this is a setting in the browser on each machine connected to the server .	St
+1.2.5	Look at http : //accs-net.com/hosts/how_to_use_hosts.html then scroll down to section 4 , & quot ; ( 4 . )	St
+1.2.6	If you have a proxy server : & quot ; & quot ; In IE - choose tools : internet options : connections and choose your connection .	St
+1.2.7	If you are using a proxy server , make sure the box called & quot ; bypass proxy server for local addresses & quot ; is checked .	St
+1.2.8	In Netscape - go to Edit : Preferences : Advanced : Proxies and click the manual setting .	St
+1.2.9	Then click on view and type & quot ; 127.0.0.1 & quot ; into the exceptions box at the bottom & quot ; I think that is saying , check IE on each machine and remove the tick for & quot ; Bypass proxy server for local addresses & quot ; .	St
+1.2.10	And the same for other browser types .	St
+1.2.11	Does that help ?	Ques
 1.2.12	Mark	St
-1.3.1	Sounds like he has the reverse problem.	St
-1.3.2	He wants the remote machine to use his proxy for DNS lookup rather that attempt to do it themselves.	St
-1.3.3	Most the settings related to bypass proxy are for when you have internal servers you can get to directly.	St
-1.3.4	This is mostly to reduce the load on the proxy.	St
-1.3.5	It will do little good to set the host setting on each machine.	St
-1.3.6	They do not look in the host file or even query the DNS.	St
-1.3.7	When you set the bypass proxy stuff it will then do its own DNS query and go directly... ie bypass your proxy.	St
-1.3.8	When you use proxy you want to make it so all the other machine MUST pass though the proxy to get to the internet.	St
-1.3.9	Now assuming you force all the traffic though the proxy and the proxy is not using your host file this is a issue with the proxy software.	St
-1.3.10	You would think the proxy would just make a call to the OS to look up the names and the OS would use the host file.	Sug
-1.3.11	I would spend my time looking for a setting on the proxy that would cause it to bypass the host file.	St
-1.3.12	Also make sure that the proxy machine honors the host file when you access things directly.	Sug
-1.3.13	If all else fails you could try to use opendns rather than the host file to filter stuff... there is a small charge for the version that you can add things to	Sug
-1.4.1	That's why I said to remove that tick.	St
-1.4.2	If it was set, then the other machines/browsers would bypass the proxy.	St
-1.4.3	But like I said, I know nothing.	St
+1.3.1	Sounds like he has the reverse problem .	St
+1.3.2	He wants the remote machine to use his proxy for DNS lookup rather that attempt to do it themselves .	St
+1.3.3	Most the settings related to bypass proxy are for when you have internal servers you can get to directly .	St
+1.3.4	This is mostly to reduce the load on the proxy .	St
+1.3.5	It will do little good to set the host setting on each machine .	St
+1.3.6	They do not look in the host file or even query the DNS .	St
+1.3.7	When you set the bypass proxy stuff it will then do its own DNS query and go directly ... ie bypass your proxy .	St
+1.3.8	When you use proxy you want to make it so all the other machine MUST pass though the proxy to get to the internet .	St
+1.3.9	Now assuming you force all the traffic though the proxy and the proxy is not using your host file this is a issue with the proxy software .	St
+1.3.10	You would think the proxy would just make a call to the OS to look up the names and the OS would use the host file .	Sug
+1.3.11	I would spend my time looking for a setting on the proxy that would cause it to bypass the host file .	St
+1.3.12	Also make sure that the proxy machine honors the host file when you access things directly .	Sug
+1.3.13	If all else fails you could try to use opendns rather than the host file to filter stuff ... there is a small charge for the version that you can add things to	Sug
+1.4.1	That 's why I said to remove that tick .	St
+1.4.2	If it was set , then the other machines/browsers would bypass the proxy .	St
+1.4.3	But like I said , I know nothing .	St
 1.4.4	Mark	St

@@ -1,61 +1,61 @@
-1.1.1	I'm attempting to set up an HP2420 32 bit printer on my network with a cat5e cable.	St
-1.1.2	I have all WinXP pro PCs.	St
-1.1.3	I previously always attached this printer to a PC but I want this one on the LAN now.	St
-1.1.4	I googled the steps but still can't see the printer.	St
-1.1.5	Here's what I did... --print an HP2420 configuration page with jet direct page IP address 10.34.204.4 --add printer wizard --choose &quot;local install&quot; option and create a port.	St
-1.1.6	--use the dropdown list for a TCP/IP port , --then use that IP address 10.34.204.4 --got to the manufacturer's list page choose &quot;have disk&quot; and browse to my driver.	St
-1.1.7	--highlight one of the files there and click ok and follow through with the rest of the steps That IP address doesn't look like my normal IPs.	St
-1.1.8	I had planned to use 192.168.2.113 before I read the google blog, but using 192.168.2.113 fails also.	St
-1.1.9	And as always someone wants to use it yesterday.	St
-1.1.10	I'm self taught on systems since this is only part of my job, but I'm a good monkey if it's explained.	Sug
+1.1.1	I 'm attempting to set up an HP2420 32 bit printer on my network with a cat5e cable .	St
+1.1.2	I have all WinXP pro PCs .	St
+1.1.3	I previously always attached this printer to a PC but I want this one on the LAN now .	St
+1.1.4	I googled the steps but still ca n't see the printer .	St
+1.1.5	Here 's what I did ... -- print an HP2420 configuration page with jet direct page IP address 10.34.204.4 -- add printer wizard -- choose & quot ; local install & quot ; option and create a port .	St
+1.1.6	-- use the dropdown list for a TCP/IP port , -- then use that IP address 10.34.204.4 -- got to the manufacturer 's list page choose & quot ; have disk & quot ; and browse to my driver .	St
+1.1.7	-- highlight one of the files there and click ok and follow through with the rest of the steps That IP address does n't look like my normal IPs .	St
+1.1.8	I had planned to use 192.168.2.113 before I read the google blog , but using 192.168.2.113 fails also .	St
+1.1.9	And as always someone wants to use it yesterday .	St
+1.1.10	I 'm self taught on systems since this is only part of my job , but I 'm a good monkey if it 's explained .	St
 1.1.11	Thanks for any help	St
-1.2.1	While the network expert could add a route to that address I will not tell how here as the network maintainer must be able to do that.	St
-1.2.2	Why not put the printer address on your LAN?	Sug
+1.2.1	While the network expert could add a route to that address I will not tell how here as the network maintainer must be able to do that .	St
+1.2.2	Why not put the printer address on your LAN ?	Ques
 1.2.3	Bob	St
-1.3.1	Apparently I'm missing a step?	St
-1.3.2	Yeah, I thought about putting the printer on the server but I'll leave that to my server vender since I don't want to mess up their work on the server.	St
-1.3.3	That's why I'm trying this way myself.	St
-1.3.4	If it doesn't work I'll have them come in, but their earliest date is 10 days out.	St
-1.4.1	Sorry but why not change the IP to one that is on your LAN?	St
-1.4.2	It should be at most a 5 minute job to change this or you could research how IP works.	St
-1.4.3	I can't give a course in that here.	St
-1.4.4	But I will share it won't work as laid out above.	St
-1.4.5	And I'll share the 5 minute fix.	St
+1.3.1	Apparently I 'm missing a step ?	Ques
+1.3.2	Yeah , I thought about putting the printer on the server but I 'll leave that to my server vender since I do n't want to mess up their work on the server .	St
+1.3.3	That 's why I 'm trying this way myself .	St
+1.3.4	If it does n't work I 'll have them come in , but their earliest date is 10 days out .	St
+1.4.1	Sorry but why not change the IP to one that is on your LAN ?	Ques
+1.4.2	It should be at most a 5 minute job to change this or you could research how IP works .	St
+1.4.3	I ca n't give a course in that here .	St
+1.4.4	But I will share it wo n't work as laid out above .	St
+1.4.5	And I 'll share the 5 minute fix .	St
 1.4.6	Bob	St
-1.5.1	You may wonder why I can't tell you what IP address to set the printer to so I thought I'd recap this.	St
-1.5.2	1.	St
-1.5.3	I don't know what your LAN settings are.	St
-1.5.4	That is without the 192.168.1.x for the range and the netmask of 255.255.255.0 being revealed by you as well as your current DHCP range this means no one can tell you what to do in this regard.	St
-1.5.5	2.	St
-1.5.6	10.x.x.x is not on a 192.x.x.x LAN.	St
-1.5.7	PERIOD.	St
-1.5.8	I offered that one might add a route but declined to write how since the maintainer must be able to do that.	St
-1.5.9	Doing such by my advice would only bad advice as the maintainer would not be able to fix it again.	St
-1.5.10	3.	St
-1.5.11	Here the HP usually can be set to DHCP and the HP driver software will locate the printer automatically.	St
-1.5.12	HOWEVER you will find die hard to new networkers that want to assign all addresses.	St
-1.5.13	They usually flame out or the newness wears off.	St
+1.5.1	You may wonder why I ca n't tell you what IP address to set the printer to so I thought I 'd recap this .	St
+1.5.2	1 .	St
+1.5.3	I do n't know what your LAN settings are .	St
+1.5.4	That is without the 192.168.1.x for the range and the netmask of 255.255.255.0 being revealed by you as well as your current DHCP range this means no one can tell you what to do in this regard .	St
+1.5.5	2 .	St
+1.5.6	10.x.x.x is not on a 192.x.x.x LAN .	St
+1.5.7	PERIOD .	St
+1.5.8	I offered that one might add a route but declined to write how since the maintainer must be able to do that .	St
+1.5.9	Doing such by my advice would only bad advice as the maintainer would not be able to fix it again .	St
+1.5.10	3 .	St
+1.5.11	Here the HP usually can be set to DHCP and the HP driver software will locate the printer automatically .	St
+1.5.12	HOWEVER you will find die hard to new networkers that want to assign all addresses .	St
+1.5.13	They usually flame out or the newness wears off .	St
 1.5.14	Bob	St
-1.6.1	Bob Thanks for the tips.	St
-1.6.2	My server guy stopped in yesterday.	St
-1.6.3	I was attempting to do what you suggested by changing the IP in the printer, but I was missing the menu item to do that (my wife says I'm blind).	St
-1.6.4	Once we did that we put the driver on the server and voila!	St
-1.6.5	We have contact.	St
-1.6.6	I got the printer from ebay and the prior owner apparently had that setting in there.	St
-1.6.7	As usual I learned something from my mistake which is a good thing.	St
-1.6.8	Thanks again.	Polite
-1.7.1	Me too.	St
-1.7.2	Long ago my pager wasn't working.	St
-1.7.3	During lunch I went to the support line where the nice fellow took my pager, opened it and flipped the battery over.	St
-1.7.4	I guess I should have been watching the show as he did that with about every third person.	St
-1.7.5	&quot;Next!&quot; Yes, I hung my head after I said my thank you.	Polite
+1.6.1	Bob Thanks for the tips .	St
+1.6.2	My server guy stopped in yesterday .	St
+1.6.3	I was attempting to do what you suggested by changing the IP in the printer , but I was missing the menu item to do that ( my wife says I 'm blind ) .	St
+1.6.4	Once we did that we put the driver on the server and voila !	St
+1.6.5	We have contact .	St
+1.6.6	I got the printer from ebay and the prior owner apparently had that setting in there .	St
+1.6.7	As usual I learned something from my mistake which is a good thing .	St
+1.6.8	Thanks again .	St
+1.7.1	Me too .	Res
+1.7.2	Long ago my pager was n't working .	St
+1.7.3	During lunch I went to the support line where the nice fellow took my pager , opened it and flipped the battery over .	St
+1.7.4	I guess I should have been watching the show as he did that with about every third person .	St
+1.7.5	& quot ; Next ! & quot ; Yes , I hung my head after I said my thank you .	St
 1.7.6	Bob	St
-1.8.1	Bob If you're still following this, I put my original question on another board at the same time as cnet.	St
-1.8.2	A responder there wanted me to tell him my gateway IP (I assume he meant my default gateway), which I declined.	St
-1.8.3	If I had sent that, is that enough info for someone to hack my LAN, assuming I wasn't behind my hardware/software firewalls?	St
+1.8.1	Bob If you 're still following this , I put my original question on another board at the same time as cnet .	St
+1.8.2	A responder there wanted me to tell him my gateway IP ( I assume he meant my default gateway ) , which I declined .	St
+1.8.3	If I had sent that , is that enough info for someone to hack my LAN , assuming I was n't behind my hardware/software firewalls ?	Ques
 1.8.4	Thanks again	St
-1.9.1	The LAN information is non-routable so without any stress I can share my LAN's IP address range, NETMASK and Gateway.	St
-1.9.2	This one didn't need that and while your experts can add a route I hope you understand I can't in good conscious do that for folk.	St
-1.9.3	If I did and they didn't understand how it works then later they would not be able to fix it.	St
-1.9.4	So as you can see, the printer needed to be on the LAN which you did and it's much easier to fix and maintain now.	St
+1.9.1	The LAN information is non-routable so without any stress I can share my LAN 's IP address range , NETMASK and Gateway .	St
+1.9.2	This one did n't need that and while your experts can add a route I hope you understand I ca n't in good conscious do that for folk .	St
+1.9.3	If I did and they did n't understand how it works then later they would not be able to fix it .	St
+1.9.4	So as you can see , the printer needed to be on the LAN which you did and it 's much easier to fix and maintain now .	St
 1.9.5	Bob	St

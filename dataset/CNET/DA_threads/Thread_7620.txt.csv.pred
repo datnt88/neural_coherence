@@ -1,111 +1,111 @@
-1.1.1	Effective with the recent Daylight Savings time change (just coincidence, I'm sure!	St
-1.1.2	), three of the four computers on a Linksys wireless B (infrastructure) network lost access.	St
-1.1.3	The RF signal level was great, but the router would not assign IP addresses to three computers.	St
-1.1.4	A chat with the 24/7 help guy at Linksys (probably in Calcutta!	St
-1.1.5	), was to no avail.	St
-1.1.6	I tried the usual soft and hard resets, channel changes, etc., but finally got the system working again by increasing the maxinum number of IP address that the DHCP utility of the router can assign, from 50 to 100.	St
-1.1.7	Now the router assigns x.x.x.101 to the computer that always worked, but x.x.x.151, x.x.x.152 and x.x.x.153 to the other three.	St
-1.1.8	None of the intermediate values show up on the router's list of assigned IPs, so why the big gap in assignments?	St
-1.1.9	The network is not encrypted, but MAC addresses are filtered to keep the casual snoopers out.	St
-1.1.10	I am back in business, but really wonder what's going on here.	St
+1.1.1	Effective with the recent Daylight Savings time change ( just coincidence , I 'm sure !	St
+1.1.2	) , three of the four computers on a Linksys wireless B ( infrastructure ) network lost access .	St
+1.1.3	The RF signal level was great , but the router would not assign IP addresses to three computers .	St
+1.1.4	A chat with the 24/7 help guy at Linksys ( probably in Calcutta !	St
+1.1.5	) , was to no avail .	St
+1.1.6	I tried the usual soft and hard resets , channel changes , etc. , but finally got the system working again by increasing the maxinum number of IP address that the DHCP utility of the router can assign , from 50 to 100 .	St
+1.1.7	Now the router assigns x.x.x.101 to the computer that always worked , but x.x.x.151 , x.x.x.152 and x.x.x.153 to the other three .	St
+1.1.8	None of the intermediate values show up on the router 's list of assigned IPs , so why the big gap in assignments ?	Ques
+1.1.9	The network is not encrypted , but MAC addresses are filtered to keep the casual snoopers out .	St
+1.1.10	I am back in business , but really wonder what 's going on here .	St
 1.2.1	Maximium number of DHCP users = 100 Starting IP address = ?	Ques
-1.2.2	Look in the TCP/IP Properties of the 192.168.1.101 computer (in the properties of the active network connection).	St
-1.2.3	Does it ''Obtain IP address automatically'' or is it pre-assigned (static)?	St
-1.3.1	Hi, Linkit, Thanks for the reply.	St
-1.3.2	I just checked, and all computers on the network are set to obtain the IP address automatically.	St
-1.3.3	This morning I booted up one of the previously-failed computers first, and it still obtained x.x.x.151.	St
-1.3.4	Afterward, when I booted the 'always okay' computer to answer your question, sure enough it obtained x.x.x.101.	St
-1.3.5	I'm not really comfortable trying to use the manual setup under Properties of the network connection, but wonder if it's possible simply to preassign IP addresses for the four computers on the network, or would this drive the router nuts, trying to use its DHCP for this?	St
-1.4.1	You have stated that you increased the count of IP addresses the DHCP server can assign.	St
-1.4.2	In the admin page for the router, what is the starting IP address for the DHCP server?	St
-1.4.3	xxx.xxx.xxx.150 or xxx.xxx.xxx.101 or other?	St
-1.4.4	What is the subnet mask on the 101 computer?	St
+1.2.2	Look in the TCP/IP Properties of the 192.168.1.101 computer ( in the properties of the active network connection ) .	St
+1.2.3	Does it ''Obtain IP address automatically '' or is it pre-assigned ( static ) ?	Ques
+1.3.1	Hi , Linkit , Thanks for the reply .	St
+1.3.2	I just checked , and all computers on the network are set to obtain the IP address automatically .	St
+1.3.3	This morning I booted up one of the previously-failed computers first , and it still obtained x.x.x.151 .	St
+1.3.4	Afterward , when I booted the 'always okay ' computer to answer your question , sure enough it obtained x.x.x.101 .	St
+1.3.5	I 'm not really comfortable trying to use the manual setup under Properties of the network connection , but wonder if it 's possible simply to preassign IP addresses for the four computers on the network , or would this drive the router nuts , trying to use its DHCP for this ?	Ques
+1.4.1	You have stated that you increased the count of IP addresses the DHCP server can assign .	St
+1.4.2	In the admin page for the router , what is the starting IP address for the DHCP server ?	Ques
+1.4.3	xxx.xxx.xxx.150 or xxx.xxx.xxx.101 or other ?	Ques
+1.4.4	What is the subnet mask on the 101 computer ?	Ques
 1.4.5	255.255.255.0 ?	Ques
-1.4.6	Do you get any error message when you enter ''ipconfig /renew'' command?	St
-1.4.7	Static IP addresses shoudn't be a problem for the router.	St
-1.4.8	The router will use the static IP addresses that it discovers on the computers/network devices before it attempts to assign an IP address via DHCP.	St
-1.5.1	Answers embedded with ***: You have stated that you increased the count of IP addresses the DHCP server can assign.	St
-1.5.2	In the admin page for the router, what is the starting IP address for the DHCP server?	St
-1.5.3	xxx.xxx.xxx.150 or xxx.xxx.xxx.101 or other?	St
-1.5.4	***Starting address is 192.168.1.100.	St
-1.5.5	With Number Of Addresses set to 100, the router gives me a range of 192.168.1.100 to 192.168.1.199.	St
-1.5.6	*** What is the subnet mask on the 101 computer?	St
+1.4.6	Do you get any error message when you enter ''ipconfig /renew '' command ?	Ques
+1.4.7	Static IP addresses shoud n't be a problem for the router .	St
+1.4.8	The router will use the static IP addresses that it discovers on the computers/network devices before it attempts to assign an IP address via DHCP .	St
+1.5.1	Answers embedded with *** : You have stated that you increased the count of IP addresses the DHCP server can assign .	St
+1.5.2	In the admin page for the router , what is the starting IP address for the DHCP server ?	Ques
+1.5.3	xxx.xxx.xxx.150 or xxx.xxx.xxx.101 or other ?	Ques
+1.5.4	***Starting address is 192.168.1.100 .	St
+1.5.5	With Number Of Addresses set to 100 , the router gives me a range of 192.168.1.100 to 192.168.1.199 .	St
+1.5.6	*** What is the subnet mask on the 101 computer ?	Ques
 1.5.7	255.255.255.0 ?	Ques
-1.5.8	***The _router's_ subset mask is indeed 255.255.255.0.	St
-1.5.9	I looked under Properties of the wireless connection on the computers, but can't find where any subset mask is called out here.	St
-1.5.10	*** Do you get any error message when you enter ''ipconfig /renew'' command?	St
-1.5.11	***You've got me there.	St
-1.5.12	Where would I enter this command?	St
-1.5.13	Start/Run?	St
-1.5.14	If I click on ''Repair'' under Wireless/Properties, the computer turns off the USB adapter, turns it back on and waits for a new IP assignment.	St
-1.5.15	I suppose this is the same thing?	St
-1.5.16	If so, this computer still gets the x.x.x.151, and my wife's computer gets the x.x.x.101.	St
-1.5.17	*** Static IP addresses shoudn't be a problem for the router.	St
-1.5.18	The router will use the static IP addresses that it discovers on the computers/network devices before it attempts to assign an IP address via DHCP.	St
-1.5.19	***Does this mean that I would simply assign sequential IPs under Properties of my wireless connection?	St
-1.5.20	There seem multiple ways to do this, either under the General tab or the Alternate Configuration tab.	St
-1.5.21	These also want a subset mask specified and call for things like a Default Gateway and preferred and alternate DNS servers.	St
-1.5.22	This is all a bit beyond me.	St
-1.5.23	However, if I was able to assign these manually, would I then disable the router's Local DHCP Server?	St
-1.5.24	Would this give me any security advantage over auto-DHCP?	St
-1.5.25	*** Many thanks for all your help.	Polite
-1.6.1	Let's take care of the easy stuff first: What is the router model number?	St
-1.6.2	Have you downloaded and installed the latest router FIRMWARE from Linksys.com?	St
-1.6.3	Linksys Downloads Besides the Linksys router, do you have any other network boxes (switches, hubs, another router) on your local network?	St
-1.7.1	Hi, Linkit, First, many thanks for your continued help.	Polite
-1.7.2	The router is a Linksys BEFW11S4 - Ver.	St
-1.7.3	4.	St
-1.7.4	I have downloaded an updated driver, but want to wait until tomorrow to install this.	St
-1.7.5	My wife uses the DSL connection in her home office and is working there today.	St
-1.7.6	When opening the control panel of the router it's clear how to browse to the file I placed on my desktop and upload the new firmware.	St
-1.7.7	No, there's no other equipment on the newtork, just the router hard-wired to the DSL modem, three desktops with USB adapters (1 Linksys, 2 D-Link), and two laptops that have built-in adapters but are used only occasionally.	St
-1.7.8	The network is configured as an &quot;Infrastructure&quot; one; that is, the computers talk to the modem and not to each other.	St
-1.7.9	Tomorrow I will upload the new router firmware and, hopefully, report success.	St
-1.8.1	Question, why would you have to set 100 clients if you only have 5 computers in your network?.	Ques
-1.8.2	I have 6 pc's in my house and I have 6 licenses assigned and I've had no problems whatsoever.	St
-1.8.3	Also, how are these computers (desktops) wired to the router?	St
-1.8.4	are they in the same room?	St
-1.8.5	If so, I wouldn't use the usb adapters, you're just asking for more things to diagnose in case you have problems.	St
-1.8.6	If the pc's are all together, then simply plug them into the router directly, you'll save yourself a headache and the pc's will have a faster connection as opposed to having an up to 11Mbps, you'll have up to 100Mbps.	St
-1.8.7	As far as the addresses are concerned, you can have any ip address you want withing a class, with a C class address being the most common one (192.168.1.1), the router won't really care what you assign the addresses to be.	St
-1.8.8	Try this, build a table with assigned MAC addresses, so that the pc's in your network don't have problems connecting to the router.	St
-1.8.9	Not only will it allow only those pc's to your network but it'll give you an extra layer of security.	St
-1.9.1	Linkit: I took your suggestion and updated the firmware for my Linksys router.	St
-1.9.2	That did the trick, although I still wonder why this was necessary.	St
-1.9.3	Now each computer that is turned on is assigned an IP address, starting at the bottom of the list (x.x.x.100) and going up sequentially from there.	St
-1.9.4	This is as it should be, how it used to be, and is once again.	St
-1.9.5	Many thanks for your concern, your assistance and your tenacity.	Polite
-1.10.1	Hi, JB, Yes, why indeed the 100-client setting for so few computers?	St
-1.10.2	The router always used to assign IP addresses to the wireless adapters in order, starting with x.x.x.100.	St
-1.10.3	But a few days ago it decided to deny access to all but one computer in the house... until I allowed a greater number of assignments, then it started assigning at x.x.x.151 and up.	St
-1.10.4	In other words, it refused to give those assignments between x.x.x.101 and x.x.x.150.	St
-1.10.5	But updating the router's firmware solved the problem, although this still has me a bit concerned as it simply 'quit working right' for no apparent reason.	St
-1.10.6	All five computers in the house have only wireless access to the router; in fact, the only hard-wired connection to the router is between it and the DSL modem.	St
-1.10.7	The router is in the attic and the computers are sprinkled throughout the house.	St
-1.10.8	Even though I once attended a seminar about rewiring pre-information-age homes, punching holes, running wires and patching sheetrock is not my thing.	St
-1.10.9	And thanks for the tip about building a table of MAC addresses.	Polite
-1.10.10	I have done that using the router's built-in utility just for this purpose.	St
-1.10.11	The MAC list has only the addresses of the three desktops and two laptops, and should not assign an IP to any interlopers.	St
-1.10.12	Before I did this, I was able to see neighbors trying to hop onto the network from time to time, perhaps automatically and honestly, but who knows?	St
-1.11.1	Sorry I didn't suggest to update the firmware sooner.	St
-1.11.2	My earlier questions were to make sure that what you had observed as a problem wasn't just the router functioning as configured.	St
-1.11.3	When you provided some of the relevant router settings, it looked like something else was wrong.	St
-1.11.4	If you update software (OS, drivers, etc.)	St
-1.11.5	on your comuters, it can make commuincation with a router problematic.	St
-1.11.6	Unfortunately, the router manuals I've seen don't stress enough the importance of firware updates to solve problems.	St
-1.11.7	Also, firmware may become corrupted.	St
-1.11.8	Glad it's fixed.	St
-1.11.9	Happy networking!	St
-1.12.1	enjoy the network.	Polite
-1.12.2	Sometimes the firmware can do hokey things like that.	St
-1.12.3	I was losing my connection to my modem every so often for no apparent reason and no one could tell me why.	St
-1.12.4	I updated the firmware and the problem got fixed.	St
-1.12.5	I also set the MTU's manually to 1492 and it worked.	St
-1.12.6	Go figure.	St
-1.12.7	As far as punching holes and stuff, it might be easy just to do it to the closest room in the upper level of your home where one of the pc's resides.	St
-1.12.8	Assuming that there's a phone jack in the wall, all you would have to do is absolutely nothing but plug the modem to the wall jack, power it, hok it to the router and then to the pc.	St
-1.12.9	I'm also assuming that for some reason the phone company decided it would be best to wire a phone line in the attic?	St
-1.12.10	(that's kinda weird to me).	St
-1.12.11	If that's the case, it's very easy to run a line to the closest room on the second level where one of the pc's resides.	St
-1.12.12	Nonetheless, that could be a nice weekend project.	St
-1.12.13	I just wouldn't feel right leaving my router in my attic where it could be exposed to whatever (including water and heat), that's just me.	St
+1.5.8	***The _router's_ subset mask is indeed 255.255.255.0 .	St
+1.5.9	I looked under Properties of the wireless connection on the computers , but ca n't find where any subset mask is called out here .	St
+1.5.10	*** Do you get any error message when you enter ''ipconfig /renew '' command ?	Ques
+1.5.11	***You 've got me there .	St
+1.5.12	Where would I enter this command ?	Ques
+1.5.13	Start/Run ?	Ques
+1.5.14	If I click on ''Repair '' under Wireless/Properties , the computer turns off the USB adapter , turns it back on and waits for a new IP assignment .	St
+1.5.15	I suppose this is the same thing ?	Ques
+1.5.16	If so , this computer still gets the x.x.x.151 , and my wife 's computer gets the x.x.x.101 .	St
+1.5.17	*** Static IP addresses shoud n't be a problem for the router .	St
+1.5.18	The router will use the static IP addresses that it discovers on the computers/network devices before it attempts to assign an IP address via DHCP .	St
+1.5.19	***Does this mean that I would simply assign sequential IPs under Properties of my wireless connection ?	Ques
+1.5.20	There seem multiple ways to do this , either under the General tab or the Alternate Configuration tab .	St
+1.5.21	These also want a subset mask specified and call for things like a Default Gateway and preferred and alternate DNS servers .	St
+1.5.22	This is all a bit beyond me .	St
+1.5.23	However , if I was able to assign these manually , would I then disable the router 's Local DHCP Server ?	Ques
+1.5.24	Would this give me any security advantage over auto-DHCP ?	Ques
+1.5.25	*** Many thanks for all your help .	Polite
+1.6.1	Let 's take care of the easy stuff first : What is the router model number ?	Ques
+1.6.2	Have you downloaded and installed the latest router FIRMWARE from Linksys.com ?	Ques
+1.6.3	Linksys Downloads Besides the Linksys router , do you have any other network boxes ( switches , hubs , another router ) on your local network ?	Ques
+1.7.1	Hi , Linkit , First , many thanks for your continued help .	Polite
+1.7.2	The router is a Linksys BEFW11S4 - Ver .	St
+1.7.3	4 .	St
+1.7.4	I have downloaded an updated driver , but want to wait until tomorrow to install this .	St
+1.7.5	My wife uses the DSL connection in her home office and is working there today .	St
+1.7.6	When opening the control panel of the router it 's clear how to browse to the file I placed on my desktop and upload the new firmware .	St
+1.7.7	No , there 's no other equipment on the newtork , just the router hard-wired to the DSL modem , three desktops with USB adapters ( 1 Linksys , 2 D-Link ) , and two laptops that have built-in adapters but are used only occasionally .	St
+1.7.8	The network is configured as an & quot ; Infrastructure & quot ; one ; that is , the computers talk to the modem and not to each other .	St
+1.7.9	Tomorrow I will upload the new router firmware and , hopefully , report success .	St
+1.8.1	Question , why would you have to set 100 clients if you only have 5 computers in your network ? .	Ques
+1.8.2	I have 6 pc 's in my house and I have 6 licenses assigned and I 've had no problems whatsoever .	St
+1.8.3	Also , how are these computers ( desktops ) wired to the router ?	Ques
+1.8.4	are they in the same room ?	Ques
+1.8.5	If so , I would n't use the usb adapters , you 're just asking for more things to diagnose in case you have problems .	St
+1.8.6	If the pc 's are all together , then simply plug them into the router directly , you 'll save yourself a headache and the pc 's will have a faster connection as opposed to having an up to 11Mbps , you 'll have up to 100Mbps .	St
+1.8.7	As far as the addresses are concerned , you can have any ip address you want withing a class , with a C class address being the most common one ( 192.168.1.1 ) , the router wo n't really care what you assign the addresses to be .	St
+1.8.8	Try this , build a table with assigned MAC addresses , so that the pc 's in your network do n't have problems connecting to the router .	St
+1.8.9	Not only will it allow only those pc 's to your network but it 'll give you an extra layer of security .	St
+1.9.1	Linkit : I took your suggestion and updated the firmware for my Linksys router .	St
+1.9.2	That did the trick , although I still wonder why this was necessary .	St
+1.9.3	Now each computer that is turned on is assigned an IP address , starting at the bottom of the list ( x.x.x.100 ) and going up sequentially from there .	St
+1.9.4	This is as it should be , how it used to be , and is once again .	St
+1.9.5	Many thanks for your concern , your assistance and your tenacity .	Polite
+1.10.1	Hi , JB , Yes , why indeed the 100-client setting for so few computers ?	Ques
+1.10.2	The router always used to assign IP addresses to the wireless adapters in order , starting with x.x.x.100 .	St
+1.10.3	But a few days ago it decided to deny access to all but one computer in the house ... until I allowed a greater number of assignments , then it started assigning at x.x.x.151 and up .	St
+1.10.4	In other words , it refused to give those assignments between x.x.x.101 and x.x.x.150 .	St
+1.10.5	But updating the router 's firmware solved the problem , although this still has me a bit concerned as it simply 'quit working right ' for no apparent reason .	St
+1.10.6	All five computers in the house have only wireless access to the router ; in fact , the only hard-wired connection to the router is between it and the DSL modem .	St
+1.10.7	The router is in the attic and the computers are sprinkled throughout the house .	St
+1.10.8	Even though I once attended a seminar about rewiring pre-information-age homes , punching holes , running wires and patching sheetrock is not my thing .	St
+1.10.9	And thanks for the tip about building a table of MAC addresses .	Polite
+1.10.10	I have done that using the router 's built-in utility just for this purpose .	St
+1.10.11	The MAC list has only the addresses of the three desktops and two laptops , and should not assign an IP to any interlopers .	St
+1.10.12	Before I did this , I was able to see neighbors trying to hop onto the network from time to time , perhaps automatically and honestly , but who knows ?	Ques
+1.11.1	Sorry I did n't suggest to update the firmware sooner .	St
+1.11.2	My earlier questions were to make sure that what you had observed as a problem was n't just the router functioning as configured .	St
+1.11.3	When you provided some of the relevant router settings , it looked like something else was wrong .	St
+1.11.4	If you update software ( OS , drivers , etc . )	St
+1.11.5	on your comuters , it can make commuincation with a router problematic .	St
+1.11.6	Unfortunately , the router manuals I 've seen do n't stress enough the importance of firware updates to solve problems .	St
+1.11.7	Also , firmware may become corrupted .	St
+1.11.8	Glad it 's fixed .	St
+1.11.9	Happy networking !	St
+1.12.1	enjoy the network .	Polite
+1.12.2	Sometimes the firmware can do hokey things like that .	St
+1.12.3	I was losing my connection to my modem every so often for no apparent reason and no one could tell me why .	St
+1.12.4	I updated the firmware and the problem got fixed .	St
+1.12.5	I also set the MTU 's manually to 1492 and it worked .	St
+1.12.6	Go figure .	St
+1.12.7	As far as punching holes and stuff , it might be easy just to do it to the closest room in the upper level of your home where one of the pc 's resides .	St
+1.12.8	Assuming that there 's a phone jack in the wall , all you would have to do is absolutely nothing but plug the modem to the wall jack , power it , hok it to the router and then to the pc .	St
+1.12.9	I 'm also assuming that for some reason the phone company decided it would be best to wire a phone line in the attic ?	Ques
+1.12.10	( that 's kinda weird to me ) .	St
+1.12.11	If that 's the case , it 's very easy to run a line to the closest room on the second level where one of the pc 's resides .	St
+1.12.12	Nonetheless , that could be a nice weekend project .	St
+1.12.13	I just would n't feel right leaving my router in my attic where it could be exposed to whatever ( including water and heat ) , that 's just me .	St

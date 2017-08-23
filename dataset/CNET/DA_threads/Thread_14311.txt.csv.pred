@@ -1,30 +1,30 @@
-1.1.1	As a newbie, can anyone tell me what a parition is and why do I need them?	Ques
-1.1.2	If I don't need them, how do I get rid of them expecially if they take up memory?	St
-1.1.3	How can I view the paritions in my computer?	St
+1.1.1	As a newbie , can anyone tell me what a parition is and why do I need them ?	Ques
+1.1.2	If I do n't need them , how do I get rid of them expecially if they take up memory ?	Ques
+1.1.3	How can I view the paritions in my computer ?	Ques
 1.1.4	Windows xp	St
-1.2.1	There are long discussions and old tales that are nothing but urban rumor that partitions make a machine run faster or &quot;save&quot; your files in case you have to reinstall the OS.	St
-1.2.2	I've found that to be false.	St
-1.2.3	What's the goal here?	St
-1.2.4	You can, with google research what a partition is but for now why change what you have?	St
+1.2.1	There are long discussions and old tales that are nothing but urban rumor that partitions make a machine run faster or & quot ; save & quot ; your files in case you have to reinstall the OS .	St
+1.2.2	I 've found that to be false .	St
+1.2.3	What 's the goal here ?	Ques
+1.2.4	You can , with google research what a partition is but for now why change what you have ?	Ques
 1.2.5	Bob	St
-1.3.1	I googled partition but really never understood why I need them?	St
-1.4.1	A blank hard disk is just a pile of &quot;sectors.&quot; There is no organization so a partition is made so a file system can be held there.	St
-1.4.2	There are long passages about how a file system works but I'll end with writing &quot;Yes, we need that.&quot; Bob	St
-1.5.1	Hi Lynn A simple way to describe it would be like... You buy a harddisk of 500GB for your computer.	St
-1.5.2	1) Create one big partition will give you C: drive with 500GB 2) Create e.g.	St
-1.5.3	two partitions will give you C: drive with e.g.	St
-1.5.4	60 GB and a D: drive with the remaining 440GB.	St
-1.5.5	(actual drive space will be less but its easier to understand this way).	St
-1.5.6	The advantage of creating partitions like in example 2), is if you only use C: for your OS and to install applications and drive D: to store all your data, you can format the C: drive and reinstall your OS, without moving your data on the D: drive.	St
-1.5.7	In this way your computer will get more organized (not faster nor safer).	St
-1.5.8	But remember.	St
-1.5.9	If the harddisk crash both drive C: and D: will be lost.	St
-1.6.1	A partition is an area of the physical disk dedicated to an operating system according to the file system/ hierarchy.	St
-1.6.2	What the previous person stated isn't true.	St
-1.6.3	Windows uses a style of partitioning that is similar to the default BSD style of &quot;slicing a disk.&quot; You are not creating partitions, you are creating dedicated areas within the partition.	St
-1.6.4	There is no C or D drives in the layout of the master boot record.	St
-1.6.5	You only have four primary; and, if you want more then you must only create three primary and have number four separated into logical sections.	St
-1.6.6	You cannot resize a partition from within itself and you cannot do such without permissions as the root user.	St
-1.6.7	You view the partitions with fdisk.	St
-1.6.8	If you want to resize, then use an external device such as a live CD or a usb installed OS.	St
-1.6.9	I suggest knoppix.	St
+1.3.1	I googled partition but really never understood why I need them ?	Ques
+1.4.1	A blank hard disk is just a pile of & quot ; sectors. & quot ; There is no organization so a partition is made so a file system can be held there .	St
+1.4.2	There are long passages about how a file system works but I 'll end with writing & quot ; Yes , we need that. & quot ; Bob	St
+1.5.1	Hi Lynn A simple way to describe it would be like ... You buy a harddisk of 500GB for your computer .	St
+1.5.2	1 ) Create one big partition will give you C : drive with 500GB 2 ) Create e.g .	St
+1.5.3	two partitions will give you C : drive with e.g .	St
+1.5.4	60 GB and a D : drive with the remaining 440GB .	St
+1.5.5	( actual drive space will be less but its easier to understand this way ) .	St
+1.5.6	The advantage of creating partitions like in example 2 ) , is if you only use C : for your OS and to install applications and drive D : to store all your data , you can format the C : drive and reinstall your OS , without moving your data on the D : drive .	St
+1.5.7	In this way your computer will get more organized ( not faster nor safer ) .	St
+1.5.8	But remember .	Res
+1.5.9	If the harddisk crash both drive C : and D : will be lost .	St
+1.6.1	A partition is an area of the physical disk dedicated to an operating system according to the file system/ hierarchy .	St
+1.6.2	What the previous person stated is n't true .	St
+1.6.3	Windows uses a style of partitioning that is similar to the default BSD style of & quot ; slicing a disk. & quot ; You are not creating partitions , you are creating dedicated areas within the partition .	St
+1.6.4	There is no C or D drives in the layout of the master boot record .	St
+1.6.5	You only have four primary ; and , if you want more then you must only create three primary and have number four separated into logical sections .	St
+1.6.6	You can not resize a partition from within itself and you can not do such without permissions as the root user .	St
+1.6.7	You view the partitions with fdisk .	St
+1.6.8	If you want to resize , then use an external device such as a live CD or a usb installed OS .	St
+1.6.9	I suggest knoppix .	St

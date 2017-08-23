@@ -1,54 +1,54 @@
-1.1.1	HI I'm trying to find a solution to save the hard disk on a power fail.	St
-1.1.2	I'm using an industrial PC 'PCISA-C800EVR-RS-R20' and back plane IP-6S-RS-R40 from iei which is installed in a industrial machine.	St
-1.1.3	The power supply to the PC and the machine is through a common power supply unit to run the whole machine.	St
-1.1.4	In case of power failure/shutdown the power dies really quick which causes the hard drive to corrupt.	St
-1.1.5	I believe the FAT got effected and the PC requires a new installation from start i.e.	St
-1.1.6	formating and installing XP.	St
-1.1.7	What i'm thinking is to give a hardware signal (through a watch dog) to the processor to shutdown the PC/ harddrive in an orderly manner just before the whole thing shutdowns.	St
-1.1.8	But i'm not sure how i'm gonna do it since i can't find information on an external hardware input into the board.	St
-1.1.9	Plz if somebody can help me, i'm new to this and sorry if i wrote something improperly.	St
-1.2.1	That using FAT in any version is death to such a project.	St
-1.2.2	No matter what you do you should see failure after failure.	St
-1.2.3	Even on a clean shutdown it can still fail.	St
-1.2.4	I had to let a customer learn this over a full year before they gave up and changed to NTFS.	St
-1.2.5	That's not damage proof but at least it's journaled and damage resistant.	St
-1.2.6	Why not fix the basic issue first?	St
+1.1.1	HI I 'm trying to find a solution to save the hard disk on a power fail .	St
+1.1.2	I 'm using an industrial PC 'PCISA-C800EVR-RS-R20 ' and back plane IP-6S-RS-R40 from iei which is installed in a industrial machine .	St
+1.1.3	The power supply to the PC and the machine is through a common power supply unit to run the whole machine .	St
+1.1.4	In case of power failure/shutdown the power dies really quick which causes the hard drive to corrupt .	St
+1.1.5	I believe the FAT got effected and the PC requires a new installation from start i.e .	St
+1.1.6	formating and installing XP .	St
+1.1.7	What i 'm thinking is to give a hardware signal ( through a watch dog ) to the processor to shutdown the PC/ harddrive in an orderly manner just before the whole thing shutdowns .	St
+1.1.8	But i 'm not sure how i 'm gon na do it since i ca n't find information on an external hardware input into the board .	St
+1.1.9	Plz if somebody can help me , i 'm new to this and sorry if i wrote something improperly .	St
+1.2.1	That using FAT in any version is death to such a project .	St
+1.2.2	No matter what you do you should see failure after failure .	St
+1.2.3	Even on a clean shutdown it can still fail .	St
+1.2.4	I had to let a customer learn this over a full year before they gave up and changed to NTFS .	St
+1.2.5	That 's not damage proof but at least it 's journaled and damage resistant .	St
+1.2.6	Why not fix the basic issue first ?	Ques
 1.2.7	Bob	St
-1.3.1	I'll check and change it to NTFS.	Sug
-1.3.2	Run some tests and let you know.	St
+1.3.1	I 'll check and change it to NTFS .	St
+1.3.2	Run some tests and let you know .	St
 1.3.3	Thanks for the help	St
-1.4.1	with usb monitoring software to perform an orderly shutdown upon on power failure.	St
-1.4.2	http://www.beam-tech.com/093001/prd_pgs/internal_ups.htm	St
-1.5.1	HI The hard drive already has NTFS on it.	St
-1.5.2	I beleive the problem is not the type of allocation table but the power which dies really quick and doesn't allow the HDD head to be in a safe location.	St
-1.6.1	thanks man its a cool UPS.	Polite
-1.6.2	I think the best solution will be an UPS but at the moment the idea is to find a hardware I/P signal to the board so it can tell the processor to shutdown before every thing fails.	St
-1.7.1	This UPS is for a desktop PC.	St
-1.7.2	The trouble is that I have an industrial pc which is quite compact.	St
-1.7.3	The other way would be an internal card type UPS (on PCI slot).	St
-1.7.4	Is there any thing like that?	St
-1.8.1	But I only have your posts to go on.	St
-1.8.2	If you tell me FAT, I believe you and will have to go with that.	St
-1.8.3	Another issue was memory corruption.	St
-1.8.4	We had a system corrupting drives and it turned out to be the RAM would get corrupt and that would be written to the drive.	St
-1.8.5	Took a long time to nail that one.	St
-1.8.6	Sorry it wasn't something simple.	St
-1.8.7	As to your assumption about the head being in the wrong place and the quick power off, we see the power off without notice to not be a problem with NTFS since it's journaled.	St
-1.8.8	We will lose the last record or such but that's to be expected.	St
-1.8.9	So far with thousands of unceremonious AC cutoffs we have yet to lose the drive.	St
-1.8.10	Did this every work?	St
-1.8.11	One time the drive needed to be replaced.	St
+1.4.1	with usb monitoring software to perform an orderly shutdown upon on power failure .	St
+1.4.2	http : //www.beam-tech.com/093001/prd_pgs/internal_ups.htm	St
+1.5.1	HI The hard drive already has NTFS on it .	St
+1.5.2	I beleive the problem is not the type of allocation table but the power which dies really quick and does n't allow the HDD head to be in a safe location .	St
+1.6.1	thanks man its a cool UPS .	Polite
+1.6.2	I think the best solution will be an UPS but at the moment the idea is to find a hardware I/P signal to the board so it can tell the processor to shutdown before every thing fails .	St
+1.7.1	This UPS is for a desktop PC .	St
+1.7.2	The trouble is that I have an industrial pc which is quite compact .	St
+1.7.3	The other way would be an internal card type UPS ( on PCI slot ) .	St
+1.7.4	Is there any thing like that ?	Ques
+1.8.1	But I only have your posts to go on .	St
+1.8.2	If you tell me FAT , I believe you and will have to go with that .	St
+1.8.3	Another issue was memory corruption .	St
+1.8.4	We had a system corrupting drives and it turned out to be the RAM would get corrupt and that would be written to the drive .	St
+1.8.5	Took a long time to nail that one .	St
+1.8.6	Sorry it was n't something simple .	St
+1.8.7	As to your assumption about the head being in the wrong place and the quick power off , we see the power off without notice to not be a problem with NTFS since it 's journaled .	St
+1.8.8	We will lose the last record or such but that 's to be expected .	St
+1.8.9	So far with thousands of unceremonious AC cutoffs we have yet to lose the drive .	St
+1.8.10	Did this every work ?	Ques
+1.8.11	One time the drive needed to be replaced .	St
 1.8.12	Bob	St
-1.9.1	You are right.	St
-1.9.2	If it keeps on shutting the HDD like that it will sooner or later be dead.	St
-1.9.3	The RAM at the moment is Samsung PC133U 256MB sync 133MHZ.	St
-1.9.4	I'm not sure if its smaller size would be causing the corruption.	Res
-1.9.5	What should I do?	Sug
-1.10.1	You didn't answer my question.	Polite
-1.10.2	But your comment &quot;I'm not sure if its smaller size would be causing the corruption.&quot; peaks my curiosity.	St
-1.10.3	We run on embedded machines running Windows 2000 on 64MB so that can't be the cause if you were thinking of low ram.	St
-1.10.4	However XP did corrupt drives without some service packs.	St
-1.10.5	I may skip over such but this is the second time you wrote &quot;XP&quot; and not &quot;XP SP2&quot; or such.	St
-1.10.6	For now you could try turning off XP's write caching.	Sug
-1.10.7	This helps in some cases -&gt; http://www.accucadd.com/TechNotes/Cache/WriteBehindCache.htm That article covers almost all versions of Windows.	St
+1.9.1	You are right .	Res
+1.9.2	If it keeps on shutting the HDD like that it will sooner or later be dead .	St
+1.9.3	The RAM at the moment is Samsung PC133U 256MB sync 133MHZ .	St
+1.9.4	I 'm not sure if its smaller size would be causing the corruption .	Res
+1.9.5	What should I do ?	Ques
+1.10.1	You did n't answer my question .	St
+1.10.2	But your comment & quot ; I 'm not sure if its smaller size would be causing the corruption. & quot ; peaks my curiosity .	St
+1.10.3	We run on embedded machines running Windows 2000 on 64MB so that ca n't be the cause if you were thinking of low ram .	St
+1.10.4	However XP did corrupt drives without some service packs .	St
+1.10.5	I may skip over such but this is the second time you wrote & quot ; XP & quot ; and not & quot ; XP SP2 & quot ; or such .	St
+1.10.6	For now you could try turning off XP 's write caching .	Sug
+1.10.7	This helps in some cases - & gt ; http : //www.accucadd.com/TechNotes/Cache/WriteBehindCache.htm That article covers almost all versions of Windows .	St
 1.10.8	Bob	St

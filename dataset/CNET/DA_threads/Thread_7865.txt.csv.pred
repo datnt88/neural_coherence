@@ -1,71 +1,71 @@
-1.1.1	Hi all, Recently I installed an Asus RT-N66U router to serve a building that houses staff and some guests, in all about 50 people in a given day.	St
-1.1.2	By all accounts it's one of the best routers money can buy but we've still been having problems with it.	St
-1.1.3	I've been experimenting with it for a while to try and nail down what could be the problem but nothing seems to help.	St
-1.1.4	The network is WPA2 protected and uses the same SSID and password as our company's other wifi networks in other buildings for convenience.	St
-1.1.5	Some devices seem to connect just fine - for others, sometimes mobiles sometimes laptops, when trying to connect users are told &quot;Unable to connect to ***&quot;.	St
-1.1.6	Does anyone have any idea what could be causing this?	Ques
-1.1.7	The router is running on the latest firmware and DHCP is enabled, with a pool of 199 IP addresses.	St
-1.1.8	I thought it could be an issue with lease times but whether I put short or long leases, the issue still occurs sporadically.	St
-1.1.9	Any help on this would be massively appreciated because I'm close to pulling out hair.	Polite
-1.2.1	We would never run any WAP over a dozen connections.	St
-1.2.2	You gone over 10 tens that.	St
-1.2.3	Nice idea, if it works but it didn't so if you believe this router can do that many connections then you know who to call next.	St
-1.2.4	You also know that WiFi interference is common but I see no mention of that in your post.	St
-1.2.5	There is a bug that seems to be in many router firmware versions and it's one I encounter a lot.	St
-1.2.6	I see no mention of where you tried the latest and a few prior versions.	St
-1.2.7	I'll be honest with you, I would not expect that many connections to work reliably.	St
-1.2.8	There are many reasons since you have 50 odd computers and all it takes is one bad one to misbehave and knock others off the air.	St
-1.2.9	I mitigate that with more than one WAP.	St
+1.1.1	Hi all , Recently I installed an Asus RT-N66U router to serve a building that houses staff and some guests , in all about 50 people in a given day .	St
+1.1.2	By all accounts it 's one of the best routers money can buy but we 've still been having problems with it .	St
+1.1.3	I 've been experimenting with it for a while to try and nail down what could be the problem but nothing seems to help .	St
+1.1.4	The network is WPA2 protected and uses the same SSID and password as our company 's other wifi networks in other buildings for convenience .	St
+1.1.5	Some devices seem to connect just fine - for others , sometimes mobiles sometimes laptops , when trying to connect users are told & quot ; Unable to connect to *** & quot ; .	St
+1.1.6	Does anyone have any idea what could be causing this ?	Ques
+1.1.7	The router is running on the latest firmware and DHCP is enabled , with a pool of 199 IP addresses .	St
+1.1.8	I thought it could be an issue with lease times but whether I put short or long leases , the issue still occurs sporadically .	St
+1.1.9	Any help on this would be massively appreciated because I 'm close to pulling out hair .	St
+1.2.1	We would never run any WAP over a dozen connections .	St
+1.2.2	You gone over 10 tens that .	St
+1.2.3	Nice idea , if it works but it did n't so if you believe this router can do that many connections then you know who to call next .	St
+1.2.4	You also know that WiFi interference is common but I see no mention of that in your post .	St
+1.2.5	There is a bug that seems to be in many router firmware versions and it 's one I encounter a lot .	St
+1.2.6	I see no mention of where you tried the latest and a few prior versions .	St
+1.2.7	I 'll be honest with you , I would not expect that many connections to work reliably .	St
+1.2.8	There are many reasons since you have 50 odd computers and all it takes is one bad one to misbehave and knock others off the air .	St
+1.2.9	I mitigate that with more than one WAP .	St
 1.2.10	Bob	St
-1.3.1	Thanks for your response.	Polite
-1.3.2	I should add some more information, rookie error on my part.	St
-1.3.3	The router is apparently very capable and has highly rated load balance between the 2.4 and 5Ghz bands, hence why I got it.	St
-1.3.4	I updated the stock firmware to the most recent which is Version 3.0.0.4.260.	St
-1.3.5	We have two Netgear WN3000RP dual band range extenders at opposite ends of the building from the main router, all of which run on separate channels (1, 7 and 11) for 2.4Ghz connections.	St
-1.3.6	Currently the Asus router handles all DHCP requests, although the range extenders are capable of doing this as well.	St
-1.3.7	Would you recommend that I offload some of the DHCP requests onto the extenders (which serve a significantly smaller number of machines)?	St
-1.3.8	If not, I have some old Linksys WAG200G ADSL routers that could probably be pressed into service, although they're obviously only B/G devices.	St
-1.4.1	&quot;all it takes is one bad one to misbehave and knock others off the air&quot;...not sure what this means.	St
-1.4.2	If one machine misbehaves, how would that affect the wireless network?	St
-1.4.3	Unless that machine has access to configuration of that router, then there is not much that machine can do.	St
-1.4.4	Based on what you said, there are a few possible reasons this isnt working, but I don't think proffitt is going to help you here...some of those answers are balogna... Wireless interference is not your problem.	St
-1.4.5	This router has been configured as somewhat of an access point to your building's network, correct?	St
-1.4.6	It is always reccomended that DHCP should only be done centrally, in one place, as near to your NAT device as possible.	St
-1.4.7	Is your router now serving DHCP your entire network?	Ques
-1.4.8	Having multiple DHCP servers is a horrible, horrible idea...don't offload DHCP to your extenders either.	St
-1.4.9	You want one single DHCP server, no matter how large your subnet is.	St
-1.4.10	The best way to answer your question is for you to tell us a little bit more about your company's network.	St
-1.4.11	Is this router now serving as a gateway?	St
-1.4.12	Or is it simply routing packets internally (which I doubt)...you mention your company has &quot;other wifi networks&quot; in other buildings, but are these buildings connected to yours?	St
-1.4.13	Like I mentioned earlier, I doubt this is a physical issue (interference, overload), but a logical issue...	St
-1.5.1	But first, I will not intentional take a swipe at others that want to help you.	St
-1.5.2	I'm only an embedded systems designer that wrote some router code in the 90's so my view is from the inside out and recently an incident with Netgear has me wondering about them.	St
-1.5.3	On to work.	St
-1.5.4	At the office we removed all range extenders as they created more trouble than they solved.	St
-1.5.5	We moved to WAPs or &quot;routers configured as a WAP.&quot; That did wonders for connection issues.	St
-1.5.6	However we did have to find a misbehaving machine in the lot.	St
-1.5.7	The neat part was that with only 15 or so connections per access point it was easy to figure out it was in that group.	St
-1.5.8	In your case I read all the machines connect to one access point and now extenders.	St
-1.5.9	You may have to think how to get some off loaded onto another access point to figure it out.	St
-1.5.10	And here's a lesson from the field.	St
-1.5.11	Ban the 802.11b devices.	St
-1.5.12	Your less seasoned networker may not know to do that.	St
+1.3.1	Thanks for your response .	St
+1.3.2	I should add some more information , rookie error on my part .	St
+1.3.3	The router is apparently very capable and has highly rated load balance between the 2.4 and 5Ghz bands , hence why I got it .	St
+1.3.4	I updated the stock firmware to the most recent which is Version 3.0.0.4.260 .	St
+1.3.5	We have two Netgear WN3000RP dual band range extenders at opposite ends of the building from the main router , all of which run on separate channels ( 1 , 7 and 11 ) for 2.4Ghz connections .	St
+1.3.6	Currently the Asus router handles all DHCP requests , although the range extenders are capable of doing this as well .	St
+1.3.7	Would you recommend that I offload some of the DHCP requests onto the extenders ( which serve a significantly smaller number of machines ) ?	Ques
+1.3.8	If not , I have some old Linksys WAG200G ADSL routers that could probably be pressed into service , although they 're obviously only B/G devices .	St
+1.4.1	& quot ; all it takes is one bad one to misbehave and knock others off the air & quot ; ... not sure what this means .	St
+1.4.2	If one machine misbehaves , how would that affect the wireless network ?	Ques
+1.4.3	Unless that machine has access to configuration of that router , then there is not much that machine can do .	St
+1.4.4	Based on what you said , there are a few possible reasons this isnt working , but I do n't think proffitt is going to help you here ... some of those answers are balogna ... Wireless interference is not your problem .	St
+1.4.5	This router has been configured as somewhat of an access point to your building 's network , correct ?	Ques
+1.4.6	It is always reccomended that DHCP should only be done centrally , in one place , as near to your NAT device as possible .	St
+1.4.7	Is your router now serving DHCP your entire network ?	Ques
+1.4.8	Having multiple DHCP servers is a horrible , horrible idea ... do n't offload DHCP to your extenders either .	St
+1.4.9	You want one single DHCP server , no matter how large your subnet is .	St
+1.4.10	The best way to answer your question is for you to tell us a little bit more about your company 's network .	St
+1.4.11	Is this router now serving as a gateway ?	Ques
+1.4.12	Or is it simply routing packets internally ( which I doubt ) ... you mention your company has & quot ; other wifi networks & quot ; in other buildings , but are these buildings connected to yours ?	Ques
+1.4.13	Like I mentioned earlier , I doubt this is a physical issue ( interference , overload ) , but a logical issue ...	St
+1.5.1	But first , I will not intentional take a swipe at others that want to help you .	St
+1.5.2	I 'm only an embedded systems designer that wrote some router code in the 90 's so my view is from the inside out and recently an incident with Netgear has me wondering about them .	St
+1.5.3	On to work .	St
+1.5.4	At the office we removed all range extenders as they created more trouble than they solved .	St
+1.5.5	We moved to WAPs or & quot ; routers configured as a WAP. & quot ; That did wonders for connection issues .	St
+1.5.6	However we did have to find a misbehaving machine in the lot .	St
+1.5.7	The neat part was that with only 15 or so connections per access point it was easy to figure out it was in that group .	St
+1.5.8	In your case I read all the machines connect to one access point and now extenders .	St
+1.5.9	You may have to think how to get some off loaded onto another access point to figure it out .	St
+1.5.10	And here 's a lesson from the field .	St
+1.5.11	Ban the 802.11b devices .	St
+1.5.12	Your less seasoned networker may not know to do that .	St
 1.5.13	Bob	St
-1.6.1	Can you explain how one bad machine will affect your entire network?	St
-1.6.2	Youre answers do not seem to try and solve the user's problem, but rather try to demonstrate your own technical competence...	Sug
-1.6.3	Explain why he should &quot;ban 802.11b devices&quot; please.	St
-1.7.1	Your posts seem to want to engage me in some other topic about credentials and more.	St
-1.7.2	Let's help this member now.	Polite
-1.7.3	The bad device/PC was easy to find since only that WAP was showing connection issues.	St
-1.7.4	We used the old binary search method to find it.	St
-1.7.5	As a seasoned tech you may know this one.	St
-1.7.6	You install a WAP in the area and you put half of the users on one and the other on the new WAP.	St
-1.7.7	If there is a troubled PC it will be in that WAP that has troubles.	St
-1.7.8	So from 15 or less PCs we're down to 7 or 8 and we only have a few more moves to find the machine.	St
-1.7.9	Then we can swap out that machine and see if we got it.	St
+1.6.1	Can you explain how one bad machine will affect your entire network ?	Ques
+1.6.2	Youre answers do not seem to try and solve the user 's problem , but rather try to demonstrate your own technical competence ...	Sug
+1.6.3	Explain why he should & quot ; ban 802.11b devices & quot ; please .	St
+1.7.1	Your posts seem to want to engage me in some other topic about credentials and more .	St
+1.7.2	Let 's help this member now .	St
+1.7.3	The bad device/PC was easy to find since only that WAP was showing connection issues .	St
+1.7.4	We used the old binary search method to find it .	St
+1.7.5	As a seasoned tech you may know this one .	St
+1.7.6	You install a WAP in the area and you put half of the users on one and the other on the new WAP .	St
+1.7.7	If there is a troubled PC it will be in that WAP that has troubles .	St
+1.7.8	So from 15 or less PCs we 're down to 7 or 8 and we only have a few more moves to find the machine .	St
+1.7.9	Then we can swap out that machine and see if we got it .	St
 1.7.10	Bob	St
-1.8.1	Since the WAPs can't stay at full speed we lose a lot of possible bandwidth.	St
-1.8.2	If we did encounter a need for 802.11b it would be a simple matter to put a WAP in for just that area for the 802.11b device.	St
-1.8.3	For the time that an 802.11b spends on air, the 802.11g devices could have moved about 5 times as many bytes as the 802.11b device.	St
-1.8.4	I don't want to upset you but has anyone told you about this?	St
+1.8.1	Since the WAPs ca n't stay at full speed we lose a lot of possible bandwidth .	St
+1.8.2	If we did encounter a need for 802.11b it would be a simple matter to put a WAP in for just that area for the 802.11b device .	St
+1.8.3	For the time that an 802.11b spends on air , the 802.11g devices could have moved about 5 times as many bytes as the 802.11b device .	St
+1.8.4	I do n't want to upset you but has anyone told you about this ?	Ques
 1.8.5	Bob	St

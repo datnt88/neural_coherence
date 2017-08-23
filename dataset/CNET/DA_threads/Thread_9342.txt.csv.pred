@@ -1,20 +1,20 @@
-1.1.1	Hello - We have an office network of 6 pc's.	St
-1.1.2	A shared folder is setup on one pc for all pc's to access.	St
-1.1.3	How can I make this shared folder inaccessible to just one of the 6 pc's?	St
-1.1.4	All are Windows XP.	St
-1.1.5	Thanks for any help!	St
+1.1.1	Hello - We have an office network of 6 pc 's .	St
+1.1.2	A shared folder is setup on one pc for all pc 's to access .	St
+1.1.3	How can I make this shared folder inaccessible to just one of the 6 pc 's ?	Ques
+1.1.4	All are Windows XP .	St
+1.1.5	Thanks for any help !	St
 1.1.6	Tim	St
-1.2.1	How have you done that?	St
-1.3.1	I'm not sure how its setup right now.	Res
-1.3.2	They just all have access.	St
-1.3.3	So I need to get into permissions and deny that single pc?	St
-1.3.4	Is it that easy?	St
-1.4.1	but allowing users to access it.	St
-1.4.2	You said there is one PC you want to exclude but, if that PC needs general network access, you need to look at how user accounts are set up.	St
-1.4.3	You don't do this by exclusion but by inclusion.	St
-1.4.4	Presuming you have a simple peer-to-peer relationship which would mean local rather than network authentication, you just create user accounts on the PC with the share for all users that that need to access it.	St
-1.4.5	You give access to that share by setting permissions on that PC to include those defined users.	St
-1.4.6	I'll give a suggestion not to allow the &quot;everyone&quot; option.	St
-1.4.7	On the PC you don't want to have access to that particular share, you can do so by not creating the same user account names/passwords that are defined on the PC with the shared folder and given access to it.	St
-1.4.8	In this way, they may see the network share but will get &quot;access denied&quot; if they attempt to open it.	St
-1.4.9	This is just the simplest method I can think of but there may be others depending on your intentions and other networking needs.	St
+1.2.1	How have you done that ?	Ques
+1.3.1	I 'm not sure how its setup right now .	Res
+1.3.2	They just all have access .	St
+1.3.3	So I need to get into permissions and deny that single pc ?	Ques
+1.3.4	Is it that easy ?	Ques
+1.4.1	but allowing users to access it .	St
+1.4.2	You said there is one PC you want to exclude but , if that PC needs general network access , you need to look at how user accounts are set up .	St
+1.4.3	You do n't do this by exclusion but by inclusion .	St
+1.4.4	Presuming you have a simple peer-to-peer relationship which would mean local rather than network authentication , you just create user accounts on the PC with the share for all users that that need to access it .	St
+1.4.5	You give access to that share by setting permissions on that PC to include those defined users .	St
+1.4.6	I 'll give a suggestion not to allow the & quot ; everyone & quot ; option .	St
+1.4.7	On the PC you do n't want to have access to that particular share , you can do so by not creating the same user account names/passwords that are defined on the PC with the shared folder and given access to it .	St
+1.4.8	In this way , they may see the network share but will get & quot ; access denied & quot ; if they attempt to open it .	St
+1.4.9	This is just the simplest method I can think of but there may be others depending on your intentions and other networking needs .	St

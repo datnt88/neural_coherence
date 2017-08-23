@@ -1,10 +1,10 @@
-1.1.1	Lets say I have to Remote Desktop to a computer that my friend owns via the internet.	St
-1.1.2	Now of course to connect to his whole network I would have to know the IP address that is given to him by his ISP, but then how do I tell his router which uses NAT with DHCP to hand out class C (192.168) addresses, to connect me to that particular computer.	St
-1.2.1	You must to set &quot;mapped port&quot; 3389 (it is default for remote desktop) on his router.	St
-1.2.2	See in router doc and search for &quot;mapping ports&quot;, if router supports this, you must to set in it's preferences that all incoming connections to port 3389 on public IP address will be forwarded to internal private IP and port 3389.	St
+1.1.1	Lets say I have to Remote Desktop to a computer that my friend owns via the internet .	St
+1.1.2	Now of course to connect to his whole network I would have to know the IP address that is given to him by his ISP , but then how do I tell his router which uses NAT with DHCP to hand out class C ( 192.168 ) addresses , to connect me to that particular computer .	St
+1.2.1	You must to set & quot ; mapped port & quot ; 3389 ( it is default for remote desktop ) on his router .	St
+1.2.2	See in router doc and search for & quot ; mapping ports & quot ; , if router supports this , you must to set in it 's preferences that all incoming connections to port 3389 on public IP address will be forwarded to internal private IP and port 3389 .	St
 1.2.3	Temwy	St
 1.3.1	NIL	St
-1.4.1	Drop the connection through a NAT and get a real IP.	St
+1.4.1	Drop the connection through a NAT and get a real IP .	St
 1.4.2	Bob	St
-1.5.1	Obviously this is possible, but I am speaking in terms of a dial in through a NAT	St
+1.5.1	Obviously this is possible , but I am speaking in terms of a dial in through a NAT	St
 1.6.1	NIL	St

@@ -1,53 +1,53 @@
-1.1.1	Hi all-- I picked up a new laptop and am trying to add it to my home wireless network.	St
-1.1.2	With much frustration.	St
-1.1.3	The network works fine; it's a Belkin 7320-4 router extended with an apple airport express.	St
-1.1.4	Due to the Airport and my lack of neighbors, the network is unsecured.	St
-1.1.5	It's set up for DHCP, and is running in B/G mode.	St
-1.1.6	the following machines are working fine with this setup: one XP home laptop with a broadcom integrated b/g NIC (circa 2003) one XP home desktop with a belkin b/g pci card (circa 2005) one XP home desktop with a belkin b/g pci card circa 2006) and has successfully allowed at least a dozen other mac and PC laptops to connect over the last two or so years it's been in place--never an issue before.	St
-1.1.7	Here's where it gets weird.	St
-1.1.8	The new notebook is a compaq presario v6000 notebook running xp pro and with a broadcom b/g integrated wireless card.	St
-1.1.9	When I attempt to use this machine in my network strange things happen.	St
-1.1.10	At best, the machine has difficulty connecting to the network, either using DHCP or manually entering its IP info.	St
-1.1.11	It will show connected, but only intermittently get to the internet, and while other pcs in its workgroup can see the machine as a workgroup member, they can't get to any of its shared folders.	St
-1.1.12	Running IP config shows the wireless is getting an address from the Router, and it looks correct.	St
-1.1.13	If I run repair connection at this time, I may or may not get an IP via DHCP, though windows shows connected at 24MBps or better.	St
-1.1.14	Stranger still, the unit will knock other PCs off the network, even though it's not trying to use a previously assigned IP address, and it seems to be causing interference with the other machines on the network.	St
-1.1.15	As soon as I turn off the radio on the presario, the network works as expected.	St
-1.1.16	I've moved the notebook around to a few different locations, and this doesn't seem to affect the problem.	St
-1.1.17	I've tried a couple different things within the advanced section of the configuration panel of the broadcom (turned off bluetooth collaboration, turned off afterburner), but this hasn't made a difference.	St
-1.1.18	Stranger still, if I try the machine on my work's network, everything just seems to work fine, so it appears to not be a defective card.	St
-1.1.19	Any suggestions?	St
-1.1.20	Thanks.	St
-1.2.1	Also I assume your network is something like WORKGROUP, and all the machines have this in common.	St
-1.3.1	yes, all have the same workgroup assigned, and all machines have unique names.	St
-1.4.1	Try to only enable 802.11g on the router and all computers/labtops.	St
-1.4.2	If you have a mixed network, the network throughput might be dropped to half or more if there are 802.11g and 802.11b wireless clients in the network.	St
-1.4.3	Try to tune the wireless adapter settings on that Compaq computer and see how it works.	St
-1.4.4	Also the wireless bandwidth is shared among wireless clients, the more clients you have the slower the network.	St
-1.4.5	Hope this helps.. :o) picoHat http://www.home-network-help.com	St
-1.5.1	thanks for the suggestions...I tried changing the base station and repeater to g only, but this made no difference to the performance of the laptop.	St
-1.5.2	I'm beginning to think there's an incompatibility between my base station (belkin f5d7230-4, revision a) and my laptop's card, a broadcom 4311 mini pci-e card.	St
-1.5.3	Same one as is used by dell under the name 1410 (if memory serves).	St
-1.5.4	At this stage, no communication takes place between the two devices.	St
-1.5.5	I cannot get an IP via dhcp, and no activity occurs on the WLAN light on the Belkin when I try to 'repair connection' via windows.	St
-1.5.6	The broadcom does see the belkin though, at 5 bars / 54Mbps strength, and a different machine using an older broadcom chip wirelessly is connected via dhcp, and is screaming.	St
-1.5.7	Should also add that the troubled machine has no issues whatsoever connecting via ethernet, and is also fine wirelessly in another network.	St
-1.5.8	Thanks!	St
-1.6.1	Been a while, thought I'd post a followup....	St
-1.6.2	I've been using the laptop wired for a couple weeks with what I thought were no issues...turns out I'd just not been using it at the same time as my wife.	St
-1.6.3	It seems, even with the radio switched off, just having the laptop powered up was knocking her machine off the wireless network.	St
-1.6.4	To make matters more surreal, I physically removed the wireless card from the machine--just having it powered up knocks her off the network.	St
-1.6.5	To be fair, the laptop is only a couple feet from the wireless AP, and is probably causing some interference; when I get a chance to try relocating things I'll give it another go.	St
-1.6.6	Wanted to ask if anybody's seen this kind of behavior before.	St
-1.6.7	I know things like microwaves/flourescent lights/cordless phones can all mess with 802.11x traffic, so I suppose a CPU could too if its chassis were poorly shielded, and its clock were close to the 2.4gHz range.	St
-1.6.8	Again, this is a dual-core amd machine running at a 1.6gHz clock speed.	St
-1.6.9	If you've seen this kind of behavior before, what did you do to resolve the issue?	St
-1.6.10	(will also try changing channels on the router and repeater)	St
-1.7.1	I would focus on the router and extender as most probable cause.	St
-1.7.2	First, ensure you have the latest router firmware.	St
-1.7.3	Reset the router to factory default config and shut off the airport extender to see if problem still exists.	St
-1.8.1	you were right, it's the laptop interfering with the router...I had reset the router and updated firmware, to no avail....when I realized I didn't even need to have the wireless card in the unit to cause the problem, interference as the source of the problem came clear.	St
-1.8.2	So, and this hurts, the easy fix: I changed channels to 11 from 1 on the AP and extender and it solved the problem.	St
-1.8.3	Looks like the combination of 1.6 Ghz cpu clocking + the lot of 'other' clocking in the laptop generates hash into the 2.4gHz signal of the AP.	St
-1.8.4	Moving the network signal moving higher into the spectrum took care of it.	St
-1.8.5	Let's hope none of my neighbors go gung ho on channel 11 Thanks to everybody!	St
+1.1.1	Hi all -- I picked up a new laptop and am trying to add it to my home wireless network .	St
+1.1.2	With much frustration .	St
+1.1.3	The network works fine ; it 's a Belkin 7320-4 router extended with an apple airport express .	St
+1.1.4	Due to the Airport and my lack of neighbors , the network is unsecured .	St
+1.1.5	It 's set up for DHCP , and is running in B/G mode .	St
+1.1.6	the following machines are working fine with this setup : one XP home laptop with a broadcom integrated b/g NIC ( circa 2003 ) one XP home desktop with a belkin b/g pci card ( circa 2005 ) one XP home desktop with a belkin b/g pci card circa 2006 ) and has successfully allowed at least a dozen other mac and PC laptops to connect over the last two or so years it 's been in place -- never an issue before .	St
+1.1.7	Here 's where it gets weird .	St
+1.1.8	The new notebook is a compaq presario v6000 notebook running xp pro and with a broadcom b/g integrated wireless card .	St
+1.1.9	When I attempt to use this machine in my network strange things happen .	St
+1.1.10	At best , the machine has difficulty connecting to the network , either using DHCP or manually entering its IP info .	St
+1.1.11	It will show connected , but only intermittently get to the internet , and while other pcs in its workgroup can see the machine as a workgroup member , they ca n't get to any of its shared folders .	St
+1.1.12	Running IP config shows the wireless is getting an address from the Router , and it looks correct .	St
+1.1.13	If I run repair connection at this time , I may or may not get an IP via DHCP , though windows shows connected at 24MBps or better .	St
+1.1.14	Stranger still , the unit will knock other PCs off the network , even though it 's not trying to use a previously assigned IP address , and it seems to be causing interference with the other machines on the network .	St
+1.1.15	As soon as I turn off the radio on the presario , the network works as expected .	St
+1.1.16	I 've moved the notebook around to a few different locations , and this does n't seem to affect the problem .	St
+1.1.17	I 've tried a couple different things within the advanced section of the configuration panel of the broadcom ( turned off bluetooth collaboration , turned off afterburner ) , but this has n't made a difference .	St
+1.1.18	Stranger still , if I try the machine on my work 's network , everything just seems to work fine , so it appears to not be a defective card .	St
+1.1.19	Any suggestions ?	Ques
+1.1.20	Thanks .	Polite
+1.2.1	Also I assume your network is something like WORKGROUP , and all the machines have this in common .	St
+1.3.1	yes , all have the same workgroup assigned , and all machines have unique names .	St
+1.4.1	Try to only enable 802.11g on the router and all computers/labtops .	St
+1.4.2	If you have a mixed network , the network throughput might be dropped to half or more if there are 802.11g and 802.11b wireless clients in the network .	St
+1.4.3	Try to tune the wireless adapter settings on that Compaq computer and see how it works .	St
+1.4.4	Also the wireless bandwidth is shared among wireless clients , the more clients you have the slower the network .	St
+1.4.5	Hope this helps.. : o ) picoHat http : //www.home-network-help.com	St
+1.5.1	thanks for the suggestions ... I tried changing the base station and repeater to g only , but this made no difference to the performance of the laptop .	Polite
+1.5.2	I 'm beginning to think there 's an incompatibility between my base station ( belkin f5d7230-4 , revision a ) and my laptop 's card , a broadcom 4311 mini pci-e card .	St
+1.5.3	Same one as is used by dell under the name 1410 ( if memory serves ) .	St
+1.5.4	At this stage , no communication takes place between the two devices .	St
+1.5.5	I can not get an IP via dhcp , and no activity occurs on the WLAN light on the Belkin when I try to 'repair connection ' via windows .	St
+1.5.6	The broadcom does see the belkin though , at 5 bars / 54Mbps strength , and a different machine using an older broadcom chip wirelessly is connected via dhcp , and is screaming .	St
+1.5.7	Should also add that the troubled machine has no issues whatsoever connecting via ethernet , and is also fine wirelessly in another network .	St
+1.5.8	Thanks !	St
+1.6.1	Been a while , thought I 'd post a followup ... .	St
+1.6.2	I 've been using the laptop wired for a couple weeks with what I thought were no issues ... turns out I 'd just not been using it at the same time as my wife .	St
+1.6.3	It seems , even with the radio switched off , just having the laptop powered up was knocking her machine off the wireless network .	St
+1.6.4	To make matters more surreal , I physically removed the wireless card from the machine -- just having it powered up knocks her off the network .	St
+1.6.5	To be fair , the laptop is only a couple feet from the wireless AP , and is probably causing some interference ; when I get a chance to try relocating things I 'll give it another go .	St
+1.6.6	Wanted to ask if anybody 's seen this kind of behavior before .	St
+1.6.7	I know things like microwaves/flourescent lights/cordless phones can all mess with 802.11x traffic , so I suppose a CPU could too if its chassis were poorly shielded , and its clock were close to the 2.4gHz range .	St
+1.6.8	Again , this is a dual-core amd machine running at a 1.6gHz clock speed .	St
+1.6.9	If you 've seen this kind of behavior before , what did you do to resolve the issue ?	Ques
+1.6.10	( will also try changing channels on the router and repeater )	Sug
+1.7.1	I would focus on the router and extender as most probable cause .	St
+1.7.2	First , ensure you have the latest router firmware .	St
+1.7.3	Reset the router to factory default config and shut off the airport extender to see if problem still exists .	St
+1.8.1	you were right , it 's the laptop interfering with the router ... I had reset the router and updated firmware , to no avail ... .when I realized I did n't even need to have the wireless card in the unit to cause the problem , interference as the source of the problem came clear .	St
+1.8.2	So , and this hurts , the easy fix : I changed channels to 11 from 1 on the AP and extender and it solved the problem .	St
+1.8.3	Looks like the combination of 1.6 Ghz cpu clocking + the lot of 'other ' clocking in the laptop generates hash into the 2.4gHz signal of the AP .	St
+1.8.4	Moving the network signal moving higher into the spectrum took care of it .	St
+1.8.5	Let 's hope none of my neighbors go gung ho on channel 11 Thanks to everybody !	St

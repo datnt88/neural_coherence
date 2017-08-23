@@ -1,33 +1,33 @@
-1.1.1	Hello, I wanted to know how, if there are any script which will send an alert once a file has reached a destination over an TCP network.	St
-1.2.1	For an example we would think how reliable we need this to be.	St
-1.2.2	For a simple affair you could send the notice if the file name and byte count were right.	St
-1.2.3	But for most they'll want better.	St
-1.2.4	Example.	St
-1.2.5	1.	St
-1.2.6	Create the MD5SUM on the source file.	St
-1.2.7	2.	St
-1.2.8	Create the MD5SUM on the target file.	St
-1.2.9	3.	St
-1.2.10	If they match, send the alert.	St
+1.1.1	Hello , I wanted to know how , if there are any script which will send an alert once a file has reached a destination over an TCP network .	St
+1.2.1	For an example we would think how reliable we need this to be .	St
+1.2.2	For a simple affair you could send the notice if the file name and byte count were right .	St
+1.2.3	But for most they 'll want better .	St
+1.2.4	Example .	St
+1.2.5	1 .	St
+1.2.6	Create the MD5SUM on the source file .	St
+1.2.7	2 .	St
+1.2.8	Create the MD5SUM on the target file .	St
+1.2.9	3 .	St
+1.2.10	If they match , send the alert .	St
 1.2.11	Bob	St
-1.3.1	Hello again, Thank you for the post.	St
-1.3.2	here is my current scenarion: File xxx needs to be transferred to another site.	St
-1.3.3	In one day there can be like 10K files (assume) which can be transferred.	St
-1.3.4	In this case I do not want to overload the network with MD5SUM for each file.	St
-1.3.5	What I found was to check if the File-copy operation was not complete.	St
-1.3.6	For e.g.	St
-1.3.7	if for any reasons file xxx could not be copied to its destination, then an alert can be instantly generated.	St
-1.3.8	Is there any solution to check if a file could not be copied then?	Ques
-1.4.1	I did not detail in detail all the steps and on what machines.	St
-1.4.2	That is, the MD5SUM was done on the local file and sent to the remote computer for comparison.	St
-1.4.3	It added so little overhead that we don't discuss that.	St
-1.4.4	My short answer is just that.	St
-1.4.5	The actual implementation can't be written up here.	St
-1.4.6	That is, it may depend on what OSes are on the servers, and of course the IT or creator's skill set.	St
-1.4.7	It would do no good to supply a solution in &quot;C&quot; if the person who has to do all this is not there or does not have the same compiler and more.	St
-1.4.8	By the way.	St
-1.4.9	Why isn't a transfer such as FTP being used?	St
-1.4.10	It emits a log file.	St
-1.4.11	Again we have to set the bar on how much work we can allow to be put into this.	St
-1.4.12	I've yet to see a FTP file not get there if the FTP log said it got there.	St
+1.3.1	Hello again , Thank you for the post .	St
+1.3.2	here is my current scenarion : File xxx needs to be transferred to another site .	St
+1.3.3	In one day there can be like 10K files ( assume ) which can be transferred .	St
+1.3.4	In this case I do not want to overload the network with MD5SUM for each file .	St
+1.3.5	What I found was to check if the File-copy operation was not complete .	St
+1.3.6	For e.g .	St
+1.3.7	if for any reasons file xxx could not be copied to its destination , then an alert can be instantly generated .	Sug
+1.3.8	Is there any solution to check if a file could not be copied then ?	Ques
+1.4.1	I did not detail in detail all the steps and on what machines .	St
+1.4.2	That is , the MD5SUM was done on the local file and sent to the remote computer for comparison .	St
+1.4.3	It added so little overhead that we do n't discuss that .	St
+1.4.4	My short answer is just that .	St
+1.4.5	The actual implementation ca n't be written up here .	St
+1.4.6	That is , it may depend on what OSes are on the servers , and of course the IT or creator 's skill set .	St
+1.4.7	It would do no good to supply a solution in & quot ; C & quot ; if the person who has to do all this is not there or does not have the same compiler and more .	St
+1.4.8	By the way .	St
+1.4.9	Why is n't a transfer such as FTP being used ?	Ques
+1.4.10	It emits a log file .	St
+1.4.11	Again we have to set the bar on how much work we can allow to be put into this .	St
+1.4.12	I 've yet to see a FTP file not get there if the FTP log said it got there .	St
 1.4.13	Bon	St

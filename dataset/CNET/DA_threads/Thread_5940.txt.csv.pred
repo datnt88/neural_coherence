@@ -1,43 +1,43 @@
-1.1.1	I was given a computer with various components installed.	St
-1.1.2	I was told if I could get it to work I could keep it.	St
-1.1.3	The main issue is that it has an IBM 15gb HD that accesses only 2gb.	St
-1.1.4	The OS is Windows Melenium.	St
-1.1.5	I have checked cable connections,jumper settings, and BIOS settings all to manufacture's reccomendations with no luck.	St
-1.1.6	The BIOS CHS settings do not match the reccomended ones and when attempting to change them manually they revert back upon rebooting.	St
-1.1.7	System Info under- Storage/Disks reports Size as 14.32gb and yet I still receive &quot;Low Disk Space&quot; error msgs.	St
-1.2.1	It would appear that the drive was partitioned to not support large hard drives.	St
-1.2.2	If you can reinstall a 9x OS, I would FDISK and choose large disk support.	St
-1.3.1	Thanks for the info.	St
-1.3.2	I am relatively new to computers but seem to have gained enough knowledge to be dangerous.	St
-1.3.3	Reguarding your answer, 9x OS what specifically would that translate to?	St
-1.3.4	Also, using FDISK would mean that I will lose all data, right?	St
-1.4.1	9x systems = 95, 98, 98SE, ME.	St
-1.4.2	Also, using FDISK would mean that I will lose all data, right?	St
-1.4.3	Yes and no.	St
-1.4.4	First you back up to an external source what you do not want to lose then you build anew.	St
-1.5.1	Try booting your machine, then pressing F8 before the machine boots into Windows.	St
-1.5.2	Choose the option &quot;Start in MS-DOS mode&quot;, then type in the letters &quot;FDISK&quot;.	St
-1.5.3	Use that program to find if there is any space left (which there should be).	St
-1.5.4	Make sure to enable &quot;Large Hard Disk Supoort.	St
-1.5.5	Make new partitions to fill up the space, if need be.	Sug
-1.6.1	First you have to lose all your data if you want the full size of your HD (hard-drive) If you can get your hands on a 98se start-up disk, start your computer with it.	St
-1.6.2	When it comes up with the A&gt; propmpt type in FDISK and select large partition.	St
-1.6.3	When you get inside FDISK you have to delete all existing partition by press &quot;3&quot;.	St
-1.6.4	when it asks what kind of partition say primary.	St
-1.6.5	Go back to the beginning of FDISK by pressing the escape key and choose &quot;1&quot; and then &quot;1&quot; again and your computer should show all of the HD.	St
-1.6.6	E-mail me with questions.	St
-1.7.1	Never mind what the BIOS sees.	St
-1.7.2	There is a known bug for some IBM TravelStar hard drives where they report the wrong size to the BIOS.	St
-1.7.3	If that is what this is there is a firmware update at the IBM site that can correct the problem, but that will not have any real impact on drive space.	St
-1.7.4	And what about 'D' drive?	St
-1.7.5	If this is a laptop (or configured like one)...	St
-1.7.6	Many laptops have a 2gb 'C' drive and the rest of the hard drive is 'D' since hibernation software requires FAT16 (limited to 2GB).	St
-1.7.7	If that is how this computer was originally configured you will end up with the same thing when you 'restore'.	St
-1.7.8	If you do not have an &quot;genuine windows CD&quot; and only a 'restore' CD chances are your windows install files are sitting in c:\windows\options\cabs .	St
-1.7.9	You will not be able to change your configuration and reinstall windows unless you burn them to a bootable CD before doing anything else.	St
-1.7.10	Also make an &quot;EBD&quot; (Emergency Boot Disk) and them extract the files from the EBD.Cab and copy them back to the floppy.	St
-1.7.11	They will usually fit.	St
-1.7.12	Check to see if you have a 'D' drive.	St
-1.7.13	If so, then you need to move your C:\My Documents folders to D:\My Documents along with any other disk hog data files such as music/video etc.	St
-1.7.14	Anytime you install new software it should be installed to 'D:\'.	St
-1.7.15	'C' should only be used for the operating system and bundled software.	St
+1.1.1	I was given a computer with various components installed .	St
+1.1.2	I was told if I could get it to work I could keep it .	St
+1.1.3	The main issue is that it has an IBM 15gb HD that accesses only 2gb .	St
+1.1.4	The OS is Windows Melenium .	St
+1.1.5	I have checked cable connections , jumper settings , and BIOS settings all to manufacture 's reccomendations with no luck .	St
+1.1.6	The BIOS CHS settings do not match the reccomended ones and when attempting to change them manually they revert back upon rebooting .	St
+1.1.7	System Info under- Storage/Disks reports Size as 14.32gb and yet I still receive & quot ; Low Disk Space & quot ; error msgs .	St
+1.2.1	It would appear that the drive was partitioned to not support large hard drives .	St
+1.2.2	If you can reinstall a 9x OS , I would FDISK and choose large disk support .	St
+1.3.1	Thanks for the info .	St
+1.3.2	I am relatively new to computers but seem to have gained enough knowledge to be dangerous .	St
+1.3.3	Reguarding your answer , 9x OS what specifically would that translate to ?	Ques
+1.3.4	Also , using FDISK would mean that I will lose all data , right ?	Ques
+1.4.1	9x systems = 95 , 98 , 98SE , ME .	St
+1.4.2	Also , using FDISK would mean that I will lose all data , right ?	Ques
+1.4.3	Yes and no .	Res
+1.4.4	First you back up to an external source what you do not want to lose then you build anew .	St
+1.5.1	Try booting your machine , then pressing F8 before the machine boots into Windows .	St
+1.5.2	Choose the option & quot ; Start in MS-DOS mode & quot ; , then type in the letters & quot ; FDISK & quot ; .	St
+1.5.3	Use that program to find if there is any space left ( which there should be ) .	St
+1.5.4	Make sure to enable & quot ; Large Hard Disk Supoort .	St
+1.5.5	Make new partitions to fill up the space , if need be .	St
+1.6.1	First you have to lose all your data if you want the full size of your HD ( hard-drive ) If you can get your hands on a 98se start-up disk , start your computer with it .	St
+1.6.2	When it comes up with the A & gt ; propmpt type in FDISK and select large partition .	St
+1.6.3	When you get inside FDISK you have to delete all existing partition by press & quot ; 3 & quot ; .	St
+1.6.4	when it asks what kind of partition say primary .	St
+1.6.5	Go back to the beginning of FDISK by pressing the escape key and choose & quot ; 1 & quot ; and then & quot ; 1 & quot ; again and your computer should show all of the HD .	St
+1.6.6	E-mail me with questions .	St
+1.7.1	Never mind what the BIOS sees .	St
+1.7.2	There is a known bug for some IBM TravelStar hard drives where they report the wrong size to the BIOS .	St
+1.7.3	If that is what this is there is a firmware update at the IBM site that can correct the problem , but that will not have any real impact on drive space .	St
+1.7.4	And what about 'D ' drive ?	Ques
+1.7.5	If this is a laptop ( or configured like one ) ...	St
+1.7.6	Many laptops have a 2gb 'C ' drive and the rest of the hard drive is 'D ' since hibernation software requires FAT16 ( limited to 2GB ) .	St
+1.7.7	If that is how this computer was originally configured you will end up with the same thing when you 'restore ' .	St
+1.7.8	If you do not have an & quot ; genuine windows CD & quot ; and only a 'restore ' CD chances are your windows install files are sitting in c : \windows\options\cabs .	St
+1.7.9	You will not be able to change your configuration and reinstall windows unless you burn them to a bootable CD before doing anything else .	St
+1.7.10	Also make an & quot ; EBD & quot ; ( Emergency Boot Disk ) and them extract the files from the EBD.Cab and copy them back to the floppy .	St
+1.7.11	They will usually fit .	St
+1.7.12	Check to see if you have a 'D ' drive .	St
+1.7.13	If so , then you need to move your C : \My Documents folders to D : \My Documents along with any other disk hog data files such as music/video etc .	St
+1.7.14	Anytime you install new software it should be installed to 'D : \ ' .	St
+1.7.15	'C ' should only be used for the operating system and bundled software .	St

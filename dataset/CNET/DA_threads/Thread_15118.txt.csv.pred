@@ -1,65 +1,65 @@
-1.1.1	Here is my layout: Cable modem to Switch Switch to both Windows Server 2003 AND Wireless Router Wireless Router to all intranet clients at my location (it uses DHCP to assign IP addresses to the intranet clients) This puts my server in front of the firewall for access to the world and all of my other clients behind the wireless routers firewall.	St
-1.1.2	Here is my question: When I connect to my server from my intranet clients, the connections go out to the world and back again to my server.	St
-1.1.3	I thought a switch was supposed to be smart enough to see the destination and route traffic directly down to the server.	St
-1.1.4	What I'm after is a way to transfer large files to/from my server at my local network speed (not routing trough my cable modem).	St
-1.1.5	Is there a way to do this without moving my server behind the wireless router's firewall?	St
-1.1.6	TIA....	St
-1.2.1	It might work if you paid for another IP address but it should not work.	Sug
-1.2.2	Just asking.	St
-1.2.3	Why not put said server into the DMZ?	St
+1.1.1	Here is my layout : Cable modem to Switch Switch to both Windows Server 2003 AND Wireless Router Wireless Router to all intranet clients at my location ( it uses DHCP to assign IP addresses to the intranet clients ) This puts my server in front of the firewall for access to the world and all of my other clients behind the wireless routers firewall .	St
+1.1.2	Here is my question : When I connect to my server from my intranet clients , the connections go out to the world and back again to my server .	St
+1.1.3	I thought a switch was supposed to be smart enough to see the destination and route traffic directly down to the server .	St
+1.1.4	What I 'm after is a way to transfer large files to/from my server at my local network speed ( not routing trough my cable modem ) .	St
+1.1.5	Is there a way to do this without moving my server behind the wireless router 's firewall ?	Ques
+1.1.6	TIA ... .	St
+1.2.1	It might work if you paid for another IP address but it should not work .	St
+1.2.2	Just asking .	St
+1.2.3	Why not put said server into the DMZ ?	Ques
 1.2.4	Bob	St
-1.3.1	All depends on the IP addresses and the subnet masks.	St
-1.3.2	Very technically it is the devices themselves that know they are on the same subnet and talk to each other directly using the mac address rather than the IP, the switch just carries the traffic.	St
-1.3.3	To a point it is surprising this works.	St
-1.3.4	Most cable companies will only allow a single device behind the modem.	St
-1.3.5	If both machines are on the same subnet it should work as is you need to check the arp entries so ensure they are mapped.	St
-1.3.6	If you can get into the switch you should also be able see what mac is learned on what port.	St
-1.3.7	If they are on different subnets you can sometimes trick device into talking to each other by putting static arp entries in to map the ip to the mac.	St
-1.3.8	Some router think they are smarter than you and give errors but many work.	St
-1.3.9	Just a huge guess if it is working as you say I would say the cable company is running PPP.	St
-1.3.10	This is a point to point protocol and assumes that all addresses are inside this PPP virtual interface and not on the real interface.	St
-1.3.11	This means that even if the devices are on the same subnet the switch will not see the ARP messages because they are encapsulated inside of PPP.	St
-1.4.1	My cable company allows multiple IP's (don't ask me why - they just do - and I don't wanna rock the boat and ask them &quot;why&quot;) so both the server and the wireless router are assigned separate IP numbers by the cable company.	St
-1.4.2	The IP's for the 2 devices have the same first 3 bytes (e.g.	St
-1.4.3	xxx.xxx.xxx.yyy - the &quot;xxx&quot;'s are the same for each) - so that should but them on the same subnet.	St
-1.4.4	FYI - I'm not a networking expert - but not a noob either.	St
-1.4.5	Somewhere in the middle.	St
-1.4.6	I don't know about PPP, but I'll read up on that and see if perhaps this could be the culprit.	St
-1.5.1	You can't affect the routing without a lot more work and maybe some wifi router with some linux installed.	St
-1.5.2	This is why I'd skip all that by moving to the usual setup and place said server into the DMZ.	St
+1.3.1	All depends on the IP addresses and the subnet masks .	St
+1.3.2	Very technically it is the devices themselves that know they are on the same subnet and talk to each other directly using the mac address rather than the IP , the switch just carries the traffic .	St
+1.3.3	To a point it is surprising this works .	St
+1.3.4	Most cable companies will only allow a single device behind the modem .	St
+1.3.5	If both machines are on the same subnet it should work as is you need to check the arp entries so ensure they are mapped .	St
+1.3.6	If you can get into the switch you should also be able see what mac is learned on what port .	St
+1.3.7	If they are on different subnets you can sometimes trick device into talking to each other by putting static arp entries in to map the ip to the mac .	St
+1.3.8	Some router think they are smarter than you and give errors but many work .	St
+1.3.9	Just a huge guess if it is working as you say I would say the cable company is running PPP .	St
+1.3.10	This is a point to point protocol and assumes that all addresses are inside this PPP virtual interface and not on the real interface .	St
+1.3.11	This means that even if the devices are on the same subnet the switch will not see the ARP messages because they are encapsulated inside of PPP .	St
+1.4.1	My cable company allows multiple IP 's ( do n't ask me why - they just do - and I do n't wan na rock the boat and ask them & quot ; why & quot ; ) so both the server and the wireless router are assigned separate IP numbers by the cable company .	St
+1.4.2	The IP 's for the 2 devices have the same first 3 bytes ( e.g .	St
+1.4.3	xxx.xxx.xxx.yyy - the & quot ; xxx & quot ; 's are the same for each ) - so that should but them on the same subnet .	St
+1.4.4	FYI - I 'm not a networking expert - but not a noob either .	St
+1.4.5	Somewhere in the middle .	St
+1.4.6	I do n't know about PPP , but I 'll read up on that and see if perhaps this could be the culprit .	St
+1.5.1	You ca n't affect the routing without a lot more work and maybe some wifi router with some linux installed .	St
+1.5.2	This is why I 'd skip all that by moving to the usual setup and place said server into the DMZ .	St
 1.5.3	Bob	St
-1.6.1	Replace the switch with a router.	St
-1.6.2	The router will allows DMZ on one machine, and will route all traffic between your machines.	St
-1.6.3	Mine with my web site server, two desktops, three laptops, all work behind my D-link DIR-655 Gigabit/wireless N router.	St
-1.7.1	Hi.	St
-1.7.2	Here is what is happening.	St
-1.7.3	Intranet = Network 1 - N1 - 192.168.1.x Access Point + Router + ISP = Network 2 - N2 - 172.16.1.x 1.	St
-1.7.4	Your intranet is a separate network.	St
-1.7.5	Lets say - 192.168.1.X.	St
-1.7.6	2.	St
-1.7.7	It can access all other networks by connecting to the access points interface that is directly within this network - access points first IP - 192.168.1.1 3.	St
-1.7.8	To access all other networks and gain access to them, the packets have to go through the access points second interface - 172.16.1.X.	St
-1.7.9	4.	St
-1.7.10	Problem - access point, acting as a router, will allow only common ports to transfer data from one interface to another.	St
-1.7.11	Common ports 80, 21* etc.	St
-1.7.12	5.	St
-1.7.13	Now my question is - how are you transferring files?	St
-1.7.14	If you are using FTP then this problem seems queer.	St
-1.7.15	Do you use FTP and try to connect to server using the IP address or the name?	St
-1.7.16	If you are using default file sharing, this might happen as ports used for file sharing are 135 to 139 and are blocked by default - rerouted through ISP.	St
-1.7.17	6.	St
-1.7.18	So I need this information: a.	St
-1.7.19	Method used by you to transfer files.	St
-1.7.20	b.	St
-1.7.21	Direction of file access - server to clients or clients to server?	St
-1.7.22	c. Function of the server.	St
-1.7.23	If it is a server on the internet, then all that you have said makes sense.	St
-1.7.24	Please elaborate.	St
-1.7.25	Navneet.	St
-1.8.1	Hi.	St
-1.8.2	I want to add further information.	St
-1.8.3	1.	St
-1.8.4	Please try to disconnect ISPs cable and see if you are able to proceed with file transfer.	Sug
-1.8.5	2.	St
-1.8.6	DNS addressing may also be part of the problem here.	St
-1.8.7	Navneet.	St
+1.6.1	Replace the switch with a router .	St
+1.6.2	The router will allows DMZ on one machine , and will route all traffic between your machines .	St
+1.6.3	Mine with my web site server , two desktops , three laptops , all work behind my D-link DIR-655 Gigabit/wireless N router .	St
+1.7.1	Hi .	St
+1.7.2	Here is what is happening .	St
+1.7.3	Intranet = Network 1 - N1 - 192.168.1.x Access Point + Router + ISP = Network 2 - N2 - 172.16.1.x 1 .	St
+1.7.4	Your intranet is a separate network .	St
+1.7.5	Lets say - 192.168.1.X .	St
+1.7.6	2 .	St
+1.7.7	It can access all other networks by connecting to the access points interface that is directly within this network - access points first IP - 192.168.1.1 3 .	St
+1.7.8	To access all other networks and gain access to them , the packets have to go through the access points second interface - 172.16.1.X .	St
+1.7.9	4 .	St
+1.7.10	Problem - access point , acting as a router , will allow only common ports to transfer data from one interface to another .	St
+1.7.11	Common ports 80 , 21* etc .	St
+1.7.12	5 .	St
+1.7.13	Now my question is - how are you transferring files ?	Ques
+1.7.14	If you are using FTP then this problem seems queer .	St
+1.7.15	Do you use FTP and try to connect to server using the IP address or the name ?	Ques
+1.7.16	If you are using default file sharing , this might happen as ports used for file sharing are 135 to 139 and are blocked by default - rerouted through ISP .	St
+1.7.17	6 .	St
+1.7.18	So I need this information : a .	St
+1.7.19	Method used by you to transfer files .	St
+1.7.20	b .	St
+1.7.21	Direction of file access - server to clients or clients to server ?	Ques
+1.7.22	c. Function of the server .	St
+1.7.23	If it is a server on the internet , then all that you have said makes sense .	St
+1.7.24	Please elaborate .	St
+1.7.25	Navneet .	St
+1.8.1	Hi .	St
+1.8.2	I want to add further information .	St
+1.8.3	1 .	St
+1.8.4	Please try to disconnect ISPs cable and see if you are able to proceed with file transfer .	Sug
+1.8.5	2 .	St
+1.8.6	DNS addressing may also be part of the problem here .	St
+1.8.7	Navneet .	St

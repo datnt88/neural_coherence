@@ -1,68 +1,68 @@
-1.1.1	Hi I'm looking for a way to set up my home networking so that I can set up a DNS service to mask my IP so that I look like I'm hitting the internet from the US (I'm in Canada).	St
-1.1.2	Basically this service gives me 2 DNS entries that I enter on my router and the service is running.	St
-1.1.3	However, for security reasons, I don't want my &quot;work/personal&quot; data flowing through these DNS entries in case they are packet sniffing for passwords, logins etc.	St
-1.1.4	Would it be possible to set up 2 different routers... 1 for all my personal data to flow through and the other for the media streaming?	St
-1.1.5	I have 1 router/modem (Cisco DPC3825) and 2 wireless routers (trendnet tew652 and linksys E3000) at my disposal to set this up.	St
-1.1.6	Thank you.	St
-1.2.1	Let's start with the DNS.	Sug
-1.2.2	1.	St
-1.2.3	If I tell my PC to use a DNS, that step is done on my PC and that DNS (server) and we are done.	St
-1.2.4	Case closed.	St
-1.2.5	2.	St
-1.2.6	&quot;a DNS service to mask my IP &quot; On the other side of your modem-router-wifi box from your other discussion, the IP there is assigned from the ISP and if you hid your public IP then no traffic would make it back to your location.	St
-1.2.7	In your other discussion and possibly here you want no other router or maybe the ISP to see the traffic.	St
-1.2.8	That is not possible.	St
-1.2.9	Hiding the DNS lookups is also not possible.	St
-1.2.10	Hiding the public IPs is not possible.	St
-1.2.11	And if you use a VPN, then the VPN knows all.	St
-1.2.12	It has to!	St
-1.2.13	--&gt; Let's define &quot;they&quot; as the ISP and government.	St
-1.2.14	Sorry, there is no way to hide such traffic.	St
-1.2.15	Anyone that claims this is possible is not up to speed yet.	St
-1.2.16	3.	St
-1.2.17	&quot;Would it be possible to set up 2 different routers... 1 for all my personal data to flow through and the other for the media streaming?&quot; That's an entirely different issue than DNS lookups and hiding IPs.	St
-1.2.18	But as some router must be connected to your internet connection, ALL traffic flows through that router so to get this to work you would have to get TWO internet connections and finally you would achieve what you asked about flow.	St
-1.2.19	Most folk won't because of the cost.	St
+1.1.1	Hi I 'm looking for a way to set up my home networking so that I can set up a DNS service to mask my IP so that I look like I 'm hitting the internet from the US ( I 'm in Canada ) .	St
+1.1.2	Basically this service gives me 2 DNS entries that I enter on my router and the service is running .	St
+1.1.3	However , for security reasons , I do n't want my & quot ; work/personal & quot ; data flowing through these DNS entries in case they are packet sniffing for passwords , logins etc .	St
+1.1.4	Would it be possible to set up 2 different routers ... 1 for all my personal data to flow through and the other for the media streaming ?	Ques
+1.1.5	I have 1 router/modem ( Cisco DPC3825 ) and 2 wireless routers ( trendnet tew652 and linksys E3000 ) at my disposal to set this up .	St
+1.1.6	Thank you .	St
+1.2.1	Let 's start with the DNS .	St
+1.2.2	1 .	St
+1.2.3	If I tell my PC to use a DNS , that step is done on my PC and that DNS ( server ) and we are done .	St
+1.2.4	Case closed .	St
+1.2.5	2 .	St
+1.2.6	& quot ; a DNS service to mask my IP & quot ; On the other side of your modem-router-wifi box from your other discussion , the IP there is assigned from the ISP and if you hid your public IP then no traffic would make it back to your location .	St
+1.2.7	In your other discussion and possibly here you want no other router or maybe the ISP to see the traffic .	St
+1.2.8	That is not possible .	St
+1.2.9	Hiding the DNS lookups is also not possible .	St
+1.2.10	Hiding the public IPs is not possible .	St
+1.2.11	And if you use a VPN , then the VPN knows all .	St
+1.2.12	It has to !	St
+1.2.13	-- & gt ; Let 's define & quot ; they & quot ; as the ISP and government .	St
+1.2.14	Sorry , there is no way to hide such traffic .	St
+1.2.15	Anyone that claims this is possible is not up to speed yet .	St
+1.2.16	3 .	St
+1.2.17	& quot ; Would it be possible to set up 2 different routers ... 1 for all my personal data to flow through and the other for the media streaming ? & quot ; That 's an entirely different issue than DNS lookups and hiding IPs .	St
+1.2.18	But as some router must be connected to your internet connection , ALL traffic flows through that router so to get this to work you would have to get TWO internet connections and finally you would achieve what you asked about flow .	St
+1.2.19	Most folk wo n't because of the cost .	St
 1.2.20	Bob	St
-1.3.1	Thanks for the explanation bob.	St
-1.3.2	I'll assume this is impossible to do with 1 internet connection or that I didn't do a good job explaining what I'm hoping to achieve and you don't get what I'm trying to do.	Sug
-1.4.1	But if you are trying to hide the IP's, the DNS service won't help there.	St
-1.4.2	My background includes writing early router code back in the early 90's so I'm an old hand at networking.	St
-1.4.3	I don't mind discussing topics and must take folk's word on this and that.	St
-1.4.4	If someone tells me they are using a DNS service then I nod, file that and proceed with what that does.	St
-1.4.5	If someone meant they use a Proxy or VPN instead, I can't guess that and shouldn't because VPN, Proxy, DNS are all very different things.	St
+1.3.1	Thanks for the explanation bob .	St
+1.3.2	I 'll assume this is impossible to do with 1 internet connection or that I did n't do a good job explaining what I 'm hoping to achieve and you do n't get what I 'm trying to do .	St
+1.4.1	But if you are trying to hide the IP 's , the DNS service wo n't help there .	St
+1.4.2	My background includes writing early router code back in the early 90 's so I 'm an old hand at networking .	St
+1.4.3	I do n't mind discussing topics and must take folk 's word on this and that .	St
+1.4.4	If someone tells me they are using a DNS service then I nod , file that and proceed with what that does .	St
+1.4.5	If someone meant they use a Proxy or VPN instead , I ca n't guess that and should n't because VPN , Proxy , DNS are all very different things .	St
 1.4.6	Bob	St
-1.5.1	That's why most companies have a sales department or a customer relations department in front of the IT/tech department.	Sug
-1.5.2	So that they can take requirements from those who don't know the lingo (like me) and relay it to those who do.	St
-1.5.3	I think throughout both of my posts, I did a great job explaining what I was trying to accomplish from a non-technical point of view.	St
-1.5.4	If I knew all the terminology, I'd most likely know how to do this, which means I wouldn't be on this forum.	St
-1.5.5	Thanks again bob for taking the time to respond...	St
-1.5.6	I'll keep on searching	Sug
-1.6.1	I design electronics and write embedded and more apps.	St
-1.6.2	If you lead off by telling me that you are signing up with a DNS service, I have to take that as fact.	St
-1.6.3	Then I work with that.	St
-1.6.4	If you lead off by &quot;I want to hide or spoof my location&quot; then I can guess you want a proxy or VPN service.	St
-1.6.5	But BEWARE those services as they really don't hide your IP.	St
-1.6.6	You reveal your IP to that service and in Canada/USA and most other countries it's required to let the gov/justice departments to listen in on the traffic.	St
-1.6.7	This is why you see folk that say you can hide your IP get a little beat up.	St
-1.6.8	(or a lot.)	St
-1.6.9	--&gt; Then you have the Russian Proxy scandal.	St
-1.6.10	Here's the recent article.	St
-1.6.11	http://www.symantec.com/connect/blogs/russian-mastermind-behind-backdoorproxybox As you can imagine, those that want to hide often fall victim to this.	St
+1.5.1	That 's why most companies have a sales department or a customer relations department in front of the IT/tech department .	St
+1.5.2	So that they can take requirements from those who do n't know the lingo ( like me ) and relay it to those who do .	St
+1.5.3	I think throughout both of my posts , I did a great job explaining what I was trying to accomplish from a non-technical point of view .	St
+1.5.4	If I knew all the terminology , I 'd most likely know how to do this , which means I would n't be on this forum .	St
+1.5.5	Thanks again bob for taking the time to respond ...	St
+1.5.6	I 'll keep on searching	St
+1.6.1	I design electronics and write embedded and more apps .	St
+1.6.2	If you lead off by telling me that you are signing up with a DNS service , I have to take that as fact .	St
+1.6.3	Then I work with that .	St
+1.6.4	If you lead off by & quot ; I want to hide or spoof my location & quot ; then I can guess you want a proxy or VPN service .	St
+1.6.5	But BEWARE those services as they really do n't hide your IP .	St
+1.6.6	You reveal your IP to that service and in Canada/USA and most other countries it 's required to let the gov/justice departments to listen in on the traffic .	St
+1.6.7	This is why you see folk that say you can hide your IP get a little beat up .	St
+1.6.8	( or a lot . )	St
+1.6.9	-- & gt ; Then you have the Russian Proxy scandal .	St
+1.6.10	Here 's the recent article .	St
+1.6.11	http : //www.symantec.com/connect/blogs/russian-mastermind-behind-backdoorproxybox As you can imagine , those that want to hide often fall victim to this .	St
 1.6.12	Bob	St
-1.7.1	Bob makes some good comments.	St
-1.7.2	DNS doesn't provide any masking services.	St
-1.7.3	All DNS does is reconcile IP addresses to domain/host names.	St
-1.7.4	If your goal is to secure your home network, then you should physically secure any unused ports, not use wireless, and not connect to the internet.	Sug
-1.7.5	However, if you need to use the internet to link remote sites (say youer home office to your work office), then I would suggest you set up a vpn/tunnel.	St
-1.7.6	The tunnel connects the two sites that you control.	St
-1.7.7	With a vpn you get all of the encryption and authentication that you will probably need, unless you're James Bond.	St
-1.7.8	The literature for the routers will tell you if they have this capability, and you will need one on each end of the link, unless you opt for client software.	St
-1.7.9	Anything sniffed off a properly configured vpn tunnel looks like gibberish.	St
-1.7.10	But, if you are just looking at the internet itself and not a fixed site on the other end, then you are out of luck with vpn.	St
-1.7.11	If you are just looking at any old internet sites, then you cannot mask your IP, though your router/modem most likely is translating your local IP anyway.	St
-1.7.12	A good and updated antivirus package and properly configured firewall settings on your router can mitigate quite a bit on your LAN, but, once the data goes onto your ISP's equipment, who knows what will happen.	St
-1.7.13	The point is that there is only so much that you can control when you go onto the internet.	St
-1.7.14	If you control both ends, then you can tunnel fairly securely over the internet.	St
-1.7.15	If you only control your end, then all of the path beyond where your end stops is out of your control.	St
-1.7.16	Strong passwords that are changed periodically, updated antivirus software, and appropriate firewall settings are the most overlooked steps each individual can take.	St
+1.7.1	Bob makes some good comments .	St
+1.7.2	DNS does n't provide any masking services .	St
+1.7.3	All DNS does is reconcile IP addresses to domain/host names .	St
+1.7.4	If your goal is to secure your home network , then you should physically secure any unused ports , not use wireless , and not connect to the internet .	St
+1.7.5	However , if you need to use the internet to link remote sites ( say youer home office to your work office ) , then I would suggest you set up a vpn/tunnel .	Sug
+1.7.6	The tunnel connects the two sites that you control .	St
+1.7.7	With a vpn you get all of the encryption and authentication that you will probably need , unless you 're James Bond .	St
+1.7.8	The literature for the routers will tell you if they have this capability , and you will need one on each end of the link , unless you opt for client software .	St
+1.7.9	Anything sniffed off a properly configured vpn tunnel looks like gibberish .	St
+1.7.10	But , if you are just looking at the internet itself and not a fixed site on the other end , then you are out of luck with vpn .	St
+1.7.11	If you are just looking at any old internet sites , then you can not mask your IP , though your router/modem most likely is translating your local IP anyway .	St
+1.7.12	A good and updated antivirus package and properly configured firewall settings on your router can mitigate quite a bit on your LAN , but , once the data goes onto your ISP 's equipment , who knows what will happen .	St
+1.7.13	The point is that there is only so much that you can control when you go onto the internet .	St
+1.7.14	If you control both ends , then you can tunnel fairly securely over the internet .	St
+1.7.15	If you only control your end , then all of the path beyond where your end stops is out of your control .	St
+1.7.16	Strong passwords that are changed periodically , updated antivirus software , and appropriate firewall settings are the most overlooked steps each individual can take .	St

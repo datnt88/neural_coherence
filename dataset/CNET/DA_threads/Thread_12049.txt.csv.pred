@@ -1,79 +1,79 @@
-1.1.1	Hi First post here, a question.	Sug
-1.1.2	I'm just about to put my 10-yr old Hp 2100m Laserjet out on the curb for the scavengers, because I've tried everything.	St
-1.1.3	The only reason I hesitate is that it is able to print both a Test Print, and a Printer Configuration Print (all on it's own without prompt from Pc) perfectly.	St
-1.1.4	Crisp, contrasty, perfect prints.	St
-1.1.5	My Hp G60 W7 laptop is maybe two years old, and will not recognize the printer.	St
-1.1.6	Awhile back it would recognize it like any Usb device and print properly, but those were just very few occasional prints.	St
-1.1.7	Now I'd like it to print fulltime and it simply doesn't want to 'complete the circuit' with the printer.	St
-1.1.8	I've downloaded various kinds of Hp drivers, done numerous Windows Printer Troubleshoots, as well as the Hp Printer Diagnostic, all with variations and multiple attempts.	St
-1.1.9	No prints.	St
-1.1.10	I'll confess to knowing nothing about the right 'network' configuration, and another known unknown for me is the 'printer offline/online' designation.	St
-1.1.11	I'm a pedestrian pc user.	St
-1.1.12	The only other variable here is that due to a (solved) virus problem last winter, much of the Laptop has itself been reset/ restored/ reconfigured, sometimes in non-intuitive ways, by Microsoft Security tech support.	St
-1.1.13	But it wasn't printing before that, either.	St
-1.1.14	Just mentioning.	St
-1.1.15	With the idea that the printer is in good condition and test prints look fine, is there some Last Resort kind of a fix or reconfiguration that I might try to get this to click ?	Ques
-1.1.16	Even as a total novice, this all seems just a step or two away from working out.	St
-1.1.17	But too many failed steps are going to lead to the curb...	St
+1.1.1	Hi First post here , a question .	St
+1.1.2	I 'm just about to put my 10-yr old Hp 2100m Laserjet out on the curb for the scavengers , because I 've tried everything .	St
+1.1.3	The only reason I hesitate is that it is able to print both a Test Print , and a Printer Configuration Print ( all on it 's own without prompt from Pc ) perfectly .	St
+1.1.4	Crisp , contrasty , perfect prints .	St
+1.1.5	My Hp G60 W7 laptop is maybe two years old , and will not recognize the printer .	St
+1.1.6	Awhile back it would recognize it like any Usb device and print properly , but those were just very few occasional prints .	St
+1.1.7	Now I 'd like it to print fulltime and it simply does n't want to 'complete the circuit ' with the printer .	St
+1.1.8	I 've downloaded various kinds of Hp drivers , done numerous Windows Printer Troubleshoots , as well as the Hp Printer Diagnostic , all with variations and multiple attempts .	St
+1.1.9	No prints .	St
+1.1.10	I 'll confess to knowing nothing about the right 'network ' configuration , and another known unknown for me is the 'printer offline/online ' designation .	St
+1.1.11	I 'm a pedestrian pc user .	St
+1.1.12	The only other variable here is that due to a ( solved ) virus problem last winter , much of the Laptop has itself been reset/ restored/ reconfigured , sometimes in non-intuitive ways , by Microsoft Security tech support .	St
+1.1.13	But it was n't printing before that , either .	St
+1.1.14	Just mentioning .	St
+1.1.15	With the idea that the printer is in good condition and test prints look fine , is there some Last Resort kind of a fix or reconfiguration that I might try to get this to click ?	Ques
+1.1.16	Even as a total novice , this all seems just a step or two away from working out .	St
+1.1.17	But too many failed steps are going to lead to the curb ...	St
 1.1.18	Thanks for responses windot	St
-1.2.1	http://business.fsu.edu/tech/printermanuals/laserprinters/HP2100.pdf I could not find USB as an interface on this model.	St
-1.2.2	You mention the 2100M model but that didn't have networking but the 2100TN did.	St
-1.2.3	Sorry but maybe a computer guru can visit this setup and try with their laptop?	St
-1.2.4	This way you know if it's your PC.	St
+1.2.1	http : //business.fsu.edu/tech/printermanuals/laserprinters/HP2100.pdf I could not find USB as an interface on this model .	St
+1.2.2	You mention the 2100M model but that did n't have networking but the 2100TN did .	St
+1.2.3	Sorry but maybe a computer guru can visit this setup and try with their laptop ?	Ques
+1.2.4	This way you know if it 's your PC .	St
 1.2.5	Bob	St
-1.3.1	If you don't have the manual, look here: http://h20000.www2.hp.com/bizsupport/TechSupport/DocumentIndex.jsp?lang=en&cc=us&contentType=SupportManual&prodTypeId=18972&prodSeriesId=25469 I'd recommend the HP universal print driver.	St
-1.3.2	It does show as compatible with Windows 7 and the 2100n.	St
-1.3.3	You will need to select the proper driver for your version...either 32 bit or 64 bit.	St
-1.3.4	You will need to know or discover the IP address for the printer.	Ques
-1.3.5	If it's at the default, the manual should have that address.	St
-1.3.6	HP also has it's own discover and configuration tool...something called jetdirect...but it's been a while for me.	St
-1.3.7	In any event, you need the printer to have an IP address within the same network range as that of your laptop.	St
-1.3.8	I recommend using static addressing for printers rather than DHCP and printer names.	St
-1.3.9	You need to install the driver and configure the port address given to the printer in the printer properties on your laptop.	St
-1.3.10	Sorry but cannot offer step by step for this but basically this is what you need to do.	St
-1.3.11	Hope it helps rather than adds to confusion.	St
-1.4.1	The connecting cable consists of a large multi-pin connector at the printer end (possibly an 'IEEE 1284'?	St
-1.4.2	), and what is definitely a usb (with usb 'trident' symbol on plug) connector on the PC end.	St
-1.4.3	Somewhere along the way in the investigations, I read that you would sometimes need to 'set up' or install something for the type of connection -- as maybe this hadn't all been settled as of the birth of this printer circa 2ooo.	St
-1.4.4	Anyway, the cable is what came with the LaserJet, as I recall, and it's also in good condition.	St
-1.4.5	And the front panel of the printer says LaserJet 2100M, for what that's worth.	St
-1.4.6	(keep wondering if either usb or networking basics weren't as plug-&-play back then ?	Ques
-1.4.7	and how to reconfigure ?)	St
-1.4.8	As mentioned, this feels very close to possible, but there is some bottleneck somewhere..... thanks	Polite
-1.5.1	Well, I'll say I have tried the Hp Universal driver, but me trying it certainly doesn't mean it was tried successfully or even competently.	St
-1.5.2	The manual recommends the PCL-6 driver.	St
-1.5.3	Just to clarify, when you say &quot;need to select the proper driver for your version&quot; -- does that mean version of computer ?	Ques
-1.5.4	...(My Hp laptop is a 64bit system so I presume I should always select that when prompted for version) I've tried unsuccessfully to discover the the IP address of the printer.	St
-1.5.5	It's not in the original manual (which I have).	St
-1.5.6	And it doesn't appear on the &quot;Self Test / Configuration&quot; printout, which as mentioned, prints out well.	St
-1.5.7	The Config page gives Printer Name, Formatter Number, Serial Number, Firmware Datecode, Page Count, LocalTalk Name, LocalTalk Node ID, LocalTalk Network Number, and PS Wait Timeout in the main information table.	St
-1.5.8	I don't find anything that looks like the IP Address kind of number anywhere..	St
-1.5.9	I actually have the original CdRom installation disc for this printer, but it's not recognized by Win-7.	St
-1.5.10	The orig OS for the printer was something like Windows-NT or thereabout.	St
-1.5.11	Understand that you can't provide step-by-step, but I guess if I can't find an IP I'm fairly locked out ....	St
-1.6.1	In a few words, NOT PLUG AND PLAY.	St
-1.6.2	As there were too many of these you need to first install the drivers for that BEFORE YOU PLUG THAT IN then it may work.	St
-1.6.3	But here's the thing.	St
-1.6.4	I find such very hard on folk to the point a new laser printer costs less than finding a guru to sort it out.	St
-1.6.5	It is a nice printer, lasted over 10 years around here but again, unless you do your own support and kept notes and all the drivers it's rare to see it work again today.	St
+1.3.1	If you do n't have the manual , look here : http : //h20000.www2.hp.com/bizsupport/TechSupport/DocumentIndex.jsp ? lang=en & cc=us & contentType=SupportManual & prodTypeId=18972 & prodSeriesId=25469 I 'd recommend the HP universal print driver .	St
+1.3.2	It does show as compatible with Windows 7 and the 2100n .	St
+1.3.3	You will need to select the proper driver for your version ... either 32 bit or 64 bit .	St
+1.3.4	You will need to know or discover the IP address for the printer .	St
+1.3.5	If it 's at the default , the manual should have that address .	St
+1.3.6	HP also has it 's own discover and configuration tool ... something called jetdirect ... but it 's been a while for me .	St
+1.3.7	In any event , you need the printer to have an IP address within the same network range as that of your laptop .	St
+1.3.8	I recommend using static addressing for printers rather than DHCP and printer names .	St
+1.3.9	You need to install the driver and configure the port address given to the printer in the printer properties on your laptop .	St
+1.3.10	Sorry but can not offer step by step for this but basically this is what you need to do .	St
+1.3.11	Hope it helps rather than adds to confusion .	St
+1.4.1	The connecting cable consists of a large multi-pin connector at the printer end ( possibly an 'IEEE 1284 ' ?	Ques
+1.4.2	) , and what is definitely a usb ( with usb 'trident ' symbol on plug ) connector on the PC end .	St
+1.4.3	Somewhere along the way in the investigations , I read that you would sometimes need to 'set up ' or install something for the type of connection -- as maybe this had n't all been settled as of the birth of this printer circa 2ooo .	St
+1.4.4	Anyway , the cable is what came with the LaserJet , as I recall , and it 's also in good condition .	St
+1.4.5	And the front panel of the printer says LaserJet 2100M , for what that 's worth .	St
+1.4.6	( keep wondering if either usb or networking basics were n't as plug- & -play back then ?	Ques
+1.4.7	and how to reconfigure ? )	Ques
+1.4.8	As mentioned , this feels very close to possible , but there is some bottleneck somewhere ... .. thanks	Polite
+1.5.1	Well , I 'll say I have tried the Hp Universal driver , but me trying it certainly does n't mean it was tried successfully or even competently .	St
+1.5.2	The manual recommends the PCL-6 driver .	St
+1.5.3	Just to clarify , when you say & quot ; need to select the proper driver for your version & quot ; -- does that mean version of computer ?	Ques
+1.5.4	... ( My Hp laptop is a 64bit system so I presume I should always select that when prompted for version ) I 've tried unsuccessfully to discover the the IP address of the printer .	St
+1.5.5	It 's not in the original manual ( which I have ) .	St
+1.5.6	And it does n't appear on the & quot ; Self Test / Configuration & quot ; printout , which as mentioned , prints out well .	St
+1.5.7	The Config page gives Printer Name , Formatter Number , Serial Number , Firmware Datecode , Page Count , LocalTalk Name , LocalTalk Node ID , LocalTalk Network Number , and PS Wait Timeout in the main information table .	St
+1.5.8	I do n't find anything that looks like the IP Address kind of number anywhere..	St
+1.5.9	I actually have the original CdRom installation disc for this printer , but it 's not recognized by Win-7 .	St
+1.5.10	The orig OS for the printer was something like Windows-NT or thereabout .	St
+1.5.11	Understand that you ca n't provide step-by-step , but I guess if I ca n't find an IP I 'm fairly locked out ... .	St
+1.6.1	In a few words , NOT PLUG AND PLAY .	St
+1.6.2	As there were too many of these you need to first install the drivers for that BEFORE YOU PLUG THAT IN then it may work .	St
+1.6.3	But here 's the thing .	St
+1.6.4	I find such very hard on folk to the point a new laser printer costs less than finding a guru to sort it out .	St
+1.6.5	It is a nice printer , lasted over 10 years around here but again , unless you do your own support and kept notes and all the drivers it 's rare to see it work again today .	St
 1.6.6	Bob	St
-1.7.1	In searching through the manual, I did find specs for both the HP2100tn and HP2100m.	St
-1.7.2	I was unaware of an &quot;m&quot; version but it may not be US.	St
-1.7.3	The &quot;m&quot; version does come with a parallel and LocalTalk (Apple) interface.	St
-1.7.4	Neither of these will work with your laptop.	St
-1.7.5	You did mention some USB symbol but I wonder if this wasn't some kind of 3rd party adapter.	St
-1.7.6	If so, those don't tend to work well if at all.	St
-1.7.7	You won't have a network (RJ-45) port so you're out of luck in that regard.	St
-1.7.8	The printer does show IR wireless but that's a technology that didn't catch on.	St
-1.7.9	I would doubt your laptop has IR but you could check.	St
-1.7.10	If so, it may be an alternative but IR is very distance limited.	St
-1.7.11	It may be best to just bank what you've learned and find a newer printer.	St
-1.7.12	Sorry to say that.	St
-1.8.1	Every time I decide it's not worth it, something about it suggests that it is really really close to working : Just now I set up things to print, with the &quot;Devices And Printers&quot; window open, ready to plug in the printer.	St
-1.8.2	Next to the icon of the printer it said &quot;HP 2100 PCL6 : Offline&quot; When I plugged in the usb end of the cable, that changed right away to &quot;HP 2100 PCL6 : Ready&quot; So it's seeing the printer, but just not being cooperative.	St
-1.8.3	(Because when I tried a print, it changed to &quot;Error&quot;).	St
-1.8.4	And refused to print, of course.	St
-1.8.5	Okay.	St
-1.8.6	Last chance for inspirations, anyone ..... ?	Ques
-1.9.1	http://www.amazon.com/TRENDnet-Wireless-1-Port-Parallel-TEW-P1PG/dp/B0009FUX94 and other USB to LPT adapters.	St
-1.10.1	http://www.amazon.com/HP-JetDirect-J3111A-J3111-Server/dp/B0025VMWXA You can google directjet cards for HP2100 and several sites pop up offering HP branded cards said to be compatible.	St
+1.7.1	In searching through the manual , I did find specs for both the HP2100tn and HP2100m .	St
+1.7.2	I was unaware of an & quot ; m & quot ; version but it may not be US .	St
+1.7.3	The & quot ; m & quot ; version does come with a parallel and LocalTalk ( Apple ) interface .	St
+1.7.4	Neither of these will work with your laptop .	St
+1.7.5	You did mention some USB symbol but I wonder if this was n't some kind of 3rd party adapter .	St
+1.7.6	If so , those do n't tend to work well if at all .	St
+1.7.7	You wo n't have a network ( RJ-45 ) port so you 're out of luck in that regard .	St
+1.7.8	The printer does show IR wireless but that 's a technology that did n't catch on .	St
+1.7.9	I would doubt your laptop has IR but you could check .	St
+1.7.10	If so , it may be an alternative but IR is very distance limited .	St
+1.7.11	It may be best to just bank what you 've learned and find a newer printer .	St
+1.7.12	Sorry to say that .	St
+1.8.1	Every time I decide it 's not worth it , something about it suggests that it is really really close to working : Just now I set up things to print , with the & quot ; Devices And Printers & quot ; window open , ready to plug in the printer .	St
+1.8.2	Next to the icon of the printer it said & quot ; HP 2100 PCL6 : Offline & quot ; When I plugged in the usb end of the cable , that changed right away to & quot ; HP 2100 PCL6 : Ready & quot ; So it 's seeing the printer , but just not being cooperative .	St
+1.8.3	( Because when I tried a print , it changed to & quot ; Error & quot ; ) .	St
+1.8.4	And refused to print , of course .	St
+1.8.5	Okay .	St
+1.8.6	Last chance for inspirations , anyone ... .. ?	Ques
+1.9.1	http : //www.amazon.com/TRENDnet-Wireless-1-Port-Parallel-TEW-P1PG/dp/B0009FUX94 and other USB to LPT adapters .	St
+1.10.1	http : //www.amazon.com/HP-JetDirect-J3111A-J3111-Server/dp/B0025VMWXA You can google directjet cards for HP2100 and several sites pop up offering HP branded cards said to be compatible .	St

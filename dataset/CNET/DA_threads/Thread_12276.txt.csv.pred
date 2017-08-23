@@ -1,69 +1,69 @@
-1.1.1	I have a very sick computer, and recently bought a PCI/ISA POST (Power On Self Status) code diagnostic card.	St
-1.1.2	Symptoms: computer runs extremely slowly; windows and applications continually stop responding, sometimes temporarily, often permanently.	St
-1.1.3	Internet browser (IE 6.0) is a waste of time; web pages can take hours to open, if at all, despite my disabling the &quot;Show pictures&quot; option, disabling Windows XP firewall and uninstalling antivirus software (and all innessential software).	St
-1.1.4	The only operation my PC seems to be able to handle reasonably well is typing in NotePad (typing in MS Word 2002 entails waiting several minutes after every keystroke).	St
-1.1.5	Did a clean reinstallation of Windows XP Professional but that made no difference.	St
-1.1.6	After running well for about two years, my computer is now practically useless, (was hoping to get another year's use out of it).	St
-1.1.7	The diagnostic card is installed in a PCI or ISA slot; following is an explanation from the manual of what it does: &quot;When the machine is turned on, the hexadecimal display should show the various POST codes as the system executes (unless it has a rare BIOS that does not display POST codes).	St
-1.1.8	If the machine does not boot, system POST has detected a fatal fault and stopped.	St
-1.1.9	The number showing in the hexadecimal display on the Diagnostic Card is the number of the test in which POST failed.&quot; When I boot up the card display quickly runs through a few numbers and stops on 26.	St
-1.1.10	This is puzzling to me because my computer does boot up, albeit very slowly, contrary to the above description, which suggests that the card display should only stop at a number if the machine does not boot.	St
-1.1.11	An appendix in the manual lists all POST codes for the main BIOS vendors, and includes the following information: &quot;Error Code 26 Award (26)Enable slots 6;Initialize slot 6.Test protected mode exceptions.&quot; I would very much appreciate some help to understand what this means, and possibly a suggestion for further action I could take to diagnose the problem.	St
-1.1.12	I contacted the card vendor about this but they are Chinese and don't understand English.	St
-1.1.13	Motherboard: FIC AD11 CPU: AMD Athlon 1.2GB BIOS: Award ABA46 Internet connection: 56kb/s modem	St
-1.2.1	Since your system actually does boot-up you've gone past what use a POST card can be, depending on the maker.	St
-1.2.2	For all intents and purposes, most POST cards are for &quot;dead systems&quot; thus they can help pinpiont the cause of failure.	St
-1.2.3	On top of that, any repair may exceed the value of the mtrbd.	St
-1.2.4	if cause or end device, like HD, etc.	St
-1.2.5	Its value is for mutliple similar systems, were repairs cards can easily be swapped into for quick uptime.	St
-1.2.6	POST cards are just another tool for the toolkit.	St
-1.2.7	Your sysptoms appears to be the action of malware, like a trojan or virus, etc.	St
-1.2.8	If you have an AV pgm, use it with latest update.	St
-1.2.9	Even if it comes back with good results, you gotta try it to eliminate that.	St
-1.2.10	I suspect further if you have a clean report, the cpu fan or other fan could be failing, if cpu, they tend to slowdown when up against &quot;heat problems&quot; or reboot frequently.	St
-1.2.11	AMD cpus are power hungary so a stable power supply is a most, especially it seems your 1.2, Throuhbred class.	St
-1.2.12	Open case with cover off observe operation of all fans and check for noise levels as well.	St
-1.2.13	If too noisy, suggests a bad fan.	St
-1.2.14	These are my guesses for now... good luck -----Willy	Polite
-1.3.1	but a far out one would be if somehow the Cache got disabled in the BIOS.	St
-1.3.2	Speaking of slowing down a system.	St
+1.1.1	I have a very sick computer , and recently bought a PCI/ISA POST ( Power On Self Status ) code diagnostic card .	St
+1.1.2	Symptoms : computer runs extremely slowly ; windows and applications continually stop responding , sometimes temporarily , often permanently .	St
+1.1.3	Internet browser ( IE 6.0 ) is a waste of time ; web pages can take hours to open , if at all , despite my disabling the & quot ; Show pictures & quot ; option , disabling Windows XP firewall and uninstalling antivirus software ( and all innessential software ) .	St
+1.1.4	The only operation my PC seems to be able to handle reasonably well is typing in NotePad ( typing in MS Word 2002 entails waiting several minutes after every keystroke ) .	St
+1.1.5	Did a clean reinstallation of Windows XP Professional but that made no difference .	St
+1.1.6	After running well for about two years , my computer is now practically useless , ( was hoping to get another year 's use out of it ) .	St
+1.1.7	The diagnostic card is installed in a PCI or ISA slot ; following is an explanation from the manual of what it does : & quot ; When the machine is turned on , the hexadecimal display should show the various POST codes as the system executes ( unless it has a rare BIOS that does not display POST codes ) .	St
+1.1.8	If the machine does not boot , system POST has detected a fatal fault and stopped .	St
+1.1.9	The number showing in the hexadecimal display on the Diagnostic Card is the number of the test in which POST failed. & quot ; When I boot up the card display quickly runs through a few numbers and stops on 26 .	St
+1.1.10	This is puzzling to me because my computer does boot up , albeit very slowly , contrary to the above description , which suggests that the card display should only stop at a number if the machine does not boot .	St
+1.1.11	An appendix in the manual lists all POST codes for the main BIOS vendors , and includes the following information : & quot ; Error Code 26 Award ( 26 ) Enable slots 6 ; Initialize slot 6.Test protected mode exceptions. & quot ; I would very much appreciate some help to understand what this means , and possibly a suggestion for further action I could take to diagnose the problem .	St
+1.1.12	I contacted the card vendor about this but they are Chinese and do n't understand English .	St
+1.1.13	Motherboard : FIC AD11 CPU : AMD Athlon 1.2GB BIOS : Award ABA46 Internet connection : 56kb/s modem	St
+1.2.1	Since your system actually does boot-up you 've gone past what use a POST card can be , depending on the maker .	St
+1.2.2	For all intents and purposes , most POST cards are for & quot ; dead systems & quot ; thus they can help pinpiont the cause of failure .	St
+1.2.3	On top of that , any repair may exceed the value of the mtrbd .	St
+1.2.4	if cause or end device , like HD , etc .	St
+1.2.5	Its value is for mutliple similar systems , were repairs cards can easily be swapped into for quick uptime .	St
+1.2.6	POST cards are just another tool for the toolkit .	St
+1.2.7	Your sysptoms appears to be the action of malware , like a trojan or virus , etc .	St
+1.2.8	If you have an AV pgm , use it with latest update .	St
+1.2.9	Even if it comes back with good results , you got ta try it to eliminate that .	St
+1.2.10	I suspect further if you have a clean report , the cpu fan or other fan could be failing , if cpu , they tend to slowdown when up against & quot ; heat problems & quot ; or reboot frequently .	St
+1.2.11	AMD cpus are power hungary so a stable power supply is a most , especially it seems your 1.2 , Throuhbred class .	St
+1.2.12	Open case with cover off observe operation of all fans and check for noise levels as well .	St
+1.2.13	If too noisy , suggests a bad fan .	St
+1.2.14	These are my guesses for now ... good luck -- -- -Willy	St
+1.3.1	but a far out one would be if somehow the Cache got disabled in the BIOS .	St
+1.3.2	Speaking of slowing down a system .	St
 1.3.3	WOW	St
-1.4.1	Several times I tried scanning with Norton AntiVirus 2002, but each time it went for a few days and eventually spontaneously terminated, so it never finished scanning my entire system.	St
-1.4.2	However, the best it did was 101,000 files (that took about 5 days) before disappearing, and it had found no infection up to that point.	St
-1.4.3	I have 3 HDDs and 5 partitions and it was on the final partition and had about 30,000 files to go when it gave up.	St
-1.4.4	All the remaining files were mp3s, so I doubt any of those contain viruses or trojans.	St
-1.4.5	I did the obvious things like checking fans, which are not unusually noisy, and the system doesn't spontaneously restart.	St
-1.4.6	It just seems to be extremely low on resources, and Windows itself and any other processes continually stop responding.	St
-1.4.7	I know that repairs are generally more expensive than the mobo itself, but I hoped that I might diagnose it myself and do the repairs.	St
-1.4.8	I know that to replace it I will also need to replace the CPU and RAM (it has 768MB of DDR RAM) because newer components would be incompatible with the older ones.	St
-1.5.1	WOW?	St
-1.5.2	Thanks for the cache suggestion; I'll check the BIOS when I get home (I'm at an Internet cafe now because, as I said, my PC is practically useless).	St
-1.6.1	There are Ad-Aware and Spybot spyware scanners, so use them as well.	St
-1.6.2	Norton AV-2002 needs to updated to latest release.	St
-1.6.3	No AV pgm.	St
-1.6.4	will completely do the job as trojan are many times missed or the latest threat is not yet imposed for the AV pgm.	St
-1.6.5	On top of all this you should look into reducing, shutting down any startup pgms., and/or terminate backgrd running tasks leaving only required ones.	St
-1.6.6	If no virus is found, consider again that too many tasks are running or a corrupt one is at fault, even the Norton AV will impose a drain on resources as that maybe also a cause, low resources in general.	St
-1.6.7	You can select what HDs to scan also, so recheck that to directly scan a single HD/partition whether than the whole HD at once just to get past hang-ups.	St
-1.6.8	PLus, in no way is it normal for scan to take days.	St
-1.6.9	Below are several pgm.	St
-1.6.10	scanners, etc.	St
-1.6.11	to help, choose whatever suits you: Info was cut&pasted and updated from various sources.	St
-1.6.12	-----Willy (edited for brief content) For *dead links* try the core url, for the homepage of the desired pgm.. Also, the following are from trusted and proven websites.	St
-1.6.13	*** Beware, other free or so-called helpful spyware removal sites are fronts for spyware itself and/or plus may sell useless pgms.	St
-1.6.14	which when used for online scans are false-postive results in order for you to buy thier product.	St
-1.6.15	*** \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ *** Known or suspected spyware pgms.	St
-1.6.16	not trustworthy *** AdProtector AdWare Remover Gold BPS Spyware Remover InternetAntiSpy NoAdware Online PC-Fix SpyFerret Pal Spyware Remover SpyAssault SpyBan SpyBlast Spy Deleter SpyFerret SpyGone SpyHunter SpyKiller SpyKiller Pro SpywareNuker Spy Wiper TZ Spyware-Adware Remover Virtual Bouncer Xoftspy \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ *** Trusted pgms.	St
-1.6.17	*** Spybot Search and Destroy: http://security.kolla.de/news.php?lang=en Adaware: http://www.lavasoftusa.com Spycop: http://www.spycop.com/ Spyware Blaster: http://www.wilderssecurity.net/spywareblaster.html Trojan Hunter: http://www.misec.net/trojanhunter.jsp TDS-3: http://tds.diamondcs.com.au/ BHODemon and Hijack This and Browser Hijack Blaster http://www.spywareinfo.com/downloads.php?cat=sp#det BHODemon ZoneAlarm (free version) http://www.zonealarm.com WinPatrol (free version) http://www.winpatrol.com McAfee Stinger (freeware) quick check of various malware http://vil/nai/com/vil/stinger Trojan Remover (demo version, 30-days) http://www.trojanremover.com - end of list -	St
-1.7.1	You can find manual of post card from here: http://www.sz-sintech.com http://www.pc-adapter.net	St
+1.4.1	Several times I tried scanning with Norton AntiVirus 2002 , but each time it went for a few days and eventually spontaneously terminated , so it never finished scanning my entire system .	St
+1.4.2	However , the best it did was 101,000 files ( that took about 5 days ) before disappearing , and it had found no infection up to that point .	St
+1.4.3	I have 3 HDDs and 5 partitions and it was on the final partition and had about 30,000 files to go when it gave up .	St
+1.4.4	All the remaining files were mp3s , so I doubt any of those contain viruses or trojans .	St
+1.4.5	I did the obvious things like checking fans , which are not unusually noisy , and the system does n't spontaneously restart .	St
+1.4.6	It just seems to be extremely low on resources , and Windows itself and any other processes continually stop responding .	St
+1.4.7	I know that repairs are generally more expensive than the mobo itself , but I hoped that I might diagnose it myself and do the repairs .	St
+1.4.8	I know that to replace it I will also need to replace the CPU and RAM ( it has 768MB of DDR RAM ) because newer components would be incompatible with the older ones .	St
+1.5.1	WOW ?	Ques
+1.5.2	Thanks for the cache suggestion ; I 'll check the BIOS when I get home ( I 'm at an Internet cafe now because , as I said , my PC is practically useless ) .	St
+1.6.1	There are Ad-Aware and Spybot spyware scanners , so use them as well .	St
+1.6.2	Norton AV-2002 needs to updated to latest release .	St
+1.6.3	No AV pgm .	St
+1.6.4	will completely do the job as trojan are many times missed or the latest threat is not yet imposed for the AV pgm .	St
+1.6.5	On top of all this you should look into reducing , shutting down any startup pgms. , and/or terminate backgrd running tasks leaving only required ones .	St
+1.6.6	If no virus is found , consider again that too many tasks are running or a corrupt one is at fault , even the Norton AV will impose a drain on resources as that maybe also a cause , low resources in general .	St
+1.6.7	You can select what HDs to scan also , so recheck that to directly scan a single HD/partition whether than the whole HD at once just to get past hang-ups .	St
+1.6.8	PLus , in no way is it normal for scan to take days .	St
+1.6.9	Below are several pgm .	St
+1.6.10	scanners , etc .	St
+1.6.11	to help , choose whatever suits you : Info was cut & pasted and updated from various sources .	St
+1.6.12	-- -- -Willy ( edited for brief content ) For *dead links* try the core url , for the homepage of the desired pgm.. Also , the following are from trusted and proven websites .	St
+1.6.13	*** Beware , other free or so-called helpful spyware removal sites are fronts for spyware itself and/or plus may sell useless pgms .	St
+1.6.14	which when used for online scans are false-postive results in order for you to buy thier product .	St
+1.6.15	*** \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ *** Known or suspected spyware pgms .	St
+1.6.16	not trustworthy *** AdProtector AdWare Remover Gold BPS Spyware Remover InternetAntiSpy NoAdware Online PC-Fix SpyFerret Pal Spyware Remover SpyAssault SpyBan SpyBlast Spy Deleter SpyFerret SpyGone SpyHunter SpyKiller SpyKiller Pro SpywareNuker Spy Wiper TZ Spyware-Adware Remover Virtual Bouncer Xoftspy \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ *** Trusted pgms .	St
+1.6.17	*** Spybot Search and Destroy : http : //security.kolla.de/news.php ? lang=en Adaware : http : //www.lavasoftusa.com Spycop : http : //www.spycop.com/ Spyware Blaster : http : //www.wilderssecurity.net/spywareblaster.html Trojan Hunter : http : //www.misec.net/trojanhunter.jsp TDS-3 : http : //tds.diamondcs.com.au/ BHODemon and Hijack This and Browser Hijack Blaster http : //www.spywareinfo.com/downloads.php ? cat=sp # det BHODemon ZoneAlarm ( free version ) http : //www.zonealarm.com WinPatrol ( free version ) http : //www.winpatrol.com McAfee Stinger ( freeware ) quick check of various malware http : //vil/nai/com/vil/stinger Trojan Remover ( demo version , 30-days ) http : //www.trojanremover.com - end of list -	Ques
+1.7.1	You can find manual of post card from here : http : //www.sz-sintech.com http : //www.pc-adapter.net	St
 1.8.1	NIL	St
-1.9.1	but others perhaps need the information.right?	St
-1.10.1	What he/she was asking was how to interpret the code results.	St
+1.9.1	but others perhaps need the information.right ?	Ques
+1.10.1	What he/she was asking was how to interpret the code results .	St
 1.10.2	VAPCMD	St
-1.11.1	MAINBOARD test card error 26 is due to: Card test MAINBOARD not support the new life.	St
-1.11.2	Especially MAINBOARD INTEL 9xx chipset, GIGABYTE MAINBOARD, MAINBOARD ECS, INTEL Mainboard ...	St
-1.11.3	Even some main card test MAINBOARD my life only stop at code 25, 26, C0, FF, or what does not.	St
-1.11.4	I have more articles related to this issue.	St
-1.11.5	But regret that I write in Vietnam.	Polite
-1.11.6	If you want you can also use translate.google.com to translate nh.	St
-1.11.7	Articles by me here: http://lqv77.com/mainboard/ http://lqv77.com/2007/03/29/huong-dan-su-dung-card-test-main/ http://lqv77.com/2009/02/07/card-test-mainboard-toan-tap/ http://lqv77.com/2009/03/18/card-test-mainboard-bao-loi-26-va-cach-xu-ly/	St
+1.11.1	MAINBOARD test card error 26 is due to : Card test MAINBOARD not support the new life .	St
+1.11.2	Especially MAINBOARD INTEL 9xx chipset , GIGABYTE MAINBOARD , MAINBOARD ECS , INTEL Mainboard ...	St
+1.11.3	Even some main card test MAINBOARD my life only stop at code 25 , 26 , C0 , FF , or what does not .	St
+1.11.4	I have more articles related to this issue .	St
+1.11.5	But regret that I write in Vietnam .	Polite
+1.11.6	If you want you can also use translate.google.com to translate nh .	St
+1.11.7	Articles by me here : http : //lqv77.com/mainboard/ http : //lqv77.com/2007/03/29/huong-dan-su-dung-card-test-main/ http : //lqv77.com/2009/02/07/card-test-mainboard-toan-tap/ http : //lqv77.com/2009/03/18/card-test-mainboard-bao-loi-26-va-cach-xu-ly/	St

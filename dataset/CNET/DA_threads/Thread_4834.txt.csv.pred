@@ -1,33 +1,33 @@
-1.1.1	Ok, I'm sure this is already somewhere in the forums but I've been searching for an hour and can't find my answer so I'm starting a new thread.	St
-1.1.2	I just had to move my cable modem far away and I need to extend my wireless network range.	St
-1.1.3	Connected to my internet is a Linksys WRT54G and I have an extra Belkin Wirless G Router Model no: F5D7230-4 laying around that I want to use as an access point.	St
-1.1.4	I have not been able to get it set up properly.	St
-1.1.5	I had WPA protection on, then turned it off completely.	St
-1.1.6	I can't figure out what settings I need to change on my linksys or belkin to get them to work properly.	St
-1.1.7	I have been tinkering but whenever I think I get it setup, I can't pull up one or the other's setup page.	St
-1.1.8	Let me know if I need to give more information for someone to solve my problem.	St
+1.1.1	Ok , I 'm sure this is already somewhere in the forums but I 've been searching for an hour and ca n't find my answer so I 'm starting a new thread .	St
+1.1.2	I just had to move my cable modem far away and I need to extend my wireless network range .	St
+1.1.3	Connected to my internet is a Linksys WRT54G and I have an extra Belkin Wirless G Router Model no : F5D7230-4 laying around that I want to use as an access point .	St
+1.1.4	I have not been able to get it set up properly .	St
+1.1.5	I had WPA protection on , then turned it off completely .	St
+1.1.6	I ca n't figure out what settings I need to change on my linksys or belkin to get them to work properly .	St
+1.1.7	I have been tinkering but whenever I think I get it setup , I ca n't pull up one or the other 's setup page .	St
+1.1.8	Let me know if I need to give more information for someone to solve my problem .	St
 1.1.9	Thanks Pat	St
-1.2.1	Using a Router as Access Point isn't as easy as just using an Access Point, but tends to be cheaper these days.	St
-1.2.2	A router typically has a switch, access point, and DHCP server.	St
-1.2.3	The most important thing is to turn off the DHCP server.	St
-1.2.4	It will butt heads with the Router you currently have running.	St
-1.2.5	There is generally a check box to turn that off under DHCP or something like that (NAT).	St
-1.2.6	The first thing to know is where the main Router (Linksys WRT54G) is routing, on it's webpage if you select DHCP it should show something like DHCP Server Enable/Disable (enabled of course), Starting IP Address 192.168.X.100 (X being whatever class C segment it's on; generally 0, 1, or 2) and Number of DHCP Users (50).	St
-1.2.7	That means it gives out addresses 192.168.X.100 to 192.168.X.149.	St
-1.2.8	It is likely at 192.168.X.1 (can be seen under Status) for LAN port.	St
-1.2.9	So you need to set the Belkin LAN to something like 192.168.X.2 for LAN port (don't care about WAN - your not going to use it).	St
-1.2.10	Reset the Belkin and it should work (my Netgear did).	St
-1.2.11	If not you may need a reversing cable between LANs (One of the four the Linksys LAN ports to one of the four Belkin LAN ports) you don't use the WAN at all, turning off DHCP pretty much disabled it.	St
-1.3.1	What can be used for the connection between the main router and the new access point?	St
-1.3.2	I know you said they can be hardwired from LAN port to LAN port.	St
-1.3.3	That makes perfect sense.	Polite
-1.3.4	Can the new access point be connected to the router wirelessly?	St
-1.3.5	eg.. Router to new access point on 'x' channel, and access point to computers on 'z' channel.	St
-1.3.6	I have never tried adding a new access point or had the need to.	St
-1.3.7	I have always be curious about how it would work.	St
-1.3.8	Thanks, Bruce.	St
-1.4.1	As far as I know this would be a rare thing, there are routers designed as expansion types, but this would slow the flow and cause problems with most normal routers.	St
-1.4.2	There are also ethernet through wiring units that might be used to make it easier with the wired method.	St
-1.4.3	Things are still evolving in both ethernet and wireless.	St
-1.4.4	Ethernet as it was is one the way out being slowly replaced with the optical version at 1G+ speeds.	St
-1.4.5	The newer multi-channeled routers might do this well, but I don't have one or the need at the moment.	St
+1.2.1	Using a Router as Access Point is n't as easy as just using an Access Point , but tends to be cheaper these days .	St
+1.2.2	A router typically has a switch , access point , and DHCP server .	St
+1.2.3	The most important thing is to turn off the DHCP server .	St
+1.2.4	It will butt heads with the Router you currently have running .	St
+1.2.5	There is generally a check box to turn that off under DHCP or something like that ( NAT ) .	St
+1.2.6	The first thing to know is where the main Router ( Linksys WRT54G ) is routing , on it 's webpage if you select DHCP it should show something like DHCP Server Enable/Disable ( enabled of course ) , Starting IP Address 192.168.X.100 ( X being whatever class C segment it 's on ; generally 0 , 1 , or 2 ) and Number of DHCP Users ( 50 ) .	St
+1.2.7	That means it gives out addresses 192.168.X.100 to 192.168.X.149 .	St
+1.2.8	It is likely at 192.168.X.1 ( can be seen under Status ) for LAN port .	St
+1.2.9	So you need to set the Belkin LAN to something like 192.168.X.2 for LAN port ( do n't care about WAN - your not going to use it ) .	St
+1.2.10	Reset the Belkin and it should work ( my Netgear did ) .	St
+1.2.11	If not you may need a reversing cable between LANs ( One of the four the Linksys LAN ports to one of the four Belkin LAN ports ) you do n't use the WAN at all , turning off DHCP pretty much disabled it .	St
+1.3.1	What can be used for the connection between the main router and the new access point ?	Ques
+1.3.2	I know you said they can be hardwired from LAN port to LAN port .	St
+1.3.3	That makes perfect sense .	Polite
+1.3.4	Can the new access point be connected to the router wirelessly ?	Ques
+1.3.5	eg.. Router to new access point on 'x ' channel , and access point to computers on 'z ' channel .	St
+1.3.6	I have never tried adding a new access point or had the need to .	St
+1.3.7	I have always be curious about how it would work .	St
+1.3.8	Thanks , Bruce .	St
+1.4.1	As far as I know this would be a rare thing , there are routers designed as expansion types , but this would slow the flow and cause problems with most normal routers .	St
+1.4.2	There are also ethernet through wiring units that might be used to make it easier with the wired method .	St
+1.4.3	Things are still evolving in both ethernet and wireless .	St
+1.4.4	Ethernet as it was is one the way out being slowly replaced with the optical version at 1G+ speeds .	St
+1.4.5	The newer multi-channeled routers might do this well , but I do n't have one or the need at the moment .	St

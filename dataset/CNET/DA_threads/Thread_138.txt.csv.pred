@@ -1,47 +1,47 @@
-1.1.1	I'm trying to rebuild a 486DX4/100.	St
-1.1.2	It was working in it's old case, but the power supply fan had stopped, plus the case was huge & ugly.	St
-1.1.3	The power supply looked like a big job to swap over, as it is soldered to the switches etc... (I have another 486 for parts) so I decided to carefully put the working one into the other case with the functional (and newer) power supply.	St
-1.1.4	All seemed to go well untill I booted up, ... the drives spin up but that's all.	St
+1.1.1	I 'm trying to rebuild a 486DX4/100 .	St
+1.1.2	It was working in it 's old case , but the power supply fan had stopped , plus the case was huge & ugly .	St
+1.1.3	The power supply looked like a big job to swap over , as it is soldered to the switches etc ... ( I have another 486 for parts ) so I decided to carefully put the working one into the other case with the functional ( and newer ) power supply .	St
+1.1.4	All seemed to go well untill I booted up , ... the drives spin up but that 's all .	St
 1.1.5	Nothing !	St
-1.1.6	not even 'post' or any beeps.	St
-1.1.7	I've re-checked the ribbon cables, tried other cables, re-checked plug/socket connection .... what have I missed It is a 'no name' motherboard with an Intel DX40DPR100 (overdrive) CPU, & ALi M1487B1 & M1489A1 chips.	St
-1.1.8	16MB fast page ram, 4 PCI slots (one with the video card) and two Hard drives.	St
-1.1.9	All is as it was when it was working in the old case, apart from the power supply (old one was 150 watt/ new one 200 watt) any ideas out there ?	Ques
-1.2.1	disconnect the harddrives/cdrom/floppy disk from the motherboard (just pull off the cable) and remove the power connectors from those devices.	St
-1.2.2	Now remove any PCI cards (sound and modem, but leave the video if it's not 'onboard type).	St
-1.2.3	Disconnect the mouse and the keyboard for now as well.	St
-1.2.4	This way you only have the power supply, the ram, the cpu/hsf and the video card to mess with for troubleshooting purposes.	St
-1.2.5	The fewer players in the game the easier it is to figure out where the problem lies.	St
-1.2.6	The fact that you get no beeps may not mean much...I've personally had two motherboards (one was from an older 486-DX4-100 system) that never beeped in its life.	St
-1.2.7	Now......check the power switch connector that goes from the front button to the motherboard to make sure you have it connected correctly (assuming it is already or it wouldn't turn on, but I usually start there).	St
-1.2.8	If the now check the fans.....the powersupply is running?	St
-1.2.9	The HSF on top of the CPU is running?	St
-1.2.10	Does the power supply you are using now have separate fan pins that connect to the motherboard that you may have forgotten to plug in?	St
-1.2.11	How about the HSF...is it plugged into the motherboard or does it use a power connector that connects to the power supply?	St
-1.2.12	If the fans are running, now check the RAM to make sure it's seated properly and in the right slot/bank.	St
-1.2.13	If it's in the right bank, try moving it back one bank in case the first bank has gone south on you....if RAM is EDO and in pairs, you will probably have to move the ram back two slots/banks to get the read correct.	St
-1.2.14	Almost last.....the CPU.....if it's getting too hot, the system will normally shut itself off to protect it (this is true of newer motherboards and not necessarily the older ones like you have though).	St
-1.2.15	If the CPU isn't in the proper pin alignment or isn't locked down with the small arm, nothing will happen with regard to being able to post the bios information.	St
-1.2.16	Check for seating (look for the triangle notched corner where the pins go into the holes and make sure you have it lined up right).	St
-1.2.17	Check for thermal paste between the CPU and the HSF on top of it.....if there isn't any or the sticky thermal tape is crapped out, overheating will happen in a matter of about two seconds flat.	St
-1.2.18	Last....recheck your mounting posts for the motherboard.	St
-1.2.19	One may not be correct and the board is shorting itself out.	St
-1.2.20	OK.....that's it for right now....post back and let us know what you've found.	St
-1.2.21	The older DX4-100 boards can be a bear at times, but once they are up and running, they were the workhorse of the motherboards and we should be so lucky that they build boards like that again (with today's goodies, of course).	St
+1.1.6	not even 'post ' or any beeps .	St
+1.1.7	I 've re-checked the ribbon cables , tried other cables , re-checked plug/socket connection ... . what have I missed It is a 'no name ' motherboard with an Intel DX40DPR100 ( overdrive ) CPU , & ALi M1487B1 & M1489A1 chips .	St
+1.1.8	16MB fast page ram , 4 PCI slots ( one with the video card ) and two Hard drives .	St
+1.1.9	All is as it was when it was working in the old case , apart from the power supply ( old one was 150 watt/ new one 200 watt ) any ideas out there ?	Ques
+1.2.1	disconnect the harddrives/cdrom/floppy disk from the motherboard ( just pull off the cable ) and remove the power connectors from those devices .	St
+1.2.2	Now remove any PCI cards ( sound and modem , but leave the video if it 's not 'onboard type ) .	St
+1.2.3	Disconnect the mouse and the keyboard for now as well .	St
+1.2.4	This way you only have the power supply , the ram , the cpu/hsf and the video card to mess with for troubleshooting purposes .	St
+1.2.5	The fewer players in the game the easier it is to figure out where the problem lies .	St
+1.2.6	The fact that you get no beeps may not mean much ... I 've personally had two motherboards ( one was from an older 486-DX4-100 system ) that never beeped in its life .	St
+1.2.7	Now ... ... check the power switch connector that goes from the front button to the motherboard to make sure you have it connected correctly ( assuming it is already or it would n't turn on , but I usually start there ) .	Sug
+1.2.8	If the now check the fans ... ..the powersupply is running ?	Ques
+1.2.9	The HSF on top of the CPU is running ?	Ques
+1.2.10	Does the power supply you are using now have separate fan pins that connect to the motherboard that you may have forgotten to plug in ?	Ques
+1.2.11	How about the HSF ... is it plugged into the motherboard or does it use a power connector that connects to the power supply ?	Ques
+1.2.12	If the fans are running , now check the RAM to make sure it 's seated properly and in the right slot/bank .	St
+1.2.13	If it 's in the right bank , try moving it back one bank in case the first bank has gone south on you ... .if RAM is EDO and in pairs , you will probably have to move the ram back two slots/banks to get the read correct .	St
+1.2.14	Almost last ... ..the CPU ... ..if it 's getting too hot , the system will normally shut itself off to protect it ( this is true of newer motherboards and not necessarily the older ones like you have though ) .	St
+1.2.15	If the CPU is n't in the proper pin alignment or is n't locked down with the small arm , nothing will happen with regard to being able to post the bios information .	St
+1.2.16	Check for seating ( look for the triangle notched corner where the pins go into the holes and make sure you have it lined up right ) .	St
+1.2.17	Check for thermal paste between the CPU and the HSF on top of it ... ..if there is n't any or the sticky thermal tape is crapped out , overheating will happen in a matter of about two seconds flat .	St
+1.2.18	Last ... .recheck your mounting posts for the motherboard .	St
+1.2.19	One may not be correct and the board is shorting itself out .	St
+1.2.20	OK ... ..that 's it for right now ... .post back and let us know what you 've found .	St
+1.2.21	The older DX4-100 boards can be a bear at times , but once they are up and running , they were the workhorse of the motherboards and we should be so lucky that they build boards like that again ( with today 's goodies , of course ) .	St
 1.2.22	TONI	St
-1.3.1	thanks Toni Power switch is connected , goes direct from front panel to power supply, so was never touched.	Polite
-1.3.2	Power supply fan is running / no fan on CPU, only heat sink.	St
-1.3.3	Ram is front page, and in same position as when it was functioning.	St
-1.3.4	There is power to the M/Board ( I checked by plugging an LED into power connection pins I found) Mounting posts are OK, not shorting.	St
-1.3.5	I pulled out ram and disconnected IDE cables and floppy drive, booted again but stil no 'POST' and there won't be any system beep because I found the speaker is not wired.	St
-1.4.1	so please do not take this wrong.	Sug
-1.4.2	The power connectors to the mobo for an AT system can be plugged in backwards.	St
-1.4.3	They get plugged in so that the black wires in each half are adjacent to each other.	St
-1.4.4	Can't think of anything else.	St
-1.4.5	The wires from the supply to the front switch are actually the 120 volt AC power to the switch [if 4 wires it includes the neutrals [returns].	St
-1.4.6	Thus the power supply can be truned on independent of correct wiring of anything else.	St
-1.5.1	no offence taken, ... the black wires are together.	St
-1.5.2	The front panel wires, HDD led,turbo led,reset led, turbo switch, reset switch, are not connected ... will this make a difference?	St
-1.5.3	if so I don't know where to put them.	St
-1.5.4	I need to know what motherboard I have(it's not on it)and without a bios code at boot, can't think how to ID it.	St
-1.5.5	thanks for your help anyway, it's just a proccess of elimination I guess.	Polite
+1.3.1	thanks Toni Power switch is connected , goes direct from front panel to power supply , so was never touched .	St
+1.3.2	Power supply fan is running / no fan on CPU , only heat sink .	St
+1.3.3	Ram is front page , and in same position as when it was functioning .	St
+1.3.4	There is power to the M/Board ( I checked by plugging an LED into power connection pins I found ) Mounting posts are OK , not shorting .	St
+1.3.5	I pulled out ram and disconnected IDE cables and floppy drive , booted again but stil no 'POST ' and there wo n't be any system beep because I found the speaker is not wired .	St
+1.4.1	so please do not take this wrong .	Sug
+1.4.2	The power connectors to the mobo for an AT system can be plugged in backwards .	St
+1.4.3	They get plugged in so that the black wires in each half are adjacent to each other .	St
+1.4.4	Ca n't think of anything else .	St
+1.4.5	The wires from the supply to the front switch are actually the 120 volt AC power to the switch [ if 4 wires it includes the neutrals [ returns ] .	St
+1.4.6	Thus the power supply can be truned on independent of correct wiring of anything else .	St
+1.5.1	no offence taken , ... the black wires are together .	St
+1.5.2	The front panel wires , HDD led , turbo led , reset led , turbo switch , reset switch , are not connected ... will this make a difference ?	Ques
+1.5.3	if so I do n't know where to put them .	St
+1.5.4	I need to know what motherboard I have ( it 's not on it ) and without a bios code at boot , ca n't think how to ID it .	St
+1.5.5	thanks for your help anyway , it 's just a proccess of elimination I guess .	Polite

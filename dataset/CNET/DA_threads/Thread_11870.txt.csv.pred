@@ -1,32 +1,32 @@
-1.1.1	Is it possible to access a computer from another computer with using telnet and that both computers are connected to internet using 2 usb dongles??	St
-1.1.2	my purpose is remotly access one computer which has hardware(a home automation embedded device) that connect with serial port.	St
+1.1.1	Is it possible to access a computer from another computer with using telnet and that both computers are connected to internet using 2 usb dongles ? ?	Ques
+1.1.2	my purpose is remotly access one computer which has hardware ( a home automation embedded device ) that connect with serial port .	St
 1.1.3	that computer also has telnet server which respond to that hardware..	St
-1.1.4	I used other computer's windows telnet client to acces..	St
-1.1.5	I tried access using first computr's(hardware connected) private IP(ipconfig shown) and public IP(get from googled &quot;show my ip&quot;) .. but i couldn't connect.	St
-1.1.6	(but i can work device properly using one computer and through it's own telnet client) how to do that without router or any other thing.	St
+1.1.4	I used other computer 's windows telnet client to acces..	St
+1.1.5	I tried access using first computr 's ( hardware connected ) private IP ( ipconfig shown ) and public IP ( get from googled & quot ; show my ip & quot ; ) .. but i could n't connect .	St
+1.1.6	( but i can work device properly using one computer and through it 's own telnet client ) how to do that without router or any other thing .	St
 1.1.7	pls help me..	Sug
-1.2.1	Your stock OSes don't have a telnet server so there is nothing for telnet to connect to.	St
-1.2.2	You claim that the PC has a telnet server but how did you configure said server to be reachable via the internet?	St
-1.2.3	I don't see where you put this PC in to the DMZ or tried your hand at port forwarding on the router.	St
+1.2.1	Your stock OSes do n't have a telnet server so there is nothing for telnet to connect to .	St
+1.2.2	You claim that the PC has a telnet server but how did you configure said server to be reachable via the internet ?	Ques
+1.2.3	I do n't see where you put this PC in to the DMZ or tried your hand at port forwarding on the router .	St
 1.2.4	Bob	St
-1.3.1	ok thanks Bob, my device has telnet server software(wrtten in vb6).	Polite
-1.3.2	it can access succesfully using assigned port number and IP address(ipconfig shown when i connect internet through dongle ) at same computer.	St
-1.3.3	i dont knw about DMZ.	St
-1.3.4	pls look at following steps, 1.when we connect another computer's telnet server software through public internet,and that computer should belong to some network.	Sug
-1.3.5	2. that computer's ethernet port should have private range ip like 192.168.10.3 3. that whole network has one ip which should be public ip(in router 120.10.10.5 23 or some thing) and that ip connect with internet.	St
-1.3.6	4. when we access from internet that 192.168.10.3 computer and port 23, we should go that network's public Ip address(120.10.10.5 23 ) and that router should forward my access to that 192.168.10.3 computer's port 23.	St
-1.3.7	5. when we enter telnet client that 120.10.10.5 23, how that router forword my request to 192.168.10.3 23computer..// pls expalin this scenario..... thank you.	St
-1.4.1	But you can put the server PC IP address into the DMZ on the router.	St
-1.4.2	I can't write at length about what is a single sentence and a single router entry.	St
-1.4.3	If you need more about the ROUTER DMZ then you hit the usual search engine as anything I would write is there.	St
-1.4.4	Port forwarding is quite a bit of setup.	St
-1.4.5	I can't teach that here.	St
-1.4.6	The owner must dive in with more research as its setup varies with the router so again, it's back to the owner.	St
-1.4.7	They must be comfortable with doing this since they get to support it.	St
+1.3.1	ok thanks Bob , my device has telnet server software ( wrtten in vb6 ) .	Polite
+1.3.2	it can access succesfully using assigned port number and IP address ( ipconfig shown when i connect internet through dongle ) at same computer .	St
+1.3.3	i dont knw about DMZ .	St
+1.3.4	pls look at following steps , 1.when we connect another computer 's telnet server software through public internet , and that computer should belong to some network .	Sug
+1.3.5	2. that computer 's ethernet port should have private range ip like 192.168.10.3 3. that whole network has one ip which should be public ip ( in router 120.10.10.5 23 or some thing ) and that ip connect with internet .	St
+1.3.6	4. when we access from internet that 192.168.10.3 computer and port 23 , we should go that network 's public Ip address ( 120.10.10.5 23 ) and that router should forward my access to that 192.168.10.3 computer 's port 23 .	St
+1.3.7	5. when we enter telnet client that 120.10.10.5 23 , how that router forword my request to 192.168.10.3 23computer..// pls expalin this scenario ... .. thank you .	St
+1.4.1	But you can put the server PC IP address into the DMZ on the router .	St
+1.4.2	I ca n't write at length about what is a single sentence and a single router entry .	St
+1.4.3	If you need more about the ROUTER DMZ then you hit the usual search engine as anything I would write is there .	St
+1.4.4	Port forwarding is quite a bit of setup .	St
+1.4.5	I ca n't teach that here .	St
+1.4.6	The owner must dive in with more research as its setup varies with the router so again , it 's back to the owner .	St
+1.4.7	They must be comfortable with doing this since they get to support it .	St
 1.4.8	Bob	St
-1.5.1	Sorry I see where I didn't write which to use.	St
-1.5.2	You use one or the other.	St
-1.5.3	DMZ is a snap as it's one entry and we are done as the PC is now getting all incoming requests.	St
-1.5.4	Port Forwarding is safer in my opinion but some owners are not network proficient so we start with the DMZ for them.	St
+1.5.1	Sorry I see where I did n't write which to use .	St
+1.5.2	You use one or the other .	St
+1.5.3	DMZ is a snap as it 's one entry and we are done as the PC is now getting all incoming requests .	St
+1.5.4	Port Forwarding is safer in my opinion but some owners are not network proficient so we start with the DMZ for them .	St
 1.5.5	Bob	St
 1.6.1	NIL	St

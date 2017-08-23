@@ -1,21 +1,21 @@
-1.1.1	I have a Windows ME computer, a Windows XP computer, and an HP6840 printer on a wired network through a LinkSys router.	St
-1.1.2	The IP addresses change from day to day (I don't know why this happens), and I think this is interfering with the XP's ability to print to the printer, since it is unable to do so.	St
-1.1.3	The ME prints through the network just fine.	St
-1.1.4	The horrible tech service people at HP had indicated the need to have a static IP address for the 2 computers and the printer, but everytime I talk to them, I get someone who wants to start the whole trouble-shooting process all over from the beginning.	St
-1.1.5	Bottom line: how do I set my IP addresses for the 2 computers and the printer as static IP's?	Ques
-1.1.6	Thanks!	St
+1.1.1	I have a Windows ME computer , a Windows XP computer , and an HP6840 printer on a wired network through a LinkSys router .	St
+1.1.2	The IP addresses change from day to day ( I do n't know why this happens ) , and I think this is interfering with the XP 's ability to print to the printer , since it is unable to do so .	St
+1.1.3	The ME prints through the network just fine .	St
+1.1.4	The horrible tech service people at HP had indicated the need to have a static IP address for the 2 computers and the printer , but everytime I talk to them , I get someone who wants to start the whole trouble-shooting process all over from the beginning .	St
+1.1.5	Bottom line : how do I set my IP addresses for the 2 computers and the printer as static IP 's ?	Ques
+1.1.6	Thanks !	St
 1.1.7	Joe	St
-1.2.1	directly to a computer and then set to be shared, static IP addressing is not needed.	St
-1.2.2	Put the printer on a print server device, and then static addressing is necessary.	St
-1.2.3	Basically your router is DHCP enabled and is handing out IP addresses as each computer comes on line.	St
-1.2.4	This system will work fine for network printing if the printer is attached locally (to a PC).	St
-1.3.1	There a few items to be aware of.	St
-1.3.2	DHCP is designed to never change your IP address as long as the device never turns off.	St
-1.3.3	It all tied to the IP lease time.	St
-1.3.4	The easiest way to fix all the issues would be (if you can) set the lease to very very long interval, like 30 days.	St
-1.3.5	Thats not the best way.	St
-1.3.6	I didn't look up the router( though i did look up the printer...nice)so I don't kow if you can do tjis with it, but there may aslo be an IP reservation setting were you look at the current IPs installed and then tell the dhpc server that those ips are tied to the MAC addresses of those devices and to always give them those ips.	St
-1.3.7	I am big fan of reserved leases since you leverage both the strength of static IPs with the versitility of a single point of management via DHCP.	St
-1.3.8	Now for static.	St
-1.3.9	***USE a private ip adress range, usually 192.168.x**** To set your printer up with a staic IP addres see this article.	St
-1.3.10	http://h10025.www1.hp.com/ewfrf/wc/document?dlc=en&lc=en&product=385458&lang=en&cc=us&docname=c00202841# To set a windows pc static http://www.homenethelp.com/web/howto/static-ip-address.asp	St
+1.2.1	directly to a computer and then set to be shared , static IP addressing is not needed .	St
+1.2.2	Put the printer on a print server device , and then static addressing is necessary .	St
+1.2.3	Basically your router is DHCP enabled and is handing out IP addresses as each computer comes on line .	St
+1.2.4	This system will work fine for network printing if the printer is attached locally ( to a PC ) .	St
+1.3.1	There a few items to be aware of .	St
+1.3.2	DHCP is designed to never change your IP address as long as the device never turns off .	St
+1.3.3	It all tied to the IP lease time .	St
+1.3.4	The easiest way to fix all the issues would be ( if you can ) set the lease to very very long interval , like 30 days .	St
+1.3.5	Thats not the best way .	St
+1.3.6	I did n't look up the router ( though i did look up the printer ... nice ) so I do n't kow if you can do tjis with it , but there may aslo be an IP reservation setting were you look at the current IPs installed and then tell the dhpc server that those ips are tied to the MAC addresses of those devices and to always give them those ips .	St
+1.3.7	I am big fan of reserved leases since you leverage both the strength of static IPs with the versitility of a single point of management via DHCP .	St
+1.3.8	Now for static .	St
+1.3.9	***USE a private ip adress range , usually 192.168.x**** To set your printer up with a staic IP addres see this article .	St
+1.3.10	http : //h10025.www1.hp.com/ewfrf/wc/document ? dlc=en & lc=en & product=385458 & lang=en & cc=us & docname=c00202841 # To set a windows pc static http : //www.homenethelp.com/web/howto/static-ip-address.asp	St

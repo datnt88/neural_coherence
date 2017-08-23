@@ -1,48 +1,48 @@
-1.1.1	Hi!	St
-1.1.2	Recently I added a HD to my PC running WinXPSP2, formatted by WinXP and installed as primary slave.	St
-1.1.3	When I turn the PC ON, the driver is not shown, only C: and D: are indicated (primay master) but primary slave does not.	St
-1.1.4	If I restart the system the slave disk shows up and works normally.	St
-1.1.5	When I turn the system OFF and them ON again the slave is again missing, once again to see the slave drive I have to restart the system one more time.	St
-1.1.6	Any suggestion?	St
-1.2.1	Some outdated BIOS do just that.	St
-1.2.2	You can see the BIOS not detect the drive.	St
+1.1.1	Hi !	St
+1.1.2	Recently I added a HD to my PC running WinXPSP2 , formatted by WinXP and installed as primary slave .	St
+1.1.3	When I turn the PC ON , the driver is not shown , only C : and D : are indicated ( primay master ) but primary slave does not .	St
+1.1.4	If I restart the system the slave disk shows up and works normally .	St
+1.1.5	When I turn the system OFF and them ON again the slave is again missing , once again to see the slave drive I have to restart the system one more time .	St
+1.1.6	Any suggestion ?	Ques
+1.2.1	Some outdated BIOS do just that .	St
+1.2.2	You can see the BIOS not detect the drive .	St
 1.2.3	Bob	St
-1.3.1	During startup BIOS indicates 0MB Mode 0 in Primary Slave, but also indicates &quot;SPD ON Module(s): YES&quot;.	St
-1.3.2	After restart BIOS identify the Drive correctly but the SPD module is still indicated.	St
-1.3.3	This indication does not appear in Primary master.	St
+1.3.1	During startup BIOS indicates 0MB Mode 0 in Primary Slave , but also indicates & quot ; SPD ON Module ( s ) : YES & quot ; .	St
+1.3.2	After restart BIOS identify the Drive correctly but the SPD module is still indicated .	St
+1.3.3	This indication does not appear in Primary master .	St
 1.3.4	Both units have the same capacity and are from the same manufacturer	St
-1.4.1	&quot; During startup BIOS indicates 0MB Mode 0 in Primary Slave,&quot; 0MB and Mode 0 is a gimme that the drive was not detected proper.	St
-1.4.2	Let's go to the basics?	Sug
-1.4.3	1.	St
-1.4.4	80 Conductor IDE cable?	St
-1.4.5	2.	St
-1.4.6	Drive set to Cable Select?	St
-1.4.7	3.	St
-1.4.8	Bios for the motherboard is latest?	St
+1.4.1	& quot ; During startup BIOS indicates 0MB Mode 0 in Primary Slave , & quot ; 0MB and Mode 0 is a gim me that the drive was not detected proper .	St
+1.4.2	Let 's go to the basics ?	Ques
+1.4.3	1 .	St
+1.4.4	80 Conductor IDE cable ?	Ques
+1.4.5	2 .	St
+1.4.6	Drive set to Cable Select ?	Ques
+1.4.7	3 .	St
+1.4.8	Bios for the motherboard is latest ?	Ques
 1.4.9	Bob	St
-1.5.1	Thank you Bob.	St
-1.5.2	Yes I have a 80 conductor IDE cable.	St
-1.5.3	Drive is set as Slave (no jumps) About the Bios it has not been changed since I own the PC.	St
-1.5.4	It is a Sony desktop I acquired erly 2002.	St
-1.5.5	Do I have to upgrade it?	St
-1.5.6	Sony never mentioned it.	St
-1.5.7	Do I have to ask Sony for it?	St
-1.5.8	Please advise me.	Sug
-1.6.1	It's new wiring and I've run into where it makes a difference...	St
-1.6.2	Since the jumper is wrong, then I'd do that first.	St
-1.6.3	Reference at http://www.pcguide.com/ref/hdd/if/ide/confCS-c.html Bob	St
-1.7.1	1.	St
-1.7.2	Check set-up configuration during start up, are the Primary and Secondary Masters and Slaves set to auto?	St
-1.7.3	2.	St
-1.7.4	Are you using the same IDE socket for both or on separate IDE sockets?	St
-1.7.5	3.	St
-1.7.6	Check mother board manual to know how many primaries and slaves can be attached to it.	St
-1.7.7	4.	St
-1.7.8	Check IDE connector cables and connection if the connector is properly seated to the IDE sockets or the drives.	St
-1.7.9	5.	St
-1.7.10	Try changing or exchanging the IDE cables, one connector may had been damaged due to age or heat inside the CPU housing.	St
-1.8.1	&quot;Mode 0 in Primary Slave&quot; Would indicate Slave is on Primary IDE channel being reconized as master.	St
-1.8.2	Cable from M/Bs' primary IDE channel -&gt; middle connector to slave -&gt; end connector to Master.	St
-1.8.3	Jumpered slave/master, going to totally disagree with cable connect.	St
-1.8.4	Unless one drive has extended partitions and correct cable is used.	St
+1.5.1	Thank you Bob .	St
+1.5.2	Yes I have a 80 conductor IDE cable .	St
+1.5.3	Drive is set as Slave ( no jumps ) About the Bios it has not been changed since I own the PC .	St
+1.5.4	It is a Sony desktop I acquired erly 2002 .	St
+1.5.5	Do I have to upgrade it ?	Ques
+1.5.6	Sony never mentioned it .	St
+1.5.7	Do I have to ask Sony for it ?	Ques
+1.5.8	Please advise me .	Sug
+1.6.1	It 's new wiring and I 've run into where it makes a difference ...	St
+1.6.2	Since the jumper is wrong , then I 'd do that first .	St
+1.6.3	Reference at http : //www.pcguide.com/ref/hdd/if/ide/confCS-c.html Bob	St
+1.7.1	1 .	St
+1.7.2	Check set-up configuration during start up , are the Primary and Secondary Masters and Slaves set to auto ?	Ques
+1.7.3	2 .	St
+1.7.4	Are you using the same IDE socket for both or on separate IDE sockets ?	Ques
+1.7.5	3 .	St
+1.7.6	Check mother board manual to know how many primaries and slaves can be attached to it .	St
+1.7.7	4 .	St
+1.7.8	Check IDE connector cables and connection if the connector is properly seated to the IDE sockets or the drives .	St
+1.7.9	5 .	St
+1.7.10	Try changing or exchanging the IDE cables , one connector may had been damaged due to age or heat inside the CPU housing .	St
+1.8.1	& quot ; Mode 0 in Primary Slave & quot ; Would indicate Slave is on Primary IDE channel being reconized as master .	St
+1.8.2	Cable from M/Bs ' primary IDE channel - & gt ; middle connector to slave - & gt ; end connector to Master .	St
+1.8.3	Jumpered slave/master , going to totally disagree with cable connect .	St
+1.8.4	Unless one drive has extended partitions and correct cable is used .	St
 1.8.5	Master will be device 0/ slave device 1 Bill	St

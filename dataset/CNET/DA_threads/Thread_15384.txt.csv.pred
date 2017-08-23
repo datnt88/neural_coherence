@@ -1,48 +1,48 @@
-1.1.1	I have been using a Western Digital WD1200JB 120 Gb hard drive as the boot drive on a system running Win98SE.	St
-1.1.2	The mobo is an ABIT VH7T.	St
-1.1.3	Recently the drive has been behaving oddly.	St
-1.1.4	If I perform a warm reboot using &quot;restart&quot;, the BIOS fails to detect the drive and I get a &quot;Failed Boot&quot; error.	St
-1.1.5	If I restart and open the BIOS and highlight the drive location, &quot;Auto&quot; does find the Drive and I save the BIOS configuration and the system successfully reboots.	St
-1.1.6	The BIOS never fails to detect the drive if the PC is restarted from a cold boot when the system has been powered off and then restarted.	St
-1.1.7	There is an additional drive (IBM 49Gb)attached to the same IDE port as a slave and it has never given any problem at all.	St
-1.1.8	Neither Norton Disk Doctor nor the Western Digital Diagnostic tools detect any problem with the device.	St
-1.1.9	I would appreciate any ideas anyone can provide on troubleshooting this issue.	Polite
-1.1.10	Thanks, Jim	St
-1.2.1	If you have not enabled floppy seek in the BIOS, enable it.	St
-1.2.2	What you need to do is &quot;stall&quot; for time during the reboot for the drive to come up to speed to be detected.	Ques
-1.2.3	Any delay in the boot sequence that you can add, that runs before it tries to find the drive could help.	St
-1.2.4	Although, I must admit that the problem usually happens during a cold rather than a warm boot if this is the cause.	St
-1.3.1	Thanks for the advice Ray, I'll give it a try and let you know if it helps.	St
+1.1.1	I have been using a Western Digital WD1200JB 120 Gb hard drive as the boot drive on a system running Win98SE .	St
+1.1.2	The mobo is an ABIT VH7T .	St
+1.1.3	Recently the drive has been behaving oddly .	St
+1.1.4	If I perform a warm reboot using & quot ; restart & quot ; , the BIOS fails to detect the drive and I get a & quot ; Failed Boot & quot ; error .	St
+1.1.5	If I restart and open the BIOS and highlight the drive location , & quot ; Auto & quot ; does find the Drive and I save the BIOS configuration and the system successfully reboots .	St
+1.1.6	The BIOS never fails to detect the drive if the PC is restarted from a cold boot when the system has been powered off and then restarted .	St
+1.1.7	There is an additional drive ( IBM 49Gb ) attached to the same IDE port as a slave and it has never given any problem at all .	St
+1.1.8	Neither Norton Disk Doctor nor the Western Digital Diagnostic tools detect any problem with the device .	St
+1.1.9	I would appreciate any ideas anyone can provide on troubleshooting this issue .	Polite
+1.1.10	Thanks , Jim	St
+1.2.1	If you have not enabled floppy seek in the BIOS , enable it .	St
+1.2.2	What you need to do is & quot ; stall & quot ; for time during the reboot for the drive to come up to speed to be detected .	Ques
+1.2.3	Any delay in the boot sequence that you can add , that runs before it tries to find the drive could help .	St
+1.2.4	Although , I must admit that the problem usually happens during a cold rather than a warm boot if this is the cause .	St
+1.3.1	Thanks for the advice Ray , I 'll give it a try and let you know if it helps .	St
 1.3.2	Jim	St
-1.4.1	I enabled Floppy seek on boot in the BIOS and it did not resolve the problem.	St
-1.4.2	Thanks for the suggestion, I'll keep pecking a way at it.	St
+1.4.1	I enabled Floppy seek on boot in the BIOS and it did not resolve the problem .	St
+1.4.2	Thanks for the suggestion , I 'll keep pecking a way at it .	St
 1.4.3	Jim	St
-1.5.1	Try reseating the IDE cable and power cable.	St
-1.5.2	The system can get &quot;stale&quot; either from hot/cold cycling.	St
-1.5.3	Try another IDE cable set as well if possible the cost is very low.	St
-1.5.4	Also, understand high density HDs when mounted too close together get the areal spacing whacked due to the heat build-up, its an after-effect from running a long time(usage).	St
-1.5.5	The Seagate HD could be heading to a failure so bck-up more often as a safety measure.	St
-1.5.6	Be prepared to use your warranty if under 3-5yrs(I forget).	St
-1.5.7	tada -----Willy	St
-1.6.1	Can you make it CD, then A, then C. This, of course is assuming that the problem is that the drive is not up to spped when it gets looked for.	St
-1.6.2	Are you using AUTO in the BIOS as the detection method?	St
-1.6.3	That means that it gets searched for at each boot, but possibly if you have the parameters set, they are not exactly correct.	St
-1.6.4	I could never get any drive to detect showing the parameters that the vendors sheet gave.	St
-1.6.5	One parameter was always different than given by the mfr.	St
-1.6.6	Not the same parameter for each drive type.	St
-1.6.7	I must admit that I can't understand, why a drive that had been running would be slow to come up again.	St
-1.6.8	Do you have a reset switch??	St
-1.6.9	Try that to see if it makes a difference.	St
-1.7.1	My boot sequence is A then C the CD.	St
-1.7.2	I'll try changing it.	Sug
-1.7.3	I did find that if I perform the detection in Auto, it accurately detects the parameters.	St
-1.7.4	I then switched to manually locking in the detected parameters.	St
-1.7.5	So far that seems to work.	St
-1.7.6	Thanks, Jim	St
-1.8.1	I finally found and corrected the problem.	St
-1.8.2	It seems there was an intermittently defective IDE cable.	St
-1.8.3	I replaced the IDE cable and everything works perfectly now.	St
-1.8.4	The drives are autodetected normally in BIOS and no more problems.	St
-1.8.5	Simply replacing the old cable with a new one did the trick.	St
-1.8.6	Thanks for all the responses and suggestions.	St
+1.5.1	Try reseating the IDE cable and power cable .	St
+1.5.2	The system can get & quot ; stale & quot ; either from hot/cold cycling .	St
+1.5.3	Try another IDE cable set as well if possible the cost is very low .	St
+1.5.4	Also , understand high density HDs when mounted too close together get the areal spacing whacked due to the heat build-up , its an after-effect from running a long time ( usage ) .	St
+1.5.5	The Seagate HD could be heading to a failure so bck-up more often as a safety measure .	St
+1.5.6	Be prepared to use your warranty if under 3-5yrs ( I forget ) .	St
+1.5.7	tada -- -- -Willy	St
+1.6.1	Can you make it CD , then A , then C. This , of course is assuming that the problem is that the drive is not up to spped when it gets looked for .	St
+1.6.2	Are you using AUTO in the BIOS as the detection method ?	Ques
+1.6.3	That means that it gets searched for at each boot , but possibly if you have the parameters set , they are not exactly correct .	St
+1.6.4	I could never get any drive to detect showing the parameters that the vendors sheet gave .	St
+1.6.5	One parameter was always different than given by the mfr .	St
+1.6.6	Not the same parameter for each drive type .	St
+1.6.7	I must admit that I ca n't understand , why a drive that had been running would be slow to come up again .	St
+1.6.8	Do you have a reset switch ? ?	Ques
+1.6.9	Try that to see if it makes a difference .	St
+1.7.1	My boot sequence is A then C the CD .	St
+1.7.2	I 'll try changing it .	St
+1.7.3	I did find that if I perform the detection in Auto , it accurately detects the parameters .	St
+1.7.4	I then switched to manually locking in the detected parameters .	St
+1.7.5	So far that seems to work .	St
+1.7.6	Thanks , Jim	St
+1.8.1	I finally found and corrected the problem .	St
+1.8.2	It seems there was an intermittently defective IDE cable .	St
+1.8.3	I replaced the IDE cable and everything works perfectly now .	St
+1.8.4	The drives are autodetected normally in BIOS and no more problems .	St
+1.8.5	Simply replacing the old cable with a new one did the trick .	St
+1.8.6	Thanks for all the responses and suggestions .	St
 1.8.7	Jim	St

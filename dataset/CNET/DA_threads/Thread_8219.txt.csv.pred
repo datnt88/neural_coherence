@@ -1,25 +1,25 @@
-1.1.1	Hi all, I just assembly a new PC with dual processor to run 3DS Max but the render speed is almost the same with my old i5 PC, any idea what go wrong?	St
-1.1.2	please see below the specification of both pc: New PC Processor: Dual Xeon E5606 2.13GHz (4 core) Mother board: Asus server board Z8NA-D6 RAM: 6 nos of Kingston DDR 3 PC1333 4GB Graphic: Leadtek Winfast Nvidia Quadro 2000D 1GB Hardisk: Corsair 120GB Sata 3 force solid state (OS) + WD 1TB (data) Power: Seasonic 1050 watts X Series PSU OS: Windows 7 ultimate Programe: 3DS max Render time with 3DS max: 1 hour 37 mins Old PC Processor: i5-2300 2.8GHz (4 core) Mother board: Gigabyte GA81945P-G RAM: 3 nos of Kingston DDR 3 2GB Graphic: Gigabyte Nvidia Geforce GTS 450 1GB Hardisk: WD 1 TB Power: Don't know what model OS: Windows 7 ultimate Programe: 3DS max + other programs Render time with 3DS max: 1 hour 53 mins I can't believe that the difference in render time is only 16 min!!!	St
-1.1.3	Any thing go wrong with the hardware?	Sug
-1.1.4	Thanks a lot for your help!	St
+1.1.1	Hi all , I just assembly a new PC with dual processor to run 3DS Max but the render speed is almost the same with my old i5 PC , any idea what go wrong ?	Ques
+1.1.2	please see below the specification of both pc : New PC Processor : Dual Xeon E5606 2.13GHz ( 4 core ) Mother board : Asus server board Z8NA-D6 RAM : 6 nos of Kingston DDR 3 PC1333 4GB Graphic : Leadtek Winfast Nvidia Quadro 2000D 1GB Hardisk : Corsair 120GB Sata 3 force solid state ( OS ) + WD 1TB ( data ) Power : Seasonic 1050 watts X Series PSU OS : Windows 7 ultimate Programe : 3DS max Render time with 3DS max : 1 hour 37 mins Old PC Processor : i5-2300 2.8GHz ( 4 core ) Mother board : Gigabyte GA81945P-G RAM : 3 nos of Kingston DDR 3 2GB Graphic : Gigabyte Nvidia Geforce GTS 450 1GB Hardisk : WD 1 TB Power : Do n't know what model OS : Windows 7 ultimate Programe : 3DS max + other programs Render time with 3DS max : 1 hour 53 mins I ca n't believe that the difference in render time is only 16 min ! ! !	St
+1.1.3	Any thing go wrong with the hardware ?	Sug
+1.1.4	Thanks a lot for your help !	St
 1.1.5	!	St
-1.2.1	Years ago we had two identical machines.	St
-1.2.2	One had 512MB RAM and the other 1024MB RAM.	St
-1.2.3	Back then the render time was 6 hours on the 512MB RAM.	St
-1.2.4	We wondered what would happen if we ran the render on both machines then swapped RAM, did the test again and see the results.	St
-1.2.5	The results were identical on both machines with the results tracking the installed RAM.	St
-1.2.6	The machine with 512MB RAM rendered the work in 6 hours (almost exactly).	St
-1.2.7	The machine with 1024MB RAM finished 5 minutes earlier.	St
-1.2.8	For that time or year of the PC this showed the bottleneck was not in the RAM for this render.	St
-1.2.9	Fast forward to your machine.	St
-1.2.10	The faster machine was 16% faster which shows that the 31 percent faster clock rate wasn't directly affecting or a factor.	St
-1.2.11	Remember that I don't want to write that the i5 is only 2 cores with 4 threads dive into computer design.	St
-1.2.12	I won't do that here.	St
-1.2.13	--&gt; The results are as expected.	St
-1.2.14	If you wanted more payback you might have checked out transcoding using the GPU or asked if there was a way to be sure that all cores are at work.	St
-1.2.15	BEWARE that many CODECS will crash on multi-core, multi-thread calls so when that happens I can't help you as you must talk to the author/company of the CODEC.	St
-1.2.16	My answer?	St
-1.2.17	Yes.	St
-1.2.18	Seems right to me.	St
-1.2.19	In other words, nothing funky with those results.	St
+1.2.1	Years ago we had two identical machines .	St
+1.2.2	One had 512MB RAM and the other 1024MB RAM .	St
+1.2.3	Back then the render time was 6 hours on the 512MB RAM .	St
+1.2.4	We wondered what would happen if we ran the render on both machines then swapped RAM , did the test again and see the results .	St
+1.2.5	The results were identical on both machines with the results tracking the installed RAM .	St
+1.2.6	The machine with 512MB RAM rendered the work in 6 hours ( almost exactly ) .	St
+1.2.7	The machine with 1024MB RAM finished 5 minutes earlier .	St
+1.2.8	For that time or year of the PC this showed the bottleneck was not in the RAM for this render .	St
+1.2.9	Fast forward to your machine .	St
+1.2.10	The faster machine was 16 % faster which shows that the 31 percent faster clock rate was n't directly affecting or a factor .	St
+1.2.11	Remember that I do n't want to write that the i5 is only 2 cores with 4 threads dive into computer design .	St
+1.2.12	I wo n't do that here .	St
+1.2.13	-- & gt ; The results are as expected .	St
+1.2.14	If you wanted more payback you might have checked out transcoding using the GPU or asked if there was a way to be sure that all cores are at work .	St
+1.2.15	BEWARE that many CODECS will crash on multi-core , multi-thread calls so when that happens I ca n't help you as you must talk to the author/company of the CODEC .	St
+1.2.16	My answer ?	Ques
+1.2.17	Yes .	St
+1.2.18	Seems right to me .	St
+1.2.19	In other words , nothing funky with those results .	St
 1.2.20	Bob	St

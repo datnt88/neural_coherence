@@ -1,52 +1,52 @@
-1.1.1	For work I'm using a Dell Precision M90 notebook with a NVIDIA Quadro FX 2500m video card, and they just gave me a plug and play Acer V223W 22&quot; LCD monitor to use with it.	St
-1.1.2	In the display settings, the max 16:10 widescreen resolution is 1680x1050, with 1440x900 being the next step down.	St
-1.1.3	When I set the resolution to 1440x900, the display fits on the entire screen and is not distorted, but I want better resolution.	St
-1.1.4	When I switch to 1680x1050, the display fits vertically, but I lose some off the right edge of the monitor (the clock plus 1 tray icon).	St
-1.1.5	When I move the cursor over there, it slides into view, but pushes the left side of the display off the screen (so I can't see the &quot;start&quot; button).	St
-1.1.6	I've messed with the display settings in both the Windows interface and the NVIDIA controls, but I can't get it to fit.	St
-1.1.7	Why would two resolutions with the same aspect ratio (16:10) produce different results?	St
-1.1.8	Is there anything I haven't tried to adjust it?	St
-1.2.1	I'm having the same issue as the original poster.	St
-1.2.2	I'm using a Dell Vostro 1500 laptop running XP Pro with a NVIDiA GeForce 8600M GT graphics card.	St
-1.2.3	Trying to use the Acer V223w monitor for a dual display setup.	St
-1.2.4	Any ideas on what I can try?	St
-1.2.5	I've tweaked every setting I can find, using the monitor's button controls, Windows settings, and the included software, and nothing fixes the issue.	St
-1.2.6	Any help would be *greatly* appreciated!	St
+1.1.1	For work I 'm using a Dell Precision M90 notebook with a NVIDIA Quadro FX 2500m video card , and they just gave me a plug and play Acer V223W 22 & quot ; LCD monitor to use with it .	St
+1.1.2	In the display settings , the max 16:10 widescreen resolution is 1680x1050 , with 1440x900 being the next step down .	St
+1.1.3	When I set the resolution to 1440x900 , the display fits on the entire screen and is not distorted , but I want better resolution .	St
+1.1.4	When I switch to 1680x1050 , the display fits vertically , but I lose some off the right edge of the monitor ( the clock plus 1 tray icon ) .	St
+1.1.5	When I move the cursor over there , it slides into view , but pushes the left side of the display off the screen ( so I ca n't see the & quot ; start & quot ; button ) .	St
+1.1.6	I 've messed with the display settings in both the Windows interface and the NVIDIA controls , but I ca n't get it to fit .	St
+1.1.7	Why would two resolutions with the same aspect ratio ( 16:10 ) produce different results ?	Ques
+1.1.8	Is there anything I have n't tried to adjust it ?	Ques
+1.2.1	I 'm having the same issue as the original poster .	St
+1.2.2	I 'm using a Dell Vostro 1500 laptop running XP Pro with a NVIDiA GeForce 8600M GT graphics card .	St
+1.2.3	Trying to use the Acer V223w monitor for a dual display setup .	St
+1.2.4	Any ideas on what I can try ?	Ques
+1.2.5	I 've tweaked every setting I can find , using the monitor 's button controls , Windows settings , and the included software , and nothing fixes the issue .	St
+1.2.6	Any help would be *greatly* appreciated !	Polite
 1.3.1	Turn off laptop monitor if you are going to use external	St
-1.4.1	Since the laptop's running at 1680x1050, which is the native resolution of the auxiliary monitor, there shouldn't be a conflict, right?	St
-1.4.2	And the issue persists whether I am extending the desktop or using only the auxiliary monitor: The full frame of the screen is still partially lost.	St
-1.5.1	just as you want to sync the laptop and Acer.	St
-1.5.2	Premise1: Your laptop has a WSXGA+ (1680x1050) native display.	St
-1.5.3	Not just Windows setting at 1680x1050 but the panel itself has that native res.	St
-1.5.4	Premise2: &quot;using only the auxiliary monitor&quot; - means you toggled the display output to only the Acer so that laptop display is extinguished.	St
-1.5.5	Not just closing the laptop lid.	St
-1.5.6	Premise3: You set the Windows res of laptop at 1680x1050 @ 60 Hz and you set the Windows external res at 1680x1050 @ 60 Hz.	St
-1.5.7	Not different refresh rates.	St
-1.5.8	Premise4: Acer is hooked up to laptop's VGA port directly.	St
-1.5.9	Not thru some KVM.	St
-1.5.10	And you still have the problem?	St
-1.6.1	Premise 1: Correct - my laptop has native 1680x1050 resolution.	St
-1.6.2	Premise 2: Also correct - the laptop is set to display *only* on the Acer - totally blank screen on the laptop's display.	St
-1.6.3	Premise 3: Also correct - Windows res is set to 1680x1050 @60 Hz, external display res also set to those numbers.	St
-1.6.4	Premise 4: Correct.	St
-1.6.5	Acer is hooked up directly to laptop's VGA port.	St
-1.6.6	No intermediary devices.	St
-1.6.7	And yes, I'm still losing about 1/8 of the screen (i.e.	St
-1.6.8	what should be displayed) on the Acer.	St
-1.6.9	Other steps I have taken: 1) Used the Acer's &quot;auto&quot; function to sync with laptop.	St
-1.6.10	Result: Still missing 1/8 of the screen.	St
-1.6.11	2) Installed and updated monitor management software (Acer Desktop Management) that came with the Acer.	St
-1.6.12	I did not do this initially because I wanted to the use the monitor as a simple plug-n-play.	St
-1.6.13	Result: Still missing 1/8 of the screen.	St
-1.6.14	3) Manually adjusted the horizontal position of the screen so that it is as far to the right on the display as possible.	St
-1.6.15	Result: gains a small portion of the &quot;missing&quot; part of the screen, but still missing a significant part.	St
-1.6.16	Hope this gives you a better idea of what's going on.	St
-1.6.17	I'll post a photo, if that would help...	Sug
-1.7.1	I looked at Acer spec and it didn't show VESA DDC or PnP.	St
-1.7.2	One has to assume these stds exist in all modern monitors, but you should verify with Acer.	St
-1.7.3	Ensure nVidia (Dell) drivers are up-to-date.	St
-1.7.4	Lastly, take your laptop to a store and hook up to other monitors of same res.	St
-1.8.1	I took the monitor and my laptop in to the local store where I purchased the monitor, and one of the guys there did say that there had been issues with this particular monitor and some video cards.	St
-1.8.2	Apparently systems with some ATI cards have the same problem that I had.	St
-1.8.3	I just returned the Acer and tested, then purchased, a Viewsonic instead.	St
-1.8.4	Thanks for your input, Samkh.	St
+1.4.1	Since the laptop 's running at 1680x1050 , which is the native resolution of the auxiliary monitor , there should n't be a conflict , right ?	Ques
+1.4.2	And the issue persists whether I am extending the desktop or using only the auxiliary monitor : The full frame of the screen is still partially lost .	St
+1.5.1	just as you want to sync the laptop and Acer .	St
+1.5.2	Premise1 : Your laptop has a WSXGA+ ( 1680x1050 ) native display .	St
+1.5.3	Not just Windows setting at 1680x1050 but the panel itself has that native res .	St
+1.5.4	Premise2 : & quot ; using only the auxiliary monitor & quot ; - means you toggled the display output to only the Acer so that laptop display is extinguished .	St
+1.5.5	Not just closing the laptop lid .	St
+1.5.6	Premise3 : You set the Windows res of laptop at 1680x1050 @ 60 Hz and you set the Windows external res at 1680x1050 @ 60 Hz .	St
+1.5.7	Not different refresh rates .	St
+1.5.8	Premise4 : Acer is hooked up to laptop 's VGA port directly .	St
+1.5.9	Not thru some KVM .	St
+1.5.10	And you still have the problem ?	Ques
+1.6.1	Premise 1 : Correct - my laptop has native 1680x1050 resolution .	St
+1.6.2	Premise 2 : Also correct - the laptop is set to display *only* on the Acer - totally blank screen on the laptop 's display .	St
+1.6.3	Premise 3 : Also correct - Windows res is set to 1680x1050 @ 60 Hz , external display res also set to those numbers .	St
+1.6.4	Premise 4 : Correct .	St
+1.6.5	Acer is hooked up directly to laptop 's VGA port .	St
+1.6.6	No intermediary devices .	St
+1.6.7	And yes , I 'm still losing about 1/8 of the screen ( i.e .	St
+1.6.8	what should be displayed ) on the Acer .	St
+1.6.9	Other steps I have taken : 1 ) Used the Acer 's & quot ; auto & quot ; function to sync with laptop .	St
+1.6.10	Result : Still missing 1/8 of the screen .	St
+1.6.11	2 ) Installed and updated monitor management software ( Acer Desktop Management ) that came with the Acer .	St
+1.6.12	I did not do this initially because I wanted to the use the monitor as a simple plug-n-play .	St
+1.6.13	Result : Still missing 1/8 of the screen .	St
+1.6.14	3 ) Manually adjusted the horizontal position of the screen so that it is as far to the right on the display as possible .	St
+1.6.15	Result : gains a small portion of the & quot ; missing & quot ; part of the screen , but still missing a significant part .	St
+1.6.16	Hope this gives you a better idea of what 's going on .	St
+1.6.17	I 'll post a photo , if that would help ...	St
+1.7.1	I looked at Acer spec and it did n't show VESA DDC or PnP .	St
+1.7.2	One has to assume these stds exist in all modern monitors , but you should verify with Acer .	St
+1.7.3	Ensure nVidia ( Dell ) drivers are up-to-date .	St
+1.7.4	Lastly , take your laptop to a store and hook up to other monitors of same res .	St
+1.8.1	I took the monitor and my laptop in to the local store where I purchased the monitor , and one of the guys there did say that there had been issues with this particular monitor and some video cards .	St
+1.8.2	Apparently systems with some ATI cards have the same problem that I had .	St
+1.8.3	I just returned the Acer and tested , then purchased , a Viewsonic instead .	St
+1.8.4	Thanks for your input , Samkh .	St

@@ -1,45 +1,45 @@
-1.1.1	I'm trying to instal a new IDE drive in my computer.	St
-1.1.2	The idea was to replace an 80GB drive with a 320GB Maxtor Diamond Max 21 drive (both IDE).	St
-1.1.3	On installation the computer failed to see either drive and now will see one or the other but only as a slave drive.	St
-1.1.4	Seeing only one drive is not a problem, I'm quite happy to just have the one HDD, I just thought I might as well use the old one as I had it.	St
-1.1.5	I've set the jumpers on the drives to CS and used the correct connector on the IDE cable (both as one drive and also with both connected up).	St
-1.1.6	I've tried connecting using a different cable.	St
-1.1.7	I've then tried installing a single drive setting the jumpers to the Master position and tried both connectors on the cable.	St
-1.1.8	Whatever I've tried, the computer either sees no drive or a slave drive.	St
-1.1.9	This is using the primary IDE connection.	St
-1.1.10	The secondary is set up with a DVD/ROM and a DVD/RW which have been working ok.	St
-1.1.11	They show as one master and one slave.	St
-1.1.12	Motherboard: Asus K8V SE Deluxe Any help getting this sorted will be greatly appreciated.	St
+1.1.1	I 'm trying to instal a new IDE drive in my computer .	St
+1.1.2	The idea was to replace an 80GB drive with a 320GB Maxtor Diamond Max 21 drive ( both IDE ) .	St
+1.1.3	On installation the computer failed to see either drive and now will see one or the other but only as a slave drive .	St
+1.1.4	Seeing only one drive is not a problem , I 'm quite happy to just have the one HDD , I just thought I might as well use the old one as I had it .	St
+1.1.5	I 've set the jumpers on the drives to CS and used the correct connector on the IDE cable ( both as one drive and also with both connected up ) .	St
+1.1.6	I 've tried connecting using a different cable .	St
+1.1.7	I 've then tried installing a single drive setting the jumpers to the Master position and tried both connectors on the cable .	St
+1.1.8	Whatever I 've tried , the computer either sees no drive or a slave drive .	St
+1.1.9	This is using the primary IDE connection .	St
+1.1.10	The secondary is set up with a DVD/ROM and a DVD/RW which have been working ok .	St
+1.1.11	They show as one master and one slave .	St
+1.1.12	Motherboard : Asus K8V SE Deluxe Any help getting this sorted will be greatly appreciated .	St
 1.1.13	jandss	St
-1.2.1	Did you try loading the BIOS defaults?	St
-1.2.2	And let's be clear that we don't bother with Windows until the BIOS sees it.	St
-1.3.1	I loaded the BIOS default settings but it didn't fix the problem - still showing the drive as primary slave.	St
+1.2.1	Did you try loading the BIOS defaults ?	Ques
+1.2.2	And let 's be clear that we do n't bother with Windows until the BIOS sees it .	Sug
+1.3.1	I loaded the BIOS default settings but it did n't fix the problem - still showing the drive as primary slave .	St
 1.3.2	jandss	St
-1.4.1	http://www.asus.com/products.aspx?modelmenu=2&model=235&l1=3&l2=14&l3=0 It is possible that one SATA port has something on it and the bios is set to EMULATE IDE which means we lose one IDE device.	St
-1.4.2	Reading page 89 of http://dlcdnet.asus.com/pub/ASUS/mb/sock754/k8v_se_dx/e1491_k8v_se_deluxe.pdf I'd want the SATA boot rom disabled, the IDE raid too.	St
+1.4.1	http : //www.asus.com/products.aspx ? modelmenu=2 & model=235 & l1=3 & l2=14 & l3=0 It is possible that one SATA port has something on it and the bios is set to EMULATE IDE which means we lose one IDE device .	St
+1.4.2	Reading page 89 of http : //dlcdnet.asus.com/pub/ASUS/mb/sock754/k8v_se_dx/e1491_k8v_se_deluxe.pdf I 'd want the SATA boot rom disabled , the IDE raid too .	St
 1.4.3	Do not use the PRI_RAID connection you see on Page 2-23 and page	St
-1.5.1	OnChip SATA Bootrom and Onboard Promise Controller after having reset to default settings.	St
-1.5.2	The cable is connected to the drive using the end connector (black) and the jumpers are set to CS in accordance with the picture on the drive and the Maxtor website.	St
-1.5.3	The computer is still registering the drive as Primary IDE Slave.	St
-1.6.1	Are you using the 80 conductor cables?	St
-1.6.2	Since you are not using SATA devices I'd disable that and the RAID in the bios to avoid that issue about IDE emulation or where some of these boards (badly documented!)	St
-1.6.3	reserve the Primary IDE Master to the IDE or SATA RAID port.	St
-1.6.4	Why it does that is a very long explanation which I'll not be doing in this small space.	St
+1.5.1	OnChip SATA Bootrom and Onboard Promise Controller after having reset to default settings .	St
+1.5.2	The cable is connected to the drive using the end connector ( black ) and the jumpers are set to CS in accordance with the picture on the drive and the Maxtor website .	St
+1.5.3	The computer is still registering the drive as Primary IDE Slave .	St
+1.6.1	Are you using the 80 conductor cables ?	Ques
+1.6.2	Since you are not using SATA devices I 'd disable that and the RAID in the bios to avoid that issue about IDE emulation or where some of these boards ( badly documented ! )	St
+1.6.3	reserve the Primary IDE Master to the IDE or SATA RAID port .	St
+1.6.4	Why it does that is a very long explanation which I 'll not be doing in this small space .	St
 1.6.5	Bob	St
-1.7.1	Also I've just tried a different cable again to be on the safe side.	St
-1.7.2	However, I've just found that the system time has zeroed.	St
-1.7.3	If the CMOS battery needs changing would that cause this problem?	St
-1.8.1	It won't help having it fail during this.	St
-1.9.1	I rebooted, reset the BIOS as per above postings and drive still shows as Pri Slave.	St
-1.10.1	The board has failed or we still got the cable and jumpers wrong.	St
-1.10.2	Here's how I test.	St
-1.10.3	I put the cable on the second IDE port and see if it goes master.	St
-1.10.4	If so, bad board.	Polite
-1.10.5	If not, I did the cable, jumper or drive wrong.	St
+1.7.1	Also I 've just tried a different cable again to be on the safe side .	St
+1.7.2	However , I 've just found that the system time has zeroed .	St
+1.7.3	If the CMOS battery needs changing would that cause this problem ?	Ques
+1.8.1	It wo n't help having it fail during this .	St
+1.9.1	I rebooted , reset the BIOS as per above postings and drive still shows as Pri Slave .	St
+1.10.1	The board has failed or we still got the cable and jumpers wrong .	St
+1.10.2	Here 's how I test .	St
+1.10.3	I put the cable on the second IDE port and see if it goes master .	St
+1.10.4	If so , bad board .	St
+1.10.5	If not , I did the cable , jumper or drive wrong .	St
 1.10.6	Bob	St
-1.11.1	I followed your suggestion for checking that the problem didn't lie with the board so after that I went back to square one.	St
-1.11.2	Redid all the jumpers on both the old and new drives and it now sees both correctly.	St
-1.11.3	Many thanks for your help.	Polite
-1.11.4	It may have been a stupid mistake on my part, but at least it showed up the failing CMOS battery when the computer was opened up.	St
+1.11.1	I followed your suggestion for checking that the problem did n't lie with the board so after that I went back to square one .	St
+1.11.2	Redid all the jumpers on both the old and new drives and it now sees both correctly .	St
+1.11.3	Many thanks for your help .	Polite
+1.11.4	It may have been a stupid mistake on my part , but at least it showed up the failing CMOS battery when the computer was opened up .	St
 1.11.5	Sue	St
-1.12.1	Sometimes we have to step back and make another run at these things.	St
+1.12.1	Sometimes we have to step back and make another run at these things .	St

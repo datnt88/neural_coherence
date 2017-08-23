@@ -1,34 +1,34 @@
-1.1.1	My question is about how to get my os to boot properly.	St
-1.1.2	i have a maxtor 60gb sata that my os is installed on, and i have a 160 gb western digital ide hdd.	St
-1.1.3	after installing the second drive i started getting an error when i start my computer that says: &quot;Disk Boot Failure; Insert System Disk and Press Enter&quot;.	St
-1.1.4	i can instert a system disk and press enter, and get the same error... however if i insert a system disk and reset my comp, then wait for the &quot;press any key to boot from cd&quot; message to pass, my computer will boot just fine(only if i have the windows install disk in the drive).	St
-1.1.5	to top all of this off, i'm getting an automatic check disk on drive C (not the drive my os is on) just before my computer finnishes loading windows.	St
-1.1.6	the message tells me that there are &quot;inconsistancies&quot; on drive c. if i cancel this check disk it continues just fine with no errors, but if i let the check disk commence, it takes almost a full hour to check drive c, and then i get system hang when it finally logs into windows.	St
-1.1.7	my specs are listed below... thanks in advance for any help.	Polite
-1.1.8	nathan mobo: LanParty UT nf4 sli-dr cpu: AMD Athlon 64FX 57 ram: 2g ultra pc 3200 ddr (1024 x 2) hdd: Maxtor 60G SATA (6Y060M0) Western digital 160g ATA100 (WD1600LB) os: Windows XP Pro (SP2) P.S.	St
-1.1.9	this is the first time i have used sata... i am CLUELESS as to how to properly set a sata disk as the o.s.	St
-1.1.10	disk, and NO, i did not get a cd of apps and drivers with my sata drive(it was from tigerdirect, and was a refurbished drive)	St
-1.2.1	Your issue is simply that Microsoft's XP SP2 does not install of SATA without a lot of help from the person that installs this OS.	St
-1.2.2	I don't tell how to install XP since there are thousands of web sites about that so let's go quickly over the basics.	St
-1.2.3	We boot the XP SP2 CD and have the SATA drivers handy on diskette.	St
-1.2.4	At some point we tap one of the F keys to tell XP's installer we will supply drivers that Microsoft doesn't put on their CD.	St
-1.2.5	After all that we have a working install but with out of date drivers and possibly no sound, internet or such.	St
-1.2.6	We get to install a potload of drivers.	St
-1.2.7	If this is an add on drive and not a boot drive, then you need to check your boot order in the BIOS.	St
+1.1.1	My question is about how to get my os to boot properly .	St
+1.1.2	i have a maxtor 60gb sata that my os is installed on , and i have a 160 gb western digital ide hdd .	St
+1.1.3	after installing the second drive i started getting an error when i start my computer that says : & quot ; Disk Boot Failure ; Insert System Disk and Press Enter & quot ; .	St
+1.1.4	i can instert a system disk and press enter , and get the same error ... however if i insert a system disk and reset my comp , then wait for the & quot ; press any key to boot from cd & quot ; message to pass , my computer will boot just fine ( only if i have the windows install disk in the drive ) .	St
+1.1.5	to top all of this off , i 'm getting an automatic check disk on drive C ( not the drive my os is on ) just before my computer finnishes loading windows .	St
+1.1.6	the message tells me that there are & quot ; inconsistancies & quot ; on drive c. if i cancel this check disk it continues just fine with no errors , but if i let the check disk commence , it takes almost a full hour to check drive c , and then i get system hang when it finally logs into windows .	St
+1.1.7	my specs are listed below ... thanks in advance for any help .	Polite
+1.1.8	nathan mobo : LanParty UT nf4 sli-dr cpu : AMD Athlon 64FX 57 ram : 2g ultra pc 3200 ddr ( 1024 x 2 ) hdd : Maxtor 60G SATA ( 6Y060M0 ) Western digital 160g ATA100 ( WD1600LB ) os : Windows XP Pro ( SP2 ) P.S .	St
+1.1.9	this is the first time i have used sata ... i am CLUELESS as to how to properly set a sata disk as the o.s .	St
+1.1.10	disk , and NO , i did not get a cd of apps and drivers with my sata drive ( it was from tigerdirect , and was a refurbished drive )	St
+1.2.1	Your issue is simply that Microsoft 's XP SP2 does not install of SATA without a lot of help from the person that installs this OS .	St
+1.2.2	I do n't tell how to install XP since there are thousands of web sites about that so let 's go quickly over the basics .	St
+1.2.3	We boot the XP SP2 CD and have the SATA drivers handy on diskette .	St
+1.2.4	At some point we tap one of the F keys to tell XP 's installer we will supply drivers that Microsoft does n't put on their CD .	St
+1.2.5	After all that we have a working install but with out of date drivers and possibly no sound , internet or such .	St
+1.2.6	We get to install a potload of drivers .	St
+1.2.7	If this is an add on drive and not a boot drive , then you need to check your boot order in the BIOS .	St
 1.2.8	Bob	St
-1.3.1	ok, well first off, this is a boot drive, and i have been in the bios so many times i damn neer have EVERY setting memorized by now.	St
-1.3.2	as for installing drivers... i've already got windows and a butload of other programs installed, so is there a way to install the necessary drivers without re-installing windows?	St
-1.3.3	my biggest problem with installing drivers during windows install is that of my 4 computers, i don't have one single opperational floppy drive, much less any disks to put the files on.	St
+1.3.1	ok , well first off , this is a boot drive , and i have been in the bios so many times i damn neer have EVERY setting memorized by now .	St
+1.3.2	as for installing drivers ... i 've already got windows and a butload of other programs installed , so is there a way to install the necessary drivers without re-installing windows ?	Ques
+1.3.3	my biggest problem with installing drivers during windows install is that of my 4 computers , i do n't have one single opperational floppy drive , much less any disks to put the files on .	St
 1.3.4	thanks for the info bob	Polite
-1.4.1	If you can burn a CD, there are instructions for slipstreaming the driver into your copy of XP.	St
-1.4.2	Google: xp slipstream sata driver - or - Google: xp unattended install sata driver ALTERNATIVES: - borrow a floppy drive just for the installation - cannabalize old computer for a floppy drive - buy an internal floppy drive (USD$6 +SH) - buy a nice external USB 2.0 floppy drive (very handy) MY PREFERENCE: Beg, borrow, or buy a floppy drive	St
-1.5.1	...Windows XP is already installed, then you don't need a floppy drive.	St
-1.5.2	Just download the proper driver (check for a non-floppy versoin) and install it.	St
-1.6.1	That some systems force us to supply the SATA drivers on diskette.	St
-1.6.2	Next year Microsoft promises to fix that but only in Vista.	St
-1.6.3	As to the issue of moving the OS or such, that's another lacking area.	St
-1.6.4	You can attempt a repair install and follow the usual steps needed to make the OS install proper.	Sug
-1.6.5	Microsoft has shown no mercy in that &quot;keep my old programs&quot; issue.	St
-1.6.6	There appears to be no plans for that in Vista as well.	St
-1.6.7	I think it's an antipiracy ploy.	St
+1.4.1	If you can burn a CD , there are instructions for slipstreaming the driver into your copy of XP .	St
+1.4.2	Google : xp slipstream sata driver - or - Google : xp unattended install sata driver ALTERNATIVES : - borrow a floppy drive just for the installation - cannabalize old computer for a floppy drive - buy an internal floppy drive ( USD $ 6 +SH ) - buy a nice external USB 2.0 floppy drive ( very handy ) MY PREFERENCE : Beg , borrow , or buy a floppy drive	St
+1.5.1	... Windows XP is already installed , then you do n't need a floppy drive .	St
+1.5.2	Just download the proper driver ( check for a non-floppy versoin ) and install it .	St
+1.6.1	That some systems force us to supply the SATA drivers on diskette .	St
+1.6.2	Next year Microsoft promises to fix that but only in Vista .	St
+1.6.3	As to the issue of moving the OS or such , that 's another lacking area .	St
+1.6.4	You can attempt a repair install and follow the usual steps needed to make the OS install proper .	Sug
+1.6.5	Microsoft has shown no mercy in that & quot ; keep my old programs & quot ; issue .	St
+1.6.6	There appears to be no plans for that in Vista as well .	St
+1.6.7	I think it 's an antipiracy ploy .	St
 1.6.8	Bob	St

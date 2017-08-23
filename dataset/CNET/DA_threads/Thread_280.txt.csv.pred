@@ -1,81 +1,81 @@
-1.1.1	Hi, We are having this Deauth and Deassoc flood attacks, and we have also identified that the attacks are coming from the clients themselves.	St
-1.1.2	Example, a client will suddenly start broacasting on the same channel as an AP.	St
-1.1.3	Eventually the AP will be jammed and all clients will be disconnected.	St
-1.1.4	It is like a script running on the machines and it has distributed to several of the clients: The summary is like this: Spoof Mac, construct de-authenticate, de-assoc, packet, send to BROADCAST address.	St
-1.1.5	Bam!The network crashes.	St
-1.1.6	It broadcast with this SSID &quot;InterTocuh GHM Lobby&quot; Any idea of how to remove this?	St
-1.1.7	It has made life unbearable.	St
-1.1.8	AP is dLink DWL-3200.	St
-1.1.9	Clients are XP, Vista and windows 7.	St
-1.1.10	Thanks.	St
-1.2.1	The usual attack software SPOOFS who is doing the attack so you are never sure it is the clients since they can be spoofed.	St
-1.2.2	Usually easy to fix by moving to WPA2.	St
+1.1.1	Hi , We are having this Deauth and Deassoc flood attacks , and we have also identified that the attacks are coming from the clients themselves .	St
+1.1.2	Example , a client will suddenly start broacasting on the same channel as an AP .	St
+1.1.3	Eventually the AP will be jammed and all clients will be disconnected .	St
+1.1.4	It is like a script running on the machines and it has distributed to several of the clients : The summary is like this : Spoof Mac , construct de-authenticate , de-assoc , packet , send to BROADCAST address .	St
+1.1.5	Bam ! The network crashes .	St
+1.1.6	It broadcast with this SSID & quot ; InterTocuh GHM Lobby & quot ; Any idea of how to remove this ?	Ques
+1.1.7	It has made life unbearable .	St
+1.1.8	AP is dLink DWL-3200 .	St
+1.1.9	Clients are XP , Vista and windows 7 .	St
+1.1.10	Thanks .	Polite
+1.2.1	The usual attack software SPOOFS who is doing the attack so you are never sure it is the clients since they can be spoofed .	St
+1.2.2	Usually easy to fix by moving to WPA2 .	St
 1.2.3	Bob	St
-1.3.1	Thanks for your prompt response.	Polite
-1.3.2	We am convinced it is coming from the clients.	St
-1.3.3	Here is scenario: We have 3 APs and all will be working fine, suddenly the wireless manager will show a peer 2 peer device with SSID &quot;InterTouch GHM Lobby&quot; broadcasting at the same frequency as the APs.	St
-1.3.4	At that instant, the associated clients will loose connections.	St
-1.3.5	Now, here is what we did: The &quot;InterTouch GHM Lobby&quot; SSID shows with the signal strenght.	St
-1.3.6	So we used a laptop to trace it until the signal strenght was 100% (it was another laptop).	St
-1.3.7	We shut the laptop down, and the SSID disappeared.	St
-1.3.8	After a while, it came up again and we traced it like before and it landed on another laptop.	St
-1.3.9	As soon as we shut it down, it diappeared.	St
-1.3.10	Out Theory: It seems the DoS attack is running like a script.	St
-1.3.11	It started perhaps with one of the clients, but now has disbritued to other clients (we have counted about 5 so far out of 20 systems).	St
-1.3.12	How do we detect and remove it from the laptops?	Ques
-1.3.13	Can an Antivirus do it?	St
-1.3.14	What is the approach to stopping it from repeating?	Ques
-1.3.15	Thanks a million.	St
-1.4.1	I thought we covered this but if your security is WEP or less the spoofing makes it so you think the attack is from your own clients.	St
-1.4.2	I read your post and reply and can't see where you reveal the WIFI security.	St
-1.4.3	If there is some pest on the machines, then you remove that.	St
-1.4.4	It's that simple.	St
-1.4.5	As this company has IT staff you instruct them to do that and if they don't you get them to call the antivirus company, get help or get better IT staff.	St
+1.3.1	Thanks for your prompt response .	St
+1.3.2	We am convinced it is coming from the clients .	St
+1.3.3	Here is scenario : We have 3 APs and all will be working fine , suddenly the wireless manager will show a peer 2 peer device with SSID & quot ; InterTouch GHM Lobby & quot ; broadcasting at the same frequency as the APs .	St
+1.3.4	At that instant , the associated clients will loose connections .	St
+1.3.5	Now , here is what we did : The & quot ; InterTouch GHM Lobby & quot ; SSID shows with the signal strenght .	St
+1.3.6	So we used a laptop to trace it until the signal strenght was 100 % ( it was another laptop ) .	St
+1.3.7	We shut the laptop down , and the SSID disappeared .	St
+1.3.8	After a while , it came up again and we traced it like before and it landed on another laptop .	St
+1.3.9	As soon as we shut it down , it diappeared .	St
+1.3.10	Out Theory : It seems the DoS attack is running like a script .	St
+1.3.11	It started perhaps with one of the clients , but now has disbritued to other clients ( we have counted about 5 so far out of 20 systems ) .	St
+1.3.12	How do we detect and remove it from the laptops ?	Ques
+1.3.13	Can an Antivirus do it ?	Ques
+1.3.14	What is the approach to stopping it from repeating ?	Ques
+1.3.15	Thanks a million .	St
+1.4.1	I thought we covered this but if your security is WEP or less the spoofing makes it so you think the attack is from your own clients .	St
+1.4.2	I read your post and reply and ca n't see where you reveal the WIFI security .	St
+1.4.3	If there is some pest on the machines , then you remove that .	St
+1.4.4	It 's that simple .	St
+1.4.5	As this company has IT staff you instruct them to do that and if they do n't you get them to call the antivirus company , get help or get better IT staff .	St
 1.4.6	Bob	St
-1.5.1	Thanks once more and thanks for your patience.	Polite
-1.5.2	I understand they dont have WEP on the APs.	St
-1.5.3	I will make sure they do that asap (infact today.	Sug
-1.5.4	Yet, on the clients being involved: I have the following questions, 1.	St
-1.5.5	As it is possible for DoS to be luanched from say a laptop, I used signal strenght to trace the source of the &quot;InterTouch GHM Lobby&quot; SSID to a particular laptop (which is part of the network).	St
-1.5.6	The attack was stopped when I shutdown the laptop.	St
-1.5.7	My conclusion was not based on the MAC address, but based on the 100% signal strenght traced to that particular laptop at that time.	St
-1.5.8	My question is this?	St
-1.5.9	Does the spoofing mean that the signal will appear to be coming from the PHYSICAL LOCATION of the client?	St
-1.5.10	If yes, then that might be it.	St
-1.5.11	If no, then we still got problems.	St
-1.5.12	Also, can the everyday antivirus softwares like Karpasky detect and remove DoS Trojans?	St
-1.5.13	Thanks once more for every of your assistance.	St
-1.5.14	Sincerely, Cosmas	St
-1.6.1	WEP or less means that the SPOOF (did you notice the SPOOF in your first post?	St
-1.6.2	I did!)	St
-1.6.3	can lead you you to think that YOUR clients are at fault.	St
-1.6.4	The fix is easy and that is to move to WPA.	St
-1.6.5	1.	St
-1.6.6	YES.	St
-1.6.7	2.	St
-1.6.8	Spoofing is just that.	St
-1.6.9	I can't duplicate the web content or write a paper about this here.	St
-1.6.10	The reason is simple.	St
-1.6.11	I type my replies and the content is out there for the taking.	St
-1.6.12	3.	St
-1.6.13	Since the wifi is insecure there are easy, kid friendly softwares that can cause this issue and make it look like it's the company machines.	St
-1.6.14	Sadly this many replies and it looks like we are where we started.	St
-1.6.15	Is it possible to share what security is in place?	Ques
-1.6.16	Also, the forum advises AGAINST SSID names like that.	St
-1.6.17	If you go against that advice I tend to get a little deaf.	St
-1.6.18	This is not that I don't care, but having solved too many systems with this issue it seems like it's easier to wait for the user/owner to soften up so they are more receptive to the forum sticky advice.	St
-1.6.19	Again, let's hope securing the wifi with WPA helps.	St
-1.6.20	Again, the forum sticky has this advice if you need more.	St
+1.5.1	Thanks once more and thanks for your patience .	Polite
+1.5.2	I understand they dont have WEP on the APs .	St
+1.5.3	I will make sure they do that asap ( infact today .	St
+1.5.4	Yet , on the clients being involved : I have the following questions , 1 .	St
+1.5.5	As it is possible for DoS to be luanched from say a laptop , I used signal strenght to trace the source of the & quot ; InterTouch GHM Lobby & quot ; SSID to a particular laptop ( which is part of the network ) .	St
+1.5.6	The attack was stopped when I shutdown the laptop .	St
+1.5.7	My conclusion was not based on the MAC address , but based on the 100 % signal strenght traced to that particular laptop at that time .	St
+1.5.8	My question is this ?	Ques
+1.5.9	Does the spoofing mean that the signal will appear to be coming from the PHYSICAL LOCATION of the client ?	Ques
+1.5.10	If yes , then that might be it .	Res
+1.5.11	If no , then we still got problems .	St
+1.5.12	Also , can the everyday antivirus softwares like Karpasky detect and remove DoS Trojans ?	Ques
+1.5.13	Thanks once more for every of your assistance .	St
+1.5.14	Sincerely , Cosmas	St
+1.6.1	WEP or less means that the SPOOF ( did you notice the SPOOF in your first post ?	Ques
+1.6.2	I did ! )	St
+1.6.3	can lead you you to think that YOUR clients are at fault .	St
+1.6.4	The fix is easy and that is to move to WPA .	St
+1.6.5	1 .	St
+1.6.6	YES .	St
+1.6.7	2 .	St
+1.6.8	Spoofing is just that .	St
+1.6.9	I ca n't duplicate the web content or write a paper about this here .	St
+1.6.10	The reason is simple .	St
+1.6.11	I type my replies and the content is out there for the taking .	St
+1.6.12	3 .	St
+1.6.13	Since the wifi is insecure there are easy , kid friendly softwares that can cause this issue and make it look like it 's the company machines .	St
+1.6.14	Sadly this many replies and it looks like we are where we started .	St
+1.6.15	Is it possible to share what security is in place ?	Ques
+1.6.16	Also , the forum advises AGAINST SSID names like that .	St
+1.6.17	If you go against that advice I tend to get a little deaf .	St
+1.6.18	This is not that I do n't care , but having solved too many systems with this issue it seems like it 's easier to wait for the user/owner to soften up so they are more receptive to the forum sticky advice .	St
+1.6.19	Again , let 's hope securing the wifi with WPA helps .	St
+1.6.20	Again , the forum sticky has this advice if you need more .	St
 1.6.21	Bob	St
-1.7.1	Dear Bob, Thanks a million.	St
-1.7.2	The problem now is that they are using dLink DAP-3220 and DWL-3200, both have the WAP ability, but they require a Radius Server: They dont have a Radius Server for now.	St
-1.7.3	Is there a Radius Server software that can work on windows xp?	St
-1.7.4	I have googled with luck.	St
+1.7.1	Dear Bob , Thanks a million .	St
+1.7.2	The problem now is that they are using dLink DAP-3220 and DWL-3200 , both have the WAP ability , but they require a Radius Server : They dont have a Radius Server for now .	St
+1.7.3	Is there a Radius Server software that can work on windows xp ?	Ques
+1.7.4	I have googled with luck .	St
 1.7.5	Thanks	Polite
-1.8.1	Then no radius server.	St
-1.8.2	This should be in the forum sticky.	St
-1.8.3	But many try the option that requires the server.	St
-1.8.4	I can't know why.	St
-1.8.5	Be careful in our acronym use.	St
-1.8.6	WAP means something other than WPA.	St
+1.8.1	Then no radius server .	St
+1.8.2	This should be in the forum sticky .	St
+1.8.3	But many try the option that requires the server .	St
+1.8.4	I ca n't know why .	St
+1.8.5	Be careful in our acronym use .	St
+1.8.6	WAP means something other than WPA .	St
 1.8.7	Bob	St

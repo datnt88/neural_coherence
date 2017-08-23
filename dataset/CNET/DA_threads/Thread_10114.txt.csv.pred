@@ -1,52 +1,52 @@
-1.1.1	Note: This is an educational exercise but it's still important to me.	St
-1.1.2	I am trying to learn something about networking by examining my home network and it's not going well.	St
-1.1.3	If anyone can help me get past my immediate problem, I will be very grateful.	St
-1.1.4	I have the following configuration: computer | hub_1 &lt;--- Point_A | wireless router | hub_2 &lt;--- Point_B | cable_modem | the_world wireless router = Netgear MR814 wireless router cable modem = Motorola SURFboard cable modem hubs = BlackBox 8 port hubs (i.e.	St
-1.1.5	real hubs, not switches).	St
-1.1.6	Please note that everything works correctly.	St
-1.1.7	The problem is my understanding of how it works.	St
-1.1.8	When I put a sniffer (a packet grabber) at &quot;Point_A&quot;, I can see all the packets in both directions.	St
-1.1.9	I see pings, ARPs, DNS requests and TCP and UDP traffic.	St
-1.1.10	Everything looks great.	St
-1.1.11	When I put the sniffer at &quot;Point_B&quot;, I see thousands of ARP broadcast requests and an occasional DHCP broadcast.	St
-1.1.12	What I don't see is any other traffic.	St
-1.1.13	No IP packets at all.	St
-1.1.14	I successfully went to several web sites and still no packets were captured from those sites.	St
-1.1.15	Why not?	St
-1.1.16	There are no filters on the sniffer.	St
-1.1.17	The same setting that works fine at Point_A is the one used at Point_B.	St
-1.1.18	The sniffer does not show any errors, like runts, CRCs, collisions, fragments, etc.	St
-1.1.19	So the question is, why am I not able to see all the packets at Point_B?	St
-1.1.20	(To anticipate a question, I do know the difference in a &quot;hub&quot; and a &quot;switch&quot; and my hubs are really hubs (i.e.	St
-1.1.21	simple repeaters).)	St
-1.1.22	Second question: I know the MAC address of the SURFboard cable modem.	St
-1.1.23	That is not the address on the ARP packets.	St
-1.1.24	I thought the cable modem was my interface to the world and my router would be talking to it at the Ethernet level.	St
-1.1.25	That's clearly not the case.	St
-1.1.26	What's going on?	St
-1.1.27	Thanks for any guidance you can provide.	St
-1.2.1	What are the IP's of the outside interface of the router and your &quot;point B&quot;?	St
-1.2.2	You'll need point B to be on the same public network as the outside router interface.	St
-1.2.3	Hope that helps...	St
-1.3.1	Thank you for the reply and suggestion.	St
-1.3.2	I know the router's WAN address because I can display the assigned address (DHCP).	St
-1.3.3	I know another address which is the default gateway provided which is probably the other end.	St
-1.3.4	However, I didn't think I needed to get an address on that network because I am only sniffing packets and not (I hope) transmitting anything.	St
-1.3.5	I should be able to grab packets passively without actually having a valid IP address.	St
-1.3.6	Good news.	St
-1.3.7	Problem solved.	St
-1.3.8	(And I'm embarrassed.)	St
-1.3.9	The problem was with the monitoring PC.	St
-1.3.10	It was running a firewall.	St
-1.3.11	Since I was seeing ARPs and DHCP traffic and not running any filters, I thought I was getting everything.	St
-1.3.12	The firewall (ZoneAlarm) was allowing the ARPs, etc through but blocking all the TCP and UDP packets.	St
-1.3.13	By lowering the security on the firewall, I was able to see everything.	St
-1.3.14	From this first attempt to look at the packets between the router and cable modem, I can see this educational exercise is going to significantly difficult.	St
-1.3.15	(At least for me.	St
-1.3.16	I spent days getting past a firewall problem!)	St
-1.3.17	I didn't recognize much of anything in the 200MB I've looked at so far.	St
-1.3.18	This education is going to be time comsuming.	St
-1.4.1	I'm glad you have the problem solved.	St
-1.4.2	Since you're running a Windows based OS, winpcap will allow sniffing without having an assigned IP.	St
-1.4.3	ZoneAlarn had/has a log parser too which was free to analyze the log output.	St
-1.4.4	This may help too.	St
+1.1.1	Note : This is an educational exercise but it 's still important to me .	St
+1.1.2	I am trying to learn something about networking by examining my home network and it 's not going well .	St
+1.1.3	If anyone can help me get past my immediate problem , I will be very grateful .	St
+1.1.4	I have the following configuration : computer | hub_1 & lt ; -- - Point_A | wireless router | hub_2 & lt ; -- - Point_B | cable_modem | the_world wireless router = Netgear MR814 wireless router cable modem = Motorola SURFboard cable modem hubs = BlackBox 8 port hubs ( i.e .	St
+1.1.5	real hubs , not switches ) .	St
+1.1.6	Please note that everything works correctly .	St
+1.1.7	The problem is my understanding of how it works .	St
+1.1.8	When I put a sniffer ( a packet grabber ) at & quot ; Point_A & quot ; , I can see all the packets in both directions .	St
+1.1.9	I see pings , ARPs , DNS requests and TCP and UDP traffic .	St
+1.1.10	Everything looks great .	Polite
+1.1.11	When I put the sniffer at & quot ; Point_B & quot ; , I see thousands of ARP broadcast requests and an occasional DHCP broadcast .	St
+1.1.12	What I do n't see is any other traffic .	St
+1.1.13	No IP packets at all .	St
+1.1.14	I successfully went to several web sites and still no packets were captured from those sites .	St
+1.1.15	Why not ?	Ques
+1.1.16	There are no filters on the sniffer .	St
+1.1.17	The same setting that works fine at Point_A is the one used at Point_B .	St
+1.1.18	The sniffer does not show any errors , like runts , CRCs , collisions , fragments , etc .	St
+1.1.19	So the question is , why am I not able to see all the packets at Point_B ?	Ques
+1.1.20	( To anticipate a question , I do know the difference in a & quot ; hub & quot ; and a & quot ; switch & quot ; and my hubs are really hubs ( i.e .	St
+1.1.21	simple repeaters ) . )	St
+1.1.22	Second question : I know the MAC address of the SURFboard cable modem .	St
+1.1.23	That is not the address on the ARP packets .	St
+1.1.24	I thought the cable modem was my interface to the world and my router would be talking to it at the Ethernet level .	St
+1.1.25	That 's clearly not the case .	St
+1.1.26	What 's going on ?	Ques
+1.1.27	Thanks for any guidance you can provide .	St
+1.2.1	What are the IP 's of the outside interface of the router and your & quot ; point B & quot ; ?	Ques
+1.2.2	You 'll need point B to be on the same public network as the outside router interface .	St
+1.2.3	Hope that helps ...	St
+1.3.1	Thank you for the reply and suggestion .	St
+1.3.2	I know the router 's WAN address because I can display the assigned address ( DHCP ) .	St
+1.3.3	I know another address which is the default gateway provided which is probably the other end .	St
+1.3.4	However , I did n't think I needed to get an address on that network because I am only sniffing packets and not ( I hope ) transmitting anything .	St
+1.3.5	I should be able to grab packets passively without actually having a valid IP address .	St
+1.3.6	Good news .	St
+1.3.7	Problem solved .	St
+1.3.8	( And I 'm embarrassed . )	St
+1.3.9	The problem was with the monitoring PC .	St
+1.3.10	It was running a firewall .	St
+1.3.11	Since I was seeing ARPs and DHCP traffic and not running any filters , I thought I was getting everything .	St
+1.3.12	The firewall ( ZoneAlarm ) was allowing the ARPs , etc through but blocking all the TCP and UDP packets .	St
+1.3.13	By lowering the security on the firewall , I was able to see everything .	St
+1.3.14	From this first attempt to look at the packets between the router and cable modem , I can see this educational exercise is going to significantly difficult .	St
+1.3.15	( At least for me .	St
+1.3.16	I spent days getting past a firewall problem ! )	St
+1.3.17	I did n't recognize much of anything in the 200MB I 've looked at so far .	St
+1.3.18	This education is going to be time comsuming .	St
+1.4.1	I 'm glad you have the problem solved .	St
+1.4.2	Since you 're running a Windows based OS , winpcap will allow sniffing without having an assigned IP .	St
+1.4.3	ZoneAlarn had/has a log parser too which was free to analyze the log output .	St
+1.4.4	This may help too .	St

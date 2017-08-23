@@ -1,33 +1,33 @@
-1.1.1	My friend office have been setup using a WiFi for its network.	St
-1.1.2	Using SSID password and WEP as security, plus A MAC Address filter.	St
-1.1.3	Its works for all the employee... 8 of them, all using a laptop.	St
-1.1.4	Hardware are, Linksys WRT54G, windows XP pro-sp2.	St
-1.1.5	Problem is, the guess who bring their own laptop can not connect to the network and internet... unless someone type the SSID Password and inserting the Mac address manually in the router (but they don't have an IT guy...) Question is, How to give a guess an access to network/internet... (without changing the router configuration back and forth...) I thought of, having 2(TWO) Access Point, using different channel, but one of the AP is open (No security - but it will be turn ON/OFF as necessary) -- If this configuration is possible, can both AP (different channel) still share a file or printer?	St
+1.1.1	My friend office have been setup using a WiFi for its network .	St
+1.1.2	Using SSID password and WEP as security , plus A MAC Address filter .	St
+1.1.3	Its works for all the employee ... 8 of them , all using a laptop .	St
+1.1.4	Hardware are , Linksys WRT54G , windows XP pro-sp2 .	St
+1.1.5	Problem is , the guess who bring their own laptop can not connect to the network and internet ... unless someone type the SSID Password and inserting the Mac address manually in the router ( but they do n't have an IT guy ... ) Question is , How to give a guess an access to network/internet ... ( without changing the router configuration back and forth ... ) I thought of , having 2 ( TWO ) Access Point , using different channel , but one of the AP is open ( No security - but it will be turn ON/OFF as necessary ) -- If this configuration is possible , can both AP ( different channel ) still share a file or printer ?	Ques
 1.1.6	-- Any Information or idea is appreciated Thank You	Polite
-1.2.1	Can they share a file or printer?	St
-1.2.2	Yes.	St
-1.2.3	However, if you have an AP with no security, then you've opened up your network.	St
-1.2.4	Handing out your SSID and WEP keys to guest is not ideal either, from a security stand point.	St
-1.2.5	You could put a printer in the &quot;DMZ&quot; and have the guest come in on the DMZ side.	Sug
-1.2.6	Just keep in mind that any thing you allow guest to access from the DMZ, so can the rest of the world that is within RF range.	St
-1.2.7	So that makes file sharing a wee bit difficult.	St
-1.2.8	To keep the network secure, they will have to keep entering the MAC, WEP, and SSID.	St
-1.2.9	Scott http://www.AAApcMechanic.com	St
-1.3.1	With two different Channel, I can still share file and printer..	St
-1.3.2	Right?	St
-1.3.3	i.e.	St
-1.3.4	read/write and print to a laptop that connected in different channel.. As for security, like I mention in my post, the 'open wifi network' is turn off/on as needed (when a there is a guess) As for putting or letting the guess in DMZ zone, this involving AP/router configuration everytime a guess is coming.. correct?	St
+1.2.1	Can they share a file or printer ?	Ques
+1.2.2	Yes .	St
+1.2.3	However , if you have an AP with no security , then you 've opened up your network .	St
+1.2.4	Handing out your SSID and WEP keys to guest is not ideal either , from a security stand point .	St
+1.2.5	You could put a printer in the & quot ; DMZ & quot ; and have the guest come in on the DMZ side .	St
+1.2.6	Just keep in mind that any thing you allow guest to access from the DMZ , so can the rest of the world that is within RF range .	St
+1.2.7	So that makes file sharing a wee bit difficult .	St
+1.2.8	To keep the network secure , they will have to keep entering the MAC , WEP , and SSID .	St
+1.2.9	Scott http : //www.AAApcMechanic.com	St
+1.3.1	With two different Channel , I can still share file and printer..	St
+1.3.2	Right ?	Ques
+1.3.3	i.e .	St
+1.3.4	read/write and print to a laptop that connected in different channel.. As for security , like I mention in my post , the 'open wifi network ' is turn off/on as needed ( when a there is a guess ) As for putting or letting the guess in DMZ zone , this involving AP/router configuration everytime a guess is coming.. correct ?	Ques
 1.3.5	Thank You	St
-1.4.1	Try not to use mac filtering in the router.	St
-1.4.2	Just use SSID and WEP security.	St
-1.4.3	So you can set up SSID and WEP for your guess without reconfig the router.	St
-1.4.4	This way still give you some protection, but not as good as with mac filter too.	St
-1.5.1	It's simple and effective.	St
-1.5.2	After we have the LAN/Wifi up then we can see how WEP/WAP/such works out.	St
-1.5.3	I wish it always worked, but some make/models don't work with all clients so we start with the MAC filtering and move up.	St
+1.4.1	Try not to use mac filtering in the router .	St
+1.4.2	Just use SSID and WEP security .	St
+1.4.3	So you can set up SSID and WEP for your guess without reconfig the router .	St
+1.4.4	This way still give you some protection , but not as good as with mac filter too .	St
+1.5.1	It 's simple and effective .	St
+1.5.2	After we have the LAN/Wifi up then we can see how WEP/WAP/such works out .	St
+1.5.3	I wish it always worked , but some make/models do n't work with all clients so we start with the MAC filtering and move up .	St
 1.5.4	Bob	St
-1.6.1	It is not clear in the description.	St
-1.6.2	Do you have a server network or is it all peer-to-peer.	St
-1.6.3	If a network server is included, the SSIS/WEP access without MAC filtering will let guests get only to the internet.	St
-1.6.4	No adjustments are needed for each new guest.	St
-1.6.5	Periodic changing of WEP key can maintain security.	St
+1.6.1	It is not clear in the description .	St
+1.6.2	Do you have a server network or is it all peer-to-peer .	St
+1.6.3	If a network server is included , the SSIS/WEP access without MAC filtering will let guests get only to the internet .	St
+1.6.4	No adjustments are needed for each new guest .	St
+1.6.5	Periodic changing of WEP key can maintain security .	St

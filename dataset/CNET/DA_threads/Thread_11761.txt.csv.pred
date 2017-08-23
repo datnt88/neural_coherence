@@ -1,46 +1,46 @@
-1.1.1	I have had no luck at all Sorry for the long post, but I want to be as thorough as possible.	St
-1.1.2	I cannot connect to my Vista computer's shared folders from any other computer on the LAN.	St
-1.1.3	One computer is running XP Pro, the other 2 are also running Vista.	St
-1.1.4	I get the error:	St
-1.2.1	There are RULES and methods to get this to work.	St
-1.2.2	And in your post you write &quot;prefer not to have to create any new users on any of the computers trying to access it, but rather just use the user that is already trying.&quot; There is a method but it contradicts what you are asking so it may not be the solution.	St
-1.2.3	But first.	St
-1.2.4	THAT USER must have an account to login and must have an account on the machine with the share they are trying to use.	St
-1.2.5	This has not changed in over 10 years so I'm always wondering why one would try to usurp the rules.	St
-1.2.6	And here is where it gets worse.	St
-1.2.7	YOUR WORDS &quot;just use the user that is already trying.&quot; This could mean that you only want this user to access this and not &quot;everybody.&quot; You can't have it both ways and use Windows Networking.	St
-1.2.8	Please clarify your request so members can comment if it's the same old account, permission or firewall issue or if you truly don't want to create the needed account if enabling the GUEST account will do.	Sug
-1.2.9	But your words tell me the GUEST account is not the solution.	St
-1.2.10	Remember I don't know if you've ever managed Windows Networking before so I can't guess what step you forgot.	St
-1.2.11	And I don't duplicate the hundreds of web pages on how to set this up.	St
-1.2.12	I only try to find where the issue is.	St
+1.1.1	I have had no luck at all Sorry for the long post , but I want to be as thorough as possible .	St
+1.1.2	I can not connect to my Vista computer 's shared folders from any other computer on the LAN .	St
+1.1.3	One computer is running XP Pro , the other 2 are also running Vista .	St
+1.1.4	I get the error :	St
+1.2.1	There are RULES and methods to get this to work .	St
+1.2.2	And in your post you write & quot ; prefer not to have to create any new users on any of the computers trying to access it , but rather just use the user that is already trying. & quot ; There is a method but it contradicts what you are asking so it may not be the solution .	St
+1.2.3	But first .	St
+1.2.4	THAT USER must have an account to login and must have an account on the machine with the share they are trying to use .	St
+1.2.5	This has not changed in over 10 years so I 'm always wondering why one would try to usurp the rules .	St
+1.2.6	And here is where it gets worse .	St
+1.2.7	YOUR WORDS & quot ; just use the user that is already trying. & quot ; This could mean that you only want this user to access this and not & quot ; everybody. & quot ; You ca n't have it both ways and use Windows Networking .	St
+1.2.8	Please clarify your request so members can comment if it 's the same old account , permission or firewall issue or if you truly do n't want to create the needed account if enabling the GUEST account will do .	Sug
+1.2.9	But your words tell me the GUEST account is not the solution .	St
+1.2.10	Remember I do n't know if you 've ever managed Windows Networking before so I ca n't guess what step you forgot .	St
+1.2.11	And I do n't duplicate the hundreds of web pages on how to set this up .	St
+1.2.12	I only try to find where the issue is .	St
 1.2.13	Bob	St
-1.3.1	&quot;Everyone&quot; in Windows Networking is &quot;Everyone with an account.&quot; That account must match the one the machine user is logged onto and must exist on the machine with the share.	St
-1.3.2	There is an &quot;Anyone&quot; account called Guest but for obvious reasons no one wants to enable that.	St
+1.3.1	& quot ; Everyone & quot ; in Windows Networking is & quot ; Everyone with an account. & quot ; That account must match the one the machine user is logged onto and must exist on the machine with the share .	St
+1.3.2	There is an & quot ; Anyone & quot ; account called Guest but for obvious reasons no one wants to enable that .	St
 1.3.3	Bob	St
-1.4.1	with a firewall not being configured.	St
-1.5.1	OK here is what I want to do.	St
-1.5.2	It's not a complicated setup that I require for our uses.	St
-1.5.3	I have this network (4 computers, one wireless) all behind a router.	St
-1.5.4	A Dlink dir-655.	St
-1.5.5	the Vista machine that is having problems has no 3rd party FW and the Windows FW is disabled.	St
-1.5.6	I just want to be able to access it's shared folders from all of the computers in the network.	St
-1.5.7	I don't particularly care about giving each computer (user) their own permissions per folder, etc.	St
-1.5.8	Just allow every computer to have full access to the folders.	St
-1.5.9	I have not created a user account on the vista computer because that creates an entire folder system as well as seeing their login icon on the scren during bootup, for each user on that computer which is what I want to avoid.	St
-1.5.10	In the past, I have simply given each computer the same workgroup name, and after that, and folders I would share on any of the LAN'd computers would be able to access the folders.	St
-1.6.1	I didn't read a CLEAR answer about you wanting to get around the Windows networking rules.	St
-1.6.2	So let's note a common tool we use to auto login with your selected account.	St
-1.6.3	-&gt; Go get TWEAKUI.	St
-1.6.4	Here's a google to help you along.	St
-1.6.5	http://www.google.com/search?hl=en&q=TWEAKUI+AUTO+LOGON&btnG=Google+Search &quot; I have not created a user account on the vista computer because that creates an entire folder system as well as seeing their login icon on the scren during bootup, for each user on that computer which is what I want to avoid.	St
-1.6.6	&quot; You have at this point declared you don't want to use the normal system.	St
-1.6.7	Enable the GUEST account and be aware of all the dangers it presents.	St
-1.6.8	I don't duplicate web pages about why its a bad idea.	St
+1.4.1	with a firewall not being configured .	St
+1.5.1	OK here is what I want to do .	St
+1.5.2	It 's not a complicated setup that I require for our uses .	St
+1.5.3	I have this network ( 4 computers , one wireless ) all behind a router .	St
+1.5.4	A Dlink dir-655 .	St
+1.5.5	the Vista machine that is having problems has no 3rd party FW and the Windows FW is disabled .	St
+1.5.6	I just want to be able to access it 's shared folders from all of the computers in the network .	St
+1.5.7	I do n't particularly care about giving each computer ( user ) their own permissions per folder , etc .	St
+1.5.8	Just allow every computer to have full access to the folders .	St
+1.5.9	I have not created a user account on the vista computer because that creates an entire folder system as well as seeing their login icon on the scren during bootup , for each user on that computer which is what I want to avoid .	St
+1.5.10	In the past , I have simply given each computer the same workgroup name , and after that , and folders I would share on any of the LAN 'd computers would be able to access the folders .	St
+1.6.1	I did n't read a CLEAR answer about you wanting to get around the Windows networking rules .	St
+1.6.2	So let 's note a common tool we use to auto login with your selected account .	Sug
+1.6.3	- & gt ; Go get TWEAKUI .	St
+1.6.4	Here 's a google to help you along .	St
+1.6.5	http : //www.google.com/search ? hl=en & q=TWEAKUI+AUTO+LOGON & btnG=Google+Search & quot ; I have not created a user account on the vista computer because that creates an entire folder system as well as seeing their login icon on the scren during bootup , for each user on that computer which is what I want to avoid .	St
+1.6.6	& quot ; You have at this point declared you do n't want to use the normal system .	St
+1.6.7	Enable the GUEST account and be aware of all the dangers it presents .	St
+1.6.8	I do n't duplicate web pages about why its a bad idea .	St
 1.6.9	Bob	St
-1.7.1	Ok, I enabled the Guest account, and made sure it was added to the shared folder's permissions.	St
-1.7.2	Still get the same error.	St
-1.7.3	It seems that if the wide-ipen guest account can't access it, even if I added a specific user and allowed the permissions, it still wouldn't work.	St
-1.7.4	It (the XP laptop) see's the computer in Explorer, so I know that it's possibly not a router issue blocking it, although there may be a setting in the router that I'm not aware of that needs to be changed?	St
-1.7.5	I understand the implications of using the guest account, and may tighten up security once i get it working in general.	St
-1.8.1	Many forget to configure such to allow sharing.	St
+1.7.1	Ok , I enabled the Guest account , and made sure it was added to the shared folder 's permissions .	St
+1.7.2	Still get the same error .	St
+1.7.3	It seems that if the wide-ipen guest account ca n't access it , even if I added a specific user and allowed the permissions , it still would n't work .	St
+1.7.4	It ( the XP laptop ) see 's the computer in Explorer , so I know that it 's possibly not a router issue blocking it , although there may be a setting in the router that I 'm not aware of that needs to be changed ?	Ques
+1.7.5	I understand the implications of using the guest account , and may tighten up security once i get it working in general .	St
+1.8.1	Many forget to configure such to allow sharing .	St

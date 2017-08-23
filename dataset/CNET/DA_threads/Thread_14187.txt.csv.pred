@@ -1,56 +1,56 @@
-1.1.1	So this is my first build ever, just finished it this weekend, and I'm off to a very rough start.	St
-1.1.2	Here's my parts list.	St
-1.1.3	Motherboard : Asus Sabertooth Z77 CPU : Ivy Bridge i5-3570K RAM : Crucial Ballistix 2 x 2GB (1333 MHz) Boot Drive : Crucial M4 128GB Storage Drive : Western Digital Black 2TB PSU : 80+ Gold LEPA 500W Optical Drive : Not sure... something I pulled out of an old box.	St
-1.1.4	I used the stock fan that came with the CPU, and it worked fine for a day.	St
-1.1.5	Then yesterday I got a fan error while booting up.	St
-1.1.6	I looked inside the case and indeed the fan seemed to be stuttering.	St
-1.1.7	It would try and spin up, slow, stop.	St
-1.1.8	Then try and spin up again, repeating the whole process.	St
-1.1.9	I did a reboot, and the problem went away.	St
-1.1.10	Then today I booted it up again and the problem came back, but it's not going away, no matter how many times I reboot.	St
-1.1.11	I checked that the fan is in the right header, and it is.	St
-1.1.12	I looked and I can see 3 headers there.	St
-1.1.13	CPU_FAN, CPU_OPT, and CHA_FAN3.	St
-1.1.14	Just to be sure it's really the fan I tried to boot up with the thing plugged into one of these other headers.	St
-1.1.15	Nothing changed with CPU_OPT, but when I tried the third one the fan started spinning normally.	St
-1.1.16	The computer won't accept it though, it still says there is a fan error and goes right into UEFI.	St
-1.1.17	Another thing that puzzles me is that I'm using an Asus board, which comes with Q-LED indicators (those little lights all over the mobo which light up during the boot up).	St
-1.1.18	They are supposed to help you solve a boot up problem by staying red at whatever place the problem occurs.	St
-1.1.19	Except that when I run into the fan problem, the light stays on at the boot drive...	St
-1.1.20	But in UEFI it says my M4 is fine.	St
-1.1.21	Please, any help would be really appreciated.	Polite
-1.1.22	The Sabertooth has a 5 year warranty, but I don't even know if it's to blame.	St
-1.1.23	I've ordered an aftermarket CPU fan (a Noctua of some sort), but it will be a few days before it gets here.	St
-1.1.24	In the meantime, I'd like to know what my options are.	St
-1.1.25	Should I ask NCIX (the supplier I used) to take it all back?	St
-1.1.26	It's been under a week so it might work, but I guess I would have to repackage them and pay for the shipping and handling...	St
-1.1.27	I was hoping to get this up and running in time for Diablo III...	St
-1.1.28	I doubt I'll make it.	St
-1.1.29	But really at this point I just want a working computer.	St
-1.2.1	Umm... the title should be &quot;Strange CPU Fan Failure&quot;.	St
-1.2.2	Is there a way I can edit that?	St
-1.3.1	I don't see what video card was used.	St
-1.3.2	I missed it?	St
-1.4.1	I see this has 3 12 Volt rails.	St
-1.4.2	Did they offer any way to swap rails?	St
-1.5.1	I had planned on getting a GTX 670 eventually, most people told me that with just one (no SLI) I should be fine with 500 Watts.	St
-1.5.2	But for the time being I was planning on just gaming with the integrated Intel HD 4000.	St
-1.5.3	I had seen samples of game-play on YouTube of HD 3000, and it looked fairly decent.	St
-1.5.4	Especially because I have about a dozen games from 2008 or earlier that I have to catch up on, so an HD 4000 should be plenty, I figure.	St
-1.5.5	I haven't had a decent gaming computer in a long time...	St
-1.5.6	I'm not sure what you mean by swapping rails...	Res
-1.5.7	It's semi-modular, it came with a bunch of cables.	St
-1.5.8	I used 1 to connect to my 3 drives, and one to connect to all my fans.	St
-1.5.9	The rest go to the motherboard.	St
-1.6.1	320 divided by 12 = 26.667 Amperes.	St
-1.6.2	Since any one rail of that PSU is 25 Amperes I wonder why the maker went for a multiple rail PSU.	St
-1.6.3	A single RAIL 500 Watt PSU would have avoided that issue.	St
-1.6.4	Can you share which power supply the fan uses?	St
-1.6.5	Might be a clue.	St
+1.1.1	So this is my first build ever , just finished it this weekend , and I 'm off to a very rough start .	St
+1.1.2	Here 's my parts list .	St
+1.1.3	Motherboard : Asus Sabertooth Z77 CPU : Ivy Bridge i5-3570K RAM : Crucial Ballistix 2 x 2GB ( 1333 MHz ) Boot Drive : Crucial M4 128GB Storage Drive : Western Digital Black 2TB PSU : 80+ Gold LEPA 500W Optical Drive : Not sure ... something I pulled out of an old box .	St
+1.1.4	I used the stock fan that came with the CPU , and it worked fine for a day .	St
+1.1.5	Then yesterday I got a fan error while booting up .	St
+1.1.6	I looked inside the case and indeed the fan seemed to be stuttering .	St
+1.1.7	It would try and spin up , slow , stop .	St
+1.1.8	Then try and spin up again , repeating the whole process .	St
+1.1.9	I did a reboot , and the problem went away .	St
+1.1.10	Then today I booted it up again and the problem came back , but it 's not going away , no matter how many times I reboot .	St
+1.1.11	I checked that the fan is in the right header , and it is .	St
+1.1.12	I looked and I can see 3 headers there .	St
+1.1.13	CPU_FAN , CPU_OPT , and CHA_FAN3 .	St
+1.1.14	Just to be sure it 's really the fan I tried to boot up with the thing plugged into one of these other headers .	St
+1.1.15	Nothing changed with CPU_OPT , but when I tried the third one the fan started spinning normally .	St
+1.1.16	The computer wo n't accept it though , it still says there is a fan error and goes right into UEFI .	St
+1.1.17	Another thing that puzzles me is that I 'm using an Asus board , which comes with Q-LED indicators ( those little lights all over the mobo which light up during the boot up ) .	St
+1.1.18	They are supposed to help you solve a boot up problem by staying red at whatever place the problem occurs .	St
+1.1.19	Except that when I run into the fan problem , the light stays on at the boot drive ...	St
+1.1.20	But in UEFI it says my M4 is fine .	St
+1.1.21	Please , any help would be really appreciated .	Polite
+1.1.22	The Sabertooth has a 5 year warranty , but I do n't even know if it 's to blame .	St
+1.1.23	I 've ordered an aftermarket CPU fan ( a Noctua of some sort ) , but it will be a few days before it gets here .	St
+1.1.24	In the meantime , I 'd like to know what my options are .	St
+1.1.25	Should I ask NCIX ( the supplier I used ) to take it all back ?	Ques
+1.1.26	It 's been under a week so it might work , but I guess I would have to repackage them and pay for the shipping and handling ...	St
+1.1.27	I was hoping to get this up and running in time for Diablo III ...	St
+1.1.28	I doubt I 'll make it .	St
+1.1.29	But really at this point I just want a working computer .	St
+1.2.1	Umm ... the title should be & quot ; Strange CPU Fan Failure & quot ; .	St
+1.2.2	Is there a way I can edit that ?	Ques
+1.3.1	I do n't see what video card was used .	St
+1.3.2	I missed it ?	Ques
+1.4.1	I see this has 3 12 Volt rails .	St
+1.4.2	Did they offer any way to swap rails ?	Ques
+1.5.1	I had planned on getting a GTX 670 eventually , most people told me that with just one ( no SLI ) I should be fine with 500 Watts .	St
+1.5.2	But for the time being I was planning on just gaming with the integrated Intel HD 4000 .	St
+1.5.3	I had seen samples of game-play on YouTube of HD 3000 , and it looked fairly decent .	St
+1.5.4	Especially because I have about a dozen games from 2008 or earlier that I have to catch up on , so an HD 4000 should be plenty , I figure .	St
+1.5.5	I have n't had a decent gaming computer in a long time ...	St
+1.5.6	I 'm not sure what you mean by swapping rails ...	Res
+1.5.7	It 's semi-modular , it came with a bunch of cables .	St
+1.5.8	I used 1 to connect to my 3 drives , and one to connect to all my fans .	St
+1.5.9	The rest go to the motherboard .	St
+1.6.1	320 divided by 12 = 26.667 Amperes .	St
+1.6.2	Since any one rail of that PSU is 25 Amperes I wonder why the maker went for a multiple rail PSU .	St
+1.6.3	A single RAIL 500 Watt PSU would have avoided that issue .	St
+1.6.4	Can you share which power supply the fan uses ?	Ques
+1.6.5	Might be a clue .	St
 1.6.6	Bob	St
-1.7.1	About 14 centimeters... Is this relevant to what's happening to the CPU fan?	St
-1.8.1	At this point and with this answer it's time for the service counter.	St
-1.9.1	Well, wait, did you mean the CPU fan, because that's like 8 centimeters, I thought you were still talking about the PSU.	St
-1.9.2	Anyway...	St
-1.9.3	I'll wait and see what happens with the new CPU cooler I ordered.	Sug
-1.9.4	Hopefully it will be here before Friday.	St
+1.7.1	About 14 centimeters ... Is this relevant to what 's happening to the CPU fan ?	Ques
+1.8.1	At this point and with this answer it 's time for the service counter .	St
+1.9.1	Well , wait , did you mean the CPU fan , because that 's like 8 centimeters , I thought you were still talking about the PSU .	St
+1.9.2	Anyway ...	St
+1.9.3	I 'll wait and see what happens with the new CPU cooler I ordered .	St
+1.9.4	Hopefully it will be here before Friday .	St

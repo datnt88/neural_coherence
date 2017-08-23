@@ -1,76 +1,76 @@
-1.1.1	Hi, My client requires a robust WiFi connection in their premise for 200 users.	St
-1.1.2	The premise consist of 2 floors with 8000sqft each.	St
-1.1.3	The nature of the business of my client is e-commerce and the Internet usage would be heavy.	St
-1.1.4	I am currently looking at deploying a WLAN controller with up to 8 APs (4 per floor), a load balancer to bind 2 WAN lines and a Fortigate 600C firewall to manage the traffic.	St
-1.1.5	I am looking at using Aruba and Peplink or F5 at the moment.	St
-1.1.6	One of the most important requirement from my client --&gt; near 100% network uptime.	St
-1.1.7	Would appreciate if anyone out there could provide an insight if I am missing out on anything important or could recommend me a better solution.	Ques
-1.2.1	Cisco still offers design and deployment services.	St
-1.2.2	But you see a new type of IT staffer that uses what they learned on home WiFi networks which is a discussion on its own.	St
-1.2.3	That 100% uptime is nothing I'd sign up for.	St
-1.2.4	Example?	St
-1.2.5	Since WiFi is easily disrupted by a bad device and you have devices such as phones and more, no one would sign up for this if they knew.	St
-1.2.6	A wired network is not subject to this since we can manage the port and shut off the offending unit.	St
-1.2.7	Also, since there are only 2 non-overlapping 802.11n channels, did you plan to pull back to 802.11g to give your design more channels?	St
+1.1.1	Hi , My client requires a robust WiFi connection in their premise for 200 users .	St
+1.1.2	The premise consist of 2 floors with 8000sqft each .	St
+1.1.3	The nature of the business of my client is e-commerce and the Internet usage would be heavy .	St
+1.1.4	I am currently looking at deploying a WLAN controller with up to 8 APs ( 4 per floor ) , a load balancer to bind 2 WAN lines and a Fortigate 600C firewall to manage the traffic .	St
+1.1.5	I am looking at using Aruba and Peplink or F5 at the moment .	St
+1.1.6	One of the most important requirement from my client -- & gt ; near 100 % network uptime .	St
+1.1.7	Would appreciate if anyone out there could provide an insight if I am missing out on anything important or could recommend me a better solution .	Ques
+1.2.1	Cisco still offers design and deployment services .	St
+1.2.2	But you see a new type of IT staffer that uses what they learned on home WiFi networks which is a discussion on its own .	St
+1.2.3	That 100 % uptime is nothing I 'd sign up for .	St
+1.2.4	Example ?	Ques
+1.2.5	Since WiFi is easily disrupted by a bad device and you have devices such as phones and more , no one would sign up for this if they knew .	St
+1.2.6	A wired network is not subject to this since we can manage the port and shut off the offending unit .	St
+1.2.7	Also , since there are only 2 non-overlapping 802.11n channels , did you plan to pull back to 802.11g to give your design more channels ?	Ques
 1.2.8	Bob	St
-1.3.1	Cisco has the best networking device but it is not within reach of every organization.	St
-1.3.2	I have mentioned upfront to my client that nobody would be able to provide SLA on WiFi connectivity.	St
-1.3.3	I am not sure if my idea of using LB and firewall are the best but these are the requirements: - Ability to LB between multiple WAN lines from different ISP for performance and redundancy.	St
-1.3.4	- Ability to limit b/w per user to prevent abuse - Ability to block/filter web content/torrent and etc.	St
-1.3.5	- Very high network uptime (99%) My initial recommendation would be: WAN --&gt; LB --&gt; Firewall --&gt; Core switch/WLAN controller --&gt; 8 x APs	St
-1.4.1	Let us know how it turns out.	St
-1.4.2	--&gt; Network uptime is one thing.	St
-1.4.3	WiFi reliability however is an entirely different problem and as long as it's non-proprietary (i.e.	St
-1.4.4	common WiFi) then you can't give any assurances.	Sug
-1.4.5	All it takes is a bad or rogue device.	St
-1.4.6	Bob PS.	St
-1.4.7	You didn't write about the channel problems.	Polite
-1.4.8	Here's a link showing we only get 2 non-overlapping 802.11n channels.	St
-1.4.9	http://en.wikipedia.org/wiki/List_of_WLAN_channels PPS.	St
-1.4.10	The wikipedia has changed to show grinding it even more finely but you get 2 for most setups and just ONE CHANNEL on 802.11n with the 40MHz option.	St
-1.5.1	That's 25 users per hot spot.	St
-1.5.2	As you know that WiFi is half duplex, shared access and some WAPs don't work well with high user counts (high user count by my definition is) over handful, you need to be very clear that reliability is not going to be given for the wireless connections.	St
-1.5.3	Wired is still king for reliability.	St
-1.5.4	If you want to open your company to possible lawsuits and a bad future with a client, go ahead and make WiFi reliability claims.	St
-1.5.5	The office I work with would never sign up for that area.	St
+1.3.1	Cisco has the best networking device but it is not within reach of every organization .	St
+1.3.2	I have mentioned upfront to my client that nobody would be able to provide SLA on WiFi connectivity .	St
+1.3.3	I am not sure if my idea of using LB and firewall are the best but these are the requirements : - Ability to LB between multiple WAN lines from different ISP for performance and redundancy .	St
+1.3.4	- Ability to limit b/w per user to prevent abuse - Ability to block/filter web content/torrent and etc .	St
+1.3.5	- Very high network uptime ( 99 % ) My initial recommendation would be : WAN -- & gt ; LB -- & gt ; Firewall -- & gt ; Core switch/WLAN controller -- & gt ; 8 x APs	St
+1.4.1	Let us know how it turns out .	St
+1.4.2	-- & gt ; Network uptime is one thing .	St
+1.4.3	WiFi reliability however is an entirely different problem and as long as it 's non-proprietary ( i.e .	St
+1.4.4	common WiFi ) then you ca n't give any assurances .	St
+1.4.5	All it takes is a bad or rogue device .	St
+1.4.6	Bob PS .	St
+1.4.7	You did n't write about the channel problems .	St
+1.4.8	Here 's a link showing we only get 2 non-overlapping 802.11n channels .	St
+1.4.9	http : //en.wikipedia.org/wiki/List_of_WLAN_channels PPS .	St
+1.4.10	The wikipedia has changed to show grinding it even more finely but you get 2 for most setups and just ONE CHANNEL on 802.11n with the 40MHz option .	St
+1.5.1	That 's 25 users per hot spot .	St
+1.5.2	As you know that WiFi is half duplex , shared access and some WAPs do n't work well with high user counts ( high user count by my definition is ) over handful , you need to be very clear that reliability is not going to be given for the wireless connections .	St
+1.5.3	Wired is still king for reliability .	St
+1.5.4	If you want to open your company to possible lawsuits and a bad future with a client , go ahead and make WiFi reliability claims .	St
+1.5.5	The office I work with would never sign up for that area .	St
 1.5.6	Bob	St
-1.6.1	Hi, you don't mention why the client wants a WiFi solution.	St
-1.6.2	I would have thought that an e-commerce business of this size would more likely have fixed workstations of some sort, in which case, a wired solution is a no brainer.	St
-1.6.3	It will be faster, more reliable and more secure than a WiFi system.	St
-1.6.4	WiFi is best suited to mobile configurations but even then, it isn't completely clear cut.	St
-1.6.5	I worked on a project where the Project Director asked for a WiFi solution and at first sight, that seemed appropriate, in that the network was intended to support visits by remote members of the project group.	St
-1.6.6	The Director saw the elimination of physical connections to be &quot;a good thing&quot;.	St
-1.6.7	It turned out, however, that these remote visitors tended to work on their laptops on their train journeys to the centre and would typically arrive with depleted batteries.	St
-1.6.8	Yes, I know batteries are better these days but they do still get depleted.	St
-1.6.9	So the workstations were equipped with electrical outlets anyway and so providing an RJ45 socket as well was trivial.	St
-1.6.10	But there may be some other reason why your client wants/needs WiFi.	St
-1.6.11	I know it's more expensive but I'd tend to go for a Cisco solution for a true enterprise class solution.	St
-1.6.12	And while the 802.11ac standard hasn't yet been finalized, I've seen &quot;Pre-ac&quot; equipment being marketed in the same way that &quot;Pre-n&quot; equipment was released in the lead up to confirmation of the final standard.	St
-1.6.13	Usually, only a firmware upgrade at worst was needed to comply with the final version of the &quot;n&quot; standard.	St
-1.6.14	You might want to look into that in that ac is dual band by default in countries where use of the 5 Ghz band is permitted.	St
-1.7.1	Hi.	St
-1.7.2	1.	St
-1.7.3	Basically the configuration plan that you have come up with seems to be adequate.	St
-1.7.4	2.	St
-1.7.5	However, I would suggest a few other things to keep in mind.	St
-1.7.6	a.	St
-1.7.7	Assume that an access point will be able to handle approximately 14 clients.	St
-1.7.8	For your perspective - a normal standard 100/1000 Mbps switch usually has a maximum of 24 ports.	St
-1.7.9	And it has a much higher back-plane capacity.	St
-1.7.10	(Please don't start the debate on daisy chaining and/or modular switches) b.	St
-1.7.11	If possible, go for WLC & AP combination that supports 802.11ac - it will make a significant difference on a long run.	St
-1.7.12	Maybe not right away but a few months down the line - yes.	Res
-1.7.13	If you face bandwidth problems, the only upgrade required would be 802.11ac wireless adapters on the clients.	St
-1.7.14	c. Locally, the WLC should be able to distribute the load among the APs.	St
-1.7.15	I also presume that the network will be used to transfer files as well or maybe other data + voice facilities may be incorporated in future.	St
-1.7.16	d. Use a managed switch and a router in between to break the network into smaller units using VLANs, of perhaps 30 clients each.	St
-1.7.17	You can purchase either a second hand 'Cisco switch & router' or a 'layer 3 switch' off ebay that is compatible with your 'wireless networks' bandwidth.	St
-1.7.18	Breaking up the network will prevent the individual network segments from saturating adjacent networks and will result in more efficient load distribution.	St
-1.7.19	e. For load balancing at the WAN edge, I personally prefer SuSE linux enterprise server configured with Squid proxy server.	St
-1.7.20	If that is too much for you, then a pre-configured linux distribution by the name of ClearOS is available.	St
-1.7.21	Its free version will allow you to load balance incoming WAN connections, provided that they terminate as Ethernet ends and it also lets you restrict bandwidth with the flexibility of choosing network segments and/or individual ip address'.	St
-1.7.22	Of course it is just an individual preference to use hardware load balancer vs PC configured as one.	St
-1.7.23	f. 100 % network up-time.	St
-1.7.24	Very 'bite-you-in-the-behind-when-you-are-not-looking' kind of assurance to provide.	St
-1.7.25	But that is true for all network related projects.	St
-1.7.26	Take care.	St
+1.6.1	Hi , you do n't mention why the client wants a WiFi solution .	St
+1.6.2	I would have thought that an e-commerce business of this size would more likely have fixed workstations of some sort , in which case , a wired solution is a no brainer .	St
+1.6.3	It will be faster , more reliable and more secure than a WiFi system .	St
+1.6.4	WiFi is best suited to mobile configurations but even then , it is n't completely clear cut .	St
+1.6.5	I worked on a project where the Project Director asked for a WiFi solution and at first sight , that seemed appropriate , in that the network was intended to support visits by remote members of the project group .	St
+1.6.6	The Director saw the elimination of physical connections to be & quot ; a good thing & quot ; .	St
+1.6.7	It turned out , however , that these remote visitors tended to work on their laptops on their train journeys to the centre and would typically arrive with depleted batteries .	St
+1.6.8	Yes , I know batteries are better these days but they do still get depleted .	St
+1.6.9	So the workstations were equipped with electrical outlets anyway and so providing an RJ45 socket as well was trivial .	St
+1.6.10	But there may be some other reason why your client wants/needs WiFi .	St
+1.6.11	I know it 's more expensive but I 'd tend to go for a Cisco solution for a true enterprise class solution .	St
+1.6.12	And while the 802.11ac standard has n't yet been finalized , I 've seen & quot ; Pre-ac & quot ; equipment being marketed in the same way that & quot ; Pre-n & quot ; equipment was released in the lead up to confirmation of the final standard .	St
+1.6.13	Usually , only a firmware upgrade at worst was needed to comply with the final version of the & quot ; n & quot ; standard .	St
+1.6.14	You might want to look into that in that ac is dual band by default in countries where use of the 5 Ghz band is permitted .	St
+1.7.1	Hi .	St
+1.7.2	1 .	St
+1.7.3	Basically the configuration plan that you have come up with seems to be adequate .	St
+1.7.4	2 .	St
+1.7.5	However , I would suggest a few other things to keep in mind .	St
+1.7.6	a .	St
+1.7.7	Assume that an access point will be able to handle approximately 14 clients .	St
+1.7.8	For your perspective - a normal standard 100/1000 Mbps switch usually has a maximum of 24 ports .	St
+1.7.9	And it has a much higher back-plane capacity .	St
+1.7.10	( Please do n't start the debate on daisy chaining and/or modular switches ) b .	St
+1.7.11	If possible , go for WLC & AP combination that supports 802.11ac - it will make a significant difference on a long run .	St
+1.7.12	Maybe not right away but a few months down the line - yes .	Res
+1.7.13	If you face bandwidth problems , the only upgrade required would be 802.11ac wireless adapters on the clients .	St
+1.7.14	c. Locally , the WLC should be able to distribute the load among the APs .	St
+1.7.15	I also presume that the network will be used to transfer files as well or maybe other data + voice facilities may be incorporated in future .	St
+1.7.16	d. Use a managed switch and a router in between to break the network into smaller units using VLANs , of perhaps 30 clients each .	St
+1.7.17	You can purchase either a second hand 'Cisco switch & router ' or a 'layer 3 switch ' off ebay that is compatible with your 'wireless networks ' bandwidth .	St
+1.7.18	Breaking up the network will prevent the individual network segments from saturating adjacent networks and will result in more efficient load distribution .	St
+1.7.19	e. For load balancing at the WAN edge , I personally prefer SuSE linux enterprise server configured with Squid proxy server .	St
+1.7.20	If that is too much for you , then a pre-configured linux distribution by the name of ClearOS is available .	St
+1.7.21	Its free version will allow you to load balance incoming WAN connections , provided that they terminate as Ethernet ends and it also lets you restrict bandwidth with the flexibility of choosing network segments and/or individual ip address ' .	St
+1.7.22	Of course it is just an individual preference to use hardware load balancer vs PC configured as one .	St
+1.7.23	f. 100 % network up-time .	St
+1.7.24	Very 'bite-you-in-the-behind-when-you-are-not-looking ' kind of assurance to provide .	St
+1.7.25	But that is true for all network related projects .	St
+1.7.26	Take care .	St

@@ -1,53 +1,53 @@
-1.1.1	I am attaching a Maxtor DiamondMax 10 80GB drive via USB2 and dedicated power supply.	St
-1.1.2	The connector is a generic 2.5/3.5in & SATA connector with a power brick for direct disk power.	St
-1.1.3	I have had no issues whatsoever when using this in conjunction with 2.5in drives (obviously bus powered).	St
-1.1.4	Whether set as master or slave, upon discovery, the screen goes black and my computer (XP) goes down and restarts.	St
-1.1.5	This is a new one on me.	St
-1.1.6	I think for literally a few milliseconds there's a blue screen in there however it is impossible to pick up what it is saying before it's black and we're rebooting.	St
-1.1.7	I'm seeing a couple of references from around crash time in the Event Viewer: Service Control Manager (EventID 7000) The General Purpose USB Driver (adildr.sys) service failed to start due to the following error: The service cannot be started, either because it is disabled or because it has no enabled devices associated with it.	St
-1.1.8	And SideBySide (EventID 32 & 59) Resolve Partial Assembly failed for Microsoft.VC80.MFCLOC.	St
-1.1.9	Reference error message: The referenced assembly is not installed on your system.	St
-1.1.10	Any similar experiences or ideas?	St
-1.2.1	By unchecking the box in System Properties, I am pausing the blue screen error before auto-restart: &quot;IRQL_NOT_LESS_THAN_EQUAL .... Tech info: STOP: 0x0000000A (0x00000018,0x00000002,0x00000000,0x804F6809)&quot; This IS known to be a problem drive - one for which I am trying to determine if there is any recoverable data.	St
-1.3.1	Did you get any drivers with this disk?	St
-1.3.2	The site below gives more information on 0xA Stop errors.	St
-1.3.3	http://aumha.org/a/stop.htm I hope it helps.	St
+1.1.1	I am attaching a Maxtor DiamondMax 10 80GB drive via USB2 and dedicated power supply .	St
+1.1.2	The connector is a generic 2.5/3.5in & SATA connector with a power brick for direct disk power .	St
+1.1.3	I have had no issues whatsoever when using this in conjunction with 2.5in drives ( obviously bus powered ) .	St
+1.1.4	Whether set as master or slave , upon discovery , the screen goes black and my computer ( XP ) goes down and restarts .	St
+1.1.5	This is a new one on me .	St
+1.1.6	I think for literally a few milliseconds there 's a blue screen in there however it is impossible to pick up what it is saying before it 's black and we 're rebooting .	St
+1.1.7	I 'm seeing a couple of references from around crash time in the Event Viewer : Service Control Manager ( EventID 7000 ) The General Purpose USB Driver ( adildr.sys ) service failed to start due to the following error : The service can not be started , either because it is disabled or because it has no enabled devices associated with it .	St
+1.1.8	And SideBySide ( EventID 32 & 59 ) Resolve Partial Assembly failed for Microsoft.VC80.MFCLOC .	St
+1.1.9	Reference error message : The referenced assembly is not installed on your system .	St
+1.1.10	Any similar experiences or ideas ?	Ques
+1.2.1	By unchecking the box in System Properties , I am pausing the blue screen error before auto-restart : & quot ; IRQL_NOT_LESS_THAN_EQUAL ... . Tech info : STOP : 0x0000000A ( 0x00000018,0x00000002,0x00000000,0x804F6809 ) & quot ; This IS known to be a problem drive - one for which I am trying to determine if there is any recoverable data .	St
+1.3.1	Did you get any drivers with this disk ?	Ques
+1.3.2	The site below gives more information on 0xA Stop errors .	St
+1.3.3	http : //aumha.org/a/stop.htm I hope it helps .	St
 1.3.4	Mark	St
-1.4.1	Plug in the power supply before connecting the USB cord.	St
-1.5.1	Thanks for those replies.	St
-1.5.2	It was indeed the effect of a virus that had corrupted the partition table which in turn crashed on all attempts to mount it - whether connection was in Windows or some boot level utilities.	St
-1.5.3	I've had some difficult disk recoveries before but this was nasty.	St
-1.5.4	Happily all went well and all files were recovered on both partitions before restoring the disk to working order.	St
+1.4.1	Plug in the power supply before connecting the USB cord .	St
+1.5.1	Thanks for those replies .	Polite
+1.5.2	It was indeed the effect of a virus that had corrupted the partition table which in turn crashed on all attempts to mount it - whether connection was in Windows or some boot level utilities .	St
+1.5.3	I 've had some difficult disk recoveries before but this was nasty .	St
+1.5.4	Happily all went well and all files were recovered on both partitions before restoring the disk to working order .	St
 1.6.1	NIL	St
-1.7.1	How did you discover the problem was a virus?	St
-1.7.2	And how did you dispose of the virus?	St
-1.7.3	Thanks.	St
-1.8.1	Late night frustration/oversight/slip in security when it slipped onto my test machine when I booted into a Linux install.	St
-1.8.2	It displayed the same errors intermittently, other times booting into windows but to no practical level (100% cpu etc.)	St
-1.8.3	and limited use in safe mode.	St
-1.8.4	Naturally (and fortunately) I have an image and spare disk for the test machine.	St
-1.8.5	Quickly restored and sobered by the infection, I changed tack/came to my senses with jumper settings CS w/CLJ and managed to mount one partition for long enough to rebuild the PT and snag the vital files.	St
-1.8.6	The device still wasn't recognised in other environs but another switch in jumpers opened up the possibilities with some other utilities to see and scrub all partitions just like a new disk.	St
-1.8.7	I could also just sense the disk was mechanically sounding just fine.	St
-1.8.8	What was the virus?	St
-1.8.9	I cannot identify but it basically seemed to have corrupted the PT to a level it was impossible to access the device without freezing the computer in this not uncommon way (hence the difficulty in tracing the core issue).	St
-1.8.10	I suspect it is engineered this way!	St
-1.8.11	I know very little about malware that affects boot records, partition data - not that I really want to have any more experience of them but I'm curious if someone can shed more light on these particular symptoms.	St
-1.9.1	Why not discuss this in out Virus and Security Alerts forum here; http://forums.cnet.com/5204-6132_102-0.html?forumID=32&tag=dir.forum The experts are there, and if they haven't seen this before they would be most interested.	St
-1.9.2	I'm intrigued you discovered this when booting up into Linux.	St
-1.9.3	Do you think this was a Linux infection then?	St
+1.7.1	How did you discover the problem was a virus ?	Ques
+1.7.2	And how did you dispose of the virus ?	Ques
+1.7.3	Thanks .	Polite
+1.8.1	Late night frustration/oversight/slip in security when it slipped onto my test machine when I booted into a Linux install .	St
+1.8.2	It displayed the same errors intermittently , other times booting into windows but to no practical level ( 100 % cpu etc . )	St
+1.8.3	and limited use in safe mode .	St
+1.8.4	Naturally ( and fortunately ) I have an image and spare disk for the test machine .	St
+1.8.5	Quickly restored and sobered by the infection , I changed tack/came to my senses with jumper settings CS w/CLJ and managed to mount one partition for long enough to rebuild the PT and snag the vital files .	St
+1.8.6	The device still was n't recognised in other environs but another switch in jumpers opened up the possibilities with some other utilities to see and scrub all partitions just like a new disk .	St
+1.8.7	I could also just sense the disk was mechanically sounding just fine .	St
+1.8.8	What was the virus ?	Ques
+1.8.9	I can not identify but it basically seemed to have corrupted the PT to a level it was impossible to access the device without freezing the computer in this not uncommon way ( hence the difficulty in tracing the core issue ) .	St
+1.8.10	I suspect it is engineered this way !	St
+1.8.11	I know very little about malware that affects boot records , partition data - not that I really want to have any more experience of them but I 'm curious if someone can shed more light on these particular symptoms .	St
+1.9.1	Why not discuss this in out Virus and Security Alerts forum here ; http : //forums.cnet.com/5204-6132_102-0.html ? forumID=32 & tag=dir.forum The experts are there , and if they have n't seen this before they would be most interested .	St
+1.9.2	I 'm intrigued you discovered this when booting up into Linux .	St
+1.9.3	Do you think this was a Linux infection then ?	Ques
 1.9.4	Mark	St
-1.10.1	Any proof?	St
+1.10.1	Any proof ?	Ques
 1.10.2	Kees	St
-1.11.1	To clarify, the virus did not appear in Linux but when I rebooted into Windows, having connected the device whilst booted into Linux.	St
-1.11.2	My assumption, and it is only an assumption, is that my test machine NTFS disk was exposed at this point and no other that I can estimate.	St
-1.11.3	That one disk has a partition failure is no reason to conclude virus.	St
-1.11.4	That these absolute partition failures, which I have never before encountered, now happen together, in this manner, and in this sequence of events - this kind of contagious hardware failure is too much coincidence for me.	St
-1.11.5	On top of that, I have before encountered the effect of malware that prevents the start-up of key windows services in normal start-up mode, hogging the CPU, whilst in safe mode, the disk is fine but AV resident shield was not loaded and 'locked out'.	St
-1.11.6	No network connections possible.	St
-1.11.7	This is the same - the partition business is a new one to me but I've read about it.	St
-1.11.8	My objective was to recover irreplacable files and, if possible, the disk - which I did.	St
-1.11.9	Alas for the sake of this discussion, the possibility of further research into whether this was a virus, and if so which, has now gone as I have restored the disk to good working order with a fresh OS install.	St
-1.12.1	The same thing happens every time I power up the USB DVD drive with the computer running.	St
-1.12.2	Upon crashing, I reboot XP with the DVD drive still running and there is no problem until I repower the DVD drive again.	St
-1.12.3	Seems to be a power issue.	St
+1.11.1	To clarify , the virus did not appear in Linux but when I rebooted into Windows , having connected the device whilst booted into Linux .	St
+1.11.2	My assumption , and it is only an assumption , is that my test machine NTFS disk was exposed at this point and no other that I can estimate .	St
+1.11.3	That one disk has a partition failure is no reason to conclude virus .	St
+1.11.4	That these absolute partition failures , which I have never before encountered , now happen together , in this manner , and in this sequence of events - this kind of contagious hardware failure is too much coincidence for me .	St
+1.11.5	On top of that , I have before encountered the effect of malware that prevents the start-up of key windows services in normal start-up mode , hogging the CPU , whilst in safe mode , the disk is fine but AV resident shield was not loaded and 'locked out ' .	St
+1.11.6	No network connections possible .	St
+1.11.7	This is the same - the partition business is a new one to me but I 've read about it .	St
+1.11.8	My objective was to recover irreplacable files and , if possible , the disk - which I did .	St
+1.11.9	Alas for the sake of this discussion , the possibility of further research into whether this was a virus , and if so which , has now gone as I have restored the disk to good working order with a fresh OS install .	St
+1.12.1	The same thing happens every time I power up the USB DVD drive with the computer running .	St
+1.12.2	Upon crashing , I reboot XP with the DVD drive still running and there is no problem until I repower the DVD drive again .	St
+1.12.3	Seems to be a power issue .	St

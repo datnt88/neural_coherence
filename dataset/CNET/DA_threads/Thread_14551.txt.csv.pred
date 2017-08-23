@@ -1,59 +1,59 @@
-1.1.1	My eMachines desktop with Windows XP crashed, due to missing or corrupted ntoskrnl.exe.	St
-1.1.2	Now every time I turn on the PC, there's just an eMachines logo, a black screen and the missing/corrupt message.	St
-1.1.3	I have the eMachines recovery CD but the PC doesn't read it.	St
-1.1.4	I popped it in and out but my PC doesn't seems to recognize the disk.	St
-1.1.5	It keeps asking me to re-install a copy of the missing/corrupt file but I can't do so without it reading the Recovery CD.	St
-1.1.6	It also didn't allow me to type in any commands.	St
-1.1.7	When asked to re-install ntoskrnl.exe, if I press any key, the PC would just reboot and then return to the error message.	St
-1.1.8	I also tried pressing F11 or R and it activates a Recovery Program.	St
-1.1.9	It gives me 2 options, to either format or back up the whole thing.	St
-1.1.10	I can only mouse-click this so again, no command can be typed in.	St
-1.1.11	No matter what I choose, the PC would just shut down every 4-5 minutes.	St
-1.1.12	I've tried this more than 20 times and every single time, the PC would just shut down in the middle of formatting or backing up.	St
-1.1.13	It displayed a blue screen saying that it needs to shut down to prevent damage.	St
-1.1.14	There's also a string of number, I forgot to write it down but i think it was 0x00000023.	St
-1.1.15	So I have the Recovery CD but can't use it to fix the missing/corrupted ntoskrnl.exe.	St
-1.1.16	I also have access to the Recovery Program but can't do much because the computer reboot every 5 minutes.	St
-1.1.17	I don't know what wrong or what I should do next.	St
-1.1.18	Please help!	St
-1.2.1	My computer didn't come with a Windows XP CD, by the way.	St
-1.2.2	And I don't have a floppy disk so I can't download it to floppy disk, either.	St
-1.3.1	Well that file definitely is necessary on the boot process.	St
-1.3.2	You could have different solutions here.	St
-1.3.3	Here is mine.	St
-1.3.4	PROBLEM First the corrupted file name is NTOSKRNL.EXE, which is located in C:\WINDOWS\system32\ntoskrnl.exe &lt;---- &quot;BAD FILE&quot; Windows cannot locate this file or the file is just bad.	St
-1.3.5	SOLUTION You need to eliminate this file a get a new one.	St
-1.3.6	You can do the following if you get a copy of windows XP.	Sug
-1.3.7	I can probably help you with the CD, I'm located in Dallas,TX.	St
-1.3.8	Let me know of your options anyways.	St
-1.3.9	1.	St
-1.3.10	Insert Windows XP CD.	St
-1.3.11	2.	St
-1.3.12	Reboot the computer, as the computer is starting you should see a message to press any key to boot from the CD.	St
-1.3.13	When you see this message press any key.	St
-1.3.14	3.	St
-1.3.15	In the Windows XP initial menu press the R key to enter the recovery console.	St
-1.3.16	4.	St
-1.3.17	Inside the console type expand d:\i386\ntoskrnl.ex_ c:\windows\system32 6.	St
-1.3.18	You will then be prompted if you wish to overwrite the file type Y and press enter to overwrite the file.	St
-1.3.19	7.	St
-1.3.20	Type exit to reboot the computer.	St
-1.3.21	Hope this help.	St
-1.4.1	SOLUTION You need to eliminate this file a get a new one.	St
-1.4.2	You can do the following if you get a copy of windows XP 1.	Sug
-1.4.3	Insert Windows XP CD.	St
-1.4.4	2.	St
-1.4.5	Reboot the computer, as the computer is starting you should see a message to press any key to boot from the CD.	St
-1.4.6	When you see this message press any key.	St
-1.4.7	3.	St
-1.4.8	In the Windows XP initial menu press the R key to enter the recovery console.	St
-1.4.9	4.	St
-1.4.10	Type expand d:\i386\ntoskrnl.ex_ c:\windows\system32 6.	St
-1.4.11	You will then be prompted if you wish to overwrite the file type Y and press enter to overwrite the file.	St
-1.4.12	7.	St
-1.4.13	Type exit to reboot the computer.	St
-1.4.14	Hope this help, I can probably help you in getting a copy of windows so you can recover your pc.	St
-1.4.15	Let me know, I'm located in Dallas, TX by the way.	St
-1.5.1	Ok, I borrowed another WIndows XP, type in the expand command, so now my PC has the ntoskrnl.exe.	St
-1.5.2	Now it said &quot;Load needed DLLs for kernel.&quot; I googled that and found this solution &quot;expand d:\i386\hal.dl_ c:\windows\system32&quot; I typed that in, it said the file is expanded but when I restarted the PC, it would still ask for the DLL.	St
-1.5.3	What should I do?	Sug
+1.1.1	My eMachines desktop with Windows XP crashed , due to missing or corrupted ntoskrnl.exe .	St
+1.1.2	Now every time I turn on the PC , there 's just an eMachines logo , a black screen and the missing/corrupt message .	St
+1.1.3	I have the eMachines recovery CD but the PC does n't read it .	St
+1.1.4	I popped it in and out but my PC does n't seems to recognize the disk .	St
+1.1.5	It keeps asking me to re-install a copy of the missing/corrupt file but I ca n't do so without it reading the Recovery CD .	St
+1.1.6	It also did n't allow me to type in any commands .	St
+1.1.7	When asked to re-install ntoskrnl.exe , if I press any key , the PC would just reboot and then return to the error message .	St
+1.1.8	I also tried pressing F11 or R and it activates a Recovery Program .	St
+1.1.9	It gives me 2 options , to either format or back up the whole thing .	St
+1.1.10	I can only mouse-click this so again , no command can be typed in .	St
+1.1.11	No matter what I choose , the PC would just shut down every 4-5 minutes .	St
+1.1.12	I 've tried this more than 20 times and every single time , the PC would just shut down in the middle of formatting or backing up .	St
+1.1.13	It displayed a blue screen saying that it needs to shut down to prevent damage .	St
+1.1.14	There 's also a string of number , I forgot to write it down but i think it was 0x00000023 .	St
+1.1.15	So I have the Recovery CD but ca n't use it to fix the missing/corrupted ntoskrnl.exe .	St
+1.1.16	I also have access to the Recovery Program but ca n't do much because the computer reboot every 5 minutes .	St
+1.1.17	I do n't know what wrong or what I should do next .	St
+1.1.18	Please help !	St
+1.2.1	My computer did n't come with a Windows XP CD , by the way .	St
+1.2.2	And I do n't have a floppy disk so I ca n't download it to floppy disk , either .	St
+1.3.1	Well that file definitely is necessary on the boot process .	St
+1.3.2	You could have different solutions here .	St
+1.3.3	Here is mine .	St
+1.3.4	PROBLEM First the corrupted file name is NTOSKRNL.EXE , which is located in C : \WINDOWS\system32\ntoskrnl.exe & lt ; -- -- & quot ; BAD FILE & quot ; Windows can not locate this file or the file is just bad .	St
+1.3.5	SOLUTION You need to eliminate this file a get a new one .	St
+1.3.6	You can do the following if you get a copy of windows XP .	Sug
+1.3.7	I can probably help you with the CD , I 'm located in Dallas , TX .	St
+1.3.8	Let me know of your options anyways .	St
+1.3.9	1 .	St
+1.3.10	Insert Windows XP CD .	St
+1.3.11	2 .	St
+1.3.12	Reboot the computer , as the computer is starting you should see a message to press any key to boot from the CD .	St
+1.3.13	When you see this message press any key .	St
+1.3.14	3 .	St
+1.3.15	In the Windows XP initial menu press the R key to enter the recovery console .	St
+1.3.16	4 .	St
+1.3.17	Inside the console type expand d : \i386\ntoskrnl.ex_ c : \windows\system32 6 .	St
+1.3.18	You will then be prompted if you wish to overwrite the file type Y and press enter to overwrite the file .	St
+1.3.19	7 .	St
+1.3.20	Type exit to reboot the computer .	St
+1.3.21	Hope this help .	St
+1.4.1	SOLUTION You need to eliminate this file a get a new one .	St
+1.4.2	You can do the following if you get a copy of windows XP 1 .	Sug
+1.4.3	Insert Windows XP CD .	St
+1.4.4	2 .	St
+1.4.5	Reboot the computer , as the computer is starting you should see a message to press any key to boot from the CD .	St
+1.4.6	When you see this message press any key .	St
+1.4.7	3 .	St
+1.4.8	In the Windows XP initial menu press the R key to enter the recovery console .	St
+1.4.9	4 .	St
+1.4.10	Type expand d : \i386\ntoskrnl.ex_ c : \windows\system32 6 .	St
+1.4.11	You will then be prompted if you wish to overwrite the file type Y and press enter to overwrite the file .	St
+1.4.12	7 .	St
+1.4.13	Type exit to reboot the computer .	St
+1.4.14	Hope this help , I can probably help you in getting a copy of windows so you can recover your pc .	St
+1.4.15	Let me know , I 'm located in Dallas , TX by the way .	St
+1.5.1	Ok , I borrowed another WIndows XP , type in the expand command , so now my PC has the ntoskrnl.exe .	St
+1.5.2	Now it said & quot ; Load needed DLLs for kernel. & quot ; I googled that and found this solution & quot ; expand d : \i386\hal.dl_ c : \windows\system32 & quot ; I typed that in , it said the file is expanded but when I restarted the PC , it would still ask for the DLL .	St
+1.5.3	What should I do ?	Ques

@@ -1,41 +1,41 @@
-1.1.1	Got two questions for the experts here.	St
-1.1.2	First, when I try to share files/folders, they always are marked as read-only, even after I have granted others to modify files in the shared folders through the security tab.	St
-1.1.3	If I uncheck the read-only box, and apply the change, it still reverts back to being read only.	St
-1.1.4	This is on my desktop running WinXP Media Center edition (99% sure this is a variant of XP Pro).	St
-1.1.5	For the time, I have gotten around this by turning off simple file sharing and allowing full access to everybody on every shared folder.	St
-1.1.6	I don't really like that idea, but for now that's what I have to do.	St
-1.1.7	My second question is this.	St
-1.1.8	I can see and access my desktop files from my laptop (sometimes not until after a few minutes of being on the network), but I can not see the laptop from the desktop, nor can I see the desktop itself on the workgroup computers.	St
-1.1.9	The laptop has WinXP home, and WinXP Media Center (Pro?)	St
-1.1.10	on the desktop.	St
-1.1.11	I have disabled all known software firewalls, incl.	St
-1.1.12	Win ICF with no luck whatsoever.	St
-1.1.13	Any ideas?	St
-1.1.14	Thanks!	St
-1.2.1	You didn't write if Zonealarm is installed.	St
-1.2.2	There is no disable for that software in spite of the disable setting.	St
-1.2.3	As to your file permission issues, that's just something you need to read about as to ownership and permissions.	St
-1.2.4	Since all that is on the web for the reading, I will not duplicate the content here.	St
-1.2.5	Some will not research such on the web and need to go buy a book on administrating Windows.	St
-1.2.6	Recap: 1.	St
-1.2.7	Some software firewalls don't disable even if there is a checkbox to do so.	Sug
-1.2.8	2.	St
-1.2.9	Ownership and permissions.	St
-1.2.10	That's what you need to research.	St
+1.1.1	Got two questions for the experts here .	St
+1.1.2	First , when I try to share files/folders , they always are marked as read-only , even after I have granted others to modify files in the shared folders through the security tab .	St
+1.1.3	If I uncheck the read-only box , and apply the change , it still reverts back to being read only .	St
+1.1.4	This is on my desktop running WinXP Media Center edition ( 99 % sure this is a variant of XP Pro ) .	St
+1.1.5	For the time , I have gotten around this by turning off simple file sharing and allowing full access to everybody on every shared folder .	St
+1.1.6	I do n't really like that idea , but for now that 's what I have to do .	St
+1.1.7	My second question is this .	St
+1.1.8	I can see and access my desktop files from my laptop ( sometimes not until after a few minutes of being on the network ) , but I can not see the laptop from the desktop , nor can I see the desktop itself on the workgroup computers .	St
+1.1.9	The laptop has WinXP home , and WinXP Media Center ( Pro ? )	Ques
+1.1.10	on the desktop .	St
+1.1.11	I have disabled all known software firewalls , incl .	St
+1.1.12	Win ICF with no luck whatsoever .	St
+1.1.13	Any ideas ?	Ques
+1.1.14	Thanks !	St
+1.2.1	You did n't write if Zonealarm is installed .	St
+1.2.2	There is no disable for that software in spite of the disable setting .	St
+1.2.3	As to your file permission issues , that 's just something you need to read about as to ownership and permissions .	St
+1.2.4	Since all that is on the web for the reading , I will not duplicate the content here .	St
+1.2.5	Some will not research such on the web and need to go buy a book on administrating Windows .	St
+1.2.6	Recap : 1 .	St
+1.2.7	Some software firewalls do n't disable even if there is a checkbox to do so .	St
+1.2.8	2 .	St
+1.2.9	Ownership and permissions .	St
+1.2.10	That 's what you need to research .	St
 1.2.11	Bob	St
-1.3.1	I do not have ZoneAlarm installed on either machine.	St
-1.3.2	I have googled many different word combos and tried all the suggestions I found to no avail.	St
-1.3.3	I'm stuck.	St
-1.3.4	If you had some links, it would be helpful if you could provide them.	St
-1.3.5	Thanks.	St
-1.4.1	If you can be precise about accounts, NTFS is being used and more, then we can proceed.	St
-1.4.2	I forgot to mention the need for NTFS since without, this will not work.	St
-1.4.3	Let's start with &quot;groups&quot; and &quot;owners&quot;.	St
-1.4.4	You could have a shared directory that is full access to some &quot;group&quot;.	St
-1.4.5	Or you could set the group access to read-only and some other group would have full access.	St
-1.4.6	Put people in each group depending on the effect you want.	St
-1.4.7	As you can tell, such is all in the words and understanding rights, groups, owners, ownership and some tools.	St
-1.4.8	One tool is CACLS or XCACLS or similar.	St
-1.4.9	You pick which is your cup of tea.	St
-1.4.10	Have you been to a book store and looked at books on administration?	St
+1.3.1	I do not have ZoneAlarm installed on either machine .	St
+1.3.2	I have googled many different word combos and tried all the suggestions I found to no avail .	St
+1.3.3	I 'm stuck .	St
+1.3.4	If you had some links , it would be helpful if you could provide them .	St
+1.3.5	Thanks .	Polite
+1.4.1	If you can be precise about accounts , NTFS is being used and more , then we can proceed .	St
+1.4.2	I forgot to mention the need for NTFS since without , this will not work .	St
+1.4.3	Let 's start with & quot ; groups & quot ; and & quot ; owners & quot ; .	St
+1.4.4	You could have a shared directory that is full access to some & quot ; group & quot ; .	St
+1.4.5	Or you could set the group access to read-only and some other group would have full access .	St
+1.4.6	Put people in each group depending on the effect you want .	St
+1.4.7	As you can tell , such is all in the words and understanding rights , groups , owners , ownership and some tools .	St
+1.4.8	One tool is CACLS or XCACLS or similar .	St
+1.4.9	You pick which is your cup of tea .	St
+1.4.10	Have you been to a book store and looked at books on administration ?	Ques
 1.4.11	Bob	St

@@ -1,36 +1,36 @@
-1.1.1	I recently had to purchase a new router to accomodate a fifth computer added to our LAN (our router only had 4 ports).	St
-1.1.2	I know most routers will control other routers attached to it automatically, so I added another 4 port router (actually, all I could find was a 4 port switch, is this the same thing?).	St
-1.1.3	Is there any additional security gained from being behind two routers, and thus behind two hardware firewalls?	St
-1.2.1	unless you disable DHCP on the router not connected to your modem, you'll likely lose your internet capabilities.	St
-1.3.1	A router and a switch are different in many ways, but the key difference is in the way each device manages the packets of information exchanged between computers (we will use the term &quot;hosts&quot;).	St
-1.3.2	A router actually analyzes the &quot;routing information&quot; (layer 3 of the OSI model).	St
-1.3.3	Many companies have boosted that degree of intelligence to include other services &quot;built-in&quot; to the magic box, such as NAT (network address translation), DHCP (dynamic network addressing), and plenty of security-related features, packaged and presented to the owner (administrator) with a built-in web-based interface.	St
-1.3.4	(NOTE: if your router includes wireless, be sure to read the articles on cnet.com regarding securing your wireless router).	St
-1.3.5	A switch does not include the intelligence of the router, but if you already have a router, then a switch is perfect for adding ports.	St
-1.3.6	A switch is a &quot;layer 2&quot; (in the context of the OSI model) device, and while it does not contain the intelligence of the router, it does provide high throughput for the devices that are connected to it; kudos to you, you got the right box!	St
-1.3.7	At home, I have a switch, connected to a Belkin Pre-N wireless router, connected to a LinkSys/Vonage VOIP router, connected to my cable company's modem.	St
-1.3.8	I also have a Lightyear VOIP router connected to the Vonage router, and it all works just fine together: network printing via Konica-Minolta Magicolor color laserjet ethernet printer, two IP phones, 4 laptops, 2 Windows desktops, 1 Linux desktop, and an audio/video recording studio system.	St
-1.3.9	Hope I've helped some... -Woody Fairley	St
-1.4.1	Well, I didn't directly answer your question in my earlier post ~ a switch does not have the intelligence and safeguards built into it to enhance security.	St
-1.4.2	If you had purchased another router (same brand and model), generally speaking, it would not enhance security either.	St
-1.4.3	A different brand/model of router might enhance security (generally speaking) because it might use a different set of algorithms for the security functions, and hacker attacks would have to crack the first router security firewall, then discover and crack the second security firewall.	St
-1.4.4	Honestly, with only one router you are pretty safe, but I recommend viewing the articles on cnet.com regarding securing your home network, ok?	St
+1.1.1	I recently had to purchase a new router to accomodate a fifth computer added to our LAN ( our router only had 4 ports ) .	St
+1.1.2	I know most routers will control other routers attached to it automatically , so I added another 4 port router ( actually , all I could find was a 4 port switch , is this the same thing ? ) .	Sug
+1.1.3	Is there any additional security gained from being behind two routers , and thus behind two hardware firewalls ?	Ques
+1.2.1	unless you disable DHCP on the router not connected to your modem , you 'll likely lose your internet capabilities .	St
+1.3.1	A router and a switch are different in many ways , but the key difference is in the way each device manages the packets of information exchanged between computers ( we will use the term & quot ; hosts & quot ; ) .	St
+1.3.2	A router actually analyzes the & quot ; routing information & quot ; ( layer 3 of the OSI model ) .	St
+1.3.3	Many companies have boosted that degree of intelligence to include other services & quot ; built-in & quot ; to the magic box , such as NAT ( network address translation ) , DHCP ( dynamic network addressing ) , and plenty of security-related features , packaged and presented to the owner ( administrator ) with a built-in web-based interface .	St
+1.3.4	( NOTE : if your router includes wireless , be sure to read the articles on cnet.com regarding securing your wireless router ) .	St
+1.3.5	A switch does not include the intelligence of the router , but if you already have a router , then a switch is perfect for adding ports .	St
+1.3.6	A switch is a & quot ; layer 2 & quot ; ( in the context of the OSI model ) device , and while it does not contain the intelligence of the router , it does provide high throughput for the devices that are connected to it ; kudos to you , you got the right box !	St
+1.3.7	At home , I have a switch , connected to a Belkin Pre-N wireless router , connected to a LinkSys/Vonage VOIP router , connected to my cable company 's modem .	St
+1.3.8	I also have a Lightyear VOIP router connected to the Vonage router , and it all works just fine together : network printing via Konica-Minolta Magicolor color laserjet ethernet printer , two IP phones , 4 laptops , 2 Windows desktops , 1 Linux desktop , and an audio/video recording studio system .	St
+1.3.9	Hope I 've helped some ... -Woody Fairley	St
+1.4.1	Well , I did n't directly answer your question in my earlier post ~ a switch does not have the intelligence and safeguards built into it to enhance security .	St
+1.4.2	If you had purchased another router ( same brand and model ) , generally speaking , it would not enhance security either .	St
+1.4.3	A different brand/model of router might enhance security ( generally speaking ) because it might use a different set of algorithms for the security functions , and hacker attacks would have to crack the first router security firewall , then discover and crack the second security firewall .	St
+1.4.4	Honestly , with only one router you are pretty safe , but I recommend viewing the articles on cnet.com regarding securing your home network , ok ?	Ques
 1.4.5	-Woody Fairley	St
-1.5.1	Adding a switch is the best way to add more ports and less headaches.	St
-1.5.2	But for more security you can get more firewalls to the PCs and have a router from each of the big makers lined up one behind the other.	St
-1.6.1	cool, thanks for the tips, that cleared my confusion right up.	Polite
-1.6.2	Pretty sweet set-up you have there, by the way.	St
-1.7.1	never thought of it that way... you could even have multiple routers from the same maker, only different model numbers that do not share the same software/driver/firmware version running in them.	St
-1.7.2	Imagine the security of 86 firewalls...hehe... hmmm	St
-1.8.1	is that a single network or is it a different network?	St
-1.8.2	I just curious how do you manage the network, IP, NAT, DHCP, etc.?	St
-1.8.3	I quote: === At home, I have a switch, connected to a Belkin Pre-N wireless router, connected to a LinkSys/Vonage VOIP router, connected to my cable company's modem.	St
-1.8.4	I also have a Lightyear VOIP router connected to the Vonage router, and it all works just fine together: network printing via Konica-Minolta Magicolor color laserjet ethernet printer, two IP phones, 4 laptops, 2 Windows desktops, 1 Linux desktop, and an audio/video recording studio system.	St
+1.5.1	Adding a switch is the best way to add more ports and less headaches .	St
+1.5.2	But for more security you can get more firewalls to the PCs and have a router from each of the big makers lined up one behind the other .	St
+1.6.1	cool , thanks for the tips , that cleared my confusion right up .	Polite
+1.6.2	Pretty sweet set-up you have there , by the way .	St
+1.7.1	never thought of it that way ... you could even have multiple routers from the same maker , only different model numbers that do not share the same software/driver/firmware version running in them .	St
+1.7.2	Imagine the security of 86 firewalls ... hehe ... hmmm	St
+1.8.1	is that a single network or is it a different network ?	Ques
+1.8.2	I just curious how do you manage the network , IP , NAT , DHCP , etc . ?	Ques
+1.8.3	I quote : === At home , I have a switch , connected to a Belkin Pre-N wireless router , connected to a LinkSys/Vonage VOIP router , connected to my cable company 's modem .	St
+1.8.4	I also have a Lightyear VOIP router connected to the Vonage router , and it all works just fine together : network printing via Konica-Minolta Magicolor color laserjet ethernet printer , two IP phones , 4 laptops , 2 Windows desktops , 1 Linux desktop , and an audio/video recording studio system .	St
 1.8.5	===	St
-1.9.1	I apologize for not replying sooner (I'll check the forum more often).	St
-1.9.2	My home network is a single network, however I have configured the routers to provide back-to-back firewalls, and the VOIP phones enter the system at different levels (between firewalls).	St
-1.9.3	NAT and DHCP are active at every level, but the hosts receive DHCP assignments from the inner-most level DHCP server-router.	St
-1.9.4	It's easier to visualize if I could draw it on a napkin, preferrably served with a drink.	St
-1.9.5	It's important to change the default settings at every level for security purposes.	St
-1.9.6	Admin passwords, DHCP ranges, default gateway addresses, SSID's, every setting that you can change should be changed, but remember to write it all down and keep it filed for when you forget.	St
-1.9.7	-Woody PS - I've added two Apple systems to the mix since my last posting.	St
+1.9.1	I apologize for not replying sooner ( I 'll check the forum more often ) .	St
+1.9.2	My home network is a single network , however I have configured the routers to provide back-to-back firewalls , and the VOIP phones enter the system at different levels ( between firewalls ) .	St
+1.9.3	NAT and DHCP are active at every level , but the hosts receive DHCP assignments from the inner-most level DHCP server-router .	St
+1.9.4	It 's easier to visualize if I could draw it on a napkin , preferrably served with a drink .	St
+1.9.5	It 's important to change the default settings at every level for security purposes .	St
+1.9.6	Admin passwords , DHCP ranges , default gateway addresses , SSID 's , every setting that you can change should be changed , but remember to write it all down and keep it filed for when you forget .	St
+1.9.7	-Woody PS - I 've added two Apple systems to the mix since my last posting .	St

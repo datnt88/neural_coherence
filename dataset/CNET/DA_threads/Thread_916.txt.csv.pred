@@ -1,51 +1,51 @@
-1.1.1	Hi, all: I recently flashed my bios from A02 to A05 on a Dell L433c w/ 512MB RAM (256 in each of the two slots).	St
-1.1.2	Immediately after, system failed to boot because only 4MB RAM was recognized on POST.	St
-1.1.3	Repeated tries showed 16 or 24, but never enought to boot Win 98SE.	St
-1.1.4	If I remove one DIMM, system boots normally.	St
-1.1.5	In fact either DIMM in either slot works normally, but not both together.	St
-1.1.6	I took out one of the DIMMs and successfully flashed back to A02.	St
-1.1.7	Now boots normally.	St
-1.1.8	Reinstall second DIMM and have SAME PROBLEM!	St
-1.1.9	I guess it's not the BIOS after all.	St
-1.1.10	If I put either DIMM in either socket, machine works normally; if I put in both, neither A02 nor A05 BIOS will recognize more than 24 MB of RAM.	St
-1.1.11	Problem began immediately after the first BIOS flash.	St
-1.1.12	I'm starting to think about some kind of secondary chip or mobo damage.	St
-1.1.13	The diagnostic lights show all 4 green.	St
-1.1.14	Any ideas?	St
-1.2.1	Have you used a microscope to inspect the memory sockets for damage?	St
+1.1.1	Hi , all : I recently flashed my bios from A02 to A05 on a Dell L433c w/ 512MB RAM ( 256 in each of the two slots ) .	St
+1.1.2	Immediately after , system failed to boot because only 4MB RAM was recognized on POST .	St
+1.1.3	Repeated tries showed 16 or 24 , but never enought to boot Win 98SE .	St
+1.1.4	If I remove one DIMM , system boots normally .	St
+1.1.5	In fact either DIMM in either slot works normally , but not both together .	St
+1.1.6	I took out one of the DIMMs and successfully flashed back to A02 .	St
+1.1.7	Now boots normally .	St
+1.1.8	Reinstall second DIMM and have SAME PROBLEM !	St
+1.1.9	I guess it 's not the BIOS after all .	St
+1.1.10	If I put either DIMM in either socket , machine works normally ; if I put in both , neither A02 nor A05 BIOS will recognize more than 24 MB of RAM .	St
+1.1.11	Problem began immediately after the first BIOS flash .	St
+1.1.12	I 'm starting to think about some kind of secondary chip or mobo damage .	St
+1.1.13	The diagnostic lights show all 4 green .	St
+1.1.14	Any ideas ?	Ques
+1.2.1	Have you used a microscope to inspect the memory sockets for damage ?	Ques
 1.2.2	Bob	St
-1.3.1	Hi, Bob: No, but would not the fact that each socket functions individually argue against socket damage?	St
-1.3.2	Thanks, as always, for your help.	St
+1.3.1	Hi , Bob : No , but would not the fact that each socket functions individually argue against socket damage ?	Ques
+1.3.2	Thanks , as always , for your help .	St
 1.3.3	Ron	St
-1.4.1	I'm going to write no.	St
-1.4.2	Here's why.	St
-1.4.3	It's entirely possible the failed connection is a Chip-Select or &quot;other&quot; that will only make a difference when both are present.	St
-1.4.4	My background includes embedded controls with... various types of these sticks of memory.	St
-1.4.5	I'd make the visual inspection if it was my machine.	St
-1.4.6	My collection of tools include some small dental surgical tools that have brought back such boards.	St
-1.4.7	But if I didn't look at the sockets then I would have never repaired them.	St
+1.4.1	I 'm going to write no .	St
+1.4.2	Here 's why .	St
+1.4.3	It 's entirely possible the failed connection is a Chip-Select or & quot ; other & quot ; that will only make a difference when both are present .	St
+1.4.4	My background includes embedded controls with ... various types of these sticks of memory .	St
+1.4.5	I 'd make the visual inspection if it was my machine .	St
+1.4.6	My collection of tools include some small dental surgical tools that have brought back such boards .	St
+1.4.7	But if I did n't look at the sockets then I would have never repaired them .	St
 1.4.8	Bob	St
-1.5.1	OK, Bob.	St
-1.5.2	I am prepared to embark on this new level of troubleshooting.	St
-1.5.3	I'll presume that something on the order of 10x magnification would show something I may recognize as abnormal.	St
-1.5.4	I'll further presume that I may end up using the machine w/ 256MB RAM, but will advise if I make any progress...thanks again.	St
+1.5.1	OK , Bob .	St
+1.5.2	I am prepared to embark on this new level of troubleshooting .	St
+1.5.3	I 'll presume that something on the order of 10x magnification would show something I may recognize as abnormal .	St
+1.5.4	I 'll further presume that I may end up using the machine w/ 256MB RAM , but will advise if I make any progress ... thanks again .	St
 1.5.5	Ron	St
-1.6.1	If your eyes are sharp, 10X might do.	Ques
-1.6.2	I have to use 20X today... Bob	St
-1.7.1	funny, I tried to reply, but it didn't seem to go through, so I'll try again.	St
-1.7.2	Anyway, I have the *identical* system with the *identical* problem.	St
-1.7.3	128mb, 256mb - all work individually in either slot, but *NOT* together.	St
-1.7.4	What gives???	St
-1.7.5	(also have A05 BIOS) Ran	St
-1.8.1	The BX chipset has limitations which will show up as noted.	St
-1.8.2	There is no cure except for owners to use supported sticks of RAM and to go with what works.	St
+1.6.1	If your eyes are sharp , 10X might do .	St
+1.6.2	I have to use 20X today ... Bob	St
+1.7.1	funny , I tried to reply , but it did n't seem to go through , so I 'll try again .	St
+1.7.2	Anyway , I have the *identical* system with the *identical* problem .	St
+1.7.3	128mb , 256mb - all work individually in either slot , but *NOT* together .	St
+1.7.4	What gives ? ? ?	Ques
+1.7.5	( also have A05 BIOS ) Ran	St
+1.8.1	The BX chipset has limitations which will show up as noted .	St
+1.8.2	There is no cure except for owners to use supported sticks of RAM and to go with what works .	St
 1.8.3	Bob	St
-1.9.1	Hah!	St
-1.9.2	I've got somewhere!	St
-1.9.3	It turns out the BIOS is in fact the culprit!	St
-1.9.4	I started testing out different BIOS's, and when I flashed to the A00 BIOS, voila!	St
-1.9.5	Both 255mb sticks worked, and Memtest86 gave *no* errors!!!	St
-1.9.6	HAH!	St
-1.9.7	Now, I've got to see whether I can begin flashing &quot;upwards&quot; and determine at what point I lose the ability to use both modules!!!	St
-1.9.8	Pretty weird!	St
+1.9.1	Hah !	St
+1.9.2	I 've got somewhere !	St
+1.9.3	It turns out the BIOS is in fact the culprit !	St
+1.9.4	I started testing out different BIOS 's , and when I flashed to the A00 BIOS , voila !	St
+1.9.5	Both 255mb sticks worked , and Memtest86 gave *no* errors ! ! !	St
+1.9.6	HAH !	St
+1.9.7	Now , I 've got to see whether I can begin flashing & quot ; upwards & quot ; and determine at what point I lose the ability to use both modules ! ! !	St
+1.9.8	Pretty weird !	St
 1.9.9	Ran	St

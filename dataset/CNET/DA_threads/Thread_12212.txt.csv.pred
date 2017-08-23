@@ -1,37 +1,37 @@
-1.1.1	System config: Chaintech CT-7NIL1 motherboard, AMD Athlon XP 2200+ 1.8GHz, originally had 128Mb PC2100/266 DDR SDRAM CL2.5, located in 3rd DDR slot, slots 1 and 2 empty.	St
-1.1.2	Purchased Kingston 512Mb (2x256) PC3200 2.6V pair.	St
-1.1.3	P/N KVR400X64C3AK2/512.	St
-1.1.4	Chaintech manual indicates the board will support speeds from PC2100 up to PC3200 DDR SDRAM, up to 3Gb, 1Gb per slot.	St
-1.1.5	Goal was to remove the PC2100 128Mb stick, and use this new pair.	St
-1.1.6	Manual also indicates that modules can be located in any of the three available slots, OK to mix densities and speeds within stated limits.	St
-1.1.7	Problem is - could not get the PC to boot up using the 2x256Mb pair alone.	St
-1.1.8	I have tried every combination possible with the three modules (using only new module pair, using only one new 256Mb module, using all three modules, using original 128Mb and one of the 256Mb modules, switched locations, etc) and can at best get the system booted recognizing 384Mb RAM: the 128 and one of the 256's.	St
-1.1.9	Other combinations, PC just won't boot (still OK with original 128Mb alone) Once I have PC running with the original 128 and one of the 256's, then I add the 2nd 256 module, and PC won't boot.	St
-1.1.10	Suggestions?	St
-1.2.1	How is the BIOS set for the memory timing?	Ques
-1.2.2	Is it &quot;by SPD&quot; [uses the data in the PROM on the memory stick to set timings].	St
-1.2.3	Unfortunately I do not know how the system will handle different settings provided by the 3200 vs the 2100 stick.	St
-1.2.4	Remember that the the 128 is slower memory and if it is in the slot whose SPD is read it will set the lower clock speed for all slots.	St
-1.2.5	If the 3200 SPD is read then the system would set the memory speed too fast for the 128 MB stick.	St
-1.2.6	As I noted this is a wild arsed guess and doesn't explain the results of all the options that you tried.	St
-1.2.7	Try going into the BIOS and set don't use &quot;BY SPD&quot; and set the timings to the lowest speed possible and try one stck at a time.	St
-1.2.8	I have seen on some mobos, that when all slots are full the system drops the memory clock down to the next lower.	St
-1.3.1	BIOS options are &quot;Auto Detect DIMM/PCI Clk&quot; either enabled or disabled.	St
-1.3.2	Original setting was disabled; I had changed to enabled part way thru all the module swapping; it remains on &quot;enabled&quot; with my current config, 128Mb in slot 1, slot 2 open, 256 Mb in slot 3.	St
-1.4.1	Another interesting tidbit: With (1) 128Mb and (1) 256Mb module, ran www.crucial.com/systemscanner; it recognizes the 128 correctly as DDR PC2100, and the 256Mb correctly as DDR PC3200.	St
-1.4.2	I was then able to get the PC to boot up with both 256's installed, as well as the 128, although it still only recognized 384Mb total (didn't see the second 256, but was able to boot - this hasn't always been the case, go figure).	St
-1.4.3	Then, ran systemscanner again, now it reports both the 128 and the 256 as DDR PC3200 (didn't detect the other 256 module either).	St
-1.4.4	This was all done with the BIOS setting &quot;Auto Detect DIMM/PCI Clk&quot; enabled.	St
-1.5.1	One stick at a time in the same slot ... Something like Memtest86+, DocMem or even Microfsofts RAM Diag BTW...what the RAM voltage set to ?	Ques
+1.1.1	System config : Chaintech CT-7NIL1 motherboard , AMD Athlon XP 2200+ 1.8GHz , originally had 128Mb PC2100/266 DDR SDRAM CL2.5 , located in 3rd DDR slot , slots 1 and 2 empty .	St
+1.1.2	Purchased Kingston 512Mb ( 2x256 ) PC3200 2.6V pair .	St
+1.1.3	P/N KVR400X64C3AK2/512 .	St
+1.1.4	Chaintech manual indicates the board will support speeds from PC2100 up to PC3200 DDR SDRAM , up to 3Gb , 1Gb per slot .	St
+1.1.5	Goal was to remove the PC2100 128Mb stick , and use this new pair .	St
+1.1.6	Manual also indicates that modules can be located in any of the three available slots , OK to mix densities and speeds within stated limits .	St
+1.1.7	Problem is - could not get the PC to boot up using the 2x256Mb pair alone .	St
+1.1.8	I have tried every combination possible with the three modules ( using only new module pair , using only one new 256Mb module , using all three modules , using original 128Mb and one of the 256Mb modules , switched locations , etc ) and can at best get the system booted recognizing 384Mb RAM : the 128 and one of the 256 's .	St
+1.1.9	Other combinations , PC just wo n't boot ( still OK with original 128Mb alone ) Once I have PC running with the original 128 and one of the 256 's , then I add the 2nd 256 module , and PC wo n't boot .	St
+1.1.10	Suggestions ?	Ques
+1.2.1	How is the BIOS set for the memory timing ?	Ques
+1.2.2	Is it & quot ; by SPD & quot ; [ uses the data in the PROM on the memory stick to set timings ] .	St
+1.2.3	Unfortunately I do not know how the system will handle different settings provided by the 3200 vs the 2100 stick .	St
+1.2.4	Remember that the the 128 is slower memory and if it is in the slot whose SPD is read it will set the lower clock speed for all slots .	St
+1.2.5	If the 3200 SPD is read then the system would set the memory speed too fast for the 128 MB stick .	St
+1.2.6	As I noted this is a wild arsed guess and does n't explain the results of all the options that you tried .	St
+1.2.7	Try going into the BIOS and set do n't use & quot ; BY SPD & quot ; and set the timings to the lowest speed possible and try one stck at a time .	St
+1.2.8	I have seen on some mobos , that when all slots are full the system drops the memory clock down to the next lower .	St
+1.3.1	BIOS options are & quot ; Auto Detect DIMM/PCI Clk & quot ; either enabled or disabled .	St
+1.3.2	Original setting was disabled ; I had changed to enabled part way thru all the module swapping ; it remains on & quot ; enabled & quot ; with my current config , 128Mb in slot 1 , slot 2 open , 256 Mb in slot 3 .	St
+1.4.1	Another interesting tidbit : With ( 1 ) 128Mb and ( 1 ) 256Mb module , ran www.crucial.com/systemscanner ; it recognizes the 128 correctly as DDR PC2100 , and the 256Mb correctly as DDR PC3200 .	St
+1.4.2	I was then able to get the PC to boot up with both 256 's installed , as well as the 128 , although it still only recognized 384Mb total ( did n't see the second 256 , but was able to boot - this has n't always been the case , go figure ) .	St
+1.4.3	Then , ran systemscanner again , now it reports both the 128 and the 256 as DDR PC3200 ( did n't detect the other 256 module either ) .	St
+1.4.4	This was all done with the BIOS setting & quot ; Auto Detect DIMM/PCI Clk & quot ; enabled .	St
+1.5.1	One stick at a time in the same slot ... Something like Memtest86+ , DocMem or even Microfsofts RAM Diag BTW ... what the RAM voltage set to ?	Ques
 1.5.2	VAPCMD	St
-1.6.1	One stick at a time in the same slot ... Something like Memtest86+, DocMem or even Microfsofts RAM Diag BTW...what the RAM voltage set to ?	Ques
+1.6.1	One stick at a time in the same slot ... Something like Memtest86+ , DocMem or even Microfsofts RAM Diag BTW ... what the RAM voltage set to ?	Ques
 1.6.2	VAPCMD	St
-1.7.1	Check with ChainTech's support website to see what if any bios updates are avaialble and what they do.	St
-1.7.2	Next, are those new ram modules double or single sided populated?	St
-1.7.3	Often times mixng high or low density ram causes problems(single or double-sided).	St
-1.7.4	regardless, of what they stated, it does make a difference when you mix it up too much or its just not compatible enough.	St
-1.7.5	Play with the ram setting in bios for the default or *safe* level for now.	St
-1.7.6	In some cases, you can tweek it abit to the next level of CAS and see if that works better, plus if voltage tweekable, up it a notch.	St
-1.7.7	Last, Chaintech, IMHO is not a good mtrbd.	St
-1.7.8	though it seems to give you past good service, its a cheapie.	St
-1.7.9	tada -----Willy	St
+1.7.1	Check with ChainTech 's support website to see what if any bios updates are avaialble and what they do .	St
+1.7.2	Next , are those new ram modules double or single sided populated ?	Ques
+1.7.3	Often times mixng high or low density ram causes problems ( single or double-sided ) .	St
+1.7.4	regardless , of what they stated , it does make a difference when you mix it up too much or its just not compatible enough .	St
+1.7.5	Play with the ram setting in bios for the default or *safe* level for now .	St
+1.7.6	In some cases , you can tweek it abit to the next level of CAS and see if that works better , plus if voltage tweekable , up it a notch .	St
+1.7.7	Last , Chaintech , IMHO is not a good mtrbd .	St
+1.7.8	though it seems to give you past good service , its a cheapie .	St
+1.7.9	tada -- -- -Willy	St

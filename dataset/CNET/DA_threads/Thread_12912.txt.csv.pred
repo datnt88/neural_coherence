@@ -1,89 +1,89 @@
-1.1.1	I have two monitors off a HD2400Pro and I want to install a third monitor on my system.	St
-1.1.2	As I have unused PCI slots I assumed the best way to do this was install an old 7000 series PCI I had to run the third monitor.	St
-1.1.3	I installed the card and on reboot Windows recognizes a Radeon 7000 series and reboots but as Windows is restarting the XP splash screen pauses for a second and the system just restarts again, now requiring safe mode or last known good config to proceed (which of course does not properly install the 7000).	St
-1.1.4	When I remove the 7000 everything's AOK and the system functions normally.	St
-1.1.5	I've updated the motherboard BIOS to the latest version, set the BIOS to initilise the PCI-E or PCI graphics first and I even moved the card into every PCI slot systematically to see if that would work, but it achieves the same result.	St
-1.1.6	I have verified that the PCI card works AOK in another PC.	St
-1.1.7	My system specs are: Processor: Intel Core2 Duo E8400 Mainboard: Gigabyte GA-P35-S3G with 1x PCI-E 1, 1x PCI-E 16 and 5x PCI slots (no onboard VGA) Main GPU: Sapphire Radeon HD2400 PRO PSU: Seasonic 12v 500w, OS: Win XP SP2 I'm currently using the ATi drivers that were installed with the HD2400Pro (8.512.0.0).	St
-1.1.8	I hope someone can help me or advise me about a new PCI card assuming it's just a case that the 7000 can't work with drivers for the HD2400 installed.	St
+1.1.1	I have two monitors off a HD2400Pro and I want to install a third monitor on my system .	St
+1.1.2	As I have unused PCI slots I assumed the best way to do this was install an old 7000 series PCI I had to run the third monitor .	St
+1.1.3	I installed the card and on reboot Windows recognizes a Radeon 7000 series and reboots but as Windows is restarting the XP splash screen pauses for a second and the system just restarts again , now requiring safe mode or last known good config to proceed ( which of course does not properly install the 7000 ) .	St
+1.1.4	When I remove the 7000 everything 's AOK and the system functions normally .	St
+1.1.5	I 've updated the motherboard BIOS to the latest version , set the BIOS to initilise the PCI-E or PCI graphics first and I even moved the card into every PCI slot systematically to see if that would work , but it achieves the same result .	St
+1.1.6	I have verified that the PCI card works AOK in another PC .	St
+1.1.7	My system specs are : Processor : Intel Core2 Duo E8400 Mainboard : Gigabyte GA-P35-S3G with 1x PCI-E 1 , 1x PCI-E 16 and 5x PCI slots ( no onboard VGA ) Main GPU : Sapphire Radeon HD2400 PRO PSU : Seasonic 12v 500w , OS : Win XP SP2 I 'm currently using the ATi drivers that were installed with the HD2400Pro ( 8.512.0.0 ) .	St
+1.1.8	I hope someone can help me or advise me about a new PCI card assuming it 's just a case that the 7000 ca n't work with drivers for the HD2400 installed .	St
 1.1.9	Thanks in advance	St
-1.2.1	Got the motherboard driver package right.	St
-1.2.2	Can you share what version they used?	St
-1.2.3	And what's in the EVENT VIEWER?	St
-1.3.1	I'm not sure what to check to determine the version of the motherboard drivers, but installed them myself from the supplied DVD.	Res
-1.3.2	There are two errors shown in Event Viewer one is linked to &quot;ati2mtag&quot; Event Type:	St
-1.4.1	the oldest supported gpu is the radeon 9500.	St
-1.4.2	(note, the 9250 is no longer supported either.)	St
-1.4.3	your best bet is to boot into safe mode and force the card to use a standard vga driver but you'll probably be limited to 1024x768.	St
-1.4.4	you could also add an nvidia geforce based card, but both ati and nvidia drivers are pretty fat.	St
-1.4.5	if you want a new card, this x1550 is the cheapest pci card that works with the current drivers ($81): http://www.newegg.com/Product/Product.aspx?Item=N82E16814161227 this x1550 uses the pci-express x1 slot but is a bit more at $107: http://www.newegg.com/Product/Product.aspx?Item=N82E16814161197 you could also try to find an old ati rage or mach 32 pci card.	St
-1.4.6	they're still supported by the 8.x drivers.	St
-1.4.7	http://www.geeks.com/details.asp?invtid=ATI-RAGEXL-8M&cat=VCD	St
-1.5.1	The I SQUARED C driver which is a motherboard driver issue looks to need work.	St
-1.5.2	-&gt; WHAT MOTHERBOARD DRIVER PACKAGE (name, version please) did you use?	St
-1.5.3	How to tell which?	St
-1.5.4	Fish out the DVD and look at it with explorer, right click, properties.	St
-1.5.5	But given this failure I'd go get the latest from the motherboard maker.	St
-1.5.6	HOWEVER this is an INTEL CHIPSET so why not get the newest from them?	St
-1.5.7	Maker's link -&gt; http://www.gigabyte.com.tw/Support/Motherboard/Driver_Model.aspx?ProductID=2729 Intel's latest -&gt; http://downloadcenter.intel.com/Product_Filter.aspx?ProductID=816 Bob	St
-1.6.1	No newer chipset drivers available.	St
-1.6.2	Thank you for the suggestion.	St
-1.7.1	That seems VERY new and your reply is what some Microsoft &quot;udpate driver&quot; would say.	St
-1.7.2	Tell me exactly what date driver you are using.	St
-1.8.1	Date: December 12 2007	St
+1.2.1	Got the motherboard driver package right .	St
+1.2.2	Can you share what version they used ?	Ques
+1.2.3	And what 's in the EVENT VIEWER ?	Ques
+1.3.1	I 'm not sure what to check to determine the version of the motherboard drivers , but installed them myself from the supplied DVD .	St
+1.3.2	There are two errors shown in Event Viewer one is linked to & quot ; ati2mtag & quot ; Event Type :	St
+1.4.1	the oldest supported gpu is the radeon 9500 .	St
+1.4.2	( note , the 9250 is no longer supported either . )	St
+1.4.3	your best bet is to boot into safe mode and force the card to use a standard vga driver but you 'll probably be limited to 1024x768 .	St
+1.4.4	you could also add an nvidia geforce based card , but both ati and nvidia drivers are pretty fat .	St
+1.4.5	if you want a new card , this x1550 is the cheapest pci card that works with the current drivers ( $ 81 ) : http : //www.newegg.com/Product/Product.aspx ? Item=N82E16814161227 this x1550 uses the pci-express x1 slot but is a bit more at $ 107 : http : //www.newegg.com/Product/Product.aspx ? Item=N82E16814161197 you could also try to find an old ati rage or mach 32 pci card .	St
+1.4.6	they 're still supported by the 8.x drivers .	St
+1.4.7	http : //www.geeks.com/details.asp ? invtid=ATI-RAGEXL-8M & cat=VCD	Ques
+1.5.1	The I SQUARED C driver which is a motherboard driver issue looks to need work .	St
+1.5.2	- & gt ; WHAT MOTHERBOARD DRIVER PACKAGE ( name , version please ) did you use ?	Ques
+1.5.3	How to tell which ?	Ques
+1.5.4	Fish out the DVD and look at it with explorer , right click , properties .	St
+1.5.5	But given this failure I 'd go get the latest from the motherboard maker .	St
+1.5.6	HOWEVER this is an INTEL CHIPSET so why not get the newest from them ?	Ques
+1.5.7	Maker 's link - & gt ; http : //www.gigabyte.com.tw/Support/Motherboard/Driver_Model.aspx ? ProductID=2729 Intel 's latest - & gt ; http : //downloadcenter.intel.com/Product_Filter.aspx ? ProductID=816 Bob	Ques
+1.6.1	No newer chipset drivers available .	St
+1.6.2	Thank you for the suggestion .	St
+1.7.1	That seems VERY new and your reply is what some Microsoft & quot ; udpate driver & quot ; would say .	St
+1.7.2	Tell me exactly what date driver you are using .	St
+1.8.1	Date : December 12 2007	St
 1.9.1	NIL	St
-1.10.1	--&gt;catalyst 8.x drivers don't support radeon 7000 series the oldest supported gpu is the radeon 9500.	St
-1.10.2	(note, the 9250 is no longer supported either) The the previous system I had the third monitor on had an X800Pro so the Catalyst drivers for that probably supported the 7000 which is why there was no issue there.	St
-1.10.3	What I don't get is how the 7000 is no longer supported but a Rage card is!!!	St
-1.10.4	Didn't I have one of those like 10 years ago?	St
-1.10.5	I'm sure of it!	St
-1.10.6	--&gt; your best bet is to boot into safe mode and force the card to use a standard vga driver but you'll probably be limited to 1024x768.	St
-1.10.7	The monitor is a 15-inch and will only support that resolution so that'd work for me.	St
-1.10.8	Thing is: I can get the card installed with the windows default &quot;Video Controller (VGA Compatible)&quot; mode but when I click on drivers it says: &quot;No driver files are required or have been loaded for this device.&quot; It even boots up in normal mode so long as it's kept as a standard VGA and I don't update driver to an ATi, however the monitor attached to it isn't detected and only my two other monitors show up in the Windows display properties.	St
-1.10.9	The VGA adapter doesn't show up in the display tab either.	St
-1.10.10	Is the Standard VGA driver you refer to a physical driver in the sense it will show up as a driver in the driver properties?	St
-1.10.11	Is there a file somewhere I can download of find in the CABS that will show up as a physical generic VGA driver as opposed to the &quot;phantom&quot; default VGA driver?	St
-1.10.12	--&gt;you could also add an nvidia geforce based card, but both ati and nvidia drivers are pretty fat.	St
-1.10.13	I always assumed they would interfere with each other, I may try the Rage first, should be able to pick one up for pennies.	St
-1.10.14	Thanks for the help.	St
-1.11.1	If you do have 2 graphics cards now i think it wont work because you have to have a crossfire-compatible motherboard and i dont think and old radeon 7000 has that.	Ques
+1.10.1	-- & gt ; catalyst 8.x drivers do n't support radeon 7000 series the oldest supported gpu is the radeon 9500 .	St
+1.10.2	( note , the 9250 is no longer supported either ) The the previous system I had the third monitor on had an X800Pro so the Catalyst drivers for that probably supported the 7000 which is why there was no issue there .	St
+1.10.3	What I do n't get is how the 7000 is no longer supported but a Rage card is ! ! !	St
+1.10.4	Did n't I have one of those like 10 years ago ?	Ques
+1.10.5	I 'm sure of it !	St
+1.10.6	-- & gt ; your best bet is to boot into safe mode and force the card to use a standard vga driver but you 'll probably be limited to 1024x768 .	St
+1.10.7	The monitor is a 15-inch and will only support that resolution so that 'd work for me .	St
+1.10.8	Thing is : I can get the card installed with the windows default & quot ; Video Controller ( VGA Compatible ) & quot ; mode but when I click on drivers it says : & quot ; No driver files are required or have been loaded for this device. & quot ; It even boots up in normal mode so long as it 's kept as a standard VGA and I do n't update driver to an ATi , however the monitor attached to it is n't detected and only my two other monitors show up in the Windows display properties .	St
+1.10.9	The VGA adapter does n't show up in the display tab either .	St
+1.10.10	Is the Standard VGA driver you refer to a physical driver in the sense it will show up as a driver in the driver properties ?	Ques
+1.10.11	Is there a file somewhere I can download of find in the CABS that will show up as a physical generic VGA driver as opposed to the & quot ; phantom & quot ; default VGA driver ?	Ques
+1.10.12	-- & gt ; you could also add an nvidia geforce based card , but both ati and nvidia drivers are pretty fat .	St
+1.10.13	I always assumed they would interfere with each other , I may try the Rage first , should be able to pick one up for pennies .	St
+1.10.14	Thanks for the help .	St
+1.11.1	If you do have 2 graphics cards now i think it wont work because you have to have a crossfire-compatible motherboard and i dont think and old radeon 7000 has that .	St
 1.11.2	i might be wrong but im pretty sure that 2 graphics cards cant go crossfire like that especially with one soo old	St
-1.12.1	No mate, I know Crossfire is impossible in my situation, I just want to have a third monitor working independently of the other two, even it worked in 256 @ 800x600 I'd be happy.	St
-1.13.1	It's mainly to see if we can address that I2C error.	St
-1.13.2	If not then you need to get a card that is supported by drivers as noted below.	St
-1.14.1	you don't need drivers for standard vga.	St
-1.14.2	it seems the video card is working but windows is refusing to use it.	St
-1.14.3	have you tried switching the bios to make the pci adapter the primary/startup adapter?	St
-1.15.1	I focused on that since it's something I've dealt with before.	St
-1.15.2	It's a simple matter to get the latest Intel motherboard chipset drivers but some don't get the connection from that to the error.	St
-1.15.3	If we could get that installed then it's crossed off the list and we look deeper at card to driver support issues like you are doing.	Sug
-1.16.1	in safe mode are you?	St
-1.16.2	if so, try it in regular mode.	St
-1.17.1	http://64.233.169.104/search?q=cache:EIwArxdnnocJ:www.motherboardpoint.com/t159512-ati2mtag-gives-blue-screens.html+ati2mtag+i2c&hl=en&ct=clnk&cd=4&gl=us&client=mozilla I'd like to see that Intel driver installed then you may have to repeat the above chore of driver (hell) testing.	St
-1.18.1	that's an issue with the ati drivers, not necessarily the motherboard drivers.	St
-1.18.2	the 8.x catalyst drivers do not support the radeon 7000 so that error from when he was trying to apply those drivers to that card.	St
-1.19.1	The motherboard drivers tell the drivers how to do that.	St
-1.19.2	It's a small step along the way.	St
-1.20.1	It's also showing two instances of a new error Event Type:	St
-1.21.1	(with an unsigned driver 6.14.10.6517) and it's even configurable in Catalylst Control.	St
-1.21.2	The I2C error is still appearing in even viewer but is not halting or restarting the system which makes me think it was the other error that was doing that.	St
-1.21.3	I do have 2 instance of a new error related to ati2mtag: Event Type:	St
-1.22.1	It altered nothing apart from showing the post and BIOS screens in the third monitor but once it booted into windows the primary display adapter (the HD2400) took over.	St
-1.22.2	The properties of the &quot;VGA Compatible&quot; remained unchanged.	St
-1.23.1	I just had the one.	St
-1.23.2	The ATi driver gets swiched off anyway once in safe mode and you're left with basic functionality.	St
-1.24.1	Sorry but CPLIB is something of an ATI driver bugaboo.	St
-1.24.2	I've cured this but it's not nearly so easy.	St
-1.24.3	I have to wipe the drivers, install a version, try, if not go down a version (wipe, install, test) till I get it.	St
-1.24.4	I think you cleared up one error at least.	St
+1.12.1	No mate , I know Crossfire is impossible in my situation , I just want to have a third monitor working independently of the other two , even it worked in 256 @ 800x600 I 'd be happy .	St
+1.13.1	It 's mainly to see if we can address that I2C error .	St
+1.13.2	If not then you need to get a card that is supported by drivers as noted below .	St
+1.14.1	you do n't need drivers for standard vga .	St
+1.14.2	it seems the video card is working but windows is refusing to use it .	St
+1.14.3	have you tried switching the bios to make the pci adapter the primary/startup adapter ?	Ques
+1.15.1	I focused on that since it 's something I 've dealt with before .	St
+1.15.2	It 's a simple matter to get the latest Intel motherboard chipset drivers but some do n't get the connection from that to the error .	St
+1.15.3	If we could get that installed then it 's crossed off the list and we look deeper at card to driver support issues like you are doing .	Sug
+1.16.1	in safe mode are you ?	Ques
+1.16.2	if so , try it in regular mode .	St
+1.17.1	http : //64.233.169.104/search ? q=cache : EIwArxdnnocJ : www.motherboardpoint.com/t159512-ati2mtag-gives-blue-screens.html+ati2mtag+i2c & hl=en & ct=clnk & cd=4 & gl=us & client=mozilla I 'd like to see that Intel driver installed then you may have to repeat the above chore of driver ( hell ) testing .	St
+1.18.1	that 's an issue with the ati drivers , not necessarily the motherboard drivers .	St
+1.18.2	the 8.x catalyst drivers do not support the radeon 7000 so that error from when he was trying to apply those drivers to that card .	St
+1.19.1	The motherboard drivers tell the drivers how to do that .	St
+1.19.2	It 's a small step along the way .	St
+1.20.1	It 's also showing two instances of a new error Event Type :	St
+1.21.1	( with an unsigned driver 6.14.10.6517 ) and it 's even configurable in Catalylst Control .	St
+1.21.2	The I2C error is still appearing in even viewer but is not halting or restarting the system which makes me think it was the other error that was doing that .	St
+1.21.3	I do have 2 instance of a new error related to ati2mtag : Event Type :	St
+1.22.1	It altered nothing apart from showing the post and BIOS screens in the third monitor but once it booted into windows the primary display adapter ( the HD2400 ) took over .	St
+1.22.2	The properties of the & quot ; VGA Compatible & quot ; remained unchanged .	St
+1.23.1	I just had the one .	St
+1.23.2	The ATi driver gets swiched off anyway once in safe mode and you 're left with basic functionality .	St
+1.24.1	Sorry but CPLIB is something of an ATI driver bugaboo .	St
+1.24.2	I 've cured this but it 's not nearly so easy .	St
+1.24.3	I have to wipe the drivers , install a version , try , if not go down a version ( wipe , install , test ) till I get it .	St
+1.24.4	I think you cleared up one error at least .	St
 1.24.5	Bob	St
-1.25.1	Sorry, I should have been clearer, I still have the I2c and 2 CPLIB errors so that's 3 errors in total.	St
-1.25.2	The I2C is still attached to ati2mag but it doesn't seem to effect either adapter in any way I can discern.	St
-1.25.3	It's not preventing the system from starting normally: Event Type:	St
-1.26.1	What I learned a long time ago was that I can't just install video drivers.	St
-1.26.2	I had to clean them out then install ONE version.	St
-1.26.3	Otherwise some silly piece is left behind and does &quot;that.&quot; If it works, move on.	St
+1.25.1	Sorry , I should have been clearer , I still have the I2c and 2 CPLIB errors so that 's 3 errors in total .	St
+1.25.2	The I2C is still attached to ati2mag but it does n't seem to effect either adapter in any way I can discern .	St
+1.25.3	It 's not preventing the system from starting normally : Event Type :	St
+1.26.1	What I learned a long time ago was that I ca n't just install video drivers .	St
+1.26.2	I had to clean them out then install ONE version .	St
+1.26.3	Otherwise some silly piece is left behind and does & quot ; that. & quot ; If it works , move on .	St
 1.26.4	Bob	St
-1.27.1	Many thanks to you Bob and those who helped a distraught Irishman with his problem.	Polite
-1.27.2	I'm gonna quit while I'm ahead with 2 working graphics cards and let those non-intrusive event errors alone.	Sug
-1.27.3	Many thanks again.	Polite
+1.27.1	Many thanks to you Bob and those who helped a distraught Irishman with his problem .	Polite
+1.27.2	I 'm gon na quit while I 'm ahead with 2 working graphics cards and let those non-intrusive event errors alone .	St
+1.27.3	Many thanks again .	Polite

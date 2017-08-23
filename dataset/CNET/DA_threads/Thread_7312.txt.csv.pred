@@ -1,101 +1,101 @@
-1.1.1	Its one run, from A to B about 150 feet.	St
-1.1.2	At the termination is the problem.	St
-1.1.3	I will describe the run.	St
-1.1.4	It starts at the Router (A), then goes to a wall jack (1), then from the wall jack to a switch (2), from the switch to a RJ45 connector to another switch (3) from that switch to a wall jack (4), Here lies the problem, after checking the cable for connection, everything is green up to the last wall jack (4), I added another short cat5 cable to go to the computer and i checked the cable for green.	St
-1.1.5	Everything is great.	St
-1.1.6	However, when connected to the computer it did not work.	St
-1.1.7	now, first thing i did was recheck my lines again and again, all good.	St
-1.1.8	The second thing was to bypass each section starting at the end (B).	St
-1.1.9	so, i tried other cables with no luck, then i ran a cable from switch 3 directly to the computer and it worked.	St
-1.1.10	My thought was something wrong with the last part of the run.	St
-1.1.11	I rechecked and redid the line, no luck.	St
-1.1.12	I disconnected at (B) the wall jack.	St
-1.1.13	I connected an RJ45 to it instead, retested and ok.	St
-1.1.14	I then put on a coupler to extend the reach to the computer, still did not work.	St
-1.1.15	The coupler is good and works great.	St
-1.1.16	So my next step was to connect the computer directly to the last RJ45 at the wall and see what happens.	St
-1.1.17	It works!!!!!	St
-1.1.18	So, at the termination end, no matter if it is a wall jack or an RJ45, it won't allow me to add another cable from the 45 or the wall jack.	St
-1.1.19	However, i was able to hook up another switch to the end point and connect a cable from the switch to the computer.	St
-1.1.20	No problems at all.	St
-1.1.21	So, what is wrong, does anyone have any idea.	Ques
-1.1.22	All the cables are working the connections are good, I just cannot go from the wall jack to the computer.	St
+1.1.1	Its one run , from A to B about 150 feet .	St
+1.1.2	At the termination is the problem .	St
+1.1.3	I will describe the run .	St
+1.1.4	It starts at the Router ( A ) , then goes to a wall jack ( 1 ) , then from the wall jack to a switch ( 2 ) , from the switch to a RJ45 connector to another switch ( 3 ) from that switch to a wall jack ( 4 ) , Here lies the problem , after checking the cable for connection , everything is green up to the last wall jack ( 4 ) , I added another short cat5 cable to go to the computer and i checked the cable for green .	St
+1.1.5	Everything is great .	Polite
+1.1.6	However , when connected to the computer it did not work .	St
+1.1.7	now , first thing i did was recheck my lines again and again , all good .	St
+1.1.8	The second thing was to bypass each section starting at the end ( B ) .	St
+1.1.9	so , i tried other cables with no luck , then i ran a cable from switch 3 directly to the computer and it worked .	St
+1.1.10	My thought was something wrong with the last part of the run .	St
+1.1.11	I rechecked and redid the line , no luck .	St
+1.1.12	I disconnected at ( B ) the wall jack .	St
+1.1.13	I connected an RJ45 to it instead , retested and ok .	St
+1.1.14	I then put on a coupler to extend the reach to the computer , still did not work .	St
+1.1.15	The coupler is good and works great .	Polite
+1.1.16	So my next step was to connect the computer directly to the last RJ45 at the wall and see what happens .	St
+1.1.17	It works ! ! ! ! !	St
+1.1.18	So , at the termination end , no matter if it is a wall jack or an RJ45 , it wo n't allow me to add another cable from the 45 or the wall jack .	St
+1.1.19	However , i was able to hook up another switch to the end point and connect a cable from the switch to the computer .	St
+1.1.20	No problems at all .	St
+1.1.21	So , what is wrong , does anyone have any idea .	St
+1.1.22	All the cables are working the connections are good , I just can not go from the wall jack to the computer .	St
 1.1.23	Allen	St
-1.2.1	I see this happen if the installer gets the pairs wrong.	St
-1.2.2	That is, electrically it's proper but they didn't get the pairs right.	St
-1.3.1	What do you mean, i checked and rechecked, the pairs are perfect.	Ques
-1.3.2	At the end is a RJ45 plugged into a switch with no problems, however if i use a female to female adapter then to the computer, it is a no go.	St
-1.4.1	A similar adapter is in my kit bag.	St
-1.4.2	But it confuses people as it's swaps pins around.	St
-1.5.1	It lets others double check the work.	St
-1.5.2	No sharing means you miss out on the double check.	St
-1.6.1	What exactly do you mean by share your pairing.	Ques
-1.6.2	I thought you were talking about the color code.	St
-1.6.3	ow, o, gw, b,bw,g,brownw,brown I am not sure if that is what you want.	St
-1.6.4	it is just standard setup.	St
-1.7.1	the coupler is a straight through and i already tested it on other lines and works great.	St
-1.7.2	female to female.	St
-1.8.1	The same colours do not connect in a straight through the coupler.	St
-1.8.2	That's why there are 2 types of this coupler.	St
-1.9.1	I did test that with the cable tester, it was all good, this coupler is a straight thru shot.	St
-1.9.2	I also used another wall jack as well.	St
-1.9.3	Still the same results.	St
-1.9.4	It just seems to be very difficult.	St
-1.9.5	The only other thing i can think of is that the cable tester has gone bad.	St
-1.9.6	but i have been using it for some time with no problems.	St
-1.9.7	Just wired up an entire office with it, and everything was a go.	St
-1.9.8	No problems at all.	St
-1.10.1	If I use a straight FF I have to check that my colors match on both sides.	St
-1.10.2	Do they?	St
-1.10.3	I haven't referenced any web pages because they are plentiful.	St
-1.10.4	I wanted to share the easiest thought possible.	St
-1.10.5	Here it is: Pick up a factory made cable.	St
-1.10.6	Match the colors on one end and then maintain that throughout that cable run and end with the same as the factory cable at the other end.	St
-1.10.7	IF you have a coupler you have to be sure the colors match up proper.	St
+1.2.1	I see this happen if the installer gets the pairs wrong .	St
+1.2.2	That is , electrically it 's proper but they did n't get the pairs right .	St
+1.3.1	What do you mean , i checked and rechecked , the pairs are perfect .	St
+1.3.2	At the end is a RJ45 plugged into a switch with no problems , however if i use a female to female adapter then to the computer , it is a no go .	St
+1.4.1	A similar adapter is in my kit bag .	St
+1.4.2	But it confuses people as it 's swaps pins around .	St
+1.5.1	It lets others double check the work .	St
+1.5.2	No sharing means you miss out on the double check .	St
+1.6.1	What exactly do you mean by share your pairing .	St
+1.6.2	I thought you were talking about the color code .	St
+1.6.3	ow , o , gw , b , bw , g , brownw , brown I am not sure if that is what you want .	St
+1.6.4	it is just standard setup .	St
+1.7.1	the coupler is a straight through and i already tested it on other lines and works great .	St
+1.7.2	female to female .	St
+1.8.1	The same colours do not connect in a straight through the coupler .	St
+1.8.2	That 's why there are 2 types of this coupler .	St
+1.9.1	I did test that with the cable tester , it was all good , this coupler is a straight thru shot .	St
+1.9.2	I also used another wall jack as well .	St
+1.9.3	Still the same results .	St
+1.9.4	It just seems to be very difficult .	St
+1.9.5	The only other thing i can think of is that the cable tester has gone bad .	St
+1.9.6	but i have been using it for some time with no problems .	St
+1.9.7	Just wired up an entire office with it , and everything was a go .	St
+1.9.8	No problems at all .	St
+1.10.1	If I use a straight FF I have to check that my colors match on both sides .	St
+1.10.2	Do they ?	Ques
+1.10.3	I have n't referenced any web pages because they are plentiful .	St
+1.10.4	I wanted to share the easiest thought possible .	St
+1.10.5	Here it is : Pick up a factory made cable .	St
+1.10.6	Match the colors on one end and then maintain that throughout that cable run and end with the same as the factory cable at the other end .	St
+1.10.7	IF you have a coupler you have to be sure the colors match up proper .	St
 1.10.8	Bob	St
-1.11.1	You mentioned switch to switch.	St
-1.11.2	Are these auto-sensing types or have an &quot;uplink&quot; port?	St
-1.11.3	If not, you need to link them with a crossover cable.	St
-1.12.1	I did as you suggested.	St
-1.12.2	I have factory short cables.	St
-1.12.3	I tried that as well with no luck.	St
-1.12.4	I really thought like you as to the pairing but I have not found any link.	St
-1.12.5	I have wired hundreds places of the years and have never had this problem.	St
-1.12.6	That is why i am lost.	St
-1.13.1	all new auto sensing units.	St
-1.13.2	I thought of that one as well.	St
+1.11.1	You mentioned switch to switch .	St
+1.11.2	Are these auto-sensing types or have an & quot ; uplink & quot ; port ?	Ques
+1.11.3	If not , you need to link them with a crossover cable .	St
+1.12.1	I did as you suggested .	St
+1.12.2	I have factory short cables .	St
+1.12.3	I tried that as well with no luck .	Polite
+1.12.4	I really thought like you as to the pairing but I have not found any link .	St
+1.12.5	I have wired hundreds places of the years and have never had this problem .	St
+1.12.6	That is why i am lost .	St
+1.13.1	all new auto sensing units .	St
+1.13.2	I thought of that one as well .	St
 1.13.3	But I can get through all the switches with no problems	St
-1.14.1	is there a way to post a jpg.	St
-1.14.2	i have a diagram that shows what i have done.	St
-1.15.1	and have made just about every mistake one could make.	St
-1.15.2	I'm sure you've looked into the T-568a and b schemes may have noted some variances in which colored pairs are used in some CAT5 that still works.	St
-1.15.3	As well, if testing, you can't just to the xmit rcv pairs because the non-used ones must also be connected and connected properly.	St
-1.15.4	If you've done your own punch downs for the wall outlets, you will want to pay very close attention if they show both the &quot;a&quot; and &quot;b&quot; schemes.	St
-1.15.5	You'll want &quot;b&quot; and don't think you can just lay them straight across like what you'll see in the cable ends as these are designed to minimize the amount of untwisting you need to do....and do keep the untwisted wire as short as possible.	St
-1.15.6	If you have a DVM, it's real easy to make a loopback connector to check cable continuity yourself rather than use your tester.	St
-1.15.7	That could be a good way to get a second opinion.	St
-1.15.8	I've got one I need to check myself in a school I wired where the connection at the switch shows a 10mb rather than 100mb connection.	St
-1.15.9	It's about 150 foot run from a room outlet to a patch panel and I'm suspecting one of the unused wires might have become detached at one end and hoping it's not due to a mouse bite somewhere in the ceiling.	St
-1.16.1	I want a crossover cable.	St
-1.16.2	Since the issue only appears to be when the FF connector is used why isn't that the &quot;bad thing&quot;?	St
-1.17.1	however, as for the pairing, its a no brainer.	St
-1.17.2	I have gigabit throughout the network.	St
-1.17.3	everything is on and perfect.	St
-1.17.4	am running full duplex and no problems.	St
-1.17.5	Even with my current hookup bypassing the wall jack and going to a switch and then to the computer, it is full duplex and green all the way.	St
-1.17.6	This is why it is so confusing.	St
-1.17.7	I can terminate right at the wall jack without the jack, once the jack is hooked up, it goes dead.	St
-1.17.8	I have tried 4 different wall jacks with no luck.	St
-1.17.9	The funny part is that if i put a coupler on the end in place of the wall jack, it won't work, so i figured it was the wiring.	St
-1.17.10	That only makes sense.	St
-1.17.11	But i reran another wire and the same results.	St
-1.17.12	I am with you about the wiring, I still believe it is that, however I cannot seem to find it anywhere.	St
-1.17.13	I also had another person take a look and he gave up.	St
-1.17.14	I have been through several wall jacks, 4 couplers, my own cables, store bought cables.	St
-1.17.15	My pair testing is right on, my resistance testing is perfect.	St
-1.17.16	Other then running a third wire from the last run, that is the best i can come up with.	St
-1.17.17	The only other thought is that something is interfering with the last leg of the run.	St
-1.17.18	I am not sure but maybe some wiring in the walls or ceiling that i didn't catch.	St
-1.18.1	I'll share a buddy lost a day over a similar setup.	St
-1.18.2	Turns out when I tested the cable with my OHM METER I found a short between the wires.	St
-1.18.3	His tester didn't look for that!	St
+1.14.1	is there a way to post a jpg .	St
+1.14.2	i have a diagram that shows what i have done .	St
+1.15.1	and have made just about every mistake one could make .	St
+1.15.2	I 'm sure you 've looked into the T-568a and b schemes may have noted some variances in which colored pairs are used in some CAT5 that still works .	St
+1.15.3	As well , if testing , you ca n't just to the xmit rcv pairs because the non-used ones must also be connected and connected properly .	St
+1.15.4	If you 've done your own punch downs for the wall outlets , you will want to pay very close attention if they show both the & quot ; a & quot ; and & quot ; b & quot ; schemes .	St
+1.15.5	You 'll want & quot ; b & quot ; and do n't think you can just lay them straight across like what you 'll see in the cable ends as these are designed to minimize the amount of untwisting you need to do ... .and do keep the untwisted wire as short as possible .	St
+1.15.6	If you have a DVM , it 's real easy to make a loopback connector to check cable continuity yourself rather than use your tester .	St
+1.15.7	That could be a good way to get a second opinion .	St
+1.15.8	I 've got one I need to check myself in a school I wired where the connection at the switch shows a 10mb rather than 100mb connection .	St
+1.15.9	It 's about 150 foot run from a room outlet to a patch panel and I 'm suspecting one of the unused wires might have become detached at one end and hoping it 's not due to a mouse bite somewhere in the ceiling .	St
+1.16.1	I want a crossover cable .	St
+1.16.2	Since the issue only appears to be when the FF connector is used why is n't that the & quot ; bad thing & quot ; ?	Ques
+1.17.1	however , as for the pairing , its a no brainer .	St
+1.17.2	I have gigabit throughout the network .	St
+1.17.3	everything is on and perfect .	St
+1.17.4	am running full duplex and no problems .	St
+1.17.5	Even with my current hookup bypassing the wall jack and going to a switch and then to the computer , it is full duplex and green all the way .	St
+1.17.6	This is why it is so confusing .	St
+1.17.7	I can terminate right at the wall jack without the jack , once the jack is hooked up , it goes dead .	St
+1.17.8	I have tried 4 different wall jacks with no luck .	St
+1.17.9	The funny part is that if i put a coupler on the end in place of the wall jack , it wo n't work , so i figured it was the wiring .	St
+1.17.10	That only makes sense .	St
+1.17.11	But i reran another wire and the same results .	St
+1.17.12	I am with you about the wiring , I still believe it is that , however I can not seem to find it anywhere .	St
+1.17.13	I also had another person take a look and he gave up .	St
+1.17.14	I have been through several wall jacks , 4 couplers , my own cables , store bought cables .	St
+1.17.15	My pair testing is right on , my resistance testing is perfect .	St
+1.17.16	Other then running a third wire from the last run , that is the best i can come up with .	St
+1.17.17	The only other thought is that something is interfering with the last leg of the run .	St
+1.17.18	I am not sure but maybe some wiring in the walls or ceiling that i did n't catch .	St
+1.18.1	I 'll share a buddy lost a day over a similar setup .	St
+1.18.2	Turns out when I tested the cable with my OHM METER I found a short between the wires .	St
+1.18.3	His tester did n't look for that !	St

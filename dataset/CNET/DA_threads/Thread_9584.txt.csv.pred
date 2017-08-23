@@ -1,50 +1,50 @@
-1.1.1	I have the following groups of devices on my LAN: 1) WiFi router, TIVO, Aluratek Internet Radio 2) 1 Linux and 2 Windows XP computers 3) Apple Mac Mini (used solely for photos and online banking) I want Group 1 to be in a DMZ, isolated from Groups 2 & 3, and want to be able to use the Apple as the only device online when doing banking.	St
-1.1.2	I am thinking of this setup: Switch #1 to the WAN and connected to: - Router #1 for Group 1 (this is the wireless router) - Router @2 for Groups 2 & 3 (this router wired only) Behind Router #2: - using one port for Switch #2 for all of the Group 2 devices - using one port for the Apple Mac Mini The plan is that Group 1 should not have access to Groups 2 & 3 at any time, AND any time banking is to be done: - Router #1 is unplugged from Switch #1 AND - Switch #2 is unplugged from Router #2 leaving only the Apple online and only requiring unplugging of two ethernet cables.	St
-1.1.3	This may seem like equipment overkill, but I have all the switches and routers that are needed, most of which are unused at the moment.	St
-1.1.4	I don't understand enough about switches and routers to know whether one port of either device is effectively isolated from the other ports of the same device.	St
-1.1.5	So my question is how to improve/simplify the setup without compromising the objectives, or is this perhaps the minimum configuration to meet the objectives?	St
-1.2.1	But the multiple router idea is likely your best shot at this.	St
-1.2.2	Good luck.	St
-1.2.3	I bet you'll really know TCP/IP and more when you're done.	St
+1.1.1	I have the following groups of devices on my LAN : 1 ) WiFi router , TIVO , Aluratek Internet Radio 2 ) 1 Linux and 2 Windows XP computers 3 ) Apple Mac Mini ( used solely for photos and online banking ) I want Group 1 to be in a DMZ , isolated from Groups 2 & 3 , and want to be able to use the Apple as the only device online when doing banking .	St
+1.1.2	I am thinking of this setup : Switch # 1 to the WAN and connected to : - Router # 1 for Group 1 ( this is the wireless router ) - Router @ 2 for Groups 2 & 3 ( this router wired only ) Behind Router # 2 : - using one port for Switch # 2 for all of the Group 2 devices - using one port for the Apple Mac Mini The plan is that Group 1 should not have access to Groups 2 & 3 at any time , AND any time banking is to be done : - Router # 1 is unplugged from Switch # 1 AND - Switch # 2 is unplugged from Router # 2 leaving only the Apple online and only requiring unplugging of two ethernet cables .	St
+1.1.3	This may seem like equipment overkill , but I have all the switches and routers that are needed , most of which are unused at the moment .	St
+1.1.4	I do n't understand enough about switches and routers to know whether one port of either device is effectively isolated from the other ports of the same device .	St
+1.1.5	So my question is how to improve/simplify the setup without compromising the objectives , or is this perhaps the minimum configuration to meet the objectives ?	Ques
+1.2.1	But the multiple router idea is likely your best shot at this .	St
+1.2.2	Good luck .	Polite
+1.2.3	I bet you 'll really know TCP/IP and more when you 're done .	St
 1.2.4	Bob	St
-1.3.1	You must connect switches to routers thus: Modem -&gt; Router -&gt; Switch -&gt; devices.	St
-1.3.2	Switches do not assign IP addresses.	St
-1.3.3	(Well, you can reverse it but you need to be a CCNA.)	St
-1.3.4	Second, DMZ means open to the world.	St
-1.3.5	Any device in a DMZ is not protected by a router's firewall.	St
-1.3.6	Are you sure you want this?	St
-1.3.7	Why not just connect the devices to the router and switch normally, and either enable or disable sharing on specific devices?	St
-1.3.8	Like Bob says, you can make it work by your description, but you will get to learn addressing and sub-nets.	St
-1.4.1	I probably should not have used the word DMZ as this appears to be a word of art, and I had just used it to mean a &quot;less secure area&quot; where whatever my guests get up to on the Wifi might be isolated from our home lan, the TIVO can update itself, etc.	St
-1.4.2	I have no idea how easy it might be to hack a Tivo or an Aluratek Internet Radio compared to a PC, but certainly would not be surprised to learn that they are much easier to get into and I doubt if they operate in a tunneled mode.	St
-1.4.3	I have always thought of a port on a switch as a &quot;straight wire&quot; and that if for whatever reason I put a switch in front of a single router, that the router could connect through the switch.	St
-1.4.4	But if I understand you, if there are two routers behind a switch (which is connected to my internet connection), each router cannot provide the modem function separately?	St
-1.4.5	If so, then if I put the wired router (D-Link DL-604) (which functions as the modem and a switch, then connect the Wifi router (Zyxel P-330 v2) to one of the D-Link ports, will this create the &quot;less secure area&quot; for Group 1 and which is &quot;isolated&quot; from the other ports on the D-Link?	St
-1.4.6	I just don't understand how how isolated one port on a switch is from another (i.e., can a node on one port of a switch sniff traffic on another port on a switch?)	St
-1.4.7	and this is part of what I would like to better understand.	St
-1.4.8	If a guest's PC is compromised and this computer is in use on the Wifi, can the compromised PC sniff traffic on the other ports of the wired router?	St
-1.4.9	I hope that I am explaining my concerns clearly, but please let me know if not.	St
-1.5.1	Fairly complex configuration.	St
-1.5.2	You may want to look for a router or firewall that allows you to have multiple zones.	St
-1.5.3	In your proposed configuration.	St
-1.5.4	1st problem does your ISP allow you to have 2 addresses.	St
-1.5.5	Since all you have is a switch between the ISP and each of these routers each will needs its own IP.	St
-1.5.6	Since both these routers appear to each other as just another device on the internet you should not have to do anything special to protect more that you would to protect from a neighbors router.	Sug
-1.5.7	Protecting between devices behind the second router will work as you describe but unplugging stuff is a pain.	St
-1.5.8	On a switch it is very hard to prevent devices from seeing each other.	St
-1.5.9	First option is to put the ports in different vlans and force them to use the router to see each other.	St
-1.5.10	The router would then have to restrict access between the vlans.	St
-1.5.11	The other method used mostly in DMZ area is to use a more advanced vlan called a private vlan.	St
-1.5.12	These restrict communication between machines in the same subnet but still allow access out of the switch.	St
-1.5.13	Although these options are getting to be more available you will not find them on $20 switches.	St
-1.5.14	You simplest solution may be to treat your home network as hostile and use a VPN provider.	St
-1.5.15	Your traffic would be completely encrypted between you and the provider and no communication is allowed &quot;directly&quot; between your machine and and other machines while the tunnel is up.	St
-1.5.16	This is similar to people working from home where you can only access work ips when the tunnel is up.	St
-1.6.1	I see our posts overlaped I did see this one.	St
-1.6.2	A device on a switch cannot directly sniff traffic on another port.	St
-1.6.3	A port is only sent traffic destined for a mac address on that port and any broadcast traffic.	St
-1.6.4	You would have to use a special feature in the switch to get it to replicate the traffic.	St
-1.6.5	Now in theory a compromised machine can do mac spoofing attacks to overflow that table of the switch so that all traffic is broadcast to all ports.	St
-1.6.6	Not sure how effect that really is but it is a known attack method.	St
-1.6.7	You really should always assume your traffic is being sniffed.	St
-1.6.8	This is why almost all sensitive stuff is run over HTTPS.	St
+1.3.1	You must connect switches to routers thus : Modem - & gt ; Router - & gt ; Switch - & gt ; devices .	St
+1.3.2	Switches do not assign IP addresses .	St
+1.3.3	( Well , you can reverse it but you need to be a CCNA . )	St
+1.3.4	Second , DMZ means open to the world .	St
+1.3.5	Any device in a DMZ is not protected by a router 's firewall .	St
+1.3.6	Are you sure you want this ?	Ques
+1.3.7	Why not just connect the devices to the router and switch normally , and either enable or disable sharing on specific devices ?	Ques
+1.3.8	Like Bob says , you can make it work by your description , but you will get to learn addressing and sub-nets .	St
+1.4.1	I probably should not have used the word DMZ as this appears to be a word of art , and I had just used it to mean a & quot ; less secure area & quot ; where whatever my guests get up to on the Wifi might be isolated from our home lan , the TIVO can update itself , etc .	St
+1.4.2	I have no idea how easy it might be to hack a Tivo or an Aluratek Internet Radio compared to a PC , but certainly would not be surprised to learn that they are much easier to get into and I doubt if they operate in a tunneled mode .	St
+1.4.3	I have always thought of a port on a switch as a & quot ; straight wire & quot ; and that if for whatever reason I put a switch in front of a single router , that the router could connect through the switch .	St
+1.4.4	But if I understand you , if there are two routers behind a switch ( which is connected to my internet connection ) , each router can not provide the modem function separately ?	Ques
+1.4.5	If so , then if I put the wired router ( D-Link DL-604 ) ( which functions as the modem and a switch , then connect the Wifi router ( Zyxel P-330 v2 ) to one of the D-Link ports , will this create the & quot ; less secure area & quot ; for Group 1 and which is & quot ; isolated & quot ; from the other ports on the D-Link ?	Ques
+1.4.6	I just do n't understand how how isolated one port on a switch is from another ( i.e. , can a node on one port of a switch sniff traffic on another port on a switch ? )	Ques
+1.4.7	and this is part of what I would like to better understand .	St
+1.4.8	If a guest 's PC is compromised and this computer is in use on the Wifi , can the compromised PC sniff traffic on the other ports of the wired router ?	Ques
+1.4.9	I hope that I am explaining my concerns clearly , but please let me know if not .	St
+1.5.1	Fairly complex configuration .	St
+1.5.2	You may want to look for a router or firewall that allows you to have multiple zones .	St
+1.5.3	In your proposed configuration .	St
+1.5.4	1st problem does your ISP allow you to have 2 addresses .	St
+1.5.5	Since all you have is a switch between the ISP and each of these routers each will needs its own IP .	St
+1.5.6	Since both these routers appear to each other as just another device on the internet you should not have to do anything special to protect more that you would to protect from a neighbors router .	Sug
+1.5.7	Protecting between devices behind the second router will work as you describe but unplugging stuff is a pain .	St
+1.5.8	On a switch it is very hard to prevent devices from seeing each other .	St
+1.5.9	First option is to put the ports in different vlans and force them to use the router to see each other .	St
+1.5.10	The router would then have to restrict access between the vlans .	St
+1.5.11	The other method used mostly in DMZ area is to use a more advanced vlan called a private vlan .	St
+1.5.12	These restrict communication between machines in the same subnet but still allow access out of the switch .	St
+1.5.13	Although these options are getting to be more available you will not find them on $ 20 switches .	St
+1.5.14	You simplest solution may be to treat your home network as hostile and use a VPN provider .	St
+1.5.15	Your traffic would be completely encrypted between you and the provider and no communication is allowed & quot ; directly & quot ; between your machine and and other machines while the tunnel is up .	St
+1.5.16	This is similar to people working from home where you can only access work ips when the tunnel is up .	St
+1.6.1	I see our posts overlaped I did see this one .	St
+1.6.2	A device on a switch can not directly sniff traffic on another port .	St
+1.6.3	A port is only sent traffic destined for a mac address on that port and any broadcast traffic .	St
+1.6.4	You would have to use a special feature in the switch to get it to replicate the traffic .	St
+1.6.5	Now in theory a compromised machine can do mac spoofing attacks to overflow that table of the switch so that all traffic is broadcast to all ports .	St
+1.6.6	Not sure how effect that really is but it is a known attack method .	St
+1.6.7	You really should always assume your traffic is being sniffed .	St
+1.6.8	This is why almost all sensitive stuff is run over HTTPS .	St

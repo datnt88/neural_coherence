@@ -1,69 +1,69 @@
-1.1.1	I recently bought a Canon MP180 all-in-one printer, and I'm using it with my computer which has both Vista Home Premium and XP MCE on it.	St
-1.1.2	However, when I tried to install drivers for Vista, when I came to the screen that tells me to plug in my printer and turn on the power, the Vista Add Hardware thing pops up, as it is supposed to, and installs all the drivers - except one, the printer driver.	St
-1.1.3	It will always give the error message &quot;Windows found driver software for your device but encountered a problem while attempting to install it.	St
-1.1.4	The specified path is invalid.&quot; I then proceeded to try every solution that I knew of to solve the problem.	St
-1.1.5	I downloaded the newest drivers from Canon's website, I reinstalled drivers from CD, I uninstalled, restarted, reinstalled everything, deleted the printer from device manager, manually specified driver paths, etc., but nevertheless the driver failed to install, persistently giving the same error message as above.	St
-1.1.6	Amazingly, the scanner part works like a charm.	St
-1.1.7	In fact, Vista even recognises the printer model and is able to automatically select the right drivers when I manually install.	St
-1.1.8	I know that nothing is wrong with my printer because I have managed to successfully install and use it when I booted into my XP MCE installation.	St
-1.1.9	However, attempting to install the printer in an XP Virtual Machine (VMware) running under Vista failed.	St
-1.1.10	When I checked the driver installation log (at &quot;C:\Windows\inf\setupapi.dev.log&quot;), it registers the invalid path error (error 161) and recorded the details as &quot;Error setting registry value HKLM\\System\CurrentControlSet\Control\Print\Monitors\MpUsbMon\Driver&quot;.	St
-1.1.11	Now, I was quite confident that the double slash is an invalid registry path, and I checked every other driver installation to ascertain that, indeed, no one else specifies the path the way Canon does.	St
-1.1.12	It turns out that the faulty path reference was located in &quot;C:\windows\system32\driverstore\filerepository\cjmmp180.inf_4d0681b0\cjmmp180.inf&quot;, but when I compared my version of this file to the one extracted from the Canon drivers and to the version stored on driver repository sites, I found them to be exactly the same.	St
-1.1.13	Thus, I am absolutely confounded as to how the invalid path thing persistently pops up on my computer whereas I have heard of no other such complaints from any other Canon customer, even after Googling a wide variety of keywords.	St
-1.1.14	After having no luck at correcting that, I then tried to force Vista to install the drivers for the Canon MP150 (which are built-in) in lieu of the MP180 drivers, but I keep getting an error saying that the digital signature is invalid (although present).	St
-1.1.15	This happens no matter which Canon printer driver I select from those that ship with Vista.	St
-1.1.16	Having tried all this, and knowing that the MP180 is Vista-certified (I've double-checked that from Canon's website), I feel really frustrated that the Canon drivers are of such low quality and having received such poor testing.	St
-1.1.17	As there have been almost no other cases similar to mine, I'm at a loss as to what to do, short of calling in tech support, which will have to do a site visit since they couldn't solve the problem over the phone.	St
-1.1.18	Thus, I would be really grateful if anyone could shed some light on this mystery.	Sug
-1.1.19	Sorry for the long list of details, but I wanted to make sure that I didn't miss out anything.	St
-1.1.20	Thanks.	St
-1.1.21	By the way, my computer is an Intel Core 2 Duo-based self-built desktop dual-booting Vista/XP and running VMware under Vista.	St
-1.1.22	I have already tried to install Microsoft's hotfix to the invalid path thingy (Hotfix 937187), but it makes no difference.	St
-1.1.23	I have also tried deleting the infcache.1 file from &quot;C:\Windows\inf\&quot; to force a rebuild, but no luck there, same error appears.	St
-1.1.24	&quot;C:\windows\system32\driverstore\filerepository\cjmmp180.inf_4d0681b0\cjmmp180.inf&quot; seems to be essential for drivers to be recognised too, because when I tried taking ownership and removing the file Windows then couldn't find any drivers at all when I connected my printer.	St
-1.2.1	When it's defective like that and they don't offer support or a fix I pack the unit back in the box and ask for a full refund.	St
-1.2.2	Restocking charges are denied too since the product was not ready.	St
+1.1.1	I recently bought a Canon MP180 all-in-one printer , and I 'm using it with my computer which has both Vista Home Premium and XP MCE on it .	St
+1.1.2	However , when I tried to install drivers for Vista , when I came to the screen that tells me to plug in my printer and turn on the power , the Vista Add Hardware thing pops up , as it is supposed to , and installs all the drivers - except one , the printer driver .	St
+1.1.3	It will always give the error message & quot ; Windows found driver software for your device but encountered a problem while attempting to install it .	St
+1.1.4	The specified path is invalid. & quot ; I then proceeded to try every solution that I knew of to solve the problem .	St
+1.1.5	I downloaded the newest drivers from Canon 's website , I reinstalled drivers from CD , I uninstalled , restarted , reinstalled everything , deleted the printer from device manager , manually specified driver paths , etc. , but nevertheless the driver failed to install , persistently giving the same error message as above .	St
+1.1.6	Amazingly , the scanner part works like a charm .	St
+1.1.7	In fact , Vista even recognises the printer model and is able to automatically select the right drivers when I manually install .	St
+1.1.8	I know that nothing is wrong with my printer because I have managed to successfully install and use it when I booted into my XP MCE installation .	St
+1.1.9	However , attempting to install the printer in an XP Virtual Machine ( VMware ) running under Vista failed .	St
+1.1.10	When I checked the driver installation log ( at & quot ; C : \Windows\inf\setupapi.dev.log & quot ; ) , it registers the invalid path error ( error 161 ) and recorded the details as & quot ; Error setting registry value HKLM\\System\CurrentControlSet\Control\Print\Monitors\MpUsbMon\Driver & quot ; .	St
+1.1.11	Now , I was quite confident that the double slash is an invalid registry path , and I checked every other driver installation to ascertain that , indeed , no one else specifies the path the way Canon does .	St
+1.1.12	It turns out that the faulty path reference was located in & quot ; C : \windows\system32\driverstore\filerepository\cjmmp180.inf_4d0681b0\cjmmp180.inf & quot ; , but when I compared my version of this file to the one extracted from the Canon drivers and to the version stored on driver repository sites , I found them to be exactly the same .	St
+1.1.13	Thus , I am absolutely confounded as to how the invalid path thing persistently pops up on my computer whereas I have heard of no other such complaints from any other Canon customer , even after Googling a wide variety of keywords .	St
+1.1.14	After having no luck at correcting that , I then tried to force Vista to install the drivers for the Canon MP150 ( which are built-in ) in lieu of the MP180 drivers , but I keep getting an error saying that the digital signature is invalid ( although present ) .	St
+1.1.15	This happens no matter which Canon printer driver I select from those that ship with Vista .	St
+1.1.16	Having tried all this , and knowing that the MP180 is Vista-certified ( I 've double-checked that from Canon 's website ) , I feel really frustrated that the Canon drivers are of such low quality and having received such poor testing .	St
+1.1.17	As there have been almost no other cases similar to mine , I 'm at a loss as to what to do , short of calling in tech support , which will have to do a site visit since they could n't solve the problem over the phone .	St
+1.1.18	Thus , I would be really grateful if anyone could shed some light on this mystery .	Sug
+1.1.19	Sorry for the long list of details , but I wanted to make sure that I did n't miss out anything .	St
+1.1.20	Thanks .	Polite
+1.1.21	By the way , my computer is an Intel Core 2 Duo-based self-built desktop dual-booting Vista/XP and running VMware under Vista .	St
+1.1.22	I have already tried to install Microsoft 's hotfix to the invalid path thingy ( Hotfix 937187 ) , but it makes no difference .	St
+1.1.23	I have also tried deleting the infcache.1 file from & quot ; C : \Windows\inf\ & quot ; to force a rebuild , but no luck there , same error appears .	St
+1.1.24	& quot ; C : \windows\system32\driverstore\filerepository\cjmmp180.inf_4d0681b0\cjmmp180.inf & quot ; seems to be essential for drivers to be recognised too , because when I tried taking ownership and removing the file Windows then could n't find any drivers at all when I connected my printer .	St
+1.2.1	When it 's defective like that and they do n't offer support or a fix I pack the unit back in the box and ask for a full refund .	St
+1.2.2	Restocking charges are denied too since the product was not ready .	St
 1.2.3	Bob	St
-1.3.1	Why fight it, it seems you've done all you can.	St
-1.3.2	It flatly doesn't want to work under Vista.	St
-1.3.3	Return it under warranty, etc.	St
-1.3.4	for a refund or replacement.	St
-1.3.5	The sooner you do this the better the outcome.	St
-1.3.6	FYI - This usually has happened under XP when it first came out, many times the fixes were slow in coming if at all.	St
-1.3.7	The end result some printers were dropped for any support under XP and drivers, fixes and such became only for popular models or expensive ones.	St
-1.3.8	So, don't hold your breath.	Sug
-1.3.9	tada -----Willy	St
-1.4.1	Well, that is an option, though I'm not sure if the Canon warranty allows refund/exchange at all.	St
-1.4.2	In any case, the printer is not defective since it works in XP, so chances are any replacement would have the same problem.	St
-1.4.3	Also, I don't live in the States, and over here the store that I got the printer from (Harvey Norman) has no policy of refunding sold items, so it's going to be hard to get anything from there.	St
-1.4.4	An exchange would likely have the same problems.	St
-1.4.5	Nevertheless, thanks everyone for your prompt replies.	Polite
-1.5.1	All those scanners that stopped working when people moved to Windows ME or XP.	St
-1.5.2	Sorry, it's a defect.	St
-1.5.3	Whether it be software or hardware.	St
+1.3.1	Why fight it , it seems you 've done all you can .	St
+1.3.2	It flatly does n't want to work under Vista .	St
+1.3.3	Return it under warranty , etc .	St
+1.3.4	for a refund or replacement .	St
+1.3.5	The sooner you do this the better the outcome .	St
+1.3.6	FYI - This usually has happened under XP when it first came out , many times the fixes were slow in coming if at all .	St
+1.3.7	The end result some printers were dropped for any support under XP and drivers , fixes and such became only for popular models or expensive ones .	St
+1.3.8	So , do n't hold your breath .	Sug
+1.3.9	tada -- -- -Willy	St
+1.4.1	Well , that is an option , though I 'm not sure if the Canon warranty allows refund/exchange at all .	St
+1.4.2	In any case , the printer is not defective since it works in XP , so chances are any replacement would have the same problem .	St
+1.4.3	Also , I do n't live in the States , and over here the store that I got the printer from ( Harvey Norman ) has no policy of refunding sold items , so it 's going to be hard to get anything from there .	St
+1.4.4	An exchange would likely have the same problems .	St
+1.4.5	Nevertheless , thanks everyone for your prompt replies .	Polite
+1.5.1	All those scanners that stopped working when people moved to Windows ME or XP .	St
+1.5.2	Sorry , it 's a defect .	St
+1.5.3	Whether it be software or hardware .	St
 1.5.4	Bob	St
-1.6.1	I've been chatting withHP support and they told me that they no longer support the all-in-one range in Vista.	St
-1.6.2	The drivers for printing are installed in Vista but scanning and the &quot;HP image director&quot; software are no longer functioning.	St
-1.6.3	I'm trying to raise the issue to a new level...	St
-1.6.4	Please find below a copy of the e-mail that I sent to the Exec.	St
-1.6.5	Vice Chairman, Todd Bradley (todd.bradley@hp.com)... Hello Todd, Can you please explain to me why your company has rendered so many of your products obsolete by not providing Windows Vista support.	Sug
-1.6.6	I am refering specifically to the PSC1200 series.	St
-1.6.7	Due to your lack of support this series cannot no longer be used with your own HP phot and imaging director.	St
-1.6.8	A copy of the online conversation with your tech.	Sug
-1.6.9	team member, Stefan is available for you to review.	St
+1.6.1	I 've been chatting withHP support and they told me that they no longer support the all-in-one range in Vista .	St
+1.6.2	The drivers for printing are installed in Vista but scanning and the & quot ; HP image director & quot ; software are no longer functioning .	St
+1.6.3	I 'm trying to raise the issue to a new level ...	St
+1.6.4	Please find below a copy of the e-mail that I sent to the Exec .	St
+1.6.5	Vice Chairman , Todd Bradley ( todd.bradley @ hp.com ) ... Hello Todd , Can you please explain to me why your company has rendered so many of your products obsolete by not providing Windows Vista support .	Ques
+1.6.6	I am refering specifically to the PSC1200 series .	St
+1.6.7	Due to your lack of support this series can not no longer be used with your own HP phot and imaging director .	St
+1.6.8	A copy of the online conversation with your tech .	St
+1.6.9	team member , Stefan is available for you to review .	St
 1.6.10	I await your reply	St
-1.7.1	I know why.	St
-1.7.2	It's simply a matter of dollars and cents.	St
-1.7.3	The people who write such software command quite a good salary plus you pay for development labs and more.	St
-1.7.4	-&gt; Fast forward to now.	St
-1.7.5	Not yesterday but right now.	St
-1.7.6	Printers are at an all time low price for what you get in the box.	St
-1.7.7	Part of this low price is to halt driver work on any product that is not in production.	St
-1.7.8	With cut throat pricing from other companies you have to pull the plug and put your development dollars on revenue generating products and severe the funding to old non-revenue producing products.	St
-1.7.9	Hopefully I've painted the picture in enough detail for you to see the issue.	St
-1.7.10	I know that some won't like it but this is now and it's best we understand that what we buy didn't come with any assurance it would fully work on the next OS.	St
+1.7.1	I know why .	St
+1.7.2	It 's simply a matter of dollars and cents .	St
+1.7.3	The people who write such software command quite a good salary plus you pay for development labs and more .	St
+1.7.4	- & gt ; Fast forward to now .	St
+1.7.5	Not yesterday but right now .	St
+1.7.6	Printers are at an all time low price for what you get in the box .	St
+1.7.7	Part of this low price is to halt driver work on any product that is not in production .	St
+1.7.8	With cut throat pricing from other companies you have to pull the plug and put your development dollars on revenue generating products and severe the funding to old non-revenue producing products .	St
+1.7.9	Hopefully I 've painted the picture in enough detail for you to see the issue .	St
+1.7.10	I know that some wo n't like it but this is now and it 's best we understand that what we buy did n't come with any assurance it would fully work on the next OS .	St
 1.7.11	Bob	St
-1.8.1	Here in the states, if the product doesn't do its intended purpose you can return, etc.. Now, I can't recall but if that box shows a &quot;Vista ready&quot; logo then it better work and all the more to have a full refund.	St
-1.8.2	Just be sure to check your local laws on this matter if now you have a semi-useless Canon product.	Sug
-1.8.3	tada -----Willy	St
+1.8.1	Here in the states , if the product does n't do its intended purpose you can return , etc.. Now , I ca n't recall but if that box shows a & quot ; Vista ready & quot ; logo then it better work and all the more to have a full refund .	St
+1.8.2	Just be sure to check your local laws on this matter if now you have a semi-useless Canon product .	Sug
+1.8.3	tada -- -- -Willy	St

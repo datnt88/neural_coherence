@@ -1,42 +1,42 @@
-1.1.1	Hi, I'm going to describe a problem I'm having, maybe someone can throw me an idea.	St
-1.1.2	I have a Laptop.	St
-1.1.3	It's a Dell Inspiron 5000 with W2K.	St
-1.1.4	It has one mouse/keyboard port and one serial port.	St
-1.1.5	I'm trying to hook up a mouse and a keyboard to the laptop.	St
-1.1.6	Mouse has to be hooked up to the serial port, I have an adapter for it.	St
-1.1.7	Problem: when everything is hooked up, the system does not see the mouse on the serial port, only touchpad works.	St
-1.1.8	I already checked in the BIOS and the touchpad is set to [Auto, Disable], as it's supposed to.	St
-1.1.9	Anyone would have any idea why the system would not switch to the serial mouse automatically?	St
-1.1.10	thanks.	St
-1.2.1	It seems to be some cruel joke that Radio Shack and many other places sell such adapters.	St
-1.2.2	Bottomline?	St
-1.2.3	I've never seen such work.	St
-1.2.4	Do describe in gruesome detail the make/model number of said mouse so I can see if it is indeed serial capable.	St
-1.2.5	The switch to use an external mouse is far from automatic and you may need some USB or PS2 mouse to make this work.	St
+1.1.1	Hi , I 'm going to describe a problem I 'm having , maybe someone can throw me an idea .	St
+1.1.2	I have a Laptop .	St
+1.1.3	It 's a Dell Inspiron 5000 with W2K .	St
+1.1.4	It has one mouse/keyboard port and one serial port .	St
+1.1.5	I 'm trying to hook up a mouse and a keyboard to the laptop .	St
+1.1.6	Mouse has to be hooked up to the serial port , I have an adapter for it .	St
+1.1.7	Problem : when everything is hooked up , the system does not see the mouse on the serial port , only touchpad works .	St
+1.1.8	I already checked in the BIOS and the touchpad is set to [ Auto , Disable ] , as it 's supposed to .	St
+1.1.9	Anyone would have any idea why the system would not switch to the serial mouse automatically ?	Ques
+1.1.10	thanks .	Polite
+1.2.1	It seems to be some cruel joke that Radio Shack and many other places sell such adapters .	St
+1.2.2	Bottomline ?	Ques
+1.2.3	I 've never seen such work .	St
+1.2.4	Do describe in gruesome detail the make/model number of said mouse so I can see if it is indeed serial capable .	St
+1.2.5	The switch to use an external mouse is far from automatic and you may need some USB or PS2 mouse to make this work .	St
 1.2.6	Bob	St
-1.3.1	You can't use the PS/2 port for a mouse?	St
-1.3.2	http://docs.us.dell.com/docs/systems/pblan/overview.htm#back Are you using the PS/2 port already?	St
-1.3.3	Make sure the serial device is the only one and select an IRQ if possible or use &quot;auto&quot; mode for best results.	St
-1.3.4	Usually, I use the PS/2 port for a mouse.	St
-1.3.5	-----Willy	St
-1.4.1	They make splitters for the PS/2 port that will allow you to run both a keyboard and mouse from the single PS/2 port on a laptop.	St
-1.4.2	That would be the best answer unless you actually have an old style serial mouse, which should work.	St
-1.5.1	Well, there is one PS2 port and one serial port on the laptop.	St
-1.5.2	Keyboard is plugged in to PS2.	St
-1.5.3	That leaves serial port for the mouse.	St
-1.5.4	I would think that when the system software finds a device (like a mouse) on the serial port, it should disable the touchpad automatically.	St
-1.6.1	Hi Bob, Well the mouse is a generic no-brand two-button PS2 mouse.	St
-1.6.2	Since I have used up the only PS2 port by plugging the keyboard to it, I am trying to make use of the serial port by using a PS2-to-serial adapter thingy.	St
-1.6.3	I had a laptop some six years ago or so, with Win95, and I did exactly the same thing with the adapter, and it worked automatically.	St
-1.6.4	All I can say is that some manufacturers do things that boggle my mind sometimes, like only providing ONE PS2 port.	St
-1.6.5	There is plenty of space for two in the back panel.	St
-1.7.1	As I noted, such adapters are readily available and only serve to confound users and tech support.	St
-1.7.2	At this point I have not read anything that says this make/model mouse can do RS232.	St
-1.7.3	Your other note about plugging in some serial mouse and it taking over is worth discussing a bit.	St
-1.7.4	Behaviours about this changed over the years since 95 since sending bytes out the serial port to probe for a mouse can confuse non-mouse devices connected to such a port.	St
-1.7.5	I think this idea vanished over time.	St
-1.7.6	While you may want things to work a certain way automatically, it doesn't mean that such a way would be acceptable to the next person...	St
-1.7.7	So with that, not everyone can be satisfied.	St
-1.7.8	Did you try an USB mouse?	St
+1.3.1	You ca n't use the PS/2 port for a mouse ?	Ques
+1.3.2	http : //docs.us.dell.com/docs/systems/pblan/overview.htm # back Are you using the PS/2 port already ?	Ques
+1.3.3	Make sure the serial device is the only one and select an IRQ if possible or use & quot ; auto & quot ; mode for best results .	St
+1.3.4	Usually , I use the PS/2 port for a mouse .	St
+1.3.5	-- -- -Willy	St
+1.4.1	They make splitters for the PS/2 port that will allow you to run both a keyboard and mouse from the single PS/2 port on a laptop .	St
+1.4.2	That would be the best answer unless you actually have an old style serial mouse , which should work .	St
+1.5.1	Well , there is one PS2 port and one serial port on the laptop .	St
+1.5.2	Keyboard is plugged in to PS2 .	St
+1.5.3	That leaves serial port for the mouse .	St
+1.5.4	I would think that when the system software finds a device ( like a mouse ) on the serial port , it should disable the touchpad automatically .	St
+1.6.1	Hi Bob , Well the mouse is a generic no-brand two-button PS2 mouse .	St
+1.6.2	Since I have used up the only PS2 port by plugging the keyboard to it , I am trying to make use of the serial port by using a PS2-to-serial adapter thingy .	St
+1.6.3	I had a laptop some six years ago or so , with Win95 , and I did exactly the same thing with the adapter , and it worked automatically .	St
+1.6.4	All I can say is that some manufacturers do things that boggle my mind sometimes , like only providing ONE PS2 port .	St
+1.6.5	There is plenty of space for two in the back panel .	St
+1.7.1	As I noted , such adapters are readily available and only serve to confound users and tech support .	St
+1.7.2	At this point I have not read anything that says this make/model mouse can do RS232 .	St
+1.7.3	Your other note about plugging in some serial mouse and it taking over is worth discussing a bit .	St
+1.7.4	Behaviours about this changed over the years since 95 since sending bytes out the serial port to probe for a mouse can confuse non-mouse devices connected to such a port .	St
+1.7.5	I think this idea vanished over time .	St
+1.7.6	While you may want things to work a certain way automatically , it does n't mean that such a way would be acceptable to the next person ...	St
+1.7.7	So with that , not everyone can be satisfied .	St
+1.7.8	Did you try an USB mouse ?	Ques
 1.7.9	Bob	St
-1.8.1	You assume incorrectly, it varies all over the place, some automatically disable the touchpad if a PS/2 mouse is used, some do not, same would be true with a Serial mouse.	St
+1.8.1	You assume incorrectly , it varies all over the place , some automatically disable the touchpad if a PS/2 mouse is used , some do not , same would be true with a Serial mouse .	St

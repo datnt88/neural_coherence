@@ -1,65 +1,65 @@
-1.1.1	First, here's my system: Antec PC Tower Case AMD Athlon 64 X2 3800+ Processor Socket 939 Asus A8N-SLI Premium nForce4 SLI HIS Hightech Radeon X1800XT G.SKILL 2GB (2 x 1GB) 184-Pin DDR SDRAM Western Digital Caviar RE WD2500YD 250GB Serial ATA 7200RPM Hard Drive w/16MB Buffer LITE-ON Black ATAPI/E-IDE 5X DVD-RAM Write DVD Burner With LightScribe Model SHM-165H6S MITSUMI Black Internal Floppy Drive This is my first build and I kinda followed the guide here: http://sysbuild.corsairmemory.com/report.aspx?id=2&sid=2 Everything pretty much went fine.	St
-1.1.2	I was able to install XP without any problems (I'm not using RAID, btw).	St
-1.1.3	I installed my DVD Burner to the Primary IDE plug on my Mobo and installed the HDD to the SATA 1.	St
-1.1.4	However, here's where my questions/problem come into play.	St
-1.1.5	First, in the lower right of the desktop, near the clock, there is an icon that you would recieve if you plugged a USB stick into the PC.	St
-1.1.6	If I highlight it, it says &quot;Safely Remove Hardware&quot;.	St
-1.1.7	If I right-click it and click that, it shows my Hard Drive listed in the Hardware Devices at Location 0.	St
-1.1.8	It gives me the options to view the Properties and the option to &quot;Stop&quot; the device.	St
-1.1.9	I haven't tried stopping it, but I have looked at the Properties.	St
-1.1.10	Nothing appeared wrong there.	St
-1.1.11	However, there are no Volumes listed on the Volumes tab (I don't really know what goes here...if anything).	St
-1.1.12	So, my first question is if my drive should be showing up like this?	St
-1.1.13	I've looked in Device Manager and my hard drive was listed under Disk Drives.	St
-1.1.14	Also, something &quot;odd&quot; happened when I moved my PC from where I built it to my desk.	St
-1.1.15	After I had moved it and booted it up, my hard drive was no longer detected.	St
-1.1.16	I checked my BIOS and it didn't recognize it either.	St
-1.1.17	So, I opened the box back up and checked to make sure no wires had come loose...none had that I could notice.	St
-1.1.18	I tried booting up again, but had the same problem.	St
-1.1.19	So I rearranged some of the cables and went so far as to exchange the SATA cables that plugged into the drive.	St
-1.1.20	Amazingly that worked.	St
-1.1.21	This has only happened to me once so far, but I was wondering if it had anything to do with the other issue.	St
-1.1.22	Thanks.	St
-1.2.1	first didn't show up.	St
-1.2.2	The signal connectors for SATA drives have been known to be very poor in that they come loose and fall off easily.	St
-1.2.3	They have been redesigned to have some of a slight retaining feature.	St
-1.2.4	I do not know if the retainer/latch/catch requires that the drive side of the connector has to be changed to match the newer cable.	St
-1.2.5	Thus the move most likely simply loosened the cable.	St
-1.3.1	Did you install any mfg supplied drivers when installing WinXP (F6)?	St
-1.3.2	See if you have an AHCI device in Device Manager; check your BIOS and see if AHCI or hot-swapping is enabled.	St
-1.3.3	If your drives are configured to allow hot swapping, they'll appear in the &quot;safely remove hardware&quot; list just like a USB drive.	St
-1.3.4	When I first installed an SATA drive, I installed the cable backwards.	St
-1.3.5	One end just has a plug, but the other has a plug and a clip/lock.	St
-1.3.6	The cable works either way but is loose if reversed.	St
-1.3.7	Perhaps you did the same thing?	St
-1.4.1	I'm just using the cables that came with the mobo.	St
-1.4.2	I bought a bare drive, so it didn't come with any cables.	St
-1.4.3	Both ends of the cables look identical.	St
-1.4.4	I don't see any clip/lock.	St
-1.4.5	But the cables do look kinda &quot;chintzy&quot;, so I think I agree with what the other poster said.	St
-1.4.6	About the AHCI and whether I have hot-swapping enabled...I'll have to check that later.	St
-1.4.7	(I'm not at that PC right now.)	St
-1.4.8	I know that I did not press F6 at any time during boot-up, if that's what you first meant.	St
-1.4.9	It did ask me to if I wanted though.	St
-1.4.10	What exactly does AHCI stand for, btw?	St
-1.4.11	And, I'm assuming that if I discover that hot swapping is enabled, then I should disable it...right?	St
-1.4.12	Or does it matter?	St
-1.4.13	Thanks.	St
-1.5.1	I only have the cables that came with the mobo.	St
-1.5.2	I bought a bare drive, so it didn't come with any cables.	St
-1.5.3	When I was building the computer, I did think that the quality of the cable ends looked kinda &quot;chintzy&quot;.	St
-1.5.4	So, you're probably right...the move just simply loosened the cable.	St
-1.5.5	At least, I hope that's so.	St
-1.5.6	Ha.	St
-1.5.7	Thanks.	St
+1.1.1	First , here 's my system : Antec PC Tower Case AMD Athlon 64 X2 3800+ Processor Socket 939 Asus A8N-SLI Premium nForce4 SLI HIS Hightech Radeon X1800XT G.SKILL 2GB ( 2 x 1GB ) 184-Pin DDR SDRAM Western Digital Caviar RE WD2500YD 250GB Serial ATA 7200RPM Hard Drive w/16MB Buffer LITE-ON Black ATAPI/E-IDE 5X DVD-RAM Write DVD Burner With LightScribe Model SHM-165H6S MITSUMI Black Internal Floppy Drive This is my first build and I kinda followed the guide here : http : //sysbuild.corsairmemory.com/report.aspx ? id=2 & sid=2 Everything pretty much went fine .	St
+1.1.2	I was able to install XP without any problems ( I 'm not using RAID , btw ) .	St
+1.1.3	I installed my DVD Burner to the Primary IDE plug on my Mobo and installed the HDD to the SATA 1 .	St
+1.1.4	However , here 's where my questions/problem come into play .	St
+1.1.5	First , in the lower right of the desktop , near the clock , there is an icon that you would recieve if you plugged a USB stick into the PC .	St
+1.1.6	If I highlight it , it says & quot ; Safely Remove Hardware & quot ; .	St
+1.1.7	If I right-click it and click that , it shows my Hard Drive listed in the Hardware Devices at Location 0 .	St
+1.1.8	It gives me the options to view the Properties and the option to & quot ; Stop & quot ; the device .	St
+1.1.9	I have n't tried stopping it , but I have looked at the Properties .	St
+1.1.10	Nothing appeared wrong there .	St
+1.1.11	However , there are no Volumes listed on the Volumes tab ( I do n't really know what goes here ... if anything ) .	St
+1.1.12	So , my first question is if my drive should be showing up like this ?	Ques
+1.1.13	I 've looked in Device Manager and my hard drive was listed under Disk Drives .	St
+1.1.14	Also , something & quot ; odd & quot ; happened when I moved my PC from where I built it to my desk .	St
+1.1.15	After I had moved it and booted it up , my hard drive was no longer detected .	St
+1.1.16	I checked my BIOS and it did n't recognize it either .	St
+1.1.17	So , I opened the box back up and checked to make sure no wires had come loose ... none had that I could notice .	St
+1.1.18	I tried booting up again , but had the same problem .	St
+1.1.19	So I rearranged some of the cables and went so far as to exchange the SATA cables that plugged into the drive .	St
+1.1.20	Amazingly that worked .	St
+1.1.21	This has only happened to me once so far , but I was wondering if it had anything to do with the other issue .	St
+1.1.22	Thanks .	Polite
+1.2.1	first did n't show up .	St
+1.2.2	The signal connectors for SATA drives have been known to be very poor in that they come loose and fall off easily .	St
+1.2.3	They have been redesigned to have some of a slight retaining feature .	St
+1.2.4	I do not know if the retainer/latch/catch requires that the drive side of the connector has to be changed to match the newer cable .	St
+1.2.5	Thus the move most likely simply loosened the cable .	St
+1.3.1	Did you install any mfg supplied drivers when installing WinXP ( F6 ) ?	Ques
+1.3.2	See if you have an AHCI device in Device Manager ; check your BIOS and see if AHCI or hot-swapping is enabled .	St
+1.3.3	If your drives are configured to allow hot swapping , they 'll appear in the & quot ; safely remove hardware & quot ; list just like a USB drive .	St
+1.3.4	When I first installed an SATA drive , I installed the cable backwards .	St
+1.3.5	One end just has a plug , but the other has a plug and a clip/lock .	St
+1.3.6	The cable works either way but is loose if reversed .	St
+1.3.7	Perhaps you did the same thing ?	Ques
+1.4.1	I 'm just using the cables that came with the mobo .	St
+1.4.2	I bought a bare drive , so it did n't come with any cables .	St
+1.4.3	Both ends of the cables look identical .	St
+1.4.4	I do n't see any clip/lock .	St
+1.4.5	But the cables do look kinda & quot ; chintzy & quot ; , so I think I agree with what the other poster said .	St
+1.4.6	About the AHCI and whether I have hot-swapping enabled ... I 'll have to check that later .	St
+1.4.7	( I 'm not at that PC right now . )	St
+1.4.8	I know that I did not press F6 at any time during boot-up , if that 's what you first meant .	St
+1.4.9	It did ask me to if I wanted though .	St
+1.4.10	What exactly does AHCI stand for , btw ?	Ques
+1.4.11	And , I 'm assuming that if I discover that hot swapping is enabled , then I should disable it ... right ?	Ques
+1.4.12	Or does it matter ?	Ques
+1.4.13	Thanks .	Polite
+1.5.1	I only have the cables that came with the mobo .	St
+1.5.2	I bought a bare drive , so it did n't come with any cables .	St
+1.5.3	When I was building the computer , I did think that the quality of the cable ends looked kinda & quot ; chintzy & quot ; .	St
+1.5.4	So , you 're probably right ... the move just simply loosened the cable .	St
+1.5.5	At least , I hope that 's so .	St
+1.5.6	Ha .	St
+1.5.7	Thanks .	Polite
 1.5.8	Jon	St
-1.6.1	Advanced Host Controller Interface (AHCI) is an interface specification that allows the storage driver to enable advanced Serial ATA features such as Native Command Queuing and hot plug.	St
-1.6.2	Here's a secure cable: http://www.geeks.com/details.asp?invtid=WDSC50RCW-DT&cat=CBL Since you didn't add any drivers, maybe they're part of the mobo/chipset drivers.	St
-1.6.3	Your mobo certainly supports hot plug (page 1-3 of your user's guide).	St
-1.6.4	Anyhoo...	St
-1.6.5	I don't think you have anything to worry about.	St
-1.7.1	Hot swapping and there was no AHCI device in Device Manager.	St
-1.7.2	So I guess I just won't worry about it if I don't really need to.	St
-1.7.3	Thanks.	St
-1.7.4	And thanks for the link to the secure cable.	Polite
+1.6.1	Advanced Host Controller Interface ( AHCI ) is an interface specification that allows the storage driver to enable advanced Serial ATA features such as Native Command Queuing and hot plug .	St
+1.6.2	Here 's a secure cable : http : //www.geeks.com/details.asp ? invtid=WDSC50RCW-DT & cat=CBL Since you did n't add any drivers , maybe they 're part of the mobo/chipset drivers .	St
+1.6.3	Your mobo certainly supports hot plug ( page 1-3 of your user 's guide ) .	St
+1.6.4	Anyhoo ...	St
+1.6.5	I do n't think you have anything to worry about .	St
+1.7.1	Hot swapping and there was no AHCI device in Device Manager .	St
+1.7.2	So I guess I just wo n't worry about it if I do n't really need to .	St
+1.7.3	Thanks .	Polite
+1.7.4	And thanks for the link to the secure cable .	Polite
 1.7.5	Jon	St

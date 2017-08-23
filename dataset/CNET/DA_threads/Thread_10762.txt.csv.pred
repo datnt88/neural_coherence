@@ -1,47 +1,47 @@
-1.1.1	Hi, I am trying to install an old hard drive into my PC and every time I do the computer acts funny, it caused the battery in the motherboard to fail, and it stops other hard drives from working.	St
-1.1.2	But when I uninstall it the computer returns to normal.	St
-1.1.3	This hard drive has data on it that belongs to my dad, so I want to return it to him, but don't want to cause serious damage to his PC.	St
-1.1.4	The drive was put into an enclosure a while back, but it got damaged.	St
-1.1.5	what I have tried I have changed the jumper settings to &quot;Cable Select&quot; which stopped the drive from interfering with my hard drive.	St
-1.1.6	But this caused the battery on the motherboard to fail.	St
-1.1.7	I tried changing the jumpers to &quot;Slave&quot; but the same issue continued.	St
-1.1.8	The hard drive is a PATA drive, and the details for the drive are as follows: Manufacturer: ExcelStor Model: T880 I found details on the manufacturers website which advised on how to change the settings to the above stated.	St
-1.1.9	As my dad wants the drive back and I can't currently afford a new enclosure I'm hoping someone can give me some advice on what to try.	St
-1.1.10	An important thing I forgot to mention is the drive had been installed in my old PC of which my dad now owns, the drive was set as master but it wasn't set to boot as it's just for storage not for the operating system.	St
-1.2.1	Some NEVER work with other drives.	St
-1.2.2	Since you can't afford an enclosure then why not use the second channel on the motherboard and forget about the CD/DVD drive until you get the files out?	St
-1.3.1	Hi, Thanks for that great idea, but unfortunately it didn't work, instead a screen came up telling me about what hardware is installed in my PC and the system halts.	St
-1.3.2	Could there be a possibility that this issue is down to my PC rather than the drive, just like RAM working in one machine but not another?	St
+1.1.1	Hi , I am trying to install an old hard drive into my PC and every time I do the computer acts funny , it caused the battery in the motherboard to fail , and it stops other hard drives from working .	St
+1.1.2	But when I uninstall it the computer returns to normal .	St
+1.1.3	This hard drive has data on it that belongs to my dad , so I want to return it to him , but do n't want to cause serious damage to his PC .	St
+1.1.4	The drive was put into an enclosure a while back , but it got damaged .	St
+1.1.5	what I have tried I have changed the jumper settings to & quot ; Cable Select & quot ; which stopped the drive from interfering with my hard drive .	St
+1.1.6	But this caused the battery on the motherboard to fail .	St
+1.1.7	I tried changing the jumpers to & quot ; Slave & quot ; but the same issue continued .	St
+1.1.8	The hard drive is a PATA drive , and the details for the drive are as follows : Manufacturer : ExcelStor Model : T880 I found details on the manufacturers website which advised on how to change the settings to the above stated .	St
+1.1.9	As my dad wants the drive back and I ca n't currently afford a new enclosure I 'm hoping someone can give me some advice on what to try .	St
+1.1.10	An important thing I forgot to mention is the drive had been installed in my old PC of which my dad now owns , the drive was set as master but it was n't set to boot as it 's just for storage not for the operating system .	St
+1.2.1	Some NEVER work with other drives .	St
+1.2.2	Since you ca n't afford an enclosure then why not use the second channel on the motherboard and forget about the CD/DVD drive until you get the files out ?	Ques
+1.3.1	Hi , Thanks for that great idea , but unfortunately it did n't work , instead a screen came up telling me about what hardware is installed in my PC and the system halts .	St
+1.3.2	Could there be a possibility that this issue is down to my PC rather than the drive , just like RAM working in one machine but not another ?	Ques
 1.3.3	Thanks	Polite
-1.4.1	from the motherboard and try the drive in question by itself...jumper as Cable Select.	St
-1.4.2	You are using 80 wire 40 pin cable ...right ?	Ques
+1.4.1	from the motherboard and try the drive in question by itself ... jumper as Cable Select .	St
+1.4.2	You are using 80 wire 40 pin cable ... right ?	Ques
 1.4.3	Is your CMOS battery fresh or is it old ?	Ques
 1.4.4	VAPCMD	St
-1.5.1	Sorry but I only have the details you gave.	St
-1.5.2	ANOTHER IDEA.	St
-1.5.3	Put the drive back into the machine where it works and copy the files over your network.	St
+1.5.1	Sorry but I only have the details you gave .	St
+1.5.2	ANOTHER IDEA .	St
+1.5.3	Put the drive back into the machine where it works and copy the files over your network .	St
 1.5.4	Bob	St
-1.6.1	Since you state the enclosure that this HD was installed in was damaged, then it suggest the HD could be damaged as well.	St
-1.6.2	Not knowing what damage, you maybe seeing the result, causing other working PC to NOT be proper with it installed.	St
-1.6.3	You know its doing something negative here.	St
-1.6.4	I use AD-2020 adapter setup(or others) in order to test various drives w/o an enclose and if it doesn't work, then I know any further attempts usually aren't going to be fruitful.	St
-1.6.5	It appears your old HD is a goner or close to it provided everything is setup correctly.	St
-1.6.6	Checkout: What happens when that HD is installed alone, then use the Ubuntu bootable Linux disc to then access it?	St
-1.6.7	Get the Ubuntu s/w .ISO file to make a bootable disc to test with.	St
-1.6.8	This allows the CD drive to boot the current PC and then access the now &quot;solo trouble HD&quot; if at all possible.	St
-1.6.9	If it does't boot or finding the HD didn't mount, suggest serious issues.	St
-1.6.10	tada ------Willy	St
-1.7.1	As to old PC install: Re-reading the post, I caught the last line of post.	St
-1.7.2	The HD is &quot;master&quot; on what IDE Ch.?	St
-1.7.3	Plus, how can this boot as under normal setup, master is the boot device expected on primary Ch..	St
-1.7.4	If on secondary Ch.	St
-1.7.5	that too rises a ?, if it never was cleared of the OS, then the PC sees possibility 2 OSes installed, it maybe trying or already changed the &quot;boot menu&quot; and when installed elsewhere causing an issue.	St
-1.7.6	All this on top of what I already posted plus what others have will pin-point the cause of problem(s) or fault.	St
-1.7.7	-----Willy	St
-1.8.1	http://www.excelstor.com/uploadfile/PS9J001%20Rev%20H%20HDD%20IG.pdf The above file should provide info on all or general info of 3.5 int.	St
-1.8.2	PATA(ATA) drives, EIDE type.	St
-1.8.3	FYI- This was abit harder to narrow support for, and its not as popular for int.	St
-1.8.4	drives alone.	St
-1.8.5	In other words, this maybe a PITA to fix or resolve.	St
-1.8.6	You may want to cut losses short.	St
-1.8.7	------Willy	St
+1.6.1	Since you state the enclosure that this HD was installed in was damaged , then it suggest the HD could be damaged as well .	St
+1.6.2	Not knowing what damage , you maybe seeing the result , causing other working PC to NOT be proper with it installed .	St
+1.6.3	You know its doing something negative here .	St
+1.6.4	I use AD-2020 adapter setup ( or others ) in order to test various drives w/o an enclose and if it does n't work , then I know any further attempts usually are n't going to be fruitful .	St
+1.6.5	It appears your old HD is a goner or close to it provided everything is setup correctly .	St
+1.6.6	Checkout : What happens when that HD is installed alone , then use the Ubuntu bootable Linux disc to then access it ?	Ques
+1.6.7	Get the Ubuntu s/w .ISO file to make a bootable disc to test with .	St
+1.6.8	This allows the CD drive to boot the current PC and then access the now & quot ; solo trouble HD & quot ; if at all possible .	St
+1.6.9	If it does't boot or finding the HD did n't mount , suggest serious issues .	St
+1.6.10	tada -- -- -- Willy	St
+1.7.1	As to old PC install : Re-reading the post , I caught the last line of post .	St
+1.7.2	The HD is & quot ; master & quot ; on what IDE Ch . ?	Ques
+1.7.3	Plus , how can this boot as under normal setup , master is the boot device expected on primary Ch..	St
+1.7.4	If on secondary Ch .	St
+1.7.5	that too rises a ? , if it never was cleared of the OS , then the PC sees possibility 2 OSes installed , it maybe trying or already changed the & quot ; boot menu & quot ; and when installed elsewhere causing an issue .	St
+1.7.6	All this on top of what I already posted plus what others have will pin-point the cause of problem ( s ) or fault .	St
+1.7.7	-- -- -Willy	St
+1.8.1	http : //www.excelstor.com/uploadfile/PS9J001 % 20Rev % 20H % 20HDD % 20IG.pdf The above file should provide info on all or general info of 3.5 int .	St
+1.8.2	PATA ( ATA ) drives , EIDE type .	St
+1.8.3	FYI- This was abit harder to narrow support for , and its not as popular for int .	St
+1.8.4	drives alone .	St
+1.8.5	In other words , this maybe a PITA to fix or resolve .	St
+1.8.6	You may want to cut losses short .	St
+1.8.7	-- -- -- Willy	St

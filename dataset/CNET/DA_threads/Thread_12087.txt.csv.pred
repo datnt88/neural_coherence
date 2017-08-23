@@ -1,36 +1,36 @@
-1.1.1	I am running an HP JetDirect 170x with a HP DesignJet 500 connected to it via parallel port.	St
-1.1.2	I am running a Windows Server 2003 server and Active Directory with over 100 computers running Windows XP Pro SP2.	St
-1.1.3	Only one computer is able to print to this printer.	St
-1.1.4	I have installed this printer on other computers with seemingly the same configuration; however I cannot get any of the other computers on the network to print to this printer.	St
-1.1.5	From any computer on the network, I am able to ping this device and get a postive reply.	St
-1.1.6	I am also able to telnet and access the web-based manager from any computer.	St
-1.1.7	I have done everything I could think of to get this to work.	St
-1.1.8	I even tried to install the DLC protocol on a computer, and nothing works.	St
-1.1.9	I appreciate any ideas and help provided.	Polite
-1.2.1	Print server driver/firmware update http://h20180.www2.hp.com/apps/Lookup?h_lang=en&h_cc=us&cc=us&h_page=hpcom&lang=en&h_client=S-A-R163-1&h_pagetype=s-002&h_query=HP+JetDirect+170x&submit.x=7&submit.y=10 Driver/firmware update for the printer http://h20180.www2.hp.com/apps/Lookup?h_lang=en&h_cc=us&cc=us&h_page=hpcom&lang=en&h_client=S-A-R163-1&h_pagetype=s-002&h_query=DesignJet+500&submit.x=10&submit.y=2 Now for the fun part.	St
-1.2.2	Ask yourself this question, where are the printer drivers for this software?	St
-1.2.3	I don't know a lot on this, because I'm not a tech person, but I have a small network of three laptops using a print server.	St
-1.2.4	All three laptops have the network software for the printers so they can print.	St
-1.2.5	I have this set up so I don't have to leave any computer on so the others can print.	St
-1.2.6	I know where I work, when I choose print, I can go to print server1 or print server2.	St
-1.2.7	So I'm guessing that these print servers have the software to print to the many printers on the network.	St
-1.2.8	Each printer has a ip address.	St
-1.2.9	Not sure if I helped you or not but good luck with this.	St
+1.1.1	I am running an HP JetDirect 170x with a HP DesignJet 500 connected to it via parallel port .	St
+1.1.2	I am running a Windows Server 2003 server and Active Directory with over 100 computers running Windows XP Pro SP2 .	St
+1.1.3	Only one computer is able to print to this printer .	St
+1.1.4	I have installed this printer on other computers with seemingly the same configuration ; however I can not get any of the other computers on the network to print to this printer .	St
+1.1.5	From any computer on the network , I am able to ping this device and get a postive reply .	St
+1.1.6	I am also able to telnet and access the web-based manager from any computer .	St
+1.1.7	I have done everything I could think of to get this to work .	St
+1.1.8	I even tried to install the DLC protocol on a computer , and nothing works .	St
+1.1.9	I appreciate any ideas and help provided .	Polite
+1.2.1	Print server driver/firmware update http : //h20180.www2.hp.com/apps/Lookup ? h_lang=en & h_cc=us & cc=us & h_page=hpcom & lang=en & h_client=S-A-R163-1 & h_pagetype=s-002 & h_query=HP+JetDirect+170x & submit.x=7 & submit.y=10 Driver/firmware update for the printer http : //h20180.www2.hp.com/apps/Lookup ? h_lang=en & h_cc=us & cc=us & h_page=hpcom & lang=en & h_client=S-A-R163-1 & h_pagetype=s-002 & h_query=DesignJet+500 & submit.x=10 & submit.y=2 Now for the fun part .	St
+1.2.2	Ask yourself this question , where are the printer drivers for this software ?	Ques
+1.2.3	I do n't know a lot on this , because I 'm not a tech person , but I have a small network of three laptops using a print server .	St
+1.2.4	All three laptops have the network software for the printers so they can print .	St
+1.2.5	I have this set up so I do n't have to leave any computer on so the others can print .	St
+1.2.6	I know where I work , when I choose print , I can go to print server1 or print server2 .	St
+1.2.7	So I 'm guessing that these print servers have the software to print to the many printers on the network .	St
+1.2.8	Each printer has a ip address .	St
+1.2.9	Not sure if I helped you or not but good luck with this .	St
 1.2.10	Rick	St
-1.3.1	As I understood you description you are using the parallel port?	St
-1.3.2	IF this is so then you are sharing through windows?	St
-1.3.3	If the above is true make sure that the firewall settings are set correct to let outside computers print to that printer...	St
-1.3.4	I am not to sure how server 2003 works but I think that may be the problem...	St
-1.3.5	If you need to use more the one computer the ideal solution is to upgrade to the internal web server, and just put the printer direct on your network.	Ques
-1.3.6	Not only is this much faster the printer is always there even when the computer is not on.	St
-1.3.7	Just a side note on the 500's, make sure you change the p-head too.	St
-1.3.8	This can cause problems with the carriage later on if this is not done at least once per year depending on how much you are printing.	St
-1.4.1	Parallel port connects printer to print server.	St
-1.4.2	Print server will be on ethernet cable.	St
-1.5.1	worked with another on a school network without problems but that network was not complex.	St
-1.5.2	I don't know how yours was set up but we used static addressing rather DHCP.	St
-1.5.3	The print server needs a fixed address and that address must also be configured on the TCP/IP port that was created on each PC.	Sug
-1.5.4	I presume this was done.	St
-1.5.5	However, we later had a similar problem with another network printer that installed and configured ok but wouldn't print.	St
-1.5.6	It turned out to be a TCP/IP address conflict and XP didn't warn us about it.	St
-1.5.7	I wonder if you are using DHCP and the print server's address isn't in a reserved range.	St
+1.3.1	As I understood you description you are using the parallel port ?	Ques
+1.3.2	IF this is so then you are sharing through windows ?	Ques
+1.3.3	If the above is true make sure that the firewall settings are set correct to let outside computers print to that printer ...	St
+1.3.4	I am not to sure how server 2003 works but I think that may be the problem ...	St
+1.3.5	If you need to use more the one computer the ideal solution is to upgrade to the internal web server , and just put the printer direct on your network .	Ques
+1.3.6	Not only is this much faster the printer is always there even when the computer is not on .	St
+1.3.7	Just a side note on the 500 's , make sure you change the p-head too .	St
+1.3.8	This can cause problems with the carriage later on if this is not done at least once per year depending on how much you are printing .	St
+1.4.1	Parallel port connects printer to print server .	St
+1.4.2	Print server will be on ethernet cable .	St
+1.5.1	worked with another on a school network without problems but that network was not complex .	St
+1.5.2	I do n't know how yours was set up but we used static addressing rather DHCP .	St
+1.5.3	The print server needs a fixed address and that address must also be configured on the TCP/IP port that was created on each PC .	St
+1.5.4	I presume this was done .	St
+1.5.5	However , we later had a similar problem with another network printer that installed and configured ok but would n't print .	St
+1.5.6	It turned out to be a TCP/IP address conflict and XP did n't warn us about it .	St
+1.5.7	I wonder if you are using DHCP and the print server 's address is n't in a reserved range .	St

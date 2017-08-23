@@ -1,25 +1,25 @@
-1.1.1	I have an extensive network set up between 3 sites and am having some issues now that we have added more sites in.	St
-1.1.2	We have one site with the internet connection router to wirless bridge to bridge via ad-hoc connection.	St
-1.1.3	From there we have a switch connecting to another bridge via ad-hoc to the next bridge to a switch, and this is where we run into the problem.	St
-1.1.4	We can hit the internet at the first two sites but the last cannot get on the internet.	St
-1.1.5	The last site can ping, stream video from the main router at site one but unable to connect to internet.	St
-1.1.6	Any ideas?	St
-1.1.7	We have checked gateways on all bridges computers.	St
-1.1.8	We set up a laptop at site one and connected no issues, the took it to site three and was unable to connect to internet.	St
-1.1.9	Is there some limit on ad-hoc jumps, or are we missing something.	St
-1.1.10	Any inputs would be helpful.	St
-1.2.1	When attempting to connect to the Internet from site 3, do you receive any kind of message/failure message?	St
-1.3.1	we are recieving no failure messages.	St
-1.3.2	At site 3 we are getting DNS resolution, type in www.google.com or any web page address and we see status that it is searching for a IP for that specific site.	St
-1.4.1	There is no limit to the number of hops introduced by Ad-hoc networking that I am aware of.	St
-1.4.2	However, the 802.11 standard only briefly mentions bridging and does not define it well.	St
-1.4.3	I have seen many issues with bridges trying to associate with APs.	St
-1.4.4	Some bridges have an option to clone the first MAC that talks.	St
-1.4.5	They then act as a proxy for all other devices behind the bridge.	St
-1.4.6	Try looking for an option like this.	St
-1.4.7	You did not mention address scheme so I can not tell if this is a routing issue or not.	St
-1.4.8	Did you try a traceroute on the PC at Site 3 to your ISP DNS server or router?	St
-1.4.9	Are you using managed switches?	St
-1.4.10	Check the forwarding database on the switch to see what devices have been learned.	St
-1.4.11	When bridging for the first time, same vendor equipment makes a big difference.	St
+1.1.1	I have an extensive network set up between 3 sites and am having some issues now that we have added more sites in .	St
+1.1.2	We have one site with the internet connection router to wirless bridge to bridge via ad-hoc connection .	St
+1.1.3	From there we have a switch connecting to another bridge via ad-hoc to the next bridge to a switch , and this is where we run into the problem .	St
+1.1.4	We can hit the internet at the first two sites but the last can not get on the internet .	St
+1.1.5	The last site can ping , stream video from the main router at site one but unable to connect to internet .	St
+1.1.6	Any ideas ?	Ques
+1.1.7	We have checked gateways on all bridges computers .	St
+1.1.8	We set up a laptop at site one and connected no issues , the took it to site three and was unable to connect to internet .	St
+1.1.9	Is there some limit on ad-hoc jumps , or are we missing something .	St
+1.1.10	Any inputs would be helpful .	St
+1.2.1	When attempting to connect to the Internet from site 3 , do you receive any kind of message/failure message ?	Ques
+1.3.1	we are recieving no failure messages .	St
+1.3.2	At site 3 we are getting DNS resolution , type in www.google.com or any web page address and we see status that it is searching for a IP for that specific site .	St
+1.4.1	There is no limit to the number of hops introduced by Ad-hoc networking that I am aware of .	St
+1.4.2	However , the 802.11 standard only briefly mentions bridging and does not define it well .	St
+1.4.3	I have seen many issues with bridges trying to associate with APs .	St
+1.4.4	Some bridges have an option to clone the first MAC that talks .	St
+1.4.5	They then act as a proxy for all other devices behind the bridge .	St
+1.4.6	Try looking for an option like this .	St
+1.4.7	You did not mention address scheme so I can not tell if this is a routing issue or not .	St
+1.4.8	Did you try a traceroute on the PC at Site 3 to your ISP DNS server or router ?	Ques
+1.4.9	Are you using managed switches ?	Ques
+1.4.10	Check the forwarding database on the switch to see what devices have been learned .	St
+1.4.11	When bridging for the first time , same vendor equipment makes a big difference .	St
 1.4.12	Skrall	St

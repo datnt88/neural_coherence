@@ -1,36 +1,36 @@
-1.1.1	Hello, We all know the drill: Install a new HDD, go to Disk Management, the Convert Disk wizard pops up.	St
-1.1.2	In another thread, a user recommended not to convert disks if given the option.	St
-1.1.3	I have never clearly understood the difference between Dynamic and Basic disks, and have always chosen Basic as the drive type.	St
-1.1.4	I believe a drive needs to be Dynamic to become a part of a Windows-controlled array, but all the disks I've formatted for all the arrays I have built were formatted as Basic, albeit all are/were controlled by third-party RAID cards.	St
-1.1.5	I am really curious as to what the actual nuts-and-bolts differences are between Basic and Dynamic drives, and when/why to use each.	St
-1.1.6	Thanks all.	St
+1.1.1	Hello , We all know the drill : Install a new HDD , go to Disk Management , the Convert Disk wizard pops up .	St
+1.1.2	In another thread , a user recommended not to convert disks if given the option .	St
+1.1.3	I have never clearly understood the difference between Dynamic and Basic disks , and have always chosen Basic as the drive type .	St
+1.1.4	I believe a drive needs to be Dynamic to become a part of a Windows-controlled array , but all the disks I 've formatted for all the arrays I have built were formatted as Basic , albeit all are/were controlled by third-party RAID cards .	St
+1.1.5	I am really curious as to what the actual nuts-and-bolts differences are between Basic and Dynamic drives , and when/why to use each .	St
+1.1.6	Thanks all .	St
 1.1.7	Tony	St
-1.2.1	I suggest avoiding it unless there is no other solution available.	St
-1.2.2	It's a SW solution to circumvent the BIOS hard drive size limit.	St
-1.2.3	Problem is if DDO becomes corrupt, you lose access to the disk and can run into real problems getting to the data stored on the disk.	St
-1.3.1	Below is an excerpt from the web... Microsoft Windows XP, Windows 2000 and Windows Server 2003 offer two types of disk storage: basic and dynamic.	St
-1.3.2	Basic Disk Storage Basic storage uses normal partition tables supported by MS-DOS, Microsoft Windows 95, Microsoft Windows 98, Microsoft Windows Millennium Edition (Me), Microsoft Windows NT, Microsoft Windows 2000, Windows Server 2003 and Windows XP.	St
-1.3.3	A disk initialized for basic storage is called a basic disk.	St
-1.3.4	A basic disk contains basic volumes, such as primary partitions, extended partitions, and logical drives.	St
-1.3.5	Additionally, basic volumes include multidisk volumes that are created by using Windows NT 4.0 or earlier, such as volume sets, stripe sets, mirror sets, and stripe sets with parity.	St
-1.3.6	Windows XP does not support these multidisk basic volumes.	St
-1.3.7	Any volume sets, stripe sets, mirror sets, or stripe sets with parity must be backed up and deleted or converted to dynamic disks before you install Windows XP Professional.	St
-1.3.8	Dynamic Disk Storage Dynamic storage is supported in Windows XP Professional, Windows 2000 and Windows Server 2003.	St
-1.3.9	A disk initialized for dynamic storage is called a dynamic disk.	St
-1.3.10	A dynamic disk contains dynamic volumes, such as simple volumes, spanned volumes, striped volumes, mirrored volumes, and RAID-5 volumes.	St
-1.3.11	With dynamic storage, you can perform disk and volume management without the need to restart Windows.	St
-1.3.12	Note: Dynamic disks are not supported on portable computers or on Windows XP Home Edition-based computers.	St
-1.3.13	You cannot create mirrored volumes or RAID-5 volumes on Windows XP Home Edition, Windows XP Professional, or Windows XP 64-Bit Edition-based computers.	St
-1.3.14	However, you can use a Windows XP Professional-based computer to create a mirrored or RAID-5 volume on remote computers that are running Windows 2000 Server, Windows 2000 Advanced Server, or Windows 2000 Datacenter Server, or the Standard, Enterprise and Data Center versions of Windows Server 2003.	St
-1.3.15	Storage types are separate from the file system type.	St
-1.3.16	A basic or dynamic disk can contain any combination of FAT16, FAT32, or NTFS partitions or volumes.	St
-1.3.17	A disk system can contain any combination of storage types.	St
-1.3.18	However, all volumes on the same disk must use the same storage type.	St
+1.2.1	I suggest avoiding it unless there is no other solution available .	St
+1.2.2	It 's a SW solution to circumvent the BIOS hard drive size limit .	St
+1.2.3	Problem is if DDO becomes corrupt , you lose access to the disk and can run into real problems getting to the data stored on the disk .	St
+1.3.1	Below is an excerpt from the web ... Microsoft Windows XP , Windows 2000 and Windows Server 2003 offer two types of disk storage : basic and dynamic .	St
+1.3.2	Basic Disk Storage Basic storage uses normal partition tables supported by MS-DOS , Microsoft Windows 95 , Microsoft Windows 98 , Microsoft Windows Millennium Edition ( Me ) , Microsoft Windows NT , Microsoft Windows 2000 , Windows Server 2003 and Windows XP .	St
+1.3.3	A disk initialized for basic storage is called a basic disk .	St
+1.3.4	A basic disk contains basic volumes , such as primary partitions , extended partitions , and logical drives .	St
+1.3.5	Additionally , basic volumes include multidisk volumes that are created by using Windows NT 4.0 or earlier , such as volume sets , stripe sets , mirror sets , and stripe sets with parity .	St
+1.3.6	Windows XP does not support these multidisk basic volumes .	St
+1.3.7	Any volume sets , stripe sets , mirror sets , or stripe sets with parity must be backed up and deleted or converted to dynamic disks before you install Windows XP Professional .	St
+1.3.8	Dynamic Disk Storage Dynamic storage is supported in Windows XP Professional , Windows 2000 and Windows Server 2003 .	St
+1.3.9	A disk initialized for dynamic storage is called a dynamic disk .	St
+1.3.10	A dynamic disk contains dynamic volumes , such as simple volumes , spanned volumes , striped volumes , mirrored volumes , and RAID-5 volumes .	St
+1.3.11	With dynamic storage , you can perform disk and volume management without the need to restart Windows .	St
+1.3.12	Note : Dynamic disks are not supported on portable computers or on Windows XP Home Edition-based computers .	St
+1.3.13	You can not create mirrored volumes or RAID-5 volumes on Windows XP Home Edition , Windows XP Professional , or Windows XP 64-Bit Edition-based computers .	St
+1.3.14	However , you can use a Windows XP Professional-based computer to create a mirrored or RAID-5 volume on remote computers that are running Windows 2000 Server , Windows 2000 Advanced Server , or Windows 2000 Datacenter Server , or the Standard , Enterprise and Data Center versions of Windows Server 2003 .	St
+1.3.15	Storage types are separate from the file system type .	St
+1.3.16	A basic or dynamic disk can contain any combination of FAT16 , FAT32 , or NTFS partitions or volumes .	St
+1.3.17	A disk system can contain any combination of storage types .	St
+1.3.18	However , all volumes on the same disk must use the same storage type .	St
 1.4.1	NIL	St
-1.5.1	Dynamic disk provide more features than basic disk.	St
-1.5.2	You will clear about it after you visit the website I linked below.	St
-1.5.3	http://www.dynamic-disk.com/difference-between-basic-and-dynamic-disk.html I think, considering the advantages of the dynamic disk, maybe you will convert basic disk to basic disk.	St
-1.5.4	This operation can be realized by the built-in disk management.	St
-1.5.5	http://www.dynamic-disk.com/basic-disk-convert-to-dynamic-disk.html But you should know the risk of this operation, convert basic to dynamic is simple.	St
-1.5.6	But when you want to convert dynamic disk back to basic disk, the big problem appears--delete all the dynamic volumes through the built-in disk management.	St
-1.5.7	So, I think this information ( convert dynamic disk to basic disk ) can help you.	St
+1.5.1	Dynamic disk provide more features than basic disk .	St
+1.5.2	You will clear about it after you visit the website I linked below .	St
+1.5.3	http : //www.dynamic-disk.com/difference-between-basic-and-dynamic-disk.html I think , considering the advantages of the dynamic disk , maybe you will convert basic disk to basic disk .	St
+1.5.4	This operation can be realized by the built-in disk management .	St
+1.5.5	http : //www.dynamic-disk.com/basic-disk-convert-to-dynamic-disk.html But you should know the risk of this operation , convert basic to dynamic is simple .	St
+1.5.6	But when you want to convert dynamic disk back to basic disk , the big problem appears -- delete all the dynamic volumes through the built-in disk management .	St
+1.5.7	So , I think this information ( convert dynamic disk to basic disk ) can help you .	St

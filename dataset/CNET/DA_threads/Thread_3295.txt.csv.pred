@@ -1,30 +1,30 @@
-1.1.1	Hi Folks, I have wireless home network comprising of one Desktop running on XP Pro which the Lexmark x1250 is connected to it through a usb port, and I have a HP laptop running Vista Home Premium, they are linked through a Netgear Wireless G Router, They all see each other, I have successfully transfered files between them, the problem is my Lexmark All In One can not print from the remote Vista Laptop, the printer has being installed in the vista laptop, and it status in the printer and fax window is says ready, the problem is when send a file to print, after some time it gives me this error &quot;Communication Not Available&quot; I have tried everything, un-install and reinstall, disconnecting on the print server and connecting back, I have check the printer port on the Remote Vista Laptop, and is correct (\\hostname\sharedprintername) once in-stlled the Vista laptop it automatically becomes the default printer and Vista can access it properties, apart from not being able to printer, it gives same error for all other functions like scanning, photocopying, where i noticed that vista says is ready but the Lexmark icon says not connected, I have disabled firewalls and anti-virus on both systems but still same problem, is there anything else am leaving out here, thanks	St
-1.2.1	were installed in the Laptop using Vista, correct?	St
-1.2.2	You have the Vista drivers for the printer?	St
-1.2.3	Downloaded from here http://www.lexmark.com/lexmark/sequentialem/home/0,6959,204816596_1019285789_0_en,00.html You installed the Lexmark x1250 into the desktop and have it set to be able to share printing.	St
-1.2.4	So what I'm seeing here is the problem that was put in the Forum Sticky , about Printer Sharing on XP Vista Network(post 12).	St
-1.2.5	Let me know how you make out.	St
+1.1.1	Hi Folks , I have wireless home network comprising of one Desktop running on XP Pro which the Lexmark x1250 is connected to it through a usb port , and I have a HP laptop running Vista Home Premium , they are linked through a Netgear Wireless G Router , They all see each other , I have successfully transfered files between them , the problem is my Lexmark All In One can not print from the remote Vista Laptop , the printer has being installed in the vista laptop , and it status in the printer and fax window is says ready , the problem is when send a file to print , after some time it gives me this error & quot ; Communication Not Available & quot ; I have tried everything , un-install and reinstall , disconnecting on the print server and connecting back , I have check the printer port on the Remote Vista Laptop , and is correct ( \\hostname\sharedprintername ) once in-stlled the Vista laptop it automatically becomes the default printer and Vista can access it properties , apart from not being able to printer , it gives same error for all other functions like scanning , photocopying , where i noticed that vista says is ready but the Lexmark icon says not connected , I have disabled firewalls and anti-virus on both systems but still same problem , is there anything else am leaving out here , thanks	St
+1.2.1	were installed in the Laptop using Vista , correct ?	Ques
+1.2.2	You have the Vista drivers for the printer ?	Ques
+1.2.3	Downloaded from here http : //www.lexmark.com/lexmark/sequentialem/home/0,6959,204816596_1019285789_0_en,00.html You installed the Lexmark x1250 into the desktop and have it set to be able to share printing .	St
+1.2.4	So what I 'm seeing here is the problem that was put in the Forum Sticky , about Printer Sharing on XP Vista Network ( post 12 ) .	St
+1.2.5	Let me know how you make out .	St
 1.2.6	Rick	St
-1.3.1	Thanks, I saw that thread while I was trouble shooting before my post, I tried it, but Vista won't recognize the driver so can't install it as a local printer, so I click install on the driver installation itself, when installing, it asks me for the printer connection type, I click network printer (Peer To Peer), it then ask for the printer server name and shared name (the Printer is shared in the XP Desktop), once I fill in the data it searches for it, finds it and then installs it, after installation, it becomes the default printer on Vista, Vista can access the Printer properties, even says it status is ready but when ever I try to print a test page it won't print, it gives this error &quot;Communication Not Available&quot; After installation Vista status says Printer Ready, but the Lexmark Notification Icon in the Vista taskbar say not connected.	St
-1.3.2	I have tried the Vista drivers downloaded from Lexmark, still the same problem	St
-1.4.1	I chatted with Lexmark support just now and below is the chat transcript Someone will be with you shortly... [gee] my x1250 network printer cannot communicate from my Vista laptop [Lexmark] Welcome to Lexmark Chat support.	St
-1.4.2	[Lexmark] I will be glad to assist you with this issue today.	St
-1.4.3	[Lexmark] Gerald, is the printer connected directly to your laptop?	St
-1.4.4	[gee] no is connected to my XP desktop [gee] i use a home network [Lexmark] Is it printing fine in your XP desktop?	St
-1.4.5	[gee] yes I can print from it [gee] i can also print when ma Vista laptop is connected to the printer directly [Lexmark] You can print through network only if the printer is connected to higher version, Please connect your printer to vista.	Sug
-1.4.6	[gee] Do this solution apply only to this particular printer or all of lexmark's printers [Lexmark] Its for all lexmark printers.	St
-1.4.7	[gerald.com] thankyou [Lexmark] You're welcome; it's been nice to assist you today.	St
-1.4.8	[Lexmark] Is there anything else I could help you with?	St
-1.4.9	[Lexmark] gee are you there?	St
-1.4.10	[gee] no thanks Is there folks Lexmark's solution, am not happy because I had a better HP printer but exchange it for this Lexmark with my friend, Now is either I install Vista along side my XP OS on my desktop or sell the Lexmark printer, I used to be a Lexmark Fan, but now I will be more care full next time, Is there any printer out there that does not have this problem, I won't mind your suggestions, Thanks	St
-1.5.1	always a print server.	St
-1.5.2	I have a Dell Photo AIO Printer 964 hoohed up to a Dell wireless Print adapter 3300.	St
-1.5.3	The print adapter is hooked up to the Printer using a usb cable.	St
-1.5.4	It uses the wireless network and I have three laptops hooked up to this network.	St
-1.5.5	Installed the drivers in each laptop.	St
-1.5.6	Each one can print wirelessly to the printer.	St
-1.5.7	No host computer needs to be connected.	St
-1.5.8	You could get a wireless print adapter and connect it to the printer, if you really like the printer you have.	Sug
-1.5.9	You can also change printers down the road with the setup I use.	St
-1.5.10	Sorry to hear about your dealings with Lexmark.	St
+1.3.1	Thanks , I saw that thread while I was trouble shooting before my post , I tried it , but Vista wo n't recognize the driver so ca n't install it as a local printer , so I click install on the driver installation itself , when installing , it asks me for the printer connection type , I click network printer ( Peer To Peer ) , it then ask for the printer server name and shared name ( the Printer is shared in the XP Desktop ) , once I fill in the data it searches for it , finds it and then installs it , after installation , it becomes the default printer on Vista , Vista can access the Printer properties , even says it status is ready but when ever I try to print a test page it wo n't print , it gives this error & quot ; Communication Not Available & quot ; After installation Vista status says Printer Ready , but the Lexmark Notification Icon in the Vista taskbar say not connected .	St
+1.3.2	I have tried the Vista drivers downloaded from Lexmark , still the same problem	St
+1.4.1	I chatted with Lexmark support just now and below is the chat transcript Someone will be with you shortly ... [ gee ] my x1250 network printer can not communicate from my Vista laptop [ Lexmark ] Welcome to Lexmark Chat support .	St
+1.4.2	[ Lexmark ] I will be glad to assist you with this issue today .	St
+1.4.3	[ Lexmark ] Gerald , is the printer connected directly to your laptop ?	Ques
+1.4.4	[ gee ] no is connected to my XP desktop [ gee ] i use a home network [ Lexmark ] Is it printing fine in your XP desktop ?	Ques
+1.4.5	[ gee ] yes I can print from it [ gee ] i can also print when ma Vista laptop is connected to the printer directly [ Lexmark ] You can print through network only if the printer is connected to higher version , Please connect your printer to vista .	St
+1.4.6	[ gee ] Do this solution apply only to this particular printer or all of lexmark 's printers [ Lexmark ] Its for all lexmark printers .	St
+1.4.7	[ gerald.com ] thankyou [ Lexmark ] You 're welcome ; it 's been nice to assist you today .	St
+1.4.8	[ Lexmark ] Is there anything else I could help you with ?	Ques
+1.4.9	[ Lexmark ] gee are you there ?	Ques
+1.4.10	[ gee ] no thanks Is there folks Lexmark 's solution , am not happy because I had a better HP printer but exchange it for this Lexmark with my friend , Now is either I install Vista along side my XP OS on my desktop or sell the Lexmark printer , I used to be a Lexmark Fan , but now I will be more care full next time , Is there any printer out there that does not have this problem , I wo n't mind your suggestions , Thanks	St
+1.5.1	always a print server .	St
+1.5.2	I have a Dell Photo AIO Printer 964 hoohed up to a Dell wireless Print adapter 3300 .	St
+1.5.3	The print adapter is hooked up to the Printer using a usb cable .	St
+1.5.4	It uses the wireless network and I have three laptops hooked up to this network .	St
+1.5.5	Installed the drivers in each laptop .	St
+1.5.6	Each one can print wirelessly to the printer .	St
+1.5.7	No host computer needs to be connected .	St
+1.5.8	You could get a wireless print adapter and connect it to the printer , if you really like the printer you have .	Sug
+1.5.9	You can also change printers down the road with the setup I use .	St
+1.5.10	Sorry to hear about your dealings with Lexmark .	St
 1.5.11	Rick	St

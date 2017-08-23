@@ -1,51 +1,51 @@
-1.1.1	Hi, I'm having a problem with my Hard Drive.	St
-1.1.2	I'm running an XP Pro SP2 machine with an 80GB Maxtor as the Master, a 250GB Samsung as the Primary Slave, and a 250GB Maxtor on an Ultra133 TX2 IDE controller Card.	St
-1.1.3	The issue is with the 250 on the controller card.	St
-1.1.4	In the process of writing files to the drive, several messages popped up saying that different System Volume Information files were corrupt.	St
-1.1.5	The drive was no longer readable/writable but still showed up in both My Computer and Disk management as an NTFS drive.	St
-1.1.6	Solution Attempt 1: I attempted to run chkdsk /r without success.	St
-1.1.7	I rebooted my machine and the drive still appeared in Disk Management and My Computer, but no longer as NTFS.	St
-1.1.8	Also, no Volume information such as Disk Space, etc were available.	St
-1.1.9	It now read as a RAW drive.	St
-1.1.10	I tried chkdsk /r and /f once again, now only in Safe Mode with Command Prompt.	St
-1.1.11	This was still unsuccsessful.	St
-1.1.12	Solution Attempt 2: I thought this may be a Windows exclusive issue, so I grabbed my handy Bactrack Security Suite Live Linux CD (SLAX).	St
-1.1.13	I explored a bit with Konquerer and the shell and found that /mnt/hdg1 (The HD in question) was there, but again, I was having the same issues as in Windows.	St
-1.1.14	Frustrated to no wnd at this point, I tried a diferent tactic.	St
-1.1.15	Solution Attempt 3: I finally caved and bought Recover My Files http://www.recovermyfiles.com/ as this program showed the most promise and seemingly had the best reviews.	St
-1.1.16	I would have gone the linux route and used the Forensic Utilities Backtrack has, but my unfamiliartity with the shell and linux in general lead me to the decision to go a Windows oriented route.	St
-1.1.17	Well, there's both good and bad news.	Polite
-1.1.18	Recover My Files found all of the files on the disk, and even in their native directories.	St
-1.1.19	However, it wouldn't repair the System Volume Information files, and would only recover the data to another drive or DVD.	St
-1.1.20	Worse, it will only recover them as Recovered_file_01.*.	St
-1.1.21	* being the file extension of what I'm trying to recover.	St
-1.1.22	I've been on Google and Microsoft Knowledge base, as well as others and I'm stuck.	St
-1.1.23	I can't find a solution to this anywhere, and don't have another drive to back these files up to.	St
-1.1.24	I'm also positive that there is a way to fix this, I'm just not sure how.	St
-1.1.25	Would someone please help me?	Ques
-1.1.26	I'll give you all the info I can.	St
-1.1.27	Thanks.	St
-1.2.1	At the suggestion of a friend I also checked event viewer for errors.	St
-1.2.2	There are a number of errors from the time when the crsh occured, and nothing previous to that.	St
-1.2.3	It didnt tell me anything I didn't already know.	St
-1.2.4	I also swapped the it with the Primary slave.	St
-1.2.5	Same complications.	St
-1.2.6	I tried another chkdsk /f and /r: C:\Documents and Settings\wifileecher&gt;chkdsk /r G: The type of the file system is NTFS.	St
-1.2.7	Unable to determine volume version and state.	St
-1.2.8	CHKDSK aborted.	St
-1.2.9	C:\Documents and Settings\wifileecher&gt;chkdsk /f G: The type of the file system is NTFS.	St
-1.2.10	Unable to determine volume version and state.	St
-1.2.11	CHKDSK aborted.	St
-1.3.1	ontrack.com has some software you can try to see if theirs work.	St
-1.3.2	And drivesavers.com has their system.	St
-1.3.3	But what most discover is their repairs make it worse.	St
+1.1.1	Hi , I 'm having a problem with my Hard Drive .	St
+1.1.2	I 'm running an XP Pro SP2 machine with an 80GB Maxtor as the Master , a 250GB Samsung as the Primary Slave , and a 250GB Maxtor on an Ultra133 TX2 IDE controller Card .	St
+1.1.3	The issue is with the 250 on the controller card .	St
+1.1.4	In the process of writing files to the drive , several messages popped up saying that different System Volume Information files were corrupt .	St
+1.1.5	The drive was no longer readable/writable but still showed up in both My Computer and Disk management as an NTFS drive .	St
+1.1.6	Solution Attempt 1 : I attempted to run chkdsk /r without success .	St
+1.1.7	I rebooted my machine and the drive still appeared in Disk Management and My Computer , but no longer as NTFS .	St
+1.1.8	Also , no Volume information such as Disk Space , etc were available .	St
+1.1.9	It now read as a RAW drive .	St
+1.1.10	I tried chkdsk /r and /f once again , now only in Safe Mode with Command Prompt .	St
+1.1.11	This was still unsuccsessful .	St
+1.1.12	Solution Attempt 2 : I thought this may be a Windows exclusive issue , so I grabbed my handy Bactrack Security Suite Live Linux CD ( SLAX ) .	St
+1.1.13	I explored a bit with Konquerer and the shell and found that /mnt/hdg1 ( The HD in question ) was there , but again , I was having the same issues as in Windows .	St
+1.1.14	Frustrated to no wnd at this point , I tried a diferent tactic .	St
+1.1.15	Solution Attempt 3 : I finally caved and bought Recover My Files http : //www.recovermyfiles.com/ as this program showed the most promise and seemingly had the best reviews .	St
+1.1.16	I would have gone the linux route and used the Forensic Utilities Backtrack has , but my unfamiliartity with the shell and linux in general lead me to the decision to go a Windows oriented route .	St
+1.1.17	Well , there 's both good and bad news .	St
+1.1.18	Recover My Files found all of the files on the disk , and even in their native directories .	St
+1.1.19	However , it would n't repair the System Volume Information files , and would only recover the data to another drive or DVD .	St
+1.1.20	Worse , it will only recover them as Recovered_file_01 . * .	St
+1.1.21	* being the file extension of what I 'm trying to recover .	St
+1.1.22	I 've been on Google and Microsoft Knowledge base , as well as others and I 'm stuck .	St
+1.1.23	I ca n't find a solution to this anywhere , and do n't have another drive to back these files up to .	St
+1.1.24	I 'm also positive that there is a way to fix this , I 'm just not sure how .	St
+1.1.25	Would someone please help me ?	Ques
+1.1.26	I 'll give you all the info I can .	St
+1.1.27	Thanks .	Polite
+1.2.1	At the suggestion of a friend I also checked event viewer for errors .	St
+1.2.2	There are a number of errors from the time when the crsh occured , and nothing previous to that .	St
+1.2.3	It didnt tell me anything I did n't already know .	St
+1.2.4	I also swapped the it with the Primary slave .	St
+1.2.5	Same complications .	St
+1.2.6	I tried another chkdsk /f and /r : C : \Documents and Settings\wifileecher & gt ; chkdsk /r G : The type of the file system is NTFS .	St
+1.2.7	Unable to determine volume version and state .	St
+1.2.8	CHKDSK aborted .	St
+1.2.9	C : \Documents and Settings\wifileecher & gt ; chkdsk /f G : The type of the file system is NTFS .	St
+1.2.10	Unable to determine volume version and state .	St
+1.2.11	CHKDSK aborted .	St
+1.3.1	ontrack.com has some software you can try to see if theirs work .	St
+1.3.2	And drivesavers.com has their system .	St
+1.3.3	But what most discover is their repairs make it worse .	St
 1.3.4	Bob	St
-1.4.1	Look, I'm not looking for a piece of software to &quot;make it all better&quot;, I'm trying to find someone that actually knows how to repair the system volume information.	St
+1.4.1	Look , I 'm not looking for a piece of software to & quot ; make it all better & quot ; , I 'm trying to find someone that actually knows how to repair the system volume information .	St
 1.4.2	Thanks	Polite
-1.5.1	I have a buddy that dives in and can edit file allocation tables but he's always busy and charges a few hundred per hour for his services.	St
-1.5.2	The ontrack software is free and would tell you if it would work.	St
-1.5.3	Why not?	St
-1.5.4	I didn't re-read the entire thread but I NEVER had to repair the system volume information (read http://www.theeldergeek.com/system_volume_information_folder1.htm ) since that's just part of Windows.	St
-1.5.5	I did run into a toasted OS last year and to save some of their work without reinstalling the entire system I put the drive as a slave and deleted that directory, ran chkdsk and got lucky that a repair install of XP brought it back, but the damage was quite odd.	St
-1.5.6	The bottom line was they were a P2P user and took a hit.	St
+1.5.1	I have a buddy that dives in and can edit file allocation tables but he 's always busy and charges a few hundred per hour for his services .	St
+1.5.2	The ontrack software is free and would tell you if it would work .	St
+1.5.3	Why not ?	Ques
+1.5.4	I did n't re-read the entire thread but I NEVER had to repair the system volume information ( read http : //www.theeldergeek.com/system_volume_information_folder1.htm ) since that 's just part of Windows .	St
+1.5.5	I did run into a toasted OS last year and to save some of their work without reinstalling the entire system I put the drive as a slave and deleted that directory , ran chkdsk and got lucky that a repair install of XP brought it back , but the damage was quite odd .	St
+1.5.6	The bottom line was they were a P2P user and took a hit .	St
 1.5.7	Bob	St

@@ -1,69 +1,69 @@
-1.1.1	I have been using a wg111 wireless usb adapter for some number of years.	St
-1.1.2	My previous configuration (WinXP Pro SP2, home-brew Athlon XP system) worked fine for 2-3 years.	St
-1.1.3	I recently &quot;upgraded&quot; to a Dell Dimension 9200 (WinXP Pro SP2, Core2 Duo, etc.)	St
-1.1.4	and periodically get BSOD at boot time due to driver crashes.	St
-1.1.5	I have not (yet) lost data.	St
-1.1.6	In trying to track down this problem, I have seen much scathing commentary.	St
-1.1.7	I guess I just lucked out --- until now.	St
-1.1.8	I am using the latest drivers...	St
-1.1.9	So, is there a stable Wireless G USB adapter out there?	St
-1.1.10	Should I switch to PCI?	St
-1.1.11	My network is stable, as there are 3-4 laptops having no problems.	St
-1.1.12	The setup in my house precludes a wired connection.	St
-1.1.13	Thanks, Al	St
-1.2.1	http://kbserver.netgear.com/release_notes/d103015.asp And you are using my suggested router settings?	St
-1.2.2	Read http://forums.cnet.com/5208-6132_102-0.html?forumID=32&threadID=242736&messageID=2457489 What's those settings?	St
-1.2.3	(WPA and leave SSID broadcasting, no other settings from stock!)	St
+1.1.1	I have been using a wg111 wireless usb adapter for some number of years .	St
+1.1.2	My previous configuration ( WinXP Pro SP2 , home-brew Athlon XP system ) worked fine for 2-3 years .	St
+1.1.3	I recently & quot ; upgraded & quot ; to a Dell Dimension 9200 ( WinXP Pro SP2 , Core2 Duo , etc . )	St
+1.1.4	and periodically get BSOD at boot time due to driver crashes .	St
+1.1.5	I have not ( yet ) lost data .	St
+1.1.6	In trying to track down this problem , I have seen much scathing commentary .	St
+1.1.7	I guess I just lucked out -- - until now .	St
+1.1.8	I am using the latest drivers ...	St
+1.1.9	So , is there a stable Wireless G USB adapter out there ?	Ques
+1.1.10	Should I switch to PCI ?	Ques
+1.1.11	My network is stable , as there are 3-4 laptops having no problems .	St
+1.1.12	The setup in my house precludes a wired connection .	St
+1.1.13	Thanks , Al	St
+1.2.1	http : //kbserver.netgear.com/release_notes/d103015.asp And you are using my suggested router settings ?	Ques
+1.2.2	Read http : //forums.cnet.com/5208-6132_102-0.html ? forumID=32 & threadID=242736 & messageID=2457489 What 's those settings ?	Ques
+1.2.3	( WPA and leave SSID broadcasting , no other settings from stock ! )	St
 1.2.4	Bob	St
-1.3.1	Bob, Thanks for the quick reply.	St
-1.3.2	the download states that I will get driver version 5.1254.1120.2006.	St
-1.3.3	When I check in device manager, I still get 3.0.18.201.	St
-1.3.4	The driver dir of the update did not seem to have an INF file for the wg111v2, just a .sys file.	St
-1.3.5	The inf file is net111v2.	St
-1.3.6	Also, when I try to run the installed &quot;Netgear wg111v2 smart wizard&quot; I get the hourglass for 1/2 second.	St
-1.3.7	BTW - did you got to Penn St?	St
-1.4.1	Sorry the driver didn't contain any update.	St
-1.4.2	OK there are other reasons for this to crash.	St
-1.4.3	Let's try a few tools and scans.	Sug
-1.4.4	1.	St
-1.4.5	Run WINSOCKFIX.	St
-1.4.6	Retest.	St
-1.4.7	2.	St
-1.4.8	Scan with this tool, tell me if it found anything other than cookies.	St
-1.4.9	http://www.ewido.net/en/onlinescan/ If there were any pests removed repeat item 1.	St
-1.4.10	3.	St
-1.4.11	I wasn't sure if it crashed everytime, but if so what else is in the Event Viewer?	St
+1.3.1	Bob , Thanks for the quick reply .	St
+1.3.2	the download states that I will get driver version 5.1254.1120.2006 .	St
+1.3.3	When I check in device manager , I still get 3.0.18.201 .	St
+1.3.4	The driver dir of the update did not seem to have an INF file for the wg111v2 , just a .sys file .	St
+1.3.5	The inf file is net111v2 .	St
+1.3.6	Also , when I try to run the installed & quot ; Netgear wg111v2 smart wizard & quot ; I get the hourglass for 1/2 second .	St
+1.3.7	BTW - did you got to Penn St ?	Ques
+1.4.1	Sorry the driver did n't contain any update .	St
+1.4.2	OK there are other reasons for this to crash .	St
+1.4.3	Let 's try a few tools and scans .	Sug
+1.4.4	1 .	St
+1.4.5	Run WINSOCKFIX .	St
+1.4.6	Retest .	St
+1.4.7	2 .	St
+1.4.8	Scan with this tool , tell me if it found anything other than cookies .	St
+1.4.9	http : //www.ewido.net/en/onlinescan/ If there were any pests removed repeat item 1 .	St
+1.4.10	3 .	St
+1.4.11	I was n't sure if it crashed everytime , but if so what else is in the Event Viewer ?	Ques
 1.4.12	Bob	St
-1.5.1	Event log has this: A duplicate name has been detected on the TCP network.	St
-1.5.2	The IP address of the machine that sent the message is in the data.	St
-1.5.3	Use nbtstat -n in a command window to see which name is in the Conflict state.	St
-1.5.4	For more information, see Help and Support Center at http://go.microsoft.com/fwlink/events.asp .	St
-1.5.5	there are no other machines on the net at this time...	St
-1.5.6	Need to leave for a few hours.	St
-1.5.7	I will check back later.	Sug
-1.5.8	Thanks for all of your help!	St
-1.6.1	That is exactly one of the clues that lead me to write about escalating numbers of a new WIFI exploit tool.	St
-1.6.2	This does cause drivers to crash!	St
-1.6.3	Read http://forums.cnet.com/5208-6132_102-0.html?forumID=32&threadID=242736&messageID=2457489 The fix is thankfully easy.	St
-1.6.4	Just take the router's defaults, rename the SSID, enable WPA, let SSID broadcast and it should knock the attacker offline.	Sug
-1.6.5	A few report that the attack continues for a few days but the move to WPA usually finds them giving up in a week or less.	St
+1.5.1	Event log has this : A duplicate name has been detected on the TCP network .	St
+1.5.2	The IP address of the machine that sent the message is in the data .	St
+1.5.3	Use nbtstat -n in a command window to see which name is in the Conflict state .	St
+1.5.4	For more information , see Help and Support Center at http : //go.microsoft.com/fwlink/events.asp .	St
+1.5.5	there are no other machines on the net at this time ...	St
+1.5.6	Need to leave for a few hours .	St
+1.5.7	I will check back later .	St
+1.5.8	Thanks for all of your help !	St
+1.6.1	That is exactly one of the clues that lead me to write about escalating numbers of a new WIFI exploit tool .	St
+1.6.2	This does cause drivers to crash !	St
+1.6.3	Read http : //forums.cnet.com/5208-6132_102-0.html ? forumID=32 & threadID=242736 & messageID=2457489 The fix is thankfully easy .	St
+1.6.4	Just take the router 's defaults , rename the SSID , enable WPA , let SSID broadcast and it should knock the attacker offline .	Sug
+1.6.5	A few report that the attack continues for a few days but the move to WPA usually finds them giving up in a week or less .	St
 1.6.6	Bob	St
-1.7.1	Bob, Thanks again for the worthwhile information!	St
-1.7.2	Now I just need to figure out the best way to run the RADIUS server for my home net.	St
-1.7.3	I would prefer not to leave a computer on all the time, but I may Again, your help has been exceptional!	St
-1.8.1	No radius server is needed.	St
+1.7.1	Bob , Thanks again for the worthwhile information !	St
+1.7.2	Now I just need to figure out the best way to run the RADIUS server for my home net .	St
+1.7.3	I would prefer not to leave a computer on all the time , but I may Again , your help has been exceptional !	St
+1.8.1	No radius server is needed .	St
 1.8.2	Bob	St
-1.9.1	wpa-psk transition was straightforward.	St
-1.9.2	Now, I will wait to see if I get another BSOD.	St
-1.9.3	Thanks again...	St
-1.10.1	It's Windows...	St
-1.10.2	Sorry but I've yet to see this platform to be perfected yet.	St
-1.10.3	If it doesn't do this in a day you have to consider other issues.	St
+1.9.1	wpa-psk transition was straightforward .	St
+1.9.2	Now , I will wait to see if I get another BSOD .	St
+1.9.3	Thanks again ...	St
+1.10.1	It 's Windows ...	St
+1.10.2	Sorry but I 've yet to see this platform to be perfected yet .	St
+1.10.3	If it does n't do this in a day you have to consider other issues .	St
 1.10.4	Bob	St
-1.11.1	Yes, I understand the periodic BSOD will occur.	St
-1.11.2	You say, &quot;If it doesn't do this in a day you have to consider other issues.&quot; Do you man &quot;does&quot;?	St
-1.11.3	Sorry to belabor.	St
-1.12.1	I could have written that better, but I think the point is that it is what it is.	St
+1.11.1	Yes , I understand the periodic BSOD will occur .	St
+1.11.2	You say , & quot ; If it does n't do this in a day you have to consider other issues. & quot ; Do you man & quot ; does & quot ; ?	Ques
+1.11.3	Sorry to belabor .	St
+1.12.1	I could have written that better , but I think the point is that it is what it is .	St
 1.12.2	Bob	St
-1.13.1	Thanks again for all of you help!!	St
+1.13.1	Thanks again for all of you help ! !	St
 1.13.2	!	St

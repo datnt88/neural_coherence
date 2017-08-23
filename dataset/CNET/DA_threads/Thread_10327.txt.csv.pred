@@ -1,127 +1,127 @@
-1.1.1	I hope somebody can help m with this.	St
-1.1.2	I recently acquired an HP Deskjet 3745, an HP scanner and a PC (Celeron 2.0 ghz, 300w PS, 2 Case fans, AsRock Board, 40GB HDD, DVD combo drive and a 500w AVR connected directly to a wall oulet).	St
-1.1.3	Here's the problem.	St
-1.1.4	I always feel a small shock when i touch the inside metal parts on my casing.	St
-1.1.5	this doesn't happen when im removing the cover though.	St
-1.1.6	but what really bothers me is when i tried to install a second harddisk, that i got a strong electric shock (the HDD was running so quiet, i needed to touch it and see if its functioning).	St
-1.1.7	I also get this kind of shock if i touch any metal (screws, usb connector..) on a printer or scanner connected to the PC.	St
-1.1.8	and the odd thing is, even if i remove all the power cable from the PS, i still get a shock if i leave the printer or scanner connected through the usb port.	St
-1.1.9	(printer and scanner connected to a power strip with no avr) could my Power Supply be the culprit?	St
-1.2.1	three prong outlets?	St
-1.2.2	If so you have lost the ground somewhere between the outlet and the circuit breaker box.	St
-1.3.1	Is this a single jolt or, if you hold a finger on a metal part, does the shock persist longer.	St
-1.3.2	If a single jolt, its a static shock.	St
-1.3.3	If it persists, it's low level AC.	St
-1.3.4	AC will require a solid ground path for you to feel it.	St
-1.3.5	A static shock does not.	Sug
-1.3.6	If you wear rubber soled shoes, stand on dry gound and touch a metal screw with a singel finger, you should feel no AC voltage even if present.	St
-1.3.7	So tell us about the shock.	Sug
-1.4.1	ESD = electro static discharge is common as the heat is applied during colder weather as humidity is lessen.	St
-1.4.2	Use some static spray around your area to lessen that.	St
-1.4.3	Plus a static pad to discharge yourself before touching anything.	St
-1.4.4	The next area is to be sure that the AC wall outlet is properly grounded and/or wired.	St
-1.4.5	A small plug-in checker from Radio Smack is small cost and immediately states status of AC outlet status.	St
-1.4.6	Try another AC outlet or use a 3-wired ext.	St
-1.4.7	cord to another outlet to test.	St
-1.4.8	It sure sounds like bad wiring or maybe that power supply.	St
-1.4.9	There are simple ATX checker for psu, but it usually states power present, just swap out for best repair.	St
-1.4.10	Plus, swap AC cord as well.	St
-1.4.11	tada -----Willy	St
-1.5.1	tanx on the info, i believe its low level AC then.	St
-1.5.2	if i touch the metal parts (e.g.	St
-1.5.3	screw) its a small persistent one (u cant get use to it).	St
-1.5.4	but if i try to touch the harddisk thats where the big jolt comes out.	St
-1.5.5	my PS is connected via a three-prong plug (but my avr is two-pronged)	St
-1.6.1	i don't think its ESD.	St
-1.6.2	but i'll try swapping my PS with another one.	St
-1.6.3	and try all other suggestions as well.	Sug
-1.6.4	hopefully its just a minor thing.	St
-1.6.5	the PC works fine though.	St
-1.7.1	Your HD and other metal case hardware such as screws, drive bays, etc.	St
-1.7.2	should all be electrically connected.	St
-1.7.3	They should all be at the same electrical potential so the HD case and any chassis screws should give the same shock (if there is one) unless this is a very unual case with lots of elecrically isolated parts.	St
-1.7.4	Even if there are plastics and rubber grommets such as used to quiet some components, all the cabling has ground wires and/or neutral returns.	St
-1.7.5	Generally the neutrals are somehow tied to ground but some through capacitors.	St
-1.7.6	Even digital and analog grounds are near equivalents to earth ground.	St
-1.7.7	Any significant elecrical current flow through these grounds should definately be causing other problems.	St
-1.7.8	There are simple testing devices you can get at hardware stores that check the integrity of your outlets, however.	St
-1.7.9	These can disclose polarity or open ground issues.	Ques
-1.7.10	You might invest in something like this.	St
-1.7.11	Otherwise, a simple DVM and the ability to use it would tell you much about your problem.	St
-1.8.1	I'm an ee and this is a common problem called &quot;leakage current&quot;.	St
-1.8.2	It's generally a problem when a component in the power supply is leaking from the high voltage side to the low voltage side of the power supply.	St
-1.8.3	If your power supply is not grounded well (either inside the power supply, the AC cord or the plug in the wall) you'll feel the tingle when you touch your system.	St
-1.8.4	Most power supplies do a &quot;hi-pot&quot; test to check for this problem in the factory.	St
-1.8.5	Assuming your AC outlet is checked, swap the cord first since it's easiest, then if you still feel something, disconnect the power supply and pull it out of the system, plug in the cord and touch it (it shouldn't need to be on).	St
-1.8.6	If you still feel the tingle then the power supply is bad.	St
-1.9.1	If you are fiddling around inside your case, you should be using a grounding strap when making contact with any internal parts.	St
-1.9.2	I've seen boards get fried when a static charge has been created by the fiddler not being grounded.	St
-1.10.1	as something MINOR.	St
-1.10.2	It is likely leakage via a bypass capacitor, howevwer, you safety ground return should prevent you from feeling it.	St
-1.10.3	Have someone install a Ground Fault type of outlet where the system is connected, and don't be surprised if it trips and shuts power off.	St
-1.10.4	They only take about 5 milliamps leakage to trip.	St
-1.10.5	Are you certain that someone didn't remove the ground pin from one of the AC plugs along the way, or use an adapter and forget to hook the pigtail to the mounting screw.	St
-1.10.6	Navy Specifications state that 5 Milliamps through the heart can kill.	St
-1.11.1	take IMMEDIATE action.	St
-1.11.2	This is NOT, in the least a minor item.	St
-1.11.3	Again, the Navy specs say that 5 milliamps thru the heart can kill a human.	St
-1.11.4	Fortunately your leakage path is through your extremeties.	St
-1.11.5	GET that system, hard grounded to the Main Power Box ASAP through the third wire.	St
-1.11.6	What half arsed AVR is only two wire????	St
+1.1.1	I hope somebody can help m with this .	St
+1.1.2	I recently acquired an HP Deskjet 3745 , an HP scanner and a PC ( Celeron 2.0 ghz , 300w PS , 2 Case fans , AsRock Board , 40GB HDD , DVD combo drive and a 500w AVR connected directly to a wall oulet ) .	St
+1.1.3	Here 's the problem .	St
+1.1.4	I always feel a small shock when i touch the inside metal parts on my casing .	St
+1.1.5	this does n't happen when im removing the cover though .	St
+1.1.6	but what really bothers me is when i tried to install a second harddisk , that i got a strong electric shock ( the HDD was running so quiet , i needed to touch it and see if its functioning ) .	St
+1.1.7	I also get this kind of shock if i touch any metal ( screws , usb connector.. ) on a printer or scanner connected to the PC .	St
+1.1.8	and the odd thing is , even if i remove all the power cable from the PS , i still get a shock if i leave the printer or scanner connected through the usb port .	St
+1.1.9	( printer and scanner connected to a power strip with no avr ) could my Power Supply be the culprit ?	Ques
+1.2.1	three prong outlets ?	Ques
+1.2.2	If so you have lost the ground somewhere between the outlet and the circuit breaker box .	St
+1.3.1	Is this a single jolt or , if you hold a finger on a metal part , does the shock persist longer .	St
+1.3.2	If a single jolt , its a static shock .	St
+1.3.3	If it persists , it 's low level AC .	St
+1.3.4	AC will require a solid ground path for you to feel it .	St
+1.3.5	A static shock does not .	St
+1.3.6	If you wear rubber soled shoes , stand on dry gound and touch a metal screw with a singel finger , you should feel no AC voltage even if present .	St
+1.3.7	So tell us about the shock .	Sug
+1.4.1	ESD = electro static discharge is common as the heat is applied during colder weather as humidity is lessen .	St
+1.4.2	Use some static spray around your area to lessen that .	St
+1.4.3	Plus a static pad to discharge yourself before touching anything .	St
+1.4.4	The next area is to be sure that the AC wall outlet is properly grounded and/or wired .	St
+1.4.5	A small plug-in checker from Radio Smack is small cost and immediately states status of AC outlet status .	St
+1.4.6	Try another AC outlet or use a 3-wired ext .	St
+1.4.7	cord to another outlet to test .	St
+1.4.8	It sure sounds like bad wiring or maybe that power supply .	St
+1.4.9	There are simple ATX checker for psu , but it usually states power present , just swap out for best repair .	St
+1.4.10	Plus , swap AC cord as well .	St
+1.4.11	tada -- -- -Willy	St
+1.5.1	tanx on the info , i believe its low level AC then .	St
+1.5.2	if i touch the metal parts ( e.g .	St
+1.5.3	screw ) its a small persistent one ( u cant get use to it ) .	St
+1.5.4	but if i try to touch the harddisk thats where the big jolt comes out .	St
+1.5.5	my PS is connected via a three-prong plug ( but my avr is two-pronged )	St
+1.6.1	i do n't think its ESD .	St
+1.6.2	but i 'll try swapping my PS with another one .	St
+1.6.3	and try all other suggestions as well .	St
+1.6.4	hopefully its just a minor thing .	St
+1.6.5	the PC works fine though .	Polite
+1.7.1	Your HD and other metal case hardware such as screws , drive bays , etc .	St
+1.7.2	should all be electrically connected .	St
+1.7.3	They should all be at the same electrical potential so the HD case and any chassis screws should give the same shock ( if there is one ) unless this is a very unual case with lots of elecrically isolated parts .	St
+1.7.4	Even if there are plastics and rubber grommets such as used to quiet some components , all the cabling has ground wires and/or neutral returns .	St
+1.7.5	Generally the neutrals are somehow tied to ground but some through capacitors .	St
+1.7.6	Even digital and analog grounds are near equivalents to earth ground .	St
+1.7.7	Any significant elecrical current flow through these grounds should definately be causing other problems .	St
+1.7.8	There are simple testing devices you can get at hardware stores that check the integrity of your outlets , however .	St
+1.7.9	These can disclose polarity or open ground issues .	St
+1.7.10	You might invest in something like this .	St
+1.7.11	Otherwise , a simple DVM and the ability to use it would tell you much about your problem .	St
+1.8.1	I 'm an ee and this is a common problem called & quot ; leakage current & quot ; .	St
+1.8.2	It 's generally a problem when a component in the power supply is leaking from the high voltage side to the low voltage side of the power supply .	St
+1.8.3	If your power supply is not grounded well ( either inside the power supply , the AC cord or the plug in the wall ) you 'll feel the tingle when you touch your system .	St
+1.8.4	Most power supplies do a & quot ; hi-pot & quot ; test to check for this problem in the factory .	St
+1.8.5	Assuming your AC outlet is checked , swap the cord first since it 's easiest , then if you still feel something , disconnect the power supply and pull it out of the system , plug in the cord and touch it ( it should n't need to be on ) .	St
+1.8.6	If you still feel the tingle then the power supply is bad .	St
+1.9.1	If you are fiddling around inside your case , you should be using a grounding strap when making contact with any internal parts .	St
+1.9.2	I 've seen boards get fried when a static charge has been created by the fiddler not being grounded .	St
+1.10.1	as something MINOR .	St
+1.10.2	It is likely leakage via a bypass capacitor , howevwer , you safety ground return should prevent you from feeling it .	St
+1.10.3	Have someone install a Ground Fault type of outlet where the system is connected , and do n't be surprised if it trips and shuts power off .	St
+1.10.4	They only take about 5 milliamps leakage to trip .	St
+1.10.5	Are you certain that someone did n't remove the ground pin from one of the AC plugs along the way , or use an adapter and forget to hook the pigtail to the mounting screw .	St
+1.10.6	Navy Specifications state that 5 Milliamps through the heart can kill .	St
+1.11.1	take IMMEDIATE action .	St
+1.11.2	This is NOT , in the least a minor item .	St
+1.11.3	Again , the Navy specs say that 5 milliamps thru the heart can kill a human .	St
+1.11.4	Fortunately your leakage path is through your extremeties .	St
+1.11.5	GET that system , hard grounded to the Main Power Box ASAP through the third wire .	St
+1.11.6	What half arsed AVR is only two wire ? ? ? ?	Ques
 1.11.7	?	Ques
-1.12.1	though it's been alluded to.	St
-1.12.2	Old systems using two wire connectors sometimes connected the neutral wire to the chassis ground either directly or through bypass capacitors.	St
-1.12.3	But these were meant to be polarized.	St
-1.12.4	The smaller prong of these plugs is hot and the larger is neutral or sometimes called &quot;return&quot;.	St
-1.12.5	If your plug has prongs of the same size, it's out of current specs.	St
-1.12.6	But, you might just try reversing it.	Sug
-1.12.7	If it's up to proper code and your house wiring isn't done right in this outlet, you might get more AC on your chassis.	St
-1.12.8	I'm just surprized such a wiring error isn't causing more problems such as excessive speaker hum, etc.	St
-1.13.1	this one came from asia.	St
-1.13.2	guess i have to change it then.	St
-1.13.3	thanks.	St
-1.14.1	thanks for the info.	Polite
-1.14.2	much appreciated!	St
-1.15.1	Yes, i know.	St
-1.15.2	and i have two mobos to testify to that too :-D since then i got me a grounding strap and anti-static boots.	St
-1.15.3	tanx anyway.	St
-1.16.1	The inside metal of your pc should NEVER have a charge of any kind.	St
-1.16.2	The 3rd prong is a safety device to carry a charge directly to ground.	St
-1.16.3	A charge on any inside part means a failure somewhere.	St
-1.16.4	It could be the cord, the plug, the power supply or bad wires inside the case.	St
-1.16.5	DO NOT TOUCH ANY COMPONENTS WITH YOUR HANDS!	St
-1.16.6	AND DO NOT GROUND YOURSELF TOTHE CASE WITH A GROUNDING STRAP.	St
-1.16.7	Any charge can be dangerous.	St
-1.16.8	Use a meter to check for voltage inside the case.	Sug
-1.16.9	If you do not have a plug checker, you can use the meter to check the plug.	St
-1.16.10	Set the meter to the proper range for 120V AC and do the following: If the 3rd prong (ground) is at the bottom of the outlet, the hot prong will be above and to the right; if the 3rd prong is at the top, the hot prong will be at the bottom and to the left.	St
-1.16.11	The other prong is called the neutral.	St
-1.16.12	Insert a meter probe into the hot prong and the other probe into the neutral.	St
-1.16.13	You should read a voltage between 110 and 120 volts.	St
-1.16.14	Remove the prong from the neutral prong and insert it into the ground prong.	St
-1.16.15	Again, you should read a voltage between 110 and 120.	St
-1.16.16	Next, remove the probe from the hot prong and insert it into the neutral prong.	St
-1.16.17	There should be a reading of 0 volts (or sometimes less than 1 volt).	St
-1.16.18	Ifyour results are different, then your plug wiring is incorrect and must be rectified.	St
-1.16.19	You may want to call an electrician if youdon't know how to wire a plug.	St
-1.16.20	Your kitchen plugs (unless your house is somewhat older and has not been electrically updated) should all be protected by a ground fault circuit interrupter (GFCI).	St
-1.16.21	Take your PC and plug it in to a kitchen plug.	St
-1.16.22	If the plugs go off, you have a problem with the grounding in your computer.	St
-1.16.23	It could be caused by a number of different things as a stated above--Bad power supply bad wires any where in the system or whatever.	St
-1.16.24	But above all DO NOT CHECK WITH ANY OF YOUR BODY PARTS!!!	St
-1.16.25	It may be time to get help and take your PC to a repair shop.	St
-1.16.26	By the way, I not an ee but I am a retired electrician and a retired Information Technology Professional.	St
-1.16.27	Good luck Regards, George	Polite
-1.17.1	just a short note.	St
-1.17.2	We just built a house 9 years ago and our electrical inspector told us to leave the outlet for a computer UNGROUNDED.	St
-1.17.3	He never told us why.	St
-1.17.4	Just thought I would share this info.	St
-1.17.5	He was an inspector for about 40 years, so he knew his stuff.	St
-1.18.1	Makes me wonder why all my computers for the past 20+ years have come with a grounded power cord.	St
-1.18.2	Maybe he meant that the computer outlet should not be GFCI (the outlets with the Test and Reset buttons that protect you from when a hair dryer falls into the tub).	St
-1.19.1	finally got the nasties out of my PC.	St
-1.19.2	House wiring was the culprit.	St
-1.19.3	got an electrician to fix it.	St
-1.19.4	also go me a brand new three-pronged UPS.	Sug
-1.19.5	thank you all!	Polite
+1.12.1	though it 's been alluded to .	St
+1.12.2	Old systems using two wire connectors sometimes connected the neutral wire to the chassis ground either directly or through bypass capacitors .	St
+1.12.3	But these were meant to be polarized .	St
+1.12.4	The smaller prong of these plugs is hot and the larger is neutral or sometimes called & quot ; return & quot ; .	St
+1.12.5	If your plug has prongs of the same size , it 's out of current specs .	St
+1.12.6	But , you might just try reversing it .	Sug
+1.12.7	If it 's up to proper code and your house wiring is n't done right in this outlet , you might get more AC on your chassis .	St
+1.12.8	I 'm just surprized such a wiring error is n't causing more problems such as excessive speaker hum , etc .	St
+1.13.1	this one came from asia .	St
+1.13.2	guess i have to change it then .	St
+1.13.3	thanks .	Polite
+1.14.1	thanks for the info .	Polite
+1.14.2	much appreciated !	St
+1.15.1	Yes , i know .	St
+1.15.2	and i have two mobos to testify to that too : -D since then i got me a grounding strap and anti-static boots .	St
+1.15.3	tanx anyway .	St
+1.16.1	The inside metal of your pc should NEVER have a charge of any kind .	St
+1.16.2	The 3rd prong is a safety device to carry a charge directly to ground .	St
+1.16.3	A charge on any inside part means a failure somewhere .	St
+1.16.4	It could be the cord , the plug , the power supply or bad wires inside the case .	St
+1.16.5	DO NOT TOUCH ANY COMPONENTS WITH YOUR HANDS !	St
+1.16.6	AND DO NOT GROUND YOURSELF TOTHE CASE WITH A GROUNDING STRAP .	St
+1.16.7	Any charge can be dangerous .	St
+1.16.8	Use a meter to check for voltage inside the case .	St
+1.16.9	If you do not have a plug checker , you can use the meter to check the plug .	Sug
+1.16.10	Set the meter to the proper range for 120V AC and do the following : If the 3rd prong ( ground ) is at the bottom of the outlet , the hot prong will be above and to the right ; if the 3rd prong is at the top , the hot prong will be at the bottom and to the left .	St
+1.16.11	The other prong is called the neutral .	St
+1.16.12	Insert a meter probe into the hot prong and the other probe into the neutral .	St
+1.16.13	You should read a voltage between 110 and 120 volts .	St
+1.16.14	Remove the prong from the neutral prong and insert it into the ground prong .	St
+1.16.15	Again , you should read a voltage between 110 and 120 .	St
+1.16.16	Next , remove the probe from the hot prong and insert it into the neutral prong .	St
+1.16.17	There should be a reading of 0 volts ( or sometimes less than 1 volt ) .	St
+1.16.18	Ifyour results are different , then your plug wiring is incorrect and must be rectified .	St
+1.16.19	You may want to call an electrician if youdo n't know how to wire a plug .	St
+1.16.20	Your kitchen plugs ( unless your house is somewhat older and has not been electrically updated ) should all be protected by a ground fault circuit interrupter ( GFCI ) .	St
+1.16.21	Take your PC and plug it in to a kitchen plug .	St
+1.16.22	If the plugs go off , you have a problem with the grounding in your computer .	St
+1.16.23	It could be caused by a number of different things as a stated above -- Bad power supply bad wires any where in the system or whatever .	St
+1.16.24	But above all DO NOT CHECK WITH ANY OF YOUR BODY PARTS ! ! !	St
+1.16.25	It may be time to get help and take your PC to a repair shop .	St
+1.16.26	By the way , I not an ee but I am a retired electrician and a retired Information Technology Professional .	St
+1.16.27	Good luck Regards , George	Polite
+1.17.1	just a short note .	St
+1.17.2	We just built a house 9 years ago and our electrical inspector told us to leave the outlet for a computer UNGROUNDED .	St
+1.17.3	He never told us why .	St
+1.17.4	Just thought I would share this info .	St
+1.17.5	He was an inspector for about 40 years , so he knew his stuff .	St
+1.18.1	Makes me wonder why all my computers for the past 20+ years have come with a grounded power cord .	St
+1.18.2	Maybe he meant that the computer outlet should not be GFCI ( the outlets with the Test and Reset buttons that protect you from when a hair dryer falls into the tub ) .	St
+1.19.1	finally got the nasties out of my PC .	St
+1.19.2	House wiring was the culprit .	St
+1.19.3	got an electrician to fix it .	St
+1.19.4	also go me a brand new three-pronged UPS .	Sug
+1.19.5	thank you all !	Polite
 1.20.1	NIL	St

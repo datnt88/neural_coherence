@@ -1,78 +1,78 @@
-1.1.1	Hello, I have a WindowsXP server at home.	St
-1.1.2	I use Comcast as my ISP.	St
-1.1.3	I have an Android phone that has a SSH application that I would like to use to access the Internet when I am away from my home network.	St
-1.1.4	Two questions arise.... 1.	St
-1.1.5	Will Comcast allow a SSH server to be set up 2.	St
-1.1.6	If so, can regular mobile networks handle SSH activity the way a WiFi network does.	St
-1.2.1	and this is to find someone who know whether a residential Comcast broadband account can open port 22 or any portfor a ssh server or any server for that matter.If this is not the case then is there any other way to do this safer, more secure tunneling via a home server?	St
-1.3.1	Based on the following link, it looks as if it IS possible to port forward a SSHD on Windows XP...... http://customer.comcast.com/Pages/FAQViewer.aspx?seoid=What-ports-are-blocked-by-Comcast-High-Speed-Internet&amp;AspxAutoDetectCookieSupport=1	St
-1.4.1	Since you can pick the incoming port, it is not possible to block that server.	St
-1.4.2	Yes, you are probably in violation of some agreement but I leave you to figure out if you want to fret or not.	St
-1.4.3	About item 2.	St
-1.4.4	Yes.	St
-1.4.5	Most do just fine.	Sug
-1.4.6	But you have to test such.	St
+1.1.1	Hello , I have a WindowsXP server at home .	St
+1.1.2	I use Comcast as my ISP .	St
+1.1.3	I have an Android phone that has a SSH application that I would like to use to access the Internet when I am away from my home network .	St
+1.1.4	Two questions arise ... . 1 .	St
+1.1.5	Will Comcast allow a SSH server to be set up 2 .	St
+1.1.6	If so , can regular mobile networks handle SSH activity the way a WiFi network does .	St
+1.2.1	and this is to find someone who know whether a residential Comcast broadband account can open port 22 or any portfor a ssh server or any server for that matter.If this is not the case then is there any other way to do this safer , more secure tunneling via a home server ?	Ques
+1.3.1	Based on the following link , it looks as if it IS possible to port forward a SSHD on Windows XP ... ... http : //customer.comcast.com/Pages/FAQViewer.aspx ? seoid=What-ports-are-blocked-by-Comcast-High-Speed-Internet & amp ; AspxAutoDetectCookieSupport=1	Ques
+1.4.1	Since you can pick the incoming port , it is not possible to block that server .	St
+1.4.2	Yes , you are probably in violation of some agreement but I leave you to figure out if you want to fret or not .	St
+1.4.3	About item 2 .	St
+1.4.4	Yes .	St
+1.4.5	Most do just fine .	St
+1.4.6	But you have to test such .	St
 1.4.7	Bob	St
-1.5.1	Here I can put it on any port.	St
-1.5.2	In fact, why not change it to be just a tad more secure?	St
-1.6.1	The final question is the setup of the server.	St
-1.6.2	I have a residential account - I think a Comcast business account is required to set up and run a web server.	St
-1.6.3	I want SSH secure Internet access, I need to access both and Internet server and a SSH server on the same machine- correct?	St
-1.7.1	over 1024?	St
+1.5.1	Here I can put it on any port .	St
+1.5.2	In fact , why not change it to be just a tad more secure ?	Ques
+1.6.1	The final question is the setup of the server .	St
+1.6.2	I have a residential account - I think a Comcast business account is required to set up and run a web server .	St
+1.6.3	I want SSH secure Internet access , I need to access both and Internet server and a SSH server on the same machine- correct ?	Ques
+1.7.1	over 1024 ?	Ques
 1.7.2	for example	St
-1.8.1	Why you think this and whether you are fretting about this or not.	St
-1.8.2	Many have setup servers but the ISPs have looked the other way unless you try and go commercial and sell stuff.	St
-1.8.3	And since we can use DYNDNS and use another port, why are you thinking there is anything to stop what you want to do?	St
+1.8.1	Why you think this and whether you are fretting about this or not .	St
+1.8.2	Many have setup servers but the ISPs have looked the other way unless you try and go commercial and sell stuff .	St
+1.8.3	And since we can use DYNDNS and use another port , why are you thinking there is anything to stop what you want to do ?	Ques
 1.8.4	Bob	St
-1.9.1	I am confused about whether or not I need to set up an Internet server or not if I am outside my home network and want ssh access to the Internet.	St
-1.9.2	The app SSH Tunneling (Android Market) gives the user SSH Internet access.	St
-1.9.3	It seems too simple to just configure a Windows SSHD on my home PC via port forwarding and get all that safe Internet power.....	St
-1.9.4	Doesn't make sense to me, I guess.	St
-1.10.1	We see that we can put any server on any port.	St
-1.10.2	That should be confusing.	St
-1.10.3	We know that if we keep away from being commercial, the ISP looks the other way.	St
-1.10.4	But why would we think there is a safe internet?	St
+1.9.1	I am confused about whether or not I need to set up an Internet server or not if I am outside my home network and want ssh access to the Internet .	St
+1.9.2	The app SSH Tunneling ( Android Market ) gives the user SSH Internet access .	St
+1.9.3	It seems too simple to just configure a Windows SSHD on my home PC via port forwarding and get all that safe Internet power ... ..	St
+1.9.4	Does n't make sense to me , I guess .	St
+1.10.1	We see that we can put any server on any port .	St
+1.10.2	That should be confusing .	St
+1.10.3	We know that if we keep away from being commercial , the ISP looks the other way .	St
+1.10.4	But why would we think there is a safe internet ?	Ques
 1.10.5	Bob	St
-1.11.1	I see your point.	St
-1.11.2	Thank you.	St
-1.12.1	I just had to make this general comment after you raised the question about whether we should think of the internet as safe (at all!)	St
-1.12.2	Security on the Internet does seem like an oxymoron - and becoming more so every day.	St
-1.12.3	Having said that, I am reminded when I used to do a fresh Linux install and the &quot;what level of network security&quot; do I want to select..... One of the levels was &quot;PARANOID&quot; Now, it seems that this level of network security is the norm, that every developer now must build in so many layers of encryption as to practically render their apps so weighted down due to this security issue that it must burden them beyond belief.	St
-1.12.4	My real question to you is this.	St
-1.12.5	If I work in a company with heavy computer network security, and I want to use a SSH tunnel or a Wifi to get to the Internet at work, are IT security people able to now eavesdrop on my Internet activity almost out of the air?	St
-1.12.6	Now, that's ridiculous paranoia - or is it?	St
-1.12.7	You tell me!	St
-1.13.1	That is usually a question for the IT staffers.	St
-1.13.2	Most of the time it's not allowed because it's a possible route of something bad getting past the defenses.	St
-1.13.3	The same story applies to memory sticks that folk carry in.	St
-1.13.4	Frankly I think folk should not break any company rules on this.	St
-1.13.5	Their network, their rules.	St
+1.11.1	I see your point .	St
+1.11.2	Thank you .	St
+1.12.1	I just had to make this general comment after you raised the question about whether we should think of the internet as safe ( at all ! )	St
+1.12.2	Security on the Internet does seem like an oxymoron - and becoming more so every day .	St
+1.12.3	Having said that , I am reminded when I used to do a fresh Linux install and the & quot ; what level of network security & quot ; do I want to select ... .. One of the levels was & quot ; PARANOID & quot ; Now , it seems that this level of network security is the norm , that every developer now must build in so many layers of encryption as to practically render their apps so weighted down due to this security issue that it must burden them beyond belief .	St
+1.12.4	My real question to you is this .	St
+1.12.5	If I work in a company with heavy computer network security , and I want to use a SSH tunnel or a Wifi to get to the Internet at work , are IT security people able to now eavesdrop on my Internet activity almost out of the air ?	Ques
+1.12.6	Now , that 's ridiculous paranoia - or is it ?	Ques
+1.12.7	You tell me !	St
+1.13.1	That is usually a question for the IT staffers .	St
+1.13.2	Most of the time it 's not allowed because it 's a possible route of something bad getting past the defenses .	St
+1.13.3	The same story applies to memory sticks that folk carry in .	St
+1.13.4	Frankly I think folk should not break any company rules on this .	St
+1.13.5	Their network , their rules .	St
 1.13.6	Bob	St
-1.14.1	With regards to networks at work.	St
-1.14.2	What about Wifi in the public domain.	St
-1.14.3	I assume you're saying that, in reality there is no safe place to be totally free of Internet snoopers.	St
-1.14.4	This is a disturbing reality I can't seem to shake off.	St
-1.14.5	No safe surfing?	St
-1.14.6	I don't know....	St
-1.15.1	Since the beginning I never trusted wifi open networks you see out there.	St
-1.15.2	For years I knew about packet sniffing since I was designing electronics and firmware that did such things.	St
-1.15.3	Then meant I would never do much other than read the news on open wifi.	St
-1.15.4	And I was very late to accept buying things on the net.	St
-1.15.5	And even then I never do so on open wifi.	St
+1.14.1	With regards to networks at work .	St
+1.14.2	What about Wifi in the public domain .	St
+1.14.3	I assume you 're saying that , in reality there is no safe place to be totally free of Internet snoopers .	St
+1.14.4	This is a disturbing reality I ca n't seem to shake off .	St
+1.14.5	No safe surfing ?	Ques
+1.14.6	I do n't know ... .	St
+1.15.1	Since the beginning I never trusted wifi open networks you see out there .	St
+1.15.2	For years I knew about packet sniffing since I was designing electronics and firmware that did such things .	St
+1.15.3	Then meant I would never do much other than read the news on open wifi .	St
+1.15.4	And I was very late to accept buying things on the net .	St
+1.15.5	And even then I never do so on open wifi .	St
 1.15.6	Bob	St
-1.16.1	phones, Android and iPhones.	St
-1.16.2	Are there new generations of hackers waiting to explode onto the scene with claims of having hacked everyones new toys like these?	St
-1.17.1	http://www.google.com/search?q=The+Baseband+Apocalypse finds it.	St
-1.17.2	Years ago when base stations were in the 6 figure price range that made it part of the security &quot;package.&quot; What happened was the protocols and such were not well done and we are beginning to see issues develop.	St
-1.17.3	The major players are attempting to fix all this as well as play down concerns.	St
-1.17.4	What stops them cold from a solid fix is the millions of handsets and base stations that would have to be changed.	St
+1.16.1	phones , Android and iPhones .	St
+1.16.2	Are there new generations of hackers waiting to explode onto the scene with claims of having hacked everyones new toys like these ?	Ques
+1.17.1	http : //www.google.com/search ? q=The+Baseband+Apocalypse finds it .	Ques
+1.17.2	Years ago when base stations were in the 6 figure price range that made it part of the security & quot ; package. & quot ; What happened was the protocols and such were not well done and we are beginning to see issues develop .	St
+1.17.3	The major players are attempting to fix all this as well as play down concerns .	St
+1.17.4	What stops them cold from a solid fix is the millions of handsets and base stations that would have to be changed .	St
 1.17.5	Bob	St
-1.18.1	This thread is reaching Pluto.	St
-1.18.2	Now that the major players have &quot;their&quot; infrastructures in place, seems that the same principles should get their GSM security in place, too.	St
-1.18.3	But that would be too costly!	St
-1.18.4	Better to make more dough that prevent the apicalypse be reinvesting in better and more bullet proof mobile networks.	St
-1.19.1	and in the most idiotic way possible.	St
-1.19.2	The original question: why can't you just do ssh through the default port over the cellular network?	St
-1.19.3	(apologies for shouting but some people are like....really deaf) but SSH IS RSA ENCRIPTED SO THAT PACKET SNOOPER BETTER BE ABLE TO BEAT TMRSA ENCRIPTION AND WADE THROUGH AN AWEFUL LOT OF CRAP TO GET MY CREDIT CARD NUMBER...and oh....wait...my CELLULAR PROVIDER WHICH IS ONE IF THE MOST USCRUPULOUS ******** ON THE PLANET ALRADY HAS MY CREDIT CARD NUMBER, BOB so....you were juzt saying....?	St
-1.20.1	The conversation did move to security concerns and so it did change from the opening topic.	St
-1.20.2	As this is quite an old discussion it is now closed.	St
+1.18.1	This thread is reaching Pluto .	St
+1.18.2	Now that the major players have & quot ; their & quot ; infrastructures in place , seems that the same principles should get their GSM security in place , too .	St
+1.18.3	But that would be too costly !	St
+1.18.4	Better to make more dough that prevent the apicalypse be reinvesting in better and more bullet proof mobile networks .	St
+1.19.1	and in the most idiotic way possible .	St
+1.19.2	The original question : why ca n't you just do ssh through the default port over the cellular network ?	Ques
+1.19.3	( apologies for shouting but some people are like ... .really deaf ) but SSH IS RSA ENCRIPTED SO THAT PACKET SNOOPER BETTER BE ABLE TO BEAT TMRSA ENCRIPTION AND WADE THROUGH AN AWEFUL LOT OF CRAP TO GET MY CREDIT CARD NUMBER ... and oh ... .wait ... my CELLULAR PROVIDER WHICH IS ONE IF THE MOST USCRUPULOUS ******** ON THE PLANET ALRADY HAS MY CREDIT CARD NUMBER , BOB so ... .you were juzt saying ... . ?	Ques
+1.20.1	The conversation did move to security concerns and so it did change from the opening topic .	St
+1.20.2	As this is quite an old discussion it is now closed .	St

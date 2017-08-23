@@ -1,244 +1,244 @@
-1.1.1	I would like the ability to boot a second hard drive on my PC.	St
-1.1.2	No, I don't mean dual boot.	St
-1.1.3	I mean REALLY boot another hard drive, with the regular C: drive not required.	St
-1.1.4	Most people I discuss this with immediately ask, &quot;Why would you want to do such a thing?&quot;.	St
-1.1.5	Their question is so automatic, I'm amazed.	St
-1.1.6	I come from the VMS world where this capability has existed and been used extensively over 30 years.	St
-1.1.7	If you already understand why I want this &quot;bizarre&quot; capability, skip the following numbered reasons.	St
-1.1.8	1.	St
-1.1.9	My C: drive has just become unbootable and I want to boot another hard drive with all my debugging and repair software.	St
-1.1.10	Maybe I can find the problem and fix it without reinstalling Windows and reconfiguring everything.	St
-1.1.11	Then I can recover that critical file I didn't back up.	St
-1.1.12	2.	St
-1.1.13	I have a new operating system beta from Microsoft and I would like to try it before installing it on my production C: drive.	St
-1.1.14	And I don't trust MS to roll back to my currently stable and working operating system WITHOUT any change whatsoever.	St
-1.1.15	3.	St
-1.1.16	I turn my computer over to the local Boy Scout troop every Saturday morning.	St
-1.1.17	I don't want them working on my regular hard drive.	St
-1.1.18	Instead, I want to give them a hard drive of their own, totally independent of my hard drive and any changes I may make on it.	St
-1.1.19	Are we clear?	St
-1.1.20	Hard drive C: is dead, gone, isolated, off, unplugged, or just hiding its head.	St
-1.1.21	I want to boot drive E: and get a full Windows 2000 operating system.	St
-1.1.22	A suitable alternative is to change the name of hard drives (or partitions thereof) so that what was drive C: is now (say) drive L: and drive E: turns into drive C:.	St
-1.1.23	I have never found anyone who knows how to do this on a PC but I suspect it may require a new or updated BIOS.	St
-1.1.24	Is this true?	St
-1.1.25	If I appropriately update my BIOS will I be able to install a full free-standing Windows 2000 on my E: drive?	St
-1.1.26	And then can I boot drive E: with the control cable disconnected from drive C:?	St
-1.1.27	Or is there another viable approach?	St
-1.1.28	Can I restore a backup of my C: drive to my E: drive and then boot the E: drive?	St
-1.1.29	I realize this may may add a problem if the restore software doesn't leave a boot block on my E: drive.	St
-1.1.30	Any suggestions for how to built a boot block on drive E:?	Ques
-1.1.31	What about partitions on the second hard drive?	St
-1.1.32	If I have it partitioned as drive E: and F:, can I boot either one (assuming each has a working operating system)?	St
-1.1.33	Can I put Linux on drive F:, Windows 95 on drive G: and MyOwnOS on drive E:?	St
-1.1.34	And will each of these operating systems have the potential to read/write all other drives on the motherboard?	St
-1.2.1	You didn't mention why the HD wasn't bootable as in is really screwed-up or simply a h/w and/or OS fault.	St
-1.2.2	If the orginal HD can be mounted and you have access to another HD, install the replacment HD as drive C and the old one as drive D, or as the new master/slave setup.	St
-1.2.3	I assume you know how to do that.	St
-1.2.4	The new HD boots up and if the old HD is at least mountable, you can transfer data.	St
-1.2.5	I exclude any h/w fault or virus/malware at work here.	St
-1.2.6	If you find the data is hosed, then I have no cure even if old HD mounts.	St
-1.2.7	If the data is small amounts, try booting with a startup floppy and see if even you can access the old drive C and possibly the data.	St
-1.2.8	You can try a s/w HD repair, check at http://www.grc.com and find &quot;spinrite&quot; pgm.	St
-1.2.9	provided no hard fault is present.	Res
-1.2.10	Also, similar pgms.	St
-1.2.11	like Norton &quot;disk doctor&quot;, etc.	St
-1.2.12	may help.	St
-1.2.13	Try the sys command.	St
-1.2.14	Just as SYS C: which will reload the MS bootable command back to the drive, if capable.	St
-1.2.15	The startup floppy or OS cd.	St
-1.2.16	If XP, see if the &quot;repair&quot; HD works, but try that if the above does apply.	St
-1.2.17	Later, for using the computer to the scout troop, you can buy a &quot;swappable&quot; HD kit.	St
-1.2.18	You can then physically remove drives as in &quot;swap&quot; with computer off.	St
-1.2.19	Keep your important HD for your own needs when done, take it out and replace it with spare HD that the scouts can call thier own.	St
-1.2.20	Hope all this helps -----Willy	St
-1.3.1	In short, my now dated 2.0 GHz P4 with a motherboard from last year can boot from other drives by tapping a F-key at the right time.	St
-1.3.2	While your post was rather long, it omitted a key piece of information.	St
-1.3.3	The make/model of the system or motherboard.	St
-1.3.4	But you can look up if they offered a new BIOS.	St
-1.3.5	As to booting another OS, today's Linux distributions can be entirely on CD (go find KNOPPIX) which are great at repairing or backing up files from a system without altering said system.	St
-1.3.6	As to Windows 95 on drive G:, as far as I know, that OS is hard coded to drive C:.	St
-1.3.7	Maybe you can fix that.	St
+1.1.1	I would like the ability to boot a second hard drive on my PC .	St
+1.1.2	No , I do n't mean dual boot .	St
+1.1.3	I mean REALLY boot another hard drive , with the regular C : drive not required .	St
+1.1.4	Most people I discuss this with immediately ask , & quot ; Why would you want to do such a thing ? & quot ; .	St
+1.1.5	Their question is so automatic , I 'm amazed .	St
+1.1.6	I come from the VMS world where this capability has existed and been used extensively over 30 years .	St
+1.1.7	If you already understand why I want this & quot ; bizarre & quot ; capability , skip the following numbered reasons .	St
+1.1.8	1 .	St
+1.1.9	My C : drive has just become unbootable and I want to boot another hard drive with all my debugging and repair software .	St
+1.1.10	Maybe I can find the problem and fix it without reinstalling Windows and reconfiguring everything .	St
+1.1.11	Then I can recover that critical file I did n't back up .	St
+1.1.12	2 .	St
+1.1.13	I have a new operating system beta from Microsoft and I would like to try it before installing it on my production C : drive .	St
+1.1.14	And I do n't trust MS to roll back to my currently stable and working operating system WITHOUT any change whatsoever .	St
+1.1.15	3 .	St
+1.1.16	I turn my computer over to the local Boy Scout troop every Saturday morning .	St
+1.1.17	I do n't want them working on my regular hard drive .	St
+1.1.18	Instead , I want to give them a hard drive of their own , totally independent of my hard drive and any changes I may make on it .	St
+1.1.19	Are we clear ?	Ques
+1.1.20	Hard drive C : is dead , gone , isolated , off , unplugged , or just hiding its head .	St
+1.1.21	I want to boot drive E : and get a full Windows 2000 operating system .	St
+1.1.22	A suitable alternative is to change the name of hard drives ( or partitions thereof ) so that what was drive C : is now ( say ) drive L : and drive E : turns into drive C : .	St
+1.1.23	I have never found anyone who knows how to do this on a PC but I suspect it may require a new or updated BIOS .	St
+1.1.24	Is this true ?	Ques
+1.1.25	If I appropriately update my BIOS will I be able to install a full free-standing Windows 2000 on my E : drive ?	Ques
+1.1.26	And then can I boot drive E : with the control cable disconnected from drive C : ?	Ques
+1.1.27	Or is there another viable approach ?	Ques
+1.1.28	Can I restore a backup of my C : drive to my E : drive and then boot the E : drive ?	Ques
+1.1.29	I realize this may may add a problem if the restore software does n't leave a boot block on my E : drive .	St
+1.1.30	Any suggestions for how to built a boot block on drive E : ?	Ques
+1.1.31	What about partitions on the second hard drive ?	Ques
+1.1.32	If I have it partitioned as drive E : and F : , can I boot either one ( assuming each has a working operating system ) ?	Ques
+1.1.33	Can I put Linux on drive F : , Windows 95 on drive G : and MyOwnOS on drive E : ?	Ques
+1.1.34	And will each of these operating systems have the potential to read/write all other drives on the motherboard ?	Ques
+1.2.1	You did n't mention why the HD was n't bootable as in is really screwed-up or simply a h/w and/or OS fault .	St
+1.2.2	If the orginal HD can be mounted and you have access to another HD , install the replacment HD as drive C and the old one as drive D , or as the new master/slave setup .	St
+1.2.3	I assume you know how to do that .	St
+1.2.4	The new HD boots up and if the old HD is at least mountable , you can transfer data .	St
+1.2.5	I exclude any h/w fault or virus/malware at work here .	St
+1.2.6	If you find the data is hosed , then I have no cure even if old HD mounts .	St
+1.2.7	If the data is small amounts , try booting with a startup floppy and see if even you can access the old drive C and possibly the data .	St
+1.2.8	You can try a s/w HD repair , check at http : //www.grc.com and find & quot ; spinrite & quot ; pgm .	St
+1.2.9	provided no hard fault is present .	St
+1.2.10	Also , similar pgms .	St
+1.2.11	like Norton & quot ; disk doctor & quot ; , etc .	St
+1.2.12	may help .	St
+1.2.13	Try the sys command .	St
+1.2.14	Just as SYS C : which will reload the MS bootable command back to the drive , if capable .	St
+1.2.15	The startup floppy or OS cd .	St
+1.2.16	If XP , see if the & quot ; repair & quot ; HD works , but try that if the above does apply .	St
+1.2.17	Later , for using the computer to the scout troop , you can buy a & quot ; swappable & quot ; HD kit .	St
+1.2.18	You can then physically remove drives as in & quot ; swap & quot ; with computer off .	St
+1.2.19	Keep your important HD for your own needs when done , take it out and replace it with spare HD that the scouts can call thier own .	St
+1.2.20	Hope all this helps -- -- -Willy	St
+1.3.1	In short , my now dated 2.0 GHz P4 with a motherboard from last year can boot from other drives by tapping a F-key at the right time .	St
+1.3.2	While your post was rather long , it omitted a key piece of information .	St
+1.3.3	The make/model of the system or motherboard .	St
+1.3.4	But you can look up if they offered a new BIOS .	St
+1.3.5	As to booting another OS , today 's Linux distributions can be entirely on CD ( go find KNOPPIX ) which are great at repairing or backing up files from a system without altering said system .	St
+1.3.6	As to Windows 95 on drive G : , as far as I know , that OS is hard coded to drive C : .	St
+1.3.7	Maybe you can fix that .	St
 1.3.8	Bob	St
-1.4.1	Some BIOSes allow you to pick which drive you want to boot from, so that you could do what you ask by just changing the setting in the BIOS.	St
-1.4.2	Another alternative is to just open the case and move the data and power cable from one drive to another.	St
-1.4.3	You can also use something like Virtual PC or VMWARE to have multiple OS's available so that you boot to the one you want.	St
-1.5.1	Ohh, I should have said, that Spinrite works on FAT type HDs not NTSF.	St
-1.5.2	So, here is a link that may help further your quest: http://www.buildorbuy.org/datarecovery.html Also, I like to recommend checking with the Ontrack people they offer some solutions, too.	St
-1.5.3	good luck -----Willy	Polite
-1.6.1	Ohh, I should have said, that Spinrite works on FAT type HDs not NTSF.	St
-1.6.2	So, here is a link that may help further your quest: http://www.buildorbuy.org/datarecovery.html Also, I like to recommend checking with the Ontrack people they offer some solutions, too.	St
-1.6.3	good luck -----Willy Posted by: willy Posted on: 03/29/2004 5:37 AM	Polite
-1.7.1	Thnx to willy, proffitt and jmarchi for your extremely quick responses.	St
-1.7.2	Sorry for the lengthy question, but I was trying to make clear what I'm looking for, and I obviously failed.	St
-1.7.3	I misled willy, I'm not trying to recover from a specific event.	St
-1.7.4	I want a general and permanent increase in capability.	St
-1.7.5	Physically swapping hard drives just doesn't cut it - too time consuming and damage-prone.	St
-1.7.6	Also, I don't want to convert to external easily swappable hard drives - too expensive.	St
-1.7.7	Thanks for the references, though, I'll check them out.	St
-1.7.8	Google returns some interesting URLs for BIOS.	St
-1.7.9	As for Linux booting from another hard drive, isn't that done by having special software on C:?	St
-1.7.10	My Compaq BIOS doesn't allow anything but A:, C: or D: as the boot device.	St
-1.7.11	Let me ask it another way.	Sug
-1.7.12	Does anyone know of someone who regularly does what I want?	Ques
-1.7.13	(Boot Windows 2000 from other than C: and without requiring C: to be available.)	St
-1.7.14	If so, how do they do it?	Ques
-1.8.1	http://www.nu2.nu/pebuilder/ You can also boot across a network.	St
-1.8.2	Type your exact phrase (what you put in parens) into google.	St
-1.9.1	You would check at http://www.hp.com and see if they have a newer BIOS and then see if that helped.	Sug
-1.9.2	There are companies like http://www.mrbios.com/ but you may be not happy since such booting is not only an issue in the initial boot, but if the OS in question is coded to work in such an environment.	St
-1.9.3	Windows 95 being a prime example of only working off the primary ide master drive and just coughing up errors when the drive was moved to another connection and the primary ide left empty.	St
-1.9.4	Maybe you don't need or want a PC?	St
-1.9.5	PCs are commodity items built for the millions with some limitations on what they do.	St
-1.9.6	Maybe some embedded card with an OS you wrote would work?	St
-1.9.7	Look up Linux From Scratch as an example.	St
+1.4.1	Some BIOSes allow you to pick which drive you want to boot from , so that you could do what you ask by just changing the setting in the BIOS .	St
+1.4.2	Another alternative is to just open the case and move the data and power cable from one drive to another .	St
+1.4.3	You can also use something like Virtual PC or VMWARE to have multiple OS 's available so that you boot to the one you want .	St
+1.5.1	Ohh , I should have said , that Spinrite works on FAT type HDs not NTSF .	St
+1.5.2	So , here is a link that may help further your quest : http : //www.buildorbuy.org/datarecovery.html Also , I like to recommend checking with the Ontrack people they offer some solutions , too .	St
+1.5.3	good luck -- -- -Willy	Polite
+1.6.1	Ohh , I should have said , that Spinrite works on FAT type HDs not NTSF .	St
+1.6.2	So , here is a link that may help further your quest : http : //www.buildorbuy.org/datarecovery.html Also , I like to recommend checking with the Ontrack people they offer some solutions , too .	St
+1.6.3	good luck -- -- -Willy Posted by : willy Posted on : 03/29/2004 5:37 AM	Polite
+1.7.1	Thnx to willy , proffitt and jmarchi for your extremely quick responses .	St
+1.7.2	Sorry for the lengthy question , but I was trying to make clear what I 'm looking for , and I obviously failed .	St
+1.7.3	I misled willy , I 'm not trying to recover from a specific event .	St
+1.7.4	I want a general and permanent increase in capability .	St
+1.7.5	Physically swapping hard drives just does n't cut it - too time consuming and damage-prone .	St
+1.7.6	Also , I do n't want to convert to external easily swappable hard drives - too expensive .	St
+1.7.7	Thanks for the references , though , I 'll check them out .	St
+1.7.8	Google returns some interesting URLs for BIOS .	St
+1.7.9	As for Linux booting from another hard drive , is n't that done by having special software on C : ?	Ques
+1.7.10	My Compaq BIOS does n't allow anything but A : , C : or D : as the boot device .	St
+1.7.11	Let me ask it another way .	St
+1.7.12	Does anyone know of someone who regularly does what I want ?	Ques
+1.7.13	( Boot Windows 2000 from other than C : and without requiring C : to be available . )	St
+1.7.14	If so , how do they do it ?	Ques
+1.8.1	http : //www.nu2.nu/pebuilder/ You can also boot across a network .	St
+1.8.2	Type your exact phrase ( what you put in parens ) into google .	St
+1.9.1	You would check at http : //www.hp.com and see if they have a newer BIOS and then see if that helped .	Sug
+1.9.2	There are companies like http : //www.mrbios.com/ but you may be not happy since such booting is not only an issue in the initial boot , but if the OS in question is coded to work in such an environment .	St
+1.9.3	Windows 95 being a prime example of only working off the primary ide master drive and just coughing up errors when the drive was moved to another connection and the primary ide left empty .	St
+1.9.4	Maybe you do n't need or want a PC ?	Ques
+1.9.5	PCs are commodity items built for the millions with some limitations on what they do .	St
+1.9.6	Maybe some embedded card with an OS you wrote would work ?	Ques
+1.9.7	Look up Linux From Scratch as an example .	St
 1.9.8	Bob	St
-1.10.1	I was doing that recently on 2 HDDs.	St
-1.10.2	HDa1 had Win98se.	St
-1.10.3	HDa2 was Linux Red Hat 9.	St
-1.10.4	Chose OS to boot to at boot up.	St
-1.10.5	HDb had Fedora Core 1 while I was working out some kinks in it(dialup Winmodem).	St
-1.10.6	Hard drive B wasn't there unless I used a boot-disk.	St
-1.10.7	Then it automatically booted to that OS as long as the boot-disk was in.	St
-1.10.8	Hopes this helps.	St
+1.10.1	I was doing that recently on 2 HDDs .	St
+1.10.2	HDa1 had Win98se .	St
+1.10.3	HDa2 was Linux Red Hat 9 .	St
+1.10.4	Chose OS to boot to at boot up .	St
+1.10.5	HDb had Fedora Core 1 while I was working out some kinks in it ( dialup Winmodem ) .	St
+1.10.6	Hard drive B was n't there unless I used a boot-disk .	St
+1.10.7	Then it automatically booted to that OS as long as the boot-disk was in .	St
+1.10.8	Hopes this helps .	St
 1.10.9	chuck	St
-1.11.1	In reference to VMS world, if I remember right it would boot the #1 drive ID'ed as such.	St
-1.11.2	You could re-ID drive 1 by relocating the plug to another drive, thus it became a bootable provided it was bootable besides being mountable.	St
-1.11.3	As for the windoze world it just doesn't work that way in the OS.	St
-1.11.4	There is or was a h/w fix in which you had drives physically mounted and in effect, swapped the ID for drive C via a switch, so if you had 3 drives, toggle the h/w switches you could swap drives that way.	St
-1.11.5	But, since you're looking for a cheap cure, I thought you'll find the cost acceptable provided it is available still.	St
-1.11.6	Further, sinc you have a Compaq system as noted you have the bios offering a limited boot sequence.	St
-1.11.7	Basically, to go further you need a custom bios to offer anything that's now available to newer mtrbds.	St
-1.11.8	But it will still look for drive C as it is physically attached via the HD cable.	St
-1.11.9	New bios boot paths are either a HD, USB device, or CD and SCSI devices.	St
-1.11.10	If you use SCSI, you can swap a bootable HD as well as its ID number, but it may try the 1st physical drive via HD cable to boot from then proceed to rest, again alot depends on the SCSI HD controller in this respect.	St
-1.11.11	In no way is your fix an easy one and you throw Linux in the mix, I offer no cure for it, I'm too hazy on that topic for a clear answer.	St
-1.11.12	good luck -----Willy	Polite
-1.12.1	&gt;&gt;Does anyone know of someone who regularly does what I want?	Ques
-1.12.2	Yup, I do it all the time.	St
-1.12.3	With both my ThinkPad and my Role-Ur_Own Athlon.	St
-1.12.4	I simply choose the hard drive to boot with in the BIOS setup.	St
-1.12.5	You say you have the choice of booting 'A', 'C' or 'D'.	St
-1.12.6	'D' SHOULD be your HD1, second hard drive.	St
-1.12.7	So... try 'D' and see what happens.	St
-1.12.8	If you have two hard drives on an IDE cable with the proper jumper for master and slave (or cable select) the BIOS will see both hard drives 'C' will be HD0 (Master) and 'D' will be HD1 (Slave).	St
-1.12.9	If the BIOS sees your CD drive as 'D' when you have two hard drives physically installed in the PC...	St
-1.12.10	They are not cabled or jumpered properly.	St
-1.13.1	Apparently rd400d77 does it all the time by choosing the hard drive to boot with in the BIOS setup.	St
-1.13.2	Precisely what I was hoping for.	St
-1.13.3	However, my BIOS (or something) thinks that D: is my CD-RW.	St
-1.13.4	Maybe I can get around that with a new BIOS???	St
-1.13.5	Questions for rd400d77.	St
-1.13.6	How did you load the OS on your D: drive?	St
-1.13.7	Do you think you could load it by doing a restore from a backup of your C: drive?	St
-1.13.8	Could it be Windows 2000 or XP?	St
-1.13.9	Can you boot your D: drive with your C: drive physically disconnected?	Polite
-1.13.10	------------- Bob Proffitt suggests I may not want a PC.	St
-1.13.11	Much as I would like to revert to VMS and leave Windoze behind, that's not possible.	St
-1.13.12	Gates owns the world.	St
-1.13.13	I'm trying to extend what I already have with Windows 2000, not start over.	St
-1.13.14	willy recalls VMS 20 years ago with unit select plugs from IBM 30 years ago.	St
-1.13.15	Things have changed.	St
-1.13.16	Now at boot time, a configurable default physical disk is used, but you have the option of selecting any other disk on the system.	St
-1.13.17	Of course, it must have a boot block and a viable OS on it.	St
-1.13.18	The logical name SYS points to the actual physical disk and all software looking for the boot disk simply addresses SYS.	St
-1.13.19	I'm hoping to find a similar BIOS-based solution.	St
-1.13.20	Linnux is not an important goal, just an example of what one could do with the capability.	St
-1.13.21	All Linnux alternate boot schemes I have seen apparently are just variations on the dual-boot idea which requires a working OS in the C: drive and runs OS software components from the C: drive.	St
-1.14.1	Not all OSes will work with such a change.	St
-1.14.2	Windows 95 being one I tried that (by accident) and there is no known cure.	St
-1.14.3	Maybe it would be a better idea if you entertained using a boot or OS manager.	St
-1.14.4	Then you can install many OS and let the boot/OS manager deal with the issues.	St
-1.14.5	Your current machine is a Compaq and you are limited to BIOS boot selection that Compaq gives you or you may be limiting yourself by not contacting MRBIOS.	St
-1.14.6	As an embedded electronics designer, I know this design very well and have used various DOS/Windows as quick solutions.	St
-1.14.7	These PC based systems were made for general usage and as such, when you depart too far, the answer is not exactly what you may want.	St
-1.14.8	I noted that my newer (now dated) machine has a Boot from device menu.	St
-1.14.9	It's a nifty feature so you don't have to change the BIOS to floppy/cd/other drives.	St
-1.14.10	Compaq (now HP) is unlikely to implement this in CONSUMER machines since the best/cheapest solution is to automate the entire deal so to reduce support and maintenance costs.	St
-1.14.11	Best of luck, Bob	St
-1.15.1	Apparently rd400d77 does it all the time by choosing the hard drive to boot with in the BIOS setup.	St
-1.15.2	Precisely what I was hoping for.	St
-1.15.3	However, my BIOS (or something) thinks that D: is my CD-RW.	St
-1.15.4	Maybe I can get around that with a new BIOS???	St
-1.15.5	You can probably get around it by changing the device name for your CD/RW to another letter besides D and then changing your secondary drive to D. (uninstall and re-install is one way, something like partition magic is another).	St
-1.15.6	Then you can boot from C or D using that technique.	St
-1.15.7	My Compaq AP-550 workstation has more flexibility in the bios/post including scsii and network booting.	St
-1.15.8	Nice box and very cheap if you don't need high end CPU.	St
-1.16.1	Part 1 Well Im going to ramble on with a long story.	St
-1.16.2	Unfortunately as it is right now Ive got some time (laid-off) Im downloading Mandrake Linux 10.0 ISO #1 on Hal the Athlon upstairs and ISO #2 on Daisy my Thinkpad 570E.while I type this.	St
-1.16.3	This should tell you that Im obsessed with being able to dump Windows.	St
-1.16.4	You see the last three attempts at migrating my PCs to Linux have failed miserably due to the #$%$%^ Dlink WiFi cards that I have.	St
-1.16.5	They use an ACX_100 chip from Memorex who apparently wont release a binary driver for Linux and all the hacks and alleged roll-ur-own drivers have yet to get me a Linux installation that will let me use my #$%$^% Dlink cards.	St
-1.16.6	But thats another story, Ill never buy another WiFi product unless its Cisco.	St
-1.16.7	First off let me just say that Ive had a bazaar fascination with formatting hard drives ever since the days of typing debug g=c800:5 If you know what that does you are old too.	St
-1.16.8	You see it all started when I emailed a guy named Steve Gibson about the new program he was selling called SpinRite that could optimize hard drive interleave with a non-destructive low level format.	St
-1.16.9	I had the only combination in the world that could not be optimized.	St
-1.16.10	I had a Seagate ST-238RL in an Amstrad 8086-8 that got hot-roded with a NEC V20-10.	St
-1.16.11	The particular combination with processor speed maxed best throughput at 10:1 while every other hard drive of the era interleaved at 3:1, finally gave up and just figured it was a processor wait state issue.	St
-1.16.12	I think I spent about three zillion hours in the IBMHW SIGS on Compu$erve and GEnie.	St
-1.17.1	Part II Bill Gates suckered me in the first time with Windows 2.11 (If youre reading this I still want my money back) with the promise of tomorrows interface today.	St
-1.17.2	Gem Desktop was better by the way Better than Win 3x and that was long before it) The whole idea that the OS would recognize hardware was exciting.	St
-1.17.3	But, after all these years I can now depress &lt;CNTRL&gt; &lt;ALT&gt; &lt;DEL&gt; from across the room with my eyeballs.	St
-1.17.4	Its frustrating that OS/hardware issues are still the bane of my existence.	St
-1.17.5	But back to multiple hard drives.	St
-1.17.6	Well when Windows gets cluttered and it starts taking longer for Windows to boot than my old coffee maker to spit out a pot of go juice I revert to my thrilling days of yesteryear Format and start over.	St
-1.17.7	I do it on the TP just cause.	St
-1.17.8	It has the spare hard drive bay and instead of messing with CD coasters I just mirror over a few directories as a quick backup before I plop the restore CD in.	St
-1.17.9	On the Athlon let me just say that I have three teenage boys.	St
-1.17.10	You have no idea the crap that finds it way onto that hard drive.	St
-1.17.11	Uh no dad I dont look at websites like thatI dont know why those popups keep happening or I didnt open any email attachments with a PIF extension.	St
-1.17.12	In reality I always do the TP with BIOS.	St
-1.17.13	Its kinda weird when you put in the spare hard drive module (takes the place of the CD) if you just reboot it will reverse the drives and make the second hard drive C and the first D. Gets really weird when the drives have multiple partitions.	St
-1.17.14	Its easy to lose track of which drive is which.	St
-1.18.1	Part III The Athlon on the other hand I usually just re-cable and re-jumper since the spare hard drive is never actually connected, its just there so I reconnect it when I do a quick update of a Norton Ghost from one to the other and then a quick Ghost restore when I hear the usual Dad the computer wont boot up again Why do I bother with this silly stuff just cause But also Ive had too many bad experiences with dual boot and problems with Boot Loaders that crash and burn if it doesnt see both operating systems alive and well.	St
-1.18.2	If you want rock solid trouble free operation NT (no USB) and Win 2K are so good I just cant believe there from Microsoft.	St
-1.18.3	As far as XP and/or XP Pro is concerned I just havent been drunk enough to spend the money on it yet.	St
-1.18.4	Bill still owes me for Windows 2.11 not to mention the $#%^ Windows 95 that wouldnt work with AMD processors greater than 350mhz.	St
-1.18.5	Went through $%% to get the patch only to find that it wouldnt work with my OSR version.	St
-1.18.6	I also have a fundamental problem with having to ask permission from the company I paid money to reinstall MY software.	St
-1.18.7	Since what has proven to be one of my favorite hobbies (and the only one I can almost afford) is formatting hard drives.	Ques
-1.19.1	Part IV (Final Chapter-The adventure begins) Now back to your issue &gt;&gt; Things have changed.	St
-1.19.2	Now at boot time, a configurable default physical disk is used, but you have the option of selecting any other disk on the system.	St
+1.11.1	In reference to VMS world , if I remember right it would boot the # 1 drive ID'ed as such .	St
+1.11.2	You could re-ID drive 1 by relocating the plug to another drive , thus it became a bootable provided it was bootable besides being mountable .	St
+1.11.3	As for the windoze world it just does n't work that way in the OS .	St
+1.11.4	There is or was a h/w fix in which you had drives physically mounted and in effect , swapped the ID for drive C via a switch , so if you had 3 drives , toggle the h/w switches you could swap drives that way .	St
+1.11.5	But , since you 're looking for a cheap cure , I thought you 'll find the cost acceptable provided it is available still .	St
+1.11.6	Further , sinc you have a Compaq system as noted you have the bios offering a limited boot sequence .	St
+1.11.7	Basically , to go further you need a custom bios to offer anything that 's now available to newer mtrbds .	St
+1.11.8	But it will still look for drive C as it is physically attached via the HD cable .	St
+1.11.9	New bios boot paths are either a HD , USB device , or CD and SCSI devices .	St
+1.11.10	If you use SCSI , you can swap a bootable HD as well as its ID number , but it may try the 1st physical drive via HD cable to boot from then proceed to rest , again alot depends on the SCSI HD controller in this respect .	St
+1.11.11	In no way is your fix an easy one and you throw Linux in the mix , I offer no cure for it , I 'm too hazy on that topic for a clear answer .	St
+1.11.12	good luck -- -- -Willy	Polite
+1.12.1	& gt ; & gt ; Does anyone know of someone who regularly does what I want ?	Ques
+1.12.2	Yup , I do it all the time .	St
+1.12.3	With both my ThinkPad and my Role-Ur_Own Athlon .	St
+1.12.4	I simply choose the hard drive to boot with in the BIOS setup .	St
+1.12.5	You say you have the choice of booting 'A ' , 'C ' or 'D ' .	St
+1.12.6	'D ' SHOULD be your HD1 , second hard drive .	St
+1.12.7	So ... try 'D ' and see what happens .	St
+1.12.8	If you have two hard drives on an IDE cable with the proper jumper for master and slave ( or cable select ) the BIOS will see both hard drives 'C ' will be HD0 ( Master ) and 'D ' will be HD1 ( Slave ) .	St
+1.12.9	If the BIOS sees your CD drive as 'D ' when you have two hard drives physically installed in the PC ...	St
+1.12.10	They are not cabled or jumpered properly .	St
+1.13.1	Apparently rd400d77 does it all the time by choosing the hard drive to boot with in the BIOS setup .	St
+1.13.2	Precisely what I was hoping for .	St
+1.13.3	However , my BIOS ( or something ) thinks that D : is my CD-RW .	St
+1.13.4	Maybe I can get around that with a new BIOS ? ? ?	Ques
+1.13.5	Questions for rd400d77 .	St
+1.13.6	How did you load the OS on your D : drive ?	Ques
+1.13.7	Do you think you could load it by doing a restore from a backup of your C : drive ?	Ques
+1.13.8	Could it be Windows 2000 or XP ?	Ques
+1.13.9	Can you boot your D : drive with your C : drive physically disconnected ?	Ques
+1.13.10	-- -- -- -- -- -- - Bob Proffitt suggests I may not want a PC .	St
+1.13.11	Much as I would like to revert to VMS and leave Windoze behind , that 's not possible .	St
+1.13.12	Gates owns the world .	St
+1.13.13	I 'm trying to extend what I already have with Windows 2000 , not start over .	St
+1.13.14	willy recalls VMS 20 years ago with unit select plugs from IBM 30 years ago .	St
+1.13.15	Things have changed .	St
+1.13.16	Now at boot time , a configurable default physical disk is used , but you have the option of selecting any other disk on the system .	St
+1.13.17	Of course , it must have a boot block and a viable OS on it .	St
+1.13.18	The logical name SYS points to the actual physical disk and all software looking for the boot disk simply addresses SYS .	St
+1.13.19	I 'm hoping to find a similar BIOS-based solution .	St
+1.13.20	Linnux is not an important goal , just an example of what one could do with the capability .	St
+1.13.21	All Linnux alternate boot schemes I have seen apparently are just variations on the dual-boot idea which requires a working OS in the C : drive and runs OS software components from the C : drive .	St
+1.14.1	Not all OSes will work with such a change .	St
+1.14.2	Windows 95 being one I tried that ( by accident ) and there is no known cure .	St
+1.14.3	Maybe it would be a better idea if you entertained using a boot or OS manager .	St
+1.14.4	Then you can install many OS and let the boot/OS manager deal with the issues .	St
+1.14.5	Your current machine is a Compaq and you are limited to BIOS boot selection that Compaq gives you or you may be limiting yourself by not contacting MRBIOS .	St
+1.14.6	As an embedded electronics designer , I know this design very well and have used various DOS/Windows as quick solutions .	St
+1.14.7	These PC based systems were made for general usage and as such , when you depart too far , the answer is not exactly what you may want .	St
+1.14.8	I noted that my newer ( now dated ) machine has a Boot from device menu .	St
+1.14.9	It 's a nifty feature so you do n't have to change the BIOS to floppy/cd/other drives .	St
+1.14.10	Compaq ( now HP ) is unlikely to implement this in CONSUMER machines since the best/cheapest solution is to automate the entire deal so to reduce support and maintenance costs .	St
+1.14.11	Best of luck , Bob	Polite
+1.15.1	Apparently rd400d77 does it all the time by choosing the hard drive to boot with in the BIOS setup .	St
+1.15.2	Precisely what I was hoping for .	St
+1.15.3	However , my BIOS ( or something ) thinks that D : is my CD-RW .	St
+1.15.4	Maybe I can get around that with a new BIOS ? ? ?	Ques
+1.15.5	You can probably get around it by changing the device name for your CD/RW to another letter besides D and then changing your secondary drive to D. ( uninstall and re-install is one way , something like partition magic is another ) .	St
+1.15.6	Then you can boot from C or D using that technique .	St
+1.15.7	My Compaq AP-550 workstation has more flexibility in the bios/post including scsii and network booting .	St
+1.15.8	Nice box and very cheap if you do n't need high end CPU .	St
+1.16.1	Part 1 Well Im going to ramble on with a long story .	St
+1.16.2	Unfortunately as it is right now Ive got some time ( laid-off ) Im downloading Mandrake Linux 10.0 ISO # 1 on Hal the Athlon upstairs and ISO # 2 on Daisy my Thinkpad 570E.while I type this .	St
+1.16.3	This should tell you that Im obsessed with being able to dump Windows .	St
+1.16.4	You see the last three attempts at migrating my PCs to Linux have failed miserably due to the # $ % $ % ^ Dlink WiFi cards that I have .	St
+1.16.5	They use an ACX_100 chip from Memorex who apparently wont release a binary driver for Linux and all the hacks and alleged roll-ur-own drivers have yet to get me a Linux installation that will let me use my # $ % $ ^ % Dlink cards .	St
+1.16.6	But thats another story , Ill never buy another WiFi product unless its Cisco .	St
+1.16.7	First off let me just say that Ive had a bazaar fascination with formatting hard drives ever since the days of typing debug g=c800:5 If you know what that does you are old too .	St
+1.16.8	You see it all started when I emailed a guy named Steve Gibson about the new program he was selling called SpinRite that could optimize hard drive interleave with a non-destructive low level format .	St
+1.16.9	I had the only combination in the world that could not be optimized .	St
+1.16.10	I had a Seagate ST-238RL in an Amstrad 8086-8 that got hot-roded with a NEC V20-10 .	St
+1.16.11	The particular combination with processor speed maxed best throughput at 10:1 while every other hard drive of the era interleaved at 3:1 , finally gave up and just figured it was a processor wait state issue .	St
+1.16.12	I think I spent about three zillion hours in the IBMHW SIGS on Compu $ erve and GEnie .	St
+1.17.1	Part II Bill Gates suckered me in the first time with Windows 2.11 ( If youre reading this I still want my money back ) with the promise of tomorrows interface today .	St
+1.17.2	Gem Desktop was better by the way Better than Win 3x and that was long before it ) The whole idea that the OS would recognize hardware was exciting .	St
+1.17.3	But , after all these years I can now depress & lt ; CNTRL & gt ; & lt ; ALT & gt ; & lt ; DEL & gt ; from across the room with my eyeballs .	St
+1.17.4	Its frustrating that OS/hardware issues are still the bane of my existence .	St
+1.17.5	But back to multiple hard drives .	St
+1.17.6	Well when Windows gets cluttered and it starts taking longer for Windows to boot than my old coffee maker to spit out a pot of go juice I revert to my thrilling days of yesteryear Format and start over .	St
+1.17.7	I do it on the TP just cause .	St
+1.17.8	It has the spare hard drive bay and instead of messing with CD coasters I just mirror over a few directories as a quick backup before I plop the restore CD in .	St
+1.17.9	On the Athlon let me just say that I have three teenage boys .	St
+1.17.10	You have no idea the crap that finds it way onto that hard drive .	St
+1.17.11	Uh no dad I dont look at websites like thatI dont know why those popups keep happening or I didnt open any email attachments with a PIF extension .	St
+1.17.12	In reality I always do the TP with BIOS .	St
+1.17.13	Its kinda weird when you put in the spare hard drive module ( takes the place of the CD ) if you just reboot it will reverse the drives and make the second hard drive C and the first D. Gets really weird when the drives have multiple partitions .	St
+1.17.14	Its easy to lose track of which drive is which .	St
+1.18.1	Part III The Athlon on the other hand I usually just re-cable and re-jumper since the spare hard drive is never actually connected , its just there so I reconnect it when I do a quick update of a Norton Ghost from one to the other and then a quick Ghost restore when I hear the usual Dad the computer wont boot up again Why do I bother with this silly stuff just cause But also Ive had too many bad experiences with dual boot and problems with Boot Loaders that crash and burn if it doesnt see both operating systems alive and well .	St
+1.18.2	If you want rock solid trouble free operation NT ( no USB ) and Win 2K are so good I just cant believe there from Microsoft .	St
+1.18.3	As far as XP and/or XP Pro is concerned I just havent been drunk enough to spend the money on it yet .	St
+1.18.4	Bill still owes me for Windows 2.11 not to mention the $ # % ^ Windows 95 that wouldnt work with AMD processors greater than 350mhz .	St
+1.18.5	Went through $ % % to get the patch only to find that it wouldnt work with my OSR version .	St
+1.18.6	I also have a fundamental problem with having to ask permission from the company I paid money to reinstall MY software .	St
+1.18.7	Since what has proven to be one of my favorite hobbies ( and the only one I can almost afford ) is formatting hard drives .	St
+1.19.1	Part IV ( Final Chapter-The adventure begins ) Now back to your issue & gt ; & gt ; Things have changed .	St
+1.19.2	Now at boot time , a configurable default physical disk is used , but you have the option of selecting any other disk on the system .	St
 1.19.3	.	St
-1.19.4	Get a new IDE cable just for giggles (theyre cheap) and double check the drive jumper pins.	St
-1.19.5	The BIOS should be able to see both drives pure and simple.	St
-1.19.6	If its making your CD/RW D it doesnt know that both drives are there.	St
-1.19.7	You cant have them both jumpered as Master (or both Slave for that matter) Well kinda not really.	St
-1.19.8	You dont need a boot disk be it C or otherwise to load an OS.	St
-1.19.9	All you need to do is make sure that the BIOS knows where to look for the MBR that you want to use.	St
-1.19.10	I would just install each OS while that hard drive was the only one connected.	St
-1.19.11	As far as using a backup to install that gets iffy.	St
-1.19.12	You can clone a good install, you can make an image of it like I do with Norton Ghost.	St
-1.19.13	But restore from a backup is more for data than code with many backup programs and won't cater to needs of certain files being in certain physical locations on the disk.	St
-1.19.14	You can run into some problems with some devious copy protection schemes.	St
-1.19.15	As you can tell from above I believe in lean installs ) Sure you can boot the D with C disconnected, but the OS will of course name it 'C'.	St
-1.19.16	Give them each a volumn label... George and Gracie or something so you tell them apart no matter how the OS labels them but get the cable and jumper thing taken care of first.	St
-1.20.1	&gt;&gt;...and double check the drive jumper pins.	St
-1.20.2	Good point.	St
-1.20.3	I just assumed that since the new hard drive came up as drive E:, while the CD-RW retained its original D: designation that everything was kosher.	St
-1.20.4	Could I have my BIOS backed into a corner?	St
-1.20.5	I shall certainly perform experiments.	St
-1.20.6	Bob, you keep saying (I think) that I'm asking too much of a cheap old mail order Compaq.	St
-1.20.7	But there are people trying to sell me a new BIOS for it that offers all kinda new stuff.	St
-1.20.8	Could they be telling falsehoods?	St
-1.21.1	MrBIOS has been around for some 10 years.	St
-1.21.2	While I've never had to use them on any machine I've owned, some of my clients have.	St
-1.21.3	It's an interesting BIOS with plenty of adjustments you don't see elsewhere.	St
-1.21.4	Useful can be asked, but some want that to tinker with.	St
-1.21.5	Why HP/Compaq offers a fairly stripped down BIOS is very simple.	St
-1.21.6	Support and document costs climb with every option you give the user base.	St
-1.21.7	To curb costs (and I'm guilty of doing this too in my software) we look at every screen and ask if any item can be set to a default value and removed from view.	St
-1.21.8	Close to your issue is this example.	St
-1.21.9	With better than 99% of all home PC's with the hard disk being auto-detected, why offer any other setting in the BIOS?	St
-1.21.10	One could rip that off the screen and keep users from messing up the machine, the documentation and support costs reduce and there are less calls from people who disabled the hard disk.	St
+1.19.4	Get a new IDE cable just for giggles ( theyre cheap ) and double check the drive jumper pins .	St
+1.19.5	The BIOS should be able to see both drives pure and simple .	St
+1.19.6	If its making your CD/RW D it doesnt know that both drives are there .	St
+1.19.7	You cant have them both jumpered as Master ( or both Slave for that matter ) Well kinda not really .	St
+1.19.8	You dont need a boot disk be it C or otherwise to load an OS .	St
+1.19.9	All you need to do is make sure that the BIOS knows where to look for the MBR that you want to use .	St
+1.19.10	I would just install each OS while that hard drive was the only one connected .	St
+1.19.11	As far as using a backup to install that gets iffy .	St
+1.19.12	You can clone a good install , you can make an image of it like I do with Norton Ghost .	St
+1.19.13	But restore from a backup is more for data than code with many backup programs and wo n't cater to needs of certain files being in certain physical locations on the disk .	St
+1.19.14	You can run into some problems with some devious copy protection schemes .	St
+1.19.15	As you can tell from above I believe in lean installs ) Sure you can boot the D with C disconnected , but the OS will of course name it 'C ' .	St
+1.19.16	Give them each a volumn label ... George and Gracie or something so you tell them apart no matter how the OS labels them but get the cable and jumper thing taken care of first .	St
+1.20.1	& gt ; & gt ; ... and double check the drive jumper pins .	St
+1.20.2	Good point .	St
+1.20.3	I just assumed that since the new hard drive came up as drive E : , while the CD-RW retained its original D : designation that everything was kosher .	St
+1.20.4	Could I have my BIOS backed into a corner ?	Ques
+1.20.5	I shall certainly perform experiments .	St
+1.20.6	Bob , you keep saying ( I think ) that I 'm asking too much of a cheap old mail order Compaq .	St
+1.20.7	But there are people trying to sell me a new BIOS for it that offers all kinda new stuff .	St
+1.20.8	Could they be telling falsehoods ?	Ques
+1.21.1	MrBIOS has been around for some 10 years .	St
+1.21.2	While I 've never had to use them on any machine I 've owned , some of my clients have .	St
+1.21.3	It 's an interesting BIOS with plenty of adjustments you do n't see elsewhere .	St
+1.21.4	Useful can be asked , but some want that to tinker with .	St
+1.21.5	Why HP/Compaq offers a fairly stripped down BIOS is very simple .	St
+1.21.6	Support and document costs climb with every option you give the user base .	St
+1.21.7	To curb costs ( and I 'm guilty of doing this too in my software ) we look at every screen and ask if any item can be set to a default value and removed from view .	St
+1.21.8	Close to your issue is this example .	St
+1.21.9	With better than 99 % of all home PC 's with the hard disk being auto-detected , why offer any other setting in the BIOS ?	Ques
+1.21.10	One could rip that off the screen and keep users from messing up the machine , the documentation and support costs reduce and there are less calls from people who disabled the hard disk .	St
 1.21.11	Bob	St
-1.22.1	Compaq... hmmm... What model.	St
-1.22.2	Did you check Compaq support on their site for and BIOS updates?	St
-1.22.3	Don't some Compaqs use a small partition on the hard drive where the setup utilities reside?	St
-1.22.4	I just don't understand how your hard drive could be identified as 'E'.	St
-1.22.5	Any hard drive should get a letter allias before the CD drives.	St
-1.22.6	The only exception I know of is Compact Flash memory devices/readers on a PCMCIA or USB, they'll be assigned 'E' or 'F' or whatever since they aren't on the bus and assigned an interrupt, they are initialized via the USB hub or PCMCIA controller after the OS loads.	St
-1.22.7	The master IDE drive should always be assigned the allias 'C' I think.	St
-1.22.8	As far as Linux they are /hd0 /hd1 etc I believe.	St
-1.22.9	Is this extra drive on an IDE ribbon in the PC or is this an external drive?	St
-1.22.10	Is it IDE-0 or IDE-1?	St
+1.22.1	Compaq ... hmmm ... What model .	St
+1.22.2	Did you check Compaq support on their site for and BIOS updates ?	Ques
+1.22.3	Do n't some Compaqs use a small partition on the hard drive where the setup utilities reside ?	Ques
+1.22.4	I just do n't understand how your hard drive could be identified as 'E ' .	St
+1.22.5	Any hard drive should get a letter allias before the CD drives .	St
+1.22.6	The only exception I know of is Compact Flash memory devices/readers on a PCMCIA or USB , they 'll be assigned 'E ' or 'F ' or whatever since they are n't on the bus and assigned an interrupt , they are initialized via the USB hub or PCMCIA controller after the OS loads .	St
+1.22.7	The master IDE drive should always be assigned the allias 'C ' I think .	St
+1.22.8	As far as Linux they are /hd0 /hd1 etc I believe .	St
+1.22.9	Is this extra drive on an IDE ribbon in the PC or is this an external drive ?	Ques
+1.22.10	Is it IDE-0 or IDE-1 ?	Ques

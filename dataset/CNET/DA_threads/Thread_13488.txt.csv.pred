@@ -1,38 +1,38 @@
-1.1.1	I am having problems with one of my PC's ever since I was forced to connect it to a wireless network using A D-link DWA-140 wireless USB mini adapter.	St
-1.1.2	The PC is a Dell Dimension DXP051 with Intel Pentium 4 CPU 3.000GHz, 2.99 GHz and 1 GB RAM.	St
-1.1.3	Network card Intel(R) PRO/1000 PL version 9.0.15.0 It had XP HOme Edition version 2002 SP2 + Office 2000 (I need to keep the old Office as I work with certain software that function better and faster with the old MS Office than with newer versions, which I have on my other PC).	St
-1.1.4	First I upgraded to SP3 and then I installed the DWA-140 USB adapter and connected to the wireless network.	St
-1.1.5	As soon as I did, Word started getting hung on startup (won't even open properly, hangs itself).	St
-1.1.6	I initially thought it was a SP3 error, and tried fixes but still didn't work.	St
-1.1.7	As I need Word 2000 more than the internet connection, I chose to uninstall the DWA-140 and work without the network.	St
-1.1.8	However, I now need to get back on the network/internet, so I tried to roll back to SP2, and check to see if Word worked again, and it did.	St
-1.1.9	But as soon as I installed the DWA-140 the same problem occurs...	St
-1.1.10	When I click on Word, it opens but gets stuck and stops responding.	St
-1.1.11	Is there anyone who can help me figure out where the problem lies... how does the D-Link DWA-140 USB adaptor manage to screw up my OFfice programs (and I remember some other software issues as well, but can't recall which ones, as this was some time last fall).	Ques
-1.1.12	Anyone who can help me fix this before Monday... am in a real jam!	St
-1.1.13	=( Thanks!	St
-1.2.1	Just like I read at http://en.community.dell.com/forums/t/19181910.aspx?c=us&l=en&cs=19&s=dhs it took longer to figure out what your machine was.	St
-1.2.2	-&gt; There is no quick cure for you.	St
-1.2.3	Here's what I'd do.	Ques
-1.2.4	1.	St
-1.2.5	Do this -&gt; http://reviews.cnet.com/4520-11319_7-6240575-1.html 2.	St
-1.2.6	Update the motherboard chipset drivers.	St
-1.2.7	How?	St
-1.2.8	head to dell.com and put in your tag number, get the motherboard drivers and install those.	St
-1.2.9	Then retest.	St
-1.2.10	If it still flunks then head to the EVENT VIEWER (use google if you must learn how to use it) to clear all events, crash and then tell us what shows up on the next boot.	St
-1.2.11	3.	St
-1.2.12	Put the adapter in the REAR USB PORT.	St
-1.2.13	Sorry if this seems short but I'm no longer discussing why this matters.	St
+1.1.1	I am having problems with one of my PC 's ever since I was forced to connect it to a wireless network using A D-link DWA-140 wireless USB mini adapter .	St
+1.1.2	The PC is a Dell Dimension DXP051 with Intel Pentium 4 CPU 3.000GHz , 2.99 GHz and 1 GB RAM .	St
+1.1.3	Network card Intel ( R ) PRO/1000 PL version 9.0.15.0 It had XP HOme Edition version 2002 SP2 + Office 2000 ( I need to keep the old Office as I work with certain software that function better and faster with the old MS Office than with newer versions , which I have on my other PC ) .	St
+1.1.4	First I upgraded to SP3 and then I installed the DWA-140 USB adapter and connected to the wireless network .	St
+1.1.5	As soon as I did , Word started getting hung on startup ( wo n't even open properly , hangs itself ) .	St
+1.1.6	I initially thought it was a SP3 error , and tried fixes but still did n't work .	St
+1.1.7	As I need Word 2000 more than the internet connection , I chose to uninstall the DWA-140 and work without the network .	St
+1.1.8	However , I now need to get back on the network/internet , so I tried to roll back to SP2 , and check to see if Word worked again , and it did .	St
+1.1.9	But as soon as I installed the DWA-140 the same problem occurs ...	St
+1.1.10	When I click on Word , it opens but gets stuck and stops responding .	St
+1.1.11	Is there anyone who can help me figure out where the problem lies ... how does the D-Link DWA-140 USB adaptor manage to screw up my OFfice programs ( and I remember some other software issues as well , but ca n't recall which ones , as this was some time last fall ) .	St
+1.1.12	Anyone who can help me fix this before Monday ... am in a real jam !	St
+1.1.13	= ( Thanks !	St
+1.2.1	Just like I read at http : //en.community.dell.com/forums/t/19181910.aspx ? c=us & l=en & cs=19 & s=dhs it took longer to figure out what your machine was .	St
+1.2.2	- & gt ; There is no quick cure for you .	St
+1.2.3	Here 's what I 'd do .	St
+1.2.4	1 .	St
+1.2.5	Do this - & gt ; http : //reviews.cnet.com/4520-11319_7-6240575-1.html 2 .	St
+1.2.6	Update the motherboard chipset drivers .	St
+1.2.7	How ?	Ques
+1.2.8	head to dell.com and put in your tag number , get the motherboard drivers and install those .	St
+1.2.9	Then retest .	St
+1.2.10	If it still flunks then head to the EVENT VIEWER ( use google if you must learn how to use it ) to clear all events , crash and then tell us what shows up on the next boot .	St
+1.2.11	3 .	St
+1.2.12	Put the adapter in the REAR USB PORT .	St
+1.2.13	Sorry if this seems short but I 'm no longer discussing why this matters .	St
 1.2.14	Bob	St
-1.3.1	Hi Bob, Thanks for the tip.	St
-1.3.2	I followed the guide (Cleanup your grungy computer), updated chip set and BIOS, and tried to reinstall DWA-140 but Word still hangs itself (which it didn't 2 minutes before installing the DWA-140).	St
-1.3.3	I tried to follow your steps in the Event Viewer, but when I get to Control Panel - Performance and Maintenance - Administration Tools I just get a desktop.ini file - there is nothing else!	St
-1.3.4	IS there something missing in my XP version...?	St
-1.3.5	Any suggestions on how to restore whatever tools should be under Administration TOols?	St
-1.3.6	Thanks!	St
+1.3.1	Hi Bob , Thanks for the tip .	St
+1.3.2	I followed the guide ( Cleanup your grungy computer ) , updated chip set and BIOS , and tried to reinstall DWA-140 but Word still hangs itself ( which it did n't 2 minutes before installing the DWA-140 ) .	St
+1.3.3	I tried to follow your steps in the Event Viewer , but when I get to Control Panel - Performance and Maintenance - Administration Tools I just get a desktop.ini file - there is nothing else !	St
+1.3.4	IS there something missing in my XP version ... ?	Ques
+1.3.5	Any suggestions on how to restore whatever tools should be under Administration TOols ?	Ques
+1.3.6	Thanks !	St
 1.3.7	Susanne	St
-1.4.1	Hi again, Sorry about my inexperience, I was able to find the EventViewer via the Start button - Administrative Tools, and saved the old log files and cleaned them.	St
-1.4.2	Have now rebooted and the following appears: PROGRAM LOG: 2009-02-16	St
-1.5.1	&quot; Word started getting hung on startup &quot; Try Word's SAFE MODE.	St
-1.5.2	Here's how -&gt; http://www.google.com/search?hl=en&q=WORD+2000+SAFE+MODE Bob	St
+1.4.1	Hi again , Sorry about my inexperience , I was able to find the EventViewer via the Start button - Administrative Tools , and saved the old log files and cleaned them .	St
+1.4.2	Have now rebooted and the following appears : PROGRAM LOG : 2009-02-16	St
+1.5.1	& quot ; Word started getting hung on startup & quot ; Try Word 's SAFE MODE .	St
+1.5.2	Here 's how - & gt ; http : //www.google.com/search ? hl=en & q=WORD+2000+SAFE+MODE Bob	Ques

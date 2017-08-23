@@ -1,92 +1,92 @@
-1.1.1	My computer has an eSATA port, not the eSATAp port though, so most modern external hard drives will not work with it.	St
-1.1.2	I had to find myself an external hard drive case that had eSATA and an independent power source.	St
-1.1.3	I found it in this case.	St
-1.1.4	http://www.newegg.ca/Product/Product.aspx?Item=N82E16817379024 The reviews are good, it's nice and shiny, and it can support up to 3 terabytes.	St
-1.1.5	I got myself a Caviar Black, 2 terabyte Western Digital internal SATA drive to put in it, and the drive just arrived today.	St
-1.1.6	This is the first time I've done this so I was extremely careful throughout the entire process.	St
-1.1.7	I grounded myself, I didn't touch any of the green circuit board surfaces, I didn't force the screws, and I followed every step to the letter.	St
-1.1.8	I've now reached the step where I have to plug the complete drive into the eSATA port on my computer and... nothing is happening.	St
-1.1.9	It's plugged into the wall, the switch is on the ON position, I can even hear the drive spinning, but... the drive will not appear in My Computer.	St
-1.1.10	The drive case also came with a USB 3.0 cable, so even though my computer doesn't have any USB 3.0 I tried to plug it in, just to see if it works.	St
-1.1.11	THAT one does give me a reaction, the computer tells me it has detected a new device.	St
-1.1.12	It installed the drivers for about 2 seconds, and then it did... nothing else.	St
-1.1.13	I still can't see anything in My Computer.	St
-1.1.14	I tried to reboot, carefully unplug and replug the connections.	St
-1.1.15	The only thing I haven't tried yet is re-opening the whole thing and checking to make sure all the connections are good (which I'm sure they are, I triple checked them before screwing it shut.	St
-1.1.16	Please please PLEASE, help me.	Sug
-1.1.17	With taxes and shipping and handling this kit has cost me 270$, I do not want it to all go to waste.	St
-1.1.18	I can't understand what's wrong, and both the manual I received and the one from Zalman's website offer no help at all.	St
-1.2.1	If the drive isn't partioned it doesn't show in My Computer.	St
-1.2.2	If it's partitioned, but the file system is corrupted somehow, it doesn't show up either.	St
-1.2.3	So the question is: does Disc Management see it?	St
-1.2.4	And what does it tell about it.	Ques
+1.1.1	My computer has an eSATA port , not the eSATAp port though , so most modern external hard drives will not work with it .	St
+1.1.2	I had to find myself an external hard drive case that had eSATA and an independent power source .	St
+1.1.3	I found it in this case .	St
+1.1.4	http : //www.newegg.ca/Product/Product.aspx ? Item=N82E16817379024 The reviews are good , it 's nice and shiny , and it can support up to 3 terabytes .	St
+1.1.5	I got myself a Caviar Black , 2 terabyte Western Digital internal SATA drive to put in it , and the drive just arrived today .	St
+1.1.6	This is the first time I 've done this so I was extremely careful throughout the entire process .	St
+1.1.7	I grounded myself , I did n't touch any of the green circuit board surfaces , I did n't force the screws , and I followed every step to the letter .	St
+1.1.8	I 've now reached the step where I have to plug the complete drive into the eSATA port on my computer and ... nothing is happening .	St
+1.1.9	It 's plugged into the wall , the switch is on the ON position , I can even hear the drive spinning , but ... the drive will not appear in My Computer .	St
+1.1.10	The drive case also came with a USB 3.0 cable , so even though my computer does n't have any USB 3.0 I tried to plug it in , just to see if it works .	St
+1.1.11	THAT one does give me a reaction , the computer tells me it has detected a new device .	St
+1.1.12	It installed the drivers for about 2 seconds , and then it did ... nothing else .	St
+1.1.13	I still ca n't see anything in My Computer .	St
+1.1.14	I tried to reboot , carefully unplug and replug the connections .	St
+1.1.15	The only thing I have n't tried yet is re-opening the whole thing and checking to make sure all the connections are good ( which I 'm sure they are , I triple checked them before screwing it shut .	St
+1.1.16	Please please PLEASE , help me .	Sug
+1.1.17	With taxes and shipping and handling this kit has cost me 270 $ , I do not want it to all go to waste .	St
+1.1.18	I ca n't understand what 's wrong , and both the manual I received and the one from Zalman 's website offer no help at all .	St
+1.2.1	If the drive is n't partioned it does n't show in My Computer .	St
+1.2.2	If it 's partitioned , but the file system is corrupted somehow , it does n't show up either .	St
+1.2.3	So the question is : does Disc Management see it ?	Ques
+1.2.4	And what does it tell about it .	St
 1.2.5	Kees	St
-1.3.1	I'd like to go on record first stating that the manual stated nothing about Disc Management, so if this is how one usually goes about installing a new drive, that manual is seriously lacking... Also thank you for the quick response time.	St
-1.3.2	I ran the disk management program from the start search bar (I'm on Windows 7 Home 64-bit), and a window popped open that is called &quot;Initialize Disc&quot; &quot;You must initialize a disk before Logical Disk Manager can access it.	St
-1.3.3	Select disk: (and here it shows only &quot;Disk 3&quot;) Use the following partition style for the selected disks.&quot; There are two options, &quot;MBR (Master Boot Record)&quot; and &quot;GPT (GUID Partition Table)&quot;.	St
-1.3.4	Then it adds, &quot;Note: The GPT partition style is not recognized by all previous versions of Windows.	St
-1.3.5	It is recommended for disks larger than 2TB, or disks used on ltanium-based computers.&quot; wow, so much technobabble...	St
-1.4.1	I got super impatient and decided to go for the MBR option.	St
-1.4.2	Disc 3 popped up in the list of drives in the manager, along with Disc 0 (my main C: drive inside the computer), and Disc 1 and Disc 2 which both seem to be... not present.	St
-1.4.3	Those 2 might be my external portable drives I have somewhere.	St
-1.4.4	So yeah, the drive said something like &quot;Unallocated&quot;, so I right clicked and asked him to... initiallize, I think (I should have taken better notes).	St
-1.4.5	He then asked me if I wanted my drive to be NTFS or exFAT, and I have to say I have no Godly idea what those mean, I did a quick search and got the vague idea that NTFS is more common, and picked that one.	St
-1.4.6	So after a brief bit of panic and a wizard installation, it WORKS.	St
-1.4.7	So... yeah, if anyone still wants to explain how it works, perticularly what the difference between NTFS and exFAT is, for future purposes, please feel free to post.	St
-1.5.1	Ummmm... something's gone wrong.	St
-1.5.2	Not sure what it is yet.	Res
-1.5.3	I started transfering movies to the new drive, while simultaneously browsing on Chrome, and chatting on MSN.	St
-1.5.4	Since I've upgraded the RAM to 7 GB this kind of simple multitasking has never been a problem.	St
-1.5.5	But... while I was transfering it started these huge bouts of lag, each one lasting over 5 seconds, spaced about a minute apart.	St
-1.5.6	I tried to shut off MSN and Chrome, but my entire computer locked up, I had to force shut down using the power button and unplugged the new drive.	St
-1.5.7	Now I'm scared to plug it back in again.	St
-1.5.8	Any idea what the hell just happened?	St
-1.6.1	To avoid all the overhead of copying with Explorer I have for years used the command line since it avoids explorer looking at each file and building thumbnails and more.	St
-1.6.2	Not much new going on.	St
+1.3.1	I 'd like to go on record first stating that the manual stated nothing about Disc Management , so if this is how one usually goes about installing a new drive , that manual is seriously lacking ... Also thank you for the quick response time .	St
+1.3.2	I ran the disk management program from the start search bar ( I 'm on Windows 7 Home 64-bit ) , and a window popped open that is called & quot ; Initialize Disc & quot ; & quot ; You must initialize a disk before Logical Disk Manager can access it .	St
+1.3.3	Select disk : ( and here it shows only & quot ; Disk 3 & quot ; ) Use the following partition style for the selected disks. & quot ; There are two options , & quot ; MBR ( Master Boot Record ) & quot ; and & quot ; GPT ( GUID Partition Table ) & quot ; .	St
+1.3.4	Then it adds , & quot ; Note : The GPT partition style is not recognized by all previous versions of Windows .	St
+1.3.5	It is recommended for disks larger than 2TB , or disks used on ltanium-based computers. & quot ; wow , so much technobabble ...	St
+1.4.1	I got super impatient and decided to go for the MBR option .	St
+1.4.2	Disc 3 popped up in the list of drives in the manager , along with Disc 0 ( my main C : drive inside the computer ) , and Disc 1 and Disc 2 which both seem to be ... not present .	St
+1.4.3	Those 2 might be my external portable drives I have somewhere .	St
+1.4.4	So yeah , the drive said something like & quot ; Unallocated & quot ; , so I right clicked and asked him to ... initiallize , I think ( I should have taken better notes ) .	St
+1.4.5	He then asked me if I wanted my drive to be NTFS or exFAT , and I have to say I have no Godly idea what those mean , I did a quick search and got the vague idea that NTFS is more common , and picked that one .	St
+1.4.6	So after a brief bit of panic and a wizard installation , it WORKS .	St
+1.4.7	So ... yeah , if anyone still wants to explain how it works , perticularly what the difference between NTFS and exFAT is , for future purposes , please feel free to post .	St
+1.5.1	Ummmm ... something 's gone wrong .	St
+1.5.2	Not sure what it is yet .	Res
+1.5.3	I started transfering movies to the new drive , while simultaneously browsing on Chrome , and chatting on MSN .	St
+1.5.4	Since I 've upgraded the RAM to 7 GB this kind of simple multitasking has never been a problem .	St
+1.5.5	But ... while I was transfering it started these huge bouts of lag , each one lasting over 5 seconds , spaced about a minute apart .	St
+1.5.6	I tried to shut off MSN and Chrome , but my entire computer locked up , I had to force shut down using the power button and unplugged the new drive .	St
+1.5.7	Now I 'm scared to plug it back in again .	St
+1.5.8	Any idea what the hell just happened ?	Ques
+1.6.1	To avoid all the overhead of copying with Explorer I have for years used the command line since it avoids explorer looking at each file and building thumbnails and more .	St
+1.6.2	Not much new going on .	St
 1.6.3	Bob	St
-1.7.1	So what do you think I should do to help avoid these bugs?	Ques
-1.7.2	Did I do something wrong when I initialized it?	St
-1.7.3	Or do you think they are inherent bugs with the setup?	St
-1.7.4	Because none of the reviews mentioned anything like this... Of course it could also be a failing on my cheap-skate computer itself.	St
-1.7.5	Bad news if this is the case, I will need to get a new comp sooner than later.	St
-1.7.6	Good news, the drive itself should be fine, and when I do get a new comp it should run perfectly.	St
-1.8.1	Remember that since I can use the command line I don't need an app like: http://download.cnet.com/TeraCopy/3000-2248_4-10671835.html	St
-1.9.1	So if I don't know how to use the command line, that app would be of use to me?	St
-1.9.2	Make the drive less buggy?	St
-1.10.1	I've read in my browsing the issue that I might be able to upgrade the BIOS of my motherboard to better support 2TB hard drives.	St
-1.10.2	Can anyone confirm or deny this?	Ques
-1.10.3	And if it is true, is upgrading the BIOS difficult?	St
-1.11.1	I found something on my computer's spec sheet: http://support.acer.com/acerpanam/desktop/2010/acer/Aspire/AspireX3400/AspireX3400sp2.shtml Under &quot;Storage&quot; it shows (from what I can gather) that it can indeed support 2 TB drives, but only ones that run at 5400 rpm (for some reason).	St
-1.11.2	It can support 160/250/320/500/640/750/1000 Gb drives at 7200 rpm, but over 1 TB... it needs it to slow down.	St
-1.11.3	And wouldn't you know it, I got myself a 7200 RPM 2 TB...	St
-1.11.4	I honestly don't know if that's something you can change with BIOS updates, it sounds frustratingly final.	St
-1.12.1	If you don't know how to use the command line processor in your OS (Bob and I have grown up using MS-DOS and know about commands like cd, copy and xcopy and what paths and wildcards are), then use Explorer and accept that the machine is more or less unusable while copying files to it.	St
-1.12.2	NTFS is a good choice, by the way.	St
+1.7.1	So what do you think I should do to help avoid these bugs ?	Ques
+1.7.2	Did I do something wrong when I initialized it ?	Ques
+1.7.3	Or do you think they are inherent bugs with the setup ?	Ques
+1.7.4	Because none of the reviews mentioned anything like this ... Of course it could also be a failing on my cheap-skate computer itself .	St
+1.7.5	Bad news if this is the case , I will need to get a new comp sooner than later .	St
+1.7.6	Good news , the drive itself should be fine , and when I do get a new comp it should run perfectly .	St
+1.8.1	Remember that since I can use the command line I do n't need an app like : http : //download.cnet.com/TeraCopy/3000-2248_4-10671835.html	St
+1.9.1	So if I do n't know how to use the command line , that app would be of use to me ?	Ques
+1.9.2	Make the drive less buggy ?	Ques
+1.10.1	I 've read in my browsing the issue that I might be able to upgrade the BIOS of my motherboard to better support 2TB hard drives .	St
+1.10.2	Can anyone confirm or deny this ?	Ques
+1.10.3	And if it is true , is upgrading the BIOS difficult ?	Ques
+1.11.1	I found something on my computer 's spec sheet : http : //support.acer.com/acerpanam/desktop/2010/acer/Aspire/AspireX3400/AspireX3400sp2.shtml Under & quot ; Storage & quot ; it shows ( from what I can gather ) that it can indeed support 2 TB drives , but only ones that run at 5400 rpm ( for some reason ) .	St
+1.11.2	It can support 160/250/320/500/640/750/1000 Gb drives at 7200 rpm , but over 1 TB ... it needs it to slow down .	St
+1.11.3	And would n't you know it , I got myself a 7200 RPM 2 TB ...	St
+1.11.4	I honestly do n't know if that 's something you can change with BIOS updates , it sounds frustratingly final .	St
+1.12.1	If you do n't know how to use the command line processor in your OS ( Bob and I have grown up using MS-DOS and know about commands like cd , copy and xcopy and what paths and wildcards are ) , then use Explorer and accept that the machine is more or less unusable while copying files to it .	St
+1.12.2	NTFS is a good choice , by the way .	St
 1.12.3	Kees	St
-1.13.1	It's not something one would teach or learn in a forum setting for many reasons.	St
-1.13.2	One is that there is the web.	St
-1.13.3	&quot;That app&quot; is one that tackles the issues that Explorer exposes.	St
-1.13.4	Using the command line is preferred by me since it solves it without having to install another app.	St
-1.13.5	Besides how would I do this on other machines?	Ques
-1.13.6	As to the drive being buggy.	St
-1.13.7	If false then it's the usual Windows is too busy to respond to you.	St
-1.13.8	If true then you have a warranty issue and ask the makers of machine, OS and drives to fix it.	St
-1.13.9	My bet is the usual &quot;Windows Explorer is too busy issue.&quot; A parting thought is to check the hard drive maker's web page on the drive and see if they issued new firmware.	St
-1.13.10	It's pretty rare but does happen that a drive needs updated firmware.	St
-1.13.11	YES, it happened to me.	St
+1.13.1	It 's not something one would teach or learn in a forum setting for many reasons .	St
+1.13.2	One is that there is the web .	St
+1.13.3	& quot ; That app & quot ; is one that tackles the issues that Explorer exposes .	St
+1.13.4	Using the command line is preferred by me since it solves it without having to install another app .	St
+1.13.5	Besides how would I do this on other machines ?	Ques
+1.13.6	As to the drive being buggy .	St
+1.13.7	If false then it 's the usual Windows is too busy to respond to you .	St
+1.13.8	If true then you have a warranty issue and ask the makers of machine , OS and drives to fix it .	St
+1.13.9	My bet is the usual & quot ; Windows Explorer is too busy issue. & quot ; A parting thought is to check the hard drive maker 's web page on the drive and see if they issued new firmware .	St
+1.13.10	It 's pretty rare but does happen that a drive needs updated firmware .	St
+1.13.11	YES , it happened to me .	St
 1.13.12	Bob	St
-1.14.1	As I mentioned above, I think it has to do with the RPMs.	St
-1.14.2	My computer can handle 7200 RPM drives just fine, so long as they are 1 TB or less.	St
-1.14.3	Above 1 TB it can only handle 5400 RPM.	St
-1.14.4	I didn't realize this when I bought the 2 TB 7200 RPM drive.	St
-1.14.5	I remember when I was &quot;allocating&quot; the drive that it asked me what RPMs I wanted, and I kept them at the default 7200 RPM because I thought it would just help response time.	St
-1.14.6	But now I can't seem to find that allocation button in Disc Management...	St
-1.15.1	I can't guess where such misinformation comes from.	St
-1.16.1	I think it's from Acer's site.	St
-1.16.2	Though maybe I'm just missunderstanding it.	St
-1.16.3	http://support.acer.com/acerpanam/desktop/2010/acer/Aspire/AspireX3400/AspireX3400sp2.shtml	St
-1.17.1	Indeed.	St
-1.17.2	That specification is about what they offer as an internal hard disk when you buy the machine.	St
-1.17.3	Either &lt;= 1GB and faster (7200 RPM) or &gt;= 1 GB and slower (5400 RPM), depending on the model.	St
-1.17.4	That has nothing to do with your external eSATA disk.	St
+1.14.1	As I mentioned above , I think it has to do with the RPMs .	St
+1.14.2	My computer can handle 7200 RPM drives just fine , so long as they are 1 TB or less .	St
+1.14.3	Above 1 TB it can only handle 5400 RPM .	St
+1.14.4	I did n't realize this when I bought the 2 TB 7200 RPM drive .	St
+1.14.5	I remember when I was & quot ; allocating & quot ; the drive that it asked me what RPMs I wanted , and I kept them at the default 7200 RPM because I thought it would just help response time .	St
+1.14.6	But now I ca n't seem to find that allocation button in Disc Management ...	St
+1.15.1	I ca n't guess where such misinformation comes from .	St
+1.16.1	I think it 's from Acer 's site .	St
+1.16.2	Though maybe I 'm just missunderstanding it .	St
+1.16.3	http : //support.acer.com/acerpanam/desktop/2010/acer/Aspire/AspireX3400/AspireX3400sp2.shtml	St
+1.17.1	Indeed .	St
+1.17.2	That specification is about what they offer as an internal hard disk when you buy the machine .	St
+1.17.3	Either & lt ; = 1GB and faster ( 7200 RPM ) or & gt ; = 1 GB and slower ( 5400 RPM ) , depending on the model .	St
+1.17.4	That has nothing to do with your external eSATA disk .	St
 1.17.5	Kees	St

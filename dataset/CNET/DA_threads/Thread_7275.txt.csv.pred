@@ -1,7 +1,7 @@
-1.1.1	We have a small network, we are using DHCP that gives us IPs like 192.168...	St
-1.1.2	But today when I started one of the computers there is a message: *** For Realtec RTL8139 (A/B/C) RTL8130 PCI Fast Ethernet Controller Client MAC ADDR: 00 11 09 97 55 33 GUID 00000000-0000-0000-0000-000000000000 DHCP... (and fast changing symbols \|/-\|/-... that looks like spining) *** After a while the message *** PXE-E53 No boot filename received PXW-M0F Exiting PXW ROM *** apears at the bottom and the same goes again.	St
-1.1.3	If I unplug the network cable it shows a message, informing me that the cable is out.	St
-1.1.4	What should I do?	Sug
-1.2.1	It came out, that BIOS has loaded the default settings by itself.	St
-1.2.2	Therefore SATA was disabled and it couldn't find my HDD.	St
-1.2.3	Therefore it was trying to do a network boot etc.	St
+1.1.1	We have a small network , we are using DHCP that gives us IPs like 192.168 ...	St
+1.1.2	But today when I started one of the computers there is a message : *** For Realtec RTL8139 ( A/B/C ) RTL8130 PCI Fast Ethernet Controller Client MAC ADDR : 00 11 09 97 55 33 GUID 00000000-0000-0000-0000-000000000000 DHCP ... ( and fast changing symbols \|/-\|/- ... that looks like spining ) *** After a while the message *** PXE-E53 No boot filename received PXW-M0F Exiting PXW ROM *** apears at the bottom and the same goes again .	St
+1.1.3	If I unplug the network cable it shows a message , informing me that the cable is out .	St
+1.1.4	What should I do ?	Ques
+1.2.1	It came out , that BIOS has loaded the default settings by itself .	St
+1.2.2	Therefore SATA was disabled and it could n't find my HDD .	St
+1.2.3	Therefore it was trying to do a network boot etc .	St

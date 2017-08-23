@@ -1,17 +1,17 @@
-1.1.1	Hey guys, i got a dilema going on here.	St
-1.1.2	My bro isnt allowing me to have the SSID to access the wifi on our home network (for my PSP).	St
-1.1.3	So i have purchased a D Link to connect my Xbox, and my PSP Wifi, since all the available ports on my current routers are used up.	St
-1.1.4	Question is: My bros router is a Linksys WRt54G and my one is a Dlink (54G), and i will be connecting it by connecting the network cable coming to my PC to the router.	St
-1.1.5	then enabling wifi and accessing it from there.	St
-1.1.6	But i was wondering since but Routers will both mask IPS if that will cause problems for my Xbox/PC/PSP.	St
-1.1.7	Heres a diagram: BR = brothers router MR = my router X = computers/Xbox/PS2 Wifi = Laptops/PSP BR -------------| -----------------X ------------X X---------- --------X Thats the current setup, but i want it to be like this: BR -----------| --------------------X ------------X X------------- -MR ------X | Wifi -- --- X How do i get this to work, and theres no point asking my brother to give the SSID (asking for a very long time) and i know i could get a switch for Xbox and PC or use my PC as a hub, but i would be more interested in getting WIFI access for my PSP as well.	St
-1.1.8	All your help is appreciated, thanks alot in advance.	Polite
-1.2.1	[PC] | ISP----[Linksys Router]----[PC] | | [DLink Router] | [PC] Connect the WAN port of your dlink to the LAN port of the Linksys.	St
-1.2.2	Configure the DLink WAN for DHCP addressing.	St
-1.2.3	Make sure the DLink has 2 unique IP addresses/networks.	St
-1.2.4	To be safe, chage the DLink LAN side to 192.168.x.1.	St
-1.2.5	Make x greater than 1.	St
-1.2.6	When you configure your wireless, pick a different channel that the Linksys.	St
-1.2.7	The only channels you should be using are 1, 6 and 11.	St
-1.2.8	Using these 3 channels you can operate 3 APs very close to each other with no interference.	St
+1.1.1	Hey guys , i got a dilema going on here .	St
+1.1.2	My bro isnt allowing me to have the SSID to access the wifi on our home network ( for my PSP ) .	St
+1.1.3	So i have purchased a D Link to connect my Xbox , and my PSP Wifi , since all the available ports on my current routers are used up .	St
+1.1.4	Question is : My bros router is a Linksys WRt54G and my one is a Dlink ( 54G ) , and i will be connecting it by connecting the network cable coming to my PC to the router .	St
+1.1.5	then enabling wifi and accessing it from there .	St
+1.1.6	But i was wondering since but Routers will both mask IPS if that will cause problems for my Xbox/PC/PSP .	St
+1.1.7	Heres a diagram : BR = brothers router MR = my router X = computers/Xbox/PS2 Wifi = Laptops/PSP BR -- -- -- -- -- -- -| -- -- -- -- -- -- -- -- -X -- -- -- -- -- -- X X -- -- -- -- -- -- -- -- -- X Thats the current setup , but i want it to be like this : BR -- -- -- -- -- -| -- -- -- -- -- -- -- -- -- -- X -- -- -- -- -- -- X X -- -- -- -- -- -- - -MR -- -- -- X | Wifi -- -- - X How do i get this to work , and theres no point asking my brother to give the SSID ( asking for a very long time ) and i know i could get a switch for Xbox and PC or use my PC as a hub , but i would be more interested in getting WIFI access for my PSP as well .	St
+1.1.8	All your help is appreciated , thanks alot in advance .	Polite
+1.2.1	[ PC ] | ISP -- -- [ Linksys Router ] -- -- [ PC ] | | [ DLink Router ] | [ PC ] Connect the WAN port of your dlink to the LAN port of the Linksys .	St
+1.2.2	Configure the DLink WAN for DHCP addressing .	St
+1.2.3	Make sure the DLink has 2 unique IP addresses/networks .	St
+1.2.4	To be safe , chage the DLink LAN side to 192.168.x.1 .	St
+1.2.5	Make x greater than 1 .	St
+1.2.6	When you configure your wireless , pick a different channel that the Linksys .	St
+1.2.7	The only channels you should be using are 1 , 6 and 11 .	St
+1.2.8	Using these 3 channels you can operate 3 APs very close to each other with no interference .	St
 1.2.9	SKrall	St

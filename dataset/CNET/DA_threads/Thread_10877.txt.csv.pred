@@ -1,806 +1,806 @@
-1.1.1	Question: Ready for solid-state drive, but long-term reliability has me worried Now that solid-state drives are coming down in price, I am thinking of swapping the hard drive I have in my laptop for a 256 GB solid-state drive.	St
-1.1.2	However, I have read in the past that these drives use flash technology and this technology is only good for a large but finite number of write requests before it starts to fail.	St
-1.1.3	Since some files, such as swap space, are used pretty heavily, is long-term reliability going to be an issue?	St
-1.1.4	Based on this concern, are there any instances when an SSD isn't recommended?	St
-1.1.5	Also, are there any performance specs that we should consider while choosing a solid-state drive?	St
-1.1.6	Thanks for any suggestions.	St
-1.1.7	--Submitted by: Phil B.	St
-1.2.1	The current crop deals with failures by locking out those areas until something else gives out.	St
-1.2.2	But I think we want to cover the topic of backup here.	St
-1.2.3	That is, no matter what the technology is, we can't dispense without a backup.	St
-1.2.4	Some folk forget that and you are right, data recovery on SSD is rare.	St
+1.1.1	Question : Ready for solid-state drive , but long-term reliability has me worried Now that solid-state drives are coming down in price , I am thinking of swapping the hard drive I have in my laptop for a 256 GB solid-state drive .	St
+1.1.2	However , I have read in the past that these drives use flash technology and this technology is only good for a large but finite number of write requests before it starts to fail .	St
+1.1.3	Since some files , such as swap space , are used pretty heavily , is long-term reliability going to be an issue ?	Ques
+1.1.4	Based on this concern , are there any instances when an SSD is n't recommended ?	Ques
+1.1.5	Also , are there any performance specs that we should consider while choosing a solid-state drive ?	Ques
+1.1.6	Thanks for any suggestions .	Polite
+1.1.7	-- Submitted by : Phil B .	St
+1.2.1	The current crop deals with failures by locking out those areas until something else gives out .	St
+1.2.2	But I think we want to cover the topic of backup here .	St
+1.2.3	That is , no matter what the technology is , we ca n't dispense without a backup .	St
+1.2.4	Some folk forget that and you are right , data recovery on SSD is rare .	St
 1.2.5	Bob	St
-1.3.1	Although everybody loves faster, sometimes an SSD isn't the answer to your problem.	St
-1.3.2	If you have a desktop, the best way to utilize an SSD is to install Windows on it and then have a second platter-basd drive where you can point your programs to install to.	St
-1.3.3	I've found this to be a problem because some installers don't give you an installation path option, and some of the ones that do only install part of the program on your platter drive and the rest on your SSD.	St
-1.3.4	This might not be a problem for a few programs but if you're like me and you're stuck with a 32GB SSD then space needs to be economized Windows also installs its users folder on the C drive as a default.	St
-1.3.5	There is a way to move your user folder to another drive but it requires tweaking the registry and should not be done if you don't think you're confident to do it.	St
-1.3.6	SSDs would not be meant for somebody who does a lot of file editing.	St
-1.3.7	Video editing is a big contender where you're saving lots of data and multiple copies of it.	St
-1.3.8	large database users shouldn't put their databases on an SSD, use a striped RAID rig or something.	St
-1.3.9	Bottom line is to just keep in mind that SSDs can be read from an unlimited amount of times.	St
-1.3.10	It's just the writes you have to watch out for.	St
-1.3.11	Personally I don't think SSDs should ever be used in an environment where there isn't a platter based drive that can take a lot of the nitpicky work like temporary internet files.	St
-1.4.1	A few pages you should probably look at.	Sug
-1.4.2	An older column by Daniel Rutter of Dan's Data points out that at today's capacities, it's just about impossible to write to a drive fast enough to burn out any given sector http://dansdata.com/flashswap.htm Basically, with a modern SSD's wear-leveling algorithms you can't really write to one spot enough times to burn it out that way.	St
-1.4.3	Even when the disk is nearly full, the software on the drive will copy a section that doesn't change into a more-worn area, and then that only-written-once area starts getting used.	St
-1.4.4	A more recent look at them http://www.dansdata.com/io123.htm Which refers to Jeff Atwood's Coding Horror blog, where he relates that from what he's heard SSDs are less reliable then platters, but their speed is so good that he uses them anyway, and keeps good backups http://www.codinghorror.com/blog/2011/05/the-hot-crazy-solid-state-drive-scale.html I've taken the hybrid approach.	St
-1.4.5	I would find 256 GB too cramped.	St
-1.4.6	So, when I needed to reinstall Windows recently, I took the opportunity to replace my three-yr-old drive.	St
-1.4.7	I got a 256 GB SSD to act as my boot drive, and to hold temp files and other often-changing data.	St
-1.4.8	And I have a 1 TB drive where I keep bulky stuff that doesn't really get read and written all that often, so drive speed isn't much of an issue.	St
-1.4.9	I put Downloads, Documents, Music and Pictures on the platter drive.	St
-1.4.10	Everything else I let go onto the system SSD.	St
+1.3.1	Although everybody loves faster , sometimes an SSD is n't the answer to your problem .	St
+1.3.2	If you have a desktop , the best way to utilize an SSD is to install Windows on it and then have a second platter-basd drive where you can point your programs to install to .	St
+1.3.3	I 've found this to be a problem because some installers do n't give you an installation path option , and some of the ones that do only install part of the program on your platter drive and the rest on your SSD .	St
+1.3.4	This might not be a problem for a few programs but if you 're like me and you 're stuck with a 32GB SSD then space needs to be economized Windows also installs its users folder on the C drive as a default .	St
+1.3.5	There is a way to move your user folder to another drive but it requires tweaking the registry and should not be done if you do n't think you 're confident to do it .	St
+1.3.6	SSDs would not be meant for somebody who does a lot of file editing .	St
+1.3.7	Video editing is a big contender where you 're saving lots of data and multiple copies of it .	St
+1.3.8	large database users should n't put their databases on an SSD , use a striped RAID rig or something .	St
+1.3.9	Bottom line is to just keep in mind that SSDs can be read from an unlimited amount of times .	St
+1.3.10	It 's just the writes you have to watch out for .	St
+1.3.11	Personally I do n't think SSDs should ever be used in an environment where there is n't a platter based drive that can take a lot of the nitpicky work like temporary internet files .	St
+1.4.1	A few pages you should probably look at .	Sug
+1.4.2	An older column by Daniel Rutter of Dan 's Data points out that at today 's capacities , it 's just about impossible to write to a drive fast enough to burn out any given sector http : //dansdata.com/flashswap.htm Basically , with a modern SSD 's wear-leveling algorithms you ca n't really write to one spot enough times to burn it out that way .	St
+1.4.3	Even when the disk is nearly full , the software on the drive will copy a section that does n't change into a more-worn area , and then that only-written-once area starts getting used .	St
+1.4.4	A more recent look at them http : //www.dansdata.com/io123.htm Which refers to Jeff Atwood 's Coding Horror blog , where he relates that from what he 's heard SSDs are less reliable then platters , but their speed is so good that he uses them anyway , and keeps good backups http : //www.codinghorror.com/blog/2011/05/the-hot-crazy-solid-state-drive-scale.html I 've taken the hybrid approach .	St
+1.4.5	I would find 256 GB too cramped .	St
+1.4.6	So , when I needed to reinstall Windows recently , I took the opportunity to replace my three-yr-old drive .	St
+1.4.7	I got a 256 GB SSD to act as my boot drive , and to hold temp files and other often-changing data .	St
+1.4.8	And I have a 1 TB drive where I keep bulky stuff that does n't really get read and written all that often , so drive speed is n't much of an issue .	St
+1.4.9	I put Downloads , Documents , Music and Pictures on the platter drive .	St
+1.4.10	Everything else I let go onto the system SSD .	St
 1.4.11	Drake Christensen	St
-1.5.1	I am sure you will get great answers here.	St
-1.5.2	So my way of helping is by giving you a few articles comparing the technologies on the following links.	St
-1.5.3	I know they are from the same source, but when I came accross them, I found them informative.	St
-1.5.4	Am sure even Cnet has some specific reviews as well.	St
-1.5.5	I hope that is helpful to you and anyone else reading it.	St
-1.5.6	http://www.pcworld.com/article/2025402/ssds-vs-hard-drives-vs-hybrids-which-storage-tech-is-right-for-you-.html#tk.nl_pwr http://www.pcworld.com/article/2020724/ultimate-guide-to-ssds-plus-reviews-of-7-new-drives.html http://www.pcworld.com/article/2009983/hard-disk-drives-vs-solidstate-drives-are-ssds-finally-worth-the-money.html http://www.pcworld.com/article/2012223/hybrid-hard-drives-how-they-work-and-why-they-matter.html Geo	St
-1.6.1	I hope that you don't think me wrong for correcting you, but you stated that moving your personal or User folders requires thinkering with the REGISTRY.	St
-1.6.2	That is not correct, if you have an additional internal drive or have created a separate partition, the way to move the user / personal folders to that other internal drive or partition is as follows: Open Windows Explorer, Expand your C drive by clicking on the arrow sign next to it, or double clicking it.	St
-1.6.3	Find the main directory named - Users Expand that directory and find your name.	St
-1.6.4	Expand your name - Under will be a list of all the folders you can move.	St
-1.6.5	Right click on top of any of the folders you want to move and on the menu that opens click - Properties.	St
-1.6.6	Each folder will contain a Tab named - Location.	St
-1.6.7	------ WARNING DO NOT MOVE THE DESKTOP FOLDER.	St
-1.6.8	Change the Letter from C to what ever letter your assigned to your other partition or drive - the rest of the path is fine.	St
-1.6.9	For example: Documents - The path is C:\Users\yourname\Documents.	St
-1.6.10	Lets assume that your partition or secondary drive letter is - F The path will now read - F:\Users\yourname\Documents.	St
-1.6.11	Windows will give you 2 promps, asking if you want to move the folder and 2, informing you that it will be best to avoid duplications to also move all the contents of the folder.	St
-1.6.12	You have to click - Yes to both.	St
-1.6.13	Please understand that the folders although possible, should not be pointed to external drives because if for some reason the drive is not ON, or connected, Windows will NOT be able to find the folders after re-directing them, causing possible error messages.	St
-1.6.14	The WARNING ABOVE about the Desktop Folder - It's necessary for Windows to have that folder on the C partition or you will get error messages.	St
-1.6.15	However, keep in mind that the Desktop Folder only has - Shortcuts to programs, which are easily recreated, so there is really no need to move this folder as its needed by Windows Desktop as soon as the computer boots to the Desktop.	St
-1.6.16	This works for Windows XP as well, except that in Windows XP, the main user / personal folders are under a main directory called - Documents and Settings ( am a bit rusty on Win XP, but is easy to find ) so the folder name am giving above may not be exact.	St
-1.6.17	Regards, George	St
-1.7.1	Hello Phil Solid-state drives (SSD's) are rapidly becoming the main drive in PC's as a factory install or DiY upgrade (not just a boot drive for the OS).	St
-1.7.2	They are lighter, noiseless, don't generate a lot of heat, consume less energy (extending battery life), are incredibly fast, and seemly indestructible versus their spinning HD cousins.	St
-1.7.3	Granted most factory-installed SSD's top out at 256GB (ultrabooks and MacBook Airs) with a few at 512GB.	St
-1.7.4	Aftermarket prices range from $0.82 to $1.36 per GB.	St
-1.7.5	That translates into $104 for a 128GB SSD to $696 for a 512GB SSD (depending upon the manufacturer).	St
-1.7.6	A Crucial M4 series 512GB SSD (highly rated) can be had for about $400.	St
-1.7.7	As you can see a little careful shopping can net you a pretty good deal on some state-of-the-art technology.	St
-1.7.8	Laptops are outselling towers as most people want mobility.	St
-1.7.9	However that mobility comes at a price.	St
-1.7.10	A factory-installed SSD in the past could increase the price of an $800 - $1,000 laptop by about $400 (regardless of Gb capacity).	St
-1.7.11	Because of cost most buyers skipped the SSD option.	St
-1.7.12	Now with improved technology and manufacturing techniques the SSD has become more mainstream and affordable.	St
-1.7.13	One way to make that one-year old or older laptop seem like new is to install a SSD.	St
-1.7.14	As a matter of full disclosure in the beginning SSDs had a reputation for not handling data storage efficiently.	St
-1.7.15	Put simply they weren't able to properly recapture/reallocate space wherein something had been deleted.	St
-1.7.16	TRIM and Garbage Collection technologies (plus any other manufacturer proprietary schemes introduced into the SSD controller) have greatly minimized those concerns.	St
-1.7.17	Learn more about TRIM and Garbage Collection here: http://en.wikipedia.org/wiki/Write_amplification By comparison the old-fashioned (well may be not old-fashioned) spinning HD is prone to developing &quot;Bad Sectors&quot; which makes that portion of the drive unreadable/unwriteable.	St
-1.7.18	On the bright side SSD's today have similar MTBF (Mean Time Between Failure) ratings as spinning HD's.	St
-1.7.19	I think it's safe to say that the majority approve the use of SSD's in lieu of the conventional HD when deployed in the right environment and application.	St
-1.7.20	Consumer spinning HD's will be around for a longtime.	St
-1.7.21	They are still superior when it comes to capacity and less finicky regarding erasure and data recovery.	St
-1.7.22	However their use in laptops is decreasing as manufacturers continue their design trend of less is more, longer battery life and SSD's having less vulnerability to shock by everyday use.	St
-1.7.23	The sweet spot for the SSD laptop will most likely be 256GB as large capacity pocket size external and cloud storage markets continue to grow.	St
-1.7.24	Some manufacturers offer 512GB laptops such as Sony and now Apple with the MBP 15&quot; Retina display.	St
-1.7.25	Apple will even configure a MBP 15&quot; with a 750GB SSD.	St
-1.7.26	WOW!	St
-1.7.27	I question the wisdom of a 750GB SSD and larger given the delicate balance of speed vs. reliability vs. capacity.	St
-1.7.28	All of which have to be in sync without sacrificing the former two for the latter.	St
-1.7.29	But who am I to question the wisdom of Apple????	St
-1.7.30	There are Pros and Cons regarding SSD's: Pros - Faster, Less Weight, Generate less heat, Consume less energy, Less likely to suffer damage if dropped (when installed in a laptop) Cons - Limited life span versus spinning HD's in terms of read/write cycles, SSD Secure File/Data Deletion, Data Recovery from a Failed SSD The Pros don't require any discussion as they speak for themselves and are easily verified by the user.	St
-1.7.31	The Cons on the other hand while not false are not entirely true and therefore deserve discussion.	St
-1.7.32	Limited life span versus spinning HD's in terms of read/write cycles refers to SSD Endurance.	St
-1.7.33	TRIM and Garbage Collection technologies built into the SSD controller are designed to compensate and extend the life of the SSD under repeated write/re-write scenarios.	St
-1.7.34	Expert opinions suggest that consumers (below the enterprise level) should not be concerned.	St
-1.7.35	Click the link: http://www.storagesearch.com/ssdmyths-endurance.html SSD Secure File/Data Deletion would appear to be more applicable to business applications vesus the consumer.	St
-1.7.36	At present the best consumer solution is Data Encryption.	St
-1.7.37	There is talk of standardizing a Data Erasure Scheme for SSD's.	St
-1.7.38	It has yet to be agreed upon because manufacturers want to keep their processes proprietary.	St
-1.7.39	Click the link: http://arstechnica.com/security/2011/03/ask-ars-how-can-i-safely-erase-the-data-from-my-ssd-drive/ Data Recovery from a Failed SSD can be difficult but not impossible.	St
-1.7.40	Researchers quote... &quot;SSD failures are in fact unrecoverable.	St
-1.7.41	The advice is to look at data recovery information on your SSD vendor's site and disregard data recovery sites in operation for less than 5 years.&quot; Click the link: http://www.STORAGEsearch.com/ssd-recovery.html The key is not to let the Cons discourage you.	St
-1.7.42	There are several things one can do to avoid or at least minimize the unfortunates that MAY come with owning an SSD: &#8226; Deploy an SSD mainly for the OS and Applications Folders for fast boots/shutdowns and program launch/close &#8226; Perform a &quot;clean&quot; install whenever possible versus cloning to an SSD &#8226; Check the manufacturers website for firmware updates on a regular basis &#8226; Know if a firmware update is Destructive which erases all data during the update process.	St
-1.7.43	Typically deployed as the second update for a new controller design - not the norm &#8226; Store your important files and those that require constant editing on a secondary drive &#8226; Turn off Windows Indexing/Search to eliminate constant write/re-writes.	St
-1.7.44	Services not needed given the speed of SSD's versus a conventional HD.	St
-1.7.45	&#8226; Never Defrag a SSD either by automatic or manual setting &#8226; Turn off Windows and Security software logging &#8226; Don't buy an off-brand SSD (if the price is too good to be true...it probably is) &#8226; Know your system and buy the correct SSD either SATA I, II, or III &#8226; Choose the right size - 2.5 &quot; for laptops - 3.5&quot; for towers or 2.5&quot; for towers using a 3.5&quot; adapter &#8226; Always BACK-UP your data on a regular basis &#8226; If a DiY upgrade - Don't erase your old HD until you are satisfied with the SSD install...90 days at least Phil...take a read of as many posts as you can.	St
-1.7.46	Then do your own research and decide for yourself if an SSD is the right upgrade for you.	Ques
-1.7.47	In case you're wondering, I upgraded my early 2011 MBP 17-inch with a 750GB spinning HD to an OCZ Vertex 4 SATA III- 512Gb 2.5-inch SSD and I'm loving it!	St
-1.7.48	I hope this information aids you in making an informed decision.	St
-1.7.49	Good luck!	St
+1.5.1	I am sure you will get great answers here .	St
+1.5.2	So my way of helping is by giving you a few articles comparing the technologies on the following links .	St
+1.5.3	I know they are from the same source , but when I came accross them , I found them informative .	St
+1.5.4	Am sure even Cnet has some specific reviews as well .	St
+1.5.5	I hope that is helpful to you and anyone else reading it .	St
+1.5.6	http : //www.pcworld.com/article/2025402/ssds-vs-hard-drives-vs-hybrids-which-storage-tech-is-right-for-you-.html # tk.nl_pwr http : //www.pcworld.com/article/2020724/ultimate-guide-to-ssds-plus-reviews-of-7-new-drives.html http : //www.pcworld.com/article/2009983/hard-disk-drives-vs-solidstate-drives-are-ssds-finally-worth-the-money.html http : //www.pcworld.com/article/2012223/hybrid-hard-drives-how-they-work-and-why-they-matter.html Geo	St
+1.6.1	I hope that you do n't think me wrong for correcting you , but you stated that moving your personal or User folders requires thinkering with the REGISTRY .	St
+1.6.2	That is not correct , if you have an additional internal drive or have created a separate partition , the way to move the user / personal folders to that other internal drive or partition is as follows : Open Windows Explorer , Expand your C drive by clicking on the arrow sign next to it , or double clicking it .	St
+1.6.3	Find the main directory named - Users Expand that directory and find your name .	St
+1.6.4	Expand your name - Under will be a list of all the folders you can move .	St
+1.6.5	Right click on top of any of the folders you want to move and on the menu that opens click - Properties .	St
+1.6.6	Each folder will contain a Tab named - Location .	St
+1.6.7	-- -- -- WARNING DO NOT MOVE THE DESKTOP FOLDER .	St
+1.6.8	Change the Letter from C to what ever letter your assigned to your other partition or drive - the rest of the path is fine .	St
+1.6.9	For example : Documents - The path is C : \Users\yourname\Documents .	St
+1.6.10	Lets assume that your partition or secondary drive letter is - F The path will now read - F : \Users\yourname\Documents .	St
+1.6.11	Windows will give you 2 promps , asking if you want to move the folder and 2 , informing you that it will be best to avoid duplications to also move all the contents of the folder .	St
+1.6.12	You have to click - Yes to both .	St
+1.6.13	Please understand that the folders although possible , should not be pointed to external drives because if for some reason the drive is not ON , or connected , Windows will NOT be able to find the folders after re-directing them , causing possible error messages .	St
+1.6.14	The WARNING ABOVE about the Desktop Folder - It 's necessary for Windows to have that folder on the C partition or you will get error messages .	St
+1.6.15	However , keep in mind that the Desktop Folder only has - Shortcuts to programs , which are easily recreated , so there is really no need to move this folder as its needed by Windows Desktop as soon as the computer boots to the Desktop .	St
+1.6.16	This works for Windows XP as well , except that in Windows XP , the main user / personal folders are under a main directory called - Documents and Settings ( am a bit rusty on Win XP , but is easy to find ) so the folder name am giving above may not be exact .	St
+1.6.17	Regards , George	St
+1.7.1	Hello Phil Solid-state drives ( SSD 's ) are rapidly becoming the main drive in PC 's as a factory install or DiY upgrade ( not just a boot drive for the OS ) .	St
+1.7.2	They are lighter , noiseless , do n't generate a lot of heat , consume less energy ( extending battery life ) , are incredibly fast , and seemly indestructible versus their spinning HD cousins .	St
+1.7.3	Granted most factory-installed SSD 's top out at 256GB ( ultrabooks and MacBook Airs ) with a few at 512GB .	St
+1.7.4	Aftermarket prices range from $ 0.82 to $ 1.36 per GB .	St
+1.7.5	That translates into $ 104 for a 128GB SSD to $ 696 for a 512GB SSD ( depending upon the manufacturer ) .	St
+1.7.6	A Crucial M4 series 512GB SSD ( highly rated ) can be had for about $ 400 .	St
+1.7.7	As you can see a little careful shopping can net you a pretty good deal on some state-of-the-art technology .	St
+1.7.8	Laptops are outselling towers as most people want mobility .	St
+1.7.9	However that mobility comes at a price .	St
+1.7.10	A factory-installed SSD in the past could increase the price of an $ 800 - $ 1,000 laptop by about $ 400 ( regardless of Gb capacity ) .	St
+1.7.11	Because of cost most buyers skipped the SSD option .	St
+1.7.12	Now with improved technology and manufacturing techniques the SSD has become more mainstream and affordable .	St
+1.7.13	One way to make that one-year old or older laptop seem like new is to install a SSD .	St
+1.7.14	As a matter of full disclosure in the beginning SSDs had a reputation for not handling data storage efficiently .	St
+1.7.15	Put simply they were n't able to properly recapture/reallocate space wherein something had been deleted .	St
+1.7.16	TRIM and Garbage Collection technologies ( plus any other manufacturer proprietary schemes introduced into the SSD controller ) have greatly minimized those concerns .	St
+1.7.17	Learn more about TRIM and Garbage Collection here : http : //en.wikipedia.org/wiki/Write_amplification By comparison the old-fashioned ( well may be not old-fashioned ) spinning HD is prone to developing & quot ; Bad Sectors & quot ; which makes that portion of the drive unreadable/unwriteable .	St
+1.7.18	On the bright side SSD 's today have similar MTBF ( Mean Time Between Failure ) ratings as spinning HD 's .	St
+1.7.19	I think it 's safe to say that the majority approve the use of SSD 's in lieu of the conventional HD when deployed in the right environment and application .	St
+1.7.20	Consumer spinning HD 's will be around for a longtime .	St
+1.7.21	They are still superior when it comes to capacity and less finicky regarding erasure and data recovery .	St
+1.7.22	However their use in laptops is decreasing as manufacturers continue their design trend of less is more , longer battery life and SSD 's having less vulnerability to shock by everyday use .	St
+1.7.23	The sweet spot for the SSD laptop will most likely be 256GB as large capacity pocket size external and cloud storage markets continue to grow .	St
+1.7.24	Some manufacturers offer 512GB laptops such as Sony and now Apple with the MBP 15 & quot ; Retina display .	St
+1.7.25	Apple will even configure a MBP 15 & quot ; with a 750GB SSD .	St
+1.7.26	WOW !	St
+1.7.27	I question the wisdom of a 750GB SSD and larger given the delicate balance of speed vs. reliability vs. capacity .	St
+1.7.28	All of which have to be in sync without sacrificing the former two for the latter .	St
+1.7.29	But who am I to question the wisdom of Apple ? ? ? ?	Ques
+1.7.30	There are Pros and Cons regarding SSD 's : Pros - Faster , Less Weight , Generate less heat , Consume less energy , Less likely to suffer damage if dropped ( when installed in a laptop ) Cons - Limited life span versus spinning HD 's in terms of read/write cycles , SSD Secure File/Data Deletion , Data Recovery from a Failed SSD The Pros do n't require any discussion as they speak for themselves and are easily verified by the user .	St
+1.7.31	The Cons on the other hand while not false are not entirely true and therefore deserve discussion .	St
+1.7.32	Limited life span versus spinning HD 's in terms of read/write cycles refers to SSD Endurance .	St
+1.7.33	TRIM and Garbage Collection technologies built into the SSD controller are designed to compensate and extend the life of the SSD under repeated write/re-write scenarios .	St
+1.7.34	Expert opinions suggest that consumers ( below the enterprise level ) should not be concerned .	St
+1.7.35	Click the link : http : //www.storagesearch.com/ssdmyths-endurance.html SSD Secure File/Data Deletion would appear to be more applicable to business applications vesus the consumer .	St
+1.7.36	At present the best consumer solution is Data Encryption .	St
+1.7.37	There is talk of standardizing a Data Erasure Scheme for SSD 's .	St
+1.7.38	It has yet to be agreed upon because manufacturers want to keep their processes proprietary .	St
+1.7.39	Click the link : http : //arstechnica.com/security/2011/03/ask-ars-how-can-i-safely-erase-the-data-from-my-ssd-drive/ Data Recovery from a Failed SSD can be difficult but not impossible .	St
+1.7.40	Researchers quote ... & quot ; SSD failures are in fact unrecoverable .	St
+1.7.41	The advice is to look at data recovery information on your SSD vendor 's site and disregard data recovery sites in operation for less than 5 years. & quot ; Click the link : http : //www.STORAGEsearch.com/ssd-recovery.html The key is not to let the Cons discourage you .	St
+1.7.42	There are several things one can do to avoid or at least minimize the unfortunates that MAY come with owning an SSD : & # 8226 ; Deploy an SSD mainly for the OS and Applications Folders for fast boots/shutdowns and program launch/close & # 8226 ; Perform a & quot ; clean & quot ; install whenever possible versus cloning to an SSD & # 8226 ; Check the manufacturers website for firmware updates on a regular basis & # 8226 ; Know if a firmware update is Destructive which erases all data during the update process .	St
+1.7.43	Typically deployed as the second update for a new controller design - not the norm & # 8226 ; Store your important files and those that require constant editing on a secondary drive & # 8226 ; Turn off Windows Indexing/Search to eliminate constant write/re-writes .	St
+1.7.44	Services not needed given the speed of SSD 's versus a conventional HD .	St
+1.7.45	& # 8226 ; Never Defrag a SSD either by automatic or manual setting & # 8226 ; Turn off Windows and Security software logging & # 8226 ; Do n't buy an off-brand SSD ( if the price is too good to be true ... it probably is ) & # 8226 ; Know your system and buy the correct SSD either SATA I , II , or III & # 8226 ; Choose the right size - 2.5 & quot ; for laptops - 3.5 & quot ; for towers or 2.5 & quot ; for towers using a 3.5 & quot ; adapter & # 8226 ; Always BACK-UP your data on a regular basis & # 8226 ; If a DiY upgrade - Do n't erase your old HD until you are satisfied with the SSD install ... 90 days at least Phil ... take a read of as many posts as you can .	St
+1.7.46	Then do your own research and decide for yourself if an SSD is the right upgrade for you .	St
+1.7.47	In case you 're wondering , I upgraded my early 2011 MBP 17-inch with a 750GB spinning HD to an OCZ Vertex 4 SATA III- 512Gb 2.5-inch SSD and I 'm loving it !	St
+1.7.48	I hope this information aids you in making an informed decision .	St
+1.7.49	Good luck !	Polite
 1.7.50	T ogether E veryone A chieves M ore	St
-1.8.1	Great Point Bob!!!	St
-1.8.2	There are new advances in SSD technology every week.	St
-1.8.3	The pricing is continuing to come down and the cost per GB is going down with it.	St
-1.8.4	This is putting pressure on the manufacturers to continue pumping out bigger, faster, more reliable SSDs.	St
-1.8.5	I'm a big advocate for SSD tech, and recommend it for many of my customers when they can afford it.	St
-1.8.6	You're right when you answer this question with the issue of BACKUP.	St
-1.8.7	So without hijacking your post, I just wanted to mention one of the things I recommend for my customers when they're replacing a hard drive or buying a new computer.	St
-1.8.8	Basically I recommend they purchase a standard SATA hard drive with a new computer, load it up with everything they could imaging they'd need on it, make sure they have all of the updates for Windows and other software, and then clone everything to a new SSD.	St
-1.8.9	Working in this way, the customer always has a backup of the completely updated system in the case of a catastrophic SSD failure.	St
-1.8.10	They need only pop in the backup and they're back in business.	St
-1.8.11	On that same standard SATA hard drive, I also recommend the customer create a second partition for all of their data, which can be backed up on a regular basis through Windows.	St
-1.8.12	I wouldn't worry too much about the new SSDs coming out now.	St
-1.8.13	As long as you're backed up, the speed you gain through using an SSD more than justifies any concerns about MTBF (Mean Time Between Failures) which I believe is in the millions of hours for SSDs.	St
-1.9.1	Phil, In most regards, the life span of an SSD drive should be longer than the normal life expectancy of a traditional hard disk.	St
-1.9.2	There are certain caveats, however.	St
-1.9.3	Basically, it comes down to how often do you write how much data to your hard drive?	St
-1.9.4	To dramatically reduce the number of writes to your SSD, there are a few things you should do and not do.	St
-1.9.5	First, do NOT use any defragmentation utilities on the drive.	Ques
-1.9.6	SSD's absolutely do not need defragmentation and using such a tool will significantly reduce the life expectancy of the drive.	St
-1.9.7	Second: disable hibernation on the machine.	St
-1.9.8	Using hibernation does a great deal of writing of data to the drive - the full contents of the physical RAM.	St
-1.9.9	This consumes many write cycles.	St
-1.9.10	Also, with the increased boot speed of the SSD, starting up the OS from scratch shouldn't take but a few seconds longer than using hibernation.	St
-1.9.11	Third: Turn off or reduce the size of the Swap File/Virtual Memory.	St
-1.9.12	If you have a system with 4 gigs of ram,, you should make the swap file no more than 2 gig and preferably one.	St
-1.9.13	If you have 8, 12 or 16 gigs of memory, it is unlikely you need the swap file at all.	St
-1.9.14	A good way to determine how much swap file you need would be to open task manager, and see how much memory your system is using when you have your highest level of workload running.	St
-1.9.15	Right click on the task bar, choose Start Task Manager.	St
-1.9.16	On the screen that appears, click the tab which says &quot;Performance&quot;.	St
-1.9.17	Again, with all the apps running you would ever normally have running at the same time, look at the bar which says &quot;Memory&quot;.	St
-1.9.18	If that bar shows more than 3/4 full, you should enable virtual memory for a couple of gigs.	St
-1.9.19	You should do some switching of tasks among the things you have running and look at the history of the graph.	Sug
-1.9.20	Again, if it is spending more than a few isolated, short lived jumps over about 75%, then enable the Virtual Memory.	St
-1.9.21	If it isn't, you should be able to disable the Virtual Memory without any impact.	St
-1.9.22	Doing this will also reduce the number of writes made to the SSD, increasing its life span.	St
-1.10.1	Great information.	St
-1.11.1	There are two forms of media which have stood the test of time.	St
-1.11.2	Stone and vellum.	St
-1.11.3	The disadvantage of stone is that it is difficult to write to but once written to it tends to be permanent.	St
-1.11.4	Mean life, somewhere over 3000 years.	St
-1.11.5	Vellum is relatively easy to write to, is erasable and there are examples over 2000 years old.	St
-1.11.6	I doubt that any modern media will be able to match these in storage life terms.	St
-1.11.7	The only advantage of modern media is that it is relatively easy to write to, but this has an inherent problem, namely that any amount of rubbish can be written and stored in the short term.	St
-1.11.8	It would be interesting to look over the shoulders of archaeologists a thousand years hence wondering why in the early twenty-first century, humans stopped writing..	St
-1.12.1	Phil, I was going to post a few questions about SSD drives myself and I am afraid I probably have more questions than answers.	St
-1.12.2	The information out there is so scattered and contradictory and most of it seems to be a few years old.	St
-1.12.3	I personally have a few machines that I converted to SSD drives over 2 years ago and I have had no issues so far.	St
-1.12.4	I recently converted several others over to SSD and I am working on another as I write this now.	St
-1.12.5	I have to say that even if the useful life turns out to be less than that of a traditional hard drive, the speed increase( for me) alone is well worth it.	St
-1.12.6	There is no other single or even multiple upgrade that even comes close to boosting performance like an SSD drive will.	St
-1.12.7	Just to give you an idea, just last week I took my Older Fujutsu LifeBook Tablet that only has a Intel T7500 Core 2 Duo 2.2ghz processor and 4GB of ram and replaced the 100GB SATA hard drive to a new 90GB OCZ Vertex 3 Solid State Drive for $79.	St
-1.12.8	I did not install a fresh copy of Windows 7 but rather just cloned my old installation to the new drive.	St
-1.12.9	I had already upgraded it from Vista to Windows 7 about a year ago.	St
-1.12.10	I found a great little utility for $20 that clones any OS to a SSD while maintaining the correct drive alignment.	St
-1.12.11	Before I installed the SSD drive, I ran a few unscientific tests just so that I could see what kind of performance boost it gave me.	St
-1.12.12	I placed Internet Explorer into the Startup folder with a default home page of Google.	St
-1.12.13	I figured this would give me a real world idea of exactly how long it took the computer to boot, connect to the internet and open my Google home page.	St
-1.12.14	I suppose I could have run a bunch of benchmark tests but that was not what I really cared about and does not really mean much to the average computer user anyway.	St
-1.12.15	Here is what I found: 1.	St
-1.12.16	Boot to Welcome Screen or to the login screen - 61 Seconds with the standard drive vs. 27 seconds with the SSD.	St
-1.12.17	2.	St
-1.12.18	Boot and open Internet Explorer to a Google page on a wireless network - 1 minute 44 seconds with the standard drive as compared to 37 seconds with the new SSD drive.	St
-1.12.19	3.	St
-1.12.20	Fully Boot and open Corel Draw X5 to a blank page - 3 minutes 6 seconds with the standard drive vs. only 55 seconds with the SSD drive.	St
-1.12.21	4.	St
-1.12.22	Shutting down the computer - 17 seconds with the standard drive and 6 seconds with the SSD drive.	St
-1.12.23	NOTE 1 : Many of you may not be able to get by with only a 90GB hard drive, but I only use this computer to remote back into my main computer while traveling and I do not store any data on it.	St
-1.12.24	For those of you that store a bunch of photos, documents, music and other data, you would have to evaluate your actual needs to determine what size drive to purchase.	St
-1.12.25	NOTE 2 : I would only recommend cloning your old drive providing the computer is already in good working order.	St
-1.12.26	If the operating system is several years old, clogged up with junk, previous infections and not running very well at all, then you should really start fresh by re-installing Windows.	St
-1.12.27	NOTE 3 : So far all of the upgrades I have performed on both laptops and desktop computers have rendered similar performance gains of between 2 and 3 times that of a traditional hard drive.	St
-1.12.28	This will obviously change depending on how much the hard drive is being used for whatever you are trying to do.	St
-1.12.29	These gains are primarily with disk intensive routines such as booting up, opening programs and accessing data that is on the hard drive.	St
-1.12.30	Desktop Vs.	St
-1.12.31	Laptop If you are upgrading a desktop computer then I would recommend setting it up with 2 drives.	St
-1.12.32	A smaller SSD for the Operating system and programs and then a second larger, traditional hard drive to store all your data.	St
-1.12.33	Overall Reliability Reliability is an interesting question and I don't think we will have the full answer for many more years.	St
-1.12.34	However, reliability is a twofold question.	St
-1.12.35	You have the question of how long the drive will last before you have reached the limit of write actions to the drive and then you have the issue of reliability due to shock and vibration.	St
-1.12.36	For laptop, netbook and tablet applications, I think the added durability of an SSD may outweigh any concerns about the number of write cycles.	St
-1.12.37	Most of the hard drive failures I run across in laptops are due to abuse, overheating, vibration and shock due to dropping and this is where the SSD drive really excels.	St
-1.12.38	To give you a few examples: I have had a Motion Tablet PC mounted in my truck for about 6 or 7 years now and because it was running all the time while I was driving, I would have to replace the hard drive about twice per year.	St
-1.12.39	If I would happen to run over a large pothole in the road, the computer would often crash.	St
-1.12.40	I installed a Small SSD drive in this 2 years ago and have never looked back.	St
-1.12.41	No more failures or replacements and booting up to Windows XP in less than 25 seconds is a real bonus too.	St
-1.12.42	I have found that it is not uncommon for real road warriors who travel all the time and are constantly pulling out their laptops on planes, trains and automobiles, to have far more hard drive failures then users who have their laptop just sitting on the kitchen counter.	St
-1.12.43	I have some clients that can't seem to make it more than 12 months on a hard drive and others that seem to blow through them in less than 6 months.	St
-1.12.44	Several of them have changed to SSD drives and great results, many to the MacBook Air which has an SSD in it.	St
-1.12.45	The high school in my town started a new program last year where every student receives a new Macbook Air.	St
-1.12.46	This equated to about 870 laptops all running SSD drives.	St
-1.12.47	I have not heard of a single Drive failure as yet.	St
-1.12.48	It would be interesting to hand out laptops with traditional hard drives to 870 teenage students and just see how many hard drive failures you get in the first year and a half?	St
-1.12.49	Remaining Concerns I still have a concern about the average life of SSD drives and only time will tell.	St
-1.12.50	I am also very concerned about data recovery on an SSD drive when something does go wrong.	St
-1.12.51	But my biggest concern is how the quality will be affected over time.	St
-1.12.52	With traditional hard drives there were once only about 4 or 5 hard drive manufactures in the world and it pretty much came down to only 2 or 3 in the last few years and not much to choose from when it came to selecting a hard drive.	St
-1.12.53	It now seems like everyone and their brother is getting into the business of making SSD drives.	St
-1.12.54	Which one is best?	St
-1.12.55	Will there be cheap knock-offs?	St
-1.12.56	How will we be able to tell which one is which?	St
-1.12.57	How can we tell them apart?	St
-1.12.58	So far, I have pretty much stuck with using OCZ and Intel and I am installing a Plextor this morning, but what will I do when someone comes along at half the price?	St
-1.12.59	And then, when you do have a failure, you will not know whether it was the technology that failed or just a cheaply made model?	St
-1.12.60	The bottom line is, you can never become complacent about backing up your data.	St
-1.12.61	Whether you are using a traditional hard drive, SSD Drive or some hybrid combination of both, you still need to have a solid, redundant backup plan.	St
-1.12.62	I am looking forward to hear what others have to say... Dana Wayland Computer	St
-1.13.1	Any type of drive can fail.	St
-1.13.2	This is why it is always so important to back up your data.	St
-1.13.3	But regarding SSDs, while they do have limited mean write cycles, these are not actual limits but more like the MTBF (Mean Time Between Failure) figures for HDDs -- sometimes they fail sooner, sometimes later.	St
-1.13.4	And the number of write cycles on SDDs are pretty high and should accommodate years of use on a typical home system.	St
-1.13.5	But I do not use an SSD for my data, although they would be well suited for dead storage if it weren't for their high price per gigabyte.	St
-1.13.6	I use my SSDs instead for my Windows O/S and my application binaries.	St
-1.13.7	I store my data, including my application data, on a fast HDD.	St
-1.13.8	See, Windows 8 and Windows 7 do very little writing and rewriting once they are initially installed, and the same is true of most application binaries.	St
-1.13.9	These files for the most part are only read, with the only writing/rewriting being done during O/S updates and when you install new and updated software.	St
-1.13.10	In this way you get all the benefits of their blazing speed while minimizing the risk of having them fail because they have run out of cycles.	St
-1.13.11	Of course, most laptops don't let you install multiple drives.	St
-1.13.12	But then, if you store data on a laptop it is PARTICULARLY important to keep it backed up, because there are so many additional risks associated with laptops that desktops don't experience.	St
-1.13.13	For example, I never heard of anyone leaving their desktop computer on a subway, or dropping it onto the floor.	St
-1.13.14	And they are seldom used for particularly write-intensive applications like databases.	St
-1.13.15	I would NOT recommend using an SSD for highly write-intensive uses, like operational databases.	St
-1.13.16	I have had an SSD (an OCZ Vertex 3 Max IOPS 120 GB) installed for well over a year now on a computer I pound heavily all day long, first under Windows 7 and then upgrading it to Windows 8.	St
-1.13.17	It has performed flawlessly, and the fine freeware application &quot;Open Hardware Monitor&quot; reports that it has &quot;100.0% life remaining.&quot; I wish I could say the same for myself!	St
-1.13.18	I'm completely sold on the things, particularly with the prices dropping so rapidly.	St
-1.13.19	Nothing I have ever done to any computer at any time has sped up computers as much as installing one of these.	St
-1.13.20	I will never again build a computer without one.	St
-1.14.1	I'm glad to see you mentioned both areas od SSDs that made me nervous.	St
-1.14.2	There were issues with many of the early SSDs with regard to garbage collection.	St
-1.14.3	At work, one manager had an SSD installed in his system.	St
-1.14.4	It was an old 65 GB SSD.	St
-1.14.5	I kept getting errors reported on a central log (for Symantec A/V and one for WSUS and patching) that the drive was full.	St
-1.14.6	The manager told me I was nuts.	St
-1.14.7	When I did get to look at the system, it ran so slow it was almost useless.	St
-1.14.8	Worse than an old floppy drive.	St
-1.14.9	I refreshed the firmware in the drive and the thing now screams and all the errors are gone.	St
-1.14.10	I know they have applications that keep track of your read/write cycles on an SSD.	St
-1.14.11	SSDs are coming down in price and, even if they don't have the lifespan of an HDD in terms of read/write cycles, nobody should EVER put their faith in a computer component, especially a drive, is going to last for any length of time.	St
-1.14.12	Thats why we have RAID systems and BACKUP systems.	St
-1.14.13	Especially in the enterprise.	St
-1.14.14	AFter all, one nasty piece of malware can lose all of your data for you even without dealing with heating/cooling and electrical issues (clean out those dust bunnies!)	St
-1.14.15	Good job and excellent references.	Polite
-1.15.1	Hi Again Phil I would be remiss if I didn't provide some more in depth advice on the purchase of an SSD and bit more information regarding TRIM and Garbage Collection.	St
-1.15.2	Buying I mentioned in my main post about being sure to keep your SSD up-to-date with the latest firmware offered by the manufacturer.	St
-1.15.3	I also spoke about &quot;Destructive&quot; updates (while not the norm) when applied will erase all data on the SSD.	St
-1.15.4	Here's my advice on how to deal with a Destructive update: Destructive Updates usually occur right after a release of a &quot; new-to-market &quot; SSD or an overhaul to the SSD controller (of which the latter is very rare).	St
-1.15.5	When researching an SSD check to see what version of firmware is installed (v1.0 vs v1.1, v1.2 and so on).	St
-1.15.6	If a SSD is sporting v1.0 of its firmware it's probably a good candidate for a future firmware flash.	St
-1.15.7	That's not to say that the update will be Destructive but the odds are more likely when moving from the initial firmware version to the first update.	St
-1.15.8	You do have options: - Don't purchase a &quot;new-to-market&quot; SSD - go with a tried and tested model - Contact the manufacturer of the &quot;new-to-market&quot; SSD and ask what type of update they foresee in the future.	St
-1.15.9	They may share some critical information with you.	St
-1.15.10	- Research the lesser GB model in a family-line of a manufacturer that has been on the market and reviewed (if you are looking at a step-up model) to see what the performance specs were, how it was rated and how the new-to-market version measures up.	St
-1.15.11	Here's my real world example.	St
+1.8.1	Great Point Bob ! ! !	St
+1.8.2	There are new advances in SSD technology every week .	St
+1.8.3	The pricing is continuing to come down and the cost per GB is going down with it .	St
+1.8.4	This is putting pressure on the manufacturers to continue pumping out bigger , faster , more reliable SSDs .	St
+1.8.5	I 'm a big advocate for SSD tech , and recommend it for many of my customers when they can afford it .	St
+1.8.6	You 're right when you answer this question with the issue of BACKUP .	St
+1.8.7	So without hijacking your post , I just wanted to mention one of the things I recommend for my customers when they 're replacing a hard drive or buying a new computer .	St
+1.8.8	Basically I recommend they purchase a standard SATA hard drive with a new computer , load it up with everything they could imaging they 'd need on it , make sure they have all of the updates for Windows and other software , and then clone everything to a new SSD .	St
+1.8.9	Working in this way , the customer always has a backup of the completely updated system in the case of a catastrophic SSD failure .	St
+1.8.10	They need only pop in the backup and they 're back in business .	St
+1.8.11	On that same standard SATA hard drive , I also recommend the customer create a second partition for all of their data , which can be backed up on a regular basis through Windows .	St
+1.8.12	I would n't worry too much about the new SSDs coming out now .	St
+1.8.13	As long as you 're backed up , the speed you gain through using an SSD more than justifies any concerns about MTBF ( Mean Time Between Failures ) which I believe is in the millions of hours for SSDs .	St
+1.9.1	Phil , In most regards , the life span of an SSD drive should be longer than the normal life expectancy of a traditional hard disk .	St
+1.9.2	There are certain caveats , however .	St
+1.9.3	Basically , it comes down to how often do you write how much data to your hard drive ?	Ques
+1.9.4	To dramatically reduce the number of writes to your SSD , there are a few things you should do and not do .	St
+1.9.5	First , do NOT use any defragmentation utilities on the drive .	St
+1.9.6	SSD 's absolutely do not need defragmentation and using such a tool will significantly reduce the life expectancy of the drive .	St
+1.9.7	Second : disable hibernation on the machine .	Sug
+1.9.8	Using hibernation does a great deal of writing of data to the drive - the full contents of the physical RAM .	St
+1.9.9	This consumes many write cycles .	St
+1.9.10	Also , with the increased boot speed of the SSD , starting up the OS from scratch should n't take but a few seconds longer than using hibernation .	St
+1.9.11	Third : Turn off or reduce the size of the Swap File/Virtual Memory .	St
+1.9.12	If you have a system with 4 gigs of ram , , you should make the swap file no more than 2 gig and preferably one .	St
+1.9.13	If you have 8 , 12 or 16 gigs of memory , it is unlikely you need the swap file at all .	St
+1.9.14	A good way to determine how much swap file you need would be to open task manager , and see how much memory your system is using when you have your highest level of workload running .	St
+1.9.15	Right click on the task bar , choose Start Task Manager .	St
+1.9.16	On the screen that appears , click the tab which says & quot ; Performance & quot ; .	St
+1.9.17	Again , with all the apps running you would ever normally have running at the same time , look at the bar which says & quot ; Memory & quot ; .	St
+1.9.18	If that bar shows more than 3/4 full , you should enable virtual memory for a couple of gigs .	St
+1.9.19	You should do some switching of tasks among the things you have running and look at the history of the graph .	Sug
+1.9.20	Again , if it is spending more than a few isolated , short lived jumps over about 75 % , then enable the Virtual Memory .	St
+1.9.21	If it is n't , you should be able to disable the Virtual Memory without any impact .	St
+1.9.22	Doing this will also reduce the number of writes made to the SSD , increasing its life span .	St
+1.10.1	Great information .	St
+1.11.1	There are two forms of media which have stood the test of time .	St
+1.11.2	Stone and vellum .	St
+1.11.3	The disadvantage of stone is that it is difficult to write to but once written to it tends to be permanent .	St
+1.11.4	Mean life , somewhere over 3000 years .	St
+1.11.5	Vellum is relatively easy to write to , is erasable and there are examples over 2000 years old .	St
+1.11.6	I doubt that any modern media will be able to match these in storage life terms .	St
+1.11.7	The only advantage of modern media is that it is relatively easy to write to , but this has an inherent problem , namely that any amount of rubbish can be written and stored in the short term .	St
+1.11.8	It would be interesting to look over the shoulders of archaeologists a thousand years hence wondering why in the early twenty-first century , humans stopped writing..	St
+1.12.1	Phil , I was going to post a few questions about SSD drives myself and I am afraid I probably have more questions than answers .	St
+1.12.2	The information out there is so scattered and contradictory and most of it seems to be a few years old .	St
+1.12.3	I personally have a few machines that I converted to SSD drives over 2 years ago and I have had no issues so far .	St
+1.12.4	I recently converted several others over to SSD and I am working on another as I write this now .	St
+1.12.5	I have to say that even if the useful life turns out to be less than that of a traditional hard drive , the speed increase ( for me ) alone is well worth it .	St
+1.12.6	There is no other single or even multiple upgrade that even comes close to boosting performance like an SSD drive will .	St
+1.12.7	Just to give you an idea , just last week I took my Older Fujutsu LifeBook Tablet that only has a Intel T7500 Core 2 Duo 2.2ghz processor and 4GB of ram and replaced the 100GB SATA hard drive to a new 90GB OCZ Vertex 3 Solid State Drive for $ 79 .	St
+1.12.8	I did not install a fresh copy of Windows 7 but rather just cloned my old installation to the new drive .	St
+1.12.9	I had already upgraded it from Vista to Windows 7 about a year ago .	St
+1.12.10	I found a great little utility for $ 20 that clones any OS to a SSD while maintaining the correct drive alignment .	St
+1.12.11	Before I installed the SSD drive , I ran a few unscientific tests just so that I could see what kind of performance boost it gave me .	St
+1.12.12	I placed Internet Explorer into the Startup folder with a default home page of Google .	St
+1.12.13	I figured this would give me a real world idea of exactly how long it took the computer to boot , connect to the internet and open my Google home page .	St
+1.12.14	I suppose I could have run a bunch of benchmark tests but that was not what I really cared about and does not really mean much to the average computer user anyway .	St
+1.12.15	Here is what I found : 1 .	St
+1.12.16	Boot to Welcome Screen or to the login screen - 61 Seconds with the standard drive vs. 27 seconds with the SSD .	St
+1.12.17	2 .	St
+1.12.18	Boot and open Internet Explorer to a Google page on a wireless network - 1 minute 44 seconds with the standard drive as compared to 37 seconds with the new SSD drive .	St
+1.12.19	3 .	St
+1.12.20	Fully Boot and open Corel Draw X5 to a blank page - 3 minutes 6 seconds with the standard drive vs. only 55 seconds with the SSD drive .	St
+1.12.21	4 .	St
+1.12.22	Shutting down the computer - 17 seconds with the standard drive and 6 seconds with the SSD drive .	St
+1.12.23	NOTE 1 : Many of you may not be able to get by with only a 90GB hard drive , but I only use this computer to remote back into my main computer while traveling and I do not store any data on it .	St
+1.12.24	For those of you that store a bunch of photos , documents , music and other data , you would have to evaluate your actual needs to determine what size drive to purchase .	St
+1.12.25	NOTE 2 : I would only recommend cloning your old drive providing the computer is already in good working order .	St
+1.12.26	If the operating system is several years old , clogged up with junk , previous infections and not running very well at all , then you should really start fresh by re-installing Windows .	St
+1.12.27	NOTE 3 : So far all of the upgrades I have performed on both laptops and desktop computers have rendered similar performance gains of between 2 and 3 times that of a traditional hard drive .	St
+1.12.28	This will obviously change depending on how much the hard drive is being used for whatever you are trying to do .	St
+1.12.29	These gains are primarily with disk intensive routines such as booting up , opening programs and accessing data that is on the hard drive .	St
+1.12.30	Desktop Vs .	St
+1.12.31	Laptop If you are upgrading a desktop computer then I would recommend setting it up with 2 drives .	St
+1.12.32	A smaller SSD for the Operating system and programs and then a second larger , traditional hard drive to store all your data .	St
+1.12.33	Overall Reliability Reliability is an interesting question and I do n't think we will have the full answer for many more years .	St
+1.12.34	However , reliability is a twofold question .	St
+1.12.35	You have the question of how long the drive will last before you have reached the limit of write actions to the drive and then you have the issue of reliability due to shock and vibration .	St
+1.12.36	For laptop , netbook and tablet applications , I think the added durability of an SSD may outweigh any concerns about the number of write cycles .	St
+1.12.37	Most of the hard drive failures I run across in laptops are due to abuse , overheating , vibration and shock due to dropping and this is where the SSD drive really excels .	St
+1.12.38	To give you a few examples : I have had a Motion Tablet PC mounted in my truck for about 6 or 7 years now and because it was running all the time while I was driving , I would have to replace the hard drive about twice per year .	St
+1.12.39	If I would happen to run over a large pothole in the road , the computer would often crash .	St
+1.12.40	I installed a Small SSD drive in this 2 years ago and have never looked back .	St
+1.12.41	No more failures or replacements and booting up to Windows XP in less than 25 seconds is a real bonus too .	St
+1.12.42	I have found that it is not uncommon for real road warriors who travel all the time and are constantly pulling out their laptops on planes , trains and automobiles , to have far more hard drive failures then users who have their laptop just sitting on the kitchen counter .	St
+1.12.43	I have some clients that ca n't seem to make it more than 12 months on a hard drive and others that seem to blow through them in less than 6 months .	St
+1.12.44	Several of them have changed to SSD drives and great results , many to the MacBook Air which has an SSD in it .	St
+1.12.45	The high school in my town started a new program last year where every student receives a new Macbook Air .	St
+1.12.46	This equated to about 870 laptops all running SSD drives .	St
+1.12.47	I have not heard of a single Drive failure as yet .	St
+1.12.48	It would be interesting to hand out laptops with traditional hard drives to 870 teenage students and just see how many hard drive failures you get in the first year and a half ?	Ques
+1.12.49	Remaining Concerns I still have a concern about the average life of SSD drives and only time will tell .	St
+1.12.50	I am also very concerned about data recovery on an SSD drive when something does go wrong .	St
+1.12.51	But my biggest concern is how the quality will be affected over time .	St
+1.12.52	With traditional hard drives there were once only about 4 or 5 hard drive manufactures in the world and it pretty much came down to only 2 or 3 in the last few years and not much to choose from when it came to selecting a hard drive .	St
+1.12.53	It now seems like everyone and their brother is getting into the business of making SSD drives .	St
+1.12.54	Which one is best ?	Ques
+1.12.55	Will there be cheap knock-offs ?	Ques
+1.12.56	How will we be able to tell which one is which ?	Ques
+1.12.57	How can we tell them apart ?	Ques
+1.12.58	So far , I have pretty much stuck with using OCZ and Intel and I am installing a Plextor this morning , but what will I do when someone comes along at half the price ?	Ques
+1.12.59	And then , when you do have a failure , you will not know whether it was the technology that failed or just a cheaply made model ?	Ques
+1.12.60	The bottom line is , you can never become complacent about backing up your data .	St
+1.12.61	Whether you are using a traditional hard drive , SSD Drive or some hybrid combination of both , you still need to have a solid , redundant backup plan .	St
+1.12.62	I am looking forward to hear what others have to say ... Dana Wayland Computer	St
+1.13.1	Any type of drive can fail .	St
+1.13.2	This is why it is always so important to back up your data .	St
+1.13.3	But regarding SSDs , while they do have limited mean write cycles , these are not actual limits but more like the MTBF ( Mean Time Between Failure ) figures for HDDs -- sometimes they fail sooner , sometimes later .	St
+1.13.4	And the number of write cycles on SDDs are pretty high and should accommodate years of use on a typical home system .	St
+1.13.5	But I do not use an SSD for my data , although they would be well suited for dead storage if it were n't for their high price per gigabyte .	St
+1.13.6	I use my SSDs instead for my Windows O/S and my application binaries .	St
+1.13.7	I store my data , including my application data , on a fast HDD .	St
+1.13.8	See , Windows 8 and Windows 7 do very little writing and rewriting once they are initially installed , and the same is true of most application binaries .	St
+1.13.9	These files for the most part are only read , with the only writing/rewriting being done during O/S updates and when you install new and updated software .	St
+1.13.10	In this way you get all the benefits of their blazing speed while minimizing the risk of having them fail because they have run out of cycles .	St
+1.13.11	Of course , most laptops do n't let you install multiple drives .	St
+1.13.12	But then , if you store data on a laptop it is PARTICULARLY important to keep it backed up , because there are so many additional risks associated with laptops that desktops do n't experience .	St
+1.13.13	For example , I never heard of anyone leaving their desktop computer on a subway , or dropping it onto the floor .	St
+1.13.14	And they are seldom used for particularly write-intensive applications like databases .	St
+1.13.15	I would NOT recommend using an SSD for highly write-intensive uses , like operational databases .	St
+1.13.16	I have had an SSD ( an OCZ Vertex 3 Max IOPS 120 GB ) installed for well over a year now on a computer I pound heavily all day long , first under Windows 7 and then upgrading it to Windows 8 .	St
+1.13.17	It has performed flawlessly , and the fine freeware application & quot ; Open Hardware Monitor & quot ; reports that it has & quot ; 100.0 % life remaining. & quot ; I wish I could say the same for myself !	St
+1.13.18	I 'm completely sold on the things , particularly with the prices dropping so rapidly .	St
+1.13.19	Nothing I have ever done to any computer at any time has sped up computers as much as installing one of these .	St
+1.13.20	I will never again build a computer without one .	St
+1.14.1	I 'm glad to see you mentioned both areas od SSDs that made me nervous .	St
+1.14.2	There were issues with many of the early SSDs with regard to garbage collection .	St
+1.14.3	At work , one manager had an SSD installed in his system .	St
+1.14.4	It was an old 65 GB SSD .	St
+1.14.5	I kept getting errors reported on a central log ( for Symantec A/V and one for WSUS and patching ) that the drive was full .	St
+1.14.6	The manager told me I was nuts .	St
+1.14.7	When I did get to look at the system , it ran so slow it was almost useless .	St
+1.14.8	Worse than an old floppy drive .	St
+1.14.9	I refreshed the firmware in the drive and the thing now screams and all the errors are gone .	St
+1.14.10	I know they have applications that keep track of your read/write cycles on an SSD .	St
+1.14.11	SSDs are coming down in price and , even if they do n't have the lifespan of an HDD in terms of read/write cycles , nobody should EVER put their faith in a computer component , especially a drive , is going to last for any length of time .	St
+1.14.12	Thats why we have RAID systems and BACKUP systems .	St
+1.14.13	Especially in the enterprise .	St
+1.14.14	AFter all , one nasty piece of malware can lose all of your data for you even without dealing with heating/cooling and electrical issues ( clean out those dust bunnies ! )	St
+1.14.15	Good job and excellent references .	Polite
+1.15.1	Hi Again Phil I would be remiss if I did n't provide some more in depth advice on the purchase of an SSD and bit more information regarding TRIM and Garbage Collection .	St
+1.15.2	Buying I mentioned in my main post about being sure to keep your SSD up-to-date with the latest firmware offered by the manufacturer .	St
+1.15.3	I also spoke about & quot ; Destructive & quot ; updates ( while not the norm ) when applied will erase all data on the SSD .	St
+1.15.4	Here 's my advice on how to deal with a Destructive update : Destructive Updates usually occur right after a release of a & quot ; new-to-market & quot ; SSD or an overhaul to the SSD controller ( of which the latter is very rare ) .	St
+1.15.5	When researching an SSD check to see what version of firmware is installed ( v1.0 vs v1.1 , v1.2 and so on ) .	St
+1.15.6	If a SSD is sporting v1.0 of its firmware it 's probably a good candidate for a future firmware flash .	St
+1.15.7	That 's not to say that the update will be Destructive but the odds are more likely when moving from the initial firmware version to the first update .	St
+1.15.8	You do have options : - Do n't purchase a & quot ; new-to-market & quot ; SSD - go with a tried and tested model - Contact the manufacturer of the & quot ; new-to-market & quot ; SSD and ask what type of update they foresee in the future .	St
+1.15.9	They may share some critical information with you .	St
+1.15.10	- Research the lesser GB model in a family-line of a manufacturer that has been on the market and reviewed ( if you are looking at a step-up model ) to see what the performance specs were , how it was rated and how the new-to-market version measures up .	St
+1.15.11	Here 's my real world example .	St
 1.15.12	..	St
-1.15.13	I purchased an OCZ Vertex-4 512GB SSD.	St
-1.15.14	The research revealed that the Vertex-4 256GB model performed to benchmark standards and better.	St
-1.15.15	However, the newly released 512GB model did not due to some controller issues that OCZ was addressing.	St
-1.15.16	As it happened OCZ corrected the problems, but to do so (as a consumer) required a firmware flash that was Destructive .	St
-1.15.17	I was fortunate that I was not a &quot;first adapter&quot; of the 512GB model and was able to perform all the updates before loading any personal programs (other than the OS) thus not requiring a reload of everything.	St
+1.15.13	I purchased an OCZ Vertex-4 512GB SSD .	St
+1.15.14	The research revealed that the Vertex-4 256GB model performed to benchmark standards and better .	St
+1.15.15	However , the newly released 512GB model did not due to some controller issues that OCZ was addressing .	St
+1.15.16	As it happened OCZ corrected the problems , but to do so ( as a consumer ) required a firmware flash that was Destructive .	St
+1.15.17	I was fortunate that I was not a & quot ; first adapter & quot ; of the 512GB model and was able to perform all the updates before loading any personal programs ( other than the OS ) thus not requiring a reload of everything .	St
 1.15.18	All subsequent firmware updates have been non-destructive .	St
-1.15.19	So the bottom-line here is... - Research, Research, Research, Research before making a purchase - Don't be a &quot;first adapter&quot; of a newly released model (if you can avoid it) - Purchase a SSD that has good reviews if you like a particular manufacturers product-line - Purchase another brand if the capacity you are looking at by one manufacturer is too new-to-market versus a tested version by another - There are a lot of good choices out there.	St
-1.15.20	TRIM and Garbage Collection TRIM is typically enabled by the OS.	St
-1.15.21	Here a link to show you how to check for TRIM enablement in a Windows environment: http://www.youtube.com/watch?v=hg96QVcOMMY Mac OS doesn't enable TRIM by default, but there is a &quot;Free&quot; workaround.	St
-1.15.22	I use it and it works perfectly.	St
-1.15.23	The only caveat is that you must remember to run the program after a Mac OS update.	St
-1.15.24	You can get it here: http://www.groths.org/package/trim-enabler/ Garbage Collection is resident to the SSD and is enabled by the SSD Controller.	St
-1.15.25	Each manufacturer may &quot;twik&quot; how if works on there particular brand, but the results are the same.	St
-1.15.26	I hope this additional info is useful.	St
+1.15.19	So the bottom-line here is ... - Research , Research , Research , Research before making a purchase - Do n't be a & quot ; first adapter & quot ; of a newly released model ( if you can avoid it ) - Purchase a SSD that has good reviews if you like a particular manufacturers product-line - Purchase another brand if the capacity you are looking at by one manufacturer is too new-to-market versus a tested version by another - There are a lot of good choices out there .	St
+1.15.20	TRIM and Garbage Collection TRIM is typically enabled by the OS .	St
+1.15.21	Here a link to show you how to check for TRIM enablement in a Windows environment : http : //www.youtube.com/watch ? v=hg96QVcOMMY Mac OS does n't enable TRIM by default , but there is a & quot ; Free & quot ; workaround .	St
+1.15.22	I use it and it works perfectly .	St
+1.15.23	The only caveat is that you must remember to run the program after a Mac OS update .	St
+1.15.24	You can get it here : http : //www.groths.org/package/trim-enabler/ Garbage Collection is resident to the SSD and is enabled by the SSD Controller .	St
+1.15.25	Each manufacturer may & quot ; twik & quot ; how if works on there particular brand , but the results are the same .	St
+1.15.26	I hope this additional info is useful .	St
 1.15.27	T ogether E veryone A chieve M ore	St
-1.16.1	Thanks, Hforman.	St
-1.16.2	I've followed your posts as well.	St
-1.16.3	It's always good to know that what one posts has at least a modicum of merit .	St
-1.17.1	Glad you found the post useful!	St
-1.18.1	Great Job George!!!	St
-1.18.2	Many users shy away from re-directing where data is stored away from the Root/Boot drive simply because they don't have the simple instructions you've provided here.	St
-1.19.1	I respectfully disagree with your assertion that SSDs should only be used to load an Operating System.	St
-1.19.2	The idea that SSDs aren't appropriate for some people because of an arbitrary 32GB limitation on SSD size is ludicrous.	St
-1.19.3	While some new laptops are coming out with dual drives (an SSD for the OS and a platter SATA for other data), one need only to spend a little time to set up their machine to store the data in the appropriate area.	St
-1.19.4	The real gains realized by an SSD is the speed with which it retrieves data.	St
-1.19.5	Loading all of your software programs on a standard platter drive eliminates the purpose of fast access.	St
-1.19.6	I realize that some of the new systems are limited by the tiny SSDs they've provided (i.e.	St
-1.19.7	32GB), but you can still put quite a bit of software on 32GB.	St
-1.19.8	Basically, it will hold Windows 7 with all of the updates, Microsoft Office Enterprise, AntiVirus software, Adobe Reader & Flash, Java, and still have room to spare.	St
-1.19.9	The key here is to maximize the amount of RAM you're using in your system to minimize the page file size required on the SSD, and to make sure that all of your User data is saved to the standard SATA hard drive (as suggested by GEO2003) and everything is backed up on an external drive.	St
-1.19.10	Personally, I wouldn't use a system that was restricted to 32GB.	St
-1.19.11	I believe they're using an MSATA card for this purpose that can be upgraded to a higher capacity.	St
-1.19.12	If you're using it in conjunction with a second, larger drive, consider an SSD for the second drive.	St
-1.19.13	It's not my intention to be overly critical here ZEDEUYASHA, but only to provide some clarity to members who are just entering this new technology of SSDs.	St
-1.20.1	Just a note that, unless I've been missing something for the past 9 years or so, unlike the later Windows versions, Windows XP allows the relocation of only the 'My Documents' special Desktop folder.	St
-1.20.2	In particular, I can see no way to relocate the 'Application Data' folder.	St
-1.21.1	I don't think that you have been missing something for the past 9 years.	St
-1.21.2	= LOL Tell the truth I am rusty on Win XP.	St
-1.21.3	But my point of showing how to move the PERSONAL USER FOLDERS, is so that people can create a partition or use a secondary INTERNAL drive to save all their personal information.	St
-1.21.4	In the event that users get a Viral infection or some type of corruption on the C partition, it's 99 percent sure that after the error is fixed if possible, they still have access to their personal files.	St
-1.21.5	As most of the time, viral infections or othewise affect mostly the C partition where the OS resides.	St
-1.21.6	What you refer here to is &quot; Application Data &quot; if you refering to the folders which are created by applicatiions when they are installed, keep in mind that most of them automatically presumed to be install on the C Drive.	St
-1.21.7	Hence the Application Data folders contain files for the application such as DLL's, and other that the applications uses.	St
-1.21.8	Hence unless you do a complete backup of the C drive, you CAN'T move the Application Data Folders because, the main program expects those folders to be on the C drive.	St
-1.21.9	As an example, installing MS Word, creates a folder under C:\Programs and another under C:\ProgramData under Win Vista and 7.	St
-1.21.10	The second only contains, Dll's and other files Word needs, however, where you save your personal documents still a choice for anyone to make, the default would be - Documents.	St
-1.21.11	Even it has already been re-directed.	St
-1.21.12	I don't know if I am missing something when you state Application Data Folders.	St
-1.21.13	But another example would be Outlook, or Windows Live Mail clients on the pc, you CAN re-direct the contents to another partition or internal drive.	Ques
-1.21.14	Once you move them from the C drive and you open Outlook or Windows Live Mail, it will give you an error message as it can't find them directly on the C drive.	St
-1.21.15	You close the applications and when you open them again, you will get the errors.	St
-1.21.16	Outlook, prompts you, and give you a small windows explorer so that you can point to the right folder and path.	St
-1.21.17	Windows Live mail, you have to go into settings / Maintenance / and point the program to the new destination.	St
-1.21.18	In the case of Outlook or Windows Live Mail, that data is all your email and calendar settings, so in this case we can apply the name Application Data even though it can be moved.	St
-1.21.19	Not every program is the same.	St
-1.21.20	Application Data - Used by the application only.	St
-1.21.21	Application Data - Information you save to folders within the application and is it allow by the application to be moved.	St
-1.21.22	Cheers, Geo	St
-1.22.1	I woyuld put Windows and ALL programs on an SSD (like someone mentioned, it's not easy to send every program you install to a HDD), and ALL files and folders on a HDD.	St
-1.23.1	Almost 3 years ago, I purchased a 60GB OCZ SSD to use as my system drive.	St
-1.23.2	It worked well, but was a bit small for my needs.	St
-1.23.3	Six months later, I bought a 100GB OCZ Vertex 2 drive and placed the 60GB unit in my wife's computer.	St
-1.23.4	Here are the results of this experiment: The 60GB drive has given no problems and is still running just fine in my wife's computer.	St
-1.23.5	Unfortunately, the 100GB drive did not work out as well.	St
-1.23.6	The first 100GB drive failed after 6 months.	St
-1.23.7	There was a 3-year warranty, so a replacement was sent in about a week.	St
-1.23.8	The second drive lasted about 5 months.	St
-1.23.9	The third lasted about two weeks, and I quit.	St
-1.23.10	I got the replacement and sold it on e-bay.	St
-1.23.11	It still had plenty of warranty left, but I did not want to keep replacing drives.	St
-1.23.12	Perhaps this experience is restricted to OCZ Vertex 2 drives, but I got gun-shy.	St
-1.23.13	Based on research, it seemed that Samsung and Intel have the most reliable drives.	St
-1.23.14	I bought a Samsung 830 128GB drive in July of 2012 and have had no trouble with it.	St
-1.23.15	Do your research, read the reviews, and make a choice on that basis.	St
-1.23.16	The speed of bootup for Windows is tremendous.	St
-1.23.17	Instead of waiting minutes to complete a booup, it only takes 25 seconds or less (depends on your drivers and overhead).	St
-1.23.18	Good luck.	St
-1.24.1	In my separate post I shared my experience with OCZ drives.	St
-1.24.2	One driver keeps going and going after over 3 years, while another model had failure after failure till I quit using OCZ and switched to Samsung.	St
-1.24.3	Obviously, OCZ does have some good drives as exemplified by my own experience with the first drive.	St
-1.24.4	I did get a Seagate 500GB hybrid drive along the way.	St
-1.24.5	The speed of the drive was rather disapointing if you expect it to be similar to an SSD.	St
-1.24.6	However, it does perform rather nicely for a 2.5 inch hard drive.	St
-1.24.7	Have had no problems at all with the Seagate hybrid.	St
-1.24.8	In my setup, I have a Samsung 830 128GB SSD as the system drive.	St
-1.24.9	The Seagate 500GB hybrid is used for data storage, and a 1.5TB 3.5 inch WD black HD is used for archival type storage.	St
-1.24.10	All of my documents (the myDocuments folder) are located on the Seagate drive.	St
-1.24.11	Only program files and system are on the SSD.	St
-1.24.12	Hope this is of some use to those contemplating going to at SSD - I recommend doing so despite my early bad experience.	St
+1.16.1	Thanks , Hforman .	St
+1.16.2	I 've followed your posts as well .	St
+1.16.3	It 's always good to know that what one posts has at least a modicum of merit .	St
+1.17.1	Glad you found the post useful !	St
+1.18.1	Great Job George ! ! !	St
+1.18.2	Many users shy away from re-directing where data is stored away from the Root/Boot drive simply because they do n't have the simple instructions you 've provided here .	St
+1.19.1	I respectfully disagree with your assertion that SSDs should only be used to load an Operating System .	St
+1.19.2	The idea that SSDs are n't appropriate for some people because of an arbitrary 32GB limitation on SSD size is ludicrous .	St
+1.19.3	While some new laptops are coming out with dual drives ( an SSD for the OS and a platter SATA for other data ) , one need only to spend a little time to set up their machine to store the data in the appropriate area .	St
+1.19.4	The real gains realized by an SSD is the speed with which it retrieves data .	St
+1.19.5	Loading all of your software programs on a standard platter drive eliminates the purpose of fast access .	St
+1.19.6	I realize that some of the new systems are limited by the tiny SSDs they 've provided ( i.e .	St
+1.19.7	32GB ) , but you can still put quite a bit of software on 32GB .	St
+1.19.8	Basically , it will hold Windows 7 with all of the updates , Microsoft Office Enterprise , AntiVirus software , Adobe Reader & Flash , Java , and still have room to spare .	St
+1.19.9	The key here is to maximize the amount of RAM you 're using in your system to minimize the page file size required on the SSD , and to make sure that all of your User data is saved to the standard SATA hard drive ( as suggested by GEO2003 ) and everything is backed up on an external drive .	St
+1.19.10	Personally , I would n't use a system that was restricted to 32GB .	St
+1.19.11	I believe they 're using an MSATA card for this purpose that can be upgraded to a higher capacity .	St
+1.19.12	If you 're using it in conjunction with a second , larger drive , consider an SSD for the second drive .	St
+1.19.13	It 's not my intention to be overly critical here ZEDEUYASHA , but only to provide some clarity to members who are just entering this new technology of SSDs .	St
+1.20.1	Just a note that , unless I 've been missing something for the past 9 years or so , unlike the later Windows versions , Windows XP allows the relocation of only the 'My Documents ' special Desktop folder .	St
+1.20.2	In particular , I can see no way to relocate the 'Application Data ' folder .	St
+1.21.1	I do n't think that you have been missing something for the past 9 years .	St
+1.21.2	= LOL Tell the truth I am rusty on Win XP .	St
+1.21.3	But my point of showing how to move the PERSONAL USER FOLDERS , is so that people can create a partition or use a secondary INTERNAL drive to save all their personal information .	St
+1.21.4	In the event that users get a Viral infection or some type of corruption on the C partition , it 's 99 percent sure that after the error is fixed if possible , they still have access to their personal files .	St
+1.21.5	As most of the time , viral infections or othewise affect mostly the C partition where the OS resides .	St
+1.21.6	What you refer here to is & quot ; Application Data & quot ; if you refering to the folders which are created by applicatiions when they are installed , keep in mind that most of them automatically presumed to be install on the C Drive .	St
+1.21.7	Hence the Application Data folders contain files for the application such as DLL 's , and other that the applications uses .	St
+1.21.8	Hence unless you do a complete backup of the C drive , you CA N'T move the Application Data Folders because , the main program expects those folders to be on the C drive .	St
+1.21.9	As an example , installing MS Word , creates a folder under C : \Programs and another under C : \ProgramData under Win Vista and 7 .	St
+1.21.10	The second only contains , Dll 's and other files Word needs , however , where you save your personal documents still a choice for anyone to make , the default would be - Documents .	St
+1.21.11	Even it has already been re-directed .	St
+1.21.12	I do n't know if I am missing something when you state Application Data Folders .	St
+1.21.13	But another example would be Outlook , or Windows Live Mail clients on the pc , you CAN re-direct the contents to another partition or internal drive .	St
+1.21.14	Once you move them from the C drive and you open Outlook or Windows Live Mail , it will give you an error message as it ca n't find them directly on the C drive .	St
+1.21.15	You close the applications and when you open them again , you will get the errors .	St
+1.21.16	Outlook , prompts you , and give you a small windows explorer so that you can point to the right folder and path .	St
+1.21.17	Windows Live mail , you have to go into settings / Maintenance / and point the program to the new destination .	St
+1.21.18	In the case of Outlook or Windows Live Mail , that data is all your email and calendar settings , so in this case we can apply the name Application Data even though it can be moved .	St
+1.21.19	Not every program is the same .	St
+1.21.20	Application Data - Used by the application only .	St
+1.21.21	Application Data - Information you save to folders within the application and is it allow by the application to be moved .	St
+1.21.22	Cheers , Geo	St
+1.22.1	I woyuld put Windows and ALL programs on an SSD ( like someone mentioned , it 's not easy to send every program you install to a HDD ) , and ALL files and folders on a HDD .	St
+1.23.1	Almost 3 years ago , I purchased a 60GB OCZ SSD to use as my system drive .	St
+1.23.2	It worked well , but was a bit small for my needs .	St
+1.23.3	Six months later , I bought a 100GB OCZ Vertex 2 drive and placed the 60GB unit in my wife 's computer .	St
+1.23.4	Here are the results of this experiment : The 60GB drive has given no problems and is still running just fine in my wife 's computer .	St
+1.23.5	Unfortunately , the 100GB drive did not work out as well .	St
+1.23.6	The first 100GB drive failed after 6 months .	St
+1.23.7	There was a 3-year warranty , so a replacement was sent in about a week .	St
+1.23.8	The second drive lasted about 5 months .	St
+1.23.9	The third lasted about two weeks , and I quit .	St
+1.23.10	I got the replacement and sold it on e-bay .	St
+1.23.11	It still had plenty of warranty left , but I did not want to keep replacing drives .	St
+1.23.12	Perhaps this experience is restricted to OCZ Vertex 2 drives , but I got gun-shy .	St
+1.23.13	Based on research , it seemed that Samsung and Intel have the most reliable drives .	St
+1.23.14	I bought a Samsung 830 128GB drive in July of 2012 and have had no trouble with it .	St
+1.23.15	Do your research , read the reviews , and make a choice on that basis .	St
+1.23.16	The speed of bootup for Windows is tremendous .	St
+1.23.17	Instead of waiting minutes to complete a booup , it only takes 25 seconds or less ( depends on your drivers and overhead ) .	St
+1.23.18	Good luck .	Polite
+1.24.1	In my separate post I shared my experience with OCZ drives .	St
+1.24.2	One driver keeps going and going after over 3 years , while another model had failure after failure till I quit using OCZ and switched to Samsung .	St
+1.24.3	Obviously , OCZ does have some good drives as exemplified by my own experience with the first drive .	St
+1.24.4	I did get a Seagate 500GB hybrid drive along the way .	St
+1.24.5	The speed of the drive was rather disapointing if you expect it to be similar to an SSD .	St
+1.24.6	However , it does perform rather nicely for a 2.5 inch hard drive .	St
+1.24.7	Have had no problems at all with the Seagate hybrid .	St
+1.24.8	In my setup , I have a Samsung 830 128GB SSD as the system drive .	St
+1.24.9	The Seagate 500GB hybrid is used for data storage , and a 1.5TB 3.5 inch WD black HD is used for archival type storage .	St
+1.24.10	All of my documents ( the myDocuments folder ) are located on the Seagate drive .	St
+1.24.11	Only program files and system are on the SSD .	St
+1.24.12	Hope this is of some use to those contemplating going to at SSD - I recommend doing so despite my early bad experience .	St
 1.24.13	Peter retired CS instructor	St
-1.25.1	I won't try to add to all the technical posting.	St
-1.25.2	I'll merely say this.	St
-1.25.3	I have five SSDs in my PC (240GB OCZ Agility 4 for Win8Pro + apps, two 80GB Intel X25M in RAID-0 for EA Origin games, two 120GB Samsung 830s in RAID-0 for Steam games) plus another four TBs on three regular platter HDs that contain my data.	St
-1.25.4	My present PC build is rock-solid reliable and faster than crap through a goose.	St
-1.25.5	Go get one or two.	St
-1.25.6	You won't be sorry.	St
-1.25.7	The only caveat is that some SSDs with Sandforce controllers are less stable than they ought to be, so research them before buying.	St
-1.25.8	Good luck, and enjoy the ridiculous speed increase!	St
-1.26.1	Sorry for replying late.	St
-1.26.2	I just wanted to say thank you, and just like you - we all have to pitch in to help others.	St
+1.25.1	I wo n't try to add to all the technical posting .	St
+1.25.2	I 'll merely say this .	St
+1.25.3	I have five SSDs in my PC ( 240GB OCZ Agility 4 for Win8Pro + apps , two 80GB Intel X25M in RAID-0 for EA Origin games , two 120GB Samsung 830s in RAID-0 for Steam games ) plus another four TBs on three regular platter HDs that contain my data .	St
+1.25.4	My present PC build is rock-solid reliable and faster than crap through a goose .	St
+1.25.5	Go get one or two .	St
+1.25.6	You wo n't be sorry .	Polite
+1.25.7	The only caveat is that some SSDs with Sandforce controllers are less stable than they ought to be , so research them before buying .	St
+1.25.8	Good luck , and enjoy the ridiculous speed increase !	Polite
+1.26.1	Sorry for replying late .	St
+1.26.2	I just wanted to say thank you , and just like you - we all have to pitch in to help others .	St
 1.26.3	George	St
-1.27.1	We got a Nintendo WII U and the instructions said not to use a flash drive for storage because the writes would burn it out.	St
-1.27.2	They told usin the instructions to use a hard drive instead.	St
-1.27.3	Should I argue?	St
-1.27.4	No.	St
-1.28.1	would turn me off totally.	Sug
-1.28.2	I can buy a whole laptop for that.	St
-1.28.3	Cost consideration alone, if a 512Gb drive were that much, would turn me off!	St
-1.28.4	You can get a Terrabyte drive for less than fifty bucks.	St
-1.28.5	It's just not worth it.	St
-1.28.6	Systems now are so fast, including the huge standard drives, that speed is not noticeable.	St
-1.28.7	I can see using an SSD in a portable device, or for long term backup where it's critical, that's it.	St
-1.28.8	I'd never use one in a standard system for the OS or anything else.	St
-1.28.9	That said, my 10 year old XP system with a CRT monitor does fine for me, so maybe I'm unusual.	St
-1.28.10	Can't stand the new flatscreens, nor Win vista, 7, or 8 either.	St
-1.28.11	And when this system finally dies, if i need a desktop, I'll probably build my own and put Linux on it anyway, therefore configuring the whole thing just the way I want it, not only hardware but software!	St
-1.28.12	As to the votes/comments not loading, it's most likely due to a cross-site scripting problem.	St
-1.28.13	Many sites allow dangerous cross-site scripting, and/or require it for certain functions to work, and newer browsers may turn some of these sites off, such as cbsi.com by default.	St
-1.28.14	I have NoScript installed and have to temporarily allow certain sites every time I go to many pages, including this one and Facebook, which now requires the use some foreign site called something like Achmed.com, so I certainly don't go there much!	St
-1.29.1	I just built my new PC, been nearly 5 years since my last, so many changes, and yet - the same rules still apply.	St
-1.29.2	SSDs are faster than spinning drives, but data bandwidth still applies, particularly for larger file operations, check what bandwidth your system supports (1.5, 3, or 6 gb/s).	St
-1.29.3	SSDs are much more reliable now but any drive can fail, if your data is important back it up, remember the 3, 2, 1 rule, 3 copies, 2 different types, 1 copy offsite.	St
-1.29.4	People may mention RAID and NAS solutions, RAID is not backup, it is redundancy, it might save data that would otherwise be lost, but don't rely on it, and NAS can be used for backup, but don't rely on it as your only backup.	St
-1.29.5	Cloud solutions, or blu-rays stored in another location (bank deposit box, with a family member etc) are good offsite options.	St
-1.29.6	Do your research, small SSDs are generally poorer than larger ones, many ranges 128gb drives do not measure up vs the same lines 256gb models.	St
-1.29.7	Budget is usually the deciding factor, but don't be fooled into false economy.	St
-1.29.8	If you need a large capacity in a laptop hybrid is probably your best choice, a simplistic split between o/s, apps, and data is fine for average users, but with some time and effort a customised split will offer better performance, the o/s will usually be on the SSD partition, but choose carefully which apps and data goes where, some apps and data will benefit more than others, consider frequency of use, the size and complexity, your music can all go onto the spinning drive partition, as can small apps you or ones you rarely use, while your favourite hi-def video might take up a lot of space, it will also play more smoothly from the SSD partition.	St
-1.29.9	My new PC is set up with 3 drives, 256gb SSD for windows and main apps, 512gb SSD for games, and 2tb spinning drive for data and large apps I use infrequently.	St
-1.29.10	The o/s drive has a backup image on the data drive, while key data is backed up to an external drive.	St
-1.29.11	Static data is also copied to blu-ray, dynamic data to cloud services (google drive, skydrive, etc).	St
-1.29.12	I noticed a number of replies included some manufacturers and models, for reference, my SSDs are Samsung 840 pros, the spinner a WD Caviar Green, if I needed more performance from my data drive I would have gone with a Caviar Black instead.	St
-1.29.13	All drives are sata 6gb, with full support from the motherboard.	St
-1.29.14	My own research showed OCZ vectors would have been good alternatives, or the latest vertex models, these are all fairly premium models though.	St
-1.29.15	Personally, if I had a laptop which supported sata 6gb and had USB 3, I would put in an 840 pro or vector 512gb and take along a large USB 3 external drive if I needed more space, if the budget doesn't stretch that far then a good hybrid, ideally with 256gb of SSD.	St
-1.29.16	To your specific question - long term reliability of SSDs is good enough for all but the most technophobic, you will be replacing your laptop long before your SSD is likely to die (exceptions can always happen).	St
-1.29.17	Performance-wise there are only a few measures, read and write speeds for small and large files being the main 4, manufacturer stated read/write figures and IOPS (a technical measurement) can be used as a guide, but do not always translate directly to actual performance.	St
-1.29.18	Use a good review site - pcper.com, toms hardware, and of course, here at c|net, to find the best choice for your budget and system, but remember to consider your systems other capabilities, the upgrade to SSD can make a big difference, but there are many other choke-points that limit your systems performance	St
-1.30.1	Dana - I always enjoy your writeups here.	St
-1.30.2	Very thorough and knowledgeable.	St
-1.30.3	Thank You.	St
-1.30.4	I've converted one laptop to SSD thus far, and have been very pleased with the results.	St
-1.30.5	I bought my 'dream' laptop last summer - an HP Pavilion m7 series.	St
-1.30.6	2.3GHz Intel Core i7 - 8Gb RAM - 1TB Hard Drive - 64 bit Windows 7.	St
-1.30.7	Nice FAST machine.	St
-1.30.8	A few months later, after researching SSD's, I decided to 'take the plunge' and go for ultimate speed - swapping out the Hard Drive for a 512GB Crucial (Micron) M4 SSD.	St
-1.30.9	At the same time, I dropped in a Kingston RAM upgrade, maxing it out to 16GB.	St
-1.30.10	I'm a Truck Driver, using a cellular 3G/4G 'data stick' on the road, and Cable Broadband via Wi-Fi at home - so I have 2 different comparisons of the difference it has made in total startup times.	St
-1.30.11	At Home - from button push, through fingerprint swipe to log-in to Windows, to having the first page open - it went from almost 3 minutes, to a consistent 35 seconds.	St
-1.30.12	On the Road - from button push, through fingerprint swipe, to manually starting and initializing the 'data stick' connection, to having the first page open - it went from almost 5 minutes to just under a minute.	St
-1.30.13	Shutdowns, either way, have dropped from a minute to under 10 seconds.	St
-1.30.14	Everything loads a LOT faster.....except for ONE program: iTunes - which still takes just as long as ever to launch.	St
-1.30.15	I ain't sure what's up with that....figure it's just some weird Apple thing.	St
-1.30.16	With the SSD, the computer runs a lot quieter and cooler - with probably a 25% improvement in battery life.	St
-1.30.17	And I've had NONE of the hangups and glitches that had previously plagued me through the years - and were likely attributable to the effects of road jolts and truck vibrations on the conventional Hard Drive.	St
-1.30.18	In fact, I've only encountered ONE glitch since installing the SSD, which probably had nothing to do with the SSD technology.	St
-1.30.19	I pulled a BIOS update from HP, while on the road - and in the installation process, it 'froze' at the point between wiping the old info and writing the new info.	St
-1.30.20	All it would do was turn on, go direct to black screen, and do nothing.	St
-1.30.21	For 4 days, till I got home.	St
-1.30.22	(Thankful I also have a smartphone that can handle my business essentials, or I'd have been in a real fix!).	St
-1.30.23	Geek Squad told me they don't do BIOS issues - so I'd have to ship it off to HP.	St
-1.30.24	They recommended switching back to the original Drive and RAM before shipping it off - so I did....then decided to try the button one more time.	St
-1.30.25	When I did, the BIOS update kicked in, finished updating like it was supposed to, and everything ran just fine - although slower, due to having the slower drive installed.	St
-1.30.26	I ran the session on the old drive - and pulled in all the updates that weren't on it (as it had been on the shelf for 4 months), so it would be that much closer to 'up to date' if I ever had to drop it in again.	St
-1.30.27	Then I switched back to the SSD and RAM upgrades, and hit the button.	St
-1.30.28	Moment of Truth, as they say.	St
-1.30.29	It took off and ran just fine - and I had my speedy baby back.	St
-1.30.30	No more problems since.	St
-1.30.31	I love the advantages of the SSD......but having been 'burned' by a few tech advances over the years, I'm now more diligent than ever in maintaining my Backups, just in case.	St
-1.30.32	Every weekend, it gets a Norton 360 full scan - and backups to a Seagate external drive, used solely for these backups from this computer.	St
-1.30.33	And in the 'worst case' catastrophic failure, I can always pop the original drive back in....up to date to last December, but that's better than losing it all.	St
-1.31.1	I have used two different Solid State Drive models in Laptops in recent years.	St
-1.31.2	The models I have used have been Intel X25-M 160 GB (in Dell Laptops) and the Intel 330 series 120 GB drives (in HP and Lenovo).	St
-1.31.3	I find Intel SSD drives to be very reliable, and the excellent &quot;Intel Solid State Drive Toolbox&quot; accurately shows both &quot;Drive Health&quot; & Estimated Life Remaining&quot;.	St
-1.31.4	Intel retail kits come with all the accessories to attach the drive inside a Desktop PC as well.	St
-1.31.5	My Intel X25-M currently in use in my Dell Vostro Laptop is getting on for 3 years old now the drive health shows 100% and life remaining shows around 90%.	St
-1.31.6	I have run various disk checking applications, and indeed there is nothing wrong with this drive after 3 years of continual use (allot of video transcoding among other things).	St
-1.31.7	The thing to worry about with Solid State drives is they are slightly thicker then the standard 2.5 inch drive, so on some Laptops where the disk bay is the slot in type they won't fit.	St
-1.31.8	Dell (home) Laptops with slot in bay are typically too narrow.	St
-1.31.9	HP and Lenovo Laptops with the slot in bay are typically ok. Also make sure that you BIOS is newer than 2008 as some old Phoenix BIOS's cannot see this drive and that can be a huge problem.	St
-1.31.10	See my Amazon review of the 330 series and comments for info on that.	St
-1.31.11	Hope this helps.	St
-1.32.1	you can use the junction command to effectively relocate any directory on one drive to any directory on a different drive.	St
-1.32.2	For example you want to keep your music on a different drive.	St
-1.32.3	Say the normal path might be c:\users\whomever\music and you want to actually store your music on a drive assigned letter M. Simply follow these steps... go to drive m with m: cd \ mkdir music Then run the following command junction c:\users\whomever\music M:\music Now copy your music to m:\music Whenever an application including windows itself looks at c:\users\whomever\music it will look at M:\music and it will be transparent that the data physically resides somewhere else.	St
-1.32.4	dir c:\users\whomever\music\*.	St
-1.32.5	* returns the same as dir M:\music\*.	St
-1.32.6	* Here is the hepl usage verbiage.	St
-1.32.7	P:\&gt;junction /?	St
-1.32.8	Junction v1.05 - Windows junction creator and reparse point viewer Copyright (C) 2000-2007 Mark Russinovich Systems Internals - http://www.sysinternals.com The first usage is for displaying reparse point information, and the second usage is for creating or deleting a NTFS junction point: usage: junction [-s] [-q] &lt;file or directory&gt; -q Don't print error messages (quiet) -s Recurse subdirectories usage: junction [-d] &lt;junction directory&gt; [&lt;junction target&gt;] -d Delete the specified junction example: junction d:\link c:\winnt	St
-1.33.1	Why not re-assign the SSD boot drive as drive D: and the Winchester (mechanical) drive as C: using Disk Management.	St
-1.33.2	During boot, hit F8 to boot from the SSD.	St
-1.33.3	Wouldn't any program installations be directed to the Winchester?	St
-1.34.1	I don't think too many readers here would think that 32GB is the largest SSD available.	St
-1.35.1	Excellent article.	St
-1.35.2	Thank you!	St
-1.35.3	I'm upgrading my home-built tower, soon, to include an SSD for the operating sytem and have been waiting for reliability to improve.	St
-1.35.4	I guess I'll just have to jump in and give it a go.	St
-1.35.5	Kind regards to all,	Polite
-1.36.1	Thank you for sharing your experience.	Polite
-1.36.2	I have a question about &quot;hibernation&quot;, are you meaning &quot;sleep&quot; ?.The reason is that I am re-booting my factory-installed SSD machine only if I need to do it, which is perhaps once a week.	St
-1.36.3	The rest of the time I let it go into &quot;sleep&quot; mode on the belief, maybe wrong, that it consumes much less write cycles.	St
-1.36.4	Please let me know.	Sug
-1.36.5	Thanks.	St
-1.36.6	FYI my machine is a Toshiba Portege Z930 ultrabook with 128GB SSD, it is equipped with W7 and, save for all system files, I am storing all other files, including utilities, on a secondary 1TGo WD drive.	St
-1.37.1	Make sure you have either a laptop with a battery or a UPS.	St
-1.37.2	The only shortcoming in normal use of a SSD is the data is far more likely to be corrupted by a power failure than a traditional hard drive.	St
-1.37.3	But I wouldn't (and haven't) let this be a stumbling block.	St
-1.37.4	I just no longer run my laptop without some form of backup power.	St
-1.37.5	Most of the time, that just means leaving the battery installed even if I am using AC power.	St
-1.37.6	Windows 7 and 8 automatically take care of SSD management.	St
-1.37.7	You don't have to worry about TRIM or any other esoteric routines to protect your investment.	St
-1.37.8	I fully expect current model SSDs to last as long as I will be using the computer in which they are installed.	St
-1.37.9	As for the cost, if you are replacing an existing traditional SATA hard drive, you may not need the same size drive when you switch to a SSD.	St
-1.37.10	Traditional hard drives need a fairly large reserve to perform tasks like defragging.	St
-1.37.11	Since you don't have to, and in fact, should not perform these spinning disk maintenance chores on a SSD, most users can easily get by with a smaller capacity SSD.	St
-1.37.12	For users with larger on-line storage needs and smaller wallets, do consider the hybrid drives.	St
-1.37.13	While not quite as fast as a SSD, they are still typically much faster than a traditional hard drive; especially at boot time.	St
-1.37.14	And finally, most of the people who are disappointed with SSD performance simply don't understand that all you are doing is speeding reads and writes from storage.	St
-1.37.15	If your PC seems slow when running an already loaded application, your application will startup faster with a SSD, but it isn't going to run any faster.	St
-1.37.16	So before plopping down upgrade money for a SSD you really need to ask yourself why you are dissatisfied with current performance.	St
-1.38.1	Since you built your own tower you probably already know this..but I 'll mention it just to be sure.	St
-1.38.2	Prior to and ending in 2007 a popular connection cable for the HD was ATA/IDE type vs the now standard SATA.	St
-1.38.3	Please verify your connection before you buy.	St
-1.38.4	If the former type you may want to consider bringing your entire rig inline with newer technology although not required to enjoy the benefits of a SSD.	St
-1.38.5	Have fun with your DiY project.	St
-1.39.1	SSD vary in failure frequency and although the spec on read/write life has increased their still is a limit and the limit is even lower on the new Samsung 840 over the 830 due to the NAND technology they use.	St
-1.39.2	A regular HD will typically give plenty of warning of failure or problems.	St
-1.39.3	Whereas an SSD can stop cold turkey and they is very little that can be done.	St
-1.39.4	Data is all gone.	St
-1.39.5	Anyone using one should or rather must have a drive the backup to and image the boot drive to often.	St
-1.39.6	Failure to do so will get you.	St
-1.39.7	Its a matter of when not if.	St
-1.39.8	There is little redundancy in an SSD most don't play with SMART technology that HD have.	St
-1.39.9	Sandforce controllers which are widely used all be it with different firmware are amonst the most troublesome.	St
-1.39.10	Marvel controller are consistantly more reliable but don't have some of the high performance numbers but its results are consistant.	St
-1.39.11	Reliability is my first criteria for storage and some backup such via eSATA is fast and reliable to external drives in the Terabytes is simple to keep photo's music and images of the boot SSD on in the event of faiure a new drive can be rebuilt fairly quickly.	St
-1.39.12	At least in comparision to a clean install and updates from MS and app installs which all easily will take a full day if not more.	St
-1.39.13	The image solution is a few hours typically depending largely on the interface used.	St
-1.39.14	With USB 3.0 being new and machines with troublesome drivers I would not put too much faith in that interface when it comes to recovering and image or validating that corruption had not occurred.	St
-1.39.15	This is of course my opinion and have been in the industry for decades.	St
-1.40.1	First, let me say that I tried to be an early adopter of the technology.	St
-1.40.2	I purchased a system 4 years ago and thought an SSD would be the way to go.	St
-1.40.3	After multiple drive failures, I switched back to a conventional hard drive.	St
-1.40.4	On all occasions, I received replacement SSD drives and had to reload the operating system and other programs I had.	St
-1.40.5	I had always backed up my personal files and documents on a raid-enabled conventional drive.	St
-1.40.6	It was during the time I was using Vista but I don't think that had anything to do with it as many others I know have used Vista without any problems.	St
-1.40.7	After giving up on SSD drives, I received a regular hard drive from the computer manufacturer and installed it as well as upgraded to Windows 7 at the same time.	St
-1.40.8	I have been happy since then.	St
-1.40.9	I have seen the newer drives and lower prices but have shied away due to my past experiences.	St
-1.41.1	My Intel SSD included a utility that actually tells you a percentage of remaining life.	St
-1.41.2	I'm sure it's a projection, and I have over 98% left after over a year of heavy use.	St
-1.41.3	I am curious to see what happens over time.	St
-1.41.4	Seems to make sense that this would work pretty well, as flash tends to tolerate &quot;X&quot; number of writes.	St
-1.41.5	I'll still bet it'll outlast the mechanical drives on average.	St
-1.42.1	I saw a posting on redirects that seemed somewhat complicated.	St
-1.42.2	Why won't a setup like this work and be much simpler?	St
+1.27.1	We got a Nintendo WII U and the instructions said not to use a flash drive for storage because the writes would burn it out .	St
+1.27.2	They told usin the instructions to use a hard drive instead .	St
+1.27.3	Should I argue ?	Ques
+1.27.4	No .	St
+1.28.1	would turn me off totally .	St
+1.28.2	I can buy a whole laptop for that .	St
+1.28.3	Cost consideration alone , if a 512Gb drive were that much , would turn me off !	St
+1.28.4	You can get a Terrabyte drive for less than fifty bucks .	St
+1.28.5	It 's just not worth it .	St
+1.28.6	Systems now are so fast , including the huge standard drives , that speed is not noticeable .	St
+1.28.7	I can see using an SSD in a portable device , or for long term backup where it 's critical , that 's it .	St
+1.28.8	I 'd never use one in a standard system for the OS or anything else .	St
+1.28.9	That said , my 10 year old XP system with a CRT monitor does fine for me , so maybe I 'm unusual .	St
+1.28.10	Ca n't stand the new flatscreens , nor Win vista , 7 , or 8 either .	St
+1.28.11	And when this system finally dies , if i need a desktop , I 'll probably build my own and put Linux on it anyway , therefore configuring the whole thing just the way I want it , not only hardware but software !	St
+1.28.12	As to the votes/comments not loading , it 's most likely due to a cross-site scripting problem .	St
+1.28.13	Many sites allow dangerous cross-site scripting , and/or require it for certain functions to work , and newer browsers may turn some of these sites off , such as cbsi.com by default .	St
+1.28.14	I have NoScript installed and have to temporarily allow certain sites every time I go to many pages , including this one and Facebook , which now requires the use some foreign site called something like Achmed.com , so I certainly do n't go there much !	St
+1.29.1	I just built my new PC , been nearly 5 years since my last , so many changes , and yet - the same rules still apply .	St
+1.29.2	SSDs are faster than spinning drives , but data bandwidth still applies , particularly for larger file operations , check what bandwidth your system supports ( 1.5 , 3 , or 6 gb/s ) .	St
+1.29.3	SSDs are much more reliable now but any drive can fail , if your data is important back it up , remember the 3 , 2 , 1 rule , 3 copies , 2 different types , 1 copy offsite .	St
+1.29.4	People may mention RAID and NAS solutions , RAID is not backup , it is redundancy , it might save data that would otherwise be lost , but do n't rely on it , and NAS can be used for backup , but do n't rely on it as your only backup .	St
+1.29.5	Cloud solutions , or blu-rays stored in another location ( bank deposit box , with a family member etc ) are good offsite options .	St
+1.29.6	Do your research , small SSDs are generally poorer than larger ones , many ranges 128gb drives do not measure up vs the same lines 256gb models .	St
+1.29.7	Budget is usually the deciding factor , but do n't be fooled into false economy .	St
+1.29.8	If you need a large capacity in a laptop hybrid is probably your best choice , a simplistic split between o/s , apps , and data is fine for average users , but with some time and effort a customised split will offer better performance , the o/s will usually be on the SSD partition , but choose carefully which apps and data goes where , some apps and data will benefit more than others , consider frequency of use , the size and complexity , your music can all go onto the spinning drive partition , as can small apps you or ones you rarely use , while your favourite hi-def video might take up a lot of space , it will also play more smoothly from the SSD partition .	St
+1.29.9	My new PC is set up with 3 drives , 256gb SSD for windows and main apps , 512gb SSD for games , and 2tb spinning drive for data and large apps I use infrequently .	St
+1.29.10	The o/s drive has a backup image on the data drive , while key data is backed up to an external drive .	St
+1.29.11	Static data is also copied to blu-ray , dynamic data to cloud services ( google drive , skydrive , etc ) .	St
+1.29.12	I noticed a number of replies included some manufacturers and models , for reference , my SSDs are Samsung 840 pros , the spinner a WD Caviar Green , if I needed more performance from my data drive I would have gone with a Caviar Black instead .	St
+1.29.13	All drives are sata 6gb , with full support from the motherboard .	St
+1.29.14	My own research showed OCZ vectors would have been good alternatives , or the latest vertex models , these are all fairly premium models though .	St
+1.29.15	Personally , if I had a laptop which supported sata 6gb and had USB 3 , I would put in an 840 pro or vector 512gb and take along a large USB 3 external drive if I needed more space , if the budget does n't stretch that far then a good hybrid , ideally with 256gb of SSD .	St
+1.29.16	To your specific question - long term reliability of SSDs is good enough for all but the most technophobic , you will be replacing your laptop long before your SSD is likely to die ( exceptions can always happen ) .	St
+1.29.17	Performance-wise there are only a few measures , read and write speeds for small and large files being the main 4 , manufacturer stated read/write figures and IOPS ( a technical measurement ) can be used as a guide , but do not always translate directly to actual performance .	St
+1.29.18	Use a good review site - pcper.com , toms hardware , and of course , here at c|net , to find the best choice for your budget and system , but remember to consider your systems other capabilities , the upgrade to SSD can make a big difference , but there are many other choke-points that limit your systems performance	St
+1.30.1	Dana - I always enjoy your writeups here .	St
+1.30.2	Very thorough and knowledgeable .	St
+1.30.3	Thank You .	St
+1.30.4	I 've converted one laptop to SSD thus far , and have been very pleased with the results .	St
+1.30.5	I bought my 'dream ' laptop last summer - an HP Pavilion m7 series .	St
+1.30.6	2.3GHz Intel Core i7 - 8Gb RAM - 1TB Hard Drive - 64 bit Windows 7 .	St
+1.30.7	Nice FAST machine .	St
+1.30.8	A few months later , after researching SSD 's , I decided to 'take the plunge ' and go for ultimate speed - swapping out the Hard Drive for a 512GB Crucial ( Micron ) M4 SSD .	St
+1.30.9	At the same time , I dropped in a Kingston RAM upgrade , maxing it out to 16GB .	St
+1.30.10	I 'm a Truck Driver , using a cellular 3G/4G 'data stick ' on the road , and Cable Broadband via Wi-Fi at home - so I have 2 different comparisons of the difference it has made in total startup times .	St
+1.30.11	At Home - from button push , through fingerprint swipe to log-in to Windows , to having the first page open - it went from almost 3 minutes , to a consistent 35 seconds .	St
+1.30.12	On the Road - from button push , through fingerprint swipe , to manually starting and initializing the 'data stick ' connection , to having the first page open - it went from almost 5 minutes to just under a minute .	St
+1.30.13	Shutdowns , either way , have dropped from a minute to under 10 seconds .	St
+1.30.14	Everything loads a LOT faster ... ..except for ONE program : iTunes - which still takes just as long as ever to launch .	St
+1.30.15	I ai n't sure what 's up with that ... .figure it 's just some weird Apple thing .	St
+1.30.16	With the SSD , the computer runs a lot quieter and cooler - with probably a 25 % improvement in battery life .	St
+1.30.17	And I 've had NONE of the hangups and glitches that had previously plagued me through the years - and were likely attributable to the effects of road jolts and truck vibrations on the conventional Hard Drive .	St
+1.30.18	In fact , I 've only encountered ONE glitch since installing the SSD , which probably had nothing to do with the SSD technology .	St
+1.30.19	I pulled a BIOS update from HP , while on the road - and in the installation process , it 'froze ' at the point between wiping the old info and writing the new info .	St
+1.30.20	All it would do was turn on , go direct to black screen , and do nothing .	St
+1.30.21	For 4 days , till I got home .	St
+1.30.22	( Thankful I also have a smartphone that can handle my business essentials , or I 'd have been in a real fix ! ) .	St
+1.30.23	Geek Squad told me they do n't do BIOS issues - so I 'd have to ship it off to HP .	St
+1.30.24	They recommended switching back to the original Drive and RAM before shipping it off - so I did ... .then decided to try the button one more time .	St
+1.30.25	When I did , the BIOS update kicked in , finished updating like it was supposed to , and everything ran just fine - although slower , due to having the slower drive installed .	St
+1.30.26	I ran the session on the old drive - and pulled in all the updates that were n't on it ( as it had been on the shelf for 4 months ) , so it would be that much closer to 'up to date ' if I ever had to drop it in again .	St
+1.30.27	Then I switched back to the SSD and RAM upgrades , and hit the button .	St
+1.30.28	Moment of Truth , as they say .	St
+1.30.29	It took off and ran just fine - and I had my speedy baby back .	St
+1.30.30	No more problems since .	St
+1.30.31	I love the advantages of the SSD ... ... but having been 'burned ' by a few tech advances over the years , I 'm now more diligent than ever in maintaining my Backups , just in case .	St
+1.30.32	Every weekend , it gets a Norton 360 full scan - and backups to a Seagate external drive , used solely for these backups from this computer .	St
+1.30.33	And in the 'worst case ' catastrophic failure , I can always pop the original drive back in ... .up to date to last December , but that 's better than losing it all .	St
+1.31.1	I have used two different Solid State Drive models in Laptops in recent years .	St
+1.31.2	The models I have used have been Intel X25-M 160 GB ( in Dell Laptops ) and the Intel 330 series 120 GB drives ( in HP and Lenovo ) .	St
+1.31.3	I find Intel SSD drives to be very reliable , and the excellent & quot ; Intel Solid State Drive Toolbox & quot ; accurately shows both & quot ; Drive Health & quot ; & Estimated Life Remaining & quot ; .	St
+1.31.4	Intel retail kits come with all the accessories to attach the drive inside a Desktop PC as well .	St
+1.31.5	My Intel X25-M currently in use in my Dell Vostro Laptop is getting on for 3 years old now the drive health shows 100 % and life remaining shows around 90 % .	St
+1.31.6	I have run various disk checking applications , and indeed there is nothing wrong with this drive after 3 years of continual use ( allot of video transcoding among other things ) .	St
+1.31.7	The thing to worry about with Solid State drives is they are slightly thicker then the standard 2.5 inch drive , so on some Laptops where the disk bay is the slot in type they wo n't fit .	St
+1.31.8	Dell ( home ) Laptops with slot in bay are typically too narrow .	St
+1.31.9	HP and Lenovo Laptops with the slot in bay are typically ok. Also make sure that you BIOS is newer than 2008 as some old Phoenix BIOS 's can not see this drive and that can be a huge problem .	St
+1.31.10	See my Amazon review of the 330 series and comments for info on that .	St
+1.31.11	Hope this helps .	St
+1.32.1	you can use the junction command to effectively relocate any directory on one drive to any directory on a different drive .	St
+1.32.2	For example you want to keep your music on a different drive .	St
+1.32.3	Say the normal path might be c : \users\whomever\music and you want to actually store your music on a drive assigned letter M. Simply follow these steps ... go to drive m with m : cd \ mkdir music Then run the following command junction c : \users\whomever\music M : \music Now copy your music to m : \music Whenever an application including windows itself looks at c : \users\whomever\music it will look at M : \music and it will be transparent that the data physically resides somewhere else .	St
+1.32.4	dir c : \users\whomever\music\* .	St
+1.32.5	* returns the same as dir M : \music\* .	St
+1.32.6	* Here is the hepl usage verbiage .	St
+1.32.7	P : \ & gt ; junction / ?	Ques
+1.32.8	Junction v1.05 - Windows junction creator and reparse point viewer Copyright ( C ) 2000-2007 Mark Russinovich Systems Internals - http : //www.sysinternals.com The first usage is for displaying reparse point information , and the second usage is for creating or deleting a NTFS junction point : usage : junction [ -s ] [ -q ] & lt ; file or directory & gt ; -q Do n't print error messages ( quiet ) -s Recurse subdirectories usage : junction [ -d ] & lt ; junction directory & gt ; [ & lt ; junction target & gt ; ] -d Delete the specified junction example : junction d : \link c : \winnt	St
+1.33.1	Why not re-assign the SSD boot drive as drive D : and the Winchester ( mechanical ) drive as C : using Disk Management .	St
+1.33.2	During boot , hit F8 to boot from the SSD .	St
+1.33.3	Would n't any program installations be directed to the Winchester ?	Ques
+1.34.1	I do n't think too many readers here would think that 32GB is the largest SSD available .	St
+1.35.1	Excellent article .	St
+1.35.2	Thank you !	St
+1.35.3	I 'm upgrading my home-built tower , soon , to include an SSD for the operating sytem and have been waiting for reliability to improve .	St
+1.35.4	I guess I 'll just have to jump in and give it a go .	St
+1.35.5	Kind regards to all ,	St
+1.36.1	Thank you for sharing your experience .	Polite
+1.36.2	I have a question about & quot ; hibernation & quot ; , are you meaning & quot ; sleep & quot ; ? .The reason is that I am re-booting my factory-installed SSD machine only if I need to do it , which is perhaps once a week .	St
+1.36.3	The rest of the time I let it go into & quot ; sleep & quot ; mode on the belief , maybe wrong , that it consumes much less write cycles .	St
+1.36.4	Please let me know .	Sug
+1.36.5	Thanks .	Polite
+1.36.6	FYI my machine is a Toshiba Portege Z930 ultrabook with 128GB SSD , it is equipped with W7 and , save for all system files , I am storing all other files , including utilities , on a secondary 1TGo WD drive .	St
+1.37.1	Make sure you have either a laptop with a battery or a UPS .	St
+1.37.2	The only shortcoming in normal use of a SSD is the data is far more likely to be corrupted by a power failure than a traditional hard drive .	St
+1.37.3	But I would n't ( and have n't ) let this be a stumbling block .	St
+1.37.4	I just no longer run my laptop without some form of backup power .	St
+1.37.5	Most of the time , that just means leaving the battery installed even if I am using AC power .	St
+1.37.6	Windows 7 and 8 automatically take care of SSD management .	St
+1.37.7	You do n't have to worry about TRIM or any other esoteric routines to protect your investment .	Ques
+1.37.8	I fully expect current model SSDs to last as long as I will be using the computer in which they are installed .	St
+1.37.9	As for the cost , if you are replacing an existing traditional SATA hard drive , you may not need the same size drive when you switch to a SSD .	St
+1.37.10	Traditional hard drives need a fairly large reserve to perform tasks like defragging .	St
+1.37.11	Since you do n't have to , and in fact , should not perform these spinning disk maintenance chores on a SSD , most users can easily get by with a smaller capacity SSD .	St
+1.37.12	For users with larger on-line storage needs and smaller wallets , do consider the hybrid drives .	St
+1.37.13	While not quite as fast as a SSD , they are still typically much faster than a traditional hard drive ; especially at boot time .	St
+1.37.14	And finally , most of the people who are disappointed with SSD performance simply do n't understand that all you are doing is speeding reads and writes from storage .	St
+1.37.15	If your PC seems slow when running an already loaded application , your application will startup faster with a SSD , but it is n't going to run any faster .	St
+1.37.16	So before plopping down upgrade money for a SSD you really need to ask yourself why you are dissatisfied with current performance .	St
+1.38.1	Since you built your own tower you probably already know this..but I 'll mention it just to be sure .	St
+1.38.2	Prior to and ending in 2007 a popular connection cable for the HD was ATA/IDE type vs the now standard SATA .	St
+1.38.3	Please verify your connection before you buy .	Sug
+1.38.4	If the former type you may want to consider bringing your entire rig inline with newer technology although not required to enjoy the benefits of a SSD .	St
+1.38.5	Have fun with your DiY project .	St
+1.39.1	SSD vary in failure frequency and although the spec on read/write life has increased their still is a limit and the limit is even lower on the new Samsung 840 over the 830 due to the NAND technology they use .	St
+1.39.2	A regular HD will typically give plenty of warning of failure or problems .	St
+1.39.3	Whereas an SSD can stop cold turkey and they is very little that can be done .	St
+1.39.4	Data is all gone .	St
+1.39.5	Anyone using one should or rather must have a drive the backup to and image the boot drive to often .	St
+1.39.6	Failure to do so will get you .	St
+1.39.7	Its a matter of when not if .	St
+1.39.8	There is little redundancy in an SSD most do n't play with SMART technology that HD have .	St
+1.39.9	Sandforce controllers which are widely used all be it with different firmware are amonst the most troublesome .	St
+1.39.10	Marvel controller are consistantly more reliable but do n't have some of the high performance numbers but its results are consistant .	St
+1.39.11	Reliability is my first criteria for storage and some backup such via eSATA is fast and reliable to external drives in the Terabytes is simple to keep photo 's music and images of the boot SSD on in the event of faiure a new drive can be rebuilt fairly quickly .	St
+1.39.12	At least in comparision to a clean install and updates from MS and app installs which all easily will take a full day if not more .	St
+1.39.13	The image solution is a few hours typically depending largely on the interface used .	St
+1.39.14	With USB 3.0 being new and machines with troublesome drivers I would not put too much faith in that interface when it comes to recovering and image or validating that corruption had not occurred .	St
+1.39.15	This is of course my opinion and have been in the industry for decades .	St
+1.40.1	First , let me say that I tried to be an early adopter of the technology .	St
+1.40.2	I purchased a system 4 years ago and thought an SSD would be the way to go .	St
+1.40.3	After multiple drive failures , I switched back to a conventional hard drive .	St
+1.40.4	On all occasions , I received replacement SSD drives and had to reload the operating system and other programs I had .	St
+1.40.5	I had always backed up my personal files and documents on a raid-enabled conventional drive .	St
+1.40.6	It was during the time I was using Vista but I do n't think that had anything to do with it as many others I know have used Vista without any problems .	St
+1.40.7	After giving up on SSD drives , I received a regular hard drive from the computer manufacturer and installed it as well as upgraded to Windows 7 at the same time .	St
+1.40.8	I have been happy since then .	St
+1.40.9	I have seen the newer drives and lower prices but have shied away due to my past experiences .	St
+1.41.1	My Intel SSD included a utility that actually tells you a percentage of remaining life .	St
+1.41.2	I 'm sure it 's a projection , and I have over 98 % left after over a year of heavy use .	St
+1.41.3	I am curious to see what happens over time .	St
+1.41.4	Seems to make sense that this would work pretty well , as flash tends to tolerate & quot ; X & quot ; number of writes .	St
+1.41.5	I 'll still bet it 'll outlast the mechanical drives on average .	St
+1.42.1	I saw a posting on redirects that seemed somewhat complicated .	St
+1.42.2	Why wo n't a setup like this work and be much simpler ?	Ques
 1.42.3	?	Ques
-1.43.1	George, Sorry, your information is not correct, on two accounts.	St
-1.43.2	First of all many people keep data on their desktops, whether it is good to do so or not.	St
-1.43.3	Since the desktop is included in the User folder now and so should be backed up with everything else in the folder it should be no problem.	St
-1.43.4	I myself have about 50 gig.	St
-1.43.5	on my desktop.	St
-1.43.6	Secondly, I have been building computers for a while now with an SSD OS drive and a data SATA drive and I do include the 'desktop' folder on the SATA drive using the method you outline.	St
-1.43.7	I have never had a problem.	St
-1.43.8	I have it that way on my computer as well.	St
+1.43.1	George , Sorry , your information is not correct , on two accounts .	St
+1.43.2	First of all many people keep data on their desktops , whether it is good to do so or not .	St
+1.43.3	Since the desktop is included in the User folder now and so should be backed up with everything else in the folder it should be no problem .	St
+1.43.4	I myself have about 50 gig .	St
+1.43.5	on my desktop .	St
+1.43.6	Secondly , I have been building computers for a while now with an SSD OS drive and a data SATA drive and I do include the 'desktop ' folder on the SATA drive using the method you outline .	St
+1.43.7	I have never had a problem .	St
+1.43.8	I have it that way on my computer as well .	St
 1.43.9	Just thought you might like to know .	St
-1.44.1	I have a late 2007 MBP 2.2 GHz Intel Core 2 Duo with an upgraded 4 GB 667 MHz DDR2 SDRAM and an upgraded 500 GB WDC drive which is running fine but when I'm running video files this laptop is cooking at sometimes 200 degrees Fahrenheit with the fan running at 5000-6000 rpm.	St
-1.44.2	I often have this laptop sitting on my legs and needless to say it gets pretty uncomfortable unless I put a pillow or something between the bottom of my MPB and my legs, so I was thinking of replacing my HD with an SSD.	St
-1.44.3	However, I don't know what I would need to do so and was wondering if you happened to know what I would need (or if I need anything) other than the SSD.	St
-1.44.4	I currently only use about 185 GB of this drive so I'm figuring I could probably easily get away with a 256GB replacement.	St
-1.44.5	Do you have any recommendations or tips on where I need to start?	St
-1.44.6	If I lived close to a Apple Store I'd go in and visit them but unfortunately the nearest one is about 100 miles away - and while I had to do that once to have them replace my video card (which fortunately was under warranty) I don't like to make that trip often because that's a $50 bill in just gas alone, not to mention the time it takes.	St
-1.44.7	You can also contact me at roy.watts@gmail.com.	St
-1.45.1	Sounds like a bad idea as that would block air flow and cooling.	St
-1.45.2	Thanks for sharing this as I always wonder why I get so much fuzz out of the insides of laptops.	St
+1.44.1	I have a late 2007 MBP 2.2 GHz Intel Core 2 Duo with an upgraded 4 GB 667 MHz DDR2 SDRAM and an upgraded 500 GB WDC drive which is running fine but when I 'm running video files this laptop is cooking at sometimes 200 degrees Fahrenheit with the fan running at 5000-6000 rpm .	St
+1.44.2	I often have this laptop sitting on my legs and needless to say it gets pretty uncomfortable unless I put a pillow or something between the bottom of my MPB and my legs , so I was thinking of replacing my HD with an SSD .	St
+1.44.3	However , I do n't know what I would need to do so and was wondering if you happened to know what I would need ( or if I need anything ) other than the SSD .	St
+1.44.4	I currently only use about 185 GB of this drive so I 'm figuring I could probably easily get away with a 256GB replacement .	St
+1.44.5	Do you have any recommendations or tips on where I need to start ?	Ques
+1.44.6	If I lived close to a Apple Store I 'd go in and visit them but unfortunately the nearest one is about 100 miles away - and while I had to do that once to have them replace my video card ( which fortunately was under warranty ) I do n't like to make that trip often because that 's a $ 50 bill in just gas alone , not to mention the time it takes .	St
+1.44.7	You can also contact me at roy.watts @ gmail.com .	St
+1.45.1	Sounds like a bad idea as that would block air flow and cooling .	St
+1.45.2	Thanks for sharing this as I always wonder why I get so much fuzz out of the insides of laptops .	St
 1.45.3	Bob	St
-1.46.1	G'Day JanitorMan.	St
-1.46.2	It would appear you have not as yet converted to running at least a small(ish) SSD as your boot drive, in which case your statement 'Systems now are so fast, including the huge standard drives, that speed is not noticeable.'	St
-1.46.3	is inaccurate.	St
-1.46.4	Having recently replaced ALL C: drives in my house with 128GB SSD's (Intel) I can assure you they *DO* make a huge speed difference - especially if you are running XP.	St
-1.46.5	As an example, one seriously old (Pentium P1) PC here reduced boot-up times from 3+ minutes, to under 20 seconds.	St
-1.46.6	My wife was / is using this PC, and she would switch it on in the morning, then go put her makeup on before going to work, then come back later to find that XP was finally running.	St
-1.46.7	With the SSD, it is so quick now, she doesn't have to wait (very long) at all.	St
-1.46.8	I suggest you at least TRY an SSD... You may be pleasantly surprised.	St
-1.46.9	Regards, Greg Hudson.	St
+1.46.1	G'Day JanitorMan .	St
+1.46.2	It would appear you have not as yet converted to running at least a small ( ish ) SSD as your boot drive , in which case your statement 'Systems now are so fast , including the huge standard drives , that speed is not noticeable . '	St
+1.46.3	is inaccurate .	St
+1.46.4	Having recently replaced ALL C : drives in my house with 128GB SSD 's ( Intel ) I can assure you they *DO* make a huge speed difference - especially if you are running XP .	St
+1.46.5	As an example , one seriously old ( Pentium P1 ) PC here reduced boot-up times from 3+ minutes , to under 20 seconds .	St
+1.46.6	My wife was / is using this PC , and she would switch it on in the morning , then go put her makeup on before going to work , then come back later to find that XP was finally running .	St
+1.46.7	With the SSD , it is so quick now , she does n't have to wait ( very long ) at all .	St
+1.46.8	I suggest you at least TRY an SSD ... You may be pleasantly surprised .	St
+1.46.9	Regards , Greg Hudson .	St
 1.46.10	www.hudsoft.com	St
-1.47.1	Bob, actually, it's a small fat pillow that primarily just elevates the device and balances precariously above my legs while sitting in my LazyBoy and it doesn't in any way block the vents which are in the rear at the hinge actually in a MBP.	St
-1.47.2	And I know what you are talking about when you are talking about fuzz because I've dug out a lot of that crap myself when opening up laptops and desktops.	St
-1.47.3	Surprisingly when I opened my MBP to replace my failed hard drive though (after 4 years of service) it had very little fuzz or lint in it at all.	St
-1.47.4	Now, if this had been a WINDERS machine that would have been an entirely different story.	St
-1.48.1	If the SSD was truly reliable, we should be able to treat it like a true hard drive.	St
-1.48.2	It should not make a bit of difference whether we did or did not do hybernation daily.	St
-1.48.3	Suppose we do it once or twice a day, I would still expect the SSD to not fail in the 5 years of regular use.	St
-1.48.4	By year end, you should expect composite hard drives with built-in SSD.	St
-1.48.5	Let us who are worried about insipient failures wait to be second into the market.	St
-1.49.1	Upgrading to a SSD will definitely reduce the heat build up when using your 2007 MBP regardless of what you are doing.	St
-1.49.2	However I'm not a video editor so I can't give you much advice regarding the type of video files you are processing and what effect they have on your MBP as different processing programs require the use of varying resources.	St
-1.49.3	I will suggest that you off load your video files to a secondary drive for processing and store only the finished product on the SSD.	Sug
-1.49.4	Remember SSD's aren't the best choice for heavy video editing.	St
-1.49.5	Better still...you can purchase a HD enclosure for your WDC Drive and plug it into a USB port on your MBP to continue your video processing which would eliminate having to move a bunch of files to a new drive.	St
-1.49.6	Also, if you can get your hands on a copy upgrade the OS to Snow Leopard (on the WDC and SSD) which I believe may be as far as you can go with your model.	St
-1.49.7	Finally, even though you claim that the pillow you use is not intrusive I still recommend avoiding the use of anything that may have even a remote possibility of interferring with your MBP's airflow.	St
-1.49.8	There are some lap coolers designed for your model that you might consider if you must use your MBP in your lap.	St
-1.49.9	Good luck!	St
+1.47.1	Bob , actually , it 's a small fat pillow that primarily just elevates the device and balances precariously above my legs while sitting in my LazyBoy and it does n't in any way block the vents which are in the rear at the hinge actually in a MBP .	St
+1.47.2	And I know what you are talking about when you are talking about fuzz because I 've dug out a lot of that crap myself when opening up laptops and desktops .	St
+1.47.3	Surprisingly when I opened my MBP to replace my failed hard drive though ( after 4 years of service ) it had very little fuzz or lint in it at all .	St
+1.47.4	Now , if this had been a WINDERS machine that would have been an entirely different story .	St
+1.48.1	If the SSD was truly reliable , we should be able to treat it like a true hard drive .	St
+1.48.2	It should not make a bit of difference whether we did or did not do hybernation daily .	St
+1.48.3	Suppose we do it once or twice a day , I would still expect the SSD to not fail in the 5 years of regular use .	St
+1.48.4	By year end , you should expect composite hard drives with built-in SSD .	St
+1.48.5	Let us who are worried about insipient failures wait to be second into the market .	St
+1.49.1	Upgrading to a SSD will definitely reduce the heat build up when using your 2007 MBP regardless of what you are doing .	St
+1.49.2	However I 'm not a video editor so I ca n't give you much advice regarding the type of video files you are processing and what effect they have on your MBP as different processing programs require the use of varying resources .	St
+1.49.3	I will suggest that you off load your video files to a secondary drive for processing and store only the finished product on the SSD .	Sug
+1.49.4	Remember SSD 's are n't the best choice for heavy video editing .	St
+1.49.5	Better still ... you can purchase a HD enclosure for your WDC Drive and plug it into a USB port on your MBP to continue your video processing which would eliminate having to move a bunch of files to a new drive .	St
+1.49.6	Also , if you can get your hands on a copy upgrade the OS to Snow Leopard ( on the WDC and SSD ) which I believe may be as far as you can go with your model .	St
+1.49.7	Finally , even though you claim that the pillow you use is not intrusive I still recommend avoiding the use of anything that may have even a remote possibility of interferring with your MBP 's airflow .	St
+1.49.8	There are some lap coolers designed for your model that you might consider if you must use your MBP in your lap .	St
+1.49.9	Good luck !	Polite
 1.49.10	Together Everyone Achieves More	St
-1.50.1	I was just on HP's website.	St
-1.50.2	They have applications you can run on your PC which should calculate when you are coming to the end-of-life on your SSD (maximum number of write cycles).	St
-1.50.3	So, it that is worrying you, there are apps out there to give you fair warning.	St
-1.50.4	Check out CNET's download site.	St
-1.50.5	I thought I saw some there too.	St
-1.50.6	With fewer moving parts, SSDs should last a long time but you need to look up the number of write cycles when comparing SSDs in terms of brands and models.	St
-1.50.7	The other suggestion is to make sure you have recent firmware in the drive, especially if you buy a drive used.	St
-1.50.8	But that raises another question: if you buy a used SSD, how many write cycles would it have on it left?	St
-1.51.1	SSD drives have a limited lifespan that is built into the drive (part of the technology).	St
-1.51.2	It is measured in &quot;WRITE CYCLES&quot;.	St
-1.51.3	It has nothing to do with age except that the older the drive, the more write cycles are usually used up.	St
-1.51.4	Reliability would be MTBF (mean time between failures) and has nothing to do with this expiration period.	St
-1.51.5	It's like how long your house will remain standing vs. when your lease runs out, if that makes any sense.	St
-1.52.1	The issue I think you might have hit on the EARLY SSD drives was the controller issues with space not being returned when you delete files.	St
-1.52.2	I think I said this in another post.	St
-1.52.3	If you delete a 40 GB file (for example) you expect to have an additional 40 GB of free space.	St
-1.52.4	Windows will tell you that you have 40 GB of extra space.	St
-1.52.5	But then, you suddenly run out of space becuase, although Windows says you have space, the drive does not release/re-use it.	St
-1.52.6	I had this problem with someone's laptop and kept telling the user that he was out of space when he said he had plenty.	St
-1.52.7	The 65 GB drive ran like cr6p when he turned it back in.	St
-1.52.8	I loaded the latest firmware and now it runs like a champ.	St
-1.52.9	This was a problem only with older drives so, if anyone sees some problem like this, with a MAJOR slowdown issue, my suggestion is to upgrade the firmware from the manufacturers (drive mfg) website.	St
-1.52.10	I'd go out and give it another try.	Sug
-1.53.1	Now that solid-state drives ar coming back down in worth, i'm thinking ofswapping the Winchester drive I even have in my portable computer for a 256 GB solid-statedrive.	St
-1.53.2	However, I even have scan within the past that these drives use flashtechnology and this technology is barely smart for an oversized however finitenumber of write requests before it starts to fail.	St
-1.53.3	Since some files,such as disc space, ar used pretty heavily, is semipermanent responsiblenessgoing to be associate issue?	St
-1.53.4	supported this concern, ar there any instanceswhen associate SSD is not recommended?	St
-1.53.5	conjointly, ar there any performance specsthat we must always contemplate whereas selecting a solid-state drive?	St
-1.53.6	Thanks forany suggestions.	St
+1.50.1	I was just on HP 's website .	St
+1.50.2	They have applications you can run on your PC which should calculate when you are coming to the end-of-life on your SSD ( maximum number of write cycles ) .	St
+1.50.3	So , it that is worrying you , there are apps out there to give you fair warning .	St
+1.50.4	Check out CNET 's download site .	St
+1.50.5	I thought I saw some there too .	St
+1.50.6	With fewer moving parts , SSDs should last a long time but you need to look up the number of write cycles when comparing SSDs in terms of brands and models .	St
+1.50.7	The other suggestion is to make sure you have recent firmware in the drive , especially if you buy a drive used .	St
+1.50.8	But that raises another question : if you buy a used SSD , how many write cycles would it have on it left ?	Ques
+1.51.1	SSD drives have a limited lifespan that is built into the drive ( part of the technology ) .	St
+1.51.2	It is measured in & quot ; WRITE CYCLES & quot ; .	St
+1.51.3	It has nothing to do with age except that the older the drive , the more write cycles are usually used up .	St
+1.51.4	Reliability would be MTBF ( mean time between failures ) and has nothing to do with this expiration period .	St
+1.51.5	It 's like how long your house will remain standing vs. when your lease runs out , if that makes any sense .	St
+1.52.1	The issue I think you might have hit on the EARLY SSD drives was the controller issues with space not being returned when you delete files .	St
+1.52.2	I think I said this in another post .	St
+1.52.3	If you delete a 40 GB file ( for example ) you expect to have an additional 40 GB of free space .	St
+1.52.4	Windows will tell you that you have 40 GB of extra space .	St
+1.52.5	But then , you suddenly run out of space becuase , although Windows says you have space , the drive does not release/re-use it .	St
+1.52.6	I had this problem with someone 's laptop and kept telling the user that he was out of space when he said he had plenty .	St
+1.52.7	The 65 GB drive ran like cr6p when he turned it back in .	St
+1.52.8	I loaded the latest firmware and now it runs like a champ .	St
+1.52.9	This was a problem only with older drives so , if anyone sees some problem like this , with a MAJOR slowdown issue , my suggestion is to upgrade the firmware from the manufacturers ( drive mfg ) website .	St
+1.52.10	I 'd go out and give it another try .	St
+1.53.1	Now that solid-state drives ar coming back down in worth , i 'm thinking ofswapping the Winchester drive I even have in my portable computer for a 256 GB solid-statedrive .	St
+1.53.2	However , I even have scan within the past that these drives use flashtechnology and this technology is barely smart for an oversized however finitenumber of write requests before it starts to fail .	St
+1.53.3	Since some files , such as disc space , ar used pretty heavily , is semipermanent responsiblenessgoing to be associate issue ?	Ques
+1.53.4	supported this concern , ar there any instanceswhen associate SSD is not recommended ?	Ques
+1.53.5	conjointly , ar there any performance specsthat we must always contemplate whereas selecting a solid-state drive ?	Ques
+1.53.6	Thanks forany suggestions .	St
 1.53.7	Rolex	St
-1.54.1	Disk life is not the exact science that the manufacturers claim and seems to be an educated guess from my personal experience.	St
-1.54.2	I have known normal Hard Drives both 2.5&quot; and 3.5&quot; fail after only a few years, typically 3-4 years running an Operating System like Windows problems can start to occur, but I have also known HDD's that are fine after 5-6 years in this environment.	St
-1.54.3	My Intel Solid State Drive has Windows 7 64 bit installed on it, before that Windows Vista, and has been in constant use for 3 years and is still healthy, so I think these reliability questions are now more brand specific, from peoples individual experiences with these companies and there products, as to how well designed and manufactured they are?	St
-1.54.4	I think someone should create a chart so people can tick of the role they used the drive for i.e OS, File Applications, Storage - Years in Use - Compatibility, and any Fails.	Sug
-1.54.5	This would be good is it was done for all storage media though and not just SSD's.	St
-1.54.6	That way people would really know what they were getting.	St
-1.55.1	Even if the pillow is not physically blocking any of the air vents it is still acting as a large layer of insulation under the laptop and may not be allowing any heat to escape from the bottom of the laptop chassis.	St
-1.55.2	This is not a good idea.	St
-1.55.3	You want as much air flow in and AROUND the laptop as possible.	St
-1.55.4	Heat is the number one enemy of electronics and excessive heat will shorten the life of your computer.	St
-1.56.1	Good stuff but YES WE CAN question the so-called (cult) wisdumb of Apple and T.E.A.M.	St
-1.56.2	sounds like a socialists dream!	St
-1.56.3	Nonetheless, I own an SSD and very much worth considering.	St
-1.57.1	I've read here and at sister sites to CNET, that when you get an SSD, you should always install the operating system to the drive &quot;manually&quot; and not by image copy, or &quot;cloning&quot;.	St
-1.57.2	So you are saying they are wrong?	St
-1.57.3	Just wondering!	St
-1.57.4	It is a good thing many new laptops are now available with two drive slots on board, because you can have the best of both worlds - if you like laptops, that is - you can now install the OS on the SSD, and store the files on the other hard drive.	St
-1.57.5	This almost negates the need for backup, because you will only lose the OS and not your important files.	St
-1.57.6	Of course, applications can become an issue too.	St
-1.57.7	Maybe a hybrid drive could be the answer?	St
-1.57.8	Especially for those that only have one drive slot per device.	St
-1.57.9	I've always wondered if a hybrid drive could be recovered for data if the flash component part of the drive fails.	St
-1.57.10	Have you heard anything, or had experience with that?	St
-1.57.11	Just wondering?	St
-1.58.1	Hello Leslie First let me say that your concerns are valid but a bit over done.	St
-1.58.2	No type of drive SSD or conventional HD is 100% reliable.	St
-1.58.3	The same arguments against SSD's were and are still being voiced in regards to conventional HD's just not as often.	St
-1.58.4	I am 100% positive (because I've read them) that you can search the internet or even one of the CNET forums and find countless concerns by members regarding the following in relationship to the conventional HD: - Limiting the SWAP file - Hybernate/Sleep mode/Shutdown (Pro's and Con's for all three) - Disabling Windows Index/Search - Disabling Logging by Windows and security programs - Pro's and Con's for defraging - Elimination of Windows System Restore Points - How to guard against Bad Sector development - MTBF (Mean Time Between Failures) now that's a controversial subject The list go on and on.	St
-1.58.5	What you have to understand is that the conventional HD is a mature product.	St
-1.58.6	There's not much else to be done to improve the technology.	St
-1.58.7	Seagate will be discontinuing manufacture of the conventional HD in it's prue form in favor of hybrids which are conventional HD's with a SSD cache (about 32-64 GB) for the OS and Programs.	St
-1.58.8	SSD's while no longer in thier infancy are still a technology in development.	St
-1.58.9	Improvements will come but I don't believe the technology should be ignored any longer in favor of the conventional HD as long as the SSD is properly deployed.	St
-1.58.10	For the typical consumer...deployment should not be a big concern.	St
-1.58.11	However, I would like to address your concern about &quot;reliability&quot; which I think in your case has more to do with read/write cycles determining the life of the SSD.	St
-1.58.12	It's true SSD's are not fond of being overly subjected to unnecessary read/write cycles which for the most part is the end result of the things I pointed out in the list above either directly or indirectly.	St
-1.58.13	As a matter of fact constant read/write cycles with no particular purpose are bad for a conventional HD which can lead to bad sectors or drive failure thus shortening the life span.	St
-1.58.14	Think of read/write cycles in terms of ink in a pen.	St
-1.58.15	It you use the ink for primarily productive work (read/write cycling) you'll probably get sufficient use of the pen (SSD) before the ink is used up.	St
-1.58.16	On the otherhand if one is proned to doodle a lot (unnecesaary read/write cycling) the amount of ink that can be used for productive tasks is lessened thus reducing the useable life of the pen (SSD).	St
-1.58.17	Leslie it has not been my intent to convince you to try an SSD.	St
-1.58.18	I just wanted to give you another way of evaluating the SSD.	St
-1.58.19	Good luck to you and happy/safe computing.	Polite
+1.54.1	Disk life is not the exact science that the manufacturers claim and seems to be an educated guess from my personal experience .	St
+1.54.2	I have known normal Hard Drives both 2.5 & quot ; and 3.5 & quot ; fail after only a few years , typically 3-4 years running an Operating System like Windows problems can start to occur , but I have also known HDD 's that are fine after 5-6 years in this environment .	St
+1.54.3	My Intel Solid State Drive has Windows 7 64 bit installed on it , before that Windows Vista , and has been in constant use for 3 years and is still healthy , so I think these reliability questions are now more brand specific , from peoples individual experiences with these companies and there products , as to how well designed and manufactured they are ?	Ques
+1.54.4	I think someone should create a chart so people can tick of the role they used the drive for i.e OS , File Applications , Storage - Years in Use - Compatibility , and any Fails .	Sug
+1.54.5	This would be good is it was done for all storage media though and not just SSD 's .	St
+1.54.6	That way people would really know what they were getting .	St
+1.55.1	Even if the pillow is not physically blocking any of the air vents it is still acting as a large layer of insulation under the laptop and may not be allowing any heat to escape from the bottom of the laptop chassis .	St
+1.55.2	This is not a good idea .	Polite
+1.55.3	You want as much air flow in and AROUND the laptop as possible .	St
+1.55.4	Heat is the number one enemy of electronics and excessive heat will shorten the life of your computer .	St
+1.56.1	Good stuff but YES WE CAN question the so-called ( cult ) wisdumb of Apple and T.E.A.M .	St
+1.56.2	sounds like a socialists dream !	St
+1.56.3	Nonetheless , I own an SSD and very much worth considering .	St
+1.57.1	I 've read here and at sister sites to CNET , that when you get an SSD , you should always install the operating system to the drive & quot ; manually & quot ; and not by image copy , or & quot ; cloning & quot ; .	St
+1.57.2	So you are saying they are wrong ?	Ques
+1.57.3	Just wondering !	St
+1.57.4	It is a good thing many new laptops are now available with two drive slots on board , because you can have the best of both worlds - if you like laptops , that is - you can now install the OS on the SSD , and store the files on the other hard drive .	St
+1.57.5	This almost negates the need for backup , because you will only lose the OS and not your important files .	St
+1.57.6	Of course , applications can become an issue too .	St
+1.57.7	Maybe a hybrid drive could be the answer ?	Ques
+1.57.8	Especially for those that only have one drive slot per device .	St
+1.57.9	I 've always wondered if a hybrid drive could be recovered for data if the flash component part of the drive fails .	St
+1.57.10	Have you heard anything , or had experience with that ?	Ques
+1.57.11	Just wondering ?	Ques
+1.58.1	Hello Leslie First let me say that your concerns are valid but a bit over done .	St
+1.58.2	No type of drive SSD or conventional HD is 100 % reliable .	St
+1.58.3	The same arguments against SSD 's were and are still being voiced in regards to conventional HD 's just not as often .	St
+1.58.4	I am 100 % positive ( because I 've read them ) that you can search the internet or even one of the CNET forums and find countless concerns by members regarding the following in relationship to the conventional HD : - Limiting the SWAP file - Hybernate/Sleep mode/Shutdown ( Pro 's and Con 's for all three ) - Disabling Windows Index/Search - Disabling Logging by Windows and security programs - Pro 's and Con 's for defraging - Elimination of Windows System Restore Points - How to guard against Bad Sector development - MTBF ( Mean Time Between Failures ) now that 's a controversial subject The list go on and on .	St
+1.58.5	What you have to understand is that the conventional HD is a mature product .	St
+1.58.6	There 's not much else to be done to improve the technology .	St
+1.58.7	Seagate will be discontinuing manufacture of the conventional HD in it 's prue form in favor of hybrids which are conventional HD 's with a SSD cache ( about 32-64 GB ) for the OS and Programs .	St
+1.58.8	SSD 's while no longer in thier infancy are still a technology in development .	St
+1.58.9	Improvements will come but I do n't believe the technology should be ignored any longer in favor of the conventional HD as long as the SSD is properly deployed .	St
+1.58.10	For the typical consumer ... deployment should not be a big concern .	St
+1.58.11	However , I would like to address your concern about & quot ; reliability & quot ; which I think in your case has more to do with read/write cycles determining the life of the SSD .	St
+1.58.12	It 's true SSD 's are not fond of being overly subjected to unnecessary read/write cycles which for the most part is the end result of the things I pointed out in the list above either directly or indirectly .	St
+1.58.13	As a matter of fact constant read/write cycles with no particular purpose are bad for a conventional HD which can lead to bad sectors or drive failure thus shortening the life span .	St
+1.58.14	Think of read/write cycles in terms of ink in a pen .	St
+1.58.15	It you use the ink for primarily productive work ( read/write cycling ) you 'll probably get sufficient use of the pen ( SSD ) before the ink is used up .	St
+1.58.16	On the otherhand if one is proned to doodle a lot ( unnecesaary read/write cycling ) the amount of ink that can be used for productive tasks is lessened thus reducing the useable life of the pen ( SSD ) .	St
+1.58.17	Leslie it has not been my intent to convince you to try an SSD .	St
+1.58.18	I just wanted to give you another way of evaluating the SSD .	St
+1.58.19	Good luck to you and happy/safe computing .	Polite
 1.58.20	Together Everyone Achieves More	St
-1.59.1	When you install an SSD into an existing system, there are bios settings (for example AHCI), that need to be changed to take advantage of the SSD capabilities.	St
-1.59.2	Note, there are a few good &quot;how-to&quot; web pages that detail the settings needed, both in a new setup and in an existing set up.	St
-1.59.3	Also NOTE: AHCI must be set for SSD to be fully utilized, and this is NOT done automatically in an existing set up.	St
-1.59.4	Also, of course there are settings in Windows that also need to be changed, for example the page file, and how the OS &quot;Indexes&quot; its files.	St
-1.59.5	There is no real need to index or have a page/swap file, because access is already as fast or faster than the equivalent spinning drive.	St
-1.59.6	For me personally, I'd install a new SSD and reinstall the OS.	St
-1.59.7	Newer motherboards will adjust accordingly, as well when the OS is installed, will make the appropriate AHCI settings, trim and so forth.	St
-1.60.1	I have been doing this for years on XP; and even on the home versions you can do it - you just have to go into safemode to redirect the My Documents and Outlook files to another drive.	St
-1.60.2	It works great, and makes disaster recovery a piece of cake!	St
-1.61.1	I think that is why it is still a mind set for some techs.	St
-1.61.2	Windows NT x32 bit used to be limited to 32 Gbs of addressable hard drive space.	St
-1.61.3	I don't think that was true anymore for XP past SP3, but I could be wrong.	St
-1.61.4	I swear, I never had a problem with my 250 Gb internal IDE storage drive, on XP Home w\SP3, anyway.	St
-1.62.1	JanitorMan, I agree with Greg - using an SSD for the boot drive makes a significant (not just noticeable) difference.	St
-1.62.2	I build a new computer every 2 - 3 years and pass my old one to my wife (who puts less demand on them than I do).	St
-1.62.3	I used a 128 GB SSD for the one I built a few months ago and it made such a difference that I installed one on my wife's &quot;old&quot; computer.	St
-1.62.4	All our data goes to regular HDDs.	St
-1.62.5	It may well be that the difference is not particularly important to you, but there is quite a difference.	St
-1.62.6	I like (really like) that Word and Excel open in under 2 seconds and that Photoshop actions happen without delay.	St
-1.62.7	I couldn't get that on my 3 year old machine, much less the one I had 10 years ago.	St
-1.62.8	I also play demanding games, but I don't think the drive is as much as an issue there (as long as I have enough memory) and I relocated them to my regular HDD (using the Junction command that spadeskingtx mentioned to access them without having to reinstall them).	St
-1.62.9	It's a matter of what is important to you.	St
-1.62.10	I use a big, expensive flat screen monitor and would never go back to my old 17&quot; LCD monitor, much less my old (huge, heavy, hot) CRT.	St
-1.62.11	But I drive a 13 year old pickup with a lot of miles on it and I'm happy enough with it to not spend the money for a new one.	St
-1.62.12	I spend a lot more time with my computer than I do with my truck.	St
-1.62.13	But I do admit that the newer ones are more comfortable, quieter and efficient than my old Tacoma.	St
+1.59.1	When you install an SSD into an existing system , there are bios settings ( for example AHCI ) , that need to be changed to take advantage of the SSD capabilities .	St
+1.59.2	Note , there are a few good & quot ; how-to & quot ; web pages that detail the settings needed , both in a new setup and in an existing set up .	St
+1.59.3	Also NOTE : AHCI must be set for SSD to be fully utilized , and this is NOT done automatically in an existing set up .	St
+1.59.4	Also , of course there are settings in Windows that also need to be changed , for example the page file , and how the OS & quot ; Indexes & quot ; its files .	St
+1.59.5	There is no real need to index or have a page/swap file , because access is already as fast or faster than the equivalent spinning drive .	St
+1.59.6	For me personally , I 'd install a new SSD and reinstall the OS .	St
+1.59.7	Newer motherboards will adjust accordingly , as well when the OS is installed , will make the appropriate AHCI settings , trim and so forth .	St
+1.60.1	I have been doing this for years on XP ; and even on the home versions you can do it - you just have to go into safemode to redirect the My Documents and Outlook files to another drive .	St
+1.60.2	It works great , and makes disaster recovery a piece of cake !	St
+1.61.1	I think that is why it is still a mind set for some techs .	St
+1.61.2	Windows NT x32 bit used to be limited to 32 Gbs of addressable hard drive space .	St
+1.61.3	I do n't think that was true anymore for XP past SP3 , but I could be wrong .	St
+1.61.4	I swear , I never had a problem with my 250 Gb internal IDE storage drive , on XP Home w\SP3 , anyway .	St
+1.62.1	JanitorMan , I agree with Greg - using an SSD for the boot drive makes a significant ( not just noticeable ) difference .	St
+1.62.2	I build a new computer every 2 - 3 years and pass my old one to my wife ( who puts less demand on them than I do ) .	St
+1.62.3	I used a 128 GB SSD for the one I built a few months ago and it made such a difference that I installed one on my wife 's & quot ; old & quot ; computer .	St
+1.62.4	All our data goes to regular HDDs .	St
+1.62.5	It may well be that the difference is not particularly important to you , but there is quite a difference .	St
+1.62.6	I like ( really like ) that Word and Excel open in under 2 seconds and that Photoshop actions happen without delay .	St
+1.62.7	I could n't get that on my 3 year old machine , much less the one I had 10 years ago .	St
+1.62.8	I also play demanding games , but I do n't think the drive is as much as an issue there ( as long as I have enough memory ) and I relocated them to my regular HDD ( using the Junction command that spadeskingtx mentioned to access them without having to reinstall them ) .	St
+1.62.9	It 's a matter of what is important to you .	St
+1.62.10	I use a big , expensive flat screen monitor and would never go back to my old 17 & quot ; LCD monitor , much less my old ( huge , heavy , hot ) CRT .	St
+1.62.11	But I drive a 13 year old pickup with a lot of miles on it and I 'm happy enough with it to not spend the money for a new one .	St
+1.62.12	I spend a lot more time with my computer than I do with my truck .	St
+1.62.13	But I do admit that the newer ones are more comfortable , quieter and efficient than my old Tacoma .	St
 1.62.14	ChasGrad	St
-1.63.1	ajtrek - Thanks for your many thoughtful contributions to this conversation.	St
-1.63.2	I appreciate the time you give to us.	Polite
-1.63.3	A lot of discussion in this thread has to do with heavy writing to SSDs hastening the arrival of their inevitable end of life.	St
-1.63.4	Wouldn't using SSDs as cache do just that and thus cause an otherwise still functional conventional HD to cease to function?	St
+1.63.1	ajtrek - Thanks for your many thoughtful contributions to this conversation .	St
+1.63.2	I appreciate the time you give to us .	St
+1.63.3	A lot of discussion in this thread has to do with heavy writing to SSDs hastening the arrival of their inevitable end of life .	St
+1.63.4	Would n't using SSDs as cache do just that and thus cause an otherwise still functional conventional HD to cease to function ?	Ques
 1.63.5	ChasGrad	St
-1.64.1	I wish I'd read your comments a year and a half ago.	Polite
-1.64.2	In February of 2012, I bought myself an ASUS EB121 Tablet PC.	St
-1.64.3	It is an iPad look alike that runs Win7, has 4 gb of ram and has a 64gb SSD.	St
-1.64.4	It is my secondary computer (I have a desktop I use most often with a single SATA disk drive).	St
-1.64.5	I do A LOT of document editing (mostly story writing, PowerPoints, and Spreadsheets) so this is very relevant to me.	St
-1.64.6	When I bought the computer, the sales person assured me that SSDs are almost crash proof; practically no moving parts.	St
-1.64.7	Just to be clear, the salesperson did not talk me into buying the computer.	St
-1.64.8	I had done my homework and chose it in advance.	St
-1.64.9	So you're saying that SSDs fail after X number of rewrites and therefore should not be used be people who do a lot of document writing?	St
-1.64.10	As I said, I'm that kind of computer user.	St
-1.64.11	For my most important files, I use dropbox for file synchronization anyway.	St
-1.64.12	Therefore, my files are automatically backed up.	St
-1.64.13	However, that means that any file I put into dropbox automatically gets put onto my tablet's SSD.	St
-1.64.14	That means that my tablet's SSD is being rewritten on for every critical and less than critical file.	St
-1.65.1	I think you find on other posts here, that the manufacturers of SSD devices, have already come up with driver algorithms that reduce the probability that the drive will fail anytime soon.	St
-1.65.2	If you look at Amazon user reviews for SSDs, I see no panic at the useful life of these drives.	St
-1.65.3	I would be more concerned with RAM and page file writes, but it looks like your tablet has the right amount at 4Gbs to reduce this factor; besides the fact that an ARM processor does business way different than the usual Windows or Apple PC architecture, for that matter.	St
-1.66.1	Hi anotherpark Thanks for the kind words...	St
-1.66.2	Here's a very simplistic explanation of how Hybrids will work.	St
-1.66.3	Hybrids will use the SSD cache' to hold the OS and store the main program that will allow for faster start-ups and program launch.	St
-1.66.4	The actual writing/work that is done with a program including any Windows/security logging and document storage will be relegated to the spinning HD plater.	St
-1.66.5	Theoretically the SSD cache portion will not be subjected to any unnecessary read/write cycles.	St
-1.66.6	Of course the user must first direct where &quot;working&quot; files are to be stored which is no different than saving files to an external drive.	St
-1.66.7	Manufacturers are hoping that you buy into the concept that you get the speed benefits of an SSD plus the (expected) longer life span of a conventional HD vs that of a pure SSD deployment.	St
-1.66.8	I hope this helps.	St
+1.64.1	I wish I 'd read your comments a year and a half ago .	St
+1.64.2	In February of 2012 , I bought myself an ASUS EB121 Tablet PC .	St
+1.64.3	It is an iPad look alike that runs Win7 , has 4 gb of ram and has a 64gb SSD .	St
+1.64.4	It is my secondary computer ( I have a desktop I use most often with a single SATA disk drive ) .	St
+1.64.5	I do A LOT of document editing ( mostly story writing , PowerPoints , and Spreadsheets ) so this is very relevant to me .	St
+1.64.6	When I bought the computer , the sales person assured me that SSDs are almost crash proof ; practically no moving parts .	St
+1.64.7	Just to be clear , the salesperson did not talk me into buying the computer .	St
+1.64.8	I had done my homework and chose it in advance .	St
+1.64.9	So you 're saying that SSDs fail after X number of rewrites and therefore should not be used be people who do a lot of document writing ?	Ques
+1.64.10	As I said , I 'm that kind of computer user .	St
+1.64.11	For my most important files , I use dropbox for file synchronization anyway .	St
+1.64.12	Therefore , my files are automatically backed up .	St
+1.64.13	However , that means that any file I put into dropbox automatically gets put onto my tablet 's SSD .	St
+1.64.14	That means that my tablet 's SSD is being rewritten on for every critical and less than critical file .	St
+1.65.1	I think you find on other posts here , that the manufacturers of SSD devices , have already come up with driver algorithms that reduce the probability that the drive will fail anytime soon .	St
+1.65.2	If you look at Amazon user reviews for SSDs , I see no panic at the useful life of these drives .	St
+1.65.3	I would be more concerned with RAM and page file writes , but it looks like your tablet has the right amount at 4Gbs to reduce this factor ; besides the fact that an ARM processor does business way different than the usual Windows or Apple PC architecture , for that matter .	St
+1.66.1	Hi anotherpark Thanks for the kind words ...	St
+1.66.2	Here 's a very simplistic explanation of how Hybrids will work .	St
+1.66.3	Hybrids will use the SSD cache ' to hold the OS and store the main program that will allow for faster start-ups and program launch .	St
+1.66.4	The actual writing/work that is done with a program including any Windows/security logging and document storage will be relegated to the spinning HD plater .	St
+1.66.5	Theoretically the SSD cache portion will not be subjected to any unnecessary read/write cycles .	St
+1.66.6	Of course the user must first direct where & quot ; working & quot ; files are to be stored which is no different than saving files to an external drive .	St
+1.66.7	Manufacturers are hoping that you buy into the concept that you get the speed benefits of an SSD plus the ( expected ) longer life span of a conventional HD vs that of a pure SSD deployment .	St
+1.66.8	I hope this helps .	Polite
 1.66.9	T ogether E veryone A chieves M ore	St
-1.67.1	Hi ajtrek, Thanks for the explanation.	St
-1.67.2	It makes sense to do it that way.	St
-1.67.3	It also sounds like it might be prudent to not be an early adopter because the vendors may need time to get their algorithms perfected.	St
-1.67.4	Thanks again for your thoughts.	St
+1.67.1	Hi ajtrek , Thanks for the explanation .	St
+1.67.2	It makes sense to do it that way .	St
+1.67.3	It also sounds like it might be prudent to not be an early adopter because the vendors may need time to get their algorithms perfected .	St
+1.67.4	Thanks again for your thoughts .	Polite
 1.67.5	anotherpark	St
-1.68.1	I strongly suggest you do as my title says, wear leveling only adds months to the life-cycle of even the best SSD.	Sug
-1.69.1	The message states when using SSD a page/swap file is not needed.	St
-1.69.2	This is nonsense.	St
-1.69.3	The swap file is used for the OS virtual storage, sometimes called virtual memory.	St
-1.69.4	The swap file is heavily accessed when the system becomes short on real memory, sometimes called physical memory.	St
-1.69.5	When this occurs, less accessed portions of real memory, called page-frames are swapped out of real memory to virtual memory on the disk.	St
-1.69.6	This operation is called a page-out.	St
-1.69.7	These portions of memory are maintained in the swap file until needed again, in which case something called a page-fault occurs and the page-frames are paged-in and restored from the swap file to real memory.	St
-1.69.8	The page-out/page-in operations are called paging, which is perfectly normal unless it becomes excessive.	St
-1.69.9	Incidentally, when the geek at BestBuy or someplace suggests that adding memory to your computer will make it faster, it won't, unless your computer is paging excessively, in need of more real memory.	St
-1.69.10	Use the Task Manager and Resource Monitor that comes with Windows to see how much free physical memory you already have available before wasting money on additional, if unneeded, memory.	St
-1.69.11	R.	St
-1.70.1	I just replaced my old HDD with one of the new fastest SSD's.	St
-1.70.2	It really does make a big performance difference, even on a PC built in October 2009.	St
-1.70.3	I bought a 2-year warranty on my SSD from the store.	St
-1.70.4	This is on top on of the manufacturer's 1 year warranty, but it has the advantage in that a replacement would be quicker and it would give me a brand new SSD, whereas the manufacturer would give me a refurbished one.	St
-1.70.5	I work in PC repair, and have once in a while replaced an SSD, but I would not say that they are less reliable than standard SATA HDD's.	St
-1.70.6	Someone told me once that he experienced a lot of trouble with hard drives and that today's drives are actually less reliable, perhaps because the huge sizes are more prone to failure.	St
-1.70.7	I would love to see a report that could present exact statistics for hard drive and SATA drive failure.	St
-1.70.8	But from experience, I doubt that SSD's are any worse, and as others have commented, they have improved.	St
-1.71.1	A Pagefile has nothing to do specifically with speed.	St
-1.71.2	It has more to do with what happens when your program needs 3 GB of RAM and you only have 2 GB available at the time with the rest filled up with other programs and for the virtual addressing you mentioned.	St
-1.71.3	If one of you want to be brave out there, turn off your paging file and reboot and see how your PC runs (or doesn't run).	St
-1.71.4	Even if you have an SSD.	St
-1.71.5	The suggestion that an SSD negates the need for a pagefile is ridiculous as that would still limit your memory to what is available at the time and has not a thing to do with how fast your disk is.	St
-1.71.6	By the way, to turn your Pagefile back on, you will probably need to boot into SAFE MODE and have plenty of patience.	St
-1.71.7	It's more of a memory thing and not related to disk speed as a need for one.	St
-1.72.1	Any references in the registry as well as software .INI files could find things in the wrong place.	St
-1.72.2	No?	St
-1.72.3	For example, a registry entry for some piece of software could be: ProdPath = D:\somefolder\somefile.exe would not automatically change because you swapped drive letters.	St
-1.73.1	Many PC manufacturers have applications that tract SSD use and the number of write-cycles the drive is good for.	St
-1.74.1	There's nothing I can say but, yes, it's no longer a concern, as to &quot;wearing out&quot; an SSD if the page file is on the same drive (or any other SSD in the system)... bUT, to suggest that Windows won't run (and perform well) with the page file set to Zero is also absurd.	St
-1.74.2	With typical use, (how 99% of people use their computers) most people would not notice a difference.	St
-1.74.3	Nevertheless, I apologize for the incorrect advice as relates to setting the page file to zero!	St
-1.75.1	Thank you, since beta testing vista and Win 7, It was reported to MS.	St
-1.75.2	Even after Windows Vista and 7 went into Release to Manufacturer, this problem still existed, believe me I tried it.	St
-1.75.3	I don't think I was doing something wrong as moving it, was just as simple as the other folders.	St
-1.75.4	But I did read an article a few years ago, that MS was working on making sure that the Desktop Folder should be allow to be move as well - As it was creating error messages in not finding it Since then I never tried it - Thank you very much for the UPDATE and letting me know that it works.	St
-1.75.5	I for one, hardly use any of the shortcuts to programs or documents store on the Desktop Folder, so for me is not a problem restoring them.	St
-1.75.6	I use a separate partition for all personal data, hence pointing to something that would create a shortcut on the desktop folder is not a problem.	St
-1.75.7	But others may want to make sure that what they have on the Desktop Folder gets copy/moved easily right back which is ok too, and now with your confirmation, I myself will be re-directing the Desktop Folder as well.	St
-1.75.8	Cheers, Geo Again Thank You.	St
-1.76.1	If you are replying to my message, let me just say that the APPs can't predict failure of circuitry/chips in SSD's and standard HDD's.	St
-1.76.2	Sometimes they might be able to give some clues (such as high temperatures), but usually won't help you abandon ship in time.	St
-1.77.1	After reading this thread and many things across the web I decided to lash out and get an SSD for my Win 7 Inspiron 1545.	St
-1.77.2	I decided on a Crucial M4 512G as the manufacturer guaranteed it would fit.	St
-1.77.3	Thankfully, it did.	St
-1.77.4	I read many things over a few days regarding SSD's and their limited write capability, things to do to ensure optimal running with less write cycles etc.	St
-1.77.5	This is what I found: Old WD 250G Scorpio Blue boot from BIOS finish to desktop - 26 secs, shutdown - 6 secs.	St
-1.77.6	New Crucial M4 512G SSD BIOS finish to desktop - 16 secs, shutdown - 3 secs.	St
-1.77.7	Old drive 60/56MB/sec read/write - SSD 260/245MB/sec read/write.	St
-1.77.8	This older Dell laptop is only a SATA II.	St
-1.77.9	I read that it's best to disable superfetch, prefetch and never to defrag the SSD to avoid unnecessary write cycles.	St
-1.77.10	I did all that and after all-day testing found keeping these enabled allowed better access speeds to programs.	St
-1.77.11	Likely because my RAM is faster than the SSD.	St
-1.77.12	I've always manually defragged.	St
-1.77.13	I updated 15 of my old drivers and found the bootup speed had now slowed by about 4 secs on every reboot.	St
-1.77.14	I defragged using &quot;MyDefrag&quot; and a custom script.	St
-1.77.15	Rebooted twice and called &quot;rundll32 advapi32.dll,ProcessIdleTasks&quot;.	St
-1.77.16	I then rebooted and the speed went right up again.	St
-1.77.17	Defragging this particular SDD works!	St
-1.77.18	I already have the most up to date firmware.	St
-1.77.19	This probably makes a difference because I only have SATA II, where the drive is SATA III capable.	St
-1.77.20	It might be a good idea to experiment fully with a new SSD to ensure what works best.	St
-1.77.21	I won't be defragging very often though.	St
-1.77.22	Some people say that cloning an old drive to SSD doesn't guarantee proper partition alignment.	St
-1.77.23	Before Win 7 that's highly likely, but if you have a drive you're cloning to SSD that was originally formatted on Win 7 then it will be properly aligned as Win 7 makes sure of that automatically.	St
-1.78.1	The reason that you shouldn't defrag an SSD is not because it doesn't help, it is only because it uses up a LOT of write cycles.	St
-1.78.2	Some people think it either doesn't work on SSDs but that isn't completely true.	St
-1.78.3	Defragging has little to do with the hardware itself.	St
-1.78.4	It is really an NTFS issue.	St
-1.78.5	If your files are split among non-sequential clusters, you are guaranteed a multiple read or right operation (Clusters = MS NTFS term).	St
-1.78.6	Defrags used to be really beneficial back in the days of the old MFM disks.	St
-1.78.7	Even so, what you received from DOS or Windows was still dealing with clusters.	St
-1.78.8	I had a third-party defragger that used cylinder alignment to really improve speed but, starting in the days of the IDE drive where sectors could be relocated anywhere, that sort of defragging lost a lot of its luster.	St
-1.78.9	With SSD, even if you have to do two or three I/Os to read a small file, so what.	St
-1.78.10	I personally think that the write cycle issue is more important then squeezing out a little bit of extra speed by defragging, but it is whatever works for you.	St
-1.79.1	Here was something I found out about SSDs by going to the Seagate website and doing some reading (I suggest others do this): Seagate has been a maker of disks and other storage devices for a long time.	St
-1.79.2	They DO make SSDs and SSHDs (hybrid drives).	St
-1.79.3	What they are saying is that the NAND technology used in SSDs is inheritly unreliable.	St
-1.79.4	HOWEVER, the controller is responsible for negating this unreliablity so the overal drive is reliable.	St
-1.79.5	They also confirm the limits on the number of write cycles.	St
-1.79.6	What they go on to say is, that there are two types of SSDs: single-bit and multiple-bit with the single-bit having one bit of information per memory location and the multi-bit having two or three bits per location.	St
-1.79.7	I won't bore anyone here with all of the reasons to go with one or the other but it is in the reading (part of the issue is cost).	St
-1.79.8	So I would suggest to anyone thinking about or interested in learning about SSDs that Seagate is a good place to start looking for information on the technology.	Ques
-1.79.9	My suggestion would be to buy the latest model SSD that you can and keep up with the latest firmware.	Sug
-1.79.10	If you do buy a used, older model, at least update to the latest firmware for the drive.	St
-1.79.11	Just my opinion.	St
-1.80.1	I should've mentioned, if you have two or more physical drives installed in your computer, you might want to move the page/swap/hiber files to a partition residing on a different drive.	St
-1.80.2	This will alleviate your concern about wearing out the SSD with paging activity.	St
-1.80.3	It should also help balance the workload and improve performance on systems without any SSD.	St
-1.80.4	Particularly if the different drive you specify is also on a different channel.	St
-1.80.5	This will save valuable storage space on your SSD as well, since these files can be quite large.	St
-1.80.6	Look at your drive's hardware properties, and the SATA port layout for your motherboard.	St
-1.80.7	The BIOS settings you can access during boot will also be most helpful and show you the drive and channel information.	St
-1.80.8	You may find that you would have to plug one of your drives into a different SATA port on the motherboard to get them to be on separate bus channels, but it is all easy to do.	St
-1.80.9	R.	St
-1.81.1	Please give me the name of the &quot; I found a great little utility for $20 that clones any OS to a SSD while maintaining the correct drive alignment.	St
-1.81.2	&quot; Thanks!	St
-1.82.1	I have used this many times now and works great.	St
-1.82.2	However, if the computer is not running well, is infected or corrupted, then it is best to install Windows from scratch.	St
-1.82.3	It is call OS to SSD from Paragon.	St
-1.82.4	Here is the link to it.	St
-1.82.5	http://www.paragon-software.com/technologies/components/migrate-OS-to-SSD/	St
+1.68.1	I strongly suggest you do as my title says , wear leveling only adds months to the life-cycle of even the best SSD .	Sug
+1.69.1	The message states when using SSD a page/swap file is not needed .	St
+1.69.2	This is nonsense .	St
+1.69.3	The swap file is used for the OS virtual storage , sometimes called virtual memory .	St
+1.69.4	The swap file is heavily accessed when the system becomes short on real memory , sometimes called physical memory .	St
+1.69.5	When this occurs , less accessed portions of real memory , called page-frames are swapped out of real memory to virtual memory on the disk .	St
+1.69.6	This operation is called a page-out .	St
+1.69.7	These portions of memory are maintained in the swap file until needed again , in which case something called a page-fault occurs and the page-frames are paged-in and restored from the swap file to real memory .	St
+1.69.8	The page-out/page-in operations are called paging , which is perfectly normal unless it becomes excessive .	St
+1.69.9	Incidentally , when the geek at BestBuy or someplace suggests that adding memory to your computer will make it faster , it wo n't , unless your computer is paging excessively , in need of more real memory .	St
+1.69.10	Use the Task Manager and Resource Monitor that comes with Windows to see how much free physical memory you already have available before wasting money on additional , if unneeded , memory .	St
+1.69.11	R .	St
+1.70.1	I just replaced my old HDD with one of the new fastest SSD 's .	St
+1.70.2	It really does make a big performance difference , even on a PC built in October 2009 .	St
+1.70.3	I bought a 2-year warranty on my SSD from the store .	St
+1.70.4	This is on top on of the manufacturer 's 1 year warranty , but it has the advantage in that a replacement would be quicker and it would give me a brand new SSD , whereas the manufacturer would give me a refurbished one .	St
+1.70.5	I work in PC repair , and have once in a while replaced an SSD , but I would not say that they are less reliable than standard SATA HDD 's .	St
+1.70.6	Someone told me once that he experienced a lot of trouble with hard drives and that today 's drives are actually less reliable , perhaps because the huge sizes are more prone to failure .	St
+1.70.7	I would love to see a report that could present exact statistics for hard drive and SATA drive failure .	St
+1.70.8	But from experience , I doubt that SSD 's are any worse , and as others have commented , they have improved .	St
+1.71.1	A Pagefile has nothing to do specifically with speed .	St
+1.71.2	It has more to do with what happens when your program needs 3 GB of RAM and you only have 2 GB available at the time with the rest filled up with other programs and for the virtual addressing you mentioned .	St
+1.71.3	If one of you want to be brave out there , turn off your paging file and reboot and see how your PC runs ( or does n't run ) .	St
+1.71.4	Even if you have an SSD .	St
+1.71.5	The suggestion that an SSD negates the need for a pagefile is ridiculous as that would still limit your memory to what is available at the time and has not a thing to do with how fast your disk is .	St
+1.71.6	By the way , to turn your Pagefile back on , you will probably need to boot into SAFE MODE and have plenty of patience .	St
+1.71.7	It 's more of a memory thing and not related to disk speed as a need for one .	St
+1.72.1	Any references in the registry as well as software .INI files could find things in the wrong place .	St
+1.72.2	No ?	Ques
+1.72.3	For example , a registry entry for some piece of software could be : ProdPath = D : \somefolder\somefile.exe would not automatically change because you swapped drive letters .	St
+1.73.1	Many PC manufacturers have applications that tract SSD use and the number of write-cycles the drive is good for .	St
+1.74.1	There 's nothing I can say but , yes , it 's no longer a concern , as to & quot ; wearing out & quot ; an SSD if the page file is on the same drive ( or any other SSD in the system ) ... bUT , to suggest that Windows wo n't run ( and perform well ) with the page file set to Zero is also absurd .	St
+1.74.2	With typical use , ( how 99 % of people use their computers ) most people would not notice a difference .	St
+1.74.3	Nevertheless , I apologize for the incorrect advice as relates to setting the page file to zero !	St
+1.75.1	Thank you , since beta testing vista and Win 7 , It was reported to MS .	St
+1.75.2	Even after Windows Vista and 7 went into Release to Manufacturer , this problem still existed , believe me I tried it .	St
+1.75.3	I do n't think I was doing something wrong as moving it , was just as simple as the other folders .	St
+1.75.4	But I did read an article a few years ago , that MS was working on making sure that the Desktop Folder should be allow to be move as well - As it was creating error messages in not finding it Since then I never tried it - Thank you very much for the UPDATE and letting me know that it works .	St
+1.75.5	I for one , hardly use any of the shortcuts to programs or documents store on the Desktop Folder , so for me is not a problem restoring them .	St
+1.75.6	I use a separate partition for all personal data , hence pointing to something that would create a shortcut on the desktop folder is not a problem .	St
+1.75.7	But others may want to make sure that what they have on the Desktop Folder gets copy/moved easily right back which is ok too , and now with your confirmation , I myself will be re-directing the Desktop Folder as well .	St
+1.75.8	Cheers , Geo Again Thank You .	St
+1.76.1	If you are replying to my message , let me just say that the APPs ca n't predict failure of circuitry/chips in SSD 's and standard HDD 's .	St
+1.76.2	Sometimes they might be able to give some clues ( such as high temperatures ) , but usually wo n't help you abandon ship in time .	St
+1.77.1	After reading this thread and many things across the web I decided to lash out and get an SSD for my Win 7 Inspiron 1545 .	St
+1.77.2	I decided on a Crucial M4 512G as the manufacturer guaranteed it would fit .	St
+1.77.3	Thankfully , it did .	St
+1.77.4	I read many things over a few days regarding SSD 's and their limited write capability , things to do to ensure optimal running with less write cycles etc .	St
+1.77.5	This is what I found : Old WD 250G Scorpio Blue boot from BIOS finish to desktop - 26 secs , shutdown - 6 secs .	St
+1.77.6	New Crucial M4 512G SSD BIOS finish to desktop - 16 secs , shutdown - 3 secs .	St
+1.77.7	Old drive 60/56MB/sec read/write - SSD 260/245MB/sec read/write .	St
+1.77.8	This older Dell laptop is only a SATA II .	St
+1.77.9	I read that it 's best to disable superfetch , prefetch and never to defrag the SSD to avoid unnecessary write cycles .	St
+1.77.10	I did all that and after all-day testing found keeping these enabled allowed better access speeds to programs .	St
+1.77.11	Likely because my RAM is faster than the SSD .	St
+1.77.12	I 've always manually defragged .	St
+1.77.13	I updated 15 of my old drivers and found the bootup speed had now slowed by about 4 secs on every reboot .	St
+1.77.14	I defragged using & quot ; MyDefrag & quot ; and a custom script .	St
+1.77.15	Rebooted twice and called & quot ; rundll32 advapi32.dll , ProcessIdleTasks & quot ; .	St
+1.77.16	I then rebooted and the speed went right up again .	St
+1.77.17	Defragging this particular SDD works !	St
+1.77.18	I already have the most up to date firmware .	St
+1.77.19	This probably makes a difference because I only have SATA II , where the drive is SATA III capable .	St
+1.77.20	It might be a good idea to experiment fully with a new SSD to ensure what works best .	St
+1.77.21	I wo n't be defragging very often though .	St
+1.77.22	Some people say that cloning an old drive to SSD does n't guarantee proper partition alignment .	St
+1.77.23	Before Win 7 that 's highly likely , but if you have a drive you 're cloning to SSD that was originally formatted on Win 7 then it will be properly aligned as Win 7 makes sure of that automatically .	St
+1.78.1	The reason that you should n't defrag an SSD is not because it does n't help , it is only because it uses up a LOT of write cycles .	St
+1.78.2	Some people think it either does n't work on SSDs but that is n't completely true .	St
+1.78.3	Defragging has little to do with the hardware itself .	St
+1.78.4	It is really an NTFS issue .	St
+1.78.5	If your files are split among non-sequential clusters , you are guaranteed a multiple read or right operation ( Clusters = MS NTFS term ) .	St
+1.78.6	Defrags used to be really beneficial back in the days of the old MFM disks .	St
+1.78.7	Even so , what you received from DOS or Windows was still dealing with clusters .	St
+1.78.8	I had a third-party defragger that used cylinder alignment to really improve speed but , starting in the days of the IDE drive where sectors could be relocated anywhere , that sort of defragging lost a lot of its luster .	St
+1.78.9	With SSD , even if you have to do two or three I/Os to read a small file , so what .	St
+1.78.10	I personally think that the write cycle issue is more important then squeezing out a little bit of extra speed by defragging , but it is whatever works for you .	St
+1.79.1	Here was something I found out about SSDs by going to the Seagate website and doing some reading ( I suggest others do this ) : Seagate has been a maker of disks and other storage devices for a long time .	St
+1.79.2	They DO make SSDs and SSHDs ( hybrid drives ) .	St
+1.79.3	What they are saying is that the NAND technology used in SSDs is inheritly unreliable .	St
+1.79.4	HOWEVER , the controller is responsible for negating this unreliablity so the overal drive is reliable .	St
+1.79.5	They also confirm the limits on the number of write cycles .	St
+1.79.6	What they go on to say is , that there are two types of SSDs : single-bit and multiple-bit with the single-bit having one bit of information per memory location and the multi-bit having two or three bits per location .	St
+1.79.7	I wo n't bore anyone here with all of the reasons to go with one or the other but it is in the reading ( part of the issue is cost ) .	St
+1.79.8	So I would suggest to anyone thinking about or interested in learning about SSDs that Seagate is a good place to start looking for information on the technology .	St
+1.79.9	My suggestion would be to buy the latest model SSD that you can and keep up with the latest firmware .	Sug
+1.79.10	If you do buy a used , older model , at least update to the latest firmware for the drive .	St
+1.79.11	Just my opinion .	St
+1.80.1	I should 've mentioned , if you have two or more physical drives installed in your computer , you might want to move the page/swap/hiber files to a partition residing on a different drive .	St
+1.80.2	This will alleviate your concern about wearing out the SSD with paging activity .	St
+1.80.3	It should also help balance the workload and improve performance on systems without any SSD .	St
+1.80.4	Particularly if the different drive you specify is also on a different channel .	St
+1.80.5	This will save valuable storage space on your SSD as well , since these files can be quite large .	St
+1.80.6	Look at your drive 's hardware properties , and the SATA port layout for your motherboard .	St
+1.80.7	The BIOS settings you can access during boot will also be most helpful and show you the drive and channel information .	St
+1.80.8	You may find that you would have to plug one of your drives into a different SATA port on the motherboard to get them to be on separate bus channels , but it is all easy to do .	St
+1.80.9	R .	St
+1.81.1	Please give me the name of the & quot ; I found a great little utility for $ 20 that clones any OS to a SSD while maintaining the correct drive alignment .	St
+1.81.2	& quot ; Thanks !	St
+1.82.1	I have used this many times now and works great .	St
+1.82.2	However , if the computer is not running well , is infected or corrupted , then it is best to install Windows from scratch .	St
+1.82.3	It is call OS to SSD from Paragon .	St
+1.82.4	Here is the link to it .	St
+1.82.5	http : //www.paragon-software.com/technologies/components/migrate-OS-to-SSD/	St

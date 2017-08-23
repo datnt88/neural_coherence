@@ -1,36 +1,36 @@
-1.1.1	I recently discovered the SMC Barricade broadband router I use does not allow me to log the IP addresses of external clients accessing an apache web server which sits behind the router.	St
-1.1.2	Is there some special protocol or feature I should look for in a router so that I can log external IP addresses, or can anyone just point me to any SOHO routers that can do this?	St
+1.1.1	I recently discovered the SMC Barricade broadband router I use does not allow me to log the IP addresses of external clients accessing an apache web server which sits behind the router .	St
+1.1.2	Is there some special protocol or feature I should look for in a router so that I can log external IP addresses , or can anyone just point me to any SOHO routers that can do this ?	Ques
 1.1.3	thanks.kah	St
-1.2.1	And does it send items to SYSLOG?	St
-1.2.2	Your post neglated details so I can't answer.	St
+1.2.1	And does it send items to SYSLOG ?	Ques
+1.2.2	Your post neglated details so I ca n't answer .	St
 1.2.3	Bob	St
-1.3.1	but I don't think that's too important.	St
-1.3.2	Logging external IP addresses is a known limitation of all SMC SOHO routers (according to them), so I'm looking for a replacement router which can log external IP addresses, or at least a term or feature that I can use to look for a replacement.	St
+1.3.1	but I do n't think that 's too important .	St
+1.3.2	Logging external IP addresses is a known limitation of all SMC SOHO routers ( according to them ) , so I 'm looking for a replacement router which can log external IP addresses , or at least a term or feature that I can use to look for a replacement .	St
 1.3.3	thanks again.kah	Polite
-1.4.1	I'll go get the manual and read about it.	Sug
-1.4.2	I hope you do the same and pay attention to any mention of SYSLOG.	St
-1.4.3	In closing, should I reply without details I feel are not important?	St
-1.4.4	Or should I toss in a little extra to make sure you can solve this?	St
+1.4.1	I 'll go get the manual and read about it .	St
+1.4.2	I hope you do the same and pay attention to any mention of SYSLOG .	St
+1.4.3	In closing , should I reply without details I feel are not important ?	Ques
+1.4.4	Or should I toss in a little extra to make sure you can solve this ?	Sug
 1.4.5	Bob	St
-1.5.1	http://www.monitorware.com/Common/en/stepbystep/sample-syslog-device-configs-MWA12.php shows an example of not your model router to turn on the SYSLOG output.	St
-1.5.2	Then you could look up WINSYSLOG to catch the results and filter them as you see fit.	St
-1.5.3	Cheers, Bob	Polite
-1.6.1	I appreciated your help, but maybe I haven't explained what I'm interested in.	Polite
-1.6.2	I simply want to purchase a router which will pass external IP addresses to an apache server log, or allow something like phpbb to associated external IP addresses to posts.	St
-1.6.3	I just need to know what to look for when I'm shopping for a new router.	St
+1.5.1	http : //www.monitorware.com/Common/en/stepbystep/sample-syslog-device-configs-MWA12.php shows an example of not your model router to turn on the SYSLOG output .	St
+1.5.2	Then you could look up WINSYSLOG to catch the results and filter them as you see fit .	St
+1.5.3	Cheers , Bob	St
+1.6.1	I appreciated your help , but maybe I have n't explained what I 'm interested in .	Polite
+1.6.2	I simply want to purchase a router which will pass external IP addresses to an apache server log , or allow something like phpbb to associated external IP addresses to posts .	St
+1.6.3	I just need to know what to look for when I 'm shopping for a new router .	St
 1.6.4	thanks.kah	St
-1.7.1	The SYSLOG feature is what does this.	St
-1.7.2	Maybe details are important to understand this, but you wrote that details are not.	St
+1.7.1	The SYSLOG feature is what does this .	St
+1.7.2	Maybe details are important to understand this , but you wrote that details are not .	St
 1.7.3	Bob	St
-1.8.1	Okay, I get I should apologize, or something, for saying the details of my existing router are not important.	St
-1.8.2	I only wrote that since SMC says my router, and none of their routers, will do what I want.	St
-1.8.3	SYSLOG is new to me, so I'm reading up on it.	St
-1.8.4	You're suggesting that somehow by using SYSLOG, the IP addresses which are logged in my apache access log file (and by extension the IP addresses sent to applications like phpbb) will be the actual external IP addresses of the clients accessing my server instead of the IP address of my server itself?	St
+1.8.1	Okay , I get I should apologize , or something , for saying the details of my existing router are not important .	St
+1.8.2	I only wrote that since SMC says my router , and none of their routers , will do what I want .	St
+1.8.3	SYSLOG is new to me , so I 'm reading up on it .	St
+1.8.4	You 're suggesting that somehow by using SYSLOG , the IP addresses which are logged in my apache access log file ( and by extension the IP addresses sent to applications like phpbb ) will be the actual external IP addresses of the clients accessing my server instead of the IP address of my server itself ?	Ques
 1.8.5	thanks.kah	St
-1.9.1	SMC 7004AWBR with firmware 1.41.004 was noted as not passing the IP address in 2003.	St
-1.9.2	Here again the details are causing me pause.	St
-1.9.3	Maybe they fixed that in later firmware?	St
-1.9.4	There is also a chance that MANY routers will never pass the IP address even if a HTTP PROXY setting is enabled or disabled.	St
-1.9.5	You haven't told how you set yours or the firmware version.	St
-1.9.6	I now have a complete picture of the issue and grasp what you want to do, but details are important to see whether you are able to flip a setting or it's a new router for you.	St
+1.9.1	SMC 7004AWBR with firmware 1.41.004 was noted as not passing the IP address in 2003 .	St
+1.9.2	Here again the details are causing me pause .	St
+1.9.3	Maybe they fixed that in later firmware ?	Ques
+1.9.4	There is also a chance that MANY routers will never pass the IP address even if a HTTP PROXY setting is enabled or disabled .	St
+1.9.5	You have n't told how you set yours or the firmware version .	St
+1.9.6	I now have a complete picture of the issue and grasp what you want to do , but details are important to see whether you are able to flip a setting or it 's a new router for you .	St
 1.9.7	Bob	St

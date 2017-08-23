@@ -1,106 +1,106 @@
-1.1.1	I had an old Maxtor 160GB one-touch Firewire/USB drive.	St
-1.1.2	The hard drive died so I replaced it with a Seagate 160 and stuck it in the old Maxtor enclosure.	St
-1.1.3	Now the drive will only format to 128GB.	St
-1.1.4	Why should the change of drive brands matter?	St
-1.1.5	Can I get this drive to format to 160?	St
-1.1.6	If I pull the drive and stick it inside my PC to format it to 160 and then stick it back in the Maxtor enclosure, will that work?	St
-1.2.1	And how do you format the drive?	Ques
+1.1.1	I had an old Maxtor 160GB one-touch Firewire/USB drive .	St
+1.1.2	The hard drive died so I replaced it with a Seagate 160 and stuck it in the old Maxtor enclosure .	St
+1.1.3	Now the drive will only format to 128GB .	St
+1.1.4	Why should the change of drive brands matter ?	Ques
+1.1.5	Can I get this drive to format to 160 ?	Ques
+1.1.6	If I pull the drive and stick it inside my PC to format it to 160 and then stick it back in the Maxtor enclosure , will that work ?	Ques
+1.2.1	And how do you format the drive ?	Ques
 1.2.2	Kees	St
-1.3.1	It's Windows XP SP2, and I partitioned and formatted it using Windows Computer Management.	St
+1.3.1	It 's Windows XP SP2 , and I partitioned and formatted it using Windows Computer Management .	St
 1.4.1	NIL	St
-1.5.1	The enclosure is a Maxtor Personal Storage 5000DV.	St
-1.5.2	Not sure what the drive is without taking it apart to look, I just know it's a Seagate 160GB that is less than a year old.	St
-1.5.3	I tired downloading the Seagate formatting software that says it addresses this issue but it is only for ATA/SCSI devices.	St
-1.6.1	If the original HD in that enclosure was less than 137GB, then the enclosure may have a 48-bit LBA problem.	St
-1.6.2	This is a limitation of the enclosure's circuitry and not the HD.	St
-1.6.3	http://www.48bitlba.com Solution: Purchase an external enclosure that is specified for use with larger HD's.	St
-1.6.4	* * * * * Alternatively, did you try different jumper settings on the HD?	St
-1.7.1	Try MA, and then repartition and format with NTFS in Disk Management while in the enclosure.	St
-1.7.2	Result?	St
-1.7.3	Try CS, and then repartition and format with NTFS in Disk Management while in the enclosure.	St
-1.7.4	Result?	St
-1.8.1	Firewire on Windows for disk drives has been flighty at times.	St
+1.5.1	The enclosure is a Maxtor Personal Storage 5000DV .	St
+1.5.2	Not sure what the drive is without taking it apart to look , I just know it 's a Seagate 160GB that is less than a year old .	St
+1.5.3	I tired downloading the Seagate formatting software that says it addresses this issue but it is only for ATA/SCSI devices .	St
+1.6.1	If the original HD in that enclosure was less than 137GB , then the enclosure may have a 48-bit LBA problem .	St
+1.6.2	This is a limitation of the enclosure 's circuitry and not the HD .	St
+1.6.3	http : //www.48bitlba.com Solution : Purchase an external enclosure that is specified for use with larger HD 's .	St
+1.6.4	* * * * * Alternatively , did you try different jumper settings on the HD ?	Ques
+1.7.1	Try MA , and then repartition and format with NTFS in Disk Management while in the enclosure .	St
+1.7.2	Result ?	Ques
+1.7.3	Try CS , and then repartition and format with NTFS in Disk Management while in the enclosure .	St
+1.7.4	Result ?	Ques
+1.8.1	Firewire on Windows for disk drives has been flighty at times .	St
 1.8.2	Bob	St
-1.9.1	Jumper is currently set to the CS position (that's what the original dead drive was set to when I removed it).	St
-1.9.2	I tried using MA but the drive wouldn't even mount (the drive light just stayed on solid).	St
-1.9.3	I've also tried using both the FW and USB ports.	St
-1.9.4	The old dead drive was a 160 too, so I can't see why this shouldn't work.	St
-1.9.5	I think I will try formatting it internally, I'm just worried it will cause data loss if I stick it back in the enclosure and it can't access the extra space on the drive.	St
-1.9.6	I'll have to test it out before using it.	St
-1.10.1	The drive does the same thing using USB 2.0 as FW.	St
-1.11.1	Was the old drive a Maxtor?	St
-1.12.1	OK, I took the drive out of the fiewire enclosure and I installed in internally on my IDE controller.	St
-1.12.2	Same problem!	St
-1.12.3	Since I'm already running two Maxtor 250GB drives on my XP SP2 system I know I can handle large drives, so I am stumped.	St
-1.12.4	I tried the LBA registry fix anyway, it told me I didn't need it.	St
-1.12.5	I tried using Seagate's Disc Wizard to format the drive, it won't parition it over 137GB either.	St
-1.12.6	So where is this limitaion coming from?	St
-1.13.1	OK, I took the drive out of the fiewire enclosure and I installed in internally on my IDE controller.	St
-1.13.2	Same problem!	St
-1.13.3	Since I'm already running two Maxtor 250GB drives on my XP SP2 system I know I can handle large drives, so I am stumped.	St
-1.13.4	I tried the LBA registry fix anyway, it told me I didn't need it.	St
-1.13.5	I tried using Seagate's Disc Wizard to format the drive, it won't parition it over 137GB either.	St
-1.13.6	So where is this limitaion coming from?	St
-1.14.1	My BIOS also sees this drive as 136GB... even though it also sees my other large drives at their full 250GB capacity.	St
-1.14.2	It's a pretty new BIOS (2004), so why does it like one drive but not another?	St
-1.15.1	I just updated the BIOS to the latest version (2005), and also the VIA chipset drivers.	St
-1.15.2	The problem still persists, the BIOS still reports the drive as 136GB instead of 160 but sees my other large drives just fine.	St
-1.16.1	And one more time (sorry I missed it) what is the exact model number so I can see if this drive has a 127GB limit feature.	St
+1.9.1	Jumper is currently set to the CS position ( that 's what the original dead drive was set to when I removed it ) .	St
+1.9.2	I tried using MA but the drive would n't even mount ( the drive light just stayed on solid ) .	St
+1.9.3	I 've also tried using both the FW and USB ports .	St
+1.9.4	The old dead drive was a 160 too , so I ca n't see why this should n't work .	St
+1.9.5	I think I will try formatting it internally , I 'm just worried it will cause data loss if I stick it back in the enclosure and it ca n't access the extra space on the drive .	St
+1.9.6	I 'll have to test it out before using it .	St
+1.10.1	The drive does the same thing using USB 2.0 as FW .	St
+1.11.1	Was the old drive a Maxtor ?	Ques
+1.12.1	OK , I took the drive out of the fiewire enclosure and I installed in internally on my IDE controller .	St
+1.12.2	Same problem !	St
+1.12.3	Since I 'm already running two Maxtor 250GB drives on my XP SP2 system I know I can handle large drives , so I am stumped .	St
+1.12.4	I tried the LBA registry fix anyway , it told me I did n't need it .	St
+1.12.5	I tried using Seagate 's Disc Wizard to format the drive , it wo n't parition it over 137GB either .	St
+1.12.6	So where is this limitaion coming from ?	Ques
+1.13.1	OK , I took the drive out of the fiewire enclosure and I installed in internally on my IDE controller .	St
+1.13.2	Same problem !	St
+1.13.3	Since I 'm already running two Maxtor 250GB drives on my XP SP2 system I know I can handle large drives , so I am stumped .	St
+1.13.4	I tried the LBA registry fix anyway , it told me I did n't need it .	St
+1.13.5	I tried using Seagate 's Disc Wizard to format the drive , it wo n't parition it over 137GB either .	St
+1.13.6	So where is this limitaion coming from ?	Ques
+1.14.1	My BIOS also sees this drive as 136GB ... even though it also sees my other large drives at their full 250GB capacity .	St
+1.14.2	It 's a pretty new BIOS ( 2004 ) , so why does it like one drive but not another ?	Ques
+1.15.1	I just updated the BIOS to the latest version ( 2005 ) , and also the VIA chipset drivers .	St
+1.15.2	The problem still persists , the BIOS still reports the drive as 136GB instead of 160 but sees my other large drives just fine .	St
+1.16.1	And one more time ( sorry I missed it ) what is the exact model number so I can see if this drive has a 127GB limit feature .	St
 1.16.2	Bob	St
-1.17.1	it's a Seagate ST3160023A.	St
-1.17.2	Seagate DiscWizard reports it as 137444 MB.	St
-1.18.1	Found the following at: http://www.seagate.com/support/disc/specs/ata/st3160023a.html ''Some systems BIOS have capacity limitations.	St
-1.18.2	Types that have been identified are: a 2.11GB or 4095 cylinder limitation a 3.26GB or 6322 cylinder limitation a 4.22GB or 8192 cylinder limitation a 8.45GB Standard INT13 limitation (CHS[1024x256x63]x512) a 33.8GB or 66,060,287 LBAs limitation a 137.4GB or 268,435,455 LBAs limitation (28-bit limit) and, if exceeded, may cause the system to hang during boot, capacity reduction or it can truncate or wrap the cylinders when auto-detect options set in the CMOS.	St
-1.18.3	New INT13 Extensions and LBA mode in BIOS and FAT32 or NTFS-based file systems are required to acheive full capacity.	St
-1.18.4	FAT32 file system can create single partitions and logical drives up to 2TB.	St
-1.18.5	FULL-CAPACITY solutions include third-party drive preparation software, system BIOS update which supports LBA mode or third party bios driven host adapters.''	St
-1.18.6	Based on your previous post, it would seem there is some type of incompatibility between your BIOS and this drive.	St
-1.18.7	Yet, your other drives report properly.	St
-1.18.8	Are those drives also Seagate or a different brand?	St
-1.18.9	The issue certainly lies within the BIOS or this drive and based on Seagates own documentation, this has been seen before.	St
-1.18.10	Unfortunately, a solution evades me.	St
-1.18.11	It will be interesting to see what some of the recognized experts here come up with, because as of now, I am completely stumped.	St
-1.18.12	The one thing I would try is to manually enter the hard drive info in the BIOS instead of allowing it to auto-detect.	St
-1.18.13	Other than that, consider me clueless.	St
-1.19.1	The other drives are Maxtors.	St
-1.19.2	It must be something in this drive, because it has the same limitation problem in the firewire enclosure which should be independent of the BIOS.	St
-1.19.3	But still, a modern system less than a year and a half old with the latest BIOS and chipset drivers should certainly be able to handle drives over 137GB under any conditions.	St
-1.19.4	FWIW, my BIOS won't allow manual setting of the heads and cylinders to set the drive size, so I'm stuck.	St
-1.19.5	I can manually set it to LBA but it still makes no difference.	St
-1.20.1	Did you delete all partitions and create one new partition before trying to format the HD while connected as an internal?	St
-1.21.1	yes, I've deleted the partitions many, many times.	St
-1.22.1	you said &quot;The hard drive died so I replaced it with a Seagate 160&quot; was the seagate new/out of the box?	St
-1.22.2	if not, it may have some sort of disk management program blocking access... jonah .	St
-1.23.1	In these cases, I like to start fresh and totally wipeout the drive.	St
-1.23.2	I use KILLDISK of the same website name(get it) and use it.	St
-1.23.3	Once done, the HD has no record of anything to confuse itself.	St
-1.23.4	Further, work using your system with the trouble HD by itself(alone) and unplug all others.	St
-1.23.5	That way you safety deal only with that problem HD.	St
-1.23.6	Here's the Seagate support website, that can further clarify any capacity issues and others.	St
-1.23.7	http://www.seagate.com/support/kb/disc/capacity/137/index.html Remove HD from firewire case and connect to your system.	St
-1.23.8	Run Killdisk, once done, reboot and have XP CD(or seagate s/w) in order to format and prepare the HD.	St
-1.23.9	If it still only allows 128gb storage and you have all the OS updates, etc.	St
-1.23.10	to allow full capcity then the HD flat out doesn't like your system.	St
-1.23.11	Find another system(friend's) and try there.	St
-1.23.12	Still fails, you got a physical HD problem(it works) it just won't allow full use of the HD gb's.	St
-1.23.13	However, don't expect the total 160gb be avaialbe as the OS takes some for itself(managaement).	St
-1.23.14	You can try using the latest Seagate HD install s/w one more time.	St
-1.23.15	If none of this works, then the HD.	St
-1.23.16	As I stated above Seagate addresses issues about capacity, its just the way it is.	St
-1.23.17	tada -----Willy	St
-1.24.1	It's possible something got written to the drive and started this problem.	St
-1.24.2	http://www.seagate.com/support/disc/specs/ata/st3160023a.html is noteworthy in a few places but since Seatools calls it a 136GB it's hard to argue with that.	St
+1.17.1	it 's a Seagate ST3160023A .	St
+1.17.2	Seagate DiscWizard reports it as 137444 MB .	St
+1.18.1	Found the following at : http : //www.seagate.com/support/disc/specs/ata/st3160023a.html ''Some systems BIOS have capacity limitations .	St
+1.18.2	Types that have been identified are : a 2.11GB or 4095 cylinder limitation a 3.26GB or 6322 cylinder limitation a 4.22GB or 8192 cylinder limitation a 8.45GB Standard INT13 limitation ( CHS [ 1024x256x63 ] x512 ) a 33.8GB or 66,060,287 LBAs limitation a 137.4GB or 268,435,455 LBAs limitation ( 28-bit limit ) and , if exceeded , may cause the system to hang during boot , capacity reduction or it can truncate or wrap the cylinders when auto-detect options set in the CMOS .	St
+1.18.3	New INT13 Extensions and LBA mode in BIOS and FAT32 or NTFS-based file systems are required to acheive full capacity .	St
+1.18.4	FAT32 file system can create single partitions and logical drives up to 2TB .	St
+1.18.5	FULL-CAPACITY solutions include third-party drive preparation software , system BIOS update which supports LBA mode or third party bios driven host adapters . ''	St
+1.18.6	Based on your previous post , it would seem there is some type of incompatibility between your BIOS and this drive .	St
+1.18.7	Yet , your other drives report properly .	St
+1.18.8	Are those drives also Seagate or a different brand ?	Ques
+1.18.9	The issue certainly lies within the BIOS or this drive and based on Seagates own documentation , this has been seen before .	St
+1.18.10	Unfortunately , a solution evades me .	Sug
+1.18.11	It will be interesting to see what some of the recognized experts here come up with , because as of now , I am completely stumped .	St
+1.18.12	The one thing I would try is to manually enter the hard drive info in the BIOS instead of allowing it to auto-detect .	St
+1.18.13	Other than that , consider me clueless .	St
+1.19.1	The other drives are Maxtors .	St
+1.19.2	It must be something in this drive , because it has the same limitation problem in the firewire enclosure which should be independent of the BIOS .	St
+1.19.3	But still , a modern system less than a year and a half old with the latest BIOS and chipset drivers should certainly be able to handle drives over 137GB under any conditions .	St
+1.19.4	FWIW , my BIOS wo n't allow manual setting of the heads and cylinders to set the drive size , so I 'm stuck .	St
+1.19.5	I can manually set it to LBA but it still makes no difference .	St
+1.20.1	Did you delete all partitions and create one new partition before trying to format the HD while connected as an internal ?	Ques
+1.21.1	yes , I 've deleted the partitions many , many times .	St
+1.22.1	you said & quot ; The hard drive died so I replaced it with a Seagate 160 & quot ; was the seagate new/out of the box ?	Ques
+1.22.2	if not , it may have some sort of disk management program blocking access ... jonah .	St
+1.23.1	In these cases , I like to start fresh and totally wipeout the drive .	St
+1.23.2	I use KILLDISK of the same website name ( get it ) and use it .	St
+1.23.3	Once done , the HD has no record of anything to confuse itself .	St
+1.23.4	Further , work using your system with the trouble HD by itself ( alone ) and unplug all others .	St
+1.23.5	That way you safety deal only with that problem HD .	St
+1.23.6	Here 's the Seagate support website , that can further clarify any capacity issues and others .	St
+1.23.7	http : //www.seagate.com/support/kb/disc/capacity/137/index.html Remove HD from firewire case and connect to your system .	St
+1.23.8	Run Killdisk , once done , reboot and have XP CD ( or seagate s/w ) in order to format and prepare the HD .	St
+1.23.9	If it still only allows 128gb storage and you have all the OS updates , etc .	St
+1.23.10	to allow full capcity then the HD flat out does n't like your system .	St
+1.23.11	Find another system ( friend 's ) and try there .	St
+1.23.12	Still fails , you got a physical HD problem ( it works ) it just wo n't allow full use of the HD gb 's .	St
+1.23.13	However , do n't expect the total 160gb be avaialbe as the OS takes some for itself ( managaement ) .	St
+1.23.14	You can try using the latest Seagate HD install s/w one more time .	St
+1.23.15	If none of this works , then the HD .	St
+1.23.16	As I stated above Seagate addresses issues about capacity , its just the way it is .	St
+1.23.17	tada -- -- -Willy	St
+1.24.1	It 's possible something got written to the drive and started this problem .	St
+1.24.2	http : //www.seagate.com/support/disc/specs/ata/st3160023a.html is noteworthy in a few places but since Seatools calls it a 136GB it 's hard to argue with that .	St
 1.24.3	Bob	St
-1.25.1	Since the BIOS sees it as a 137GB disk, I don't think it has anything to do with anything ever written to the disk, or with any windows drivers or anything.	St
-1.25.2	This is strictly a harware issue.	St
-1.25.3	And yes, the drive was new out of the box.	St
-1.26.1	That's your choice here.	St
-1.26.2	http://www.48bitlba.com notes the 127GB number many times.	St
-1.26.3	After all this, call it in and get the drive exchanged.	St
+1.25.1	Since the BIOS sees it as a 137GB disk , I do n't think it has anything to do with anything ever written to the disk , or with any windows drivers or anything .	St
+1.25.2	This is strictly a harware issue .	St
+1.25.3	And yes , the drive was new out of the box .	St
+1.26.1	That 's your choice here .	St
+1.26.2	http : //www.48bitlba.com notes the 127GB number many times .	St
+1.26.3	After all this , call it in and get the drive exchanged .	St
 1.26.4	Bob	St
-1.27.1	Well, looks like I'm at the end of the road here on answers.	St
-1.27.2	Thanks everyone who helped out!	Polite
-1.28.1	i also have this drive and had similar problems.	St
-1.28.2	it works fine when i used it with windows 2000 pro, but not with xp.	St
-1.28.3	the only work around i found was to use windows disk management tool to partition this remaining space.	St
-1.28.4	if the space is too small, you can always create a smaller primary partition, which then increases the space for the 2nd partition Marc	St
+1.27.1	Well , looks like I 'm at the end of the road here on answers .	St
+1.27.2	Thanks everyone who helped out !	St
+1.28.1	i also have this drive and had similar problems .	St
+1.28.2	it works fine when i used it with windows 2000 pro , but not with xp .	St
+1.28.3	the only work around i found was to use windows disk management tool to partition this remaining space .	St
+1.28.4	if the space is too small , you can always create a smaller primary partition , which then increases the space for the 2nd partition Marc	St

@@ -1,64 +1,64 @@
-1.1.1	Hello all I'm getting some random system freeze / crash after running any apps.	St
-1.1.2	Please advice: hardware: Intel Quad Core Q8200 with stock fan/heat sink Asus P5QL/EPU motherboard Kingston 2G DDR-800 x 2 Galaxy GTX 260+ video card (896MB vmemory) some 500G HD Antec 500W power supply (came with the case) all of them are brand new.	St
-1.1.3	I assembled them myself (third time, first time for myself) symptoms: 1. crash randomly in windows xp 32 bit 2. crashed twice in windows 7 64 bit 3. crash within 5 mins when playing TimeShift 4. does not crash that often when playing need for speed carbon 5. when crashing/freezing, either the system reboots itself, or the screen shows weird patterns and stays there forever.	St
-1.1.4	things I've tried: 1. temperatures of the CPU, video card, northbridge don't even go over 60C during summer time.	St
-1.1.5	2. in XP, all drivers are up to date 3. updated motherboard bios, and tried the nvidia stock bios for video card 4.	St
-1.1.6	I tried a power consumption calculator.	St
-1.1.7	it told me the expected watts should be around 300.	St
-1.1.8	5.	St
-1.1.9	I tried re-wiring everything, I don't think it's connect problem 6.	St
+1.1.1	Hello all I 'm getting some random system freeze / crash after running any apps .	St
+1.1.2	Please advice : hardware : Intel Quad Core Q8200 with stock fan/heat sink Asus P5QL/EPU motherboard Kingston 2G DDR-800 x 2 Galaxy GTX 260+ video card ( 896MB vmemory ) some 500G HD Antec 500W power supply ( came with the case ) all of them are brand new .	St
+1.1.3	I assembled them myself ( third time , first time for myself ) symptoms : 1. crash randomly in windows xp 32 bit 2. crashed twice in windows 7 64 bit 3. crash within 5 mins when playing TimeShift 4. does not crash that often when playing need for speed carbon 5. when crashing/freezing , either the system reboots itself , or the screen shows weird patterns and stays there forever .	St
+1.1.4	things I 've tried : 1. temperatures of the CPU , video card , northbridge do n't even go over 60C during summer time .	St
+1.1.5	2. in XP , all drivers are up to date 3. updated motherboard bios , and tried the nvidia stock bios for video card 4 .	St
+1.1.6	I tried a power consumption calculator .	St
+1.1.7	it told me the expected watts should be around 300 .	St
+1.1.8	5 .	St
+1.1.9	I tried re-wiring everything , I do n't think it 's connect problem 6 .	St
 1.1.10	I tried giving NB an extra .1V and problem still persists	St
-1.2.1	Just now, I was running the windows 7 memory test and I noticed something interesting: when 2 sticks in dual channel mode, mem test reboots or freezes when trying each stick separately, both cause the system to crash / freeze... And I tried different slots too.	St
-1.2.2	(it always had problem getting pass 15% for the standard test) any suggestions are welcome	St
-1.3.1	The &quot;Kingston 2G DDR-800 x 2&quot; has not one but a few models with various settings for this and that.	St
-1.3.2	I won't detail this yet but wonder how you arbitrated or selected your memory settings to match the RAM maker's specifications.	St
-1.3.3	Yes I am asking how you did that.	St
+1.2.1	Just now , I was running the windows 7 memory test and I noticed something interesting : when 2 sticks in dual channel mode , mem test reboots or freezes when trying each stick separately , both cause the system to crash / freeze ... And I tried different slots too .	St
+1.2.2	( it always had problem getting pass 15 % for the standard test ) any suggestions are welcome	St
+1.3.1	The & quot ; Kingston 2G DDR-800 x 2 & quot ; has not one but a few models with various settings for this and that .	St
+1.3.2	I wo n't detail this yet but wonder how you arbitrated or selected your memory settings to match the RAM maker 's specifications .	St
+1.3.3	Yes I am asking how you did that .	St
 1.3.4	Bob	St
-1.4.1	emm, I put everything to auto in the BIOS config.	St
-1.4.2	when I bought the memory sticks, I just picked DDR800 and didn't bother with the clock cycles and other stuff that I didn't really care.	St
-1.4.3	I was assuming my mother board (P5QL/EPU) is fine with any thing from DDR667 to DDR1066.	St
-1.4.4	Here is the model number on the memory stick in case needed: KVR800D2N6/2G 2GB PC2-6400 CL6 240 pin DIMM thanks	St
-1.5.1	Then I can match that up with http://www.valueram.com/datasheets/KVR800D2N6_2G.pdf	St
-1.6.1	using CPU-Z, I saw: Channels: Dual DC Mode: Symmetric in the memory tab: Frequency 401.3MHz FSB:DRAM: 5:6 CL 6 tRCD 6 tRP 6 tRAS 18 rRFC 52 CR 2T in the SPD tab: for the timings table, JEDEC1-3 are: (freq, CAS, RAS to CAS, RAS, tRAS, tRC) 266MHz 4-4-4-12-16 333MHz 5-5-5-15-20 400MHz 6-6-6-18-24	St
-1.7.1	and I just went to a computer store to ask a guy doing a memory test on my RAM.	St
-1.7.2	It didn't pass the test, so I bought a pair of Mushkin DDR2 800 RAM (996587).	St
-1.7.3	The same problem persists.	St
-1.7.4	(even after I set the clocks to 5-4-4-12 as shown on the package manually)	St
-1.8.1	The RAM voltage and timing?	St
-1.8.2	Not all BIOS will show this so sometimes I'll use the ram's &quot;spec&quot; and set it manually.	St
-1.9.1	for the voltage part, for both kinston and murshkin, it's 1.8V as labeled on the RAM for the cycles, I tried manually setting the cycles to whatever that's listed in the CPU-Z info and the problem remains.	St
-1.9.2	I'm starting to think if there is something wrong with the motherboard.	St
-1.9.3	The chance of getting stucking at exactly the same place during windows memeory test due to RAM is really low I think.	St
-1.9.4	Also, as I noticed, when I turned the sound chip off in BIOS, the frequency of crash reduced significantly in windows and in some of the games...	St
-1.9.5	I'm going to see if I can get hold of a similar motherboard and have a try.	St
+1.4.1	emm , I put everything to auto in the BIOS config .	St
+1.4.2	when I bought the memory sticks , I just picked DDR800 and did n't bother with the clock cycles and other stuff that I did n't really care .	St
+1.4.3	I was assuming my mother board ( P5QL/EPU ) is fine with any thing from DDR667 to DDR1066 .	St
+1.4.4	Here is the model number on the memory stick in case needed : KVR800D2N6/2G 2GB PC2-6400 CL6 240 pin DIMM thanks	St
+1.5.1	Then I can match that up with http : //www.valueram.com/datasheets/KVR800D2N6_2G.pdf	St
+1.6.1	using CPU-Z , I saw : Channels : Dual DC Mode : Symmetric in the memory tab : Frequency 401.3MHz FSB : DRAM : 5:6 CL 6 tRCD 6 tRP 6 tRAS 18 rRFC 52 CR 2T in the SPD tab : for the timings table , JEDEC1-3 are : ( freq , CAS , RAS to CAS , RAS , tRAS , tRC ) 266MHz 4-4-4-12-16 333MHz 5-5-5-15-20 400MHz 6-6-6-18-24	St
+1.7.1	and I just went to a computer store to ask a guy doing a memory test on my RAM .	St
+1.7.2	It did n't pass the test , so I bought a pair of Mushkin DDR2 800 RAM ( 996587 ) .	St
+1.7.3	The same problem persists .	St
+1.7.4	( even after I set the clocks to 5-4-4-12 as shown on the package manually )	St
+1.8.1	The RAM voltage and timing ?	Ques
+1.8.2	Not all BIOS will show this so sometimes I 'll use the ram 's & quot ; spec & quot ; and set it manually .	St
+1.9.1	for the voltage part , for both kinston and murshkin , it 's 1.8V as labeled on the RAM for the cycles , I tried manually setting the cycles to whatever that 's listed in the CPU-Z info and the problem remains .	St
+1.9.2	I 'm starting to think if there is something wrong with the motherboard .	St
+1.9.3	The chance of getting stucking at exactly the same place during windows memeory test due to RAM is really low I think .	St
+1.9.4	Also , as I noticed , when I turned the sound chip off in BIOS , the frequency of crash reduced significantly in windows and in some of the games ...	St
+1.9.5	I 'm going to see if I can get hold of a similar motherboard and have a try .	St
 1.9.6	thanks	Polite
-1.10.1	I find that some boards need just a tad more.	St
-1.10.2	Beats changing ram, boards, etc.	St
-1.11.1	I added to 1.9V and the problem still remains (using the mushkin RAM)	St
-1.12.1	Look at http://www.tweaktown.com/reviews/1800/galaxy_geforce_gtx_260_oc_graphics_card/index17.html That's your card in a stripped system running 317 REAL MEASURED WATTS.	St
-1.12.2	&quot;The other thing to remember is that our test system is bare minimum only a 7,200RPM SATA-II single hard drive is used without CD ROM or many cooling fans.&quot; I had to reserve commenting on this till we got the memory timing out of the way but at this point I'd consider beefing up the PSU as well as considering using the board and drivers they used if you can.	St
-1.12.3	-&gt; Today, for zero cost, try the drivers they used for the test at http://www.tweaktown.com/reviews/1800/galaxy_geforce_gtx_260_oc_graphics_card/index4.html or &quot;Drivers: ForceWare 182.06, Catalyst 9.2&quot; And let's get something nasty up on the table.	St
-1.12.4	If you are running torrents or such, all bets are off.	St
+1.10.1	I find that some boards need just a tad more .	St
+1.10.2	Beats changing ram , boards , etc .	St
+1.11.1	I added to 1.9V and the problem still remains ( using the mushkin RAM )	St
+1.12.1	Look at http : //www.tweaktown.com/reviews/1800/galaxy_geforce_gtx_260_oc_graphics_card/index17.html That 's your card in a stripped system running 317 REAL MEASURED WATTS .	St
+1.12.2	& quot ; The other thing to remember is that our test system is bare minimum only a 7,200RPM SATA-II single hard drive is used without CD ROM or many cooling fans. & quot ; I had to reserve commenting on this till we got the memory timing out of the way but at this point I 'd consider beefing up the PSU as well as considering using the board and drivers they used if you can .	St
+1.12.3	- & gt ; Today , for zero cost , try the drivers they used for the test at http : //www.tweaktown.com/reviews/1800/galaxy_geforce_gtx_260_oc_graphics_card/index4.html or & quot ; Drivers : ForceWare 182.06 , Catalyst 9.2 & quot ; And let 's get something nasty up on the table .	St
+1.12.4	If you are running torrents or such , all bets are off .	St
 1.12.5	Bob	St
-1.13.1	I'm going to download 3DMark and run it as a soak testing on my graphics card.	St
-1.13.2	My power supply is labeled 500W with a max of 408W on the +12V output.	St
-1.13.3	As you mentioned in the earlier test, this power supply does look like a bit under the bar.	St
-1.13.4	I&quot;ll see if I can try with a 650W power supply.	St
-1.13.5	However, when running memtest, I'd assume the video card is running at lower power comsumption.	St
-1.13.6	Also, stucking at exactly the same place everytime is not really a sign of under geared power supply.	St
-1.13.7	Morever, I tried with my old Ati x800 card as well, the problem remains.	St
-1.14.1	I have this old other machine that did the same.	St
-1.14.2	After much going around in circles I got lucky and a Nvidia card was freed up at the office.	St
-1.14.3	For that machine it cured it.	St
-1.14.4	But look at power supplies like your car.	St
-1.14.5	Your car might go 120MPH but let's say you go 100.	St
-1.14.6	Now while it can go faster you will experience issues at 100 and the occasional failure much sooner than say at 65 over the same number of miles.	St
-1.14.7	Some don't get that the same thing happens with power supplies.	St
-1.14.8	My longest lasting and least trouble machines had about double to more Watts than what they needed at any time.	St
-1.14.9	I'd still head for the driver version they did those tests at because its ATI... Bob	St
-1.15.1	On my free time I like to search the net, and search for different games to play.	St
-1.15.2	I came across a nice site called http://www.gamestreamer.com the games on there are AMAZING!!	St
-1.15.3	yall should check it out.	Sug
-1.16.1	err, I finally found it.	St
-1.16.2	It was the motherboard.	St
-1.16.3	When I tried it on a P5Q Turbo board everything was fine.	St
+1.13.1	I 'm going to download 3DMark and run it as a soak testing on my graphics card .	St
+1.13.2	My power supply is labeled 500W with a max of 408W on the +12V output .	St
+1.13.3	As you mentioned in the earlier test , this power supply does look like a bit under the bar .	St
+1.13.4	I & quot ; ll see if I can try with a 650W power supply .	St
+1.13.5	However , when running memtest , I 'd assume the video card is running at lower power comsumption .	St
+1.13.6	Also , stucking at exactly the same place everytime is not really a sign of under geared power supply .	St
+1.13.7	Morever , I tried with my old Ati x800 card as well , the problem remains .	St
+1.14.1	I have this old other machine that did the same .	St
+1.14.2	After much going around in circles I got lucky and a Nvidia card was freed up at the office .	St
+1.14.3	For that machine it cured it .	St
+1.14.4	But look at power supplies like your car .	St
+1.14.5	Your car might go 120MPH but let 's say you go 100 .	Sug
+1.14.6	Now while it can go faster you will experience issues at 100 and the occasional failure much sooner than say at 65 over the same number of miles .	St
+1.14.7	Some do n't get that the same thing happens with power supplies .	St
+1.14.8	My longest lasting and least trouble machines had about double to more Watts than what they needed at any time .	St
+1.14.9	I 'd still head for the driver version they did those tests at because its ATI ... Bob	St
+1.15.1	On my free time I like to search the net , and search for different games to play .	St
+1.15.2	I came across a nice site called http : //www.gamestreamer.com the games on there are AMAZING ! !	St
+1.15.3	yall should check it out .	Sug
+1.16.1	err , I finally found it .	St
+1.16.2	It was the motherboard .	St
+1.16.3	When I tried it on a P5Q Turbo board everything was fine .	St

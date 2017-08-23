@@ -1,26 +1,26 @@
-1.1.1	I have a Netgear wireless router model WGR614v4.	St
-1.1.2	Recently I signed up for SBC DSL service, the modem that comes with the plan has 1 lan port, quite ridiculous was my first thought.	St
-1.1.3	Anyway, I want to connect my wireless router (which also has 4 lan ports) to the DSL modem, and make the wireless router a DHCP server (as a desktop has to connect somewhere, right?).	St
-1.1.4	My current planned setup (which has not worked) is telephone cable from wall to DSL modem - cat5 cable from DSL modem to Netgear WAN port - cat5 cable from Netgear port 4 (main configuration port) to Desktop computer.	St
-1.1.5	Any ideas on what settings I need to change would be much appreciated.	St
+1.1.1	I have a Netgear wireless router model WGR614v4 .	St
+1.1.2	Recently I signed up for SBC DSL service , the modem that comes with the plan has 1 lan port , quite ridiculous was my first thought .	St
+1.1.3	Anyway , I want to connect my wireless router ( which also has 4 lan ports ) to the DSL modem , and make the wireless router a DHCP server ( as a desktop has to connect somewhere , right ? ) .	St
+1.1.4	My current planned setup ( which has not worked ) is telephone cable from wall to DSL modem - cat5 cable from DSL modem to Netgear WAN port - cat5 cable from Netgear port 4 ( main configuration port ) to Desktop computer .	St
+1.1.5	Any ideas on what settings I need to change would be much appreciated .	St
 1.1.6	Les	St
-1.2.1	and Connection to Fail this maybe your problem.	St
-1.2.2	http://kbserver.netgear.com/kb_web_files/n101306.asp	St
-1.3.1	NetGear's bridge mode did not work for me.	St
-1.3.2	I tried all the fixes NetGear posted and none of them work, I sent the WGR614 back.	St
-1.4.1	I tried a different solution.	St
-1.4.2	First, connected the computer directly to DSL modem, I disabled the PPPoE feature from the DSL modem, enabled bridge mode.	St
-1.4.3	Then I connected the DSL modem to Negear router, and from the router to the computer, and enabled the PPPoE sign-in feature in the WGR614 into DSL.	St
-1.4.4	At the log-in for PPPoE in the WGR61 screen, put in your SBC ID and password (SBC ID is something like twocats@sbcglobal.net).	St
-1.4.5	The WGR614 was still set to be the DHCP server.	St
-1.4.6	I enabled the DHCP feature.	St
-1.4.7	Keep in mind that after making each connection, I waited for some time (about 2 minutes).	St
-1.4.8	After restarting the pc...it should take a few moments to start working.	St
-1.4.9	When you go to 192.168.0.1 address it should go directly to the netgear router's admin page if you need to make any changes.	Sug
-1.4.10	It worked for me.	St
+1.2.1	and Connection to Fail this maybe your problem .	St
+1.2.2	http : //kbserver.netgear.com/kb_web_files/n101306.asp	St
+1.3.1	NetGear 's bridge mode did not work for me .	St
+1.3.2	I tried all the fixes NetGear posted and none of them work , I sent the WGR614 back .	St
+1.4.1	I tried a different solution .	St
+1.4.2	First , connected the computer directly to DSL modem , I disabled the PPPoE feature from the DSL modem , enabled bridge mode .	St
+1.4.3	Then I connected the DSL modem to Negear router , and from the router to the computer , and enabled the PPPoE sign-in feature in the WGR614 into DSL .	St
+1.4.4	At the log-in for PPPoE in the WGR61 screen , put in your SBC ID and password ( SBC ID is something like twocats @ sbcglobal.net ) .	St
+1.4.5	The WGR614 was still set to be the DHCP server .	St
+1.4.6	I enabled the DHCP feature .	St
+1.4.7	Keep in mind that after making each connection , I waited for some time ( about 2 minutes ) .	St
+1.4.8	After restarting the pc ... it should take a few moments to start working .	St
+1.4.9	When you go to 192.168.0.1 address it should go directly to the netgear router 's admin page if you need to make any changes .	Sug
+1.4.10	It worked for me .	St
 1.4.11	LJS	St
-1.5.1	This kinda normal for SBC Yahoo.	St
-1.5.2	You need to connect with a PC first to setup the account, then logoff hookup the router and configure the router with your account info and then have the router logon to SBC.	St
-1.5.3	Also about once every 3 months or so I can seem to get a conection.	St
-1.5.4	So I logon with a PC then logoff and hookup the router again and it's fine.	St
+1.5.1	This kinda normal for SBC Yahoo .	St
+1.5.2	You need to connect with a PC first to setup the account , then logoff hookup the router and configure the router with your account info and then have the router logon to SBC .	St
+1.5.3	Also about once every 3 months or so I can seem to get a conection .	St
+1.5.4	So I logon with a PC then logoff and hookup the router again and it 's fine .	St
 1.5.5	John	St

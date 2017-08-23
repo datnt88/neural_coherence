@@ -1,30 +1,30 @@
-1.1.1	Ok, so I just finally finished building a server.	St
-1.1.2	Installed FreeNAS, and set up software RAID 5 on it.	St
-1.1.3	My PC is running Win7, and I can see the server, and transfer files.	St
-1.1.4	The only problem is that file transfer is painfully slow.	St
-1.1.5	I just transferred a 700MB file...	St
-1.1.6	It took almost exactly 11 minutes (roughly 1MB/s) Now, my setup is simple right now.	St
-1.1.7	I have the server with FreeNAS and my PC.	St
-1.1.8	Each of them are connected directly to my router (3800HGV-B Gateway from AT&T U-Verse).	St
-1.1.9	Both the PC and the server I built myself.	St
-1.1.10	Bot systems are using the motherboards internal NIC (both are 10/100/1000 cards).	St
-1.1.11	The mobo in my server lists its card as a Realtek 8111C card, and Windows recognizes my PCs card to be &quot;Realtek RTL8168C(P)/8111C(P)&quot;.	St
-1.1.12	So it looks like they are virtually both the same card (8111C), so I cant think of any reason why they wouldnt be able to communucate well!!!	St
-1.1.13	After a bit of research, it looks like the router has a limit of 100MB/sec, so that sucks... but it would still be 100 times faster than what I am getting right now!	St
-1.1.14	As far as troubleshooting, all I have tried so far is tweaking with auto-communication.	St
-1.1.15	I have tried both NICs being set to auto-communication, both NICs set to 1000mbps full duplex, and both NICs set to 100mbps full duplex.	St
-1.1.16	Regardless of the setup, slow transfer speeds persist with each configuration.	St
-1.1.17	What can I do???	St
-1.1.18	Or, what am I doing wrong???	St
-1.1.19	Is this a configuration issue?	St
-1.1.20	Or is it hardware?	St
-1.1.21	Maybe its the router?	St
-1.1.22	Should I disconnect my PC from the router, and attempt a direct connection with the server?	St
-1.1.23	Do I need to buy a network switch?	St
-1.1.24	I really have no idea what my next step needs to be...!!!	St
+1.1.1	Ok , so I just finally finished building a server .	St
+1.1.2	Installed FreeNAS , and set up software RAID 5 on it .	St
+1.1.3	My PC is running Win7 , and I can see the server , and transfer files .	St
+1.1.4	The only problem is that file transfer is painfully slow .	St
+1.1.5	I just transferred a 700MB file ...	St
+1.1.6	It took almost exactly 11 minutes ( roughly 1MB/s ) Now , my setup is simple right now .	St
+1.1.7	I have the server with FreeNAS and my PC .	St
+1.1.8	Each of them are connected directly to my router ( 3800HGV-B Gateway from AT & T U-Verse ) .	St
+1.1.9	Both the PC and the server I built myself .	St
+1.1.10	Bot systems are using the motherboards internal NIC ( both are 10/100/1000 cards ) .	St
+1.1.11	The mobo in my server lists its card as a Realtek 8111C card , and Windows recognizes my PCs card to be & quot ; Realtek RTL8168C ( P ) /8111C ( P ) & quot ; .	St
+1.1.12	So it looks like they are virtually both the same card ( 8111C ) , so I cant think of any reason why they wouldnt be able to communucate well ! ! !	St
+1.1.13	After a bit of research , it looks like the router has a limit of 100MB/sec , so that sucks ... but it would still be 100 times faster than what I am getting right now !	St
+1.1.14	As far as troubleshooting , all I have tried so far is tweaking with auto-communication .	St
+1.1.15	I have tried both NICs being set to auto-communication , both NICs set to 1000mbps full duplex , and both NICs set to 100mbps full duplex .	St
+1.1.16	Regardless of the setup , slow transfer speeds persist with each configuration .	St
+1.1.17	What can I do ? ? ?	Ques
+1.1.18	Or , what am I doing wrong ? ? ?	Ques
+1.1.19	Is this a configuration issue ?	Ques
+1.1.20	Or is it hardware ?	Ques
+1.1.21	Maybe its the router ?	Ques
+1.1.22	Should I disconnect my PC from the router , and attempt a direct connection with the server ?	Ques
+1.1.23	Do I need to buy a network switch ?	Ques
+1.1.24	I really have no idea what my next step needs to be ... ! ! !	St
 1.1.25	!	St
-1.2.1	So I finally realized that my transfer rate is around 1 megaBYTE/sec, but my actual transfer speed was about 8.5 megaBITS/sec.	St
-1.2.2	So using my router, I could only go about 10x faster.	St
-1.2.3	With a direct connection, I should be able to transfer more than 100x faster.	St
-1.2.4	So I am planning on trying a direct connection to the server, but I need to know how to connect my PC to both the router and the server with just one network card.	St
-1.2.5	I have been doing file transfers to the server using samba, and plan to try using FTP, after hearing that it is usually faster.	St
+1.2.1	So I finally realized that my transfer rate is around 1 megaBYTE/sec , but my actual transfer speed was about 8.5 megaBITS/sec .	St
+1.2.2	So using my router , I could only go about 10x faster .	St
+1.2.3	With a direct connection , I should be able to transfer more than 100x faster .	St
+1.2.4	So I am planning on trying a direct connection to the server , but I need to know how to connect my PC to both the router and the server with just one network card .	St
+1.2.5	I have been doing file transfers to the server using samba , and plan to try using FTP , after hearing that it is usually faster .	St

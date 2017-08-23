@@ -1,20 +1,20 @@
-1.1.1	I've set up the following DC's on virtual machines: On DC1 you set the IPv4 settings are: IP: BLANK Gateway: BLANK Primary DNS: 127.0.0.1 Secondary DNS: 192.168.0.1 (Broadband Router) What IPv4 settings settings do I enter on DC2 so as it points at DC1?	St
-1.1.2	IP: Gateway: Primary DNS: Secondary DNS: Any help would be greatly appreciated?	St
-1.2.1	That seems odd unless the host is also running some DNS (server) It's also odd to have a router do the DNS work.	St
-1.2.2	Didn't you discover that had other issues.	St
-1.2.3	I won't list them all but here's an old favorite.	St
-1.2.4	-&gt; http://www.michaelhanscbsi.com/eclecticism/2003/11/07/belkin-routers-hijacking-websurfing/ The industry seems to have fixed that but other issues we bumped into had me use the real DNS instead of the routers.	St
+1.1.1	I 've set up the following DC 's on virtual machines : On DC1 you set the IPv4 settings are : IP : BLANK Gateway : BLANK Primary DNS : 127.0.0.1 Secondary DNS : 192.168.0.1 ( Broadband Router ) What IPv4 settings settings do I enter on DC2 so as it points at DC1 ?	Ques
+1.1.2	IP : Gateway : Primary DNS : Secondary DNS : Any help would be greatly appreciated ?	Ques
+1.2.1	That seems odd unless the host is also running some DNS ( server ) It 's also odd to have a router do the DNS work .	St
+1.2.2	Did n't you discover that had other issues .	St
+1.2.3	I wo n't list them all but here 's an old favorite .	St
+1.2.4	- & gt ; http : //www.michaelhanscbsi.com/eclecticism/2003/11/07/belkin-routers-hijacking-websurfing/ The industry seems to have fixed that but other issues we bumped into had me use the real DNS instead of the routers .	St
 1.2.5	Bob	St
-1.3.1	Just figured out that the IP settings above may be for my laptop, if so what IP settings should I use on DC1?	St
-1.4.1	BTW, I hope you avoid using acronyms since my guess might be wrong as I look over http://www.acronymfinder.com/DC.html Running a domain controller in a VM is interesting but there is no one correct answer as what we are trying to do can change the answer.	St
+1.3.1	Just figured out that the IP settings above may be for my laptop , if so what IP settings should I use on DC1 ?	Ques
+1.4.1	BTW , I hope you avoid using acronyms since my guess might be wrong as I look over http : //www.acronymfinder.com/DC.html Running a domain controller in a VM is interesting but there is no one correct answer as what we are trying to do can change the answer .	St
 1.4.2	Bob	St
-1.5.1	Yes I mean Domain Controller in a virtual test environment.	St
-1.5.2	What about my IP settings.	St
-1.5.3	Could do with an answer on that as its driving me nuts.	Ques
-1.6.1	Was without known why we are putting a domain controller in a VM we can't know what to do with it.	St
-1.6.2	Since it would not be to fielded as a DC then you can use the host's IP assignments.	St
-1.6.3	That is, I installed W2008 in Virtual Box and never changed from what the host DHCP'd.	St
+1.5.1	Yes I mean Domain Controller in a virtual test environment .	St
+1.5.2	What about my IP settings .	St
+1.5.3	Could do with an answer on that as its driving me nuts .	St
+1.6.1	Was without known why we are putting a domain controller in a VM we ca n't know what to do with it .	St
+1.6.2	Since it would not be to fielded as a DC then you can use the host 's IP assignments .	St
+1.6.3	That is , I installed W2008 in Virtual Box and never changed from what the host DHCP 'd .	St
 1.6.4	Bob	St
-1.7.1	Change known to knowing.	St
-1.7.2	-&gt; There is no single correct answer here.	St
-1.7.3	The staffer gets to design and implement this according to the client's desire.	St
+1.7.1	Change known to knowing .	St
+1.7.2	- & gt ; There is no single correct answer here .	St
+1.7.3	The staffer gets to design and implement this according to the client 's desire .	St

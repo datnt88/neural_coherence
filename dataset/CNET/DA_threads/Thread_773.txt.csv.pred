@@ -1,19 +1,19 @@
-1.1.1	Hi there, I have just recently built a new system and have a question about the memory settings.	St
-1.1.2	Here is the mobo, CPU and memory being used.	St
-1.1.3	Intel DX38BT motherboard, Intell Core 2 Quad Q6700, and Corsair TWIN3X2048-1333C9 The memory is DDR3 capable of running at 1333MHz I have a total of 4GB of ram, so four 1GB modules.	St
-1.1.4	Here is my question.	St
-1.1.5	I've been reading places that the memory is 1.7V memory and the mobo is setup (default) to run at 1.5V.	St
-1.1.6	Corsair's website shows that the SPD is set at 7-7-7-20 at 1066MHz and nothing about the voltage.	St
-1.1.7	It also states that the memory was tested at 1.7V, 9-9-9-24 at 1333MHz.	St
-1.1.8	There were some people stating problems with the PC locking up over time because of the 1.5V setting.	St
-1.1.9	What I was wondering was, can I leave the 7-7-7-20 settings and up the voltage to 1.7V with no issues?	St
-1.1.10	My other question is should I be using the 9-9-9-24 settings if I decide to up the voltage to 1.7V?	St
-1.1.11	Any help would be greatly appreciated.	St
-1.1.12	Thanks in advance...	St
-1.2.1	&quot;What I was wondering was, can I leave the 7-7-7-20 settings and up the voltage to 1.7V with no issues?&quot; http://www.corsair.com/products/xms3.aspx shows that's beyond it's spec so I'll write you should run it at the specified and supported settings.	St
-1.2.2	If you are OVERCLOCKING then you are off the reservation and no one can tell you will be fine.	St
+1.1.1	Hi there , I have just recently built a new system and have a question about the memory settings .	St
+1.1.2	Here is the mobo , CPU and memory being used .	St
+1.1.3	Intel DX38BT motherboard , Intell Core 2 Quad Q6700 , and Corsair TWIN3X2048-1333C9 The memory is DDR3 capable of running at 1333MHz I have a total of 4GB of ram , so four 1GB modules .	St
+1.1.4	Here is my question .	St
+1.1.5	I 've been reading places that the memory is 1.7V memory and the mobo is setup ( default ) to run at 1.5V .	St
+1.1.6	Corsair 's website shows that the SPD is set at 7-7-7-20 at 1066MHz and nothing about the voltage .	St
+1.1.7	It also states that the memory was tested at 1.7V , 9-9-9-24 at 1333MHz .	St
+1.1.8	There were some people stating problems with the PC locking up over time because of the 1.5V setting .	St
+1.1.9	What I was wondering was , can I leave the 7-7-7-20 settings and up the voltage to 1.7V with no issues ?	Ques
+1.1.10	My other question is should I be using the 9-9-9-24 settings if I decide to up the voltage to 1.7V ?	Ques
+1.1.11	Any help would be greatly appreciated .	Polite
+1.1.12	Thanks in advance ...	St
+1.2.1	& quot ; What I was wondering was , can I leave the 7-7-7-20 settings and up the voltage to 1.7V with no issues ? & quot ; http : //www.corsair.com/products/xms3.aspx shows that 's beyond it 's spec so I 'll write you should run it at the specified and supported settings .	St
+1.2.2	If you are OVERCLOCKING then you are off the reservation and no one can tell you will be fine .	St
 1.2.3	Bob	St
-1.3.1	1.7v is the necessary voltage to achieve ddr3-1333.	St
-1.3.2	See http://www.corsair.com/_datasheets/TWIN3X2048-1333C9.pdf: &quot;Tested together at 1333MHz, Vdimm = 1.70V, at latency settings of 9-9-9-24&quot; You'll have to manually select ddr3-1333 and enter the 9...24 timings, otherwise it will default 1.5v (ddr3 standard voltage) and ddr3-1066 timings.	St
-1.3.3	You can try to keep the tighter 7...20 timings at ddr3-1333 but there's no guarantee it will work reliably.	St
-1.3.4	You should run some memory tests and super pi loops to ensure the system will be stable.	St
+1.3.1	1.7v is the necessary voltage to achieve ddr3-1333 .	St
+1.3.2	See http : //www.corsair.com/_datasheets/TWIN3X2048-1333C9.pdf : & quot ; Tested together at 1333MHz , Vdimm = 1.70V , at latency settings of 9-9-9-24 & quot ; You 'll have to manually select ddr3-1333 and enter the 9 ... 24 timings , otherwise it will default 1.5v ( ddr3 standard voltage ) and ddr3-1066 timings .	St
+1.3.3	You can try to keep the tighter 7 ... 20 timings at ddr3-1333 but there 's no guarantee it will work reliably .	St
+1.3.4	You should run some memory tests and super pi loops to ensure the system will be stable .	St

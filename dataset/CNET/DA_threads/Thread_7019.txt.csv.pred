@@ -1,71 +1,71 @@
-1.1.1	Hey there, I'm hoping someone can help me out with a decision on a purchase I'm making for a new system.	St
-1.1.2	Where I'm stuck is in deciding between a single 150Gb 10,000rpm SATA150 drive, and 4 7200rpm SATA 3Gb/s drives in a RAID10 array.	St
-1.1.3	I know that the RAID10 will give me added security due to its data redundancy, but am unsure of how performance will compare to the single 10krpm drive.	St
-1.1.4	Basically, if I'm looking at a dramatic performance hit with the RAID configuration, I'd be willing to sacrifice security.	St
-1.1.5	FWIW, I'm going to be using this in a Dual Xeon Quad-core 3D graphics/video editing machine.	St
-1.1.6	Thanks for any and all recommendations!	St
+1.1.1	Hey there , I 'm hoping someone can help me out with a decision on a purchase I 'm making for a new system .	St
+1.1.2	Where I 'm stuck is in deciding between a single 150Gb 10,000rpm SATA150 drive , and 4 7200rpm SATA 3Gb/s drives in a RAID10 array .	St
+1.1.3	I know that the RAID10 will give me added security due to its data redundancy , but am unsure of how performance will compare to the single 10krpm drive .	St
+1.1.4	Basically , if I 'm looking at a dramatic performance hit with the RAID configuration , I 'd be willing to sacrifice security .	St
+1.1.5	FWIW , I 'm going to be using this in a Dual Xeon Quad-core 3D graphics/video editing machine .	St
+1.1.6	Thanks for any and all recommendations !	St
 1.1.7	-num	St
-1.2.1	Most data loss is due to user error, virus or outright theft.	St
-1.2.2	How does RAID (any version) help in light that better than 9 out of 10 times that delete key was the error?	St
-1.2.3	Also since that's the common cause, data recovery is nearly impossible or too costly since most getdataback tools don't work on RAID.	St
+1.2.1	Most data loss is due to user error , virus or outright theft .	St
+1.2.2	How does RAID ( any version ) help in light that better than 9 out of 10 times that delete key was the error ?	Ques
+1.2.3	Also since that 's the common cause , data recovery is nearly impossible or too costly since most getdataback tools do n't work on RAID .	St
 1.2.4	Bob	St
-1.3.1	Actually, the majority (say 6 or so) data loss issues my company has had have been due soley to hardware error.	St
-1.3.2	Several went to data-recovery services (who confirmed the hardware-based error base), while several just ended up on a stack of &quot;bad&quot; drives.	St
-1.3.3	The worst case was a single external Lacie 1Tb drive.	St
-1.3.4	We run multiple levels of security (hardware/software firewall, site-licensed anti-virus), and our user base is extremely familiar with proper saftey protocols.	St
-1.3.5	The drive configurations I'm asking about will be for single-user workstations, so I'm actually leaning toward no RAID data redundancy, since the most critical data WILL be saved to our network storage (which IS data-redundant).	St
-1.3.6	Thanks for your input anyhow.	St
-1.4.1	If you go to a place like drivesavers they get mostly the hardware failures.	St
-1.4.2	In the real world... Bob	St
-1.5.1	I'm not sure I understand your post.	St
-1.5.2	We do use Drivesavers.	St
-1.5.3	They actually did the data recovery on our last drive failure.	St
-1.5.4	They were able to recover just over 100Gb off the drive (unfortunately lacking directory structure), and it ran just over $1200.	St
-1.5.5	They're convenient since they're just across the bridge in Novato (we're in SF).	St
-1.5.6	What exactly is your point, and how does it relate to the original question of &quot;SATA150 10Krpm vs. SATA3Gb+RAID&quot;?	St
-1.5.7	??	Ques
+1.3.1	Actually , the majority ( say 6 or so ) data loss issues my company has had have been due soley to hardware error .	St
+1.3.2	Several went to data-recovery services ( who confirmed the hardware-based error base ) , while several just ended up on a stack of & quot ; bad & quot ; drives .	St
+1.3.3	The worst case was a single external Lacie 1Tb drive .	St
+1.3.4	We run multiple levels of security ( hardware/software firewall , site-licensed anti-virus ) , and our user base is extremely familiar with proper saftey protocols .	St
+1.3.5	The drive configurations I 'm asking about will be for single-user workstations , so I 'm actually leaning toward no RAID data redundancy , since the most critical data WILL be saved to our network storage ( which IS data-redundant ) .	St
+1.3.6	Thanks for your input anyhow .	Polite
+1.4.1	If you go to a place like drivesavers they get mostly the hardware failures .	St
+1.4.2	In the real world ... Bob	St
+1.5.1	I 'm not sure I understand your post .	St
+1.5.2	We do use Drivesavers .	St
+1.5.3	They actually did the data recovery on our last drive failure .	St
+1.5.4	They were able to recover just over 100Gb off the drive ( unfortunately lacking directory structure ) , and it ran just over $ 1200 .	St
+1.5.5	They 're convenient since they 're just across the bridge in Novato ( we 're in SF ) .	St
+1.5.6	What exactly is your point , and how does it relate to the original question of & quot ; SATA150 10Krpm vs. SATA3Gb+RAID & quot ; ?	Ques
+1.5.7	? ?	Ques
 1.5.8	?	Ques
-1.6.1	We rarely find it to save anyone.	St
-1.6.2	Plus the more common failures are not something RAID helps on.	St
-1.6.3	We've seen more luck with automatic backups to other machines on the network as well as real backup systems than RAID.	St
-1.6.4	Just sharing what I've seen over the years.	St
-1.6.5	If you were looking for some speed tests or such may I suggest tomshardware.com since they recently did some comparisons of RAID chipsets.	St
+1.6.1	We rarely find it to save anyone .	St
+1.6.2	Plus the more common failures are not something RAID helps on .	St
+1.6.3	We 've seen more luck with automatic backups to other machines on the network as well as real backup systems than RAID .	St
+1.6.4	Just sharing what I 've seen over the years .	St
+1.6.5	If you were looking for some speed tests or such may I suggest tomshardware.com since they recently did some comparisons of RAID chipsets .	St
 1.6.6	Bob	St
-1.7.1	combining both raid formats means extra work for the controller and some controllers are very efficient while others are not.	St
-1.7.2	you should check benchmarks for whichever one you're using/planning to use.	Sug
-1.7.3	personally, i don't think its neccessary to mirror everything.	St
-1.7.4	a mirror + a stripe set is a better choice.	St
-1.7.5	2 mirrored drives for important data and OS, and 2 striped drives for pagefile, temp files, scratch area (and anything else that can be reconstructed if lost) will outperform a single raptor.	St
-1.7.6	all you'll need to add is a good backup strategy.	St
-1.8.1	Good info.	St
-1.8.2	The only controller I'm planning on using is the one built into the Tyan S2696A2NRF Motherboard ( http://www.newegg.com/product/product.asp?item=N82E16813151048 ).	St
-1.8.3	At the moment, I'm actually leaning toward using two Raptors striped (Raid 0), and relying on the network storage for really important data backup.	St
-1.8.4	Make sense?	St
-1.8.5	Thanks again!	St
-1.9.1	intel's built-in raid controllers on their server boards are pretty good (but a bit feature starved).	St
-1.9.2	your backup strategy (like most people's) doesn't appear to include image backups.	St
-1.9.3	so, if either drive fails, you'll have to reinstall the OS and all of your software.	St
-1.9.4	even if you ghost a bare install to the replacement drive(s), you'll still lose a day or two.	St
-1.9.5	if you don't do image backups and daily incrementals, then i recommend a mirror for the os and apps.	Sug
-1.9.6	the difference between 7200rpm and 10000rpm drives for app loading/interaction is minimal.	St
-1.9.7	(for a server, the faster access time raptors provide is a big benefit, but for a workstation you won't see that much improvement in your daily activities.)	St
-1.9.8	the raptors speed will be seen in pagefile/scratchfile performance and reading/writing large datasets (like video editting, big photoshop images, etc.).	St
-1.9.9	that same speed benefit can be achieved with 2 7200rpm drives in a stripe set.	St
-1.9.10	as for relying on the network as your main backup method, the wisdom of that all depends on the backup policy of your network.	St
-1.9.11	aslo, simply copying files to the network is not a good backup strategy.	St
-1.9.12	some type of full backup (at least for your data files tree) along with incrementals/differentials is essential.	St
-1.10.1	Thanks again for the insight.	St
-1.10.2	I think we'll probably get external drives to do nightly local-machine backups.	St
-1.10.3	It might help to clarify the type of work we do: We are a 3D Animation Studio, and use primarily 3D Studio Max in combination with Adobe Photoshop and After Effects.	St
-1.10.4	Scene/video/texture and working files all get incrementally saved to the network, with no work-related files saved on the local machines (other than temporarily).	St
-1.10.5	The only &quot;real&quot; things that should be on the local workstations are program files, plugins, email, and such.	St
-1.10.6	Sometimes large video files (several thousand frames) get copied locally in order to speed up editing.	St
-1.10.7	We do need to use both a lot of large static bitmaps (texure maps), as well as dynamic video files (rendering/editing HD 1080P).	St
-1.10.8	The machines will have QuadroFX 46000 video cards, but having done this type of work for close to 15 years now, I know that every little ounce of performance you can squeeze out of the rest of the system will help.	St
-1.10.9	So, I think I'm going to do a striped pair of Raptors and attach external drives for the sole purpose of nightly backups.	St
-1.10.10	Should do the trick, no?	St
-1.10.11	I'm hoping to get all the pieces this week, and will post pics once they're all together.	St
-1.11.1	FWIW, I've uploaded the first photo of this build.	St
-1.11.2	http://flickr.com/photos/numlok/499228481/ As for drives, I've settled on two 10,000rpm SATA (WD &quot;Raptor&quot;) drives in RAID0 configuration.	St
-1.11.3	Built for speed, with nightly external backups for the parachute.	St
-1.11.4	Thanks again, and wish me luck!	St
+1.7.1	combining both raid formats means extra work for the controller and some controllers are very efficient while others are not .	St
+1.7.2	you should check benchmarks for whichever one you 're using/planning to use .	Sug
+1.7.3	personally , i do n't think its neccessary to mirror everything .	St
+1.7.4	a mirror + a stripe set is a better choice .	St
+1.7.5	2 mirrored drives for important data and OS , and 2 striped drives for pagefile , temp files , scratch area ( and anything else that can be reconstructed if lost ) will outperform a single raptor .	St
+1.7.6	all you 'll need to add is a good backup strategy .	St
+1.8.1	Good info .	St
+1.8.2	The only controller I 'm planning on using is the one built into the Tyan S2696A2NRF Motherboard ( http : //www.newegg.com/product/product.asp ? item=N82E16813151048 ) .	St
+1.8.3	At the moment , I 'm actually leaning toward using two Raptors striped ( Raid 0 ) , and relying on the network storage for really important data backup .	St
+1.8.4	Make sense ?	Ques
+1.8.5	Thanks again !	St
+1.9.1	intel 's built-in raid controllers on their server boards are pretty good ( but a bit feature starved ) .	St
+1.9.2	your backup strategy ( like most people 's ) does n't appear to include image backups .	St
+1.9.3	so , if either drive fails , you 'll have to reinstall the OS and all of your software .	St
+1.9.4	even if you ghost a bare install to the replacement drive ( s ) , you 'll still lose a day or two .	St
+1.9.5	if you do n't do image backups and daily incrementals , then i recommend a mirror for the os and apps .	Sug
+1.9.6	the difference between 7200rpm and 10000rpm drives for app loading/interaction is minimal .	St
+1.9.7	( for a server , the faster access time raptors provide is a big benefit , but for a workstation you wo n't see that much improvement in your daily activities . )	St
+1.9.8	the raptors speed will be seen in pagefile/scratchfile performance and reading/writing large datasets ( like video editting , big photoshop images , etc . ) .	St
+1.9.9	that same speed benefit can be achieved with 2 7200rpm drives in a stripe set .	St
+1.9.10	as for relying on the network as your main backup method , the wisdom of that all depends on the backup policy of your network .	St
+1.9.11	aslo , simply copying files to the network is not a good backup strategy .	St
+1.9.12	some type of full backup ( at least for your data files tree ) along with incrementals/differentials is essential .	St
+1.10.1	Thanks again for the insight .	St
+1.10.2	I think we 'll probably get external drives to do nightly local-machine backups .	St
+1.10.3	It might help to clarify the type of work we do : We are a 3D Animation Studio , and use primarily 3D Studio Max in combination with Adobe Photoshop and After Effects .	St
+1.10.4	Scene/video/texture and working files all get incrementally saved to the network , with no work-related files saved on the local machines ( other than temporarily ) .	St
+1.10.5	The only & quot ; real & quot ; things that should be on the local workstations are program files , plugins , email , and such .	St
+1.10.6	Sometimes large video files ( several thousand frames ) get copied locally in order to speed up editing .	St
+1.10.7	We do need to use both a lot of large static bitmaps ( texure maps ) , as well as dynamic video files ( rendering/editing HD 1080P ) .	St
+1.10.8	The machines will have QuadroFX 46000 video cards , but having done this type of work for close to 15 years now , I know that every little ounce of performance you can squeeze out of the rest of the system will help .	St
+1.10.9	So , I think I 'm going to do a striped pair of Raptors and attach external drives for the sole purpose of nightly backups .	St
+1.10.10	Should do the trick , no ?	Ques
+1.10.11	I 'm hoping to get all the pieces this week , and will post pics once they 're all together .	St
+1.11.1	FWIW , I 've uploaded the first photo of this build .	St
+1.11.2	http : //flickr.com/photos/numlok/499228481/ As for drives , I 've settled on two 10,000rpm SATA ( WD & quot ; Raptor & quot ; ) drives in RAID0 configuration .	St
+1.11.3	Built for speed , with nightly external backups for the parachute .	St
+1.11.4	Thanks again , and wish me luck !	St

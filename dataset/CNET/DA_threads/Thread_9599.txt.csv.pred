@@ -1,40 +1,40 @@
-1.1.1	I spoke about this earlier in connection with instability in my system.	St
-1.1.2	System.ini Network Card Tweak The following tweak is not documented by Microsoft, and it is controversial whether it works at all.	St
-1.1.3	We have tested numerous times and it shows anywhere between 0 and 10% performance gain, which we consider inconclusive.	St
-1.1.4	We have received over 100 responses saying this tweak worked great, and over 100 saying it does nothing at all.	St
-1.1.5	At this time, we feel we should leave the information posted on the site in order to present our readers with all possible options for optimizing their throughput, however keep in mind we haven't been able to find a proof of the validity of this particular tweak, and are not fully confident in the following information.	Sug
-1.1.6	Feel free to send us mail with your feedback.	Sug
-1.1.7	With all that said, it will not degrade performance of your system, and if you're willing to try and see how it works, here are the instructions: In Windows 9x, you might be able to reserve specific amounts of RAM for specific IRQs (Interrupt Requests), which serves as a buffer to allow more stable operation of your device.	St
-1.1.8	Adding a 4Mb buffer to your Network Card's IRQ would ensure good overall performance and increase throughput with broadband Internet connections, such as DSL and Cable Modems.	St
-1.1.9	Reserving RAM for your Network Adapter might prove very useful, especially during CPU intensive tasks, or while gaming online.	St
-1.1.10	For those with 500MHz or slower processors and 128Mb or less RAM, this tweak might show noticeable results at all times, including faster displaying of web pages and higher throughput.	St
-1.1.11	Even with fast processors you will get better overall performance, including smoother stream video, better transfers anywhere from 0 to 10%, with more noticeable results during faster transfers.	St
-1.1.12	Another good reason for using this tweak would be if you have a PCI NIC sharing IRQs with another device.	St
-1.1.13	Step 1 - Find your Network Card's IRQ In order to add the entry to your System.ini file, you'd first have to find your NIC's IRQ.	St
-1.1.14	Right-click on My Computer icon on your Desktop, then left-click on Properties (a shortcut for that would be to press the 'Windows' + 'Pause' keys).	St
-1.1.15	Navigate to Device Manager and double-click on Computer.	St
-1.1.16	Under &quot;View Resources&quot; you will find a list of IRQs, each with description of the device that's using it.	St
-1.1.17	Note the IRQ number used by your Network Adapter.	St
-1.1.18	Fig.	St
-1.1.19	1.1 - Device Manager ('Window' + 'Pause' keys) Fig.	St
-1.1.20	1.2 - Finding the IRQ of your NIC Step 2 - Adding the entry to System.ini Once you've found the IRQ of your Network Card, you need to reserve some RAM for its use, by adding an entry to the System.ini file.	St
-1.1.21	You can edit the file in any text editor, however the easiest way is to use Windows' built in &quot;System Configuration Editor&quot;.	St
-1.1.22	Navigate to Start &gt; Run and type sysedit .	St
-1.1.23	Find the [386enh] Section in the System.ini file and add Irq[n]=4096 under it, where [n] is the IRQ number of your NIC and 4096 is the amount of RAM you want to reserve in Kbytes.	St
-1.1.24	We recommend using 4096, however you can experiment with different values if you want.	St
-1.1.25	Save changes in the file, exit and reboot for changes to take effect.	St
-1.1.26	Note: If you choose to try different values, keep in mind that reserving too much RAM for your NIC will decrease the amount of RAM available for applications, while reserving too little might not give the desired effect.	St
-1.1.27	Fig.	St
-1.1.28	2.1 - Editing System.ini Additional Thoughts The only negative effect of the System.ini IRQ tweak is that it will reduce the amount of RAM available for running applications a bit, by reserving some specifically for your Network Card's use.	St
-1.1.29	The gain in performance usually outweighs the negative effect by far, considering any Computer with 32Mb of RAM or more.	St
-1.1.30	Keep in mind that if you add hardware to your system the IRQ of the Network Adapter might change, in which case you will need to modify the setting in System.ini.	St
-1.1.31	In systems with multiple NICs, you might want to add the setting for both IRQs.	St
-1.1.32	Also, you could reserve RAM for other IRQs if you wish, just use common sense and don't forget it reduces the amount of RAM available for running applications.	Sug
-1.1.33	If you are using an USB device, it does not have a specific IRQ, however you can try adding the entry using the IRQ of the USB Controller.	St
-1.1.34	For internal Cable Modems, you'd have to add the entry using the IRQ of your modem, rather than the IRQ of a Network Card.	St
-1.1.35	I think what I was asking was if anyone was aware of an equivelant method for XP as I believe this article is very old.	St
-1.1.36	This was copy pasted from a page I saved a long time ago and cannot find the article on speedguide.net anymore.	St
+1.1.1	I spoke about this earlier in connection with instability in my system .	St
+1.1.2	System.ini Network Card Tweak The following tweak is not documented by Microsoft , and it is controversial whether it works at all .	St
+1.1.3	We have tested numerous times and it shows anywhere between 0 and 10 % performance gain , which we consider inconclusive .	St
+1.1.4	We have received over 100 responses saying this tweak worked great , and over 100 saying it does nothing at all .	St
+1.1.5	At this time , we feel we should leave the information posted on the site in order to present our readers with all possible options for optimizing their throughput , however keep in mind we have n't been able to find a proof of the validity of this particular tweak , and are not fully confident in the following information .	Sug
+1.1.6	Feel free to send us mail with your feedback .	Sug
+1.1.7	With all that said , it will not degrade performance of your system , and if you 're willing to try and see how it works , here are the instructions : In Windows 9x , you might be able to reserve specific amounts of RAM for specific IRQs ( Interrupt Requests ) , which serves as a buffer to allow more stable operation of your device .	St
+1.1.8	Adding a 4Mb buffer to your Network Card 's IRQ would ensure good overall performance and increase throughput with broadband Internet connections , such as DSL and Cable Modems .	St
+1.1.9	Reserving RAM for your Network Adapter might prove very useful , especially during CPU intensive tasks , or while gaming online .	St
+1.1.10	For those with 500MHz or slower processors and 128Mb or less RAM , this tweak might show noticeable results at all times , including faster displaying of web pages and higher throughput .	St
+1.1.11	Even with fast processors you will get better overall performance , including smoother stream video , better transfers anywhere from 0 to 10 % , with more noticeable results during faster transfers .	St
+1.1.12	Another good reason for using this tweak would be if you have a PCI NIC sharing IRQs with another device .	St
+1.1.13	Step 1 - Find your Network Card 's IRQ In order to add the entry to your System.ini file , you 'd first have to find your NIC 's IRQ .	St
+1.1.14	Right-click on My Computer icon on your Desktop , then left-click on Properties ( a shortcut for that would be to press the 'Windows ' + 'Pause ' keys ) .	St
+1.1.15	Navigate to Device Manager and double-click on Computer .	St
+1.1.16	Under & quot ; View Resources & quot ; you will find a list of IRQs , each with description of the device that 's using it .	St
+1.1.17	Note the IRQ number used by your Network Adapter .	St
+1.1.18	Fig .	St
+1.1.19	1.1 - Device Manager ( 'Window ' + 'Pause ' keys ) Fig .	St
+1.1.20	1.2 - Finding the IRQ of your NIC Step 2 - Adding the entry to System.ini Once you 've found the IRQ of your Network Card , you need to reserve some RAM for its use , by adding an entry to the System.ini file .	St
+1.1.21	You can edit the file in any text editor , however the easiest way is to use Windows ' built in & quot ; System Configuration Editor & quot ; .	St
+1.1.22	Navigate to Start & gt ; Run and type sysedit .	St
+1.1.23	Find the [ 386enh ] Section in the System.ini file and add Irq [ n ] =4096 under it , where [ n ] is the IRQ number of your NIC and 4096 is the amount of RAM you want to reserve in Kbytes .	St
+1.1.24	We recommend using 4096 , however you can experiment with different values if you want .	St
+1.1.25	Save changes in the file , exit and reboot for changes to take effect .	St
+1.1.26	Note : If you choose to try different values , keep in mind that reserving too much RAM for your NIC will decrease the amount of RAM available for applications , while reserving too little might not give the desired effect .	St
+1.1.27	Fig .	St
+1.1.28	2.1 - Editing System.ini Additional Thoughts The only negative effect of the System.ini IRQ tweak is that it will reduce the amount of RAM available for running applications a bit , by reserving some specifically for your Network Card 's use .	St
+1.1.29	The gain in performance usually outweighs the negative effect by far , considering any Computer with 32Mb of RAM or more .	St
+1.1.30	Keep in mind that if you add hardware to your system the IRQ of the Network Adapter might change , in which case you will need to modify the setting in System.ini .	St
+1.1.31	In systems with multiple NICs , you might want to add the setting for both IRQs .	St
+1.1.32	Also , you could reserve RAM for other IRQs if you wish , just use common sense and do n't forget it reduces the amount of RAM available for running applications .	Sug
+1.1.33	If you are using an USB device , it does not have a specific IRQ , however you can try adding the entry using the IRQ of the USB Controller .	St
+1.1.34	For internal Cable Modems , you 'd have to add the entry using the IRQ of your modem , rather than the IRQ of a Network Card .	St
+1.1.35	I think what I was asking was if anyone was aware of an equivelant method for XP as I believe this article is very old .	St
+1.1.36	This was copy pasted from a page I saved a long time ago and can not find the article on speedguide.net anymore .	St
 1.2.1	NIL	St
-1.3.1	Windows Resource Kits.	St
-1.3.2	But just like the tweaks that we used for DOS, when we move from a DOS based Windows to a non-DOS based Windows these old &quot;HACKS!&quot; vanish.	St
+1.3.1	Windows Resource Kits .	St
+1.3.2	But just like the tweaks that we used for DOS , when we move from a DOS based Windows to a non-DOS based Windows these old & quot ; HACKS ! & quot ; vanish .	St
 1.3.3	Bob	St

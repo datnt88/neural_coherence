@@ -1,121 +1,121 @@
-1.1.1	Help!	St
-1.1.2	No ping responses in simple 2-node Mac&lt;-&gt;PC wired LAN I've been trying for weeks , but I just cannot get even the simplest Ethernet two-node LAN working under Mac OS 8.6 (or 8.5.x either) and Windows XP Home SP2.	St
-1.1.3	This is a direct, wired Ethernet LAN with only two nodes.	St
-1.1.4	There is no router or gateway present, and Internet connection sharing is NOT desired.	St
-1.1.5	I'm using Miramar's PC MacLAN v 8 software for intercompatible file sharing.	St
-1.1.6	Current problem: NO pings get responses in either direction from either side.	St
-1.1.7	On the Mac side: Direct Ethernet connection to PC via D-Link 10/100 Switch All link and activity lights on switch flash in reponse to ping, and all show speed is 100, full duplex IP address hard, manually assigned to Ethernet NIC: 192.168.0.4 / 255.255.255.0 Correctly formatted OT Hosts file used for all local LAN addresses, no DNS No gateway or DNS IP addresses associated with that NIC/connection No routers present No direct connection to modem, broadband or otherwise.	St
-1.1.8	Self-pings by both name and IP address are fine.	St
-1.1.9	All pings to the PC fail (timeout without any response).	St
-1.1.10	On the PC side: Windows XP Home SP2 Direct Ethernet connection to Mac via D-Link 10/100 Switch All link and activity lights on switch flash in reponse to ping, and all show speed is 100, full duplex IP address hard, manually assigned to Ethernet NIC: 192.168.0.2 / 255.255.255.0 Hosts file used for all local LAN addresses, no DNS No gateway or DNS IP addresses associated with that NIC/connection No routers present No direct connection to modem, broadband or otherwise.	St
-1.1.11	XP's tray and related displays show NIC is active and connected.	St
-1.1.12	Self-pings by both name and IP address are fine.	St
-1.1.13	All pings to the Mac fail (timeout without any response).	St
-1.1.14	Mac Hardware Configuration: Power Computing PowerBase PPC Macintosh with ATA disks and 3 PCI slots, running Mac OS 8.6 and Open Transport 2.0.3.	St
-1.1.15	NIC is Daynaport 10/100 PCI Ethernet Card.	St
-1.1.16	I've tried it on two different Ethernet hubs, and it's currently connected to my Windows XP PC via a D-Link 10/100 Switch.	St
-1.1.17	The latest driver compatible with MacOS 8.6 is installed and running and reports no error.	St
-1.1.18	And I know the PCI slot in question is working (it worked fine with a SCSI HBA there).	St
-1.1.19	Now, here's a possibly telling but puzzling fact: On the Windows side, there is a display showing the connection status and other details of the Ethernet NIC connection, and it consistently shows that zero packets have been recieved.	St
-1.1.20	However, when I ping the PC from the Mac (Mac -&gt; PC), the count of packets the PC has SENT increments for each ping!	St
-1.1.21	Unfortunately, the Mac still reports all pings have failed.	St
-1.1.22	I desperately need help, please.	St
-1.2.1	1. Who installed the PC's OS?	St
-1.2.2	Many don't install needed motherboard drivers.	St
-1.2.3	2.	St
-1.2.4	I can't find the discussion but we went down all the menus and checked XP's firewall and more settings to discover it was still not doing ping.	St
-1.2.5	The acid test was to boot up PCLinuxOS from CD and ping worked fine.	St
-1.2.6	So the hardware was good but no ping.	St
-1.2.7	FTP and the web worked fine so we ended there since we knew the PC's OS was corrupt but they felt it was not worth a reload just to get ping working again.	St
+1.1.1	Help !	St
+1.1.2	No ping responses in simple 2-node Mac & lt ; - & gt ; PC wired LAN I 've been trying for weeks , but I just can not get even the simplest Ethernet two-node LAN working under Mac OS 8.6 ( or 8.5.x either ) and Windows XP Home SP2 .	St
+1.1.3	This is a direct , wired Ethernet LAN with only two nodes .	St
+1.1.4	There is no router or gateway present , and Internet connection sharing is NOT desired .	St
+1.1.5	I 'm using Miramar 's PC MacLAN v 8 software for intercompatible file sharing .	St
+1.1.6	Current problem : NO pings get responses in either direction from either side .	St
+1.1.7	On the Mac side : Direct Ethernet connection to PC via D-Link 10/100 Switch All link and activity lights on switch flash in reponse to ping , and all show speed is 100 , full duplex IP address hard , manually assigned to Ethernet NIC : 192.168.0.4 / 255.255.255.0 Correctly formatted OT Hosts file used for all local LAN addresses , no DNS No gateway or DNS IP addresses associated with that NIC/connection No routers present No direct connection to modem , broadband or otherwise .	St
+1.1.8	Self-pings by both name and IP address are fine .	St
+1.1.9	All pings to the PC fail ( timeout without any response ) .	St
+1.1.10	On the PC side : Windows XP Home SP2 Direct Ethernet connection to Mac via D-Link 10/100 Switch All link and activity lights on switch flash in reponse to ping , and all show speed is 100 , full duplex IP address hard , manually assigned to Ethernet NIC : 192.168.0.2 / 255.255.255.0 Hosts file used for all local LAN addresses , no DNS No gateway or DNS IP addresses associated with that NIC/connection No routers present No direct connection to modem , broadband or otherwise .	St
+1.1.11	XP 's tray and related displays show NIC is active and connected .	St
+1.1.12	Self-pings by both name and IP address are fine .	St
+1.1.13	All pings to the Mac fail ( timeout without any response ) .	St
+1.1.14	Mac Hardware Configuration : Power Computing PowerBase PPC Macintosh with ATA disks and 3 PCI slots , running Mac OS 8.6 and Open Transport 2.0.3 .	St
+1.1.15	NIC is Daynaport 10/100 PCI Ethernet Card .	St
+1.1.16	I 've tried it on two different Ethernet hubs , and it 's currently connected to my Windows XP PC via a D-Link 10/100 Switch .	St
+1.1.17	The latest driver compatible with MacOS 8.6 is installed and running and reports no error .	St
+1.1.18	And I know the PCI slot in question is working ( it worked fine with a SCSI HBA there ) .	St
+1.1.19	Now , here 's a possibly telling but puzzling fact : On the Windows side , there is a display showing the connection status and other details of the Ethernet NIC connection , and it consistently shows that zero packets have been recieved .	St
+1.1.20	However , when I ping the PC from the Mac ( Mac - & gt ; PC ) , the count of packets the PC has SENT increments for each ping !	St
+1.1.21	Unfortunately , the Mac still reports all pings have failed .	St
+1.1.22	I desperately need help , please .	St
+1.2.1	1. Who installed the PC 's OS ?	Ques
+1.2.2	Many do n't install needed motherboard drivers .	St
+1.2.3	2 .	St
+1.2.4	I ca n't find the discussion but we went down all the menus and checked XP 's firewall and more settings to discover it was still not doing ping .	St
+1.2.5	The acid test was to boot up PCLinuxOS from CD and ping worked fine .	St
+1.2.6	So the hardware was good but no ping .	St
+1.2.7	FTP and the web worked fine so we ended there since we knew the PC 's OS was corrupt but they felt it was not worth a reload just to get ping working again .	St
 1.2.8	Bob	St
-1.3.1	Hello, again, Bob!	St
-1.3.2	It's great to hear from you!	Polite
-1.3.3	The PC is a Hewlett-Packard Pavillion, so HP installed Windows XP Home prior to shipment.	St
-1.3.4	I've also repeatedly run Windows/Microsoft Update and installed every urgent and just about every optional software update.	St
-1.3.5	And I'm using Zone Alarm Pro for my firewall, not Windows'.	St
-1.3.6	I've ensured that all local LAN IP addresses are in the Trusted Zone, and I've also tried exiting the firewall completely, but that didn't help.	St
-1.3.7	I used to have a Unix-derivative bootable CD, named something like Toppix(?).	St
-1.3.8	Do you think it would be worth re-downloading and burning a new copy to try it's ping (assuming it provides one)?	Sug
-1.3.9	Since there is no easy way to insert an Internet connection into this simple loop, and I have no desire to do so (certainly not before I have established at least minimal communications), the only networking I will be doing is file and folder sharing, aided by PC MacLAN.	St
-1.3.10	The shared folders on both machines are correctly set up and registered, but neither machine's shared resource finders can see the other.	St
-1.3.11	It seems I have nothing but difficult problems, eh?	St
-1.4.1	http://forums.cnet.com/5208-7589_102-0.html?forumID=62&threadID=226533&messageID=2366135#2366135 is where we dive deep into the Windows settings and they discover a setting they never saw before.	St
-1.4.2	Zone Alarm is something that can drop ping too.	St
-1.4.3	BUT if you read on we finally get a good test with PCLinuxOS and call it a day since we have good hardware.	St
-1.4.4	The mystery was never truly solved.	St
+1.3.1	Hello , again , Bob !	St
+1.3.2	It 's great to hear from you !	St
+1.3.3	The PC is a Hewlett-Packard Pavillion , so HP installed Windows XP Home prior to shipment .	St
+1.3.4	I 've also repeatedly run Windows/Microsoft Update and installed every urgent and just about every optional software update .	St
+1.3.5	And I 'm using Zone Alarm Pro for my firewall , not Windows ' .	St
+1.3.6	I 've ensured that all local LAN IP addresses are in the Trusted Zone , and I 've also tried exiting the firewall completely , but that did n't help .	St
+1.3.7	I used to have a Unix-derivative bootable CD , named something like Toppix ( ? ) .	St
+1.3.8	Do you think it would be worth re-downloading and burning a new copy to try it 's ping ( assuming it provides one ) ?	Ques
+1.3.9	Since there is no easy way to insert an Internet connection into this simple loop , and I have no desire to do so ( certainly not before I have established at least minimal communications ) , the only networking I will be doing is file and folder sharing , aided by PC MacLAN .	St
+1.3.10	The shared folders on both machines are correctly set up and registered , but neither machine 's shared resource finders can see the other .	St
+1.3.11	It seems I have nothing but difficult problems , eh ?	Ques
+1.4.1	http : //forums.cnet.com/5208-7589_102-0.html ? forumID=62 & threadID=226533 & messageID=2366135 # 2366135 is where we dive deep into the Windows settings and they discover a setting they never saw before .	St
+1.4.2	Zone Alarm is something that can drop ping too .	St
+1.4.3	BUT if you read on we finally get a good test with PCLinuxOS and call it a day since we have good hardware .	St
+1.4.4	The mystery was never truly solved .	St
 1.4.5	Bob	St
-1.5.1	Thanks for the link.	St
-1.5.2	I read the directly relevant parts of the tech document, then went and allowed/enabled everything in both ICMP-related areas of the Ethernet controller's settings.	St
-1.5.3	Still no luck.	St
-1.5.4	And to further explore bypassing the ping problem alltogether and instead relying on the file sharing applications, I tried searching for the Mac's shared folder in the Network Places (under the Miramar file sharing component of the Network Places), but I coulnd't find it.	St
-1.5.5	I tried creating a new share point there and hard-coded the Mac's IP address, but that didn't work either.	St
-1.5.6	So I'm currently downloading the minime version of the current release PCLinuxOS Live CD and will burn it and carry it over and try it.	St
-1.5.7	Any ideas where to find the ping feature there?	St
-1.6.1	The short version is to open a shell or command window and type ping this or that.	St
+1.5.1	Thanks for the link .	St
+1.5.2	I read the directly relevant parts of the tech document , then went and allowed/enabled everything in both ICMP-related areas of the Ethernet controller 's settings .	St
+1.5.3	Still no luck .	Polite
+1.5.4	And to further explore bypassing the ping problem alltogether and instead relying on the file sharing applications , I tried searching for the Mac 's shared folder in the Network Places ( under the Miramar file sharing component of the Network Places ) , but I coulnd't find it .	St
+1.5.5	I tried creating a new share point there and hard-coded the Mac 's IP address , but that did n't work either .	St
+1.5.6	So I 'm currently downloading the minime version of the current release PCLinuxOS Live CD and will burn it and carry it over and try it .	St
+1.5.7	Any ideas where to find the ping feature there ?	Ques
+1.6.1	The short version is to open a shell or command window and type ping this or that .	St
 1.6.2	Bob	St
-1.7.1	As I said, I downloaded and burnt the 93a minime ISO.	St
-1.7.2	And at first, everthing seemed fine.	St
-1.7.3	I verifed the MD5 checksum, then tried a normal boot.	St
-1.7.4	Everything looked fine, but after running through all the setup without visible error, it &quot;booted&quot; into a blank grey screen and sat there doing nothing.	St
-1.7.5	So I tried booting it into RAM with noapci and nolapci (sp?).	St
-1.7.6	That did exactly the same thing.	St
-1.7.7	Can you offer any assistance, or should I try getting Knoppix instead, or what?	Ques
-1.8.1	I read more of the PCLinuxOS user's guide and decided I'd better try a safeboot.	St
-1.8.2	There were a few reports of this or that not found, but nothing seemed fatal.	St
-1.8.3	Then it displayed some text that began with something like &quot;Loading GUI... (and another paragraph of text that disappeared too fast to read)&quot;, then it went into the Grey Screen of Death (i.e., nothing but a blank grey screen).	St
-1.9.1	I'd try a current ubuntu or the rather nice PCLinuxOS 2007 TR3.	Sug
+1.7.1	As I said , I downloaded and burnt the 93a minime ISO .	St
+1.7.2	And at first , everthing seemed fine .	St
+1.7.3	I verifed the MD5 checksum , then tried a normal boot .	St
+1.7.4	Everything looked fine , but after running through all the setup without visible error , it & quot ; booted & quot ; into a blank grey screen and sat there doing nothing .	St
+1.7.5	So I tried booting it into RAM with noapci and nolapci ( sp ? ) .	St
+1.7.6	That did exactly the same thing .	St
+1.7.7	Can you offer any assistance , or should I try getting Knoppix instead , or what ?	Ques
+1.8.1	I read more of the PCLinuxOS user 's guide and decided I 'd better try a safeboot .	St
+1.8.2	There were a few reports of this or that not found , but nothing seemed fatal .	St
+1.8.3	Then it displayed some text that began with something like & quot ; Loading GUI ... ( and another paragraph of text that disappeared too fast to read ) & quot ; , then it went into the Grey Screen of Death ( i.e. , nothing but a blank grey screen ) .	St
+1.9.1	I 'd try a current ubuntu or the rather nice PCLinuxOS 2007 TR3 .	Sug
 1.9.2	Bob	St
-1.10.1	I've looked into Ubuntu, but unlike PCLinuxOS and Knoppix, it doesn't appear to download a burnable, bootable ISO.	St
-1.10.2	Do you know any different?	St
-1.10.3	And I'm sure you'll understand why I'm going to stay away from PCLinuxOS 2007 TR3, since the other recent version doesn't even boot properly on my PC.	St
-1.10.4	So, unless you tell me differently about a directly burnable, bootable Ubuntu ISO, I'll stick with Knoppix unless you know a reason not to do that.	St
-1.11.1	You go get some .exe and it makes the iso.	Sug
-1.11.2	But I run and use the PCLinuxOS TR3 for now and hope to see TR4 by next week.	St
-1.11.3	For me it's all good.	St
-1.11.4	Sorry you are skipping the new 2007 because an old distro is dead.	St
-1.11.5	For me I have 3 LiveCDs for such troubleshooting.	St
-1.11.6	Hope Knoppix behaves.	St
+1.10.1	I 've looked into Ubuntu , but unlike PCLinuxOS and Knoppix , it does n't appear to download a burnable , bootable ISO .	St
+1.10.2	Do you know any different ?	Ques
+1.10.3	And I 'm sure you 'll understand why I 'm going to stay away from PCLinuxOS 2007 TR3 , since the other recent version does n't even boot properly on my PC .	St
+1.10.4	So , unless you tell me differently about a directly burnable , bootable Ubuntu ISO , I 'll stick with Knoppix unless you know a reason not to do that .	St
+1.11.1	You go get some .exe and it makes the iso .	Sug
+1.11.2	But I run and use the PCLinuxOS TR3 for now and hope to see TR4 by next week .	St
+1.11.3	For me it 's all good .	St
+1.11.4	Sorry you are skipping the new 2007 because an old distro is dead .	St
+1.11.5	For me I have 3 LiveCDs for such troubleshooting .	St
+1.11.6	Hope Knoppix behaves .	St
 1.11.7	Bob	St
-1.12.1	I just booted up v 5.1 (Jan 2007) of the Knoppix CD, and it booted and ran great.	St
-1.12.2	Wow, they sure have improved the hell out of it since I last used it!	St
-1.12.3	Like they've added full read-write NTFS (which I'm sure PCLinuxOS has had for a while, too).	St
-1.12.4	It's pretty cool, actually.	St
-1.12.5	I'm gonna be playing around with it much more.	St
-1.12.6	The only problem is that Knoppix seems TOO powerful.	St
-1.12.7	It looks like there's dozens of different ways to do the same thing, according to taste.	St
-1.12.8	Anyway, the GUI's pretty intuitive.	St
-1.12.9	I found the NIC configuration tool and set up the Ethernet's LAN with the same settings as Windows.	St
-1.12.10	I also disabled Knoppix's built-in firewall.	St
-1.12.11	Then I opened a shell window and pinged away.	St
-1.12.12	The results are just what we've seen in Windows.	St
-1.12.13	Self-pings work great, pings out to the Mac time-out and fail with a message indicating an &quot;unreachable host&quot;.	St
-1.12.14	Damn.	St
-1.12.15	I'm still eager for ideas, but I'm gonna go crash for 8-9 hours.	St
-1.12.16	See ya, Bob.	St
-1.13.1	I think it's a hardware issue.	St
-1.13.2	What spare network card is there?	St
-1.13.3	Is there a BIOS &quot;Defaults&quot; in the BIOS Screen?	St
-1.13.4	Why I ask is someone sometime had &quot;locked down&quot; the IRQ assignments and gummed up the works.	St
-1.13.5	They were remembering the bad old days of ISA BUS and needed a little push to PCI.	St
+1.12.1	I just booted up v 5.1 ( Jan 2007 ) of the Knoppix CD , and it booted and ran great .	St
+1.12.2	Wow , they sure have improved the hell out of it since I last used it !	St
+1.12.3	Like they 've added full read-write NTFS ( which I 'm sure PCLinuxOS has had for a while , too ) .	St
+1.12.4	It 's pretty cool , actually .	Polite
+1.12.5	I 'm gon na be playing around with it much more .	St
+1.12.6	The only problem is that Knoppix seems TOO powerful .	St
+1.12.7	It looks like there 's dozens of different ways to do the same thing , according to taste .	St
+1.12.8	Anyway , the GUI 's pretty intuitive .	St
+1.12.9	I found the NIC configuration tool and set up the Ethernet 's LAN with the same settings as Windows .	St
+1.12.10	I also disabled Knoppix 's built-in firewall .	St
+1.12.11	Then I opened a shell window and pinged away .	St
+1.12.12	The results are just what we 've seen in Windows .	St
+1.12.13	Self-pings work great , pings out to the Mac time-out and fail with a message indicating an & quot ; unreachable host & quot ; .	St
+1.12.14	Damn .	St
+1.12.15	I 'm still eager for ideas , but I 'm gon na go crash for 8-9 hours .	St
+1.12.16	See ya , Bob .	St
+1.13.1	I think it 's a hardware issue .	St
+1.13.2	What spare network card is there ?	Ques
+1.13.3	Is there a BIOS & quot ; Defaults & quot ; in the BIOS Screen ?	Ques
+1.13.4	Why I ask is someone sometime had & quot ; locked down & quot ; the IRQ assignments and gummed up the works .	St
+1.13.5	They were remembering the bad old days of ISA BUS and needed a little push to PCI .	St
 1.13.6	Bob	St
-1.14.1	Critical new info -- The Macintosh is at fault.	St
-1.14.2	I finally got the chance to borrow someone's laptop and tried, one after the other, connecting to the two primary machines.	St
-1.14.3	I tried talking to the Mac first, using Windows on the laptop, and the symptoms were the same as always.	St
-1.14.4	Then I decided to boot up the live CD of Knoppix on the laptop, just to make sure the problem wasn't Windows, and that failed too.	St
-1.14.5	So I connected to the main PC running Windows XP with Knoppix on the laptop, and lo and behold, it worked perfectly!	St
-1.14.6	That also gave me a way to test all the cables, and all of them are working fine, and naturaly we now know the D-Link Switch is working right, also.	St
-1.14.7	I sincerely thank everyone who's helped get me this far!	Polite
-1.14.8	Now: can anyone help me solve the Mac's problem without without investing more money into this old Mac?	Ques
-1.14.9	Please recall that I've already tried two different NICs in the Mac: One Asante and one Dayna.	St
-1.14.10	All indications are that the Dayna is working better.	St
-1.14.11	So how about we proceed for the time being on the assumption that the Mac's Dayna NIC is working, and that there's some software problem?	St
-1.14.12	I don't have a third NIC to try.	St
-1.14.13	Everyone's embedding them in their mobos these days.	St
-1.14.14	But if in a few days the problem remains, then I will buy a new NIC for the Macintosh.	St
-1.15.1	It's time to post this in the Mac Hardware Forum.	St
-1.15.2	Tell a little there and link to this discussion and Macfixit our Mac guru will likely respond.	St
-1.15.3	You can see why we used the LiveCD.	St
-1.15.4	If not we would have pointing at the PC till no end of time.	St
-1.15.5	My only thought here is wiring.	St
-1.15.6	I wonder if the cable was homemade.	St
+1.14.1	Critical new info -- The Macintosh is at fault .	St
+1.14.2	I finally got the chance to borrow someone 's laptop and tried , one after the other , connecting to the two primary machines .	St
+1.14.3	I tried talking to the Mac first , using Windows on the laptop , and the symptoms were the same as always .	St
+1.14.4	Then I decided to boot up the live CD of Knoppix on the laptop , just to make sure the problem was n't Windows , and that failed too .	St
+1.14.5	So I connected to the main PC running Windows XP with Knoppix on the laptop , and lo and behold , it worked perfectly !	St
+1.14.6	That also gave me a way to test all the cables , and all of them are working fine , and naturaly we now know the D-Link Switch is working right , also .	St
+1.14.7	I sincerely thank everyone who 's helped get me this far !	Polite
+1.14.8	Now : can anyone help me solve the Mac 's problem without without investing more money into this old Mac ?	Ques
+1.14.9	Please recall that I 've already tried two different NICs in the Mac : One Asante and one Dayna .	St
+1.14.10	All indications are that the Dayna is working better .	St
+1.14.11	So how about we proceed for the time being on the assumption that the Mac 's Dayna NIC is working , and that there 's some software problem ?	Ques
+1.14.12	I do n't have a third NIC to try .	St
+1.14.13	Everyone 's embedding them in their mobos these days .	St
+1.14.14	But if in a few days the problem remains , then I will buy a new NIC for the Macintosh .	St
+1.15.1	It 's time to post this in the Mac Hardware Forum .	St
+1.15.2	Tell a little there and link to this discussion and Macfixit our Mac guru will likely respond .	St
+1.15.3	You can see why we used the LiveCD .	St
+1.15.4	If not we would have pointing at the PC till no end of time .	St
+1.15.5	My only thought here is wiring .	St
+1.15.6	I wonder if the cable was homemade .	St
 1.15.7	Bob	St

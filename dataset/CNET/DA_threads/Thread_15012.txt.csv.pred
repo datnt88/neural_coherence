@@ -1,38 +1,38 @@
-1.1.1	There is always static on my VOIP phone calls and it is bad.	St
-1.1.2	The service provider has not been able to resolve it, and I think it may be something in the wires or in my house.	St
-1.1.3	I get the static with the wireless phone and the fax phone.	St
-1.1.4	I had the same problem with my land line (long since dropped this service).	St
-1.1.5	Is there a way to stop this noise?	St
-1.1.6	Setup: Cable modem from Motorola (9yrs old) Lingo box (that I take around the world with me) Panasonic 5.8 gigahertz cordless phone Fax modem also connected No land line connected Phones not connected to any wired lines.	St
-1.2.1	Did you try a corded phone with the lingo?	St
-1.3.1	The first thing to try as bob pointed out is a corded phone.	St
-1.3.2	I assume if you travel with the box you have something to plug into it.	St
-1.3.3	If you have the software loaded you could also try to make a call from your PC ... pretty much eliminates everything but your connection and your modem.	Sug
-1.3.4	Although if your modem is not a ROUTER then both devices have their own IP.	St
-1.3.5	Noise on VoIP calls is mostly caused by packet loss but unlike data it cannot retransmit the information.	St
-1.3.6	VoIP also will drop packets that arrive too late ...ie jitter.	St
-1.3.7	This is fairly involved to test but if you would ping from your PC to the first address within your ISP network you could check your connection.	St
-1.3.8	You want to see little or no loss and the the time to be consistent, DIFFERENCE between the numbers is jitter and voice does not like much over 100ms but even 50ms can be heard.	St
-1.3.9	If you see a issue maybe you can get your ISP to fix it.	St
-1.3.10	Lingo uses a protocol called 729 to encode the voice this does a good job of compression but is much less tolerant of packet loss than say vontage which uses g711 which send 4 times the data on average.	St
-1.3.11	I use skype and it use its own secret encoding which seems to work even on very bad connection.	St
-1.4.1	Thanks for the reply.	St
-1.4.2	I have tried wired phones plugged into the box with no help.	St
-1.4.3	Skype is crystal clear.	St
-1.4.4	I wonder if it is some interference from outside signals.	St
-1.5.1	With the corded phone you have eliminated most everything.	St
-1.5.2	You have the lingo box itself, your router, your connection to the internet.	St
-1.5.3	If it work other places then it is most likely your internet connection.	St
-1.5.4	Although something could interfere with the circuits inside the lingo box it is unlikely Getting your ISP to fix it is a issue.	St
-1.5.5	They will first deny there is a issue and then try to say they provide no quality of service in their contract.	St
-1.5.6	Unfortunately the next step will be to do the ISP job for them.	St
-1.5.7	That would be to use a tool like wireshark and capture the data so you can actually see the jitter.	St
-1.5.8	Even though wireshark has nice things tools that will let you listen to a captured call it still take a large amount of knowledge of VoIP to pinpoint a problem.	St
-1.5.9	You other problem will be to find a way to capture the data in the first place you need to get between the lingo and the router.	St
-1.5.10	I really wish skype would license there their method... but then again I get paid to fix broken VoIP so maybe not.	St
-1.6.1	Since you move from place to place with it that means you can dismiss it as your ISP issue.	St
-1.6.2	HOWEVER even my standard POTS phone has some static.	St
-1.6.3	It's not a perfect system.	St
-1.6.4	TODAY I'm encountering folk that expect High Definition phone connections.	St
-1.6.5	Skype delivers that!	St
+1.1.1	There is always static on my VOIP phone calls and it is bad .	St
+1.1.2	The service provider has not been able to resolve it , and I think it may be something in the wires or in my house .	St
+1.1.3	I get the static with the wireless phone and the fax phone .	St
+1.1.4	I had the same problem with my land line ( long since dropped this service ) .	St
+1.1.5	Is there a way to stop this noise ?	Ques
+1.1.6	Setup : Cable modem from Motorola ( 9yrs old ) Lingo box ( that I take around the world with me ) Panasonic 5.8 gigahertz cordless phone Fax modem also connected No land line connected Phones not connected to any wired lines .	St
+1.2.1	Did you try a corded phone with the lingo ?	Ques
+1.3.1	The first thing to try as bob pointed out is a corded phone .	St
+1.3.2	I assume if you travel with the box you have something to plug into it .	St
+1.3.3	If you have the software loaded you could also try to make a call from your PC ... pretty much eliminates everything but your connection and your modem .	Sug
+1.3.4	Although if your modem is not a ROUTER then both devices have their own IP .	St
+1.3.5	Noise on VoIP calls is mostly caused by packet loss but unlike data it can not retransmit the information .	St
+1.3.6	VoIP also will drop packets that arrive too late ... ie jitter .	St
+1.3.7	This is fairly involved to test but if you would ping from your PC to the first address within your ISP network you could check your connection .	St
+1.3.8	You want to see little or no loss and the the time to be consistent , DIFFERENCE between the numbers is jitter and voice does not like much over 100ms but even 50ms can be heard .	St
+1.3.9	If you see a issue maybe you can get your ISP to fix it .	St
+1.3.10	Lingo uses a protocol called 729 to encode the voice this does a good job of compression but is much less tolerant of packet loss than say vontage which uses g711 which send 4 times the data on average .	St
+1.3.11	I use skype and it use its own secret encoding which seems to work even on very bad connection .	St
+1.4.1	Thanks for the reply .	St
+1.4.2	I have tried wired phones plugged into the box with no help .	St
+1.4.3	Skype is crystal clear .	St
+1.4.4	I wonder if it is some interference from outside signals .	St
+1.5.1	With the corded phone you have eliminated most everything .	St
+1.5.2	You have the lingo box itself , your router , your connection to the internet .	St
+1.5.3	If it work other places then it is most likely your internet connection .	St
+1.5.4	Although something could interfere with the circuits inside the lingo box it is unlikely Getting your ISP to fix it is a issue .	St
+1.5.5	They will first deny there is a issue and then try to say they provide no quality of service in their contract .	St
+1.5.6	Unfortunately the next step will be to do the ISP job for them .	St
+1.5.7	That would be to use a tool like wireshark and capture the data so you can actually see the jitter .	St
+1.5.8	Even though wireshark has nice things tools that will let you listen to a captured call it still take a large amount of knowledge of VoIP to pinpoint a problem .	St
+1.5.9	You other problem will be to find a way to capture the data in the first place you need to get between the lingo and the router .	St
+1.5.10	I really wish skype would license there their method ... but then again I get paid to fix broken VoIP so maybe not .	St
+1.6.1	Since you move from place to place with it that means you can dismiss it as your ISP issue .	St
+1.6.2	HOWEVER even my standard POTS phone has some static .	St
+1.6.3	It 's not a perfect system .	St
+1.6.4	TODAY I 'm encountering folk that expect High Definition phone connections .	St
+1.6.5	Skype delivers that !	St
 1.6.6	Bob	St

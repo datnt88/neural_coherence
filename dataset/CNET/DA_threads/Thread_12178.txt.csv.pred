@@ -1,33 +1,33 @@
-1.1.1	Hello, This topic is an extension of a topic I recently posted called Where is my free space?.	St
-1.1.2	I followed the suggestions I received but nothing seemed to work, so I purchased a new SATA hard drive.	St
-1.1.3	The previous problem is of no concern any longer, but a new issue has risen.	St
-1.1.4	I will try to be short and keep this as simple as possible.	St
-1.1.5	Ill be talking about 2 SATA drives that I have (please see the image), Disk 0 (D:) and Disk 1 (C:).	St
-1.1.6	The NEW drive is Disk 0 (D:), which I added two days ago.	St
-1.1.7	Currently my OS is running on it.	St
-1.1.8	Previously I used Disk 1 (C:), which still has the old installation of Windows on.	St
-1.1.9	The original intention I had was to install Windows on the NEW drive, then format the OLD one and use it for whatever.	St
-1.1.10	When the NEW drive arrived, I unplugged the old one and plugged in the NEW one, then proceeded to install Windows.	St
-1.1.11	That didnt work.	St
-1.1.12	I got the following message (or similar), partition table invalid.	St
-1.1.13	Then I connected the OLD drive, and then I was able to start installation of Windows on my NEW drive.	St
-1.1.14	After I finished installing Windows, I proceeded to format my OLD drive.	St
-1.1.15	That did not work, because Windows sees OLD disk as a System Volume, and my NEW disk as a Boot Volume (I do not know the difference between the two).	St
-1.1.16	Now when I disconnect the OLD drive (C:), and turn on the PC, during the boot process I get the following message: NTLDR is missing.	St
-1.1.17	When you look at the picture, youll see that under Computer Management &gt; Disk Management I do not have the options to Format, Delete Volume or Convert to Basic Disk (I converted it to Dynamic hoping that that would change something and allow me to format the OLD drive).	St
-1.1.18	I also tried changing Boot Priority in BIOS, putting the NEW drive as number 1 (please remember that Windows is running from this drive).	St
-1.1.19	When I do that, I again get the message that NTLDR is missing.	St
-1.1.20	When I change Boot Priority back to the OLD drive, even though I run Windows from a different drive, I am able to boot.	St
-1.1.21	So the question is: how do I get this to work and format the OLD drive?	St
-1.1.22	Im assuming I need to change something so the NEW drive becomes a System Volume, but how do I do this?	St
-1.1.23	Thank you all a lot!!!	St
-1.1.24	XP SP2 http://img150.imageshack.us/img150/6699/diskmanagement1tg5.jpg P.S.	St
-1.1.25	Admins, if this needs to go to XP, then please move it.	Sug
-1.2.1	http://forums.cnet.com/5208-6142_102-0.html?forumID=5&threadID=228579&messageID=2375764	St
+1.1.1	Hello , This topic is an extension of a topic I recently posted called Where is my free space ? .	St
+1.1.2	I followed the suggestions I received but nothing seemed to work , so I purchased a new SATA hard drive .	St
+1.1.3	The previous problem is of no concern any longer , but a new issue has risen .	St
+1.1.4	I will try to be short and keep this as simple as possible .	St
+1.1.5	Ill be talking about 2 SATA drives that I have ( please see the image ) , Disk 0 ( D : ) and Disk 1 ( C : ) .	St
+1.1.6	The NEW drive is Disk 0 ( D : ) , which I added two days ago .	St
+1.1.7	Currently my OS is running on it .	St
+1.1.8	Previously I used Disk 1 ( C : ) , which still has the old installation of Windows on .	St
+1.1.9	The original intention I had was to install Windows on the NEW drive , then format the OLD one and use it for whatever .	St
+1.1.10	When the NEW drive arrived , I unplugged the old one and plugged in the NEW one , then proceeded to install Windows .	St
+1.1.11	That didnt work .	St
+1.1.12	I got the following message ( or similar ) , partition table invalid .	St
+1.1.13	Then I connected the OLD drive , and then I was able to start installation of Windows on my NEW drive .	St
+1.1.14	After I finished installing Windows , I proceeded to format my OLD drive .	St
+1.1.15	That did not work , because Windows sees OLD disk as a System Volume , and my NEW disk as a Boot Volume ( I do not know the difference between the two ) .	St
+1.1.16	Now when I disconnect the OLD drive ( C : ) , and turn on the PC , during the boot process I get the following message : NTLDR is missing .	St
+1.1.17	When you look at the picture , youll see that under Computer Management & gt ; Disk Management I do not have the options to Format , Delete Volume or Convert to Basic Disk ( I converted it to Dynamic hoping that that would change something and allow me to format the OLD drive ) .	St
+1.1.18	I also tried changing Boot Priority in BIOS , putting the NEW drive as number 1 ( please remember that Windows is running from this drive ) .	St
+1.1.19	When I do that , I again get the message that NTLDR is missing .	St
+1.1.20	When I change Boot Priority back to the OLD drive , even though I run Windows from a different drive , I am able to boot .	St
+1.1.21	So the question is : how do I get this to work and format the OLD drive ?	Ques
+1.1.22	Im assuming I need to change something so the NEW drive becomes a System Volume , but how do I do this ?	Ques
+1.1.23	Thank you all a lot ! ! !	St
+1.1.24	XP SP2 http : //img150.imageshack.us/img150/6699/diskmanagement1tg5.jpg P.S .	St
+1.1.25	Admins , if this needs to go to XP , then please move it .	Sug
+1.2.1	http : //forums.cnet.com/5208-6142_102-0.html ? forumID=5 & threadID=228579 & messageID=2375764	St
 1.3.1	HDD..	St
-1.3.2	The SYSTEM DRIVE(C:)should be ready for installation right out of the box..Empty..but ready for a Operateing System INSTALL..	St
-1.3.3	If you want to CREATE a second HDD..for FILES/FOLDERS.. You need to set the PINS to CABLE SELECT[CS]or even SLAVE.. .. a SATA HDD..is no differant than your Standard HDD[IDE]ATA.. what SATA has offered is the USE of Multiple HDD's..and eliminateng the FLAT-DATA-Cable..useing the NEW----SATA Cable....this eliminates the Interference......of the FLAT-cable between the two DRIVES.. .. SATA-cables are hooked directly to the Motherboard..via the SATA-cable..I have 4-Connectors for SATA on my Intel D915GAG Mobo.... ..	St
+1.3.2	The SYSTEM DRIVE ( C : ) should be ready for installation right out of the box..Empty..but ready for a Operateing System INSTALL..	St
+1.3.3	If you want to CREATE a second HDD..for FILES/FOLDERS.. You need to set the PINS to CABLE SELECT [ CS ] or even SLAVE.. .. a SATA HDD..is no differant than your Standard HDD [ IDE ] ATA.. what SATA has offered is the USE of Multiple HDD's..and eliminateng the FLAT-DATA-Cable..useing the NEW -- -- SATA Cable ... .this eliminates the Interference ... ... of the FLAT-cable between the two DRIVES.. .. SATA-cables are hooked directly to the Motherboard..via the SATA-cable..I have 4-Connectors for SATA on my Intel D915GAG Mobo ... . ..	St
 1.3.4	Check the manufacturers website for INFO..	St
-1.3.5	I use one SATA[System]and 4-Ext.HDD.. ..	St
+1.3.5	I use one SATA [ System ] and 4-Ext.HDD.. ..	St
 1.3.6	The thing is its difficult to remember exactly what I set the PINS/its been running for over a year..	St
-1.3.7	So you need to visit the WebSite for your Drive.	St
+1.3.7	So you need to visit the WebSite for your Drive .	St

@@ -1,26 +1,26 @@
-1.1.1	While researching something else, I ran across an article about matching mtu settings on my home LAN to what my ISP likes for the Internet.	St
-1.1.2	Changing MTU setting supposedly solves some problems with page hangs/unsuccessful download of large pages.	St
-1.1.3	I tried pinging a couple of Internet sites and also other computers on the LAN.	St
-1.1.4	When I ping other computers on the LAN the maximum MTU that works is 1492.	St
-1.1.5	When I ping web sites the maximum that works is 1454.	St
-1.1.6	I'm connected to the Internet via fiber broadband.	St
-1.1.7	I do experience occasional problems loading pages, usually at heavily scripted pages like mail.yahoo.com, but occasionally other pages.	St
-1.1.8	It isn't a big problem so I have mostly ignored it.	St
-1.1.9	I understand that if my computer is trying to send packets larger than the MTU then the packets get fragmented, it creates extra overhead and so on.	St
-1.1.10	What I don't know is how important this is in the real world.	St
-1.1.11	Any thoughts?	St
-1.1.12	If the connection is generally working as is, is there much utility to trying to change the MTU for everybody on the network?	St
-1.1.13	Thanks.	St
-1.2.1	If things are working correctly MTU is &quot;discovered&quot; when the session is initiated.	St
-1.2.2	MTU can change anyplace in the path.	St
-1.2.3	There is so much equipment there is no way to know for sure.	St
-1.2.4	The one place that MTU size has a large impact is when the do not fragment flag is set.	St
-1.2.5	Normally a device that cannot pass it will return a messages via ICMP that says fragmentation required but the flag is set and drop the packet.	St
-1.2.6	The client then resends it with a smaller MTU.	St
-1.2.7	When a firewall blocks this message (some people do not know ICMP is not always ping) you get very strange and hard to debug issues.	St
-1.2.8	Packet fragmentation used to be a much larger issue.	St
-1.2.9	Depends what device is doing the reassembly of the packet.	St
-1.2.10	PCs now days have plenty of power and so do most routers and firewalls.	St
-1.2.11	There is also the issue of extra overhead for the tcp header on the fragments but bandwidth is huge so that also makes little difference.	St
-1.2.12	The only MTU settings that make a large performance difference is when you can run jumbo frames but this is limited to equipment that can support this.	St
-1.3.1	I'll leave the settings where they are for now.	Sug
+1.1.1	While researching something else , I ran across an article about matching mtu settings on my home LAN to what my ISP likes for the Internet .	St
+1.1.2	Changing MTU setting supposedly solves some problems with page hangs/unsuccessful download of large pages .	St
+1.1.3	I tried pinging a couple of Internet sites and also other computers on the LAN .	St
+1.1.4	When I ping other computers on the LAN the maximum MTU that works is 1492 .	St
+1.1.5	When I ping web sites the maximum that works is 1454 .	St
+1.1.6	I 'm connected to the Internet via fiber broadband .	St
+1.1.7	I do experience occasional problems loading pages , usually at heavily scripted pages like mail.yahoo.com , but occasionally other pages .	St
+1.1.8	It is n't a big problem so I have mostly ignored it .	St
+1.1.9	I understand that if my computer is trying to send packets larger than the MTU then the packets get fragmented , it creates extra overhead and so on .	St
+1.1.10	What I do n't know is how important this is in the real world .	St
+1.1.11	Any thoughts ?	Ques
+1.1.12	If the connection is generally working as is , is there much utility to trying to change the MTU for everybody on the network ?	Ques
+1.1.13	Thanks .	Polite
+1.2.1	If things are working correctly MTU is & quot ; discovered & quot ; when the session is initiated .	St
+1.2.2	MTU can change anyplace in the path .	St
+1.2.3	There is so much equipment there is no way to know for sure .	St
+1.2.4	The one place that MTU size has a large impact is when the do not fragment flag is set .	St
+1.2.5	Normally a device that can not pass it will return a messages via ICMP that says fragmentation required but the flag is set and drop the packet .	St
+1.2.6	The client then resends it with a smaller MTU .	St
+1.2.7	When a firewall blocks this message ( some people do not know ICMP is not always ping ) you get very strange and hard to debug issues .	St
+1.2.8	Packet fragmentation used to be a much larger issue .	St
+1.2.9	Depends what device is doing the reassembly of the packet .	St
+1.2.10	PCs now days have plenty of power and so do most routers and firewalls .	St
+1.2.11	There is also the issue of extra overhead for the tcp header on the fragments but bandwidth is huge so that also makes little difference .	St
+1.2.12	The only MTU settings that make a large performance difference is when you can run jumbo frames but this is limited to equipment that can support this .	St
+1.3.1	I 'll leave the settings where they are for now .	St

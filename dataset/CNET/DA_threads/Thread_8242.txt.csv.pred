@@ -1,39 +1,39 @@
-1.1.1	Ok, A few months ago I bought a 108mbps Netgear router with MIMO.	St
-1.1.2	Today I bought a 240mbps Netgear Wifi USB adapter.	St
-1.1.3	I just cant get my computer to accept a 54mbps+ connection.	St
-1.1.4	I have checked: drivers USB ports software router configuration router driver What can I do?	St
-1.1.5	My internal NIC, which I didnt think had to do with anything get 1gbps.	St
-1.2.1	why would you use an additional networking device without first disabling the integrated one.	Ques
-1.3.1	802.11G is a standard and provides 54 meg pretty easily if you are near by the AP.	St
-1.3.2	What is the distance between AP and computer?	St
-1.3.3	Are there walls or other obstacles between the two devices?	St
-1.3.4	Super G is not standard.	St
-1.3.5	It is supported by many chipsets but not all.	St
-1.3.6	It uses 2 of the 3 non-overlapping channels to get 108 mbps.	St
-1.3.7	Both devices need to support Super G to see this benefit.	St
-1.3.8	I believe your 240 mbps AP is probaby Pre-802.11n.	St
-1.3.9	802.11n is not a standard yet and probably will not be for a year.	St
-1.3.10	So this means vendor proprietary to get these speeds.	St
-1.3.11	And the USB adapter would need to be 802.11n as well to support the 240 mbps.	St
-1.4.1	The integrated one is disabled.	St
-1.5.1	The distance between my router and my computer is not more than 20 ft with no walls in between.	St
-1.5.2	Also my AP only gets speeds of up to 108mbps my usb adapter can support speeds of 240mbps.	St
-1.6.1	You should be able to get a 54M signal under those circumstances.	St
-1.6.2	If not, try changing channels.	Sug
-1.6.3	Usable channels are 1, 6 and 11.	St
-1.6.4	If Super G is enabled it uses 2 channels simultaneously.	St
-1.6.5	Do you have neighbors with APs?	St
-1.6.6	Do you have a 2.4Ghz cordless phone?	St
-1.6.7	Do you use Bluetooth devices?	St
-1.6.8	All of these use the same frequencies as 802.11g.	St
-1.6.9	You can also try downloading Netstumbler and see if it works with your USB adapter.	Sug
-1.6.10	Netstumbler will tell you the signal strength of your AP signal.	St
-1.6.11	Any value between 0 and -70 should give you 54M.	St
-1.6.12	Unless there is noise or interference.	St
-1.6.13	netstumbler will also tell you the signal to noise ratio.	St
-1.6.14	Did the USB wireless come with any tools?	St
-1.6.15	Some wireless management software shows the signal strength.	St
-1.6.16	Good luck!	St
-1.7.1	You didn't specify the exact model numbers of your equipment, but you did give enough to tell that these two devices will NEVER connect at anything above 54Mbps.	St
-1.7.2	The AP contains an Atheros SuperG chipset and the USB adapter has an AIRGO True MIMO chipset inside and they don't have any common transmission rates above the standard 802.11g 54Mbps rate.	St
-1.7.3	Sorry, but the two devices either both need to be 108Mbps Super G or both 240 Rangemax devices to connect at higher speeds.	St
+1.1.1	Ok , A few months ago I bought a 108mbps Netgear router with MIMO .	St
+1.1.2	Today I bought a 240mbps Netgear Wifi USB adapter .	St
+1.1.3	I just cant get my computer to accept a 54mbps+ connection .	St
+1.1.4	I have checked : drivers USB ports software router configuration router driver What can I do ?	Ques
+1.1.5	My internal NIC , which I didnt think had to do with anything get 1gbps .	St
+1.2.1	why would you use an additional networking device without first disabling the integrated one .	St
+1.3.1	802.11G is a standard and provides 54 meg pretty easily if you are near by the AP .	St
+1.3.2	What is the distance between AP and computer ?	Ques
+1.3.3	Are there walls or other obstacles between the two devices ?	Ques
+1.3.4	Super G is not standard .	St
+1.3.5	It is supported by many chipsets but not all .	St
+1.3.6	It uses 2 of the 3 non-overlapping channels to get 108 mbps .	St
+1.3.7	Both devices need to support Super G to see this benefit .	St
+1.3.8	I believe your 240 mbps AP is probaby Pre-802.11n .	St
+1.3.9	802.11n is not a standard yet and probably will not be for a year .	St
+1.3.10	So this means vendor proprietary to get these speeds .	St
+1.3.11	And the USB adapter would need to be 802.11n as well to support the 240 mbps .	St
+1.4.1	The integrated one is disabled .	St
+1.5.1	The distance between my router and my computer is not more than 20 ft with no walls in between .	St
+1.5.2	Also my AP only gets speeds of up to 108mbps my usb adapter can support speeds of 240mbps .	St
+1.6.1	You should be able to get a 54M signal under those circumstances .	St
+1.6.2	If not , try changing channels .	St
+1.6.3	Usable channels are 1 , 6 and 11 .	St
+1.6.4	If Super G is enabled it uses 2 channels simultaneously .	St
+1.6.5	Do you have neighbors with APs ?	Ques
+1.6.6	Do you have a 2.4Ghz cordless phone ?	Ques
+1.6.7	Do you use Bluetooth devices ?	Ques
+1.6.8	All of these use the same frequencies as 802.11g .	St
+1.6.9	You can also try downloading Netstumbler and see if it works with your USB adapter .	St
+1.6.10	Netstumbler will tell you the signal strength of your AP signal .	St
+1.6.11	Any value between 0 and -70 should give you 54M .	St
+1.6.12	Unless there is noise or interference .	St
+1.6.13	netstumbler will also tell you the signal to noise ratio .	St
+1.6.14	Did the USB wireless come with any tools ?	Ques
+1.6.15	Some wireless management software shows the signal strength .	St
+1.6.16	Good luck !	Polite
+1.7.1	You did n't specify the exact model numbers of your equipment , but you did give enough to tell that these two devices will NEVER connect at anything above 54Mbps .	St
+1.7.2	The AP contains an Atheros SuperG chipset and the USB adapter has an AIRGO True MIMO chipset inside and they do n't have any common transmission rates above the standard 802.11g 54Mbps rate .	St
+1.7.3	Sorry , but the two devices either both need to be 108Mbps Super G or both 240 Rangemax devices to connect at higher speeds .	St

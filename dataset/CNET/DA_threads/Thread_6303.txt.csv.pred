@@ -1,130 +1,130 @@
-1.1.1	I installed my system into a new case and when I plugged it in there was no live at all.	St
-1.1.2	No beeps, no fans, no lights, power supply did not start up.	Res
-1.1.3	The case might as well been empty.	St
-1.1.4	Thinking it was the power supply I replaced the system back into my old case and encountered the same thing.	St
-1.1.5	Stripped everything out of the case, connected the mobo, outside the case, and the fans ran for a short period and stopped.	St
-1.1.6	Any suggestions, idea, advice?	St
-1.1.7	Thanks in advance.	St
-1.2.1	that the CPU is not mounted securely to the HSF and the CPU is getting too hot and shutting the sytem down???	St
-1.2.2	It only takes seconds for the CPU to get too hot.	St
-1.2.3	Why did you change cases?	St
-1.2.4	Possibly if you tell the entire story and just what IS and what IS NOT connected we could more meaningful help.	Sug
-1.3.1	Yes, the CPU is mounted securely, solid as a rock, I have done nothing with the CPU.	St
-1.3.2	This system had been working perfect.	St
-1.3.3	I wanted a lager case and one that had space for additional case fans.	St
-1.3.4	My old case is small, cramped, has no additional fans and no place to mount any.	St
-1.3.5	The first time everything was connected, I took everything out of my old case and put it into the new case.	St
-1.3.6	When I plugged it into the wall socket and nothing worked I checked over everything, plugs, ribbons, off/on/restet/speaker plugs, could not find anything wrong.	St
-1.3.7	I took everything out of the new case and put it back into the old.	St
-1.3.8	Everything the same as before but it was still dead when I plugged it in.	St
-1.3.9	The last thing I tried was to plug the new power supply to the mobo, there are two plugs for the mobo, and didn't plug in ANYTHNG else.	St
-1.3.10	The mobo was outside the case.	St
-1.3.11	I plugged the power supply into the wall and all the fans, CPU, power supply and mobo fan, all ran for a couple of seconds and stopped.	St
-1.3.12	I have now installed the mobo into the case with the power supply plugged in and that's where I am.	St
-1.3.13	I have not installed anything else in the case.	St
-1.3.14	I see no reason to, if it's not working this way adding more stuff won't help.	St
-1.3.15	Or will it?	St
-1.4.1	&lt;&lt; The last thing I tried was to plug the new power supply to the mobo, there are two plugs for the mobo, and didn't plug in ANYTHNG else.	St
-1.4.2	The mobo was outside the case.	St
-1.4.3	I plugged the power supply into the wall and all the fans, CPU, power supply and mobo fan, all ran for a couple of seconds and stopped.	St
-1.4.4	&gt;&gt; It is perfectly possible that what happened here is correct.	St
-1.4.5	You didn't tell us how you turned the system on.	St
-1.4.6	Simply plugging the power supply in, will not do it.	St
-1.4.7	HOWEVER, the momentary power burp that you got could be perfectly normal based on the settings in the power Managemement section of the BIOS.	St
-1.4.8	You are now at a good point [the new case???]	St
-1.4.9	Let me explain the operation of an ATX power supply.	St
-1.4.10	Anytime that the power supply is plugged into the mobo and also plugged into an outlet, it puts a 5 volt standby voltage on the mobo.	St
-1.4.11	[when your system is working normally and you use the normal Windows shutdown, that voltage will be there forever.	St
-1.4.12	( unless you unplug the supply)] This voltage is what is used by the mobo logic circuit to turn on the remainder of the power [5 volts, 12 volts, 3.3 volts] when you depress the front panel power on button.	St
-1.4.13	[back to the opening paragraph.	St
-1.4.14	When you plugged the power supply in and the 5 volt standby voltage was applied, a logic glitch likely turned the supply on for a moment and then the logic got reset properly and turned the supply off again].	St
-1.4.15	So, in the present position if you do not have the front panel wiring connected to the mobo, you can turn the full power on by finding the two pins on the mobo that the Power On switch connects to.	St
-1.4.16	with the power supply plugged into the wall [and its power switch on its rear ON] and the two connectors from the supply connected to the mobo, simply take the blade of a small screwdriver and momentarily short the two pins together.	St
-1.4.17	The supply should turn ON the fan in the supply and on the CPU HSF et al.	St
-1.4.18	You also should be able to turn the supply off again by shorting the two pins together again [this time you may have to keep them shorted together for 4 to 5 seconds.	St
-1.4.19	[of course you could use the front panel switch connectons to do this.]	St
-1.4.20	Try this and let us know the results [make d----d certain that you haven't grounded the mobo to the mounting plate.	St
-1.4.21	Grounding via the hex standoffs to the grounded mounting holes is correct grounding] nothing else on the mobo underside touches that plate.	St
-1.5.1	Great knowledge you have there, Ray.	St
-1.5.2	Sorry it took me so long to get this done but I was gone from the PC for several hours.	St
-1.5.3	Your instructions are perfect.	St
-1.5.4	Ok, I'm ready for more good news and instructions I'll be gone again for a bit but back within the hours.	St
-1.5.5	Thanks, Ray, really appreciate it.	Polite
-1.6.1	the power supply, that is turn it on and off as intended.	St
-1.6.2	The next basic step would be to mount it in the case and see that it still works.	St
-1.6.3	[Power turns on and off] In this configuration be sure to plug in the front panel connectors, at least the Power switch AND the speaker.	St
-1.6.4	You could go directly to having the CPU/HSF, Memory, and a video card with monitor to see if you get the first video screen, that shows the Video and BIOS info and maybe a logo.	Sug
-1.6.5	OR You could power up without the video card simply to see if you get a bunch of beeps which tell you that there is no video.	St
-1.6.6	{can also get beeps for no CPU or no memory].	St
-1.6.7	At this time you have no mouse or keyboard, so if you get the video [with the video card in], shut down and plug in the keyboard.	St
-1.6.8	Remember about that 5 volt logic voltage always being there, so when putting your hands oin or plugging in devices remember to turn off the power supply completely.	St
-1.6.9	With the keyboard plugged in, and getting video, you should then be able to get into the BIOS and set things as you prefer.	St
-1.6.10	If you can't get that far, no sense adding anything else [it won't get any better], you have a problem that is not easy to resolve, bad mobo, memory, video, or Power Supply].	St
-1.6.11	Remember, NEVER plug anything in with the power on.	St
-1.6.12	The only two things that are designed to be hot pluggable is USB and Fire Wire.	St
-1.6.13	Doesn't mean you will damage something but it is possible.	St
-1.7.1	Plugged in all the front panel connectors inclucing speaker.	St
-1.7.2	Added the video card and then the monitor.	St
-1.7.3	Now all I get is a very brief spin of the processor fan, very brief led light and fan spin from the power supply.	St
-1.7.4	No beeps, nothing on the screen.	St
-1.7.5	No beeps without the video and monitor either.	St
-1.7.6	The tiny light on the mobo next to the power plug stays on.	St
-1.8.1	is a LED that when illuminated tells you that the 5 volt standby voltage is present.	St
-1.8.2	The failure of the power supply, under such a light load is confusing, BUT might be a clue that something got shorted when you installed the mobo into the case.	St
-1.8.3	A power supply has overcurrent circuits that will shut the supply down if the system attempts to draw too much current.	St
-1.8.4	Lets back track.	St
-1.8.5	When the mobo was on the cardboard you were able to turn the supply on and have it stay ON, Correct???	St
-1.8.6	If yes, we go back to the cardboard.	St
-1.8.7	When you did that with the mobo on the cardboard, what other components were plugged into the mobo???	St
-1.8.8	The CPU with the HSF plugged in?	St
-1.8.9	?, The memory???	St
-1.8.10	May have to try running with CPU/HSF, memory, and video card on the cardboard.	St
-1.8.11	Just be careful with the video card but you should be able to have it connected to the monitor.	St
-1.8.12	One other try would be to try the power supply from the original case.	Sug
-1.8.13	No need to install it.	St
-1.8.14	Sit it on the table, plug it in to the wall outlet and plug it in to the mobo in place of the other power supply, and turn it on.	St
-1.8.15	I hope that you didn't zap something with the moving the mobo and hardware back and forth between cases.	St
-1.8.16	Did you take full precautions to prevent problems due to electrostatic discharges??	St
+1.1.1	I installed my system into a new case and when I plugged it in there was no live at all .	St
+1.1.2	No beeps , no fans , no lights , power supply did not start up .	St
+1.1.3	The case might as well been empty .	St
+1.1.4	Thinking it was the power supply I replaced the system back into my old case and encountered the same thing .	St
+1.1.5	Stripped everything out of the case , connected the mobo , outside the case , and the fans ran for a short period and stopped .	St
+1.1.6	Any suggestions , idea , advice ?	Ques
+1.1.7	Thanks in advance .	St
+1.2.1	that the CPU is not mounted securely to the HSF and the CPU is getting too hot and shutting the sytem down ? ? ?	Ques
+1.2.2	It only takes seconds for the CPU to get too hot .	St
+1.2.3	Why did you change cases ?	Ques
+1.2.4	Possibly if you tell the entire story and just what IS and what IS NOT connected we could more meaningful help .	Sug
+1.3.1	Yes , the CPU is mounted securely , solid as a rock , I have done nothing with the CPU .	St
+1.3.2	This system had been working perfect .	St
+1.3.3	I wanted a lager case and one that had space for additional case fans .	St
+1.3.4	My old case is small , cramped , has no additional fans and no place to mount any .	St
+1.3.5	The first time everything was connected , I took everything out of my old case and put it into the new case .	St
+1.3.6	When I plugged it into the wall socket and nothing worked I checked over everything , plugs , ribbons , off/on/restet/speaker plugs , could not find anything wrong .	St
+1.3.7	I took everything out of the new case and put it back into the old .	St
+1.3.8	Everything the same as before but it was still dead when I plugged it in .	St
+1.3.9	The last thing I tried was to plug the new power supply to the mobo , there are two plugs for the mobo , and did n't plug in ANYTHNG else .	St
+1.3.10	The mobo was outside the case .	St
+1.3.11	I plugged the power supply into the wall and all the fans , CPU , power supply and mobo fan , all ran for a couple of seconds and stopped .	St
+1.3.12	I have now installed the mobo into the case with the power supply plugged in and that 's where I am .	St
+1.3.13	I have not installed anything else in the case .	St
+1.3.14	I see no reason to , if it 's not working this way adding more stuff wo n't help .	St
+1.3.15	Or will it ?	Ques
+1.4.1	& lt ; & lt ; The last thing I tried was to plug the new power supply to the mobo , there are two plugs for the mobo , and did n't plug in ANYTHNG else .	St
+1.4.2	The mobo was outside the case .	St
+1.4.3	I plugged the power supply into the wall and all the fans , CPU , power supply and mobo fan , all ran for a couple of seconds and stopped .	St
+1.4.4	& gt ; & gt ; It is perfectly possible that what happened here is correct .	St
+1.4.5	You did n't tell us how you turned the system on .	St
+1.4.6	Simply plugging the power supply in , will not do it .	St
+1.4.7	HOWEVER , the momentary power burp that you got could be perfectly normal based on the settings in the power Managemement section of the BIOS .	St
+1.4.8	You are now at a good point [ the new case ? ? ? ]	Ques
+1.4.9	Let me explain the operation of an ATX power supply .	St
+1.4.10	Anytime that the power supply is plugged into the mobo and also plugged into an outlet , it puts a 5 volt standby voltage on the mobo .	St
+1.4.11	[ when your system is working normally and you use the normal Windows shutdown , that voltage will be there forever .	St
+1.4.12	( unless you unplug the supply ) ] This voltage is what is used by the mobo logic circuit to turn on the remainder of the power [ 5 volts , 12 volts , 3.3 volts ] when you depress the front panel power on button .	St
+1.4.13	[ back to the opening paragraph .	St
+1.4.14	When you plugged the power supply in and the 5 volt standby voltage was applied , a logic glitch likely turned the supply on for a moment and then the logic got reset properly and turned the supply off again ] .	St
+1.4.15	So , in the present position if you do not have the front panel wiring connected to the mobo , you can turn the full power on by finding the two pins on the mobo that the Power On switch connects to .	St
+1.4.16	with the power supply plugged into the wall [ and its power switch on its rear ON ] and the two connectors from the supply connected to the mobo , simply take the blade of a small screwdriver and momentarily short the two pins together .	St
+1.4.17	The supply should turn ON the fan in the supply and on the CPU HSF et al .	St
+1.4.18	You also should be able to turn the supply off again by shorting the two pins together again [ this time you may have to keep them shorted together for 4 to 5 seconds .	St
+1.4.19	[ of course you could use the front panel switch connectons to do this . ]	St
+1.4.20	Try this and let us know the results [ make d -- -- d certain that you have n't grounded the mobo to the mounting plate .	St
+1.4.21	Grounding via the hex standoffs to the grounded mounting holes is correct grounding ] nothing else on the mobo underside touches that plate .	St
+1.5.1	Great knowledge you have there , Ray .	St
+1.5.2	Sorry it took me so long to get this done but I was gone from the PC for several hours .	St
+1.5.3	Your instructions are perfect .	Polite
+1.5.4	Ok , I 'm ready for more good news and instructions I 'll be gone again for a bit but back within the hours .	St
+1.5.5	Thanks , Ray , really appreciate it .	St
+1.6.1	the power supply , that is turn it on and off as intended .	St
+1.6.2	The next basic step would be to mount it in the case and see that it still works .	St
+1.6.3	[ Power turns on and off ] In this configuration be sure to plug in the front panel connectors , at least the Power switch AND the speaker .	St
+1.6.4	You could go directly to having the CPU/HSF , Memory , and a video card with monitor to see if you get the first video screen , that shows the Video and BIOS info and maybe a logo .	Sug
+1.6.5	OR You could power up without the video card simply to see if you get a bunch of beeps which tell you that there is no video .	St
+1.6.6	{ can also get beeps for no CPU or no memory ] .	St
+1.6.7	At this time you have no mouse or keyboard , so if you get the video [ with the video card in ] , shut down and plug in the keyboard .	St
+1.6.8	Remember about that 5 volt logic voltage always being there , so when putting your hands oin or plugging in devices remember to turn off the power supply completely .	St
+1.6.9	With the keyboard plugged in , and getting video , you should then be able to get into the BIOS and set things as you prefer .	St
+1.6.10	If you ca n't get that far , no sense adding anything else [ it wo n't get any better ] , you have a problem that is not easy to resolve , bad mobo , memory , video , or Power Supply ] .	St
+1.6.11	Remember , NEVER plug anything in with the power on .	St
+1.6.12	The only two things that are designed to be hot pluggable is USB and Fire Wire .	St
+1.6.13	Does n't mean you will damage something but it is possible .	St
+1.7.1	Plugged in all the front panel connectors inclucing speaker .	St
+1.7.2	Added the video card and then the monitor .	St
+1.7.3	Now all I get is a very brief spin of the processor fan , very brief led light and fan spin from the power supply .	St
+1.7.4	No beeps , nothing on the screen .	St
+1.7.5	No beeps without the video and monitor either .	St
+1.7.6	The tiny light on the mobo next to the power plug stays on .	St
+1.8.1	is a LED that when illuminated tells you that the 5 volt standby voltage is present .	St
+1.8.2	The failure of the power supply , under such a light load is confusing , BUT might be a clue that something got shorted when you installed the mobo into the case .	St
+1.8.3	A power supply has overcurrent circuits that will shut the supply down if the system attempts to draw too much current .	St
+1.8.4	Lets back track .	St
+1.8.5	When the mobo was on the cardboard you were able to turn the supply on and have it stay ON , Correct ? ? ?	Ques
+1.8.6	If yes , we go back to the cardboard .	Res
+1.8.7	When you did that with the mobo on the cardboard , what other components were plugged into the mobo ? ? ?	Ques
+1.8.8	The CPU with the HSF plugged in ?	Ques
+1.8.9	? , The memory ? ? ?	Ques
+1.8.10	May have to try running with CPU/HSF , memory , and video card on the cardboard .	St
+1.8.11	Just be careful with the video card but you should be able to have it connected to the monitor .	St
+1.8.12	One other try would be to try the power supply from the original case .	St
+1.8.13	No need to install it .	St
+1.8.14	Sit it on the table , plug it in to the wall outlet and plug it in to the mobo in place of the other power supply , and turn it on .	St
+1.8.15	I hope that you did n't zap something with the moving the mobo and hardware back and forth between cases .	St
+1.8.16	Did you take full precautions to prevent problems due to electrostatic discharges ? ?	Ques
 1.8.17	?	Ques
-1.9.1	When the mobo was on the cardboard you were able to turn the supply on and have it stay ON, Correct???	St
-1.9.2	--Ray No, when I ran the mobo on the cardboard the power did NOT stay on, it only ran for a couple of seconds or so.	St
-1.9.3	However the fans seemed to run at full force.	St
-1.9.4	And if I turned everything off and back on it would run again for a couple of seconds.	St
-1.9.5	The mobo led light stayed on however.	St
-1.9.6	When I installed it in the case it did the same thing, fans ran full force for a couple of seconds.	St
-1.9.7	When I added the video card and turned the PC on I got only a very brief fan run.	St
-1.9.8	No beeps, speaker wire was plugged in.	St
-1.9.9	When I had the mobo on the cardboard I only had the two plugs from the power supply plugged in (the regular large one and the smaller square ATX_12V one), the CPU with the HSF and 1 menory stick.	St
-1.9.10	And yes I was careful as I handled the componants, grounded to unpainted metal.	St
-1.9.11	I never heard a crackle or pop, saw any sparks or smelled anything burning.	St
-1.9.12	I will now try plugging in the old power supply but does the fact that the power supply does not stay on tell you something?	St
-1.9.13	Is something definitaly dead?	St
-1.9.14	I will first remove the CMOS battery for a while, replace it and try again with the present power supply before I try the original PS.	St
-1.10.1	Put mobo in old case once again, using your flatblade screwdriver shorting out method the power supply stays on and I get beeps!	St
-1.10.2	Wires on small power plug crossed according to instructions, I turned plug around and now it also works.	St
-1.11.1	Added Video Card, plugged in monitor, get beeps and post on screen!	St
-1.11.2	Now start adding stuff?	St
-1.11.3	HDD first?	St
-1.11.4	Old case.	St
-1.11.5	Think I'll just stay with it for now.	St
+1.9.1	When the mobo was on the cardboard you were able to turn the supply on and have it stay ON , Correct ? ? ?	Ques
+1.9.2	-- Ray No , when I ran the mobo on the cardboard the power did NOT stay on , it only ran for a couple of seconds or so .	St
+1.9.3	However the fans seemed to run at full force .	St
+1.9.4	And if I turned everything off and back on it would run again for a couple of seconds .	St
+1.9.5	The mobo led light stayed on however .	St
+1.9.6	When I installed it in the case it did the same thing , fans ran full force for a couple of seconds .	St
+1.9.7	When I added the video card and turned the PC on I got only a very brief fan run .	St
+1.9.8	No beeps , speaker wire was plugged in .	St
+1.9.9	When I had the mobo on the cardboard I only had the two plugs from the power supply plugged in ( the regular large one and the smaller square ATX_12V one ) , the CPU with the HSF and 1 menory stick .	St
+1.9.10	And yes I was careful as I handled the componants , grounded to unpainted metal .	St
+1.9.11	I never heard a crackle or pop , saw any sparks or smelled anything burning .	St
+1.9.12	I will now try plugging in the old power supply but does the fact that the power supply does not stay on tell you something ?	Ques
+1.9.13	Is something definitaly dead ?	Ques
+1.9.14	I will first remove the CMOS battery for a while , replace it and try again with the present power supply before I try the original PS .	St
+1.10.1	Put mobo in old case once again , using your flatblade screwdriver shorting out method the power supply stays on and I get beeps !	St
+1.10.2	Wires on small power plug crossed according to instructions , I turned plug around and now it also works .	St
+1.11.1	Added Video Card , plugged in monitor , get beeps and post on screen !	St
+1.11.2	Now start adding stuff ?	Ques
+1.11.3	HDD first ?	Ques
+1.11.4	Old case .	St
+1.11.5	Think I 'll just stay with it for now .	St
 1.12.1	NIL	St
-1.13.1	Use a Win 98 vboot floppy disk.	St
-1.13.2	get an A prompt it's OK. Then install a CD-ROM or burner] Use the boot floppy to select have CD support.	Sug
-1.13.3	Put ant data CD in the CD drive, and from the A prompt type D; and hit enter.	St
-1.13.4	Then do a DIR and you should see the files on the CD.	St
-1.13.5	This is assuming that the hard drive is not in.	St
-1.13.6	The boot floppy creates a RAM disk as C, thus the CD is D. If the hard drive is in , the RAM disk becomes D and the CD becomes E. Goes back to normal when running from the Op Sys.	St
-1.14.1	Everything installed, everything works!	St
-1.14.2	Well..... can't find scanner but I think I've run into this before, I think it may be a matter of reinstalling drivers and I think I've done that from Control Panel.	St
-1.14.3	Thanks, Ray, for your patience and great detailed instructions!	St
-1.14.4	You're one of the best techs I've run into.	St
+1.13.1	Use a Win 98 vboot floppy disk .	St
+1.13.2	get an A prompt it 's OK. Then install a CD-ROM or burner ] Use the boot floppy to select have CD support .	Sug
+1.13.3	Put ant data CD in the CD drive , and from the A prompt type D ; and hit enter .	St
+1.13.4	Then do a DIR and you should see the files on the CD .	St
+1.13.5	This is assuming that the hard drive is not in .	St
+1.13.6	The boot floppy creates a RAM disk as C , thus the CD is D. If the hard drive is in , the RAM disk becomes D and the CD becomes E. Goes back to normal when running from the Op Sys .	St
+1.14.1	Everything installed , everything works !	St
+1.14.2	Well ... .. ca n't find scanner but I think I 've run into this before , I think it may be a matter of reinstalling drivers and I think I 've done that from Control Panel .	St
+1.14.3	Thanks , Ray , for your patience and great detailed instructions !	St
+1.14.4	You 're one of the best techs I 've run into .	St
 1.15.1	NIL	St
-1.16.1	Reinstalled drivers through Control Panel (System &gt; Hardware &gt; Device Manager)done!	St
-1.16.2	Works great!	St
-1.16.3	Back to perfect!	St
-1.17.1	Hiya , Id really appreacate some advise.	St
-1.17.2	I took a stick of RAM out to have a look & after reinserting it the pc will no beep or the monitor come on.	St
-1.17.3	I have tried other RAM but no joy.	St
-1.17.4	I had a look @ the processor but i see no burns or any damage ( although not sure how it looked b4.	St
+1.16.1	Reinstalled drivers through Control Panel ( System & gt ; Hardware & gt ; Device Manager ) done !	St
+1.16.2	Works great !	Polite
+1.16.3	Back to perfect !	St
+1.17.1	Hiya , Id really appreacate some advise .	St
+1.17.2	I took a stick of RAM out to have a look & after reinserting it the pc will no beep or the monitor come on .	St
+1.17.3	I have tried other RAM but no joy .	St
+1.17.4	I had a look @ the processor but i see no burns or any damage ( although not sure how it looked b4 .	St
 1.17.5	Any ideas pleasssse Honey xxx	St
-1.18.1	u either did not put in the ram securely or u fried it by not grounding urself.	St
+1.18.1	u either did not put in the ram securely or u fried it by not grounding urself .	St

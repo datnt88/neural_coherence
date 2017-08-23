@@ -1,20 +1,20 @@
-1.1.1	Hi all, Could any tell me how does an access point(without NAT tables) know the clients in vicinity?	Ques
-1.1.2	I am not asking in terms of radio signal reception but what I want to know is, does the AP maintain a table/list structure with the SSID of clients or its MAC address or its IP address?	St
-1.1.3	If yes where does it keep it?	Res
-1.1.4	(in the sense, in which file system of its OS?)	St
-1.1.5	Also, a wireless router operates at netwok layer level maintaing NAT tables and inspecting packets at that level and routing IP packets.	St
-1.1.6	I assume in both wireless router case and AP#s case they must do the client detection at the physical layer level.	St
-1.1.7	How does this detection recored before sending the packets higher up the stack in case of wireless router?	St
-1.1.8	I assume in case of AP, it just detects clients and routes the WLAN packet directly to client.	St
-1.1.9	Is this true?	St
-1.1.10	It is important for me to know this as we want to tweak the AP/wireless router for some security needs.	St
-1.2.1	But in short I set the WAP to use WPA and if possible WPA2 then use the WAP.	St
-1.2.2	As to how things work, you can find books on that subject.	St
+1.1.1	Hi all , Could any tell me how does an access point ( without NAT tables ) know the clients in vicinity ?	Ques
+1.1.2	I am not asking in terms of radio signal reception but what I want to know is , does the AP maintain a table/list structure with the SSID of clients or its MAC address or its IP address ?	Ques
+1.1.3	If yes where does it keep it ?	Ques
+1.1.4	( in the sense , in which file system of its OS ? )	Ques
+1.1.5	Also , a wireless router operates at netwok layer level maintaing NAT tables and inspecting packets at that level and routing IP packets .	St
+1.1.6	I assume in both wireless router case and AP # s case they must do the client detection at the physical layer level .	St
+1.1.7	How does this detection recored before sending the packets higher up the stack in case of wireless router ?	Ques
+1.1.8	I assume in case of AP , it just detects clients and routes the WLAN packet directly to client .	St
+1.1.9	Is this true ?	Ques
+1.1.10	It is important for me to know this as we want to tweak the AP/wireless router for some security needs .	St
+1.2.1	But in short I set the WAP to use WPA and if possible WPA2 then use the WAP .	St
+1.2.2	As to how things work , you can find books on that subject .	St
 1.2.3	Bob	St
-1.3.1	A router uses 3 layers of the OSI model up to and including the network layer.	St
-1.3.2	This layer is where packets are router to different subnets using IP's.	St
-1.3.3	WAP's and/or AP's use up to and including layer 2--the data link layer.	St
-1.3.4	To answer your question, an AP deals with MAC addresses and it keeps them in a re-writable ROM chip (EEPROM).	St
-1.3.5	Each layer adds encapsulation going up the stack.	St
-1.4.1	then is there an ARP table/or some table with a match of SSID and MAC address stored in this ROM of WAP which tells about the clients?	St
-1.5.1	Much like the ARP table dynamics, there is a one to one and/or one to many relationship between SSID's and MAC's which is stored on EEPROMS in the AP.	St
+1.3.1	A router uses 3 layers of the OSI model up to and including the network layer .	St
+1.3.2	This layer is where packets are router to different subnets using IP 's .	St
+1.3.3	WAP 's and/or AP 's use up to and including layer 2 -- the data link layer .	St
+1.3.4	To answer your question , an AP deals with MAC addresses and it keeps them in a re-writable ROM chip ( EEPROM ) .	St
+1.3.5	Each layer adds encapsulation going up the stack .	St
+1.4.1	then is there an ARP table/or some table with a match of SSID and MAC address stored in this ROM of WAP which tells about the clients ?	Ques
+1.5.1	Much like the ARP table dynamics , there is a one to one and/or one to many relationship between SSID 's and MAC 's which is stored on EEPROMS in the AP .	St

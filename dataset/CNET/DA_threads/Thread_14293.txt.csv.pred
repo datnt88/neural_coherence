@@ -1,61 +1,61 @@
-1.1.1	Here is what I would like to do.	Ques
-1.1.2	I want to have a machine running XP Pro with a shared drive visible on the network, but have no one logged on to that machine.	St
-1.1.3	This is will allow the other machines to access the network drive, and to administer the machine I can remote in from one of the other pcs.	St
-1.1.4	Is this possible without logging in?	St
+1.1.1	Here is what I would like to do .	St
+1.1.2	I want to have a machine running XP Pro with a shared drive visible on the network , but have no one logged on to that machine .	St
+1.1.3	This is will allow the other machines to access the network drive , and to administer the machine I can remote in from one of the other pcs .	St
+1.1.4	Is this possible without logging in ?	Ques
 1.1.5	Thanks Michael	St
-1.2.1	No.	St
-1.2.2	But let's define &quot;logging on.&quot; If you mean &quot;must the Windows GUI be logged in?&quot; That is, the name and password on the HOST be entered where you see the start button then the answer changes to &quot;yes.&quot; But under the hood there is a login occurring when a CLIENT connects and asks for connection to a share.	St
-1.2.3	How deep must we go here?	St
+1.2.1	No .	St
+1.2.2	But let 's define & quot ; logging on. & quot ; If you mean & quot ; must the Windows GUI be logged in ? & quot ; That is , the name and password on the HOST be entered where you see the start button then the answer changes to & quot ; yes. & quot ; But under the hood there is a login occurring when a CLIENT connects and asks for connection to a share .	St
+1.2.3	How deep must we go here ?	Ques
 1.2.4	Bob	St
-1.3.1	What I want is a small pc running XP Pro.	St
-1.3.2	When it boots no one logs on to the pc, but the drive on the PC is shared to the network.	St
-1.3.3	The other 3 computers running XP Pro need to access this shared drive.	St
-1.3.4	This is in a peer-to-peer network so there is no server involved.	St
-1.3.5	I'm trying to do this without having to put a client server environment in this really small office.	St
-1.3.6	They don't need the security.	St
-1.3.7	I was planning on not hooking a monitor to the pc and remoting in from one of the other PCs to administer the box if necessary.	St
-1.3.8	Does this help?	St
+1.3.1	What I want is a small pc running XP Pro .	St
+1.3.2	When it boots no one logs on to the pc , but the drive on the PC is shared to the network .	St
+1.3.3	The other 3 computers running XP Pro need to access this shared drive .	St
+1.3.4	This is in a peer-to-peer network so there is no server involved .	St
+1.3.5	I 'm trying to do this without having to put a client server environment in this really small office .	St
+1.3.6	They do n't need the security .	Ques
+1.3.7	I was planning on not hooking a monitor to the pc and remoting in from one of the other PCs to administer the box if necessary .	St
+1.3.8	Does this help ?	Ques
 1.3.9	Michael	St
-1.4.1	It sat in a corner on the floor with nothing attached but a keyboard.	St
-1.4.2	We could use the keyboard to turn it on or WOL and it could be shut down remotely.	Sug
-1.4.3	What we did was pre-define all users needing access including the administrator account and then recreate these same accounts on the PCs that would gain access.	St
-1.4.4	The shares were setup and permissions assigned to those who needed access.	St
-1.4.5	When done properly, a user could login to a remote PC that already had an account on that &quot;server&quot; device.	St
-1.4.6	They could navigate to an authorized share and would not be asked for a username/password.	St
-1.4.7	Another way to do this would be to map the shares as needed to remote PCs or create shortcuts on the desktop.	St
-1.4.8	In this way, the accessible shares were only visible when logged into these specific accounts.	St
-1.4.9	This only seems to work with Windows SMB but not remotely using FTP.	St
-1.4.10	Be aware that XP Pro has a ten user login limit.	St
-1.5.1	Because of the 10 user limit and the need to accommodate more students at once, we went to a Windows XP embedded NAS drive that allowed 25 simultaneous users.	St
-1.5.2	These devices, however, cannot be used like PCs.	St
-1.5.3	They don't run software or third party utilities.	St
-1.5.4	The one we got has remote administration capability and can be set up for remote ftp or http access over the web.	St
-1.5.5	It also resides in a relay rack.	St
-1.6.1	Since all the machines logon using the same user id then it should be possible to map to the &quot;not logged on&quot; box without a problem.	St
-1.6.2	We don't really need a lot of security so the user ID is all the same.	St
-1.6.3	I will keep working on this, this gives me some more ideas.	St
+1.4.1	It sat in a corner on the floor with nothing attached but a keyboard .	St
+1.4.2	We could use the keyboard to turn it on or WOL and it could be shut down remotely .	Sug
+1.4.3	What we did was pre-define all users needing access including the administrator account and then recreate these same accounts on the PCs that would gain access .	St
+1.4.4	The shares were setup and permissions assigned to those who needed access .	St
+1.4.5	When done properly , a user could login to a remote PC that already had an account on that & quot ; server & quot ; device .	St
+1.4.6	They could navigate to an authorized share and would not be asked for a username/password .	St
+1.4.7	Another way to do this would be to map the shares as needed to remote PCs or create shortcuts on the desktop .	St
+1.4.8	In this way , the accessible shares were only visible when logged into these specific accounts .	St
+1.4.9	This only seems to work with Windows SMB but not remotely using FTP .	St
+1.4.10	Be aware that XP Pro has a ten user login limit .	St
+1.5.1	Because of the 10 user limit and the need to accommodate more students at once , we went to a Windows XP embedded NAS drive that allowed 25 simultaneous users .	St
+1.5.2	These devices , however , can not be used like PCs .	St
+1.5.3	They do n't run software or third party utilities .	St
+1.5.4	The one we got has remote administration capability and can be set up for remote ftp or http access over the web .	St
+1.5.5	It also resides in a relay rack .	St
+1.6.1	Since all the machines logon using the same user id then it should be possible to map to the & quot ; not logged on & quot ; box without a problem .	St
+1.6.2	We do n't really need a lot of security so the user ID is all the same .	St
+1.6.3	I will keep working on this , this gives me some more ideas .	St
 1.6.4	Thanks Michael	St
-1.7.1	Once you issue the share in Windows you don't need to log on that machine for the share to function.	St
-1.7.2	However from the CLIENT machine there is a log on process so what wipes some beginning networkers is that you must have a log on account on the machine you are logging into as well as on the machine that is sharing.	St
-1.7.3	I won't rewrite this.	St
+1.7.1	Once you issue the share in Windows you do n't need to log on that machine for the share to function .	St
+1.7.2	However from the CLIENT machine there is a log on process so what wipes some beginning networkers is that you must have a log on account on the machine you are logging into as well as on the machine that is sharing .	St
+1.7.3	I wo n't rewrite this .	St
 1.7.4	Bob	St
-1.8.1	Since all the machines use the same logon, this should be easy, just don't log that particular machine on in the morning and remotely administer it.	St
-1.8.2	Thanks for the help everyone.	St
+1.8.1	Since all the machines use the same logon , this should be easy , just do n't log that particular machine on in the morning and remotely administer it .	St
+1.8.2	Thanks for the help everyone .	St
 1.8.3	Michael	St
-1.9.1	and not just a network attached storage drive?	St
-1.9.2	Why waste an XP license and a good piece of hardware if you just want access to files in shares.	St
-1.9.3	A NAS that supports Windows SMB will do that quite well.	St
-1.9.4	Remote administration is a minimal chore.	St
-1.9.5	You need to turn it on/off, create/delete shares, add/remove users and do backups...not much more.	St
-1.9.6	They don't need much in the way of resources and can be quite small.	St
-1.10.1	I have been looking into NAS for this situation as well.	St
-1.10.2	I cannot seem to find a reliable, reasonably priced NAS that will suite their needs.	St
-1.10.3	I have been reading a lot of reviews on different NAS devices and some people love them and some hate them.	St
-1.10.4	Wasting an XP license isn't really a problem.	St
-1.10.5	I have extra one at the moment and also have a licensed copy of Windows 2000 that I no longer use.	St
-1.10.6	I'm still researching all possibilities and haven't ruled the NAS out yet.	St
-1.10.7	I also need the system easy for them to switch to a backup incase the NAS or PC dies.	St
+1.9.1	and not just a network attached storage drive ?	Ques
+1.9.2	Why waste an XP license and a good piece of hardware if you just want access to files in shares .	St
+1.9.3	A NAS that supports Windows SMB will do that quite well .	St
+1.9.4	Remote administration is a minimal chore .	St
+1.9.5	You need to turn it on/off , create/delete shares , add/remove users and do backups ... not much more .	St
+1.9.6	They do n't need much in the way of resources and can be quite small .	St
+1.10.1	I have been looking into NAS for this situation as well .	St
+1.10.2	I can not seem to find a reliable , reasonably priced NAS that will suite their needs .	St
+1.10.3	I have been reading a lot of reviews on different NAS devices and some people love them and some hate them .	St
+1.10.4	Wasting an XP license is n't really a problem .	St
+1.10.5	I have extra one at the moment and also have a licensed copy of Windows 2000 that I no longer use .	St
+1.10.6	I 'm still researching all possibilities and have n't ruled the NAS out yet .	St
+1.10.7	I also need the system easy for them to switch to a backup incase the NAS or PC dies .	St
 1.10.8	Thanks Michael	St
-1.11.1	While you can't install to a partition over 127GB (just like XP) it handles the big drives once the service pack is added just fine.	St
-1.11.2	It boots faster than XP and from memory allows more connections than XP.	St
+1.11.1	While you ca n't install to a partition over 127GB ( just like XP ) it handles the big drives once the service pack is added just fine .	St
+1.11.2	It boots faster than XP and from memory allows more connections than XP .	St
 1.11.3	Bob	St

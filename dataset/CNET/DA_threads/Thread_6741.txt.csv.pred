@@ -1,106 +1,106 @@
-1.1.1	Hi all!	St
-1.1.2	First, so people will know when they look, this is what I am dealing with: 5 computers on 1 network - 4 computers run on XP - 1 computer on Windows 2000 All computers are on a single router govern by 1 Linksys WRT350 N router.	St
-1.1.3	4 of the computers are wireless and 1 is physically connected to the router via your every day networking cable.	St
-1.1.4	- 2 computers use Linksys G WRT54 PCI cards - 2 computers use whatever they came with since they are laptops (some sort of Intel if I am not mistaken) All computers have ran the network setup wizard and are set to share files.	St
-1.1.5	All computers are set to have their workgroup as the ever so traditional MSHome.	St
-1.1.6	Now, for the issue.	St
-1.1.7	Depending on which computer that you use, whenever they are all on, they show up under MSHome.	St
-1.1.8	On some of the computers though, you try to access MSHome, and it will not pull up at all and say that MSHome is unaccessible.	St
-1.1.9	The thing that all the computers have in common though is that (of course this will not work if you cannot access the workgroup to being with) when I try to click on a computer to get pull up files or whatever from that computer, it gives me the message that the computer is unaccessible.	St
-1.1.10	This never seems to be a problem in the morning when the computers are first turned on.	St
-1.1.11	I can access and exchange information between the computers just fine, but when it gets to be about afternoon or so, they stop working.	St
-1.1.12	Any ideas what could be causing this?	St
-1.1.13	I would love any help.	St
-1.1.14	I have got to have these things operating the whole time.	St
-1.2.1	The latest update killed my home network.	St
-1.3.1	the firewall.	St
-1.3.2	It also could be that the computers are sleeping and disconnecting from the network.	St
+1.1.1	Hi all !	St
+1.1.2	First , so people will know when they look , this is what I am dealing with : 5 computers on 1 network - 4 computers run on XP - 1 computer on Windows 2000 All computers are on a single router govern by 1 Linksys WRT350 N router .	St
+1.1.3	4 of the computers are wireless and 1 is physically connected to the router via your every day networking cable .	St
+1.1.4	- 2 computers use Linksys G WRT54 PCI cards - 2 computers use whatever they came with since they are laptops ( some sort of Intel if I am not mistaken ) All computers have ran the network setup wizard and are set to share files .	St
+1.1.5	All computers are set to have their workgroup as the ever so traditional MSHome .	St
+1.1.6	Now , for the issue .	St
+1.1.7	Depending on which computer that you use , whenever they are all on , they show up under MSHome .	St
+1.1.8	On some of the computers though , you try to access MSHome , and it will not pull up at all and say that MSHome is unaccessible .	St
+1.1.9	The thing that all the computers have in common though is that ( of course this will not work if you can not access the workgroup to being with ) when I try to click on a computer to get pull up files or whatever from that computer , it gives me the message that the computer is unaccessible .	St
+1.1.10	This never seems to be a problem in the morning when the computers are first turned on .	St
+1.1.11	I can access and exchange information between the computers just fine , but when it gets to be about afternoon or so , they stop working .	St
+1.1.12	Any ideas what could be causing this ?	Ques
+1.1.13	I would love any help .	St
+1.1.14	I have got to have these things operating the whole time .	St
+1.2.1	The latest update killed my home network .	St
+1.3.1	the firewall .	St
+1.3.2	It also could be that the computers are sleeping and disconnecting from the network .	St
 1.3.3	Rick	St
-1.4.1	If it was the firewall I'd expect issues in the morning.	St
-1.4.2	The Network Neighborhood (NN) is NOT REAL TIME so we can't rely on that.	St
-1.4.3	Here's how to see which machines are alive.	St
-1.4.4	Click Start, Run, CMD and press enter.	St
-1.4.5	Now try... NET VIEW This should show which machines are up.	St
-1.4.6	This is not going to match the NN so don't be lulled into thinking the NN is right.	St
-1.4.7	I must decline explaining why this is.	St
+1.4.1	If it was the firewall I 'd expect issues in the morning .	St
+1.4.2	The Network Neighborhood ( NN ) is NOT REAL TIME so we ca n't rely on that .	St
+1.4.3	Here 's how to see which machines are alive .	St
+1.4.4	Click Start , Run , CMD and press enter .	St
+1.4.5	Now try ... NET VIEW This should show which machines are up .	Sug
+1.4.6	This is not going to match the NN so do n't be lulled into thinking the NN is right .	St
+1.4.7	I must decline explaining why this is .	St
 1.4.8	Bob	St
-1.5.1	Sorry about the wait guys.	Sug
+1.5.1	Sorry about the wait guys .	Sug
 1.5.2	I still got my day job to worry about .	St
-1.5.3	This morning, my computers actually made a lair out of me.	St
-1.5.4	I pulled everything up to find that they were not on the network this morning (not even under the NET VIEW).	St
-1.5.5	-coryphaeus I am indeed running Zone Alarm on all the computers except one.	St
-1.5.6	I disabled them (and will continue while trouble shooting), but it only seemed to help for only a moment on only one of the computers.	St
-1.5.7	-Rick Most of the computers I intentionally do not set to sleep, but after your suggestion, I did go and recheck all of them.	St
-1.5.8	There was only 1 computer that was set to go into sleep mode; I fixed it to where it would not do it.	St
-1.5.9	-Bob From the looks of it, none of the computers are on the network most of the time.	St
-1.5.10	I have tried this over and over again, but keep getting this message (using the NET VIEW command): &quot;System Error 53 has occurred The Network path was not found&quot; It will indeed show most of the computers when they are all on the network, but there is one computer that will pull up all the others when you are on it, but it does not appear on the network at all to the other ones (when the network is working of course).	St
-1.5.11	I was able to get the network up and going for a few minutes this evening messing with it, but when I tried the same stuff again, it did not work.	St
-1.5.12	This whole thing appears to be completely random now.	St
-1.5.13	Something interesting of note, the back up hard drive that is hooked up to the router is always visible from my computer (one of the computers on the network).	St
-1.5.14	Another thing is that on the router, all the computers and their names are visible when I pull up the DHCP chart.	St
-1.5.15	Anyhow, hope this helps you help me .	Polite
-1.5.16	Thanks to all for continuing to help me.	St
-1.6.1	That item is not real time and in this case doesn't help diagnose the issue.	St
-1.6.2	The NET VIEW results could point to a possible issue in the name of the workgroup or the other usuals of firewalls, sleep, etc.	St
+1.5.3	This morning , my computers actually made a lair out of me .	St
+1.5.4	I pulled everything up to find that they were not on the network this morning ( not even under the NET VIEW ) .	St
+1.5.5	-coryphaeus I am indeed running Zone Alarm on all the computers except one .	St
+1.5.6	I disabled them ( and will continue while trouble shooting ) , but it only seemed to help for only a moment on only one of the computers .	St
+1.5.7	-Rick Most of the computers I intentionally do not set to sleep , but after your suggestion , I did go and recheck all of them .	St
+1.5.8	There was only 1 computer that was set to go into sleep mode ; I fixed it to where it would not do it .	St
+1.5.9	-Bob From the looks of it , none of the computers are on the network most of the time .	St
+1.5.10	I have tried this over and over again , but keep getting this message ( using the NET VIEW command ) : & quot ; System Error 53 has occurred The Network path was not found & quot ; It will indeed show most of the computers when they are all on the network , but there is one computer that will pull up all the others when you are on it , but it does not appear on the network at all to the other ones ( when the network is working of course ) .	St
+1.5.11	I was able to get the network up and going for a few minutes this evening messing with it , but when I tried the same stuff again , it did not work .	St
+1.5.12	This whole thing appears to be completely random now .	St
+1.5.13	Something interesting of note , the back up hard drive that is hooked up to the router is always visible from my computer ( one of the computers on the network ) .	St
+1.5.14	Another thing is that on the router , all the computers and their names are visible when I pull up the DHCP chart .	St
+1.5.15	Anyhow , hope this helps you help me .	St
+1.5.16	Thanks to all for continuing to help me .	St
+1.6.1	That item is not real time and in this case does n't help diagnose the issue .	St
+1.6.2	The NET VIEW results could point to a possible issue in the name of the workgroup or the other usuals of firewalls , sleep , etc .	St
 1.6.3	Bob	St
-1.7.1	Tomorrow evening (cannot do it this evening), I will unplug the modem for my ISP (btw, my connection is a sat.	St
-1.7.2	connection, and the modem is supposed to act as a router itself, do not know if that could cause an issue or not) from the router and disable all the firewalls on all the computers to make absolutely sure that the firewalls are not causing this.	St
+1.7.1	Tomorrow evening ( can not do it this evening ) , I will unplug the modem for my ISP ( btw , my connection is a sat .	St
+1.7.2	connection , and the modem is supposed to act as a router itself , do not know if that could cause an issue or not ) from the router and disable all the firewalls on all the computers to make absolutely sure that the firewalls are not causing this .	St
 1.7.3	Lets hope nobody wants to put a logic bomb in before it take it off .	St
-1.7.4	As far as the naming issue, should I try making up a new workgroup to put all the computers under?	St
-1.8.1	Without the router to hand out IP addresses the machines may revert to self assigned addresses.	St
-1.8.2	Even hard assignment of addresses can fail since there is no DNS to resolve what's what.	St
+1.7.4	As far as the naming issue , should I try making up a new workgroup to put all the computers under ?	Ques
+1.8.1	Without the router to hand out IP addresses the machines may revert to self assigned addresses .	St
+1.8.2	Even hard assignment of addresses can fail since there is no DNS to resolve what 's what .	St
 1.8.3	Bob	St
-1.9.1	What I meant was that I was going to unplug the modem (which as I understand is supposed to act like a router itself, as well as a modem, but it is not the main router for the network), and leave my WiFi router plugged in.	St
-1.9.2	That way I can take off my firewalls, because there will not be an internet connection, but leave the network intact.	St
-1.9.3	I did not get a chance to work on it last night as I thought I would.	St
-1.9.4	I will try and see if I can get it done sometime today.	St
-1.9.5	What I meant was that I was going to unplug the modem (which as I understand is supposed to act like a router itself, as well as a modem, but it is not the main router for the network), and leave my WiFi router plugged in.	St
-1.9.6	That way I can take off my firewalls, because there will not be an internet connection, but leave the network intact.	St
-1.9.7	I did not get a chance to work on it last night as I thought I would.	St
-1.9.8	I will try and see if I can get it done sometime today.	St
-1.10.1	Well, I finally was able to get to it.	St
-1.10.2	I unhooked the modem from router and disabled all the firewalls on all the computers (Windows firewalls as well).	St
-1.10.3	The computers still showed to be connected to the router, but when I tried the NEW VIEW, it still gave me the message that there was no list.	St
-1.10.4	I also tried just using 2 computers on the network and got nothing.	St
-1.10.5	Do you have any other suggestions?	St
+1.9.1	What I meant was that I was going to unplug the modem ( which as I understand is supposed to act like a router itself , as well as a modem , but it is not the main router for the network ) , and leave my WiFi router plugged in .	St
+1.9.2	That way I can take off my firewalls , because there will not be an internet connection , but leave the network intact .	St
+1.9.3	I did not get a chance to work on it last night as I thought I would .	St
+1.9.4	I will try and see if I can get it done sometime today .	St
+1.9.5	What I meant was that I was going to unplug the modem ( which as I understand is supposed to act like a router itself , as well as a modem , but it is not the main router for the network ) , and leave my WiFi router plugged in .	St
+1.9.6	That way I can take off my firewalls , because there will not be an internet connection , but leave the network intact .	St
+1.9.7	I did not get a chance to work on it last night as I thought I would .	St
+1.9.8	I will try and see if I can get it done sometime today .	St
+1.10.1	Well , I finally was able to get to it .	St
+1.10.2	I unhooked the modem from router and disabled all the firewalls on all the computers ( Windows firewalls as well ) .	St
+1.10.3	The computers still showed to be connected to the router , but when I tried the NEW VIEW , it still gave me the message that there was no list .	St
+1.10.4	I also tried just using 2 computers on the network and got nothing .	St
+1.10.5	Do you have any other suggestions ?	Ques
 1.10.6	Thanks Raymon	St
-1.11.1	Takes time.	St
-1.11.2	Microsoft wrote a Knowledge Base article which pegs this time from a few minutes to weeks.	St
-1.11.3	I expected this to fail since there was no DNS and even with your change you can't expect instant results since there is still no DNS and until Microsoft's code runs for awhile to elect a master browser as well as all the machines to do their queries I can see where this should fail at first.	St
-1.11.4	Firewalls in the Norton and Mcafee products are well known to keep working even when disabled so the only fix for that is to toss them out.	St
-1.11.5	I have yet to see these makers address this issue.	St
+1.11.1	Takes time .	St
+1.11.2	Microsoft wrote a Knowledge Base article which pegs this time from a few minutes to weeks .	St
+1.11.3	I expected this to fail since there was no DNS and even with your change you ca n't expect instant results since there is still no DNS and until Microsoft 's code runs for awhile to elect a master browser as well as all the machines to do their queries I can see where this should fail at first .	St
+1.11.4	Firewalls in the Norton and Mcafee products are well known to keep working even when disabled so the only fix for that is to toss them out .	St
+1.11.5	I have yet to see these makers address this issue .	St
 1.11.6	Bob	St
-1.12.1	Here is my ignorance talking, but is there a way to manualy set the master browser?	St
-1.12.2	My personal computer that is on the network is usually the first one to be turned on in the morning and off at night.	St
-1.12.3	If I can set that, it would be perfect for it.	St
-1.12.4	If not, is there anything else that I can do?	St
-1.12.5	I really, really do *need* this network set up and running.	St
+1.12.1	Here is my ignorance talking , but is there a way to manualy set the master browser ?	Ques
+1.12.2	My personal computer that is on the network is usually the first one to be turned on in the morning and off at night .	St
+1.12.3	If I can set that , it would be perfect for it .	St
+1.12.4	If not , is there anything else that I can do ?	Ques
+1.12.5	I really , really do *need* this network set up and running .	St
 1.12.6	Raymon	St
-1.13.1	Your goals appear to be mixed.	St
-1.13.2	I take it that Mcafee is still installed so as long as it's there why should this ever work?	St
-1.13.3	I am not offering any fix for defective products here.	St
-1.13.4	How could I?	St
-1.13.5	There is also the use of the HOSTS file when you don't want to implement a DNS and you have no time for the master browser elections to take place.	St
-1.13.6	Articles about this are next: http://support.microsoft.com/kb/188001 is only the beginning... http://www.google.com/search?hl=en&safe=off&q=site%3Asupport.microsoft.com+HOSTS finds the articles about the HOSTS file.	St
-1.13.7	I wonder if you want this to just work?	St
-1.13.8	If so why not proceed to setups that are known to work (sans Norton and Mcafee products?)	St
-1.13.9	This is your choice and your time here.	St
-1.13.10	I don't like to futz with such so I just move forward to make it work.	St
-1.13.11	If I have a client that insists on Mcafee or Norton then I show the issue with test software and ask them to call the makers for a fix.	St
-1.13.12	I ask them to schedule a new appointment when they get that done.	St
-1.13.13	Another fine tool is over at http://www.networkmagic.com/ for those that don't want to futz with shares and accounts.	St
+1.13.1	Your goals appear to be mixed .	St
+1.13.2	I take it that Mcafee is still installed so as long as it 's there why should this ever work ?	Ques
+1.13.3	I am not offering any fix for defective products here .	St
+1.13.4	How could I ?	Ques
+1.13.5	There is also the use of the HOSTS file when you do n't want to implement a DNS and you have no time for the master browser elections to take place .	St
+1.13.6	Articles about this are next : http : //support.microsoft.com/kb/188001 is only the beginning ... http : //www.google.com/search ? hl=en & safe=off & q=site % 3Asupport.microsoft.com+HOSTS finds the articles about the HOSTS file .	St
+1.13.7	I wonder if you want this to just work ?	Ques
+1.13.8	If so why not proceed to setups that are known to work ( sans Norton and Mcafee products ? )	Ques
+1.13.9	This is your choice and your time here .	St
+1.13.10	I do n't like to futz with such so I just move forward to make it work .	St
+1.13.11	If I have a client that insists on Mcafee or Norton then I show the issue with test software and ask them to call the makers for a fix .	St
+1.13.12	I ask them to schedule a new appointment when they get that done .	St
+1.13.13	Another fine tool is over at http : //www.networkmagic.com/ for those that do n't want to futz with shares and accounts .	St
 1.13.14	Bob	St
-1.14.1	Sorry, for a few days life went from being hetic to staying up until 3:00 am to get my work done.	St
-1.14.2	I did find the time to download Network Magic, and it looks promising, but one of the computers have now started acting up on me and I must reformate it.	St
-1.14.3	So, I will try it later.	Sug
-1.14.4	Thanks for all your help.	St
-1.14.5	I am going to look over what you sent me and see what else I can do.	St
+1.14.1	Sorry , for a few days life went from being hetic to staying up until 3:00 am to get my work done .	St
+1.14.2	I did find the time to download Network Magic , and it looks promising , but one of the computers have now started acting up on me and I must reformate it .	St
+1.14.3	So , I will try it later .	St
+1.14.4	Thanks for all your help .	St
+1.14.5	I am going to look over what you sent me and see what else I can do .	St
 1.14.6	Raymon	St
-1.15.1	First Windows is retarded.	St
-1.15.2	the easiest way to fix a network problen on windows is reset.	St
-1.15.3	Double click My Network Places, double click Network Setup Wizard, follow instructions acorrding to your machine and configuration.	St
-1.15.4	Repeat for all computers.	St
-1.15.5	problem fixed.	St
-1.15.6	Windows has a tendencie to forget what is told to do.	St
-1.15.7	It has alzheimers.	St
+1.15.1	First Windows is retarded .	St
+1.15.2	the easiest way to fix a network problen on windows is reset .	St
+1.15.3	Double click My Network Places , double click Network Setup Wizard , follow instructions acorrding to your machine and configuration .	St
+1.15.4	Repeat for all computers .	St
+1.15.5	problem fixed .	St
+1.15.6	Windows has a tendencie to forget what is told to do .	St
+1.15.7	It has alzheimers .	St
 1.15.8	you just need to refresh its memory	St

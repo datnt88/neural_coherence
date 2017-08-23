@@ -1,35 +1,35 @@
-1.1.1	Maybe I am just doing something slightly wrong, but I am trying to make it so that I can be on my laptop and print to the printer that is in my home office, and also have a shared folder that I can transfer files from my laptop over to onto my office PC.	St
-1.1.2	Here is my setup: -Motorola Cable Modem which goes into a -Linksys WRT54GS Router From this point I have the Office PC plugged into 1 port and a Vonage Phone Adaptor plugged into another port.	St
-1.1.3	I am able to get the internet access on both the office PC and on my laptop when I connect wirelessly.	St
-1.1.4	I also have 2 printers connected to the Office PC.	St
-1.1.5	I figured it would as easy as choosign to SHARE the Printers from that machine, but I guess not.	St
-1.1.6	Do I need a print server?	St
-1.1.7	Do I need to send the Cable modem into the comptuer first and then out to the router?	St
-1.1.8	(I don't want to do this becasue I use the router for QoS) I would also like to be able to share a folder on the office PC so that if I work on a document on the laptop I can just copy it over to that machine for storage because I also backup everything on the office PC to off-site storage.	St
-1.1.9	any advice on my setup?	Ques
+1.1.1	Maybe I am just doing something slightly wrong , but I am trying to make it so that I can be on my laptop and print to the printer that is in my home office , and also have a shared folder that I can transfer files from my laptop over to onto my office PC .	St
+1.1.2	Here is my setup : -Motorola Cable Modem which goes into a -Linksys WRT54GS Router From this point I have the Office PC plugged into 1 port and a Vonage Phone Adaptor plugged into another port .	St
+1.1.3	I am able to get the internet access on both the office PC and on my laptop when I connect wirelessly .	St
+1.1.4	I also have 2 printers connected to the Office PC .	St
+1.1.5	I figured it would as easy as choosign to SHARE the Printers from that machine , but I guess not .	St
+1.1.6	Do I need a print server ?	Ques
+1.1.7	Do I need to send the Cable modem into the comptuer first and then out to the router ?	Ques
+1.1.8	( I do n't want to do this becasue I use the router for QoS ) I would also like to be able to share a folder on the office PC so that if I work on a document on the laptop I can just copy it over to that machine for storage because I also backup everything on the office PC to off-site storage .	St
+1.1.9	any advice on my setup ?	Ques
 1.1.10	thanks Tucker	Polite
-1.2.1	First you have to make sure that the firewall is either disabled or if it is enabled that you have all the available ports open to the machine.	St
-1.2.2	Secondly, you have to make sure that they are part of the same workgroup.	St
-1.2.3	For some reason I've found that they have problems when you don't keep them in the same workgroup and do basic file sharing.	St
-1.3.1	Maybe I am not understanding this perfectly.	St
-1.3.2	You said check the firewall and the ports.	St
-1.3.3	Are you saying on the router or on the computer and on which computer?	St
-1.3.4	Is this to share the printer?	St
-1.3.5	Also, what ports do I need to open?	St
-1.3.6	Do I allow these in the router or in the firewall?	St
-1.3.7	(I use McAfee Firewall by the way on the Office PC and Symantec on my laptop since it is a work PC).	St
-1.3.8	Also, how do I make sure it is part of the same workgroup?	St
-1.3.9	If this is more info then this forum can provide, is there someplace I can go to get this info?	St
+1.2.1	First you have to make sure that the firewall is either disabled or if it is enabled that you have all the available ports open to the machine .	St
+1.2.2	Secondly , you have to make sure that they are part of the same workgroup .	St
+1.2.3	For some reason I 've found that they have problems when you do n't keep them in the same workgroup and do basic file sharing .	St
+1.3.1	Maybe I am not understanding this perfectly .	St
+1.3.2	You said check the firewall and the ports .	St
+1.3.3	Are you saying on the router or on the computer and on which computer ?	Ques
+1.3.4	Is this to share the printer ?	Ques
+1.3.5	Also , what ports do I need to open ?	Ques
+1.3.6	Do I allow these in the router or in the firewall ?	Ques
+1.3.7	( I use McAfee Firewall by the way on the Office PC and Symantec on my laptop since it is a work PC ) .	St
+1.3.8	Also , how do I make sure it is part of the same workgroup ?	Ques
+1.3.9	If this is more info then this forum can provide , is there someplace I can go to get this info ?	Ques
 1.3.10	thanks	Polite
-1.4.1	the Network Setup Wizard on all computers and choose &quot;enable file and printer sharing.&quot; This is also where you specify the name for your workgroup.	St
-1.4.2	Hopefully all of your computers are running XP to simplify things?	St
-1.4.3	You will need to configure non microsoft firewalls.	St
-1.5.1	will running thw windows network setup be a problem becasue the laptop is my work computer?	St
-1.5.2	I don't want to mess it up by adding a new &quot;workgroup&quot; but that could also be why the shared printing isn't working.	St
-1.5.3	advice?	St
-1.6.1	Sorry I neglected to understand that this is a work laptop and therefore a member of a different workgroup.	St
-1.6.2	But it's still simple to join your home workgroup when needed.	St
-1.6.3	Hold down the Windows Logo key and press the Pause/Break key.	St
-1.6.4	On the system properties box select the Computer Name tab and click the change button.	St
-1.6.5	Select the workgroup option and enter the name of the workgroup you want to join.	St
-1.6.6	You will have to restart the computer.	St
+1.4.1	the Network Setup Wizard on all computers and choose & quot ; enable file and printer sharing. & quot ; This is also where you specify the name for your workgroup .	St
+1.4.2	Hopefully all of your computers are running XP to simplify things ?	Ques
+1.4.3	You will need to configure non microsoft firewalls .	St
+1.5.1	will running thw windows network setup be a problem becasue the laptop is my work computer ?	Ques
+1.5.2	I do n't want to mess it up by adding a new & quot ; workgroup & quot ; but that could also be why the shared printing is n't working .	St
+1.5.3	advice ?	Ques
+1.6.1	Sorry I neglected to understand that this is a work laptop and therefore a member of a different workgroup .	St
+1.6.2	But it 's still simple to join your home workgroup when needed .	St
+1.6.3	Hold down the Windows Logo key and press the Pause/Break key .	St
+1.6.4	On the system properties box select the Computer Name tab and click the change button .	St
+1.6.5	Select the workgroup option and enter the name of the workgroup you want to join .	St
+1.6.6	You will have to restart the computer .	St

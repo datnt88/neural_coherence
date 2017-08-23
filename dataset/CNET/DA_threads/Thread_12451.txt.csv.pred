@@ -1,56 +1,56 @@
-1.1.1	I have 3 ram slots, I have one 1gb stick of ddr ram and two sticks of 512mb ddr ram, my computer works when i put the 1gb stick and one 512mb stick in, it says i have 1.50gb.	St
-1.1.2	but when i try to add the last stick of 512mb my computer does not boot up.	St
-1.1.3	I installed a program called sisoft to check out my motherboard to see the max amount of ram that can be installed and it says 2gb, I also have tried adding one 256mb of ddr along with the 1gb stick and one 512..but still will not boot up.	St
-1.1.4	The motherboard i have is the &quot;ASUSTeK P4PE&quot; I am sure every stick i have works, i have tried each one individualy.	St
-1.1.5	The 1gb stick is dobule sided DIMM.	St
-1.1.6	One of the 512 sticks is also double sided DIMM.	St
-1.1.7	The last 512 stick is single sided DIMM.	St
-1.1.8	But the computer boots with either of the 512mb sticks along with the 1gb stick.	St
-1.1.9	does anyone know whats wrong?	Ques
-1.1.10	=(	St
-1.2.1	One of the 512 sticks is also double sided DIMM.	St
-1.2.2	The last 512 stick is single sided DIMM.	St
-1.2.3	I think these need to be an identical pair to work &quot;together&quot;	St
-1.3.1	While you mention the MB size of the memory, its important to know what class&type the memory is.	St
-1.3.2	If they differ too much of amongest the total of the ram installed you have computability problems not to include the system itself.	St
-1.3.3	In the system, the bios must be at its latest level as it *may* correct or help in this regard.	St
-1.3.4	The RAS and CAS rating of the ram are part of its make-up so if they differ, expect problems.	St
-1.3.5	One way I look into the make-up of a ram module is to use Everest Home Edition, gotten from some download file service, like www.download,com or www.majorgeeks.com or similar websites.	St
-1.3.6	Once installed and used, find the differences of ram installed and proceed from that.	St
-1.3.7	It usually makes sense to have very similar memory installed, besides Mb sizes.	St
-1.3.8	tada -----Willy	St
-1.4.1	Therein lies the answer.	St
+1.1.1	I have 3 ram slots , I have one 1gb stick of ddr ram and two sticks of 512mb ddr ram , my computer works when i put the 1gb stick and one 512mb stick in , it says i have 1.50gb .	St
+1.1.2	but when i try to add the last stick of 512mb my computer does not boot up .	St
+1.1.3	I installed a program called sisoft to check out my motherboard to see the max amount of ram that can be installed and it says 2gb , I also have tried adding one 256mb of ddr along with the 1gb stick and one 512..but still will not boot up .	St
+1.1.4	The motherboard i have is the & quot ; ASUSTeK P4PE & quot ; I am sure every stick i have works , i have tried each one individualy .	St
+1.1.5	The 1gb stick is dobule sided DIMM .	St
+1.1.6	One of the 512 sticks is also double sided DIMM .	St
+1.1.7	The last 512 stick is single sided DIMM .	St
+1.1.8	But the computer boots with either of the 512mb sticks along with the 1gb stick .	St
+1.1.9	does anyone know whats wrong ?	Ques
+1.1.10	= (	St
+1.2.1	One of the 512 sticks is also double sided DIMM .	St
+1.2.2	The last 512 stick is single sided DIMM .	St
+1.2.3	I think these need to be an identical pair to work & quot ; together & quot ;	St
+1.3.1	While you mention the MB size of the memory , its important to know what class & type the memory is .	St
+1.3.2	If they differ too much of amongest the total of the ram installed you have computability problems not to include the system itself .	St
+1.3.3	In the system , the bios must be at its latest level as it *may* correct or help in this regard .	St
+1.3.4	The RAS and CAS rating of the ram are part of its make-up so if they differ , expect problems .	St
+1.3.5	One way I look into the make-up of a ram module is to use Everest Home Edition , gotten from some download file service , like www.download , com or www.majorgeeks.com or similar websites .	St
+1.3.6	Once installed and used , find the differences of ram installed and proceed from that .	St
+1.3.7	It usually makes sense to have very similar memory installed , besides Mb sizes .	St
+1.3.8	tada -- -- -Willy	St
+1.4.1	Therein lies the answer .	St
 1.4.2	VAPCMD	St
-1.5.1	I believe this has been answered for you...but I am no expert.	St
-1.5.2	what you have is mis matched.	St
-1.5.3	either all 2 sided or all 1 sided... it's a conflict.	St
-1.6.1	you can only install 3 single sided ram,if you install a double sided in slot 2 you must leave slot 3 empty as slots 2 & 3 'share the same rows'.so you can have either single or double sided in slot 1 with either 2 single sided in the remaining 2 slots OR 1 double sided in slot 2 with slot 3 remaining empty.	Sug
-1.7.1	What you have is a timing problem.	St
-1.7.2	It is likely that you have a newer stick that is too fast for the slower 512mb stick.	St
-1.7.3	Without seeing the specs on each stick it is hard to say exactly which one has an issue, but it sounds like the newer one is causing the timing problem.	St
-1.7.4	Count of the chips on the stick should not matter.	St
-1.7.5	Look each stick of memory online to see the specs and that should help you determine what is the conflict.	St
-1.8.1	Your motherboard only supports memory with speeds up to 333mhz.	St
-1.8.2	Now, if each of the sticks works individually, then that is the test to see if each is at or below this limit.	St
-1.8.3	Memory Matching: It is not advisable to install memory of different speed/type/size in any one machine, much less paired slots.	St
-1.8.4	When I advise freinds (or build systems for them) I always make them buy new RAM.	St
-1.8.5	Why recyle those old POS sticks?	St
-1.8.6	To save $20?	St
-1.8.7	A 1gb stick of value priced RAM can be purchased for less than $60.	St
-1.8.8	2x2gb for less than $160.	St
-1.8.9	There is no excuse for cheap RAM.	St
-1.8.10	Or maybe your MOBO's fried/bad socket.	Sug
-1.9.1	I had the same experience when replacing a 128MB RAM in slot 2 of an Intel 810 Chipset with a 256MB RAM in the same slot 2.	St
-1.9.2	PC would not boot with 256MB chipset.	St
-1.9.3	Removed 256MB chipset and PC did boot with the existing 256MB chipset in slot 1, slot 2 empty.	St
-1.9.4	PC also would not boot when I inserted the original 128MB RAM in slot 2.	St
-1.9.5	PC manufacturer said my PC would only hold 256MB RAM.	St
-1.9.6	Intel website said capacity was 512MB in two slots.	St
-1.9.7	Intel website suggested upgrading BIOS.	St
-1.9.8	Since Intel no longer supported the 810 Chipset I had to go to a second party provider for $40.	St
-1.9.9	Upgraded BIOS allowed the PC to boot with 512MB RAM.	St
-1.9.10	A side benefit was improved performance from the PC with the new BIOS.	St
-1.9.11	About six months later I reinstalled Windows XP which deleted everything from the hard drive to clean up the computer.	St
-1.9.12	Low and behold the PC booted with 512 MB RAM without the new BIOS.	St
-1.9.13	Apparently when I had the original problen adding RAM something happened so that the slot 2 RAM was causing a conflict.	St
-1.9.14	Go figure.	St
+1.5.1	I believe this has been answered for you ... but I am no expert .	St
+1.5.2	what you have is mis matched .	St
+1.5.3	either all 2 sided or all 1 sided ... it 's a conflict .	St
+1.6.1	you can only install 3 single sided ram , if you install a double sided in slot 2 you must leave slot 3 empty as slots 2 & 3 'share the same rows'.so you can have either single or double sided in slot 1 with either 2 single sided in the remaining 2 slots OR 1 double sided in slot 2 with slot 3 remaining empty .	St
+1.7.1	What you have is a timing problem .	St
+1.7.2	It is likely that you have a newer stick that is too fast for the slower 512mb stick .	St
+1.7.3	Without seeing the specs on each stick it is hard to say exactly which one has an issue , but it sounds like the newer one is causing the timing problem .	St
+1.7.4	Count of the chips on the stick should not matter .	St
+1.7.5	Look each stick of memory online to see the specs and that should help you determine what is the conflict .	St
+1.8.1	Your motherboard only supports memory with speeds up to 333mhz .	St
+1.8.2	Now , if each of the sticks works individually , then that is the test to see if each is at or below this limit .	St
+1.8.3	Memory Matching : It is not advisable to install memory of different speed/type/size in any one machine , much less paired slots .	St
+1.8.4	When I advise freinds ( or build systems for them ) I always make them buy new RAM .	St
+1.8.5	Why recyle those old POS sticks ?	Ques
+1.8.6	To save $ 20 ?	Ques
+1.8.7	A 1gb stick of value priced RAM can be purchased for less than $ 60 .	St
+1.8.8	2x2gb for less than $ 160 .	St
+1.8.9	There is no excuse for cheap RAM .	St
+1.8.10	Or maybe your MOBO 's fried/bad socket .	St
+1.9.1	I had the same experience when replacing a 128MB RAM in slot 2 of an Intel 810 Chipset with a 256MB RAM in the same slot 2 .	St
+1.9.2	PC would not boot with 256MB chipset .	St
+1.9.3	Removed 256MB chipset and PC did boot with the existing 256MB chipset in slot 1 , slot 2 empty .	St
+1.9.4	PC also would not boot when I inserted the original 128MB RAM in slot 2 .	St
+1.9.5	PC manufacturer said my PC would only hold 256MB RAM .	St
+1.9.6	Intel website said capacity was 512MB in two slots .	St
+1.9.7	Intel website suggested upgrading BIOS .	St
+1.9.8	Since Intel no longer supported the 810 Chipset I had to go to a second party provider for $ 40 .	St
+1.9.9	Upgraded BIOS allowed the PC to boot with 512MB RAM .	St
+1.9.10	A side benefit was improved performance from the PC with the new BIOS .	St
+1.9.11	About six months later I reinstalled Windows XP which deleted everything from the hard drive to clean up the computer .	St
+1.9.12	Low and behold the PC booted with 512 MB RAM without the new BIOS .	St
+1.9.13	Apparently when I had the original problen adding RAM something happened so that the slot 2 RAM was causing a conflict .	St
+1.9.14	Go figure .	St

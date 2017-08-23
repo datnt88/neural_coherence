@@ -1,51 +1,51 @@
-1.1.1	Hi, I'm trying to trouble-shoot a desktop computer that won't boot.	St
-1.1.2	It's a Gateway 700x.	St
-1.1.3	Motherboard is an Intel D850MV.	St
-1.1.4	When I turn it on, I get 3 long beeps, and that's it.	St
-1.1.5	No video.	St
-1.1.6	The PSU and CPU fans are running, and the hard drive spins too, so there is some power.	St
-1.1.7	According to docs, 3 long beeps mean &quot;memory error&quot;.	St
-1.1.8	However, I assume if the motherboard isn't getting enough power, perhaps the memory is good, but no power is going to it.	St
-1.1.9	Might also explain why there's no video.	St
-1.1.10	So, I narrowed the problem down to PSU, motherboard, or memory.	St
-1.1.11	The motherboard has a 20-pin ATX connector, and I happen to have a multimeter, so I probed each wire while the computer is running.	St
-1.1.12	All of the wires seem to be in acceptable range, except for the blue wire.	St
-1.1.13	I got a reading of -30V.	St
-1.1.14	The specs say the blue wire should be -12V.	St
-1.1.15	For people who regularly test PSUs, does -30V sound strange?	St
-1.1.16	What components of the motherboard use the -12V line?	St
-1.2.1	If you're getting a &quot;memory error&quot; then this usually means that one of your memory sticks is bad; power down your computer, unplug the power cord and pull out all the sticks, replace one by one.	St
-1.2.2	Meaning; put one stick in and boot your PC, if it boots fine, then power down, pull that one out (label that stick &quot;good&quot;), replace it with the next stick, and reboot again...repeat this process with all your memory sticks until you find the one that is dead (or dying).	St
-1.3.1	Thanks, but I don't think that would work with this Pentium4 motherboard.	St
-1.3.2	The docs say it only accepts memory sticks in pairs.	St
-1.3.3	And that doesn't explain why I'm getting -30V or no video.	St
-1.3.4	Is it possible to get incorrect POST beeps if PSU is bad?	St
-1.4.1	Generally when the computer beeps 3 times during post, it means that it reading a memory error, which in turn means that one (if not both) of the memory sticks are bad.	St
-1.4.2	If you post your motherboard model number we may be able to dig a bit deeper into troubleshooting your problem.	St
-1.5.1	It's a Intel D850MV: http://www.intel.com/support/motherboards/desktop/d850mv/ And it's specifically &quot;Three long beeps&quot;.	St
-1.5.2	But as I mentioned, I don't trust the POST beeps.	St
-1.5.3	Would really like to know if a bad PSU can cause bad POST beeps.	St
-1.6.1	A failing PSU will cause error beeps; but if the PSU is indeed bad (or on its last legs), your computer wouldn't post at all, let alone give you error beeps.	St
-1.6.2	I don't understand why you wouldn't trust error code beeps from your computer in first place, as these errors are coming directly from the source...your motherboard.	St
-1.6.3	And if you can't trust what your motherboard is trying to convey to you, I really don't have a solution for you.	St
-1.7.1	for your motherboard; as quoted directly from the link: &quot;3 beeps - Base 64 K memory failure Reseat the memory.	St
-1.7.2	Make sure that the contacts on the memory and the socket are clean.	St
-1.7.3	Try removing one bank of memory modules at a time.	St
-1.7.4	Note: Some systems might need to have a memory module in Bank 0.	St
-1.7.5	Try using memory modules from the same manufacturer with the same part number and speed.	St
-1.7.6	Check for a faulty memory module by trying the memory in a known good system.	St
-1.7.7	Trying known good memory in the system.	St
-1.7.8	Check the power supply and check for power fluctuations.	St
-1.7.9	If the steps above do not resolve the problem, the desktop board may be defective.	St
-1.7.10	Try a different desktop board&quot; Yes, it does state that you should check your power supply, and if you really think that may be the root of your problem, then it doesn't hurt anything to buy another (reputable make) power supply to test your theory.	St
-1.8.1	Sorry, what I mean is, can a failing PSU cause incorrect POST beeps?	St
-1.8.2	Failing as in, providing voltage outside normal ranges?	St
-1.8.3	Not necessarily totally dead.	St
-1.8.4	If a PSU can't properly power a motherboard, then I have no reason to believe the memory is bad.	St
-1.8.5	Unless someone with experience can offer more details.	Ques
-1.8.6	The source, in my opinion, starts with a good power supply.	St
-1.9.1	Pop in another PSU.	St
-1.9.2	There are PSU testers but for years when I head 3 beeps it was a dead board or incompatible ram or bad sockets or the chip that interfaces with the RAM (still means a dead motherboard.)	St
-1.9.3	I've seen techs lose months on boards like that.	St
-1.9.4	I learned to get them out of the shop fast to save us from wasting hours trying to recover the dead boards.	St
+1.1.1	Hi , I 'm trying to trouble-shoot a desktop computer that wo n't boot .	St
+1.1.2	It 's a Gateway 700x .	St
+1.1.3	Motherboard is an Intel D850MV .	St
+1.1.4	When I turn it on , I get 3 long beeps , and that 's it .	St
+1.1.5	No video .	St
+1.1.6	The PSU and CPU fans are running , and the hard drive spins too , so there is some power .	St
+1.1.7	According to docs , 3 long beeps mean & quot ; memory error & quot ; .	St
+1.1.8	However , I assume if the motherboard is n't getting enough power , perhaps the memory is good , but no power is going to it .	St
+1.1.9	Might also explain why there 's no video .	St
+1.1.10	So , I narrowed the problem down to PSU , motherboard , or memory .	St
+1.1.11	The motherboard has a 20-pin ATX connector , and I happen to have a multimeter , so I probed each wire while the computer is running .	St
+1.1.12	All of the wires seem to be in acceptable range , except for the blue wire .	St
+1.1.13	I got a reading of -30V .	St
+1.1.14	The specs say the blue wire should be -12V .	St
+1.1.15	For people who regularly test PSUs , does -30V sound strange ?	Ques
+1.1.16	What components of the motherboard use the -12V line ?	Ques
+1.2.1	If you 're getting a & quot ; memory error & quot ; then this usually means that one of your memory sticks is bad ; power down your computer , unplug the power cord and pull out all the sticks , replace one by one .	St
+1.2.2	Meaning ; put one stick in and boot your PC , if it boots fine , then power down , pull that one out ( label that stick & quot ; good & quot ; ) , replace it with the next stick , and reboot again ... repeat this process with all your memory sticks until you find the one that is dead ( or dying ) .	St
+1.3.1	Thanks , but I do n't think that would work with this Pentium4 motherboard .	St
+1.3.2	The docs say it only accepts memory sticks in pairs .	St
+1.3.3	And that does n't explain why I 'm getting -30V or no video .	St
+1.3.4	Is it possible to get incorrect POST beeps if PSU is bad ?	Ques
+1.4.1	Generally when the computer beeps 3 times during post , it means that it reading a memory error , which in turn means that one ( if not both ) of the memory sticks are bad .	St
+1.4.2	If you post your motherboard model number we may be able to dig a bit deeper into troubleshooting your problem .	St
+1.5.1	It 's a Intel D850MV : http : //www.intel.com/support/motherboards/desktop/d850mv/ And it 's specifically & quot ; Three long beeps & quot ; .	St
+1.5.2	But as I mentioned , I do n't trust the POST beeps .	St
+1.5.3	Would really like to know if a bad PSU can cause bad POST beeps .	St
+1.6.1	A failing PSU will cause error beeps ; but if the PSU is indeed bad ( or on its last legs ) , your computer would n't post at all , let alone give you error beeps .	St
+1.6.2	I do n't understand why you would n't trust error code beeps from your computer in first place , as these errors are coming directly from the source ... your motherboard .	St
+1.6.3	And if you ca n't trust what your motherboard is trying to convey to you , I really do n't have a solution for you .	St
+1.7.1	for your motherboard ; as quoted directly from the link : & quot ; 3 beeps - Base 64 K memory failure Reseat the memory .	St
+1.7.2	Make sure that the contacts on the memory and the socket are clean .	Res
+1.7.3	Try removing one bank of memory modules at a time .	St
+1.7.4	Note : Some systems might need to have a memory module in Bank 0 .	St
+1.7.5	Try using memory modules from the same manufacturer with the same part number and speed .	St
+1.7.6	Check for a faulty memory module by trying the memory in a known good system .	St
+1.7.7	Trying known good memory in the system .	St
+1.7.8	Check the power supply and check for power fluctuations .	St
+1.7.9	If the steps above do not resolve the problem , the desktop board may be defective .	St
+1.7.10	Try a different desktop board & quot ; Yes , it does state that you should check your power supply , and if you really think that may be the root of your problem , then it does n't hurt anything to buy another ( reputable make ) power supply to test your theory .	St
+1.8.1	Sorry , what I mean is , can a failing PSU cause incorrect POST beeps ?	Ques
+1.8.2	Failing as in , providing voltage outside normal ranges ?	Ques
+1.8.3	Not necessarily totally dead .	St
+1.8.4	If a PSU ca n't properly power a motherboard , then I have no reason to believe the memory is bad .	St
+1.8.5	Unless someone with experience can offer more details .	St
+1.8.6	The source , in my opinion , starts with a good power supply .	St
+1.9.1	Pop in another PSU .	St
+1.9.2	There are PSU testers but for years when I head 3 beeps it was a dead board or incompatible ram or bad sockets or the chip that interfaces with the RAM ( still means a dead motherboard . )	St
+1.9.3	I 've seen techs lose months on boards like that .	St
+1.9.4	I learned to get them out of the shop fast to save us from wasting hours trying to recover the dead boards .	St
 1.9.5	Bob	St

@@ -1,59 +1,59 @@
-1.1.1	So I ran into an interesting problem today.	St
-1.1.2	I tweaked a couple settings in my registry concerning the wait timeouts during system shut down because my shut down time has been like 8 minutes for a week or so.	St
-1.1.3	Everything seemed to be fine.	St
-1.1.4	I also created a new user profile, gave it Admin level authority, and deleted my other three profiles because I was getting internal error 1606 and failed on fixing from several angles.	St
-1.1.5	When I rebooted after the update for the new IE9 beta my laptop booted up, did the post and then shut down.	St
-1.1.6	Odd.	St
-1.1.7	So I pushed the power button to start it up again and it acted the same way.	St
-1.1.8	It did fine, all the correct and usual sounds, the fans working, and then, just when it should have shown the Vista splash, it just shut down.	St
-1.1.9	Ok.	St
-1.1.10	So I had put in the Hiren's Boot CD because when I deleted those three profiles I wasn't able to delete all of them.	St
-1.1.11	So, I was thinking I would just boot from the HBCD and delete those files before booting the OS.	St
-1.1.12	Wrong.	St
-1.1.13	I was at a loss.	St
-1.1.14	I left it alone for a few minutes and got online with my wife's laptop to google auto shut downs shortly after start-up and came up with a lot of possibilities that I am pretty sure aren't applicable here.	St
-1.1.15	Maybe I've got a bad cluster in my boot sector?	St
-1.1.16	Maybe I've got a virus in my bios, ram or boot sector?	St
-1.1.17	Maybe my HD is about to quit on me?	St
-1.1.18	After a few minutes I powered up my laptop again and it went as far as giving me two choices, one was start up repair and the other was something else and I don't remember.	St
-1.1.19	Anyway, so I chose start up repair or windows start up recovery repair...something like that.	St
-1.1.20	They're labeled differently depending on which manufacturer built it.	St
-1.1.21	I've got a Toshiba Sattalite A215, Vista Home Premium, and the AMD Athlon 64 cpu.	St
-1.1.22	So into the recovery it went and it asked me if I wanted to do a system restore, I said yes.	St
-1.1.23	I was skeptical because I figure the problem isn't a software conflict but rather one of the three I mentioned above.	St
-1.1.24	It took like 30 minutes to do the system restore which really, really, really made me twich.	St
-1.1.25	I thought for sure it must be hung and stuck on some bad sector...but it finally finished and rebooted.	St
-1.1.26	And I made it all the way into Windows without a hitch.	St
-1.1.27	So at this point I was hoping it was really just a software conflict after all.	St
-1.1.28	But, I still had the issue with those files I need to delete that are taking up several GBs of wasted space on my HD and I have no way of getting rid of them.	St
-1.1.29	So, there I went, another attempt to boot the HBCD.	St
-1.1.30	FAILED!!!	St
-1.1.31	I managed to boot the HBCD just fine.	St
-1.1.32	I ran HD Sentinel and it said temp was perfect, but the HD health was 94%.	St
-1.1.33	I'm not sure where the health should be and I did but this laptop used from the pawn shop a couple of months ago so I don't know how old it is and what it's been through.	St
-1.1.34	If the life span of a typical HD is 6 years then it should take at least 4.5 to 5 years to begin experiencing troublesome noises or intermittent failures, right?	St
-1.1.35	So anyway, I finished the HD Sentinel and was trying to figure out which program I wanted to run since it's been a while since I ran any of them when all of a sudden my comp just shut down!	St
-1.1.36	Sigh!	St
-1.1.37	So I pushed the power button and attempted it again, this time I made it as far as the menu to choose one of the HD utilities but not far enough to actually run one of them before it shut down again.	St
-1.1.38	I made one more attempt, this time I didn't make it as far as even booting the HBCD before it shut down.	St
-1.1.39	I then attempted to boot Windows again and succeeded.	St
-1.1.40	And now, as I am typing, I am still powered up and running on that same boot without it having shut down again yet.	St
-1.1.41	Is there something wrong with my HD?	St
-1.1.42	How do I proceed with troubleshooting this issue and if it is the HD I have a couple of questions about hard drives.	St
-1.1.43	My hard drive is a sata/150 but what does the 150 stand for?	St
-1.1.44	My hard drive is a 150GB and if my HD is on the fritz I would like to upgrade to the biggest one available.	St
-1.1.45	Can I install a sata/300?	St
-1.1.46	It's a 500GB for only $49 and it would just tickle me pink to have that much HD space available.	St
-1.1.47	Back to my currect woes.	St
-1.1.48	I do not have sufficient system access (even as Administrator) to delete the remaining files within those three dead profiles.	St
-1.1.49	How can I get around this odd glitch and delete these files from within Windows Vista?	St
-1.2.1	Failed C:\Users&gt;cacls owner C:\Users\Owner &lt;Account Domain not found&gt;F NT AUTHORITY\SYSTEM:F BUILTIN\Administrators:F &lt;Account Domain not found&gt;(OI)(CI)(IO)F NT AUTHORITY\SYSTEM:(OI)(CI)(IO)F BUILTIN\Administrators:(OI)(CI)(IO)F &lt;Account Domain not found&gt;(OI)(CI)R &lt;Account Domain not found&gt;(OI)(CI)R MATTBALL\Matthew:(OI)(CI)R C:\Users&gt;cacls owner /g matthew:f Are you sure (Y/N)?y Access is denied.	St
-1.2.2	C:\Users&gt; C:\Users&gt;cacls owner C:\Users\Owner &lt;Account Domain not found&gt;F NT AUTHORITY\SYSTEM:F BUILTIN\Administrators:F &lt;Account Domain not found&gt;(OI)(CI)(IO)F NT AUTHORITY\SYSTEM:(OI)(CI)(IO)F BUILTIN\Administrators:(OI)(CI)(IO)F &lt;Account Domain not found&gt;(OI)(CI)R &lt;Account Domain not found&gt;(OI)(CI)R MATTBALL\Matthew:(OI)(CI)R C:\Users&gt; To be clear here, there is ONLY one user profile: Matthew	St
-1.3.1	Ok, oddly enough, I had neglected to go to Share and grant myselft the Full Control privilege.	St
-1.3.2	I had only granted full control to the group Administrators but at the same time had denied my self as a user all but Read.	St
-1.3.3	ha ha So now that I have deleted the seemingly impossible-to-delete files I have more brain power to dedicate to why my laptop shuts down when I do anything besides normal boot.	St
-1.3.4	Oh, by the way, it also shuts down in CMOS.	St
-1.3.5	I can be there for 1 to 2 minutes, no more, and it just shuts down.	St
-1.3.6	And as I type I am still up and running.	St
-1.3.7	I haven't shut down since booting all the way into Windows.	St
-1.3.8	odd, very odd	St
+1.1.1	So I ran into an interesting problem today .	St
+1.1.2	I tweaked a couple settings in my registry concerning the wait timeouts during system shut down because my shut down time has been like 8 minutes for a week or so .	St
+1.1.3	Everything seemed to be fine .	St
+1.1.4	I also created a new user profile , gave it Admin level authority , and deleted my other three profiles because I was getting internal error 1606 and failed on fixing from several angles .	St
+1.1.5	When I rebooted after the update for the new IE9 beta my laptop booted up , did the post and then shut down .	St
+1.1.6	Odd .	St
+1.1.7	So I pushed the power button to start it up again and it acted the same way .	St
+1.1.8	It did fine , all the correct and usual sounds , the fans working , and then , just when it should have shown the Vista splash , it just shut down .	St
+1.1.9	Ok .	St
+1.1.10	So I had put in the Hiren 's Boot CD because when I deleted those three profiles I was n't able to delete all of them .	St
+1.1.11	So , I was thinking I would just boot from the HBCD and delete those files before booting the OS .	St
+1.1.12	Wrong .	St
+1.1.13	I was at a loss .	St
+1.1.14	I left it alone for a few minutes and got online with my wife 's laptop to google auto shut downs shortly after start-up and came up with a lot of possibilities that I am pretty sure are n't applicable here .	St
+1.1.15	Maybe I 've got a bad cluster in my boot sector ?	Ques
+1.1.16	Maybe I 've got a virus in my bios , ram or boot sector ?	Ques
+1.1.17	Maybe my HD is about to quit on me ?	Ques
+1.1.18	After a few minutes I powered up my laptop again and it went as far as giving me two choices , one was start up repair and the other was something else and I do n't remember .	St
+1.1.19	Anyway , so I chose start up repair or windows start up recovery repair ... something like that .	St
+1.1.20	They 're labeled differently depending on which manufacturer built it .	St
+1.1.21	I 've got a Toshiba Sattalite A215 , Vista Home Premium , and the AMD Athlon 64 cpu .	St
+1.1.22	So into the recovery it went and it asked me if I wanted to do a system restore , I said yes .	St
+1.1.23	I was skeptical because I figure the problem is n't a software conflict but rather one of the three I mentioned above .	St
+1.1.24	It took like 30 minutes to do the system restore which really , really , really made me twich .	St
+1.1.25	I thought for sure it must be hung and stuck on some bad sector ... but it finally finished and rebooted .	St
+1.1.26	And I made it all the way into Windows without a hitch .	St
+1.1.27	So at this point I was hoping it was really just a software conflict after all .	St
+1.1.28	But , I still had the issue with those files I need to delete that are taking up several GBs of wasted space on my HD and I have no way of getting rid of them .	St
+1.1.29	So , there I went , another attempt to boot the HBCD .	St
+1.1.30	FAILED ! ! !	St
+1.1.31	I managed to boot the HBCD just fine .	St
+1.1.32	I ran HD Sentinel and it said temp was perfect , but the HD health was 94 % .	St
+1.1.33	I 'm not sure where the health should be and I did but this laptop used from the pawn shop a couple of months ago so I do n't know how old it is and what it 's been through .	St
+1.1.34	If the life span of a typical HD is 6 years then it should take at least 4.5 to 5 years to begin experiencing troublesome noises or intermittent failures , right ?	Ques
+1.1.35	So anyway , I finished the HD Sentinel and was trying to figure out which program I wanted to run since it 's been a while since I ran any of them when all of a sudden my comp just shut down !	St
+1.1.36	Sigh !	St
+1.1.37	So I pushed the power button and attempted it again , this time I made it as far as the menu to choose one of the HD utilities but not far enough to actually run one of them before it shut down again .	St
+1.1.38	I made one more attempt , this time I did n't make it as far as even booting the HBCD before it shut down .	St
+1.1.39	I then attempted to boot Windows again and succeeded .	St
+1.1.40	And now , as I am typing , I am still powered up and running on that same boot without it having shut down again yet .	St
+1.1.41	Is there something wrong with my HD ?	Ques
+1.1.42	How do I proceed with troubleshooting this issue and if it is the HD I have a couple of questions about hard drives .	St
+1.1.43	My hard drive is a sata/150 but what does the 150 stand for ?	Ques
+1.1.44	My hard drive is a 150GB and if my HD is on the fritz I would like to upgrade to the biggest one available .	St
+1.1.45	Can I install a sata/300 ?	Ques
+1.1.46	It 's a 500GB for only $ 49 and it would just tickle me pink to have that much HD space available .	St
+1.1.47	Back to my currect woes .	St
+1.1.48	I do not have sufficient system access ( even as Administrator ) to delete the remaining files within those three dead profiles .	St
+1.1.49	How can I get around this odd glitch and delete these files from within Windows Vista ?	Ques
+1.2.1	Failed C : \Users & gt ; cacls owner C : \Users\Owner & lt ; Account Domain not found & gt ; F NT AUTHORITY\SYSTEM : F BUILTIN\Administrators : F & lt ; Account Domain not found & gt ; ( OI ) ( CI ) ( IO ) F NT AUTHORITY\SYSTEM : ( OI ) ( CI ) ( IO ) F BUILTIN\Administrators : ( OI ) ( CI ) ( IO ) F & lt ; Account Domain not found & gt ; ( OI ) ( CI ) R & lt ; Account Domain not found & gt ; ( OI ) ( CI ) R MATTBALL\Matthew : ( OI ) ( CI ) R C : \Users & gt ; cacls owner /g matthew : f Are you sure ( Y/N ) ? y Access is denied .	St
+1.2.2	C : \Users & gt ; C : \Users & gt ; cacls owner C : \Users\Owner & lt ; Account Domain not found & gt ; F NT AUTHORITY\SYSTEM : F BUILTIN\Administrators : F & lt ; Account Domain not found & gt ; ( OI ) ( CI ) ( IO ) F NT AUTHORITY\SYSTEM : ( OI ) ( CI ) ( IO ) F BUILTIN\Administrators : ( OI ) ( CI ) ( IO ) F & lt ; Account Domain not found & gt ; ( OI ) ( CI ) R & lt ; Account Domain not found & gt ; ( OI ) ( CI ) R MATTBALL\Matthew : ( OI ) ( CI ) R C : \Users & gt ; To be clear here , there is ONLY one user profile : Matthew	St
+1.3.1	Ok , oddly enough , I had neglected to go to Share and grant myselft the Full Control privilege .	St
+1.3.2	I had only granted full control to the group Administrators but at the same time had denied my self as a user all but Read .	St
+1.3.3	ha ha So now that I have deleted the seemingly impossible-to-delete files I have more brain power to dedicate to why my laptop shuts down when I do anything besides normal boot .	St
+1.3.4	Oh , by the way , it also shuts down in CMOS .	St
+1.3.5	I can be there for 1 to 2 minutes , no more , and it just shuts down .	St
+1.3.6	And as I type I am still up and running .	St
+1.3.7	I have n't shut down since booting all the way into Windows .	St
+1.3.8	odd , very odd	St

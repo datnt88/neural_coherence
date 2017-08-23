@@ -1,84 +1,84 @@
-1.1.1	I'm adding two access points to a primary router...my question is do/can I connect the 2nd access point to the 1st access point or it has to be connected to the primary router?	St
-1.1.2	I already know that I must change the IP addresses on the access points to .2 and .3.	St
-1.1.3	My only confusion is the question I asked.	St
-1.1.4	Thanks in advance for the help.	St
-1.2.1	The reason I would never chain or relay is that the speed/overhead of chaining defeats most of why we use said setups.	St
-1.2.2	Also, how are you going to deal with 802.11n's overlap issue if you use 40MHz OFDM?	St
+1.1.1	I 'm adding two access points to a primary router ... my question is do/can I connect the 2nd access point to the 1st access point or it has to be connected to the primary router ?	Ques
+1.1.2	I already know that I must change the IP addresses on the access points to .2 and .3 .	St
+1.1.3	My only confusion is the question I asked .	St
+1.1.4	Thanks in advance for the help .	St
+1.2.1	The reason I would never chain or relay is that the speed/overhead of chaining defeats most of why we use said setups .	St
+1.2.2	Also , how are you going to deal with 802.11n 's overlap issue if you use 40MHz OFDM ?	Ques
 1.2.3	Bob	St
-1.3.1	though it could be through another switch.	St
-1.3.2	Static addressing or DHCP is up to you as long as your router will accommodate your choice.	St
-1.3.3	I find that using static addresses with some devices like printers and AP makes managing them a bit easier.	St
-1.3.4	Keep as much distance as you can between the APs.	St
-1.3.5	Some are smart enough to detect other devices nearby and will set their broadcast channel channel to avoid conflicts but, if they don't have this feature, make sure they operate on different channels.	St
-1.4.1	Thanks Bob and Steven.One question Steven...what kind of switch are you referring to?	St
-1.4.2	Ok let me break down what I think I know to do.	St
-1.4.3	I know i have to change the IP addresses on the two access.	St
-1.4.4	Im gonna change them to 192.168.1.2 and .3.	St
-1.4.5	I also know that i have to change the start IP address to .4 on the primary router.	St
-1.4.6	Plus I know to turn on DHCP off on both of the access points and let the primary router ha.nd out IP's too devices.	St
-1.4.7	Hope this is all correct.	St
-1.4.8	Like my question stated.	St
-1.4.9	I just needed to know if I had to connect the 2nd access point to the primary router or it can be connected to the 1st access point.	St
-1.4.10	I also know that i must make the channels different as you stated Steven.	St
-1.4.11	1,6, and 11.	St
-1.4.12	Thanks again guys.	St
-1.5.1	I asked about how you were going to deal with 802.11n overlap and then you write about 1, 6 and 11.	St
-1.5.2	Channel 11 often gives you reduced power and range in most routers and sometimes you see that on channel 1.	St
-1.5.3	But you didn't reveal you were going to pull back to 802.11g to solve the overlap issue with 802.11n 40MHz ODFM.	St
-1.5.4	Here's a link in case you need to brush up on WiFi.	St
-1.5.5	http://en.wikipedia.org/wiki/List_of_WLAN_channels Your reply notes the common changes to using a router as a WAP so I'll stop here.	St
+1.3.1	though it could be through another switch .	St
+1.3.2	Static addressing or DHCP is up to you as long as your router will accommodate your choice .	St
+1.3.3	I find that using static addresses with some devices like printers and AP makes managing them a bit easier .	St
+1.3.4	Keep as much distance as you can between the APs .	St
+1.3.5	Some are smart enough to detect other devices nearby and will set their broadcast channel channel to avoid conflicts but , if they do n't have this feature , make sure they operate on different channels .	St
+1.4.1	Thanks Bob and Steven.One question Steven ... what kind of switch are you referring to ?	Ques
+1.4.2	Ok let me break down what I think I know to do .	St
+1.4.3	I know i have to change the IP addresses on the two access .	St
+1.4.4	Im gon na change them to 192.168.1.2 and .3 .	St
+1.4.5	I also know that i have to change the start IP address to .4 on the primary router .	St
+1.4.6	Plus I know to turn on DHCP off on both of the access points and let the primary router ha.nd out IP 's too devices .	St
+1.4.7	Hope this is all correct .	St
+1.4.8	Like my question stated .	St
+1.4.9	I just needed to know if I had to connect the 2nd access point to the primary router or it can be connected to the 1st access point .	St
+1.4.10	I also know that i must make the channels different as you stated Steven .	St
+1.4.11	1,6 , and 11 .	St
+1.4.12	Thanks again guys .	St
+1.5.1	I asked about how you were going to deal with 802.11n overlap and then you write about 1 , 6 and 11 .	St
+1.5.2	Channel 11 often gives you reduced power and range in most routers and sometimes you see that on channel 1 .	St
+1.5.3	But you did n't reveal you were going to pull back to 802.11g to solve the overlap issue with 802.11n 40MHz ODFM .	St
+1.5.4	Here 's a link in case you need to brush up on WiFi .	St
+1.5.5	http : //en.wikipedia.org/wiki/List_of_WLAN_channels Your reply notes the common changes to using a router as a WAP so I 'll stop here .	St
 1.5.6	Bob	St
-1.6.1	Ok Bob!	St
-1.6.2	lol.	St
-1.6.3	Never said I was a professional thus be asking for input.	St
+1.6.1	Ok Bob !	St
+1.6.2	lol .	St
+1.6.3	Never said I was a professional thus be asking for input .	St
 1.6.4	Thanks again	St
-1.7.1	And that's what I want them as, WAP's.	St
-1.7.2	I'm just trying to broaden my wifi coverage throughout my house.	St
-1.8.1	Multiple Ethernet ports on a router make up a switch.	St
-1.8.2	If you have more devices than ports, you connect another switch to the router so your APs, be they in the router or separate switch are still in a switch.	St
-1.8.3	You will need to connect each AP to a switch port.	St
-1.8.4	Again, it could be on your router or another switch connected to it.	St
-1.8.5	You don't connect APs to each other via Ethernet.	St
-1.8.6	You also want to distance them from each other to minimize signal overlap as your devices that need to connect to them can get flaky in the overlap zone.	St
-1.8.7	As for your addresses, you don't need to do them sequentially but it's not a bad idea.	St
-1.8.8	If you want to use a mix of static and DHCP addressing, what you do is set the range in your router.	St
-1.8.9	I've seen some that default to starting at .100 so can provide over 150 addresses.	St
-1.8.10	Your router will take up one static address for its web interface and it's common to see that address be number 1 so your static IP range would be from 2 to 99.	Sug
-1.8.11	Now if your APs come with discovery software that facility setting them up, you don't need static addressing.	St
-1.8.12	I just find it convenient when dealing with multiple APs as I can simply use a web browser and make a bookmark to each device.	St
-1.9.1	Hi.	St
-1.9.2	1.	St
-1.9.3	It would help if you could provide the model number of the access points that you intend to use.	St
-1.9.4	2.	St
-1.9.5	Both the setups are valid.	St
-1.9.6	3.	St
-1.9.7	To make them work the basic configuration should be as follows: On 2 extra Access Points: a. DHCP - disabled b. SSID - Identical for all - router + access points.	St
-1.9.8	c. Channels - Separate by at least 3. d. Ip address - Access points can have any IP addess in private IP range & here is the explanation - access Points are just wireless antennas that act as wireless hubs.	St
-1.9.9	So the Ip address assigned to them is for their initial configuration & has no further use once they are configured.	St
-1.9.10	Of course if that IP is in the same range as your network, it should not be repeated.	St
-1.9.11	e. Security - Identical for all devices.	St
-1.9.12	f. On the router - DHCP on.	St
-1.9.13	4.	St
-1.9.14	Now you can connect the access points to the router as well as daisy chain them if you want.	St
-1.9.15	Take care.	St
-1.10.1	with built in hubs.	St
-1.10.2	Are you sure you're not talking about routers capable of acting as APs?	St
-1.10.3	You mentioned disabling DHCP but APs only require configuring them to either acquire an address (from a DHCP server) or to have one manually assigned.	St
-1.10.4	But now this makes me wonder why the originator of the thread mentioned connecting the APs together as they typically have only one Ethernet port.	St
-1.10.5	Perhaps what he has is 3 routers.	St
-1.11.1	Hi Steven.	St
-1.11.2	1.	St
-1.11.3	I agree with you.	Res
-1.11.4	But I had assumed that both the 'access points' have built in hubs as it was mentioned that the APs can be connected together.	St
-1.11.5	2.	St
-1.11.6	Again, the model numbers would be a great help.	Polite
-1.11.7	3.	St
-1.11.8	Otherwise, all the 'three' solutions are valid - two as posted in the question itself, third one about using a additional switch.	St
-1.11.9	Take care, Navneet.	St
-1.12.1	My apologies for slow response...	St
-1.12.2	Here is the model that I will be using for the router and access points.	St
-1.12.3	http://www.amazon.com/Medialink-Wireless-Broadband-Internal-Compatible/dp/B00A3YN0Z0/ref=sr_1_1?s=electronics&ie=UTF8&qid=1382125074&sr=1-1&keywords=medialink+wireless+n+router	St
+1.7.1	And that 's what I want them as , WAP 's .	St
+1.7.2	I 'm just trying to broaden my wifi coverage throughout my house .	St
+1.8.1	Multiple Ethernet ports on a router make up a switch .	St
+1.8.2	If you have more devices than ports , you connect another switch to the router so your APs , be they in the router or separate switch are still in a switch .	St
+1.8.3	You will need to connect each AP to a switch port .	St
+1.8.4	Again , it could be on your router or another switch connected to it .	St
+1.8.5	You do n't connect APs to each other via Ethernet .	St
+1.8.6	You also want to distance them from each other to minimize signal overlap as your devices that need to connect to them can get flaky in the overlap zone .	St
+1.8.7	As for your addresses , you do n't need to do them sequentially but it 's not a bad idea .	St
+1.8.8	If you want to use a mix of static and DHCP addressing , what you do is set the range in your router .	St
+1.8.9	I 've seen some that default to starting at .100 so can provide over 150 addresses .	St
+1.8.10	Your router will take up one static address for its web interface and it 's common to see that address be number 1 so your static IP range would be from 2 to 99 .	Sug
+1.8.11	Now if your APs come with discovery software that facility setting them up , you do n't need static addressing .	St
+1.8.12	I just find it convenient when dealing with multiple APs as I can simply use a web browser and make a bookmark to each device .	St
+1.9.1	Hi .	St
+1.9.2	1 .	St
+1.9.3	It would help if you could provide the model number of the access points that you intend to use .	St
+1.9.4	2 .	St
+1.9.5	Both the setups are valid .	St
+1.9.6	3 .	St
+1.9.7	To make them work the basic configuration should be as follows : On 2 extra Access Points : a. DHCP - disabled b. SSID - Identical for all - router + access points .	St
+1.9.8	c. Channels - Separate by at least 3. d. Ip address - Access points can have any IP addess in private IP range & here is the explanation - access Points are just wireless antennas that act as wireless hubs .	St
+1.9.9	So the Ip address assigned to them is for their initial configuration & has no further use once they are configured .	St
+1.9.10	Of course if that IP is in the same range as your network , it should not be repeated .	St
+1.9.11	e. Security - Identical for all devices .	St
+1.9.12	f. On the router - DHCP on .	St
+1.9.13	4 .	St
+1.9.14	Now you can connect the access points to the router as well as daisy chain them if you want .	St
+1.9.15	Take care .	St
+1.10.1	with built in hubs .	St
+1.10.2	Are you sure you 're not talking about routers capable of acting as APs ?	Ques
+1.10.3	You mentioned disabling DHCP but APs only require configuring them to either acquire an address ( from a DHCP server ) or to have one manually assigned .	St
+1.10.4	But now this makes me wonder why the originator of the thread mentioned connecting the APs together as they typically have only one Ethernet port .	St
+1.10.5	Perhaps what he has is 3 routers .	St
+1.11.1	Hi Steven .	St
+1.11.2	1 .	St
+1.11.3	I agree with you .	Res
+1.11.4	But I had assumed that both the 'access points ' have built in hubs as it was mentioned that the APs can be connected together .	St
+1.11.5	2 .	St
+1.11.6	Again , the model numbers would be a great help .	St
+1.11.7	3 .	St
+1.11.8	Otherwise , all the 'three ' solutions are valid - two as posted in the question itself , third one about using a additional switch .	St
+1.11.9	Take care , Navneet .	St
+1.12.1	My apologies for slow response ...	St
+1.12.2	Here is the model that I will be using for the router and access points .	St
+1.12.3	http : //www.amazon.com/Medialink-Wireless-Broadband-Internal-Compatible/dp/B00A3YN0Z0/ref=sr_1_1 ? s=electronics & ie=UTF8 & qid=1382125074 & sr=1-1 & keywords=medialink+wireless+n+router	St
 1.13.1	Thank you Navneet	St
-1.14.1	the DHCP server in the ones you'll use as APs.	St
-1.14.2	You'll also not use the WAN ports on these.	St
+1.14.1	the DHCP server in the ones you 'll use as APs .	St
+1.14.2	You 'll also not use the WAN ports on these .	St
 1.15.1	NIL	St

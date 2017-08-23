@@ -1,35 +1,35 @@
-1.1.1	I am seeing an interesting phenomenon with my wireless network.	St
-1.1.2	I have a w2k box set up to perform 802.1x authentication for my wireless network, using EAP-TLS.	St
-1.1.3	For authentication type I have use smart card or certificate, and have both the user cert and to Root CA cert installed.	St
-1.1.4	When I check the Validate server certificate option the connection fails, and I get an entry in event viewer on the w2k boc idicating an invalid user name or password.	St
-1.1.5	When I leave the box unchecked I connect just fine.	St
-1.1.6	Any thoughts?	St
-1.2.1	I have some cards that won't connect under some settings and when I call it in they finally replied with a &quot;Yes, we'll have to fix that.&quot; Have you contacted the people that supplied the drivers?	St
+1.1.1	I am seeing an interesting phenomenon with my wireless network .	St
+1.1.2	I have a w2k box set up to perform 802.1x authentication for my wireless network , using EAP-TLS .	St
+1.1.3	For authentication type I have use smart card or certificate , and have both the user cert and to Root CA cert installed .	St
+1.1.4	When I check the Validate server certificate option the connection fails , and I get an entry in event viewer on the w2k boc idicating an invalid user name or password .	Sug
+1.1.5	When I leave the box unchecked I connect just fine .	St
+1.1.6	Any thoughts ?	Ques
+1.2.1	I have some cards that wo n't connect under some settings and when I call it in they finally replied with a & quot ; Yes , we 'll have to fix that. & quot ; Have you contacted the people that supplied the drivers ?	Ques
 1.2.2	Bob	St
-1.3.1	Hi Bob, I was hopping you were out there perusing the posts.	St
-1.3.2	Yes, I have contacted Linksys, and they're looking into it.	St
-1.3.3	They have actually been pretty responsive on this issue, but no cure yet.	St
-1.3.4	I was hopping you might have some ideas, but if it's a driver issue, I'm stuck till they fix it.	St
+1.3.1	Hi Bob , I was hopping you were out there perusing the posts .	St
+1.3.2	Yes , I have contacted Linksys , and they 're looking into it .	St
+1.3.3	They have actually been pretty responsive on this issue , but no cure yet .	St
+1.3.4	I was hopping you might have some ideas , but if it 's a driver issue , I 'm stuck till they fix it .	St
 1.3.5	Rob	St
-1.4.1	Sadly they came back with a &quot;don't do that&quot; and no date on the fix.	St
-1.4.2	So you can guess the answer.	St
+1.4.1	Sadly they came back with a & quot ; do n't do that & quot ; and no date on the fix .	St
+1.4.2	So you can guess the answer .	St
 1.4.3	Bob	St
-1.5.1	Unforyunately not being able to validate the cert does create a bit of a vulnerability.	St
-1.6.1	If this is just to keep others off your wifi why not just WPA or WPA2?	St
-1.6.2	There is no crack worth noting here that doesn't take an armada of machines to break into.	St
-1.6.3	One has to declare a goal.	St
-1.6.4	Ours was simple.	St
-1.6.5	Security that was strong enough and we could expect to work for a month at a time (when we change wifi wpa passwords.)	St
+1.5.1	Unforyunately not being able to validate the cert does create a bit of a vulnerability .	St
+1.6.1	If this is just to keep others off your wifi why not just WPA or WPA2 ?	Ques
+1.6.2	There is no crack worth noting here that does n't take an armada of machines to break into .	St
+1.6.3	One has to declare a goal .	St
+1.6.4	Ours was simple .	St
+1.6.5	Security that was strong enough and we could expect to work for a month at a time ( when we change wifi wpa passwords . )	St
 1.6.6	Bob	St
-1.7.1	I am using WPA2 in enterprise mode, and you are right, the vulnerability that I am talking about would be exceeding difficult to exploit, (Someone would have to do a black bag job on my residence, which isn't real likely) so I'm not overly concerned about it.	St
-1.7.2	I'm just one of those folks that if I know of a security hole, I like to plug it.	St
-1.8.1	When we need that we use this -&gt; www.keyghost.com So far no one has detected it.	St
-1.8.2	They seem fixated on software solutions.	St
+1.7.1	I am using WPA2 in enterprise mode , and you are right , the vulnerability that I am talking about would be exceeding difficult to exploit , ( Someone would have to do a black bag job on my residence , which is n't real likely ) so I 'm not overly concerned about it .	St
+1.7.2	I 'm just one of those folks that if I know of a security hole , I like to plug it .	St
+1.8.1	When we need that we use this - & gt ; www.keyghost.com So far no one has detected it .	St
+1.8.2	They seem fixated on software solutions .	St
 1.8.3	Bob	St
-1.9.1	That's a slick little device.	St
-1.9.2	The attack I was specifically a type of MITM attack against EAP-TLS and PEAP where an attacker gets between the client and the AP.	St
-1.9.3	During the initial phases, the attacker sends the client a bogus cert.	St
-1.9.4	If the client is not required to validate the cert, then it blindly accepts the cert and authenticates with the bogus set up.	St
-1.9.5	The attacker can then relay to the actual server and authenticate on to the wireless network.	St
-1.9.6	The attacker is now in a position to intercept and decrypt all traffic between the client, and the real AP.	St
-1.9.7	This is a fairly sophisticated attack that would be difficult to mount against a setup like mine, and there are ways to ensure that you are on the right network, but in an environment where you have a wireless network spanning multiple buildings, this could be a cause for concern.	St
+1.9.1	That 's a slick little device .	St
+1.9.2	The attack I was specifically a type of MITM attack against EAP-TLS and PEAP where an attacker gets between the client and the AP .	St
+1.9.3	During the initial phases , the attacker sends the client a bogus cert .	St
+1.9.4	If the client is not required to validate the cert , then it blindly accepts the cert and authenticates with the bogus set up .	St
+1.9.5	The attacker can then relay to the actual server and authenticate on to the wireless network .	St
+1.9.6	The attacker is now in a position to intercept and decrypt all traffic between the client , and the real AP .	St
+1.9.7	This is a fairly sophisticated attack that would be difficult to mount against a setup like mine , and there are ways to ensure that you are on the right network , but in an environment where you have a wireless network spanning multiple buildings , this could be a cause for concern .	St
