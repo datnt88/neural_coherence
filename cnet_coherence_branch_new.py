@@ -105,7 +105,7 @@ if __name__ == '__main__':
             perm_num = 20, maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size, fn=fn)
     print("loading test data done...")
 
-    print test_f_tracks
+    #print test_f_tracks
 
     num_train = len(X_train_1)
     num_dev   = len(X_dev_1)
