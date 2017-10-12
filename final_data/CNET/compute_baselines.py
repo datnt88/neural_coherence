@@ -176,7 +176,6 @@ def compute_edge_acc(edge1=[],edge2=[]):
 	return k/n
 
 #=============================================================
-
 def remove_post(tree=[]):
 
 	x = []

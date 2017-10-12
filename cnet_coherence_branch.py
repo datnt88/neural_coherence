@@ -90,15 +90,15 @@ if __name__ == '__main__':
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0, train_f_track = cnet_helper.load_data_by_branch("final_data/CNET/x_cnet.4test", 
+    X_train_1, X_train_0, train_f_track = cnet_helper.load_data_by_branch("final_data/CNET/x_cnet.train", 
             perm_num = opts.p_num, maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size, fn=fn)
 
     print("loading train data done...")
-    X_dev_1, X_dev_0, dev_f_track = cnet_helper.load_data_by_branch("final_data/CNET/x_cnet.4test", 
+    X_dev_1, X_dev_0, dev_f_track = cnet_helper.load_data_by_branch("final_data/CNET/x_cnet.dev", 
             perm_num = opts.p_num, maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size, fn=fn)
     print("loading dev data done...")
 
-    X_test_1, X_test_0, test_f_tracks  = cnet_helper.load_data_by_branch("final_data/CNET/x_cnet.4test", 
+    X_test_1, X_test_0, test_f_tracks  = cnet_helper.load_data_by_branch("final_data/CNET/x_cnet.test", 
             perm_num = 20, maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size, fn=fn)
     print("loading test data done...")
 
