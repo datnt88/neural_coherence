@@ -16,6 +16,17 @@ from zss import simple_distance, Node
 #initilize basic vocabulary for cnn, this will change when using features
 def init_vocab(emb_size):
     vocabs =['0','S','O','X','-']
+    
+    roles = ['S','O','X']
+    f1 = ['F01','F02','F03','F04']
+    f3 = ['F30','F31']
+    f4 = ['F40','F41','F42','F43','F44','F45','F46','F47','F48','F49']
+
+    vocabs += [x+y+z+k for x in roles for y in f1 for z in f3 for k in f4]
+
+    print vocabs
+    
+
 
     v2s = list(itertools.product('SOX-', repeat=2))
     for tupl in v2s:
@@ -535,6 +546,141 @@ def get_original_and_uncoherent_pairs(file): # get every pair from a thread
 
 
 
+#loading data by branch
+def load_data_by_branch(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, w_size=3, vocabs=None, emb_size=300, fn=None):
+    # loading entiry-grid data from list of pos document and list of neg document
+    list_of_files = [line.rstrip('\n') for line in open(filelist)]
+    
+    # process postive gird, convert each file to be a sentence
+    sentences_1 = []
+    sentences_0 = []
+    f_track = [] # tracking branch
+    pair_id = 0
+    
+    for file_id, file in enumerate(list_of_files):
+        #print(file) 
+
+        #loading commentIDs
+        cmtIDs  = [line.rstrip('\n') for line in open(file + ".commentIDs")]
+        cmtIDs = [int(i) for i in cmtIDs] 
+
+        org_tree = [line.rstrip('\n') for line in open(file + ".orgTree")]
+        #print org_tree
+        #print cmtIDs
+
+        egrids = [line.rstrip('\n') for line in open(file + ".EGrid")]
+    
+        #f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
+
+        for branch in org_tree:   #reading branch, each branch is considered as a document
+            f_track.append(pair_id) #keep track branch for each thread
+
+            branch = [int(id) for id in branch.split('.')] # convert string to integer, branch
+            idxs = [ idx for idx, cmtID  in enumerate(cmtIDs) if cmtID in branch]
+
+            grid_1 = "0 "* w_size
+            for idx, line in enumerate(egrids):
+                e_trans = get_eTrans_by_Index(line, idxs) # merge the grid of positive document 
+                if len(e_trans) !=0:
+                    #print e_trans
+                    grid_1 = grid_1 + e_trans + " " + "0 "* w_size
+
+                
+            p_count = 0
+            for i in range(1,perm_num+1): # reading the permuted docs
+                permuted_lines = [p_line.rstrip('\n') for p_line in open(file+ ".EGrid" +"-"+str(i))]    
+                grid_0 = "0 "* w_size
+
+                for idx, p_line in enumerate(permuted_lines):
+                    e_trans_0 = get_eTrans_by_Index(p_line, idxs)
+                    if len(e_trans_0) !=0:
+                        grid_0 = grid_0 + e_trans_0  + " " + "0 "* w_size
+
+                if grid_0 != grid_1: #check the duplication
+                    p_count = p_count + 1
+                    sentences_0.append(grid_0)        
+            
+            for i in range (0, p_count): #stupid code
+                sentences_1.append(grid_1)
+
+        pair_id +=1
+
+    assert len(sentences_0) == len(sentences_1)
+
+
+    vocab_idmap = {}
+    for i in range(len(vocabs)):
+        vocab_idmap[vocabs[i]] = i
+
+    # Numberize the sentences
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_0  = numberize_sentences(sentences_0,  vocab_idmap)
+    
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=w_size)
+    X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=w_size)
+
+    X_1 = sequence.pad_sequences(X_1, maxlen)
+    X_0 = sequence.pad_sequences(X_0, maxlen)
+
+    return X_1, X_0, f_track
+
+
+def get_eTrans_by_Index(e_trans, idxs):
+
+    x = e_trans.split()
+    x = x[1:] # remove the first 
+
+    length = len(x)
+    e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
+    if length > 80:
+        if e_occur < 3:
+            return ""
+    elif length > 20:
+        if e_occur < 2:
+            return ""
+
+    final_sent = []
+
+    for idx in idxs:
+        final_sent.append(x[idx])  #id in file starts at 1
+
+    return ' '.join(final_sent)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -707,96 +853,9 @@ def load_testing_data(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, 
     return X_1, X_0, E , f_track
 
 
-def load_and_numberize_with_Tree_Structure02(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, window_size=3, E=None, vocab_list=None, emb_size=300, fn=None):
-    # loading entiry-grid data from list of pos document and list of neg document
-    list_of_files = [line.rstrip('\n') for line in open(filelist)]
-    
-    # process postive gird, convert each file to be a sentence
-    sentences_1 = []
-    sentences_0 = []
-    f_track = [] # tracking branch
-    pair_id = 0
-    
-    for file_id, file in enumerate(list_of_files):
-        #print(file) 
-        
-        branches = [line.rstrip('\n') for line in open(file + ".d.branch")]
-        lines = [line.rstrip('\n') for line in open(file + ".EGrid")]
-        #f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
-
-        
-        for branch in branches:   #reading branch, each branch is considered as a document
-            grid_1 = "0 "* window_size
-            for idx, line in enumerate(lines):
-                e_trans = get_eTrans_with_Branch(sent=line, branch=branch) # merge the grid of positive document 
-
-                if len(e_trans) !=0:
-                    #print e_trans
-                    grid_1 = grid_1 + e_trans + " " + "0 "* window_size
-
-                
-            p_count = 0
-            for i in range(1,perm_num+1): # reading the permuted docs
-                permuted_lines = [p_line.rstrip('\n') for p_line in open(file+ ".EGrid" +"-"+str(i))]    
-                grid_0 = "0 "* window_size
-
-                for idx, p_line in enumerate(permuted_lines):
-                    e_trans_0 = get_eTrans_with_Branch(sent=p_line, branch=branch)
-                    if len(e_trans_0) !=0:
-                        grid_0 = grid_0 + e_trans_0  + " " + "0 "* window_size
-
-                if grid_0 != grid_1: #check the duplication
-                    p_count = p_count + 1
-                    sentences_0.append(grid_0)        
-            
-            for i in range (0, p_count): #stupid code
-                sentences_1.append(grid_1)
-
-        
-    assert len(sentences_0) == len(sentences_1)
 
 
-    vocab_idmap = {}
-    for i in range(len(vocab_list)):
-        vocab_idmap[vocab_list[i]] = i
 
-    # Numberize the sentences
-    X_1 = numberize_sentences(sentences_1, vocab_idmap)
-    X_0  = numberize_sentences(sentences_0,  vocab_idmap)
-    
-    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=window_size)
-    X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=window_size)
-
-    X_1 = sequence.pad_sequences(X_1, maxlen)
-    X_0 = sequence.pad_sequences(X_0, maxlen)
-
-    if E is None:
-        E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocab_list), emb_size))
-        E[len(vocab_list)-1] = 0
-
-    return X_1, X_0, E
-
-
-def get_eTrans_with_Branch(sent="p_line", branch="1 2 3 4"):
-    x = sent.split()
-    
-    length = len(x)
-    e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
-    if length > 80:
-        if e_occur < 3:
-            return ""
-    elif length > 20:
-        if e_occur < 2:
-            return ""
-
-    x = x[1:]
-    final_sent = []
-
-    idxs = [int(id) for id in branch.split(',')]
-    for idx in idxs:
-        final_sent.append(x[idx-1])  #id in file starts at 1
-
-    return ' '.join(final_sent)
 
 #=====================================================================
 
