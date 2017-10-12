@@ -10,7 +10,7 @@ from keras.preprocessing import sequence
 
 import itertools
 from utilities import gen_trees
-from zss import simple_distance, Node
+#from zss import simple_distance, Node
 
 
 #initilize basic vocabulary for cnn, this will change when using features
@@ -22,7 +22,7 @@ def init_vocab(emb_size):
     f3 = ['F30','F31']
     f4 = ['F40','F41','F42','F43','F44','F45','F46','F47','F48','F49']
 
-    vocabs += [x+y+z+k for x in roles for y in f1 for z in f3 for k in f4]
+    #vocabs += [x+y+z+k for x in roles for y in f1 for z in f3 for k in f4]
 
     print vocabs
     
