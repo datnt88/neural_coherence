@@ -1,5 +1,0 @@
-14226	0	21233	229103	NR	jtob2	4/28/04 7:34 PM	1.08318084E12	Network command?	Is there a command line inquiry that I can run that will display the IP address of all the active PCs on my local LAN? Thanks, Jim
-14226	1	21233	229184	229103	WiBrid	4/28/04 8:50 PM	1.0831854E12	Re:Network command?	Go to the command prompt and type nbtstat /? to get the command that you want.
-14226	2	21233	229313	229184	Michael Geist	4/29/04 2:15 AM	1.0832049E12	Command Prompt.....Net view	.
-14226	3	21233	229457	229184	jtob2	4/29/04 6:22 AM	1.08321972E12	Re:Re:Network command?	Thanks &quot;nbtstat&quot; gave exactly the result I was looking for. JIm
-14226	4	21233	230197	229103	R. Proffitt	4/29/04 6:22 PM	1.08326292E12	Re:Network command? (in Linux...)	Ping the Network Mask number once and you get a reply from all on that LAN. Neat trick. bo

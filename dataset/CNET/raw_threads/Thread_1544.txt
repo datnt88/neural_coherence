@@ -1,4 +1,0 @@
-12271	0	272899	2636032	NR	Darrell Johnson	11/22/07 11:55 AM	1.1957325E12	CDR drive	Installed new drive, Now neither drive shows. Unhook one and the other shows. Tried both ways and same. What could be wrong?
-12271	1	272899	2636046	2636032	VAPCMD	11/22/07 12:04 PM	1.19573304E12	If cabling two drives on the same IDE cable	they should both be set to Cable Select (&quot;CS&quot;) or one set to to 'Master' and the other to 'Slave'. If you use CS....whichever drive is at the 'end of the cable' is treated as 'Master'. How are they setup now ? VAPCMD
-12271	2	272899	2636060	2636046	Darrell Johnson	11/22/07 12:26 PM	1.19573436E12	Thanks	Set both to select and they work.
-12271	3	272899	2636092	2636060	VAPCMD	11/22/07 1:04 PM	1.19573664E12	(NT) You're Welcome and Thanks for feedback.	NIL

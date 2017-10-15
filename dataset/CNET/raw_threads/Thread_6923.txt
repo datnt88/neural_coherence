@@ -1,6 +1,0 @@
-9540	0	286052	2718335	NR	scales	2/29/08 7:10 PM	1.2043122E12	program to monitor my routers traffic?	hi all, i have been trying to get wallwatcher to work. i have one of the supported routers, airlink101 ar525w, and i have logging enabled and i put in the static ip of my computer. i then fire up wallwatcher and pick my router from its list and make sure my routers ip is correct. anyway it just keeps saying &quot;starting&quot; but never actually connects or displays any info. does anyone have any other software solutions or recommendations for me?
-9540	1	286052	2718360	2718335	R. Proffitt	2/29/08 7:21 PM	1.20431286E12	In a word. The word is SNMP	snmp 161/tcp SNMP snmp 161/udp SNMP snmptrap 162/tcp SNMPTRAP snmptrap 162/udp SNMPTRAP Your firewalls must not block these ports.
-9540	2	286052	2718465	2718360	scales	2/29/08 8:13 PM	1.20431598E12	humm	are you referring to computer firewalls or the routers?i tried the ping router function built into wallwatcher and it said it could ping my router fine...
-9540	3	286052	2718487	2718465	R. Proffitt	2/29/08 8:25 PM	1.2043167E12	(NT) The other word would be &quot;ALL&quot;	NIL
-9540	4	286052	2718538	2718487	scales	2/29/08 8:57 PM	1.20431862E12	humm ok	well i opened those ports and no luck...
-9540	5	286052	2718545	2718538	R. Proffitt	2/29/08 8:58 PM	1.20431868E12	(NT) Then try other SNMP tests and software.	NIL
