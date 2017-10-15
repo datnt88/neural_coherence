@@ -1,5 +1,0 @@
-Serious failures can result from numberous faults.
-When the drive first spins up and the control card imitializes properly, the drive should then try to read the clock track and put the read info in the buffer awaiting the MOBO IDE interface to initialize and collect that data and insert it into the BIOS for comparison.
-A mismatch would give an error message, no drive detected would give a boot device failure.
-Recover services can run very expensive depending on the failure.
-Replacement of the control card or as severe as having the platters removed (in a clean room) and placed in a drive mechanism to recover the data.

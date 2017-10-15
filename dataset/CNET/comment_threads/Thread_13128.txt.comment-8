@@ -1,7 +1,0 @@
-... clearer for the Windows side, but I assumed the resource sharing was across all machines.
-In either case, for the laptop machines, for the reasons I said a static address set on the PC/Mac is less versatile than a DHCP reservation.
-While Windows machines play better on networks like this, the same applies to make them readily findable by the Macs as well by giving the Windows machine a DHCP reservation.
-The last thing?
-Keeping track of static addresses set on printer servers (such as on the Brother) can be a pain, because you'll have to look it up on the machine or write down all the static addresses being used to make sure you know what device is using what address.
-In this situation it makes quite a lot of sense to have all the major resources and even clients on his network on static addresses, as well as collect it up in one place and dish out static IP's automatically - that's what DHCP reservations do.
-Do you see now?

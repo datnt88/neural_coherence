@@ -1,8 +1,0 @@
-I find it hard to believe that NT said &quot;we can't help.&quot; Usually any IT department can open a ticket with NT and get assistance.
-In any case here's what I found online.
-http://forums.techguy.org/showthread.php?t=235959 I have had this problem numerous times in the past where the installation proceeds then ends with the messages: During the installation of the device.
-The system cannot find the file specified and it goes into a detection loop HERE is the solution: Windows 2000/XP has a bug that it cannot properly detect new hardware by *.inf files, if the RunOnce registry key is missing for the following location: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion This key is often used by installers to execute post-reboot programs, but sometimes they accidentally delete this key.
-IMPORTANT: This article contains information about modifying the registry.
-Make sure that you understand how to backup and restore the registry, in case a problem occurs.
-Please read the linked Microsoft Knowledge Base article prior to editing the registry.
-Go to Start Run and enter &quot;regedit.&quot; Go to HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion With CurrentVersion Highlighted, go to the Edit menu and select New Key Name the key RunOnce, leaving everything else about the key alone.

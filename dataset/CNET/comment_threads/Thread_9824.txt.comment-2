@@ -1,5 +1,0 @@
-If your router automatically assigns IP addresses (DHCP), then you need to tell ZA the range of IP addresses to trust.
-Say your router is 192.168.0.1 and the computers are permitted to be assigned any number from 192.168.0.2 to 192.168.0.255.
-Open ZA click on ''Firewall'' click on the ''Zones'' tab right click in the blank area select ''Add'' select ''IP range'' In the window that opens, set your starting and ending IP addresses to creat the trusted range (192.168.0.0 to 192.168.0.255).
-Or whatever range works for your setup.
-This works for my local network, regardless of Workgroup name.

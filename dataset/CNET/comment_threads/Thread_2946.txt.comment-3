@@ -1,4 +1,0 @@
-There is no reason adding a second drive would slow either one down, as long as you jumper the drive correctly (probably both will be jumpered CS) then it will use UDMA 5 and you will get optimal performance.
-To use RAID you need to have identical size drives.
-To use RAID 0 you need to start with 2 new drives and build the OS from the beginning, you can't just add a 2nd drive and RAID them together.
-If you use RAID 0 and either drive dies you lose all data on both drives.

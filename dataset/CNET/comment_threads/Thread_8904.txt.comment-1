@@ -1,9 +1,0 @@
-I have an industrial application (measurement instrument) which has a SCSI-2 connector (HD-50 male) which is used to connect to an external SCSI drive.
-Since the external SCSI drive we used is no longer available, I need to find either: (a) An external drive that has a SCSI-2 interface (or one which I can adapt to), or (b) A SCSI-2 to USB converter to allow the use of a USB drive or stick.
-For (a), I have not been able to find anything other than SCSI drives which have VHDCI connectors, which I'm told cannot be adapted to a 50-pin SCSI-2 interface.
-Is this correct?
-For (b), all I can find are adapters which treat SCSI as the peripheral, not the host (i.e.
-the host is our instrument with the SCSI interface, and the peripheral would be a USB device).
-Any suggestions for either solution?
-No, we cannot re-design our product to use a different bus architecture (too costly, and the product is going EOL shortly).
-Any suggestions would be greatly appreciated!

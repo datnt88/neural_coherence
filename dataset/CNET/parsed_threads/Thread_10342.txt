@@ -1,6 +1,0 @@
-<s> Hi, we have a DataCenter connected with Remote location sites via MPLS link provided by ISP.The MPLS link terminates at a Cisco ASA 5505 firewall,which is further connected to switches and other hosts.Now we have introduced another ISP which would provide a secondary link.So we are planning to configure two OUTSIDE interfaces on the firewall where we would provide two WAN IPs of the respective ISPs and one INSIDE interface where we would give the IP of the local network of the site.Considering this scenario,we want that internal traffic(outbound) of the site will be shared to two outside interfaces and will reach DC via both the links.Is this entire configuration feasible by applying access lists or by any other means?If possible please suggest the way of doing it. </s>
-<s> Also we require FAILOVER configurations in both the firewalls so that if primary link goes down,the entire traffic will pass through the secondary one. </s>
-<s> Also mention the feasibility on this context and suggest ways of fullfilling it successfully. </s>
-<s> If you don't have the IT staffer for this work I've had it done by Cisco. </s>
-<s> Just get to cisco.com and they have phones to call in and arrange for the service or products you need. </s>
-<s> Bob </s>

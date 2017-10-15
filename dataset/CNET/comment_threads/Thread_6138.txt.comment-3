@@ -1,8 +1,0 @@
-Hello again, Thank you for the post.
-here is my current scenarion: File xxx needs to be transferred to another site.
-In one day there can be like 10K files (assume) which can be transferred.
-In this case I do not want to overload the network with MD5SUM for each file.
-What I found was to check if the File-copy operation was not complete.
-For e.g.
-if for any reasons file xxx could not be copied to its destination, then an alert can be instantly generated.
-Is there any solution to check if a file could not be copied then?

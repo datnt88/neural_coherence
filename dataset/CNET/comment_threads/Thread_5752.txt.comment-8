@@ -1,5 +1,0 @@
-just installing the os level drivers won't change the bootloader's drivers which are part of the master boot record.
-so when the image is applied to the raid volume, xp won't boot since the bootloader will be using ata/sata drivers, not the vendor specific raid driver.
-raid 1 is often transparent to the OS since the controller makes 2 drives look like 1, but striping (and raid 5) always requires a low-level raid driver since 2+ drives are being merged.
-and, striping cannot be enable without having some drives to stripe.
-once enabled, the controller will clear the partition tables on the striped drives.

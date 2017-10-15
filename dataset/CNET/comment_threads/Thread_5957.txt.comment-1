@@ -1,4 +1,0 @@
-Hi, I am trying to understand something about IP addresses and subnets, say I have 3 computers,,,, all attached to a switch......The first has a static IP address of 192.168.1.10 the second an IP address of 192.168.2.10 and the third an IP address of 192.168.1.11, all have the subnet set as 255.255.255.0, If I use the 192.168.1.10 machine as a master and ping the other 2 machines I have no problem getting a reply from 192.168.1.11 but I can not get a reply from 192.168.2.10, i either get host unreachable or a time out message, depending on what I enter as a gateway IP address (either 0.0.0.0 or 192.168.1.1).
-Without any other hardware and without changing IP addresses, (subnets can change) is it possible for me to ping both boxes from the master and get a reply.
-If not what hardware would I need to use to make this possile.
-Thanks a lot,

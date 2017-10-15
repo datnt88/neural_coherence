@@ -1,9 +1,0 @@
-USB devices can be flaky and there's no end to stories like yours.
-I've had a couple, however, that were resolved by simply going into the hardware screen, removing the device, restarting the machine and letting Windows redetect it.
-It should have retained the driver and will reload it.
-Now, it does sound as if your device needs more power than most.
-Such could be the root cause of your issues.
-What XP will detect is the controller for the drive and the controller will then configure the drive itself.
-At this time, Windows should see the drive.
-Can you tell if controller is seen but not the drive?
-These devices need a bit more current than most others and the lack of power from the 5v to the USB header might be a clue.

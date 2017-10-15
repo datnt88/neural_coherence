@@ -1,8 +1,0 @@
-<s> I'm gonna build a gaming rig and i'm looking at this http://www.tigerdirect.ca/applications/SearchTools/item-details.asp?EdpNo=2143225&CatId=1483 PSU it has two 12V rails of 18 amps each so does that equal 36 amps together or somethin i'm not entirely sure on this i just want to find a decent reliable psu P.S. </s>
-<s> running (well plannin on) Athlon Am2 X2 3800, nvidia 7900 GS GPU if that'll help cuz i no video card should have 1 amps at least plus other stuff using that rail </s>
-<s> to power the CPU's regulators and some related loads which are subject to very large full load to low load transistions which result in spikes on the bus [the big capacitors around the CPU are solely to absorb those transients [filtering them]. </s>
-<s> Thus the noisy load is the main part of that rails load and can base its regulation solely to keep that bus steady. </s>
-<s> If it were all on one rail, it would tend to reduce the effectivness of the regulation. </s>
-<s> Also it allows the use of lower power switching devices which are of the capability of known reliability for years rather than pushing the state of art to get higher power switchers. </s>
-<s> [Yes I know that the switchers go into saturation, thus reducing the heating effect, but higher current is still a factor]. </s>
-<s> Also a digression, the switching PS's tend to be constant power devices, rather than ohm's law devices, thus lower voltage cauuses them to draw more current, thus a low line voltage in a house is harder on the switches than a high line voltage. </s>

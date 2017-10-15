@@ -1,6 +1,0 @@
-<s> I am building a new system: I have 2 raptors 74gb 10rpm drive I want to stripe & 1 320 gb ide i would like to use for backup of the raid 0 is this possible if i partician the 320? </s>
-<s> depending on your backup approach/software, a partition probably won't be necessary. </s>
-<s> if you want your backup to be a bootable image of your C: drive, then you should create a partition equal to the size of the striped raptors. </s>
-<s> otherwise, just partition the 320gb as you see fit for your usage. </s>
-<s> note: the last 10% of a drive is the slowest portion. </s>
-<s> if you will be partitioning for backup, make your backup partition the last one on that drive since it doesn't need top speed. </s>

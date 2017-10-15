@@ -1,8 +1,0 @@
-I need advice from someone familiar with internal technical details of the Pentium 4 CPU.
-The P4 has a circuit which &quot;shuts the CPU off&quot; if a very high temperature is detected.
-It is automatic and does not involve any software.
-I suspect that the bus signal THERMTRIP# causes the CPU to drop into a SLEEP or DEEP SLEEP state.
-My question #1: If the CPU goes into a SLEEP/DEEP-SLEEP state in the midst of normal operation, would I see the following?
-(1) Complete absence of any sign of activity other than continued spinning of the hard disks and fans; (2) Complete nonresponsiveness to any user action (mouse, key presses, even pressing the power-off button uinless held for 5 seconds or longer); (3) All visible indications (screen display, indicator LEDs) frozen in the exact state occupied at the instant that the SLEEP/DEEP-SLEEP state was entered - in other words, the screen continues to display desktop and application displays (frozen), not a blue, dark, or corrupted screen.
-Finally, what circumstances other than an extreme over-temp condition can cause such a switch to SLEEP/DEEP-SLEEP?
-Thanks.

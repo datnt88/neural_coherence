@@ -1,9 +1,0 @@
-Hi, I have 2 (1 old, 1 new) computers (The old one running Windows XP Professional and the new one running Windows XP Professional SP2) that are sharing the same cable net connection through a Linksys WRT54GC router.
-This configuration worked for a couple of years but now, only the new computer will connect to the internet.
-The old computer doesn't connect at all.
-I have already tried: 1) Restarting the Computer 2) Powercycling the Modem and Router That didn't fix it.
-Also, I notice that when I restart the old computer, in IPCONFIG, everything seems correct, but the internet connection doesn't work.
-Here are the settings: Connection-specific DNS suffix: ok.shawcable.net IP Address: 192.168.1.101 Subnet Mask: 255.255.255.0 Default Gateway: 192.168.1.1 Then, I enter the command ipconfig /release and I get this Connection-specific DNS suffix: IP Address: 0.0.0.0 Subnet Mask: 0.0.0.0 Default Gateway: Then, I enter ipconfig /renew and I get this error: An error ocurred when renewing interface Local Area Connection : unable to contact your DHCP server.
-Request has timed out.
-Then, I enter the command IPCONFIG again and I see this configuration: Connection-specific DNS suffix: Autoconfiguration IP Address: 169.254.78.32 Subnet Mask: 255.255.0.0 Default Gateway: ---------------------------------------------------------------------- I just think its weird how one computer can connect to the net and one cant.
-Thanks in advance

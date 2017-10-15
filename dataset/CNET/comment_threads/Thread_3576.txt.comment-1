@@ -1,8 +1,0 @@
-Hi, I need to create a network bubble..means..Let say I have 4 machines having IP address 10.1.1.1,10.1.1.2, 10.1.1.3 and 10.1.1.4 (these are not actual IP's, using them just for explaining).
-These machines are connected to public network.
-At a given point in time, I need to isolate these machines from the public network in a way where - All these 4 machines can talk to each other using the assigned IP's.
-- These 4 machines cannot talk to any other nodes in the public network.
-no other machines outside these 4, will be able to ping these machines.
-Looking for a generic solution which would work across all Unix,linux,windows platforms.
-Please help.
-Regards, Ranjit

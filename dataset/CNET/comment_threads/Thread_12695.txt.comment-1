@@ -1,9 +1,0 @@
-HI I'm trying to find a solution to save the hard disk on a power fail.
-I'm using an industrial PC 'PCISA-C800EVR-RS-R20' and back plane IP-6S-RS-R40 from iei which is installed in a industrial machine.
-The power supply to the PC and the machine is through a common power supply unit to run the whole machine.
-In case of power failure/shutdown the power dies really quick which causes the hard drive to corrupt.
-I believe the FAT got effected and the PC requires a new installation from start i.e.
-formating and installing XP.
-What i'm thinking is to give a hardware signal (through a watch dog) to the processor to shutdown the PC/ harddrive in an orderly manner just before the whole thing shutdowns.
-But i'm not sure how i'm gonna do it since i can't find information on an external hardware input into the board.
-Plz if somebody can help me, i'm new to this and sorry if i wrote something improperly.

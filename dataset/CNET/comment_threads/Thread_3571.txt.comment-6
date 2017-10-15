@@ -1,9 +1,0 @@
-Try the tracert command from the command prompt on one of your computers.
-Type: tracert 192.168.2.1 The first device listed should be the DLink.
-The IP address of the DLink should be 192.168.2.x.
-That will be the address used to access the web interface.
-Tracert may not show the DLink.
-If it doesn't, check the Cellpipe interface again.
-There should be a section that lists all attached clients with their IP addresses.
-You may need to disconnect the DLink from your network, then try to access with the original IP by connecting directly to the DLink.
-You would then set the LAN side of the DLink for a manual address outside the DHCP range of the Cellpipe.

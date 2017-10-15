@@ -1,8 +1,0 @@
-How is the BIOS set for the memory timing?
-Is it &quot;by SPD&quot; [uses the data in the PROM on the memory stick to set timings].
-Unfortunately I do not know how the system will handle different settings provided by the 3200 vs the 2100 stick.
-Remember that the the 128 is slower memory and if it is in the slot whose SPD is read it will set the lower clock speed for all slots.
-If the 3200 SPD is read then the system would set the memory speed too fast for the 128 MB stick.
-As I noted this is a wild arsed guess and doesn't explain the results of all the options that you tried.
-Try going into the BIOS and set don't use &quot;BY SPD&quot; and set the timings to the lowest speed possible and try one stck at a time.
-I have seen on some mobos, that when all slots are full the system drops the memory clock down to the next lower.

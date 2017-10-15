@@ -1,8 +1,0 @@
-Going off what you have said there are a few questions that must be asked.
-1.
-Have you installed the O/S drivers for the RAID controller?
-2.
-Have you partitioned and formatted the drives?
-If you haven't installed the drivers Windows will nnot recognise the controller in many cases.
-if you haven't formatted the drives Windows will not recognise the logical volume.
-You should be able to see the disks within Disk Management if the RAID controller drivers are installed, from here you can format the disks!

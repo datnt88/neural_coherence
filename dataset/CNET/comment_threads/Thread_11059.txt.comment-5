@@ -1,6 +1,0 @@
-spend about $20 on a hub/switch and sell/giveaway the other wireless router OR castrate the netgear's routing features.
-Steps to disable the netgear's routing features: + get the ip address of a PC connected to the linksys.
-(in winxp, open a dos box, and ipconfig.)
-+ plug 1 pc into the netgear but leave the netgear disconnected from the linksys + log in to the netgear's web interface (you'll need to know the IP address of the netgear; usually its 192.168.0.1) + open the wireless section, select disabled and click apply + open the WAN section, choose dynamic IP address and click apply + open the dhcp section, select disabled and click apply + open the LAN section, and enter the ip address of the PC replacing the last digits with 255 (e.g.
-: 192.168.0.13 becomes 192.168.0.255); save this address since you'll need to use it access the netgear's admin interface + let the netgear restart then turn it off + plug the netgear into the linksys using a regular (downlink) port (not the netgear's uplink port) + turn on the netgear + plug the other pc(s) into the netgear the netgear should be acting as a switch now.
-you'll only have 3 available port since 1 will be used to connect it to the linksys.

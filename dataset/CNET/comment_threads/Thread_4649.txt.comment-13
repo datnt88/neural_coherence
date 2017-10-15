@@ -1,6 +1,0 @@
-If there is a manual that came with the case check that.
-Otherwise, this is what I would do: MOBO PIN -- CASE WIRE BLINE_OUT_L ------ L_IN Line_out_L ------ L_OUT BLINE_OUT_R ------ R_IN Line_out_R ------ R_OUT MICPWR ------ MICBIAS MIC2 ------ MIC_IN AGND ------ GRND This leaves you with a loose GRND.
-You could twist its wire together with the other GRND, and then place a new plastic ending on it (computer store, or online).
-Another option is to place it on a GND pin that is nearby.
-A third option is to place it on the NC pin.
-I'm not sure if NC is a true ground, but I'd probably place the remaining GRND there, especially since there is no other ground pin nearby.

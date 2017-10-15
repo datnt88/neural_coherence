@@ -1,2 +1,0 @@
-One thing I haven't seen covered- make sure that all the NICs are set at the same speed or to auto- and if auto or 100 mips, make sure that hub can handle it.
-Other than that, the # 1 cause I have seen with hubs is that each machine has to have an IP assigned and not 'get one on it's own', as IIRC that takes a DHCP server- unless the ICS proxy handles that, followed by something as simple as not typing in 'workgroup' the same way on each.

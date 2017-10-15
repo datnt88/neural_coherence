@@ -1,9 +1,0 @@
-I assume these are true AP and not routers.
-This would mean that each device would pass its own mac address up the path.
-First I would check the firewall logs to make sure you are not getting anything denied via rule.
-Since I assume your wired PC work I doubt this is the problem.
-Just a guess but I would suspect a port security setting on the switch.
-One of the many option in cisco is to allow only a single mac on a port.
-The switch should produce error messages into the log.
-You can also do a show mac-address command on the ports you are having issues with.
-You should see multiple macs assigned to that port.

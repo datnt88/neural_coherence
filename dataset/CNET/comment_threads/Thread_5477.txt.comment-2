@@ -1,7 +1,0 @@
-So it's NOT connected to the router, because it has a 169.xxx autoconfiguration IP-address in stead of getting the usual 192.xxx address from the router via DHCP.
-I'd remove the wireless connection and the laptop detect it again.
-You'll have to re-enter the password.
-If it fails, try a system restore back to when it still worked.
-If after the system restore it still doesn't work, it might be a hardware issue.
-Some other things to try: - check the wireless switch or the program to enable/disable wireless; those are the things you use in an airplane to switch it off).
-To confirm that it's hardware, boot from a Ubuntu Live disk and see if that works - a public hotspot or with a friend - remove the connection and let Windows detect it again (you'll have to re-enter the password) Kees
