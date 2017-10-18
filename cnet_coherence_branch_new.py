@@ -72,7 +72,7 @@ if __name__ == '__main__':
         ,w_size         = 5 
         ,pool_length    = 6 
         ,p_num          = 20
-        ,f_list         = ""
+        ,f_list         = "0.3.4"
     )
 
     opts,args = parser.parse_args(sys.argv)
