@@ -16,7 +16,6 @@ class Histories(keras.callbacks.Callback):
 		self.losses.append(logs.get('loss'))
                 
                 y_pred = self.model.predict([self.validation_data[0],self.validation_data[1]])
-
                 wins = 0
                 ties = 0
                 n = len(y_pred)
