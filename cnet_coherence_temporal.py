@@ -55,22 +55,23 @@ if __name__ == '__main__':
 
         data_dir        = "./final_data/"
         ,log_file       = "log"
-        ,model_dir      = "./saved_models_temp/"
+        ,model_dir      = "./saved_models/"
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
         ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 2000
+        ,maxlen         = 200
         ,epochs         = 25
         ,emb_size       = 100
         ,hidden_size    = 250
-        ,nb_filter      = 150
-        ,w_size         = 6 
+        ,nb_filter      = 28
+        ,w_size         = 3
         ,pool_length    = 6 
         ,p_num          = 20
-        ,f_list         = "0.3.4"
+        ,f_list         = ""
+        #f_list         = "0.3.4"
     )
 
     opts,args = parser.parse_args(sys.argv)
@@ -87,18 +88,18 @@ if __name__ == '__main__':
     #vocab = data_helper.load_all(filelist="final_data/wsj.all",fn=fn)
     print('Loading vocab of the whole dataset...')
     vocabs, E = cnet_helper.init_vocab(opts.emb_size)
-
+    print vocabs
 
     print 'Number of vocabs: ', len(vocabs)
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0  = cnet_helper.load_data_by_temporal(filelist="final_data/CNET/x_cnet.train", 
+    X_train_1, X_train_0  = cnet_helper.load_data_by_temporal(filelist="final_data/CNET/x_cnet.dev", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, feats=fn)
 
     X_dev_1, X_dev_0     = cnet_helper.load_data_by_temporal(filelist="final_data/CNET/x_cnet.dev", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, feats=fn)
 
-    X_test_1, X_test_0   = cnet_helper.load_data_by_temporal(filelist="final_data/CNET/x_cnet.test", 
+    X_test_1, X_test_0   = cnet_helper.load_data_by_temporal(filelist="final_data/CNET/x_cnet.dev", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, feats=fn)
 
 
@@ -179,13 +180,13 @@ if __name__ == '__main__':
     #writing model name
     if opts.f_list != "":
         ff = opts.f_list
-        m_type = "Ext_CNN."
+        m_type = "Ext.CNN."
     else:
         ff = "None"
         m_type = "CNN."
 
     model_name = opts.model_dir + m_type + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
-    + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + ff  
+    + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F_" + ff  
     print("Model name: " + model_name)
 
     print("Training model...")

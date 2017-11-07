@@ -1,6 +1,9 @@
 from __future__ import division
 
-from keras.layers import AveragePooling1D, Flatten, Input, Embedding, LSTM, Dense, merge, Convolution1D, MaxPooling1D, Dropout
+from keras.layers import AveragePooling1D, Flatten, Input, Embedding, LSTM, Dense, MaxPooling1D, Dropout, Dense
+from keras.layers import Conv1D
+from keras.layers.merge import concatenate
+
 from keras.models import Model
 from keras import objectives
 from keras.preprocessing import sequence
@@ -14,7 +17,6 @@ from utilities import my_callbacks
 from utilities import cnet_helper
 import optparse
 import sys
-
 
 
 def ranking_loss(y_true, y_pred):
@@ -54,21 +56,22 @@ if __name__ == '__main__':
 
         data_dir        = "./final_data/"
         ,log_file       = "log"
-        ,model_dir      = "./saved_models/"
+        ,model_dir      = "./saved_models_branch/"
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
-        ,minibatch_size = 64
+        ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 1000
+        ,maxlen         = 200
         ,epochs         = 5
         ,emb_size       = 50
-        ,hidden_size    = 250
-        ,nb_filter      = 150
-        ,w_size         = 5 
+        ,hidden_size    = 100
+        ,nb_filter      = 64
+        ,w_size         = 3 
         ,pool_length    = 6 
         ,p_num          = 20
+        #,f_list         = "0.3.4"
         ,f_list         = ""
     )
 
@@ -102,7 +105,7 @@ if __name__ == '__main__':
             perm_num = 20, maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size, fn=fn)
     print("loading test data done...")
 
-    print test_f_tracks
+    #print test_f_tracks
 
     num_train = len(X_train_1)
     num_dev   = len(X_dev_1)
@@ -140,12 +143,16 @@ if __name__ == '__main__':
 
     # add a convolutiaon 1D layer
     #x = Dropout(dropout_ratio)(x)
-    x = Convolution1D(nb_filter=opts.nb_filter, filter_length = opts.w_size, border_mode='valid', 
-            activation='relu', subsample_length=1)(x)
+    #x = Convolution1D(nb_filter=opts.nb_filter, filter_length = opts.w_size, border_mode='valid', 
+    #        activation='relu', subsample_length=1)(x)
+    x = Conv1D(filters=opts.nb_filter, kernel_size=opts.w_size, padding='valid', activation='relu')(x)
+
 
     # add max pooling layers
     #x = AveragePooling1D(pool_length=pool_length)(x)
-    x = MaxPooling1D(pool_length=opts.pool_length)(x)
+    #x = MaxPooling1D(pool_length=opts.pool_length)(x)
+    x = MaxPooling1D(pool_size=opts.pool_length)(x)
+
     x = Dropout(opts.dropout_ratio)(x)
     x = Flatten()(x)
     #x = Dense(hidden_size, activation='relu')(x)
@@ -163,10 +170,12 @@ if __name__ == '__main__':
     pos_branch = shared_cnn(pos_input)
     neg_branch = shared_cnn(neg_input)
 
-    concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out")
+    #concatenated = merge([pos_branch, neg_branch], mode='concat',name="coherence_out")
+    concatenated = concatenate([pos_branch, neg_branch], axis=-1, name="coherence_out")
     # output is two latent coherence score
 
     final_model = Model([pos_input, neg_input], concatenated)
+
 
     #final_model.compile(loss='ranking_loss', optimizer='adam')
     final_model.compile(loss={'coherence_out': ranking_loss}, optimizer=opts.learn_alg)
@@ -182,13 +191,13 @@ if __name__ == '__main__':
     #writing model name
     if opts.f_list != "":
         ff = opts.f_list
-        m_type = "Ext_CNN."
+        m_type = "Ext.CNN."
     else:
         ff = "None"
         m_type = "CNN."
 
     model_name = opts.model_dir + m_type + str(opts.p_num) + "_" + str(opts.dropout_ratio) + "_"+ str(opts.emb_size) + "_"+ str(opts.maxlen) + "_" \
-    + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F" + ff  
+    + str(opts.w_size) + "_" + str(opts.nb_filter) + "_" + str(opts.pool_length) + "_" + str(opts.minibatch_size) + "_F_" + ff  
     print("Model name: " + model_name)
 
     print("Training model...")
@@ -196,7 +205,7 @@ if __name__ == '__main__':
     patience = 0 
     for ep in range(1,opts.epochs):
         
-        final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), nb_epoch=1,
+        final_model.fit([X_train_1, X_train_0], y_train_1, validation_data=([X_dev_1, X_dev_0], y_dev_1), epochs=1,
  					verbose=1, batch_size=opts.minibatch_size, callbacks=[histories])
 
         final_model.save(model_name + "_ep." + str(ep) + ".h5")

@@ -1,10 +1,7 @@
 from __future__ import division
 
-from keras.layers import AveragePooling1D, Flatten, Input, Embedding, LSTM, Dense, merge, Convolution1D, MaxPooling1D, Dropout
-from keras.layers import Conv1D
+from keras.layers import Dense, Flatten, Input, Embedding, MaxPooling1D, Dropout, Conv1D
 from keras.layers.merge import concatenate
-
-
 from keras.models import Model
 from keras import objectives
 from keras.preprocessing import sequence
@@ -28,7 +25,6 @@ def ranking_loss(y_true, y_pred):
     #loss = -K.sigmoid(pos-neg) # use 
     loss = K.maximum(1.0 + neg - pos, 0.0) #if you want to use margin ranking loss
     return K.mean(loss) + 0 * y_true
-
 
 if __name__ == '__main__':
     # parse user input
@@ -59,20 +55,20 @@ if __name__ == '__main__':
 
         data_dir        = "./final_data/"
         ,log_file       = "log"
-        ,model_dir      = "./edge-lv-models/"
+        ,model_dir      = "./e-lv-models/"
 
         ,learn_alg      = "rmsprop" # sgd, adagrad, rmsprop, adadelta, adam (default)
         ,loss           = "ranking_loss" # hinge, squared_hinge, binary_crossentropy (default)
         ,minibatch_size = 32
         ,dropout_ratio  = 0.5
 
-        ,maxlen         = 14000
+        ,maxlen         = 1000
         ,epochs         = 30
         ,emb_size       = 100
-        ,hidden_size    = 250
-        ,nb_filter      = 150
-        ,w_size         = 5 
-        ,pool_length    = 6 
+        ,hidden_size    = 100
+        ,nb_filter      = 100
+        ,w_size         = 3 
+        ,pool_length    = 4 
         ,p_num          = 20
         ,f_list         = ""
     )
@@ -94,7 +90,7 @@ if __name__ == '__main__':
     print "--------------------------------------------------"
 
     print("loading entity-gird for pos and neg documents...")
-    X_train_1, X_train_0  = cnet_helper.load_edge_pairs_data("final_data/CNET/s_cnet.train", 
+    X_train_1, X_train_0  = cnet_helper.load_edge_pairs_data("final_data/CNET/s_cnet.dev", 
             maxlen=opts.maxlen, w_size=opts.w_size, vocabs=vocabs, emb_size=opts.emb_size)
 
     X_dev_1, X_dev_0     = cnet_helper.load_edge_pairs_data("final_data/CNET/s_cnet.dev", 
@@ -176,8 +172,8 @@ if __name__ == '__main__':
     # setting callback
     histories = my_callbacks.Histories()
 
-    #print(shared_cnn.summary())
-    print(final_model.summary())
+    print(shared_cnn.summary())
+    #print(final_model.summary())
 
     print("------------------------------------------------")	
     

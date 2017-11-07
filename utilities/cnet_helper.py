@@ -46,7 +46,7 @@ def init_vocab(emb_size):
     '''
 
     np.random.seed(2017)
-    E      = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocabs), emb_size))
+    E    = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocabs), emb_size))
     E[0] = 0
 
     return vocabs, E
@@ -457,9 +457,11 @@ def get_pos_and_neg_pairs(file): # get every pair from a thread
 
 
 
-
-
+#=====================================================================
 #loading data by branch
+#
+#
+#=====================================================================
 def load_data_by_branch(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, w_size=3, vocabs=None, emb_size=300, fn=None):
     # loading entiry-grid data from list of pos document and list of neg document
     list_of_files = [line.rstrip('\n') for line in open(filelist)]
@@ -471,7 +473,7 @@ def load_data_by_branch(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000
     pair_id = 0
     
     for file_id, file in enumerate(list_of_files):
-        #print(file) 
+        print(file) 
 
         #loading commentIDs
         cmtIDs  = [line.rstrip('\n') for line in open(file + ".commentIDs")]
@@ -504,7 +506,7 @@ def load_data_by_branch(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000
                     #print e_trans
                     grid_1 = grid_1 + e_trans + " " + "0 "* w_size
 
-            print grid_1
+            #print grid_1
                 
             p_count = 0
             for i in range(1,perm_num+1): # reading the permuted docs
@@ -545,7 +547,150 @@ def load_data_by_branch(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000
     return X_1, X_0, f_track
 
 
-def get_eTrans_by_Index(e_trans="", idxs=None, f_list=None, feats=None):
+def load_branch_POS_EGrid(filename="", w_size=3, maxlen=1000, vocabs=None , feats=None ):
+    cmtIDs  = [line.rstrip('\n') for line in open(filename + ".commentIDs")]
+    cmtIDs = [int(i) for i in cmtIDs] 
+
+    org_tree = [line.rstrip('\n') for line in open(filename + ".orgTree")]
+    egrids = [line.rstrip('\n') for line in open(filename + ".EGrid")]
+
+    f_lines = [line.rstrip('\n') for line in open(filename + ".Feats")]
+    f_list ={}
+    for line in f_lines:
+        x = line.split()
+        entity = x[0]
+        x = x[1:] # remove the entity name
+        f_list[entity] = x
+    
+    sentences_1 = []
+    for branch in org_tree:   #reading branch, each branch is considered as a document
+        branch = [int(id) for id in branch.split('.')] # convert string to integer, branch
+        idxs = [ idx for idx, cmtID  in enumerate(cmtIDs) if cmtID in branch]
+
+        grid_1 = "0 "* w_size
+        for idx, line in enumerate(egrids):
+            e_trans = get_eTrans_by_Index(e_trans=line, idxs=idxs, f_list=f_list, feats=feats) # merge the grid of positive document 
+            if len(e_trans) !=0:
+                    #print e_trans
+                grid_1 = grid_1 + e_trans + " " + "0 "* w_size
+
+        sentences_1.append(grid_1)
+
+
+    #print(grid_1)
+    vocab_idmap = {}
+    for i in range(len(vocabs)):
+        vocab_idmap[vocabs[i]] = i
+
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=w_size)
+    X_1 =  sequence.pad_sequences(X_1, maxlen)
+
+    return X_1
+
+
+
+def load_branch_NEG_EGrid(filename="", w_size=3, maxlen=1000, vocabs=None , feats=None, perm=None):
+    cmtIDs  = [line.rstrip('\n') for line in open(filename + ".commentIDs")]
+    cmtIDs = [int(i) for i in cmtIDs] 
+
+    org_tree = [line.rstrip('\n') for line in open(filename + ".orgTree")]
+    egrids = [line.rstrip('\n') for line in open(filename + ".EGrid")]
+
+    f_lines = [line.rstrip('\n') for line in open(filename + ".Feats")]
+    f_list ={}
+    for line in f_lines:
+        x = line.split()
+        entity = x[0]
+        x = x[1:] # remove the entity name
+        f_list[entity] = x
+    
+
+    sentences_1 = []
+    for branch in org_tree:   #reading branch, each branch is considered as a document
+        branch = [int(id) for id in branch.split('.')] # convert string to integer, branch
+        idxs = [ idx for idx, cmtID  in enumerate(cmtIDs) if cmtID in branch]
+
+        grid_1 = "0 "* w_size
+        for idx, line in enumerate(egrids):
+            e_trans = get_eTrans_by_Index_4Insert(e_trans=line, idxs=idxs, f_list=f_list, feats=feats, perm=perm) # merge the grid of positive document 
+            if len(e_trans) !=0:
+                    #print e_trans
+                grid_1 = grid_1 + e_trans + " " + "0 "* w_size
+
+        sentences_1.append(grid_1)
+
+
+    #print(grid_1)
+    vocab_idmap = {}
+    for i in range(len(vocabs)):
+        vocab_idmap[vocabs[i]] = i
+
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=w_size)
+    X_1 =  sequence.pad_sequences(X_1, maxlen)
+
+    return X_1
+
+
+
+
+def get_eTrans_by_Index_4Insert(e_trans="", idxs=None, f_list={}, feats=None, perm=None):
+
+        
+
+    x = e_trans.split()
+    entity = x[0]
+    x = x[1:] # remove the first 
+
+    #need to re-order the sentence, but keep the same tree structure 
+    p_x = []
+    for i in perm:
+        p_x.append(x[i])
+    x = p_x
+
+    length = len(x)
+    e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
+    if length > 80:
+        if e_occur < 3:
+            return ""
+    elif length > 20:
+        if e_occur < 2:
+            return ""
+
+    final_sent = []
+
+    for idx in idxs:
+        final_sent.append(x[idx])  #id in file starts at 1
+    if feats==None: #coherence model without features    
+        return ' '.join(final_sent)
+
+    f = f_list[entity]
+    x_f = []
+    for sem_role in x:
+        new_role = sem_role;
+        if new_role != '-':
+            for i in feats:
+                if i ==0 : #adding salience
+                    if e_occur == 1:
+                        new_role = new_role + "F01"
+                    elif e_occur == 2:
+                        new_role = new_role + "F02"
+                    elif e_occur == 3:
+                        new_role = new_role + "F03"
+                    elif e_occur >3 :
+                        new_role = new_role + "F04"
+                else:
+                    new_role = new_role + "F" + str(i) + f[i-1] # num feat = idx + 1
+  
+        x_f.append(new_role)
+
+    return ' '.join(x_f)
+
+
+
+
+def get_eTrans_by_Index(e_trans="", idxs=None, f_list={}, feats=None):
 
     x = e_trans.split()
     entity = x[0]
@@ -591,8 +736,30 @@ def get_eTrans_by_Index(e_trans="", idxs=None, f_list=None, feats=None):
 
 
 
-#=================================================================
-#load data by temporal order
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#=====================================================================
+# load data by temporal order
+#
+#
+#=====================================================================
 def load_data_by_temporal(filelist="list_of_grid.txt", maxlen=15000, w_size=3, E=None, vocabs=None, emb_size=300, perm_num=20, feats=None):
     # loading entiry-grid data from list of pos document and list of neg document
     if vocabs is None:
@@ -626,6 +793,7 @@ def load_data_by_temporal(filelist="list_of_grid.txt", maxlen=15000, w_size=3, E
             if len(e_trans) !=0:
                 #print e_trans
                 grid_1 = grid_1 + e_trans + " " + "0 "* w_size
+
 
         p_count = 0
         for i in range(1,perm_num+1): # reading the permuted docs
@@ -666,12 +834,123 @@ def load_data_by_temporal(filelist="list_of_grid.txt", maxlen=15000, w_size=3, E
     return X_1, X_0
 
 
+
+def load_temporal_POS_EGrid(filename="", w_size=3, maxlen=1000, vocabs=None , feats=None ):
+    lines = [line.rstrip('\n') for line in open(filename + ".EGrid")]
+    f_lines = [line.rstrip('\n') for line in open(filename + ".Feats")]
+    #get feats information
+    f_list = {}
+    for line in f_lines:
+        x = line.split()
+        entity = x[0]
+        x = x[1:] # remnove the entity name
+        f_list[entity] = x
+
+
+
+    grid_1 = "0 "* w_size
+    for idx, line in enumerate(lines):
+        # merge the grid of positive document 
+        e_trans = get_eTrans_with_Feats(sent=line, f_list=f_list,feats=feats)
+        if len(e_trans) !=0:
+            grid_1 = grid_1 + e_trans + " " + "0 "* w_size
+            #print(e_trans)
+    #print(grid_1)
+    vocab_idmap = {}
+    for i in range(len(vocabs)):
+        vocab_idmap[vocabs[i]] = i
+
+    X_1 = numberize_sentences([grid_1], vocab_idmap)
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=w_size)
+    X_1 =  sequence.pad_sequences(X_1, maxlen)
+
+    return X_1
+
+def load_temporal_NEG_EGrid(filename="", w_size=3, maxlen=1000,  vocabs=None, feats=None, perm=None):
+    #print(perm)
+    if perm != None:
+        lines = [line.rstrip('\n') for line in open(filename + ".EGrid")]
+        f_lines = [line.rstrip('\n') for line in open(filename + ".Feats")]
+        #get feats information
+        f_list = {}
+        for line in f_lines:
+            x = line.split()
+            entity = x[0]
+            x = x[1:] # remnove the entity name
+            f_list[entity] = x
+
+
+        grid_0 = "0 "* w_size
+        for idx, line in enumerate(lines):
+            #print(line)
+            e_trans_0 = get_eTrans_With_Feats_4Insert(sent=line,f_list=f_list,feats=feats, perm=perm) # need to include features
+            if len(e_trans_0) !=0:
+                grid_0 = grid_0 + e_trans_0  + " " + "0 "* w_size
+            #print(e_trans_0)
+        
+        #print(grid_0)
+        vocab_idmap = {}
+        for i in range(len(vocabs)):
+            vocab_idmap[vocabs[i]] = i
+
+        X_0 = numberize_sentences([grid_0], vocab_idmap)
+        X_0 = adjust_index(X_0, maxlen=maxlen, window_size=w_size)
+        X_0 = sequence.pad_sequences(X_0, maxlen)
+
+        return X_0
+
+    else:
+        print("no permuted list")
+        return None
+
+def get_eTrans_With_Feats_4Insert(sent="",f_list={},feats=None, perm=[]):
+    x = sent.split()
+    entity = x[0]
+    x = x[1:] # remnove the entity name
+    length = len(x)
+    e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of coocurence of the entity
+    if length > 80:
+        if e_occur < 3:
+            return ""
+    elif length > 20:
+        if e_occur < 2:
+            return ""
+    #need to re-order the entity meaning re-order sentence in a document
+    p_x = []
+    for i in perm:
+        p_x.append(x[i])
+
+    if feats==None: #coherence model without features    
+       return ' '.join(p_x)
+
+    f = f_list[entity]
+    p_x_f = []
+    for sem_role in p_x: # extended coherence model without features
+        new_role = sem_role;
+        if new_role != '-':
+            for i in feats:
+                if i ==0 : #adding salience
+                    if e_occur == 1:
+                        new_role = new_role + "F01"
+                    elif e_occur == 2:
+                        new_role = new_role + "F02"
+                    elif e_occur == 3:
+                        new_role = new_role + "F03"
+                    elif e_occur >3 :
+                        new_role = new_role + "F04"
+                else:
+                    new_role = new_role + "F" + str(i) + f[i-1] # num feat = idx + 1
+  
+        p_x_f.append(new_role)
+
+    return ' '.join(p_x_f)
+
+
 #get entity transition from a row of Entity Grid
 def get_eTrans_with_Feats(sent="",f_list={},feats=None):
     x = sent.split()
     entity = x[0]
     x = x[1:] # remnove the entity name
-
     length = len(x)
     e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
     if length > 80:
@@ -705,6 +984,27 @@ def get_eTrans_with_Feats(sent="",f_list={},feats=None):
         x_f.append(new_role)
 
     return ' '.join(x_f)
+
+
+
+def find_doc_size(filename=""):
+    lines = [line.rstrip('\n') for line in open(filename)]
+    doc_size = find_len(sent=lines[1])
+    return doc_size
+
+
+
+def find_len(sent=""):
+    x = sent.split()
+    #print(x)
+    return len(x) -1
+
+
+
+
+
+
+
 
 
 
@@ -1128,15 +1428,7 @@ def get_right_encode(vb="S---XOS"):
 
 
 #=================================================================================
-def find_doc_size(filename=""):
-    lines = [line.rstrip('\n') for line in open(filename)]
-    doc_size = find_len(sent=lines[1])
-    return doc_size
 
-def find_len(sent=""):
-    x = sent.split()
-    #print(x)
-    return len(x) -1
 
 def remove_entity(sent=""):
     x = sent.split()
@@ -1213,57 +1505,9 @@ def get_eTrans_With_Perm(sent="",feats="",fn=None, perm=[]):
     return ' '.join(p_x_f)
 
 
-def load_POS_EGrid(filename="", w_size=3, maxlen=1000, vocab_list=None , fn=None ):
-    lines = [line.rstrip('\n') for line in open(filename + ".EGrid")]
-    f_lines = [line.rstrip('\n') for line in open(filename + ".Feats")]
-
-    grid_1 = "0 "* w_size
-    for idx, line in enumerate(lines):
-        # merge the grid of positive document 
-        e_trans = get_eTrans_with_Feats(sent=line, feats=f_lines[idx], fn=fn)
-        if len(e_trans) !=0:
-            grid_1 = grid_1 + e_trans + " " + "0 "* w_size
-            #print(e_trans)
-    #print(grid_1)
-    vocab_idmap = {}
-    for i in range(len(vocab_list)):
-        vocab_idmap[vocab_list[i]] = i
-
-    X_1 = numberize_sentences([grid_1], vocab_idmap)
-    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=w_size)
-    X_1 =  sequence.pad_sequences(X_1, maxlen)
-
-    return X_1
-
-def load_NEG_EGrid(filename="", w_size=3, maxlen=1000,  vocab_list=None, fn=None, perm=None):
-    #print(perm)
-    if perm != None:
-        lines = [line.rstrip('\n') for line in open(filename + ".EGrid")]
-        f_lines = [line.rstrip('\n') for line in open(filename + ".Feats")]
 
 
-        grid_0 = "0 "* w_size
-        for idx, line in enumerate(lines):
-            #print(line)
-            e_trans_0 = get_eTrans_With_Perm(sent=line,feats=f_lines[idx],fn=fn, perm=perm) # need to include features
-            if len(e_trans_0) !=0:
-                grid_0 = grid_0 + e_trans_0  + " " + "0 "* w_size
-            #print(e_trans_0)
-        
-        #print(grid_0)
-        vocab_idmap = {}
-        for i in range(len(vocab_list)):
-            vocab_idmap[vocab_list[i]] = i
 
-        X_0 = numberize_sentences([grid_0], vocab_idmap)
-        X_0 = adjust_index(X_0, maxlen=maxlen, window_size=w_size)
-        X_0 = sequence.pad_sequences(X_0, maxlen)
-
-        return X_0
-
-    else:
-        print("no permuted list")
-        return None
 
 
 #loading grid with features
