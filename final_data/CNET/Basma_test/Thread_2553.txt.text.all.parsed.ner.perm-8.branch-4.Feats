@@ -4,14 +4,14 @@
                                     YEAR 0 1 0 0 0 1 0 0 0
                                    INPUT 0 0 0 0 0 0 1 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 0 1
-                                   DRIVE 0 0 0 0 0 1 0 3 1
+                                   DRIVE 0 0 0 0 0 1 0 3 0
                                     DISK 0 0 0 0 0 1 0 1 1
                                  NOTHING 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 0 0
-                                    BOOT 0 0 0 0 0 0 0 0 0
+                                    BOOT 0 0 0 0 0 0 0 0 1
                                     BIOS 0 0 0 0 0 0 0 0 0
                                     THIS 0 0 0 0 0 1 0 1 1
                                      USB 0 0 0 0 0 0 0 1 1
@@ -27,7 +27,7 @@
                                     CASE 0 1 0 0 0 1 0 1 1
                                   FLOPPY 0 0 0 0 0 0 0 1 1
                                   THINGS 0 0 0 0 0 1 0 1 1
-                                  DEVICE 0 0 0 0 0 1 0 1 0
+                                  DEVICE 0 0 0 0 0 1 0 1 1
                            CONFIGURATION 0 0 0 0 0 0 0 1 1
                                     FOLK 0 0 0 0 0 0 0 1 1
                                      BOB 0 1 1 0 0 1 0 0 1
@@ -44,7 +44,7 @@
                                     COST 0 0 0 0 0 1 0 1 1
                                     PAIN 0 0 0 0 0 1 0 1 1
                                     DELL 0 0 1 0 0 0 0 1 1
-                               DIMENSION 0 0 0 0 0 0 0 1 1
+                               DIMENSION 0 0 0 0 0 0 0 1 0
                                    CABLE 0 0 0 0 0 1 0 0 0
                                  BLASTER 0 0 0 0 0 0 0 0 0
                                       XP 0 0 0 0 0 0 0 1 1
@@ -87,7 +87,7 @@
                                   REPAIR 0 1 0 0 0 0 1 1 0
                                    MEDIA 0 1 0 0 0 1 0 1 1
                             INSTRUCTIONS 0 0 0 0 0 1 0 1 1
-                                   DISKS 0 0 0 0 0 1 0 1 0
+                                   DISKS 0 0 0 0 0 1 0 1 1
                                      WIN 0 0 0 0 0 1 0 0 0
                                 PRODUCTS 0 1 0 0 0 1 0 1 1
                                     APPS 0 0 0 0 0 0 0 2 1
@@ -116,7 +116,7 @@
                              PERIPHERALS 0 0 0 0 0 0 0 1 1
                                      TAG 0 0 0 0 0 1 0 1 1
                                  PRESENT 1 0 0 0 0 0 0 0 1
-                                     ZIP 0 0 0 0 0 0 0 1 1
+                                     ZIP 0 0 0 0 0 0 0 1 0
                                 ATTEMPTS 0 0 0 0 0 1 0 1 1
                             REFORMATTING 0 0 0 0 0 0 0 0 0
                                 TOMORROW 0 0 0 6 0 1 0 0 1

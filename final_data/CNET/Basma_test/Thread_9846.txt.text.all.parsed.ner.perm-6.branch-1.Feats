@@ -12,7 +12,7 @@
                                   SYSTEM 0 1 0 0 0 1 0 0 0
                                     YEAR 0 1 0 0 0 1 0 1 1
                                     HARD 0 0 0 0 0 0 0 1 1
-                                   POWER 0 1 0 0 0 1 0 0 0
+                                   POWER 0 1 0 0 0 1 0 0 1
                                   SUPPLY 0 0 0 0 0 1 0 1 1
                                      IDE 0 0 0 0 0 0 0 0 0
                                   ERRORS 0 1 0 0 0 1 0 3 1
@@ -21,7 +21,7 @@
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                     BIOS 0 0 0 0 0 0 0 3 1
                                     THIS 0 0 0 0 0 1 0 0 1
-                             MOTHERBOARD 0 0 0 0 0 0 0 2 1
+                             MOTHERBOARD 0 0 0 0 0 0 0 2 0
                                  PROBLEM 1 0 0 0 0 1 0 2 1
                                     LINK 0 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 0 1
@@ -39,7 +39,7 @@
                                   DEVICE 0 0 0 0 0 1 0 0 0
                                     WORK 0 0 0 0 0 1 0 0 0
                                      BOB 0 1 1 0 0 1 0 0 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 1
+                                 WINDOWS 0 0 0 0 0 1 0 1 0
                                   GAMING 0 0 0 0 0 0 0 1 1
                                   SCREEN 0 0 0 0 0 1 0 1 1
                                     SATA 0 0 0 0 0 0 0 1 1
@@ -59,13 +59,13 @@
                                     TRIP 0 0 0 0 0 1 0 1 1
                                    ISSUE 0 1 0 0 0 1 0 2 1
                                     SHOP 0 0 0 0 0 1 0 0 0
-                                 SUPPORT 0 0 0 0 0 1 0 1 0
+                                 SUPPORT 0 0 0 0 0 1 0 1 1
                                    SETUP 0 0 0 0 0 0 0 1 1
                                  MANAGER 1 0 0 0 0 1 0 1 1
                                    POINT 0 0 0 0 0 1 0 2 1
                                     EACH 0 0 0 0 0 0 1 0 1
                                 RESPONSE 0 0 0 0 0 1 0 1 1
-                                  DRIVER 0 0 0 0 0 1 0 3 1
+                                  DRIVER 0 0 0 0 0 1 0 3 0
                                   COOLER 0 0 0 0 0 0 0 1 1
                                    GAMES 0 0 0 0 0 1 0 1 1
                                  SUCCESS 1 0 0 0 0 1 0 1 1
@@ -98,10 +98,10 @@
                                  ANYBODY 0 0 0 0 0 1 0 0 1
                              DRIVER&QUOT 0 0 0 0 0 0 0 1 1
                                INTERFACE 0 0 1 0 0 1 0 2 1
-                                    XMS2 0 0 0 3 0 0 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
+                                    XMS2 0 0 0 3 0 0 0 1 1
                                   COLORS 0 0 0 0 0 1 0 1 1
-                                 FAILURE 0 0 0 0 0 1 0 0 0
+                                 FAILURE 0 0 0 0 0 1 0 0 1
                                 PROBLEM. 0 0 0 0 0 0 0 1 1
                                CROSSFIRE 0 0 0 0 0 0 0 0 0
                                 PLATINUM 0 0 0 0 0 0 0 0 0
@@ -117,7 +117,7 @@
                                  FURMARK 0 0 0 0 0 0 0 1 1
                                   CORNER 0 0 0 0 0 1 0 1 1
                                      SMB 0 0 0 0 0 0 0 0 0
-                                CATALYST 0 0 1 0 0 0 0 0 0
+                                CATALYST 0 0 0 0 0 0 0 0 0
                                  CELCIUS 0 0 0 0 0 0 0 1 1
                                  BARGAIN 0 0 0 0 0 1 0 1 1
                                     12V1 0 0 0 0 0 0 0 0 0

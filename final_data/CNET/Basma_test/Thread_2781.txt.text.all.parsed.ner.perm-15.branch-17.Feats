@@ -1,4 +1,4 @@
-                                       $ 0 0 0 0 0 0 1 2 1
+                                       $ 0 0 0 7 0 0 1 2 1
                                     TIME 1 1 0 0 0 1 0 1 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                   PERSON 0 1 0 0 0 1 0 1 1
@@ -7,7 +7,7 @@
                                    ABOUT 0 0 0 0 0 0 1 1 1
                                      ALL 0 0 0 0 0 0 0 1 1
                                     SOME 0 0 0 0 0 0 1 1 1
-                                   ORDER 0 0 0 0 0 1 0 1 0
+                                   ORDER 0 0 0 0 0 1 0 1 1
                                    512MB 0 0 0 0 0 0 0 1 1
                                    VIDEO 0 1 0 0 0 1 0 1 1
                                     CARD 0 1 0 0 0 1 0 2 1
@@ -23,7 +23,7 @@
                                     YEAR 0 1 0 0 0 1 0 1 1
                                      NEW 0 0 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
@@ -31,7 +31,7 @@
                                  DIGITAL 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 1 1
                                      ONE 0 0 0 0 0 1 0 2 1
-                                   DRIVE 0 0 0 0 0 1 0 3 0
+                                   DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 2 1
                                     DISK 0 0 0 0 0 1 0 1 1
@@ -45,7 +45,7 @@
                                       PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                   AND/OR 0 0 0 0 0 0 0 0 0
-                                ANYTHING 0 0 0 0 0 1 0 0 1
+                                ANYTHING 0 0 0 0 0 1 0 0 0
                                    WHILE 0 0 0 0 0 1 0 1 1
                                 WHATEVER 0 0 0 0 0 0 1 0 1
                                    &QUOT 0 0 0 0 0 0 0 3 1
@@ -68,7 +68,7 @@
                                       'S 0 0 0 0 0 0 0 0 1
                                   NVIDIA 0 0 0 0 0 0 0 1 1
                                 FEATURES 0 0 0 0 0 1 0 1 1
-                                    DAYS 0 0 0 6 0 1 0 1 1
+                                    DAYS 0 0 0 0 0 1 0 1 1
                               DIRECTIONS 0 0 0 0 0 1 0 0 1
                                     ETC. 0 0 0 0 0 0 0 2 1
                                      TOY 0 0 0 0 0 1 0 1 1
@@ -82,13 +82,13 @@
                                    LEAST 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
                                   PLEASE 0 0 0 0 0 0 0 0 1
-                                      OS 0 0 0 0 0 0 0 1 0
+                                      OS 0 0 0 0 0 0 0 1 1
                                  WINDOWS 0 0 0 0 0 1 0 1 1
                                  DESKTOP 0 0 0 0 0 0 1 1 1
                                      OWN 0 0 0 0 0 0 1 1 1
                                OPERATING 0 0 0 0 0 0 0 0 0
                                      CPU 0 0 0 0 0 0 0 1 1
-                                   INTEL 0 0 1 0 0 1 0 2 0
+                                   INTEL 0 0 1 0 0 1 0 2 1
                              PERFORMANCE 1 1 0 0 0 1 0 0 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
@@ -103,19 +103,19 @@
                                    KINDA 0 0 0 0 0 0 0 0 1
                                     GAME 0 0 0 0 0 1 0 0 0
                                   PEOPLE 0 1 0 0 0 1 0 0 1
-                                    COST 0 0 0 0 0 1 0 1 0
+                                    COST 0 0 0 0 0 1 0 1 1
                                    TIMES 0 1 0 0 0 1 0 1 0
-                               PROCESSOR 0 0 0 0 0 0 0 1 1
+                               PROCESSOR 0 0 0 0 0 0 0 1 0
                                  EXAMPLE 0 0 0 0 0 1 0 1 1
                                      PC. 0 0 0 0 0 0 0 1 1
                                      FAN 0 0 0 0 0 1 0 2 1
                                      BUY 0 0 0 0 0 0 0 0 0
                                    FIRST 0 1 0 0 0 1 0 1 1
                                  PENTIUM 0 0 0 0 0 0 0 1 1
-                                  ONLINE 0 0 0 0 0 1 0 1 0
+                                  ONLINE 0 0 0 0 0 1 0 1 1
                               COMPATIBLE 0 0 0 0 0 0 0 1 1
                                  REGARDS 0 0 0 0 0 0 0 1 1
-                                    DELL 0 0 1 0 0 0 0 2 1
+                                    DELL 0 0 1 0 0 0 0 2 0
                                     GOOD 0 0 0 0 0 1 0 0 1
                                     CMOS 0 0 0 0 0 0 0 1 1
                                ALIENWARE 0 0 0 0 0 0 0 0 0
@@ -126,7 +126,7 @@
                                      GHZ 0 0 0 0 0 0 0 1 1
                                      FSB 0 0 0 0 0 0 0 1 1
                                      DVD 0 0 0 0 0 1 0 0 0
-                                   SOUND 0 0 0 0 0 1 0 1 0
+                                   SOUND 0 0 0 0 0 1 0 1 1
                                  SEAGATE 0 0 1 0 0 0 0 0 1
                                    THATS 0 0 0 0 0 0 0 1 1
                                      KEY 0 0 0 0 0 1 0 1 1
@@ -137,7 +137,7 @@
                                     POST 0 0 0 0 0 1 0 1 1
                                    FORUM 0 0 0 0 0 1 0 1 1
                                   ADVICE 0 0 0 0 0 1 0 1 1
-                                 SUPPORT 0 0 0 0 0 1 0 3 1
+                                 SUPPORT 0 0 0 0 0 1 0 3 0
                                  CHOICES 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
                                   NUMBER 0 0 0 0 0 1 0 1 1
@@ -163,12 +163,12 @@
                                      WAY 1 0 0 0 0 1 0 2 1
                                  COLLEGE 0 0 0 0 0 1 0 0 0
                                     HOME 0 0 0 0 0 1 0 1 1
-                                SOFTWARE 0 1 0 0 0 1 0 1 1
+                                SOFTWARE 0 1 0 0 0 1 0 1 0
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 1 1
                                     WORD 0 0 0 0 0 1 0 0 0
                                     TECH 0 0 1 0 0 0 1 0 0
-                                   BOARD 0 1 0 0 0 1 0 1 1
+                                   BOARD 0 1 0 0 0 1 0 1 0
                                   BRANDS 0 1 0 0 0 1 0 1 1
                                  CLIENTS 0 1 0 0 0 1 0 1 1
                                    START 0 0 0 0 0 1 0 1 1
@@ -180,7 +180,7 @@
                                   PRICES 1 1 0 0 0 1 0 1 1
                               EXPERIENCE 0 0 0 0 0 1 0 2 1
                                  PROCESS 0 0 0 0 0 1 0 1 1
-                                     OEM 0 0 0 0 0 0 0 1 0
+                                     OEM 0 0 0 0 0 0 0 1 1
                                    TYPES 0 1 0 0 0 1 0 1 1
                                 WARRANTY 0 0 0 0 0 0 0 1 0
                                       PS 0 1 1 0 0 0 0 0 0
@@ -238,10 +238,10 @@
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
                                    DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 0 0
                                     WATT 0 0 0 0 0 1 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
                                  SCANNER 0 0 0 0 0 0 0 1 1
@@ -317,15 +317,9 @@
                                TINKERING 0 0 0 0 0 0 0 0 1
                               W/HEATSINK 0 0 0 0 0 0 0 0 0
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                                  FERVOR 0 0 0 0 0 0 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                  MUCKING 0 0 0 0 0 0 0 1 1
                                       A+ 0 0 0 0 0 0 0 1 1
                                     CERT 0 0 0 0 0 0 0 1 1
@@ -334,6 +328,12 @@
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                    9.99 0 0 0 7 0 0 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
+                                  FERVOR 0 0 0 0 0 0 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                  DEFENSE 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 2 1
                                  PUDDING 0 0 0 0 0 0 0 1 1

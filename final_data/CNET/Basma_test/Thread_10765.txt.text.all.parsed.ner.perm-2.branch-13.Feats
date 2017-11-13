@@ -12,7 +12,7 @@
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                     YEAR 0 1 0 0 0 1 0 1 1
                                    NEEDS 0 0 0 0 0 1 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
@@ -32,7 +32,7 @@
                                    THERE 0 0 0 0 0 0 1 0 1
                                      ANY 0 0 0 0 0 0 1 1 1
                                      RAM 0 0 1 0 0 1 0 3 1
-                                    CASE 0 1 0 0 0 1 0 2 0
+                                    CASE 0 1 0 0 0 1 0 2 1
                                    THING 0 0 0 0 0 1 0 2 1
                                   THINGS 0 0 0 0 0 1 0 0 1
                                     FINE 0 1 0 0 0 1 0 1 1
@@ -51,7 +51,7 @@
                                     CORE 0 0 0 0 0 1 0 1 1
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
-                                    PART 1 0 0 0 0 1 0 1 0
+                                    PART 1 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 1 1
                                   CHOICE 0 0 0 0 0 1 0 1 0
                                     BEST 0 0 0 0 0 0 1 1 1
@@ -80,13 +80,13 @@
                                   ADVICE 0 0 0 0 0 1 0 1 1
                                     MINE 0 0 0 0 0 1 0 0 1
                                    PLACE 0 0 0 0 0 1 0 1 1
-                                 SAMSUNG 0 0 1 0 0 1 0 0 1
+                                 SAMSUNG 0 0 1 0 0 1 0 0 0
                                 QUESTION 0 0 0 0 0 1 0 1 1
                                     MOST 0 0 0 0 0 1 0 1 1
                                     ONES 0 0 0 0 0 1 0 1 1
                                     DEAL 0 0 0 0 0 1 0 1 1
                                    GAMES 0 0 0 0 0 1 0 1 1
-                                     END 0 0 0 0 0 1 0 1 1
+                                     END 0 0 0 0 0 1 0 1 0
                                COMPUTERS 0 0 0 0 0 1 0 2 1
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
@@ -97,7 +97,7 @@
                                   PRICES 1 1 0 0 0 1 0 0 0
                                  REBATES 0 0 0 0 0 0 0 1 1
                                    BOXES 0 0 0 0 0 1 0 1 1
-                                     &GT 0 0 0 0 0 0 0 2 1
+                                     &GT 0 0 1 0 0 0 0 2 1
                                   SCREWS 0 0 0 0 0 0 0 1 1
                               NEWEGG.COM 0 0 0 0 0 0 0 0 1
                                    STORE 0 0 0 0 0 1 0 1 1
@@ -126,16 +126,12 @@
                                     EDGE 0 0 0 0 0 1 0 1 1
                                  WALMART 0 0 1 0 0 0 0 0 1
                                   500BUX 0 0 0 0 0 0 0 0 1
-                                     X16 0 0 0 0 0 0 0 1 1
-                                      X1 0 0 0 0 0 0 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 0 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                                WAL-MART 0 0 1 0 0 1 0 0 0
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                     BANG 0 0 0 0 0 1 0 0 0
+                                   DEALS 0 0 0 0 0 1 0 0 1
                                      GIG 0 0 0 0 0 0 0 1 1
                                       MG 0 0 0 0 0 0 0 0 0
                                     WATT 0 0 0 0 0 1 0 0 0
@@ -147,11 +143,15 @@
                                    ALTHO 0 0 0 0 0 0 0 2 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   STORMS 0 0 0 0 0 1 0 0 1
+                               EVOLUTION 0 0 0 0 0 1 0 1 1
+                               NORTHLITE 0 0 1 0 0 0 0 0 1
+                                     X16 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 1 1
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                                WAL-MART 0 0 1 0 0 1 0 0 0
                                SELECTION 0 0 0 0 0 1 0 1 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1
                                    447.4 0 0 0 0 0 0 0 0 1
                                     9.0C 0 0 0 0 0 0 0 1 1
                                     1GIG 0 0 0 0 0 0 0 1 1
-                               NORTHLITE 0 0 1 0 0 0 0 0 1
-                               EVOLUTION 0 0 0 0 0 1 0 1 1

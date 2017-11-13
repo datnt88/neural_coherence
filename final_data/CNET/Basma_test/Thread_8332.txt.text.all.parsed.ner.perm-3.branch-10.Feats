@@ -11,13 +11,13 @@
                                   SYSTEM 0 1 0 0 0 1 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                   DRIVES 0 0 0 0 0 1 0 3 1
-                                   POWER 0 1 0 0 0 1 0 1 1
+                                   POWER 0 1 0 0 0 1 0 1 0
                                  DIGITAL 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                 PROBLEMS 0 0 0 0 0 1 0 1 1
                                     DISK 0 0 0 0 0 1 0 0 0
                                    MUSIC 0 0 0 0 0 1 0 0 0
-                                 MACHINE 0 1 0 0 0 1 0 1 0
+                                 MACHINE 0 1 0 0 0 1 0 1 1
                                     BOOT 0 0 0 0 0 0 0 0 0
                                     THIS 0 0 0 0 0 1 0 1 1
                                    PORTS 0 0 0 0 0 1 0 1 1
@@ -28,7 +28,7 @@
                                      ANY 0 0 0 0 0 0 1 1 1
                                     BOTH 0 0 0 0 0 0 1 0 1
                                   STRESS 0 0 0 0 0 0 0 0 0
-                                    CASE 0 1 0 0 0 1 0 1 0
+                                    CASE 0 1 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
                                     FINE 0 1 0 0 0 1 0 0 0
@@ -42,7 +42,7 @@
                            COMPATIBILITY 0 0 0 0 0 0 0 1 1
                                  WORKING 0 0 0 0 0 1 0 0 1
                                       1. 0 0 0 0 0 0 0 2 1
-                                 SEAGATE 0 0 1 0 0 0 0 1 1
+                                 SEAGATE 0 0 1 0 0 0 0 1 0
                                    ISSUE 0 1 0 0 0 1 0 1 1
                                 QUESTION 0 0 0 0 0 1 0 1 1
                                     MOST 0 0 0 0 0 1 0 1 1
@@ -59,7 +59,7 @@
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
                                      ETC 0 0 0 0 0 0 1 1 0
                                     WORD 0 0 0 0 0 1 0 0 0
-                                    DATA 0 0 0 0 0 1 0 0 0
+                                    DATA 0 0 0 0 0 1 0 0 1
                                    FILES 0 0 0 0 0 1 0 1 1
                                 DESKTOPS 0 0 0 0 0 0 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 1 1
@@ -124,16 +124,10 @@
                                 BEARINGS 0 0 0 0 0 0 0 0 1
                                DEFERENCE 0 0 0 0 0 0 0 1 1
                                      PEN 0 0 0 0 0 1 0 0 0
-                               INFECTION 0 0 0 0 0 1 0 1 1
+                               INFECTION 0 0 0 0 0 1 0 1 0
                                   ATTACK 0 0 0 0 0 1 0 1 1
                                    MAXOR 0 0 0 0 0 0 0 1 1
                                     IDES 0 0 0 0 0 0 0 1 1
-                              SUCCESSION 0 0 0 0 0 0 0 0 1
-                                   10MIN 0 0 0 0 0 0 0 1 1
-                                    30MB 0 0 0 0 0 0 0 1 1
-                                    5MIN 0 0 0 0 0 0 0 0 1
-                             PERSPECTIVE 0 0 0 0 0 1 0 1 1
-                                PARTIION 0 0 0 0 0 0 0 1 1
                             CASTINGROD47 0 0 0 0 0 0 0 0 1
                                  B--WITH 0 0 0 0 0 0 0 1 1
                          SEAGATE/COMPUSA 0 0 0 0 0 0 0 1 1
@@ -141,3 +135,9 @@
                                       DG 0 0 0 0 0 0 0 1 1
                             -LSB-VIRUSES 0 0 0 0 0 0 0 2 1
                             MAINTAINENCE 0 0 0 0 0 0 0 1 1
+                              SUCCESSION 0 0 0 0 0 0 0 0 1
+                                   10MIN 0 0 0 0 0 0 0 1 1
+                                    30MB 0 0 0 0 0 0 0 1 1
+                                    5MIN 0 0 0 0 0 0 0 0 1
+                             PERSPECTIVE 0 0 0 0 0 1 0 1 1
+                                PARTIION 0 0 0 0 0 0 0 1 1

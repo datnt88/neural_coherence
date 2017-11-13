@@ -16,12 +16,12 @@
                                      NEW 0 0 1 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 1
-                                   POWER 0 1 0 0 0 1 0 1 1
+                                   POWER 0 1 0 0 0 1 0 1 0
                                   SUPPLY 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                  NOTHING 0 0 0 0 0 1 0 0 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
-                                   ERROR 0 0 0 0 0 1 0 1 0
+                                   ERROR 0 0 0 0 0 1 0 1 1
                                     BIOS 0 0 0 0 0 0 0 3 1
                                     SURE 0 0 0 0 0 0 0 2 1
                                     THIS 0 0 0 0 0 1 0 0 1
@@ -42,7 +42,7 @@
                                   STRESS 0 0 0 0 0 0 0 0 0
                                       CD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 1 1
-                                     RAM 0 0 1 0 0 1 0 1 1
+                                     RAM 0 0 1 0 0 1 0 1 0
                                     CASE 0 1 0 0 0 1 0 3 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
@@ -119,15 +119,15 @@
                              DESCRIPTION 0 0 0 0 0 1 0 1 1
                                    NIGHT 1 0 0 0 0 1 0 1 1
                                    SHOWS 0 0 0 0 0 1 0 1 1
-                                       % 1 1 0 0 0 0 0 1 0
+                                       % 1 1 0 4 0 0 0 1 1
                                  CHANNEL 0 0 0 0 0 1 0 0 0
                                    VALUE 0 0 0 0 0 1 0 1 1
                                  MORNING 1 0 0 5 0 1 0 1 1
                                   FORUMS 0 0 0 0 0 1 0 1 1
                                   BOARDS 0 0 0 0 0 1 0 1 1
                                      BET 0 0 0 0 0 1 0 1 1
-                                    TEST 0 1 0 0 0 1 0 1 0
-                                SHUTDOWN 0 0 0 0 0 1 0 1 0
+                                    TEST 0 1 0 0 0 1 0 1 1
+                                SHUTDOWN 0 0 0 0 0 1 0 1 1
                                   DETAIL 0 0 0 0 0 1 0 0 0
                              ELECTRONICS 0 0 0 0 0 1 0 0 0
                                   RESULT 1 0 0 0 0 1 0 1 1
@@ -142,7 +142,7 @@
                                  FAILURE 0 0 0 0 0 1 0 1 1
                              APPLICATION 0 0 0 0 0 1 0 1 1
                                    AUDIO 0 0 0 0 0 0 1 1 1
-                                DESIGNER 0 0 0 0 0 1 0 1 0
+                                DESIGNER 0 0 0 0 0 1 0 1 1
                                     AUTO 0 0 0 0 0 0 0 0 0
                                     GRID 0 0 0 0 0 0 0 1 1
                                 EXCHANGE 0 1 0 0 0 1 0 0 0
@@ -185,7 +185,7 @@
                                  HUNTING 0 0 0 0 0 0 0 0 1
                                    FOLKS 0 0 0 0 0 1 0 1 1
                                 7/3/2013 0 0 0 0 0 0 0 0 1
-                                 FURMARK 0 0 0 0 0 0 0 1 1
+                                 FURMARK 0 0 1 0 0 0 0 1 1
                             GRAPHICSCARD 0 0 0 0 0 0 0 2 1
                             30-45SECONDS 0 0 0 0 0 0 0 0 1
                                     +12V 0 0 0 0 0 0 0 0 0

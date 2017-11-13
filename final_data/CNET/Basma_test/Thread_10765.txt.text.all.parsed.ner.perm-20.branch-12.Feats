@@ -7,7 +7,7 @@
                                      ALL 0 0 0 0 0 0 0 1 1
                                     NEED 0 0 0 0 0 1 0 1 1
                                     SOME 0 0 0 0 0 0 1 1 1
-                                   VIDEO 0 1 0 0 0 1 0 1 1
+                                   VIDEO 0 1 0 0 0 1 0 1 0
                                     CARD 0 1 0 0 0 1 0 3 1
                                   THANKS 0 0 0 0 0 1 0 1 1
                                  ADVANCE 0 0 0 0 0 1 0 1 1
@@ -17,7 +17,7 @@
                                       MB 0 0 0 0 0 0 0 1 1
                                  UPGRADE 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
-                                    YEAR 0 1 0 0 0 1 0 1 1
+                                    YEAR 0 1 0 0 0 1 0 1 0
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 0
                                 COMPUTER 0 1 0 0 0 1 0 2 1
@@ -66,14 +66,14 @@
                                 WIRELESS 0 0 1 0 0 0 0 0 0
                                  WINDOWS 0 0 0 0 0 1 0 1 1
                                   AROUND 0 0 0 0 0 0 0 1 1
-                                  GAMING 0 0 0 0 0 0 0 0 0
+                                  GAMING 0 0 0 0 0 0 0 0 1
                                      OWN 0 0 0 0 0 0 1 1 1
                                    MOUSE 0 0 0 0 0 1 0 3 1
                                      CPU 0 0 0 0 0 0 0 1 1
                                    INTEL 0 0 1 0 0 1 0 0 0
                                      GPU 0 0 0 0 0 0 0 1 1
                              PERFORMANCE 1 1 0 0 0 1 0 2 1
-                                    PART 1 0 0 0 0 1 0 1 0
+                                    PART 1 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 1 1
                                    PARTS 1 0 0 0 0 1 0 2 1
                                FRAGMENTS 0 0 0 0 0 1 0 0 0
@@ -99,9 +99,9 @@
                                     CANT 0 0 0 0 0 0 0 0 0
                               COMPONENTS 0 0 0 0 0 1 0 2 1
                                     BLUE 0 0 0 0 0 1 0 1 1
-                                     DVD 0 0 0 0 0 1 0 1 0
+                                     DVD 0 0 0 0 0 1 0 1 1
                                    STORY 0 0 0 0 0 1 0 1 1
-                                  ATHLON 0 0 0 0 0 0 0 1 0
+                                  ATHLON 0 0 0 0 0 0 0 1 1
                                     DONT 0 0 0 0 0 0 0 1 1
                                 KINGSTON 0 0 1 0 0 1 0 0 1
                                      LCD 0 0 0 0 0 0 0 0 1
@@ -122,7 +122,7 @@
                                  QUALITY 0 0 0 0 0 1 0 0 0
                                  TROUBLE 0 0 0 0 0 1 0 0 0
                                     HOME 0 0 0 0 0 1 0 1 1
-                                  OFFICE 0 0 0 0 0 1 0 1 1
+                                  OFFICE 0 0 0 0 0 1 0 1 0
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 1 1
                                  SERVICE 0 0 0 0 0 1 0 0 0
@@ -156,16 +156,16 @@
                                  EXPRESS 0 1 0 0 0 1 0 0 0
                                    SENSE 0 0 0 0 0 1 0 1 1
                                  SPECIAL 0 0 0 7 0 1 0 1 1
-                                 BROTHER 0 0 0 0 0 1 0 1 0
+                                 BROTHER 0 0 0 0 0 1 0 1 1
                                      JIM 0 0 1 0 0 1 0 0 0
                                       IV 0 0 1 0 0 1 0 0 1
-                                  COMPAQ 0 0 1 0 0 1 0 1 0
+                                  COMPAQ 0 0 1 0 0 1 0 1 1
                                   FAMILY 0 1 0 0 0 1 0 0 0
                                     ALOT 0 0 0 0 0 0 0 0 1
                                    WASNT 0 0 0 0 0 0 0 1 1
                                     OUTS 0 0 0 0 0 0 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 1 1
-                                 WALMART 0 0 1 0 0 0 0 0 1
+                                 WALMART 0 0 1 0 0 0 0 0 0
                                     CARS 0 1 0 0 0 1 0 1 1
                                    GRAND 0 0 0 0 0 1 0 1 1
                                  PORSCHE 0 0 0 0 0 1 0 0 0
@@ -175,21 +175,12 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                               DEVELOPER 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                  BATTER 0 0 0 0 0 0 0 1 1
-                                   PLUGS 0 0 0 0 0 0 0 1 1
-                                  SCHOOL 0 1 0 0 0 1 0 0 0
-                                   DEALS 0 0 0 0 0 1 0 0 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                                WAL-MART 0 0 1 0 0 1 0 0 0
-                                    LOTS 0 0 0 0 0 1 0 1 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
                                     WISE 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 0 1
                                   TAIWAN 0 0 1 0 0 1 0 0 1
                                    URSEF 0 0 0 0 0 0 0 1 1
                                      TED 0 0 1 0 0 1 0 1 1
@@ -213,6 +204,15 @@
                                     2GIG 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   STORMS 0 0 0 0 0 1 0 0 1
+                               DEVELOPER 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                  BATTER 0 0 0 0 0 0 0 1 1
+                                   PLUGS 0 0 0 0 0 0 0 1 1
+                                  SCHOOL 0 1 0 0 0 1 0 0 0
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                                WAL-MART 0 0 1 0 0 1 0 0 0
+                                    LOTS 0 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1

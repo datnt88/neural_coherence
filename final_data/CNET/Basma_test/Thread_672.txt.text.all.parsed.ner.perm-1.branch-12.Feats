@@ -1,5 +1,5 @@
-                                    TIME 1 1 0 0 0 1 0 2 1
-                                  PERSON 0 1 0 0 0 1 0 2 1
+                                    TIME 1 1 0 0 0 1 0 2 0
+                                  PERSON 0 1 0 0 0 1 0 2 0
                                     THAT 0 0 0 0 0 0 0 0 1
                                       AN 0 0 0 0 0 0 0 0 1
                                      ALL 0 0 0 0 0 0 0 1 1
@@ -8,7 +8,7 @@
                                     WILL 0 0 0 0 0 1 0 1 1
                                   ANSWER 0 0 0 0 0 1 0 1 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
-                                COMPUTER 0 1 0 0 0 1 0 2 0
+                                COMPUTER 0 1 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                    THOSE 0 0 0 0 0 0 1 1 1
                                    WEEKS 0 0 0 0 0 1 0 0 1
@@ -19,7 +19,7 @@
                                     KIND 0 0 0 0 0 1 0 1 1
                                     LIKE 0 0 0 0 0 0 1 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
-                                   PORTS 0 0 0 0 0 1 0 1 0
+                                   PORTS 0 0 0 0 0 1 0 1 1
                                  PROBLEM 1 0 0 0 0 1 0 2 1
                                     BACK 0 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 1 1
@@ -30,7 +30,7 @@
                                    FAULT 0 0 0 0 0 1 0 1 1
                                      ANY 0 0 0 0 0 0 1 0 1
                                    FRONT 0 0 0 0 0 1 0 1 1
-                                    SIDE 1 0 0 0 0 1 0 1 0
+                                    SIDE 1 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
                                    WHICH 0 0 0 0 0 0 1 0 1
@@ -54,7 +54,7 @@
                                     -&GT 0 0 0 0 0 0 0 0 1
                                 WIRELESS 0 0 1 0 0 0 0 0 0
                                  WINDOWS 0 0 0 0 0 1 0 1 1
-                                 DESKTOP 0 0 0 0 0 0 1 1 0
+                                 DESKTOP 0 0 0 0 0 0 1 1 1
                                   SCREEN 0 0 0 0 0 1 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     CALL 0 0 0 0 0 1 0 1 1
@@ -80,13 +80,13 @@
                                     MOST 0 0 0 0 0 1 0 1 1
                                   NUMBER 0 0 0 0 0 1 0 1 1
                                 INTERNET 0 0 0 0 0 1 0 1 1
-                                   SETUP 0 0 0 0 0 0 0 0 0
+                                   SETUP 0 0 0 0 0 0 0 0 1
                                  PROGRAM 0 1 0 0 0 1 0 0 1
                                  NETWORK 0 0 0 0 0 1 0 0 0
                                     PORT 0 0 0 0 0 1 0 1 1
                                      END 0 0 0 0 0 1 0 1 1
                                COMPUTERS 0 0 0 0 0 1 0 2 1
-                                  SERVER 0 0 0 0 0 0 0 2 1
+                                  SERVER 0 0 0 0 0 0 0 2 0
                                      WAY 1 0 0 0 0 1 0 1 1
                                  COLLEGE 0 0 0 0 0 1 0 0 1
                                   OFFICE 0 0 0 0 0 1 0 3 1
@@ -130,7 +130,7 @@
                                     TASK 0 0 0 0 0 1 0 1 1
                                   EFFECT 0 0 0 0 0 1 0 1 1
                                KNOWLEDGE 0 0 0 0 0 1 0 1 1
-                                SWITCHES 0 0 0 0 0 1 0 1 1
+                                SWITCHES 0 0 0 0 0 1 0 1 0
                                DIRECTORY 0 0 0 0 0 1 0 1 1
                                     DROP 0 0 0 0 0 1 0 1 1
                                     SSID 0 0 0 0 0 0 0 0 1
@@ -145,9 +145,9 @@
                                 ACCOUNTS 0 0 0 0 0 1 0 1 1
                                    LOGON 0 0 0 0 0 0 0 1 1
                               PROPERTIES 0 0 0 0 0 1 0 1 1
-                                    ICON 0 0 0 0 0 1 0 1 1
+                                    ICON 0 0 0 0 0 1 0 1 0
                                    USERS 0 0 0 0 0 1 0 1 0
-                                   CISCO 0 0 0 0 0 0 0 1 1
+                                   CISCO 0 0 0 0 0 0 0 1 0
                                 EXCHANGE 0 1 0 0 0 1 0 0 0
                                    PANEL 0 0 0 0 0 1 0 1 1
                                    DROPS 0 0 0 0 0 1 0 1 1
@@ -163,7 +163,7 @@
                                    PATCH 0 0 0 0 0 0 0 0 0
                                    STAFF 0 0 0 0 0 1 0 1 1
                                    CHRIS 0 0 1 0 0 1 0 1 1
-                                    3COM 0 0 1 0 0 0 0 1 0
+                                    3COM 0 0 1 0 0 0 0 1 1
                                 TIMEOUTS 0 0 0 0 0 0 0 0 1
                                 CONTACTS 0 0 0 0 0 1 0 0 1
                                  EFFORTS 0 0 0 0 0 1 0 1 1
@@ -172,7 +172,7 @@
                                  TIMEOUT 0 0 0 0 0 0 0 1 1
                                      ROB 0 0 1 0 0 1 0 1 1
                                  PERIODS 0 0 0 0 0 1 0 1 1
-                                    VOIP 0 0 0 0 0 0 0 1 1
+                                    VOIP 0 0 0 0 0 0 0 1 0
                                  HARDEST 0 0 0 0 0 0 1 1 1
                                     WAKE 0 0 0 0 0 1 0 1 1
                               INACTIVITY 0 0 0 0 0 0 0 0 1

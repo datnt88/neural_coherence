@@ -15,7 +15,7 @@
                                   DRIVES 0 0 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 1 1
                                      IDE 0 0 0 0 0 0 0 1 1
-                                  MAXTOR 0 0 0 0 0 0 0 1 1
+                                  MAXTOR 0 0 0 0 0 0 0 1 0
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 1 1
@@ -25,7 +25,7 @@
                                   LITTLE 0 0 0 0 0 1 0 1 1
                                     KIND 0 0 0 0 0 1 0 0 1
                                     THIS 0 0 0 0 0 1 0 0 1
-                                      PC 0 0 0 0 0 1 0 1 0
+                                      PC 0 0 0 0 0 1 0 1 1
                                   VAPCMD 0 0 0 0 0 0 0 1 1
                                  PROBLEM 1 0 0 0 0 1 0 0 0
                                   COURSE 0 0 0 0 0 1 0 0 1
@@ -45,7 +45,7 @@
                                    MONTH 1 1 0 0 0 1 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
                                    UNITS 0 0 0 0 0 1 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 1
+                                 WINDOWS 0 0 0 0 0 1 0 1 0
                                   COUPLE 0 0 0 0 0 1 0 1 1
                                   SCREEN 0 0 0 0 0 1 0 1 1
                                     COPY 0 0 0 0 0 1 0 1 1
@@ -66,7 +66,7 @@
                                    ISSUE 0 1 0 0 0 1 0 1 1
                                    PLACE 0 0 0 0 0 1 0 1 1
                                 EXTERNAL 0 0 0 0 0 0 0 1 1
-                                   SETUP 0 0 0 0 0 0 0 1 1
+                                   SETUP 0 0 0 0 0 0 0 1 0
                                  PROGRAM 0 1 0 0 0 1 0 1 1
                                     PLUG 0 0 0 0 0 0 1 2 0
                                  NETWORK 0 0 0 0 0 1 0 0 0
@@ -79,14 +79,14 @@
                                      MAC 0 0 1 0 0 1 0 1 1
                                  QUALITY 0 0 0 0 0 1 0 0 1
                                     FACT 1 0 0 0 0 1 0 1 1
-                                  ACCESS 0 0 0 0 0 1 0 1 1
-                                SOFTWARE 0 1 0 0 0 1 0 1 0
+                                  ACCESS 0 0 0 0 0 1 0 1 0
+                                SOFTWARE 0 1 0 0 0 1 0 1 1
                                     MODE 0 0 0 0 0 1 0 1 1
-                                   SLAVE 0 0 0 0 0 0 0 1 1
+                                   SLAVE 0 0 0 0 0 0 0 1 0
                                   MASTER 0 0 0 0 0 1 0 1 1
-                                    DATA 0 0 0 0 0 1 0 1 0
+                                    DATA 0 0 0 0 0 1 0 1 1
                                    FILES 0 0 0 0 0 1 0 1 1
-                                  BACKUP 0 0 0 0 0 0 0 0 1
+                                  BACKUP 0 0 0 0 0 0 0 0 0
                                   BRANDS 0 1 0 0 0 1 0 1 1
                                      CDS 0 0 0 0 0 1 0 0 1
                                   OPTION 0 0 0 0 0 1 0 1 1
@@ -96,7 +96,7 @@
                                      HIT 0 0 0 0 0 1 0 1 1
                                   REBOOT 0 0 0 0 0 0 0 0 0
                                    WORST 0 0 0 0 0 0 1 1 1
-                                WARRANTY 0 0 0 0 0 0 0 1 0
+                                WARRANTY 0 0 0 0 0 0 0 1 1
                                     MASS 0 0 0 0 0 1 0 0 0
                                    250GB 0 0 0 0 0 0 0 1 1
                                       4. 0 0 0 0 0 0 0 0 0
@@ -122,11 +122,11 @@
                                    SENSE 0 0 0 0 0 1 0 1 1
                                        C 0 0 1 0 0 1 0 0 0
                                     MARK 0 0 0 0 0 1 0 1 1
-                                 STORAGE 0 0 0 0 0 0 0 1 0
+                                 STORAGE 0 0 0 0 0 0 0 1 1
                                INTERFACE 0 0 1 0 0 1 0 0 1
                                   POSTER 0 0 0 0 0 0 0 1 1
-                                      WD 0 0 0 0 0 0 0 0 1
                                     SIZE 1 0 0 0 0 1 0 1 1
+                                      WD 0 0 0 0 0 0 0 0 0
                                    COLOR 0 0 0 0 0 1 0 0 0
                                  FAILURE 0 0 0 0 0 1 0 0 1
                                     E.G. 0 0 1 0 0 0 0 0 1
@@ -149,6 +149,15 @@
                                   ASSIDE 0 0 0 0 0 0 0 0 0
                            ACCESSIBILITY 0 0 0 0 0 0 1 1 1
                                     DECK 0 0 0 0 0 1 0 1 1
+                                     WIT 0 0 0 0 0 1 0 0 1
+                                    HDDS 0 0 0 0 0 0 0 1 1
+                                   TAPES 0 1 0 0 0 1 0 1 1
+                                  SPORTS 0 0 0 0 0 1 0 0 0
+                              CONTAINERS 0 1 0 0 0 1 0 1 1
+                                    MACS 0 0 0 0 0 1 0 0 1
+                                EXTRENAL 0 0 0 0 0 0 0 0 0
+                                   CANAL 0 0 0 0 0 1 0 0 0
+                                   LEVEE 0 0 0 0 0 0 0 1 1
                                 ELEMENTS 1 0 0 0 0 1 0 1 1
                               TOUCH&QUOT 0 0 0 0 0 0 0 1 1
                                  BUNDLES 0 0 0 0 0 1 0 0 0
@@ -157,14 +166,11 @@
                                   JUMPER 0 0 0 0 0 0 0 0 0
                                    SCREW 0 0 0 0 0 1 0 0 0
                                    HOLES 0 0 0 0 0 1 0 1 1
-                                       F 0 0 0 0 0 0 0 0 0
+                                       F 0 0 1 0 0 0 0 0 0
                                EXTERNAAL 0 0 0 0 0 0 0 1 1
                            COMPATABILITY 0 0 0 0 0 0 0 0 0
-                                    MACS 0 0 0 0 0 1 0 0 1
                                     .MAC 0 0 0 0 0 0 0 1 1
                                       YR 0 0 0 0 0 0 0 1 1
-                                     WIT 0 0 0 0 0 1 0 0 1
-                                    HDDS 0 0 0 0 0 0 0 1 1
                               EXPRESSION 0 0 0 0 0 1 0 1 1
                                     WARR 0 0 0 0 0 0 0 1 1
                                   VENUES 0 0 0 0 0 1 0 1 1
@@ -175,9 +181,3 @@
                                       SG 0 0 0 0 0 0 0 1 1
                                     MALL 0 0 0 0 0 0 0 1 1
                                ABSORBERS 0 0 0 0 0 0 0 1 1
-                                   TAPES 0 1 0 0 0 1 0 1 1
-                                  SPORTS 0 0 0 0 0 1 0 0 0
-                              CONTAINERS 0 1 0 0 0 1 0 1 1
-                                EXTRENAL 0 0 0 0 0 0 0 0 0
-                                   CANAL 0 0 0 0 0 1 0 0 0
-                                   LEVEE 0 0 0 0 0 0 0 1 1

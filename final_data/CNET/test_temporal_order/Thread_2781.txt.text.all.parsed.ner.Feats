@@ -1,4 +1,4 @@
-                                       $ 0 0 0 0 0 0 1 2 1
+                                       $ 0 0 0 7 0 0 1 2 1
                                     TIME 1 1 0 0 0 1 0 1 1
                                    MONEY 1 1 0 0 0 1 0 2 1
                                   PERSON 0 1 0 0 0 1 0 1 1
@@ -11,16 +11,16 @@
                                     SOME 0 0 0 0 0 0 1 2 1
                                    ORDER 0 0 0 0 0 1 0 1 0
                                    512MB 0 0 0 0 0 0 0 1 1
-                                   VIDEO 0 1 0 0 0 1 0 3 0
-                                    CARD 0 1 0 0 0 1 0 3 0
+                                   VIDEO 0 1 0 0 0 1 0 3 1
+                                    CARD 0 1 0 0 0 1 0 3 1
                                       OC 0 0 1 0 0 0 0 1 1
-                                  THANKS 0 0 0 0 0 1 0 0 1
+                                  THANKS 0 0 0 0 0 1 0 0 0
                                   ANSWER 0 0 0 0 0 1 0 1 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
                                    SPEED 0 0 0 0 0 1 0 2 1
                                   ENOUGH 0 0 0 0 0 1 0 1 1
                                      BIT 0 0 0 0 0 1 0 2 1
-                                   CARDS 0 0 0 0 0 1 0 1 0
+                                   CARDS 0 0 0 0 0 1 0 1 1
                               TECHNOLOGY 1 0 0 0 0 1 0 1 1
                                UPGRADING 0 0 0 0 0 0 0 1 1
                                       MB 0 0 0 0 0 0 0 2 0
@@ -47,11 +47,11 @@
                                    THREE 0 0 0 0 0 1 0 0 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
                                    OTHER 0 0 0 0 0 0 0 1 1
-                                    KIND 0 0 0 0 0 1 0 1 0
+                                    KIND 0 0 0 0 0 1 0 1 1
                                    BEING 0 0 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
                                      TWO 0 0 0 0 0 0 1 1 1
-                             MOTHERBOARD 0 0 0 0 0 0 0 3 1
+                             MOTHERBOARD 0 0 0 0 0 0 0 3 0
                                       PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                   AND/OR 0 0 0 0 0 0 0 0 0
@@ -74,21 +74,21 @@
                                     CASE 0 1 0 0 0 1 0 1 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
-                                  MEMORY 0 1 0 0 0 1 0 1 1
+                                  MEMORY 0 1 0 0 0 1 0 1 0
                                   THINGS 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 3 1
                                     ASUS 0 0 1 0 0 0 0 0 1
-                                   MODEM 0 0 0 0 0 1 0 1 0
+                                   MODEM 0 0 0 0 0 1 0 1 1
                                       'S 0 0 0 0 0 0 0 0 1
                                   NVIDIA 0 0 0 0 0 0 0 1 1
                                 FEATURES 0 0 0 0 0 1 0 1 1
-                                    DAYS 0 0 0 6 0 1 0 1 1
+                                    DAYS 0 0 0 0 0 1 0 1 1
                               DIRECTIONS 0 0 0 0 0 1 0 0 1
                                     ETC. 0 0 0 0 0 0 0 2 1
                                      TOY 0 0 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 1 1
                                     WORK 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 0 0
+                                      HP 0 0 1 0 0 0 0 0 1
                                      FUN 0 0 0 0 0 1 0 1 1
                                   BUDGET 0 1 0 0 0 1 0 1 1
                                     MANY 0 0 0 0 0 0 1 1 1
@@ -105,13 +105,13 @@
                                      OWN 0 0 0 0 0 0 1 2 1
                                OPERATING 0 0 0 0 0 0 0 0 0
                                      CPU 0 0 0 0 0 0 0 3 1
-                                   INTEL 0 0 1 0 0 1 0 2 1
+                                   INTEL 0 0 1 0 0 1 0 2 0
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                              PERFORMANCE 1 1 0 0 0 1 0 0 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 2 1
-                                   PRICE 0 1 0 0 0 1 0 1 0
-                                   BRAND 0 0 0 0 0 1 0 1 1
+                                   PRICE 0 1 0 0 0 1 0 1 1
+                                   BRAND 0 0 0 0 0 1 0 1 0
                                       HD 0 0 1 0 0 0 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 1 1
                                  CHIPSET 0 0 0 0 0 0 0 1 1
@@ -124,9 +124,9 @@
                                     PLAN 0 1 0 0 0 1 0 0 0
                                     GAME 0 0 0 0 0 1 0 0 0
                                   PEOPLE 0 1 0 0 0 1 0 2 1
-                                    COST 0 0 0 0 0 1 0 1 0
+                                    COST 0 0 0 0 0 1 0 1 1
                                    TIMES 0 1 0 0 0 1 0 1 1
-                               PROCESSOR 0 0 0 0 0 0 0 2 1
+                               PROCESSOR 0 0 0 0 0 0 0 2 0
                                  EXAMPLE 0 0 0 0 0 1 0 1 1
                                      PC. 0 0 0 0 0 0 0 1 1
                                      FAN 0 0 0 0 0 1 0 2 1
@@ -172,7 +172,7 @@
                                   ADVICE 0 0 0 0 0 1 0 2 1
                                  SUPPORT 0 0 0 0 0 1 0 3 1
                                     HAND 0 0 0 0 0 1 0 0 1
-                                 CHOICES 0 0 0 0 0 1 0 1 0
+                                 CHOICES 0 0 0 0 0 1 0 1 1
                                 QUESTION 0 0 0 0 0 1 0 1 1
                                     MOST 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
@@ -205,7 +205,7 @@
                                  TROUBLE 0 0 0 0 0 1 0 1 1
                                  COLLEGE 0 0 0 0 0 1 0 0 0
                                     HOME 0 0 0 0 0 1 0 1 1
-                                SOFTWARE 0 1 0 0 0 1 0 2 0
+                                SOFTWARE 0 1 0 0 0 1 0 2 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 1 1
                                     WORD 0 0 0 0 0 1 0 0 0
@@ -218,7 +218,7 @@
                                   BRANDS 0 1 0 0 0 1 0 1 1
                                  CLIENTS 0 1 0 0 0 1 0 1 1
                                    START 0 0 0 0 0 1 0 1 1
-                               MICROSOFT 0 0 1 0 0 1 0 0 1
+                               MICROSOFT 0 0 1 0 0 1 0 0 0
                                EMACHINES 0 0 0 0 0 0 0 1 1
                                       VS 0 0 1 0 0 0 1 0 0
                                   OPTION 0 0 0 0 0 1 0 1 1
@@ -232,7 +232,7 @@
                                      OEM 0 0 0 0 0 0 0 1 0
                                    TYPES 0 1 0 0 0 1 0 1 1
                                 BUILDERS 0 0 0 0 0 1 0 1 1
-                                WARRANTY 0 0 0 0 0 0 0 1 0
+                                WARRANTY 0 0 0 0 0 0 0 1 1
                                       PS 0 1 1 0 0 0 0 0 0
                               NEWEGG.COM 0 0 0 0 0 0 0 0 0
                                    STORE 0 0 0 0 0 1 0 1 1
@@ -320,7 +320,7 @@
                                  SCANNER 0 0 0 0 0 0 0 1 1
                                 ARTICLES 0 0 0 0 0 1 0 1 1
                                    ANTEC 0 0 1 0 0 0 0 0 1
-                              PROCESSING 0 0 0 0 0 0 0 1 1
+                              PROCESSING 0 0 0 0 0 0 0 1 0
                                      RPM 0 0 0 0 0 0 0 1 0
                                    USERS 0 0 0 0 0 1 0 1 1
                                      FEE 0 0 0 0 0 1 0 1 1

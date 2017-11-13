@@ -12,7 +12,7 @@
                                      AGP 0 0 0 0 0 0 0 1 1
                                    VIDEO 0 1 0 0 0 1 0 0 0
                                     CARD 0 1 0 0 0 1 0 3 1
-                                      TV 0 0 0 0 0 1 0 3 0
+                                      TV 0 0 0 0 0 1 0 3 1
                                   THANKS 0 0 0 0 0 1 0 1 1
                               EVERYTHING 0 0 0 0 0 1 0 1 1
                                      ATI 0 0 0 0 0 0 0 0 0
@@ -29,7 +29,7 @@
                                  NOTHING 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                   MONTHS 1 1 0 0 0 1 0 1 1
-                                    KIND 0 0 0 0 0 1 0 1 1
+                                    KIND 0 0 0 0 0 1 0 1 0
                                     THIS 0 0 0 0 0 1 0 0 1
                                    PORTS 0 0 0 0 0 1 0 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
@@ -66,7 +66,7 @@
                                     USER 0 0 0 0 0 1 0 0 0
                                   ANYONE 0 0 0 0 0 1 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 1 1
+                                      HP 0 0 1 0 0 0 0 1 0
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                  REVIEWS 0 0 0 0 0 1 0 1 1
                                      TIA 0 0 1 0 0 1 0 0 1
@@ -94,9 +94,9 @@
                                      YES 0 0 1 0 0 0 0 0 1
                                  MONITOR 0 0 0 0 0 0 0 1 1
                                   SIGNAL 0 0 0 0 0 1 0 3 1
-                                   CABLE 0 0 0 0 0 1 0 3 0
+                                   CABLE 0 0 0 0 0 1 0 3 1
                                  S-VIDEO 0 0 0 0 0 0 0 2 1
-                                     DVD 0 0 0 0 0 1 0 1 1
+                                     DVD 0 0 0 0 0 1 0 1 0
                                  ADAPTER 0 0 0 0 0 0 0 0 1
                                    STORY 0 0 0 0 0 1 0 1 1
                                    SLOTS 0 0 0 0 0 1 0 0 0
@@ -150,7 +150,7 @@
                                      WEB 0 0 0 0 0 1 0 0 0
                                     PAIR 0 0 0 0 0 1 0 1 1
                                   CENTER 0 0 0 0 0 1 0 2 1
-                                     VCR 0 0 1 0 0 0 0 1 0
+                                     VCR 0 0 1 0 0 0 0 1 1
                                   MOVIES 0 0 0 0 0 1 0 1 1
                                 FIREWIRE 0 0 0 0 0 0 0 0 0
                                  MINUTES 0 0 0 0 0 1 0 1 1
@@ -167,20 +167,20 @@
                                  COMCAST 0 0 1 0 0 1 0 0 1
                                      TOP 0 0 0 0 0 1 0 1 1
                                  WALMART 0 0 1 0 0 0 0 0 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                     CITY 0 1 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
-                                  REBATE 0 0 0 0 0 0 1 1 1
+                                  REBATE 0 0 0 0 0 0 1 1 0
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                                       OL 0 0 0 0 0 0 0 1 1
                                QUICKTIME 0 0 0 0 0 0 0 1 1
                                   PLAYER 0 0 0 0 0 1 0 1 1
                                   REMOTE 0 0 0 0 0 0 0 1 1
                                   REVIEW 0 0 0 0 0 1 0 1 1
-                                  WINDOW 0 0 0 0 0 1 0 1 1
+                                  WINDOW 0 0 0 0 0 1 0 1 0
                                     HOOK 0 0 0 0 0 0 0 0 0
-                                   RADIO 0 1 0 0 0 1 0 1 1
+                                   RADIO 0 1 1 0 0 1 0 1 0
                                     WALL 0 0 0 0 0 1 0 1 1
                                 BEHAVIOR 0 0 0 0 0 1 0 2 1
                                  PACKAGE 0 1 0 0 0 1 0 1 1
@@ -201,7 +201,7 @@
                                      HI. 0 0 1 0 0 0 0 0 0
                                      VHS 0 0 0 0 0 0 0 0 0
                                    TAPES 0 1 0 0 0 1 0 1 1
-                                  BUNDLE 0 0 0 0 0 0 0 1 1
+                                  BUNDLE 0 0 0 0 0 0 0 1 0
                              HOTMAIL.COM 0 0 0 0 0 0 0 0 1
                                  COMPUSA 0 0 0 0 0 0 0 0 1
                                 SPLITTER 0 0 0 0 0 0 0 3 1
@@ -221,8 +221,6 @@
                                 WEEKEND. 0 0 0 0 0 0 0 1 1
                                  ADAVNCE 0 0 0 0 0 0 0 0 1
                                   INPUTS 0 0 0 0 0 0 0 3 1
-                                TRAILERS 0 0 0 0 0 0 0 1 1
-                                HANDS-ON 0 0 0 0 0 0 0 1 1
                                   COXIAL 0 0 0 0 0 0 0 1 1
                         DIGITALGUARDIAN4 0 0 0 0 0 0 0 1 1
                                      DEN 0 0 0 0 0 0 0 1 1
@@ -235,6 +233,8 @@
                            REBATE/COUPON 0 0 0 0 0 0 0 1 1
                                 -STARTUP 0 0 0 0 0 0 0 0 0
                                 JUSTME44 0 0 0 0 0 0 0 0 1
+                                TRAILERS 0 0 0 0 0 0 0 1 1
+                                HANDS-ON 0 0 0 0 0 0 0 1 1
                                    MUVEE 0 0 0 0 0 0 0 0 1
                                VIDEOREDO 0 0 0 0 0 0 0 0 1
                              COMMERCIALS 0 0 0 0 0 1 0 0 1

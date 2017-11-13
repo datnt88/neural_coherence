@@ -20,13 +20,13 @@
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
-                                    BOOT 0 0 0 0 0 0 0 0 0
+                                    BOOT 0 0 0 0 0 0 0 0 1
                                   LITTLE 0 0 0 0 0 1 0 1 1
                                    OTHER 0 0 0 0 0 0 0 1 1
                                     KIND 0 0 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 1 1
                                    PORTS 0 0 0 0 0 1 0 1 1
-                                      PC 0 0 0 0 0 1 0 0 1
+                                      PC 0 0 0 0 0 1 0 0 0
                                     LINK 0 0 0 0 0 1 0 1 1
                                    WHILE 0 0 0 0 0 1 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
@@ -50,7 +50,7 @@
                                     COPY 0 0 0 0 0 1 0 1 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 1 1
-                                      HD 0 0 1 0 0 0 0 2 1
+                                      HD 0 0 1 0 0 0 0 2 0
                                  THREADS 0 0 0 0 0 1 0 1 1
                                    MODEL 0 0 0 0 0 1 0 1 1
                                  EXAMPLE 0 0 0 0 0 1 0 0 1
@@ -69,11 +69,11 @@
                             INSTALLATION 0 0 0 0 0 1 0 0 1
                                COMPUTERS 0 0 0 0 0 1 0 1 1
                                      MAC 0 0 1 0 0 1 0 0 0
-                                     BOX 0 0 0 0 0 1 0 1 0
+                                     BOX 0 0 0 0 0 1 0 1 1
                                      WAY 1 0 0 0 0 1 0 1 0
                                     HOME 0 0 0 0 0 1 0 0 1
                                   ACCESS 0 0 0 0 0 1 0 1 1
-                                SOFTWARE 0 1 0 0 0 1 0 1 1
+                                SOFTWARE 0 1 0 0 0 1 0 1 0
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                    FILES 0 0 0 0 0 1 0 1 1
@@ -96,7 +96,7 @@
                                  NUMBERS 0 0 0 0 0 1 0 1 1
                                       GB 0 0 0 0 0 0 0 1 1
                                    FAT32 0 0 0 0 0 0 0 0 1
-                                    FILE 0 0 0 0 0 1 0 1 0
+                                    FILE 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                       A. 0 0 0 0 0 0 0 0 0
                                    TOUCH 0 0 0 0 0 1 0 1 1
@@ -122,7 +122,7 @@
                                   DRIVE. 0 0 0 0 0 0 0 1 1
                                  BACKUPS 0 0 0 0 0 0 0 1 1
                                 PICTURES 0 0 0 0 0 1 0 1 1
-                               DOCUMENTS 0 1 0 0 0 1 0 1 1
+                               DOCUMENTS 0 1 0 0 0 1 0 1 0
                                     NTFS 0 0 0 0 0 0 0 1 1
                                  LETTERS 0 1 0 0 0 1 0 1 1
                               MICRODRIVE 0 0 0 0 0 0 0 1 1
@@ -141,13 +141,6 @@
                                     SOLO 0 0 0 0 0 0 1 0 0
                                     DORM 0 0 0 0 0 0 0 0 0
                                     IIRC 0 0 1 0 0 0 0 0 1
-                                    NFTS 0 0 0 0 0 0 0 0 1
-                                  LAYMAN 0 0 0 0 0 0 0 1 1
-                                  SIZES. 0 0 0 0 0 0 0 1 1
-                                FLIPSIDE 0 0 0 0 0 0 0 1 1
-                                    30MB 0 0 0 0 0 0 0 1 1
-                                    5MIN 0 0 0 0 0 0 0 0 1
-                                 YNOTBME 0 0 0 0 0 0 0 0 1
                             PHOTOGRAPHER 0 0 0 0 0 1 0 0 0
                                 MARKFLAX 0 0 0 0 0 0 0 0 1
                                  B--WITH 0 0 0 0 0 0 0 1 1
@@ -159,3 +152,10 @@
                                       LT 0 0 0 0 0 0 0 1 1
                                 HOT-SWAP 0 0 0 0 0 0 0 1 1
                             MAINTAINENCE 0 0 0 0 0 0 0 1 1
+                                    NFTS 0 0 0 0 0 0 0 0 1
+                                  LAYMAN 0 0 0 0 0 0 0 1 1
+                                  SIZES. 0 0 0 0 0 0 0 1 1
+                                FLIPSIDE 0 0 0 0 0 0 0 1 1
+                                    30MB 0 0 0 0 0 0 0 1 1
+                                    5MIN 0 0 0 0 0 0 0 0 1
+                                 YNOTBME 0 0 0 0 0 0 0 0 1

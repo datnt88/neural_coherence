@@ -4,7 +4,7 @@
                                    ABOUT 0 0 0 0 0 0 1 1 1
                                      ALL 0 0 0 0 0 0 0 0 1
                                     SOME 0 0 0 0 0 0 1 0 1
-                                   VIDEO 0 1 0 0 0 1 0 1 1
+                                   VIDEO 0 1 0 0 0 1 0 1 0
                                     CARD 0 1 0 0 0 1 0 3 1
                                  GEFORCE 0 0 0 0 0 0 0 0 0
                                   THANKS 0 0 0 0 0 1 0 1 1
@@ -14,9 +14,9 @@
                                    CARDS 0 0 0 0 0 1 0 1 1
                                       MB 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 2 0
-                                    YEAR 0 1 0 0 0 1 0 1 1
+                                    YEAR 0 1 0 6 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 2 1
+                                COMPUTER 0 1 0 0 0 1 0 2 0
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 0 0
@@ -35,7 +35,7 @@
                                    THERE 0 0 0 0 0 0 1 0 1
                                      RAM 0 0 1 0 0 1 0 3 1
                                      PCI 0 0 0 0 0 0 0 0 0
-                                    CASE 0 1 0 0 0 1 0 1 0
+                                    CASE 0 1 0 0 0 1 0 1 1
                                     FANS 0 0 0 0 0 1 0 0 0
                                    THING 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
@@ -50,7 +50,7 @@
                                     MORE 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
                                       OS 0 0 0 0 0 0 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 0 1
+                                 WINDOWS 0 0 0 0 0 1 0 0 0
                                   GAMING 0 0 0 0 0 0 0 0 1
                                      OWN 0 0 0 0 0 0 1 1 1
                                    MOUSE 0 0 0 0 0 1 0 0 0
@@ -63,11 +63,11 @@
                                    PRICE 0 1 0 0 0 1 0 1 1
                                   CHOICE 0 0 0 0 0 1 0 1 0
                                     BEST 0 0 0 0 0 0 1 1 1
-                                   PARTS 1 0 0 0 0 1 0 1 0
+                                   PARTS 1 0 0 0 0 1 0 1 1
                                FRAGMENTS 0 0 0 0 0 1 0 1 1
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 1 1
-                                 THREADS 0 0 0 0 0 1 0 1 0
+                                 THREADS 0 0 0 0 0 1 0 1 1
                                     GAME 0 0 0 0 0 1 0 1 1
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 1 1
@@ -139,9 +139,20 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
+                               COMPANIES 0 1 0 0 0 1 0 0 1
+                                      I. 0 0 0 0 0 0 0 0 0
+                                    WISE 0 0 0 0 0 1 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 0 1
+                                     GIG 0 0 0 0 0 0 0 1 1
+                                  TAIWAN 0 0 1 0 0 1 0 0 1
+                                AMERICAN 0 0 0 0 0 1 0 1 1
+                                  OUTLET 0 0 0 0 0 0 0 1 1
+                            REQUIREMENTS 0 0 0 0 0 1 0 1 1
+                              COMPROMISE 0 0 0 0 0 1 0 1 1
+                                   ALTHO 0 0 0 0 0 0 0 1 1
+                               NORTHLITE 0 0 1 0 0 0 0 0 1
                                      10. 0 0 0 0 0 0 0 1 1
                                  CORNERS 0 0 0 0 0 1 0 0 1
-                                   DEALS 0 0 0 0 0 1 0 0 1
                                 CORE2DUO 0 0 0 0 0 0 0 0 0
                                MID-TOWER 0 0 0 0 0 0 0 0 0
                                    SHEET 0 0 0 0 0 1 0 0 0
@@ -158,16 +169,6 @@
                                     10MS 0 0 0 0 0 0 0 0 0
                                     LOTS 0 0 0 0 0 1 0 1 1
                                   PLACES 0 0 0 0 0 1 0 1 1
-                               COMPANIES 0 1 0 0 0 1 0 0 1
-                                      I. 0 0 0 0 0 0 0 0 0
-                                    WISE 0 0 0 0 0 1 0 1 1
-                                     GIG 0 0 0 0 0 0 0 1 1
-                                  TAIWAN 0 0 1 0 0 1 0 0 1
-                                AMERICAN 0 0 0 0 0 1 0 1 1
-                                  OUTLET 0 0 0 0 0 0 0 1 1
-                            REQUIREMENTS 0 0 0 0 0 1 0 1 1
-                              COMPROMISE 0 0 0 0 0 1 0 1 1
-                                   ALTHO 0 0 0 0 0 0 0 1 1
                          TIGERDIRECT.COM 0 0 1 0 0 0 0 0 1
                                 OBLIVION 0 0 0 0 0 0 0 0 1
                                    447.4 0 0 0 0 0 0 0 0 1
@@ -176,4 +177,3 @@
                               EQUIVALENT 0 0 0 0 0 0 0 0 0
                                      ROW 0 0 0 0 0 1 0 1 1
                                QUICKTIME 0 0 0 0 0 0 0 1 1
-                               NORTHLITE 0 0 1 0 0 0 0 0 1

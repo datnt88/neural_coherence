@@ -1,5 +1,5 @@
                                        $ 0 0 0 0 0 0 1 1 1
-                                    TIME 1 1 0 0 0 1 0 1 1
+                                    TIME 1 1 0 0 0 1 0 1 0
                                    MONEY 1 1 0 0 0 1 0 1 1
                                   PERSON 0 1 0 0 0 1 0 0 1
                                     THAT 0 0 0 0 0 0 0 0 1
@@ -12,14 +12,14 @@
                                      AGP 0 0 0 0 0 0 0 1 1
                                     CARD 0 1 0 0 0 1 0 3 1
                                       TV 0 0 0 0 0 1 0 3 0
-                                  THANKS 0 0 0 0 0 1 0 2 0
+                                  THANKS 0 0 0 0 0 1 0 2 1
                               EVERYTHING 0 0 0 0 0 1 0 1 1
                                      ATI 0 0 0 0 0 0 0 0 0
                                    PCI-E 0 0 0 0 0 0 0 1 1
                                     CHIP 0 0 0 0 0 1 0 1 1
                                    BUNCH 0 0 0 0 0 1 0 1 1
                                    INPUT 0 0 0 0 0 0 1 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 1
+                                COMPUTER 0 1 0 0 0 1 0 3 0
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
                               CONTROLLER 0 0 0 0 0 1 0 1 1
@@ -30,7 +30,7 @@
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                   MONTHS 1 1 0 0 0 1 0 1 1
                                    OTHER 0 0 0 0 0 0 0 1 1
-                                    KIND 0 0 0 0 0 1 0 1 0
+                                    KIND 0 0 0 0 0 1 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                                    PORTS 0 0 0 0 0 1 0 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
@@ -94,7 +94,7 @@
                                   ONLINE 0 0 0 0 0 1 0 0 1
                                  MONITOR 0 0 0 0 0 0 0 1 1
                                   SIGNAL 0 0 0 0 0 1 0 3 1
-                                   CABLE 0 0 0 0 0 1 0 3 1
+                                   CABLE 0 0 0 0 0 1 0 3 0
                                  S-VIDEO 0 0 0 0 0 0 0 2 1
                                      DVD 0 0 0 0 0 1 0 1 1
                                  ADAPTER 0 0 0 0 0 0 0 0 1
@@ -170,15 +170,15 @@
                                 CHANNELS 0 0 0 0 0 1 0 2 1
                                   METHOD 0 0 0 0 0 1 0 1 1
                                 DECISION 0 0 0 0 0 1 0 1 1
-                                 COMCAST 0 0 1 0 0 1 0 0 0
+                                 COMCAST 0 0 1 0 0 1 0 0 1
                                      AIR 0 0 0 0 0 1 0 1 1
                                      TOP 0 0 0 0 0 1 0 1 1
                                  WALMART 0 0 1 0 0 0 0 0 1
-                                   GAMER 0 0 0 0 0 0 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                     CITY 0 1 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
                                   REBATE 0 0 0 0 0 0 1 1 0
+                                   GAMER 0 0 0 0 0 0 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                                       OL 0 0 0 0 0 0 0 1 1
                                QUICKTIME 0 0 0 0 0 0 0 1 1
@@ -187,7 +187,7 @@
                                   REVIEW 0 0 0 0 0 1 0 1 1
                                   WINDOW 0 0 0 0 0 1 0 1 1
                                     HOOK 0 0 0 0 0 0 0 0 0
-                                   RADIO 0 1 1 0 0 1 0 1 0
+                                   RADIO 0 1 0 0 0 1 0 1 1
                                     WALL 0 0 0 0 0 1 0 1 1
                                 BEHAVIOR 0 0 0 0 0 1 0 2 1
                                  PACKAGE 0 1 0 0 0 1 0 1 1
@@ -207,7 +207,7 @@
                                      HI. 0 0 1 0 0 0 0 0 0
                                      VHS 0 0 0 0 0 0 0 0 0
                                    TAPES 0 1 0 0 0 1 0 1 1
-                                  BUNDLE 0 0 0 0 0 0 0 1 0
+                                  BUNDLE 0 0 0 0 0 0 0 1 1
                              HOTMAIL.COM 0 0 0 0 0 0 0 0 1
                                    JACKS 0 0 0 0 0 1 0 1 1
                                  CLASSIC 0 0 0 0 0 1 0 1 1
@@ -231,8 +231,6 @@
                                  MONITER 0 0 0 0 0 0 0 1 1
                                  ADAVNCE 0 0 0 0 0 0 0 0 1
                                   INPUTS 0 0 0 0 0 0 0 3 1
-                                TRAILERS 0 0 0 0 0 0 0 1 1
-                                HANDS-ON 0 0 0 0 0 0 0 1 1
                                   COXIAL 0 0 0 0 0 0 0 1 1
                         DIGITALGUARDIAN4 0 0 0 0 0 0 0 1 1
                                      DEN 0 0 0 0 0 0 0 1 1
@@ -251,6 +249,8 @@
                                 -STARTUP 0 0 0 0 0 0 0 0 0
                                 JUSTME44 0 0 0 0 0 0 0 0 1
                            JACKS/OUTPUTS 0 0 0 0 0 0 0 1 1
+                                TRAILERS 0 0 0 0 0 0 0 1 1
+                                HANDS-ON 0 0 0 0 0 0 0 1 1
                                    MUVEE 0 0 0 0 0 0 0 0 1
                                VIDEOREDO 0 0 0 0 0 0 0 0 1
                              COMMERCIALS 0 0 0 0 0 1 0 0 1

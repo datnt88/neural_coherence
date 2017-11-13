@@ -55,7 +55,7 @@
                                 EXTERNAL 0 0 0 0 0 0 0 1 1
                                  PROGRAM 0 1 0 0 0 1 0 0 0
                                    IMAGE 1 0 0 0 0 1 0 1 1
-                               ENCLOSURE 0 0 0 0 0 0 0 1 1
+                               ENCLOSURE 0 0 0 0 0 0 0 1 0
                                   FORMAT 0 1 0 0 0 1 0 0 0
                                  PRODUCT 0 1 0 0 0 1 0 1 1
                                     PORT 0 0 0 0 0 1 0 1 1
@@ -68,7 +68,7 @@
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
                                   LETTER 0 0 0 0 0 1 0 1 1
                                     DATA 0 0 0 0 0 1 0 1 1
-                                   FILES 0 0 0 0 0 1 0 0 1
+                                   FILES 0 0 0 0 0 1 0 0 0
                                   BACKUP 0 0 0 0 0 0 0 0 0
                                  DEFAULT 0 0 0 0 0 1 0 0 0
                                  RESULTS 1 1 0 0 0 1 0 0 0
@@ -83,8 +83,8 @@
                                   FIGURE 0 0 0 0 0 1 0 0 0
                                 FIREWIRE 0 0 0 0 0 0 0 0 0
                                    FAT32 0 0 0 0 0 0 0 1 1
-                                    FILE 0 0 0 0 0 1 0 1 0
-                                 SYSTEMS 0 0 0 0 0 1 0 1 0
+                                    FILE 0 0 0 0 0 1 0 1 1
+                                 SYSTEMS 0 0 0 0 0 1 0 1 1
                                      HD. 0 0 0 0 0 0 0 1 1
                                   OTHERS 0 0 0 0 0 1 0 0 1
                            FUNCTIONALITY 0 0 0 0 0 0 0 1 1
@@ -106,12 +106,12 @@
                                      2.0 0 0 0 0 0 0 0 1 1
                                 PICTURES 0 0 0 0 0 1 0 1 1
                                DOCUMENTS 0 1 0 0 0 1 0 0 0
-                                     EXT 0 0 0 0 0 0 0 1 0
+                                     EXT 0 0 0 0 0 0 0 1 1
                                     NTFS 0 0 0 0 0 0 0 2 1
                                  LETTERS 0 1 0 0 0 1 0 1 1
                                     SYNC 0 0 0 0 0 0 1 0 0
                               ALLOCATION 0 0 0 0 0 0 1 0 0
-                               EXTERNALS 0 0 0 0 0 0 0 1 0
+                               EXTERNALS 0 0 0 0 0 0 0 1 1
                                  FORMATS 0 0 0 0 0 0 0 1 1
                                   SISOFT 0 0 1 0 0 0 0 0 0
                            HARDWARE&QUOT 0 0 0 0 0 0 0 1 1
@@ -129,8 +129,6 @@
                               DIFFERANCE 0 0 0 0 0 0 0 0 0
                                   SANDRA 0 0 1 0 0 1 0 1 1
                                   ATTACK 0 0 0 0 0 1 0 1 1
-                              DOWNGRADES 0 0 0 0 0 0 0 0 0
-                              SUCCESSION 0 0 0 0 0 0 0 0 1
                             PHOTOGRAPHER 0 0 0 0 0 1 0 0 0
                                       DG 0 0 1 0 0 0 0 0 1
                                  WAY--IF 0 0 0 0 0 0 0 1 1
@@ -138,3 +136,5 @@
                                 HOT-SWAP 0 0 0 0 0 0 0 1 1
                                    -OSES 0 0 0 0 0 0 0 1 1
                                PENDRIVES 0 0 0 0 0 0 0 0 1
+                              DOWNGRADES 0 0 0 0 0 0 0 0 0
+                              SUCCESSION 0 0 0 0 0 0 0 0 1

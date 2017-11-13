@@ -26,7 +26,7 @@
                                    OTHER 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                                      USB 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 0 0 0 1 0 2 0
+                                      PC 0 0 0 0 0 1 0 2 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                     STEP 0 0 0 0 0 1 0 1 1
                                    WHILE 0 0 0 0 0 1 0 1 1
@@ -47,7 +47,7 @@
                              PERFORMANCE 1 1 0 0 0 1 0 0 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 1 1
-                                      HD 0 0 1 0 0 0 0 1 1
+                                      HD 0 0 1 0 0 0 0 1 0
                                     LESS 0 0 0 0 0 0 0 1 1
                                    MODEL 0 0 0 0 0 1 0 1 1
                                      YES 0 0 0 0 0 0 0 1 1
@@ -59,7 +59,7 @@
                                 QUESTION 0 0 0 0 0 1 0 2 1
                                 EXTERNAL 0 0 0 0 0 0 0 1 1
                                   NUMBER 0 0 0 0 0 1 0 1 1
-                                 PROGRAM 0 1 0 0 0 1 0 1 1
+                                 PROGRAM 0 1 0 0 0 1 0 1 0
                                     PLUG 0 0 0 0 0 0 1 1 1
                                    CARD. 0 0 0 0 0 0 0 1 1
                                ENCLOSURE 0 0 0 0 0 0 0 1 1
@@ -85,7 +85,7 @@
                                 SCENARIO 0 0 0 0 0 1 0 1 1
                                     WEEK 1 0 0 0 0 1 0 1 1
                                      &LT 0 0 0 0 0 0 0 1 1
-                                     &GT 0 0 0 0 0 0 0 1 1
+                                     &GT 0 0 1 0 0 0 0 1 1
                                      NO. 0 0 0 0 0 1 0 0 0
                                     PLUS 0 0 0 0 0 1 0 1 1
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
@@ -102,8 +102,8 @@
                                 FIREWIRE 0 0 0 0 0 0 0 0 0
                                  NUMBERS 0 0 0 0 0 1 0 1 1
                                    FAT32 0 0 0 0 0 0 0 0 1
-                                    FILE 0 0 0 0 0 1 0 1 1
-                                 SYSTEMS 0 0 0 0 0 1 0 1 1
+                                    FILE 0 0 0 0 0 1 0 1 0
+                                 SYSTEMS 0 0 0 0 0 1 0 1 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                   OTHERS 0 0 0 0 0 1 0 0 1
                                  UTILITY 0 0 0 0 0 1 0 1 1
@@ -111,8 +111,8 @@
                                    SENSE 0 0 0 0 0 1 0 1 1
                                      SP2 0 0 0 0 0 0 0 0 1
                                  STORAGE 0 0 0 0 0 0 0 1 1
-                                 STORIES 0 0 0 0 0 1 0 1 1
                                     SIZE 1 0 0 0 0 1 0 1 1
+                                 STORIES 0 0 0 0 0 1 0 1 1
                                    WIN98 0 0 1 0 0 0 0 0 1
                                      AVG 0 0 0 0 0 0 0 0 0
                                    500GB 0 0 0 0 0 0 0 1 1
@@ -146,12 +146,6 @@
                                     W/NO 0 0 0 0 0 0 0 0 0
                                INFECTION 0 0 0 0 0 1 0 1 1
                                   ATTACK 0 0 0 0 0 1 0 1 1
-                              DOWNGRADES 0 0 0 0 0 0 0 0 0
-                                    NFTS 0 0 0 0 0 0 0 1 1
-                                    30MB 0 0 0 0 0 0 0 1 1
-                                    5MIN 0 0 0 0 0 0 0 0 1
-                             PERSPECTIVE 0 0 0 0 0 1 0 1 1
-                                 YNOTBME 0 0 0 0 0 0 0 0 1
                             PHOTOGRAPHER 0 0 0 0 0 1 0 0 0
                                   PATROL 0 0 0 0 0 1 0 1 1
                                  WAY--IF 0 0 0 0 0 0 0 1 1
@@ -160,3 +154,9 @@
                                  POOREST 0 0 0 0 0 0 1 1 1
                                    -OSES 0 0 0 0 0 0 0 1 1
                                PENDRIVES 0 0 0 0 0 0 0 0 1
+                                    NFTS 0 0 0 0 0 0 0 1 1
+                              DOWNGRADES 0 0 0 0 0 0 0 0 0
+                                    30MB 0 0 0 0 0 0 0 1 1
+                                    5MIN 0 0 0 0 0 0 0 0 1
+                             PERSPECTIVE 0 0 0 0 0 1 0 1 1
+                                 YNOTBME 0 0 0 0 0 0 0 0 1

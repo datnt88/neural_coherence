@@ -18,7 +18,7 @@
                                     CASE 0 1 0 0 0 1 0 1 1
                                     SIDE 1 0 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 1 1
-                              CONNECTION 0 0 0 0 0 1 0 3 0
+                              CONNECTION 0 0 0 0 0 1 0 3 1
                                     DAYS 0 0 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 2 1
                            CONFIGURATION 0 0 0 0 0 0 0 0 0
@@ -38,7 +38,7 @@
                                   SWITCH 0 0 0 0 0 1 0 1 1
                                     AREA 0 0 0 0 0 1 0 0 0
                                 ETHERNET 0 0 0 0 0 0 0 0 0
-                                 ADAPTER 0 0 0 0 0 0 0 3 1
+                                 ADAPTER 0 0 0 0 0 0 0 3 0
                                    ISSUE 0 1 0 0 0 1 0 2 1
                                  SHARING 0 0 0 0 0 0 0 0 0
                                 QUESTION 0 0 0 0 0 1 0 1 1
@@ -71,7 +71,7 @@
                                   MCAFEE 0 0 0 0 0 1 0 0 1
                                    MEDIA 0 1 0 0 0 1 0 2 1
                                   SEARCH 0 0 0 0 0 1 0 0 0
-                                    KEES 0 0 1 0 0 0 0 1 1
+                                    KEES 0 0 0 0 0 0 0 1 1
                                   CENTER 0 0 0 0 0 1 0 0 0
                                   LESSON 0 0 0 0 0 1 0 1 1
                                  GATEWAY 0 0 0 0 0 0 0 3 1
@@ -86,12 +86,12 @@
                                   SYMBOL 0 0 0 0 0 1 0 1 1
                                   FAMILY 0 1 0 0 0 1 0 0 0
                                    STATE 0 1 0 0 0 1 0 1 1
+                                  UBUNTU 0 0 0 0 0 0 0 0 1
                                     LOTS 0 0 0 0 0 1 0 2 1
                                   PLACES 0 0 0 0 0 1 0 1 1
-                                  UBUNTU 0 0 0 0 0 0 0 0 1
                                      AVG 0 0 0 0 0 0 0 0 1
-                                    DHCP 0 0 0 0 0 0 0 3 1
-                                     DNS 0 0 0 0 0 0 0 3 0
+                                    DHCP 0 0 0 0 0 0 0 3 0
+                                     DNS 0 0 0 0 0 0 0 3 1
                                  NETBIOS 0 0 0 0 0 0 0 2 1
                                     HOST 0 0 0 0 0 1 0 0 0
                                   TUNNEL 0 0 0 0 0 1 0 0 0

@@ -19,7 +19,7 @@
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                     YEAR 0 1 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
@@ -52,7 +52,7 @@
                                      AMD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 1 1
                                      RAM 0 0 1 0 0 1 0 2 1
-                                    CASE 0 1 0 0 0 1 0 1 0
+                                    CASE 0 1 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 3 1
@@ -65,7 +65,7 @@
                                     ETC. 0 0 0 0 0 0 0 2 1
                                      TOY 0 0 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 0 1
+                                      HP 0 0 1 0 0 0 0 0 0
                                      FUN 0 0 0 0 0 1 0 0 1
                                   BUDGET 0 1 0 0 0 1 0 1 1
                                     MANY 0 0 0 0 0 0 1 1 1
@@ -73,17 +73,17 @@
                                    LEAST 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
                                   PLEASE 0 0 0 0 0 0 0 0 1
-                                      OS 0 0 0 0 0 0 0 1 1
+                                      OS 0 0 0 0 0 0 0 1 0
                                  WINDOWS 0 0 0 0 0 1 0 1 1
                                  DESKTOP 0 0 0 0 0 0 1 1 1
                                      OWN 0 0 0 0 0 0 1 1 1
                                OPERATING 0 0 0 0 0 0 0 0 0
                                      CPU 0 0 0 0 0 0 0 1 1
-                                   INTEL 0 0 1 0 0 1 0 2 0
+                                   INTEL 0 0 1 0 0 1 0 2 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 0 0
-                                   BRAND 0 0 0 0 0 1 0 1 0
+                                   BRAND 0 0 0 0 0 1 0 1 1
                                   CHOICE 0 0 0 0 0 1 0 1 1
                                  CHIPSET 0 0 0 0 0 0 0 1 1
                                  OPTIONS 0 0 0 0 0 1 0 1 1
@@ -102,7 +102,7 @@
                                  PENTIUM 0 0 0 0 0 0 0 1 1
                                   ONLINE 0 0 0 0 0 1 0 1 0
                               COMPATIBLE 0 0 0 0 0 0 0 1 1
-                                    DELL 0 0 1 0 0 0 0 2 0
+                                    DELL 0 0 1 0 0 0 0 2 1
                                     GOOD 0 0 0 0 0 1 0 0 1
                                     CMOS 0 0 0 0 0 0 0 1 1
                                ALIENWARE 0 0 0 0 0 0 0 0 0
@@ -112,7 +112,7 @@
                                      GHZ 0 0 0 0 0 0 0 1 1
                                      FSB 0 0 0 0 0 0 0 1 1
                                      DVD 0 0 0 0 0 1 0 0 0
-                                   SOUND 0 0 0 0 0 1 0 1 1
+                                   SOUND 0 0 0 0 0 1 0 1 0
                                  SEAGATE 0 0 1 0 0 0 0 0 1
                                    THATS 0 0 0 0 0 0 0 1 1
                                      KEY 0 0 0 0 0 1 0 1 1
@@ -122,7 +122,7 @@
                                     POST 0 0 0 0 0 1 0 1 1
                                    FORUM 0 0 0 0 0 1 0 1 1
                                   ADVICE 0 0 0 0 0 1 0 1 1
-                                 SUPPORT 0 0 0 0 0 1 0 3 1
+                                 SUPPORT 0 0 0 0 0 1 0 3 0
                                  CHOICES 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
                                   NUMBER 0 0 0 0 0 1 0 1 1
@@ -209,9 +209,9 @@
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
                                    DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
                                  SCANNER 0 0 0 0 0 0 0 1 1
@@ -281,19 +281,19 @@
                                     IMO. 0 0 1 0 0 0 0 0 1
                               W/HEATSINK 0 0 0 0 0 0 0 0 0
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                                  FERVOR 0 0 0 0 0 0 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                     CERT 0 0 0 0 0 0 0 1 1
                              STITES&QUOT 0 0 0 0 0 0 0 0 1
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                    9.99 0 0 0 7 0 0 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
+                                  FERVOR 0 0 0 0 0 0 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                    STITE 0 0 0 0 0 0 0 1 1
                                   RESUME 0 0 0 0 0 1 0 1 1
                               BONES&QUOT 0 0 0 0 0 0 0 1 1

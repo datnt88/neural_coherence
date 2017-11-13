@@ -16,13 +16,13 @@
                                     DISK 0 0 0 0 0 1 0 0 0
                                      USB 0 0 0 0 0 0 0 1 1
                                    PORTS 0 0 0 0 0 1 0 0 1
-                                      PC 0 0 0 0 0 1 0 1 0
+                                      PC 0 0 0 0 0 1 0 1 1
                                   AND/OR 0 0 0 0 0 0 0 0 0
                                   COURSE 0 0 0 0 0 1 0 0 1
                                    WHILE 0 0 0 0 0 1 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                     BOTH 0 0 0 0 0 0 1 0 1
-                                    CASE 0 1 0 0 0 1 0 1 1
+                                    CASE 0 1 0 0 0 1 0 1 0
                                    THING 0 0 0 0 0 1 0 1 1
                                       .. 0 0 0 0 0 1 0 3 1
                                      HDD 0 0 0 0 0 0 0 1 1
@@ -35,7 +35,7 @@
                               COMPONENTS 0 0 0 0 0 1 0 1 1
                                    CABLE 0 0 0 0 0 1 0 1 1
                               MANAGEMENT 0 1 0 0 0 1 0 0 0
-                                     DVD 0 0 0 0 0 1 0 1 1
+                                     DVD 0 0 0 0 0 1 0 1 0
                                     UNIT 1 1 0 0 0 1 0 1 1
                                  PROGRAM 0 1 0 0 0 1 0 1 1
                                  NETWORK 0 0 0 0 0 1 0 1 1
@@ -47,7 +47,7 @@
                                COMPUTERS 0 0 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                      ETC 0 0 0 0 0 0 1 1 1
-                                    DATA 0 0 0 0 0 1 0 1 1
+                                    DATA 0 0 0 0 0 1 0 1 0
                                    FILES 0 0 0 0 0 1 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 0 0
                                      CDS 0 0 0 0 0 1 0 0 1
@@ -82,6 +82,11 @@
                                    SHOCK 0 0 0 0 0 1 0 0 0
                                      HDS 0 0 0 0 0 0 0 1 1
                                EXTERNALS 0 0 0 0 0 0 0 0 1
+                                SEAGATES 0 0 0 0 0 0 0 0 1
+                                     WDS 0 0 0 0 0 0 0 0 1
+                               HURRICANE 0 0 0 0 0 1 0 0 0
+                                 KATRINA 0 0 0 0 0 0 0 1 1
+                                 ORLEANS 0 0 1 0 0 1 0 1 1
                                DISASTERS 0 0 0 0 0 1 0 1 1
                             STEP-BY-STEP 0 0 0 0 0 0 0 1 1
                                      12. 0 0 0 0 0 0 0 1 1
@@ -92,8 +97,3 @@
                                MACINTOSH 0 0 1 0 0 1 0 0 0
                                   XIMETA 0 0 0 0 0 0 0 0 1
                                ABSORBERS 0 0 0 0 0 0 0 1 1
-                                SEAGATES 0 0 0 0 0 0 0 0 1
-                                     WDS 0 0 0 0 0 0 0 0 1
-                               HURRICANE 0 0 0 0 0 1 0 0 0
-                                 KATRINA 0 0 0 0 0 0 0 1 1
-                                 ORLEANS 0 0 1 0 0 1 0 1 1

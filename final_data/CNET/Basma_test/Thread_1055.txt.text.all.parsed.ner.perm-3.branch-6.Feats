@@ -20,7 +20,7 @@
                                    POWER 0 1 0 0 0 1 0 1 1
                                   ERRORS 0 1 0 0 0 1 0 1 1
                                     THEN 0 0 0 0 0 0 1 0 1
-                                     ONE 0 0 0 0 0 1 0 1 1
+                                     ONE 0 0 0 0 0 1 0 1 0
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 3 1
                                  NOTHING 0 0 0 0 0 1 0 1 1
@@ -53,7 +53,7 @@
                                   THINGS 0 0 0 0 0 1 0 1 1
                               CONNECTION 0 0 0 0 0 1 0 1 1
                                       3G 0 0 0 0 0 0 0 1 1
-                                   MODEM 0 0 0 0 0 1 0 2 0
+                                   MODEM 0 0 0 0 0 1 0 2 1
                                   DEVICE 0 0 0 0 0 1 0 2 1
                                   ANYONE 0 0 0 0 0 1 0 0 1
                            CONFIGURATION 0 0 0 0 0 0 0 1 1
@@ -69,7 +69,7 @@
                                YESTERDAY 0 0 0 6 0 1 0 0 1
                                       OS 0 0 0 0 0 0 0 1 1
                                   CHANGE 0 0 0 0 0 1 0 1 1
-                                 DESKTOP 0 0 0 0 0 0 1 1 1
+                                 DESKTOP 0 0 0 0 0 0 1 1 0
                                   COUPLE 0 0 0 0 0 1 0 1 1
                                   GAMING 0 0 0 0 0 0 0 0 0
                                QUESTIONS 0 0 0 0 0 1 0 1 1
@@ -138,19 +138,19 @@
                                      DSL 0 0 0 0 0 0 0 0 0
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
                                     MODE 0 0 0 0 0 1 0 1 1
-                                     LAN 0 0 0 0 0 0 0 1 0
+                                     LAN 0 0 0 0 0 0 0 1 1
                                     WORD 0 0 0 0 0 1 0 1 1
                                    IDEAS 0 0 0 0 0 1 0 1 1
                                  DETAILS 0 0 0 0 0 1 0 1 1
                                     XBOX 0 0 0 0 0 0 0 2 1
                                     LIVE 0 0 0 0 0 1 0 0 1
-                                   RANGE 0 0 0 0 0 1 0 2 1
+                                   RANGE 0 0 0 0 0 1 0 2 0
                                  ROUTERS 0 0 0 0 0 0 0 2 1
                                    BOARD 0 1 0 0 0 1 0 1 1
                                 NETWORKS 0 0 0 0 0 1 0 1 1
                                  802.11B 0 0 0 0 0 0 0 0 1
                                    DOZEN 0 0 0 0 0 1 0 0 0
-                                FIREWALL 0 0 0 0 0 0 0 1 1
+                                FIREWALL 0 0 0 0 0 0 0 1 0
                              ROUTER--&GT 0 0 0 0 0 0 0 1 1
                                  MESSAGE 0 0 0 0 0 1 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 1 1
@@ -174,7 +174,7 @@
                                   CABLES 0 0 0 0 0 1 0 1 1
                               TECHNICIAN 0 0 0 0 0 1 0 1 1
                                     LINE 0 0 0 0 0 1 0 1 1
-                                    LUCK 0 0 0 0 0 1 0 1 1
+                                    LUCK 0 0 0 0 0 1 0 1 0
                                   FORUMS 0 0 0 0 0 1 0 1 1
                                     PUSH 0 0 0 0 0 1 0 0 0
                                     NOTE 0 0 0 0 0 1 0 1 1
@@ -196,7 +196,7 @@
                                     AT&T 0 0 0 0 0 1 0 0 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                 SERVICES 1 0 0 0 0 1 0 1 1
-                              NETWORKING 0 0 0 0 0 0 0 1 0
+                              NETWORKING 0 0 0 0 0 0 0 1 1
                                     NATS 0 0 0 0 0 0 0 1 1
                                 SPEAKERS 0 0 0 0 0 1 0 1 1
                                    2WIRE 0 0 0 0 0 0 0 1 1
@@ -213,9 +213,9 @@
                                     PATH 0 0 0 0 0 1 0 1 1
                                     HALO 0 0 0 0 0 0 0 1 1
                            POWER-CYCLING 0 0 0 0 0 0 0 1 1
-                                COVERAGE 0 0 0 0 0 1 0 2 0
+                                COVERAGE 0 0 0 0 0 1 0 2 1
                                 STRENGTH 0 0 0 0 0 1 0 0 0
-                                 MACBOOK 0 0 0 0 0 0 0 1 1
+                                 MACBOOK 0 0 0 0 0 0 0 1 0
                                 MEGABITS 0 0 0 0 0 0 0 2 1
                                     SONY 0 1 1 0 0 1 0 0 0
                                     VAIO 0 0 0 0 0 0 0 1 1
@@ -231,7 +231,7 @@
                                        X 0 0 1 0 0 1 0 1 1
                                 FARTHEST 0 0 0 0 0 0 0 1 1
                            MANUFACTURERS 0 1 0 0 0 1 0 1 1
-                                  IPHONE 0 0 0 0 0 0 0 1 1
+                                  IPHONE 0 0 0 0 0 0 0 1 0
                                     IPOD 0 0 0 0 0 0 0 1 1
                                    TOUCH 0 0 0 0 0 1 0 1 1
                                      BAR 0 0 0 0 0 1 0 1 1
@@ -256,7 +256,7 @@
                                  AIRPORT 0 0 0 0 0 1 0 0 0
                                  EXPRESS 0 1 0 0 0 1 0 1 0
                                  MEASURE 0 0 0 0 0 1 0 1 1
-                                 WEEKEND 0 0 0 0 0 1 0 1 0
+                                 WEEKEND 0 0 0 6 0 1 0 1 1
                                    WIRES 0 0 0 0 0 1 0 1 1
                             IMPROVEMENTS 0 0 0 0 0 1 0 1 1
                                  MADNESS 0 0 0 0 0 1 0 1 1
@@ -278,7 +278,7 @@
                                 ANTENNAS 0 0 0 0 0 0 0 1 1
                                    SENSE 0 0 0 0 0 1 0 0 1
                                    DAISY 0 0 1 0 0 1 0 0 0
-                                   CHAIN 1 1 0 0 0 1 0 1 1
+                                   CHAIN 1 1 0 0 0 1 0 1 0
                                   PHONES 0 0 0 0 0 1 0 1 1
                                SATELLITE 0 0 0 0 0 1 0 0 0
                                EQUIPMENT 0 0 0 0 0 1 0 1 1

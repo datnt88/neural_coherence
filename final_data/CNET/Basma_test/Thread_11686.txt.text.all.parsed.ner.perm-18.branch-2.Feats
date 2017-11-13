@@ -3,7 +3,7 @@
                                     THAT 0 0 0 0 0 0 0 0 1
                                    VIDEO 0 1 0 0 0 1 0 0 0
                                     CARD 0 1 0 0 0 1 0 2 1
-                                  THANKS 0 0 0 0 0 1 0 1 1
+                                  THANKS 0 0 0 0 0 1 0 1 0
                                  ADVANCE 0 0 0 0 0 1 0 0 1
                                     SAME 0 0 0 0 0 0 1 1 1
                                    SPEED 0 0 0 0 0 1 0 1 1
@@ -15,7 +15,7 @@
                                      NEW 0 0 1 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 1
-                                   POWER 0 1 0 0 0 1 0 1 1
+                                   POWER 0 1 0 0 0 1 0 1 0
                                   SUPPLY 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                  NOTHING 0 0 0 0 0 1 0 0 1
@@ -40,7 +40,7 @@
                                    CAUSE 0 0 0 0 0 1 0 0 1
                                   STRESS 0 0 0 0 0 0 0 0 0
                                   STICKS 0 0 0 0 0 1 0 1 1
-                                     RAM 0 0 1 0 0 1 0 1 0
+                                     RAM 0 0 1 0 0 1 0 1 1
                                     CASE 0 1 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
@@ -52,7 +52,7 @@
                                      SAY 0 0 0 0 0 0 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
                                     FOLK 0 0 0 0 0 0 0 1 1
-                                     BOB 0 1 1 0 0 1 0 1 0
+                                     BOB 0 1 1 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                YESTERDAY 0 0 0 0 0 1 0 0 0
                                       OS 0 0 0 0 0 0 0 0 0
@@ -78,7 +78,7 @@
                                    TIMES 0 1 0 0 0 1 0 1 1
                                   SOCKET 0 0 0 0 0 0 0 1 1
                                  MONITOR 0 0 0 0 0 0 0 1 1
-                                    SLOT 0 0 0 0 0 1 0 1 0
+                                    SLOT 0 0 0 0 0 1 0 1 1
                                     CLUE 0 0 0 0 0 0 0 1 1
                                    LIGHT 0 0 0 0 0 1 0 1 1
                                     AREA 0 0 0 0 0 1 0 1 1
@@ -117,15 +117,15 @@
                              DESCRIPTION 0 0 0 0 0 1 0 1 1
                                    NIGHT 1 0 0 0 0 1 0 1 1
                                    SHOWS 0 0 0 0 0 1 0 1 1
-                                       % 1 1 0 0 0 0 0 1 0
+                                       % 1 1 0 4 0 0 0 1 1
                                  CHANNEL 0 0 0 0 0 1 0 0 0
                                    VALUE 0 0 0 0 0 1 0 1 1
                                  MORNING 1 0 0 5 0 1 0 1 1
                                   FORUMS 0 0 0 0 0 1 0 1 1
                                   BOARDS 0 0 0 0 0 1 0 1 0
                                      BET 0 0 0 0 0 1 0 1 1
-                                    TEST 0 1 0 0 0 1 0 1 0
-                                SHUTDOWN 0 0 0 0 0 1 0 1 1
+                                    TEST 0 1 0 0 0 1 0 1 1
+                                SHUTDOWN 0 0 0 0 0 1 0 1 0
                                   DETAIL 0 0 0 0 0 1 0 0 0
                              ELECTRONICS 0 0 0 0 0 1 0 0 0
                                   RESULT 1 0 0 0 0 1 0 1 1
@@ -162,7 +162,7 @@
                                     LAGG 0 0 0 0 0 0 0 0 1
                                   12HOUR 0 0 0 0 0 0 0 1 1
                                     AVRG 0 0 0 0 0 0 0 0 1
-                               TEMPATURE 0 0 1 0 0 0 0 1 1
+                               TEMPATURE 0 0 0 0 0 0 0 1 1
                                  CELSIUS 0 0 0 0 0 0 0 1 1
                                     ---- 0 0 0 0 0 0 0 1 1
                            TEST-SOFTWARE 0 0 0 0 0 0 0 1 1
@@ -174,7 +174,7 @@
                                     STUD 0 0 0 0 0 0 0 1 1
                                  HUNTING 0 0 0 0 0 0 0 0 1
                                    FOLKS 0 0 0 0 0 1 0 1 1
-                                 FURMARK 0 0 0 0 0 0 0 1 1
+                                 FURMARK 0 0 1 0 0 0 0 1 1
                             GRAPHICSCARD 0 0 0 0 0 0 0 2 1
                             30-45SECONDS 0 0 0 0 0 0 0 0 1
                                     +12V 0 0 0 0 0 0 0 0 0

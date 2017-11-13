@@ -4,7 +4,7 @@
                                   SYSTEM 0 1 0 0 0 1 0 1 1
                                      IDE 0 0 0 0 0 0 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 1 1
-                                    DISK 0 0 0 0 0 1 0 1 0
+                                    DISK 0 0 0 0 0 1 0 1 1
                                    MUSIC 0 0 0 0 0 1 0 0 0
                                  NOTHING 0 0 0 0 0 1 0 1 1
                                     BOOT 0 0 0 0 0 0 0 0 0
@@ -25,19 +25,19 @@
                                      JOB 0 1 0 0 0 1 0 1 1
                                     MODE 0 0 0 0 0 1 0 1 1
                                     DATA 0 0 0 0 0 1 0 1 1
-                                   FILES 0 0 0 0 0 1 0 1 1
+                                   FILES 0 0 0 0 0 1 0 1 0
                                  MESSAGE 0 0 0 0 0 1 0 1 1
                                     DISC 0 0 0 0 0 1 0 0 0
                                      CDS 0 0 0 0 0 1 0 0 1
                                 PROGRAMS 0 1 0 0 0 1 0 0 0
-                                       % 1 1 0 0 0 0 0 1 0
+                                       % 1 1 0 4 0 0 0 1 1
                                    USAGE 0 0 0 0 0 0 0 1 1
                                    SPACE 0 0 0 0 0 1 0 2 1
                                  NUMBERS 0 0 0 0 0 1 0 1 1
                                     FILE 0 0 0 0 0 1 0 1 1
                                      HD. 0 0 0 0 0 0 0 1 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                                     SIZE 1 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                          RECOMMENDATIONS 0 1 0 0 0 1 0 1 1
                                    HOURS 0 0 0 0 0 1 0 1 1
                                     DOCS 0 0 0 0 0 0 0 0 0
@@ -45,9 +45,7 @@
                                   DIALUP 0 0 0 0 0 0 0 0 1
                                    CLIPS 0 0 0 0 0 1 0 1 1
                             DEFRAGMENTER 0 0 0 0 0 0 0 1 1
-                                    .TMP 0 0 0 0 0 0 0 1 1
                                   DEFRAG 0 0 0 0 0 0 0 1 0
-                                HIBERATE 0 0 0 0 0 0 0 0 1
                                 FULL.THE 0 0 0 0 0 0 0 1 1
                                    CD-RS 0 0 0 0 0 0 0 0 1
                                DEFRAGGER 0 0 0 0 0 0 0 1 1
@@ -55,3 +53,5 @@
                                    BIRDS 0 0 0 0 0 1 0 1 1
                                    STONE 0 0 0 0 0 1 0 1 1
                                    266MB 0 0 0 0 0 0 0 0 0
+                                    .TMP 0 0 0 0 0 0 0 1 1
+                                HIBERATE 0 0 0 0 0 0 0 0 1

@@ -6,7 +6,7 @@
                                      ALL 0 0 0 0 0 0 0 1 1
                                     NEED 0 0 0 0 0 1 0 0 0
                                     SOME 0 0 0 0 0 0 1 0 1
-                                   VIDEO 0 1 0 0 0 1 0 1 0
+                                   VIDEO 0 1 0 0 0 1 0 1 1
                                     CARD 0 1 0 0 0 1 0 3 1
                                     SAME 0 0 0 0 0 0 1 1 1
                                    SPEED 0 0 0 0 0 1 0 1 1
@@ -27,7 +27,7 @@
                                    YEARS 1 1 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
-                             MOTHERBOARD 0 0 0 0 0 0 0 1 1
+                             MOTHERBOARD 0 0 0 0 0 0 0 1 0
                                       PC 0 0 0 0 0 1 0 3 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                      ANY 0 0 0 0 0 0 1 1 1
@@ -50,7 +50,7 @@
                                     SATA 0 0 0 0 0 0 0 0 0
                                     COPY 0 0 0 0 0 1 0 1 1
                                     CORE 0 0 0 0 0 1 0 0 0
-                                GRAPHICS 0 0 0 0 0 1 0 1 0
+                                GRAPHICS 0 0 0 0 0 1 0 1 1
                              PERFORMANCE 1 1 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
                                    TOWER 0 0 0 0 0 1 0 1 1
@@ -62,7 +62,7 @@
                                  THREADS 0 0 0 0 0 1 0 0 0
                                     GAME 0 0 0 0 0 1 0 1 1
                                   PEOPLE 0 1 0 0 0 1 0 1 1
-                                    COST 0 0 0 0 0 1 0 1 0
+                                    COST 0 0 0 0 0 1 0 1 1
                                    MODEL 0 0 0 0 0 1 0 1 1
                                    TIMES 0 1 0 0 0 1 0 0 0
                                        D 0 0 1 0 0 1 0 1 0
@@ -86,7 +86,7 @@
                                    GAMES 0 0 0 0 0 1 0 1 1
                                      END 0 0 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
-                                 QUALITY 0 0 0 0 0 1 0 0 0
+                                 QUALITY 0 0 0 0 0 1 0 0 1
                                      WAY 1 0 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 0 0
@@ -96,7 +96,7 @@
                             MANUFACTURER 0 0 0 0 0 1 0 1 1
                                     NAME 0 0 0 0 0 1 0 0 0
                                    LOOKS 0 0 0 0 0 1 0 1 1
-                                     &GT 0 0 1 0 0 0 0 1 1
+                                     &GT 0 0 0 0 0 0 0 1 1
                                    STORE 0 0 0 0 0 1 0 1 1
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
                                     DIMM 0 0 0 0 0 0 0 1 1
@@ -123,13 +123,10 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                                HOMEBUILT 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                     CITY 0 1 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
@@ -149,5 +146,8 @@
                                     ROAD 0 0 0 0 0 1 0 1 1
                                     BELL 0 1 0 0 0 1 0 1 1
                                     2GIG 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                          TIGERDIRECT.COM 0 0 1 0 0 0 0 0 1
                                    447.4 0 0 0 0 0 0 0 0 1

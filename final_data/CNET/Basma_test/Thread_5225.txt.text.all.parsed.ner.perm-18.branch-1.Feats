@@ -8,7 +8,7 @@
                                      BOB 0 1 1 0 0 1 0 0 1
                                     -&GT 0 0 0 0 0 0 0 1 1
                                   CHOICE 0 0 0 0 0 1 0 0 1
-                                  SWITCH 0 0 0 0 0 1 0 1 0
+                                  SWITCH 0 0 0 0 0 1 0 1 1
                                       1. 0 0 0 0 0 0 0 0 1
                                    CABLE 0 0 0 0 0 1 0 0 0
                                      SET 0 0 0 0 0 1 0 0 0
@@ -18,7 +18,7 @@
                                     HELP 0 0 0 0 0 1 0 1 1
                                   SERVER 0 0 0 0 0 0 0 1 1
                                   CLIENT 0 1 0 0 0 1 0 1 1
-                                      IP 0 0 0 0 0 0 0 2 0
+                                      IP 0 0 0 0 0 0 0 2 1
                                      LAN 0 0 0 0 0 0 0 1 1
                                  DEFAULT 0 0 0 0 0 1 0 1 1
                                  CLIENTS 0 1 0 0 0 1 0 1 1
@@ -33,8 +33,8 @@
                              REQUIREMENT 0 0 0 0 0 1 0 1 1
                                  ENTRIES 0 0 0 0 0 1 0 1 1
                                     DHCP 0 0 0 0 0 0 0 1 1
-                                     DNS 0 0 0 0 0 0 0 0 1
-                            MODEM/ROUTER 0 0 0 0 0 0 0 1 1
+                                     DNS 0 0 0 0 0 0 0 0 0
+                            MODEM/ROUTER 0 0 0 0 0 0 0 1 0
                                    USERS 0 0 0 0 0 1 0 1 1
                                     EASE 0 0 0 0 0 0 0 1 1
                                  ADDRESS 0 0 0 0 0 1 0 1 1

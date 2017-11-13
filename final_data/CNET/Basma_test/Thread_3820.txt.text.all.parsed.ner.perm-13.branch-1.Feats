@@ -10,7 +10,7 @@
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                     DISK 0 0 0 0 0 1 0 2 1
                                    ERROR 0 0 0 0 0 1 0 0 0
-                                    BOOT 0 0 0 0 0 0 0 0 0
+                                    BOOT 0 0 0 0 0 0 0 0 1
                                     BIOS 0 0 0 0 0 0 0 0 0
                                    OTHER 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
@@ -44,10 +44,10 @@
                                 SOFTWARE 0 1 0 0 0 1 0 0 0
                                     TYPE 0 0 0 0 0 1 0 1 0
                                     MODE 0 0 0 0 0 1 0 1 1
-                                   SLAVE 0 0 0 0 0 0 0 2 0
+                                   SLAVE 0 0 0 0 0 0 0 2 1
                                   MASTER 0 0 0 0 0 1 0 0 0
-                                    DATA 0 0 0 0 0 1 0 1 0
-                                RECOVERY 0 0 0 0 0 1 0 1 0
+                                    DATA 0 0 0 0 0 1 0 1 1
+                                RECOVERY 0 0 0 0 0 1 0 1 1
                                    FILES 0 0 0 0 0 1 0 3 1
                                      CAP 0 0 0 0 0 1 0 0 0
                                  MESSAGE 0 0 0 0 0 1 0 1 1

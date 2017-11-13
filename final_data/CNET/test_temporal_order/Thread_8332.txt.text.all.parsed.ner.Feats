@@ -13,7 +13,7 @@
                                   ANSWER 0 0 0 0 0 1 0 1 1
                                     PLAY 0 0 0 0 0 1 0 1 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
-                                   SPEED 0 0 0 0 0 1 0 1 0
+                                   SPEED 0 0 0 0 0 1 0 1 1
                                      BIT 0 0 0 0 0 1 0 1 1
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 0
@@ -35,8 +35,8 @@
                                     DISK 0 0 0 0 0 1 0 0 0
                                    MUSIC 0 0 0 0 0 1 0 0 0
                                FORMATTED 0 0 0 0 0 0 0 1 1
-                                 MACHINE 0 1 0 0 0 1 0 1 1
-                                    BOOT 0 0 0 0 0 0 0 0 1
+                                 MACHINE 0 1 0 0 0 1 0 1 0
+                                    BOOT 0 0 0 0 0 0 0 0 0
                                   LITTLE 0 0 0 0 0 1 0 1 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
                                    OTHER 0 0 0 0 0 0 0 1 1
@@ -62,7 +62,7 @@
                                     BOTH 0 0 0 0 0 0 1 0 1
                                   STRESS 0 0 0 0 0 0 0 0 0
                                       CD 0 0 0 0 0 1 0 1 1
-                                    CASE 0 1 0 0 0 1 0 1 1
+                                    CASE 0 1 0 0 0 1 0 1 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
                                   THINGS 0 0 0 0 0 1 0 1 1
@@ -87,11 +87,11 @@
                                QUESTIONS 0 0 0 0 0 1 0 1 1
                                     COPY 0 0 0 0 0 1 0 1 0
                                    TESTS 0 0 0 0 0 1 0 2 1
-                             PERFORMANCE 1 1 0 0 0 1 0 1 1
+                             PERFORMANCE 1 1 0 0 0 1 0 1 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 1 1
-                                      HD 0 0 1 0 0 0 0 3 1
+                                      HD 0 0 1 0 0 0 0 3 0
                                    REPLY 0 0 0 0 0 1 0 1 1
                                     LESS 0 0 0 0 0 0 0 1 1
                                  THREADS 0 0 0 0 0 1 0 1 1
@@ -102,7 +102,7 @@
                                    FIRST 0 1 0 0 0 1 0 1 0
                                   ONLINE 0 0 0 0 0 1 0 1 1
                            COMPATIBILITY 0 0 0 0 0 0 0 1 1
-                                    DELL 0 0 1 0 0 0 0 1 1
+                                    DELL 0 0 1 0 0 0 0 1 0
                                  WORKING 0 0 0 0 0 1 0 0 1
                                       1. 0 0 0 0 0 0 0 2 1
                                    CABLE 0 0 0 0 0 1 0 1 1
@@ -122,15 +122,15 @@
                                 EXTERNAL 0 0 0 0 0 0 0 2 1
                                     MOST 0 0 0 0 0 1 0 1 1
                                   NUMBER 0 0 0 0 0 1 0 1 1
-                                 PROGRAM 0 1 0 0 0 1 0 2 1
-                                    PLUG 0 0 0 0 0 0 1 1 0
+                                 PROGRAM 0 1 0 0 0 1 0 2 0
+                                    PLUG 0 0 0 0 0 0 1 1 1
                                    CLICK 0 0 0 0 0 0 1 1 1
                                     HELP 0 0 0 0 0 1 0 1 1
                                    POINT 0 0 0 0 0 1 0 1 1
                                    IMAGE 1 0 0 0 0 1 0 1 1
                                    CARD. 0 0 0 0 0 0 0 1 1
                                    POSTS 0 0 0 0 0 1 0 1 1
-                               ENCLOSURE 0 0 0 0 0 0 0 2 0
+                               ENCLOSURE 0 0 0 0 0 0 0 2 1
                                PARTITION 0 0 0 0 0 0 1 1 1
                                   FORMAT 0 1 0 0 0 1 0 1 0
                                  PRODUCT 0 1 0 0 0 1 0 1 1
@@ -138,7 +138,7 @@
                             INSTALLATION 0 0 0 0 0 1 0 0 1
                                      END 0 0 0 0 0 1 0 1 1
                                COMPUTERS 0 0 0 0 0 1 0 1 1
-                                     MAC 0 0 1 0 0 1 0 1 0
+                                     MAC 0 0 1 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                      WAY 1 0 0 0 0 1 0 2 1
                                     HOME 0 0 0 0 0 1 0 0 1
@@ -151,10 +151,10 @@
                                   LETTER 0 0 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                     WORD 0 0 0 0 0 1 0 0 0
-                                    DATA 0 0 0 0 0 1 0 2 0
-                                   FILES 0 0 0 0 0 1 0 2 0
+                                    DATA 0 0 0 0 0 1 0 2 1
+                                   FILES 0 0 0 0 0 1 0 2 1
                                 DESKTOPS 0 0 0 0 0 0 0 1 1
-                                  BACKUP 0 0 0 0 0 0 0 1 0
+                                  BACKUP 0 0 0 0 0 0 0 1 1
                                  DEFAULT 0 0 0 0 0 1 0 0 0
                                 INSTANCE 0 0 0 0 0 1 0 1 1
                                 FIREWALL 0 0 0 0 0 0 0 1 1
@@ -198,12 +198,12 @@
                                   FIGURE 0 0 0 0 0 1 0 0 0
                                 FIREWIRE 0 0 0 0 0 0 0 0 0
                                  NUMBERS 0 0 0 0 0 1 0 1 1
-                                      GB 0 0 0 0 0 0 0 1 1
+                                      GB 0 0 0 0 0 0 0 1 0
                                    FAT32 0 0 0 0 0 0 0 1 1
                                     FILE 0 0 0 0 0 1 0 1 1
                                  MINUTES 0 0 0 0 0 1 0 1 1
                                FOLLOWING 0 0 0 0 0 0 0 1 1
-                                 SYSTEMS 0 0 0 0 0 1 0 1 0
+                                 SYSTEMS 0 0 0 0 0 1 0 1 1
                                      HD. 0 0 0 0 0 0 0 1 1
                                       A. 0 0 0 0 0 0 0 0 0
                                COMPUTING 0 0 0 0 0 1 0 0 0
@@ -220,7 +220,7 @@
                                    WINXP 0 0 0 0 0 0 0 1 1
                              REQUIREMENT 0 0 0 0 0 1 0 1 1
                                      HOT 0 0 0 0 0 0 0 1 1
-                                       C 0 0 0 0 0 1 0 1 1
+                                       C 0 0 1 0 0 1 0 1 0
                                     MARK 0 0 1 0 0 1 0 0 1
                                 SECURITY 0 0 0 0 0 1 0 1 1
                                  SPYWARE 0 0 0 0 0 0 0 0 0
@@ -229,10 +229,10 @@
                            DISCONNECTING 0 0 0 0 0 0 0 0 1
                                     PEST 0 0 0 0 0 0 0 1 1
                                    CLOCK 0 0 0 0 0 1 0 1 1
-                                     SP2 0 0 0 0 0 0 0 0 0
+                                     SP2 0 0 0 0 0 0 0 0 1
                                     VIEW 0 1 0 0 0 1 0 1 1
                                    WORDS 0 1 0 0 0 1 0 1 1
-                                 STORAGE 0 0 0 0 0 0 0 1 0
+                                 STORAGE 0 0 0 0 0 0 0 1 1
                                 CAPACITY 0 0 0 0 0 1 0 0 0
                                     SIZE 1 0 0 0 0 1 0 1 1
                             REQUIREMENTS 0 0 0 0 0 1 0 1 1
@@ -265,7 +265,7 @@
                                 PICTURES 0 0 0 0 0 1 0 1 0
                                DOCUMENTS 0 1 0 0 0 1 0 2 1
                                      APP 0 0 0 0 0 0 0 1 1
-                                     EXT 0 0 0 0 0 0 0 1 1
+                                     EXT 0 0 0 0 0 0 0 1 0
                                ADVANTAGE 1 0 0 0 0 1 0 1 1
                                     NTFS 0 0 0 0 0 0 0 2 1
                                     LIFE 0 0 0 0 0 1 0 1 1
@@ -286,7 +286,7 @@
                                     TIPS 0 0 0 0 0 1 0 1 1
                                   USB2.0 0 0 0 0 0 0 0 0 1
                                EVERYBODY 0 0 0 0 0 1 0 0 0
-                               EXTERNALS 0 0 0 0 0 0 0 1 1
+                               EXTERNALS 0 0 0 0 0 0 0 1 0
                                     HDDS 0 0 0 0 0 0 0 1 1
                                     MACS 0 0 0 0 0 1 0 1 1
                                      YEP 0 0 0 0 0 0 0 0 1
@@ -339,7 +339,7 @@
                               DIFFERANCE 0 0 0 0 0 0 0 0 0
                                   SANDRA 0 0 1 0 0 1 0 1 1
                                  HACKERS 0 0 0 0 0 1 0 0 0
-                               INFECTION 0 0 0 0 0 1 0 1 1
+                               INFECTION 0 0 0 0 0 1 0 1 0
                                   ATTACK 0 0 0 0 0 1 0 1 1
                                    MAXOR 0 0 0 0 0 0 0 1 1
                                     IDES 0 0 0 0 0 0 0 1 1

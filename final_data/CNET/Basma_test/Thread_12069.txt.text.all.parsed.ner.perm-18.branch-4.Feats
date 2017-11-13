@@ -14,11 +14,11 @@
                                      ONE 0 0 0 0 0 1 0 2 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 0 1
-                                    DISK 0 0 0 0 0 1 0 2 0
+                                    DISK 0 0 0 0 0 1 0 2 1
                                  NOTHING 0 0 0 0 0 1 0 2 1
-                                 MACHINE 0 1 0 0 0 1 0 1 1
+                                 MACHINE 0 1 0 0 0 1 0 1 0
                                     BOOT 0 0 0 0 0 0 0 0 0
-                                    BIOS 0 0 0 0 0 0 0 1 0
+                                    BIOS 0 0 0 0 0 0 0 1 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
                                     KIND 0 0 0 0 0 1 0 1 1
                                    BEING 0 0 0 0 0 1 0 0 0
@@ -44,7 +44,7 @@
                                   DEVICE 0 0 0 0 0 1 0 1 1
                                   ANYONE 0 0 0 0 0 1 0 0 1
                                  REVIEWS 0 0 0 0 0 1 0 1 1
-                                     BOB 0 1 1 0 0 1 0 0 1
+                                     BOB 0 1 1 0 0 1 0 0 0
                                     MORE 0 0 0 0 0 0 1 0 1
                                  THOUGHT 0 0 0 0 0 1 0 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
@@ -61,7 +61,7 @@
                                     COMP 0 0 0 0 0 0 0 1 1
                                   SWITCH 0 0 0 0 0 1 0 1 1
                                    CABLE 0 0 0 0 0 1 0 1 1
-                              MANAGEMENT 0 1 0 0 0 1 0 1 1
+                              MANAGEMENT 0 1 0 0 0 1 0 1 0
                                    TODAY 0 0 0 6 0 1 0 0 1
                                    FORUM 0 0 0 0 0 1 0 0 0
                                    ISSUE 0 1 0 0 0 1 0 1 1
@@ -79,9 +79,9 @@
                                 FIRMWARE 0 0 0 0 0 0 0 1 1
                                     HELP 0 0 0 0 0 1 0 1 1
                                 RESPONSE 0 0 0 0 0 1 0 0 0
-                                   ESATA 0 0 0 0 0 0 0 0 0
+                                   ESATA 0 0 0 0 0 0 0 0 1
                                PARTITION 0 0 0 0 0 0 1 0 0
-                                    PORT 0 0 0 0 0 1 0 2 0
+                                    PORT 0 0 0 0 0 1 0 2 1
                             INSTALLATION 0 0 0 0 0 1 0 1 1
                                      WAY 1 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 0 0
@@ -110,10 +110,10 @@
                                  SECONDS 0 0 0 0 0 1 0 1 1
                                      LAG 0 0 0 0 0 0 0 0 1
                                  REASONS 0 0 0 0 0 1 0 1 1
-                                    LINE 0 0 0 0 0 1 0 2 0
+                                    LINE 0 0 0 0 0 1 0 2 1
                                     NOTE 0 0 0 0 0 1 0 0 0
                                   SOURCE 0 0 0 0 0 1 0 1 1
-                                  SEARCH 0 0 0 0 0 1 0 1 1
+                                  SEARCH 0 0 0 0 0 1 0 1 0
                                      BET 0 0 0 0 0 1 0 1 1
                                     SITE 0 0 0 0 0 1 0 1 1
                                     KEES 0 0 1 0 0 0 0 0 1
@@ -123,7 +123,7 @@
                                   MOVIES 0 0 0 0 0 1 0 0 1
                                   RECORD 0 0 0 0 0 1 0 1 1
                                       GB 0 0 0 0 0 0 0 1 1
-                                    FILE 0 0 0 0 0 1 0 1 1
+                                    FILE 0 0 0 0 0 1 0 1 0
                                    DISKS 0 0 0 0 0 1 0 1 1
                                     RPMS 0 0 0 0 0 0 0 1 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
@@ -133,10 +133,10 @@
                                  COMMAND 0 0 0 0 0 1 0 0 0
                                 COMMANDS 0 0 0 0 0 1 0 1 1
                                    NOTES 0 1 0 0 0 1 0 1 1
-                                   SHEET 0 0 0 0 0 1 0 1 1
-                                     KIT 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                   ZALMAN 0 0 1 0 0 0 0 1 1
+                                   SHEET 0 0 0 0 0 1 0 1 1
+                                     KIT 0 0 0 0 0 1 0 1 1
                                      MSN 0 0 0 0 0 1 0 0 0
                                   MINUTE 0 0 0 0 0 1 0 1 1
                                 REACTION 0 0 0 0 0 1 0 1 1

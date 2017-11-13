@@ -19,7 +19,7 @@
                                       MB 0 0 0 0 0 0 0 2 1
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                      NEW 0 0 0 0 0 1 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 2 0
+                                COMPUTER 0 1 0 0 0 1 0 2 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
@@ -49,12 +49,12 @@
                                      AMD 0 0 0 0 0 1 0 1 1
                                       CD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 2 1
-                                     RAM 0 0 1 0 0 1 0 1 1
+                                     RAM 0 0 1 0 0 1 0 1 0
                                      ATX 0 0 0 0 0 0 0 1 1
                                     CASE 0 1 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 1 0
+                                  MEMORY 0 1 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 3 1
                                     ASUS 0 0 1 0 0 0 0 0 1
@@ -69,7 +69,7 @@
                                       HP 0 0 1 0 0 0 0 0 1
                                      FUN 0 0 0 0 0 1 0 0 1
                                     MANY 0 0 0 0 0 0 1 0 1
-                                     BOB 0 1 1 0 0 1 0 1 1
+                                     BOB 0 1 1 0 0 1 0 1 0
                                     MORE 0 0 0 0 0 0 1 1 1
                                       OS 0 0 0 0 0 0 0 1 1
                                  WINDOWS 0 0 0 0 0 1 0 1 1
@@ -211,12 +211,12 @@
                                 CAPACITY 0 0 0 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
                                    ANTEC 0 0 1 0 0 0 0 0 1
@@ -285,11 +285,8 @@
                                TINKERING 0 0 0 0 0 0 0 0 1
                               W/HEATSINK 0 0 0 0 0 0 0 0 0
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                               MOTIVATION 0 0 0 0 0 1 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
-                                 PROFITS 0 0 0 0 0 1 0 1 1
-                                RELIGION 0 0 0 0 0 1 0 1 1
                               OURS.&QUOT 0 0 0 0 0 0 0 0 1
                                       A+ 0 0 0 0 0 0 0 1 1
                                     CERT 0 0 0 0 0 0 0 1 1
@@ -301,6 +298,9 @@
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
                             SPREADSHEETS 0 0 0 0 0 0 0 1 1
                              INSTABILITY 0 0 0 0 0 1 0 0 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                 PROFITS 0 0 0 0 0 1 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
                                  DEFENSE 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 1 1
                                  PUDDING 0 0 0 0 0 0 0 1 1

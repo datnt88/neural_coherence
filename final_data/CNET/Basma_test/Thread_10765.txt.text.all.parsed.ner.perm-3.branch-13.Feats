@@ -21,7 +21,7 @@
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
                                     SELF 0 0 0 0 0 1 0 1 1
-                                     ONE 0 0 0 0 0 1 0 1 0
+                                     ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 1 1
                                    YEARS 1 1 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
@@ -50,7 +50,7 @@
                                     USER 0 0 0 0 0 1 0 1 1
                                     WORK 0 0 0 0 0 1 0 1 1
                                   BUDGET 0 1 0 0 0 1 0 1 1
-                                KEYBOARD 0 0 0 0 0 0 0 1 0
+                                KEYBOARD 0 0 0 0 0 0 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
                                 WIRELESS 0 0 1 0 0 0 0 0 0
@@ -63,18 +63,18 @@
                                      CPU 0 0 0 0 0 0 0 1 1
                                    INTEL 0 0 1 0 0 1 0 0 0
                                     COPY 0 0 0 0 0 1 0 1 1
-                                    CORE 0 0 0 0 0 1 0 1 1
+                                    CORE 0 0 0 0 0 1 0 1 0
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                              PERFORMANCE 1 1 0 0 0 1 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
-                                    PART 1 0 0 0 0 1 0 2 0
+                                    PART 1 0 0 0 0 1 0 2 1
                                    PRICE 0 1 0 0 0 1 0 1 1
                                     BEST 0 0 0 0 0 0 1 1 1
                                    PARTS 1 0 0 0 0 1 0 1 1
                                FRAGMENTS 0 0 0 0 0 1 0 1 1
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 1 1
-                                 THREADS 0 0 0 0 0 1 0 1 0
+                                 THREADS 0 0 0 0 0 1 0 1 1
                                     GAME 0 0 0 0 0 1 0 1 1
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 1 0
@@ -93,7 +93,7 @@
                                     BLUE 0 0 0 0 0 1 0 1 1
                                      DVD 0 0 0 0 0 1 0 0 0
                                    TODAY 0 0 0 6 0 1 0 0 1
-                                  ATHLON 0 0 0 0 0 0 0 1 0
+                                  ATHLON 0 0 0 0 0 0 0 1 1
                                       XP 0 0 0 0 0 0 0 1 1
                                    SLOTS 0 0 0 0 0 1 0 0 0
                                   ADVICE 0 0 0 0 0 1 0 1 1
@@ -107,7 +107,7 @@
                                    GAMES 0 0 0 0 0 1 0 3 1
                                     TEMP 0 0 0 0 0 0 0 1 1
                                    PASTE 0 0 0 0 0 0 0 1 1
-                                     END 0 0 0 0 0 1 0 1 1
+                                     END 0 0 0 0 0 1 0 1 0
                                COMPUTERS 0 0 0 0 0 1 0 3 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                  QUALITY 0 0 0 0 0 1 0 1 1
@@ -155,7 +155,7 @@
                                   POSTER 0 0 0 0 0 0 0 1 1
                                   TODAYS 0 0 0 0 0 0 0 0 0
                                     EDGE 0 0 0 0 0 1 0 1 1
-                                 WALMART 0 0 1 0 0 0 0 0 1
+                                 WALMART 0 0 1 0 0 0 0 0 0
                                   500BUX 0 0 0 0 0 0 0 0 1
                                     CARS 0 1 0 0 0 1 0 0 1
                                    GRAND 0 0 0 0 0 1 0 1 1
@@ -166,10 +166,6 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
-                                  SCHOOL 0 1 0 0 0 1 0 0 0
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                                WAL-MART 0 0 1 0 0 1 0 0 0
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                     BANG 0 0 0 0 0 1 0 0 0
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
@@ -188,10 +184,15 @@
                                     BANK 0 1 0 0 0 1 0 0 0
                                  BALANCE 0 0 0 0 0 1 0 1 1
                             REQUIREMENTS 0 0 0 0 0 1 0 1 1
-                                BARNYARD 0 0 0 0 0 0 0 1 0
+                                BARNYARD 0 0 0 0 0 0 0 1 1
                                    ALTHO 0 0 0 0 0 0 0 3 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   STORMS 0 0 0 0 0 1 0 0 1
+                               EVOLUTION 0 0 0 0 0 1 0 1 1
+                                     10. 0 0 0 0 0 0 0 1 1
+                                  SCHOOL 0 1 0 0 0 1 0 0 0
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                                WAL-MART 0 0 1 0 0 1 0 0 0
                                    447.4 0 0 0 0 0 0 0 0 1
                                       TM 0 0 0 0 0 0 0 0 1
                                    3200+ 0 0 0 0 0 0 0 1 1
@@ -201,4 +202,3 @@
                                    6000+ 0 0 0 0 0 0 0 2 1
                               EQUIVALENT 0 0 0 0 0 0 0 0 0
                               MOTORCYCLE 0 0 0 0 0 0 1 0 0
-                               EVOLUTION 0 0 0 0 0 1 0 1 1

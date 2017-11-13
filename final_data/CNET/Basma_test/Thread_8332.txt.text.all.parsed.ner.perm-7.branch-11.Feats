@@ -1,5 +1,5 @@
                                     DATE 0 0 0 0 0 1 0 0 1
-                                    TIME 1 1 0 0 0 1 0 1 0
+                                    TIME 1 1 0 0 0 1 0 1 1
                                     THAT 0 0 0 0 0 0 0 0 1
                                        A 0 0 1 0 0 1 0 0 1
                                     SOME 0 0 0 0 0 0 1 0 0
@@ -43,12 +43,12 @@
                                     WORK 0 0 0 0 0 1 0 1 1
                                   LAPTOP 0 0 0 0 0 0 0 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 0
+                                 WINDOWS 0 0 0 0 0 1 0 1 1
                                  DESKTOP 0 0 0 0 0 0 1 1 1
                                     COPY 0 0 0 0 0 1 0 1 0
                                    TESTS 0 0 0 0 0 1 0 2 1
                                    PRICE 0 1 0 0 0 1 0 1 1
-                                      HD 0 0 1 0 0 0 0 1 0
+                                      HD 0 0 1 0 0 0 0 1 1
                                    REPLY 0 0 0 0 0 1 0 1 1
                                   EITHER 0 0 0 0 0 0 0 0 1
                                  EXAMPLE 0 0 0 0 0 1 0 0 1
@@ -75,7 +75,7 @@
                             INSTALLATION 0 0 0 0 0 1 0 0 1
                                      MAC 0 0 1 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 0 0
-                                  ACCESS 0 0 0 0 0 1 0 1 1
+                                  ACCESS 0 0 0 0 0 1 0 1 0
                                     TYPE 0 0 0 0 0 1 0 1 1
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
                                      ETC 0 0 0 0 0 0 1 1 0
@@ -111,9 +111,9 @@
                                    WORDS 0 1 0 0 0 1 0 1 1
                                  STORAGE 0 0 0 0 0 0 0 0 0
                                 CAPACITY 0 0 0 0 0 1 0 0 0
+                            REQUIREMENTS 0 0 0 0 0 1 0 1 1
                                   SCHOOL 0 1 0 0 0 1 0 0 0
                                 SUPPORTS 0 0 0 0 0 0 0 0 1
-                            REQUIREMENTS 0 0 0 0 0 1 0 1 1
                                    -RSB- 0 0 0 0 0 0 0 1 1
                                  FINICKY 0 0 0 0 0 0 0 1 1
                                  WIN2000 0 0 0 0 0 0 0 1 1
@@ -124,14 +124,14 @@
                                DOCUMENTS 0 1 0 0 0 1 0 2 0
                                      APP 0 0 0 0 0 0 0 1 1
                                      EXT 0 0 0 0 0 0 0 0 0
-                                    NTFS 0 0 0 0 0 0 0 1 0
+                                    NTFS 0 0 0 0 0 0 0 1 1
                                  LETTERS 0 1 0 0 0 1 0 1 1
                                     BUGS 0 0 0 0 0 1 0 1 1
                                   POWERS 0 0 0 0 0 1 0 1 1
-                                 TROJANS 0 0 0 0 0 0 0 2 0
+                                 TROJANS 0 0 0 0 0 0 0 2 1
                                    AFAIK 0 0 1 0 0 0 0 1 1
-                                    MACS 0 0 0 0 0 1 0 1 1
                                     HDDS 0 0 0 0 0 0 0 1 1
+                                    MACS 0 0 0 0 0 1 0 1 1
                                      YEP 0 0 0 0 0 0 0 0 1
                                   SISOFT 0 0 1 0 0 0 0 0 0
                                      1.1 0 0 0 0 0 0 0 1 1
@@ -145,10 +145,8 @@
                                 BEARINGS 0 0 0 0 0 0 0 0 1
                                   SANDRA 0 0 1 0 0 1 0 1 1
                                  HACKERS 0 0 0 0 0 1 0 0 0
-                               INFECTION 0 0 0 0 0 1 0 1 0
+                               INFECTION 0 0 0 0 0 1 0 1 1
                                   ATTACK 0 0 0 0 0 1 0 1 1
-                                   CIRCS 0 0 0 0 0 0 0 1 1
-                                   10MIN 0 0 0 0 0 0 0 1 1
                             PHOTOGRAPHER 0 0 0 0 0 1 0 0 0
                                  B--WITH 0 0 0 0 0 0 0 1 1
                          SEAGATE/COMPUSA 0 0 0 0 0 0 0 1 1
@@ -159,3 +157,5 @@
                             MAINTAINENCE 0 0 0 0 0 0 0 1 1
                                UTITILITY 0 0 0 0 0 0 0 0 0
                                    GUAGE 0 0 0 0 0 0 0 1 1
+                                   CIRCS 0 0 0 0 0 0 0 1 1
+                                   10MIN 0 0 0 0 0 0 0 1 1

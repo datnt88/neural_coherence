@@ -1,4 +1,4 @@
-                                    TIME 1 1 0 0 0 1 0 3 1
+                                    TIME 1 1 0 0 0 1 0 3 0
                                     THAT 0 0 0 0 0 0 0 0 1
                                      ALL 0 0 0 0 0 0 0 1 1
                                     SOME 0 0 0 0 0 0 1 1 1
@@ -51,16 +51,16 @@
                            CONFIGURATION 0 0 0 0 0 0 0 1 1
                                     WORK 0 0 0 0 0 1 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 1 1
+                                      HP 0 0 1 0 0 0 0 1 0
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                               EXPERIMENT 0 0 0 0 0 1 0 0 0
                                    LEAST 0 0 0 0 0 0 1 1 1
                                 WIRELESS 0 0 1 0 0 0 0 0 0
                                YESTERDAY 0 0 0 6 0 1 0 0 1
-                                      OS 0 0 1 0 0 0 0 1 0
+                                      OS 0 0 0 0 0 0 0 1 1
                                   CHANGE 0 0 0 0 0 1 0 1 1
-                                 DESKTOP 0 0 0 0 0 0 1 1 0
+                                 DESKTOP 0 0 0 0 0 0 1 1 1
                                   COUPLE 0 0 0 0 0 1 0 1 1
                                   GAMING 0 0 0 0 0 0 0 0 0
                                QUESTIONS 0 0 0 0 0 1 0 1 1
@@ -89,7 +89,7 @@
                                       1. 0 0 0 0 0 0 0 0 1
                                    CABLE 0 0 0 0 0 1 0 1 1
                                  PREMIUM 0 0 0 0 0 1 0 1 1
-                                ETHERNET 0 0 0 0 0 0 0 1 0
+                                ETHERNET 0 0 0 0 0 0 0 1 1
                                    STORY 0 0 0 0 0 1 0 1 1
                                     SAFE 0 0 0 0 0 1 0 1 1
                                    PLACE 0 0 0 0 0 1 0 1 1
@@ -114,7 +114,7 @@
                                   CLIENT 0 1 0 0 0 1 0 0 0
                                  TROUBLE 0 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 0 0
-                                  OFFICE 0 0 0 0 0 1 0 1 1
+                                  OFFICE 0 0 0 0 0 1 0 1 0
                                     WIFI 0 0 0 0 0 0 0 1 1
                                  PACKETS 0 0 0 0 0 1 0 1 1
                                 SOFTWARE 0 1 0 0 0 1 0 0 0
@@ -131,7 +131,7 @@
                                    BOARD 0 1 0 0 0 1 0 1 1
                                  802.11B 0 0 0 0 0 0 0 0 1
                                    DOZEN 0 0 0 0 0 1 0 0 0
-                                FIREWALL 0 0 0 0 0 0 0 1 0
+                                FIREWALL 0 0 0 0 0 0 0 1 1
                                  MESSAGE 0 0 0 0 0 1 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 1 1
                                  REPAIRS 0 0 0 0 0 1 0 1 1
@@ -170,11 +170,11 @@
                                 NEIGHBOR 0 0 0 0 0 1 0 1 1
                                   RESULT 1 0 0 0 0 1 0 1 1
                                    SITES 0 0 0 0 0 1 0 1 1
-                                     NAT 0 0 0 0 0 0 0 2 1
+                                     NAT 0 0 0 0 0 0 0 2 0
                                     AT&T 0 0 1 0 0 1 0 0 1
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                 SERVICES 1 0 0 0 0 1 0 1 1
-                              NETWORKING 0 0 0 0 0 0 0 1 1
+                              NETWORKING 0 0 0 0 0 0 0 1 0
                                     NATS 0 0 0 0 0 0 0 1 1
                                    2WIRE 0 0 0 0 0 0 0 2 1
                                  GATEWAY 0 0 0 0 0 0 0 2 1
@@ -190,7 +190,7 @@
                                   HOW/IF 0 0 0 0 0 0 0 1 1
                                   PERIOD 0 0 0 0 0 1 0 1 1
                             NAT/FIREWALL 0 0 0 0 0 0 0 0 0
-                                COVERAGE 0 0 0 0 0 1 0 1 1
+                                COVERAGE 0 0 0 0 0 1 0 1 0
                                 STRENGTH 0 0 0 0 0 1 0 0 0
                                  MACBOOK 0 0 0 0 0 0 0 1 0
                                 MEGABITS 0 0 0 0 0 0 0 2 1
@@ -205,7 +205,7 @@
                                     HALL 0 0 0 0 0 1 0 1 1
                                    WALLS 0 0 0 0 0 1 0 1 1
                                  SIGNALS 0 0 0 0 0 1 0 1 1
-                                       X 0 0 1 0 0 1 0 1 1
+                                       X 0 0 1 0 0 1 0 1 0
                                  LEOPARD 0 0 0 0 0 1 0 1 1
                                   10.5.7 0 0 0 0 0 0 0 0 1
                                  2.66GHZ 0 0 0 0 0 0 0 0 1
@@ -226,7 +226,7 @@
                                  GRAPHER 0 0 0 0 0 0 0 1 1
                             OBSERVATIONS 0 0 0 0 0 1 0 1 1
                                  BOOSTER 0 0 0 0 0 0 0 2 1
-                                     WPA 0 0 0 0 0 0 0 1 0
+                                     WPA 0 0 0 0 0 0 0 1 1
                               ENCRYPTION 0 0 0 0 0 0 0 0 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
                                   THREAD 0 0 0 0 0 0 0 1 1
@@ -236,7 +236,7 @@
                                  AIRPORT 0 0 0 0 0 1 0 0 0
                                  EXPRESS 0 1 0 0 0 1 0 1 1
                                  MEASURE 0 0 0 0 0 1 0 1 1
-                                 WEEKEND 0 0 0 6 0 1 0 1 1
+                                 WEEKEND 0 0 0 0 0 1 0 1 0
                             IMPROVEMENTS 0 0 0 0 0 1 0 1 1
                                  MADNESS 0 0 0 0 0 1 0 1 1
                                CONSUMING 0 0 0 0 0 0 0 0 0

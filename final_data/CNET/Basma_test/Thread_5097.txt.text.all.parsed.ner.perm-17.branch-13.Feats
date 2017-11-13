@@ -1,5 +1,5 @@
                                        $ 0 0 0 0 0 0 1 1 1
-                                    TIME 1 1 0 0 0 1 0 1 0
+                                    TIME 1 1 0 0 0 1 0 1 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                   PERSON 0 1 0 0 0 1 0 0 1
                                     THAT 0 0 0 0 0 0 0 0 1
@@ -18,12 +18,12 @@
                                    PCI-E 0 0 0 0 0 0 0 1 1
                                    BUNCH 0 0 0 0 0 1 0 1 1
                                    INPUT 0 0 0 0 0 0 1 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 1
+                                COMPUTER 0 1 0 0 0 1 0 3 0
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 0 1
                                      ONE 0 0 0 0 0 1 0 2 1
-                                   DRIVE 0 0 0 0 0 1 0 2 1
+                                   DRIVE 0 0 0 0 0 1 0 2 0
                                  NOTHING 0 0 0 0 0 1 0 1 1
                                   MONTHS 1 1 0 0 0 1 0 1 1
                                    OTHER 0 0 0 0 0 0 0 1 1
@@ -140,7 +140,7 @@
                                  EDITION 0 0 0 0 0 1 0 1 1
                                      WEB 0 0 0 0 0 1 0 0 0
                                     PAIR 0 0 0 0 0 1 0 1 1
-                                  CENTER 0 0 0 0 0 1 0 2 0
+                                  CENTER 0 0 0 0 0 1 0 2 1
                                      VCR 0 0 1 0 0 0 0 1 0
                                      HP. 0 0 0 0 0 0 0 1 1
                                  MINUTES 0 0 0 0 0 1 0 1 1
@@ -153,14 +153,14 @@
                                 CHANNELS 0 0 0 0 0 1 0 2 1
                                   METHOD 0 0 0 0 0 1 0 1 1
                                 DECISION 0 0 0 0 0 1 0 1 1
-                                 COMCAST 0 0 1 0 0 1 0 0 1
+                                 COMCAST 0 0 1 0 0 1 0 0 0
                                      AIR 0 0 0 0 0 1 0 1 1
                                      TOP 0 0 0 0 0 1 0 1 1
                                  WALMART 0 0 1 0 0 0 0 0 1
-                                   GAMER 0 0 0 0 0 0 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                     CITY 0 1 0 0 0 1 0 1 1
                                   REBATE 0 0 0 0 0 0 1 1 0
+                                   GAMER 0 0 0 0 0 0 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                                       OL 0 0 0 0 0 0 0 1 1
                                QUICKTIME 0 0 0 0 0 0 0 1 1
@@ -176,7 +176,7 @@
                                      PIN 0 0 0 0 0 0 0 1 1
                                     500W 0 0 0 0 0 0 0 1 1
                                  COMMENT 0 1 0 0 0 1 0 1 1
-                                    WIFE 0 0 0 0 0 1 0 1 1
+                                    WIFE 0 0 0 0 0 1 0 1 0
                                    STAND 0 0 0 0 0 1 0 1 1
                                    SHACK 0 0 1 0 0 1 0 1 1
                                        T 0 0 0 0 0 1 0 0 1
@@ -210,8 +210,6 @@
                                      TV. 0 0 0 0 0 0 0 1 1
                                  ADAVNCE 0 0 0 0 0 0 0 0 1
                                   INPUTS 0 0 0 0 0 0 0 3 1
-                                TRAILERS 0 0 0 0 0 0 0 1 1
-                                HANDS-ON 0 0 0 0 0 0 0 1 1
                                   COXIAL 0 0 0 0 0 0 0 1 1
                         DIGITALGUARDIAN4 0 0 0 0 0 0 0 1 1
                                      DEN 0 0 0 0 0 0 0 1 1
@@ -227,6 +225,8 @@
                            REBATE/COUPON 0 0 0 0 0 0 0 1 1
                                 -STARTUP 0 0 0 0 0 0 0 0 0
                            JACKS/OUTPUTS 0 0 0 0 0 0 0 1 1
+                                TRAILERS 0 0 0 0 0 0 0 1 1
+                                HANDS-ON 0 0 0 0 0 0 0 1 1
                                    MUVEE 0 0 0 0 0 0 0 0 1
                                VIDEOREDO 0 0 0 0 0 0 0 0 1
                              COMMERCIALS 0 0 0 0 0 1 0 0 1

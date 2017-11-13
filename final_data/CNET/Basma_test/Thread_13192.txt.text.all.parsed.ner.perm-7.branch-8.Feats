@@ -8,7 +8,7 @@
                                      BIT 0 0 0 0 0 1 0 1 1
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
                                       MB 0 0 0 0 0 0 0 3 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 1
+                                  SYSTEM 0 1 0 0 0 1 0 1 0
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 1 1
@@ -27,7 +27,7 @@
                                      RAM 0 0 1 0 0 1 0 2 1
                                      PCI 0 0 1 0 0 0 0 0 0
                                    THING 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 2 0
+                                  MEMORY 0 1 0 0 0 1 0 2 1
                                      TAB 0 0 0 0 0 0 1 1 1
                                      USE 1 0 0 0 0 1 0 1 1
                                     ETC. 0 0 0 0 0 0 0 1 1
@@ -43,7 +43,7 @@
                                     CALL 0 0 0 0 0 1 0 1 1
                                   CHOICE 0 0 0 0 0 1 0 1 0
                                     LESS 0 0 0 0 0 0 0 1 1
-                                 OPTIONS 0 0 0 0 0 1 0 1 1
+                                 OPTIONS 0 0 0 0 0 1 0 1 0
                                  VERSION 1 0 0 0 0 1 0 1 1
                                     REST 0 0 0 0 0 1 0 1 1
                                 SETTINGS 0 0 0 0 0 1 0 1 1
@@ -51,7 +51,7 @@
                                  EXAMPLE 0 0 0 0 0 1 0 0 1
                                     DELL 0 0 1 0 0 0 0 0 0
                                   SWITCH 0 0 0 0 0 1 0 3 1
-                                 PREMIUM 0 0 0 0 0 1 0 1 0
+                                 PREMIUM 0 0 0 0 0 1 0 1 1
                                   ADVICE 0 0 0 0 0 1 0 1 1
                                    SETUP 0 0 0 0 0 0 0 1 1
                                  PROGRAM 0 1 0 0 0 1 0 1 1
@@ -74,7 +74,7 @@
                                   CHEERS 0 0 0 0 0 1 0 1 1
                                   RESULT 1 0 0 0 0 1 0 1 1
                                     APPS 0 0 0 0 0 0 0 1 1
-                                   VISTA 0 0 0 0 0 0 0 1 0
+                                   VISTA 0 0 0 0 0 0 0 1 1
                                  BURNING 0 0 0 0 0 1 0 1 1
                                    WINXP 0 0 0 0 0 0 0 0 1
                                     ITEM 0 0 0 0 0 1 0 1 1
@@ -82,8 +82,8 @@
                                 PAVILION 0 0 0 0 0 0 0 0 0
                                  PORTION 0 0 0 0 0 1 0 1 1
                                      TOP 0 0 0 0 0 1 0 1 1
-                                GIGABYTE 0 0 0 0 0 0 0 1 1
                                      GIG 0 0 0 0 0 0 0 1 1
+                                GIGABYTE 0 0 0 0 0 0 0 1 1
                                     SIZE 1 0 0 0 0 1 0 2 1
                                  CLEANUP 0 0 0 0 0 0 0 2 1
                              APPLICATION 0 0 0 0 0 1 0 1 1
@@ -106,7 +106,7 @@
                                     PAUL 0 0 1 0 0 1 0 0 1
                                SIMULATOR 0 0 0 0 0 0 1 1 1
                                ACTUALITY 0 0 0 0 0 0 0 0 1
-                                  PAYOFF 0 0 0 0 0 0 0 0 0
+                                  PAYOFF 0 0 0 0 0 0 0 0 1
                                  PAYBACK 0 0 0 0 0 1 0 1 1
                                  REBUILD 0 0 0 0 0 0 0 1 1
                                   M8100Y 0 0 0 0 0 0 0 2 1
@@ -131,5 +131,5 @@
                                 DELETION 0 0 0 0 0 0 0 1 1
                               SELECTABLE 0 0 0 0 0 0 0 1 1
                              .4GHZ/0.5GB 0 0 0 0 0 0 0 1 1
-                                  MUSCLE 0 0 0 0 0 1 0 1 1
+                                  MUSCLE 0 0 0 0 0 1 0 1 0
                       SYSTEM-FINE-TUNING 0 0 0 0 0 0 0 1 1

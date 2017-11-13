@@ -3,13 +3,13 @@
                                   RADEON 0 0 0 0 0 0 0 0 0
                                     HDTV 0 0 0 0 0 1 0 0 0
                                    VIDEO 0 1 0 0 0 1 0 0 0
-                                    CARD 0 1 0 0 0 1 0 2 0
+                                    CARD 0 1 0 0 0 1 0 2 1
                               EVERYTHING 0 0 0 0 0 1 0 1 1
                                      BIT 0 0 0 0 0 1 0 1 0
                                    CARDS 0 0 0 0 0 1 0 1 1
                                    PCI-E 0 0 0 0 0 0 0 1 1
                                     MOBO 0 0 0 0 0 0 0 0 1
-                                   POWER 0 1 0 0 0 1 0 1 1
+                                   POWER 0 1 0 0 0 1 0 1 0
                                   SUPPLY 0 0 0 0 0 1 0 0 0
                                    DRIVE 0 0 0 0 0 1 0 1 0
                                  MACHINE 0 1 0 0 0 1 0 0 0
@@ -25,12 +25,12 @@
                                    THERE 0 0 0 0 0 0 1 0 1
                                  DRIVERS 0 1 0 0 0 1 0 0 0
                                      ANY 0 0 0 0 0 0 1 0 1
-                                     RAM 0 0 1 0 0 1 0 0 0
+                                     RAM 0 0 1 0 0 1 0 0 1
                                     CASE 0 1 0 0 0 1 0 0 0
                                       .. 0 0 0 0 0 1 0 2 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
                                    CHIPS 0 0 0 0 0 1 0 1 1
-                                     USE 1 0 0 0 0 1 0 1 1
+                                     USE 1 0 0 0 0 1 0 1 0
                                   WRITER 0 0 0 0 0 1 0 0 0
                                     MOVE 0 0 0 0 0 1 0 1 1
                                    STICK 0 0 0 0 0 1 0 1 1
@@ -39,7 +39,7 @@
                                   SCREEN 0 0 0 0 0 1 0 1 1
                                    BUILD 0 0 0 0 0 0 0 1 1
                                    INTEL 0 0 1 0 0 1 0 0 0
-                                    CORE 0 0 0 0 0 1 0 1 1
+                                    CORE 0 0 0 0 0 1 0 1 0
                              PERFORMANCE 1 1 0 0 0 1 0 1 1
                                    TOWER 0 0 0 0 0 1 0 0 0
                                       HD 0 0 1 0 0 0 0 0 0
@@ -48,7 +48,7 @@
                                      MAX 0 0 1 0 0 1 0 1 1
                                PROCESSOR 0 0 0 0 0 0 0 0 0
                                   SOCKET 0 0 0 0 0 0 0 1 1
-                                     FAN 0 0 0 0 0 1 0 2 0
+                                     FAN 0 0 0 0 0 1 0 2 1
                                    STOCK 0 1 0 0 0 1 0 0 0
                                     CANT 0 0 0 0 0 0 0 0 0
                                  MINIMUM 0 0 0 0 0 0 0 1 1
@@ -68,17 +68,17 @@
                               CONNECTORS 0 0 0 0 0 0 0 1 1
                                   LIGHTS 0 0 0 0 0 1 0 0 0
                                     CNET 0 0 0 0 0 0 0 0 0
+                                     GIG 0 0 0 0 0 0 0 0 0
                                    PLUGS 0 0 0 0 0 0 0 1 1
                                      KIT 0 0 0 0 0 1 0 0 0
-                                     GIG 0 0 0 0 0 0 0 0 0
                                  DIRECTX 0 0 0 0 0 0 0 1 1
                                   MEMBER 0 1 0 0 0 1 0 1 1
-                                     SLI 0 0 0 0 0 0 0 0 1
+                                     SLI 0 0 0 0 0 0 0 0 0
                                   WINDOW 0 0 0 0 0 1 0 0 0
                                 TRANSFER 0 0 0 0 0 1 0 1 1
                                      2.4 0 0 0 0 0 0 0 0 1
                                  COUNTRY 0 0 0 0 0 1 0 0 0
-                                     PIN 0 0 0 0 0 0 0 1 1
+                                     PIN 0 0 0 0 0 0 0 1 0
                               CROSSFIREX 0 0 0 0 0 0 0 0 0
                              ENVIRONMENT 0 0 0 0 0 1 0 1 1
                                GIGABYTES 0 0 0 0 0 0 0 1 1

@@ -5,14 +5,14 @@
                                 HARDWARE 0 0 0 0 0 0 0 0 0
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
-                                   DRIVE 0 0 0 0 0 1 0 1 1
+                                   DRIVE 0 0 0 0 0 1 0 1 0
                                 PROBLEMS 0 0 0 0 0 1 0 0 0
                                    ERROR 0 0 0 0 0 1 0 1 1
                                     BIOS 0 0 0 0 0 0 0 1 1
                                     KIND 0 0 0 0 0 1 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
-                                    STEP 0 0 0 0 0 1 0 1 0
+                                    STEP 0 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 1 1
                                  ANOTHER 0 0 0 0 0 0 1 0 1
                                    LEVEL 0 0 0 0 0 1 0 0 0
@@ -43,15 +43,15 @@
                                   DRIVER 0 0 0 0 0 1 0 1 0
                                  SUCCESS 1 0 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 0 0
-                                 SERVICE 0 0 0 0 0 1 0 2 1
-                                  WIZARD 0 0 1 0 0 1 0 1 1
+                                 SERVICE 0 0 0 0 0 1 0 2 0
+                                  WIZARD 0 0 1 0 0 1 0 1 0
                                 INSTANCE 0 0 0 0 0 1 0 0 0
                                  MESSAGE 0 0 0 0 0 1 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                   UPDATE 0 0 0 0 0 0 0 1 1
-                                    DISC 0 0 0 0 0 1 0 0 0
+                                    DISC 0 0 0 0 0 1 0 0 1
                                  PROCESS 0 0 0 0 0 1 0 1 1
-                                     &LT 0 0 0 0 0 0 0 1 0
+                                     &LT 0 0 0 0 0 0 0 1 1
                                      &GT 0 0 0 0 0 0 0 3 1
                                       4. 0 0 1 0 0 0 0 0 1
                                   STATES 1 1 0 0 0 1 0 0 0
@@ -60,8 +60,8 @@
                                     TEST 0 1 0 0 0 1 0 0 0
                                    ITEMS 0 0 0 0 0 1 0 0 1
                                DETECTION 0 0 0 0 0 0 0 0 0
-                                  RESULT 1 0 0 0 0 1 0 3 0
-                                   STEPS 0 0 0 0 0 1 0 1 1
+                                  RESULT 1 0 0 0 0 1 0 3 1
+                                   STEPS 0 0 0 0 0 1 0 1 0
                              SUGGESTIONS 0 0 0 0 0 1 0 1 1
                                   METHOD 0 0 0 0 0 1 0 1 1
                                      AIR 0 0 0 0 0 1 0 1 1

@@ -5,11 +5,11 @@
                                     BUTT 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
-                                   POWER 0 1 0 0 0 1 0 0 1
+                                   POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 1 1
                                    YEARS 1 1 0 0 0 1 0 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 0 0 0 1 0 1 1
+                                      PC 0 0 0 0 0 1 0 1 0
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                     BACK 0 0 0 0 0 1 0 1 1
                                     HEAT 0 0 0 0 0 1 0 1 0
@@ -26,7 +26,7 @@
                                    STOCK 0 1 0 0 0 1 0 0 0
                                 FUNCTION 0 0 0 0 0 1 0 0 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
-                                   CABLE 0 0 0 0 0 1 0 1 0
+                                   CABLE 0 0 0 0 0 1 0 1 1
                               MANAGEMENT 0 1 0 0 0 1 0 0 0
                                     FORM 0 1 0 0 0 1 0 0 1
                                     RICK 0 0 1 0 0 1 0 0 0
@@ -58,25 +58,17 @@
                                     BENT 0 0 0 0 0 0 0 1 1
                             RELATIONSHIP 0 0 0 0 0 1 0 1 1
                                  AIRFLOW 0 0 0 0 0 0 0 0 0
-                                   ROUTE 0 0 0 0 0 1 0 1 0
+                                   ROUTE 0 0 0 0 0 1 0 1 1
                                    HOLES 0 0 0 0 0 1 0 1 1
                                MACINTOSH 0 0 1 0 0 1 0 0 0
-                               TROUGHOUT 0 0 0 0 0 0 0 1 1
-                              FLATCABLES 0 0 0 0 0 0 0 1 1
-                                    PACS 0 0 0 0 0 1 0 1 1
-                               TY-THREAD 0 0 0 0 0 0 0 1 1
-                                SAUSAGES 0 0 0 0 0 1 0 1 1
-                              CONNEXTORS 0 0 0 0 0 0 0 1 1
-                                    TIES 0 0 0 0 0 1 0 1 0
                                    NYLON 0 0 0 0 0 0 0 0 0
+                                    TIES 0 0 0 0 0 1 0 1 0
                                     FLOW 0 0 0 0 0 1 0 1 1
                                  SPIRALS 0 0 0 0 0 0 0 0 0
                                    LOOMS 0 0 0 0 0 0 0 1 1
                          TUBES/WRAP&QUOT 0 0 0 0 0 0 0 1 1
                                     HAIR 0 0 0 0 0 1 0 0 0
                               DRYER&QUOT 0 0 0 0 0 0 0 0 0
-                           SHORT-CIRCUIT 0 0 0 0 0 0 0 1 1
-                          IDENTIFICATION 0 0 0 0 0 1 0 0 1
                            BOXES/SYSTEMS 0 0 0 0 0 0 0 1 1
                                  JOHNSON 0 1 1 0 0 1 0 1 1
                                   VELCRO 0 0 0 0 0 0 0 0 0
@@ -89,3 +81,11 @@
                                SPAGHETTI 0 0 0 0 0 0 0 0 1
                                 BATHROOM 0 0 0 0 0 0 0 1 1
                                   SUBWAY 0 0 0 0 0 0 0 0 0
+                               TROUGHOUT 0 0 0 0 0 0 0 1 1
+                              FLATCABLES 0 0 0 0 0 0 0 1 1
+                                    PACS 0 0 0 0 0 1 0 1 1
+                               TY-THREAD 0 0 0 0 0 0 0 1 1
+                                SAUSAGES 0 0 0 0 0 1 0 1 1
+                              CONNEXTORS 0 0 0 0 0 0 0 1 1
+                           SHORT-CIRCUIT 0 0 0 0 0 0 0 1 1
+                          IDENTIFICATION 0 0 0 0 0 1 0 0 1

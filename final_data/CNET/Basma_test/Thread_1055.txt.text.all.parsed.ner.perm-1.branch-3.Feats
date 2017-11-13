@@ -12,12 +12,12 @@
                                    SPEED 0 0 0 0 0 1 0 0 1
                                      BIT 0 0 0 0 0 1 0 1 1
                               TECHNOLOGY 1 0 0 0 0 1 0 1 1
-                                    YEAR 0 1 0 0 0 1 0 1 1
+                                    YEAR 0 1 0 0 0 1 0 1 0
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   ERRORS 0 1 0 0 0 1 0 1 1
-                                     ONE 0 0 0 0 0 1 0 1 1
+                                     ONE 0 0 0 0 0 1 0 1 0
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 3 1
                                  NOTHING 0 0 0 0 0 1 0 1 1
@@ -78,7 +78,7 @@
                                 SETTINGS 0 0 0 0 0 1 0 1 1
                                    TIMES 0 1 0 0 0 1 0 1 1
                                   ONLINE 0 0 0 0 0 1 0 0 1
-                                  SIGNAL 0 0 0 0 0 1 0 1 0
+                                  SIGNAL 0 0 0 0 0 1 0 1 1
                                  WORKING 0 0 0 0 0 1 0 1 1
                                     GOOD 0 0 0 0 0 1 0 0 1
                                   CHANCE 0 0 0 0 0 1 0 1 1
@@ -111,7 +111,7 @@
                                   CLIENT 0 1 0 0 0 1 0 0 0
                                      BOX 0 0 0 0 0 1 0 1 1
                                  TROUBLE 0 0 0 0 0 1 0 1 1
-                                    HOME 0 0 0 0 0 1 0 1 0
+                                    HOME 0 0 0 0 0 1 0 1 1
                                   OFFICE 0 0 0 0 0 1 0 1 0
                                     WIFI 0 0 0 0 0 0 0 0 1
                                   ACCESS 0 0 0 0 0 1 0 0 0
@@ -167,7 +167,7 @@
                                   SIMPLE 0 0 0 0 0 0 0 1 1
                                 NEIGHBOR 0 0 0 0 0 1 0 1 1
                                 THOUGHTS 0 0 0 0 0 1 0 1 1
-                                     NAT 0 0 0 0 0 0 0 2 0
+                                     NAT 0 0 0 0 0 0 0 2 1
                                     AT&T 0 0 0 0 0 1 0 0 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                 CONSOLES 0 0 0 0 0 0 0 1 1
@@ -193,11 +193,11 @@
                                   PERIOD 0 0 0 0 0 1 0 1 1
                                 COVERAGE 0 0 0 0 0 1 0 2 1
                                 STRENGTH 0 0 0 0 0 1 0 1 1
-                                 MACBOOK 0 0 0 0 0 0 0 1 0
+                                 MACBOOK 0 0 0 0 0 0 0 1 1
                                 MEGABITS 0 0 0 0 0 0 0 2 1
                                     SONY 0 1 1 0 0 1 0 0 0
                                     VAIO 0 0 0 0 0 0 0 1 1
-                                   VISTA 0 0 0 0 0 0 0 1 0
+                                   VISTA 0 0 0 0 0 0 0 1 1
                                 NOTEBOOK 0 0 0 0 0 0 0 1 1
                                  KITCHEN 0 0 0 0 0 1 0 2 1
                                 OPPOSITE 0 0 0 0 0 0 1 1 1
@@ -233,7 +233,7 @@
                                     PARK 0 0 0 0 0 1 0 1 1
                                  AIRPORT 0 0 0 0 0 1 0 0 0
                                  EXPRESS 0 1 0 0 0 1 0 1 1
-                                 WEEKEND 0 0 0 6 0 1 0 1 1
+                                 WEEKEND 0 0 0 0 0 1 0 1 0
                                    WIRES 0 0 0 0 0 1 0 1 1
                             IMPROVEMENTS 0 0 0 0 0 1 0 1 1
                                  MADNESS 0 0 0 0 0 1 0 1 1

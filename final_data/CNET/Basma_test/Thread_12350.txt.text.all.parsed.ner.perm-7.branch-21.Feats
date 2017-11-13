@@ -7,9 +7,9 @@
                                    THESE 0 0 0 0 0 0 1 0 1
                                    RIGHT 1 1 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 1 1
+                                COMPUTER 0 1 0 0 0 1 0 1 0
                                   DRIVES 0 0 0 0 0 1 0 2 1
-                                   POWER 0 1 0 0 0 1 0 1 1
+                                   POWER 0 1 0 0 0 1 0 1 0
                                      IDE 0 0 0 0 0 0 0 1 1
                                   MAXTOR 0 0 0 0 0 0 0 1 1
                                      ONE 0 0 0 0 0 1 0 0 1
@@ -25,7 +25,7 @@
                                   VAPCMD 0 0 0 0 0 0 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                    HOUSE 0 1 0 0 0 1 0 1 1
-                                    CASE 0 1 0 0 0 1 0 1 1
+                                    CASE 0 1 0 0 0 1 0 1 0
                                    THING 0 0 0 0 0 1 0 2 1
                                       .. 0 0 0 0 0 1 0 3 1
                                     ONLY 0 0 0 0 0 0 1 1 1
@@ -34,7 +34,7 @@
                                   ANYONE 0 0 0 0 0 1 0 0 1
                                     WORK 0 0 0 0 0 1 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 0 1
+                                 WINDOWS 0 0 0 0 0 1 0 0 0
                                   COUPLE 0 0 0 0 0 1 0 0 0
                                   SCREEN 0 0 0 0 0 1 0 1 1
                                     COPY 0 0 0 0 0 1 0 1 1
@@ -44,7 +44,7 @@
                                   SWITCH 0 0 0 0 0 1 0 1 1
                                   INSIDE 0 0 0 0 0 1 0 1 1
                                    CABLE 0 0 0 0 0 1 0 1 1
-                                 SEAGATE 0 0 1 0 0 0 0 0 1
+                                 SEAGATE 0 0 1 0 0 0 0 0 0
                                      KEY 0 0 0 0 0 1 0 1 1
                                  DOLLARS 0 0 0 0 0 1 0 0 1
                                    PLACE 0 0 0 0 0 1 0 1 1
@@ -62,7 +62,7 @@
                                  QUALITY 0 0 0 0 0 1 0 1 1
                                     FACT 1 0 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
-                                    DATA 0 0 0 0 0 1 0 0 1
+                                    DATA 0 0 0 0 0 1 0 0 0
                                 RECOVERY 0 0 0 0 0 1 0 1 1
                                    FILES 0 0 0 0 0 1 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 0 1
@@ -86,8 +86,8 @@
                                     MARK 0 0 0 0 0 1 0 1 1
                                  STORAGE 0 0 0 0 0 0 0 1 1
                                INTERFACE 0 0 1 0 0 1 0 0 1
-                                     10. 0 0 0 0 0 0 0 1 1
                                      CUT 0 1 0 0 0 1 0 0 0
+                                     10. 0 0 0 0 0 0 0 1 1
                                    PLUGS 0 0 0 0 0 0 0 1 1
                                     E.G. 0 0 1 0 0 0 0 0 1
                                       CS 0 0 1 0 0 0 0 1 1
@@ -112,16 +112,22 @@
                                 BARBECUE 0 0 0 0 0 0 1 0 0
                                      PIT 0 0 0 0 0 0 0 1 1
                                    THEFT 0 0 0 0 0 0 0 0 0
+                              COMMODORES 0 0 0 0 0 0 0 1 1
+                                  AMIGAS 0 0 0 0 0 0 0 0 1
+                                    MACS 0 0 0 0 0 1 0 0 1
+                                   MSDOS 0 0 0 0 0 0 0 0 1
+                                EXTRENAL 0 0 0 0 0 0 0 0 0
+                                   CANAL 0 0 0 0 0 1 0 0 0
+                                   LEVEE 0 0 0 0 0 0 0 1 1
                                  MED/BIG 0 0 0 0 0 0 0 0 0
                               BUSINESSES 0 0 0 0 0 1 0 1 1
                                EXPERTISE 0 0 0 0 0 0 0 0 0
                                        F 0 0 1 0 0 0 0 0 0
                                EXTERNAAL 0 0 0 0 0 0 0 1 1
                                    SMOKE 0 0 0 0 0 1 0 0 1
-                                    MACS 0 0 0 0 0 1 0 0 1
                                  TORNADO 0 0 0 0 0 0 1 2 1
                                     .YOU 0 0 1 0 0 0 0 0 1
-                                      YR 0 0 0 0 0 0 0 1 1
+                                      YR 0 0 0 0 0 0 0 1 0
                              ONE-TOUCHES 0 0 0 0 0 0 0 1 1
                                    HOME. 0 0 0 0 0 0 0 0 1
                               HARDDRIVES 0 0 0 0 0 0 0 1 1
@@ -133,9 +139,3 @@
                               PROTICOLS. 0 0 0 0 0 0 0 1 1
                                TRANSPORT 0 0 0 0 0 0 0 0 1
                                     MALL 0 0 0 0 0 0 0 1 1
-                              COMMODORES 0 0 0 0 0 0 0 1 1
-                                  AMIGAS 0 0 0 0 0 0 0 0 1
-                                   MSDOS 0 0 0 0 0 0 0 0 1
-                                EXTRENAL 0 0 0 0 0 0 0 0 0
-                                   CANAL 0 0 0 0 0 1 0 0 0
-                                   LEVEE 0 0 0 0 0 0 0 1 1

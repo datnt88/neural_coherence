@@ -14,7 +14,7 @@
                                UPGRADING 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 1
-                                COMPUTER 0 1 0 0 0 1 0 2 0
+                                COMPUTER 0 1 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 1 1
@@ -25,7 +25,7 @@
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                   MONTHS 1 1 0 0 0 1 0 1 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
-                                    KIND 0 0 0 0 0 1 0 1 0
+                                    KIND 0 0 0 0 0 1 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
                                       PC 0 0 0 0 0 1 0 3 1
@@ -38,7 +38,7 @@
                                   STICKS 0 0 0 0 0 1 0 1 1
                                      RAM 0 0 1 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 1 0
+                                  MEMORY 0 1 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 2 1
                                    MODEM 0 0 0 0 0 1 0 1 1
                                   NVIDIA 0 0 0 0 0 0 0 1 1
@@ -46,7 +46,7 @@
                                     DAYS 0 0 0 6 0 1 0 1 1
                               DIRECTIONS 0 0 0 0 0 1 0 0 1
                                     LIST 0 0 0 0 0 1 0 1 1
-                                    WORK 0 0 0 0 0 1 0 1 1
+                                    WORK 0 0 0 0 0 1 0 1 0
                                       HP 0 0 1 0 0 0 0 0 1
                                      FUN 0 0 0 0 0 1 0 1 1
                                     MANY 0 0 0 0 0 0 1 1 1
@@ -61,17 +61,17 @@
                              PERFORMANCE 1 1 0 0 0 1 0 0 1
                                     PART 1 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 1 1
-                                   BRAND 0 0 0 0 0 1 0 1 0
-                                   PARTS 1 0 0 0 0 1 0 1 0
+                                   BRAND 0 0 0 0 0 1 0 1 1
+                                   PARTS 1 0 0 0 0 1 0 1 1
                                   PEOPLE 0 1 0 0 0 1 0 0 1
                                     COST 0 0 0 0 0 1 0 0 0
-                               PROCESSOR 0 0 0 0 0 0 0 1 1
+                               PROCESSOR 0 0 0 0 0 0 0 1 0
                                  EXAMPLE 0 0 0 0 0 1 0 0 1
                                     COMP 0 0 0 0 0 0 0 1 1
                                  PENTIUM 0 0 0 0 0 0 0 1 1
                                   ONLINE 0 0 0 0 0 1 0 0 0
                                  REGARDS 0 0 0 0 0 0 0 1 1
-                                    DELL 0 0 1 0 0 0 0 1 0
+                                    DELL 0 0 1 0 0 0 0 1 1
                                     CANT 0 0 0 0 0 0 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 2 1
                                    CABLE 0 0 0 0 0 1 0 1 1
@@ -93,9 +93,9 @@
                                  COLLEGE 0 0 0 0 0 1 0 0 0
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
-                                    TECH 0 0 1 0 0 0 1 0 1
+                                    TECH 0 0 1 0 0 0 1 0 0
                                      REP 0 0 0 0 0 0 0 1 1
-                                   BOARD 0 1 0 0 0 1 0 1 1
+                                   BOARD 0 1 0 0 0 1 0 1 0
                                    WORLD 0 1 0 0 0 1 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                     NONE 0 0 0 0 0 1 0 0 1
@@ -134,9 +134,9 @@
                                   COMPAQ 0 0 1 0 0 1 0 0 1
                                      MAN 0 1 0 0 0 1 0 1 1
                                 BUILDING 0 0 0 0 0 1 0 0 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 0 0
                                  FRIENDS 0 0 0 0 0 1 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                 ARTICLES 0 0 0 0 0 1 0 1 1
                                    ANTEC 0 0 1 0 0 0 0 0 1
                                    USERS 0 0 0 0 0 1 0 1 1
@@ -174,18 +174,18 @@
                                 SOMTIMES 0 0 0 0 0 0 0 0 1
                                      HAL 0 0 1 0 0 0 0 1 1
                            DVD/CD-BURNER 0 0 0 0 0 0 0 0 1
-                               RE-BUILDS 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                               MOTIVATION 0 0 0 0 0 1 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
-                                  FERVOR 0 0 0 0 0 0 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                  TECHNET 0 0 0 0 0 0 0 0 0
                                  MEETING 0 0 0 0 0 1 0 1 1
                                  LECTURE 0 0 0 0 0 0 0 1 1
                              STITES&QUOT 0 0 0 0 0 0 0 0 1
+                               RE-BUILDS 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                  FERVOR 0 0 0 0 0 0 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                    STITE 0 0 0 0 0 0 0 2 1
                                   HE/SHE 0 0 0 0 0 0 0 0 1
                       VIDEO/AUDIO/MODEMS 0 0 0 0 0 0 0 0 1

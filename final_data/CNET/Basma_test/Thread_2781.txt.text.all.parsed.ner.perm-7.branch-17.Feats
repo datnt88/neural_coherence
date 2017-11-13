@@ -6,7 +6,7 @@
                                      ALL 0 0 0 0 0 0 0 1 1
                                     SOME 0 0 0 0 0 0 1 1 1
                                    VIDEO 0 1 0 0 0 1 0 1 0
-                                    CARD 0 1 0 0 0 1 0 1 0
+                                    CARD 0 1 0 0 0 1 0 1 1
                                       OC 0 0 1 0 0 0 0 1 1
                                   THANKS 0 0 0 0 0 1 0 0 0
                                   ANSWER 0 0 0 0 0 1 0 1 1
@@ -17,7 +17,7 @@
                                    CARDS 0 0 0 0 0 1 0 1 1
                               TECHNOLOGY 1 0 0 0 0 1 0 1 1
                                UPGRADING 0 0 0 0 0 0 0 0 1
-                                      MB 0 0 0 0 0 0 0 1 1
+                                      MB 0 0 0 0 0 0 0 1 0
                                  UPGRADE 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                      NEW 0 0 0 0 0 1 0 1 1
@@ -28,14 +28,14 @@
                                      ONE 0 0 0 0 0 1 0 2 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 1 1
-                                PROBLEMS 0 0 0 0 0 1 0 3 1
+                                PROBLEMS 0 0 0 0 0 1 0 3 0
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                    THREE 0 0 0 0 0 1 0 0 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
                                     KIND 0 0 0 0 0 1 0 1 0
                                    BEING 0 0 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
-                             MOTHERBOARD 0 0 0 0 0 0 0 2 1
+                             MOTHERBOARD 0 0 0 0 0 0 0 2 0
                                       PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 0 1
@@ -49,7 +49,7 @@
                                   STICKS 0 0 0 0 0 1 0 2 1
                                      RAM 0 0 1 0 0 1 0 2 1
                                      ATX 0 0 0 0 0 0 0 1 1
-                                    CASE 0 1 0 0 0 1 0 1 0
+                                    CASE 0 1 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
@@ -86,8 +86,8 @@
                                     PLAN 0 1 0 0 0 1 0 0 0
                                     GAME 0 0 0 0 0 1 0 0 0
                                   PEOPLE 0 1 0 0 0 1 0 1 1
-                                    COST 0 0 0 0 0 1 0 1 1
-                                   TIMES 0 1 0 0 0 1 0 1 1
+                                    COST 0 0 0 0 0 1 0 1 0
+                                   TIMES 0 1 0 0 0 1 0 1 0
                                PROCESSOR 0 0 0 0 0 0 0 1 1
                                  EXAMPLE 0 0 0 0 0 1 0 1 1
                                      FAN 0 0 0 0 0 1 0 2 1
@@ -114,7 +114,7 @@
                                     SHOP 0 0 0 0 0 1 0 1 1
                                   ADVICE 0 0 0 0 0 1 0 1 1
                                  SUPPORT 0 0 0 0 0 1 0 3 1
-                                 CHOICES 0 0 0 0 0 1 0 1 0
+                                 CHOICES 0 0 0 0 0 1 0 1 1
                                 QUESTION 0 0 0 0 0 1 0 1 1
                                     MOST 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
@@ -141,7 +141,7 @@
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 1 1
                                     WORD 0 0 0 0 0 1 0 0 0
-                                    TECH 0 0 1 0 0 0 1 1 1
+                                    TECH 0 0 1 0 0 0 1 1 0
                                    BOARD 0 1 0 0 0 1 0 2 1
                                   BRANDS 0 1 0 0 0 1 0 1 1
                                  CLIENTS 0 1 0 0 0 1 0 1 1
@@ -201,8 +201,8 @@
                                      MAN 0 1 0 0 0 1 0 1 1
                                   TINKER 0 0 1 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
                                   64-BIT 0 0 0 0 0 0 0 1 1
                                  SCANNER 0 0 0 0 0 0 0 1 1
@@ -273,8 +273,6 @@
                               W/HEATSINK 0 0 0 0 0 0 0 0 0
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
                                  1.83GHZ 0 0 0 0 0 0 0 1 1
-                               RE-BUILDS 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                               MOTIVATION 0 0 0 0 0 1 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                W/500WATT 0 0 0 0 0 0 0 0 0
@@ -283,6 +281,8 @@
                                       A+ 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
                              INSTABILITY 0 0 0 0 0 1 0 0 1
+                               RE-BUILDS 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
                                  DEFENSE 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 1 1
                                  PUDDING 0 0 0 0 0 0 0 1 1

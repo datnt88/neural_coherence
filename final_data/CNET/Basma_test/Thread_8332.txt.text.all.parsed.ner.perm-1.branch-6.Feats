@@ -7,7 +7,7 @@
                                      BIT 0 0 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 0 0
                                     NEXT 0 0 0 0 0 1 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 1 0
+                                COMPUTER 0 1 0 0 0 1 0 1 1
                                     KILL 0 0 0 0 0 0 1 0 1
                                   DRIVES 0 0 0 0 0 1 0 3 1
                                    POWER 0 1 0 0 0 1 0 0 0
@@ -72,8 +72,8 @@
                                      MAC 0 0 1 0 0 1 0 0 0
                                      BOX 0 0 0 0 0 1 0 0 0
                                     HOME 0 0 0 0 0 1 0 0 1
-                                  ACCESS 0 0 0 0 0 1 0 1 0
-                                SOFTWARE 0 1 0 0 0 1 0 2 1
+                                  ACCESS 0 0 0 0 0 1 0 1 1
+                                SOFTWARE 0 1 0 0 0 1 0 2 0
                                     TYPE 0 0 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                     DATA 0 0 0 0 0 1 0 0 0
@@ -91,7 +91,7 @@
                                   PHOTOS 0 0 0 0 0 1 0 1 1
                                  EDITION 0 0 0 0 0 1 0 1 0
                                      PCS 0 0 0 0 0 1 0 1 1
-                              PROTECTION 0 0 0 0 0 1 0 1 0
+                              PROTECTION 0 0 0 0 0 1 0 1 1
                                 FIREWIRE 0 0 0 0 0 0 0 0 0
                                       GB 0 0 0 0 0 0 0 0 0
                                    FAT32 0 0 0 0 0 0 0 0 1
@@ -103,8 +103,8 @@
                                  VIRUSES 0 0 0 0 0 1 0 0 1
                                    CLOCK 0 0 0 0 0 1 0 1 1
                                 CAPACITY 0 0 0 0 0 1 0 0 0
-                                  SCHOOL 0 1 0 0 0 1 0 0 0
                             REQUIREMENTS 0 0 0 0 0 1 0 1 1
+                                  SCHOOL 0 1 0 0 0 1 0 0 0
                                    500GB 0 0 0 0 0 0 0 1 1
                                   FOLDER 0 0 0 0 0 0 0 1 1
                                   CAMERA 0 0 0 0 0 1 0 0 0
@@ -140,10 +140,6 @@
                                 PROPERTY 0 0 0 0 0 1 0 0 1
                                     IIRC 0 0 1 0 0 0 0 0 1
                                   SANDRA 0 0 1 0 0 1 0 1 1
-                                   CIRCS 0 0 0 0 0 0 0 1 1
-                                    NFTS 0 0 0 0 0 0 0 0 1
-                                    30MB 0 0 0 0 0 0 0 1 1
-                             PERSPECTIVE 0 0 0 0 0 1 0 1 1
                                       DG 0 0 1 0 0 0 0 0 1
                             -LSB-VIRUSES 0 0 0 0 0 0 0 2 1
                                  WAY--IF 0 0 0 0 0 0 0 1 1
@@ -152,3 +148,7 @@
                                    GUAGE 0 0 0 0 0 0 0 1 1
                                    -OSES 0 0 0 0 0 0 0 1 1
                                PENDRIVES 0 0 0 0 0 0 0 0 1
+                                    NFTS 0 0 0 0 0 0 0 0 1
+                                   CIRCS 0 0 0 0 0 0 0 1 1
+                                    30MB 0 0 0 0 0 0 0 1 1
+                             PERSPECTIVE 0 0 0 0 0 1 0 1 1

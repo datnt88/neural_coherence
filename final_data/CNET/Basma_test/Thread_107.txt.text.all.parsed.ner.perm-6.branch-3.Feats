@@ -2,18 +2,18 @@
                                 LOCATION 0 0 0 0 0 1 0 0 0
                                     THAT 0 0 0 0 0 0 0 0 1
                                     PLAY 0 0 0 0 0 1 0 0 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 0
+                                  SYSTEM 0 1 0 0 0 1 0 1 1
                                    INPUT 0 0 0 0 0 0 1 0 0
-                                HARDWARE 0 0 0 0 0 0 0 1 1
+                                HARDWARE 0 0 0 0 0 0 0 1 0
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                   ERRORS 0 1 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 1 1
-                                    DISK 0 0 0 0 0 1 0 1 1
+                                    DISK 0 0 0 0 0 1 0 1 0
                                  NOTHING 0 0 0 0 0 1 0 0 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                    ERROR 0 0 0 0 0 1 0 1 1
-                                    BOOT 0 0 0 0 0 0 0 1 0
+                                    BOOT 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                                      HOW 0 0 0 0 0 0 1 0 1
                                       PC 0 0 0 0 0 1 0 1 1
@@ -24,7 +24,7 @@
                                    GUESS 0 0 0 0 0 1 0 1 1
                               CONNECTION 0 0 0 0 0 1 0 0 0
                                       'S 0 0 0 0 0 0 0 0 1
-                                  NVIDIA 0 0 0 0 0 0 0 0 0
+                                  NVIDIA 0 0 0 0 0 0 0 0 1
                                   DEVICE 0 0 0 0 0 1 0 0 0
                                     USER 0 0 0 0 0 1 0 0 0
                            CONFIGURATION 0 0 0 0 0 0 0 0 0
@@ -39,7 +39,7 @@
                                  DISPLAY 0 0 0 0 0 1 0 0 0
                                    ISSUE 0 1 0 0 0 1 0 1 1
                                  SUPPORT 0 0 0 0 0 1 0 0 0
-                                 UPDATES 0 0 0 0 0 0 0 1 0
+                                 UPDATES 0 0 0 0 0 0 0 1 1
                                      IDK 0 0 1 0 0 0 0 0 1
                                     PLUG 0 0 0 0 0 0 1 1 0
                                  NETWORK 0 0 0 0 0 1 0 0 0
@@ -55,11 +55,11 @@
                                   ACCESS 0 0 0 0 0 1 0 0 0
                                 SOFTWARE 0 1 0 0 0 1 0 2 1
                                   TCP/IP 0 0 0 0 0 0 0 0 0
-                                 SERVICE 0 0 0 0 0 1 0 2 1
-                             CONNECTIONS 0 0 0 0 0 1 0 2 0
-                                    MODE 0 0 0 0 0 1 0 1 0
+                                 SERVICE 0 0 0 0 0 1 0 2 0
+                             CONNECTIONS 0 0 0 0 0 1 0 2 1
+                                    MODE 0 0 0 0 0 1 0 1 1
                                    START 0 0 0 0 0 1 0 1 1
-                               MICROSOFT 0 0 1 0 0 1 0 0 0
+                               MICROSOFT 0 0 1 0 0 1 0 0 1
                               EXPERIENCE 0 0 0 0 0 1 0 0 0
                                  PROCESS 0 0 0 0 0 1 0 0 0
                                  RESULTS 1 1 0 0 0 1 0 1 1
@@ -74,18 +74,18 @@
                                   CENTER 0 0 0 0 0 1 0 0 0
                                DETECTION 0 0 0 0 0 0 0 0 0
                                      NAT 0 0 0 0 0 0 0 0 0
-                                SERVICES 1 0 0 0 0 1 0 2 0
+                                SERVICES 1 0 0 0 0 1 0 2 1
                                  GATEWAY 0 0 0 0 0 0 0 0 0
                                  PROFILE 0 0 0 0 0 1 0 2 1
                                    STEPS 0 0 0 0 0 1 0 1 1
-                                    PATH 0 0 0 0 0 1 0 1 1
+                                    PATH 0 0 0 0 0 1 0 1 0
                                    VISTA 0 0 0 0 0 0 0 0 1
                                     IPOD 0 0 0 0 0 0 0 0 0
                                     TASK 0 0 0 0 0 1 0 0 0
                                    KODAK 0 0 0 0 0 1 0 0 0
                                      NET 0 0 0 0 0 1 0 0 1
                                        C 0 0 1 0 0 1 0 1 0
-                                 COMMAND 0 0 0 0 0 1 0 1 0
+                                 COMMAND 0 0 0 0 0 1 0 1 1
                                 COMMANDS 0 0 0 0 0 1 0 1 1
                                 SECURITY 0 0 0 0 0 1 0 0 0
                                   VOLUME 0 0 0 0 0 1 0 1 1
@@ -109,11 +109,11 @@
                                  SCANNER 0 0 0 0 0 0 0 0 0
                                 WATCHDOG 0 0 0 0 0 0 0 1 1
                                  BROWSER 0 0 0 0 0 1 0 1 1
-                                     DNS 0 0 0 0 0 0 0 1 0
+                                     DNS 0 0 0 0 0 0 0 1 1
                                   POLICY 0 0 0 0 0 1 0 0 0
                                    AGENT 0 0 0 0 0 1 0 0 0
                                   CAMERA 0 0 0 0 0 1 0 0 0
-                                 SPOOLER 0 0 0 0 0 0 0 1 1
+                                 SPOOLER 0 0 0 0 0 0 0 1 0
                                      RPC 0 0 0 0 0 0 0 0 0
                                 ACCOUNTS 0 0 0 0 0 1 0 1 0
                             NOTIFICATION 0 0 0 0 0 0 0 0 0

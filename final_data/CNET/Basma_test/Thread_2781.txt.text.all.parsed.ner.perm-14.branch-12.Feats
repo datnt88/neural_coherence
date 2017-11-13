@@ -5,7 +5,7 @@
                                    ABOUT 0 0 0 0 0 0 1 1 1
                                      ALL 0 0 0 0 0 0 0 1 1
                                     SOME 0 0 0 0 0 0 1 1 1
-                                   VIDEO 0 1 0 0 0 1 0 2 0
+                                   VIDEO 0 1 0 0 0 1 0 2 1
                                     CARD 0 1 0 0 0 1 0 1 1
                                       OC 0 0 1 0 0 0 0 1 1
                                   ANSWER 0 0 0 0 0 1 0 1 1
@@ -13,10 +13,10 @@
                                    SPEED 0 0 0 0 0 1 0 1 1
                                   ENOUGH 0 0 0 0 0 1 0 1 1
                                      BIT 0 0 0 0 0 1 0 1 1
-                                   CARDS 0 0 0 0 0 1 0 1 1
+                                   CARDS 0 0 0 0 0 1 0 1 0
                                       MB 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 3 1
-                                COMPUTER 0 1 0 0 0 1 0 2 1
+                                COMPUTER 0 1 0 0 0 1 0 2 0
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 1 1
@@ -59,7 +59,7 @@
                                      OWN 0 0 0 0 0 0 1 1 1
                                OPERATING 0 0 0 0 0 0 0 0 0
                                      CPU 0 0 0 0 0 0 0 1 1
-                                   INTEL 0 0 1 0 0 1 0 1 1
+                                   INTEL 0 0 1 0 0 1 0 1 0
                              PERFORMANCE 1 1 0 0 0 1 0 0 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
@@ -83,7 +83,7 @@
                            COMPATIBILITY 0 0 0 0 0 0 0 0 1
                               COMPATIBLE 0 0 0 0 0 0 0 1 1
                                  REGARDS 0 0 0 0 0 0 0 1 1
-                                    DELL 0 0 1 0 0 0 0 1 0
+                                    DELL 0 0 1 0 0 0 0 1 1
                                     CMOS 0 0 0 0 0 0 0 1 1
                                     AREA 0 0 0 0 0 1 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 2 1
@@ -115,12 +115,12 @@
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 1 1
-                                    TECH 0 0 1 0 0 0 1 0 1
+                                    TECH 0 0 1 0 0 0 1 0 0
                                      REP 0 0 0 0 0 0 0 1 1
                                    BOARD 0 1 0 0 0 1 0 1 1
                                   BRANDS 0 1 0 0 0 1 0 1 1
                                    START 0 0 0 0 0 1 0 1 1
-                               MICROSOFT 0 0 1 0 0 1 0 0 0
+                               MICROSOFT 0 0 1 0 0 1 0 0 1
                                       VS 0 0 1 0 0 0 1 0 0
                                    STUFF 0 0 0 0 0 1 0 1 1
                                   PRICES 1 1 0 0 0 1 0 1 1
@@ -156,8 +156,8 @@
                                  CHANGES 0 0 0 0 0 1 0 1 1
                                 RESEARCH 0 1 0 0 0 1 0 1 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                   64-BIT 0 0 0 0 0 0 0 1 1
                                 ARTICLES 0 0 0 0 0 1 0 1 1
                                 ADDITION 0 0 0 0 0 1 0 0 1
@@ -199,7 +199,6 @@
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                    9.99 0 0 0 7 0 0 0 1 1
                                  MUCKING 0 0 0 0 0 0 0 1 1
                                       A+ 0 0 0 0 0 0 0 1 1
                                     CERT 0 0 0 0 0 0 0 1 1
@@ -210,6 +209,7 @@
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
+                                    9.99 0 0 0 7 0 0 0 1 1
                                    STITE 0 0 0 0 0 0 0 1 1
                               BONES&QUOT 0 0 0 0 0 0 0 1 1
                                SUPPLIERS 0 0 0 0 0 1 0 1 1

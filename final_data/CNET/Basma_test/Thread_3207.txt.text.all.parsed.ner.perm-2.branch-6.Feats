@@ -6,13 +6,13 @@
                                    SPEED 0 0 0 0 0 1 0 1 1
                                      BIT 0 0 0 0 0 1 0 1 1
                                       MB 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 0 1
+                                  SYSTEM 0 1 0 0 0 1 0 0 0
                                     MOBO 0 0 0 0 0 0 0 1 1
                                     CHIP 0 0 0 0 0 1 0 0 0
                               CONTROLLER 0 0 0 0 0 1 0 0 0
                                      ONE 0 0 0 0 0 1 0 1 1
                                     BOOT 0 0 0 0 0 0 0 0 1
-                                    BIOS 0 0 0 0 0 0 0 1 1
+                                    BIOS 0 0 0 0 0 0 0 1 0
                                     THIS 0 0 0 0 0 1 0 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 2 1
                                       PC 0 0 0 0 0 1 0 0 0
@@ -26,7 +26,7 @@
                                       .. 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
                                     FINE 0 1 0 0 0 1 0 1 1
-                                  NVIDIA 0 0 0 0 0 0 0 2 1
+                                  NVIDIA 0 0 0 0 0 0 0 2 0
                                     DDR2 0 0 0 0 0 0 0 1 1
                                     LIST 0 0 0 0 0 1 0 0 0
                                 SOLUTION 0 0 0 0 0 1 0 0 0
@@ -40,10 +40,10 @@
                                     PLAN 0 1 0 0 0 1 0 1 1
                                    MODEL 0 0 0 0 0 1 0 0 1
                                      MAX 0 0 1 0 0 1 0 0 0
-                               PROCESSOR 0 0 0 0 0 0 0 2 1
+                               PROCESSOR 0 0 0 0 0 0 0 2 0
                                   SOCKET 0 0 0 0 0 0 0 0 0
                                      DDR 0 0 0 0 0 0 0 0 1
-                                    SLOT 0 0 0 0 0 1 0 1 0
+                                    SLOT 0 0 0 0 0 1 0 1 1
                                 FUNCTION 0 0 0 0 0 1 0 0 0
                                  GIGABIT 0 0 0 0 0 0 0 0 0
                                 ETHERNET 0 0 0 0 0 0 0 0 0
@@ -74,18 +74,18 @@
                                 FIREWIRE 0 0 0 0 0 0 0 0 0
                                       RE 0 0 1 0 0 1 0 0 1
                                   ACTION 0 1 0 0 0 1 0 0 1
-                                CAPACITY 0 0 0 0 0 1 0 1 0
+                                CAPACITY 0 0 0 0 0 1 0 1 1
                                INTERFACE 0 0 1 0 0 1 0 0 0
                                      ??? 0 0 0 0 0 0 0 0 1
-                                   SHEET 0 0 0 0 0 1 0 0 0
                                     BANK 0 1 0 0 0 1 0 1 1
+                                   SHEET 0 0 0 0 0 1 0 0 0
                                   DESIGN 0 0 0 0 0 1 0 1 1
                                     RAID 0 0 0 0 0 1 0 0 0
                                ADVANTAGE 1 0 0 0 0 1 0 0 1
                              PERIPHERALS 0 0 0 0 0 0 0 0 0
                                     MESH 0 0 0 0 0 0 0 0 0
                                   ENGINE 0 0 0 0 0 1 0 0 0
-                            ARCHITECTURE 0 0 0 0 0 0 0 2 0
+                            ARCHITECTURE 0 0 0 0 0 0 0 2 1
                                     CPUZ 0 0 0 0 0 0 0 0 1
                              CRUCIAL.COM 0 0 0 0 0 0 0 0 1
                               MEMTEST86+ 0 0 0 0 0 0 0 0 1

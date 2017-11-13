@@ -31,7 +31,7 @@
                                   THINGS 0 0 0 0 0 1 0 1 1
                                 EVERYONE 0 0 0 0 0 1 0 0 1
                                   MARKET 0 1 0 0 0 1 0 2 1
-                                  TABLET 0 0 0 0 0 0 0 3 1
+                                  TABLET 0 0 0 0 0 0 0 3 0
                                    PHONE 0 0 0 0 0 1 0 0 0
                                  COMPANY 0 1 0 0 0 1 0 1 1
                                     HERE 0 0 0 0 0 0 1 0 1
@@ -44,10 +44,10 @@
                                    PAPER 0 1 0 0 0 1 0 0 0
                                      BOB 0 1 1 0 0 1 0 0 1
                                  TABLETS 0 0 0 0 0 1 0 2 1
-                                 WINDOWS 0 0 0 0 0 1 0 0 0
+                                 WINDOWS 0 0 0 0 0 1 0 0 1
                                OPERATING 0 0 0 0 0 0 0 0 0
                                  GENERIC 0 0 0 0 0 0 0 1 1
-                                   BRAND 0 0 0 0 0 1 0 1 1
+                                   BRAND 0 0 0 0 0 1 0 1 0
                                   CHOICE 0 0 0 0 0 1 0 0 0
                                     BEST 0 0 0 0 0 0 1 1 1
                                  VERSION 1 0 0 0 0 1 0 1 1
@@ -65,7 +65,7 @@
                                   SCHEME 0 0 0 0 0 1 0 1 1
                                  ANDROID 0 0 0 0 0 0 0 0 1
                                  SAMSUNG 0 0 1 0 0 1 0 0 1
-                                   APPLE 0 0 0 0 0 1 0 2 0
+                                   APPLE 0 0 0 0 0 1 0 2 1
                                     IPAD 0 0 0 0 0 0 0 3 1
                                     FORM 0 1 0 0 0 1 0 1 1
                                     FIRE 0 0 0 0 0 1 0 1 1
@@ -92,7 +92,7 @@
                                    WORLD 0 1 0 0 0 1 0 1 1
                                     NONE 0 0 0 0 0 1 0 0 1
                             MANUFACTURER 0 0 0 0 0 1 0 1 1
-                                    NAME 0 0 0 0 0 1 0 3 1
+                                    NAME 0 0 0 0 0 1 0 3 0
                                    DRINK 0 0 0 0 0 0 0 2 1
                                   GOOGLE 0 0 0 0 0 0 0 0 1
                                     MASS 0 0 0 0 0 1 0 0 0
@@ -122,9 +122,9 @@
                                  SCREENS 0 0 0 0 0 1 0 1 1
                                   NAMING 0 0 0 0 0 0 0 0 0
                                     EDGE 0 0 0 0 0 1 0 1 1
-                                 GRAPHIC 0 0 0 0 0 0 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
+                                 GRAPHIC 0 0 0 0 0 0 0 1 1
                                     BALL 0 0 0 0 0 1 0 0 0
                                    -RSB- 0 0 0 0 0 0 0 2 1
                                    USERS 0 0 0 0 0 1 0 1 1
@@ -135,7 +135,7 @@
                                 STANDARD 0 0 0 0 0 1 0 1 1
                                  COUNTRY 0 0 0 0 0 1 0 1 1
                                COUNTRIES 0 1 0 0 0 1 0 1 1
-                                   WATER 0 0 0 0 0 1 0 1 0
+                                   WATER 0 0 0 0 0 1 0 1 1
                                    PLANS 0 1 0 0 0 1 0 1 1
                                  CONSOLE 0 0 0 0 0 0 0 0 1
                                  CLEANER 0 0 0 0 0 0 0 1 1
@@ -149,12 +149,12 @@
                              PLAYSTATION 0 0 0 0 0 1 0 1 1
                                THOUSANDS 0 0 0 0 0 1 0 1 1
                                    NAMES 0 0 0 0 0 1 0 1 1
-                                    TERM 0 0 0 0 0 1 0 2 1
+                                    TERM 0 0 0 0 0 1 0 2 0
                                   APPLES 0 0 0 0 0 1 0 1 1
                                     FITS 0 0 0 0 0 0 0 1 1
+                                   KINDS 0 0 0 0 0 1 0 1 1
                                     RULE 0 1 0 0 0 1 0 1 1
                                   MORTAR 0 0 0 0 0 1 0 0 0
-                                   KINDS 0 0 0 0 0 1 0 1 1
                              OPPORTUNITY 0 0 0 0 0 1 0 1 1
                                 RETAILER 0 0 0 0 0 1 0 2 1
                                   KINDLE 0 0 0 0 0 0 0 1 1
@@ -180,6 +180,23 @@
                                  CONTEXT 0 0 0 0 0 1 0 1 1
                                     BLOG 0 0 0 0 0 0 0 1 1
                                 ADOPTION 0 0 0 0 0 0 0 1 1
+                                    COKE 0 1 0 0 0 1 0 2 1
+                               COKE&QUOT 0 0 0 0 0 0 0 1 1
+                                   PEPSI 0 0 0 0 0 1 0 1 1
+                                    COLA 0 0 0 0 0 0 0 1 0
+                                  BUCKET 0 0 0 0 0 0 0 1 1
+                                   SODAS 0 0 0 0 0 0 0 0 0
+                              RESTAURANT 0 0 0 0 0 1 0 1 1
+                                 KLEENEX 0 0 0 0 0 0 0 1 1
+                                  SNEEZE 0 0 0 0 0 0 0 1 1
+                                  TISSUE 0 0 0 0 0 1 0 1 1
+                                 LINEAGE 0 0 0 0 0 0 0 1 1
+                                SPIKE715 0 0 0 0 0 0 0 0 1
+                          INCOMPTABILITY 0 0 0 0 0 0 0 1 1
+                               IPAD&QUOT 0 0 0 0 0 0 0 0 1
+                                  SUITES 0 0 0 0 0 1 0 1 1
+                                    ITAB 0 0 0 0 0 0 0 1 1
+                                  -LSB-& 0 0 0 0 0 0 0 0 0
                                     BUZZ 0 0 0 0 0 1 0 1 1
                                COMMODITY 0 0 0 0 0 0 0 1 1
                        TABLETS/E-READERS 0 0 0 0 0 0 0 1 1
@@ -195,36 +212,19 @@
                               HAIRS&QUOT 0 0 0 0 0 0 0 1 1
                                    EDSEL 0 0 1 0 0 0 0 0 0
                                COMMODORE 0 0 1 0 0 0 0 0 0
-                                    COKE 0 1 0 0 0 1 0 2 0
                                   SLANGS 0 0 0 0 0 0 0 1 1
                                     PENS 0 0 0 0 0 0 0 1 1
                                     BIRO 0 0 0 0 0 1 0 0 1
-                                 KLEENEX 0 0 0 0 0 0 0 1 1
                                  TISSUES 0 0 0 0 0 1 0 1 1
                            FOUNTAIN&QUOT 0 0 0 0 0 0 0 1 1
                                    SHEEP 0 0 0 0 0 0 0 0 0
-                                   I-PAD 0 0 1 0 0 0 0 1 1
+                                   I-PAD 0 0 0 0 0 0 0 1 1
                             SHORTCOMINGS 0 0 0 0 0 1 0 1 1
                                  ANDRIOD 0 0 0 0 0 0 0 0 0
-                               PUBLICITY 0 0 0 0 0 1 0 1 1
+                               PUBLICITY 0 0 0 0 0 1 0 1 0
                                     HYPE 0 0 0 0 0 1 0 1 1
-                               COKE&QUOT 0 0 0 0 0 0 0 1 1
-                                   PEPSI 0 0 0 0 0 1 0 1 1
-                                    COLA 0 0 0 0 0 0 0 1 1
-                                  BUCKET 0 0 0 0 0 0 0 1 1
-                                   SODAS 0 0 0 0 0 0 0 0 0
-                              RESTAURANT 0 0 0 0 0 1 0 1 1
-                                  SNEEZE 0 0 0 0 0 0 0 1 1
-                                  TISSUE 0 0 0 0 0 1 0 1 1
-                                 LINEAGE 0 0 0 0 0 0 0 1 1
-                                SPIKE715 0 0 0 0 0 0 0 0 1
-                          INCOMPTABILITY 0 0 0 0 0 0 0 1 1
-                               IPAD&QUOT 0 0 0 0 0 0 0 0 1
-                                  SUITES 0 0 0 0 0 1 0 1 1
-                                    ITAB 0 0 0 0 0 0 0 1 1
-                                  -LSB-& 0 0 0 0 0 0 0 0 0
                                SODA&QUOT 0 0 0 0 0 0 0 0 1
-                                    SODA 0 0 0 0 0 0 0 1 0
+                                    SODA 0 0 0 0 0 0 0 1 1
                                 LEMONADE 0 0 0 0 0 0 0 0 0
                                   HOOVER 0 0 1 0 0 1 0 1 1
                                   DANGER 0 0 0 0 0 1 0 1 1

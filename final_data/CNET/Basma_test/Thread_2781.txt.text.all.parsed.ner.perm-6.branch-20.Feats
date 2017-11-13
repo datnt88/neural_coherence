@@ -19,14 +19,14 @@
                                       MB 0 0 0 0 0 0 0 2 1
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                 HARDWARE 0 0 0 0 0 0 0 0 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
                                  DIGITAL 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
-                                   DRIVE 0 0 0 0 0 1 0 3 1
+                                   DRIVE 0 0 0 0 0 1 0 3 0
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
@@ -34,7 +34,7 @@
                                    THREE 0 0 0 0 0 1 0 0 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
                                    OTHER 0 0 0 0 0 0 0 1 1
-                                    KIND 0 0 0 0 0 1 0 1 0
+                                    KIND 0 0 0 0 0 1 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                                      TWO 0 0 0 0 0 0 1 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 2 1
@@ -60,7 +60,7 @@
                                 FEATURES 0 0 0 0 0 1 0 1 1
                                     DAYS 0 0 0 6 0 1 0 1 1
                               DIRECTIONS 0 0 0 0 0 1 0 0 1
-                                    WORK 0 0 0 0 0 1 0 1 0
+                                    WORK 0 0 0 0 0 1 0 1 1
                                       HP 0 0 1 0 0 0 0 0 0
                                      FUN 0 0 0 0 0 1 0 1 1
                                   BUDGET 0 1 0 0 0 1 0 1 1
@@ -71,7 +71,7 @@
                                       OS 0 0 0 0 0 0 0 1 1
                                  WINDOWS 0 0 0 0 0 1 0 1 1
                                      OWN 0 0 0 0 0 0 1 2 1
-                                   INTEL 0 0 1 0 0 1 0 1 0
+                                   INTEL 0 0 1 0 0 1 0 1 1
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
@@ -80,7 +80,7 @@
                                       HD 0 0 1 0 0 0 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 1 1
                                  CHIPSET 0 0 0 0 0 0 0 1 1
-                                   PARTS 1 0 0 0 0 1 0 2 0
+                                   PARTS 1 0 0 0 0 1 0 2 1
                                      RIG 0 0 0 0 0 0 0 1 1
                                 BUSINESS 0 1 0 0 0 1 0 0 1
                                     GAME 0 0 0 0 0 1 0 0 0
@@ -131,10 +131,10 @@
                                  SOMEONE 0 0 0 0 0 1 0 1 1
                                     TECH 0 0 1 0 0 0 1 1 0
                                      REP 0 0 0 0 0 0 0 1 1
-                                   BOARD 0 1 0 0 0 1 0 1 1
+                                   BOARD 0 1 0 0 0 1 0 1 0
                                    WORLD 0 1 0 0 0 1 0 1 1
                                  CLIENTS 0 1 0 0 0 1 0 1 1
-                               MICROSOFT 0 0 1 0 0 1 0 0 0
+                               MICROSOFT 0 0 1 0 0 1 0 0 1
                                       VS 0 0 1 0 0 0 1 0 0
                                     NONE 0 0 0 0 0 1 0 0 1
                                    STUFF 0 0 0 0 0 1 0 1 1
@@ -190,10 +190,10 @@
                                 CAPACITY 0 0 0 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                    DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 0 0
                                     WATT 0 0 0 0 0 1 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
                                  SCANNER 0 0 0 0 0 0 0 1 1
@@ -211,8 +211,8 @@
                                     MESS 0 0 0 0 0 1 0 0 0
                              SYSTEM&QUOT 0 0 0 0 0 0 0 1 1
                             PROFESSIONAL 0 0 0 0 0 1 0 1 1
-                                 SCIENCE 0 0 0 0 0 1 0 1 0
-                                SHIPPING 0 0 0 0 0 0 0 1 0
+                                 SCIENCE 0 0 0 0 0 1 0 1 1
+                                SHIPPING 0 0 0 0 0 0 0 1 1
                                 CREATION 0 0 0 0 0 1 0 1 1
                                  CHANCES 0 0 0 0 0 1 0 1 1
                                ADVANTAGE 1 0 0 0 0 1 0 1 1
@@ -256,17 +256,17 @@
      MOTHERBOARD+CPU+HSF+POWERSUPPLY+RAM 0 0 0 0 0 0 0 1 1
                                TINKERING 0 0 0 0 0 0 0 0 1
                                  1.83GHZ 0 0 0 0 0 0 0 1 1
-                               RE-BUILDS 0 0 0 0 0 0 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                                  FERVOR 0 0 0 0 0 0 0 1 1
                                     CERT 0 0 0 0 0 0 0 1 1
                                  TECHNET 0 0 0 0 0 0 0 0 0
                                  MEETING 0 0 0 0 0 1 0 1 1
                                  LECTURE 0 0 0 0 0 0 0 1 1
                              STITES&QUOT 0 0 0 0 0 0 0 0 1
+                               RE-BUILDS 0 0 0 0 0 0 0 1 1
+                                    9.99 0 0 0 7 0 0 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
+                                  FERVOR 0 0 0 0 0 0 0 1 1
                                    STITE 0 0 0 0 0 0 0 2 1
                                   RESUME 0 0 0 0 0 1 0 1 1
                                  EREEDKS 0 0 0 0 0 0 0 0 1

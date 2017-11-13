@@ -13,11 +13,11 @@
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 0 1
-                                    DISK 0 0 0 0 0 1 0 2 0
+                                    DISK 0 0 0 0 0 1 0 2 1
                                  NOTHING 0 0 0 0 0 1 0 2 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                     BOOT 0 0 0 0 0 0 0 0 0
-                                    BIOS 0 0 0 0 0 0 0 1 1
+                                    BIOS 0 0 0 0 0 0 0 1 0
                                 MACHINES 0 1 0 0 0 1 0 1 1
                                     KIND 0 0 0 0 0 1 0 1 1
                                    BEING 0 0 0 0 0 1 0 0 0
@@ -44,7 +44,7 @@
                                     LIST 0 0 0 0 0 1 0 1 1
                                   ANYONE 0 0 0 0 0 1 0 0 1
                                  REVIEWS 0 0 0 0 0 1 0 1 1
-                                     BOB 0 1 1 0 0 1 0 0 0
+                                     BOB 0 1 1 0 0 1 0 0 1
                                     MORE 0 0 0 0 0 0 1 0 1
                                  THOUGHT 0 0 0 0 0 1 0 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
@@ -61,7 +61,7 @@
                                     COMP 0 0 0 0 0 0 0 1 1
                                   SWITCH 0 0 0 0 0 1 0 1 1
                                    CABLE 0 0 0 0 0 1 0 1 1
-                              MANAGEMENT 0 1 0 0 0 1 0 1 0
+                              MANAGEMENT 0 1 0 0 0 1 0 1 1
                                    TODAY 0 0 0 6 0 1 0 0 1
                                    FORUM 0 0 0 0 0 1 0 0 0
                                    ISSUE 0 1 0 0 0 1 0 1 1
@@ -81,7 +81,7 @@
                                 RESPONSE 0 0 0 0 0 1 0 0 0
                                    ESATA 0 0 0 0 0 0 0 0 1
                                PARTITION 0 0 0 0 0 0 1 0 0
-                                    PORT 0 0 0 0 0 1 0 2 0
+                                    PORT 0 0 0 0 0 1 0 2 1
                             INSTALLATION 0 0 0 0 0 1 0 1 1
                                      WAY 1 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 0 0
@@ -94,7 +94,7 @@
                                  DEFAULT 0 0 0 0 0 1 0 1 1
                                    BOARD 0 1 0 0 0 1 0 0 0
                                    START 0 0 0 0 0 1 0 0 0
-                                    DISC 0 0 0 0 0 1 0 2 0
+                                    DISC 0 0 1 0 0 1 0 2 1
                                   MAKERS 0 0 0 0 0 1 0 1 1
                                   OPTION 0 0 0 0 0 1 0 1 1
                                     NONE 0 0 0 0 0 1 0 1 1
@@ -124,7 +124,7 @@
                                       GB 0 0 0 0 0 0 0 1 1
                                     FILE 0 0 0 0 0 1 0 1 1
                                    DISKS 0 0 0 0 0 1 0 1 1
-                                    RPMS 0 0 0 0 0 0 0 1 0
+                                    RPMS 0 0 0 0 0 0 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                   SLOWER 0 0 0 0 0 0 0 1 0
                                      BAR 0 0 0 0 0 1 0 1 1
@@ -133,10 +133,10 @@
                                  COMMAND 0 0 0 0 0 1 0 0 0
                                 COMMANDS 0 0 0 0 0 1 0 1 1
                                    NOTES 0 1 0 0 0 1 0 1 1
-                                   SHEET 0 0 0 0 0 1 0 1 1
-                                     KIT 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                   ZALMAN 0 0 1 0 0 0 0 1 1
+                                   SHEET 0 0 0 0 0 1 0 1 1
+                                     KIT 0 0 0 0 0 1 0 1 1
                                      MSN 0 0 0 0 0 1 0 0 1
                                   MINUTE 0 0 0 0 0 1 0 1 1
                                 REACTION 0 0 0 0 0 1 0 1 1
@@ -178,7 +178,7 @@
                                  COPYING 0 0 0 0 0 0 0 0 1
                               THUMBNAILS 0 0 0 0 0 0 0 0 1
                                    BUGGY 0 0 0 0 0 0 0 1 1
-                                      TB 0 0 0 0 0 0 0 1 1
+                                      TB 0 0 0 0 0 0 0 1 0
                                    XCOPY 0 0 0 0 0 0 0 2 1
                                    PATHS 0 0 0 0 0 1 0 0 0
                                WILDCARDS 0 0 0 0 0 0 0 1 1

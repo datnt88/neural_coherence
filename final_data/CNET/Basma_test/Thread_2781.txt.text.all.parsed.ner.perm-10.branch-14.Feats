@@ -7,9 +7,9 @@
                                      ALL 0 0 0 0 0 0 0 0 1
                                     NEED 0 0 0 0 0 1 0 0 1
                                     SOME 0 0 0 0 0 0 1 1 1
-                                   ORDER 0 0 0 0 0 1 0 1 1
+                                   ORDER 0 0 0 0 0 1 0 1 0
                                    512MB 0 0 0 0 0 0 0 1 1
-                                   VIDEO 0 1 0 0 0 1 0 2 0
+                                   VIDEO 0 1 0 0 0 1 0 2 1
                                     CARD 0 1 0 0 0 1 0 2 1
                                       OC 0 0 1 0 0 0 0 1 1
                                   THANKS 0 0 0 0 0 1 0 0 0
@@ -17,7 +17,7 @@
                                    SPEED 0 0 0 0 0 1 0 2 1
                                      BIT 0 0 0 0 0 1 0 2 1
                                    CARDS 0 0 0 0 0 1 0 1 1
-                                      MB 0 0 0 0 0 0 0 1 0
+                                      MB 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                     YEAR 0 1 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 1
@@ -55,9 +55,9 @@
                                   STICKS 0 0 0 0 0 1 0 1 1
                                      RAM 0 0 1 0 0 1 0 2 1
                                      ATX 0 0 0 0 0 0 0 1 1
-                                    CASE 0 1 0 0 0 1 0 1 0
+                                    CASE 0 1 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 1 1
+                                  MEMORY 0 1 0 0 0 1 0 1 0
                                   THINGS 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 2 1
                                    MODEM 0 0 0 0 0 1 0 1 1
@@ -80,7 +80,7 @@
                                      OWN 0 0 0 0 0 0 1 1 1
                                OPERATING 0 0 0 0 0 0 0 0 0
                                      CPU 0 0 0 0 0 0 0 3 1
-                                   INTEL 0 0 1 0 0 1 0 2 1
+                                   INTEL 0 0 1 0 0 1 0 2 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 1 0
@@ -90,9 +90,9 @@
                                    PARTS 1 0 0 0 0 1 0 3 1
                                    KINDA 0 0 0 0 0 0 0 0 1
                                   PEOPLE 0 1 0 0 0 1 0 1 1
-                                    COST 0 0 0 0 0 1 0 1 0
-                                   TIMES 0 1 0 0 0 1 0 1 0
-                               PROCESSOR 0 0 0 0 0 0 0 1 0
+                                    COST 0 0 0 0 0 1 0 1 1
+                                   TIMES 0 1 0 0 0 1 0 1 1
+                               PROCESSOR 0 0 0 0 0 0 0 1 1
                                  EXAMPLE 0 0 0 0 0 1 0 1 1
                                      FAN 0 0 0 0 0 1 0 2 1
                                      BUY 0 0 0 0 0 0 0 0 0
@@ -102,14 +102,14 @@
                                  PENTIUM 0 0 0 0 0 0 0 1 1
                                   ONLINE 0 0 0 0 0 1 0 0 0
                            COMPATIBILITY 0 0 0 0 0 0 0 0 1
-                                    DELL 0 0 1 0 0 0 0 2 0
+                                    DELL 0 0 1 0 0 0 0 2 1
                                     CMOS 0 0 0 0 0 0 0 1 1
                                ALIENWARE 0 0 0 0 0 0 0 0 0
                                     AREA 0 0 0 0 0 1 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 2 1
                                      GHZ 0 0 0 0 0 0 0 1 1
                                      FSB 0 0 0 0 0 0 0 1 1
-                                   SOUND 0 0 0 0 0 1 0 1 0
+                                   SOUND 0 0 0 0 0 1 0 1 1
                                      KEY 0 0 0 0 0 1 0 1 1
                                       XP 0 0 0 0 0 0 0 0 1
                                     DONT 0 0 0 0 0 0 0 0 0
@@ -146,8 +146,8 @@
                                  SOMEONE 0 0 0 0 0 1 0 1 1
                                     WORD 0 0 0 0 0 1 0 0 0
                                   BACKUP 0 0 0 0 0 0 0 0 0
-                                    TECH 0 0 1 0 0 0 1 1 1
-                                   BOARD 0 1 0 0 0 1 0 1 0
+                                    TECH 0 0 1 0 0 0 1 1 0
+                                   BOARD 0 1 0 0 0 1 0 1 1
                                   BRANDS 0 1 0 0 0 1 0 1 1
                                EMACHINES 0 0 0 0 0 0 0 1 1
                                       VS 0 0 1 0 0 0 1 0 0
@@ -157,7 +157,7 @@
                               EXPERIENCE 0 0 0 0 0 1 0 2 1
                                  PROCESS 0 0 0 0 0 1 0 1 1
                            UNDERSTANDING 0 0 0 0 0 1 0 1 1
-                                     OEM 0 0 0 0 0 0 0 1 1
+                                     OEM 0 0 0 0 0 0 0 1 0
                                    TYPES 0 1 0 0 0 1 0 1 1
                                       PS 0 1 1 0 0 0 0 0 0
                                    STORE 0 0 0 0 0 1 0 1 1
@@ -184,14 +184,14 @@
                              ELECTRONICS 0 0 0 0 0 1 0 2 1
                                     FILE 0 0 0 0 0 1 0 0 0
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
-                                   SITES 0 0 0 0 0 1 0 1 1
+                                   SITES 0 0 0 0 0 1 0 1 0
                                     MAIL 0 0 0 0 0 1 0 0 0
                                  EDITING 0 0 0 0 0 1 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 2 1
                                  GATEWAY 0 0 0 0 0 0 0 1 1
                            MANUFACTURERS 0 1 0 0 0 1 0 1 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
-                               KNOWLEDGE 0 0 0 0 0 1 0 1 1
+                               KNOWLEDGE 0 0 0 0 0 1 0 1 0
                                   METHOD 0 0 0 0 0 1 0 0 0
                                      FRY 0 0 0 0 0 1 0 1 1
                                 RESEARCH 0 1 0 0 0 1 0 1 1
@@ -200,12 +200,12 @@
                                      MAN 0 1 0 0 0 1 0 1 1
                                      HEY 0 0 1 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 1 1
                                   64-BIT 0 0 0 0 0 0 0 1 1
                                  SCANNER 0 0 0 0 0 0 0 1 1
@@ -225,12 +225,12 @@
                             PROFESSIONAL 0 0 0 0 0 1 0 1 1
                                    CROSS 0 0 0 0 0 1 0 0 0
                                      DAD 0 0 0 0 0 1 0 1 1
-                                 SCIENCE 0 0 0 0 0 1 0 1 1
+                                 SCIENCE 0 0 0 0 0 1 0 1 0
                                 SHIPPING 0 0 0 0 0 0 0 1 1
                                ADVANTAGE 1 0 0 0 0 1 0 1 1
                                     LIFE 0 0 0 0 0 1 0 0 1
                                   ADVISE 0 0 0 0 0 0 0 0 1
-                                    STAN 0 0 1 0 0 0 0 2 1
+                                    STAN 0 0 1 0 0 0 0 2 0
                                FAVORITES 0 0 0 0 0 1 0 1 1
                                   DECADE 0 0 0 0 0 1 0 1 1
                                      ADS 0 0 0 0 0 1 0 1 1
@@ -267,19 +267,19 @@
                                    GOALS 0 0 0 0 0 1 0 1 1
                               W/HEATSINK 0 0 0 0 0 0 0 0 0
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                               MOTIVATION 0 0 0 0 0 1 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                W/500WATT 0 0 0 0 0 0 0 0 0
+                                    CERT 0 0 0 0 0 0 0 1 1
+                              STITE&QUOT 0 0 0 0 0 0 0 0 1
+                             STITES&QUOT 0 0 0 0 0 0 0 0 1
+                           SPEFICIATIONS 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
                                  PROFITS 0 0 0 0 0 1 0 1 1
                                     9.99 0 0 0 7 0 0 0 1 1
                                   FERVOR 0 0 0 0 0 0 0 1 1
                            PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
                                  KINGMAX 0 0 0 0 0 0 0 0 0
-                                    CERT 0 0 0 0 0 0 0 1 1
-                              STITE&QUOT 0 0 0 0 0 0 0 0 1
-                             STITES&QUOT 0 0 0 0 0 0 0 0 1
-                           SPEFICIATIONS 0 0 0 0 0 0 0 1 1
                                  DEFENSE 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 1 1
                                  PUDDING 0 0 0 0 0 0 0 1 1

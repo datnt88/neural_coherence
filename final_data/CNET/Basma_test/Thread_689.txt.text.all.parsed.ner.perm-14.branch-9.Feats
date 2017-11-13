@@ -28,12 +28,12 @@
                                   MEMORY 0 1 0 0 0 1 0 0 0
                                    CHIPS 0 0 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 2 1
-                                   PHONE 0 0 0 0 0 1 0 1 0
+                                   PHONE 0 0 0 0 0 1 0 1 1
                                       'S 0 0 0 0 0 0 0 0 1
                                 FEATURES 0 0 0 0 0 1 0 1 1
                                     DAYS 0 0 0 0 0 1 0 1 1
                                     USER 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 1 1
+                                      HP 0 0 1 0 0 0 0 1 0
                                   LAPTOP 0 0 0 0 0 0 0 1 1
                                 COMMENTS 0 1 0 0 0 1 0 1 1
                              INFORMATION 0 1 0 0 0 1 0 1 1
@@ -71,7 +71,7 @@
                                 PRINTERS 0 0 0 0 0 1 0 1 1
                                   CLIENT 0 1 0 0 0 1 0 1 1
                                    PRINT 0 0 0 0 0 1 0 0 0
-                                 PRINTER 0 0 0 0 0 0 0 3 1
+                                 PRINTER 0 0 0 0 0 0 0 3 0
                                    QUEUE 0 0 0 0 0 0 0 1 1
                                  QUALITY 0 0 0 0 0 1 0 2 1
                                      WAY 1 0 0 0 0 1 0 1 1
@@ -104,7 +104,7 @@
                                   SEARCH 0 0 0 0 0 1 0 1 1
                                     HEAD 0 0 0 0 0 1 0 1 1
                               CARTRIDGES 0 0 0 0 0 0 0 3 1
-                                PRINTING 0 0 0 0 0 0 0 1 1
+                                PRINTING 0 0 0 0 0 0 0 1 0
                                   PHOTOS 0 0 0 0 0 1 0 0 1
                                    PHOTO 0 0 0 0 0 1 0 0 0
                              REPLACEMENT 0 0 0 0 0 1 0 0 0
@@ -122,13 +122,13 @@
                                   LIMITS 0 0 0 0 0 1 0 1 1
                                 DOCUMENT 1 0 0 0 0 1 0 1 1
                                   VOLUME 0 0 0 0 0 1 0 1 1
-                                     INK 0 0 0 0 0 1 0 0 0
+                                     INK 0 0 0 0 0 1 0 0 1
                                CARTRIDGE 0 0 0 0 0 0 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                  PACKARD 0 0 0 0 0 1 0 1 1
                                   COLORS 0 0 0 0 0 1 0 1 1
                                      GOD 0 0 1 0 0 1 0 0 1
-                                  E-MAIL 0 0 0 0 0 1 0 1 1
+                                  E-MAIL 0 0 0 0 0 1 0 1 0
                              RELIABILITY 0 0 0 0 0 0 0 1 1
                                   REVIEW 0 0 0 0 0 1 0 1 1
                                      FAX 0 0 0 0 0 0 0 1 0
@@ -150,7 +150,7 @@
                            COMPATABILITY 0 0 0 0 0 0 0 1 1
                                      CAM 0 0 0 0 0 0 0 1 1
                                    CANON 0 0 1 0 0 1 0 2 0
-                             INSTRUCTION 0 0 0 0 0 1 0 1 0
+                             INSTRUCTION 0 0 0 0 0 1 0 1 1
                              MALFUNCTION 0 0 0 0 0 0 0 1 1
                                   DRINKS 0 0 0 0 0 1 0 1 1
                                    TRACK 0 0 0 0 0 1 0 0 0
@@ -175,16 +175,7 @@
                                OFFICEJET 0 0 0 0 0 0 0 2 1
                                    MP530 0 0 0 0 0 0 0 1 1
                                   CX9400 0 0 0 0 0 0 0 1 1
-                                 9400FAX 0 0 0 0 0 0 0 1 1
                                CX9400FAX 0 0 0 0 0 0 0 1 1
-                               FOODFIEND 0 0 0 0 0 0 0 0 1
-                                QUANDARY 0 0 0 0 0 0 0 1 1
-                              TROYSUAREZ 0 0 0 0 0 0 0 1 1
-                                    R260 0 0 0 0 0 0 0 1 1
-                                   R2880 0 0 0 0 0 0 0 1 1
-                                   B9180 0 0 0 0 0 0 0 1 1
-                               CARTRAGES 0 0 0 0 0 0 0 1 1
-                               TECH&QUOT 0 0 0 0 0 0 0 1 1
                                 OK.&QUOT 0 0 0 0 0 0 0 0 1
                                  SMUDGES 0 0 0 0 0 0 0 1 1
                                KATHERINE 0 0 1 0 0 1 0 0 0
@@ -201,3 +192,12 @@
                            LONG-DISTANCE 0 0 0 0 0 0 0 0 0
                                   AGENCY 0 1 0 0 0 1 0 1 1
                                    ESPON 0 0 0 0 0 0 0 1 1
+                                 9400FAX 0 0 0 0 0 0 0 1 1
+                               FOODFIEND 0 0 0 0 0 0 0 0 1
+                                QUANDARY 0 0 0 0 0 0 0 1 1
+                              TROYSUAREZ 0 0 0 0 0 0 0 1 1
+                                    R260 0 0 0 0 0 0 0 1 1
+                                   R2880 0 0 0 0 0 0 0 1 1
+                                   B9180 0 0 0 0 0 0 0 1 1
+                               CARTRAGES 0 0 0 0 0 0 0 1 1
+                               TECH&QUOT 0 0 0 0 0 0 0 1 1

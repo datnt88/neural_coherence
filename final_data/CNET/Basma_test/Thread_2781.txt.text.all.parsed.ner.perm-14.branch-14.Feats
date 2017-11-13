@@ -1,4 +1,4 @@
-                                       $ 0 0 0 7 0 0 1 2 1
+                                       $ 0 0 0 0 0 0 1 2 1
                                     TIME 1 1 0 0 0 1 0 0 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                   PERSON 0 1 0 0 0 1 0 1 1
@@ -23,15 +23,15 @@
                                UPGRADING 0 0 0 0 0 0 0 1 1
                                       MB 0 0 0 0 0 0 0 1 0
                                  UPGRADE 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 3 0
+                                  SYSTEM 0 1 0 0 0 1 0 3 1
                                      NEW 0 0 0 0 0 1 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 3 1
                                  DIGITAL 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 1 1
                                      ONE 0 0 0 0 0 1 0 2 1
-                                   DRIVE 0 0 0 0 0 1 0 3 0
+                                   DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 2 1
                                 PROBLEMS 0 0 0 0 0 1 0 2 1
                                     DISK 0 0 0 0 0 1 0 1 1
@@ -53,10 +53,10 @@
                                      AMD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 2 1
                                      RAM 0 0 1 0 0 1 0 1 1
-                                    CASE 0 1 0 0 0 1 0 1 1
+                                    CASE 0 1 0 0 0 1 0 1 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 1 1
+                                  MEMORY 0 1 0 0 0 1 0 1 0
                                      LOT 0 0 0 0 0 1 0 3 1
                                    MODEM 0 0 0 0 0 1 0 1 1
                                       'S 0 0 0 0 0 0 0 0 1
@@ -75,7 +75,7 @@
                                      OWN 0 0 0 0 0 0 1 2 1
                                OPERATING 0 0 0 0 0 0 0 0 0
                                      CPU 0 0 0 0 0 0 0 2 1
-                                   INTEL 0 0 1 0 0 1 0 2 0
+                                   INTEL 0 0 1 0 0 1 0 2 1
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                              PERFORMANCE 1 1 0 0 0 1 0 0 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
@@ -116,7 +116,7 @@
                                    THATS 0 0 0 0 0 0 0 1 1
                                    TODAY 0 0 0 6 0 1 0 0 1
                                      KEY 0 0 0 0 0 1 0 1 1
-                                      XP 0 0 0 0 0 0 0 0 0
+                                      XP 0 0 0 0 0 0 0 0 1
                                     DONT 0 0 0 0 0 0 0 0 0
                                 KINGSTON 0 0 1 0 0 1 0 0 1
                                      LOL 0 0 0 0 0 0 0 1 1
@@ -147,7 +147,7 @@
                                      WAY 1 0 0 0 0 1 0 1 1
                                  COLLEGE 0 0 0 0 0 1 0 0 0
                                     HOME 0 0 0 0 0 1 0 1 1
-                                SOFTWARE 0 1 0 0 0 1 0 1 0
+                                SOFTWARE 0 1 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                     TECH 0 0 1 0 0 0 1 0 0
                                      REP 0 0 0 0 0 0 0 1 1
@@ -210,11 +210,11 @@
                                 CAPACITY 0 0 0 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 0 0
                                     WATT 0 0 0 0 0 1 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                   64-BIT 0 0 0 0 0 0 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
                                  SCANNER 0 0 0 0 0 0 0 1 1
@@ -280,14 +280,9 @@
                                TINKERING 0 0 0 0 0 0 0 0 1
                               W/HEATSINK 0 0 0 0 0 0 0 0 0
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
                                W/500WATT 0 0 0 0 0 0 0 0 0
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                       A+ 0 0 0 0 0 0 0 1 1
                                     CERT 0 0 0 0 0 0 0 1 1
                                  TECHNET 0 0 0 0 0 0 0 0 0
@@ -297,6 +292,11 @@
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                    9.99 0 0 0 7 0 0 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                  DEFENSE 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 1 1
                                  PUDDING 0 0 0 0 0 0 0 1 1

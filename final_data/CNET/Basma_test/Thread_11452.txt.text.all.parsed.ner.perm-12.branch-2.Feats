@@ -7,7 +7,7 @@
                                      VGA 0 0 1 0 0 0 0 0 0
                                    VIDEO 0 1 0 0 0 1 0 0 0
                                       II 0 1 1 0 0 1 0 0 0
-                                   SPEED 0 0 0 0 0 1 0 1 0
+                                   SPEED 0 0 0 0 0 1 0 1 1
                                     FAST 0 0 0 0 0 0 0 0 0
                                    THESE 0 0 0 0 0 0 1 0 1
                                   SYSTEM 0 1 0 0 0 1 0 1 0
@@ -15,7 +15,7 @@
                                 COMPUTER 0 1 0 0 0 1 0 0 0
                                    POWER 0 1 0 0 0 1 0 0 0
                                      IDE 0 0 0 0 0 0 0 0 0
-                              CONTROLLER 0 0 0 0 0 1 0 2 1
+                              CONTROLLER 0 0 0 0 0 1 0 2 0
                                     SELF 0 0 0 0 0 1 0 0 0
                                     40GB 0 0 0 0 0 0 0 1 1
                                   ERRORS 0 1 0 0 0 1 0 0 0
@@ -23,7 +23,7 @@
                                    -LRB- 0 0 0 0 0 0 0 0 0
                                    -RRB- 0 0 0 0 0 0 0 0 0
                                  NOTHING 0 0 0 0 0 1 0 1 1
-                                    BIOS 0 0 0 0 0 0 0 1 0
+                                    BIOS 0 0 0 0 0 0 0 1 1
                                    OTHER 0 0 0 0 0 0 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
                                      USB 0 0 0 0 0 0 0 0 0
@@ -57,7 +57,7 @@
                                  PENTIUM 0 0 0 0 0 0 0 3 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
                               MANAGEMENT 0 1 0 0 0 1 0 0 0
-                                CREATIVE 0 0 1 0 0 0 0 0 1
+                                CREATIVE 0 0 0 0 0 0 0 0 0
                                    SOUND 0 0 0 0 0 1 0 0 0
                                  BLASTER 0 0 0 0 0 0 0 1 1
                                 ETHERNET 0 0 0 0 0 0 0 0 0
@@ -83,7 +83,7 @@
                                     NAME 0 0 0 0 0 1 0 1 1
                                     INFO 0 0 1 0 0 0 0 1 1
                                   MTRBD. 0 0 0 0 0 0 0 1 1
-                                  VENDOR 0 0 0 0 0 1 0 3 0
+                                  VENDOR 0 0 0 0 0 1 0 3 1
                                      &GT 0 0 0 0 0 0 0 1 1
                                    STORE 0 0 0 0 0 1 0 1 1
                                  JUMPERS 0 0 0 0 0 0 0 0 0
@@ -91,7 +91,7 @@
                                  RECORDS 0 0 0 0 0 1 0 1 1
                                    SHOPS 0 0 0 0 0 1 0 1 1
                                    SPACE 0 0 0 0 0 1 0 1 1
-                                REVISION 0 0 0 0 0 1 0 3 0
+                                REVISION 0 0 0 0 0 1 0 3 1
                                   BOARDS 0 0 0 0 0 1 0 1 1
                                     TEST 0 1 0 0 0 1 0 3 0
                                      CAS 0 0 0 0 0 0 0 0 0
@@ -99,7 +99,7 @@
                                  CAPTURE 0 0 0 0 0 0 0 1 1
                            MANUFACTURERS 0 1 0 0 0 1 0 1 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
-                            CAPABILITIES 0 0 0 0 0 1 0 3 0
+                            CAPABILITIES 0 0 0 0 0 1 0 3 1
                                  CURRENT 0 0 0 0 0 0 0 0 0
                                  SPECIAL 0 0 0 0 0 1 0 0 0
                                      SUB 0 0 0 0 0 0 0 0 0
@@ -108,15 +108,15 @@
                                    STATE 0 1 0 0 0 1 0 2 1
                                    WORDS 0 1 0 0 0 1 0 1 1
                               CAPABILITY 0 0 0 0 0 1 0 0 0
-                                       R 0 0 0 0 0 0 0 0 0
+                                       R 0 0 0 0 0 0 0 0 1
                                  STORAGE 0 0 0 0 0 0 0 0 0
                                  PORTION 0 0 0 0 0 1 0 1 1
                                INTERFACE 0 0 0 0 0 1 0 0 0
                                      SIR 0 0 1 0 0 1 0 0 0
-                                SUPPORTS 0 0 0 0 0 0 0 0 0
-                                     KIT 0 0 0 0 0 1 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 1 1
+                                SUPPORTS 0 0 0 0 0 0 0 0 0
+                                     KIT 0 0 0 0 0 1 0 1 1
                                 PROBLEM. 0 0 0 0 0 0 0 1 1
                                     HOST 0 0 0 0 0 1 0 1 0
                             GENERIC&QUOT 0 0 0 0 0 0 0 0 1
@@ -146,9 +146,9 @@
                              CORPORATION 0 1 0 0 0 1 0 0 0
                                 SUBCLASS 0 0 0 0 0 0 0 0 0
                                BUSMASTER 0 0 0 0 0 0 0 0 0
-                                  STATUS 0 0 0 0 0 1 0 3 0
+                                  STATUS 0 0 0 0 0 1 0 3 1
                             BACK-TO-BACK 0 0 0 0 0 0 0 0 0
-                                  TIMING 0 0 0 0 0 1 0 1 0
+                                  TIMING 0 0 0 0 0 1 0 1 1
                                   HEADER 0 0 0 0 0 0 0 0 0
                                     0X80 0 0 0 0 0 0 0 0 0
                                  LATENCY 0 0 0 0 0 0 0 0 0
@@ -166,7 +166,7 @@
                                   0X0000 0 0 0 0 0 0 0 0 0
                                    66MHZ 0 0 0 0 0 0 0 0 0
                                 SIDEBAND 0 0 0 0 0 0 0 1 1
-                                440BX/ZX 0 0 0 0 0 0 0 0 0
+                                440BX/ZX 0 0 1 0 0 0 0 0 0
                                   AGPSET 0 0 0 0 0 0 0 0 0
                                      0X3 0 0 0 0 0 0 0 0 0
                                   0X8086 0 0 0 0 0 0 0 0 0

@@ -26,13 +26,13 @@
                                     JUST 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 0 0 0 1 0 0 0
+                                      PC 0 0 0 0 0 1 0 0 1
                                   VAPCMD 0 0 1 0 0 0 0 0 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                        S 0 0 0 0 0 0 0 0 1
                                     LINK 0 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 1 1
-                                    HEAT 0 0 0 0 0 1 0 0 0
+                                    HEAT 0 0 1 0 0 1 0 0 1
                                     DUST 0 0 0 0 0 1 0 0 0
                                  BUNNIES 0 0 0 0 0 0 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
@@ -41,7 +41,7 @@
                                      RAM 0 0 1 0 0 1 0 2 0
                                    THING 0 0 0 0 0 1 0 1 1
                                       .. 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 2 0
+                                  MEMORY 0 1 0 0 0 1 0 2 1
                                    CHIPS 0 0 0 0 0 1 0 2 1
                                   THINGS 0 0 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 2 1
@@ -90,14 +90,14 @@
                                     FORM 0 1 0 0 0 1 0 0 1
                                   FACTOR 0 0 0 0 0 1 0 0 1
                                     HELP 0 0 0 0 0 1 0 0 1
-                                   POINT 0 0 0 0 0 1 0 1 1
+                                   POINT 0 0 0 0 0 1 0 1 0
                                  PRODUCT 0 1 0 0 0 1 0 1 1
                                     ZERO 0 0 0 0 0 0 1 1 1
                                      BOX 0 0 0 0 0 1 0 0 0
                                  QUALITY 0 0 0 0 0 1 0 2 1
                                      WAY 1 0 0 0 0 1 0 1 1
                                     DATA 0 0 0 0 0 1 0 0 0
-                                  WIZARD 0 0 1 0 0 1 0 1 0
+                                  WIZARD 0 0 1 0 0 1 0 1 1
                                 DESKTOPS 0 0 0 0 0 0 0 0 0
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                      CDS 0 0 0 0 0 1 0 1 1
@@ -105,7 +105,7 @@
                                    STUFF 0 0 0 0 0 1 0 0 1
                                     HOPE 0 0 0 0 0 1 0 0 1
                                   MODULE 0 0 0 0 0 0 0 1 1
-                                    INFO 0 0 0 0 0 0 0 2 1
+                                    INFO 0 0 0 0 0 0 0 2 0
                                    TYPES 0 1 0 0 0 1 0 1 1
                                      &GT 0 0 0 0 0 0 0 0 1
                                  CONCERN 1 0 0 0 0 1 0 1 1
@@ -135,9 +135,9 @@
                                      NET 0 0 0 0 0 1 0 1 1
                                      AIR 0 0 0 0 0 1 0 1 1
                                     PACK 0 0 0 0 0 0 0 2 1
-                                    ISNT 0 0 0 0 0 0 0 1 1
                                 CHEAPEST 0 0 0 0 0 0 0 1 1
                                      GIG 0 0 0 0 0 0 0 1 1
+                                    ISNT 0 0 0 0 0 0 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                              EXPLANATION 0 0 0 0 0 1 0 1 1
                                       YA 0 0 0 0 0 0 1 0 1
@@ -149,7 +149,7 @@
                                  MANUALS 0 0 0 0 0 1 0 1 1
                                    BYTES 0 0 0 0 0 0 0 0 0
                                     TALE 0 0 0 0 0 1 0 1 1
-                                     EGG 0 0 0 0 0 1 0 1 0
+                                     EGG 0 0 0 0 0 1 0 1 1
                                    TOAST 0 0 0 0 0 0 1 0 0
                                    FOLKS 0 0 0 0 0 1 0 0 1
                                 CONSTANT 0 0 0 0 0 0 1 1 1
@@ -158,7 +158,7 @@
                                      WIT 0 0 0 0 0 1 0 0 1
                                    THAT. 0 0 0 0 0 1 0 0 1
                                   333MHZ 0 0 0 0 0 0 0 2 1
-                                 DIGGING 0 0 0 0 0 0 1 0 1
+                                 DIGGING 0 0 0 0 0 0 1 0 0
                                 DV6375US 0 0 0 0 0 0 0 1 1
                              SUGESSTIONS 0 0 0 0 0 0 0 1 1
                                     CPUZ 0 0 1 0 0 0 0 1 1
@@ -166,14 +166,14 @@
                                    66.40 0 0 0 0 0 0 0 0 1
                               SCREENSHOT 0 0 0 0 0 0 0 1 1
                              OVERCHARGES 0 0 0 0 0 0 0 0 1
-                                   TIGER 0 0 1 0 0 1 0 0 1
+                                   TIGER 0 0 1 0 0 1 0 0 0
                                   BIGBOY 0 0 0 0 0 0 0 1 1
                                     BLAH 0 0 0 0 0 0 0 0 0
                              CRUCIAL.COM 0 0 0 0 0 0 0 0 1
                              ARRANGEMENT 0 0 0 0 0 1 0 1 1
                          DDR2-667/DDR667 0 0 0 0 0 0 0 1 1
                             DISADVANTAGE 0 0 0 0 0 0 0 1 1
-                                    2GBS 0 0 0 0 0 0 0 1 1
+                                    2GBS 0 0 0 0 0 0 0 1 0
                                     THHE 0 0 0 0 0 0 0 0 1
                                    ITUNS 0 0 0 0 0 0 0 1 1
                                     UTIL 0 0 0 0 0 0 0 1 1

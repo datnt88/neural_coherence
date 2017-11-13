@@ -3,11 +3,11 @@
                                     YEAR 0 1 0 0 0 1 0 0 0
                                    INPUT 0 0 0 0 0 0 1 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 1
                                      ONE 0 0 0 0 0 1 0 0 1
-                                   DRIVE 0 0 0 0 0 1 0 3 0
+                                   DRIVE 0 0 0 0 0 1 0 3 1
                                     DISK 0 0 0 0 0 1 0 1 1
                                  NOTHING 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 0 0
@@ -19,7 +19,7 @@
                                       PC 0 0 0 0 0 1 0 1 1
                                   VAPCMD 0 0 1 0 0 0 0 0 1
                                     LINK 0 0 0 0 0 1 0 1 1
-                                   &QUOT 0 0 0 0 0 0 0 3 1
+                                   &QUOT 0 0 1 0 0 0 0 3 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                  DRIVERS 0 1 0 0 0 1 0 2 1
                                       CD 0 0 0 0 0 1 0 1 0
@@ -31,18 +31,18 @@
                                      BOB 0 1 1 0 0 1 0 0 1
                                   REASON 0 0 0 0 0 1 0 1 1
                                       OS 0 0 0 0 0 0 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 0
+                                 WINDOWS 0 0 0 0 0 1 0 1 1
                                    ..... 0 0 0 0 0 0 0 0 0
                                     CALL 0 0 0 0 0 1 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 1 1
                                 PURPOSES 0 0 0 0 0 1 0 0 1
                                    PARTS 1 0 0 0 0 1 0 1 1
                                     PAIN 0 0 0 0 0 1 0 1 1
-                                    DELL 0 0 1 0 0 0 0 1 1
-                               DIMENSION 0 0 0 0 0 0 0 1 1
+                                    DELL 0 0 1 0 0 0 0 1 0
+                               DIMENSION 0 0 0 0 0 0 0 1 0
                                    CABLE 0 0 0 0 0 1 0 1 1
                                  BLASTER 0 0 0 0 0 0 0 0 0
-                                      XP 0 0 0 0 0 0 0 1 1
+                                      XP 0 0 0 0 0 0 0 1 0
                                     TRIP 0 0 0 0 0 1 0 1 1
                                  WEBSITE 0 0 0 0 0 0 0 1 1
                                    ISSUE 0 1 0 0 0 1 0 1 1
@@ -84,7 +84,7 @@
                                    MEDIA 0 1 0 0 0 1 0 1 1
                             INSTRUCTIONS 0 0 0 0 0 1 0 1 1
                                       RE 0 0 1 0 0 1 0 1 1
-                                   DISKS 0 0 0 0 0 1 0 1 1
+                                   DISKS 0 0 0 0 0 1 0 1 0
                                      WIN 0 0 0 0 0 1 0 0 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                    STEPS 0 0 0 0 0 1 0 1 1
@@ -114,7 +114,7 @@
                                  PRESENT 1 0 0 0 0 0 0 0 1
                                        F 0 0 0 0 0 0 0 0 0
                                    100MB 0 0 0 0 0 0 0 2 1
-                                     ZIP 0 0 0 0 0 0 0 1 1
+                                     ZIP 0 0 0 0 0 0 0 1 0
                                 ATTEMPTS 0 0 0 0 0 1 0 1 1
                             REFORMATTING 0 0 0 0 0 0 0 0 0
                                 TOMORROW 0 0 0 6 0 1 0 0 1
@@ -123,7 +123,7 @@
                                 MIDNIGHT 0 0 0 0 0 1 0 0 1
                            ADVERTISEMENT 0 0 0 0 0 1 0 1 1
                               COMPUTER.I 0 0 0 0 0 0 0 2 1
-                                     ARO 0 0 0 0 0 0 0 0 0
+                                     ARO 0 0 1 0 0 0 0 0 0
                                    250MB 0 0 0 0 0 0 0 0 1
                                JUNK&QUOT 0 0 0 0 0 0 0 0 1
                                   ZIP100 0 0 0 0 0 0 0 0 0

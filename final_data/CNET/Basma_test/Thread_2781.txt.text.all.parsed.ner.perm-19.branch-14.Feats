@@ -8,7 +8,7 @@
                                    ORDER 0 0 0 0 0 1 0 0 0
                                    512MB 0 0 0 0 0 0 0 1 1
                                    VIDEO 0 1 0 0 0 1 0 1 0
-                                    CARD 0 1 0 0 0 1 0 2 0
+                                    CARD 0 1 0 0 0 1 0 2 1
                                   THANKS 0 0 0 0 0 1 0 0 0
                                   ANSWER 0 0 0 0 0 1 0 1 1
                                    SPEED 0 0 0 0 0 1 0 1 1
@@ -18,7 +18,7 @@
                                   SYSTEM 0 1 0 0 0 1 0 2 1
                                      NEW 0 0 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 1
-                                COMPUTER 0 1 0 0 0 1 0 2 0
+                                COMPUTER 0 1 0 0 0 1 0 2 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 3 1
@@ -48,17 +48,17 @@
                                      ANY 0 0 0 0 0 0 1 1 1
                                      AMD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 2 1
-                                     RAM 0 0 1 0 0 1 0 1 1
+                                     RAM 0 0 1 0 0 1 0 1 0
                                      ATX 0 0 0 0 0 0 0 1 1
-                                    CASE 0 1 0 0 0 1 0 1 1
+                                    CASE 0 1 0 0 0 1 0 1 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 1 0
+                                  MEMORY 0 1 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 2 1
                                    MODEM 0 0 0 0 0 1 0 1 0
                                       'S 0 0 0 0 0 0 0 0 1
                                     LIST 0 0 0 0 0 1 0 1 1
-                                    WORK 0 0 0 0 0 1 0 1 1
+                                    WORK 0 0 0 0 0 1 0 1 0
                                       HP 0 0 1 0 0 0 0 0 1
                                      FUN 0 0 0 0 0 1 0 0 1
                                   BUDGET 0 1 0 0 0 1 0 1 1
@@ -123,8 +123,8 @@
                                 HEATSINK 0 0 0 0 0 0 0 1 1
                                     SHOP 0 0 0 0 0 1 0 1 1
                                   ADVICE 0 0 0 0 0 1 0 1 1
-                                 SUPPORT 0 0 0 0 0 1 0 2 0
-                                 CHOICES 0 0 0 0 0 1 0 1 1
+                                 SUPPORT 0 0 0 0 0 1 0 2 1
+                                 CHOICES 0 0 0 0 0 1 0 1 0
                                 QUESTION 0 0 0 0 0 1 0 1 1
                                 INTERNET 0 0 0 0 0 1 0 1 1
                                  MANAGER 1 0 0 0 0 1 0 1 1
@@ -203,7 +203,7 @@
                                  GATEWAY 0 0 0 0 0 0 0 0 0
                                  PARTIES 0 0 0 0 0 1 0 0 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
-                               KNOWLEDGE 0 0 0 0 0 1 0 1 1
+                               KNOWLEDGE 0 0 0 0 0 1 0 1 0
                                EQUIPMENT 0 0 0 0 0 1 0 1 1
                                  DIAGRAM 0 0 0 0 0 0 0 1 1
                              LIMITATIONS 0 0 0 0 0 1 0 1 1
@@ -216,11 +216,11 @@
                                   FAMILY 0 1 0 0 0 1 0 1 1
                                 CAPACITY 0 0 0 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 0 0
                                     WATT 0 0 0 0 0 1 0 0 0
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
                                  SCANNER 0 0 0 0 0 0 0 1 1
                                    ANTEC 0 0 1 0 0 0 0 0 1
@@ -233,7 +233,7 @@
                                     WONT 0 0 0 0 0 0 0 0 0
                                    WHATS 0 0 0 0 0 0 0 1 1
                                RESOURCES 0 0 0 0 0 1 0 0 1
-                                  BURNER 0 0 0 0 0 0 1 1 0
+                                  BURNER 0 0 0 0 0 0 1 1 1
                                    QUEST 0 0 0 0 0 1 0 1 1
                                     WALL 0 0 0 0 0 1 0 1 1
                                    BEEPS 0 0 0 0 0 0 0 1 1
@@ -284,16 +284,16 @@
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
                               MOTIVATION 0 0 0 0 0 1 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                     CERT 0 0 0 0 0 0 0 1 1
                               STITE&QUOT 0 0 0 0 0 0 0 0 1
                              STITES&QUOT 0 0 0 0 0 0 0 0 1
                             SPREADSHEETS 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
                              INSTABILITY 0 0 0 0 0 1 0 0 1
+                                    9.99 0 0 0 7 0 0 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                   RESUME 0 0 0 0 0 1 0 1 1
                                 SENTENCE 0 0 0 0 0 1 0 1 1
 CASE/POWERSUPPLY/FANS/MOTHERBOARD/PROCESSOR/HEATSINK 0 0 0 0 0 0 0 1 1

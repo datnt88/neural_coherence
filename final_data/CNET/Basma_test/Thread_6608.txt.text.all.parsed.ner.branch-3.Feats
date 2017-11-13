@@ -1,5 +1,6 @@
                                     TIME 1 1 0 0 0 1 0 2 1
                                   PERSON 0 1 0 0 0 1 0 1 1
+                                    THAT 0 0 0 0 0 0 0 0 1
                                      ALL 0 0 0 0 0 0 0 0 1
                                   THANKS 0 0 0 0 0 1 0 1 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
@@ -10,7 +11,7 @@
                                    OTHER 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 1 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
-                                   &QUOT 0 0 0 0 0 0 0 2 1
+                                   &QUOT 0 0 0 0 0 0 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                    HOUSE 0 1 0 0 0 1 0 1 1
                                     CASE 0 1 0 0 0 1 0 1 1
@@ -22,11 +23,10 @@
                                 WIRELESS 0 0 1 0 0 0 0 0 0
                                QUESTIONS 0 0 0 0 0 1 0 1 1
                                    ..... 0 0 0 0 0 0 0 1 1
-                                   TIMES 0 1 0 0 0 1 0 1 1
                                    FIRST 0 1 0 0 0 1 0 1 1
                                   ONLINE 0 0 0 0 0 1 0 0 1
-                                  SIGNAL 0 0 0 0 0 1 0 1 1
-                                 SUPPORT 0 0 0 0 0 1 0 2 1
+                                  SIGNAL 0 0 0 0 0 1 0 1 0
+                                 SUPPORT 0 0 0 0 0 1 0 1 1
                                  LAPTOPS 0 0 0 0 0 0 0 1 1
                                  LINKSYS 0 0 0 0 0 0 0 1 1
                                   ROUTER 0 0 0 0 0 0 0 2 1
@@ -35,6 +35,7 @@
                                     HELP 0 0 0 0 0 1 0 1 1
                                    POINT 0 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 0 1
+                                    WIFI 0 0 0 0 0 0 0 1 1
                                   ACCESS 0 0 0 0 0 1 0 0 0
                                  PACKETS 0 0 0 0 0 1 0 0 1
                                     TYPE 0 0 0 0 0 1 0 2 1
@@ -50,11 +51,13 @@
                                        % 1 1 0 0 0 0 0 1 1
                                     LINE 0 0 0 0 0 1 0 0 0
                                     NOTE 0 0 0 0 0 1 0 0 1
-                            INSTRUCTIONS 0 0 0 0 0 1 0 1 1
                                   BATTLE 0 0 0 0 0 1 0 1 1
                                 SOMEBODY 0 0 0 0 0 1 0 0 1
                                  NUMBERS 0 0 0 0 0 1 0 0 0
                                 EXPANDER 0 0 0 0 0 0 0 1 1
+                                       N 0 0 1 0 0 0 0 0 0
+                                       G 0 0 1 0 0 1 0 0 0
+                               BROADCAST 0 0 0 0 0 1 0 1 1
                                EQUIPMENT 0 0 0 0 0 1 0 2 1
                                 CHANNELS 0 0 0 0 0 1 0 1 1
                                YAHOO.COM 0 0 0 0 0 0 0 0 1
@@ -64,7 +67,7 @@
                                 SECURITY 0 0 0 0 0 1 0 1 1
                                     SSID 0 0 0 0 0 0 0 1 1
                                      TOP 0 0 0 0 0 1 0 1 1
-                                     SIR 0 0 1 0 0 1 0 1 1
+                                     SIR 0 0 1 0 0 1 0 1 0
                                  BROWSER 0 0 0 0 0 1 0 0 0
                                   WINDOW 0 0 0 0 0 1 0 1 1
                                  ADDRESS 0 0 0 0 0 1 0 1 1
@@ -72,14 +75,13 @@
                                 UPSTAIRS 0 0 0 0 0 0 0 1 1
                                    HOURS 0 0 0 0 0 1 0 1 1
                                     AUTO 0 0 0 0 0 0 0 0 0
-                                      UR 0 0 0 0 0 0 0 0 0
                                 BASEMENT 0 0 0 0 0 0 0 1 1
                                    LINES 0 0 0 0 0 1 0 1 1
                                     TIPS 0 0 0 0 0 1 0 0 0
                                     CHAT 0 0 0 0 0 0 0 0 1
                                  MICHAEL 0 0 1 0 0 1 0 0 1
-                         COMPATIBLE&QUOT 0 0 0 0 0 0 0 1 1
                              ROUTER&QUOT 0 0 0 0 0 0 0 1 1
+                                REPEATER 0 0 0 0 0 0 0 1 1
                                 STRUGGLE 0 0 0 0 0 1 0 1 1
                                   WRE54G 0 0 0 0 0 0 0 2 1
                                  WRE54GN 0 0 0 0 0 0 0 1 1
@@ -91,4 +93,3 @@
                            192.168.1.240 0 0 0 0 0 0 0 0 1
                                  WHEN/IF 0 0 0 0 0 0 0 1 1
                             SETTING&QUOT 0 0 0 0 0 0 0 0 1
-                             HOOKED&QUOT 0 0 0 0 0 0 0 1 1

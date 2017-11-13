@@ -19,7 +19,7 @@
                                     KIND 0 0 0 0 0 1 0 0 1
                                     THIS 0 0 0 0 0 1 0 0 1
                                      UPS 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 0 0 0 1 0 1 0
+                                      PC 0 0 0 0 0 1 0 1 1
                                   VAPCMD 0 0 0 0 0 0 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                    HOUSE 0 1 0 0 0 1 0 1 1
@@ -44,7 +44,7 @@
                                       1. 0 0 0 0 0 0 0 0 1
                                       2. 0 0 0 0 0 0 0 1 1
                                    CABLE 0 0 0 0 0 1 0 2 1
-                                 SEAGATE 0 0 1 0 0 0 0 0 1
+                                 SEAGATE 0 0 1 0 0 0 0 0 0
                                      KEY 0 0 0 0 0 1 0 1 1
                                  DOLLARS 0 0 0 0 0 1 0 0 1
                                    PLACE 0 0 0 0 0 1 0 1 1
@@ -60,18 +60,18 @@
                                     FACT 1 0 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                   MASTER 0 0 0 0 0 1 0 1 1
-                                    DATA 0 0 0 0 0 1 0 0 0
+                                    DATA 0 0 0 0 0 1 0 0 1
                                 RECOVERY 0 0 0 0 0 1 0 1 1
                                    FILES 0 0 0 0 0 1 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 0 1
                                   BRANDS 0 1 0 0 0 1 0 1 1
                                     NAME 0 0 0 0 0 1 0 0 0
                                   REBOOT 0 0 0 0 0 0 0 0 0
-                                WARRANTY 0 0 0 0 0 0 0 1 0
+                                WARRANTY 0 0 0 0 0 0 0 1 1
                                     MASS 0 0 0 0 0 1 0 0 0
                                    250GB 0 0 0 0 0 0 0 0 1
                                       4. 0 0 0 0 0 0 0 0 0
-                                  SCREWS 0 0 0 0 0 0 0 1 0
+                                  SCREWS 0 0 0 0 0 0 0 1 1
                             CONSTRUCTION 0 1 0 0 0 1 0 0 1
                                   CABLES 0 0 0 0 0 1 0 1 1
                                     LINE 0 0 0 0 0 1 0 1 1
@@ -83,7 +83,7 @@
                                    WASTE 0 0 0 0 0 1 0 1 1
                                    MAKER 0 1 0 0 0 1 0 1 1
                                    GHOST 0 0 0 0 0 1 0 0 0
-                                  IMAGES 0 0 0 0 0 1 0 1 1
+                                  IMAGES 0 0 0 0 0 1 0 1 0
                                    DISKS 0 0 0 0 0 1 0 0 0
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                   METHOD 0 0 0 0 0 1 0 1 1
@@ -91,9 +91,9 @@
                                   COPIES 0 0 0 0 0 1 0 1 1
                                  STORAGE 0 0 0 0 0 0 0 1 1
                                INTERFACE 0 0 1 0 0 1 0 0 1
+                               COMPANIES 0 1 0 0 0 1 0 1 1
                                      CUT 0 1 0 0 0 1 0 0 0
                                  STORIES 0 0 0 0 0 1 0 1 1
-                               COMPANIES 0 1 0 0 0 1 0 1 1
                                    COLOR 0 0 0 0 0 1 0 0 0
                                  HITACHI 0 0 1 0 0 0 0 1 1
                                     E.G. 0 0 1 0 0 0 0 0 1
@@ -119,6 +119,13 @@
                                 BARBECUE 0 0 0 0 0 0 1 0 0
                                      PIT 0 0 0 0 0 0 0 1 1
                                    THEFT 0 0 0 0 0 0 0 0 0
+                              COMMODORES 0 0 0 0 0 0 0 1 1
+                                  AMIGAS 0 0 0 0 0 0 0 0 1
+                                    MACS 0 0 0 0 0 1 0 0 1
+                                   MSDOS 0 0 0 0 0 0 0 0 1
+                                EXTRENAL 0 0 0 0 0 0 0 0 0
+                                   CANAL 0 0 0 0 0 1 0 0 0
+                                   LEVEE 0 0 0 0 0 0 0 1 1
                             STEP-BY-STEP 0 0 0 0 0 0 0 1 1
                                     RULE 0 1 0 0 0 1 0 1 1
                                    CLIPS 0 0 0 0 0 1 0 1 1
@@ -128,10 +135,9 @@
                                        F 0 0 0 0 0 0 0 0 0
                                EXTERNAAL 0 0 0 0 0 0 0 1 1
                                    SMOKE 0 0 0 0 0 1 0 0 1
-                                    MACS 0 0 0 0 0 1 0 0 1
                                  TORNADO 0 0 0 0 0 0 1 2 1
                                     .YOU 0 0 1 0 0 0 0 0 1
-                                      YR 0 0 0 0 0 0 0 1 1
+                                      YR 0 0 0 0 0 0 0 1 0
                               HARDDRIVES 0 0 0 0 0 0 0 1 1
                                     WARR 0 0 0 0 0 0 0 1 1
                                   VENUES 0 0 0 0 0 1 0 1 1
@@ -141,9 +147,3 @@
                               PROTICOLS. 0 0 0 0 0 0 0 1 1
                                TRANSPORT 0 0 0 0 0 0 0 0 1
                                     MALL 0 0 0 0 0 0 0 1 1
-                              COMMODORES 0 0 0 0 0 0 0 1 1
-                                  AMIGAS 0 0 0 0 0 0 0 0 1
-                                   MSDOS 0 0 0 0 0 0 0 0 1
-                                EXTRENAL 0 0 0 0 0 0 0 0 0
-                                   CANAL 0 0 0 0 0 1 0 0 0
-                                   LEVEE 0 0 0 0 0 0 0 1 1

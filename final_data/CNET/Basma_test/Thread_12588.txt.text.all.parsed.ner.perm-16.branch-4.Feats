@@ -6,7 +6,7 @@
                                   THANKS 0 0 0 0 0 1 0 0 1
                                    SPEED 0 0 0 0 0 1 0 1 1
                                     MAKE 0 0 0 0 0 0 0 1 1
-                                   RIGHT 1 1 0 0 0 1 0 1 0
+                                   RIGHT 1 1 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
                                     CHIP 0 0 0 0 0 1 0 0 0
                                     .... 0 0 0 0 0 0 1 1 1
@@ -39,7 +39,7 @@
                                      RAM 0 0 1 0 0 1 0 2 0
                                    THING 0 0 0 0 0 1 0 1 1
                                       .. 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 2 1
+                                  MEMORY 0 1 0 0 0 1 0 2 0
                                    CHIPS 0 0 0 0 0 1 0 2 1
                                   THINGS 0 0 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 2 1
@@ -51,7 +51,7 @@
                                       HP 0 0 1 0 0 0 0 0 0
                                   LAPTOP 0 0 0 0 0 0 0 2 1
                                   AMAZON 0 0 1 0 0 0 1 0 0
-                                 WINDOWS 0 0 0 0 0 1 0 1 1
+                                 WINDOWS 0 0 0 0 0 1 0 1 0
                                    LIMIT 0 0 0 0 0 1 0 1 1
                                QUESTIONS 0 0 0 0 0 1 0 1 1
                                   SCREEN 0 0 0 0 0 1 0 1 1
@@ -62,7 +62,7 @@
                                    ..... 0 0 0 0 0 0 0 1 1
                                     BEST 0 0 0 0 0 0 1 0 1
                                  CHIPSET 0 0 0 0 0 0 0 0 1
-                                   PARTS 1 0 0 0 0 1 0 1 1
+                                   PARTS 1 0 0 0 0 1 0 1 0
                                FRAGMENTS 0 0 0 0 0 1 0 0 1
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 0 1
                                  THREADS 0 0 0 0 0 1 0 0 1
@@ -84,18 +84,18 @@
                                    ISSUE 0 1 0 0 0 1 0 1 1
                                     HAND 0 0 0 0 0 1 0 1 1
                                    PLACE 0 0 0 0 0 1 0 1 1
-                                 LAPTOPS 0 0 0 0 0 0 0 2 0
+                                 LAPTOPS 0 0 0 0 0 0 0 2 1
                                     FORM 0 1 0 0 0 1 0 0 1
                                   FACTOR 0 0 0 0 0 1 0 0 1
                                     HELP 0 0 0 0 0 1 0 0 1
-                                   POINT 0 0 0 0 0 1 0 1 1
+                                   POINT 0 0 0 0 0 1 0 1 0
                                  PRODUCT 0 1 0 0 0 1 0 1 1
                                     ZERO 0 0 0 0 0 0 1 1 1
                                      BOX 0 0 0 0 0 1 0 0 0
                                  QUALITY 0 0 0 0 0 1 0 2 1
                                      WAY 1 0 0 0 0 1 0 1 1
                                     DATA 0 0 0 0 0 1 0 0 0
-                                  WIZARD 0 0 1 0 0 1 0 1 1
+                                  WIZARD 0 0 1 0 0 1 0 1 0
                                 DESKTOPS 0 0 0 0 0 0 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                      CDS 0 0 0 0 0 1 0 1 1
@@ -134,16 +134,16 @@
                                    ROOMS 0 0 0 0 0 1 0 2 1
                                      AIR 0 0 0 0 0 1 0 1 1
                                     PACK 0 0 0 0 0 0 0 2 1
-                                    ISNT 0 0 0 0 0 0 0 1 1
                                 CHEAPEST 0 0 0 0 0 0 0 1 1
                                      GIG 0 0 0 0 0 0 0 1 1
+                                    ISNT 0 0 0 0 0 0 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                              EXPLANATION 0 0 0 0 0 1 0 1 1
                                       YA 0 0 0 0 0 0 1 0 1
                          RECOMMENDATIONS 0 1 0 0 0 1 0 1 1
                                    HOURS 0 0 0 0 0 1 0 1 1
                                     DOCS 0 0 0 0 0 0 0 2 1
-                             PROGRAMMING 0 0 0 0 0 1 0 0 1
+                             PROGRAMMING 0 0 0 0 0 1 0 0 0
                                 BEHAVIOR 0 0 0 0 0 1 0 2 1
                                     PINS 0 0 0 0 0 1 0 0 1
                                  MANUALS 0 0 0 0 0 1 0 1 1
@@ -173,7 +173,7 @@
                              ARRANGEMENT 0 0 0 0 0 1 0 1 1
                          DDR2-667/DDR667 0 0 0 0 0 0 0 1 1
                             DISADVANTAGE 0 0 0 0 0 0 0 1 1
-                                    2GBS 0 0 0 0 0 0 0 1 1
+                                    2GBS 0 0 0 0 0 0 0 1 0
                                     THHE 0 0 0 0 0 0 0 0 1
                                    ITUNS 0 0 0 0 0 0 0 1 1
                                     UTIL 0 0 0 0 0 0 0 1 1

@@ -24,7 +24,7 @@
                               CONTROLLER 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 0 1
                                      ONE 0 0 0 0 0 1 0 3 1
-                                   DRIVE 0 0 0 0 0 1 0 2 0
+                                   DRIVE 0 0 0 0 0 1 0 2 1
                                  NOTHING 0 0 0 0 0 1 0 0 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                   MONTHS 1 1 0 0 0 1 0 1 1
@@ -59,14 +59,14 @@
                               CONNECTION 0 0 0 0 0 1 0 3 1
                                 EVERYONE 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 1 1
-                                   MODEM 0 0 0 0 0 1 0 3 1
+                                   MODEM 0 0 0 0 0 1 0 3 0
                                   NVIDIA 0 0 0 0 0 0 0 0 0
                                     DAYS 0 0 0 0 0 1 0 1 1
                                      USE 1 0 0 0 0 1 0 1 1
                                     USER 0 0 0 0 0 1 0 0 0
                                   ANYONE 0 0 0 0 0 1 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 1 0
+                                      HP 0 0 1 0 0 0 0 1 1
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                  REVIEWS 0 0 0 0 0 1 0 1 1
                                     HECK 0 0 0 0 0 0 0 1 1
@@ -76,7 +76,7 @@
                                   COUPLE 0 0 0 0 0 1 0 1 1
                                   GAMING 0 0 0 0 0 0 0 1 1
                                QUESTIONS 0 0 0 0 0 1 0 1 1
-                                  SCREEN 0 0 0 0 0 1 0 1 0
+                                  SCREEN 0 0 0 0 0 1 0 1 1
                                 GRAPHICS 0 0 0 0 0 1 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
@@ -95,7 +95,7 @@
                                   SIGNAL 0 0 0 0 0 1 0 3 1
                                    CABLE 0 0 0 0 0 1 0 3 0
                                  S-VIDEO 0 0 0 0 0 0 0 1 1
-                                     DVD 0 0 0 0 0 1 0 1 0
+                                     DVD 0 0 0 0 0 1 0 1 1
                                  ADAPTER 0 0 0 0 0 0 0 0 1
                                    STORY 0 0 0 0 0 1 0 1 1
                                  WEBSITE 0 0 0 0 0 0 0 1 1
@@ -162,21 +162,21 @@
                                 CHANNELS 0 0 0 0 0 1 0 2 1
                                   METHOD 0 0 0 0 0 1 0 1 1
                                 DECISION 0 0 0 0 0 1 0 1 1
-                                 COMCAST 0 0 1 0 0 1 0 0 0
+                                 COMCAST 0 0 1 0 0 1 0 0 1
                                      AIR 0 0 0 0 0 1 0 1 1
                                      TOP 0 0 0 0 0 1 0 1 1
+                                 CIRCUIT 0 0 0 0 0 1 0 0 0
+                                    CITY 0 1 0 0 0 1 0 1 0
+                                    WATT 0 0 0 0 0 1 0 0 0
+                                  REBATE 0 0 0 0 0 0 1 1 0
                                    GAMER 0 0 0 0 0 0 0 1 1
                                     LOTS 0 0 0 0 0 1 0 1 1
-                                 CIRCUIT 0 0 0 0 0 1 0 0 0
-                                    CITY 0 1 0 0 0 1 0 1 1
-                                    WATT 0 0 0 0 0 1 0 0 0
-                                  REBATE 0 0 0 0 0 0 1 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                                       OL 0 0 0 0 0 0 0 1 1
                                QUICKTIME 0 0 0 0 0 0 0 1 1
                                   REMOTE 0 0 0 0 0 0 0 1 1
                                   REVIEW 0 0 0 0 0 1 0 1 1
-                                  WINDOW 0 0 0 0 0 1 0 1 0
+                                  WINDOW 0 0 0 0 0 1 0 1 1
                                     HOOK 0 0 0 0 0 0 0 0 0
                                    RADIO 0 1 0 0 0 1 0 1 1
                                     WALL 0 0 0 0 0 1 0 1 1
@@ -184,7 +184,7 @@
                                      PIN 0 0 0 0 0 0 0 1 1
                                     500W 0 0 0 0 0 0 0 1 1
                                  COMMENT 0 1 0 0 0 1 0 1 1
-                                    WIFE 0 0 0 0 0 1 0 1 1
+                                    WIFE 0 0 0 0 0 1 0 1 0
                                    STAND 0 0 0 0 0 1 0 1 1
                                    SHACK 0 0 1 0 0 1 0 1 1
                                        T 0 0 0 0 0 1 0 0 1
@@ -197,7 +197,7 @@
                                      HI. 0 0 1 0 0 0 0 0 0
                                      VHS 0 0 0 0 0 0 0 0 0
                                    TAPES 0 1 0 0 0 1 0 1 1
-                                  BUNDLE 0 0 0 0 0 0 0 1 1
+                                  BUNDLE 0 0 0 0 0 0 0 1 0
                              HOTMAIL.COM 0 0 0 0 0 0 0 0 1
                                  CLASSIC 0 0 0 0 0 1 0 1 1
                                  COMPUSA 0 0 0 0 0 0 0 0 1
@@ -220,7 +220,6 @@
                                  MONITER 0 0 0 0 0 0 0 1 1
                                  ADAVNCE 0 0 0 0 0 0 0 0 1
                                   INPUTS 0 0 0 0 0 0 0 3 1
-                                TRAILERS 0 0 0 0 0 0 0 1 1
                                   COXIAL 0 0 0 0 0 0 0 1 1
                         DIGITALGUARDIAN4 0 0 0 0 0 0 0 1 1
                                      DEN 0 0 0 0 0 0 0 1 1
@@ -237,6 +236,7 @@
                                 -STARTUP 0 0 0 0 0 0 0 0 0
                                 JUSTME44 0 0 0 0 0 0 0 0 1
                            JACKS/OUTPUTS 0 0 0 0 0 0 0 1 1
+                                TRAILERS 0 0 0 0 0 0 0 1 1
                                    MUVEE 0 0 0 0 0 0 0 0 1
                                VIDEOREDO 0 0 0 0 0 0 0 0 1
                              COMMERCIALS 0 0 0 0 0 1 0 0 1

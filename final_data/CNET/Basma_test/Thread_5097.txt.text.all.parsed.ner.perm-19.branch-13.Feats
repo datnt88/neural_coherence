@@ -61,7 +61,7 @@
                                     USER 0 0 0 0 0 1 0 0 0
                                   ANYONE 0 0 0 0 0 1 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 1 1
+                                      HP 0 0 1 0 0 0 0 1 0
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                  REVIEWS 0 0 0 0 0 1 0 1 1
                                      TIA 0 0 1 0 0 1 0 0 1
@@ -73,7 +73,7 @@
                                   GAMING 0 0 0 0 0 0 0 1 1
                                      OWN 0 0 0 0 0 0 1 1 1
                                   SCREEN 0 0 0 0 0 1 0 1 1
-                                GRAPHICS 0 0 0 0 0 1 0 1 1
+                                GRAPHICS 0 0 0 0 0 1 0 1 0
                                SOMETHING 0 0 0 0 0 1 0 1 0
                                     PART 1 0 0 0 0 1 0 1 1
                                    TOWER 0 0 0 0 0 1 0 1 1
@@ -85,7 +85,7 @@
                                SPLITTING 0 0 0 0 0 0 1 0 0
                                    MODEL 0 0 0 0 0 1 0 2 1
                                      PC. 0 0 0 0 0 0 0 1 1
-                                   STOCK 0 1 0 0 0 1 0 0 1
+                                   STOCK 0 1 0 0 0 1 0 0 0
                                      YES 0 0 1 0 0 0 0 0 1
                                  MONITOR 0 0 0 0 0 0 0 1 1
                                   SIGNAL 0 0 0 0 0 1 0 3 1
@@ -144,7 +144,7 @@
                                  EDITION 0 0 0 0 0 1 0 1 1
                                      WEB 0 0 0 0 0 1 0 0 0
                                     PAIR 0 0 0 0 0 1 0 1 1
-                                  CENTER 0 0 0 0 0 1 0 2 0
+                                  CENTER 0 0 0 0 0 1 0 2 1
                                      VCR 0 0 1 0 0 0 0 0 0
                                   MOVIES 0 0 0 0 0 1 0 1 1
                                 FIREWIRE 0 0 0 0 0 0 0 0 0
@@ -157,15 +157,15 @@
                                 CHANNELS 0 0 0 0 0 1 0 2 1
                                   METHOD 0 0 0 0 0 1 0 1 1
                                 DECISION 0 0 0 0 0 1 0 1 1
-                                 COMCAST 0 0 1 0 0 1 0 0 1
+                                 COMCAST 0 0 1 0 0 1 0 0 0
                                      AIR 0 0 0 0 0 1 0 1 1
                                      TOP 0 0 0 0 0 1 0 1 1
                                  WALMART 0 0 1 0 0 0 0 0 1
-                                   GAMER 0 0 0 0 0 0 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                     CITY 0 1 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
-                                  REBATE 0 0 0 0 0 0 1 1 1
+                                  REBATE 0 0 0 0 0 0 1 1 0
+                                   GAMER 0 0 0 0 0 0 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                                       OL 0 0 0 0 0 0 0 1 1
                                QUICKTIME 0 0 0 0 0 0 0 1 1
@@ -178,7 +178,7 @@
                                      PIN 0 0 0 0 0 0 0 1 1
                                     500W 0 0 0 0 0 0 0 1 1
                                  COMMENT 0 1 0 0 0 1 0 1 1
-                                    WIFE 0 0 0 0 0 1 0 1 1
+                                    WIFE 0 0 0 0 0 1 0 1 0
                                    STAND 0 0 0 0 0 1 0 1 1
                                    SHACK 0 0 1 0 0 1 0 1 1
                                        T 0 0 0 0 0 1 0 0 1
@@ -189,7 +189,7 @@
                                    BEAST 0 0 0 0 0 1 0 1 1
                                      DVR 0 0 0 0 0 0 0 2 1
                                      HI. 0 0 1 0 0 0 0 0 0
-                                     VHS 0 0 0 0 0 0 0 0 0
+                                     VHS 0 0 0 0 0 0 0 0 1
                                    TAPES 0 1 0 0 0 1 0 1 1
                                   BUNDLE 0 0 0 0 0 0 0 1 1
                                    JACKS 0 0 0 0 0 1 0 1 1
@@ -213,8 +213,6 @@
                                  MONITER 0 0 0 0 0 0 0 1 1
                                  ADAVNCE 0 0 0 0 0 0 0 0 1
                                   INPUTS 0 0 0 0 0 0 0 2 1
-                                TRAILERS 0 0 0 0 0 0 0 1 1
-                                HANDS-ON 0 0 0 0 0 0 0 1 1
                                   COXIAL 0 0 0 0 0 0 0 1 1
                                      DEN 0 0 0 0 0 0 0 1 1
                                 TOP&QUOT 0 0 0 0 0 0 0 0 1
@@ -227,6 +225,8 @@
                                 -STARTUP 0 0 0 0 0 0 0 0 0
                                 JUSTME44 0 0 0 0 0 0 0 0 1
                            JACKS/OUTPUTS 0 0 0 0 0 0 0 1 1
+                                TRAILERS 0 0 0 0 0 0 0 1 1
+                                HANDS-ON 0 0 0 0 0 0 0 1 1
                                    MUVEE 0 0 0 0 0 0 0 0 1
                                VIDEOREDO 0 0 0 0 0 0 0 0 1
                              COMMERCIALS 0 0 0 0 0 1 0 0 1

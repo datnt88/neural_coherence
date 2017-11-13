@@ -56,7 +56,7 @@
                                  DOLLARS 0 0 0 0 0 1 0 0 1
                                    ISSUE 0 1 0 0 0 1 0 1 1
                                    PLACE 0 0 0 0 0 1 0 1 1
-                                    FIRE 0 0 0 0 0 1 0 1 1
+                                    FIRE 0 0 0 0 0 1 0 1 0
                                 EXTERNAL 0 0 0 0 0 0 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
                                    SETUP 0 0 0 0 0 0 0 1 0
@@ -71,7 +71,7 @@
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                     MODE 0 0 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
-                                    DATA 0 0 0 0 0 1 0 1 1
+                                    DATA 0 0 0 0 0 1 0 1 0
                                 RECOVERY 0 0 0 0 0 1 0 1 1
                                    FILES 0 0 0 0 0 1 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 1 1
@@ -90,9 +90,9 @@
                                     LUCK 0 0 0 0 0 1 0 1 1
                                   FORUMS 0 0 0 0 0 1 0 1 1
                                GUARANTEE 0 0 0 0 0 1 0 1 1
-                                FIREWIRE 0 0 0 0 0 0 0 1 1
+                                FIREWIRE 0 0 0 0 0 0 0 1 0
                              ELECTRONICS 0 0 0 0 0 1 0 1 1
-                                   DISKS 0 0 0 0 0 1 0 1 0
+                                   DISKS 0 0 0 0 0 1 0 1 1
                                     RISK 0 0 0 0 0 1 0 1 1
                                     LOSS 1 1 0 0 0 1 0 1 1
                                 RELIABLE 0 0 0 0 0 0 0 1 1
@@ -102,11 +102,11 @@
                                    SENSE 0 0 0 0 0 1 0 1 1
                                   METHOD 0 0 0 0 0 1 0 1 1
                                     MARK 0 0 0 0 0 1 0 1 1
-                                 STORAGE 0 0 0 0 0 0 0 1 1
+                                 STORAGE 0 0 0 0 0 0 0 1 0
                                     IMAC 0 0 0 0 0 0 0 1 1
                                   POSTER 0 0 0 0 0 0 0 1 1
-                                      WD 0 0 0 0 0 0 0 0 1
                                     SIZE 1 0 0 0 0 1 0 1 1
+                                      WD 0 0 0 0 0 0 0 0 1
                                  HITACHI 0 0 1 0 0 0 0 1 1
                                       G5 0 0 0 0 0 0 0 1 1
                                    IMACS 0 0 0 0 0 0 0 0 1
@@ -126,6 +126,9 @@
                               INSERTS.IF 0 0 0 0 0 0 0 1 1
                                   MILAGE 0 0 0 0 0 0 0 1 1
                                    THEFT 0 0 0 0 0 0 0 0 0
+                                     WIT 0 0 0 0 0 1 0 0 1
+                                MEMORIES 0 0 0 0 0 1 0 1 1
+                                    MACS 0 0 0 0 0 1 0 0 1
                                DISASTERS 0 0 0 0 0 1 0 1 1
                                    FLOOD 0 0 0 0 0 1 0 0 1
                                 DISASTER 0 0 0 0 0 1 0 1 1
@@ -136,7 +139,6 @@
                                EXTERNAAL 0 0 0 0 0 0 0 1 1
                                    SMOKE 0 0 0 0 0 1 0 0 1
                            COMPATABILITY 0 0 0 0 0 0 0 0 0
-                                    MACS 0 0 0 0 0 1 0 0 1
                                     .MAC 0 0 0 0 0 0 0 1 1
                                  TORNADO 0 0 0 0 0 0 1 2 1
                                     ADVD 0 0 0 0 0 0 0 0 1
@@ -144,11 +146,9 @@
                                VALUABLES 0 0 0 0 0 0 0 0 0
                                    SCANS 0 0 0 0 0 1 0 1 1
                                       YR 0 0 0 0 0 0 0 0 0
-                                     WIT 0 0 0 0 0 1 0 0 1
                               HARDDRIVES 0 0 0 0 0 0 0 1 1
                                     60GB 0 0 0 0 0 0 0 1 1
                               CRACK&QUOT 0 0 0 0 0 0 0 1 1
                            EFFECTIVENESS 0 0 0 0 0 1 0 1 1
                                  THREATS 0 0 0 0 0 1 0 1 1
                                   OBJECT 0 0 0 0 0 1 0 1 1
-                                MEMORIES 0 0 0 0 0 1 0 1 1

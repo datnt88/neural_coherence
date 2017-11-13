@@ -6,16 +6,16 @@
                                   ANSWER 0 0 0 0 0 1 0 1 1
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 1 0
+                                COMPUTER 0 1 0 0 0 1 0 1 1
                                     KILL 0 0 0 0 0 0 1 0 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
-                                   POWER 0 1 0 0 0 1 0 1 1
+                                   POWER 0 1 0 0 0 1 0 1 0
                                   SUPPLY 0 0 0 0 0 1 0 1 1
                                  DIGITAL 0 0 0 0 0 1 0 2 1
                                     THEN 0 0 0 0 0 0 1 0 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
-                                 MACHINE 0 1 0 0 0 1 0 1 0
+                                 MACHINE 0 1 0 0 0 1 0 1 1
                                     BOOT 0 0 0 0 0 0 0 0 1
                                   LITTLE 0 0 0 0 0 1 0 1 1
                                    OTHER 0 0 0 0 0 0 0 1 1
@@ -33,7 +33,7 @@
                                      ANY 0 0 0 0 0 0 1 1 1
                                   STRESS 0 0 0 0 0 0 0 0 0
                                       CD 0 0 0 0 0 1 0 1 1
-                                    CASE 0 1 0 0 0 1 0 1 1
+                                    CASE 0 1 0 0 0 1 0 1 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 1 1
@@ -73,8 +73,8 @@
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
                                      ETC 0 0 0 0 0 0 1 1 0
                                   FRIEND 0 0 0 0 0 1 0 1 1
-                                    DATA 0 0 0 0 0 1 0 1 1
-                                  BACKUP 0 0 0 0 0 0 0 1 1
+                                    DATA 0 0 0 0 0 1 0 1 0
+                                  BACKUP 0 0 0 0 0 0 0 1 0
                                 INSTANCE 0 0 0 0 0 1 0 1 1
                                 FIREWALL 0 0 0 0 0 0 0 1 1
                                    VIRUS 0 0 0 0 0 1 0 0 0
@@ -125,7 +125,7 @@
                                  BACKUPS 0 0 0 0 0 0 0 1 1
                                 PICTURES 0 0 0 0 0 1 0 1 1
                                DOCUMENTS 0 1 0 0 0 1 0 0 0
-                                     EXT 0 0 0 0 0 0 0 1 0
+                                     EXT 0 0 0 0 0 0 0 1 1
                                ADVANTAGE 1 0 0 0 0 1 0 1 1
                                     NTFS 0 0 0 0 0 0 0 1 1
                                   POWERS 0 0 0 0 0 1 0 1 1
@@ -142,10 +142,6 @@
                              DEGRADATION 0 0 0 0 0 0 0 1 1
                                   MOTORS 0 0 0 0 0 1 0 0 0
                                 BEARINGS 0 0 0 0 0 0 0 0 1
-                                   CIRCS 0 0 0 0 0 0 0 1 1
-                                    2MIN 0 0 0 0 0 0 0 0 1
-                                   10MIN 0 0 0 0 0 0 0 1 1
-                                PARTIION 0 0 0 0 0 0 0 1 1
                                  B--WITH 0 0 0 0 0 0 0 1 1
                          SEAGATE/COMPUSA 0 0 0 0 0 0 0 1 1
                               RETROSPECT 0 0 0 0 0 0 1 0 0
@@ -157,3 +153,7 @@
                                  POOREST 0 0 0 0 0 0 1 1 1
                                    -OSES 0 0 0 0 0 0 0 1 1
                                PENDRIVES 0 0 0 0 0 0 0 0 1
+                                   CIRCS 0 0 0 0 0 0 0 1 1
+                                    2MIN 0 0 0 0 0 0 0 0 1
+                                   10MIN 0 0 0 0 0 0 0 1 1
+                                PARTIION 0 0 0 0 0 0 0 1 1

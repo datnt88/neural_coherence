@@ -9,11 +9,11 @@
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 0
                                     YEAR 0 1 0 0 0 1 0 1 1
-                                HARDWARE 0 0 0 0 0 0 0 1 0
+                                HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 2 1
-                                  DRIVES 0 0 0 0 0 1 0 1 1
+                                  DRIVES 0 0 0 0 0 1 0 1 0
                                   MAXTOR 0 0 0 0 0 0 0 0 0
-                                   DRIVE 0 0 0 0 0 1 0 3 0
+                                   DRIVE 0 0 0 0 0 1 0 3 1
                                     DISK 0 0 0 0 0 1 0 0 0
                                    MUSIC 0 0 0 0 0 1 0 0 0
                                  MACHINE 0 1 0 0 0 1 0 1 1
@@ -21,7 +21,7 @@
                                    OTHER 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 1 1
                                    PORTS 0 0 0 0 0 1 0 1 1
-                                      PC 0 0 0 0 0 1 0 0 1
+                                      PC 0 0 0 0 0 1 0 0 0
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
@@ -30,12 +30,12 @@
                                      HDD 0 0 0 0 0 0 0 1 1
                                      USE 1 0 0 0 0 1 0 0 0
                                     WORK 0 0 0 0 0 1 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 0
+                                 WINDOWS 0 0 0 0 0 1 0 1 1
                                QUESTIONS 0 0 0 0 0 1 0 1 1
                                     COPY 0 0 0 0 0 1 0 0 0
                              PERFORMANCE 1 1 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 0 0
-                                      HD 0 0 1 0 0 0 0 1 1
+                                      HD 0 0 1 0 0 0 0 1 0
                                   EITHER 0 0 0 0 0 0 0 0 1
                                      YES 0 0 0 0 0 0 0 1 1
                            COMPATIBILITY 0 0 0 0 0 0 0 1 1
@@ -52,7 +52,7 @@
                                   FORMAT 0 1 0 0 0 1 0 0 0
                                  PRODUCT 0 1 0 0 0 1 0 1 1
                                     PORT 0 0 0 0 0 1 0 1 1
-                                     MAC 0 0 1 0 0 1 0 1 1
+                                     MAC 0 0 1 0 0 1 0 1 0
                                      BOX 0 0 0 0 0 1 0 0 0
                                 SOFTWARE 0 1 0 0 0 1 0 0 0
                                 EXPLORER 0 0 0 0 0 1 0 0 0
@@ -86,15 +86,15 @@
                                  VIRUSES 0 0 0 0 0 1 0 1 1
                            DISCONNECTING 0 0 0 0 0 0 0 0 1
                                      SP2 0 0 0 0 0 0 0 0 0
-                                     KIT 0 0 0 0 0 1 0 0 0
                             REQUIREMENTS 0 0 0 0 0 1 0 1 1
+                                     KIT 0 0 0 0 0 1 0 0 0
                                      AVG 0 0 0 0 0 0 0 0 0
                                    -RSB- 0 0 0 0 0 0 0 1 1
                              APPLICATION 0 0 0 0 0 1 0 1 1
                                TRANSFERS 0 0 0 0 0 1 0 1 1
                                  BACKUPS 0 0 0 0 0 0 0 1 1
-                                PICTURES 0 0 0 0 0 1 0 1 1
-                               DOCUMENTS 0 1 0 0 0 1 0 2 1
+                                PICTURES 0 0 0 0 0 1 0 1 0
+                               DOCUMENTS 0 1 0 0 0 1 0 2 0
                                     NTFS 0 0 0 0 0 0 0 0 0
                                  TROJANS 0 0 0 0 0 0 0 0 0
                                     SYNC 0 0 0 0 0 0 1 0 0
@@ -112,11 +112,8 @@
                                 DV-FILES 0 0 0 0 0 0 0 0 0
                                  QUANTOM 0 0 0 0 0 0 0 0 0
                               DIFFERANCE 0 0 0 0 0 0 0 0 0
-                              DOWNGRADES 0 0 0 0 0 0 0 0 0
                                    MAXOR 0 0 0 0 0 0 0 1 1
                                     IDES 0 0 0 0 0 0 0 1 1
-                                   CIRCS 0 0 0 0 0 0 0 1 1
-                              SUCCESSION 0 0 0 0 0 0 0 0 1
                             CASTINGROD47 0 0 0 0 0 0 0 0 1
                             PHOTOGRAPHER 0 0 0 0 0 1 0 0 0
                                 MARKFLAX 0 0 0 0 0 0 0 0 1
@@ -125,3 +122,6 @@
                                       LT 0 0 0 0 0 0 0 1 1
                                 HOT-SWAP 0 0 0 0 0 0 0 1 1
                             MAINTAINENCE 0 0 0 0 0 0 0 1 1
+                              DOWNGRADES 0 0 0 0 0 0 0 0 0
+                                   CIRCS 0 0 0 0 0 0 0 1 1
+                              SUCCESSION 0 0 0 0 0 0 0 0 1

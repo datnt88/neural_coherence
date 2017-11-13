@@ -33,7 +33,7 @@
                                     BIOS 0 0 0 0 0 0 0 1 1
                                DIFFERENT 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
-                             MOTHERBOARD 0 0 0 0 0 0 0 1 0
+                             MOTHERBOARD 0 0 0 0 0 0 0 1 1
                                       PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                     BACK 0 0 0 0 0 1 0 1 1
@@ -46,7 +46,7 @@
                                      AMD 0 0 0 0 0 1 0 1 1
                                      RAM 0 0 1 0 0 1 0 3 1
                                      MID 0 0 1 0 0 0 0 1 1
-                                    CASE 0 1 0 0 0 1 0 1 0
+                                    CASE 0 1 0 0 0 1 0 1 1
                                     FANS 0 0 0 0 0 1 0 0 0
                                    THING 0 0 0 0 0 1 0 2 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
@@ -72,7 +72,7 @@
                                    INTEL 0 0 1 0 0 1 0 0 0
                                     SATA 0 0 0 0 0 0 0 0 0
                                     CORE 0 0 0 0 0 1 0 0 0
-                                GRAPHICS 0 0 0 0 0 1 0 1 1
+                                GRAPHICS 0 0 0 0 0 1 0 1 0
                              PERFORMANCE 1 1 0 0 0 1 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
@@ -80,7 +80,7 @@
                                   CHOICE 0 0 0 0 0 1 0 1 0
                                     BEST 0 0 0 0 0 0 1 1 1
                                     LESS 0 0 0 7 0 0 0 1 1
-                                   PARTS 1 0 0 0 0 1 0 2 1
+                                   PARTS 1 0 0 0 0 1 0 2 0
                                FRAGMENTS 0 0 0 0 0 1 0 1 1
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 1 1
@@ -121,7 +121,7 @@
                                 RESPONSE 0 0 0 0 0 1 0 0 0
                                    GAMES 0 0 0 0 0 1 0 1 1
                                 MATERIAL 0 1 0 0 0 1 0 0 0
-                                     END 0 0 0 0 0 1 0 1 0
+                                     END 0 0 0 0 0 1 0 1 1
                                COMPUTERS 0 0 0 0 0 1 0 3 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                  QUALITY 0 0 0 0 0 1 0 1 1
@@ -148,9 +148,9 @@
                                  CHANNEL 0 0 0 0 0 1 0 0 0
                                   CUSTOM 0 0 0 0 0 0 0 0 0
                                      DUO 0 0 0 0 0 1 0 0 0
-                            MOTHERBOARDS 0 0 0 0 0 0 0 1 0
+                            MOTHERBOARDS 0 0 0 0 0 0 0 1 1
                                     DIMM 0 0 0 0 0 0 0 1 1
-                                     PCS 0 0 0 0 0 1 0 0 0
+                                     PCS 0 0 0 0 0 1 0 0 1
                                    PIECE 0 0 0 0 0 1 0 1 1
                                  EDITING 0 0 0 0 0 1 0 1 1
                                    VISTA 0 0 0 0 0 0 0 1 1
@@ -177,29 +177,11 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                               DEVELOPER 0 0 0 0 0 0 0 1 1
-                                     X16 0 0 0 0 0 0 0 1 1
-                                      X1 0 0 0 0 0 0 0 1 1
-                                 STORIES 0 0 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                               MID-TOWER 0 0 0 0 0 0 0 0 0
-                                   SHEET 0 0 0 0 0 1 0 0 0
-                                  FILTER 0 0 0 0 0 0 0 0 0
-                                   ORION 0 0 0 0 0 0 0 0 0
-                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
-                                  CONROE 0 0 0 0 0 0 0 0 0
-                                    TUBE 0 0 0 0 0 1 0 0 0
-                                  ARCTIC 0 0 1 0 0 0 0 0 0
-                                  SILVER 0 0 0 0 0 1 0 0 0
-                                     KIT 0 0 0 0 0 1 0 0 0
-                                     GTS 0 0 0 0 0 0 0 0 0
-                                   GAMER 0 0 0 0 0 0 0 0 0
-                                    10MS 0 0 0 0 0 0 0 0 0
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                                     WISE 0 0 0 0 0 1 0 1 1
                                HOMEBUILT 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                 FRIENDS. 0 0 0 0 0 0 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
                                    BELLS 0 0 0 0 0 1 0 0 0
@@ -218,6 +200,26 @@
                                     2GIG 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   STORMS 0 0 0 0 0 1 0 0 1
+                               EVOLUTION 0 0 0 0 0 1 0 1 1
+                               NORTHLITE 0 0 1 0 0 0 0 0 1
+                               DEVELOPER 0 0 0 0 0 0 0 1 1
+                                     X16 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 1 1
+                                 STORIES 0 0 0 0 0 1 0 1 1
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                               MID-TOWER 0 0 0 0 0 0 0 0 0
+                                   SHEET 0 0 0 0 0 1 0 0 0
+                                  FILTER 0 0 0 0 0 0 0 0 0
+                                   ORION 0 0 0 0 0 0 0 0 0
+                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
+                                  CONROE 0 0 0 0 0 0 0 0 0
+                                    TUBE 0 0 0 0 0 1 0 0 0
+                                  ARCTIC 0 0 1 0 0 0 0 0 0
+                                  SILVER 0 0 0 0 0 1 0 0 0
+                                     KIT 0 0 0 0 0 1 0 0 0
+                                     GTS 0 0 0 0 0 0 0 0 0
+                                   GAMER 0 0 0 0 0 0 0 0 0
+                                    10MS 0 0 0 0 0 0 0 0 0
                          TIGERDIRECT.COM 0 0 1 0 0 0 0 0 1
                                       TM 0 0 0 0 0 0 0 0 1
                                    3200+ 0 0 0 0 0 0 0 1 1
@@ -231,5 +233,3 @@
                                      ROW 0 0 0 0 0 1 0 1 1
                                QUICKTIME 0 0 0 0 0 0 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
-                               NORTHLITE 0 0 1 0 0 0 0 0 1
-                               EVOLUTION 0 0 0 0 0 1 0 1 1

@@ -15,7 +15,7 @@
                                 COMPUTER 0 1 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
-                                   DRIVE 0 0 0 0 0 1 0 2 0
+                                   DRIVE 0 0 0 0 0 1 0 2 1
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 1 1
                                     DISK 0 0 0 0 0 1 0 1 1
@@ -23,7 +23,7 @@
                                     BIOS 0 0 0 0 0 0 0 2 0
                                    OTHER 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
-                                      PC 0 0 0 0 0 1 0 2 1
+                                      PC 0 0 0 0 0 1 0 2 0
                                     LINK 0 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 0 1
                                   MATTER 0 0 0 0 0 1 0 0 0
@@ -55,26 +55,26 @@
                                OPERATING 0 0 0 0 0 0 0 0 0
                                    MOUSE 0 0 0 0 0 1 0 0 0
                                   SCREEN 0 0 0 0 0 1 0 1 1
-                                     CPU 0 0 0 0 0 0 0 1 0
-                                   INTEL 0 0 1 0 0 1 0 1 0
+                                     CPU 0 0 0 0 0 0 0 1 1
+                                   INTEL 0 0 1 0 0 1 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
-                                   TOWER 0 0 0 0 0 1 0 2 0
+                                   TOWER 0 0 0 0 0 1 0 2 1
                                     LOOK 0 0 0 0 0 1 0 1 1
                                   INTELS 0 0 0 0 0 0 0 0 1
                                  CHIPSET 0 0 0 0 0 0 0 1 1
-                                 VERSION 1 0 0 0 0 1 0 1 1
+                                 VERSION 1 0 0 0 0 1 0 1 0
                                    COVER 0 0 0 0 0 1 0 1 1
                                    MODEL 0 0 0 0 0 1 0 1 1
-                                 CELERON 0 0 0 0 0 0 0 1 1
-                               PROCESSOR 0 0 0 0 0 0 0 1 1
-                                  SOCKET 0 0 0 0 0 0 0 2 0
+                                 CELERON 0 0 0 0 0 0 0 1 0
+                               PROCESSOR 0 0 0 0 0 0 0 1 0
+                                  SOCKET 0 0 0 0 0 0 0 2 1
                                      FAN 0 0 0 0 0 1 0 1 1
                                      BUY 0 0 0 0 0 0 0 1 1
                               PROCESSORS 0 0 0 0 0 1 0 1 1
                                    WRONG 0 0 0 0 0 0 1 1 1
-                                 PENTIUM 0 0 0 0 0 0 0 2 1
+                                 PENTIUM 0 0 0 0 0 0 0 2 0
                                      DDR 0 0 0 0 0 0 0 0 0
-                                    SLOT 0 0 0 0 0 1 0 1 1
+                                    SLOT 0 0 0 0 0 1 0 1 0
                                    LIGHT 0 0 0 0 0 1 0 1 1
                                      FSB 0 0 0 0 0 0 0 1 1
                                    SDRAM 0 0 0 0 0 0 0 3 1
@@ -114,7 +114,7 @@
                                   ROBERT 0 0 1 0 0 1 0 0 0
                                    STUFF 0 0 0 0 0 1 0 1 1
                             MANUFACTURER 0 0 0 0 0 1 0 1 1
-                                    NAME 0 0 0 0 0 1 0 1 1
+                                    NAME 0 0 0 0 0 1 0 1 0
                                 RESTARTS 0 0 0 0 0 0 0 1 1
                                     INFO 0 0 0 0 0 0 0 1 1
                                    NIGHT 1 0 0 5 0 1 0 1 1
@@ -146,10 +146,10 @@
                                    WIRES 0 0 0 0 0 1 0 1 1
                                    FLOOR 0 0 0 0 0 1 0 1 1
                                   COMPAQ 0 0 1 0 0 1 0 0 0
-                                      X1 0 0 0 0 0 0 0 1 1
                                     LACK 0 0 0 0 0 1 0 1 1
                                     SIZE 1 0 0 0 0 1 0 1 1
                                  SEMPRON 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 1 1
                                       X2 0 0 0 0 0 0 0 1 1
                                    -RSB- 0 0 0 0 0 0 0 3 1
                                    WITCH 0 0 0 0 0 0 0 1 1

@@ -21,7 +21,7 @@
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 0 0
-                                  SUPPLY 0 0 0 0 0 1 0 2 1
+                                  SUPPLY 0 0 0 0 0 1 0 2 0
                                    WEEKS 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 1 1
@@ -52,21 +52,21 @@
                                 SHOPPING 0 0 0 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
-                                WIRELESS 0 0 1 0 0 0 0 0 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 0
+                                WIRELESS 0 0 1 0 0 0 0 0 0
+                                 WINDOWS 0 0 0 0 0 1 0 1 1
                                   AROUND 0 0 0 0 0 0 0 1 1
-                                  GAMING 0 0 0 0 0 0 0 0 0
+                                  GAMING 0 0 0 0 0 0 0 0 1
                                      OWN 0 0 0 0 0 0 1 1 1
                                    MOUSE 0 0 0 0 0 1 0 3 1
                                      CPU 0 0 0 0 0 0 0 1 1
                                     CORE 0 0 0 0 0 1 0 1 0
-                                GRAPHICS 0 0 0 0 0 1 0 1 1
+                                GRAPHICS 0 0 0 0 0 1 0 1 0
                              PERFORMANCE 1 1 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 1 1
                                     BEST 0 0 0 0 0 0 1 1 1
                                    PARTS 1 0 0 0 0 1 0 2 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 1 1
-                                 THREADS 0 0 0 0 0 1 0 1 0
+                                 THREADS 0 0 0 0 0 1 0 1 1
                                     GAME 0 0 0 0 0 1 0 1 1
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 1 1
@@ -82,9 +82,9 @@
                                  BATTERY 0 0 0 0 0 1 0 1 1
                                      DVD 0 0 0 0 0 1 0 1 0
                                    SOUND 0 0 0 0 0 1 0 0 0
-                                  ATHLON 0 0 0 0 0 0 0 1 0
+                                  ATHLON 0 0 0 0 0 0 0 1 1
                                       XP 0 0 0 0 0 0 0 1 1
-                                   SLOTS 0 0 0 0 0 1 0 1 0
+                                   SLOTS 0 0 0 0 0 1 0 1 1
                                 KINGSTON 0 0 1 0 0 1 0 0 1
                                      LCD 0 0 0 0 0 0 0 0 1
                                     POST 0 0 0 0 0 1 0 1 1
@@ -99,11 +99,11 @@
                                   LATEST 0 0 0 0 0 0 1 1 1
                                   DRIVER 0 0 0 0 0 1 0 1 1
                                    GAMES 0 0 0 0 0 1 0 2 1
-                                     END 0 0 0 0 0 1 0 1 0
+                                     END 0 0 0 0 0 1 0 1 1
                                COMPUTERS 0 0 0 0 0 1 0 2 1
                                      BOX 0 0 0 0 0 1 0 1 1
-                                 QUALITY 0 0 0 0 0 1 0 1 0
-                                    HOME 0 0 0 0 0 1 0 1 1
+                                 QUALITY 0 0 0 0 0 1 0 1 1
+                                    HOME 0 0 0 0 0 1 0 1 0
                                   OFFICE 0 0 0 0 0 1 0 1 1
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                     WORD 0 0 0 0 0 1 0 0 0
@@ -119,7 +119,7 @@
                                    STORE 0 0 0 0 0 1 0 1 1
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
                                    USAGE 0 0 0 0 0 0 0 2 1
-                                     CAR 0 1 0 0 0 1 0 1 1
+                                     CAR 0 1 0 0 0 1 0 1 0
                                   CUSTOM 0 0 0 0 0 0 0 0 0
                                      DUO 0 0 0 0 0 1 0 0 0
                             MOTHERBOARDS 0 0 0 0 0 0 0 1 1
@@ -132,7 +132,7 @@
                                    KNOCK 0 0 0 0 0 0 0 0 0
                                  MEASURE 0 0 0 0 0 1 0 1 1
                                      JIM 0 0 1 0 0 1 0 0 0
-                                  COMPAQ 0 0 1 0 0 1 0 1 1
+                                  COMPAQ 0 0 1 0 0 1 0 1 0
                                 DOCUMENT 1 0 0 0 0 1 0 1 1
                                     OUTS 0 0 0 0 0 0 0 0 0
                                   TODAYS 0 0 0 0 0 0 0 0 0
@@ -148,14 +148,11 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 1 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                 STORIES 0 0 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                     BANG 0 0 0 0 0 1 0 0 0
                                     2HRS 0 0 0 0 0 0 0 1 1
                                HOMEBUILT 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                 SUPPLIES 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 1 1
                                       MG 0 0 0 0 0 0 0 0 0
@@ -177,6 +174,9 @@
                                  SEMPRON 0 0 0 0 0 0 0 1 1
                                W/MONITOR 0 0 0 0 0 0 0 1 1
                                    ALTHO 0 0 0 0 0 0 0 1 1
+                                 STORIES 0 0 0 0 0 1 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                                    447.4 0 0 0 0 0 0 0 0 1
                                       TM 0 0 0 0 0 0 0 0 1
                                    3200+ 0 0 0 0 0 0 0 1 1

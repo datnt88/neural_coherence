@@ -8,7 +8,7 @@
                                      AGP 0 0 0 0 0 0 0 0 0
                                      VGA 0 0 1 0 0 0 0 0 0
                                    VIDEO 0 1 0 0 0 1 0 0 0
-                                   SPEED 0 0 0 0 0 1 0 1 0
+                                   SPEED 0 0 0 0 0 1 0 1 1
                                     FAST 0 0 0 0 0 0 0 0 0
                                    THESE 0 0 0 0 0 0 1 0 1
                                       MB 0 0 0 0 0 0 0 1 1
@@ -86,12 +86,12 @@
                                   LETTER 0 0 0 0 0 1 0 0 0
                                   MASTER 0 0 0 0 0 1 0 0 0
                                  DEFAULT 0 0 0 0 0 1 0 0 0
-                                   BOARD 0 1 0 0 0 1 0 2 1
+                                   BOARD 0 1 0 0 0 1 0 2 0
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                     NONE 0 0 0 0 0 1 0 0 0
                                SUPPORTED 0 0 0 0 0 0 0 0 0
-                            MANUFACTURER 0 0 0 0 0 1 0 3 1
-                                    NAME 0 0 0 0 0 1 0 1 1
+                            MANUFACTURER 0 0 0 0 0 1 0 3 0
+                                    NAME 0 0 0 0 0 1 0 1 0
                                     INFO 0 0 0 0 0 0 0 1 1
                                   MTRBD. 0 0 0 0 0 0 0 1 1
                                   VENDOR 0 0 0 0 0 1 0 3 0
@@ -103,12 +103,12 @@
                                    SHOPS 0 0 0 0 0 1 0 1 1
                                    SPACE 0 0 0 0 0 1 0 2 1
                                 REVISION 0 0 0 0 0 1 0 3 0
-                                    TEST 0 1 0 0 0 1 0 3 1
+                                    TEST 0 1 0 0 0 1 0 3 0
                                      CAS 0 0 0 0 0 0 0 0 0
                                   SERIAL 0 0 0 0 0 0 0 0 0
                                  CAPTURE 0 0 0 0 0 0 0 1 1
                                        G 0 0 1 0 0 1 0 0 0
-                            CAPABILITIES 0 0 0 0 0 1 0 3 0
+                            CAPABILITIES 0 0 0 0 0 1 0 3 1
                                  CURRENT 0 0 0 0 0 0 0 0 0
                                  SPECIAL 0 0 0 0 0 1 0 0 0
                                      SUB 0 0 0 0 0 0 0 0 0
@@ -124,12 +124,12 @@
                                  STORAGE 0 0 0 0 0 0 0 0 0
                                  PORTION 0 0 0 0 0 1 0 1 1
                                INTERFACE 0 0 0 0 0 1 0 0 0
-                                SUPPORTS 0 0 0 0 0 0 0 0 0
-                                     KIT 0 0 0 0 0 1 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                      GIG 0 0 0 0 0 0 0 1 1
                                     SIZE 1 0 0 0 0 1 0 0 0
+                                SUPPORTS 0 0 0 0 0 0 0 0 0
+                                     KIT 0 0 0 0 0 1 0 1 1
                                    COLOR 0 0 0 0 0 1 0 1 1
                                 PROBLEM. 0 0 0 0 0 0 0 1 1
                                     HOST 0 0 0 0 0 1 0 1 1
@@ -154,7 +154,7 @@
                                    VOLUM 0 0 0 0 0 0 0 0 0
                                     NTFS 0 0 0 0 0 0 0 0 0
                             THRUSTMAPPER 0 0 0 0 0 0 0 0 0
-                              MULTIMEDIA 0 0 0 0 0 0 0 0 1
+                              MULTIMEDIA 0 0 0 0 0 0 0 0 0
                                      ISA 0 0 0 0 0 0 0 0 0
                                      N/A 0 0 0 0 0 0 0 0 0
                                 ENHANCED 0 0 0 0 0 0 0 0 0
@@ -164,7 +164,7 @@
                                BUSMASTER 0 0 0 0 0 0 0 0 0
                                   STATUS 0 0 0 0 0 1 0 3 0
                             BACK-TO-BACK 0 0 0 0 0 0 0 0 0
-                                  TIMING 0 0 0 0 0 1 0 1 1
+                                  TIMING 0 0 0 0 0 1 0 1 0
                                   HEADER 0 0 0 0 0 0 0 0 0
                                     0X80 0 0 0 0 0 0 0 0 0
                                  LATENCY 0 0 0 0 0 0 0 0 0
@@ -173,7 +173,7 @@
                                      INC 0 0 1 0 0 0 0 0 0
                                      0X0 0 0 0 0 0 0 0 0 0
                                       D2 0 0 0 0 0 0 0 1 0
-                                      D1 0 0 0 0 0 0 0 1 0
+                                      D1 0 0 0 0 0 0 0 1 1
                                      0X5 0 0 0 0 0 0 0 0 0
                                   0X1102 0 0 0 0 0 0 0 0 0
                                      0X2 0 0 0 0 0 0 0 0 0

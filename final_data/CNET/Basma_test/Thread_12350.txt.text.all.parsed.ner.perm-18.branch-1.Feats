@@ -7,7 +7,7 @@
                                   SYSTEM 0 1 0 0 0 1 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                   DRIVES 0 0 0 0 0 1 0 3 1
-                                   POWER 0 1 0 0 0 1 0 1 1
+                                   POWER 0 1 0 0 0 1 0 1 0
                                   MAXTOR 0 0 1 0 0 0 0 1 1
                                  MAXTORS 0 0 0 0 0 0 0 0 1
                                      ONE 0 0 0 0 0 1 0 1 1
@@ -42,7 +42,7 @@
                                      MAX 0 0 1 0 0 1 0 1 1
                                   INSIDE 0 0 0 0 0 1 0 1 1
                                      DVD 0 0 0 0 0 1 0 1 1
-                                 SEAGATE 0 0 1 0 0 0 0 0 0
+                                 SEAGATE 0 0 1 0 0 0 0 0 1
                                  MINIMUM 0 0 0 0 0 0 0 1 1
                                   SOUNDS 0 0 0 0 0 1 0 1 1
                                  SHARING 0 0 0 0 0 0 0 0 0
@@ -91,10 +91,10 @@
                                   LENGTH 0 0 0 0 0 1 0 1 1
                                 SECURITY 0 0 0 0 0 1 0 1 0
                                   COPIES 0 0 0 0 0 1 0 0 1
-                                 STORAGE 0 0 0 0 0 0 0 1 0
-                                     CUT 0 1 0 0 0 1 0 0 0
+                                 STORAGE 0 0 0 0 0 0 0 1 1
                                    BELLS 0 0 0 0 0 1 0 0 0
                                 WHISTLES 0 0 0 0 0 0 0 2 1
+                                     CUT 0 1 0 0 0 1 0 0 0
                                      IBM 0 0 1 0 0 1 0 0 0
                                       G5 0 0 0 0 0 0 0 1 1
                                       CS 0 0 1 0 0 0 0 1 1
@@ -123,6 +123,9 @@
                                 OUTHOUSE 0 0 0 0 0 0 0 1 1
                                 BARBECUE 0 0 0 0 0 0 1 0 0
                                      PIT 0 0 0 0 0 0 0 1 1
+                                SEAGATES 0 0 0 0 0 0 0 0 1
+                                     WDS 0 0 0 0 0 0 0 0 1
+                                   KINDS 0 0 0 0 0 1 0 1 1
                                    PROOF 0 0 0 0 0 1 0 0 1
                                 HEADACHE 0 0 0 0 0 0 1 1 1
                                   MORTAR 0 0 0 0 0 1 0 0 0
@@ -135,6 +138,3 @@
                                  THREATS 0 0 0 0 0 1 0 1 1
                                   OBJECT 0 0 0 0 0 1 0 1 1
                                     MALL 0 0 0 0 0 0 0 1 1
-                                SEAGATES 0 0 0 0 0 0 0 0 1
-                                     WDS 0 0 0 0 0 0 0 0 1
-                                   KINDS 0 0 0 0 0 1 0 1 1

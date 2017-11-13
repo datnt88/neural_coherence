@@ -1,5 +1,5 @@
                                     THAT 0 0 0 0 0 0 0 0 1
-                                  SYSTEM 0 1 0 0 0 1 0 0 0
+                                  SYSTEM 0 1 0 0 0 1 0 1 0
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 0
                                 COMPUTER 0 1 0 0 0 1 0 1 1
@@ -10,7 +10,7 @@
                                     DISK 0 0 0 0 0 1 0 2 1
                                    CHECK 0 0 0 0 0 1 0 1 1
                                  NOTHING 0 0 0 0 0 1 0 0 1
-                                   ERROR 0 0 0 0 0 1 0 1 1
+                                   ERROR 0 0 0 0 0 1 0 1 0
                                     BOOT 0 0 0 0 0 0 0 0 1
                                    &QUOT 0 0 0 0 0 0 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
@@ -31,12 +31,15 @@
                                  SUCCESS 1 0 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 0 0
                                    IDEAS 0 0 0 0 0 1 0 1 1
-                                   FILES 0 0 0 0 0 1 0 2 1
+                                    DATA 0 0 0 0 0 1 0 1 1
+                                   FILES 0 0 0 0 0 1 0 3 1
                                  MESSAGE 0 0 0 0 0 1 0 3 1
+                                 REPAIRS 0 0 0 0 0 1 0 1 1
                                    STUFF 0 0 0 0 0 1 0 1 1
+                                    HOPE 0 0 0 0 0 1 0 1 1
                               ATTACHMENT 0 0 0 0 0 0 1 1 1
                                  STARTUP 0 0 0 0 0 0 0 0 1
-                                    FILE 0 0 0 0 0 1 0 1 0
+                                    FILE 0 0 0 0 0 1 0 1 1
                                    DISKS 0 0 0 0 0 1 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                  UTILITY 0 0 0 0 0 1 0 1 1
@@ -66,4 +69,3 @@
                                      DOS 0 0 0 0 0 0 0 0 0
                                 COMMANDS 0 0 0 0 0 1 0 1 1
                                       /A 0 0 0 0 0 0 0 1 1
-                                   COLON 0 0 0 0 0 0 0 1 1

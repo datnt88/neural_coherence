@@ -15,7 +15,7 @@
                                       MB 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 2 0
+                                COMPUTER 0 1 0 0 0 1 0 2 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 1 0
@@ -55,7 +55,7 @@
                                      USE 1 0 0 0 0 1 0 1 1
                                     USER 0 0 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 0 0
-                                KEYBOARD 0 0 0 0 0 0 0 1 0
+                                KEYBOARD 0 0 0 0 0 0 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
                                 WIRELESS 0 0 1 0 0 0 0 0 1
@@ -63,12 +63,12 @@
                                  WINDOWS 0 0 0 0 0 1 0 1 0
                                   COUPLE 0 0 0 0 0 1 0 1 1
                                   GAMING 0 0 0 0 0 0 0 0 1
-                                   MOUSE 0 0 0 0 0 1 0 2 1
+                                   MOUSE 0 0 0 0 0 1 0 2 0
                                      CPU 0 0 0 0 0 0 0 1 1
                                    INTEL 0 0 1 0 0 1 0 0 0
                                     SATA 0 0 0 0 0 0 0 0 0
                                      GPU 0 0 0 0 0 0 0 1 1
-                                    COPY 0 0 0 0 0 1 0 1 1
+                                    COPY 0 0 0 0 0 1 0 1 0
                                     CORE 0 0 0 0 0 1 0 1 1
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                                     PART 1 0 0 0 0 1 0 1 1
@@ -76,7 +76,7 @@
                                    BRAND 0 0 0 0 0 1 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 1 0
                                     BEST 0 0 0 0 0 0 1 1 1
-                                   PARTS 1 0 0 0 0 1 0 2 0
+                                   PARTS 1 0 0 0 0 1 0 2 1
                                FRAGMENTS 0 0 0 0 0 1 0 0 0
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 2 1
@@ -85,10 +85,10 @@
                                     GAME 0 0 0 0 0 1 0 1 1
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 1 0
-                                    DELL 0 0 1 0 0 0 0 1 1
+                                    DELL 0 0 1 0 0 0 0 1 0
                                  MONITOR 0 0 0 0 0 0 0 1 1
                                     SLOT 0 0 0 0 0 1 0 1 1
-                                    CANT 0 0 0 0 0 0 0 0 0
+                                    CANT 0 0 0 0 0 0 0 0 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
                                  CORSAIR 0 0 0 0 0 0 0 0 0
                                  PREMIUM 0 0 0 0 0 1 0 0 0
@@ -97,7 +97,7 @@
                                  BLASTER 0 0 0 0 0 0 0 0 0
                                    STORY 0 0 0 0 0 1 0 1 1
                                    TODAY 0 0 0 6 0 1 0 0 1
-                                  ATHLON 0 0 0 0 0 0 0 1 0
+                                  ATHLON 0 0 0 0 0 0 0 1 1
                                       XP 0 0 0 0 0 0 0 1 1
                                 KINGSTON 0 0 1 0 0 1 0 0 1
                                   AMOUNT 0 0 0 0 0 1 0 1 1
@@ -107,7 +107,7 @@
                                     MINE 0 0 0 0 0 1 0 0 1
                                  SUPPORT 0 0 0 0 0 1 0 1 1
                                    PLACE 0 0 0 0 0 1 0 1 1
-                                 SAMSUNG 0 0 1 0 0 1 0 0 0
+                                 SAMSUNG 0 0 1 0 0 1 0 0 1
                                  LAPTOPS 0 0 0 0 0 0 0 0 0
                                 QUESTION 0 0 0 0 0 1 0 1 1
                                     MOST 0 0 0 0 0 1 0 0 1
@@ -116,7 +116,7 @@
                                    GAMES 0 0 0 0 0 1 0 2 1
                                 MATERIAL 0 1 0 0 0 1 0 0 0
                                    PASTE 0 0 0 0 0 0 0 1 1
-                                     END 0 0 0 0 0 1 0 1 1
+                                     END 0 0 0 0 0 1 0 1 0
                                COMPUTERS 0 0 0 0 0 1 0 2 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                  QUALITY 0 0 0 0 0 1 0 0 1
@@ -137,7 +137,7 @@
                                  REBATES 0 0 0 0 0 0 0 1 1
                                      &LT 0 0 0 0 0 0 0 0 0
                                      ATA 0 0 0 0 0 0 0 0 0
-                                   STORE 0 0 0 0 0 1 0 1 1
+                                   STORE 0 0 0 0 0 1 0 1 0
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
                                  CHANNEL 0 0 0 0 0 1 0 0 0
                                     MIND 0 0 0 0 0 1 0 0 1
@@ -167,28 +167,10 @@
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  WALMART 0 0 1 0 0 0 0 0 1
                                 TINKERER 0 0 0 0 0 0 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                   DEALS 0 0 0 0 0 1 0 0 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                               MID-TOWER 0 0 0 0 0 0 0 0 0
-                                   SHEET 0 0 0 0 0 1 0 0 0
-                                  FILTER 0 0 0 0 0 0 0 0 0
-                                   ORION 0 0 0 0 0 0 0 0 0
-                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
-                                  CONROE 0 0 0 0 0 0 0 0 0
-                                    TUBE 0 0 0 0 0 1 0 0 0
-                                  ARCTIC 0 0 1 0 0 0 0 0 0
-                                  SILVER 0 0 0 0 0 1 0 0 0
-                                     KIT 0 0 0 0 0 1 0 0 0
-                                     GTS 0 0 0 0 0 0 0 0 0
-                                   GAMER 0 0 0 0 0 0 0 0 0
-                                    10MS 0 0 0 0 0 0 0 0 0
-                                    LOTS 0 0 0 0 0 1 0 1 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                                     WISE 0 0 0 0 0 1 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 0 1
                                      GIG 0 0 0 0 0 0 0 1 1
                                       MG 0 0 0 0 0 0 0 0 0
                                     WATT 0 0 0 0 0 1 0 0 0
@@ -206,6 +188,24 @@
                               COMPROMISE 0 0 0 0 0 1 0 1 1
                                 BARNYARD 0 0 0 0 0 0 0 0 0
                                    ALTHO 0 0 0 0 0 0 0 1 1
+                                     10. 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                               MID-TOWER 0 0 0 0 0 0 0 0 0
+                                   SHEET 0 0 0 0 0 1 0 0 0
+                                  FILTER 0 0 0 0 0 0 0 0 0
+                                   ORION 0 0 0 0 0 0 0 0 0
+                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
+                                  CONROE 0 0 0 0 0 0 0 0 0
+                                    TUBE 0 0 0 0 0 1 0 0 0
+                                  ARCTIC 0 0 1 0 0 0 0 0 0
+                                  SILVER 0 0 0 0 0 1 0 0 0
+                                     KIT 0 0 0 0 0 1 0 0 0
+                                     GTS 0 0 0 0 0 0 0 0 0
+                                   GAMER 0 0 0 0 0 0 0 0 0
+                                    10MS 0 0 0 0 0 0 0 0 0
+                                    LOTS 0 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                          TIGERDIRECT.COM 0 0 1 0 0 0 0 0 1
                                 OBLIVION 0 0 0 0 0 0 0 0 1
                                    447.4 0 0 0 0 0 0 0 0 1

@@ -19,7 +19,7 @@
                                     CHIP 0 0 0 0 0 1 0 1 1
                                    BUNCH 0 0 0 0 0 1 0 1 1
                                    INPUT 0 0 0 0 0 0 1 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 1
+                                COMPUTER 0 1 0 0 0 1 0 3 0
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 1 1
                               CONTROLLER 0 0 0 0 0 1 0 1 1
@@ -62,7 +62,7 @@
                                     USER 0 0 0 0 0 1 0 0 0
                                   ANYONE 0 0 0 0 0 1 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 1 0
+                                      HP 0 0 1 0 0 0 0 1 1
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                  REVIEWS 0 0 0 0 0 1 0 1 1
                                      TIA 0 0 1 0 0 1 0 0 1
@@ -87,7 +87,7 @@
                                    STOCK 0 1 0 0 0 1 0 0 0
                                   ONLINE 0 0 0 0 0 1 0 0 1
                                   SIGNAL 0 0 0 0 0 1 0 2 1
-                                   CABLE 0 0 0 0 0 1 0 3 1
+                                   CABLE 0 0 0 0 0 1 0 3 0
                                  S-VIDEO 0 0 0 0 0 0 0 2 1
                                      DVD 0 0 0 0 0 1 0 1 1
                                  ADAPTER 0 0 0 0 0 0 0 0 1
@@ -135,8 +135,8 @@
                                    MEDIA 0 1 0 0 0 1 0 0 0
                             INSTRUCTIONS 0 0 0 0 0 1 0 1 1
                                     PAIR 0 0 0 0 0 1 0 1 1
-                                  CENTER 0 0 0 0 0 1 0 2 0
-                                     VCR 0 0 1 0 0 0 0 1 1
+                                  CENTER 0 0 0 0 0 1 0 2 1
+                                     VCR 0 0 1 0 0 0 0 1 0
                                   MOVIES 0 0 0 0 0 1 0 1 1
                                 FIREWIRE 0 0 0 0 0 0 0 0 0
                                      HP. 0 0 0 0 0 0 0 1 1
@@ -153,19 +153,19 @@
                                      AIR 0 0 0 0 0 1 0 1 1
                                      TOP 0 0 0 0 0 1 0 1 1
                                  WALMART 0 0 1 0 0 0 0 0 1
-                                   GAMER 0 0 0 0 0 0 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                     CITY 0 1 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
                                   REBATE 0 0 0 0 0 0 1 0 0
+                                   GAMER 0 0 0 0 0 0 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                                       OL 0 0 0 0 0 0 0 1 1
                                QUICKTIME 0 0 0 0 0 0 0 1 1
                                   PLAYER 0 0 0 0 0 1 0 1 1
                                   REMOTE 0 0 0 0 0 0 0 1 1
                                   REVIEW 0 0 0 0 0 1 0 1 1
-                                  WINDOW 0 0 0 0 0 1 0 1 0
+                                  WINDOW 0 0 0 0 0 1 0 1 1
                                     HOOK 0 0 0 0 0 0 0 0 0
                                    RADIO 0 1 1 0 0 1 0 0 0
                                     WALL 0 0 0 0 0 1 0 1 1
@@ -187,7 +187,7 @@
                                      HI. 0 0 1 0 0 0 0 0 0
                                      VHS 0 0 0 0 0 0 0 0 1
                                    TAPES 0 1 0 0 0 1 0 1 1
-                                  BUNDLE 0 0 0 0 0 0 0 1 1
+                                  BUNDLE 0 0 0 0 0 0 0 1 0
                                    JACKS 0 0 0 0 0 1 0 1 1
                                  CLASSIC 0 0 0 0 0 1 0 1 1
                                 SPLITTER 0 0 0 0 0 0 0 3 1
@@ -209,7 +209,6 @@
                                  MONITER 0 0 0 0 0 0 0 1 1
                                  ADAVNCE 0 0 0 0 0 0 0 0 1
                                   INPUTS 0 0 0 0 0 0 0 2 1
-                                TRAILERS 0 0 0 0 0 0 0 1 1
                                      DEN 0 0 0 0 0 0 0 1 1
                                 TOP&QUOT 0 0 0 0 0 0 0 0 1
                            MODEL/VERSION 0 0 0 0 0 0 0 1 1
@@ -222,6 +221,7 @@
                                 -STARTUP 0 0 0 0 0 0 0 0 0
                                 JUSTME44 0 0 0 0 0 0 0 0 1
                            JACKS/OUTPUTS 0 0 0 0 0 0 0 1 1
+                                TRAILERS 0 0 0 0 0 0 0 1 1
                                    MUVEE 0 0 0 0 0 0 0 0 1
                                VIDEOREDO 0 0 0 0 0 0 0 0 1
                              COMMERCIALS 0 0 0 0 0 1 0 0 1

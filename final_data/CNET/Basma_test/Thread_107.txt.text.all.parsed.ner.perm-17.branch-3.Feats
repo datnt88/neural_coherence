@@ -4,16 +4,16 @@
                                     PLAY 0 0 0 0 0 1 0 0 1
                                   SYSTEM 0 1 0 0 0 1 0 1 0
                                    INPUT 0 0 0 0 0 0 1 0 0
-                                HARDWARE 0 0 0 0 0 0 0 1 0
+                                HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 0
                                   ERRORS 0 1 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
-                                   DRIVE 0 0 0 0 0 1 0 1 1
+                                   DRIVE 0 0 0 0 0 1 0 1 0
                                     DISK 0 0 0 0 0 1 0 1 0
-                                 NOTHING 0 0 0 0 0 1 0 0 0
+                                 NOTHING 0 0 0 0 0 1 0 0 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
-                                   ERROR 0 0 0 0 0 1 0 1 0
-                                    BOOT 0 0 0 0 0 0 0 1 1
+                                   ERROR 0 0 0 0 0 1 0 1 1
+                                    BOOT 0 0 0 0 0 0 0 1 0
                                     THIS 0 0 0 0 0 1 0 0 1
                                      HOW 0 0 0 0 0 0 1 0 1
                                       PC 0 0 0 0 0 1 0 1 1
@@ -39,16 +39,16 @@
                                  DISPLAY 0 0 0 0 0 1 0 0 0
                                    ISSUE 0 1 0 0 0 1 0 1 1
                                  SUPPORT 0 0 0 0 0 1 0 0 0
-                                 UPDATES 0 0 0 0 0 0 0 1 0
+                                 UPDATES 0 0 0 0 0 0 0 1 1
                                      IDK 0 0 1 0 0 0 0 0 1
-                                    PLUG 0 0 0 0 0 0 1 1 0
+                                    PLUG 0 0 0 0 0 0 1 1 1
                                  NETWORK 0 0 0 0 0 1 0 0 0
                                  MANAGER 1 0 0 0 0 1 0 3 0
                                    IMAGE 1 0 0 0 0 1 0 0 0
                                   DRIVER 0 0 0 0 0 1 0 0 0
                                PARTITION 0 0 0 0 0 0 1 0 0
                                   FORMAT 0 1 0 0 0 1 0 1 1
-                                  SERVER 0 0 0 0 0 0 0 1 1
+                                  SERVER 0 0 0 0 0 0 0 1 0
                                   CLIENT 0 1 0 0 0 1 0 0 0
                                    PRINT 0 0 0 0 0 1 0 0 0
                                  PRINTER 0 0 0 0 0 0 0 1 1
@@ -66,7 +66,7 @@
                                      &GT 0 0 0 0 0 0 0 0 1
                                OPERATION 0 0 0 0 0 1 0 1 1
                                     LINE 0 0 0 0 0 1 0 1 1
-                                   EVENT 0 0 0 0 0 1 0 1 0
+                                   EVENT 0 0 0 0 0 1 0 1 1
                                   KERNEL 0 0 0 0 0 0 0 0 0
                                    SPACE 0 0 0 0 0 1 0 1 1
                                      WEB 0 0 0 0 0 1 0 1 1
@@ -78,14 +78,14 @@
                                  GATEWAY 0 0 0 0 0 0 0 0 0
                                  PROFILE 0 0 0 0 0 1 0 2 1
                                    STEPS 0 0 0 0 0 1 0 1 1
-                                    PATH 0 0 0 0 0 1 0 1 1
+                                    PATH 0 0 0 0 0 1 0 1 0
                                    VISTA 0 0 0 0 0 0 0 0 1
                                     IPOD 0 0 0 0 0 0 0 0 0
                                     TASK 0 0 0 0 0 1 0 0 0
                                    KODAK 0 0 0 0 0 1 0 0 0
                                      NET 0 0 0 0 0 1 0 0 1
-                                       C 0 0 1 0 0 1 0 1 0
-                                 COMMAND 0 0 0 0 0 1 0 1 0
+                                       C 0 0 1 0 0 1 0 1 1
+                                 COMMAND 0 0 0 0 0 1 0 1 1
                                 COMMANDS 0 0 0 0 0 1 0 1 1
                                 SECURITY 0 0 0 0 0 1 0 0 0
                                   VOLUME 0 0 0 0 0 1 0 1 1
@@ -118,14 +118,14 @@
                                 ACCOUNTS 0 0 0 0 0 1 0 1 0
                             NOTIFICATION 0 0 0 0 0 0 0 0 0
                                SCHEDULER 0 0 0 0 0 0 0 1 1
-                                 NETBIOS 0 0 0 0 0 0 0 1 1
+                                 NETBIOS 0 0 0 0 0 0 0 1 0
                                   HELPER 0 0 1 0 0 0 0 0 0
                                TELEPHONY 0 0 0 0 0 0 0 0 0
                                     HIVE 0 0 1 0 0 0 0 0 0
                                  CLEANUP 0 0 0 0 0 0 0 0 0
                          INSTRUMENTATION 0 0 0 0 0 0 0 0 0
                               EXTENSIONS 0 0 0 0 0 1 0 0 0
-                             WORKSTATION 0 0 0 0 0 0 0 2 0
+                             WORKSTATION 0 0 0 0 0 0 0 2 1
                            COMMONALITIES 0 0 0 0 0 0 0 1 1
                                 ARTICLES 0 0 0 0 0 1 0 1 1
                                 5.2.3790 0 0 0 0 0 0 0 0 1

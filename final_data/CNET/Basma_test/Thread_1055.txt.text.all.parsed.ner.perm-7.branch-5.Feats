@@ -10,12 +10,12 @@
                               EVERYTHING 0 0 0 0 0 1 0 0 1
                                      BIT 0 0 0 0 0 1 0 1 1
                               TECHNOLOGY 1 0 0 0 0 1 0 1 1
-                                    YEAR 0 1 0 6 0 1 0 1 1
+                                    YEAR 0 1 0 0 0 1 0 1 0
                                     CHIP 0 0 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 0 0
                                   DRIVES 0 0 0 0 0 1 0 1 1
-                                   POWER 0 1 0 0 0 1 0 1 0
+                                   POWER 0 1 0 0 0 1 0 1 1
                                   ERRORS 0 1 0 0 0 1 0 1 1
                                     THEN 0 0 0 0 0 0 1 0 1
                                      ONE 0 0 0 0 0 1 0 1 0
@@ -49,7 +49,7 @@
                                       .. 0 0 0 0 0 1 0 0 1
                                   THINGS 0 0 0 0 0 1 0 1 1
                               CONNECTION 0 0 0 0 0 1 0 1 1
-                                   MODEM 0 0 0 0 0 1 0 2 0
+                                   MODEM 0 0 0 0 0 1 0 2 1
                                     HERE 0 0 0 0 0 0 1 0 1
                                   DEVICE 0 0 0 0 0 1 0 2 1
                                   ANYONE 0 0 0 0 0 1 0 0 1
@@ -59,7 +59,7 @@
                                     MORE 0 0 0 0 0 0 1 1 1
                                    LEAST 0 0 0 0 0 0 1 1 1
                                 WIRELESS 0 0 1 0 0 0 0 0 0
-                                 DESKTOP 0 0 0 0 0 0 1 1 1
+                                 DESKTOP 0 0 0 0 0 0 1 1 0
                                   COUPLE 0 0 0 0 0 1 0 1 1
                                   GAMING 0 0 0 0 0 0 0 0 0
                                QUESTIONS 0 0 0 0 0 1 0 1 1
@@ -103,7 +103,7 @@
                                   ROUTER 0 0 0 0 0 0 0 3 1
                                 INTERNET 0 0 0 0 0 1 0 0 0
                                     PAST 0 0 0 0 0 1 0 1 1
-                                 NETWORK 0 0 0 0 0 1 0 2 1
+                                 NETWORK 0 0 0 0 0 1 0 2 0
                                     PAGE 0 0 0 0 0 1 0 1 1
                                 FIRMWARE 0 0 0 0 0 0 0 1 1
                                     HELP 0 0 0 0 0 1 0 1 1
@@ -116,14 +116,14 @@
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 1 1
-                                  OFFICE 0 0 0 0 0 1 0 1 0
+                                  OFFICE 0 0 0 0 0 1 0 1 1
                                     WIFI 0 0 0 0 0 0 0 1 1
                                   ACCESS 0 0 0 0 0 1 0 0 0
                                  SERVICE 0 0 0 0 0 1 0 2 1
                                      DSL 0 0 0 0 0 0 0 0 0
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
                                     MODE 0 0 0 0 0 1 0 1 1
-                                     LAN 0 0 0 0 0 0 0 1 1
+                                     LAN 0 0 0 0 0 0 0 1 0
                                    IDEAS 0 0 0 0 0 1 0 1 1
                                  DETAILS 0 0 0 0 0 1 0 1 1
                                     XBOX 0 0 0 0 0 0 0 1 1
@@ -180,7 +180,7 @@
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                 CONSOLES 0 0 0 0 0 0 0 1 1
                                 SERVICES 1 0 0 0 0 1 0 1 1
-                              NETWORKING 0 0 0 0 0 0 0 1 0
+                              NETWORKING 0 0 0 0 0 0 0 1 1
                                     NATS 0 0 0 0 0 0 0 1 1
                                 SPEAKERS 0 0 0 0 0 1 0 1 1
                                    2WIRE 0 0 0 0 0 0 0 1 1
@@ -210,7 +210,7 @@
                                  REPORTS 0 0 0 0 0 1 0 0 1
                                 CONTRAST 1 0 0 0 0 1 0 0 1
                                     HALL 0 0 0 0 0 1 0 1 1
-                                   WALLS 0 0 0 0 0 1 0 1 1
+                                   WALLS 0 0 0 0 0 1 0 1 0
                                  SIGNALS 0 0 0 0 0 1 0 1 1
                                        X 0 0 1 0 0 1 0 0 0
                                  LEOPARD 0 0 0 0 0 1 0 1 1
@@ -231,7 +231,7 @@
                             OBSERVATIONS 0 0 0 0 0 1 0 1 1
                              PENETRATION 0 0 0 0 0 0 0 1 1
                                  BOOSTER 0 0 0 0 0 0 0 2 1
-                                     WPA 0 0 0 0 0 0 0 1 0
+                                     WPA 0 0 0 0 0 0 0 1 1
                               ENCRYPTION 0 0 0 0 0 0 0 0 1
                                   OTHERS 0 0 0 0 0 1 0 0 1
                                   MOMENT 0 0 0 0 0 1 0 1 1
@@ -239,7 +239,7 @@
                                  AIRPORT 0 0 0 0 0 1 0 0 0
                                  EXPRESS 0 1 0 0 0 1 0 1 1
                                  MEASURE 0 0 0 0 0 1 0 1 1
-                                 WEEKEND 0 0 0 0 0 1 0 1 0
+                                 WEEKEND 0 0 0 6 0 1 0 1 1
                                    WIRES 0 0 0 0 0 1 0 1 1
                             IMPROVEMENTS 0 0 0 0 0 1 0 1 1
                                  MADNESS 0 0 0 0 0 1 0 1 1
@@ -263,7 +263,7 @@
                                 ANTENNAS 0 0 0 0 0 0 0 1 1
                                    SENSE 0 0 0 0 0 1 0 0 1
                                    DAISY 0 0 1 0 0 1 0 0 0
-                                   CHAIN 1 1 0 0 0 1 0 1 0
+                                   CHAIN 1 1 0 0 0 1 0 1 1
                                SATELLITE 0 0 0 0 0 1 0 0 0
                                      HOP 0 0 0 0 0 0 1 0 0
                                     POOL 0 0 0 0 0 1 0 1 1

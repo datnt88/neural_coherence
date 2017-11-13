@@ -1,5 +1,5 @@
                                        $ 0 0 0 0 0 0 1 1 1
-                                    TIME 1 1 0 0 0 1 0 1 0
+                                    TIME 1 1 0 0 0 1 0 1 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                   PERSON 0 1 0 0 0 1 0 0 1
                                     THAT 0 0 0 0 0 0 0 0 1
@@ -8,14 +8,14 @@
                                     SOME 0 0 0 0 0 0 1 1 1
                                    ORDER 0 0 0 0 0 1 0 0 0
                                    VIDEO 0 1 0 0 0 1 0 0 0
-                                    CARD 0 1 0 0 0 1 0 3 1
+                                    CARD 0 1 0 0 0 1 0 3 0
                                       TV 0 0 0 0 0 1 0 3 0
-                                  THANKS 0 0 0 0 0 1 0 2 0
+                                  THANKS 0 0 0 0 0 1 0 2 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
                                     CHIP 0 0 0 0 0 1 0 1 1
                                    BUNCH 0 0 0 0 0 1 0 1 1
                                    INPUT 0 0 0 0 0 0 1 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 1
+                                COMPUTER 0 1 0 0 0 1 0 3 0
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 1 1
                               CONTROLLER 0 0 0 0 0 1 0 1 1
@@ -60,7 +60,7 @@
                                     USER 0 0 0 0 0 1 0 0 0
                                   ANYONE 0 0 0 0 0 1 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 1 1
+                                      HP 0 0 1 0 0 0 0 1 0
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                  REVIEWS 0 0 0 0 0 1 0 1 1
                                      TIA 0 0 1 0 0 1 0 0 1
@@ -73,7 +73,7 @@
                                QUESTIONS 0 0 0 0 0 1 0 0 1
                                      OWN 0 0 0 0 0 0 1 1 1
                                   SCREEN 0 0 0 0 0 1 0 1 0
-                                GRAPHICS 0 0 0 0 0 1 0 1 1
+                                GRAPHICS 0 0 0 0 0 1 0 1 0
                                SOMETHING 0 0 0 0 0 1 0 1 0
                                     PART 1 0 0 0 0 1 0 1 1
                                    TOWER 0 0 0 0 0 1 0 1 1
@@ -89,7 +89,7 @@
                                   ONLINE 0 0 0 0 0 1 0 0 1
                                  MONITOR 0 0 0 0 0 0 0 1 1
                                   SIGNAL 0 0 0 0 0 1 0 2 1
-                                   CABLE 0 0 0 0 0 1 0 3 1
+                                   CABLE 0 0 0 0 0 1 0 3 0
                                  S-VIDEO 0 0 0 0 0 0 0 1 1
                                      DVD 0 0 0 0 0 1 0 1 1
                                    STORY 0 0 0 0 0 1 0 1 1
@@ -158,15 +158,15 @@
                                  COMCAST 0 0 1 0 0 1 0 0 0
                                      AIR 0 0 0 0 0 1 0 1 1
                                      TOP 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                     CITY 0 1 0 0 0 1 0 1 1
                                   REBATE 0 0 0 0 0 0 1 1 0
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                                       OL 0 0 0 0 0 0 0 1 1
                                QUICKTIME 0 0 0 0 0 0 0 1 1
                                   REVIEW 0 0 0 0 0 1 0 1 1
-                                  WINDOW 0 0 0 0 0 1 0 1 1
+                                  WINDOW 0 0 0 0 0 1 0 1 0
                                     HOOK 0 0 0 0 0 0 0 0 0
                                    RADIO 0 1 0 0 0 1 0 1 1
                                 BEHAVIOR 0 0 0 0 0 1 0 2 1
@@ -208,8 +208,6 @@
                                  MONITER 0 0 0 0 0 0 0 1 1
                                  ADAVNCE 0 0 0 0 0 0 0 0 1
                                   INPUTS 0 0 0 0 0 0 0 3 1
-                                TRAILERS 0 0 0 0 0 0 0 1 1
-                                HANDS-ON 0 0 0 0 0 0 0 1 1
                                   COXIAL 0 0 0 0 0 0 0 1 1
                         DIGITALGUARDIAN4 0 0 0 0 0 0 0 1 1
                                      DEN 0 0 0 0 0 0 0 1 1
@@ -226,6 +224,8 @@
                                 -STARTUP 0 0 0 0 0 0 0 0 0
                                 JUSTME44 0 0 0 0 0 0 0 0 1
                            JACKS/OUTPUTS 0 0 0 0 0 0 0 1 1
+                                TRAILERS 0 0 0 0 0 0 0 1 1
+                                HANDS-ON 0 0 0 0 0 0 0 1 1
                                    MUVEE 0 0 0 0 0 0 0 0 1
                                VIDEOREDO 0 0 0 0 0 0 0 0 1
                              COMMERCIALS 0 0 0 0 0 1 0 0 1

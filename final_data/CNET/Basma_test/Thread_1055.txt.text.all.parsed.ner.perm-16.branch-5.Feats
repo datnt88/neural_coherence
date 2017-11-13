@@ -11,7 +11,7 @@
                               EVERYTHING 0 0 0 0 0 1 0 0 1
                                    SPEED 0 0 0 0 0 1 0 0 1
                               TECHNOLOGY 1 0 0 0 0 1 0 1 1
-                                    YEAR 0 1 0 6 0 1 0 1 1
+                                    YEAR 0 1 0 0 0 1 0 1 1
                                     CHIP 0 0 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 0 0
@@ -21,7 +21,7 @@
                                      ONE 0 0 0 0 0 1 0 1 0
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 3 1
-                                 NOTHING 0 0 0 0 0 1 0 1 0
+                                 NOTHING 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                      NOW 0 0 0 0 0 0 0 0 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
@@ -50,9 +50,9 @@
                                       .. 0 0 0 0 0 1 0 0 1
                               CONNECTION 0 0 0 0 0 1 0 1 1
                                       3G 0 0 0 0 0 0 0 1 1
-                                   MODEM 0 0 0 0 0 1 0 3 0
+                                   MODEM 0 0 0 0 0 1 0 3 1
                                     HERE 0 0 0 0 0 0 1 0 1
-                                  DEVICE 0 0 0 0 0 1 0 3 1
+                                  DEVICE 0 0 0 0 0 1 0 3 0
                                   ANYONE 0 0 0 0 0 1 0 0 1
                            CONFIGURATION 0 0 0 0 0 0 0 1 1
                                     WORK 0 0 0 0 0 1 0 1 1
@@ -64,8 +64,8 @@
                                   REASON 0 0 0 0 0 1 0 1 1
                                 WIRELESS 0 0 1 0 0 0 0 0 0
                                YESTERDAY 0 0 0 6 0 1 0 0 1
-                                      OS 0 0 0 0 0 0 0 1 1
-                                 DESKTOP 0 0 0 0 0 0 1 1 1
+                                      OS 0 0 1 0 0 0 0 1 0
+                                 DESKTOP 0 0 0 0 0 0 1 1 0
                                   COUPLE 0 0 0 0 0 1 0 1 1
                                   GAMING 0 0 0 0 0 0 0 0 0
                                   BRIDGE 0 1 0 0 0 1 0 0 0
@@ -85,7 +85,7 @@
                                    FIRST 0 1 0 0 0 1 0 1 1
                                   ONLINE 0 0 0 0 0 1 0 1 1
                                  REGARDS 0 0 0 0 0 0 0 1 1
-                                  SIGNAL 0 0 0 0 0 1 0 3 0
+                                  SIGNAL 0 0 0 0 0 1 0 3 1
                                  WORKING 0 0 0 0 0 1 0 1 1
                                   CHANCE 0 0 0 0 0 1 0 1 1
                                     AREA 0 0 0 0 0 1 0 1 1
@@ -103,7 +103,7 @@
                                   ROUTER 0 0 0 0 0 0 0 3 1
                                 INTERNET 0 0 0 0 0 1 0 1 1
                                     PAST 0 0 0 0 0 1 0 1 1
-                                 NETWORK 0 0 0 0 0 1 0 3 0
+                                 NETWORK 0 0 0 0 0 1 0 3 1
                                    GUIDE 0 0 0 0 0 1 0 1 1
                                     PAGE 0 0 0 0 0 1 0 1 1
                                 FIRMWARE 0 0 0 0 0 0 0 1 1
@@ -130,12 +130,12 @@
                                    IDEAS 0 0 0 0 0 1 0 1 1
                                  DETAILS 0 0 0 0 0 1 0 1 1
                                     XBOX 0 0 0 0 0 0 0 2 1
-                                   RANGE 0 0 0 0 0 1 0 1 1
+                                   RANGE 0 0 0 0 0 1 0 1 0
                                  ROUTERS 0 0 0 0 0 0 0 3 1
                                    BOARD 0 1 0 0 0 1 0 1 1
                                 NETWORKS 0 0 0 0 0 1 0 1 1
                                    DOZEN 0 0 0 0 0 1 0 0 0
-                                FIREWALL 0 0 0 0 0 0 0 1 0
+                                FIREWALL 0 0 0 0 0 0 0 1 1
                              ROUTER--&GT 0 0 0 0 0 0 0 1 1
                                  MESSAGE 0 0 0 0 0 1 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 1 1
@@ -159,7 +159,7 @@
                               TECHNICIAN 0 0 0 0 0 1 0 1 1
                                  MORNING 1 0 0 5 0 1 0 1 1
                                     LINE 0 0 0 0 0 1 0 2 1
-                                    LUCK 0 0 0 0 0 1 0 1 0
+                                    LUCK 0 0 0 0 0 1 0 1 1
                                   FORUMS 0 0 0 0 0 1 0 1 1
                                     PUSH 0 0 0 0 0 1 0 0 0
                                     NOTE 0 0 0 0 0 1 0 1 1
@@ -177,7 +177,7 @@
                                 THOUGHTS 0 0 0 0 0 1 0 1 1
                                   RESULT 1 0 0 0 0 1 0 1 1
                                    SITES 0 0 0 0 0 1 0 1 1
-                                     NAT 0 0 0 0 0 0 0 2 1
+                                     NAT 0 0 0 0 0 0 0 2 0
                                     AT&T 0 0 1 0 0 1 0 0 1
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                 CONSOLES 0 0 0 0 0 0 0 1 1

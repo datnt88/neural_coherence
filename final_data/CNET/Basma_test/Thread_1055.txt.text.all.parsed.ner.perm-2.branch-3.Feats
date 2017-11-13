@@ -13,7 +13,7 @@
                                    SPEED 0 0 0 0 0 1 0 0 1
                                      BIT 0 0 0 0 0 1 0 1 1
                               TECHNOLOGY 1 0 0 0 0 1 0 1 1
-                                    YEAR 0 1 0 0 0 1 0 1 1
+                                    YEAR 0 1 0 0 0 1 0 1 0
                                     CHIP 0 0 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 0 0
@@ -51,7 +51,7 @@
                                   ANYONE 0 0 0 0 0 1 0 0 1
                            CONFIGURATION 0 0 0 0 0 0 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 1 0
+                                      HP 0 0 1 0 0 0 0 1 1
                              INFORMATION 0 1 0 0 0 1 0 1 1
                               EXPERIMENT 0 0 0 0 0 1 0 0 0
                                   REASON 0 0 0 0 0 1 0 1 1
@@ -95,7 +95,7 @@
                                  SETTING 0 0 0 0 0 1 0 1 1
                                  LINKSYS 0 0 0 0 0 0 0 0 0
                                   ROUTER 0 0 0 0 0 0 0 3 1
-                                INTERNET 0 0 0 0 0 1 0 1 1
+                                INTERNET 0 0 0 0 0 1 0 1 0
                                     PAST 0 0 0 0 0 1 0 1 1
                                  NETWORK 0 0 0 0 0 1 0 3 1
                                     PAGE 0 0 0 0 0 1 0 1 1
@@ -109,7 +109,7 @@
                                      MAC 0 0 1 0 0 1 0 1 1
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
-                                    HOME 0 0 0 0 0 1 0 1 0
+                                    HOME 0 0 0 0 0 1 0 1 1
                                   OFFICE 0 0 0 0 0 1 0 1 1
                                     WIFI 0 0 0 0 0 0 0 1 1
                                 SOFTWARE 0 1 0 0 0 1 0 0 0
@@ -119,11 +119,11 @@
                                      LAN 0 0 0 0 0 0 0 1 1
                                    IDEAS 0 0 0 0 0 1 0 1 1
                                     XBOX 0 0 0 0 0 0 0 2 1
-                                   RANGE 0 0 0 0 0 1 0 2 1
+                                   RANGE 0 0 0 0 0 1 0 2 0
                                  ROUTERS 0 0 0 0 0 0 0 3 1
                                    BOARD 0 1 0 0 0 1 0 1 1
                                 NETWORKS 0 0 0 0 0 1 0 1 1
-                                FIREWALL 0 0 0 0 0 0 0 1 1
+                                FIREWALL 0 0 0 0 0 0 0 1 0
                                  REPAIRS 0 0 0 0 0 1 0 1 1
                                   OPTION 0 0 0 0 0 1 0 1 1
                                     NONE 0 0 0 0 0 1 0 1 1
@@ -142,7 +142,7 @@
                                   CABLES 0 0 0 0 0 1 0 1 1
                               TECHNICIAN 0 0 0 0 0 1 0 1 1
                                     LINE 0 0 0 0 0 1 0 1 1
-                                    LUCK 0 0 0 0 0 1 0 1 0
+                                    LUCK 0 0 0 0 0 1 0 1 1
                                     RUNS 0 0 0 0 0 1 0 1 1
                                   FORUMS 0 0 0 0 0 1 0 1 1
                                     PUSH 0 0 0 0 0 1 0 0 0
@@ -161,7 +161,7 @@
                                   RESULT 1 0 0 0 0 1 0 1 1
                                    SITES 0 0 0 0 0 1 0 1 1
                                      NAT 0 0 0 0 0 0 0 1 0
-                                    AT&T 0 0 1 0 0 1 0 0 0
+                                    AT&T 0 0 0 0 0 1 0 0 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                 SERVICES 1 0 0 0 0 1 0 1 1
                               NETWORKING 0 0 0 0 0 0 0 1 1
@@ -178,11 +178,11 @@
                                   PERIOD 0 0 0 0 0 1 0 1 1
                                 COVERAGE 0 0 0 0 0 1 0 1 1
                                 STRENGTH 0 0 0 0 0 1 0 1 1
-                                 MACBOOK 0 0 0 0 0 0 0 1 0
+                                 MACBOOK 0 0 0 0 0 0 0 1 1
                                 MEGABITS 0 0 0 0 0 0 0 2 1
                                     SONY 0 1 1 0 0 1 0 0 0
                                     VAIO 0 0 0 0 0 0 0 1 1
-                                   VISTA 0 0 0 0 0 0 0 1 0
+                                   VISTA 0 0 0 0 0 0 0 1 1
                                  KITCHEN 0 0 0 0 0 1 0 1 1
                                 CONTRAST 1 0 0 0 0 1 0 0 1
                                     HALL 0 0 0 0 0 1 0 1 1
@@ -203,7 +203,7 @@
                                  GRAPHER 0 0 0 0 0 0 0 1 1
                             OBSERVATIONS 0 0 0 0 0 1 0 1 1
                                  BOOSTER 0 0 0 0 0 0 0 2 1
-                                     WPA 0 0 0 0 0 0 0 1 0
+                                     WPA 0 0 0 0 0 0 0 1 1
                               ENCRYPTION 0 0 0 0 0 0 0 0 1
                                   OTHERS 0 0 0 0 0 1 0 0 1
                                   MOMENT 0 0 0 0 0 1 0 1 1

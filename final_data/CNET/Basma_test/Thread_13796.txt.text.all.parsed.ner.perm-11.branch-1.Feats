@@ -11,7 +11,7 @@
                                      ANY 0 0 0 0 0 0 1 1 1
                                     BOTH 0 0 0 0 0 0 1 1 1
                                    THING 0 0 0 0 0 1 0 1 1
-                              CONNECTION 0 0 0 0 0 1 0 3 0
+                              CONNECTION 0 0 0 0 0 1 0 3 1
                                    MODEM 0 0 0 0 0 1 0 1 1
                                     USER 0 0 0 0 0 1 0 0 0
                                      SAY 0 0 0 0 0 0 0 1 1
@@ -26,13 +26,13 @@
                                     AREA 0 0 0 0 0 1 0 0 0
                                       1. 0 0 0 0 0 0 0 0 1
                                 ETHERNET 0 0 0 0 0 0 0 0 0
-                                 ADAPTER 0 0 0 0 0 0 0 2 1
+                                 ADAPTER 0 0 0 0 0 0 0 2 0
                                     DONT 0 0 0 0 0 0 0 0 0
                                     ONES 0 0 0 0 0 1 0 0 0
                                  LINKSYS 0 0 0 0 0 0 0 0 0
-                                  ROUTER 0 0 0 0 0 0 0 1 1
+                                  ROUTER 0 0 0 0 0 0 0 1 0
                                 INTERNET 0 0 0 0 0 1 0 1 1
-                                  DOESNT 0 0 0 0 0 0 0 1 0
+                                  DOESNT 0 0 0 0 0 0 0 1 1
                                    SETUP 0 0 0 0 0 0 0 0 0
                                  NETWORK 0 0 0 0 0 1 0 0 0
                                    GUIDE 0 0 0 0 0 1 0 0 0
@@ -48,13 +48,13 @@
                                  DEFAULT 0 0 0 0 0 1 0 0 0
                                     UPNP 0 0 0 0 0 0 0 1 1
                                   OPTION 0 0 0 0 0 1 0 1 1
-                                       % 1 1 0 0 0 0 0 2 1
+                                       % 1 1 0 4 0 0 0 2 1
                                     LUCK 0 0 0 0 0 1 0 1 1
                                     FOLL 0 0 0 0 0 0 0 1 1
                                      WEP 0 0 0 0 0 0 0 1 1
                                      NAT 0 0 0 0 0 0 0 0 0
                                  GATEWAY 0 0 0 0 0 0 0 2 1
-                                NOTEBOOK 0 0 0 0 0 0 0 1 0
+                                NOTEBOOK 0 0 0 0 0 0 0 1 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
                                    RESET 0 0 0 0 0 0 0 0 0
                                      NET 0 0 0 0 0 1 0 1 1
@@ -76,7 +76,7 @@
                                    G604T 0 0 0 0 0 0 0 0 1
                                VICEVERSA 0 0 0 0 0 0 0 1 1
                                     FAQS 0 0 0 0 0 0 0 1 1
-                                    PVC0 0 0 0 0 0 0 0 0 1
+                                    PVC0 0 0 0 0 0 0 0 0 0
                                     MINS 0 0 0 0 0 0 0 1 1
                                 20E:7FFF 0 0 0 0 0 0 0 1 1
                                   TEREDO 0 0 0 0 0 0 0 0 0

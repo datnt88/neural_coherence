@@ -7,7 +7,7 @@
                                     SOME 0 0 0 0 0 0 1 1 1
                                    ORDER 0 0 0 0 0 1 0 0 0
                                    512MB 0 0 0 0 0 0 0 1 1
-                                   VIDEO 0 1 0 0 0 1 0 1 1
+                                   VIDEO 0 1 0 0 0 1 0 1 0
                                     CARD 0 1 0 0 0 1 0 1 1
                                       OC 0 0 1 0 0 0 0 1 1
                                   THANKS 0 0 0 0 0 1 0 0 0
@@ -44,7 +44,7 @@
                                   AND/OR 0 0 0 0 0 0 0 0 0
                                 ANYTHING 0 0 0 0 0 1 0 0 1
                                    WHILE 0 0 0 0 0 1 0 1 1
-                                   &QUOT 0 0 0 0 0 0 0 3 1
+                                   &QUOT 0 0 0 0 0 0 0 3 0
                                     WELL 0 0 1 0 0 1 0 0 0
                                    THERE 0 0 0 0 0 0 1 0 1
                                      RUN 0 0 0 0 0 1 0 1 1
@@ -56,11 +56,11 @@
                                     CASE 0 1 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
-                                  MEMORY 0 1 0 0 0 1 0 0 0
+                                  MEMORY 0 1 0 0 0 1 0 0 1
                                   THINGS 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 1 1
                                     ASUS 0 0 1 0 0 0 0 0 1
-                                   MODEM 0 0 0 0 0 1 0 1 0
+                                   MODEM 0 0 0 0 0 1 0 1 1
                                   NVIDIA 0 0 0 0 0 0 0 1 1
                                 FEATURES 0 0 0 0 0 1 0 1 1
                                     DAYS 0 0 0 6 0 1 0 1 1
@@ -88,7 +88,7 @@
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                              PERFORMANCE 1 1 0 0 0 1 0 0 1
                                     PART 1 0 0 0 0 1 0 1 1
-                                   PRICE 0 1 0 0 0 1 0 1 1
+                                   PRICE 0 1 0 0 0 1 0 1 0
                                    BRAND 0 0 0 0 0 1 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 1 1
                                  CHIPSET 0 0 0 0 0 0 0 1 1
@@ -96,7 +96,7 @@
                                    PARTS 1 0 0 0 0 1 0 3 1
                                    KINDA 0 0 0 0 0 0 0 0 1
                                   PEOPLE 0 1 0 0 0 1 0 1 1
-                                    COST 0 0 0 0 0 1 0 1 1
+                                    COST 0 0 0 0 0 1 0 1 0
                                    TIMES 0 1 0 0 0 1 0 1 0
                                PROCESSOR 0 0 0 0 0 0 0 1 0
                                  EXAMPLE 0 0 0 0 0 1 0 0 1
@@ -153,7 +153,7 @@
                                   BACKUP 0 0 0 0 0 0 0 0 0
                                     TECH 0 0 1 0 0 0 1 1 0
                                      REP 0 0 0 0 0 0 0 1 1
-                                   BOARD 0 1 0 0 0 1 0 1 0
+                                   BOARD 0 1 0 0 0 1 0 1 1
                                    DOZEN 0 0 0 0 0 1 0 0 0
                                    WORLD 0 1 0 0 0 1 0 1 1
                                   BRANDS 0 1 0 0 0 1 0 1 1
@@ -166,7 +166,7 @@
                               EXPERIENCE 0 0 0 0 0 1 0 3 1
                                  PROCESS 0 0 0 0 0 1 0 1 1
                                 BUILDERS 0 0 0 0 0 1 0 1 1
-                                WARRANTY 0 0 0 0 0 0 0 1 1
+                                WARRANTY 0 0 0 0 0 0 0 1 0
                               NEWEGG.COM 0 0 0 0 0 0 0 0 0
                                    STORE 0 0 0 0 0 1 0 1 1
                                   DDR400 0 0 0 0 0 0 0 1 1
@@ -200,7 +200,7 @@
                                     MAIL 0 0 0 0 0 1 0 0 0
                                  EDITING 0 0 0 0 0 1 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 1 1
-                                 GATEWAY 0 0 0 0 0 0 0 1 1
+                                 GATEWAY 0 0 0 0 0 0 0 1 0
                                  PARTIES 0 0 0 0 0 1 0 0 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
                                KNOWLEDGE 0 0 0 0 0 1 0 1 1
@@ -224,7 +224,7 @@
                                  FACTORS 0 0 0 0 0 1 0 1 1
                                 ADDITION 0 0 0 0 0 1 0 0 1
                                    WHATS 0 0 0 0 0 0 0 1 1
-                                  BURNER 0 0 0 0 0 0 1 1 1
+                                  BURNER 0 0 0 0 0 0 1 1 0
                                    QUEST 0 0 0 0 0 1 0 1 1
                                BAREBONES 0 0 0 0 0 0 0 0 0
                                   PIECES 0 0 0 0 0 1 0 1 1
@@ -281,9 +281,6 @@
                                  1.83GHZ 0 0 0 0 0 0 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                               OURS.&QUOT 0 0 0 0 0 0 0 0 1
                                  MUCKING 0 0 0 0 0 0 0 1 1
                                       A+ 0 0 0 0 0 0 0 1 1
@@ -295,6 +292,9 @@
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                    STITE 0 0 0 0 0 0 0 2 1
                                   HE/SHE 0 0 0 0 0 0 0 0 1
                                 SENTENCE 0 0 0 0 0 1 0 1 1

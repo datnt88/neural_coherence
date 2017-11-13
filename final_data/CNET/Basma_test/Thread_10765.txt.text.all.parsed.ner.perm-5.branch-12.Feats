@@ -5,7 +5,7 @@
                                    ABOUT 0 0 0 0 0 0 1 1 1
                                      ALL 0 0 0 0 0 0 0 1 1
                                     SOME 0 0 0 0 0 0 1 0 1
-                                   VIDEO 0 1 0 0 0 1 0 1 1
+                                   VIDEO 0 1 0 0 0 1 0 1 0
                                     CARD 0 1 0 0 0 1 0 3 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
                                     SAME 0 0 0 0 0 0 1 1 1
@@ -14,12 +14,12 @@
                                       MB 0 0 0 0 0 0 0 1 1
                                  UPGRADE 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 2 1
-                                    YEAR 0 1 0 0 0 1 0 1 1
+                                    YEAR 0 1 0 6 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 0 0
-                                  SUPPLY 0 0 0 0 0 1 0 1 0
+                                  SUPPLY 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 1 1
                                    WEEKS 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 2 1
@@ -45,14 +45,14 @@
                                   ANYONE 0 0 0 0 0 1 0 0 1
                                       HP 0 0 1 0 0 0 0 0 0
                                      FUN 0 0 0 0 0 1 0 1 1
-                                KEYBOARD 0 0 0 0 0 0 0 1 1
+                                KEYBOARD 0 0 0 0 0 0 0 1 0
                                 SHOPPING 0 0 0 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                    LEAST 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
                                 WIRELESS 0 0 1 0 0 0 0 0 0
                                       OS 0 0 0 0 0 0 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 0 0
+                                 WINDOWS 0 0 0 0 0 1 0 0 1
                                   AROUND 0 0 0 0 0 0 0 1 1
                                      OWN 0 0 0 0 0 0 1 1 1
                                    MOUSE 0 0 0 0 0 1 0 2 1
@@ -66,11 +66,11 @@
                                    BRAND 0 0 0 0 0 1 0 0 0
                                     BEST 0 0 0 0 0 0 1 1 1
                                     LESS 0 0 0 7 0 0 0 1 1
-                                   PARTS 1 0 0 0 0 1 0 1 1
+                                   PARTS 1 0 0 0 0 1 0 1 0
                                FRAGMENTS 0 0 0 0 0 1 0 1 1
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 1 1
-                                 THREADS 0 0 0 0 0 1 0 1 0
+                                 THREADS 0 0 0 0 0 1 0 1 1
                                     GAME 0 0 0 0 0 1 0 1 1
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 1 0
@@ -122,14 +122,14 @@
                                  PROCESS 0 0 0 0 0 1 0 1 1
                               WARRANTIES 0 0 0 0 0 0 0 0 0
                                  REBATES 0 0 0 0 0 0 0 1 1
-                                   STORE 0 0 0 0 0 1 0 1 0
+                                   STORE 0 0 0 0 0 1 0 1 1
                                    USAGE 0 0 0 0 0 0 0 2 1
                                     MIND 0 0 0 0 0 1 0 0 1
-                                     CAR 0 1 0 0 0 1 0 1 0
+                                     CAR 0 1 0 0 0 1 0 1 1
                                     SITE 0 0 0 0 0 1 0 1 1
                                    PIECE 0 0 0 0 0 1 0 1 1
                                  EDITING 0 0 0 0 0 1 0 1 1
-                                   VISTA 0 0 0 0 0 0 0 1 1
+                                   VISTA 0 0 0 0 0 0 0 1 0
                                        X 0 0 1 0 0 1 0 2 0
                                    KNOCK 0 0 0 0 0 0 0 0 0
                                  EXPRESS 0 1 0 0 0 1 0 0 0
@@ -144,7 +144,7 @@
                                   POSTER 0 0 0 0 0 0 0 1 1
                                   TODAYS 0 0 0 0 0 0 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 1 1
-                                 WALMART 0 0 1 0 0 0 0 0 0
+                                 WALMART 0 0 1 0 0 0 0 0 1
                                   500BUX 0 0 0 0 0 0 0 0 1
                                     CARS 0 1 0 0 0 1 0 1 1
                                    GRAND 0 0 0 0 0 1 0 1 1
@@ -155,14 +155,6 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
-                               DEVELOPER 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                  BATTER 0 0 0 0 0 0 0 1 1
-                                   PLUGS 0 0 0 0 0 0 0 1 1
-                                 STORIES 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                     BANG 0 0 0 0 0 1 0 0 0
@@ -187,6 +179,14 @@
                                     ROAD 0 0 0 0 0 1 0 1 1
                                     BELL 0 1 0 0 0 1 0 1 1
                                     2GIG 0 0 0 0 0 0 0 1 1
+                                     10. 0 0 0 0 0 0 0 1 1
+                               DEVELOPER 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                  BATTER 0 0 0 0 0 0 0 1 1
+                                   PLUGS 0 0 0 0 0 0 0 1 1
+                                 STORIES 0 0 0 0 0 1 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 0 1
                                    447.4 0 0 0 0 0 0 0 0 1
                                 GEFORCE4 0 0 0 0 0 0 0 0 0

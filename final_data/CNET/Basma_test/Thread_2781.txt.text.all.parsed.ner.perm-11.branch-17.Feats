@@ -35,7 +35,7 @@
                                    OTHER 0 0 0 0 0 0 0 1 1
                                     KIND 0 0 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
-                             MOTHERBOARD 0 0 0 0 0 0 0 3 1
+                             MOTHERBOARD 0 0 0 0 0 0 0 3 0
                                       PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 0 1
@@ -47,11 +47,11 @@
                                      ANY 0 0 0 0 0 0 1 1 1
                                      AMD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 2 1
-                                     RAM 0 0 1 0 0 1 0 1 1
+                                     RAM 0 0 1 0 0 1 0 1 0
                                     CASE 0 1 0 0 0 1 0 1 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
-                                  MEMORY 0 1 0 0 0 1 0 1 0
+                                  MEMORY 0 1 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 1 1
                                     ASUS 0 0 1 0 0 0 0 0 1
@@ -80,7 +80,7 @@
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 2 1
                                    PRICE 0 1 0 0 0 1 0 0 0
-                                   BRAND 0 0 0 0 0 1 0 1 1
+                                   BRAND 0 0 0 0 0 1 0 1 0
                                       HD 0 0 1 0 0 0 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 1 1
                                  OPTIONS 0 0 0 0 0 1 0 1 1
@@ -89,8 +89,8 @@
                                     GAME 0 0 0 0 0 1 0 0 0
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 0 1
-                                   TIMES 0 1 0 0 0 1 0 1 1
-                               PROCESSOR 0 0 0 0 0 0 0 1 1
+                                   TIMES 0 1 0 0 0 1 0 1 0
+                               PROCESSOR 0 0 0 0 0 0 0 1 0
                                  EXAMPLE 0 0 0 0 0 1 0 0 1
                                      FAN 0 0 0 0 0 1 0 2 1
                                     COMP 0 0 0 0 0 0 0 1 1
@@ -121,7 +121,7 @@
                                   ADVICE 0 0 0 0 0 1 0 2 1
                                  SUPPORT 0 0 0 0 0 1 0 2 1
                                     HAND 0 0 0 0 0 1 0 0 1
-                                 CHOICES 0 0 0 0 0 1 0 1 0
+                                 CHOICES 0 0 0 0 0 1 0 1 1
                                 QUESTION 0 0 0 0 0 1 0 1 1
                                     MOST 0 0 0 0 0 1 0 1 1
                                   NUMBER 0 0 0 0 0 1 0 1 1
@@ -141,16 +141,16 @@
                                      WAY 1 0 0 0 0 1 0 2 1
                                  TROUBLE 0 0 0 0 0 1 0 1 1
                                  COLLEGE 0 0 0 0 0 1 0 0 0
-                                SOFTWARE 0 1 0 0 0 1 0 1 0
+                                SOFTWARE 0 1 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 1 1
                                     TECH 0 0 1 0 0 0 1 1 1
                                      REP 0 0 0 0 0 0 0 1 1
-                                   BOARD 0 1 0 0 0 1 0 1 1
+                                   BOARD 0 1 0 0 0 1 0 1 0
                                    WORLD 0 1 0 0 0 1 0 1 1
                                  CLIENTS 0 1 0 0 0 1 0 1 1
                                    START 0 0 0 0 0 1 0 1 1
-                               MICROSOFT 0 0 1 0 0 1 0 0 1
+                               MICROSOFT 0 0 1 0 0 1 0 0 0
                                EMACHINES 0 0 0 0 0 0 0 1 1
                                   OPTION 0 0 0 0 0 1 0 1 1
                                   PRICES 1 1 0 0 0 1 0 1 1
@@ -209,8 +209,8 @@
                                      MAN 0 1 0 0 0 1 0 1 1
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 1 1
                                   64-BIT 0 0 0 0 0 0 0 1 1
@@ -282,18 +282,18 @@
                               W/HEATSINK 0 0 0 0 0 0 0 0 0
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
                                  1.83GHZ 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                                  FERVOR 0 0 0 0 0 0 0 1 1
                                     CERT 0 0 0 0 0 0 0 1 1
                                  TECHNET 0 0 0 0 0 0 0 0 0
                                  MEETING 0 0 0 0 0 1 0 1 1
                                  LECTURE 0 0 0 0 0 0 0 1 1
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
+                                  FERVOR 0 0 0 0 0 0 0 1 1
                                  DEFENSE 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 2 1
                                  PUDDING 0 0 0 0 0 0 0 1 1

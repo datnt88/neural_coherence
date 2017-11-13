@@ -1,4 +1,4 @@
-                                       $ 0 0 0 0 0 0 1 1 1
+                                       $ 0 0 0 7 0 0 1 1 1
                                     TIME 1 1 0 0 0 1 0 1 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                   PERSON 0 1 0 0 0 1 0 1 1
@@ -21,7 +21,7 @@
                                  UPGRADE 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                 HARDWARE 0 0 0 0 0 0 0 0 1
-                                COMPUTER 0 1 0 0 0 1 0 3 1
+                                COMPUTER 0 1 0 0 0 1 0 3 0
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
@@ -36,7 +36,7 @@
                                   MONTHS 1 1 0 0 0 1 0 1 1
                                     BIOS 0 0 0 0 0 0 0 1 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
-                                    KIND 0 0 0 0 0 1 0 1 0
+                                    KIND 0 0 0 0 0 1 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                                      TWO 0 0 0 0 0 0 1 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 2 1
@@ -55,10 +55,10 @@
                                      RAM 0 0 1 0 0 1 0 1 1
                                     CASE 0 1 0 0 0 1 0 0 0
                                    THING 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 1 0
+                                  MEMORY 0 1 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 3 1
-                                   MODEM 0 0 0 0 0 1 0 1 0
+                                   MODEM 0 0 0 0 0 1 0 1 1
                                       'S 0 0 0 0 0 0 0 0 1
                                   NVIDIA 0 0 0 0 0 0 0 1 1
                                 FEATURES 0 0 0 0 0 1 0 1 1
@@ -79,13 +79,13 @@
                                   COUPLE 0 0 0 0 0 1 0 1 1
                                QUESTIONS 0 0 0 0 0 1 0 1 1
                                      OWN 0 0 0 0 0 0 1 2 1
-                                   INTEL 0 0 1 0 0 1 0 1 0
+                                   INTEL 0 0 1 0 0 1 0 1 1
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                              PERFORMANCE 1 1 0 0 0 1 0 0 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 2 1
                                    PRICE 0 1 0 0 0 1 0 1 0
-                                   BRAND 0 0 0 0 0 1 0 1 0
+                                   BRAND 0 0 0 0 0 1 0 1 1
                                       HD 0 0 1 0 0 0 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 1 1
                                  CHIPSET 0 0 0 0 0 0 0 1 1
@@ -95,9 +95,9 @@
                                    KINDA 0 0 0 0 0 0 0 0 1
                                     GAME 0 0 0 0 0 1 0 0 0
                                   PEOPLE 0 1 0 0 0 1 0 0 1
-                                    COST 0 0 0 0 0 1 0 1 0
-                                   TIMES 0 1 0 0 0 1 0 1 0
-                               PROCESSOR 0 0 0 0 0 0 0 1 1
+                                    COST 0 0 0 0 0 1 0 1 1
+                                   TIMES 0 1 0 0 0 1 0 1 1
+                               PROCESSOR 0 0 0 0 0 0 0 1 0
                                  EXAMPLE 0 0 0 0 0 1 0 0 1
                                      FAN 0 0 0 0 0 1 0 1 1
                                     COMP 0 0 0 0 0 0 0 2 1
@@ -148,13 +148,13 @@
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 1 1
                                     WORD 0 0 0 0 0 1 0 0 0
-                                    TECH 0 0 1 0 0 0 1 1 0
+                                    TECH 0 0 1 0 0 0 1 1 1
                                      REP 0 0 0 0 0 0 0 1 1
-                                   BOARD 0 1 0 0 0 1 0 1 1
+                                   BOARD 0 1 0 0 0 1 0 1 0
                                    DOZEN 0 0 0 0 0 1 0 0 0
                                    WORLD 0 1 0 0 0 1 0 1 1
                                  CLIENTS 0 1 0 0 0 1 0 1 1
-                               MICROSOFT 0 0 1 0 0 1 0 0 0
+                               MICROSOFT 0 0 1 0 0 1 0 0 1
                                       VS 0 0 1 0 0 0 1 0 0
                                     NONE 0 0 0 0 0 1 0 0 1
                                    STUFF 0 0 0 0 0 1 0 1 1
@@ -193,14 +193,14 @@
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                 PRODUCTS 0 1 0 0 0 1 0 1 1
                             APPLICATIONS 0 0 0 0 0 1 0 1 1
-                                   SITES 0 0 0 0 0 1 0 2 0
+                                   SITES 0 0 0 0 0 1 0 2 1
                                     MAIL 0 0 0 0 0 1 0 0 0
                                  EDITING 0 0 0 0 0 1 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                  GATEWAY 0 0 0 0 0 0 0 1 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
                                  PROJECT 0 1 0 0 0 1 0 0 0
-                               KNOWLEDGE 0 0 0 0 0 1 0 1 0
+                               KNOWLEDGE 0 0 0 0 0 1 0 1 1
                                   METHOD 0 0 0 0 0 1 0 0 0
                                  CHANGES 0 0 0 0 0 1 0 1 1
                                 RESEARCH 0 1 0 0 0 1 0 1 1
@@ -211,13 +211,13 @@
                                      HEY 0 0 1 0 0 1 0 0 0
                                 CAPACITY 0 0 0 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 0 0
                                     WATT 0 0 0 0 0 1 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 1 1
                                  SCANNER 0 0 0 0 0 0 0 1 1
                                 ARTICLES 0 0 0 0 0 1 0 1 1
@@ -289,14 +289,10 @@
      MOTHERBOARD+CPU+HSF+POWERSUPPLY+RAM 0 0 0 0 0 0 0 1 1
                                TINKERING 0 0 0 0 0 0 0 0 1
                                  1.83GHZ 0 0 0 0 0 0 0 1 1
-                               RE-BUILDS 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                               MOTIVATION 0 0 0 0 0 1 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                  FERVOR 0 0 0 0 0 0 0 1 1
                               OURS.&QUOT 0 0 0 0 0 0 0 0 1
                                     CERT 0 0 0 0 0 0 0 1 1
                                  TECHNET 0 0 0 0 0 0 0 0 0
@@ -305,6 +301,10 @@
                               STITE&QUOT 0 0 0 0 0 0 0 0 1
                              STITES&QUOT 0 0 0 0 0 0 0 0 1
                             SPREADSHEETS 0 0 0 0 0 0 0 1 1
+                               RE-BUILDS 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                    9.99 0 0 0 7 0 0 0 1 1
+                                  FERVOR 0 0 0 0 0 0 0 1 1
                                    STITE 0 0 0 0 0 0 0 2 1
                                   RESUME 0 0 0 0 0 1 0 1 1
                                  EREEDKS 0 0 0 0 0 0 0 0 1

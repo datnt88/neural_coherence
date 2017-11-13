@@ -53,7 +53,7 @@
                                       1. 0 0 0 0 0 0 0 0 1
                                       2. 0 0 0 0 0 0 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
-                                   CABLE 0 0 0 0 0 1 0 1 0
+                                   CABLE 0 0 0 0 0 1 0 1 1
                               MANAGEMENT 0 1 0 0 0 1 0 1 0
                                      DVD 0 0 0 0 0 1 0 1 0
                                  MINIMUM 0 0 0 0 0 0 0 1 1
@@ -93,7 +93,7 @@
                                       4. 0 0 0 0 0 0 0 0 0
                                       8. 0 0 0 0 0 0 0 0 1
                               ENCLOSURES 0 0 0 0 0 0 0 1 1
-                                  SCREWS 0 0 0 0 0 0 0 1 0
+                                  SCREWS 0 0 0 0 0 0 0 1 1
                             CONSTRUCTION 0 1 0 0 0 1 0 0 1
                                   CABLES 0 0 0 0 0 1 0 1 1
                                  REASONS 0 0 0 0 0 1 0 0 1
@@ -115,12 +115,12 @@
                                       ID 0 0 0 0 0 0 1 1 1
                                     MARK 0 0 0 0 0 1 0 1 1
                                 SECURITY 0 0 0 0 0 1 0 1 0
-                                 STORAGE 0 0 0 0 0 0 0 1 1
+                                 STORAGE 0 0 0 0 0 0 0 1 0
                                   POSTER 0 0 0 0 0 0 0 1 1
+                                    SIZE 1 0 0 0 0 1 0 0 1
                                      10. 0 0 0 0 0 0 0 1 1
                                    PLUGS 0 0 0 0 0 0 0 1 1
                                  STORIES 0 0 0 0 0 1 0 1 1
-                                    SIZE 1 0 0 0 0 1 0 0 1
                                    COLOR 0 0 0 0 0 1 0 0 0
                                      GOD 0 0 1 0 0 1 0 0 1
                                      IBM 0 0 1 0 0 1 0 0 0
@@ -141,12 +141,21 @@
                                EXTERNALS 0 0 0 0 0 0 0 1 1
                           ACCUMULATES.IN 0 0 0 0 0 0 0 1 1
                                    THEFT 0 0 0 0 0 0 0 1 0
+                                  REGARD 0 0 0 0 0 0 0 1 1
+                               INTERNALS 0 0 0 0 0 0 0 1 1
+                                    HDDS 0 0 0 0 0 0 0 1 1
+                                    ACTS 0 0 0 0 0 1 0 1 1
+                               HURRICANE 0 0 0 0 0 1 0 0 0
+                                 KATRINA 0 0 0 0 0 0 0 1 1
+                                 ORLEANS 0 0 1 0 0 1 0 1 1
+                                   CANAL 0 0 0 0 0 1 0 0 0
+                                   LEVEE 0 0 0 0 0 0 0 1 1
                                    PROOF 0 0 0 0 0 1 0 0 1
                               TOUCH&QUOT 0 0 0 0 0 0 0 1 1
                                  BUNDLES 0 0 0 0 0 1 0 0 0
                             STEP-BY-STEP 0 0 0 0 0 0 0 1 1
                                     RULE 0 1 0 0 0 1 0 1 1
-                                   CLIPS 0 0 0 0 0 1 0 1 0
+                                   CLIPS 0 0 0 0 0 1 0 1 1
                                   JUMPER 0 0 0 0 0 0 0 0 0
                                    SCREW 0 0 0 0 0 1 0 0 0
                                    HOLES 0 0 0 0 0 1 0 1 1
@@ -161,9 +170,6 @@
                                FOOTPRINT 0 0 0 0 0 0 0 1 1
                              ONE-TOUCHES 0 0 0 0 0 0 0 1 1
                                    HOME. 0 0 0 0 0 0 0 0 1
-                                  REGARD 0 0 0 0 0 0 0 1 1
-                               INTERNALS 0 0 0 0 0 0 0 1 1
-                                    HDDS 0 0 0 0 0 0 0 1 1
                                 10-200GB 0 0 0 0 0 0 0 1 1
                               HARDDRIVES 0 0 0 0 0 0 0 1 1
                                     CAT5 0 0 0 0 0 0 0 1 1
@@ -171,9 +177,3 @@
                               PROTICOLS. 0 0 0 0 0 0 0 1 1
                                TRANSPORT 0 0 0 0 0 0 0 0 1
                                ABSORBERS 0 0 0 0 0 0 0 1 1
-                                    ACTS 0 0 0 0 0 1 0 1 1
-                               HURRICANE 0 0 0 0 0 1 0 0 0
-                                 KATRINA 0 0 0 0 0 0 0 1 1
-                                 ORLEANS 0 0 1 0 0 1 0 1 1
-                                   CANAL 0 0 0 0 0 1 0 0 0
-                                   LEVEE 0 0 0 0 0 0 0 1 1

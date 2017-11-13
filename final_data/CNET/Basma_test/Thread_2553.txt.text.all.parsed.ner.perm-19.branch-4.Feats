@@ -3,12 +3,12 @@
                                  EXPENSE 0 0 0 0 0 0 0 1 1
                                     YEAR 0 1 0 0 0 1 0 0 0
                                    INPUT 0 0 0 0 0 0 1 1 1
-                                HARDWARE 0 0 0 0 0 0 0 1 1
+                                HARDWARE 0 0 0 0 0 0 0 1 0
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 1
                                      ONE 0 0 0 0 0 1 0 0 1
-                                   DRIVE 0 0 0 0 0 1 0 3 1
+                                   DRIVE 0 0 0 0 0 1 0 3 0
                                     DISK 0 0 0 0 0 1 0 1 1
                                  NOTHING 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 0 0
@@ -30,7 +30,7 @@
                                    THING 0 0 0 0 0 1 0 1 1
                                   FLOPPY 0 0 0 0 0 0 0 1 1
                                   THINGS 0 0 0 0 0 1 0 1 1
-                                  DEVICE 0 0 0 0 0 1 0 1 1
+                                  DEVICE 0 0 0 0 0 1 0 1 0
                            CONFIGURATION 0 0 0 0 0 0 0 1 1
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                     FOLK 0 0 0 0 0 0 0 1 1
@@ -48,11 +48,11 @@
                                 BUSINESS 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 1 1
                                     PAIN 0 0 0 0 0 1 0 1 1
-                                    DELL 0 0 1 0 0 0 0 1 1
-                               DIMENSION 0 0 0 0 0 0 0 1 0
-                                   CABLE 0 0 0 0 0 1 0 1 1
+                                    DELL 0 0 1 0 0 0 0 1 0
+                               DIMENSION 0 0 0 0 0 0 0 1 1
+                                   CABLE 0 0 0 0 0 1 0 1 0
                                  BLASTER 0 0 0 0 0 0 0 0 0
-                                      XP 0 0 0 0 0 0 0 1 1
+                                      XP 0 0 0 0 0 0 0 1 0
                                     TRIP 0 0 0 0 0 1 0 1 1
                                  WEBSITE 0 0 0 0 0 0 0 1 1
                                     POST 0 0 0 0 0 1 0 1 1
@@ -110,7 +110,7 @@
                                     KEYS 0 0 0 0 0 1 0 1 1
                                      DOS 0 0 0 0 0 0 0 0 0
                                     CNET 0 0 0 0 0 0 0 0 0
-                                 STORAGE 0 0 0 0 0 0 0 0 0
+                                 STORAGE 0 0 0 0 0 0 0 0 1
                                PROCEDURE 0 1 0 0 0 1 0 1 1
                                   UBUNTU 0 0 0 0 0 0 0 1 1
                                  FAILURE 0 0 0 0 0 1 0 1 1
@@ -131,7 +131,7 @@
                                FREE&QUOT 0 0 0 0 0 0 0 1 1
                                        F 0 0 0 0 0 0 0 0 0
                                    100MB 0 0 0 0 0 0 0 2 1
-                                     ZIP 0 0 0 0 0 0 0 1 1
+                                     ZIP 0 0 0 0 0 0 0 1 0
                                 ATTEMPTS 0 0 0 0 0 1 0 1 1
                             REFORMATTING 0 0 0 0 0 0 0 0 0
                                 TOMORROW 0 0 0 6 0 1 0 0 1

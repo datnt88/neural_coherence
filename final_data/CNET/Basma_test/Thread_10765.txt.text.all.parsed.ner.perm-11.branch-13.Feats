@@ -11,14 +11,14 @@
                               EVERYTHING 0 0 0 0 0 1 0 1 1
                                    THESE 0 0 0 0 0 0 1 0 1
                                  UPGRADE 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 0
+                                  SYSTEM 0 1 0 0 0 1 0 1 1
                                     YEAR 0 1 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 0 0
                                      ONE 0 0 0 0 0 1 0 2 1
-                                   DRIVE 0 0 0 0 0 1 0 1 0
+                                   DRIVE 0 0 0 0 0 1 0 1 1
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
@@ -32,7 +32,7 @@
                                      ANY 0 0 0 0 0 0 1 1 1
                                      AMD 0 0 0 0 0 1 0 1 1
                                      RAM 0 0 1 0 0 1 0 2 1
-                                    CASE 0 1 0 0 0 1 0 1 0
+                                    CASE 0 1 0 0 0 1 0 1 1
                                     FANS 0 0 0 0 0 1 0 0 0
                                     SIDE 1 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
@@ -63,7 +63,7 @@
                                    PRICE 0 1 0 0 0 1 0 2 1
                                   CHOICE 0 0 0 0 0 1 0 0 0
                                     BEST 0 0 0 0 0 0 1 1 1
-                                   PARTS 1 0 0 0 0 1 0 1 0
+                                   PARTS 1 0 0 0 0 1 0 1 1
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 1 1
                                  THREADS 0 0 0 0 0 1 0 1 1
                                     REST 0 0 0 0 0 1 0 1 1
@@ -112,10 +112,10 @@
                                      OEM 0 0 0 0 0 0 0 0 0
                                  17&QUOT 0 0 0 0 0 0 0 0 0
                                      &LT 0 0 0 0 0 0 0 0 0
-                                     &GT 0 0 1 0 0 0 0 1 1
+                                     &GT 0 0 0 0 0 0 0 1 1
                                   SCREWS 0 0 0 0 0 0 0 1 1
                                      ATA 0 0 0 0 0 0 0 0 0
-                                   STORE 0 0 0 0 0 1 0 1 0
+                                   STORE 0 0 0 0 0 1 0 1 1
                                  CHANNEL 0 0 0 0 0 1 0 0 0
                                      CAR 0 1 0 0 0 1 0 1 1
                               BACKGROUND 0 0 0 0 0 1 0 1 1
@@ -135,7 +135,7 @@
                                  BROTHER 0 0 0 0 0 1 0 1 1
                                  ONBOARD 0 0 0 0 0 0 0 0 0
                                     ITEM 0 0 0 0 0 1 0 1 1
-                                  COMPAQ 0 0 1 0 0 1 0 0 1
+                                  COMPAQ 0 0 1 0 0 1 0 0 0
                                   FAMILY 0 1 0 0 0 1 0 0 0
                                     ALOT 0 0 0 0 0 0 0 0 1
                                    FOCUS 0 0 0 0 0 1 0 1 1
@@ -157,26 +157,9 @@
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
                                 TINKERER 0 0 0 0 0 0 0 1 1
-                               DEVELOPER 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                 STORIES 0 0 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                               MID-TOWER 0 0 0 0 0 0 0 0 0
-                                   SHEET 0 0 0 0 0 1 0 0 0
-                                  FILTER 0 0 0 0 0 0 0 0 0
-                                   ORION 0 0 0 0 0 0 0 0 0
-                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
-                                  CONROE 0 0 0 0 0 0 0 0 0
-                                    TUBE 0 0 0 0 0 1 0 0 0
-                                  ARCTIC 0 0 1 0 0 0 0 0 0
-                                  SILVER 0 0 0 0 0 1 0 0 0
-                                     KIT 0 0 0 0 0 1 0 0 0
-                                     GTS 0 0 0 0 0 0 0 0 0
-                                   GAMER 0 0 0 0 0 0 0 0 0
-                                    10MS 0 0 0 0 0 0 0 0 0
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
                                HOMEBUILT 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                 FRIENDS. 0 0 0 0 0 0 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
                                    BELLS 0 0 0 0 0 1 0 0 0
@@ -195,10 +178,27 @@
                                     ROAD 0 0 0 0 0 1 0 1 1
                                     BELL 0 1 0 0 0 1 0 1 1
                                     2GIG 0 0 0 0 0 0 0 1 1
+                               EVOLUTION 0 0 0 0 0 1 0 1 1
+                               DEVELOPER 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                 STORIES 0 0 0 0 0 1 0 1 1
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                               MID-TOWER 0 0 0 0 0 0 0 0 0
+                                   SHEET 0 0 0 0 0 1 0 0 0
+                                  FILTER 0 0 0 0 0 0 0 0 0
+                                   ORION 0 0 0 0 0 0 0 0 0
+                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
+                                  CONROE 0 0 0 0 0 0 0 0 0
+                                    TUBE 0 0 0 0 0 1 0 0 0
+                                  ARCTIC 0 0 1 0 0 0 0 0 0
+                                  SILVER 0 0 0 0 0 1 0 0 0
+                                     KIT 0 0 0 0 0 1 0 0 0
+                                     GTS 0 0 0 0 0 0 0 0 0
+                                   GAMER 0 0 0 0 0 0 0 0 0
+                                    10MS 0 0 0 0 0 0 0 0 0
                                     9.0C 0 0 0 0 0 0 0 1 1
                               MOTORCYCLE 0 0 0 0 0 0 1 0 0
                                   TRAVEL 0 0 0 0 0 1 0 0 0
                                     FALL 1 1 0 0 0 1 0 0 0
                                   SHORTS 0 0 0 0 0 1 0 1 1
                                      YRS 0 0 0 0 0 0 0 1 1
-                               EVOLUTION 0 0 0 0 0 1 0 1 1

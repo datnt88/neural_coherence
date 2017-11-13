@@ -11,7 +11,7 @@
                                    SPEED 0 0 0 0 0 1 0 1 1
                                     FAST 0 0 0 0 0 0 0 0 0
                                       MB 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 1
+                                  SYSTEM 0 1 0 0 0 1 0 1 0
                                    INPUT 0 0 0 0 0 0 1 0 0
                                 HARDWARE 0 0 0 0 0 0 0 0 0
                                 COMPUTER 0 1 0 0 0 1 0 0 0
@@ -27,7 +27,7 @@
                                    -LRB- 0 0 0 0 0 0 0 0 0
                                    -RRB- 0 0 0 0 0 0 0 0 0
                                  NOTHING 0 0 0 0 0 1 0 1 1
-                                    BIOS 0 0 0 0 0 0 0 1 1
+                                    BIOS 0 0 0 0 0 0 0 1 0
                                    OTHER 0 0 0 0 0 0 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
                                      USB 0 0 0 0 0 0 0 0 0
@@ -47,7 +47,7 @@
                                      HDD 0 0 0 0 0 0 0 1 1
                                     USER 0 0 0 0 0 1 0 0 0
                                  GROCERY 0 0 0 0 0 0 0 0 0
-                                    LIST 0 0 0 0 0 1 0 1 1
+                                    LIST 0 0 0 0 0 1 0 1 0
                                      BOB 0 1 1 0 0 1 0 0 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                    STICK 0 0 0 0 0 1 0 1 1
@@ -95,8 +95,8 @@
                                SUPPORTED 0 0 0 0 0 0 0 0 0
                             MANUFACTURER 0 0 0 0 0 1 0 3 0
                                     NAME 0 0 0 0 0 1 0 0 0
-                                    INFO 0 0 0 0 0 0 0 1 1
-                                  VENDOR 0 0 0 0 0 1 0 3 1
+                                    INFO 0 0 1 0 0 0 0 1 1
+                                  VENDOR 0 0 0 0 0 1 0 3 0
                                      &GT 0 0 0 0 0 0 0 1 1
                                    STORE 0 0 0 0 0 1 0 1 1
                             SOUNDBLASTER 0 0 0 0 0 0 0 1 1
@@ -117,8 +117,8 @@
                                      SUB 0 0 0 0 0 0 0 0 0
                                      I/O 0 0 0 0 0 0 0 0 0
                                        C 0 0 1 0 0 1 0 0 0
-                                COMMANDS 0 0 0 0 0 1 0 2 0
-                                   STATE 0 1 0 0 0 1 0 2 0
+                                COMMANDS 0 0 0 0 0 1 0 2 1
+                                   STATE 0 1 0 0 0 1 0 2 1
                                   VOLUME 0 0 0 0 0 1 0 0 0
                                    WORDS 0 1 0 0 0 1 0 1 1
                               CAPABILITY 0 0 0 0 0 1 0 0 0
@@ -127,16 +127,16 @@
                                  STORAGE 0 0 0 0 0 0 0 0 0
                                INTERFACE 0 0 0 0 0 1 0 0 0
                                      SIR 0 0 1 0 0 1 0 0 0
-                                SUPPORTS 0 0 0 0 0 0 0 0 0
                                  SECTION 0 1 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 1 1
                                     SIZE 1 0 0 0 0 1 0 0 0
                                     BANK 0 1 0 0 0 1 0 0 0
+                                SUPPORTS 0 0 0 0 0 0 0 0 0
                                       MX 0 0 1 0 0 0 0 0 0
                                 PROBLEM. 0 0 0 0 0 0 0 1 1
                              EXPLANATION 0 0 0 0 0 1 0 1 1
-                                    HOST 0 0 0 0 0 1 0 0 0
-                               TRANSFERS 0 0 0 0 0 1 0 1 0
+                                    HOST 0 0 0 0 0 1 0 0 1
+                               TRANSFERS 0 0 0 0 0 1 0 1 1
                                  ADDRESS 0 0 0 0 0 1 0 0 0
                                    TRANS 0 0 0 0 0 0 0 0 0
                                      BUS 0 0 0 0 0 1 0 0 0
@@ -146,7 +146,7 @@
                                      NEC 0 1 0 0 0 1 0 1 0
                                INSPECTOR 0 0 0 0 0 1 0 0 0
                                 LANGUAGE 0 0 0 0 0 1 0 0 0
-                                    LABS 0 0 0 0 0 1 0 1 1
+                                    LABS 0 0 0 0 0 1 0 1 0
                                    AWARD 0 0 0 0 0 1 0 0 0
                                      PGM 0 0 1 0 0 0 0 1 1
                                     31GB 0 0 0 0 0 0 0 1 1
@@ -157,7 +157,7 @@
                                    VOLUM 0 0 0 0 0 0 0 0 0
                                     NTFS 0 0 0 0 0 0 0 0 0
                             THRUSTMAPPER 0 0 0 0 0 0 0 0 0
-                              MULTIMEDIA 0 0 0 0 0 0 0 0 1
+                              MULTIMEDIA 0 0 0 0 0 0 0 0 0
                                AVERMEDIA 0 0 0 0 0 0 0 1 0
                                   AVERTV 0 0 0 0 0 0 0 1 1
                             TECHNOLOGIES 0 1 0 0 0 1 0 0 0
@@ -182,8 +182,8 @@
                                       D0 0 0 0 0 0 0 0 0 0
                                      INC 0 0 1 0 0 0 0 0 0
                                      0X0 0 0 0 0 0 0 0 0 0
-                                      D2 0 0 0 0 0 0 0 1 1
-                                      D1 0 0 0 0 0 0 0 1 0
+                                      D2 0 0 0 0 0 0 0 1 0
+                                      D1 0 0 0 0 0 0 0 1 1
                                      0X5 0 0 0 0 0 0 0 0 0
                                   0X1102 0 0 0 0 0 0 0 0 0
                                      0X2 0 0 0 0 0 0 0 0 0
@@ -192,7 +192,7 @@
                                   0X0000 0 0 0 0 0 0 0 0 0
                                    66MHZ 0 0 0 0 0 0 0 0 0
                                 SIDEBAND 0 0 0 0 0 0 0 1 1
-                                440BX/ZX 0 0 0 0 0 0 0 0 0
+                                440BX/ZX 0 0 1 0 0 0 0 0 0
                                   AGPSET 0 0 0 0 0 0 0 0 0
                                      0X3 0 0 0 0 0 0 0 0 0
                                   0X8086 0 0 0 0 0 0 0 0 0

@@ -5,7 +5,7 @@
                                      PRO 0 0 0 0 0 0 0 1 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
                                    THESE 0 0 0 0 0 0 1 0 1
-                                   RIGHT 1 1 0 0 0 1 0 1 1
+                                   RIGHT 1 1 0 0 0 1 0 1 0
                                    BUNCH 0 0 0 0 0 1 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 2 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
@@ -14,7 +14,7 @@
                                   MAXTOR 0 0 0 0 0 0 0 1 1
                                    WEEKS 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
-                                   DRIVE 0 0 0 0 0 1 0 3 1
+                                   DRIVE 0 0 0 0 0 1 0 3 0
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 0 1
                                     DISK 0 0 0 0 0 1 0 0 0
@@ -57,7 +57,7 @@
                                       2. 0 0 0 0 0 0 0 1 1
                                    CABLE 0 0 0 0 0 1 0 2 1
                               MANAGEMENT 0 1 0 0 0 1 0 0 0
-                                     DVD 0 0 0 0 0 1 0 1 1
+                                     DVD 0 0 0 0 0 1 0 1 0
                                  SEAGATE 0 0 1 0 0 0 0 0 1
                                      KEY 0 0 0 0 0 1 0 1 1
                                  DOLLARS 0 0 0 0 0 1 0 0 1
@@ -66,7 +66,7 @@
                                    SETUP 0 0 0 0 0 0 0 1 1
                                     PLUG 0 0 0 0 0 0 1 2 0
                                  NETWORK 0 0 0 0 0 1 0 1 1
-                                   CLICK 0 0 0 0 0 0 1 2 0
+                                   CLICK 0 0 0 0 0 0 1 2 1
                                     HELP 0 0 0 0 0 1 0 0 1
                                 HUNDREDS 0 0 0 0 0 1 0 0 1
                                ENCLOSURE 0 0 0 0 0 0 0 1 1
@@ -89,12 +89,12 @@
                                   BRANDS 0 1 0 0 0 1 0 1 1
                               EXPERIENCE 0 0 0 0 0 1 0 0 1
                                   REBOOT 0 0 0 0 0 0 0 0 0
-                                WARRANTY 0 0 0 0 0 0 0 1 1
+                                WARRANTY 0 0 0 0 0 0 0 1 0
                                     MASS 0 0 0 0 0 1 0 0 0
                                    250GB 0 0 0 0 0 0 0 0 1
                                       4. 0 0 0 0 0 0 0 0 0
                               ENCLOSURES 0 0 0 0 0 0 0 1 1
-                                  SCREWS 0 0 0 0 0 0 0 1 0
+                                  SCREWS 0 0 0 0 0 0 0 1 1
                             CONSTRUCTION 0 1 0 0 0 1 0 0 1
                                   CABLES 0 0 0 0 0 1 0 1 1
                                     LINE 0 0 0 0 0 1 0 1 1
@@ -107,9 +107,9 @@
                                    MEANS 0 0 0 0 0 1 0 1 1
                                    MAKER 0 1 0 0 0 1 0 1 1
                                    GHOST 0 0 0 0 0 1 0 0 0
-                                  IMAGES 0 0 0 0 0 1 0 1 1
+                                  IMAGES 0 0 0 0 0 1 0 1 0
                                   MOVIES 0 0 0 0 0 1 0 1 1
-                                   DISKS 0 0 0 0 0 1 0 1 0
+                                   DISKS 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                    STEPS 0 0 0 0 0 1 0 1 1
                                     MARK 0 0 0 0 0 1 0 1 1
@@ -149,8 +149,18 @@
                                 BARBECUE 0 0 0 0 0 0 1 0 0
                                      PIT 0 0 0 0 0 0 0 1 1
                                    THEFT 0 0 0 0 0 0 0 1 0
+                              COMMODORES 0 0 0 0 0 0 0 1 1
+                                  AMIGAS 0 0 0 0 0 0 0 0 1
+                                    MACS 0 0 0 0 0 1 0 0 1
+                                   MSDOS 0 0 0 0 0 0 0 0 1
+                                EXTRENAL 0 0 0 0 0 0 0 0 0
+                               HURRICANE 0 0 0 0 0 1 0 0 0
+                                 KATRINA 0 0 0 0 0 0 0 1 1
+                                 ORLEANS 0 0 1 0 0 1 0 1 1
+                                   CANAL 0 0 0 0 0 1 0 0 0
+                                   LEVEE 0 0 0 0 0 0 0 1 1
                                     RULE 0 1 0 0 0 1 0 1 1
-                                   CLIPS 0 0 0 0 0 1 0 1 1
+                                   CLIPS 0 0 0 0 0 1 0 1 0
                                   JUMPER 0 0 0 0 0 0 0 0 0
                                    SCREW 0 0 0 0 0 1 0 0 0
                                    HOLES 0 0 0 0 0 1 0 1 1
@@ -159,10 +169,9 @@
                                  BUBBLES 0 0 0 0 0 1 0 1 1
                                      13. 0 0 0 0 0 0 0 0 0
                                    CENTS 0 0 0 7 0 1 0 1 0
-                                       F 0 0 0 0 0 0 0 0 0
+                                       F 0 0 1 0 0 0 0 0 0
                                EXTERNAAL 0 0 0 0 0 0 0 1 1
                                    SMOKE 0 0 0 0 0 1 0 0 1
-                                    MACS 0 0 0 0 0 1 0 0 1
                                  TORNADO 0 0 0 0 0 0 1 2 1
                                     .YOU 0 0 1 0 0 0 0 0 1
                                       YR 0 0 0 0 0 0 0 1 1
@@ -175,12 +184,3 @@
                               PROTICOLS. 0 0 0 0 0 0 0 1 1
                                TRANSPORT 0 0 0 0 0 0 0 0 1
                                     MALL 0 0 0 0 0 0 0 1 1
-                              COMMODORES 0 0 0 0 0 0 0 1 1
-                                  AMIGAS 0 0 0 0 0 0 0 0 1
-                                   MSDOS 0 0 0 0 0 0 0 0 1
-                                EXTRENAL 0 0 0 0 0 0 0 0 0
-                               HURRICANE 0 0 0 0 0 1 0 0 0
-                                 KATRINA 0 0 0 0 0 0 0 1 1
-                                 ORLEANS 0 0 1 0 0 1 0 1 1
-                                   CANAL 0 0 0 0 0 1 0 0 0
-                                   LEVEE 0 0 0 0 0 0 0 1 1

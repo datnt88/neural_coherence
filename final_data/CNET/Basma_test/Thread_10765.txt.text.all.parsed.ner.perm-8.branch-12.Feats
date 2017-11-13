@@ -1,11 +1,11 @@
-                                       $ 0 0 0 0 0 0 1 1 1
+                                       $ 0 0 0 7 0 0 1 1 1
                                     TIME 1 1 0 0 0 1 0 2 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                     THAT 0 0 0 0 0 0 0 1 1
                                      THE 0 0 0 0 0 0 0 1 1
                                    ABOUT 0 0 0 0 0 0 1 1 1
                                      ALL 0 0 0 0 0 0 0 0 1
-                                    NEED 0 0 0 0 0 1 0 1 0
+                                    NEED 0 0 0 0 0 1 0 1 1
                                     SOME 0 0 0 0 0 0 1 1 1
                                    VIDEO 0 1 0 0 0 1 0 0 0
                                     CARD 0 1 0 0 0 1 0 3 1
@@ -16,7 +16,7 @@
                                   SYSTEM 0 1 0 0 0 1 0 2 1
                                     YEAR 0 1 0 0 0 1 0 1 1
                                    NEEDS 0 0 0 0 0 1 0 1 1
-                                HARDWARE 0 0 0 0 0 0 0 1 1
+                                HARDWARE 0 0 0 0 0 0 0 1 0
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
@@ -71,13 +71,13 @@
                                    PRICE 0 1 0 0 0 1 0 2 1
                                    BRAND 0 0 0 0 0 1 0 0 0
                                     BEST 0 0 0 0 0 0 1 1 1
-                                   PARTS 1 0 0 0 0 1 0 2 1
+                                   PARTS 1 0 0 0 0 1 0 2 0
                                FRAGMENTS 0 0 0 0 0 1 0 0 0
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 3 1
-                                 THREADS 0 0 0 0 0 1 0 1 1
+                                 THREADS 0 0 0 0 0 1 0 1 0
                                     REST 0 0 0 0 0 1 0 1 1
-                                    GAME 0 0 0 0 0 1 0 1 1
+                                    GAME 0 0 0 0 0 1 0 1 0
                                   PEOPLE 0 1 0 0 0 1 0 0 1
                                     COST 0 0 0 0 0 1 0 2 1
                                    TIMES 0 1 0 0 0 1 0 0 0
@@ -97,7 +97,7 @@
                                    SOUND 0 0 0 0 0 1 0 0 0
                                       XP 0 0 0 0 0 0 0 1 1
                                     DONT 0 0 0 0 0 0 0 1 1
-                                   SLOTS 0 0 0 0 0 1 0 1 0
+                                   SLOTS 0 0 0 0 0 1 0 1 1
                                      LCD 0 0 0 0 0 0 0 0 1
                                    ISSUE 0 1 0 0 0 1 0 1 1
                                    SHAME 0 0 0 0 0 1 0 0 1
@@ -113,7 +113,7 @@
                                  QUALITY 0 0 0 0 0 1 0 1 1
                                      WAY 1 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 1 1
-                                  OFFICE 0 0 0 0 0 1 0 1 1
+                                  OFFICE 0 0 0 0 0 1 0 1 0
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 1 1
                                      ETC 0 0 0 0 0 0 1 1 1
@@ -135,12 +135,12 @@
                                    SPACE 0 0 0 0 0 1 0 0 0
                                      DUO 0 0 0 0 0 1 0 0 0
                                     DIMM 0 0 0 0 0 0 0 1 1
-                                     PCS 0 0 0 0 0 1 0 1 1
+                                     PCS 0 0 0 0 0 1 0 1 0
                                    PIECE 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                  GATEWAY 0 0 0 0 0 0 0 0 0
                                    VISTA 0 0 0 0 0 0 0 1 0
-                                       X 0 0 1 0 0 1 0 2 0
+                                       X 0 0 1 0 0 1 0 2 1
                                   OTHERS 0 0 0 0 0 1 0 0 1
                                    KNOCK 0 0 0 0 0 0 0 0 0
                                     TASK 0 0 0 0 0 1 0 1 1
@@ -157,7 +157,7 @@
                                   TODAYS 0 0 0 0 0 0 0 0 0
                                     EDGE 0 0 0 0 0 1 0 1 1
                                 BUILDING 0 0 0 0 0 1 0 1 1
-                                 WALMART 0 0 1 0 0 0 0 0 1
+                                 WALMART 0 0 1 0 0 0 0 0 0
                                     CARS 0 1 0 0 0 1 0 0 1
                                    GRAND 0 0 0 0 0 1 0 1 1
                                  PORSCHE 0 0 0 0 0 1 0 0 0
@@ -167,13 +167,6 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 1 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
-                                     X16 0 0 0 0 0 0 0 1 1
-                                      X1 0 0 0 0 0 0 0 1 1
-                                 STORIES 0 0 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                                WAL-MART 0 0 1 0 0 1 0 0 0
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
@@ -182,6 +175,7 @@
                                     WISE 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
                                HOMEBUILT 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                 FRIENDS. 0 0 0 0 0 0 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
                                    BELLS 0 0 0 0 0 1 0 0 0
@@ -207,6 +201,12 @@
                                  SEMPRON 0 0 0 0 0 0 0 1 1
                                W/MONITOR 0 0 0 0 0 0 0 1 1
                                    ALTHO 0 0 0 0 0 0 0 1 1
+                                     10. 0 0 0 0 0 0 0 1 1
+                                     X16 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 1 1
+                                 STORIES 0 0 0 0 0 1 0 1 1
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                                WAL-MART 0 0 1 0 0 1 0 0 0
                                     9.0C 0 0 0 0 0 0 0 1 1
                                      ROW 0 0 0 0 0 1 0 1 1
                                QUICKTIME 0 0 0 0 0 0 0 1 1

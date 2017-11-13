@@ -25,7 +25,7 @@
                                    &QUOT 0 0 0 0 0 0 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                    THING 0 0 0 0 0 1 0 1 1
-                                      .. 0 0 0 0 0 1 0 2 0
+                                      .. 0 0 0 0 0 1 0 2 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
                                    CHIPS 0 0 0 0 0 1 0 1 1
                                    PHONE 0 0 0 0 0 1 0 0 0
@@ -34,7 +34,7 @@
                                      B/C 0 0 0 0 0 0 0 1 1
                                      USE 1 0 0 0 0 1 0 0 1
                                     USER 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 2 1
+                                      HP 0 0 1 0 0 0 0 2 0
                                   LAPTOP 0 0 0 0 0 0 0 1 1
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                    PAPER 0 1 0 0 0 1 0 1 1
@@ -67,7 +67,7 @@
                                    EPSON 0 0 1 0 0 0 0 1 0
                                 PRINTERS 0 0 0 0 0 1 0 1 1
                                    PRINT 0 0 0 0 0 1 0 0 0
-                                 PRINTER 0 0 0 0 0 0 0 2 1
+                                 PRINTER 0 0 0 0 0 0 0 2 0
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                  QUALITY 0 0 0 0 0 1 0 1 1
@@ -99,7 +99,7 @@
                                   SEARCH 0 0 0 0 0 1 0 1 1
                                     HEAD 0 0 0 0 0 1 0 1 1
                               CARTRIDGES 0 0 0 0 0 0 0 3 1
-                                PRINTING 0 0 0 0 0 0 0 1 0
+                                PRINTING 0 0 0 0 0 0 0 1 1
                                   PHOTOS 0 0 0 0 0 1 0 0 1
                                    PHOTO 0 0 0 0 0 1 0 0 0
                              REPLACEMENT 0 0 0 0 0 1 0 0 0
@@ -119,11 +119,11 @@
                                   VOLUME 0 0 0 0 0 1 0 2 1
                                 REFILLED 0 0 0 0 0 0 0 0 1
                                      INK 0 0 0 0 0 1 0 0 0
-                               CARTRIDGE 0 0 0 0 0 0 0 1 1
+                               CARTRIDGE 0 0 0 0 0 0 0 1 0
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                  PACKARD 0 0 0 0 0 1 0 1 1
                                    COLOR 0 0 0 0 0 1 0 1 1
-                                  E-MAIL 0 0 0 0 0 1 0 1 0
+                                  E-MAIL 0 0 0 0 0 1 0 1 1
                                   REVIEW 0 0 0 0 0 1 0 1 1
                                    BUYER 0 1 0 0 0 1 0 1 1
                                    AVAIL 0 0 0 0 0 0 0 1 1
@@ -143,7 +143,7 @@
                                    CENTS 0 0 0 7 0 1 0 1 1
                            COMPATABILITY 0 0 0 0 0 0 0 1 1
                                      CAM 0 0 0 0 0 0 0 1 1
-                                   CANON 0 0 1 0 0 1 0 2 0
+                                   CANON 0 0 1 0 0 1 0 2 1
                              INSTRUCTION 0 0 0 0 0 1 0 1 0
                                RESPONSES 0 0 0 0 0 1 0 1 1
                                   DRINKS 0 0 0 0 0 1 0 1 1
@@ -165,16 +165,9 @@
                                SALVATION 0 0 0 0 0 0 0 0 0
                                    MP530 0 0 0 0 0 0 0 1 1
                                   CX9400 0 0 0 0 0 0 0 1 1
-                                 9400FAX 0 0 0 0 0 0 0 1 1
                                    420CN 0 0 0 0 0 0 0 1 1
                                 EPINIONS 0 0 0 0 0 0 0 1 1
                                CX9400FAX 0 0 0 0 0 0 0 1 1
-                               FOODFIEND 0 0 0 0 0 0 0 0 1
-                                QUANDARY 0 0 0 0 0 0 0 1 1
-                              TROYSUAREZ 0 0 0 0 0 0 0 1 1
-                                    R260 0 0 0 0 0 0 0 1 1
-                               CARTRAGES 0 0 0 0 0 0 0 2 1
-                               TECH&QUOT 0 0 0 0 0 0 0 1 1
                                 OK.&QUOT 0 0 0 0 0 0 0 0 1
                                  SMUDGES 0 0 0 0 0 0 0 1 1
                                     T068 0 0 0 0 0 0 0 0 1
@@ -196,3 +189,10 @@
                                   AGENCY 0 1 0 0 0 1 0 1 1
                                    ESPON 0 0 0 0 0 0 0 1 1
                                   CX6000 0 0 0 0 0 0 0 1 1
+                                 9400FAX 0 0 0 0 0 0 0 1 1
+                               FOODFIEND 0 0 0 0 0 0 0 0 1
+                                QUANDARY 0 0 0 0 0 0 0 1 1
+                              TROYSUAREZ 0 0 0 0 0 0 0 1 1
+                                    R260 0 0 0 0 0 0 0 1 1
+                               CARTRAGES 0 0 0 0 0 0 0 2 1
+                               TECH&QUOT 0 0 0 0 0 0 0 1 1

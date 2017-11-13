@@ -10,7 +10,7 @@
                                     SOME 0 0 0 0 0 0 1 1 1
                                    512MB 0 0 0 0 0 0 0 1 1
                                    VIDEO 0 1 0 0 0 1 0 3 1
-                                    CARD 0 1 0 0 0 1 0 2 1
+                                    CARD 0 1 0 0 0 1 0 2 0
                                   THANKS 0 0 0 0 0 1 0 0 0
                                   ANSWER 0 0 0 0 0 1 0 1 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
@@ -31,8 +31,8 @@
                                     SELF 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 1 1
                                      ONE 0 0 0 0 0 1 0 2 1
-                                   DRIVE 0 0 0 0 0 1 0 3 0
-                                PROBLEMS 0 0 0 0 0 1 0 2 0
+                                   DRIVE 0 0 0 0 0 1 0 3 1
+                                PROBLEMS 0 0 0 0 0 1 0 2 1
                                  MACHINE 0 1 0 0 0 1 0 2 1
                                     BIOS 0 0 0 0 0 0 0 1 1
                                    THREE 0 0 0 0 0 1 0 0 1
@@ -60,7 +60,7 @@
                                     CASE 0 1 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
-                                  MEMORY 0 1 0 0 0 1 0 1 1
+                                  MEMORY 0 1 0 0 0 1 0 1 0
                                      LOT 0 0 0 0 0 1 0 2 1
                                     ASUS 0 0 1 0 0 0 0 0 1
                                    MODEM 0 0 0 0 0 1 0 1 0
@@ -70,7 +70,7 @@
                                     ETC. 0 0 0 0 0 0 0 1 1
                                      TOY 0 0 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 1 1
-                                    WORK 0 0 0 0 0 1 0 1 1
+                                    WORK 0 0 0 0 0 1 0 1 0
                                      FUN 0 0 0 0 0 1 0 1 1
                                   BUDGET 0 1 0 0 0 1 0 1 1
                                     MANY 0 0 0 0 0 0 1 1 1
@@ -104,7 +104,7 @@
                               PROCESSORS 0 0 0 0 0 1 0 0 1
                                     COMP 0 0 0 0 0 0 0 1 1
                                  PENTIUM 0 0 0 0 0 0 0 1 1
-                                  ONLINE 0 0 0 0 0 1 0 1 0
+                                  ONLINE 0 0 0 0 0 1 0 1 1
                            COMPATIBILITY 0 0 0 0 0 0 0 0 1
                               COMPATIBLE 0 0 0 0 0 0 0 1 1
                                  REGARDS 0 0 0 0 0 0 0 1 1
@@ -171,7 +171,7 @@
                                   PRICES 1 1 0 0 0 1 0 1 1
                               EXPERIENCE 0 0 0 0 0 1 0 2 1
                                  PROCESS 0 0 0 0 0 1 0 1 1
-                                WARRANTY 0 0 0 0 0 0 0 1 1
+                                WARRANTY 0 0 0 0 0 0 0 1 0
                                       PS 0 1 1 0 0 0 0 0 0
                                    STORE 0 0 0 0 0 1 0 1 1
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
@@ -207,7 +207,7 @@
                             APPLICATIONS 0 0 0 0 0 1 0 1 1
                                    SITES 0 0 0 0 0 1 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 1 1
-                                 GATEWAY 0 0 0 0 0 0 0 1 0
+                                 GATEWAY 0 0 0 0 0 0 0 1 1
                                  PARTIES 0 0 0 0 0 1 0 0 1
                                        X 0 0 1 0 0 1 0 0 0
                                   OTHERS 0 0 0 0 0 1 0 1 1
@@ -224,9 +224,9 @@
                                      MAN 0 1 0 0 0 1 0 1 1
                                   TINKER 0 0 1 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
@@ -251,7 +251,7 @@
                                RECORDING 0 0 0 0 0 1 0 0 0
                                    CROSS 0 0 0 0 0 1 0 0 0
                                      DAD 0 0 0 0 0 1 0 1 1
-                                 SCIENCE 0 0 0 0 0 1 0 1 0
+                                 SCIENCE 0 0 0 0 0 1 0 1 1
                                 SHIPPING 0 0 0 0 0 0 0 1 0
                                   ADVISE 0 0 0 0 0 0 0 0 1
                                  WHATNOT 0 0 0 0 0 0 0 1 1
@@ -305,11 +305,6 @@
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                W/500WATT 0 0 0 0 0 0 0 0 0
-                                 PROFITS 0 0 0 0 0 1 0 1 1
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                               OURS.&QUOT 0 0 0 0 0 0 0 0 1
                                       A+ 0 0 0 0 0 0 0 1 1
                                     CERT 0 0 0 0 0 0 0 1 1
@@ -318,6 +313,11 @@
                             SPREADSHEETS 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
                              INSTABILITY 0 0 0 0 0 1 0 0 1
+                                 PROFITS 0 0 0 0 0 1 0 1 1
+                                    9.99 0 0 0 7 0 0 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                  DEFENSE 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 1 1
                                  PUDDING 0 0 0 0 0 0 0 1 1

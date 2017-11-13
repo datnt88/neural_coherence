@@ -27,7 +27,7 @@
                                   THINGS 0 0 0 0 0 1 0 1 1
                                 EVERYONE 0 0 0 0 0 1 0 0 1
                                   MARKET 0 1 0 0 0 1 0 2 1
-                                  TABLET 0 0 0 0 0 0 0 2 0
+                                  TABLET 0 0 0 0 0 0 0 2 1
                                    PHONE 0 0 0 0 0 1 0 1 1
                                      PAD 0 0 0 0 0 0 0 1 1
                                    FLASH 0 0 0 0 0 0 0 1 1
@@ -44,7 +44,7 @@
                                  GENERIC 0 0 0 0 0 0 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 0 0
-                                   BRAND 0 0 0 0 0 1 0 1 0
+                                   BRAND 0 0 0 0 0 1 0 1 1
                                     BEST 0 0 0 0 0 0 1 1 1
                                     GAME 0 0 0 0 0 1 0 1 1
                                    ULTRA 0 0 0 0 0 0 0 0 0
@@ -57,13 +57,13 @@
                                   SCHEME 0 0 0 0 0 1 0 1 1
                                  ANDROID 0 0 0 0 0 0 0 0 1
                                  SAMSUNG 0 0 1 0 0 1 0 0 1
-                                   APPLE 0 0 0 0 0 1 0 1 1
+                                   APPLE 0 0 1 0 0 1 0 1 0
                                     IPAD 0 0 0 0 0 0 0 2 1
                                     FORM 0 1 0 0 0 1 0 1 1
                                     FIRE 0 0 0 0 0 1 0 1 1
                                 QUESTION 0 0 0 0 0 1 0 1 1
                                     ONES 0 0 0 0 0 1 0 1 1
-                                   POINT 0 0 0 0 0 1 0 1 1
+                                   POINT 0 0 0 0 0 1 0 1 0
                                 RESPONSE 0 0 0 0 0 1 0 0 1
                               DISCUSSION 0 0 0 0 0 1 0 0 1
                                  PRODUCT 0 1 0 0 0 1 0 3 1
@@ -106,9 +106,9 @@
                            COMPUTER&QUOT 0 0 0 0 0 0 0 1 1
                                   NAMING 0 0 0 0 0 0 0 0 0
                                     EDGE 0 0 0 0 0 1 0 1 1
-                                 GRAPHIC 0 0 0 0 0 0 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                     LACK 0 0 0 0 0 1 0 1 1
+                                 GRAPHIC 0 0 0 0 0 0 0 1 1
                                   PLAYER 0 0 0 0 0 1 0 1 1
                                   MINUTE 0 0 0 0 0 1 0 1 1
                                     BALL 0 0 0 0 0 1 0 0 0
@@ -166,35 +166,13 @@
                                  CONTEXT 0 0 0 0 0 1 0 1 1
                                     BLOG 0 0 0 0 0 0 0 1 1
                                 ADOPTION 0 0 0 0 0 0 0 1 1
-                       TABLETS/E-READERS 0 0 0 0 0 0 0 1 1
-                                 KINDLES 0 0 0 0 0 0 0 0 1
-                               JEEP&QUOT 0 0 0 0 0 0 0 0 1
-                              HAIRS&QUOT 0 0 0 0 0 0 0 1 1
-                                   EDSEL 0 0 1 0 0 0 0 0 0
-                               COMMODORE 0 0 1 0 0 0 0 0 0
                                     COKE 0 1 0 0 0 1 0 1 1
-                                  SLANGS 0 0 0 0 0 0 0 1 1
-                                 HOOVERS 0 0 0 0 0 0 0 0 1
-                                MIGRANTS 0 0 0 0 0 1 0 1 1
-                                    POMS 0 0 0 0 0 0 0 0 1
-                                    PENS 0 0 0 0 0 0 0 1 1
-                                    BIRO 0 0 0 0 0 1 0 0 1
-                                 KLEENEX 0 0 0 0 0 0 0 1 1
-                                 TISSUES 0 0 0 0 0 1 0 1 1
-                           FOUNTAIN&QUOT 0 0 0 0 0 0 0 1 1
-                                   SHEEP 0 0 0 0 0 0 0 0 0
-                                  FRENZY 0 0 0 0 0 1 0 1 1
-                               STUPIDITY 0 0 0 0 0 0 0 0 1
-                                   I-PAD 0 0 0 0 0 0 0 1 1
-                            SHORTCOMINGS 0 0 0 0 0 1 0 1 1
-                                 ANDRIOD 0 0 0 0 0 0 0 0 0
-                               PUBLICITY 0 0 0 0 0 1 0 0 0
-                                    HYPE 0 0 0 0 0 1 0 1 1
                                    PEPSI 0 0 0 0 0 1 0 1 1
                                     COLA 0 0 0 0 0 0 0 0 1
                                   BUCKET 0 0 0 0 0 0 0 1 1
                                    SODAS 0 0 0 0 0 0 0 0 0
                               RESTAURANT 0 0 0 0 0 1 0 1 1
+                                 KLEENEX 0 0 0 0 0 0 0 1 1
                                   SNEEZE 0 0 0 0 0 0 0 1 1
                                   TISSUE 0 0 0 0 0 1 0 1 1
                                  LINEAGE 0 0 0 0 0 0 0 1 1
@@ -202,8 +180,30 @@
                                 SPIKE715 0 0 0 0 0 0 0 0 1
                           INCOMPTABILITY 0 0 0 0 0 0 0 1 1
                                IPAD&QUOT 0 0 0 0 0 0 0 0 1
+                       TABLETS/E-READERS 0 0 0 0 0 0 0 1 1
+                                 KINDLES 0 0 0 0 0 0 0 0 1
+                               JEEP&QUOT 0 0 0 0 0 0 0 0 1
+                              HAIRS&QUOT 0 0 0 0 0 0 0 1 1
+                                   EDSEL 0 0 1 0 0 0 0 0 0
+                               COMMODORE 0 0 1 0 0 0 0 0 0
+                                  SLANGS 0 0 0 0 0 0 0 1 1
+                                 HOOVERS 0 0 0 0 0 0 0 0 1
+                                MIGRANTS 0 0 0 0 0 1 0 1 1
+                                    POMS 0 0 0 0 0 0 0 0 1
+                                    PENS 0 0 0 0 0 0 0 1 1
+                                    BIRO 0 0 0 0 0 1 0 0 1
+                                 TISSUES 0 0 0 0 0 1 0 1 1
+                           FOUNTAIN&QUOT 0 0 0 0 0 0 0 1 1
+                                   SHEEP 0 0 0 0 0 0 0 0 0
+                                  FRENZY 0 0 0 0 0 1 0 1 1
+                               STUPIDITY 0 0 0 0 0 0 0 0 1
+                                   I-PAD 0 0 1 0 0 0 0 1 1
+                            SHORTCOMINGS 0 0 0 0 0 1 0 1 1
+                                 ANDRIOD 0 0 0 0 0 0 0 0 0
+                               PUBLICITY 0 0 0 0 0 1 0 0 0
+                                    HYPE 0 0 0 0 0 1 0 1 1
                                SODA&QUOT 0 0 0 0 0 0 0 0 1
-                                    SODA 0 0 0 0 0 0 0 1 1
+                                    SODA 0 0 0 0 0 0 0 1 0
                                   HOOVER 0 0 1 0 0 1 0 1 1
                                   DANGER 0 0 0 0 0 1 0 1 1
                                 RELIGEON 0 0 0 0 0 0 0 0 1

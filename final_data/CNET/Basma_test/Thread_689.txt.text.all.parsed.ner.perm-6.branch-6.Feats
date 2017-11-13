@@ -28,7 +28,7 @@
                                     CASE 0 1 0 0 0 1 0 0 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
-                                      .. 0 0 0 0 0 1 0 2 0
+                                      .. 0 0 0 0 0 1 0 2 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
                                      LOT 0 0 0 0 0 1 0 1 1
                                    PHONE 0 0 0 0 0 1 0 1 1
@@ -68,11 +68,11 @@
                                     HELP 0 0 0 0 0 1 0 1 1
                               DISCUSSION 0 0 0 0 0 1 0 1 1
                                     CORD 0 0 0 0 0 1 0 1 1
-                                   EPSON 0 0 1 0 0 0 0 2 0
+                                   EPSON 0 0 1 0 0 0 0 2 1
                                 PRINTERS 0 0 0 0 0 1 0 1 1
                                   CLIENT 0 1 0 0 0 1 0 1 1
                                    PRINT 0 0 0 0 0 1 0 0 0
-                                 PRINTER 0 0 0 0 0 0 0 3 1
+                                 PRINTER 0 0 0 0 0 0 0 3 0
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                    QUEUE 0 0 0 0 0 0 0 1 1
@@ -96,14 +96,14 @@
                                SITUATION 0 1 0 0 0 1 0 1 1
                                   SERIES 0 0 0 0 0 1 0 1 1
                                     MIND 0 0 0 0 0 1 0 1 1
-                                    LINE 0 0 0 0 0 1 0 1 1
+                                    LINE 0 0 0 0 0 1 0 1 0
                               BACKGROUND 0 0 0 0 0 1 0 1 1
                                     NOTE 0 0 0 0 0 1 0 1 1
                                   SOURCE 0 0 0 0 0 1 0 1 1
                             INSTRUCTIONS 0 0 0 0 0 1 0 1 1
                                   SEARCH 0 0 0 0 0 1 0 1 1
                               CARTRIDGES 0 0 0 0 0 0 0 3 1
-                                PRINTING 0 0 0 0 0 0 0 0 1
+                                PRINTING 0 0 0 0 0 0 0 0 0
                                   PHOTOS 0 0 0 0 0 1 0 0 1
                                    PHOTO 0 0 0 0 0 1 0 0 0
                              REPLACEMENT 0 0 0 0 0 1 0 0 0
@@ -120,9 +120,9 @@
                                 REFILLED 0 0 0 0 0 0 0 0 0
                                      INK 0 0 0 0 0 1 0 0 1
                                CARTRIDGE 0 0 0 0 0 0 0 1 1
-                                   SHEET 0 0 0 0 0 1 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                  PACKARD 0 0 0 0 0 1 0 1 1
+                                   SHEET 0 0 0 0 0 1 0 1 1
                                    COLOR 0 0 0 0 0 1 0 0 0
                                   E-MAIL 0 0 0 0 0 1 0 1 1
                                   REVIEW 0 0 0 0 0 1 0 1 1
@@ -131,7 +131,7 @@
                                      !!! 0 0 0 0 0 0 0 0 1
                                     DOCS 0 0 0 0 0 0 0 1 1
                                      FAX 0 0 0 0 0 0 0 0 0
-                                 MISTAKE 0 0 0 0 0 1 0 1 1
+                                 MISTAKE 0 0 0 0 0 1 0 1 0
                                     WIFE 0 0 0 0 0 1 0 1 1
                                      TAX 0 1 0 0 0 1 0 0 0
                                  ATTEMPT 0 0 0 0 0 1 0 1 1
@@ -169,15 +169,8 @@
                                    MP530 0 0 0 0 0 0 0 2 1
                                    420CN 0 0 0 0 0 0 0 1 1
                                 EPINIONS 0 0 0 0 0 0 0 1 1
-                               CX9400FAX 0 0 0 0 0 0 0 1 1
-                               FOODFIEND 0 0 0 0 0 0 0 0 1
-                                QUANDARY 0 0 0 0 0 0 0 1 1
-                              TROYSUAREZ 0 0 0 0 0 0 0 1 1
-                                    R260 0 0 0 0 0 0 0 1 1
-                               CARTRAGES 0 0 0 0 0 0 0 2 1
-                                  NATION 0 0 0 0 0 1 0 0 0
-                              EXPERIANCE 0 0 0 0 0 0 0 1 1
                                TELEPHONE 0 0 0 0 0 1 0 1 1
+                               CX9400FAX 0 0 0 0 0 0 0 1 1
                                 OK.&QUOT 0 0 0 0 0 0 0 0 1
                                  SMUDGES 0 0 0 0 0 0 0 1 1
                                WRITE-OFF 0 0 0 0 0 0 0 1 1
@@ -193,3 +186,10 @@
                                   AGENCY 0 1 0 0 0 1 0 1 1
                                    ESPON 0 0 0 0 0 0 0 1 1
                                   CX6000 0 0 0 0 0 0 0 1 1
+                               FOODFIEND 0 0 0 0 0 0 0 0 1
+                                QUANDARY 0 0 0 0 0 0 0 1 1
+                              TROYSUAREZ 0 0 0 0 0 0 0 1 1
+                                    R260 0 0 0 0 0 0 0 1 1
+                               CARTRAGES 0 0 0 0 0 0 0 2 1
+                                  NATION 0 0 0 0 0 1 0 0 0
+                              EXPERIANCE 0 0 0 0 0 0 0 1 1

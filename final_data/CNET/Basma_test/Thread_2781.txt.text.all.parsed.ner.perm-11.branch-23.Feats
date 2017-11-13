@@ -6,7 +6,7 @@
                                     NEED 0 0 0 0 0 1 0 0 1
                                     SOME 0 0 0 0 0 0 1 1 1
                                    ORDER 0 0 0 0 0 1 0 1 0
-                                   VIDEO 0 1 0 0 0 1 0 3 0
+                                   VIDEO 0 1 0 0 0 1 0 3 1
                                     CARD 0 1 0 0 0 1 0 2 1
                                   THANKS 0 0 0 0 0 1 0 0 0
                                   ANSWER 0 0 0 0 0 1 0 1 1
@@ -21,12 +21,12 @@
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                     YEAR 0 1 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
                                     SELF 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 2 1
-                                   DRIVE 0 0 0 0 0 1 0 2 0
+                                   DRIVE 0 0 0 0 0 1 0 2 1
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 2 1
                                     DISK 0 0 0 0 0 1 0 1 1
@@ -49,7 +49,7 @@
                                      RAM 0 0 1 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 1 0
+                                  MEMORY 0 1 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 2 1
                                     ASUS 0 0 1 0 0 0 0 0 1
@@ -76,8 +76,8 @@
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
-                                   PRICE 0 1 0 0 0 1 0 1 0
-                                   BRAND 0 0 0 0 0 1 0 1 0
+                                   PRICE 0 1 0 0 0 1 0 1 1
+                                   BRAND 0 0 0 0 0 1 0 1 1
                                       HD 0 0 1 0 0 0 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 1 1
                                  OPTIONS 0 0 0 0 0 1 0 1 1
@@ -98,7 +98,7 @@
                                   ONLINE 0 0 0 0 0 1 0 0 0
                               COMPATIBLE 0 0 0 0 0 0 0 1 1
                                  REGARDS 0 0 0 0 0 0 0 1 1
-                                    DELL 0 0 1 0 0 0 0 2 0
+                                    DELL 0 0 1 0 0 0 0 2 1
                                ALIENWARE 0 0 0 0 0 0 0 0 0
                                     AREA 0 0 0 0 0 1 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 3 1
@@ -137,15 +137,15 @@
                                      WAY 1 0 0 0 0 1 0 2 1
                                  TROUBLE 0 0 0 0 0 1 0 1 1
                                  COLLEGE 0 0 0 0 0 1 0 0 0
-                                SOFTWARE 0 1 0 0 0 1 0 1 1
+                                SOFTWARE 0 1 0 0 0 1 0 1 0
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 1 1
                                     TECH 0 0 1 0 0 0 1 1 1
                                      REP 0 0 0 0 0 0 0 1 1
-                                   BOARD 0 1 0 0 0 1 0 1 1
+                                   BOARD 0 1 0 0 0 1 0 1 0
                                  CLIENTS 0 1 0 0 0 1 0 1 1
                                    START 0 0 0 0 0 1 0 1 1
-                               MICROSOFT 0 0 1 0 0 1 0 0 1
+                               MICROSOFT 0 0 1 0 0 1 0 0 0
                                EMACHINES 0 0 0 0 0 0 0 1 1
                                   OPTION 0 0 0 0 0 1 0 1 1
                                   PRICES 1 1 0 0 0 1 0 1 1
@@ -186,7 +186,7 @@
                                     MAIL 0 0 0 0 0 1 0 0 0
                                  EDITING 0 0 0 0 0 1 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 2 1
-                                 GATEWAY 0 0 0 0 0 0 0 1 0
+                                 GATEWAY 0 0 0 0 0 0 0 1 1
                                        X 0 0 1 0 0 1 0 0 0
                                   OTHERS 0 0 0 0 0 1 0 1 1
                                    WIRES 0 0 0 0 0 1 0 1 1
@@ -203,8 +203,8 @@
                                      HEY 0 0 1 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 1 1
                                   64-BIT 0 0 0 0 0 0 0 1 1
@@ -269,17 +269,17 @@
                                    GOALS 0 0 0 0 0 1 0 1 1
      MOTHERBOARD+CPU+HSF+POWERSUPPLY+RAM 0 0 0 0 0 0 0 1 1
                                     IMO. 0 0 1 0 0 0 0 0 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                                  FERVOR 0 0 0 0 0 0 0 1 1
                                  MUCKING 0 0 0 0 0 0 0 1 1
                                  TECHNET 0 0 0 0 0 0 0 0 0
                                  MEETING 0 0 0 0 0 1 0 1 1
                                  LECTURE 0 0 0 0 0 0 0 1 1
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
+                                  FERVOR 0 0 0 0 0 0 0 1 1
                                  DEFENSE 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 2 1
                                  PUDDING 0 0 0 0 0 0 0 1 1

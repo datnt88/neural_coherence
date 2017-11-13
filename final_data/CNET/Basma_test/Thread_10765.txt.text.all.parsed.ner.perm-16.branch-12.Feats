@@ -1,4 +1,4 @@
-                                       $ 0 0 0 0 0 0 1 1 1
+                                       $ 0 0 0 7 0 0 1 1 1
                                     TIME 1 1 0 0 0 1 0 3 1
                                     THAT 0 0 0 0 0 0 0 0 1
                                    ABOUT 0 0 0 0 0 0 1 1 1
@@ -20,11 +20,11 @@
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 1 0
-                                  SUPPLY 0 0 0 0 0 1 0 2 1
+                                  SUPPLY 0 0 0 0 0 1 0 2 0
                                    THOSE 0 0 0 0 0 0 1 1 1
                                    WEEKS 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 3 1
-                                   DRIVE 0 0 0 0 0 1 0 1 0
+                                   DRIVE 0 0 0 0 0 1 0 1 1
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 1 1
                                     DISK 0 0 0 0 0 1 0 0 0
@@ -44,7 +44,7 @@
                                     FANS 0 0 0 0 0 1 0 0 0
                                    THING 0 0 0 0 0 1 0 1 1
                                     USES 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 1 0
+                                  MEMORY 0 1 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 1 1
                                   NVIDIA 0 0 0 0 0 0 0 0 0
@@ -59,7 +59,7 @@
                                     MORE 0 0 0 0 0 0 1 1 1
                                 WIRELESS 0 0 1 0 0 0 0 0 0
                                       OS 0 0 0 0 0 0 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 1
+                                 WINDOWS 0 0 0 0 0 1 0 1 0
                                   COUPLE 0 0 0 0 0 1 0 1 1
                                   AROUND 0 0 0 0 0 0 0 1 1
                                    MOUSE 0 0 0 0 0 1 0 2 1
@@ -75,7 +75,7 @@
                                    BRAND 0 0 0 0 0 1 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 0 0
                                     LESS 0 0 0 7 0 0 0 1 1
-                                   PARTS 1 0 0 0 0 1 0 1 1
+                                   PARTS 1 0 0 0 0 1 0 1 0
                                FRAGMENTS 0 0 0 0 0 1 0 0 0
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 3 1
@@ -161,7 +161,7 @@
                                  GATEWAY 0 0 0 0 0 0 0 0 0
                                     SONY 0 1 1 0 0 1 0 0 0
                                    VISTA 0 0 0 0 0 0 0 1 0
-                                       X 0 0 1 0 0 1 0 2 0
+                                       X 0 0 1 0 0 1 0 2 1
                                     TASK 0 0 0 0 0 1 0 1 1
                              SUGGESTIONS 0 0 0 0 0 1 0 1 1
                                   FUTURE 0 0 0 0 0 1 0 1 1
@@ -184,32 +184,11 @@
                                     CARS 0 1 0 0 0 1 0 1 1
                                  MUSTANG 0 0 0 0 0 1 0 1 1
                                 TINKERER 0 0 0 0 0 0 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                  BATTER 0 0 0 0 0 0 0 1 1
-                                   PLUGS 0 0 0 0 0 0 0 1 1
-                                 STORIES 0 0 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 0 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                               MID-TOWER 0 0 0 0 0 0 0 0 0
-                                   SHEET 0 0 0 0 0 1 0 0 0
-                                  FILTER 0 0 0 0 0 0 0 0 0
-                                   ORION 0 0 0 0 0 0 0 0 0
-                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
-                                  CONROE 0 0 0 0 0 0 0 0 0
-                                    TUBE 0 0 0 0 0 1 0 0 0
-                                  ARCTIC 0 0 1 0 0 0 0 0 0
-                                  SILVER 0 0 0 0 0 1 0 0 0
-                                     KIT 0 0 0 0 0 1 0 0 0
-                                     GTS 0 0 0 0 0 0 0 0 0
-                                   GAMER 0 0 0 0 0 0 0 0 0
-                                    10MS 0 0 0 0 0 0 0 0 0
-                                    LOTS 0 0 0 0 0 1 0 1 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                                     2HRS 0 0 0 0 0 0 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 0 1
                                 FRIENDS. 0 0 0 0 0 0 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
                                    BELLS 0 0 0 0 0 1 0 0 0
@@ -227,6 +206,27 @@
                             REQUIREMENTS 0 0 0 0 0 1 0 1 1
                               COMPROMISE 0 0 0 0 0 1 0 1 1
                                 BARNYARD 0 0 0 0 0 0 0 0 0
+                                     10. 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                  BATTER 0 0 0 0 0 0 0 1 1
+                                   PLUGS 0 0 0 0 0 0 0 1 1
+                                 STORIES 0 0 0 0 0 1 0 1 1
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                               MID-TOWER 0 0 0 0 0 0 0 0 0
+                                   SHEET 0 0 0 0 0 1 0 0 0
+                                  FILTER 0 0 0 0 0 0 0 0 0
+                                   ORION 0 0 0 0 0 0 0 0 0
+                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
+                                  CONROE 0 0 0 0 0 0 0 0 0
+                                    TUBE 0 0 0 0 0 1 0 0 0
+                                  ARCTIC 0 0 1 0 0 0 0 0 0
+                                  SILVER 0 0 0 0 0 1 0 0 0
+                                     KIT 0 0 0 0 0 1 0 0 0
+                                     GTS 0 0 0 0 0 0 0 0 0
+                                   GAMER 0 0 0 0 0 0 0 0 0
+                                    10MS 0 0 0 0 0 0 0 0 0
+                                    LOTS 0 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 0 1
                                 GEFORCE4 0 0 0 0 0 0 0 0 0
                                       MX 0 0 1 0 0 0 0 0 0

@@ -15,12 +15,12 @@
                                      NEW 0 0 1 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 1
-                                   POWER 0 1 0 0 0 1 0 1 0
+                                   POWER 0 1 0 0 0 1 0 1 1
                                   SUPPLY 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                  NOTHING 0 0 0 0 0 1 0 0 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
-                                   ERROR 0 0 0 0 0 1 0 1 1
+                                   ERROR 0 0 0 0 0 1 0 1 0
                                     BIOS 0 0 0 0 0 0 0 3 1
                                     SURE 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
@@ -36,11 +36,11 @@
                                   RETURN 0 0 0 0 0 1 0 0 0
                                    &QUOT 0 0 0 0 0 0 0 2 1
                                    THERE 0 0 0 0 0 0 1 0 1
-                                 DRIVERS 0 1 0 0 0 1 0 1 1
+                                 DRIVERS 0 1 0 0 0 1 0 1 0
                                   STRESS 0 0 0 0 0 0 0 0 0
                                       CD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 1 1
-                                     RAM 0 0 1 0 0 1 0 1 0
+                                     RAM 0 0 1 0 0 1 0 1 1
                                     CASE 0 1 0 0 0 1 0 3 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
@@ -53,7 +53,7 @@
                                      SAY 0 0 0 0 0 0 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
                                     FOLK 0 0 0 0 0 0 0 1 1
-                                     BOB 0 1 1 0 0 1 0 1 0
+                                     BOB 0 1 1 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                YESTERDAY 0 0 0 0 0 1 0 0 0
                                       OS 0 0 0 0 0 0 0 0 0
@@ -79,7 +79,7 @@
                                    TIMES 0 1 0 0 0 1 0 1 1
                                   SOCKET 0 0 0 0 0 0 0 1 1
                                  MONITOR 0 0 0 0 0 0 0 1 1
-                                    SLOT 0 0 0 0 0 1 0 1 1
+                                    SLOT 0 0 0 0 0 1 0 1 0
                                     CLUE 0 0 0 0 0 0 0 1 1
                                    LIGHT 0 0 0 0 0 1 0 1 1
                                     AREA 0 0 0 0 0 1 0 1 1
@@ -95,7 +95,7 @@
                                     PLUG 0 0 0 0 0 0 1 1 1
                                     PAGE 0 0 0 0 0 1 0 1 1
                               DISCUSSION 0 0 0 0 0 1 0 1 1
-                                  DRIVER 0 0 0 0 0 1 0 1 1
+                                  DRIVER 0 0 0 0 0 1 0 1 0
                                     LOAD 0 0 0 0 0 0 0 1 1
                                     PORT 0 0 0 0 0 1 0 1 1
                                   COOLER 0 0 0 0 0 0 0 1 1
@@ -119,15 +119,15 @@
                              DESCRIPTION 0 0 0 0 0 1 0 1 1
                                    NIGHT 1 0 0 0 0 1 0 1 1
                                    SHOWS 0 0 0 0 0 1 0 1 1
-                                       % 1 1 0 4 0 0 0 1 1
+                                       % 1 1 0 0 0 0 0 1 0
                                  CHANNEL 0 0 0 0 0 1 0 0 0
                                    VALUE 0 0 0 0 0 1 0 1 1
                                  MORNING 1 0 0 5 0 1 0 1 1
                                   FORUMS 0 0 0 0 0 1 0 1 1
                                   BOARDS 0 0 0 0 0 1 0 1 0
                                      BET 0 0 0 0 0 1 0 1 1
-                                    TEST 0 1 0 0 0 1 0 1 1
-                                SHUTDOWN 0 0 0 0 0 1 0 1 0
+                                    TEST 0 1 0 0 0 1 0 1 0
+                                SHUTDOWN 0 0 0 0 0 1 0 1 1
                                   DETAIL 0 0 0 0 0 1 0 0 0
                              ELECTRONICS 0 0 0 0 0 1 0 0 0
                                   RESULT 1 0 0 0 0 1 0 1 1
@@ -159,7 +159,7 @@
                                 OBSIDIAN 0 0 0 0 0 0 0 1 1
                                VENGEANCE 0 0 0 0 0 0 0 0 0
                                     XMS3 0 0 0 0 0 0 0 1 1
-                                 2133MHZ 0 0 0 0 0 0 0 0 0
+                                 2133MHZ 0 0 0 0 0 0 0 0 1
                                TWINFROZR 0 0 0 0 0 0 0 1 1
                                    4770K 0 0 0 0 0 0 0 0 0
                                   3.5GHZ 0 0 0 0 0 0 0 0 1
@@ -173,7 +173,7 @@
                                     LAGG 0 0 0 0 0 0 0 0 1
                                   12HOUR 0 0 0 0 0 0 0 1 1
                                     AVRG 0 0 0 0 0 0 0 0 1
-                               TEMPATURE 0 0 1 0 0 0 0 1 1
+                               TEMPATURE 0 0 0 0 0 0 0 1 1
                                  CELSIUS 0 0 0 0 0 0 0 1 1
                                     ---- 0 0 0 0 0 0 0 1 1
                            TEST-SOFTWARE 0 0 0 0 0 0 0 1 1

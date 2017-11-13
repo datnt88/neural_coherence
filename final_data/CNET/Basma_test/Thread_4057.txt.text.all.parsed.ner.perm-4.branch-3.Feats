@@ -41,12 +41,12 @@
                                     WHEN 0 0 0 0 0 0 1 0 0
                                    WHOLE 0 0 0 0 0 0 0 0 0
                                 HARDWARE 0 0 0 0 0 0 0 0 0
-                                COMPUTER 0 1 0 0 0 1 0 2 0
+                                COMPUTER 0 1 0 0 0 1 0 2 1
                                     HARD 0 0 0 0 0 0 0 1 1
                                     SELF 0 0 0 0 0 1 0 0 0
                                    THOSE 0 0 0 0 0 0 1 0 1
                                     THEN 0 0 0 0 0 0 1 0 0
-                                     ONE 0 0 0 0 0 1 0 1 0
+                                     ONE 0 0 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 0 0
                                    -LRB- 0 0 0 0 0 0 0 0 0
                                    -RRB- 0 0 0 0 0 0 0 0 0
@@ -55,7 +55,7 @@
                                  MACHINE 0 1 0 0 0 1 0 0 0
                                      NOW 0 0 0 0 0 0 0 0 1
                                     EVEN 0 0 0 0 0 0 0 0 0
-                                MACHINES 0 1 0 0 0 1 0 1 0
+                                MACHINES 0 1 0 0 0 1 0 1 1
                                    OTHER 0 0 0 0 0 0 0 0 0
                                     JUST 0 0 0 0 0 0 0 0 0
                                     SURE 0 0 0 0 0 0 0 0 0
@@ -99,11 +99,11 @@
                                   LAPTOP 0 0 0 0 0 0 0 1 1
                                   BETTER 0 0 0 0 0 0 0 0 0
                                      BOB 0 1 1 0 0 1 0 1 1
-                                    MORE 0 0 0 0 0 0 1 0 0
+                                    MORE 0 0 0 0 0 0 1 0 1
                                   ALWAYS 0 0 0 0 0 0 0 0 0
                                    LEAST 0 0 0 0 0 0 1 0 0
                                    ABOVE 0 0 0 0 0 0 1 0 0
-                                 WINDOWS 0 0 0 0 0 1 0 1 0
+                                 WINDOWS 0 0 0 0 0 1 0 1 1
                                  DESKTOP 0 0 0 0 0 0 1 1 1
                                   AROUND 0 0 0 0 0 0 0 0 0
                                      OWN 0 0 0 0 0 0 1 0 0
@@ -135,13 +135,13 @@
                                     MOST 0 0 0 0 0 1 0 0 0
                                     PICK 0 0 0 0 0 0 0 0 0
                                  LINKSYS 0 0 0 0 0 0 0 0 0
-                                  ROUTER 0 0 0 0 0 0 0 1 1
-                                INTERNET 0 0 0 0 0 1 0 1 0
+                                  ROUTER 0 0 0 0 0 0 0 1 0
+                                INTERNET 0 0 0 0 0 1 0 1 1
                                    SETUP 0 0 0 0 0 0 0 1 0
-                                 INSTALL 0 0 0 0 0 0 0 1 0
+                                 INSTALL 0 0 0 0 0 0 0 1 1
                                  NETWORK 0 0 0 0 0 1 0 3 0
                                     PAGE 0 0 0 0 0 1 0 0 0
-                                    HELP 0 0 0 0 0 1 0 1 0
+                                    HELP 0 0 0 0 0 1 0 1 1
                                    POINT 0 0 0 0 0 1 0 0 0
                                     EACH 0 0 0 0 0 0 1 0 0
                                     MADE 0 0 0 0 0 0 0 0 0
@@ -157,11 +157,11 @@
                                       IP 0 0 0 0 0 0 0 1 1
                                      JOB 0 1 0 0 0 1 0 0 0
                                    MATCH 0 0 0 0 0 1 0 0 0
-                                     WAY 1 0 0 0 0 1 0 1 1
+                                     WAY 1 0 0 0 0 1 0 1 0
                                  TROUBLE 0 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 1 1
                                   OFFICE 0 0 0 0 0 1 0 1 1
-                                  ACCESS 0 0 0 0 0 1 0 0 1
+                                  ACCESS 0 0 0 0 0 1 0 0 0
                                 SOFTWARE 0 1 0 0 0 1 0 0 0
                                  SERVICE 0 0 0 0 0 1 0 0 0
                                     WORD 0 0 0 0 0 1 0 0 0
@@ -176,7 +176,7 @@
                                    STUFF 0 0 0 0 0 1 0 0 1
                                    HELPS 0 0 0 0 0 0 0 0 0
                                     WAYS 0 0 0 0 0 1 0 1 1
-                                    INFO 0 0 0 0 0 0 0 1 1
+                                    INFO 0 0 0 0 0 0 0 1 0
                                     THUS 0 0 0 0 0 0 0 0 0
                                     WEEK 1 0 0 6 0 1 0 1 1
                                CONNECTOR 0 0 0 0 0 0 0 0 0
@@ -212,16 +212,16 @@
                              DIRECTORIES 0 0 0 0 0 0 0 1 1
                                       ID 0 0 0 0 0 0 1 0 0
                                      NET 0 0 0 0 0 1 0 0 0
-                                 COMMAND 0 0 0 0 0 1 0 1 0
+                                 COMMAND 0 0 0 0 0 1 0 1 1
                                 SECURITY 0 0 0 0 0 1 0 0 0
                                     CODE 0 0 0 0 0 1 0 0 0
                                  CONTROL 0 0 0 0 0 1 0 0 0
                                     VIEW 0 1 0 0 0 1 0 0 0
                                    TOOLS 0 0 0 0 0 1 0 2 1
                                 BUILDING 0 0 0 0 0 1 0 0 0
-                                  PLACES 0 0 0 0 0 1 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                                    COLOR 0 0 0 0 0 1 0 0 0
                                  CAUSING 0 0 0 0 0 0 0 0 0
                                 SLUGGISH 0 0 0 0 0 0 0 0 0
@@ -253,7 +253,7 @@
                                  SERVERS 0 0 0 0 0 1 0 0 0
                                     ACTS 0 0 0 0 0 1 0 0 0
                                    KINDS 0 0 0 0 0 1 0 0 0
-                               CROSSOVER 0 0 0 0 0 0 0 1 0
+                               CROSSOVER 0 0 0 0 0 0 0 1 1
                                   TOWARD 0 0 0 0 0 0 0 0 0
                                   HACKED 0 0 0 0 0 0 0 0 0
                                  USELESS 0 0 0 0 0 0 0 0 0

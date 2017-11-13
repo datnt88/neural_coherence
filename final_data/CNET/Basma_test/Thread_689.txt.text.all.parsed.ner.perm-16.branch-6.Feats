@@ -29,7 +29,7 @@
                                    THING 0 0 0 0 0 1 0 0 1
                                       .. 0 0 0 0 0 1 0 2 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
-                                   PHONE 0 0 0 0 0 1 0 1 1
+                                   PHONE 0 0 0 0 0 1 0 1 0
                                       'S 0 0 0 0 0 0 0 0 1
                                 FEATURES 0 0 0 0 0 1 0 1 1
                                     DAYS 0 0 0 0 0 1 0 1 1
@@ -56,7 +56,7 @@
                                    TODAY 0 0 0 6 0 1 0 0 1
                                  WEBSITE 0 0 0 0 0 0 0 1 1
                                     POST 0 0 0 0 0 1 0 1 1
-                                 SUPPORT 0 0 0 0 0 1 0 1 0
+                                 SUPPORT 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
                                   NUMBER 0 0 0 0 0 1 0 2 1
                                    SETUP 0 0 0 0 0 0 0 0 0
@@ -69,7 +69,7 @@
                                    EPSON 0 0 1 0 0 0 0 2 1
                                 PRINTERS 0 0 0 0 0 1 0 1 1
                                    PRINT 0 0 0 0 0 1 0 0 0
-                                 PRINTER 0 0 0 0 0 0 0 3 0
+                                 PRINTER 0 0 0 0 0 0 0 3 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                    QUEUE 0 0 0 0 0 0 0 1 1
                                  QUALITY 0 0 0 0 0 1 0 1 1
@@ -88,7 +88,7 @@
                                   GOOGLE 0 0 0 0 0 0 0 0 1
                                      OEM 0 0 0 0 0 0 0 0 0
                                    OFFER 0 1 0 0 0 1 0 1 1
-                                CUSTOMER 0 0 0 0 0 1 0 1 1
+                                CUSTOMER 0 0 0 0 0 1 0 1 0
                                   MODELS 0 0 0 0 0 1 0 1 1
                                    PARTY 0 0 0 0 0 1 0 0 0
                                     WEEK 1 0 0 6 0 1 0 1 1
@@ -102,7 +102,7 @@
                                   SEARCH 0 0 0 0 0 1 0 1 1
                                     HEAD 0 0 0 0 0 1 0 1 1
                               CARTRIDGES 0 0 0 0 0 0 0 3 1
-                                PRINTING 0 0 0 0 0 0 0 1 0
+                                PRINTING 0 0 0 0 0 0 0 1 1
                                   PHOTOS 0 0 0 0 0 1 0 0 1
                                    PHOTO 0 0 0 0 0 1 0 0 0
                              REPLACEMENT 0 0 0 0 0 1 0 0 0
@@ -123,9 +123,9 @@
                                      INK 0 0 0 0 0 1 0 0 1
                                CARTRIDGE 0 0 0 0 0 0 0 1 1
                                    WORDS 0 1 0 0 0 1 0 1 1
-                                   SHEET 0 0 0 0 0 1 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                  PACKARD 0 0 0 0 0 1 0 1 1
+                                   SHEET 0 0 0 0 0 1 0 1 1
                                   COLORS 0 0 0 0 0 1 0 1 1
                                      GOD 0 0 1 0 0 1 0 0 1
                                   E-MAIL 0 0 0 0 0 1 0 0 0
@@ -162,19 +162,13 @@
                                SENTENCES 0 0 0 0 0 1 0 0 1
                                  CHARGES 0 1 0 0 0 1 0 1 1
                                      JET 0 0 0 0 0 1 0 0 0
-                                  REFILL 0 0 0 0 0 0 0 1 0
+                                  REFILL 0 0 0 0 0 0 0 1 1
                                 FAX&QUOT 0 0 0 0 0 0 0 1 1
                                    FAXES 0 0 0 0 0 1 0 1 1
                              BUTTON&QUOT 0 0 0 0 0 0 0 1 1
                                 LASERJET 0 0 0 0 0 0 0 1 1
                                    MP530 0 0 0 0 0 0 0 2 1
                                    420CN 0 0 0 0 0 0 0 1 1
-                                    R260 0 0 0 0 0 0 0 1 1
-                                   R2880 0 0 0 0 0 0 0 1 1
-                                   B9180 0 0 0 0 0 0 0 1 1
-                               CARTRAGES 0 0 0 0 0 0 0 3 1
-                                  NATION 0 0 0 0 0 1 0 0 0
-                              EXPERIANCE 0 0 0 0 0 0 0 1 1
                                TELEPHONE 0 0 0 0 0 1 0 1 1
                                 OK.&QUOT 0 0 0 0 0 0 0 0 1
                                  SMUDGES 0 0 0 0 0 0 0 1 1
@@ -184,3 +178,9 @@
                                     BEER 0 0 0 0 0 1 0 0 1
                            LONG-DISTANCE 0 0 0 0 0 0 0 0 0
                                     FAX. 0 0 0 0 0 0 0 1 1
+                                    R260 0 0 0 0 0 0 0 1 1
+                                   R2880 0 0 0 0 0 0 0 1 1
+                                   B9180 0 0 0 0 0 0 0 1 1
+                               CARTRAGES 0 0 0 0 0 0 0 3 1
+                                  NATION 0 0 0 0 0 1 0 0 0
+                              EXPERIANCE 0 0 0 0 0 0 0 1 1

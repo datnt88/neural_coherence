@@ -14,7 +14,7 @@
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 0 1
-                                    DISK 0 0 0 0 0 1 0 2 0
+                                    DISK 0 0 0 0 0 1 0 2 1
                                  NOTHING 0 0 0 0 0 1 0 2 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                     BOOT 0 0 0 0 0 0 0 0 0
@@ -45,7 +45,7 @@
                                     LIST 0 0 0 0 0 1 0 1 1
                                   ANYONE 0 0 0 0 0 1 0 0 1
                                  REVIEWS 0 0 0 0 0 1 0 1 1
-                                     BOB 0 1 1 0 0 1 0 0 0
+                                     BOB 0 1 1 0 0 1 0 0 1
                                     MORE 0 0 0 0 0 0 1 0 1
                                  THOUGHT 0 0 0 0 0 1 0 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
@@ -80,9 +80,9 @@
                                 FIRMWARE 0 0 0 0 0 0 0 1 1
                                     HELP 0 0 0 0 0 1 0 1 1
                                 RESPONSE 0 0 0 0 0 1 0 0 0
-                                   ESATA 0 0 0 0 0 0 0 0 0
+                                   ESATA 0 0 0 0 0 0 0 0 1
                                PARTITION 0 0 0 0 0 0 1 0 0
-                                    PORT 0 0 0 0 0 1 0 2 1
+                                    PORT 0 0 0 0 0 1 0 2 0
                             INSTALLATION 0 0 0 0 0 1 0 1 1
                                      WAY 1 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 0 0
@@ -95,7 +95,7 @@
                                  DEFAULT 0 0 0 0 0 1 0 1 1
                                    BOARD 0 1 0 0 0 1 0 0 0
                                    START 0 0 0 0 0 1 0 0 0
-                                    DISC 0 0 0 0 0 1 0 2 0
+                                    DISC 0 0 0 0 0 1 0 2 1
                                   OPTION 0 0 0 0 0 1 0 1 1
                                     NONE 0 0 0 0 0 1 0 1 1
                                   BUTTON 0 0 0 0 0 0 0 1 1
@@ -108,7 +108,7 @@
                                   SCREWS 0 0 0 0 0 0 0 1 1
                                  SECONDS 0 0 0 0 0 1 0 1 1
                                  REASONS 0 0 0 0 0 1 0 1 1
-                                    LINE 0 0 0 0 0 1 0 2 1
+                                    LINE 0 0 0 0 0 1 0 2 0
                                     NOTE 0 0 0 0 0 1 0 0 0
                                   SOURCE 0 0 0 0 0 1 0 1 1
                                   SEARCH 0 0 0 0 0 1 0 1 1
@@ -123,7 +123,7 @@
                                       GB 0 0 0 0 0 0 0 1 1
                                     FILE 0 0 0 0 0 1 0 1 0
                                    DISKS 0 0 0 0 0 1 0 1 1
-                                    RPMS 0 0 0 0 0 0 0 1 1
+                                    RPMS 0 0 0 0 0 0 0 1 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                   SLOWER 0 0 0 0 0 0 0 1 0
                                      BAR 0 0 0 0 0 1 0 1 1
@@ -132,11 +132,11 @@
                                  COMMAND 0 0 0 0 0 1 0 0 0
                                 COMMANDS 0 0 0 0 0 1 0 1 1
                                    NOTES 0 1 0 0 0 1 0 1 1
-                                   SHEET 0 0 0 0 0 1 0 1 1
-                                     KIT 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                   ZALMAN 0 0 1 0 0 0 0 1 1
-                                     MSN 0 0 0 0 0 1 0 0 1
+                                   SHEET 0 0 0 0 0 1 0 1 1
+                                     KIT 0 0 0 0 0 1 0 1 1
+                                     MSN 0 0 0 0 0 1 0 0 0
                                 REACTION 0 0 0 0 0 1 0 1 1
                                      RPM 0 0 0 0 0 0 0 2 1
                                   WINDOW 0 0 0 0 0 1 0 1 1
@@ -151,7 +151,7 @@
                                IMPATIENT 0 0 0 0 0 0 0 1 1
                                 SHIPPING 0 0 0 0 0 0 0 0 0
                                 OVERHEAD 0 0 0 0 0 0 0 1 1
-                                    NTFS 0 0 0 0 0 0 0 0 0
+                                    NTFS 0 0 1 0 0 0 0 0 1
                                 BROWSING 0 0 0 0 0 0 0 1 1
                                     BUGS 0 0 0 0 0 1 0 1 1
                                     NEWS 0 1 0 0 0 1 0 1 1
@@ -174,7 +174,7 @@
                                  COPYING 0 0 0 0 0 0 0 0 1
                               THUMBNAILS 0 0 0 0 0 0 0 0 1
                                    BUGGY 0 0 0 0 0 0 0 1 1
-                                      TB 0 0 0 0 0 0 0 1 1
+                                      TB 0 0 0 0 0 0 0 1 0
                                    XCOPY 0 0 0 0 0 0 0 2 1
                                    PATHS 0 0 0 0 0 1 0 0 0
                                WILDCARDS 0 0 0 0 0 0 0 1 1

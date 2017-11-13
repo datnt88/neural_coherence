@@ -7,7 +7,7 @@
                                    RIGHT 1 1 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 1 1
+                                COMPUTER 0 1 0 0 0 1 0 1 0
                                    THOSE 0 0 0 0 0 0 1 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                    MUSIC 0 0 0 0 0 1 0 0 0
@@ -35,7 +35,7 @@
                                   THINGS 0 0 0 0 0 1 0 1 1
                                   MARKET 0 1 0 0 0 1 0 1 1
                                   TABLET 0 0 0 0 0 0 0 3 1
-                                   PHONE 0 0 0 0 0 1 0 1 1
+                                   PHONE 0 0 0 0 0 1 0 1 0
                                  COMPANY 0 1 0 0 0 1 0 1 1
                                      PAD 0 0 0 0 0 0 0 1 1
                                    FLASH 0 0 0 0 0 0 0 1 1
@@ -122,7 +122,7 @@
                                 PRODUCTS 0 1 0 0 0 1 0 3 1
                                 SERVICES 1 0 0 0 0 1 0 1 1
                                     SONY 0 1 1 0 0 1 0 0 1
-                                  IPHONE 0 0 0 0 0 0 0 1 0
+                                  IPHONE 0 0 0 0 0 0 0 1 1
                                     IPOD 0 0 0 0 0 0 0 2 1
                                 PORTABLE 0 0 0 0 0 0 0 1 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
@@ -133,10 +133,10 @@
                                   NAMING 0 0 0 0 0 0 0 0 0
                                      AIR 0 0 0 0 0 1 0 0 0
                                     EDGE 0 0 0 0 0 1 0 1 1
-                                 GRAPHIC 0 0 0 0 0 0 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
                                     LACK 0 0 0 0 0 1 0 1 1
+                                 GRAPHIC 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   PLAYER 0 0 0 0 0 1 0 1 1
                                     BALL 0 0 0 0 0 1 0 0 0
@@ -190,33 +190,11 @@
                                  CONTEXT 0 0 0 0 0 1 0 1 1
                                     BLOG 0 0 0 0 0 0 0 1 1
                                 ADOPTION 0 0 0 0 0 0 0 1 1
-                                    BUZZ 0 0 0 0 0 1 0 1 1
-                               COMMODITY 0 0 0 0 0 0 0 1 1
-                             TABLET&QUOT 0 0 0 0 0 0 0 1 1
-                               JEEP&QUOT 0 0 0 0 0 0 0 0 1
-                             IEVERYTHING 0 0 0 0 0 0 0 0 1
-                              HAIRS&QUOT 0 0 0 0 0 0 0 1 1
-                                   EDSEL 0 0 1 0 0 0 0 0 0
-                               COMMODORE 0 0 1 0 0 0 0 0 0
                                     COKE 0 1 0 0 0 1 0 1 1
-                                  SLANGS 0 0 0 0 0 0 0 1 1
-                                    PENS 0 0 0 0 0 0 0 1 1
-                                    BIRO 0 0 0 0 0 1 0 0 1
-                                 KLEENEX 0 0 0 0 0 0 0 1 1
-                                 TISSUES 0 0 0 0 0 1 0 1 1
-                              POPULATION 0 0 0 0 0 1 0 1 1
-                                    AGES 0 0 0 0 0 1 0 1 1
-                           FOUNTAIN&QUOT 0 0 0 0 0 0 0 1 1
-                                   SHEEP 0 0 0 0 0 0 0 0 0
-                                  FRENZY 0 0 0 0 0 1 0 1 1
-                               STUPIDITY 0 0 0 0 0 0 0 0 1
-                                   I-PAD 0 0 0 0 0 0 0 1 1
-                                 ANDRIOD 0 0 0 0 0 0 0 0 0
-                               PUBLICITY 0 0 0 0 0 1 0 1 1
-                                    HYPE 0 0 0 0 0 1 0 1 1
                                COKE&QUOT 0 0 0 0 0 0 0 1 1
                                    PEPSI 0 0 0 0 0 1 0 1 1
-                                    COLA 0 0 0 0 0 0 0 1 0
+                                    COLA 0 0 0 0 0 0 0 1 1
+                                 KLEENEX 0 0 0 0 0 0 0 1 1
                                   SNEEZE 0 0 0 0 0 0 0 1 1
                                   TISSUE 0 0 0 0 0 1 0 1 1
                                  LINEAGE 0 0 0 0 0 0 0 1 1
@@ -229,6 +207,28 @@
                                   -LSB-& 0 0 0 0 0 0 0 0 0
                      ENTHUSIAST/HOBBIEST 0 0 0 0 0 0 0 1 1
                              TERMINALOGY 0 0 0 0 0 0 0 1 1
+                                    BUZZ 0 0 0 0 0 1 0 1 1
+                               COMMODITY 0 0 0 0 0 0 0 1 1
+                             TABLET&QUOT 0 0 0 0 0 0 0 1 1
+                               JEEP&QUOT 0 0 0 0 0 0 0 0 1
+                             IEVERYTHING 0 0 0 0 0 0 0 0 1
+                              HAIRS&QUOT 0 0 0 0 0 0 0 1 1
+                                   EDSEL 0 0 1 0 0 0 0 0 0
+                               COMMODORE 0 0 1 0 0 0 0 0 0
+                                  SLANGS 0 0 0 0 0 0 0 1 1
+                                    PENS 0 0 0 0 0 0 0 1 1
+                                    BIRO 0 0 0 0 0 1 0 0 1
+                                 TISSUES 0 0 0 0 0 1 0 1 1
+                              POPULATION 0 0 0 0 0 1 0 1 1
+                                    AGES 0 0 0 0 0 1 0 1 1
+                           FOUNTAIN&QUOT 0 0 0 0 0 0 0 1 1
+                                   SHEEP 0 0 0 0 0 0 0 0 0
+                                  FRENZY 0 0 0 0 0 1 0 1 1
+                               STUPIDITY 0 0 0 0 0 0 0 0 1
+                                   I-PAD 0 0 0 0 0 0 0 1 1
+                                 ANDRIOD 0 0 0 0 0 0 0 0 0
+                               PUBLICITY 0 0 0 0 0 1 0 1 1
+                                    HYPE 0 0 0 0 0 1 0 1 1
                                     SODA 0 0 0 0 0 0 0 1 0
                                 LEMONADE 0 0 0 0 0 0 0 0 0
                                   HOOVER 0 0 1 0 0 1 0 1 1

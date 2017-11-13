@@ -6,8 +6,8 @@
                                    THESE 0 0 0 0 0 0 1 0 1
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                 COMPUTER 0 1 0 0 0 1 0 1 0
-                                  DRIVES 0 0 0 0 0 1 0 2 0
-                                   POWER 0 1 0 0 0 1 0 3 0
+                                  DRIVES 0 0 0 0 0 1 0 2 1
+                                   POWER 0 1 0 0 0 1 0 3 1
                                   SUPPLY 0 0 0 0 0 1 0 2 1
                                     80GB 0 0 0 0 0 0 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 1 1
@@ -18,8 +18,8 @@
                                      UPS 0 0 0 0 0 0 0 0 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                    &QUOT 0 0 0 0 0 0 0 3 1
-                                    HEAT 0 0 0 0 0 1 0 1 1
-                                    DUST 0 0 0 0 0 1 0 1 1
+                                    HEAT 0 0 0 0 0 1 0 1 0
+                                    DUST 0 0 0 0 0 1 0 1 0
                                    THERE 0 0 0 0 0 0 1 0 1
                                     ROOM 0 0 0 0 0 1 0 1 1
                                     BOTH 0 0 0 0 0 0 1 0 1
@@ -67,7 +67,7 @@
                                   BOARDS 0 0 0 0 0 1 0 2 1
                                     TEST 0 1 0 0 0 1 0 0 0
                             MOTHERBOARDS 0 0 0 0 0 0 0 2 1
-                                     PCS 0 0 0 0 0 1 0 2 0
+                                     PCS 0 0 0 0 0 1 0 2 1
                                   DETAIL 0 0 0 0 0 1 0 0 1
                                  SYSTEMS 0 0 0 0 0 1 0 3 1
                                 PRODUCTS 0 1 0 0 0 1 0 1 1
@@ -81,7 +81,7 @@
                                    WORDS 0 1 0 0 0 1 0 1 1
                                 SUPPLIES 0 0 0 0 0 1 0 3 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
-                                 FAILURE 0 0 0 0 0 1 0 1 0
+                                 FAILURE 0 0 0 0 0 1 0 1 1
                               EXCEPTIONS 0 0 0 0 0 1 0 1 1
                                    USERS 0 0 0 0 0 1 0 1 1
                                 BUILD-UP 0 0 0 0 0 0 0 1 1
@@ -100,11 +100,11 @@
                                  SUBJECT 0 0 0 0 0 1 0 1 1
                              DEVELOPMENT 0 0 0 0 0 1 0 1 1
                                  CYCLING 0 0 0 0 0 0 0 1 1
-                                   SURGE 0 0 0 0 0 1 0 1 0
+                                   SURGE 0 0 0 0 0 1 0 1 1
                                     LABS 0 0 0 0 0 1 0 1 1
                                   CYCLES 0 0 0 0 0 1 0 1 1
                                    CYCLE 0 0 0 0 0 1 0 1 1
-                                    LIFE 0 0 0 0 0 1 0 1 0
+                                    LIFE 0 0 0 0 0 1 0 1 1
                                  TESTING 0 0 0 0 0 1 0 1 1
                                     TEAR 0 0 0 0 0 0 0 1 1
                                   RATING 0 0 0 0 0 1 0 1 1

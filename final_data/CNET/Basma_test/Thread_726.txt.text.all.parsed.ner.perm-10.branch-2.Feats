@@ -9,16 +9,16 @@
                                      BIT 0 0 0 0 0 1 0 1 1
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
                                    CARDS 0 0 0 0 0 1 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 1
+                                  SYSTEM 0 1 0 0 0 1 0 1 0
                                 COMPUTER 0 1 0 0 0 1 0 0 0
                                    POWER 0 1 0 0 0 1 0 1 0
-                                  SUPPLY 0 0 0 0 0 1 0 1 0
+                                  SUPPLY 0 0 0 0 0 1 0 1 1
                                      IDE 0 0 0 0 0 0 0 0 0
                               CONTROLLER 0 0 0 0 0 1 0 0 0
                                    DRIVE 0 0 0 0 0 1 0 0 0
                                     DISK 0 0 0 0 0 1 0 0 0
                                     BOOT 0 0 0 0 0 0 0 0 0
-                                    BIOS 0 0 0 0 0 0 0 0 0
+                                    BIOS 0 0 0 0 0 0 0 0 1
                              MOTHERBOARD 0 0 0 0 0 0 0 0 0
                                    &QUOT 0 0 0 0 0 0 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
@@ -30,7 +30,7 @@
                                     USER 0 0 0 0 0 1 0 0 0
                                      BOB 0 1 1 0 0 1 0 0 1
                                  WINDOWS 0 0 0 0 0 1 0 0 0
-                                  BRIDGE 0 1 0 0 0 1 0 1 0
+                                  BRIDGE 0 1 0 0 0 1 0 1 1
                                     SATA 0 0 0 0 0 0 0 0 0
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                                       HD 0 0 1 0 0 0 0 0 0
@@ -77,13 +77,13 @@
                                     PACK 0 0 0 0 0 0 0 0 0
                                  STORAGE 0 0 0 0 0 0 0 0 0
                                     EDGE 0 0 0 0 0 1 0 1 1
-                                     GTS 0 0 0 0 0 0 0 0 0
                                     WATT 0 0 0 0 0 1 0 0 0
                                     SIZE 1 0 0 0 0 1 0 0 0
                                 DISTANCE 0 0 0 0 0 1 0 1 1
+                                     GTS 0 0 0 0 0 0 0 0 0
                                     HOST 0 0 0 0 0 1 0 0 0
                               PROPERTIES 0 0 0 0 0 1 0 0 0
-                                   NOISE 0 0 0 0 0 1 0 1 0
+                                   NOISE 0 0 0 0 0 1 0 1 1
                                     EVGA 0 0 0 0 0 0 0 0 0
                                       CF 0 0 1 0 0 0 0 0 0
                                    CDROM 0 0 0 0 0 0 0 0 0
@@ -108,7 +108,7 @@
                                   SHADOW 0 0 0 0 0 1 0 0 0
                                  RELEASE 1 0 0 0 0 1 0 0 0
                                      LTD 0 0 1 0 0 0 0 0 0
-                                -HENDRIK 0 0 0 0 0 0 0 1 0
+                                -HENDRIK 0 0 0 0 0 0 0 1 1
                                SQUEELING 0 0 0 0 0 0 0 0 0
                                   BLAZIN 0 0 0 0 0 0 0 0 0
                                  HENDRIK 0 0 1 0 0 0 0 0 0

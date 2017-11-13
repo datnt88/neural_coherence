@@ -15,7 +15,7 @@
                                    CARDS 0 0 0 0 0 1 0 1 1
                                       MB 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
-                                    YEAR 0 1 0 0 0 1 0 1 1
+                                    YEAR 0 1 0 0 0 1 0 1 0
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                     MOBO 0 0 0 0 0 0 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 0
@@ -38,7 +38,7 @@
                                      AMD 0 0 0 0 0 1 0 1 1
                                      RAM 0 0 1 0 0 1 0 3 1
                                      PCI 0 0 0 0 0 0 0 0 0
-                                    CASE 0 1 0 0 0 1 0 1 1
+                                    CASE 0 1 0 0 0 1 0 1 0
                                     SIDE 1 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
                                     USES 0 0 0 0 0 1 0 1 1
@@ -75,7 +75,7 @@
                                FRAGMENTS 0 0 0 0 0 1 0 1 1
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 2 1
-                                 THREADS 0 0 0 0 0 1 0 2 1
+                                 THREADS 0 0 0 0 0 1 0 2 0
                                     REST 0 0 0 0 0 1 0 1 1
                                     GAME 0 0 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 2 1
@@ -89,7 +89,7 @@
                                     SLOT 0 0 0 0 0 1 0 1 1
                                  BATTERY 0 0 0 0 0 1 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
-                                     DVD 0 0 0 0 0 1 0 1 0
+                                     DVD 0 0 0 0 0 1 0 1 1
                                    SOUND 0 0 0 0 0 1 0 0 0
                                  SEAGATE 0 0 1 0 0 0 0 0 0
                                       XP 0 0 0 0 0 0 0 1 1
@@ -110,7 +110,7 @@
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                  QUALITY 0 0 0 0 0 1 0 1 1
-                                    HOME 0 0 0 0 0 1 0 1 0
+                                    HOME 0 0 0 0 0 1 0 1 1
                                   OFFICE 0 0 0 0 0 1 0 1 1
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 1 1
@@ -157,10 +157,6 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                     X16 0 0 0 0 0 0 0 1 1
-                                      X1 0 0 0 0 0 0 0 1 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                                WAL-MART 0 0 1 0 0 1 0 0 0
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                                  ANALOGY 0 0 0 0 0 0 0 1 1
@@ -187,6 +183,10 @@
                                    ALTHO 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   STORMS 0 0 0 0 0 1 0 0 1
+                                     X16 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 1 1
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                                WAL-MART 0 0 1 0 0 1 0 0 0
                          TIGERDIRECT.COM 0 0 1 0 0 0 0 0 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1

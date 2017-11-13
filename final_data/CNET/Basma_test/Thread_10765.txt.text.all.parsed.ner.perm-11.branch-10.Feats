@@ -35,22 +35,22 @@
                                      ANY 0 0 0 0 0 0 1 0 1
                                      AMD 0 0 0 0 0 1 0 1 1
                                      RAM 0 0 1 0 0 1 0 3 1
-                                    CASE 0 1 0 0 0 1 0 3 1
+                                    CASE 0 1 0 0 0 1 0 3 0
                                   MEMORY 0 1 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 1 1
                                   NVIDIA 0 0 0 0 0 0 0 0 0
                                      FUN 0 0 0 0 0 1 0 1 1
-                                KEYBOARD 0 0 0 0 0 0 0 1 1
+                                KEYBOARD 0 0 0 0 0 0 0 1 0
                                     MORE 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
                                 WIRELESS 0 0 1 0 0 0 0 0 0
                                       OS 0 0 0 0 0 0 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 0
+                                 WINDOWS 0 0 0 0 0 1 0 1 1
                                   AROUND 0 0 0 0 0 0 0 1 1
                                   GAMING 0 0 0 0 0 0 0 0 1
                                      OWN 0 0 0 0 0 0 1 1 1
-                                   MOUSE 0 0 0 0 0 1 0 2 1
+                                   MOUSE 0 0 0 0 0 1 0 2 0
                                      CPU 0 0 0 0 0 0 0 1 1
                                    INTEL 0 0 1 0 0 1 0 0 0
                                      GPU 0 0 0 0 0 0 0 1 1
@@ -61,7 +61,7 @@
                                    PRICE 0 1 0 0 0 1 0 1 1
                                   CHOICE 0 0 0 0 0 1 0 1 0
                                     BEST 0 0 0 0 0 0 1 1 1
-                                   PARTS 1 0 0 0 0 1 0 1 0
+                                   PARTS 1 0 0 0 0 1 0 1 1
                                FRAGMENTS 0 0 0 0 0 1 0 0 0
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 1 1
@@ -77,9 +77,9 @@
                                  BATTERY 0 0 0 0 0 1 0 1 1
                                     CANT 0 0 0 0 0 0 0 0 1
                               COMPONENTS 0 0 0 0 0 1 0 2 1
-                                     DVD 0 0 0 0 0 1 0 1 1
+                                     DVD 0 0 0 0 0 1 0 1 0
                                    SOUND 0 0 0 0 0 1 0 0 0
-                                  ATHLON 0 0 0 0 0 0 0 1 1
+                                  ATHLON 0 0 0 0 0 0 0 1 0
                                       XP 0 0 0 0 0 0 0 1 1
                                     DONT 0 0 0 0 0 0 0 1 1
                                   AMOUNT 0 0 0 0 0 1 0 1 1
@@ -122,7 +122,7 @@
                                   CUSTOM 0 0 0 0 0 0 0 0 0
                                     SITE 0 0 0 0 0 1 0 1 1
                                      DUO 0 0 0 0 0 1 0 0 0
-                            MOTHERBOARDS 0 0 0 0 0 0 0 1 0
+                            MOTHERBOARDS 0 0 0 0 0 0 0 1 1
                                      PCS 0 0 0 0 0 1 0 1 1
                                  EDITING 0 0 0 0 0 1 0 1 1
                                  MEASURE 0 0 0 0 0 1 0 1 1
@@ -138,15 +138,11 @@
                                  WALMART 0 0 1 0 0 0 0 0 0
                                  MUSTANG 0 0 0 0 0 1 0 1 1
                                    COSTS 0 0 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 0 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                                WAL-MART 0 0 1 0 0 1 0 0 0
-                                    LOTS 0 0 0 0 0 1 0 1 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 0 1
                                 SUPPLIES 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 1 1
                                       MG 0 0 0 0 0 0 0 0 0
@@ -160,6 +156,12 @@
                                 FINDINGS 0 0 0 0 0 1 0 1 1
                                 BARNYARD 0 0 0 0 0 0 0 0 0
                                    ALTHO 0 0 0 0 0 0 0 2 1
+                               EVOLUTION 0 0 0 0 0 1 0 1 1
+                               NORTHLITE 0 0 1 0 0 0 0 0 1
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                                WAL-MART 0 0 1 0 0 1 0 0 0
+                                    LOTS 0 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1
@@ -173,5 +175,3 @@
                                DUAL-CORE 0 0 0 0 0 0 0 0 0
                                    6000+ 0 0 0 0 0 0 0 2 1
                                  600-800 0 0 0 7 0 0 0 1 1
-                               NORTHLITE 0 0 1 0 0 0 0 0 1
-                               EVOLUTION 0 0 0 0 0 1 0 1 1

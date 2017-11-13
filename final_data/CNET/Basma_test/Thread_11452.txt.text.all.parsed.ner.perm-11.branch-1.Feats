@@ -7,7 +7,7 @@
                                    SPEED 0 0 0 0 0 1 0 1 1
                                    THESE 0 0 0 0 0 0 1 0 1
                                       MB 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 1
+                                  SYSTEM 0 1 0 0 0 1 0 1 0
                                 HARDWARE 0 0 0 0 0 0 0 0 0
                                 COMPUTER 0 1 0 0 0 1 0 0 0
                                   DRIVES 0 0 0 0 0 1 0 0 0
@@ -30,7 +30,7 @@
                                    &QUOT 0 0 0 0 0 0 0 2 1
                                   STICKS 0 0 0 0 0 1 0 1 1
                                      RAM 0 0 1 0 0 1 0 1 1
-                                     PCI 0 0 0 0 0 0 0 2 0
+                                     PCI 0 0 0 0 0 0 0 2 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
                                   NVIDIA 0 0 0 0 0 0 0 0 0
                                      1GB 0 0 0 0 0 0 0 1 1
@@ -69,7 +69,7 @@
                                  NETWORK 0 0 0 0 0 1 0 0 0
                                     HELP 0 0 0 0 0 1 0 1 1
                                  ANSWERS 0 1 0 0 0 1 0 1 1
-                                 PRODUCT 0 1 0 0 0 1 0 2 1
+                                 PRODUCT 0 1 0 0 0 1 0 2 0
                                     PORT 0 0 0 0 0 1 0 0 0
                                     SUCH 0 0 0 0 0 0 1 1 1
                                   ACCESS 0 0 0 0 0 1 0 0 0
@@ -79,7 +79,7 @@
                                   LETTER 0 0 0 0 0 1 0 0 0
                                   MASTER 0 0 0 0 0 1 0 0 0
                                  DEFAULT 0 0 0 0 0 1 0 0 0
-                                   BOARD 0 1 0 0 0 1 0 1 0
+                                   BOARD 0 1 0 0 0 1 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                     NONE 0 0 0 0 0 1 0 0 0
                             MANUFACTURER 0 0 0 0 0 1 0 3 1
@@ -92,9 +92,9 @@
                                  JUMPERS 0 0 0 0 0 0 0 0 0
                                     LUCK 0 0 0 0 0 1 0 1 1
                                    SHOPS 0 0 0 0 0 1 0 1 1
-                                REVISION 0 0 0 0 0 1 0 3 1
+                                REVISION 0 0 0 0 0 1 0 3 0
                                   BOARDS 0 0 0 0 0 1 0 1 1
-                                    TEST 0 1 0 0 0 1 0 3 1
+                                    TEST 0 1 0 0 0 1 0 3 0
                                    MAKER 0 1 0 0 0 1 0 1 1
                                  CAPTURE 0 0 0 0 0 0 0 1 1
                                        G 0 0 1 0 0 1 0 0 0
@@ -102,22 +102,22 @@
                                      SUB 0 0 0 0 0 0 0 0 0
                                        C 0 0 1 0 0 1 0 0 0
                                 COMMANDS 0 0 0 0 0 1 0 2 0
-                                   STATE 0 1 0 0 0 1 0 2 1
+                                   STATE 0 1 0 0 0 1 0 2 0
                                   VOLUME 0 0 0 0 0 1 0 0 0
                                    WORDS 0 1 0 0 0 1 0 1 1
                               CAPABILITY 0 0 0 0 0 1 0 0 0
                                     PACK 0 0 0 0 0 0 0 0 0
                                        R 0 0 0 0 0 0 0 0 0
                                      SIR 0 0 1 0 0 1 0 0 0
-                                     KIT 0 0 0 0 0 1 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 1 1
                                     SIZE 1 0 0 0 0 1 0 0 0
                                     BANK 0 1 0 0 0 1 0 0 0
+                                     KIT 0 0 0 0 0 1 0 1 1
                                 PROBLEM. 0 0 0 0 0 0 0 1 1
                                     HOST 0 0 0 0 0 1 0 1 1
                             GENERIC&QUOT 0 0 0 0 0 0 0 0 1
-                               TRANSFERS 0 0 0 0 0 1 0 1 0
+                               TRANSFERS 0 0 0 0 0 1 0 1 1
                                  ADDRESS 0 0 0 0 0 1 0 0 0
                                    TRANS 0 0 1 0 0 0 0 0 0
                                      BUS 0 0 0 0 0 1 0 0 0
@@ -128,7 +128,7 @@
                                      NEC 0 1 1 0 0 1 0 2 1
                                INSPECTOR 0 0 0 0 0 1 0 0 0
                                 LANGUAGE 0 0 0 0 0 1 0 0 0
-                                    LABS 0 0 0 0 0 1 0 1 0
+                                    LABS 0 0 0 0 0 1 0 1 1
                                    AWARD 0 0 0 0 0 1 0 0 0
                                      PGM 0 0 1 0 0 0 0 1 1
                                     31GB 0 0 0 0 0 0 0 1 1
@@ -139,7 +139,7 @@
                                    VOLUM 0 0 0 0 0 0 0 0 0
                                     NTFS 0 0 0 0 0 0 0 0 0
                             THRUSTMAPPER 0 0 0 0 0 0 0 0 0
-                              MULTIMEDIA 0 0 0 0 0 0 0 0 1
+                              MULTIMEDIA 0 0 0 0 0 0 0 0 0
                            5.1.2600.1106 0 0 0 0 0 0 0 1 1
                                      N/A 0 0 0 0 0 0 0 0 0
                                       B1 0 0 0 0 0 0 0 0 1
@@ -149,8 +149,8 @@
                                    0X36E 0 0 0 0 0 0 0 1 1
                                 SUBCLASS 0 0 0 0 0 0 0 0 0
                                BUSMASTER 0 0 0 0 0 0 0 0 0
-                                  STATUS 0 0 0 0 0 1 0 3 1
-                                  TIMING 0 0 0 0 0 1 0 1 1
+                                  STATUS 0 0 0 0 0 1 0 3 0
+                                  TIMING 0 0 0 0 0 1 0 1 0
                                   HEADER 0 0 0 0 0 0 0 0 0
                                  LATENCY 0 0 0 0 0 0 0 0 0
                                      INC 0 0 1 0 0 0 0 0 0

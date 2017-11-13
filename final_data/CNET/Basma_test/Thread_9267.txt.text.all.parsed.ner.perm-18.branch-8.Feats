@@ -9,13 +9,13 @@
                                    SPEED 0 0 0 0 0 1 0 1 1
                                       MB 0 0 0 0 0 0 0 1 1
                                  UPGRADE 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 0
+                                  SYSTEM 0 1 0 0 0 1 0 1 1
                                     YEAR 0 1 0 0 0 1 0 1 1
-                                    MOBO 0 0 0 0 0 0 0 1 0
+                                    MOBO 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 1 1
-                                     ONE 0 0 0 0 0 1 0 1 0
-                                   DRIVE 0 0 0 0 0 1 0 2 0
+                                     ONE 0 0 0 0 0 1 0 1 1
+                                   DRIVE 0 0 0 0 0 1 0 2 1
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 1 1
                                     DISK 0 0 0 0 0 1 0 1 1
@@ -29,21 +29,21 @@
                                 ANYTHING 0 0 0 0 0 1 0 0 1
                                   MATTER 0 0 0 0 0 1 0 0 0
                                    &QUOT 0 0 0 0 0 0 0 2 1
-                                    DUST 0 0 0 0 0 1 0 1 1
+                                    DUST 0 0 0 0 0 1 0 1 0
                                  BUNNIES 0 0 0 0 0 0 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                  DRIVERS 0 1 0 0 0 1 0 1 1
-                                     AMD 0 0 0 0 0 1 0 2 1
+                                     AMD 0 0 0 0 0 1 0 2 0
                                       CD 0 0 0 0 0 1 0 1 1
                                      RAM 0 0 1 0 0 1 0 0 0
-                                    FANS 0 0 0 0 0 1 0 1 0
+                                    FANS 0 0 0 0 0 1 0 1 1
                                   INTAKE 0 0 0 0 0 0 0 0 0
                                    FRONT 0 0 0 0 0 1 0 1 1
                                     SIDE 1 0 0 0 0 1 0 0 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                       .. 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 2 0
-                                  THINGS 0 0 0 0 0 1 0 1 1
+                                  THINGS 0 0 0 0 0 1 0 1 0
                               CONNECTION 0 0 0 0 0 1 0 1 1
                                    MONTH 1 1 0 0 0 1 0 1 1
                            CONFIGURATION 0 0 0 0 0 0 0 1 1
@@ -69,7 +69,7 @@
                                PROCESSOR 0 0 0 0 0 0 0 1 1
                                   SOCKET 0 0 0 0 0 0 0 2 1
                                      BUY 0 0 0 0 0 0 0 1 1
-                              PROCESSORS 0 0 0 0 0 1 0 1 0
+                              PROCESSORS 0 0 0 0 0 1 0 1 1
                                    WRONG 0 0 0 0 0 0 1 1 1
                                  PENTIUM 0 0 0 0 0 0 0 1 1
                                   CD-ROM 0 0 0 0 0 1 0 0 0
@@ -78,7 +78,7 @@
                                      FSB 0 0 0 0 0 0 0 1 1
                                    SDRAM 0 0 0 0 0 0 0 2 1
                                    THATS 0 0 0 0 0 0 0 1 1
-                                  ATHLON 0 0 0 0 0 0 0 1 1
+                                  ATHLON 0 0 0 0 0 0 0 1 0
                                       XP 0 0 0 0 0 0 0 0 1
                                  WEBSITE 0 0 0 0 0 0 0 1 1
                                    ISSUE 0 1 0 0 0 1 0 1 1
@@ -116,7 +116,7 @@
                                     INFO 0 0 0 0 0 0 0 1 1
                                     HOUR 0 0 0 0 0 1 0 1 1
                                    NIGHT 1 0 0 5 0 1 0 1 1
-                                   METAL 0 0 0 0 0 1 0 0 1
+                                   METAL 0 0 0 0 0 1 0 0 0
                                      ATA 0 0 1 0 0 0 0 1 1
                                      DAY 0 1 0 0 0 1 0 1 1
                               CONNECTORS 0 0 0 0 0 0 0 1 1
@@ -125,7 +125,7 @@
                                   INSERT 0 0 0 0 0 0 1 0 0
                                     FEET 0 0 0 0 0 1 0 1 1
                              SCREWDRIVER 0 0 0 0 0 0 0 1 1
-                                   SPACE 0 0 0 0 0 1 0 1 1
+                                   SPACE 0 0 0 0 0 1 0 1 0
                                   SEARCH 0 0 0 0 0 1 0 1 1
                                   BELARC 0 0 0 0 0 0 0 0 0
                                    MAKER 0 1 0 0 0 1 0 1 1
@@ -143,10 +143,10 @@
                                  SPYWARE 0 0 0 0 0 0 0 0 0
                                  MALWARE 0 0 0 0 0 0 0 0 0
                                   COMPAQ 0 0 1 0 0 1 0 0 0
-                                CAPACITY 0 0 0 0 0 1 0 1 0
-                                      X1 0 0 0 0 0 0 0 1 1
+                                CAPACITY 0 0 0 0 0 1 0 1 1
                                     LACK 0 0 0 0 0 1 0 1 1
                                     SIZE 1 0 0 0 0 1 0 1 1
+                                      X1 0 0 0 0 0 0 0 1 1
                                       X2 0 0 0 0 0 0 0 1 1
                                    -RSB- 0 0 0 0 0 0 0 2 1
                                    WITCH 0 0 0 0 0 0 0 1 1

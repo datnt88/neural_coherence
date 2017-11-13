@@ -7,7 +7,7 @@
                                   ANSWER 0 0 0 0 0 1 0 1 1
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 0 0
-                                HARDWARE 0 0 0 0 0 0 0 1 0
+                                HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                     KILL 0 0 0 0 0 0 1 0 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
@@ -24,7 +24,7 @@
                                     THIS 0 0 0 0 0 1 0 0 1
                                      USB 0 0 0 0 0 0 0 1 1
                                    PORTS 0 0 0 0 0 1 0 1 1
-                                      PC 0 0 0 0 0 1 0 1 1
+                                      PC 0 0 0 0 0 1 0 1 0
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                     LINK 0 0 0 0 0 1 0 1 1
                                    WHILE 0 0 0 0 0 1 0 1 1
@@ -48,11 +48,11 @@
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                       OS 0 0 0 0 0 0 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 1
+                                 WINDOWS 0 0 0 0 0 1 0 1 0
                                  DESKTOP 0 0 0 0 0 0 1 1 1
-                             PERFORMANCE 1 1 0 0 0 1 0 0 0
+                             PERFORMANCE 1 1 0 0 0 1 0 0 1
                                     PART 1 0 0 0 0 1 0 1 1
-                                      HD 0 0 1 0 0 0 0 1 1
+                                      HD 0 0 1 0 0 0 0 1 0
                                     LESS 0 0 0 0 0 0 0 1 1
                                   EITHER 0 0 0 0 0 0 0 0 1
                                    MODEL 0 0 0 0 0 1 0 1 1
@@ -84,7 +84,7 @@
                                    FILES 0 0 0 0 0 1 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 1 1
                                UTILITIES 0 0 0 0 0 1 0 1 1
-                                   VIRUS 0 0 0 0 0 1 0 1 1
+                                   VIRUS 0 0 0 0 0 1 0 1 0
                                       VS 0 0 1 0 0 0 1 1 1
                                   OPTION 0 0 0 0 0 1 0 1 1
                               EXPERIENCE 0 0 0 0 0 1 0 1 1
@@ -114,7 +114,7 @@
                                    SENSE 0 0 0 0 0 1 0 1 1
                                   METHOD 0 0 0 0 0 1 0 2 1
                                      HOT 0 0 0 0 0 0 0 1 1
-                                       C 0 0 1 0 0 1 0 1 0
+                                       C 0 0 0 0 0 1 0 1 1
                                 SECURITY 0 0 0 0 0 1 0 1 1
                                  VIRUSES 0 0 0 0 0 1 0 0 1
                                  MALWARE 0 0 0 0 0 0 0 0 1
@@ -122,9 +122,9 @@
                                    CLOCK 0 0 0 0 0 1 0 1 1
                                     VIEW 0 1 0 0 0 1 0 1 1
                                 CAPACITY 0 0 0 0 0 1 0 0 0
-                                 STORIES 0 0 0 0 0 1 0 1 1
                                     SIZE 1 0 0 0 0 1 0 1 1
                             REQUIREMENTS 0 0 0 0 0 1 0 1 1
+                                 STORIES 0 0 0 0 0 1 0 1 1
                                    500GB 0 0 0 0 0 0 0 1 1
                                     ICON 0 0 0 0 0 1 0 1 1
                                        M 0 0 1 0 0 1 0 0 0
@@ -141,8 +141,8 @@
                                    AFAIK 0 0 1 0 0 0 0 1 1
                                   USB2.0 0 0 0 0 0 0 0 0 1
                                EXTERNALS 0 0 0 0 0 0 0 1 1
-                               EXPERTISE 0 0 0 0 0 0 0 1 1
                                     HDDS 0 0 0 0 0 0 0 1 1
+                               EXPERTISE 0 0 0 0 0 0 0 1 1
                                  FORMATS 0 0 0 0 0 0 0 1 1
                                  SHUFFLE 0 0 0 0 0 0 0 0 1
                                 OFF&QUOT 0 0 0 0 0 0 0 0 1
@@ -165,18 +165,18 @@
                                   MYBOOK 0 0 0 0 0 0 0 1 1
                                 PROPERTY 0 0 0 0 0 1 0 0 1
                                 BEARINGS 0 0 0 0 0 0 0 0 1
-                               INFECTION 0 0 0 0 0 1 0 1 1
+                               INFECTION 0 0 0 0 0 1 0 1 0
                                   ATTACK 0 0 0 0 0 1 0 1 1
-                              DOWNGRADES 0 0 0 0 0 0 0 0 0
-                                    NFTS 0 0 0 0 0 0 0 1 1
-                                  LAYMAN 0 0 0 0 0 0 0 1 1
-                                  SIZES. 0 0 0 0 0 0 0 1 1
-                                    30MB 0 0 0 0 0 0 0 1 1
-                                    5MIN 0 0 0 0 0 0 0 0 1
-                             PERSPECTIVE 0 0 0 0 0 1 0 1 1
                                       DG 0 0 1 0 0 0 0 0 1
                                  POOREST 0 0 0 0 0 0 1 1 1
                                UTITILITY 0 0 0 0 0 0 0 0 0
                                    GUAGE 0 0 0 0 0 0 0 1 1
                                    -OSES 0 0 0 0 0 0 0 1 1
                                PENDRIVES 0 0 0 0 0 0 0 0 1
+                                    NFTS 0 0 0 0 0 0 0 1 1
+                              DOWNGRADES 0 0 0 0 0 0 0 0 0
+                                  LAYMAN 0 0 0 0 0 0 0 1 1
+                                  SIZES. 0 0 0 0 0 0 0 1 1
+                                    30MB 0 0 0 0 0 0 0 1 1
+                                    5MIN 0 0 0 0 0 0 0 0 1
+                             PERSPECTIVE 0 0 0 0 0 1 0 1 1

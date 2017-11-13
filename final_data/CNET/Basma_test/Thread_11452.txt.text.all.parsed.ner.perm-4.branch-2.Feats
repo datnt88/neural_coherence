@@ -15,7 +15,7 @@
                                   DRIVES 0 0 0 0 0 1 0 0 0
                                    POWER 0 1 0 0 0 1 0 0 0
                                      IDE 0 0 0 0 0 0 0 0 0
-                              CONTROLLER 0 0 0 0 0 1 0 1 0
+                              CONTROLLER 0 0 0 0 0 1 0 1 1
                                     SELF 0 0 0 0 0 1 0 0 0
                                   ERRORS 0 1 0 0 0 1 0 0 0
                                      ONE 0 0 0 0 0 1 0 0 1
@@ -49,7 +49,7 @@
                                   GAMING 0 0 0 0 0 0 0 0 0
                                  GENERAL 0 1 0 0 0 1 0 0 0
                                   BRIDGE 0 1 0 0 0 1 0 0 0
-                                   INTEL 0 0 0 0 0 1 0 0 0
+                                   INTEL 0 0 1 0 0 1 0 0 0
                                      III 0 0 1 0 0 1 0 0 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                  CHIPSET 0 0 0 0 0 0 0 0 0
@@ -59,7 +59,7 @@
                                  PENTIUM 0 0 0 0 0 0 0 0 0
                               COMPONENTS 0 0 0 0 0 1 0 1 1
                               MANAGEMENT 0 1 0 0 0 1 0 0 0
-                                CREATIVE 0 0 0 0 0 0 0 0 1
+                                CREATIVE 0 0 0 0 0 0 0 0 0
                                  WEBSITE 0 0 0 0 0 0 0 1 1
                                  DISPLAY 0 0 0 0 0 1 0 0 0
                                    ISSUE 0 1 0 0 0 1 0 1 1
@@ -88,7 +88,7 @@
                                  JUMPERS 0 0 0 0 0 0 0 0 0
                                    SHOPS 0 0 0 0 0 1 0 1 1
                                    SPACE 0 0 0 0 0 1 0 2 1
-                                REVISION 0 0 0 0 0 1 0 1 1
+                                REVISION 0 0 0 0 0 1 0 1 0
                                     TEST 0 1 0 0 0 1 0 1 0
                                      CAS 0 0 0 0 0 0 0 0 0
                                   SERIAL 0 0 0 0 0 0 0 0 0
@@ -110,11 +110,11 @@
                                  STORAGE 0 0 0 0 0 0 0 0 0
                                  PORTION 0 0 0 0 0 1 0 1 1
                                INTERFACE 0 0 0 0 0 1 0 0 0
-                                SUPPORTS 0 0 0 0 0 0 0 0 0
-                                     KIT 0 0 0 0 0 1 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 1 1
                                     SIZE 1 0 0 0 0 1 0 0 0
+                                SUPPORTS 0 0 0 0 0 0 0 0 0
+                                     KIT 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 0 0
                                 PROBLEM. 0 0 0 0 0 0 0 1 1
                                     HOST 0 0 0 0 0 1 0 1 0
@@ -129,7 +129,7 @@
                                  MANUALS 0 0 0 0 0 1 0 1 1
                                      NEC 0 1 0 0 0 1 0 1 0
                                 LANGUAGE 0 0 0 0 0 1 0 0 0
-                                    LABS 0 0 0 0 0 1 0 1 1
+                                    LABS 0 0 0 0 0 1 0 1 0
                                    AWARD 0 0 0 0 0 1 0 0 0
                               COPPERMINE 0 0 0 0 0 0 0 0 0
                                    VOLUM 0 0 0 0 0 0 0 0 0

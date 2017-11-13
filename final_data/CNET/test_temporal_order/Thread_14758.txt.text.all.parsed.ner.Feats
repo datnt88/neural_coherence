@@ -24,7 +24,7 @@
                                 HARDWARE 0 0 0 0 0 0 0 2 1
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                    POWER 0 1 0 0 0 1 0 1 0
-                                  SUPPLY 0 0 0 0 0 1 0 3 0
+                                  SUPPLY 0 0 0 0 0 1 0 3 1
                                   ERRORS 0 1 0 0 0 1 0 1 1
                                    WEEKS 0 0 0 0 0 1 0 1 1
                                     THEN 0 0 0 0 0 0 1 0 1
@@ -65,7 +65,7 @@
                                      AMD 0 0 0 0 0 1 0 0 0
                                       CD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 1 1
-                                     RAM 0 0 1 0 0 1 0 1 1
+                                     RAM 0 0 1 0 0 1 0 1 0
                                     CASE 0 1 0 0 0 1 0 1 1
                                     FANS 0 0 0 0 0 1 0 0 1
                                     IDEA 0 0 0 0 0 1 0 1 1
@@ -119,8 +119,8 @@
                                       1. 0 0 0 0 0 0 0 1 1
                                    CABLE 0 0 0 0 0 1 0 0 0
                                  COOLING 0 0 0 0 0 0 0 1 1
-                                   SOUND 0 0 0 0 0 1 0 1 0
-                                 BLASTER 0 0 0 0 0 0 0 1 1
+                                   SOUND 0 0 0 0 0 1 0 1 1
+                                 BLASTER 0 0 0 0 0 0 0 1 0
                                   AUDIGY 0 0 0 0 0 0 0 1 1
                                       OK 0 0 0 0 0 0 1 1 1
                                   SOUNDS 0 0 0 0 0 1 0 0 1
@@ -149,7 +149,7 @@
                                     EACH 0 0 0 0 0 0 1 1 1
                                  RUNNING 0 0 0 0 0 0 0 1 1
                                    CARD. 0 0 0 0 0 0 0 1 1
-                                  DRIVER 0 0 0 0 0 1 0 2 0
+                                  DRIVER 0 0 0 0 0 1 0 2 1
                                     LOAD 0 0 0 0 0 0 0 1 1
                                   COOLER 0 0 0 0 0 0 0 1 1
                                     ABIT 0 0 1 0 0 0 0 1 1
@@ -171,7 +171,7 @@
                                    FILES 0 0 0 0 0 1 0 1 1
                                    BOARD 0 1 0 0 0 1 0 2 0
                                    TOTAL 0 0 0 0 0 1 0 1 1
-                                   VIRUS 0 0 0 0 0 1 0 2 0
+                                   VIRUS 0 0 0 0 0 1 0 2 1
                                EMACHINES 0 0 0 0 0 0 0 2 1
                                     NONE 0 0 0 0 0 1 0 1 1
                                    STUFF 0 0 0 0 0 1 0 1 1
@@ -190,7 +190,7 @@
                                  STARTUP 0 0 0 0 0 0 0 0 1
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
                                  SECONDS 0 0 0 0 0 1 0 1 1
-                                       % 1 1 0 0 0 0 0 1 0
+                                       % 1 1 0 4 0 0 0 1 1
                                   SUDDEN 0 0 0 0 0 0 1 1 1
                                SITUATION 0 1 0 0 0 1 0 1 1
                                    2800+ 0 0 0 0 0 0 0 1 1
@@ -214,7 +214,7 @@
                                  MINUTES 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                   SPIKES 0 0 0 0 0 1 0 1 1
-                                  ISSUES 0 0 0 0 0 1 0 2 1
+                                  ISSUES 0 0 0 0 0 1 0 2 0
                                     HALO 0 0 0 0 0 0 0 0 0
                            MANUFACTURERS 0 1 0 0 0 1 0 1 1
                                  UTILITY 0 0 0 0 0 1 0 1 1
@@ -234,7 +234,7 @@
                                      SIR 0 0 1 0 0 1 0 0 0
                                   DAMAGE 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
-                                SUPPLIES 0 0 0 0 0 1 0 1 0
+                                SUPPLIES 0 0 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
                                  SEMPRON 0 0 0 0 0 0 0 0 0
@@ -268,7 +268,7 @@
                                     JACK 0 0 1 0 0 1 0 0 0
                                      IRQ 0 0 0 0 0 0 0 1 1
                                      ME. 0 0 0 0 0 0 1 0 1
-                                 WATTAGE 0 0 0 0 0 0 0 1 1
+                                 WATTAGE 0 0 0 0 0 0 0 1 0
                                    SURGE 0 0 0 0 0 1 0 1 1
                                PROTECTOR 0 0 0 0 0 0 0 1 1
                                   CYCLES 0 0 0 0 0 1 0 1 1
@@ -315,7 +315,7 @@
                                    JOHNS 0 0 1 0 0 1 0 0 0
                                   ITKIND 0 0 0 0 0 0 0 1 1
                                   POWEER 0 0 0 0 0 0 0 0 0
-                                   FRANC 0 0 0 0 0 0 0 0 1
+                                   FRANC 0 0 0 0 0 0 0 0 0
                               MICROSOFTS 0 0 0 0 0 0 0 1 1
                                ATTENTION 0 0 0 0 0 1 0 1 1
                                    TRIAL 0 1 0 0 0 1 0 0 0
@@ -347,7 +347,7 @@
                                UNDERVOLT 0 0 0 0 0 0 0 0 0
                                TOLERANCE 0 0 0 0 0 0 0 0 0
                                  HANDFUL 0 0 0 0 0 1 0 1 1
-                                  FCC-ID 0 0 0 0 0 0 0 1 1
+                                  FCC-ID 0 0 0 0 0 0 0 1 0
                              REVIEW&QUOT 0 0 0 0 0 0 0 0 1
                               MAINBOARDS 0 0 0 0 0 0 0 1 1
                                     OOSE 0 0 0 0 0 0 0 0 0

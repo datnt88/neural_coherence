@@ -6,8 +6,8 @@
                                      BIT 0 0 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
                                      IDE 0 0 0 0 0 0 0 1 1
-                                   DRIVE 0 0 0 0 0 1 0 1 1
-                                    DISK 0 0 0 0 0 1 0 1 1
+                                   DRIVE 0 0 0 0 0 1 0 1 0
+                                    DISK 0 0 0 0 0 1 0 1 0
                                    MUSIC 0 0 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
@@ -50,7 +50,7 @@
                                  UTILITY 0 0 0 0 0 1 0 1 1
                                        C 0 0 1 0 0 1 0 0 0
                                     JOHN 0 0 1 0 0 1 0 0 1
-                                    SIZE 1 0 0 0 0 1 0 1 0
+                                    SIZE 1 0 0 0 0 1 0 1 1
                                       P3 0 0 0 0 0 0 0 1 1
                                  MAXIMUM 0 0 0 0 0 0 0 0 0
                                   LARGER 0 0 0 0 0 0 0 1 1
@@ -58,10 +58,6 @@
                                     HAIR 0 0 0 0 0 1 0 1 1
                                  FUJITSU 0 1 1 0 0 0 0 0 0
                                  SIEMENS 0 0 1 0 0 0 0 0 0
-                         DEFRAGMENTATION 0 0 0 0 0 0 0 0 0
-                                 CEILING 0 1 0 0 0 1 0 1 1
-                                   ROOTS 0 0 0 0 0 1 0 1 1
-                                    .TMP 0 0 0 0 0 0 0 1 1
                                     .WAV 0 0 0 0 0 0 0 0 1
                               WORSHIPERS 0 0 0 0 0 1 0 1 1
                                    HAVEN 0 0 0 0 0 1 0 1 1
@@ -69,3 +65,7 @@
                                    CD-RS 0 0 0 0 0 0 0 0 1
                                DEFRAGGER 0 0 0 0 0 0 0 1 1
                              PERFECTDISK 0 0 0 0 0 0 0 1 1
+                         DEFRAGMENTATION 0 0 0 0 0 0 0 0 0
+                                 CEILING 0 1 0 0 0 1 0 1 1
+                                   ROOTS 0 0 0 0 0 1 0 1 1
+                                    .TMP 0 0 0 0 0 0 0 1 1

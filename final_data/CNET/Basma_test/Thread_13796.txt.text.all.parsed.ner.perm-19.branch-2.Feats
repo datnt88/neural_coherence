@@ -12,7 +12,7 @@
                                      ANY 0 0 0 0 0 0 1 1 1
                                     BOTH 0 0 0 0 0 0 1 1 1
                                    THING 0 0 0 0 0 1 0 1 1
-                              CONNECTION 0 0 0 0 0 1 0 3 0
+                              CONNECTION 0 0 0 0 0 1 0 3 1
                                    MODEM 0 0 0 0 0 1 0 1 1
                                     USER 0 0 0 0 0 1 0 0 0
                                      SAY 0 0 0 0 0 0 0 1 1
@@ -26,13 +26,13 @@
                                     AREA 0 0 0 0 0 1 0 0 0
                                       1. 0 0 0 0 0 0 0 0 1
                                 ETHERNET 0 0 0 0 0 0 0 0 0
-                                 ADAPTER 0 0 0 0 0 0 0 2 0
+                                 ADAPTER 0 0 0 0 0 0 0 2 1
                                     DONT 0 0 0 0 0 0 0 0 0
                                     ONES 0 0 0 0 0 1 0 0 0
                                  LINKSYS 0 0 0 0 0 0 0 0 0
-                                  ROUTER 0 0 0 0 0 0 0 1 1
+                                  ROUTER 0 0 0 0 0 0 0 1 0
                                 INTERNET 0 0 0 0 0 1 0 1 1
-                                  DOESNT 0 0 0 0 0 0 0 1 0
+                                  DOESNT 0 0 0 0 0 0 0 1 1
                                    SETUP 0 0 0 0 0 0 0 0 0
                                  NETWORK 0 0 0 0 0 1 0 0 0
                                    GUIDE 0 0 0 0 0 1 0 0 0
@@ -54,7 +54,7 @@
                                     FOLL 0 0 0 0 0 0 0 1 1
                                      WEP 0 0 0 0 0 0 0 1 1
                                      NAT 0 0 0 0 0 0 0 0 0
-                                 GATEWAY 0 0 0 0 0 0 0 2 0
+                                 GATEWAY 0 0 0 0 0 0 0 2 1
                                 NOTEBOOK 0 0 0 0 0 0 0 0 0
                                   OTHERS 0 0 0 0 0 1 0 1 1
                                    RESET 0 0 0 0 0 0 0 0 0
@@ -70,13 +70,13 @@
                                   SUBNET 0 0 0 0 0 0 0 0 0
                                     MASK 0 0 0 0 0 1 0 2 1
                                 IPCONFIG 0 0 0 0 0 0 0 1 1
-                                     N/A 0 0 0 0 0 0 0 0 0
+                                     N/A 0 0 0 0 0 0 0 0 1
                                   STATUS 0 0 0 0 0 1 0 3 1
                                   SUFFIX 0 0 0 0 0 0 0 2 1
                                       :: 0 0 0 0 0 0 0 2 1
                                    G604T 0 0 0 0 0 0 0 0 1
                                VICEVERSA 0 0 0 0 0 0 0 1 1
-                                    PVC0 0 0 0 0 0 0 0 0 1
+                                    PVC0 0 0 0 0 0 0 0 0 0
                                 20E:7FFF 0 0 0 0 0 0 0 1 1
                                 290:4BFF 0 0 0 0 0 0 0 1 1
                                   TEREDO 0 0 0 0 0 0 0 0 0

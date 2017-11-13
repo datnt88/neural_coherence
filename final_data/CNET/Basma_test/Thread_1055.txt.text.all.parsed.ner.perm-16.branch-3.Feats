@@ -19,7 +19,7 @@
                                      ONE 0 0 0 0 0 1 0 1 0
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 3 1
-                                 NOTHING 0 0 0 0 0 1 0 1 0
+                                 NOTHING 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                      NOW 0 0 0 0 0 0 0 0 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
@@ -47,9 +47,9 @@
                                       .. 0 0 0 0 0 1 0 0 1
                               CONNECTION 0 0 0 0 0 1 0 1 1
                                       3G 0 0 0 0 0 0 0 1 1
-                                   MODEM 0 0 0 0 0 1 0 3 0
+                                   MODEM 0 0 0 0 0 1 0 3 1
                                     HERE 0 0 0 0 0 0 1 0 1
-                                  DEVICE 0 0 0 0 0 1 0 3 0
+                                  DEVICE 0 0 0 0 0 1 0 3 1
                                   ANYONE 0 0 0 0 0 1 0 0 1
                            CONFIGURATION 0 0 0 0 0 0 0 1 1
                                     WORK 0 0 0 0 0 1 0 1 1
@@ -119,7 +119,7 @@
                                      DSL 0 0 0 0 0 0 0 0 0
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
                                     MODE 0 0 0 0 0 1 0 1 1
-                                     LAN 0 0 0 0 0 0 0 1 1
+                                     LAN 0 0 0 0 0 0 0 1 0
                                     WORD 0 0 0 0 0 1 0 1 1
                                    IDEAS 0 0 0 0 0 1 0 1 1
                                  DETAILS 0 0 0 0 0 1 0 1 1
@@ -137,10 +137,10 @@
                                     NONE 0 0 0 0 0 1 0 1 1
                                    STUFF 0 0 0 0 0 1 0 1 1
                            UNDERSTANDING 0 0 0 0 0 1 0 2 1
-                                 RESULTS 1 1 0 0 0 1 0 1 1
+                                 RESULTS 1 1 0 0 0 1 0 1 0
                                     WEEK 1 0 0 0 0 1 0 1 1
                                       3. 0 0 0 0 0 0 0 0 1
-                                   NIGHT 1 0 0 0 0 1 0 1 1
+                                   NIGHT 1 0 0 5 0 1 0 1 1
                                     GEAR 0 0 0 0 0 1 0 2 1
                                    STORE 0 0 0 0 0 1 0 1 1
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
@@ -149,7 +149,7 @@
                                   CABLES 0 0 0 0 0 1 0 1 1
                               TECHNICIAN 0 0 0 0 0 1 0 1 1
                                     LINE 0 0 0 0 0 1 0 1 1
-                                    LUCK 0 0 0 0 0 1 0 1 0
+                                    LUCK 0 0 0 0 0 1 0 1 1
                                   FORUMS 0 0 0 0 0 1 0 1 1
                                     PUSH 0 0 0 0 0 1 0 0 0
                                     FEET 0 0 0 0 0 1 0 1 1
@@ -165,7 +165,7 @@
                                   RESULT 1 0 0 0 0 1 0 1 1
                                    SITES 0 0 0 0 0 1 0 1 1
                                      NAT 0 0 0 0 0 0 0 2 1
-                                    AT&T 0 0 1 0 0 1 0 0 0
+                                    AT&T 0 0 0 0 0 1 0 0 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                 CONSOLES 0 0 0 0 0 0 0 1 1
                                 SERVICES 1 0 0 0 0 1 0 1 1
@@ -187,7 +187,7 @@
                            POWER-CYCLING 0 0 0 0 0 0 0 1 1
                                 COVERAGE 0 0 0 0 0 1 0 2 1
                                 STRENGTH 0 0 0 0 0 1 0 1 1
-                                 MACBOOK 0 0 0 0 0 0 0 1 0
+                                 MACBOOK 0 0 0 0 0 0 0 1 1
                                 MEGABITS 0 0 0 0 0 0 0 2 1
                                     SONY 0 1 1 0 0 1 0 0 0
                                     VAIO 0 0 0 0 0 0 0 1 1
@@ -246,7 +246,7 @@
                                 ANTENNAS 0 0 0 0 0 0 0 1 1
                                    SENSE 0 0 0 0 0 1 0 0 1
                                    DAISY 0 0 1 0 0 1 0 0 0
-                                   CHAIN 1 1 0 0 0 1 0 1 1
+                                   CHAIN 1 1 0 0 0 1 0 1 0
                                SATELLITE 0 0 0 0 0 1 0 0 0
                                      HOP 0 0 0 0 0 0 1 0 0
                                     POOL 0 0 0 0 0 1 0 1 1

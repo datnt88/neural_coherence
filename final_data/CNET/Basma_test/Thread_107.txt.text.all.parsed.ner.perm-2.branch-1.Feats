@@ -4,7 +4,7 @@
                                     PLAY 0 0 0 0 0 1 0 0 1
                                   SYSTEM 0 1 0 0 0 1 0 1 0
                                    INPUT 0 0 0 0 0 0 1 0 0
-                                HARDWARE 0 0 0 0 0 0 0 1 0
+                                HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                   ERRORS 0 1 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 1 1
@@ -21,7 +21,7 @@
                                    GUESS 0 0 0 0 0 1 0 1 1
                               CONNECTION 0 0 0 0 0 1 0 0 0
                                       'S 0 0 0 0 0 0 0 0 1
-                                  NVIDIA 0 0 0 0 0 0 0 0 0
+                                  NVIDIA 0 0 0 0 0 0 0 0 1
                                   DEVICE 0 0 0 0 0 1 0 0 0
                                     USER 0 0 0 0 0 1 0 0 0
                            CONFIGURATION 0 0 0 0 0 0 0 0 0
@@ -33,7 +33,7 @@
                               MANAGEMENT 0 1 0 0 0 1 0 0 0
                                  DISPLAY 0 0 0 0 0 1 0 0 0
                                  SUPPORT 0 0 0 0 0 1 0 0 0
-                                 UPDATES 0 0 0 0 0 0 0 1 1
+                                 UPDATES 0 0 0 0 0 0 0 1 0
                                     PLUG 0 0 0 0 0 0 1 1 0
                                  NETWORK 0 0 0 0 0 1 0 0 0
                                  MANAGER 1 0 0 0 0 1 0 3 1
@@ -56,14 +56,14 @@
                                  RESULTS 1 1 0 0 0 1 0 1 1
                                      &GT 0 0 0 0 0 0 0 0 1
                                     LINE 0 0 0 0 0 1 0 1 1
-                                   EVENT 0 0 0 0 0 1 0 1 0
+                                   EVENT 0 0 0 0 0 1 0 1 1
                                   KERNEL 0 0 0 0 0 0 0 0 0
                                      WEB 0 0 0 0 0 1 0 1 1
                                  ACRONIS 0 0 0 0 0 0 0 0 0
                                   CENTER 0 0 0 0 0 1 0 0 0
                                DETECTION 0 0 0 0 0 0 0 0 0
                                      NAT 0 0 0 0 0 0 0 0 0
-                                SERVICES 1 0 0 0 0 1 0 1 1
+                                SERVICES 1 0 0 0 0 1 0 1 0
                                  GATEWAY 0 0 0 0 0 0 0 0 0
                                  PROFILE 0 0 0 0 0 1 0 2 1
                                     IPOD 0 0 0 0 0 0 0 0 0
@@ -71,7 +71,7 @@
                                    KODAK 0 0 0 0 0 1 0 0 0
                                      NET 0 0 0 0 0 1 0 0 1
                                        C 0 0 0 0 0 1 0 1 1
-                                 COMMAND 0 0 0 0 0 1 0 1 0
+                                 COMMAND 0 0 0 0 0 1 0 1 1
                                 COMMANDS 0 0 0 0 0 1 0 1 1
                                 SECURITY 0 0 0 0 0 1 0 0 0
                                      INK 0 0 0 0 0 1 0 0 1
@@ -88,12 +88,12 @@
                                   POLICY 0 0 0 0 0 1 0 0 0
                                    AGENT 0 0 0 0 0 1 0 0 0
                                   CAMERA 0 0 0 0 0 1 0 0 0
-                                 SPOOLER 0 0 0 0 0 0 0 1 0
+                                 SPOOLER 0 0 0 0 0 0 0 1 1
                                      RPC 0 0 0 0 0 0 0 0 0
-                                ACCOUNTS 0 0 0 0 0 1 0 1 0
+                                ACCOUNTS 0 0 0 0 0 1 0 1 1
                             NOTIFICATION 0 0 0 0 0 0 0 0 0
-                               SCHEDULER 0 0 0 0 0 0 0 1 0
-                                 NETBIOS 0 0 0 0 0 0 0 1 1
+                               SCHEDULER 0 0 0 0 0 0 0 1 1
+                                 NETBIOS 0 0 0 0 0 0 0 1 0
                                   HELPER 0 0 1 0 0 0 0 0 0
                                TELEPHONY 0 0 0 0 0 0 0 0 0
                                     HIVE 0 0 1 0 0 0 0 0 0

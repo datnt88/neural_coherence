@@ -13,7 +13,7 @@
                                 PROBLEMS 0 0 0 0 0 1 0 1 1
                                     KIND 0 0 0 0 0 1 0 0 1
                                       PC 0 0 0 0 0 1 0 1 1
-                                  VAPCMD 0 0 0 0 0 0 0 1 0
+                                  VAPCMD 0 0 0 0 0 0 0 1 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                  ANOTHER 0 0 0 0 0 0 1 0 1
                                     HEAT 0 0 0 0 0 1 0 0 0
@@ -40,7 +40,7 @@
                                    PLACE 0 0 0 0 0 1 0 1 1
                                 EXTERNAL 0 0 0 0 0 0 0 1 1
                                     PLUG 0 0 0 0 0 0 1 2 0
-                                 NETWORK 0 0 0 0 0 1 0 1 1
+                                 NETWORK 0 0 0 0 0 1 0 1 0
                                EXPANSION 0 0 0 0 0 1 0 0 0
                                COMPUTERS 0 0 0 0 0 1 0 1 1
                                      WAY 1 0 0 0 0 1 0 1 1
@@ -72,7 +72,7 @@
                                       ID 0 0 0 0 0 0 1 1 1
                                     MARK 0 0 0 0 0 1 0 1 1
                                 SECURITY 0 0 0 0 0 1 0 1 1
-                                 STORAGE 0 0 0 0 0 0 0 1 1
+                                 STORAGE 0 0 0 0 0 0 0 1 0
                                    BELLS 0 0 0 0 0 1 0 0 0
                                 WHISTLES 0 0 0 0 0 0 0 2 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
@@ -89,6 +89,11 @@
                                   APPLES 0 0 0 0 0 1 0 1 1
                                      HDS 0 0 1 0 0 0 0 0 1
                                   MILAGE 0 0 0 0 0 0 0 1 1
+                                    ACTS 0 0 0 0 0 1 0 1 1
+                                     QUE 0 0 0 0 0 0 0 0 0
+                                    SERA 0 0 0 0 0 1 0 1 1
+                                   CANAL 0 0 0 0 0 1 0 0 0
+                                   LEVEE 0 0 0 0 0 0 0 1 1
                                EXPERTISE 0 0 0 0 0 0 0 0 0
                                     RULE 0 1 0 0 0 1 0 1 1
                                    CLIPS 0 0 0 0 0 1 0 1 0
@@ -103,8 +108,3 @@
                                     CAT5 0 0 0 0 0 0 0 1 1
                                 CONTENTS 0 0 0 0 0 1 0 0 1
                              ENVIRONMENT 0 0 0 0 0 1 0 1 1
-                                    ACTS 0 0 0 0 0 1 0 1 1
-                                     QUE 0 0 0 0 0 0 0 0 0
-                                    SERA 0 0 0 0 0 1 0 1 1
-                                   CANAL 0 0 0 0 0 1 0 0 0
-                                   LEVEE 0 0 0 0 0 0 0 1 1

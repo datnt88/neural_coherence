@@ -1,4 +1,4 @@
-                                       $ 0 0 0 0 0 0 1 1 1
+                                       $ 0 0 0 7 0 0 1 1 1
                                     TIME 1 1 0 0 0 1 0 3 1
                                     THAT 0 0 0 0 0 0 0 1 1
                                    ABOUT 0 0 0 0 0 0 1 1 1
@@ -17,7 +17,7 @@
                                   SYSTEM 0 1 0 0 0 1 0 2 1
                                     YEAR 0 1 0 6 0 1 0 1 1
                                     MOBO 0 0 0 0 0 0 0 1 1
-                                HARDWARE 0 0 0 0 0 0 0 1 0
+                                HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 1 0
@@ -29,7 +29,7 @@
                                   MONTHS 1 1 0 0 0 1 0 1 1
                                     KIND 0 0 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 1 1
-                             MOTHERBOARD 0 0 0 0 0 0 0 1 0
+                             MOTHERBOARD 0 0 0 0 0 0 0 1 1
                                       PC 0 0 0 0 0 1 0 3 1
                                     BACK 0 0 0 0 0 1 0 1 1
                                      PSU 0 0 0 0 0 0 0 1 1
@@ -60,7 +60,7 @@
                                   GAMING 0 0 0 0 0 0 0 0 1
                                      CPU 0 0 0 0 0 0 0 1 1
                                     SATA 0 0 0 0 0 0 0 0 0
-                                    COPY 0 0 0 0 0 1 0 1 0
+                                    COPY 0 0 0 0 0 1 0 1 1
                                     CORE 0 0 0 0 0 1 0 0 0
                                 GRAPHICS 0 0 0 0 0 1 0 1 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
@@ -69,9 +69,9 @@
                                    PRICE 0 1 0 0 0 1 0 3 1
                                     BEST 0 0 0 0 0 0 1 1 1
                                     LESS 0 0 0 7 0 0 0 1 1
-                                   PARTS 1 0 0 0 0 1 0 1 0
+                                   PARTS 1 0 0 0 0 1 0 1 1
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 1 1
-                                 THREADS 0 0 0 0 0 1 0 0 1
+                                 THREADS 0 0 0 0 0 1 0 0 0
                                     GAME 0 0 0 0 0 1 0 1 0
                                   PEOPLE 0 1 0 0 0 1 0 0 1
                                     COST 0 0 0 0 0 1 0 1 1
@@ -85,7 +85,7 @@
                                    FIRST 0 1 0 0 0 1 0 1 1
                                  PENTIUM 0 0 0 0 0 0 0 0 0
                                   ONLINE 0 0 0 0 0 1 0 1 1
-                                    DELL 0 0 1 0 0 0 0 1 0
+                                    DELL 0 0 1 0 0 0 0 1 1
                                     SLOT 0 0 0 0 0 1 0 1 1
                                  BATTERY 0 0 0 0 0 1 0 0 0
                                     CANT 0 0 0 0 0 0 0 0 1
@@ -107,13 +107,13 @@
                                    GAMES 0 0 0 0 0 1 0 3 1
                                     TEMP 0 0 0 0 0 0 0 1 1
                                    PASTE 0 0 0 0 0 0 0 1 1
-                                     END 0 0 0 0 0 1 0 1 0
+                                     END 0 0 0 0 0 1 0 1 1
                                COMPUTERS 0 0 0 0 0 1 0 3 1
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                      WAY 1 0 0 0 0 1 0 2 1
-                                    HOME 0 0 0 0 0 1 0 1 0
-                                  OFFICE 0 0 0 0 0 1 0 1 0
+                                    HOME 0 0 0 0 0 1 0 1 1
+                                  OFFICE 0 0 0 0 0 1 0 1 1
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 1 1
                                      ETC 0 0 0 0 0 0 1 1 1
@@ -139,7 +139,7 @@
                                  GATEWAY 0 0 0 0 0 0 0 0 0
                                     SONY 0 1 1 0 0 1 0 0 0
                                    VISTA 0 0 0 0 0 0 0 0 0
-                                       X 0 0 1 0 0 1 0 2 0
+                                       X 0 0 1 0 0 1 0 2 1
                                   OTHERS 0 0 0 0 0 1 0 0 1
                                    KNOCK 0 0 0 0 0 0 0 0 0
                                  MEASURE 0 0 0 0 0 1 0 1 1
@@ -157,20 +157,15 @@
                                   TODAYS 0 0 0 0 0 0 0 0 0
                                     EDGE 0 0 0 0 0 1 0 1 1
                                 BUILDING 0 0 0 0 0 1 0 1 1
-                                 WALMART 0 0 1 0 0 0 0 0 0
+                                 WALMART 0 0 1 0 0 0 0 0 1
                                   500BUX 0 0 0 0 0 0 0 0 1
                                  MUSTANG 0 0 0 0 0 1 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
-                               DEVELOPER 0 0 0 0 0 0 0 1 1
-                                     X16 0 0 0 0 0 0 0 1 1
-                                      X1 0 0 0 0 0 0 0 1 1
-                                 STORIES 0 0 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
                                HOMEBUILT 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                 SUPPLIES 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                     CITY 0 1 0 0 0 1 0 1 1
@@ -191,6 +186,13 @@
                               COMPROMISE 0 0 0 0 0 1 0 1 1
                                 FINDINGS 0 0 0 0 0 1 0 1 1
                                 BARNYARD 0 0 0 0 0 0 0 1 1
+                               EVOLUTION 0 0 0 0 0 1 0 1 1
+                               NORTHLITE 0 0 1 0 0 0 0 0 1
+                                     10. 0 0 0 0 0 0 0 1 1
+                               DEVELOPER 0 0 0 0 0 0 0 1 1
+                                     X16 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 1 1
+                                 STORIES 0 0 0 0 0 1 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1
@@ -205,5 +207,3 @@
                                     FALL 1 1 0 0 0 1 0 0 0
                                   SHORTS 0 0 0 0 0 1 0 1 1
                                      YRS 0 0 0 0 0 0 0 1 1
-                               NORTHLITE 0 0 1 0 0 0 0 0 1
-                               EVOLUTION 0 0 0 0 0 1 0 1 1

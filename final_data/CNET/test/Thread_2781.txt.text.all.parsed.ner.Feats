@@ -12,7 +12,7 @@
                                    ORDER 0 0 0 0 0 1 0 1 0
                                    512MB 0 0 0 0 0 0 0 1 1
                                    VIDEO 0 1 0 0 0 1 0 3 0
-                                    CARD 0 1 0 0 0 1 0 3 0
+                                    CARD 0 1 0 0 0 1 0 3 1
                                       OC 0 0 1 0 0 0 0 1 1
                                   THANKS 0 0 0 0 0 1 0 0 1
                                   ANSWER 0 0 0 0 0 1 0 1 1
@@ -20,10 +20,10 @@
                                    SPEED 0 0 0 0 0 1 0 2 1
                                   ENOUGH 0 0 0 0 0 1 0 1 1
                                      BIT 0 0 0 0 0 1 0 2 1
-                                   CARDS 0 0 0 0 0 1 0 1 0
+                                   CARDS 0 0 0 0 0 1 0 1 1
                               TECHNOLOGY 1 0 0 0 0 1 0 1 1
                                UPGRADING 0 0 0 0 0 0 0 1 1
-                                      MB 0 0 0 0 0 0 0 2 0
+                                      MB 0 0 0 0 0 0 0 2 1
                                  UPGRADE 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                     YEAR 0 1 0 0 0 1 0 1 1
@@ -47,7 +47,7 @@
                                    THREE 0 0 0 0 0 1 0 0 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
                                    OTHER 0 0 0 0 0 0 0 1 1
-                                    KIND 0 0 0 0 0 1 0 1 0
+                                    KIND 0 0 0 0 0 1 0 1 1
                                    BEING 0 0 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
                                      TWO 0 0 0 0 0 0 1 1 1
@@ -74,7 +74,7 @@
                                     CASE 0 1 0 0 0 1 0 1 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
-                                  MEMORY 0 1 0 0 0 1 0 1 1
+                                  MEMORY 0 1 0 0 0 1 0 1 0
                                   THINGS 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 3 1
                                     ASUS 0 0 1 0 0 0 0 0 1
@@ -87,12 +87,12 @@
                                     ETC. 0 0 0 0 0 0 0 2 1
                                      TOY 0 0 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 1 1
-                                    WORK 0 0 0 0 0 1 0 1 1
+                                    WORK 0 0 0 0 0 1 0 1 0
                                       HP 0 0 1 0 0 0 0 0 0
                                      FUN 0 0 0 0 0 1 0 1 1
                                   BUDGET 0 1 0 0 0 1 0 1 1
                                     MANY 0 0 0 0 0 0 1 1 1
-                                     BOB 0 1 1 0 0 1 0 1 0
+                                     BOB 0 1 1 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                    LEAST 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
@@ -124,9 +124,9 @@
                                     PLAN 0 1 0 0 0 1 0 0 0
                                     GAME 0 0 0 0 0 1 0 0 0
                                   PEOPLE 0 1 0 0 0 1 0 2 1
-                                    COST 0 0 0 0 0 1 0 1 0
+                                    COST 0 0 0 0 0 1 0 1 1
                                    TIMES 0 1 0 0 0 1 0 1 1
-                               PROCESSOR 0 0 0 0 0 0 0 2 1
+                               PROCESSOR 0 0 0 0 0 0 0 2 0
                                  EXAMPLE 0 0 0 0 0 1 0 1 1
                                      PC. 0 0 0 0 0 0 0 1 1
                                      FAN 0 0 0 0 0 1 0 2 1
@@ -135,7 +135,7 @@
                                     COMP 0 0 0 0 0 0 0 2 1
                                    FIRST 0 1 0 0 0 1 0 1 1
                                  PENTIUM 0 0 0 0 0 0 0 1 1
-                                  ONLINE 0 0 0 0 0 1 0 1 1
+                                  ONLINE 0 0 0 0 0 1 0 1 0
                            COMPATIBILITY 0 0 0 0 0 0 0 0 1
                               COMPATIBLE 0 0 0 0 0 0 0 1 1
                                  REGARDS 0 0 0 0 0 0 0 1 1
@@ -150,12 +150,12 @@
                                      GHZ 0 0 0 0 0 0 0 1 1
                                      FSB 0 0 0 0 0 0 0 1 1
                                      DVD 0 0 0 0 0 1 0 0 0
-                                   SOUND 0 0 0 0 0 1 0 2 1
+                                   SOUND 0 0 0 0 0 1 0 2 0
                                  SEAGATE 0 0 1 0 0 0 0 0 1
                                    THATS 0 0 0 0 0 0 0 1 1
                                    TODAY 0 0 0 6 0 1 0 0 1
                                      KEY 0 0 0 0 0 1 0 1 1
-                                      XP 0 0 0 0 0 0 0 0 0
+                                      XP 0 0 0 0 0 0 0 0 1
                                     DONT 0 0 0 0 0 0 0 0 0
                                    SLOTS 0 0 0 0 0 1 0 1 1
                                  WEBSITE 0 0 1 0 0 0 0 0 1
@@ -205,7 +205,7 @@
                                  TROUBLE 0 0 0 0 0 1 0 1 1
                                  COLLEGE 0 0 0 0 0 1 0 0 0
                                     HOME 0 0 0 0 0 1 0 1 1
-                                SOFTWARE 0 1 0 0 0 1 0 2 0
+                                SOFTWARE 0 1 0 0 0 1 0 2 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 1 1
                                     WORD 0 0 0 0 0 1 0 0 0
@@ -218,7 +218,7 @@
                                   BRANDS 0 1 0 0 0 1 0 1 1
                                  CLIENTS 0 1 0 0 0 1 0 1 1
                                    START 0 0 0 0 0 1 0 1 1
-                               MICROSOFT 0 0 1 0 0 1 0 0 1
+                               MICROSOFT 0 0 1 0 0 1 0 0 0
                                EMACHINES 0 0 0 0 0 0 0 1 1
                                       VS 0 0 1 0 0 0 1 0 0
                                   OPTION 0 0 0 0 0 1 0 1 1
@@ -229,7 +229,7 @@
                               EXPERIENCE 0 0 0 0 0 1 0 3 1
                                  PROCESS 0 0 0 0 0 1 0 1 1
                            UNDERSTANDING 0 0 0 0 0 1 0 1 1
-                                     OEM 0 0 0 0 0 0 0 1 0
+                                     OEM 0 0 0 0 0 0 0 1 1
                                    TYPES 0 1 0 0 0 1 0 1 1
                                 BUILDERS 0 0 0 0 0 1 0 1 1
                                 WARRANTY 0 0 0 0 0 0 0 1 0
@@ -275,235 +275,4 @@
                              DIFFERENCES 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                 PRODUCTS 0 1 0 0 0 1 0 1 1
-                            APPLICATIONS 0 0 0 0 0 1 0 1 1
-                                   SITES 0 0 0 0 0 1 0 2 1
-                                    MAIL 0 0 0 0 0 1 0 0 0
-                                 EDITING 0 0 0 0 0 1 0 1 1
-                                  ISSUES 0 0 0 0 0 1 0 2 1
-                                 GATEWAY 0 0 0 0 0 0 0 1 1
-                                 PARTIES 0 0 0 0 0 1 0 0 1
-                                       X 0 0 1 0 0 1 0 0 0
-                           MANUFACTURERS 0 1 0 0 0 1 0 1 1
-                                  OTHERS 0 0 0 0 0 1 0 1 1
-                                   WIRES 0 0 0 0 0 1 0 1 1
-                                 PROJECT 0 1 0 0 0 1 0 0 0
-                               KNOWLEDGE 0 0 0 0 0 1 0 3 1
-                                   SENSE 0 0 0 0 0 1 0 0 1
-                               EQUIPMENT 0 0 0 0 0 1 0 1 1
-                                  METHOD 0 0 0 0 0 1 0 0 0
-                                 DIAGRAM 0 0 0 0 0 0 0 1 1
-                             LIMITATIONS 0 0 0 0 0 1 0 1 1
-                                     FRY 0 0 0 0 0 1 0 1 1
-                                 CHANGES 0 0 0 0 0 1 0 1 1
-                                RESEARCH 0 1 0 0 0 1 0 1 1
-                                DECISION 0 0 0 0 0 1 0 1 1
-                                     NET 0 0 0 0 0 1 0 1 1
-                                  COMPAQ 0 0 1 0 0 1 0 1 1
-                                  FAMILY 0 1 0 0 0 1 0 1 1
-                                     MAN 0 1 0 0 0 1 0 1 1
-                                     HEY 0 0 1 0 0 1 0 0 0
-                                  TINKER 0 0 1 0 0 1 0 0 0
-                                CAPACITY 0 0 0 0 0 1 0 0 0
-                                BUILDING 0 0 0 0 0 1 0 0 1
-                                 ABILITY 0 1 0 0 0 1 0 1 1
-                               COMPANIES 0 1 0 0 0 1 0 1 1
-                               SOUNDCARD 0 0 0 0 0 0 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                     GIG 0 0 0 0 0 0 0 0 0
-                                    WATT 0 0 0 0 0 1 0 0 0
-                             POWERSUPPLY 0 0 0 0 0 0 0 1 1
-                                 FRIENDS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
-                                      MX 0 0 1 0 0 0 0 1 1
-                                  64-BIT 0 0 0 0 0 0 0 1 1
-                                   SHELF 0 0 0 0 0 0 0 0 0
-                                 SCANNER 0 0 0 0 0 0 0 1 1
-                                ARTICLES 0 0 0 0 0 1 0 1 1
-                                   ANTEC 0 0 1 0 0 0 0 0 1
-                              PROCESSING 0 0 0 0 0 0 0 1 1
-                                     RPM 0 0 0 0 0 0 0 1 0
-                                   USERS 0 0 0 0 0 1 0 1 1
-                                     FEE 0 0 0 0 0 1 0 1 1
-                                 FACTORS 0 0 0 0 0 1 0 1 1
-                                ADDITION 0 0 0 0 0 1 0 0 1
-                                    WONT 0 0 0 0 0 0 0 0 0
-                                   WHATS 0 0 0 0 0 0 0 1 1
-                                     MAP 0 0 0 0 0 1 0 1 1
-                               RESOURCES 0 0 0 0 0 1 0 0 1
-                                  BURNER 0 0 0 0 0 0 1 1 1
-                                   QUEST 0 0 0 0 0 1 0 1 1
-                                    WALL 0 0 0 0 0 1 0 1 1
-                                   BEEPS 0 0 0 0 0 0 0 1 1
-                               BAREBONES 0 0 0 0 0 0 0 0 0
-                                  PIECES 0 0 0 0 0 1 0 1 1
-                               COMPONENT 0 0 0 0 0 1 0 1 1
-                               RETAILERS 0 0 0 0 0 1 0 1 1
-                                    MESS 0 0 0 0 0 1 0 0 0
-                             SYSTEM&QUOT 0 0 0 0 0 0 0 1 1
-                            PROFESSIONAL 0 0 0 0 0 1 0 1 1
-                                     ERA 0 0 0 0 0 1 0 0 1
-                               RECORDING 0 0 0 0 0 1 0 0 0
-                                   CROSS 0 0 0 0 0 1 0 0 0
-                                     DAD 0 0 0 0 0 1 0 1 1
-                                 SCIENCE 0 0 0 0 0 1 0 1 1
-                                SHIPPING 0 0 0 0 0 0 0 1 0
-                                CREATION 0 0 0 0 0 1 0 1 1
-                                 CHANCES 0 0 0 0 0 1 0 1 1
-                               ADVANTAGE 1 0 0 0 0 1 0 1 1
-                                    LIFE 0 0 0 0 0 1 0 0 1
-                              PREFERENCE 0 0 0 0 0 1 0 1 1
-                                  ADVISE 0 0 0 0 0 0 0 1 1
-                                 WHATNOT 0 0 0 0 0 0 0 1 1
-                                    STAN 0 0 1 0 0 0 0 2 1
-                            OVERCLOCKING 0 0 0 0 0 0 0 0 1
-                                 CD-R/RW 0 0 0 0 0 0 0 2 1
-                               FAVORITES 0 0 0 0 0 1 0 1 1
-                                  DECADE 0 0 0 0 0 1 0 1 1
-                                     ADS 0 0 0 0 0 1 0 1 1
-                                HOMEWORK 0 0 0 0 0 1 0 1 1
-                                    BOOK 0 0 0 0 0 1 0 1 0
-                                   CERTS 0 0 1 0 0 0 0 1 1
-                                CLEARING 0 0 0 0 0 0 0 0 0
-                                  LIKING 0 0 0 0 0 0 0 1 1
-                                   NAMES 0 0 0 0 0 1 0 1 1
-                                   ROUTE 0 0 0 0 0 1 0 1 1
-                                 FEELING 0 0 0 0 0 1 0 1 1
-                                   SHAPE 0 0 0 0 0 1 0 1 1
-                                  ASSIDE 0 0 0 0 0 0 0 1 1
-                                   PROOF 0 0 0 0 0 1 0 1 1
-                                   HOLES 0 0 0 0 0 1 0 1 1
-                                HEADACHE 0 0 0 0 0 0 1 1 1
-                               DISCOUNTS 0 0 0 0 0 1 0 1 1
-                                  BUNDLE 0 0 0 0 0 0 0 1 1
-                                   HANDS 0 0 0 0 0 1 0 0 1
-                                ASSEMBLY 0 0 0 0 0 1 0 1 1
-                            DISADVANTAGE 0 0 0 0 0 0 0 1 1
-                                  HAVENT 0 0 0 0 0 0 0 1 1
-                                VARIANTS 0 0 0 0 0 0 0 1 1
-                          SPECIFICATIONS 0 0 0 0 0 1 0 1 1
-                                 LOW-END 0 0 0 0 0 0 0 0 1
-                                     JOE 0 0 1 0 0 1 0 1 1
-                               PARAGRAPH 0 0 0 0 0 1 0 2 1
-                                    CLIP 0 0 0 0 0 0 0 1 1
-                                  APPROX 0 0 1 0 0 0 0 1 1
-                                 POSTERS 0 0 0 0 0 1 0 1 1
-                                  BASICS 0 0 0 0 0 1 0 1 1
-                                 COMPUSA 0 0 0 0 0 0 0 0 0
-                               DOWNLOADS 0 0 0 0 0 0 0 0 0
-                                    --FJ 0 0 0 0 0 0 0 0 1
-                                   BOOKS 0 0 0 0 0 1 0 1 1
-                               STANDARDS 0 0 0 0 0 1 0 1 1
-                           CERTIFICATION 0 0 0 0 0 0 0 0 1
-                                  DEGREE 0 0 0 0 0 1 0 3 1
-                                  DEALER 0 0 0 0 0 1 0 1 1
-                                     CAD 0 0 0 0 0 0 0 1 1
-                              CONFIDENCE 0 0 0 0 0 1 0 1 1
-                               HEATSINKS 0 0 0 0 0 0 0 0 1
-                                  HASSLE 0 0 0 0 0 0 1 1 1
-                                   BONES 0 0 0 0 0 1 0 1 1
-                                  FALCON 0 0 0 0 0 1 0 0 0
-                               BEST&QUOT 0 0 0 0 0 0 0 0 1
-                                   LISTS 0 0 0 0 0 1 0 1 1
-                                 MODULES 0 0 0 0 0 0 0 1 1
-                              WORLD&QUOT 0 0 0 0 0 0 0 1 1
-                                 CHARGES 0 1 0 0 0 1 0 1 1
-                               ATTENTION 0 0 0 0 0 1 0 1 1
-                                      N+ 0 0 0 0 0 0 0 0 1
-                              MAYBE&QUOT 0 0 0 0 0 0 0 0 1
-                                 PCWORLD 0 0 1 0 0 0 0 0 1
-                                GATEWAYS 0 0 0 0 0 0 0 1 1
-                                PACKAGES 0 0 0 0 0 1 0 1 1
-                                   BUDDY 0 0 0 0 0 1 0 1 1
-                                SUPPLIER 0 0 0 0 0 0 0 1 1
-                                  DOZENS 0 0 0 0 0 1 0 1 1
-                                  ROCKET 0 0 0 0 0 1 0 0 0
-                                SOMTIMES 0 0 0 0 0 0 0 0 1
-                                     HAL 0 0 1 0 0 0 0 1 1
-                                   NIVDA 0 0 0 0 0 0 0 0 0
-                                  RD-RAM 0 0 0 0 0 0 0 1 1
-                           DVD/CD-BURNER 0 0 0 0 0 0 0 0 1
-                                   GOALS 0 0 0 0 0 1 0 1 1
-     MOTHERBOARD+CPU+HSF+POWERSUPPLY+RAM 0 0 0 0 0 0 0 1 1
-                                    IMO. 0 0 1 0 0 0 0 0 1
-                               TINKERING 0 0 0 0 0 0 0 0 1
-                              W/HEATSINK 0 0 0 0 0 0 0 0 0
-                              SCREWDRIVE 0 0 0 0 0 0 0 1 1
-                                 1.83GHZ 0 0 0 0 0 0 0 1 1
-                              MOTIVATION 0 0 0 0 0 1 0 1 1
-                                   ROADS 0 0 0 0 0 1 0 1 1
-                                  WHEELS 0 0 0 0 0 1 0 1 1
-                               W/500WATT 0 0 0 0 0 0 0 0 0
-                                   DREAM 0 0 0 0 0 1 0 0 0
-                              OURS.&QUOT 0 0 0 0 0 0 0 0 1
-                                 MUCKING 0 0 0 0 0 0 0 1 1
-                                      A+ 0 0 0 0 0 0 0 1 1
-                                    CERT 0 0 0 0 0 0 0 1 1
-                                 TECHNET 0 0 0 0 0 0 0 0 0
-                                 MEETING 0 0 0 0 0 1 0 1 1
-                                 LECTURE 0 0 0 0 0 0 0 1 1
-                              STITE&QUOT 0 0 0 0 0 0 0 0 1
-                             STITES&QUOT 0 0 0 0 0 0 0 0 1
-                               RESELLERS 0 0 0 0 0 0 0 1 1
-                          ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
-                            SPREADSHEETS 0 0 0 0 0 0 0 1 1
-                           SPEFICIATIONS 0 0 0 0 0 0 0 1 1
-                             INSTABILITY 0 0 0 0 0 1 0 0 1
-                               RE-BUILDS 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
-                                 PROFITS 0 0 0 0 0 1 0 1 1
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                                  FERVOR 0 0 0 0 0 0 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
-                                 DEFENSE 0 0 0 0 0 1 0 1 1
-                                   STITE 0 0 0 0 0 0 0 2 1
-                                 PUDDING 0 0 0 0 0 0 0 1 1
-                                  RESUME 0 0 0 0 0 1 0 1 1
-                                 EREEDKS 0 0 0 0 0 0 0 0 1
-                                  HE/SHE 0 0 0 0 0 0 0 0 1
-                                SENTENCE 0 0 0 0 0 1 0 1 1
-                              QUANTITIES 0 0 0 0 0 1 0 1 1
-                              BONES&QUOT 0 0 0 0 0 0 0 1 1
-                               SUPPLIERS 0 0 0 0 0 1 0 1 1
-CASE/POWERSUPPLY/FANS/MOTHERBOARD/PROCESSOR/HEATSINK 0 0 0 0 0 0 0 1 1
-                      VIDEO/AUDIO/MODEMS 0 0 0 0 0 0 0 0 1
-                               INTERVIEW 0 0 0 0 0 1 0 1 1
-                                  JIGSAW 0 0 0 0 0 0 0 0 0
-                                  PUZZLE 0 0 0 0 0 0 0 1 1
-                              GRADUATION 0 0 0 0 0 0 1 0 1
-                             CUSTOMIZING 0 0 0 0 0 0 0 1 1
-                                   DESKS 0 0 0 0 0 1 0 1 1
-                           CUSTOMIZATION 0 0 0 0 0 0 0 1 1
-                            COMPANY&QUOT 0 0 0 0 0 0 0 1 1
-                             FISHING-AND 0 0 0 0 0 0 0 0 0
-                          GAMER/GRAPHICS 0 0 0 0 0 0 0 0 0
-                               NORTHWEST 0 0 0 0 0 1 0 1 1
-                                 LVFINCH 0 0 0 0 0 0 0 0 1
-                             PAPERS&QUOT 0 0 0 0 0 0 0 0 1
-                             ENGINEERING 0 0 0 0 0 0 0 0 0
-                              BURNT&QUOT 0 0 0 0 0 0 0 0 1
-                                    MODZ 0 0 0 0 0 0 0 1 1
-                             OVERCLOCKER 0 0 0 0 0 0 0 0 0
-                                 MODDERS 0 0 0 0 0 0 0 1 1
-                         UPGRADE-ABILITY 0 0 0 0 0 0 0 0 1
-                                LINUX-64 0 0 0 0 0 0 0 1 1
-                                   49.95 0 0 0 7 0 0 0 1 1
-                         EXTREMETECH.COM 0 0 0 0 0 0 0 0 1
-                               ESTIMATES 0 0 0 0 0 1 0 1 1
-                                      E. 0 0 1 0 0 0 0 0 0
-                                    REED 0 1 1 0 0 1 0 1 1
-                                  KANSAS 0 0 1 0 0 0 0 0 1
-                             GRANDIOSITY 0 0 0 0 0 0 0 0 1
-                                   HOBBY 0 0 0 0 0 0 0 1 1
-                               AMENITIES 0 0 0 0 0 1 0 1 1
-                                 PLUMBER 0 0 0 0 0 1 0 1 1
-                                  TOILET 0 0 0 0 0 0 1 1 1
-                                  DUFFER 0 0 0 0 0 0 0 1 1
-                                    MFRS 0 0 0 0 0 0 0 1 1
-                               EDINBURGH 0 0 1 0 0 0 0 0 1
-                                   4GIGS 0 0 0 0 0 0 0 1 1
-                                    GOSH 0 0 0 0 0 1 0 1 1
-                            FAN/HEATSINK 0 0 0 0 0 0 0 0 0
-                                     50W 0 0 0 0 0 0 0 1 1
-                                 BOOKLET 0 0 0 0 0 1 0 1 1
+                            APPLICATIONS

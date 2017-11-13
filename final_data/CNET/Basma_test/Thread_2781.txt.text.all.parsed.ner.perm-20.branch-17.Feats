@@ -7,7 +7,7 @@
                                     NEED 0 0 0 0 0 1 0 0 1
                                     SOME 0 0 0 0 0 0 1 1 1
                                    512MB 0 0 0 0 0 0 0 1 1
-                                   VIDEO 0 1 0 0 0 1 0 3 0
+                                   VIDEO 0 1 0 0 0 1 0 3 1
                                     CARD 0 1 0 0 0 1 0 2 1
                                   THANKS 0 0 0 0 0 1 0 0 0
                                   ANSWER 0 0 0 0 0 1 0 1 1
@@ -31,7 +31,7 @@
                                      ONE 0 0 0 0 0 1 0 3 1
                                    DRIVE 0 0 0 0 0 1 0 2 0
                                    YEARS 1 1 0 0 0 1 0 2 1
-                                PROBLEMS 0 0 0 0 0 1 0 1 0
+                                PROBLEMS 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 2 1
                                     BIOS 0 0 0 0 0 0 0 1 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
@@ -40,10 +40,10 @@
                                     THIS 0 0 0 0 0 1 0 0 1
                                      TWO 0 0 0 0 0 0 1 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 3 1
-                                      PC 0 0 0 0 0 1 0 3 1
+                                      PC 0 0 0 0 0 1 0 3 0
                                  PROBLEM 1 0 0 0 0 1 0 1 1
-                                ANYTHING 0 0 0 0 0 1 0 0 1
-                                   &QUOT 0 0 0 0 0 0 0 3 0
+                                ANYTHING 0 0 0 0 0 1 0 0 0
+                                   &QUOT 0 0 0 0 0 0 0 3 1
                                     HEAT 0 0 0 0 0 1 0 0 0
                                    THERE 0 0 0 0 0 0 1 0 1
                                      RUN 0 0 0 0 0 1 0 1 1
@@ -51,8 +51,8 @@
                                      AMD 0 0 0 0 0 1 0 1 1
                                       CD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 2 1
-                                     RAM 0 0 1 0 0 1 0 2 1
-                                    CASE 0 1 0 0 0 1 0 1 0
+                                     RAM 0 0 1 0 0 1 0 2 0
+                                    CASE 0 1 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 1 0
@@ -68,7 +68,7 @@
                                     MANY 0 0 0 0 0 0 1 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                    LEAST 0 0 0 0 0 0 1 1 1
-                                  REASON 0 0 0 0 0 1 0 1 1
+                                  REASON 0 0 0 0 0 1 0 1 0
                                       OS 0 0 0 0 0 0 0 1 1
                                  WINDOWS 0 0 0 0 0 1 0 1 1
                                   COUPLE 0 0 0 0 0 1 0 1 1
@@ -76,11 +76,11 @@
                                      OWN 0 0 0 0 0 0 1 2 1
                                OPERATING 0 0 0 0 0 0 0 0 0
                                      CPU 0 0 0 0 0 0 0 2 1
-                                   INTEL 0 0 1 0 0 1 0 1 0
+                                   INTEL 0 0 1 0 0 1 0 1 1
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
-                                   PRICE 0 1 0 0 0 1 0 1 0
+                                   PRICE 0 1 0 0 0 1 0 1 1
                                    BRAND 0 0 0 0 0 1 0 1 1
                                       HD 0 0 1 0 0 0 0 0 0
                                  OPTIONS 0 0 0 0 0 1 0 1 1
@@ -109,7 +109,7 @@
                                    CABLE 0 0 0 0 0 1 0 1 1
                                      GHZ 0 0 0 0 0 0 0 1 1
                                      FSB 0 0 0 0 0 0 0 1 1
-                                   SOUND 0 0 0 0 0 1 0 1 1
+                                   SOUND 0 0 0 0 0 1 0 1 0
                                    THATS 0 0 0 0 0 0 0 1 1
                                    TODAY 0 0 0 6 0 1 0 0 1
                                      KEY 0 0 0 0 0 1 0 1 1
@@ -129,7 +129,7 @@
                                   NUMBER 0 0 0 0 0 1 0 1 1
                                 INTERNET 0 0 0 0 0 1 0 1 1
                                  PROGRAM 0 1 0 0 0 1 0 0 0
-                                    HELP 0 0 0 0 0 1 0 1 0
+                                    HELP 0 0 0 0 0 1 0 1 1
                                 HUNDREDS 0 0 0 0 0 1 0 0 1
                                    POINT 0 0 0 0 0 1 0 1 1
                                  ANSWERS 0 1 0 0 0 1 0 1 1
@@ -198,7 +198,7 @@
                                   OTHERS 0 0 0 0 0 1 0 1 1
                                    WIRES 0 0 0 0 0 1 0 1 1
                                  PROJECT 0 1 0 0 0 1 0 0 0
-                               KNOWLEDGE 0 0 0 0 0 1 0 2 0
+                               KNOWLEDGE 0 0 0 0 0 1 0 2 1
                                EQUIPMENT 0 0 0 0 0 1 0 1 1
                                   METHOD 0 0 0 0 0 1 0 0 0
                              LIMITATIONS 0 0 0 0 0 1 0 1 1
@@ -210,10 +210,10 @@
                                   TINKER 0 0 1 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 0 0
                                  FRIENDS 0 0 0 0 0 1 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 1 1
                                   64-BIT 0 0 0 0 0 0 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
@@ -235,14 +235,14 @@
                                      ERA 0 0 0 0 0 1 0 0 1
                                      DAD 0 0 0 0 0 1 0 1 1
                                  SCIENCE 0 0 0 0 0 1 0 1 1
-                                SHIPPING 0 0 0 0 0 0 0 1 1
+                                SHIPPING 0 0 0 0 0 0 0 1 0
                                     LIFE 0 0 0 0 0 1 0 0 1
                                   ADVISE 0 0 0 0 0 0 0 1 1
                                  WHATNOT 0 0 0 0 0 0 0 1 1
                                     STAN 0 0 1 0 0 0 0 1 1
                             OVERCLOCKING 0 0 0 0 0 0 0 0 1
                                FAVORITES 0 0 0 0 0 1 0 1 1
-                                    BOOK 0 0 0 0 0 1 0 1 0
+                                    BOOK 0 0 0 0 0 1 0 1 1
                                    CERTS 0 0 1 0 0 0 0 1 1
                                    NAMES 0 0 0 0 0 1 0 1 1
                                    ROUTE 0 0 0 0 0 1 0 1 1
@@ -266,7 +266,7 @@
                               CONFIDENCE 0 0 0 0 0 1 0 1 1
                                HEATSINKS 0 0 0 0 0 0 0 0 1
                                   HASSLE 0 0 0 0 0 0 1 1 1
-                                   BONES 0 0 0 0 0 1 0 1 0
+                                   BONES 0 0 0 0 0 1 0 1 1
                                   FALCON 0 0 0 0 0 1 0 0 0
                                BEST&QUOT 0 0 0 0 0 0 0 0 1
                                    LISTS 0 0 0 0 0 1 0 1 1
@@ -291,13 +291,8 @@
                               W/HEATSINK 0 0 0 0 0 0 0 0 0
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
                                  1.83GHZ 0 0 0 0 0 0 0 1 1
-                               RE-BUILDS 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
                                W/500WATT 0 0 0 0 0 0 0 0 0
-                                  FERVOR 0 0 0 0 0 0 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                               OURS.&QUOT 0 0 0 0 0 0 0 0 1
                                  MUCKING 0 0 0 0 0 0 0 1 1
                                     CERT 0 0 0 0 0 0 0 1 1
@@ -305,6 +300,11 @@
                              STITES&QUOT 0 0 0 0 0 0 0 0 1
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
+                               RE-BUILDS 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                  FERVOR 0 0 0 0 0 0 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                    STITE 0 0 0 0 0 0 0 1 1
                                  EREEDKS 0 0 0 0 0 0 0 0 1
                                   HE/SHE 0 0 0 0 0 0 0 0 1

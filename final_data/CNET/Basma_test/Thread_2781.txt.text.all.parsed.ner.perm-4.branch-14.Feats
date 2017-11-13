@@ -1,4 +1,4 @@
-                                       $ 0 0 0 7 0 0 1 1 1
+                                       $ 0 0 0 0 0 0 1 1 1
                                     TIME 1 1 0 0 0 1 0 1 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                   PERSON 0 1 0 0 0 1 0 1 1
@@ -10,7 +10,7 @@
                                    VIDEO 0 1 0 0 0 1 0 1 0
                                     CARD 0 1 0 0 0 1 0 1 1
                                       OC 0 0 1 0 0 0 0 1 1
-                                  THANKS 0 0 0 0 0 1 0 0 0
+                                  THANKS 0 0 0 0 0 1 0 0 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
                                    SPEED 0 0 0 0 0 1 0 2 1
                                      BIT 0 0 0 0 0 1 0 1 1
@@ -21,13 +21,13 @@
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                      NEW 0 0 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 3 1
                                     SELF 0 0 0 0 0 1 0 0 1
                                      ONE 0 0 0 0 0 1 0 2 1
-                                   DRIVE 0 0 0 0 0 1 0 3 1
+                                   DRIVE 0 0 0 0 0 1 0 3 0
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 2 1
                                  MACHINE 0 1 0 0 0 1 0 2 1
@@ -53,11 +53,11 @@
                                      ANY 0 0 0 0 0 0 1 1 1
                                      AMD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 2 1
-                                     RAM 0 0 1 0 0 1 0 1 1
+                                     RAM 0 0 1 0 0 1 0 1 0
                                     CASE 0 1 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
-                                  MEMORY 0 1 0 0 0 1 0 0 1
+                                  MEMORY 0 1 0 0 0 1 0 0 0
                                   THINGS 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 2 1
                                     ASUS 0 0 1 0 0 0 0 0 1
@@ -74,7 +74,7 @@
                                      FUN 0 0 0 0 0 1 0 1 1
                                   BUDGET 0 1 0 0 0 1 0 1 1
                                     MANY 0 0 0 0 0 0 1 1 1
-                                     BOB 0 1 1 0 0 1 0 1 0
+                                     BOB 0 1 1 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                    LEAST 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 0 0
@@ -128,7 +128,7 @@
                                 HEATSINK 0 0 0 0 0 0 0 1 1
                                   ADVICE 0 0 0 0 0 1 0 1 1
                                  SUPPORT 0 0 0 0 0 1 0 3 1
-                                 CHOICES 0 0 0 0 0 1 0 1 1
+                                 CHOICES 0 0 0 0 0 1 0 1 0
                                     MOST 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
                                 INTERNET 0 0 0 0 0 1 0 0 1
@@ -154,9 +154,9 @@
                                  SOMEONE 0 0 0 0 0 1 0 1 1
                                     WORD 0 0 0 0 0 1 0 0 0
                                   BACKUP 0 0 0 0 0 0 0 0 0
-                                    TECH 0 0 1 0 0 0 1 1 0
+                                    TECH 0 0 1 0 0 0 1 1 1
                                      REP 0 0 0 0 0 0 0 1 1
-                                   BOARD 0 1 0 0 0 1 0 1 0
+                                   BOARD 0 1 0 0 0 1 0 1 1
                                    DOZEN 0 0 0 0 0 1 0 0 0
                                    WORLD 0 1 0 0 0 1 0 1 1
                                   BRANDS 0 1 0 0 0 1 0 1 1
@@ -168,7 +168,7 @@
                               EXPERIENCE 0 0 0 0 0 1 0 3 1
                                  PROCESS 0 0 0 0 0 1 0 1 1
                                 BUILDERS 0 0 0 0 0 1 0 1 1
-                                WARRANTY 0 0 0 0 0 0 0 1 0
+                                WARRANTY 0 0 0 0 0 0 0 1 1
                               NEWEGG.COM 0 0 0 0 0 0 0 0 0
                                    STORE 0 0 0 0 0 1 0 1 1
                                   DDR400 0 0 0 0 0 0 0 1 1
@@ -205,7 +205,7 @@
                                  GATEWAY 0 0 0 0 0 0 0 1 0
                            MANUFACTURERS 0 1 0 0 0 1 0 1 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
-                               KNOWLEDGE 0 0 0 0 0 1 0 1 1
+                               KNOWLEDGE 0 0 0 0 0 1 0 1 0
                              LIMITATIONS 0 0 0 0 0 1 0 1 1
                                      FRY 0 0 0 0 0 1 0 1 1
                                 RESEARCH 0 1 0 0 0 1 0 1 1
@@ -216,10 +216,10 @@
                                   TINKER 0 0 1 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                  SCANNER 0 0 0 0 0 0 0 1 1
                                    ANTEC 0 0 1 0 0 0 0 0 1
                               PROCESSING 0 0 0 0 0 0 0 1 1
@@ -281,9 +281,6 @@
                                  1.83GHZ 0 0 0 0 0 0 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                               OURS.&QUOT 0 0 0 0 0 0 0 0 1
                                  MUCKING 0 0 0 0 0 0 0 1 1
                                       A+ 0 0 0 0 0 0 0 1 1
@@ -295,6 +292,9 @@
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                    STITE 0 0 0 0 0 0 0 2 1
                                   RESUME 0 0 0 0 0 1 0 1 1
                                   HE/SHE 0 0 0 0 0 0 0 0 1

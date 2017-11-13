@@ -26,7 +26,7 @@
                                       CD 0 0 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                       .. 0 0 0 0 0 1 0 1 1
-                                  DEVICE 0 0 0 0 0 1 0 2 0
+                                  DEVICE 0 0 0 0 0 1 0 2 1
                                     TAKE 0 0 0 0 0 0 0 1 1
                                   ANYONE 0 0 0 0 0 1 0 0 1
                            CONFIGURATION 0 0 0 0 0 0 0 1 1
@@ -64,8 +64,8 @@
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 2 1
                                   LETTER 0 0 0 0 0 1 0 0 0
-                                   SLAVE 0 0 0 0 0 0 0 1 0
-                                  MASTER 0 0 0 0 0 1 0 1 0
+                                   SLAVE 0 0 0 0 0 0 0 1 1
+                                  MASTER 0 0 0 0 0 1 0 1 1
                                    CLUES 0 0 0 0 0 1 0 1 1
                                     DATA 0 0 0 0 0 1 0 2 1
                                UTILITIES 0 0 0 0 0 1 0 1 1
@@ -75,7 +75,7 @@
                                  PROCESS 0 0 0 0 0 1 0 1 1
                                     INFO 0 0 0 0 0 0 0 1 1
                                 WARRANTY 0 0 0 0 0 0 0 0 0
-                                     &GT 0 0 0 0 0 0 0 0 0
+                                     &GT 0 0 0 0 0 0 0 0 1
                                CONNECTOR 0 0 0 0 0 0 0 1 1
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
                                    VALUE 0 0 0 0 0 1 0 1 1
@@ -97,7 +97,7 @@
                                 POSITION 1 0 0 0 0 1 0 1 1
                                  FACTORY 0 0 0 0 0 1 0 1 1
                                  OBVIOUS 0 0 0 0 0 0 1 1 1
-                                    RAID 0 0 0 0 0 1 0 2 1
+                                    RAID 0 0 0 0 0 1 0 2 0
                                     PINS 0 0 0 0 0 1 0 1 1
                                      PIN 0 0 0 0 0 0 0 0 0
                                    PAGES 0 0 0 0 0 1 0 1 1

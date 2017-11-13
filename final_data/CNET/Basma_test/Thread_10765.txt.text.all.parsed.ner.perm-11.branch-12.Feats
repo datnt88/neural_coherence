@@ -1,4 +1,4 @@
-                                       $ 0 0 0 0 0 0 1 1 1
+                                       $ 0 0 0 7 0 0 1 1 1
                                     TIME 1 1 0 0 0 1 0 2 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                     THAT 0 0 0 0 0 0 0 1 1
@@ -19,10 +19,10 @@
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                     MOBO 0 0 0 0 0 0 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 1 0
-                                  SUPPLY 0 0 0 0 0 1 0 2 0
+                                  SUPPLY 0 0 0 0 0 1 0 2 1
                                    THOSE 0 0 0 0 0 0 1 1 1
                                      ONE 0 0 0 0 0 1 0 3 1
                                    DRIVE 0 0 0 0 0 1 0 1 0
@@ -35,7 +35,7 @@
                              MOTHERBOARD 0 0 0 0 0 0 0 1 0
                                       PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
-                                       S 0 0 0 0 0 0 0 0 1
+                                       S 0 0 1 0 0 0 0 0 0
                                     BACK 0 0 0 0 0 1 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                     LONG 0 0 0 0 0 1 0 1 1
@@ -43,7 +43,7 @@
                                      RAM 0 0 1 0 0 1 0 3 1
                                      PCI 0 0 0 0 0 0 0 0 0
                                      MID 0 0 1 0 0 0 0 1 1
-                                    CASE 0 1 0 0 0 1 0 2 0
+                                    CASE 0 1 0 0 0 1 0 2 1
                                     SIDE 1 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
@@ -70,7 +70,7 @@
                                     SATA 0 0 0 0 0 0 0 0 0
                                     COPY 0 0 0 0 0 1 0 1 1
                                     CORE 0 0 0 0 0 1 0 0 0
-                                GRAPHICS 0 0 0 0 0 1 0 1 0
+                                GRAPHICS 0 0 0 0 0 1 0 1 1
                              PERFORMANCE 1 1 0 0 0 1 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
@@ -78,7 +78,7 @@
                                    PRICE 0 1 0 0 0 1 0 1 1
                                    BRAND 0 0 0 0 0 1 0 0 0
                                     LESS 0 0 0 7 0 0 0 1 1
-                                   PARTS 1 0 0 0 0 1 0 2 1
+                                   PARTS 1 0 0 0 0 1 0 2 0
                                FRAGMENTS 0 0 0 0 0 1 0 0 0
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 2 1
@@ -117,7 +117,7 @@
                                      END 0 0 0 0 0 1 0 1 1
                                COMPUTERS 0 0 0 0 0 1 0 3 1
                                      BOX 0 0 0 0 0 1 0 1 1
-                                 QUALITY 0 0 0 0 0 1 0 1 1
+                                 QUALITY 0 0 0 0 0 1 0 1 0
                                      WAY 1 0 0 0 0 1 0 2 1
                                     TYPE 0 0 0 0 0 1 0 1 1
                                  SERVICE 0 0 0 0 0 1 0 0 0
@@ -133,16 +133,16 @@
                                      &GT 0 0 0 0 0 0 0 0 1
                                   SCREWS 0 0 0 0 0 0 0 1 1
                               NEWEGG.COM 0 0 0 0 0 0 0 0 1
-                                   STORE 0 0 0 0 0 1 0 1 1
+                                   STORE 0 0 0 0 0 1 0 1 0
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
-                                     CAR 0 1 0 0 0 1 0 1 1
+                                     CAR 0 1 0 0 0 1 0 1 0
                               BACKGROUND 0 0 0 0 0 1 0 1 1
                                    SPACE 0 0 0 0 0 1 0 0 0
                                     DIMM 0 0 0 0 0 0 0 1 1
                                      PCS 0 0 0 0 0 1 0 0 1
                                  GATEWAY 0 0 0 0 0 0 0 1 1
                                     SONY 0 1 1 0 0 1 0 0 0
-                                   VISTA 0 0 0 0 0 0 0 1 0
+                                   VISTA 0 0 0 0 0 0 0 1 1
                                        X 0 0 1 0 0 1 0 1 0
                                   OTHERS 0 0 0 0 0 1 0 0 1
                                BEGINNING 0 0 0 0 0 1 0 1 1
@@ -157,7 +157,7 @@
                                   TODAYS 0 0 0 0 0 0 0 0 0
                                     EDGE 0 0 0 0 0 1 0 1 1
                                 BUILDING 0 0 0 0 0 1 0 1 1
-                                 WALMART 0 0 1 0 0 0 0 0 0
+                                 WALMART 0 0 1 0 0 0 0 0 1
                                   500BUX 0 0 0 0 0 0 0 0 1
                                     CARS 0 1 0 0 0 1 0 1 1
                                    GRAND 0 0 0 0 0 1 0 1 1
@@ -168,13 +168,6 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                     X16 0 0 0 0 0 0 0 1 1
-                                      X1 0 0 0 0 0 0 0 1 1
-                                  BATTER 0 0 0 0 0 0 0 1 1
-                                   PLUGS 0 0 0 0 0 0 0 1 1
-                                 STORIES 0 0 0 0 0 1 0 1 1
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                     BANG 0 0 0 0 0 1 0 0 0
@@ -204,7 +197,14 @@
                                    ALTHO 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   STORMS 0 0 0 0 0 1 0 0 1
+                               EVOLUTION 0 0 0 0 0 1 0 1 1
+                                     10. 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                     X16 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 1 1
+                                  BATTER 0 0 0 0 0 0 0 1 1
+                                   PLUGS 0 0 0 0 0 0 0 1 1
+                                 STORIES 0 0 0 0 0 1 0 1 1
                          TIGERDIRECT.COM 0 0 1 0 0 0 0 0 1
                                     1GIG 0 0 0 0 0 0 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
-                               EVOLUTION 0 0 0 0 0 1 0 1 1

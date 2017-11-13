@@ -1,4 +1,4 @@
-                                       $ 0 0 0 0 0 0 1 2 1
+                                       $ 0 0 0 7 0 0 1 2 1
                                     TIME 1 1 0 0 0 1 0 1 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                   PERSON 0 1 0 0 0 1 0 1 1
@@ -28,13 +28,13 @@
                                      ONE 0 0 0 0 0 1 0 2 1
                                    DRIVE 0 0 0 0 0 1 0 3 0
                                    YEARS 1 1 0 0 0 1 0 1 1
-                                PROBLEMS 0 0 0 0 0 1 0 2 1
+                                PROBLEMS 0 0 0 0 0 1 0 2 0
                                     DISK 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                    THREE 0 0 0 0 0 1 0 0 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
                                    OTHER 0 0 0 0 0 0 0 1 1
-                                    KIND 0 0 0 0 0 1 0 1 0
+                                    KIND 0 0 0 0 0 1 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                              MOTHERBOARD 0 0 0 0 0 0 0 3 1
                                       PC 0 0 0 0 0 1 0 2 1
@@ -65,7 +65,7 @@
                                     ETC. 0 0 0 0 0 0 0 2 1
                                      TOY 0 0 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 0 1
+                                      HP 0 0 1 0 0 0 0 0 0
                                      FUN 0 0 0 0 0 1 0 0 1
                                   BUDGET 0 1 0 0 0 1 0 1 1
                                     MANY 0 0 0 0 0 0 1 1 1
@@ -92,7 +92,7 @@
                                     GAME 0 0 0 0 0 1 0 0 0
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 0 0
-                                   TIMES 0 1 0 0 0 1 0 1 0
+                                   TIMES 0 1 0 0 0 1 0 1 1
                                PROCESSOR 0 0 0 0 0 0 0 2 0
                                  EXAMPLE 0 0 0 0 0 1 0 1 1
                                      PC. 0 0 0 0 0 0 0 1 1
@@ -101,7 +101,7 @@
                                  PENTIUM 0 0 0 0 0 0 0 1 1
                                   ONLINE 0 0 0 0 0 1 0 1 1
                               COMPATIBLE 0 0 0 0 0 0 0 1 1
-                                    DELL 0 0 1 0 0 0 0 2 0
+                                    DELL 0 0 1 0 0 0 0 2 1
                                     GOOD 0 0 0 0 0 1 0 0 1
                                     CMOS 0 0 0 0 0 0 0 1 1
                                ALIENWARE 0 0 0 0 0 0 0 0 0
@@ -149,8 +149,8 @@
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 1 1
-                                    TECH 0 0 1 0 0 0 1 0 0
-                                   BOARD 0 1 0 0 0 1 0 1 1
+                                    TECH 0 0 1 0 0 0 1 0 1
+                                   BOARD 0 1 0 0 0 1 0 1 0
                                   BRANDS 0 1 0 0 0 1 0 1 1
                                  CLIENTS 0 1 0 0 0 1 0 1 1
                                    START 0 0 0 0 0 1 0 1 1
@@ -162,7 +162,7 @@
                               EXPERIENCE 0 0 0 0 0 1 0 2 1
                                  PROCESS 0 0 0 0 0 1 0 1 1
                                    TYPES 0 1 0 0 0 1 0 1 1
-                                WARRANTY 0 0 0 0 0 0 0 1 1
+                                WARRANTY 0 0 0 0 0 0 0 1 0
                                       PS 0 1 1 0 0 0 0 0 0
                               NEWEGG.COM 0 0 0 0 0 0 0 0 0
                                    STORE 0 0 0 0 0 1 0 1 1
@@ -212,9 +212,9 @@
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
                                    DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
                                  SCANNER 0 0 0 0 0 0 0 1 1
@@ -224,7 +224,7 @@
                                 ADDITION 0 0 0 0 0 1 0 0 1
                                      MAP 0 0 0 0 0 1 0 1 1
                                RESOURCES 0 0 0 0 0 1 0 0 1
-                                  BURNER 0 0 0 0 0 0 1 1 1
+                                  BURNER 0 0 0 0 0 0 1 1 0
                                     WALL 0 0 0 0 0 1 0 1 1
                                BAREBONES 0 0 0 0 0 0 0 0 0
                                   PIECES 0 0 0 0 0 1 0 1 1
@@ -241,7 +241,7 @@
                                     LIFE 0 0 0 0 0 1 0 0 1
                               PREFERENCE 0 0 0 0 0 1 0 1 1
                                   ADVISE 0 0 0 0 0 0 0 1 1
-                                    STAN 0 0 1 0 0 0 0 1 0
+                                    STAN 0 0 1 0 0 0 0 1 1
                                  CD-R/RW 0 0 0 0 0 0 0 2 1
                                FAVORITES 0 0 0 0 0 1 0 1 1
                                      ADS 0 0 0 0 0 1 0 1 1
@@ -280,20 +280,20 @@
                                     IMO. 0 0 1 0 0 0 0 0 1
                               W/HEATSINK 0 0 0 0 0 0 0 0 0
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                                  FERVOR 0 0 0 0 0 0 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                     CERT 0 0 0 0 0 0 0 1 1
                              STITES&QUOT 0 0 0 0 0 0 0 0 1
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
                              INSTABILITY 0 0 0 0 0 1 0 0 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                    9.99 0 0 0 7 0 0 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
+                                  FERVOR 0 0 0 0 0 0 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                    STITE 0 0 0 0 0 0 0 1 1
                                   RESUME 0 0 0 0 0 1 0 1 1
                               BONES&QUOT 0 0 0 0 0 0 0 1 1

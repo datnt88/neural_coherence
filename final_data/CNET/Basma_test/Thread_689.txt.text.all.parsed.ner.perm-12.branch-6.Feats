@@ -26,7 +26,7 @@
                                     CASE 0 1 0 0 0 1 0 0 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
-                                      .. 0 0 0 0 0 1 0 1 0
+                                      .. 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
                                    PHONE 0 0 0 0 0 1 0 1 0
                                       'S 0 0 0 0 0 0 0 1 1
@@ -34,7 +34,7 @@
                                     DAYS 0 0 0 0 0 1 0 1 1
                                      B/C 0 0 0 0 0 0 0 1 1
                                      USE 1 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 1 1
+                                      HP 0 0 1 0 0 0 0 1 0
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
                                YESTERDAY 0 0 0 6 0 1 0 0 1
@@ -53,10 +53,10 @@
                                      FIX 0 0 0 0 0 0 0 1 1
                                       2. 0 0 0 0 0 0 0 1 1
                                    BLACK 0 0 0 0 0 1 0 1 1
-                                   TODAY 0 0 0 6 0 1 0 0 1
+                                   TODAY 0 0 0 0 0 1 0 0 0
                                  WEBSITE 0 0 0 0 0 0 0 1 1
                                     POST 0 0 0 0 0 1 0 1 1
-                                 SUPPORT 0 0 0 0 0 1 0 1 1
+                                 SUPPORT 0 0 0 0 0 1 0 1 0
                                   FACTOR 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
                                  SETTING 0 0 0 0 0 1 0 1 1
@@ -122,7 +122,7 @@
                                    WOMAN 0 0 0 0 0 1 0 1 1
                                   LIMITS 0 0 0 0 0 1 0 1 1
                                 DOCUMENT 1 0 0 0 0 1 0 1 1
-                                     INK 0 0 0 0 0 1 0 0 0
+                                     INK 0 0 0 0 0 1 0 0 1
                                CARTRIDGE 0 0 0 0 0 0 0 1 1
                                    COLOR 0 0 0 0 0 1 0 0 0
                                   COLORS 0 0 0 0 0 1 0 1 1
@@ -131,8 +131,8 @@
                                    AVAIL 0 0 0 0 0 0 0 1 1
                                      !!! 0 0 0 0 0 0 0 0 1
                                    PANEL 0 0 0 0 0 1 0 1 1
-                                     FAX 0 0 0 0 0 0 0 1 1
-                                 MISTAKE 0 0 0 0 0 1 0 1 1
+                                     FAX 0 0 0 0 0 0 0 1 0
+                                 MISTAKE 0 0 0 0 0 1 0 1 0
                                    PAGES 0 0 0 0 0 1 0 1 1
                                     WIFE 0 0 0 0 0 1 0 1 1
                                      TAX 0 1 0 0 0 1 0 0 0
@@ -161,7 +161,7 @@
                                    STRAW 0 0 0 0 0 1 0 1 1
                                       PM 0 0 0 0 0 0 0 1 1
                                     REF. 0 0 0 0 0 0 0 0 1
-                                  REFILL 0 0 0 0 0 0 0 1 0
+                                  REFILL 0 0 0 0 0 0 0 1 1
                                 FAX&QUOT 0 0 0 0 0 0 0 1 1
                                    FAXES 0 0 0 0 0 1 0 0 1
                              BUTTON&QUOT 0 0 0 0 0 0 0 1 1
@@ -169,14 +169,8 @@
                                SALVATION 0 0 0 0 0 0 0 0 0
                                    MP530 0 0 0 0 0 0 0 2 1
                                   CX9400 0 0 0 0 0 0 0 1 1
-                                 9400FAX 0 0 0 0 0 0 0 1 1
+                               TELEPHONE 0 0 0 0 0 1 0 1 0
                                CX9400FAX 0 0 0 0 0 0 0 1 1
-                               FOODFIEND 0 0 0 0 0 0 0 0 1
-                                QUANDARY 0 0 0 0 0 0 0 1 1
-                              TROYSUAREZ 0 0 0 0 0 0 0 1 1
-                                    R260 0 0 0 0 0 0 0 1 1
-                               CARTRAGES 0 0 0 0 0 0 0 2 1
-                               TELEPHONE 0 0 0 0 0 1 0 1 1
                                 OK.&QUOT 0 0 0 0 0 0 0 0 1
                                  SMUDGES 0 0 0 0 0 0 0 1 1
                                WRITE-OFF 0 0 0 0 0 0 0 1 1
@@ -187,3 +181,9 @@
                                   AGENCY 0 1 0 0 0 1 0 1 1
                                    ESPON 0 0 0 0 0 0 0 1 1
                                   CX6000 0 0 0 0 0 0 0 1 1
+                                 9400FAX 0 0 0 0 0 0 0 1 1
+                               FOODFIEND 0 0 0 0 0 0 0 0 1
+                                QUANDARY 0 0 0 0 0 0 0 1 1
+                              TROYSUAREZ 0 0 0 0 0 0 0 1 1
+                                    R260 0 0 0 0 0 0 0 1 1
+                               CARTRAGES 0 0 0 0 0 0 0 2 1

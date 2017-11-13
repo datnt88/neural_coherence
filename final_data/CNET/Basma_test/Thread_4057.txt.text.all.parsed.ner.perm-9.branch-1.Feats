@@ -42,7 +42,7 @@
                                    WHOLE 0 0 0 0 0 0 0 0 0
                                 HARDWARE 0 0 0 0 0 0 0 0 0
                                 COMPUTER 0 1 0 0 0 1 0 2 0
-                                    HARD 0 0 0 0 0 0 0 1 0
+                                    HARD 0 0 0 0 0 0 0 1 1
                                     SELF 0 0 0 0 0 1 0 0 0
                                    THOSE 0 0 0 0 0 0 1 0 1
                                     THEN 0 0 0 0 0 0 1 0 0
@@ -68,7 +68,7 @@
                                       AS 0 0 0 0 0 1 0 0 0
                                    WHILE 0 0 0 0 0 1 0 0 0
                                       OR 0 0 0 0 0 0 0 0 0
-                                   &QUOT 0 0 0 0 0 0 0 3 0
+                                   &QUOT 0 0 0 0 0 0 0 3 1
                                        ; 0 0 0 0 0 0 0 0 0
                                     WELL 0 0 0 0 0 1 0 0 0
                                    THERE 0 0 0 0 0 0 1 0 1
@@ -84,7 +84,7 @@
                                  STARTED 0 0 0 0 0 0 0 0 0
                                  GETTING 0 0 0 0 0 0 0 0 0
                                    WHICH 0 0 0 0 0 0 1 0 0
-                              CONNECTION 0 0 0 0 0 1 0 1 1
+                              CONNECTION 0 0 0 0 0 1 0 1 0
                                  BETWEEN 0 0 0 0 0 0 1 0 0
                                 EVERYONE 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 0 0
@@ -103,7 +103,7 @@
                                   ALWAYS 0 0 0 0 0 0 0 0 0
                                    LEAST 0 0 0 0 0 0 1 0 0
                                    ABOVE 0 0 0 0 0 0 1 0 0
-                                 WINDOWS 0 0 0 0 0 1 0 1 1
+                                 WINDOWS 0 0 0 0 0 1 0 1 0
                                  DESKTOP 0 0 0 0 0 0 1 1 1
                                   AROUND 0 0 0 0 0 0 0 0 0
                                      OWN 0 0 0 0 0 0 1 0 0
@@ -137,8 +137,8 @@
                                   ROUTER 0 0 0 0 0 0 0 1 0
                                 INTERNET 0 0 0 0 0 1 0 0 0
                                    SETUP 0 0 0 0 0 0 0 1 0
-                                 INSTALL 0 0 0 0 0 0 0 1 0
-                                 NETWORK 0 0 0 0 0 1 0 3 1
+                                 INSTALL 0 0 0 0 0 0 0 1 1
+                                 NETWORK 0 0 0 0 0 1 0 3 0
                                     PAGE 0 0 0 0 0 1 0 0 0
                                     HELP 0 0 0 0 0 1 0 1 1
                                    POINT 0 0 0 0 0 1 0 0 0
@@ -152,13 +152,13 @@
                                     EASY 0 0 0 0 0 1 0 0 0
                                      END 0 0 0 0 0 1 0 0 0
                                COMPUTERS 0 0 0 0 0 1 0 0 0
-                                  SERVER 0 0 0 0 0 0 0 1 0
+                                  SERVER 0 0 0 0 0 0 0 1 1
                                       IP 0 0 0 0 0 0 0 1 1
                                      JOB 0 1 0 0 0 1 0 0 0
                                    MATCH 0 0 0 0 0 1 0 0 0
-                                     WAY 1 0 0 0 0 1 0 1 1
+                                     WAY 1 0 0 0 0 1 0 1 0
                                  TROUBLE 0 0 0 0 0 1 0 1 1
-                                    HOME 0 0 0 0 0 1 0 1 0
+                                    HOME 0 0 0 0 0 1 0 1 1
                                   ACCESS 0 0 0 0 0 1 0 0 1
                                 SOFTWARE 0 1 0 0 0 1 0 0 0
                                  SERVICE 0 0 0 0 0 1 0 0 0
@@ -183,7 +183,7 @@
                                   CABLES 0 0 0 0 0 1 0 0 0
                                   TAKING 0 0 0 0 0 0 0 0 0
                                    OWNER 0 0 0 0 0 1 0 1 1
-                                    LINE 0 0 0 0 0 1 0 1 0
+                                    LINE 0 0 0 0 0 1 0 1 1
                                    TECHS 0 0 0 0 0 0 0 0 0
                                   EASILY 0 0 0 0 0 0 0 0 0
                                   SHARES 1 1 0 0 0 1 0 1 1
@@ -197,7 +197,7 @@
                                    ARENT 0 0 0 0 0 0 0 0 0
                                    DISKS 0 0 0 0 0 1 0 0 1
                                      WIN 0 0 0 0 0 1 0 0 0
-                              NETWORKING 0 0 0 0 0 0 0 1 0
+                              NETWORKING 0 0 0 0 0 0 0 1 1
                                     PATH 0 0 0 0 0 1 0 0 0
                                   PERIOD 0 0 0 0 0 1 0 0 0
                                  TRAFFIC 0 0 0 0 0 1 0 0 0
@@ -225,7 +225,7 @@
                                 ACCOUNTS 0 0 0 0 0 1 0 1 1
                                   MEMBER 0 1 0 0 0 1 0 0 0
                                    USERS 0 0 0 0 0 1 0 0 1
-                                  DOMAIN 0 0 0 0 0 0 0 1 1
+                                  DOMAIN 0 0 0 0 0 0 0 1 0
                                 TRANSFER 0 0 0 0 0 1 0 0 0
                                    CISCO 0 0 0 0 0 0 0 0 0
                                  MISTAKE 0 0 0 0 0 1 0 0 1
@@ -287,5 +287,5 @@
                         ROUTERDCHPSERVER 0 0 0 0 0 0 0 0 0
                                   NETWOK 0 0 0 0 0 0 0 0 0
                                   GEARED 0 0 0 0 0 0 0 0 0
-                             1-800-33QAD 0 0 0 0 0 0 0 1 0
+                             1-800-33QAD 0 0 0 0 0 0 0 1 1
                                REAL&QUOT 0 0 0 0 0 0 0 0 1

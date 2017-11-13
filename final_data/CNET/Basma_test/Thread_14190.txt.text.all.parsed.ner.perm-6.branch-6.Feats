@@ -3,7 +3,7 @@
                                    SPEED 0 0 0 0 0 1 0 1 1
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
                                    THESE 0 0 0 0 0 0 1 0 1
-                              TECHNOLOGY 1 0 0 0 0 1 0 1 0
+                              TECHNOLOGY 1 0 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
                                     CHIP 0 0 0 0 0 1 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 0 0
@@ -25,7 +25,7 @@
                                      RAM 0 0 1 0 0 1 0 1 1
                                     SIDE 1 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 0 0
+                                  MEMORY 0 1 0 0 0 1 0 0 1
                                    CHIPS 0 0 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 1 1
                                 EVERYONE 0 0 0 0 0 1 0 0 1
@@ -41,13 +41,13 @@
                                      BOB 0 1 1 0 0 1 0 0 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                  WINDOWS 0 0 0 0 0 1 0 0 1
-                                 DESKTOP 0 0 0 0 0 0 1 1 1
+                                 DESKTOP 0 0 0 0 0 0 1 1 0
                                   COUPLE 0 0 0 0 0 1 0 0 0
                           CONFIGURATIONS 0 0 0 0 0 0 0 0 0
                                   GAMING 0 0 0 0 0 0 0 1 0
                                      CPU 0 0 0 0 0 0 0 1 1
-                                   INTEL 0 0 1 0 0 1 0 1 1
-                                    DDR3 0 0 1 0 0 0 0 1 1
+                                   INTEL 0 0 1 0 0 1 0 1 0
+                                    DDR3 0 0 0 0 0 0 0 1 1
                                     CORE 0 0 0 0 0 1 0 0 0
                              PERFORMANCE 1 1 0 0 0 1 0 0 0
                                     PART 1 0 0 0 0 1 0 1 1
@@ -80,7 +80,7 @@
                                     HELP 0 0 0 0 0 1 0 0 0
                                  RUNNING 0 0 0 0 0 0 0 1 1
                                PARTITION 0 0 0 0 0 0 1 1 1
-                                     END 0 0 0 0 0 1 0 1 1
+                                     END 0 0 0 0 0 1 0 1 0
                                   SERVER 0 0 0 0 0 0 0 0 0
                                      MAC 0 0 1 0 0 1 0 0 0
                                     FACT 1 0 0 0 0 1 0 1 1
@@ -127,11 +127,11 @@
                                      TOP 0 0 0 0 0 1 0 3 1
                                  BALANCE 0 0 0 0 0 1 0 1 1
                              WORKSTATION 0 0 0 0 0 0 0 0 0
-                                    XEON 0 0 0 0 0 0 0 1 1
+                                    XEON 0 0 0 0 0 0 0 1 0
                               ADVANTAGES 0 0 0 0 0 1 0 1 1
                                   CONFIG 0 0 0 0 0 0 0 1 1
                                    QUEST 0 0 0 0 0 1 0 1 1
-                                    QUAD 0 0 0 0 0 0 0 0 0
+                                    QUAD 0 0 0 0 0 0 0 0 1
                                 EXTREMES 0 0 0 0 0 0 0 0 0
                                      EYE 0 0 0 0 0 1 0 1 1
                              IMPROVEMENT 0 0 0 0 0 1 0 1 1
@@ -144,7 +144,7 @@
                                    STAFF 0 0 0 0 0 1 0 1 1
                                  SERVERS 0 0 0 0 0 1 0 1 1
                                    FORCE 0 0 0 0 0 1 0 1 1
-                               PHOTOSHOP 0 0 0 0 0 0 0 1 1
+                               PHOTOSHOP 0 0 0 0 0 0 0 1 0
                                 THOUSAND 0 0 0 0 0 0 1 1 1
                              BETTER&QUOT 0 0 0 0 0 0 0 0 1
                                  RANKING 0 0 0 0 0 0 0 1 1
@@ -155,7 +155,7 @@
                                    RATES 0 1 0 0 0 1 0 1 1
                                PERFORMER 0 0 0 0 0 1 0 1 1
                                      PLS 0 0 0 0 0 0 0 0 1
-                                 ITANIUM 0 0 0 0 0 0 0 0 1
+                                 ITANIUM 0 0 1 0 0 0 0 0 1
                                       FP 0 0 0 0 0 0 0 0 0
                                      OPS 0 0 0 0 0 0 0 2 1
                                      SEC 0 0 1 0 0 1 0 0 1

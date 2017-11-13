@@ -8,17 +8,17 @@
                                    VIDEO 0 1 0 0 0 1 0 0 0
                                     CARD 0 1 0 0 0 1 0 2 1
                               EVERYTHING 0 0 0 0 0 1 0 1 1
-                                     BIT 0 0 0 0 0 1 0 2 1
+                                     BIT 0 0 0 0 0 1 0 2 0
                                    CARDS 0 0 0 0 0 1 0 1 1
                                      ATI 0 0 0 0 0 0 0 0 1
                                       MB 0 0 0 0 0 0 0 1 1
                                    PCI-E 0 0 0 0 0 0 0 1 1
                                     MOBO 0 0 0 0 0 0 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
-                                   POWER 0 1 0 0 0 1 0 1 0
+                                   POWER 0 1 0 0 0 1 0 1 1
                                   SUPPLY 0 0 0 0 0 1 0 0 0
                                      ONE 0 0 0 0 0 1 0 1 1
-                                   DRIVE 0 0 0 0 0 1 0 1 1
+                                   DRIVE 0 0 0 0 0 1 0 1 0
                                  MACHINE 0 1 0 0 0 1 0 0 0
                                      NOW 0 0 0 0 0 0 0 1 1
                                     KIND 0 0 0 0 0 1 0 1 1
@@ -35,7 +35,7 @@
                                    THERE 0 0 0 0 0 0 1 0 1
                                  DRIVERS 0 1 0 0 0 1 0 0 0
                                      ANY 0 0 0 0 0 0 1 0 1
-                                     RAM 0 0 1 0 0 1 0 1 0
+                                     RAM 0 0 1 0 0 1 0 1 1
                                     CASE 0 1 0 0 0 1 0 0 0
                                       .. 0 0 0 0 0 1 0 2 1
                                     ONLY 0 0 0 0 0 0 1 1 1
@@ -62,7 +62,7 @@
                                    TOWER 0 0 0 0 0 1 0 0 0
                                     BUCK 0 0 0 0 0 1 0 0 0
                                       HD 0 0 1 0 0 0 0 0 0
-                                   PARTS 1 0 0 0 0 1 0 1 1
+                                   PARTS 1 0 0 0 0 1 0 1 0
                                     COST 0 0 0 0 0 1 0 0 0
                                 PLANNING 0 0 0 0 0 1 0 0 0
                                      MAX 0 0 1 0 0 1 0 1 1
@@ -79,7 +79,7 @@
                                    FORUM 0 0 0 0 0 1 0 1 1
                                    ISSUE 0 1 0 0 0 1 0 1 1
                                  SUPPORT 0 0 0 0 0 1 0 1 1
-                                    PLUG 0 0 0 0 0 0 1 0 1
+                                    PLUG 0 0 0 0 0 0 1 0 0
                                    DIDNT 0 0 0 0 0 0 0 1 1
                                     HELP 0 0 0 0 0 1 0 0 1
                                   COOLER 0 0 0 0 0 0 0 1 1
@@ -103,25 +103,25 @@
                                    VISTA 0 0 0 0 0 0 0 1 1
                                   THREAD 0 0 0 0 0 0 0 1 1
                                  EXTREME 0 0 0 0 0 0 0 1 1
-                                  LIGHTS 0 0 0 0 0 1 0 1 0
+                                  LIGHTS 0 0 0 0 0 1 0 1 1
                                     CNET 0 0 0 0 0 0 0 0 0
                                       VE 0 0 0 0 0 0 0 1 1
                                 BUILDING 0 0 0 0 0 1 0 0 0
-                                   PLUGS 0 0 0 0 0 0 0 2 1
-                                     KIT 0 0 0 0 0 1 0 1 0
                                     BANG 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 0 0
+                                   PLUGS 0 0 0 0 0 0 0 2 1
+                                     KIT 0 0 0 0 0 1 0 1 0
                                 ARTICLES 0 0 0 0 0 1 0 1 1
                                   MEMBER 0 1 0 0 0 1 0 1 1
                                     650W 0 0 1 0 0 0 0 0 1
                                     XEON 0 0 0 0 0 0 0 0 0
-                                     SLI 0 0 0 0 0 0 0 0 0
+                                     SLI 0 0 0 0 0 0 0 0 1
                          RECOMMENDATIONS 0 1 0 0 0 1 0 1 1
                                    BUYER 0 1 0 0 0 1 0 0 0
                                   WINDOW 0 0 0 0 0 1 0 0 0
                                      1ST 0 0 0 0 0 0 0 0 0
                                    WHATS 0 0 0 0 0 0 0 1 1
-                                 COUNTRY 0 0 0 0 0 1 0 1 1
+                                 COUNTRY 0 0 0 0 0 1 0 1 0
                                     LEAD 0 0 0 0 0 1 0 1 1
                                      PIN 0 0 0 0 0 0 0 3 0
                                      RED 0 0 0 0 0 1 0 0 1
@@ -141,7 +141,7 @@
                                     HILL 0 0 0 0 0 1 0 1 1
                                      CRY 0 0 0 0 0 1 0 1 1
                                       ES 0 0 0 0 0 0 0 1 1
-                                   -LSB- 0 0 1 0 0 0 0 1 1
+                                   -LSB- 0 0 0 0 0 0 0 1 1
                                 PROOFING 0 0 0 0 0 0 0 1 1
                                COMPUVEST 0 0 0 0 0 0 0 0 0
                                    SPEDO 0 0 0 0 0 0 0 0 0

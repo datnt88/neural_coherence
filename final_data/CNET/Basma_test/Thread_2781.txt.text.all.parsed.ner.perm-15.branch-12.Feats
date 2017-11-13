@@ -13,14 +13,14 @@
                                UPGRADING 0 0 0 0 0 0 0 1 1
                                  UPGRADE 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 2 0
+                                COMPUTER 0 1 0 0 0 1 0 2 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
                                  DIGITAL 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
-                                PROBLEMS 0 0 0 0 0 1 0 1 0
+                                PROBLEMS 0 0 0 0 0 1 0 1 1
                                     DISK 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                    THREE 0 0 0 0 0 1 0 0 1
@@ -40,7 +40,7 @@
                                      ANY 0 0 0 0 0 0 1 1 1
                                      AMD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 1 1
-                                     RAM 0 0 1 0 0 1 0 1 0
+                                     RAM 0 0 1 0 0 1 0 1 1
                                     CASE 0 1 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
@@ -68,13 +68,13 @@
                                   CHOICE 0 0 0 0 0 1 0 1 1
                                    PARTS 1 0 0 0 0 1 0 2 1
                                     COST 0 0 0 0 0 1 0 1 1
-                                   TIMES 0 1 0 0 0 1 0 1 1
+                                   TIMES 0 1 0 0 0 1 0 1 0
                                PROCESSOR 0 0 0 0 0 0 0 1 1
                                  EXAMPLE 0 0 0 0 0 1 0 0 1
                                      FAN 0 0 0 0 0 1 0 2 1
                               PROCESSORS 0 0 0 0 0 1 0 0 1
                                   ONLINE 0 0 0 0 0 1 0 1 1
-                                    DELL 0 0 1 0 0 0 0 1 0
+                                    DELL 0 0 1 0 0 0 0 1 1
                                     CMOS 0 0 0 0 0 0 0 1 1
                                     CANT 0 0 0 0 0 0 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
@@ -114,7 +114,7 @@
                               EXPERIENCE 0 0 0 0 0 1 0 1 1
                                  PROCESS 0 0 0 0 0 1 0 1 1
                                    TYPES 0 1 0 0 0 1 0 1 1
-                                WARRANTY 0 0 0 0 0 0 0 1 1
+                                WARRANTY 0 0 0 0 0 0 0 1 0
                                    STORE 0 0 0 0 0 1 0 1 1
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
                                     MIND 0 0 0 0 0 1 0 0 1
@@ -142,7 +142,7 @@
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                    DEALS 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 0 0
-                              PROCESSING 0 0 0 0 0 0 0 1 1
+                              PROCESSING 0 0 0 0 0 0 0 1 0
                                      RPM 0 0 0 0 0 0 0 1 0
                                      FEE 0 0 0 0 0 1 0 1 1
                                 ADDITION 0 0 0 0 0 1 0 0 1

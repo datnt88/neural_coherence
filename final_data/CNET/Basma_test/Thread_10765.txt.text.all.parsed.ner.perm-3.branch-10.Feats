@@ -12,11 +12,11 @@
                                     SAME 0 0 0 0 0 0 1 1 1
                                    SPEED 0 0 0 0 0 1 0 1 1
                                  UPGRADE 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 0
+                                  SYSTEM 0 1 0 0 0 1 0 1 1
                                     YEAR 0 1 0 0 0 1 0 1 0
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 0
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 0 0
                                     SELF 0 0 0 0 0 1 0 1 1
@@ -32,8 +32,8 @@
                                     KIND 0 0 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 1 1
                                     FOUR 0 0 0 0 0 1 0 0 1
-                             MOTHERBOARD 0 0 0 0 0 0 0 2 0
-                                      PC 0 0 0 0 0 1 0 3 0
+                             MOTHERBOARD 0 0 0 0 0 0 0 2 1
+                                      PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                     BACK 0 0 0 0 0 1 0 1 1
                                      PSU 0 0 0 0 0 0 0 0 1
@@ -91,7 +91,7 @@
                                        D 0 0 1 0 0 1 0 1 1
                                PROCESSOR 0 0 0 0 0 0 0 0 0
                                  PENTIUM 0 0 0 0 0 0 0 0 0
-                                    DELL 0 0 1 0 0 0 0 1 1
+                                    DELL 0 0 1 0 0 0 0 1 0
                                  MONITOR 0 0 0 0 0 0 0 1 1
                                     SLOT 0 0 0 0 0 1 0 1 1
                                   MIDDLE 0 0 0 0 0 1 0 1 1
@@ -126,7 +126,7 @@
                                      WAY 1 0 0 0 0 1 0 1 1
                                  TROUBLE 0 0 0 0 0 1 0 0 0
                                     HOME 0 0 0 0 0 1 0 1 0
-                                  OFFICE 0 0 0 0 0 1 0 1 0
+                                  OFFICE 0 0 0 0 0 1 0 1 1
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
@@ -166,7 +166,7 @@
                                       ID 0 0 0 0 0 0 1 0 1
                                      JIM 0 0 1 0 0 1 0 0 0
                                       IV 0 0 1 0 0 1 0 0 1
-                                  COMPAQ 0 0 1 0 0 1 0 1 0
+                                  COMPAQ 0 0 1 0 0 1 0 1 1
                                    WASNT 0 0 0 0 0 0 0 1 1
                                    FOCUS 0 0 0 0 0 1 0 1 1
                                      AIR 0 0 0 0 0 1 0 0 0
@@ -177,12 +177,29 @@
                                     CARS 0 1 0 0 0 1 0 1 1
                                  MUSTANG 0 0 0 0 0 1 0 1 1
                                 TINKERER 0 0 0 0 0 0 0 1 1
+                                    2HRS 0 0 0 0 0 0 0 1 1
+                               HOMEBUILT 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
+                                      EH 0 0 0 0 0 0 0 0 1
+                                    LACK 0 0 0 0 0 1 0 1 1
+                                AMERICAN 0 0 0 0 0 1 0 1 1
+                                  OUTLET 0 0 0 0 0 0 0 1 1
+                                LOGITECH 0 0 0 0 0 0 0 1 1
+                                    CAVE 0 0 1 0 0 1 0 0 1
+                                BARNYARD 0 0 0 0 0 0 0 0 1
+                                 SEMPRON 0 0 0 0 0 0 0 1 1
+                               W/MONITOR 0 0 0 0 0 0 0 1 1
+                               PREFERRED 0 0 0 0 0 0 0 1 1
+                                    ROAD 0 0 0 0 0 1 0 1 1
+                                    BELL 0 1 0 0 0 1 0 1 1
+                                    2GIG 0 0 0 0 0 0 0 1 1
+                               EVOLUTION 0 0 0 0 0 1 0 1 1
+                               NORTHLITE 0 0 1 0 0 0 0 0 1
                                      10. 0 0 0 0 0 0 0 1 1
                                      X16 0 0 0 0 0 0 0 1 1
                                       X1 0 0 0 0 0 0 0 1 1
                                   BATTER 0 0 0 0 0 0 0 1 1
                                    PLUGS 0 0 0 0 0 0 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
                                 CORE2DUO 0 0 0 0 0 0 0 0 0
                                MID-TOWER 0 0 0 0 0 0 0 0 0
                                    SHEET 0 0 0 0 0 1 0 0 0
@@ -199,21 +216,6 @@
                                     10MS 0 0 0 0 0 0 0 0 0
                                     LOTS 0 0 0 0 0 1 0 1 1
                                   PLACES 0 0 0 0 0 1 0 1 1
-                                    2HRS 0 0 0 0 0 0 0 1 1
-                               HOMEBUILT 0 0 0 0 0 0 0 1 1
-                                      EH 0 0 0 0 0 0 0 0 1
-                                    LACK 0 0 0 0 0 1 0 1 1
-                                AMERICAN 0 0 0 0 0 1 0 1 1
-                                  OUTLET 0 0 0 0 0 0 0 1 1
-                                LOGITECH 0 0 0 0 0 0 0 1 1
-                                    CAVE 0 0 1 0 0 1 0 0 1
-                                BARNYARD 0 0 0 0 0 0 0 0 1
-                                 SEMPRON 0 0 0 0 0 0 0 1 1
-                               W/MONITOR 0 0 0 0 0 0 0 1 1
-                               PREFERRED 0 0 0 0 0 0 0 1 1
-                                    ROAD 0 0 0 0 0 1 0 1 1
-                                    BELL 0 1 0 0 0 1 0 1 1
-                                    2GIG 0 0 0 0 0 0 0 1 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1
                               EQUIVALENT 0 0 0 0 0 0 0 0 0
@@ -222,5 +224,3 @@
                                     FALL 1 1 0 0 0 1 0 0 0
                                   SHORTS 0 0 0 0 0 1 0 1 1
                                      YRS 0 0 0 0 0 0 0 1 1
-                               NORTHLITE 0 0 1 0 0 0 0 0 1
-                               EVOLUTION 0 0 0 0 0 1 0 1 1

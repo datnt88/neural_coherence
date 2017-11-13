@@ -9,7 +9,7 @@
                                 COMPUTER 0 1 0 0 0 1 0 1 0
                                     KILL 0 0 0 0 0 0 1 0 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
-                                   POWER 0 1 0 0 0 1 0 1 0
+                                   POWER 0 1 0 0 0 1 0 1 1
                                   SUPPLY 0 0 0 0 0 1 0 1 1
                                  DIGITAL 0 0 0 0 0 1 0 2 1
                                     THEN 0 0 0 0 0 0 1 0 1
@@ -40,7 +40,7 @@
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                       OS 0 0 0 0 0 0 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 0 1
+                                 WINDOWS 0 0 0 0 0 1 0 0 0
                                  DESKTOP 0 0 0 0 0 0 1 1 1
                              PERFORMANCE 1 1 0 0 0 1 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
@@ -71,7 +71,7 @@
                                      ETC 0 0 0 0 0 0 1 1 0
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                     DATA 0 0 0 0 0 1 0 1 1
-                                  BACKUP 0 0 0 0 0 0 0 1 1
+                                  BACKUP 0 0 0 0 0 0 0 1 0
                                 INSTANCE 0 0 0 0 0 1 0 1 1
                                 FIREWALL 0 0 0 0 0 0 0 1 1
                                    VIRUS 0 0 0 0 0 1 0 0 0
@@ -130,10 +130,6 @@
                              DEGRADATION 0 0 0 0 0 0 0 1 1
                                   MOTORS 0 0 0 0 0 1 0 0 0
                                 BEARINGS 0 0 0 0 0 0 0 0 1
-                                   CIRCS 0 0 0 0 0 0 0 1 1
-                                    2MIN 0 0 0 0 0 0 0 0 1
-                                   10MIN 0 0 0 0 0 0 0 1 1
-                                PARTIION 0 0 0 0 0 0 0 1 1
                                  B--WITH 0 0 0 0 0 0 0 1 1
                          SEAGATE/COMPUSA 0 0 0 0 0 0 0 1 1
                               RETROSPECT 0 0 0 0 0 0 1 0 0
@@ -142,3 +138,7 @@
                                   PATROL 0 0 0 0 0 1 0 1 1
                                  WAY--IF 0 0 0 0 0 0 0 1 1
                                       LT 0 0 0 0 0 0 0 1 1
+                                   CIRCS 0 0 0 0 0 0 0 1 1
+                                    2MIN 0 0 0 0 0 0 0 0 1
+                                   10MIN 0 0 0 0 0 0 0 1 1
+                                PARTIION 0 0 0 0 0 0 0 1 1

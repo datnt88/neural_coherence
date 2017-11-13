@@ -39,7 +39,7 @@
                                 EVERYONE 0 0 0 0 0 1 0 0 1
                                   MARKET 0 1 0 0 0 1 0 1 1
                                   TABLET 0 0 0 0 0 0 0 3 1
-                                   PHONE 0 0 0 0 0 1 0 1 1
+                                   PHONE 0 0 0 0 0 1 0 1 0
                                  COMPANY 0 1 0 0 0 1 0 1 1
                                     HERE 0 0 0 0 0 0 1 0 1
                                 FEATURES 0 0 0 0 0 1 0 1 1
@@ -50,12 +50,12 @@
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                    PAPER 0 1 0 0 0 1 0 0 0
                                  TABLETS 0 0 0 0 0 1 0 2 1
-                                 WINDOWS 0 0 0 0 0 1 0 0 1
+                                 WINDOWS 0 0 0 0 0 1 0 0 0
                                OPERATING 0 0 0 0 0 0 0 0 0
                                  GENERIC 0 0 0 0 0 0 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
-                                   PRICE 0 1 0 0 0 1 0 1 1
+                                   PRICE 0 1 0 0 0 1 0 1 0
                                    BRAND 0 0 0 0 0 1 0 2 1
                                     BEST 0 0 0 0 0 0 1 1 1
                                  VERSION 1 0 0 0 0 1 0 1 1
@@ -75,13 +75,13 @@
                                   SCHEME 0 0 0 0 0 1 0 1 1
                                  ANDROID 0 0 0 0 0 0 0 0 1
                                  SAMSUNG 0 0 1 0 0 1 0 0 1
-                                   APPLE 0 0 0 0 0 1 0 2 0
+                                   APPLE 0 0 0 0 0 1 0 2 1
                                     IPAD 0 0 0 0 0 0 0 3 1
                                 QUESTION 0 0 0 0 0 1 0 2 1
                                     ONES 0 0 0 0 0 1 0 1 1
                                     PAST 0 0 0 0 0 1 0 1 1
                                    POINT 0 0 0 0 0 1 0 1 0
-                                 PRODUCT 0 1 0 0 0 1 0 3 1
+                                 PRODUCT 0 1 0 0 0 1 0 3 0
                                      MAC 0 0 1 0 0 1 0 0 0
                                      WAY 1 0 0 0 0 1 0 1 1
                                   OFFICE 0 0 0 0 0 1 0 0 1
@@ -124,8 +124,8 @@
                                  SCREENS 0 0 0 0 0 1 0 1 1
                                      AIR 0 0 0 0 0 1 0 0 0
                                     EDGE 0 0 0 0 0 1 0 1 1
-                                 GRAPHIC 0 0 0 0 0 0 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
+                                 GRAPHIC 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   PLAYER 0 0 0 0 0 1 0 1 1
                                   MINUTE 0 0 0 0 0 1 0 1 1
@@ -160,9 +160,9 @@
                                     TERM 0 0 0 0 0 1 0 1 0
                                   APPLES 0 0 0 0 0 1 0 1 1
                                     FITS 0 0 0 0 0 0 0 1 1
+                                   KINDS 0 0 0 0 0 1 0 1 1
                                   MORTAR 0 0 0 0 0 1 0 0 0
                                TRANSPORT 0 0 0 0 0 0 0 1 1
-                                   KINDS 0 0 0 0 0 1 0 1 1
                              OPPORTUNITY 0 0 0 0 0 1 0 1 1
                                 RETAILER 0 0 0 0 0 1 0 2 1
                                   VACUUM 0 0 0 0 0 0 0 0 0
@@ -186,6 +186,17 @@
                                SIGNATURE 0 0 0 0 0 0 0 1 1
                                      PEN 0 0 0 0 0 1 0 1 1
                                   GADGET 0 0 0 0 0 0 0 0 1
+                                    COKE 0 1 0 0 0 1 0 1 1
+                                   PEPSI 0 0 0 0 0 1 0 1 1
+                                    COLA 0 0 0 0 0 0 0 0 0
+                                 KLEENEX 0 0 0 0 0 0 0 1 1
+                                  SNEEZE 0 0 0 0 0 0 0 1 1
+                                  TISSUE 0 0 0 0 0 1 0 1 1
+                                 LINEAGE 0 0 0 0 0 0 0 1 1
+                                SPIKE715 0 0 0 0 0 0 0 0 1
+                          INCOMPTABILITY 0 0 0 0 0 0 0 1 1
+                               IPAD&QUOT 0 0 0 0 0 0 0 0 1
+                                  SUITES 0 0 0 0 0 1 0 1 1
                        TABLETS/E-READERS 0 0 0 0 0 0 0 1 1
                                  KINDLES 0 0 0 0 0 0 0 0 1
                              IMAGINATION 0 0 0 0 0 0 0 1 1
@@ -199,13 +210,11 @@
                                 VICTROLA 0 0 0 0 0 0 0 1 1
                                JEEP&QUOT 0 0 0 0 0 0 0 0 1
                              IEVERYTHING 0 0 0 0 0 0 0 0 1
-                                    COKE 0 1 0 0 0 1 0 1 1
                                  HOOVERS 0 0 0 0 0 0 0 0 1
                                 MIGRANTS 0 0 0 0 0 1 0 1 1
                                     POMS 0 0 0 0 0 0 0 0 1
                                     PENS 0 0 0 0 0 0 0 1 1
                                     BIRO 0 0 0 0 0 1 0 0 1
-                                 KLEENEX 0 0 0 0 0 0 0 1 1
                                  TISSUES 0 0 0 0 0 1 0 1 1
                               POPULATION 0 0 0 0 0 1 0 1 1
                                     AGES 0 0 0 0 0 1 0 1 1
@@ -215,18 +224,9 @@
                                    I-PAD 0 0 1 0 0 0 0 1 1
                             SHORTCOMINGS 0 0 0 0 0 1 0 1 1
                                  ANDRIOD 0 0 0 0 0 0 0 0 0
-                               PUBLICITY 0 0 0 0 0 1 0 1 1
+                               PUBLICITY 0 0 0 0 0 1 0 1 0
                                     HYPE 0 0 0 0 0 1 0 1 1
-                                   PEPSI 0 0 0 0 0 1 0 1 1
-                                    COLA 0 0 0 0 0 0 0 0 0
-                                  SNEEZE 0 0 0 0 0 0 0 1 1
-                                  TISSUE 0 0 0 0 0 1 0 1 1
-                                 LINEAGE 0 0 0 0 0 0 0 1 1
-                                SPIKE715 0 0 0 0 0 0 0 0 1
-                          INCOMPTABILITY 0 0 0 0 0 0 0 1 1
-                               IPAD&QUOT 0 0 0 0 0 0 0 0 1
-                                  SUITES 0 0 0 0 0 1 0 1 1
-                                    SODA 0 0 0 0 0 0 0 1 0
+                                    SODA 0 0 0 0 0 0 0 1 1
                                 LEMONADE 0 0 0 0 0 0 0 0 0
                                   HOOVER 0 0 1 0 0 1 0 1 1
                                   DANGER 0 0 0 0 0 1 0 1 1

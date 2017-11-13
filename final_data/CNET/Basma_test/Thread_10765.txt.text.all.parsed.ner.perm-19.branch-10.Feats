@@ -18,7 +18,7 @@
                                 HARDWARE 0 0 0 0 0 0 0 0 0
                                 COMPUTER 0 1 0 0 0 1 0 2 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
-                                   POWER 0 1 0 0 0 1 0 1 0
+                                   POWER 0 1 0 0 0 1 0 1 1
                                   SUPPLY 0 0 0 0 0 1 0 2 0
                                      ONE 0 0 0 0 0 1 0 2 1
                                    DRIVE 0 0 0 0 0 1 0 1 1
@@ -28,9 +28,9 @@
                                      NOW 0 0 0 0 0 0 0 0 1
                                   MONTHS 1 1 0 0 0 1 0 1 1
                                     THIS 0 0 0 0 0 1 0 1 1
-                             MOTHERBOARD 0 0 0 0 0 0 0 1 1
+                             MOTHERBOARD 0 0 0 0 0 0 0 1 0
                                       PC 0 0 0 0 0 1 0 3 1
-                                       S 0 0 1 0 0 0 0 0 0
+                                       S 0 0 0 0 0 0 0 0 1
                                      PSU 0 0 0 0 0 0 0 1 1
                                   COURSE 0 0 0 0 0 1 0 0 1
                                    WHILE 0 0 0 0 0 1 0 1 1
@@ -110,7 +110,7 @@
                                  QUALITY 0 0 0 0 0 1 0 0 1
                                      WAY 1 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 1 0
-                                  OFFICE 0 0 0 0 0 1 0 1 1
+                                  OFFICE 0 0 0 0 0 1 0 1 0
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 1 1
                                  SERVICE 0 0 0 0 0 1 0 0 0
@@ -144,7 +144,7 @@
                              SUGGESTIONS 0 0 0 0 0 1 0 1 1
                                     ITEM 0 0 0 0 0 1 0 1 1
                                       IV 0 0 1 0 0 1 0 0 1
-                                  COMPAQ 0 0 1 0 0 1 0 1 1
+                                  COMPAQ 0 0 1 0 0 1 0 1 0
                                   FAMILY 0 1 0 0 0 1 0 0 0
                                     ALOT 0 0 0 0 0 0 0 0 1
                                    FOCUS 0 0 0 0 0 1 0 1 1
@@ -164,18 +164,12 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                     X16 0 0 0 0 0 0 0 1 1
-                                      X1 0 0 0 0 0 0 0 1 1
-                                  BATTER 0 0 0 0 0 0 0 1 1
-                                   PLUGS 0 0 0 0 0 0 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
                                     2HRS 0 0 0 0 0 0 0 1 1
                                     WISE 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
                                HOMEBUILT 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
                                     PENT 0 0 0 0 0 0 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 0 0
@@ -194,6 +188,13 @@
                                     2GIG 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   STORMS 0 0 0 0 0 1 0 0 1
+                               NORTHLITE 0 0 1 0 0 0 0 0 1
+                                     X16 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 1 1
+                                  BATTER 0 0 0 0 0 0 0 1 1
+                                   PLUGS 0 0 0 0 0 0 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1
@@ -203,4 +204,3 @@
                                     FALL 1 1 0 0 0 1 0 0 0
                                   SHORTS 0 0 0 0 0 1 0 1 1
                                      YRS 0 0 0 0 0 0 0 1 1
-                               NORTHLITE 0 0 1 0 0 0 0 0 1

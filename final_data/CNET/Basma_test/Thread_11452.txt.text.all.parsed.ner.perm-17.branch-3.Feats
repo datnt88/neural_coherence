@@ -5,13 +5,13 @@
                                      VGA 0 0 1 0 0 0 0 0 0
                                    VIDEO 0 1 0 0 0 1 0 0 0
                                       II 0 1 1 0 0 1 0 0 0
-                                   SPEED 0 0 0 0 0 1 0 1 0
+                                   SPEED 0 0 0 0 0 1 0 1 1
                                       MB 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 0
                                 HARDWARE 0 0 0 0 0 0 0 0 0
                                   DRIVES 0 0 0 0 0 1 0 0 0
                                    POWER 0 1 0 0 0 1 0 0 0
-                              CONTROLLER 0 0 0 0 0 1 0 1 0
+                              CONTROLLER 0 0 0 0 0 1 0 1 1
                                     SELF 0 0 0 0 0 1 0 0 0
                                     40GB 0 0 0 0 0 0 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 0 0
@@ -20,7 +20,7 @@
                                     BIOS 0 0 0 0 0 0 0 1 0
                                     THIS 0 0 0 0 0 1 0 0 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
-                                       S 0 0 1 0 0 0 0 0 1
+                                       S 0 0 1 0 0 0 0 0 0
                                    MTRBD 0 0 0 0 0 0 0 1 1
                                 WHATEVER 0 0 0 0 0 0 1 0 1
                                    &QUOT 0 0 0 0 0 0 0 0 1
@@ -29,23 +29,23 @@
                                      PCI 0 0 0 0 0 0 0 2 1
                                     CASE 0 1 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
-                                  NVIDIA 0 0 0 0 0 0 0 1 0
+                                  NVIDIA 0 0 0 0 0 0 0 1 1
                                     USER 0 0 0 0 0 1 0 0 0
-                                    LIST 0 0 0 0 0 1 0 1 0
+                                    LIST 0 0 0 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                    STICK 0 0 0 0 0 1 0 1 1
                                       OS 0 0 0 0 0 0 0 1 1
                                  WINDOWS 0 0 0 0 0 1 0 0 0
                                   GAMING 0 0 0 0 0 0 0 0 0
                                   BRIDGE 0 1 0 0 0 1 0 1 0
-                                   INTEL 0 0 1 0 0 1 0 1 1
+                                   INTEL 0 0 1 0 0 1 0 1 0
                                      III 0 0 1 0 0 1 0 0 0
                                       V4 0 0 0 0 0 0 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
-                                      HD 0 0 1 0 0 0 0 1 0
+                                      HD 0 0 1 0 0 0 0 1 1
                                  VERSION 1 0 0 0 0 1 0 0 0
                                PROCESSOR 0 0 0 0 0 0 0 1 0
-                                 PENTIUM 0 0 0 0 0 0 0 3 1
+                                 PENTIUM 0 0 0 0 0 0 0 3 0
                               COMPONENTS 0 0 0 0 0 1 0 1 1
                               MANAGEMENT 0 1 0 0 0 1 0 0 0
                                 CREATIVE 0 0 0 0 0 0 0 0 1
@@ -64,12 +64,12 @@
                                  PRODUCT 0 1 0 0 0 1 0 1 0
                                      WAY 1 0 0 0 0 1 0 1 1
                                   ACCESS 0 0 0 0 0 1 0 0 0
-                                    TYPE 0 0 0 0 0 1 0 3 1
+                                    TYPE 0 0 0 0 0 1 0 3 0
                                  SERVICE 0 0 0 0 0 1 0 0 0
                                     MODE 0 0 0 0 0 1 0 1 1
                                 EXPLORER 0 0 0 0 0 1 0 0 0
                                   LETTER 0 0 0 0 0 1 0 0 0
-                                  MASTER 0 0 0 0 0 1 0 1 1
+                                  MASTER 0 0 0 0 0 1 0 1 0
                                  DEFAULT 0 0 0 0 0 1 0 0 0
                                    BOARD 0 1 0 0 0 1 0 2 1
                                MICROSOFT 0 0 1 0 0 1 0 0 0
@@ -82,8 +82,8 @@
                             SOUNDBLASTER 0 0 0 0 0 0 0 1 1
                                     LUCK 0 0 0 0 0 1 0 1 1
                                    SPACE 0 0 0 0 0 1 0 1 1
-                                REVISION 0 0 0 0 0 1 0 2 1
-                                    TEST 0 1 0 0 0 1 0 2 1
+                                REVISION 0 0 0 0 0 1 0 2 0
+                                    TEST 0 1 0 0 0 1 0 2 0
                                      CAS 0 0 0 0 0 0 0 0 0
                                    MAKER 0 1 0 0 0 1 0 1 1
                                  CAPTURE 0 0 0 0 0 0 0 2 1
@@ -99,17 +99,17 @@
                                     PACK 0 0 0 0 0 0 0 0 0
                                        R 0 0 0 0 0 0 0 0 0
                                  PORTION 0 0 0 0 0 1 0 1 1
-                                     KIT 0 0 0 0 0 1 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                      GIG 0 0 0 0 0 0 0 1 1
                                     SIZE 1 0 0 0 0 1 0 0 0
                                     BANK 0 1 0 0 0 1 0 0 0
+                                     KIT 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 0 0
                                    COLOR 0 0 0 0 0 1 0 1 1
                              EXPLANATION 0 0 0 0 0 1 0 1 1
                                     HOST 0 0 0 0 0 1 0 1 1
-                               TRANSFERS 0 0 0 0 0 1 0 1 0
+                               TRANSFERS 0 0 0 0 0 1 0 1 1
                                  ADDRESS 0 0 0 0 0 1 0 0 0
                                    TRANS 0 0 1 0 0 0 0 0 0
                                      BUS 0 0 0 0 0 1 0 0 0
@@ -117,14 +117,14 @@
                                      NEC 0 1 1 0 0 1 0 1 1
                                INSPECTOR 0 0 0 0 0 1 0 0 0
                                 LANGUAGE 0 0 0 0 0 1 0 0 0
-                                    LABS 0 0 0 0 0 1 0 1 0
+                                    LABS 0 0 0 0 0 1 0 1 1
                                    AWARD 0 0 0 0 0 1 0 0 0
                           V6.0.2800.1106 0 0 0 1 0 0 0 1 1
                               COPPERMINE 0 0 0 0 0 0 0 0 0
                                    VOLUM 0 0 0 0 0 0 0 0 0
                                     NTFS 0 0 0 0 0 0 0 0 0
                             THRUSTMAPPER 0 0 0 0 0 0 0 0 0
-                              MULTIMEDIA 0 0 0 0 0 0 0 0 0
+                              MULTIMEDIA 0 0 0 0 0 0 0 0 1
                                AVERMEDIA 0 0 0 0 0 0 0 1 0
                                   AVERTV 0 0 0 0 0 0 0 1 1
                                      WDM 0 0 1 0 0 0 0 0 1

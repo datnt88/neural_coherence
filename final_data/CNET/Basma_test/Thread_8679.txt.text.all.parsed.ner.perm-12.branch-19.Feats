@@ -49,13 +49,13 @@
                                  GENERIC 0 0 0 0 0 0 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 1 1
-                                   BRAND 0 0 0 0 0 1 0 2 1
+                                   BRAND 0 0 0 0 0 1 0 2 0
                                   CHOICE 0 0 0 0 0 1 0 0 0
                                     BEST 0 0 0 0 0 0 1 1 1
                                     REST 0 0 0 0 0 1 0 1 1
                                     GAME 0 0 0 0 0 1 0 1 1
                                BENCHMARK 0 0 0 0 0 0 0 1 1
-                                  PEOPLE 0 1 0 0 0 1 0 3 1
+                                  PEOPLE 0 1 0 0 0 1 0 3 0
                                    MODEL 0 0 0 0 0 1 0 0 1
                                  EXAMPLE 0 0 0 0 0 1 0 1 1
                                      YES 0 0 1 0 0 0 0 0 1
@@ -68,7 +68,7 @@
                                    CLASS 0 1 0 0 0 1 0 1 1
                                  SAMSUNG 0 0 1 0 0 1 0 0 1
                                    APPLE 0 0 0 0 0 1 0 1 0
-                                    IPAD 0 0 0 0 0 0 0 2 1
+                                    IPAD 0 0 1 0 0 0 0 2 1
                                     FORM 0 1 0 0 0 1 0 1 1
                                     FIRE 0 0 0 0 0 1 0 1 1
                                 QUESTION 0 0 0 0 0 1 0 2 1
@@ -113,7 +113,7 @@
                                 SERVICES 1 0 0 0 0 1 0 1 1
                                   PERIOD 0 0 0 0 0 1 0 1 1
                                     SONY 0 1 1 0 0 1 0 0 1
-                                  IPHONE 0 0 0 0 0 0 0 1 1
+                                  IPHONE 0 0 0 0 0 0 0 1 0
                                     IPOD 0 0 0 0 0 0 0 1 0
                                    TOUCH 0 0 0 0 0 1 0 0 0
                                   OTHERS 0 0 0 0 0 1 0 1 1
@@ -125,10 +125,10 @@
                                    TRADE 0 0 0 0 0 1 0 0 0
                                      AIR 0 0 0 0 0 1 0 0 0
                                     EDGE 0 0 0 0 0 1 0 1 1
-                                 GRAPHIC 0 0 0 0 0 0 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
                                     LACK 0 0 0 0 0 1 0 1 1
+                                 GRAPHIC 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   PLAYER 0 0 0 0 0 1 0 1 1
                                   MINUTE 0 0 0 0 0 1 0 1 1
@@ -162,9 +162,9 @@
                                     TERM 0 0 0 0 0 1 0 1 1
                                   APPLES 0 0 0 0 0 1 0 1 1
                                   GIANTS 0 1 0 0 0 1 0 1 1
+                                   KINDS 0 0 0 0 0 1 0 1 1
                                   MORTAR 0 0 0 0 0 1 0 0 0
                                TRANSPORT 0 0 0 0 0 0 0 1 1
-                                   KINDS 0 0 0 0 0 1 0 1 1
                                     ODDS 0 0 0 0 0 1 0 1 1
                                 RETAILER 0 0 0 0 0 1 0 2 1
                                   VACUUM 0 0 0 0 0 0 0 0 0
@@ -193,6 +193,16 @@
                                   GADGET 0 0 0 0 0 0 0 0 1
                                  CONTEXT 0 0 0 0 0 1 0 1 1
                                     BLOG 0 0 0 0 0 0 0 1 1
+                                    COKE 0 1 0 0 0 1 0 1 0
+                               COKE&QUOT 0 0 0 0 0 0 0 1 1
+                                   PEPSI 0 0 0 0 0 1 0 1 1
+                                    COLA 0 0 0 0 0 0 0 1 1
+                              RESTAURANT 0 0 0 0 0 1 0 1 1
+                                 KLEENEX 0 0 0 0 0 0 0 0 1
+                               NON-TECHS 0 0 0 0 0 0 0 1 1
+                               IPAD&QUOT 0 0 0 0 0 0 0 0 1
+                                    ITAB 0 0 0 0 0 0 0 1 1
+                                  -LSB-& 0 0 0 0 0 0 0 0 0
                              IMAGINATION 0 0 0 0 0 0 0 1 1
                                   I&QUOT 0 0 0 0 0 0 0 0 1
                            ABBREVIATIONS 0 0 0 0 0 0 0 1 1
@@ -205,14 +215,12 @@
                               HAIRS&QUOT 0 0 0 0 0 0 0 1 1
                                    EDSEL 0 0 1 0 0 0 0 0 0
                                COMMODORE 0 0 1 0 0 0 0 0 0
-                                    COKE 0 1 0 0 0 1 0 1 0
                                   SLANGS 0 0 0 0 0 0 0 1 1
                                  HOOVERS 0 0 0 0 0 0 0 0 1
                                 MIGRANTS 0 0 0 0 0 1 0 1 1
                                     POMS 0 0 0 0 0 0 0 0 1
                                     PENS 0 0 0 0 0 0 0 1 1
                                     BIRO 0 0 0 0 0 1 0 0 1
-                                 KLEENEX 0 0 0 0 0 0 0 0 1
                                  TISSUES 0 0 0 0 0 1 0 1 1
                               POPULATION 0 0 0 0 0 1 0 1 1
                                     AGES 0 0 0 0 0 1 0 1 1
@@ -223,16 +231,8 @@
                             SHORTCOMINGS 0 0 0 0 0 1 0 1 1
                                PUBLICITY 0 0 0 0 0 1 0 1 1
                                     HYPE 0 0 0 0 0 1 0 1 1
-                               COKE&QUOT 0 0 0 0 0 0 0 1 1
-                                   PEPSI 0 0 0 0 0 1 0 1 1
-                                    COLA 0 0 0 0 0 0 0 1 1
-                              RESTAURANT 0 0 0 0 0 1 0 1 1
-                               NON-TECHS 0 0 0 0 0 0 0 1 1
-                               IPAD&QUOT 0 0 0 0 0 0 0 0 1
-                                    ITAB 0 0 0 0 0 0 0 1 1
-                                  -LSB-& 0 0 0 0 0 0 0 0 0
                                SODA&QUOT 0 0 0 0 0 0 0 0 1
-                                    SODA 0 0 0 0 0 0 0 1 1
+                                    SODA 0 0 0 0 0 0 0 1 0
                                CHEMICALS 0 0 0 0 0 1 0 0 1
                                    FAITH 0 0 0 0 0 1 0 1 1
                                  PRIESTS 0 0 0 0 0 1 0 0 0

@@ -29,7 +29,7 @@
                                     CASE 0 1 0 0 0 1 0 0 0
                                       .. 0 0 0 0 0 1 0 1 1
                                    CHIPS 0 0 0 0 0 1 0 1 1
-                                   PHONE 0 0 0 0 0 1 0 1 1
+                                   PHONE 0 0 0 0 0 1 0 1 0
                                       'S 0 0 0 0 0 0 0 0 1
                                     DAYS 0 0 0 0 0 1 0 1 1
                                      USE 1 0 0 0 0 1 0 1 1
@@ -67,7 +67,7 @@
                                    EPSON 0 0 1 0 0 0 0 1 1
                                 PRINTERS 0 0 0 0 0 1 0 1 1
                                   CLIENT 0 1 0 0 0 1 0 1 1
-                                   PRINT 0 0 0 0 0 1 0 1 0
+                                   PRINT 0 0 0 0 0 1 0 1 1
                                  PRINTER 0 0 0 0 0 0 0 3 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                    QUEUE 0 0 0 0 0 0 0 1 1
@@ -91,7 +91,7 @@
                                SITUATION 0 1 0 0 0 1 0 1 1
                                   SERIES 0 0 0 0 0 1 0 1 1
                                     MIND 0 0 0 0 0 1 0 1 1
-                                    LINE 0 0 0 0 0 1 0 1 0
+                                    LINE 0 0 0 0 0 1 0 1 1
                                     NOTE 0 0 0 0 0 1 0 0 1
                                   SOURCE 0 0 0 0 0 1 0 1 1
                             INSTRUCTIONS 0 0 0 0 0 1 0 1 1
@@ -112,7 +112,7 @@
                                 DOCUMENT 1 0 0 0 0 1 0 1 1
                                 REFILLED 0 0 0 0 0 0 0 0 0
                                      INK 0 0 0 0 0 1 0 0 0
-                               CARTRIDGE 0 0 0 0 0 0 0 1 1
+                               CARTRIDGE 0 0 0 0 0 0 0 1 0
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                   E-MAIL 0 0 0 0 0 1 0 1 1
                              RELIABILITY 0 0 0 0 0 0 0 1 1
@@ -131,7 +131,7 @@
                                THOUSANDS 0 0 0 0 0 1 0 1 1
                                    TAXES 0 0 0 0 0 1 0 1 1
                                    CENTS 0 0 0 7 0 1 0 1 1
-                                   CANON 0 0 1 0 0 1 0 2 0
+                                   CANON 0 0 1 0 0 1 0 2 1
                              INSTRUCTION 0 0 0 0 0 1 0 1 1
                                RESPONSES 0 0 0 0 0 1 0 1 1
                              MALFUNCTION 0 0 0 0 0 0 0 1 1
@@ -154,8 +154,7 @@
                                QUALITIES 0 0 0 0 0 1 0 1 1
                                TANGIBLES 0 0 0 0 0 0 0 1 1
                                 EPINIONS 0 0 0 0 0 0 0 1 1
-                              EXPERIANCE 0 0 0 0 0 0 0 1 1
-                               TELEPHONE 0 0 0 0 0 1 0 1 0
+                               TELEPHONE 0 0 0 0 0 1 0 1 1
                                KATHERINE 0 0 1 0 0 1 0 0 0
                               KATHODAIKO 0 0 1 0 0 0 0 1 1
                              CONSUMABLES 0 0 0 0 0 0 0 0 1
@@ -169,3 +168,4 @@
                                   AGENCY 0 1 0 0 0 1 0 1 1
                                    ESPON 0 0 0 0 0 0 0 1 1
                                   CX6000 0 0 0 0 0 0 0 1 1
+                              EXPERIANCE 0 0 0 0 0 0 0 1 1

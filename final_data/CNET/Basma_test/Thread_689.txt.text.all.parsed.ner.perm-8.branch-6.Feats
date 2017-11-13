@@ -34,7 +34,7 @@
                                      USE 1 0 0 0 0 1 0 0 1
                                     USER 0 0 0 0 0 1 0 1 1
                                     WORK 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 1 0
+                                      HP 0 0 1 0 0 0 0 1 1
                                    PAPER 0 1 0 0 0 1 0 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
                                   COUPLE 0 0 0 0 0 1 0 2 1
@@ -48,7 +48,7 @@
                                    BLACK 0 0 0 0 0 1 0 0 1
                                      KEY 0 0 0 0 0 1 0 1 1
                                     POST 0 0 0 0 0 1 0 1 1
-                                 SUPPORT 0 0 0 0 0 1 0 2 0
+                                 SUPPORT 0 0 0 0 0 1 0 2 1
                                   FACTOR 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
                                  SETTING 0 0 0 0 0 1 0 1 1
@@ -61,10 +61,10 @@
                                   FORMAT 0 1 0 0 0 1 0 0 0
                                  PRODUCT 0 1 0 0 0 1 0 0 0
                                     CORD 0 0 0 0 0 1 0 1 1
-                                   EPSON 0 0 1 0 0 0 0 2 1
+                                   EPSON 0 0 1 0 0 0 0 2 0
                                 PRINTERS 0 0 0 0 0 1 0 1 1
-                                   PRINT 0 0 0 0 0 1 0 1 0
-                                 PRINTER 0 0 0 0 0 0 0 3 0
+                                   PRINT 0 0 0 0 0 1 0 1 1
+                                 PRINTER 0 0 0 0 0 0 0 3 1
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                  QUALITY 0 0 0 0 0 1 0 1 1
@@ -93,7 +93,7 @@
                                  NOTICES 0 0 0 0 0 1 0 0 0
                             INSTRUCTIONS 0 0 0 0 0 1 0 1 1
                                   SEARCH 0 0 0 0 0 1 0 1 1
-                              CARTRIDGES 0 0 0 0 0 0 0 3 1
+                              CARTRIDGES 0 0 0 0 0 0 0 3 0
                                 PRINTING 0 0 0 0 0 0 0 1 0
                                    PHOTO 0 0 0 0 0 1 0 0 0
                              REPLACEMENT 0 0 0 0 0 1 0 0 0
@@ -115,15 +115,15 @@
                                      INK 0 0 0 0 0 1 0 0 0
                                CARTRIDGE 0 0 0 0 0 0 0 1 1
                                    WORDS 0 1 0 0 0 1 0 1 1
-                                   SHEET 0 0 0 0 0 1 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
+                                   SHEET 0 0 0 0 0 1 0 1 1
                                    COLOR 0 0 0 0 0 1 0 1 1
-                                  E-MAIL 0 0 0 0 0 1 0 1 1
+                                  E-MAIL 0 0 0 0 0 1 0 1 0
                                   REVIEW 0 0 0 0 0 1 0 1 1
                                    BUYER 0 1 0 0 0 1 0 1 1
                                    PANEL 0 0 0 0 0 1 0 1 1
                                     DOCS 0 0 0 0 0 0 0 1 1
-                                     FAX 0 0 0 0 0 0 0 1 1
+                                     FAX 0 0 0 0 0 0 0 1 0
                                    PAGES 0 0 0 0 0 1 0 1 1
                                     WIFE 0 0 0 0 0 1 0 1 1
                                      TAX 0 1 0 0 0 1 0 0 0
@@ -132,7 +132,7 @@
                                   PRINTS 0 0 0 0 0 0 1 0 1
                                      MIN 0 0 0 0 0 1 0 1 1
                                THOUSANDS 0 0 0 0 0 1 0 1 1
-                                   CANON 0 0 1 0 0 1 0 2 1
+                                   CANON 0 0 1 0 0 1 0 2 0
                                   DRINKS 0 0 0 0 0 1 0 1 1
                                   DEALER 0 0 0 0 0 1 0 1 1
                                     TOLL 0 0 0 0 0 1 0 0 0
@@ -152,9 +152,6 @@
                                TANGIBLES 0 0 0 0 0 0 0 1 1
                                    420CN 0 0 0 0 0 0 0 1 1
                                 EPINIONS 0 0 0 0 0 0 0 1 1
-                                    R260 0 0 0 0 0 0 0 1 1
-                               CARTRAGES 0 0 0 0 0 0 0 1 1
-                                  NATION 0 0 0 0 0 1 0 0 0
                                     T068 0 0 0 0 0 0 0 0 1
                                    19.99 0 0 0 0 0 0 0 1 1
                                     T069 0 0 0 0 0 0 0 1 1
@@ -171,3 +168,6 @@
                               IMAGE&QUOT 0 0 0 0 0 0 0 0 1
                            LONG-DISTANCE 0 0 0 0 0 0 0 0 0
                                     FAX. 0 0 0 0 0 0 0 1 1
+                                    R260 0 0 0 0 0 0 0 1 1
+                               CARTRAGES 0 0 0 0 0 0 0 1 1
+                                  NATION 0 0 0 0 0 1 0 0 0

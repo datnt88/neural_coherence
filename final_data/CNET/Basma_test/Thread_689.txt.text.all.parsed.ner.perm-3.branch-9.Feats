@@ -23,7 +23,7 @@
                                    THERE 0 0 0 0 0 0 1 0 1
                                    FAULT 0 0 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
-                                      .. 0 0 0 0 0 1 0 2 1
+                                      .. 0 0 0 0 0 1 0 2 0
                                    CHIPS 0 0 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 2 1
                                    PHONE 0 0 0 0 0 1 0 1 1
@@ -43,7 +43,7 @@
                                    TIMES 0 1 0 0 0 1 0 1 1
                                      FIX 0 0 0 0 0 0 0 1 1
                                    BLACK 0 0 0 0 0 1 0 1 1
-                                   TODAY 0 0 0 0 0 1 0 0 0
+                                   TODAY 0 0 0 6 0 1 0 0 1
                                     POST 0 0 0 0 0 1 0 1 1
                                  SUPPORT 0 0 0 0 0 1 0 2 1
                                  CHOICES 0 0 0 0 0 1 0 1 1
@@ -57,10 +57,10 @@
                                   MANUAL 0 0 0 0 0 1 0 1 1
                                     HELP 0 0 0 0 0 1 0 1 1
                                 RESPONSE 0 0 0 0 0 1 0 1 1
-                                   EPSON 0 0 1 0 0 0 0 2 0
+                                   EPSON 0 0 1 0 0 0 0 2 1
                                 PRINTERS 0 0 0 0 0 1 0 1 1
                                    PRINT 0 0 0 0 0 1 0 0 0
-                                 PRINTER 0 0 0 0 0 0 0 3 0
+                                 PRINTER 0 0 0 0 0 0 0 3 1
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                  QUALITY 0 0 0 0 0 1 0 1 1
@@ -102,9 +102,9 @@
                                   LIMITS 0 0 0 0 0 1 0 1 1
                                   VOLUME 0 0 0 0 0 1 0 1 1
                                 REFILLED 0 0 0 0 0 0 0 0 0
-                                     INK 0 0 0 0 0 1 0 0 0
-                               CARTRIDGE 0 0 0 0 0 0 0 1 0
-                                   COLOR 0 0 0 0 0 1 0 1 1
+                                     INK 0 0 0 0 0 1 0 0 1
+                               CARTRIDGE 0 0 0 0 0 0 0 1 1
+                                   COLOR 0 0 0 0 0 1 0 1 0
                                   COLORS 0 0 0 0 0 1 0 1 1
                                   E-MAIL 0 0 0 0 0 1 0 0 0
                                   REVIEW 0 0 0 0 0 1 0 1 1
@@ -121,7 +121,7 @@
                                   APPLES 0 0 0 0 0 1 0 0 1
                            COMPATABILITY 0 0 0 0 0 0 0 1 1
                                      CAM 0 0 0 0 0 0 0 1 1
-                                   CANON 0 0 1 0 0 1 0 2 0
+                                   CANON 0 0 1 0 0 1 0 2 1
                                RESPONSES 0 0 0 0 0 1 0 1 1
                                     TOLL 0 0 0 0 0 1 0 0 0
                                     ARMY 0 0 0 0 0 1 0 1 1
@@ -141,10 +141,7 @@
                                      2-- 0 0 0 0 0 0 0 1 1
                                    MP530 0 0 0 0 0 0 0 1 1
                                   CX9400 0 0 0 0 0 0 0 1 1
-                                    R260 0 0 0 0 0 0 0 1 1
-                               CARTRAGES 0 0 0 0 0 0 0 1 1
-                               TECH&QUOT 0 0 0 0 0 0 0 1 1
-                               TELEPHONE 0 0 0 0 0 1 0 1 0
+                               TELEPHONE 0 0 0 0 0 1 0 1 1
                                     T068 0 0 0 0 0 0 0 0 1
                                    19.99 0 0 0 0 0 0 0 1 1
                                     T069 0 0 0 0 0 0 0 1 1
@@ -160,3 +157,6 @@
                                   AGENCY 0 1 0 0 0 1 0 1 1
                                    ESPON 0 0 0 0 0 0 0 1 1
                                   CX6000 0 0 0 0 0 0 0 1 1
+                                    R260 0 0 0 0 0 0 0 1 1
+                               CARTRAGES 0 0 0 0 0 0 0 1 1
+                               TECH&QUOT 0 0 0 0 0 0 0 1 1

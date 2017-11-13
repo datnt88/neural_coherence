@@ -17,10 +17,10 @@
                                    POWER 0 1 0 0 0 1 0 0 0
                                   ERRORS 0 1 0 0 0 1 0 1 1
                                     THEN 0 0 0 0 0 0 1 0 1
-                                     ONE 0 0 0 0 0 1 0 1 1
+                                     ONE 0 0 0 0 0 1 0 1 0
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 3 1
-                                 NOTHING 0 0 0 0 0 1 0 1 0
+                                 NOTHING 0 0 0 0 0 1 0 1 1
                                      NOW 0 0 0 0 0 0 0 0 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
                                    OTHER 0 0 0 0 0 0 0 1 1
@@ -47,7 +47,7 @@
                                   THINGS 0 0 0 0 0 1 0 1 1
                               CONNECTION 0 0 0 0 0 1 0 1 1
                                       3G 0 0 0 0 0 0 0 1 1
-                                   MODEM 0 0 0 0 0 1 0 2 1
+                                   MODEM 0 0 0 0 0 1 0 2 0
                                     HERE 0 0 0 0 0 0 1 0 1
                                   DEVICE 0 0 0 0 0 1 0 3 1
                                   ANYONE 0 0 0 0 0 1 0 0 1
@@ -59,9 +59,9 @@
                                     MORE 0 0 0 0 0 0 1 1 1
                                    LEAST 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
-                                WIRELESS 0 0 1 0 0 0 0 0 0
+                                WIRELESS 0 0 1 0 0 0 0 0 1
                                YESTERDAY 0 0 0 6 0 1 0 0 1
-                                      OS 0 0 1 0 0 0 0 1 0
+                                      OS 0 0 0 0 0 0 0 1 1
                                  DESKTOP 0 0 0 0 0 0 1 1 0
                                   COUPLE 0 0 0 0 0 1 0 1 1
                                   GAMING 0 0 0 0 0 0 0 0 0
@@ -92,12 +92,12 @@
                                 ETHERNET 0 0 0 0 0 0 0 1 0
                                    STORY 0 0 0 0 0 1 0 1 1
                                    PLACE 0 0 0 0 0 1 0 0 1
-                                   APPLE 0 0 0 0 0 1 0 1 1
+                                   APPLE 0 0 0 0 0 1 0 1 0
                                     UNIT 1 1 0 0 0 1 0 1 1
                                     ONES 0 0 0 0 0 1 0 1 1
                                  LINKSYS 0 0 0 0 0 0 0 0 0
                                   ROUTER 0 0 0 0 0 0 0 3 1
-                                INTERNET 0 0 0 0 0 1 0 1 0
+                                INTERNET 0 0 0 0 0 1 0 1 1
                                  NETWORK 0 0 0 0 0 1 0 3 1
                                     PAGE 0 0 0 0 0 1 0 1 1
                                 FIRMWARE 0 0 0 0 0 0 0 1 1
@@ -113,7 +113,7 @@
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                  TROUBLE 0 0 0 0 0 1 0 1 1
-                                    HOME 0 0 0 0 0 1 0 1 1
+                                    HOME 0 0 0 0 0 1 0 1 0
                                   OFFICE 0 0 0 0 0 1 0 0 0
                                     WIFI 0 0 0 0 0 0 0 1 1
                                   ACCESS 0 0 0 0 0 1 0 0 0
@@ -122,7 +122,7 @@
                                  SERVICE 0 0 0 0 0 1 0 3 1
                                      DSL 0 0 0 0 0 0 0 0 0
                                     MODE 0 0 0 0 0 1 0 1 1
-                                     LAN 0 0 0 0 0 0 0 1 1
+                                     LAN 0 0 0 0 0 0 0 1 0
                                     WORD 0 0 0 0 0 1 0 1 1
                                    IDEAS 0 0 0 0 0 1 0 1 1
                                     XBOX 0 0 0 0 0 0 0 2 1
@@ -132,7 +132,7 @@
                                 NETWORKS 0 0 0 0 0 1 0 1 1
                                  802.11B 0 0 0 0 0 0 0 0 1
                                    DOZEN 0 0 0 0 0 1 0 0 0
-                                FIREWALL 0 0 0 0 0 0 0 1 1
+                                FIREWALL 0 0 0 0 0 0 0 1 0
                              ROUTER--&GT 0 0 0 0 0 0 0 1 1
                                  MESSAGE 0 0 0 0 0 1 0 1 1
                                  REPAIRS 0 0 0 0 0 1 0 1 1
@@ -193,13 +193,13 @@
                            POWER-CYCLING 0 0 0 0 0 0 0 1 1
                                   HOW/IF 0 0 0 0 0 0 0 1 1
                                   PERIOD 0 0 0 0 0 1 0 1 1
-                                COVERAGE 0 0 0 0 0 1 0 2 1
-                                STRENGTH 0 0 0 0 0 1 0 1 0
-                                 MACBOOK 0 0 0 0 0 0 0 1 1
+                                COVERAGE 0 0 0 0 0 1 0 2 0
+                                STRENGTH 0 0 0 0 0 1 0 1 1
+                                 MACBOOK 0 0 0 0 0 0 0 1 0
                                 MEGABITS 0 0 0 0 0 0 0 2 1
                                     SONY 0 1 1 0 0 1 0 0 0
                                     VAIO 0 0 0 0 0 0 0 1 1
-                                   VISTA 0 0 0 0 0 0 0 1 0
+                                   VISTA 0 0 0 0 0 0 0 1 1
                                 NOTEBOOK 0 0 0 0 0 0 0 1 1
                                  KITCHEN 0 0 0 0 0 1 0 2 1
                                 OPPOSITE 0 0 0 0 0 0 1 1 1
@@ -208,7 +208,7 @@
                                     HALL 0 0 0 0 0 1 0 1 1
                                    WALLS 0 0 0 0 0 1 0 1 1
                                  SIGNALS 0 0 0 0 0 1 0 1 1
-                                       X 0 0 1 0 0 1 0 1 0
+                                       X 0 0 1 0 0 1 0 1 1
                                  LEOPARD 0 0 0 0 0 1 0 1 1
                                   10.5.7 0 0 0 0 0 0 0 0 1
                                  2.66GHZ 0 0 0 0 0 0 0 0 1

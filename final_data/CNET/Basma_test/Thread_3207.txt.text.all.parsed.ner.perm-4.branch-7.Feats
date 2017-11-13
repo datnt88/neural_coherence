@@ -8,7 +8,7 @@
                                    SPEED 0 0 0 0 0 1 0 1 1
                                      BIT 0 0 0 0 0 1 0 1 1
                                       MB 0 0 0 0 0 0 0 1 0
-                                  SYSTEM 0 1 0 0 0 1 0 0 0
+                                  SYSTEM 0 1 0 0 0 1 0 0 1
                                     MOBO 0 0 0 0 0 0 0 1 1
                                     CHIP 0 0 0 0 0 1 0 0 0
                                     .... 0 0 0 0 0 0 1 1 1
@@ -29,7 +29,7 @@
                                     CASE 0 1 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
                                       .. 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 3 1
+                                  MEMORY 0 1 0 0 0 1 0 3 0
                                   NVIDIA 0 0 0 0 0 0 0 2 0
                                      1GB 0 0 0 0 0 0 0 1 1
                                     DDR2 0 0 0 0 0 0 0 1 1
@@ -54,7 +54,7 @@
                                      2GB 0 0 0 0 0 0 0 0 1
                                    MODEL 0 0 0 0 0 1 0 1 1
                                      MAX 0 0 1 0 0 1 0 0 0
-                               PROCESSOR 0 0 0 0 0 0 0 2 1
+                               PROCESSOR 0 0 0 0 0 0 0 2 0
                                   SOCKET 0 0 0 0 0 0 0 0 0
                               PROCESSORS 0 0 0 0 0 1 0 1 1
                                      DDR 0 0 0 0 0 0 0 0 1
@@ -64,7 +64,7 @@
                                 ETHERNET 0 0 0 0 0 0 0 0 0
                                   ATHLON 0 0 0 0 0 0 0 0 0
                                   PC3200 0 0 1 0 0 0 0 0 1
-                                   SLOTS 0 0 0 0 0 1 0 1 0
+                                   SLOTS 0 0 0 0 0 1 0 1 1
                                  WEBSITE 0 0 0 0 0 0 0 1 1
                                       IM 0 0 0 0 0 0 0 0 1
                                   AMOUNT 0 0 0 0 0 1 0 1 1
@@ -102,11 +102,11 @@
                                   ACTION 0 1 0 0 0 1 0 0 1
                                     SORT 0 0 0 0 0 1 0 0 0
                                 DECISION 0 0 0 0 0 1 0 1 1
-                                CAPACITY 0 0 0 0 0 1 0 1 1
+                                CAPACITY 0 0 0 0 0 1 0 1 0
                                INTERFACE 0 0 1 0 0 1 0 0 0
                                      ??? 0 0 0 0 0 0 0 0 1
+                                    BANK 0 1 0 0 0 1 0 1 0
                                    SHEET 0 0 0 0 0 1 0 0 0
-                                    BANK 0 1 0 0 0 1 0 1 1
                                 WEBSITES 0 0 0 0 0 0 0 2 1
                                   DESIGN 0 0 0 0 0 1 0 1 1
                                     RAID 0 0 0 0 0 1 0 0 0
@@ -120,7 +120,7 @@
                                   400MHZ 0 0 0 0 0 0 0 1 1
                                    FOLKS 0 0 0 0 0 1 0 1 1
                                   IMPACT 0 0 0 0 0 1 0 1 1
-                            ARCHITECTURE 0 0 0 0 0 0 0 2 0
+                            ARCHITECTURE 0 0 0 0 0 0 0 2 1
                                    TABLE 0 0 0 0 0 1 0 1 1
                                     CPUZ 0 0 0 0 0 0 0 0 1
                              CRUCIAL.COM 0 0 0 0 0 0 0 0 1

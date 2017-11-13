@@ -7,12 +7,12 @@
                               EVERYTHING 0 0 0 0 0 1 0 0 1
                                    SPEED 0 0 0 0 0 1 0 0 0
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 1
+                                  SYSTEM 0 1 0 0 0 1 0 1 0
                                     YEAR 0 1 0 0 0 1 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                     KILL 0 0 0 0 0 0 1 0 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
-                                   POWER 0 1 0 0 0 1 0 1 1
+                                   POWER 0 1 0 0 0 1 0 1 0
                                  DIGITAL 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 0 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
@@ -40,14 +40,14 @@
                                  WINDOWS 0 0 0 0 0 1 0 0 0
                                QUESTIONS 0 0 0 0 0 1 0 1 1
                                    TESTS 0 0 0 0 0 1 0 2 1
-                             PERFORMANCE 1 1 0 0 0 1 0 1 0
+                             PERFORMANCE 1 1 0 0 0 1 0 1 1
                                       HD 0 0 1 0 0 0 0 1 1
                                     LESS 0 0 0 0 0 0 0 1 1
                                  EXAMPLE 0 0 0 0 0 1 0 0 1
                                     DELL 0 0 1 0 0 0 0 1 1
                                  WORKING 0 0 0 0 0 1 0 0 1
                                       1. 0 0 0 0 0 0 0 0 1
-                                 SEAGATE 0 0 1 0 0 0 0 1 0
+                                 SEAGATE 0 0 1 0 0 0 0 1 1
                                    TODAY 0 0 0 6 0 1 0 0 1
                                 QUESTION 0 0 0 0 0 1 0 1 1
                                 EXTERNAL 0 0 0 0 0 0 0 1 1
@@ -61,7 +61,7 @@
                                      ETC 0 0 0 0 0 0 1 1 0
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                     WORD 0 0 0 0 0 1 0 0 0
-                                    DATA 0 0 0 0 0 1 0 0 0
+                                    DATA 0 0 0 0 0 1 0 0 1
                                    FILES 0 0 0 0 0 1 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 1 1
                                 INSTANCE 0 0 0 0 0 1 0 1 1
@@ -82,7 +82,7 @@
                                      PCS 0 0 0 0 0 1 0 1 1
                               PROTECTION 0 0 0 0 0 1 0 0 0
                                  NUMBERS 0 0 0 0 0 1 0 1 1
-                                      GB 0 0 0 0 0 0 0 1 1
+                                      GB 0 0 0 0 0 0 0 1 0
                                    FAT32 0 0 0 0 0 0 0 0 1
                                FOLLOWING 0 0 0 0 0 0 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
@@ -100,8 +100,8 @@
                                  MALWARE 0 0 0 0 0 0 0 0 1
                                    CLOCK 0 0 0 0 0 1 0 1 1
                                     VIEW 0 1 0 0 0 1 0 1 1
-                                SUPPORTS 0 0 0 0 0 0 0 0 1
                                     SIZE 1 0 0 0 0 1 0 1 1
+                                SUPPORTS 0 0 0 0 0 0 0 0 1
                                      AVG 0 0 0 0 0 0 0 0 0
                                    500GB 0 0 0 0 0 0 0 1 1
                                    -RSB- 0 0 0 0 0 0 0 1 1
@@ -115,7 +115,7 @@
                                  BACKUPS 0 0 0 0 0 0 0 1 1
                                 PICTURES 0 0 0 0 0 1 0 1 0
                                DOCUMENTS 0 1 0 0 0 1 0 2 1
-                                     EXT 0 0 0 0 0 0 0 1 1
+                                     EXT 0 0 0 0 0 0 0 1 0
                                     NTFS 0 0 0 0 0 0 0 1 1
                                  LETTERS 0 1 0 0 0 1 0 1 1
                               MICRODRIVE 0 0 0 0 0 0 0 1 1
@@ -141,12 +141,6 @@
                                     W/NO 0 0 0 0 0 0 0 0 0
                                 BEARINGS 0 0 0 0 0 0 0 0 1
                                   SANDRA 0 0 1 0 0 1 0 1 1
-                                   CIRCS 0 0 0 0 0 0 0 1 1
-                                    NFTS 0 0 0 0 0 0 0 0 1
-                                    30MB 0 0 0 0 0 0 0 1 1
-                                    5MIN 0 0 0 0 0 0 0 0 1
-                             PERSPECTIVE 0 0 0 0 0 1 0 1 1
-                                PARTIION 0 0 0 0 0 0 0 1 1
                                  B--WITH 0 0 0 0 0 0 0 1 1
                          SEAGATE/COMPUSA 0 0 0 0 0 0 0 1 1
                               RETROSPECT 0 0 0 0 0 0 1 0 0
@@ -156,3 +150,9 @@
                                       LT 0 0 0 0 0 0 0 1 1
                             MAINTAINENCE 0 0 0 0 0 0 0 1 1
                                  BEWTEEN 0 0 0 0 0 0 0 0 0
+                                    NFTS 0 0 0 0 0 0 0 0 1
+                                   CIRCS 0 0 0 0 0 0 0 1 1
+                                    30MB 0 0 0 0 0 0 0 1 1
+                                    5MIN 0 0 0 0 0 0 0 0 1
+                             PERSPECTIVE 0 0 0 0 0 1 0 1 1
+                                PARTIION 0 0 0 0 0 0 0 1 1

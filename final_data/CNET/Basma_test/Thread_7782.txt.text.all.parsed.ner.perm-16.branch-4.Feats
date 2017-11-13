@@ -1,7 +1,7 @@
                                     TIME 1 1 0 0 0 1 0 0 0
                                     THAT 0 0 0 0 0 0 0 0 1
                                     SAME 0 0 0 0 0 0 1 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 0
+                                  SYSTEM 0 1 0 0 0 1 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
                                      IDE 0 0 0 0 0 0 0 1 1
@@ -27,11 +27,11 @@
                                OPERATING 0 0 0 0 0 0 0 0 0
                                   SCREEN 0 0 0 0 0 1 0 1 1
                                    INTEL 0 0 1 0 0 1 0 1 1
-                                      HD 0 0 1 0 0 0 0 1 1
+                                      HD 0 0 1 0 0 0 0 1 0
                                  CHIPSET 0 0 0 0 0 0 0 1 1
                                 FUNCTION 0 0 0 0 0 1 0 1 1
                                   MIDDLE 0 0 0 0 0 1 0 1 1
-                                   CABLE 0 0 0 0 0 1 0 1 1
+                                   CABLE 0 0 0 0 0 1 0 1 0
                                      KEY 0 0 0 0 0 1 0 1 1
                                       XP 0 0 0 0 0 0 0 1 1
                                      SET 0 0 0 0 0 1 0 0 0
@@ -40,12 +40,12 @@
                                PARTITION 0 0 0 0 0 0 1 1 1
                             INSTALLATION 0 0 0 0 0 1 0 1 1
                                      END 0 0 0 0 0 1 0 1 0
-                                   SLAVE 0 0 0 0 0 0 0 1 1
-                                  MASTER 0 0 0 0 0 1 0 1 0
+                                   SLAVE 0 0 0 0 0 0 0 1 0
+                                  MASTER 0 0 0 0 0 1 0 1 1
                                    FILES 0 0 0 0 0 1 0 1 1
                                  MESSAGE 0 0 0 0 0 1 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 0 0
-                                  CABLES 0 0 0 0 0 1 0 2 0
+                                  CABLES 0 0 0 0 0 1 0 2 1
                                  JUMPERS 0 0 0 0 0 0 0 1 1
                                     TEST 0 1 0 0 0 1 0 1 1
                                    FAT32 0 0 0 0 0 0 0 1 1
@@ -56,7 +56,7 @@
                                BEGINNING 0 0 0 0 0 1 0 1 1
                                        C 0 0 1 0 0 1 0 1 1
                                CONFUSION 0 0 0 0 0 1 0 0 1
-                                     GIG 0 0 0 0 0 0 0 1 1
+                                     GIG 0 0 0 0 0 0 0 1 0
                                    WIN98 0 0 0 0 0 0 0 0 1
                                 SEQUENCE 0 0 0 0 0 1 0 1 1
                                       CS 0 0 1 0 0 0 0 0 0

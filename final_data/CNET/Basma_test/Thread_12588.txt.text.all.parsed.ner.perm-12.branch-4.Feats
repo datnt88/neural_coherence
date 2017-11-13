@@ -7,7 +7,7 @@
                                   THANKS 0 0 0 0 0 1 0 0 1
                                    SPEED 0 0 0 0 0 1 0 1 1
                                     MAKE 0 0 0 0 0 0 0 1 1
-                                   RIGHT 1 1 0 0 0 1 0 1 0
+                                   RIGHT 1 1 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
                                     CHIP 0 0 0 0 0 1 0 0 0
                                     .... 0 0 0 0 0 0 1 1 1
@@ -26,22 +26,22 @@
                                     JUST 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 0 0 0 1 0 0 1
+                                      PC 0 0 0 0 0 1 0 0 0
                                   VAPCMD 0 0 1 0 0 0 0 0 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                        S 0 0 0 0 0 0 0 0 1
                                     LINK 0 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 1 1
-                                    HEAT 0 0 0 0 0 1 0 0 0
+                                    HEAT 0 0 1 0 0 1 0 0 1
                                     DUST 0 0 0 0 0 1 0 0 0
                                  BUNNIES 0 0 0 0 0 0 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                  DRIVERS 0 1 0 0 0 1 0 1 1
                                     BOTH 0 0 0 0 0 0 1 0 1
-                                     RAM 0 0 1 0 0 1 0 2 0
+                                     RAM 0 0 1 0 0 1 0 2 1
                                    THING 0 0 0 0 0 1 0 1 1
                                       .. 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 2 0
+                                  MEMORY 0 1 0 0 0 1 0 2 1
                                    CHIPS 0 0 0 0 0 1 0 2 1
                                   THINGS 0 0 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 2 1
@@ -51,10 +51,10 @@
                                     DAYS 0 0 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 1 1
                                       HP 0 0 1 0 0 0 0 0 0
-                                  LAPTOP 0 0 0 0 0 0 0 2 0
+                                  LAPTOP 0 0 0 0 0 0 0 2 1
                                   AMAZON 0 0 1 0 0 0 1 0 0
                                   CHANGE 0 0 0 0 0 1 0 0 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 0
+                                 WINDOWS 0 0 0 0 0 1 0 1 1
                                    LIMIT 0 0 0 0 0 1 0 1 1
                                QUESTIONS 0 0 0 0 0 1 0 1 1
                                   SCREEN 0 0 0 0 0 1 0 1 1
@@ -65,7 +65,7 @@
                                    ..... 0 0 0 0 0 0 0 1 1
                                     BEST 0 0 0 0 0 0 1 0 1
                                  CHIPSET 0 0 0 0 0 0 0 0 1
-                                   PARTS 1 0 0 0 0 1 0 1 0
+                                   PARTS 1 0 0 0 0 1 0 1 1
                                FRAGMENTS 0 0 0 0 0 1 0 0 1
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 0 1
                                  THREADS 0 0 0 0 0 1 0 0 1
@@ -96,8 +96,8 @@
                                  QUALITY 0 0 0 0 0 1 0 2 1
                                      WAY 1 0 0 0 0 1 0 1 1
                                     DATA 0 0 0 0 0 1 0 0 0
-                                  WIZARD 0 0 1 0 0 1 0 1 0
-                                DESKTOPS 0 0 0 0 0 0 0 1 0
+                                  WIZARD 0 0 1 0 0 1 0 1 1
+                                DESKTOPS 0 0 0 0 0 0 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                      CDS 0 0 0 0 0 1 0 1 1
                                  RETURNS 0 0 0 0 0 1 0 2 1
@@ -132,16 +132,16 @@
                                    ROOMS 0 0 0 0 0 1 0 2 1
                                      AIR 0 0 0 0 0 1 0 1 1
                                     PACK 0 0 0 0 0 0 0 2 1
-                                    ISNT 0 0 0 0 0 0 0 1 1
                                 CHEAPEST 0 0 0 0 0 0 0 1 1
                                      GIG 0 0 0 0 0 0 0 1 1
+                                    ISNT 0 0 0 0 0 0 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                              EXPLANATION 0 0 0 0 0 1 0 1 1
                                       YA 0 0 0 0 0 0 1 0 1
                          RECOMMENDATIONS 0 1 0 0 0 1 0 1 1
                                    HOURS 0 0 0 0 0 1 0 1 1
                                     DOCS 0 0 0 0 0 0 0 2 1
-                             PROGRAMMING 0 0 0 0 0 1 0 0 1
+                             PROGRAMMING 0 0 0 0 0 1 0 0 0
                                 BEHAVIOR 0 0 0 0 0 1 0 2 1
                                     PINS 0 0 0 0 0 1 0 0 1
                                  MANUALS 0 0 0 0 0 1 0 1 1
@@ -172,7 +172,7 @@
                              ARRANGEMENT 0 0 0 0 0 1 0 1 1
                          DDR2-667/DDR667 0 0 0 0 0 0 0 1 1
                             DISADVANTAGE 0 0 0 0 0 0 0 1 1
-                                    2GBS 0 0 0 0 0 0 0 1 1
+                                    2GBS 0 0 0 0 0 0 0 1 0
                                     THHE 0 0 0 0 0 0 0 0 1
                                    ITUNS 0 0 0 0 0 0 0 1 1
                                     UTIL 0 0 0 0 0 0 0 1 1

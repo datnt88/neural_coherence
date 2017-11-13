@@ -16,7 +16,7 @@
                                    THESE 0 0 0 0 0 0 1 0 1
                                    CARDS 0 0 0 0 0 1 0 1 1
                                       MB 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 2 0
+                                  SYSTEM 0 1 0 0 0 1 0 2 1
                                     YEAR 0 1 0 0 0 1 0 1 1
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                     MOBO 0 0 0 0 0 0 0 1 1
@@ -29,7 +29,7 @@
                                    WEEKS 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 2 1
                                    DRIVE 0 0 0 0 0 1 0 1 1
-                                   YEARS 1 1 0 6 0 1 0 1 1
+                                   YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
@@ -39,7 +39,7 @@
                                      PSU 0 0 0 0 0 0 0 1 1
                                      ANY 0 0 0 0 0 0 1 1 1
                                      AMD 0 0 0 0 0 1 0 2 1
-                                     RAM 0 0 1 0 0 1 0 3 1
+                                     RAM 0 0 1 0 0 1 0 3 0
                                      PCI 0 0 0 0 0 0 0 0 0
                                      MID 0 0 1 0 0 0 0 1 1
                                     CASE 0 1 0 0 0 1 0 2 1
@@ -54,7 +54,7 @@
                                   LAPTOP 0 0 0 0 0 0 0 1 1
                                      FUN 0 0 0 0 0 1 0 1 1
                                   BUDGET 0 1 0 0 0 1 0 1 1
-                                KEYBOARD 0 0 0 0 0 0 0 1 1
+                                KEYBOARD 0 0 0 0 0 0 0 1 0
                                 SHOPPING 0 0 0 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
@@ -65,13 +65,13 @@
                                   GAMING 0 0 0 0 0 0 0 0 1
                                      FEW 0 0 0 0 0 0 1 1 1
                                      OWN 0 0 0 0 0 0 1 1 1
-                                   MOUSE 0 0 0 0 0 1 0 2 1
+                                   MOUSE 0 0 0 0 0 1 0 2 0
                                      CPU 0 0 0 0 0 0 0 1 1
                                    INTEL 0 0 1 0 0 1 0 0 0
                                     SATA 0 0 0 0 0 0 0 0 0
                                      GPU 0 0 0 0 0 0 0 1 1
-                                    CORE 0 0 0 0 0 1 0 1 0
-                                GRAPHICS 0 0 0 0 0 1 0 1 0
+                                    CORE 0 0 0 0 0 1 0 1 1
+                                GRAPHICS 0 0 0 0 0 1 0 1 1
                              PERFORMANCE 1 1 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 1 1
                                    TOWER 0 0 0 0 0 1 0 1 1
@@ -79,10 +79,10 @@
                                    BRAND 0 0 0 0 0 1 0 0 0
                                     BEST 0 0 0 0 0 0 1 1 1
                                    PARTS 1 0 0 0 0 1 0 1 1
-                               FRAGMENTS 0 0 0 0 0 1 0 1 1
+                               FRAGMENTS 0 0 0 0 0 1 0 1 0
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 2 1
-                                 THREADS 0 0 0 0 0 1 0 2 1
+                                 THREADS 0 0 0 0 0 1 0 2 0
                                     REST 0 0 0 0 0 1 0 1 1
                                     GAME 0 0 0 0 0 1 0 1 0
                                     COST 0 0 0 0 0 1 0 2 1
@@ -101,7 +101,7 @@
                                     SLOT 0 0 0 0 0 1 0 1 1
                                  BATTERY 0 0 0 0 0 1 0 1 0
                               COMPONENTS 0 0 0 0 0 1 0 2 1
-                                     DVD 0 0 0 0 0 1 0 1 1
+                                     DVD 0 0 0 0 0 1 0 1 0
                                    SOUND 0 0 0 0 0 1 0 0 0
                                  SEAGATE 0 0 1 0 0 0 0 0 0
                                   ATHLON 0 0 0 0 0 0 0 1 0
@@ -147,18 +147,18 @@
                                      &GT 0 0 0 0 0 0 0 2 1
                               NEWEGG.COM 0 0 0 0 0 0 0 0 1
                                    STORE 0 0 0 0 0 1 0 1 1
-                                     CAR 0 1 0 0 0 1 0 1 0
+                                     CAR 0 1 0 0 0 1 0 1 1
                               BACKGROUND 0 0 0 0 0 1 0 1 1
                                   FORUMS 0 0 0 0 0 1 0 0 1
                                   CUSTOM 0 0 0 0 0 0 0 0 0
                                     SITE 0 0 0 0 0 1 0 1 1
                                      DUO 0 0 0 0 0 1 0 0 0
                             MOTHERBOARDS 0 0 0 0 0 0 0 1 1
-                                     PCS 0 0 0 0 0 1 0 1 0
+                                     PCS 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                  GATEWAY 0 0 0 0 0 0 0 0 0
                                     SONY 0 1 1 0 0 1 0 0 0
-                                   VISTA 0 0 0 0 0 0 0 1 0
+                                   VISTA 0 0 0 0 0 0 0 1 1
                                        X 0 0 1 0 0 1 0 2 0
                                   OTHERS 0 0 0 0 0 1 0 0 1
                                  MEASURE 0 0 0 0 0 1 0 1 1
@@ -167,7 +167,7 @@
                                   FUTURE 0 0 0 0 0 1 0 1 1
                                       ID 0 0 0 0 0 0 1 0 1
                                       IV 0 0 1 0 0 1 0 0 1
-                                  COMPAQ 0 0 1 0 0 1 0 1 1
+                                  COMPAQ 0 0 1 0 0 1 0 1 0
                                   FAMILY 0 1 0 0 0 1 0 0 0
                                    WASNT 0 0 0 0 0 0 0 1 1
                                  CONTROL 0 0 0 0 0 1 0 1 1
@@ -175,7 +175,7 @@
                                    PLAYS 0 0 0 0 0 1 0 2 1
                                   TODAYS 0 0 0 0 0 0 0 0 0
                                     EDGE 0 0 0 0 0 1 0 1 1
-                                 WALMART 0 0 1 0 0 0 0 0 0
+                                 WALMART 0 0 1 0 0 0 0 0 1
                                   500BUX 0 0 0 0 0 0 0 0 1
                                     CARS 0 1 0 0 0 1 0 1 1
                                    GRAND 0 0 0 0 0 1 0 1 1
@@ -186,13 +186,6 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
-                                     X16 0 0 0 0 0 0 0 1 1
-                                      X1 0 0 0 0 0 0 0 1 1
-                                  BATTER 0 0 0 0 0 0 0 1 1
-                                   PLUGS 0 0 0 0 0 0 0 1 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                                WAL-MART 0 0 1 0 0 1 0 0 0
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                                  ANALOGY 0 0 0 0 0 0 0 1 1
@@ -219,10 +212,17 @@
                                 LOGITECH 0 0 0 0 0 0 0 1 1
                             REQUIREMENTS 0 0 0 0 0 1 0 1 1
                                 FINDINGS 0 0 0 0 0 1 0 1 1
-                                BARNYARD 0 0 0 0 0 0 0 1 0
+                                BARNYARD 0 0 0 0 0 0 0 1 1
                                  SEMPRON 0 0 0 0 0 0 0 1 1
                                W/MONITOR 0 0 0 0 0 0 0 1 1
                                    ALTHO 0 0 0 0 0 0 0 1 1
+                                     10. 0 0 0 0 0 0 0 1 1
+                                     X16 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 1 1
+                                  BATTER 0 0 0 0 0 0 0 1 1
+                                   PLUGS 0 0 0 0 0 0 0 1 1
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                                WAL-MART 0 0 1 0 0 1 0 0 0
                          TIGERDIRECT.COM 0 0 1 0 0 0 0 0 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1

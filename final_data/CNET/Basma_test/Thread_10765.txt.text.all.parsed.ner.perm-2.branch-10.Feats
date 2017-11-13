@@ -3,9 +3,9 @@
                                    MONEY 1 1 0 0 0 1 0 1 1
                                     THAT 0 0 0 0 0 0 0 1 1
                                    ABOUT 0 0 0 0 0 0 1 1 1
-                                    NEED 0 0 0 0 0 1 0 1 0
+                                    NEED 0 0 0 0 0 1 0 1 1
                                     SOME 0 0 0 0 0 0 1 1 1
-                                   VIDEO 0 1 0 0 0 1 0 1 1
+                                   VIDEO 0 1 0 0 0 1 0 1 0
                                     CARD 0 1 0 0 0 1 0 2 1
                               EVERYTHING 0 0 0 0 0 1 0 1 1
                                    SPEED 0 0 0 0 0 1 0 1 1
@@ -18,7 +18,7 @@
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 0 0
-                                  SUPPLY 0 0 0 0 0 1 0 1 1
+                                  SUPPLY 0 0 0 0 0 1 0 1 0
                                     SELF 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 1 1
                                      ONE 0 0 0 0 0 1 0 2 0
@@ -33,7 +33,7 @@
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
                                       PC 0 0 0 0 0 1 0 2 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
-                                       S 0 0 1 0 0 0 0 0 0
+                                       S 0 0 0 0 0 0 0 0 1
                                      PSU 0 0 0 0 0 0 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                     LONG 0 0 0 0 0 1 0 1 1
@@ -88,11 +88,11 @@
                                    FIRST 0 1 0 0 0 1 0 1 1
                                  PENTIUM 0 0 0 0 0 0 0 0 0
                            COMPATIBILITY 0 0 0 0 0 0 0 0 0
-                                    DELL 0 0 1 0 0 0 0 1 1
+                                    DELL 0 0 1 0 0 0 0 1 0
                                  MONITOR 0 0 0 0 0 0 0 1 1
                                     SLOT 0 0 0 0 0 1 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
-                                     DVD 0 0 0 0 0 1 0 1 0
+                                     DVD 0 0 0 0 0 1 0 1 1
                                    SOUND 0 0 0 0 0 1 0 0 0
                                    SLOTS 0 0 0 0 0 1 0 0 0
                                 KINGSTON 0 0 1 0 0 1 0 0 1
@@ -114,7 +114,7 @@
                                  QUALITY 0 0 0 0 0 1 0 0 0
                                      WAY 1 0 0 0 0 1 0 1 1
                                  TROUBLE 0 0 0 0 0 1 0 0 0
-                                    HOME 0 0 0 0 0 1 0 1 1
+                                    HOME 0 0 0 0 0 1 0 1 0
                                   OFFICE 0 0 0 0 0 1 0 1 1
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 1 1
@@ -151,7 +151,7 @@
                              SUGGESTIONS 0 0 0 0 0 1 0 1 1
                                    SENSE 0 0 0 0 0 1 0 1 1
                                   FUTURE 0 0 0 0 0 1 0 1 1
-                                  COMPAQ 0 0 1 0 0 1 0 1 0
+                                  COMPAQ 0 0 1 0 0 1 0 1 1
                                     ALOT 0 0 0 0 0 0 0 0 1
                                  CONTROL 0 0 0 0 0 1 0 1 1
                                     OUTS 0 0 0 0 0 0 0 0 0
@@ -168,13 +168,6 @@
                                    COSTS 0 0 0 0 0 1 0 1 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
                                 TINKERER 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                     X16 0 0 0 0 0 0 0 1 1
-                                      X1 0 0 0 0 0 0 0 1 1
-                                  BATTER 0 0 0 0 0 0 0 1 1
-                                   PLUGS 0 0 0 0 0 0 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                     CITY 0 1 0 0 0 1 0 1 1
@@ -199,6 +192,14 @@
                                  SEMPRON 0 0 0 0 0 0 0 1 1
                                W/MONITOR 0 0 0 0 0 0 0 1 1
                                    ALTHO 0 0 0 0 0 0 0 1 1
+                               NORTHLITE 0 0 1 0 0 0 0 0 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                     X16 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 1 1
+                                  BATTER 0 0 0 0 0 0 0 1 1
+                                   PLUGS 0 0 0 0 0 0 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 0 1
                                 GEFORCE4 0 0 0 0 0 0 0 0 0
                                       MX 0 0 1 0 0 0 0 0 0
@@ -209,4 +210,3 @@
                                     FALL 1 1 0 0 0 1 0 0 0
                                   SHORTS 0 0 0 0 0 1 0 1 1
                                      YRS 0 0 0 0 0 0 0 1 1
-                               NORTHLITE 0 0 1 0 0 0 0 0 1

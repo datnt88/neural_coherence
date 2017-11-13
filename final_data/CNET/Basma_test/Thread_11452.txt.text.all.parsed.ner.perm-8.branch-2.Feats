@@ -22,7 +22,7 @@
                                    -LRB- 0 0 0 0 0 0 0 0 0
                                    -RRB- 0 0 0 0 0 0 0 0 0
                                  NOTHING 0 0 0 0 0 1 0 1 1
-                                    BIOS 0 0 0 0 0 0 0 1 0
+                                    BIOS 0 0 0 0 0 0 0 1 1
                                    OTHER 0 0 0 0 0 0 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
                                      USB 0 0 0 0 0 0 0 0 0
@@ -53,7 +53,7 @@
                                       2. 0 0 0 0 0 0 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
                               MANAGEMENT 0 1 0 0 0 1 0 0 0
-                                CREATIVE 0 0 1 0 0 0 0 0 1
+                                CREATIVE 0 0 0 0 0 0 0 0 0
                                    SOUND 0 0 0 0 0 1 0 0 0
                                  BLASTER 0 0 0 0 0 0 0 1 1
                                 ETHERNET 0 0 0 0 0 0 0 0 0
@@ -68,13 +68,13 @@
                                     SUCH 0 0 0 0 0 0 1 1 1
                                   ACCESS 0 0 0 0 0 1 0 0 0
                                     TYPE 0 0 0 0 0 1 0 3 1
-                                   BOARD 0 1 0 0 0 1 0 1 1
+                                   BOARD 0 1 0 0 0 1 0 1 0
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                     NONE 0 0 0 0 0 1 0 0 0
                                SUPPORTED 0 0 0 0 0 0 0 0 0
                             MANUFACTURER 0 0 0 0 0 1 0 2 0
                                     NAME 0 0 0 0 0 1 0 1 1
-                                    INFO 0 0 0 0 0 0 0 1 1
+                                    INFO 0 0 1 0 0 0 0 1 1
                                   MTRBD. 0 0 0 0 0 0 0 1 1
                                   VENDOR 0 0 0 0 0 1 0 3 0
                                      &GT 0 0 0 0 0 0 0 2 1
@@ -95,26 +95,26 @@
                                      SUB 0 0 0 0 0 0 0 0 0
                                      I/O 0 0 0 0 0 0 0 0 0
                                 COMMANDS 0 0 0 0 0 1 0 2 0
-                                   STATE 0 1 0 0 0 1 0 2 1
+                                   STATE 0 1 0 0 0 1 0 2 0
                               CAPABILITY 0 0 0 0 0 1 0 0 0
                                  STORAGE 0 0 0 0 0 0 0 0 0
                                  PORTION 0 0 0 0 0 1 0 1 1
                                INTERFACE 0 0 0 0 0 1 0 0 0
-                                SUPPORTS 0 0 0 0 0 0 0 0 0
-                                     KIT 0 0 0 0 0 1 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
+                                SUPPORTS 0 0 0 0 0 0 0 0 0
+                                     KIT 0 0 0 0 0 1 0 1 1
                                    COLOR 0 0 0 0 0 1 0 1 1
                                     HOST 0 0 0 0 0 1 0 1 0
                             GENERIC&QUOT 0 0 0 0 0 0 0 0 1
                                TRANSFERS 0 0 0 0 0 1 0 0 0
                                  ADDRESS 0 0 0 0 0 1 0 0 0
-                                   TRANS 0 0 0 0 0 0 0 0 0
+                                   TRANS 0 0 1 0 0 0 0 0 0
                                      BUS 0 0 0 0 0 1 0 0 0
                                     LEAD 0 0 0 0 0 1 0 1 1
                                COMPONETS 0 0 0 0 0 0 0 1 1
                                   MOTHER 0 0 0 0 0 1 0 0 0
-                                     NEC 0 1 0 0 0 1 0 2 0
+                                     NEC 0 1 1 0 0 1 0 2 1
                                BLASTERPC 0 0 0 0 0 0 0 1 1
                              TIGERDIRECT 0 0 1 0 0 0 0 0 1
                                     LABS 0 0 0 0 0 1 0 1 1
@@ -130,7 +130,7 @@
                                    0X36E 0 0 0 0 0 0 0 1 1
                                 SUBCLASS 0 0 0 0 0 0 0 0 0
                                BUSMASTER 0 0 0 0 0 0 0 0 0
-                                  STATUS 0 0 0 0 0 1 0 3 1
+                                  STATUS 0 0 0 0 0 1 0 3 0
                             BACK-TO-BACK 0 0 0 0 0 0 0 0 0
                                   TIMING 0 0 0 0 0 1 0 1 0
                                   HEADER 0 0 0 0 0 0 0 0 0
@@ -141,7 +141,7 @@
                                      INC 0 0 1 0 0 0 0 0 0
                                      0X0 0 0 0 0 0 0 0 0 0
                                       D2 0 0 0 0 0 0 0 1 0
-                                      D1 0 0 0 0 0 0 0 1 0
+                                      D1 0 0 0 0 0 0 0 1 1
                                      0X5 0 0 0 0 0 0 0 0 0
                                   0X1102 0 0 0 0 0 0 0 0 0
                                      0X2 0 0 0 0 0 0 0 0 0

@@ -3,13 +3,13 @@
                                  EXPENSE 0 0 0 0 0 0 0 1 1
                                     YEAR 0 1 0 0 0 1 0 0 0
                                    INPUT 0 0 0 0 0 0 1 1 1
-                                HARDWARE 0 0 0 0 0 0 0 1 0
+                                HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 1
                                      ONE 0 0 0 0 0 1 0 0 1
-                                   DRIVE 0 0 0 0 0 1 0 3 1
-                                    DISK 0 0 0 0 0 1 0 1 0
+                                   DRIVE 0 0 0 0 0 1 0 3 0
+                                    DISK 0 0 0 0 0 1 0 1 1
                                  NOTHING 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 0 0
                                     BOOT 0 0 0 0 0 0 0 0 0
@@ -34,7 +34,7 @@
                                     MORE 0 0 0 0 0 0 1 0 1
                                   REASON 0 0 0 0 0 1 0 1 1
                                       OS 0 0 0 0 0 0 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 0
+                                 WINDOWS 0 0 0 0 0 1 0 1 1
                                    ..... 0 0 0 0 0 0 0 0 0
                                     CALL 0 0 0 0 0 1 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 2 1
@@ -44,7 +44,7 @@
                                     COST 0 0 0 0 0 1 0 1 1
                                     PAIN 0 0 0 0 0 1 0 1 1
                                     DELL 0 0 1 0 0 0 0 1 1
-                               DIMENSION 0 0 0 0 0 0 0 1 0
+                               DIMENSION 0 0 0 0 0 0 0 1 1
                                    CABLE 0 0 0 0 0 1 0 1 1
                                  BLASTER 0 0 0 0 0 0 0 0 0
                                       XP 0 0 0 0 0 0 0 1 1
@@ -57,7 +57,7 @@
                                    PLACE 0 0 0 0 0 1 0 1 1
                                     MOST 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
-                                INTERNET 0 0 0 0 0 1 0 1 0
+                                INTERNET 0 0 0 0 0 1 0 1 1
                                    SETUP 0 0 0 0 0 0 0 0 0
                                  PROGRAM 0 1 0 0 0 1 0 2 1
                                     PAST 0 0 0 0 0 1 0 1 1
@@ -72,7 +72,7 @@
                                     MODE 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 0 1
                                      SP3 0 0 0 0 0 0 0 1 1
-                                    DATA 0 0 0 0 0 1 0 1 0
+                                    DATA 0 0 0 0 0 1 0 1 1
                                  DETAILS 0 0 0 0 0 1 0 1 1
                                    FILES 0 0 0 0 0 1 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 1 1
@@ -84,7 +84,7 @@
                                CONDITION 0 0 0 0 0 1 0 1 1
                                SITUATION 0 1 0 0 0 1 0 1 1
                                     LUCK 0 0 0 0 0 1 0 0 0
-                                  REPAIR 0 1 0 0 0 0 1 1 1
+                                  REPAIR 0 1 0 0 0 0 1 1 0
                                    MEDIA 0 1 0 0 0 1 0 1 1
                             INSTRUCTIONS 0 0 0 0 0 1 0 1 1
                                       RE 0 0 1 0 0 1 0 1 1
@@ -99,8 +99,8 @@
                                 CLEANING 0 0 0 0 0 0 1 0 0
                                     KEYS 0 0 0 0 0 1 0 1 1
                                      DOS 0 0 0 0 0 0 0 0 0
-                                    CNET 0 0 0 0 0 0 0 0 1
-                                 STORAGE 0 0 0 0 0 0 0 0 1
+                                    CNET 0 0 0 0 0 0 0 0 0
+                                 STORAGE 0 0 0 0 0 0 0 0 0
                                   UBUNTU 0 0 0 0 0 0 0 1 1
                                  FAILURE 0 0 0 0 0 1 0 1 1
                                 REGISTRY 0 0 0 0 0 0 0 1 1
@@ -123,7 +123,7 @@
                                  PRESENT 1 0 0 0 0 0 0 0 1
                                        F 0 0 0 0 0 0 0 0 0
                                    100MB 0 0 0 0 0 0 0 2 1
-                                     ZIP 0 0 0 0 0 0 0 1 1
+                                     ZIP 0 0 0 0 0 0 0 1 0
                                 ATTEMPTS 0 0 0 0 0 1 0 1 1
                               OPTIMIZING 0 0 0 0 0 0 0 1 1
                             INSTALL&QUOT 0 0 0 0 0 0 0 1 1
@@ -131,7 +131,7 @@
                            ADVERTISEMENT 0 0 0 0 0 1 0 1 1
                             DOWNLOAD.COM 0 0 0 0 0 0 0 1 1
                                  TOUCHES 0 0 0 0 0 1 0 0 0
-                                     ARO 0 0 0 0 0 0 0 0 0
+                                     ARO 0 0 1 0 0 0 0 0 0
                                      FOE 0 0 0 0 0 1 0 1 1
                                    250MB 0 0 0 0 0 0 0 0 1
                                JUNK&QUOT 0 0 0 0 0 0 0 0 1

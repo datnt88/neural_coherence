@@ -17,9 +17,9 @@
                                     THIS 0 0 0 0 0 1 0 0 1
                                      TWO 0 0 0 0 0 0 1 1 1
                                      UPS 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 0 0 0 1 0 1 1
+                                      PC 0 0 1 0 0 1 0 1 1
                                     BACK 0 0 0 0 0 1 0 0 0
-                                ANYTHING 0 0 0 0 0 1 0 1 0
+                                ANYTHING 0 0 0 0 0 1 0 1 1
                                       AS 0 0 1 0 0 1 0 0 1
                                   COURSE 0 0 0 0 0 1 0 0 1
                                    WHILE 0 0 0 0 0 1 0 1 1
@@ -62,7 +62,7 @@
                                    CLASS 0 1 0 0 0 1 0 1 1
                                   SCHEME 0 0 0 0 0 1 0 1 1
                                  SAMSUNG 0 0 1 0 0 1 0 0 1
-                                   APPLE 0 0 0 0 0 1 0 2 0
+                                   APPLE 0 0 0 0 0 1 0 2 1
                                     IPAD 0 0 0 0 0 0 0 3 1
                                     FORM 0 1 0 0 0 1 0 1 1
                                     FIRE 0 0 0 0 0 1 0 1 1
@@ -71,7 +71,7 @@
                                 INTERNET 0 0 0 0 0 1 0 0 0
                                    POINT 0 0 0 0 0 1 0 0 0
                                 RESPONSE 0 0 0 0 0 1 0 0 1
-                                 PRODUCT 0 1 0 0 0 1 0 3 0
+                                 PRODUCT 0 1 0 0 0 1 0 3 1
                                      MAC 0 0 1 0 0 1 0 0 0
                            COMMUNICATION 0 0 0 0 0 1 0 0 0
                                      WAY 1 0 0 0 0 1 0 2 1
@@ -97,7 +97,7 @@
                                    OWNER 0 0 0 0 0 1 0 2 1
                                     LINE 0 0 0 0 0 1 0 1 1
                                     YARD 0 0 0 0 0 0 0 1 1
-                                 PLAYERS 0 0 0 0 0 1 0 1 0
+                                 PLAYERS 0 0 0 0 0 1 0 1 1
                                      MP3 0 0 0 0 0 0 0 0 0
                                    SALES 0 1 0 0 0 1 0 0 0
                                     HEAD 0 0 0 0 0 1 0 1 1
@@ -178,36 +178,13 @@
                                     NOOK 0 0 0 0 0 0 0 1 1
                                      PEN 0 0 0 0 0 1 0 1 1
                                   GADGET 0 0 0 0 0 0 0 0 1
-                                    BUZZ 0 0 0 0 0 1 0 1 1
-                               COMMODITY 0 0 0 0 0 0 0 1 1
-                       TABLETS/E-READERS 0 0 0 0 0 0 0 1 1
-                                 KINDLES 0 0 0 0 0 0 0 0 1
-                               JEEP&QUOT 0 0 0 0 0 0 0 0 1
-                              HAIRS&QUOT 0 0 0 0 0 0 0 1 1
-                                   EDSEL 0 0 1 0 0 0 0 0 0
-                               COMMODORE 0 0 1 0 0 0 0 0 0
                                     COKE 0 1 0 0 0 1 0 2 1
-                                  SLANGS 0 0 0 0 0 0 0 1 1
-                                 HOOVERS 0 0 0 0 0 0 0 0 1
-                                MIGRANTS 0 0 0 0 0 1 0 1 1
-                                    POMS 0 0 0 0 0 0 0 0 1
-                                    PENS 0 0 0 0 0 0 0 1 1
-                                    BIRO 0 0 0 0 0 1 0 0 1
-                                 KLEENEX 0 0 0 0 0 0 0 1 1
-                                 TISSUES 0 0 0 0 0 1 0 1 1
-                           FOUNTAIN&QUOT 0 0 0 0 0 0 0 1 1
-                                  FRENZY 0 0 0 0 0 1 0 1 1
-                               STUPIDITY 0 0 0 0 0 0 0 0 1
-                                   I-PAD 0 0 0 0 0 0 0 1 1
-                            SHORTCOMINGS 0 0 0 0 0 1 0 1 1
-                                 ANDRIOD 0 0 0 0 0 0 0 0 0
-                               PUBLICITY 0 0 0 0 0 1 0 1 1
-                                    HYPE 0 0 0 0 0 1 0 1 1
                                    PEPSI 0 0 0 0 0 1 0 1 1
-                                    COLA 0 0 0 0 0 0 0 0 1
+                                    COLA 0 0 0 0 0 0 0 0 0
                                   BUCKET 0 0 0 0 0 0 0 1 1
                                    SODAS 0 0 0 0 0 0 0 0 0
                               RESTAURANT 0 0 0 0 0 1 0 1 1
+                                 KLEENEX 0 0 0 0 0 0 0 1 1
                                   SNEEZE 0 0 0 0 0 0 0 1 1
                                   TISSUE 0 0 0 0 0 1 0 1 1
                                  LINEAGE 0 0 0 0 0 0 0 1 1
@@ -217,6 +194,29 @@
                                IPAD&QUOT 0 0 0 0 0 0 0 0 1
                                     ITAB 0 0 0 0 0 0 0 1 1
                                   -LSB-& 0 0 0 0 0 0 0 0 0
+                                    BUZZ 0 0 0 0 0 1 0 1 1
+                               COMMODITY 0 0 0 0 0 0 0 1 1
+                       TABLETS/E-READERS 0 0 0 0 0 0 0 1 1
+                                 KINDLES 0 0 0 0 0 0 0 0 1
+                               JEEP&QUOT 0 0 0 0 0 0 0 0 1
+                              HAIRS&QUOT 0 0 0 0 0 0 0 1 1
+                                   EDSEL 0 0 1 0 0 0 0 0 0
+                               COMMODORE 0 0 1 0 0 0 0 0 0
+                                  SLANGS 0 0 0 0 0 0 0 1 1
+                                 HOOVERS 0 0 0 0 0 0 0 0 1
+                                MIGRANTS 0 0 0 0 0 1 0 1 1
+                                    POMS 0 0 0 0 0 0 0 0 1
+                                    PENS 0 0 0 0 0 0 0 1 1
+                                    BIRO 0 0 0 0 0 1 0 0 1
+                                 TISSUES 0 0 0 0 0 1 0 1 1
+                           FOUNTAIN&QUOT 0 0 0 0 0 0 0 1 1
+                                  FRENZY 0 0 0 0 0 1 0 1 1
+                               STUPIDITY 0 0 0 0 0 0 0 0 1
+                                   I-PAD 0 0 1 0 0 0 0 1 1
+                            SHORTCOMINGS 0 0 0 0 0 1 0 1 1
+                                 ANDRIOD 0 0 0 0 0 0 0 0 0
+                               PUBLICITY 0 0 0 0 0 1 0 1 0
+                                    HYPE 0 0 0 0 0 1 0 1 1
                                     SODA 0 0 0 0 0 0 0 1 1
                                 LEMONADE 0 0 0 0 0 0 0 0 0
                                   HOOVER 0 0 1 0 0 1 0 1 1

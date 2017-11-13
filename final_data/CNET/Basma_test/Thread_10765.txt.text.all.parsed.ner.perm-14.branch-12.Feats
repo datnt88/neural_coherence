@@ -12,15 +12,15 @@
                                    SPEED 0 0 0 0 0 1 0 1 1
                                    CARDS 0 0 0 0 0 1 0 1 1
                                       MB 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 1
-                                    YEAR 0 1 0 0 0 1 0 1 1
+                                  SYSTEM 0 1 0 0 0 1 0 1 0
+                                    YEAR 0 1 0 0 0 1 0 1 0
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                     MOBO 0 0 0 0 0 0 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
-                                   POWER 0 1 0 0 0 1 0 1 1
-                                  SUPPLY 0 0 0 0 0 1 0 2 0
+                                   POWER 0 1 0 0 0 1 0 1 0
+                                  SUPPLY 0 0 0 0 0 1 0 2 1
                                    WEEKS 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 0
                                    DRIVE 0 0 0 0 0 1 0 1 1
@@ -31,13 +31,13 @@
                                   MONTHS 1 1 0 0 0 1 0 1 1
                                     BIOS 0 0 0 0 0 0 0 1 1
                                DIFFERENT 0 0 0 0 0 0 0 1 1
-                                    KIND 0 0 0 0 0 1 0 1 0
+                                    KIND 0 0 0 0 0 1 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                                     FOUR 0 0 0 0 0 1 0 0 1
                              MOTHERBOARD 0 0 0 0 0 0 0 2 1
                                       PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
-                                       S 0 0 0 0 0 0 0 0 1
+                                       S 0 0 1 0 0 0 0 0 0
                                     BACK 0 0 0 0 0 1 0 1 1
                                      PSU 0 0 0 0 0 0 0 1 1
                                      ANY 0 0 0 0 0 0 1 1 1
@@ -71,13 +71,13 @@
                                     CORE 0 0 0 0 0 1 0 1 1
                                 GRAPHICS 0 0 0 0 0 1 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
-                                    PART 1 0 0 0 0 1 0 1 1
+                                    PART 1 0 0 0 0 1 0 1 0
                                    TOWER 0 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 1 0
                                   CHOICE 0 0 0 0 0 1 0 1 0
                                     LESS 0 0 0 7 0 0 0 1 1
                                    PARTS 1 0 0 0 0 1 0 1 1
-                               FRAGMENTS 0 0 0 0 0 1 0 1 1
+                               FRAGMENTS 0 0 0 0 0 1 0 1 0
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 3 1
                                  THREADS 0 0 0 0 0 1 0 2 1
@@ -86,7 +86,7 @@
                                     COST 0 0 0 0 0 1 0 1 1
                                    TIMES 0 1 0 0 0 1 0 1 1
                                  CELERON 0 0 0 0 0 0 0 1 0
-                                       D 0 0 1 0 0 1 0 1 0
+                                       D 0 0 1 0 0 1 0 1 1
                                PROCESSOR 0 0 0 0 0 0 0 0 0
                                      PC. 0 0 0 0 0 0 0 1 1
                                     JUNK 0 0 0 0 0 0 1 0 1
@@ -103,7 +103,7 @@
                                      DVD 0 0 0 0 0 1 0 0 0
                                    SOUND 0 0 0 0 0 1 0 0 0
                                  SEAGATE 0 0 1 0 0 0 0 0 0
-                                  ATHLON 0 0 0 0 0 0 0 1 0
+                                  ATHLON 0 0 0 0 0 0 0 1 1
                                     DONT 0 0 0 0 0 0 0 1 1
                                    SLOTS 0 0 0 0 0 1 0 1 1
                                      LCD 0 0 0 0 0 0 0 0 1
@@ -130,7 +130,7 @@
                                      BOX 0 0 0 0 0 1 0 3 1
                                  QUALITY 0 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 1 1
-                                  OFFICE 0 0 0 0 0 1 0 1 1
+                                  OFFICE 0 0 0 0 0 1 0 1 0
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 1 1
                                  SERVICE 0 0 0 0 0 1 0 0 0
@@ -149,7 +149,7 @@
                                   SCREWS 0 0 0 0 0 0 0 1 1
                                    STORE 0 0 0 0 0 1 0 1 1
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
-                                     CAR 0 1 0 0 0 1 0 1 1
+                                     CAR 0 1 0 0 0 1 0 1 0
                                    SPACE 0 0 0 0 0 1 0 0 0
                                   CUSTOM 0 0 0 0 0 0 0 0 0
                                     SITE 0 0 0 0 0 1 0 1 1
@@ -159,7 +159,7 @@
                                      PCS 0 0 0 0 0 1 0 0 0
                                    PIECE 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
-                                 GATEWAY 0 0 0 0 0 0 0 1 1
+                                 GATEWAY 0 0 0 0 0 0 0 1 0
                                     SONY 0 1 1 0 0 1 0 0 0
                                    VISTA 0 0 0 0 0 0 0 1 1
                                        X 0 0 1 0 0 1 0 2 1
@@ -174,11 +174,9 @@
                                    WASNT 0 0 0 0 0 0 0 1 1
                                     OUTS 0 0 0 0 0 0 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 1 1
-                                 WALMART 0 0 1 0 0 0 0 0 0
+                                 WALMART 0 0 1 0 0 0 0 0 1
                                    COSTS 0 0 0 0 0 1 0 1 1
                                 TINKERER 0 0 0 0 0 0 0 1 1
-                               DEVELOPER 0 0 0 0 0 0 0 1 1
-                                  SCHOOL 0 1 0 0 0 1 0 0 0
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                     BANG 0 0 0 0 0 1 0 0 0
@@ -211,6 +209,9 @@
                                    ALTHO 0 0 0 0 0 0 0 2 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   STORMS 0 0 0 0 0 1 0 0 1
+                               EVOLUTION 0 0 0 0 0 1 0 1 1
+                               DEVELOPER 0 0 0 0 0 0 0 1 1
+                                  SCHOOL 0 1 0 0 0 1 0 0 0
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1
                                 GEFORCE4 0 0 0 0 0 0 0 0 0
@@ -229,4 +230,3 @@
                                     FALL 1 1 0 0 0 1 0 0 0
                                   SHORTS 0 0 0 0 0 1 0 1 1
                                      YRS 0 0 0 0 0 0 0 1 1
-                               EVOLUTION 0 0 0 0 0 1 0 1 1

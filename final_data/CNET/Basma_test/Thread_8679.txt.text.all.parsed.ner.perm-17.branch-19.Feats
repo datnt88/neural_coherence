@@ -50,7 +50,7 @@
                                      BOB 0 1 1 0 0 1 0 0 1
                                       OS 0 0 0 0 0 0 0 1 1
                                  TABLETS 0 0 0 0 0 1 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 0 0
+                                 WINDOWS 0 0 0 0 0 1 0 0 1
                                OPERATING 0 0 0 0 0 0 0 0 0
                                  GENERIC 0 0 0 0 0 0 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
@@ -71,14 +71,14 @@
                                   SCHEME 0 0 0 0 0 1 0 1 1
                                  ANDROID 0 0 0 0 0 0 0 0 1
                                  SAMSUNG 0 0 1 0 0 1 0 0 1
-                                   APPLE 0 0 0 0 0 1 0 1 0
-                                    IPAD 0 0 0 0 0 0 0 2 1
+                                   APPLE 0 0 0 0 0 1 0 1 1
+                                    IPAD 0 0 1 0 0 0 0 2 1
                                 QUESTION 0 0 0 0 0 1 0 1 1
                                     ONES 0 0 0 0 0 1 0 1 1
                                    POINT 0 0 0 0 0 1 0 1 1
                                 RESPONSE 0 0 0 0 0 1 0 0 1
                               DISCUSSION 0 0 0 0 0 1 0 0 1
-                                 PRODUCT 0 1 0 0 0 1 0 3 1
+                                 PRODUCT 0 1 0 0 0 1 0 3 0
                                COMPUTERS 0 0 0 0 0 1 0 1 1
                                      MAC 0 0 1 0 0 1 0 0 0
                                      WAY 1 0 0 0 0 1 0 1 1
@@ -100,7 +100,7 @@
                                   PUBLIC 0 1 0 0 0 1 0 1 1
                                     LINE 0 0 0 0 0 1 0 1 1
                                     YARD 0 0 0 0 0 0 0 1 1
-                                 PLAYERS 0 0 0 0 0 1 0 1 0
+                                 PLAYERS 0 0 0 0 0 1 0 1 1
                                      MP3 0 0 0 0 0 0 0 0 0
                                     HEAD 0 0 0 0 0 1 0 1 1
                                  DEVICES 0 1 0 0 0 1 0 1 1
@@ -137,7 +137,7 @@
                                      AGE 0 0 0 0 0 1 0 1 1
                                       CS 0 0 1 0 0 0 0 0 0
                                 STANDARD 0 0 0 0 0 1 0 1 1
-                                   WATER 0 0 0 0 0 1 0 1 0
+                                   WATER 0 0 0 0 0 1 0 1 1
                                 CLEANERS 0 0 0 0 0 0 0 1 1
                                    PLANS 0 1 0 0 0 1 0 1 1
                                  CONSOLE 0 0 0 0 0 0 0 0 1
@@ -156,11 +156,11 @@
                              PLAYSTATION 0 0 0 0 0 1 0 1 1
                                THOUSANDS 0 0 0 0 0 1 0 1 1
                                    NAMES 0 0 0 0 0 1 0 1 1
-                                    TERM 0 0 0 0 0 1 0 1 0
+                                    TERM 0 0 0 0 0 1 0 1 1
                                     FITS 0 0 0 0 0 0 0 1 1
+                                   KINDS 0 0 0 0 0 1 0 1 1
                                   MORTAR 0 0 0 0 0 1 0 0 0
                                TRANSPORT 0 0 0 0 0 0 0 1 1
-                                   KINDS 0 0 0 0 0 1 0 1 1
                              OPPORTUNITY 0 0 0 0 0 1 0 1 1
                                  CIRCLES 0 0 0 0 0 1 0 1 1
                                     ODDS 0 0 0 0 0 1 0 1 1
@@ -188,31 +188,12 @@
                                      PEN 0 0 0 0 0 1 0 1 1
                                   GADGET 0 0 0 0 0 0 0 0 1
                                 ADOPTION 0 0 0 0 0 0 0 1 1
-                                    BUZZ 0 0 0 0 0 1 0 1 1
-                               COMMODITY 0 0 0 0 0 0 0 1 1
-                             TABLET&QUOT 0 0 0 0 0 0 0 1 1
-                               JEEP&QUOT 0 0 0 0 0 0 0 0 1
-                             IEVERYTHING 0 0 0 0 0 0 0 0 1
                                     COKE 0 1 0 0 0 1 0 1 0
-                                 HOOVERS 0 0 0 0 0 0 0 0 1
-                                MIGRANTS 0 0 0 0 0 1 0 1 1
-                                    POMS 0 0 0 0 0 0 0 0 1
-                                    PENS 0 0 0 0 0 0 0 1 1
-                                    BIRO 0 0 0 0 0 1 0 0 1
-                                 KLEENEX 0 0 0 0 0 0 0 1 1
-                                 TISSUES 0 0 0 0 0 1 0 1 1
-                              POPULATION 0 0 0 0 0 1 0 1 1
-                                    AGES 0 0 0 0 0 1 0 1 1
-                                  FRENZY 0 0 0 0 0 1 0 1 1
-                               STUPIDITY 0 0 0 0 0 0 0 0 1
-                                   I-PAD 0 0 0 0 0 0 0 1 1
-                            SHORTCOMINGS 0 0 0 0 0 1 0 1 1
-                                 ANDRIOD 0 0 0 0 0 0 0 0 0
-                               PUBLICITY 0 0 0 0 0 1 0 1 1
                                COKE&QUOT 0 0 0 0 0 0 0 1 1
                                    PEPSI 0 0 0 0 0 1 0 1 1
                                     COLA 0 0 0 0 0 0 0 1 1
                               RESTAURANT 0 0 0 0 0 1 0 1 1
+                                 KLEENEX 0 0 0 0 0 0 0 1 1
                                   SNEEZE 0 0 0 0 0 0 0 1 1
                                   TISSUE 0 0 0 0 0 1 0 1 1
                                  LINEAGE 0 0 0 0 0 0 0 1 1
@@ -222,7 +203,26 @@
                                   SUITES 0 0 0 0 0 1 0 1 1
                      ENTHUSIAST/HOBBIEST 0 0 0 0 0 0 0 1 1
                              TERMINALOGY 0 0 0 0 0 0 0 1 1
-                                    SODA 0 0 0 0 0 0 0 1 0
+                                    BUZZ 0 0 0 0 0 1 0 1 1
+                               COMMODITY 0 0 0 0 0 0 0 1 1
+                             TABLET&QUOT 0 0 0 0 0 0 0 1 1
+                               JEEP&QUOT 0 0 0 0 0 0 0 0 1
+                             IEVERYTHING 0 0 0 0 0 0 0 0 1
+                                 HOOVERS 0 0 0 0 0 0 0 0 1
+                                MIGRANTS 0 0 0 0 0 1 0 1 1
+                                    POMS 0 0 0 0 0 0 0 0 1
+                                    PENS 0 0 0 0 0 0 0 1 1
+                                    BIRO 0 0 0 0 0 1 0 0 1
+                                 TISSUES 0 0 0 0 0 1 0 1 1
+                              POPULATION 0 0 0 0 0 1 0 1 1
+                                    AGES 0 0 0 0 0 1 0 1 1
+                                  FRENZY 0 0 0 0 0 1 0 1 1
+                               STUPIDITY 0 0 0 0 0 0 0 0 1
+                                   I-PAD 0 0 1 0 0 0 0 1 1
+                            SHORTCOMINGS 0 0 0 0 0 1 0 1 1
+                                 ANDRIOD 0 0 0 0 0 0 0 0 0
+                               PUBLICITY 0 0 0 0 0 1 0 1 1
+                                    SODA 0 0 0 0 0 0 0 1 1
                                 LEMONADE 0 0 0 0 0 0 0 0 0
                                   HOOVER 0 0 1 0 0 1 0 1 1
                                   DANGER 0 0 0 0 0 1 0 1 1

@@ -7,20 +7,20 @@
                                    ORDER 0 0 0 0 0 1 0 0 0
                                   RADEON 0 0 0 0 0 0 0 1 1
                                    512MB 0 0 0 0 0 0 0 1 1
-                                     AGP 0 0 0 0 0 0 0 1 1
-                                     VGA 0 0 1 0 0 0 0 1 1
+                                     AGP 0 0 0 0 0 0 0 1 0
+                                     VGA 0 0 1 0 0 0 0 1 0
                                    VIDEO 0 1 0 0 0 1 0 3 0
                                     CARD 0 1 0 0 0 1 0 3 1
                                       TV 0 0 0 0 0 1 0 0 0
                                     SAME 0 0 0 0 0 0 1 2 1
                                    SPEED 0 0 0 0 0 1 0 2 1
-                                     BIT 0 0 0 0 0 1 0 2 1
+                                     BIT 0 0 0 0 0 1 0 2 0
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
                                    CARDS 0 0 0 0 0 1 0 3 1
                               TECHNOLOGY 1 0 0 0 0 1 0 3 1
-                                     ATI 0 0 0 0 0 0 0 0 0
+                                     ATI 0 0 0 0 0 0 0 0 1
                                   SYSTEM 0 1 0 0 0 1 0 3 0
-                                    CHIP 0 0 0 0 0 1 0 1 1
+                                    CHIP 0 0 0 0 0 1 0 1 0
                                    INPUT 0 0 0 0 0 0 1 0 1
                                        Q 0 0 1 0 0 1 0 0 0
                                 HARDWARE 0 0 0 0 0 0 0 2 0
@@ -36,7 +36,7 @@
                                    OTHER 0 0 0 0 0 0 0 1 1
                                      IT. 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
-                             MOTHERBOARD 0 0 0 0 0 0 0 1 0
+                             MOTHERBOARD 0 0 0 0 0 0 0 1 1
                                        S 0 0 0 0 0 0 0 0 1
                                     STEP 0 0 0 0 0 1 0 1 1
                                     BACK 0 0 0 0 0 1 0 1 1
@@ -50,7 +50,7 @@
                                      RAM 0 0 1 0 0 1 0 1 1
                                      PCI 0 0 0 0 0 0 0 0 0
                                     USES 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 3 0
+                                  MEMORY 0 1 0 0 0 1 0 3 1
                                    CHIPS 0 0 0 0 0 1 0 1 1
                                 EVERYONE 0 0 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 2 1
@@ -61,7 +61,7 @@
                                    ARRAY 0 0 0 0 0 0 0 3 1
                                 FEATURES 0 0 0 0 0 1 0 1 1
                                      USE 1 0 0 0 0 1 0 1 1
-                                  DEVICE 0 0 0 0 0 1 0 3 0
+                                  DEVICE 0 0 0 0 0 1 0 3 1
                                     USER 0 0 0 0 0 1 0 2 1
                                     ETC. 0 0 0 0 0 0 0 1 1
                              INFORMATION 0 1 0 0 0 1 0 3 1
@@ -71,12 +71,12 @@
                                    PAPER 0 1 0 0 0 1 0 1 1
                                   BUYING 0 1 0 0 0 0 0 0 0
                                        J 0 0 1 0 0 1 0 0 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 0
+                                 WINDOWS 0 0 0 0 0 1 0 1 1
                                  DESKTOP 0 0 0 0 0 0 1 0 0
                                   GAMING 0 0 0 0 0 0 0 1 1
                                OPERATING 0 0 0 0 0 0 0 0 0
                                    MOUSE 0 0 0 0 0 1 0 1 1
-                                  SCREEN 0 0 0 0 0 1 0 3 0
+                                  SCREEN 0 0 0 0 0 1 0 3 1
                                    INTEL 0 0 1 0 0 1 0 1 1
                                      GPU 0 0 0 0 0 0 0 1 1
                                 GRAPHICS 0 0 0 0 0 1 0 3 0
@@ -93,7 +93,7 @@
                                  VERSION 1 0 0 0 0 1 0 1 1
                               RESOLUTION 0 0 0 0 0 1 0 3 1
                                      FPS 0 0 0 0 0 0 0 1 1
-                                 ELEMENT 0 0 0 0 0 1 0 1 0
+                                 ELEMENT 0 0 0 0 0 1 0 1 1
                              RESOLUTIONS 0 0 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 0 1
                                    MODEL 0 0 0 0 0 1 0 0 0
@@ -106,7 +106,7 @@
                                     SLOT 0 0 0 0 0 1 0 1 1
                                   CHANCE 0 0 0 0 0 1 0 1 1
                                  VOLTAGE 0 0 0 0 0 0 0 1 1
-                                   LIGHT 0 0 0 0 0 1 0 2 1
+                                   LIGHT 0 0 0 0 0 1 0 2 0
                                     AREA 0 0 0 0 0 1 0 2 1
                                    CABLE 0 0 0 0 0 1 0 0 1
                                     BLUE 0 0 0 0 0 1 0 1 1
@@ -114,13 +114,13 @@
                                    BLACK 0 0 0 0 0 1 0 1 1
                                  ADAPTER 0 0 0 0 0 0 0 3 1
                                  MINIMUM 0 0 0 0 0 0 0 1 1
-                                   TODAY 0 0 0 6 0 1 0 1 1
-                                     LCD 0 0 1 0 0 0 0 1 1
+                                   TODAY 0 0 1 0 0 1 0 1 0
+                                     LCD 0 0 1 0 0 0 0 1 0
                                      SET 0 0 0 0 0 1 0 1 1
                                   AMOUNT 0 0 0 0 0 1 0 3 1
-                                     CRT 0 0 0 0 0 0 0 1 1
+                                     CRT 0 0 0 0 0 0 0 1 0
                                 MONITORS 0 0 0 0 0 1 0 3 1
-                                 DISPLAY 0 0 0 0 0 1 0 3 0
+                                 DISPLAY 0 0 0 0 0 1 0 3 1
                                    ISSUE 0 1 0 0 0 1 0 1 1
                                  TOSHIBA 0 0 1 0 0 0 0 0 0
                                    COUNT 0 0 0 0 0 1 0 2 1
@@ -149,9 +149,9 @@
                                 PRINTERS 0 0 0 0 0 1 0 1 0
                                    PRINT 0 0 0 0 0 1 0 0 0
                                  PRINTER 0 0 0 0 0 0 0 1 0
-                                 QUALITY 0 0 0 0 0 1 0 3 1
+                                 QUALITY 0 0 0 0 0 1 0 3 0
                                   ACCESS 0 0 0 0 0 1 0 0 0
-                                SOFTWARE 0 1 0 0 0 1 0 3 1
+                                SOFTWARE 0 1 0 0 0 1 0 3 0
                                     TYPE 0 0 0 0 0 1 0 3 1
                                  SERVICE 0 0 0 0 0 1 0 0 1
                                     MODE 0 0 0 0 0 1 0 3 1
@@ -160,10 +160,10 @@
                                    FILES 0 0 0 0 0 1 0 1 1
                                    RANGE 0 0 0 0 0 1 0 3 1
                                    BOARD 0 1 0 0 0 1 0 3 1
-                               MICROSOFT 0 0 1 0 0 1 0 0 0
+                               MICROSOFT 0 0 1 0 0 1 0 0 1
                                    TRAIL 0 0 0 0 0 1 0 1 1
                                    STUFF 0 0 0 0 0 1 0 1 1
-                                    TEXT 0 1 0 0 0 1 0 3 0
+                                    TEXT 0 1 0 0 0 1 0 3 1
                                  PROCESS 0 0 0 0 0 1 0 2 1
                                   MODULE 0 0 0 0 0 0 0 1 1
                                    TYPES 0 1 0 0 0 1 0 1 1
@@ -182,17 +182,17 @@
                                    USAGE 0 0 0 0 0 0 0 1 1
                                  CHANNEL 0 0 0 0 0 1 0 2 1
                                   SERIES 0 0 0 0 0 1 0 2 1
-                                   VALUE 0 0 0 0 0 1 0 0 0
+                                   VALUE 0 0 0 0 0 1 0 0 1
                                   BUFFER 0 0 0 0 0 0 1 2 1
                                     LINE 0 0 0 0 0 1 0 3 0
                                     LUCK 0 0 0 0 0 1 0 1 1
-                              BACKGROUND 0 0 0 0 0 1 0 2 0
+                              BACKGROUND 0 0 0 0 0 1 0 2 1
                                    WHITE 0 1 0 0 0 1 0 2 1
                                    CASES 0 0 0 0 0 1 0 1 1
                                    MEDIA 0 1 0 0 0 1 0 1 1
                                   SOURCE 0 0 0 0 0 1 0 1 1
                             INSTRUCTIONS 0 0 0 0 0 1 0 1 1
-                                     MHZ 0 0 0 0 0 0 0 1 0
+                                     MHZ 0 0 0 0 0 0 0 1 1
                                     BUMP 0 0 0 0 0 0 0 0 0
                                  DEVICES 0 1 0 0 0 1 0 1 1
                                     SCAN 0 0 0 0 0 0 0 1 1
@@ -221,11 +221,11 @@
                                 PRESENCE 0 0 0 0 0 1 0 1 1
                                     SONY 0 1 1 0 0 1 0 0 1
                                 NOTEBOOK 0 0 0 0 0 0 0 0 0
-                                CONTRAST 1 0 0 0 0 1 0 3 1
+                                CONTRAST 1 0 0 0 0 1 0 3 0
                                    WALLS 0 0 0 0 0 1 0 0 1
                                  SIGNALS 0 0 0 0 0 1 0 3 1
                                        X 0 0 1 0 0 1 0 1 0
-                                   TOUCH 0 0 0 0 0 1 0 1 1
+                                   TOUCH 0 0 0 0 0 1 0 1 0
                                        B 0 0 1 0 0 1 0 0 0
                                        G 0 0 1 0 0 1 0 0 0
                                    WIRES 0 0 0 0 0 1 0 1 1
@@ -237,8 +237,8 @@
                                   ACTION 0 1 0 0 0 1 0 2 1
                                   SQUARE 0 0 0 0 0 1 0 1 1
                                   SPEEDS 0 0 0 0 0 0 0 1 1
-                                 SCREENS 0 0 0 0 0 1 0 3 0
-                                  OUTPUT 0 0 0 0 0 1 0 2 1
+                                 SCREENS 0 0 0 0 0 1 0 3 1
+                                  OUTPUT 0 0 0 0 0 1 0 2 0
                                     ITEM 0 0 0 0 0 1 0 1 1
                                   VALUES 0 0 0 0 0 1 0 1 1
                                     GPUS 0 0 0 0 0 0 0 1 1
@@ -261,17 +261,17 @@
                                INTERFACE 0 0 1 0 0 1 0 1 1
                                   MOTION 0 0 0 0 0 1 0 0 0
                                     EDGE 0 0 0 0 0 1 0 2 1
+                                 CIRCUIT 0 0 0 0 0 1 0 0 0
+                                    SIZE 1 0 0 0 0 1 0 1 0
+                                DISTANCE 0 0 0 0 0 1 0 1 1
+                            REQUIREMENTS 0 0 0 0 0 1 0 1 1
                                  GRAPHIC 0 0 0 0 0 0 0 2 1
                                   FILTER 0 0 0 0 0 0 0 1 1
                                     TUBE 0 0 0 0 0 1 0 1 1
-                                 CIRCUIT 0 0 0 0 0 1 0 0 0
-                                    SIZE 1 0 0 0 0 1 0 1 1
-                                DISTANCE 0 0 0 0 0 1 0 1 1
-                            REQUIREMENTS 0 0 0 0 0 1 0 1 1
                          TIGERDIRECT.COM 0 0 0 0 0 0 0 1 1
                                  DIRECTX 0 0 0 0 0 0 0 1 1
                                      ROW 0 0 0 0 0 1 0 1 1
-                               QUICKTIME 0 0 0 0 0 0 0 1 1
+                               QUICKTIME 0 0 1 0 0 0 0 1 1
                                     3.11 0 0 0 0 0 0 0 0 1
                                    COLOR 0 0 0 0 0 1 0 3 1
                                   COLORS 0 0 0 0 0 1 0 3 1
@@ -282,7 +282,7 @@
                                    SHELL 0 0 0 0 0 1 0 1 1
                                 TERMINAL 0 0 0 0 0 0 0 1 1
                                    AUDIO 0 0 0 0 0 0 1 0 0
-                              PROCESSING 0 0 0 0 0 0 0 1 0
+                              PROCESSING 0 0 0 0 0 0 0 1 1
                                    BELOW 0 0 0 0 0 0 0 0 1
                               PROPERTIES 0 0 0 0 0 1 0 1 1
                                    USERS 0 0 0 0 0 1 0 2 1
@@ -317,7 +317,7 @@
                                   PIXELS 0 0 0 0 0 0 0 3 1
                                    BYTES 0 0 0 0 0 0 0 1 1
                                        H 0 0 1 0 0 0 0 0 0
-                                    MASK 0 0 0 0 0 1 0 1 1
+                                    MASK 0 0 0 0 0 1 0 1 0
                                   RAMDAC 0 0 0 0 0 0 0 0 1
                              IMPROVEMENT 0 0 0 0 0 1 0 1 1
                                    PIXEL 0 0 0 0 0 0 0 3 1
@@ -325,7 +325,7 @@
                               BRIGHTNESS 0 0 0 0 0 0 0 2 1
                                  VIEWING 0 0 0 0 0 0 0 0 0
                               ADJUSTMENT 0 0 0 0 0 1 0 1 1
-                                    VESA 0 0 1 0 0 0 0 0 1
+                                    VESA 0 0 0 0 0 0 0 0 1
                            DOCUMENTATION 0 0 0 0 0 1 0 1 1
                                 DISPLAYS 0 0 0 0 0 1 0 3 1
                                     RATE 0 1 0 0 0 1 0 3 1
@@ -335,8 +335,8 @@
                               GENERATION 0 0 0 0 0 1 0 0 0
                                   BINARY 0 0 0 0 0 0 0 0 1
                                  REMOVAL 0 0 0 0 0 1 0 1 1
-                            ACCELERATION 0 0 0 0 0 0 0 2 1
-                              MULTIMEDIA 0 0 0 0 0 0 0 1 1
+                            ACCELERATION 0 0 0 0 0 0 0 2 0
+                              MULTIMEDIA 0 0 0 0 0 0 0 1 0
                             TECHNOLOGIES 0 1 0 0 0 1 0 1 1
                                   HEADER 0 0 0 0 0 0 0 1 1
                                      INC 0 0 1 0 0 0 0 1 1
@@ -345,7 +345,7 @@
                           COMMUNICATIONS 0 0 0 0 0 1 0 1 1
                                    FIELD 0 1 0 0 0 1 0 1 1
                                        T 0 0 1 0 0 1 0 0 0
-                                   EDGES 0 0 0 0 0 1 0 1 1
+                                   EDGES 0 0 0 0 0 1 0 1 0
                                  REFRESH 0 0 0 0 0 0 0 0 0
                             OSCILLOSCOPE 0 0 0 0 0 0 0 2 1
                                MOVEMENTS 0 0 0 0 0 1 0 1 1
@@ -357,7 +357,7 @@
                                 RECEIVER 0 0 0 0 0 0 0 1 1
                                CHARACTER 0 0 0 0 0 1 0 1 1
                                       AD 0 0 0 0 0 1 0 1 1
-                                       L 0 0 0 0 0 0 0 2 1
+                                       L 0 0 1 0 0 0 0 2 1
                                     SYNC 0 0 0 0 0 0 1 0 0
                                     TERM 0 0 0 0 0 1 0 3 1
                                  RENEWAL 0 0 0 0 0 0 0 1 1
@@ -365,22 +365,22 @@
                                    TASKS 0 0 0 0 0 1 0 1 1
                                FREQUENCY 0 0 0 0 0 0 0 1 0
                                      AID 0 0 0 0 0 1 0 1 1
+                                 STORING 0 0 0 0 0 0 0 0 1
                                MACINTOSH 0 0 1 0 0 1 0 0 0
                              ENVIRONMENT 0 0 0 0 0 1 0 2 1
                                   OBJECT 0 0 0 0 0 1 0 3 1
-                                 STORING 0 0 0 0 0 0 0 0 1
                                PIPELINES 0 0 0 0 0 1 0 1 1
                                DIRECTION 0 0 0 0 0 1 0 1 1
                                   SHADES 0 0 0 0 0 1 0 1 1
                                     FONT 0 0 0 0 0 0 0 2 1
-                                   CODEC 0 0 1 0 0 0 0 1 1
+                                   CODEC 0 0 0 0 0 0 0 1 1
                                   CODECS 0 0 1 0 0 0 0 0 1
                                    GRILL 0 0 1 0 0 1 0 1 1
                              INSTRUMENTS 0 0 0 0 0 1 0 1 1
                                   16-BIT 0 0 0 0 0 0 0 0 1
                                   UNISON 0 0 0 0 0 0 1 0 1
-                                   BLOCK 0 0 0 0 0 1 0 1 1
                                    TUBES 0 0 0 0 0 1 0 1 1
+                                   BLOCK 0 0 0 0 0 1 0 1 1
                                  INSTANT 0 0 0 0 0 0 1 1 1
                                   RENDER 0 0 1 0 0 0 0 1 1
                                   BASICS 0 0 0 0 0 1 0 1 1
@@ -401,9 +401,9 @@
                               PERIPHERAL 0 0 0 0 0 0 0 1 1
                               OPERATIONS 0 0 0 0 0 1 0 1 1
                                      RGB 0 0 1 0 0 0 0 0 1
-                                    WXGA 0 0 1 0 0 0 0 0 1
+                                    WXGA 0 0 0 0 0 0 0 0 1
                                  PASSIVE 0 0 1 0 0 0 0 0 0
-                               ATTRIBUTE 0 0 0 0 0 0 0 1 1
+                               ATTRIBUTE 0 0 0 0 0 0 0 1 0
                                MATERIALS 0 1 0 0 0 1 0 1 1
                                ATTENTION 0 0 0 0 0 1 0 1 1
                                    DRIFT 0 0 0 0 0 0 1 1 1
@@ -431,7 +431,7 @@
                               APPEARANCE 0 0 0 0 0 1 0 2 1
                                  32-BITS 0 0 0 0 0 0 0 1 1
                                     OS/2 0 0 0 0 0 0 0 0 0
-                                   8-BIT 0 0 0 0 0 0 0 0 1
+                                   8-BIT 0 0 1 0 0 0 0 0 1
                                    ALPHA 0 0 0 0 0 1 0 0 0
                                     3DFX 0 0 1 0 0 0 0 1 1
                                   8514/A 0 0 0 0 0 0 0 1 1
@@ -439,7 +439,7 @@
                                      TFT 0 0 1 0 0 0 0 1 1
                                     FILM 0 0 0 0 0 1 0 0 0
                               TRANSISTOR 0 0 0 0 0 0 0 1 1
-                                  MATRIX 0 0 1 0 0 0 0 1 0
+                                  MATRIX 0 0 1 0 0 0 0 1 1
                                  CRYSTAL 0 0 0 0 0 1 0 1 0
                              TRANSISTORS 0 0 0 0 0 0 0 1 1
                                  FASTERS 0 0 0 0 0 0 0 2 1
@@ -455,7 +455,7 @@
                                   ENDING 0 0 0 0 0 0 0 1 1
                                     .BMP 0 0 0 0 0 0 0 1 1
                                    FONTS 0 0 0 0 0 0 0 1 1
-                                    DOTS 0 0 0 0 0 0 0 3 0
+                                    DOTS 0 0 0 0 0 0 0 3 1
                                    FORM. 0 0 0 0 0 0 0 1 1
                                   COLUMN 0 0 0 0 0 1 0 0 1
                                INTENSITY 0 0 0 0 0 1 0 1 0
@@ -487,7 +487,7 @@
                                 REMNANTS 0 0 0 0 0 1 0 1 1
                                   MAGNET 0 0 0 0 0 0 0 0 0
                                PARTICLES 0 0 0 0 0 1 0 1 1
-                              DETONATORS 0 0 1 0 0 0 0 0 1
+                              DETONATORS 0 0 0 0 0 0 0 0 1
                               MONOCHROME 0 0 0 0 0 0 0 1 1
                                      EGA 0 0 1 0 0 0 0 0 1
                                 DIGITIZE 0 0 0 0 0 0 0 1 1
@@ -501,10 +501,10 @@
                              MILLIMETERS 0 0 0 0 0 0 0 0 1
                                     DSTN 0 0 1 0 0 0 0 0 1
                                  NEMATIC 0 0 0 0 0 0 0 3 1
-                                     STN 0 0 0 0 0 0 0 0 1
-                          PASSIVE-MATRIX 0 0 0 0 0 0 0 1 1
+                                     STN 0 0 1 0 0 0 0 0 1
+                          PASSIVE-MATRIX 0 0 0 0 0 0 0 1 0
                                   LAYERS 0 0 0 0 0 1 0 1 1
-                                     DPI 0 0 1 0 0 0 0 0 0
+                                     DPI 0 0 1 0 0 0 0 0 1
                                  SWAYING 0 0 0 0 0 0 0 1 1
                                  PALETTE 0 0 0 0 0 0 0 1 1
                                      ELF 0 0 1 0 0 0 0 0 0
@@ -537,7 +537,7 @@
                                60-INCHES 0 0 0 0 0 0 0 0 1
                                  SCREEN- 0 0 0 0 0 0 0 1 1
                                      SUN 0 0 0 0 0 1 0 1 1
-                                POLYGONS 0 0 1 0 0 0 0 1 1
+                                POLYGONS 0 0 0 0 0 0 0 1 1
                              GRANULARITY 0 0 0 0 0 0 0 1 1
                                  CLARITY 0 0 0 0 0 0 0 1 1
                               PHOTOGRAPH 0 0 0 0 0 1 0 0 1
@@ -549,13 +549,13 @@
                                      HGA 0 0 1 0 0 0 0 1 1
                                 QUANTITY 0 0 0 0 0 0 0 1 1
                                 PER-INCH 0 0 0 0 0 0 0 1 1
-                                     HPA 0 0 0 0 0 0 0 1 1
+                                     HPA 0 0 0 0 0 0 0 1 0
                             ABBREVIATION 0 0 0 0 0 0 0 1 1
                                      HPD 0 0 1 0 0 0 0 0 1
                                     IRGB 0 0 0 0 0 0 0 0 1
                                16-COLORS 0 0 0 0 0 0 0 0 1
                              INTENSITIES 0 0 0 0 0 0 0 1 1
-                             INTERLACING 0 0 1 0 0 0 0 0 1
+                             INTERLACING 0 0 0 0 0 0 0 0 1
                               SITUATIONS 0 0 0 0 0 1 0 1 1
                                  JAGGIES 0 0 1 0 0 0 0 0 1
                                LANDSCAPE 0 0 0 0 0 1 0 1 0
@@ -573,13 +573,13 @@
                              FREQUENCIES 0 0 0 0 0 0 0 1 1
                                    GRIDS 0 0 0 0 0 0 0 0 0
                                      VDT 0 0 1 0 0 0 0 0 1
-                                     MPC 0 0 0 0 0 0 0 1 1
+                                     MPC 0 0 1 0 0 0 0 1 1
                                     MPEG 0 0 0 0 0 0 0 1 1
                           MULTIFREQUENCY 0 0 0 0 0 0 0 0 0
                            MULTISCANNING 0 0 0 0 0 0 0 0 0
                                      NIT 0 0 0 0 0 0 0 1 1
                           NONINTERLACING 0 0 0 0 0 0 0 0 1
-                                    NTSC 0 0 1 0 0 0 0 0 1
+                                    NTSC 0 0 0 0 0 0 0 0 1
                                COMMITTEE 0 1 0 0 0 1 0 2 1
                              TELEVISIONS 0 0 0 0 0 0 0 1 1
                                     OLED 0 0 1 0 0 0 0 1 1
@@ -590,13 +590,13 @@
                                    PHASE 0 0 0 0 0 1 0 0 0
                                   EUROPE 0 1 1 0 0 1 0 0 1
                              HALF-FRAMES 0 0 0 7 0 0 0 1 1
-                             PAPER-WHITE 0 0 1 0 0 0 0 0 1
+                             PAPER-WHITE 0 0 0 0 0 0 0 0 1
                             INTERSECTION 0 0 0 0 0 0 0 1 1
                              PERSISTENCE 0 0 0 0 0 0 0 1 1
                                      PGA 0 0 1 0 0 0 0 1 1
                                  CATHODE 0 0 0 0 0 0 0 0 0
                                      PEL 0 0 0 0 0 0 0 1 1
-                                 POLYGON 0 0 0 0 0 0 0 1 1
+                                 POLYGON 0 0 0 0 0 0 0 1 0
                                      PPI 0 0 1 0 0 0 0 0 1
                                PROJECTOR 0 0 0 0 0 0 0 1 1
                                 MEETINGS 1 0 0 0 0 1 0 0 1
@@ -618,24 +618,24 @@
                            CONSTRUCTEURS 0 0 1 0 0 0 0 0 0
                                APPAREILS 0 0 0 0 0 0 0 0 0
                           RADIORCEPTEURS 0 0 0 0 0 0 0 1 1
-                                   SGRAM 0 0 0 0 0 0 0 0 1
+                                   SGRAM 0 0 1 0 0 0 0 0 1
                                   100MHZ 0 0 0 0 0 0 0 0 1
                                   125MHZ 0 0 0 0 0 0 0 0 1
                                   142MHZ 0 0 0 0 0 0 0 0 1
                                   SHADOW 0 0 0 0 0 1 0 0 0
                                    BEAMS 0 0 0 0 0 0 0 1 1
                                     GUNS 0 0 0 0 0 1 0 1 1
-                               TRINITRON 0 0 0 0 0 0 0 0 1
+                               TRINITRON 0 0 0 0 0 0 0 0 0
                                SHARPNESS 0 0 0 0 0 0 0 1 1
                               IMAGE/TEXT 0 0 0 0 0 0 0 1 1
-                                    SNOW 0 0 1 0 0 1 0 1 1
+                                    SNOW 0 0 0 0 0 1 0 1 1
                                     CAST 0 0 0 0 0 1 0 1 1
                               DISRUPTION 0 0 0 0 0 0 0 1 1
                   LIQUID-CRYSTAL-DISPLAY 0 0 0 0 0 0 0 1 1
-                                      TN 0 0 0 0 0 0 0 0 1
+                                      TN 0 0 1 0 0 0 0 0 1
                                MOLECULES 0 0 0 0 0 1 0 1 1
                                     SXGA 0 0 0 0 0 0 0 1 1
-                                     XGA 0 0 0 0 0 0 0 1 1
+                                     XGA 0 0 1 0 0 0 0 1 1
                                  COLUMNS 0 0 0 0 0 1 0 1 1
                                       &L 0 0 0 0 0 0 0 1 1
                              TRICHOMATIC 0 0 0 0 0 0 0 1 1
@@ -643,9 +643,9 @@
                                   INKJET 0 0 0 0 0 0 0 0 0
                               VARIATIONS 0 0 0 0 0 1 0 1 1
                                     UXGA 0 0 0 0 0 0 0 1 1
-                                     VDU 0 0 0 0 0 0 0 1 1
+                                     VDU 0 0 1 0 0 0 0 1 1
                                  RETRACE 0 0 0 0 0 0 0 1 1
-                                BLANKING 0 0 0 0 0 0 0 1 1
+                                BLANKING 0 0 0 0 0 0 0 1 0
                                     BEAM 0 0 0 0 0 0 0 2 1
                               UPPER-LEFT 0 0 0 0 0 0 0 1 1
                              ASSOCIATION 0 0 0 0 0 1 0 1 1
@@ -669,4 +669,4 @@
                                  MODELER 0 0 0 0 0 0 0 1 1
                                 BOUNDARY 0 0 0 0 0 0 0 1 1
                                    WSXGA 0 0 1 0 0 0 0 0 1
-                                   WUXGA 0 0 0 0 0 0 0 0 1
+                                   WUXGA 0 0 1 0 0 0 0 0 1

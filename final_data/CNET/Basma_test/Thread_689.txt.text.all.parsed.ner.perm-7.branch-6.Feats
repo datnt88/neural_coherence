@@ -30,15 +30,15 @@
                                     CASE 0 1 0 0 0 1 0 0 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 0 1
-                                      .. 0 0 0 0 0 1 0 2 1
+                                      .. 0 0 0 0 0 1 0 2 0
                                    CHIPS 0 0 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 1 1
-                                   PHONE 0 0 0 0 0 1 0 1 0
+                                   PHONE 0 0 0 0 0 1 0 1 1
                                       'S 0 0 0 0 0 0 0 1 1
                                 FEATURES 0 0 0 0 0 1 0 1 1
                                     DAYS 0 0 0 0 0 1 0 1 1
                                     WORK 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 2 0
+                                      HP 0 0 1 0 0 0 0 2 1
                                   LAPTOP 0 0 0 0 0 0 0 1 1
                                   CHARGE 0 1 0 0 0 1 0 1 1
                                    PAPER 0 1 0 0 0 1 0 1 0
@@ -56,7 +56,7 @@
                                      FIX 0 0 0 0 0 0 0 1 1
                                       2. 0 0 0 0 0 0 0 1 1
                                    BLACK 0 0 0 0 0 1 0 1 1
-                                   TODAY 0 0 0 6 0 1 0 0 1
+                                   TODAY 0 0 0 0 0 1 0 0 0
                                      KEY 0 0 0 0 0 1 0 1 1
                                  WEBSITE 0 0 0 0 0 0 0 1 1
                                     POST 0 0 0 0 0 1 0 1 1
@@ -72,11 +72,11 @@
                                 RESPONSE 0 0 0 0 0 1 0 1 1
                                  PRODUCT 0 1 0 0 0 1 0 0 0
                                     CORD 0 0 0 0 0 1 0 1 1
-                                   EPSON 0 0 1 0 0 0 0 2 1
+                                   EPSON 0 0 1 0 0 0 0 2 0
                                 PRINTERS 0 0 0 0 0 1 0 1 1
                                   CLIENT 0 1 0 0 0 1 0 1 1
                                    PRINT 0 0 0 0 0 1 0 1 0
-                                 PRINTER 0 0 0 0 0 0 0 3 1
+                                 PRINTER 0 0 0 0 0 0 0 3 0
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                    QUEUE 0 0 0 0 0 0 0 1 1
@@ -95,7 +95,7 @@
                             MANUFACTURER 0 0 0 0 0 1 0 1 1
                                     INFO 0 0 0 0 0 0 0 1 1
                                      OEM 0 0 0 0 0 0 0 0 0
-                                CUSTOMER 0 0 0 0 0 1 0 1 0
+                                CUSTOMER 0 0 0 0 0 1 0 1 1
                                   MODELS 0 0 0 0 0 1 0 1 1
                                     WEEK 1 0 0 6 0 1 0 1 1
                                SITUATION 0 1 0 0 0 1 0 1 1
@@ -125,9 +125,9 @@
                                      INK 0 0 0 0 0 1 0 0 0
                                CARTRIDGE 0 0 0 0 0 0 0 1 1
                                    WORDS 0 1 0 0 0 1 0 1 1
-                                   SHEET 0 0 0 0 0 1 0 1 1
                                  PACKARD 0 0 0 0 0 1 0 1 1
-                                   COLOR 0 0 0 0 0 1 0 1 0
+                                   SHEET 0 0 0 0 0 1 0 1 1
+                                   COLOR 0 0 0 0 0 1 0 1 1
                                   COLORS 0 0 0 0 0 1 0 1 1
                                   E-MAIL 0 0 0 0 0 1 0 0 0
                                    BUYER 0 1 0 0 0 1 0 1 1
@@ -165,12 +165,7 @@
                                    MP530 0 0 0 0 0 0 0 1 1
                                QUALITIES 0 0 0 0 0 1 0 1 1
                                TANGIBLES 0 0 0 0 0 0 0 1 1
-                                    R260 0 0 0 0 0 0 0 1 1
-                               CARTRAGES 0 0 0 0 0 0 0 2 1
-                                  NATION 0 0 0 0 0 1 0 0 0
-                              EXPERIANCE 0 0 0 0 0 0 0 1 1
-                               TECH&QUOT 0 0 0 0 0 0 0 1 1
-                               TELEPHONE 0 0 0 0 0 1 0 1 1
+                               TELEPHONE 0 0 0 0 0 1 0 1 0
                                     T068 0 0 0 0 0 0 0 0 1
                                    19.99 0 0 0 0 0 0 0 1 1
                                     T069 0 0 0 0 0 0 0 1 1
@@ -190,3 +185,8 @@
                                   AGENCY 0 1 0 0 0 1 0 1 1
                                    ESPON 0 0 0 0 0 0 0 1 1
                                   CX6000 0 0 0 0 0 0 0 1 1
+                                    R260 0 0 0 0 0 0 0 1 1
+                               CARTRAGES 0 0 0 0 0 0 0 2 1
+                                  NATION 0 0 0 0 0 1 0 0 0
+                              EXPERIANCE 0 0 0 0 0 0 0 1 1
+                               TECH&QUOT 0 0 0 0 0 0 0 1 1

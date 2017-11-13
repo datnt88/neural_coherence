@@ -16,7 +16,7 @@
                                 COMPUTER 0 1 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 1 1
                               CONTROLLER 0 0 0 0 0 1 0 1 1
-                                     ONE 0 0 0 0 0 1 0 1 1
+                                     ONE 0 0 0 0 0 1 0 1 0
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 1 1
@@ -26,7 +26,7 @@
                                     BIOS 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 0 0 0 1 0 2 0
+                                      PC 0 0 0 0 0 1 0 2 1
                                     BACK 0 0 0 0 0 1 0 1 1
                                     LINK 0 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 0 1
@@ -40,14 +40,14 @@
                                       CD 0 0 0 0 0 1 0 1 1
                                      ROM 0 0 0 0 0 0 0 0 0
                                      RAM 0 0 1 0 0 1 0 0 0
-                                    FANS 0 0 0 0 0 1 0 1 1
+                                    FANS 0 0 0 0 0 1 0 1 0
                                   INTAKE 0 0 0 0 0 0 0 0 0
                                    FRONT 0 0 0 0 0 1 0 1 1
                                     SIDE 1 0 0 0 0 1 0 0 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                       .. 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 2 0
-                                  THINGS 0 0 0 0 0 1 0 1 0
+                                  MEMORY 0 1 0 0 0 1 0 2 1
+                                  THINGS 0 0 0 0 0 1 0 1 1
                               CONNECTION 0 0 0 0 0 1 0 1 1
                                    MONTH 1 1 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 1 1
@@ -64,30 +64,30 @@
                                      OWN 0 0 0 0 0 0 1 1 1
                                OPERATING 0 0 0 0 0 0 0 0 0
                                    MOUSE 0 0 0 0 0 1 0 0 0
-                                  SCREEN 0 0 0 0 0 1 0 1 0
-                                     CPU 0 0 0 0 0 0 0 1 1
+                                  SCREEN 0 0 0 0 0 1 0 1 1
+                                     CPU 0 0 0 0 0 0 0 1 0
                                    INTEL 0 0 1 0 0 1 0 0 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                    TOWER 0 0 0 0 0 1 0 3 1
                                     LOOK 0 0 0 0 0 1 0 1 1
                                   INTELS 0 0 0 0 0 0 0 0 1
                                  CHIPSET 0 0 0 0 0 0 0 1 1
-                                 VERSION 1 0 0 0 0 1 0 1 1
+                                 VERSION 1 0 0 0 0 1 0 1 0
                                     GAME 0 0 0 0 0 1 0 0 0
                                    ULTRA 0 0 0 0 0 0 0 0 0
                                    COVER 0 0 0 0 0 1 0 1 1
                                    MODEL 0 0 0 0 0 1 0 1 1
                                  CELERON 0 0 0 0 0 0 0 1 0
                                PROCESSOR 0 0 0 0 0 0 0 1 1
-                                  SOCKET 0 0 0 0 0 0 0 2 1
+                                  SOCKET 0 0 0 0 0 0 0 2 0
                                      FAN 0 0 0 0 0 1 0 1 1
                                      BUY 0 0 0 0 0 0 0 1 1
-                              PROCESSORS 0 0 0 0 0 1 0 1 0
+                              PROCESSORS 0 0 0 0 0 1 0 1 1
                                    WRONG 0 0 0 0 0 0 1 1 1
                                  PENTIUM 0 0 0 0 0 0 0 2 1
                                      DDR 0 0 0 0 0 0 0 0 0
                                   CD-ROM 0 0 0 0 0 1 0 0 0
-                                    SLOT 0 0 0 0 0 1 0 1 0
+                                    SLOT 0 0 0 0 0 1 0 1 1
                                    LIGHT 0 0 0 0 0 1 0 1 1
                                    CABLE 0 0 0 0 0 1 0 0 0
                                      FSB 0 0 0 0 0 0 0 1 1
@@ -119,7 +119,7 @@
                                      WAY 1 0 0 0 0 1 0 2 1
                                     MODE 0 0 0 0 0 1 0 0 0
                                  SOMEONE 0 0 0 0 0 1 0 0 1
-                                    DATA 0 0 0 0 0 1 0 1 0
+                                    DATA 0 0 0 0 0 1 0 1 1
                                    BOARD 0 1 0 0 0 1 0 0 0
                               POSSIBILTY 0 0 0 0 0 0 0 1 1
                                    TOTAL 0 0 0 0 0 1 0 1 1
@@ -131,7 +131,7 @@
                                   OPTION 0 0 0 0 0 1 0 1 1
                                    STUFF 0 0 0 0 0 1 0 1 1
                             MANUFACTURER 0 0 0 0 0 1 0 1 1
-                                    NAME 0 0 0 0 0 1 0 1 1
+                                    NAME 0 0 0 0 0 1 0 1 0
                                   BUTTON 0 0 0 0 0 0 0 1 1
                                 RESTARTS 0 0 0 0 0 0 0 1 1
                                     INFO 0 0 0 0 0 0 0 1 1
@@ -170,10 +170,10 @@
                                  MALWARE 0 0 0 0 0 0 0 0 0
                                   COMPAQ 0 0 1 0 0 1 0 0 0
                                 CAPACITY 0 0 0 0 0 1 0 1 1
-                                      X1 0 0 0 0 0 0 0 2 1
                                     LACK 0 0 0 0 0 1 0 1 1
                                     SIZE 1 0 0 0 0 1 0 0 1
                                  SEMPRON 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 2 1
                                       X2 0 0 0 0 0 0 0 2 1
                                    -RSB- 0 0 0 0 0 0 0 3 1
                                    AUDIO 0 0 0 0 0 0 1 1 1

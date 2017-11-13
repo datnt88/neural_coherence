@@ -17,7 +17,7 @@
                                   DRIVES 0 0 0 0 0 1 0 0 0
                                    POWER 0 1 0 0 0 1 0 0 0
                                      IDE 0 0 0 0 0 0 0 0 0
-                              CONTROLLER 0 0 0 0 0 1 0 2 0
+                              CONTROLLER 0 0 0 0 0 1 0 2 1
                                     SELF 0 0 0 0 0 1 0 0 0
                                     40GB 0 0 0 0 0 0 0 1 1
                                   ERRORS 0 1 0 0 0 1 0 0 0
@@ -27,7 +27,7 @@
                                    -LRB- 0 0 0 0 0 0 0 0 0
                                    -RRB- 0 0 0 0 0 0 0 0 0
                                     BOOT 0 0 0 0 0 0 0 0 0
-                                    BIOS 0 0 0 0 0 0 0 1 0
+                                    BIOS 0 0 0 0 0 0 0 1 1
                                    OTHER 0 0 0 0 0 0 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
                                      USB 0 0 0 0 0 0 0 0 0
@@ -49,7 +49,7 @@
                                  WINDOWS 0 0 0 0 0 1 0 0 0
                                   GAMING 0 0 0 0 0 0 0 0 0
                                  GENERAL 0 1 0 0 0 1 0 0 0
-                                  BRIDGE 0 1 0 0 0 1 0 1 0
+                                  BRIDGE 0 1 0 0 0 1 0 1 1
                                    INTEL 0 0 1 0 0 1 0 1 0
                                      III 0 0 1 0 0 1 0 0 0
                                       V4 0 0 0 0 0 0 0 1 1
@@ -69,7 +69,7 @@
                                  PROGRAM 0 1 0 0 0 1 0 1 1
                                  NETWORK 0 0 0 0 0 1 0 0 0
                                  ANSWERS 0 1 0 0 0 1 0 1 1
-                                 PRODUCT 0 1 0 0 0 1 0 1 0
+                                 PRODUCT 0 1 0 0 0 1 0 1 1
                                     PORT 0 0 0 0 0 1 0 0 0
                                      WAY 1 0 0 0 0 1 0 1 1
                                     SUCH 0 0 0 0 0 0 1 1 1
@@ -84,7 +84,7 @@
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                SUPPORTED 0 0 0 0 0 0 0 0 0
                             MANUFACTURER 0 0 0 0 0 1 0 3 0
-                                    NAME 0 0 0 0 0 1 0 1 1
+                                    NAME 0 0 0 0 0 1 0 1 0
                                     INFO 0 0 0 0 0 0 0 1 1
                                   VENDOR 0 0 0 0 0 1 0 2 0
                                      &GT 0 0 0 0 0 0 0 1 1
@@ -98,7 +98,7 @@
                                   SERIAL 0 0 0 0 0 0 0 0 0
                                        G 0 0 1 0 0 1 0 0 0
                                   OTHERS 0 0 0 0 0 1 0 1 1
-                            CAPABILITIES 0 0 0 0 0 1 0 2 1
+                            CAPABILITIES 0 0 0 0 0 1 0 2 0
                                  CURRENT 0 0 0 0 0 0 0 0 0
                                  SPECIAL 0 0 0 0 0 1 0 0 0
                                      SUB 0 0 0 0 0 0 0 0 0
@@ -113,11 +113,11 @@
                                  STORAGE 0 0 0 0 0 0 0 0 0
                                  PORTION 0 0 0 0 0 1 0 1 1
                                INTERFACE 0 0 0 0 0 1 0 0 0
-                                SUPPORTS 0 0 0 0 0 0 0 0 0
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                      GIG 0 0 0 0 0 0 0 1 1
                                     SIZE 1 0 0 0 0 1 0 0 0
                                     BANK 0 1 0 0 0 1 0 0 0
+                                SUPPORTS 0 0 0 0 0 0 0 0 0
                                    COLOR 0 0 0 0 0 1 0 1 1
                                     HOST 0 0 0 0 0 1 0 0 0
                                TRANSFERS 0 0 0 0 0 1 0 1 1
@@ -130,7 +130,7 @@
                                      NEC 0 1 0 0 0 1 0 1 0
                                INSPECTOR 0 0 0 0 0 1 0 0 0
                                 LANGUAGE 0 0 0 0 0 1 0 0 0
-                                    LABS 0 0 0 0 0 1 0 1 1
+                                    LABS 0 0 0 0 0 1 0 1 0
                                    AWARD 0 0 0 0 0 1 0 0 0
                               COPPERMINE 0 0 0 0 0 0 0 0 0
                                    VOLUM 0 0 0 0 0 0 0 0 0
@@ -150,7 +150,7 @@
                                    0X36E 0 0 0 0 0 0 0 1 1
                                 SUBCLASS 0 0 0 0 0 0 0 0 0
                                BUSMASTER 0 0 0 0 0 0 0 0 0
-                                  STATUS 0 0 0 0 0 1 0 2 0
+                                  STATUS 0 0 0 0 0 1 0 2 1
                             BACK-TO-BACK 0 0 0 0 0 0 0 0 0
                                   TIMING 0 0 0 0 0 1 0 0 0
                                   HEADER 0 0 0 0 0 0 0 0 0
@@ -166,7 +166,7 @@
                                      0X2 0 0 0 0 0 0 0 0 0
                                   0X0000 0 0 0 0 0 0 0 0 0
                                    66MHZ 0 0 0 0 0 0 0 0 0
-                                440BX/ZX 0 0 0 0 0 0 0 0 0
+                                440BX/ZX 0 0 1 0 0 0 0 0 0
                                   AGPSET 0 0 0 0 0 0 0 0 0
                                      0X3 0 0 0 0 0 0 0 0 0
                                   0X8086 0 0 0 0 0 0 0 0 0

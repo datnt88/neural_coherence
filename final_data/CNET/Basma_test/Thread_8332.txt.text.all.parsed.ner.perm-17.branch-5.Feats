@@ -1,4 +1,4 @@
-                                    TIME 1 1 0 0 0 1 0 1 1
+                                    TIME 1 1 0 0 0 1 0 1 0
                                     THAT 0 0 0 0 0 0 0 0 1
                                        / 0 0 0 0 0 0 0 0 0
                                    VIDEO 0 1 0 0 0 1 0 0 0
@@ -13,12 +13,12 @@
                                   MAXTOR 0 0 0 0 0 0 0 0 0
                                     THEN 0 0 0 0 0 0 1 0 1
                                      ONE 0 0 0 0 0 1 0 1 1
-                                   DRIVE 0 0 0 0 0 1 0 3 0
+                                   DRIVE 0 0 0 0 0 1 0 3 1
                                 PROBLEMS 0 0 0 0 0 1 0 1 1
                                     DISK 0 0 0 0 0 1 0 0 0
                                    MUSIC 0 0 0 0 0 1 0 0 0
                                  MACHINE 0 1 0 0 0 1 0 1 1
-                                    BOOT 0 0 0 0 0 0 0 0 0
+                                    BOOT 0 0 0 0 0 0 0 0 1
                                     KIND 0 0 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
                                       PC 0 0 0 0 0 1 0 2 1
@@ -45,7 +45,7 @@
                              PERFORMANCE 1 1 0 0 0 1 0 1 1
                                     PART 1 0 0 0 0 1 0 0 0
                                    PRICE 0 1 0 0 0 1 0 1 1
-                                      HD 0 0 1 0 0 0 0 2 0
+                                      HD 0 0 1 0 0 0 0 2 1
                                  EXAMPLE 0 0 0 0 0 1 0 0 1
                                   ONLINE 0 0 0 0 0 1 0 1 1
                                      DVD 0 0 0 0 0 1 0 1 1
@@ -63,7 +63,7 @@
                                    IMAGE 1 0 0 0 0 1 0 1 1
                                ENCLOSURE 0 0 0 0 0 0 0 1 0
                                PARTITION 0 0 0 0 0 0 1 1 1
-                                  FORMAT 0 1 0 0 0 1 0 1 0
+                                  FORMAT 0 1 0 0 0 1 0 1 1
                                COMPUTERS 0 0 0 0 0 1 0 1 1
                                      MAC 0 0 1 0 0 1 0 0 1
                                      BOX 0 0 0 0 0 1 0 1 1
@@ -73,8 +73,8 @@
                                     TYPE 0 0 0 0 0 1 0 1 1
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
                                     WORD 0 0 0 0 0 1 0 0 0
-                                    DATA 0 0 0 0 0 1 0 1 0
-                                   FILES 0 0 0 0 0 1 0 1 0
+                                    DATA 0 0 0 0 0 1 0 1 1
+                                   FILES 0 0 0 0 0 1 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 0 0
                                  DEFAULT 0 0 0 0 0 1 0 0 0
                                UTILITIES 0 0 0 0 0 1 0 1 1
@@ -91,7 +91,7 @@
                                   FIGURE 0 0 0 0 0 1 0 0 0
                                       GB 0 0 0 0 0 0 0 0 0
                                    FAT32 0 0 0 0 0 0 0 1 1
-                                    FILE 0 0 0 0 0 1 0 1 1
+                                    FILE 0 0 0 0 0 1 0 1 0
                                FOLLOWING 0 0 0 0 0 0 0 1 1
                                      HD. 0 0 0 0 0 0 0 1 1
                                COMPUTING 0 0 0 0 0 1 0 0 0
@@ -116,7 +116,7 @@
                                      2.0 0 0 0 0 0 0 0 1 1
                                  BACKUPS 0 0 0 0 0 0 0 1 1
                                 PICTURES 0 0 0 0 0 1 0 0 0
-                               DOCUMENTS 0 1 0 0 0 1 0 2 0
+                               DOCUMENTS 0 1 0 0 0 1 0 2 1
                                      EXT 0 0 0 0 0 0 0 1 0
                                     NTFS 0 0 0 0 0 0 0 2 1
                                     LIFE 0 0 0 0 0 1 0 1 1
@@ -125,7 +125,7 @@
                                     SYNC 0 0 0 0 0 0 1 0 0
                               ALLOCATION 0 0 0 0 0 0 1 0 0
                                   USB2.0 0 0 0 0 0 0 0 0 1
-                               EXTERNALS 0 0 0 0 0 0 0 1 0
+                               EXTERNALS 0 0 0 0 0 0 0 1 1
                                     HDDS 0 0 0 0 0 0 0 1 1
                                   SISOFT 0 0 1 0 0 0 0 0 0
                                  SHUFFLE 0 0 0 0 0 0 0 0 1
@@ -151,9 +151,9 @@
                               DIFFERANCE 0 0 0 0 0 0 0 0 0
                                   SANDRA 0 0 1 0 0 1 0 1 1
                                   ATTACK 0 0 0 0 0 1 0 1 1
+                                HOT-SWAP 0 0 0 0 0 0 0 1 1
+                            MAINTAINENCE 0 0 0 0 0 0 0 1 1
                                     NFTS 0 0 0 0 0 0 0 0 1
                                   LAYMAN 0 0 0 0 0 0 0 1 1
                                   SIZES. 0 0 0 0 0 0 0 1 1
                                 FLIPSIDE 0 0 0 0 0 0 0 1 1
-                                HOT-SWAP 0 0 0 0 0 0 0 1 1
-                            MAINTAINENCE 0 0 0 0 0 0 0 1 1

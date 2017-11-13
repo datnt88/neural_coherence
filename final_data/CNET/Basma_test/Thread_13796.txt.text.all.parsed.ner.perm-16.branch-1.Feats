@@ -29,7 +29,7 @@
                                     DONT 0 0 0 0 0 0 0 0 0
                                     ONES 0 0 0 0 0 1 0 0 0
                                   ROUTER 0 0 0 0 0 0 0 1 1
-                                  DOESNT 0 0 0 0 0 0 0 1 1
+                                  DOESNT 0 0 0 0 0 0 0 1 0
                                    SETUP 0 0 0 0 0 0 0 0 0
                                  NETWORK 0 0 0 0 0 1 0 0 0
                                    GUIDE 0 0 0 0 0 1 0 0 0
@@ -37,7 +37,7 @@
                                 FIRMWARE 0 0 0 0 0 0 0 1 1
                                   SERVER 0 0 0 0 0 0 0 0 0
                                      MAC 0 0 1 0 0 1 0 0 0
-                                      IP 0 0 0 0 0 0 0 0 1
+                                      IP 0 0 0 0 0 0 0 0 0
                                      ISP 0 0 0 0 0 0 0 1 1
                                     TYPE 0 0 0 0 0 1 0 1 1
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
@@ -45,7 +45,7 @@
                                  DEFAULT 0 0 0 0 0 1 0 0 0
                                     UPNP 0 0 0 0 0 0 0 1 1
                                   OPTION 0 0 0 0 0 1 0 1 1
-                                       % 1 1 0 0 0 0 0 2 1
+                                       % 1 1 0 4 0 0 0 2 1
                                     LUCK 0 0 0 0 0 1 0 1 1
                                     FOLL 0 0 0 0 0 0 0 1 1
                                      WEP 0 0 0 0 0 0 0 1 1
@@ -64,9 +64,9 @@
                            CONFIGUARTION 0 0 0 0 0 0 0 0 1
                                  FACTORY 0 0 0 0 0 1 0 0 0
                                   SUBNET 0 0 0 0 0 0 0 0 0
-                                    MASK 0 0 0 0 0 1 0 2 0
+                                    MASK 0 0 0 0 0 1 0 2 1
                                 IPCONFIG 0 0 0 0 0 0 0 1 1
-                                     N/A 0 0 0 0 0 0 0 0 1
+                                     N/A 0 0 0 0 0 0 0 0 0
                                   STATUS 0 0 0 0 0 1 0 3 1
                                   SUFFIX 0 0 0 0 0 0 0 2 1
                                       :: 0 0 0 0 0 0 0 2 1

@@ -49,7 +49,7 @@
                                    THING 0 0 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 1 1
                                       3G 0 0 0 0 0 0 0 1 1
-                                   MODEM 0 0 0 0 0 1 0 2 0
+                                   MODEM 0 0 0 0 0 1 0 2 1
                                   DEVICE 0 0 0 0 0 1 0 2 0
                                   ANYONE 0 0 0 0 0 1 0 0 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
@@ -59,7 +59,7 @@
                                   REASON 0 0 0 0 0 1 0 1 1
                                 WIRELESS 0 0 1 0 0 0 0 0 0
                                YESTERDAY 0 0 0 6 0 1 0 0 1
-                                      OS 0 0 1 0 0 0 0 1 0
+                                      OS 0 0 0 0 0 0 0 1 1
                                   CHANGE 0 0 0 0 0 1 0 1 1
                                  DESKTOP 0 0 0 0 0 0 1 1 1
                                   COUPLE 0 0 0 0 0 1 0 1 1
@@ -82,7 +82,7 @@
                                PROCESSOR 0 0 0 0 0 0 0 1 1
                                    FIRST 0 1 0 0 0 1 0 1 1
                                  REGARDS 0 0 0 0 0 0 0 1 1
-                                  SIGNAL 0 0 0 0 0 1 0 3 1
+                                  SIGNAL 0 0 0 0 0 1 0 3 0
                                  WORKING 0 0 0 0 0 1 0 1 1
                                     GOOD 0 0 0 0 0 1 0 0 1
                                   CHANCE 0 0 0 0 0 1 0 1 1
@@ -103,7 +103,7 @@
                                   ROUTER 0 0 0 0 0 0 0 3 1
                                 INTERNET 0 0 0 0 0 1 0 1 1
                                     PAST 0 0 0 0 0 1 0 1 1
-                                 NETWORK 0 0 0 0 0 1 0 3 0
+                                 NETWORK 0 0 0 0 0 1 0 3 1
                                    GUIDE 0 0 0 0 0 1 0 1 1
                                     PAGE 0 0 0 0 0 1 0 1 1
                                 FIRMWARE 0 0 0 0 0 0 0 1 1
@@ -134,7 +134,7 @@
                                  DETAILS 0 0 0 0 0 1 0 1 1
                                     XBOX 0 0 0 0 0 0 0 2 1
                                     LIVE 0 0 0 0 0 1 0 0 1
-                                   RANGE 0 0 0 0 0 1 0 1 0
+                                   RANGE 0 0 0 0 0 1 0 1 1
                                  ROUTERS 0 0 0 0 0 0 0 2 1
                                    BOARD 0 1 0 0 0 1 0 1 1
                                 NETWORKS 0 0 0 0 0 1 0 1 1
@@ -148,10 +148,10 @@
                                    STUFF 0 0 0 0 0 1 0 1 1
                                    LOOKS 0 0 0 0 0 1 0 1 1
                            UNDERSTANDING 0 0 0 0 0 1 0 1 1
-                                 RESULTS 1 1 0 0 0 1 0 1 0
+                                 RESULTS 1 1 0 0 0 1 0 1 1
                                   REPORT 1 1 0 0 0 1 0 0 0
-                                    WEEK 1 0 0 0 0 1 0 1 1
-                                   NIGHT 1 0 0 5 0 1 0 1 1
+                                    WEEK 1 0 0 6 0 1 0 1 1
+                                   NIGHT 1 0 0 0 0 1 0 1 1
                                     GEAR 0 0 0 0 0 1 0 3 1
                                    STORE 0 0 0 0 0 1 0 1 1
                                      DAY 0 1 0 0 0 1 0 1 1
@@ -177,11 +177,11 @@
                                 NEIGHBOR 0 0 0 0 0 1 0 1 1
                                   RESULT 1 0 0 0 0 1 0 1 1
                                    SITES 0 0 0 0 0 1 0 1 1
-                                     NAT 0 0 0 0 0 0 0 2 1
-                                    AT&T 0 0 1 0 0 1 0 0 1
+                                     NAT 0 0 0 0 0 0 0 2 0
+                                    AT&T 0 0 0 0 0 1 0 0 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                 SERVICES 1 0 0 0 0 1 0 1 1
-                              NETWORKING 0 0 0 0 0 0 0 1 0
+                              NETWORKING 0 0 0 0 0 0 0 1 1
                                     NATS 0 0 0 0 0 0 0 1 1
                                 SPEAKERS 0 0 0 0 0 1 0 1 1
                                    2WIRE 0 0 0 0 0 0 0 1 1
@@ -198,7 +198,7 @@
                                     PATH 0 0 0 0 0 1 0 1 1
                                     HALO 0 0 0 0 0 0 0 1 1
                            POWER-CYCLING 0 0 0 0 0 0 0 1 1
-                                COVERAGE 0 0 0 0 0 1 0 2 1
+                                COVERAGE 0 0 0 0 0 1 0 2 0
                                 STRENGTH 0 0 0 0 0 1 0 0 0
                                  MACBOOK 0 0 0 0 0 0 0 1 0
                                 MEGABITS 0 0 0 0 0 0 0 1 1
@@ -230,7 +230,7 @@
                                  GRAPHER 0 0 0 0 0 0 0 1 1
                             OBSERVATIONS 0 0 0 0 0 1 0 1 1
                                  BOOSTER 0 0 0 0 0 0 0 2 1
-                                     WPA 0 0 0 0 0 0 0 1 1
+                                     WPA 0 0 0 0 0 0 0 1 0
                               ENCRYPTION 0 0 0 0 0 0 0 0 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
                                   THREAD 0 0 0 0 0 0 0 1 1
@@ -238,7 +238,7 @@
                                   MOMENT 0 0 0 0 0 1 0 1 1
                                     PARK 0 0 0 0 0 1 0 1 1
                                  AIRPORT 0 0 0 0 0 1 0 0 0
-                                 EXPRESS 0 1 0 0 0 1 0 1 0
+                                 EXPRESS 0 1 0 0 0 1 0 1 1
                                  MEASURE 0 0 0 0 0 1 0 1 1
                                  WEEKEND 0 0 0 6 0 1 0 1 1
                                    WIRES 0 0 0 0 0 1 0 1 1

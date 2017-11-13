@@ -1,10 +1,10 @@
-                                       $ 0 0 0 0 0 0 1 1 1
-                                    TIME 1 1 0 0 0 1 0 1 0
+                                       $ 0 0 0 7 0 0 1 1 1
+                                    TIME 1 1 0 0 0 1 0 1 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                     THAT 0 0 0 0 0 0 0 1 1
                                    ABOUT 0 0 0 0 0 0 1 1 1
                                      ALL 0 0 0 0 0 0 0 1 1
-                                   VIDEO 0 1 0 0 0 1 0 1 1
+                                   VIDEO 0 1 0 0 0 1 0 1 0
                                     CARD 0 1 0 0 0 1 0 3 1
                                  GEFORCE 0 0 0 0 0 0 0 0 0
                                   THANKS 0 0 0 0 0 1 0 1 1
@@ -20,18 +20,18 @@
                                     YEAR 0 1 0 0 0 1 0 1 0
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                     MOBO 0 0 0 0 0 0 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 2 1
+                                COMPUTER 0 1 0 0 0 1 0 2 0
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 1 0
-                                  SUPPLY 0 0 0 0 0 1 0 2 1
+                                  SUPPLY 0 0 0 0 0 1 0 2 0
                                    THOSE 0 0 0 0 0 0 1 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
-                                   DRIVE 0 0 0 0 0 1 0 1 0
-                                   YEARS 1 1 0 6 0 1 0 1 1
+                                   DRIVE 0 0 0 0 0 1 0 1 1
+                                   YEARS 1 1 0 0 0 1 0 1 1
                                     DISK 0 0 0 0 0 1 0 0 0
                                  MACHINE 0 1 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
-                             MOTHERBOARD 0 0 0 0 0 0 0 1 0
+                             MOTHERBOARD 0 0 0 0 0 0 0 1 1
                                       PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                     DUST 0 0 0 0 0 1 0 0 0
@@ -55,7 +55,7 @@
                                 KEYBOARD 0 0 0 0 0 0 0 0 0
                                     MORE 0 0 0 0 0 0 1 1 1
                                    LEAST 0 0 0 0 0 0 1 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 1
+                                 WINDOWS 0 0 0 0 0 1 0 1 0
                                   GAMING 0 0 0 0 0 0 0 0 1
                                      FEW 0 0 0 0 0 0 1 1 1
                                    MOUSE 0 0 0 0 0 1 0 0 0
@@ -77,7 +77,7 @@
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 3 1
                                  THREADS 0 0 0 0 0 1 0 1 1
                                   PEOPLE 0 1 0 0 0 1 0 0 1
-                                    COST 0 0 0 0 0 1 0 2 0
+                                    COST 0 0 0 0 0 1 0 2 1
                                    MODEL 0 0 0 0 0 1 0 1 1
                                    TIMES 0 1 0 0 0 1 0 1 0
                                        D 0 0 1 0 0 1 0 1 0
@@ -120,7 +120,7 @@
                                COMPUTERS 0 0 0 0 0 1 0 1 1
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
-                                 QUALITY 0 0 0 0 0 1 0 0 1
+                                 QUALITY 0 0 0 0 0 1 0 0 0
                                      WAY 1 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 0 0
                                   OFFICE 0 0 0 0 0 1 0 0 1
@@ -138,9 +138,9 @@
                                  17&QUOT 0 0 0 0 0 0 0 0 0
                                  REBATES 0 0 0 0 0 0 0 1 1
                                      &LT 0 0 0 0 0 0 0 0 0
-                                     &GT 0 0 1 0 0 0 0 1 1
+                                     &GT 0 0 0 0 0 0 0 1 1
                                      ATA 0 0 0 0 0 0 0 0 0
-                                   STORE 0 0 0 0 0 1 0 1 1
+                                   STORE 0 0 0 0 0 1 0 1 0
                                    USAGE 0 0 0 0 0 0 0 2 1
                                  CHANNEL 0 0 0 0 0 1 0 0 0
                                    SPACE 0 0 0 0 0 1 0 0 0
@@ -178,26 +178,9 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                               DEVELOPER 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                                WAL-MART 0 0 1 0 0 1 0 0 0
-                               MID-TOWER 0 0 0 0 0 0 0 0 0
-                                   SHEET 0 0 0 0 0 1 0 0 0
-                                  FILTER 0 0 0 0 0 0 0 0 0
-                                   ORION 0 0 0 0 0 0 0 0 0
-                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
-                                  CONROE 0 0 0 0 0 0 0 0 0
-                                    TUBE 0 0 0 0 0 1 0 0 0
-                                  ARCTIC 0 0 1 0 0 0 0 0 0
-                                  SILVER 0 0 0 0 0 1 0 0 0
-                                     KIT 0 0 0 0 0 1 0 0 0
-                                     GTS 0 0 0 0 0 0 0 0 0
-                                   GAMER 0 0 0 0 0 0 0 0 0
-                                    10MS 0 0 0 0 0 0 0 0 0
                                     2HRS 0 0 0 0 0 0 0 1 1
                                HOMEBUILT 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                 FRIENDS. 0 0 0 0 0 0 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
                                    BELLS 0 0 0 0 0 1 0 0 0
@@ -216,13 +199,30 @@
                                      GBS 0 0 0 0 0 0 0 1 1
                               COMPROMISE 0 0 0 0 0 1 0 1 1
                                 FINDINGS 0 0 0 0 0 1 0 1 1
-                                BARNYARD 0 0 0 0 0 0 0 0 0
+                                BARNYARD 0 0 0 0 0 0 0 0 1
                                  SEMPRON 0 0 0 0 0 0 0 1 1
                                W/MONITOR 0 0 0 0 0 0 0 1 1
                                PREFERRED 0 0 0 0 0 0 0 1 1
                                     ROAD 0 0 0 0 0 1 0 1 1
                                     BELL 0 1 0 0 0 1 0 1 1
                                     2GIG 0 0 0 0 0 0 0 1 1
+                               DEVELOPER 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                                WAL-MART 0 0 1 0 0 1 0 0 0
+                               MID-TOWER 0 0 0 0 0 0 0 0 0
+                                   SHEET 0 0 0 0 0 1 0 0 0
+                                  FILTER 0 0 0 0 0 0 0 0 0
+                                   ORION 0 0 0 0 0 0 0 0 0
+                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
+                                  CONROE 0 0 0 0 0 0 0 0 0
+                                    TUBE 0 0 0 0 0 1 0 0 0
+                                  ARCTIC 0 0 1 0 0 0 0 0 0
+                                  SILVER 0 0 0 0 0 1 0 0 0
+                                     KIT 0 0 0 0 0 1 0 0 0
+                                     GTS 0 0 0 0 0 0 0 0 0
+                                   GAMER 0 0 0 0 0 0 0 0 0
+                                    10MS 0 0 0 0 0 0 0 0 0
                          TIGERDIRECT.COM 0 0 1 0 0 0 0 0 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1

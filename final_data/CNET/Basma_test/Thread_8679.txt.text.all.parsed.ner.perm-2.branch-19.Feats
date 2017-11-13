@@ -36,7 +36,7 @@
                                   THINGS 0 0 0 0 0 1 0 1 1
                                 EVERYONE 0 0 0 0 0 1 0 0 1
                                   MARKET 0 1 0 0 0 1 0 1 1
-                                  TABLET 0 0 0 0 0 0 0 3 0
+                                  TABLET 0 0 0 0 0 0 0 3 1
                                    PHONE 0 0 0 0 0 1 0 1 1
                                  COMPANY 0 1 0 0 0 1 0 1 1
                                    FLASH 0 0 0 0 0 0 0 1 1
@@ -77,10 +77,10 @@
                                 QUESTION 0 0 0 0 0 1 0 2 1
                                 INTERNET 0 0 0 0 0 1 0 0 0
                                     PAST 0 0 0 0 0 1 0 1 1
-                                   POINT 0 0 0 0 0 1 0 1 1
+                                   POINT 0 0 0 0 0 1 0 1 0
                                 RESPONSE 0 0 0 0 0 1 0 0 1
                               DISCUSSION 0 0 0 0 0 1 0 0 1
-                                 PRODUCT 0 1 0 0 0 1 0 3 1
+                                 PRODUCT 0 1 0 0 0 1 0 3 0
                                COMPUTERS 0 0 0 0 0 1 0 1 1
                                      MAC 0 0 1 0 0 1 0 0 0
                            COMMUNICATION 0 0 0 0 0 1 0 0 0
@@ -126,10 +126,10 @@
                                   NAMING 0 0 0 0 0 0 0 0 0
                                      AIR 0 0 0 0 0 1 0 0 0
                                     EDGE 0 0 0 0 0 1 0 1 1
-                                 GRAPHIC 0 0 0 0 0 0 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
                                     LACK 0 0 0 0 0 1 0 1 1
+                                 GRAPHIC 0 0 0 0 0 0 0 1 1
                                   PLAYER 0 0 0 0 0 1 0 1 1
                                   MINUTE 0 0 0 0 0 1 0 1 1
                                     BALL 0 0 0 0 0 1 0 0 0
@@ -140,7 +140,7 @@
                                    WITCH 0 0 0 0 0 0 0 0 0
                                      AGE 0 0 0 0 0 1 0 1 1
                                       CS 0 0 1 0 0 0 0 0 0
-                                  DESIGN 0 0 0 0 0 1 0 1 1
+                                  DESIGN 0 0 0 0 0 1 0 1 0
                                 STANDARD 0 0 0 0 0 1 0 1 1
                                  COUNTRY 0 0 0 0 0 1 0 1 1
                                    WATER 0 0 0 0 0 1 0 1 1
@@ -158,7 +158,7 @@
                              PLAYSTATION 0 0 0 0 0 1 0 1 1
                                THOUSANDS 0 0 0 0 0 1 0 1 1
                                 ACCIDENT 0 0 0 0 0 1 0 0 0
-                                    TERM 0 0 0 0 0 1 0 2 0
+                                    TERM 0 0 0 0 0 1 0 2 1
                                   APPLES 0 0 0 0 0 1 0 1 1
                                     FITS 0 0 0 0 0 0 0 1 1
                                   GIANTS 0 1 0 0 0 1 0 1 1
@@ -187,6 +187,22 @@
                                SIGNATURE 0 0 0 0 0 0 0 1 1
                                      PEN 0 0 0 0 0 1 0 1 1
                                 ADOPTION 0 0 0 0 0 0 0 1 1
+                                    COKE 0 1 0 0 0 1 0 2 1
+                               COKE&QUOT 0 0 0 0 0 0 0 1 1
+                                   PEPSI 0 0 0 0 0 1 0 1 1
+                                    COLA 0 0 0 0 0 0 0 1 1
+                                  BUCKET 0 0 0 0 0 0 0 1 1
+                                   SODAS 0 0 0 0 0 0 0 0 0
+                              RESTAURANT 0 0 0 0 0 1 0 1 1
+                                 KLEENEX 0 0 0 0 0 0 0 1 1
+                                  SNEEZE 0 0 0 0 0 0 0 1 1
+                                  TISSUE 0 0 0 0 0 1 0 1 1
+                                 LINEAGE 0 0 0 0 0 0 0 1 1
+                          INCOMPTABILITY 0 0 0 0 0 0 0 1 1
+                               IPAD&QUOT 0 0 0 0 0 0 0 0 1
+                                  SUITES 0 0 0 0 0 1 0 1 1
+                                    ITAB 0 0 0 0 0 0 0 1 1
+                                  -LSB-& 0 0 0 0 0 0 0 0 0
                              IMAGINATION 0 0 0 0 0 0 0 1 1
                                   I&QUOT 0 0 0 0 0 0 0 0 1
                              TABLET&QUOT 0 0 0 0 0 0 0 1 1
@@ -198,37 +214,21 @@
                                 VICTROLA 0 0 0 0 0 0 0 1 1
                                JEEP&QUOT 0 0 0 0 0 0 0 0 1
                              IEVERYTHING 0 0 0 0 0 0 0 0 1
-                                    COKE 0 1 0 0 0 1 0 2 0
                                     PENS 0 0 0 0 0 0 0 1 1
                                     BIRO 0 0 0 0 0 1 0 0 1
-                                 KLEENEX 0 0 0 0 0 0 0 1 1
                                  TISSUES 0 0 0 0 0 1 0 1 1
                               POPULATION 0 0 0 0 0 1 0 1 1
                                     AGES 0 0 0 0 0 1 0 1 1
                            FOUNTAIN&QUOT 0 0 0 0 0 0 0 1 1
                                   FRENZY 0 0 0 0 0 1 0 1 1
                                STUPIDITY 0 0 0 0 0 0 0 0 1
-                                   I-PAD 0 0 0 0 0 0 0 1 1
+                                   I-PAD 0 0 1 0 0 0 0 1 1
                             SHORTCOMINGS 0 0 0 0 0 1 0 1 1
                                  ANDRIOD 0 0 0 0 0 0 0 0 0
                                PUBLICITY 0 0 0 0 0 1 0 0 0
                                     HYPE 0 0 0 0 0 1 0 1 1
-                               COKE&QUOT 0 0 0 0 0 0 0 1 1
-                                   PEPSI 0 0 0 0 0 1 0 1 1
-                                    COLA 0 0 0 0 0 0 0 1 1
-                                  BUCKET 0 0 0 0 0 0 0 1 1
-                                   SODAS 0 0 0 0 0 0 0 0 0
-                              RESTAURANT 0 0 0 0 0 1 0 1 1
-                                  SNEEZE 0 0 0 0 0 0 0 1 1
-                                  TISSUE 0 0 0 0 0 1 0 1 1
-                                 LINEAGE 0 0 0 0 0 0 0 1 1
-                          INCOMPTABILITY 0 0 0 0 0 0 0 1 1
-                               IPAD&QUOT 0 0 0 0 0 0 0 0 1
-                                  SUITES 0 0 0 0 0 1 0 1 1
-                                    ITAB 0 0 0 0 0 0 0 1 1
-                                  -LSB-& 0 0 0 0 0 0 0 0 0
                                SODA&QUOT 0 0 0 0 0 0 0 0 1
-                                    SODA 0 0 0 0 0 0 0 1 0
+                                    SODA 0 0 0 0 0 0 0 1 1
                                CHEMICALS 0 0 0 0 0 1 0 0 1
                                    FAITH 0 0 0 0 0 1 0 1 1
                                  PRIESTS 0 0 0 0 0 1 0 0 0

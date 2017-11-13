@@ -1,9 +1,9 @@
                                     TIME 1 1 0 0 0 1 0 1 1
                                     THAT 0 0 0 0 0 0 0 0 1
-                                  AUGUST 0 1 1 0 0 1 0 1 1
+                                  AUGUST 0 1 1 0 0 1 0 1 0
                                   THANKS 0 0 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
-                                HARDWARE 0 0 0 0 0 0 0 1 0
+                                HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 2 1
                               CONTROLLER 0 0 0 0 0 1 0 2 1
                                    THOSE 0 0 0 0 0 0 1 0 1
@@ -25,8 +25,8 @@
                                 SOLUTION 0 0 0 0 0 1 0 1 0
                                   LAPTOP 0 0 0 0 0 0 0 2 1
                                  HOTSPOT 0 0 0 0 0 0 0 1 1
-                                WIRELESS 0 0 1 0 0 0 0 0 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 1
+                                WIRELESS 0 0 1 0 0 0 0 0 0
+                                 WINDOWS 0 0 0 0 0 1 0 1 0
                                  DESKTOP 0 0 0 0 0 0 1 3 1
                                    MOUSE 0 0 0 0 0 1 0 1 1
                                     PCIE 0 0 1 0 0 0 0 0 0
@@ -38,7 +38,7 @@
                                   SWITCH 0 0 0 0 0 1 0 1 1
                                     AREA 0 0 0 0 0 1 0 0 0
                                 ETHERNET 0 0 0 0 0 0 0 0 0
-                                 ADAPTER 0 0 0 0 0 0 0 3 1
+                                 ADAPTER 0 0 0 0 0 0 0 3 0
                                    ISSUE 0 1 0 0 0 1 0 2 1
                                  SHARING 0 0 0 0 0 0 0 0 0
                                 QUESTION 0 0 0 0 0 1 0 1 1
@@ -47,8 +47,8 @@
                                 INTERNET 0 0 0 0 0 1 0 0 0
                                    SETUP 0 0 0 0 0 0 0 1 1
                                  PROGRAM 0 1 0 0 0 1 0 1 1
-                                 NETWORK 0 0 0 0 0 1 0 1 0
-                                   POINT 0 0 0 0 0 1 0 1 1
+                                 NETWORK 0 0 0 0 0 1 0 1 1
+                                   POINT 0 0 0 0 0 1 0 1 0
                                 RESPONSE 0 0 0 0 0 1 0 0 0
                                COMPUTERS 0 0 0 0 0 1 0 2 1
                                   SERVER 0 0 0 0 0 0 0 1 1
@@ -68,7 +68,7 @@
                                     NAME 0 0 0 0 0 1 0 1 1
                              DESCRIPTION 0 0 0 0 0 1 0 3 1
                                        % 1 1 0 0 0 0 0 3 1
-                                  MCAFEE 0 0 0 0 0 1 0 0 0
+                                  MCAFEE 0 0 0 0 0 1 0 0 1
                                    MEDIA 0 1 0 0 0 1 0 2 1
                                   SEARCH 0 0 0 0 0 1 0 0 0
                                     KEES 0 0 0 0 0 0 0 1 1
@@ -86,9 +86,9 @@
                                   SYMBOL 0 0 0 0 0 1 0 1 1
                                   FAMILY 0 1 0 0 0 1 0 0 0
                                    STATE 0 1 0 0 0 1 0 1 1
+                                  UBUNTU 0 0 0 0 0 0 0 0 1
                                     LOTS 0 0 0 0 0 1 0 2 1
                                   PLACES 0 0 0 0 0 1 0 1 1
-                                  UBUNTU 0 0 0 0 0 0 0 0 1
                                      AVG 0 0 0 0 0 0 0 0 1
                                     DHCP 0 0 0 0 0 0 0 3 1
                                      DNS 0 0 0 0 0 0 0 3 0
@@ -105,7 +105,7 @@
                             CONNECTIVITY 0 0 0 0 0 0 0 1 1
                                 PASSWORD 0 0 0 0 0 0 0 3 1
                                     LIFE 0 0 0 0 0 1 0 1 1
-                                  SUFFIX 0 0 0 0 0 0 0 1 0
+                                  SUFFIX 0 0 0 0 0 0 0 1 1
                                     IPV6 0 0 0 0 0 0 0 0 0
                                     FE80 0 0 0 0 0 0 0 0 1
                                       :: 0 0 0 0 0 0 0 2 1
@@ -124,7 +124,7 @@
                                    STEAD 0 0 0 0 0 0 0 1 1
                                     MBPS 0 0 0 0 0 0 0 1 1
                                     WINS 0 0 0 0 0 0 0 0 0
-                       AUTOCONFIGURATION 0 0 0 0 0 0 0 3 0
+                       AUTOCONFIGURATION 0 0 0 0 0 0 0 3 1
                                   DHCPV6 0 0 0 0 0 0 0 1 1
                                     IAID 0 0 0 0 0 0 0 1 1
                                 FEC0:0:0 0 0 0 0 0 0 0 0 1

@@ -32,7 +32,7 @@
                                 FEATURES 0 0 0 0 0 1 0 1 1
                                     DAYS 0 0 0 0 0 1 0 1 1
                                      USE 1 0 0 0 0 1 0 0 1
-                                      HP 0 0 1 0 0 0 0 1 0
+                                      HP 0 0 1 0 0 0 0 1 1
                                   LAPTOP 0 0 0 0 0 0 0 1 1
                                 COMMENTS 0 1 0 0 0 1 0 1 1
                              INFORMATION 0 1 0 0 0 1 0 1 1
@@ -52,7 +52,7 @@
                                      FIX 0 0 0 0 0 0 0 1 1
                                       2. 0 0 0 0 0 0 0 1 1
                                    BLACK 0 0 0 0 0 1 0 1 1
-                                   TODAY 0 0 0 6 0 1 0 0 1
+                                   TODAY 0 0 0 0 0 1 0 0 0
                                  SUPPORT 0 0 0 0 0 1 0 1 1
                                   FACTOR 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
@@ -71,7 +71,7 @@
                                 PRINTERS 0 0 0 0 0 1 0 1 1
                                   CLIENT 0 1 0 0 0 1 0 1 1
                                    PRINT 0 0 0 0 0 1 0 0 0
-                                 PRINTER 0 0 0 0 0 0 0 3 0
+                                 PRINTER 0 0 0 0 0 0 0 3 1
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                    QUEUE 0 0 0 0 0 0 0 1 1
@@ -102,7 +102,7 @@
                                   SOURCE 0 0 0 0 0 1 0 1 1
                                   SEARCH 0 0 0 0 0 1 0 1 1
                               CARTRIDGES 0 0 0 0 0 0 0 3 1
-                                PRINTING 0 0 0 0 0 0 0 1 0
+                                PRINTING 0 0 0 0 0 0 0 1 1
                                   PHOTOS 0 0 0 0 0 1 0 0 1
                                    PHOTO 0 0 0 0 0 1 0 0 0
                              REPLACEMENT 0 0 0 0 0 1 0 0 0
@@ -123,12 +123,12 @@
                                 DOCUMENT 1 0 0 0 0 1 0 1 1
                                   VOLUME 0 0 0 0 0 1 0 2 1
                                 REFILLED 0 0 0 0 0 0 0 0 1
-                                     INK 0 0 0 0 0 1 0 0 0
+                                     INK 0 0 0 0 0 1 0 0 1
                                CARTRIDGE 0 0 0 0 0 0 0 1 0
                                    WORDS 0 1 0 0 0 1 0 1 1
-                                   SHEET 0 0 0 0 0 1 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
-                                   COLOR 0 0 0 0 0 1 0 1 0
+                                   SHEET 0 0 0 0 0 1 0 1 1
+                                   COLOR 0 0 0 0 0 1 0 1 1
                                   COLORS 0 0 0 0 0 1 0 1 1
                                   E-MAIL 0 0 0 0 0 1 0 0 0
                              RELIABILITY 0 0 0 0 0 0 0 1 1
@@ -136,7 +136,7 @@
                                    BUYER 0 1 0 0 0 1 0 1 1
                                      !!! 0 0 0 0 0 0 0 0 1
                                     DOCS 0 0 0 0 0 0 0 1 1
-                                     FAX 0 0 0 0 0 0 0 1 1
+                                     FAX 0 0 0 0 0 0 0 1 0
                                     WIFE 0 0 0 0 0 1 0 1 1
                                      TAX 0 1 0 0 0 1 0 0 0
                                  OPINION 0 0 0 0 0 1 0 1 1
@@ -151,7 +151,7 @@
                               CONCLUSION 0 0 0 0 0 1 0 1 1
                                    CENTS 0 0 0 7 0 1 0 1 1
                                      CAM 0 0 0 0 0 0 0 1 1
-                                   CANON 0 0 1 0 0 1 0 2 1
+                                   CANON 0 0 1 0 0 1 0 2 0
                              MALFUNCTION 0 0 0 0 0 0 0 1 1
                                   DRINKS 0 0 0 0 0 1 0 1 1
                                    TRACK 0 0 0 0 0 1 0 0 0
@@ -171,10 +171,6 @@
                                TANGIBLES 0 0 0 0 0 0 0 1 1
                                    420CN 0 0 0 0 0 0 0 1 1
                                 EPINIONS 0 0 0 0 0 0 0 1 1
-                                    R260 0 0 0 0 0 0 0 1 1
-                               CARTRAGES 0 0 0 0 0 0 0 1 1
-                              EXPERIANCE 0 0 0 0 0 0 0 1 1
-                               TECH&QUOT 0 0 0 0 0 0 0 1 1
                                 OK.&QUOT 0 0 0 0 0 0 0 0 1
                                  SMUDGES 0 0 0 0 0 0 0 1 1
                                     T068 0 0 0 0 0 0 0 0 1
@@ -195,3 +191,7 @@
                                TEXT&QUOT 0 0 0 0 0 0 0 0 1
                               IMAGE&QUOT 0 0 0 0 0 0 0 0 1
                                   CX6000 0 0 0 0 0 0 0 1 1
+                                    R260 0 0 0 0 0 0 0 1 1
+                               CARTRAGES 0 0 0 0 0 0 0 1 1
+                              EXPERIANCE 0 0 0 0 0 0 0 1 1
+                               TECH&QUOT 0 0 0 0 0 0 0 1 1

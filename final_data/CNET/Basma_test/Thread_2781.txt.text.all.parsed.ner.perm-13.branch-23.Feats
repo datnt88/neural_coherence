@@ -9,8 +9,8 @@
                                     NEED 0 0 0 0 0 1 0 1 1
                                     SOME 0 0 0 0 0 0 1 1 1
                                    512MB 0 0 0 0 0 0 0 1 1
-                                   VIDEO 0 1 0 0 0 1 0 2 1
-                                    CARD 0 1 0 0 0 1 0 1 0
+                                   VIDEO 0 1 0 0 0 1 0 2 0
+                                    CARD 0 1 0 0 0 1 0 1 1
                                       OC 0 0 1 0 0 0 0 1 1
                                   ANSWER 0 0 0 0 0 1 0 1 1
                                    SPEED 0 0 0 0 0 1 0 1 1
@@ -84,7 +84,7 @@
                              PERFORMANCE 1 1 0 0 0 1 0 0 1
                                     PART 1 0 0 0 0 1 0 2 1
                                    PRICE 0 1 0 0 0 1 0 0 0
-                                   BRAND 0 0 0 0 0 1 0 1 1
+                                   BRAND 0 0 0 0 0 1 0 1 0
                                       HD 0 0 1 0 0 0 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 1 1
                                  OPTIONS 0 0 0 0 0 1 0 1 1
@@ -94,8 +94,8 @@
                                     GAME 0 0 0 0 0 1 0 0 0
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 1 1
-                                   TIMES 0 1 0 0 0 1 0 1 1
-                               PROCESSOR 0 0 0 0 0 0 0 1 0
+                                   TIMES 0 1 0 0 0 1 0 1 0
+                               PROCESSOR 0 0 0 0 0 0 0 1 1
                                  EXAMPLE 0 0 0 0 0 1 0 0 1
                                      PC. 0 0 0 0 0 0 0 1 1
                                      FAN 0 0 0 0 0 1 0 2 1
@@ -105,7 +105,7 @@
                                    FIRST 0 1 0 0 0 1 0 1 1
                                  PENTIUM 0 0 0 0 0 0 0 1 1
                                  REGARDS 0 0 0 0 0 0 0 1 1
-                                    DELL 0 0 1 0 0 0 0 1 1
+                                    DELL 0 0 1 0 0 0 0 1 0
                                     CMOS 0 0 0 0 0 0 0 1 1
                                     AREA 0 0 0 0 0 1 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 3 1
@@ -153,7 +153,7 @@
                                    WORLD 0 1 0 0 0 1 0 1 1
                                   BRANDS 0 1 0 0 0 1 0 1 1
                                  CLIENTS 0 1 0 0 0 1 0 1 1
-                               MICROSOFT 0 0 1 0 0 1 0 0 0
+                               MICROSOFT 0 0 1 0 0 1 0 0 1
                                       VS 0 0 1 0 0 0 1 0 0
                                   OPTION 0 0 0 0 0 1 0 1 1
                                    STUFF 0 0 0 0 0 1 0 1 1
@@ -198,13 +198,13 @@
                                    GONNA 0 0 0 0 0 1 0 1 1
                              DIFFERENCES 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
-                                   SITES 0 0 0 0 0 1 0 1 1
+                                   SITES 0 0 0 0 0 1 0 1 0
                                  EDITING 0 0 0 0 0 1 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 2 1
                                  GATEWAY 0 0 0 0 0 0 0 1 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
                                  PROJECT 0 1 0 0 0 1 0 0 0
-                               KNOWLEDGE 0 0 0 0 0 1 0 2 0
+                               KNOWLEDGE 0 0 0 0 0 1 0 2 1
                                EQUIPMENT 0 0 0 0 0 1 0 1 1
                                   METHOD 0 0 0 0 0 1 0 0 0
                                  DIAGRAM 0 0 0 0 0 0 0 1 1
@@ -219,17 +219,17 @@
                                 CAPACITY 0 0 0 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
                                  FRIENDS 0 0 0 0 0 1 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                   64-BIT 0 0 0 0 0 0 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
                                  SCANNER 0 0 0 0 0 0 0 1 1
                                 ARTICLES 0 0 0 0 0 1 0 1 1
-                              PROCESSING 0 0 0 0 0 0 0 1 0
+                              PROCESSING 0 0 0 0 0 0 0 1 1
                                      RPM 0 0 0 0 0 0 0 1 0
                                    USERS 0 0 0 0 0 1 0 1 1
                                  FACTORS 0 0 0 0 0 1 0 1 1
@@ -283,7 +283,7 @@
                               CONFIDENCE 0 0 0 0 0 1 0 1 1
                                HEATSINKS 0 0 0 0 0 0 0 0 1
                                   HASSLE 0 0 0 0 0 0 1 1 1
-                                   BONES 0 0 0 0 0 1 0 1 0
+                                   BONES 0 0 0 0 0 1 0 1 1
                                BEST&QUOT 0 0 0 0 0 0 0 0 1
                                    LISTS 0 0 0 0 0 1 0 1 1
                                  CHARGES 0 1 0 0 0 1 0 1 1
@@ -299,15 +299,10 @@
                               W/HEATSINK 0 0 0 0 0 0 0 0 0
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
                                  1.83GHZ 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                               MOTIVATION 0 0 0 0 0 1 0 1 1
                                   WHEELS 0 0 0 0 0 1 0 1 1
                                W/500WATT 0 0 0 0 0 0 0 0 0
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                  FERVOR 0 0 0 0 0 0 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                               OURS.&QUOT 0 0 0 0 0 0 0 0 1
                                  MUCKING 0 0 0 0 0 0 0 1 1
                                       A+ 0 0 0 0 0 0 0 1 1
@@ -318,6 +313,11 @@
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
                             SPREADSHEETS 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                    9.99 0 0 0 7 0 0 0 1 1
+                                  FERVOR 0 0 0 0 0 0 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                  DEFENSE 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 1 1
                                  PUDDING 0 0 0 0 0 0 0 1 1

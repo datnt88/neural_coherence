@@ -13,18 +13,18 @@
                                 HARDWARE 0 0 0 0 0 0 0 0 0
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
-                                   POWER 0 1 0 0 0 1 0 1 0
+                                   POWER 0 1 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 0 1
                                     THEN 0 0 0 0 0 0 1 0 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                 PROBLEMS 0 0 0 0 0 1 0 1 1
                                    MUSIC 0 0 0 0 0 1 0 0 0
-                                 MACHINE 0 1 0 0 0 1 0 1 1
+                                 MACHINE 0 1 0 0 0 1 0 1 0
                                     BOOT 0 0 0 0 0 0 0 0 0
                                     THIS 0 0 0 0 0 1 0 1 1
                                    PORTS 0 0 0 0 0 1 0 1 1
-                                      PC 0 0 0 0 0 1 0 2 1
+                                      PC 0 0 0 0 0 1 0 2 0
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                     STEP 0 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 2 1
@@ -70,7 +70,7 @@
                                     PORT 0 0 0 0 0 1 0 1 1
                                      MAC 0 0 1 0 0 1 0 1 0
                                      BOX 0 0 0 0 0 1 0 0 0
-                                  ACCESS 0 0 0 0 0 1 0 1 0
+                                  ACCESS 0 0 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 1 1
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
                                      ETC 0 0 0 0 0 0 1 1 0
@@ -111,9 +111,9 @@
                                     VIEW 0 1 0 0 0 1 0 1 1
                                    WORDS 0 1 0 0 0 1 0 1 1
                                  STORAGE 0 0 0 0 0 0 0 0 0
+                            REQUIREMENTS 0 0 0 0 0 1 0 1 1
                                   SCHOOL 0 1 0 0 0 1 0 0 0
                                 SUPPORTS 0 0 0 0 0 0 0 0 1
-                            REQUIREMENTS 0 0 0 0 0 1 0 1 1
                                    -RSB- 0 0 0 0 0 0 0 1 1
                                  FINICKY 0 0 0 0 0 0 0 1 1
                                 TRANSFER 0 0 0 0 0 1 0 0 0
@@ -122,17 +122,17 @@
                                      2.0 0 0 0 0 0 0 0 1 1
                                  BACKUPS 0 0 0 0 0 0 0 1 1
                                 PICTURES 0 0 0 0 0 1 0 1 0
-                               DOCUMENTS 0 1 0 0 0 1 0 2 1
+                               DOCUMENTS 0 1 0 0 0 1 0 2 0
                                      APP 0 0 0 0 0 0 0 1 1
                                      EXT 0 0 0 0 0 0 0 1 1
                                     NTFS 0 0 0 0 0 0 0 1 1
                                  LETTERS 0 1 0 0 0 1 0 1 1
                                     BUGS 0 0 0 0 0 1 0 1 1
-                                 TROJANS 0 0 0 0 0 0 0 2 0
+                                 TROJANS 0 0 0 0 0 0 0 2 1
                                PRACTICES 0 0 0 0 0 1 0 1 1
                                   USB2.0 0 0 0 0 0 0 0 0 1
-                                    MACS 0 0 0 0 0 1 0 1 1
                                     HDDS 0 0 0 0 0 0 0 1 1
+                                    MACS 0 0 0 0 0 1 0 1 1
                                      YEP 0 0 0 0 0 0 0 0 1
                                   SISOFT 0 0 1 0 0 0 0 0 0
                                  CAUTION 0 0 0 0 0 1 0 1 1
@@ -146,9 +146,8 @@
                                 BEARINGS 0 0 0 0 0 0 0 0 1
                                   SANDRA 0 0 1 0 0 1 0 1 1
                                  HACKERS 0 0 0 0 0 1 0 0 0
-                               INFECTION 0 0 0 0 0 1 0 1 1
+                               INFECTION 0 0 0 0 0 1 0 1 0
                                   ATTACK 0 0 0 0 0 1 0 1 1
-                                   CIRCS 0 0 0 0 0 0 0 1 1
                             PHOTOGRAPHER 0 0 0 0 0 1 0 0 0
                                  B--WITH 0 0 0 0 0 0 0 1 1
                          SEAGATE/COMPUSA 0 0 0 0 0 0 0 1 1
@@ -156,3 +155,4 @@
                                       DG 0 0 0 0 0 0 0 1 1
                                       LT 0 0 0 0 0 0 0 1 1
                             MAINTAINENCE 0 0 0 0 0 0 0 1 1
+                                   CIRCS 0 0 0 0 0 0 0 1 1

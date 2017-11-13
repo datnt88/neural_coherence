@@ -9,11 +9,11 @@
                                    SPEED 0 0 0 0 0 1 0 0 0
                                      BIT 0 0 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
-                                HARDWARE 0 0 0 0 0 0 0 1 0
+                                HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                     KILL 0 0 0 0 0 0 1 0 1
                                   DRIVES 0 0 0 0 0 1 0 3 1
-                                   POWER 0 1 0 0 0 1 0 1 0
+                                   POWER 0 1 0 0 0 1 0 1 1
                                  DIGITAL 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 0 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
@@ -44,7 +44,7 @@
                                     COPY 0 0 0 0 0 1 0 1 0
                                    TESTS 0 0 0 0 0 1 0 2 1
                                     PART 1 0 0 0 0 1 0 1 1
-                                      HD 0 0 1 0 0 0 0 1 0
+                                      HD 0 0 1 0 0 0 0 1 1
                                    REPLY 0 0 0 0 0 1 0 1 1
                                   EITHER 0 0 0 0 0 0 0 0 1
                                      YES 0 0 0 0 0 0 0 1 1
@@ -62,14 +62,14 @@
                                COMPUTERS 0 0 0 0 0 1 0 1 1
                                      MAC 0 0 1 0 0 1 0 0 0
                                      WAY 1 0 0 0 0 1 0 0 0
-                                  ACCESS 0 0 0 0 0 1 0 1 1
+                                  ACCESS 0 0 0 0 0 1 0 1 0
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
-                                    DATA 0 0 0 0 0 1 0 1 1
+                                    DATA 0 0 0 0 0 1 0 1 0
                                    FILES 0 0 0 0 0 1 0 1 1
                                 INSTANCE 0 0 0 0 0 1 0 1 1
-                                   VIRUS 0 0 0 0 0 1 0 1 1
+                                   VIRUS 0 0 0 0 0 1 0 1 0
                                       VS 0 0 1 0 0 0 1 1 1
                                   OPTION 0 0 0 0 0 1 0 1 1
                                  FEATURE 0 0 0 0 0 1 0 1 1
@@ -131,12 +131,8 @@
                                     IIRC 0 0 1 0 0 0 0 0 1
                                      PEN 0 0 0 0 0 1 0 0 0
                                   SANDRA 0 0 1 0 0 1 0 1 1
-                               INFECTION 0 0 0 0 0 1 0 1 0
+                               INFECTION 0 0 0 0 0 1 0 1 1
                                   ATTACK 0 0 0 0 0 1 0 1 1
-                                   CIRCS 0 0 0 0 0 0 0 1 1
-                                    NFTS 0 0 0 0 0 0 0 0 1
-                                  LAYMAN 0 0 0 0 0 0 0 1 1
-                                  SIZES. 0 0 0 0 0 0 0 1 1
                             PHOTOGRAPHER 0 0 0 0 0 1 0 0 0
                                 MARKFLAX 0 0 0 0 0 0 0 0 1
                                  B--WITH 0 0 0 0 0 0 0 1 1
@@ -145,3 +141,7 @@
                                       DG 0 0 0 0 0 0 0 1 1
                             -LSB-VIRUSES 0 0 0 0 0 0 0 2 1
                                 HOT-SWAP 0 0 0 0 0 0 0 1 1
+                                    NFTS 0 0 0 0 0 0 0 0 1
+                                   CIRCS 0 0 0 0 0 0 0 1 1
+                                  LAYMAN 0 0 0 0 0 0 0 1 1
+                                  SIZES. 0 0 0 0 0 0 0 1 1

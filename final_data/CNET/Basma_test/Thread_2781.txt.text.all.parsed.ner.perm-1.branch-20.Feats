@@ -8,7 +8,7 @@
                                     SOME 0 0 0 0 0 0 1 1 1
                                    512MB 0 0 0 0 0 0 0 1 1
                                    VIDEO 0 1 0 0 0 1 0 3 1
-                                    CARD 0 1 0 0 0 1 0 1 1
+                                    CARD 0 1 0 0 0 1 0 1 0
                                   ANSWER 0 0 0 0 0 1 0 1 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
                                   ENOUGH 0 0 0 0 0 1 0 1 1
@@ -23,7 +23,7 @@
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
                                      ONE 0 0 0 0 0 1 0 1 1
-                                   DRIVE 0 0 0 0 0 1 0 2 0
+                                   DRIVE 0 0 0 0 0 1 0 2 1
                                 PROBLEMS 0 0 0 0 0 1 0 2 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                   MONTHS 1 1 0 0 0 1 0 1 1
@@ -47,7 +47,7 @@
                                       CD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 2 1
                                      RAM 0 0 1 0 0 1 0 1 1
-                                    CASE 0 1 0 0 0 1 0 1 0
+                                    CASE 0 1 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
@@ -89,7 +89,7 @@
                                     GAME 0 0 0 0 0 1 0 0 0
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 1 0
-                                   TIMES 0 1 0 0 0 1 0 1 0
+                                   TIMES 0 1 0 0 0 1 0 1 1
                                PROCESSOR 0 0 0 0 0 0 0 1 1
                                  EXAMPLE 0 0 0 0 0 1 0 1 1
                                      FAN 0 0 0 0 0 1 0 1 1
@@ -131,7 +131,7 @@
                                 INTERNET 0 0 0 0 0 1 0 1 1
                                  PROGRAM 0 1 0 0 0 1 0 0 0
                                   MANUAL 0 0 0 0 0 1 0 1 1
-                                    HELP 0 0 0 0 0 1 0 1 1
+                                    HELP 0 0 0 0 0 1 0 1 0
                                    POINT 0 0 0 0 0 1 0 1 1
                                  ANSWERS 0 1 0 0 0 1 0 1 1
                                   DRIVER 0 0 0 0 0 1 0 1 1
@@ -166,7 +166,7 @@
                               EXPERIENCE 0 0 0 0 0 1 0 3 1
                            UNDERSTANDING 0 0 0 0 0 1 0 1 1
                                      OEM 0 0 0 0 0 0 0 1 1
-                                WARRANTY 0 0 0 0 0 0 0 1 0
+                                WARRANTY 0 0 0 0 0 0 0 1 1
                                       PS 0 1 1 0 0 0 0 0 0
                               NEWEGG.COM 0 0 0 0 0 0 0 0 0
                                    STORE 0 0 0 0 0 1 0 1 1
@@ -195,12 +195,12 @@
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                 PRODUCTS 0 1 0 0 0 1 0 1 1
                             APPLICATIONS 0 0 0 0 0 1 0 1 1
-                                   SITES 0 0 0 0 0 1 0 1 1
+                                   SITES 0 0 0 0 0 1 0 1 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                            MANUFACTURERS 0 1 0 0 0 1 0 1 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
                                  PROJECT 0 1 0 0 0 1 0 0 0
-                               KNOWLEDGE 0 0 0 0 0 1 0 2 0
+                               KNOWLEDGE 0 0 0 0 0 1 0 2 1
                              LIMITATIONS 0 0 0 0 0 1 0 1 1
                                  CHANGES 0 0 0 0 0 1 0 1 1
                                 RESEARCH 0 1 0 0 0 1 0 1 1
@@ -211,9 +211,9 @@
                                   TINKER 0 0 1 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 0 0
                                     WATT 0 0 0 0 0 1 0 0 0
                                  FRIENDS 0 0 0 0 0 1 0 1 1
@@ -234,7 +234,7 @@
                             PROFESSIONAL 0 0 0 0 0 1 0 1 1
                                      ERA 0 0 0 0 0 1 0 0 1
                                RECORDING 0 0 0 0 0 1 0 0 0
-                                 SCIENCE 0 0 0 0 0 1 0 1 1
+                                 SCIENCE 0 0 0 0 0 1 0 1 0
                                   ADVISE 0 0 0 0 0 0 0 1 1
                                  WHATNOT 0 0 0 0 0 0 0 1 1
                                     STAN 0 0 1 0 0 0 0 2 1
@@ -285,13 +285,6 @@
      MOTHERBOARD+CPU+HSF+POWERSUPPLY+RAM 0 0 0 0 0 0 0 1 1
                                     IMO. 0 0 1 0 0 0 0 0 1
                                TINKERING 0 0 0 0 0 0 0 0 1
-                               RE-BUILDS 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
-                                 PROFITS 0 0 0 0 0 1 0 1 1
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                RELIGION 0 0 0 0 0 1 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                               OURS.&QUOT 0 0 0 0 0 0 0 0 1
                                  MUCKING 0 0 0 0 0 0 0 1 1
                                       A+ 0 0 0 0 0 0 0 1 1
@@ -302,6 +295,13 @@
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
+                               RE-BUILDS 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                 PROFITS 0 0 0 0 0 1 0 1 1
+                                    9.99 0 0 0 7 0 0 0 1 1
+                                RELIGION 0 0 0 0 0 1 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                  DEFENSE 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 1 1
                                  PUDDING 0 0 0 0 0 0 0 1 1

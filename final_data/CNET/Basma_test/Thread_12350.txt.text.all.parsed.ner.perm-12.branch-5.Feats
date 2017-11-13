@@ -16,13 +16,13 @@
                                    YEARS 1 1 0 0 0 1 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                                      USB 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 0 0 0 1 0 1 0
+                                      PC 0 0 0 0 0 1 0 1 1
                                   VAPCMD 0 0 1 0 0 0 0 0 1
                                     HEAT 0 0 0 0 0 1 0 0 0
                                      ANY 0 0 0 0 0 0 1 0 1
                                     BOTH 0 0 0 0 0 0 1 0 1
                                    HOUSE 0 1 0 0 0 1 0 1 1
-                                    CASE 0 1 0 0 0 1 0 1 1
+                                    CASE 0 1 0 0 0 1 0 1 0
                                     SIDE 1 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
                                       .. 0 0 0 0 0 1 0 1 1
@@ -46,7 +46,7 @@
                                      PC. 0 0 0 0 0 0 0 1 1
                                     GUYS 0 0 0 0 0 1 0 1 1
                                   SWITCH 0 0 0 0 0 1 0 1 1
-                                   CABLE 0 0 0 0 0 1 0 1 0
+                                   CABLE 0 0 0 0 0 1 0 1 1
                               MANAGEMENT 0 1 0 0 0 1 0 1 0
                                  MINIMUM 0 0 0 0 0 0 0 1 1
                                  DOLLARS 0 0 0 0 0 1 0 1 1
@@ -57,7 +57,7 @@
                                  NETWORK 0 0 0 0 0 1 0 1 1
                                EXPANSION 0 0 0 0 0 1 0 0 0
                                   BOOTUP 0 0 0 0 0 0 0 1 1
-                               ENCLOSURE 0 0 0 0 0 0 0 1 1
+                               ENCLOSURE 0 0 0 0 0 0 0 1 0
                                     PORT 0 0 0 0 0 1 0 1 1
                                     CORD 0 0 0 0 0 1 0 1 1
                                COMPUTERS 0 0 0 0 0 1 0 1 1
@@ -67,7 +67,7 @@
                                  VARIETY 0 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 0 0
                                     DATA 0 0 0 0 0 1 0 1 1
-                                   FILES 0 0 0 0 0 1 0 1 1
+                                   FILES 0 0 0 0 0 1 0 1 0
                                   BACKUP 0 0 0 0 0 0 0 1 1
                                    STUFF 0 0 0 0 0 1 0 1 1
                                     HOUR 0 0 0 0 0 1 0 1 1
@@ -98,10 +98,10 @@
                                       ID 0 0 0 0 0 0 1 1 1
                                  STORAGE 0 0 0 0 0 0 0 0 0
                                     IMAC 0 0 0 0 0 0 0 1 1
+                               COMPANIES 0 1 0 0 0 1 0 1 1
                                      10. 0 0 0 0 0 0 0 1 1
                                    PLUGS 0 0 0 0 0 0 0 1 1
                                  STORIES 0 0 0 0 0 1 0 1 1
-                               COMPANIES 0 1 0 0 0 1 0 1 1
                                     LATE 0 0 0 0 0 0 0 1 1
                                    IMACS 0 0 0 0 0 0 0 0 1
                                    HOURS 0 0 0 0 0 1 0 1 1
@@ -127,6 +127,15 @@
                                   ASSIDE 0 0 0 0 0 0 0 0 0
                            ACCESSIBILITY 0 0 0 0 0 0 1 1 1
                                    THEFT 0 0 0 0 0 0 0 1 1
+                                    HDDS 0 0 0 0 0 0 0 1 1
+                                SEAGATES 0 0 0 0 0 0 0 0 1
+                                     WDS 0 0 0 0 0 0 0 0 1
+                                     QUE 0 0 0 0 0 0 0 0 1
+                                    SERA 0 0 0 0 0 1 0 1 1
+                                MEMORIES 0 0 0 0 0 1 0 1 1
+                                 BUSLINK 0 0 0 0 0 0 0 1 1
+                                   CANAL 0 0 0 0 0 1 0 0 0
+                                   LEVEE 0 0 0 0 0 0 0 1 1
                                DISASTERS 0 0 0 0 0 1 0 1 1
                                  MED/BIG 0 0 0 0 0 0 0 0 0
                               BUSINESSES 0 0 0 0 0 1 0 1 1
@@ -136,7 +145,6 @@
                                VALUABLES 0 0 0 0 0 0 0 0 0
                                    SCANS 0 0 0 0 0 1 0 1 1
                                FOOTPRINT 0 0 0 0 0 0 0 1 1
-                                    HDDS 0 0 0 0 0 0 0 1 1
                               HARDDRIVES 0 0 0 0 0 0 0 1 1
                               EXPRESSION 0 0 0 0 0 1 0 1 1
                                   XIMETA 0 0 0 0 0 0 0 0 1
@@ -145,11 +153,3 @@
                                     60GB 0 0 0 0 0 0 0 1 1
                                     YOPU 0 0 0 0 0 0 0 0 1
                                ABSORBERS 0 0 0 0 0 0 0 1 1
-                                SEAGATES 0 0 0 0 0 0 0 0 1
-                                     WDS 0 0 0 0 0 0 0 0 1
-                                     QUE 0 0 0 0 0 0 0 0 0
-                                    SERA 0 0 0 0 0 1 0 1 1
-                                MEMORIES 0 0 0 0 0 1 0 1 1
-                                 BUSLINK 0 0 0 0 0 0 0 1 1
-                                   CANAL 0 0 0 0 0 1 0 0 0
-                                   LEVEE 0 0 0 0 0 0 0 1 1

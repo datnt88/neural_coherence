@@ -24,11 +24,11 @@
                                     AREA 0 0 0 0 0 1 0 0 0
                                       1. 0 0 0 0 0 0 0 0 1
                                 ETHERNET 0 0 0 0 0 0 0 0 0
-                                 ADAPTER 0 0 0 0 0 0 0 2 0
+                                 ADAPTER 0 0 0 0 0 0 0 2 1
                                     DONT 0 0 0 0 0 0 0 0 0
                                     ONES 0 0 0 0 0 1 0 0 0
                                  LINKSYS 0 0 0 0 0 0 0 0 0
-                                  ROUTER 0 0 0 0 0 0 0 1 0
+                                  ROUTER 0 0 0 0 0 0 0 1 1
                                 INTERNET 0 0 0 0 0 1 0 1 1
                                   DOESNT 0 0 0 0 0 0 0 1 0
                                    SETUP 0 0 0 0 0 0 0 0 0
@@ -47,17 +47,17 @@
                                  DEFAULT 0 0 0 0 0 1 0 0 0
                                     UPNP 0 0 0 0 0 0 0 1 1
                                   OPTION 0 0 0 0 0 1 0 1 1
-                                       % 1 1 0 0 0 0 0 2 1
+                                       % 1 1 0 4 0 0 0 2 1
                                     LUCK 0 0 0 0 0 1 0 1 1
                                     FOLL 0 0 0 0 0 0 0 1 1
                                      WEP 0 0 0 0 0 0 0 1 1
                                      NAT 0 0 0 0 0 0 0 0 0
-                                 GATEWAY 0 0 0 0 0 0 0 2 1
+                                 GATEWAY 0 0 0 0 0 0 0 2 0
                                 NOTEBOOK 0 0 0 0 0 0 0 0 0
                                    RESET 0 0 0 0 0 0 0 0 0
                                      NET 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
-                                     DNS 0 0 0 0 0 0 0 2 0
+                                     DNS 0 0 0 0 0 0 0 2 1
                               PROPERTIES 0 0 0 0 0 1 0 1 1
                                   TUNNEL 0 0 0 0 0 1 0 0 0
                                  ADDRESS 0 0 0 0 0 1 0 3 1
@@ -66,7 +66,7 @@
                                   SUBNET 0 0 0 0 0 0 0 0 0
                                     MASK 0 0 0 0 0 1 0 2 1
                                 IPCONFIG 0 0 0 0 0 0 0 1 1
-                                     N/A 0 0 0 0 0 0 0 0 0
+                                     N/A 0 0 0 0 0 0 0 0 1
                                   STATUS 0 0 0 0 0 1 0 3 1
                                   SUFFIX 0 0 0 0 0 0 0 2 1
                                       :: 0 0 0 0 0 0 0 2 1

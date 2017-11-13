@@ -1,8 +1,8 @@
                                     TIME 1 1 0 0 0 1 0 1 1
                                     SAME 0 0 0 0 0 0 1 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 1 0
-                                   POWER 0 1 0 0 0 1 0 0 1
+                                COMPUTER 0 1 0 0 0 1 0 1 1
+                                   POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 0 0
                                      IDE 0 0 0 0 0 0 0 0 0
                                    DRIVE 0 0 0 0 0 1 0 0 0
@@ -26,7 +26,7 @@
                                      FAN 0 0 0 0 0 1 0 0 0
                                 FUNCTION 0 0 0 0 0 1 0 0 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
-                                   CABLE 0 0 0 0 0 1 0 2 1
+                                   CABLE 0 0 0 0 0 1 0 2 0
                                  COOLING 0 0 0 0 0 0 0 2 1
                                     DONT 0 0 0 0 0 0 0 0 0
                                        U 0 0 1 0 0 0 0 0 1
@@ -61,8 +61,6 @@
                                    HOLES 0 0 0 0 0 1 0 1 1
                                   WIRING 0 0 0 0 0 0 0 0 0
                                    HEADS 0 0 0 0 0 1 0 1 1
-                              FLATCABLES 0 0 0 0 0 0 0 2 1
-                                      EL 0 0 1 0 0 0 0 0 1
                                     TIES 0 0 0 0 0 1 0 3 1
                                    STRAP 0 0 0 0 0 0 0 0 0
                                     PADS 0 0 0 0 0 1 0 1 1
@@ -83,3 +81,5 @@
                                    SLACK 0 0 0 0 0 0 1 1 1
                                      TYE 0 0 0 0 0 0 0 0 1
                                    FDITE 0 0 0 0 0 0 0 1 1
+                              FLATCABLES 0 0 0 0 0 0 0 2 1
+                                      EL 0 0 1 0 0 0 0 0 1

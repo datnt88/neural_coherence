@@ -7,7 +7,7 @@
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                 COMPUTER 0 1 0 0 0 1 0 1 0
                                   DRIVES 0 0 0 0 0 1 0 3 1
-                                   POWER 0 1 0 0 0 1 0 3 1
+                                   POWER 0 1 0 0 0 1 0 3 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
                                     80GB 0 0 0 0 0 0 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 1 1
@@ -61,7 +61,7 @@
                             MANUFACTURER 0 0 0 0 0 1 0 1 1
                                    NIGHT 1 0 0 0 0 1 0 1 1
                                      ATA 0 0 0 0 0 0 0 0 0
-                                     DAY 0 1 0 0 0 1 0 1 1
+                                     DAY 0 1 0 0 0 1 0 1 0
                                        % 1 1 0 4 0 0 0 1 1
                                     LINE 0 0 0 0 0 1 0 1 1
                                     CPUS 0 0 0 0 0 0 0 1 1
@@ -83,14 +83,14 @@
                                    WORDS 0 1 0 0 0 1 0 1 1
                                 SUPPLIES 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
-                                 FAILURE 0 0 0 0 0 1 0 1 0
+                                 FAILURE 0 0 0 0 0 1 0 1 1
                               EXCEPTIONS 0 0 0 0 0 1 0 1 1
                                    USERS 0 0 0 0 0 1 0 1 1
                                 BUILD-UP 0 0 0 0 0 0 0 1 1
                              RELIABILITY 0 0 0 0 0 0 0 1 1
                                 INTEREST 0 0 0 0 0 1 0 1 1
                                  FACTORS 0 0 0 0 0 1 0 1 1
-                             OVERHEATING 0 0 0 0 0 0 0 0 1
+                             OVERHEATING 0 0 0 0 0 0 0 0 0
                          RECOMMENDATIONS 0 1 0 0 0 1 0 1 1
                                    HOURS 0 0 0 0 0 1 0 1 1
                                COMPONENT 0 0 0 0 0 1 0 1 0
@@ -101,7 +101,7 @@
                                  OPINION 0 0 0 0 0 1 0 1 1
                                  SUBJECT 0 0 0 0 0 1 0 1 1
                                  CYCLING 0 0 0 0 0 0 0 1 1
-                                   SURGE 0 0 0 0 0 1 0 1 0
+                                   SURGE 0 0 0 0 0 1 0 1 1
                                     LABS 0 0 0 0 0 1 0 1 1
                                   CYCLES 0 0 0 0 0 1 0 1 1
                                    CYCLE 0 0 0 0 0 1 0 1 1

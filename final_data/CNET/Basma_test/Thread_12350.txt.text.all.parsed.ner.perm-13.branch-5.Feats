@@ -7,7 +7,7 @@
                                    BUNCH 0 0 0 0 0 1 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 2 1
                                   DRIVES 0 0 0 0 0 1 0 3 1
-                                  MAXTOR 0 0 0 0 0 0 0 1 0
+                                  MAXTOR 0 0 1 0 0 0 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 1 1
@@ -18,7 +18,7 @@
                                   MONTHS 1 1 0 0 0 1 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                                      UPS 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 0 0 0 1 0 2 0
+                                      PC 0 0 0 0 0 1 0 2 1
                                   AND/OR 0 0 0 0 0 0 0 0 0
                                    WHILE 0 0 0 0 0 1 0 1 1
                                     HEAT 0 0 0 0 0 1 0 1 1
@@ -53,7 +53,7 @@
                                     FIRE 0 0 0 0 0 1 0 0 0
                                   NUMBER 0 0 0 0 0 1 0 1 1
                                  NETWORK 0 0 0 0 0 1 0 0 0
-                                   CLICK 0 0 0 0 0 0 1 2 1
+                                   CLICK 0 0 0 0 0 0 1 2 0
                                     HELP 0 0 0 0 0 1 0 0 1
                                PARTITION 0 0 0 0 0 0 1 2 1
                                   FORMAT 0 1 0 0 0 1 0 1 1
@@ -68,7 +68,7 @@
                                    SLAVE 0 0 0 0 0 0 0 0 0
                                     DATA 0 0 0 0 0 1 0 1 1
                                    FILES 0 0 0 0 0 1 0 1 1
-                                  BACKUP 0 0 0 0 0 0 0 1 1
+                                  BACKUP 0 0 0 0 0 0 0 1 0
                                     TALK 0 0 0 0 0 1 0 1 1
                                      CDS 0 0 0 0 0 1 0 0 1
                                    STUFF 0 0 0 0 0 1 0 1 1
@@ -108,14 +108,14 @@
                                    IMACS 0 0 0 0 0 0 0 0 1
                                   BURNER 0 0 0 0 0 0 1 1 1
                                      BUS 0 0 0 0 0 1 0 1 1
-                                 STEWART 0 0 1 0 0 1 0 1 0
+                                 STEWART 0 0 1 0 0 1 0 1 1
                                 BASEMENT 0 0 0 0 0 0 0 1 1
                                  BACKUPS 0 0 0 0 0 0 0 2 1
                                DOCUMENTS 0 1 0 0 0 1 0 1 1
                                FIREWALLS 0 0 0 0 0 0 0 0 1
                                  ACCOUNT 0 0 0 0 0 1 0 1 1
                                  FOLDERS 0 0 0 0 0 0 1 0 1
-                                  MEDIUM 0 0 0 0 0 1 0 1 1
+                                  MEDIUM 0 0 0 0 0 1 0 1 0
                                   CORNER 0 0 0 0 0 1 0 0 0
                                  BACK-UP 0 0 0 0 0 0 0 0 1
                                 APPROACH 0 0 0 0 0 1 0 1 1
@@ -124,6 +124,13 @@
                            VULNERABILITY 0 0 0 0 0 0 0 1 1
                                   MILAGE 0 0 0 0 0 0 0 1 1
                                    THEFT 0 0 0 0 0 0 0 1 1
+                                   TAPES 0 1 0 0 0 1 0 1 1
+                                  SPORTS 0 0 0 0 0 1 0 0 0
+                              CONTAINERS 0 1 0 0 0 1 0 1 1
+                                     QUE 0 0 0 0 0 0 0 0 1
+                                MEMORIES 0 0 0 0 0 1 0 1 1
+                                 BUSLINK 0 0 0 0 0 0 0 1 1
+                                     YEP 0 0 0 0 0 0 0 0 1
                                      12. 0 0 0 0 0 0 0 1 1
                                 PROCCESS 0 0 0 0 0 0 0 1 1
                                  BUBBLES 0 0 0 0 0 1 0 1 1
@@ -140,10 +147,3 @@
                                     CAT5 0 0 0 0 0 0 0 1 1
                                 CONTENTS 0 0 0 0 0 1 0 0 1
                              ENVIRONMENT 0 0 0 0 0 1 0 1 1
-                                   TAPES 0 1 0 0 0 1 0 1 1
-                                  SPORTS 0 0 0 0 0 1 0 0 0
-                              CONTAINERS 0 1 0 0 0 1 0 1 1
-                                     QUE 0 0 0 0 0 0 0 0 1
-                                MEMORIES 0 0 0 0 0 1 0 1 1
-                                 BUSLINK 0 0 0 0 0 0 0 1 1
-                                     YEP 0 0 0 0 0 0 0 0 1

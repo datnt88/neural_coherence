@@ -11,7 +11,7 @@
                                   DRIVES 0 0 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                      IDE 0 0 0 0 0 0 0 1 1
-                                  MAXTOR 0 0 0 0 0 0 0 1 1
+                                  MAXTOR 0 0 1 0 0 0 0 1 1
                                      ONE 0 0 0 0 0 1 0 0 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 1 1
@@ -21,15 +21,15 @@
                                     KIND 0 0 0 0 0 1 0 0 1
                                     THIS 0 0 0 0 0 1 0 1 1
                                      UPS 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 0 0 0 1 0 1 0
-                                  VAPCMD 0 0 0 0 0 0 0 1 1
+                                      PC 0 0 0 0 0 1 0 1 1
+                                  VAPCMD 0 0 0 0 0 0 0 1 0
                                   AND/OR 0 0 0 0 0 0 0 0 0
                                    WHILE 0 0 0 0 0 1 0 1 1
                                     HEAT 0 0 0 0 0 1 0 0 0
                                    THERE 0 0 0 0 0 0 1 0 1
                                     BOTH 0 0 0 0 0 0 1 0 1
                                    HOUSE 0 1 0 0 0 1 0 1 1
-                                    CASE 0 1 0 0 0 1 0 1 1
+                                    CASE 0 1 0 0 0 1 0 1 0
                                    THING 0 0 0 0 0 1 0 2 1
                                       .. 0 0 0 0 0 1 0 3 1
                                     ONLY 0 0 0 0 0 0 1 1 1
@@ -56,7 +56,7 @@
                                   INSIDE 0 0 0 0 0 1 0 1 1
                                       1. 0 0 0 0 0 0 0 0 1
                                       2. 0 0 0 0 0 0 0 1 1
-                                   CABLE 0 0 0 0 0 1 0 2 1
+                                   CABLE 0 0 0 0 0 1 0 2 0
                               MANAGEMENT 0 1 0 0 0 1 0 1 0
                                      DVD 0 0 0 0 0 1 0 1 0
                                  SEAGATE 0 0 1 0 0 0 0 0 1
@@ -67,7 +67,7 @@
                                 EXTERNAL 0 0 0 0 0 0 0 1 1
                                     ONES 0 0 0 0 0 1 0 2 1
                                    SETUP 0 0 0 0 0 0 0 1 0
-                                    PLUG 0 0 0 0 0 0 1 2 1
+                                    PLUG 0 0 0 0 0 0 1 2 0
                                  NETWORK 0 0 0 0 0 1 0 1 1
                                    CLICK 0 0 0 0 0 0 1 2 0
                                     HELP 0 0 0 0 0 1 0 0 1
@@ -115,14 +115,14 @@
                                    MEANS 0 0 0 0 0 1 0 1 1
                                    MAKER 0 1 0 0 0 1 0 1 1
                                    GHOST 0 0 0 0 0 1 0 0 0
-                                  IMAGES 0 0 0 0 0 1 0 1 1
+                                  IMAGES 0 0 0 0 0 1 0 1 0
                                   MOVIES 0 0 0 0 0 1 0 1 1
                                    DISKS 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                    STEPS 0 0 0 0 0 1 0 1 1
                                     MARK 0 0 0 0 0 1 0 1 1
                                 SECURITY 0 0 0 0 0 1 0 0 0
-                                 STORAGE 0 0 0 0 0 0 0 1 1
+                                 STORAGE 0 0 0 0 0 0 0 1 0
                                INTERFACE 0 0 1 0 0 1 0 0 1
                                      CUT 0 1 0 0 0 1 0 0 0
                                    COLOR 0 0 0 0 0 1 0 0 0
@@ -160,8 +160,18 @@
                                 BARBECUE 0 0 0 0 0 0 1 0 0
                                      PIT 0 0 0 0 0 0 0 1 1
                                    THEFT 0 0 0 0 0 0 0 0 0
+                              COMMODORES 0 0 0 0 0 0 0 1 1
+                                  AMIGAS 0 0 0 0 0 0 0 0 1
+                                    MACS 0 0 0 0 0 1 0 0 1
+                                   MSDOS 0 0 0 0 0 0 0 0 1
+                                EXTRENAL 0 0 0 0 0 0 0 0 0
+                               HURRICANE 0 0 0 0 0 1 0 0 0
+                                 KATRINA 0 0 0 0 0 0 0 1 1
+                                 ORLEANS 0 0 1 0 0 1 0 1 1
+                                   CANAL 0 0 0 0 0 1 0 0 0
+                                   LEVEE 0 0 0 0 0 0 0 1 1
                                     RULE 0 1 0 0 0 1 0 1 1
-                                   CLIPS 0 0 0 0 0 1 0 1 1
+                                   CLIPS 0 0 0 0 0 1 0 1 0
                                   JUMPER 0 0 0 0 0 0 0 0 0
                                    SCREW 0 0 0 0 0 1 0 0 0
                                    HOLES 0 0 0 0 0 1 0 1 1
@@ -170,10 +180,9 @@
                                  BUBBLES 0 0 0 0 0 1 0 1 1
                                      13. 0 0 0 0 0 0 0 0 0
                                    CENTS 0 0 0 7 0 1 0 1 0
-                                       F 0 0 0 0 0 0 0 0 0
+                                       F 0 0 1 0 0 0 0 0 0
                                EXTERNAAL 0 0 0 0 0 0 0 1 1
                                    SMOKE 0 0 0 0 0 1 0 0 1
-                                    MACS 0 0 0 0 0 1 0 0 1
                                  TORNADO 0 0 0 0 0 0 1 2 1
                                     .YOU 0 0 1 0 0 0 0 0 1
                                FOOTPRINT 0 0 0 0 0 0 0 1 1
@@ -187,12 +196,3 @@
                               PROTICOLS. 0 0 0 0 0 0 0 1 1
                                TRANSPORT 0 0 0 0 0 0 0 0 1
                                     MALL 0 0 0 0 0 0 0 1 1
-                              COMMODORES 0 0 0 0 0 0 0 1 1
-                                  AMIGAS 0 0 0 0 0 0 0 0 1
-                                   MSDOS 0 0 0 0 0 0 0 0 1
-                                EXTRENAL 0 0 0 0 0 0 0 0 0
-                               HURRICANE 0 0 0 0 0 1 0 0 0
-                                 KATRINA 0 0 0 0 0 0 0 1 1
-                                 ORLEANS 0 0 1 0 0 1 0 1 1
-                                   CANAL 0 0 0 0 0 1 0 0 0
-                                   LEVEE 0 0 0 0 0 0 0 1 1

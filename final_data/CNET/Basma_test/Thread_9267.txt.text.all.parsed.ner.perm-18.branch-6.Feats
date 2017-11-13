@@ -10,9 +10,9 @@
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
                                       MB 0 0 0 0 0 0 0 1 1
                                  UPGRADE 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 0
+                                  SYSTEM 0 1 0 0 0 1 0 1 1
                                     YEAR 0 1 0 0 0 1 0 1 1
-                                    MOBO 0 0 0 0 0 0 0 1 1
+                                    MOBO 0 0 0 0 0 0 0 1 0
                                 COMPUTER 0 1 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 1 1
                               CONTROLLER 0 0 0 0 0 1 0 1 1
@@ -32,15 +32,15 @@
                                 ANYTHING 0 0 0 0 0 1 0 0 1
                                   MATTER 0 0 0 0 0 1 0 0 0
                                    &QUOT 0 0 0 0 0 0 0 2 1
-                                    DUST 0 0 0 0 0 1 0 1 1
+                                    DUST 0 0 0 0 0 1 0 1 0
                                  BUNNIES 0 0 0 0 0 0 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                  DRIVERS 0 1 0 0 0 1 0 1 1
-                                     AMD 0 0 0 0 0 1 0 2 0
+                                     AMD 0 0 0 0 0 1 0 2 1
                                       CD 0 0 0 0 0 1 0 1 1
                                      ROM 0 0 0 0 0 0 0 0 0
                                      RAM 0 0 1 0 0 1 0 0 0
-                                    FANS 0 0 0 0 0 1 0 1 1
+                                    FANS 0 0 0 0 0 1 0 1 0
                                   INTAKE 0 0 0 0 0 0 0 0 0
                                    FRONT 0 0 0 0 0 1 0 1 1
                                     SIDE 1 0 0 0 0 1 0 0 0
@@ -56,7 +56,7 @@
                                       HP 0 0 1 0 0 0 0 0 0
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                   CHARGE 0 1 0 0 0 1 0 1 1
-                                KEYBOARD 0 0 0 0 0 0 0 1 1
+                                KEYBOARD 0 0 0 0 0 0 0 1 0
                                     MANY 0 0 0 0 0 0 1 0 1
                                  WINDOWS 0 0 0 0 0 1 0 1 1
                                    LIMIT 0 0 0 0 0 1 0 1 1
@@ -66,7 +66,7 @@
                                    MOUSE 0 0 0 0 0 1 0 0 0
                                   SCREEN 0 0 0 0 0 1 0 1 1
                                      CPU 0 0 0 0 0 0 0 1 1
-                                   INTEL 0 0 1 0 0 1 0 1 1
+                                   INTEL 0 0 1 0 0 1 0 1 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                    TOWER 0 0 0 0 0 1 0 3 1
                                     LOOK 0 0 0 0 0 1 0 1 1
@@ -77,9 +77,9 @@
                                    ULTRA 0 0 0 0 0 0 0 0 0
                                    COVER 0 0 0 0 0 1 0 1 1
                                    MODEL 0 0 0 0 0 1 0 1 1
-                                 CELERON 0 0 0 0 0 0 0 1 1
-                               PROCESSOR 0 0 0 0 0 0 0 1 0
-                                  SOCKET 0 0 0 0 0 0 0 2 0
+                                 CELERON 0 0 0 0 0 0 0 1 0
+                               PROCESSOR 0 0 0 0 0 0 0 1 1
+                                  SOCKET 0 0 0 0 0 0 0 2 1
                                      BUY 0 0 0 0 0 0 0 1 1
                               PROCESSORS 0 0 0 0 0 1 0 1 0
                                    WRONG 0 0 0 0 0 0 1 1 1
@@ -124,7 +124,7 @@
                               POSSIBILTY 0 0 0 0 0 0 0 1 1
                                    TOTAL 0 0 0 0 0 1 0 1 1
                                  MESSAGE 0 0 0 0 0 1 0 1 1
-                                   VIRUS 0 0 0 0 0 1 0 2 1
+                                   VIRUS 0 0 0 0 0 1 0 2 0
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                   ROBERT 0 0 1 0 0 1 0 0 0
                                   OPTION 0 0 0 0 0 1 0 1 1
@@ -136,7 +136,7 @@
                                     INFO 0 0 0 0 0 0 0 1 1
                                     HOUR 0 0 0 0 0 1 0 1 1
                                    NIGHT 1 0 0 5 0 1 0 1 1
-                                   METAL 0 0 0 0 0 1 0 0 0
+                                   METAL 0 0 0 0 0 1 0 0 1
                                      ATA 0 0 1 0 0 0 0 1 1
                                 PROFFITT 0 0 1 0 0 0 0 1 1
                                CONNECTOR 0 0 0 0 0 0 0 0 0
@@ -170,10 +170,10 @@
                                  MALWARE 0 0 0 0 0 0 0 0 0
                                   COMPAQ 0 0 1 0 0 1 0 0 0
                                 CAPACITY 0 0 0 0 0 1 0 1 0
-                                      X1 0 0 0 0 0 0 0 2 1
                                     LACK 0 0 0 0 0 1 0 1 1
                                     SIZE 1 0 0 0 0 1 0 1 1
                                  SEMPRON 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 2 1
                                       X2 0 0 0 0 0 0 0 2 1
                                  ARTICLE 0 0 0 0 0 1 0 1 1
                                    -RSB- 0 0 0 0 0 0 0 3 1
@@ -271,7 +271,7 @@
                               ADIODRIVER 0 0 0 0 0 0 0 0 0
                                    2MBIT 0 0 0 0 0 0 0 1 1
                              ABRACADABRA 0 0 0 0 0 0 0 1 1
-                                  BISOUS 0 0 0 0 0 0 0 1 0
+                                  BISOUS 0 0 0 0 0 0 0 1 1
                                 PHYSIQUE 0 0 0 0 0 0 0 0 0
                                    53,35 0 0 0 0 0 0 0 0 1
                                   876,23 0 0 0 0 0 0 0 1 1

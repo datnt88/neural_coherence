@@ -1,13 +1,13 @@
-                                       $ 0 0 0 0 0 0 1 1 1
+                                       $ 0 0 0 7 0 0 1 1 1
                                     TIME 1 1 0 0 0 1 0 1 1
                                     THAT 0 0 0 0 0 0 0 1 1
                                      THE 0 0 0 0 0 0 0 1 1
                                    ABOUT 0 0 0 0 0 0 1 1 1
                                      ALL 0 0 0 0 0 0 0 0 1
-                                    NEED 0 0 0 0 0 1 0 1 1
+                                    NEED 0 0 0 0 0 1 0 1 0
                                     SOME 0 0 0 0 0 0 1 0 1
                                    512MB 0 0 0 0 0 0 0 0 0
-                                   VIDEO 0 1 0 0 0 1 0 1 0
+                                   VIDEO 0 1 0 0 0 1 0 1 1
                                     CARD 0 1 0 0 0 1 0 3 1
                                  GEFORCE 0 0 0 0 0 0 0 0 0
                                   THANKS 0 0 0 0 0 1 0 1 1
@@ -16,7 +16,7 @@
                                      BIT 0 0 0 0 0 1 0 1 1
                                    THESE 0 0 0 0 0 0 1 0 1
                                    CARDS 0 0 0 0 0 1 0 2 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 0
+                                  SYSTEM 0 1 0 0 0 1 0 1 1
                                     YEAR 0 1 0 0 0 1 0 1 1
                                     MOBO 0 0 0 0 0 0 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
@@ -46,14 +46,14 @@
                                     CASE 0 1 0 0 0 1 0 3 0
                                     FANS 0 0 0 0 0 1 0 0 0
                                    THING 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 1 0
+                                  MEMORY 0 1 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 1 1
                                     FINE 0 1 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 1 1
                                   NVIDIA 0 0 0 0 0 0 0 0 0
                                     LIST 0 0 0 0 0 1 0 0 0
                                      FUN 0 0 0 0 0 1 0 1 1
-                                KEYBOARD 0 0 0 0 0 0 0 1 0
+                                KEYBOARD 0 0 0 0 0 0 0 1 1
                                 SHOPPING 0 0 0 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
@@ -73,7 +73,7 @@
                                   CHOICE 0 0 0 0 0 1 0 0 0
                                     BEST 0 0 0 0 0 0 1 1 1
                                     LESS 0 0 0 7 0 0 0 1 1
-                                   PARTS 1 0 0 0 0 1 0 2 0
+                                   PARTS 1 0 0 0 0 1 0 2 1
                                FRAGMENTS 0 0 0 0 0 1 0 0 0
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 2 1
@@ -91,7 +91,7 @@
                                     DELL 0 0 1 0 0 0 0 1 1
                                     SLOT 0 0 0 0 0 1 0 1 1
                                  BATTERY 0 0 0 0 0 1 0 0 0
-                                    CANT 0 0 0 0 0 0 0 0 1
+                                    CANT 0 0 0 0 0 0 0 0 0
                               COMPONENTS 0 0 0 0 0 1 0 1 1
                                  CORSAIR 0 0 0 0 0 0 0 0 0
                                  PREMIUM 0 0 0 0 0 1 0 0 0
@@ -113,11 +113,11 @@
                                    GAMES 0 0 0 0 0 1 0 2 1
                                     TEMP 0 0 0 0 0 0 0 1 1
                                 MATERIAL 0 1 0 0 0 1 0 0 0
-                                     END 0 0 0 0 0 1 0 1 1
+                                     END 0 0 0 0 0 1 0 1 0
                                COMPUTERS 0 0 0 0 0 1 0 1 1
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 2 1
-                                 QUALITY 0 0 0 0 0 1 0 0 0
+                                 QUALITY 0 0 0 0 0 1 0 0 1
                                      WAY 1 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 0 0
                                     MODE 0 0 0 0 0 1 0 1 1
@@ -161,12 +161,30 @@
                                     CARS 0 1 0 0 0 1 0 1 1
                                  MUSTANG 0 0 0 0 0 1 0 1 1
                                 TINKERER 0 0 0 0 0 0 0 1 1
+                           EXPANDIBILITY 0 0 0 0 0 0 0 1 1
+                                    WISE 0 0 0 0 0 1 0 1 1
+                               SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 0 1
+                                SUPPLIES 0 0 0 0 0 1 0 1 1
+                                 CIRCUIT 0 0 0 0 0 1 0 0 0
+                                    CITY 0 1 0 0 0 1 0 1 1
+                                    WATT 0 0 0 0 0 1 0 0 0
+                                      EH 0 0 0 0 0 0 0 0 1
+                                    PENT 0 0 0 0 0 0 0 0 0
+                             POWERSUPPLY 0 0 0 0 0 0 0 0 0
+                                    LACK 0 0 0 0 0 1 0 1 1
+                           REQUIREMENTS. 0 0 0 0 0 0 0 1 1
+                                   ENDER 0 0 0 0 0 0 0 1 1
+                                    SIZE 1 0 0 0 0 1 0 1 1
+                                    BANK 0 1 0 0 0 1 0 0 0
+                                 BALANCE 0 0 0 0 0 1 0 1 1
+                            REQUIREMENTS 0 0 0 0 0 1 0 1 1
+                                   ALTHO 0 0 0 0 0 0 0 2 1
                                      10. 0 0 0 0 0 0 0 1 1
                                DEVELOPER 0 0 0 0 0 0 0 1 1
                                  CORNERS 0 0 0 0 0 1 0 0 1
                                   BATTER 0 0 0 0 0 0 0 1 1
                                    PLUGS 0 0 0 0 0 0 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 0 1
                                 CORE2DUO 0 0 0 0 0 0 0 0 0
                                MID-TOWER 0 0 0 0 0 0 0 0 0
                                    SHEET 0 0 0 0 0 1 0 0 0
@@ -183,24 +201,6 @@
                                     10MS 0 0 0 0 0 0 0 0 0
                                     LOTS 0 0 0 0 0 1 0 1 1
                                   PLACES 0 0 0 0 0 1 0 1 1
-                           EXPANDIBILITY 0 0 0 0 0 0 0 1 1
-                                    WISE 0 0 0 0 0 1 0 1 1
-                               SOUNDCARD 0 0 0 0 0 0 0 1 1
-                                SUPPLIES 0 0 0 0 0 1 0 1 1
-                                 CIRCUIT 0 0 0 0 0 1 0 0 0
-                                    CITY 0 1 0 0 0 1 0 1 1
-                                    WATT 0 0 0 0 0 1 0 0 0
-                                      EH 0 0 0 0 0 0 0 0 1
-                                    PENT 0 0 0 0 0 0 0 0 0
-                             POWERSUPPLY 0 0 0 0 0 0 0 0 0
-                                    LACK 0 0 0 0 0 1 0 1 1
-                           REQUIREMENTS. 0 0 0 0 0 0 0 1 1
-                                   ENDER 0 0 0 0 0 0 0 1 1
-                                    SIZE 1 0 0 0 0 1 0 1 1
-                                    BANK 0 1 0 0 0 1 0 0 0
-                                 BALANCE 0 0 0 0 0 1 0 1 1
-                            REQUIREMENTS 0 0 0 0 0 1 0 1 1
-                                   ALTHO 0 0 0 0 0 0 0 2 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1
                                    447.4 0 0 0 0 0 0 0 0 1

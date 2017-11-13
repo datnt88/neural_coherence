@@ -5,7 +5,7 @@
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
                                    THESE 0 0 0 0 0 0 1 0 1
                                   SYSTEM 0 1 0 0 0 1 0 3 1
-                                COMPUTER 0 1 0 0 0 1 0 1 1
+                                COMPUTER 0 1 0 0 0 1 0 1 0
                                   DRIVES 0 0 0 0 0 1 0 3 1
                                    POWER 0 1 0 0 0 1 0 3 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
@@ -19,7 +19,7 @@
                                      UPS 0 0 0 0 0 0 0 0 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                    &QUOT 0 0 0 0 0 0 0 3 1
-                                    HEAT 0 0 0 0 0 1 0 1 0
+                                    HEAT 0 0 0 0 0 1 0 1 1
                                     DUST 0 0 0 0 0 1 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                     ROOM 0 0 0 0 0 1 0 1 1
@@ -45,7 +45,7 @@
                                      FAN 0 0 0 0 0 1 0 1 1
                                  VOLTAGE 0 0 0 0 0 0 0 0 0
                                  BATTERY 0 0 0 0 0 1 0 0 0
-                              COMPONENTS 0 0 0 0 0 1 0 2 1
+                              COMPONENTS 0 0 0 0 0 1 0 2 0
                                    TODAY 0 0 0 6 0 1 0 1 1
                                     POST 0 0 0 0 0 1 0 1 1
                                 MONITORS 0 0 0 0 0 1 0 0 0
@@ -69,7 +69,7 @@
                                     HEAD 0 0 0 0 0 1 0 1 0
                                     TEST 0 1 0 0 0 1 0 0 0
                             MOTHERBOARDS 0 0 0 0 0 0 0 2 1
-                                     PCS 0 0 0 0 0 1 0 2 0
+                                     PCS 0 0 0 0 0 1 0 2 1
                                   DETAIL 0 0 0 0 0 1 0 0 1
                                  SYSTEMS 0 0 0 0 0 1 0 3 1
                                 PRODUCTS 0 1 0 0 0 1 0 1 1
@@ -84,20 +84,20 @@
                                    WORDS 0 1 0 0 0 1 0 1 1
                                 SUPPLIES 0 0 0 0 0 1 0 3 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
-                                 FAILURE 0 0 0 0 0 1 0 1 1
+                                 FAILURE 0 0 0 0 0 1 0 1 0
                               EXCEPTIONS 0 0 0 0 0 1 0 1 1
                                    USERS 0 0 0 0 0 1 0 1 1
                                 BUILD-UP 0 0 0 0 0 0 0 1 1
                              RELIABILITY 0 0 0 0 0 0 0 1 1
                                 INTEREST 0 0 0 0 0 1 0 1 1
                                  FACTORS 0 0 0 0 0 1 0 1 1
-                             OVERHEATING 0 0 0 0 0 0 0 0 0
+                             OVERHEATING 0 0 0 0 0 0 0 0 1
                          RECOMMENDATIONS 0 1 0 0 0 1 0 1 1
                                    HOURS 0 0 0 0 0 1 0 1 1
                                COMPONENT 0 0 0 0 0 1 0 1 0
                                 START-UP 0 0 0 0 0 0 0 0 1
                                   CAUSES 0 0 0 0 0 1 0 1 1
-                             TEMPERATURE 0 0 0 0 0 1 0 1 1
+                             TEMPERATURE 0 0 0 0 0 1 0 1 0
                                     RATE 0 1 0 0 0 1 0 3 1
                                  OPINION 0 0 0 0 0 1 0 1 1
                              DEVELOPMENT 0 0 0 0 0 1 0 1 1
@@ -106,7 +106,7 @@
                                     LABS 0 0 0 0 0 1 0 1 1
                                   CYCLES 0 0 0 0 0 1 0 1 1
                                    CYCLE 0 0 0 0 0 1 0 1 1
-                                    LIFE 0 0 0 0 0 1 0 1 1
+                                    LIFE 0 0 0 0 0 1 0 1 0
                                     SPIN 0 0 0 0 0 1 0 0 0
                                     TEAR 0 0 0 0 0 0 0 1 1
                                   RATING 0 0 0 0 0 1 0 1 1

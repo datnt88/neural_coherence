@@ -1,4 +1,4 @@
-                                       $ 0 0 0 7 0 0 1 2 1
+                                       $ 0 0 0 0 0 0 1 2 1
                                     TIME 1 1 0 0 0 1 0 1 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                   PERSON 0 1 0 0 0 1 0 1 1
@@ -10,9 +10,9 @@
                                     NEED 0 0 0 0 0 1 0 0 1
                                     SOME 0 0 0 0 0 0 1 1 1
                                    ORDER 0 0 0 0 0 1 0 0 0
-                                   VIDEO 0 1 0 0 0 1 0 1 1
+                                   VIDEO 0 1 0 0 0 1 0 1 0
                                     CARD 0 1 0 0 0 1 0 1 1
-                                  THANKS 0 0 0 0 0 1 0 0 1
+                                  THANKS 0 0 0 0 0 1 0 0 0
                                    SPEED 0 0 0 0 0 1 0 1 1
                                      BIT 0 0 0 0 0 1 0 2 1
                                    CARDS 0 0 0 0 0 1 0 1 1
@@ -28,7 +28,7 @@
                                     SELF 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 1 1
                                      ONE 0 0 0 0 0 1 0 2 1
-                                   DRIVE 0 0 0 0 0 1 0 3 0
+                                   DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 2 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
@@ -41,7 +41,7 @@
                              MOTHERBOARD 0 0 0 0 0 0 0 2 1
                                       PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
-                                ANYTHING 0 0 0 0 0 1 0 0 1
+                                ANYTHING 0 0 0 0 0 1 0 0 0
                                    WHILE 0 0 0 0 0 1 0 1 1
                                    &QUOT 0 0 0 0 0 0 0 2 1
                                     WELL 0 0 1 0 0 1 0 0 0
@@ -58,7 +58,7 @@
                                   THINGS 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 2 1
                                     ASUS 0 0 1 0 0 0 0 0 1
-                                   MODEM 0 0 0 0 0 1 0 1 0
+                                   MODEM 0 0 0 0 0 1 0 1 1
                                       'S 0 0 0 0 0 0 0 0 1
                                   NVIDIA 0 0 0 0 0 0 0 1 1
                                 FEATURES 0 0 0 0 0 1 0 1 1
@@ -67,13 +67,13 @@
                                     ETC. 0 0 0 0 0 0 0 1 1
                                      TOY 0 0 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 1 1
-                                    WORK 0 0 0 0 0 1 0 1 1
+                                    WORK 0 0 0 0 0 1 0 1 0
                                       HP 0 0 1 0 0 0 0 0 0
                                      FUN 0 0 0 0 0 1 0 0 1
                                   BUDGET 0 1 0 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                                    LEAST 0 0 0 0 0 0 1 1 1
-                                  REASON 0 0 0 0 0 1 0 1 0
+                                  REASON 0 0 0 0 0 1 0 1 1
                                   PLEASE 0 0 0 0 0 0 0 0 1
                                       OS 0 0 0 0 0 0 0 1 1
                                  WINDOWS 0 0 0 0 0 1 0 1 1
@@ -92,8 +92,8 @@
                                    KINDA 0 0 0 0 0 0 0 0 1
                                     GAME 0 0 0 0 0 1 0 0 0
                                   PEOPLE 0 1 0 0 0 1 0 1 1
-                                    COST 0 0 0 0 0 1 0 0 1
-                               PROCESSOR 0 0 0 0 0 0 0 1 1
+                                    COST 0 0 0 0 0 1 0 0 0
+                               PROCESSOR 0 0 0 0 0 0 0 1 0
                                  EXAMPLE 0 0 0 0 0 1 0 1 1
                                      PC. 0 0 0 0 0 0 0 1 1
                                      FAN 0 0 0 0 0 1 0 1 1
@@ -109,7 +109,7 @@
                                    CABLE 0 0 0 0 0 1 0 1 1
                                      GHZ 0 0 0 0 0 0 0 1 1
                                      DVD 0 0 0 0 0 1 0 0 0
-                                   SOUND 0 0 0 0 0 1 0 1 0
+                                   SOUND 0 0 0 0 0 1 0 1 1
                                    THATS 0 0 0 0 0 0 0 0 1
                                     DONT 0 0 0 0 0 0 0 0 0
                                  WEBSITE 0 0 1 0 0 0 0 0 1
@@ -187,7 +187,7 @@
                                    DELLS 0 0 0 0 0 0 0 0 0
                                    GONNA 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
-                                   SITES 0 0 0 0 0 1 0 1 0
+                                   SITES 0 0 0 0 0 1 0 1 1
                                     MAIL 0 0 0 0 0 1 0 0 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                  GATEWAY 0 0 0 0 0 0 0 1 1
@@ -202,11 +202,11 @@
                                   TINKER 0 0 1 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
                                  SCANNER 0 0 0 0 0 0 0 1 1
                                  FACTORS 0 0 0 0 0 1 0 1 1
@@ -224,7 +224,7 @@
                                RECORDING 0 0 0 0 0 1 0 0 0
                                    CROSS 0 0 0 0 0 1 0 0 0
                                  SCIENCE 0 0 0 0 0 1 0 1 0
-                                SHIPPING 0 0 0 0 0 0 0 1 1
+                                SHIPPING 0 0 0 0 0 0 0 1 0
                                 CREATION 0 0 0 0 0 1 0 1 1
                                  CHANCES 0 0 0 0 0 1 0 1 1
                                   ADVISE 0 0 0 0 0 0 0 0 1
@@ -266,17 +266,17 @@
                                      HAL 0 0 1 0 0 0 0 1 1
                                    GOALS 0 0 0 0 0 1 0 1 1
                                  1.83GHZ 0 0 0 0 0 0 0 1 1
-                               RE-BUILDS 0 0 0 0 0 0 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                W/500WATT 0 0 0 0 0 0 0 0 0
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                 PROFITS 0 0 0 0 0 1 0 1 1
                               OURS.&QUOT 0 0 0 0 0 0 0 0 1
                                       A+ 0 0 0 0 0 0 0 1 1
                                     CERT 0 0 0 0 0 0 0 1 1
                              STITES&QUOT 0 0 0 0 0 0 0 0 1
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
+                               RE-BUILDS 0 0 0 0 0 0 0 1 1
+                                 PROFITS 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 1 1
                                   HE/SHE 0 0 0 0 0 0 0 0 1
                               QUANTITIES 0 0 0 0 0 1 0 1 1

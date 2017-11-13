@@ -8,7 +8,7 @@
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 1
                                      ONE 0 0 0 0 0 1 0 0 1
-                                   DRIVE 0 0 0 0 0 1 0 3 0
+                                   DRIVE 0 0 0 0 0 1 0 3 1
                                     DISK 0 0 0 0 0 1 0 1 0
                                  NOTHING 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 0 0
@@ -18,11 +18,11 @@
                                     THIS 0 0 0 0 0 1 0 1 1
                                      USB 0 0 0 0 0 0 0 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 0 0 0 1 0 1 0
+                                      PC 0 0 0 0 0 1 0 1 1
                                   VAPCMD 0 0 1 0 0 0 0 0 1
                                     STEP 0 0 0 0 0 1 0 1 1
                                     LINK 0 0 0 0 0 1 0 1 1
-                                   &QUOT 0 0 1 0 0 0 0 3 1
+                                   &QUOT 0 0 0 0 0 0 0 3 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                  DRIVERS 0 1 0 0 0 1 0 3 1
                                       CD 0 0 0 0 0 1 0 1 0
@@ -49,8 +49,8 @@
                                     COST 0 0 0 0 0 1 0 1 1
                                     PAIN 0 0 0 0 0 1 0 1 1
                                     DELL 0 0 1 0 0 0 0 1 1
-                               DIMENSION 0 0 0 0 0 0 0 1 1
-                                   CABLE 0 0 0 0 0 1 0 1 0
+                               DIMENSION 0 0 0 0 0 0 0 1 0
+                                   CABLE 0 0 0 0 0 1 0 1 1
                                  BLASTER 0 0 0 0 0 0 0 0 0
                                       XP 0 0 0 0 0 0 0 1 1
                                     TRIP 0 0 0 0 0 1 0 1 1
@@ -64,7 +64,7 @@
                                  CHOICES 0 0 0 0 0 1 0 0 1
                                     MOST 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
-                                INTERNET 0 0 0 0 0 1 0 1 0
+                                INTERNET 0 0 0 0 0 1 0 1 1
                                    SETUP 0 0 0 0 0 0 0 0 0
                                  PROGRAM 0 1 0 0 0 1 0 2 1
                                     PAST 0 0 0 0 0 1 0 1 1
@@ -77,12 +77,12 @@
                                      WAY 1 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 0 0
                                     SUCH 0 0 0 0 0 0 1 2 1
-                                SOFTWARE 0 1 0 0 0 1 0 2 0
+                                SOFTWARE 0 1 0 0 0 1 0 2 1
                                  SERVICE 0 0 0 0 0 1 0 0 0
                                     MODE 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 0 1
                                      SP3 0 0 0 0 0 0 0 1 1
-                                    DATA 0 0 0 0 0 1 0 1 1
+                                    DATA 0 0 0 0 0 1 0 1 0
                                  DETAILS 0 0 0 0 0 1 0 1 1
                                    FILES 0 0 0 0 0 1 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 1 1
@@ -95,11 +95,11 @@
                                CONDITION 0 0 0 0 0 1 0 1 1
                                SITUATION 0 1 0 0 0 1 0 1 1
                                     LUCK 0 0 0 0 0 1 0 0 0
-                                  REPAIR 0 1 0 0 0 0 1 1 0
+                                  REPAIR 0 1 0 0 0 0 1 1 1
                                    MEDIA 0 1 0 0 0 1 0 1 1
                             INSTRUCTIONS 0 0 0 0 0 1 0 1 1
                                       RE 0 0 1 0 0 1 0 1 1
-                                   DISKS 0 0 0 0 0 1 0 1 0
+                                   DISKS 0 0 0 0 0 1 0 1 1
                                      WIN 0 0 0 0 0 1 0 0 0
                                 PRODUCTS 0 1 0 0 0 1 0 1 1
                                     APPS 0 0 0 0 0 0 0 2 1
@@ -112,7 +112,7 @@
                                     KEYS 0 0 0 0 0 1 0 1 1
                                      DOS 0 0 0 0 0 0 0 0 0
                                     CNET 0 0 0 0 0 0 0 0 1
-                                 STORAGE 0 0 0 0 0 0 0 0 1
+                                 STORAGE 0 0 0 0 0 0 0 0 0
                                PROCEDURE 0 1 0 0 0 1 0 1 1
                                   UBUNTU 0 0 0 0 0 0 0 1 1
                                  FAILURE 0 0 0 0 0 1 0 1 1
@@ -140,7 +140,7 @@
                                  PRESENT 1 0 0 0 0 0 0 0 1
                                        F 0 0 0 0 0 0 0 0 0
                                    100MB 0 0 0 0 0 0 0 2 1
-                                     ZIP 0 0 0 0 0 0 0 1 1
+                                     ZIP 0 0 0 0 0 0 0 1 0
                                 ATTEMPTS 0 0 0 0 0 1 0 1 1
                             REFORMATTING 0 0 0 0 0 0 0 0 0
                                 TOMORROW 0 0 0 6 0 1 0 0 1
@@ -152,7 +152,7 @@
                             DOWNLOAD.COM 0 0 0 0 0 0 0 1 1
                                  TOUCHES 0 0 0 0 0 1 0 0 0
                               COMPUTER.I 0 0 0 0 0 0 0 2 1
-                                     ARO 0 0 1 0 0 0 0 0 0
+                                     ARO 0 0 0 0 0 0 0 0 0
                                      FOE 0 0 0 0 0 1 0 1 1
                                    250MB 0 0 0 0 0 0 0 0 1
                                JUNK&QUOT 0 0 0 0 0 0 0 0 1

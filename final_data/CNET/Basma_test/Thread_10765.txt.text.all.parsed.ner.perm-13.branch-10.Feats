@@ -13,7 +13,7 @@
                                      BIT 0 0 0 0 0 1 0 1 1
                                    THESE 0 0 0 0 0 0 1 0 1
                                    CARDS 0 0 0 0 0 1 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 0
+                                  SYSTEM 0 1 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 0
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
@@ -22,7 +22,7 @@
                                    THOSE 0 0 0 0 0 0 1 1 1
                                    WEEKS 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 2 1
-                                   DRIVE 0 0 0 0 0 1 0 1 0
+                                   DRIVE 0 0 0 0 0 1 0 1 1
                                    YEARS 1 1 0 0 0 1 0 2 1
                                 PROBLEMS 0 0 0 0 0 1 0 1 1
                                      NOW 0 0 0 0 0 0 0 0 1
@@ -66,7 +66,7 @@
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                              PERFORMANCE 1 1 0 0 0 1 0 2 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
-                                   PRICE 0 1 0 0 0 1 0 2 0
+                                   PRICE 0 1 0 0 0 1 0 2 1
                                    BRAND 0 0 0 0 0 1 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 0 0
                                     LESS 0 0 0 7 0 0 0 1 1
@@ -112,8 +112,8 @@
                                      BOX 0 0 0 0 0 1 0 1 1
                                  QUALITY 0 0 0 0 0 1 0 0 0
                                      WAY 1 0 0 0 0 1 0 1 1
-                                    HOME 0 0 0 0 0 1 0 1 1
-                                  OFFICE 0 0 0 0 0 1 0 1 0
+                                    HOME 0 0 0 0 0 1 0 1 0
+                                  OFFICE 0 0 0 0 0 1 0 1 1
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                     KIDS 0 0 0 0 0 1 0 0 0
@@ -131,7 +131,7 @@
                                    STORE 0 0 0 0 0 1 0 1 1
                                  CHANNEL 0 0 0 0 0 1 0 0 0
                                     MIND 0 0 0 0 0 1 0 0 1
-                                     CAR 0 1 0 0 0 1 0 1 0
+                                     CAR 0 1 0 0 0 1 0 1 1
                                   CUSTOM 0 0 0 0 0 0 0 0 0
                                      DUO 0 0 0 0 0 1 0 0 0
                                      PCS 0 0 0 0 0 1 0 1 0
@@ -168,21 +168,6 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 1 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                                WAL-MART 0 0 1 0 0 1 0 0 0
-                               MID-TOWER 0 0 0 0 0 0 0 0 0
-                                   SHEET 0 0 0 0 0 1 0 0 0
-                                  FILTER 0 0 0 0 0 0 0 0 0
-                                   ORION 0 0 0 0 0 0 0 0 0
-                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
-                                  CONROE 0 0 0 0 0 0 0 0 0
-                                    TUBE 0 0 0 0 0 1 0 0 0
-                                  ARCTIC 0 0 1 0 0 0 0 0 0
-                                  SILVER 0 0 0 0 0 1 0 0 0
-                                     KIT 0 0 0 0 0 1 0 0 0
-                                     GTS 0 0 0 0 0 0 0 0 0
-                                   GAMER 0 0 0 0 0 0 0 0 0
-                                    10MS 0 0 0 0 0 0 0 0 0
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                     BANG 0 0 0 0 0 1 0 0 0
@@ -203,6 +188,22 @@
                                     BANK 0 1 0 0 0 1 0 0 0
                                  BALANCE 0 0 0 0 0 1 0 1 1
                                 FINDINGS 0 0 0 0 0 1 0 1 1
+                               EVOLUTION 0 0 0 0 0 1 0 1 1
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                                WAL-MART 0 0 1 0 0 1 0 0 0
+                               MID-TOWER 0 0 0 0 0 0 0 0 0
+                                   SHEET 0 0 0 0 0 1 0 0 0
+                                  FILTER 0 0 0 0 0 0 0 0 0
+                                   ORION 0 0 0 0 0 0 0 0 0
+                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
+                                  CONROE 0 0 0 0 0 0 0 0 0
+                                    TUBE 0 0 0 0 0 1 0 0 0
+                                  ARCTIC 0 0 1 0 0 0 0 0 0
+                                  SILVER 0 0 0 0 0 1 0 0 0
+                                     KIT 0 0 0 0 0 1 0 0 0
+                                     GTS 0 0 0 0 0 0 0 0 0
+                                   GAMER 0 0 0 0 0 0 0 0 0
+                                    10MS 0 0 0 0 0 0 0 0 0
                                       TM 0 0 0 0 0 0 0 0 1
                                    3200+ 0 0 0 0 0 0 0 1 1
                                 GREATEST 0 0 0 0 0 0 1 1 1
@@ -218,4 +219,3 @@
                                     FALL 1 1 0 0 0 1 0 0 0
                                   SHORTS 0 0 0 0 0 1 0 1 1
                                      YRS 0 0 0 0 0 0 0 1 1
-                               EVOLUTION 0 0 0 0 0 1 0 1 1

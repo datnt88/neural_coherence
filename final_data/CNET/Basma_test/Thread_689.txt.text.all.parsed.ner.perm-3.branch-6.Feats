@@ -44,7 +44,7 @@
                                    TIMES 0 1 0 0 0 1 0 1 1
                                      FIX 0 0 0 0 0 0 0 1 1
                                    BLACK 0 0 0 0 0 1 0 1 1
-                                   TODAY 0 0 0 0 0 1 0 0 0
+                                   TODAY 0 0 0 6 0 1 0 0 1
                                     POST 0 0 0 0 0 1 0 1 1
                                  SUPPORT 0 0 0 0 0 1 0 2 1
                                  CHOICES 0 0 0 0 0 1 0 1 1
@@ -59,7 +59,7 @@
                                     HELP 0 0 0 0 0 1 0 1 1
                                 RESPONSE 0 0 0 0 0 1 0 1 1
                                  PRODUCT 0 1 0 0 0 1 0 0 0
-                                   EPSON 0 0 1 0 0 0 0 2 1
+                                   EPSON 0 0 1 0 0 0 0 2 0
                                 PRINTERS 0 0 0 0 0 1 0 1 1
                                  PRINTER 0 0 0 0 0 0 0 3 1
                                      JOB 0 1 0 0 0 1 0 1 1
@@ -77,7 +77,7 @@
                                   PRICES 1 1 0 0 0 1 0 1 1
                             MANUFACTURER 0 0 0 0 0 1 0 1 1
                                    OFFER 0 1 0 0 0 1 0 1 1
-                                CUSTOMER 0 0 0 0 0 1 0 1 1
+                                CUSTOMER 0 0 0 0 0 1 0 1 0
                                   MODELS 0 0 0 0 0 1 0 1 1
                                SITUATION 0 1 0 0 0 1 0 1 1
                                   SERIES 0 0 0 0 0 1 0 1 1
@@ -99,12 +99,12 @@
                                     KEYS 0 0 0 0 0 1 0 1 1
                                   VOLUME 0 0 0 0 0 1 0 1 1
                                 REFILLED 0 0 0 0 0 0 0 0 0
-                                     INK 0 0 0 0 0 1 0 0 1
-                               CARTRIDGE 0 0 0 0 0 0 0 1 0
+                                     INK 0 0 0 0 0 1 0 0 0
+                               CARTRIDGE 0 0 0 0 0 0 0 1 1
                                    SHEET 0 0 0 0 0 1 0 1 1
                                    COLOR 0 0 0 0 0 1 0 1 1
                                   COLORS 0 0 0 0 0 1 0 1 1
-                                  E-MAIL 0 0 0 0 0 1 0 1 1
+                                  E-MAIL 0 0 0 0 0 1 0 1 0
                              RELIABILITY 0 0 0 0 0 0 0 1 1
                                   REVIEW 0 0 0 0 0 1 0 1 1
                                    BUYER 0 1 0 0 0 1 0 1 1
@@ -143,10 +143,6 @@
                                      2-- 0 0 0 0 0 0 0 1 1
                                    MP530 0 0 0 0 0 0 0 1 1
                                   CX9400 0 0 0 0 0 0 0 1 1
-                                    R260 0 0 0 0 0 0 0 1 1
-                               CARTRAGES 0 0 0 0 0 0 0 1 1
-                              EXPERIANCE 0 0 0 0 0 0 0 1 1
-                               TECH&QUOT 0 0 0 0 0 0 0 1 1
                                TELEPHONE 0 0 0 0 0 1 0 1 1
                                     T068 0 0 0 0 0 0 0 0 1
                                    19.99 0 0 0 0 0 0 0 1 1
@@ -163,3 +159,7 @@
                                   AGENCY 0 1 0 0 0 1 0 1 1
                                    ESPON 0 0 0 0 0 0 0 1 1
                                   CX6000 0 0 0 0 0 0 0 1 1
+                                    R260 0 0 0 0 0 0 0 1 1
+                               CARTRAGES 0 0 0 0 0 0 0 1 1
+                              EXPERIANCE 0 0 0 0 0 0 0 1 1
+                               TECH&QUOT 0 0 0 0 0 0 0 1 1

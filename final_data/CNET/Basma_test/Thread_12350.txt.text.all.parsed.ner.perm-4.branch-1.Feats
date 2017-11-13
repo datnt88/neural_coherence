@@ -11,7 +11,7 @@
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
                                      IDE 0 0 0 0 0 0 0 1 1
-                                  MAXTOR 0 0 0 0 0 0 0 2 1
+                                  MAXTOR 0 0 1 0 0 0 0 2 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 1 1
@@ -55,14 +55,14 @@
                                       2. 0 0 0 0 0 0 0 1 1
                                    CABLE 0 0 0 0 0 1 0 1 1
                                      DVD 0 0 0 0 0 1 0 1 1
-                                 SEAGATE 0 0 1 0 0 0 0 1 0
+                                 SEAGATE 0 0 1 0 0 0 0 1 1
                                      KEY 0 0 0 0 0 1 0 1 1
                                    ISSUE 0 1 0 0 0 1 0 1 1
                                    PLACE 0 0 0 0 0 1 0 1 1
                                 EXTERNAL 0 0 0 0 0 0 0 1 1
-                                   SETUP 0 0 0 0 0 0 0 1 1
+                                   SETUP 0 0 0 0 0 0 0 1 0
                                  PROGRAM 0 1 0 0 0 1 0 1 1
-                                    PLUG 0 0 0 0 0 0 1 2 0
+                                    PLUG 0 0 0 0 0 0 1 2 1
                                  NETWORK 0 0 0 0 0 1 0 0 0
                                     PORT 0 0 0 0 0 1 0 1 1
                             INSTALLATION 0 0 0 0 0 1 0 1 1
@@ -73,10 +73,10 @@
                                   ACCESS 0 0 0 0 0 1 0 1 0
                                 SOFTWARE 0 1 0 0 0 1 0 1 0
                                     MODE 0 0 0 0 0 1 0 1 1
-                                   SLAVE 0 0 0 0 0 0 0 1 0
+                                   SLAVE 0 0 0 0 0 0 0 1 1
                                   MASTER 0 0 0 0 0 1 0 1 1
                                     DATA 0 0 0 0 0 1 0 1 1
-                                   FILES 0 0 0 0 0 1 0 1 1
+                                   FILES 0 0 0 0 0 1 0 1 0
                                   BACKUP 0 0 0 0 0 0 0 0 1
                                   BRANDS 0 1 0 0 0 1 0 1 1
                                      CDS 0 0 0 0 0 1 0 0 1
@@ -90,7 +90,7 @@
                                     MASS 0 0 0 0 0 1 0 0 0
                                       4. 0 0 0 0 0 0 0 0 0
                               ENCLOSURES 0 0 0 0 0 0 0 1 1
-                                  SCREWS 0 0 0 0 0 0 0 1 0
+                                  SCREWS 0 0 0 0 0 0 0 1 1
                                    SHOWS 0 0 0 0 0 1 0 1 1
                                   CABLES 0 0 0 0 0 1 0 1 1
                                     LUCK 0 0 0 0 0 1 0 1 1
@@ -115,9 +115,9 @@
                                INTERFACE 0 0 1 0 0 1 0 0 1
                                   POSTER 0 0 0 0 0 0 0 1 1
                                      CUT 0 1 0 0 0 1 0 0 0
+                                    SIZE 1 0 0 0 0 1 0 1 1
                                  STORIES 0 0 0 0 0 1 0 1 1
                                       WD 0 0 0 0 0 0 0 0 1
-                                    SIZE 1 0 0 0 0 1 0 1 1
                                    COLOR 0 0 0 0 0 1 0 0 0
                                  FAILURE 0 0 0 0 0 1 0 0 1
                                     E.G. 0 0 1 0 0 0 0 0 1
@@ -142,6 +142,15 @@
                                      PIX 0 0 0 0 0 0 0 1 1
                                   ASSIDE 0 0 0 0 0 0 0 0 0
                            ACCESSIBILITY 0 0 0 0 0 0 1 1 1
+                                    HDDS 0 0 0 0 0 0 0 1 1
+                                   TAPES 0 1 0 0 0 1 0 1 1
+                                  SPORTS 0 0 0 0 0 1 0 0 0
+                              CONTAINERS 0 1 0 0 0 1 0 1 1
+                                MEMORIES 0 0 0 0 0 1 0 1 1
+                                    MACS 0 0 0 0 0 1 0 0 1
+                                EXTRENAL 0 0 0 0 0 0 0 0 0
+                                   CANAL 0 0 0 0 0 1 0 0 0
+                                   LEVEE 0 0 0 0 0 0 0 1 1
                               TOUCH&QUOT 0 0 0 0 0 0 0 1 1
                                  BUNDLES 0 0 0 0 0 1 0 0 0
                                     RULE 0 1 0 0 0 1 0 1 1
@@ -152,10 +161,8 @@
                                        F 0 0 1 0 0 0 0 0 0
                                EXTERNAAL 0 0 0 0 0 0 0 1 1
                            COMPATABILITY 0 0 0 0 0 0 0 0 0
-                                    MACS 0 0 0 0 0 1 0 0 1
                                     .MAC 0 0 0 0 0 0 0 1 1
                                       YR 0 0 0 0 0 0 0 1 1
-                                    HDDS 0 0 0 0 0 0 0 1 1
                                     WARR 0 0 0 0 0 0 0 1 1
                                   VENUES 0 0 0 0 0 1 0 1 1
                                DISCOUNTS 0 0 0 0 0 1 0 1 1
@@ -163,10 +170,3 @@
                                  ROOMATE 0 0 0 0 0 0 0 1 1
                                     MALL 0 0 0 0 0 0 0 1 1
                                ABSORBERS 0 0 0 0 0 0 0 1 1
-                                   TAPES 0 1 0 0 0 1 0 1 1
-                                  SPORTS 0 0 0 0 0 1 0 0 0
-                              CONTAINERS 0 1 0 0 0 1 0 1 1
-                                MEMORIES 0 0 0 0 0 1 0 1 1
-                                EXTRENAL 0 0 0 0 0 0 0 0 0
-                                   CANAL 0 0 0 0 0 1 0 0 0
-                                   LEVEE 0 0 0 0 0 0 0 1 1

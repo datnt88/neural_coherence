@@ -11,13 +11,13 @@
                                    SPEED 0 0 0 0 0 1 0 1 1
                                     FAST 0 0 0 0 0 0 0 0 0
                                    THESE 0 0 0 0 0 0 1 0 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 1
+                                  SYSTEM 0 1 0 0 0 1 0 1 0
                                    INPUT 0 0 0 0 0 0 1 0 0
                                 HARDWARE 0 0 0 0 0 0 0 0 0
                                   DRIVES 0 0 0 0 0 1 0 0 0
                                    POWER 0 1 0 0 0 1 0 0 0
                                      IDE 0 0 0 0 0 0 0 0 0
-                              CONTROLLER 0 0 0 0 0 1 0 2 1
+                              CONTROLLER 0 0 0 0 0 1 0 2 0
                                     SELF 0 0 0 0 0 1 0 0 0
                                     40GB 0 0 0 0 0 0 0 1 1
                                   ERRORS 0 1 0 0 0 1 0 0 0
@@ -39,7 +39,7 @@
                                    THERE 0 0 0 0 0 0 1 0 1
                                   STICKS 0 0 0 0 0 1 0 1 1
                                      RAM 0 0 1 0 0 1 0 1 1
-                                     PCI 0 0 0 0 0 0 0 2 0
+                                     PCI 0 0 0 0 0 0 0 2 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
                                      1GB 0 0 0 0 0 0 0 1 1
                                      HDD 0 0 0 0 0 0 0 1 1
@@ -54,11 +54,11 @@
                                      III 0 0 1 0 0 1 0 0 0
                                       V4 0 0 0 0 0 0 0 1 1
                                  CHIPSET 0 0 0 0 0 0 0 0 0
-                                 VERSION 1 0 0 0 0 1 0 1 0
+                                 VERSION 1 0 0 0 0 1 0 1 1
                                    PARTS 1 0 0 0 0 1 0 1 1
                                     GAME 0 0 0 0 0 1 0 0 0
                                PROCESSOR 0 0 0 0 0 0 0 1 0
-                                 PENTIUM 0 0 0 0 0 0 0 3 0
+                                 PENTIUM 0 0 0 0 0 0 0 3 1
                                       2. 0 0 0 0 0 0 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 0 1
                               MANAGEMENT 0 1 0 0 0 1 0 0 0
@@ -82,26 +82,26 @@
                                     MODE 0 0 0 0 0 1 0 1 1
                                 EXPLORER 0 0 0 0 0 1 0 0 0
                                   LETTER 0 0 0 0 0 1 0 0 0
-                                  MASTER 0 0 0 0 0 1 0 1 0
+                                  MASTER 0 0 0 0 0 1 0 1 1
                                  DEFAULT 0 0 0 0 0 1 0 0 0
-                                   BOARD 0 1 0 0 0 1 0 1 0
+                                   BOARD 0 1 0 0 0 1 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                     NONE 0 0 0 0 0 1 0 0 0
                                SUPPORTED 0 0 0 0 0 0 0 0 0
-                            MANUFACTURER 0 0 0 0 0 1 0 3 0
+                            MANUFACTURER 0 0 0 0 0 1 0 3 1
                                     NAME 0 0 0 0 0 1 0 1 1
                                     INFO 0 0 0 0 0 0 0 1 1
                                   MTRBD. 0 0 0 0 0 0 0 1 1
-                                  VENDOR 0 0 0 0 0 1 0 3 0
+                                  VENDOR 0 0 0 0 0 1 0 3 1
                                  JUMPERS 0 0 0 0 0 0 0 0 0
                                     LUCK 0 0 0 0 0 1 0 1 1
-                                REVISION 0 0 0 0 0 1 0 3 1
+                                REVISION 0 0 0 0 0 1 0 3 0
                                   BOARDS 0 0 0 0 0 1 0 1 1
-                                    TEST 0 1 0 0 0 1 0 2 1
+                                    TEST 0 1 0 0 0 1 0 2 0
                                   SERIAL 0 0 0 0 0 0 0 0 0
                                        G 0 0 1 0 0 1 0 0 0
                                   OTHERS 0 0 0 0 0 1 0 1 1
-                            CAPABILITIES 0 0 0 0 0 1 0 3 0
+                            CAPABILITIES 0 0 0 0 0 1 0 3 1
                                  CURRENT 0 0 0 0 0 0 0 0 0
                                  SPECIAL 0 0 0 0 0 1 0 0 0
                                      SUB 0 0 0 0 0 0 0 0 0
@@ -112,14 +112,14 @@
                                   VOLUME 0 0 0 0 0 1 0 0 0
                                    WORDS 0 1 0 0 0 1 0 1 1
                                     PACK 0 0 0 0 0 0 0 0 0
-                                       R 0 0 0 0 0 0 0 0 1
+                                       R 0 0 0 0 0 0 0 0 0
                                  STORAGE 0 0 0 0 0 0 0 0 0
                                INTERFACE 0 0 0 0 0 1 0 0 0
                                      SIR 0 0 1 0 0 1 0 0 0
-                                SUPPORTS 0 0 0 0 0 0 0 0 0
                                      GIG 0 0 0 0 0 0 0 1 1
                                     SIZE 1 0 0 0 0 1 0 0 0
                                     BANK 0 1 0 0 0 1 0 0 0
+                                SUPPORTS 0 0 0 0 0 0 0 0 0
                                 PROBLEM. 0 0 0 0 0 0 0 1 1
                              EXPLANATION 0 0 0 0 0 1 0 1 1
                                     HOST 0 0 0 0 0 1 0 1 0
@@ -132,10 +132,10 @@
                                COMPONETS 0 0 0 0 0 0 0 1 1
                                   MOTHER 0 0 0 0 0 1 0 0 0
                                  MANUALS 0 0 0 0 0 1 0 1 1
-                                     NEC 0 1 1 0 0 1 0 1 1
+                                     NEC 0 1 0 0 0 1 0 1 0
                                INSPECTOR 0 0 0 0 0 1 0 0 0
                                 LANGUAGE 0 0 0 0 0 1 0 0 0
-                                    LABS 0 0 0 0 0 1 0 1 0
+                                    LABS 0 0 0 0 0 1 0 1 1
                                    AWARD 0 0 0 0 0 1 0 0 0
                                      PGM 0 0 1 0 0 0 0 1 1
                                     31GB 0 0 0 0 0 0 0 1 1
@@ -157,7 +157,7 @@
                              CORPORATION 0 1 0 0 0 1 0 0 0
                                 SUBCLASS 0 0 0 0 0 0 0 0 0
                                BUSMASTER 0 0 0 0 0 0 0 0 0
-                                  STATUS 0 0 0 0 0 1 0 2 1
+                                  STATUS 0 0 0 0 0 1 0 2 0
                             BACK-TO-BACK 0 0 0 0 0 0 0 0 0
                                   TIMING 0 0 0 0 0 1 0 1 0
                                   HEADER 0 0 0 0 0 0 0 0 0

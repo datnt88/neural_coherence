@@ -1,4 +1,4 @@
-                                       $ 0 0 0 0 0 0 1 1 1
+                                       $ 0 0 0 7 0 0 1 1 1
                                     TIME 1 1 0 0 0 1 0 1 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                     THAT 0 0 0 0 0 0 0 1 1
@@ -16,18 +16,18 @@
                                    THESE 0 0 0 0 0 0 1 0 1
                                    CARDS 0 0 0 0 0 1 0 2 1
                                       MB 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 1
+                                  SYSTEM 0 1 0 0 0 1 0 1 0
                                     YEAR 0 1 0 6 0 1 0 1 1
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                     MOBO 0 0 0 0 0 0 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 1
+                                COMPUTER 0 1 0 0 0 1 0 3 0
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 1 0
                                   SUPPLY 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 0 0
                                    YEARS 1 1 0 6 0 1 0 1 1
-                                 MACHINE 0 1 0 0 0 1 0 1 1
+                                 MACHINE 0 1 0 0 0 1 0 1 0
                                   MONTHS 1 1 0 0 0 1 0 1 1
                                     BIOS 0 0 0 0 0 0 0 1 1
                                DIFFERENT 0 0 0 0 0 0 0 1 1
@@ -39,7 +39,7 @@
                                      ANY 0 0 0 0 0 0 1 0 1
                                      RAM 0 0 1 0 0 1 0 3 1
                                      MID 0 0 1 0 0 0 0 1 1
-                                    CASE 0 1 0 0 0 1 0 2 0
+                                    CASE 0 1 0 0 0 1 0 2 1
                                     SIDE 1 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
@@ -62,10 +62,10 @@
                                      CPU 0 0 0 0 0 0 0 1 1
                                     SATA 0 0 0 0 0 0 0 0 0
                                      GPU 0 0 0 0 0 0 0 1 1
-                                    COPY 0 0 0 0 0 1 0 1 1
+                                    COPY 0 0 0 0 0 1 0 1 0
                                     CORE 0 0 0 0 0 1 0 0 0
                              PERFORMANCE 1 1 0 0 0 1 0 1 1
-                                    PART 1 0 0 0 0 1 0 1 1
+                                    PART 1 0 0 0 0 1 0 1 0
                                    TOWER 0 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 2 1
                                   CHOICE 0 0 0 0 0 1 0 1 0
@@ -73,7 +73,7 @@
                                    PARTS 1 0 0 0 0 1 0 1 1
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 1 1
                                  THREADS 0 0 0 0 0 1 0 1 1
-                                    GAME 0 0 0 0 0 1 0 1 1
+                                    GAME 0 0 0 0 0 1 0 1 0
                                     COST 0 0 0 0 0 1 0 1 1
                                        D 0 0 1 0 0 1 0 1 0
                                   ONLINE 0 0 0 0 0 1 0 1 1
@@ -86,7 +86,7 @@
                                    SOUND 0 0 0 0 0 1 0 0 0
                                  SEAGATE 0 0 1 0 0 0 0 0 0
                                    TODAY 0 0 0 6 0 1 0 0 1
-                                  ATHLON 0 0 0 0 0 0 0 1 1
+                                  ATHLON 0 0 0 0 0 0 0 1 0
                                      LCD 0 0 0 0 0 0 0 0 1
                                   AMOUNT 0 0 0 0 0 1 0 1 1
                                     POST 0 0 0 0 0 1 0 1 1
@@ -131,7 +131,7 @@
                                  EDITING 0 0 0 0 0 1 0 1 1
                                     SONY 0 1 1 0 0 1 0 0 0
                                    VISTA 0 0 0 0 0 0 0 0 0
-                                       X 0 0 1 0 0 1 0 1 0
+                                       X 0 0 1 0 0 1 0 1 1
                                    KNOCK 0 0 0 0 0 0 0 0 0
                                  MADNESS 0 0 0 0 0 1 0 1 1
                              SUGGESTIONS 0 0 0 0 0 1 0 1 1
@@ -150,7 +150,6 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                     BANG 0 0 0 0 0 1 0 0 0
@@ -182,6 +181,7 @@
                                    ALTHO 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   STORMS 0 0 0 0 0 1 0 0 1
+                                     10. 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 0 1
                                 GEFORCE4 0 0 0 0 0 0 0 0 0
                                       MX 0 0 1 0 0 0 0 0 0

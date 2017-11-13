@@ -7,20 +7,20 @@
                                      ALL 0 0 0 0 0 0 0 1 1
                                     SOME 0 0 0 0 0 0 1 1 1
                                    ORDER 0 0 0 0 0 1 0 1 1
-                                   VIDEO 0 1 0 0 0 1 0 3 1
-                                    CARD 0 1 0 0 0 1 0 2 0
+                                   VIDEO 0 1 0 0 0 1 0 3 0
+                                    CARD 0 1 0 0 0 1 0 2 1
                                       OC 0 0 1 0 0 0 0 1 1
-                                  THANKS 0 0 0 0 0 1 0 0 0
+                                  THANKS 0 0 0 0 0 1 0 0 1
                                   ANSWER 0 0 0 0 0 1 0 1 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
                                    SPEED 0 0 0 0 0 1 0 1 1
                                   ENOUGH 0 0 0 0 0 1 0 1 1
                                      BIT 0 0 0 0 0 1 0 2 1
-                                   CARDS 0 0 0 0 0 1 0 1 1
+                                   CARDS 0 0 0 0 0 1 0 1 0
                                       MB 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                      NEW 0 0 0 0 0 1 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
@@ -41,7 +41,7 @@
                                       PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                   AND/OR 0 0 0 0 0 0 0 0 0
-                                ANYTHING 0 0 0 0 0 1 0 0 1
+                                ANYTHING 0 0 0 0 0 1 0 0 0
                                    &QUOT 0 0 0 0 0 0 0 3 1
                                     HEAT 0 0 0 0 0 1 0 0 0
                                    THERE 0 0 0 0 0 0 1 0 1
@@ -51,7 +51,7 @@
                                      AMD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 2 1
                                      RAM 0 0 1 0 0 1 0 2 1
-                                    CASE 0 1 0 0 0 1 0 1 1
+                                    CASE 0 1 0 0 0 1 0 1 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
@@ -59,11 +59,11 @@
                                      LOT 0 0 0 0 0 1 0 2 1
                                     ASUS 0 0 1 0 0 0 0 0 1
                                    MODEM 0 0 0 0 0 1 0 1 0
-                                    DAYS 0 0 0 6 0 1 0 1 1
+                                    DAYS 0 0 0 0 0 1 0 1 1
                                     ETC. 0 0 0 0 0 0 0 1 1
                                      TOY 0 0 0 0 0 1 0 1 1
-                                    WORK 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 0 0
+                                    WORK 0 0 0 0 0 1 0 1 0
+                                      HP 0 0 1 0 0 0 0 0 1
                                      FUN 0 0 0 0 0 1 0 0 1
                                   BUDGET 0 1 0 0 0 1 0 1 1
                                     MANY 0 0 0 0 0 0 1 1 1
@@ -89,14 +89,14 @@
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 1 0
                                    TIMES 0 1 0 0 0 1 0 1 1
-                               PROCESSOR 0 0 0 0 0 0 0 2 1
+                               PROCESSOR 0 0 0 0 0 0 0 2 0
                                      PC. 0 0 0 0 0 0 0 1 1
                                      FAN 0 0 0 0 0 1 0 2 1
                                      BUY 0 0 0 0 0 0 0 0 0
                               PROCESSORS 0 0 0 0 0 1 0 0 1
                                     COMP 0 0 0 0 0 0 0 2 1
                                    FIRST 0 1 0 0 0 1 0 1 1
-                                  ONLINE 0 0 0 0 0 1 0 1 1
+                                  ONLINE 0 0 0 0 0 1 0 1 0
                            COMPATIBILITY 0 0 0 0 0 0 0 0 1
                                  REGARDS 0 0 0 0 0 0 0 1 1
                                     DELL 0 0 1 0 0 0 0 1 1
@@ -105,7 +105,7 @@
                                ALIENWARE 0 0 0 0 0 0 0 0 0
                               COMPONENTS 0 0 0 0 0 1 0 2 1
                                      DVD 0 0 0 0 0 1 0 0 0
-                                   SOUND 0 0 0 0 0 1 0 2 1
+                                   SOUND 0 0 0 0 0 1 0 2 0
                                    THATS 0 0 0 0 0 0 0 0 1
                                    TODAY 0 0 0 6 0 1 0 0 1
                                      KEY 0 0 0 0 0 1 0 1 1
@@ -208,10 +208,10 @@
                                   TINKER 0 0 1 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
                                  FRIENDS 0 0 0 0 0 1 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                   64-BIT 0 0 0 0 0 0 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
                                 ARTICLES 0 0 0 0 0 1 0 1 1
@@ -245,7 +245,7 @@
                                   DECADE 0 0 0 0 0 1 0 1 1
                                      ADS 0 0 0 0 0 1 0 1 1
                                 HOMEWORK 0 0 0 0 0 1 0 1 1
-                                    BOOK 0 0 0 0 0 1 0 1 1
+                                    BOOK 0 0 0 0 0 1 0 1 0
                                    CERTS 0 0 1 0 0 0 0 1 1
                                 CLEARING 0 0 0 0 0 0 0 0 0
                                   LIKING 0 0 0 0 0 0 0 1 1
@@ -286,9 +286,6 @@
                                    ROADS 0 0 0 0 0 1 0 1 1
                                W/500WATT 0 0 0 0 0 0 0 0 0
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                 PROFITS 0 0 0 0 0 1 0 1 1
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                  FERVOR 0 0 0 0 0 0 0 1 1
                               OURS.&QUOT 0 0 0 0 0 0 0 0 1
                                  MUCKING 0 0 0 0 0 0 0 1 1
                                       A+ 0 0 0 0 0 0 0 1 1
@@ -296,6 +293,9 @@
                               STITE&QUOT 0 0 0 0 0 0 0 0 1
                                RESELLERS 0 0 0 0 0 0 0 1 1
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
+                                 PROFITS 0 0 0 0 0 1 0 1 1
+                                    9.99 0 0 0 7 0 0 0 1 1
+                                  FERVOR 0 0 0 0 0 0 0 1 1
                                    STITE 0 0 0 0 0 0 0 2 1
                                  EREEDKS 0 0 0 0 0 0 0 0 1
                                   HE/SHE 0 0 0 0 0 0 0 0 1

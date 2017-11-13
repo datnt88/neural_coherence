@@ -3,10 +3,10 @@
                                      ALL 0 0 0 0 0 0 0 1 1
                                     SOME 0 0 0 0 0 0 1 0 1
                                    VIDEO 0 1 0 0 0 1 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 0
+                                  SYSTEM 0 1 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 2 1
                                     DISK 0 0 0 0 0 1 0 1 1
-                                   MUSIC 0 0 0 0 0 1 0 2 0
+                                   MUSIC 0 0 0 0 0 1 0 2 1
                                  NOTHING 0 0 0 0 0 1 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                                       PC 0 0 0 0 0 1 0 1 1
@@ -33,7 +33,7 @@
                                  UPDATES 0 0 0 0 0 0 0 1 1
                                     MOST 0 0 0 0 0 1 0 0 1
                                  SETTING 0 0 0 0 0 1 0 1 1
-                                INTERNET 0 0 1 0 0 1 0 0 0
+                                INTERNET 0 0 0 0 0 1 0 0 0
                                  PROGRAM 0 1 0 0 0 1 0 1 1
                                    CLICK 0 0 0 0 0 0 1 0 0
                                PARTITION 0 0 0 0 0 0 1 1 1
@@ -52,7 +52,7 @@
                                    STUFF 0 0 0 0 0 1 0 1 1
                                     INFO 0 0 0 0 0 0 0 1 1
                                       3. 0 0 0 0 0 0 0 0 1
-                                PROGRAMS 0 1 0 0 0 1 0 1 0
+                                PROGRAMS 0 1 0 0 0 1 0 1 1
                                        % 1 1 0 4 0 0 0 1 1
                                    USAGE 0 0 0 0 0 0 0 1 1
                                    SPACE 0 0 0 0 0 1 0 2 1
@@ -67,8 +67,8 @@
                                      SP2 0 0 0 0 0 0 0 1 1
                                    TOOLS 0 0 0 0 0 1 0 1 1
                                   DELETE 0 0 0 0 0 0 0 0 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                                     SIZE 1 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                                  SCANNER 0 0 0 0 0 0 0 0 1
                                    HOURS 0 0 0 0 0 1 0 1 1
                                    PANEL 0 0 0 0 0 1 0 1 1
@@ -79,10 +79,8 @@
                              ACCESSORIES 0 0 0 0 0 0 0 0 1
                                     ROOT 0 0 0 0 0 0 0 0 0
                                   DIALUP 0 0 0 0 0 0 0 0 1
-                                     BIN 0 0 0 0 0 0 1 1 1
-                                   SHIFT 0 0 0 0 0 1 0 0 0
-                                  DEFRAG 0 0 0 0 0 0 0 1 0
                                DISKCLEAN 0 0 0 0 0 0 0 0 0
+                                  DEFRAG 0 0 0 0 0 0 0 1 0
                                GIGABYTES 0 0 0 0 0 0 0 1 1
                                  SEQUOIA 0 0 0 0 0 0 0 1 1
                                     HOGS 0 0 0 0 0 0 0 1 1
@@ -91,3 +89,5 @@
                                    BIRDS 0 0 0 0 0 1 0 1 1
                                    STONE 0 0 0 0 0 1 0 1 1
                                    266MB 0 0 0 0 0 0 0 0 0
+                                     BIN 0 0 0 0 0 0 1 1 1
+                                   SHIFT 0 0 0 0 0 1 0 0 0

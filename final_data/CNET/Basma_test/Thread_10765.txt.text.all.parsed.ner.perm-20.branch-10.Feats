@@ -20,7 +20,7 @@
                                   SUPPLY 0 0 0 0 0 1 0 2 1
                                     SELF 0 0 0 0 0 1 0 1 1
                                    THOSE 0 0 0 0 0 0 1 1 1
-                                     ONE 0 0 0 0 0 1 0 3 1
+                                     ONE 0 0 0 0 0 1 0 3 0
                                    DRIVE 0 0 0 0 0 1 0 0 0
                                    YEARS 1 1 0 0 0 1 0 1 1
                                   MONTHS 1 1 0 0 0 1 0 1 1
@@ -29,7 +29,7 @@
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
                                       PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
-                                       S 0 0 0 0 0 0 0 0 1
+                                       S 0 0 1 0 0 0 0 0 0
                                      PSU 0 0 0 0 0 0 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                      ANY 0 0 0 0 0 0 1 0 1
@@ -53,9 +53,9 @@
                                      OWN 0 0 0 0 0 0 1 1 1
                                    INTEL 0 0 1 0 0 1 0 0 0
                                     SATA 0 0 0 0 0 0 0 0 0
-                                    COPY 0 0 0 0 0 1 0 1 1
+                                    COPY 0 0 0 0 0 1 0 1 0
                                     CORE 0 0 0 0 0 1 0 0 0
-                                GRAPHICS 0 0 0 0 0 1 0 1 1
+                                GRAPHICS 0 0 0 0 0 1 0 1 0
                                     PART 1 0 0 0 0 1 0 1 1
                                    TOWER 0 0 0 0 0 1 0 1 1
                                    PRICE 0 1 0 0 0 1 0 1 1
@@ -120,11 +120,11 @@
                                     NAME 0 0 0 0 0 1 0 0 0
                               WARRANTIES 0 0 0 0 0 0 0 0 0
                                  REBATES 0 0 0 0 0 0 0 1 1
-                                     &GT 0 0 1 0 0 0 0 1 1
+                                     &GT 0 0 0 0 0 0 0 1 1
                                    STORE 0 0 0 0 0 1 0 1 1
                                      CAR 0 1 0 0 0 1 0 1 1
                                   FORUMS 0 0 0 0 0 1 0 0 1
-                            MOTHERBOARDS 0 0 0 0 0 0 0 1 0
+                            MOTHERBOARDS 0 0 0 0 0 0 0 1 1
                                      PCS 0 0 0 0 0 1 0 0 0
                                  GATEWAY 0 0 0 0 0 0 0 1 1
                                     SONY 0 1 1 0 0 1 0 0 0
@@ -144,14 +144,11 @@
                                  WALMART 0 0 1 0 0 0 0 0 1
                                   500BUX 0 0 0 0 0 0 0 0 1
                                    COSTS 0 0 0 0 0 1 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                 STORIES 0 0 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
                            EXPANDIBILITY 0 0 0 0 0 0 0 1 1
                                     2HRS 0 0 0 0 0 0 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
                                HOMEBUILT 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                 FRIENDS. 0 0 0 0 0 0 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
                                    BELLS 0 0 0 0 0 1 0 0 0
@@ -167,6 +164,9 @@
                                     SIZE 1 0 0 0 0 1 0 1 1
                             REQUIREMENTS 0 0 0 0 0 1 0 1 1
                                    ALTHO 0 0 0 0 0 0 0 1 1
+                                     10. 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                 STORIES 0 0 0 0 0 1 0 1 1
                          TIGERDIRECT.COM 0 0 1 0 0 0 0 0 1
                               EQUIVALENT 0 0 0 0 0 0 0 0 0
                               MOTORCYCLE 0 0 0 0 0 0 1 0 0

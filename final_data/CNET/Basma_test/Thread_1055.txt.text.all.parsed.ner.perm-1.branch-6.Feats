@@ -13,7 +13,7 @@
                                    SPEED 0 0 0 0 0 1 0 0 1
                                      BIT 0 0 0 0 0 1 0 1 1
                               TECHNOLOGY 1 0 0 0 0 1 0 1 1
-                                    YEAR 0 1 0 0 0 1 0 1 0
+                                    YEAR 0 1 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
@@ -30,7 +30,7 @@
                                     THIS 0 0 0 0 0 1 0 0 1
                                    PORTS 0 0 0 0 0 1 0 0 1
                                     SIGN 0 0 0 0 0 1 0 1 1
-                                 PROBLEM 1 0 0 0 0 1 0 3 0
+                                 PROBLEM 1 0 0 0 0 1 0 3 1
                                     STEP 0 0 0 0 0 1 0 1 1
                                     LINK 0 0 0 0 0 1 0 2 1
                                   AND/OR 0 0 0 0 0 0 0 0 0
@@ -51,14 +51,14 @@
                                   THINGS 0 0 0 0 0 1 0 1 1
                               CONNECTION 0 0 0 0 0 1 0 1 1
                                       3G 0 0 0 0 0 0 0 1 1
-                                   MODEM 0 0 0 0 0 1 0 2 0
+                                   MODEM 0 0 0 0 0 1 0 2 1
                                     HERE 0 0 0 0 0 0 1 0 1
-                                  DEVICE 0 0 0 0 0 1 0 3 0
+                                  DEVICE 0 0 0 0 0 1 0 3 1
                                   ANYONE 0 0 0 0 0 1 0 0 1
                            CONFIGURATION 0 0 0 0 0 0 0 1 1
                                     WORK 0 0 0 0 0 1 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 1 0
+                                      HP 0 0 1 0 0 0 0 1 1
                              INFORMATION 0 1 0 0 0 1 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
                               EXPERIMENT 0 0 0 0 0 1 0 0 0
@@ -67,7 +67,7 @@
                                 WIRELESS 0 0 1 0 0 0 0 0 0
                                YESTERDAY 0 0 0 6 0 1 0 0 1
                                       OS 0 0 0 0 0 0 0 1 1
-                                 DESKTOP 0 0 0 0 0 0 1 1 1
+                                 DESKTOP 0 0 0 0 0 0 1 1 0
                                   COUPLE 0 0 0 0 0 1 0 1 1
                                   GAMING 0 0 0 0 0 0 0 0 0
                                QUESTIONS 0 0 0 0 0 1 0 1 1
@@ -105,7 +105,7 @@
                                   ROUTER 0 0 0 0 0 0 0 3 1
                                 INTERNET 0 0 0 0 0 1 0 1 1
                                     PAST 0 0 0 0 0 1 0 1 1
-                                 NETWORK 0 0 0 0 0 1 0 3 1
+                                 NETWORK 0 0 0 0 0 1 0 3 0
                                    GUIDE 0 0 0 0 0 1 0 1 1
                                 FIRMWARE 0 0 0 0 0 0 0 1 1
                                     HELP 0 0 0 0 0 1 0 1 1
@@ -140,7 +140,7 @@
                                 NETWORKS 0 0 0 0 0 1 0 1 1
                                  802.11B 0 0 0 0 0 0 0 0 1
                                    DOZEN 0 0 0 0 0 1 0 0 0
-                                FIREWALL 0 0 0 0 0 0 0 1 0
+                                FIREWALL 0 0 0 0 0 0 0 1 1
                              ROUTER--&GT 0 0 0 0 0 0 0 1 1
                                  MESSAGE 0 0 0 0 0 1 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 1 1
@@ -148,7 +148,7 @@
                                     NONE 0 0 0 0 0 1 0 1 1
                                    STUFF 0 0 0 0 0 1 0 1 1
                            UNDERSTANDING 0 0 0 0 0 1 0 2 1
-                                 RESULTS 1 1 0 0 0 1 0 1 0
+                                 RESULTS 1 1 0 0 0 1 0 1 1
                                   REPORT 1 1 0 0 0 1 0 0 0
                                     WEEK 1 0 0 6 0 1 0 1 1
                                    NIGHT 1 0 0 5 0 1 0 1 1
@@ -179,12 +179,12 @@
                                 THOUGHTS 0 0 0 0 0 1 0 1 1
                                   RESULT 1 0 0 0 0 1 0 1 1
                                    SITES 0 0 0 0 0 1 0 1 1
-                                     NAT 0 0 0 0 0 0 0 2 1
-                                    AT&T 0 0 1 0 0 1 0 0 1
+                                     NAT 0 0 0 0 0 0 0 2 0
+                                    AT&T 0 0 0 0 0 1 0 0 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                 CONSOLES 0 0 0 0 0 0 0 1 1
                                 SERVICES 1 0 0 0 0 1 0 1 1
-                              NETWORKING 0 0 0 0 0 0 0 1 1
+                              NETWORKING 0 0 0 0 0 0 0 1 0
                                     NATS 0 0 0 0 0 0 0 1 1
                                    2WIRE 0 0 0 0 0 0 0 2 1
                                  GATEWAY 0 0 0 0 0 0 0 3 1
@@ -204,9 +204,9 @@
                            POWER-CYCLING 0 0 0 0 0 0 0 1 1
                                   HOW/IF 0 0 0 0 0 0 0 1 1
                                   PERIOD 0 0 0 0 0 1 0 1 1
-                                COVERAGE 0 0 0 0 0 1 0 2 1
+                                COVERAGE 0 0 0 0 0 1 0 2 0
                                 STRENGTH 0 0 0 0 0 1 0 1 0
-                                 MACBOOK 0 0 0 0 0 0 0 1 1
+                                 MACBOOK 0 0 0 0 0 0 0 1 0
                                 MEGABITS 0 0 0 0 0 0 0 2 1
                                     SONY 0 1 1 0 0 1 0 0 0
                                     VAIO 0 0 0 0 0 0 0 1 1

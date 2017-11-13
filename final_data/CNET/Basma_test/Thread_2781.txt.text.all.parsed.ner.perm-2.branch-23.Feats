@@ -8,7 +8,7 @@
                                     SOME 0 0 0 0 0 0 1 1 1
                                    ORDER 0 0 0 0 0 1 0 1 1
                                    512MB 0 0 0 0 0 0 0 1 1
-                                   VIDEO 0 1 0 0 0 1 0 1 1
+                                   VIDEO 0 1 0 0 0 1 0 1 0
                                     CARD 0 1 0 0 0 1 0 2 1
                                       OC 0 0 1 0 0 0 0 1 1
                                   THANKS 0 0 0 0 0 1 0 0 1
@@ -20,11 +20,11 @@
                                    CARDS 0 0 0 0 0 1 0 1 1
                               TECHNOLOGY 1 0 0 0 0 1 0 1 1
                                UPGRADING 0 0 0 0 0 0 0 0 1
-                                      MB 0 0 0 0 0 0 0 1 1
+                                      MB 0 0 0 0 0 0 0 1 0
                                  UPGRADE 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                     YEAR 0 1 0 0 0 1 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 1
+                                COMPUTER 0 1 0 0 0 1 0 3 0
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
@@ -33,7 +33,7 @@
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 1 1
-                                PROBLEMS 0 0 0 0 0 1 0 2 1
+                                PROBLEMS 0 0 0 0 0 1 0 2 0
                                     DISK 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                     KIND 0 0 0 0 0 1 0 1 0
@@ -53,19 +53,19 @@
                                      AMD 0 0 0 0 0 1 0 1 1
                                       CD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 2 1
-                                     RAM 0 0 1 0 0 1 0 1 1
+                                     RAM 0 0 1 0 0 1 0 1 0
                                      ATX 0 0 0 0 0 0 0 1 1
                                     CASE 0 1 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 3 1
-                                   MODEM 0 0 0 0 0 1 0 1 0
+                                   MODEM 0 0 0 0 0 1 0 1 1
                                       'S 0 0 0 0 0 0 0 0 1
                                     DAYS 0 0 0 6 0 1 0 1 1
                                     ETC. 0 0 0 0 0 0 0 1 1
                                      TOY 0 0 0 0 0 1 0 1 1
-                                    WORK 0 0 0 0 0 1 0 1 1
+                                    WORK 0 0 0 0 0 1 0 1 0
                                       HP 0 0 1 0 0 0 0 0 0
                                      FUN 0 0 0 0 0 1 0 0 1
                                     MANY 0 0 0 0 0 0 1 1 1
@@ -91,7 +91,7 @@
                                     PLAN 0 1 0 0 0 1 0 0 0
                                     GAME 0 0 0 0 0 1 0 0 0
                                   PEOPLE 0 1 0 0 0 1 0 1 1
-                                    COST 0 0 0 0 0 1 0 1 0
+                                    COST 0 0 0 0 0 1 0 1 1
                                    TIMES 0 1 0 0 0 1 0 1 1
                                PROCESSOR 0 0 0 0 0 0 0 1 1
                                  EXAMPLE 0 0 0 0 0 1 0 1 1
@@ -100,7 +100,7 @@
                               PROCESSORS 0 0 0 0 0 1 0 0 1
                                     COMP 0 0 0 0 0 0 0 1 1
                                  PENTIUM 0 0 0 0 0 0 0 1 1
-                                  ONLINE 0 0 0 0 0 1 0 1 0
+                                  ONLINE 0 0 0 0 0 1 0 1 1
                            COMPATIBILITY 0 0 0 0 0 0 0 0 1
                               COMPATIBLE 0 0 0 0 0 0 0 1 1
                                  REGARDS 0 0 0 0 0 0 0 1 1
@@ -167,7 +167,7 @@
                            UNDERSTANDING 0 0 0 0 0 1 0 1 1
                                      OEM 0 0 0 0 0 0 0 1 1
                                    TYPES 0 1 0 0 0 1 0 1 1
-                                WARRANTY 0 0 0 0 0 0 0 1 1
+                                WARRANTY 0 0 0 0 0 0 0 1 0
                                       PS 0 1 1 0 0 0 0 0 0
                               NEWEGG.COM 0 0 0 0 0 0 0 0 0
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
@@ -191,13 +191,13 @@
                              DIFFERENCES 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                             APPLICATIONS 0 0 0 0 0 1 0 1 1
-                                   SITES 0 0 0 0 0 1 0 1 1
+                                   SITES 0 0 0 0 0 1 0 1 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
-                                 GATEWAY 0 0 0 0 0 0 0 1 1
+                                 GATEWAY 0 0 0 0 0 0 0 1 0
                                  PARTIES 0 0 0 0 0 1 0 0 1
                                        X 0 0 1 0 0 1 0 0 0
                                  PROJECT 0 1 0 0 0 1 0 0 0
-                               KNOWLEDGE 0 0 0 0 0 1 0 2 0
+                               KNOWLEDGE 0 0 0 0 0 1 0 2 1
                                    SENSE 0 0 0 0 0 1 0 0 1
                                   METHOD 0 0 0 0 0 1 0 0 0
                                  DIAGRAM 0 0 0 0 0 0 0 1 1
@@ -209,8 +209,8 @@
                                 CAPACITY 0 0 0 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
                                   64-BIT 0 0 0 0 0 0 0 1 1
@@ -229,7 +229,7 @@
                              SYSTEM&QUOT 0 0 0 0 0 0 0 1 1
                             PROFESSIONAL 0 0 0 0 0 1 0 1 1
                                      ERA 0 0 0 0 0 1 0 0 1
-                                 SCIENCE 0 0 0 0 0 1 0 1 0
+                                 SCIENCE 0 0 0 0 0 1 0 1 1
                                ADVANTAGE 1 0 0 0 0 1 0 1 1
                               PREFERENCE 0 0 0 0 0 1 0 1 1
                                     STAN 0 0 1 0 0 0 0 2 1
@@ -237,7 +237,7 @@
                                   DECADE 0 0 0 0 0 1 0 1 1
                                      ADS 0 0 0 0 0 1 0 1 1
                                 HOMEWORK 0 0 0 0 0 1 0 1 1
-                                    BOOK 0 0 0 0 0 1 0 1 1
+                                    BOOK 0 0 0 0 0 1 0 1 0
                                    CERTS 0 0 1 0 0 0 0 1 1
                                 CLEARING 0 0 0 0 0 0 0 0 0
                                   LIKING 0 0 0 0 0 0 0 1 1
@@ -281,13 +281,6 @@
                                    GOALS 0 0 0 0 0 1 0 1 1
                               W/HEATSINK 0 0 0 0 0 0 0 0 0
                               SCREWDRIVE 0 0 0 0 0 0 0 1 1
-                               RE-BUILDS 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
-                                 PROFITS 0 0 0 0 0 1 0 1 1
-                                    9.99 0 0 0 7 0 0 0 1 1
-                                  FERVOR 0 0 0 0 0 0 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                       A+ 0 0 0 0 0 0 0 1 1
                                     CERT 0 0 0 0 0 0 0 1 1
                               STITE&QUOT 0 0 0 0 0 0 0 0 1
@@ -296,6 +289,13 @@
                             SPREADSHEETS 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
                              INSTABILITY 0 0 0 0 0 1 0 0 1
+                               RE-BUILDS 0 0 0 0 0 0 0 1 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                 PROFITS 0 0 0 0 0 1 0 1 1
+                                    9.99 0 0 0 7 0 0 0 1 1
+                                  FERVOR 0 0 0 0 0 0 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                    STITE 0 0 0 0 0 0 0 2 1
                                  EREEDKS 0 0 0 0 0 0 0 0 1
 CASE/POWERSUPPLY/FANS/MOTHERBOARD/PROCESSOR/HEATSINK 0 0 0 0 0 0 0 1 1

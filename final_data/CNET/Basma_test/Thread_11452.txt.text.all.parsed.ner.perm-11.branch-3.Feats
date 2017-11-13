@@ -18,7 +18,7 @@
                                   DRIVES 0 0 0 0 0 1 0 0 0
                                    POWER 0 1 0 0 0 1 0 0 0
                                      IDE 0 0 0 0 0 0 0 0 0
-                              CONTROLLER 0 0 0 0 0 1 0 2 0
+                              CONTROLLER 0 0 0 0 0 1 0 2 1
                                     SELF 0 0 0 0 0 1 0 0 0
                                     40GB 0 0 0 0 0 0 0 1 1
                                   ERRORS 0 1 0 0 0 1 0 0 0
@@ -30,11 +30,11 @@
                                    -RRB- 0 0 0 0 0 0 0 0 0
                                  NOTHING 0 0 0 0 0 1 0 1 1
                                     BOOT 0 0 0 0 0 0 0 0 0
-                                    BIOS 0 0 0 0 0 0 0 1 0
+                                    BIOS 0 0 0 0 0 0 0 1 1
                                    OTHER 0 0 0 0 0 0 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
                                      USB 0 0 0 0 0 0 0 0 0
-                                       S 0 0 1 0 0 0 0 0 1
+                                       S 0 0 1 0 0 0 0 0 0
                                 ANYTHING 0 0 0 0 0 1 0 1 1
                                        * 0 0 0 0 0 0 0 1 1
                                    MTRBD 0 0 0 0 0 0 0 1 1
@@ -59,7 +59,7 @@
                                   GAMING 0 0 0 0 0 0 0 0 0
                                  GENERAL 0 1 0 0 0 1 0 0 0
                                   BRIDGE 0 1 0 0 0 1 0 1 0
-                                   INTEL 0 0 1 0 0 1 0 1 0
+                                   INTEL 0 0 0 0 0 1 0 1 0
                                      III 0 0 1 0 0 1 0 0 0
                                       V4 0 0 0 0 0 0 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
@@ -69,7 +69,7 @@
                                    PARTS 1 0 0 0 0 1 0 1 1
                                     GAME 0 0 0 0 0 1 0 0 0
                                PROCESSOR 0 0 0 0 0 0 0 1 0
-                                 PENTIUM 0 0 0 0 0 0 0 3 0
+                                 PENTIUM 0 0 0 0 0 0 0 3 1
                                       2. 0 0 0 0 0 0 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
                               MANAGEMENT 0 1 0 0 0 1 0 0 0
@@ -101,7 +101,7 @@
                                     NONE 0 0 0 0 0 1 0 0 0
                                SUPPORTED 0 0 0 0 0 0 0 0 0
                             MANUFACTURER 0 0 0 0 0 1 0 3 0
-                                    NAME 0 0 0 0 0 1 0 1 0
+                                    NAME 0 0 0 0 0 1 0 1 1
                                     INFO 0 0 0 0 0 0 0 1 1
                                   MTRBD. 0 0 0 0 0 0 0 1 1
                                   VENDOR 0 0 0 0 0 1 0 3 0
@@ -121,7 +121,7 @@
                            MANUFACTURERS 0 1 0 0 0 1 0 1 1
                                        G 0 0 1 0 0 1 0 0 0
                                   OTHERS 0 0 0 0 0 1 0 1 1
-                            CAPABILITIES 0 0 0 0 0 1 0 3 1
+                            CAPABILITIES 0 0 0 0 0 1 0 3 0
                                  CURRENT 0 0 0 0 0 0 0 0 0
                                  SPECIAL 0 0 0 0 0 1 0 0 0
                                      SUB 0 0 0 0 0 0 0 0 0
@@ -132,18 +132,18 @@
                                   VOLUME 0 0 0 0 0 1 0 0 0
                               CAPABILITY 0 0 0 0 0 1 0 0 0
                                     PACK 0 0 0 0 0 0 0 0 0
-                                       R 0 0 0 0 0 0 0 0 1
+                                       R 0 0 0 0 0 0 0 0 0
                                  STORAGE 0 0 0 0 0 0 0 0 0
                                INTERFACE 0 0 0 0 0 1 0 0 0
-                                SUPPORTS 0 0 0 0 0 0 0 0 0
-                                     KIT 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                      GIG 0 0 0 0 0 0 0 1 1
                                     SIZE 1 0 0 0 0 1 0 0 0
+                                SUPPORTS 0 0 0 0 0 0 0 0 0
+                                     KIT 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 0 0
                                    COLOR 0 0 0 0 0 1 0 1 1
                              EXPLANATION 0 0 0 0 0 1 0 1 1
-                                    HOST 0 0 0 0 0 1 0 1 1
+                                    HOST 0 0 0 0 0 1 0 1 0
                             GENERIC&QUOT 0 0 0 0 0 0 0 0 1
                                TRANSFERS 0 0 0 0 0 1 0 1 1
                                  ADDRESS 0 0 0 0 0 1 0 0 0
@@ -153,7 +153,7 @@
                                COMPONETS 0 0 0 0 0 0 0 1 1
                                   MOTHER 0 0 0 0 0 1 0 0 0
                                  MANUALS 0 0 0 0 0 1 0 1 1
-                                     NEC 0 1 1 0 0 1 0 1 1
+                                     NEC 0 1 0 0 0 1 0 1 0
                                 LANGUAGE 0 0 0 0 0 1 0 0 0
                                BLASTERPC 0 0 0 0 0 0 0 1 1
                              TIGERDIRECT 0 0 0 0 0 0 0 0 1
@@ -188,7 +188,7 @@
                                    0X36E 0 0 0 0 0 0 0 1 1
                                 SUBCLASS 0 0 0 0 0 0 0 0 0
                                BUSMASTER 0 0 0 0 0 0 0 0 0
-                                  STATUS 0 0 0 0 0 1 0 3 0
+                                  STATUS 0 0 0 0 0 1 0 3 1
                             BACK-TO-BACK 0 0 0 0 0 0 0 0 0
                                   TIMING 0 0 0 0 0 1 0 1 0
                                   HEADER 0 0 0 0 0 0 0 0 0
@@ -199,7 +199,7 @@
                                      INC 0 0 1 0 0 0 0 0 0
                                      0X0 0 0 0 0 0 0 0 0 0
                                       D2 0 0 0 0 0 0 0 1 0
-                                      D1 0 0 0 0 0 0 0 1 0
+                                      D1 0 0 0 0 0 0 0 1 1
                                      0X5 0 0 0 0 0 0 0 0 0
                                   0X1102 0 0 0 0 0 0 0 0 0
                                      0X2 0 0 0 0 0 0 0 0 0

@@ -12,7 +12,7 @@
                               CONTROLLER 0 0 0 0 0 1 0 1 1
                                     SELF 0 0 0 0 0 1 0 0 0
                                     40GB 0 0 0 0 0 0 0 1 1
-                                    BIOS 0 0 0 0 0 0 0 1 0
+                                    BIOS 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 0 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
                                        S 0 0 1 0 0 0 0 0 0
@@ -24,14 +24,14 @@
                                      PCI 0 0 0 0 0 0 0 2 1
                                     CASE 0 1 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
-                                  NVIDIA 0 0 0 0 0 0 0 1 1
+                                  NVIDIA 0 0 0 0 0 0 0 1 0
                                      1GB 0 0 0 0 0 0 0 1 1
                                      HDD 0 0 0 0 0 0 0 1 1
                                  GROCERY 0 0 0 0 0 0 0 0 0
-                                    LIST 0 0 0 0 0 1 0 1 0
+                                    LIST 0 0 0 0 0 1 0 1 1
                                    STICK 0 0 0 0 0 1 0 1 1
                                       OS 0 0 0 0 0 0 0 1 1
-                                  BRIDGE 0 1 0 0 0 1 0 1 1
+                                  BRIDGE 0 1 0 0 0 1 0 1 0
                                    INTEL 0 0 1 0 0 1 0 1 0
                                       V4 0 0 0 0 0 0 0 1 1
                                       HD 0 0 1 0 0 0 0 1 1
@@ -58,7 +58,7 @@
                                      WAY 1 0 0 0 0 1 0 1 1
                                     SUCH 0 0 0 0 0 0 1 1 1
                                   ACCESS 0 0 0 0 0 1 0 0 0
-                                    TYPE 0 0 0 0 0 1 0 3 1
+                                    TYPE 0 0 0 0 0 1 0 3 0
                                     MODE 0 0 0 0 0 1 0 1 1
                                   MASTER 0 0 0 0 0 1 0 1 1
                                    BOARD 0 1 0 0 0 1 0 1 1
@@ -67,16 +67,16 @@
                             MANUFACTURER 0 0 0 0 0 1 0 3 1
                                     NAME 0 0 0 0 0 1 0 1 1
                                     INFO 0 0 0 0 0 0 0 1 1
-                                  VENDOR 0 0 0 0 0 1 0 3 0
+                                  VENDOR 0 0 0 0 0 1 0 3 1
                                      &GT 0 0 0 0 0 0 0 1 1
                                    STORE 0 0 0 0 0 1 0 1 1
                             SOUNDBLASTER 0 0 0 0 0 0 0 1 1
                                  RECORDS 0 0 0 0 0 1 0 1 1
                                    SHOPS 0 0 0 0 0 1 0 1 1
                                    SPACE 0 0 0 0 0 1 0 1 1
-                                REVISION 0 0 0 0 0 1 0 3 1
+                                REVISION 0 0 0 0 0 1 0 3 0
                                   BOARDS 0 0 0 0 0 1 0 1 1
-                                    TEST 0 1 0 0 0 1 0 3 1
+                                    TEST 0 1 0 0 0 1 0 3 0
                                      CAS 0 0 0 0 0 0 0 0 0
                                    MAKER 0 1 0 0 0 1 0 1 1
                                  CAPTURE 0 0 0 0 0 0 0 2 1
@@ -84,7 +84,7 @@
                                   OTHERS 0 0 0 0 0 1 0 1 1
                             CAPABILITIES 0 0 0 0 0 1 0 3 0
                                      SUB 0 0 0 0 0 0 0 0 0
-                                COMMANDS 0 0 0 0 0 1 0 2 1
+                                COMMANDS 0 0 0 0 0 1 0 2 0
                                    STATE 0 1 0 0 0 1 0 2 0
                               CAPABILITY 0 0 0 0 0 1 0 0 0
                                        R 0 0 0 0 0 0 0 0 1
@@ -93,8 +93,8 @@
                                      GIG 0 0 0 0 0 0 0 1 1
                                     BANK 0 1 0 0 0 1 0 0 0
                                       MX 0 0 1 0 0 0 0 0 0
-                                    HOST 0 0 0 0 0 1 0 1 0
-                               TRANSFERS 0 0 0 0 0 1 0 1 1
+                                    HOST 0 0 0 0 0 1 0 1 1
+                               TRANSFERS 0 0 0 0 0 1 0 1 0
                                  ADDRESS 0 0 0 0 0 1 0 0 0
                                    TRANS 0 0 1 0 0 0 0 0 0
                                      BUS 0 0 0 0 0 1 0 0 0
@@ -103,13 +103,13 @@
                                      NEC 0 1 1 0 0 1 0 1 1
                                INSPECTOR 0 0 0 0 0 1 0 0 0
                              TIGERDIRECT 0 0 1 0 0 0 0 0 1
-                                    LABS 0 0 0 0 0 1 0 1 0
+                                    LABS 0 0 0 0 0 1 0 1 1
                                    AWARD 0 0 0 0 0 1 0 0 0
                                      PGM 0 0 1 0 0 0 0 1 1
                                     31GB 0 0 0 0 0 0 0 1 1
                                ADVANTAGE 1 0 0 0 0 1 0 0 1
                             ENHANCEMENTS 0 0 0 0 0 0 0 1 1
-                              MULTIMEDIA 0 0 0 0 0 0 0 0 1
+                              MULTIMEDIA 0 0 0 0 0 0 0 0 0
                                AVERMEDIA 0 0 0 0 0 0 0 1 0
                                   AVERTV 0 0 0 0 0 0 0 1 1
                                      WDM 0 0 1 0 0 0 0 0 1
@@ -125,7 +125,7 @@
                                 SUBCLASS 0 0 0 0 0 0 0 0 0
                                BUSMASTER 0 0 0 0 0 0 0 0 0
                                   STATUS 0 0 0 0 0 1 0 3 1
-                                  TIMING 0 0 0 0 0 1 0 1 1
+                                  TIMING 0 0 0 0 0 1 0 1 0
                                   HEADER 0 0 0 0 0 0 0 0 0
                                  LATENCY 0 0 0 0 0 0 0 0 0
                                      INC 0 0 1 0 0 0 0 0 0

@@ -2,8 +2,8 @@
                                     TIME 1 1 0 0 0 1 0 1 1
                                     THAT 0 0 0 0 0 0 0 1 1
                                      ALL 0 0 0 0 0 0 0 1 1
-                                    NEED 0 0 0 0 0 1 0 1 0
-                                   VIDEO 0 1 0 0 0 1 0 1 1
+                                    NEED 0 0 0 0 0 1 0 1 1
+                                   VIDEO 0 1 0 0 0 1 0 1 0
                                     CARD 0 1 0 0 0 1 0 3 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
                                    SPEED 0 0 0 0 0 1 0 1 1
@@ -14,12 +14,12 @@
                                     YEAR 0 1 0 0 0 1 0 1 1
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 2 1
+                                COMPUTER 0 1 0 0 0 1 0 2 0
                                   DRIVES 0 0 0 0 0 1 0 2 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 0 0
-                                     ONE 0 0 0 0 0 1 0 2 1
-                                   YEARS 1 1 0 0 0 1 0 2 1
+                                     ONE 0 0 0 0 0 1 0 2 0
+                                   YEARS 1 1 0 6 0 1 0 2 1
                                  MACHINE 0 1 0 0 0 1 0 0 0
                                     BIOS 0 0 0 0 0 0 0 1 1
                                DIFFERENT 0 0 0 0 0 0 0 1 1
@@ -33,7 +33,7 @@
                                     LONG 0 0 0 0 0 1 0 1 1
                                      ANY 0 0 0 0 0 0 1 1 1
                                      AMD 0 0 0 0 0 1 0 1 1
-                                     RAM 0 0 1 0 0 1 0 2 1
+                                     RAM 0 0 1 0 0 1 0 2 0
                                     CASE 0 1 0 0 0 1 0 3 1
                                    THING 0 0 0 0 0 1 0 1 1
                                     FINE 0 1 0 0 0 1 0 1 1
@@ -82,7 +82,7 @@
                                   MIDDLE 0 0 0 0 0 1 0 1 1
                                     CANT 0 0 0 0 0 0 0 0 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
-                                     DVD 0 0 0 0 0 1 0 1 0
+                                     DVD 0 0 0 0 0 1 0 1 1
                                    TODAY 0 0 0 6 0 1 0 0 1
                                     DONT 0 0 0 0 0 0 0 1 1
                                 KINGSTON 0 0 1 0 0 1 0 0 1
@@ -116,7 +116,7 @@
                                  PROCESS 0 0 0 0 0 1 0 1 1
                                      OEM 0 0 0 0 0 0 0 0 0
                               WARRANTIES 0 0 0 0 0 0 0 0 0
-                                   STORE 0 0 0 0 0 1 0 1 0
+                                   STORE 0 0 0 0 0 1 0 1 1
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
                                     MIND 0 0 0 0 0 1 0 0 1
                                      DUO 0 0 0 0 0 1 0 0 0
@@ -127,7 +127,7 @@
                                  EDITING 0 0 0 0 0 1 0 1 1
                                  GATEWAY 0 0 0 0 0 0 0 1 1
                                    VISTA 0 0 0 0 0 0 0 1 1
-                                       X 0 0 1 0 0 1 0 2 0
+                                       X 0 0 1 0 0 1 0 2 1
                                  EXPRESS 0 1 0 0 0 1 0 0 0
                                  MADNESS 0 0 0 0 0 1 0 1 1
                                     TASK 0 0 0 0 0 1 0 1 1
@@ -147,16 +147,12 @@
                                  WALMART 0 0 1 0 0 0 0 0 1
                                   500BUX 0 0 0 0 0 0 0 0 1
                                  MUSTANG 0 0 0 0 0 1 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                                     2HRS 0 0 0 0 0 0 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
                                HOMEBUILT 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                 FRIENDS. 0 0 0 0 0 0 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
                                    BELLS 0 0 0 0 0 1 0 0 0
@@ -174,7 +170,7 @@
                                     CAVE 0 0 1 0 0 1 0 0 1
                               COMPROMISE 0 0 0 0 0 1 0 1 1
                                 FINDINGS 0 0 0 0 0 1 0 1 1
-                                BARNYARD 0 0 0 0 0 0 0 0 0
+                                BARNYARD 0 0 0 0 0 0 0 0 1
                                  SEMPRON 0 0 0 0 0 0 0 1 1
                                W/MONITOR 0 0 0 0 0 0 0 1 1
                                PREFERRED 0 0 0 0 0 0 0 1 1
@@ -182,8 +178,12 @@
                                     ROAD 0 0 0 0 0 1 0 1 1
                                     BELL 0 1 0 0 0 1 0 1 1
                                     2GIG 0 0 0 0 0 0 0 1 1
+                               NORTHLITE 0 0 1 0 0 0 0 0 1
+                                     10. 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1
                               EQUIVALENT 0 0 0 0 0 0 0 0 0
                               MOTORCYCLE 0 0 0 0 0 0 1 0 0
-                               NORTHLITE 0 0 1 0 0 0 0 0 1

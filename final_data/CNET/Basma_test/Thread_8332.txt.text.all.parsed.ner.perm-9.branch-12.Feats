@@ -11,7 +11,7 @@
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 1 0
                                    DRIVE 0 0 0 0 0 1 0 3 1
-                                 MACHINE 0 1 0 0 0 1 0 1 0
+                                 MACHINE 0 1 0 0 0 1 0 1 1
                                     KIND 0 0 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
                                      USB 0 0 0 0 0 0 0 1 1
@@ -50,7 +50,7 @@
                                 EXPLORER 0 0 0 0 0 1 0 0 0
                                     DATA 0 0 0 0 0 1 0 1 0
                                    FILES 0 0 0 0 0 1 0 1 1
-                                  BACKUP 0 0 0 0 0 0 0 1 1
+                                  BACKUP 0 0 0 0 0 0 0 1 0
                                 INSTANCE 0 0 0 0 0 1 0 1 1
                                      &LT 0 0 0 0 0 0 0 1 1
                                      &GT 0 0 0 0 0 0 0 0 1
@@ -64,16 +64,16 @@
                                    FAT32 0 0 0 0 0 0 0 0 1
                                     FILE 0 0 0 0 0 1 0 0 0
                                  MINUTES 0 0 0 0 0 1 0 1 1
-                                 SYSTEMS 0 0 0 0 0 1 0 1 0
+                                 SYSTEMS 0 0 0 0 0 1 0 1 1
                                      HD. 0 0 0 0 0 0 0 1 1
                                       A. 0 0 0 0 0 0 0 0 0
                                    TOUCH 0 0 0 0 0 1 0 1 1
                                   METHOD 0 0 0 0 0 1 0 2 1
                                 SECURITY 0 0 0 0 0 1 0 1 1
                                     VIEW 0 1 0 0 0 1 0 1 1
-                                SUPPORTS 0 0 0 0 0 0 0 0 1
                                     SIZE 1 0 0 0 0 1 0 1 1
                             REQUIREMENTS 0 0 0 0 0 1 0 1 1
+                                SUPPORTS 0 0 0 0 0 0 0 0 1
                                   FOLDER 0 0 0 0 0 0 0 1 1
                              APPLICATION 0 0 0 0 0 1 0 1 1
                                  FINICKY 0 0 0 0 0 0 0 1 1
@@ -98,11 +98,6 @@
                                   MOTORS 0 0 0 0 0 1 0 0 0
                                 BEARINGS 0 0 0 0 0 0 0 0 1
                                DEFERENCE 0 0 0 0 0 0 0 1 1
-                                   CIRCS 0 0 0 0 0 0 0 1 1
-                                    NFTS 0 0 0 0 0 0 0 0 1
-                                    30MB 0 0 0 0 0 0 0 1 1
-                                    5MIN 0 0 0 0 0 0 0 0 1
-                                 YNOTBME 0 0 0 0 0 0 0 0 1
                             CASTINGROD47 0 0 0 0 0 0 0 0 1
                                  B--WITH 0 0 0 0 0 0 0 1 1
                          SEAGATE/COMPUSA 0 0 0 0 0 0 0 1 1
@@ -111,3 +106,8 @@
                                       LT 0 0 0 0 0 0 0 1 1
                                    -OSES 0 0 0 0 0 0 0 1 1
                                PENDRIVES 0 0 0 0 0 0 0 0 1
+                                    NFTS 0 0 0 0 0 0 0 0 1
+                                   CIRCS 0 0 0 0 0 0 0 1 1
+                                    30MB 0 0 0 0 0 0 0 1 1
+                                    5MIN 0 0 0 0 0 0 0 0 1
+                                 YNOTBME 0 0 0 0 0 0 0 0 1

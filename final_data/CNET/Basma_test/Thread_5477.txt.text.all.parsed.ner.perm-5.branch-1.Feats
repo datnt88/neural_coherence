@@ -18,7 +18,7 @@
                                     CASE 0 1 0 0 0 1 0 1 1
                                     SIDE 1 0 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 1 1
-                              CONNECTION 0 0 0 0 0 1 0 3 1
+                              CONNECTION 0 0 0 0 0 1 0 3 0
                                     DAYS 0 0 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 2 1
                            CONFIGURATION 0 0 0 0 0 0 0 0 0
@@ -47,8 +47,8 @@
                                 INTERNET 0 0 0 0 0 1 0 0 0
                                    SETUP 0 0 0 0 0 0 0 1 1
                                  PROGRAM 0 1 0 0 0 1 0 1 1
-                                 NETWORK 0 0 0 0 0 1 0 1 0
-                                   POINT 0 0 0 0 0 1 0 1 0
+                                 NETWORK 0 0 1 0 0 1 0 1 0
+                                   POINT 0 0 0 0 0 1 0 1 1
                                 RESPONSE 0 0 0 0 0 1 0 0 0
                                COMPUTERS 0 0 0 0 0 1 0 2 1
                                   SERVER 0 0 0 0 0 0 0 1 1
@@ -67,11 +67,11 @@
                                     NONE 0 0 0 0 0 1 0 1 1
                                     NAME 0 0 0 0 0 1 0 1 1
                              DESCRIPTION 0 0 0 0 0 1 0 3 1
-                                       % 1 1 0 0 0 0 0 3 1
+                                       % 1 1 0 4 0 0 0 3 1
                                   MCAFEE 0 0 0 0 0 1 0 0 1
-                                   MEDIA 0 1 0 0 0 1 0 2 1
+                                   MEDIA 0 1 0 0 0 1 0 2 0
                                   SEARCH 0 0 0 0 0 1 0 0 0
-                                    KEES 0 0 0 0 0 0 0 1 1
+                                    KEES 0 0 1 0 0 0 0 1 1
                                   CENTER 0 0 0 0 0 1 0 0 0
                                   LESSON 0 0 0 0 0 1 0 1 1
                                  GATEWAY 0 0 0 0 0 0 0 3 1
@@ -86,9 +86,9 @@
                                   SYMBOL 0 0 0 0 0 1 0 1 1
                                   FAMILY 0 1 0 0 0 1 0 0 0
                                    STATE 0 1 0 0 0 1 0 1 1
+                                  UBUNTU 0 0 0 0 0 0 0 0 1
                                     LOTS 0 0 0 0 0 1 0 2 1
                                   PLACES 0 0 0 0 0 1 0 1 1
-                                  UBUNTU 0 0 0 0 0 0 0 0 1
                                      AVG 0 0 0 0 0 0 0 0 1
                                     DHCP 0 0 0 0 0 0 0 3 1
                                      DNS 0 0 0 0 0 0 0 3 1
@@ -105,7 +105,7 @@
                             CONNECTIVITY 0 0 0 0 0 0 0 1 1
                                 PASSWORD 0 0 0 0 0 0 0 3 1
                                     LIFE 0 0 0 0 0 1 0 1 1
-                                  SUFFIX 0 0 0 0 0 0 0 1 0
+                                  SUFFIX 0 0 0 0 0 0 0 1 1
                                     IPV6 0 0 0 0 0 0 0 0 0
                                     FE80 0 0 0 0 0 0 0 0 1
                                       :: 0 0 0 0 0 0 0 2 1

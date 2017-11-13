@@ -9,7 +9,7 @@
                                    SPEED 0 0 0 0 0 1 0 0 1
                                      BIT 0 0 0 0 0 1 0 1 1
                               TECHNOLOGY 1 0 0 0 0 1 0 1 1
-                                    YEAR 0 1 0 0 0 1 0 1 1
+                                    YEAR 0 1 0 6 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                    POWER 0 1 0 0 0 1 0 1 1
                                   ERRORS 0 1 0 0 0 1 0 1 1
@@ -37,7 +37,7 @@
                                    THING 0 0 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 1 1
                                    MODEM 0 0 0 0 0 1 0 2 1
-                                  DEVICE 0 0 0 0 0 1 0 3 0
+                                  DEVICE 0 0 0 0 0 1 0 3 1
                                   ANYONE 0 0 0 0 0 1 0 0 1
                                     WORK 0 0 0 0 0 1 0 1 1
                                       HP 0 0 1 0 0 0 0 1 0
@@ -79,7 +79,7 @@
                                  LINKSYS 0 0 0 0 0 0 0 0 0
                                   ROUTER 0 0 0 0 0 0 0 3 1
                                     PAST 0 0 0 0 0 1 0 1 1
-                                 NETWORK 0 0 0 0 0 1 0 3 1
+                                 NETWORK 0 0 0 0 0 1 0 3 0
                                    GUIDE 0 0 0 0 0 1 0 1 1
                                 FIRMWARE 0 0 0 0 0 0 0 1 1
                                     HELP 0 0 0 0 0 1 0 1 1
@@ -104,11 +104,11 @@
                                    IDEAS 0 0 0 0 0 1 0 1 1
                                     XBOX 0 0 0 0 0 0 0 1 1
                                     LIVE 0 0 0 0 0 1 0 0 1
-                                   RANGE 0 0 0 0 0 1 0 1 0
+                                   RANGE 0 0 0 0 0 1 0 1 1
                                  ROUTERS 0 0 0 0 0 0 0 2 0
                                 NETWORKS 0 0 0 0 0 1 0 0 1
                                  802.11B 0 0 0 0 0 0 0 0 1
-                                FIREWALL 0 0 0 0 0 0 0 1 0
+                                FIREWALL 0 0 0 0 0 0 0 1 1
                              ROUTER--&GT 0 0 0 0 0 0 0 1 1
                                  MESSAGE 0 0 0 0 0 1 0 1 1
                                  REPAIRS 0 0 0 0 0 1 0 1 1
@@ -116,7 +116,7 @@
                                     NONE 0 0 0 0 0 1 0 1 1
                                    LOOKS 0 0 0 0 0 1 0 1 1
                            UNDERSTANDING 0 0 0 0 0 1 0 1 1
-                                 RESULTS 1 1 0 0 0 1 0 1 0
+                                 RESULTS 1 1 0 0 0 1 0 1 1
                                     WEEK 1 0 0 6 0 1 0 1 1
                                     GEAR 0 0 0 0 0 1 0 2 1
                                    STORE 0 0 0 0 0 1 0 1 1
@@ -144,8 +144,8 @@
                                 THOUGHTS 0 0 0 0 0 1 0 1 1
                                   RESULT 1 0 0 0 0 1 0 1 1
                                    SITES 0 0 0 0 0 1 0 1 1
-                                     NAT 0 0 0 0 0 0 0 2 0
-                                    AT&T 0 0 1 0 0 1 0 0 1
+                                     NAT 0 0 0 0 0 0 0 2 1
+                                    AT&T 0 0 1 0 0 1 0 0 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                 SERVICES 1 0 0 0 0 1 0 1 1
                               NETWORKING 0 0 0 0 0 0 0 1 0
@@ -169,13 +169,13 @@
                                 MEGABITS 0 0 0 0 0 0 0 2 1
                                     SONY 0 1 1 0 0 1 0 0 0
                                     VAIO 0 0 0 0 0 0 0 1 1
-                                   VISTA 0 0 0 0 0 0 0 1 1
+                                   VISTA 0 0 0 0 0 0 0 1 0
                                  REPORTS 0 0 0 0 0 1 0 0 1
                                 CONTRAST 1 0 0 0 0 1 0 0 1
                                     HALL 0 0 0 0 0 1 0 1 1
-                                   WALLS 0 0 0 0 0 1 0 1 1
+                                   WALLS 0 0 0 0 0 1 0 1 0
                                  SIGNALS 0 0 0 0 0 1 0 1 1
-                                       X 0 0 1 0 0 1 0 1 1
+                                       X 0 0 1 0 0 1 0 1 0
                                  LEOPARD 0 0 0 0 0 1 0 1 1
                                   10.5.7 0 0 0 0 0 0 0 0 1
                                  2.66GHZ 0 0 0 0 0 0 0 0 1
@@ -197,7 +197,7 @@
                                  AIRPORT 0 0 0 0 0 1 0 0 0
                                  EXPRESS 0 1 0 0 0 1 0 0 0
                                  MEASURE 0 0 0 0 0 1 0 1 1
-                                 WEEKEND 0 0 0 0 0 1 0 1 0
+                                 WEEKEND 0 0 0 6 0 1 0 1 1
                                    WIRES 0 0 0 0 0 1 0 1 1
                             IMPROVEMENTS 0 0 0 0 0 1 0 1 1
                                  MADNESS 0 0 0 0 0 1 0 1 1

@@ -13,13 +13,13 @@
                                    CARDS 0 0 0 0 0 1 0 1 1
                                       MB 0 0 0 0 0 0 0 1 1
                                  UPGRADE 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 0
+                                  SYSTEM 0 1 0 0 0 1 0 1 1
                                     YEAR 0 1 0 0 0 1 0 1 1
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                     MOBO 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
-                                   POWER 0 1 0 0 0 1 0 1 1
+                                   POWER 0 1 0 0 0 1 0 1 0
                                   SUPPLY 0 0 0 0 0 1 0 1 0
                                     SELF 0 0 0 0 0 1 0 1 1
                                    WEEKS 0 0 0 0 0 1 0 1 1
@@ -55,7 +55,7 @@
                                     MORE 0 0 0 0 0 0 1 1 1
                                    LEAST 0 0 0 0 0 0 1 1 1
                                 WIRELESS 0 0 1 0 0 0 0 0 0
-                                 WINDOWS 0 0 0 0 0 1 0 0 1
+                                 WINDOWS 0 0 0 0 0 1 0 0 0
                                   AROUND 0 0 0 0 0 0 0 1 1
                                      FEW 0 0 0 0 0 0 1 1 1
                                    MOUSE 0 0 0 0 0 1 0 2 1
@@ -74,7 +74,7 @@
                                    PARTS 1 0 0 0 0 1 0 1 1
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 1 1
                                   PEOPLE 0 1 0 0 0 1 0 1 1
-                                    COST 0 0 0 0 0 1 0 1 1
+                                    COST 0 0 0 0 0 1 0 1 0
                                    MODEL 0 0 0 0 0 1 0 1 1
                                      MAX 0 0 1 0 0 1 0 0 0
                                    TIMES 0 1 0 0 0 1 0 1 1
@@ -84,7 +84,7 @@
                                  MONITOR 0 0 0 0 0 0 0 1 1
                                     SLOT 0 0 0 0 0 1 0 2 1
                                   MIDDLE 0 0 0 0 0 1 0 1 1
-                                 BATTERY 0 0 0 0 0 1 0 1 1
+                                 BATTERY 0 0 0 0 0 1 0 1 0
                                     CANT 0 0 0 0 0 0 0 0 1
                                     BLUE 0 0 0 0 0 1 0 1 1
                                  CORSAIR 0 0 0 0 0 0 0 0 0
@@ -131,7 +131,7 @@
                                   SCREWS 0 0 0 0 0 0 0 1 1
                                      ATA 0 0 0 0 0 0 0 0 0
                               NEWEGG.COM 0 0 0 0 0 0 0 0 1
-                                   STORE 0 0 0 0 0 1 0 1 1
+                                   STORE 0 0 0 0 0 1 0 1 0
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
                                  CHANNEL 0 0 0 0 0 1 0 0 0
                                     MIND 0 0 0 0 0 1 0 0 1
@@ -140,7 +140,7 @@
                                     DIMM 0 0 0 0 0 0 0 1 1
                                  GATEWAY 0 0 0 0 0 0 0 1 1
                                     SONY 0 1 1 0 0 1 0 0 0
-                                   VISTA 0 0 0 0 0 0 0 1 0
+                                   VISTA 0 0 0 0 0 0 0 1 1
                                        X 0 0 1 0 0 1 0 1 1
                                    KNOCK 0 0 0 0 0 0 0 0 0
                                  EXPRESS 0 1 0 0 0 1 0 0 0
@@ -168,27 +168,7 @@
                                    COSTS 0 0 0 0 0 1 0 1 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
                                 TINKERER 0 0 0 0 0 0 0 1 1
-                               DEVELOPER 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                  BATTER 0 0 0 0 0 0 0 1 1
-                                   PLUGS 0 0 0 0 0 0 0 1 1
-                                 STORIES 0 0 0 0 0 1 0 1 1
-                                  SCHOOL 0 1 0 0 0 1 0 0 0
                                    DEALS 0 0 0 0 0 1 0 0 1
-                                CORE2DUO 0 0 0 0 0 0 0 0 0
-                               MID-TOWER 0 0 0 0 0 0 0 0 0
-                                   SHEET 0 0 0 0 0 1 0 0 0
-                                  FILTER 0 0 0 0 0 0 0 0 0
-                                   ORION 0 0 0 0 0 0 0 0 0
-                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
-                                  CONROE 0 0 0 0 0 0 0 0 0
-                                    TUBE 0 0 0 0 0 1 0 0 0
-                                  ARCTIC 0 0 1 0 0 0 0 0 0
-                                  SILVER 0 0 0 0 0 1 0 0 0
-                                     KIT 0 0 0 0 0 1 0 0 0
-                                     GTS 0 0 0 0 0 0 0 0 0
-                                   GAMER 0 0 0 0 0 0 0 0 0
-                                    10MS 0 0 0 0 0 0 0 0 0
                                     WATT 0 0 0 0 0 1 0 0 0
                                     PENT 0 0 0 0 0 0 0 0 0
                              POWERSUPPLY 0 0 0 0 0 0 0 0 0
@@ -205,6 +185,28 @@
                                     ROAD 0 0 0 0 0 1 0 1 1
                                     BELL 0 1 0 0 0 1 0 1 1
                                     2GIG 0 0 0 0 0 0 0 1 1
+                               EVOLUTION 0 0 0 0 0 1 0 1 1
+                               NORTHLITE 0 0 1 0 0 0 0 0 1
+                               DEVELOPER 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                  BATTER 0 0 0 0 0 0 0 1 1
+                                   PLUGS 0 0 0 0 0 0 0 1 1
+                                 STORIES 0 0 0 0 0 1 0 1 1
+                                  SCHOOL 0 1 0 0 0 1 0 0 0
+                                CORE2DUO 0 0 0 0 0 0 0 0 0
+                               MID-TOWER 0 0 0 0 0 0 0 0 0
+                                   SHEET 0 0 0 0 0 1 0 0 0
+                                  FILTER 0 0 0 0 0 0 0 0 0
+                                   ORION 0 0 0 0 0 0 0 0 0
+                             MOTEHRBOARD 0 0 0 0 0 0 0 0 0
+                                  CONROE 0 0 0 0 0 0 0 0 0
+                                    TUBE 0 0 0 0 0 1 0 0 0
+                                  ARCTIC 0 0 1 0 0 0 0 0 0
+                                  SILVER 0 0 0 0 0 1 0 0 0
+                                     KIT 0 0 0 0 0 1 0 0 0
+                                     GTS 0 0 0 0 0 0 0 0 0
+                                   GAMER 0 0 0 0 0 0 0 0 0
+                                    10MS 0 0 0 0 0 0 0 0 0
                                SELECTION 0 0 0 0 0 1 0 1 1
                          TIGERDIRECT.COM 0 0 1 0 0 0 0 0 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
@@ -214,5 +216,3 @@
                                     1GIG 0 0 0 0 0 0 0 1 1
                               MOTORCYCLE 0 0 0 0 0 0 1 0 0
                                  600-800 0 0 0 7 0 0 0 1 1
-                               NORTHLITE 0 0 1 0 0 0 0 0 1
-                               EVOLUTION 0 0 0 0 0 1 0 1 1

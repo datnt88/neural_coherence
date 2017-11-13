@@ -1,4 +1,4 @@
-                                    TIME 1 1 0 0 0 1 0 1 1
+                                    TIME 1 1 0 0 0 1 0 1 0
                                   PERSON 0 1 0 0 0 1 0 1 1
                                     THAT 0 0 0 0 0 0 0 0 1
                                      THE 0 0 0 0 0 0 0 1 1
@@ -14,7 +14,7 @@
                                    SPEED 0 0 0 0 0 1 0 3 1
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
                                     PUMP 0 0 0 0 0 0 0 1 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 0
+                                  SYSTEM 0 1 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 0
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                    POWER 0 1 0 0 0 1 0 0 0
@@ -46,7 +46,7 @@
                                      RAM 0 0 1 0 0 1 0 0 1
                                     CASE 0 1 0 0 0 1 0 3 1
                                     FANS 0 0 0 0 0 1 0 1 1
-                                    SIDE 1 0 0 0 0 1 0 1 1
+                                    SIDE 1 0 0 0 0 1 0 1 0
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 2 1
                                       .. 0 0 0 0 0 1 0 1 1
@@ -70,13 +70,13 @@
                                  DESKTOP 0 0 0 0 0 0 1 1 1
                                   GAMING 0 0 0 0 0 0 0 1 1
                                      CPU 0 0 0 0 0 0 0 2 1
-                                   INTEL 0 0 1 0 0 1 0 1 1
+                                   INTEL 0 0 1 0 0 1 0 1 0
                                     CORE 0 0 0 0 0 1 0 1 1
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                              PERFORMANCE 1 1 0 0 0 1 0 0 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
-                                    PART 1 0 0 0 0 1 0 1 1
-                                   PRICE 0 1 0 0 0 1 0 2 0
+                                    PART 1 0 0 0 0 1 0 1 0
+                                   PRICE 0 1 0 0 0 1 0 2 1
                                     MUCH 0 0 0 0 0 0 1 1 1
                                    REPLY 0 0 0 0 0 1 0 1 1
                                  CHIPSET 0 0 0 0 0 0 0 1 1
@@ -136,7 +136,7 @@
                                   REPORT 1 1 0 0 0 1 0 1 1
                                     INFO 0 0 1 0 0 0 0 1 1
                                 SCENARIO 0 0 0 0 0 1 0 1 1
-                                    WEEK 1 0 0 6 0 1 0 1 1
+                                    WEEK 1 0 0 0 0 1 0 1 1
                                OPERATION 0 0 0 0 0 1 0 1 1
                                     INCH 0 0 0 0 0 0 0 0 0
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
@@ -153,7 +153,7 @@
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                    SITES 0 0 0 0 0 1 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 2 1
-                                 GATEWAY 0 0 0 0 0 0 0 3 0
+                                 GATEWAY 0 0 0 0 0 0 0 3 1
                                   PERIOD 0 0 0 0 0 1 0 1 1
                                    VISTA 0 0 0 0 0 0 0 0 1
                                   2.4GHZ 0 0 0 0 0 0 0 1 1
@@ -161,12 +161,12 @@
                                   COMPAQ 0 0 1 0 0 1 0 1 0
                                    STATE 0 1 0 0 0 1 0 0 0
                                      HEY 0 0 1 0 0 1 0 0 1
-                                   E6420 0 0 0 0 0 0 0 1 1
-                                   GAMER 0 0 0 0 0 0 0 1 1
                                  22&QUOT 0 0 0 0 0 0 0 1 1
                                     LACK 0 0 0 0 0 1 0 1 1
                                     SIZE 1 0 0 0 0 1 0 1 1
                               UPGRADABLE 0 0 0 0 0 0 0 1 1
+                                   E6420 0 0 0 0 0 0 0 1 1
+                                   GAMER 0 0 0 0 0 0 0 1 1
                                       X2 0 0 0 0 0 0 0 0 0
                                    6000+ 0 0 0 0 0 0 0 3 1
                                   PLAYER 0 0 0 0 0 1 0 1 1
@@ -212,7 +212,7 @@
                                 GATEWAYS 0 0 0 0 0 0 0 1 1
                                    SELLS 0 0 1 0 0 0 0 0 0
                               THING&QUOT 0 0 0 0 0 0 0 1 1
-                             BATTLEFIELD 0 0 0 0 0 0 0 1 0
+                             BATTLEFIELD 0 0 0 0 0 0 0 1 1
                              COMPARISENT 0 0 0 0 0 0 0 1 1
                              COMPUSA.COM 0 0 0 0 0 0 0 1 1
                                    E6750 0 0 0 0 0 0 0 2 1
@@ -224,7 +224,7 @@
                                      ARM 0 0 0 0 0 1 0 1 1
               EDITING/ENCODING/RECORDING 0 0 0 0 0 0 0 1 1
                                      BTX 0 0 0 0 0 0 0 0 0
-                                     LCS 0 0 0 0 0 0 0 1 1
+                                     LCS 0 0 0 0 0 0 0 1 0
                         TITLE-LSB-ALBEIT 0 0 0 0 0 0 0 1 1
                                     WIKI 0 0 1 0 0 0 0 0 0
                                     .COM 0 0 0 0 0 0 0 0 1

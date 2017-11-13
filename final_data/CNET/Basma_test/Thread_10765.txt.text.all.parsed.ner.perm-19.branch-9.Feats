@@ -25,10 +25,10 @@
                                   SUPPLY 0 0 0 0 0 1 0 2 1
                                    WEEKS 0 0 0 0 0 1 0 1 1
                                      ONE 0 0 0 0 0 1 0 2 1
-                                   DRIVE 0 0 0 0 0 1 0 1 0
+                                   DRIVE 0 0 0 0 0 1 0 1 1
                                    YEARS 1 1 0 6 0 1 0 1 1
                                     DISK 0 0 0 0 0 1 0 0 0
-                                 MACHINE 0 1 0 0 0 1 0 1 0
+                                 MACHINE 0 1 0 0 0 1 0 1 1
                                   MONTHS 1 1 0 0 0 1 0 1 1
                                DIFFERENT 0 0 0 0 0 0 0 1 1
                                     JUST 0 0 0 0 0 0 0 0 1
@@ -45,7 +45,7 @@
                                      AMD 0 0 0 0 0 1 0 1 1
                                      RAM 0 0 1 0 0 1 0 3 1
                                      PCI 0 0 0 0 0 0 0 0 0
-                                    CASE 0 1 0 0 0 1 0 2 1
+                                    CASE 0 1 0 0 0 1 0 2 0
                                    THING 0 0 0 0 0 1 0 2 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 1 1
@@ -58,9 +58,9 @@
                                     WORK 0 0 0 0 0 1 0 1 1
                                 KEYBOARD 0 0 0 0 0 0 0 1 1
                                     MORE 0 0 0 0 0 0 1 1 1
-                                WIRELESS 0 0 1 0 0 0 0 0 0
+                                WIRELESS 0 0 1 0 0 0 0 0 1
                                       OS 0 0 0 0 0 0 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 0 0
+                                 WINDOWS 0 0 0 0 0 1 0 0 1
                                   COUPLE 0 0 0 0 0 1 0 1 1
                                   AROUND 0 0 0 0 0 0 0 1 1
                                   GAMING 0 0 0 0 0 0 0 0 0
@@ -78,15 +78,15 @@
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 2 1
                                  THREADS 0 0 0 0 0 1 0 1 1
                                     GAME 0 0 0 0 0 1 0 1 1
-                                    COST 0 0 0 0 0 1 0 1 1
+                                    COST 0 0 0 0 0 1 0 1 0
                                        D 0 0 1 0 0 1 0 1 0
                                      PC. 0 0 0 0 0 0 0 1 1
                                    FIRST 0 1 0 0 0 1 0 1 1
                                     DELL 0 0 1 0 0 0 0 1 1
                                  MONITOR 0 0 0 0 0 0 0 1 1
                                     SLOT 0 0 0 0 0 1 0 1 1
-                                 BATTERY 0 0 0 0 0 1 0 1 0
-                                    CANT 0 0 0 0 0 0 0 0 1
+                                 BATTERY 0 0 0 0 0 1 0 1 1
+                                    CANT 0 0 0 0 0 0 0 0 0
                               COMPONENTS 0 0 0 0 0 1 0 1 1
                                     BLUE 0 0 0 0 0 1 0 1 1
                                      DVD 0 0 0 0 0 1 0 0 0
@@ -102,7 +102,7 @@
                                     POST 0 0 0 0 0 1 0 1 1
                                    ISSUE 0 1 0 0 0 1 0 1 1
                                    PLACE 0 0 0 0 0 1 0 1 1
-                                 SAMSUNG 0 0 1 0 0 1 0 0 0
+                                 SAMSUNG 0 0 1 0 0 1 0 0 1
                                     MOST 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 2 0
                                     ONES 0 0 0 0 0 1 0 1 1
@@ -111,7 +111,7 @@
                                    GAMES 0 0 0 0 0 1 0 2 1
                                     TEMP 0 0 0 0 0 0 0 1 1
                                    PASTE 0 0 0 0 0 0 0 1 1
-                                     END 0 0 0 0 0 1 0 1 0
+                                     END 0 0 0 0 0 1 0 1 1
                                COMPUTERS 0 0 0 0 0 1 0 3 1
                                      BOX 0 0 0 0 0 1 0 2 1
                                  QUALITY 0 0 0 0 0 1 0 1 1
@@ -133,13 +133,13 @@
                                      PCS 0 0 0 0 0 1 0 0 0
                                  EDITING 0 0 0 0 0 1 0 1 1
                                     SONY 0 1 1 0 0 1 0 0 0
-                                   VISTA 0 0 0 0 0 0 0 1 0
-                                       X 0 0 1 0 0 1 0 1 0
+                                   VISTA 0 0 0 0 0 0 0 1 1
+                                       X 0 0 1 0 0 1 0 1 1
                                   OTHERS 0 0 0 0 0 1 0 0 1
                                    KNOCK 0 0 0 0 0 0 0 0 0
                              SUGGESTIONS 0 0 0 0 0 1 0 1 1
                                  SPECIAL 0 0 0 7 0 1 0 1 1
-                                 BROTHER 0 0 0 0 0 1 0 1 0
+                                 BROTHER 0 0 0 0 0 1 0 1 1
                                      JIM 0 0 1 0 0 1 0 0 0
                                   COMPAQ 0 0 1 0 0 1 0 1 1
                                   FAMILY 0 1 0 0 0 1 0 0 0
@@ -152,13 +152,10 @@
                                   500BUX 0 0 0 0 0 0 0 0 1
                                  MUSTANG 0 0 0 0 0 1 0 1 1
                                 TINKERER 0 0 0 0 0 0 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
-                               DEVELOPER 0 0 0 0 0 0 0 1 1
-                                  SCHOOL 0 1 0 0 0 1 0 0 0
-                                   DEALS 0 0 0 0 0 1 0 0 1
                                COMPANIES 0 1 0 0 0 1 0 0 1
                                       I. 0 0 0 0 0 0 0 0 0
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 0 1
                                 FRIENDS. 0 0 0 0 0 0 0 1 1
                                      SAM 0 0 1 0 0 1 0 1 1
                                    BELLS 0 0 0 0 0 1 0 0 0
@@ -184,12 +181,16 @@
                             REQUIREMENTS 0 0 0 0 0 1 0 1 1
                               COMPROMISE 0 0 0 0 0 1 0 1 1
                                 FINDINGS 0 0 0 0 0 1 0 1 1
-                                BARNYARD 0 0 0 0 0 0 0 0 0
+                                BARNYARD 0 0 0 0 0 0 0 0 1
                                  SEMPRON 0 0 0 0 0 0 0 1 1
                                W/MONITOR 0 0 0 0 0 0 0 1 1
                                    ALTHO 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   STORMS 0 0 0 0 0 1 0 0 1
+                               NORTHLITE 0 0 1 0 0 0 0 0 1
+                                     10. 0 0 0 0 0 0 0 1 1
+                               DEVELOPER 0 0 0 0 0 0 0 1 1
+                                  SCHOOL 0 1 0 0 0 1 0 0 0
                                 OBLIVION 0 0 0 0 0 0 0 0 1
                                 GEFORCE4 0 0 0 0 0 0 0 0 0
                                       MX 0 0 1 0 0 0 0 0 0
@@ -200,4 +201,3 @@
                                DUAL-CORE 0 0 0 0 0 0 0 0 0
                                    6000+ 0 0 0 0 0 0 0 2 1
                                    SHELF 0 0 0 0 0 0 0 0 0
-                               NORTHLITE 0 0 1 0 0 0 0 0 1

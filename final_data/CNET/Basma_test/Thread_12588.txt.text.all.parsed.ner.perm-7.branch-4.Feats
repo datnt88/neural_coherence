@@ -31,13 +31,13 @@
                                        S 0 0 0 0 0 0 0 0 1
                                     LINK 0 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 1 1
-                                    HEAT 0 0 0 0 0 1 0 0 0
+                                    HEAT 0 0 1 0 0 1 0 0 1
                                     DUST 0 0 0 0 0 1 0 0 0
                                  BUNNIES 0 0 0 0 0 0 0 1 1
                                    THERE 0 0 0 0 0 0 1 0 1
                                  DRIVERS 0 1 0 0 0 1 0 1 1
                                     BOTH 0 0 0 0 0 0 1 0 1
-                                     RAM 0 0 1 0 0 1 0 2 0
+                                     RAM 0 0 1 0 0 1 0 2 1
                                    THING 0 0 0 0 0 1 0 1 1
                                       .. 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 2 1
@@ -49,11 +49,11 @@
                                    CHEAP 0 0 0 0 0 0 0 0 1
                                     DAYS 0 0 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 1 1
-                                      HP 0 0 1 0 0 0 0 0 1
+                                      HP 0 0 1 0 0 0 0 0 0
                                   LAPTOP 0 0 0 0 0 0 0 2 1
                                   AMAZON 0 0 1 0 0 0 1 0 0
                                   CHANGE 0 0 0 0 0 1 0 0 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 0
+                                 WINDOWS 0 0 0 0 0 1 0 1 1
                                    LIMIT 0 0 0 0 0 1 0 1 1
                                QUESTIONS 0 0 0 0 0 1 0 1 1
                                   SCREEN 0 0 0 0 0 1 0 1 1
@@ -70,7 +70,7 @@
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                    CLOSE 0 0 0 0 0 1 0 1 1
                                    MODEL 0 0 0 0 0 1 0 1 1
-                                     MAX 0 0 1 0 0 1 0 1 1
+                                     MAX 0 0 1 0 0 1 0 1 0
                                    TIMES 0 1 0 0 0 1 0 1 1
                                     GUYS 0 0 0 0 0 1 0 1 1
                                      BUY 0 0 0 0 0 0 0 0 0
@@ -89,14 +89,14 @@
                                     FORM 0 1 0 0 0 1 0 0 1
                                   FACTOR 0 0 0 0 0 1 0 0 1
                                     HELP 0 0 0 0 0 1 0 0 1
-                                   POINT 0 0 0 0 0 1 0 1 0
+                                   POINT 0 0 0 0 0 1 0 1 1
                                  PRODUCT 0 1 0 0 0 1 0 1 1
                                     ZERO 0 0 0 0 0 0 1 1 1
                                      BOX 0 0 0 0 0 1 0 0 0
                                  QUALITY 0 0 0 0 0 1 0 2 1
                                      WAY 1 0 0 0 0 1 0 1 1
                                     DATA 0 0 0 0 0 1 0 0 0
-                                  WIZARD 0 0 1 0 0 1 0 1 1
+                                  WIZARD 0 0 1 0 0 1 0 1 0
                                 DESKTOPS 0 0 0 0 0 0 0 1 0
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                      CDS 0 0 0 0 0 1 0 1 1
@@ -104,7 +104,7 @@
                                    STUFF 0 0 0 0 0 1 0 0 1
                                     HOPE 0 0 0 0 0 1 0 0 1
                                   MODULE 0 0 0 0 0 0 0 1 1
-                                    INFO 0 0 0 0 0 0 0 2 1
+                                    INFO 0 0 0 0 0 0 0 2 0
                                    TYPES 0 1 0 0 0 1 0 1 1
                                      &GT 0 0 0 0 0 0 0 0 1
                                  CONCERN 1 0 0 0 0 1 0 1 1
@@ -133,16 +133,16 @@
                                    ROOMS 0 0 0 0 0 1 0 2 1
                                      AIR 0 0 0 0 0 1 0 1 1
                                     PACK 0 0 0 0 0 0 0 1 1
-                                    ISNT 0 0 0 0 0 0 0 1 1
                                 CHEAPEST 0 0 0 0 0 0 0 1 1
                                      GIG 0 0 0 0 0 0 0 1 1
+                                    ISNT 0 0 0 0 0 0 0 1 1
                                SELECTION 0 0 0 0 0 1 0 1 1
                              EXPLANATION 0 0 0 0 0 1 0 1 1
                                       YA 0 0 0 0 0 0 1 0 1
                          RECOMMENDATIONS 0 1 0 0 0 1 0 1 1
                                    HOURS 0 0 0 0 0 1 0 1 1
                                     DOCS 0 0 0 0 0 0 0 2 1
-                             PROGRAMMING 0 0 0 0 0 1 0 0 1
+                             PROGRAMMING 0 0 0 0 0 1 0 0 0
                                 BEHAVIOR 0 0 0 0 0 1 0 2 1
                                     PINS 0 0 0 0 0 1 0 0 1
                                  MANUALS 0 0 0 0 0 1 0 1 1
@@ -158,7 +158,7 @@
                                      WIT 0 0 0 0 0 1 0 0 1
                                    THAT. 0 0 0 0 0 1 0 0 1
                                   333MHZ 0 0 0 0 0 0 0 2 1
-                                 DIGGING 0 0 0 0 0 0 1 0 0
+                                 DIGGING 0 0 0 0 0 0 1 0 1
                                 DV6375US 0 0 0 0 0 0 0 1 1
                              SUGESSTIONS 0 0 0 0 0 0 0 1 1
                                     CPUZ 0 0 1 0 0 0 0 1 1

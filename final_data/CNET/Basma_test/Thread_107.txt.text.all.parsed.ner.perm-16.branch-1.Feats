@@ -1,13 +1,13 @@
                                     TIME 1 1 0 0 0 1 0 1 0
                                 LOCATION 0 0 0 0 0 1 0 0 0
                                     THAT 0 0 0 0 0 0 0 0 1
-                                  SYSTEM 0 1 0 0 0 1 0 1 1
+                                  SYSTEM 0 1 0 0 0 1 0 1 0
                                    INPUT 0 0 0 0 0 0 1 0 0
                                 HARDWARE 0 0 0 0 0 0 0 0 0
                                 COMPUTER 0 1 0 0 0 1 0 0 0
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 1 1
-                                    DISK 0 0 0 0 0 1 0 1 0
+                                    DISK 0 0 0 0 0 1 0 1 1
                                  NOTHING 0 0 0 0 0 1 0 0 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                    ERROR 0 0 0 0 0 1 0 0 0
@@ -15,7 +15,7 @@
                                      HOW 0 0 0 0 0 0 1 0 1
                                     LINK 0 0 0 0 0 1 0 0 0
                               CONNECTION 0 0 0 0 0 1 0 0 0
-                                  NVIDIA 0 0 0 0 0 0 0 0 1
+                                  NVIDIA 0 0 0 0 0 0 0 0 0
                                   DEVICE 0 0 0 0 0 1 0 0 0
                                     USER 0 0 0 0 0 1 0 0 0
                            CONFIGURATION 0 0 0 0 0 0 0 0 0
@@ -26,9 +26,9 @@
                               MANAGEMENT 0 1 0 0 0 1 0 0 0
                                  DISPLAY 0 0 0 0 0 1 0 0 0
                                  SUPPORT 0 0 0 0 0 1 0 0 0
-                                 UPDATES 0 0 0 0 0 0 0 1 0
+                                 UPDATES 0 0 0 0 0 0 0 1 1
                                      IDK 0 0 1 0 0 0 0 0 1
-                                    PLUG 0 0 0 0 0 0 1 1 1
+                                    PLUG 0 0 0 0 0 0 1 1 0
                                  NETWORK 0 0 0 0 0 1 0 0 0
                                  MANAGER 1 0 0 0 0 1 0 3 0
                                    IMAGE 1 0 0 0 0 1 0 0 0
@@ -40,8 +40,8 @@
                                   ACCESS 0 0 0 0 0 1 0 0 0
                                 SOFTWARE 0 1 0 0 0 1 0 2 1
                                   TCP/IP 0 0 0 0 0 0 0 0 0
-                                 SERVICE 0 0 0 0 0 1 0 2 1
-                             CONNECTIONS 0 0 0 0 0 1 0 2 0
+                                 SERVICE 0 0 0 0 0 1 0 2 0
+                             CONNECTIONS 0 0 0 0 0 1 0 2 1
                                     MODE 0 0 0 0 0 1 0 1 1
                                    START 0 0 0 0 0 1 0 1 1
                               EXPERIENCE 0 0 0 0 0 1 0 0 0
@@ -54,7 +54,7 @@
                                   CENTER 0 0 0 0 0 1 0 0 0
                                DETECTION 0 0 0 0 0 0 0 0 0
                                      NAT 0 0 0 0 0 0 0 0 0
-                                SERVICES 1 0 0 0 0 1 0 1 0
+                                SERVICES 1 0 0 0 0 1 0 1 1
                                  GATEWAY 0 0 0 0 0 0 0 0 0
                                  PROFILE 0 0 0 0 0 1 0 2 1
                                    VISTA 0 0 0 0 0 0 0 0 1
@@ -63,7 +63,7 @@
                                    KODAK 0 0 0 0 0 1 0 0 0
                                      NET 0 0 0 0 0 1 0 0 1
                                        C 0 0 1 0 0 1 0 0 0
-                                 COMMAND 0 0 0 0 0 1 0 1 0
+                                 COMMAND 0 0 0 0 0 1 0 1 1
                                 COMMANDS 0 0 0 0 0 1 0 1 1
                                 SECURITY 0 0 0 0 0 1 0 0 0
                                  STORAGE 0 0 0 0 0 0 0 0 0
@@ -88,8 +88,8 @@
                                      RPC 0 0 0 0 0 0 0 0 0
                                 ACCOUNTS 0 0 0 0 0 1 0 1 1
                             NOTIFICATION 0 0 0 0 0 0 0 0 0
-                               SCHEDULER 0 0 0 0 0 0 0 1 0
-                                 NETBIOS 0 0 0 0 0 0 0 1 0
+                               SCHEDULER 0 0 0 0 0 0 0 1 1
+                                 NETBIOS 0 0 0 0 0 0 0 1 1
                                   HELPER 0 0 1 0 0 0 0 0 0
                                TELEPHONY 0 0 0 0 0 0 0 0 0
                                     HIVE 0 0 1 0 0 0 0 0 0

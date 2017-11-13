@@ -6,7 +6,7 @@
                                      BIT 0 0 0 0 0 1 0 1 1
                               DIFFERENCE 0 0 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 3 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                  FAILING 0 0 0 0 0 0 0 1 1
@@ -49,8 +49,8 @@
                                     MORE 0 0 0 0 0 0 1 0 1
                                  THOUGHT 0 0 0 0 0 1 0 1 1
                                   REASON 0 0 0 0 0 1 0 1 1
-                                      OS 0 0 0 0 0 0 0 1 0
-                                 WINDOWS 0 0 0 0 0 1 0 1 1
+                                      OS 0 0 0 0 0 0 0 1 1
+                                 WINDOWS 0 0 0 0 0 1 0 1 0
                                     SATA 0 0 0 0 0 0 0 0 0
                                     COPY 0 0 0 0 0 1 0 0 0
                                SOMETHING 0 0 0 0 0 1 0 2 1
@@ -62,7 +62,7 @@
                                     COMP 0 0 0 0 0 0 0 1 1
                                   SWITCH 0 0 0 0 0 1 0 1 1
                                    CABLE 0 0 0 0 0 1 0 1 1
-                              MANAGEMENT 0 1 0 0 0 1 0 1 0
+                              MANAGEMENT 0 1 0 0 0 1 0 1 1
                                    TODAY 0 0 0 6 0 1 0 0 1
                                    FORUM 0 0 0 0 0 1 0 0 0
                                    ISSUE 0 1 0 0 0 1 0 1 1
@@ -80,7 +80,7 @@
                                 FIRMWARE 0 0 0 0 0 0 0 1 1
                                     HELP 0 0 0 0 0 1 0 1 1
                                 RESPONSE 0 0 0 0 0 1 0 0 0
-                                   ESATA 0 0 0 0 0 0 0 0 1
+                                   ESATA 0 0 0 0 0 0 0 0 0
                                PARTITION 0 0 0 0 0 0 1 0 0
                                     PORT 0 0 0 0 0 1 0 2 0
                             INSTALLATION 0 0 0 0 0 1 0 1 1
@@ -95,7 +95,7 @@
                                  DEFAULT 0 0 0 0 0 1 0 1 1
                                    BOARD 0 1 0 0 0 1 0 0 0
                                    START 0 0 0 0 0 1 0 0 0
-                                    DISC 0 0 1 0 0 1 0 2 1
+                                    DISC 0 0 0 0 0 1 0 2 0
                                   MAKERS 0 0 0 0 0 1 0 1 1
                                   OPTION 0 0 0 0 0 1 0 1 1
                                     NONE 0 0 0 0 0 1 0 1 1
@@ -110,10 +110,10 @@
                                   SCREWS 0 0 0 0 0 0 0 1 1
                                  SECONDS 0 0 0 0 0 1 0 1 1
                                  REASONS 0 0 0 0 0 1 0 1 1
-                                    LINE 0 0 0 0 0 1 0 2 0
+                                    LINE 0 0 0 0 0 1 0 2 1
                                     NOTE 0 0 0 0 0 1 0 0 0
                                   SOURCE 0 0 0 0 0 1 0 1 1
-                                  SEARCH 0 0 0 0 0 1 0 1 0
+                                  SEARCH 0 0 0 0 0 1 0 1 1
                                      BET 0 0 0 0 0 1 0 1 1
                                     SITE 0 0 0 0 0 1 0 1 1
                                     KEES 0 0 1 0 0 0 0 0 1
@@ -123,7 +123,7 @@
                                   MOVIES 0 0 0 0 0 1 0 0 1
                                   RECORD 0 0 0 0 0 1 0 1 1
                                       GB 0 0 0 0 0 0 0 1 1
-                                    FILE 0 0 0 0 0 1 0 1 1
+                                    FILE 0 0 0 0 0 1 0 1 0
                                    DISKS 0 0 0 0 0 1 0 1 1
                                     RPMS 0 0 0 0 0 0 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 1 1
@@ -134,10 +134,10 @@
                                  COMMAND 0 0 0 0 0 1 0 0 0
                                 COMMANDS 0 0 0 0 0 1 0 1 1
                                    NOTES 0 1 0 0 0 1 0 1 1
-                                   SHEET 0 0 0 0 0 1 0 1 1
-                                     KIT 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                   ZALMAN 0 0 1 0 0 0 0 1 1
+                                   SHEET 0 0 0 0 0 1 0 1 1
+                                     KIT 0 0 0 0 0 1 0 1 1
                                      MSN 0 0 0 0 0 1 0 0 0
                                 REACTION 0 0 0 0 0 1 0 1 1
                                      RPM 0 0 0 0 0 0 0 2 1
@@ -176,7 +176,7 @@
                                  COPYING 0 0 0 0 0 0 0 0 1
                               THUMBNAILS 0 0 0 0 0 0 0 0 1
                                    BUGGY 0 0 0 0 0 0 0 1 1
-                                      TB 0 0 0 0 0 0 0 1 0
+                                      TB 0 0 0 0 0 0 0 1 1
                                    XCOPY 0 0 0 0 0 0 0 2 1
                                    PATHS 0 0 0 0 0 1 0 0 0
                                WILDCARDS 0 0 0 0 0 0 0 1 1

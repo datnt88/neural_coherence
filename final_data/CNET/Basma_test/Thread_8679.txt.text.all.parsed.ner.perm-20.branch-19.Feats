@@ -50,7 +50,7 @@
                                     FOLK 0 0 0 0 0 0 0 1 1
                                       OS 0 0 0 0 0 0 0 1 1
                                  TABLETS 0 0 0 0 0 1 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 0 0
+                                 WINDOWS 0 0 0 0 0 1 0 0 1
                                OPERATING 0 0 0 0 0 0 0 0 0
                                  GENERIC 0 0 0 0 0 0 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
@@ -74,8 +74,8 @@
                                   SCHEME 0 0 0 0 0 1 0 1 1
                                  ANDROID 0 0 0 0 0 0 0 0 1
                                  SAMSUNG 0 0 1 0 0 1 0 0 1
-                                   APPLE 0 0 0 0 0 1 0 2 0
-                                    IPAD 0 0 0 0 0 0 0 3 1
+                                   APPLE 0 0 0 0 0 1 0 2 1
+                                    IPAD 0 0 1 0 0 0 0 3 1
                                     FORM 0 1 0 0 0 1 0 1 1
                                     FIRE 0 0 0 0 0 1 0 1 1
                                 QUESTION 0 0 0 0 0 1 0 2 1
@@ -102,7 +102,7 @@
                                     NONE 0 0 0 0 0 1 0 0 1
                                  FEATURE 0 0 0 0 0 1 0 1 1
                             MANUFACTURER 0 0 0 0 0 1 0 1 1
-                                    NAME 0 0 0 0 0 1 0 3 0
+                                    NAME 0 0 0 0 0 1 0 3 1
                                    DRINK 0 0 0 0 0 0 0 1 1
                                   GOOGLE 0 0 0 0 0 0 0 0 1
                                     MASS 0 0 0 0 0 1 0 0 0
@@ -120,7 +120,7 @@
                                 SERVICES 1 0 0 0 0 1 0 1 1
                                   PERIOD 0 0 0 0 0 1 0 1 1
                                   IPHONE 0 0 0 0 0 0 0 1 1
-                                    IPOD 0 0 0 0 0 0 0 1 1
+                                    IPOD 0 0 0 0 0 0 0 1 0
                                    TOUCH 0 0 0 0 0 1 0 0 0
                                   OTHERS 0 0 0 0 0 1 0 1 1
                                 INCREASE 1 1 0 0 0 1 0 1 1
@@ -164,9 +164,9 @@
                                    NAMES 0 0 0 0 0 1 0 1 1
                                     TERM 0 0 0 0 0 1 0 1 1
                                   APPLES 0 0 0 0 0 1 0 1 1
+                                   KINDS 0 0 0 0 0 1 0 1 1
                                     RULE 0 1 0 0 0 1 0 1 1
                                   MORTAR 0 0 0 0 0 1 0 0 0
-                                   KINDS 0 0 0 0 0 1 0 1 1
                              OPPORTUNITY 0 0 0 0 0 1 0 1 1
                                  CIRCLES 0 0 0 0 0 1 0 1 1
                                     ODDS 0 0 0 0 0 1 0 1 1
@@ -195,6 +195,22 @@
                                     SAVY 0 0 0 0 0 0 0 1 1
                                     WARS 0 0 0 0 0 1 0 0 1
                                   GADGET 0 0 0 0 0 0 0 0 1
+                                    COKE 0 1 0 0 0 1 0 1 0
+                               COKE&QUOT 0 0 0 0 0 0 0 1 1
+                                   PEPSI 0 0 0 0 0 1 0 1 1
+                                    COLA 0 0 0 0 0 0 0 1 1
+                                  BUCKET 0 0 0 0 0 0 0 1 1
+                                   SODAS 0 0 0 0 0 0 0 0 0
+                              RESTAURANT 0 0 0 0 0 1 0 1 1
+                                 KLEENEX 0 0 0 0 0 0 0 1 1
+                                  SNEEZE 0 0 0 0 0 0 0 1 1
+                                  TISSUE 0 0 0 0 0 1 0 1 1
+                                 LINEAGE 0 0 0 0 0 0 0 1 1
+                          INCOMPTABILITY 0 0 0 0 0 0 0 1 1
+                               IPAD&QUOT 0 0 0 0 0 0 0 0 1
+                                  SUITES 0 0 0 0 0 1 0 1 1
+                                    ITAB 0 0 0 0 0 0 0 1 1
+                                  -LSB-& 0 0 0 0 0 0 0 0 0
                                     BUZZ 0 0 0 0 0 1 0 1 1
                                COMMODITY 0 0 0 0 0 0 0 1 1
                        TABLETS/E-READERS 0 0 0 0 0 0 0 1 1
@@ -210,11 +226,9 @@
                                 VICTROLA 0 0 0 0 0 0 0 1 1
                                JEEP&QUOT 0 0 0 0 0 0 0 0 1
                              IEVERYTHING 0 0 0 0 0 0 0 0 1
-                                    COKE 0 1 0 0 0 1 0 1 1
                                  HOOVERS 0 0 0 0 0 0 0 0 1
                                 MIGRANTS 0 0 0 0 0 1 0 1 1
                                     POMS 0 0 0 0 0 0 0 0 1
-                                 KLEENEX 0 0 0 0 0 0 0 1 1
                               POPULATION 0 0 0 0 0 1 0 1 1
                                     AGES 0 0 0 0 0 1 0 1 1
                            FOUNTAIN&QUOT 0 0 0 0 0 0 0 1 1
@@ -225,20 +239,6 @@
                                  ANDRIOD 0 0 0 0 0 0 0 0 0
                                PUBLICITY 0 0 0 0 0 1 0 1 0
                                     HYPE 0 0 0 0 0 1 0 1 1
-                               COKE&QUOT 0 0 0 0 0 0 0 1 1
-                                   PEPSI 0 0 0 0 0 1 0 1 1
-                                    COLA 0 0 0 0 0 0 0 1 0
-                                  BUCKET 0 0 0 0 0 0 0 1 1
-                                   SODAS 0 0 0 0 0 0 0 0 0
-                              RESTAURANT 0 0 0 0 0 1 0 1 1
-                                  SNEEZE 0 0 0 0 0 0 0 1 1
-                                  TISSUE 0 0 0 0 0 1 0 1 1
-                                 LINEAGE 0 0 0 0 0 0 0 1 1
-                          INCOMPTABILITY 0 0 0 0 0 0 0 1 1
-                               IPAD&QUOT 0 0 0 0 0 0 0 0 1
-                                  SUITES 0 0 0 0 0 1 0 1 1
-                                    ITAB 0 0 0 0 0 0 0 1 1
-                                  -LSB-& 0 0 0 0 0 0 0 0 0
                                SODA&QUOT 0 0 0 0 0 0 0 0 1
                                 LEMONADE 0 0 0 0 0 0 0 0 0
                                   HOOVER 0 0 1 0 0 1 0 1 1

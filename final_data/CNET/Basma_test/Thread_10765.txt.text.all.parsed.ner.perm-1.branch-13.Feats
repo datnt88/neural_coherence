@@ -11,7 +11,7 @@
                                    CARDS 0 0 0 0 0 1 0 1 1
                                  UPGRADE 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
-                                    YEAR 0 1 0 0 0 1 0 1 1
+                                    YEAR 0 1 0 6 0 1 0 1 1
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 3 1
@@ -29,7 +29,7 @@
                                     THIS 0 0 0 0 0 1 0 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
                                       PC 0 0 0 0 0 1 0 2 1
-                                       S 0 0 1 0 0 0 0 0 0
+                                       S 0 0 0 0 0 0 0 0 1
                                   COURSE 0 0 0 0 0 1 0 0 1
                                    WHILE 0 0 0 0 0 1 0 1 1
                                      ANY 0 0 0 0 0 0 1 1 1
@@ -75,13 +75,13 @@
                                     JUNK 0 0 0 0 0 0 1 0 1
                                  PENTIUM 0 0 0 0 0 0 0 0 0
                                   ONLINE 0 0 0 0 0 1 0 1 1
-                                    DELL 0 0 1 0 0 0 0 1 1
+                                    DELL 0 0 1 0 0 0 0 1 0
                                     SLOT 0 0 0 0 0 1 0 2 1
                                   MIDDLE 0 0 0 0 0 1 0 1 1
                                     CANT 0 0 0 0 0 0 0 0 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
                                    STORY 0 0 0 0 0 1 0 1 1
-                                  ATHLON 0 0 0 0 0 0 0 1 0
+                                  ATHLON 0 0 0 0 0 0 0 1 1
                                       XP 0 0 0 0 0 0 0 1 1
                                     DONT 0 0 0 0 0 0 0 1 1
                                    SLOTS 0 0 0 0 0 1 0 1 1
@@ -96,12 +96,12 @@
                                     DEAL 0 0 0 0 0 1 0 1 1
                                   DRIVER 0 0 0 0 0 1 0 1 1
                                    GAMES 0 0 0 0 0 1 0 2 1
-                                     END 0 0 0 0 0 1 0 1 1
+                                     END 0 0 0 0 0 1 0 1 0
                                COMPUTERS 0 0 0 0 0 1 0 3 1
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
                                  QUALITY 0 0 0 0 0 1 0 0 1
-                                    HOME 0 0 0 0 0 1 0 1 0
+                                    HOME 0 0 0 0 0 1 0 1 1
                                   OFFICE 0 0 0 0 0 1 0 1 0
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
                                     TYPE 0 0 0 0 0 1 0 1 1
@@ -135,7 +135,7 @@
                                  SPECIAL 0 0 0 7 0 1 0 1 1
                                       ID 0 0 0 0 0 0 1 0 1
                                       IV 0 0 1 0 0 1 0 0 1
-                                  COMPAQ 0 0 1 0 0 1 0 1 0
+                                  COMPAQ 0 0 1 0 0 1 0 1 1
                                   FAMILY 0 1 0 0 0 1 0 0 0
                                 DOCUMENT 1 0 0 0 0 1 0 1 1
                                  CONTROL 0 0 0 0 0 1 0 1 1
@@ -155,10 +155,6 @@
                             SUPERCHARGER 0 0 0 0 0 0 0 1 1
                                    COSTS 0 0 0 0 0 1 0 1 1
                                  ABILITY 0 1 0 0 0 1 0 1 1
-                               DEVELOPER 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                     X16 0 0 0 0 0 0 0 1 1
-                                      X1 0 0 0 0 0 0 0 1 1
                                     WISE 0 0 0 0 0 1 0 1 1
                                      GIG 0 0 0 0 0 0 0 1 1
                                     LACK 0 0 0 0 0 1 0 1 1
@@ -167,7 +163,7 @@
                                   OUTLET 0 0 0 0 0 0 0 1 1
                                   REBATE 0 0 0 0 0 0 1 0 0
                                 SCAMMERS 0 0 0 0 0 0 0 0 1
-                                BARNYARD 0 0 0 0 0 0 0 1 0
+                                BARNYARD 0 0 0 0 0 0 0 1 1
                                PREFERRED 0 0 0 0 0 0 0 1 1
                                    ALTHO 0 0 0 0 0 0 0 1 1
                                     ROAD 0 0 0 0 0 1 0 1 1
@@ -175,6 +171,10 @@
                                     2GIG 0 0 0 0 0 0 0 1 1
                                  FRIENDS 0 0 0 0 0 1 0 1 1
                                   STORMS 0 0 0 0 0 1 0 0 1
+                               DEVELOPER 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                     X16 0 0 0 0 0 0 0 1 1
+                                      X1 0 0 0 0 0 0 0 1 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1
                                       TM 0 0 0 0 0 0 0 0 1

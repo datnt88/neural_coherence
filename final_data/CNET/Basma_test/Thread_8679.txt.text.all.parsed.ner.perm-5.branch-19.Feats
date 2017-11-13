@@ -8,7 +8,7 @@
                                    RIGHT 1 1 0 0 0 1 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 1 1
-                                COMPUTER 0 1 0 0 0 1 0 1 1
+                                COMPUTER 0 1 0 0 0 1 0 1 0
                                    THOSE 0 0 0 0 0 0 1 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                    MUSIC 0 0 0 0 0 1 0 0 0
@@ -17,7 +17,7 @@
                                     THIS 0 0 0 0 0 1 0 0 1
                                      TWO 0 0 0 0 0 0 1 1 1
                                      UPS 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 1 0 0 1 0 1 1
+                                      PC 0 0 0 0 0 1 0 1 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                 ANYTHING 0 0 0 0 0 1 0 1 1
                                       AS 0 0 1 0 0 1 0 0 1
@@ -31,7 +31,7 @@
                                       .. 0 0 0 0 0 1 0 1 1
                                   THINGS 0 0 0 0 0 1 0 1 1
                                   TABLET 0 0 0 0 0 0 0 3 1
-                                   PHONE 0 0 0 0 0 1 0 1 1
+                                   PHONE 0 0 0 0 0 1 0 1 0
                                    FLASH 0 0 0 0 0 0 0 1 1
                                 FEATURES 0 0 0 0 0 1 0 0 1
                                   DEVICE 0 0 0 0 0 1 0 1 1
@@ -64,8 +64,8 @@
                                    CLASS 0 1 0 0 0 1 0 1 1
                                   SCHEME 0 0 0 0 0 1 0 1 1
                                  SAMSUNG 0 0 1 0 0 1 0 0 1
-                                   APPLE 0 0 0 0 0 1 0 1 0
-                                    IPAD 0 0 1 0 0 0 0 3 1
+                                   APPLE 0 0 0 0 0 1 0 1 1
+                                    IPAD 0 0 0 0 0 0 0 3 1
                                     FORM 0 1 0 0 0 1 0 1 1
                                     FIRE 0 0 0 0 0 1 0 1 1
                                 QUESTION 0 0 0 0 0 1 0 2 1
@@ -74,7 +74,7 @@
                                     PAST 0 0 0 0 0 1 0 1 1
                                    POINT 0 0 0 0 0 1 0 1 1
                                 RESPONSE 0 0 0 0 0 1 0 0 1
-                                 PRODUCT 0 1 0 0 0 1 0 2 1
+                                 PRODUCT 0 1 0 0 0 1 0 2 0
                                COMPUTERS 0 0 0 0 0 1 0 1 1
                                      MAC 0 0 1 0 0 1 0 0 0
                            COMMUNICATION 0 0 0 0 0 1 0 0 0
@@ -101,7 +101,7 @@
                                     MIND 0 0 0 0 0 1 0 0 1
                                    OWNER 0 0 0 0 0 1 0 2 1
                                     LINE 0 0 0 0 0 1 0 1 1
-                                 PLAYERS 0 0 0 0 0 1 0 1 1
+                                 PLAYERS 0 0 0 0 0 1 0 1 0
                                      MP3 0 0 0 0 0 0 0 0 0
                                     HEAD 0 0 0 0 0 1 0 1 1
                                  DEVICES 0 1 0 0 0 1 0 1 1
@@ -111,7 +111,7 @@
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                 PRODUCTS 0 1 0 0 0 1 0 3 1
                                     SONY 0 1 1 0 0 1 0 0 1
-                                  IPHONE 0 0 0 0 0 0 0 1 1
+                                  IPHONE 0 0 0 0 0 0 0 1 0
                                     IPOD 0 0 0 0 0 0 0 1 1
                                 PORTABLE 0 0 0 0 0 0 0 1 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
@@ -134,7 +134,7 @@
                                   DESIGN 0 0 0 0 0 1 0 1 1
                                  COUNTRY 0 0 0 0 0 1 0 1 1
                                COUNTRIES 0 1 0 0 0 1 0 1 1
-                                   WATER 0 0 0 0 0 1 0 1 1
+                                   WATER 0 0 0 0 0 1 0 1 0
                                 CLEANERS 0 0 0 0 0 0 0 1 1
                                  CONSOLE 0 0 0 0 0 0 0 0 1
                                  PRICING 0 0 0 0 0 0 0 0 1
@@ -181,6 +181,21 @@
                                      PEN 0 0 0 0 0 1 0 1 1
                                   GADGET 0 0 0 0 0 0 0 0 1
                                 ADOPTION 0 0 0 0 0 0 0 1 1
+                                    COKE 0 1 0 0 0 1 0 1 1
+                                   PEPSI 0 0 0 0 0 1 0 0 1
+                                    COLA 0 0 0 0 0 0 0 0 1
+                                  BUCKET 0 0 0 0 0 0 0 1 1
+                                   SODAS 0 0 0 0 0 0 0 0 0
+                              RESTAURANT 0 0 0 0 0 1 0 1 1
+                                 KLEENEX 0 0 0 0 0 0 0 1 1
+                                  SNEEZE 0 0 0 0 0 0 0 1 1
+                                  TISSUE 0 0 0 0 0 1 0 1 1
+                                 LINEAGE 0 0 0 0 0 0 0 1 1
+                                SPIKE715 0 0 0 0 0 0 0 0 1
+                               IPAD&QUOT 0 0 0 0 0 0 0 0 1
+                                  SUITES 0 0 0 0 0 1 0 1 1
+                                    ITAB 0 0 0 0 0 0 0 1 1
+                                  -LSB-& 0 0 0 0 0 0 0 0 0
                                     BUZZ 0 0 0 0 0 1 0 1 1
                                COMMODITY 0 0 0 0 0 0 0 1 1
                            ABBREVIATIONS 0 0 0 0 0 0 0 1 1
@@ -194,14 +209,12 @@
                               HAIRS&QUOT 0 0 0 0 0 0 0 1 1
                                    EDSEL 0 0 1 0 0 0 0 0 0
                                COMMODORE 0 0 1 0 0 0 0 0 0
-                                    COKE 0 1 0 0 0 1 0 1 0
                                   SLANGS 0 0 0 0 0 0 0 1 1
                                  HOOVERS 0 0 0 0 0 0 0 0 1
                                 MIGRANTS 0 0 0 0 0 1 0 1 1
                                     POMS 0 0 0 0 0 0 0 0 1
                                     PENS 0 0 0 0 0 0 0 1 1
                                     BIRO 0 0 0 0 0 1 0 0 1
-                                 KLEENEX 0 0 0 0 0 0 0 1 1
                                  TISSUES 0 0 0 0 0 1 0 1 1
                               POPULATION 0 0 0 0 0 1 0 1 1
                                     AGES 0 0 0 0 0 1 0 1 1
@@ -211,19 +224,6 @@
                                    I-PAD 0 0 0 0 0 0 0 1 1
                                  ANDRIOD 0 0 0 0 0 0 0 0 0
                                PUBLICITY 0 0 0 0 0 1 0 1 1
-                                   PEPSI 0 0 0 0 0 1 0 0 1
-                                    COLA 0 0 0 0 0 0 0 0 1
-                                  BUCKET 0 0 0 0 0 0 0 1 1
-                                   SODAS 0 0 0 0 0 0 0 0 0
-                              RESTAURANT 0 0 0 0 0 1 0 1 1
-                                  SNEEZE 0 0 0 0 0 0 0 1 1
-                                  TISSUE 0 0 0 0 0 1 0 1 1
-                                 LINEAGE 0 0 0 0 0 0 0 1 1
-                                SPIKE715 0 0 0 0 0 0 0 0 1
-                               IPAD&QUOT 0 0 0 0 0 0 0 0 1
-                                  SUITES 0 0 0 0 0 1 0 1 1
-                                    ITAB 0 0 0 0 0 0 0 1 1
-                                  -LSB-& 0 0 0 0 0 0 0 0 0
                                     SODA 0 0 0 0 0 0 0 1 0
                                 LEMONADE 0 0 0 0 0 0 0 0 0
                                   HOOVER 0 0 1 0 0 1 0 1 1

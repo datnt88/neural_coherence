@@ -8,7 +8,7 @@
                                     SOME 0 0 0 0 0 0 1 1 1
                                    ORDER 0 0 0 0 0 1 0 0 0
                                    512MB 0 0 0 0 0 0 0 1 1
-                                   VIDEO 0 1 0 0 0 1 0 2 1
+                                   VIDEO 0 1 0 0 0 1 0 2 0
                                     CARD 0 1 0 0 0 1 0 2 1
                                       OC 0 0 1 0 0 0 0 1 1
                                   ANSWER 0 0 0 0 0 1 0 1 1
@@ -23,7 +23,7 @@
                                   SYSTEM 0 1 0 0 0 1 0 3 1
                                      NEW 0 0 0 0 0 1 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 1
-                                COMPUTER 0 1 0 0 0 1 0 3 0
+                                COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 2 1
@@ -39,7 +39,7 @@
                                     KIND 0 0 0 0 0 1 0 1 1
                                    BEING 0 0 0 0 0 1 0 0 0
                                     THIS 0 0 0 0 0 1 0 0 1
-                             MOTHERBOARD 0 0 0 0 0 0 0 2 1
+                             MOTHERBOARD 0 0 0 0 0 0 0 2 0
                                       PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                   AND/OR 0 0 0 0 0 0 0 0 0
@@ -59,7 +59,7 @@
                                    THING 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 1 1
                                      LOT 0 0 0 0 0 1 0 3 1
-                                   MODEM 0 0 0 0 0 1 0 1 1
+                                   MODEM 0 0 0 0 0 1 0 1 0
                                       'S 0 0 0 0 0 0 0 0 1
                                 FEATURES 0 0 0 0 0 1 0 1 1
                                     DAYS 0 0 0 0 0 1 0 1 1
@@ -67,7 +67,7 @@
                                     ETC. 0 0 0 0 0 0 0 2 1
                                      TOY 0 0 0 0 0 1 0 1 1
                                     LIST 0 0 0 0 0 1 0 1 1
-                                    WORK 0 0 0 0 0 1 0 1 0
+                                    WORK 0 0 0 0 0 1 0 1 1
                                       HP 0 0 1 0 0 0 0 0 1
                                      FUN 0 0 0 0 0 1 0 0 1
                                     MANY 0 0 0 0 0 0 1 1 1
@@ -83,8 +83,8 @@
                                    INTEL 0 0 1 0 0 1 0 1 0
                                 GRAPHICS 0 0 0 0 0 1 0 0 0
                                     PART 1 0 0 0 0 1 0 2 1
-                                   PRICE 0 1 0 0 0 1 0 1 1
-                                   BRAND 0 0 0 0 0 1 0 1 0
+                                   PRICE 0 1 0 0 0 1 0 1 0
+                                   BRAND 0 0 0 0 0 1 0 1 1
                                   CHOICE 0 0 0 0 0 1 0 1 1
                                    PARTS 1 0 0 0 0 1 0 3 1
                                      RIG 0 0 0 0 0 0 0 1 1
@@ -92,7 +92,7 @@
                                    KINDA 0 0 0 0 0 0 0 0 1
                                     PLAN 0 1 0 0 0 1 0 0 0
                                   PEOPLE 0 1 0 0 0 1 0 1 1
-                                    COST 0 0 0 0 0 1 0 0 0
+                                    COST 0 0 0 0 0 1 0 0 1
                                    TIMES 0 1 0 0 0 1 0 0 0
                                PROCESSOR 0 0 0 0 0 0 0 2 1
                                  EXAMPLE 0 0 0 0 0 1 0 0 1
@@ -183,7 +183,7 @@
                              DIFFERENCES 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                 PRODUCTS 0 1 0 0 0 1 0 1 1
-                                   SITES 0 0 0 0 0 1 0 1 1
+                                   SITES 0 0 0 0 0 1 0 1 0
                                     MAIL 0 0 0 0 0 1 0 0 0
                                  EDITING 0 0 0 0 0 1 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 1 1
@@ -202,10 +202,10 @@
                                   TINKER 0 0 1 0 0 1 0 0 0
                                 CAPACITY 0 0 0 0 0 1 0 0 0
                                 BUILDING 0 0 0 0 0 1 0 0 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                              POWERSUPPLY 0 0 0 0 0 0 0 1 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 1 1
                                   64-BIT 0 0 0 0 0 0 0 1 1
                                    SHELF 0 0 0 0 0 0 0 0 0
@@ -224,7 +224,7 @@
                                      ERA 0 0 0 0 0 1 0 0 1
                                    CROSS 0 0 0 0 0 1 0 0 0
                                      DAD 0 0 0 0 0 1 0 1 1
-                                 SCIENCE 0 0 0 0 0 1 0 1 1
+                                 SCIENCE 0 0 0 0 0 1 0 1 0
                                 CREATION 0 0 0 0 0 1 0 1 1
                                  CHANCES 0 0 0 0 0 1 0 1 1
                                ADVANTAGE 1 0 0 0 0 1 0 1 1
@@ -236,7 +236,7 @@
                                  CD-R/RW 0 0 0 0 0 0 0 2 1
                                   DECADE 0 0 0 0 0 1 0 1 1
                                 HOMEWORK 0 0 0 0 0 1 0 1 1
-                                    BOOK 0 0 0 0 0 1 0 1 1
+                                    BOOK 0 0 0 0 0 1 0 1 0
                                    CERTS 0 0 1 0 0 0 0 1 1
                                 CLEARING 0 0 0 0 0 0 0 0 0
                                    NAMES 0 0 0 0 0 1 0 1 1
@@ -268,12 +268,8 @@
                                    GOALS 0 0 0 0 0 1 0 1 1
                                     IMO. 0 0 1 0 0 0 0 0 1
                                  1.83GHZ 0 0 0 0 0 0 0 1 1
-                                   FAIRS 0 0 0 0 0 0 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                    DREAM 0 0 0 0 0 1 0 0 0
-                                 PROFITS 0 0 0 0 0 1 0 1 1
-                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
-                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                  MUCKING 0 0 0 0 0 0 0 1 1
                                       A+ 0 0 0 0 0 0 0 1 1
                                     CERT 0 0 0 0 0 0 0 1 1
@@ -282,6 +278,10 @@
                                  LECTURE 0 0 0 0 0 0 0 1 1
                              STITES&QUOT 0 0 0 0 0 0 0 0 1
                              INSTABILITY 0 0 0 0 0 1 0 0 1
+                                   FAIRS 0 0 0 0 0 0 0 1 1
+                                 PROFITS 0 0 0 0 0 1 0 1 1
+                           PRESCOTT&QUOT 0 0 0 0 0 0 0 0 1
+                                 KINGMAX 0 0 0 0 0 0 0 0 0
                                  DEFENSE 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 1 1
                                  PUDDING 0 0 0 0 0 0 0 1 1

@@ -7,7 +7,7 @@
                                    BUNCH 0 0 0 0 0 1 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 1 1
                                   DRIVES 0 0 0 0 0 1 0 2 1
-                                  MAXTOR 0 0 0 0 0 0 0 1 0
+                                  MAXTOR 0 0 0 0 0 0 0 1 1
                                      ONE 0 0 0 0 0 1 0 1 1
                                    DRIVE 0 0 0 0 0 1 0 3 1
                                    YEARS 1 1 0 0 0 1 0 1 1
@@ -41,16 +41,16 @@
                                       2. 0 0 0 0 0 0 0 1 1
                                    CABLE 0 0 0 0 0 1 0 1 1
                                      DVD 0 0 0 0 0 1 0 1 1
-                                 SEAGATE 0 0 1 0 0 0 0 1 0
+                                 SEAGATE 0 0 1 0 0 0 0 1 1
                                      KEY 0 0 0 0 0 1 0 1 1
                                    ISSUE 0 1 0 0 0 1 0 1 1
-                                   SETUP 0 0 0 0 0 0 0 1 1
-                                    PLUG 0 0 0 0 0 0 1 2 1
+                                   SETUP 0 0 0 0 0 0 0 1 0
+                                    PLUG 0 0 0 0 0 0 1 2 0
                                      MAC 0 0 1 0 0 1 0 1 1
                                    SLAVE 0 0 0 0 0 0 0 1 1
                                   MASTER 0 0 0 0 0 1 0 1 1
                                     DATA 0 0 0 0 0 1 0 1 0
-                                   FILES 0 0 0 0 0 1 0 1 0
+                                   FILES 0 0 0 0 0 1 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 0 1
                                   OPTION 0 0 0 0 0 1 0 1 1
                                    STUFF 0 0 0 0 0 1 0 0 1
@@ -72,7 +72,7 @@
                                 RELIABLE 0 0 0 0 0 0 0 1 1
                                        G 0 0 1 0 0 1 0 0 0
                                        C 0 0 1 0 0 1 0 0 0
-                                 STORAGE 0 0 0 0 0 0 0 1 0
+                                 STORAGE 0 0 0 0 0 0 0 1 1
                                   POSTER 0 0 0 0 0 0 0 1 1
                                       WD 0 0 0 0 0 0 0 0 1
                                    COLOR 0 0 0 0 0 1 0 0 0
@@ -89,6 +89,12 @@
                                      PIX 0 0 0 0 0 0 0 1 1
                                   ASSIDE 0 0 0 0 0 0 0 0 0
                            ACCESSIBILITY 0 0 0 0 0 0 1 1 1
+                                    HDDS 0 0 0 0 0 0 0 1 1
+                                   TAPES 0 1 0 0 0 1 0 1 1
+                                  SPORTS 0 0 0 0 0 1 0 0 0
+                              CONTAINERS 0 1 0 0 0 1 0 1 1
+                                    MACS 0 0 0 0 0 1 0 0 1
+                                EXTRENAL 0 0 0 0 0 0 0 0 0
                                  MED/BIG 0 0 0 0 0 0 0 0 0
                               BUSINESSES 0 0 0 0 0 1 0 1 1
                                     RULE 0 1 0 0 0 1 0 1 1
@@ -99,11 +105,5 @@
                                        F 0 0 1 0 0 0 0 0 0
                                EXTERNAAL 0 0 0 0 0 0 0 1 1
                            COMPATABILITY 0 0 0 0 0 0 0 0 0
-                                    MACS 0 0 0 0 0 1 0 0 1
                                     .MAC 0 0 0 0 0 0 0 1 1
-                                    HDDS 0 0 0 0 0 0 0 1 1
                                  ROOMATE 0 0 0 0 0 0 0 1 1
-                                   TAPES 0 1 0 0 0 1 0 1 1
-                                  SPORTS 0 0 0 0 0 1 0 0 0
-                              CONTAINERS 0 1 0 0 0 1 0 1 1
-                                EXTRENAL 0 0 0 0 0 0 0 0 0

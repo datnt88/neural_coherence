@@ -27,7 +27,7 @@
                                      BOX 0 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 0 0
                           RECOMMENDATION 0 0 0 0 0 1 0 1 1
-                                  CABLES 0 0 0 0 0 1 0 3 1
+                                  CABLES 0 0 0 0 0 1 0 3 0
                                    CASES 0 0 0 0 0 1 0 1 1
                                   POINTS 0 0 0 0 0 1 0 1 1
                                    SPACE 0 0 0 0 0 1 0 1 1
@@ -36,7 +36,7 @@
                                    TRICK 0 0 0 0 0 1 0 1 1
                                      BAR 0 0 0 0 0 1 0 1 1
                                    WIRES 0 0 0 0 0 1 0 2 1
-                                    WIRE 0 0 0 0 0 0 0 1 0
+                                    WIRE 0 0 0 0 0 0 0 1 1
                                      AIR 0 0 0 0 0 1 0 1 1
                                   WINDOW 0 0 0 0 0 1 0 0 0
                              IMPROVEMENT 0 0 0 0 0 1 0 0 0
@@ -46,19 +46,12 @@
                                   CORNER 0 0 0 0 0 1 0 1 1
                                    ROUTE 0 0 0 0 0 1 0 0 0
                                     TIPS 0 0 0 0 0 1 0 1 1
+                               INTERNALS 0 0 0 0 0 0 0 1 1
                                  BUNDLES 0 0 0 0 0 1 0 1 1
                                    HOLES 0 0 0 0 0 1 0 1 1
                                   SUMMER 0 0 0 0 0 1 0 1 1
-                               INTERNALS 0 0 0 0 0 0 0 1 1
                                 INCIDENT 0 0 0 0 0 1 0 1 1
                                   WIRING 0 0 0 0 0 0 0 0 0
-                                    LOT. 0 0 0 0 0 0 0 1 1
-                                  MADRID 0 0 1 0 0 0 1 0 1
-                                   SPAIN 0 0 1 0 0 1 0 0 1
-                         OVERHEATING.THE 0 0 0 0 0 0 0 0 1
-                              PRIORITIES 0 0 0 0 0 1 0 0 1
-                               ASTHETICS 0 0 0 0 0 0 0 1 1
-                                      EL 0 0 1 0 0 0 0 0 0
                                     TIES 0 0 0 0 0 1 0 2 1
                               ASSORTMENT 0 0 0 0 0 0 0 1 1
                               SUPERSTORE 0 0 0 0 0 0 0 1 1
@@ -67,7 +60,6 @@
                                   SPIRAL 0 0 0 0 0 0 0 0 0
                                 NOTEPADS 0 0 0 0 0 0 0 1 1
                            WIRES/HARNESS 0 0 0 0 0 0 0 1 1
-                           SHORT-CIRCUIT 0 0 0 0 0 0 0 1 1
                                PLACEMENT 0 0 0 0 0 0 0 1 1
                                      BAG 0 0 0 0 0 1 0 0 0
                                      TIE 0 0 0 0 0 0 0 0 1
@@ -79,3 +71,11 @@
                                    DRESS 0 0 0 0 0 1 0 1 1
                                     ENDS 0 0 0 0 0 1 0 1 1
                                    SLACK 0 0 0 0 0 0 1 1 1
+                                    LOT. 0 0 0 0 0 0 0 1 1
+                                  MADRID 0 0 1 0 0 0 1 0 1
+                                   SPAIN 0 0 1 0 0 1 0 0 1
+                         OVERHEATING.THE 0 0 0 0 0 0 0 0 1
+                              PRIORITIES 0 0 0 0 0 1 0 0 1
+                               ASTHETICS 0 0 0 0 0 0 0 1 1
+                                      EL 0 0 1 0 0 0 0 0 0
+                           SHORT-CIRCUIT 0 0 0 0 0 0 0 1 1

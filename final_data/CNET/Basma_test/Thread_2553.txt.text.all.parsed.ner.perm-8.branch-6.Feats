@@ -3,7 +3,7 @@
                                  EXPENSE 0 0 0 0 0 0 0 1 1
                                     YEAR 0 1 0 0 0 1 0 0 0
                                    INPUT 0 0 0 0 0 0 1 1 1
-                                HARDWARE 0 0 0 0 0 0 0 1 0
+                                HARDWARE 0 0 0 0 0 0 0 1 1
                                 COMPUTER 0 1 0 0 0 1 0 3 1
                                   DRIVES 0 0 0 0 0 1 0 1 1
                                    POWER 0 1 0 0 0 1 0 0 1
@@ -12,7 +12,7 @@
                                     DISK 0 0 0 0 0 1 0 1 0
                                  NOTHING 0 0 0 0 0 1 0 1 1
                                  MACHINE 0 1 0 0 0 1 0 0 0
-                                    BOOT 0 0 0 0 0 0 0 0 1
+                                    BOOT 0 0 0 0 0 0 0 0 0
                                   MONTHS 1 1 0 0 0 1 0 1 1
                                     BIOS 0 0 0 0 0 0 0 0 0
                                     THIS 0 0 0 0 0 1 0 1 1
@@ -24,7 +24,7 @@
                                     LINK 0 0 0 0 0 1 0 1 1
                                    &QUOT 0 0 0 0 0 0 0 3 1
                                    THERE 0 0 0 0 0 0 1 0 1
-                                 DRIVERS 0 1 0 0 0 1 0 3 0
+                                 DRIVERS 0 1 0 0 0 1 0 3 1
                                       CD 0 0 0 0 0 1 0 1 0
                                     CASE 0 1 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
@@ -38,7 +38,7 @@
                                     MORE 0 0 0 0 0 0 1 0 1
                                   REASON 0 0 0 0 0 1 0 1 1
                                       OS 0 0 0 0 0 0 0 1 1
-                                 WINDOWS 0 0 0 0 0 1 0 1 0
+                                 WINDOWS 0 0 0 0 0 1 0 1 1
                                    ..... 0 0 0 0 0 0 0 0 0
                                     CALL 0 0 0 0 0 1 0 0 0
                                     LOOK 0 0 0 0 0 1 0 1 1
@@ -48,11 +48,11 @@
                                 BUSINESS 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 1 1
                                     PAIN 0 0 0 0 0 1 0 1 1
-                                    DELL 0 0 1 0 0 0 0 1 1
-                               DIMENSION 0 0 0 0 0 0 0 1 1
-                                   CABLE 0 0 0 0 0 1 0 1 1
+                                    DELL 0 0 1 0 0 0 0 1 0
+                               DIMENSION 0 0 0 0 0 0 0 1 0
+                                   CABLE 0 0 0 0 0 1 0 1 0
                                  BLASTER 0 0 0 0 0 0 0 0 0
-                                      XP 0 0 0 0 0 0 0 1 0
+                                      XP 0 0 0 0 0 0 0 1 1
                                     TRIP 0 0 0 0 0 1 0 1 1
                                  WEBSITE 0 0 0 0 0 0 0 1 1
                                     POST 0 0 0 0 0 1 0 1 1
@@ -65,7 +65,7 @@
                                    PLACE 0 0 0 0 0 1 0 1 1
                                     MOST 0 0 0 0 0 1 0 1 1
                                     UNIT 1 1 0 0 0 1 0 1 1
-                                INTERNET 0 0 0 0 0 1 0 1 1
+                                INTERNET 0 0 0 0 0 1 0 1 0
                                    SETUP 0 0 0 0 0 0 0 0 0
                                  PROGRAM 0 1 0 0 0 1 0 2 1
                                     PAST 0 0 0 0 0 1 0 1 1
@@ -83,7 +83,7 @@
                                     MODE 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 0 1
                                      SP3 0 0 0 0 0 0 0 1 1
-                                    DATA 0 0 0 0 0 1 0 1 1
+                                    DATA 0 0 0 0 0 1 0 1 0
                                  DETAILS 0 0 0 0 0 1 0 1 1
                                    FILES 0 0 0 0 0 1 0 1 1
                                   BACKUP 0 0 0 0 0 0 0 1 1
@@ -95,11 +95,11 @@
                                CONDITION 0 0 0 0 0 1 0 1 1
                                SITUATION 0 1 0 0 0 1 0 1 1
                                     LUCK 0 0 0 0 0 1 0 0 0
-                                  REPAIR 0 1 0 0 0 0 1 1 0
+                                  REPAIR 0 1 0 0 0 0 1 1 1
                                    MEDIA 0 1 0 0 0 1 0 1 1
                             INSTRUCTIONS 0 0 0 0 0 1 0 1 1
                                       RE 0 0 1 0 0 1 0 1 1
-                                   DISKS 0 0 0 0 0 1 0 1 1
+                                   DISKS 0 0 0 0 0 1 0 1 0
                                      WIN 0 0 0 0 0 1 0 0 0
                                 PRODUCTS 0 1 0 0 0 1 0 1 1
                                     APPS 0 0 0 0 0 0 0 2 1
@@ -140,7 +140,7 @@
                                  PRESENT 1 0 0 0 0 0 0 0 1
                                        F 0 0 0 0 0 0 0 0 0
                                    100MB 0 0 0 0 0 0 0 2 1
-                                     ZIP 0 0 0 0 0 0 0 1 1
+                                     ZIP 0 0 0 0 0 0 0 1 0
                                 ATTEMPTS 0 0 0 0 0 1 0 1 1
                             REFORMATTING 0 0 0 0 0 0 0 0 0
                                 TOMORROW 0 0 0 6 0 1 0 0 1
@@ -152,7 +152,7 @@
                             DOWNLOAD.COM 0 0 0 0 0 0 0 1 1
                                  TOUCHES 0 0 0 0 0 1 0 0 0
                               COMPUTER.I 0 0 0 0 0 0 0 2 1
-                                     ARO 0 0 0 0 0 0 0 0 0
+                                     ARO 0 0 1 0 0 0 0 0 0
                                      FOE 0 0 0 0 0 1 0 1 1
                                    250MB 0 0 0 0 0 0 0 0 1
                                JUNK&QUOT 0 0 0 0 0 0 0 0 1

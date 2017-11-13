@@ -21,7 +21,7 @@
                                      ONE 0 0 0 0 0 1 0 0 0
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 3 1
-                                 NOTHING 0 0 0 0 0 1 0 1 1
+                                 NOTHING 0 0 0 0 0 1 0 1 0
                                  MACHINE 0 1 0 0 0 1 0 1 1
                                      NOW 0 0 0 0 0 0 0 0 1
                                 MACHINES 0 1 0 0 0 1 0 1 1
@@ -49,7 +49,7 @@
                                   THINGS 0 0 0 0 0 1 0 1 1
                               CONNECTION 0 0 0 0 0 1 0 1 1
                                    MODEM 0 0 0 0 0 1 0 2 1
-                                  DEVICE 0 0 0 0 0 1 0 2 0
+                                  DEVICE 0 0 0 0 0 1 0 2 1
                                   ANYONE 0 0 0 0 0 1 0 0 1
                            CONFIGURATION 0 0 0 0 0 0 0 1 1
                                 SOLUTION 0 0 0 0 0 1 0 1 1
@@ -83,7 +83,7 @@
                                PROCESSOR 0 0 0 0 0 0 0 1 1
                                   ONLINE 0 0 0 0 0 1 0 1 1
                                  REGARDS 0 0 0 0 0 0 0 1 1
-                                  SIGNAL 0 0 0 0 0 1 0 3 1
+                                  SIGNAL 0 0 0 0 0 1 0 3 0
                                  WORKING 0 0 0 0 0 1 0 1 1
                                     GOOD 0 0 0 0 0 1 0 0 1
                                   CHANCE 0 0 0 0 0 1 0 1 1
@@ -91,7 +91,7 @@
                                       1. 0 0 0 0 0 0 0 0 1
                                    CABLE 0 0 0 0 0 1 0 1 1
                                  PREMIUM 0 0 0 0 0 1 0 1 1
-                                ETHERNET 0 0 0 0 0 0 0 1 1
+                                ETHERNET 0 0 0 0 0 0 0 1 0
                                    STORY 0 0 0 0 0 1 0 1 1
                                     POST 0 0 0 0 0 1 0 1 1
                                     DESK 0 0 0 0 0 1 0 1 1
@@ -117,8 +117,8 @@
                                      MAC 0 0 1 0 0 1 0 1 1
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 1 1
-                                    HOME 0 0 0 0 0 1 0 1 0
-                                  OFFICE 0 0 0 0 0 1 0 1 0
+                                    HOME 0 0 0 0 0 1 0 1 1
+                                  OFFICE 0 0 0 0 0 1 0 1 1
                                     WIFI 0 0 0 0 0 0 0 1 1
                                 SOFTWARE 0 1 0 0 0 1 0 0 0
                                  SERVICE 0 0 0 0 0 1 0 2 1
@@ -130,21 +130,21 @@
                                    IDEAS 0 0 0 0 0 1 0 1 1
                                  DETAILS 0 0 0 0 0 1 0 1 1
                                     XBOX 0 0 0 0 0 0 0 2 1
-                                   RANGE 0 0 0 0 0 1 0 1 0
-                                 ROUTERS 0 0 0 0 0 0 0 3 0
+                                   RANGE 0 0 0 0 0 1 0 1 1
+                                 ROUTERS 0 0 0 0 0 0 0 3 1
                                    BOARD 0 1 0 0 0 1 0 1 1
                                 NETWORKS 0 0 0 0 0 1 0 1 1
-                                FIREWALL 0 0 0 0 0 0 0 1 0
+                                FIREWALL 0 0 0 0 0 0 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 1 1
                                  REPAIRS 0 0 0 0 0 1 0 1 1
                                   OPTION 0 0 0 0 0 1 0 1 1
                                     NONE 0 0 0 0 0 1 0 1 1
                                    LOOKS 0 0 0 0 0 1 0 1 1
                            UNDERSTANDING 0 0 0 0 0 1 0 1 1
-                                 RESULTS 1 1 0 0 0 1 0 1 1
+                                 RESULTS 1 1 0 0 0 1 0 1 0
                                   REPORT 1 1 0 0 0 1 0 0 0
                                     WEEK 1 0 0 0 0 1 0 1 1
-                                   NIGHT 1 0 0 5 0 1 0 1 1
+                                   NIGHT 1 0 0 0 0 1 0 1 1
                                     GEAR 0 0 0 0 0 1 0 3 1
                                    STORE 0 0 0 0 0 1 0 1 1
                                      DAY 0 1 0 0 0 1 0 1 1
@@ -175,7 +175,7 @@
                                   RESULT 1 0 0 0 0 1 0 1 1
                                    SITES 0 0 0 0 0 1 0 1 1
                                      NAT 0 0 0 0 0 0 0 1 0
-                                    AT&T 0 0 1 0 0 1 0 0 0
+                                    AT&T 0 0 0 0 0 1 0 0 0
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                 SERVICES 1 0 0 0 0 1 0 1 1
                               NETWORKING 0 0 0 0 0 0 0 1 0
@@ -193,13 +193,13 @@
                            POWER-CYCLING 0 0 0 0 0 0 0 1 1
                                   HOW/IF 0 0 0 0 0 0 0 1 1
                                   PERIOD 0 0 0 0 0 1 0 1 1
-                                COVERAGE 0 0 0 0 0 1 0 2 1
-                                STRENGTH 0 0 0 0 0 1 0 1 0
+                                COVERAGE 0 0 0 0 0 1 0 2 0
+                                STRENGTH 0 0 0 0 0 1 0 1 1
                                  MACBOOK 0 0 0 0 0 0 0 1 0
                                 MEGABITS 0 0 0 0 0 0 0 2 1
                                     SONY 0 1 1 0 0 1 0 0 0
                                     VAIO 0 0 0 0 0 0 0 1 1
-                                   VISTA 0 0 0 0 0 0 0 1 1
+                                   VISTA 0 0 0 0 0 0 0 1 0
                                  KITCHEN 0 0 0 0 0 1 0 1 1
                                 CONTRAST 1 0 0 0 0 1 0 0 1
                                     HALL 0 0 0 0 0 1 0 1 1
@@ -220,7 +220,7 @@
                                  GRAPHER 0 0 0 0 0 0 0 1 1
                             OBSERVATIONS 0 0 0 0 0 1 0 1 1
                                  BOOSTER 0 0 0 0 0 0 0 2 1
-                                     WPA 0 0 0 0 0 0 0 1 0
+                                     WPA 0 0 0 0 0 0 0 1 1
                               ENCRYPTION 0 0 0 0 0 0 0 0 1
                                   OTHERS 0 0 0 0 0 1 0 0 1
                                   MOMENT 0 0 0 0 0 1 0 1 1
@@ -228,7 +228,7 @@
                                  AIRPORT 0 0 0 0 0 1 0 0 0
                                  EXPRESS 0 1 0 0 0 1 0 1 1
                                  MEASURE 0 0 0 0 0 1 0 1 1
-                                 WEEKEND 0 0 0 6 0 1 0 1 1
+                                 WEEKEND 0 0 0 0 0 1 0 1 0
                                    WIRES 0 0 0 0 0 1 0 1 1
                             IMPROVEMENTS 0 0 0 0 0 1 0 1 1
                                  MADNESS 0 0 0 0 0 1 0 1 1

@@ -24,7 +24,7 @@
                                       .. 0 0 0 0 0 1 0 1 1
                                   MEMORY 0 1 0 0 0 1 0 0 0
                                      LOT 0 0 0 0 0 1 0 1 1
-                                   PHONE 0 0 0 0 0 1 0 1 0
+                                   PHONE 0 0 0 0 0 1 0 1 1
                                 FEATURES 0 0 0 0 0 1 0 1 1
                                     DAYS 0 0 0 0 0 1 0 1 1
                                      USE 1 0 0 0 0 1 0 1 1
@@ -87,14 +87,14 @@
                             MANUFACTURER 0 0 0 0 0 1 0 1 1
                               EXPERIENCE 0 0 0 0 0 1 0 1 1
                                    OFFER 0 1 0 0 0 1 0 1 1
-                                CUSTOMER 0 0 0 0 0 1 0 1 1
+                                CUSTOMER 0 0 0 0 0 1 0 1 0
                                   MODELS 0 0 0 0 0 1 0 1 1
                                    PARTY 0 0 0 0 0 1 0 0 0
                                SITUATION 0 1 0 0 0 1 0 1 1
                                   SERIES 0 0 0 0 0 1 0 1 1
                                    VALUE 0 0 0 0 0 1 0 1 1
                                     MIND 0 0 0 0 0 1 0 1 1
-                                    LINE 0 0 0 0 0 1 0 1 1
+                                    LINE 0 0 0 0 0 1 0 1 0
                               BACKGROUND 0 0 0 0 0 1 0 1 1
                                     NOTE 0 0 0 0 0 1 0 0 1
                                  NOTICES 0 0 0 0 0 1 0 0 0
@@ -102,7 +102,7 @@
                             INSTRUCTIONS 0 0 0 0 0 1 0 1 1
                                     HEAD 0 0 0 0 0 1 0 1 1
                               CARTRIDGES 0 0 0 0 0 0 0 3 1
-                                PRINTING 0 0 0 0 0 0 0 1 0
+                                PRINTING 0 0 0 0 0 0 0 1 1
                                   PHOTOS 0 0 0 0 0 1 0 0 1
                                    PHOTO 0 0 0 0 0 1 0 0 0
                              REPLACEMENT 0 0 0 0 0 1 0 0 0
@@ -121,7 +121,7 @@
                                 DOCUMENT 1 0 0 0 0 1 0 1 1
                                   VOLUME 0 0 0 0 0 1 0 1 1
                                 REFILLED 0 0 0 0 0 0 0 0 0
-                                     INK 0 0 0 0 0 1 0 0 1
+                                     INK 0 0 0 0 0 1 0 0 0
                                CARTRIDGE 0 0 0 0 0 0 0 1 1
                                    WORDS 0 1 0 0 0 1 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
@@ -132,7 +132,7 @@
                                    BUYER 0 1 0 0 0 1 0 1 1
                                    PANEL 0 0 0 0 0 1 0 1 1
                                      FAX 0 0 0 0 0 0 0 1 1
-                                 MISTAKE 0 0 0 0 0 1 0 2 0
+                                 MISTAKE 0 0 0 0 0 1 0 2 1
                                        H 0 0 1 0 0 0 0 0 0
                                  OPINION 0 0 0 0 0 1 0 1 1
                                     WAIT 0 0 0 0 0 1 0 1 1
@@ -146,7 +146,7 @@
                                    TAXES 0 0 0 0 0 1 0 1 1
                            COMPATABILITY 0 0 0 0 0 0 0 1 1
                                    CANON 0 0 1 0 0 1 0 2 0
-                             INSTRUCTION 0 0 0 0 0 1 0 1 0
+                             INSTRUCTION 0 0 0 0 0 1 0 1 1
                                   DRINKS 0 0 0 0 0 1 0 1 1
                                     TOLL 0 0 0 0 0 1 0 0 0
                                    CALLS 0 0 0 0 0 1 0 1 1
@@ -165,16 +165,8 @@
                                QUALITIES 0 0 0 0 0 1 0 1 1
                                TANGIBLES 0 0 0 0 0 0 0 1 1
                                    420CN 0 0 0 0 0 0 0 1 1
+                               TELEPHONE 0 0 0 0 0 1 0 1 1
                                CX9400FAX 0 0 0 0 0 0 0 1 1
-                               FOODFIEND 0 0 0 0 0 0 0 0 1
-                                QUANDARY 0 0 0 0 0 0 0 1 1
-                              TROYSUAREZ 0 0 0 0 0 0 0 1 1
-                                    R260 0 0 0 0 0 0 0 1 1
-                                   R2880 0 0 0 0 0 0 0 1 1
-                                   B9180 0 0 0 0 0 0 0 1 1
-                               CARTRAGES 0 0 0 0 0 0 0 1 1
-                              EXPERIANCE 0 0 0 0 0 0 0 1 1
-                               TELEPHONE 0 0 0 0 0 1 0 1 0
                                 OK.&QUOT 0 0 0 0 0 0 0 0 1
                                  SMUDGES 0 0 0 0 0 0 0 1 1
                                KATHERINE 0 0 1 0 0 1 0 0 0
@@ -189,3 +181,11 @@
                                   AGENCY 0 1 0 0 0 1 0 1 1
                                    ESPON 0 0 0 0 0 0 0 1 1
                                   CX6000 0 0 0 0 0 0 0 1 1
+                               FOODFIEND 0 0 0 0 0 0 0 0 1
+                                QUANDARY 0 0 0 0 0 0 0 1 1
+                              TROYSUAREZ 0 0 0 0 0 0 0 1 1
+                                    R260 0 0 0 0 0 0 0 1 1
+                                   R2880 0 0 0 0 0 0 0 1 1
+                                   B9180 0 0 0 0 0 0 0 1 1
+                               CARTRAGES 0 0 0 0 0 0 0 1 1
+                              EXPERIANCE 0 0 0 0 0 0 0 1 1

@@ -54,16 +54,16 @@
                                   GAMING 0 0 0 0 0 0 0 0 0
                                  GENERAL 0 1 0 0 0 1 0 0 0
                                   BRIDGE 0 1 0 0 0 1 0 1 0
-                                   INTEL 0 0 1 0 0 1 0 1 0
+                                   INTEL 0 0 1 0 0 1 0 1 1
                                      III 0 0 1 0 0 1 0 0 0
                                       V4 0 0 0 0 0 0 0 1 1
                                SOMETHING 0 0 0 0 0 1 0 1 1
-                                      HD 0 0 1 0 0 0 0 1 1
+                                      HD 0 0 1 0 0 0 0 1 0
                                  VERSION 1 0 0 0 0 1 0 0 0
                                    PARTS 1 0 0 0 0 1 0 1 1
                                     GAME 0 0 0 0 0 1 0 0 0
-                               PROCESSOR 0 0 0 0 0 0 0 1 1
-                                 PENTIUM 0 0 0 0 0 0 0 3 0
+                               PROCESSOR 0 0 0 0 0 0 0 1 0
+                                 PENTIUM 0 0 0 0 0 0 0 3 1
                                       2. 0 0 0 0 0 0 0 1 1
                               COMPONENTS 0 0 0 0 0 1 0 1 1
                               MANAGEMENT 0 1 0 0 0 1 0 0 0
@@ -81,19 +81,19 @@
                                     PORT 0 0 0 0 0 1 0 0 0
                                     SUCH 0 0 0 0 0 0 1 1 1
                                   ACCESS 0 0 0 0 0 1 0 0 0
-                                    TYPE 0 0 0 0 0 1 0 3 0
+                                    TYPE 0 0 0 0 0 1 0 3 1
                                  SERVICE 0 0 0 0 0 1 0 0 0
                                     MODE 0 0 0 0 0 1 0 1 1
                                   LETTER 0 0 0 0 0 1 0 0 0
-                                  MASTER 0 0 0 0 0 1 0 1 0
+                                  MASTER 0 0 0 0 0 1 0 1 1
                                  DEFAULT 0 0 0 0 0 1 0 0 0
-                                   BOARD 0 1 0 0 0 1 0 1 0
+                                   BOARD 0 1 0 0 0 1 0 1 1
                                MICROSOFT 0 0 1 0 0 1 0 0 0
                                SUPPORTED 0 0 0 0 0 0 0 0 0
                             MANUFACTURER 0 0 0 0 0 1 0 2 0
-                                    NAME 0 0 0 0 0 1 0 1 1
+                                    NAME 0 0 0 0 0 1 0 1 0
                                     INFO 0 0 0 0 0 0 0 1 1
-                                  VENDOR 0 0 0 0 0 1 0 3 1
+                                  VENDOR 0 0 0 0 0 1 0 3 0
                                      &GT 0 0 0 0 0 0 0 1 1
                                    STORE 0 0 0 0 0 1 0 1 1
                             SOUNDBLASTER 0 0 0 0 0 0 0 1 1
@@ -102,7 +102,7 @@
                                  RECORDS 0 0 0 0 0 1 0 1 1
                                    SHOPS 0 0 0 0 0 1 0 1 1
                                    SPACE 0 0 0 0 0 1 0 1 1
-                                REVISION 0 0 0 0 0 1 0 3 1
+                                REVISION 0 0 0 0 0 1 0 3 0
                                     TEST 0 1 0 0 0 1 0 2 0
                                    MAKER 0 1 0 0 0 1 0 1 1
                                   SERIAL 0 0 0 0 0 0 0 0 0
@@ -122,21 +122,21 @@
                                    WORDS 0 1 0 0 0 1 0 1 1
                               CAPABILITY 0 0 0 0 0 1 0 0 0
                                     PACK 0 0 0 0 0 0 0 0 0
-                                       R 0 0 0 0 0 0 0 0 1
+                                       R 0 0 0 0 0 0 0 0 0
                                  STORAGE 0 0 0 0 0 0 0 0 0
                                INTERFACE 0 0 0 0 0 1 0 0 0
-                                SUPPORTS 0 0 0 0 0 0 0 0 0
-                                     KIT 0 0 0 0 0 1 0 1 1
                                  SECTION 0 1 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                      GIG 0 0 0 0 0 0 0 1 1
                                     SIZE 1 0 0 0 0 1 0 0 0
                                     BANK 0 1 0 0 0 1 0 0 0
+                                SUPPORTS 0 0 0 0 0 0 0 0 0
+                                     KIT 0 0 0 0 0 1 0 1 1
                                       MX 0 0 1 0 0 0 0 0 0
                                    COLOR 0 0 0 0 0 1 0 1 1
                                 PROBLEM. 0 0 0 0 0 0 0 1 1
-                                    HOST 0 0 0 0 0 1 0 1 1
-                               TRANSFERS 0 0 0 0 0 1 0 1 0
+                                    HOST 0 0 0 0 0 1 0 1 0
+                               TRANSFERS 0 0 0 0 0 1 0 1 1
                                  ADDRESS 0 0 0 0 0 1 0 0 0
                                    TRANS 0 0 0 0 0 0 0 0 0
                                      BUS 0 0 0 0 0 1 0 0 0
@@ -146,7 +146,7 @@
                                      NEC 0 1 0 0 0 1 0 1 0
                                 LANGUAGE 0 0 0 0 0 1 0 0 0
                                BLASTERPC 0 0 0 0 0 0 0 1 1
-                             TIGERDIRECT 0 0 1 0 0 0 0 0 1
+                             TIGERDIRECT 0 0 0 0 0 0 0 0 1
                                     LABS 0 0 0 0 0 1 0 1 0
                                    AWARD 0 0 0 0 0 1 0 0 0
                               COPPERMINE 0 0 0 0 0 0 0 0 0
@@ -189,7 +189,7 @@
                                   0X0000 0 0 0 0 0 0 0 0 0
                                    66MHZ 0 0 0 0 0 0 0 0 0
                                 SIDEBAND 0 0 0 0 0 0 0 1 1
-                                440BX/ZX 0 0 1 0 0 0 0 0 0
+                                440BX/ZX 0 0 0 0 0 0 0 0 0
                                   AGPSET 0 0 0 0 0 0 0 0 0
                                      0X3 0 0 0 0 0 0 0 0 0
                                   0X8086 0 0 0 0 0 0 0 0 0

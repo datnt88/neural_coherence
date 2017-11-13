@@ -1,4 +1,4 @@
-                                       $ 0 0 0 0 0 0 1 2 1
+                                       $ 0 0 0 7 0 0 1 2 1
                                     TIME 1 1 0 0 0 1 0 1 1
                                    MONEY 1 1 0 0 0 1 0 1 1
                                     THAT 0 0 0 0 0 0 0 0 1
@@ -7,9 +7,9 @@
                                     NEED 0 0 0 0 0 1 0 0 1
                                     SOME 0 0 0 0 0 0 1 1 1
                                    VIDEO 0 1 0 0 0 1 0 0 0
-                                    CARD 0 1 0 0 0 1 0 1 1
+                                    CARD 0 1 0 0 0 1 0 1 0
                                       OC 0 0 1 0 0 0 0 1 1
-                                  THANKS 0 0 0 0 0 1 0 0 0
+                                  THANKS 0 0 0 0 0 1 0 0 1
                                   ANSWER 0 0 0 0 0 1 0 1 1
                               EVERYTHING 0 0 0 0 0 1 0 0 1
                                    SPEED 0 0 0 0 0 1 0 2 1
@@ -27,7 +27,7 @@
                                    POWER 0 1 0 0 0 1 0 0 0
                                   SUPPLY 0 0 0 0 0 1 0 3 1
                                      ONE 0 0 0 0 0 1 0 2 1
-                                   DRIVE 0 0 0 0 0 1 0 3 1
+                                   DRIVE 0 0 0 0 0 1 0 3 0
                                    YEARS 1 1 0 0 0 1 0 1 1
                                 PROBLEMS 0 0 0 0 0 1 0 3 1
                                  MACHINE 0 1 0 0 0 1 0 1 1
@@ -49,10 +49,10 @@
                                   STICKS 0 0 0 0 0 1 0 2 1
                                      RAM 0 0 1 0 0 1 0 1 1
                                      ATX 0 0 0 0 0 0 0 1 1
-                                    CASE 0 1 0 0 0 1 0 1 0
+                                    CASE 0 1 0 0 0 1 0 1 1
                                     IDEA 0 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
-                                  MEMORY 0 1 0 0 0 1 0 1 1
+                                  MEMORY 0 1 0 0 0 1 0 1 0
                                   THINGS 0 0 0 0 0 1 0 0 1
                                      LOT 0 0 0 0 0 1 0 1 1
                                     ASUS 0 0 1 0 0 0 0 0 1
@@ -86,14 +86,14 @@
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 1 0
                                    TIMES 0 1 0 0 0 1 0 1 1
-                               PROCESSOR 0 0 0 0 0 0 0 1 1
+                               PROCESSOR 0 0 0 0 0 0 0 1 0
                                  EXAMPLE 0 0 0 0 0 1 0 1 1
                               PROCESSORS 0 0 0 0 0 1 0 0 1
                                     COMP 0 0 0 0 0 0 0 1 1
-                                  ONLINE 0 0 0 0 0 1 0 1 0
+                                  ONLINE 0 0 0 0 0 1 0 1 1
                               COMPATIBLE 0 0 0 0 0 0 0 1 1
                                  REGARDS 0 0 0 0 0 0 0 1 1
-                                    DELL 0 0 1 0 0 0 0 1 0
+                                    DELL 0 0 1 0 0 0 0 1 1
                                ALIENWARE 0 0 0 0 0 0 0 0 0
                               COMPONENTS 0 0 0 0 0 1 0 2 1
                                    CABLE 0 0 0 0 0 1 0 1 1
@@ -134,7 +134,7 @@
                                   FRIEND 0 0 0 0 0 1 0 1 1
                                  SOMEONE 0 0 0 0 0 1 0 1 1
                                     WORD 0 0 0 0 0 1 0 0 0
-                                    TECH 0 0 1 0 0 0 1 1 1
+                                    TECH 0 0 1 0 0 0 1 1 0
                                    BOARD 0 1 0 0 0 1 0 1 1
                                   BRANDS 0 1 0 0 0 1 0 1 1
                                  CLIENTS 0 1 0 0 0 1 0 1 1
@@ -174,14 +174,14 @@
                              DIFFERENCES 0 0 0 0 0 1 0 1 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                             APPLICATIONS 0 0 0 0 0 1 0 1 1
-                                   SITES 0 0 0 0 0 1 0 1 1
+                                   SITES 0 0 0 0 0 1 0 1 0
                                  EDITING 0 0 0 0 0 1 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 1 1
                                  GATEWAY 0 0 0 0 0 0 0 0 0
                                  PARTIES 0 0 0 0 0 1 0 0 1
                                   OTHERS 0 0 0 0 0 1 0 1 1
                                    WIRES 0 0 0 0 0 1 0 1 1
-                               KNOWLEDGE 0 0 0 0 0 1 0 1 1
+                               KNOWLEDGE 0 0 0 0 0 1 0 1 0
                                    SENSE 0 0 0 0 0 1 0 0 1
                                   METHOD 0 0 0 0 0 1 0 0 0
                                      FRY 0 0 0 0 0 1 0 1 1
@@ -254,7 +254,6 @@
                                     IMO. 0 0 1 0 0 0 0 0 1
                                TINKERING 0 0 0 0 0 0 0 0 1
                                  1.83GHZ 0 0 0 0 0 0 0 1 1
-                               RE-BUILDS 0 0 0 0 0 0 0 1 1
                               MOTIVATION 0 0 0 0 0 1 0 1 1
                                    ROADS 0 0 0 0 0 1 0 1 1
                                W/500WATT 0 0 0 0 0 0 0 0 0
@@ -265,6 +264,7 @@
                           ZIPZOOMFLY.COM 0 0 0 0 0 0 0 1 1
                            SPEFICIATIONS 0 0 0 0 0 0 0 1 1
                              INSTABILITY 0 0 0 0 0 1 0 0 1
+                               RE-BUILDS 0 0 0 0 0 0 0 1 1
                                  DEFENSE 0 0 0 0 0 1 0 1 1
                                    STITE 0 0 0 0 0 0 0 1 1
                                  PUDDING 0 0 0 0 0 0 0 1 1

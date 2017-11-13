@@ -16,7 +16,7 @@
                                       MB 0 0 0 0 0 0 0 1 1
                                  UPGRADE 0 0 0 0 0 0 0 1 1
                                   SYSTEM 0 1 0 0 0 1 0 1 1
-                                    YEAR 0 1 0 0 0 1 0 1 1
+                                    YEAR 0 1 0 0 0 1 0 1 0
                                    NEEDS 0 0 0 0 0 1 0 1 1
                                     MOBO 0 0 0 0 0 0 0 1 1
                                 HARDWARE 0 0 0 0 0 0 0 0 0
@@ -34,7 +34,7 @@
                                     BIOS 0 0 0 0 0 0 0 1 1
                                     THIS 0 0 0 0 0 1 0 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 2 1
-                                      PC 0 0 0 0 0 1 0 3 0
+                                      PC 0 0 0 0 0 1 0 3 1
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                     BACK 0 0 0 0 0 1 0 1 1
                                      PSU 0 0 0 0 0 0 0 1 1
@@ -46,7 +46,7 @@
                                      RAM 0 0 1 0 0 1 0 3 1
                                      PCI 0 0 0 0 0 0 0 0 0
                                      MID 0 0 1 0 0 0 0 1 1
-                                    CASE 0 1 0 0 0 1 0 2 0
+                                    CASE 0 1 0 0 0 1 0 2 1
                                     SIDE 1 0 0 0 0 1 0 1 1
                                    THING 0 0 0 0 0 1 0 1 1
                                     USES 0 0 0 0 0 1 0 1 1
@@ -74,10 +74,10 @@
                                     SATA 0 0 0 0 0 0 0 0 0
                                      GPU 0 0 0 0 0 0 0 1 1
                                     CORE 0 0 0 0 0 1 0 0 0
-                                GRAPHICS 0 0 0 0 0 1 0 1 1
+                                GRAPHICS 0 0 0 0 0 1 0 1 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
                                    TOWER 0 0 0 0 0 1 0 1 1
-                                   PRICE 0 1 0 0 0 1 0 1 1
+                                   PRICE 0 1 0 0 0 1 0 1 0
                                    BRAND 0 0 0 0 0 1 0 0 0
                                   CHOICE 0 0 0 0 0 1 0 1 0
                                     BEST 0 0 0 0 0 0 1 1 1
@@ -85,13 +85,13 @@
                                FRAGMENTS 0 0 0 0 0 1 0 1 1
                              LIST.S.CNET 0 0 0 0 0 0 0 0 0
                           PRE_PROCESS.SH 0 0 0 0 0 0 0 1 1
-                                 THREADS 0 0 0 0 0 1 0 1 0
-                                    GAME 0 0 0 0 0 1 0 1 0
+                                 THREADS 0 0 0 0 0 1 0 1 1
+                                    GAME 0 0 0 0 0 1 0 1 1
                                   PEOPLE 0 1 0 0 0 1 0 1 1
                                     COST 0 0 0 0 0 1 0 2 1
                                    MODEL 0 0 0 0 0 1 0 1 1
                                  CELERON 0 0 0 0 0 0 0 1 0
-                                       D 0 0 1 0 0 1 0 1 0
+                                       D 0 0 1 0 0 1 0 1 1
                                PROCESSOR 0 0 0 0 0 0 0 0 0
                                      PC. 0 0 0 0 0 0 0 1 1
                                    FIRST 0 1 0 0 0 1 0 1 1
@@ -105,7 +105,7 @@
                               COMPONENTS 0 0 0 0 0 1 0 2 1
                                  SEAGATE 0 0 1 0 0 0 0 0 0
                                    STORY 0 0 0 0 0 1 0 1 1
-                                  ATHLON 0 0 0 0 0 0 0 1 1
+                                  ATHLON 0 0 0 0 0 0 0 1 0
                                     DONT 0 0 0 0 0 0 0 1 1
                                    SLOTS 0 0 0 0 0 1 0 1 0
                                      LCD 0 0 0 0 0 0 0 0 1
@@ -125,7 +125,7 @@
                                COMPUTERS 0 0 0 0 0 1 0 3 1
                                      JOB 0 1 0 0 0 1 0 1 1
                                      BOX 0 0 0 0 0 1 0 2 1
-                                 QUALITY 0 0 0 0 0 1 0 0 1
+                                 QUALITY 0 0 0 0 0 1 0 0 0
                                      WAY 1 0 0 0 0 1 0 1 1
                                     HOME 0 0 0 0 0 1 0 1 1
                                   OFFICE 0 0 0 0 0 1 0 1 1
@@ -150,7 +150,7 @@
                                    STORE 0 0 0 0 0 1 0 2 1
                                 PROGRAMS 0 1 0 0 0 1 0 1 1
                                     MIND 0 0 0 0 0 1 0 0 1
-                                     CAR 0 1 0 0 0 1 0 1 0
+                                     CAR 0 1 0 0 0 1 0 1 1
                               BACKGROUND 0 0 0 0 0 1 0 1 1
                                   CUSTOM 0 0 0 0 0 0 0 0 0
                                     SITE 0 0 0 0 0 1 0 1 1
@@ -161,7 +161,7 @@
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                  GATEWAY 0 0 0 0 0 0 0 0 0
                                     SONY 0 1 1 0 0 1 0 0 0
-                                   VISTA 0 0 0 0 0 0 0 1 1
+                                   VISTA 0 0 0 0 0 0 0 1 0
                                        X 0 0 1 0 0 1 0 2 0
                                   OTHERS 0 0 0 0 0 1 0 0 1
                                    KNOCK 0 0 0 0 0 0 0 0 0
@@ -180,16 +180,12 @@
                                  WALMART 0 0 1 0 0 0 0 0 1
                                   500BUX 0 0 0 0 0 0 0 0 1
                                    COSTS 0 0 0 0 0 1 0 1 1
-                                     10. 0 0 0 0 0 0 0 1 1
-                                 CORNERS 0 0 0 0 0 1 0 0 1
-                                   DEALS 0 0 0 0 0 1 0 1 1
-                                    LOTS 0 0 0 0 0 1 0 1 1
-                                  PLACES 0 0 0 0 0 1 0 1 1
                                  ANALOGY 0 0 0 0 0 0 0 1 1
                                     BANG 0 0 0 0 0 1 0 0 0
                                     WISE 0 0 0 0 0 1 0 1 1
                                SOUNDCARD 0 0 0 0 0 0 0 1 1
                                HOMEBUILT 0 0 0 0 0 0 0 1 1
+                                   DEALS 0 0 0 0 0 1 0 1 1
                                  CIRCUIT 0 0 0 0 0 1 0 0 0
                                     CITY 0 1 0 0 0 1 0 1 1
                                     WATT 0 0 0 0 0 1 0 0 0
@@ -215,6 +211,11 @@
                                     ROAD 0 0 0 0 0 1 0 1 1
                                     BELL 0 1 0 0 0 1 0 1 1
                                     2GIG 0 0 0 0 0 0 0 1 1
+                               EVOLUTION 0 0 0 0 0 1 0 1 1
+                                     10. 0 0 0 0 0 0 0 1 1
+                                 CORNERS 0 0 0 0 0 1 0 0 1
+                                    LOTS 0 0 0 0 0 1 0 1 1
+                                  PLACES 0 0 0 0 0 1 0 1 1
                                  SCROLLS 0 0 0 0 0 0 0 1 1
                                 OBLIVION 0 0 0 0 0 0 0 1 1
                                    447.4 0 0 0 0 0 0 0 0 1
@@ -235,4 +236,3 @@
                                     FALL 1 1 0 0 0 1 0 0 0
                                   SHORTS 0 0 0 0 0 1 0 1 1
                                      YRS 0 0 0 0 0 0 0 1 1
-                               EVOLUTION 0 0 0 0 0 1 0 1 1

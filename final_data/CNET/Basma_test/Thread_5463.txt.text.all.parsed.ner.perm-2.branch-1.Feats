@@ -1,4 +1,4 @@
-                                    TIME 1 1 0 0 0 1 0 1 1
+                                    TIME 1 1 0 0 0 1 0 1 0
                                   PERSON 0 1 0 0 0 1 0 1 1
                                     THAT 0 0 0 0 0 0 0 0 1
                                      THE 0 0 0 0 0 0 0 1 1
@@ -28,7 +28,7 @@
                                     THIS 0 0 0 0 0 1 0 1 1
                                      TWO 0 0 0 0 0 0 1 1 1
                              MOTHERBOARD 0 0 0 0 0 0 0 1 1
-                                      PC 0 0 0 0 0 1 0 3 1
+                                      PC 0 0 0 0 0 1 0 3 0
                                  PROBLEM 1 0 0 0 0 1 0 1 1
                                     LINK 0 0 0 0 0 1 0 1 1
                                   AND/OR 0 0 0 0 0 0 0 1 1
@@ -42,7 +42,7 @@
                                      AMD 0 0 0 0 0 1 0 1 1
                                   STICKS 0 0 0 0 0 1 0 1 1
                                      RAM 0 0 1 0 0 1 0 0 1
-                                    CASE 0 1 0 0 0 1 0 3 1
+                                    CASE 0 1 0 0 0 1 0 3 0
                                     FANS 0 0 0 0 0 1 0 1 1
                                     SIDE 1 0 0 0 0 1 0 1 0
                                    THING 0 0 0 0 0 1 0 2 1
@@ -67,12 +67,12 @@
                                  DESKTOP 0 0 0 0 0 0 1 1 0
                                   GAMING 0 0 0 0 0 0 0 0 1
                                      CPU 0 0 0 0 0 0 0 2 1
-                                   INTEL 0 0 1 0 0 1 0 1 0
+                                   INTEL 0 0 1 0 0 1 0 1 1
                                     CORE 0 0 0 0 0 1 0 1 1
-                                GRAPHICS 0 0 0 0 0 1 0 1 1
+                                GRAPHICS 0 0 0 0 0 1 0 1 0
                              PERFORMANCE 1 1 0 0 0 1 0 0 0
                                SOMETHING 0 0 0 0 0 1 0 1 1
-                                    PART 1 0 0 0 0 1 0 1 1
+                                    PART 1 0 0 0 0 1 0 1 0
                                    PRICE 0 1 0 0 0 1 0 2 0
                                     MUCH 0 0 0 0 0 0 1 1 1
                                    REPLY 0 0 0 0 0 1 0 1 1
@@ -85,14 +85,14 @@
                                    STOCK 0 1 0 0 0 1 0 0 0
                               PROCESSORS 0 0 0 0 0 1 0 3 1
                                     DELL 0 0 1 0 0 0 0 0 0
-                                 MONITOR 0 0 0 0 0 0 0 3 1
+                                 MONITOR 0 0 0 0 0 0 0 3 0
                                   INSIDE 0 0 0 0 0 1 0 1 1
                                      GHZ 0 0 0 0 0 0 0 1 0
                                   800MHZ 0 0 0 0 0 0 0 0 1
-                                     FSB 0 0 0 0 0 0 0 2 1
+                                     FSB 0 0 1 0 0 0 0 2 1
                                    THATS 0 0 0 0 0 0 0 0 1
                                    TODAY 0 0 0 6 0 1 0 1 1
-                                  ATHLON 0 0 0 0 0 0 0 1 1
+                                  ATHLON 0 0 0 0 0 0 0 1 0
                                      LCD 0 0 0 0 0 0 0 1 1
                                   AMOUNT 0 0 0 0 0 1 0 1 1
                                     POST 0 0 0 0 0 1 0 1 1
@@ -136,11 +136,11 @@
                                    CASES 0 0 0 0 0 1 0 1 1
                                  HEATING 0 0 0 0 0 0 0 0 0
                                      MHZ 0 0 0 0 0 0 0 1 1
-                                     DUO 0 0 0 0 0 1 0 3 0
+                                     DUO 0 0 0 0 0 1 0 3 1
                                  SYSTEMS 0 0 0 0 0 1 0 1 1
                                    SITES 0 0 0 0 0 1 0 1 1
                                   ISSUES 0 0 0 0 0 1 0 2 1
-                                 GATEWAY 0 0 0 0 0 0 0 3 1
+                                 GATEWAY 0 0 0 0 0 0 0 3 0
                                   PERIOD 0 0 0 0 0 1 0 1 1
                                    VISTA 0 0 0 0 0 0 0 0 1
                                   2.4GHZ 0 0 0 0 0 0 0 1 1
@@ -148,10 +148,10 @@
                                   COMPAQ 0 0 1 0 0 1 0 1 0
                                    STATE 0 1 0 0 0 1 0 0 0
                                      HEY 0 0 1 0 0 1 0 0 1
-                                   E6420 0 0 0 0 0 0 0 1 1
-                                   GAMER 0 0 0 0 0 0 0 1 1
                                  22&QUOT 0 0 0 0 0 0 0 1 1
                                     LACK 0 0 0 0 0 1 0 1 1
+                                   E6420 0 0 0 0 0 0 0 1 1
+                                   GAMER 0 0 0 0 0 0 0 1 1
                                       X2 0 0 0 0 0 0 0 0 0
                                    6000+ 0 0 0 0 0 0 0 3 1
                                   ENERGY 0 0 0 0 0 1 0 1 1
@@ -210,7 +210,7 @@
                                      ARM 0 0 0 0 0 1 0 1 1
               EDITING/ENCODING/RECORDING 0 0 0 0 0 0 0 1 1
                                      BTX 0 0 0 0 0 0 0 0 0
-                                     LCS 0 0 0 0 0 0 0 1 1
+                                     LCS 0 0 0 0 0 0 0 1 0
                         TITLE-LSB-ALBEIT 0 0 0 0 0 0 0 1 1
                                     WIKI 0 0 1 0 0 0 0 0 0
                                     .COM 0 0 0 0 0 0 0 0 1
