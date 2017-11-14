@@ -8,7 +8,7 @@
                                      ONE 0 0 0 0 0 1 0 0 1
                                    DRIVE 0 0 0 0 0 1 0 2 1
                                     DISK 0 0 0 0 0 1 0 2 0
-                                 MACHINE 0 1 0 0 0 1 0 1 0
+                                 MACHINE 0 1 0 0 0 1 0 1 1
                                    ERROR 0 0 0 0 0 1 0 0 0
                                     BOOT 0 0 0 0 0 0 0 0 0
                                     BIOS 0 0 0 0 0 0 0 1 1
@@ -46,7 +46,7 @@
                                PARTITION 0 0 0 0 0 0 1 1 1
                                COMPUTERS 0 0 0 0 0 1 0 0 1
                                 SOFTWARE 0 1 0 0 0 1 0 1 1
-                                    TYPE 0 0 0 0 0 1 0 0 1
+                                    TYPE 0 0 0 0 0 1 0 0 0
                              CONNECTIONS 0 0 0 0 0 1 0 1 1
                                     DATA 0 0 0 0 0 1 0 1 1
                                    FILES 0 0 0 0 0 1 0 2 1
@@ -54,9 +54,9 @@
                                   UPDATE 0 0 0 0 0 0 0 1 1
                                   OPTION 0 0 0 0 0 1 0 0 0
                                REBOOTING 0 0 0 0 0 0 0 0 1
-                                    INFO 0 0 1 0 0 0 0 1 0
+                                    INFO 0 0 0 0 0 0 0 1 1
                                   SOURCE 0 0 0 0 0 1 0 1 1
-                                   SPACE 0 0 0 0 0 1 0 1 0
+                                   SPACE 0 0 0 0 0 1 0 1 1
                                     SITE 0 0 0 0 0 1 0 1 1
                                      BUG 0 0 0 0 0 1 0 1 1
                               PARTITIONS 0 0 0 0 0 0 0 1 1
@@ -76,7 +76,7 @@
                                       F8 0 0 0 0 0 0 0 0 1
                                 START-UP 0 0 0 0 0 0 0 0 0
                                   ESCAPE 0 0 0 0 0 1 0 0 0
-                               DOCUMENTS 0 1 0 0 0 1 0 1 0
+                               DOCUMENTS 0 1 0 0 0 1 0 1 1
                                  CHANCES 0 0 0 0 0 1 0 2 1
                                  FOLDERS 0 0 0 0 0 0 1 2 1
                                  LETTERS 0 1 0 0 0 1 0 0 0
