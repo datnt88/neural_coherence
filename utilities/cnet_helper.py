@@ -22,12 +22,10 @@ def init_vocab(emb_size):
     f3 = ['F30','F31']
     f4 = ['F40','F41','F42','F43','F44','F45','F46','F47','F48','F49']
 
-    vocabs += [x+y+z+k for x in roles for y in f1 for z in f3 for k in f4]
+    #vocabs += [x+y+z+k for x in roles for y in f1 for z in f3 for k in f4]
 
     #print vocabs
     
-
-    '''
     v2s = list(itertools.product('SOX-', repeat=2))
     for tupl in v2s:
         vocabs.append(''.join(tupl))
@@ -40,10 +38,14 @@ def init_vocab(emb_size):
     for tupl in v4s:
         vocabs.append(''.join(tupl))
 
-    #v5s = list(itertools.product('SOX-', repeat=5))
-    #for tupl in v5s:
-    #    vocabs.append(''.join(tupl))
-    '''
+    v5s = list(itertools.product('SOX-', repeat=5))
+    for tupl in v5s:
+        vocabs.append(''.join(tupl))
+    
+    v6s = list(itertools.product('SOX-', repeat=6))
+    for tupl in v6s:
+        vocabs.append(''.join(tupl))
+    
 
     np.random.seed(2017)
     E    = 0.01 * np.random.uniform( -1.0, 1.0, (len(vocabs), emb_size))
@@ -460,7 +462,6 @@ def get_pos_and_neg_pairs(file): # get every pair from a thread
 #=====================================================================
 #loading data by branch
 #
-#
 #=====================================================================
 def load_data_by_branch(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, w_size=3, vocabs=None, emb_size=300, fn=None):
     # loading entiry-grid data from list of pos document and list of neg document
@@ -588,8 +589,6 @@ def load_branch_POS_EGrid(filename="", w_size=3, maxlen=1000, vocabs=None , feat
 
     return X_1
 
-
-
 def load_branch_NEG_EGrid(filename="", w_size=3, maxlen=1000, vocabs=None , feats=None, perm=None):
     cmtIDs  = [line.rstrip('\n') for line in open(filename + ".commentIDs")]
     cmtIDs = [int(i) for i in cmtIDs] 
@@ -632,13 +631,7 @@ def load_branch_NEG_EGrid(filename="", w_size=3, maxlen=1000, vocabs=None , feat
 
     return X_1
 
-
-
-
 def get_eTrans_by_Index_4Insert(e_trans="", idxs=None, f_list={}, feats=None, perm=None):
-
-        
-
     x = e_trans.split()
     entity = x[0]
     x = x[1:] # remove the first 
@@ -688,8 +681,6 @@ def get_eTrans_by_Index_4Insert(e_trans="", idxs=None, f_list={}, feats=None, pe
     return ' '.join(x_f)
 
 
-
-
 def get_eTrans_by_Index(e_trans="", idxs=None, f_list={}, feats=None):
 
     x = e_trans.split()
@@ -733,23 +724,6 @@ def get_eTrans_by_Index(e_trans="", idxs=None, f_list={}, feats=None):
         x_f.append(new_role)
 
     return ' '.join(x_f)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1006,18 +980,112 @@ def find_len(sent=""):
 
 
 
+#=====================================================================
+#loading data by tree/sentecne structure
+#
+#=====================================================================
+def load_data_by_tree(filelist="list_of_grid.txt", perm_num = 20, maxlen=15000, w_size=3, vocabs=None, emb_size=300, fn=None):
+    # loading entiry-grid data from list of pos document and list of neg document
+    list_of_files = [line.rstrip('\n') for line in open(filelist)]
+    
+    # process postive gird, convert each file to be a sentence
+    sentences_1 = []
+    sentences_0 = []
+    
+    for file_id, file in enumerate(list_of_files):
+        #print(file) 
+
+        #loading commentIDs
+        depths  = [int(line) for line in open(file + ".depth")]
+        egrids = [line.rstrip('\n') for line in open(file + ".EGrid")]
+        f_lines = [line.rstrip('\n') for line in open(file + ".Feats")]
+        f_list ={}
+
+        #print depths
+
+        for line in f_lines:
+            x = line.split()
+            entity = x[0]
+            x = x[1:] # remnove the entity name
+            f_list[entity] = x
+
+        grid_1 = "0 "* w_size
+        for idx, line in enumerate(egrids):
+            e_trans = get_eTrans_by_Depth(e_trans=line, depths=depths, f_list=f_list, feats=fn) # merge the grid of positive document 
+            if len(e_trans) !=0:
+                 #print e_trans
+                grid_1 = grid_1 + e_trans + " " + "0 "* w_size
+
+            #print grid_1
+                
+        p_count = 0
+        for i in range(1,perm_num+1): # reading the permuted docs
+            permuted_lines = [p_line.rstrip('\n') for p_line in open(file+ ".EGrid" +"-"+str(i))]    
+            grid_0 = "0 "* w_size
+
+            for idx, p_line in enumerate(permuted_lines):
+                e_trans_0 = get_eTrans_by_Depth(e_trans=p_line, depths=depths, f_list=f_list, feats=fn)
+                if len(e_trans_0) !=0:
+                    grid_0 = grid_0 + e_trans_0  + " " + "0 "* w_size
+
+            if grid_0 != grid_1: #check the duplication
+                p_count = p_count + 1
+                sentences_0.append(grid_0)        
+            
+        for i in range (0, p_count): #stupid code
+            sentences_1.append(grid_1)
+
+    assert len(sentences_0) == len(sentences_1)
 
 
+    vocab_idmap = {}
+    for i in range(len(vocabs)):
+        vocab_idmap[vocabs[i]] = i
+
+    # Numberize the sentences
+    X_1 = numberize_sentences(sentences_1, vocab_idmap)
+    X_0  = numberize_sentences(sentences_0,  vocab_idmap)
+    
+    X_1 = adjust_index(X_1, maxlen=maxlen, window_size=w_size)
+    X_0  = adjust_index(X_0,  maxlen=maxlen, window_size=w_size)
+
+    X_1 = sequence.pad_sequences(X_1, maxlen)
+    X_0 = sequence.pad_sequences(X_0, maxlen)
+
+    return X_1, X_0
 
 
+def get_eTrans_by_Depth(e_trans="", depths=None, f_list={}, feats=None):
 
+    x = e_trans.split()
+    entity = x[0]
+    x = x[1:] # remove the first 
 
+    length = len(x)
+    e_occur = x.count('X') + x.count('S') + x.count('O') #counting the number of occurrence of entities
+    if length > 80:
+        if e_occur < 3:
+            return ""
+    elif length > 20:
+        if e_occur < 2:
+            return ""
 
+    final_sent = []
 
+    for lv in range(max(depths)+1):
+        idxs = [i for i,idx in enumerate(depths) if idx == lv]
+        tmp = ""
+        for j in idxs[0:6]:  # pick the first 6 role in a level
+            tmp = tmp + x[j]
 
+        #TODO; maybe cut off the token latter on
+        #if len(tmp) > 3:
+        #    # pick up the highest grammarical role
+        #    tmp = get_right_encode(vb=tmp)
 
+        final_sent.append(tmp)
 
-
+    return ' '.join(final_sent)
 
 
 
